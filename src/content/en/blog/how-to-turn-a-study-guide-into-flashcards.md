@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1en~1blog~1how-to-turn-a-study-guide-into-flashcards.md"
 title: "How to Turn a Study Guide Into Flashcards in 2026: From AI Study Guides and Class Packets to FSRS Cards"
 description: "Want to turn a study guide into flashcards in 2026? Here is a practical workflow for AI study guides, teacher handouts, exam packets, and review sheets using AI drafting plus FSRS review."
 date: "2026-04-12"

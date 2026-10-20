@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-turn-quiz-results-into-flashcards.md"
 title: "2026年版 クイズ結果をフラッシュカードに変える方法: 間違いだけ残して、点数レポートは手放す"
 description: "2026年に授業の小テスト、LMSのフィードバック、AIのクイズ要約を使っているなら。間違えた問題、惜しかった問題、繰り返す混乱をFSRSフラッシュカードに変える実践的な手順です。"
 date: "2026-07-10"

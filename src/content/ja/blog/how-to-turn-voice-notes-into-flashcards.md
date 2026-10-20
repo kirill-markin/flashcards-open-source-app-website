@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-turn-voice-notes-into-flashcards.md"
 title: "2026年版 音声メモをフラッシュカードに変える方法: 全文を書き直さず、文字起こしからFSRSカードを作る"
 description: "短い音声メモを録音し、文字起こしし、AIでカードの下書きを作り、仕上げたカードをFSRSで学習する実用的な手順を紹介します。2026年に音声メモをフラッシュカード化したい人向けの記事です。"
 date: "2026-03-28"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1gre-vocabulary-flashcards.md"
 title: "2026年版 GRE語彙フラッシュカード: Text Completion と Sentence Equivalence に効くデッキの作り方"
 description: "ただ単語をめくるだけではない GRE語彙フラッシュカードを探している人向けに、Text Completion、Sentence Equivalence、例文、FSRS の間隔反復まで含めた、2026年向けの実践的な運用を紹介します。"
 date: "2026-05-05"

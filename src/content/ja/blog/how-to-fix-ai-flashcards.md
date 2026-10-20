@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-fix-ai-flashcards.md"
 title: "2026年版 AIフラッシュカードの直し方: ChatGPTやNotebookLMの下書きをFSRSで復習する前に整える"
 description: "2026年にChatGPT Study ModeやNotebookLMなどのAIツールでフラッシュカードを作っていますか。誤った情報を見抜き、詰め込みすぎたカードを分割し、曖昧な問いを削り、最後にFSRSで回せるデッキへ整える実践的な手順を紹介します。"
 date: "2026-04-26"

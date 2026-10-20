@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1en~1blog~1how-to-use-flashcards-for-system-design-interviews.md"
 title: "How to Use Flashcards for System Design Interviews in 2026: Trade-Offs, Bottlenecks, and Architecture Patterns That Actually Stick"
 description: "Preparing for system design interviews in 2026? Here is a practical flashcards workflow for caching, queues, bottlenecks, trade-offs, and mock-interview misses using active recall plus FSRS."
 date: "2026-06-08"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1en~1blog~1how-to-avoid-ai-flashcard-overload.md"
 title: "How to Avoid AI Flashcard Overload in 2026: Keep the Good Cards, Skip the Daily Review Pileup"
 description: "Using AI to turn notes, PDFs, lecture recordings, or photos into flashcards? Here is a practical 2026 workflow to filter weak cards early, keep review load sustainable, and study the final deck with FSRS."
 date: "2026-05-26"

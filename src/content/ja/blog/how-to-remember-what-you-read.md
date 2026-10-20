@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-remember-what-you-read.md"
 title: "2026年版 読んだ内容を覚える方法: 読書をハイライトの山ではなく想起の練習に変える"
 description: "章を読み終えても翌日には抜けてしまうなら、この実践的な2026年向け手順で、読む単位を小さくし、想起チェックを挟み、FSRSフラッシュカードで読んだ内容を定着させる方法を紹介します。"
 image: "/blog/how-to-remember-what-you-read.png"

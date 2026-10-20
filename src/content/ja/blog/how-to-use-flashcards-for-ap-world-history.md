@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-use-flashcards-for-ap-world-history.md"
 title: "2026年版 AP World History向けフラッシュカード勉強法: 年代軸・テーマ・DBQの根拠を定着させる"
 description: "2026年のAP World History対策に向けて、年代軸、テーマ、DBQの根拠、誤答、AI下書き、FSRS復習をどう組み合わせるかを実践的に整理します。"
 date: "2026-05-22"

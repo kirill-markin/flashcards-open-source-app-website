@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1flashcards-vs-practice-tests.md"
 title: "2026年版 フラッシュカード vs 模擬試験: 使い分け方と組み合わせ方"
 description: "短い事実や区別をあとで取り出したいならフラッシュカード。試験形式の想起、判断、時間配分を確かめたいなら模擬試験。多くの場合、いちばん実用的なのは両方を重複なく組み合わせることです。"
 date: "2026-07-08"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-use-flashcards-for-advanced-chemistry.md"
 title: "2026年版 高校の発展化学でフラッシュカードを使う方法: 式、実験の考察、ミスの修正"
 description: "高校の発展化学で、式、平衡、酸塩基、実験データの読み取り、記述式問題のミスを整理する実践的なフラッシュカード活用法です。デッキを第二の教科書にはしません。"
 image: "/blog/how-to-use-flashcards-for-advanced-chemistry.png"

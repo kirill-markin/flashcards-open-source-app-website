@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1en~1blog~1how-to-use-flashcards-for-the-gmat.md"
 title: "How to Use Flashcards for the GMAT in 2026: A Better Deck for Quant, Critical Reasoning, and Data Insights"
 description: "A practical GMAT flashcards workflow for the current GMAT in 2026, with cards for Quantitative Reasoning, Verbal Reasoning, Data Insights, and official-practice misses instead of outdated vocab decks."
 image: "/blog/how-to-use-flashcards-for-the-gmat.png"

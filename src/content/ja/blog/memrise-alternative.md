@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1memrise-alternative.md"
 title: "Memriseの代替アプリ（2026年版）：MemriseとNibomoを比較"
 description: "MemriseとNibomoを比較。公式語学コース、自分専用の語彙、FSRS-6、オフライン学習、データ移行、オープンソース、セルフホスティングの違いを解説します。"
 date: "2026-03-22"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-use-ai-for-homework-without-cheating.md"
 title: "2026年に宿題でAIをズルせず使う方法: 理解には使い、提出は自分でやり、ミスだけを残す"
 description: "2026年に宿題でAIを使うなら、課題の理解、詰まった箇所の特定、考え方の確認までにとどめ、提出する答えそのものは自分で作るべきです。返却後はミスだけをフラッシュカードに残せます。"
 image: "/blog/how-to-use-ai-for-homework-without-cheating.png"

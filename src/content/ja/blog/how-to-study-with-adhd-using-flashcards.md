@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-study-with-adhd-using-flashcards.md"
 title: "2026年版 ADHDの人がフラッシュカードで勉強する方法: 始める負担を減らし、復習キューを小さく保ち、早く手応えを得る"
 description: "2026年時点の実践的で非医療的なADHD向けフラッシュカード学習ガイドです。始める負担を下げ、短い復習セッション、AIでの確認、カードの整理、FSRSを使って、復習を第二のストレス源にしにくくします。"
 date: "2026-05-21"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-use-flashcards-for-the-dat.md"
 title: "2026年版 DAT向けフラッシュカード活用法: Biology・Organic Chemistry・PAT・模試の取りこぼしを本当に定着させる"
 description: "2026年にDATを受ける人向けに、最新のADA出題範囲を踏まえながら、biology、organic chemistry、PAT、quantitative reasoning、模試のミスをAIの下書きとFSRS復習で回す実践的な方法を解説します。"
 image: "/blog/how-to-use-flashcards-for-the-dat.png"

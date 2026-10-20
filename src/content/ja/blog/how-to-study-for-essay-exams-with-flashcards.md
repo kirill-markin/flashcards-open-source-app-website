@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-study-for-essay-exams-with-flashcards.md"
 title: "2026年版 フラッシュカードで論述試験を勉強する方法: blue-book試験と短答試験で本当に定着する準備"
 description: "2026年に使える、論述試験向けの現実的な勉強法を探していますか。論旨、根拠、定義、比較対照のきっかけをフラッシュカードで押さえれば、blue-book試験や短答試験でも本番のプレッシャーの中で答えを引き出しやすくなります。"
 date: "2026-06-28"

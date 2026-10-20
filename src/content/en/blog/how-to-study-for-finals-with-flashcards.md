@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1en~1blog~1how-to-study-for-finals-with-flashcards.md"
 title: "How to Study for Finals With Flashcards in 2026: Notes, Slides, and Practice-Test Misses Into One FSRS Plan"
 description: "A practical finals-week workflow for turning lecture notes, slides, AI study chats, and missed practice questions into front/back flashcards you can actually finish reviewing before exam day."
 image: "/blog/how-to-study-for-finals-with-flashcards.png"

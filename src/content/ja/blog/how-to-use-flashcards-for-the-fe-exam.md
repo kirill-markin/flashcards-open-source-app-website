@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-use-flashcards-for-the-fe-exam.md"
 title: "2026年版 FE試験にフラッシュカードを使う方法: 公式・単位換算・演習ミスを定着させる"
 description: "2026年にFE試験を受けるなら、公式、単位換算、ハンドブック前提の復習、概念上の落とし穴、演習問題の取りこぼしを間隔反復で整理する実践的なフラッシュカード運用が有効です。"
 date: "2026-07-02"

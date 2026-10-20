@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1en~1blog~1how-to-study-over-summer-break-with-flashcards.md"
 title: "How to Study Over Summer Break With Flashcards in 2026: Keep Hard Classes Alive Without a Huge Daily Deck"
 description: "A practical summer-break flashcard plan for retention, placement tests, retakes, and prerequisite refresh. Keep one small FSRS deck alive without turning June or July into school again."
 image: "/blog/how-to-study-over-summer-break-with-flashcards.png"

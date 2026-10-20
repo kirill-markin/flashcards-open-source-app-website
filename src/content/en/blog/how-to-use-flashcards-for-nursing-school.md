@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1en~1blog~1how-to-use-flashcards-for-nursing-school.md"
 title: "How to Use Flashcards for Nursing School in 2026: NCLEX, Pharmacology, Lab Values, and Clinical Judgment That Sticks"
 description: "Want a practical nursing school flashcards workflow in 2026? Here is how to use flashcards for NCLEX prep, pharmacology, dosage calculations, lab values, prioritization, and clinical judgment without turning your deck into a second set of notes."
 date: "2026-04-17"

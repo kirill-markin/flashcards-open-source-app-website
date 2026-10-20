@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1en~1blog~1what-should-go-on-a-flashcard.md"
 title: "What Should Go on a Flashcard in 2026? A Practical Filter for Notes, AI Drafts, and Lecture Slides"
 description: "Generating flashcards is easy in 2026. Deciding what actually deserves a card is the hard part. Here is a practical filter for notes, AI drafts, lecture slides, and textbook pages so you keep the cards worth reviewing with FSRS and skip the rest."
 image: "/blog/what-should-go-on-a-flashcard.png"

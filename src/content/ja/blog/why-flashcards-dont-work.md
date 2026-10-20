@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1why-flashcards-dont-work.md"
 title: "2026年、フラッシュカードが効かない理由: 復習しているのに覚えられない5つの原因"
 description: "フラッシュカードが効かず、復習した内容をすぐ忘れてしまうときは、想起ではなく再認で答えている、AIカードが詰め込みすぎている、リーチカードが残っている、FSRSの復習負荷が重すぎる、あるいは本来は問題演習が必要な内容までカード化していることがよくあります。"
 date: "2026-06-23"

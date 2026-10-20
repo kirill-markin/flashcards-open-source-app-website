@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-often-should-you-review-flashcards.md"
 title: "フラッシュカードはどのくらいの頻度で復習すべき？ スケジュールはFSRSに任せよう"
 description: "毎日確認するのは、復習期限を迎えたカードだけ。すべてのカードを毎日復習する必要はありません。FSRSが想起の結果や目標保持率、無理なく続けられる学習量に応じて復習間隔を調整する仕組みを解説します。"
 date: "2026-07-19"

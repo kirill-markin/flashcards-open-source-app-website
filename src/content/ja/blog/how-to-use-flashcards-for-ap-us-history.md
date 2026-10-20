@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-use-flashcards-for-ap-us-history.md"
 title: "2026年版 AP US History向けフラッシュカードの使い方: APUSHの時代区分、DBQ、根拠をどう勉強するか"
 description: "2026年のAP US History対策に向けて、実用的なフラッシュカード運用を探している人へ。APUSHの時代区分、テーマ、史料の読み方、MCQセット、SAQ、DBQ、LEQ、間隔反復を、デッキを第二の教科書にしない形でどう整理するかをまとめました。"
 image: "/blog/how-to-use-flashcards-for-ap-us-history.png"

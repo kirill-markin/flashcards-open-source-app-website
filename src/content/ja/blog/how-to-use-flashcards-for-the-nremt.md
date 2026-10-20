@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-use-flashcards-for-the-nremt.md"
 title: "2026年版 NREMT向けフラッシュカード活用法: CATの失点、Primary Assessment、TEI対策を確実に定着させる"
 description: "2026年にNREMTを受験するなら、CATで落としやすい判断、Primary Assessment、TEI問題形式、プロトコル想起に合わせた実践的なフラッシュカード運用が有効です。章を丸ごと暗記せずに対策する方法をまとめました。"
 date: "2026-06-14"

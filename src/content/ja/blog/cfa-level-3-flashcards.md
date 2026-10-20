@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1cfa-level-3-flashcards.md"
 title: "2026年版 CFA Level IIIフラッシュカード: 専門パスウェイ別のデッキを作る"
 description: "CFA Level IIIの指示語、専門パスウェイの判断、計算式、模試のミスをカード化する方法を解説。時間制限付きの記述式問題演習との使い分けも扱います。"
 date: "2026-07-21"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-turn-gemini-deep-research-into-flashcards.md"
 title: "2026年版: Gemini Deep Research をフラッシュカードに変える方法 レポートは残し、覚えるべきことだけ学ぶ"
 description: "2026年に Gemini Deep Research を使っている人向けの実践手順です。出典付きの主張、重要な違い、判断基準をレポートから抜き出し、FSRS で復習しやすいフラッシュカードに整える方法を解説します。"
 date: "2026-04-20"

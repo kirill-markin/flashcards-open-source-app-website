@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-use-flashcards-for-ap-biology.md"
 title: "2026年版 AP Biology向けフラッシュカードの使い方: 細胞、FRQ、データを本当に定着させる"
 description: "2026年のAP Biologyに向けて実践的なフラッシュカード運用を探しているなら。2026年5月4日のハイブリッド型デジタル試験に向けて、プロセス、実験、FRQの動詞、高配点単元をどう学ぶかを整理します。"
 date: "2026-04-30"

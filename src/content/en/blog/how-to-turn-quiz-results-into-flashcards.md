@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1en~1blog~1how-to-turn-quiz-results-into-flashcards.md"
 title: "How to Turn Quiz Results Into Flashcards in 2026: Keep the Misses, Skip the Score Report"
 description: "Using class quizzes, LMS feedback, or AI quiz recaps in 2026? Here is a practical way to turn missed questions, near-misses, and repeated confusions into FSRS flashcards."
 date: "2026-07-10"

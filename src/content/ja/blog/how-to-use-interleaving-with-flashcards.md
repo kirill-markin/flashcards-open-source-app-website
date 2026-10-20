@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-use-interleaving-with-flashcards.md"
 title: "2026年版 フラッシュカードでインターリービングを使う方法: 間隔反復を崩さずに関連トピックを混ぜる"
 description: "インターリービング、フラッシュカード、FSRSを組み合わせる方法を解説します。何を混ぜ、何を分けるべきかと、難しく感じる練習が長期的な記憶保持に役立つことがある理由を整理します。"
 date: "2026-07-14"

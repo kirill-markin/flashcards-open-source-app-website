@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1en~1blog~1how-to-turn-lecture-recordings-into-flashcards.md"
 title: "How to Turn Lecture Recordings Into Flashcards in 2026: Transcript to FSRS Cards Without Rewatching Everything"
 description: "Want to turn lecture recordings into flashcards without replaying two hours of audio? Here is a practical 2026 workflow: turn the recording into a transcript, draft clean cards with AI, cut the vague ones fast, and study the final deck with FSRS."
 date: "2026-03-26"

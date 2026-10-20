@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1anki-vs-quizlet-vs-open-source-flashcards-app.md"
 title: "【2026年版】Anki・Quizlet・Nibomoを比較：おすすめはどれ？"
 description: "Anki、Quizlet、Nibomoを2026年の最新情報で比較。間隔反復、オフライン学習、AI、データ移行、料金、オープンソース、データ所有権の違いを解説します。"
 image: "/blog/anki-vs-quizlet-vs-open-source-flashcards-app.png"

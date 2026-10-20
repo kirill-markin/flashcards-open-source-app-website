@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-use-flashcards-for-math.md"
 title: "2026年版 数学にフラッシュカードを使う方法: 公式・パターン認識・ミスカード"
 description: "2026年に数学学習でフラッシュカードを使うなら、公式の想起、問題の型の見抜き、繰り返すミスの記録に絞るのが実用的です。実際の問題演習を置き換えず、FSRSの間隔反復で復習効率を高める方法を紹介します。"
 date: "2026-05-08"

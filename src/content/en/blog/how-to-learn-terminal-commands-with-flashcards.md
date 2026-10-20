@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1en~1blog~1how-to-learn-terminal-commands-with-flashcards.md"
 title: "How to Learn Terminal Commands With Flashcards in 2026: Bash, Git, and CLI Workflows That Stick"
 description: "A practical 2026 workflow for learning terminal commands with flashcards. Use Bash help, Git docs, CLI mistakes, and small FSRS decks to remember the commands you actually use."
 date: "2026-06-07"

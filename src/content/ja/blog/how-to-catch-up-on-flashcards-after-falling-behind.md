@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-catch-up-on-flashcards-after-falling-behind.md"
 title: "2026年、遅れたフラッシュカード学習にどう追いつくか: デッキをリセットせず復習の山を立て直す"
 description: "1週間フラッシュカードをさぼった、あるいは Anki の復習が大量にたまった人向けの実用的な 2026 年版リカバリープランです。新しいカードを止め、復習キューを持ち直せる大きさに抑え、質の悪いカードを直しながら、日々の間隔反復に戻る方法を解説します。"
 date: "2026-04-03"

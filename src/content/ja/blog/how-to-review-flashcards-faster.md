@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-review-flashcards-faster.md"
 title: "2026年版 フラッシュカードを速く復習する方法: 毎日の復習を消耗せずに終える"
 description: "フラッシュカードの復習を速くしたい人向けの2026年実践ガイド。遅いカードの摩擦を減らし、復習の膨張を抑え、FSRSで毎日の復習を無理なく終えやすくします。"
 date: "2026-04-19"

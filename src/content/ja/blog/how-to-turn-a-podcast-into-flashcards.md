@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-turn-a-podcast-into-flashcards.md"
 title: "2026年版 ポッドキャストをフラッシュカード化する方法: エピソードを聞き直さず、文字起こしからFSRSカードを作る"
 description: "2026年にポッドキャストをフラッシュカード化したい人向けの実践的な手順です。文字起こしを取り、余分な会話を削り、論点ごとに小さく分けて、使えるカードだけをFSRSで復習します。"
 date: "2026-04-08"

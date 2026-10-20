@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1notebooklm-flashcards-to-spaced-repetition.md"
 title: "2026年版: NotebookLM のフラッシュカードを本物の間隔反復に変える方法 書き出して整え、FSRS で復習する"
 description: "NotebookLM のフラッシュカードは使っているが、その先にきちんとした復習システムも欲しい人向けの実践的な手順です。カードをエクスポートし、表現を整え、実際に続けられる FSRS 対応のフラッシュカードアプリへ移します。"
 date: "2026-03-30"

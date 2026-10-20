@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1en~1blog~1how-to-prune-a-flashcard-deck.md"
 title: "How to Prune a Flashcard Deck in 2026: Delete, Suspend, or Rewrite Cards Before FSRS Buries You in Reviews"
 description: "Too many flashcards and too many reviews usually mean your live deck needs triage, not more discipline. Here is a practical 2026 workflow for pruning a flashcard deck with delete, suspend, rewrite, leech cleanup, and FSRS review-load decisions."
 date: "2026-07-01"

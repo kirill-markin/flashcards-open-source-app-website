@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1en~1blog~1how-to-use-flashcards-for-the-nremt.md"
 title: "How to Use Flashcards for the NREMT in 2026: CAT Misses, Primary Assessment, and TEI Practice That Actually Sticks"
 description: "Preparing for the NREMT in 2026? This practical flashcard workflow helps you fix CAT misses, primary assessment decisions, TEI item types, and protocol recall without memorizing whole chapters."
 date: "2026-06-14"

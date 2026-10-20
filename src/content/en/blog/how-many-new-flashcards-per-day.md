@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1en~1blog~1how-many-new-flashcards-per-day.md"
 title: "How Many New Flashcards Per Day in 2026? Build an FSRS Review Load You Can Actually Finish"
 description: "Wondering how many new flashcards per day is sustainable? Here is a practical 2026 rule: start from available review time, not ambition, then set a daily new-card limit you can actually finish without drowning in due reviews."
 date: "2026-03-31"

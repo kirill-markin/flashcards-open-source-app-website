@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-fix-leech-flashcards.md"
 title: "2026年版 リーチカードの直し方: 何度も間違えるフラッシュカードへの実用的な対処法"
 description: "同じフラッシュカードを何度も忘れるなら、気合いで押し切るよりカード自体を直すほうが効果的です。リーチカードの原因を見極め、書き直し、分割、削除まで進める2026年向けの実用フローをまとめました。"
 date: "2026-07-07"

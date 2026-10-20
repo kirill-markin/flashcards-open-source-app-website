@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-use-flashcards-for-nursing-school.md"
 title: "2026年版 看護学校でのフラッシュカード活用法: NCLEX・薬理学・検査値・臨床判断をしっかり定着させる"
 description: "2026年に看護学校向けフラッシュカードを実践的に使いたいなら、NCLEX対策、薬理学、投与量計算、検査値、優先順位付け、臨床判断をどうカード化するかが重要です。デッキを第二のノート集にしないための進め方をまとめました。"
 date: "2026-04-17"

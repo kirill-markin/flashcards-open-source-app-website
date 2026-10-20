@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1en~1blog~1how-to-use-flashcards-for-usmle-step-1.md"
 title: "How to Use Flashcards for USMLE Step 1 in 2026: Systems, Question Bank Misses, and Images That Actually Stick"
 description: "Need a practical USMLE Step 1 flashcards workflow for 2026? Here is how to study integrated systems, pathology images, pharmacology, and question-bank mistakes for the pass/fail exam with FSRS."
 date: "2026-05-01"

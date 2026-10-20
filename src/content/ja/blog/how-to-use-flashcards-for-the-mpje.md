@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-use-flashcards-for-the-mpje.md"
 title: "2026年版 MPJE向けフラッシュカードの使い方: MPJE・UMPJE対策のための薬事法デッキを作る"
 description: "2026年に MPJE を受験するなら、MPJE と UMPJE の違いを踏まえ、統一ルールと州固有ルールを分け、間違えた問題をカード化し、FSRS で復習する流れが重要です。"
 date: "2026-06-13"

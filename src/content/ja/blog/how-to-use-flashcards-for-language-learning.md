@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-use-flashcards-for-language-learning.md"
 title: "2026年版: 語学学習にフラッシュカードを使う方法 単語・例文・復習を本当に定着させる"
 description: "死んだ単語リストを暗記するだけで終わらせず、2026年に語学学習でフラッシュカードを使いたい人向けの実践的な方法です。単語、例文カード、復習量、FSRS による間隔反復を組み合わせて、実際に定着する学び方にします。"
 date: "2026-04-04"

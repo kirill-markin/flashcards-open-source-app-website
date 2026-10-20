@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-turn-practice-questions-into-flashcards.md"
 title: "2026年版 演習問題をフラッシュカードに変える方法: 間違えた問題からFSRSデッキを作る"
 description: "模試、過去問、クイズのスクリーンショット、誤答を、AIの下書きとFSRS復習で実用的なデッキに変える手順を紹介します。2026年に演習問題をフラッシュカード化したい人向けの記事です。"
 date: "2026-04-11"

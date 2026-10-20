@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-avoid-ai-flashcard-overload.md"
 title: "2026年版 AIフラッシュカードの作りすぎを防ぐ方法: 良いカードだけ残して、毎日の復習を膨らませない"
 description: "ノート、PDF、講義録音、画像からAIでフラッシュカードを作るなら、弱いカードは早い段階で落とし、復習負荷を無理なく保ちながら、残ったカードだけをFSRSで回す流れが実用的です。"
 date: "2026-05-26"

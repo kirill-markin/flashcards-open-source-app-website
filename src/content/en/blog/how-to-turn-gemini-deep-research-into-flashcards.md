@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1en~1blog~1how-to-turn-gemini-deep-research-into-flashcards.md"
 title: "How to Turn Gemini Deep Research Into Flashcards in 2026: Keep the Report, Study What Matters"
 description: "Using Gemini Deep Research in 2026? Here is a practical workflow: turn source-backed claims, distinctions, and decisions from a Gemini report into clean flashcards, then review them with FSRS."
 date: "2026-04-20"

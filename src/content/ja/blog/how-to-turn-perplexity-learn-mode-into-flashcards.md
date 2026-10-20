@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-turn-perplexity-learn-mode-into-flashcards.md"
 title: "2026年版 Perplexity Learn Mode をフラッシュカードに変える方法: ガイド付き検索で弱点を見つけ、FSRSで定着させる"
 description: "2026年に Perplexity Learn Mode を使うなら、この流れがかなり実用的です。講義ノートや配布資料を読み込ませ、ガイド付きの質問とミニクイズで弱点をあぶり出し、残す価値がある出典付きの部分だけを FSRS フラッシュカードにします。"
 date: "2026-05-29"

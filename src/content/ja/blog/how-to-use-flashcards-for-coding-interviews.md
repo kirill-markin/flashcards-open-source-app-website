@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-use-flashcards-for-coding-interviews.md"
 title: "2026年版 コーディング面接向けフラッシュカードの使い方: LeetCodeのパターン、ミス、定着する考え方"
 description: "2026年にコーディング面接用フラッシュカードを使うなら、LeetCodeのミス、アルゴリズムのパターン、技術面接メモをFSRSの間隔反復に落とし込む実践的な方法が有効です。"
 date: "2026-04-14"

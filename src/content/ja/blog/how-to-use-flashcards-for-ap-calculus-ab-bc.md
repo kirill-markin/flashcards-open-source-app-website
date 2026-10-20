@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-use-flashcards-for-ap-calculus-ab-bc.md"
 title: "2026年版 AP Calculus AB・BC向けフラッシュカードの使い方: 極限・微分・FRQの失点を定着させる"
 description: "2026年のAP Calculus AB/BC対策として、極限、微分、積分、Bluebook対応、FRQの失点整理、FSRS復習を実戦向けに回すフラッシュカード活用法をまとめました。"
 date: "2026-06-26"

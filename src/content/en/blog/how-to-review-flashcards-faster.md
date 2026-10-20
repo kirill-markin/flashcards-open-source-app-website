@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1en~1blog~1how-to-review-flashcards-faster.md"
 title: "How to Review Flashcards Faster in 2026: Finish Daily Reviews Without Burning Out"
 description: "Practical 2026 guide to how to review flashcards faster: remove slow-card friction, cut review bloat, and keep daily reviews finishable with FSRS."
 date: "2026-04-19"

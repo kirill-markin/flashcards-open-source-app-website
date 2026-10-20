@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1en~1blog~1active-recall-vs-spaced-repetition.md"
 title: "Active Recall vs Spaced Repetition in 2026: What to Test Now and What to Review Later"
 description: "Active recall vs spaced repetition is not really an either-or choice. Active recall shows what you cannot retrieve yet, and spaced repetition decides which of those misses should come back later in your FSRS review queue."
 date: "2026-06-21"

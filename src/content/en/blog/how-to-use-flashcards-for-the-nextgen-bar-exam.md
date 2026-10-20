@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1en~1blog~1how-to-use-flashcards-for-the-nextgen-bar-exam.md"
 title: "How to Use Flashcards for the NextGen Bar Exam in 2026: Rules, Issue Spotting, and Performance Tasks That Actually Stick"
 description: "Taking the NextGen Bar Exam in 2026? Here is a practical flashcards workflow for black-letter rules, issue spotting, performance tasks, and FSRS without turning your deck into a second outline."
 date: "2026-04-24"

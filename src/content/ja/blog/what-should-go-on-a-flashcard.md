@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1what-should-go-on-a-flashcard.md"
 title: "2026年、フラッシュカードに何を入れるべきか: ノート・AI下書き・講義スライドを見極める実践フィルター"
 description: "2026年はフラッシュカードを作ること自体は簡単です。難しいのは、どの情報が本当にカードにする価値があるかを見極めること。ノート、AI下書き、講義スライド、教科書のページから、FSRSで復習する価値がある内容だけを残すための実践的な判断基準をまとめました。"
 image: "/blog/what-should-go-on-a-flashcard.png"

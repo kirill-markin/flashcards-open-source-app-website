@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-use-flashcards-for-the-pance.md"
 title: "2026年のPANCE向けフラッシュカード活用法: ブループリントタグ、模試フィードバック、300問の持久力"
 description: "2026年にPANCE対策を進めるなら、2025年1月施行のNCCPAブループリント、臨床ヴィネットの誤答、公式模試のフィードバック、300問試験のペースを前提にした実践的なフラッシュカード運用が役立ちます。"
 date: "2026-06-05"

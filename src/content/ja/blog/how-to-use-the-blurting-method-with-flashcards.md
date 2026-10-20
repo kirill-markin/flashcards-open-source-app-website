@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-use-the-blurting-method-with-flashcards.md"
 title: "2026年版 ブラーティング法をフラッシュカードで使う方法: 白紙想起をFSRS復習につなげる"
 description: "2026年版の実践ガイド。ブラーティング法で白紙想起の弱点を見つけ、外した部分だけを明確なフラッシュカードに変え、その後の復習はFSRSで回す流れを解説します。"
 date: "2026-06-19"

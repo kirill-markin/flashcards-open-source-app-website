@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1fsrs-settings.md"
 title: "2026年版 AnkiのおすすめFSRS設定：目標定着率・学習ステップ・復習量"
 description: "Anki 26.08とFSRS-6に対応。desired retention、learning steps、パラメータ最適化、再スケジュール、復習負荷の安全な決め方を解説します。"
 date: "2026-04-25"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-use-flashcards-for-system-design-interviews.md"
 title: "2026年版 システム設計面接向けフラッシュカードの使い方: トレードオフ、ボトルネック、定着するアーキテクチャパターン"
 description: "2026年にシステム設計面接を準備するなら、キャッシュ、キュー、ボトルネック、トレードオフ、模擬面接での弱点をアクティブリコールとFSRSで固める実践的な方法が有効です。"
 date: "2026-06-08"
