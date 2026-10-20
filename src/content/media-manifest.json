@@ -810,6 +810,21 @@
     "bytes": 2117201
   },
   {
+    "publicPath": "/blog/expected-value-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/baa6868938b9b75e11b2606104e537100cd60d6c5c0ea4c1b8f039ac31ce08be.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "baa6868938b9b75e11b2606104e537100cd60d6c5c0ea4c1b8f039ac31ce08be",
+    "bytes": 140458,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/c5f9687810cb460fad9de6e0d349c99e70501764f312b5dc9a19ca8b2e10aab8.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "c5f9687810cb460fad9de6e0d349c99e70501764f312b5dc9a19ca8b2e10aab8",
+      "bytes": 2256734
+    }
+  },
+  {
     "publicPath": "/blog/export-selected-anki-cards.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/cab529222c52a44a9ece1298849d839e0cc1c3d954f493324fd96ae0a4bc21a6.webp",
     "width": 1672,
