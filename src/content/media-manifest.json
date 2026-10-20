@@ -2488,6 +2488,21 @@
     }
   },
   {
+    "publicPath": "/blog/restriction-digest-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/3486f9cc473cd6d645faeb31578163576a48ca11235d8f98208245007bdefa0b.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "3486f9cc473cd6d645faeb31578163576a48ca11235d8f98208245007bdefa0b",
+    "bytes": 139794,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/aa741fd90cbc40e75c8b48cfae0aa40c758ffd9879d78aa46c091b6978ca0e4c.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "aa741fd90cbc40e75c8b48cfae0aa40c758ffd9879d78aa46c091b6978ca0e4c",
+      "bytes": 2192445
+    }
+  },
+  {
     "publicPath": "/blog/restrictive-vs-nonrestrictive-clauses.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/1ef9695160c684971c417cbae88195d04789a21199e4b9a26317e83c1fa78687.png",
     "width": 1672,
