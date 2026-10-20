@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-turn-perplexity-learn-mode-into-flashcards.md"
 title: "2026 年如何把 Perplexity Learn Mode 变成闪卡：用引导式搜索找出薄弱点，再交给 FSRS 复习"
 description: "正在使用 2026 年的 Perplexity Learn Mode？上传讲义或阅读材料，让引导式提问和小测验暴露薄弱点，然后只把那些有引用、值得保留的内容做成 FSRS 闪卡。"
 date: "2026-05-29"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ru~1blog~1how-to-turn-powerpoint-into-flashcards.md"
 title: "Как превратить PowerPoint в карточки в 2026 году: PPT, PPTX и Google Slides без перепечатывания каждого слайда"
 description: "Нужно превратить PowerPoint или Google Slides в карточки в 2026 году? Вот практичный процесс: извлеките текст и заметки докладчика, очистите расплывчатые буллеты с помощью ИИ и повторяйте итоговые карточки через FSRS."
 date: "2026-05-24"

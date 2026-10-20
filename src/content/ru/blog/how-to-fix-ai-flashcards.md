@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ru~1blog~1how-to-fix-ai-flashcards.md"
 title: "Как исправить карточки от ИИ в 2026 году: правьте черновики из ChatGPT и NotebookLM до повторения с FSRS"
 description: "Используете ChatGPT Study Mode, NotebookLM или другой инструмент на базе ИИ для создания карточек в 2026 году? Вот практичный подход: как находить неверные факты, разбивать перегруженные карточки, удалять расплывчатые вопросы и повторять итоговую колоду с FSRS."
 date: "2026-04-26"

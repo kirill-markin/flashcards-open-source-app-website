@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1ccsp-flashcards.md"
 title: "2026 年 CCSP 闪卡：按 8 月 1 日版考试大纲备考"
 description: "按照 2026 年 8 月 1 日版考试大纲制作 CCSP 闪卡：领域平均权重、调整后的 AI/ML 考查范围、决策卡、练习错题与 FSRS 复习。"
 date: "2026-07-18"

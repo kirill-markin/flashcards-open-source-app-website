@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ru~1blog~1how-to-use-flashcards-for-the-mcat.md"
 title: "Как использовать флешкарточки для MCAT в 2026 году: аминокислоты, формулы и ошибки из практики, которые действительно закрепляются"
 description: "Нужен практичный подход к флешкарточкам для MCAT в 2026 году? Вот как использовать карточки для аминокислот, формул, терминов psych/soc и ошибок из практики с интервальным повторением по FSRS."
 date: "2026-04-22"

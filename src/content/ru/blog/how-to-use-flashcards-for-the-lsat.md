@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ru~1blog~1how-to-use-flashcards-for-the-lsat.md"
 title: "Как использовать флешкарточки для LSAT в 2026 году: Logical Reasoning, Reading Comprehension и паттерны неправильных ответов, которые действительно запоминаются"
 description: "Готовитесь к LSAT в 2026 году? Вот практичный подход к флешкарточкам для Logical Reasoning, Reading Comprehension, условной логики и паттернов неправильных ответов с ИИ-черновиками и повторением по FSRS."
 image: "/blog/how-to-use-flashcards-for-the-lsat.png"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1when-to-make-flashcards.md"
 title: "2026 年什么时候做抽认卡最好：等内容真正听懂，再赶在细节变糊之前"
 description: "想知道 2026 年什么时候做抽认卡最合适？这里有一条实用时间规则：先把内容学懂，同一天把其中一小块转成卡片，再把复习交给 FSRS。"
 image: "/blog/when-to-make-flashcards.png"

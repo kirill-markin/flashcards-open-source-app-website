@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-use-flashcards-for-ap-physics-1.md"
 title: "2026 年如何用抽认卡备考 AP Physics 1：力、能量，以及真正能记住的 FRQ 失分点"
 description: "这是一套适合 2026 年 AP Physics 1 的实用抽认卡工作流：复习运动学、受力、能量、图像题、FRQ 失分点，以及真正能留下来的混合数字化考试准备。"
 image: "/blog/how-to-use-flashcards-for-ap-physics-1.png"

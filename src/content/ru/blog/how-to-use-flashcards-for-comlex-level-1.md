@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ru~1blog~1how-to-use-flashcards-for-comlex-level-1.md"
 title: "Как использовать флешкарточки для COMLEX Level 1 в 2026 году: OMM, ошибки в COMSAE и dedicated-подготовка, которая реально закрепляется"
 description: "Готовитесь к COMLEX Level 1 в 2026 году? Вот практичная схема работы с флешкарточками для OMM, слабых мест из COMSAE, анатомии, фармакологии и ошибок из TrueLearn: AI-черновики плюс повторение по FSRS."
 date: "2026-05-31"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ru~1blog~1how-to-study-over-summer-break-with-flashcards.md"
 title: "Как заниматься с карточками на летних каникулах в 2026 году: сохранить сложные предметы без огромной ежедневной колоды"
 description: "Практичный план занятий с карточками на летние каникулы для сохранения знаний, подготовки к placement test, пересдачам и повторения пререквизитов. Держите одну небольшую FSRS-колоду в рабочем состоянии, не превращая июнь и июль обратно в учебный семестр."
 image: "/blog/how-to-study-over-summer-break-with-flashcards.png"

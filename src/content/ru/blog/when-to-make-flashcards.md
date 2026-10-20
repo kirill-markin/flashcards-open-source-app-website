@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ru~1blog~1when-to-make-flashcards.md"
 title: "Когда делать карточки в 2026 году: после того как материал уложился, но до того как детали поплыли"
 description: "Не знаете, когда делать карточки в 2026 году? Практичное правило простое: сначала разберитесь в материале, в тот же день превратите небольшой понятный фрагмент в карточки и отдайте повторение FSRS."
 image: "/blog/when-to-make-flashcards.png"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-use-flashcards-for-coding-interviews.md"
 title: "2026 年如何用 Flashcards 准备编程面试：LeetCode 模式、常见失误，以及真正能记住的核心概念"
 description: "想在 2026 年用编程面试 flashcards 提升 LeetCode 和技术面表现？这里有一套实用方法，把错题、算法模式和面试笔记整理成配合 FSRS 的间隔重复复习系统。"
 date: "2026-04-14"

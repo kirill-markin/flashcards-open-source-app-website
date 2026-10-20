@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ru~1blog~1how-to-learn-terminal-commands-with-flashcards.md"
 title: "Как выучить команды терминала с помощью карточек в 2026 году: Bash, Git и CLI-сценарии, которые остаются в памяти"
 description: "Практичный сценарий 2026 года для изучения команд терминала с помощью карточек. Используйте справку Bash, документацию Git, собственные ошибки в CLI и небольшие колоды с FSRS, чтобы запоминать команды, которые вам действительно нужны."
 date: "2026-06-07"

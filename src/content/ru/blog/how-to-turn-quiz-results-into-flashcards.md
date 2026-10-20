@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ru~1blog~1how-to-turn-quiz-results-into-flashcards.md"
 title: "Как превратить результаты квиза в карточки в 2026 году: сохраняйте промахи, а не отчет с баллами"
 description: "Используете учебные квизы, разборы из LMS или AI-сводки по результатам в 2026 году? Вот практичный способ превратить ошибки, почти ошибки и повторяющиеся путаницы в карточки с FSRS."
 date: "2026-07-10"

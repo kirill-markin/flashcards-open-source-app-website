@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ru~1blog~1cloze-deletion-vs-basic-flashcards.md"
 title: "Cloze-карточки или обычные карточки: когда контекст помогает, а когда выдаёт ответ"
 description: "Сравните cloze-карточки и обычные карточки, узнайте, когда контекст помогает или выдаёт ответ, и выберите подходящий формат для ясных карточек с FSRS."
 date: "2026-07-13"

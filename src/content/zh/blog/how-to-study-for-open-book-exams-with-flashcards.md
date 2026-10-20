@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-study-for-open-book-exams-with-flashcards.md"
 title: "2026 年如何用抽认卡准备开卷考试：记住导航图，而不是整本书"
 description: "正在准备 2026 年的开卷或开笔记考试？用这套实用的抽认卡流程记住触发线索、公式、资料定位和应用模式，别再在时间压力下翻笔记翻到手忙脚乱。"
 date: "2026-07-05"

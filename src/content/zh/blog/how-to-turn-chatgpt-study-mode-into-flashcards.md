@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-turn-chatgpt-study-mode-into-flashcards.md"
 title: "2026 年如何把 ChatGPT Study Mode 变成闪卡：保留辅导过程，再加上间隔重复"
 description: "如果你正在使用 2026 年的 ChatGPT Study Mode，这里有一套实用流程：把辅导对话用于理解内容，再把答错题、薄弱点和测验失误整理成真正能用 FSRS 复习的闪卡。"
 date: "2026-04-05"

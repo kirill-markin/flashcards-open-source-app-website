@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ru~1blog~1how-to-study-for-finals-with-flashcards.md"
 title: "Как готовиться к итоговым экзаменам с карточками в 2026 году: собрать один FSRS-план из конспектов, слайдов и ошибок в пробниках"
 description: "Практичный сценарий на неделю итоговых экзаменов: как превратить конспекты, слайды, учебные чаты с ИИ и ошибки в пробных тестах в карточки с лицевой и обратной стороной, которые вы реально успеете повторить до экзамена."
 image: "/blog/how-to-study-for-finals-with-flashcards.png"

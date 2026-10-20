@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-use-flashcards-for-the-fe-exam.md"
 title: "2026 年如何用抽认卡备考 FE 考试：公式、单位换算，以及真正能记住的练习错题"
 description: "准备参加 2026 年 FE 考试？这是一套实用的抽认卡工作流，适合整理公式、单位换算、参考手册检索、概念陷阱和练习错题，并用间隔重复巩固这些内容，而不是拿卡组替代刷题。"
 date: "2026-07-02"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-use-flashcards-for-medical-school.md"
 title: "2026 年医学院如何使用抽认卡：解剖学、药理学、病理学，以及真正记得住的间隔重复"
 description: "想在 2026 年建立一套实用的医学院抽认卡工作流？这篇文章会讲清楚，怎样把解剖学、药理学、病理学、课程讲义、题库和 FSRS 串起来，而不让牌组膨胀成第二套课程。"
 date: "2026-04-15"

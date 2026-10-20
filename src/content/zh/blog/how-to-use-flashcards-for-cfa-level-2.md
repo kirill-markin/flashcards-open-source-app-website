@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-use-flashcards-for-cfa-level-2.md"
 title: "2026 年如何用抽认卡备考 CFA Level II：item set、LOS 标签和真正记得住的模考错题"
 description: "备考 2026 年 CFA Level II？这套实用抽认卡工作流会带你处理 item set、LOS 标签、公式解释、CFA Institute 练习题与模考复盘，以及 FSRS 复习。"
 image: "/blog/how-to-use-flashcards-for-cfa-level-2.png"

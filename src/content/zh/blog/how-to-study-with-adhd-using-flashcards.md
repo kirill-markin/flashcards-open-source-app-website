@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-study-with-adhd-using-flashcards.md"
 title: "2026 年如何用抽认卡配合 ADHD 学习：降低启动阻力、缩小复习队列、更快进入状态"
 description: "想在 2026 年建立一套更实用、非医疗化的 ADHD 抽认卡学习流程？这篇文章会讲清楚，怎样用更低的启动阻力、更小的复习队列、AI 检查和 FSRS 排程来学习，而不让牌组变成新的压力来源。"
 date: "2026-05-21"

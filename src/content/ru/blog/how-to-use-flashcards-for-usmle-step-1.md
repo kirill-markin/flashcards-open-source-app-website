@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ru~1blog~1how-to-use-flashcards-for-usmle-step-1.md"
 title: "Как использовать флешкарточки для USMLE Step 1 в 2026 году: системы, ошибки из банка вопросов и изображения, которые действительно запоминаются"
 description: "Нужен практичный подход к флешкарточкам для USMLE Step 1 в 2026 году? Вот как учить интегрированные системы, патологические изображения, фармакологию и ошибки из банка вопросов для экзамена pass/fail с FSRS."
 date: "2026-05-01"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ru~1blog~1is-mcp-safe-for-flashcards.md"
 title: "Безопасен ли MCP для карточек? Разрешения, приватность и доступ на запись в 2026 году"
 description: "Безопасен ли MCP для карточек? Что защищает OAuth, что ИИ-клиент может читать и менять и как снизить риск раскрытия данных и нежелательной записи до подключения."
 date: "2026-07-12"

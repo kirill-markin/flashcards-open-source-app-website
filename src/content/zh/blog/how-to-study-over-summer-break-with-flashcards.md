@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-study-over-summer-break-with-flashcards.md"
 title: "2026 年暑假如何用抽认卡学习：不用每天刷庞大牌组，也能保住难课基础"
 description: "这是一套适合暑假的实用抽认卡复习方案，适用于巩固知识、准备分班考试、补考和先修课回顾。只维持一副小而干净的 FSRS 牌组，别把六月和七月重新过成上学模式。"
 image: "/blog/how-to-study-over-summer-break-with-flashcards.png"

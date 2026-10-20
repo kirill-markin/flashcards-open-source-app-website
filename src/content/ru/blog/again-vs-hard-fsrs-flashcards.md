@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ru~1blog~1again-vs-hard-fsrs-flashcards.md"
 title: "Again или Hard в FSRS (2026): как использовать четыре оценки карточек"
 description: "Разберитесь, когда нажимать Again, Hard, Good или Easy в приложениях с FSRS. Оценивайте результат попытки, а не предложенный следующий интервал."
 date: "2026-07-17"

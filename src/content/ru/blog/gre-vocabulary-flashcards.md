@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ru~1blog~1gre-vocabulary-flashcards.md"
 title: "Флешкарточки по GRE Vocabulary в 2026 году: как собрать колоду для Text Completion и Sentence Equivalence"
 description: "Ищете флешкарточки по GRE vocabulary, которые делают больше, чем просто гоняют случайные списки слов? Вот практичный сценарий 2026 года для Text Completion, Sentence Equivalence, примеров предложений и интервального повторения по FSRS в современном open-source приложении для карточек."
 date: "2026-05-05"

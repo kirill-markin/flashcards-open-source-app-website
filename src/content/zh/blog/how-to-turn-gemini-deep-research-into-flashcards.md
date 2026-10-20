@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-turn-gemini-deep-research-into-flashcards.md"
 title: "2026 年如何把 Gemini Deep Research 变成闪卡：留下报告，记住真正重要的内容"
 description: "正在使用 2026 年的 Gemini Deep Research？这里有一套更实用的流程：把报告里有来源支撑的结论、关键区别和决策依据提炼成干净的闪卡，再用 FSRS 复习。"
 date: "2026-04-20"

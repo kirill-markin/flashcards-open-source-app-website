@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ru~1blog~1how-to-use-flashcards-for-the-digital-sat.md"
 title: "Как использовать флешкарточки для Digital SAT в 2026 году: слова, грамматика и математика, которые действительно запоминаются"
 description: "Практичный сценарий работы с флешкарточками для Digital SAT в 2026 году: слова в контексте, грамматические правила, математические формулы и ошибки из Bluebook с ИИ-черновиками и повторением по FSRS."
 date: "2026-04-18"

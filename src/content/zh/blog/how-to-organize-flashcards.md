@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-organize-flashcards.md"
 title: "2026 年如何整理抽认卡：用牌组、标签和筛选复习降低学习阻力，而不是把学习越整理越复杂"
 description: "想在 2026 年整理好抽认卡？这里有一套实用系统，教你用牌组、标签、筛选复习和 FSRS 管理卡片库，让它始终清晰好用，而不是沦为分类强迫症。"
 date: "2026-04-13"

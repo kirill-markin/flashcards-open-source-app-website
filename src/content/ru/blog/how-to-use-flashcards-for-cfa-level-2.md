@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ru~1blog~1how-to-use-flashcards-for-cfa-level-2.md"
 title: "Как использовать карточки для CFA Level II в 2026 году: item sets, теги LOS и ошибки из пробников, которые правда запоминаются"
 description: "Готовитесь к CFA Level II в 2026 году? Используйте практичный подход с карточками для item sets, тегов LOS, интерпретации формул, практических вопросов и пробников CFA Institute, а также повторения по FSRS."
 image: "/blog/how-to-use-flashcards-for-cfa-level-2.png"

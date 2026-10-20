@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ru~1blog~1how-to-use-flashcards-for-ap-world-history.md"
 title: "Как использовать карточки для AP World History в 2026 году: хронология, темы и доказательства для DBQ, которые действительно запоминаются"
 description: "Нужны карточки для AP World History в 2026 году? Вот практичный сценарий для опорных дат, тем курса, доказательств для DBQ, ошибок в заданиях, AI-черновиков и повторения по FSRS."
 date: "2026-05-22"

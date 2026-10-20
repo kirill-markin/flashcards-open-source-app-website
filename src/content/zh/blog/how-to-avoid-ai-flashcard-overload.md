@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-avoid-ai-flashcard-overload.md"
 title: "2026 年如何避免 AI 抽认卡过载：留下好卡，别把每日复习越堆越高"
 description: "正在用 AI 把笔记、PDF、课堂录音或图片整理成抽认卡？这是一套适用于 2026 年的实用流程：在弱卡进入 FSRS 之前先筛掉它们，把复习负担控制在可持续范围内。"
 date: "2026-05-26"

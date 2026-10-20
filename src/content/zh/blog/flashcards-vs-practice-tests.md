@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1flashcards-vs-practice-tests.md"
 title: "2026 年闪卡 vs 模拟测试：什么时候该用哪一个，怎样把两者配合起来"
 description: "小而明确、以后还要记得的内容，用闪卡。想检查考试场景下的回忆、判断和节奏，用模拟测试。大多数时候，最高效的学习流程都是把两者配合起来，而不是二选一。"
 date: "2026-07-08"

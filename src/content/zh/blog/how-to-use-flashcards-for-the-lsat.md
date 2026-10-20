@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-use-flashcards-for-the-lsat.md"
 title: "2026 年如何用抽认卡备考 LSAT：真正记得住的 Logical Reasoning、Reading Comprehension 与错误选项模式"
 description: "准备在 2026 年参加 LSAT？这是一套更实用的抽认卡工作流：围绕 Logical Reasoning、Reading Comprehension、conditional logic 和官方练习里的错误选项模式，用 AI 起草加 FSRS 复习。"
 image: "/blog/how-to-use-flashcards-for-the-lsat.png"

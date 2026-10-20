@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1ai-flashcard-tutor-due-cards.md"
 title: "2026 年 AI 闪卡导师：通过 MCP 测验到期卡片，评分保存为 FSRS 复习"
 description: "通过 MCP 把 Claude、ChatGPT 或 Codex 接入 Nibomo。AI 导师拿你的到期卡片测验你，给每次作答评分，再把评分保存为一次 FSRS 复习。"
 date: "2026-07-15"

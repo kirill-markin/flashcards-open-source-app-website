@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1memrise-alternative.md"
 title: "Memrise 替代品（2026）：Memrise vs Nibomo"
 description: "对比 Memrise 与 Nibomo 在官方语言课程、自定义词汇、FSRS-6、离线学习、迁移、开源和自托管方面的差异。"
 date: "2026-03-22"

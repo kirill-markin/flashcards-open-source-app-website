@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-use-flashcards-for-nursing-school.md"
 title: "2026 年护理学院如何使用抽认卡：NCLEX、药理学、化验值，以及真正记得住的临床判断"
 description: "想在 2026 年建立一套实用的护理学院抽认卡工作流？这篇文章会讲清楚，怎样用抽认卡准备 NCLEX、护理药理学、剂量计算、化验值、优先级判断和临床判断，而不让牌组膨胀成第二套笔记。"
 date: "2026-04-17"

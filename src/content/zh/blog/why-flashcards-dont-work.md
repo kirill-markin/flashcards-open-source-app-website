@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1why-flashcards-dont-work.md"
 title: "为什么抽认卡在 2026 年没效果：你明明复习了却还是记不住的 5 个原因"
 description: "如果抽认卡对你没效果，明明复习过却还是记不住，常见原因通常是：你练成了识别而不是回忆、AI 卡片过载、leech 卡反复出现、FSRS 复习负载太重，或者你把本该靠做题练出来的能力硬塞进了抽认卡。"
 date: "2026-06-23"

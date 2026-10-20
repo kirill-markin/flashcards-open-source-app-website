@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-use-flashcards-for-cfa-level-1.md"
 title: "2026 年如何用抽认卡备考 CFA Level I：公式、Ethics 和能记住的模考错题"
 description: "准备 2026 年 CFA Level I？用这套实用抽认卡工作流复习公式、Ethics、财务报表分析、科目权重、模考错题和 FSRS。"
 date: "2026-04-23"

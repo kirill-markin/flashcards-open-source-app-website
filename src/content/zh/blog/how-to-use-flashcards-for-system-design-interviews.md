@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-use-flashcards-for-system-design-interviews.md"
 title: "2026 年如何用 Flashcards 准备系统设计面试：真正能记住的取舍、瓶颈与架构模式"
 description: "准备 2026 年系统设计面试？这是一套实用的 Flashcards 工作流，帮你整理缓存、队列、瓶颈、容量估算和架构取舍，并配合主动回忆与 FSRS 反复巩固。"
 date: "2026-06-08"

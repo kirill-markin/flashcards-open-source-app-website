@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ru~1blog~1ccsp-flashcards.md"
 title: "Карточки для CCSP в 2026 году: готовьтесь по программе экзамена от 1 августа"
 description: "Создайте карточки для CCSP по программе от 1 августа 2026 года: средние веса доменов, обновленный охват AI/ML, принятие решений, работа над ошибками и повторение по FSRS."
 date: "2026-07-18"

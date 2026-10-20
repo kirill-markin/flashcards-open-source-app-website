@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ru~1blog~1how-to-use-the-blurting-method-with-flashcards.md"
 title: "Как использовать метод blurting с карточками в 2026 году: превратите воспроизведение с чистого листа в повторения по FSRS"
 description: "Практическое руководство по методу blurting с карточками в 2026 году: используйте воспроизведение с чистого листа, чтобы находить слабые места, превращайте в понятные карточки только ошибки и дайте FSRS управлять повторениями."
 date: "2026-06-19"

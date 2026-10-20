@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ru~1blog~1how-to-back-up-flashcards.md"
 title: "Как сделать резервную копию карточек в 2026 году: бэкап Anki, экспорт Quizlet и колода, которая остается вашей"
 description: "Нужен внятный план резервного копирования карточек в 2026 году? Вот как сохранить Anki, выгрузить то, что реально позволяет Quizlet, отдельно сберечь медиа, держать текстовую копию и не застрять в одном учебном приложении."
 image: "/blog/how-to-back-up-flashcards.png"

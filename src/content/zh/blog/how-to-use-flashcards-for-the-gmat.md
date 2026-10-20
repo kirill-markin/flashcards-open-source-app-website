@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-use-flashcards-for-the-gmat.md"
 title: "2026 年如何用抽认卡备考 GMAT：更适合 Quant、Critical Reasoning 和 Data Insights 的卡组"
 description: "想在 2026 年用更有效的 GMAT flashcards 备考？这套实用方法更贴合当前 GMAT：围绕 Quantitative Reasoning、Verbal Reasoning、Data Insights 和官方练习错题做卡，而不是继续堆过时的词汇卡。"
 image: "/blog/how-to-use-flashcards-for-the-gmat.png"

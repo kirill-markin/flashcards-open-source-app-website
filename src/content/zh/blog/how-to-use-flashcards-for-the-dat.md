@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-use-flashcards-for-the-dat.md"
 title: "2026 年如何用抽认卡备考 DAT：生物、有机化学、PAT，以及真正记得住的模考错题"
 description: "准备在 2026 年参加 DAT？这篇指南会结合当前 ADA 考试蓝图、AI 辅助起草和 FSRS 复习，教你为生物、有机化学、PAT 和定量推理做出真正有用的 DAT 抽认卡。"
 image: "/blog/how-to-use-flashcards-for-the-dat.png"

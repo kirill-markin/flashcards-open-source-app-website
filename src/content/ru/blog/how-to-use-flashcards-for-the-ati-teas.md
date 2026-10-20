@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ru~1blog~1how-to-use-flashcards-for-the-ati-teas.md"
 title: "Как использовать флешкарточки для ATI TEAS в 2026 году: практичный сценарий подготовки к TEAS 7"
 description: "Готовитесь к ATI TEAS в 2026 году? Вот практичный сценарий работы с флешкарточками для TEAS 7 по разделам Science, Math, Reading и English and Language Usage, а также по ошибкам из пробных тестов, без превращения колоды во второе учебное пособие."
 image: "/blog/how-to-use-flashcards-for-the-ati-teas.png"

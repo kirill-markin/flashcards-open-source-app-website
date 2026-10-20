@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ru~1blog~1how-to-use-flashcards-for-system-design-interviews.md"
 title: "Как использовать флешкарточки для собеседований по системному дизайну в 2026 году: компромиссы, узкие места и архитектурные паттерны, которые действительно запоминаются"
 description: "Готовитесь к собеседованиям по системному дизайну в 2026 году? Вот практичный сценарий с карточками для кэшей, очередей, узких мест, оценки нагрузки и ошибок на mock interview с active recall и FSRS."
 date: "2026-06-08"

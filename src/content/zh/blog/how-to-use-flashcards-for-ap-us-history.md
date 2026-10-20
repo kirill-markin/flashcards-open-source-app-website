@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-use-flashcards-for-ap-us-history.md"
 title: "2026 年如何用抽认卡备考 AP US History：APUSH 时期、DBQ 和证据怎么复习"
 description: "想在 2026 年用更实用的 AP US History 抽认卡备考？这篇文章会讲清楚，怎样复习 APUSH 的时期、主题、sourcing、MCQ 材料组、SAQ、DBQ、LEQ 和间隔重复，而不是把牌组做成第二本教材。"
 image: "/blog/how-to-use-flashcards-for-ap-us-history.png"

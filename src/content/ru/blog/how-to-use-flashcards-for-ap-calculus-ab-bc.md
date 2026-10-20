@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ru~1blog~1how-to-use-flashcards-for-ap-calculus-ab-bc.md"
 title: "Как использовать карточки для AP Calculus AB и BC в 2026 году: пределы, производные и ошибки во FRQ, которые запоминаются"
 description: "Практичный сценарий работы с карточками для AP Calculus AB/BC в 2026 году: пределы, производные, интегралы, подготовка к Bluebook, ошибки во FRQ и интервальное повторение по FSRS."
 date: "2026-06-26"

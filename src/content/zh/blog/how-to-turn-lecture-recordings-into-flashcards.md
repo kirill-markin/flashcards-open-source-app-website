@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-turn-lecture-recordings-into-flashcards.md"
 title: "2026 年如何把课堂录音整理成抽认卡：先转文字，再做 FSRS 卡片，不用整段重听"
 description: "想把课堂录音变成抽认卡，却不想把两小时音频从头再听一遍？这里有一套 2026 年实用流程：先把录音转成文字稿，再用 AI 起草清晰卡片，迅速删掉含糊的内容，最后用 FSRS 复习保留下来的卡组。"
 date: "2026-03-26"

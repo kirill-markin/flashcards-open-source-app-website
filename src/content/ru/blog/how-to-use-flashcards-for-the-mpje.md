@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ru~1blog~1how-to-use-flashcards-for-the-mpje.md"
 title: "Как использовать флешкарточки для MPJE в 2026 году: соберите колоду по фармацевтическому праву для подготовки к MPJE и UMPJE"
 description: "Готовитесь к MPJE в 2026 году? Вот практичный сценарий работы с флешкарточками для MPJE и UMPJE: отделяйте унифицированное право от правил конкретного штата, превращайте ошибки в карточки и повторяйте выжившее через FSRS."
 date: "2026-06-13"

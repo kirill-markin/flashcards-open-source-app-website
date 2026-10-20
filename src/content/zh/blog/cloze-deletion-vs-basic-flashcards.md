@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1cloze-deletion-vs-basic-flashcards.md"
 title: "Cloze deletion 与基础抽认卡：语境何时有帮助，何时会泄露答案"
 description: "比较 cloze deletion 与基础抽认卡，了解语境何时有助于回忆、何时会泄露答案，并用一套实用判断规则写出更清晰、适合 FSRS 排程的卡片。"
 date: "2026-07-13"

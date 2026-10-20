@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-use-flashcards-for-ap-world-history.md"
 title: "2026 年 AP World History 抽认卡怎么用：真正记得住的时间线、主题与 DBQ 证据"
 description: "想在 2026 年更高效地用 AP World History 抽认卡备考？这篇文章会讲清楚，怎样用时间线锚点、课程主题、DBQ 证据、错题、AI 起草和 FSRS 复习来真正记住内容。"
 date: "2026-05-22"

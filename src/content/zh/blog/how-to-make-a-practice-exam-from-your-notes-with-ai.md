@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-make-a-practice-exam-from-your-notes-with-ai.md"
 title: "2026 年如何用 AI 根据笔记生成模拟考试：先做基于来源的小测，再留下错点"
 description: "想在 2026 年用 AI 根据自己的笔记生成模拟考试？把课件、PDF 和复习提纲交给 AI 做一套贴近课程的小测，复盘错题，再只把真正薄弱的点留下来做成 FSRS 闪卡。"
 date: "2026-06-22"

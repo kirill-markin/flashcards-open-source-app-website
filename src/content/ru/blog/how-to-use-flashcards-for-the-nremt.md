@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ru~1blog~1how-to-use-flashcards-for-the-nremt.md"
 title: "Как использовать флешкарточки для NREMT в 2026 году: ошибки CAT, первичный осмотр и TEI-практика, которая действительно работает"
 description: "Готовитесь к NREMT в 2026 году? Этот практичный подход к флешкарточкам помогает разбирать ошибки CAT, отрабатывать решения по первичному осмотру, типы заданий TEI и вспоминать протоколы без зубрежки целых глав."
 date: "2026-06-14"

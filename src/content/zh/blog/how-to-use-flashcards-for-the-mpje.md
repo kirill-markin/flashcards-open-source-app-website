@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-use-flashcards-for-the-mpje.md"
 title: "2026 年如何用抽认卡备考 MPJE：为 MPJE 和 UMPJE 构建药事法规卡组"
 description: "准备在 2026 年参加 MPJE？这是一套实用的 MPJE 与 UMPJE 抽认卡工作流：先拆分统一法规和州特定规则，再把错题做成卡片，最后交给 FSRS 复习。"
 date: "2026-06-13"

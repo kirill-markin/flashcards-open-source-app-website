@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-turn-microsoft-copilot-study-and-learn-into-flashcards.md"
 title: "2026 年如何把 Microsoft Copilot Study and Learn 变成闪卡：保留导师，用 FSRS 长期复习"
 description: "把 Word 文档、PowerPoint、PDF 和 URL 放进 Microsoft Copilot Study and Learn 做引导式学习，再只把真正的薄弱点转进 Nibomo，用 FSRS 做间隔重复。"
 date: "2026-06-09"

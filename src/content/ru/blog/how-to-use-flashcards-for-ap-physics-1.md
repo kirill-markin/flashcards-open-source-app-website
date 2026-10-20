@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ru~1blog~1how-to-use-flashcards-for-ap-physics-1.md"
 title: "Как использовать карточки для AP Physics 1 в 2026 году: силы, энергия и ошибки во FRQ, которые действительно закрепляются"
 description: "Практичный сценарий работы с карточками для AP Physics 1 в 2026 году: кинематика, силы, энергия, графики, ошибки во FRQ и подготовка к гибридному цифровому экзамену, которая действительно работает."
 image: "/blog/how-to-use-flashcards-for-ap-physics-1.png"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ru~1blog~1how-to-use-flashcards-for-the-act.md"
 title: "Как использовать флешкарточки для ACT в 2026 году: более сильная колода для English, Math, Reading и Science"
 description: "Практичный сценарий работы с флешкарточками для enhanced ACT в 2026 году: карточки для грамматических маркеров в English, постановок и ловушек в Math, паттернов ответов в Reading, графиков в Science и ошибок из официальной практики с ИИ-черновиками и повторением по FSRS."
 image: "/blog/how-to-use-flashcards-for-the-act.png"

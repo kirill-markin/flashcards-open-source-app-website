@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ru~1blog~1how-to-study-for-essay-exams-with-flashcards.md"
 title: "Как готовиться к эссе-экзаменам с карточками в 2026 году: подготовка к blue-book и short-answer, которая действительно остается в памяти"
 description: "Нужен рабочий сценарий подготовки к эссе-экзаменам в 2026 году? Используйте карточки для тезисов, доказательств, определений и триггеров compare-and-contrast, чтобы ответы для blue-book и short-answer быстрее вспоминались под давлением."
 date: "2026-06-28"

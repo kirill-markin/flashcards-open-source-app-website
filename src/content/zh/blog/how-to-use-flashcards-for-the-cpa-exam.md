@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-use-flashcards-for-the-cpa-exam.md"
 title: "2026 年如何用 Flashcards 备考 CPA 考试：真正能记住的 FAR、AUD、REG 和 Discipline 主题"
 description: "准备参加 2026 年 CPA 考试？这是一套实用的 Flashcards 工作流，帮你整理 FAR 公式、AUD 认定、REG 规则、Discipline 科目重点，以及 task-based simulations 错题，并结合 AI 起草与 FSRS 复习。"
 date: "2026-04-28"

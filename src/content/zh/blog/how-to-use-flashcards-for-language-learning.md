@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-use-flashcards-for-language-learning.md"
 title: "2026 年如何用抽认卡学语言：真正记得住的词汇、句子与复习方法"
 description: "想在 2026 年用抽认卡学语言，又不想死背单词表？这篇文章会给你一套更实用的方法：怎样做词汇卡、句子卡、控制复习负担，并配合 FSRS 真正把内容记住。"
 date: "2026-04-04"

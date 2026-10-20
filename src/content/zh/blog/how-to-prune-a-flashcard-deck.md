@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-prune-a-flashcard-deck.md"
 title: "2026 年如何修剪抽认卡牌组：在 FSRS 用复习把你埋掉之前，删卡、暂停或重写"
 description: "抽认卡太多、复习太多，通常说明你正在用的正式牌组需要分诊处理，而不是再给自己打鸡血。这里是一套适用于 2026 年的实用修剪流程：删卡、暂停、重写、清理 leech 卡，再决定是否要动 FSRS 复习负担设置。"
 date: "2026-07-01"

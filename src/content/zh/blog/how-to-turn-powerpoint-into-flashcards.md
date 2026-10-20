@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-turn-powerpoint-into-flashcards.md"
 title: "2026 年如何把 PowerPoint 变成抽认卡：不用重打一遍每页，也能处理 PPT、PPTX 和 Google Slides"
 description: "想在 2026 年把 PowerPoint 或 Google Slides 变成抽认卡？更实际的流程是先从课件里提取文本和讲者备注，再用 AI 清理含糊项目符号、起草卡片，最后用 FSRS 复习。"
 date: "2026-05-24"

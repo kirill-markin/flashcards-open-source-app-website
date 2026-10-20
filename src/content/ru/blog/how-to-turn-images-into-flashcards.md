@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ru~1blog~1how-to-turn-images-into-flashcards.md"
 title: "Как превратить изображения в карточки в 2026 году: скриншоты, фото и OCR без полного переписывания"
 description: "Хотите превратить изображения в карточки, не перепечатывая всё вручную? Вот практичный сценарий 2026 года для скриншотов, учебных фото и OCR-очистки, чтобы потом повторять готовые карточки через FSRS."
 date: "2026-05-25"

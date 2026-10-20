@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-use-flashcards-for-ai-certifications.md"
 title: "2026 年如何用 Flashcards 准备 AI 认证：AWS AI Practitioner、AI-900 和 GenAI Leader，不用死背营销文案"
 description: "正在准备 2026 年的 AI 认证？这里有一套实用的 Flashcards 流程，适用于 AWS AI Practitioner、Microsoft AI-900 或 AI-901，以及 Google Cloud Generative AI Leader：用简洁的卡片、练习题错因和 FSRS 复习，而不是硬背厂商文案。"
 date: "2026-04-21"

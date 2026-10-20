@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ru~1blog~1how-to-turn-practice-questions-into-flashcards.md"
 title: "Как превратить практические вопросы в карточки в 2026 году: собрать колоду FSRS из собственных ошибок"
 description: "Хотите превратить практические вопросы в карточки в 2026 году? Вот практичный сценарий для пробных экзаменов, прошлых вариантов, скриншотов из квизов и неправильных ответов с AI-черновиком и повторением по FSRS."
 date: "2026-04-11"

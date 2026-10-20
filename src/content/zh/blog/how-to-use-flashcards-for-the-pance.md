@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-use-flashcards-for-the-pance.md"
 title: "2026 年如何用抽认卡备考 PANCE：蓝图标签、模考反馈与 300 题耐力"
 description: "准备在 2026 年参加 PANCE？这是一套更贴近实战的抽认卡工作流，围绕 2025 年 1 月生效的 NCCPA 蓝图、临床题干错因、官方模考反馈，以及 300 题考试的节奏压力来设计。"
 date: "2026-06-05"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-turn-chatgpt-deep-research-into-flashcards.md"
 title: "2026 年如何把 ChatGPT Deep Research 报告做成闪卡：保留引用，只记住核实过的内容"
 description: "正在使用 2026 年的 ChatGPT Deep Research？这是一套更实用的流程：把带引用的研究报告提炼成干净的正反面闪卡，先核对容易过时的说法，再用 FSRS 做长期复习。"
 date: "2026-05-27"

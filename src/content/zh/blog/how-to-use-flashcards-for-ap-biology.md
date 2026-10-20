@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-use-flashcards-for-ap-biology.md"
 title: "2026 年如何用抽认卡备考 AP Biology：细胞、FRQ 与真正记得住的数据题"
 description: "想在 2026 年用更实用的 AP Biology 抽认卡备考？这篇文章会讲清楚，如何在 2026 年 5 月 4 日的混合数字化考试前复习生物过程、实验设计、FRQ 指令动词和高权重单元。"
 date: "2026-04-30"

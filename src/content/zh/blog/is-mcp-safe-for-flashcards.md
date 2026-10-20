@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1is-mcp-safe-for-flashcards.md"
 title: "通过 MCP 连接闪卡安全吗？2026 年权限、隐私与写入访问"
 description: "通过 MCP 连接闪卡安全吗？了解 OAuth 能保护什么、AI 客户端能读取或修改哪些数据，以及连接前如何降低隐私和写入风险。"
 date: "2026-07-12"

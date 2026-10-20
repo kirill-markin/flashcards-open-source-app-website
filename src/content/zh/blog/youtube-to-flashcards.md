@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1youtube-to-flashcards.md"
 title: "2026 年最佳 YouTube 视频闪卡生成器：4 款工具对比"
 description: "对比 2026 年四种有官方文档可查的 YouTube 学习路径：各自产出什么、文字稿与画面内容有哪些局限、如何复习和导出，以及一套方便迁移的手动流程。"
 date: "2026-03-24"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ru~1blog~1how-to-use-ai-for-homework-without-cheating.md"
 title: "Как использовать ИИ для домашки без списывания в 2026 году: понять материал, сдать свою работу, сохранить ошибки"
 description: "Используете ИИ для домашки в 2026 году? Применяйте его, чтобы разобраться в задании, проверить свой ход мысли и потом сохранить ошибки в карточки, не отдавая сервису ту работу, которую должны сделать вы."
 image: "/blog/how-to-use-ai-for-homework-without-cheating.png"
