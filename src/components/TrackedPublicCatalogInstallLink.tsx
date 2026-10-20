@@ -26,6 +26,13 @@ export function TrackedPublicCatalogInstallLink({
   packageId,
   placement,
 }: TrackedPublicCatalogInstallLinkProps): React.JSX.Element {
+  const externalLinkAttributes = getExternalLinkAttributes(href);
+  // Opening an install link creates a guest and installs the deck, so crawlers must not follow it.
+  const installLinkRel =
+    externalLinkAttributes.rel === undefined
+      ? "nofollow"
+      : `nofollow ${externalLinkAttributes.rel}`;
+
   const activateInstall = (): void => {
     trackPublicCatalogEvent(
       "public_catalog_install",
@@ -55,9 +62,10 @@ export function TrackedPublicCatalogInstallLink({
     <a
       className={className}
       href={href}
-      {...getExternalLinkAttributes(href)}
       onAuxClick={activateMiddleInstall}
       onClick={activatePrimaryInstall}
+      rel={installLinkRel}
+      target={externalLinkAttributes.target}
     >
       {label}
     </a>
