@@ -171,9 +171,7 @@ A voice conversation is interactive. The other side responds, reformulates, corr
 
 That makes **ChatGPT voice language learning** a different workflow from dictating vocabulary into your phone. The useful material often comes from the correction loop, not from your original attempt.
 
-If your source is raw audio you recorded for yourself instead of an interactive conversation, this guide is the better match:
-
-- [How to Turn Voice Notes Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-voice-notes-into-flashcards/)
+For raw audio you recorded yourself, transcribe a short passage, check the wording, and extract the phrases or corrections you want to recall.
 
 ## Language learning cards should stay close to your real conversations
 
@@ -222,9 +220,8 @@ A phrase deserves a card if:
 
 If not, let the phrase stay inside the session and die there.
 
-If review load is already your bigger problem, these companion pieces fit right next to this one:
+If review load is already your bigger problem, start here:
 
-- [How Many New Flashcards Per Day in 2026?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 - [How to Catch Up on Flashcards After Falling Behind in 2026](https://nibomo.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
 
 ## FSRS matters because spoken phrases decay strangely

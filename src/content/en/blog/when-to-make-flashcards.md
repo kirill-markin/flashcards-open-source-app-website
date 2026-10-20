@@ -198,8 +198,6 @@ Then use tags for the moving pieces:
 
 That setup makes same-day card creation easier because you are not redesigning the library every time. It also makes filtered review more useful later when one topic starts slipping.
 
-The deeper organization trade-offs are in [How to Organize Flashcards in 2026](/blog/how-to-organize-flashcards/).
-
 ## FSRS helps most when the cards enter the queue at the right time
 
 This is where timing meets scheduling.
@@ -219,7 +217,7 @@ When the timing is right, FSRS gets better material to work with:
 
 That makes the whole review layer lighter.
 
-If your queue already feels heavy, [How Many New Flashcards Per Day in 2026](/blog/how-many-new-flashcards-per-day/) and [How to Review Flashcards Faster in 2026](/blog/how-to-review-flashcards-faster/) fit well after this article.
+If your queue already feels heavy, lower new-card intake and simplify slow prompts before capturing more material.
 
 ## A workflow that holds up during a normal week
 

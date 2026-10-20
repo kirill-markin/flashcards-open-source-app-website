@@ -97,7 +97,7 @@ That is where **PANCE study workflow** gets cleaner. You can filter by `pulm + m
 
 If you want a starting scaffold before your own misses shape the deck, [PANCE Blueprint Clinical Review Flashcards](/catalog/packages/pance-blueprint-clinical-review-flashcards/) has 600 source-linked cards aligned with the January 2025 blueprint and tagged by both content category and exam task. Filter it for diagnosis, diagnostic studies, or next-step review, then add the misses from your own question-bank blocks.
 
-If your broader med-school deck is still messy, [How to Use Flashcards for Medical School in 2026](/blog/how-to-use-flashcards-for-medical-school/) is the better upstream fix.
+If your broader medical deck is messy, remove duplicate and out-of-scope cards, then narrow long prompts to the clinical decisions you need to retrieve.
 
 ## Question-bank misses should drive most of the deck
 
@@ -125,7 +125,7 @@ I would keep the workflow boring on purpose:
 3. Write one sentence for what failed.
 4. Shrink that sentence into the smallest reusable card.
 
-If that source material is mostly missed questions, [How to Turn Practice Questions Into Flashcards in 2026](/blog/how-to-turn-practice-questions-into-flashcards/) is the direct companion article.
+For missed questions, isolate the cue or decision behind the error and write it in your own words. Keep full clinical vignettes in question practice.
 
 ## Official NCCPA practice exams are good for diagnosis, not prediction
 
@@ -262,7 +262,7 @@ I would lean less on:
 - giant public decks
 - copied "high-yield facts" with no evidence they are your problem
 
-If AI is part of your workflow, keep it on a short leash. Drafting is fine. Blind importing is how you end up reviewing cards for material that was never your problem in the first place. [How to Avoid AI Flashcard Overload in 2026](/blog/how-to-avoid-ai-flashcard-overload/) covers that side of the problem.
+If AI is part of your workflow, keep it on a short leash. Drafting is fine. Blind importing is how you end up reviewing cards for material that was never your problem in the first place.
 
 ## FSRS is useful for PANCE once the cards stop trying to do too much
 

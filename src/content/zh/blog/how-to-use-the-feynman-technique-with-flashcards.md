@@ -67,7 +67,6 @@ keywords:
 
 - [2026 年如何把笔记整理成闪卡](/zh/blog/turn-notes-into-flashcards/)
 - [2026 年如何把 PDF 做成抽认卡](/zh/blog/how-to-turn-a-pdf-into-flashcards/)
-- [2026 年如何记住读过的内容](/zh/blog/how-to-remember-what-you-read/)
 
 ## 一段好的费曼式解释，听起来会是什么样
 
@@ -150,9 +149,8 @@ keywords:
 
 如果那次解释暴露出了三个薄弱点，那就做三张卡。如果只暴露出一个顽固的区别，那就只做一张。卡片要对准的，是你解释开始飘掉的那一句，而不是把整段内容整包带走。
 
-如果你想在这一步再用更严格的写卡规则收一收，最适合接着看的就是这两篇：
+如果想进一步收紧写卡规则，可以接着看：
 
-- [2026 年抽认卡里该放什么？](/zh/blog/what-should-go-on-a-flashcard/)
 - [2026 年如何做出更好的抽认卡](/zh/blog/how-to-make-better-flashcards/)
 
 ## 用这个方法做出来的最好卡片，往往看起来很普通
@@ -281,7 +279,7 @@ AI 在这里当然有用，只是它该出场得比大多数人以为的更晚�
 
 这比起周日一次性硬啃四章内容、再做五十张新卡，要可持续得多。
 
-如果复习队列开始变得吵闹，[2026 年每天该新增多少抽认卡](/zh/blog/how-many-new-flashcards-per-day/) 和 [2026 年如何更快复习抽认卡](/zh/blog/how-to-review-flashcards-faster/) 会是接下来最值得打开的两篇。
+如果复习队列开始难以完成，先减少新卡并简化慢卡。[2026 年每天该新增多少抽认卡](/zh/blog/how-many-new-flashcards-per-day/)介绍了如何按复习负担调整摄入量。
 
 ## 我真正信任的版本
 

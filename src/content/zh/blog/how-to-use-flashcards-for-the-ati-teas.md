@@ -256,7 +256,7 @@ ATI 当前的 [official practice assessment page](https://www.atitesting.com/tea
 
 一副稳定的主牌组，再加少量诚实的标签，通常比反复重组牌组更好用。
 
-如果真正卡住你的问题是“怎么整理”，可以继续看 [2026 年如何整理抽认卡](https://nibomo.com/blog/how-to-organize-flashcards/)，那篇会把这一部分讲得更细。
+如果整理方式成了瓶颈，用少量科目分组和一致的薄弱点标签，保留复习时真正会用到的分类。
 
 ## 先让 AI 起草第一版，再用力编辑
 
@@ -273,7 +273,7 @@ TEAS 备考会制造出很多很乱的素材。你手里会堆着复制下来的
 
 如果起草出来的背面像练习册里的一整段文字，就把它砍短。要是两张卡考的是同一个意思，就只留更清楚的那一张。要是提示只能测到“眼熟识别”，那就把它改写成主动回忆。
 
-这套流程和 [2026 年如何把练习题做成 Flashcards](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) 以及 [2026 年如何做出更好的 Flashcards](https://nibomo.com/blog/how-to-make-better-flashcards/) 很接近。
+每张卡只检查一个需要修复的知识点；[2026 年如何做出更好的 Flashcards](https://nibomo.com/blog/how-to-make-better-flashcards/)介绍了这种写法。
 
 ## Nibomo 在这套 ATI TEAS 流程里能帮上什么
 

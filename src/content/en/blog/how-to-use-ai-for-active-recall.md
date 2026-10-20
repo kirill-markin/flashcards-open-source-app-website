@@ -113,11 +113,7 @@ At the end of the session, I want a list that sounds like this:
 
 Those are real weak spots. "Needs more work on chapter 6" is not.
 
-If your source starts as notes, a study guide, or a PDF, these companion workflows fit naturally before the recall session:
-
-- [How to Turn Notes Into Flashcards in 2026](/blog/turn-notes-into-flashcards/)
-- [How to Turn a Study Guide Into Flashcards in 2026](/blog/how-to-turn-a-study-guide-into-flashcards/)
-- [How to Turn a PDF Into Flashcards in 2026](/blog/how-to-turn-a-pdf-into-flashcards/)
+For preparing a written source before the recall session, see [How to Turn Notes Into Flashcards in 2026](/blog/turn-notes-into-flashcards/).
 
 ## Save the weak spots, not the whole performance
 
@@ -146,7 +142,7 @@ I want to keep:
 
 Everything else can stay in the chat history.
 
-This is also why the brand-specific tutor workflows keep landing in roughly the same place. Whether the session starts in [ChatGPT Study Mode](/blog/how-to-turn-chatgpt-study-mode-into-flashcards/), [Gemini Guided Learning](/blog/gemini-guided-learning-to-flashcards/), or another tutor-style tool, the part worth keeping is still the same short list of misses.
+Tutor-style sessions in [ChatGPT Study Mode](/blog/how-to-turn-chatgpt-study-mode-into-flashcards/), Gemini Guided Learning, or another tool can feed the same workflow: keep the short list of misses worth reviewing.
 
 ## The best cards preserve the miss, not the polished explanation
 

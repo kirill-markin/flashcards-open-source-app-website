@@ -177,7 +177,7 @@ For repeated unit-check errors, [these dimensional analysis flashcards](/catalog
 
 If you round too early or report too many digits, the [significant figures mixed-operations flashcards](/catalog/packages/significant-figures-mixed-operations-flashcards/) practice carrying extra digits and tracking reporting limits through short calculations. They use introductory classroom rules; keep physics modeling and full uncertainty analysis in your problem and lab work.
 
-If most of your raw material comes from corrections, [How to Turn Practice Questions Into Flashcards in 2026](/blog/how-to-turn-practice-questions-into-flashcards/) goes deeper on that workflow.
+When your raw material comes from corrections, isolate the step you missed: choosing a model, drawing a diagram, assigning signs, or recalling a relation. Review that step, then solve a fresh full problem.
 
 ## Use AI to process mistakes, not to skip the physics
 

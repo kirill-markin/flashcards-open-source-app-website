@@ -173,7 +173,7 @@ Turn those misses into cards such as:
 - Which step did I skip when answering causation prompts?
 - What detail keeps turning my biology explanation from correct to incomplete?
 
-If you want the broader version of that workflow, [How to Turn Practice Questions Into Flashcards in 2026](/blog/how-to-turn-practice-questions-into-flashcards/) fits directly.
+Reduce each weak response to a reusable gap: a missing fact, a weak connection, or an unsupported claim. Review that gap on a card, then write another complete answer.
 
 ## What not to put on the cards
 
@@ -235,7 +235,7 @@ Before you write a full response, try this:
 5. notice what went missing
 6. add cards only for the missing pieces
 
-That pairs well with [How to Use the Blurting Method With Flashcards in 2026](/blog/how-to-use-the-blurting-method-with-flashcards/), especially if your subject rewards structure more than perfect wording.
+You can also close your notes, reconstruct an argument or outline from memory, and compare it with the source. Use that comparison to find missing structure rather than chase perfect wording.
 
 ### Step 4: Write at least some full answers
 

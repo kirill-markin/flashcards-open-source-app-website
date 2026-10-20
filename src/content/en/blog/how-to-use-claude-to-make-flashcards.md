@@ -171,7 +171,7 @@ The strongest cases are:
 
 That pattern matters because Claude is not inventing a study system from scratch. It is helping you convert raw material into narrower retrieval targets.
 
-If your input is mostly notes, [How to Turn Notes Into Flashcards in 2026](/blog/turn-notes-into-flashcards/) goes deeper on the cleanup step. If your input starts as files, [How to Turn a PDF Into Flashcards in 2026](/blog/how-to-turn-a-pdf-into-flashcards/) is the closer companion.
+If your input is mostly notes, [How to Turn Notes Into Flashcards in 2026](/blog/turn-notes-into-flashcards/) goes deeper on the cleanup step. For files, extract a small relevant section and check text, equations, and labels before accepting draft cards.
 
 ## Delete the cards that still sound like Claude
 
@@ -272,7 +272,7 @@ This is the version I would keep:
 
 That is a more believable workflow than pretending Claude itself is the place where memory should live.
 
-If your AI-generated deck already feels bloated, [How to Avoid AI Flashcard Overload in 2026](/blog/how-to-avoid-ai-flashcard-overload/) and [How to Fix AI Flashcards in 2026](/blog/how-to-fix-ai-flashcards/) are the two pieces I would read next.
+If your AI-generated deck already feels bloated, stop accepting new drafts and repair the existing ones with [How to Fix AI Flashcards in 2026](/blog/how-to-fix-ai-flashcards/).
 
 ## The better rule for using Claude to make flashcards
 

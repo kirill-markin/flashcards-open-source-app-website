@@ -138,7 +138,7 @@ The editing rules in [How to Make Better Flashcards](/blog/how-to-make-better-fl
 - enough context to understand the card later
 - no answer clues hidden in the front
 
-Do not make all 128 cards in one evening just because the official list has 128 entries. Start with a manageable batch. Add more while the due queue still fits your week. [How Many New Flashcards per Day](/blog/how-many-new-flashcards-per-day/) explains how today's new cards become future reviews.
+Do not make all 128 cards in one evening just because the official list has 128 entries. Start with a manageable batch. Add more while the due queue still fits your week; each new card creates future reviews.
 
 ## A study loop from filing date to interview
 

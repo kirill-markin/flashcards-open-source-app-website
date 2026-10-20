@@ -171,9 +171,7 @@ Voice conversation 则是互动的。另一边会回应、改写、纠正，并�
 
 这让 **ChatGPT voice 语言学习** 和“对着手机口述词汇”变成了两种不同工作流。真正有价值的材料，通常来自“纠正回路”，而不是你最初那次不太成功的表达。
 
-如果你的来源是你自己录下的原始音频，而不是互动式对话，那这篇指南会更适合：
-
-- [2026 年如何把 Voice Notes 变成 Flashcards](https://nibomo.com/blog/how-to-turn-voice-notes-into-flashcards/)
+如果来源是你自己录下的原始音频，先转录一小段并核实用词，再提取希望记住的表达和纠正。
 
 ## 语言学习卡应该尽量贴近你真实会发生的对话
 
@@ -222,10 +220,9 @@ Voice 让练习变得更容易，于是人们开始收集超出自己现实能�
 
 如果不满足，就让它留在 session 里，然后死在那里面。
 
-如果你现在更大的问题已经是复习负载，这两篇就正好紧贴着这篇：
+如果主要问题已经是复习负载，可以先看：
 
 - [2026 年每天该加多少新 Flashcards？](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
-- [2026 年落下 Flashcards 之后怎么追上进度](https://nibomo.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
 
 ## FSRS 很重要，因为口语短语的遗忘方式本来就很奇怪
 

@@ -184,7 +184,7 @@ keywords:
 
 所以，把 AI 用在整理和准备环节，而不是把记忆外包给它。
 
-如果你想看更完整的“从 AI 辅助到长期记忆”工作流，[2026 年如何使用 AI 学习](https://nibomo.com/blog/how-to-use-ai-to-study/) 和 [2026 年如何修复 AI 生成的抽认卡](https://nibomo.com/blog/how-to-fix-ai-flashcards/) 这两篇会是最有用的后续阅读。
+从 AI 辅导转入长期复习时，只保留需要检查的知识缺口。对照课程材料或图谱核实名称和关系，再删去提示和重复项。
 
 ## 你错过的定位针和记反的结构关系，就是最好的卡片来源
 
@@ -212,7 +212,7 @@ keywords:
 
 它们只是通常不是抽认卡问题。
 
-如果你手上最好的素材，本来就是实验辨认失误和标本辨认题，[2026 年如何把练习题转成抽认卡](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) 会很适合接着读。
+从实验辨认失误和标本题中提取具体的定位线索或易混结构。复习后换一张图或一个模型，检查自己能否再次辨认。
 
 ## 每周的解剖学工作流，最好有点无聊
 
@@ -230,7 +230,7 @@ keywords:
 
 但你的复习队列还是得维持在能过日子的范围内。
 
-如果现在已经开始失控，[2026 年每天该新增多少张抽认卡？](https://nibomo.com/blog/how-many-new-flashcards-per-day/) 和 [2026 年落下复习后如何追赶抽认卡](https://nibomo.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/) 会是最合适的下一步阅读。
+如果队列已经开始失控，先减少新卡。关于如何按可用时间调整负担，可以看 [2026 年每天该新增多少张抽认卡？](https://nibomo.com/blog/how-many-new-flashcards-per-day/)。
 
 ## 只有当卡片足够诚实时，FSRS 才真的有用
 

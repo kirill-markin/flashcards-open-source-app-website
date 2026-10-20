@@ -146,7 +146,7 @@ Google 在 **Learn Your Way** 的公告里把这个方向推得更明显：使�
 
 别的都可以留在聊天记录里。
 
-这也是为什么不同品牌的导师式工作流，最后往往都会落到差不多的地方。无论一场对话是从 [ChatGPT Study Mode](/zh/blog/how-to-turn-chatgpt-study-mode-into-flashcards/) 开始，还是从 [Gemini Guided Learning](/zh/blog/gemini-guided-learning-to-flashcards/) 开始，真正值得保存的，始终还是那一小份答错清单。
+导师式工作流，包括 ChatGPT Study Mode 和 [Gemini Guided Learning](/zh/blog/gemini-guided-learning-to-flashcards/)，都可以采用同一原则：保留值得复习的那一小份答错清单。
 
 ## 最好的卡片，保留的是你答错的地方，不是 AI 打磨过的解释
 
@@ -181,7 +181,7 @@ Google 在 **Learn Your Way** 的公告里把这个方向推得更明显：使�
 
 如果一个答案长到必须写成一整段，那它大概率应该拆成几张卡，或者继续留在笔记里，而不是直接塞进复习队列。
 
-如果 AI 已经帮你起草了卡片，下一步可以看 [2026 年如何修正 AI 生成的抽认卡](/zh/blog/how-to-fix-ai-flashcards/)。如果你想看更严格的写卡规则，可以接着读 [2026 年如何做出更好的抽认卡](/zh/blog/how-to-make-better-flashcards/)。
+如果 AI 已经起草了卡片，先核实答案、删除重复项，并重写含糊问题。更具体的写卡规则见 [2026 年如何做出更好的抽认卡](/zh/blog/how-to-make-better-flashcards/)。
 
 ## 这是我自己会重复使用的工作流
 

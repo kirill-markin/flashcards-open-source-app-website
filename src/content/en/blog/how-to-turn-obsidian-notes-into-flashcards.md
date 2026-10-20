@@ -175,7 +175,7 @@ Then move the small part that deserves active recall into a proper review system
 
 That division of labor is much cleaner than trying to study directly from a giant note graph. It also keeps the process honest. No fake sync promises. No plugin maze. Just clean Markdown in, card draft out, and spaced repetition after that.
 
-If your source material is closer to a long exported document than a note, [How to Turn an Article Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-an-article-into-flashcards/) is the better related guide.
+For a long exported document, select a small relevant section first. Extract its key claims and check the resulting prompts against the original rather than turning the whole document into a deck.
 
 ## The useful rule for 2026
 

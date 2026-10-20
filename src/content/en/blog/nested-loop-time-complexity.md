@@ -259,4 +259,4 @@ If an answer surprised you, save the reason you missed it. A card saying “nest
 | Outer widths are `1, 2, 4, ..., p`, with `p <= n < 2p`. What is their total? | `2p - 1`, so `Θ(n)`. Multiplying the stage count by `p` gives a loose upper bound. |
 | Two nested loops make `n²` calls. Each call scans `m` items at constant cost per item. What is the total time? | `Θ(n²m)` for positive `n` and `m`. The call's body costs `Θ(m)`. |
 
-The [coding-interview flashcard guide](/blog/how-to-use-flashcards-for-coding-interviews/) covers choosing corrections worth reviewing. After reviewing one, change a bound or move a reset and derive a fresh count on paper. Write the sum or the total pointer movement before writing the complexity label.
+Keep a short prompt for a correction you had trouble explaining. After reviewing it, change a bound or move a reset and derive a fresh count on paper. Write the sum or the total pointer movement before writing the complexity label.

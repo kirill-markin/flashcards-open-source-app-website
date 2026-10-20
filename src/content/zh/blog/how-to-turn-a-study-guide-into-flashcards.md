@@ -250,17 +250,13 @@ AI 生成的提纲通常是：
 
 提纲里具体装的是什么，会直接决定哪种卡片形式更合理。
 
-如果某一部分主要是错题或练习题，这篇更贴近：
-
-- [2026 年如何把练习题做成抽认卡](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
+如果某一部分主要是错题或练习题，找出漏掉的事实、区别或步骤，用自己的话写成简短问题，再用新题检查应用。
 
 如果这份提纲主要是文档或导出的资料包，也可以一起看这篇：
 
 - [2026 年如何把 PDF 做成抽认卡](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
-如果这份提纲一开始不是资料包，而是 AI 辅导过程中整理出来的内容，那么这篇会更接近：
-
-- [2026 年如何把 ChatGPT Study Mode 变成抽认卡](https://nibomo.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
+如果提纲来自 AI 辅导对话，只保留值得再检查的错误和薄弱点；先核实答案，再接受草稿卡片。
 
 ## 做完后的卡组，应该比原始提纲更轻，而不是更重
 

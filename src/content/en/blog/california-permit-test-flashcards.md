@@ -59,7 +59,7 @@ Source checked: California Driver's Handbook, Traffic Control, 2026-08-02
 
 For a sign card, put the image or a clear description on the front and ask for both meaning and required response. Naming “railroad crossing” without recalling that you should look, listen, slow down, prepare to stop, and let trains pass leaves half the lesson behind.
 
-Keep one full sign chart outside the deck. Small crops train recognition; a mixed chart checks whether you can find the relevant sign among similar shapes. [How to Turn Images Into Flashcards](/blog/how-to-turn-images-into-flashcards/) has a practical workflow for keeping image cards focused.
+Keep one full sign chart outside the deck. Small crops train recognition; a mixed chart checks whether you can find the relevant sign among similar shapes. Keep enough of each image to distinguish the sign without unrelated visual clues.
 
 ### 2. Right-of-way and scenario triggers
 
@@ -110,7 +110,7 @@ Use this source-linked repair workflow after each Class C sample test:
 
 Suppose a sample miss showed that you treated a red arrow like an ordinary red light. Your repair card can ask for the action at a red arrow, with the back stating that you must stop and remain stopped until a green signal or green arrow appears. The handbook supports that rule in the traffic-control section. You do not need the sample question’s story, option order, or exact sentences.
 
-This is the same principle used in the broader guide to [turning practice questions into flashcards](/blog/how-to-turn-practice-questions-into-flashcards/). [How to Make Better Flashcards](/blog/how-to-make-better-flashcards/) helps when a repair card grows into a paragraph or asks several things at once.
+Turn a missed question into a short prompt for the rule or distinction you missed. [How to Make Better Flashcards](/blog/how-to-make-better-flashcards/) helps when a repair card grows into a paragraph or asks several things at once.
 
 ## A realistic seven-day study loop
 

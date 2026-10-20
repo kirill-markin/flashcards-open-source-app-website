@@ -208,7 +208,7 @@ Before choosing a loop, write the condition and the objective. “Contiguous ran
 
 ## Keep a small correction, then return to practice
 
-If you chose the positive-input loop for signed input, record the failed assumption in your [coding-interview mistake log](/blog/how-to-use-flashcards-for-coding-interviews/). A few narrow cards can preserve the parts you had trouble explaining:
+If you chose the positive-input loop for signed input, record the failed assumption in your coding-interview mistake log. A few narrow cards can preserve the parts you had trouble explaining:
 
 | Card front | Card back |
 | --- | --- |
@@ -216,7 +216,7 @@ If you chose the positive-input loop for signed input, record the failed assumpt
 | Shortest signed-input sum: why can a qualifying deque front be removed after recording its length? | A future endpoint would give the same start a longer range than the valid one already recorded. |
 | Two prefix starts have equal values. Which survives for shortest-length queries? | The later index: every future sum is equal, and its range is shorter. |
 
-Choose a card because it fixes a mistake you made. [What should go on a flashcard](/blog/what-should-go-on-a-flashcard/) gives a filter for keeping the review set small. For another assumption-and-boundary exercise, [binary search practice](/blog/binary-search-practice/) follows the same habit of justifying what each update discards.
+Choose a card because it fixes a mistake you made, and keep the review set small. For another assumption-and-boundary exercise, [binary search practice](/blog/binary-search-practice/) follows the same habit of justifying what each update discards.
 
 Then close the trace and try `[1, -2, 4, 2]` with `k = 6`. Write the prefixes, track the deque, and explain each removal before checking your result.
 

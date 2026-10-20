@@ -166,9 +166,7 @@ I would not turn the whole question into one giant card. I would reduce it to th
 - the process step
 - the trap pattern
 
-If that workflow is the part you need most, this is the direct companion article:
-
-- [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
+Keep the reusable lesson from a miss, such as a grammar distinction or setup decision, and test it in a new question after reviewing the card.
 
 ## One SAT card format will not survive all four problem types
 
@@ -202,9 +200,7 @@ I would keep the weekly loop this simple:
 
 That works better than building a giant deck on Sunday and then avoiding it by Wednesday.
 
-If your bigger problem is structure rather than card writing, read this next:
-
-- [How to Organize Flashcards in 2026](https://nibomo.com/blog/how-to-organize-flashcards/)
+Use a few subject decks and consistent error tags so you can find weak spots without turning review into file management.
 
 ## You probably do not need thousands of SAT flashcards
 
@@ -228,9 +224,7 @@ I would rather see:
 
 That gives you a cleaner **how to study for the digital SAT** workflow than one giant warehouse of prep material.
 
-If your review count is already climbing too fast, this article pairs well with the SAT workflow:
-
-- [How Many New Flashcards Per Day in 2026?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
+If reviews are climbing too fast, lower new-card intake until the daily queue is manageable.
 
 ## FSRS helps most when your SAT study schedule is uneven
 
@@ -275,10 +269,9 @@ If you want the scheduling side in more detail, these two articles fit best:
 
 That combination matters because Digital SAT prep tends to scatter. Vocabulary lives in one place, grammar notes in another, math corrections somewhere else, and practice-test mistakes in whatever tab you forgot to close. The useful system is the one that lets you turn all of that into tighter cards without creating a second study-admin job.
 
-If your SAT prep material is still stuck one step earlier, these articles help with the input side:
+For drafting cards from written SAT prep material, start here:
 
 - [How to Turn Notes Into Flashcards in 2026](https://nibomo.com/blog/turn-notes-into-flashcards/)
-- [How to Turn a PDF Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## Build the SAT deck that fixes repeat mistakes
 

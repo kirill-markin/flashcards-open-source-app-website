@@ -148,7 +148,7 @@ Keep the back side plain:
 
 Anything beyond that usually wants to become another card.
 
-This matters even more if you care about review speed later. [How to Review Flashcards Faster in 2026](https://nibomo.com/blog/how-to-review-flashcards-faster/) is basically the downstream consequence of this editing decision.
+Clear prompts also make later reviews faster: you spend less time interpreting the question or deciding whether your answer counts.
 
 ## Use AI for second-pass editing, not as the final authority
 

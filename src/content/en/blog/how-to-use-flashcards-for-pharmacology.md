@@ -209,7 +209,7 @@ After a missed question, I would not save the whole rationale by default. I woul
 - Was this a class problem, mechanism problem, or confusion problem?
 - What is the smallest card that would stop this same miss next week?
 
-If most of your best cards come from questions rather than notes, [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) is the direct follow-up.
+When a useful card comes from a question, isolate the drug distinction, mechanism, or cue you missed and write it in your own words.
 
 ## Pharmacology needs revisitation more than heroic cramming
 
@@ -250,10 +250,7 @@ Usually the better deck looks less impressive:
 
 That is how you actually **memorize drug names and side effects** without turning the deck into a second pharmacology textbook.
 
-If your queue is already getting heavier than it should, these two articles usually solve the next problem:
-
-- [How Many New Flashcards Per Day in 2026?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
-- [How to Review Flashcards Faster in 2026](https://nibomo.com/blog/how-to-review-flashcards-faster/)
+If the queue is already too heavy, lower new-card intake and split slow, overloaded prompts before adding more material.
 
 ## Where Nibomo fits in this workflow
 
