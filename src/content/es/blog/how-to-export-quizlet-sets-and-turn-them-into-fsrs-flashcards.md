@@ -119,7 +119,7 @@ La [guía de introducción](/docs/getting-started/) documenta el chat con IA, in
 
 > Lee este archivo como pares de término y definición separados por tabulaciones. No guardes todavía ninguna tarjeta. Prepara una pequeña muestra, conserva la redacción original y los caracteres no latinos, y enumera por separado las filas mal formadas, vacías o ambiguas en vez de adivinar su contenido.
 
-Este método puede venir bien si las tarjetas antiguas también necesitan una limpieza. Aun así, no demuestra que todas las filas se hayan transferido correctamente. Sigue la lista de comprobación de [Cómo corregir tarjetas generadas por IA](/blog/how-to-fix-ai-flashcards/) y prueba con un mazo pequeño antes de crear el resto.
+Este método puede venir bien si las tarjetas antiguas también necesitan una limpieza. Aun así, no demuestra que todas las filas se hayan transferido correctamente. Comprueba cada borrador con el texto original y prueba con un mazo pequeño antes de crear el resto.
 
 Las tarjetas creadas en Nibomo empiezan con un historial de aprendizaje nuevo. El texto de Quizlet no incluye los eventos de repaso ni el estado de programación necesarios para seguir con la cola anterior.
 
@@ -148,7 +148,7 @@ De forma predeterminada, Anki puede encontrar una nota existente del mismo tipo 
 
 La vía oficial de Quizlet termina en **Copy text** para los sets propios abiertos desde la web. Los scripts de scraping, los supuestos endpoints privados y los descargadores de terceros son métodos distintos sin soporte oficial. No convierten un set copiado o de solo lectura en una exportación oficial.
 
-Si necesitas automatizar el proceso en vez de hacer una copia puntual, el artículo sobre el [estado actual de la API de Quizlet](/blog/quizlet-api/) explica dónde están los límites oficiales. Si el set no es tuyo, pide al creador un archivo fuente o reconstruye un mazo más pequeño a partir de tus propios apuntes. [Cómo crear mejores tarjetas de estudio](/blog/how-to-make-better-flashcards/) puede ayudarte a mejorar esa reconstrucción en vez de copiar todas las filas antiguas.
+Si necesitas automatizar el proceso en vez de hacer una copia puntual, el artículo sobre el [estado actual de la API de Quizlet](/blog/quizlet-api/) explica dónde están los límites oficiales. Si el set no es tuyo, pide al creador un archivo fuente o reconstruye un mazo más pequeño a partir de tus propios apuntes. Formula preguntas concretas y respuestas breves en vez de copiar todas las filas antiguas.
 
 No elimines el set original de Quizlet hasta que:
 
@@ -158,4 +158,4 @@ No elimines el set original de Quizlet hasta que:
 - hayas reconstruido cualquier contexto visual importante a partir de una fuente que puedas usar; y
 - una pequeña prueba haya producido los anversos y reversos correctos en el destino.
 
-Conserva después la copia intacta del texto. Es la referencia independiente más sencilla si una importación posterior sale mal. Si todavía estás decidiendo adónde llevar las tarjetas, la [comparación de alternativas a Quizlet](/blog/quizlet-alternative/) explica las diferencias generales.
+Conserva después la copia intacta del texto. Es la referencia independiente más sencilla si una importación posterior sale mal.

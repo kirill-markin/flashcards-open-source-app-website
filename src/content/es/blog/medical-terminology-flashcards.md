@@ -96,7 +96,7 @@ Reverso: [Una definición precisa con el nivel de detalle exigido por el curso.]
 Fuente: Libro de texto, capítulo 8, página o sección
 ```
 
-Los corchetes indican el contenido que debes completar, no un texto que debas dejar en el mazo. Copia o resume con exactitud la definición que rige el curso y después comprueba la fuente. Evita amontonar en el mismo reverso la etimología, la pronunciación, los síntomas, las pruebas, los tratamientos y dos trastornos relacionados. La guía para [crear mejores flashcards](/es/blog/how-to-make-better-flashcards/) explica cómo dividir una tarjeta cuando la respuesta deja de tener un único objetivo claro.
+Los corchetes indican el contenido que debes completar, no un texto que debas dejar en el mazo. Copia o resume con exactitud la definición que rige el curso y después comprueba la fuente. Evita amontonar en el mismo reverso la etimología, la pronunciación, los síntomas, las pruebas, los tratamientos y dos trastornos relacionados. Divide la tarjeta cuando su respuesta deje de tener un único objetivo claro.
 
 Si tu curso incluye términos de orientación, el [mazo de orientación anatómica de 31 tarjetas](/catalog/packages/anatomical-directional-terms-es/) ofrece un ejemplo concreto: separa el significado de 10 términos, su evocación a partir de una definición y su uso en ejemplos de ubicación corporal.
 
@@ -122,7 +122,7 @@ Reverso: hypo-. Hyper- significa por encima, más allá o excesivo.
 Fuente: Apéndice A de MedlinePlus; glosario del curso
 ```
 
-Esta tarjeta corrige una confusión concreta. Es más útil que duplicar varias veces las dos tarjetas originales. Si una tarjeta difícil sigue apareciendo sin que mejores, aplica el [método para corregir tarjetas «sanguijuela»](/es/blog/how-to-fix-leech-flashcards/): revisa la fuente, acota la pregunta, separa los objetivos mezclados y añade el contraste exacto que faltaba.
+Esta tarjeta corrige una confusión concreta. Es más útil que duplicar varias veces las dos tarjetas originales. Si una tarjeta difícil sigue apareciendo sin que mejores, reescríbela: revisa la fuente, acota la pregunta, separa los objetivos mezclados y añade el contraste exacto que faltaba.
 
 ## Trata las flashcards de abreviaturas médicas como un caso especial
 
@@ -168,7 +168,7 @@ Cuando una respuesta sea incorrecta, anota el fallo exacto. «Confundí hyper- e
 
 No añadas tantas tarjetas nuevas que los repasos pendientes te dejen sin tiempo para el resto del curso. La terminología médica está conectada con tareas reales: leer notas, explicar significados, usar el lenguaje aprobado y comprender instrucciones. Las tarjetas pueden ayudarte a recordar algunas palabras, pero no sustituyen los laboratorios, la formación clínica supervisada, los casos, la práctica comunicativa, las políticas institucionales ni el criterio de un profesional sanitario habilitado. Nunca deben utilizarse para diagnosticar ni elegir un tratamiento.
 
-Esta separación también importa a lo largo de todo un programa. La [guía de flashcards para la escuela de enfermería](/es/blog/how-to-use-flashcards-for-nursing-school/) reserva las tarjetas para el recuerdo rápido y deja el razonamiento clínico y la aplicación para las actividades que realmente los evalúan.
+Esta separación también importa a lo largo de todo un programa. Reserva las tarjetas para el recuerdo rápido y practica el razonamiento clínico y la aplicación con actividades que evalúen esas capacidades.
 
 ## Cómo encajan FSRS y Nibomo
 

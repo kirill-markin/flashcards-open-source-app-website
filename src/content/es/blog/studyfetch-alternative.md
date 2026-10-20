@@ -87,7 +87,7 @@ Una forma razonable de repartir el trabajo sería esta:
 4. Reescríbela como una pregunta concreta con una sola respuesta que puedas evaluar con claridad.
 5. Reserva el repaso a largo plazo para las que superen ese filtro.
 
-[Cómo usar la IA para practicar la recuperación activa](/blog/how-to-use-ai-for-active-recall/) separa la práctica de recuperación del simple hecho de recibir otra explicación. Si la generación ya ha llenado tu cola, consulta [Cómo evitar la sobrecarga de flashcards con IA](/blog/how-to-avoid-ai-flashcard-overload/) y [Cómo corregir flashcards con IA](/blog/how-to-fix-ai-flashcards/) antes de cambiar de aplicación.
+Pide una pregunta e intenta responder sin ayuda antes de solicitar una explicación. Si la generación ya ha llenado tu cola, limita los borradores nuevos y corrige las tarjetas vagas, sobrecargadas o duplicadas antes de cambiar de aplicación.
 
 ## Poder importar un mazo no garantiza que después puedas exportarlo
 
@@ -103,7 +103,7 @@ Nibomo ofrece la migración directa más limitada desde productos de la competen
 
 Su propio paquete también tiene límites deliberados. La [documentación sobre portabilidad de datos](/docs/self-hosting/#data-portability) indica que transfiere las tarjetas activas, las etiquetas y los archivos multimedia relacionados, pero no el historial de repasos, el estado de FSRS, los ajustes del espacio de trabajo, la estructura completa de los mazos ni los datos de la cuenta. Sirve para trasladar contenido, no para recuperar el sistema después de un desastre.
 
-Si la portabilidad es uno de los motivos por los que quieres cambiar, [haz una copia de seguridad de tus flashcards](/blog/how-to-back-up-flashcards/) antes de la primera prueba de migración. Conserva también la clase, el artículo o el fragmento del libro de texto del que salió el mazo. Sin esas fuentes, será difícil revisar más adelante un archivo de tarjetas.
+Si la portabilidad es uno de los motivos por los que quieres cambiar, exporta las tarjetas y guarda una copia independiente antes de la primera prueba de migración. Conserva también la clase, el artículo o el fragmento del libro de texto del que salió el mazo. Sin esas fuentes, será difícil revisar más adelante un archivo de tarjetas.
 
 ## El uso sin conexión es donde más se diferencian los productos
 

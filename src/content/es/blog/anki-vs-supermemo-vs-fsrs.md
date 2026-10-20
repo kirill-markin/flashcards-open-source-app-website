@@ -53,9 +53,9 @@ Anki es mucho más que un algoritmo de repetición espaciada. Su valor reside en
 
 Esto importa cuando alguien dice que quiere dejar Anki «por FSRS». La versión actual de Anki ya admite FSRS. Según el [manual de FSRS de Anki](https://docs.ankiweb.net/deck-options.html#fsrs), FSRS es una alternativa al planificador anterior de Anki, basado en SuperMemo 2. Su activación es global: no se puede limitar a un solo preajuste. **Desired retention** establece el objetivo del modelo para la probabilidad de recordar una tarjeta cuando llega el momento de repasarla; aumentarlo suele acortar los intervalos y añadir repasos. Anki también puede ajustar los parámetros de FSRS a un historial de repasos compatible mediante la acción **Optimize**.
 
-La formulación del manual exige una precisión histórica. **SM-2 es uno de los primeros algoritmos del linaje de SuperMemo, no un sinónimo del SuperMemo actual.** Llamar «SM-2 heredado» al planificador anterior de Anki sigue la documentación de Anki e identifica la familia de algoritmos en la que se basa. No implica que todos sus detalles de implementación sean idénticos a los del SM-2 original publicado hace décadas. Para una comparación técnica más específica, consulta [FSRS vs SM-2](/blog/fsrs-vs-sm-2/).
+La formulación del manual exige una precisión histórica. **SM-2 es uno de los primeros algoritmos del linaje de SuperMemo, no un sinónimo del SuperMemo actual.** Llamar «SM-2 heredado» al planificador anterior de Anki sigue la documentación de Anki e identifica la familia de algoritmos en la que se basa. No implica que todos sus detalles de implementación sean idénticos a los del SM-2 original publicado hace décadas.
 
-Si tienes una colección consolidada que depende de plantillas personalizadas, complementos, archivos multimedia o años de historial de repasos, cambiar de producto exige una migración considerable. Cambiar el planificador de Anki puede requerir mucho menos esfuerzo que abandonar Anki. La comparación más amplia entre [Anki y Nibomo](/blog/anki-vs-flashcards-open-source-app/) aborda las diferencias entre ambos productos.
+Si tienes una colección consolidada que depende de plantillas personalizadas, complementos, archivos multimedia o años de historial de repasos, cambiar de producto exige una migración considerable. Cambiar el planificador de Anki puede requerir mucho menos esfuerzo que abandonar Anki.
 
 ## Ahora «SuperMemo» necesita un calificativo
 
@@ -110,7 +110,7 @@ Las valoraciones de repaso son señales que se introducen en un sistema de plani
 | SuperMemo.com alojado | Don't know, Almost, Know | Una escala de producto con tres opciones documentada en la [página del método SuperMemo](https://www.supermemo.com/en/supermemo-method). No debe asignarse mecánicamente a las cuatro valoraciones de FSRS. |
 | SuperMemo 20 for Windows | Flujo de valoración de SuperMemo para escritorio | Una interfaz de producto distinta cuyas valoraciones se pasan a varios algoritmos de Algorithm Arena. No deduzcas su significado a partir de las tres etiquetas del servicio alojado. |
 
-La distinción de FSRS con más consecuencias es Again frente a Hard. El [manual de Anki](https://docs.ankiweb.net/deck-options.html#fsrs) explica que FSRS interpreta Hard como un recuerdo satisfactorio y Again como un fallo. Elegir Hard porque el siguiente intervalo parece más conveniente registra un hecho que no ocurrió. La guía práctica sobre [Again vs Hard](/blog/again-vs-hard-fsrs-flashcards/) explica con detalle las respuestas parciales y los casos límite.
+La distinción de FSRS con más consecuencias es Again frente a Hard. El [manual de Anki](https://docs.ankiweb.net/deck-options.html#fsrs) explica que FSRS interpreta Hard como un recuerdo satisfactorio y Again como un fallo. Elegir Hard porque el siguiente intervalo parece más conveniente registra un hecho que no ocurrió. Evalúa las respuestas parciales según lo que exige la tarjeta y corrige las preguntas ambiguas antes de seguir repasando.
 
 ## Cómo implementa Nibomo FSRS hoy
 
@@ -129,7 +129,7 @@ Los valores predeterminados del espacio de trabajo son:
 - un intervalo máximo de `36,500` días
 - dispersión aleatoria (*fuzz*) activada
 
-Los espacios de trabajo pueden cambiar la retención deseada, los pasos, el intervalo máximo y la dispersión para los repasos futuros. Nibomo **no** personaliza ni ofrece actualmente pesos de FSRS por usuario: los pesos de v1 son valores predeterminados fijados. Esta es una diferencia importante frente a los productos que ajustan parámetros a partir del historial individual. La [guía de configuración de FSRS](/blog/fsrs-settings/) explica las consecuencias para la carga de trabajo sin dar por sentado que haya que tocar todos los controles.
+Los espacios de trabajo pueden cambiar la retención deseada, los pasos, el intervalo máximo y la dispersión para los repasos futuros. Nibomo **no** personaliza ni ofrece actualmente pesos de FSRS por usuario: los pesos de v1 son valores predeterminados fijados. Esta es una diferencia importante frente a los productos que ajustan parámetros a partir del historial individual. Ajusta la configuración a la carga de trabajo que puedas mantener.
 
 En la pantalla web de repaso, Nibomo muestra una vista previa del siguiente intervalo calculado para Again, Hard, Good y Easy. Las valoraciones `0`, `1`, `2` y `3` del usuario o de la API se asignan internamente a los grados `1` a `4` de FSRS. Again registra un fallo al recordar; Hard, Good y Easy indican que sí se recordó, con un esfuerzo decreciente. Todos los clientes muestran un recordatorio cuando se usa Hard con frecuencia: si no recordaste una respuesta, corresponde elegir Again.
 

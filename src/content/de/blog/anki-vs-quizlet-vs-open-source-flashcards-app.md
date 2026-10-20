@@ -97,7 +97,7 @@ Die gehostete App bietet den einfachsten Einstieg; der [Leitfaden für den Einst
 
 Nibomo befindet sich noch in einer frühen Entwicklungsphase. Ökosystem, Importmöglichkeiten, fortgeschrittene Wiederholungsfunktionen und Möglichkeiten zur Wiederherstellung sind nicht so ausgereift wie bei Anki. Einen direkten `.apkg`-Importer gibt es nicht. Native `flashcards.zip`-Pakete übertragen aktive Karten, Tags und referenzierte Medien, nicht jedoch Wiederholungsverlauf, FSRS-Planungsstatus, Workspace-Einstellungen, vollständige Deck-Strukturen oder Kontodaten.
 
-In der Praxis bedeutet das zweierlei. Beim Umzug einer stark angepassten Anki-Sammlung gehen wichtige Strukturen verloren, sofern du Anki nicht als maßgebliches System beibehältst. Außerdem ist ein Nibomo-Paket kein vollständiges Backup für die Wiederherstellung nach einem Ausfall. Der ausführliche [Leitfaden für Karteikarten-Backups](/blog/how-to-back-up-flashcards/) erklärt, was du separat sichern solltest.
+In der Praxis bedeutet das zweierlei. Beim Umzug einer stark angepassten Anki-Sammlung gehen wichtige Strukturen verloren, sofern du Anki nicht als maßgebliches System beibehältst. Außerdem ist ein Nibomo-Paket kein vollständiges Backup für die Wiederherstellung nach einem Ausfall. Sichere deshalb zusätzlich die Originalsammlung mit Vorlagen und Medien.
 
 Die gehostete Cloud Beta ist derzeit kostenlos – einschließlich KI und Synchronisierung. Das ist ein Beta-Angebot und kein Versprechen, dass unbegrenzte gehostete KI für immer kostenlos bleibt. Schon jetzt weist die Preisseite darauf hin, dass eine intensivere KI-Nutzung später möglicherweise einen API-Schlüssel des Anbieters oder eine kostenpflichtige Option erfordert.
 
@@ -107,7 +107,7 @@ Wenn du bei null anfängst, ist dieser Vergleich einfach. Mit vorhandenen Sammlu
 
 Wenn du über Jahre Anki-Wiederholungsverläufe aufgebaut hast, bleibe bei Anki – es sei denn, die Vorteile eines Umstiegs sind es dir wert, diese Verläufe zurückzusetzen. Für ein einfacheres Deck mit Vorder- und Rückseite kannst du Text exportieren und dem [Workflow für die Migration aus einer Anki-TXT-Datei](/blog/migrate-from-anki-txt-export-open-source-flashcards/) folgen. Dabei dient der Text als Ausgangsmaterial für bereinigte Kartenentwürfe; der Ablauf bildet eine Anki-Sammlung nicht originalgetreu nach.
 
-Wenn dein Material in Quizlet liegt, prüfe zuerst, ob du das Set selbst erstellt hast und ob die relevanten Inhalte als Text vorliegen. Der [Leitfaden zum Quizlet-Export für FSRS](/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/) führt dich durch den praktischen Ablauf und erklärt die Exportbeschränkungen.
+Wenn dein Material in Quizlet liegt, prüfe zuerst, ob du das Set selbst erstellt hast und ob die relevanten Inhalte als Text vorliegen. Bewahre den Rohexport auf und prüfe vor der Übertragung, welche Inhalte und Lernstände fehlen.
 
 Falls ein weiterer Wechsel für dich infrage kommt, teste einen Export, bevor du monatelange Arbeit investierst. Eine sichtbare Export-Schaltfläche ist nicht dasselbe wie ein wiederherstellbares Backup.
 

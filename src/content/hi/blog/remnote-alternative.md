@@ -96,9 +96,9 @@ Nibomo का समझौता RemNote से लगभग उलटा है
 
 इसका source केवल frontend तक सीमित नहीं है। MIT-licensed repository में web, iOS, Android, authentication, backend, sync और infrastructure शामिल हैं। Supported [production self-hosting guide](/hi/docs/self-hosting/) AWS CDK इस्तेमाल करती है। यह one-command local appliance नहीं है। इसे चलाने वाले व्यक्ति को cloud costs, secrets, migrations, monitoring, backups, restore tests और अलग से build किए mobile apps संभालने होंगे।
 
-मौजूदा RemNote user के लिए migration इससे भी बड़ी सीमा है। Nibomo अपने `flashcards.zip` packages import करता है, RemNote Markdown या Anki `.apkg` नहीं। उन packages में cards, tags और referenced media होते हैं, लेकिन review history, FSRS state, workspace settings, पूरा deck structure या accounts नहीं। AI chat export किए गए text को reviewed card drafts में बदल सकता है। यह content को फिर से बनाना है, पुराने collection को वहीं से आगे चलाना नहीं। [TXT migration guide](/hi/blog/migrate-from-anki-txt-export-open-source-flashcards/) इस lossy सीमा को step by step दिखाती है।
+मौजूदा RemNote user के लिए migration इससे भी बड़ी सीमा है। Nibomo अपने `flashcards.zip` packages import करता है, RemNote Markdown या Anki `.apkg` नहीं। उन packages में cards, tags और referenced media होते हैं, लेकिन review history, FSRS state, workspace settings, पूरा deck structure या accounts नहीं। AI chat export किए गए text को reviewed card drafts में बदल सकता है। यह content को फिर से बनाना है, पुराने collection को वहीं से आगे चलाना नहीं।
 
-जब पूरे stack के source तक पहुँच अहम हो, तब नए या simple card workspace के लिए Nibomo चुनें। Connected study के लिए RemNote रखें। Migration fidelity या advanced card structure चाहिए, तो Anki चुनें। अधिक केंद्रित card-system comparison के लिए [Anki बनाम Nibomo](/hi/blog/anki-vs-flashcards-open-source-app/) और [open-source flashcard apps guide](/hi/blog/best-open-source-flashcard-apps-2026/) देखें।
+जब पूरे stack के source तक पहुँच अहम हो, तब नए या simple card workspace के लिए Nibomo चुनें। Connected study के लिए RemNote रखें। Migration fidelity या advanced card structure चाहिए, तो Anki चुनें। दूसरे विकल्पों के लिए [open-source flashcard apps guide](/hi/blog/best-open-source-flashcard-apps-2026/) देखें।
 
 ## RemNote से क्या ठीक से migrate नहीं होगा
 

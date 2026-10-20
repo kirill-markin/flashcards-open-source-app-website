@@ -34,7 +34,7 @@ Nutze eine Quellenhierarchie, mit der sich Widersprüche leicht klären lassen:
 
 Notiere auf jeder Rückseite den Artikel oder Anhang, den Titel der Quelle oder die CELEX-Nummer, die Quellen-URL und das Abrufdatum. Ergänze einen Versionshinweis wie `post-2026/1744`, wenn sich eine Änderung auf die Antwort auswirkt.
 
-KI kann eine Frage kürzen oder Duplikate kennzeichnen. Gleiche jeden Entwurf vor dem Lernen mit der offiziellen Quelle ab – insbesondere Daten, Ausnahmen, Bezeichnungen der Akteure und rechtliche Verben. Der Bereinigungsprozess aus [Fehlerhafte KI-Lernkarten verbessern](/blog/how-to-fix-ai-flashcards/) eignet sich hier besonders gut: Eine ausgefeilte Formulierung verdient nicht mehr Vertrauen.
+KI kann eine Frage kürzen oder Duplikate kennzeichnen. Gleiche jeden Entwurf vor dem Lernen mit der offiziellen Quelle ab – insbesondere Daten, Ausnahmen, Bezeichnungen der Akteure und rechtliche Verben. Eine ausgefeilte Formulierung verdient nicht mehr Vertrauen als ein roher Entwurf.
 
 ## Erstelle zuerst einen kompakten Zeitplan der EU-KI-Verordnung
 
@@ -84,7 +84,7 @@ Bessere Karten:
 >
 > Quelle: Verordnung (EU) 2026/1744, Artikel 4 und Veröffentlichungsangaben im Amtsblatt. Abgerufen: 29. Juli 2026.
 
-Erstelle Karten in beide Richtungen nur dann, wenn du in der Praxis beide brauchst. Eine Richtung reicht meist aus. [Bessere Lernkarten erstellen](/blog/how-to-make-better-flashcards/) erklärt, warum eng gefasste Vorderseiten und kurze Rückseiten klarere Wiederholungssignale liefern.
+Erstelle Karten in beide Richtungen nur dann, wenn du in der Praxis beide brauchst. Eine Richtung reicht meist aus. Eng gefasste Vorderseiten und kurze Rückseiten liefern klarere Wiederholungssignale.
 
 ## Lerne die Risikostruktur anhand von Gegenüberstellungen
 
@@ -188,7 +188,7 @@ Zu den [Funktionen von Nibomo](/features/) gehören einfache Karten mit Vorder- 
 - **Good** bei einer richtigen Antwort mit normalem Aufwand
 - **Easy** bei einer mühelosen richtigen Antwort
 
-[Active Recall und Spaced Repetition im Vergleich](/blog/active-recall-vs-spaced-repetition/) erklärt die Aufgabenteilung: Abrufübungen zeigen, was du jetzt wiedergeben kannst; die zeitliche Verteilung bestimmt, wann die geprüfte Karte erneut erscheint. Der [Leitfaden „Erste Schritte“](/docs/getting-started/) beschreibt die gehostete App und das Self-Hosting, falls du den Ablauf in die Praxis umsetzen möchtest. Nibomo stellt kein offizielles Deck zur EU-KI-Verordnung bereit, prüft keine rechtlichen Inhalte und aktualisiert deine Karten nicht, wenn sich die Rechtslage ändert.
+Abrufübungen zeigen, was du jetzt wiedergeben kannst; die zeitliche Verteilung bestimmt, wann die geprüfte Karte erneut erscheint. Der [Leitfaden „Erste Schritte“](/docs/getting-started/) beschreibt die gehostete App und das Self-Hosting, falls du den Ablauf in die Praxis umsetzen möchtest. Nibomo stellt kein offizielles Deck zur EU-KI-Verordnung bereit, prüft keine rechtlichen Inhalte und aktualisiert deine Karten nicht, wenn sich die Rechtslage ändert.
 
 ## Halte rechtliche Beurteilungen aus der Wiederholungswarteschlange heraus
 
@@ -204,7 +204,7 @@ Nutze keine Karte, um zu entscheiden,
 
 Diese Fragen erfordern aktuelle Rechtsvorschriften, Leitlinien, dokumentierte Tatsachen und häufig qualifizierte Rechtsberatung. Die Antwort kann sich je nach Produkt, Zweckbestimmung, Vertriebsmodell oder Verwendungskontext ändern.
 
-Nutze Szenariokarten, um das Auffinden der einschlägigen Vorschrift zu üben. Ziehe Schlussfolgerungen anhand aktueller Quellen, dokumentierter Tatsachen und sachkundiger Beratung. Dieselbe Trennung zeigt sich bei [Lernkarten und Übungstests im Vergleich](/blog/flashcards-vs-practice-tests/): Mit Karten bleiben die einzelnen Bestandteile abrufbar, während größere Übungen prüfen, ob du sie gemeinsam anwenden kannst. [Was gehört auf eine Lernkarte?](/blog/what-should-go-on-a-flashcard/) hilft dir, alles zu kürzen, was für eine ehrliche Bewertung zu umfangreich ist.
+Nutze Szenariokarten, um das Auffinden der einschlägigen Vorschrift zu üben. Ziehe Schlussfolgerungen anhand aktueller Quellen, dokumentierter Tatsachen und sachkundiger Beratung. Mit Karten bleiben die einzelnen Bestandteile abrufbar, während größere Übungen prüfen, ob du sie gemeinsam anwenden kannst. Kürze oder teile jede Karte, deren Antwort sich nicht eindeutig bewerten lässt.
 
 ## Häufige Fragen zum Zeitplan der EU-KI-Verordnung 2026
 

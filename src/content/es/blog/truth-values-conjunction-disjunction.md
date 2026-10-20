@@ -112,4 +112,4 @@ Elige una tarjeta que te ayude a corregir la causa del error. Si has confundido 
 | ¿Cuál es la negación de `x > 10` para los números reales? | `x ≤ 10`; la negación incluye la igualdad |
 | `p` es falsa y `q` es verdadera. Calcula `p ∨ (¬q)` | Falso; la negación de `q` es falsa y la disyunción de falso y falso da falso |
 
-Responde antes de dar la vuelta a la tarjeta y después resuelve en papel un ejemplo con otros números. Puedes usar tarjetas de papel o tarjetas con anverso y reverso en la aplicación; la [guía de inicio](/es/docs/getting-started/) explica cómo empezar. Para ampliar este método, lee [cómo usar tarjetas para estudiar matemáticas](/es/blog/how-to-use-flashcards-for-math/) y [cómo escribir tarjetas más claras](/es/blog/how-to-make-better-flashcards/).
+Responde antes de dar la vuelta a la tarjeta y después resuelve en papel un ejemplo con otros números. Puedes usar tarjetas de papel o tarjetas con anverso y reverso en la aplicación; la [guía de inicio](/es/docs/getting-started/) explica cómo empezar. Limita cada tarjeta a un objetivo de recuerdo concreto.

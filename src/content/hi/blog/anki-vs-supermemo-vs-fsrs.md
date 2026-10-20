@@ -53,9 +53,9 @@ Anki केवल spaced repetition algorithm नहीं है। उसक�
 
 यह फर्क तब अहम हो जाता है जब कोई कहता है कि वह Anki छोड़कर “FSRS पर” जाना चाहता है। आज का Anki पहले से FSRS support करता है। [Anki FSRS manual](https://docs.ankiweb.net/deck-options.html#fsrs) के अनुसार, FSRS Anki के legacy SuperMemo 2 scheduler का विकल्प है। इसे enable करना पूरे app पर लागू होने वाला फैसला है; इसे केवल किसी एक preset के लिए चालू नहीं किया जा सकता। Desired retention उस समय recall के लिए model target तय करता है जब card due होता है। इसे बढ़ाने से आम तौर पर intervals छोटे और reviews ज़्यादा हो जाते हैं। Anki अपने **Optimize** action से compatible review history के आधार पर FSRS parameters fit भी कर सकता है।
 
-Manual में इस्तेमाल शब्दों के साथ एक ऐतिहासिक बात समझना ज़रूरी है। **SM-2, SuperMemo algorithm की शुरुआती पीढ़ियों में से एक है; यह आज के SuperMemo का दूसरा नाम नहीं है।** Anki के पुराने scheduler को “legacy SM-2” कहना Anki की documentation के मुताबिक है और उसके पीछे की algorithm family बताता है। इससे यह साबित नहीं होता कि implementation की हर बारीकी दशकों पहले प्रकाशित original SM-2 जैसी ही है। अधिक केंद्रित technical comparison के लिए [FSRS बनाम SM-2](/hi/blog/fsrs-vs-sm-2/) देखें।
+Manual में इस्तेमाल शब्दों के साथ एक ऐतिहासिक बात समझना ज़रूरी है। **SM-2, SuperMemo algorithm की शुरुआती पीढ़ियों में से एक है; यह आज के SuperMemo का दूसरा नाम नहीं है।** Anki के पुराने scheduler को “legacy SM-2” कहना Anki की documentation के मुताबिक है और उसके पीछे की algorithm family बताता है। इससे यह साबित नहीं होता कि implementation की हर बारीकी दशकों पहले प्रकाशित original SM-2 जैसी ही है।
 
-अगर आपकी पुरानी और बड़ी collection custom templates, add-ons, media या वर्षों की review history पर निर्भर है, तो product बदलने में सचमुच मेहनत लगेगी। Anki छोड़ने के बजाय केवल उसका scheduler बदलना कहीं आसान पड़ सकता है। Product के स्तर पर दोनों के अंतर [Anki बनाम Nibomo की विस्तृत तुलना](/hi/blog/anki-vs-flashcards-open-source-app/) में दिए गए हैं।
+अगर आपकी पुरानी और बड़ी collection custom templates, add-ons, media या वर्षों की review history पर निर्भर है, तो product बदलने में सचमुच मेहनत लगेगी। Anki छोड़ने के बजाय केवल उसका scheduler बदलना कहीं आसान पड़ सकता है।
 
 ## “SuperMemo” के साथ अब यह बताना ज़रूरी है कि किसकी बात हो रही है
 
@@ -110,7 +110,7 @@ Review ratings किसी scheduling system को दिए जाने व�
 | Hosted SuperMemo.com | Don't know, Almost, Know | [SuperMemo method page](https://www.supermemo.com/en/supermemo-method) पर दर्ज तीन विकल्पों वाला product scale। इसे चार FSRS grades से सीधे नहीं मिलाना चाहिए। |
 | SuperMemo 20 for Windows | Desktop SuperMemo grading flow | यह एक अलग product interface है, जो Algorithm Arena में कई algorithms को input देता है। इसका अर्थ hosted service के तीन labels से नहीं निकाला जाना चाहिए। |
 
-FSRS में सबसे अहम अंतर Again और Hard के बीच है। [Anki manual](https://docs.ankiweb.net/deck-options.html#fsrs) के मुताबिक FSRS में Hard का मतलब successful recall और Again का मतलब failure है। केवल इसलिए Hard चुनना कि अगला interval बेहतर दिखता है, ऐसे event को दर्ज करता है जो वास्तव में हुआ ही नहीं। [Again बनाम Hard की practical guide](/hi/blog/again-vs-hard-fsrs-flashcards/) partial answers और मुश्किल cases को विस्तार से समझाती है।
+FSRS में सबसे अहम अंतर Again और Hard के बीच है। [Anki manual](https://docs.ankiweb.net/deck-options.html#fsrs) के मुताबिक FSRS में Hard का मतलब successful recall और Again का मतलब failure है। केवल इसलिए Hard चुनना कि अगला interval बेहतर दिखता है, ऐसे event को दर्ज करता है जो वास्तव में हुआ ही नहीं। अधूरे जवाब को कार्ड की माँग के हिसाब से जाँचें और धुंधला सवाल पहले सुधारें।
 
 ## Nibomo आज FSRS को कैसे लागू करता है
 
@@ -129,7 +129,7 @@ Workspace की default settings ये हैं:
 - maximum interval `36,500` days
 - fuzz enabled
 
-Workspaces आगे होने वाली reviews के लिए desired retention, steps, maximum interval और fuzz बदल सकते हैं। Nibomo अभी किसी user के FSRS weights को personalize नहीं करता और न ही users को ये weights बदलने देता है; v1 में official default weights तय हैं। यह उन products से एक अहम अंतर है जो किसी व्यक्ति की history से parameters fit करते हैं। [FSRS settings guide](/hi/blog/fsrs-settings/) workload पर इन settings का असर समझाती है, बिना यह दावा किए कि हर setting को बदलना ज़रूरी है।
+Workspaces आगे होने वाली reviews के लिए desired retention, steps, maximum interval और fuzz बदल सकते हैं। Nibomo अभी किसी user के FSRS weights को personalize नहीं करता और न ही users को ये weights बदलने देता है; v1 में official default weights तय हैं। यह उन products से एक अहम अंतर है जो किसी व्यक्ति की history से parameters fit करते हैं। Settings को लंबे समय तक निभा सकने वाले workload के हिसाब से चुनें।
 
 Web review screen पर Nibomo, Again, Hard, Good और Easy में से हर विकल्प के लिए अगला calculated interval पहले ही दिखाता है। User/API ratings `0`, `1`, `2` और `3` को अंदरूनी तौर पर FSRS grades `1` से `4` से map किया जाता है। Again failed recall दर्ज करता है; Hard, Good और Easy successful recall दर्ज करते हैं, जिनमें क्रमशः कम effort लगा। सभी clients बार-बार Hard चुनने पर याद दिलाते हैं: जो answer आपको याद नहीं आया, उसे Again के तौर पर दर्ज करना चाहिए।
 

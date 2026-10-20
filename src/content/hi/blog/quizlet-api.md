@@ -57,7 +57,7 @@ Quizlet का **export** एक manual transfer है। Set बनाने �
 
 अपने बनाए set के लिए Quizlet का official export flow इस्तेमाल करें। यह flow **Copy text** पर खत्म होता है, इसलिए separators साफ़ करने या fields map करने से पहले paste की हुई पहली copy को बिना बदले सुरक्षित रखें। इसमें terms और definitions बचते हैं; कोई ऐसा deck package download नहीं होता जिसे बाद में restore किया जा सके। Images और study history पीछे ही रह जाते हैं।
 
-पूरी practical checklist [2026 में Quizlet Sets Export करने का तरीका](/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/) में है। उसमें raw और working copies, UTF-8, tabs, multiline definitions और card content को move करने तथा scheduling state को move करने के बीच का फर्क शामिल है।
+Raw export और working copy अलग रखें। UTF-8, tabs और multiline definitions की जाँच करें। Card content की नकल, scheduling state का transfer नहीं है।
 
 एक तय, one-off transfer के लिए export सही तरीका है। रोज़ cards बनाने, systems को sync रखने या software से बार-बार edit करने के लिए नहीं।
 
@@ -92,7 +92,7 @@ Nibomo, एक ही सीमित per-user data surface तक पहुँ�
 
 इससे कोई developer या AI agent अपने flashcards automate कर सकता है। लेकिन यह Quizlet URL नहीं पढ़ सकता, Quizlet account mirror नहीं कर सकता और undocumented Quizlet client की तरह काम नहीं कर सकता। इसमें automatic Quizlet importer भी नहीं है। Migration के लिए पहले अपने set से terms और definitions export करें, text जाँचें और फिर उसे destination के card fields से map करें। Destination अपनी study state खुद बनाता है; Quizlet history साथ नहीं आती।
 
-API access के अलावा दोनों products में क्या अंतर हैं, यह [open source Quizlet alternative की तुलना](/blog/quizlet-alternative/) में पढ़ें।
+API access के साथ study modes, डेटा पर नियंत्रण, export और migration के काम की भी तुलना करें।
 
 ## Private browser requests सुरक्षित shortcut नहीं हैं
 

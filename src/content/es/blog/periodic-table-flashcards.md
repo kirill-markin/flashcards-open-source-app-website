@@ -230,7 +230,7 @@ Reverso: Sodio.
 
 Son tres tipos de pregunta, no tres tarjetas obligatorias. Empieza por el que aparezca en tus ejercicios. Añade la pregunta inversa solo si también debes responder en esa dirección o si la práctica deja al descubierto una carencia. Invertir automáticamente cada dato puede convertir 118 elementos en cientos de repasos sin mejorar la habilidad que exige la evaluación.
 
-Para ver más ejemplos de diseño de tarjetas, consulta [Cómo crear mejores flashcards](/blog/how-to-make-better-flashcards/).
+Formula una pregunta concreta y una respuesta breve por tarjeta. Divide las que mezclen varios objetivos.
 
 ## Un plan práctico para memorizar el conjunto que necesitas
 
@@ -271,7 +271,7 @@ Sigue practicando fuera del mazo:
 - resolver cálculos y problemas desconocidos de varios pasos
 - realizar el trabajo de laboratorio con la supervisión y las medidas de seguridad necesarias
 
-La [guía de flashcards para química avanzada](/blog/how-to-use-flashcards-for-advanced-chemistry/) explica con más detalle la diferencia entre recordar datos breves y practicar problemas completos.
+Recuerda los datos breves con tarjetas y practica por separado problemas completos de química.
 
 ## Cómo encaja Nibomo
 

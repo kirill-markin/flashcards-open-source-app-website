@@ -115,7 +115,7 @@ Laut Mochis Dokumentation funktioniert die binäre Bewertung mit FSRS, liefert d
 
 Diese zusätzlichen Buttons helfen nur, wenn du sie konsequent verwendest. Das Anki-Handbuch wertet Hard als erfolgreichen Abruf. Wenn du Hard drückst, obwohl du die Antwort vergessen hast, erhält FSRS die falsche Information und kann zu lange Intervalle erzeugen.
 
-Wähle Mochis binäre Bewertung, wenn die klare Entscheidung zwischen gewusst und vergessen deine Lernsitzung übersichtlich hält. Wähle Anki, wenn du feiner abstufen und den Optimierer, die Steuerung der Behaltensrate, Voreinstellungen oder den Arbeitslast-Simulator nutzen möchtest. Wenn es dir eher um die Lernalgorithmen als um die Apps geht, lies [FSRS vs. SM-2](/de/blog/fsrs-vs-sm-2/).
+Wähle Mochis binäre Bewertung, wenn die klare Entscheidung zwischen gewusst und vergessen deine Lernsitzung übersichtlich hält. Wähle Anki, wenn du feiner abstufen und den Optimierer, die Steuerung der Behaltensrate, Voreinstellungen oder den Arbeitslast-Simulator nutzen möchtest.
 
 ## Bei Mochi und Anki entstehen die Kosten an anderer Stelle
 

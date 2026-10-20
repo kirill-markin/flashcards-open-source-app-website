@@ -129,7 +129,7 @@ El banco oficial delimita el contenido. La guía de estudio aporta el contexto. 
 
 Coloca primero la respuesta que se evalúa y añade después solo el contexto necesario para entenderla. Con un reverso que contiene un párrafo, cuatro respuestas alternativas, una regla mnemotécnica y una lección de historia, resulta difícil decidir si has acertado. Si quieres conservar información de apoyo, crea otra tarjeta.
 
-Las reglas de edición de [Cómo hacer mejores flashcards](/blog/how-to-make-better-flashcards/) funcionan bien en este caso:
+Para que las tarjetas sean fáciles de evaluar:
 
 - un único objetivo de recuerdo claro
 - una respuesta directa antes de la explicación
@@ -156,7 +156,7 @@ Crea tarjetas de anverso y reverso a partir del material oficial. Coloca primero
 
 ### 4. Repasa las tarjetas pendientes y responde en voz alta
 
-Cuando sea posible, repasa a diario las tarjetas programadas para ese día. FSRS programa los repasos posteriores a partir de tu rendimiento al recordar, pero no puede verificar si una respuesta sigue vigente. [Esta guía sobre la frecuencia de repaso](/blog/how-often-should-you-review-flashcards/) explica la diferencia entre repasar cada día las tarjetas programadas y repasar a diario todas las tarjetas.
+Cuando sea posible, repasa a diario las tarjetas programadas para ese día. FSRS programa los repasos posteriores a partir de tu rendimiento al recordar, pero no puede verificar si una respuesta sigue vigente. Repasar cada día las tarjetas pendientes no significa repasar a diario todas las tarjetas.
 
 ### 5. Haz sesiones orales
 
@@ -164,7 +164,7 @@ Una o dos veces por semana, pide a otra persona que lea un grupo variado de preg
 
 ### 6. Usa los errores para orientar el estudio adicional
 
-Cuando falles una tarjeta, identifica el problema: recuerdo, pronunciación, significado o una respuesta desactualizada. Lee la parte correspondiente de la guía de estudio de USCIS cuando no entiendas bien el concepto. La práctica más amplia sigue siendo necesaria porque [las flashcards y los simulacros entrenan tareas distintas](/blog/flashcards-vs-practice-tests/).
+Cuando falles una tarjeta, identifica el problema: recuerdo, pronunciación, significado o una respuesta desactualizada. Lee la parte correspondiente de la guía de estudio de USCIS cuando no entiendas bien el concepto. Practica también responder en una conversación, para usar los datos recordados en el contexto de la prueba.
 
 ### 7. Revisa el grupo de respuestas actuales
 

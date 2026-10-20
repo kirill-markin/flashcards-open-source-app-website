@@ -87,7 +87,7 @@ Eine sinnvolle Aufteilung sieht so aus:
 4. Formuliere ihn als eine einzelne Abruffrage mit einer Antwort um, die du eindeutig bewerten kannst.
 5. Übernimm nur die Karten, die diese Prüfung bestehen, in die langfristige Wiederholung.
 
-[So nutzt du KI für Active Recall](/blog/how-to-use-ai-for-active-recall/) unterscheidet Abrufübungen davon, einfach eine weitere Erklärung zu erhalten. Wenn die Generierung deine Warteschlange bereits gefüllt hat, nutze vor einem App-Wechsel die Leitfäden [So vermeidest du eine Flut von KI-Lernkarten](/blog/how-to-avoid-ai-flashcard-overload/) und [So verbesserst du KI-Lernkarten](/blog/how-to-fix-ai-flashcards/).
+Lass dir zuerst eine Frage stellen und antworte ohne Hilfe, bevor du eine weitere Erklärung anforderst. Wenn die Generierung deine Warteschlange bereits gefüllt hat, begrenze neue Entwürfe und korrigiere vage, überladene oder doppelte Karten vor einem App-Wechsel.
 
 ## Nur weil sich ein Stapel importieren lässt, kommst du später nicht automatisch wieder heraus
 
@@ -103,7 +103,7 @@ Nibomo bietet die schwächsten direkten Migrationswege von konkurrierenden Produ
 
 Auch das eigene Paket hat bewusst gesetzte Grenzen. Laut der [Dokumentation zur Datenportabilität](/docs/self-hosting/#data-portability) überträgt es aktive Karten, Tags und zugehörige Medien – nicht jedoch Wiederholungsverlauf, FSRS-Zustand, Workspace-Einstellungen, vollständige Stapelstrukturen oder Kontodaten. Betrachte es als Inhaltsübertragung, nicht als Wiederherstellung im Notfall.
 
-Wenn Portabilität zu den Gründen für deinen Wechsel gehört, [sichere deine Lernkarten](/blog/how-to-back-up-flashcards/) vor dem ersten Migrationstest. Bewahre auch die Vorlesung, den Fachartikel oder den Lehrbuchauszug auf, auf dem der Stapel beruht. Ein Kartenarchiv ohne seine Quellen lässt sich später nur schwer prüfen.
+Wenn Portabilität zu den Gründen für deinen Wechsel gehört, exportiere deine Lernkarten vor dem ersten Migrationstest und bewahre eine unabhängige Kopie auf. Bewahre auch die Vorlesung, den Fachartikel oder den Lehrbuchauszug auf, auf dem der Stapel beruht. Ein Kartenarchiv ohne seine Quellen lässt sich später nur schwer prüfen.
 
 ## Am deutlichsten zeigen sich die Unterschiede bei der Offline-Nutzung
 

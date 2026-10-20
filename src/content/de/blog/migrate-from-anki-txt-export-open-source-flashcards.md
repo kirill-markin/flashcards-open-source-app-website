@@ -60,7 +60,7 @@ Die TXT-Datei ist bewusst eingeschränkter. Anki schreibt die Notizfelder in ein
 
 Eine `.colpkg` schützt die Sammlungsdaten. Sie enthält jedoch weder die Anki-Anwendung noch den Code deiner Add-ons. Halte daher separat fest, von welchen Add-ons dein Workflow abhängt.
 
-Für eine umfassendere Backup-Routine über diese Migration hinaus hilft dir der Leitfaden zum [Sichern von Flashcards](/de/blog/how-to-back-up-flashcards/).
+Bewahre zusätzlich zur Textfassung einen vollständigen Anki-Export mit Medien sowie die ursprünglichen Quelldateien außerhalb deines täglich verwendeten Geräts auf.
 
 ## Export 1: Erstelle die `.colpkg` für die Wiederherstellung
 
@@ -184,7 +184,7 @@ und markiere Zeilen mit HTML, Cloze-Markup, fehlenden Feldern oder
 Medienreferenzen, anstatt zu raten.
 ```
 
-Passe die Anfrage an die Zuordnung an, die du nach der Prüfung der Datei notiert hast. Falls die Entwürfe überladen oder unklar sind, hilft dir die Checkliste zum [Überarbeiten von KI-Flashcards vor dem Lernen](/de/blog/how-to-fix-ai-flashcards/). KI kann dir hier die wiederholte Umstrukturierung abnehmen. Sie beweist aber nicht, dass die Migration die Quelle korrekt bewahrt hat.
+Passe die Anfrage an die Zuordnung an, die du nach der Prüfung der Datei notiert hast. Teile überladene Entwürfe, präzisiere unklare Fragen und prüfe jede Antwort an der Quelle. KI kann dir hier die wiederholte Umstrukturierung abnehmen. Sie beweist aber nicht, dass die Migration die Quelle korrekt bewahrt hat.
 
 Nachdem du einen kleinen Stapel freigegeben hast, speicherst du ihn in einem temporären Test-Deck, versiehst ihn mit einem Migrations-Tag und gehst dieselbe Prüfliste durch. Nur das geprüfte Ergebnis zeigt zuverlässig, ob der Ablauf für genau diese Anki-Sammlung funktioniert.
 
@@ -213,7 +213,7 @@ Bleibe bei Anki oder wähle ein Zielsystem, das `.apkg` ausdrücklich importiert
 - Deck-Voreinstellungen und eine Organisation, die exakt übertragen werden müssen;
 - einen Wiederholungsverlauf oder eine aktuelle Lernplanung, die du nicht zurücksetzen kannst.
 
-Für solche Workflows ist Anki eine gute Wahl. Die TXT-Migration ist kein Urteil über die App, sondern ein eng begrenztes Werkzeug für Menschen, deren Lernmaterial im Wesentlichen in den Notizinhalten steckt. Der ausführlichere [Vergleich zwischen Anki und Nibomo](/de/blog/anki-vs-flashcards-open-source-app/) behandelt die Unterschiede zwischen den Produkten, ohne davon auszugehen, dass alle wechseln sollten.
+Für solche Workflows ist Anki eine gute Wahl. Die TXT-Migration ist kein Urteil über die App, sondern ein eng begrenztes Werkzeug für Menschen, deren Lernmaterial im Wesentlichen in den Notizinhalten steckt.
 
 ## Die sichere Variante ist bewusst unspektakulär
 

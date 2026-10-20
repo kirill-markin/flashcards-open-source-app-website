@@ -152,7 +152,7 @@ Revisa las propuestas una por una. Un filtro de calidad sencillo detecta la mayo
 5. **Utilidad futura:** ¿Importará este dato más allá de la lectura de hoy? Elimina encabezados, relleno evidente, ideas duplicadas y detalles que puedas deducir rápidamente cuando los necesites.
 6. **Evaluación justa:** ¿Podrías reconocer una paráfrasis correcta o la tarjeta exige repetir las palabras exactas de ChatGPT? Reescribe los anversos que terminen evaluando la redacción en lugar del conocimiento.
 
-La guía relacionada sobre [cómo corregir flashcards creadas con IA](/es/blog/how-to-fix-ai-flashcards/) explica con más detalle cómo reparar tarjetas imprecisas, sobrecargadas y duplicadas. Si generar tarjetas sigue ampliando tu cola, aplica las reglas de descarte más estrictas de [Cómo evitar la sobrecarga de flashcards con IA](/es/blog/how-to-avoid-ai-flashcard-overload/).
+Corrige las preguntas imprecisas, divide las tarjetas sobrecargadas y elimina duplicados antes de guardarlas. Si la cola sigue creciendo, limita los borradores nuevos a las lagunas que realmente necesites repasar.
 
 Puedes pedir ayuda a ChatGPT con esta revisión, pero mantén abierta la fuente y toma tú la decisión final:
 
@@ -209,7 +209,7 @@ nada.
 
 Study Mode está disponible en los chats normales y en Temporary Chat, pero no en conversaciones con GPT ni en Projects. [Projects de ChatGPT](https://help.openai.com/en/articles/10169521-using-projects-in-chatgpt) permite mantener juntos archivos, instrucciones y chats para disponer de contexto recurrente, por lo que puede seguir siendo útil para un curso largo. Abre un chat normal cuando quieras usar Study Mode específicamente.
 
-La guía complementaria [Cómo convertir Study Mode de ChatGPT en flashcards](/es/blog/how-to-turn-chatgpt-study-mode-into-flashcards/) se centra en la tutoría, los errores y los puntos débiles. Este artículo explica el flujo más amplio que va desde el material original hasta un mazo aprobado.
+También puedes partir de los errores y puntos débiles detectados durante una tutoría. Comprueba las respuestas con el material original antes de aprobar el mazo.
 
 ## Devuelve únicamente las tarjetas que hayas aprobado
 
@@ -237,7 +237,7 @@ Si quieres que Codex u otro cliente MCP escriba directamente las tarjetas aproba
 
 ChatGPT puede hacerte preguntas en una conversación o crear un repaso con formato de flashcards. Ninguna de estas acciones programa los repasos a lo largo del tiempo. Cuando las tarjetas aprobadas estén en una app de flashcards, haz allí los repasos de verdad: intenta recordar la respuesta, muestra el reverso, evalúa el resultado y deja que el planificador decida cuándo vuelve a aparecer la tarjeta.
 
-Nibomo usa FSRS para programar esos repasos. [FSRS frente a SM-2](/es/blog/fsrs-vs-sm-2/) explica la diferencia si quieres conocer los detalles del algoritmo. La división de tareas es sencilla: ChatGPT redacta las propuestas y te ayuda a probarlas; la app de flashcards guarda el historial de repasos y gestiona el calendario.
+Nibomo usa FSRS para programar esos repasos. La división de tareas es sencilla: ChatGPT redacta las propuestas y te ayuda a probarlas; la app de flashcards guarda el historial de repasos y gestiona el calendario.
 
 Esta división también facilita las correcciones. Si más adelante encuentras un error en la fuente o no te gusta la redacción, corrige o elimina la tarjeta guardada. No dejes una respuesta dudosa en el mazo solo por el tiempo que tardaste en generar la tarjeta.
 

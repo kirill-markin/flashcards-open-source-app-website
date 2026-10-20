@@ -60,7 +60,7 @@ Si estás intentando **memorizar nombres de fármacos y efectos adversos**, las 
 
 Así es como una sesión de 150 tarjetas se convierte en algo que empiezas a evitar.
 
-Si tu problema más grande es la calidad de las tarjetas en general, [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/) es el complemento adecuado.
+Divide las tarjetas que mezclen mecanismo, indicaciones, contraindicaciones y efectos adversos. Comprueba cada respuesta con la fuente vigente.
 
 ## Las flashcards de clases de fármacos deberían ir antes que la trivia
 
@@ -209,7 +209,7 @@ Después de una pregunta fallada, yo no guardaría toda la explicación por defe
 - ¿Era un problema de clase, de mecanismo o de confusión?
 - ¿Cuál es la tarjeta más pequeña que evitaría este mismo fallo la próxima semana?
 
-Si la mayoría de tus mejores tarjetas salen de preguntas y no de apuntes, [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) es el siguiente artículo que encaja de forma directa.
+Extrae de cada pregunta fallada la distinción farmacológica que confundiste y formula una pregunta propia, sin copiar el caso completo.
 
 ## Farmacología necesita volver sobre el material más que sesiones heroicas de empollar
 
@@ -228,7 +228,7 @@ No olvidas los datos de fármacos de golpe. Los olvidas por erosión:
 
 Por eso la **repetición espaciada farmacología** encaja mejor que los atracones de repaso. La materia se deteriora mediante pequeñas confusiones, así que el sistema de repaso debería reparar pequeñas confusiones.
 
-Si te interesa más la parte de programar el estudio para el examen que la parte de redactar tarjetas, [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) encaja directamente aquí.
+Antes del examen, reduce las tarjetas nuevas para dejar tiempo a los repasos pendientes y a preguntas clínicas completas.
 
 ## Esto es orientación de estudio, no consejo médico
 
@@ -250,10 +250,10 @@ Normalmente el mejor mazo parece menos impresionante:
 
 Así es como realmente consigues **memorizar nombres de fármacos y efectos adversos** sin convertir el mazo en un segundo manual de farmacología.
 
-Si tu cola ya está creciendo más de la cuenta, estos dos artículos suelen resolver el siguiente problema:
+Si la cola crece demasiado:
 
 - [How Many New Flashcards Per Day in 2026?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
-- [How to Review Flashcards Faster in 2026](https://nibomo.com/blog/how-to-review-flashcards-faster/)
+- Corrige las preguntas ambiguas y divide las tarjetas sobrecargadas antes de intentar acelerar el repaso.
 
 ## Dónde encaja Nibomo en este flujo
 

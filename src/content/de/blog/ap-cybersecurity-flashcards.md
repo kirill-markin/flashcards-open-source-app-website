@@ -114,7 +114,7 @@ Halte nach einer Übung die übertragbare Erkenntnis aus einem Fehler fest, stat
 
 **Rückseite:** Das gefährdete Asset oder den betroffenen Dienst, die Schwachstelle oder das unerwünschte Verhalten und den Beleg dafür, wie der Datenverkehr das Risiko verursacht.
 
-So entsteht ein kleines Deck aus deinen eigenen Fehlern. [Übungsfragen in Lernkarten zu verwandeln](/blog/how-to-turn-practice-questions-into-flashcards/) funktioniert hier besonders gut, solange du die Erkenntnis in eigenen Worten formulierst und kein kopiertes Prüfungsmaterial speicherst.
+So entsteht ein kleines Deck aus deinen eigenen Fehlern. Nutze dafür Fehler aus Übungsfragen. Formuliere die Erkenntnis in eigenen Worten und speichere kein kopiertes Prüfungsmaterial.
 
 ## Decke fünf Units und drei Kompetenzbereiche ab
 
@@ -134,7 +134,7 @@ Zwinge nicht jedes Thema in alle drei Spalten. Manche Kursthemen betonen nur ein
 
 Halte die Tags einfach: `unit-3`, `analyze-risk` und `logs`. Eine Karte darf mehrere Tags haben. Erstelle keine separaten Kopien, nur um dieselbe Idee mehreren Kategorien zuzuordnen.
 
-Wenn du eine Karte wiederholt nicht beantworten kannst, prüfe zuerst ihre Formulierung. Eine unklare Frage kann wie ein Gedächtnisproblem wirken. [Bessere Lernkarten erstellen](/blog/how-to-make-better-flashcards/) und ein kurzer Durchgang zum [Verbessern schwacher KI-generierter Karten](/blog/how-to-fix-ai-flashcards/) sparen oft mehr Zeit, als eine schlechte Karte zehnmal zu wiederholen.
+Wenn du eine Karte wiederholt nicht beantworten kannst, prüfe zuerst ihre Formulierung. Eine unklare Frage kann wie ein Gedächtnisproblem wirken. Formuliere eine konkrete Frage, prüfe die Antwort an der Quelle und teile überladene Karten, statt dieselbe schlechte Karte zehnmal zu wiederholen.
 
 ## Übe die vollständige Device Security Analysis außerhalb des Decks
 
@@ -164,7 +164,7 @@ Ein kleiner wöchentlicher Rhythmus lässt sich leichter durchhalten als der Ver
 
 **Nach jeder Unterrichts- oder Lerneinheit:** Füge nur Karten zu Konzepten hinzu, die du nicht erklären konntest, zu Unterscheidungen, die du verwechselt hast, und zu Belegen, die du falsch ausgewertet hast. Formuliere eigene Fragen. Zehn nützliche Karten sind besser als vierzig kopierte Sätze.
 
-**An Wiederholungstagen:** Antworte, bevor du die Rückseite aufdeckst. Wenn deine Antwort nur teilweise richtig war, halte fest, was gefehlt hat. Ein FSRS-Scheduler verteilt die nächsten Wiederholungen anhand deines bisherigen Verlaufs. [Dieser FSRS-Ablauf für Prüfungen](/blog/how-to-study-for-an-exam-with-fsrs/) erklärt, wie du die Warteschlange überschaubar hältst, wenn eine Prüfung mit festem Termin näher rückt.
+**An Wiederholungstagen:** Antworte, bevor du die Rückseite aufdeckst. Wenn deine Antwort nur teilweise richtig war, halte fest, was gefehlt hat. Ein FSRS-Scheduler verteilt die nächsten Wiederholungen anhand deines bisherigen Verlaufs. Begrenze neue Karten, wenn die fälligen Wiederholungen vor der Prüfung zu viel Zeit beanspruchen.
 
 **Einmal pro Woche:** Mische Units und Kompetenzbereiche. Nimm mindestens eine Risikokette, eine Karte zur Wirkung einer Sicherheitsmaßnahme und eine Belegkarte auf. Bearbeite anschließend eine kurze Übung mit Quellenmaterial außerhalb des Decks.
 

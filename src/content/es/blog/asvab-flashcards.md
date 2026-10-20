@@ -98,7 +98,7 @@ Fuente: Mi lista de vocabulario verificada, Unidad 3
 
 No crees la tarjeta inversa `careful about money = ?` y exijas una única palabra oculta cuando `frugal`, `thrifty` y `economical` podrían encajar. Reconocer una palabra en contexto y producir exactamente una palabra de una lista concreta son tareas diferentes. Si tu fuente exige producción, limita la pregunta a esa lista.
 
-No pongas conjuntos completos de sinónimos en el reverso de una sola tarjeta. Cuatro definiciones vagamente relacionadas dificultan saber qué has fallado realmente al responder. La guía para [crear mejores flashcards](/es/blog/how-to-make-better-flashcards/) te resultará útil cuando una respuesta empiece a acumular varios significados, raíces, antónimos y oraciones de ejemplo.
+No pongas conjuntos completos de sinónimos en el reverso de una sola tarjeta. Cuatro definiciones vagamente relacionadas dificultan saber qué has fallado realmente al responder. Separa significados, raíces, antónimos y ejemplos cuando evalúen aprendizajes distintos.
 
 ## Separa las flashcards de matemáticas para el ASVAB de la práctica matemática
 
@@ -203,7 +203,7 @@ Fuente: Mi corrección de práctica autorizada; pregunta original no copiada
 
 Si tanto la fórmula como la conversión eran correctas, pero entendiste mal la situación, dedica más tiempo a resolver problemas nuevos. Si comprendías el texto, pero se te acabó el tiempo, programa sesiones de lectura cronometradas. La corrección adecuada no siempre es otra tarjeta.
 
-La guía más amplia para [convertir preguntas de práctica en flashcards](/es/blog/how-to-turn-practice-questions-into-flashcards/) ofrece más patrones para extraer un aprendizaje sin copiar una pregunta. [Flashcards frente a exámenes de práctica](/es/blog/flashcards-vs-practice-tests/) explica por qué el repaso mediante recuperación y la práctica con el formato del examen deben seguir siendo partes separadas de la semana.
+Extrae de cada error un aprendizaje con tus propias palabras, sin copiar la pregunta. Mantén el repaso de tarjetas y la práctica con el formato del examen como actividades separadas.
 
 ## Practica con el formato en el que realmente te examinarás
 
@@ -236,7 +236,7 @@ Utiliza un ciclo sencillo:
 
 No importes cientos de **tarjetas de estudio para el ASVAB** solo porque la fecha del examen se acerque. Cada tarjeta nueva se convierte en trabajo futuro. Empieza con un núcleo pequeño para el AFQT, añade los módulos prioritarios y deja que la práctica real decida dónde debe crecer el mazo.
 
-La [guía para planificar un examen con FSRS](/es/blog/how-to-study-for-an-exam-with-fsrs/) muestra cómo organizar el estudio hacia atrás desde el día del examen. La guía para [establecer una cantidad diaria de tarjetas nuevas](/es/blog/how-many-new-flashcards-per-day/) ayuda cuando la cola empieza a crecer más rápido de lo que puedes repasarla.
+Organiza el estudio desde el día del examen hacia atrás, dejando tiempo para practicar. Reduce las tarjetas nuevas si la cola crece más rápido de lo que puedes repasarla.
 
 ## Cómo encaja Nibomo
 

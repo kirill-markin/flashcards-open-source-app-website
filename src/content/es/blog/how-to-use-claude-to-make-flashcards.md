@@ -54,7 +54,7 @@ Crea un Project para:
 
 Eso mantiene los borradores más limpios porque Claude no intenta mezclar material sin relación de cuatro materias distintas en una sola respuesta. También hace que la limpieza sea menos molesta porque sabes qué se suponía que debía cubrir cada lote.
 
-Si usas Claude de forma más amplia como tutor, y no solo como redactor de tarjetas, [Cómo usar Claude para estudiar en 2026](/es/blog/how-to-use-claude-for-studying/) es el artículo compañero más útil. Este artículo es más acotado. Va de pasar de la salida de Claude a tarjetas que seguirás respetando cuando toque repaso.
+Este artículo trata de pasar de las propuestas de Claude a tarjetas que sigan siendo útiles al repasar. Si también lo usas como tutor, detecta primero las lagunas y comprueba los borradores antes de guardarlos.
 
 ## Fija una vez las instrucciones del proyecto para que cada lote empiece más limpio
 
@@ -171,7 +171,7 @@ Los casos más fuertes son:
 
 Ese patrón importa porque Claude no está inventando un sistema de estudio desde cero. Está ayudándote a convertir material en bruto en objetivos de recuerdo más acotados.
 
-Si tu entrada son sobre todo apuntes, [Cómo convertir apuntes en flashcards en 2026](/es/blog/turn-notes-into-flashcards/) profundiza más en la fase de limpieza. Si tu material empieza como archivos, [Cómo convertir un PDF en flashcards en 2026](/es/blog/how-to-turn-a-pdf-into-flashcards/) es el artículo compañero más cercano.
+Si partes de apuntes o de un PDF, selecciona primero los conceptos que necesitas recordar y conserva la fuente para comprobar cada borrador.
 
 ## Borra las tarjetas que todavía suenan a Claude
 
@@ -237,7 +237,7 @@ FSRS se encarga del olvido.
 
 Son trabajos distintos.
 
-Si quieres profundizar más en la parte del planificador, [FSRS vs SM-2 en 2026](/es/blog/fsrs-vs-sm-2/) es el siguiente artículo directo.
+Deja que el planificador programe los repasos a partir de valoraciones honestas de tus respuestas. Corrige las preguntas ambiguas antes de ajustar los intervalos.
 
 ## Guarda las tarjetas aprobadas en Nibomo
 

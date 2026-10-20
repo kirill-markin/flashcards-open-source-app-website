@@ -93,7 +93,7 @@ Usa la prueba para localizar la primera diferencia. Cambia una sola cosa cada ve
 
 Por ejemplo, una respuesta con «first stage» y «second stage» en líneas distintas podría quedar como `first stage; second stage`. Así ambas partes permanecen en una sola línea. Mantén **New line** seleccionado como separador entre tarjetas si usas un punto y coma dentro de una respuesta.
 
-Si las dos etapas merecen preguntas independientes, escribe dos parejas completas. La [guía para hacer mejores flashcards](/blog/how-to-make-better-flashcards/) puede ayudarte a decidir.
+Si las dos etapas merecen preguntas independientes, escribe dos parejas completas.
 
 ## Revisa el resultado antes de publicar
 
@@ -111,4 +111,4 @@ Revisa también varios pares de término y respuesta que parezcan correctos. Que
 
 Quizlet también describe la creación de tarjetas con ayuda de IA a partir del material que proporciones en su [guía sobre la creación con IA](https://quizlet.com/content/create-flashcards-from-words-and-definitions-with-quizlet-ai). También tendrás que revisar el contenido de las tarjetas generadas. Si ya tienes una lista de términos y definiciones terminada, la importación estructurada te permite comprobar que se han transferido las parejas tal como las escribiste.
 
-¿Tus apuntes todavía están en párrafos? [Convierte tus apuntes en flashcards](/blog/turn-notes-into-flashcards/) antes de preparar el texto para importar. ¿Quieres trasladar un conjunto en sentido contrario? Consulta la [guía para exportar desde Quizlet](/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/).
+Convierte los párrafos de tus apuntes en preguntas concretas y respuestas breves antes de preparar el texto para importar. ¿Quieres trasladar un conjunto en sentido contrario? Consulta la [guía para exportar desde Quizlet](/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/).

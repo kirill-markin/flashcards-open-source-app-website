@@ -115,7 +115,7 @@ Los [ajustes de FSRS de Anki](https://docs.ankiweb.net/deck-options.html#fsrs) v
 
 Esos botones adicionales solo ayudan si los usas con constancia. El manual de Anki considera Hard un recuerdo correcto. Si pulsas Hard cuando has olvidado la respuesta, envías a FSRS la información equivocada y puedes acabar con intervalos demasiado largos.
 
-Elige el repaso binario de Mochi si un simple acierto o fallo hace más clara la sesión. Elige Anki si quieres más información en cada valoración y vas a usar su optimizador, los controles de retención, los preajustes o el simulador de carga de trabajo. Si te interesa el planificador más que las apps, consulta [FSRS vs SM-2](/es/blog/fsrs-vs-sm-2/).
+Elige el repaso binario de Mochi si un simple acierto o fallo hace más clara la sesión. Elige Anki si quieres más información en cada valoración y vas a usar su optimizador, los controles de retención, los preajustes o el simulador de carga de trabajo.
 
 ## Mochi y Anki reparten el coste de forma distinta
 

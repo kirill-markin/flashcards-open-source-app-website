@@ -79,7 +79,7 @@ Aprender las 27 enmiendas como un solo bloque obliga a manejar demasiadas asocia
 
 Aprende primero los bloques en orden. Dentro de cada uno, di en voz alta el número y la pista: `13—esclavitud`, `14—ciudadanía, debido proceso, igual protección`, `15—voto y raza`. Cuando esas asociaciones sean precisas, mezcla los bloques para que el encabezado deje de revelar el tema.
 
-Esta agrupación funciona bien con flashcards de enmiendas para AP Government y APUSH porque el número permanece ligado a un periodo histórico. La [guía de flashcards para AP U.S. History](/es/blog/how-to-use-flashcards-for-ap-us-history/) explica cómo añadir pruebas específicas del curso y practicar la argumentación sin cargarlo todo en una sola tarjeta. Si al principio solo necesitas flashcards de la Carta de Derechos, practica el bloque I–X en grupos más pequeños de tres o cuatro enmiendas antes de mezclar las 10.
+Esta agrupación funciona bien con flashcards de enmiendas para AP Government y APUSH porque el número permanece ligado a un periodo histórico. Añade pruebas específicas del curso y practica la argumentación sin cargarlo todo en una sola tarjeta. Si al principio solo necesitas flashcards de la Carta de Derechos, practica el bloque I–X en grupos más pequeños de tres o cuatro enmiendas antes de mezclar las 10.
 
 ## Practica en los dos sentidos
 
@@ -99,7 +99,7 @@ El primer sentido ayuda cuando un docente, un libro de texto o una pregunta de e
 
 Mantén separadas las dos tarjetas de cada pareja. Ver la misma respuesta pocos segundos después mide sobre todo la repetición a corto plazo. El mazo gratuito utiliza un orden fijo de intercalación que separa los sentidos inversos con un mínimo de 21 posiciones. También deja al menos tres tarjetas intermedias entre las enmiendas similares identificadas de antemano, incluidos los grupos sobre el derecho al voto, el alcohol y la estructura presidencial.
 
-Cuando crees tus propias tarjetas, puedes aplicar el mismo principio de forma más sencilla: separa las parejas inversas, mezcla las categorías relacionadas después del aprendizaje inicial y [centra cada pregunta en un único objetivo de recuerdo](/es/blog/how-to-make-better-flashcards/).
+Cuando crees tus propias tarjetas, puedes aplicar el mismo principio de forma más sencilla: separa las parejas inversas, mezcla las categorías relacionadas después del aprendizaje inicial y centra cada pregunta en un único objetivo de recuerdo.
 
 ## Compara las enmiendas que sueles confundir
 
@@ -160,13 +160,13 @@ Elimina el nombre del bloque cuando las asociaciones básicas sean estables. Mez
 
 Una o dos veces por semana, escribe del `I` al `XXVII` en una hoja en blanco y añade una pista esencial junto a cada número. Así eliminas las pistas que aportan la redacción y el diseño del mazo. También puedes barajar tarjetas de papel o usar el [juego para relacionar las 27 enmiendas](https://constitutioncenter.org/education/classroom-resource-library/classroom/15.3-27-amendments-matching-game) del National Constitution Center. Termina explicando en voz alta dos enmiendas fáciles de confundir sin mirar ninguna de las respuestas.
 
-Después de la primera fase de aprendizaje, repasa cada tarjeta cuando corresponda en vez de volver a recorrer las 54 desde el principio todos los días. [Esta guía sobre la frecuencia de repaso](/es/blog/how-often-should-you-review-flashcards/) explica la diferencia entre el repaso espaciado y recorrer el mazo completo según un calendario fijo.
+Después de la primera fase de aprendizaje, repasa cada tarjeta cuando corresponda en vez de volver a recorrer las 54 desde el principio todos los días.
 
 ## Estudia la interpretación y la aplicación por separado
 
 Un mazo que relaciona números y significados proporciona el mapa básico para estudiar la Constitución. No enseña toda la materia.
 
-Para educación cívica o historia de Estados Unidos, relaciona cada enmienda con los acontecimientos y argumentos de tu curso. En APUSH, practica cómo situarla en su contexto y usarla correctamente como prueba en una SAQ, DBQ o LEQ. En AP Government o un curso introductorio de Derecho, lee los casos, la doctrina y los materiales asignados por el docente. La [guía de flashcards para la facultad de Derecho](/es/blog/how-to-use-flashcards-for-law-school/) explica por qué el recuerdo de las reglas, la relación entre los casos y la práctica de aplicación requieren preguntas distintas.
+Para educación cívica o historia de Estados Unidos, relaciona cada enmienda con los acontecimientos y argumentos de tu curso. En APUSH, practica cómo situarla en su contexto y usarla correctamente como prueba en una SAQ, DBQ o LEQ. En AP Government o un curso introductorio de Derecho, lee los casos, la doctrina y los materiales asignados por el docente. Formula preguntas separadas para las reglas, las relaciones entre casos y la aplicación.
 
 La recitación palabra por palabra también exige otro diseño de tarjeta. Si debes aprender el texto exacto, parte de la transcripción oficial y crea preguntas más pequeñas sobre las cláusulas exigidas. Un resumen conciso para estudiar debe seguir siendo una pista para recordar, no convertirse en una afirmación sobre todo lo que una enmienda significa en el Derecho vigente.
 

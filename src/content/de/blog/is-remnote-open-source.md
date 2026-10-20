@@ -160,7 +160,7 @@ Nibomo deckt einen schmaleren Lern-Workflow ab. Es bietet keine verknüpfte Wiss
 
 Für Nibomo gibt es einen dokumentierten [Self-Hosting-Weg für den gesamten Stack auf AWS](/de/docs/self-hosting/), aber keine lokale Appliance, die sich mit einem einzigen Befehl bereitstellen lässt. Wer sie betreibt, ist selbst für AWS, Cloudflare, Authentifizierung, E-Mail-Versand, Monitoring, Upgrades, Datenbankwiederherstellung und separate Builds der nativen Apps verantwortlich. Der [Remote-MCP-Connector](/de/docs/mcp-connector/) kann auf Karten und Decks zugreifen, ohne dass eine Desktop-App geöffnet bleiben muss. Der lokale Connector von RemNote erreicht die aktuelle Wissensdatenbank, aber nicht die Wiederholungswarteschlange. Das sind unterschiedlich zugeschnittene Produkte, keine einfache Rangliste von besser bis schlechter.
 
-Wenn Datenschutz wichtiger ist als der Markenname, bietet der Leitfaden zu [privaten Karteikarten mit KI](/de/blog/private-flashcards-with-ai/) eine Checkliste, mit der du lokale Speicherung, Synchronisierung, den Zugriff von KI-Anbietern und Self-Hosting innerhalb eines Lern-Workflows getrennt betrachten kannst.
+Wenn Datenschutz für deine Wahl entscheidend ist, prüfe lokale Speicherung, Synchronisierung, den Zugriff von KI-Anbietern und Self-Hosting getrennt.
 
 ## Die ehrliche Antwort
 

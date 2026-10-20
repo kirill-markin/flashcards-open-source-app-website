@@ -85,7 +85,7 @@ Die dokumentierten Grenzen sind konkret:
 
 Das reicht für eine lesbare Sicherung deiner eigenen Kartentexte oder eine sorgfältige Migration in ein anderes Werkzeug. Nicht erhalten bleiben Quizlets Bilder, dein Lernverlauf, Spiele, Abläufe im Unterricht, die Kontostruktur oder eine wiederherstellbare Kopie des Produkts.
 
-Wenn dir genau diese Kontrolle reicht, nutze die [Schritt-für-Schritt-Anleitung zum Quizlet-Export](/de/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/). Sie behandelt Trennzeichen, UTF-8, mehrzeilige Definitionen, unveränderte Sicherungskopien und Testimporte. Behalte das ursprüngliche Set, bis du den kopierten Text im Zielsystem geprüft hast.
+Wenn dir genau diese Kontrolle reicht, exportiere den zulässigen Text und prüfe Trennzeichen, UTF-8 und mehrzeilige Definitionen. Behalte eine unveränderte Sicherungskopie und das ursprüngliche Set, bis du den Text im Zielsystem geprüft hast.
 
 ## Gibt es eine öffentliche Quizlet-API?
 
@@ -124,7 +124,7 @@ Wähle die kleinste Form von Kontrolle, die dein Problem löst:
 | Die Lernanwendung untersuchen oder verändern | Vergleiche die tatsächlichen Quellcode-Repositories und Lizenzdateien. |
 | Den vollständigen Dienst selbst betreiben | Achte auf gepflegte Deployment-Dokumentation, Verfahren für Backup und Wiederherstellung sowie einen Upgrade-Pfad. |
 
-Der [ausführlichere Leitfaden zu Quizlet-Alternativen](/de/blog/quizlet-alternative/) vergleicht die Produkte, sobald du weißt, welche Anforderung für dich zählt. Eine vertraute Oberfläche, ein öffentlicher GitHub-Link, Offline-Zugriff und Self-Hosting sind nicht dasselbe.
+Vergleiche die Produkte anhand deiner konkreten Anforderungen. Eine vertraute Oberfläche, ein öffentlicher GitHub-Link, Offline-Zugriff und Self-Hosting sind nicht dasselbe.
 
 ## Offenlegung: Ich entwickle eine Open-Source-Alternative
 

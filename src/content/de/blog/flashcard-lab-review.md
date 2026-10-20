@@ -92,7 +92,7 @@ Nibomo dokumentiert dagegen klar, wie die Planung funktioniert. Die [FSRS-6-Doku
 
 Anki geht für Menschen, die das System genauer einstellen wollen, noch weiter. Die [FSRS-Einstellungen](https://docs.ankiweb.net/deck-options.html#fsrs) umfassen gewünschte Retention, Parameteroptimierung, Voreinstellungen und Simulationswerkzeuge. Damit ist Anki die ausgereifte Wahl für die Lernplanung, aber nicht automatisch der Sieger für jemanden, der vor allem ohne viel Einrichtung aus einem Sheet lernen möchte.
 
-Mehr zu den Algorithmen selbst findest du unter [FSRS vs SM-2](/de/blog/fsrs-vs-sm-2/). Flashcard Lab lässt sich keinem dieser Verfahren zuordnen, solange der Anbieter keine weiteren Details veröffentlicht.
+Flashcard Lab lässt sich weder FSRS noch SM-2 zuordnen, solange der Anbieter keine weiteren Details veröffentlicht.
 
 ## Die mobilen Apps klären die Offline-Frage nicht
 

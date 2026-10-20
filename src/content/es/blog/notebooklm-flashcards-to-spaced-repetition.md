@@ -155,9 +155,9 @@ Si el planificador es débil, incluso las cartas decentes se vuelven irritantes.
 
 Es por eso que las **tarjetas didácticas FSRS** son tan importantes en esta conversación. Una vez que las tarjetas abandonan NotebookLM, necesitan un sistema de memoria real detrás de ellas.
 
-Si desea conocer la parte de programación con más detalle, este artículo complementario es más profundo:
+Para programar los próximos repasos:
 
-- [FSRS vs SM-2 en 2026: ¿Qué algoritmo de repetición espaciada le ayuda a recordar más?](https://nibomo.com/blog/fsrs-vs-sm-2/)
+- Deja que el planificador use tus valoraciones honestas para programar los próximos repasos.
 
 ## Esto funciona especialmente bien cuando la fuente comenzó confusa
 
@@ -173,11 +173,11 @@ Quizás fue:
 
 Eso significa que las tarjetas generadas ya están a una transformación de la fuente. Darles una pasada de limpieza más antes de que se conviertan en elementos de revisión no es excesivo. Es control de calidad.
 
-Si su fuente todavía está atascada un paso antes, estos artículos complementarios le ayudarán:
+Si todavía necesitas preparar el material de origen:
 
-- [Cómo convertir notas en tarjetas didácticas en 2026](https://nibomo.com/blog/turn-notes-into-flashcards/)
-- [Cómo convertir un PDF en tarjetas didácticas en 2026](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
-- [Cómo convertir notas de Notion en tarjetas didácticas en 2026](https://nibomo.com/blog/how-to-turn-notion-notes-into-flashcards/)
+- Selecciona de tus apuntes las lagunas que merezcan repaso, sin copiar cada frase.
+- Comprueba el texto y las respuestas con el PDF antes de guardar las tarjetas.
+- Extrae de Notion solo los conceptos que quieras recordar y conserva una referencia a la fuente.
 
 ## El flujo de trabajo que usaría esta semana
 

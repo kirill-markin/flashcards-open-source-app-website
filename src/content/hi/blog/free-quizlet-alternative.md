@@ -114,11 +114,11 @@ Mochi से अपना डेटा बाहर निकालने के
 
 लंबी अवधि का वादा beta offer के मुकाबले सीमित है। Cards बनाना और उन्हें दोहराना मुफ़्त रहेगा। AI के ज़्यादा उपयोग के लिए बाद में अपनी provider key या paid option की ज़रूरत पड़ सकती है। यह वादा भी नहीं है कि हर hosted feature हमेशा मुफ़्त रहेगा।
 
-Quizlet migration भी इस विकल्प की सबसे बड़ी कमज़ोरी है। Nibomo में Quizlet, CSV, TSV, Anki या सामान्य text के लिए कोई direct importer नहीं है। Eligible Quizlet text को manually cards बनाने या review किए गए AI drafts के source material की तरह इस्तेमाल किया जा सकता है, लेकिन यह lossless import नहीं है। [Quizlet export workflow](/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/) cleanup समझाता है और ऐसा दावा नहीं करता कि गायब media और study state वापस मिल सकती है।
+Quizlet migration भी इस विकल्प की सबसे बड़ी कमज़ोरी है। Nibomo में Quizlet, CSV, TSV, Anki या सामान्य text के लिए कोई direct importer नहीं है। Eligible Quizlet text को manually cards बनाने या review किए गए AI drafts के source material की तरह इस्तेमाल किया जा सकता है, लेकिन यह lossless import नहीं है। Text जाँचकर साफ़ करें; उससे गायब media और study state वापस नहीं आती।
 
 Native `flashcards.zip` package Nibomo workspaces के बीच cards, tags और उनसे जुड़ा media ले जाता है। इसमें review history, FSRS scheduler state, settings, पूरा deck structure या account data नहीं जाता। Self-hosting से MIT-licensed software और deployment पर नियंत्रण मिलता है, लेकिन documented production path AWS इस्तेमाल करता है। Infrastructure, provider, maintenance, backup और operator की लागत फिर भी आती है। [Self-hosting guide](/docs/self-hosting/) इस सीमा को साफ़ करती है।
 
-अगर Quizlet छोड़ने की वजह open source, साफ़ तौर पर बताया गया FSRS या AI-agent access है, तो Nibomo चुनें। अगर direct migration, आज़माए हुए import formats या ऐसा hosted free tier ज़्यादा अहम है जिसमें सब कुछ हमेशा मुफ़्त रहे, तो कोई दूसरा विकल्प चुनें। अलग [open-source Quizlet comparison](/blog/quizlet-alternative/) में Quizlet और Nibomo की गहरी तुलना है; पाँच ऐप्स वाली यह guide बिना लागत वाली सीमाओं पर केंद्रित है।
+अगर Quizlet छोड़ने की वजह open source, साफ़ तौर पर बताया गया FSRS या AI-agent access है, तो Nibomo चुनें। अगर direct migration, आज़माए हुए import formats या ऐसा hosted free tier ज़्यादा अहम है जिसमें सब कुछ हमेशा मुफ़्त रहे, तो कोई दूसरा विकल्प चुनें।
 
 ## सब कुछ ले जाने से पहले यह migration test करें
 

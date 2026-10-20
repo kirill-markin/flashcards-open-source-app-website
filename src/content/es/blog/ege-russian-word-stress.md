@@ -88,7 +88,7 @@ En el anverso, deja la palabra sin marcar el acento. En el reverso, pon la respu
 | локтей — marca el acento | локтЕй; genitivo plural |
 | занята — marca el acento | занятА; forma corta femenina |
 
-No añadas toda la familia de palabras al reverso de cada tarjeta. Una pregunta y una respuesta comprobable permiten saber qué forma has recordado. Encontrarás más ejemplos de este enfoque en la guía sobre [cómo crear mejores tarjetas](/blog/how-to-make-better-flashcards/).
+No añadas toda la familia de palabras al reverso de cada tarjeta. Una pregunta y una respuesta comprobable permiten saber qué forma has recordado.
 
 Repasar las tarjetas al revés no sirve para comprobar el acento: si ves «началА», ya tienes la respuesta delante. Mantén el orden «palabra sin pistas → pronunciación» y mira el reverso solo después de intentar responder.
 

@@ -85,7 +85,7 @@ Eso te da un **cuestionario con IA con tus materiales de estudio** mucho más li
 
 También mantiene el trabajo en una escala humana. La mayoría de la gente sí puede responder y revisar en serio de 8 a 15 preguntas. Muy poca gente piensa de verdad con un monstruo autogenerado de 50 preguntas.
 
-Si tu material todavía necesita limpieza antes del paso del examen, [Cómo convertir apuntes en flashcards en 2026](/es/blog/turn-notes-into-flashcards/) cubre esa fase anterior.
+Antes de generar el examen, corrige los apuntes y separa los conceptos que quieras evaluar. Conserva las fuentes para comprobar las respuestas.
 
 ## El prompt debería ser aburrido y específico
 
@@ -130,7 +130,7 @@ Por eso me gusta mezclar:
 
 No necesitas todos los tipos de pregunta cada vez. Necesitas suficiente variedad para que el examen saque a la luz lo que de verdad sabes.
 
-Para el flujo de estudio más amplio alrededor de esto, [Cómo usar IA para estudiar en 2026](/es/blog/how-to-use-ai-to-study/) es el artículo complementario más general.
+Intenta resolver primero cada pregunta sin ayuda y usa la IA después para analizar los errores. Comprueba las explicaciones con tus materiales.
 
 ## Revisa los fallos, no solo la nota
 
@@ -166,7 +166,7 @@ Ese es un buen resultado.
 
 Si conviertes cada pregunta en material de repaso permanente, casi siempre acabas inflando el mazo en lugar de construir memoria. Quédate solo con las partes que siguen siendo importantes más adelante y que además caben bien en una tarjeta limpia de anverso y reverso.
 
-Si tu siguiente paso es convertir esos fallos en tarjetas, [Cómo convertir preguntas de práctica en flashcards en 2026](/es/blog/how-to-turn-practice-questions-into-flashcards/) es el flujo complementario directo.
+Convierte cada fallo útil en una pregunta propia sobre la laguna concreta, sin copiar toda la pregunta del examen.
 
 ## Conserva el punto débil, no toda la explicación
 

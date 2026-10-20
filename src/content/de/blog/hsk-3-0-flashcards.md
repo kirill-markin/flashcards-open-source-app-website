@@ -196,7 +196,7 @@ So sieht diese Umwandlung aus:
 
 Schreibe nicht die vollständige offizielle Aufgabe auf die Vorderseite und den Lösungsschlüssel auf die Rückseite. Bewahre das Original im offiziellen Paket auf. Deine Karte sollte die Erkenntnis in deinen eigenen Worten enthalten und genug Quellenangaben bieten, damit du sie später prüfen kannst.
 
-[Quiz-Ergebnisse in Lernkarten umwandeln](/blog/how-to-turn-quiz-results-into-flashcards/) behandelt denselben Diagnoseprozess ausführlicher. [Lernkarten vs. Übungstests](/blog/flashcards-vs-practice-tests/) erklärt, warum nach der Karte eine neue Aufgabe folgen muss.
+Prüfe zuerst, welche Wissenslücke das falsche Ergebnis zeigt, und formuliere dazu eine einzelne Karte. Löse danach eine neue Aufgabe, um die Anwendung zu prüfen.
 
 ## Wiederhole HSK-Lernkarten mit FSRS, ohne die Warteschlange zu überladen
 
@@ -212,7 +212,7 @@ Beginne mit einer kleinen Menge aus der aktuellen Lerneinheit und wiederhole fä
 
 Du kannst `hörunterstützung`, `aufgabe` oder `sprechimpuls` hinzufügen, wenn diese Karten einen echten Übungsbedarf festhalten. Verwandle nicht gleich am ersten Tag jede Zeile des Lehrplans in eine Karte. Die Wiederholungswarteschlange wächst, bevor du das Material gut genug gelernt hast, um sinnvolle Prompts zu schreiben.
 
-Antworte beim Wiederholen, bevor du die Rückseite aufdeckst. Nutze Again, wenn der Abruf gescheitert oder die Antwort falsch ist, Hard für eine richtige Antwort, an die du dich nur mit großer Mühe erinnert hast, Good für einen normalen erfolgreichen Abruf und Easy für eine mühelose Antwort. [Again vs. Hard in FSRS](/blog/again-vs-hard-fsrs-flashcards/) zeigt konkrete Grenzfälle für Teilantworten und Hinweise.
+Antworte beim Wiederholen, bevor du die Rückseite aufdeckst. Nutze Again, wenn der Abruf gescheitert oder die Antwort falsch ist, Hard für eine richtige Antwort, an die du dich nur mit großer Mühe erinnert hast, Good für einen normalen erfolgreichen Abruf und Easy für eine mühelose Antwort.
 
 Wenn sich eine Karte wiederholt nur schwer bewerten lässt, bearbeite sie. Trenne Bedeutung und Schreiben, entferne zusätzliche Fakten oder formuliere die verlangte Antwort klarer. FSRS kann eine klare Karte sehr gut einplanen. Bei einer vagen Karte hilft auch FSRS nicht.
 

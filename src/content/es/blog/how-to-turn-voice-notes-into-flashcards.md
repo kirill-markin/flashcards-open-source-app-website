@@ -85,9 +85,9 @@ Con las notas de voz, el trabajo suele ser una aclaración.
 
 Ya tienes el concepto en tu cabeza en alguna parte. La nota de voz es el complicado puente entre la comprensión y una tarjeta utilizable.
 
-Si su fuente es una grabación completa de la clase en lugar de su propio resumen, comience aquí:
+Si partes de una grabación completa de la clase:
 
-- [Cómo convertir grabaciones de conferencias en tarjetas didácticas en 2026](https://nibomo.com/blog/how-to-turn-lecture-recordings-into-flashcards/)
+- Transcribe solo el fragmento relevante de la grabación y compruébalo antes de redactar la tarjeta.
 
 ## El flujo de trabajo en el que confío es la grabación breve, la transcripción y luego una limpieza despiadada.
 
@@ -201,9 +201,9 @@ tu propio idioma.
 
 Eso a menudo hace que **estudiar notas de voz con tarjetas didácticas** sea más útil que obligarte a reconstruir toda la idea a partir de una mala página de cuaderno. Ya lo dijiste de una manera que tenía sentido para ti. El trabajo ahora es comprimirlo en tarjetas que valga la pena conservar.
 
-Si la fuente sin procesar está escrita a mano en lugar de hablada, este artículo encaja mejor:
+Si la fuente está escrita a mano:
 
-- [Cómo convertir notas escritas a mano en tarjetas didácticas en 2026](https://nibomo.com/blog/how-to-turn-handwritten-notes-into-flashcards/)
+- Revisa la transcripción de tus notas manuscritas con el original antes de convertirlas en preguntas.
 
 ## Los flujos de trabajo incorrectos de audio a tarjetas didácticas suelen fallar de las mismas tres maneras
 
@@ -258,9 +258,9 @@ Si el programador es débil, incluso un buen lote de tarjetas se vuelve molesto 
 
 Si el programador es sólido, todo el flujo de trabajo de audio se vuelve creíble. Captas la idea rápidamente, la transcribes, le das forma en tarjetas y luego dejas que el tiempo de revisión haga el trabajo aburrido correctamente.
 
-Si desea ver el lado del programador con más detalle, esto es más profundo:
+Para los repasos posteriores:
 
-- [FSRS vs SM-2 en 2026: ¿Qué algoritmo de repetición espaciada le ayuda a recordar más?](https://nibomo.com/blog/fsrs-vs-sm-2/)
+- Usa el historial de repaso para planificar las siguientes repeticiones, después de comprobar la calidad de las tarjetas.
 
 ## Dónde encaja Nibomo en este flujo de trabajo
 

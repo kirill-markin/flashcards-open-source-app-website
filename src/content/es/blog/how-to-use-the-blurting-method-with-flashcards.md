@@ -82,11 +82,11 @@ No "toda la respiración celular". No "todo lo de la tercera semana". No "la uni
 
 Cuando el alcance es demasiado grande, la hoja se convierte en un ritual de confianza. Escribes fragmentos generales, rodeas unos cuantos huecos y acabas sin nada lo bastante limpio como para convertirlo en tarjetas. Los temas más pequeños hacen que los fallos sean lo bastante concretos como para sobrevivir al relevo.
 
-Si tu material todavía necesita orden antes de la parte de blurting, estos son mejores puntos de partida:
+Para comprobar las lagunas y preparar las tarjetas:
 
-- [Cómo convertir apuntes en flashcards en 2026](/es/blog/turn-notes-into-flashcards/)
-- [Cómo convertir un PDF en flashcards en 2026](/es/blog/how-to-turn-a-pdf-into-flashcards/)
-- [Cómo usar IA para hacer active recall en 2026](/es/blog/how-to-use-ai-for-active-recall/)
+- Usa los apuntes para comprobar lo que omitiste y formula una pregunta concreta sobre cada laguna útil.
+- Verifica en el PDF el dato que no pudiste recordar antes de guardar la tarjeta.
+- Pide a la IA una pregunta, intenta responder sin ayuda y comprueba después la explicación.
 
 ## Lo que de verdad te da una buena sesión de blurting
 
@@ -187,7 +187,7 @@ Tarjetas mejores:
 
 La misma zona débil. Mucho mejor material de repaso.
 
-Si quieres reglas más estrictas para redactar tarjetas después de la pasada de blurting, [Cómo hacer mejores flashcards en 2026](/es/blog/how-to-make-better-flashcards/) es el siguiente paso adecuado.
+Tras la pasada de blurting, limita cada tarjeta a una pregunta específica y una respuesta que puedas evaluar con claridad.
 
 ## El blurting comprueba el tema entero. Las flashcards protegen las partes inestables.
 
@@ -222,7 +222,7 @@ Me gusta la IA después del blurting, para tareas más concretas:
 - reescribir frases vagas
 - generar unas cuantas preguntas de aplicación a partir de un concepto que conocías a medias
 
-Ahí viene bien tomar ideas de [Cómo arreglar flashcards creadas con IA en 2026](/es/blog/how-to-fix-ai-flashcards/) y [Cómo usar IA para hacer active recall en 2026](/es/blog/how-to-use-ai-for-active-recall/).
+Comprueba las respuestas con la fuente y divide las preguntas sobrecargadas. Pide a la IA que te evalúe sin mostrarte la solución antes de tu intento.
 
 La regla es simple:
 
@@ -284,7 +284,7 @@ Esa combinación es especialmente útil en las dos últimas semanas antes de un 
 - usa los repasos programados para mantener vivos esos fallos
 - repite con el siguiente tema
 
-Si tu flujo de examen necesita más estructura que eso, [Cómo estudiar para un examen con FSRS en 2026](/es/blog/how-to-study-for-an-exam-with-fsrs/) es el artículo complementario adecuado.
+Reduce las tarjetas nuevas a medida que se acerque el examen y conserva tiempo para repasar y resolver tareas completas.
 
 ## Dónde encaja Nibomo
 

@@ -79,7 +79,7 @@ Wenn du alle 27 als einen einzigen Block lernst, musst du zu viele willkürliche
 
 Nimm die Gruppen zunächst der Reihe nach durch. Sage innerhalb einer Gruppe Nummer und Kernaussage laut: `13 – Sklaverei`, `14 – Staatsbürgerschaft, rechtsstaatliches Verfahren, gleicher Schutz`, `15 – Wahlrecht und Rasse`. Sobald diese Verbindungen sitzen, mische die Gruppen, damit die Überschrift das Thema nicht mehr verrät.
 
-Diese Gruppierung eignet sich gut für Karteikarten zu den Zusatzartikeln in AP Government und APUSH, weil die Nummer mit einer historischen Epoche verbunden bleibt. Der [Leitfaden zu Karteikarten für AP U.S. History](/de/blog/how-to-use-flashcards-for-ap-us-history/) zeigt, wie du kursspezifische Belege und Argumentationsübungen ergänzt, ohne alles auf eine Karte zu packen. Wenn du zunächst nur Karteikarten zur Bill of Rights brauchst, lerne die Gruppe I–X in kleineren Durchgängen mit drei oder vier Zusatzartikeln, bevor du alle zehn mischst.
+Diese Gruppierung eignet sich gut für Karteikarten zu den Zusatzartikeln in AP Government und APUSH, weil die Nummer mit einer historischen Epoche verbunden bleibt. Ergänze kursspezifische Belege und Argumentationsübungen, ohne alles auf eine Karte zu packen. Wenn du zunächst nur Karteikarten zur Bill of Rights brauchst, lerne die Gruppe I–X in kleineren Durchgängen mit drei oder vier Zusatzartikeln, bevor du alle zehn mischst.
 
 ## Rufe das Wissen in beide Richtungen ab
 
@@ -99,7 +99,7 @@ Die erste Richtung hilft, wenn eine Lehrkraft, ein Lehrbuch oder eine Prüfungsf
 
 Lass zwischen den beiden Karten eines Paares genügend Abstand. Wenn du dieselbe Antwort wenige Sekunden später erneut siehst, testest du vor allem dein Kurzzeitgedächtnis. Der kostenlose Stapel verwendet eine feste, verschachtelte Reihenfolge, in der umgekehrte Kartenpaare mindestens 21 Positionen auseinanderliegen. Zwischen festgelegten, leicht zu verwechselnden Karten liegen außerdem mindestens drei andere Karten, etwa in den Gruppen zu Wahlrecht, Alkohol und Präsidentschaft.
 
-Wenn du eigene Karten erstellst, kannst du dasselbe Prinzip einfacher umsetzen: Trenne umgekehrte Paare, mische verwandte Kategorien nach dem ersten Einprägen und [richte jede Frage auf ein einziges Abrufziel aus](/de/blog/how-to-make-better-flashcards/).
+Wenn du eigene Karten erstellst, kannst du dasselbe Prinzip einfacher umsetzen: Trenne umgekehrte Paare, mische verwandte Kategorien nach dem ersten Einprägen und richte jede Frage auf ein einziges Abrufziel aus.
 
 ## Stelle leicht verwechselbare Zusatzartikel gegenüber
 
@@ -160,13 +160,13 @@ Entferne die Bezeichnung der Gruppe, sobald die grundlegenden Verbindungen sitze
 
 Schreibe ein- oder zweimal pro Woche `I` bis `XXVII` auf ein leeres Blatt und notiere neben jeder Nummer eine Kernaussage. So entfallen die Hinweise durch Formulierung und Gestaltung deines Kartenstapels. Du kannst auch Papierkarten mischen oder das [Zuordnungsspiel zu den 27 Zusatzartikeln](https://constitutioncenter.org/education/classroom-resource-library/classroom/15.3-27-amendments-matching-game) des National Constitution Center nutzen. Erkläre zum Abschluss zwei leicht verwechselbare Zusatzartikel laut, ohne eine der Antworten anzusehen.
 
-Wiederhole die Karten nach dem ersten Lerndurchgang dann, wenn sie fällig sind, statt jeden Tag wieder mit allen 54 von vorn zu beginnen. Dieser [Leitfaden zur Wiederholungshäufigkeit](/de/blog/how-often-should-you-review-flashcards/) erklärt den Unterschied zwischen verteilten Wiederholungen und dem Durcharbeiten des gesamten Stapels nach einem festen Zeitplan.
+Wiederhole die Karten nach dem ersten Lerndurchgang dann, wenn sie fällig sind, statt jeden Tag wieder mit allen 54 von vorn zu beginnen.
 
 ## Übe Auslegung und Anwendung getrennt
 
 Ein Kartenstapel zu Nummer und Bedeutung gibt dir einen grundlegenden Überblick über die Verfassungszusätze. Er deckt nicht das gesamte Fach ab.
 
-Verknüpfe für Staatsbürgerkunde oder US-Geschichte jeden Zusatzartikel mit den Ereignissen und Argumenten deines Kurses. Übe für APUSH, einen Zusatzartikel in seinen Kontext einzuordnen und ihn in einer SAQ, DBQ oder LEQ korrekt als Beleg zu verwenden. Lies für AP Government oder einen juristischen Einführungskurs die vorgegebenen Fälle, die Rechtslehre und die Materialien deiner Lehrkraft. Der [Leitfaden zu Karteikarten im Jurastudium](/de/blog/how-to-use-flashcards-for-law-school/) erklärt, warum das Abrufen von Regeln, Zusammenhänge zwischen Fällen und Anwendungsübungen unterschiedliche Fragen erfordern.
+Verknüpfe für Staatsbürgerkunde oder US-Geschichte jeden Zusatzartikel mit den Ereignissen und Argumenten deines Kurses. Übe für APUSH, einen Zusatzartikel in seinen Kontext einzuordnen und ihn in einer SAQ, DBQ oder LEQ korrekt als Beleg zu verwenden. Lies für AP Government oder einen juristischen Einführungskurs die vorgegebenen Fälle, die Rechtslehre und die Materialien deiner Lehrkraft. Stelle getrennte Fragen zum Abrufen von Regeln, zu Zusammenhängen zwischen Fällen und zur Anwendung.
 
 Auch das wortgetreue Wiedergeben verlangt ein anderes Kartendesign. Wenn der genaue Wortlaut gefordert ist, arbeite mit der offiziellen Abschrift und erstelle kleinere Fragen zu den geforderten Klauseln. Eine knappe Lernzusammenfassung sollte eine Abrufhilfe bleiben und nicht zu einer umfassenden Aussage darüber werden, was ein Zusatzartikel im heutigen Recht bedeutet.
 

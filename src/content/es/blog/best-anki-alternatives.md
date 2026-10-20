@@ -237,6 +237,6 @@ Empieza por lo que no puedes permitirte perder:
 5. Si el verdadero problema es distribuir material en clase o simplificar un ciclo compartido de repaso, reconstruye un conjunto pequeño en Quizlet o Brainscape.
 6. Si buscas específicamente el método de SuperMemo, acepta una planificación nueva. Si buscas acceso al código de todo el sistema, autohospedaje, API y MCP, acepta la reconstrucción con pérdidas de Nibomo y el trabajo operativo que conlleva.
 
-Para comparar función por función tres modelos muy distintos, consulta [Anki vs. Quizlet vs. Nibomo](/blog/anki-vs-quizlet-vs-open-source-flashcards-app/).
+Compara cada opción con tus propias tarjetas: prueba la edición, los repasos, la exportación y las funciones de las que depende tu colección.
 
 La regla útil es sencilla: cambia cuando la ventaja sea concreta y hayas sometido las pérdidas a una prueba real. Si tu mazo representativo no logra cruzar ese límite sin problemas, seguir con Anki no es la salida conservadora por defecto. Es el resultado de la comparación.

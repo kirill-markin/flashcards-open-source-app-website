@@ -101,7 +101,7 @@ La aplicación de escritorio ofrece la experiencia sin conexión más completa p
 
 Esto hace que la aplicación de escritorio resulte útil al viajar, trabajar con una conexión inestable o necesitar acceso local a una biblioteca multimedia completa. Pero no crea un servidor de RemNote en tu equipo. Cuando una base de conocimientos sincronizada recupera la conexión, sigue sincronizándose mediante el servicio alojado de RemNote.
 
-Si tu verdadera pregunta es si el flujo de trabajo de RemNote, centrado en las notas y los PDF, justifica ese límite, la [comparativa de alternativas a RemNote](/es/blog/remnote-alternative/) analiza las diferencias entre los productos sin repetirlas aquí.
+Al comparar alternativas, comprueba si necesitas el flujo de RemNote que integra notas y PDF, además de las tarjetas y los repasos.
 
 ## Las copias de seguridad y las exportaciones resuelven problemas distintos
 
@@ -160,7 +160,7 @@ Nibomo cubre un flujo de aprendizaje más limitado. No tiene una base de conocim
 
 Nibomo tiene una [vía documentada para autoalojar toda la pila tecnológica en AWS](/es/docs/self-hosting/), pero no es una solución local lista para desplegarse con un solo comando. Quien lo opera se hace cargo de AWS, Cloudflare, la autenticación, la entrega de correo electrónico, la monitorización, las actualizaciones, la recuperación de la base de datos y las compilaciones independientes de las aplicaciones nativas. Su [conector MCP remoto](/es/docs/mcp-connector/) permite acceder a tarjetas y mazos sin mantener abierta una aplicación de escritorio; el conector local de RemNote accede a la base de conocimientos activa, pero no a la cola de repaso. Son enfoques de producto distintos, no una simple escala de mejor a peor.
 
-Si la privacidad importa más que la marca, [tarjetas privadas con IA](/es/blog/private-flashcards-with-ai/) ofrece una lista de comprobación para distinguir el almacenamiento local, la sincronización, el acceso del proveedor de IA y el autoalojamiento dentro de un flujo de estudio.
+Si la privacidad determina tu elección, revisa por separado el almacenamiento local, la sincronización, el acceso del proveedor de IA y el autoalojamiento.
 
 ## La respuesta honesta
 

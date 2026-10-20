@@ -56,7 +56,7 @@ Con ese marco, puedes delimitar el primer mazo de varias formas razonables:
 
 Elige una situación. Después, recopila palabras y expresiones de una sola lección, un artículo breve o una transcripción que tengas permiso para usar. Una tarjeta merece quedarse cuando ayuda en esa situación o corrige un fallo real. «Quizá algún día me sirva» es un motivo pobre para repasar algo durante meses.
 
-Esta es la versión para español del [flujo de trabajo con flashcards para aprender idiomas](/es/blog/how-to-use-flashcards-for-language-learning/): primero el contexto; después, la tarjeta. Si partes de apuntes de clase o de lectura, [convierte los apuntes en flashcards](/es/blog/turn-notes-into-flashcards/) de forma selectiva en lugar de transformar cada frase.
+Empieza por el contexto y crea después la tarjeta. Si partes de apuntes de clase o de lectura, selecciona los contenidos que quieras recordar en lugar de transformar cada frase.
 
 ## Incluye el artículo en la tarjeta del sustantivo
 
@@ -92,7 +92,7 @@ Reverso: un problema
 
 El diccionario de la RAE identifica [`mano` como femenino](https://dle.rae.es/mano) y [`problema` como masculino](https://dle.rae.es/problema). Las oraciones de ejemplo son originales. Así, el género forma parte de la respuesta en vez de quedar relegado a una pequeña nota `m.` o `f.` fácil de pasar por alto.
 
-No hace falta meter en una sola tarjeta el artículo singular, el plural, la traducción, tres acepciones, una nota de pronunciación y dos modismos. Crea otra tarjeta para el plural o la concordancia cuando lo exija el curso o un error demuestre que la necesitas. La guía para [crear mejores flashcards](/es/blog/how-to-make-better-flashcards/) también se aplica aquí: una decisión clara es más fácil de responder y corregir.
+No hace falta meter en una sola tarjeta el artículo singular, el plural, la traducción, tres acepciones, una nota de pronunciación y dos modismos. Crea otra tarjeta para el plural o la concordancia cuando lo exija el curso o un error demuestre que la necesitas. También aquí, una decisión clara es más fácil de responder y corregir.
 
 ## Pide una sola decisión verbal cada vez
 
@@ -240,7 +240,7 @@ Reverso: Tengo
 
 Conserva la corrección del profesor o la nota sobre la fuente. La IA puede redactar a partir de ella una pregunta más clara, pero una frase que suena fluida no demuestra que la forma sea correcta para el significado y la variedad que buscas.
 
-Cuando fallas repetidamente una tarjeta, ver más veces la misma pregunta ambigua rara vez resuelve el problema. Comprueba la fuente, acota la pista, separa los objetivos mezclados o añade el contraste exacto que no recordabas. La [guía para corregir flashcards «sanguijuela»](/es/blog/how-to-fix-leech-flashcards/) explica este proceso de limpieza en detalle.
+Cuando fallas repetidamente una tarjeta, ver más veces la misma pregunta ambigua rara vez resuelve el problema. Comprueba la fuente, acota la pista, separa los objetivos mezclados o añade el contraste exacto que no recordabas.
 
 ## Mantén la cola de repaso más pequeña que el montón de fuentes
 

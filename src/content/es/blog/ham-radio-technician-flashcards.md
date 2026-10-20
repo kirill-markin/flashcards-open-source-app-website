@@ -67,7 +67,7 @@ Trabaja en tres capas:
 2. Crea una tarjeta pequeña que te pida recordar la norma, relación, procedimiento o significado sin opciones de respuesta.
 3. Comprueba el concepto con preguntas aleatorias del banco vigente.
 
-Mantén un solo objetivo claro por tarjeta. Pon primero la respuesta directa y añade después una explicación o un cálculo breve. Divide la tarjeta cuando el reverso empiece a evaluar varios datos que no guardan relación entre sí. Las reglas de edición de [Cómo crear mejores flashcards](/blog/how-to-make-better-flashcards/) también funcionan bien con contenidos de radioafición.
+Mantén un solo objetivo claro por tarjeta. Pon primero la respuesta directa y añade después una explicación o un cálculo breve. Divide la tarjeta cuando el reverso empiece a evaluar varios datos que no guardan relación entre sí.
 
 ## Prueba estos formatos de flashcards para Technician
 
@@ -137,7 +137,7 @@ Después de cada examen de práctica, clasifica todas las respuestas incorrectas
 - **Laguna de diagramas:** no pudiste interpretar un símbolo o seguir una conexión. Practica con los diagramas oficiales.
 - **Error de lectura:** no viste palabras como `not`, `except`, `maximum` o `minimum`. Ve más despacio en los exámenes de práctica; otra tarjeta de datos puede que no ayude.
 
-No pegues por defecto en el mazo toda la pregunta que fallaste. Guarda la parte que quieras recordar la semana siguiente y vuelve a comprobarla en otro examen aleatorio. [Flashcards vs. tests de práctica](/blog/flashcards-vs-practice-tests/) explica con más detalle este reparto: las tarjetas refuerzan elementos reutilizables, mientras que los tests de práctica comprueban la selección, la cobertura y el rendimiento en contexto.
+No pegues por defecto en el mazo toda la pregunta que fallaste. Guarda la parte que quieras recordar la semana siguiente y vuelve a comprobarla en otro examen aleatorio. Las tarjetas refuerzan elementos reutilizables, mientras que los tests de práctica comprueban la selección, la cobertura y el rendimiento en contexto.
 
 La [guía paso a paso de ARRL para obtener la licencia](https://www.arrl.org/getting-licensed-step-by-step) describe el examen Technician y enlaza su herramienta gratuita de repaso con exámenes aleatorios. Sea cual sea el proveedor que elijas, comprueba que indique expresamente que utiliza el banco vigente desde el 1 de julio de 2026.
 

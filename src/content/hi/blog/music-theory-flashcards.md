@@ -73,7 +73,7 @@ Sources को इस क्रम में इस्तेमाल करे�
 पीछे: नीचे से दूसरा space।
 ```
 
-पीछे का जवाब खोलने से पहले blank staff पर note बनाएँ या उसकी जगह की ओर इशारा करें। पीछे text answer के साथ verify की हुई staff image भी दिखाई जा सकती है। अगर आपके पास पहले से screenshots या page images हैं, तो [images को फ़्लैशकार्ड में बदलने का workflow](/hi/blog/how-to-turn-images-into-flashcards/) बताता है कि पूरे page को एक card बनाए बिना उन्हें crop और check कैसे करें।
+पीछे का जवाब खोलने से पहले blank staff पर note बनाएँ या उसकी जगह की ओर इशारा करें। पीछे text answer के साथ verify की हुई staff image भी दिखाई जा सकती है। Screenshots को संबंधित note तक crop करें और source से जाँचें; पूरे page को एक card न बनाएँ।
 
 ### इंटरवल फ़्लैशकार्ड
 
@@ -163,7 +163,7 @@ FSRS की due reviews में `Again`, `Hard`, `Good` और `Easy` को �
 
 उदाहरण के लिए, हर lesson के बाद छोटा batch बनाया जा सकता है, पढ़ाई वाले दिनों में due cards review किए जा सकते हैं, हफ़्ते में दो mixed written sessions किए जा सकते हैं और एक लंबा session listening, performance या analysis के लिए रखा जा सकता है। यह schedule template है, research से साबित threshold नहीं। इसे course load और due reviews में सच में लगने वाले समय के हिसाब से बदलें।
 
-अगर नए cards exercises को पीछे धकेलने लगें, तो उन्हें जोड़ना रोक दें। [हर दिन कितने नए फ़्लैशकार्ड जोड़ने चाहिए](/hi/blog/how-many-new-flashcards-per-day/) किसी universal संख्या के पीछे भागने के बजाय review load के हिसाब से intake बदलने का पूरा तरीका बताता है।
+अगर नए cards exercises को पीछे धकेलने लगें, तो उन्हें जोड़ना रोक दें। Review load के हिसाब से नए cards की संख्या घटाएँ।
 
 ## Basics साफ़ होने के बाद मिलती-जुलती categories मिलाएँ
 
@@ -179,7 +179,7 @@ Music theory में काम आने वाले mixes हैं:
 
 बेतरतीब variety लक्ष्य नहीं है। ऐसी categories मिलाएँ जो एक जैसी दिखती हों, जिनमें अलग-अलग rules के बीच चुनना पड़ता हो या जो असली analysis में साथ आती हों। Session में listening और performed work भी रखें, लेकिन सिर्फ़ इसलिए लिखित card को ear training न कहें कि उसके पास कोई audio exercise रखा है।
 
-[फ़्लैशकार्ड के साथ interleaving की guide](/hi/blog/how-to-use-interleaving-with-flashcards/) एक category से mixed progression तक जाने का तरीका ज़्यादा विस्तार से बताती है। Nibomo अपने-आप deliberate contrast sets नहीं बनाता, इसलिए संबंधित prompts आपको खुद चुनने होंगे।
+एक category के बुनियादी संबंध आने पर संबंधित categories मिलाएँ। Nibomo अपने-आप contrast sets नहीं बनाता, इसलिए तुलना करने वाले prompts खुद चुनें।
 
 ## कितने म्यूज़िक थ्योरी फ़्लैशकार्ड बनाने चाहिए?
 
@@ -194,7 +194,7 @@ Music theory में काम आने वाले mixes हैं:
 - skill के हिसाब से `clef`, `interval`, `key-signature`, `chord`, `roman-numeral` और `rhythm` जैसे tags लगाएँ
 - course की conventions बदलने या किसी topic से आगे बढ़ने पर cards audit करें
 
-Tags की मदद से हर छोटी category को अलग deck में बाँटे बिना छोटा contrast set बनाया जा सकता है। अगर card का पिछला हिस्सा कई definitions, exceptions और examples जमा करने लगे, तो [बेहतर फ़्लैशकार्ड बनाने की guide](/hi/blog/how-to-make-better-flashcards/) काम आएगी।
+Tags की मदद से हर छोटी category को अलग deck में बाँटे बिना छोटा contrast set बनाया जा सकता है। एक back पर कई definitions, exceptions और examples जमा हों, तो उसे अलग targets वाले cards में बाँटें।
 
 ## Nibomo कहाँ काम आता है
 

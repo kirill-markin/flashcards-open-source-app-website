@@ -171,7 +171,7 @@ Erstelle für jedes Paar, bei dem du falsch lagst oder unsicher warst, zwei kurz
 | Missouri — USPS-Abkürzung? | MO |
 | USPS-Abkürzung MO — welcher Bundesstaat? | Missouri |
 
-Wenn du MO mit MS verwechselt hast, ergänze auch die beiden Karten für Mississippi. Beschränke dich auf eine Antwort pro Karte. Schiebe zwischen eine Frage und ihre Gegenrichtung andere Karten, damit du nicht einfach die Antwort von der gerade gesehenen Karte übernimmst. Unser [Leitfaden für bessere Lernkarten](/de/blog/how-to-make-better-flashcards/) zeigt, wie du Fragen konkret formulierst.
+Wenn du MO mit MS verwechselt hast, ergänze auch die beiden Karten für Mississippi. Beschränke dich auf eine Antwort pro Karte. Schiebe zwischen eine Frage und ihre Gegenrichtung andere Karten, damit du nicht einfach die Antwort von der gerade gesehenen Karte übernimmst.
 
 Antworte bei der nächsten Wiederholung, bevor du die Rückseite aufdeckst, und notiere Fehler ehrlich. Wiederhole diese Karten in einer späteren Lerneinheit und prüfe, ob dir die Antworten noch einfallen. Ergänze weitere Staaten, wenn du Zeit hast, sie regelmäßig zu wiederholen. Du musst nicht alle Karten in einer Sitzung dazunehmen.
 

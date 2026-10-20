@@ -105,7 +105,7 @@ Las tarjetas básicas también funcionan mejor cuando ya no tendrás a mano la r
 
 Para un ejemplo jurídico, el mazo independiente y no oficial [Constitución Española para oposiciones: títulos y artículos clave](/es/catalog/packages/constitucion-espanola-oposiciones-tarjetas/) usa 242 tarjetas de pregunta y respuesta para recordar los artículos 1–169, la estructura, las disposiciones, las cuatro reformas aprobadas hasta el 20/05/2026, plazos, mayorías y algunas relaciones inversas. Las respuestas son paráfrasis breves, no una reproducción literal del articulado; si tu convocatoria exige el texto exacto, consulta el BOE y prepara ese objetivo por separado.
 
-Mantén el reverso breve. Divide una tarjeta cuando un solo anverso exija cuatro puntos independientes. La [guía para hacer mejores flashcards](/es/blog/how-to-make-better-flashcards/) profundiza en la claridad de las preguntas y el tamaño de las tarjetas, mientras que [qué debería ir en una flashcard](/es/blog/what-should-go-on-a-flashcard/) ayuda a decidir si el dato merece un repaso programado.
+Mantén el reverso breve. Divide una tarjeta cuando un solo anverso exija cuatro puntos independientes. Decide también si ese dato merece repasos futuros: no todos los detalles necesitan una tarjeta.
 
 ## Usa una regla de decisión de 30 segundos
 
@@ -152,7 +152,7 @@ Fuente:
 
 Comprueba tú mismo el pasaje citado de la fuente. Elige la mejor propuesta, reescríbela en el idioma en el que vayas a repasarla y elimina la otra. La recomendación del modelo es una sugerencia editorial, no una prueba.
 
-En un lote grande, revisa primero los números, las fechas, las excepciones, las negaciones, las afirmaciones médicas o jurídicas y todo lo que contenga `siempre` o `nunca`. La [guía para limpiar flashcards generadas con IA](/es/blog/how-to-fix-ai-flashcards/) cubre el proceso de verificación más amplio.
+En un lote grande, revisa primero los números, las fechas, las excepciones, las negaciones, las afirmaciones médicas o jurídicas y todo lo que contenga `siempre` o `nunca`.
 
 ## Convierte con criterio el material cloze heredado
 
@@ -183,7 +183,7 @@ Audita un lote pequeño antes de que se acumulen los repasos:
 - Sin versiones cloze y básicas duplicadas que pongan a prueba lo mismo.
 - Un anverso que tenga sentido sin la página original.
 
-Dudar repetidamente durante el repaso aporta información útil. Reescribe una tarjeta si piensas una y otra vez `Conocía la idea, pero no la palabra exacta`, o si el patrón de la oración te da la respuesta antes de que recuperes el dato de la memoria. [Active recall y repetición espaciada](/es/blog/active-recall-vs-spaced-repetition/) explica en qué se diferencian la recuperación y la programación, y la [guía de configuración de FSRS](/es/blog/fsrs-settings/) cubre los ajustes de los intervalos una vez que las tarjetas están bien redactadas.
+Dudar repetidamente durante el repaso aporta información útil. Reescribe una tarjeta si piensas una y otra vez `Conocía la idea, pero no la palabra exacta`, o si el patrón de la oración te da la respuesta antes de que recuperes el dato de la memoria. [Active recall y repetición espaciada](/es/blog/active-recall-vs-spaced-repetition/) explica en qué se diferencian la recuperación y la programación. Ajusta los intervalos solo después de corregir las tarjetas.
 
 ## Cómo aborda Nibomo esta elección
 

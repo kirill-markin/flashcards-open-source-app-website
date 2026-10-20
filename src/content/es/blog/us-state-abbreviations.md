@@ -171,7 +171,7 @@ Por cada pareja que no hayas recordado o que te haya hecho dudar, crea dos tarje
 | Missouri: ¿abreviatura USPS? | MO |
 | Abreviatura USPS MO: ¿qué estado es? | Missouri |
 
-Si confundiste MO con MS, añade también las dos tarjetas de Mississippi. Mantén una sola respuesta por tarjeta e intercala otras preguntas entre una tarjeta y su inversa para no responder basándote en la que acabas de ver. Nuestra [guía para crear mejores flashcards](/es/blog/how-to-make-better-flashcards/) explica cómo redactar preguntas concretas.
+Si confundiste MO con MS, añade también las dos tarjetas de Mississippi. Mantén una sola respuesta por tarjeta e intercala otras preguntas entre una tarjeta y su inversa para no responder basándote en la que acabas de ver.
 
 En el siguiente repaso, responde antes de mostrar el reverso y registra los errores con sinceridad. Vuelve a esas tarjetas en otra sesión para comprobar si aún recuerdas las respuestas. Añade más estados a medida que tengas tiempo para repasarlos; no hace falta introducir todas las tarjetas de una vez.
 

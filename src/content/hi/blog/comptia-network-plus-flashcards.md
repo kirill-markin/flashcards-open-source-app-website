@@ -95,7 +95,7 @@ evidence की जाँच फिर भी ज़रूरी है।
 
 Port एक convention और clue है, पहचान का पक्का प्रमाण नहीं। Services को move, tunnel या proxy किया जा सकता है और वे गलत configure भी हो सकती हैं। सिर्फ़ number देखकर निश्चित निष्कर्ष निकालने की आदत **Network+ troubleshooting** में नुकसान करती है।
 
-पहले दिन हर pairing के लिए forward और reverse दोनों cards बनाने की ज़रूरत नहीं है। एक direction से शुरू करें। Reverse card तभी जोड़ें, जब recall धीमा हो या दो services आपस में गड्डमड्ड हों। [Security+ फ़्लैशकार्ड गाइड](/hi/blog/how-to-use-flashcards-for-security-plus/) protocols और security distinctions के लिए यही तरीका अपनाती है।
+पहले दिन हर pairing के लिए forward और reverse दोनों cards बनाने की ज़रूरत नहीं है। एक direction से शुरू करें। Reverse card तभी जोड़ें, जब recall धीमा हो या दो services आपस में गड्डमड्ड हों।
 
 ## Subnetting cards से anchors याद करें, calculation नए networks पर करें
 
@@ -170,7 +170,7 @@ Objectives में protocol analyzer, `ping`, `traceroute` या `tracert`, `
 इस बात का प्रमाण नहीं कि कोई hop down है।
 ```
 
-Command card review करने के बाद वही command किसी lab या ऐसे system पर चलाएँ जिसे test करने की अनुमति आपके पास हो। पहले अनुमान लगाएँ कि क्या दिखेगा, फिर actual output पढ़ें, एक condition बदलें और command दोबारा चलाएँ। यह छोटा loop permissions, flags, platform differences, filtering और उलझे हुए output सिखाता है—card यह अनुभव नहीं दे सकता। [Terminal command फ़्लैशकार्ड गाइड](/hi/blog/how-to-learn-terminal-commands-with-flashcards/) इस तरीके को विस्तार से समझाती है।
+Command card review करने के बाद वही command किसी lab या ऐसे system पर चलाएँ जिसे test करने की अनुमति आपके पास हो। पहले अनुमान लगाएँ कि क्या दिखेगा, फिर actual output पढ़ें, एक condition बदलें और command दोबारा चलाएँ। यह छोटा loop permissions, flags, platform differences, filtering और उलझे हुए output सिखाता है—card यह अनुभव नहीं दे सकता।
 
 ## Troubleshooting cards में अनिश्चितता के लिए जगह रखें
 
@@ -231,7 +231,7 @@ CompTIA के अनुसार [performance-based questions](https://www.comp
 
 मान लें कि आपने गलत tool चुना, क्योंकि याद नहीं था कि कौन-सा command DNS query करता है। यह एक साफ़ repair card है। Tool पता था लेकिन response समझ नहीं आया, तो real output के साथ अभ्यास करें। Subnetting में network boundary चूक गई, तो ज़्यादा अनजान networks calculate करें। Device configure नहीं कर पाए, तो lab पर लौटें।
 
-किसी legitimate practice question को deck में copy न करें। अपने शब्दों में केवल दोबारा काम आने वाली सीख रखें; question की कहानी, answer choices और अलग पहचान वाली wording हटा दें। [Practice questions को फ़्लैशकार्ड में बदलने की गाइड](/hi/blog/how-to-turn-practice-questions-into-flashcards/) पूरी workflow बताती है।
+किसी legitimate practice question को deck में copy न करें। अपने शब्दों में केवल दोबारा काम आने वाली सीख रखें; question की कहानी, answer choices और अलग पहचान वाली wording हटा दें।
 
 Official objectives unauthorized third-party material से भी सावधान करते हैं, जिसे आम तौर पर brain dumps कहा जाता है। मौजूदा objectives, authorized training और practice, अपने lab observations और अपनी explanations का इस्तेमाल करें। Leaked questions की wording रटना Network+ की पढ़ाई नहीं है।
 
@@ -269,7 +269,7 @@ Organization सरल रखें: एक `N10-009` deck और उसमे�
 
 यहाँ किसी official या पहले से तैयार N10-009 deck का वादा नहीं है। मौजूदा CompTIA objectives और पढ़ाई के दौरान हुई अपनी legitimate गलतियों से शुरुआत करें। Nibomo में अपना deck बनाना हो, तो [शुरुआत करने की गाइड](/hi/docs/getting-started/) hosted और self-hosted दोनों रास्ते समझाती है।
 
-अगर आप पास की किसी दूसरी certification की तैयारी कर रहे हैं, तो [CompTIA A+ फ़्लैशकार्ड गाइड](/hi/blog/comptia-a-plus-flashcards/) technician के काम में याद करने और अभ्यास के बीच यही सीमा लागू करती है। [CCNA फ़्लैशकार्ड गाइड](/hi/blog/how-to-use-flashcards-for-ccna/) routing, switching और command practice को और गहराई से समझाती है।
+अगर आप पास की किसी दूसरी certification की तैयारी कर रहे हैं, तो [CompTIA A+ फ़्लैशकार्ड गाइड](/hi/blog/comptia-a-plus-flashcards/) technician के काम में याद करने और अभ्यास के बीच यही सीमा लागू करती है। Routing और switching के लिए commands को lab में भी आज़माएँ।
 
 ## CompTIA Network+ फ़्लैशकार्ड: आम सवाल
 

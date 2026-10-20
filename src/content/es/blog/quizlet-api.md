@@ -95,7 +95,7 @@ Ambas vías están limitadas al espacio de trabajo. Los recursos publicados son 
 
 Estas opciones permiten a un desarrollador o a un agente de IA automatizar sus propias flashcards. No sirven para leer una URL de Quizlet, mantener una copia sincronizada de una cuenta de Quizlet ni actuar como un cliente de Quizlet no documentado. Tampoco hay un importador automático de Quizlet. Para migrar, exporta primero los términos y las definiciones de tu propio set, revisa el texto y después asigna cada elemento a los campos correspondientes de las tarjetas de destino. El nuevo sistema crea su propio estado de estudio; el historial de Quizlet no se transfiere.
 
-Para conocer las diferencias entre ambos productos más allá del acceso mediante API, consulta la [comparación de la alternativa de código abierto a Quizlet](/blog/quizlet-alternative/).
+Compara también los modos de estudio, el control de los datos y el esfuerzo de migración, además del acceso mediante API.
 
 ## Las peticiones privadas del navegador no son un atajo seguro
 

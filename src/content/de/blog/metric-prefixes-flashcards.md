@@ -131,7 +131,7 @@ Vorderseite: Stelle die SI-Präfixsymbole P und p gegenüber.
 Rückseite: P ist peta, 10^15. p ist pico, 10^-12.
 ```
 
-Der [Leitfaden für bessere Flashcards](/blog/how-to-make-better-flashcards/) erklärt, warum sich knapp formulierte Vorderseiten und direkte Rückseiten ehrlicher bewerten lassen.
+Knapp formulierte Vorderseiten und direkte Rückseiten lassen sich ehrlicher bewerten.
 
 ## Präfixe abrufen und metrische Einheiten umrechnen sind zwei verschiedene Fähigkeiten
 
@@ -163,7 +163,7 @@ Rückseite: Größer. Ein Mikrogramm ist die kleinere Einheit, dieselbe Masse en
 also mehr davon.
 ```
 
-Diese Karte hält eine wiederverwendbare Größenprüfung fest. Die Rechnung gehört in Übungsaufgaben. Der [Leitfaden zu Flashcards für fortgeschrittene Chemie](/blog/how-to-use-flashcards-for-advanced-chemistry/) zieht dieselbe Grenze: Stabile Fakten und wiederkehrende Unterscheidungen behältst du mit Karten, vollständige Rechnungen bearbeitest du getrennt.
+Diese Karte hält eine wiederverwendbare Größenprüfung fest. Die Rechnung gehört in Übungsaufgaben. Stabile Fakten und wiederkehrende Unterscheidungen behältst du mit Karten, vollständige Rechnungen bearbeitest du getrennt.
 
 ## Behandle die Einheit mit Präfix als zusammengehöriges Symbol
 
@@ -212,7 +212,7 @@ Wenn du die vollständige Tabelle von quetta bis quecto aufsagst, kannst du die 
 6. **Bearbeite eine kurze Reihe von Umrechnungen.** Nimm Umrechnungen von größeren in kleinere Einheiten und umgekehrt, wissenschaftliche Schreibweise und mindestens eine quadratische oder kubische Einheit auf.
 7. **Mach nur aus wiederkehrenden Fehlern Korrekturkarten.** Frische Rechnungen und mehrschrittige Ansätze gehören nicht ins langfristige Deck.
 
-Lerne den ersten Block zunächst in einer klaren Reihenfolge. Mische leicht verwechselbare Alternativen, sobald ihre grundlegenden Zuordnungen sitzen. Der [Leitfaden zum Interleaving](/blog/how-to-use-interleaving-with-flashcards/) zeigt, wie du ähnliche Kategorien mischst, ohne aus der Sitzung eine Folge wahlloser Kontextwechsel zu machen.
+Lerne den ersten Block zunächst in einer klaren Reihenfolge. Mische leicht verwechselbare Alternativen, sobald ihre grundlegenden Zuordnungen sitzen. Mische verwandte Kategorien gezielt, statt wahllos zwischen Themen zu wechseln.
 
 Wiederhole gespeicherte Karten, wenn sie fällig sind. Nibomo unterstützt Markdown-Karten mit Vorder- und Rückseite, Decks und Tags, Medien sowie fällige Wiederholungen mit FSRS. Das fertige Deck zu metrischen Präfixen deckt den Abruf ab. Es prüft keine Berechnungen und erzeugt keine Umrechnungsaufgaben für dich.
 

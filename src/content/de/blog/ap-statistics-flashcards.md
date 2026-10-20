@@ -37,7 +37,7 @@ Prüfe jedes übernommene Deck in vier Schritten:
 
 Gestrichener Stoff ist nicht automatisch schlechte Statistik; er wird in dieser AP-Prüfung nur nicht mehr verlangt. Wenn du ihn für einen späteren Kurs behalten möchtest, verschiebe ihn in ein eigenes Deck.
 
-Ein neues Tag rettet keine vage Karte. Wenn dir beim Prüfen überladene Definitionen oder passive „lesen und wiedererkennen“-Fragen auffallen, findest du in [Bessere Lernkarten erstellen](/blog/how-to-make-better-flashcards/) konkrete Beispiele zum Überarbeiten.
+Ein neues Tag rettet keine vage Karte. Teile überladene Definitionen und formuliere passive „lesen und wiedererkennen“-Fragen so um, dass du die Antwort selbst abrufen musst.
 
 ## Ordne jede Karte einer der fünf neuen Units zu
 
@@ -98,7 +98,7 @@ Lernkarten eignen sich für klar begrenzte Abrufziele. Mehrstufige Analysen und 
 
 Eine Karte kann abfragen, welches Verfahren passt. Erst eine vollständige Aufgabe zeigt, ob du das Verfahren auswählst, seine Voraussetzungen prüfst, die Analyse durchführst und die Schlussfolgerung schlüssig begründest.
 
-Wenn das Erstellen des Decks langsam das eigentliche Üben verdrängt, grenzt [Lernkarten vs. Übungstests](/blog/flashcards-vs-practice-tests/) die Aufgaben beider Werkzeuge klar voneinander ab.
+Wenn das Erstellen des Decks langsam das eigentliche Üben verdrängt, ergänze weniger Karten und löse mehr neue Statistikaufgaben. Karten trainieren einzelne Abrufziele; ganze Aufgaben prüfen ihre Anwendung.
 
 ## Sechs Kartenformate, die sich für AP Stats lohnen
 
@@ -235,7 +235,7 @@ Halte die Routine so überschaubar, dass du sie das ganze Schuljahr beibehalten 
 5. **Einmal pro Woche:** Filtere nach Unit und Practice, finde schwach abgedeckte Bereiche und entferne Duplikate oder veraltete Karten aus der Zeit vor 2027.
 6. **Je näher der Mai rückt:** Erstelle weniger neue Karten und verlagere deine Zeit auf gemischte, zeitlich begrenzte und digitale Übungen.
 
-Setze dir ein Tagesziel für neue Karten, bei dem noch genug Zeit für fällige Wiederholungen und echte Aufgaben bleibt. [Wie viele neue Lernkarten pro Tag?](/blog/how-many-new-flashcards-per-day/) erklärt, wie du dieses Ziel anpasst, wenn die Wiederholungen mehr werden.
+Setze dir ein Tagesziel für neue Karten, bei dem noch genug Zeit für fällige Wiederholungen und echte Aufgaben bleibt. Reduziere neue Karten, sobald die fälligen Wiederholungen diese Zeit aufbrauchen.
 
 ## Wobei Nibomo hilft
 

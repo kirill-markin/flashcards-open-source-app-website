@@ -137,7 +137,7 @@ Ein praktischer Ablauf für eine Woche könnte so aussehen:
 
 Wenn du mehr Zeit hast, verteile dieselbe Arbeit auf einen längeren Zeitraum. Wenn du nur einen Abend hast, konzentriere dich auf den Ablauf, kritische Passagen mit festem Wortlaut, Übergänge und mindestens einen vollständigen Durchlauf mit lautem Vortrag. Auch der beste Wiederholungsplan macht aus stillem Wiederlesen keine Vortragsprobe.
 
-Beantworte in [Nibomo](/features/) jede Karte, bevor du die Rückseite aufdeckst, und bewerte den Versuch mit Again (noch einmal), Hard (schwer), Good (gut) oder Easy (leicht). Lass FSRS anhand dieser Bewertungen spätere Kartenwiederholungen einplanen. Bewerte, ob das Stichwort den geforderten Inhalt ausgelöst hat, nicht ob der gesamte Vortrag schon ausgefeilt wirkte. Der ausführlichere [Leitfaden zur Wiederholungshäufigkeit](/blog/how-often-should-you-review-flashcards/) erklärt, warum fällige Wiederholungen nützlicher sind, als jeden Tag das gesamte Deck erneut zu lesen.
+Beantworte in [Nibomo](/features/) jede Karte, bevor du die Rückseite aufdeckst, und bewerte den Versuch mit Again (noch einmal), Hard (schwer), Good (gut) oder Easy (leicht). Lass FSRS anhand dieser Bewertungen spätere Kartenwiederholungen einplanen. Bewerte, ob das Stichwort den geforderten Inhalt ausgelöst hat, nicht ob der gesamte Vortrag schon ausgefeilt wirkte. Bearbeite fällige Karten, statt jeden Tag das gesamte Deck erneut zu lesen.
 
 ## Digitale Lernkarten fürs Training und Stichwortkarten für den Auftritt sind unterschiedliche Werkzeuge
 
@@ -196,7 +196,7 @@ Halte die Grenze klar: Nutze Lernkarten, um den Ablauf abzurufen, und vollständ
 
 ## Häufige Fehler, die Stichwortkarten für Reden verschlechtern
 
-Wenn du das Skript auf die Kartenrückseiten kopierst, wird das Üben am schnellsten zum Wiederlesen. Deckst du einen Absatz auf und denkst „ja, das kommt mir bekannt vor“, hast du Wiedererkennen geübt. Teile ihn in ein Abschnittsstichwort, einen Übergang und jede Passage mit festem Wortlaut auf, die wirklich geprüft werden muss. [Was gehört auf eine Lernkarte?](/blog/what-should-go-on-a-flashcard/) bietet einen strengeren Filter für überladene Karten.
+Wenn du das Skript auf die Kartenrückseiten kopierst, wird das Üben am schnellsten zum Wiederlesen. Deckst du einen Absatz auf und denkst „ja, das kommt mir bekannt vor“, hast du Wiedererkennen geübt. Teile ihn in ein Abschnittsstichwort, einen Übergang und jede Passage mit festem Wortlaut auf, die wirklich geprüft werden muss.
 
 Bewerte ein Stichwort nicht danach, wie vertraut es dir beim stillen Lesen vorkommt. Bei Karten für Reden solltest du die Antwort in der Regel aussprechen. Wenn dir vor dem Umdrehen der Karte kein Wort einfiel, ist der Abruf gescheitert – auch wenn die Antwort danach offensichtlich wirkte.
 

@@ -112,7 +112,7 @@ Tapa la tabla y responde a cada pregunta con un término y una explicación brev
 
 ## Convierte los errores que se repiten en tarjetas breves
 
-Usa la explicación de cada respuesta para decidir qué necesitas practicar. Si olvidaste una definición, crea una tarjeta breve con ella. Si elegiste una referencia equivocada, usa una tarjeta de comparación: «¿Por qué la muñeca sigue siendo distal al codo cuando flexionas el brazo?». En el reverso, escribe la explicación: su orden a lo largo de la extremidad se mantiene. La guía sobre [cómo crear mejores flashcards](/es/blog/how-to-make-better-flashcards/) te ayuda a centrar cada pregunta en una sola idea.
+Usa la explicación de cada respuesta para decidir qué necesitas practicar. Si olvidaste una definición, crea una tarjeta breve con ella. Si elegiste una referencia equivocada, usa una tarjeta de comparación: «¿Por qué la muñeca sigue siendo distal al codo cuando flexionas el brazo?». En el reverso, escribe la explicación: su orden a lo largo de la extremidad se mantiene. Centra cada pregunta en una sola idea.
 
 Si prefieres una opción ya preparada, el [mazo Anatomical Directional Terms de 31 tarjetas](/es/catalog/packages/anatomical-directional-terms/) cubre estos 10 términos en inglés. El contenido del mazo está en inglés, aunque esta página esté en español. Puedes usarlo para repasar definiciones en ambos sentidos y practicar comparaciones básicas.
 

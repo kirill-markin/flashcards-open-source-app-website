@@ -196,7 +196,7 @@ Así se ve esa conversión:
 
 No pongas en el anverso la pregunta oficial completa y en el reverso la respuesta del solucionario. Conserva el original dentro del paquete oficial. La tarjeta debe contener la lección con tus propias palabras y suficientes datos de la fuente para poder verificarla más adelante.
 
-[Cómo convertir los resultados de un cuestionario en flashcards](/es/blog/how-to-turn-quiz-results-into-flashcards/) explica con más detalle el mismo proceso de diagnóstico. [Flashcards vs tests de práctica](/es/blog/flashcards-vs-practice-tests/) explica por qué después de la tarjeta debe venir una pregunta nueva.
+Identifica qué laguna revela cada error del cuestionario y crea una tarjeta concreta sobre ella. Después resuelve una pregunta nueva para comprobar la aplicación.
 
 ## Repasa las flashcards para el HSK con FSRS sin saturar la cola
 
@@ -212,7 +212,7 @@ Empieza con una cantidad pequeña del tema actual y repasa las tarjetas pendient
 
 Puedes añadir `apoyo-auditivo`, `tarea` o `pista-oral` cuando esas tarjetas registren una necesidad real detectada durante la práctica. No conviertas todo el temario en tarjetas el primer día. La cola de repaso crecerá antes de que hayas aprendido el material lo suficiente como para escribir buenas preguntas.
 
-Durante el repaso, responde antes de revelar el reverso. Usa Again si no pudiste recordar la respuesta o te equivocaste; Hard si acertaste, pero te costó mucho recordarla; Good si la recordaste con un esfuerzo normal; y Easy si la respuesta salió sin esfuerzo. [Again vs Hard en FSRS](/es/blog/again-vs-hard-fsrs-flashcards/) ofrece casos límite concretos para las respuestas parciales y las pistas.
+Durante el repaso, responde antes de revelar el reverso. Usa Again si no pudiste recordar la respuesta o te equivocaste; Hard si acertaste, pero te costó mucho recordarla; Good si la recordaste con un esfuerzo normal; y Easy si la respuesta salió sin esfuerzo.
 
 Si una tarjeta parece imposible de valorar una y otra vez, edítala. Separa el significado de la escritura, elimina datos adicionales o especifica con más claridad la respuesta requerida. FSRS puede programar muy bien una tarjeta clara. No puede rescatar una ambigua.
 

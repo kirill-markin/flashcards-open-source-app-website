@@ -34,7 +34,7 @@ Usa una jerarquía de fuentes que facilite resolver cualquier discrepancia:
 
 Incluye en cada reverso el artículo o anexo, el título de la fuente o el número CELEX, la URL de la fuente y la fecha de consulta. Añade una nota de versión como `post-2026/1744` cuando una modificación afecte a la respuesta.
 
-La IA puede acortar una pregunta o señalar duplicados. Comprueba cada borrador con la fuente oficial antes de repasarlo, sobre todo las fechas, excepciones, denominaciones de los actores y verbos jurídicos. El proceso de depuración de [Cómo corregir flashcards creadas con IA](/blog/how-to-fix-ai-flashcards/) resulta especialmente apropiado en este caso: una redacción pulida no merece confianza adicional.
+La IA puede acortar una pregunta o señalar duplicados. Comprueba cada borrador con la fuente oficial antes de repasarlo, sobre todo las fechas, excepciones, denominaciones de los actores y verbos jurídicos. Una redacción pulida no merece más confianza que un borrador sin revisar.
 
 ## Construye primero un calendario compacto de la Ley de IA de la UE
 
@@ -84,7 +84,7 @@ Tarjetas mejores:
 >
 > Fuente: Reglamento (UE) 2026/1744, artículo 4 y datos de publicación en el DO. Consultado: 29 de julio de 2026.
 
-Crea tarjetas en ambas direcciones solo cuando necesites recordar ambas en la práctica. Una suele ser suficiente. [Cómo crear mejores flashcards](/blog/how-to-make-better-flashcards/) explica por qué los anversos específicos y los reversos breves producen señales de repaso más claras.
+Crea tarjetas en ambas direcciones solo cuando necesites recordar ambas en la práctica. Una suele ser suficiente. Los anversos específicos y los reversos breves producen señales de repaso más claras.
 
 ## Aprende la estructura de riesgos mediante contrastes
 
@@ -204,7 +204,7 @@ No uses una tarjeta para decidir:
 
 Estas preguntas exigen consultar el Derecho y las directrices vigentes, disponer de hechos documentados y, a menudo, contar con asesoramiento jurídico cualificado. La respuesta puede cambiar según el producto, la finalidad prevista, el modelo de distribución o el contexto de uso.
 
-Usa tarjetas basadas en situaciones para practicar cómo localizar la disposición pertinente. Formula las conclusiones a partir de las fuentes vigentes, los hechos documentados y el asesoramiento apropiado. La misma separación aparece en [Flashcards frente a tests de práctica](/blog/flashcards-vs-practice-tests/): las tarjetas te ayudan a recordar los componentes, mientras que los ejercicios más amplios comprueban si sabes usarlos juntos. [¿Qué contenido debería incluirse en una flashcard?](/blog/what-should-go-on-a-flashcard/) ayuda a recortar cualquier pregunta demasiado amplia para evaluarla con honestidad.
+Usa tarjetas basadas en situaciones para practicar cómo localizar la disposición pertinente. Formula las conclusiones a partir de las fuentes vigentes, los hechos documentados y el asesoramiento apropiado. Las tarjetas te ayudan a recordar los componentes, mientras que los ejercicios más amplios comprueban si sabes usarlos juntos. Recorta o divide las preguntas demasiado amplias para evaluarlas con claridad.
 
 ## Preguntas frecuentes sobre el calendario de la Ley de IA de la UE en 2026
 

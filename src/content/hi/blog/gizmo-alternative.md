@@ -51,7 +51,7 @@ Magic Import की अलग guide में cards बनाने के ल�
 - spreadsheet या CSV
 - website URL
 
-Gizmo cards बनाता है और उन शब्दों को highlight करता है जिन पर वह quiz लेने वाला है। उसकी अपनी guide छात्रों को deck जाँचने और import में छूटी चीज़ें जोड़ने के लिए कहती है। इसे workflow का हिस्सा समझें, छोटा-सा footnote नहीं: cards को source से मिलाएँ, कमज़ोर prompts हटाएँ और deck को नियमित review में डालने से पहले गलतियाँ सुधारें। [AI Flashcards को ठीक करने की guide](/blog/how-to-fix-ai-flashcards/) में इसकी व्यावहारिक checklist है।
+Gizmo cards बनाता है और उन शब्दों को highlight करता है जिन पर वह quiz लेने वाला है। उसकी अपनी guide छात्रों को deck जाँचने और import में छूटी चीज़ें जोड़ने के लिए कहती है। इसे workflow का हिस्सा समझें, छोटा-सा footnote नहीं: cards को source से मिलाएँ, कमज़ोर prompts हटाएँ और deck को नियमित review में डालने से पहले गलतियाँ सुधारें।
 
 AI Tutor के लिए इससे जुड़ा एक अलग import path है। [आधिकारिक lesson-import guide](https://help.gizmo.ai/en/articles/15935404-how-do-i-use-magic-import-to-start-an-ai-tutor-lesson) में PDF, PowerPoint, YouTube, notes, photos, recorded lectures, Quizlet sets और पहले से मौजूद Gizmo deck शामिल हैं। इसके बाद Tutor उसी सामग्री से पढ़ाता है और बीच-बीच में सवाल पूछता है।
 
@@ -83,7 +83,7 @@ AI Tutor का काम अलग है। वह सामग्री क�
 
 इन दोनों modes के आसपास Gizmo progress को game जैसा बना देता है। Quiz करने से XP, Levels, Leagues और Streaks बढ़ते हैं, जबकि Hearts, Hints और Coins इस बात पर असर डालते हैं कि फ्री quiz sessions का flow कैसा रहेगा। अगर इन mechanics की वजह से आपके लिए हर दिन लौटकर पढ़ना आसान होता है, तो ये product चुनने का असली आधार हैं, सिर्फ सजावट नहीं।
 
-फिर भी, छोटा recall prompt और कई steps वाला practice question अलग-अलग काम करते हैं। [Flashcards बनाम Practice Tests](/blog/flashcards-vs-practice-tests/) बताता है कि हर topic को card में ठूँसने के बजाय दोनों को साथ इस्तेमाल करना आम तौर पर ज़्यादा उपयोगी क्यों है।
+फिर भी, छोटा recall prompt और कई steps वाला practice question अलग-अलग काम करते हैं। हर topic को card में भरने के बजाय cards और पूरे practice questions दोनों इस्तेमाल करें।
 
 ## पूरा course Gizmo में ले जाने से पहले ये चार सीमाएँ जाँचें
 
@@ -109,7 +109,7 @@ Gizmo की [card-management guide](https://help.gizmo.ai/en/articles/13761411-
 
 इससे यह **साबित नहीं होता** कि Gizmo offline काम नहीं कर सकता। इसका मतलब सिर्फ इतना है कि यहाँ देखे गए आधिकारिक प्रमाण उसके offline काम करने का भरोसा दिलाने के लिए पर्याप्त नहीं हैं। अगर offline study आपके लिए ज़रूरी है, तो उसी app और device को airplane mode में जाँचें: app बंद करके दोबारा खोलें, एक card review करें, कोई edit करें, फिर connection चालू करें और देखें कि बदलाव और review history दोनों बने रहते हैं या नहीं।
 
-यह फर्क अहम है, क्योंकि “पहले से load हुई screen अब भी जवाब दे रही है” और “मेरी review history सुरक्षित store हुई है और बाद में sync हो जाएगी” दो अलग दावे हैं। [Offline flashcards app guide](/blog/best-offline-flashcards-app/) कई products को इसी ज़्यादा सख्त test पर परखती है।
+यह फर्क अहम है, क्योंकि “पहले से load हुई screen अब भी जवाब दे रही है” और “मेरी review history सुरक्षित store हुई है और बाद में sync हो जाएगी” दो अलग दावे हैं। Offline test में बदलाव और review history जाँचें, फिर connection लौटने पर sync भी परखें।
 
 ## Gizmo बनाम Nibomo: एक नज़र में
 
@@ -128,7 +128,7 @@ Nibomo इस table में दिखाए गए सीमित workflow �
 
 ## Nibomo कब बेहतर विकल्प है
 
-जब आप किसी जाँचे हुए front/back card को सहेजना चाहते हैं, तब Nibomo चुनें। आप card खुद बना सकते हैं या उसे लिखने और सुधारने में AI की मदद ले सकते हैं, फिर तय कर सकते हैं कि क्या save होगा। Review में FSRS इस्तेमाल होता है; [FSRS बनाम SM-2](/blog/fsrs-vs-sm-2/) scheduling model को ज़्यादा विस्तार से समझाता है।
+जब आप किसी जाँचे हुए front/back card को सहेजना चाहते हैं, तब Nibomo चुनें। आप card खुद बना सकते हैं या उसे लिखने और सुधारने में AI की मदद ले सकते हैं, फिर तय कर सकते हैं कि क्या save होगा। Review में FSRS इस्तेमाल होता है।
 
 Offline इस्तेमाल और data बाहर निकालने को लेकर उसके दावे ज़्यादा स्पष्ट हैं। Nibomo के दस्तावेज़ों में automatic sync के साथ mobile offline study दर्ज है, जबकि उसकी [शुरुआती guide](/docs/getting-started/) बताती है कि iOS client local SQLite और offline-first sync इस्तेमाल करता है। Portable exports में cards, tags और उनसे जुड़ी media शामिल हैं। इनमें hosted और self-hosted installations के बीच transfer भी शामिल है।
 

@@ -93,7 +93,7 @@ Suche beim Probelauf nach der ersten Abweichung. Ändere jeweils nur eine Sache 
 
 Eine Antwort, in der „first stage“ und „second stage“ auf getrennten Zeilen stehen, könnte zum Beispiel zu `first stage; second stage` werden. So bleiben beide Teile in einer Zeile. Lass **New line** als Trennzeichen zwischen Karten ausgewählt, wenn du innerhalb einer Antwort ein Semikolon verwendest.
 
-Wenn zu den beiden Phasen jeweils eine eigene Frage sinnvoll ist, schreibe stattdessen zwei vollständige Paare. Die [Anleitung für bessere Karteikarten](/blog/how-to-make-better-flashcards/) kann dir bei dieser Entscheidung helfen.
+Wenn zu den beiden Phasen jeweils eine eigene Frage sinnvoll ist, schreibe stattdessen zwei vollständige Paare.
 
 ## Prüfe das Ergebnis vor dem Veröffentlichen
 
@@ -111,4 +111,4 @@ Lies neben den auffälligen Paaren auch einige unauffällige. An der Kartenanzah
 
 Quizlet beschreibt in seiner [Übersicht zur KI-gestützten Erstellung](https://quizlet.com/content/create-flashcards-from-words-and-definitions-with-quizlet-ai) auch, wie sich aus bereitgestelltem Material mit KI Karten erstellen lassen. Generierte Formulierungen musst du gesondert auf ihre inhaltliche Richtigkeit prüfen. Bei einer fertigen Liste aus Begriffen und Definitionen kannst du mit dem strukturierten Import die Übertragung anhand der bereits geschriebenen Paare kontrollieren.
 
-Dein Ausgangsmaterial besteht aus längeren Textabsätzen? [Wandle deine Notizen in Karteikarten um](/blog/turn-notes-into-flashcards/), bevor du den Importtext vorbereitest. Du möchtest ein Set in die andere Richtung übertragen? Nutze die [Anleitung zum Quizlet-Export](/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/).
+Fasse längere Textabsätze zunächst zu einzelnen Fragen und Antworten zusammen, bevor du den Importtext vorbereitest. Für eine Übertragung aus Quizlet exportiere zulässigen Text und prüfe, welche Inhalte dabei fehlen.

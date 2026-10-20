@@ -179,9 +179,9 @@ Beispiele:
 - Vorderseite: Was gehört nach einem Fehler in einer REG-Simulation ins Deck?
 - Rückseite: Die Basis-Regel, der Threshold, die Reihenfolgeregel oder die Treatment-Unterscheidung, die zur falschen Antwort geführt hat.
 
-Das ist der direkte Begleit-Workflow, wenn die Nachbereitung von Simulationsaufgaben schon jetzt deine beste Kartenquelle ist:
+Wenn Fehler aus Simulationsaufgaben deine beste Kartenquelle sind:
 
-- [Wie du 2026 Übungsfragen in Flashcards verwandelst](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- Formuliere aus einem Fehler eine eigene Frage zur wiederverwendbaren Erkenntnis, ohne die Übungsfrage zu kopieren.
 
 ## Ein Misses-to-Cards-Workflow passt besser zur CPA-Vorbereitung als Outline-Abschreiben
 
@@ -205,13 +205,13 @@ Ich würde den Wochenablauf einfach halten:
 5. Lösche vage Karten sofort.
 6. Tagge die Überlebenden nach Section und Funktion, zum Beispiel `far`, `aud`, `reg`, `bar`, `isc`, `tcp`, `formula`, `assertion`, `tbs-miss` oder `threshold`.
 
-Wenn der Teil mit dem Kartenschreiben immer wieder unscharf wird, lies als Nächstes das hier:
+Wenn die Karten beim Schreiben zu breit werden:
 
-- [Wie du 2026 bessere Flashcards erstellst](https://nibomo.com/blog/how-to-make-better-flashcards/)
+- Beschränke jede Karte auf eine konkrete Frage und eine klar bewertbare Antwort.
 
-Wenn das größere Problem eher ausufernde Decks sind, ist dieser Artikel der bessere nächste Schritt:
+Wenn die Decks ausufern:
 
-- [Wie du 2026 Flashcards organisierst](https://nibomo.com/blog/how-to-organize-flashcards/)
+- Ordne Karten mit wenigen Decks und gezielten Tags nach den Themen, die du gemeinsam prüfen möchtest.
 
 ## FSRS hilft erst dann, wenn das CPA-Deck nicht mehr versucht, alles gleichzeitig zu leisten
 
@@ -227,9 +227,9 @@ Ich würde die Reihenfolge einfach halten:
 4. keine kompletten Erklärungen importieren
 5. FSRS die Wiederholungsplanung überlassen, nachdem das Deck überhaupt sauber genug dafür geworden ist
 
-Wenn du die Planungsseite ausführlicher willst, ist dies der direkte Begleitartikel:
+Für die Vorbereitung vor dem Prüfungstermin:
 
-- [Wie du 2026 mit FSRS für eine Prüfung lernst](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- Begrenze neue Karten vor der Prüfung und lasse Zeit für fällige Wiederholungen und vollständige Aufgaben.
 
 ## Wo Nibomo in diesen CPA-Workflow hineinpasst
 

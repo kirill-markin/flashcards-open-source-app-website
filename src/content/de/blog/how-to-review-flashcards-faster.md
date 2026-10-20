@@ -72,9 +72,9 @@ Du liest die Vorderseite. Du kennst das Thema so ungefähr. Du erinnerst dich fa
 
 Das ist meistens kein Gedächtnisproblem. Es ist ein Kartenproblem, das sich als Gedächtnisproblem tarnt.
 
-Wenn du die ausführlichere Version davon willst, fang hier an:
+Beim Überarbeiten hilft eine klare Regel:
 
-- [Wie man 2026 bessere Flashcards erstellt](https://nibomo.com/blog/how-to-make-better-flashcards/)
+- Kürze überladene Karten auf eine klare Frage mit einer eindeutig bewertbaren Antwort.
 
 ## Entscheide schneller, nicht härter
 
@@ -163,13 +163,13 @@ Nicht filmreif. Nicht heldenhaft. Nicht so, als würdest du jeden Abend deine ga
 
 Wenn sich deine täglichen Reviews schon langsam anfühlen, warte nicht auf eine vierstellige Warteschlange, bevor du neue Karten deutlich reduzierst. Genau in dieser Phase greifen kleine Korrekturen noch.
 
-Wenn du eine klarere Regel für neue Karten brauchst, geht dieser Begleitartikel tiefer:
+Für neue Karten gilt:
 
-- [Wie viele neue Flashcards pro Tag im Jahr 2026?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
+- Reduziere neue Karten, bis die täglichen Wiederholungen wieder in deine verfügbare Zeit passen.
 
-Und wenn du schon über das Stadium der "kleinen Korrektur" hinaus bist und auf einen echten Fälligkeitsberg starrst, lies als Nächstes lieber das hier:
+Bei einem größeren Rückstand:
 
-- [Wie du 2026 bei Flashcards wieder aufholst, nachdem du zurückgefallen bist](https://nibomo.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
+- Arbeite einen Rückstand schrittweise ab, ohne das Deck zurückzusetzen.
 
 ## Organisation beeinflusst die Geschwindigkeit stärker, als viele erwarten
 
@@ -187,9 +187,9 @@ Sondern damit die Session zusammenhängend genug bleibt, dass dein Gehirn nicht 
 
 Wenn die Struktur deiner Bibliothek zu viel will, vereinfache sie. Behalte stabile Deck-Grenzen. Nutze Tags für übergreifende Bedeutungen. Nutze gefilterte Wiederholung für vorübergehenden Fokus, statt wegen kurzfristigem Druck dauerhafte Unordnung zu bauen.
 
-Diesen Teil behandelt der folgende Artikel:
+Für die Organisation:
 
-- [Wie du 2026 Flashcards organisierst: Decks, Tags, Themen statt eines chaotischen Haufens](https://nibomo.com/blog/how-to-organize-flashcards/)
+- Nutze wenige Decks und gezielte Tags, damit du verwandte Karten gemeinsam überarbeiten kannst.
 
 ## FSRS hilft, aber es kann ein verrauschtes Deck nicht retten
 

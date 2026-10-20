@@ -129,14 +129,14 @@ Der offizielle Fragenkatalog gibt den Umfang vor. Der Leitfaden liefert den Kont
 
 Schreibe zuerst die verlangte Antwort und danach nur so viel Kontext, wie du zum Verständnis brauchst. Eine Rückseite mit einem ganzen Absatz, vier alternativen Antworten, einer Eselsbrücke und einer Geschichtsstunde lässt sich schwer bewerten. Wenn du dir zusätzliche Hintergrundinformationen merken möchtest, lege dafür eine eigene Karte an.
 
-Die Regeln aus [So erstellst du bessere Lernkarten](/blog/how-to-make-better-flashcards/) passen auch hier:
+Für klar bewertbare Karten gilt:
 
 - ein klares Abrufziel
 - eine direkte Antwort vor der Erklärung
 - genug Kontext, damit du die Karte später noch verstehst
 - keine versteckten Hinweise auf die Antwort auf der Vorderseite
 
-Erstelle nicht alle 128 Karten an einem Abend, nur weil die offizielle Liste 128 Einträge hat. Beginne mit einer überschaubaren Gruppe. Füge weitere hinzu, solange die fälligen Wiederholungen noch in deine Woche passen. [Wie viele neue Lernkarten pro Tag?](/blog/how-many-new-flashcards-per-day/) erklärt, wie aus den neuen Karten von heute die Wiederholungen der nächsten Tage und Wochen werden.
+Erstelle nicht alle 128 Karten an einem Abend, nur weil die offizielle Liste 128 Einträge hat. Beginne mit einer überschaubaren Gruppe. Füge weitere hinzu, solange die fälligen Wiederholungen noch in deine Woche passen. Die neuen Karten von heute werden zu Wiederholungen in den nächsten Tagen und Wochen.
 
 ## Ein Lernablauf vom Einreichungsdatum bis zum Interview
 
@@ -156,7 +156,7 @@ Erstelle aus dem offiziellen Material Karten mit Vorder- und Rückseite. Setze d
 
 ### 4. Wiederhole fällige Karten und antworte laut
 
-Bearbeite deine fälligen Karten möglichst täglich. FSRS plant spätere Wiederholungen anhand deiner bisherigen Abrufleistung, kann aber nicht prüfen, ob eine Antwort noch aktuell ist. [Dieser Leitfaden zum Wiederholungsplan](/blog/how-often-should-you-review-flashcards/) erklärt den Unterschied zwischen dem täglichen Bearbeiten fälliger Karten und dem täglichen Wiederholen jeder einzelnen Karte.
+Bearbeite deine fälligen Karten möglichst täglich. FSRS plant spätere Wiederholungen anhand deiner bisherigen Abrufleistung, kann aber nicht prüfen, ob eine Antwort noch aktuell ist. Fälligkeitsorientiertes Wiederholen bedeutet nicht, jeden Tag jede Karte durchzugehen.
 
 ### 5. Übe mündliche Fragerunden
 
@@ -164,7 +164,7 @@ Lass dir ein- oder zweimal pro Woche von einer anderen Person eine gemischte Aus
 
 ### 6. Nutze Fehler für zusätzliches Lernen
 
-Wenn du eine Karte nicht beantworten kannst, bestimme zuerst das Problem: Abruf, Aussprache, Verständnis oder eine veraltete Antwort. Lies den passenden Abschnitt im USCIS-Leitfaden, wenn dir der Inhalt selbst noch unklar ist. Ergänzende Übungen bleiben wichtig, denn [Lernkarten und Übungstests trainieren unterschiedliche Fähigkeiten](/blog/flashcards-vs-practice-tests/).
+Wenn du eine Karte nicht beantworten kannst, bestimme zuerst das Problem: Abruf, Aussprache, Verständnis oder eine veraltete Antwort. Lies den passenden Abschnitt im USCIS-Leitfaden, wenn dir der Inhalt selbst noch unklar ist. Übe ergänzend das Antworten im Gespräch, damit einzelne Fakten auch in einer mündlichen Prüfung abrufbar sind.
 
 ### 7. Prüfe die Gruppe mit aktuellen Antworten
 

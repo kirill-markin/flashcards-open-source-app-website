@@ -89,11 +89,11 @@ Esto no convierte Nibomo en un conector de Quizlet. El flujo con soporte es este
 3. revisar las tarjetas resultantes antes de guardarlas en Nibomo; y
 4. conectar el espacio de trabajo de Nibomo resultante a un cliente compatible para futuras lecturas y escrituras.
 
-Para Claude, encontrarás los pasos en [Cómo conectar Nibomo con Claude mediante MCP](/blog/how-to-connect-flashcards-to-claude-with-mcp/). Codex y otros agentes pueden utilizar la vía documentada de MCP o Agent API que admita su entorno.
+La [referencia del conector MCP](/docs/mcp-connector/) describe la conexión y las herramientas disponibles. Utiliza la vía documentada de MCP o Agent API que admita tu cliente.
 
 Nibomo no puede leer una URL de Quizlet, replicar una cuenta de Quizlet, sincronizar cambios posteriores ni recuperar las imágenes y el historial de estudio que la exportación omite. Crea sus propias tarjetas y un nuevo estado de programación a partir del material que decidas trasladar.
 
-Si estás valorando si el cambio compensa más allá del acceso para agentes, consulta la [comparación de una alternativa de código abierto con Quizlet](/blog/quizlet-alternative/).
+Valora también los modos de estudio, el control de los datos y el coste de migrar tu colección antes de cambiar por el acceso para agentes.
 
 ## Limita los permisos a lo que necesita la tarea
 
@@ -101,7 +101,7 @@ Un contrato público reduce parte de la incertidumbre de una integración, pero 
 
 Nibomo separa las operaciones de lectura de sus herramientas de escritura: `sql_execute` para tarjetas y mazos, y `submit_review` para repasos. La credencial OAuth permite acceder a toda la superficie del conector, así que el bloqueo de herramientas y el sistema de aprobación dependen del cliente. Empieza con un espacio de trabajo pequeño y sin información sensible. Permite que el agente lea solo los datos necesarios para la tarea, exige aprobación para cada escritura cuando el cliente lo permita y revisa el espacio de trabajo y el cambio propuesto antes de aceptarlo.
 
-No conectes material de estudio privado hasta que hayas revisado las condiciones de conservación y tratamiento de datos del cliente de IA. El modelo de amenazas detallado está en [¿Es seguro usar MCP con flashcards?](/blog/is-mcp-safe-for-flashcards/). Para una primera transferencia basta con una regla sencilla: conserva la exportación original, previsualiza unas cuantas tarjetas, aprueba una operación de escritura concreta y comprueba el resultado en la aplicación de destino antes de continuar.
+No conectes material de estudio privado hasta que hayas revisado las condiciones de conservación y tratamiento de datos del cliente de IA. Revisa también los permisos de las herramientas y confirma los borrados de forma explícita. Para una primera transferencia basta con una regla sencilla: conserva la exportación original, previsualiza unas cuantas tarjetas, aprueba una operación de escritura concreta y comprueba el resultado en la aplicación de destino antes de continuar.
 
 ## No conviertas las peticiones internas del navegador en una API
 

@@ -73,7 +73,7 @@ Anverso: Coloca A4 en el pentagrama en clave de sol.
 Reverso: Segundo espacio desde abajo.
 ```
 
-Antes de mostrar el reverso, dibuja la nota en un pentagrama vacío o señala dónde iría. El reverso puede incluir una imagen del pentagrama que ya hayas comprobado, junto con la respuesta escrita. Si tienes capturas de pantalla o imágenes de páginas, el [método para convertir imágenes en flashcards](/es/blog/how-to-turn-images-into-flashcards/) explica cómo recortarlas y verificarlas sin convertir una página completa en una sola tarjeta.
+Antes de mostrar el reverso, dibuja la nota en un pentagrama vacío o señala dónde iría. El reverso puede incluir una imagen del pentagrama que ya hayas comprobado, junto con la respuesta escrita. Si tienes capturas o imágenes de páginas, recórtalas hasta la nota relevante y verifica el resultado, en lugar de convertir una página completa en una tarjeta.
 
 ### Flashcards de intervalos
 
@@ -179,7 +179,7 @@ Estas son algunas combinaciones útiles de teoría musical:
 
 El objetivo no es añadir variedad al azar. Mezcla categorías que se parezcan, que apliquen reglas fáciles de confundir entre sí o que aparezcan juntas en análisis reales. Incluye también ejercicios auditivos e interpretativos en la sesión, pero no llames entrenamiento auditivo a una tarjeta escrita solo porque tenga al lado un ejercicio de audio.
 
-La guía sobre [práctica intercalada con flashcards](/es/blog/how-to-use-interleaving-with-flashcards/) explica con más detalle el paso de practicar una categoría a combinar varias. Nibomo no crea automáticamente series diseñadas para contrastar conceptos, por lo que tendrás que elegir los enunciados relacionados.
+Combina categorías relacionadas cuando ya recuerdes cada una por separado. Nibomo no crea automáticamente series diseñadas para contrastar conceptos, por lo que tendrás que elegir los enunciados relacionados.
 
 ## ¿Cuántas flashcards de teoría musical deberías crear?
 
@@ -194,7 +194,7 @@ Mantén la cantidad bajo control con estas pautas:
 - etiqueta por habilidad, por ejemplo `clef`, `interval`, `key-signature`, `chord`, `roman-numeral` y `rhythm`
 - revisa las tarjetas cuando el curso cambie de convención o avance a otro tema
 
-Las etiquetas permiten reunir un pequeño grupo de contraste sin separar cada categoría mínima en un mazo propio. La guía general para [hacer mejores flashcards](/es/blog/how-to-make-better-flashcards/) puede ayudarte cuando un reverso empieza a acumular varias definiciones, excepciones y ejemplos.
+Las etiquetas permiten reunir un pequeño grupo de contraste sin separar cada categoría mínima en un mazo propio. Divide las tarjetas cuyo reverso mezcle varias definiciones, excepciones y ejemplos independientes.
 
 ## Cómo encaja Nibomo
 

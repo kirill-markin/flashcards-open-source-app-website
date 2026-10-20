@@ -51,7 +51,7 @@ Gizmos Leitfaden zu Magic Import nennt neun Quellen für die Kartenerstellung:
 - eine Tabelle oder CSV-Datei; und
 - die URL einer Website.
 
-Gizmo erstellt Karten und hebt die Wörter hervor, die später abgefragt werden sollen. Der Leitfaden empfiehlt, das Deck zu prüfen und alles zu ergänzen, was beim Import übersehen wurde. Das gehört für mich zum eigentlichen Ablauf und nicht in eine Fußnote: Vergleiche die Karten mit der Quelle, lösche schwache Fragen und korrigiere Fehler, bevor du das Deck regelmäßig wiederholst. [So verbesserst du schwache KI-Lernkarten](/blog/how-to-fix-ai-flashcards/) enthält eine praktische Checkliste für die Überarbeitung.
+Gizmo erstellt Karten und hebt die Wörter hervor, die später abgefragt werden sollen. Der Leitfaden empfiehlt, das Deck zu prüfen und alles zu ergänzen, was beim Import übersehen wurde. Das gehört für mich zum eigentlichen Ablauf und nicht in eine Fußnote: Vergleiche die Karten mit der Quelle, lösche schwache Fragen und korrigiere Fehler, bevor du das Deck regelmäßig wiederholst.
 
 Für AI Tutor gibt es einen ähnlichen Importweg. Der [offizielle Leitfaden zum Import von Lektionen](https://help.gizmo.ai/en/articles/15935404-how-do-i-use-magic-import-to-start-an-ai-tutor-lesson) nennt PDF, PowerPoint, YouTube, Notizen, Fotos, aufgezeichnete Vorlesungen, Quizlet-Sets und ein bestehendes Gizmo-Deck. Anschließend vermittelt Tutor den Stoff aus diesem Material und stellt dir zwischendurch Fragen.
 
@@ -83,7 +83,7 @@ AI Tutor übernimmt eine andere Aufgabe. Er kann den Stoff Schritt für Schritt 
 
 Rund um beide Modi macht Gizmo aus Fortschritt ein Spiel. Quizze tragen zu XP, Levels, Leagues und Streaks bei. Hearts, Hints und Coins beeinflussen außerdem, wie kostenlose Quizsitzungen ablaufen. Wenn dir diese Mechaniken helfen, jeden Tag wiederzukommen, sind sie ein echter Teil der Produktentscheidung und nicht bloß Dekoration.
 
-Eine kurze Frage zum aktiven Abruf und eine mehrstufige Übungsaufgabe erfüllen trotzdem unterschiedliche Zwecke. [Lernkarten vs. Übungstests](/blog/flashcards-vs-practice-tests/) erklärt, warum es meist sinnvoller ist, beides zu kombinieren, als jedes Thema in eine Karte zu pressen.
+Eine kurze Frage zum aktiven Abruf und eine mehrstufige Übungsaufgabe erfüllen trotzdem unterschiedliche Zwecke. Kombiniere beides, statt jedes Thema in eine Karte zu pressen.
 
 ## Vier Grenzen, die du vor dem Umzug eines Kurses zu Gizmo prüfen solltest
 
@@ -128,7 +128,7 @@ Nibomo ist nur für die engere Seite dieser Tabelle eine praktische Gizmo-Altern
 
 ## Wann Nibomo besser passt
 
-Wähle Nibomo, wenn du vor allem eine geprüfte Karte mit Vorder- und Rückseite dauerhaft behalten möchtest. Du kannst sie manuell erstellen oder dir von der KI beim Formulieren und Verbessern helfen lassen und dann entscheiden, was gespeichert wird. Für die Wiederholungen kommt FSRS zum Einsatz; [FSRS vs. SM-2](/blog/fsrs-vs-sm-2/) erklärt das Planungsmodell genauer.
+Wähle Nibomo, wenn du vor allem eine geprüfte Karte mit Vorder- und Rückseite dauerhaft behalten möchtest. Du kannst sie manuell erstellen oder dir von der KI beim Formulieren und Verbessern helfen lassen und dann entscheiden, was gespeichert wird. Für die Wiederholungen kommt FSRS zum Einsatz.
 
 Die Aussagen zur Offline-Nutzung und zum Datenexport sind eindeutiger. Nibomo dokumentiert mobiles Offline-Lernen mit automatischer Synchronisierung. Der [Leitfaden für die ersten Schritte](/docs/getting-started/) nennt für den iOS-Client eine lokale SQLite-Datenbank und eine Offline-first-Synchronisierung. Die Exportdateien enthalten Karten, Tags und zugehörige Medien und ermöglichen auch Übertragungen zwischen gehosteten und selbst betriebenen Installationen.
 

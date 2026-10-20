@@ -249,7 +249,7 @@ Erforderliches Datum oder erforderliche Uhrzeit, Voraussetzungen und Ausschlüss
 
 Der offizielle Aufgabentyp kommt von N5 bis N1 vor. Quellen und Komplexität ändern sich, die Gewohnheit, jede Bedingung zu prüfen, bleibt hilfreich.
 
-Der Leitfaden [Übungsfragen in Lernkarten verwandeln](/blog/how-to-turn-practice-questions-into-flashcards/) zeigt ausführlicher, wie du aus einer falsch beantworteten Frage einen wiederverwendbaren Lernpunkt machst. Plane auch den nächsten unbekannten Text ein: [Lernkarten und Übungstests](/blog/flashcards-vs-practice-tests/) zeigen unterschiedliche Aspekte deiner Prüfungsbereitschaft.
+Formuliere aus einer falsch beantworteten Frage einen eigenen, wiederverwendbaren Lernpunkt. Plane auch den nächsten unbekannten Text ein: Einzelne Karten prüfen Abrufziele, neue Aufgaben zeigen, ob du das Wissen im Prüfungskontext anwenden kannst.
 
 ## Hörverstehen beginnt, bevor du das Transkript öffnest
 
@@ -330,7 +330,7 @@ Beginne mit Material, das du bereits lernst, und mit Fehlern, die du tatsächlic
 - Bearbeite einmal pro Woche einen gemischten Block mit den offiziellen Aufgabentypen deiner Stufe.
 - Bearbeite regelmäßig einen längeren Abschnitt zum Lese- oder Hörverstehen, ohne Hilfe aus dem Deck.
 
-FSRS kann spätere Wiederholungen anhand deines Verlaufs planen: Schwierige Karten kommen früher wieder, gut beherrschte Karten erhalten größere Abstände. FSRS weiß aber nicht, ob ein Satz natürlich klingt, ob eine Karte zu N2 gehört oder ob du eine falsche Erklärung übernommen hast. Der Leitfaden zur [Prüfungsvorbereitung mit FSRS](/blog/how-to-study-for-an-exam-with-fsrs/) erklärt, wie du vor einem festen Prüfungstermin weniger neue Karten erstellst.
+FSRS kann spätere Wiederholungen anhand deines Verlaufs planen: Schwierige Karten kommen früher wieder, gut beherrschte Karten erhalten größere Abstände. FSRS weiß aber nicht, ob ein Satz natürlich klingt, ob eine Karte zu N2 gehört oder ob du eine falsche Erklärung übernommen hast. Reduziere vor einem festen Prüfungstermin neue Karten, damit Zeit für Wiederholungen und vollständige Aufgaben bleibt.
 
 In [Nibomo](/features/) reichen einfache Karten mit Vorder- und Rückseite für die Beispiele in diesem Leitfaden aus. Mit Tags kannst du Stufe und Aufgabentyp festhalten, etwa `N3`, `kanji-reading`, `paraphrase`, `text-grammar` oder `listening-miss`. Füge Bilder oder andere Medien hinzu, wenn sie hilfreichen Kontext liefern. Du kannst fällige Karten mit FSRS wiederholen, mobil offline lernen und Änderungen synchronisieren, sobald wieder eine Verbindung besteht. Durch Import und Export bleiben Karten, Tags und zugehörige Medien portabel.
 

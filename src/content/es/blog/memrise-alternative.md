@@ -72,7 +72,7 @@ Su función es más limitada: actuar como una **capa de memoria** junto a algo q
 - lecciones en otra app de idiomas; o
 - conversaciones reales que dejan al descubierto lagunas en tu vocabulario.
 
-La [guía de flashcards para aprender idiomas](/blog/how-to-use-flashcards-for-language-learning/) explica cómo convertir esas fuentes en tarjetas útiles. Nibomo puede ayudarte a recordar el material que selecciones. No sustituye las explicaciones, la enseñanza de la gramática, la práctica de comprensión auditiva ni las conversaciones con otras personas.
+Nibomo puede ayudarte a recordar el material que selecciones. No sustituye las explicaciones, la enseñanza de la gramática, la práctica de comprensión auditiva ni las conversaciones con otras personas.
 
 ## Nibomo encaja en el vocabulario personal
 
@@ -102,7 +102,7 @@ La diferencia está en el alcance y el control del producto. Memrise integra las
 
 Memrise habla de repaso inteligente y repetición espaciada tanto para el contenido oficial como para las nuevas listas de palabras. El material público revisado para este artículo no identifica su planificador como FSRS. Eso no demuestra que Memrise use o no use FSRS internamente; sencillamente, el algoritmo no está documentado allí.
 
-Nibomo documenta públicamente su implementación de FSRS-6. Durante el repaso, muestras el reverso y eliges Again, Hard, Good o Easy. Esa valoración actualiza el estado de memoria de la tarjeta y la fecha y hora de su próximo repaso. [FSRS vs SM-2](/blog/fsrs-vs-sm-2/) explica el modelo y, más importante aún, por qué un buen planificador no puede rescatar una tarjeta vaga o incorrecta.
+Nibomo documenta públicamente su implementación de FSRS-6. Durante el repaso, muestras el reverso y eliges Again, Hard, Good o Easy. Esa valoración actualiza el estado de memoria de la tarjeta y la fecha y hora de su próximo repaso. Un buen planificador no puede rescatar una tarjeta vaga o incorrecta.
 
 La transparencia del planificador ayuda a entender cómo se crea la cola de repaso. El entorno de práctica más amplio de Memrise resulta más útil cuando necesitas escuchar, formar y decir frases. FSRS puede programar el repaso de una respuesta guardada, pero no proporcionar los ejercicios de idiomas que faltan.
 

@@ -181,7 +181,7 @@ Yo no convertiría cada pregunta en una tarjeta. Me quedaría con:
 - las definiciones o contrastes que siguen apareciendo
 - las respuestas cortas que quieres poder recuperar rápido la semana que viene
 
-Si quieres el flujo más amplio para ese paso, [Cómo convertir preguntas de práctica en flashcards en 2026](/es/blog/how-to-turn-practice-questions-into-flashcards/) es el artículo compañero más directo. Si tu pregunta más grande es la estrategia general para estudiar con IA, [Cómo usar la IA para estudiar en 2026](/es/blog/how-to-use-ai-to-study/) es la versión más amplia.
+Después de revisar un error, formula una pregunta propia sobre el paso o concepto que te faltó. Intenta responderla sin ayuda y comprueba después la explicación con la fuente.
 
 ## Qué merece una flashcard después de una tarea
 
@@ -212,7 +212,7 @@ Las malas tarjetas de tarea suelen sonar así:
 
 Eso no son flashcards. Son tareas pequeñas disfrazadas de flashcards.
 
-Si tus tarjetas generadas con IA ya se sienten hinchadas, [Cómo corregir flashcards de IA en 2026](/es/blog/how-to-fix-ai-flashcards/) es la siguiente lectura útil.
+Si las tarjetas generadas con IA ya están sobrecargadas, divide las que mezclen objetivos, precisa las preguntas vagas y elimina duplicados.
 
 ## Dónde encaja Nibomo
 
@@ -228,10 +228,10 @@ Ese relevo encaja con lo que hoy ofrece el producto:
 
 Así el flujo de trabajo se mantiene honesto. La IA ayuda a explicar. La tarea revela dónde estabas flojo. Nibomo mantiene esos puntos débiles vivos el tiempo suficiente para que dejen de repetirse.
 
-Si empiezas desde apuntes, cuestionarios o una sesión con tutor en vez de desde una tarea, estas son las mejores lecturas siguientes:
+Si empiezas desde apuntes, cuestionarios o una tutoría, puedes seguir estos pasos y lecturas:
 
 - [Cómo crear un examen de práctica con tus apuntes usando IA en 2026](/es/blog/how-to-make-a-practice-exam-from-your-notes-with-ai/)
-- [Cómo convertir ChatGPT Study Mode en flashcards en 2026](/es/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
+- Tras una tutoría, selecciona los errores y lagunas que merezcan repaso y crea preguntas breves, comprobadas con la fuente.
 - [Cómo convertir Gemini Guided Learning en flashcards en 2026](/es/blog/gemini-guided-learning-to-flashcards/)
 
 Si después quieres ir a los puntos de entrada del producto, empieza por la [guía de primeros pasos](/es/docs/getting-started/) o por la [página de funcionalidades](/es/features/).

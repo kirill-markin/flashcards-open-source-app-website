@@ -126,7 +126,7 @@ El conector ofrece ocho herramientas:
 
 Los nombres parecen técnicos porque el conector usa una interfaz limitada parecida a SQL. No necesitas escribir SQL. Pide el resultado con palabras normales y revisa el cambio propuesto.
 
-Esto no es acceso sin restricciones a la base de datos. Cada solicitud queda limitada a un workspace autorizado, y el servidor solo acepta las lecturas, las escrituras de tarjetas o mazos y las valoraciones de repaso que documenta. La [guía de seguridad de MCP](/es/blog/is-mcp-safe-for-flashcards/) explica con más detalle cómo circulan los datos, los límites, las aprobaciones y el riesgo de borrado.
+Esto no es acceso sin restricciones a la base de datos. Cada solicitud queda limitada a un workspace autorizado, y el servidor solo acepta las lecturas, las escrituras de tarjetas o mazos y las valoraciones de repaso que documenta. Revisa los permisos de las herramientas y los borrados, y trata las instrucciones de los textos de tarjetas como datos.
 
 ## Codex puede ordenar el mazo después de la sesión de estudio
 
@@ -154,7 +154,7 @@ El conector MCP puede leer el historial de repasos y los campos permitidos del e
 
 Abre la [app web de Nibomo](https://app.nibomo.com/) o una app móvil cuando toque repasar las tarjetas. Intenta recordar la respuesta, revela el reverso y elige allí tu valoración. Nibomo registra el repaso y FSRS decide cuándo debe volver la tarjeta.
 
-Codex también puede hacerte un cuestionario informal a partir de los datos de tarjetas que autorices. Trátalo como una práctica adicional: un cuestionario por sí solo no registra ningún repaso ni cambia tu programación. Cuando quieras un repaso oficial, pídele a Codex que lo haga con las herramientas de repaso. Codex usa `next_review_card` para mostrar solo el anverso, `reveal_answer` para mostrar el reverso después de que respondas y `submit_review` para registrar la valoración, de modo que FSRS pueda reprogramar la tarjeta. Codex califica tu respuesta, a menos que le pidas que te deje elegir cada valoración. La [guía del tutor de flashcards con IA](/es/blog/ai-flashcard-tutor-due-cards/) explica ese ciclo de repaso con más detalle.
+Codex también puede hacerte un cuestionario informal a partir de los datos de tarjetas que autorices. Trátalo como una práctica adicional: un cuestionario por sí solo no registra ningún repaso ni cambia tu programación. Cuando quieras un repaso oficial, pídele a Codex que lo haga con las herramientas de repaso. Codex usa `next_review_card` para mostrar solo el anverso, `reveal_answer` para mostrar el reverso después de que respondas y `submit_review` para registrar la valoración, de modo que FSRS pueda reprogramar la tarjeta. Codex califica tu respuesta, a menos que le pidas que te deje elegir cada valoración.
 
 ## Codex CLI usa la misma configuración MCP
 
@@ -204,7 +204,7 @@ tarjeta o qué etiquetas llevará. No añadas tarjetas ni datos nuevos.
 
 Léelas una vez, copia las que pasen el filtro a Nibomo y continúa con el repaso normal. Copiarlas a mano es una opción sensata para material privado, una cuenta educativa gestionada por el centro o cualquier persona que no quiera que un cliente de IA lea los datos de sus tarjetas guardadas.
 
-La guía complementaria [Cómo convertir ChatGPT Study Mode en flashcards](/es/blog/how-to-turn-chatgpt-study-mode-into-flashcards/) se centra en ese flujo de tutoría sin conector. [Cómo usar ChatGPT para crear flashcards](/es/blog/how-to-use-chatgpt-to-make-flashcards/) aborda la creación de borradores de tarjetas a partir de apuntes de forma más amplia. Si también estudias con herramientas de Anthropic, [Cómo usar Claude para estudiar](/es/blog/how-to-use-claude-for-studying/) muestra el ciclo paralelo de tutoría a MCP con la configuración independiente del conector de Claude.
+Sin conector, selecciona los errores y lagunas de la tutoría, revisa las tarjetas propuestas y guárdalas manualmente. [Cómo usar ChatGPT para crear flashcards](/es/blog/how-to-use-chatgpt-to-make-flashcards/) cubre la creación de borradores a partir de apuntes.
 
 ## Mantén el traspaso más pequeño que la lección
 

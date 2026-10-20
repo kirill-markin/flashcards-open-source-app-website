@@ -118,7 +118,7 @@ La mejor secuencia suele ser:
 
 Ese es un **flujo de trabajo de flashcards con IA** mucho mejor que pegar un capítulo entero en un modelo y esperar que la cantidad signifique progreso.
 
-Si quieres la versión más amplia de esta idea para estudiar con IA, [Cómo usar la IA para estudiar en 2026](/es/blog/how-to-use-ai-to-study/) es el complemento directo.
+Cuando estudies con IA, intenta responder primero y usa la explicación para detectar qué laguna merece una tarjeta.
 
 ## Distintas situaciones de estudio necesitan un momento ligeramente distinto
 
@@ -156,7 +156,7 @@ No estoy intentando conservar cada frase.
 
 Por eso **hacer flashcards después de los apuntes** es solo media regla. Sí, muchas veces conviene tomar apuntes primero. Pero solo si esos apuntes te ayudan a elegir, no a acumular.
 
-Si tu problema principal es la calidad de las tarjetas, [Cómo hacer mejores flashcards en 2026](/es/blog/how-to-make-better-flashcards/) entra más a fondo en qué debería sobrevivir a ese filtro.
+Conserva solo tarjetas con una pregunta concreta y una respuesta comprobada que puedas evaluar con claridad.
 
 ## Las sesiones pequeñas de tarjetas ganan a un gran atracón de fin de semana
 
@@ -198,7 +198,7 @@ Luego usaría etiquetas para las piezas móviles:
 
 Esa configuración hace más fácil crear tarjetas el mismo día porque no estás rediseñando la biblioteca cada vez. También vuelve más útil el repaso filtrado más adelante, cuando un tema empieza a flojear.
 
-Los matices de organización están en [Cómo organizar flashcards en 2026](/es/blog/how-to-organize-flashcards/).
+Organiza el material con pocos mazos y etiquetas útiles para agrupar las tarjetas que quieras revisar juntas.
 
 ## FSRS ayuda más cuando las tarjetas entran en la cola en el momento correcto
 
@@ -219,7 +219,7 @@ Cuando el momento es bueno, FSRS recibe mejor material:
 
 Eso hace más ligera toda la capa de repaso.
 
-Si tu cola ya se siente pesada, [¿Cuántas tarjetas nuevas al día en 2026?](/es/blog/how-many-new-flashcards-per-day/) y [Cómo repasar flashcards más rápido en 2026](/es/blog/how-to-review-flashcards-faster/) encajan muy bien después de este artículo.
+Si la cola pesa demasiado, reduce las tarjetas nuevas y corrige las preguntas ambiguas antes de intentar repasar más rápido. [Cuántas tarjetas nuevas al día](/es/blog/how-many-new-flashcards-per-day/) ayuda a ajustar el ritmo.
 
 ## Un flujo de trabajo que aguanta una semana normal
 

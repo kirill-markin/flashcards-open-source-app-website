@@ -84,7 +84,7 @@ Si escribes tarjetas durante un viaje, mantén la sesión abierta. Cuando recupe
 
 Quizlet guarda en el dispositivo el progreso acumulado sin conexión. Cuando vuelva internet, actualiza el contenido de la app para que pueda sincronizarlo. Recuperar la conexión por sí solo no confirma que la sincronización haya terminado. Si vas a continuar en otro dispositivo, abre allí el set y comprueba primero que el progreso esté actualizado.
 
-Por eso, descargar un set no equivale a hacer una copia de seguridad. La descarga sirve para estudiar en ese dispositivo, pero no crea un archivo independiente y portátil. Si el material es tuyo y necesitas una copia de texto que puedas recuperar, sigue la [guía para exportar y migrar sets de Quizlet](/es/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/) mientras todavía tengas acceso a la web. Si buscas un plan de recuperación más amplio, consulta [cómo hacer copias de seguridad de tus flashcards](/es/blog/how-to-back-up-flashcards/).
+Por eso, descargar un set no equivale a hacer una copia de seguridad. La descarga sirve para estudiar en ese dispositivo, pero no crea un archivo independiente y portátil. Si el material es tuyo y necesitas una copia recuperable, exporta el texto permitido mientras tengas acceso a la web. Guarda por separado las fuentes y los archivos multimedia.
 
 ## Prueba los sets con mucho contenido multimedia antes de confiar en ellos
 
@@ -115,6 +115,6 @@ Este ensayo descubre problemas que una simple etiqueta de «uso sin conexión» 
 
 Usar Quizlet sin internet es una opción razonable si estudias en iOS o Android, sabes qué sets necesitas y te basta con Flashcards o Match. No hace falta cambiar de app solo por un vuelo si este flujo de trabajo concreto supera la prueba.
 
-Conviene buscar otra opción si necesitas guardar toda la colección en el dispositivo, contar con contenido multimedia fiable sin conexión, estudiar desde un navegador sin internet o usar otro modo de estudio. La [comparación de apps de flashcards sin conexión](/es/blog/best-offline-flashcards-app/) analiza esos requisitos por separado sin convertir esta página en otra tabla de cinco productos. Si tu preocupación va más allá del acceso sin conexión, la [comparación de alternativas a Quizlet](/es/blog/quizlet-alternative/) cubre los modos de estudio, la importación, la exportación, el control de los datos y el coste de cambiar de aplicación.
+Conviene buscar otra opción si necesitas guardar toda la colección en el dispositivo, contar con contenido multimedia fiable sin conexión, estudiar desde un navegador sin internet o usar otro modo de estudio. La [comparación de apps de flashcards sin conexión](/es/blog/best-offline-flashcards-app/) analiza esos requisitos por separado sin convertir esta página en otra tabla de cinco productos. Compara también los modos de estudio, la importación, la exportación, el control de los datos y el coste de cambiar de aplicación.
 
 La respuesta directa a **«¿Funciona Quizlet sin conexión?»** es sí: en las apps móviles, con los sets preparados y dentro de los modos documentados. Descarga los sets concretos que vayas a usar, espera a ver las marcas de verificación, haz una prueba en modo avión y actualiza el contenido de la app al volver a conectarte. Esa breve rutina te dará una respuesta mucho más fiable que la etiqueta por sí sola.

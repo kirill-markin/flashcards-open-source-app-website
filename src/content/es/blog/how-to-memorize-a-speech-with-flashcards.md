@@ -137,7 +137,7 @@ Una secuencia práctica de una semana podría ser esta:
 
 Si dispones de más tiempo, distribuye el mismo trabajo. Si solo tienes una tarde, da prioridad al recorrido, las formulaciones exactas de alto riesgo, las transiciones y al menos un ensayo completo en voz alta. Ningún calendario de tarjetas convierte la relectura silenciosa en práctica de presentación.
 
-En [Nibomo](/features/), responde antes de revelar el reverso y valora ese intento con `Again` (no lo recordaste), `Hard` (lo recordaste con mucha dificultad), `Good` (lo recordaste con un esfuerzo normal) o `Easy` (te resultó muy fácil). Deja que FSRS programe los siguientes repasos de la tarjeta a partir de esas valoraciones. Evalúa si la pista te llevó al contenido requerido, no si toda la presentación pareció pulida. La [guía más amplia sobre la frecuencia de repaso](/blog/how-often-should-you-review-flashcards/) explica por qué los repasos pendientes resultan más útiles que volver a leer el mazo entero todos los días.
+En [Nibomo](/features/), responde antes de revelar el reverso y valora ese intento con `Again` (no lo recordaste), `Hard` (lo recordaste con mucha dificultad), `Good` (lo recordaste con un esfuerzo normal) o `Easy` (te resultó muy fácil). Deja que FSRS programe los siguientes repasos de la tarjeta a partir de esas valoraciones. Evalúa si la pista te llevó al contenido requerido, no si toda la presentación pareció pulida. Repasa las tarjetas pendientes en vez de releer el mazo entero todos los días.
 
 ## Las flashcards de entrenamiento y las tarjetas de apoyo para el escenario son herramientas distintas
 

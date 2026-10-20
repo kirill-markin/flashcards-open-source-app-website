@@ -106,7 +106,7 @@ Eso va bien cuando mueves tu propio mazo entre dispositivos. Suele ser mala idea
 
 Si un mazo recién importado ya muestra intervalos raros, estados de aprendizaje antiguos o etiquetas ruidosas, límpialo antes de confiar en la planificación. No dejes que el historial de otra persona decida qué deberías ver esta semana.
 
-Si más adelante quieres ajustar la planificación, lee [Configuración de FSRS en 2026](/es/blog/fsrs-settings/). Solo no empieces por ahí. Primero asegúrate de que ahora las tarjetas sí son tuyas.
+Ajusta la planificación más adelante, cuando hayas comprobado que las tarjetas encajan con tus conocimientos y objetivos.
 
 ## Limita las tarjetas nuevas antes de confiar en el mazo
 
@@ -122,7 +122,7 @@ Empieza con un límite que te parezca casi conservador:
 
 Eso te da margen para ver cómo es realmente el mazo. También evita que descubras en el día cinco que tu importación "útil" se convirtió en un segundo trabajo no pagado.
 
-Si quieres una regla más detallada para el ritmo de entrada, [Cuántas flashcards nuevas al día](/es/blog/how-many-new-flashcards-per-day/) encaja muy bien con esto. Si además la IA mete tarjetas extra en el mismo sistema, [Cómo evitar la sobrecarga de flashcards de IA en 2026](/es/blog/how-to-avoid-ai-flashcard-overload/) importa aún más.
+Si además usas IA para generar tarjetas, añade solo borradores revisados y limita su cantidad. [Cuántas flashcards nuevas al día](/es/blog/how-many-new-flashcards-per-day/) ayuda a ajustar el ritmo a tu carga de repaso.
 
 ## Toma solo cuatro decisiones en la primera semana
 
@@ -164,7 +164,7 @@ Reescríbelas para que puedas corregirlas en unos pocos segundos. Normalmente es
 
 Aquí va una prueba útil: si necesitas recordar el contexto de clase del autor original para contestar la tarjeta, reescríbela.
 
-Si el mazo necesita una limpieza más amplia después de importarlo, [Cómo podar un mazo de flashcards en 2026](/es/blog/how-to-prune-a-flashcard-deck/) es la guía complementaria.
+Revisa el mazo tras importarlo: elimina lo que no necesitas, corrige errores y divide las tarjetas que mezclen objetivos independientes.
 
 ## Trata los mazos compartidos generados con IA como borradores
 

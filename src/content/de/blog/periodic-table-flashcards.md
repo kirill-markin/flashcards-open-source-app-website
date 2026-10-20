@@ -230,7 +230,7 @@ Rückseite: Natrium.
 
 Das sind drei Abfragerichtungen, nicht drei Pflichtkarten. Beginne mit der Richtung, die in deinen Aufgaben vorkommt. Ergänze die umgekehrte Richtung nur, wenn du die Antwort auch andersherum abrufen musst oder beim Üben eine Lücke bemerkst. Wenn du jeden Fakt automatisch umkehrst, können daraus bei 118 Elementen Hunderte Wiederholungen werden, ohne dass du damit die in der Prüfung verlangte Fähigkeit besser trainierst.
 
-Weitere Beispiele zur Kartengestaltung findest du unter [So erstellst du bessere Flashcards](/blog/how-to-make-better-flashcards/).
+Beschränke jede Karte auf eine klare Frage und eine kurze Antwort, die du ohne weitere Hinweise bewerten kannst.
 
 ## Ein praktischer Plan für deinen Lernstoff
 
@@ -244,7 +244,7 @@ Beginne mit einem konkreten Ergebnis – selbst wenn es nur aus einem fünfminü
 6. **Übe die Anordnung außerhalb des Decks.** Fülle ein leeres Periodensystem aus und nenne Orientierungspunkte für Gruppen oder Perioden laut. Einzelne Karten vermitteln die räumliche Anordnung nicht von allein.
 7. **Kehre zur Chemie zurück.** Lies Formeln, erkläre einen Trend, schreibe eine Elektronenkonfiguration und löse unbekannte Aufgaben. Aus jedem wiederholten Fehler kann eine kleine Korrekturkarte entstehen.
 
-Halte deine tägliche Wiederholungsmenge realistisch, während du den Lernstoff erweiterst. [Wie viele neue Flashcards pro Tag?](/blog/how-many-new-flashcards-per-day/) erklärt, wie du die Zahl fälliger Wiederholungen statt bloßer Ambition nutzt, um die Zahl neuer Karten festzulegen.
+Halte deine tägliche Wiederholungsmenge realistisch, während du den Lernstoff erweiterst. Passe neue Karten an die Zahl fälliger Wiederholungen an.
 
 ## Vorgefertigte Decks für drei verschiedene Lernziele
 
@@ -271,7 +271,7 @@ Flashcards eignen sich gut, um eine exakte Zuordnung abrufbar zu halten: `Fe` �
 - Berechnungen und unbekannte mehrschrittige Aufgaben lösen
 - Laborarbeiten unter der vorgeschriebenen Aufsicht und mit den nötigen Sicherheitsmaßnahmen durchführen
 
-Der [Leitfaden zu Flashcards für fortgeschrittene Chemie](/blog/how-to-use-flashcards-for-advanced-chemistry/) vertieft diese Trennung zwischen gezieltem Faktenabruf und dem Lösen ganzer Aufgaben.
+Nutze die Karten für gezielten Faktenabruf und löse vollständige Chemieaufgaben zusätzlich außerhalb des Decks.
 
 ## Wie Nibomo dich unterstützt
 

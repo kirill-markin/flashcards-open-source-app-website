@@ -125,7 +125,7 @@ Reverso: SSH es la asociación estándar. Confirma qué proceso está escuchando
 realmente; el número de puerto por sí solo no demuestra qué servicio se ejecuta.
 ```
 
-Así evitas que un mazo de puertos se convierta en una recitación de números. Si quieres profundizar en las tarjetas de protocolos, consulta la [guía de flashcards para Security+](/blog/how-to-use-flashcards-for-security-plus/). Mantén el mazo de A+ dentro de los límites de los objetivos de A+.
+Así evitas que un mazo de puertos se convierta en una recitación de números. Pregunta también cuándo se usa un protocolo y cómo se distingue de otro parecido. Mantén el mazo de A+ dentro de los límites de los objetivos de A+.
 
 ### Elige la herramienta que aporta la evidencia
 
@@ -152,7 +152,7 @@ relacionados con un fallo de Windows?
 Reverso: Visor de eventos (eventvwr.msc)
 ```
 
-Ejecuta el comando o abre la herramienta después del repaso. La tarjeta te ayuda a recordar el primer paso; el equipo te enseña las opciones, la salida, los permisos y los estados de error. La [guía de flashcards para comandos de terminal](/blog/how-to-learn-terminal-commands-with-flashcards/) explica este ciclo con más detalle.
+Ejecuta el comando o abre la herramienta después del repaso. La tarjeta te ayuda a recordar el primer paso; el equipo te enseña las opciones, la salida, los permisos y los estados de error.
 
 ## Core 2 también evalúa límites, secuencia y criterio profesional
 
@@ -217,7 +217,7 @@ Supón que recordabas para qué sirve DNS, pero perdiste tiempo decidiendo si fa
 
 No reduzcas un error a una tarjeta cuando el verdadero problema fue la navegación, la salida de un comando, la instalación de un componente, la gestión del tiempo o una recopilación incompleta de evidencia. Esos problemas requieren más práctica con PBQ, un laboratorio virtual, hardware de repuesto o un ejercicio de resolución de problemas más largo.
 
-Los documentos de objetivos también advierten a los candidatos contra materiales no autorizados de terceros, conocidos habitualmente como brain dumps. Usa los objetivos vigentes, formación y prácticas autorizadas, y tus propias notas de laboratorio. [Cómo convertir preguntas de práctica en flashcards](/blog/how-to-turn-practice-questions-into-flashcards/) explica cómo conservar la lección reutilizable sin copiar la pregunta.
+Los documentos de objetivos también advierten a los candidatos contra materiales no autorizados de terceros, conocidos habitualmente como brain dumps. Usa los objetivos vigentes, formación y prácticas autorizadas, y tus propias notas de laboratorio. Conserva la lección reutilizable con tus propias palabras, sin copiar la pregunta.
 
 ## Crea un ciclo de estudio centrado en un core
 

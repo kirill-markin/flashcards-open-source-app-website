@@ -114,7 +114,7 @@ Vulnerability और threat, preventive और detective control, encryption औ
 
 **पीछे:** Risk में पड़ा asset या service, vulnerability या unwanted behavior, और वह evidence जो दिखाता है कि traffic risk कैसे पैदा कर रहा है।
 
-इससे आपकी गलतियों पर आधारित एक छोटा deck बनता है। [Practice questions को फ़्लैशकार्ड में बदलने का तरीका](/blog/how-to-turn-practice-questions-into-flashcards/) यहाँ खास तौर पर काम आता है, बशर्ते आप सीख अपने शब्दों में लिखें और exam material की copy न सहेजें।
+इससे आपकी गलतियों पर आधारित एक छोटा deck बनता है। Practice questions की गलतियों से सीख अपने शब्दों में लिखें और exam material की copy न सहेजें।
 
 ## Deck को पाँच units और तीन skill categories में बाँटें
 
@@ -134,7 +134,7 @@ Official framework में पाँच units हैं: Introduction to Secur
 
 Tags सरल रख सकते हैं: `unit-3`, `analyze-risk` और `logs`। एक card पर एक से ज़्यादा tags हो सकते हैं। एक ही idea को कई categories में दिखाने के लिए उसकी अलग-अलग copies न बनाएं।
 
-अगर कोई card बार-बार गलत हो रहा है, तो पहले उसकी wording जाँचें। धुंधला prompt याददाश्त की कमी जैसा लग सकता है। [बेहतर फ़्लैशकार्ड बनाने](/blog/how-to-make-better-flashcards/) और [AI से बने कमजोर cards सुधारने](/blog/how-to-fix-ai-flashcards/) पर एक नज़र डालना किसी खराब card को दस बार review करने से ज़्यादा समय बचा सकता है।
+अगर कोई card बार-बार गलत हो रहा है, तो पहले उसकी wording जाँचें। धुंधला prompt याददाश्त की कमी जैसा लग सकता है। सवाल स्पष्ट करें, जवाब स्रोत से जाँचें और मिले-जुले लक्ष्य अलग कार्डों में बाँटें।
 
 ## पूरा Device Security Analysis अभ्यास deck से बाहर रखें
 
@@ -164,7 +164,7 @@ Cards याद करने वाले छोटे हिस्सों म
 
 **हर class या study block के बाद:** सिर्फ़ उन concepts के cards जोड़ें जिन्हें आप समझा नहीं पाए, जिन अंतरों को मिला बैठे या जिस evidence का गलत अर्थ निकाला। Prompts खुद लिखें। Copy किए हुए चालीस वाक्यों से दस उपयोगी cards बेहतर हैं।
 
-**Review वाले दिनों में:** पीछे का जवाब देखने से पहले खुद जवाब दें। आपका जवाब कुछ हद तक सही हो, तो यह भी बताएं कि क्या छूट गया। FSRS scheduler के साथ due review आपकी review history के आधार पर अगली repetitions के बीच सही दूरी रख सकता है। [यह FSRS exam workflow](/blog/how-to-study-for-an-exam-with-fsrs/) बताता है कि तय exam करीब आने पर queue को संभालने लायक कैसे रखें।
+**Review वाले दिनों में:** पीछे का जवाब देखने से पहले खुद जवाब दें। आपका जवाब कुछ हद तक सही हो, तो यह भी बताएं कि क्या छूट गया। FSRS scheduler के साथ due review आपकी review history के आधार पर अगली repetitions के बीच सही दूरी रख सकता है। परीक्षा करीब आने पर नए कार्ड कम करें, ताकि due reviews और पूरे सवालों के लिए समय बचे।
 
 **हफ़्ते में एक बार:** units और skills को मिलाएं। कम-से-कम एक risk-chain card, एक control-effect card और एक evidence card शामिल करें। फिर deck से बाहर एक छोटा artifact exercise करें।
 

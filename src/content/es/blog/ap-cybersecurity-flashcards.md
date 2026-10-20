@@ -114,7 +114,7 @@ Después de practicar, guarda la lección reutilizable que explica tu error en v
 
 **Reverso:** El activo o servicio en riesgo, la vulnerabilidad o el comportamiento no deseado y la evidencia que muestra cómo el tráfico genera riesgo.
 
-Así construyes un mazo pequeño basado en tus errores. [Convertir preguntas de práctica en flashcards](/blog/how-to-turn-practice-questions-into-flashcards/) funciona especialmente bien aquí, siempre que reescribas la lección con tus propias palabras y no guardes material copiado del examen.
+Así construyes un mazo pequeño basado en tus errores. Aprovecha los errores de las preguntas de práctica: formula el aprendizaje con tus propias palabras y no guardes material copiado del examen.
 
 ## Distribuye el mazo entre cinco unidades y tres categorías de habilidades
 
@@ -134,7 +134,7 @@ No fuerces todos los temas a encajar en las tres columnas. Algunos contenidos de
 
 Las etiquetas pueden ser sencillas: `unit-3`, `analyze-risk` y `logs`. Una tarjeta puede tener más de una etiqueta. No crees copias separadas solo para colocar la misma idea en varias categorías.
 
-Cuando una tarjeta se te resista una y otra vez, revisa primero cómo está escrita. Una pregunta confusa puede hacerte creer que tienes un problema de memoria. [Diseñar mejores flashcards](/blog/how-to-make-better-flashcards/) y una revisión rápida para [corregir tarjetas deficientes generadas por IA](/blog/how-to-fix-ai-flashcards/) pueden ahorrarte más tiempo que repasar diez veces una mala tarjeta.
+Cuando una tarjeta se te resista una y otra vez, revisa primero cómo está escrita. Una pregunta confusa puede hacerte creer que tienes un problema de memoria. Formula una pregunta concreta, comprueba la respuesta con la fuente y divide las tarjetas sobrecargadas antes de seguir repasándolas.
 
 ## Mantén fuera del mazo la práctica completa de Device Security Analysis
 
@@ -164,7 +164,7 @@ Es más fácil mantener un ciclo semanal pequeño que construir un mazo enorme a
 
 **Después de cada clase o bloque de estudio:** añade tarjetas solo para los conceptos que no pudiste explicar, las distinciones que confundiste y la evidencia que interpretaste mal. Escribe preguntas originales. Diez tarjetas útiles valen más que cuarenta frases copiadas.
 
-**En los días de repaso:** responde antes de revelar el reverso. Si aciertas solo en parte, identifica qué faltaba. Un planificador FSRS puede espaciar las repeticiones posteriores según tu historial de repaso; [este flujo de estudio para exámenes con FSRS](/blog/how-to-study-for-an-exam-with-fsrs/) explica cómo mantener una cola manejable a medida que se acerca un examen con fecha fija.
+**En los días de repaso:** responde antes de revelar el reverso. Si aciertas solo en parte, identifica qué faltaba. Un planificador FSRS puede espaciar las repeticiones posteriores según tu historial de repaso; limita las tarjetas nuevas si los repasos pendientes empiezan a ocupar el tiempo que necesitas para practicar antes del examen.
 
 **Una vez por semana:** mezcla unidades y habilidades. Incluye al menos una cadena de riesgo, una tarjeta sobre el efecto de un control y una tarjeta de evidencia. Después, haz un ejercicio breve con artefactos fuera del mazo.
 
