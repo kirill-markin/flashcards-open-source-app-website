@@ -101,7 +101,7 @@ Verejne zdokumentované rozhranie odstraňuje časť neistoty pri integrácii, n
 
 Nibomo oddeľuje operácie čítania od nástrojov na zápis: `sql_execute` pre kartičky a balíčky a `submit_review` pre opakovanie. Prístupové údaje OAuth však stále pokrývajú celé rozhranie konektora, takže blokovanie nástrojov a spôsob schvaľovania závisia od klienta. Začnite s malým pracovným priestorom bez citlivých údajov. Nechajte agenta čítať iba údaje potrebné na úlohu, pri zápise vyžadujte schválenie každého volania, ak to klient podporuje, a pred prijatím zmeny si prezrite pracovný priestor aj navrhovanú úpravu.
 
-Súkromné študijné materiály nepripájajte, kým si nepreveríte podmienky klienta AI týkajúce sa uchovávania údajov a zaobchádzania s nimi. Podrobný model hrozieb nájdete v článku [Je MCP bezpečný pre kartičky?](/blog/is-mcp-safe-for-flashcards/). Pri prvom prenose stačí jednoduché pravidlo: uchovajte si pôvodný export, prezrite si niekoľko kartičiek, schváľte zápis s úzkym rozsahom a pred ďalšími krokmi overte výsledok v cieľovej aplikácii.
+Súkromné študijné materiály nepripájajte, kým si nepreveríte podmienky klienta AI týkajúce sa uchovávania údajov a zaobchádzania s nimi. Pri prvom prenose stačí jednoduché pravidlo: uchovajte si pôvodný export, prezrite si niekoľko kartičiek, schváľte zápis s úzkym rozsahom a pred ďalšími krokmi overte výsledok v cieľovej aplikácii.
 
 ## Nerobte zo súkromnej komunikácie prehliadača API
 

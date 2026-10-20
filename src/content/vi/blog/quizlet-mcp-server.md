@@ -101,7 +101,7 @@ Một đặc tả giao diện công khai giúp giảm phần nào việc phải 
 
 Nibomo tách các thao tác đọc khỏi công cụ ghi: `sql_execute` cho thẻ và bộ thẻ, `submit_review` cho lượt ôn tập. Thông tin xác thực OAuth vẫn cấp quyền trên toàn bộ giao diện của trình kết nối, nên việc chặn công cụ và cơ chế phê duyệt phụ thuộc vào ứng dụng khách. Hãy bắt đầu với một không gian làm việc nhỏ, không chứa dữ liệu nhạy cảm. Chỉ cho tác nhân đọc dữ liệu cần thiết cho nhiệm vụ, yêu cầu phê duyệt từng lệnh ghi khi ứng dụng khách hỗ trợ và kiểm tra không gian làm việc cùng thay đổi được đề xuất trước khi chấp nhận.
 
-Đừng kết nối tài liệu học riêng tư trước khi kiểm tra các điều khoản lưu giữ và xử lý dữ liệu của ứng dụng khách AI. Phân tích chi tiết về các mối đe dọa nằm trong bài [MCP có an toàn cho thẻ ghi nhớ không?](/blog/is-mcp-safe-for-flashcards/). Với lần chuyển đầu tiên, chỉ cần một nguyên tắc đơn giản: giữ bản xuất gốc, xem trước vài thẻ, phê duyệt một thao tác ghi có phạm vi hẹp và kiểm tra kết quả trong ứng dụng đích trước khi làm tiếp.
+Đừng kết nối tài liệu học riêng tư trước khi kiểm tra các điều khoản lưu giữ và xử lý dữ liệu của ứng dụng khách AI. Với lần chuyển đầu tiên, chỉ cần một nguyên tắc đơn giản: giữ bản xuất gốc, xem trước vài thẻ, phê duyệt một thao tác ghi có phạm vi hẹp và kiểm tra kết quả trong ứng dụng đích trước khi làm tiếp.
 
 ## Đừng biến các yêu cầu nội bộ từ trình duyệt thành API
 

@@ -158,7 +158,7 @@ Här är fem vanliga exempel på hur fel kan bli kort:
 
 Kopiera inte en hel officiell fråga och dess svarsförklaring till ett kort. Skriv den kontrollerade lärdomen med egna ord. Låt hela uppgiften vara kvar i övningsmaterialet och behåll bara den lilla detaljen du behöver minnas i kortleken.
 
-[Så gör du flashcards av övningsfrågor 2026](/blog/how-to-turn-practice-questions-into-flashcards/) går djupare in på kunskapsluckor, distinktioner, ordningsföljder och kort om återkommande fallgropar. [Flashcards eller övningsprov 2026](/blog/flashcards-vs-practice-tests/) förklarar varför kortet och nästa nya fråga bör förbli separata steg.
+[Flashcards eller övningsprov 2026](/blog/flashcards-vs-practice-tests/) förklarar varför kortet och nästa nya fråga bör förbli separata steg.
 
 ## Granska en gammal TOEFL-kortlek innan du repeterar den
 
@@ -180,8 +180,6 @@ Sortera sedan resultaten i tre grupper:
 3. **Ta bort eller arkivera:** uppgiftsinstruktioner, tidsgränser, poängregler och mallar som bara beskriver formatet före den 21 januari 2026.
 
 Jämför därefter de återstående uppgiftstaggarna med de 12 aktuella uppgiftsnamnen från ETS. Ge varje formatspecifikt kort en aktuell officiell ETS-källa. Du kan också lägga till taggen `verified-2026` och datumet då du kontrollerade kortet som extra metadata. Datum spelar roll här eftersom ETS kan ändra provet. Stabilt ordförråd behöver inte hanteras på samma sätt.
-
-Om kortleken är stor ger [Så gallrar du en kortlek med flashcards 2026](/blog/how-to-prune-a-flashcard-deck/) ett praktiskt arbetssätt för att ta bort och skriva om kort.
 
 ## Använd intervallrepetition för att minnas, inte för att simulera provet
 

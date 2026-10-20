@@ -101,7 +101,7 @@ O specificație publică reduce o parte din incertitudinea integrării, dar nu f
 
 Nibomo separă operațiile de citire de instrumentele de scriere: `sql_execute` pentru fișe și pachete, `submit_review` pentru recapitulări. Datele de autentificare OAuth acoperă în continuare întreaga interfață a conectorului, așa că blocarea instrumentelor și modul în care se cer aprobările depind de client. Începe cu un spațiu de lucru mic, fără date sensibile. Permite agentului să citească doar datele necesare sarcinii, cere aprobarea pentru fiecare apel de scriere atunci când clientul permite acest lucru și inspectează spațiul de lucru și modificarea propusă înainte de a o accepta.
 
-Nu conecta materiale de studiu private până nu verifici condițiile clientului AI privind păstrarea și prelucrarea datelor. Modelul detaliat al amenințărilor se găsește în [Este MCP sigur pentru fișele de învățare?](/blog/is-mcp-safe-for-flashcards/). Pentru un prim transfer, ajunge o regulă simplă: păstrează exportul neprelucrat, previzualizează câteva fișe, aprobă o operație de scriere restrânsă și verifică rezultatul în aplicația de destinație înainte de a continua.
+Nu conecta materiale de studiu private până nu verifici condițiile clientului AI privind păstrarea și prelucrarea datelor. Pentru un prim transfer, ajunge o regulă simplă: păstrează exportul neprelucrat, previzualizează câteva fișe, aprobă o operație de scriere restrânsă și verifică rezultatul în aplicația de destinație înainte de a continua.
 
 ## Nu transforma traficul privat din browser într-un API
 

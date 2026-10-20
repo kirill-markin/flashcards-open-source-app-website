@@ -101,7 +101,7 @@ Simulează trei scenarii înainte să aplici noile setări:
 2. Ținta de retenție pe care o ai în vedere.
 3. Aceeași țintă, dar cu mai puține fișe noi pe zi.
 
-A treia simulare testează o alternativă frecvent utilă: păstrezi ținta de reamintire și reduci fluxul de material nou. Dacă rezultatul estimat este gestionabil, nu trebuie să accepți mai multă uitare doar ca să reduci lista de recapitulări. Găsești mai multe detalii în ghidul [Câte fișe noi pe zi?](/blog/how-many-new-flashcards-per-day/).
+A treia simulare testează o alternativă frecvent utilă: păstrezi ținta de reamintire și reduci fluxul de material nou. Dacă rezultatul estimat este gestionabil, nu trebuie să accepți mai multă uitare doar ca să reduci lista de recapitulări.
 
 Ambele instrumente oferă estimări. Zilele ratate, fișele editate, materialul nou și schimbările în modul de evaluare pot face ca volumul real de lucru să difere de grafic. Folosește comparația pentru a alege o direcție, fără a te baza pe un număr exact de recapitulări peste câteva luni.
 

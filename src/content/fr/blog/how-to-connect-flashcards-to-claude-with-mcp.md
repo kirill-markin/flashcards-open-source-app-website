@@ -15,7 +15,7 @@ keywords:
 
 Claude peut enregistrer des cartes directement dans votre espace de travail Nibomo grâce à son connecteur MCP publié. Connectez Nibomo depuis le répertoire de Claude, identifiez-vous sur Nibomo et choisissez les actions que Claude peut effectuer sans demander votre accord à chaque fois.
 
-Les captures de la configuration manuelle ont été vérifiées dans Claude Desktop le 20 septembre 2026. Pour une connexion via REST et une clé API, consultez le [guide de connexion des agents](/blog/claude-code-codex-openclaw-flashcards-login/).
+Les captures de la configuration manuelle ont été vérifiées dans Claude Desktop le 20 septembre 2026. Pour une connexion via REST et une clé API, consultez la [documentation de l’API](/fr/docs/api/).
 
 ![Une remise de documents dans une bibliothèque illustre l’accès en lecture et l’accord requis avant toute modification](/blog/how-to-connect-nibomo-to-claude-mcp.png)
 

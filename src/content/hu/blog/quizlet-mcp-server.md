@@ -101,7 +101,7 @@ Egy nyilvános specifikáció csökkenti az integráció körüli találgatást,
 
 A Nibomo különválasztja az olvasási műveleteket az írási eszközöktől: a `sql_execute` a kártyákat és paklikat, a `submit_review` az ismétléseket kezeli. Az OAuth-hitelesítő adat ettől még a csatlakozó teljes felületére érvényes, ezért az eszközök blokkolása és a jóváhagyás működése a klienstől függ. Kezdd egy kis munkaterülettel, amely nem tartalmaz érzékeny adatokat. Az ügynök csak a feladathoz szükséges adatokat olvassa, az írási műveleteknél tartsd meg a hívásonkénti jóváhagyást, ha a kliens ezt támogatja, és elfogadás előtt nézd át a munkaterületet és a javasolt módosítást.
 
-Ne csatlakoztass privát tananyagot, amíg nem ellenőrizted az AI-kliens adatmegőrzési és adatkezelési feltételeit. A részletes fenyegetési modellt a [Biztonságos az MCP tanulókártyákhoz?](/blog/is-mcp-safe-for-flashcards/) című cikkben találod. Az első átvitelhez elég egy egyszerű szabály: őrizd meg a nyers exportot, nézd meg néhány kártya előnézetét, hagyj jóvá egy szűk körű írási műveletet, és mielőtt továbbmennél, ellenőrizd az eredményt a célalkalmazásban.
+Ne csatlakoztass privát tananyagot, amíg nem ellenőrizted az AI-kliens adatmegőrzési és adatkezelési feltételeit. Az első átvitelhez elég egy egyszerű szabály: őrizd meg a nyers exportot, nézd meg néhány kártya előnézetét, hagyj jóvá egy szűk körű írási műveletet, és mielőtt továbbmennél, ellenőrizd az eredményt a célalkalmazásban.
 
 ## Ne alakítsd API-vá a böngésző privát forgalmát
 

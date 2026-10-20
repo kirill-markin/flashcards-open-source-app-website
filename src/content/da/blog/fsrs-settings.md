@@ -101,7 +101,7 @@ Kør tre scenarier, før du ændrer de aktive indstillinger:
 2. Det mål for fastholdelse, du overvejer.
 3. Det samme mål med færre nye kort pr. dag.
 
-Den tredje kørsel afprøver et almindeligt alternativ: behold målet for genkaldelse, og sænk tilførslen af nyt materiale. Hvis prognosen så bliver overkommelig, behøver du ikke acceptere at glemme mere bare for at få køen ned. Læs mere om tilførsel af kort i [Hvor mange nye flashcards om dagen?](/blog/how-many-new-flashcards-per-day/).
+Den tredje kørsel afprøver et almindeligt alternativ: behold målet for genkaldelse, og sænk tilførslen af nyt materiale. Hvis prognosen så bliver overkommelig, behøver du ikke acceptere at glemme mere bare for at få køen ned.
 
 Begge værktøjer giver estimater. Dage, du springer over, redigerede kort, nyt materiale og ændrede vurderingsvaner kan få den faktiske arbejdsbyrde til at afvige fra grafen. Brug sammenligningen til at vælge retning, ikke til at love en bestemt kø flere måneder frem.
 

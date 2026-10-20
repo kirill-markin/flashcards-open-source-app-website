@@ -101,7 +101,7 @@ Opinber viðmótslýsing dregur úr ágiskunum við samþættingu, en hún gerir
 
 Nibomo heldur lesaðgerðum aðskildum frá verkfærum sem skrifa gögn: `sql_execute` fyrir spjöld og stokka og `submit_review` fyrir upprifjun. OAuth-aðgangsskilríkið nær þó áfram yfir viðmót tengisins, þannig að það fer eftir biðlaranum hvernig hægt er að loka á verkfæri og krefjast samþykkis. Byrjaðu á litlu vinnusvæði án viðkvæmra gagna. Leyfðu fulltrúanum aðeins að lesa þau gögn sem þarf fyrir verkefnið, láttu hverja skrifaðgerð krefjast sérstaks samþykkis ef biðlarinn styður það og skoðaðu vinnusvæðið og breytinguna sem er lögð til áður en þú samþykkir hana.
 
-Ekki veita aðgang að einkagögnum sem þú notar við nám fyrr en þú hefur skoðað skilmála gervigreindarbiðlarans um varðveislu og meðhöndlun gagna. Ítarlegt ógnalíkan er í [Er MCP öruggt fyrir námsspjöld?](/blog/is-mcp-safe-for-flashcards/). Fyrir fyrsta flutning dugar einföld regla: geymdu upprunalega útflutninginn, forskoðaðu nokkur spjöld, samþykktu afmarkaða skrifaðgerð og staðfestu niðurstöðuna í móttökuforritinu áður en þú heldur áfram.
+Ekki veita aðgang að einkagögnum sem þú notar við nám fyrr en þú hefur skoðað skilmála gervigreindarbiðlarans um varðveislu og meðhöndlun gagna. Fyrir fyrsta flutning dugar einföld regla: geymdu upprunalega útflutninginn, forskoðaðu nokkur spjöld, samþykktu afmarkaða skrifaðgerð og staðfestu niðurstöðuna í móttökuforritinu áður en þú heldur áfram.
 
 ## Ekki gera óopinber vafrasamskipti að API
 

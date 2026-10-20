@@ -101,7 +101,7 @@ Kjør tre scenarioer før du endrer oppsettet du bruker:
 2. Hukommelsesmålet du vurderer.
 3. Det samme målet med færre nye kort per dag.
 
-Den tredje kjøringen tester et vanlig alternativ: behold hukommelsesmålet og reduser tilførselen av nytt stoff. Hvis det gir en overkommelig prognose, trenger du ikke godta mer glemsel bare for å få køen under kontroll. [Hvor mange nye puggekort per dag?](/blog/how-many-new-flashcards-per-day/) går nærmere inn på tilførselen av nye kort.
+Den tredje kjøringen tester et vanlig alternativ: behold hukommelsesmålet og reduser tilførselen av nytt stoff. Hvis det gir en overkommelig prognose, trenger du ikke godta mer glemsel bare for å få køen under kontroll.
 
 Begge verktøyene gir anslag. Dager du hopper over, redigerte kort, nytt stoff og endrede vurderingsvaner kan få den faktiske arbeidsmengden til å avvike fra grafen. Bruk sammenligningen til å velge retning, ikke til å love en bestemt kø flere måneder frem i tid.
 

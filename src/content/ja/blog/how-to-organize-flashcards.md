@@ -276,18 +276,6 @@ keywords:
 
 ライブラリが小さい段階を超えた瞬間に、これは実務の問題になります。
 
-次に困っているのが整理ではなくカードの質なら、こちらを読んでください。
-
-- [2026年により良いフラッシュカードを作る方法](https://nibomo.com/blog/how-to-make-better-flashcards/)
-
-本当の問題が復習量なら、こちらも合います。
-
-- [2026年、1日に何枚の新しいフラッシュカードを追加すべきか](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
-
-ミスから一時的な試験用キューを作っているなら、ここから始めてください。
-
-- [2026年に練習問題をフラッシュカードに変える方法](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
-
 ## 役に立つルール
 
 もし **フラッシュカードを整理したい** なら、カードをどこに保存するかの最適化から始めないでください。

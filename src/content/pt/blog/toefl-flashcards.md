@@ -158,7 +158,7 @@ Aqui estão cinco conversões comuns:
 
 Não copie uma questão oficial inteira e sua justificativa para um único cartão. Escreva com suas próprias palavras a lição que você conferiu. Deixe o item completo no material de prática e mantenha apenas o pequeno conteúdo a memorizar no baralho.
 
-[Como transformar questões de prática em flashcards em 2026](/blog/how-to-turn-practice-questions-into-flashcards/) aprofunda o uso de cartões para lacunas de conhecimento, distinções, sequências e padrões de alternativas enganosas. [Flashcards ou simulados em 2026](/blog/flashcards-vs-practice-tests/) explica por que o cartão e a próxima questão inédita devem continuar sendo etapas separadas.
+[Flashcards ou simulados em 2026](/blog/flashcards-vs-practice-tests/) explica por que o cartão e a próxima questão inédita devem continuar sendo etapas separadas.
 
 ## Examine um baralho antigo de TOEFL antes de começar a revisá-lo
 
@@ -180,8 +180,6 @@ Depois, separe os resultados em três grupos:
 3. **Remover ou arquivar:** instruções de tarefas, tempos, pontuação e modelos que descrevem apenas o formato anterior a 21 de janeiro de 2026.
 
 Em seguida, compare as etiquetas de tarefas restantes com os 12 nomes atuais da ETS. Associe uma fonte oficial atual da ETS a cada cartão cujo conteúdo dependa do formato da prova. Você também pode adicionar a etiqueta `verified-2026` e a data da conferência como metadados complementares. As datas importam aqui porque a ETS pode atualizar a prova. Vocabulário estável não precisa do mesmo tratamento.
-
-Se o baralho for grande, [Como enxugar um baralho de flashcards em 2026](/blog/how-to-prune-a-flashcard-deck/) apresenta um processo prático de exclusão e reescrita.
 
 ## Use a repetição espaçada para reter conteúdo, não para simular a prova
 

@@ -158,7 +158,7 @@ Tu je päť bežných spôsobov, ako z chyby vytvoriť kartičku:
 
 Nekopírujte na jednu kartičku celú oficiálnu otázku aj s vysvetlením odpovede. Overené poučenie napíšte vlastnými slovami. Celú úlohu nechajte v cvičnom materiáli a v balíčku ponechajte iba malý prvok na zapamätanie.
 
-Článok [Ako premeniť cvičné otázky na kartičky v roku 2026](/blog/how-to-turn-practice-questions-into-flashcards/) sa podrobnejšie venuje medzerám vo faktických vedomostiach, rozlišovaniu podobných pojmov, postupnostiam a kartičkám na opakujúce sa chytáky. Článok [Kartičky verzus cvičné testy v roku 2026](/blog/flashcards-vs-practice-tests/) vysvetľuje, prečo by opakovanie kartičky a ďalšia nová otázka mali zostať samostatnými krokmi.
+Článok [Kartičky verzus cvičné testy v roku 2026](/blog/flashcards-vs-practice-tests/) vysvetľuje, prečo by opakovanie kartičky a ďalšia nová otázka mali zostať samostatnými krokmi.
 
 ## Pred opakovaním skontrolujte starý balíček na TOEFL
 
@@ -180,8 +180,6 @@ Potom výsledky rozdeľte do troch skupín:
 3. **Odstrániť alebo archivovať:** pokyny k úlohám, časové limity, hodnotenie a šablóny, ktoré opisujú iba formát spred 21. januára 2026.
 
 Následne porovnajte zostávajúce štítky úloh s 12 aktuálnymi názvami úloh ETS. Ku každej kartičke viazanej na formát priraďte aktuálny oficiálny zdroj ETS. Ako doplnkové metadáta môžete pridať aj štítok `verified-2026` a dátum kontroly. Dátumy sú tu dôležité, pretože ETS môže skúšku aktualizovať. Stabilná slovná zásoba rovnaký postup nepotrebuje.
-
-Ak je balíček veľký, článok [Ako pretriediť balíček kartičiek v roku 2026](/blog/how-to-prune-a-flashcard-deck/) ponúka praktický postup na odstraňovanie a prepisovanie kartičiek.
 
 ## Intervalové opakovanie používajte na zapamätanie, nie na simuláciu testu
 

@@ -101,7 +101,7 @@ Jalankan tiga skenario sebelum mengubah pengaturan yang sedang digunakan:
 2. Target retensi yang sedang Anda pertimbangkan.
 3. Target yang sama dengan lebih sedikit kartu baru per hari.
 
-Skenario ketiga menguji alternatif yang sering berguna: pertahankan target kemampuan mengingat dan perlambat penambahan materi baru. Jika perkiraan bebannya menjadi terkendali, Anda tidak perlu mengorbankan daya ingat hanya untuk mengurangi antrean. Panduan lebih lengkap tentang penambahan kartu ada di [Berapa Banyak Kartu Belajar Baru per Hari?](/blog/how-many-new-flashcards-per-day/).
+Skenario ketiga menguji alternatif yang sering berguna: pertahankan target kemampuan mengingat dan perlambat penambahan materi baru. Jika perkiraan bebannya menjadi terkendali, Anda tidak perlu mengorbankan daya ingat hanya untuk mengurangi antrean.
 
 Kedua alat ini memberikan perkiraan. Hari belajar yang terlewat, kartu yang diedit, materi baru, dan perubahan kebiasaan penilaian bisa membuat beban aktual berbeda dari grafik. Gunakan perbandingannya untuk menentukan arah. Jangan menganggapnya sebagai kepastian tentang panjang antrean beberapa bulan mendatang.
 

@@ -244,7 +244,7 @@ Parti da un riscontro concreto, anche solo da un'autoverifica di cinque minuti.
 6. **Ricostruisci la disposizione fuori dal mazzo.** Completa una tavola vuota e ripeti ad alta voce i punti di riferimento per gruppi o periodi. Le carte isolate, da sole, non insegnano la disposizione nello spazio.
 7. **Torna alla chimica.** Leggi formule, spiega un andamento, scrivi una configurazione elettronica e risolvi problemi nuovi. Da ogni errore ricorrente può nascere una piccola carta mirata.
 
-Mantieni sostenibile il carico giornaliero mentre ampli l'insieme degli elementi. [Quante nuove flashcard al giorno?](/blog/how-many-new-flashcards-per-day/) spiega come stabilire quante carte aggiungere in base ai ripassi in scadenza, anziché all'ambizione.
+Mantieni sostenibile il carico giornaliero mentre ampli l'insieme degli elementi. Stabilisci quante carte aggiungere in base ai ripassi in scadenza.
 
 ## Mazzi già pronti per tre obiettivi diversi
 

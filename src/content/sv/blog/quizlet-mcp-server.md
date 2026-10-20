@@ -101,7 +101,7 @@ Ett offentligt gränssnittskontrakt minskar en del av gissandet vid integratione
 
 Nibomo skiljer läsåtgärder från sina skrivverktyg: `sql_execute` för kort och kortlekar, `submit_review` för repetitioner. OAuth-autentiseringsuppgiften omfattar fortfarande hela kopplingens gränssnitt, så möjligheterna att blockera verktyg och kräva godkännanden beror på klienten. Börja med en liten arbetsyta utan känsligt innehåll. Låt agenten bara läsa de data som behövs för uppgiften, kräv godkännande för varje skrivanrop när klienten stöder det och granska arbetsytan och den föreslagna ändringen innan du accepterar den.
 
-Anslut inte privat studiematerial förrän du har kontrollerat AI-klientens villkor för datalagring och datahantering. Den detaljerade hotmodellen finns i [Är MCP säkert för flashcards?](/blog/is-mcp-safe-for-flashcards/). Vid en första överföring räcker en enkel regel: behåll originalexporten, förhandsgranska några kort, godkänn en avgränsad skrivning och kontrollera resultatet i målappen innan du fortsätter.
+Anslut inte privat studiematerial förrän du har kontrollerat AI-klientens villkor för datalagring och datahantering. Vid en första överföring räcker en enkel regel: behåll originalexporten, förhandsgranska några kort, godkänn en avgränsad skrivning och kontrollera resultatet i målappen innan du fortsätter.
 
 ## Gör inte privat webbläsartrafik till ett API
 

@@ -101,7 +101,7 @@ Kullandığınız ayarları değiştirmeden önce üç senaryo çalıştırın:
 2. Geçmeyi düşündüğünüz hatırlama hedefi.
 3. Aynı hedef, ancak daha düşük günlük yeni kart sayısı.
 
-Üçüncü deneme yaygın bir alternatifi sınar: hatırlama hedefini koruyup yeni içerik ekleme hızını azaltmak. Bu senaryo yönetilebilir bir yük öngörüyorsa sırf kuyruğu hafifletmek için daha fazla unutmayı kabul etmeniz gerekmez. Yeni kart ekleme hızını daha ayrıntılı ele alan rehber: [Günde Kaç Yeni Bilgi Kartı Çalışmalı?](/blog/how-many-new-flashcards-per-day/).
+Üçüncü deneme yaygın bir alternatifi sınar: hatırlama hedefini koruyup yeni içerik ekleme hızını azaltmak. Bu senaryo yönetilebilir bir yük öngörüyorsa sırf kuyruğu hafifletmek için daha fazla unutmayı kabul etmeniz gerekmez.
 
 Her iki araç da tahmin üretir. Atlanan günler, düzenlenen kartlar, yeni konular ve değişen değerlendirme alışkanlıkları gerçek çalışma yükünün grafikteki tahminden farklı çıkmasına yol açabilir. Karşılaştırmayı karar vermek için kullanın; aylar sonraki kuyruk uzunluğunu kesin olarak bildiğinizi varsaymayın.
 

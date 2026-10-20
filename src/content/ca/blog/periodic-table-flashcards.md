@@ -244,7 +244,7 @@ Comença amb dades concretes, encara que només siguin les d'una autoavaluació 
 6. **Reconstrueix la disposició fora de la baralla.** Omple una taula en blanc i digues en veu alta els punts de referència dels grups o períodes. Les targetes aïllades no ensenyen per si soles la disposició espacial.
 7. **Torna a la química.** Llegeix fórmules, explica una tendència, escriu una configuració electrònica i resol problemes nous. Cada error recurrent pot donar lloc a una petita targeta per corregir-lo.
 
-Mantén una càrrega diària assumible mentre amplies el conjunt. [Quantes targetes noves al dia?](/blog/how-many-new-flashcards-per-day/), en anglès, explica com ajustar el nombre de targetes noves segons els repassos pendents, en lloc de fer-ho només per ambició.
+Mantén una càrrega diària assumible mentre amplies el conjunt. Ajusta el nombre de targetes noves als repassos pendents.
 
 ## Baralles preparades per a tres objectius diferents
 

@@ -109,11 +109,6 @@ Deep Research には出典があります。そこが強みです。ちゃんと
 
 レポートが長いなら、私は1セクションずつ処理します。比較の章だけ、ルールの章だけ、よくある失敗例の章だけ。そこから先まで欲張ると、大きな AI 生成デッキで起きるのと同じ復習問題に戻りがちです。
 
-この話は、すでに多くの人がぶつかる次の記事とも自然につながります。
-
-- [2026年、1日に何枚の新しいフラッシュカードを追加すべきか](/ja/blog/how-many-new-flashcards-per-day/)
-- [2026年、AIフラッシュカード過多をどう避けるか](/ja/blog/how-to-avoid-ai-flashcard-overload/)
-
 Deep Research は情報収集を速くします。でも、巨大なデッキを扱いやすくしてはくれません。
 
 ## 実際に使える ChatGPT Deep Research からフラッシュカードへの流れ
@@ -194,11 +189,6 @@ AI のレイヤーは賢くなりました。
 
 これが私の求める **Deep Research からフラッシュカード** です。レポートを、きれいな想起プロンプトにもう一度分解する。賢そうだからという理由で、整った文の形をそのまま保存しません。
 
-カードの質そのものを広く見たいなら、次の記事がきれいにつながります。
-
-- [2026年版 より良いフラッシュカードの作り方](/ja/blog/how-to-make-better-flashcards/)
-- [2026年、フラッシュカード復習をもっと速くする方法](/ja/blog/how-to-review-flashcards-faster/)
-
 ## Nibomo が入るのは、調査のあと
 
 [Nibomo](/ja/features/) が合うのは、調査パスのあとです。
@@ -218,7 +208,7 @@ AI のレイヤーは賢くなりました。
 - 整理用のデッキとタグ
 - 実際の復習ループを回すための FSRS スケジューリング
 
-初めて触るなら、[使い始めガイド](/ja/docs/getting-started/) が最短です。データ所有権が気になるなら、[料金](/ja/pricing/) と [間隔反復のためのセルフホスト型オープンソースフラッシュカードアプリ](/ja/blog/self-hosted-open-source-flashcards-app-for-spaced-repetition/) が、ホスト版とセルフホスト版の違いを率直に説明しています。
+初めて触るなら、[使い始めガイド](/ja/docs/getting-started/) が最短です。データ所有権が気になるなら、[料金](/ja/pricing/) と [セルフホスティングの手順](/ja/docs/self-hosting/) が、ホスト版とセルフホスト版の違いを率直に説明しています。
 
 ## これは家庭教師型の流れとは別物
 
@@ -232,8 +222,6 @@ Deep Research は、Study Mode、Guided Learning、クイズ生成とは同じ�
 
 - 家庭教師セッションでは、間違い、ためらい、小テストの取りこぼしからカードが生まれやすい
 - 調査レポートでは、検証済みの主張、違い、日付のあるルールからカードが生まれやすい
-
-作業の起点が別の場所にあるなら、[2026年版 Gemini Deep Research をフラッシュカードに変える方法](/ja/blog/how-to-turn-gemini-deep-research-into-flashcards/) と [2026年、NotebookLM のフラッシュカードを本物の間隔反復に変える方法](/ja/blog/notebooklm-flashcards-to-spaced-repetition/) のほうが近い比較になります。
 
 ## 最後に残したいルール
 

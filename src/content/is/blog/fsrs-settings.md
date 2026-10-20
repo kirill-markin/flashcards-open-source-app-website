@@ -101,7 +101,7 @@ Prófaðu þrjár sviðsmyndir áður en þú breytir stillingunum sem eru í no
 2. Minnismarkmiðið sem þú ert að íhuga.
 3. Sama markmið með færri nýjum spjöldum á dag.
 
-Þriðja keyrslan prófar algengan valkost: halda minnismarkmiðinu en hægja á innstreymi nýs efnis. Ef spáin verður viðráðanleg þannig þarftu ekki að sætta þig við meiri gleymsku bara til að létta á röðinni. Nánari leiðbeiningar eru í [Hversu mörg ný námsspjöld á dag?](/blog/how-many-new-flashcards-per-day/).
+Þriðja keyrslan prófar algengan valkost: halda minnismarkmiðinu en hægja á innstreymi nýs efnis. Ef spáin verður viðráðanleg þannig þarftu ekki að sætta þig við meiri gleymsku bara til að létta á röðinni.
 
 Bæði verkfærin byggja á áætlunum. Dagar sem falla úr, breytt spjöld, nýtt efni og breyttar matsvenjur geta valdið því að raunverulegt vinnuálag víki frá grafinu. Notaðu samanburðinn til að velja stefnu, án þess að gera ráð fyrir nákvæmum fjölda upprifjana mörgum mánuðum síðar.
 

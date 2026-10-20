@@ -158,7 +158,7 @@ Hapa kuna njia tano za kawaida za kugeuza makosa kuwa kadi:
 
 Usinakili swali zima rasmi pamoja na maelezo ya jibu kwenye kadi moja. Andika funzo lililothibitishwa kwa maneno yako mwenyewe. Acha swali kamili katika nyenzo za mazoezi na uweke tu jambo dogo la kukumbuka katika seti ya kadi.
 
-[Jinsi ya kugeuza maswali ya mazoezi kuwa kadi za kujifunzia mwaka 2026](/blog/how-to-turn-practice-questions-into-flashcards/) inaeleza zaidi kuhusu taarifa usizozijua, tofauti kati ya mambo, mifuatano na kadi za mitego inayojirudia. [Kadi za kujifunzia dhidi ya mitihani ya mazoezi mwaka 2026](/blog/flashcards-vs-practice-tests/) inaeleza kwa nini kadi na swali jipya linalofuata vinapaswa kubaki hatua mbili tofauti.
+[Kadi za kujifunzia dhidi ya mitihani ya mazoezi mwaka 2026](/blog/flashcards-vs-practice-tests/) inaeleza kwa nini kadi na swali jipya linalofuata vinapaswa kubaki hatua mbili tofauti.
 
 ## Kagua seti ya zamani ya TOEFL kabla ya kuirudia
 
@@ -180,8 +180,6 @@ Kisha gawa matokeo katika makundi matatu:
 3. **Ondoa au hifadhi kwenye kumbukumbu:** maelekezo ya kazi, muda, utoaji alama na violezo vinavyoeleza muundo wa kabla ya tarehe 21 Januari 2026 pekee.
 
 Baada ya hapo, linganisha lebo za kazi zilizobaki na majina 12 ya sasa ya kazi za ETS. Weka chanzo rasmi cha sasa cha ETS kwenye kila kadi inayohusu muundo maalumu wa mtihani. Unaweza pia kuongeza lebo ya `verified-2026` na tarehe uliyoikagua kama taarifa za ziada. Tarehe ni muhimu hapa kwa sababu ETS inaweza kusasisha mtihani. Msamiati usiobadilika hauhitaji hatua hizo hizo.
-
-Ikiwa seti ni kubwa, [Jinsi ya kupunguza seti ya kadi za kujifunzia mwaka 2026](/blog/how-to-prune-a-flashcard-deck/) inatoa hatua za vitendo za kufuta na kuandika upya kadi.
 
 ## Tumia spaced repetition kukumbuka kwa muda mrefu, si kuiga mtihani
 

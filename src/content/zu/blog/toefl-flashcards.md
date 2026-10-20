@@ -158,7 +158,7 @@ Nazi izindlela ezinhlanu ezivamile zokwenza lokho:
 
 Ungakopisheli umbuzo osemthethweni ophelele nencazelo yempendulo ekhadini elilodwa. Bhala isifundo esiqinisekisiwe ngamazwi akho. Shiya umbuzo ophelele ezintweni zokuzilolonga, ugcine eqoqweni lamakhadi into encane kuphela okufanele uyikhumbule.
 
-[Indlela yokuguqula imibuzo yokuzilolonga ibe ama-flashcard ngo-2026](/blog/how-to-turn-practice-questions-into-flashcards/) ichaza kabanzi izikhala olwazini lwamaqiniso, umehluko, ukulandelana namakhadi akusiza ubone izindlela eziphindaphindayo zokudukisa. [Ama-flashcard uma eqhathaniswa nezivivinyo zokuzilolonga ngo-2026](/blog/flashcards-vs-practice-tests/) ichaza ukuthi kungani ukubuyekeza ikhadi nokuphendula umbuzo omusha olandelayo kufanele kuhlale kuyizinyathelo ezihlukene.
+[Ama-flashcard uma eqhathaniswa nezivivinyo zokuzilolonga ngo-2026](/blog/flashcards-vs-practice-tests/) ichaza ukuthi kungani ukubuyekeza ikhadi nokuphendula umbuzo omusha olandelayo kufanele kuhlale kuyizinyathelo ezihlukene.
 
 ## Hlola iqoqo elidala le-TOEFL ngaphambi kokulibuyekeza
 
@@ -180,8 +180,6 @@ Bese uhlukanisa imiphumela ngamaqembu amathathu:
 3. **Susa noma ugcine endaweni yezinto ezingasasetshenziswa:** imiyalelo yemisebenzi, izikhathi, ukunikezwa kwamaphuzu namathempulethi achaza kuphela isakhiwo sangaphambi komhla zingama-21 kuJanuwari 2026.
 
 Okulandelayo, qhathanisa amathegi emisebenzi asele namagama emisebenzi yamanje engu-12 ye-ETS. Nikeza ikhadi ngalinye eliphathelene nesakhiwo sesivivinyo umthombo wamanje osemthethweni we-ETS. Ungafaka futhi ithegi ethi `verified-2026` nosuku owalihlola ngalo njengemininingwane eyengeziwe. Izinsuku zibalulekile lapha ngoba i-ETS ingasibuyekeza isivivinyo. Isilulumagama esingaguquki asidingi ukuphathwa ngendlela efanayo.
-
-Uma iqoqo likhulu, [Indlela yokunciphisa iqoqo lama-flashcard ngo-2026](/blog/how-to-prune-a-flashcard-deck/) inikeza inqubo esebenzisekayo yokususa nokubhala kabusha.
 
 ## Sebenzisa i-spaced repetition ukuze ukhumbule, hhayi ukulingisa isivivinyo
 
