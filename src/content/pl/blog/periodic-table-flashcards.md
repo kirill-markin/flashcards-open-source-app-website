@@ -244,7 +244,7 @@ Zacznij od sprawdzenia, co już umiesz — wystarczy nawet pięciominutowy test.
 6. **Odtwarzaj układ poza talią.** Uzupełniaj pustą tabelę i wypowiadaj na głos punkty orientacyjne dla grup i okresów. Pojedyncze fiszki same nie nauczą rozmieszczenia pierwiastków.
 7. **Wracaj do chemii.** Odczytuj wzory, wyjaśniaj zmiany właściwości, zapisuj konfiguracje elektronowe i rozwiązuj nowe zadania. Każdy powracający błąd może stać się podstawą jednej małej fiszki.
 
-Rozszerzając zestaw, utrzymuj rozsądną liczbę codziennych powtórek. Poradnik [Ile nowych fiszek dziennie?](/blog/how-many-new-flashcards-per-day/) (po angielsku) wyjaśnia, jak dobierać liczbę nowych kart do obciążenia zaplanowanymi powtórkami, zamiast kierować się samą ambicją.
+Rozszerzając zestaw, utrzymuj rozsądną liczbę codziennych powtórek. Dobieraj liczbę nowych kart do obciążenia zaplanowanymi powtórkami.
 
 ## Gotowe talie do trzech różnych zadań
 

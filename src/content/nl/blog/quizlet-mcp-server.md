@@ -101,7 +101,7 @@ Een openbare specificatie neemt een deel van het giswerk rond integraties weg, m
 
 Nibomo scheidt leesbewerkingen van de schrijftools: `sql_execute` voor kaarten en kaartensets, `submit_review` voor herhalingen. De OAuth-toegangsgegevens gelden nog steeds voor de volledige connector, dus het blokkeren van tools en de manier waarop goedkeuring werkt, hangen af van de client. Begin met een kleine werkruimte zonder gevoelige gegevens. Laat de agent alleen de gegevens lezen die nodig zijn voor de taak, vereis voor elke schrijfaanroep afzonderlijk goedkeuring als de client dat ondersteunt en bekijk de werkruimte en de voorgestelde wijziging voordat je die accepteert.
 
-Verbind geen privéleermateriaal voordat je de voorwaarden van de AI-client voor gegevensbewaring en gegevensverwerking hebt gecontroleerd. Het uitgebreide dreigingsmodel staat in [Is MCP veilig voor flashcards?](/blog/is-mcp-safe-for-flashcards/). Voor een eerste overdracht volstaat een eenvoudige regel: bewaar de oorspronkelijke export, bekijk een paar kaarten, keur een beperkte schrijfactie goed en controleer het resultaat in de doelapp voordat je verdergaat.
+Verbind geen privéleermateriaal voordat je de voorwaarden van de AI-client voor gegevensbewaring en gegevensverwerking hebt gecontroleerd. Voor een eerste overdracht volstaat een eenvoudige regel: bewaar de oorspronkelijke export, bekijk een paar kaarten, keur een beperkte schrijfactie goed en controleer het resultaat in de doelapp voordat je verdergaat.
 
 ## Maak van privébrowserverkeer geen API
 

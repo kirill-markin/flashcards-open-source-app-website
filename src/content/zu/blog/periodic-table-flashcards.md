@@ -244,7 +244,7 @@ Qala ngobufakazi, ngisho noma kuyisivivinyo semizuzu emihlanu kuphela.
 6. **Zijwayeze ukwakheka kwethebula ngaphandle kwedekhi.** Gcwalisa ithebula elingenalutho bese usho ngokuzwakalayo izindawo ezikusiza ukhumbule amaqembu noma izinkathi. Amakhadi ahlukene awafundisi ukuhleleka kwezindawo ngokwawo.
 7. **Buyela emsebenzini wamakhemikhali.** Funda amafomula, chaza ukuthambekela, bhala ukuhleleka kwama-electron, uxazulule nemibuzo ongayijwayele. Iphutha ngalinye eliphindekayo lingakhiqiza ikhadi elincane lokulilungisa.
 
-Gcina inani lokubuyekeza nsuku zonke lilingana namandla akho njengoba wandisa iqoqo. [Mangaki ama-flashcard amasha ngosuku?](/blog/how-many-new-flashcards-per-day/) ichaza ukuthi ungalisebenzisa kanjani inani lamakhadi okumele uwabuyekeze ukuze unqume ukuthi mangaki amasha ongawafaka, kunokuncika ekulangazeleleni kuphela.
+Gcina inani lokubuyekeza nsuku zonke lilingana namandla akho njengoba wandisa iqoqo. Sebenzisa inani lamakhadi okumele uwabuyekeze ukuze unqume ukuthi mangaki amasha ongawafaka.
 
 ## Amadekhi aselungile emisebenzi emithathu ehlukene
 

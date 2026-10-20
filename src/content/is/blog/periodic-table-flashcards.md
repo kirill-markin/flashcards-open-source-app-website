@@ -244,7 +244,7 @@ Byrjaðu á því að kanna stöðuna, jafnvel þótt það sé aðeins með fim
 6. **Æfðu uppsetninguna utan stokksins.** Fylltu út autt lotukerfi og segðu upphátt hvaða frumefni þú notar sem viðmið fyrir flokka eða lotur. Stök kort kenna þér ekki ein og sér hvar frumefnin eru í töflunni.
 7. **Farðu aftur í efnafræðina.** Lestu formúlur, útskýrðu reglubundna breytingu á eiginleika, skrifaðu rafeindaskipan og leystu ókunn verkefni. Úr hverri endurtekinni villu má gera eitt lítið leiðréttingarkort.
 
-Hafðu daglegt upprifjunarmagn viðráðanlegt á meðan þú stækkar safnið. [Hversu mörg ný spjaldkort á dag?](/blog/how-many-new-flashcards-per-day/) útskýrir hvernig fjöldi korta sem bíða upprifjunar á að ráða því hversu mörgum nýjum kortum þú bætir við, fremur en metnaður einn.
+Hafðu daglegt upprifjunarmagn viðráðanlegt á meðan þú stækkar safnið. Láttu fjölda korta sem bíða upprifjunar ráða því hversu mörgum nýjum kortum þú bætir við.
 
 ## Tilbúnir stokkar fyrir þrjú ólík verkefni
 

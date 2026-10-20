@@ -101,7 +101,7 @@ Jaribu hali tatu kabla ya kubadilisha mipangilio unayotumia:
 2. Lengo la kukumbuka unalofikiria kuweka.
 3. Lengo hilo hilo pamoja na kadi mpya chache zaidi kwa siku.
 
-Jaribio la tatu linachunguza njia nyingine inayofaa mara nyingi: baki na lengo la kukumbuka na punguza kasi ya kuongeza maudhui mapya. Ikiwa hilo linatoa makadirio unayoweza kuyamudu, huna haja ya kukubali kusahau zaidi ili kupunguza foleni tu. Mwongozo wa kina kuhusu kuongeza kadi ni [Kadi mpya ngapi za kujifunzia kwa siku?](/blog/how-many-new-flashcards-per-day/).
+Jaribio la tatu linachunguza njia nyingine inayofaa mara nyingi: baki na lengo la kukumbuka na punguza kasi ya kuongeza maudhui mapya. Ikiwa hilo linatoa makadirio unayoweza kuyamudu, huna haja ya kukubali kusahau zaidi ili kupunguza foleni tu.
 
 Zana zote mbili hutoa makadirio. Kukosa siku za marudio, kuhariri kadi, maudhui mapya na kubadilisha tabia ya kujitathmini kunaweza kufanya mzigo halisi utofautiane na grafu. Tumia ulinganisho kuchagua mwelekeo, si kuahidi idadi kamili ya kadi kwenye foleni miezi kadhaa ijayo.
 

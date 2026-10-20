@@ -221,7 +221,7 @@ keywords:
 
 > [الاتصال بـ Claude](https://claude.ai/directory/nibomo) · [التوثيق](/docs/mcp-connector/)
 
-إذا كنت تستخدم Nibomo، فاربط Claude به عبر MCP، وهو الاتصال بين المساعد وNibomo. يمكنك بعدها أن تطلب من Claude حفظ البطاقات التي راجعتها ووافقت عليها. يشرح [دليل موصل Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) خطوات الإعداد، ويغطي [مرجع موصل MCP](/docs/mcp-connector/) ربط المساعدات الأخرى المتوافقة.
+إذا كنت تستخدم Nibomo، فاربط Claude به عبر MCP، وهو الاتصال بين المساعد وNibomo. يمكنك بعدها أن تطلب من Claude حفظ البطاقات التي راجعتها ووافقت عليها. يغطي [مرجع موصل MCP](/docs/mcp-connector/) الإعداد وربط المساعدات المتوافقة.
 
 عندما يحين موعد مراجعة البطاقات، يمكنك مراجعتها في [تطبيق Nibomo](https://app.nibomo.com/) أو في محادثة مع Claude أو Codex بعد ربطه بـ Nibomo عبر MCP. في التطبيق، حاول تذكّر الإجابة، ثم اكشفها وقيّم مدى سهولة تذكّرها.
 

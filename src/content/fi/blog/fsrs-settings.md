@@ -101,7 +101,7 @@ Aja kolme skenaariota ennen käytössä olevien asetusten muuttamista:
 2. Harkitsemasi muistamistavoite.
 3. Sama tavoite mutta vähemmän uusia kortteja päivässä.
 
-Kolmannella ajolla kokeilet tavallista vaihtoehtoa: säilytä muistamistavoite ja hidasta uuden aineiston lisäämistä. Jos ennustettu työmäärä on näin hallittavissa, sinun ei tarvitse hyväksyä suurempaa unohtamista vain jonon keventämiseksi. Aihetta käsittelee tarkemmin opas [Kuinka monta uutta opiskelukorttia päivässä?](/blog/how-many-new-flashcards-per-day/).
+Kolmannella ajolla kokeilet tavallista vaihtoehtoa: säilytä muistamistavoite ja hidasta uuden aineiston lisäämistä. Jos ennustettu työmäärä on näin hallittavissa, sinun ei tarvitse hyväksyä suurempaa unohtamista vain jonon keventämiseksi.
 
 Molemmat työkalut tuottavat arvioita. Väliin jääneet päivät, muokatut kortit, uusi aineisto ja muuttuvat arviointitavat voivat saada todellisen työmäärän poikkeamaan kuvaajasta. Valitse vertailun avulla suunta; älä pidä sitä lupauksena täsmällisestä jonosta kuukausien päähän.
 

@@ -244,7 +244,7 @@ Začnite s preverjanjem znanja, tudi če gre le za petminutni preizkus.
 6. **Razporeditev vadite zunaj zbirke.** Izpolnite prazen periodni sistem in na glas povejte oporne točke za skupine oziroma periode. Posamezne kartice vas same po sebi ne naučijo prostorske razporeditve.
 7. **Vrnite se h kemiji.** Berite formule, razložite trend, zapišite elektronsko konfiguracijo in rešujte nove naloge. Iz vsake ponavljajoče se napake lahko nastane majhna kartica za njeno odpravljanje.
 
-Med širjenjem nabora naj dnevno število ponovitev ostane izvedljivo. Članek [Koliko novih učnih kartic na dan?](/blog/how-many-new-flashcards-per-day/) v angleščini pojasnjuje, kako količino novih kartic prilagoditi številu zapadlih ponovitev, ne ambicijam.
+Med širjenjem nabora naj dnevno število ponovitev ostane izvedljivo. Količino novih kartic prilagodite številu zapadlih ponovitev.
 
 ## Pripravljene zbirke za tri različne naloge
 

@@ -244,7 +244,7 @@ Pornește de la ce poți verifica, chiar dacă este doar un autotest de cinci mi
 6. **Exersează separat dispunerea elementelor în tabel.** Completează un tabel gol și spune cu voce tare reperele de grupă sau perioadă. Fișele izolate nu te învață singure dispunerea spațială.
 7. **Revino la chimie.** Citește formule, explică o tendință, scrie o configurație electronică și rezolvă probleme noi. Din fiecare greșeală repetată poți crea o mică fișă de corectare.
 
-Pe măsură ce extinzi setul, păstrează un volum zilnic realist. [Câte fișe noi pe zi?](/blog/how-many-new-flashcards-per-day/) (în engleză) explică cum să stabilești câte fișe adaugi în funcție de recapitulările scadente, nu doar de ambiție.
+Pe măsură ce extinzi setul, păstrează un volum zilnic realist. Stabilește câte fișe adaugi în funcție de recapitulările scadente.
 
 ## Seturi gata făcute pentru trei obiective diferite
 

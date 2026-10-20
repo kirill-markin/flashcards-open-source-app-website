@@ -244,7 +244,7 @@ Anza na ushahidi, hata kama ni jaribio binafsi la dakika tano tu.
 6. **Jenga upya mpangilio nje ya seti ya kadi.** Jaza jedwali tupu na sema kwa sauti elementi zinazokusaidia kukumbuka makundi au vipindi. Kadi za kila taarifa peke yake hazifundishi mpangilio wa nafasi.
 7. **Rudi kwenye kemia.** Soma fomula, eleza mwelekeo wa sifa, andika muundo wa elektroni na tatua maswali usiyoyazoea. Kila kosa linalojirudia linaweza kutokeza kadi moja ndogo ya kulirekebisha.
 
-Unapoongeza elementi, hakikisha idadi ya mapitio ya kila siku inabaki ndani ya uwezo wako. [Kadi mpya ngapi za kujifunzia kwa siku?](/blog/how-many-new-flashcards-per-day/) inaeleza jinsi ya kupanga idadi ya kadi mpya kulingana na mapitio yaliyofika muda wake, badala ya kutegemea hamasa pekee.
+Unapoongeza elementi, hakikisha idadi ya mapitio ya kila siku inabaki ndani ya uwezo wako. Panga idadi ya kadi mpya kulingana na mapitio yaliyofika muda wake.
 
 ## Seti zilizotayarishwa kwa kazi tatu tofauti
 

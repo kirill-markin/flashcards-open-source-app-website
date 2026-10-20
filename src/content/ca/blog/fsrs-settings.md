@@ -101,7 +101,7 @@ Simula tres escenaris abans de canviar la configuració real:
 2. L'objectiu de retenció que estàs considerant.
 3. El mateix objectiu amb menys targetes noves al dia.
 
-El tercer escenari prova una alternativa habitual: mantenir l'objectiu de record i frenar l'entrada de material nou. Si això dona una previsió assumible, no cal que acceptis oblidar més coses només per alleugerir la cua. La guia [Quantes targetes noves al dia?](/blog/how-many-new-flashcards-per-day/) aprofundeix en aquest ritme d'incorporació.
+El tercer escenari prova una alternativa habitual: mantenir l'objectiu de record i frenar l'entrada de material nou. Si això dona una previsió assumible, no cal que acceptis oblidar més coses només per alleugerir la cua.
 
 Totes dues eines fan estimacions. Els dies sense repassar, les targetes editades, el material nou i els canvis en els hàbits de valoració poden fer que la càrrega real s'allunyi del gràfic. Fes servir la comparació per triar una direcció, no per prometre una cua exacta d'aquí a uns mesos.
 
