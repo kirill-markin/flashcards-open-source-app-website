@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-make-better-flashcards.md"
 title: "2026年、より良いフラッシュカードの作り方: FSRSで機能する表裏カードのルール"
 description: "2026年に役立つフラッシュカードの作り方をまとめた実践ガイドです。表面は明確に、裏面は短くし、あいまいなAI生成カードを避けて、FSRSと相性の良いデッキを作る方法を解説します。"
 date: "2026-04-02"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-use-flashcards-for-the-hesi-a2.md"
 title: "2026年版 HESI A2向けフラッシュカード活用法: 学校別の学習フロー"
 description: "2026年のHESI A2対策では、志望校が採点するセクションだけに合わせて、数学、読解、語彙、文法、解剖生理学、生物、模試の取りこぼし用カードを組むのが近道です。学校で使わない分野まで勉強しない進め方を整理します。"
 date: "2026-06-04"

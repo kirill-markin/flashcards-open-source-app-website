@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-use-flashcards-for-the-nextgen-bar-exam.md"
 title: "2026年版 NextGen Bar Exam向けフラッシュカードの使い方: ルール、論点発見、パフォーマンスタスクをしっかり定着させる"
 description: "2026年にNextGen Bar Examを受ける人へ。ブラックレター・ルール、論点発見、パフォーマンスタスク、FSRSを、デッキを第二のアウトラインにせず運用する実践的な方法を解説します。"
 date: "2026-04-24"

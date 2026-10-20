@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1en~1blog~1how-to-use-flashcards-for-cfa-level-1.md"
 title: "How to Use Flashcards for CFA Level I in 2026: Formulas, Ethics, and Mock Mistakes That Stick"
 description: "Preparing for CFA Level I in 2026? Use this practical flashcards workflow for formulas, ethics, financial statement analysis, topic weights, mock mistakes, and FSRS review."
 date: "2026-04-23"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-use-flashcards-for-the-nclex.md"
 title: "2026年版 NCLEX向けフラッシュカード活用法: NGNケーススタディ、CAT戦略、本当に定着する臨床判断"
 description: "2026年に NCLEX を受験するなら、NGNケーススタディ、CAT形式での取りこぼし、部分点の推論、試験直前期の復習に合わせた実践的なフラッシュカード運用が重要です。デッキを第二の参考書にしないための進め方をまとめました。"
 date: "2026-05-04"

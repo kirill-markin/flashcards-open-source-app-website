@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-use-flashcards-for-anatomy.md"
 title: "2026年版 解剖学のためのフラッシュカード活用法: 実習試験、ラベル問題、定着する間隔反復"
 description: "2026年に解剖学を実践的に学ぶためのフラッシュカード運用です。実習試験、ピン問題、ラベル付き構造、画像中心の復習を、AIで整えつつ FSRS で回す方法をまとめました。"
 date: "2026-05-17"

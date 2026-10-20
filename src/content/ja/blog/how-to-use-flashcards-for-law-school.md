@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-use-flashcards-for-law-school.md"
 title: "2026年版 ロースクールでのフラッシュカード活用法: 判例・ルール・論点発見をしっかり定着させる"
 description: "ロースクールでフラッシュカードを実践的に使うには、判例、授業ノート、アウトライン、演習問題をAIの下書きとFSRSでどう扱うかが重要です。デッキを第二のアウトラインにしないための進め方をまとめました。"
 date: "2026-04-16"

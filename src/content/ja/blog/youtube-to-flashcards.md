@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1youtube-to-flashcards.md"
 title: "2026年版｜YouTube動画からフラッシュカードを作れる4ツールを比較"
 description: "YouTube動画からフラッシュカードを作る4つの公式ルートを2026年版で比較。生成物、文字起こしと映像の限界、復習機能、エクスポート方法、データを持ち出せる手動ワークフローまで解説します。"
 date: "2026-03-24"

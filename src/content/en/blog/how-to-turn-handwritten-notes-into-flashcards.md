@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1en~1blog~1how-to-turn-handwritten-notes-into-flashcards.md"
 title: "How to Turn Handwritten Notes Into Flashcards in 2026: Photos, OCR, and AI Drafting Without Rewriting Everything"
 description: "Want to turn handwritten notes into flashcards in 2026? Here is a practical workflow: upload note photos, let AI clean the text and draft cards, then study the final set with FSRS."
 date: "2026-03-27"

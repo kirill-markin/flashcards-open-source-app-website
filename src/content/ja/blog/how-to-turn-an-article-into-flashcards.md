@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-turn-an-article-into-flashcards.md"
 title: "2026年版 記事をフラッシュカード化する方法: 役立つ知識だけ残して、ハイライトの墓場を作らない"
 description: "2026年に記事をフラッシュカード化したい人向けに、ブログ記事、ニュースレター、ドキュメント、長文コンテンツを、AIの下書きとFSRS復習で小さく実用的なデッキに変える現実的な手順を紹介します。"
 date: "2026-04-09"

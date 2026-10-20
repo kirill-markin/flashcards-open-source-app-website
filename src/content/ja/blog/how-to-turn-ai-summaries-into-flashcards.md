@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-turn-ai-summaries-into-flashcards.md"
 title: "2026年版 AI要約をフラッシュカード化する方法: 主張を残し、記憶を試す"
 description: "ChatGPT、Gemini、NotebookLM などの AI 要約ツールを使っていますか。2026年時点で実用的なのは、整った近道を暗記するのではなく、要約を検証済みの FSRS フラッシュカードに変える流れです。"
 date: "2026-07-11"

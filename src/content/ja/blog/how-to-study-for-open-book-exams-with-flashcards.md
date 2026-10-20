@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-study-for-open-book-exams-with-flashcards.md"
 title: "2026年版 フラッシュカードでオープンブック試験を勉強する方法: 本全部ではなく地図を覚える"
 description: "2026年にオープンブック試験やオープンノート試験を控えていますか。フラッシュカードでトリガー、公式、資料の位置関係、応用パターンを押さえれば、本番中にノートを探し回って時間を失う状態から抜け出せます。"
 date: "2026-07-05"

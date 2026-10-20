@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-use-ai-to-study.md"
 title: "2026年にAIで勉強する方法: AI家庭教師は使い、定着するフラッシュカードだけを残す"
 description: "2026年の実践的なAI勉強法。AI家庭教師や要約で理解を早めつつ、本当に弱かった部分だけをフラッシュカードに変え、FSRSで翌週にも残る学習フローへつなげます。"
 date: "2026-05-09"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1when-to-make-flashcards.md"
 title: "2026年にフラッシュカードを作るタイミング: 内容が腑に落ちた後、細部がぼやける前"
 description: "2026年にフラッシュカードを作るなら、基準はかなりシンプルです。まず内容を理解し、その日のうちに小さな単位だけをカード化して、復習はFSRSに任せます。"
 image: "/blog/when-to-make-flashcards.png"

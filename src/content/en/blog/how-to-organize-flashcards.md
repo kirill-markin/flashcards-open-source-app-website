@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1en~1blog~1how-to-organize-flashcards.md"
 title: "How to Organize Flashcards in 2026: Decks, Tags, and Filtered Review Without Making Studying Harder"
 description: "Need to organize flashcards in 2026? Here is a practical system for decks, tags, filtered review, and FSRS so your library stays usable without turning into a folder obsession."
 date: "2026-04-13"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1toefl-flashcards.md"
 title: "2026年版 TOEFL単語カード: 新iBTの語彙・12タスク・公式演習のミスを復習"
 description: "2026年の新TOEFL iBT向けフラッシュカードの作り方。古いデッキに頼らず、語彙、英文パターン、現行12タスク、ETS公式演習で確認したミスをFSRSで復習します。"
 date: "2026-07-16"

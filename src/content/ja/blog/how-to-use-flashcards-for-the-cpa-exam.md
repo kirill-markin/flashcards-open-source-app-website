@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-use-flashcards-for-the-cpa-exam.md"
 title: "2026年版 CPA試験向けフラッシュカードの使い方: FAR、AUD、REG、そして本当に定着するDiscipline科目"
 description: "2026年にCPA試験を受ける人へ。FARの公式、AUDのアサーション、REGのルール、Discipline科目、task-based simulationでのミスを、AI下書きとFSRS復習で扱う実践的なフラッシュカード運用を解説します。"
 date: "2026-04-28"

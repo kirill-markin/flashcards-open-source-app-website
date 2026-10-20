@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1en~1blog~1how-to-turn-a-pdf-into-flashcards.md"
 title: "How to Turn a PDF Into Flashcards in 2026: Lecture Slides, Textbooks, and Research Papers to FSRS Cards"
 description: "Want to turn a PDF into flashcards without rewriting your notes by hand? Here is a practical 2026 workflow: upload lecture slides, textbook pages, or research papers, draft clean cards with AI, then review them with FSRS."
 date: "2026-03-23"

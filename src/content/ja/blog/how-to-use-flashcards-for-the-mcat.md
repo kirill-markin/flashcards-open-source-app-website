@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-use-flashcards-for-the-mcat.md"
 title: "2026年版 MCAT向けフラッシュカードの使い方: アミノ酸・公式・演習ミスを本当に定着させる"
 description: "2026年にMCAT向けフラッシュカードを実践的に使いたい人へ。アミノ酸、化学・物理の公式、Psych/Soc用語、演習ミスをFSRSで復習する現実的な進め方を解説します。"
 date: "2026-04-22"

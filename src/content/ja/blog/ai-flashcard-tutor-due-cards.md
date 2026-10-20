@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1ai-flashcard-tutor-due-cards.md"
 title: "2026年版 AIフラッシュカードチューター: MCPで復習対象カードを出題し、評価をFSRSの復習として保存"
 description: "Claude、ChatGPT、CodexをMCPでNibomoに接続すると、AIチューターが復習対象カードを出題し、答えを1問ずつ採点して、その評価をFSRSの復習として保存します。"
 date: "2026-07-15"

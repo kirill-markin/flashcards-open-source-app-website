@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-turn-powerpoint-into-flashcards.md"
 title: "2026年版 PowerPointをフラッシュカード化する方法: PPT・PPTX・Google Slidesを1枚ずつ打ち直さない"
 description: "2026年にPowerPointやGoogle Slidesをフラッシュカード化したい人向けに、スライドとspeaker notesから使える情報を抜き出し、AIで曖昧な箇条書きを整え、FSRSで復習する現実的な手順を紹介します。"
 date: "2026-05-24"

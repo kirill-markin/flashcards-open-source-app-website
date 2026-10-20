@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-use-flashcards-for-the-lsat.md"
 title: "2026年版 LSATフラッシュカードの使い方: Logical Reasoning・Reading Comprehension・誤答パターンをしっかり定着させる"
 description: "2026年のLSAT対策向けに、Logical Reasoning、Reading Comprehension、conditional logic、誤答パターンをAI下書きとFSRSで回す実践的なフラッシュカード運用を解説します。"
 image: "/blog/how-to-use-flashcards-for-the-lsat.png"

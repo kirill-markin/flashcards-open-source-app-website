@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-turn-obsidian-notes-into-flashcards.md"
 title: "2026年版 Obsidianノートをフラッシュカード化する方法: Markdown VaultからFSRSカードへ、手作業のコピペなしで"
 description: "2026年にObsidianノートをフラッシュカード化したい人向けの記事です。Vaultから整ったMarkdownをコピーまたは書き出しし、AIでカード案を作り、すべてを手で作り直さずにFSRSで復習する流れを紹介します。"
 date: "2026-04-25"

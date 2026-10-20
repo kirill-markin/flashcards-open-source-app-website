@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1en~1blog~1how-to-turn-practice-questions-into-flashcards.md"
 title: "How to Turn Practice Questions Into Flashcards in 2026: Build an FSRS Deck From What You Missed"
 description: "Want to turn practice questions into flashcards in 2026? Here is a practical workflow for mock exams, past papers, quiz screenshots, and wrong answers using AI drafting plus FSRS review."
 date: "2026-04-11"

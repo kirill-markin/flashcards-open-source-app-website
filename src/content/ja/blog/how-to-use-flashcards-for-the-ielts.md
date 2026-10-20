@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-use-flashcards-for-the-ielts.md"
 title: "2026年版 IELTS対策にフラッシュカードを使う方法: 語彙・スピーキング・ライティング・リスニングに効くカード"
 description: "2026年のIELTS対策に向けて、文脈つき語彙、Speaking のキューカード、Writing の型、Listening の言い換え、公式演習での取りこぼしを、AI の下書きと FSRS 復習で回す実践的なフラッシュカード運用を解説します。"
 date: "2026-07-06"

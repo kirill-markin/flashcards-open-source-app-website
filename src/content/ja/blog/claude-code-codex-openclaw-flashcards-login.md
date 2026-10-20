@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1claude-code-codex-openclaw-flashcards-login.md"
 title: "Claude Code、Codex、OpenClaw から Nibomo にログインする方法"
 description: "Nibomo は、1 つのディスカバリー URL とメール OTP、長期利用できる API キーを組み合わせた、オープンソースのエージェント向けログインフローを公開しています。エージェントには URL を 1 つ渡し、メールで届く最新の 8 桁コードを返すだけで、アカウント情報の読み込みからワークスペースの準備まで進められます。"
 date: "2026-03-10"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-use-the-feynman-technique-with-flashcards.md"
 title: "2026年版 フラッシュカードで実践するファインマン・テクニック: やさしく説明して、定着はFSRSに任せる"
 description: "2026年にファインマン・テクニックをフラッシュカードで使うなら、説明の弱点だけを小さなカードに変え、その後の復習はFSRSに任せる流れが実用的です。"
 date: "2026-06-20"

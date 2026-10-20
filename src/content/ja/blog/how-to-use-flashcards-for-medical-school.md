@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-use-flashcards-for-medical-school.md"
 title: "2026年版 医学生のためのフラッシュカード活用法: 解剖学・薬理学・病理学・定着する間隔反復"
 description: "2026年に医学生向けフラッシュカードを実践的に使いたいなら、解剖学、薬理学、病理学、講義スライド、問題演習、FSRSをどう扱うかが重要です。デッキを第二のカリキュラムにしないための進め方をまとめました。"
 date: "2026-04-15"

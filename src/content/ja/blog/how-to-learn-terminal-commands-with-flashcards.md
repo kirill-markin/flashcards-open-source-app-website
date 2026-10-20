@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-learn-terminal-commands-with-flashcards.md"
 title: "2026年版 フラッシュカードでターミナルコマンドを覚える方法: Bash、Git、CLIの操作を定着させる"
 description: "2026年にターミナルコマンドを覚えるための実践ガイドです。Bash のヘルプ、Git のドキュメント、CLI で繰り返すミス、小さな FSRS デッキを使って、本当に使うコマンドだけを定着させます。"
 date: "2026-06-07"

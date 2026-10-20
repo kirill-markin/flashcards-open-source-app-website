@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-use-flashcards-for-comlex-level-1.md"
 title: "2026年版 COMLEX Level 1のためのフラッシュカード活用法: OMM、COMSAEの取りこぼし、専念期でも定着する復習"
 description: "2026年の COMLEX Level 1 対策に向けた実践的なフラッシュカード運用ガイド。OMM、COMSAEの弱点、解剖学、薬理学、TrueLearnの誤答を、AI下書きとFSRS復習でどう整理するかを解説します。"
 date: "2026-05-31"

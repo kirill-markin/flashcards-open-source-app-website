@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1en~1blog~1how-to-study-a-premade-anki-deck.md"
 title: "How to Study a Premade Anki Deck in 2026: What to Keep, What to Rewrite, and What to Learn First"
 description: "Using a premade Anki deck or shared flashcards? Here is how to study imported cards in 2026 without inheriting bad review habits, weak cards, or topics you never actually learned."
 date: "2026-07-03"

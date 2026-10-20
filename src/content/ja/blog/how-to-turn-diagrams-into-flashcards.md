@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-turn-diagrams-into-flashcards.md"
 title: "2026年版: 図解をフラッシュカードに変える方法 図表・地図・ラベル付き画像を復習できるカードにする"
 description: "2026年に図解をフラッシュカードにしたい人向けの実践的な手順です。解剖図、図表、地図、ラベル付き画像を、AI で整えながら FSRS で復習できるカードに変えます。"
 date: "2026-04-10"

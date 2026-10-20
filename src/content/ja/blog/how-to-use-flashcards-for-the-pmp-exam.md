@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-use-flashcards-for-the-pmp-exam.md"
 title: "2026年版 PMP試験向けフラッシュカードの使い方: 状況判断問題、公式、そして本当に定着するミス"
 description: "2026年にPMP試験を受ける人へ。状況判断問題、公式、Business Environment の変更点、演習問題でのミスを、AI 下書きと FSRS 復習を組み合わせて扱う実践的なフラッシュカード運用を紹介します。"
 date: "2026-04-27"

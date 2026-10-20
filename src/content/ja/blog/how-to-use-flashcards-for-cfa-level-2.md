@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-use-flashcards-for-cfa-level-2.md"
 title: "2026年版 CFA Level II向けフラッシュカードの使い方: item set、LOSタグ、模試の取りこぼしを定着させる"
 description: "2026年にCFA Level IIを受験する人向けに、item set対策、LOSタグ、CFA Instituteの演習と模試の復習、式の解釈、FSRSを使った実践的なフラッシュカード運用を解説します。"
 image: "/blog/how-to-use-flashcards-for-cfa-level-2.png"

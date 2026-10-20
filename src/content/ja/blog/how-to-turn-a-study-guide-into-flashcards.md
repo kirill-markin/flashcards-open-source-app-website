@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-turn-a-study-guide-into-flashcards.md"
 title: "2026年版: 勉強ガイドをフラッシュカードに変える方法 AI学習ガイドや授業プリントを FSRS カードにする"
 description: "2026年に勉強ガイドをフラッシュカードにしたい人向けの実践的な手順です。AI学習ガイド、先生の配布プリント、試験対策パケット、復習プリントを、AIで整えながら FSRS で復習できるカードに変えます。"
 date: "2026-04-12"

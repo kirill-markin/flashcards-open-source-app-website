@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-use-flashcards-for-usmle-step-1.md"
 title: "2026年版 USMLE Step 1向けフラッシュカード活用法: 統合システム、問題集の取りこぼし、本当に定着する画像"
 description: "2026年の USMLE Step 1 に向けて、実践的なフラッシュカード運用を知りたい人へ。統合システム、病理画像、薬理学、問題集でのミスを、合否判定方式の試験に合わせて FSRS でどう学ぶかを解説します。"
 date: "2026-05-01"

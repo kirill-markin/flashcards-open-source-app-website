@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1en~1blog~1spaced-repetition-vs-cramming.md"
 title: "Spaced Repetition vs Cramming in 2026: What Works Better for Exams?"
 description: "Spaced repetition beats cramming for long-term retention. Learn when a last-minute review can still help and how to build a realistic exam study plan."
 date: "2026-07-20"

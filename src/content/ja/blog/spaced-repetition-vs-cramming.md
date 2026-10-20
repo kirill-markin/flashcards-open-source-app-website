@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1spaced-repetition-vs-cramming.md"
 title: "2026年、間隔反復と一夜漬けはどちらが試験に効く？"
 description: "長く覚えるなら、一夜漬けより間隔反復が有効です。直前の復習が役立つ場面と、無理のない試験勉強の計画を解説します。"
 date: "2026-07-20"

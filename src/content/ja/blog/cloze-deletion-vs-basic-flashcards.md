@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1cloze-deletion-vs-basic-flashcards.md"
 title: "穴埋めカードと基本フラッシュカードの違い: 文脈が役立つとき、答えが見えてしまうとき"
 description: "穴埋めカードと基本フラッシュカードを比較し、文脈が想起に役立つ場合と答えのヒントになりすぎる場合を見分ける、FSRS向けカードの実践的な使い分けを解説します。"
 date: "2026-07-13"

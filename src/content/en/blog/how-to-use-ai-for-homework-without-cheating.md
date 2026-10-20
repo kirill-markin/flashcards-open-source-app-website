@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1en~1blog~1how-to-use-ai-for-homework-without-cheating.md"
 title: "How to Use AI for Homework Without Cheating in 2026: Learn the Material, Submit Your Own Work, Keep the Misses"
 description: "Using AI for homework in 2026? Use it to understand the assignment, test your reasoning, and save the misses as flashcards later, without outsourcing the work you submit."
 image: "/blog/how-to-use-ai-for-homework-without-cheating.png"

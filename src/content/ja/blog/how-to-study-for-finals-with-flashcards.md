@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-study-for-finals-with-flashcards.md"
 title: "2026年版 期末試験をフラッシュカードで勉強する方法: ノート、スライド、演習ミスを1つのFSRSプランにまとめる"
 description: "期末試験の直前に向けて、講義ノート、スライド、AIでの学習チャット、演習で間違えた問題を、試験日までに現実的に回し切れる表裏フラッシュカードへ整理する実践的な流れを紹介します。"
 image: "/blog/how-to-study-for-finals-with-flashcards.png"

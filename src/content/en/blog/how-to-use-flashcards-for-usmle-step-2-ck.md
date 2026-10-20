@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1en~1blog~1how-to-use-flashcards-for-usmle-step-2-ck.md"
 title: "How to Use Flashcards for USMLE Step 2 CK in 2026: Shelf Misses, Clinical Management, and Vignette Traps That Actually Stick"
 description: "Need a practical USMLE Step 2 CK flashcards workflow for 2026? Here is how to turn question-bank misses, clerkship notes, management algorithms, and shelf-style vignette traps into FSRS review without building a second textbook."
 date: "2026-05-02"

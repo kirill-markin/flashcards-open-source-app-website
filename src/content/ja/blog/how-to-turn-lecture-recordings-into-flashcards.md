@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-turn-lecture-recordings-into-flashcards.md"
 title: "2026年版 講義録音をフラッシュカード化する方法: 全部を聞き直さず、文字起こしからFSRSカードを作る"
 description: "2時間分の講義音声を最初から再生し直さなくても、講義録音はフラッシュカードにできます。2026年の実用的な手順は、録音を文字起こしにし、AIでカードの下書きを作り、曖昧なカードをすばやく削り、残ったデッキをFSRSで学習することです。"
 date: "2026-03-26"

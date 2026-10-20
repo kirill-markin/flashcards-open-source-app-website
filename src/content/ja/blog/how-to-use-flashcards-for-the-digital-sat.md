@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-use-flashcards-for-the-digital-sat.md"
 title: "2026年版 デジタルSAT向けフラッシュカードの使い方: 語彙・文法・数学を本当に定着させる方法"
 description: "デジタルSATの語彙、文法ルール、数学公式、Bluebookのミスを、AIで下書きしつつFSRSで復習する実践的なフラッシュカード運用を紹介します。"
 date: "2026-04-18"

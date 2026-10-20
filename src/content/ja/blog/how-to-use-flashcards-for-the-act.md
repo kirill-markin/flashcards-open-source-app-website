@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-use-flashcards-for-the-act.md"
 title: "2026年版 ACT向けフラッシュカードの使い方: English・Math・Reading・Scienceに効く、より良いデッキ設計"
 description: "2026年のEnhanced ACTに向けて、Englishの文法トリガー、Mathの立式と罠、Readingの誤答パターン、Scienceのグラフ読解、公式演習でのミスを、AI下書きとFSRS復習で回す実践的なフラッシュカード運用を解説します。"
 image: "/blog/how-to-use-flashcards-for-the-act.png"

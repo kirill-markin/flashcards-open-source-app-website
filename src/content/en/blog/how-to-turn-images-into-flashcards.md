@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1en~1blog~1how-to-turn-images-into-flashcards.md"
 title: "How to Turn Images Into Flashcards in 2026: Screenshots, Photos, and OCR Without Rewriting Everything"
 description: "Want to turn images into flashcards without retyping everything by hand? Here is a practical 2026 workflow for screenshots, study photos, and OCR cleanup so you can review the final cards with FSRS."
 date: "2026-05-25"

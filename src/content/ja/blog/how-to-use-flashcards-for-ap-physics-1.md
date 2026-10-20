@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-use-flashcards-for-ap-physics-1.md"
 title: "2026年版 AP Physics 1向けフラッシュカード活用法: 力、エネルギー、FRQの失点を定着させる"
 description: "2026年のAP Physics 1対策に向けて、運動学、力、エネルギー、グラフ、FRQの典型的な失点、そしてハイブリッド型デジタル試験への備えを整理する実践的なフラッシュカード活用法をまとめました。"
 image: "/blog/how-to-use-flashcards-for-ap-physics-1.png"

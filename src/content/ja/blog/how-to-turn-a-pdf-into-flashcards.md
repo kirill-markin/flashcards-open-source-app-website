@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-turn-a-pdf-into-flashcards.md"
 title: "2026年版 PDFをフラッシュカード化する方法: 講義スライド・教科書・論文からFSRS向けカードを作る"
 description: "ノートを書き直さずにPDFからフラッシュカードを作りたい人向けに、2026年時点で実用的な手順をまとめました。講義スライド、教科書、論文をアップロードし、AIでカードの下書きを作ってから、FSRSで復習します。"
 date: "2026-03-23"

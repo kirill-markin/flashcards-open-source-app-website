@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-make-a-practice-exam-from-your-notes-with-ai.md"
 title: "2026年にノートからAIで模擬試験を作る方法: 根拠のあるクイズで試し、弱点だけを残す"
 description: "2026年にノートからAIで模擬試験を作るなら、自分のスライド、PDF、勉強ガイドをもとに現実的な小テストを作り、間違えた部分だけをFSRSフラッシュカードに残すのがいちばん実用的です。"
 date: "2026-06-22"

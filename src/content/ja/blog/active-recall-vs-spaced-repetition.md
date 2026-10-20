@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1active-recall-vs-spaced-repetition.md"
 title: "2026年版 アクティブリコールと間隔反復の違い: 今試すこと、あとで復習に回すこと"
 description: "アクティブリコールと間隔反復は二者択一ではありません。アクティブリコールは今まだ取り出せない記憶を見つけ、間隔反復はその弱点をいつFSRSの復習キューに戻すかを決めます。"
 date: "2026-06-21"

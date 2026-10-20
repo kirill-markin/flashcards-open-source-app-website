@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1free-quizlet-alternative.md"
 title: "2026年版：無料のQuizlet代替アプリ5選を比較"
 description: "Anki、Knowt、RemNote、Mochi、Nibomoを、無料のカード学習、同期、オフライン利用、Quizletからの移行、AIの上限、0ドルプランの注意点で比較します。"
 image: "/blog/free-quizlet-alternative-v2.png"

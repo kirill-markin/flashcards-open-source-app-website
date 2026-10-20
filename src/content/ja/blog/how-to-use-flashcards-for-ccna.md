@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-use-flashcards-for-ccna.md"
 title: "2026年版 CCNAにフラッシュカードを使う方法: サブネット計算・showコマンド・トラブルシューティングを確実に覚える"
 description: "2026年にCisco CCNA 200-301を受験する人向けに、サブネット計算、showコマンド、ルーティングとスイッチングのミス対策、最新の公式ブループリント、FSRSを使った実践的なフラッシュカード運用をまとめました。"
 date: "2026-06-01"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-turn-a-syllabus-into-a-study-plan-and-flashcards.md"
 title: "2026年版 シラバスを学習計画とフラッシュカードに変える方法"
 description: "授業のシラバスから、週ごとの学習計画、無理のない復習ルーチン、小さめのFSRSフラッシュカードデッキへ落とし込む、2026年向けの実践的な手順です。"
 image: "/blog/how-to-turn-a-syllabus-into-a-study-plan-and-flashcards.png"

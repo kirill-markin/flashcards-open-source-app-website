@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-use-flashcards-for-cfa-level-1.md"
 title: "2026年版 CFA Level I向けフラッシュカードの使い方: 計算式・倫理・模試のミスを定着させる"
 description: "2026年にCFA Level Iを受ける人へ。計算式、倫理、財務諸表分析、トピック配点、模試のミス、FSRS復習を扱う実践的なフラッシュカード運用を解説します。"
 date: "2026-04-23"

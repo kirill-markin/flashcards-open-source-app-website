@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1is-mcp-safe-for-flashcards.md"
 title: "フラッシュカードでMCPを使っても安全？ 2026年の権限、プライバシー、書き込みアクセス"
 description: "フラッシュカードでMCPを使っても安全なのか。OAuthが守る範囲、AIクライアントが読み書きできる内容、接続前にプライバシーと書き込みリスクを抑える方法を解説します。"
 date: "2026-07-12"

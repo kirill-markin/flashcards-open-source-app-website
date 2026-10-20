@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-study-over-summer-break-with-flashcards.md"
 title: "2026年版 夏休みにフラッシュカードで勉強する方法: 毎日大量に復習しなくても難しい科目を忘れにくくする"
 description: "記憶保持、プレースメントテスト、再試験、履修前提科目の復習に向けた、夏休みの実践的なフラッシュカード学習計画。6月や7月をもう一度学期にしなくても、小さなFSRSデッキを維持する方法を紹介します。"
 image: "/blog/how-to-study-over-summer-break-with-flashcards.png"
