@@ -108,7 +108,7 @@ Die offizielle [Anki-Dokumentation zu FSRS](https://docs.ankiweb.net/deck-option
 
 Wähle die Bewertung danach, wie gut der Abruf geklappt hat, nicht nach dem Intervall über dem Button. Wenn Good die Karte weiter in die Zukunft schickt als erwartet, liegt die Lösung bei den Einstellungen. Änderst du die Bewertung, um ein gewünschtes Datum zu erhalten, veränderst du die Wiederholungshistorie, statt die Einstellung zu korrigieren.
 
-Teilweise richtige Antworten und unklare Karten machen die Entscheidung schwieriger, als die vier Bezeichnungen vermuten lassen. Der ausführliche Leitfaden [Again vs. Hard](/de/blog/again-vs-hard-fsrs-flashcards/) behandelt diese Fälle. Eine verlässliche Kurzregel lautet: Prüfe zuerst, ob der Abruf gescheitert ist, und erst danach, wie viel Mühe er gekostet hat. Verwende Again nach einem gescheiterten Versuch; Hard, Good oder Easy kommen nur nach einem erfolgreichen Versuch infrage.
+Teilweise richtige Antworten und unklare Karten machen die Entscheidung schwieriger, als die vier Bezeichnungen vermuten lassen. Eine verlässliche Kurzregel lautet: Prüfe zuerst, ob der Abruf gescheitert ist, und erst danach, wie viel Mühe er gekostet hat. Verwende Again nach einem gescheiterten Versuch; Hard, Good oder Easy kommen nur nach einem erfolgreichen Versuch infrage.
 
 FSRS übernimmt die Bewertung, die du abgibst. Der Algorithmus beurteilt deine gesprochene oder getippte Antwort nicht selbst.
 
@@ -129,7 +129,7 @@ Der [Abschnitt im Anki-Handbuch zu Desired Retention](https://docs.ankiweb.net/d
 
 Der Optimizer lernt die Desired Retention nicht. Du legst sie passend zu deinem Lernziel fest. Die Parameter beschreiben das Gedächtnismodell; das Retentionsziel sagt dem Scheduler, an welchem Punkt in diesem Modell die nächste Wiederholung stattfinden soll.
 
-Praktische Empfehlungen und die Auswirkungen auf die Arbeitslast findest du im separaten [Leitfaden zu FSRS-Einstellungen](/de/blog/fsrs-settings/).
+Eine höhere gewünschte Behaltensrate kann mehr Wiederholungen bedeuten. Passe das Ziel an die Arbeitslast an, die du dauerhaft bewältigen kannst.
 
 ## Der Optimizer ist optional, und Desired Retention bleibt deine Entscheidung
 
@@ -167,7 +167,7 @@ Der Scheduler kann nicht:
 - eine nicht zu bewältigende Flut neuer Karten von allein handhabbar machen
 - garantieren, dass du fällige Wiederholungen auch erledigst
 
-Angenommen, eine Karte fragt: „Erkläre das Immunsystem.“ Wiederholte Again-Bewertungen können zu mehr Wiederholungen führen. Doch kein Scheduler kann aus dieser weit gefassten Frage eine einzelne, klare Abrufaufgabe machen. Das musst du im Karteneditor lösen. Der [Leitfaden zum Erstellen besserer Flashcards](/de/blog/how-to-make-better-flashcards/) behandelt genau diese Ebene.
+Angenommen, eine Karte fragt: „Erkläre das Immunsystem.“ Wiederholte Again-Bewertungen können zu mehr Wiederholungen führen. Doch kein Scheduler kann aus dieser weit gefassten Frage eine einzelne, klare Abrufaufgabe machen. Das musst du im Karteneditor lösen.
 
 Diese Grenze hilft bei der Diagnose von Lernproblemen. Seltsames langfristiges Timing deutet auf Einstellungen, die Bewertungshistorie oder die Implementierung hin. Wenn du ständig mit der Kartenrückseite haderst, liegt es eher an der Kartenqualität. Eine riesige Warteschlange kann vom Zustrom neuer Karten kommen und nicht vom FSRS-Algorithmus selbst.
 
@@ -211,7 +211,7 @@ Nicht für den Einstieg. FSRS kann Standardparameter verwenden. Wenn deine App e
 
 ### Ist FSRS besser als SM-2?
 
-Die beiden Scheduler verwenden unterschiedliche Scheduling-Modelle. FSRS ergänzt ein explizites Retentionsziel und aktualisiert ein Gedächtnismodell für jede einzelne Karte, statt dieselbe Struktur aus Intervall und Ease Factor zu verwenden. Der gezielte [Vergleich von FSRS und SM-2](/de/blog/fsrs-vs-sm-2/) behandelt die Belege und Kompromisse, ohne sie mit Produktfunktionen zu vermischen.
+Die beiden Scheduler verwenden unterschiedliche Scheduling-Modelle. FSRS ergänzt ein explizites Retentionsziel und aktualisiert ein Gedächtnismodell für jede einzelne Karte, statt dieselbe Struktur aus Intervall und Ease Factor zu verwenden.
 
 ### Welche FSRS-Einstellung sollte ich zuerst verstehen?
 

@@ -140,9 +140,9 @@ Beim Sprachenlernen würde ich Formate wie diese nutzen:
 
 Das passt viel besser, als einen ganzen Dialog im Kleinformat aufzubewahren.
 
-Wenn du die breiteren Regeln für Kartenqualität willst, starte hier:
+Für klare Karten:
 
-- [Wie du 2026 bessere Flashcards machst: Front- und Back-Regeln, die mit FSRS wirklich funktionieren](https://nibomo.com/blog/how-to-make-better-flashcards/)
+- Formuliere pro Karte eine konkrete Frage und eine kurze, überprüfte Antwort.
 
 ## ChatGPT Voice ist besonders gut für aktive Recall-Fehler
 
@@ -171,9 +171,9 @@ Eine Voice-Konversation ist interaktiv. Die Gegenseite reagiert, formuliert um, 
 
 Darum ist **ChatGPT voice language learning** etwas anderes als Vokabeln in dein Handy zu diktieren. Das nützliche Material kommt oft aus der Korrekturschleife, nicht aus deinem ersten Versuch.
 
-Wenn deine Quelle rohe Audionotizen an dich selbst statt interaktiver Konversation sind, passt dieser Guide besser:
+Bei eigenen Audionotizen statt einer interaktiven Konversation:
 
-- [Wie du 2026 Voice Notes in Flashcards verwandelst: Von Audiodiktat zu FSRS-Karten, ohne alles neu zu schreiben](https://nibomo.com/blog/how-to-turn-voice-notes-into-flashcards/)
+- Schreibe aus der Sprachnotiz zunächst einen geprüften Satz und erstelle daraus eine einzelne Abrufaufgabe.
 
 ## Sprachkarten sollten nah an deinen echten Gesprächen bleiben
 
@@ -222,10 +222,10 @@ Eine Formulierung verdient eine Karte, wenn:
 
 Wenn nicht, lass die Formulierung in der Session und dort sterben.
 
-Wenn Review-Last ohnehin dein größeres Problem ist, passen diese Begleitartikel direkt dazu:
+Wenn die Wiederholungslast zu groß wird:
 
-- [Wie viele neue Flashcards pro Tag im Jahr 2026? Baue eine FSRS-Review-Last, die du wirklich fertig bekommst](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
-- [Wie du 2026 bei Flashcards wieder aufholst, nachdem du zurückgefallen bist: Review-Backlog reparieren, ohne das Deck zurückzusetzen](https://nibomo.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
+- Passe die Zahl neuer Karten an die Wiederholungszeit an, die du tatsächlich aufbringen kannst.
+- Reduziere neue Karten und arbeite Rückstände schrittweise ab, ohne das Deck zurückzusetzen.
 
 ## FSRS ist wichtig, weil gesprochene Formulierungen seltsam verfallen
 
@@ -246,9 +246,9 @@ Die Sequenz, der ich vertraue, bleibt:
 3. eine enge Karte daraus machen
 4. FSRS das Timing überlassen
 
-Wenn du die Scheduling-Seite genauer verstehen willst, geht dieser Artikel weiter:
+Bei der Wiederholungsplanung:
 
-- [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://nibomo.com/blog/fsrs-vs-sm-2/)
+- Prüfe bei der Wahl des Schedulers, welche Einstellungen und Wiederholungsverläufe deine App unterstützt.
 
 ## Wo Nibomo passt
 

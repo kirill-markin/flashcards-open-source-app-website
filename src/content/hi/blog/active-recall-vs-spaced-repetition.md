@@ -69,11 +69,11 @@ Point familiarity नहीं है। Point retrieval है।
 
 इसीलिए active recall जब सही चल रहा होता है, तब थोड़ा खीज दिला सकता है। Notes पढ़ना smooth लगता है। Recognition आसान लगता है। दरारें retrieval में दिखती हैं।
 
-अगर आपको इस step के method-specific versions चाहिए, तो ये articles सबसे करीब हैं:
+इस step के लिए ये तरीके आज़माएँ:
 
-- [2026 में AI से Active Recall कैसे करें](/hi/blog/how-to-use-ai-for-active-recall/)
-- [2026 में Flashcards के साथ Blurting Method कैसे इस्तेमाल करें](/hi/blog/how-to-use-the-blurting-method-with-flashcards/)
-- [2026 में Flashcards के साथ Feynman Technique कैसे इस्तेमाल करें](/hi/blog/how-to-use-the-feynman-technique-with-flashcards/)
+- AI से एक सवाल पूछने को कहें और जवाब देखने से पहले खुद उत्तर दें।
+- बिना नोट्स देखे विषय लिखें, फिर स्रोत से मिलाकर छूटी हुई बातें पहचानें।
+- विषय को अपने शब्दों में समझाएँ और जहाँ अटकें, उस कमी पर एक सवाल बनाएँ।
 
 भूगोल का तैयार हिंदी उदाहरण चाहिए, तो [भारत के राष्ट्रीय उद्यान: राज्य, स्थापना वर्ष और प्रमुख वन्यजीव](/catalog/packages/india-national-parks-flashcards-hindi/) देखें। इसके 153 कार्ड पार्क से राज्य या केंद्र शासित प्रदेश, राज्य या केंद्र शासित प्रदेश से उसके सभी मौजूदा पार्क, आठ चुने हुए पार्कों के आधिकारिक अधिसूचना वर्ष और छह पार्कों से जुड़े प्रमुख वन्यजीव याद से निकालने का अभ्यास कराते हैं।
 
@@ -92,7 +92,7 @@ Spaced repetition तब शुरू होता है जब आपको �
 
 यही scheduling problem spaced repetition solve करता है।
 
-एक अच्छा scheduler unstable material को जल्दी वापस लाता है, फिर जैसे-जैसे memory आसान होती जाती है, पीछे हटता जाता है। [Nibomo](/hi/) में यह timing layer FSRS पर चलती है, और deck थोड़ा बड़ा होते ही यह बात मायने रखने लगती है। अगर आपको scheduler की comparison चाहिए, तो [2026 में FSRS बनाम SM-2](/hi/blog/fsrs-vs-sm-2/) इस विषय का ज़्यादा गहराई वाला लेख है।
+एक अच्छा scheduler unstable material को जल्दी वापस लाता है, फिर जैसे-जैसे memory आसान होती जाती है, पीछे हटता जाता है। [Nibomo](/hi/) में यह timing layer FSRS पर चलती है, और deck थोड़ा बड़ा होते ही यह बात मायने रखने लगती है।
 
 इसलिए **spaced repetition** active recall का replacement नहीं है। यह उस material का calendar है जिसने दूसरी review कमाई है।
 
@@ -151,7 +151,7 @@ Misses रखिए। Hesitations रखिए। Repeated confusions रखि
 
 पूरी performance मत रखिए।
 
-अगर आपको tutor या notes से review system तक वाले handoff पर और detail चाहिए, तो [2026 में AI से पढ़ाई कैसे करें](/hi/blog/how-to-use-ai-to-study/) इस article का सबसे करीब companion है।
+Tutor या notes से केवल उन सवालों को review system में सहेजें जिन्हें आगे याद रखना है। हर जवाब को स्रोत से जाँचें।
 
 ## "बाद में review करें" में क्या filter out होना चाहिए
 
@@ -172,11 +172,11 @@ Study session की हर fact future review slot deserve नहीं कर�
 
 अगर material obvious था और obvious ही रहा, तो उसे छोड़ दीजिए।
 
-ये companion guides filtering वाले step में और गहराई से जाती हैं:
+कार्ड चुनते और सुधारते समय:
 
-- [2026 में Flashcard पर क्या जाना चाहिए?](/hi/blog/what-should-go-on-a-flashcard/)
-- [2026 में बेहतर Flashcards कैसे बनाएं](/hi/blog/how-to-make-better-flashcards/)
-- [2026 में AI Flashcards कैसे ठीक करें](/hi/blog/how-to-fix-ai-flashcards/)
+- केवल वही तथ्य चुनें जिन्हें भविष्य में याद करना या लागू करना है।
+- हर कार्ड में एक स्पष्ट सवाल और जाँचने लायक छोटा जवाब रखें।
+- AI के मसौदे को स्रोत से मिलाएँ और धुंधले या बहुत बड़े कार्ड सुधारें।
 
 ## जब आप सिर्फ एक ही चीज़ इस्तेमाल करते हैं, तब क्या टूटता है
 
@@ -240,7 +240,7 @@ Sequence थोड़ा boring है। शायद इसी वजह स�
 - open-source codebase, अगर आप system के अंदर झाँकना चाहते हैं
 - self-hosted path, अगर आप अपना study stack अपने control में रखना चाहते हैं
 
-अगर आपको handoff के बाद के product entry points चाहिए, तो [features page](/hi/features/), [getting started guide](/hi/docs/getting-started/), या [self-hosting guide](/hi/docs/self-hosting/) से शुरू कीजिए। अगर आप यहाँ mainly open-source angle की वजह से आए हैं, तो [Spaced Repetition के लिए Self-Hosted Open Source Flashcards App](/hi/blog/self-hosted-open-source-flashcards-app-for-spaced-repetition/) ज़्यादा सीधा लेख है।
+अगर आपको handoff के बाद के product entry points चाहिए, तो [features page](/hi/features/), [getting started guide](/hi/docs/getting-started/), या [self-hosting guide](/hi/docs/self-hosting/) से शुरू कीजिए।
 
 ## सीधा जवाब
 

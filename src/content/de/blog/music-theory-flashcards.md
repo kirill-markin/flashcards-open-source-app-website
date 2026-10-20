@@ -73,7 +73,7 @@ Vorderseite: Trage A4 in das Notensystem mit Violinschlüssel ein.
 Rückseite: Zweiter Zwischenraum von unten.
 ```
 
-Zeichne die Note vor dem Aufdecken der Rückseite in ein leeres Notensystem oder zeige auf ihre Position. Auf der Rückseite kann neben der Textantwort auch ein überprüftes Notenbild stehen. Wenn du bereits Screenshots oder Seitenbilder hast, zeigt die [Anleitung zum Erstellen von Flashcards aus Bildern](/de/blog/how-to-turn-images-into-flashcards/), wie du sie zuschneidest und prüfst, ohne eine ganze Seite in eine einzige Karte zu packen.
+Zeichne die Note vor dem Aufdecken der Rückseite in ein leeres Notensystem oder zeige auf ihre Position. Auf der Rückseite kann neben der Textantwort auch ein überprüftes Notenbild stehen. Schneide Screenshots oder Seitenbilder auf die relevante Note zu und prüfe sie, statt eine ganze Seite in eine einzige Karte zu packen.
 
 ### Intervall-Flashcards
 
@@ -146,7 +146,7 @@ Nutze bei fälligen FSRS-Wiederholungen `Again`, `Hard`, `Good` und `Easy` einhe
 - Wähle `Good` bei einer vollständigen Antwort in normalem Tempo.
 - Wähle `Easy` bei einer richtigen Antwort, die du fast mühelos abrufen konntest.
 
-Das sind Bewertungen für die Wiederholung, keine festen Zeitschwellen und keine Behauptung, dass alle Lernenden gleich schnell antworten sollten. Ist die Aufgabe selbst mehrdeutig, bearbeite oder lösche die Karte, statt die Mehrdeutigkeit mit einer Bewertung zu entschuldigen. [Active Recall und Spaced Repetition erfüllen unterschiedliche Aufgaben](/de/blog/active-recall-vs-spaced-repetition/): Rufe die Antwort vor dem Aufdecken ab und überlasse dem Wiederholungsverlauf anschließend die Planung des nächsten Termins.
+Das sind Bewertungen für die Wiederholung, keine festen Zeitschwellen und keine Behauptung, dass alle Lernenden gleich schnell antworten sollten. Ist die Aufgabe selbst mehrdeutig, bearbeite oder lösche die Karte, statt die Mehrdeutigkeit mit einer Bewertung zu entschuldigen. Abruf und Wiederholungsplanung haben unterschiedliche Aufgaben: Rufe die Antwort vor dem Aufdecken ab und überlasse dem Wiederholungsverlauf anschließend die Planung des nächsten Termins.
 
 ## Mit einem Korrektur-Deck Musiktheorie lernen
 
@@ -163,7 +163,7 @@ Das nützlichste Deck entsteht aus dem eigentlichen Musikstudium, nicht losgelö
 
 Du könntest zum Beispiel nach jeder Lektion eine kleine Gruppe von Karten erstellen, an Lerntagen die fälligen Karten wiederholen, unter der Woche zwei gemischte schriftliche Einheiten absolvieren und eine längere Einheit für Hören, Musizieren oder Analyse reservieren. Das ist ein Beispielplan, kein wissenschaftlich belegter Schwellenwert. Passe ihn an dein Kurspensum und an die Zeit an, die deine fälligen Wiederholungen tatsächlich beanspruchen.
 
-Wenn neue Karten deine Übungen zu verdrängen beginnen, füge vorerst keine weiteren hinzu. Der Leitfaden [Wie viele neue Flashcards pro Tag?](/de/blog/how-many-new-flashcards-per-day/) erklärt ausführlicher, wie du die Menge anhand der Wiederholungslast anpasst, statt einer vermeintlich universellen Zahl hinterherzulaufen.
+Wenn neue Karten deine Übungen zu verdrängen beginnen, füge vorerst keine weiteren hinzu. Richte die Menge an der tatsächlich bewältigbaren Wiederholungslast aus.
 
 ## Mische ähnliche Kategorien erst, wenn die Grundlagen sitzen
 
@@ -179,7 +179,7 @@ Sinnvolle Kombinationen für Musiktheorie sind:
 
 Bloße Abwechslung ist nicht das Ziel. Mische Kategorien, die ähnlich aussehen, konkurrierenden Regeln folgen oder in echten Analysen gemeinsam vorkommen. Hörübungen und praktisches Musizieren gehören ebenfalls in die Lerneinheit. Eine schriftliche Karte wird jedoch nicht zur Gehörbildung, nur weil daneben eine Hörübung liegt.
 
-Der Leitfaden zum [Interleaving mit Flashcards](/de/blog/how-to-use-interleaving-with-flashcards/) erklärt den Übergang von einzelnen Kategorien zu gemischten Übungen genauer. Nibomo stellt gezielte Vergleichsgruppen nicht automatisch zusammen. Wähle die zusammengehörigen Aufgaben deshalb selbst aus.
+Mische verwandte Kategorien erst, wenn die einzelnen Zuordnungen sitzen. Nibomo stellt gezielte Vergleichsgruppen nicht automatisch zusammen. Wähle die zusammengehörigen Aufgaben deshalb selbst aus.
 
 ## Wie viele Musiktheorie-Flashcards solltest du erstellen?
 
@@ -194,7 +194,7 @@ Mit einigen Regeln hältst du die Zahl im Griff:
 - verwende Tags nach Fähigkeiten, etwa `clef`, `interval`, `key-signature`, `chord`, `roman-numeral` und `rhythm`
 - überprüfe deine Karten, wenn der Kurs seine Konventionen ändert oder ein Thema abschließt
 
-Mit Tags kannst du eine kleine Vergleichsgruppe zusammenstellen, ohne jede winzige Kategorie in ein eigenes Deck auszulagern. Der ausführlichere [Leitfaden für bessere Flashcards](/de/blog/how-to-make-better-flashcards/) hilft, wenn sich auf einer Rückseite mehrere Definitionen, Ausnahmen und Beispiele ansammeln.
+Mit Tags kannst du eine kleine Vergleichsgruppe zusammenstellen, ohne jede winzige Kategorie in ein eigenes Deck auszulagern. Teile Karten, auf deren Rückseite mehrere unabhängige Definitionen, Ausnahmen und Beispiele stehen.
 
 ## Wobei Nibomo hilft
 

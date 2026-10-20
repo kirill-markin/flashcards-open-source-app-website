@@ -95,7 +95,7 @@ aus Konfiguration, Prozessen und Netzwerkverkehr.
 
 Ein Port ist eine Konvention und ein Hinweis, kein Identitätsnachweis. Dienste können auf andere Ports gelegt, getunnelt, über Proxys geleitet oder falsch konfiguriert werden. Aus einer Nummer Gewissheit abzuleiten, fördert genau die falsche Gewohnheit für die **Fehlerbehebung bei Network+**.
 
-Du brauchst nicht vom ersten Tag an für jede Zuordnung getrennte Karten in Vorwärts- und Rückwärtsrichtung. Beginne mit einer Richtung und ergänze die umgekehrte Karte erst, wenn der Abruf zu langsam ist oder du zwei Dienste miteinander verwechselst. Der [Leitfaden zu Security+-Lernkarten](/de/blog/how-to-use-flashcards-for-security-plus/) nutzt denselben Ansatz für die Unterscheidung von Protokollen und Sicherheitskonzepten.
+Du brauchst nicht vom ersten Tag an für jede Zuordnung getrennte Karten in Vorwärts- und Rückwärtsrichtung. Beginne mit einer Richtung und ergänze die umgekehrte Karte erst, wenn der Abruf zu langsam ist oder du zwei Dienste miteinander verwechselst.
 
 ## Nutze Lernkarten für Subnetting-Ankerwerte – und berechne neue Netze selbst
 
@@ -171,7 +171,7 @@ Antworten als Hinweis, den du untersuchen musst, nicht als automatischen Beweis
 dafür, dass ein Hop ausgefallen ist.
 ```
 
-Teste den Befehl nach der Kartenwiederholung in einem Lab oder auf einem System, das du untersuchen darfst. Überlege vorher, welche Ausgabe du erwartest, lies das tatsächliche Ergebnis, ändere eine Bedingung und führe den Befehl erneut aus. Dieser kurze Ablauf vermittelt Berechtigungen, Optionen, Plattformunterschiede, Filterung und unübersichtliche Ausgaben – all das kann eine Karte nicht nachbilden. Der [Leitfaden zu Lernkarten für Terminalbefehle](/de/blog/how-to-learn-terminal-commands-with-flashcards/) erklärt diese Methode ausführlicher.
+Teste den Befehl nach der Kartenwiederholung in einem Lab oder auf einem System, das du untersuchen darfst. Überlege vorher, welche Ausgabe du erwartest, lies das tatsächliche Ergebnis, ändere eine Bedingung und führe den Befehl erneut aus. Dieser kurze Ablauf vermittelt Berechtigungen, Optionen, Plattformunterschiede, Filterung und unübersichtliche Ausgaben – all das kann eine Karte nicht nachbilden.
 
 ## Karten zur Fehlerbehebung sollten Unsicherheit bewahren
 
@@ -232,7 +232,7 @@ Nutze Lernkarten vor und nach **Network+-PBQ-Übungen**:
 
 Angenommen, du hast das falsche Werkzeug gewählt, weil du nicht mehr wusstest, welcher Befehl DNS abfragt. Daraus lässt sich eine klare Korrekturkarte erstellen. Wenn du das Werkzeug kanntest, die Antwort aber nicht auswerten konntest, arbeite mit echten Ausgaben. Wenn du beim Subnetting die Netzwerkgrenze aus den Augen verloren hast, berechne mehr neue Netze. Wenn du das Gerät nicht konfigurieren konntest, kehre zum Lab zurück.
 
-Kopiere keine legitime Übungsfrage in das Deck. Halte die wiederverwendbare Erkenntnis in deinen eigenen Worten fest und lass Rahmenszenario, Antwortmöglichkeiten und unverwechselbare Formulierung der Frage weg. Der Leitfaden zum [Umwandeln von Übungsfragen in Lernkarten](/de/blog/how-to-turn-practice-questions-into-flashcards/) beschreibt den vollständigen Ablauf.
+Kopiere keine legitime Übungsfrage in das Deck. Halte die wiederverwendbare Erkenntnis in deinen eigenen Worten fest und lass Rahmenszenario, Antwortmöglichkeiten und unverwechselbare Formulierung der Frage weg.
 
 Die offiziellen Prüfungsziele warnen außerdem vor unautorisiertem Material von Drittanbietern, das allgemein als Brain Dumps bezeichnet wird. Nutze die aktuellen Prüfungsziele, autorisierte Lern- und Übungsmaterialien, deine eigenen Beobachtungen aus Labs und deine eigenen Erklärungen. Das Auswendiglernen geleakter Fragen ist keine Vorbereitung auf Network+.
 
@@ -270,7 +270,7 @@ Eine einfache Struktur ist ein Deck namens `N10-009` mit Tags wie `ports`, `subn
 
 Hier gibt es weder ein offizielles noch ein vorgefertigtes N10-009-Deck. Beginne mit den aktuellen CompTIA-Prüfungszielen und deinen eigenen Fehlern aus legitimen Lernmaterialien. [Erste Schritte](/de/docs/getting-started/) erklärt die gehostete und die selbst gehostete Nutzung, falls du dein Deck in Nibomo erstellen möchtest.
 
-Wenn du für eine verwandte Zertifizierung lernst, wendet der [Leitfaden zu CompTIA-A+-Lernkarten](/de/blog/comptia-a-plus-flashcards/) dieselbe Abgrenzung zwischen Abruf und Übung auf die Arbeit von IT-Technikern an. Der [Leitfaden zu CCNA-Lernkarten](/de/blog/how-to-use-flashcards-for-ccna/) geht ausführlicher auf Routing, Switching und das Üben von Befehlen ein.
+Wenn du für eine verwandte Zertifizierung lernst, wendet der [Leitfaden zu CompTIA-A+-Lernkarten](/de/blog/comptia-a-plus-flashcards/) dieselbe Abgrenzung zwischen Abruf und Übung auf die Arbeit von IT-Technikern an. Übe für Routing und Switching zusätzlich Befehle in einem Lab.
 
 ## FAQ zu Lernkarten für CompTIA Network+
 

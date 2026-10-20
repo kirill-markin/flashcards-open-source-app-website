@@ -145,9 +145,9 @@ Para aprender idiomas, yo usaría formatos como:
 
 Eso encaja mucho mejor que intentar meter un diálogo entero en miniatura.
 
-Si quieres ver reglas más generales sobre calidad de tarjetas, empieza aquí:
+Para revisar la calidad de las tarjetas:
 
-- [Cómo hacer mejores tarjetas didácticas en 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
+- Escribe una pregunta concreta por tarjeta y comprueba que su respuesta sea breve y clara.
 
 ## ChatGPT Voice es especialmente útil para detectar fallos de recuerdo activo
 
@@ -227,10 +227,10 @@ Una frase merece una tarjeta si:
 
 Si no cumple eso, deja que se quede en la sesión y muera ahí.
 
-Si tu problema principal ya es la carga de repaso, estos artículos encajan muy bien con este:
+Si el problema es la carga de repaso:
 
 - [Cuántas tarjetas nuevas al día en 2026](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
-- [Cómo ponerse al día con las tarjetas didácticas después de quedarse atrás en 2026](https://nibomo.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
+- Reduce las tarjetas nuevas y recupera los repasos pendientes por etapas, sin reiniciar el mazo.
 
 ## FSRS importa porque las frases habladas se olvidan de formas muy raras
 
@@ -251,9 +251,9 @@ La secuencia en la que confío sigue siendo:
 3. crea una tarjeta pequeña y precisa
 4. deja que FSRS se encargue del momento
 
-Si quieres profundizar en la parte de la programación, este artículo entra más al detalle:
+Antes de ajustar la programación:
 
-- [FSRS vs SM-2 en 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
+- Revisa qué historial y controles ofrece el planificador de tu app antes de ajustar los repasos.
 
 ## Dónde encaja Nibomo
 

@@ -170,7 +170,7 @@ SuperMemo तब चुनें, जब आप उसकी अपनी method
 
 Nibomo आपको पूरे stack पर व्यापक मालिकाना नियंत्रण देता है। [MIT-licensed repository](https://github.com/kirill-markin/flashcards-open-source-app) में web ऐप, iOS और Android clients, backend, offline sync, infrastructure, [public API](/docs/api/) और [MCP server](/docs/mcp-connector/) शामिल हैं। रिव्यू में [FSRS](/docs/architecture/#scheduling) इस्तेमाल होता है। Web, iOS और Android पहले local data में लिखते हैं, changes को outbox में जोड़ते हैं और connection लौटने पर sync करते हैं।
 
-इससे यह Anki-compatible नहीं हो जाता। Nibomo `.apkg` या `.colpkg` नहीं पढ़ सकता। Supported [Anki TXT migration](/blog/migrate-from-anki-txt-export-open-source-flashcards/) अधिकतर text-based कार्ड के लिए जाँचा हुआ AI-assisted drafting workflow है। यह templates, add-ons, deck hierarchy, देय तारीखें, intervals या review events सुरक्षित नहीं रखता। TXT फ़ाइल में media references होते हैं, media files नहीं; इसलिए media-heavy डेक को अलग से दोबारा बनाकर verify करना पड़ता है।
+इससे यह Anki-compatible नहीं हो जाता। Nibomo `.apkg` या `.colpkg` नहीं पढ़ सकता। Anki से export किए गए TXT से कार्ड दोबारा बनाना अधिकतर text-based कार्ड के लिए जाँचा हुआ AI-assisted drafting workflow है। यह templates, add-ons, deck hierarchy, देय तारीखें, intervals या review events सुरक्षित नहीं रखता। TXT फ़ाइल में media references होते हैं, media files नहीं; इसलिए media-heavy डेक को अलग से दोबारा बनाकर verify करना पड़ता है।
 
 Nibomo का अपना `flashcards.zip` package भी backup से सीमित है। यह Nibomo workspaces के बीच कार्ड, tags और संबंधित मीडिया ले जाता है। यह review history, FSRS state, पूरा deck structure, workspace settings या accounts नहीं ले जाता।
 
@@ -207,7 +207,7 @@ RemNote, Mochi, Quizlet, Brainscape, SuperMemo और Nibomo—सभी के 
 
 Anki अब भी mature add-on ecosystem, flexible note और card templates, FSRS व legacy scheduling controls, local installed clients और कलेक्शन साथ ले जा सकने वाले package formats देता है। ऊपर दिए गए प्रोडक्ट में से कोई भी इन सभी चीज़ों को दोहराता नहीं है।
 
-मालिकाना हक़ की सीमाओं की अधिक केंद्रित तुलना के लिए [open-source flashcard app guide](/blog/best-open-source-flashcard-apps-2026/) पढ़ें। अगर ऑफ़लाइन व्यवहार फैसला तय करता है, तो [offline flashcards comparison](/blog/best-offline-flashcards-app/) installed ऐप, cached content और browser tabs का फर्क समझाती है।
+मालिकाना हक़ की सीमाओं की अधिक केंद्रित तुलना के लिए [open-source flashcard app guide](/blog/best-open-source-flashcard-apps-2026/) पढ़ें। ऑफ़लाइन इस्तेमाल के लिए कार्ड पढ़ना, बदलाव, review history और दोबारा connection पर sync अलग-अलग जाँचें।
 
 ## ऐसी माइग्रेशन checklist जिसका जवाब अब भी “नहीं” हो सकता है
 
@@ -224,7 +224,7 @@ Anki अब भी mature add-on ecosystem, flexible note और card templates,
 9. **पूरी तरह बदलने से पहले exit test करें।** नए ऐप से एक्सपोर्ट करें और देखें कि अगले साल उसे छोड़ने पर आप क्या वापस पा सकेंगे।
 10. **Anki और अछूता backup रखें।** दोनों को तब तक delete न करें, जब तक नया ऐप सामान्य उपयोग में चल न चुका हो और आपने हर नुकसान सोच-समझकर स्वीकार न कर लिया हो।
 
-अगर नया ऐप केवल टेक्स्ट स्वीकार करता है, तो पूरा [safe TXT export workflow](/blog/migrate-from-anki-txt-export-open-source-flashcards/) अपनाएँ। यह recovery `.colpkg` को portable working file से अलग रखता है और reset को साफ़-साफ़ बताता है।
+टेक्स्ट स्वीकार करने वाले ऐप के लिए अलग working TXT बनाएँ और मूल recovery `.colpkg` सुरक्षित रखें। पहले छोटा batch जाँचें और मानें कि scheduling history और media अलग से सँभालने होंगे।
 
 ## इस क्रम में फैसला लें
 
@@ -237,6 +237,6 @@ Anki अब भी mature add-on ecosystem, flexible note और card templates,
 5. अगर असली समस्या classroom distribution या सरल shared review loop है, तो Quizlet या Brainscape में छोटा set दोबारा बनाएँ।
 6. अगर खास तौर पर SuperMemo की method चाहिए, तो नया schedule स्वीकार करें। अगर खास तौर पर पूरे stack का सोर्स, self-hosting, API और MCP access चाहिए, तो Nibomo का डेटा छोड़ने वाला content rebuild और operator work स्वीकार करें।
 
-एक-दूसरे से बहुत अलग तीन मॉडल को सुविधा-दर-सुविधा देखने के लिए [Anki vs Quizlet vs Nibomo](/blog/anki-vs-quizlet-vs-open-source-flashcards-app/) पढ़ें।
+अपनी collection के कुछ कार्डों पर editing, reviews, export और ज़रूरी features आज़माकर ऐपों की तुलना करें।
 
 काम का नियम सरल है: तभी बदलें, जब फायदा स्पष्ट हो और नुकसान असली टेस्ट में स्वीकार्य साबित हो चुका हो। अगर आपका representative डेक उस सीमा को साफ़-साफ़ पार नहीं कर सकता, तो Anki पर टिके रहना केवल सुरक्षित fallback नहीं है। यही तुलना का नतीजा है।

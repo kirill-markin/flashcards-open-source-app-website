@@ -61,7 +61,7 @@ Fuente comprobada: Manual del automovilista de California, Control de tráfico, 
 
 En una tarjeta de señal, coloca la imagen o una descripción clara en el anverso y pregunta tanto por el significado como por lo que debes hacer. Nombrar «cruce de ferrocarril» sin recordar que debes mirar, escuchar, reducir la velocidad, prepararte para parar y dejar pasar a los trenes deja fuera la mitad de la lección.
 
-Mantén una tabla completa de señales fuera del mazo. Los recortes pequeños entrenan el reconocimiento; una tabla mixta comprueba si encuentras la señal relevante entre formas parecidas. [Cómo convertir imágenes en flashcards](/blog/how-to-turn-images-into-flashcards/) ofrece un proceso práctico para que las tarjetas con imágenes se mantengan centradas.
+Mantén una tabla completa de señales fuera del mazo. Los recortes pequeños entrenan el reconocimiento; una tabla mixta comprueba si encuentras la señal relevante entre formas parecidas. Recorta la imagen hasta la señal relevante y comprueba que conserve todos los rasgos necesarios.
 
 ### 2. Preferencia de paso y claves de cada situación
 
@@ -112,7 +112,7 @@ Después de cada examen de muestra de Clase C, sigue este proceso de corrección
 
 Supón que un error en el examen de muestra reveló que trataste una flecha roja como una luz roja normal. La tarjeta para corregirlo puede preguntar qué hacer ante una flecha roja. El reverso debe indicar que tienes que detenerte y permanecer parado hasta que aparezca una luz verde o una flecha verde. El manual respalda esa regla en la sección sobre control de tráfico. No necesitas la historia de la pregunta de muestra, el orden de las opciones ni sus frases exactas.
 
-Es el mismo principio que se aplica en la guía más general para [convertir preguntas de práctica en flashcards](/blog/how-to-turn-practice-questions-into-flashcards/). [Cómo crear mejores flashcards](/blog/how-to-make-better-flashcards/) ayuda cuando una tarjeta creada para corregir un error crece hasta convertirse en un párrafo o pregunta varias cosas a la vez.
+Limita cada tarjeta de corrección a una pregunta concreta y una respuesta breve. Divídela si el reverso ocupa un párrafo o evalúa varias cosas a la vez.
 
 ## Un ciclo de estudio realista de siete días
 
@@ -140,7 +140,7 @@ Usa otro conjunto de muestra de Clase C. Investiga las respuestas incorrectas y 
 
 ### Día 6: Combina la recuperación con la aplicación
 
-Repasa las tarjetas pendientes, identifica señales en orden aleatorio y trabaja con situaciones nuevas de preferencia de paso. Haz otro examen de muestra oficial si te ayudará a descubrir lagunas que valga la pena corregir. [Las flashcards y los exámenes de práctica entrenan habilidades distintas](/blog/flashcards-vs-practice-tests/), así que conserva ambos durante la semana.
+Repasa las tarjetas pendientes, identifica señales en orden aleatorio y trabaja con situaciones nuevas de preferencia de paso. Haz otro examen de muestra oficial si te ayudará a descubrir lagunas que valga la pena corregir. Las tarjetas entrenan el recuerdo de reglas y los exámenes su aplicación a situaciones nuevas, así que conserva ambos durante la semana.
 
 ### Día 7: Audita el mazo y vuelve a hacer una prueba
 
@@ -172,7 +172,7 @@ El DMV describe por separado el examen práctico de manejo: evalúa la conducci�
 
 El catálogo también incluye un [mazo independiente de 232 tarjetas en español sobre reglas y señales de California](/es/catalog/packages/examen-manejo-california-espanol-tarjetas/), sin preguntas copiadas del DMV, que cubre preferencia de paso, velocidad, estacionamiento, control del vehículo, convivencia vial, alcohol, drogas, medicamentos y emergencias.
 
-La ayuda de la IA es opcional, y tú decides qué borradores se guardan. La IA no verifica las reglas de manejo ni su exactitud legal. Compara cada tarjeta creada por la IA con el manual vigente del DMV. No pegues identificadores privados, documentos de solicitud ni registros de licencias en herramientas de IA alojadas. La guía de privacidad explica este límite con más detalle: [Flashcards privadas con IA](/blog/private-flashcards-with-ai/).
+La ayuda de la IA es opcional, y tú decides qué borradores se guardan. La IA no verifica las reglas de manejo ni su exactitud legal. Compara cada tarjeta creada por la IA con el manual vigente del DMV. No pegues identificadores privados, documentos de solicitud ni registros de licencias en herramientas de IA alojadas.
 
 La aplicación permite estudiar sin conexión en el móvil y sincroniza el contenido entre la web, iOS y Android. El proyecto tiene licencia MIT y una [ruta de autoalojamiento documentada](/docs/self-hosting/). No está afiliado al California DMV ni cuenta con su respaldo, no incluye un mazo oficial de Clase C de California y no predice si aprobarás. La [guía de primeros pasos](/docs/getting-started/) explica las formas actuales de crear y repasar tus propias tarjetas.
 

@@ -123,7 +123,7 @@ Port को दोनों दिशाओं में सीखें, फि
 सिर्फ़ port number से यह साबित नहीं होता कि कौन-सी service चल रही है।
 ```
 
-इससे ports वाला deck केवल numbers दोहराने की कवायद नहीं बनता। Protocol cards को विस्तार से समझने के लिए [Security+ फ़्लैशकार्ड गाइड](/blog/how-to-use-flashcards-for-security-plus/) देखें। A+ deck को A+ objectives की सीमा में रखें।
+इससे ports वाला deck केवल numbers दोहराने की कवायद नहीं बनता। Protocol के इस्तेमाल और मिलती-जुलती services के अंतर पर भी सवाल बनाएँ। A+ deck को A+ objectives की सीमा में रखें।
 
 ### वह tool चुनें जो सबूत देता है
 
@@ -149,7 +149,7 @@ resolve होता है या नहीं?
 पीछे: Event Viewer (eventvwr.msc)
 ```
 
-Review के बाद command चलाएँ या tool खोलें। Card पहला कदम याद कराता है; machine आपको flags, output, permissions और failure states सिखाती है। [Terminal command फ़्लैशकार्ड गाइड](/blog/how-to-learn-terminal-commands-with-flashcards/) इस अभ्यास को और विस्तार से समझाती है।
+Review के बाद command चलाएँ या tool खोलें। Card पहला कदम याद कराता है; machine आपको flags, output, permissions और failure states सिखाती है।
 
 ## Core 2 में सीमाएँ, क्रम और सही निर्णय भी जाँचे जाते हैं
 
@@ -211,7 +211,7 @@ PBQ या lab practice से पहले और बाद में cards इ
 
 अगर असली समस्या navigation, command output, component installation, time management या अधूरे सबूत जुटाना थी, तो उस गलती को छोटा करके card में न डालें। इन समस्याओं के लिए ज़्यादा PBQ practice, virtual lab, spare hardware या लंबा troubleshooting exercise चाहिए।
 
-Objective documents candidates को unauthorized third-party material से भी सावधान करते हैं, जिसे आम तौर पर brain dumps कहा जाता है। मौजूदा objectives, authorized training और practice तथा अपने lab notes इस्तेमाल करें। [Practice questions को फ़्लैशकार्ड में बदलने का तरीका](/blog/how-to-turn-practice-questions-into-flashcards/) बताता है कि question copy किए बिना उससे दोबारा काम आने वाली सीख कैसे सहेजें।
+Objective documents candidates को unauthorized third-party material से भी सावधान करते हैं, जिसे आम तौर पर brain dumps कहा जाता है। मौजूदा objectives, authorized training और practice तथा अपने lab notes इस्तेमाल करें। सवाल की copy के बजाय अपने शब्दों में दोबारा काम आने वाली सीख सहेजें।
 
 ## एक बार में एक Core के लिए study loop बनाएँ
 

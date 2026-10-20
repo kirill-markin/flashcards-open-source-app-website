@@ -129,7 +129,7 @@ Cuando falles una tarjeta, clasifica el error antes de añadir más repeticiones
 | Solo respondes bien en orden alfabético | dependencia de la secuencia | baraja el conjunto y empieza por caracteres sin relación entre sí |
 | Conoces la imagen, pero no reconoces el sonido | brecha entre modalidades | deja de añadir tarjetas visuales y practica el mismo conjunto con audio |
 
-El principio de diseño es el mismo que se explica en [Cómo hacer mejores flashcards](/blog/how-to-make-better-flashcards/): una consigna clara y un único dato que recuperar y evaluar. Una tarjeta enorme que pide todo el alfabeto premia la recitación. Treinta y seis correspondencias más pequeñas muestran exactamente qué carácter ha fallado.
+El principio de diseño es sencillo: una consigna clara y un único dato que recuperar y evaluar. Una tarjeta enorme que pide todo el alfabeto premia la recitación. Treinta y seis correspondencias más pequeñas muestran exactamente qué carácter ha fallado.
 
 ## Corrige los patrones que confundes en vez de repetirlo todo
 

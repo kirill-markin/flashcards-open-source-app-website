@@ -88,7 +88,7 @@ Ejemplos:
 
 Estas tarjetas funcionan mejor porque entrenan la decisión que de verdad tienes que tomar bajo presión de examen.
 
-Si tu problema principal es la calidad de las tarjetas más que la elección de la materia, [Cómo hacer mejores flashcards en 2026](https://nibomo.com/blog/how-to-make-better-flashcards/) es el siguiente paso lógico.
+Si falla la calidad de las tarjetas, divide las preguntas amplias y comprueba cada respuesta con el material del curso antes de añadir más.
 
 ## Los procesos deberían dividirse en puntos de control, no guardarse en una sola tarjeta heroica
 
@@ -145,7 +145,7 @@ Ejemplos:
 - ¿Qué hace que un control sea un **control negativo** y no un control positivo?
 - ¿Cuándo un montaje de AP Biology respalda una afirmación sobre **causa** y no solo sobre un patrón?
 
-Si tu mejor fuente de tarjetas es lo que fallaste en práctica, [Cómo convertir preguntas de práctica en flashcards en 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) encaja de forma directa aquí.
+Aprovecha los errores de práctica para crear preguntas propias sobre la laguna concreta, sin copiar la pregunta completa.
 
 ## La preparación para FRQ funciona mejor cuando la tarjeta guarda el movimiento de razonamiento
 
@@ -232,7 +232,7 @@ Así que yo mantendría el orden así de simple:
 3. borra pronto las tarjetas flojas
 4. deja que FSRS se encargue del momento del repaso
 
-Si quieres más detalle sobre la parte de planificación, [Cómo estudiar para un examen con FSRS en 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) es el complemento directo.
+Reduce la creación de tarjetas antes del examen y deja tiempo para repasos y preguntas completas en el formato de AP Biology.
 
 ## Dónde encaja Nibomo en este flujo de trabajo de AP Biology
 

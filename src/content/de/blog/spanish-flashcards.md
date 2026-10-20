@@ -56,7 +56,7 @@ Damit ergeben sich mehrere sinnvolle Grenzen für dein erstes Deck:
 
 Entscheide dich für eine Situation. Sammle dann Wörter und Wendungen aus einer Lektion, einem kurzen Artikel oder einem Transkript, das du verwenden darfst. Eine Karte verdient ihren Platz, wenn sie dir in dieser Situation hilft oder einen echten Fehler behebt. „Könnte irgendwann nützlich sein“ ist kein guter Grund, einen Inhalt monatelang zu wiederholen.
 
-Das ist die spanische Variante des allgemeinen [Flashcard-Workflows zum Sprachenlernen](/de/blog/how-to-use-flashcards-for-language-learning/): erst der Kontext, dann die Karte. Wenn dein Ausgangsmaterial aus Unterrichts- oder Lesenotizen besteht, [verwandle die Notizen gezielt in Flashcards](/de/blog/turn-notes-into-flashcards/), statt jeden einzelnen Satz zu übernehmen.
+Beginne mit dem Kontext und erstelle daraus eine gezielte Karte. Wähle aus Unterrichts- oder Lesenotizen nur die Inhalte aus, die du tatsächlich abrufen möchtest, statt jeden Satz zu übernehmen.
 
 ## Schreibe den Artikel auf die Substantivkarte
 
@@ -92,7 +92,7 @@ Rückseite: un problema
 
 Das RAE-Wörterbuch führt [`mano` als feminin](https://dle.rae.es/mano) und [`problema` als maskulin](https://dle.rae.es/problema). Die Beispielsätze wurden für diesen Artikel erstellt. Sie machen das Genus zum Bestandteil der Antwort, statt es in einer leicht zu übersehenden Anmerkung wie `m.` oder `f.` zu verstecken.
 
-Eine Substantivkarte muss nicht gleichzeitig den Artikel im Singular, den Plural, die Übersetzung, drei Bedeutungen, einen Aussprachehinweis und zwei Redewendungen enthalten. Lege eine eigene Karte für Plural oder Kongruenz an, sobald dein Kurs das verlangt oder ein Fehler den Bedarf zeigt. Auch hier gilt der Leitfaden zum [Erstellen besserer Flashcards](/de/blog/how-to-make-better-flashcards/): Eine klar umrissene Entscheidung lässt sich leichter beantworten und bei Bedarf reparieren.
+Eine Substantivkarte muss nicht gleichzeitig den Artikel im Singular, den Plural, die Übersetzung, drei Bedeutungen, einen Aussprachehinweis und zwei Redewendungen enthalten. Lege eine eigene Karte für Plural oder Kongruenz an, sobald dein Kurs das verlangt oder ein Fehler den Bedarf zeigt. Auch hier gilt: Eine klar umrissene Entscheidung lässt sich leichter beantworten und bei Bedarf reparieren.
 
 ## Frage immer nur eine Verbform ab
 
@@ -238,7 +238,7 @@ Rückseite: Tengo
 
 Bewahre die Korrektur deiner Lehrkraft oder den Quellenhinweis auf. KI kann daraus eine klarere Kartenfrage formulieren. Flüssig klingendes Spanisch ist jedoch kein Beweis dafür, dass die Form zu deiner beabsichtigten Bedeutung und Varietät passt.
 
-Wenn du an derselben Karte immer wieder scheiterst, hilft die nächste Wiederholung derselben vagen Frage meist nicht. Prüfe die Quelle, präzisiere den Hinweis, trenne vermischte Lernziele oder ergänze genau den Gegensatz, der dir gefehlt hat. Der [Leitfaden zum Reparieren von Leech-Karten](/de/blog/how-to-fix-leech-flashcards/) beschreibt diesen Aufräumprozess genauer.
+Wenn du an derselben Karte immer wieder scheiterst, hilft die nächste Wiederholung derselben vagen Frage meist nicht. Prüfe die Quelle, präzisiere den Hinweis, trenne vermischte Lernziele oder ergänze genau den Gegensatz, der dir gefehlt hat.
 
 ## Halte die Wiederholungswarteschlange kleiner als den Quellenstapel
 
@@ -248,7 +248,7 @@ Beginne mit einer kleinen Auswahl aus genau einer Quelle, mit der du gerade arbe
 
 FSRS kann eindeutige Karten anhand deines bisherigen Wiederholungsverlaufs einplanen. Der Algorithmus kann weder entscheiden, ob `Computer` zu `ordenador`, `computador` oder `computadora` führen soll, noch einen Satz überprüfen, deine Aussprache hören oder eine umgekehrte Frage mit mehreren gültigen Antworten erkennen. Dafür brauchst du gutes Kartendesign und sprachliche Prüfung.
 
-Richte die tägliche Zahl neuer Karten nach der Wiederholungszeit, die du wirklich freihalten kannst. [Wie viele neue Flashcards pro Tag sinnvoll sind](/de/blog/how-many-new-flashcards-per-day/) zeigt, wie du ein dauerhaft machbares Tempo findest, ohne eine einzige Zahl als Lösung für alle auszugeben.
+Richte die tägliche Zahl neuer Karten nach der Wiederholungszeit, die du wirklich freihalten kannst. Reduziere neue Karten, wenn die fälligen Wiederholungen diese Zeit aufbrauchen.
 
 ## Ein Wochenablauf, der noch Zeit für Spanisch lässt
 
@@ -277,7 +277,7 @@ Eine einfache Struktur dafür sieht so aus:
 
 KI kann aus deinem Material einen Kartenentwurf erstellen oder eine Frage präziser formulieren. Du entscheidest weiterhin selbst, was gespeichert wird, und überprüfst das Spanisch. Die App enthält weder einen offiziellen Spanischkurs noch ein offizielles fertiges Spanisch-Deck. Sie bietet auch keine von Muttersprachlern eingesprochenen Audiodateien zu den Beispielen dieses Artikels, keine Aussprachebewertung, keine Gesprächsübungen und keine automatische Prüfung von Grammatik oder regionalem Sprachgebrauch.
 
-Die gehostete App ist in der aktuellen Betaphase kostenlos, einschließlich KI und Synchronisierung. Du kannst sie außerdem selbst hosten. Unter [Erste Schritte](/de/docs/getting-started/) findest du Anleitungen für die gehostete App, die mobilen Apps, den Agenten und das Selbsthosting. Wenn du einen vorgegebenen Vokabelkurs mit einem selbst verwalteten Flashcard-Werkzeug vergleichst, erklärt der [Leitfaden zu Memrise-Alternativen](/de/blog/memrise-alternative/) den unterschiedlichen Lernablauf.
+Die gehostete App ist in der aktuellen Betaphase kostenlos, einschließlich KI und Synchronisierung. Du kannst sie außerdem selbst hosten. Unter [Erste Schritte](/de/docs/getting-started/) findest du Anleitungen für die gehostete App, die mobilen Apps, den Agenten und das Selbsthosting.
 
 ## Häufige Fragen zu Spanisch-Flashcards
 

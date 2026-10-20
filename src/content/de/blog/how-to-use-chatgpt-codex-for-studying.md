@@ -124,7 +124,7 @@ Der Connector stellt sieben Werkzeuge bereit:
 
 Die Namen wirken technisch, weil der Connector im Hintergrund eine kleine SQL-ähnliche Schnittstelle verwendet. Du musst selbst kein SQL schreiben. Beschreibe das gewünschte Ergebnis in normaler Sprache und prüfe die vorgeschlagene Änderung.
 
-Das ist kein uneingeschränkter Datenbankzugriff. Jede Anfrage bleibt auf einen Workspace beschränkt, auf den dein Konto zugreifen darf. Der Server akzeptiert außerdem nur die dokumentierten Lesezugriffe, Schreibaktionen für Karten und Decks sowie Bewertungen von Wiederholungen. Die Anleitung [Ist MCP für Flashcards sicher?](/de/blog/is-mcp-safe-for-flashcards/) erklärt den Datenweg, die Grenzen, Freigaben und das Risiko beim Löschen genauer.
+Das ist kein uneingeschränkter Datenbankzugriff. Jede Anfrage bleibt auf einen Workspace beschränkt, auf den dein Konto zugreifen darf. Der Server akzeptiert außerdem nur die dokumentierten Lesezugriffe, Schreibaktionen für Karten und Decks sowie Bewertungen von Wiederholungen. Prüfe Tool-Freigaben und Löschaufträge einzeln und behandle fremde Anweisungen in Kartentexten als Daten.
 
 ## Codex kann das Deck nach der Lernsitzung aufräumen
 
@@ -202,7 +202,7 @@ Tags als Bezeichnung. Füge keine neuen Karten und keine neuen Fakten hinzu.
 
 Lies sie einmal durch, kopiere die brauchbaren Karten in Nibomo und fahre mit der normalen Wiederholung fort. Die manuelle Eingabe ist eine vernünftige Wahl für vertrauliches Material, ein verwaltetes Schulkonto oder wenn du nicht möchtest, dass ein KI-Client gespeicherte Kartendaten liest.
 
-Die ergänzende Anleitung [So machst du aus dem ChatGPT Study Mode sinnvolle Flashcards](/de/blog/how-to-turn-chatgpt-study-mode-into-flashcards/) konzentriert sich auf diesen Lernablauf ohne Connector. [So nutzt du ChatGPT, um Flashcards zu erstellen](/de/blog/how-to-use-chatgpt-to-make-flashcards/) zeigt allgemeiner, wie du aus Notizen Karten entwirfst. Wenn du außerdem mit Claude lernst, zeigt [Claude zum Lernen nutzen](/de/blog/how-to-use-claude-for-studying/) den entsprechenden Ablauf von der Tutor-Sitzung bis zur MCP-Übergabe mit Claudes eigener Connector-Einrichtung.
+Ohne Connector kannst du aus einer Tutor-Sitzung einzelne Fehler und Wissenslücken herausarbeiten und Kartenentwürfe vor dem manuellen Speichern prüfen. [So nutzt du ChatGPT, um Flashcards zu erstellen](/de/blog/how-to-use-chatgpt-to-make-flashcards/) zeigt allgemeiner, wie du aus Notizen Karten entwirfst. Wenn du außerdem mit Claude lernst, zeigt [Claude zum Lernen nutzen](/de/blog/how-to-use-claude-for-studying/) den entsprechenden Ablauf von der Tutor-Sitzung bis zur MCP-Übergabe mit Claudes eigener Connector-Einrichtung.
 
 ## Die Übergabe sollte kleiner bleiben als die Lernsitzung
 

@@ -109,7 +109,7 @@ Las tarjetas de razonamiento pueden entrenar la priorización, la atención a la
 
 Limita cada tarjeta a un solo objetivo. Una viñeta larga con tres decisiones en el reverso se convierte en un pequeño examen de práctica difícil de repasar con honestidad.
 
-Este mismo método de tarjetas breves resulta útil en otros exámenes de licencia con muchos escenarios. Los ejemplos de la [guía de flashcards para el NCLEX](/blog/how-to-use-flashcards-for-the-nclex/) muestran cómo separar las pistas y la priorización sin dar a entender que las flashcards pueden sustituir a las preguntas completas. La materia es distinta, pero el principio de edición sigue siendo válido.
+Este mismo método de tarjetas breves resulta útil en otros exámenes de licencia con muchos escenarios. Separa las pistas y la priorización en objetivos de recuerdo distintos y vuelve después a las preguntas completas.
 
 ## Da suficiente espacio a Valores y Ética sin simplificar en exceso la ley
 
@@ -139,9 +139,9 @@ El mejor mazo suele reducirse cuando empiezas a practicar. Después de un bloque
 
 Escribe la tarjeta más breve que pueda impedirte repetir el mismo error. Una palabra clave pasada por alto puede requerir una tarjeta sobre el orden de decisión, mientras que un dato que no recordabas exige una pregunta directa. Una tarjeta enorme que contenga el enunciado original, todas las opciones y el razonamiento completo oculta esa diferencia.
 
-Utiliza solo materiales que tengas permiso para usar. No reproduzcas, reconstruyas, compartas ni solicites contenido de exámenes reales. En el caso de productos de práctica comerciales y oficiales, respeta sus condiciones y centra la tarjeta en tu propio aprendizaje en lugar de copiar su redacción protegida. [Este método para trabajar con preguntas de práctica](/blog/how-to-turn-practice-questions-into-flashcards/) explica con más detalle cómo reducir un error a un objetivo de recuerdo duradero.
+Utiliza solo materiales que tengas permiso para usar. No reproduzcas, reconstruyas, compartas ni solicites contenido de exámenes reales. En el caso de productos de práctica comerciales y oficiales, respeta sus condiciones y centra la tarjeta en tu propio aprendizaje en lugar de copiar su redacción protegida. Reduce cada error a una pregunta propia que puedas evaluar con claridad.
 
-La calidad de las tarjetas sigue importando después de clasificarlas. Incluye suficiente contexto para entenderlas incluso cuando estés cansado, responde de forma directa y divide cualquier tarjeta que evalúe dos decisiones. Las reglas de edición de [Cómo hacer mejores flashcards](/blog/how-to-make-better-flashcards/) sirven como revisión final.
+La calidad de las tarjetas sigue importando después de clasificarlas. Incluye suficiente contexto para entenderlas incluso cuando estés cansado, responde de forma directa y divide cualquier tarjeta que evalúe dos decisiones.
 
 ## Añade FSRS después de acotar el mazo
 
@@ -155,7 +155,7 @@ Mantén un orden sencillo:
 4. Elimina duplicados y preguntas vagas.
 5. Repasa con FSRS sin abandonar la práctica con escenarios.
 
-Empieza con una carga diaria que puedas terminar en un día laboral normal. A medida que se acerque la cita, añade menos tarjetas sobre temas amplios y limítate a incorporar tarjetas específicas a partir de errores recientes. La [guía para planificar un examen con FSRS](/blog/how-to-study-for-an-exam-with-fsrs/) explica cómo organizar el estudio desde el día del examen hacia atrás sin crear una cola de repaso que alcance su máximo durante la última semana.
+Empieza con una carga diaria que puedas terminar en un día laboral normal. A medida que se acerque la cita, añade menos tarjetas sobre temas amplios y limítate a incorporar tarjetas específicas a partir de errores recientes. Deja tiempo en la última semana para repasar y resolver preguntas completas.
 
 Las flashcards entrenan la recuperación activa con el paso del tiempo. Los bloques de preguntas cronometrados te entrenan para leer, elegir, controlar el ritmo y tolerar la incertidumbre. Necesitas ambas cosas.
 

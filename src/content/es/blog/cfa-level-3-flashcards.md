@@ -36,7 +36,7 @@ No guardes respuestas modelo completas. Un párrafo memorizado está ligado a lo
 
 El mismo límite se aplica a las fórmulas. Recordar es una tarea. Elegir la relación, extraer los datos, calcular e interpretar el resultado son tareas distintas. Las tarjetas pueden ayudarte con las cuatro, pero solo las preguntas realistas ponen a prueba la cadena completa.
 
-Si vienes del nivel anterior, [la guía de flashcards para CFA Level II](/blog/how-to-use-flashcards-for-cfa-level-2/) explica los datos decisivos de un caso y las tarjetas de interpretación. Esta guía se centra en lo que cambia en Level III: los itinerarios especializados y la elaboración de respuestas escritas.
+En Level II predominan las pistas del caso y su interpretación. Aquí nos centramos en lo que cambia en Level III: los itinerarios especializados y la elaboración de respuestas escritas.
 
 ## Divide las flashcards para CFA Level III entre el núcleo común y tu itinerario
 
@@ -131,7 +131,7 @@ Comprueba la notación y los supuestos en el temario actual en lugar de copiar e
 
 CFA Institute también indica que introducir únicamente un valor numérico correcto puede recibir la máxima puntuación en una respuesta de cálculo. Mostrar pasos legibles puede ofrecer la posibilidad de obtener puntuación parcial si la respuesta final no es del todo correcta. Practica respuestas finales claras y el desarrollo que las respalda con preguntas realistas; no conviertas un cálculo terminado en una larga tarjeta con la solución completa.
 
-Para profundizar en cómo mantener las preguntas acotadas, lee [Cómo hacer mejores flashcards](/blog/how-to-make-better-flashcards/).
+Divide cualquier pregunta que exija varios puntos independientes y comprueba que cada respuesta se pueda evaluar por separado.
 
 ## Extrae los errores de los simulacros según su tipo
 
@@ -150,7 +150,7 @@ Supongamos que elegiste la acción correcta para la cartera, pero escribiste una
 
 Si un cálculo era correcto, pero interpretaste el signo al revés al formular la recomendación, crea una tarjeta de interpretación y resuelve otro cálculo en contexto. Si diste tres razones cuando la pregunta pedía dos, crea una tarjeta sobre el verbo de instrucción y practica cómo detenerte en el número solicitado. Aplica a cada error la herramienta adecuada.
 
-Es el mismo método de extracción que se utiliza en [Cómo convertir preguntas de práctica en flashcards](/blog/how-to-turn-practice-questions-into-flashcards/), pero con más atención a la construcción de la respuesta. No reproduzcas preguntas protegidas, opciones de respuesta ni explicaciones de proveedores en un mazo personal que podrías compartir más adelante.
+Extrae la lección del error y conviértela en una pregunta propia, prestando atención a cómo construir la respuesta. No reproduzcas preguntas protegidas, opciones de respuesta ni explicaciones de proveedores en un mazo que podrías compartir.
 
 ## Sigue cada semana un ciclo de tarjetas y respuestas
 
@@ -168,7 +168,7 @@ La secuencia mantiene el mazo subordinado al examen. La práctica revela qué me
 
 No sustituyas la práctica escrita por una respuesta que solo recitas mentalmente. La página oficial del examen indica que todas las respuestas deben estar en inglés y que las preguntas de respuesta construida ofrecen un cuadro de texto. Necesitas practicar qué incluir y cómo expresarlo de forma concisa, no limitarte a reconocer una buena respuesta cuando la ves.
 
-[Flashcards frente a exámenes de práctica](/blog/flashcards-vs-practice-tests/) explica la división más amplia: las tarjetas conservan piezas pequeñas, mientras que las preguntas realistas comprueban si esas piezas siguen funcionando juntas.
+Las tarjetas conservan piezas pequeñas, mientras que las preguntas realistas comprueban si esas piezas siguen funcionando juntas.
 
 ## No dejes que la cola de repaso desplace el plan para el examen
 

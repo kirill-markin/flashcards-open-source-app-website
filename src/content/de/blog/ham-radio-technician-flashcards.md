@@ -67,7 +67,7 @@ Arbeite stattdessen in drei Ebenen:
 2. Erstelle eine knappe Karte, die die Regel, den Zusammenhang, das Verfahren oder die Bedeutung ohne Antwortmöglichkeiten abfragt.
 3. Prüfe das Konzept anhand randomisierter Fragen aus dem aktuellen Pool.
 
-Jede Karte sollte ein klares Abrufziel haben. Auf der Rückseite steht zuerst die direkte Antwort, danach eine kurze Erklärung oder Rechnung. Teile die Karte, sobald die Rückseite mehrere voneinander unabhängige Fakten abfragt. Die Regeln aus [So erstellst du bessere Lernkarten](/blog/how-to-make-better-flashcards/) eignen sich auch für Amateurfunkthemen.
+Jede Karte sollte ein klares Abrufziel haben. Auf der Rückseite steht zuerst die direkte Antwort, danach eine kurze Erklärung oder Rechnung. Teile die Karte, sobald die Rückseite mehrere voneinander unabhängige Fakten abfragt.
 
 ## Probiere diese Kartenformate für die Technician-Prüfung aus
 
@@ -137,7 +137,7 @@ Ordne nach jeder Übungsprüfung jede falsche Antwort und jede nur erratene rich
 - **Lücke beim Lesen von Abbildungen:** Du konntest ein Symbol nicht erkennen oder eine Verbindung nicht verfolgen. Übe mit den offiziellen Abbildungen.
 - **Lesefehler:** Du hast Wörter wie `not`, `except`, `maximum` oder `minimum` übersehen. Lies in Übungsprüfungen langsamer; eine weitere Faktenkarte hilft hier möglicherweise nicht.
 
-Kopiere eine falsch beantwortete Frage nicht automatisch vollständig ins Deck. Speichere den Teil, den du nächste Woche abrufen möchtest, und prüfe ihn anschließend in einer anderen randomisierten Übungsprüfung. [Lernkarten vs. Übungstests](/blog/flashcards-vs-practice-tests/) erklärt die Aufgabenteilung genauer: Karten stärken wiederverwendbare Wissenseinheiten, Übungstests prüfen die Auswahl des passenden Wissens, die Stoffabdeckung und deine Leistung im Prüfungskontext.
+Kopiere eine falsch beantwortete Frage nicht automatisch vollständig ins Deck. Speichere den Teil, den du nächste Woche abrufen möchtest, und prüfe ihn anschließend in einer anderen randomisierten Übungsprüfung. Karten stärken wiederverwendbare Wissenseinheiten, Übungstests prüfen die Auswahl des passenden Wissens, die Stoffabdeckung und deine Leistung im Prüfungskontext.
 
 Der ARRL-Leitfaden [Schritt für Schritt zur Amateurfunklizenz](https://www.arrl.org/getting-licensed-step-by-step) beschreibt die Technician-Prüfung und verlinkt ein kostenloses Tool für randomisierte Übungsprüfungen. Für welchen Anbieter du dich auch entscheidest: Prüfe, ob er ausdrücklich den seit dem 1. Juli 2026 gültigen Pool verwendet.
 

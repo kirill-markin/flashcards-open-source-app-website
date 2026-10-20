@@ -66,9 +66,9 @@ Yo preferiría separarlo en preguntas como:
 
 Eso te da **flashcards de anatomía para medicina** más limpias, que siguen siendo fáciles de responder incluso cuando estás cansado y vas con prisa.
 
-Si en anatomía dependes mucho de diagramas, este artículo complementario encaja mejor en la parte inicial del flujo:
+Si estudias anatomía con diagramas:
 
-- [Cómo convertir diagramas en flashcards en 2026](https://nibomo.com/blog/how-to-turn-diagrams-into-flashcards/)
+- Oculta una etiqueta del diagrama y comprueba la respuesta con una imagen completa y verificada.
 
 ## Las tarjetas de farmacología deberían ayudarte a elegir, no a recitar
 
@@ -129,10 +129,10 @@ Yo usaría las diapositivas de otra manera:
 
 Esto importa porque **las flashcards para medicina** no están para preservar la clase. Están para preservar lo que quieres seguir sabiendo más adelante.
 
-Si tu material fuente son sobre todo apuntes o documentos largos, estos artículos relacionados encajan con esa parte inicial del flujo:
+Si partes de apuntes o documentos largos:
 
-- [Cómo convertir apuntes en flashcards en 2026](https://nibomo.com/blog/turn-notes-into-flashcards/)
-- [Cómo convertir un PDF en flashcards en 2026](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- Selecciona de tus apuntes conceptos que necesites recuperar, sin convertir cada frase en una tarjeta.
+- Comprueba el texto extraído del PDF antes de redactar y guardar las preguntas.
 
 ## Los errores del banco de preguntas deberían moldear la segunda mitad del mazo
 
@@ -151,9 +151,9 @@ Ejemplos:
 
 Eso te da un mazo moldeado por fallos reales, no solo por lo que la clase enfatizaba. El mazo no está ahí para motivarte. Está ahí para evitar que se repitan ciertos errores concretos.
 
-Si ésa es la parte en la que más ayuda necesitas, éste es el artículo complementario directo:
+Al revisar errores de práctica:
 
-- [Cómo convertir preguntas de práctica en flashcards en 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- Convierte un error de práctica en una pregunta propia sobre la laguna concreta.
 
 ## Un flujo semanal de flashcards para medicina suele ser aburrido a propósito
 
@@ -187,9 +187,9 @@ Eso importa porque la preparación de exámenes tipo board tiene varias piezas m
 
 Si todo eso vive en una sola cola sin forma, el mazo deja de parecer fiable.
 
-Si quieres más detalle sobre la parte de organización, lee este artículo después:
+Para organizar las tarjetas:
 
-- [Cómo organizar flashcards en 2026](https://nibomo.com/blog/how-to-organize-flashcards/)
+- Usa pocas categorías de mazos y etiquetas para agrupar las tarjetas que quieras revisar juntas.
 
 ## FSRS ayuda más cuando dejas de meterle caos
 
@@ -207,14 +207,14 @@ Así que yo mantendría el orden así de simple:
 2. mantén el mazo bajo control
 3. deja que FSRS decida el siguiente momento
 
-Si tu cola ya se está yendo de las manos, estos dos artículos encajan directamente con el flujo de medicina:
+Si la cola de medicina se está acumulando:
 
 - [¿Cuántas flashcards nuevas al día en 2026?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
-- [Cómo estudiar para un examen con FSRS en 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- Reduce las tarjetas nuevas antes del examen para dejar tiempo a repasos y práctica completa.
 
-Y si quieres que te expliquen el propio modelo de planificación:
+Antes de ajustar la planificación:
 
-- [FSRS vs. SM-2 en 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
+- Comprueba qué historial y controles ofrece tu planificador antes de cambiar los intervalos.
 
 ## Una rutina de medicina que funciona suele ser más pequeña que tu ambición
 
@@ -254,6 +254,6 @@ Ahí es donde el mazo se gana su espacio.
 
 Esa combinación importa porque los mazos de medicina suelen fracasar cuando el flujo de trabajo se dispersa. El material vive en diapositivas de clase, bancos de preguntas, documentos de apuntes y sesiones de repaso sueltas. El sistema útil es el que te deja convertir todo eso en mejores tarjetas sin convertir el repaso diario en otra tarea administrativa.
 
-Si el problema principal es la calidad de las tarjetas más que el flujo por materia, este artículo combina bien con el de medicina:
+Si el problema es la calidad de las tarjetas:
 
-- [Cómo crear mejores flashcards en 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
+- Divide las tarjetas sobrecargadas y formula una sola pregunta evaluable en cada una.

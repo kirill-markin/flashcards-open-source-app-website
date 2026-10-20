@@ -74,7 +74,7 @@ Die offizielle Seite zu den [KI-Karteikarten von StudySmarter](https://www.study
 
 Diese Werkzeuge erfüllen unterschiedliche Aufgaben. Fertige Materialien liefern einen Ausgangspunkt. Multiple-Choice-Quiz zeigen schnell, welche Themen bereits sitzen. Probeprüfungen decken Lücken beim schriftlichen Argumentieren, beim Zeitmanagement und in der Prüfungstechnik auf, die eine reine Kartenabfrage nicht nachbilden kann.
 
-Nibomo zeigt eine Vorderseite, deckt die Rückseite auf und speichert danach deine Bewertung als Again, Hard, Good oder Easy. Es gibt keine integrierte Community-Bibliothek, keinen Multiple-Choice-Builder, keinen Prüfungsmodus mit Zeitlimit, keinen Generator für Probeprüfungen und keine Lernspiele. Eine Antwort ohne vier sichtbare Optionen abzurufen ist eine sinnvolle Übung, ersetzt aber keine Prüfungssimulation. [Karteikarten und Übungstests lösen unterschiedliche Probleme](/blog/flashcards-vs-practice-tests/); StudySmarter vereint beides in einer Lernapp.
+Nibomo zeigt eine Vorderseite, deckt die Rückseite auf und speichert danach deine Bewertung als Again, Hard, Good oder Easy. Es gibt keine integrierte Community-Bibliothek, keinen Multiple-Choice-Builder, keinen Prüfungsmodus mit Zeitlimit, keinen Generator für Probeprüfungen und keine Lernspiele. Eine Antwort ohne vier sichtbare Optionen abzurufen ist eine sinnvolle Übung, ersetzt aber keine Prüfungssimulation. Karteikarten trainieren einzelne Abrufziele, Übungstests die Anwendung im Prüfungskontext; StudySmarter vereint beides in einer Lernapp.
 
 ## Beide nutzen Spaced Repetition, aber nur Nibomo dokumentiert FSRS-6
 
@@ -82,7 +82,7 @@ StudySmarter gibt an, dass sein Karteikartentrainer die Wiederholungen mit einem
 
 Nibomo dokumentiert FSRS-6 öffentlich im Produkt und im Quellcode-Repository. Mit Again, Hard, Good oder Easy aktualisierst du den Gedächtniszustand einer Karte und ihren nächsten Fälligkeitstermin. Implementierung und festgelegte Parameter lassen sich prüfen, statt sie aus einer Produktbeschreibung ableiten zu müssen.
 
-Diese Transparenz ist hilfreich, wenn du genau verstehen willst, wie die morgige Wiederholungsrunde zustande kommt. Sie macht Nibomo bei Notizen, Lernplanung oder Prüfungsvorbereitung nicht besser. Der Scheduler ist ein eng begrenzter Grund für die App, kein Ersatz für den übrigen Vergleich. Mehr zum Modell und seinen Grenzen findest du im Leitfaden [FSRS vs SM-2](/blog/fsrs-vs-sm-2/).
+Diese Transparenz ist hilfreich, wenn du genau verstehen willst, wie die morgige Wiederholungsrunde zustande kommt. Sie macht Nibomo bei Notizen, Lernplanung oder Prüfungsvorbereitung nicht besser. Der Scheduler ist ein eng begrenzter Grund für die App, kein Ersatz für den übrigen Vergleich.
 
 ## Offline Karteikarten lernen: Bei StudySmarter gilt ein genauer Rahmen
 

@@ -69,11 +69,11 @@ Lo que estás comprobando es si de verdad puedes producir la definición, el pas
 
 Por eso el active recall suele resultar un poco incómodo cuando funciona. Leer apuntes se siente más suave. Reconocer algo se siente más agradable. Recuperarlo de memoria es donde aparecen las grietas.
 
-Si quieres versiones más concretas de esa parte del proceso, estos artículos encajan mejor:
+Para practicar esa parte del proceso:
 
-- [Cómo usar IA para hacer active recall en 2026](/es/blog/how-to-use-ai-for-active-recall/)
+- Pide a la IA una pregunta y responde sin ayuda antes de ver la explicación.
 - [Cómo usar el método blurting con flashcards en 2026](/es/blog/how-to-use-the-blurting-method-with-flashcards/)
-- [Cómo usar la técnica Feynman con flashcards en 2026](/es/blog/how-to-use-the-feynman-technique-with-flashcards/)
+- Explica el concepto con tus propias palabras, detecta la laguna y crea una pregunta concreta sobre ella.
 
 ## La repetición espaciada es la capa de tiempo
 
@@ -90,7 +90,7 @@ En ese momento cambia la pregunta. Ya no es "¿puedo recuperar esto?". Ahora es 
 
 Ese es el problema de planificación que resuelve la repetición espaciada.
 
-Un buen planificador hace volver antes el material inestable y luego va ampliando el intervalo a medida que el recuerdo se vuelve más fácil. En [Nibomo](/es/), esa capa de tiempo funciona con FSRS, y eso importa en cuanto tu cola de repaso deja de ser un mazo diminuto. Si lo que te interesa es la comparación entre planificadores, [FSRS vs SM-2 en 2026](/es/blog/fsrs-vs-sm-2/) es la versión más a fondo.
+Un buen planificador hace volver antes el material inestable y luego va ampliando el intervalo a medida que el recuerdo se vuelve más fácil. En [Nibomo](/es/), esa capa de tiempo funciona con FSRS, y eso importa en cuanto tu cola de repaso deja de ser un mazo diminuto.
 
 Así que la **repetición espaciada** no sustituye al active recall. Es el calendario del material que se ganó otro repaso.
 
@@ -149,7 +149,7 @@ Quédate con los fallos. Quédate con las dudas. Quédate con las confusiones qu
 
 No te quedes con toda la actuación.
 
-Si te interesa ese paso más amplio entre tutor o apuntes y sistema de repaso, [Cómo usar IA para estudiar en 2026](/es/blog/how-to-use-ai-to-study/) es el artículo complementario más cercano.
+Guarda solo las preguntas que quieras volver a repasar y revisa sus respuestas con la fuente antes de incorporarlas al sistema.
 
 ## Lo que debería quedar fuera de "repasar después"
 
@@ -170,11 +170,11 @@ Si la tarjeta depende del contexto que la rodea, reescríbela.
 
 Si el material ya era obvio y siguió siéndolo, déjalo en paz.
 
-Estas guías entran más a fondo en ese filtro:
+Para aplicar ese filtro y profundizar:
 
 - [¿Qué debería ir en una flashcard en 2026?](/es/blog/what-should-go-on-a-flashcard/)
-- [Cómo hacer mejores flashcards en 2026](/es/blog/how-to-make-better-flashcards/)
-- [Cómo arreglar flashcards creadas con IA en 2026](/es/blog/how-to-fix-ai-flashcards/)
+- Divide las tarjetas sobrecargadas y limita cada pregunta a un objetivo de recuerdo.
+- Comprueba los borradores de IA con la fuente y corrige las preguntas vagas antes de guardarlos.
 
 ## Qué se rompe cuando usas solo una de las dos
 
@@ -238,7 +238,7 @@ Ahí también importa la parte específica del producto:
 - una base de código open source si quieres visibilidad sobre el sistema
 - una vía self-hosted si prefieres tener tu stack de estudio bajo tu propio control
 
-Si quieres los puntos de entrada del producto después de ese relevo, empieza por la [página de funcionalidades](/es/features/), la [guía de inicio](/es/docs/getting-started/) o la [guía de self-hosting](/es/docs/self-hosting/). Si lo que más te importa es el ángulo open source, [App open source y self-hosted de flashcards para repetición espaciada en 2026](/es/blog/self-hosted-open-source-flashcards-app-for-spaced-repetition/) es la lectura más directa.
+Si quieres los puntos de entrada del producto después de ese relevo, empieza por la [página de funcionalidades](/es/features/), la [guía de inicio](/es/docs/getting-started/) o la [guía de self-hosting](/es/docs/self-hosting/).
 
 ## La respuesta práctica
 

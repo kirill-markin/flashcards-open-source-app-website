@@ -66,7 +66,7 @@ Quizlet के [आधिकारिक export निर्देशों](htt
 5. Working copy को import या attach करें, कुछ cards के आगे और पीछे का preview देखें और उसके बाद ही उन्हें save करें।
 6. Destination deck खोलकर जाँच लेने तक Quizlet set और मूल file दोनों सुरक्षित रखें।
 
-Separators, CSV और files से जुड़ी पूरी checklist [2026 में Quizlet Sets Export करने का तरीका](/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/) में है। एक अहम सीमा आसानी से छूट सकती है: export से केवल cards का text जाता है; Quizlet की images, folders, study history, mastery state और scheduling साथ नहीं आते।
+पहले छोटी फ़ाइल पर separators, encoding और multiline definitions जाँचें। Export केवल cards का text ले जाता है; Quizlet की images, folders, study history, mastery state और scheduling साथ नहीं आती।
 
 इसीलिए यह transfer ऐसा होना चाहिए कि ज़रूरत पड़ने पर आप पीछे लौट सकें। अगर कई पंक्तियों वाली कोई definition दो cards में बँट जाए या separator fields को खिसका दे, तो मूल file आपके पास तुलना के लिए साफ़ reference रहेगी।
 
@@ -87,11 +87,11 @@ Nibomo का remote MCP endpoint यह है:
 3. Nibomo में save करने से पहले mapped cards की समीक्षा करें; और
 4. आगे पढ़ने और लिखने के लिए उस Nibomo workspace को किसी compatible client से जोड़ें।
 
-Claude के लिए connector के चरण [Nibomo को MCP से Claude के साथ कैसे जोड़ें](/blog/how-to-connect-flashcards-to-claude-with-mcp/) में हैं। Codex और दूसरे agents उस documented MCP या Agent API route का इस्तेमाल कर सकते हैं जिसे उनका environment support करता है।
+[MCP connector संदर्भ](/docs/mcp-connector/) में कनेक्शन और उपलब्ध tools की जानकारी है। अपने client में समर्थित documented MCP या Agent API route इस्तेमाल करें।
 
 Nibomo कोई Quizlet URL नहीं पढ़ सकता, Quizlet account की copy नहीं बना सकता, बाद में Quizlet में हुए बदलाव sync नहीं कर सकता और export से छूटी images या study history वापस नहीं ला सकता। आप जो सामग्री वहाँ ले जाते हैं, उससे वह अपने cards और नई scheduling state बनाता है।
 
-अगर agent access के अलावा बाकी फ़ायदे और नुकसान भी तौलने हैं, तो [open source Quizlet alternative की तुलना](/blog/quizlet-alternative/) देखें।
+Agent access के साथ study modes, डेटा पर नियंत्रण और collection को दोबारा बनाने के काम को भी तौलें।
 
 ## काम के लिए जितनी ज़रूरत हो, अनुमति उससे आगे न बढ़ाएँ
 
@@ -99,7 +99,7 @@ Nibomo कोई Quizlet URL नहीं पढ़ सकता, Quizlet accoun
 
 Nibomo पढ़ने वाले operations को अपने write tools से अलग रखता है: cards और decks के लिए `sql_execute`, reviews के लिए `submit_review`। फिर भी OAuth credential पूरे connector surface पर लागू होता है, इसलिए tools को block करने और approvals का व्यवहार client पर निर्भर करता है। शुरुआत छोटे और non-sensitive workspace से करें। Agent को केवल वही data पढ़ने दें जो काम के लिए ज़रूरी है। Client में सुविधा हो तो हर write के लिए approval रखें, और बदलाव स्वीकार करने से पहले workspace तथा प्रस्तावित बदलाव की जाँच करें।
 
-निजी study material तब तक न जोड़ें, जब तक आप AI client की retention और data-handling terms न देख लें। विस्तृत threat model [क्या MCP Flashcards के लिए सुरक्षित है?](/blog/is-mcp-safe-for-flashcards/) में है। पहले transfer के लिए एक आसान नियम काफ़ी है: मूल export रखें, कुछ cards का preview देखें, सीमित write को मंज़ूरी दें और आगे बढ़ने से पहले destination app में नतीजे की जाँच करें।
+निजी study material तब तक न जोड़ें, जब तक आप AI client की retention और data-handling terms न देख लें। Tool permissions जाँचें और deletion requests को अलग मंज़ूरी दें। पहले transfer के लिए एक आसान नियम काफ़ी है: मूल export रखें, कुछ cards का preview देखें, सीमित write को मंज़ूरी दें और आगे बढ़ने से पहले destination app में नतीजे की जाँच करें।
 
 ## Browser के निजी traffic को API न समझें
 

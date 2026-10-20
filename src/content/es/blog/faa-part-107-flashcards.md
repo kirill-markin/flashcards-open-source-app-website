@@ -173,7 +173,7 @@ Después de una tanda de práctica autorizada, revisa todas las respuestas incor
 
 Por ejemplo, un fallo en una pregunta sobre el espacio aéreo puede revelar que no reconoces el símbolo de un límite. Ese símbolo puede convertirse en una tarjeta. Si reconociste todos los símbolos, pero combinaste mal los detalles de la carta, quizá otra tarjeta aislada no te ayude. Dedica más sesiones a interpretar cartas.
 
-El mismo proceso sirve para meteorología y normativa. La guía sobre [cómo convertir preguntas de práctica en flashcards](/blog/how-to-turn-practice-questions-into-flashcards/) ofrece más formatos de tarjetas, mientras que [flashcards frente a exámenes de práctica](/blog/flashcards-vs-practice-tests/) explica por qué ambas herramientas deben seguir formando parte del plan.
+El mismo proceso sirve para meteorología y normativa. Conserva tanto las tarjetas para recordar conceptos como los exámenes de práctica para aplicarlos en situaciones nuevas.
 
 ## Mantén la interpretación de cartas y la práctica completa fuera del mazo
 
@@ -203,7 +203,7 @@ Una configuración sencilla en [Nibomo](/features/) basta para seguir este flujo
 
 FSRS programa cuándo volverá a aparecer cada tarjeta. No comprueba la precisión normativa, no interpreta una carta completa ni predice el resultado del examen. Empieza con tiempo suficiente para que las tarjetas reaparezcan después de intervalos reales y mantén en el calendario las sesiones con cartas y las preguntas de práctica.
 
-La [guía sobre el calendario de repaso de flashcards](/blog/how-often-should-you-review-flashcards/) explica cómo funcionan los repasos pendientes. La [guía de primeros pasos](/docs/getting-started/) cubre la creación de tarjetas, el repaso, el chat con IA y los archivos adjuntos. La aplicación no incluye un mazo prediseñado para la Parte 107 de la FAA, no proporciona preguntas oficiales del examen, no simula el examen UAG ni sustituye los materiales de estudio de la FAA.
+Repasa las tarjetas pendientes en lugar de empezar cada día por todo el mazo. La [guía de primeros pasos](/docs/getting-started/) cubre la creación de tarjetas, el repaso, el chat con IA y los archivos adjuntos. La aplicación no incluye un mazo prediseñado para la Parte 107 de la FAA, no proporciona preguntas oficiales del examen, no simula el examen UAG ni sustituye los materiales de estudio de la FAA.
 
 La app Nibomo no está afiliada a la FAA ni cuenta con su respaldo. Tú proporcionas el contenido de las tarjetas y eres responsable de comprobarlo con el material oficial vigente.
 

@@ -249,7 +249,7 @@ La fecha o la hora exigidas, los requisitos y las exclusiones.
 
 Este tipo de pregunta oficial aparece desde N5 hasta N1. Los materiales empleados y la complejidad cambian, pero el hábito de comprobar todas las condiciones sigue siendo útil.
 
-[Cómo convertir preguntas de práctica en tarjetas de estudio](/blog/how-to-turn-practice-questions-into-flashcards/) ofrece un flujo de trabajo más completo para reducir una pregunta fallada a una lección reutilizable. Mantén el siguiente texto desconocido en tu plan; [las flashcards y los exámenes de práctica](/blog/flashcards-vs-practice-tests/) miden partes distintas de tu preparación.
+Reduce cada pregunta fallada a un aprendizaje reutilizable y formula una pregunta propia. Mantén también la práctica con textos desconocidos: las tarjetas prueban el recuerdo y las tareas completas su aplicación.
 
 ## La comprensión auditiva empieza antes de abrir la transcripción
 
@@ -330,7 +330,7 @@ Empieza con el material que ya estés estudiando y con errores que hayas cometid
 - Una vez a la semana, completa un bloque mixto con los tipos de preguntas oficiales de tu nivel.
 - Completa con regularidad una sección más larga de lectura o comprensión auditiva sin ayuda del mazo.
 
-FSRS puede programar repasos posteriores a partir de tu historial: hace reaparecer antes las tarjetas difíciles y amplía el intervalo de las que ya conoces. No sabe si una frase suena natural, si una tarjeta corresponde a N2 o si has copiado una explicación incorrecta. El [flujo de estudio para exámenes con FSRS](/blog/how-to-study-for-an-exam-with-fsrs/) explica cómo reducir la creación de tarjetas nuevas antes de la fecha fija de un examen.
+FSRS puede programar repasos posteriores a partir de tu historial: hace reaparecer antes las tarjetas difíciles y amplía el intervalo de las que ya conoces. No sabe si una frase suena natural, si una tarjeta corresponde a N2 o si has copiado una explicación incorrecta. Reduce las tarjetas nuevas antes de la fecha del examen para conservar tiempo de repaso y práctica.
 
 En [Nibomo](/features/), las tarjetas sencillas de anverso y reverso bastan para los ejemplos de esta guía. Las etiquetas pueden conservar el nivel y el tipo de pregunta, como `N3`, `kanji-reading`, `paraphrase`, `text-grammar` o `listening-miss`. Puedes añadir imágenes o archivos relacionados cuando aporten un contexto útil, repasar con FSRS las tarjetas pendientes, estudiar sin conexión en el móvil y sincronizar los cambios cuando recuperes la conexión. La importación y la exportación permiten trasladar las tarjetas, las etiquetas y los archivos relacionados.
 

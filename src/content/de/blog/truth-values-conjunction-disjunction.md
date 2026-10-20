@@ -112,4 +112,4 @@ Formuliere die Lernkarte so, dass du damit gezielt die Ursache deines Fehlers ü
 | Wie lautet die Negation von `x > 10` für reelle Zahlen? | `x ≤ 10`; die Negation schließt die Gleichheit ein. |
 | `p` ist falsch und `q` ist wahr. Bestimme `p ∨ (¬q)`. | Falsch; die Negation von `q` ist falsch, und eine Disjunktion aus falsch und falsch ergibt falsch. |
 
-Beantworte die Frage, bevor du die Karte umdrehst. Löse danach ein Beispiel mit neuen Zahlen auf Papier. Du kannst Papierkarten oder Karten mit Vorder- und Rückseite in der App verwenden. Wie das geht, zeigt dir die [Anleitung für den Einstieg](/de/docs/getting-started/). Mehr dazu findest du unter [Lernkarten für Mathematik verwenden](/de/blog/how-to-use-flashcards-for-math/) und [klarere Lernkarten formulieren](/de/blog/how-to-make-better-flashcards/).
+Beantworte die Frage, bevor du die Karte umdrehst. Löse danach ein Beispiel mit neuen Zahlen auf Papier. Du kannst Papierkarten oder Karten mit Vorder- und Rückseite in der App verwenden. Wie das geht, zeigt dir die [Anleitung für den Einstieg](/de/docs/getting-started/). Formuliere jede Karte so, dass sie ein einzelnes Abrufziel prüft.

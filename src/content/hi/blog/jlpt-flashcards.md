@@ -249,7 +249,7 @@ Information-retrieval की गलतियों के लिए selection ru
 
 यह official item type N5 से N1 तक आता है। Source materials और complexity बदलते हैं, लेकिन हर condition जाँचने की आदत काम आती रहती है।
 
-[Practice questions को flashcards में बदलने का तरीका](/blog/how-to-turn-practice-questions-into-flashcards/) छूटे हुए question को दोबारा काम आने वाले एक lesson में बदलने का पूरा workflow बताता है। अपने plan में अगला नया passage भी रखिए; [flashcards और practice tests](/blog/flashcards-vs-practice-tests/) तैयारी के अलग-अलग हिस्से मापते हैं।
+गलत हुए question से दोबारा काम आने वाली सीख निकालें और अपने शब्दों में एक सवाल बनाएँ। अगला नया passage भी करें: कार्ड recall जाँचते हैं और पूरे अभ्यास उसका इस्तेमाल।
 
 ## Transcript देखने से पहले listening शुरू होती है
 
@@ -330,7 +330,7 @@ N1 से N3 तक हर scoring section में कम से कम 60 म
 - हफ़्ते में एक बार अपने level के official item formats वाला mixed block पूरा कीजिए।
 - नियमित रूप से deck की मदद के बिना कोई लंबा reading या listening section पूरा कीजिए।
 
-FSRS आपकी review history से अगली reviews schedule कर सकता है। यह मुश्किल cards को जल्दी वापस लाता है और परिचित cards के बीच लंबा अंतर रखता है। उसे यह नहीं पता कि कोई sentence natural है, card N2 के लिए सही है या आपने खराब explanation copy की है। [FSRS exam workflow](/blog/how-to-study-for-an-exam-with-fsrs/) बताता है कि तय test date से पहले नए cards बनाना कैसे धीमा करें।
+FSRS आपकी review history से अगली reviews schedule कर सकता है। यह मुश्किल cards को जल्दी वापस लाता है और परिचित cards के बीच लंबा अंतर रखता है। उसे यह नहीं पता कि कोई sentence natural है, card N2 के लिए सही है या आपने खराब explanation copy की है। तय test date से पहले नए cards कम करें ताकि reviews और पूरे exercises के लिए समय बचे।
 
 [Nibomo](/features/) में इस guide के examples के लिए सादे front/back cards काफ़ी हैं। `N3`, `kanji-reading`, `paraphrase`, `text-grammar` या `listening-miss` जैसे tags level और item type को सहेज सकते हैं। आप उपयोगी context देने वाली images या related media जोड़ सकते हैं, FSRS के साथ due cards review कर सकते हैं, mobile पर offline पढ़ सकते हैं और connection लौटने पर changes sync कर सकते हैं। Import और export से cards, tags और related media को साथ ले जाना आसान रहता है।
 

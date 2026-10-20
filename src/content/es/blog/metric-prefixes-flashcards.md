@@ -131,7 +131,7 @@ Anverso: Compara los símbolos de prefijo del SI P y p.
 Reverso: P es peta, 10^15. p es pico, 10^-12.
 ```
 
-La [guía para crear mejores flashcards](/blog/how-to-make-better-flashcards/) explica por qué las preguntas acotadas y los reversos directos son más fáciles de corregir con honestidad.
+Las preguntas acotadas y los reversos directos son más fáciles de evaluar con honestidad.
 
 ## Recordar los prefijos y hacer conversiones métricas son habilidades distintas
 
@@ -163,7 +163,7 @@ Reverso: Mayor. Un microgramo es una unidad más pequeña, así que la misma mas
 contiene más microgramos.
 ```
 
-Esa tarjeta conserva una comprobación de magnitud que puedes reutilizar. El cálculo corresponde a los problemas. La [guía de flashcards para química avanzada](/blog/how-to-use-flashcards-for-advanced-chemistry/) aplica la misma separación: memoriza los datos estables y las distinciones que se repiten, y haz después los cálculos completos por separado.
+Esa tarjeta conserva una comprobación de magnitud que puedes reutilizar. El cálculo corresponde a los problemas. Memoriza los datos estables y las distinciones que se repiten, y haz los cálculos completos por separado.
 
 ## Trata el prefijo y la unidad como una sola pieza
 
@@ -212,7 +212,7 @@ Recitar toda la tabla de quetta a quecto puede ayudarte a recordar el orden y, a
 6. **Haz una serie corta de conversiones.** Incluye conversiones de unidades mayores a menores, de menores a mayores, notación científica y al menos una unidad cuadrada o cúbica.
 7. **Convierte solo los errores repetidos en tarjetas de corrección.** Deja fuera del mazo a largo plazo la aritmética nueva y los planteamientos de varios pasos.
 
-Sigue un orden claro en el primer bloque de aprendizaje. Mezcla elementos parecidos después de que sus correspondencias básicas sean estables. La [guía sobre práctica intercalada](/blog/how-to-use-interleaving-with-flashcards/) muestra cómo mezclar categorías que se confunden sin convertir la sesión en una sucesión aleatoria de cambios de contexto.
+Sigue un orden claro en el primer bloque de aprendizaje. Mezcla elementos parecidos después de que sus correspondencias básicas sean estables. Mezcla categorías que puedan confundirse, sin convertir la sesión en cambios aleatorios de tema.
 
 Repasa las tarjetas guardadas cuando les toque. Nibomo admite tarjetas Markdown de anverso y reverso, mazos y etiquetas, contenido multimedia y repasos programados con FSRS. El mazo ya preparado sobre prefijos métricos se ocupa de la memorización; no comprueba cálculos ni genera problemas de conversión por ti.
 

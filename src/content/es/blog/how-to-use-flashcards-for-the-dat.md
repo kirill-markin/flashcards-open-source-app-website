@@ -111,7 +111,7 @@ El flujo práctico es simple:
 
 Ejemplos: fallaste una pregunta de biología porque confundiste las funciones del lisosoma y el peroxisoma. Convierte esa diferencia en la tarjeta. Fallaste una pregunta de química orgánica porque ignoraste el paso ácido-base antes de predecir el producto. Convierte ese punto de decisión en tarjeta. Fallaste un problema de QR porque planteaste la razón al revés. Convierte en tarjeta la regla del planteamiento, no toda la historia del problema.
 
-[How to Turn Practice Questions Into Flashcards in 2026](/blog/how-to-turn-practice-questions-into-flashcards/) profundiza más en este flujo, y encaja especialmente bien con el DAT porque este examen castiga más los pequeños fallos repetidos que las grandes lagunas de conocimiento.
+Extrae de cada error de práctica un aprendizaje concreto y conviértelo en una pregunta propia. Después resuelve una pregunta nueva para comprobar que puedes aplicarlo.
 
 ## Deja que la AI haga borradores, pero revísalos con escepticismo
 
@@ -127,7 +127,7 @@ La preparación del DAT suele empezar de forma ordenada y luego se vuelve desigu
 
 Un ritmo práctico se parece a esto: repasa las tarjetas pendientes cada día, añade tarjetas nuevas en lotes pequeños, sigue incorporando tarjetas de errores de práctica después de cada bloque y reescribe cualquier tarjeta que sigas fallando por culpa de la redacción.
 
-Si quieres entrar más a fondo en cómo programar los repasos, [FSRS Settings in 2026](/blog/fsrs-settings/) y [How to Study for an Exam With FSRS in 2026](/blog/how-to-study-for-an-exam-with-fsrs/) son las lecturas complementarias adecuadas.
+Ajusta la carga de tarjetas al tiempo disponible antes del DAT y reserva tiempo para repasos y simulacros. No cambies las valoraciones para forzar intervalos más cortos.
 
 ## Un ejemplo de horario semanal de estudio para el DAT con flashcards
 

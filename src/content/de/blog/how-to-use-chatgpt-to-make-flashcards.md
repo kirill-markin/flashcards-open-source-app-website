@@ -71,7 +71,7 @@ Lies diese Übersicht, bevor du weitermachst. Führt ChatGPT etwas auf, das du n
 
 Wenn die Übersicht der Quelle stimmt, kannst du Kartenvorschläge erstellen lassen. Das Wort „Vorschlag“ ist wichtig, denn damit bleibt der nächste Schritt klar: Du musst die Karten noch genehmigen.
 
-Eine gute Vorderseite stellt eine klare Frage. Eine gute Rückseite beantwortet genau diese Frage. Die Karte sollte auch später verständlich sein, wenn die Quelle nicht mehr geöffnet und die Vorlesung nicht mehr frisch im Gedächtnis ist. Weitere Beispiele für Inhalte, die in dieses Format passen, findest du unter [Was gehört auf eine Karteikarte?](/de/blog/what-should-go-on-a-flashcard/).
+Eine gute Vorderseite stellt eine klare Frage. Eine gute Rückseite beantwortet genau diese Frage. Die Karte sollte auch später verständlich sein, wenn die Quelle nicht mehr geöffnet und die Vorlesung nicht mehr frisch im Gedächtnis ist.
 
 Hier ist ein kopierbarer **ChatGPT-Prompt für Karteikarten**:
 
@@ -150,7 +150,7 @@ Geh die Vorschläge einzeln durch. Mit einer einfachen Qualitätskontrolle finde
 5. **Für spätere Wiederholungen relevant:** Ist diese Information über die heutige Lektüre hinaus wichtig? Lösche Überschriften, offensichtliche Füllinhalte, doppelte Aussagen und Details, die du bei Bedarf schnell herleiten kannst.
 6. **Faire Bewertung:** Würdest du eine sinngemäß richtige Antwort erkennen, oder verlangt die Karte den exakten Wortlaut von ChatGPT? Formuliere Vorderseiten um, die versehentlich eine Formulierung statt Wissen abfragen.
 
-Der weiterführende Leitfaden zum [Verbessern von KI-Karteikarten](/de/blog/how-to-fix-ai-flashcards/) erklärt genauer, wie du vage, überladene und doppelte Karten korrigierst. Wenn bei der Generierung deine Warteschlange immer weiter wächst, helfen die strengeren Regeln in [So vermeidest du zu viele KI-Karteikarten](/de/blog/how-to-avoid-ai-flashcard-overload/).
+Korrigiere vage Fragen, teile überladene Karten und lösche Duplikate vor dem Speichern. Wenn die Warteschlange wächst, begrenze neue Entwürfe auf die Wissenslücken, die du tatsächlich üben möchtest.
 
 Du kannst ChatGPT um Hilfe bei dieser Prüfung bitten. Lass die Quelle dabei geöffnet und triff die endgültige Entscheidung selbst:
 
@@ -208,7 +208,7 @@ und speichere nichts.
 
 Study Mode ist in normalen Chats und in Temporary Chats verfügbar, aber nicht in GPT-Unterhaltungen oder Chats innerhalb von Projects. ChatGPT [Projects](https://help.openai.com/en/articles/10169521-using-projects-in-chatgpt) können Dateien, Anweisungen und Chats für wiederkehrende Arbeit in einem Kontext bündeln und daher für einen längeren Kurs trotzdem nützlich sein. Öffne einen normalen Chat, wenn du ausdrücklich Study Mode verwenden möchtest.
 
-Der ergänzende Leitfaden [So machst du aus ChatGPT Study Mode Karteikarten](/de/blog/how-to-turn-chatgpt-study-mode-into-flashcards/) konzentriert sich auf Lernbegleitung, Fehler und Wissenslücken. Dieser Artikel deckt den breiteren Ablauf vom Quellenmaterial bis zum genehmigten Kartenstapel ab.
+Nutze Lernbegleitung, Fehler und Wissenslücken als Ausgangspunkt für neue Karten. Prüfe jeden Entwurf am Quellenmaterial, bevor du den Kartenstapel genehmigst.
 
 ## Gib nur die genehmigten Karten aus
 
@@ -237,7 +237,7 @@ Wenn Codex oder ein anderer MCP-Client genehmigte Karten direkt speichern soll, 
 
 ChatGPT kann dich in einer Unterhaltung abfragen oder eine Wiederholung im Karteikartenstil erstellen. Keine dieser Aktionen plant deine Karten über längere Zeit. Sobald die genehmigten Karten in einer Karteikarten-App liegen, erledigst du dort die eigentlichen Wiederholungen: Rufe die Antwort ab, decke die Rückseite auf, bewerte das Ergebnis und lass den Algorithmus entscheiden, wann die Karte wiederkehrt.
 
-Nibomo verwendet FSRS für diese Planung. [FSRS im Vergleich mit SM-2](/de/blog/fsrs-vs-sm-2/) erklärt den Unterschied, falls dich die Details des Algorithmus interessieren. Der entscheidende Unterschied ist einfacher: ChatGPT entwirft Vorschläge und hilft dir beim Testen; die Karteikarten-App speichert den Wiederholungsverlauf und steuert den Wiederholungsplan.
+Nibomo verwendet FSRS für diese Planung. Der entscheidende Unterschied ist einfacher: ChatGPT entwirft Vorschläge und hilft dir beim Testen; die Karteikarten-App speichert den Wiederholungsverlauf und steuert den Wiederholungsplan.
 
 Diese Aufgabenteilung erleichtert auch Korrekturen. Findest du später einen Fehler in der Quelle oder gefällt dir die Formulierung nicht mehr, ändere oder lösche die gespeicherte Karte. Lass keine fragwürdige Antwort im Stapel, nur weil ihre Erstellung Zeit gekostet hat.
 

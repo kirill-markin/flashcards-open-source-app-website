@@ -74,7 +74,7 @@ Producción:
 
 Rara vez necesitas todas las versiones. Añade otra variante cuando sigas equivocándote con esa palabra durante la práctica, cuando la reconozcas pero no puedas usarla o cuando su familia léxica te cause errores repetidos. Mantén la frase lo bastante corta para que exija recuperar la respuesta, en lugar de reconocer un párrafo memorizado.
 
-Si necesitas un sistema más amplio para colocaciones, tarjetas con frases y vocabulario productivo, [Cómo usar flashcards para aprender idiomas en 2026](/es/blog/how-to-use-flashcards-for-language-learning/) explica ese enfoque sin adaptar cada ejemplo a un examen concreto.
+Practica colocaciones y frases en contexto, y añade preguntas que te obliguen a producir el vocabulario. Úsalo después en respuestas completas de expresión oral y escrita.
 
 ## Convierte los patrones de frases en tarjetas breves de producción
 
@@ -156,7 +156,7 @@ Aquí tienes cinco conversiones habituales:
 
 No copies una pregunta oficial completa y su explicación en una sola tarjeta. Escribe la lección verificada con tus propias palabras. Deja el ejercicio completo en el material de práctica y conserva en el mazo solo el contenido breve que quieres recordar.
 
-[Cómo convertir preguntas de práctica en tarjetas de estudio en 2026](/es/blog/how-to-turn-practice-questions-into-flashcards/) profundiza en las tarjetas para lagunas de conocimiento, distinciones, secuencias y patrones de trampas. [Flashcards vs pruebas de práctica en 2026](/es/blog/flashcards-vs-practice-tests/) explica por qué la tarjeta y el siguiente ejercicio nuevo deben seguir siendo pasos separados.
+Identifica si el error revela una laguna, una distinción, una secuencia olvidada o una pista mal interpretada. Formula una tarjeta concreta y resuelve después un ejercicio nuevo para comprobar la aplicación.
 
 ## Audita un mazo antiguo para el TOEFL antes de repasarlo
 
@@ -179,7 +179,7 @@ Después, clasifica los resultados en tres grupos:
 
 A continuación, compara las etiquetas de tareas restantes con los 12 nombres actuales de ETS. Asigna una fuente oficial y actual de ETS a cada tarjeta que dependa del formato. También puedes añadir la etiqueta `verified-2026` y la fecha en que la comprobaste como metadatos adicionales. Aquí importan las fechas porque ETS puede actualizar el examen. El vocabulario estable no necesita el mismo tratamiento.
 
-Si el mazo es grande, [Cómo depurar un mazo de flashcards en 2026](/es/blog/how-to-prune-a-flashcard-deck/) ofrece un flujo práctico para eliminar y reescribir tarjetas.
+Si el mazo es grande, elimina las tarjetas que no necesitas, corrige errores y divide las preguntas que mezclen objetivos.
 
 ## Usa la repetición espaciada para retener, no para simular el examen
 
@@ -195,7 +195,7 @@ Basta con una configuración sencilla de repetición espaciada:
 
 Un [experimento de 2025 con flashcards digitales](https://pubmed.ncbi.nlm.nih.gov/41301342/) aporta evidencia limitada a favor de ese paso de recuperación. En una sesión controlada, 108 bilingües de chino e inglés aprendieron 60 pares de palabras en suajili y chino. En las pruebas realizadas tras un intervalo breve, la práctica de recuperación con retroalimentación produjo mejores resultados de recuerdo con pistas que el estudio repetido del material. Los autores señalan que el estudio se concentró en un periodo breve, lo que limita las conclusiones sobre el aprendizaje a largo plazo. Este estudio no demuestra mejoras en la puntuación del TOEFL, transferencia a tareas completas del examen ni beneficios durante varias semanas de preparación.
 
-FSRS programa las tarjetas que decides conservar. No puede juzgar si una fuente está actualizada, si una respuesta oral es inteligible o si una respuesta completa cumple los requisitos de la tarea. [Cómo estudiar para un examen con FSRS en 2026](/es/blog/how-to-study-for-an-exam-with-fsrs/) explica cómo mantener un volumen de repaso realista antes de una fecha de examen fija.
+FSRS programa las tarjetas que decides conservar. No puede juzgar si una fuente está actualizada, si una respuesta oral es inteligible o si una respuesta completa cumple los requisitos de la tarea. Limita las tarjetas nuevas antes del examen para mantener tiempo de repaso y práctica.
 
 ## Mantén el mazo más pequeño que el curso de preparación
 

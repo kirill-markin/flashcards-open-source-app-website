@@ -124,7 +124,7 @@ Quédate con la forma de control más sencilla que resuelva tu problema:
 | Inspeccionar o modificar la aplicación de estudio | Compara los repositorios de código fuente reales y sus archivos de licencia. |
 | Operar el servicio completo por tu cuenta | Exige documentación de despliegue mantenida, procedimientos de copia de seguridad y restauración, y una vía de actualización. |
 
-La [guía general de alternativas a Quizlet](/es/blog/quizlet-alternative/) analiza las diferencias entre productos una vez que sabes qué requisito importa. Una interfaz conocida, un enlace público a GitHub, el acceso sin conexión y el autoalojamiento no son equivalentes.
+Compara los productos a partir de tus requisitos. Una interfaz conocida, un enlace público a GitHub, el acceso sin conexión y el autoalojamiento no son equivalentes.
 
 ## Aviso de transparencia: desarrollo una alternativa de código abierto
 

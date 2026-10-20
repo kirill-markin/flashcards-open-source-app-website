@@ -92,7 +92,7 @@ Nibomo publica unas condiciones distintas. Su [documentación de FSRS-6](https:/
 
 Anki va más allá para quienes quieren ajustar el sistema. Sus [ajustes de FSRS](https://docs.ankiweb.net/deck-options.html#fsrs) incluyen la retención deseada, la optimización de parámetros, los preajustes y herramientas de simulación. Esto convierte a Anki en la opción consolidada en cuanto a planificación, pero no en un ganador automático para quien solo quiera repasar una hoja sin dedicar mucho tiempo a configurarlo.
 
-Para saber más sobre los propios algoritmos, consulta [FSRS vs SM-2](/es/blog/fsrs-vs-sm-2/). No se puede afirmar que Flashcard Lab utilice uno u otro salvo que el proveedor publique más detalles.
+No se puede afirmar que Flashcard Lab utilice uno u otro salvo que el proveedor publique más detalles.
 
 ## Las aplicaciones móviles no resuelven la duda sobre el uso sin conexión
 

@@ -51,7 +51,7 @@ La guía específica de Magic Import enumera nueve fuentes para crear tarjetas:
 - una hoja de cálculo o un archivo CSV; y
 - la URL de un sitio web.
 
-Gizmo genera las tarjetas y resalta las palabras que piensa usar para evaluarte. Su propia guía recomienda revisar el mazo y añadir cualquier contenido que la importación haya omitido. Yo lo trataría como parte del flujo de trabajo, no como una nota al margen: compara las tarjetas con la fuente, elimina las preguntas mal planteadas y corrige los errores antes de incorporar el mazo a los repasos habituales. [Cómo corregir flashcards creadas por IA](/blog/how-to-fix-ai-flashcards/) incluye una lista práctica para depurarlas.
+Gizmo genera las tarjetas y resalta las palabras que piensa usar para evaluarte. Su propia guía recomienda revisar el mazo y añadir cualquier contenido que la importación haya omitido. Yo lo trataría como parte del flujo de trabajo, no como una nota al margen: compara las tarjetas con la fuente, elimina las preguntas mal planteadas y corrige los errores antes de incorporar el mazo a los repasos habituales.
 
 AI Tutor ofrece una vía de importación relacionada. La [guía oficial para importar lecciones](https://help.gizmo.ai/en/articles/15935404-how-do-i-use-magic-import-to-start-an-ai-tutor-lesson) enumera PDF, PowerPoint, YouTube, apuntes, fotos, clases grabadas, conjuntos de Quizlet y un mazo existente de Gizmo. Después, Tutor enseña a partir de ese material y te va haciendo preguntas.
 
@@ -83,7 +83,7 @@ AI Tutor cumple otra función. Puede guiarte por el material paso a paso, genera
 
 En los dos modos, Gizmo convierte el progreso en un juego. Al responder cuestionarios sumas XP y avanzas en Levels, Leagues y Streaks, mientras que Hearts, Hints y Coins influyen en cómo transcurren las sesiones gratuitas. Si estas mecánicas te ayudan a volver cada día, forman parte de la decisión sobre el producto; no son un simple adorno.
 
-Aun así, una pregunta breve para ejercitar el recuerdo y un ejercicio de varios pasos cumplen funciones diferentes. [Flashcards frente a exámenes de práctica](/blog/flashcards-vs-practice-tests/) explica por qué suele ser más útil combinarlos que intentar convertir todos los temas en tarjetas.
+Aun así, una pregunta breve para ejercitar el recuerdo y un ejercicio de varios pasos cumplen funciones diferentes. Combina ambas prácticas en lugar de intentar convertir todos los temas en tarjetas.
 
 ## Cuatro límites que conviene revisar antes de pasar un curso a Gizmo
 
@@ -128,7 +128,7 @@ Nibomo es una alternativa práctica a Gizmo solo para el lado más acotado de es
 
 ## Cuándo encaja mejor Nibomo
 
-Elige Nibomo cuando quieras conservar una tarjeta revisada con anverso y reverso. Puedes crearla manualmente o pedir a la IA que te ayude a redactarla y mejorarla; después, tú decides qué se guarda. El repaso utiliza FSRS; [FSRS frente a SM-2](/blog/fsrs-vs-sm-2/) explica el modelo de programación con más detalle.
+Elige Nibomo cuando quieras conservar una tarjeta revisada con anverso y reverso. Puedes crearla manualmente o pedir a la IA que te ayude a redactarla y mejorarla; después, tú decides qué se guarda. El repaso utiliza FSRS.
 
 Su documentación es más explícita sobre el uso sin conexión y la exportación de datos. Nibomo documenta el estudio sin conexión en dispositivos móviles con sincronización automática, mientras que su [guía de introducción](/docs/getting-started/) especifica que el cliente de iOS utiliza SQLite local y sincronización offline-first. Las exportaciones portátiles incluyen tarjetas, etiquetas y archivos multimedia relacionados, también al trasladar datos entre instalaciones alojadas y autoalojadas.
 

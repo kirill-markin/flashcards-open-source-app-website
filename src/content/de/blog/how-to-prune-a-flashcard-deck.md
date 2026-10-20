@@ -20,7 +20,7 @@ Das ist die Sorte **zu viele Flashcards**, die den meisten erst spät auffällt.
 
 Wenn du nach **wie du ein Flashcard-Deck bereinigst** suchst, ist das meist das eigentliche Problem. Dein System braucht keine Motivationsrede. Es braucht Wartung.
 
-In diesem Artikel geht es um die Bereinigung eines aktiven Decks: die Entscheidung, ob du Karten löschst, aussetzt oder umschreibst, die längst in der Rotation gelandet sind. Du filterst keine Entwürfe. Du kämpfst dich nicht aus einem Backlog nach einer verpassten Woche. Du schaust auf ein Deck, das technisch funktioniert, und merkst, dass ein Teil davon deine Zeit nicht mehr bekommen sollte. Wenn dein Problem früher beginnt, während KI-Entwürfe noch in den Trichter laufen, lies zuerst [Wie du 2026 KI-Flashcard-Overload vermeidest](/de/blog/how-to-avoid-ai-flashcard-overload/). Wenn du schon auf das Chaos nach einer verpassten Woche starrst, ist [Wie du 2026 bei Flashcards wieder aufholst, nachdem du zurückgefallen bist](/de/blog/how-to-catch-up-on-flashcards-after-falling-behind/) der bessere Leitfaden.
+In diesem Artikel geht es um die Bereinigung eines aktiven Decks: die Entscheidung, ob du Karten löschst, aussetzt oder umschreibst, die längst in der Rotation gelandet sind. Du filterst keine Entwürfe. Du kämpfst dich nicht aus einem Backlog nach einer verpassten Woche. Du schaust auf ein Deck, das technisch funktioniert, und merkst, dass ein Teil davon deine Zeit nicht mehr bekommen sollte. Prüfe KI-Entwürfe schon vor dem Speichern und begrenze ihre Zahl. Bei einem Rückstand nach einer Pause reduziere zunächst neue Karten und arbeite die fälligen schrittweise ab.
 
 ![Warmer Schreibtisch mit einer Hand, die Flashcards in Behalten, Umschreiben, Aussetzen und Löschen sortiert](/blog/how-to-prune-a-flashcard-deck.png)
 
@@ -182,7 +182,7 @@ Ich würde die Entscheidungen in dieser Reihenfolge treffen:
 
 Warum in dieser Reihenfolge? Weil FSRS am besten funktioniert, wenn das aktive Deck bereits Karten enthält, die es wert sind, eingeplant zu werden.
 
-Wenn das Deck sauber ist und die Review-Last immer noch zu hoch ist, werden Einstellungen zu einem legitimen Hebel für die Arbeitslast. [FSRS Settings in 2026](/de/blog/fsrs-settings/) geht tiefer rein, aber die Kurzfassung ist:
+Wenn das Deck sauber ist und die Review-Last immer noch zu hoch ist, werden Einstellungen zu einem legitimen Hebel für die Arbeitslast. Dabei gilt:
 
 - senke die gewünschte Retention ein wenig, wenn die Queue zu teuer ist und etwas mehr Vergessen akzeptabel ist
 - erhöhe die Retention nicht in einem aufgeblähten Deck, nur weil es ernster klingt

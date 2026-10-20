@@ -39,7 +39,7 @@ Zwischen den Schritten wird nichts reserviert. Baut ein Chat mittendrin die Verb
 
 Die Bewertungsregeln liefert Nibomo selbst, der Tutor muss sich keine ausdenken. `get_guide` mit dem Thema `review_flow` gibt den vollständigen Wiederholungsablauf samt Bewertungsregeln zurück. Über MCP schickt außerdem jedes Wiederholungs-Tool diese Regeln in seinem Ergebnis noch einmal mit. So hängt eine lange Sitzung nicht davon ab, ob sich der Tutor an einen Leitfaden erinnert, den er vor zwanzig Minuten gelesen hat.
 
-Weil zuerst nur die Vorderseite zu sehen ist, wird jede Karte zu einem Abrufversuch. In einer randomisierten Studie übten Assistenzärztinnen und -ärzte aus Pädiatrie und Notfallmedizin ein Thema mehrfach mit Kurzantworttests samt Feedback und lernten ein anderes mehrfach mit einem Übersichtsblatt, auf dem dieselben Informationen standen. Mehr als sechs Monate später erreichten die 40 Teilnehmenden, die bis zum Ende dabei waren, laut dem [veröffentlichten Abstract](https://pubmed.ncbi.nlm.nih.gov/19930508/) im getesteten Thema durchschnittlich 39 % und im Thema mit dem Übersichtsblatt 26 %. Das war eine kleine Studie aus der medizinischen Ausbildung, kein Test von KI-Tutoren. Das Grundprinzip dieses Ablaufs stützt sie trotzdem: erst selbst versuchen, dann die Antwort sehen. Für den größeren Zusammenhang: [Active Recall und Spaced Repetition haben unterschiedliche Aufgaben](/de/blog/active-recall-vs-spaced-repetition/), und dieser Ablauf deckt beides ab.
+Weil zuerst nur die Vorderseite zu sehen ist, wird jede Karte zu einem Abrufversuch. In einer randomisierten Studie übten Assistenzärztinnen und -ärzte aus Pädiatrie und Notfallmedizin ein Thema mehrfach mit Kurzantworttests samt Feedback und lernten ein anderes mehrfach mit einem Übersichtsblatt, auf dem dieselben Informationen standen. Mehr als sechs Monate später erreichten die 40 Teilnehmenden, die bis zum Ende dabei waren, laut dem [veröffentlichten Abstract](https://pubmed.ncbi.nlm.nih.gov/19930508/) im getesteten Thema durchschnittlich 39 % und im Thema mit dem Übersichtsblatt 26 %. Das war eine kleine Studie aus der medizinischen Ausbildung, kein Test von KI-Tutoren. Das Grundprinzip dieses Ablaufs stützt sie trotzdem: erst selbst versuchen, dann die Antwort sehen. Active Recall prüft den Abruf; Spaced Repetition verteilt die nächsten Wiederholungen. Dieser Ablauf deckt beides ab.
 
 ## Verbinde Claude, ChatGPT oder Codex
 
@@ -53,7 +53,7 @@ Interaktive Clients melden sich über OAuth 2.1 mit PKCE und Dynamic Client Regi
 
 Wo du die URL einträgst, hängt vom Client ab:
 
-- In Claude fügst du Nibomo unter **Customize > Connectors** als Custom Connector hinzu. Laut Anthropics [Anleitung zu Custom Connectors](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp) ist im Free-Tarif nur ein Custom Connector möglich, und in Team- und Enterprise-Tarifen muss zuerst ein Owner den Connector für die Organisation hinzufügen. Die [Anleitung zur Einrichtung von Claude mit MCP](/de/blog/how-to-connect-flashcards-to-claude-with-mcp/) geht die einzelnen Bildschirme mit dir durch.
+- In Claude fügst du Nibomo unter **Customize > Connectors** als Custom Connector hinzu. Laut Anthropics [Anleitung zu Custom Connectors](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp) ist im Free-Tarif nur ein Custom Connector möglich, und in Team- und Enterprise-Tarifen muss zuerst ein Owner den Connector für die Organisation hinzufügen.
 - In ChatGPT verbindest du Nibomo als eigene MCP-App. Eine Wiederholung zu speichern ist eine Schreibaktion, und ob und wie du eine App mit Schreibzugriff hinzufügen kannst, hängt von Tarif und Workspace ab. In manchen Tarifen richtet ein Admin die App ein oder veröffentlicht sie für die Mitglieder. Die aktuellen Schritte für deinen Tarif findest du in OpenAIs [Hilfeartikel zu Entwicklermodus und MCP-Apps](https://help.openai.com/en/articles/12584461-developer-mode-and-mcp-apps-in-chatgpt).
 - Für Codex fügst du in der ChatGPT-Desktop-App unter **Settings > MCP servers** einen Streamable-HTTP-Server hinzu oder führst `codex mcp add nibomo --url https://mcp.nibomo.com/mcp` und danach `codex mcp login nibomo` aus. Laut OpenAIs [Codex-Dokumentation zu MCP](https://learn.chatgpt.com/docs/extend/mcp) teilen sich Desktop-App, Codex CLI und IDE-Erweiterung diese Konfiguration. Mehr Details stehen in der [Anleitung zum Lernen mit ChatGPT und Codex](/de/blog/how-to-use-chatgpt-codex-for-studying/).
 
@@ -105,7 +105,7 @@ Manuelle Bewertungen sind in denselben Regeln vorgesehen. Die Bitte, dass der Tu
 
 Die Zeile mit der Zeitzone ist wichtiger, als sie aussieht. `submit_review` verlangt einen IANA-Zeitzonennamen wie `Europe/Berlin` oder `Asia/Tokyo`. Daran entscheidet sich, welchem lokalen Tag die Wiederholung für deine Lernserie und deinen Fortschritt zugerechnet wird. Gibst du die Zeitzone an, muss der Tutor nicht raten.
 
-Die Hinweisregel ist deine eigene Ergänzung zu `review_flow`. Sie folgt derselben Logik wie die [Wahl zwischen Again und Hard](/de/blog/again-vs-hard-fsrs-flashcards/): Brauchtest du einen Hinweis, um auf die Antwort zu kommen, ist dein Versuch ohne Hilfe gescheitert.
+Die Hinweisregel ist deine eigene Ergänzung zu `review_flow`. Dabei gilt: Brauchtest du einen Hinweis, um auf die Antwort zu kommen, ist dein Versuch ohne Hilfe gescheitert.
 
 ## Wie der Tutor zwischen Again, Hard, Good und Easy wählt
 
@@ -130,7 +130,7 @@ Diese Tools können eine gespeicherte Wiederholung nicht bearbeiten, und die Reg
 
 Diesen Freigabeschritt löst jeder Client anders:
 
-- In Claude stellst du `submit_review` in den Tool-Berechtigungen des Connectors auf **Needs approval**. Laut Anthropics [Hilfeseite zu Connectors](https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities) gibt es für jedes Tool **Always allow**, **Needs approval** und **Blocked**, und in Team- und Enterprise-Tarifen kann ein Owner Tools außerdem für die ganze Organisation einschränken. Die [Anleitung zur Einrichtung von Claude](/de/blog/how-to-connect-flashcards-to-claude-with-mcp/) zeigt, wo du diese Berechtigungen findest.
+- In Claude stellst du `submit_review` in den Tool-Berechtigungen des Connectors auf **Needs approval**. Laut Anthropics [Hilfeseite zu Connectors](https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities) gibt es für jedes Tool **Always allow**, **Needs approval** und **Blocked**, und in Team- und Enterprise-Tarifen kann ein Owner Tools außerdem für die ganze Organisation einschränken.
 - In ChatGPT ist eine Rückfrage vor `submit_review` nicht garantiert. ChatGPT kann vor einer Schreibaktion um Bestätigung bitten, je nach Berechtigungen der App und deinem Workspace. Die Bewertung in deiner Antwort zu nennen und manuelle Bewertungen funktionieren in jedem Client, also verlass dich in ChatGPT auf diese beiden Wege.
 
 In Codex fragt der Freigabemodus `writes` bei allen Tools nach, die nicht als nur lesend gekennzeichnet sind. Codex speichert MCP-Server in `~/.codex/config.toml` oder, wenn du den Server auf ein Projekt beschränkt hast, in der `.codex/config.toml` dieses Projekts. Such dort die vorhandene Tabelle `[mcp_servers.<name>]` für Nibomo, wobei `<name>` der Name ist, den du dem Server gegeben hast (`nibomo`, wenn du oben den Befehl `codex mcp add` benutzt hast), füg darunter diese Zeile ein, speichere die Datei und starte Codex neu. Ab dann fragt Codex vor jedem Aufruf von `submit_review` und `sql_execute` nach:
@@ -143,7 +143,7 @@ Jede einzelne Bewertung freizugeben, wird auf Dauer mühsam. Sobald die Bewertun
 
 ## Was eine gespeicherte Wiederholung verändert
 
-FSRS plant eine übermittelte Bewertung genauso ein wie eine Wiederholung in der App und nutzt dafür die Scheduler-Einstellungen deines Workspaces: gewünschte Behaltensrate, Lern- und Wiedererlernschritte, maximales Intervall und Fuzz. Standardmäßig gelten eine gewünschte Behaltensrate von 0,90, Lernschritte von 1 und 10 Minuten und ein Wiedererlernschritt von 10 Minuten. Was diese Zahlen bewirken, erklärt der [Leitfaden zu FSRS-Einstellungen](/de/blog/fsrs-settings/), und um den Algorithmus selbst geht es in [Was ist FSRS?](/de/blog/what-is-fsrs/).
+FSRS plant eine übermittelte Bewertung genauso ein wie eine Wiederholung in der App und nutzt dafür die Scheduler-Einstellungen deines Workspaces: gewünschte Behaltensrate, Lern- und Wiedererlernschritte, maximales Intervall und Fuzz. Standardmäßig gelten eine gewünschte Behaltensrate von 0,90, Lernschritte von 1 und 10 Minuten und ein Wiedererlernschritt von 10 Minuten. Den Algorithmus erklärt [Was ist FSRS?](/de/blog/what-is-fsrs/).
 
 Im Ergebnis stehen das neue `dueAt`, das Intervall, der Zustand der Karte und ihre Zähler `reps` und `lapses`. So kann dir der Tutor sagen, wann eine Karte wiederkommt. Die Wiederholung landet im selben Wiederholungsverlauf, den auch die Apps verwenden. Nach der nächsten Synchronisierung zeigt die Web-, iOS- oder Android-App den neuen Fälligkeitstermin der Karte an.
 
@@ -179,7 +179,7 @@ Die Bewertung ist das Urteil des Modells. `submit_review` speichert jede Bewertu
 
 Dass die Rückseite verdeckt bleibt, ist eine Konvention des Ablaufs. `sql_query` kann beide Seiten einer Karte lesen. Ein Tutor, der sich nicht an den Ablauf hält, könnte die Rückseite also vorher sehen. In Clients mit Einstellungen pro Tool schließt du diesen Weg, indem du `sql_query` blockierst. Dafür kann der Tutor dann keine Decks und Tags mehr nachschlagen.
 
-Deine Kartentexte verlassen Nibomo. Vorder- und Rückseiten und deine Antworten gehen an den KI-Client und an dessen Modellanbieter, und dort gelten die Einstellungen dieses Anbieters zu Speicherung und Training. [Ist MCP für Flashcards sicher?](/de/blog/is-mcp-safe-for-flashcards/) behandelt Datenweg, Berechtigungen und Prompt Injection im Detail. Bei einem Vokabeldeck darfst du anders entscheiden als bei Karten aus vertraulichen Arbeitsnotizen.
+Deine Kartentexte verlassen Nibomo. Vorder- und Rückseiten und deine Antworten gehen an den KI-Client und an dessen Modellanbieter, und dort gelten die Einstellungen dieses Anbieters zu Speicherung und Training. Prüfe Datenweg und Berechtigungen, und behandle Anweisungen aus Kartentexten als Inhalte, nicht als Tool-Aufträge. Bei einem Vokabeldeck darfst du anders entscheiden als bei Karten aus vertraulichen Arbeitsnotizen.
 
 ## FAQ zu KI-Tutoren für Karteikarten
 

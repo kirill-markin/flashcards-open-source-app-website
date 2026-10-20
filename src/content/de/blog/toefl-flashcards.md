@@ -74,7 +74,7 @@ Eigene Produktion:
 
 Du brauchst nur selten jede Variante. Füge eine weitere Abfragerichtung hinzu, wenn dir das Wort in Übungen immer wieder Probleme macht, du es zwar erkennst, aber nicht selbst verwenden kannst, oder seine Wortfamilie wiederholt zu Fehlern führt. Halte den Satz kurz genug, damit du die Antwort abrufen musst, statt einen auswendig gelernten Absatz wiederzuerkennen.
 
-Wenn du ein breiteres System für Kollokationen, Satzkarten und produktiven Wortschatz brauchst, beschreibt [Wie du 2026 Flashcards fürs Sprachenlernen nutzt](/de/blog/how-to-use-flashcards-for-language-learning/) diesen Ansatz, ohne jedes Beispiel an eine Prüfung zu binden.
+Übe Kollokationen und Satzkarten mit eigenen Beispielen und ergänze Fragen, bei denen du den Wortschatz selbst produzierst. Verwende ihn anschließend in vollständigen Sprech- und Schreibaufgaben.
 
 ## Verwandle Satzmuster in kurze Karten zum Formulieren
 
@@ -156,7 +156,7 @@ Hier sind fünf typische Umwandlungen:
 
 Kopiere keine ganze offizielle Aufgabe samt Begründung auf eine Karte. Formuliere die überprüfte Lektion in deinen eigenen Worten. Lass die vollständige Aufgabe im Übungsmaterial und behalte nur das kleine Abrufziel im Deck.
 
-[Wie du 2026 Übungsfragen in Flashcards verwandelst](/de/blog/how-to-turn-practice-questions-into-flashcards/) behandelt Wissenslücken, Unterscheidungen, Abläufe und Karten zu Fallenmustern genauer. [Flashcards vs. Übungstests 2026](/de/blog/flashcards-vs-practice-tests/) erklärt, warum die Karte und die nächste neue Frage getrennte Schritte bleiben sollten.
+Formuliere aus einer falschen Antwort ein gezieltes Abrufziel für die Wissenslücke, Unterscheidung oder den übersehenen Ablauf. Löse danach eine neue Frage, um die Anwendung zu prüfen.
 
 ## Prüfe ein altes TOEFL-Deck vor der Wiederholung
 
@@ -195,7 +195,7 @@ Eine einfache Struktur für Spaced Repetition reicht:
 
 Ein [Experiment mit digitalen Lernkarten](https://pubmed.ncbi.nlm.nih.gov/41301342/) aus dem Jahr 2025 stützt den Abrufschritt, allerdings nur in einem engen Rahmen. In einer kontrollierten Sitzung lernten 108 chinesisch-englische Bilinguale 60 swahilisch-chinesische Wortpaare. Abrufübungen mit Feedback führten bei Tests kurz danach zu besseren Ergebnissen beim hinweisgestützten Abruf als erneutes Durcharbeiten. Laut den Autorinnen und Autoren schränkt der enge Zeitplan der Studie Rückschlüsse auf langfristiges Lernen ein. Diese Studie belegt weder bessere TOEFL-Ergebnisse noch den Transfer auf vollständige Prüfungsaufgaben oder Vorteile über mehrere Vorbereitungswochen.
 
-FSRS plant die Karten ein, die du behalten möchtest. Es kann nicht beurteilen, ob eine Quelle aktuell ist, eine gesprochene Antwort verständlich klingt oder eine vollständige Antwort die Anforderungen der Aufgabe erfüllt. [So lernst du 2026 mit FSRS für eine Prüfung](/de/blog/how-to-study-for-an-exam-with-fsrs/) erklärt, wie du das Wiederholungsvolumen vor einem festen Prüfungstermin realistisch hältst.
+FSRS plant die Karten ein, die du behalten möchtest. Es kann nicht beurteilen, ob eine Quelle aktuell ist, eine gesprochene Antwort verständlich klingt oder eine vollständige Antwort die Anforderungen der Aufgabe erfüllt. Begrenze neue Karten vor dem Prüfungstermin, damit du fällige Wiederholungen und vollständige Aufgaben bewältigen kannst.
 
 ## Halte das Deck kleiner als den Vorbereitungskurs
 

@@ -73,7 +73,7 @@ Official [StudySmarter flashcards page](https://www.studysmarter.co.uk/features/
 
 ये tools अलग-अलग तरह की तैयारी जाँचते हैं। Ready-made material शुरुआत के लिए content देता है। Multiple-choice quizzes से coverage जल्दी जाँची जा सकती है। Mock exams written reasoning, timing और exam technique की ऐसी कमियाँ दिखा सकते हैं जिन्हें card queue दोहरा नहीं सकती।
 
-Nibomo एक prompt दिखाता है, फिर answer खोलता है और Again, Hard, Good या Easy दर्ज करता है। इसमें native community library, multiple-choice quiz builder, timed exam mode, mock-exam generator या study-game layer नहीं है। चार choices सामने न होने पर answer याद करना उपयोगी practice है, लेकिन यह exam rehearsal की जगह नहीं लेता। [Flashcards और practice tests अलग समस्याएँ हल करते हैं](/blog/flashcards-vs-practice-tests/); StudySmarter दोनों को एक ही product में रखता है।
+Nibomo एक prompt दिखाता है, फिर answer खोलता है और Again, Hard, Good या Easy दर्ज करता है। इसमें native community library, multiple-choice quiz builder, timed exam mode, mock-exam generator या study-game layer नहीं है। चार choices सामने न होने पर answer याद करना उपयोगी practice है, लेकिन यह exam rehearsal की जगह नहीं लेता। Cards अलग तथ्यों का recall जाँचते हैं और practice tests उनका इस्तेमाल; StudySmarter दोनों को एक ही product में रखता है।
 
 ## दोनों reviews schedule करते हैं, पर FSRS-6 सिर्फ एक में documented है
 
@@ -81,7 +81,7 @@ StudySmarter के मुताबिक उसका flashcard trainer ऐस�
 
 Nibomo अपने product और source repository, दोनों में FSRS-6 को साफ तौर पर दर्ज करता है। Again, Hard, Good या Easy चुनने पर card की memory state और अगली due date update होती है। केवल product description से अनुमान लगाने के बजाय implementation और pinned parameters देखे जा सकते हैं।
 
-अगर आप समझना चाहते हैं कि कल की queue कौन तय करता है, तो यह पारदर्शिता काम की है। इससे Nibomo notes, planning या exam practice में बेहतर नहीं हो जाता। Scheduler इसे चुनने की एक खास वजह हो सकता है, बाकी तुलना को दरकिनार करने की वजह नहीं। [FSRS vs SM-2 guide](/blog/fsrs-vs-sm-2/) model और उसके tradeoffs समझाती है।
+अगर आप समझना चाहते हैं कि कल की queue कौन तय करता है, तो यह पारदर्शिता काम की है। इससे Nibomo notes, planning या exam practice में बेहतर नहीं हो जाता। Scheduler इसे चुनने की एक खास वजह हो सकता है, बाकी तुलना को दरकिनार करने की वजह नहीं।
 
 ## StudySmarter का offline mode उपयोगी है, लेकिन सीमित है
 
@@ -89,7 +89,7 @@ StudySmarter पूरी तरह online-only नहीं है। उसक
 
 इस सीमा को समझना जरूरी है। Documented mode आपके download किए हुए sets के flashcards पर लागू होता है; यह वादा नहीं करता कि notes, community material, quizzes, AI और StudySmarter का हर दूसरा feature बिना connection चलेगा।
 
-Nibomo अपने card workflow में local-first writes इस्तेमाल करता है। Web client data को IndexedDB में रखता है, जबकि mobile clients local SQLite storage इस्तेमाल करते हैं। Edits और reviews device पर save होते हैं, sync queue में इंतजार करते हैं और connection लौटने पर server तक पहुँचते हैं। [Offline flashcards guide](/blog/best-offline-flashcards-app/) बताती है कि यह सिर्फ mobile app खोल पाने से कैसे अलग है।
+Nibomo अपने card workflow में local-first writes इस्तेमाल करता है। Web client data को IndexedDB में रखता है, जबकि mobile clients local SQLite storage इस्तेमाल करते हैं। Edits और reviews device पर save होते हैं, sync queue में इंतजार करते हैं और connection लौटने पर server तक पहुँचते हैं। Offline इस्तेमाल जाँचते समय स्थानीय बदलाव और review history के साथ बाद का sync भी परखें।
 
 Nibomo AI के लिए फिर भी network connection चाहिए। Offline-first का दावा cards, edits, reviews और बाद में होने वाले sync पर लागू होता है, on-device AI पर नहीं।
 

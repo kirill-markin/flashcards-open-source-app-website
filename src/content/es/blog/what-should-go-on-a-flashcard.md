@@ -68,7 +68,7 @@ Eso es lo que entiendo por **apuntes que merecen flashcards**. No "todo lo que s
 
 Si algo te pareció obvio, temporal o solo interesante en ese momento, normalmente no merece un repaso programado. El mazo debería conservar los tropiezos de tu yo futuro, no tu antiguo intento de ser exhaustivo.
 
-[Cómo convertir preguntas de práctica en tarjetas didácticas en 2026](/es/blog/how-to-turn-practice-questions-into-flashcards/) funciona muy bien justo por eso. Las preguntas falladas ya te dicen dónde está la fricción.
+Las preguntas falladas ya muestran dónde cuesta recuperar o aplicar el conocimiento. Extrae de cada una la laguna concreta y formula una pregunta propia.
 
 ## La mayoría de los mazos hinchados empiezan aquí
 
@@ -123,7 +123,7 @@ Normalmente el problema es uno de estos:
 - la respuesta está enterrada dentro de la explicación
 - el dato útil viene envuelto en demasiado contexto de la fuente
 
-Si la idea merece quedarse, ajústala. [Cómo hacer mejores flashcards en 2026](/es/blog/how-to-make-better-flashcards/) profundiza más en esa parte.
+Si la idea merece quedarse, ajústala: una pregunta concreta y una respuesta breve que puedas evaluar sin ambigüedad.
 
 ### Saltar
 
@@ -175,7 +175,7 @@ Los rechazo cuando sobre todo hacen esto:
 - producir cinco versiones de la misma definición
 - sonar más seguros que la propia fuente
 
-Si el lote ya existe y necesita limpieza, [Cómo evitar la sobrecarga de flashcards con IA en 2026](/es/blog/how-to-avoid-ai-flashcard-overload/) y [Cómo corregir flashcards de IA en 2026](/es/blog/how-to-fix-ai-flashcards/) cubren el trabajo de reparación. Este artículo es el filtro que va antes de eso.
+Si el lote ya existe, elimina duplicados, verifica las respuestas y divide las tarjetas sobrecargadas. Aplica este filtro también antes de guardar borradores nuevos.
 
 ## Las diapositivas son breves. Eso no las vuelve aptas para tarjetas
 
@@ -207,7 +207,7 @@ Las peores suelen sonar así:
 
 Esos no son buenos disparadores de recuperación. Son señales de que la idea todavía pertenece a los apuntes.
 
-Si tu punto de partida es material de clase, [Cómo convertir grabaciones de clase en tarjetas didácticas en 2026](/es/blog/how-to-turn-lecture-recordings-into-flashcards/) te ayuda más arriba en el flujo. El paso de selección sigue importando después del borrador.
+Si partes de una grabación de clase, comprueba la transcripción con el audio y los materiales del curso. Selecciona después solo lo que necesites recordar.
 
 ## Los libros de texto parecen oficiales, así que la gente saca demasiadas tarjetas de ellos
 

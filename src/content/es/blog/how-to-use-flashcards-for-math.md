@@ -47,7 +47,7 @@ El mejor punto intermedio es una tarjeta que capture la decisión que necesitas 
 
 Por eso **cómo estudiar matemáticas con flashcards** depende sobre todo del diseño de tarjetas. Una buena tarjeta debería hacer que el siguiente paso sea más fácil de recuperar. No debería intentar almacenar el capítulo entero.
 
-Si tus tarjetas actuales ya se sienten demasiado amplias o demasiado verbosas, [Cómo hacer mejores flashcards en 2026](https://nibomo.com/blog/how-to-make-better-flashcards/) es un buen reinicio antes de añadir más.
+Divide las tarjetas demasiado amplias y acorta las respuestas antes de añadir más. Cada una debe permitir evaluar un objetivo concreto.
 
 ## Empieza por las fórmulas, pero haz las tarjetas más pequeñas que tu hoja de fórmulas
 
@@ -93,7 +93,7 @@ Por eso me gustan las tarjetas que conectan una pista con un método:
 
 Siguen siendo **flashcards para resolver problemas de matemáticas**, pero no intentan memorizar una ruta completa de solución. Entrenan reconocimiento. Eso importa porque hoy las explicaciones son baratas. Puedes conseguir un paso a paso de un profesor particular, de un vídeo o de una herramienta de IA en minutos. La parte más difícil es ver el movimiento correcto antes de que alguien te lo señale.
 
-Si tu materia prima sale sobre todo de deberes corregidos, cuestionarios o simulacros, [Cómo convertir preguntas de práctica en flashcards en 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) encaja muy bien con este flujo.
+Si partes de deberes corregidos, cuestionarios o simulacros, extrae la idea que falló y formula una pregunta propia sobre ella.
 
 ## Tu registro de errores suele ser mejor que un mazo genérico de matemáticas
 
@@ -149,7 +149,7 @@ Después de los deberes, un cuestionario o una serie de práctica:
 
 Ese último paso importa más de lo que parece. Si el error desaparece en problemas nuevos, probablemente la tarjeta hizo su trabajo. Si sigue ahí, la tarjeta suele ser demasiado vaga, demasiado amplia o estar apuntando al objetivo de memoria equivocado.
 
-Si la estructura del mazo empieza a volverse caótica, [Cómo organizar Flashcards en 2026](https://nibomo.com/blog/how-to-organize-flashcards/) es mejor solución que crear un mazo nuevo para cada hoja de ejercicios.
+Organiza el material con pocos mazos y etiquetas útiles, en lugar de crear un mazo nuevo para cada hoja de ejercicios.
 
 ## La IA puede redactar tarjetas de matemáticas rápido, pero la edición sigue importando
 
@@ -161,7 +161,7 @@ Pero las tarjetas de matemáticas siguen necesitando edición. Las tarjetas gene
 
 Así que sí: usa IA para redactar **flashcards de matemáticas** si acelera la parte aburrida. Luego edita con dureza. Divide las tarjetas sobrecargadas. Reescribe los anversos vagos. Borra las que parecen inteligentes pero se van a repasar mal la semana que viene.
 
-Si el cuello de botella real está en limpiar esas tarjetas, [Cómo arreglar flashcards hechas con IA en 2026](https://nibomo.com/blog/how-to-fix-ai-flashcards/) profundiza más en esa fase de edición.
+Comprueba las respuestas con la fuente, precisa las preguntas vagas y divide las tarjetas que mezclen varios pasos independientes.
 
 ## FSRS ayuda en matemáticas cuando las tarjetas son lo bastante estrechas
 
@@ -171,7 +171,7 @@ Por eso la **repetición espaciada en matemáticas** funciona bien con FSRS. Las
 
 La trampa es que el planificador sigue necesitando tarjetas limpias. Si la pregunta es vaga, tu autoevaluación mete ruido. Si una tarjeta pone a prueba demasiadas cosas, la valoración de dificultad se vuelve confusa. Si la respuesta es un párrafo, empiezas a negociar contigo mismo en vez de repasar con honestidad.
 
-Las tarjetas más pequeñas hacen que FSRS sea mucho más útil. Si quieres ajustar la programación de repasos una vez que la escritura de tarjetas ya esté controlada, [Configuración de FSRS en 2026: qué cambiar y qué dejar en paz](https://nibomo.com/blog/fsrs-settings/) es la siguiente lectura correcta.
+Las tarjetas pequeñas y claras permiten valorar mejor cada intento. Ajusta la programación solo cuando la calidad de las preguntas y la carga de repaso estén controladas.
 
 ## Dónde encaja Nibomo en este flujo
 

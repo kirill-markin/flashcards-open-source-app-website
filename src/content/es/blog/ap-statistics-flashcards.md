@@ -37,7 +37,7 @@ Revisa cada mazo que hayas heredado con estos cuatro criterios:
 
 El material eliminado no es mala estadística; sencillamente ya no se exige en este examen AP. Guárdalo en otro mazo si quieres retomarlo en un curso posterior.
 
-Cambiarle la etiqueta a una tarjeta imprecisa no la mejora. Si durante la revisión encuentras definiciones sobrecargadas o preguntas pasivas que solo exigen «leer y reconocer», sigue los ejemplos de [Cómo crear mejores flashcards](/blog/how-to-make-better-flashcards/) para reescribirlas.
+Cambiarle la etiqueta a una tarjeta imprecisa no la mejora. Si encuentras definiciones sobrecargadas, divídelas. Convierte las preguntas de «leer y reconocer» en preguntas que exijan recuperar la respuesta sin verla.
 
 ## Ubica cada tarjeta dentro del nuevo marco de cinco unidades
 
@@ -98,7 +98,7 @@ Las flashcards funcionan cuando cada una te exige recuperar una idea concreta. D
 
 Una tarjeta puede preguntarte qué procedimiento corresponde. Solo un problema completo comprueba si sabes elegirlo, verificar las condiciones, hacer el análisis y justificar una conclusión de principio a fin.
 
-Si preparar el mazo ha empezado a sustituir la práctica, [Flashcards frente a exámenes de práctica](/blog/flashcards-vs-practice-tests/) explica con claridad dónde termina una herramienta y empieza la otra.
+Si preparar el mazo ha empezado a sustituir la práctica, añade menos tarjetas y resuelve más problemas nuevos. Las tarjetas entrenan objetivos de recuerdo; los problemas completos comprueban su aplicación.
 
 ## Seis formatos de tarjetas de AP Stats que sí merece la pena conservar
 

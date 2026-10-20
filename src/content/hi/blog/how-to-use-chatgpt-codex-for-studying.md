@@ -121,7 +121,7 @@ Connector सात tools देता है:
 
 नाम तकनीकी लगते हैं क्योंकि connector एक छोटा SQL-style contract इस्तेमाल करता है। आपको खुद SQL लिखने की ज़रूरत नहीं है। नतीजा सामान्य भाषा में माँगें और प्रस्तावित बदलाव जाँचें।
 
-यह database का खुला access नहीं है। हर request उसी workspace तक सीमित रहती है जिसकी अनुमति मिली है, और server सिर्फ़ अपने दस्तावेज़ों में तय read requests, कार्ड या डेक में बदलाव और रिव्यू ratings स्वीकार करता है। [MCP safety guide](/hi/blog/is-mcp-safe-for-flashcards/) बताती है कि डेटा कहाँ जाता है, क्या सीमाएँ हैं, मंज़ूरी कैसे काम करती है और कार्ड मिटाने में क्या जोखिम है।
+यह database का खुला access नहीं है। हर request उसी workspace तक सीमित रहती है जिसकी अनुमति मिली है, और server सिर्फ़ अपने दस्तावेज़ों में तय read requests, कार्ड या डेक में बदलाव और रिव्यू ratings स्वीकार करता है। Tool permissions और deletion requests की अलग जाँच करें और कार्ड के भीतर लिखे निर्देशों को डेटा मानें।
 
 ## पढ़ाई के बाद Codex डेक भी साफ़ कर सकता है
 
@@ -148,7 +148,7 @@ MCP connector अनुमति वाली review history के साथ FS
 
 कार्डों के रिव्यू का समय आने पर [Nibomo web app](https://app.nibomo.com/) या mobile app खोलें। जवाब याद करें, back दिखाएँ और वहीं अपनी rating चुनें। Nibomo रिव्यू दर्ज करता है और FSRS तय करता है कि कार्ड अगली बार कब लौटेगा।
 
-Codex आपकी अनुमति वाले कार्ड डेटा से अनौपचारिक quiz भी ले सकता है। उसे अतिरिक्त अभ्यास मानें: सिर्फ़ quiz से कोई रिव्यू दर्ज नहीं होता और आपका schedule नहीं बदलता। जब आपको आधिकारिक रिव्यू चाहिए, तो Codex से review tools के साथ रिव्यू करवाएँ। वह `next_review_card` से सिर्फ़ front दिखाता है, आपके जवाब के बाद `reveal_answer` से back दिखाता है और `submit_review` से rating दर्ज करता है, ताकि FSRS कार्ड को फिर से schedule कर सके। जब तक आप हर rating खुद चुनने के लिए न कहें, Codex आपके जवाब की rating खुद तय करता है। [AI flashcard tutor guide](/hi/blog/ai-flashcard-tutor-due-cards/) में यह review flow विस्तार से समझाया गया है।
+Codex आपकी अनुमति वाले कार्ड डेटा से अनौपचारिक quiz भी ले सकता है। उसे अतिरिक्त अभ्यास मानें: सिर्फ़ quiz से कोई रिव्यू दर्ज नहीं होता और आपका schedule नहीं बदलता। जब आपको आधिकारिक रिव्यू चाहिए, तो Codex से review tools के साथ रिव्यू करवाएँ। वह `next_review_card` से सिर्फ़ front दिखाता है, आपके जवाब के बाद `reveal_answer` से back दिखाता है और `submit_review` से rating दर्ज करता है, ताकि FSRS कार्ड को फिर से schedule कर सके। जब तक आप हर rating खुद चुनने के लिए न कहें, Codex आपके जवाब की rating खुद तय करता है।
 
 ## Codex CLI भी वही MCP configuration इस्तेमाल करता है
 
@@ -198,7 +198,7 @@ Connector छोड़ने पर आप बहुत कुछ नहीं �
 
 उन्हें एक बार पढ़ें, बचे हुए अच्छे कार्ड Nibomo में कॉपी करें और सामान्य रिव्यू जारी रखें। निजी सामग्री, स्कूल के नियंत्रण वाले account या अपने सेव किए कार्ड का डेटा किसी AI client से न पढ़वाने वाले व्यक्ति के लिए हाथ से कार्ड जोड़ना समझदारी का विकल्प है।
 
-साथ वाली guide [ChatGPT Study Mode को फ़्लैशकार्ड्स में कैसे बदलें](/hi/blog/how-to-turn-chatgpt-study-mode-into-flashcards/) connector के बिना ट्यूटर वाले तरीके पर केंद्रित है। [ChatGPT से फ़्लैशकार्ड्स कैसे बनाएं](/hi/blog/how-to-use-chatgpt-to-make-flashcards/) नोट्स से कार्ड का मसौदा बनाने का व्यापक तरीका समझाती है। अगर आप Anthropic के tools से भी पढ़ते हैं, तो [Claude से पढ़ाई कैसे करें](/hi/blog/how-to-use-claude-for-studying/) Claude के अलग connector setup के साथ ट्यूटर से MCP तक का वैसा ही तरीका दिखाती है।
+Connector के बिना tutor से मिली गलतियों और कमियों पर कार्ड का मसौदा बनाएँ, उसे जाँचें और हाथ से सहेजें। Claude के लिए [पढ़ाई की गाइड](/hi/blog/how-to-use-claude-for-studying/) tutor से MCP तक का तरीका समझाती है।
 
 ## पढ़ाई से छोटा रखें फ़्लैशकार्ड वाला हिस्सा
 

@@ -100,7 +100,7 @@ La sincronización mantiene alineados los dispositivos. Por eso, una eliminació
 
 Las aplicaciones instaladas de Anki guardan copias de seguridad locales, pero los archivos multimedia necesitan una atención aparte. Por ejemplo, la [guía de preferencias de AnkiMobile](https://docs.ankimobile.net/preferences.html) indica que sus copias de seguridad automáticas incluyen las tarjetas y las estadísticas, pero no los sonidos ni las imágenes. Exportar una colección completa con sus archivos multimedia cumple una función distinta tanto de la sincronización como del historial de copias automáticas.
 
-Si te costaría reconstruir el mazo, guarda periódicamente una exportación completa con los archivos multimedia fuera del dispositivo que usas a diario. La [guía general para hacer copias de seguridad de flashcards](/es/blog/how-to-back-up-flashcards/) explica cómo combinar esa copia de recuperación con texto portátil y los archivos fuente originales.
+Si te costaría reconstruir el mazo, guarda periódicamente una exportación completa con los archivos multimedia fuera del dispositivo que usas a diario. Combina esa copia de recuperación con texto portátil y los archivos fuente originales.
 
 ## Una prueba de diez minutos en modo avión
 
@@ -123,6 +123,6 @@ No aproveches esta prueba para rediseñar los tipos de nota en dos dispositivos.
 
 Las aplicaciones instaladas de Anki son una buena opción para viajar si quieres llevar la colección local completa, no solo un pequeño grupo de tarjetas en caché. Los límites son claros: el dispositivo debe tener de antemano la colección y los archivos multimedia, AnkiWeb solo funciona en línea y las funciones de las tarjetas que consultan servicios externos siguen necesitando conexión.
 
-Si estás comparando herramientas para un viaje, la [comparación de aplicaciones de flashcards sin conexión](/es/blog/best-offline-flashcards-app/) somete cinco productos a las mismas pruebas de tarjetas, edición, progreso, archivos multimedia y sincronización posterior. Si buscas otro sistema de estudio por motivos que van más allá de la conectividad, consulta [Anki frente a Nibomo](/es/blog/anki-vs-flashcards-open-source-app/).
+Si estás comparando herramientas para un viaje, la [comparación de aplicaciones de flashcards sin conexión](/es/blog/best-offline-flashcards-app/) somete cinco productos a las mismas pruebas de tarjetas, edición, progreso, archivos multimedia y sincronización posterior.
 
 La respuesta práctica a «¿Se puede usar Anki sin conexión?» es sí: en ordenadores, iPhone, iPad y Android, siempre que ese dispositivo concreto ya tenga la colección y los archivos multimedia que necesitas. Sincroniza antes de salir, haz una prueba en modo avión y, cuando recuperes internet, sincroniza primero el dispositivo que contiene tu trabajo sin conexión.

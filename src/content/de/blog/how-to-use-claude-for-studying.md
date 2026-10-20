@@ -228,7 +228,7 @@ Die einfachste Übertragung funktioniert mit jeder Karteikarten-App. Lass Claude
 
 > [Mit Claude verbinden](https://claude.ai/directory/nibomo) · [Dokumentation](/docs/mcp-connector/)
 
-Wenn du Nibomo nutzt, verbinde Claude über MCP damit. MCP stellt die Verbindung zwischen dem Assistenten und Nibomo her. Danach kannst du Claude bitten, die von dir geprüften und freigegebenen Karten zu speichern. Die [Anleitung zum Claude-Connector](/blog/how-to-connect-flashcards-to-claude-with-mcp/) führt durch die Einrichtung; die [MCP-Connector-Referenz](/docs/mcp-connector/) beschreibt die Verbindung mit anderen kompatiblen Assistenten.
+Wenn du Nibomo nutzt, verbinde Claude über MCP damit. MCP stellt die Verbindung zwischen dem Assistenten und Nibomo her. Danach kannst du Claude bitten, die von dir geprüften und freigegebenen Karten zu speichern. Die [MCP-Connector-Referenz](/docs/mcp-connector/) beschreibt die Einrichtung und die verfügbaren Werkzeuge.
 
 Fällige Karten kannst du in der [Nibomo-App](https://app.nibomo.com/) oder im Chat mit Claude oder Codex wiederholen, wenn der Assistent über MCP mit Nibomo verbunden ist. In der App versuchst du, dich an die Antwort zu erinnern, deckst sie auf und bewertest, wie gut du sie gewusst hast.
 

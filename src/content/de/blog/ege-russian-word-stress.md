@@ -88,7 +88,7 @@ Auf die Vorderseite kommt das Wort ohne markierte Betonung. Auf die Rückseite s
 | локтей — markiere die Betonung | локтЕй; Genitiv Plural |
 | занята — markiere die Betonung | занятА; feminine Kurzform |
 
-Schreib nicht auf jede Rückseite eine ganze Reihe verwandter Wörter. Mit einer Frage und einer überprüfbaren Antwort erkennst du, welche Form du tatsächlich abrufen konntest. Weitere Beispiele findest du im Leitfaden zum [Erstellen besserer Lernkarten](/blog/how-to-make-better-flashcards/).
+Schreib nicht auf jede Rückseite eine ganze Reihe verwandter Wörter. Mit einer Frage und einer überprüfbaren Antwort erkennst du, welche Form du tatsächlich abrufen konntest.
 
 Die umgekehrte Abfragerichtung hilft hier nicht: Wenn die Karte „началА“ zeigt, steht die Antwort schon vor dir. Bleib bei der Richtung „Wort ohne Hinweis → Aussprache“ und decke die Rückseite erst nach deinem eigenen Versuch auf.
 
@@ -100,6 +100,6 @@ Angenommen, du hast bei den Nummern 4, 10 und 12 Fehler gemacht. Erstelle drei K
 
 Geh das Set morgen und dann ein paar Tage später noch einmal durch. Das ist ein Beispiel für einen ersten Zeitplan, kein verbindlicher Abstand für jedes Wort. Wenn du eine App mit Wiederholungsplanung nutzt, erledige die fälligen Wiederholungen und markiere Fehler ehrlich. Sobald du die Wörter sicher abrufen kannst, nimm eine weitere kleine Gruppe aus der aktuellen Liste hinzu und wiederhole die bisherigen Wörter weiter.
 
-In Nibomo gibt es das unabhängige [Kartenset „Орфоэпия ЕГЭ-2026“ mit 192 Karten](/catalog/packages/ege-2026-russian-orthoepy-flashcards/). Es steht in keiner Verbindung zu FIPI und ist nicht von FIPI genehmigt; eine Übereinstimmung mit den endgültigen Materialien für 2027 wird hier nicht zugesichert. Schau dir vor dem Lernen die Inhalte und die Quelle an. Für größere Sets hilft dir der [Leitfaden zum Lernen mit fertigen Kartensets](/blog/how-to-study-a-premade-anki-deck/).
+In Nibomo gibt es das unabhängige [Kartenset „Орфоэпия ЕГЭ-2026“ mit 192 Karten](/catalog/packages/ege-2026-russian-orthoepy-flashcards/). Es steht in keiner Verbindung zu FIPI und ist nicht von FIPI genehmigt; eine Übereinstimmung mit den endgültigen Materialien für 2027 wird hier nicht zugesichert. Schau dir vor dem Lernen die Inhalte und die Quelle an. Beginne mit einem kleinen Teil des Sets und prüfe schwierige Karten an der Quelle, bevor du weitere hinzufügst.
 
 Die erste Lerneinheit kann mit drei konkreten Karten und einem klaren Plan für morgen enden. Wenn du keine Fehler gemacht hast, nimm die nächste Gruppe von Wörtern aus der Liste für dein Prüfungsjahr und prüfe sie auf dieselbe Weise.

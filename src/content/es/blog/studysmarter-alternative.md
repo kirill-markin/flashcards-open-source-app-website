@@ -73,7 +73,7 @@ La página oficial de [tarjetas de StudySmarter](https://www.studysmarter.co.uk/
 
 Estas herramientas evalúan capacidades distintas. El material ya preparado ofrece un punto de partida. Los cuestionarios de opción múltiple permiten comprobar rápidamente cuánto temario cubres. Los simulacros pueden revelar carencias en el razonamiento escrito, la gestión del tiempo y la técnica de examen que una cola de tarjetas no puede reproducir.
 
-Nibomo muestra una pregunta, revela la respuesta y registra Again, Hard, Good o Easy. No tiene una biblioteca de contenido comunitario, un creador de cuestionarios de opción múltiple, un modo de examen cronometrado, un generador de simulacros ni juegos de estudio. Recordar una respuesta sin tener cuatro opciones delante es una práctica útil, pero no sustituye un simulacro. [Las tarjetas y los exámenes de práctica resuelven problemas diferentes](/blog/flashcards-vs-practice-tests/); StudySmarter reúne ambos en un solo producto.
+Nibomo muestra una pregunta, revela la respuesta y registra Again, Hard, Good o Easy. No tiene una biblioteca de contenido comunitario, un creador de cuestionarios de opción múltiple, un modo de examen cronometrado, un generador de simulacros ni juegos de estudio. Recordar una respuesta sin tener cuatro opciones delante es una práctica útil, pero no sustituye un simulacro. Las tarjetas entrenan el recuerdo y los exámenes de práctica comprueban su aplicación en contexto; StudySmarter reúne ambos en un solo producto.
 
 ## Ambos programan repasos, pero solo uno documenta FSRS-6
 
@@ -81,7 +81,7 @@ StudySmarter afirma que su sistema de tarjetas utiliza un algoritmo de repetici�
 
 Nibomo documenta públicamente FSRS-6 tanto en el producto como en el repositorio del código fuente. Las valoraciones Again, Hard, Good o Easy actualizan el estado de memoria de la tarjeta y la fecha de su próximo repaso. La implementación y los parámetros fijados se pueden consultar directamente, sin tener que deducirlos a partir de una descripción del producto.
 
-Esa transparencia importa si quieres entender por qué una tarjeta volverá a aparecer mañana. No hace que Nibomo sea mejor para tomar notas, planificar el estudio o practicar exámenes. El sistema de repaso es un motivo concreto para elegirlo, pero no borra el resto de las diferencias. La guía sobre [FSRS vs SM-2](/blog/fsrs-vs-sm-2/) explica el modelo y sus contrapartidas.
+Esa transparencia importa si quieres entender por qué una tarjeta volverá a aparecer mañana. No hace que Nibomo sea mejor para tomar notas, planificar el estudio o practicar exámenes. El sistema de repaso es un motivo concreto para elegirlo, pero no borra el resto de las diferencias.
 
 ## El modo sin conexión de StudySmarter es útil, pero tiene un alcance concreto
 

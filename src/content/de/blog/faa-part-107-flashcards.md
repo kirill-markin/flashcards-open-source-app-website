@@ -173,7 +173,7 @@ Gehe nach einem autorisierten Übungsset jede falsche und jede erratene Antwort 
 
 Bei einer falsch beantworteten Luftraumfrage stellst du vielleicht fest, dass du ein Grenzsymbol nicht erkannt hast. Dieses Symbol kann zu einer Karte werden. Hast du jedes Symbol erkannt, aber die Angaben auf der Karte falsch verbunden, hilft eine weitere isolierte Karte womöglich nicht. Plane stattdessen mehr Einheiten zur Interpretation von Luftfahrtkarten ein.
 
-Dasselbe Verfahren funktioniert für Wetter und Vorschriften. Der Leitfaden zum [Umwandeln von Übungsfragen in Lernkarten](/blog/how-to-turn-practice-questions-into-flashcards/) zeigt weitere Kartenmuster. [Lernkarten vs. Übungstests](/blog/flashcards-vs-practice-tests/) erklärt, warum beide Werkzeuge im Plan bleiben.
+Dasselbe Verfahren funktioniert für Wetter und Vorschriften. Behalte neben den Karten vollständige Übungstests bei, um die Anwendung in neuen Situationen zu prüfen.
 
 ## Lass die Interpretation von Luftfahrtkarten und vollständige Übungen außerhalb des Decks
 
@@ -203,7 +203,7 @@ Für diesen Ablauf reicht eine einfache Einrichtung in [Nibomo](/features/):
 
 FSRS plant, wann einzelne Karten wiederkehren. Es prüft weder die Richtigkeit von Vorschriften noch interpretiert es eine vollständige Luftfahrtkarte oder sagt dein Testergebnis voraus. Beginne früh genug, damit Karten nach echten Zeitabständen wiederkehren können, und halte Einheiten mit Luftfahrtkarten und Übungsfragen im Kalender.
 
-Der [Leitfaden zum Wiederholungsplan für Lernkarten](/blog/how-often-should-you-review-flashcards/) erklärt, wie fällige Wiederholungen funktionieren. Im Leitfaden [Erste Schritte](/docs/getting-started/) findest du Informationen zum Erstellen und Wiederholen von Karten, zum KI-Chat und zu Dateianhängen. Die App enthält kein fertiges FAA-Part-107-Deck, stellt keine offiziellen Prüfungsfragen bereit, simuliert nicht den UAG-Test und ersetzt keine FAA-Lernmaterialien.
+Bearbeite fällige Karten, statt jeden Tag das ganze Deck von vorn zu wiederholen. Im Leitfaden [Erste Schritte](/docs/getting-started/) findest du Informationen zum Erstellen und Wiederholen von Karten, zum KI-Chat und zu Dateianhängen. Die App enthält kein fertiges FAA-Part-107-Deck, stellt keine offiziellen Prüfungsfragen bereit, simuliert nicht den UAG-Test und ersetzt keine FAA-Lernmaterialien.
 
 Nibomo steht weder in Verbindung mit der FAA noch wird die App von ihr unterstützt. Du stellst die Karteninhalte selbst bereit und bist dafür verantwortlich, sie anhand aktueller offizieller Unterlagen zu prüfen.
 

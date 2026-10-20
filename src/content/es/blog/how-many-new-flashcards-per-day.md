@@ -100,10 +100,10 @@ El mazo crece más rápido que tu hábito de repaso.
 
 Por eso yo iría con cuidado con cualquier flujo de trabajo que haga que crear tarjetas parezca no costar nada. La fricción molesta, sí, pero también te protegía sin hacer ruido de construir una cola de repasos que nunca pensabas mantener.
 
-Si tu material de origen sigue estando en formato documento, estos flujos de trabajo ayudan con la parte de borrador:
+Si partes de documentos o apuntes:
 
-- [Cómo convertir un PDF en tarjetas didácticas en 2026](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
-- [Cómo convertir apuntes en tarjetas didácticas en 2026](https://nibomo.com/blog/turn-notes-into-flashcards/)
+- Selecciona del PDF solo las lagunas que necesiten repaso y comprueba cada respuesta con la fuente.
+- Convierte tus apuntes en preguntas concretas, sin copiar cada frase al mazo.
 
 ## Una forma práctica de encontrar tu número
 
@@ -149,9 +149,9 @@ Así que sí, el planificador importa.
 
 No, el planificador no convierte una entrada ilimitada de tarjetas en un plan serio.
 
-Si quieres una comparación directa sobre la planificación, este artículo entra más a fondo:
+Antes de cambiar la planificación:
 
-- [FSRS vs SM-2 en 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
+- Ajusta el planificador solo después de estabilizar la cantidad y la calidad de las tarjetas.
 
 ## El atasco de repasos también suele ser un problema de redacción
 

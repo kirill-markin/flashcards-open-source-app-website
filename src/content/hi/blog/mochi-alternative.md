@@ -84,7 +84,7 @@ Mochi macOS, Windows, Linux, iOS, Android और web पर चलता है�
 
 ऑफ़लाइन इस्तेमाल और sync दो अलग वादे हैं। डाउनलोड किए हुए ऐप में कार्ड बनाने या रिव्यू करने के लिए Pro की ज़रूरत नहीं है। लेकिन अगर वही updated कलेक्शन अपने-आप laptop से phone तक पहुँचना चाहिए, तो Pro चाहिए। मुफ़्त प्लान के महत्वपूर्ण डेटा का native backup रखें; किसी एक डिवाइस—खासकर browser storage—को उसकी इकलौती कॉपी न मानें।
 
-अगर ऑफ़लाइन इस्तेमाल ही आपका फ़ैसला तय करेगा, तो [क्या Anki ऑफ़लाइन चलता है?](/hi/blog/does-anki-work-offline/) में अपने डिवाइस वाला workflow और [ऑफ़लाइन फ्लैशकार्ड ऐप्स की गाइड](/hi/blog/best-offline-flashcards-app/) में बड़े विकल्पों की तुलना देखें।
+अगर ऑफ़लाइन इस्तेमाल ही आपका फ़ैसला तय करेगा, तो [क्या Anki ऑफ़लाइन चलता है?](/hi/blog/does-anki-work-offline/) में अपने डिवाइस वाला workflow देखें और दूसरे ऐपों पर भी कार्ड, editing, progress और sync की यही जाँच करें।
 
 ## Markdown फ्लैशकार्ड ही Mochi चुनने की असली वजह हैं
 
@@ -115,7 +115,7 @@ Mochi के दस्तावेज़ों के मुताबिक bina
 
 ये अतिरिक्त buttons तभी मदद करते हैं, जब आप उन्हें लगातार सही तरह इस्तेमाल करें। Anki का manual Hard को सफल recall मानता है। जवाब भूल जाने के बाद Hard दबाने से FSRS को गलत जानकारी मिलती है और interval ज़रूरत से ज़्यादा लंबा हो सकता है।
 
-अगर pass/fail से session साफ़ रहता है, तो Mochi का binary review चुनें। अगर आपको अतिरिक्त grading signal चाहिए और आप optimizer, retention controls, presets या workload simulator इस्तेमाल करेंगे, तो Anki चुनें। Apps के बजाय scheduler की तुलना के लिए [FSRS बनाम SM-2](/hi/blog/fsrs-vs-sm-2/) देखें।
+अगर pass/fail से session साफ़ रहता है, तो Mochi का binary review चुनें। अगर आपको अतिरिक्त grading signal चाहिए और आप optimizer, retention controls, presets या workload simulator इस्तेमाल करेंगे, तो Anki चुनें।
 
 ## Mochi और Anki में अलग-अलग चीज़ों की कीमत चुकानी पड़ती है
 

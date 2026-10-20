@@ -108,7 +108,7 @@ La [documentación oficial de Anki sobre FSRS](https://docs.ankiweb.net/deck-opt
 
 Elige la valoración según lo que hayas recordado, no según el intervalo que aparece encima del botón. Si Good manda la tarjeta más lejos de lo que esperabas, se trata de una cuestión de ajustes. Cambiar la valoración para conseguir una fecha concreta altera el historial de repasos en vez de corregir la configuración.
 
-Las respuestas parciales y las tarjetas imprecisas complican esta decisión más de lo que sugieren las cuatro etiquetas. La guía detallada sobre [Again vs Hard](/es/blog/again-vs-hard-fsrs-flashcards/) explica esos casos. Una regla breve y fiable es decidir primero si hubo un fallo y después valorar el esfuerzo: usa Again si fallaste; elige Hard, Good o Easy solo si acertaste.
+Las respuestas parciales y las tarjetas imprecisas complican esta decisión más de lo que sugieren las cuatro etiquetas. Una regla breve y fiable es decidir primero si hubo un fallo y después valorar el esfuerzo: usa Again si fallaste; elige Hard, Good o Easy solo si acertaste.
 
 FSRS acepta la valoración que envías. No evalúa de forma objetiva tu respuesta oral o escrita.
 
@@ -129,7 +129,7 @@ La [sección del manual de Anki sobre desired retention](https://docs.ankiweb.ne
 
 El optimizador no aprende la desired retention: esta refleja tu objetivo de estudio. Los parámetros describen el modelo de memoria; el objetivo de retención indica al planificador en qué punto de ese modelo quieres repasar.
 
-Para elegir un valor en la práctica y entender cómo afecta a la carga, consulta la [guía de configuración de FSRS](/es/blog/fsrs-settings/).
+Una retención deseada más alta puede aumentar los repasos. Ajusta el objetivo a una carga que puedas mantener.
 
 ## El optimizador es opcional y tú sigues eligiendo la desired retention
 
@@ -167,7 +167,7 @@ El planificador no puede:
 - hacer sostenible por sí solo un flujo excesivo de tarjetas nuevas
 - garantizar que completes los repasos cuando correspondan
 
-Imagina una tarjeta que pregunta: «Explica el sistema inmunitario». Pulsar Again repetidamente puede generar más repasos, pero ningún planificador puede convertir una pregunta tan amplia en una única tarea clara de recuperación. La solución está en el editor de tarjetas. La [guía para crear mejores tarjetas](/es/blog/how-to-make-better-flashcards/) explica esa parte.
+Imagina una tarjeta que pregunta: «Explica el sistema inmunitario». Pulsar Again repetidamente puede generar más repasos, pero ningún planificador puede convertir una pregunta tan amplia en una única tarea clara de recuperación. La solución está en el editor de tarjetas.
 
 Este límite ayuda a diagnosticar los problemas de estudio. Si los intervalos a largo plazo parecen extraños, revisa los ajustes, el historial de valoraciones o la implementación. Si el reverso de la tarjeta te hace dudar constantemente, revisa la calidad de la tarjeta. Una cola enorme puede deberse al ritmo al que añades tarjetas nuevas, no al propio algoritmo FSRS.
 
@@ -211,7 +211,7 @@ No para empezar. FSRS puede utilizar los parámetros predeterminados. Si tu apli
 
 ### ¿Es FSRS mejor que SM-2?
 
-Utilizan modelos de planificación diferentes. FSRS añade un objetivo de retención explícito y actualiza un modelo de memoria propio de cada tarjeta, en vez de basarse en la misma estructura de intervalos y factor de facilidad. La [comparación específica entre FSRS y SM-2](/es/blog/fsrs-vs-sm-2/) analiza la evidencia y las ventajas e inconvenientes sin mezclarlos con las funciones de las aplicaciones.
+Utilizan modelos de planificación diferentes. FSRS añade un objetivo de retención explícito y actualiza un modelo de memoria propio de cada tarjeta, en vez de basarse en la misma estructura de intervalos y factor de facilidad.
 
 ### ¿Qué ajuste de FSRS debería entender primero?
 

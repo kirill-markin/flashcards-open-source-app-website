@@ -73,7 +73,7 @@ Mantén un mazo principal y usa etiquetas que respondan a preguntas prácticas:
 - estado de la fuente: `octubre-2025`, `agosto-2026` o `estable`
 - estado de revisión: `comprobar-fuente`, `reescribir` o `alto-valor`
 
-Añade una tarjeta cuando no puedas explicar un concepto enumerado, confundas dos opciones plausibles, olvides el orden de un proceso o repitas el mismo error al practicar con material autorizado. Omite el material que ya puedas recordar y aplicar. El mismo principio de mantener un mazo acotado aparece en la [guía de flashcards para Security+](/blog/how-to-use-flashcards-for-security-plus/), mientras que la [guía de AWS Solutions Architect](/blog/how-to-use-flashcards-for-aws-solutions-architect-associate/) incluye más ejemplos para convertir disyuntivas técnicas en tarjetas.
+Añade una tarjeta cuando no puedas explicar un concepto enumerado, confundas dos opciones plausibles, olvides el orden de un proceso o repitas el mismo error al practicar con material autorizado. Omite el material que ya puedas recordar y aplicar. Mantén el mazo acotado y usa preguntas que distingan entre alternativas técnicas, en lugar de acumular definiciones.
 
 ## Crea tarjetas útiles para los seis dominios del CCSP
 
@@ -174,7 +174,7 @@ Supón que un escenario de práctica revela que elegiste un control antes de ide
 
 Esta tarjeta conserva el patrón de decisión sin reproducir contenido de examen protegido. El [acuerdo de confidencialidad del examen de ISC2](https://www.isc2.org/exams/non-disclosure-agreement) indica que los candidatos no pueden divulgar ni comentar preguntas, ítems o respuestas del examen sin autorización por escrito. Usa una etiqueta de fuente privada como `practica-autorizada-2` solo si las condiciones del material permiten esa nota. Descarta volcados de examen, recuerdos de candidatos y cualquier pregunta presentada como un ítem de un examen real.
 
-El [flujo detallado para convertir preguntas de práctica](/blog/how-to-turn-practice-questions-into-flashcards/) explica con más profundidad las lagunas de conocimiento, las distinciones, las secuencias y los patrones trampa.
+Distingue si el error revela una laguna de conocimiento, una confusión entre alternativas, una secuencia olvidada o una pista mal interpretada. Formula una pregunta para ese aprendizaje.
 
 ## Mantén separadas las tarjetas de recuperación y la práctica de escenarios completos
 
@@ -204,7 +204,7 @@ Un **plan de estudio CCSP práctico para 2026** se parece a esto:
 5. Reduce las tarjetas nuevas a medida que se acerque el examen y dedica más tiempo a escenarios mixtos.
 6. Mantén visible el mazo de cambios de agosto hasta que su nuevo contenido haya entrado en el repaso normal.
 
-No elijas una valoración que refleje más dificultad de la real solo para forzar un intervalo más corto. Si la cola crece más rápido de lo que puedes terminarla en un día normal, elimina las tarjetas de poco valor o reduce la carga de tarjetas nuevas. [Cómo estudiar para un examen con FSRS](/blog/how-to-study-for-an-exam-with-fsrs/) explica las fases de creación, estabilización y repaso final. [Cuántas flashcards nuevas añadir al día](/blog/how-many-new-flashcards-per-day/) ayuda a calcular una carga a partir del tiempo disponible, en lugar de una cifra de tarjetas que suene impresionante.
+No elijas una valoración que refleje más dificultad de la real solo para forzar un intervalo más corto. Si la cola crece más rápido de lo que puedes terminarla en un día normal, elimina las tarjetas de poco valor o reduce la carga de tarjetas nuevas. Separa la fase de creación, la estabilización del mazo y el repaso final; deja de añadir tarjetas cuando resten tiempo a los repasos y a las preguntas completas.
 
 ## Dónde encaja Nibomo
 

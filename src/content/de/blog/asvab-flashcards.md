@@ -98,7 +98,7 @@ Quelle: Meine überprüfte Vokabelliste, Einheit 3
 
 Stelle nicht die umgekehrte Frage `careful about money = ?` und verlange genau ein bestimmtes Wort, wenn `frugal`, `thrifty` und `economical` alle passen könnten. Das Erkennen im Kontext und das exakte Abrufen aus einer benannten Liste sind unterschiedliche Aufgaben. Wenn deine Quelle aktives Abrufen verlangt, grenze die Frage auf diese Liste ein.
 
-Packe keine vollständige Synonymliste auf die Rückseite einer einzigen Karte. Bei vier lose verwandten Definitionen ist kaum zu erkennen, welcher Teil bei einer falschen Antwort gefehlt hat. Der Leitfaden zum [Erstellen besserer Flashcards](/de/blog/how-to-make-better-flashcards/) hilft, wenn sich in einer Antwort mehrere Bedeutungen, Wortstämme, Antonyme und Beispielsätze ansammeln.
+Packe keine vollständige Synonymliste auf die Rückseite einer einzigen Karte. Bei vier lose verwandten Definitionen ist kaum zu erkennen, welcher Teil bei einer falschen Antwort gefehlt hat. Trenne Bedeutungen, Wortstämme, Antonyme und Beispielsätze, wenn sie verschiedene Lernziele prüfen.
 
 ## Trenne ASVAB-Mathematik-Flashcards von vollständigen Matheaufgaben
 
@@ -205,7 +205,7 @@ Quelle: Meine Korrektur aus einer autorisierten Übung; Originalfrage nicht kopi
 
 Wenn Formel und Umrechnung korrekt waren, du aber die Situation falsch verstanden hast, verbringe mehr Zeit mit neuen Textaufgaben. Wenn du den Inhalt des Textes verstanden hattest, aber die Zeit ablief, plane Leseübungen unter Zeitdruck ein. Die richtige Korrektur ist nicht immer eine weitere Karte.
 
-Der ausführlichere Leitfaden zum [Umwandeln von Übungsfragen in Flashcards](/de/blog/how-to-turn-practice-questions-into-flashcards/) zeigt weitere Muster, mit denen du einen Lernpunkt herausarbeitest, ohne eine Frage zu kopieren. [Flashcards im Vergleich zu Übungstests](/de/blog/flashcards-vs-practice-tests/) erklärt, warum Abruftraining und Übungen im Prüfungsformat getrennte Bestandteile der Woche bleiben sollten.
+Formuliere aus jedem Fehler einen eigenen Lernpunkt, ohne die Übungsfrage zu kopieren. Behalte Abruftraining und Übungen im Prüfungsformat als getrennte Bestandteile der Woche bei.
 
 ## Übe in dem Format, in dem du den Test ablegst
 
@@ -238,7 +238,7 @@ Nutze einen einfachen Ablauf:
 
 Importiere nicht Hunderte **ASVAB-Lernkarten**, nur weil der Testtermin näher rückt. Jede neue Karte wird zu künftiger Arbeit. Beginne mit einem kleinen AFQT-Kern, ergänze vorrangige Module und lass die tatsächliche Übung bestimmen, wo das Deck wächst.
 
-Der [FSRS-Leitfaden zur Prüfungsplanung](/de/blog/how-to-study-for-an-exam-with-fsrs/) zeigt, wie du vom Testtermin rückwärts planst. Der Leitfaden zum [Festlegen einer täglichen Anzahl neuer Karten](/de/blog/how-many-new-flashcards-per-day/) hilft, wenn die Warteschlange schneller wächst, als du sie wiederholen kannst.
+Plane vom Testtermin rückwärts und lasse Zeit für Übungstests. Reduziere neue Karten, wenn die Warteschlange schneller wächst, als du sie wiederholen kannst.
 
 ## Wie Nibomo in den Lernplan passt
 

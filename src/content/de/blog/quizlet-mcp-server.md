@@ -66,7 +66,7 @@ Für ein selbst erstelltes Set ist eine vorsichtige Übertragung schnell erledig
 5. Importiere die Arbeitskopie oder hänge sie an. Prüfe einige Vorder- und Rückseiten in der Vorschau und speichere die Karten erst danach.
 6. Bewahre das Quizlet-Set und die Rohdatei auf, bis du das Zieldeck geöffnet und getestet hast.
 
-Alle Prüfungen zu Trennzeichen, CSV und Dateien findest du unter [So exportierst du Quizlet-Sets 2026](/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/). Der leicht zu übersehende Punkt: Der Export überträgt den Kartentext, aber keine Quizlet-Bilder, Ordner, Lernverläufe, Beherrschungsstände oder Wiederholungsplanung.
+Prüfe Trennzeichen, Kodierung und mehrzeilige Definitionen zunächst an einer kleinen Datei. Der Export überträgt den Kartentext, aber keine Quizlet-Bilder, Ordner, Lernverläufe, Beherrschungsstände oder Wiederholungsplanung.
 
 Genau deshalb sollte die Übertragung reversibel bleiben. Wenn aus einer mehrzeiligen Definition zwei Karten werden oder ein verrutschtes Trennzeichen die Felder falsch aufteilt, hast du mit der Rohdatei weiterhin eine saubere Referenz.
 
@@ -89,11 +89,11 @@ Damit wird Nibomo nicht zu einem Quizlet-Connector. Der unterstützte Ablauf sie
 3. Prüfe die zugeordneten Karten, bevor du sie in Nibomo speicherst.
 4. Verbinde den so angelegten Nibomo-Arbeitsbereich für künftige Lese- und Schreibzugriffe mit einem kompatiblen Client.
 
-Die einzelnen Schritte für Claude findest du unter [So verbindest du Nibomo über MCP mit Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/). Codex und andere Agenten können den dokumentierten MCP- oder Agent-API-Weg verwenden, den ihre jeweilige Umgebung unterstützt.
+Die [MCP-Connector-Referenz](/docs/mcp-connector/) beschreibt die Verbindung und die verfügbaren Werkzeuge. Verwende den dokumentierten MCP- oder Agent-API-Weg, den dein Client unterstützt.
 
 Nibomo kann keine Quizlet-URL auslesen, kein Quizlet-Konto spiegeln, spätere Änderungen in Quizlet synchronisieren oder Bilder und Lernverläufe wiederherstellen, die im Export fehlen. Aus dem Material, das du überträgst, erstellt Nibomo eigene Karten und einen neuen Planungsstatus.
 
-Wenn du abwägst, ob sich dieser Tausch über den Agentenzugriff hinaus lohnt, hilft dir der [Vergleich mit der Open-Source-Alternative zu Quizlet](/blog/quizlet-alternative/).
+Wäge neben dem Agentenzugriff auch Lernmodi, Datenkontrolle und den Aufwand für die Übertragung deiner Sammlung ab.
 
 ## Begrenze die Berechtigungen enger als die Aufgabe
 
@@ -101,7 +101,7 @@ Eine öffentlich dokumentierte Schnittstelle räumt zwar einige Unklarheiten bei
 
 Nibomo trennt Lesevorgänge von seinen Schreib-Tools: `sql_execute` für Karten und Decks, `submit_review` für Wiederholungen. Die OAuth-Berechtigung gilt trotzdem für den gesamten Connector; deshalb hängen Toolsperren und Freigaberegeln vom jeweiligen Client ab. Beginne mit einem kleinen, nicht vertraulichen Arbeitsbereich. Lass den Agenten nur die Daten lesen, die er für seine Aufgabe braucht. Wenn der Client es unterstützt, verlange für jeden Schreibzugriff eine eigene Freigabe, und prüfe vor der Bestätigung sowohl den Arbeitsbereich als auch die vorgeschlagene Änderung.
 
-Verbinde keine privaten Lernmaterialien, bevor du die Aufbewahrungs- und Datenverarbeitungsregeln des KI-Clients geprüft hast. Das ausführliche Bedrohungsmodell findest du unter [Ist MCP für Flashcards sicher?](/blog/is-mcp-safe-for-flashcards/). Für die erste Übertragung genügt eine einfache Regel: Bewahre den Rohexport auf, prüfe einige Karten in der Vorschau, genehmige einen eng begrenzten Schreibvorgang und kontrolliere das Ergebnis in der Ziel-App, bevor du weitermachst.
+Verbinde keine privaten Lernmaterialien, bevor du die Aufbewahrungs- und Datenverarbeitungsregeln des KI-Clients geprüft hast. Prüfe außerdem die Tool-Berechtigungen und bestätige Löschaufträge einzeln. Für die erste Übertragung genügt eine einfache Regel: Bewahre den Rohexport auf, prüfe einige Karten in der Vorschau, genehmige einen eng begrenzten Schreibvorgang und kontrolliere das Ergebnis in der Ziel-App, bevor du weitermachst.
 
 ## Behandle private Browser-Anfragen nicht als API
 

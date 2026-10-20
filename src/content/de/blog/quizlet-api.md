@@ -58,7 +58,7 @@ Deshalb ist auch ein alter Wrapper oder eine in den Entwicklerwerkzeugen des Bro
 
 Verwende Quizlets offiziellen Exportablauf für ein Set, das du selbst erstellt hast. Da der Ablauf mit **Copy text** endet, solltest du die zuerst eingefügte Fassung unverändert aufbewahren, bevor du Trennzeichen bereinigst oder Felder zuordnest. Du sicherst Begriffe und Definitionen, lädst aber kein wiederherstellbares Deck-Paket herunter. Bilder und Lernverlauf werden nicht übertragen.
 
-Die praktische Checkliste findest du unter [So exportierst du Quizlet-Sets 2026](/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/). Sie behandelt Roh- und Arbeitskopien, UTF-8, Tabulatoren, mehrzeilige Definitionen und den Unterschied zwischen der Übertragung von Karteninhalten und dem Stand der Lernplanung.
+Bewahre Roh- und Arbeitskopien getrennt auf und prüfe UTF-8, Tabulatoren und mehrzeilige Definitionen. Die Übertragung von Karteninhalten übernimmt nicht den Stand der Lernplanung.
 
 Der Export eignet sich für eine einmalige, überschaubare Übertragung. Für die tägliche Erstellung, Synchronisierung oder wiederholte Bearbeitung durch Software ist er ungeeignet.
 
@@ -95,7 +95,7 @@ Beide Zugangswege sind auf einen Arbeitsbereich begrenzt. Die veröffentlichten 
 
 Damit können Entwickler oder KI-Agenten ihre eigenen Karteikarten automatisieren. Die Schnittstellen können weder eine Quizlet-URL auslesen noch ein Quizlet-Konto spiegeln oder als undokumentierter Quizlet-Client auftreten. Es gibt keinen automatischen Quizlet-Importer. Exportiere für eine Migration zunächst Begriffe und Definitionen aus deinem eigenen Set, prüfe den Text und ordne ihn danach den Kartenfeldern des Zielsystems zu. Das Zielsystem erstellt seinen eigenen Lernzustand; der Quizlet-Verlauf wird nicht übertragen.
 
-Weitere Produktunterschiede neben dem API-Zugriff findest du im [Vergleich zwischen Quizlet und der Open-Source-Alternative Nibomo](/blog/quizlet-alternative/).
+Vergleiche neben dem API-Zugriff auch Lernmodi, Datenkontrolle, Exportmöglichkeiten und den Aufwand der Migration.
 
 ## Nicht öffentlich dokumentierte Browseranfragen sind keine sichere Abkürzung
 

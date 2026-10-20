@@ -128,7 +128,7 @@ Rückseite: SSH ist die übliche Zuordnung. Prüfe den tatsächlich lauschenden
 Prozess; die Portnummer allein beweist nicht, welcher Dienst läuft.
 ```
 
-So wird ein Port-Deck nicht zum reinen Aufsagen von Zahlen. Mehr über Protokollkarten erfährst du im [Leitfaden zu Security+-Lernkarten](/blog/how-to-use-flashcards-for-security-plus/). Begrenze das A+-Deck weiterhin auf die A+-Prüfungsziele.
+So wird ein Port-Deck nicht zum reinen Aufsagen von Zahlen. Frage bei Protokollen auch nach dem Einsatzfall und dem Unterschied zu ähnlichen Diensten. Begrenze das A+-Deck weiterhin auf die A+-Prüfungsziele.
 
 ### Wähle das Werkzeug, das die nötigen Informationen liefert
 
@@ -155,7 +155,7 @@ Windows-Absturz untersuchen?
 Rückseite: Event Viewer (eventvwr.msc)
 ```
 
-Führe den Befehl direkt nach der Kartenwiederholung aus oder öffne das Werkzeug. Die Karte ruft den ersten Schritt ab; am Rechner lernst du Optionen, Ausgaben, Berechtigungen und Fehlerzustände. Der [Leitfaden zu Lernkarten für Terminalbefehle](/blog/how-to-learn-terminal-commands-with-flashcards/) beschreibt diesen Kreislauf ausführlicher.
+Führe den Befehl direkt nach der Kartenwiederholung aus oder öffne das Werkzeug. Die Karte ruft den ersten Schritt ab; am Rechner lernst du Optionen, Ausgaben, Berechtigungen und Fehlerzustände.
 
 ## Core 2 prüft auch Abgrenzungen, Reihenfolgen und Urteilsvermögen
 
@@ -220,7 +220,7 @@ Angenommen, du wusstest, wofür DNS zuständig ist, hast aber Zeit bei der Frage
 
 Reduziere einen Fehler nicht auf eine Karte, wenn das eigentliche Problem die Navigation, das Auswerten einer Befehlsausgabe, der Einbau einer Komponente, das Zeitmanagement oder eine unvollständige Erfassung der Hinweise war. Diese Probleme brauchen weitere PBQ-Übungen, ein virtuelles Lab, Ersatzhardware oder eine längere Aufgabe zur Fehlerbehebung.
 
-Die Dokumente mit den Prüfungszielen warnen außerdem vor nicht autorisiertem Material von Drittanbietern, das häufig als Brain Dumps bezeichnet wird. Nutze die aktuellen Prüfungsziele, autorisierte Lern- und Übungsmaterialien sowie deine eigenen Lab-Notizen. Der Leitfaden [Übungsfragen in Lernkarten verwandeln](/blog/how-to-turn-practice-questions-into-flashcards/) erklärt, wie du die wiederverwendbare Erkenntnis behältst, ohne die Frage zu kopieren.
+Die Dokumente mit den Prüfungszielen warnen außerdem vor nicht autorisiertem Material von Drittanbietern, das häufig als Brain Dumps bezeichnet wird. Nutze die aktuellen Prüfungsziele, autorisierte Lern- und Übungsmaterialien sowie deine eigenen Lab-Notizen. Halte Erkenntnisse aus Fehlern in eigenen Worten fest, ohne die ursprüngliche Frage zu kopieren.
 
 ## Baue einen Lernkreislauf für jeweils einen Core auf
 

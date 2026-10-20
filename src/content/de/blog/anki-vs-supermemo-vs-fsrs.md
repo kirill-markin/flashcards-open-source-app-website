@@ -53,9 +53,9 @@ Anki ist weit mehr als ein Spaced-Repetition-Algorithmus. Der Wert des Produkts 
 
 Das ist entscheidend, wenn jemand Anki „für FSRS“ verlassen möchte. Die aktuelle Anki-Version unterstützt FSRS bereits. Laut [Anki-Handbuch zu FSRS](https://docs.ankiweb.net/deck-options.html#fsrs) ist FSRS eine Alternative zu Ankis älterem SuperMemo-2-Scheduler. Die Aktivierung gilt global und lässt sich nicht auf eine einzelne Voreinstellung beschränken. Desired Retention legt fest, welche Abrufwahrscheinlichkeit das Modell anstrebt, wenn eine Karte fällig wird. Ein höherer Wert verkürzt im Allgemeinen die Intervalle und erzeugt mehr Wiederholungen. Mit **Optimize** kann Anki die FSRS-Parameter außerdem an einen kompatiblen Wiederholungsverlauf anpassen.
 
-Die Formulierung im Handbuch braucht allerdings eine historische Einordnung. **SM-2 ist ein früher Algorithmus aus der SuperMemo-Familie und kein Synonym für das heutige SuperMemo.** Ankis älteren Scheduler als „Legacy SM-2“ zu bezeichnen, folgt der Anki-Dokumentation und benennt die Algorithmusfamilie, auf die er zurückgeht. Daraus folgt nicht, dass jedes Implementierungsdetail mit dem ursprünglichen, vor Jahrzehnten veröffentlichten SM-2 identisch ist. Einen gezielteren technischen Vergleich bietet [FSRS vs SM-2](/blog/fsrs-vs-sm-2/).
+Die Formulierung im Handbuch braucht allerdings eine historische Einordnung. **SM-2 ist ein früher Algorithmus aus der SuperMemo-Familie und kein Synonym für das heutige SuperMemo.** Ankis älteren Scheduler als „Legacy SM-2“ zu bezeichnen, folgt der Anki-Dokumentation und benennt die Algorithmusfamilie, auf die er zurückgeht. Daraus folgt nicht, dass jedes Implementierungsdetail mit dem ursprünglichen, vor Jahrzehnten veröffentlichten SM-2 identisch ist.
 
-Wenn deine über Jahre gewachsene Sammlung von eigenen Vorlagen, Add-ons, Medien oder einer langen Wiederholungshistorie abhängt, ist ein Produktwechsel mit echtem Migrationsaufwand verbunden. Innerhalb von Anki den Scheduler zu wechseln kann erheblich einfacher sein, als Anki ganz zu verlassen. Der ausführlichere Vergleich [Anki vs Nibomo](/blog/anki-vs-flashcards-open-source-app/) behandelt diese Abwägung auf Produktebene.
+Wenn deine über Jahre gewachsene Sammlung von eigenen Vorlagen, Add-ons, Medien oder einer langen Wiederholungshistorie abhängt, ist ein Produktwechsel mit echtem Migrationsaufwand verbunden. Innerhalb von Anki den Scheduler zu wechseln kann erheblich einfacher sein, als Anki ganz zu verlassen.
 
 ## „SuperMemo“ braucht heute einen Zusatz
 
@@ -110,7 +110,7 @@ Bewertungen liefern einem Scheduling-System Signale. Da Produkte unterschiedlich
 | Gehostetes SuperMemo.com | Don't know, Almost, Know | Eine dreistufige Produktskala, die auf der [Seite zur SuperMemo-Methode](https://www.supermemo.com/en/supermemo-method) dokumentiert ist. Sie sollte nicht mechanisch auf die vier FSRS-Bewertungen abgebildet werden. |
 | SuperMemo 20 für Windows | Bewertungsablauf in der SuperMemo-Desktop-Anwendung | Eine eigene Produktoberfläche, die mehrere Algorithmen in der Algorithm Arena mit Daten versorgt. Ihre Bedeutung lässt sich nicht aus den drei Bezeichnungen des gehosteten Dienstes ableiten. |
 
-Die folgenreichste Unterscheidung bei FSRS ist die zwischen Again und Hard. Laut [Anki-Handbuch](https://docs.ankiweb.net/deck-options.html#fsrs) behandelt FSRS Hard als erfolgreichen Abruf und Again als Misserfolg. Wer Hard wählt, weil das nächste Intervall angenehmer aussieht, zeichnet ein Ereignis auf, das gar nicht stattgefunden hat. Der praktische Leitfaden [Again vs Hard](/blog/again-vs-hard-fsrs-flashcards/) behandelt Teilantworten und Grenzfälle ausführlich.
+Die folgenreichste Unterscheidung bei FSRS ist die zwischen Again und Hard. Laut [Anki-Handbuch](https://docs.ankiweb.net/deck-options.html#fsrs) behandelt FSRS Hard als erfolgreichen Abruf und Again als Misserfolg. Wer Hard wählt, weil das nächste Intervall angenehmer aussieht, zeichnet ein Ereignis auf, das gar nicht stattgefunden hat. Bewerte Teilantworten anhand dessen, was die Karte tatsächlich verlangt, und korrigiere unklare Fragen vor weiteren Wiederholungen.
 
 ## So implementiert Nibomo FSRS heute
 
@@ -129,7 +129,7 @@ Für Workspaces gelten standardmäßig:
 - ein maximales Intervall von `36,500` Tagen
 - aktivierter Fuzz
 
-Workspaces können Desired Retention, Steps, das maximale Intervall und Fuzz für künftige Wiederholungen ändern. Nibomo personalisiert die FSRS-Gewichte derzeit **nicht** pro Nutzer und stellt sie dort auch nicht zur Konfiguration bereit; die v1-Gewichte sind fest hinterlegte Standardwerte. Das ist ein wesentlicher Unterschied zu Produkten, die Parameter anhand des individuellen Wiederholungsverlaufs optimieren. Der [Leitfaden zu FSRS-Einstellungen](/blog/fsrs-settings/) erklärt die Folgen für die Arbeitslast, ohne so zu tun, als müsse jeder Regler angepasst werden.
+Workspaces können Desired Retention, Steps, das maximale Intervall und Fuzz für künftige Wiederholungen ändern. Nibomo personalisiert die FSRS-Gewichte derzeit **nicht** pro Nutzer und stellt sie dort auch nicht zur Konfiguration bereit; die v1-Gewichte sind fest hinterlegte Standardwerte. Das ist ein wesentlicher Unterschied zu Produkten, die Parameter anhand des individuellen Wiederholungsverlaufs optimieren. Passe Einstellungen an die tatsächlich bewältigbare Arbeitslast an.
 
 Auf der Wiederholungsansicht im Web zeigt Nibomo für Again, Hard, Good und Easy jeweils eine Vorschau des berechneten nächsten Intervalls. Die Bewertungen `0`, `1`, `2` und `3` aus Benutzeroberfläche und API werden intern den FSRS-Bewertungen `1` bis `4` zugeordnet. Again steht für einen fehlgeschlagenen Abruf; Hard, Good und Easy stehen für erfolgreiche Abrufe mit jeweils geringerem Aufwand. Alle Clients erinnern bei häufiger Verwendung von Hard daran: Eine Antwort, die du nicht abrufen konntest, gehört unter Again.
 

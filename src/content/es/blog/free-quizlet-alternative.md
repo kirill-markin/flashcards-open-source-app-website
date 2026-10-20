@@ -92,7 +92,7 @@ Las aplicaciones de escritorio y móviles de RemNote funcionan sin conexión des
 
 La documentación citada de RemNote no ofrece una vía de un solo clic desde Quizlet. Puedes convertir el texto exportado de Quizlet a la sintaxis documentada de RemNote, [`Pregunta >> Respuesta`](https://help.remnote.com/en/articles/9252072-how-to-import-flashcards-from-text), y pegarlo, o bien crear primero un mazo de Anki y usar el [importador de `.apkg` de RemNote](https://help.remnote.com/en/articles/6751471-importing-from-anki). Ambas vías añaden un paso de conversión, y las imágenes y el historial de estudio ausentes en Quizlet siguen sin aparecer.
 
-Puedes salir mediante exportaciones nativas de RemNote, Anki, OPML, HTML, Markdown y texto. El formato nativo completo ofrece la mayor fidelidad, mientras que la opción de Anki solo incluye las tarjetas; la [guía de exportación de RemNote](https://help.remnote.com/en/articles/7898019-exporting-notes) también señala que el archivo de exportación nativo no incluye actualmente imágenes ni PDF. Elige RemNote por su modelo de notas y tarjetas, no porque la palabra «ilimitado» se aplique a todas las funciones avanzadas. Consulta la [comparativa de alternativas a RemNote](/blog/remnote-alternative/) si ese modelo es el factor decisivo.
+Puedes salir mediante exportaciones nativas de RemNote, Anki, OPML, HTML, Markdown y texto. El formato nativo completo ofrece la mayor fidelidad, mientras que la opción de Anki solo incluye las tarjetas; la [guía de exportación de RemNote](https://help.remnote.com/en/articles/7898019-exporting-notes) también señala que el archivo de exportación nativo no incluye actualmente imágenes ni PDF. Elige RemNote por su modelo de notas y tarjetas, no porque la palabra «ilimitado» se aplique a todas las funciones avanzadas.
 
 ## Mochi: gratis sin conexión, de pago al añadir sincronización
 
@@ -118,7 +118,7 @@ La migración desde Quizlet también es el punto más débil. Nibomo no tiene un
 
 El paquete nativo `flashcards.zip` mueve tarjetas, etiquetas y archivos multimedia relacionados entre espacios de trabajo de Nibomo. No mueve el historial de repasos, el estado del programador FSRS, los ajustes, las estructuras completas de los mazos ni los datos de la cuenta. El autoalojamiento te da el software con licencia MIT y el control del despliegue, pero la vía de producción documentada usa AWS y sigue generando costes de infraestructura, proveedores, mantenimiento, copias de seguridad y operación. La [guía de autoalojamiento](/docs/self-hosting/) explica ese límite.
 
-Elige Nibomo cuando el código abierto, el uso explícito de FSRS o el acceso mediante agentes de IA sean el motivo para dejar Quizlet. Elige otra opción cuando importen más la migración directa, los formatos de importación maduros o un plan alojado gratuito, permanente y con todo incluido. La comparativa específica de [Quizlet y su alternativa de código abierto](/blog/quizlet-alternative/) profundiza en Quizlet frente a Nibomo; esta guía de cinco aplicaciones se centra en los límites de las opciones gratuitas.
+Elige Nibomo cuando el código abierto, el uso explícito de FSRS o el acceso mediante agentes de IA sean el motivo para dejar Quizlet. Elige otra opción cuando importen más la migración directa, los formatos de importación maduros o un plan alojado gratuito, permanente y con todo incluido.
 
 ## Haz esta prueba de migración antes de trasladarlo todo
 

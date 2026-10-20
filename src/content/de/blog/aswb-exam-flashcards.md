@@ -109,7 +109,7 @@ Mit solchen Karten kannst du Priorisierung, einschränkende Formulierungen und d
 
 Bleib bei einem Abrufziel. Eine lange Fallbeschreibung mit drei Entscheidungen auf der Rückseite wird zu einem kleinen Übungstest, den du kaum ehrlich bewerten kannst.
 
-Diese Methode mit kleinen Karten eignet sich auch für andere Zulassungsprüfungen mit vielen Szenariofragen. Die Beispiele im [Leitfaden zu NCLEX-Flashcards](/blog/how-to-use-flashcards-for-the-nclex/) zeigen, wie du Hinweise und Priorisierung voneinander trennst, ohne so zu tun, als könnten Flashcards vollständige Fragen ersetzen. Das Fachgebiet ist ein anderes, das Prinzip beim Überarbeiten der Karten funktioniert aber genauso.
+Diese Methode mit kleinen Karten eignet sich auch für andere Zulassungsprüfungen mit vielen Szenariofragen. Trenne Hinweise und Priorisierung in eigene Abrufziele und übe danach wieder mit vollständigen Szenariofragen.
 
 ## Gib Werte und Ethik genug Raum, ohne rechtliche Unterschiede einzuebnen
 
@@ -139,9 +139,9 @@ Das beste Deck wird meist kleiner, sobald du mit Übungsaufgaben beginnst. Ordne
 
 Schreibe die kleinste Karte, die denselben Fehler beim nächsten Mal unterbricht. Ein übersehener Signalbegriff kann eine Karte zur Entscheidungsreihenfolge erfordern, fehlendes Wissen dagegen eine direkte Abrufkarte. Eine riesige Karte mit der ursprünglichen Fragestellung, allen Optionen und der vollständigen Begründung verwischt diesen Unterschied.
 
-Verwende nur Material, das du verwenden darfst. Gib keine Inhalte aus echten Prüfungen wieder, rekonstruiere sie nicht, teile sie nicht und bitte andere nicht darum. Halte dich bei kommerziellen und offiziellen Übungsprodukten an die jeweiligen Bedingungen. Konzentriere die Karte auf deine eigene Lernerkenntnis, statt geschützte Formulierungen zu kopieren. [Dieser Workflow für Übungsfragen](/blog/how-to-turn-practice-questions-into-flashcards/) erklärt genauer, wie du aus einem Fehler ein dauerhaft nützliches Abrufziel machst.
+Verwende nur Material, das du verwenden darfst. Gib keine Inhalte aus echten Prüfungen wieder, rekonstruiere sie nicht, teile sie nicht und bitte andere nicht darum. Halte dich bei kommerziellen und offiziellen Übungsprodukten an die jeweiligen Bedingungen. Konzentriere die Karte auf deine eigene Lernerkenntnis, statt geschützte Formulierungen zu kopieren. Formuliere aus dem Fehler ein eigenes, klar bewertbares Abrufziel.
 
-Auch nach der Einordnung zählt die Qualität der Karte. Gib deinem müden Zukunfts-Ich genug Kontext, antworte direkt und teile jede Karte, die zwei Entscheidungen prüft. Die Regeln aus [So erstellst du bessere Flashcards](/blog/how-to-make-better-flashcards/) eignen sich gut für einen letzten Durchgang.
+Auch nach der Einordnung zählt die Qualität der Karte. Gib deinem müden Zukunfts-Ich genug Kontext, antworte direkt und teile jede Karte, die zwei Entscheidungen prüft.
 
 ## Nutze FSRS erst, nachdem du das Deck eingegrenzt hast
 
@@ -155,7 +155,7 @@ Halte die Reihenfolge einfach:
 4. Lösche Duplikate und vage Prompts.
 5. Wiederhole mit FSRS und übe weiterhin mit Szenariofragen.
 
-Beginne mit einer täglichen Menge, die du an einem normalen Arbeitstag bewältigen kannst. Je näher der Termin rückt, desto weniger breit angelegte Inhaltskarten solltest du hinzufügen. Bleib stattdessen bei gezielten Ergänzungen aus neuen Fehlern. Der [FSRS-Leitfaden zur Prüfungsplanung](/blog/how-to-study-for-an-exam-with-fsrs/) erklärt, wie du vom Prüfungstag rückwärts planst, ohne eine Wiederholungswarteschlange zu erzeugen, die ausgerechnet in der letzten Woche ihren Höhepunkt erreicht.
+Beginne mit einer täglichen Menge, die du an einem normalen Arbeitstag bewältigen kannst. Je näher der Termin rückt, desto weniger breit angelegte Inhaltskarten solltest du hinzufügen. Bleib stattdessen bei gezielten Ergänzungen aus neuen Fehlern. Lasse in der letzten Woche genug Zeit für Wiederholungen und vollständige Übungsfragen.
 
 Flashcards trainieren den Abruf über längere Zeit. Fragensets unter Zeitdruck trainieren dich darin, zu lesen, auszuwählen, dein Tempo einzuteilen und Unsicherheit auszuhalten. Du brauchst beides.
 

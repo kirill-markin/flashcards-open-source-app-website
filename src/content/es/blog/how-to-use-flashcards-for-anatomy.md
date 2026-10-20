@@ -93,7 +93,7 @@ Mejor divídelo:
 
 La misma regla funciona con forámenes, vasos, ligamentos y ramas del plexo. La mayoría de los fallos en anatomía vienen de un enlace roto, no de una ignorancia total.
 
-Si tus tarjetas ya se sienten infladas, [Cómo hacer mejores flashcards en 2026](https://nibomo.com/blog/how-to-make-better-flashcards/) es la guía adecuada para limpiar el mazo.
+Divide las tarjetas que mezclen varias estructuras o relaciones y formula una pregunta concreta para cada una.
 
 ## Las relaciones espaciales merecen sus propias tarjetas
 
@@ -163,7 +163,7 @@ Lo que suele fallar:
 - una tarjeta que evalúa región, estructura, inervación y acción al mismo tiempo
 - una respuesta en forma de párrafo debajo de una imagen ruidosa
 
-Si el cuello de botella real está en convertir diagramas y visuales etiquetados de forma limpia, [Cómo convertir diagramas en flashcards en 2026](https://nibomo.com/blog/how-to-turn-diagrams-into-flashcards/) cubre bien esa parte inicial del flujo.
+Recorta el diagrama hasta la estructura relevante, oculta la etiqueta y conserva una versión comprobada para verificar la respuesta.
 
 ## La IA sirve para limpiar material, no para recordar por ti
 
@@ -184,7 +184,7 @@ Dónde ayuda poco:
 
 Así que usa la IA para preparar el material, no para externalizar la memoria.
 
-Si quieres la versión más amplia de ese flujo, desde tutor hasta retención, [Cómo usar IA para estudiar en 2026](https://nibomo.com/blog/how-to-use-ai-to-study/) y [Cómo arreglar flashcards hechas con IA en 2026](https://nibomo.com/blog/how-to-fix-ai-flashcards/) son los dos seguimientos útiles.
+Usa la tutoría para detectar lagunas y revisa cada borrador con tu atlas o material del curso antes de guardarlo.
 
 ## Los pines que fallas y las relaciones que inviertes son tu mejor fuente de tarjetas
 
@@ -210,7 +210,7 @@ Lo que normalmente no merece tarjeta:
 
 Esos son problemas reales. Simplemente no son problemas de flashcards.
 
-Si tu mejor material fuente son los fallos de prácticos y de spotters, [Cómo convertir preguntas de práctica en flashcards en 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) encaja muy bien aquí.
+Tras un fallo en un práctico o spotter, identifica la confusión concreta y crea una pregunta propia. Después vuelve a localizar la estructura en una imagen nueva.
 
 ## Un flujo semanal de anatomía debería ser aburrido
 
@@ -226,7 +226,7 @@ Mantén el bucle simple:
 
 Anatomía genera material infinito para nuevas tarjetas. Tu cola de repaso sigue teniendo que ser vivible.
 
-Si ya se te está yendo de las manos, [¿Cuántas flashcards nuevas al día en 2026?](https://nibomo.com/blog/how-many-new-flashcards-per-day/) y [Cómo ponerse al día con flashcards después de quedarse atrás en 2026](https://nibomo.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/) son las siguientes lecturas lógicas.
+Si la cola crece más rápido de lo que puedes repasarla, reduce las tarjetas nuevas y recupera las pendientes por etapas.
 
 ## FSRS ayuda cuando las tarjetas por fin son honestas
 
@@ -242,7 +242,7 @@ Lo que FSRS no hace es rescatar tarjetas infladas. El orden importa:
 2. mantén el mazo bajo control
 3. deja que FSRS se encargue del momento
 
-Si quieres una explicación más directa de la parte del planificador, [Cómo estudiar para un examen con FSRS en 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) y [FSRS vs. SM-2 en 2026](https://nibomo.com/blog/fsrs-vs-sm-2/) son los dos seguimientos más limpios.
+Antes de un examen, limita la creación de tarjetas y deja tiempo para los repasos pendientes y los ejercicios prácticos.
 
 ## Dónde encaja Nibomo
 

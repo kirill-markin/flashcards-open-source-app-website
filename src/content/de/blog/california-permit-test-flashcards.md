@@ -59,7 +59,7 @@ Quelle geprüft: California Driver's Handbook, Traffic Control, 2026-08-02
 
 Setze bei einer Karte zu einem Verkehrszeichen das Bild oder eine klare Beschreibung auf die Vorderseite und frage sowohl nach der Bedeutung als auch nach der erforderlichen Reaktion. Nur „Bahnübergang“ zu nennen, ohne abzurufen, dass du schauen, hören, langsamer werden, dich auf das Anhalten vorbereiten und Züge vorbeilassen solltest, lässt die Hälfte des Lernstoffs aus.
 
-Bewahre eine vollständige Übersicht aller Verkehrszeichen außerhalb des Decks auf. Kleine Bildausschnitte trainieren das Erkennen. Eine gemischte Übersicht prüft, ob du das relevante Schild unter ähnlichen Formen findest. [So verwandelst du Bilder in Lernkarten](/blog/how-to-turn-images-into-flashcards/) zeigt einen praktischen Ablauf, mit dem Bildkarten fokussiert bleiben.
+Bewahre eine vollständige Übersicht aller Verkehrszeichen außerhalb des Decks auf. Kleine Bildausschnitte trainieren das Erkennen. Eine gemischte Übersicht prüft, ob du das relevante Schild unter ähnlichen Formen findest. Schneide Bildkarten auf das einzelne Zeichen zu und prüfe, ob der Ausschnitt alle entscheidenden Merkmale zeigt.
 
 ### 2. Vorfahrt und entscheidende Merkmale der Situation
 
@@ -110,7 +110,7 @@ Nutze nach jedem Beispieltest für Class C diesen Ablauf mit direktem Quellenbez
 
 Angenommen, du hast in einem Beispieltest einen roten Pfeil wie eine gewöhnliche rote Ampel behandelt. Deine Karte zur Fehlerkorrektur kann nach dem Verhalten bei einem roten Pfeil fragen. Auf der Rückseite steht dann, dass du anhalten und stehen bleiben musst, bis ein grünes Signal oder ein grüner Pfeil erscheint. Diese Regel steht im Abschnitt zur Verkehrsregelung. Die Geschichte aus der Beispielfrage, die Reihenfolge der Antwortmöglichkeiten und die genaue Formulierung brauchst du dafür nicht.
 
-Dasselbe Prinzip erklärt der ausführlichere Leitfaden zum [Umwandeln von Übungsfragen in Lernkarten](/blog/how-to-turn-practice-questions-into-flashcards/). [So erstellst du bessere Lernkarten](/blog/how-to-make-better-flashcards/) hilft, wenn eine Karte zur Fehlerkorrektur zu einem ganzen Absatz anwächst oder mehrere Dinge gleichzeitig abfragt.
+Beschränke jede Fehlerkorrekturkarte auf eine konkrete Frage und eine kurze Antwort. Teile sie, wenn die Antwort einen ganzen Absatz benötigt oder mehrere Dinge gleichzeitig abfragt.
 
 ## Ein realistischer Lernrhythmus für sieben Tage
 
@@ -138,7 +138,7 @@ Nutze einen anderen Beispieltest für Class C. Untersuche falsche und geratene A
 
 ### Tag 6: Verbinde Abruf und Anwendung
 
-Wiederhole fällige Karten, erkenne Verkehrszeichen in gemischter Reihenfolge und spiele neue Vorfahrtssituationen durch. Bearbeite einen weiteren offiziellen Beispieltest, wenn er nützliche Lücken aufdecken kann. [Lernkarten und Übungstests trainieren unterschiedliche Aufgaben](/blog/flashcards-vs-practice-tests/), deshalb gehören beide in diese Woche.
+Wiederhole fällige Karten, erkenne Verkehrszeichen in gemischter Reihenfolge und spiele neue Vorfahrtssituationen durch. Bearbeite einen weiteren offiziellen Beispieltest, wenn er nützliche Lücken aufdecken kann. Lernkarten trainieren den Abruf einzelner Regeln, Übungstests ihre Anwendung in neuen Situationen, deshalb gehören beide in diese Woche.
 
 ### Tag 7: Prüfe dein Deck und teste dich erneut
 
@@ -168,7 +168,7 @@ Das DMV beschreibt die praktische Fahrprüfung separat: Sie bewertet die sichere
 
 [Nibomo](/features/) unterstützt einfache Karten mit Vorder- und Rückseite, Decks, Tags und fällige Wiederholungen. FSRS (Free Spaced Repetition Scheduler) nutzt deinen bisherigen Wiederholungsverlauf, um zu planen, wann jede Karte wiederkehrt. So lässt sich ein kleines Permit-Test-Deck über die Woche verteilen.
 
-KI-Unterstützung ist optional, und du entscheidest, welche Kartenentwürfe gespeichert werden. KI prüft weder Verkehrsregeln noch deren rechtliche Richtigkeit. Vergleiche jede von KI erstellte Karte mit dem aktuellen DMV-Handbuch. Füge außerdem keine persönlichen Identifikationsdaten, Antragsunterlagen oder Führerscheindaten in gehostete KI-Tools ein. Der Datenschutzleitfaden erklärt diese Grenze genauer: [Private Lernkarten mit KI](/blog/private-flashcards-with-ai/).
+KI-Unterstützung ist optional, und du entscheidest, welche Kartenentwürfe gespeichert werden. KI prüft weder Verkehrsregeln noch deren rechtliche Richtigkeit. Vergleiche jede von KI erstellte Karte mit dem aktuellen DMV-Handbuch. Füge außerdem keine persönlichen Identifikationsdaten, Antragsunterlagen oder Führerscheindaten in gehostete KI-Tools ein.
 
 Die App unterstützt mobiles Offline-Lernen mit Synchronisierung über Web, iOS und Android. Das Projekt steht unter der MIT-Lizenz und bietet einen dokumentierten Weg zum [Self-Hosting](/docs/self-hosting/). Es ist weder mit dem California DMV verbunden noch wird es von ihm unterstützt, enthält kein offizielles Deck für California Class C und sagt nicht voraus, ob du bestehst. Der Leitfaden [Erste Schritte](/docs/getting-started/) zeigt die aktuellen Möglichkeiten, eigene Karten zu erstellen und zu wiederholen.
 

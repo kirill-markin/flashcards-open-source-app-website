@@ -145,7 +145,7 @@ Las malas candidatas suelen sonar así:
 
 Eso pertenece a los apuntes, no a una cola de repaso.
 
-Si quieres la versión más estricta de las reglas para escribir tarjetas, [Cómo hacer mejores tarjetas didácticas en 2026](/blog/how-to-make-better-flashcards/) entra más a fondo en esa limpieza.
+Comprueba que cada tarjeta tenga una pregunta concreta y una respuesta breve, verificada con la fuente. Divide las que mezclen varios objetivos.
 
 ## Un ejemplo pequeño del relevo
 
@@ -201,7 +201,7 @@ Yo prefiero ocho buenas tarjetas repasadas con FSRS antes que cincuenta tarjetas
 
 FSRS es la parte que convierte "detecté esta laguna" en "es menos probable que vuelva a fallar esto la semana que viene". Las tarjetas fáciles se espacian más. Las difíciles vuelven antes. El mazo se siente menos como administración y más como repaso de verdad.
 
-Si quieres la comparación entre planificadores, [FSRS vs SM-2 en 2026](/blog/fsrs-vs-sm-2/) es el mejor lugar para esa discusión. Este artículo es más concreto. Gemini ya encontró los puntos débiles. Ahora esos puntos necesitan un hogar de repaso real.
+Gemini ya encontró los puntos débiles. Ahora selecciona los que necesiten repasos futuros y guárdalos como preguntas claras y comprobadas.
 
 ## Dónde encaja Nibomo
 

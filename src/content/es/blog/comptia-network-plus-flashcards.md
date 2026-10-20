@@ -95,7 +95,7 @@ evidencias de la configuración, los procesos y el tráfico.
 
 Un puerto es una convención y una pista, no una comprobación de identidad. Los servicios pueden trasladarse, pasar por un túnel o un proxy, o estar mal configurados. Aprender a sacar conclusiones tajantes a partir de un número crea justo el hábito equivocado para la **resolución de problemas de Network+**.
 
-No necesitas tarjetas separadas en ambos sentidos para cada asociación desde el primer día. Empieza en una dirección y añade la inversa solo cuando te cueste recordar la respuesta o confundas dos servicios. La [guía de flashcards para Security+](/es/blog/how-to-use-flashcards-for-security-plus/) aplica el mismo enfoque a las diferencias entre protocolos y conceptos de seguridad.
+No necesitas tarjetas separadas en ambos sentidos para cada asociación desde el primer día. Empieza en una dirección y añade la inversa solo cuando te cueste recordar la respuesta o confundas dos servicios.
 
 ## Usa tarjetas de subnetting como referencias y después calcula redes nuevas
 
@@ -172,7 +172,7 @@ respuesta como un indicio que debes investigar, no como prueba automática de qu
 un salto está caído.
 ```
 
-Después de repasar una tarjeta de comando, ejecútalo en un laboratorio o en un sistema que tengas autorización para probar. Predice qué esperas encontrar, lee la salida real, cambia una condición y vuelve a ejecutarlo. Ese ciclo breve enseña permisos, parámetros, diferencias entre plataformas, filtros y salidas desordenadas: aspectos que la tarjeta no puede reproducir. La [guía de flashcards para comandos de terminal](/es/blog/how-to-learn-terminal-commands-with-flashcards/) profundiza en este método.
+Después de repasar una tarjeta de comando, ejecútalo en un laboratorio o en un sistema que tengas autorización para probar. Predice qué esperas encontrar, lee la salida real, cambia una condición y vuelve a ejecutarlo. Ese ciclo breve enseña permisos, parámetros, diferencias entre plataformas, filtros y salidas desordenadas: aspectos que la tarjeta no puede reproducir.
 
 ## Las tarjetas de resolución de problemas deben conservar la incertidumbre
 
@@ -233,7 +233,7 @@ Usa flashcards antes y después de la **práctica de PBQ para Network+**:
 
 Supón que elegiste la herramienta equivocada porque no recordabas qué comando consulta DNS. Ese error justifica una tarjeta de corrección clara. Si conocías la herramienta, pero no supiste interpretar la respuesta, dedica tiempo a trabajar con salidas reales. Si perdiste el límite de la red al calcular una subred, calcula más redes desconocidas. Si no pudiste configurar el dispositivo, vuelve al laboratorio.
 
-No copies en el mazo una pregunta de práctica legítima. Conserva la lección reutilizable con tus propias palabras y elimina el contexto narrativo, las opciones de respuesta y la redacción distintiva de la pregunta. La guía para [convertir preguntas de práctica en flashcards](/es/blog/how-to-turn-practice-questions-into-flashcards/) ofrece un flujo de trabajo completo.
+No copies en el mazo una pregunta de práctica legítima. Conserva la lección reutilizable con tus propias palabras y elimina el contexto narrativo, las opciones de respuesta y la redacción distintiva de la pregunta.
 
 Los objetivos oficiales también advierten contra materiales no autorizados de terceros, conocidos habitualmente como brain dumps o volcados de examen. Usa los objetivos actuales, formación y prácticas autorizadas, tus propias observaciones de laboratorio y tus propias explicaciones. Memorizar la redacción de preguntas filtradas no es estudiar Network+.
 
@@ -271,7 +271,7 @@ Una organización sencilla consiste en un mazo `N10-009` con etiquetas como `por
 
 Aquí no afirmamos que exista un mazo oficial o predefinido de N10-009. Empieza a partir de los objetivos actuales de CompTIA y de tus propios errores legítimos de estudio. [Primeros pasos](/es/docs/getting-started/) explica las modalidades alojada y autoalojada si quieres crear el mazo en Nibomo.
 
-Si estás estudiando una certificación cercana, la [guía de flashcards para CompTIA A+](/es/blog/comptia-a-plus-flashcards/) aplica la misma separación entre recordar y practicar al trabajo técnico, mientras que la [guía de flashcards para CCNA](/es/blog/how-to-use-flashcards-for-ccna/) profundiza en la práctica de routing, switching y comandos.
+Si estás estudiando una certificación cercana, la [guía de flashcards para CompTIA A+](/es/blog/comptia-a-plus-flashcards/) aplica la misma separación entre recordar y practicar al trabajo técnico. Para routing y switching, practica también los comandos en un laboratorio.
 
 ## Preguntas frecuentes sobre las flashcards de CompTIA Network+
 

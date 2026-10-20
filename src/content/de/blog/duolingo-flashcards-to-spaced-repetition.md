@@ -124,7 +124,7 @@ Unbearbeitete Korrekturen sind selten schon fertige Karteikarten. Formuliere jed
 
 Die Richtung der Karte hängt von deinem Ziel ab. Wenn dir das Sprechen schwerfällt, kommt die Bedeutung oder Situation auf die Vorderseite und du formulierst die Antwort in der Zielsprache. Wenn das Lesen das Problem ist, zeigst du vorn die Formulierung in der Zielsprache und fragst nach ihrer Bedeutung. Bei einem wichtigen Inhalt kannst du beide Richtungen behalten, solltest aber nicht automatisch alles doppelt anlegen.
 
-Weitere Kartenmuster findest du unter [Karteikarten zum Sprachenlernen verwenden](/blog/how-to-use-flashcards-for-language-learning/).
+Ergänze bei Bedarf Satzkarten für den Kontext und eigene Fragen, bei denen du das Wort selbst produzieren musst.
 
 ### 4. Prüfe die Karte, bevor du sie einplanst
 
@@ -142,7 +142,7 @@ Wenn mehrere Übersetzungen gleichermaßen passen, ergänze Kontext oder grenze 
 
 Sobald die Karten eindeutig sind, lässt du die Spaced-Repetition-App deiner Wahl die Termine festlegen. Lösche oder überarbeite eine Karte, wenn sich beim Wiederholen zeigt, dass die Frage vage, die Antwort zu umfangreich oder der Inhalt nicht mehr wichtig ist.
 
-Behalte die fälligen Wiederholungen im Blick, statt einer perfekten Anzahl neuer Karten nachzujagen. Wenn neue Karten nach jeder Lektion die morgige Wiederholung lästig machen, nimm weniger auf. [Wie viele neue Karteikarten pro Tag?](/blog/how-many-new-flashcards-per-day/) erklärt diesen Zielkonflikt ausführlicher.
+Behalte die fälligen Wiederholungen im Blick, statt einer perfekten Anzahl neuer Karten nachzujagen. Wenn neue Karten nach jeder Lektion die morgige Wiederholung lästig machen, nimm weniger auf.
 
 ## Wo FSRS hilft – und wo es nichts ausrichten kann
 
@@ -154,7 +154,7 @@ Auch FSRS rettet keine schlechte Karte.
 
 Der Algorithmus kann „Erkläre alle Verwendungen von por und para“ sehr genau einplanen, aber die Frage bleibt zu breit. Er kann eine mehrdeutige Übersetzung häufiger zeigen, doch mehr Wiederholungen machen die Frage nicht eindeutiger. Zuerst kommt die Qualität der Karte, danach die Planung.
 
-Mehr über den Scheduler erfährst du unter [Was ist FSRS?](/blog/what-is-fsrs/). Für die Gestaltung guter Fragen hilft dir [Bessere Karteikarten erstellen](/blog/how-to-make-better-flashcards/).
+Mehr über den Scheduler erfährst du unter [Was ist FSRS?](/blog/what-is-fsrs/). Formuliere jede Frage so, dass du eine einzelne Antwort ohne Blick auf die Rückseite abrufen kannst.
 
 ## Brauchst du einen Export für Duolingo-Karteikarten?
 

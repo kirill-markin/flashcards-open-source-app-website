@@ -100,7 +100,7 @@ Durch die Synchronisierung bleiben deine Geräte auf demselben Stand. Eine verse
 
 Die installierten Anki-Apps erstellen lokale Backups, doch Medien musst du gesondert berücksichtigen. Der [AnkiMobile-Leitfaden zu den Einstellungen](https://docs.ankimobile.net/preferences.html) erklärt beispielsweise, dass automatische Backups Karten und Statistiken enthalten, aber keine Töne oder Bilder. Ein vollständiger Sammlungsexport mit Medien erfüllt daher einen anderen Zweck als die Synchronisierung und der Verlauf der automatischen Backups.
 
-Wenn es viel Arbeit wäre, den Stapel neu zu erstellen, bewahre regelmäßig einen vollständigen Export mit Medien außerhalb deines täglich verwendeten Geräts auf. Der ausführlichere [Leitfaden zur Sicherung von Karteikarten](/de/blog/how-to-back-up-flashcards/) erklärt, wie du diese Wiederherstellungskopie mit einer portablen Textfassung und den ursprünglichen Quelldateien kombinierst.
+Wenn es viel Arbeit wäre, den Stapel neu zu erstellen, bewahre regelmäßig einen vollständigen Export mit Medien außerhalb deines täglich verwendeten Geräts auf. Ergänze diese Wiederherstellungskopie durch eine portable Textfassung und die ursprünglichen Quelldateien.
 
 ## Der 10-Minuten-Test im Flugmodus
 
@@ -123,6 +123,6 @@ Nutze den Test nicht, um gleichzeitig auf zwei Geräten Notiztypen umzugestalten
 
 Die installierten Anki-Apps eignen sich gut für Reisen, wenn du eine vollständige lokale Sammlung statt nur einiger zwischengespeicherter Karten möchtest. Die Grenzen sind klar: Sammlung und Medien müssen vorher auf dem Gerät liegen, AnkiWeb bleibt ausschließlich online verfügbar und netzwerkgestützte Kartenfunktionen brauchen weiterhin eine Verbindung.
 
-Wenn du für eine Reise mehrere Apps vergleichst, bewertet der [Vergleich von Offline-Karteikarten-Apps](/de/blog/best-offline-flashcards-app/) fünf Produkte nach denselben Kriterien: Karten, Bearbeitung, Lernfortschritt, Medien und spätere Synchronisierung. Falls du nicht nur wegen der Offline-Nutzung über ein anderes Lernsystem nachdenkst, lies [Anki im Vergleich mit Nibomo](/de/blog/anki-vs-flashcards-open-source-app/).
+Wenn du für eine Reise mehrere Apps vergleichst, bewertet der [Vergleich von Offline-Karteikarten-Apps](/de/blog/best-offline-flashcards-app/) fünf Produkte nach denselben Kriterien: Karten, Bearbeitung, Lernfortschritt, Medien und spätere Synchronisierung.
 
 Die praktische Antwort auf „Funktioniert Anki offline?“ lautet: Ja – auf dem Desktop, iPhone, iPad und unter Android, sobald genau dieses Gerät die benötigte Sammlung und die dazugehörigen Medien gespeichert hat. Synchronisiere vor der Abreise, teste deinen Ablauf im Flugmodus und synchronisiere nach der Rückkehr zuerst das Gerät, auf dem du offline gearbeitet hast.

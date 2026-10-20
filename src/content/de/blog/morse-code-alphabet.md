@@ -129,7 +129,7 @@ Wenn du an einer Karte scheiterst, ordne den Fehler ein, bevor du einfach mehr W
 | Du antwortest nur in alphabetischer Reihenfolge richtig | Abhängigkeit von der Reihenfolge | mische das Set und beginne mit voneinander unabhängigen Zeichen |
 | Du erkennst das Bild, aber nicht den Klang | Lücke zwischen den Modalitäten | füge keine weiteren visuellen Karten hinzu und übe dasselbe Set mit Audio |
 
-Für das Überarbeiten der Karten gilt dieselbe Regel wie in [So erstellst du bessere Flashcards](/blog/how-to-make-better-flashcards/): eine klare Frage, ein eindeutig bewertbares Abrufziel. Eine riesige Karte, die nach dem gesamten Alphabet fragt, belohnt das Aufsagen. Sechsunddreißig kleinere Zuordnungen zeigen genau, bei welchem Zeichen es hakt.
+Für das Überarbeiten der Karten gilt: eine klare Frage, ein eindeutig bewertbares Abrufziel. Eine riesige Karte, die nach dem gesamten Alphabet fragt, belohnt das Aufsagen. Sechsunddreißig kleinere Zuordnungen zeigen genau, bei welchem Zeichen es hakt.
 
 ## Verwechselbare Muster gezielt üben, statt wieder alles zu wiederholen
 

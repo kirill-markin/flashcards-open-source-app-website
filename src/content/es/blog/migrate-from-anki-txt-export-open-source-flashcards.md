@@ -60,7 +60,7 @@ El archivo TXT tiene un alcance mucho más limitado, y es así a propósito. Ank
 
 Un archivo `.colpkg` protege los datos de la colección. No contiene la aplicación Anki ni el código de tus complementos, así que guarda por separado una lista de los complementos de los que dependa tu forma de estudiar.
 
-Si buscas una estrategia de copia de seguridad más amplia que esta migración, consulta [cómo hacer una copia de seguridad de tus tarjetas de estudio](/es/blog/how-to-back-up-flashcards/).
+Guarda, además del texto para migrar, una exportación completa de Anki con archivos multimedia y las fuentes originales fuera de tu dispositivo habitual.
 
 ## Exportación 1: crea el archivo `.colpkg` de recuperación
 
@@ -183,7 +183,7 @@ redacción original y señala las filas con HTML, marcado cloze, campos ausentes
 o referencias a archivos multimedia en lugar de hacer suposiciones.
 ```
 
-Adapta esa petición a la asignación que hayas anotado después de revisar el archivo. Si los borradores tienen demasiada información o son poco concretos, utiliza la lista para [corregir tarjetas creadas con IA antes de repasarlas](/es/blog/how-to-fix-ai-flashcards/). La IA ayuda a resolver la reestructuración repetitiva, pero no demuestra que la migración haya conservado bien el contenido original.
+Adapta esa petición a la asignación que hayas anotado después de revisar el archivo. Divide los borradores sobrecargados, precisa las preguntas vagas y comprueba sus respuestas con la fuente. La IA ayuda a resolver la reestructuración repetitiva, pero no demuestra que la migración haya conservado bien el contenido original.
 
 Cuando apruebes un lote pequeño, guárdalo en un mazo de prueba temporal, añade una etiqueta de migración y repite la misma lista de comprobaciones. El resultado que hayas verificado es la única prueba útil para esa colección concreta de Anki.
 
@@ -212,7 +212,7 @@ Sigue usando Anki o elige una aplicación que importe archivos `.apkg` de forma 
 - ajustes predefinidos y una organización de mazos que deban transferirse con exactitud;
 - un historial de repasos o una programación actual que no puedas permitirte reiniciar.
 
-Anki es una opción sólida para esos métodos de estudio. La migración mediante TXT no es un veredicto sobre la aplicación, sino una herramienta limitada para quienes conservan su material más valioso principalmente en el contenido de las notas. La [comparativa más amplia entre Anki y Nibomo](/es/blog/anki-vs-flashcards-open-source-app/) explica las ventajas y los inconvenientes de ambos productos sin dar por hecho que todo el mundo deba cambiar.
+Anki es una opción sólida para esos métodos de estudio. La migración mediante TXT no es un veredicto sobre la aplicación, sino una herramienta limitada para quienes conservan su material más valioso principalmente en el contenido de las notas.
 
 ## La versión segura es aburrida a propósito
 

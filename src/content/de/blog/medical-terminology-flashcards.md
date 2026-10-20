@@ -96,7 +96,7 @@ Rückseite: [Eine korrekte Definition mit den im Kurs verlangten Angaben.]
 Quelle: Lehrbuch, Kapitel 8, Seite oder Abschnitt
 ```
 
-Die eckigen Klammern markieren Arbeit, die du noch erledigen musst; sie gehören nicht ins fertige Deck. Übernimm die maßgebliche Definition oder fasse sie genau zusammen und gleiche das Ergebnis anschließend mit der Quelle ab. Stopfe nicht Etymologie, Aussprache, Symptome, Untersuchungen, Behandlungen und zwei verwandte Erkrankungen auf dieselbe Rückseite. Der Leitfaden [So erstellst du bessere Flashcards](/de/blog/how-to-make-better-flashcards/) erklärt, wie du eine Karte aufteilst, sobald die Antwort kein einzelnes klares Lernziel mehr hat.
+Die eckigen Klammern markieren Arbeit, die du noch erledigen musst; sie gehören nicht ins fertige Deck. Übernimm die maßgebliche Definition oder fasse sie genau zusammen und gleiche das Ergebnis anschließend mit der Quelle ab. Stopfe nicht Etymologie, Aussprache, Symptome, Untersuchungen, Behandlungen und zwei verwandte Erkrankungen auf dieselbe Rückseite. Teile die Karte, sobald die Antwort kein einzelnes klares Lernziel mehr hat.
 
 Wenn dein Kurs Lagebezeichnungen behandelt, zeigt das [Deck mit 31 Karten zu anatomischen Lagebezeichnungen](/catalog/packages/anatomical-directional-terms-de/) diese Aufteilung konkret: Es übt die Bedeutung von 10 Begriffen, den Abruf anhand einer Definition und die Anwendung auf Lagebeispiele am Körper getrennt.
 
@@ -122,7 +122,7 @@ Rückseite: hypo-. Hyper- bedeutet oberhalb, jenseits oder übermäßig.
 Quelle: MedlinePlus Appendix A; Kursglossar
 ```
 
-Diese Karte behebt eine konkrete Verwechslung. Das ist nützlicher, als die beiden ursprünglichen Karten mehrfach zu duplizieren. Wenn eine schwierige Karte immer wieder auftaucht, ohne dass du Fortschritte machst, folge dem [Ablauf zum Reparieren von Leech-Karten](/de/blog/how-to-fix-leech-flashcards/): Prüfe die Quelle, grenze die Frage ein, trenne vermischte Lernziele und ergänze genau den Vergleich, der bisher gefehlt hat.
+Diese Karte behebt eine konkrete Verwechslung. Das ist nützlicher, als die beiden ursprünglichen Karten mehrfach zu duplizieren. Wenn eine schwierige Karte immer wieder auftaucht, ohne dass du Fortschritte machst, überarbeite sie: Prüfe die Quelle, grenze die Frage ein, trenne vermischte Lernziele und ergänze genau den Vergleich, der bisher gefehlt hat.
 
 ## Behandle Flashcards zu medizinischen Abkürzungen als Sonderfall
 
@@ -168,7 +168,7 @@ Wenn eine Antwort falsch ist, halte den konkreten Fehler fest. „hyper- und hyp
 
 Halte die Zahl neuer Karten so klein, dass nach den fälligen Wiederholungen noch Zeit für den übrigen Kurs bleibt. Medizinische Terminologie gehört zu echten Aufgaben: Notizen lesen, Bedeutungen erklären, genehmigte Formulierungen verwenden und Anweisungen verstehen. Karten können ausgewählte Begriffe leichter abrufbar machen. Sie ersetzen jedoch weder Laborübungen, beaufsichtigten klinischen Unterricht, Fallbeispiele, Kommunikationspraxis, institutionelle Richtlinien noch die Beurteilung durch zugelassene Fachkräfte. Sie dürfen niemals zur Diagnose oder zur Auswahl einer Behandlung verwendet werden.
 
-Dieselbe Trennung gilt für einen ganzen Ausbildungsgang. Der [Leitfaden zu Flashcards in der Pflegeausbildung](/de/blog/how-to-use-flashcards-for-nursing-school/) behält schnell abrufbares Wissen im Deck, während klinisches Denken und die praktische Anwendung in den Aufgaben bleiben, die genau diese Fähigkeiten prüfen.
+Dieselbe Trennung gilt für einen ganzen Ausbildungsgang. Behalte schnell abrufbares Wissen im Deck und übe klinisches Denken und praktische Anwendung mit Aufgaben, die genau diese Fähigkeiten prüfen.
 
 ## Wo FSRS und Nibomo ins Spiel kommen
 
