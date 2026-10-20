@@ -146,8 +146,9 @@ I would only make a flashcard when at least one of these is true:
 
 If a point was easy, obvious, or only interesting in context, I would leave it inside the notes or inside the AI conversation.
 
-If overproduction has already left you behind, start here:
+This pairs well with two existing problems students run into fast:
 
+- [How Many New Flashcards Per Day in 2026](/blog/how-many-new-flashcards-per-day/)
 - [How to Catch Up on Flashcards After Falling Behind in 2026](/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
 
 The fastest way to break a promising AI study system is still overproduction.

@@ -121,7 +121,7 @@ Concrete **ACT math flashcards** worth making:
 
 If you are taking the ACT online, ACT's current [calculator policy](https://www.act.org/content/act/en/products-and-services/the-act/test-day/calculator-policy.html) says the built-in Desmos graphing calculator is available during the Math section. That is useful for practice, but your deck should still store decisions and traps, not button sequences.
 
-For recurring Math misses, save the formula, constraint, or setup decision you forgot. Then solve a fresh problem without the card in view.
+If your Math misses keep repeating, [How to Turn Practice Questions Into Flashcards in 2026](/blog/how-to-turn-practice-questions-into-flashcards/) is the better companion article.
 
 ## ACT Reading flashcards should store answer patterns, not passage summaries
 
@@ -280,7 +280,7 @@ For example:
 - after a bad Science block, review `science` and `graph`
 - after you create rough cards from a practice test, filter `needs-fix` and clean them before they join the main queue
 
-For structure, use a few subject decks and consistent tags for recurring weak spots so targeted review stays easy to find.
+If structure is the bigger problem, [How to Organize Flashcards in 2026](/blog/how-to-organize-flashcards/) goes deeper on decks, tags, and filtered review.
 
 ## A weekly ACT flashcards workflow should stay boring
 
@@ -295,7 +295,7 @@ I would keep the loop this narrow:
 5. Keep new cards lower than your ambition wants.
 6. Review due cards daily instead of building one huge weekend backlog.
 
-If the card load grows faster than you can finish reviews, reduce new-card intake before adding more.
+If the card load is already growing too fast, [How Many New Flashcards Per Day in 2026?](/blog/how-many-new-flashcards-per-day/) fits right after this.
 
 ## FSRS helps when ACT prep happens in uneven bursts
 

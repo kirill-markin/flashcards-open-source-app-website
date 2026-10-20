@@ -101,7 +101,7 @@ Mielőtt az éles beállításokon változtatnál, futtass három forgatókönyv
 2. A tervezett felidézési cél.
 3. Ugyanez a cél kevesebb új kártyával naponta.
 
-A harmadik futtatás egy gyakori alternatívát vizsgál: tartsd meg a felidézési célt, és lassítsd az új anyag bevezetését. Ha ettől kezelhetővé válik a becsült terhelés, nem kell több felejtést elfogadnod pusztán azért, hogy rövidebb legyen az ismétlési sor.
+A harmadik futtatás egy gyakori alternatívát vizsgál: tartsd meg a felidézési célt, és lassítsd az új anyag bevezetését. Ha ettől kezelhetővé válik a becsült terhelés, nem kell több felejtést elfogadnod pusztán azért, hogy rövidebb legyen az ismétlési sor. Erről részletesebben a [Hány új tanulókártyát érdemes tanulni naponta?](/blog/how-many-new-flashcards-per-day/) című útmutatóban olvashatsz.
 
 Mindkét eszköz becslést ad. A kihagyott napok, az átszerkesztett kártyák, az új anyag és az értékelési szokások változása eltérítheti a tényleges terhelést a grafikontól. Az összehasonlítás segít eldönteni, merre változtass, de hónapokra előre nem tudja pontosan megjósolni az ismétlésszámot.
 

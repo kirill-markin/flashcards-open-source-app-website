@@ -196,7 +196,7 @@ Keep the boundary clean: use flashcards to retrieve the route, then use full reh
 
 ## Common mistakes that make speech cue cards worse
 
-Pasting the script onto card backs is the fastest way to turn practice into rereading. If you reveal a paragraph and think “yes, that looks familiar,” you practiced recognition. Split it into a section cue, a transition, and any exact line that truly needs verification.
+Pasting the script onto card backs is the fastest way to turn practice into rereading. If you reveal a paragraph and think “yes, that looks familiar,” you practiced recognition. Split it into a section cue, a transition, and any exact line that truly needs verification. [What Should Go on a Flashcard?](/blog/what-should-go-on-a-flashcard/) has a stricter filter for overloaded cards.
 
 Do not rate a cue from silent familiarity. For speech cards, the attempt should usually be spoken. If the cue produced no words until you flipped it, recall failed even if the answer looked obvious afterward.
 

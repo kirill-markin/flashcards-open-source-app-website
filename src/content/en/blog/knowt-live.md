@@ -91,6 +91,6 @@ Suppose a learner selects “million” when asked what lowercase `m` means as a
 
 Then work through a conversion: `5 mm = 5 × 0.001 m = 0.005 m`. In `mm`, the first `m` is the prefix and the second is the metre symbol. Our [metric-prefix guide](/blog/metric-prefixes-flashcards/) has more examples of these distinctions.
 
-Manually put the checked cards wherever you already review. Try them again tomorrow without answer choices, then attempt a fresh conversion. If the conversion still fails, work through it before adding more cards.
+Manually put the checked cards wherever you already review. Try them again tomorrow without answer choices, then attempt a fresh conversion. If the conversion still fails, work through it before adding more cards. The [quiz-results-to-flashcards workflow](/blog/how-to-turn-quiz-results-into-flashcards/) develops that follow-up further.
 
 For your next session, bring back one of those distinctions in a new question. You'll have something specific to check: can the learner now explain the difference and use it?

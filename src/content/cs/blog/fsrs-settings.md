@@ -101,7 +101,7 @@ Než změníte skutečné nastavení, vyzkoušejte tři scénáře:
 2. Cílovou retenci, o které uvažujete.
 3. Stejný cíl s menším počtem nových kartiček za den.
 
-Třetí běh ověří běžnou alternativu: ponechat cíl vybavení a zpomalit přísun nového učiva. Pokud simulace předpoví zvládnutelnou zátěž, nemusíte se smiřovat s častějším zapomínáním jen proto, abyste zkrátili frontu.
+Třetí běh ověří běžnou alternativu: ponechat cíl vybavení a zpomalit přísun nového učiva. Pokud simulace předpoví zvládnutelnou zátěž, nemusíte se smiřovat s častějším zapomínáním jen proto, abyste zkrátili frontu. Přísunu nového učiva se podrobněji věnuje článek [Kolik nových kartiček denně?](/blog/how-many-new-flashcards-per-day/).
 
 Oba nástroje poskytují odhady. Vynechané dny, upravené kartičky, nové učivo a změny v hodnocení mohou způsobit, že se skutečná zátěž bude od grafu lišit. Srovnání použijte k volbě směru, ne jako příslib přesného počtu kartiček za několik měsíců.
 

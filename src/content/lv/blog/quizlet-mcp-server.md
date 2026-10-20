@@ -101,7 +101,7 @@ Publiska saskarnes specifikācija mazina neskaidrības par integrāciju, taču t
 
 Nibomo nodala lasīšanas darbības no rakstīšanas rīkiem: `sql_execute` kartītēm un kavām, `submit_review` atkārtošanai. OAuth piekļuves dati joprojām attiecas uz visu savienotāja saskarni, tāpēc rīku bloķēšana un darbību apstiprināšanas kārtība ir atkarīga no klienta. Sāciet ar nelielu darbvietu bez sensitīviem datiem. Ļaujiet aģentam lasīt tikai uzdevumam vajadzīgos datus, saglabājiet prasību atsevišķi apstiprināt katru rakstīšanas izsaukumu, ja klients to atbalsta, un pirms piekrišanas pārbaudiet darbvietu un ierosināto izmaiņu.
 
-Nepievienojiet privātus mācību materiālus, kamēr neesat pārbaudījis mākslīgā intelekta klienta datu glabāšanas un apstrādes noteikumus. Pirmajai pārsūtīšanai pietiek ar vienkāršu principu: saglabājiet sākotnējo eksportu, apskatiet dažu kartīšu priekšskatījumu, apstipriniet ierobežotu rakstīšanas darbību un pirms turpināšanas pārbaudiet rezultātu mērķa lietotnē.
+Nepievienojiet privātus mācību materiālus, kamēr neesat pārbaudījis mākslīgā intelekta klienta datu glabāšanas un apstrādes noteikumus. Detalizēts draudu modelis ir rakstā [Vai MCP ir drošs mācību kartītēm?](/blog/is-mcp-safe-for-flashcards/). Pirmajai pārsūtīšanai pietiek ar vienkāršu principu: saglabājiet sākotnējo eksportu, apskatiet dažu kartīšu priekšskatījumu, apstipriniet ierobežotu rakstīšanas darbību un pirms turpināšanas pārbaudiet rezultātu mērķa lietotnē.
 
 ## Nepārvērtiet privātu pārlūka datplūsmu par API
 

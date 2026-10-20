@@ -95,7 +95,7 @@ I would tag or group cards by both unit and theme so the same fact can do more t
 
 That is how the Haitian Revolution, the Meiji Restoration, the Berlin Conference, or the Bandung Conference stop being one-off facts and start becoming usable evidence.
 
-If organization is the bigger problem, group related prompts by period and theme so you can find and compare the concepts you confuse.
+If the bigger problem is organization rather than volume, [How to Organize Flashcards in 2026](/blog/how-to-organize-flashcards/) is the direct follow-up.
 
 ## Your DBQ deck should be an evidence bank
 
@@ -160,7 +160,7 @@ Examples:
 - Why does this example fit governance better than economic systems?
 - What is the difference between naming a source's point of view and using it?
 
-Your practice misses already contain the reasoning gaps worth revisiting. Preserve the specific comparison or causal link in a short prompt, then return to a full question.
+That is also why [How to Turn Practice Questions Into Flashcards in 2026](/blog/how-to-turn-practice-questions-into-flashcards/) pairs so well with AP World. Your misses already contain the exact reasoning gaps that need repetition.
 
 ## Use AI for drafting, then verify like a skeptic
 

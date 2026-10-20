@@ -158,7 +158,7 @@ Siin on viis levinud viisi, kuidas viga kaardiks muuta:
 
 Ära kopeeri ühele kaardile tervet ametlikku küsimust koos vastuse põhjendusega. Kirjuta kontrollitud õppetund oma sõnadega. Jäta terve ülesanne harjutusmaterjali ja hoia kaardipakis ainult väike meeldejäetav osa.
 
-[„Õpikaardid või proovitestid 2026. aastal”](/blog/flashcards-vs-practice-tests/) selgitab, miks kaart ja järgmine uus küsimus peaksid jääma eraldi sammudeks.
+[„Kuidas muuta harjutusküsimused õpikaartideks 2026. aastal”](/blog/how-to-turn-practice-questions-into-flashcards/) käsitleb põhjalikumalt faktiteadmiste lünki, eristusi, järjekordi ja eksitusmustrite kaarte. [„Õpikaardid või proovitestid 2026. aastal”](/blog/flashcards-vs-practice-tests/) selgitab, miks kaart ja järgmine uus küsimus peaksid jääma eraldi sammudeks.
 
 ## Vaata vana TOEFL-i kaardipakk enne kordamist üle
 
@@ -180,6 +180,8 @@ Seejärel jaga leitu kolme rühma:
 3. **Eemalda või arhiveeri:** ülesandejuhised, ajapiirangud, hindamine ja mallid, mis kirjeldavad ainult enne 21. jaanuari 2026 kehtinud formaati.
 
 Seejärel võrdle allesjäänud ülesandesilte ETS-i 12 praeguse ülesandenimega. Lisa igale formaadist sõltuvale kaardile kehtiv ametlik ETS-i allikas. Täiendavate metaandmetena võid lisada ka sildi `verified-2026` ja kontrollimise kuupäeva. Kuupäev on siin oluline, sest ETS võib eksamit uuendada. Püsiv sõnavara ei vaja samasugust käsitlust.
+
+Kui kaardipakk on suur, pakub [„Kuidas õpikaardipakki kärpida 2026. aastal”](/blog/how-to-prune-a-flashcard-deck/) praktilist töövoogu kaartide kustutamiseks ja ümberkirjutamiseks.
 
 ## Kasuta hajutatud kordamist meelespidamiseks, mitte eksami jäljendamiseks
 

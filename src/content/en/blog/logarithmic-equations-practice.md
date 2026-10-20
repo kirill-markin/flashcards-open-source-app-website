@@ -229,7 +229,7 @@ Make a short flashcard for a rule you couldn't recall, then use it before solvin
 | Can ln(x²) be replaced by 2ln(x) for negative x? | No. ln(x²) is defined for x ≠ 0; 2ln(x) needs x > 0. Use 2ln(\|x\|) for x ≠ 0. |
 | Should a negative candidate x automatically be rejected? | No. Evaluate every original log argument and check the equation. |
 
-The guide to [using flashcards for math](/blog/how-to-use-flashcards-for-math/) explains how to separate short recall prompts from full written practice. Save the domain condition or algebraic decision you missed, then solve another complete equation.
+Our guides to [using flashcards for math](/blog/how-to-use-flashcards-for-math/) and [turning practice questions into flashcards](/blog/how-to-turn-practice-questions-into-flashcards/) explain how to separate short recall prompts from full written practice.
 
 After reviewing a missed decision, solve **log₂(x + 1) + log₂(x − 2) = 2** on paper. Write the domain before looking below.
 

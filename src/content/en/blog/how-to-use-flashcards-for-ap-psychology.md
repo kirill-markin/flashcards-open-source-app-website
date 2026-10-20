@@ -149,7 +149,7 @@ That last one matters more on a digital exam than students expect. A graph, tabl
 
 For practice separating recruitment from treatment allocation, use the [Random Sampling vs Random Assignment Flashcards](/catalog/packages/random-sampling-vs-random-assignment-flashcards/). The short scenarios ask you to identify study procedures and judge what a conclusion can claim.
 
-When practice sets expose repeatable misses, write a short card for the concept or distinction you missed, then try a fresh question.
+If your practice sets keep exposing repeatable misses, [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) fits directly here.
 
 ## FRQ prep works better when the card stores the reasoning move
 
@@ -221,7 +221,7 @@ I would keep the routine this simple:
 
 The boring part is what makes the deck usable in late April and early May instead of impressive for one weekend.
 
-Keep the organization simple enough to use during review: group related material and tag the distinctions you keep confusing.
+If organization is the part that keeps slipping, [How to Organize Flashcards in 2026](https://nibomo.com/blog/how-to-organize-flashcards/) pairs well with this workflow.
 
 ## FSRS is useful when AP Psychology review gets uneven
 

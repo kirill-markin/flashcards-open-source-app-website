@@ -109,7 +109,7 @@ Reasoning cards can train prioritization, qualifiers, and the difference between
 
 Keep one target. A long vignette with three decisions on the back becomes a small practice test that is hard to review honestly.
 
-This same small-card method is useful across scenario-heavy licensing exams: separate the cue you missed from the prioritization rule, then return to full questions to practice applying both.
+This same small-card method is useful in other scenario-heavy licensing exams. The examples in the [NCLEX flashcards guide](/blog/how-to-use-flashcards-for-the-nclex/) show how to separate cues and prioritization without pretending flashcards can replace full questions. The subject matter differs, but the editing principle travels well.
 
 ## Give Values and Ethics enough room without flattening the law
 
@@ -139,7 +139,7 @@ The best deck usually gets smaller once practice work begins. After an authorize
 
 Write the smallest card that would interrupt the same error. A missed qualifier may need a card about the decision sequence, while a missing fact needs direct retrieval. One giant card containing the original stem, every option, and the full rationale hides that difference.
 
-Only use material you are allowed to use. Do not reproduce, reconstruct, share, or solicit live exam content. For commercial and official practice products, follow their terms and keep the card focused on your own learning point rather than copying proprietary wording. Reduce each miss to one durable target: a cue, a distinction, or a decision rule.
+Only use material you are allowed to use. Do not reproduce, reconstruct, share, or solicit live exam content. For commercial and official practice products, follow their terms and keep the card focused on your own learning point rather than copying proprietary wording. [This practice-question workflow](/blog/how-to-turn-practice-questions-into-flashcards/) goes deeper into reducing a miss to one durable target.
 
 Card quality still matters after the classification. Give tired future-you enough context, answer directly, and split any card that tests two decisions. The editing rules in [How to Make Better Flashcards](/blog/how-to-make-better-flashcards/) are a useful final pass.
 

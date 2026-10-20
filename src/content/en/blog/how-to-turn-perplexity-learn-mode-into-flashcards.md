@@ -92,7 +92,11 @@ This is also why I would keep the scope small:
 
 If you throw an entire course into one session, Perplexity can still be helpful, but the cleanup cost gets ugly fast.
 
-If your starting material is notes, [How to Turn Notes Into Flashcards in 2026](/blog/turn-notes-into-flashcards/) covers the cleanup before a Learn Mode session.
+If your starting material is still one step earlier, these fit naturally before Learn Mode:
+
+- [How to Turn a PDF Into Flashcards in 2026](/blog/how-to-turn-a-pdf-into-flashcards/)
+- [How to Turn Practice Questions Into Flashcards in 2026](/blog/how-to-turn-practice-questions-into-flashcards/)
+- [How to Turn Notes Into Flashcards in 2026](/blog/turn-notes-into-flashcards/)
 
 ## The workflow I would actually repeat
 

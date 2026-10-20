@@ -173,7 +173,7 @@ After an authorized practice set, review every wrong answer and every guess:
 
 For example, a missed airspace question may reveal that you do not recognize a boundary symbol. That symbol can become a card. If you recognized every symbol but combined the chart details incorrectly, another isolated card may not help; schedule more chart interpretation.
 
-The same process works for weather and regulations: isolate the fact or decision you missed, write a short prompt in your own words, then try another complete question. [Flashcards vs practice tests](/blog/flashcards-vs-practice-tests/) explains why both tools stay in the plan.
+The same process works for weather and regulations. The guide to [turning practice questions into flashcards](/blog/how-to-turn-practice-questions-into-flashcards/) gives more card patterns, while [flashcards vs practice tests](/blog/flashcards-vs-practice-tests/) explains why both tools stay in the plan.
 
 ## Keep chart interpretation and full practice outside the deck
 

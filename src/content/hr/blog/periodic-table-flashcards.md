@@ -244,7 +244,7 @@ Krenite od provjere znanja, makar to bilo samo pet minuta samoprovjere.
 6. **Vježbajte raspored izvan špila.** Popunite praznu tablicu i naglas izgovorite uporišta za skupine ili periode. Zasebne kartice same po sebi ne uče prostorni raspored.
 7. **Vratite se kemiji.** Čitajte formule, objasnite trend, napišite elektronsku konfiguraciju i rješavajte nove zadatke. Za svaku ponovljenu pogrešku možete izraditi jednu kratku karticu.
 
-Dok proširujete skup, pazite da dnevni broj kartica za ponavljanje ostane izvediv. Broj novih kartica prilagodite količini dospjelih ponavljanja.
+Dok proširujete skup, pazite da dnevni broj kartica za ponavljanje ostane izvediv. Članak [Koliko novih kartica dnevno?](/blog/how-many-new-flashcards-per-day/) objašnjava kako broj novih kartica prilagoditi količini dospjelih ponavljanja, umjesto vlastitim ambicijama.
 
 ## Gotovi špilovi za tri različita zadatka
 

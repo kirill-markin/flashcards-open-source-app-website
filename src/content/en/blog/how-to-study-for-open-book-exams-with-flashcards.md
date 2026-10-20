@@ -75,7 +75,7 @@ The deck should cover the things that still need to become automatic:
 
 If a fact is rare, low-value, or easy to locate instantly during the exam, it usually does not need flashcard space.
 
-Choose material for its future retrieval value rather than the feeling of having captured everything.
+This is the same filter I use in [What Should Go on a Flashcard in 2026?](/blog/what-should-go-on-a-flashcard/): future retrieval value matters more than the feeling of completeness.
 
 ## The best open-book deck usually has five card types
 
@@ -133,7 +133,7 @@ Examples:
 - Front: On torts hypos, what fact pattern kept making you jump to negligence too early?
   Back: I skipped the intentional-tort analysis when the conduct was deliberate.
 
-If your source is mostly mocks, quizzes, and wrong answers, extract the rule or distinction behind each miss and write a short prompt in your own words.
+If your source is mostly mocks, quizzes, and wrong answers, [How to Turn Practice Questions Into Flashcards in 2026](/blog/how-to-turn-practice-questions-into-flashcards/) goes deeper on the conversion workflow.
 
 ### 5. Build-the-outline cards
 
@@ -197,6 +197,7 @@ Your flashcards should point into that system, not compete with it.
 
 If your materials still live as scattered PDFs or slide decks, these setup articles help before you start studying:
 
+- [How to Turn a PDF Into Flashcards in 2026](/blog/how-to-turn-a-pdf-into-flashcards/)
 - [How to Turn PowerPoint Into Flashcards in 2026](/blog/how-to-turn-powerpoint-into-flashcards/)
 - [How to Turn Notes Into Flashcards in 2026](/blog/turn-notes-into-flashcards/)
 

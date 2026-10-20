@@ -180,8 +180,9 @@ A concept deserves a card if:
 
 If not, let the tutoring session stay a tutoring session.
 
-If review overload is already your problem, start with:
+If review overload is already your problem, these pieces fit right next to this one:
 
+- [How Many New Flashcards Per Day in 2026?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 - [How to Catch Up on Flashcards After Falling Behind in 2026](https://nibomo.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
 
 ## The better prompt is not "make flashcards from this"

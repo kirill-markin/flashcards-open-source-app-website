@@ -158,7 +158,7 @@ Oto pięć typowych przykładów:
 
 Nie kopiuj na jedną fiszkę całego oficjalnego pytania wraz z uzasadnieniem odpowiedzi. Zapisz sprawdzony wniosek własnymi słowami. Pełne zadanie zostaw w materiałach ćwiczeniowych, a w talii zachowaj tylko niewielki element do zapamiętania.
 
-[Fiszki a testy próbne w 2026 roku](/blog/flashcards-vs-practice-tests/) wyjaśnia, dlaczego powtórka fiszki i rozwiązanie kolejnego nowego pytania powinny pozostać osobnymi krokami.
+Artykuł [Jak zamieniać pytania ćwiczeniowe w fiszki w 2026 roku](/blog/how-to-turn-practice-questions-into-flashcards/) szerzej omawia braki w znajomości faktów, rozróżnienia, sekwencje i fiszki dotyczące schematów pułapek. [Fiszki a testy próbne w 2026 roku](/blog/flashcards-vs-practice-tests/) wyjaśnia, dlaczego powtórka fiszki i rozwiązanie kolejnego nowego pytania powinny pozostać osobnymi krokami.
 
 ## Przejrzyj starą talię do TOEFL, zanim zaczniesz ją powtarzać
 
@@ -180,6 +180,8 @@ Następnie podziel wyniki na trzy grupy:
 3. **Usuń lub zarchiwizuj:** polecenia, limity czasu, zasady punktacji i szablony opisujące wyłącznie format sprzed 21 stycznia 2026 roku.
 
 Potem porównaj pozostałe tagi zadań z 12 aktualnymi nazwami zadań ETS. Do każdej fiszki zależnej od formatu przypisz aktualne oficjalne źródło ETS. Możesz też dodać tag `verified-2026` i datę sprawdzenia jako dodatkowe metadane. Daty mają tu znaczenie, ponieważ ETS może aktualizować egzamin. Słownictwo, którego znaczenie się nie zmienia, nie wymaga takiego samego podejścia.
+
+Jeśli talia jest duża, artykuł [Jak odchudzić talię fiszek w 2026 roku](/blog/how-to-prune-a-flashcard-deck/) przedstawia praktyczny sposób usuwania i przeredagowywania kart.
 
 ## Stosuj powtórki interwałowe do utrwalania wiedzy, nie do symulowania egzaminu
 

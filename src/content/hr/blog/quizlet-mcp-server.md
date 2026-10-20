@@ -101,7 +101,7 @@ Javno definirano sučelje smanjuje dio nagađanja pri integraciji, ali ne čini 
 
 Nibomo odvaja operacije čitanja od svojih alata za pisanje: `sql_execute` za kartice i špilove, `submit_review` za ponavljanja gradiva. Vjerodajnica za OAuth i dalje vrijedi za cijelo sučelje poveznika, pa blokiranje alata i način odobravanja ovise o klijentu. Počnite s malim radnim prostorom bez osjetljivih podataka. Dopustite agentu da čita samo podatke potrebne za zadatak, zahtijevajte zasebno odobrenje za svaki poziv za pisanje kada klijent to podržava te pregledajte radni prostor i predloženu izmjenu prije nego što je prihvatite.
 
-Nemojte povezivati privatne materijale za učenje dok ne provjerite uvjete AI klijenta o zadržavanju podataka i postupanju s njima. Za prvi prijenos dovoljno je jednostavno pravilo: sačuvajte izvorni izvoz, pregledajte nekoliko kartica, odobrite usko ograničen upis i provjerite rezultat u odredišnoj aplikaciji prije nego što nastavite.
+Nemojte povezivati privatne materijale za učenje dok ne provjerite uvjete AI klijenta o zadržavanju podataka i postupanju s njima. Detaljan model prijetnji nalazi se u članku [Je li MCP siguran za kartice za učenje?](/blog/is-mcp-safe-for-flashcards/). Za prvi prijenos dovoljno je jednostavno pravilo: sačuvajte izvorni izvoz, pregledajte nekoliko kartica, odobrite usko ograničen upis i provjerite rezultat u odredišnoj aplikaciji prije nego što nastavite.
 
 ## Ne pretvarajte privatni promet preglednika u API
 

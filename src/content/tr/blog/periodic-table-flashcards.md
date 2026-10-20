@@ -244,7 +244,7 @@ Beş dakikalık bir kendi kendine test bile olsa, önce nerede zorlandığınız
 6. **Tablonun düzenini kartların dışında yeniden kurun.** Boş bir tabloyu doldurun; grup veya periyotları hatırlamak için kullandığınız dayanak noktalarını sesli söyleyin. Tek tek kartlar, tablonun yerleşimini kendi başlarına öğretmez.
 7. **Kimya sorularına geri dönün.** Formülleri okuyun, bir eğilimi açıklayın, elektron dizilimi yazın ve daha önce görmediğiniz soruları çözün. Tekrarlanan her hatadan küçük bir düzeltme kartı çıkabilir.
 
-Kapsamı genişletirken günlük tekrar listenizi gerçekçi tutun. Yeni kart sayısını zamanı gelen tekrarların yüküne göre ayarlayın.
+Kapsamı genişletirken günlük tekrar listenizi gerçekçi tutun. [Günde Kaç Yeni Bilgi Kartı?](/blog/how-many-new-flashcards-per-day/) yazısı, yeni kart sayısını hevesinize göre değil, zamanı gelen tekrarların yüküne göre nasıl ayarlayacağınızı açıklıyor.
 
 ## Üç farklı ihtiyaç için hazır desteler
 

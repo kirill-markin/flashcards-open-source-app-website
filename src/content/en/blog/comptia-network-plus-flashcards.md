@@ -97,7 +97,7 @@ A port is a convention and a clue, not an identity check. Services can be moved,
 
 If you want a ready-made companion for that retrieval work, the [Common Network Port Numbers flashcards](/catalog/packages/common-network-port-numbers-flashcards/) deck has 88 cards: foundational port concepts plus 38 common service mappings in both directions, including TCP/UDP transports and concise uses. Use the official N10-009 table—not this general networking deck—as your exam-scope check.
 
-You do not need separate forward and reverse cards for every pairing on day one. Start with one direction, then add the reverse only when recall is slow or two services interfere with each other.
+You do not need separate forward and reverse cards for every pairing on day one. Start with one direction, then add the reverse only when recall is slow or two services interfere with each other. The [Security+ flashcards guide](/blog/how-to-use-flashcards-for-security-plus/) uses the same approach for protocol and security distinctions.
 
 ## Use subnetting cards for anchors, then calculate fresh networks
 
@@ -173,7 +173,7 @@ locate where a path changes or stops. Treat missing responses as evidence to
 investigate, not automatic proof that a hop is down.
 ```
 
-After reviewing a command card, run the command in a lab or on a system you are allowed to test. Predict what you expect, read the actual output, change one condition, and run it again. That short loop teaches permissions, flags, platform differences, filtering, and messy output—things the card cannot reproduce.
+After reviewing a command card, run the command in a lab or on a system you are allowed to test. Predict what you expect, read the actual output, change one condition, and run it again. That short loop teaches permissions, flags, platform differences, filtering, and messy output—things the card cannot reproduce. The [terminal command flashcards guide](/blog/how-to-learn-terminal-commands-with-flashcards/) goes deeper into this method.
 
 ## Troubleshooting cards should preserve uncertainty
 
@@ -233,7 +233,7 @@ Use flashcards on both sides of **Network+ PBQ practice**:
 
 Suppose you chose the wrong tool because you could not remember which command queries DNS. That is a clean repair card. If you knew the tool but could not interpret the response, spend time with real output. If you lost the network boundary while subnetting, calculate more unfamiliar networks. If you could not configure the device, return to the lab.
 
-Do not copy a legitimate practice question into the deck. Preserve the reusable lesson in your own words and discard the question’s story, answer choices, and distinctive wording.
+Do not copy a legitimate practice question into the deck. Preserve the reusable lesson in your own words and discard the question's story, answer choices, and distinctive wording. The guide to [turning practice questions into flashcards](/blog/how-to-turn-practice-questions-into-flashcards/) gives a complete workflow.
 
 The official objectives also warn against unauthorized third-party material commonly called brain dumps. Use the current objectives, authorized training and practice, your own lab observations, and your own explanations. Memorizing leaked question wording is not Network+ study.
 
@@ -271,7 +271,7 @@ A simple organization is one `N10-009` deck with tags such as `ports`, `subnetti
 
 If you want a ready-made starting point, the [CompTIA Network+ N10-009 flashcards](/catalog/packages/comptia-network-plus-n10-009-flashcards/) deck has 250 original English cards across all five current exam domains. It is an independent, unofficial memory aid, so keep the current CompTIA objectives, hands-on labs, and authorized PBQ practice in the study loop. Add your own legitimate study misses as you go.
 
-If you are studying a nearby certification, the [CompTIA A+ flashcards guide](/blog/comptia-a-plus-flashcards/) applies the same retrieval-versus-practice boundary to technician work. Keep routing, switching, and command practice tied to the Network+ objectives you are preparing for.
+If you are studying a nearby certification, the [CompTIA A+ flashcards guide](/blog/comptia-a-plus-flashcards/) applies the same retrieval-versus-practice boundary to technician work, while the [CCNA flashcards guide](/blog/how-to-use-flashcards-for-ccna/) goes deeper into routing, switching, and command practice.
 
 ## CompTIA Network+ flashcards FAQ
 

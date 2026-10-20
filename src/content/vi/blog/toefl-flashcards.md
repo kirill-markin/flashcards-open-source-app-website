@@ -158,7 +158,7 @@ Dưới đây là năm cách chuyển lỗi thành thẻ thường gặp:
 
 Đừng chép cả câu hỏi chính thức lẫn phần giải thích đáp án vào một thẻ. Hãy viết bài học đã xác minh bằng lời của bạn. Giữ nguyên câu hỏi đầy đủ trong tài liệu luyện tập, và chỉ đưa nội dung nhỏ cần ghi nhớ vào bộ thẻ.
 
-Bài [Flashcard và đề luyện tập năm 2026](/blog/flashcards-vs-practice-tests/) giải thích vì sao ôn thẻ và làm câu hỏi mới tiếp theo nên là hai bước riêng biệt.
+Bài [Cách chuyển câu hỏi luyện tập thành flashcard năm 2026](/blog/how-to-turn-practice-questions-into-flashcards/) đi sâu hơn vào các thẻ về kiến thức còn thiếu, điểm khác biệt, trình tự và kiểu bẫy. Bài [Flashcard và đề luyện tập năm 2026](/blog/flashcards-vs-practice-tests/) giải thích vì sao ôn thẻ và làm câu hỏi mới tiếp theo nên là hai bước riêng biệt.
 
 ## Rà soát bộ thẻ TOEFL cũ trước khi ôn
 
@@ -180,6 +180,8 @@ Sau đó chia kết quả thành ba nhóm:
 3. **Xóa hoặc lưu trữ:** hướng dẫn dạng bài, thời lượng, cách chấm điểm và bài mẫu chỉ mô tả cấu trúc trước ngày 21 tháng 1 năm 2026.
 
 Tiếp theo, đối chiếu các thẻ gắn nhãn dạng bài còn lại với 12 tên dạng bài hiện hành của ETS. Gắn nguồn chính thức hiện hành của ETS cho mọi thẻ phụ thuộc vào cấu trúc bài thi. Bạn cũng có thể thêm nhãn `verified-2026` và ngày kiểm tra làm thông tin bổ sung. Ngày tháng quan trọng ở đây vì ETS có thể cập nhật bài thi. Từ vựng ổn định không cần được xử lý như vậy.
+
+Nếu bộ thẻ lớn, bài [Cách tinh gọn bộ flashcard năm 2026](/blog/how-to-prune-a-flashcard-deck/) cung cấp quy trình xóa và viết lại thẻ dễ áp dụng.
 
 ## Dùng lặp lại ngắt quãng để ghi nhớ, không phải để mô phỏng bài thi
 

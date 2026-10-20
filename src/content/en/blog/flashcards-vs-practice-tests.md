@@ -117,6 +117,8 @@ That is why the overlap feels real. Both are active recall. Both can expose weak
 
 The difference is granularity: flashcards zoom in, practice tests zoom out.
 
+If you already liked the framing in [Active Recall vs Spaced Repetition in 2026](/blog/active-recall-vs-spaced-repetition/), this article sits one layer beside it: not "test now or schedule later," but "which kind of test reveals the problem you actually have?"
+
 ## When flashcards are the wrong main tool
 
 I like flashcards a lot. They still fail in predictable ways.
@@ -149,7 +151,7 @@ I see this a lot with students who say they do practice questions all day and st
 
 They found the holes. They just did not build a retention layer for the holes worth keeping.
 
-Turn repeated weak spots into focused cards in your own words. Keep the original question in the practice set, where it can still test the full task.
+That is where [How to Turn Practice Questions Into Flashcards in 2026](/blog/how-to-turn-practice-questions-into-flashcards/) fits. The useful move is not turning every question into a card. It is preserving the repeated weak spots in a cleaner form.
 
 ## A quick decision table
 
@@ -180,7 +182,7 @@ The workflow I trust looks like this:
 
 That sequence keeps the deck from becoming a second textbook. It also keeps practice tests from turning into repetitive rediscovery.
 
-For a source-based mini quiz, ask questions that require using your notes, then check every answer against those notes before studying from it.
+If you want the source-based quiz side first, [How to Make a Practice Exam From Your Notes With AI in 2026](/blog/how-to-make-a-practice-exam-from-your-notes-with-ai/) is the companion piece.
 
 ## Do not duplicate the same idea in both formats without a reason
 
@@ -202,7 +204,7 @@ You probably need a smaller cleanup:
 
 That is enough. The goal is to stop missing the same thing twice, not to preserve the entire study event.
 
-This is also where students overbuild decks. If your review queue is already hard to finish, lower the new-card load and repair slow, ambiguous prompts before adding more cards from a practice session.
+This is also where students overbuild decks. If your queue is already getting rude, [How Many New Flashcards Per Day in 2026](/blog/how-many-new-flashcards-per-day/) and [How to Review Flashcards Faster in 2026](/blog/how-to-review-flashcards-faster/) are worth reading before you add another 40 cards from one practice session.
 
 ## If you forget everything the next day, the issue is usually between the two
 

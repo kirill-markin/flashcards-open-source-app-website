@@ -214,7 +214,9 @@ If your source material is plain text rather than a Notion workspace, this compa
 
 - [How to Turn Notes Into Flashcards in 2026](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
-If a Notion export works better as a document, process one relevant section at a time and check the resulting cards against the source.
+And if your Notion export ends up working better as a document, this one is useful too:
+
+- [How to Turn a PDF Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## A practical workflow I would actually use
 

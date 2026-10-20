@@ -244,7 +244,7 @@ Hãy bắt đầu từ kết quả thực tế, dù chỉ là một bài tự ki
 6. **Luyện dựng lại bố cục ngoài bộ thẻ.** Điền bảng trống và đọc thành tiếng các mốc về nhóm hoặc chu kỳ. Các thẻ riêng lẻ không tự dạy bạn bố cục không gian.
 7. **Quay lại làm hóa học.** Đọc công thức, giải thích một xu hướng, viết cấu hình electron và giải những bài tập mới. Mỗi lỗi lặp lại có thể trở thành một thẻ nhỏ để sửa đúng lỗi đó.
 
-Khi mở rộng phạm vi, hãy giữ số thẻ cần ôn mỗi ngày ở mức thực tế. Quyết định lượng thẻ mới dựa trên số thẻ đến hạn ôn.
+Khi mở rộng phạm vi, hãy giữ số thẻ cần ôn mỗi ngày ở mức thực tế. Bài [Mỗi ngày nên học bao nhiêu thẻ mới?](/blog/how-many-new-flashcards-per-day/) giải thích cách quyết định lượng thẻ mới dựa trên số thẻ đến hạn ôn, thay vì chỉ dựa vào quyết tâm.
 
 ## Ba bộ thẻ làm sẵn cho ba nhu cầu khác nhau
 

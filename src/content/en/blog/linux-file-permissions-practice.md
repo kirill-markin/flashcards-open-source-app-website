@@ -166,7 +166,7 @@ Keep a card for an answer you got wrong, with enough context to explain it. Thes
 | In the original worksheet, which bit must Mina add so Bo can read `puzzle.txt`? | File group read: `chmod g+r ./lab/shared/puzzle.txt`, changing `604` to `644`. |
 | In the original worksheet, which bit must Mina add so Eli can read the known `puzzle.txt`? | Directory other search: `chmod o+x ./lab/shared`, changing `750` to `751`. The file stays `604`. |
 
-On review, name the applicable class, check the directories, and identify the operation before revealing the answer. Keep only the cards you need. The [find -mtime worksheet](/blog/find-mtime/) gives you another set of results to predict before checking.
+On review, name the applicable class, check the directories, and identify the operation before revealing the answer. Keep only the cards you need. The [terminal-command flashcard guide](/blog/how-to-learn-terminal-commands-with-flashcards/) explains how to turn command mistakes into useful prompts. The [find -mtime worksheet](/blog/find-mtime/) gives you another set of results to predict before checking.
 
 For a real path, inspect before changing anything. Using the worksheet's names, the read-only commands would be:
 

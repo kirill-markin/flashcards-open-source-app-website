@@ -69,7 +69,7 @@ Read that inventory before moving on. If ChatGPT lists something you cannot find
 
 Once the source inventory looks right, ask for candidates. The word “candidate” matters because it keeps the next step obvious: you still need to approve them.
 
-A useful front asks one clear question. A useful back answers that question directly. The card should make sense later, when the source is no longer open and the surrounding lecture is no longer fresh in your head.
+A useful front asks one clear question. A useful back answers that question directly. The card should make sense later, when the source is no longer open and the surrounding lecture is no longer fresh in your head. For more examples of what belongs in this format, see [What Should Go on a Flashcard?](/blog/what-should-go-on-a-flashcard/).
 
 Here is a copyable **ChatGPT flashcard prompt**:
 
@@ -146,7 +146,7 @@ Work through the candidates one by one. A simple quality gate catches most of th
 5. **Worth future review:** Does this fact matter beyond today's reading? Delete headings, obvious filler, duplicated ideas, and details you can quickly derive when needed.
 6. **Fair grading:** Could you recognize a correct paraphrase, or does the card require ChatGPT's exact wording? Rewrite fronts that accidentally test a phrase instead of knowledge.
 
-The related guide on [how to fix AI flashcards](/blog/how-to-fix-ai-flashcards/) goes deeper on repairing vague, overloaded, and duplicate cards. If generation keeps expanding your queue, keep only drafts that address a specific learning need.
+The related guide on [how to fix AI flashcards](/blog/how-to-fix-ai-flashcards/) goes deeper on repairing vague, overloaded, and duplicate cards. If generation keeps expanding your queue, use the stricter pruning rules in [How to Avoid AI Flashcard Overload](/blog/how-to-avoid-ai-flashcard-overload/).
 
 You can ask ChatGPT to help with this audit, but keep the source open and make the final decision yourself:
 

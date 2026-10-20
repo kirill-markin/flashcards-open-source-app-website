@@ -158,7 +158,7 @@ Pet pogostih načinov pretvorbe:
 
 Na eno kartico ne prepisujte celotnega uradnega vprašanja in razlage rešitve. Preverjeno ugotovitev napišite s svojimi besedami. Celotno nalogo pustite v gradivu za vajo, v zbirki pa ohranite le kratko vsebino za pomnjenje.
 
-[Učne kartice ali poskusni testi v letu 2026](/blog/flashcards-vs-practice-tests/) pojasnjuje, zakaj naj kartica in naslednje novo vprašanje ostaneta ločena koraka.
+Članek [Kako vprašanja za vajo pretvoriti v učne kartice v letu 2026](/blog/how-to-turn-practice-questions-into-flashcards/) podrobneje obravnava vrzeli v poznavanju dejstev, razlikovanje pojmov, zaporedja in kartice z vzorci zavajajočih odgovorov. [Učne kartice ali poskusni testi v letu 2026](/blog/flashcards-vs-practice-tests/) pojasnjuje, zakaj naj kartica in naslednje novo vprašanje ostaneta ločena koraka.
 
 ## Pred ponavljanjem preglejte staro zbirko za TOEFL
 
@@ -180,6 +180,8 @@ Nato zadetke razvrstite v tri skupine:
 3. **Odstranite ali arhivirajte:** navodila nalog, časovne omejitve, ocenjevanje in predloge, ki opisujejo samo obliko izpita pred 21. januarjem 2026.
 
 Nato preostale oznake nalog primerjajte z 12 trenutnimi imeni nalog ETS. Vsaki kartici, vezani na obliko izpita, dodajte aktualen uradni vir ETS. Kot dodatne metapodatke lahko dodate tudi oznako `verified-2026` in datum preverjanja. Datumi so tu pomembni, ker lahko ETS izpit posodobi. Besedišče, ki ostaja enako, ne potrebuje takšne obravnave.
+
+Če je zbirka velika, članek [Kako zmanjšati zbirko učnih kartic v letu 2026](/blog/how-to-prune-a-flashcard-deck/) ponuja praktičen postopek brisanja in predelave.
 
 ## Ponavljanje v časovnih razmikih uporabljajte za pomnjenje, ne za simulacijo izpita
 

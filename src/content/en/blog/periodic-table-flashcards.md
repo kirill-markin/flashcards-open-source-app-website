@@ -244,7 +244,7 @@ Start with evidence, even if it is only a five-minute self-test.
 6. **Rebuild the shape outside the deck.** Fill a blank table and say the group or period anchors aloud. Isolated cards do not teach spatial layout by themselves.
 7. **Return to chemistry.** Read formulas, explain a trend, write an electron configuration, and solve unfamiliar problems. Each repeated error can produce one small repair card.
 
-Keep the daily queue realistic while expanding the set. Use the due-review load you can finish, rather than ambition, to set new-card intake.
+Keep the daily queue realistic while expanding the set. [How Many New Flashcards per Day?](/blog/how-many-new-flashcards-per-day/) explains how to use your due-review load, rather than ambition, to set the intake.
 
 ## Ready-made decks for three different jobs
 

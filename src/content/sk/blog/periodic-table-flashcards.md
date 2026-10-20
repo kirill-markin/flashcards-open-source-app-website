@@ -244,7 +244,7 @@ Začnite tým, čo vám ukáže skúšanie, hoci by išlo len o päťminútový 
 6. **Rozloženie tabuľky precvičujte mimo balíčka.** Vyplňte prázdnu tabuľku a nahlas si povedzte oporné body skupín alebo periód. Samostatné kartičky vás priestorové usporiadanie nenaučia.
 7. **Vráťte sa k chémii.** Čítajte vzorce, vysvetlite trend, napíšte elektrónovú konfiguráciu a riešte neznáme úlohy. Z každej opakovanej chyby môže vzniknúť jedna krátka kartička na jej nápravu.
 
-Pri rozširovaní balíčka udržujte denný počet opakovaní zvládnuteľný. Počet nových kartičiek nastavte podľa objemu naplánovaného opakovania.
+Pri rozširovaní balíčka udržujte denný počet opakovaní zvládnuteľný. Článok [Koľko nových kartičiek denne?](/blog/how-many-new-flashcards-per-day/) vysvetľuje, ako počet nových kartičiek nastaviť podľa objemu naplánovaného opakovania, nie podľa ambícií.
 
 ## Hotové balíčky na tri rôzne úlohy
 

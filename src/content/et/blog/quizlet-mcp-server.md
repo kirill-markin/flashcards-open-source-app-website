@@ -101,7 +101,7 @@ Avalik liidesekirjeldus vähendab ühenduse loomisel oletamist, kuid ei muuda ig
 
 Nibomo eraldab lugemistoimingud kirjutamistööriistadest: `sql_execute` on kaartide ja kaardipakkide muutmiseks ning `submit_review` kordamiste salvestamiseks. OAuthi autentimisandmed hõlmavad siiski konnektori liidest tervikuna, nii et tööriistade blokeerimine ja kinnituste küsimine sõltuvad kliendist. Alusta väikesest tööruumist, mis ei sisalda tundlikke andmeid. Lase agendil lugeda ainult ülesande jaoks vajalikke andmeid, nõua iga kirjutamistoimingu eraldi kinnitamist, kui klient seda toetab, ning vaata tööruum ja kavandatud muudatus enne kinnitamist üle.
 
-Ära ühenda privaatset õppematerjali enne, kui oled kontrollinud AI-kliendi andmete säilitamise ja töötlemise tingimusi. Esimeseks ülekandeks piisab lihtsast reeglist: säilita algne eksport, vaata mõne kaardi eelvaadet, kinnita piiratud ulatusega kirjutamistoiming ja kontrolli tulemust sihtrakenduses enne jätkamist.
+Ära ühenda privaatset õppematerjali enne, kui oled kontrollinud AI-kliendi andmete säilitamise ja töötlemise tingimusi. Üksikasjalik ohumudel on artiklis [Kas MCP on õpikaartide jaoks turvaline?](/blog/is-mcp-safe-for-flashcards/). Esimeseks ülekandeks piisab lihtsast reeglist: säilita algne eksport, vaata mõne kaardi eelvaadet, kinnita piiratud ulatusega kirjutamistoiming ja kontrolli tulemust sihtrakenduses enne jätkamist.
 
 ## Ära muuda privaatset brauseriliiklust API-ks
 

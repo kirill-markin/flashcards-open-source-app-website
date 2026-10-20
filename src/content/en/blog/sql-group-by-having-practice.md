@@ -266,6 +266,6 @@ If you missed an exercise, make a recall prompt from the exact distinction that 
 | Two completed rows have minutes NULL and 15. What are COUNT(*), COUNT(minutes), and SUM(minutes)? | 2, 1, and 15. The sum is a known-duration subtotal. |
 | Two people share a name. What does grouping only by that name combine? | Their rows enter one group. Include the person ID for a per-person report. |
 
-Keep each recall target narrow. Use the card to rehearse that distinction, then return to a full query and account for its rows: apply `WHERE`, form groups using their keys, calculate the aggregates, and apply `HAVING`.
+The [guide to choosing flashcard material](/blog/what-should-go-on-a-flashcard/) explains how to keep a recall target narrow. Use the card to rehearse that distinction, then return to a full query and account for its rows: apply `WHERE`, form groups using their keys, calculate the aggregates, and apply `HAVING`.
 
 *AI assisted substantially with research, writing, editing, and exercise construction; the illustration is AI-generated. The nine variants were executed with fictional data in cloud BigQuery using GoogleSQL on October 19, 2026, in Europe/Paris time (October 18 UTC). PostgreSQL 18 documentation was consulted, but no PostgreSQL runtime test, human editorial review, or classroom validation is claimed.*

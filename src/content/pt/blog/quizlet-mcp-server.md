@@ -101,7 +101,7 @@ Um contrato público reduz parte da incerteza na integração, mas não torna to
 
 O Nibomo separa as operações de leitura de suas ferramentas de escrita: `sql_execute` para cartões e baralhos, `submit_review` para revisões. A credencial OAuth ainda abrange toda a interface do conector, portanto o bloqueio de ferramentas e o funcionamento das aprovações dependem do cliente. Comece com um espaço de trabalho pequeno, sem dados sensíveis. Deixe o agente ler apenas os dados necessários para a tarefa, exija aprovação a cada chamada de escrita quando o cliente oferecer esse recurso e inspecione o espaço de trabalho e a alteração proposta antes de aceitá-la.
 
-Não conecte material de estudo privado antes de conferir os termos de retenção e tratamento de dados do cliente de IA. Para uma primeira transferência, basta uma regra simples: guarde a exportação original, visualize alguns cartões, aprove uma escrita de escopo restrito e verifique o resultado no app de destino antes de fazer mais.
+Não conecte material de estudo privado antes de conferir os termos de retenção e tratamento de dados do cliente de IA. O modelo de ameaças detalhado está em [O MCP é seguro para flashcards?](/blog/is-mcp-safe-for-flashcards/). Para uma primeira transferência, basta uma regra simples: guarde a exportação original, visualize alguns cartões, aprove uma escrita de escopo restrito e verifique o resultado no app de destino antes de fazer mais.
 
 ## Não transforme o tráfego privado do navegador em uma API
 

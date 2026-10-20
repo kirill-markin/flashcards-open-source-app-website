@@ -101,7 +101,7 @@ Julkinen rajapintamäärittely vähentää integraatioon liittyvää arvailua, m
 
 Nibomo erottaa lukutoiminnot kirjoitustyökaluistaan: `sql_execute` muokkaa kortteja ja pakkoja, `submit_review` tallentaa kertauksia. OAuth-tunniste kattaa silti yhdistimen koko toimintovalikoiman, joten työkalujen estäminen ja hyväksyntäkäytännöt riippuvat asiakasohjelmasta. Aloita pienestä työtilasta, jossa ei ole arkaluonteisia tietoja. Anna agentin lukea vain tehtävään tarvittavat tiedot, vaadi kirjoitustoiminnoille kutsukohtainen hyväksyntä asiakasohjelman tukiessa sitä ja tarkista työtila sekä ehdotettu muutos ennen hyväksymistä.
 
-Älä yhdistä yksityistä opiskelumateriaalia ennen kuin olet tarkistanut tekoälyasiakasohjelman tietojen säilytystä ja käsittelyä koskevat ehdot. Ensimmäiseen siirtoon riittää yksinkertainen sääntö: säilytä alkuperäinen vientitiedosto, esikatsele muutama kortti, hyväksy tarkasti rajattu kirjoitustoiminto ja varmista tulos kohdesovelluksessa ennen kuin jatkat.
+Älä yhdistä yksityistä opiskelumateriaalia ennen kuin olet tarkistanut tekoälyasiakasohjelman tietojen säilytystä ja käsittelyä koskevat ehdot. Yksityiskohtainen uhkamalli löytyy artikkelista [Onko MCP turvallinen opiskelukorteille?](/blog/is-mcp-safe-for-flashcards/). Ensimmäiseen siirtoon riittää yksinkertainen sääntö: säilytä alkuperäinen vientitiedosto, esikatsele muutama kortti, hyväksy tarkasti rajattu kirjoitustoiminto ja varmista tulos kohdesovelluksessa ennen kuin jatkat.
 
 ## Älä muuta yksityistä selainliikennettä rajapinnaksi
 

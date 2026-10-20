@@ -171,6 +171,7 @@ That means the generated cards are already one transformation away from the sour
 If your source is still stuck one step earlier, these companion pieces help:
 
 - [How to Turn Notes Into Flashcards in 2026](https://nibomo.com/blog/turn-notes-into-flashcards/)
+- [How to Turn a PDF Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 - [How to Turn Notion Notes Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-notion-notes-into-flashcards/)
 
 ## The workflow I would use this week

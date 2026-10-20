@@ -80,7 +80,9 @@ Zero.
 
 You are in recovery mode now. The job is to stabilize the review queue before adding new material back into the system.
 
-Keep intake low until the daily review load fits your available time; increase it gradually only after the queue stays manageable.
+If you want the deeper logic behind daily intake, this companion article goes with the same problem from the front end:
+
+- [How Many New Flashcards Per Day in 2026?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 
 ## Next move: choose a daily floor you can actually repeat
 

@@ -101,7 +101,7 @@ Pred spremembo dejanskih nastavitev preizkusite tri scenarije:
 2. Ciljno stopnjo pomnjenja, o kateri razmišljate.
 3. Isti cilj z manj novimi karticami na dan.
 
-Tretji preizkus preveri pogosto uporabno alternativo: ohranite cilj priklica in upočasnite dotok novega gradiva. Če je napovedani obseg dela tako obvladljiv, vam ni treba sprejeti več pozabljanja zgolj zato, da skrajšate vrsto.
+Tretji preizkus preveri pogosto uporabno alternativo: ohranite cilj priklica in upočasnite dotok novega gradiva. Če je napovedani obseg dela tako obvladljiv, vam ni treba sprejeti več pozabljanja zgolj zato, da skrajšate vrsto. Podrobnejša navodila so v članku [Koliko novih učnih kartic na dan?](/blog/how-many-new-flashcards-per-day/).
 
 Obe orodji podajata ocene. Izpuščeni dnevi, spremembe kartic, novo gradivo in spremembe ocenjevalnih navad lahko povzročijo, da se dejanski obseg dela razlikuje od grafa. Primerjavo uporabite za izbiro smeri, ne kot obljubo natančne dolžine vrste čez nekaj mesecev.
 

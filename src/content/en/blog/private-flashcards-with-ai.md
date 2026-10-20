@@ -172,7 +172,7 @@ Nibomo already exposes a documented external agent surface and an MCP path inste
 
 If the agent side matters to you, these are the useful next reads:
 
-- [API documentation for agent onboarding](/docs/api/)
+- [How to Let Claude Code, Codex, or OpenClaw Log In to Nibomo for You](/blog/claude-code-codex-openclaw-flashcards-login/)
 - [How to Connect Nibomo to Claude with MCP](/blog/how-to-connect-flashcards-to-claude-with-mcp/)
 
 That gives you a more inspectable setup than a study product where AI exists only inside one vendor's interface and one vendor's rules.

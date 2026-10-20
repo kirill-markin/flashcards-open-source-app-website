@@ -244,7 +244,7 @@ Aloita selvittämällä, mitä jo osaat, vaikka vain viiden minuutin itsearvioin
 6. **Harjoittele taulukon rakennetta korttien ulkopuolella.** Täytä tyhjä taulukko ja sano ryhmien tai jaksojen kiintopisteet ääneen. Yksittäiset kortit eivät yksin opeta alkuaineiden sijaintia.
 7. **Palaa kemian tehtäviin.** Lue kaavoja, selitä jokin trendi, kirjoita elektronikonfiguraatio ja ratkaise uudenlaisia tehtäviä. Jokaisesta toistuvasta virheestä voi tehdä yhden pienen korjauskortin.
 
-Pidä päivittäinen kertausjono kohtuullisena, kun laajennat opeteltavaa joukkoa. Sovita uusien korttien määrä erääntyneiden kertausten määrään.
+Pidä päivittäinen kertausjono kohtuullisena, kun laajennat opeteltavaa joukkoa. Englanninkielinen [How Many New Flashcards per Day?](/blog/how-many-new-flashcards-per-day/) kertoo, miten uusien korttien määrä kannattaa sovittaa erääntyneiden kertausten määrään pelkän innostuksen sijaan.
 
 ## Valmiita pakkoja kolmeen eri tarkoitukseen
 

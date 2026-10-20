@@ -54,7 +54,7 @@ I would bias toward a smaller, plainer setup:
 
 That matters because the best focus-friendly flashcard setup is usually less about decoration and more about reducing decision fatigue.
 
-If your setup keeps expanding, use fewer decks and a simple place to capture new material. If the review queue keeps growing, lower the new-card intake until it fits a session you can repeat.
+If your current setup keeps expanding, [How to Organize Flashcards in 2026](/blog/how-to-organize-flashcards/) is the right structural companion. If the queue is growing faster than your patience, [How Many New Flashcards Per Day in 2026](/blog/how-many-new-flashcards-per-day/) is the more immediate fix.
 
 ## Smaller review sessions are not a compromise
 
@@ -73,7 +73,7 @@ That is why I like **small review sessions** on purpose:
 
 Those sessions work only if the cards are actually reviewable. If every prompt turns into a mini reading-comprehension test, those short windows disappear fast.
 
-Remove small sources of friction from each card: unclear wording, long backs, and repeated decisions about what to study next. That makes reviews faster without asking you to rush.
+This is also why [How to Review Flashcards Faster in 2026](/blog/how-to-review-flashcards-faster/) matters so much for this topic. Speed is not about rushing. It is about removing seconds-tax friction from every card.
 
 ## Use AI for check-ins and cleanup, not for deck inflation
 

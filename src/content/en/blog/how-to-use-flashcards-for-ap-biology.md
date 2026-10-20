@@ -157,7 +157,7 @@ Examples:
 
 For general study-design practice, the [Random Sampling vs Random Assignment Flashcards](/catalog/packages/random-sampling-vs-random-assignment-flashcards/) ask which conclusions a short study supports, including whether its design permits a causal comparison. Apply that distinction again in your biology practice questions.
 
-Use practice misses to identify a concept, comparison, or causal link worth reviewing. Write it in your own words, then return to a new question to test whether you can apply it.
+If your best card source is what you missed in practice, [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) fits directly here.
 
 ## FRQ prep works better when the card stores the reasoning move
 
@@ -225,7 +225,7 @@ I would keep the loop this simple:
 4. Delete vague cards quickly.
 5. Keep new cards lower than your ambition wants, especially once the exam is close.
 
-If the daily load becomes hard to finish, reduce new cards and keep time for full practice questions.
+If the daily load starts getting silly, [How Many New Flashcards Per Day in 2026?](https://nibomo.com/blog/how-many-new-flashcards-per-day/) is the better next read.
 
 ## FSRS helps once the AP Biology cards stop trying to do everything
 

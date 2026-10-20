@@ -101,7 +101,7 @@ Prije promjene stvarnih postavki pokrenite tri scenarija:
 2. Cilj pamćenja koji razmatrate.
 3. Isti cilj uz manje novih kartica na dan.
 
-Treći scenarij ispituje čestu alternativu: zadržati cilj prisjećanja i usporiti priljev novog gradiva. Ako takva prognoza izgleda održivo, ne morate prihvatiti više zaboravljanja samo da biste smanjili broj kartica za ponavljanje.
+Treći scenarij ispituje čestu alternativu: zadržati cilj prisjećanja i usporiti priljev novog gradiva. Ako takva prognoza izgleda održivo, ne morate prihvatiti više zaboravljanja samo da biste smanjili broj kartica za ponavljanje. Detaljniji vodič o dodavanju kartica potražite u članku [Koliko novih kartica za učenje na dan?](/blog/how-many-new-flashcards-per-day/).
 
 Oba alata daju procjene. Zbog preskočenih dana, izmjena kartica, novog gradiva i promjena navika ocjenjivanja stvarno se opterećenje može razlikovati od prikazanog grafikona. Usporedbom odaberite smjer, ali nemojte je shvatiti kao obećanje točnog broja kartica za nekoliko mjeseci.
 

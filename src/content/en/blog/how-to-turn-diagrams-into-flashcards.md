@@ -222,9 +222,13 @@ That still works.
 
 The same rule applies: turn the image into a clean description first, then draft cards that test the part worth remembering.
 
-For a text-heavy screenshot, extract the relevant text and verify it against the image before writing short question-and-answer cards.
+If the screenshot is text-heavy, this companion article may fit better:
 
-For a notebook page, check the transcription carefully, especially symbols and labels, before deciding which parts need visual cards.
+- [How to Turn an Article Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-an-article-into-flashcards/)
+
+If it is really a notebook page rather than a structured diagram, this one is closer:
+
+- [How to Turn Handwritten Notes Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-handwritten-notes-into-flashcards/)
 
 ## The card should test one visual idea at a time
 
@@ -312,7 +316,9 @@ If you want the scheduling side in more detail, this companion article is worth 
 
 - [FSRS vs SM-2 in 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
-For lecture slides or a research paper, retain the figure’s caption and surrounding explanation so a crop does not lose the context needed to interpret it.
+And if your source is closer to lecture slides or a research paper than a diagram image, start here:
+
+- [How to Turn a PDF Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## The useful rule
 
