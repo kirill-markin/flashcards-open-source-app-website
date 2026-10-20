@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-use-flashcards-for-law-school.md"
 title: "Cómo usar flashcards para la carrera de Derecho en 2026: casos, reglas e identificación de cuestiones que de verdad se quedan"
 description: "Un flujo práctico de flashcards para Derecho con casos, apuntes de clase, outlines y supuestos prácticos usando borradores con IA y FSRS sin convertir tu mazo en un segundo outline."
 date: "2026-04-16"

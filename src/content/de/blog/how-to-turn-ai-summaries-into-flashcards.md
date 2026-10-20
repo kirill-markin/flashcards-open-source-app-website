@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-turn-ai-summaries-into-flashcards.md"
 title: "Wie du 2026 KI-Zusammenfassungen in Flashcards verwandelst: Aussagen behalten, Erinnerung testen"
 description: "Du nutzt ChatGPT, Gemini, NotebookLM oder ein anderes KI-Zusammenfassungstool? Hier ist ein praktischer Workflow für 2026, um aus KI-Zusammenfassungen verifizierte FSRS-Flashcards zu machen, statt eine polierte Abkürzung auswendig zu lernen."
 date: "2026-07-11"

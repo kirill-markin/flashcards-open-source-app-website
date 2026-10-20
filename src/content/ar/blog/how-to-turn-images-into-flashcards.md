@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-turn-images-into-flashcards.md"
 title: "كيفية تحويل الصور إلى بطاقات تعليمية في 2026: لقطات الشاشة والصور وOCR من دون إعادة كتابة كل شيء"
 description: "هل تريد تحويل الصور إلى بطاقات تعليمية من دون إعادة كتابة كل شيء يدويًا؟ إليك سير عمل عملي في 2026 للقطات الشاشة، وصور الدراسة، وتنظيف OCR حتى تتمكن من مراجعة البطاقات النهائية باستخدام FSRS."
 date: "2026-05-25"

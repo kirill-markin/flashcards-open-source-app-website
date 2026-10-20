@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-study-with-adhd-using-flashcards.md"
 title: "كيف تذاكر مع ADHD باستخدام البطاقات التعليمية في 2026: بداية أسهل، قوائم أصغر، ونتائج أسرع"
 description: "هل تحتاج إلى طريقة عملية وغير طبية للمذاكرة مع ADHD في 2026؟ إليك سير عمل بالبطاقات التعليمية يخفف عناء البداية، ويصغّر جلسات المراجعة، ويستفيد من الذكاء الاصطناعي وFSRS من دون أن تتحول المجموعة إلى مصدر ضغط إضافي."
 date: "2026-05-21"

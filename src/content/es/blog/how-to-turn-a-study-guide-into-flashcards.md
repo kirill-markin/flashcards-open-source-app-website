@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-turn-a-study-guide-into-flashcards.md"
 title: "Cómo convertir una guía de estudio en tarjetas de estudio en 2026: de las guías creadas con IA y los apuntes de clase a tarjetas con FSRS"
 description: "¿Quieres convertir una guía de estudio en tarjetas de estudio en 2026? Aquí tienes un flujo de trabajo práctico para guías creadas con IA, materiales del profesor, paquetes de examen y hojas de repaso usando borradores con IA y repaso con FSRS."
 date: "2026-04-12"

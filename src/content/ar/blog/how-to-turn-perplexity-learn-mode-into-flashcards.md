@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-turn-perplexity-learn-mode-into-flashcards.md"
 title: "كيف تحوّل Perplexity Learn Mode إلى بطاقات تعليمية في 2026: استخدم البحث الموجّه وراجع نقاط الضعف عبر FSRS"
 description: "تستخدم Perplexity Learn Mode في 2026؟ ارفع ملاحظات المحاضرات أو القراءات، ودَع الأسئلة الموجّهة والاختبارات القصيرة تكشف نقاط الضعف، ثم حوّل فقط الأجزاء الموثقة التي تستحق الاحتفاظ إلى بطاقات تعليمية تراجعها عبر FSRS."
 date: "2026-05-29"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-fix-leech-flashcards.md"
 title: "Cómo corregir las flashcards leech en 2026: qué hacer con las tarjetas que sigues fallando"
 description: "¿Sigues olvidando las mismas flashcards? Aquí tienes un flujo práctico de 2026 para tarjetas leech: diagnostica por qué una tarjeta sigue fallando, reescríbela o divídela, elimina los enunciados flojos y mantén FSRS centrado en tarjetas que sí merece la pena repasar."
 date: "2026-07-07"

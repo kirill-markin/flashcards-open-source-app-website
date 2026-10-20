@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-turn-a-study-guide-into-flashcards.md"
 title: "2026 में स्टडी गाइड को Flashcards में कैसे बदलें: AI स्टडी गाइड और क्लास पैकेट से FSRS कार्ड"
 description: "क्या आप 2026 में स्टडी गाइड को Flashcards में बदलना चाहते हैं? यहाँ AI स्टडी गाइड, शिक्षक हैंडआउट, परीक्षा पैकेट और रिव्यू शीट के लिए एक व्यावहारिक तरीका है: AI से ड्राफ्ट बनाइए, फिर FSRS के साथ पढ़िए।"
 date: "2026-04-12"

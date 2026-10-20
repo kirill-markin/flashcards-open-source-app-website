@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-use-flashcards-for-ap-calculus-ab-bc.md"
 title: "Wie du 2026 mit Flashcards für AP Calculus AB und BC lernst: Grenzwerte, Ableitungen und FRQ-Fehler, die hängen bleiben"
 description: "Ein praktischer Flashcard-Workflow für AP Calculus AB/BC im Jahr 2026: Grenzwerte, Ableitungen, Integrale, Bluebook-Vorbereitung, FRQ-Fehler und FSRS-Wiederholung, die im Kopf bleibt."
 date: "2026-06-26"

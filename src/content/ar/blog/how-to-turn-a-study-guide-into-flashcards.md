@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-turn-a-study-guide-into-flashcards.md"
 title: "كيف تحوّل دليل الدراسة إلى بطاقات Flashcards في 2026: من أدلة الذكاء الاصطناعي وملخصات الصف إلى بطاقات FSRS"
 description: "هل تريد تحويل دليل الدراسة إلى بطاقات Flashcards في 2026؟ إليك سير عمل عملي للتعامل مع أدلة الدراسة التي ينشئها الذكاء الاصطناعي، وملخصات المعلمين، وحزم الامتحان، وأوراق المراجعة، ثم تحويلها إلى بطاقات قابلة للمراجعة عبر FSRS."
 date: "2026-04-12"

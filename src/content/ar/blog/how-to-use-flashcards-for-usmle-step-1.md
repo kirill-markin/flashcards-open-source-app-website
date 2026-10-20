@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-use-flashcards-for-usmle-step-1.md"
 title: "كيف تستخدم البطاقات التعليمية لاختبار USMLE Step 1 في 2026: الأنظمة المتكاملة، وأخطاء بنوك الأسئلة، والصور التي تترسخ فعلًا"
 description: "هل تحتاج إلى سير عمل عملي لبطاقات USMLE Step 1 التعليمية في 2026؟ إليك طريقة مذاكرة الأنظمة المتكاملة، وصور علم الأمراض، وعلم الأدوية، وأخطاء بنوك الأسئلة للاختبار بنظام النجاح/الرسوب باستخدام FSRS."
 date: "2026-05-01"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1claude-code-codex-openclaw-flashcards-login.md"
 title: "كيف تجعل Claude Code أو Codex أو OpenClaw يسجّل الدخول إلى Nibomo بدلًا منك"
 description: "يوفّر Nibomo مسار تسجيل دخول مفتوح المصدر للوكلاء يبدأ من رابط اكتشاف واحد، ورمز تحقق لمرة واحدة عبر البريد الإلكتروني، ومفتاح API طويل الأمد. أعطِ وكيلك رابطًا واحدًا، ثم أرسل له أحدث رمز مكوّن من 8 أرقام من البريد، ودعه يُكمل إعداد الحساب ومساحة العمل بنفسه."
 date: "2026-03-10"

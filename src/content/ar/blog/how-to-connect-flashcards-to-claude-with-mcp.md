@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-connect-flashcards-to-claude-with-mcp.md"
 title: "كيفية ربط بطاقات Nibomo التعليمية بـ Claude عبر MCP"
 description: "اربط Nibomo بـ Claude Desktop أو المتصفح باستخدام موصّل MCP عن بُعد. اتبع خطوات الربط التي جرى التحقق منها، واضبط أذونات الأدوات، وجرّب حفظ أول بطاقة تعليمية."
 date: "2026-06-23"

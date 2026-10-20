@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1fsrs-vs-sm-2.md"
 title: "FSRS vs SM-2: Unterschiede, Wiederholungsaufwand und Wechsel in Anki"
 description: "Vergleiche FSRS mit SM-2, ordne Benchmarks zur Erinnerungsleistung ein und stelle Ankis Wiederholungsplanung um, ohne die ganze Sammlung auf einmal neu zu planen."
 date: "2026-03-12"

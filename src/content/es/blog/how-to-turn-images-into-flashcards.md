@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-turn-images-into-flashcards.md"
 title: >-
   Cómo convertir imágenes en tarjetas didácticas en 2026: capturas, fotos y
   OCR sin reescribirlo todo

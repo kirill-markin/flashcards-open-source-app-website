@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-turn-practice-questions-into-flashcards.md"
 title: "كيف تحوّل أسئلة التدريب إلى بطاقات تعليمية في 2026: ابنِ مجموعة FSRS من الأسئلة التي أخطأت فيها"
 description: "هل تريد تحويل أسئلة التدريب إلى بطاقات تعليمية في 2026؟ إليك سير عمل عملي للاختبارات التجريبية، والأوراق السابقة، ولقطات الشاشة، والإجابات الخاطئة، باستخدام صياغة أولية بالذكاء الاصطناعي ثم مراجعة منظمة عبر FSRS."
 date: "2026-04-11"

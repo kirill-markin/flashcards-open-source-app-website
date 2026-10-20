@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-turn-quiz-results-into-flashcards.md"
 title: "Cómo convertir resultados de cuestionarios en flashcards en 2026: quédate con los fallos y sáltate el informe de calificación"
 description: "¿Usas cuestionarios de clase, comentarios del LMS o resúmenes de IA en 2026? Aquí tienes una forma práctica de convertir preguntas falladas, casi aciertos y confusiones repetidas en flashcards con FSRS."
 date: "2026-07-10"

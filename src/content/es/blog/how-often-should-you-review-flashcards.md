@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-often-should-you-review-flashcards.md"
 title: "¿Cada cuánto debes repasar flashcards? Deja que FSRS fije el calendario"
 description: "Consulta a diario las tarjetas pendientes, no todas. Descubre cómo FSRS adapta los intervalos a lo que recuerdas, la retención deseada y una carga sostenible."
 date: "2026-07-19"

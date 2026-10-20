@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1gre-vocabulary-flashcards.md"
 title: "2026 में GRE Vocabulary Flashcards: Text Completion और Sentence Equivalence के लिए डेक कैसे बनाएं"
 description: "क्या आप ऐसे GRE vocabulary flashcards खोज रहे हैं जो सिर्फ random word lists रटवाने के लिए न हों? यहाँ 2026 के लिए Text Completion, Sentence Equivalence, example sentences, और FSRS spaced repetition पर आधारित एक व्यावहारिक workflow है।"
 date: "2026-05-05"

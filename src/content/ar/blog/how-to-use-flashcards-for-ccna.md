@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-use-flashcards-for-ccna.md"
 title: "كيف تستخدم البطاقات التعليمية لشهادة CCNA في 2026: subnetting وأوامر show واستكشاف الأعطال التي تثبت فعلًا"
 description: "هل تستعد لاختبار Cisco CCNA 200-301 في 2026؟ إليك سير عمل عملي باستخدام البطاقات التعليمية لـ subnetting وأوامر show وأخطاء التوجيه والتحويل، مع الرجوع إلى المخطط الرسمي الحالي ومراجعة البطاقات عبر FSRS."
 date: "2026-06-01"

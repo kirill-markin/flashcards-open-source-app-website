@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-fix-ai-flashcards.md"
 title: "كيف تصلح بطاقات الذكاء الاصطناعي التعليمية في 2026: حرّر مسودات ChatGPT وNotebookLM قبل مراجعتها عبر FSRS"
 description: "هل تستخدم ChatGPT Study Mode أو NotebookLM أو أداة ذكاء اصطناعي أخرى لصنع بطاقات تعليمية في 2026؟ إليك سير عمل عملي لاكتشاف الأخطاء، وتقسيم البطاقات المثقلة، وحذف المطالبات الغامضة، ثم مراجعة المجموعة النهائية باستخدام FSRS."
 date: "2026-04-26"

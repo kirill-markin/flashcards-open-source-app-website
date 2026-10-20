@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-turn-google-docs-into-flashcards.md"
 title: "Wie du 2026 Google Docs in Flashcards verwandelst: Aus gemeinsamen Lernzetteln werden saubere FSRS-Karten"
 description: "Verwandle 2026 chaotische Google Docs in brauchbare Flashcards: Abschnitt für Abschnitt bereinigen, Kommentare und Vorschläge gezielt nutzen, schwache KI-Karten streichen und den Rest mit FSRS lernen."
 image: "/blog/how-to-turn-google-docs-into-flashcards.png"

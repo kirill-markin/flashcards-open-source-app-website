@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-turn-obsidian-notes-into-flashcards.md"
 title: "Cómo convertir notas de Obsidian en tarjetas didácticas en 2026: de un vault Markdown a tarjetas con FSRS sin copiar y pegar"
 description: "¿Quieres convertir notas de Obsidian en tarjetas didácticas en 2026? Copia o exporta Markdown limpio desde tu vault, redacta tarjetas con IA y repásalas con FSRS sin reconstruirlo todo a mano."
 date: "2026-04-25"

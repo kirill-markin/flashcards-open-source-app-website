@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1gre-vocabulary-flashcards.md"
 title: "GRE-Vokabel-Flashcards 2026: Ein Deck für Text Completion und Sentence Equivalence aufbauen"
 description: "Du suchst GRE-Vokabel-Flashcards, die mehr können als zufällige Wortlisten abzufragen? Hier ist ein praktischer Workflow für 2026 mit Text Completion, Sentence Equivalence, Beispielsätzen und FSRS-Spaced-Repetition in einer modernen Open-Source-Flashcard-App."
 date: "2026-05-05"

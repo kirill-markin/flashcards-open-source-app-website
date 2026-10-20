@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-use-flashcards-for-ap-physics-1.md"
 title: "Wie du 2026 mit Flashcards für AP Physics 1 lernst: Kräfte, Energie und FRQ-Fehler, die wirklich hängen bleiben"
 description: "Ein praxisnaher Flashcard-Workflow für AP Physics 1 im Jahr 2026: Kinematik, Kräfte, Energie, Graphen, FRQ-Fehler und hybride digitale Prüfungsvorbereitung, die wirklich hängen bleibt."
 image: "/blog/how-to-use-flashcards-for-ap-physics-1.png"

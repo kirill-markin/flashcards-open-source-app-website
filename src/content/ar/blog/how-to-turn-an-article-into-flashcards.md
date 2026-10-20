@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-turn-an-article-into-flashcards.md"
 title: "كيفية تحويل مقال إلى بطاقات تعليمية في 2026: احتفظ بما يفيدك وتجاوز فوضى التحديدات"
 description: "تريد تحويل مقال إلى بطاقات تعليمية في 2026؟ إليك طريقة عملية لتحويل المقالات والتدوينات والنشرات البريدية وصفحات التوثيق والقراءات الطويلة إلى بطاقات قابلة للمراجعة، بالاستفادة من الذكاء الاصطناعي وFSRS."
 date: "2026-04-09"

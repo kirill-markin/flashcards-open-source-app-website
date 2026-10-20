@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-study-for-finals-with-flashcards.md"
 title: "كيف تذاكر للامتحانات النهائية باستخدام البطاقات التعليمية في 2026: من الملاحظات والشرائح وأخطاء الاختبارات التجريبية إلى خطة FSRS واحدة"
 description: "سير عمل عملي لأسبوع الامتحانات النهائية يحوّل ملاحظات المحاضرات والشرائح ومحادثات الدراسة بالذكاء الاصطناعي والأسئلة التي أخطأت فيها إلى بطاقات تعليمية بوجه أمامي ووجه خلفي يمكنك فعلًا إنهاء مراجعتها قبل يوم الامتحان."
 image: "/blog/how-to-study-for-finals-with-flashcards.png"

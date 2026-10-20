@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-back-up-flashcards.md"
 title: "Cómo hacer copia de seguridad de flashcards en 2026: backup de Anki, exportación de Quizlet y un mazo que siga siendo tuyo"
 description: "¿Necesitas un plan de copia de seguridad de flashcards de verdad en 2026? Aquí tienes cómo hacer backup de Anki, exportar lo que Quizlet realmente permite, guardar los archivos multimedia, conservar una copia en texto plano y evitar quedarte atrapado en una sola app de estudio."
 image: "/blog/how-to-back-up-flashcards.png"

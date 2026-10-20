@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1ai-flashcard-tutor-due-cards.md"
 title: "Tutor de flashcards con IA en 2026: te pregunta tus tarjetas pendientes y guarda repasos de FSRS con MCP"
 description: "Conecta Claude, ChatGPT o Codex a Nibomo por MCP. El tutor con IA te pregunta tus tarjetas pendientes, evalúa cada respuesta y guarda la valoración como un repaso de FSRS."
 date: "2026-07-15"

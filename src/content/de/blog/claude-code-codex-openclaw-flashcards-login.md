@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1claude-code-codex-openclaw-flashcards-login.md"
 title: "So lässt du Claude Code, Codex oder OpenClaw die Anmeldung bei Nibomo für dich übernehmen"
 description: "Nibomo bietet einen Open-Source-Anmeldeablauf für Agenten: eine Discovery-URL, E-Mail-OTP und ein langlebiger API-Key. Gib deinem Agenten den Link, schick den aktuellen 8-stelligen Code zurück und lass ihn Konto- und Workspace-Einrichtung selbst abschließen."
 date: "2026-03-10"

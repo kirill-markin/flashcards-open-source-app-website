@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1again-vs-hard-fsrs-flashcards.md"
 title: "Again vs Hard in FSRS (2026): So nutzt du die vier Bewertungen"
 description: "Wann solltest du in FSRS-basierten Karteikarten-Apps Again, Hard, Good oder Easy wählen? Eine einfache Regel hilft dir, ehrlich statt nach dem nächsten Intervall zu bewerten."
 date: "2026-07-17"

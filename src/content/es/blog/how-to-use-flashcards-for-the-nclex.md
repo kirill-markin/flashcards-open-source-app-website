@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-use-flashcards-for-the-nclex.md"
 title: "Cómo usar flashcards para el NCLEX en 2026: estudios de caso NGN, estrategia CAT y juicio clínico que de verdad se te queda"
 description: "¿Te preparas para el NCLEX en 2026? Aquí tienes un flujo práctico de flashcards para estudios de caso NGN, errores estilo CAT, razonamiento de crédito parcial y repaso en la semana del examen sin convertir tu mazo en un segundo manual de repaso."
 date: "2026-05-04"

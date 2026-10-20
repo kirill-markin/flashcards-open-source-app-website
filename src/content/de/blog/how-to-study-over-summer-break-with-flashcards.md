@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-study-over-summer-break-with-flashcards.md"
 title: "So lernst du 2026 in den Sommerferien mit Flashcards: Halte schwere Fächer präsent, ohne ein riesiges Tagesdeck"
 description: "Ein praxisnaher Flashcard-Plan für die Sommerferien: Wissen sichern, Einstufungstests vorbereiten, Wiederholungsprüfungen bestehen und Grundlagen auffrischen. Halte ein kleines FSRS-Deck am Leben, ohne dass sich Juni oder Juli wieder wie Schule anfühlen."
 image: "/blog/how-to-study-over-summer-break-with-flashcards.png"

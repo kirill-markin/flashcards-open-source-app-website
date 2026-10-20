@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-turn-powerpoint-into-flashcards.md"
 title: "كيفية تحويل PowerPoint إلى بطاقات تعليمية في 2026: من PPT وPPTX وGoogle Slides من دون إعادة كتابة كل شريحة"
 description: "هل تريد تحويل PowerPoint أو Google Slides إلى بطاقات تعليمية في 2026؟ هذا سير عمل عملي: استخرج نص الشرائح وملاحظات المتحدث، ونظّف النقاط الغامضة بمساعدة الذكاء الاصطناعي، ثم راجع البطاقات النهائية باستخدام FSRS."
 date: "2026-05-24"

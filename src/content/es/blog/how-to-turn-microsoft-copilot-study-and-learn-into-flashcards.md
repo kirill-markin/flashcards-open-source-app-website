@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-turn-microsoft-copilot-study-and-learn-into-flashcards.md"
 title: "Cómo convertir Microsoft Copilot Study and Learn en flashcards en 2026: conserva el tutor y repasa con FSRS"
 description: "Usa Microsoft Copilot Study and Learn con tus propios documentos de Word, PDF, diapositivas y URLs, y convierte solo los puntos débiles en flashcards para repasarlos en Nibomo con FSRS."
 date: "2026-06-09"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-use-flashcards-for-the-mcat.md"
 title: "Cómo usar flashcards para el MCAT en 2026: aminoácidos, ecuaciones y errores de práctica que de verdad se te quedan"
 description: "¿Necesitas flashcards para el MCAT en 2026? Aquí tienes un sistema práctico para aminoácidos, ecuaciones, términos de psych/soc y errores en preguntas de práctica usando repetición espaciada con FSRS."
 date: "2026-04-22"

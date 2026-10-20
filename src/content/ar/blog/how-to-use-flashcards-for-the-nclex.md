@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-use-flashcards-for-the-nclex.md"
 title: "كيف تستخدم البطاقات التعليمية لامتحان NCLEX في 2026: دراسات حالة NGN، واستراتيجية CAT، والحكم السريري الذي يرسخ فعلًا"
 description: "تستعد لامتحان NCLEX في 2026؟ إليك سير عمل عملي للبطاقات التعليمية للتعامل مع دراسات حالة NGN، وأخطاء CAT، والاستدلال في أسئلة الدرجة الجزئية، ومراجعة أسبوع الامتحان من دون أن تتحول مجموعتك إلى كتاب مراجعة ثانٍ."
 date: "2026-05-04"

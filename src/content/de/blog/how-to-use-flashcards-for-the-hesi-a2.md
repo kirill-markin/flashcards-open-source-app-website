@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-use-flashcards-for-the-hesi-a2.md"
 title: "So nutzt du 2026 Flashcards für den HESI A2: ein schulbezogener Lernworkflow"
 description: "Du bereitest dich 2026 auf den HESI A2 vor? Baue einen schulbezogenen Flashcard-Workflow für Mathe, Lesen, Wortschatz, Grammatik, A&P, Biologie und Fehler aus Übungstests auf, ohne Abschnitte zu lernen, die dein Programm gar nicht nutzt."
 date: "2026-06-04"

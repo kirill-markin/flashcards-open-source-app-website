@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-turn-gemini-deep-research-into-flashcards.md"
 title: "كيف تحوّل Gemini Deep Research إلى بطاقات تعليمية في 2026: احتفِظ بالتقرير وذاكر ما يهم"
 description: "هل تستخدم Gemini Deep Research في 2026؟ إليك سير عمل عملي: حوّل الادعاءات الموثقة بالمصادر، والفروق المهمة، وقواعد القرار في تقرير Gemini إلى بطاقات تعليمية واضحة، ثم راجعها باستخدام FSRS."
 date: "2026-04-20"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-avoid-ai-flashcard-overload.md"
 title: "Cómo evitar la sobrecarga de flashcards con IA en 2026: quédate con las buenas y evita una cola diaria de repaso"
 description: "¿Usas IA para convertir apuntes, PDFs, grabaciones de clase o fotos en flashcards? Este flujo práctico para 2026 te ayuda a descartar antes las tarjetas flojas, mantener la carga de repaso bajo control y estudiar el mazo final con FSRS."
 date: "2026-05-26"

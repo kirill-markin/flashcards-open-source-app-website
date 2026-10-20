@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-turn-ai-summaries-into-flashcards.md"
 title: "2026 में AI summaries को फ़्लैशकार्ड्स में कैसे बदलें: दावे बचाइए, याददाश्त परखिए"
 description: "ChatGPT, Gemini, NotebookLM, या किसी और AI summarizer का इस्तेमाल कर रहे हैं? 2026 का यह practical workflow AI summaries को सीधे याद करने के बजाय verified FSRS फ़्लैशकार्ड्स में बदलने में मदद करता है।"
 date: "2026-07-11"

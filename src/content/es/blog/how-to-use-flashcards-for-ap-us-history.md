@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-use-flashcards-for-ap-us-history.md"
 title: "Cómo usar flashcards para AP US History en 2026: períodos de APUSH, DBQ y evidencia"
 description: "¿Necesitas un flujo práctico de flashcards para AP US History en 2026? Aquí tienes cómo estudiar períodos de APUSH, temas, sourcing, bloques de MCQ, SAQ, DBQ, LEQ y repetición espaciada sin convertir tu mazo en un segundo libro de texto."
 image: "/blog/how-to-use-flashcards-for-ap-us-history.png"

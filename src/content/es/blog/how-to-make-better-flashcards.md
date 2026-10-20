@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-make-better-flashcards.md"
 title: >-
   Cómo hacer mejores flashcards en 2026: reglas de anverso y reverso que sí
   funcionan con FSRS

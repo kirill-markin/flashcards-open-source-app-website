@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-use-flashcards-for-ap-psychology.md"
 title: "كيف تستخدم البطاقات التعليمية لاختبار AP Psychology في 2026: مصطلحات، ودراسات، وأدلة FRQ تترسخ فعلًا"
 description: "هل تحتاج إلى سير عمل عملي للبطاقات التعليمية لاختبار AP Psychology في 2026؟ إليك كيفية مذاكرة المصطلحات، والدراسات الشهيرة، ومناهج البحث، وأدلة FRQ لامتحان Bluebook الرقمي بالكامل يوم 12 مايو 2026."
 date: "2026-04-29"

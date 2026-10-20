@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-catch-up-on-flashcards-after-falling-behind.md"
 title: "2026 में पीछे छूट जाने के बाद फ्लैशकार्ड में फिर से कैसे पटरी पर आएँ: डेक रीसेट किए बिना रिव्यू बैकलॉग संभालें"
 description: "क्या आपके फ्लैशकार्ड एक हफ्ते तक छूट गए या Anki में बहुत बड़ा बैकलॉग बन गया? यह 2026 की एक व्यावहारिक रिकवरी योजना है: नए कार्ड रोकें, रिव्यू कतार को संभालने लायक बनाएं, खराब कार्ड सुधारें, और अपना पूरा शेड्यूल बिगाड़े बिना रोज़ाना spaced repetition पर लौटें।"
 date: "2026-04-03"

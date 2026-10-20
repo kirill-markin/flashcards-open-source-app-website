@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-turn-google-docs-into-flashcards.md"
 title: "2026 में Google Docs को Flashcards में कैसे बदलें: बिखरे shared docs से साफ़ FSRS cards तक"
 description: "2026 में Google Docs की बिखरी study material को काम के flashcards में बदलें: एक-एक heading साफ़ करें, comments और suggestions को समझदारी से इस्तेमाल करें, कमज़ोर AI cards हटाएँ, फिर बचे हुए cards को FSRS के साथ review करें।"
 image: "/blog/how-to-turn-google-docs-into-flashcards.png"

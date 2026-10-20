@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-use-flashcards-for-cfa-level-2.md"
 title: "كيف تستخدم البطاقات التعليمية لاختبار CFA Level II في 2026: مجموعات الأسئلة، ووسوم LOS، وأخطاء الاختبارات التجريبية التي تثبت فعلًا"
 description: "هل تستعد لاختبار CFA Level II في 2026؟ إليك سير عمل عملي للبطاقات التعليمية يغطي مجموعات الأسئلة، ووسوم LOS، وتفسير الصيغ، وأسئلة CFA Institute التدريبية، والاختبارات التجريبية، ومراجعة FSRS."
 image: "/blog/how-to-use-flashcards-for-cfa-level-2.png"

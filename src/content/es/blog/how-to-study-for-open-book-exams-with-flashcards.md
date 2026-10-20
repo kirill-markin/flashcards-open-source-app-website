@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-study-for-open-book-exams-with-flashcards.md"
 title: "Cómo estudiar para exámenes con libro abierto con flashcards en 2026: memoriza el mapa, no todo el libro"
 description: "¿Te preparas para un examen con libro abierto o con apuntes abiertos en 2026? Usa este flujo práctico con flashcards para memorizar señales, fórmulas, mapas de páginas y patrones de aplicación sin perder tiempo buscando en los apuntes."
 date: "2026-07-05"

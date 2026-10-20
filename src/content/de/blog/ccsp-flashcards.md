@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1ccsp-flashcards.md"
 title: "CCSP-Flashcards 2026: Für die Prüfungsübersicht ab dem 1. August lernen"
 description: "Erstelle CCSP-Flashcards für die Prüfungsübersicht ab dem 1. August 2026: durchschnittliche Domänengewichtungen, überarbeitete KI/ML-Themen, Entscheidungskarten, Fehler aus Übungsfragen und Wiederholung mit FSRS."
 date: "2026-07-18"

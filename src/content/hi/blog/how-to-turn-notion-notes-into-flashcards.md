@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-turn-notion-notes-into-flashcards.md"
 title: "2026 में Notion notes को flashcards में कैसे बदलें: export करें, AI से प्रारूप बनवाएँ और FSRS के साथ review करें"
 description: "क्या आप हर toggle को हाथ से किसी फ्लैशकार्ड app में कॉपी किए बिना Notion notes को flashcards में बदलना चाहते हैं? 2026 के लिए यह एक व्यावहारिक तरीका है: पेज export करें, AI से साफ़ कार्ड का प्रारूप बनवाएँ, फिर FSRS के साथ review करें।"
 date: "2026-03-29"

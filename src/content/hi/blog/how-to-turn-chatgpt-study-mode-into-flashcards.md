@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-turn-chatgpt-study-mode-into-flashcards.md"
 title: "2026 में ChatGPT Study Mode को फ़्लैशकार्ड्स में कैसे बदलें: ट्यूटर बनाए रखें, स्पेस्ड रिपिटिशन जोड़ें"
 description: "क्या आप 2026 में ChatGPT Study Mode इस्तेमाल कर रहे हैं? यहाँ एक व्यावहारिक तरीका है: समझने के लिए tutoring session रखें, फिर अपनी गलतियों, कमज़ोर हिस्सों और quiz में छूटे सवालों को ऐसे फ़्लैशकार्ड्स में बदलें जिन्हें आप सच में FSRS के साथ दोहरा सकें।"
 date: "2026-04-05"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-make-a-practice-exam-from-your-notes-with-ai.md"
 title: "Wie du 2026 mit KI eine Probeklausur aus deinen Notizen erstellst: Quellennahe Quizze nutzen, nur Schwachstellen behalten"
 description: "Du willst 2026 mit KI eine Probeklausur aus deinen Notizen erstellen? Lade deine Folien, PDFs und Lernzettel hoch, lass ein realistisches Quiz erzeugen, werte die Fehler aus und behalte nur echte Schwachstellen als FSRS-Flashcards."
 date: "2026-06-22"

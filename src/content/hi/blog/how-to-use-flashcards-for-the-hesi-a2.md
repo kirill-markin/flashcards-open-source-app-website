@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-use-flashcards-for-the-hesi-a2.md"
 title: "2026 में HESI A2 के लिए फ्लैशकार्ड कैसे इस्तेमाल करें: स्कूल-विशिष्ट स्टडी वर्कफ़्लो"
 description: "2026 में HESI A2 की तैयारी कर रहे हैं? Math, reading, vocabulary, grammar, A&P, biology और practice-test misses के लिए ऐसा school-specific flashcards workflow बनाइए, जिसमें आप उन sections पर समय न लगाएँ जिन्हें आपका program इस्तेमाल ही नहीं करता।"
 date: "2026-06-04"

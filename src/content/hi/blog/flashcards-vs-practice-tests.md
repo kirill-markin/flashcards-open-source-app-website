@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1flashcards-vs-practice-tests.md"
 title: "2026 में Flashcards vs Practice Tests: किसे कब इस्तेमाल करें और दोनों को साथ कैसे जोड़ें"
 description: "छोटे facts और distinctions को बाद के लिए बचाकर रखने में flashcards बेहतर हैं। Exam जैसी recall, judgment, और pacing जाँचने के लिए practice tests बेहतर हैं। ज़्यादातर study workflows में सबसे अच्छा तरीका दोनों को साथ इस्तेमाल करना है, बिना एक ही काम दोबारा किए।"
 date: "2026-07-08"

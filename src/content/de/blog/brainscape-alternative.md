@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1brainscape-alternative.md"
 title: "Brainscape-Alternative (2026): Brainscape vs Nibomo"
 description: "Vergleich von Brainscape und Nibomo: Confidence-Based Repetition vs FSRS, Offline-Nutzung, mobile Apps, Zusammenarbeit, KI, Preise, Import, Export und Kontrolle."
 date: "2026-03-21"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-review-flashcards-faster.md"
 title: "كيف تراجع البطاقات التعليمية أسرع في 2026: أنهِ مراجعاتك اليومية من دون إنهاك"
 description: "دليل عملي في 2026 حول كيف تراجع البطاقات التعليمية أسرع: خفّف احتكاك البطاقات البطيئة، وقلّل تضخم المراجعات، واجعل المراجعات اليومية قابلة للإنهاء باستخدام FSRS."
 date: "2026-04-19"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-use-flashcards-for-the-nextgen-bar-exam.md"
 title: "كيف تستخدم البطاقات التعليمية لاختبار NextGen Bar Exam في 2026: القواعد، ورصد المسائل، والمهام العملية التي تثبت فعلًا"
 description: "هل ستتقدم لاختبار NextGen Bar Exam في 2026؟ إليك سير عمل عملي للبطاقات التعليمية من أجل القواعد القانونية الأساسية، ورصد المسائل، والمهام العملية، وFSRS من دون أن تتحول مجموعتك إلى ملخص ثانٍ."
 date: "2026-04-24"

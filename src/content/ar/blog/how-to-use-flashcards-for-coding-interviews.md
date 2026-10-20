@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-use-flashcards-for-coding-interviews.md"
 title: "كيف تستخدم البطاقات التعليمية لمقابلات البرمجة في 2026: أنماط LeetCode والأخطاء والمفاهيم التي تترسخ فعلًا"
 description: "هل تحتاج إلى بطاقات تعليمية لمقابلات البرمجة في 2026؟ إليك نظامًا عمليًا لتحويل أخطاء LeetCode وأنماط الخوارزميات وملاحظات المقابلات التقنية إلى نظام تكرار متباعد باستخدام FSRS."
 date: "2026-04-14"

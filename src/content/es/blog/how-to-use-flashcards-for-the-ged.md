@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-use-flashcards-for-the-ged.md"
 title: "Cómo usar flashcards para el GED en 2026: matemáticas, RLA, ciencias y estudios sociales que de verdad se te quedan"
 description: "¿Necesitas flashcards para el GED en 2026? Aquí tienes un sistema práctico para matemáticas, RLA, ciencias y estudios sociales usando errores de práctica, limpieza con IA y repaso con FSRS."
 image: "/blog/how-to-use-flashcards-for-the-ged.png"

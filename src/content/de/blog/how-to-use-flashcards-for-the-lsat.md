@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-use-flashcards-for-the-lsat.md"
 title: "Wie du 2026 Flashcards für den LSAT nutzt: Logical Reasoning, Reading Comprehension und Muster falscher Antworten, die wirklich hängen bleiben"
 description: "Du bereitest dich 2026 auf den LSAT vor? Hier ist ein praxisnaher Flashcard-Workflow für Logical Reasoning, Reading Comprehension, bedingte Logik und Muster falscher Antworten mit KI-Entwürfen und FSRS-Wiederholung."
 image: "/blog/how-to-use-flashcards-for-the-lsat.png"

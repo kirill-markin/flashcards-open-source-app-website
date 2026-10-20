@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-turn-microsoft-copilot-study-and-learn-into-flashcards.md"
 title: "2026 में Microsoft Copilot Study and Learn को फ़्लैशकार्ड्स में कैसे बदलें: ट्यूटर बनाए रखें, FSRS के साथ review करें"
 description: "अपने Word documents, PDF files, slides और URLs के साथ Microsoft Copilot Study and Learn का इस्तेमाल करें, फिर सिर्फ़ कमज़ोर हिस्सों को Nibomo में ले जाकर FSRS के साथ spaced repetition review करें।"
 date: "2026-06-09"

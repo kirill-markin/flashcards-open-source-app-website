@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-avoid-ai-flashcard-overload.md"
 title: "So vermeidest du 2026 Überlastung durch KI-Flashcards: gute Karten behalten, tägliche Review-Staus vermeiden"
 description: "Du nutzt KI, um Notizen, PDFs, Vorlesungsaufzeichnungen oder Fotos in Flashcards zu verwandeln? Hier ist ein praktischer Workflow für 2026, mit dem du schwache Karten früh aussortierst, den FSRS-Wiederholungsaufwand beherrschbar hältst und nur die guten Karten ins finale Deck übernimmst."
 date: "2026-05-26"

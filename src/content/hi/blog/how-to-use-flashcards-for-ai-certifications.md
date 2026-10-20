@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-use-flashcards-for-ai-certifications.md"
 title: "2026 में AI certifications के लिए फ्लैशकार्ड कैसे इस्तेमाल करें: AWS AI Practitioner, AI-900 और GenAI Leader, मार्केटिंग कॉपी रटे बिना"
 description: "क्या आप 2026 में AI certification की तैयारी कर रहे हैं? यहाँ AWS AI Practitioner, Microsoft AI-900 या AI-901, और Google Cloud Generative AI Leader के लिए साफ़ कार्ड, practice questions में हुई गलतियाँ, और FSRS review पर आधारित एक व्यावहारिक flashcards workflow है।"
 date: "2026-04-21"

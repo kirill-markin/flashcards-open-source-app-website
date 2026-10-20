@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-use-interleaving-with-flashcards.md"
 title: "كيف تستخدم الممارسة المتداخلة مع البطاقات التعليمية في 2026: امزج الموضوعات من دون الإخلال بالتكرار المتباعد"
 description: "تعلّم كيف تجمع بين الممارسة المتداخلة والبطاقات التعليمية وFSRS: ما الذي تمزجه، وما الذي تبقيه منفصلًا، ولماذا قد يحسّن التدريب الأصعب التذكّر على المدى الطويل."
 date: "2026-07-14"

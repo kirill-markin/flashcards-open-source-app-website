@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1self-hosted-open-source-flashcards-app-for-spaced-repetition.md"
 title: "Aplicación de tarjetas de código abierto y autoalojada para repetición espaciada"
 description: "Aloja por tu cuenta la pila de código abierto de Nibomo en local para desarrollo o despliega en AWS su infraestructura de producción documentada con CDK."
 date: "2026-03-08"

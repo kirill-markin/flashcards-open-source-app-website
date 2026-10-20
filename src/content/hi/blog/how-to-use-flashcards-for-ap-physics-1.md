@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-use-flashcards-for-ap-physics-1.md"
 title: "2026 में AP Physics 1 के लिए फ़्लैशकार्ड कैसे इस्तेमाल करें: Forces, Energy और FRQ की गलतियाँ जो सच में याद रहें"
 description: "2026 के लिए AP Physics 1 फ़्लैशकार्ड का practical workflow: kinematics, forces, energy, graphs, FRQ गलतियाँ, और hybrid digital exam prep जो सच में काम आए।"
 image: "/blog/how-to-use-flashcards-for-ap-physics-1.png"

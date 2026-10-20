@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1when-to-make-flashcards.md"
 title: "Wann du 2026 Flashcards erstellen solltest: sobald der Stoff klickt, bevor die Details verschwimmen"
 description: "Du fragst dich, wann du 2026 Flashcards erstellen solltest? Die praktische Regel ist simpel: erst den Stoff verstehen, dann noch am selben Tag einen kleinen Abschnitt in Karten verwandeln und FSRS die Wiederholung übernehmen lassen."
 image: "/blog/when-to-make-flashcards.png"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1fsrs-vs-sm-2.md"
 title: "FSRS مقابل SM-2: الفروق وحجم المراجعات وكيفية التبديل في Anki"
 description: "قارن بين FSRS وSM-2، وافهم دلالة اختبارات التنبؤ بالتذكر، وغيّر خوارزمية الجدولة في Anki دون إعادة جدولة مجموعتك كاملة دفعة واحدة."
 date: "2026-03-12"

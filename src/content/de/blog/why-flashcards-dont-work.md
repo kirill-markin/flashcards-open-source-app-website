@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1why-flashcards-dont-work.md"
 title: "Warum Flashcards 2026 nicht funktionieren: 5 Gründe, warum du trotz Wiederholungen weiter vergisst"
 description: "Wenn Flashcards bei dir nicht funktionieren und du trotz Wiederholungen weiter vergisst, liegen die Ursachen meist bei Wiedererkennen statt Abruf, überladenen KI-Karten, Leech-Karten, zu hoher FSRS-Review-Last oder daran, dass du Karten für Dinge nutzt, die eigentlich mehr Übung brauchen."
 date: "2026-06-23"

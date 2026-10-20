@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-use-flashcards-for-the-ielts.md"
 title: "2026 में IELTS के लिए फ्लैशकार्ड कैसे इस्तेमाल करें: शब्दावली, स्पीकिंग, राइटिंग और लिसनिंग के लिए बेहतर कार्ड"
 description: "2026 में IELTS की तैयारी कर रहे हैं? संदर्भ के साथ शब्दावली, स्पीकिंग cue cards, राइटिंग patterns, लिसनिंग paraphrases, और official-practice misses के लिए AI drafting plus FSRS review वाला एक व्यावहारिक flashcard workflow अपनाइए।"
 date: "2026-07-06"

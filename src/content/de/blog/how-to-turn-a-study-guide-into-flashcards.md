@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-turn-a-study-guide-into-flashcards.md"
 title: "Wie du 2026 aus einem Lernzettel Flashcards machst: Von KI-Lernhilfen und Unterrichtsunterlagen zu FSRS-Karten"
 description: "Du willst 2026 aus einem Lernzettel Flashcards machen? Hier ist ein praktischer Workflow für KI-Lernhilfen, Handouts von Lehrkräften, Prüfungspakete und Wiederholungsblätter mit KI-Entwürfen und FSRS-Wiederholung."
 date: "2026-04-12"

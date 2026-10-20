@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1what-should-go-on-a-flashcard.md"
 title: "2026 में फ़्लैशकार्ड पर क्या होना चाहिए? नोट्स, AI ड्राफ्ट्स, और लेक्चर स्लाइड्स के लिए एक व्यावहारिक फ़िल्टर"
 description: "2026 में फ़्लैशकार्ड बनाना आसान है। मुश्किल यह तय करना है कि किस चीज़ पर सचमुच कार्ड बनना चाहिए। यह नोट्स, AI ड्राफ्ट्स, लेक्चर स्लाइड्स, और टेक्स्टबुक पन्नों के लिए एक व्यावहारिक फ़िल्टर है, ताकि आप वही कार्ड रखें जो FSRS के साथ रिव्यू करने लायक हों और बाकी छोड़ दें।"
 image: "/blog/what-should-go-on-a-flashcard.png"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1youtube-to-flashcards.md"
 title: "أفضل أداة لإنشاء بطاقات تعليمية من فيديو YouTube عام 2026: مقارنة بين 4 أدوات"
 description: "قارن بين أربع طرق موثقة للدراسة من YouTube عام 2026: مخرجات كل أداة، وحدود النص المفرغ والمحتوى المرئي، وخيارات المراجعة والتصدير، إلى جانب سير عمل يدوي قابل للنقل."
 date: "2026-03-24"

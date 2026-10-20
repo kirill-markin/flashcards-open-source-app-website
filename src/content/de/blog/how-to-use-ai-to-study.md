@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-use-ai-to-study.md"
 title: "So nutzt du KI 2026 zum Lernen: Behalte den Tutor, ergänze Flashcards, die wirklich sitzen"
 description: "Ein praktischer KI-Lernworkflow für 2026: Nutze KI-Tutoren und Zusammenfassungen zum Verstehen, verwandle nur echte Schwachstellen in Flashcards und wiederhole sie mit FSRS, damit der Stoff auch nächste Woche noch sitzt."
 date: "2026-05-09"

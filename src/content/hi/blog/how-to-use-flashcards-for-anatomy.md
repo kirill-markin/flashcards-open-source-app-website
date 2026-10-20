@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-use-flashcards-for-anatomy.md"
 title: "2026 में Anatomy के लिए Flashcards कैसे इस्तेमाल करें: Lab Practicals, Labels और ऐसी Spaced Repetition जो सच में टिके"
 description: "2026 में anatomy flashcards के लिए एक practical workflow चाहिए? यहाँ lab practicals, cadaver pins, labeled structures, image-heavy review, AI cleanup और FSRS के साथ anatomy पढ़ने का तरीका है।"
 date: "2026-05-17"

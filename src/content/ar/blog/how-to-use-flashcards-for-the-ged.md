@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-use-flashcards-for-the-ged.md"
 title: "كيف تستخدم البطاقات التعليمية لاختبار GED في 2026: الرياضيات وRLA والعلوم والدراسات الاجتماعية بطريقة تثبت فعلًا"
 description: "هل تحتاج إلى بطاقات GED التعليمية في 2026؟ إليك نظامًا عمليًا للرياضيات وRLA والعلوم والدراسات الاجتماعية يعتمد على أخطاء التدريب، وتنظيف البطاقات بالذكاء الاصطناعي، ومراجعة FSRS."
 image: "/blog/how-to-use-flashcards-for-the-ged.png"

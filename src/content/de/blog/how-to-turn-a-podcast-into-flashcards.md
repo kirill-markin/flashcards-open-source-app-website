@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-turn-a-podcast-into-flashcards.md"
 title: "Wie du 2026 einen Podcast in Flashcards verwandelst: Vom Transkript zu FSRS-Karten ohne die ganze Folge erneut zu hören"
 description: "Du willst 2026 einen Podcast in Flashcards umwandeln? Hier ist ein praktischer Workflow: Transkript holen, die Folge in kleine Ideeneinheiten schneiden, einfache Karten entwerfen und die nützlichen Teile mit FSRS lernen, statt alles endlos noch einmal anzuhören."
 date: "2026-04-08"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-turn-quiz-results-into-flashcards.md"
 title: "2026 में quiz results को फ़्लैशकार्ड्स में कैसे बदलें: गलतियाँ बचाइए, score report छोड़िए"
 description: "क्या आप 2026 में class quiz, LMS feedback, या AI quiz recap का इस्तेमाल कर रहे हैं? यहाँ missed questions, near-misses, और बार-बार होने वाली confusions को FSRS फ़्लैशकार्ड्स में बदलने का एक practical तरीका है।"
 date: "2026-07-10"

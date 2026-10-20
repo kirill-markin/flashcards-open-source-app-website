@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1ai-flashcard-tutor-due-cards.md"
 title: "2026 में AI Flashcard Tutor: MCP से due कार्ड पर quiz करवाएँ और FSRS रिव्यू सेव करें"
 description: "Claude, ChatGPT या Codex को MCP के ज़रिए Nibomo से जोड़ें। AI tutor आपके due कार्ड पर quiz लेता है, हर जवाब grade करता है और rating को FSRS रिव्यू के रूप में सेव कर देता है।"
 date: "2026-07-15"

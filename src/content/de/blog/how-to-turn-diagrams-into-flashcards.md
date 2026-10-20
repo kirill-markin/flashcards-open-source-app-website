@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-turn-diagrams-into-flashcards.md"
 title: "Wie du 2026 Diagramme in Flashcards verwandelst: Schaubilder, Landkarten und beschriftete Bilder zu Karten, die du wirklich wiederholen kannst"
 description: "Du willst 2026 Diagramme in Flashcards umwandeln? Hier ist ein praktisches Vorgehen für Anatomie-Diagramme, Schaubilder, Landkarten und beschriftete Bilder mit KI-Entwürfen plus FSRS-Wiederholung."
 date: "2026-04-10"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-fix-ai-flashcards.md"
 title: >-
   Cómo corregir flashcards de IA en 2026: edita borradores de ChatGPT y
   NotebookLM antes de repasar con FSRS

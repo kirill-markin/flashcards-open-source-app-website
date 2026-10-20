@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-learn-terminal-commands-with-flashcards.md"
 title: "2026 में फ्लैशकार्ड्स से टर्मिनल कमांड्स कैसे सीखें: Bash, Git, और CLI वर्कफ़्लो जो याद रह जाएँ"
 description: "2026 में टर्मिनल कमांड्स सीखने के लिए एक व्यावहारिक फ्लैशकार्ड वर्कफ़्लो। Bash help, Git docs, CLI की गलतियाँ, और छोटे FSRS decks की मदद से वही कमांड्स याद रखें जिन्हें आप सच में बार-बार इस्तेमाल करते हैं।"
 date: "2026-06-07"

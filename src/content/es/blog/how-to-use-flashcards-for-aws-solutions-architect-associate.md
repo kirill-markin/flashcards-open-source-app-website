@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-use-flashcards-for-aws-solutions-architect-associate.md"
 title: "Cómo usar flashcards para AWS Solutions Architect Associate en 2026: servicios de SAA-C03, trade-offs y fallos de simulacro que de verdad se te quedan"
 description: "¿Te preparas para AWS Certified Solutions Architect - Associate (SAA-C03) en 2026? Aquí tienes un flujo práctico con flashcards para servicios de AWS, trade-offs de arquitectura, patrones Well-Architected y errores de exámenes de práctica, con borradores de IA y repaso con FSRS."
 date: "2026-05-11"

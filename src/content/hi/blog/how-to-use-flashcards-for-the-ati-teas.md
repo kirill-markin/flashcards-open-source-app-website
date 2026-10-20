@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-use-flashcards-for-the-ati-teas.md"
 title: "2026 में ATI TEAS के लिए फ्लैशकार्ड कैसे इस्तेमाल करें: TEAS 7 के लिए एक व्यावहारिक स्टडी वर्कफ़्लो"
 description: "2026 में ATI TEAS की तैयारी कर रहे हैं? साइंस, मैथ, रीडिंग, English and Language Usage, और practice-test misses के लिए यह व्यावहारिक TEAS 7 फ्लैशकार्ड वर्कफ़्लो अपनाइए, बिना अपने deck को दूसरी study guide में बदले।"
 image: "/blog/how-to-use-flashcards-for-the-ati-teas.png"

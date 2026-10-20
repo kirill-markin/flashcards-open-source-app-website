@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-use-flashcards-for-the-cpa-exam.md"
 title: "Cómo usar flashcards para el examen CPA en 2026: FAR, AUD, REG y temas de la sección Discipline que de verdad se te quedan"
 description: "¿Te preparas para el examen CPA en 2026? Aquí tienes un flujo práctico de flashcards para fórmulas de FAR, aseveraciones de AUD, reglas de REG, temas de la sección Discipline y errores de task-based simulations, con borradores de IA y repaso con FSRS."
 date: "2026-04-28"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1fsrs-vs-sm-2.md"
 title: "FSRS बनाम SM-2: अंतर, रिव्यू का बोझ और Anki में शेड्यूलर बदलना"
 description: "FSRS और SM-2 में अंतर समझें, जानें कि याद रहने के बेंचमार्क क्या बता सकते हैं, और पूरे कलेक्शन की तारीखें एक साथ बदले बिना Anki में FSRS अपनाएँ।"
 date: "2026-03-12"

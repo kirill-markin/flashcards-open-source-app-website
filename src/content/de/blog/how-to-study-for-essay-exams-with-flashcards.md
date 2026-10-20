@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-study-for-essay-exams-with-flashcards.md"
 title: "Wie du 2026 mit Flashcards für Essay-Prüfungen lernst: Blue-Book- und Short-Answer-Vorbereitung, die wirklich sitzt"
 description: "Du brauchst 2026 einen echten Lernworkflow für Essay-Prüfungen? Nutze Flashcards für Thesis-Muster, Belege, Definitionen und Compare-and-Contrast-Trigger, damit dir Antworten in Blue-Book- und Short-Answer-Prüfungen unter Druck schneller einfallen."
 date: "2026-06-28"

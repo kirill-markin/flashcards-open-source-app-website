@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-use-flashcards-for-the-ged.md"
 title: "2026 में GED के लिए फ़्लैशकार्ड कैसे इस्तेमाल करें: Math, RLA, Science और Social Studies जो सच में याद रहें"
 description: "2026 में GED फ़्लैशकार्ड चाहिए? यहाँ Math, RLA, Science और Social Studies के लिए missed questions, AI cleanup और FSRS review पर आधारित एक practical workflow दिया गया है।"
 image: "/blog/how-to-use-flashcards-for-the-ged.png"

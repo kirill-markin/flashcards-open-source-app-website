@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1youtube-to-flashcards.md"
 title: "Mejor generador de flashcards a partir de un vídeo de YouTube en 2026: comparativa de 4 herramientas"
 description: "Compara cuatro formas documentadas de estudiar con vídeos de YouTube en 2026: qué produce cada una, los límites de las transcripciones y del contenido visual, las opciones de repaso y exportación, y un flujo manual con salida transferible."
 date: "2026-03-24"

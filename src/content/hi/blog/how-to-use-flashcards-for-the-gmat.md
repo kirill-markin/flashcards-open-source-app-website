@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-use-flashcards-for-the-gmat.md"
 title: "2026 में GMAT के लिए फ़्लैशकार्ड कैसे इस्तेमाल करें: Quant, Critical Reasoning और Data Insights के लिए बेहतर डेक"
 description: "2026 के मौजूदा GMAT के लिए एक व्यावहारिक फ़्लैशकार्ड वर्कफ़्लो, जिसमें Quantitative Reasoning, Verbal Reasoning, Data Insights और official practice की गलतियों के लिए पुराने vocabulary decks की जगह बेहतर cards बनाए जाते हैं।"
 image: "/blog/how-to-use-flashcards-for-the-gmat.png"

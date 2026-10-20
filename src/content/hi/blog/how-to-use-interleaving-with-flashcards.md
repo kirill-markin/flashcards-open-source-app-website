@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-use-interleaving-with-flashcards.md"
 title: "2026 में Flashcards के साथ Interleaving कैसे करें: Spaced Repetition बिगाड़े बिना Topics मिलाएँ"
 description: "Interleaving, flashcards और FSRS को साथ इस्तेमाल करना सीखें: किन topics को मिलाना है, किन्हें अलग रखना है, और कठिन practice लंबे समय तक याद रखने में क्यों मदद कर सकती है।"
 date: "2026-07-14"

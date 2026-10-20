@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-use-flashcards-for-ap-physics-1.md"
 title: "Cómo usar flashcards para AP Physics 1 en 2026: fuerzas, energía y errores de FRQ que de verdad se te quedan"
 description: "Un flujo práctico de flashcards para AP Physics 1 en 2026: cinemática, fuerzas, energía, gráficas, errores de FRQ y preparación para el examen híbrido digital que de verdad funciona."
 image: "/blog/how-to-use-flashcards-for-ap-physics-1.png"

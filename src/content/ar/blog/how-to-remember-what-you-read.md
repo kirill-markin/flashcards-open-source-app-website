@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-remember-what-you-read.md"
 title: "كيف تتذكر ما تقرؤه في 2026: حوّل القراءة إلى استرجاع بدل أكوام التظليل"
 description: "إذا كنت تنهي الفصول ثم تنسى ما قرأته في اليوم التالي، فهذا سير عمل عملي في 2026 يساعدك على تذكر ما تقرؤه عبر مقاطع أصغر، واختبارات استرجاع، وبطاقات تعليمية مع FSRS."
 image: "/blog/how-to-remember-what-you-read.png"

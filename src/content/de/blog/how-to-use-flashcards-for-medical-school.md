@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-use-flashcards-for-medical-school.md"
 title: "Wie du 2026 Flashcards im Medizinstudium nutzt: Anatomie, Pharmakologie, Pathologie und Spaced Repetition, die wirklich trägt"
 description: "Du suchst 2026 einen praktischen Flashcard-Workflow fürs Medizinstudium? Hier erfährst du, wie du Flashcards im Medizinstudium für Anatomie, Pharmakologie, Pathologie, Vorlesungsfolien, Fragebanken und FSRS nutzt, ohne dass dein Deck zu einem zweiten Curriculum wird."
 date: "2026-04-15"

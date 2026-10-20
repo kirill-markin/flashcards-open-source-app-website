@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1again-vs-hard-fsrs-flashcards.md"
 title: "FSRS में Again या Hard (2026): चार Flashcard Ratings कैसे चुनें"
 description: "FSRS वाले flashcard apps में Again, Hard, Good और Easy कब दबाएँ। पहले तय करें कि जवाब याद आया या नहीं; अगला interval देखकर rating न चुनें।"
 date: "2026-07-17"

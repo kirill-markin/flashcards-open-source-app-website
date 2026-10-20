@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-turn-a-pdf-into-flashcards.md"
 title: "Wie du 2026 eine PDF in Flashcards verwandelst: Vorlesungsfolien, Lehrbücher und Papers zu FSRS-Karten"
 description: "Du willst eine PDF in Flashcards verwandeln, ohne deine Notizen von Hand umzuschreiben? Hier ist ein praktischer Workflow für 2026: Vorlesungsfolien, Lehrbuchseiten oder Papers hochladen, mit KI saubere Karten entwerfen und anschließend mit FSRS lernen."
 date: "2026-03-23"

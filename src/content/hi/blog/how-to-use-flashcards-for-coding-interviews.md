@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-use-flashcards-for-coding-interviews.md"
 title: "2026 में कोडिंग इंटरव्यू के लिए फ्लैशकार्ड कैसे इस्तेमाल करें: LeetCode पैटर्न, गलतियाँ और वे कॉन्सेप्ट जो सच में टिकते हैं"
 description: "2026 में कोडिंग इंटरव्यू फ्लैशकार्ड चाहिए? यहाँ LeetCode की गलतियों, एल्गोरिदम पैटर्न और टेक्निकल इंटरव्यू नोट्स को FSRS के साथ spaced repetition सिस्टम में बदलने का एक व्यावहारिक तरीका है।"
 date: "2026-04-14"

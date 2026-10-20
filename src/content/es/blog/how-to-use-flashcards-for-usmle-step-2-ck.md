@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-use-flashcards-for-usmle-step-2-ck.md"
 title: "Cómo usar flashcards para USMLE Step 2 CK en 2026: fallos de shelf, manejo clínico y trampas de viñeta que de verdad se te quedan"
 description: "¿Necesitas un sistema práctico de flashcards para USMLE Step 2 CK en 2026? Aquí tienes cómo convertir fallos del banco de preguntas, apuntes de rotaciones, algoritmos de manejo y trampas de viñetas tipo shelf en repaso con FSRS sin construir un segundo manual."
 date: "2026-05-02"

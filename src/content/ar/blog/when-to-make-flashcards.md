@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1when-to-make-flashcards.md"
 title: "متى تنشئ البطاقات التعليمية في 2026: بعد أن تفهم المادة، وقبل أن تتلاشى التفاصيل"
 description: "هل تتساءل متى تنشئ البطاقات التعليمية في 2026؟ القاعدة العملية بسيطة: افهم المادة أولًا، ثم حوّل جزءًا صغيرًا منها إلى بطاقات في اليوم نفسه، ودع FSRS يتولى توقيت المراجعة."
 image: "/blog/when-to-make-flashcards.png"

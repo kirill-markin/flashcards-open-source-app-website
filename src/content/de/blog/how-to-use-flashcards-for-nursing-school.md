@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-use-flashcards-for-nursing-school.md"
 title: "Wie du 2026 Flashcards in der Pflegeausbildung nutzt: NCLEX, Pharmakologie, Laborwerte und Clinical Judgment, das wirklich hängen bleibt"
 description: "Du suchst 2026 einen praxisnahen Flashcard-Workflow für die Pflegeausbildung? Hier erfährst du, wie du Flashcards für NCLEX-Vorbereitung, Pharmakologie, Dosierungsberechnungen, Laborwerte, Priorisierung und Clinical Judgment nutzt, ohne dein Deck in ein zweites Skript zu verwandeln."
 date: "2026-04-17"

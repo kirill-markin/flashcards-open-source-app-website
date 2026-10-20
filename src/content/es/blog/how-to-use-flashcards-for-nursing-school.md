@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-use-flashcards-for-nursing-school.md"
 title: "Cómo usar flashcards para la carrera de enfermería en 2026: NCLEX, farmacología, valores de laboratorio y juicio clínico que de verdad se te queda"
 description: "¿Quieres un flujo práctico de flashcards para enfermería en 2026? Aquí tienes cómo usar flashcards para preparar el NCLEX, farmacología, cálculo de dosis, valores de laboratorio, priorización y juicio clínico sin convertir tu mazo en un segundo juego de apuntes."
 date: "2026-04-17"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-use-flashcards-for-aws-solutions-architect-associate.md"
 title: "كيف تستخدم البطاقات التعليمية لشهادة AWS Certified Solutions Architect - Associate في 2026: خدمات SAA-C03، والمفاضلات، وأخطاء اختبارات التدريب التي تترسخ فعلًا"
 description: "هل تستعد لشهادة AWS Certified Solutions Architect - Associate ‏(SAA-C03) في 2026؟ إليك سير عمل عملي باستخدام البطاقات التعليمية لخدمات AWS، ومفاضلات البنية المعمارية، وأنماط Well-Architected، وأخطاء اختبارات التدريب، مع صياغة أولية بالذكاء الاصطناعي ثم مراجعة عبر FSRS."
 date: "2026-05-11"

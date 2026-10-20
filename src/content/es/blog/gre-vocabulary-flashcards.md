@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1gre-vocabulary-flashcards.md"
 title: "Flashcards de vocabulario para el GRE en 2026: crea un mazo para Text Completion y Sentence Equivalence"
 description: "¿Buscas flashcards de vocabulario para el GRE que hagan algo más que machacar listas aleatorias de palabras? Aquí tienes un flujo práctico en 2026 para Text Completion, Sentence Equivalence, frases de ejemplo y repetición espaciada con FSRS en una app moderna y open source de flashcards."
 date: "2026-05-05"

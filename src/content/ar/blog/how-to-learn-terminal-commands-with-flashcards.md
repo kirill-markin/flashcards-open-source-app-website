@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-learn-terminal-commands-with-flashcards.md"
 title: "كيف تتعلّم أوامر الطرفية بالبطاقات التعليمية في 2026: Bash وGit وسير عمل CLI يثبت في الذاكرة"
 description: "سير عمل عملي في 2026 لتعلّم أوامر الطرفية بالبطاقات التعليمية. استخدم مساعدة Bash ووثائق Git وأخطاء CLI ومجموعات FSRS الصغيرة لتتذكر الأوامر التي تستخدمها فعلًا."
 date: "2026-06-07"

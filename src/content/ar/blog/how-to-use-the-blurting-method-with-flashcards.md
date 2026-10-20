@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-use-the-blurting-method-with-flashcards.md"
 title: "كيفية استخدام طريقة Blurting مع البطاقات التعليمية في 2026: حوّل استرجاع الورقة الفارغة إلى مراجعات FSRS"
 description: "دليل عملي في 2026 لاستخدام طريقة Blurting مع البطاقات التعليمية: استخدم استرجاع الورقة الفارغة لكشف نقاط الضعف، وحوّل فقط ما أخفقت فيه إلى بطاقات واضحة، ثم دع FSRS يتولى المراجعة اللاحقة."
 date: "2026-06-19"

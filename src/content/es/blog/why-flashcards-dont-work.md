@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1why-flashcards-dont-work.md"
 title: "Por qué las flashcards no funcionan en 2026: 5 razones por las que sigues olvidando lo que repasas"
 description: "Si las flashcards no te funcionan y sigues olvidando lo que repasaste, lo más habitual es que haya reconocimiento en vez de recuerdo, tarjetas de IA sobrecargadas, tarjetas leech, demasiada carga de repaso con FSRS o flashcards para algo que en realidad necesitaba práctica con ejercicios."
 date: "2026-06-23"

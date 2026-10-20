@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-use-flashcards-for-advanced-chemistry.md"
 title: "2026 में उन्नत स्कूली रसायन विज्ञान के लिए फ़्लैशकार्ड: समीकरण, प्रयोगशाला तर्क और गलतियों की समीक्षा"
 description: "उन्नत स्कूली रसायन विज्ञान में समीकरण, साम्यावस्था, अम्ल-क्षार, प्रयोगशाला तर्क और विस्तृत उत्तरों की गलतियाँ याद रखने के लिए एक व्यावहारिक फ़्लैशकार्ड तरीका—डेक को दूसरी पाठ्यपुस्तक बनाए बिना।"
 image: "/blog/how-to-use-flashcards-for-advanced-chemistry.png"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1again-vs-hard-fsrs-flashcards.md"
 title: "Again vs Hard en FSRS (2026): cómo usar las cuatro valoraciones"
 description: "Aprende cuándo pulsar Again, Hard, Good o Easy en aplicaciones de flashcards con FSRS. Aplica una regla sencilla para valorar lo que recordaste, sin elegir según el intervalo siguiente."
 date: "2026-07-17"

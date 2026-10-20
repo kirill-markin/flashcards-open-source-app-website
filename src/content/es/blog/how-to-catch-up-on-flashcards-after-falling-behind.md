@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-catch-up-on-flashcards-after-falling-behind.md"
 title: >-
   Cómo ponerse al día con las tarjetas didácticas después de quedarse atrás en
   2026: solucione su acumulación de revisiones sin reiniciar la plataforma

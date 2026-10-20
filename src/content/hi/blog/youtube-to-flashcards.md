@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1youtube-to-flashcards.md"
 title: "2026 में YouTube वीडियो से फ़्लैशकार्ड बनाने का सबसे अच्छा टूल: 4 विकल्पों की तुलना"
 description: "2026 में YouTube से पढ़ाई के चार आधिकारिक तौर पर दस्तावेज़ित तरीकों की तुलना: हर टूल क्या बनाता है, ट्रांसक्रिप्ट और विज़ुअल की सीमाएँ, रिव्यू और एक्सपोर्ट के विकल्प—साथ में एक पोर्टेबल मैन्युअल वर्कफ़्लो।"
 date: "2026-03-24"

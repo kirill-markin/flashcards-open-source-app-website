@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-review-flashcards-faster.md"
 title: "2026 में फ्लैशकार्ड review तेज़ कैसे करें: रोज़ के reviews बिना थके पूरे करें"
 description: "2026 की एक व्यावहारिक guide: फ्लैशकार्ड review तेज़ कैसे करें, slow-card friction कैसे घटाएँ, review bloat कैसे कम करें, और FSRS के साथ रोज़ के reviews को संभालने लायक कैसे रखें।"
 date: "2026-04-19"

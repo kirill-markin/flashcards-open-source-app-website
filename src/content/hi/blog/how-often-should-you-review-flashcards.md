@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-often-should-you-review-flashcards.md"
 title: "फ़्लैशकार्ड कितनी बार रिव्यू करें? शेड्यूल FSRS को तय करने दें"
 description: "Due कार्ड रोज़ जाँचें—हर कार्ड को रोज़ नहीं। जानिए FSRS आपके याद करने के प्रदर्शन, desired retention और टिकाऊ कार्यभार के अनुसार रिव्यू अंतराल कैसे बदलता है।"
 date: "2026-07-19"

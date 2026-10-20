@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-use-flashcards-for-the-dat.md"
 title: "2026 में DAT के लिए फ़्लैशकार्ड कैसे इस्तेमाल करें: Biology, Organic Chemistry, PAT, और practice-test की वे गलतियाँ जो वाकई याद रहें"
 description: "2026 में DAT की तैयारी कर रहे हैं? यह गाइड बताती है कि मौजूदा ADA blueprint, AI drafting, और FSRS review की मदद से biology, organic chemistry, PAT misses, और quantitative reasoning के लिए फ़्लैशकार्ड कैसे बनाएँ।"
 image: "/blog/how-to-use-flashcards-for-the-dat.png"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1fsrs-settings.md"
 title: "Die besten FSRS-Einstellungen für Anki 2026: Behaltensrate, Lernschritte und Wiederholungsaufwand"
 description: "So wählst du sichere Anki-FSRS-Einstellungen für gewünschte Behaltensrate, Lernschritte, Optimierung, Neuplanung und Arbeitsaufwand in Anki 26.08 mit FSRS-6."
 date: "2026-04-25"

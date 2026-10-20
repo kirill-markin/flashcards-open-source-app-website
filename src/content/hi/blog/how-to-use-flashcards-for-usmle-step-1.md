@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-use-flashcards-for-usmle-step-1.md"
 title: "2026 में USMLE Step 1 के लिए फ़्लैशकार्ड कैसे इस्तेमाल करें: एकीकृत प्रणालियाँ, प्रश्न-बैंक की गलतियाँ और सच में याद रहने वाली छवियाँ"
 description: "2026 में USMLE Step 1 फ़्लैशकार्ड के लिए व्यावहारिक तरीका चाहिए? यहाँ बताया गया है कि pass/fail परीक्षा के लिए FSRS के साथ एकीकृत प्रणालियाँ, पैथोलॉजी की छवियाँ, फ़ार्माकोलॉजी और प्रश्न-बैंक की गलतियों को कैसे पढ़ें।"
 date: "2026-05-01"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-use-flashcards-for-language-learning.md"
 title: "2026 में भाषा सीखने के लिए फ्लैशकार्ड का इस्तेमाल कैसे करें: शब्दावली, वाक्य, और ऐसे रिव्यू जो सच में याद रहें"
 description: "क्या आप 2026 में बेजान शब्द-सूचियाँ रटने के बजाय भाषा सीखने के लिए फ्लैशकार्ड सही तरीके से इस्तेमाल करना चाहते हैं? यहाँ शब्दावली, वाक्य-आधारित कार्ड, रिव्यू लोड, और FSRS spaced repetition के लिए एक व्यावहारिक तरीका है जो लंबे समय तक टिकता है।"
 date: "2026-04-04"

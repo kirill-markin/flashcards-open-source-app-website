@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-use-flashcards-for-ap-world-history.md"
 title: "2026 में AP World History के लिए फ़्लैशकार्ड कैसे इस्तेमाल करें: Timelines, Themes और ऐसा DBQ Evidence जो सच में याद रहे"
 description: "2026 में AP World History फ़्लैशकार्ड के लिए व्यावहारिक workflow चाहिए? यह guide timeline anchors, themes, DBQ evidence, missed questions, AI drafting और FSRS review का सीधा तरीका बताती है।"
 date: "2026-05-22"

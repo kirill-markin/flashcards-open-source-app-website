@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-prune-a-flashcard-deck.md"
 title: "Cómo podar un mazo de flashcards en 2026: borra, suspende o reescribe tarjetas antes de que FSRS te entierre en repasos"
 description: "Demasiadas flashcards y demasiados repasos casi siempre significan que tu mazo activo necesita limpieza, no más disciplina. Aquí tienes un flujo práctico de 2026 para podar un mazo de flashcards con decisiones claras sobre borrar, suspender, reescribir, revisar tarjetas leech y ajustar la carga de repaso en FSRS."
 date: "2026-07-01"

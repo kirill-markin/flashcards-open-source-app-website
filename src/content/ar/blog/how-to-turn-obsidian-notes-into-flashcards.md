@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-turn-obsidian-notes-into-flashcards.md"
 title: "كيفية تحويل ملاحظات Obsidian إلى بطاقات تعليمية في 2026: من Markdown Vault إلى بطاقات FSRS بلا نسخ ولصق"
 description: "هل تريد تحويل ملاحظات Obsidian إلى بطاقات تعليمية في 2026؟ انسخ أو صدّر Markdown نظيفًا من الـ vault، وأنشئ مسودات بطاقات بالذكاء الاصطناعي، ثم راجعها باستخدام FSRS من دون إعادة بناء كل شيء يدويًا."
 date: "2026-04-25"

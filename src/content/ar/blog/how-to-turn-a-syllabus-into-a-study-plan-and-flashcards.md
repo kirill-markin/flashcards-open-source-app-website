@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-turn-a-syllabus-into-a-study-plan-and-flashcards.md"
 title: "كيف تحوّل خطة المقرر إلى خطة مذاكرة وبطاقات تعليمية في 2026"
 description: "سير عمل عملي في 2026 لتحويل خطة المقرر إلى خطة مذاكرة أسبوعية، وروتين مراجعة واقعي، ومجموعة صغيرة من البطاقات التعليمية تعمل مع FSRS."
 image: "/blog/how-to-turn-a-syllabus-into-a-study-plan-and-flashcards.png"

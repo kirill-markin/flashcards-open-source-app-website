@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-use-flashcards-for-the-gmat.md"
 title: "كيف تستخدم بطاقات GMAT التعليمية في 2026: مجموعة أذكى لـ Quant وCritical Reasoning وData Insights"
 description: "سير عملي لبطاقات GMAT التعليمية في 2026 يركّز على Quantitative Reasoning وVerbal Reasoning وData Insights وأخطاء التدريب الرسمي، بدل مجموعات المفردات القديمة."
 image: "/blog/how-to-use-flashcards-for-the-gmat.png"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-turn-a-pdf-into-flashcards.md"
 title: "2026 में PDF को Flashcards में कैसे बदलें: Lecture Slides, Textbooks और Research Papers से FSRS Cards"
 description: "क्या आप नोट्स हाथ से दोबारा लिखे बिना PDF को flashcards में बदलना चाहते हैं? 2026 के लिए यह एक व्यावहारिक तरीका है: lecture slides, textbook pages या research papers अपलोड करें, AI से साफ़ कार्ड तैयार करवाएँ, फिर FSRS के साथ उनकी समीक्षा करें।"
 date: "2026-03-23"

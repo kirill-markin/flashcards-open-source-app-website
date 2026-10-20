@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-use-flashcards-for-the-pmp-exam.md"
 title: "Wie du 2026 Flashcards für die PMP-Prüfung nutzt: Situationsfragen, Formeln und Fehler, die wirklich im Kopf bleiben"
 description: "Du bereitest dich 2026 auf die PMP-Prüfung vor? Hier ist ein praxisnaher Flashcard-Workflow für Situationsfragen, Formeln, die Änderungen im Bereich Business Environment und Fehler aus Übungsfragen mit KI-Entwürfen und FSRS-Wiederholung."
 date: "2026-04-27"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-use-flashcards-for-ap-us-history.md"
 title: "2026 में AP US History फ़्लैशकार्ड: APUSH periods, DBQs और evidence कैसे पढ़ें"
 description: "2026 में AP US History flashcards के लिए practical workflow चाहिए? यहाँ APUSH periods, themes, sourcing, MCQ sets, SAQs, DBQs, LEQs और spaced repetition पढ़ने का तरीका है, बिना अपने deck को दूसरी textbook बनाए।"
 image: "/blog/how-to-use-flashcards-for-ap-us-history.png"

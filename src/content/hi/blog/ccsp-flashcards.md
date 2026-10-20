@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1ccsp-flashcards.md"
 title: "2026 में CCSP फ़्लैशकार्ड: 1 अगस्त की परीक्षा रूपरेखा के अनुसार पढ़ें"
 description: "1 अगस्त 2026 की रूपरेखा के लिए CCSP फ़्लैशकार्ड बनाएँ: डोमेन के औसत भार, संशोधित AI/ML कवरेज, निर्णय कार्ड, अभ्यास की गलतियाँ और FSRS समीक्षा।"
 date: "2026-07-18"

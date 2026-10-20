@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-use-claude-for-studying.md"
 title: "Cómo usar Claude para estudiar en 2026: guía práctica"
 description: "Estudia tus apuntes con Claude, responde una pregunta cada vez, comprueba las correcciones y convierte tus dudas en flashcards dentro de las normas de tu curso."
 date: "2026-05-28"

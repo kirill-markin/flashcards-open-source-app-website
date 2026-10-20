@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-turn-handwritten-notes-into-flashcards.md"
 title: >-
   Cómo convertir notas escritas a mano en tarjetas didácticas en 2026:
   fotografías, OCR y redacción con IA sin reescribirlo todo

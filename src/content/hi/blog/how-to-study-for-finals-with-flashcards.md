@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-study-for-finals-with-flashcards.md"
 title: "2026 में फ़्लैशकार्ड्स के साथ finals की तैयारी कैसे करें: notes, slides, और practice-test गलतियों को एक FSRS प्लान में बदलें"
 description: "finals week के लिए एक व्यावहारिक workflow: lecture notes, slides, AI study chats, और practice questions की गलतियों को ऐसे front/back फ़्लैशकार्ड्स में बदलें जिन्हें आप exam day से पहले सच में review कर सकें।"
 image: "/blog/how-to-study-for-finals-with-flashcards.png"

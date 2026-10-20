@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-use-ai-to-study.md"
 title: "Cómo usar la IA para estudiar en 2026: mantén el tutor y añade flashcards que sí se queden"
 description: "Un método práctico para estudiar con IA en 2026: usa tutores y resúmenes con IA para comprender, convierte solo tus puntos débiles en flashcards y repásalos con FSRS para que el material siga contigo la semana siguiente."
 date: "2026-05-09"

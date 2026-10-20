@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1spaced-repetition-vs-cramming.md"
 title: "2026 में स्पेस्ड रिपीटिशन बनाम रटाई: परीक्षा के लिए कौन-सा तरीका बेहतर है?"
 description: "लंबे समय तक याद रखने के लिए स्पेस्ड रिपीटिशन रटाई से बेहतर है। जानिए आख़िरी समय की पढ़ाई कब मदद कर सकती है और परीक्षा की व्यावहारिक योजना कैसे बनाएँ।"
 date: "2026-07-20"

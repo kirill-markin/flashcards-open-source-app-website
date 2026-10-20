@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-use-flashcards-for-the-mcat.md"
 title: "Wie du 2026 Flashcards für den MCAT nutzt: Aminosäuren, Gleichungen und falsch beantwortete Fragen, die wirklich hängen bleiben"
 description: "Du suchst 2026 einen praxistauglichen Flashcard-Workflow für den MCAT? Hier ist ein System für Aminosäuren, Gleichungen, Psych/Soc-Begriffe und Fehler aus Übungsfragen mit Spaced Repetition und FSRS."
 date: "2026-04-22"

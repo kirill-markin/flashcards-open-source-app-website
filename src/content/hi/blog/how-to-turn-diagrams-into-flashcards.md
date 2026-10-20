@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-turn-diagrams-into-flashcards.md"
 title: "2026 में Diagrams को Flashcards में कैसे बदलें: Charts, Maps, और Labeled Images को ऐसे Cards में बदलें जिन्हें सच में review किया जा सके"
 description: "क्या आप 2026 में diagrams को flashcards में बदलना चाहते हैं? यहाँ anatomy diagrams, charts, maps, और labeled images के लिए AI drafting + FSRS review वाला एक व्यावहारिक workflow है।"
 date: "2026-04-10"

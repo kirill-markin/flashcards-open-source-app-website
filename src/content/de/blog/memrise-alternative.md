@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1memrise-alternative.md"
 title: "Memrise-Alternative 2026: Memrise vs. Nibomo"
 description: "Memrise und Nibomo im Vergleich: offizielle Sprachkurse, eigener Wortschatz, FSRS-6, Offline-Lernen, Migration, Open Source und Self-Hosting."
 date: "2026-03-22"

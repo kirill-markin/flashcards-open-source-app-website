@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1cfa-level-3-flashcards.md"
 title: "CFA Level III Flashcards 2026: Deck für deinen Pathway erstellen"
 description: "Erstelle CFA Level III Flashcards für Aufgabenverben, Pathway-Entscheidungen, Formeln und Mock-Fehler, ohne Constructed Responses unter Zeitdruck zu ersetzen."
 date: "2026-07-21"

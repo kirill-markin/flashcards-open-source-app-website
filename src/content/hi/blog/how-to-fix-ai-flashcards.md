@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-fix-ai-flashcards.md"
 title: "2026 में AI फ़्लैशकार्ड्स कैसे ठीक करें: FSRS से रिव्यू करने से पहले ChatGPT और NotebookLM ड्राफ्ट्स एडिट करें"
 description: "क्या आप 2026 में ChatGPT Study Mode, NotebookLM, या किसी दूसरे AI टूल से फ़्लैशकार्ड्स बना रहे हैं? यहाँ एक व्यावहारिक तरीका है जिससे आप गलत तथ्यों को पकड़ सकते हैं, ज़रूरत से ज़्यादा भरे कार्ड्स को बाँट सकते हैं, धुंधले prompts हटा सकते हैं, और अंतिम deck को FSRS के साथ review कर सकते हैं।"
 date: "2026-04-26"

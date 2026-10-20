@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-use-flashcards-for-the-act.md"
 title: "2026 में ACT के लिए फ़्लैशकार्ड कैसे इस्तेमाल करें: English, Math, Reading और Science के लिए बेहतर डेक"
 description: "2026 के enhanced ACT के लिए एक व्यावहारिक ACT फ़्लैशकार्ड वर्कफ़्लो, जिसमें English grammar triggers, Math setups और traps, Reading answer patterns, Science graphs, और official practice की गलतियों पर AI drafting तथा FSRS review शामिल हैं।"
 image: "/blog/how-to-use-flashcards-for-the-act.png"

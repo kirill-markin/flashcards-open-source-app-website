@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-use-flashcards-for-the-mpje.md"
 title: "2026 में MPJE के लिए फ़्लैशकार्ड कैसे इस्तेमाल करें: MPJE और UMPJE prep के लिए pharmacy law deck बनाएं"
 description: "2026 में MPJE की तैयारी कर रहे हैं? यह practical flashcards workflow MPJE और UMPJE prep के लिए uniform law को state-specific rules से अलग रखने, missed questions को cards में बदलने, और FSRS के साथ review करने में मदद करेगा।"
 date: "2026-06-13"

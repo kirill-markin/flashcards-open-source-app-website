@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1cfa-level-3-flashcards.md"
 title: "2026 में CFA Level III फ़्लैशकार्ड: अपने pathway के लिए डेक बनाएँ"
 description: "CFA Level III के command words, pathway से जुड़े निर्णयों, सूत्रों और मॉक टेस्ट की गलतियों के लिए फ़्लैशकार्ड बनाएँ—समयबद्ध constructed-response अभ्यास की जगह लिए बिना।"
 date: "2026-07-21"

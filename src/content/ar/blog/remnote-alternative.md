@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1remnote-alternative.md"
 title: "بدائل RemNote في 2026: خيارات مجانية ومفتوحة المصدر"
 description: "قارن بين بدائل RemNote من حيث الملاحظات وملفات PDF والبطاقات والسعر والاستضافة الذاتية. اعرف ما ينتقل فعلًا، وما قد يتعطّل، وكيف تجرّب الانتقال بأمان."
 date: "2026-03-19"

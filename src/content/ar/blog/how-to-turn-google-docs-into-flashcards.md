@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-turn-google-docs-into-flashcards.md"
 title: "كيف تحوّل Google Docs إلى بطاقات Flashcards في 2026: من المستندات المشتركة الفوضوية إلى بطاقات FSRS نظيفة"
 description: "حوّل Google Docs الفوضوية إلى بطاقات Flashcards قابلة للمراجعة في 2026: نظّف كل عنوان على حدة، وتعامل بحذر مع التعليقات ووضع الاقتراحات، واحذف البطاقات الضعيفة، ثم راجع البطاقات الجيدة عبر FSRS."
 image: "/blog/how-to-turn-google-docs-into-flashcards.png"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-use-flashcards-for-ap-biology.md"
 title: "Wie du 2026 mit Flashcards für AP Biology lernst: Zellen, FRQs und Daten, die wirklich hängen bleiben"
 description: "Du suchst 2026 einen praxistauglichen Flashcard-Workflow für AP Biology? Hier erfährst du, wie du Prozesse, Experimente, FRQ-Verben und stärker gewichtete Units vor der hybriden digitalen Prüfung am 4. Mai 2026 lernst."
 date: "2026-04-30"

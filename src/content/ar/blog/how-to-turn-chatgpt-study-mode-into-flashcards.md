@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-turn-chatgpt-study-mode-into-flashcards.md"
 title: "كيف تحوّل ChatGPT Study Mode إلى بطاقات تعليمية في 2026: احتفِظ بالمعلّم وأضِف التكرار المتباعد"
 description: "هل تستخدم ChatGPT Study Mode في 2026؟ إليك سير العمل العملي: اترك جلسة التعلّم للفهم، ثم حوّل أخطاءك ونقاط ضعفك والأسئلة التي أخفقت فيها إلى بطاقات تعليمية يمكنك مراجعتها فعلًا باستخدام FSRS."
 date: "2026-04-05"

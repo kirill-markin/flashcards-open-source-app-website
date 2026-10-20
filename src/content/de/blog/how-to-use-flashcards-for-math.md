@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-use-flashcards-for-math.md"
 title: "Wie du 2026 Flashcards für Mathe nutzt: Formeln, Mustererkennung und Fehlerkarten"
 description: "Ein praktischer Workflow für Mathe-Flashcards 2026: Formeln sicher abrufen, typische Aufgabenmuster schneller erkennen und wiederkehrende Fehler mit Spaced Repetition aufarbeiten, ohne echte Rechenpraxis zu ersetzen."
 date: "2026-05-08"

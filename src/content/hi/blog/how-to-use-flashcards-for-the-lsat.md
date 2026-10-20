@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-use-flashcards-for-the-lsat.md"
 title: "2026 में LSAT के लिए फ़्लैशकार्ड कैसे इस्तेमाल करें: Logical Reasoning, Reading Comprehension और wrong-answer patterns जो सच में याद रहें"
 description: "2026 में LSAT की तैयारी कर रहे हैं? यहाँ Logical Reasoning, Reading Comprehension, conditional logic और wrong-answer patterns के लिए AI drafting और FSRS review के साथ एक व्यावहारिक फ़्लैशकार्ड वर्कफ़्लो है।"
 image: "/blog/how-to-use-flashcards-for-the-lsat.png"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-turn-chatgpt-study-mode-into-flashcards.md"
 title: "So machst du 2026 aus dem ChatGPT Study Mode sinnvolle Flashcards: Tutor behalten, Spaced Repetition ergänzen"
 description: "Du nutzt 2026 den ChatGPT Study Mode? So funktioniert der praktische Workflow: Behalte die Tutor-Sitzung fürs Verstehen und verwandle danach Fehler, Schwachstellen und verpasste Quizfragen in Flashcards, die du mit FSRS wirklich wiederholen kannst."
 date: "2026-04-05"

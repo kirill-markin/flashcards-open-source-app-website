@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-avoid-ai-flashcard-overload.md"
 title: "2026 में AI फ़्लैशकार्ड ओवरलोड से कैसे बचें: अच्छे कार्ड रखें, रोज़ की रिव्यू कतार न बढ़ाएँ"
 description: "क्या आप notes, PDFs, lecture recordings, या photos को AI से flashcards में बदल रहे हैं? 2026 के लिए यह एक व्यावहारिक workflow है, जिससे आप कमजोर कार्ड जल्दी छाँट सकें, रिव्यू लोड संभालकर रख सकें, और final deck को FSRS के साथ पढ़ सकें।"
 date: "2026-05-26"

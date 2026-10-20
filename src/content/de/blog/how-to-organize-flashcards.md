@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-organize-flashcards.md"
 title: "Flashcards in 2026 organisieren: Decks, Tags und gefilterte Wiederholung, ohne das Lernen unnötig kompliziert zu machen"
 description: "Du willst Flashcards 2026 besser organisieren? Hier ist ein praktisches System für Decks, Tags, gefilterte Wiederholung und FSRS, damit deine Sammlung nutzbar bleibt, ohne in Ordner-Manie auszuarten."
 date: "2026-04-13"

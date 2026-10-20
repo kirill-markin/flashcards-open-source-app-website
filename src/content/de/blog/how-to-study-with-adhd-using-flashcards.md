@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-study-with-adhd-using-flashcards.md"
 title: "So lernst du 2026 mit ADHS und Flashcards: weniger Reibung, kleinere Review-Stapel, schnellere Erfolgserlebnisse"
 description: "Du suchst 2026 einen praktischen, nicht-medizinischen Lernworkflow mit ADHS und Flashcards? So lernst du mit kürzeren Wiederholungseinheiten, weniger Einstiegshürden, KI-Check-ins und FSRS, ohne dass dein Deck selbst zum Stressfaktor wird."
 date: "2026-05-21"

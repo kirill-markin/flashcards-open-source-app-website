@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1toefl-flashcards.md"
 title: "بطاقات TOEFL التعليمية في 2026: المفردات، وأنواع مهام iBT الجديدة، وأخطاء الاختبارات التدريبية"
 description: "أنشئ بطاقات TOEFL التعليمية لصيغة iBT الجديدة في 2026: راجع المفردات، وأنماط الجمل، وأنواع المهام، والأخطاء في التدريب الرسمي باستخدام FSRS، بدلًا من المجموعات القديمة."
 date: "2026-07-16"

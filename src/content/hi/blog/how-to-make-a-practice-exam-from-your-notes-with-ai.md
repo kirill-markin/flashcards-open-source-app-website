@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-make-a-practice-exam-from-your-notes-with-ai.md"
 title: "2026 में AI से अपने notes से practice exam कैसे बनाएं: source-grounded quiz लें, फिर सिर्फ़ कमज़ोर हिस्से रखें"
 description: "2026 में AI की मदद से अपने notes से practice exam बनाना चाहते हैं? अपनी slides, PDFs, और study guides से एक realistic quiz बनवाइए, misses को review कीजिए, और सिर्फ़ कमज़ोर हिस्सों को FSRS flashcards के रूप में रखिए।"
 date: "2026-06-22"
