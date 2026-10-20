@@ -39,6 +39,7 @@ import {
   type MarkdownAssetManifest,
 } from "../src/lib/markdownAssetManifest";
 import { getLocalizedPathname } from "../src/lib/i18n";
+import { listRetiredBlogPathnames } from "../src/lib/blogPublication";
 import { SUPPORTED_LOCALES } from "../src/lib/localeConfig";
 import {
   assertUniquePublicCatalogFacetAliases,
@@ -285,6 +286,7 @@ function createMarkdownAssetManifest(
   });
 
   return {
+    retired: listRetiredBlogPathnames(),
     facets: createFacetManifestEntries(publicCatalog),
     markdown: Object.fromEntries(markdownEntries),
   };

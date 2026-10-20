@@ -27,6 +27,8 @@ Open `http://localhost:3000`.
 - `npm run lint` — ESLint linting
 - `npm run test:catalog` — Catalog test suite
 
+Content lifecycle: [localized blog retirement](docs/blog-retirement.md).
+
 ## License
 
 [MIT](LICENSE)

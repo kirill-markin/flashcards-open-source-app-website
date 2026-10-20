@@ -7,6 +7,7 @@ import {
 } from "./lib/markdownAssetPaths";
 import { parseMarkdownAssetManifest } from "./lib/markdownAssetManifest";
 import { SITE_URL } from "./lib/site";
+import { getBlogTrailingSlashRedirect } from "./lib/blogRouting";
 
 const markdownManifest = parseMarkdownAssetManifest(
   process.env.MARKDOWN_ASSET_MANIFEST_JSON
@@ -14,6 +15,8 @@ const markdownManifest = parseMarkdownAssetManifest(
       throw new Error("MARKDOWN_ASSET_MANIFEST_JSON is required by the Markdown proxy.");
     })(),
 );
+
+const retiredPathnames = new Set(markdownManifest.retired);
 
 const markdownCacheControl =
   "public, max-age=3600, s-maxage=3600, stale-while-revalidate=86400";
@@ -83,6 +86,30 @@ function createMarkdownResponse(
   );
 }
 
+function createRetiredResponse(
+  request: NextRequest,
+  pathname: string,
+): NextResponse | null {
+  const withoutSlash = pathname.replace(/\/+$/, "");
+  const directMarkdownPathname = getPagePathnameFromMarkdownPathname(withoutSlash);
+  const pagePathname = directMarkdownPathname ?? `${withoutSlash}/`;
+  if (!retiredPathnames.has(pagePathname)) {
+    return null;
+  }
+  const isMarkdown = directMarkdownPathname !== null
+    || (request.headers.get("accept") ?? "").includes("text/markdown");
+  const response = new NextResponse(
+    isMarkdown ? "# 410\n\nThis article has been retired.\n" : null,
+    { status: 410 },
+  );
+  response.headers.set("Cache-Control", "public, max-age=3600, s-maxage=3600");
+  response.headers.set("Vary", "Accept");
+  if (isMarkdown) {
+    response.headers.set("Content-Type", "text/markdown; charset=utf-8");
+  }
+  return response;
+}
+
 function isPrivatePathname(pathname: string): boolean {
   return pathname === "/__markdown"
     || pathname.startsWith("/__markdown/")
@@ -104,6 +131,18 @@ export function proxy(request: NextRequest): NextResponse {
 
   if (isPrivatePathname(pathname)) {
     return createEmptyNotFoundResponse();
+  }
+
+  const retiredResponse = createRetiredResponse(request, pathname);
+  if (retiredResponse !== null) {
+    return retiredResponse;
+  }
+
+  const blogSlashRedirect = getBlogTrailingSlashRedirect(pathname);
+  if (blogSlashRedirect !== null) {
+    const redirectUrl = new URL(request.url);
+    redirectUrl.pathname = blogSlashRedirect;
+    return NextResponse.redirect(redirectUrl, 308);
   }
 
   if (pathname === "/llms.txt") {

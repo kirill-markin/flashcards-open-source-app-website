@@ -11,6 +11,7 @@ import {
 } from "./src/lib/markdownAssetManifest";
 import { DEFAULT_LOCALE, SUPPORTED_LOCALES } from "./src/lib/localeConfig";
 import { marketingMediaManifest } from "./src/lib/marketingMedia";
+import { createBlogAwareTrailingSlashRedirects } from "./src/lib/blogRouting";
 
 type CatalogPackageSlugRedirect = Readonly<{
   retiredSlug: string;
@@ -103,8 +104,12 @@ function readMarkdownAssetManifest(): string {
   return serializeMarkdownAssetManifest(parseMarkdownAssetManifest(serialized)).trim();
 }
 
+const markdownAssetManifestJson = readMarkdownAssetManifest();
+const hasRetiredBlogPaths = parseMarkdownAssetManifest(markdownAssetManifestJson).retired.length > 0;
+
 const nextConfig: NextConfig = {
   trailingSlash: true,
+  skipTrailingSlashRedirect: hasRetiredBlogPaths,
   images: {
     formats: ["image/webp", "image/avif"],
     remotePatterns: [
@@ -156,7 +161,7 @@ const nextConfig: NextConfig = {
   poweredByHeader: false,
   env: {
     SITE_NAME: "Nibomo",
-    [MARKDOWN_MANIFEST_ENVIRONMENT_VARIABLE]: readMarkdownAssetManifest(),
+    [MARKDOWN_MANIFEST_ENVIRONMENT_VARIABLE]: markdownAssetManifestJson,
   },
   compiler: {
     removeConsole:
@@ -203,6 +208,7 @@ const nextConfig: NextConfig = {
   },
   async redirects() {
     return [
+      ...(hasRetiredBlogPaths ? createBlogAwareTrailingSlashRedirects() : []),
       ...createPermanentCatalogPackageRedirects(),
       ...createRetiredFeaturesRedirects(),
       ...marketingMediaManifest.map(({ publicPath, url }) => ({

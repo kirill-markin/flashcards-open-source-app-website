@@ -3734,20 +3734,23 @@ test("validates and canonically serializes the compact static delivery manifest"
     "history%20world",
   );
   const serialized = serializeMarkdownAssetManifest({
+    retired: [],
     facets: { "/es/catalog/languages/history%2520world/": facetPathname },
     markdown: { [pagePathname]: assetPathname },
   });
 
   assert.deepEqual(parseMarkdownAssetManifest(serialized), {
+    retired: [],
     facets: { "/es/catalog/languages/history%2520world/": facetPathname },
     markdown: { [pagePathname]: assetPathname },
   });
   assert.throws(
-    () => parseMarkdownAssetManifest('{"facets":{},"markdown":{"relative/":"/__markdown/invalid.md"}}'),
+    () => parseMarkdownAssetManifest('{"retired":[],"facets":{},"markdown":{"relative/":"/__markdown/invalid.md"}}'),
     /invalid Markdown entry/,
   );
   assert.throws(
     () => parseMarkdownAssetManifest(JSON.stringify({
+      retired: [],
       facets: {
         "/catalog/topics/history/":
           `/catalog-facet-static/en/topic/${"a".repeat(64)}/`,

@@ -429,7 +429,7 @@ function compareByPublishedAtDescending(
   return rightPost.publishedAt - leftPost.publishedAt;
 }
 
-function loadBlogPosts(locale: AppLocale): ReadonlyArray<BlogPostRecord> {
+function loadBlogPostSources(locale: AppLocale): ReadonlyArray<BlogPostRecord> {
   const cachedBlogPosts = cachedBlogPostsByLocale.get(locale);
 
   if (cachedBlogPosts !== undefined) {
@@ -451,6 +451,11 @@ function loadBlogPosts(locale: AppLocale): ReadonlyArray<BlogPostRecord> {
   cachedBlogPostsByLocale.set(locale, blogPosts);
 
   return blogPosts;
+}
+
+function loadPublishedBlogPosts(locale: AppLocale): ReadonlyArray<BlogPostRecord> {
+  const publishedSlugs = new Set(getTranslatedBlogPostSlugs(locale));
+  return loadBlogPostSources(locale).filter((post) => publishedSlugs.has(post.slug));
 }
 
 function stripMarkdownForAnalysis(markdown: string): string {
@@ -745,7 +750,8 @@ function buildArticleVectors(): ReadonlyMap<string, ArticleTokenVector> {
     return cachedArticleVectors;
   }
 
-  const posts = loadBlogPosts(DEFAULT_BLOG_LOCALE);
+  // Retired English sources still supply vectors for healthy translations.
+  const posts = loadBlogPostSources(DEFAULT_BLOG_LOCALE);
   const rawTokenWeightsBySlug = new Map<string, Map<string, number>>();
   const documentFrequencyByToken = new Map<string, number>();
 
@@ -891,14 +897,14 @@ export function listTranslatedBlogPostSlugs(
 }
 
 export function listBlogPosts(locale: AppLocale): ReadonlyArray<BlogPostRecord> {
-  return loadBlogPosts(locale);
+  return loadPublishedBlogPosts(locale);
 }
 
 export function readBlogPost(
   locale: AppLocale,
   slug: string
 ): BlogPostRecord | null {
-  return loadBlogPosts(locale).find((post) => post.slug === slug) ?? null;
+  return loadPublishedBlogPosts(locale).find((post) => post.slug === slug) ?? null;
 }
 
 export function getBlogPostImageUrl(post: BlogPostRecord): string {
@@ -963,7 +969,7 @@ export function getRecommendedBlogPosts(
 
   const rankedRecommendations: RankedRecommendation[] = [];
 
-  for (const post of loadBlogPosts(locale)) {
+  for (const post of loadPublishedBlogPosts(locale)) {
     if (
       post.slug === slug
       || isRecommendationCandidateEligible(slug, post) === false
