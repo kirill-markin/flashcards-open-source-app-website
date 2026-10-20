@@ -199,7 +199,7 @@ This 12-base variant has no grid remainder. The **in-frame deletion** of UAC at 
 
 ## Make cards for mutation decisions
 
-Choose a decision you missed and keep its baseline, edit, and start instruction together. The [practice-question-to-flashcard guide](/blog/how-to-turn-practice-questions-into-flashcards/) explains how to split a longer problem into checkable prompts.
+Choose a decision you missed and keep its baseline, edit, and start instruction together. Split a longer problem into prompts whose answers you can check independently.
 
 | Card front | Card back |
 | --- | --- |

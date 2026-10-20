@@ -225,9 +225,7 @@ Instead, strip the miss down to the reusable part:
 
 If the card still depends on the full original question to make sense, it usually is not reduced enough yet.
 
-This companion article goes deeper on that exact workflow:
-
-- [How to Turn Practice Questions Into Flashcards in 2026](/blog/how-to-turn-practice-questions-into-flashcards/)
+For each practice miss, extract one reusable fact or decision in your own words. Keep complete calculations in problem practice.
 
 ## Keep one common layer and one discipline layer
 
@@ -256,7 +254,7 @@ For **FE Electrical flashcards**, remember that the official NCEES exam name is 
 
 That split keeps review coherent. It also makes it easier to delete cards that looked useful once and turned into noise later.
 
-If deck sprawl is already the bigger problem, [How to Organize Flashcards in 2026](/blog/how-to-organize-flashcards/) is the better next read.
+If decks are sprawling, keep common material together and use discipline tags for targeted review rather than duplicating cards.
 
 ## Use AI for drafting, then cut hard
 

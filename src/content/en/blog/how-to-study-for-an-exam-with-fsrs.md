@@ -115,9 +115,7 @@ A lot of exam prep falls apart because the plan assumes a future version of you 
 
 Build for the version that actually exists.
 
-If you want a cleaner way to estimate that load, this article pairs well with the exam workflow:
-
-- [How Many New Flashcards Per Day in 2026?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
+Estimate intake from the review time you can sustain on an ordinary day, then lower it if unfinished reviews start accumulating.
 
 ## Your source workflow and your memory workflow should stay separate
 
@@ -221,7 +219,6 @@ If you want to try the workflow:
 
 And if your source material is still stuck one step earlier, these articles help:
 
-- [How to Turn a PDF Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 - [How to Use ChatGPT to Make Flashcards in 2026](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
 - [How to Turn NotebookLM Flashcards Into Real Spaced Repetition in 2026](https://nibomo.com/blog/notebooklm-flashcards-to-spaced-repetition/)
 

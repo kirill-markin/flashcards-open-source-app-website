@@ -232,7 +232,7 @@ How must I change the exponent to preserve the value?
 Back: Subtract 2 from the exponent, because 100 = 10^2.
 ```
 
-Put the reusable decision on the card, then practice applying it to new numbers on paper. The [practice-questions-to-flashcards guide](/blog/how-to-turn-practice-questions-into-flashcards/) develops that workflow for other missed questions too.
+Put the reusable decision on the card, then practice applying it to new numbers on paper.
 
 After question 11, task D gives you a new quotient with a negative exponent in the denominator. Once you've checked it, choose another quotient and work it without an example beside you. Check the sign and approximate size before comparing the exact answer.
 

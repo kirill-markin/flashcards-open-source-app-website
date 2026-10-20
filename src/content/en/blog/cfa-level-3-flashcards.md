@@ -36,7 +36,7 @@ Do not store complete model answers. A memorized paragraph is tied to its origin
 
 The same boundary applies to formulas. Recall is one job. Selecting the relationship, extracting inputs, calculating, and interpreting the result are separate jobs. Cards can support all four, but only realistic questions test the whole chain.
 
-If you are moving up from the previous level, [the CFA Level II flashcards guide](/blog/how-to-use-flashcards-for-cfa-level-2/) covers vignette hinge points and interpretation cards. This guide stays on what changes at Level III: specialized pathways and written response assembly.
+At Level II, vignette hinge points and interpretation are useful retrieval targets. At Level III, add specialized pathways and practice assembling written responses.
 
 ## What the pathway split changes
 
@@ -150,7 +150,7 @@ Suppose you selected the right portfolio action but wrote a generic justificatio
 
 If a calculation was correct but the recommendation used the sign backwards, create one interpretation card and repeat a fresh calculation in context. If you supplied three reasons when the prompt requested two, make a command card and rehearse stopping at the requested number. Each correction gets the tool it needs.
 
-This is the same extraction method used in [How to Turn Practice Questions Into Flashcards](/blog/how-to-turn-practice-questions-into-flashcards/), with extra attention to response assembly. Do not reproduce proprietary questions, answer choices, or provider explanations in a personal deck you may later share.
+Extract the missed decision or response step into its own prompt, then practice assembling a complete response separately. Do not reproduce proprietary questions, answer choices, or provider explanations in a personal deck you may later share.
 
 ## The weekly bridge from cards to full responses
 

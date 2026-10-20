@@ -123,7 +123,7 @@ Back: SSH is the standard association. Confirm the actual listening process;
 the port number alone does not prove which service is running.
 ```
 
-This keeps a ports deck from becoming a number recital. The [Common Network Port Numbers flashcards](/catalog/packages/common-network-port-numbers-flashcards/) use the same two-way recall for 38 service mappings, including SSH over TCP 22, and keep the same caveat that a port alone does not prove the service behind observed traffic. If you want a deeper treatment of protocol cards, see the [Security+ flashcards guide](/blog/how-to-use-flashcards-for-security-plus/). Keep the A+ deck bounded by the A+ objectives.
+This keeps a ports deck from becoming a number recital. The [Common Network Port Numbers flashcards](/catalog/packages/common-network-port-numbers-flashcards/) use the same two-way recall for 38 service mappings, including SSH over TCP 22, and keep the same caveat that a port alone does not prove the service behind observed traffic. Keep the A+ deck bounded by the A+ objectives.
 
 If you're studying Security+ as well, [CompTIA Security+ SY0-701 Flashcards: Complete Objective Review](/catalog/packages/comptia-security-plus-sy0-701-flashcards/) is a separate, unofficial set of 744 original open-response cards covering all five current SY0-701 domains.
 
@@ -152,7 +152,7 @@ crash?
 Back: Event Viewer (eventvwr.msc)
 ```
 
-Run the command or open the tool after review. The card retrieves the first move; the machine teaches flags, output, permissions, and failure states. The [terminal command flashcards guide](/blog/how-to-learn-terminal-commands-with-flashcards/) covers that loop in more depth.
+Run the command or open the tool after review. The card retrieves the first move; the machine teaches flags, output, permissions, and failure states.
 
 ## Core 2 also tests boundaries, sequence, and judgment
 
@@ -214,7 +214,7 @@ Suppose you remembered what DNS does but lost time deciding whether name resolut
 
 Do not shrink a miss into a card when the real problem was navigation, command output, component installation, time management, or incomplete evidence gathering. Those problems need more PBQ practice, a virtual lab, spare hardware, or a longer troubleshooting exercise.
 
-The objective documents also warn candidates against unauthorized third-party material commonly called brain dumps. Use current objectives, authorized training and practice, and your own lab notes. [Turning practice questions into flashcards](/blog/how-to-turn-practice-questions-into-flashcards/) explains how to keep the reusable lesson without copying the question.
+The objective documents also warn candidates against unauthorized third-party material commonly called brain dumps. Use current objectives, authorized training and practice, and your own lab notes. Preserve the reusable lesson in your own words without copying the question.
 
 ## Build a study loop for one core at a time
 

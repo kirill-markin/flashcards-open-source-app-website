@@ -125,7 +125,7 @@ I would not keep:
 
 If a summary sentence contains three ideas, it is not one card candidate. It is three candidate claims or zero.
 
-This is close to the same filter I would use in [What Should Go on a Flashcard in 2026?](/blog/what-should-go-on-a-flashcard/), just one step earlier while the content is still wearing AI polish.
+Apply that filter before turning polished AI text into cards: choose the knowledge you will need again, and make each prompt specific enough to grade.
 
 ## Verify before you draft
 
@@ -186,7 +186,7 @@ I would skip it if:
 
 This is the part that keeps **ChatGPT summary flashcards**, **Gemini summary flashcards**, and **NotebookLM summary flashcards** from turning into another backlog problem. The summary can stay broad. The deck should stay selective.
 
-If deck size is already becoming the issue, [How to Avoid AI Flashcard Overload in 2026](/blog/how-to-avoid-ai-flashcard-overload/) and [How Many New Flashcards Per Day in 2026](/blog/how-many-new-flashcards-per-day/) are the next two reads I would pick.
+If deck size is already becoming the issue, stop accepting every draft. Keep only relevant gaps and lower the new-card intake until reviews fit your available time.
 
 ## Three card types work well for AI-summary workflows
 
@@ -232,11 +232,7 @@ That is the full loop.
 
 No giant export. No pressure to preserve the whole summary. No fake productivity from turning a neat page into an even neater deck.
 
-If your source starts one step earlier, these companion posts are closer fits:
-
-- [How to Turn a Study Guide Into Flashcards in 2026](/blog/how-to-turn-a-study-guide-into-flashcards/)
-- [How to Turn an Article Into Flashcards in 2026](/blog/how-to-turn-an-article-into-flashcards/)
-- [How to Remember What You Read in 2026](/blog/how-to-remember-what-you-read/)
+For the reading stage before card creation, see [How to Remember What You Read in 2026](/blog/how-to-remember-what-you-read/).
 
 ## The product fit is smaller than the promise, and that is good
 

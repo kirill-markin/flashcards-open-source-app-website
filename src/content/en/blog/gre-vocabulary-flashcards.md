@@ -139,10 +139,6 @@ I would not copy the whole question into one bloated card. I would reduce it to 
 - the prediction
 - the trap
 
-If that workflow is the main thing you need, read this next:
-
-- [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
-
 ## A practical GRE vocabulary flashcards workflow
 
 The useful workflow is boring on purpose.
@@ -158,10 +154,6 @@ Here is the version I would actually trust:
 
 That gives you a better answer to **best GRE vocabulary flashcards** than downloading a massive list and hoping sheer volume will save you.
 
-If organization is the bigger issue, this article fits directly:
-
-- [How to Organize Flashcards in 2026](https://nibomo.com/blog/how-to-organize-flashcards/)
-
 ## How many new GRE vocab cards per day is realistic?
 
 Usually fewer than people want.
@@ -176,10 +168,7 @@ For most GRE students, I would start with something like:
 
 I would rather see a smaller deck you finish than a heroic deck you stop opening.
 
-This is the same problem in more general form:
-
-- [How Many New Flashcards Per Day in 2026?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
-- [How to Review Flashcards Faster in 2026](https://nibomo.com/blog/how-to-review-flashcards-faster/)
+If the queue keeps growing, reduce new cards and rewrite the prompts that take too long to grade.
 
 ## FSRS helps GRE vocabulary because words age differently in memory
 
@@ -243,10 +232,9 @@ I would not trust it to build the final deck without editing, because AI loves w
 
 The fix is simple. Let AI draft fast, then cut hard.
 
-If your raw material starts as notes, article excerpts, or question reviews, these workflows help upstream:
+For turning written material into a first draft, start here:
 
 - [How to Turn Notes Into Flashcards in 2026](https://nibomo.com/blog/turn-notes-into-flashcards/)
-- [How to Turn an Article Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-an-article-into-flashcards/)
 
 ## Where Nibomo fits this GRE workflow
 

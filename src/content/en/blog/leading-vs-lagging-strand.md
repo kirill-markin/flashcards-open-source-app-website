@@ -177,7 +177,7 @@ Choose the card that targets the step you missed. Keep the fork direction and pa
 | Why does a continuous leading daughter still require a primer? | DNA polymerase needs an existing 3′-OH to extend. A primer provides the starting end; continuous extension follows initiation. |
 | After RNA replacement, adjacent DNA fragments have all their nucleotides but a missing backbone bond. Is this a nick or a gap, and what seals it? | A nick; DNA ligase seals it with a phosphodiester bond. A gap would have missing nucleotides that must be replaced first. |
 
-The [practice-questions-to-flashcards guide](/blog/how-to-turn-practice-questions-into-flashcards/) explains how to preserve the reason behind a missed answer. Keep a full bubble drawing as a separate paper exercise; a card that asks only “What is the lagging strand?” won't rehearse the four assignments.
+Preserve the reason behind a missed answer in a short prompt. Keep a full bubble drawing as a separate paper exercise; a card that asks only “What is the lagging strand?” won’t rehearse the four assignments.
 
 ### One fresh question after the cards
 

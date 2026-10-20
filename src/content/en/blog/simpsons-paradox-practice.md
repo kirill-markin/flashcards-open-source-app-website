@@ -147,6 +147,6 @@ Return to the original repair table. A report says: “Assigning every future re
 
 If you averaged percentages without checking counts, save a short prompt: “What weights turn subgroup rates into the observed pooled rate?” Answer: each subgroup's share of that team's total. If you inferred a reversal from totals alone, keep problem 6 as a counterexample.
 
-Use the [guide to turning practice questions into flashcards](/blog/how-to-turn-practice-questions-into-flashcards/) to make one focused card from a recurring mistake. Keep the full count tables for written practice. On your next attempt, hide the percentage columns in the repair example and rebuild the rates, weights, and claim from the counts.
+Make one focused card from a recurring mistake. Keep the full count tables for written practice. On your next attempt, hide the percentage columns in the repair example and rebuild the rates, weights, and claim from the counts.
 
 *Production note: AI assisted with research and writing, including two AI editorial passes and arithmetic verification. The invented examples were checked with exact fraction arithmetic in CPython 3.14.7. The illustration was AI-generated.*
