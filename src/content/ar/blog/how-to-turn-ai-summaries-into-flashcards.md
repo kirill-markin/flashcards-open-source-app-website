@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-turn-ai-summaries-into-flashcards.md"
 title: "كيف تحوّل ملخصات الذكاء الاصطناعي إلى بطاقات تعليمية في 2026: أبقِ الادعاءات واختبر الذاكرة"
 description: "هل تستخدم ChatGPT أو Gemini أو NotebookLM أو أداة أخرى للتلخيص؟ إليك سير عمل عملي في 2026 لتحويل ملخصات الذكاء الاصطناعي إلى بطاقات FSRS موثقة بدلًا من أن تحفظ صياغة مختصرة تبدو أفضل من الأصل."
 date: "2026-07-11"

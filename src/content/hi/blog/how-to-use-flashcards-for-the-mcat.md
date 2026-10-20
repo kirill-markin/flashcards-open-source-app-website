@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-use-flashcards-for-the-mcat.md"
 title: "2026 में MCAT के लिए फ़्लैशकार्ड कैसे इस्तेमाल करें: Amino Acids, समीकरण और गलत सवाल जो सच में याद रहें"
 description: "2026 में MCAT फ़्लैशकार्ड चाहिए? यहाँ amino acids, equations, psych/soc terms और practice questions में हुई गलतियों के लिए FSRS वाली spaced repetition के साथ एक व्यावहारिक तरीका है।"
 date: "2026-04-22"

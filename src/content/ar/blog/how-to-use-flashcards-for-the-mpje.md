@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-use-flashcards-for-the-mpje.md"
 title: "كيف تستخدم البطاقات التعليمية لامتحان MPJE في 2026: أنشئ مجموعة لتشريعات الصيدلة للتحضير لـ MPJE وUMPJE"
 description: "هل تستعد لامتحان MPJE في 2026؟ إليك سير عمل عملي للبطاقات التعليمية في التحضير لـ MPJE وUMPJE: افصل بين القانون الموحّد وقواعد الولاية، وحوّل الأسئلة التي أخطأت فيها إلى بطاقات، وراجعها باستخدام FSRS."
 date: "2026-06-13"

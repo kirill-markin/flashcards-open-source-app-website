@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1flashcards-vs-practice-tests.md"
 title: "Flashcards vs tests de práctica en 2026: cuándo conviene usar cada uno y cómo combinarlos"
 description: "Usa flashcards para mantener disponibles más adelante datos pequeños y distinciones concretas. Usa tests de práctica para comprobar el recuerdo tipo examen, el criterio y el ritmo. El mejor flujo de estudio suele combinar ambos sin duplicar trabajo."
 date: "2026-07-08"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-use-chatgpt-voice-for-language-learning.md"
 title: "كيف تستخدم ChatGPT Voice لتعلّم اللغات في 2026: حوّل تدريب التحدث إلى بطاقات تعليمية تدوم"
 description: "تستخدم ChatGPT Voice لتعلّم اللغات في 2026؟ هذا هو سير العمل العملي: أجرِ جلسات تحدث قصيرة، واحتفظ بالعبارات المصححة، وحوّل أخطاءك إلى بطاقات تعليمية تراجعها باستخدام FSRS."
 date: "2026-04-06"

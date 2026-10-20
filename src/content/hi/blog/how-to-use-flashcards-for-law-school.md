@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-use-flashcards-for-law-school.md"
 title: "2026 में लॉ स्कूल के लिए फ्लैशकार्ड कैसे इस्तेमाल करें: केस, नियम और issue spotting जो सच में टिके"
 description: "2026 में लॉ स्कूल फ्लैशकार्ड के लिए एक व्यावहारिक वर्कफ़्लो चाहिए? यहाँ cases, class notes, outlines और practice hypos के साथ AI drafting और FSRS का उपयोग करने का तरीका है, ताकि आपका deck दूसरी outline न बन जाए।"
 date: "2026-04-16"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-turn-a-pdf-into-flashcards.md"
 title: >-
   Cómo convertir un PDF en tarjetas didácticas en 2026: diapositivas de
   conferencias, libros de texto y artículos de investigación en tarjetas FSRS

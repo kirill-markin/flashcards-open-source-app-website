@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-use-flashcards-for-coding-interviews.md"
 title: "Cómo usar flashcards para entrevistas de programación en 2026: patrones de LeetCode, errores y conceptos que de verdad se quedan"
 description: "¿Necesitas flashcards para entrevistas de programación en 2026? Aquí tienes un sistema práctico para convertir errores de LeetCode, patrones de algoritmos y notas de entrevistas técnicas en repetición espaciada con FSRS."
 date: "2026-04-14"

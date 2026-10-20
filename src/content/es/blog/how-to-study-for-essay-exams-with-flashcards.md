@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-study-for-essay-exams-with-flashcards.md"
 title: "Cómo estudiar para exámenes de desarrollo con flashcards en 2026: preparación para blue books y respuestas cortas que sí se te quedan"
 description: "¿Necesitas un método real para preparar exámenes de desarrollo en 2026? Usa flashcards para tesis, evidencias, definiciones y disparadores de compare and contrast para que tus respuestas de blue book y short answer salgan más rápido bajo presión."
 date: "2026-06-28"

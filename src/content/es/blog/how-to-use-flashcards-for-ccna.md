@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-use-flashcards-for-ccna.md"
 title: "Cómo usar flashcards para CCNA en 2026: subnetting, comandos show y troubleshooting que de verdad se te quedan"
 description: "¿Te preparas para Cisco CCNA 200-301 en 2026? Aquí tienes un flujo práctico con flashcards para subnetting, comandos show, errores de routing y switching y el blueprint oficial actual con FSRS."
 date: "2026-06-01"

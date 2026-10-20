@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-use-flashcards-for-advanced-chemistry.md"
 title: "Cómo usar flashcards para química avanzada en 2026: ecuaciones, razonamiento de laboratorio y corrección de errores"
 description: "Un flujo práctico de flashcards para química avanzada: ecuaciones, equilibrio, ácidos y bases, interpretación de laboratorio y errores en respuestas desarrolladas, sin convertir el mazo en un segundo libro de texto."
 image: "/blog/how-to-use-flashcards-for-advanced-chemistry.png"

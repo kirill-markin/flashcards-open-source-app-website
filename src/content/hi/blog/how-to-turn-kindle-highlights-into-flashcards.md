@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-turn-kindle-highlights-into-flashcards.md"
 title: "2026 में Kindle Highlights को Flashcards में कैसे बदलें: Reading Habit बनाए रखें, असली Spaced Repetition जोड़ें"
 description: "क्या आप 2026 में Kindle highlights को flashcards में बदलना चाहते हैं? यहाँ व्यावहारिक workflow है: अपनी सबसे अच्छी highlights export या copy करें, सिर्फ़ याद रखने लायक हिस्सों को front/back cards में बदलें, और उन्हें notebook में पड़े रहने देने के बजाय FSRS के साथ review करें।"
 date: "2026-04-07"

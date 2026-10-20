@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-study-with-adhd-using-flashcards.md"
 title: "Cómo estudiar con TDAH usando flashcards en 2026: menos fricción, menos acumulación y avances más rápidos"
 description: "¿Necesitas una forma práctica y no médica de estudiar con TDAH en 2026? Así puedes usar flashcards con un arranque más fácil, sesiones cortas, revisiones con IA y FSRS sin convertir el mazo en otra fuente de estrés."
 date: "2026-05-21"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-turn-google-docs-into-flashcards.md"
 title: "Cómo convertir Google Docs en tarjetas didácticas en 2026: limpia documentos compartidos y conviértelos en tarjetas con FSRS"
 description: "Convierte Google Docs desordenados en tarjetas didácticas útiles en 2026: limpia una sección cada vez, aprovecha comentarios y sugerencias, elimina las tarjetas flojas de IA y repasa las buenas con FSRS."
 image: "/blog/how-to-turn-google-docs-into-flashcards.png"

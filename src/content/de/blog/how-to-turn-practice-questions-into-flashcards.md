@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-turn-practice-questions-into-flashcards.md"
 title: "Wie du 2026 Übungsfragen in Flashcards verwandelst: Baue aus deinen Fehlern ein FSRS-Deck"
 description: "Du willst 2026 Übungsfragen in Flashcards umwandeln? Hier ist ein praktischer Workflow für Probeklausuren, Altklausuren, Quiz-Screenshots und falsche Antworten mit KI-Entwürfen plus FSRS-Wiederholung."
 date: "2026-04-11"

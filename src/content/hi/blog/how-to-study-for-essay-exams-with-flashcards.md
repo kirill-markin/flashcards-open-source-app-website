@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-study-for-essay-exams-with-flashcards.md"
 title: "2026 में फ़्लैशकार्ड्स के साथ essay exams की तैयारी कैसे करें: blue-book और short-answer prep जो सच में याद रहे"
 description: "2026 में essay exams के लिए एक ऐसा study workflow चाहिए जो सच में काम करे? thesis moves, evidence, definitions, और compare-contrast triggers के लिए flashcards इस्तेमाल करें, ताकि blue-book और short-answer answers दबाव में तेज़ी से याद आएँ।"
 date: "2026-06-28"

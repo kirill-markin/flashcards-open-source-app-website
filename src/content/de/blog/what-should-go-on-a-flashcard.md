@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1what-should-go-on-a-flashcard.md"
 title: "Was gehört 2026 auf eine Flashcard? Ein praktischer Filter für Notizen, KI-Entwürfe und Vorlesungsfolien"
 description: "Flashcards zu erzeugen ist 2026 einfach. Schwer ist zu entscheiden, was überhaupt eine Karte verdient. Hier ist ein praktischer Filter für Notizen, KI-Entwürfe, Vorlesungsfolien und Lehrbuchseiten, damit am Ende nur die Karten übrig bleiben, die sich mit FSRS wirklich zu wiederholen lohnen."
 image: "/blog/what-should-go-on-a-flashcard.png"

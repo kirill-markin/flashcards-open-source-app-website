@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-study-for-an-exam-with-fsrs.md"
 title: "Cómo estudiar para un examen con FSRS en 2026: crea un plan de flashcards que puedas terminar antes del día del examen"
 description: "Usar IA para generar flashcards es fácil. Lo difícil es repasarlas antes del examen. Aquí tienes un flujo de trabajo práctico de FSRS para exámenes en 2026: definir una carga de tarjetas realista, limpiar los borradores de IA y mantener la cola de repasos bajo control."
 date: "2026-04-01"

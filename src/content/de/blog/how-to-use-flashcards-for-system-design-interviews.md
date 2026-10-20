@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-use-flashcards-for-system-design-interviews.md"
 title: "Wie du 2026 Flashcards für System-Design-Interviews nutzt: Trade-offs, Engpässe und Architekturmuster, die wirklich hängen bleiben"
 description: "Du bereitest dich 2026 auf System-Design-Interviews vor? Hier ist ein praktischer Flashcard-Workflow für Caching, Queues, Engpässe, Trade-offs und Lücken aus Mock-Interviews mit Active Recall und FSRS."
 date: "2026-06-08"

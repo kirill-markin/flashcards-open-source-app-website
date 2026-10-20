@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-turn-lecture-recordings-into-flashcards.md"
 title: "كيفية تحويل تسجيلات المحاضرات إلى بطاقات Flashcards في 2026: من النص المفرغ إلى بطاقات FSRS من دون إعادة مشاهدة كل شيء"
 description: "هل تريد تحويل تسجيلات المحاضرات إلى بطاقات Flashcards من دون إعادة تشغيل ساعات من الصوت؟ إليك سير عمل عملي في 2026: حوّل التسجيل إلى نص، وصُغ بطاقات واضحة بمساعدة الذكاء الاصطناعي، واحذف البطاقات الضبابية بسرعة، ثم ذاكر المجموعة النهائية باستخدام FSRS."
 date: "2026-03-26"

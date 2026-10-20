@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-use-flashcards-for-the-dat.md"
 title: "كيف تستخدم البطاقات التعليمية لاختبار DAT في 2026: الأحياء والكيمياء العضوية وPAT وأخطاء الاختبارات التجريبية التي تترسخ فعلًا"
 description: "هل تستعد لاختبار DAT في 2026؟ يشرح هذا الدليل كيف تبني بطاقات تعليمية للأحياء والكيمياء العضوية وأخطاء PAT والاستدلال الكمي بالاعتماد على مخطط ADA الحالي، وصياغة AI الأولية، ومراجعة FSRS."
 image: "/blog/how-to-use-flashcards-for-the-dat.png"

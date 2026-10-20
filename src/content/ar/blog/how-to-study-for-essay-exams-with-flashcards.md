@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-study-for-essay-exams-with-flashcards.md"
 title: "كيف تذاكر لاختبارات المقال باستخدام البطاقات التعليمية في 2026: تحضير لامتحانات الـBlue Book والأسئلة القصيرة ينجح فعلًا"
 description: "هل تحتاج إلى طريقة عملية للمذاكرة لاختبارات المقال في 2026؟ استخدم البطاقات التعليمية لأنماط الأطروحة، والأدلة، والتعريفات، ومحفزات المقارنة والمقابلة، حتى تستحضر إجابات الـBlue Book والأسئلة القصيرة بسرعة أكبر تحت الضغط."
 date: "2026-06-28"

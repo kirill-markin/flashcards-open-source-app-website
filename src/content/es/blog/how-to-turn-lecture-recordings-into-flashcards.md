@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-turn-lecture-recordings-into-flashcards.md"
 title: >-
   Cómo convertir grabaciones de conferencias en tarjetas didácticas en 2026:
   transcripción a tarjetas FSRS sin volver a verlo todo

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1why-flashcards-dont-work.md"
 title: "2026 में फ़्लैशकार्ड काम क्यों नहीं करते: 5 वजहें जिनकी वजह से रिव्यू के बाद भी चीज़ें याद नहीं रहतीं"
 description: "अगर फ़्लैशकार्ड काम नहीं कर रहे और आप रिव्यू की हुई चीज़ें बार-बार भूल रहे हैं, तो आम वजहें होती हैं recall की जगह recognition, AI से बने फूले हुए कार्ड, leech cards, बहुत ज़्यादा FSRS review load, या ऐसे skill के लिए flashcards चलाना जहाँ असली काम problem practice को करना चाहिए।"
 date: "2026-06-23"

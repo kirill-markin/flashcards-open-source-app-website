@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-turn-perplexity-learn-mode-into-flashcards.md"
 title: "2026 में Perplexity Learn Mode को फ़्लैशकार्ड्स में कैसे बदलें: Guided Search का इस्तेमाल करें, FSRS से weak spots दोहराएँ"
 description: "2026 में Perplexity Learn Mode इस्तेमाल कर रहे हैं? Lecture notes या readings upload करें, guided questions और mini-quizzes से weak spots पकड़ें, फिर सिर्फ़ वही cited हिस्से FSRS फ़्लैशकार्ड्स में बदलें जिन्हें सच में याद रखना है।"
 date: "2026-05-29"

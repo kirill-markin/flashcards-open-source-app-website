@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1why-are-there-so-many-anki-reviews.md"
 title: "¿Por qué hay tantos repasos de Anki en 2026? Reduce los picos de repaso sin abandonar la repetición espaciada"
 description: "¿Te están saliendo muchos más repasos de Anki de los que esperabas? Aquí tienes una guía práctica de 2026 para entender por qué se disparan los repasos con FSRS, los límites de tarjetas nuevas, los learning steps y la retención deseada, y cómo volver a controlar la cola sin reiniciar el mazo."
 date: "2026-07-04"

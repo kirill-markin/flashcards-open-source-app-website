@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-use-flashcards-for-the-lsat.md"
 title: "كيف تستخدم البطاقات التعليمية لاختبار LSAT في 2026: Logical Reasoning وReading Comprehension وأنماط الإجابات الخاطئة التي تترسخ فعلًا"
 description: "هل تستعد لاختبار LSAT في 2026؟ إليك سير عمل عملي للبطاقات التعليمية يركّز على Logical Reasoning وReading Comprehension والمنطق الشرطي وأنماط الإجابات الخاطئة، مع صياغة أولية بالذكاء الاصطناعي ومراجعة عبر FSRS."
 image: "/blog/how-to-use-flashcards-for-the-lsat.png"

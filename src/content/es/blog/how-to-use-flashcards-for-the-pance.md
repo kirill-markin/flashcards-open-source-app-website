@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-use-flashcards-for-the-pance.md"
 title: "Cómo usar flashcards para el PANCE en 2026: etiquetas del blueprint, resultados de prácticas y resistencia para 300 preguntas"
 description: "¿Te preparas para el PANCE en 2026? Aquí tienes un flujo de trabajo práctico con flashcards basado en el blueprint de la NCCPA vigente desde enero de 2025, en los fallos de viñetas clínicas, en los resultados de los exámenes oficiales de práctica y en el ritmo de un examen de 300 preguntas."
 date: "2026-06-05"

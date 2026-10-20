@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1ai-flashcard-tutor-due-cards.md"
 title: "معلّم ذكاء اصطناعي لبطاقاتك التعليمية في 2026: يختبرك في البطاقات المستحقة ويحفظ مراجعات FSRS عبر MCP"
 description: "اربط Claude أو ChatGPT أو Codex بـ Nibomo عبر MCP. يختبرك معلّم الذكاء الاصطناعي في بطاقاتك المستحقة، ويقيّم كل إجابة، ثم يحفظ التقييم على أنه مراجعة FSRS."
 date: "2026-07-15"

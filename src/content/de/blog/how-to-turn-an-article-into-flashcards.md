@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-turn-an-article-into-flashcards.md"
 title: "Wie du 2026 einen Artikel in Flashcards verwandelst: Die wichtigen Ideen behalten statt Highlights zu horten"
 description: "Du willst 2026 einen Artikel in Flashcards verwandeln? Hier ist ein praktischer Workflow für Blogartikel, Newsletter, Dokumentation und lange Texte: erst die Quelle kürzen, dann mit KI Karten entwerfen und anschließend mit FSRS lernen."
 date: "2026-04-09"

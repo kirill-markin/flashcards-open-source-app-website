@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-turn-lecture-recordings-into-flashcards.md"
 title: "Wie du 2026 Vorlesungsaufzeichnungen in Flashcards verwandelst: Vom Transkript zu FSRS-Karten, ohne alles noch einmal anzusehen"
 description: "Du willst Vorlesungsaufzeichnungen in Flashcards verwandeln, ohne zwei Stunden Audio noch einmal abzuspielen? Hier ist ein praktischer Workflow für 2026: Transkript erzeugen, mit KI saubere Karten entwerfen, vage Karten schnell löschen und das finale Deck mit FSRS lernen."
 date: "2026-03-26"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-use-flashcards-for-ap-world-history.md"
 title: "So lernst du 2026 mit Flashcards für AP World History: Timelines, Themen und DBQ-Evidenz, die wirklich hängen bleibt"
 description: "Du brauchst 2026 einen praxistauglichen Flashcard-Workflow für AP World History? So lernst du Zeitanker, Themen, DBQ-Evidenz, falsch beantwortete Fragen, KI-Entwürfe und FSRS-Wiederholung."
 date: "2026-05-22"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-study-a-premade-anki-deck.md"
 title: "Wie du 2026 mit einem vorgefertigten Anki-Deck lernst: Was du behältst, was du umschreibst und was du zuerst lernen solltest"
 description: "Du nutzt ein vorgefertigtes Anki-Deck oder geteilte Flashcards? So lernst du 2026 mit importierten Karten, ohne schlechte Review-Gewohnheiten, schwache Karten oder Themen zu übernehmen, die du noch gar nicht richtig gelernt hast."
 date: "2026-07-03"

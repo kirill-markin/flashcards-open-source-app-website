@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-use-flashcards-for-the-fe-exam.md"
 title: "Wie du 2026 Flashcards für die FE-Prüfung nutzt: Formeln, Einheitenumrechnungen und Fehler aus Übungsaufgaben, die wirklich hängen bleiben"
 description: "Du bereitest dich 2026 auf die FE-Prüfung vor? Hier ist ein praxisnaher Flashcard-Workflow für Formeln, Einheitenumrechnungen, Wiederholung mit dem Handbook, Konzeptfallen und Fehler aus Übungsaufgaben mit Spaced Repetition, ohne Aufgabensätze zu ersetzen."
 date: "2026-07-02"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-use-flashcards-for-the-mcat.md"
 title: "كيف تستخدم البطاقات التعليمية لاختبار MCAT في 2026: الأحماض الأمينية والمعادلات والأسئلة التي أخطأت فيها وتترسخ فعلًا"
 description: "هل تحتاج إلى بطاقات MCAT التعليمية في 2026؟ إليك نظامًا عمليًا للأحماض الأمينية، والمعادلات، ومصطلحات psych/soc، وأخطاء أسئلة التدريب باستخدام التكرار المتباعد مع FSRS."
 date: "2026-04-22"

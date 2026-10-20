@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-use-flashcards-for-the-nremt.md"
 title: "كيف تستخدم البطاقات التعليمية لامتحان NREMT في 2026: أخطاء CAT، وقرارات التقييم الأولي، وتدريب TEI الذي يثبت فعلًا"
 description: "هل تستعد لامتحان NREMT في 2026؟ يوضح هذا الدليل العملي كيف تبني بطاقات تعليمية تعالج أخطاء CAT، وقرارات التقييم الأولي، وأسئلة TEI، واسترجاع البروتوكولات من دون حفظ فصول كاملة."
 date: "2026-06-14"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1active-recall-vs-spaced-repetition.md"
 title: "الاسترجاع النشط أم التكرار المتباعد في 2026: ماذا تختبر الآن وماذا تراجعه لاحقًا؟"
 description: "الاسترجاع النشط أم التكرار المتباعد ليسا خيارين متعارضين أصلًا. فالاسترجاع النشط يكشف ما لا تستطيع استرجاعه بعد، والتكرار المتباعد يقرر أيًّا من هذه الثغرات ينبغي أن يعود لاحقًا داخل قائمة مراجعة FSRS."
 date: "2026-06-21"

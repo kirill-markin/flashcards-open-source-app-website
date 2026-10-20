@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-use-interleaving-with-flashcards.md"
 title: "So nutzt du 2026 Interleaving mit Flashcards: Themen mischen, ohne Spaced Repetition zu stören"
 description: "So kombinierst du Interleaving, Flashcards und FSRS: welche Inhalte du mischen solltest, was besser getrennt bleibt und warum anspruchsvolleres Üben den langfristigen Abruf verbessern kann."
 date: "2026-07-14"

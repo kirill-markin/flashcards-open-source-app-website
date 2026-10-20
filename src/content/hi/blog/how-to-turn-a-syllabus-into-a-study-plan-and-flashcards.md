@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-turn-a-syllabus-into-a-study-plan-and-flashcards.md"
 title: "2026 में सिलेबस को स्टडी प्लान और Flashcards में कैसे बदलें"
 description: "2026 के लिए एक व्यावहारिक workflow, जिसमें course syllabus को साप्ताहिक study plan, टिकाऊ review routine, और छोटे FSRS Flashcards deck में बदला जाता है।"
 image: "/blog/how-to-turn-a-syllabus-into-a-study-plan-and-flashcards.png"

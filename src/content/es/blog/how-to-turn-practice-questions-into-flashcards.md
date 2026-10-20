@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-turn-practice-questions-into-flashcards.md"
 title: >-
   Cómo convertir preguntas de práctica en tarjetas de estudio en 2026: crea un mazo
   FSRS a partir de lo que fallaste

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-use-flashcards-for-the-digital-sat.md"
 title: "كيف تستخدم البطاقات التعليمية لاختبار Digital SAT في 2026: مفردات وقواعد ورياضيات تترسخ فعلًا"
 description: "سير عمل عملي لبطاقات Digital SAT التعليمية يغطي الكلمات في السياق، وقواعد اللغة، وصيغ الرياضيات، وأخطاء Bluebook، مع صياغة أولية بالذكاء الاصطناعي ومراجعة عبر FSRS."
 date: "2026-04-18"

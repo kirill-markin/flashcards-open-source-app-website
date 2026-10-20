@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-use-flashcards-for-the-act.md"
 title: "كيف تستخدم البطاقات التعليمية لاختبار ACT في 2026: مجموعة أذكى للإنجليزية والرياضيات والقراءة والعلوم"
 description: "سير عمل عملي لبطاقات ACT التعليمية في نسخة ACT المحسّنة لعام 2026، مع بطاقات لإشارات قواعد الإنجليزية، وإعدادات الرياضيات وأفخاخها، وأنماط إجابات القراءة، ورسوم العلوم البيانية، وأخطاء التدريب الرسمي، باستخدام صياغة أولية بالذكاء الاصطناعي ومراجعة عبر FSRS."
 image: "/blog/how-to-use-flashcards-for-the-act.png"

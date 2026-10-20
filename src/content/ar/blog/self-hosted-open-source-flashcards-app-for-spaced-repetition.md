@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1self-hosted-open-source-flashcards-app-for-spaced-repetition.md"
 title: "تطبيق Flashcards مفتوح المصدر للاستضافة الذاتية والتكرار المتباعد"
 description: "استضف مكدس Nibomo مفتوح المصدر محليًا لأغراض التطوير، أو انشر بنيته التحتية الإنتاجية الموثقة باستخدام AWS CDK."
 date: "2026-03-08"

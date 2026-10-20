@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-organize-flashcards.md"
 title: "Cómo organizar Flashcards en 2026: mazos, etiquetas y repaso filtrado sin hacer que estudiar sea más difícil"
 description: "¿Necesitas organizar Flashcards en 2026? Aquí tienes un sistema práctico de mazos, etiquetas, repaso filtrado y FSRS para que tu biblioteca siga siendo usable sin convertirse en una obsesión por las carpetas."
 date: "2026-04-13"

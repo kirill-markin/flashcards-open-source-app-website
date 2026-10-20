@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-use-flashcards-for-ap-biology.md"
 title: "كيف تستخدم البطاقات التعليمية لاختبار AP Biology في 2026: الخلايا، وأسئلة FRQ، والبيانات التي تترسخ فعلًا"
 description: "هل تحتاج إلى سير عمل عملي للبطاقات التعليمية لاختبار AP Biology في 2026؟ إليك كيفية مذاكرة العمليات، والتجارب، وأفعال أسئلة FRQ، والوحدات الأعلى وزنًا قبل الامتحان الرقمي الهجين يوم 4 مايو 2026."
 date: "2026-04-30"

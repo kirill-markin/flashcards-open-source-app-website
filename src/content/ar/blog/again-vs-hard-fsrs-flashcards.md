@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1again-vs-hard-fsrs-flashcards.md"
 title: "Again مقابل Hard في FSRS (2026): كيف تستخدم تقييمات البطاقات الأربعة"
 description: "تعلّم متى تضغط Again أو Hard أو Good أو Easy في تطبيقات البطاقات التعليمية التي تستخدم FSRS. اتبع قاعدة واضحة للاسترجاع، ولا تختر زرًا بحسب فاصل المراجعة التالي."
 date: "2026-07-17"

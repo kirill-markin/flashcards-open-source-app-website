@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-use-flashcards-for-ap-psychology.md"
 title: "Wie du 2026 mit Flashcards für AP Psychology lernst: Begriffe, Studien und FRQ-Evidenz, die wirklich hängen bleibt"
 description: "Du suchst 2026 einen praxistauglichen Flashcard-Workflow für AP Psychology? Hier erfährst du, wie du Begriffe, berühmte Studien, Forschungsmethoden und FRQ-Evidenz für die komplett digitale Bluebook-Prüfung am 12. Mai 2026 lernst."
 date: "2026-04-29"

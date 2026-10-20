@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1duolingo-flashcards-to-spaced-repetition.md"
 title: "Duolingo Flashcards (2026): ये कैसे काम करते हैं और बाद में क्या दोहराएँ"
 description: "जानें कि Duolingo Flashcards के पाँच-कार्ड वाले active-recall rounds कैसे काम करते हैं, वे lessons में कहाँ दिखाई देते हैं और बार-बार होने वाली गलतियों को अपनी छोटी FSRS deck में कैसे सहेजें।"
 date: "2026-06-12"

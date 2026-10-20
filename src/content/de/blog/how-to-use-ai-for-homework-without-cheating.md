@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-use-ai-for-homework-without-cheating.md"
 title: "Wie du 2026 KI für Hausaufgaben nutzt, ohne zu schummeln: Stoff verstehen, eigene Arbeit abgeben, Fehler behalten"
 description: "Du willst 2026 KI für Hausaufgaben nutzen? Nutze sie, um die Aufgabe zu verstehen, dein Denken zu prüfen und Fehler später in Flashcards zu verwandeln, statt dir die Abgabe schreiben zu lassen."
 image: "/blog/how-to-use-ai-for-homework-without-cheating.png"

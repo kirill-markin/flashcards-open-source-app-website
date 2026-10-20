@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-use-flashcards-for-usmle-step-2-ck.md"
 title: "2026 में USMLE Step 2 CK के लिए फ़्लैशकार्ड कैसे इस्तेमाल करें: शेल्फ की गलतियाँ, clinical management, और वे vignette traps जो सच में याद रहें"
 description: "2026 के लिए व्यावहारिक USMLE Step 2 CK फ़्लैशकार्ड workflow चाहिए? यहाँ बताया गया है कि question-bank की गलतियों, clerkship notes, management algorithms, और shelf-style vignette traps को FSRS review में कैसे बदलें, बिना दूसरा textbook बनाए।"
 date: "2026-05-02"

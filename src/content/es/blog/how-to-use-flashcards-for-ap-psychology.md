@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-use-flashcards-for-ap-psychology.md"
 title: "Cómo usar flashcards para AP Psychology en 2026: términos, estudios y evidencia para FRQ que de verdad se te quedan"
 description: "¿Necesitas un flujo práctico de flashcards para AP Psychology en 2026? Aquí tienes cómo estudiar términos, estudios famosos, métodos de investigación y evidencia para FRQ de cara al examen totalmente digital en Bluebook del 12 de mayo de 2026."
 date: "2026-04-29"

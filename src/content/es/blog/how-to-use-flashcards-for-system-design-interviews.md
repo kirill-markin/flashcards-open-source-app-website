@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-use-flashcards-for-system-design-interviews.md"
 title: "Cómo usar flashcards para entrevistas de system design en 2026: tradeoffs, cuellos de botella y patrones de arquitectura que sí se te quedan"
 description: "¿Te preparas para entrevistas de system design en 2026? Aquí tienes un flujo práctico con flashcards para caché, colas, cuellos de botella, tradeoffs y fallos en mock interviews con active recall y FSRS."
 date: "2026-06-08"

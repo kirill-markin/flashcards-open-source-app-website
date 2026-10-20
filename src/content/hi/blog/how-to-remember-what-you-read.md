@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-remember-what-you-read.md"
 title: "2026 में जो पढ़ें उसे कैसे याद रखें: हाइलाइट्स के ढेर की जगह याद करके जवाब देना शुरू करें"
 description: "अगर आप chapter खत्म करके अगले दिन सब भूल जाते हैं, तो 2026 का यह व्यावहारिक workflow दिखाता है कि छोटे reading chunks, recall checks और FSRS flashcards की मदद से जो पढ़ें उसे कैसे याद रखें।"
 image: "/blog/how-to-remember-what-you-read.png"

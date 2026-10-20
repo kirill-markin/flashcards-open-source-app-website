@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-use-flashcards-for-ap-us-history.md"
 title: "بطاقات AP US History التعليمية في 2026: كيف تذاكر فترات APUSH وDBQ والأدلة"
 description: "هل تحتاج إلى سير عمل عملي لبطاقات AP US History التعليمية في 2026؟ إليك كيف تذاكر فترات APUSH، والموضوعات، وتحليل المصادر، ومجموعات MCQ، وأسئلة SAQ وDBQ وLEQ، والتكرار المتباعد من دون أن تتحول مجموعتك إلى كتاب دراسي ثانٍ."
 image: "/blog/how-to-use-flashcards-for-ap-us-history.png"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-study-for-finals-with-flashcards.md"
 title: "Wie du 2026 mit Flashcards für die Klausurenphase lernst: Notizen, Folien und Fehler aus Probeklausuren in einem FSRS-Plan"
 description: "Ein praktischer Workflow für die Klausurenphase 2026: Verwandle Vorlesungsnotizen, Foliensätze, KI-Lernchats und Fehler aus Probeklausuren in Front-/Back-Flashcards, die du vor dem Prüfungstag wirklich noch wiederholen kannst."
 image: "/blog/how-to-study-for-finals-with-flashcards.png"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-use-flashcards-for-the-act.md"
 title: "Cómo usar flashcards para el ACT en 2026: un mazo mejor pensado para English, Math, Reading y Science"
 description: "Flujo de trabajo práctico de flashcards para el enhanced ACT en 2026, con tarjetas para detonantes gramaticales de English, planteamientos y trampas de Math, patrones de respuesta de Reading, gráficos de Science y errores de práctica oficial usando borradores con IA y repaso con FSRS."
 image: "/blog/how-to-use-flashcards-for-the-act.png"

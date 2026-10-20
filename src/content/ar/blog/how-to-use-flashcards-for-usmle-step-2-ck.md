@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-use-flashcards-for-usmle-step-2-ck.md"
 title: "كيف تستخدم البطاقات التعليمية لاختبار USMLE Step 2 CK في 2026: أخطاء اختبارات الـ shelf، وقرارات التدبير السريري، وفخاخ الـ vignette التي تترسخ فعلًا"
 description: "هل تحتاج إلى سير عمل عملي لبطاقات USMLE Step 2 CK التعليمية في 2026؟ إليك طريقة تحويل أخطاء بنوك الأسئلة، وملاحظات التدريب السريري، وخوارزميات التدبير، وفخاخ الـ vignette على نمط اختبارات الـ shelf إلى مراجعة FSRS من دون أن تبني كتابًا دراسيًا ثانيًا."
 date: "2026-05-02"

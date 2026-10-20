@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-often-should-you-review-flashcards.md"
 title: "Wie oft Flashcards wiederholen? Lass FSRS die Termine planen"
 description: "Prüfe täglich die fälligen Karten – nicht jeden Tag alle. FSRS passt Intervalle an deinen Abruf, die Desired Retention und eine tragbare Wiederholungslast an."
 date: "2026-07-19"

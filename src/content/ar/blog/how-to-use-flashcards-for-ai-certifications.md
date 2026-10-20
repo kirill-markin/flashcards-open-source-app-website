@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-use-flashcards-for-ai-certifications.md"
 title: "كيف تستخدم البطاقات التعليمية لشهادات الذكاء الاصطناعي في 2026: AWS AI Practitioner وAI-900 وGenAI Leader من دون حفظ الصياغات التسويقية"
 description: "هل تستعد لشهادة ذكاء اصطناعي في 2026؟ إليك سير عمل عملي باستخدام البطاقات التعليمية لـ AWS AI Practitioner وMicrosoft AI-900 أو AI-901 وGoogle Cloud Generative AI Leader، عبر بطاقات واضحة، وأخطاء أسئلة التدريب، ومراجعة باستخدام FSRS."
 date: "2026-04-21"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-use-the-blurting-method-with-flashcards.md"
 title: "So nutzt du 2026 die Blurting-Methode mit Flashcards: Blank-Page-Recall in FSRS-Reviews verwandeln"
 description: "Ein praxisnaher Leitfaden für 2026 zur Blurting-Methode mit Flashcards: Nutze Blank-Page-Recall, um Schwachstellen aufzudecken, verwandle nur die Fehler in klare Karten und überlass FSRS die weitere Planung."
 date: "2026-06-19"

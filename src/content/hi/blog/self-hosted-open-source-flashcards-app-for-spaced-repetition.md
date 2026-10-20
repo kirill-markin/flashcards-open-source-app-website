@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1self-hosted-open-source-flashcards-app-for-spaced-repetition.md"
 title: "स्पेस्ड रिपिटिशन के लिए स्व-होस्टेड ओपन-सोर्स Flashcards ऐप"
 description: "ओपन-सोर्स Nibomo स्टैक को डेवलपमेंट के लिए लोकल रूप से स्व-होस्ट करें या प्रोडक्शन स्पेस्ड रिपिटिशन ऐप के लिए इसके दस्तावेज़ित AWS CDK इन्फ्रास्ट्रक्चर को डिप्लॉय करें।"
 date: "2026-03-08"

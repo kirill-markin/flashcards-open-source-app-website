@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1private-flashcards-with-ai.md"
 title: "بطاقات تعليمية خاصة في 2026: كيف تذاكر بالذكاء الاصطناعي من دون أن تتنازل عن السيطرة"
 description: "تعرّف كيف تحافظ على خصوصية بطاقاتك التعليمية في 2026 عبر تكرار متباعد مفتوح المصدر يعمل بلا اتصال أولًا، مع ذكاء اصطناعي اختياري ومسار واضح للاستضافة الذاتية."
 date: "2026-06-30"

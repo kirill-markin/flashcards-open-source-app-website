@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-use-flashcards-for-the-mpje.md"
 title: "Cómo usar flashcards para el MPJE en 2026: crea un mazo de derecho farmacéutico para preparar el MPJE y el UMPJE"
 description: "¿Preparas el MPJE en 2026? Aquí tienes un flujo práctico con flashcards para el MPJE y el UMPJE: separa el derecho uniforme de las reglas propias de cada estado, convierte los fallos en tarjetas y repásalas con FSRS."
 date: "2026-06-13"

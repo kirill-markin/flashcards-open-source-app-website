@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-turn-voice-notes-into-flashcards.md"
 title: "Wie du 2026 Sprachnotizen in Flashcards verwandelst: Von Audio-Diktaten zu FSRS-Karten, ohne alles neu zu schreiben"
 description: "Du willst 2026 Sprachnotizen in Flashcards verwandeln? Hier ist ein praktischer Workflow: kurze Audionotizen aufnehmen, transkribieren, mit KI saubere Karten entwerfen und das fertige Set mit FSRS lernen, statt das Material im Audio gefangen zu lassen."
 date: "2026-03-28"

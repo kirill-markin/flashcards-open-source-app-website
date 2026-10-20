@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1migrate-from-anki-txt-export-open-source-flashcards.md"
 title: "2026 में Anki से माइग्रेट कैसे करें: सुरक्षित TXT एक्सपोर्ट वर्कफ़्लो"
 description: "मूल कलेक्शन को जोखिम में डाले बिना टेक्स्ट-आधारित Anki कार्ड माइग्रेट करें। .colpkg बैकअप बनाएँ, नोट्स को TXT के रूप में एक्सपोर्ट करें, फ़ील्ड और मीडिया जाँचें, फिर सुरक्षित ढंग से एक छोटा डेक बनाएँ।"
 date: "2026-03-13"

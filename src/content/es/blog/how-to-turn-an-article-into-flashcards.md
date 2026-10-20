@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-turn-an-article-into-flashcards.md"
 title: >-
   Cómo convertir un artículo en tarjetas didácticas en 2026: quédate con las
   ideas útiles y evita el cementerio de subrayados

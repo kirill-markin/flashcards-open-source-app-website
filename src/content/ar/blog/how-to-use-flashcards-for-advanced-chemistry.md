@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-use-flashcards-for-advanced-chemistry.md"
 title: "كيف تستخدم البطاقات التعليمية للكيمياء المتقدمة في المرحلة الثانوية في 2026: المعادلات والاستدلال المخبري وإصلاح الأخطاء"
 description: "سير عمل عملي لبطاقات الكيمياء المتقدمة: المعادلات والاتزان والأحماض والقواعد والاستدلال المخبري وإصلاح أخطاء الإجابات المطوّلة، من دون تحويل المجموعة إلى كتاب دراسي ثانٍ."
 image: "/blog/how-to-use-flashcards-for-advanced-chemistry.png"

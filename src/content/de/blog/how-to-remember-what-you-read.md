@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-remember-what-you-read.md"
 title: "So merkst du dir 2026, was du liest: Verwandle Lesen in Abruf statt in Highlight-Stapel"
 description: "Wenn du Kapitel fertig liest und am nächsten Tag schon wieder fast alles vergessen hast, zeigt dir dieser praktische Workflow für 2026, wie du mit kleineren Leseeinheiten, kurzen Abrufchecks und FSRS-Flashcards mehr von dem behältst, was du liest."
 image: "/blog/how-to-remember-what-you-read.png"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-turn-practice-questions-into-flashcards.md"
 title: "2026 में अभ्यास प्रश्नों को फ़्लैशकार्ड में कैसे बदलें: जिन सवालों में गलती हुई उनसे FSRS डेक बनाएं"
 description: "क्या आप 2026 में अभ्यास प्रश्नों को फ़्लैशकार्ड में बदलना चाहते हैं? यहाँ अभ्यास परीक्षाओं, पुराने प्रश्नपत्रों, प्रश्नोत्तरी के स्क्रीनशॉट, और गलत उत्तरों को AI की मदद से तैयार मसौदे तथा FSRS review के सहारे उपयोगी कार्डों में बदलने का एक व्यावहारिक तरीका है।"
 date: "2026-04-11"

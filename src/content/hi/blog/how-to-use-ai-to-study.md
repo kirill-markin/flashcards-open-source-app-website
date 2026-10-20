@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-use-ai-to-study.md"
 title: "2026 में AI से पढ़ाई कैसे करें: ट्यूटर बनाए रखें, सच में याद रहने वाले फ़्लैशकार्ड्स जोड़ें"
 description: "2026 के लिए AI के साथ पढ़ाई का एक व्यावहारिक तरीका: समझने के लिए AI ट्यूटर और summaries का उपयोग करें, सिर्फ़ कमज़ोर हिस्सों को फ़्लैशकार्ड्स में बदलें, और उन्हें FSRS के साथ review करें ताकि सामग्री अगले हफ़्ते भी याद रहे।"
 date: "2026-05-09"

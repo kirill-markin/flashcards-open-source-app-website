@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1cloze-deletion-vs-basic-flashcards.md"
 title: "بطاقات الحذف (Cloze) أم البطاقات التعليمية الأساسية: متى يفيد السياق، ومتى يسرّب الإجابة"
 description: "قارن بين بطاقات الحذف (Cloze) والبطاقات التعليمية الأساسية، واعرف متى يفيد السياق أو يسرّب الإجابة، واستخدم قاعدة عملية لإنشاء بطاقات أوضح مع FSRS."
 date: "2026-07-13"

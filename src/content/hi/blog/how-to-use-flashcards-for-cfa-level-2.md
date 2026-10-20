@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-use-flashcards-for-cfa-level-2.md"
 title: "2026 में CFA Level II के लिए फ्लैशकार्ड कैसे इस्तेमाल करें: item sets, LOS tags और mock mistakes जो सच में याद रहें"
 description: "2026 में CFA Level II की तैयारी कर रहे हैं? item sets, LOS tags, formula interpretation, CFA Institute practice questions, mocks, और FSRS review के लिए यह practical flashcards workflow अपनाएँ।"
 image: "/blog/how-to-use-flashcards-for-cfa-level-2.png"

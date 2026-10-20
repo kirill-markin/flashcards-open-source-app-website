@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-use-flashcards-for-the-pmp-exam.md"
 title: "2026 में PMP Exam के लिए फ़्लैशकार्ड कैसे इस्तेमाल करें: situational questions, formulas और वे गलतियाँ जो सच में याद रहें"
 description: "क्या आप 2026 में PMP exam की तैयारी कर रहे हैं? यहाँ situational questions, formulas, Business Environment में हुए बदलाव और practice-question misses के लिए AI drafting और FSRS review के साथ एक व्यावहारिक फ़्लैशकार्ड workflow दिया गया है।"
 date: "2026-04-27"

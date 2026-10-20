@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-turn-chatgpt-study-mode-into-flashcards.md"
 title: >-
   Cómo convertir ChatGPT Study Mode en tarjetas didácticas en 2026:
   conserva el tutor, añade repetición espaciada

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-study-for-open-book-exams-with-flashcards.md"
 title: "Wie du 2026 mit Flashcards für Open-Book-Klausuren lernst: Merke dir die Landkarte, nicht das ganze Buch"
 description: "Du bereitest dich 2026 auf eine Open-Book- oder Open-Note-Klausur vor? Nutze diesen praktischen Flashcard-Workflow, um Trigger, Formeln, Fundstellen und Anwendungsmuster zu verinnerlichen, damit du unter Zeitdruck nicht hektisch durch deine Unterlagen suchen musst."
 date: "2026-07-05"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-many-new-flashcards-per-day.md"
 title: "Wie viele neue Flashcards pro Tag im Jahr 2026? So hältst du den FSRS-Wiederholungsaufwand beherrschbar"
 description: "Du fragst dich, wie viele neue Flashcards pro Tag dauerhaft sinnvoll sind? Hier ist die praktische Regel für 2026: Geh von deiner verfügbaren Wiederholungszeit aus, nicht von deinem Ehrgeiz, und setze ein tägliches Limit für neue Karten, das du wirklich schaffst, ohne in fälligen Wiederholungen unterzugehen."
 date: "2026-03-31"

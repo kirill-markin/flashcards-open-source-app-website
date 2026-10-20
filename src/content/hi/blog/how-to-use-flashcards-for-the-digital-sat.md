@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-use-flashcards-for-the-digital-sat.md"
 title: "2026 में Digital SAT के लिए फ़्लैशकार्ड कैसे इस्तेमाल करें: शब्दावली, व्याकरण और गणित जो सच में याद रहें"
 description: "Digital SAT के लिए एक व्यावहारिक फ़्लैशकार्ड तरीका: संदर्भ में शब्द, व्याकरण नियम, गणित के सूत्र, और Bluebook की गलतियों को AI मसौदे तथा FSRS review के साथ बेहतर ढंग से पढ़ने के लिए।"
 date: "2026-04-18"

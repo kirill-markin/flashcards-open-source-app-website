@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-turn-chatgpt-deep-research-into-flashcards.md"
 title: "2026 में ChatGPT Deep Research को फ़्लैशकार्ड्स में कैसे बदलें: citations संभालकर रखें, सिर्फ़ verified हिस्से याद करें"
 description: "2026 में ChatGPT Deep Research इस्तेमाल कर रहे हैं? यह practical workflow Deep Research report में citations के साथ आए findings को साफ़ front/back फ़्लैशकार्ड्स में बदलने, dated claims को याद करने से पहले verify करने, और final deck को FSRS के साथ review करने में मदद करता है।"
 date: "2026-05-27"

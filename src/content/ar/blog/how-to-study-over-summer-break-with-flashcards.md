@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-study-over-summer-break-with-flashcards.md"
 title: "كيف تذاكر خلال العطلة الصيفية باستخدام البطاقات التعليمية في 2026: حافظ على المواد الصعبة حاضرة من دون مجموعة يومية ضخمة"
 description: "خطة عملية للمذاكرة بالبطاقات التعليمية خلال العطلة الصيفية من أجل تثبيت المعلومات، والاستعداد لاختبارات تحديد المستوى أو الإعادة، ومراجعة المتطلبات السابقة. أبقِ مجموعة FSRS صغيرة وفعالة من دون أن يتحول يونيو أو يوليو إلى فصل دراسي جديد."
 image: "/blog/how-to-study-over-summer-break-with-flashcards.png"

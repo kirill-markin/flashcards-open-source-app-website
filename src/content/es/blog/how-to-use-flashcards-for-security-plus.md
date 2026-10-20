@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-use-flashcards-for-security-plus.md"
 title: "Cómo usar flashcards para CompTIA Security+ en 2026: SY0-701, PBQ, puertos y acrónimos que sí se te quedan"
 description: "¿Preparas CompTIA Security+ SY0-701 en 2026? Usa este método práctico con flashcards para PBQ, puertos, acrónimos y fallos en preguntas de práctica con FSRS."
 date: "2026-05-03"

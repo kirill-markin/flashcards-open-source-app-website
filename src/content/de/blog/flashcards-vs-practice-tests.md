@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1flashcards-vs-practice-tests.md"
 title: "Flashcards vs. Übungstests 2026: Wann du was nutzen solltest und wie du beides kombinierst"
 description: "Nutze Flashcards für kleine Fakten und Unterscheidungen, die du später noch parat haben willst. Nutze Übungstests, um prüfungsnahen Abruf, Urteilsvermögen und Tempo zu prüfen. Der beste Lernworkflow kombiniert meistens beides, ohne dieselbe Arbeit doppelt zu machen."
 date: "2026-07-08"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-use-flashcards-for-the-nclex.md"
 title: "2026 में NCLEX के लिए फ्लैशकार्ड कैसे इस्तेमाल करें: NGN case studies, CAT strategy और clinical judgment जो सच में याद रहे"
 description: "2026 में NCLEX की तैयारी कर रहे हैं? NGN case studies, CAT-style गलतियाँ, partial-credit reasoning और exam-week review के लिए यह practical flashcards workflow अपनाइए, बिना अपने deck को दूसरी review book में बदले।"
 date: "2026-05-04"

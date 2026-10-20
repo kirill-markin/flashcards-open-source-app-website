@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-study-a-premade-anki-deck.md"
 title: "كيف تذاكر مجموعة Anki جاهزة في 2026: ما الذي تحتفظ به، وما الذي تعيد صياغته، وما الذي تتعلمه أولًا"
 description: "تستخدم مجموعة Anki جاهزة أو بطاقات مشتركة؟ إليك طريقة عملية لمذاكرة البطاقات المستوردة في 2026 من دون أن ترث عادات مراجعة سيئة، أو بطاقات ضعيفة، أو موضوعات لم تتعلمها أصلًا بعد."
 date: "2026-07-03"

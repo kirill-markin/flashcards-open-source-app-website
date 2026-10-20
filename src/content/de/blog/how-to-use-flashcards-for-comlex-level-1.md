@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-use-flashcards-for-comlex-level-1.md"
 title: "Wie du 2026 Flashcards für COMLEX Level 1 nutzt: OMM, COMSAE-Fehler und Dedicated-Lernen, das wirklich hängen bleibt"
 description: "Du bereitest dich 2026 auf COMLEX Level 1 vor? Hier ist ein praxistauglicher Flashcard-Workflow für OMM, COMSAE-Schwachstellen, Anatomie, Pharmakologie und Fehler aus TrueLearn - mit AI-Entwürfen und FSRS für die Wiederholung."
 date: "2026-05-31"

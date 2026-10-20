@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-turn-notion-notes-into-flashcards.md"
 title: >-
   Cómo convertir notas de Notion en tarjetas didácticas en 2026: exportar,
   redactar con IA y revisar con FSRS

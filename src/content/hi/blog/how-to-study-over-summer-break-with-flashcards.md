@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-study-over-summer-break-with-flashcards.md"
 title: "2026 में summer break में फ़्लैशकार्ड्स से पढ़ाई कैसे करें: बड़ी daily deck के बिना मुश्किल classes याद रखें"
 description: "Retention, placement tests, retakes, और prerequisite refresh के लिए एक practical summer-break flashcard plan। June या July को फिर से school जैसा बनाए बिना एक छोटी FSRS deck चालू रखें।"
 image: "/blog/how-to-study-over-summer-break-with-flashcards.png"

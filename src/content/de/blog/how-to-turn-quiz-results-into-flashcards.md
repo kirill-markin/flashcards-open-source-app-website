@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-turn-quiz-results-into-flashcards.md"
 title: "Wie du 2026 Quiz-Ergebnisse in Flashcards verwandelst: Behalte die Fehler, nicht den Punktebericht"
 description: "Du nutzt 2026 Quizze aus dem Unterricht, LMS-Feedback oder KI-Zusammenfassungen? Hier ist ein praktischer Weg, falsch beantwortete Fragen, Beinahe-Fehler und wiederkehrende Verwechslungen in FSRS-Flashcards zu verwandeln."
 date: "2026-07-10"

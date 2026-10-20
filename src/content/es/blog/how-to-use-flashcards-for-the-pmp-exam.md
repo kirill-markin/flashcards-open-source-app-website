@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-use-flashcards-for-the-pmp-exam.md"
 title: "Cómo usar flashcards para el examen PMP en 2026: preguntas situacionales, fórmulas y errores que de verdad se te quedan"
 description: "¿Te preparas para el examen PMP en 2026? Aquí tienes un flujo práctico de flashcards para preguntas situacionales, fórmulas, cambios en Business Environment y errores en preguntas de práctica, con borradores de IA y repaso con FSRS."
 date: "2026-04-27"

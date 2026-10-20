@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-turn-kindle-highlights-into-flashcards.md"
 title: >-
   Cómo convertir subrayados de Kindle en tarjetas didácticas en 2026: mantén el
   hábito de lectura y añade repetición espaciada de verdad

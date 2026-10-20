@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-use-flashcards-for-ap-world-history.md"
 title: "بطاقات AP World History التعليمية في 2026: الخط الزمني والموضوعات وأدلة DBQ التي تثبت فعلًا"
 description: "هل تحتاج إلى سير عمل عملي لبطاقات AP World History التعليمية في 2026؟ إليك طريقة لمراجعة الخط الزمني، والموضوعات، وأدلة DBQ، والأسئلة التي أخطأت فيها، وصياغة البطاقات بالذكاء الاصطناعي، ومراجعتها عبر FSRS."
 date: "2026-05-22"

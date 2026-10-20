@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-use-flashcards-for-ap-psychology.md"
 title: "2026 में AP Psychology के लिए फ़्लैशकार्ड कैसे इस्तेमाल करें: शब्द, अध्ययन और FRQ साक्ष्य जो सच में याद रहें"
 description: "2026 के लिए AP Psychology फ़्लैशकार्ड चाहिए? यहाँ 12 मई 2026 के पूरी तरह डिजिटल Bluebook exam के लिए शब्दावली, प्रसिद्ध अध्ययनों, शोध-पद्धति और FRQ साक्ष्य पढ़ने का एक व्यावहारिक तरीका है।"
 date: "2026-04-29"

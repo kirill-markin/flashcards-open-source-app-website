@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-catch-up-on-flashcards-after-falling-behind.md"
 title: "Wie du 2026 bei Flashcards wieder aufholst, nachdem du zurückgefallen bist: Review-Backlog reparieren, ohne das Deck zurückzusetzen"
 description: "Eine Woche Flashcards verpasst oder einen riesigen Anki-Backlog aufgebaut? Hier ist ein praktischer Rettungsplan für 2026: neue Karten pausieren, die Review-Warteschlange auf ein überlebbares Maß schrumpfen, schlechte Karten reparieren und ohne kompletten Reset in den täglichen Spaced-Repetition-Rhythmus zurückfinden."
 date: "2026-04-03"

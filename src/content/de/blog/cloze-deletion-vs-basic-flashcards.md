@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1cloze-deletion-vs-basic-flashcards.md"
 title: "Cloze Deletion oder Basic-Flashcards: Wann Kontext hilft – und wann er die Antwort verrät"
 description: "Vergleiche Cloze Deletion mit Basic-Flashcards, erkenne, wann Kontext hilft oder die Antwort verrät, und nutze eine praktische Entscheidungsregel für klare FSRS-Karten."
 date: "2026-07-13"

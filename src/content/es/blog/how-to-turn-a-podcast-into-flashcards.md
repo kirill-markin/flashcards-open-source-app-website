@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-turn-a-podcast-into-flashcards.md"
 title: >-
   Cómo convertir un podcast en tarjetas didácticas en 2026: de la transcripción
   a tarjetas con FSRS sin volver a escuchar todo el episodio

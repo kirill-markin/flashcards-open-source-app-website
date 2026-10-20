@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1cfa-level-3-flashcards.md"
 title: "بطاقات CFA Level III التعليمية في 2026: أنشئ مجموعة مخصصة لمسارك"
 description: "أنشئ بطاقات CFA Level III للأفعال التوجيهية، وقرارات المسار، والصيغ، وأخطاء الاختبارات التجريبية، من دون أن تستبدل بها التدريب الموقّت على الإجابات الإنشائية."
 date: "2026-07-21"

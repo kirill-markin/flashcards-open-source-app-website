@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-use-flashcards-for-the-dat.md"
 title: "Wie du 2026 mit Flashcards für den DAT lernst: Biologie, organische Chemie, PAT und Fehler aus Übungstests, die wirklich hängen bleiben"
 description: "Du bereitest dich 2026 auf den DAT vor? Dieser Leitfaden zeigt dir, wie du mit dem aktuellen ADA-Blueprint, AI-Entwürfen und FSRS-Wiederholung Flashcards für Biologie, organische Chemie, PAT-Fehler und Quantitative Reasoning aufbaust."
 image: "/blog/how-to-use-flashcards-for-the-dat.png"

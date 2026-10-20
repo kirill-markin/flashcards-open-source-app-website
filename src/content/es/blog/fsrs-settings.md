@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1fsrs-settings.md"
 title: "Mejores ajustes de FSRS para Anki en 2026: retención, pasos y carga de repaso"
 description: "Configura con seguridad la retención deseada, los pasos de aprendizaje, la optimización, la reprogramación y la carga de trabajo de FSRS-6 en Anki 26.08."
 date: "2026-04-25"

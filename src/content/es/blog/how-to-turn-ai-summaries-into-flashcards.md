@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-turn-ai-summaries-into-flashcards.md"
 title: "Cómo convertir resúmenes de IA en flashcards en 2026: conserva las afirmaciones, pon a prueba la memoria"
 description: "¿Usas ChatGPT, Gemini, NotebookLM u otro resumidor con IA? Aquí tienes un flujo de trabajo práctico para 2026 con el que convertir resúmenes de IA en flashcards verificadas con FSRS, en vez de memorizar un atajo pulido."
 date: "2026-07-11"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-use-flashcards-for-ap-calculus-ab-bc.md"
 title: "2026 में AP Calculus AB और BC के लिए फ़्लैशकार्ड कैसे इस्तेमाल करें: Limits, Derivatives और FRQ गलतियाँ जो सच में याद रहें"
 description: "2026 के लिए AP Calculus AB/BC फ़्लैशकार्ड का एक व्यावहारिक workflow: limits, derivatives, integrals, Bluebook तैयारी, FRQ गलतियाँ और FSRS review जो सच में टिके।"
 date: "2026-06-26"

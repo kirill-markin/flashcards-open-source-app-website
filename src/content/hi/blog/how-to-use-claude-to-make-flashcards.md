@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-use-claude-to-make-flashcards.md"
 title: "2026 में Claude से फ़्लैशकार्ड्स कैसे बनाएं: Projects, File Uploads और FSRS Review"
 description: "2026 के लिए Claude फ़्लैशकार्ड workflow का एक व्यावहारिक तरीका: Projects और file uploads से छोटे, साफ़ card drafts बनाइए, फिर सिर्फ़ काम के cards को Nibomo में ले जाकर असली FSRS review कीजिए।"
 date: "2026-06-11"

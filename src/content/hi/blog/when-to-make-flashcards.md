@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1when-to-make-flashcards.md"
 title: "2026 में फ़्लैशकार्ड कब बनाएं: सामग्री समझ में आने के बाद, इससे पहले कि बारीकियां धुंधली पड़ें"
 description: "क्या आप सोच रहे हैं कि 2026 में फ़्लैशकार्ड कब बनाने चाहिए? एक व्यावहारिक नियम यह है: पहले सामग्री समझिए, फिर उसी दिन उसके छोटे हिस्से को कार्ड में बदलिए, और review की timing FSRS पर छोड़ दीजिए।"
 image: "/blog/when-to-make-flashcards.png"

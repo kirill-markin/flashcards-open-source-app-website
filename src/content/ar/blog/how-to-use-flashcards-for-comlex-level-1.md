@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-use-flashcards-for-comlex-level-1.md"
 title: "كيف تستخدم البطاقات التعليمية لـ COMLEX Level 1 في 2026: OMM وأخطاء COMSAE ودراسة مكثفة تترسخ فعلًا"
 description: "تستعد لاختبار COMLEX Level 1 في 2026؟ إليك سير عمل عملي للبطاقات التعليمية يغطي OMM ونقاط ضعف COMSAE والتشريح وعلم الأدوية وأخطاء TrueLearn مع صياغة أولية بالـ AI ومراجعة عبر FSRS."
 date: "2026-05-31"

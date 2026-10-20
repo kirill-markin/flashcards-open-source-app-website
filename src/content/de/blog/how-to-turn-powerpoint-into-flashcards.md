@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-turn-powerpoint-into-flashcards.md"
 title: "Wie du 2026 PowerPoint in Flashcards verwandelst: PPT, PPTX und Google Slides, ohne jede Folie neu abzutippen"
 description: "Du willst 2026 PowerPoint oder Google Slides in Flashcards umwandeln? Hier ist ein praktischer Workflow: Hole Text und Sprechernotizen aus dem Deck, bereinige vage Stichpunkte mit KI und wiederhole die fertigen Karten mit FSRS."
 date: "2026-05-24"

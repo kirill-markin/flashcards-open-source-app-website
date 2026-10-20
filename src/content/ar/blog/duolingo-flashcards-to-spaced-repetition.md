@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1duolingo-flashcards-to-spaced-repetition.md"
 title: "بطاقات Duolingo التعليمية (2026): كيف تعمل، وماذا تراجع لاحقًا؟"
 description: "تعرّف على طريقة عمل بطاقات Duolingo (فلاش كاردز) في جولات استرجاع نشط من خمس بطاقات، وموقعها في الدروس، وكيف تحوّل الأخطاء المتكررة إلى مجموعة FSRS صغيرة تديرها بنفسك."
 date: "2026-06-12"

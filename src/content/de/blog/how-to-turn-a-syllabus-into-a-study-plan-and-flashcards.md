@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-turn-a-syllabus-into-a-study-plan-and-flashcards.md"
 title: "Wie du 2026 einen Syllabus in einen Lernplan und Flashcards verwandelst"
 description: "Ein praktischer Workflow für 2026, mit dem du einen Syllabus in einen Wochenplan, eine realistische Wiederholungsroutine und ein kleines FSRS-Flashcard-Deck verwandelst."
 image: "/blog/how-to-turn-a-syllabus-into-a-study-plan-and-flashcards.png"

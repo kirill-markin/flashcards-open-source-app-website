@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-use-flashcards-for-ap-calculus-ab-bc.md"
 title: "Cómo usar flashcards para AP Calculus AB y BC en 2026: límites, derivadas y errores de FRQ que sí se quedan"
 description: "Una forma práctica de estudiar AP Calculus AB/BC con flashcards en 2026: límites, derivadas, integrales, Bluebook, errores de FRQ y repaso con FSRS sin convertir el mazo en otro libro."
 date: "2026-06-26"

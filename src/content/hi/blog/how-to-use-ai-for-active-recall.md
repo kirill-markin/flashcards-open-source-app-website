@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-use-ai-for-active-recall.md"
 title: "2026 में AI से Active Recall कैसे करें: Tutor पहले पूछे, फिर सिर्फ़ कमज़ोर हिस्से बचाइए"
 description: "2026 के लिए AI tutor के साथ active recall का एक practical workflow: पहले सवाल पूछवाइए, जहाँ आप चूके सिर्फ़ वही बचाइए, और पूरी chat सहेजने के बजाय उन्हें FSRS flashcards में बदलिए।"
 date: "2026-05-30"

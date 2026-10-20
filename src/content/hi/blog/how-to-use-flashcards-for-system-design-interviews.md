@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-use-flashcards-for-system-design-interviews.md"
 title: "2026 में सिस्टम डिज़ाइन इंटरव्यू के लिए फ्लैशकार्ड कैसे इस्तेमाल करें: ट्रेड-ऑफ़, बॉटलनेक और आर्किटेक्चर पैटर्न जो सच में याद रहें"
 description: "2026 में सिस्टम डिज़ाइन इंटरव्यू की तैयारी कर रहे हैं? caching, queues, bottlenecks, trade-offs और mock interview misses को active recall और FSRS की मदद से दोहराने का यह एक व्यावहारिक फ्लैशकार्ड workflow है।"
 date: "2026-06-08"

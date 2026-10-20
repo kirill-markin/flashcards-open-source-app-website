@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-use-flashcards-for-ai-certifications.md"
 title: "Wie du 2026 Flashcards für KI-Zertifizierungen nutzt: AWS AI Practitioner, AI-900 und GenAI Leader, ohne Marketingsprache auswendig zu lernen"
 description: "Du bereitest dich 2026 auf eine KI-Zertifizierung vor? Hier ist ein praktischer Flashcard-Workflow für AWS AI Practitioner, Microsoft AI-900 oder AI-901 und Google Cloud Generative AI Leader mit klaren Karten, Fehlern aus Übungsfragen und Wiederholung mit FSRS."
 date: "2026-04-21"

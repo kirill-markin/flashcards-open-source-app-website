@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-use-interleaving-with-flashcards.md"
 title: "Cómo usar la práctica intercalada con flashcards en 2026: mezcla temas sin romper la repetición espaciada"
 description: "Aprende a combinar práctica intercalada, flashcards y FSRS: qué mezclar, qué mantener separado y por qué una práctica más difícil puede mejorar la retención a largo plazo."
 date: "2026-07-14"

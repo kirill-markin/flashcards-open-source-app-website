@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-turn-obsidian-notes-into-flashcards.md"
 title: "2026 में Obsidian Notes को Flashcards में कैसे बदलें: Markdown Vault से FSRS Cards तक, बिना Copy-Paste"
 description: "क्या आप 2026 में Obsidian notes को flashcards में बदलना चाहते हैं? अपने vault से साफ़ Markdown कॉपी या export करें, AI से cards का शुरुआती मसौदा बनवाएँ, और सब कुछ हाथ से फिर से बनाए बिना उन्हें FSRS के साथ review करें।"
 date: "2026-04-25"

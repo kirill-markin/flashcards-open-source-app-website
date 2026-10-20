@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-turn-diagrams-into-flashcards.md"
 title: "كيفية تحويل الرسوم التخطيطية إلى Flashcards في 2026: من الخرائط والمخططات والصور المعلَّمة إلى بطاقات يمكنك مراجعتها فعلًا"
 description: "هل تريد تحويل الرسوم التخطيطية إلى بطاقات تعليمية في 2026؟ إليك سير عمل عملي لرسومات التشريح، والمخططات، والخرائط، والصور المعلَّمة باستخدام الصياغة بالذكاء الاصطناعي مع مراجعة FSRS."
 date: "2026-04-10"

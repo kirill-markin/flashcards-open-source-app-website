@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-make-a-practice-exam-from-your-notes-with-ai.md"
 title: "كيفية إنشاء اختبار تدريبي من ملاحظاتك بالذكاء الاصطناعي في 2026: اختبر نفسك من المصدر ثم احتفِظ فقط بنقاط الضعف"
 description: "هل تريد إنشاء اختبار تدريبي من ملاحظاتك بالذكاء الاصطناعي في 2026؟ استخدم شرائحك وملفات PDF وأدلة الدراسة الخاصة بك لإنشاء اختبار واقعي، ثم راجع الأخطاء واحتفِظ فقط بنقاط الضعف التي تستحق بطاقات تعليمية مع FSRS."
 date: "2026-06-22"

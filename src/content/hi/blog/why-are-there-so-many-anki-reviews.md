@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1why-are-there-so-many-anki-reviews.md"
 title: "2026 में Anki में इतने ज़्यादा reviews क्यों आ रहे हैं? spaced repetition छोड़े बिना review spikes संभालें"
 description: "क्या Anki में आपकी उम्मीद से कहीं ज़्यादा reviews दिख रहे हैं? यह 2026 की practical guide बताती है कि FSRS, new-card limits, learning steps, और retention settings की वजह से review count क्यों उछलता है, और deck reset किए बिना queue को कैसे संभालें।"
 date: "2026-07-04"

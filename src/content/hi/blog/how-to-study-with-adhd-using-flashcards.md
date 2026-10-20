@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-study-with-adhd-using-flashcards.md"
 title: "2026 में ADHD के साथ फ़्लैशकार्ड से पढ़ाई कैसे करें: कम friction, छोटी queues, जल्दी नतीजे"
 description: "2026 में ADHD के लिए practical, non-medical flashcards workflow चाहिए? यहाँ कम startup friction, छोटे review sessions, AI check-ins, साफ़ cards और FSRS के साथ पढ़ाई का ऐसा तरीका है, जिसमें आपकी deck stress का दूसरा source नहीं बनती।"
 date: "2026-05-21"

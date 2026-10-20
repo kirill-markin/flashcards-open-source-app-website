@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-prune-a-flashcard-deck.md"
 title: "2026 में फ्लैशकार्ड डेक की छँटाई कैसे करें: FSRS आपको reviews में दबाने से पहले cards को delete, suspend, या rewrite करें"
 description: "बहुत ज़्यादा फ्लैशकार्ड और बहुत ज़्यादा reviews का मतलब अक्सर यह होता है कि आपके live deck को और discipline नहीं, बल्कि triage चाहिए। 2026 के लिए यह delete, suspend, rewrite, leech cleanup, और FSRS review-load decisions वाला एक practical workflow है।"
 date: "2026-07-01"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-use-ai-for-active-recall.md"
 title: "So nutzt du 2026 KI für Active Recall: Erst fragen lassen, dann nur die Schwachstellen behalten"
 description: "Ein praxistauglicher Active-Recall-Workflow für 2026 mit KI-Tutoren: erst fragen lassen, nur Fehler und wacklige Stellen behalten und daraus FSRS-Flashcards machen statt den ganzen Chat zu speichern."
 date: "2026-05-30"

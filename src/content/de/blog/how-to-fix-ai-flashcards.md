@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-fix-ai-flashcards.md"
 title: "So reparierst du 2026 KI-Flashcards: Überarbeite ChatGPT- und NotebookLM-Entwürfe, bevor du mit FSRS wiederholst"
 description: "Du nutzt 2026 ChatGPT Study Mode, NotebookLM oder ein anderes KI-Tool, um Flashcards zu erstellen? Hier ist ein praktischer Workflow, mit dem du falsche Fakten findest, überladene Karten aufteilst, vage Prompts löschst und das fertige Deck mit FSRS wiederholst."
 date: "2026-04-26"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-use-flashcards-for-nursing-school.md"
 title: "2026 में नर्सिंग स्कूल के लिए फ्लैशकार्ड कैसे इस्तेमाल करें: NCLEX, Pharmacology, Lab Values और Clinical Judgment जो याद रहे"
 description: "2026 में नर्सिंग स्कूल फ्लैशकार्ड के लिए एक व्यावहारिक वर्कफ़्लो चाहिए? यहाँ NCLEX prep, pharmacology, dosage calculations, lab values, prioritization और clinical judgment के लिए फ्लैशकार्ड इस्तेमाल करने का तरीका है, ताकि आपका deck notes की दूसरी copy न बन जाए।"
 date: "2026-04-17"

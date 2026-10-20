@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-turn-perplexity-learn-mode-into-flashcards.md"
 title: >-
   Cómo convertir Perplexity Learn Mode en flashcards en 2026: usa la búsqueda
   guiada y repasa los puntos débiles con FSRS

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-study-for-finals-with-flashcards.md"
 title: "Cómo estudiar para los exámenes finales con flashcards en 2026: apuntes, diapositivas y fallos de práctica en un solo plan con FSRS"
 description: "Un flujo práctico para la semana de finales: convertir apuntes, diapositivas, chats de estudio con IA y fallos en exámenes de práctica en flashcards de anverso y reverso que de verdad puedas terminar de repasar antes del examen."
 image: "/blog/how-to-study-for-finals-with-flashcards.png"

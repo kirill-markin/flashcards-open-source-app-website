@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-use-flashcards-for-ap-biology.md"
 title: "2026 में AP Biology के लिए फ़्लैशकार्ड कैसे इस्तेमाल करें: Cells, FRQs और ऐसा डेटा जो सच में याद रहे"
 description: "2026 में AP Biology फ़्लैशकार्ड के लिए एक practical workflow चाहिए? यहाँ 4 May 2026 के hybrid digital exam से पहले processes, experiments, FRQ verbs और high-weight units पढ़ने का सीधा तरीका है।"
 date: "2026-04-30"

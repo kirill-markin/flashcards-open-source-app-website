@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-use-flashcards-for-coding-interviews.md"
 title: "Wie du 2026 Flashcards für Coding-Interviews nutzt: LeetCode-Muster, Fehler und Konzepte, die wirklich hängen bleiben"
 description: "Du brauchst 2026 Flashcards für Coding-Interviews? Hier ist ein praktisches System, mit dem du LeetCode-Fehler, Algorithmenmuster und Notizen aus technischen Interviews mit FSRS in ein Spaced-Repetition-System überführst."
 date: "2026-04-14"

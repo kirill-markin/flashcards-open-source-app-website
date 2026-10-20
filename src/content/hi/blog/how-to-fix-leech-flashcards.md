@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-fix-leech-flashcards.md"
 title: "2026 में leech flashcards कैसे ठीक करें: उन cards का क्या करें जिन्हें आप बार-बार गलत करते हैं"
 description: "क्या आप वही फ़्लैशकार्ड बार-बार भूल रहे हैं? 2026 का यह व्यावहारिक leech-card workflow बताता है कि कोई card बार-बार क्यों fail होता है, उसे कब rewrite या split करना चाहिए, weak prompts कब delete करने चाहिए, और FSRS को सिर्फ़ उन cards पर कैसे केंद्रित रखना चाहिए जिनका review करना वाकई फायदेमंद है।"
 date: "2026-07-07"

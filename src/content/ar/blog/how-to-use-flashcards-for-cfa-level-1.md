@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-use-flashcards-for-cfa-level-1.md"
 title: "كيف تستخدم البطاقات التعليمية لاختبار CFA Level I في 2026: الصيغ، والأخلاقيات، وأخطاء الاختبارات التجريبية التي لا تُنسى"
 description: "تستعد لاختبار CFA Level I في 2026؟ هذا سير عمل عملي للبطاقات التعليمية يغطي الصيغ، والأخلاقيات، وتحليل القوائم المالية، وأوزان الموضوعات، وأخطاء الاختبارات التجريبية، والمراجعة باستخدام FSRS."
 date: "2026-04-23"

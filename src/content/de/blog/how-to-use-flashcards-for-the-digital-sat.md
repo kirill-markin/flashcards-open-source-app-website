@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-use-flashcards-for-the-digital-sat.md"
 title: "Wie du 2026 Flashcards für den Digital SAT nutzt: Wortschatz, Grammatik und Mathe, die wirklich hängen bleiben"
 description: "Praktischer Flashcard-Workflow für den Digital SAT: Wörter im Kontext, Grammatikregeln, Matheformeln und Bluebook-Fehler mit KI-Entwürfen plus FSRS-Wiederholung."
 date: "2026-04-18"

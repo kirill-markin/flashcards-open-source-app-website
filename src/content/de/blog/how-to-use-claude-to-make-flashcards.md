@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-use-claude-to-make-flashcards.md"
 title: "So erstellst du 2026 mit Claude Lernkarten: Projects, Datei-Uploads und FSRS-Wiederholung"
 description: "Ein praktischer Claude-Flashcards-Workflow für 2026: Nutze Projects und Datei-Uploads für kleinere, sauberere Kartenentwürfe und verschiebe dann nur die brauchbaren Karten in Nibomo für echte FSRS-Wiederholung."
 date: "2026-06-11"

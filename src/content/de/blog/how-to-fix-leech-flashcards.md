@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-fix-leech-flashcards.md"
 title: "Leech-Flashcards reparieren 2026: Was du mit Karten tun kannst, die du ständig falsch beantwortest"
 description: "Du vergisst immer wieder dieselben Flashcards? Hier ist ein praktischer Workflow für Leech-Karten im Jahr 2026: Finde heraus, warum eine Karte ständig scheitert, schreibe sie um oder teile sie auf, lösche schwache Prompts und halte FSRS auf Karten fokussiert, die Wiederholungen wirklich wert sind."
 date: "2026-07-07"

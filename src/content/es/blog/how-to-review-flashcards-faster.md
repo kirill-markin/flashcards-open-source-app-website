@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-review-flashcards-faster.md"
 title: "Cómo repasar flashcards más rápido en 2026: termina el repaso diario sin agotarte"
 description: "Guía práctica de 2026 sobre cómo repasar flashcards más rápido: elimina la fricción de las tarjetas lentas, recorta el exceso de repaso y mantén tu carga diaria en un nivel que de verdad puedas terminar con FSRS."
 date: "2026-04-19"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-back-up-flashcards.md"
 title: "كيف تنشئ نسخة احتياطية للبطاقات التعليمية في 2026: نسخة Anki الاحتياطية، وتصدير Quizlet، ومجموعة تظل ملكك فعلًا"
 description: "هل تحتاج إلى خطة حقيقية لنسخ البطاقات التعليمية احتياطيًا في 2026؟ إليك طريقة عملية لنسخ Anki احتياطيًا، وتصدير ما يتيحه Quizlet فعلًا، وحفظ الوسائط، والاحتفاظ بنسخة بنص عادي، وتجنّب حبس موادك الدراسية داخل تطبيق واحد."
 image: "/blog/how-to-back-up-flashcards.png"

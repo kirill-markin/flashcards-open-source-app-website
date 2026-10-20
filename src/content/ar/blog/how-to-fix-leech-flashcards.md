@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-fix-leech-flashcards.md"
 title: "كيف تصلح بطاقات leech التعليمية في 2026: ماذا تفعل مع البطاقات التي تواصل الإجابة عنها خطأً"
 description: "هل تواصل نسيان البطاقات التعليمية نفسها؟ إليك سير عمل عملي في 2026 للتعامل مع بطاقات leech: شخّص سبب استمرار فشل البطاقة، وأعد كتابتها أو قسّمها، واحذف المطالبات الضعيفة، وأبقِ FSRS مركزًا على البطاقات التي تستحق المراجعة."
 date: "2026-07-07"

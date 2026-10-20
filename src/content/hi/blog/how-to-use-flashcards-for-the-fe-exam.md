@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-use-flashcards-for-the-fe-exam.md"
 title: "2026 में FE Exam के लिए फ़्लैशकार्ड कैसे इस्तेमाल करें: equations, unit conversions और practice-problem गलतियाँ जो सच में याद रहें"
 description: "क्या आप 2026 में FE exam की तैयारी कर रहे हैं? यहाँ equations, unit conversions, handbook-based review, conceptual traps और practice-problem गलतियों के लिए spaced repetition के साथ एक व्यावहारिक flashcards workflow दिया गया है, जो problem sets की जगह नहीं लेता।"
 date: "2026-07-02"

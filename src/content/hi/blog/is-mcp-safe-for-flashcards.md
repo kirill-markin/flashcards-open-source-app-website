@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1is-mcp-safe-for-flashcards.md"
 title: "क्या Flashcards के लिए MCP सुरक्षित है? 2026 में अनुमतियाँ, प्राइवेसी और लिखने की पहुँच"
 description: "क्या Flashcards के लिए MCP सुरक्षित है? समझें कि OAuth क्या बचाता है, AI क्लाइंट क्या पढ़ या बदल सकते हैं, और कनेक्ट करने से पहले प्राइवेसी व लिखने के जोखिम कैसे सीमित करें।"
 date: "2026-07-12"

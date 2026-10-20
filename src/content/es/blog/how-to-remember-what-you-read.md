@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-remember-what-you-read.md"
 title: "Cómo recordar lo que lees en 2026: convierte la lectura en recuerdo activo en vez de acumular subrayados"
 description: "Si terminas capítulos y al día siguiente ya casi no recuerdas nada, este flujo práctico de 2026 te enseña cómo recordar lo que lees con bloques más pequeños, comprobaciones de recuerdo y flashcards con FSRS."
 image: "/blog/how-to-remember-what-you-read.png"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-use-flashcards-for-the-pance.md"
 title: "2026 में PANCE के लिए फ़्लैशकार्ड कैसे इस्तेमाल करें: ब्लूप्रिंट टैग, प्रैक्टिस एग्जाम फीडबैक और 300 सवालों की सहनशक्ति"
 description: "2026 में PANCE की तैयारी कर रहे हैं? यहाँ जनवरी 2025 NCCPA blueprint, clinical vignette misses, official practice exam feedback, और 300 सवालों वाली परीक्षा की pacing demands पर आधारित एक practical flashcards workflow दिया गया है।"
 date: "2026-06-05"
