@@ -158,7 +158,7 @@ Aquí tens cinc exemples habituals de com convertir errors en targetes:
 
 No copiïs una pregunta oficial sencera i la seva explicació en una sola targeta. Escriu amb les teves paraules la lliçó que has comprovat. Deixa l’exercici complet al material de pràctica i conserva a la baralla només el contingut breu que vols recordar.
 
-[Com convertir preguntes de pràctica en targetes d’estudi el 2026](/blog/how-to-turn-practice-questions-into-flashcards/) aprofundeix en les mancances de coneixements, les distincions, les seqüències i les targetes sobre patrons de paranys. [Targetes d’estudi o simulacres d’examen el 2026](/blog/flashcards-vs-practice-tests/) explica per què la targeta i la pregunta nova següent han de continuar sent passos separats.
+[Targetes d’estudi o simulacres d’examen el 2026](/blog/flashcards-vs-practice-tests/) explica per què la targeta i la pregunta nova següent han de continuar sent passos separats.
 
 ## Revisa una baralla antiga del TOEFL abans d’estudiar-la
 
@@ -180,8 +180,6 @@ Després, classifica els resultats en tres grups:
 3. **Elimina o arxiva:** instruccions de tasques, temps, puntuacions i plantilles que només descriuen el format anterior al 21 de gener de 2026.
 
 A continuació, compara les etiquetes de tasca restants amb els 12 noms actuals d’ETS. Assigna a cada targeta que depengui del format una font oficial actual d’ETS. També pots afegir-hi l’etiqueta `verified-2026` i la data de comprovació com a metadades complementàries. Aquí les dates importen perquè ETS pot actualitzar l’examen. El vocabulari estable no necessita el mateix tractament.
-
-Si la baralla és gran, [Com reduir una baralla de targetes d’estudi el 2026](/blog/how-to-prune-a-flashcard-deck/) ofereix un procés pràctic d’eliminació i reescriptura.
 
 ## Fes servir la repetició espaiada per retenir coneixements, no per simular l’examen
 

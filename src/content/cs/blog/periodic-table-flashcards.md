@@ -244,7 +244,7 @@ Začněte tím, co si skutečně pamatujete, i kdyby to měl ukázat jen pětimi
 6. **Rozložení tabulky procvičujte mimo balíček.** Vyplňujte prázdnou tabulku a nahlas si říkejte záchytné body pro skupiny nebo periody. Samostatné kartičky vás prostorové uspořádání nenaučí.
 7. **Vracejte se k chemii.** Čtěte vzorce, vysvětlete trend, napište elektronovou konfiguraci a řešte neznámé úlohy. Z každé opakované chyby může vzniknout jedna malá kartička na její odstranění.
 
-Při rozšiřování balíčku udržujte denní objem opakování zvládnutelný. Anglický článek [Kolik nových kartiček denně?](/blog/how-many-new-flashcards-per-day/) vysvětluje, jak počet nových kartiček řídit podle počtu kartiček naplánovaných k opakování, místo abyste vycházeli jen z vlastních ambicí.
+Při rozšiřování balíčku udržujte denní objem opakování zvládnutelný. Počet nových kartiček přizpůsobte počtu kartiček naplánovaných k opakování.
 
 ## Hotové balíčky pro tři různé úkoly
 

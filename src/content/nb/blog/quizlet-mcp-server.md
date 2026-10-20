@@ -101,7 +101,7 @@ En offentlig grensesnittkontrakt fjerner noe av gjettingen rundt integrasjonen, 
 
 Nibomo skiller leseoperasjoner fra skriveverktøyene: `sql_execute` for kort og kortstokker, `submit_review` for repetisjoner. OAuth-tilgangsopplysningene dekker likevel hele grensesnittet til koblingen, så blokkering av verktøy og krav om godkjenning avhenger av klienten. Begynn med et lite arbeidsområde uten sensitive opplysninger. La agenten bare lese dataene oppgaven krever, krev godkjenning for hvert skrivekall når klienten støtter det, og kontroller arbeidsområdet og den foreslåtte endringen før du godtar den.
 
-Ikke koble til privat studiemateriale før du har kontrollert KI-klientens vilkår for lagring og behandling av data. Den detaljerte trusselmodellen finnes i [Er MCP trygt for læringskort?](/blog/is-mcp-safe-for-flashcards/). For en første overføring holder det med en enkel regel: Behold råeksporten, forhåndsvis noen kort, godkjenn en avgrenset skriveoperasjon og kontroller resultatet i målappen før du gjør mer.
+Ikke koble til privat studiemateriale før du har kontrollert KI-klientens vilkår for lagring og behandling av data. For en første overføring holder det med en enkel regel: Behold råeksporten, forhåndsvis noen kort, godkjenn en avgrenset skriveoperasjon og kontroller resultatet i målappen før du gjør mer.
 
 ## Ikke gjør privat nettlesertrafikk til et API
 

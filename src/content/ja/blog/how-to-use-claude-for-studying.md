@@ -218,7 +218,7 @@ Anthropicの[ウェブ検索ガイド](https://support.claude.com/en/articles/10
 
 > [Claude に接続](https://claude.ai/directory/nibomo) · [ドキュメント](/docs/mcp-connector/)
 
-Nibomoを使っている場合は、MCPでClaudeと接続します。MCPはアシスタントとNibomoをつなぐ仕組みです。接続後は、自分で確認して承認したカードを保存するようClaudeに頼めます。設定手順は[Claudeコネクタのガイド](/blog/how-to-connect-flashcards-to-claude-with-mcp/)に、ほかの対応アシスタントの接続方法は[MCPコネクタのリファレンス](/docs/mcp-connector/)にあります。
+Nibomoを使っている場合は、MCPでClaudeと接続します。MCPはアシスタントとNibomoをつなぐ仕組みです。接続後は、自分で確認して承認したカードを保存するようClaudeに頼めます。設定手順と対応アシスタントの接続方法は、[MCPコネクタのリファレンス](/docs/mcp-connector/)にあります。
 
 復習の時期が来たカードは、[Nibomoアプリ](https://app.nibomo.com/)でも、MCPでNibomoに接続したClaudeやCodexとのチャットでも復習できます。アプリでは、まず答えを思い出し、正解を表示してから、どのくらい思い出せたかを評価します。
 

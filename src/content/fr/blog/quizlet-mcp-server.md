@@ -101,7 +101,7 @@ Un contrat d’interface public réduit les incertitudes d’intégration, mais 
 
 Nibomo sépare les opérations de lecture de ses outils d’écriture : `sql_execute` pour les cartes et les paquets, `submit_review` pour les révisions. Les informations d’authentification OAuth couvrent toutefois l’ensemble de l’interface du connecteur ; le blocage des outils et les modalités d’approbation dépendent donc du client. Commencez par un petit espace de travail sans données sensibles. Ne laissez l’agent lire que les données nécessaires à la tâche, exigez une approbation à chaque appel d’écriture lorsque le client le permet et examinez l’espace de travail ainsi que la modification proposée avant de l’accepter.
 
-Ne connectez pas de contenu d’étude privé avant d’avoir vérifié les conditions de conservation et de traitement des données du client d’IA. Le modèle de menace détaillé se trouve dans [MCP est-il sûr pour les cartes de révision ?](/blog/is-mcp-safe-for-flashcards/). Pour un premier transfert, une règle simple suffit : conservez l’export brut, prévisualisez quelques cartes, approuvez une écriture limitée et vérifiez le résultat dans l’application de destination avant d’aller plus loin.
+Ne connectez pas de contenu d’étude privé avant d’avoir vérifié les conditions de conservation et de traitement des données du client d’IA. Pour un premier transfert, une règle simple suffit : conservez l’export brut, prévisualisez quelques cartes, approuvez une écriture limitée et vérifiez le résultat dans l’application de destination avant d’aller plus loin.
 
 ## Ne transformez pas le trafic privé du navigateur en API
 

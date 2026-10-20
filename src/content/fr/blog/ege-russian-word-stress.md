@@ -100,6 +100,6 @@ Supposons que vous vous soyez trompé aux numéros 4, 10 et 12. Créez trois car
 
 Essayez de reprendre ce petit paquet demain, puis quelques jours plus tard. C’est un exemple de calendrier de départ, pas un intervalle obligatoire pour chaque mot. Si votre application planifie les révisions, faites celles qu’elle vous propose et indiquez honnêtement vos erreurs. Une fois que vous répondez correctement et avec assurance, ajoutez une nouvelle petite série tirée de la liste en vigueur, tout en continuant à revoir les mots précédents.
 
-Nibomo propose un [paquet indépendant « Орфоэпия ЕГЭ-2026 » de 192 cartes](/catalog/packages/ege-2026-russian-orthoepy-flashcards/). Il n’est ni affilié au FIPI ni approuvé par cet organisme ; nous n’affirmons pas ici qu’il correspond aux documents définitifs de 2027. Examinez son contenu et sa source avant de commencer. Pour travailler avec un ensemble plus volumineux, consultez le [guide d’utilisation des paquets déjà créés](/blog/how-to-study-a-premade-anki-deck/).
+Nibomo propose un [paquet indépendant « Орфоэпия ЕГЭ-2026 » de 192 cartes](/catalog/packages/ege-2026-russian-orthoepy-flashcards/). Il n’est ni affilié au FIPI ni approuvé par cet organisme ; nous n’affirmons pas ici qu’il correspond aux documents définitifs de 2027. Examinez son contenu et sa source avant de commencer.
 
 Vous pouvez terminer la première séance avec trois cartes précises et un programme clair pour demain. Si vous n’avez fait aucune erreur, prenez la série suivante dans la liste de votre année et testez-vous de la même manière.

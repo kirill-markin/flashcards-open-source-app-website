@@ -244,7 +244,7 @@ Begin met vaststellen wat je al kunt, al is het maar met een zelftoets van vijf 
 6. **Oefen de indeling buiten de kaartenset.** Vul een lege tabel in en benoem hardop de ankerpunten voor groepen of perioden. Losse kaarten leren je op zichzelf niet waar elementen staan.
 7. **Ga terug naar scheikundeopgaven.** Lees formules, verklaar een trend, schrijf een elektronenconfiguratie en los nieuwe opgaven op. Van elke terugkerende fout kun je één gerichte oefenkaart maken.
 
-Houd de dagelijkse hoeveelheid herhalingen haalbaar terwijl je de kaartenset uitbreidt. [Hoeveel nieuwe flashcards per dag?](/blog/how-many-new-flashcards-per-day/) legt uit hoe je het aantal nieuwe kaarten afstemt op de herhalingen die klaarstaan, in plaats van op je ambities.
+Houd de dagelijkse hoeveelheid herhalingen haalbaar terwijl je de kaartenset uitbreidt. Stem het aantal nieuwe kaarten af op de herhalingen die klaarstaan.
 
 ## Kant-en-klare kaartensets voor drie verschillende doelen
 

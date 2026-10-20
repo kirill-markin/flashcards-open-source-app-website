@@ -101,7 +101,7 @@ Kontrak antarmuka publik mengurangi sebagian ketidakpastian integrasi, tetapi ti
 
 Nibomo memisahkan operasi baca dari alat tulisnya: `sql_execute` untuk kartu dan dek, `submit_review` untuk pengulangan belajar. Kredensial OAuth tetap mencakup seluruh antarmuka konektor, sehingga pemblokiran alat dan mekanisme persetujuan bergantung pada klien. Mulailah dengan ruang kerja kecil tanpa data sensitif. Izinkan agen membaca hanya data yang diperlukan untuk tugas tersebut, wajibkan persetujuan untuk setiap pemanggilan alat tulis jika klien mendukungnya, dan periksa ruang kerja serta usulan perubahan sebelum menyetujuinya.
 
-Jangan hubungkan materi belajar pribadi sebelum memeriksa ketentuan retensi dan penanganan data dari klien AI. Model ancaman yang lebih terperinci tersedia dalam [Apakah MCP Aman untuk Kartu Belajar?](/blog/is-mcp-safe-for-flashcards/). Untuk pemindahan pertama, aturan sederhana sudah cukup: simpan ekspor mentah, lihat pratinjau beberapa kartu, setujui operasi tulis dengan cakupan terbatas, dan periksa hasilnya di aplikasi tujuan sebelum melanjutkan.
+Jangan hubungkan materi belajar pribadi sebelum memeriksa ketentuan retensi dan penanganan data dari klien AI. Untuk pemindahan pertama, aturan sederhana sudah cukup: simpan ekspor mentah, lihat pratinjau beberapa kartu, setujui operasi tulis dengan cakupan terbatas, dan periksa hasilnya di aplikasi tujuan sebelum melanjutkan.
 
 ## Jangan jadikan lalu lintas browser privat sebagai API
 

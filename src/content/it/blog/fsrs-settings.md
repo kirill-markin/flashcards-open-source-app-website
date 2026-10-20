@@ -101,7 +101,7 @@ Simula tre scenari prima di modificare la configurazione in uso:
 2. L'obiettivo di ritenzione che stai considerando.
 3. Lo stesso obiettivo con meno nuove carte al giorno.
 
-La terza simulazione verifica un'alternativa comune: mantenere l'obiettivo di ricordo e rallentare l'arrivo di nuovo materiale. Se la previsione diventa gestibile, non serve accettare di dimenticare di più solo per alleggerire la coda. La guida [Quante nuove flashcard al giorno?](/blog/how-many-new-flashcards-per-day/) approfondisce il ritmo di introduzione delle carte.
+La terza simulazione verifica un'alternativa comune: mantenere l'obiettivo di ricordo e rallentare l'arrivo di nuovo materiale. Se la previsione diventa gestibile, non serve accettare di dimenticare di più solo per alleggerire la coda.
 
 Entrambi gli strumenti producono stime. Giorni saltati, carte modificate, nuovo materiale e cambiamenti nelle abitudini di valutazione possono far divergere il carico reale dal grafico. Usa il confronto per scegliere una direzione, non per prometterti una coda precisa tra mesi.
 

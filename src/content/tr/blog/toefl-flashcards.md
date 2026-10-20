@@ -158,7 +158,7 @@ Bir alıştırma hatasını, ancak neyin yanlış gittiğini anladıktan sonra k
 
 Resmî bir sorunun tamamını ve cevap gerekçesini tek karta kopyalamayın. Hatadan çıkardığınız ve doğruladığınız sonucu kendi sözlerinizle yazın. Sorunun tamamı alıştırma materyalinde kalsın; destede yalnızca hatırlamanız gereken küçük parçayı tutun.
 
-[2026'da Alıştırma Soruları Bilgi Kartlarına Nasıl Dönüştürülür?](/blog/how-to-turn-practice-questions-into-flashcards/) yazısı bilgi eksiklerini, ayrımları, sıralamaları ve çeldirici kalıbı kartlarını daha ayrıntılı ele alıyor. [2026'da Bilgi Kartları ve Deneme Sınavları](/blog/flashcards-vs-practice-tests/) ise kartın ve ardından çözülecek yeni sorunun neden ayrı adımlar olarak kalması gerektiğini açıklıyor.
+[2026'da Bilgi Kartları ve Deneme Sınavları](/blog/flashcards-vs-practice-tests/) ise kartın ve ardından çözülecek yeni sorunun neden ayrı adımlar olarak kalması gerektiğini açıklıyor.
 
 ## Eski bir TOEFL destesini tekrar etmeye başlamadan önce inceleyin
 
@@ -180,8 +180,6 @@ Ardından sonuçları üç gruba ayırın:
 3. **Silin veya arşivleyin:** yalnızca 21 Ocak 2026 öncesindeki formatı anlatan görev yönergeleri, süreler, puanlama bilgileri ve şablonlar.
 
 Sonra kalan görev etiketlerini güncel 12 ETS görev adıyla karşılaştırın. Formata özgü her karta güncel ve resmî bir ETS kaynağı ekleyin. Ek bilgi olarak `verified-2026` etiketi ve kontrol ettiğiniz tarihi de ekleyebilirsiniz. ETS sınavı güncelleyebildiği için burada tarihler önemlidir. Değişmeyen kelime bilgisi aynı işlemi gerektirmez.
-
-Deste büyükse [2026'da Bilgi Kartı Destesi Nasıl Sadeleştirilir?](/blog/how-to-prune-a-flashcard-deck/) yazısında silme ve yeniden yazma için uygulanabilir bir iş akışı bulabilirsiniz.
 
 ## Aralıklı tekrarı sınavı taklit etmek için değil, bilgiyi korumak için kullanın
 

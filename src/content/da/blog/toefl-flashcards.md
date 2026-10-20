@@ -158,7 +158,7 @@ Her er fem almindelige måder at omsætte fejl til kort på:
 
 Kopiér ikke et helt officielt spørgsmål og dets svarforklaring over på ét kort. Skriv det, du har lært og kontrolleret, med dine egne ord. Lad den fulde opgave blive i øvelsesmaterialet, og behold kun det lille stykke stof, du vil huske, i kortsættet.
 
-[Sådan laver du øvelsesspørgsmål om til flashcards i 2026](/blog/how-to-turn-practice-questions-into-flashcards/) går mere i dybden med huller i faktaviden, skelnen mellem begreber, rækkefølger og kort om typiske fælder. [Flashcards eller øveprøver i 2026](/blog/flashcards-vs-practice-tests/) forklarer, hvorfor kortet og det næste nye spørgsmål bør forblive separate trin.
+[Flashcards eller øveprøver i 2026](/blog/flashcards-vs-practice-tests/) forklarer, hvorfor kortet og det næste nye spørgsmål bør forblive separate trin.
 
 ## Gennemgå et gammelt TOEFL-kortsæt, før du repeterer det
 
@@ -180,8 +180,6 @@ Sortér derefter resultaterne i tre grupper:
 3. **Fjern eller arkivér:** opgavevejledninger, tidsgrænser, bedømmelse og skabeloner, der kun beskriver formatet fra før den 21. januar 2026.
 
 Sammenlign derefter de tilbageværende opgavetags med de 12 aktuelle ETS-opgavenavne. Tilføj en aktuel officiel ETS-kilde til hvert formatspecifikt kort. Du kan også tilføje tagget `verified-2026` og kontroldatoen som supplerende metadata. Datoer betyder noget her, fordi ETS kan opdatere prøven. Stabilt ordforråd behøver ikke den samme behandling.
-
-Hvis kortsættet er stort, giver [Sådan rydder du op i et flashcard-sæt i 2026](/blog/how-to-prune-a-flashcard-deck/) en praktisk fremgangsmåde til sletning og omskrivning.
 
 ## Brug intervalrepetition til at huske stoffet, ikke til at simulere prøven
 

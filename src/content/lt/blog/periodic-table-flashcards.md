@@ -244,7 +244,7 @@ Pradėkite nuo savo žinių patikrinimo, net jei tam skirsite tik penkias minute
 6. **Lentelės išdėstymą atkurkite atskirai nuo kortelių.** Užpildykite tuščią lentelę ir garsiai įvardykite grupių ar periodų atraminius taškus. Pavienės kortelės savaime neišmoko erdvinio išdėstymo.
 7. **Grįžkite prie chemijos.** Skaitykite formules, paaiškinkite periodinį kitimą, užrašykite elektronų konfigūraciją ir spręskite nepažįstamus uždavinius. Kiekviena pasikartojanti klaida gali tapti viena nedidele taisymo kortele.
 
-Plėsdami rinkinį išlaikykite realistišką kasdienio kartojimo krūvį. Straipsnyje [Kiek naujų mokymosi kortelių pridėti per dieną?](/blog/how-many-new-flashcards-per-day/) (anglų kalba) paaiškinama, kaip naujų kortelių skaičių rinktis pagal jau suplanuotų kartojimų kiekį, o ne vien pagal užmojį.
+Plėsdami rinkinį išlaikykite realistišką kasdienio kartojimo krūvį. Naujų kortelių skaičių rinkitės pagal jau suplanuotų kartojimų kiekį.
 
 ## Parengti rinkiniai trims skirtingoms užduotims
 

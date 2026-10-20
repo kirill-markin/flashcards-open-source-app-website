@@ -15,7 +15,7 @@ keywords:
 
 O Claude pode salvar flashcards diretamente no seu espaço de trabalho do Nibomo pelo conector MCP publicado. Conecte Nibomo pelo diretório do Claude, entre no Nibomo e escolha quais ações o Claude pode executar sem pedir autorização a cada vez.
 
-As capturas da configuração manual foram verificadas no Claude Desktop em 20 de setembro de 2026. Para entrar por REST e chave API, consulte o [guia de login para agentes](/blog/claude-code-codex-openclaw-flashcards-login/).
+As capturas da configuração manual foram verificadas no Claude Desktop em 20 de setembro de 2026. Para entrar por REST e chave API, consulte o [documentação da API](/pt/docs/api/).
 
 ![Uma entrega de materiais em uma biblioteca ilustra o acesso de leitura e a necessidade de aprovação antes de fazer alterações](/blog/how-to-connect-nibomo-to-claude-mcp.png)
 

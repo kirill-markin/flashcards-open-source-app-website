@@ -158,7 +158,7 @@ Laikykitės tokios eigos:
 
 Nekopijuokite viso oficialaus klausimo ir jo paaiškinimo į vieną kortelę. Patikrintą išvadą užrašykite savais žodžiais. Visą užduotį palikite pratybų medžiagoje, o rinkinyje laikykite tik nedidelį įsimintiną dalyką.
 
-Straipsnyje [„Kaip bandomųjų užduočių klausimus paversti mokymosi kortelėmis 2026 m.“](/blog/how-to-turn-practice-questions-into-flashcards/) išsamiau aptariamos faktų spragos, skirtumai, sekos ir klaidinančių variantų modelių kortelės. Straipsnyje [„Mokymosi kortelės ar bandomieji testai 2026 m.“](/blog/flashcards-vs-practice-tests/) paaiškinama, kodėl kortelė ir kitas naujas klausimas turėtų likti atskiri žingsniai.
+Straipsnyje [„Mokymosi kortelės ar bandomieji testai 2026 m.“](/blog/flashcards-vs-practice-tests/) paaiškinama, kodėl kortelė ir kitas naujas klausimas turėtų likti atskiri žingsniai.
 
 ## Prieš kartodami seną TOEFL rinkinį, jį peržiūrėkite
 
@@ -180,8 +180,6 @@ Tada rezultatus suskirstykite į tris grupes:
 3. **Pašalinti arba archyvuoti:** užduočių nurodymus, trukmę, vertinimą ir šablonus, aprašančius tik iki 2026 m. sausio 21 d. galiojusį formatą.
 
 Tada palyginkite likusias užduočių žymas su 12 dabartinių ETS užduočių pavadinimų. Kiekvienai nuo formato priklausančiai kortelei priskirkite dabartinį oficialų ETS šaltinį. Kaip papildomus metaduomenis taip pat galite pridėti žymą `verified-2026` ir patikrinimo datą. Datos čia svarbios, nes ETS gali atnaujinti egzaminą. Nekintančiam žodynui tokios priežiūros nereikia.
-
-Jei rinkinys didelis, straipsnyje [„Kaip sumažinti mokymosi kortelių rinkinį 2026 m.“](/blog/how-to-prune-a-flashcard-deck/) rasite praktišką šalinimo ir perrašymo eigą.
 
 ## Intervalinį kartojimą naudokite žinioms išlaikyti, o ne egzaminui imituoti
 

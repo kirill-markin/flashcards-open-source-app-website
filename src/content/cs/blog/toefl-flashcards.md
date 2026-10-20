@@ -158,7 +158,7 @@ Tady je pět běžných příkladů, jak z chyby vytvořit kartičku:
 
 Nekopírujte na jednu kartičku celou oficiální otázku a zdůvodnění. Ověřené poučení napište vlastními slovy. Celou úlohu nechte v cvičném materiálu a v sadě ponechte jen krátké poučení k zapamatování.
 
-Článek [Jak v roce 2026 převádět cvičné otázky na kartičky](/blog/how-to-turn-practice-questions-into-flashcards/) podrobněji rozebírá mezery ve znalostech faktů, rozlišování pojmů, posloupnosti a kartičky na typické chytáky. [Kartičky versus cvičné testy v roce 2026](/blog/flashcards-vs-practice-tests/) vysvětluje, proč mají kartička a následující nová otázka zůstat samostatnými kroky.
+[Kartičky versus cvičné testy v roce 2026](/blog/flashcards-vs-practice-tests/) vysvětluje, proč mají kartička a následující nová otázka zůstat samostatnými kroky.
 
 ## Starou sadu pro TOEFL zkontrolujte před opakováním
 
@@ -180,8 +180,6 @@ Výsledky pak rozdělte do tří skupin:
 3. **Odstranit nebo archivovat:** pokyny k úlohám, časové limity, hodnocení a šablony, které popisují pouze formát platný před 21. lednem 2026.
 
 Poté porovnejte zbývající štítky úloh s 12 současnými názvy ETS. Ke každé kartičce závislé na formátu připojte aktuální oficiální zdroj ETS. Jako doplňující metadata můžete přidat i štítek `verified-2026` a datum kontroly. Na datech zde záleží, protože ETS může zkoušku aktualizovat. Stálá slovní zásoba stejný postup nevyžaduje.
-
-Pokud je sada rozsáhlá, článek [Jak v roce 2026 proředit sadu kartiček](/blog/how-to-prune-a-flashcard-deck/) nabízí praktický postup mazání a přepisování.
 
 ## Rozložené opakování používejte k zapamatování, ne k simulaci testu
 

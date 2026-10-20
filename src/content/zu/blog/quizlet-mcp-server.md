@@ -101,7 +101,7 @@ Isivumelwano sokuxhumana esishicilelwe emphakathini sisusa okunye ukuqagela ekuh
 
 I-Nibomo ihlukanisa imisebenzi yokufunda namathuluzi ayo okubhala: `sql_execute` yamakhadi namaqoqo amakhadi, ne-`submit_review` yokubuyekeza. Imininingwane yokuqinisekisa ukufinyelela ye-OAuth isahlanganisa yonke imisebenzi yesixhumi, ngakho ukuvinjwa kwamathuluzi nendlela yokucela imvume kuncike kuklayenti. Qala ngendawo yokusebenzela encane engenayo idatha ebucayi. Vumela i-ejenti ifunde kuphela idatha edingekayo emsebenzini, wenze ukuthi ukubhala ngakunye kudinge imvume uma iklayenti likusekela lokho, futhi uhlole indawo yokusebenzela noshintsho oluhlongozwayo ngaphambi kokulwamukela.
 
-Ungaxhumi izinto zakho zokufunda zangasese uze uhlole imigomo yeklayenti le-AI yokugcinwa nokuphathwa kwedatha. Ukuhlaziywa okuningiliziwe kwezinsongo kuchazwe kwesithi [Ingabe i-MCP Iphephile Kumakhadi Okufunda?](/blog/is-mcp-safe-for-flashcards/). Ekudluliseni kokuqala, umthetho olula wanele: gcina umbhalo wokuqala othekelisiwe, ubuke kuqala amakhadi ambalwa, uvumele ukubhala okulinganiselwe, bese uqinisekisa umphumela ohlelweni owathuthela kulo ngaphambi kokwenza okwengeziwe.
+Ungaxhumi izinto zakho zokufunda zangasese uze uhlole imigomo yeklayenti le-AI yokugcinwa nokuphathwa kwedatha. Ekudluliseni kokuqala, umthetho olula wanele: gcina umbhalo wokuqala othekelisiwe, ubuke kuqala amakhadi ambalwa, uvumele ukubhala okulinganiselwe, bese uqinisekisa umphumela ohlelweni owathuthela kulo ngaphambi kokwenza okwengeziwe.
 
 ## Ungaguquli ukuxhumana kwangasese kwesiphequluli kube i-API
 

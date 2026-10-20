@@ -101,7 +101,7 @@ Prieš keisdami naudojamus nustatymus, išbandykite tris scenarijus:
 2. Svarstomą įsiminimo tikslą.
 3. Tą patį tikslą su mažesniu naujų kortelių skaičiumi per dieną.
 
-Trečiu bandymu patikrinsite dažnai tinkamą alternatyvą: išlaikyti atsiminimo tikslą ir lėtinti naujos medžiagos srautą. Jei prognozuojamas krūvis tampa įveikiamas, nereikia susitaikyti su dažnesniu užmiršimu vien tam, kad sutrumpintumėte eilę. Daugiau apie naujų kortelių kiekį skaitykite straipsnyje [Kiek naujų mokymosi kortelių pridėti per dieną?](/blog/how-many-new-flashcards-per-day/).
+Trečiu bandymu patikrinsite dažnai tinkamą alternatyvą: išlaikyti atsiminimo tikslą ir lėtinti naujos medžiagos srautą. Jei prognozuojamas krūvis tampa įveikiamas, nereikia susitaikyti su dažnesniu užmiršimu vien tam, kad sutrumpintumėte eilę.
 
 Abu įrankiai pateikia prognozes. Praleistos dienos, redaguotos kortelės, nauja medžiaga ir pasikeitę vertinimo įpročiai gali lemti, kad tikrasis krūvis skirsis nuo grafiko. Palyginimas padeda pasirinkti kryptį, tačiau negali tiksliai numatyti, kokia bus eilė po kelių mėnesių.
 

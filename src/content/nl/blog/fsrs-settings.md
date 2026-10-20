@@ -101,7 +101,7 @@ Simuleer drie scenario's voordat je de echte instellingen wijzigt:
 2. Het retentiedoel dat je overweegt.
 3. Hetzelfde doel met minder nieuwe kaarten per dag.
 
-Het derde scenario test een veelgebruikt alternatief: behoud het retentiedoel en voeg minder snel nieuw materiaal toe. Levert dat een haalbare voorspelling op, dan hoef je niet te accepteren dat je meer vergeet om de stapel te herhalen kaarten te verkleinen. Meer over de instroom lees je in [Hoeveel nieuwe flashcards per dag?](/blog/how-many-new-flashcards-per-day/).
+Het derde scenario test een veelgebruikt alternatief: behoud het retentiedoel en voeg minder snel nieuw materiaal toe. Levert dat een haalbare voorspelling op, dan hoef je niet te accepteren dat je meer vergeet om de stapel te herhalen kaarten te verkleinen.
 
 Beide hulpmiddelen geven schattingen. Overgeslagen dagen, bewerkte kaarten, nieuw materiaal en andere beoordelingsgewoonten kunnen ervoor zorgen dat het werk in de praktijk afwijkt van de grafiek. Gebruik de vergelijking om een richting te kiezen, niet als belofte van een exact aantal kaarten over een paar maanden.
 
