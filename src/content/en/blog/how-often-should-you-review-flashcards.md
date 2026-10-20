@@ -93,9 +93,9 @@ A useful session has five parts:
 
 That fourth step is where a schedule either stays informative or turns into theatre. Pressing Hard after a failure because Again returns too soon records a success that did not happen. Pressing Easy to make an annoying card disappear does the same damage in the other direction.
 
-You also do not need to race. A calm, focused review is usually faster than checking every answer twice and negotiating with every button. If the queue routinely consumes more time than you have, the [guide to reviewing flashcards faster](/blog/how-to-review-flashcards-faster/) covers card cleanup and session friction in more detail.
+You also do not need to race. A calm, focused review is usually faster than checking every answer twice and negotiating with every button. If the queue routinely consumes more time than you have, simplify slow prompts and remove cards you no longer need.
 
-The review itself should use active recall. Reading the front and thinking “yes, I know that” is recognition, not a retrieval attempt. The distinction between the scheduling system and the mental work is explained in [active recall vs spaced repetition](/blog/active-recall-vs-spaced-repetition/).
+The review itself should use active recall. Reading the front and thinking “yes, I know that” is recognition, not a retrieval attempt. Scheduling decides when to review; you still need to produce an answer before revealing it.
 
 ## What should you do when nothing is due?
 
@@ -170,7 +170,7 @@ Before raising retention because the schedule feels too relaxed, check the rest 
 - Are failures caused by spacing, or by unclear cards and weak understanding?
 - Is the higher target temporary for an exam or permanent?
 
-The [FSRS settings guide](/blog/fsrs-settings/) goes deeper on that tradeoff. If reviews are already growing, adjust intake first with a sustainable [new-cards-per-day limit](/blog/how-many-new-flashcards-per-day/).
+The [FSRS settings guide](/blog/fsrs-settings/) goes deeper on that tradeoff. If reviews are already growing, reduce the daily new-card intake first.
 
 ## What the research can and cannot tell you
 

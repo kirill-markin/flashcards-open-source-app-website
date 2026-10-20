@@ -142,4 +142,4 @@ For more short prompts, the [dimensional analysis flashcards](/catalog/packages/
 
 A useful short card asks, “In `F = αv + βv²`, must `α` and `β` have the same units?” Its answer explains that the complete terms must match, giving `kg/s` and `kg/m`. Then close the card and derive the coefficients for a new expression, such as `F = Av² + Bv³`.
 
-The [practice-questions-to-flashcards workflow](/blog/how-to-turn-practice-questions-into-flashcards/) helps isolate that reusable mistake. Keep full derivations and unfamiliar problems alongside review, as the [algebra-based physics guide](/blog/how-to-use-flashcards-for-algebra-based-physics-1/) recommends. The next problem should test whether you can rebuild the ledger without seeing the answer.
+Isolate the reusable mistake in a short prompt, and keep full derivations and unfamiliar problems alongside review, as the [algebra-based physics guide](/blog/how-to-use-flashcards-for-algebra-based-physics-1/) recommends. The next problem should test whether you can rebuild the ledger without seeing the answer.

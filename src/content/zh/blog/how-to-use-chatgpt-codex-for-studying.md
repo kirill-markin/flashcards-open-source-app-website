@@ -123,7 +123,7 @@ Codex 应该先调用只读的工作区工具。等你选好工作区和整理�
 
 这些名称看起来有些技术味，是因为连接器内部使用了一套精简的 SQL 式指令。你不需要自己写 SQL。直接用日常语言描述想要的结果，再检查拟执行的改动即可。
 
-这并不是不受限制的数据库访问。每个请求都只能操作已授权的工作区，服务器也只接受文档中规定的读取操作、针对卡片或牌组的写入操作，以及复习评分。[MCP 安全指南](/zh/blog/is-mcp-safe-for-flashcards/)更详细地介绍了数据流向、权限限制、审批和删除风险。
+这并不是不受限制的数据库访问。每个请求都只能操作已授权的工作区，服务器也只接受文档中规定的读取操作、针对卡片或牌组的写入操作，以及复习评分。批准写入之前先检查拟议变更，尤其是删除操作。
 
 ## 学习结束后，Codex 还能帮你整理牌组
 
@@ -150,7 +150,7 @@ MCP 连接器可以读取允许访问的 `review_events`（复习记录）和复
 
 卡片到期后，打开 [Nibomo 网页版](https://app.nibomo.com/)或移动端客户端。先回忆答案，再显示背面，并在那里选择评分。Nibomo 会记录这次正式复习，再由 FSRS 决定卡片何时重新出现。
 
-Codex 也可以根据你授权的卡片数据进行非正式测验，把它当成额外练习即可：单纯的测验不会记录复习，也不会改变复习安排。想做正式复习时，请让 Codex 用复习工具来进行。它会用 `next_review_card` 只显示正面，在你作答后用 `reveal_answer` 显示背面，再用 `submit_review` 记录评分，让 FSRS 重新安排这张卡。除非你要求自己选择每次评分，否则由 Codex 为你的回答评分。[AI 闪卡导师指南](/zh/blog/ai-flashcard-tutor-due-cards/)更详细地介绍了这个复习流程。
+Codex 也可以根据你授权的卡片数据进行非正式测验，把它当成额外练习即可：单纯的测验不会记录复习，也不会改变复习安排。想做正式复习时，请让 Codex 用复习工具来进行。它会用 `next_review_card` 只显示正面，在你作答后用 `reveal_answer` 显示背面，再用 `submit_review` 记录评分，让 FSRS 重新安排这张卡。除非你要求自己选择每次评分，否则由 Codex 为你的回答评分。
 
 ## Codex CLI（命令行工具）使用同一份 MCP 配置
 
@@ -199,7 +199,7 @@ ChatGPT 网页版不会读取本地 Codex `config.toml` 中保存的 MCP 服务�
 
 通读一遍，把保留下来的卡片复制进 Nibomo，再照常复习。对于涉及隐私的材料、由学校管理的账户，或者不想让 AI 客户端读取已保存卡片数据的人，手动录入很合理。
 
-配套文章[如何把 ChatGPT Study Mode 变成闪卡](/zh/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)专门介绍不使用连接器的辅导流程。[如何用 ChatGPT 制作闪卡](/zh/blog/how-to-use-chatgpt-to-make-flashcards/)讲的是从笔记起草卡片的更通用方法。如果你也用 Anthropic 的工具学习，[如何用 Claude 学习](/zh/blog/how-to-use-claude-for-studying/)介绍了类似的“导师到 MCP”流程，不过 Claude 的连接器需要单独设置。
+[如何用 ChatGPT 制作闪卡](/zh/blog/how-to-use-chatgpt-to-make-flashcards/)讲的是从笔记起草卡片的更通用方法。如果你也用 Anthropic 的工具学习，[如何用 Claude 学习](/zh/blog/how-to-use-claude-for-studying/)介绍了类似的“导师到 MCP”流程，不过 Claude 的连接器需要单独设置。
 
 ## 别把整堂课都塞进闪卡
 

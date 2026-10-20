@@ -181,7 +181,7 @@ Study Mode、Guided Learning 和 NotebookLM 都更强调解释、追问和类似
 - 一直反复出现的定义或对比
 - 你下周想快速提取出来的短结论
 
-如果你想看更完整的下一步流程，[2026 年如何把练习题做成 Flashcards](/blog/how-to-turn-practice-questions-into-flashcards/) 就是最直接的配套文章。如果你更大的问题其实是整体 AI 学习策略，那篇 [2026 年如何用 AI 学习](/blog/how-to-use-ai-to-study/) 会更适合。
+把作业中的错误缩成一个可重复检查的知识点，用自己的话写卡，再独立完成一道新题。保留需要练习的薄弱点，不要把整场 AI 对话都变成复习材料。
 
 ## 什么样的作业错误才值得做成闪卡
 
@@ -212,7 +212,7 @@ Study Mode、Guided Learning 和 NotebookLM 都更强调解释、追问和类似
 
 这些都不是闪卡。它们只是换了件衣服的小型作业。
 
-如果你已经感觉 AI 生成的卡片开始变得臃肿，[2026 年如何修正 AI 生成的抽认卡](/blog/how-to-fix-ai-flashcards/) 会是下一篇更有用的文章。
+如果 AI 生成的卡片开始臃肿，删除重复项，拆开多问题卡，并逐张核实答案后再添加新内容。
 
 ## Nibomo 在这里怎么接上
 
@@ -228,10 +228,8 @@ Study Mode、Guided Learning 和 NotebookLM 都更强调解释、追问和类似
 
 这样整套流程会更诚实。AI 负责解释。作业暴露你的薄弱点。Nibomo 则把这些薄弱点保留下来，直到你不再反复犯同样的错。
 
-如果你现在的起点不是作业，而是笔记、小测，或者一场辅导式对话，接下来最值得看的就是这些：
+如果起点是 AI 辅导对话，可以看这篇关于保留错误和薄弱点的具体流程：
 
-- [2026 年如何用 AI 从笔记生成一套练习考试题](/blog/how-to-make-a-practice-exam-from-your-notes-with-ai/)
-- [2026 年如何把 ChatGPT Study Mode 变成闪卡](/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
 - [2026 年如何把 Gemini Guided Learning 变成闪卡](/blog/gemini-guided-learning-to-flashcards/)
 
 如果你之后想直接看产品入口，可以先去 [入门指南](/docs/getting-started/) 或 [功能页](/features/)。

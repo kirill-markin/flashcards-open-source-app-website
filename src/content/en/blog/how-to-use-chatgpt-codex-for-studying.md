@@ -124,7 +124,7 @@ The connector exposes eight tools:
 
 The names look technical because the connector uses a small SQL-style contract. You do not have to write SQL yourself. Ask for the result in ordinary language and review the proposed change.
 
-This is not unrestricted database access. Every request stays inside an authorized workspace, and the server accepts only its documented reads, card or deck writes, and review ratings. The [MCP safety guide](/blog/is-mcp-safe-for-flashcards/) explains the privacy path, limits, approvals, and deletion risk in more detail.
+This is not unrestricted database access. Every request stays inside an authorized workspace, and the server accepts only its documented reads, card or deck writes, and review ratings. Review the requested changes before approving writes, especially deletions.
 
 ## Codex can clean up the deck after the study session
 
@@ -151,7 +151,7 @@ The MCP connector can read allowed review history in `review_events` and FSRS st
 
 Open the [Nibomo web app](https://app.nibomo.com/) or a mobile client when the cards are due. Recall the answer, reveal the back, and choose your rating there. Nibomo records the review, and FSRS decides when the card should return.
 
-Codex can also quiz you informally from card data you authorize. Treat that as extra practice: a quiz on its own records no review and leaves your schedule alone. When you want an official review, ask Codex to run one with the review tools. It calls `next_review_card` to show only the front, `reveal_answer` to show the back after you answer, and `submit_review` to record the rating so FSRS can reschedule the card. Codex grades your answer unless you ask to choose each rating yourself. The [AI flashcard tutor guide](/blog/ai-flashcard-tutor-due-cards/) walks through that review loop in more detail.
+Codex can also quiz you informally from card data you authorize. Treat that as extra practice: a quiz on its own records no review and leaves your schedule alone. When you want an official review, ask Codex to run one with the review tools. It calls `next_review_card` to show only the front, `reveal_answer` to show the back after you answer, and `submit_review` to record the rating so FSRS can reschedule the card. Codex grades your answer unless you ask to choose each rating yourself.
 
 ## Codex CLI uses the same MCP configuration
 

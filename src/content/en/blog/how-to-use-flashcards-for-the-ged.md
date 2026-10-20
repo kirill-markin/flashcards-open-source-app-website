@@ -123,7 +123,7 @@ Small science cards do more work than giant chapter summaries because they fix t
 
 This subject also responds well to cards made from explanations. GED's current [practice questions page](https://www.ged.com/study/practice-questions.html) leans on instant, step-by-step feedback. That is useful because many science misses come from one bad read of a graph, not from forgetting a whole chapter.
 
-If your source material is mostly wrong answers and explanations from practice, [How to Turn Practice Questions Into Flashcards in 2026](/blog/how-to-turn-practice-questions-into-flashcards/) is the closest companion article.
+For wrong answers and practice explanations, extract the reusable rule or distinction in your own words. Use a fresh question to check whether the card helped.
 
 ## GED social studies flashcards should not become a dates graveyard
 
@@ -227,7 +227,7 @@ That gives you a way to study the problem in front of you without turning the wh
 
 I would also keep one short rule for card intake: if you cannot imagine answering the card while half-awake on a bus or during lunch, rewrite it.
 
-If your organization is getting more complicated than your actual studying, [How to Organize Flashcards in 2026](/blog/how-to-organize-flashcards/) is the right reset.
+If organization is getting more complicated than studying, reduce the number of decks and keep only tags you use for review.
 
 ## GED spaced repetition works when the intake stays realistic
 
@@ -254,7 +254,7 @@ Here is a realistic version for someone studying around work or family:
 
 FSRS helps a lot once the cards are small and honest. Easy cards back off. Slippery cards come back sooner. The queue starts feeling less random and less rude.
 
-If you want the scheduling side in more detail, [How to Study for an Exam With FSRS in 2026](/blog/how-to-study-for-an-exam-with-fsrs/) is the direct follow-up. If your card count is already growing too fast, [How Many New Flashcards Per Day in 2026](/blog/how-many-new-flashcards-per-day/) is the more urgent read.
+If you want the scheduling side in more detail, [How to Study for an Exam With FSRS in 2026](/blog/how-to-study-for-an-exam-with-fsrs/) is the direct follow-up. If card count is already growing too fast, reduce new-card intake first.
 
 ## Where Nibomo fits
 

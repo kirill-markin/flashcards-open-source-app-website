@@ -131,7 +131,7 @@ Check your units as well as your numbers. A correct subtraction labeled with the
 | A completion rate falls from 30% to 25%. Which rate goes in the denominator of relative percent change, and what is the result? | The starting **30% rate**. `(25 − 30) / 30 × 100% = −16⅔%`: a **16⅔% relative decrease**, or **5 percentage points down**. |
 | Workshop A has 12 completed attendees out of 40; B has 12 out of 30. Can B's completion rate be higher with no count increase? | **Yes.** A: `12 / 40 × 100% = 30%`; B: `12 / 30 × 100% = 40%`. The completed count is unchanged. B's smaller attendee denominator gives a rate **10 percentage points higher**. |
 
-Each front supplies enough context to answer without the article open. The guide to [turning practice questions into flashcards](/blog/how-to-turn-practice-questions-into-flashcards/) explains how to preserve the correction you need. For a broader study routine, [using flashcards for math](/blog/how-to-use-flashcards-for-math/) pairs short review prompts with fresh problem practice.
+Each front supplies enough context to answer without the article open. Preserve the denominator or comparison you missed in the prompt. For a broader study routine, [using flashcards for math](/blog/how-to-use-flashcards-for-math/) pairs short review prompts with fresh problem practice.
 
 ### One fresh case before you finish
 

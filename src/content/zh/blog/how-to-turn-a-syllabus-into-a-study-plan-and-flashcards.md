@@ -232,11 +232,9 @@ keywords:
 
 这时候，间隔重复就不太像“某种学习方法”了，更像一种最基本的止损手段。
 
-如果你的目标，是从一整门累积型课程里准备考试，这几篇配套文章正好接在这篇旁边：
+如果目标是准备一整门累积型课程的考试，可以接着看：
 
-- [2026 年如何用抽认卡准备期末考试](/zh/blog/how-to-study-for-finals-with-flashcards/)
 - [2026 年如何用 FSRS 备考](/zh/blog/how-to-study-for-an-exam-with-fsrs/)
-- [2026 年如何用 AI 学习](/zh/blog/how-to-use-ai-to-study/)
 
 ## Nibomo 在这套流程里处于什么位置
 

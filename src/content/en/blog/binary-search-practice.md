@@ -141,7 +141,7 @@ Make a card for a mistake you actually made. Include the convention and a small 
 | Lower bound returns `3` for target `8` in `[1, 5, 5, 9, 14]`. Does that prove membership? | No. Index `3` holds `9`. Check the index is in range, then check equality. |
 | Lower bound: midpoint equals the target in a sequence with duplicates. Which update preserves the first-copy search? | `hi = mid`. That position may be the boundary; an earlier equal value may still exist. |
 
-Keep these in [Nibomo](/) or your existing review tool. The [coding-interview flashcard guide](/blog/how-to-use-flashcards-for-coding-interviews/) covers choosing what to retain from practice; the [Coding Interview Patterns deck](/catalog/packages/coding-interview-patterns-flashcards/) offers broader pattern questions. Reviewing a correction should lead back to a new trace or implementation attempt.
+Keep these in [Nibomo](/) or your existing review tool. The [Coding Interview Patterns deck](/catalog/packages/coding-interview-patterns-flashcards/) offers broader pattern questions. Reviewing a correction should lead back to a new trace or implementation attempt.
 
 For that next attempt, close the code and write the function from memory. Sensor readings are `[-6, -1, 3, 3, 8, 12, 20]`. Find how many readings are **strictly below `4`**, without counting them one by one. Then repeat for threshold `21`.
 

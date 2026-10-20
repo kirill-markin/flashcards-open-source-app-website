@@ -173,7 +173,7 @@ keywords:
 
 最后这个问题很重要。有些错误是记忆问题，有些错误是迁移问题。抽认卡负责提取，练习题负责迁移。两者都要有。
 
-如果你现在最好的素材来源是订正后的作业、小测和练习题，[2026 年如何把练习题转成抽认卡](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) 会是最直接的配套阅读。排程这一层，则可以搭配看 [2026 年如何用 FSRS 备考](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs)。
+从订正后的作业、小测和练习题中，找出漏掉的概念或步骤，用自己的话写成简短问题。排程这一层，可以搭配看 [2026 年如何用 FSRS 备考](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs)。
 
 ## 一套实用的高中进阶化学每周学习流程
 

@@ -189,7 +189,7 @@ Keep each item as a plain front/back card. Put the short answer first on the bac
 - **Good** for correct recall with ordinary effort
 - **Easy** for effortless correct recall
 
-[Active Recall vs Spaced Repetition](/blog/active-recall-vs-spaced-repetition/) explains the division: retrieval exposes what you can produce now; spacing decides when the verified card returns. The [getting-started guide](/docs/getting-started/) covers the hosted and self-hosted routes if you want to put the workflow into practice. For a ready-made starting point, [EU AI Act 2026 Flashcards: Timeline, Roles & Risk Rules](/catalog/packages/eu-ai-act-2026-essentials-flashcards/) is an independent, unofficial, source-linked, versioned English study aid with 140 cards. It is not EU-institution material or legal advice, and it neither verifies compliance nor covers every rule. Its official sources were checked on 26 August 2026; check them again before relying on a card, because the deck will not update itself when the law changes.
+Retrieval exposes what you can produce now; spacing decides when the verified card returns. The [getting-started guide](/docs/getting-started/) covers the hosted and self-hosted routes if you want to put the workflow into practice. For a ready-made starting point, [EU AI Act 2026 Flashcards: Timeline, Roles & Risk Rules](/catalog/packages/eu-ai-act-2026-essentials-flashcards/) is an independent, unofficial, source-linked, versioned English study aid with 140 cards. It is not EU-institution material or legal advice, and it neither verifies compliance nor covers every rule. Its official sources were checked on 26 August 2026; check them again before relying on a card, because the deck will not update itself when the law changes.
 
 ## Keep legal judgment outside the review queue
 
@@ -205,7 +205,7 @@ Do not use a card to decide:
 
 Those questions require current law, guidance, documented facts, and often qualified legal advice. The answer can change with the product, intended purpose, distribution model, or use context.
 
-Use scenario cards to practice finding the relevant provision. Reach conclusions from the current sources, documented facts, and appropriate advice. The same split appears in [Flashcards vs Practice Tests](/blog/flashcards-vs-practice-tests/): cards keep components retrievable, while larger exercises test whether you can use them together. [What Should Go on a Flashcard?](/blog/what-should-go-on-a-flashcard/) helps cut anything too broad for honest grading.
+Use scenario cards to practice finding the relevant provision. Reach conclusions from the current sources, documented facts, and appropriate advice. The same split appears in [Flashcards vs Practice Tests](/blog/flashcards-vs-practice-tests/): cards keep components retrievable, while larger exercises test whether you can use them together. Split any card whose answer is too broad to grade honestly.
 
 ## FAQ about the EU AI Act 2026 timeline
 

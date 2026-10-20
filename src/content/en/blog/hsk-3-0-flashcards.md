@@ -198,7 +198,7 @@ Here is what that conversion looks like:
 
 Do not place the full official question on the front and its answer key on the back. Keep the original in the official package. Your card should contain the lesson in your own words, with enough source detail to verify it later.
 
-[How to Turn Quiz Results Into Flashcards](/blog/how-to-turn-quiz-results-into-flashcards/) covers the same diagnosis process in more depth. [Flashcards vs Practice Tests](/blog/flashcards-vs-practice-tests/) explains why the fresh question must come after the card.
+Identify the word, grammar pattern, or distinction behind the miss, then write one short prompt for it. [Flashcards vs Practice Tests](/blog/flashcards-vs-practice-tests/) explains why the fresh question must come after the card.
 
 ## Review HSK flashcards with FSRS without flooding the queue
 

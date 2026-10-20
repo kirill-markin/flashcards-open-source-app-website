@@ -223,7 +223,7 @@ Anthropic 的[网页搜索指南](https://support.claude.com/en/articles/1068462
 
 > [连接到 Claude](https://claude.ai/directory/nibomo) · [文档](/docs/mcp-connector/)
 
-连接设置见 [Claude 连接器分步指南](/blog/how-to-connect-flashcards-to-claude-with-mcp/)和 [MCP 连接器参考文档](/docs/mcp-connector/)。如果不想连接助手，仍然可以手动复制卡片。
+连接设置见 [MCP 连接器参考文档](/docs/mcp-connector/)。如果不想连接助手，仍然可以手动复制卡片。
 
 ## 这些地方仍然要由你把关
 

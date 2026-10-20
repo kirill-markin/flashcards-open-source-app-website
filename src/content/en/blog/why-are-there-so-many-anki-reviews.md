@@ -88,7 +88,7 @@ That is why a deck can look calm on Monday and rude by Friday. The cost lands la
 
 This also shows up in real user reports. In [this Anki forum thread about more reviews than expected with new card settings](https://forums.ankiweb.net/t/many-more-reviews-than-expected-with-new-card-settings/62292), the problem was not a mystery bug. The review consequences of the intake rate were just bigger than the learner expected.
 
-If you raised new cards recently, start there. If you need a cleaner rule for sustainable intake, [How Many New Flashcards Per Day in 2026](/blog/how-many-new-flashcards-per-day/) goes deeper.
+If you raised new cards recently, start there. Lower intake until reviews fit the time you can sustain on an ordinary day.
 
 ## FSRS gets blamed for learning-step churn all the time
 
@@ -166,7 +166,7 @@ I would look hard at the deck if you keep seeing:
 - cards you never understood well enough before memorizing
 - tiny details that are not worth their future review cost
 
-If that sounds more like your situation, [How to Prune a Flashcard Deck in 2026](/blog/how-to-prune-a-flashcard-deck/) is probably the better next read.
+If that sounds like your situation, remove material you no longer need and rewrite unclear prompts before adjusting the scheduler.
 
 ## A five-minute diagnostic for Anki review spikes
 
@@ -222,7 +222,7 @@ If the painful number is:
 - **learning count**, clean up steps and weak cards
 - **time spent per session**, improve card quality and review flow
 
-That last case is common. Some people do not actually have too many reviews. They have reviews that are too slow and too annoying. If that is you, [How to Review Flashcards Faster in 2026](/blog/how-to-review-flashcards-faster/) will help more than another round of scheduler tweaks.
+That last case is common. Some people have reviews that are too slow and too annoying. If that is you, simplify long backs, clarify ambiguous questions, and remove low-value cards before making another round of scheduler tweaks.
 
 ## Where Nibomo fits without pretending to be magic
 

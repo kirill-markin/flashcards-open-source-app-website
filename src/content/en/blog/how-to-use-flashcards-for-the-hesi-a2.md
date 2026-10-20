@@ -70,7 +70,7 @@ That is enough for most applicants. You do not need a giant folder tree or separ
 
 This matters because HESI prep is usually short and targeted. If your program does not use Biology, there is no reason to keep biology cards drifting through review. If your school ignores Grammar, those cards should never enter the queue in the first place.
 
-If organization is already getting messy, [How to Organize Flashcards in 2026](/blog/how-to-organize-flashcards/) is the best companion read. For HESI A2 specifically, though, the bigger win is usually deleting the wrong material before it becomes daily homework.
+For HESI A2, start by deleting material outside the sections you need before it becomes daily homework. Keep the remaining cards in a few clear subject groups.
 
 ## Make science cards much smaller than your notes
 
@@ -100,7 +100,7 @@ What usually goes wrong:
 
 That kind of card feels ambitious and reviews badly.
 
-If your study overlap extends into later coursework, [How to Use Flashcards for Nursing School in 2026](/blog/how-to-use-flashcards-for-nursing-school/) is the better follow-up. For HESI A2 prep, science cards should stay narrower than the notes they came from.
+For HESI A2 prep, science cards should stay narrower than the notes they came from. Keep later-coursework detail separate from entrance-exam review.
 
 ## HESI math flashcards should store setup patterns
 
@@ -131,7 +131,7 @@ For the SI-prefix recall behind metric questions, [Metric Prefix Flashcards: All
 
 If a card needs a full notebook page every time, it probably belongs in problem practice instead. Save flashcards for the conversion, the formula, the setup rule, or the mistake pattern that keeps repeating.
 
-That is the same logic behind [How to Make Better Flashcards in 2026](/blog/how-to-make-better-flashcards/) and [How to Turn Practice Questions Into Flashcards in 2026](/blog/how-to-turn-practice-questions-into-flashcards/).
+Keep each prompt focused, following the same principle as [How to Make Better Flashcards in 2026](/blog/how-to-make-better-flashcards/).
 
 ## Grammar, vocabulary, and reading reward short reminder cards
 
@@ -242,7 +242,7 @@ Nibomo is a good fit for HESI A2 prep because you can:
 
 The product overview is on [Features](/features/), and the fastest setup path is in [Getting Started](/docs/getting-started/).
 
-The useful part is not "generate a giant deck with AI." The useful part is turning your own study material and your own misses into a deck that stays reviewable. If you already know AI tends to make your queue explode, read [How to Avoid AI Flashcard Overload in 2026](/blog/how-to-avoid-ai-flashcard-overload/) before adding another hundred cards.
+The useful part is turning your own study material and misses into a deck that stays reviewable. If AI drafts make your queue explode, accept fewer cards and remove duplicates before adding another batch.
 
 ## The HESI A2 flashcards workflow I would actually trust
 

@@ -72,7 +72,6 @@ AI 工具更容易把这条边界搅混。它可以一键给你生成二十张�
 如果你想看更贴近这个动作本身的方法，可以接着读这些：
 
 - [2026 年如何用 AI 做主动回忆](/zh/blog/how-to-use-ai-for-active-recall/)
-- [2026 年如何把 Blurting 方法和抽认卡结合起来：把白纸回忆接到 FSRS 复习上](/zh/blog/how-to-use-the-blurting-method-with-flashcards/)
 - [2026 年如何把费曼技巧和抽认卡结合起来：先讲明白，再交给 FSRS 记住](/zh/blog/how-to-use-the-feynman-technique-with-flashcards/)
 
 ## 间隔重复负责“以后什么时候再来”
@@ -149,7 +148,7 @@ AI 工具更容易把这条边界搅混。它可以一键给你生成二十张�
 
 别把整场“表现”都留下来。
 
-如果你更关心从 AI 导师或笔记转进复习系统的这一步，可以看这篇配套文章：[2026 年如何用 AI 学习：保留 AI 导师，再加上真正记得住的闪卡](/zh/blog/how-to-use-ai-to-study/)。
+从 AI 导师或笔记转入复习时，只保留值得再次检查的错误和知识缺口，先核实答案，再安排后续复习。
 
 ## “以后复习”真正该筛掉什么
 
@@ -170,11 +169,9 @@ AI 工具更容易把这条边界搅混。它可以一键给你生成二十张�
 
 如果内容本来就显得很稳，那就别硬塞进队列里。
 
-想把这一步筛得更准，这几篇会更有帮助：
+关于如何写出更明确的问题，可以看：
 
-- [2026 年抽认卡里该放什么？一套适用于笔记、AI 草稿和课堂幻灯片的实用筛选法](/zh/blog/what-should-go-on-a-flashcard/)
 - [2026 年如何做出更好的抽认卡](/zh/blog/how-to-make-better-flashcards/)
-- [2026 年如何修正 AI 生成的抽认卡](/zh/blog/how-to-fix-ai-flashcards/)
 
 ## 只用其中一个，会坏在哪里
 
@@ -238,7 +235,7 @@ AI 工具更容易把这条边界搅混。它可以一键给你生成二十张�
 - 如果你在意系统透明度，可以直接看开源代码
 - 如果你想自己掌控学习栈，也可以走自托管路线
 
-如果你想从产品角度继续往下看，可以先看 [功能页](/zh/features/)、[入门指南](/zh/docs/getting-started/)，或者 [自托管指南](/zh/docs/self-hosting/)。如果你最在意的是开源和自托管这一点，那么 [适用于间隔重复的自托管开源抽认卡应用](/zh/blog/self-hosted-open-source-flashcards-app-for-spaced-repetition/) 会更直接。
+如果你想从产品角度继续往下看，可以先看[功能页](/zh/features/)、[入门指南](/zh/docs/getting-started/)，或者[自托管指南](/zh/docs/self-hosting/)。
 
 ## 最实用的答案
 

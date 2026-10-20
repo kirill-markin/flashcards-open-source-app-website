@@ -91,4 +91,4 @@ If you missed a direction question, first redo it with the sides swapped. Then s
 | A sugar gradient exists across a membrane. What must you check before drawing a sugar arrow? | Whether that membrane permits sugar to cross. |
 | Can unequal sucrose concentrations coexist with zero net osmosis across a water-only membrane? | Yes. An opposing pressure difference can balance the osmotic effect. |
 
-Keep only the cards that address your mistakes. The [practice-question flashcard workflow](/blog/how-to-turn-practice-questions-into-flashcards/) helps turn a missed explanation into a focused prompt. On your next attempt, write the permission column before the direction column and check whether that fixes the error.
+Keep only the cards that address your mistakes, with one focused prompt for each missed explanation. On your next attempt, write the permission column before the direction column and check whether that fixes the error.

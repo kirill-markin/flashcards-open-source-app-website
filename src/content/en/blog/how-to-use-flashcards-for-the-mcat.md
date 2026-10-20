@@ -181,10 +181,9 @@ That means questions like:
 - What enzyme or hormone is the key switch in this pathway?
 - What is the most testable difference between these two transport mechanisms?
 
-If your source material is mostly notes, slides, or textbook chunks, these related workflows fit the earlier drafting stage:
+For drafting cards from notes, slides, or textbook chunks, start here:
 
 - [How to Turn Notes Into Flashcards in 2026](https://nibomo.com/blog/turn-notes-into-flashcards/)
-- [How to Turn a PDF Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## Your missed practice questions should shape the most valuable part of the deck
 
@@ -213,9 +212,7 @@ Those are all cardable.
 
 What usually matters is not preserving the whole practice interface forever. It is preserving the exact correction that keeps the same miss from recurring.
 
-This companion article goes deeper on that workflow:
-
-- [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
+Extract one durable lesson from a missed question in your own words, then try a fresh question to check whether it transfers.
 
 ## Do not turn every practice miss into a card
 
@@ -259,9 +256,7 @@ That is boring on purpose. Boring is good here.
 
 The MCAT already has enough complexity in passage practice, schedule planning, and full-length review. Your deck should remove friction, not turn into a side project.
 
-If organization is the bigger issue, this article pairs well with the MCAT workflow:
-
-- [How to Organize Flashcards in 2026](https://nibomo.com/blog/how-to-organize-flashcards/)
+Keep a small number of subject decks and use tags for recurring weak spots so organization supports review without duplicating material.
 
 ## FSRS helps when your MCAT schedule gets uneven
 

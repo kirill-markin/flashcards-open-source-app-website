@@ -160,7 +160,7 @@ Here are five common conversions:
 
 Do not copy a whole official question and rationale onto one card. Write the verified lesson in your own words. Leave the full item in the practice material and keep only the small memory target in the deck.
 
-[How to Turn Practice Questions Into Flashcards in 2026](/blog/how-to-turn-practice-questions-into-flashcards/) goes deeper into fact gaps, distinctions, sequences, and trap-pattern cards. [Flashcards vs Practice Tests in 2026](/blog/flashcards-vs-practice-tests/) explains why the card and the next fresh question should remain separate steps.
+Classify a miss as a fact gap, distinction, sequence, or trap pattern, then write a short card for the reusable lesson. [Flashcards vs Practice Tests in 2026](/blog/flashcards-vs-practice-tests/) explains why the card and the next fresh question should remain separate steps.
 
 ## Audit an old TOEFL deck before you review it
 
@@ -183,7 +183,7 @@ Then sort the results into three groups:
 
 Next, compare the remaining task tags with the 12 current ETS task names. Give every format-specific card a current official ETS source. You can also add a `verified-2026` tag and the date you checked it as supplemental metadata. Dates matter here because ETS can update the exam. Stable vocabulary does not need the same treatment.
 
-If the deck is large, [How to Prune a Flashcard Deck in 2026](/blog/how-to-prune-a-flashcard-deck/) gives a practical deletion and rewriting workflow.
+If the deck is large, remove duplicate and irrelevant cards, rewrite ambiguous prompts, and keep only material worth scheduled review.
 
 ## Use spaced repetition for retention, not test simulation
 
