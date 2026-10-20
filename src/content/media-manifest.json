@@ -2174,6 +2174,21 @@
     "bytes": 497196
   },
   {
+    "publicPath": "/blog/ph-significant-figures.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/411a417dd915f034354e1a3bfa48f693a2127b8e0abca1ae9e9fed33b72f628c.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "411a417dd915f034354e1a3bfa48f693a2127b8e0abca1ae9e9fed33b72f628c",
+    "bytes": 120384,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/d0ada5d26a88f56d823dfcadbed4f6b7a0bc5a210fc2dae2702de122c2afb294.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "d0ada5d26a88f56d823dfcadbed4f6b7a0bc5a210fc2dae2702de122c2afb294",
+      "bytes": 2096079
+    }
+  },
+  {
     "publicPath": "/blog/planes-of-movement.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/b2c486bf36120a4c1146ed629367124d29108b529736fc91e4c3b6eef055311b.png",
     "width": 1672,
