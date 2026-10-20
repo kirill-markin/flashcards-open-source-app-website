@@ -19,13 +19,14 @@ export function AuthAwareAppCtaLink({
   placement,
 }: AuthAwareAppCtaLinkProps): React.JSX.Element {
   const uiCopy = getUiCopy(locale);
+  const href = getAppUrl("/", locale);
   const handleClick = (): void => {
-    trackAppEntryClick("open_app", locale, placement);
+    trackAppEntryClick("open_app", locale, placement, href);
   };
 
   return (
     <a
-      href={getAppUrl("/", locale)}
+      href={href}
       {...getSiteAppEntryImpressionAttributes("web_app", placement)}
       onClick={handleClick}
     >

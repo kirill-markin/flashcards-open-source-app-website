@@ -26,6 +26,7 @@ export function trackStoreLinkClick(
   platform: StoreAnalyticsPlatform,
   locale: AppLocale,
   placement: AppEntryPlacement,
+  url: string,
 ): void {
   trackVercelAnalyticsEvent("store_link_click", {
     platform,
@@ -35,6 +36,7 @@ export function trackStoreLinkClick(
     getStoreAppEntryTarget(platform),
     locale,
     placement,
+    url,
   );
 }
 
@@ -99,7 +101,7 @@ export const HumanPlatformLinks: React.FC<HumanPlatformLinksProps> = ({
             : "home_main_web";
           const trackPlatformClick = (): void => {
             if (platform.analytics.kind === "store") {
-              trackStoreLinkClick(platform.analytics.platform, locale, placement);
+              trackStoreLinkClick(platform.analytics.platform, locale, placement, platform.href);
               return;
             }
 
@@ -107,6 +109,7 @@ export const HumanPlatformLinks: React.FC<HumanPlatformLinksProps> = ({
               "open_app",
               locale,
               placement,
+              platform.href,
             );
           };
           const platformContent = showBadges &&

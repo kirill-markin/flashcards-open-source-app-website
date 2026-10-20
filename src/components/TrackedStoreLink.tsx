@@ -35,7 +35,7 @@ export const TrackedStoreLink: React.FC<TrackedStoreLinkProps> = ({
       platform,
       placement: STORE_LINK_PLACEMENT,
     });
-    reportSiteAppEntryClick(storeTarget, locale, STORE_LINK_PLACEMENT);
+    reportSiteAppEntryClick(storeTarget, locale, STORE_LINK_PLACEMENT, href);
   };
 
   return (

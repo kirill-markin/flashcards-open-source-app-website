@@ -20,13 +20,14 @@ export const AuthButton: React.FC<AuthButtonProps> = ({
   placement,
   label,
 }) => {
+  const href = getAppUrl("/", locale);
   const handleOpenAppClick = (): void => {
-    trackAppEntryClick("open_app", locale, placement);
+    trackAppEntryClick("open_app", locale, placement, href);
   };
 
   return (
     <a
-      href={getAppUrl("/", locale)}
+      href={href}
       className={styles.appButton}
       {...getSiteAppEntryImpressionAttributes("web_app", placement)}
       onClick={handleOpenAppClick}

@@ -94,6 +94,7 @@ type SiteAppEntryEventProperties = Readonly<{
   placement: string;
   source: SiteSource;
   device_category: SiteDeviceCategory;
+  url: string;
 }>;
 
 /**

@@ -50,7 +50,7 @@ const IMPRESSION_VISIBLE_RATIO = 0.5;
 const IMPRESSION_DWELL_MS = 1000;
 
 /**
- * The impressions already reported by this document, keyed by target, placement and page kind.
+ * The impressions already reported by this document, keyed by target, placement, page kind and URL.
  *
  * Module-scoped rather than held in a component, exactly as the page view tracker's own guard is,
  * so it survives React strict mode's simulated remount and the frame remount a back navigation
@@ -82,7 +82,9 @@ function parseSiteAppEntryPlacement(value: string | null): AppEntryPlacement | n
 /**
  * `page_kind`, `source` and `device_category` are read exactly as `reportSiteAppEntryClick` reads
  * them, from the current pathname and the document's own referrer and user agent, so an impression
- * and the click it precedes always agree and the two join by equality.
+ * and the click it precedes always agree and the two join by equality. `url` is the CTA's raw
+ * `href` attribute rather than the resolved `href` property, because it has to equal the string the
+ * click handler passes from the same prop.
  *
  * The key is taken before the send rather than after it: a request that fails is not retried, which
  * keeps the one error this data cannot recover from - a denominator counted twice - impossible.
@@ -107,7 +109,13 @@ function reportSiteAppEntryImpression(
     return;
   }
 
-  const impressionKey = `${target}|${placement}|${pageKind}`;
+  const url = element.getAttribute("href");
+  if (url === null || url === "") {
+    warnAboutSiteAnalyticsFailure("site_app_entry_shown", "APP_ENTRY_HREF_MISSING", null, null);
+    return;
+  }
+
+  const impressionKey = `${target}|${placement}|${pageKind}|${url}`;
   if (reportedImpressionKeys.has(impressionKey)) {
     return;
   }
@@ -120,6 +128,7 @@ function reportSiteAppEntryImpression(
     placement,
     source: classifySiteSource(document.referrer, window.location.hostname),
     device_category: getSiteDeviceCategory(),
+    url,
   });
 }
 
@@ -141,7 +150,7 @@ function createImpressionObserver(
 
 /**
  * Watches every app-entry CTA in the document and reports `site_app_entry_shown` once per target,
- * placement and page kind per document load.
+ * placement, page kind and URL per document load.
  *
  * The observer is rebuilt on every navigation, which is what makes a CTA that never moved report
  * again under the page kind it is now under: a footer link that stays on screen across a
