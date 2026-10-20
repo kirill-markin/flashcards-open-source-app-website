@@ -101,7 +101,7 @@ Javna specifikacija odpravi del ugibanja pri integraciji, vendar s tem vsako dej
 
 Nibomo ločuje operacije branja od orodij za pisanje: `sql_execute` za kartice in komplete ter `submit_review` za ponavljanje. Poverilnica OAuth še vedno pokriva celoten nabor funkcij povezovalnika, zato sta blokiranje orodij in način odobritve odvisna od odjemalca. Začnite z majhnim delovnim prostorom brez občutljivih podatkov. Agentu dovolite branje le tistih podatkov, ki jih potrebuje za nalogo, za pisanje zahtevajte odobritev vsakega klica, kadar odjemalec to podpira, ter preglejte delovni prostor in predlagano spremembo, preden jo sprejmete.
 
-Zasebnega učnega gradiva ne povezujte, dokler ne preverite pogojev odjemalca umetne inteligence glede hrambe in obdelave podatkov. Podroben model groženj je v članku [Ali je MCP varen za učne kartice?](/blog/is-mcp-safe-for-flashcards/). Za prvi prenos zadostuje preprosto pravilo: shranite izvirni izvoz, si predoglejte nekaj kartic, odobrite zapis le v omejenem obsegu in preverite rezultat v ciljni aplikaciji, preden nadaljujete.
+Zasebnega učnega gradiva ne povezujte, dokler ne preverite pogojev odjemalca umetne inteligence glede hrambe in obdelave podatkov. Za prvi prenos zadostuje preprosto pravilo: shranite izvirni izvoz, si predoglejte nekaj kartic, odobrite zapis le v omejenem obsegu in preverite rezultat v ciljni aplikaciji, preden nadaljujete.
 
 ## Zasebnega prometa brskalnika ne obravnavajte kot API
 

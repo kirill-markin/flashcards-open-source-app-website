@@ -244,7 +244,7 @@ Sāc ar savu zināšanu pārbaudi, kaut vai tikai piecu minūšu paštestu.
 6. **Trenē tabulas uzbūves atcerēšanos ārpus kartītēm.** Aizpildi tukšu tabulu un skaļi nosauc atbalsta punktus grupās vai periodos. Atsevišķas kartītes pašas par sevi neiemāca telpisko izkārtojumu.
 7. **Atgriezies pie ķīmijas uzdevumiem.** Lasi formulas, izskaidro īpašību izmaiņas, uzraksti elektronu konfigurāciju un risini nepazīstamus uzdevumus. Katra atkārtota kļūda var kļūt par vienu nelielu kartīti tās novēršanai.
 
-Paplašinot komplektu, saglabā paveicamu ikdienas atkārtojumu apjomu. Raksts [Cik jaunu mācību kartīšu dienā?](/blog/how-many-new-flashcards-per-day/) angļu valodā skaidro, kā jauno kartīšu skaitu noteikt pēc jau ieplānotās atkārtojumu slodzes, nevis ambīcijām.
+Paplašinot komplektu, saglabā paveicamu ikdienas atkārtojumu apjomu. Jauno kartīšu skaitu nosaki pēc jau ieplānotās atkārtojumu slodzes.
 
 ## Gatavi komplekti trim dažādiem uzdevumiem
 

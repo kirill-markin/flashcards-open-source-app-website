@@ -101,7 +101,7 @@ Simulez trois scénarios avant de modifier votre configuration :
 2. La cible de rétention que vous envisagez.
 3. La même cible avec moins de nouvelles cartes par jour.
 
-Le troisième scénario teste une autre possibilité courante : conserver l’objectif de mémorisation et ralentir l’arrivée de nouveau contenu. Si la charge prévue devient gérable, vous n’avez pas besoin d’accepter davantage d’oublis pour alléger la file. Pour approfondir ce sujet, lisez [Combien de nouvelles cartes de révision par jour ?](/blog/how-many-new-flashcards-per-day/).
+Le troisième scénario teste une autre possibilité courante : conserver l’objectif de mémorisation et ralentir l’arrivée de nouveau contenu. Si la charge prévue devient gérable, vous n’avez pas besoin d’accepter davantage d’oublis pour alléger la file.
 
 Ces deux outils fournissent des estimations. Les jours sans révision, les cartes modifiées, le nouveau contenu et l’évolution de vos habitudes d’évaluation peuvent éloigner la charge réelle de la courbe. Servez-vous de la comparaison pour choisir une direction, pas pour prévoir à la carte près vos révisions dans plusieurs mois.
 

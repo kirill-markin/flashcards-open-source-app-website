@@ -244,7 +244,7 @@ Start med at undersøge, hvad du faktisk kan, også selv om det bare er en selvt
 6. **Øv tabellens opbygning uden for kortsættet.** Udfyld en tom tabel, og sig holdepunkterne for grupper eller perioder højt. Enkeltstående kort lærer dig ikke i sig selv, hvor grundstofferne er placeret.
 7. **Vend tilbage til kemien.** Læs formler, forklar en tendens, skriv en elektronkonfiguration, og løs nye opgaver. Hver tilbagevendende fejl kan give anledning til ét lille kort, der retter op på den.
 
-Hold den daglige kø på et realistisk niveau, mens kortsættet vokser. [Hvor mange nye flashcards om dagen?](/blog/how-many-new-flashcards-per-day/) forklarer, hvordan du kan lade mængden af planlagte repetitioner styre antallet af nye kort i stedet for ambitionerne.
+Hold den daglige kø på et realistisk niveau, mens kortsættet vokser. Lad mængden af planlagte repetitioner styre antallet af nye kort.
 
 ## Færdige kortsæt til tre forskellige formål
 

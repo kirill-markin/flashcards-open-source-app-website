@@ -101,7 +101,7 @@ Zanim zmienisz używane ustawienia, uruchom trzy scenariusze:
 2. Rozważany cel retencji.
 3. Ten sam cel przy mniejszej liczbie nowych kart dziennie.
 
-Trzeci scenariusz sprawdza częstą alternatywę: zachować cel zapamiętywania i wolniej wprowadzać nowy materiał. Jeśli prognozowane obciążenie będzie wtedy do przyjęcia, nie musisz godzić się na większe zapominanie tylko po to, by zmniejszyć kolejkę. Więcej o tempie wprowadzania materiału znajdziesz w poradniku [Ile nowych fiszek dziennie?](/blog/how-many-new-flashcards-per-day/).
+Trzeci scenariusz sprawdza częstą alternatywę: zachować cel zapamiętywania i wolniej wprowadzać nowy materiał. Jeśli prognozowane obciążenie będzie wtedy do przyjęcia, nie musisz godzić się na większe zapominanie tylko po to, by zmniejszyć kolejkę.
 
 Oba narzędzia podają szacunki. Opuszczone dni, edycje kart, nowy materiał i zmiany sposobu oceniania mogą sprawić, że rzeczywisty nakład pracy będzie odbiegać od wykresu. Porównanie pomaga wybrać kierunek, ale nie obiecuje dokładnej wielkości kolejki za kilka miesięcy.
 

@@ -93,7 +93,7 @@ ExcelやGoogle Sheetsで、その1行がちょうど2つのセルに収まって
 
 たとえば、「first stage」と「second stage」が別々の行に書かれた答えなら、`first stage; second stage`と書き換えると、両方を1行に収められます。答えの中にセミコロンを使う場合も、カード間の区切りは**New line**のままにしてください。
 
-2つの段階をそれぞれ別の質問にしたほうがよければ、用語と定義がそろった2組のカードに分けます。判断に迷ったら、[より良いフラッシュカードの作り方](/blog/how-to-make-better-flashcards/)が参考になります。
+2つの段階をそれぞれ別の質問にしたほうがよければ、用語と定義がそろった2組のカードに分けます。
 
 ## 公開前に結果を確認する
 
@@ -111,4 +111,4 @@ ExcelやGoogle Sheetsで、その1行がちょうど2つのセルに収まって
 
 Quizletは、入力した資料からAIでカードを作る方法も[AIによるカード作成の案内](https://quizlet.com/content/create-flashcards-from-words-and-definitions-with-quizlet-ai)で説明しています。生成された文章は、内容そのものを別途確認する必要があります。用語と定義のリストがすでに完成しているなら、区切りを指定してインポートすると、自分で書いた組み合わせと照合して、正しく取り込まれたかを確認できます。
 
-元の資料がまとまった文章なら、インポート用テキストを準備する前に[ノートをフラッシュカードに変換](/blog/turn-notes-into-flashcards/)しましょう。Quizletから外へセットを移したい場合は、[Quizletのエクスポートガイド](/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/)を参照してください。
+元の資料がまとまった文章なら、インポート用テキストを準備する前に、要点を短い問いと答えに分けましょう。Quizletから外へセットを移したい場合は、[Quizletのエクスポートガイド](/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/)を参照してください。

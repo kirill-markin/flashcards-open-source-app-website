@@ -244,7 +244,7 @@ Comece com evidências, mesmo que seja apenas um teste de cinco minutos feito po
 6. **Reconstrua o formato da tabela fora do baralho.** Preencha uma tabela em branco e diga em voz alta os pontos de referência de grupos ou períodos. Cartões isolados não ensinam a disposição espacial por si sós.
 7. **Volte à química.** Leia fórmulas, explique uma tendência, escreva uma configuração eletrônica e resolva problemas novos. Cada erro repetido pode gerar um pequeno cartão para corrigi-lo.
 
-Mantenha uma carga diária realista enquanto amplia o conjunto. [Quantos flashcards novos por dia?](/blog/how-many-new-flashcards-per-day/) (em inglês) explica como usar a quantidade de revisões pendentes, em vez da ambição, para definir quantos cartões acrescentar.
+Mantenha uma carga diária realista enquanto amplia o conjunto. Defina quantos cartões acrescentar de acordo com a quantidade de revisões pendentes.
 
 ## Baralhos prontos para três objetivos diferentes
 

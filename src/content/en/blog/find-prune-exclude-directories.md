@@ -269,7 +269,7 @@ If one answer surprised you, save that decision. A short prompt on paper or in a
 | The first OR branch matches `node_modules`. Will a later `-prune` run? | No. A true OR branch skips the later branches. Group both directory alternatives before pruning. |
 | Pruning works, but the excluded directories appear in output. What should you check? | An explicit `-print` belongs on the wanted-file branch; omitting it can activate default printing. |
 
-The [terminal-command learning guide](/blog/how-to-learn-terminal-commands-with-flashcards/) shows how to keep practice tied to the decisions you actually forget. You don't need a card for every variation in this lab.
+Keep practice tied to the decisions you actually forget. You don't need a card for every variation in this lab.
 
 Once directory selection is right, use [find -mtime](/blog/find-mtime/) to choose files by age, or [find -exec vs xargs](/blog/find-exec-vs-xargs/) to check how selected paths reach another program. Those are separate decisions: first choose the files, then check the handoff.
 

@@ -158,7 +158,7 @@ Ecco come trasformare in carte cinque errori comuni:
 
 Non copiare un intero quesito ufficiale e la spiegazione della risposta su una sola carta. Scrivi con parole tue ciò che hai verificato. Lascia il quesito completo nel materiale di esercitazione e conserva nel mazzo solo il piccolo elemento da memorizzare.
 
-[Come trasformare le domande di esercitazione in flashcard nel 2026](/blog/how-to-turn-practice-questions-into-flashcards/) approfondisce le carte su lacune nelle conoscenze, distinzioni, sequenze e trabocchetti ricorrenti. [Flashcard o simulazioni d'esame nel 2026](/blog/flashcards-vs-practice-tests/) spiega perché la carta e il successivo quesito nuovo devono rimanere due passaggi distinti.
+[Flashcard o simulazioni d'esame nel 2026](/blog/flashcards-vs-practice-tests/) spiega perché la carta e il successivo quesito nuovo devono rimanere due passaggi distinti.
 
 ## Controlla un vecchio mazzo TOEFL prima di ripassarlo
 
@@ -180,8 +180,6 @@ Dividi poi i risultati in tre gruppi:
 3. **Da eliminare o archiviare:** istruzioni, tempi, punteggi e modelli che descrivono soltanto il formato precedente al 21 gennaio 2026.
 
 Confronta poi i tag degli esercizi rimasti con i 12 nomi attuali di ETS. Associa a ogni carta che dipende dal formato una fonte ufficiale ETS aggiornata. Puoi anche aggiungere il tag `verified-2026` e la data del controllo come metadati supplementari. Qui le date contano, perché ETS può aggiornare l'esame. Il vocabolario stabile non richiede lo stesso trattamento.
-
-Se il mazzo è grande, [Come sfoltire un mazzo di flashcard nel 2026](/blog/how-to-prune-a-flashcard-deck/) propone una procedura pratica per eliminare e riscrivere le carte.
 
 ## Usa la ripetizione dilazionata per ricordare, non per simulare l'esame
 

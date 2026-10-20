@@ -101,7 +101,7 @@ Publicznie opisany interfejs pozwala uniknąć części domysłów przy integrac
 
 Nibomo oddziela operacje odczytu od narzędzi zapisu: `sql_execute` służy do fiszek i talii, a `submit_review` do powtórek. Dane uwierzytelniające OAuth nadal obejmują cały interfejs konektora, więc blokowanie narzędzi i sposób zatwierdzania działań zależą od klienta. Zacznij od małej przestrzeni roboczej bez poufnych danych. Pozwól agentowi odczytywać tylko dane potrzebne do zadania, wymagaj osobnego zatwierdzenia każdego zapisu, jeśli klient to obsługuje, i sprawdź przestrzeń roboczą oraz proponowaną zmianę przed jej zaakceptowaniem.
 
-Nie podłączaj prywatnych materiałów do nauki, dopóki nie sprawdzisz warunków przechowywania i przetwarzania danych przez klienta AI. Szczegółowy model zagrożeń znajdziesz w artykule [Czy MCP jest bezpieczne dla fiszek?](/blog/is-mcp-safe-for-flashcards/). Przy pierwszym przeniesieniu wystarczy prosta zasada: zachowaj oryginalny eksport, obejrzyj kilka fiszek, zatwierdź zapis o wąskim zakresie i sprawdź wynik w aplikacji docelowej, zanim zrobisz więcej.
+Nie podłączaj prywatnych materiałów do nauki, dopóki nie sprawdzisz warunków przechowywania i przetwarzania danych przez klienta AI. Przy pierwszym przeniesieniu wystarczy prosta zasada: zachowaj oryginalny eksport, obejrzyj kilka fiszek, zatwierdź zapis o wąskim zakresie i sprawdź wynik w aplikacji docelowej, zanim zrobisz więcej.
 
 ## Nie traktuj prywatnego ruchu przeglądarki jak API
 

@@ -158,7 +158,7 @@ Kövesd ezt a munkamenetet:
 
 Ne másolj egy teljes hivatalos kérdést és indoklást egyetlen kártyára. Az ellenőrzött tanulságot a saját szavaiddal írd le. A teljes feladat maradjon a gyakorlóanyagban, a pakliban pedig csak a kis, megjegyzendő rész kapjon helyet.
 
-A [Hogyan alakíts gyakorlókérdéseket tanulókártyákká 2026-ban?](/blog/how-to-turn-practice-questions-into-flashcards/) részletesebben bemutatja a tárgyi tudás hiányait pótló, a különbségek felismerését és a sorrendek felidézését segítő, valamint a visszatérő csapdákra figyelmeztető kártyákat. A [Tanulókártyák vagy próbatesztek 2026-ban?](/blog/flashcards-vs-practice-tests/) elmagyarázza, miért maradjon külön lépés a kártya ismétlése és a következő új kérdés megoldása.
+A [Tanulókártyák vagy próbatesztek 2026-ban?](/blog/flashcards-vs-practice-tests/) elmagyarázza, miért maradjon külön lépés a kártya ismétlése és a következő új kérdés megoldása.
 
 ## Ismétlés előtt nézd át a régi TOEFL-paklikat
 
@@ -180,8 +180,6 @@ Ezután sorold az eredményeket három csoportba:
 3. **Törlés vagy archiválás:** olyan feladatutasítások, időkeretek, pontozási szabályok és sablonok, amelyek kizárólag a 2026. január 21. előtti formátumot írják le.
 
 Ezután vesd össze a megmaradt feladatcímkéket a 12 jelenlegi ETS-feladatnévvel. Minden formátumfüggő kártyához rendelj aktuális hivatalos ETS-forrást. Kiegészítő metaadatként egy `verified-2026` címkét és az ellenőrzés dátumát is hozzáadhatod. Itt számítanak a dátumok, mert az ETS módosíthatja a vizsgát. Az időtálló szókincs nem igényel ugyanilyen kezelést.
-
-Ha nagy a pakli, a [Hogyan ritkítsd meg a tanulókártya-paklidat 2026-ban?](/blog/how-to-prune-a-flashcard-deck/) gyakorlati munkamenetet ad a törléshez és az átíráshoz.
 
 ## A szakaszos ismétlést a tudás megőrzésére használd, ne vizsgaszimulációra
 

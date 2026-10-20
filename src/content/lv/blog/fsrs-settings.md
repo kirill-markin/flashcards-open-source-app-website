@@ -101,7 +101,7 @@ Pirms maināt faktiskos iestatījumus, izmēģiniet trīs scenārijus:
 2. Atcerēšanās mērķis, ko apsverat.
 3. Tas pats mērķis ar mazāku jauno kartīšu skaitu dienā.
 
-Trešais scenārijs pārbauda izplatītu alternatīvu: saglabāt atcerēšanās mērķi un palēnināt jauna materiāla pievienošanu. Ja šādi prognozētā slodze kļūst panesama, nav jāsamierinās ar biežāku aizmiršanu tikai tādēļ, lai saīsinātu rindu. Plašāki ieteikumi par jauno kartīšu skaitu ir rakstā [Cik jaunu mācību kartīšu apgūt dienā?](/blog/how-many-new-flashcards-per-day/).
+Trešais scenārijs pārbauda izplatītu alternatīvu: saglabāt atcerēšanās mērķi un palēnināt jauna materiāla pievienošanu. Ja šādi prognozētā slodze kļūst panesama, nav jāsamierinās ar biežāku aizmiršanu tikai tādēļ, lai saīsinātu rindu.
 
 Abi rīki sniedz aplēses. Izlaistu dienu, rediģētu kartīšu, jauna materiāla un mainīgu vērtēšanas ieradumu dēļ reālā slodze var atšķirties no grafikā prognozētās. Izmantojiet salīdzinājumu, lai izvēlētos virzienu, nevis paredzētu precīzu rindas garumu pēc vairākiem mēnešiem.
 

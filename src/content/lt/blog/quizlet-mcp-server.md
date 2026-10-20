@@ -101,7 +101,7 @@ Vieša sąsajos specifikacija leidžia mažiau spėlioti kuriant integraciją, t
 
 Nibomo atskiria skaitymo operacijas nuo rašymo įrankių: `sql_execute` skirtas kortelėms ir jų rinkiniams, o `submit_review` — kartojimams. Vis dėlto OAuth prieigos duomenys apima jungties suteikiamas funkcijas, todėl įrankių blokavimas ir patvirtinimo tvarka priklauso nuo kliento. Pradėkite nuo nedidelės darbo srities be jautrių duomenų. Leiskite agentui skaityti tik užduočiai reikalingus duomenis. Jei klientas tai palaiko, nustatykite, kad kiekvieną rašymo įrankio iškvietimą reikėtų patvirtinti atskirai, ir prieš patvirtindami patikrinkite darbo sritį bei siūlomą pakeitimą.
 
-Neprijunkite privačios mokymosi medžiagos, kol nepatikrinote DI kliento duomenų saugojimo ir tvarkymo sąlygų. Išsamus grėsmių modelis pateiktas straipsnyje [„Ar MCP saugus mokymosi kortelėms?“](/blog/is-mcp-safe-for-flashcards/). Pirmajam perkėlimui pakanka paprastos taisyklės: išsaugokite pradinį eksporto failą, peržiūrėkite kelias korteles, patvirtinkite nedidelės apimties įrašymą ir prieš tęsdami patikrinkite rezultatą paskirties programėlėje.
+Neprijunkite privačios mokymosi medžiagos, kol nepatikrinote DI kliento duomenų saugojimo ir tvarkymo sąlygų. Pirmajam perkėlimui pakanka paprastos taisyklės: išsaugokite pradinį eksporto failą, peržiūrėkite kelias korteles, patvirtinkite nedidelės apimties įrašymą ir prieš tęsdami patikrinkite rezultatą paskirties programėlėje.
 
 ## Nepaverskite privačių naršyklės užklausų API
 
