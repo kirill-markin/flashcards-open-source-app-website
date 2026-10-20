@@ -127,7 +127,7 @@ For example:
 
 This card is valuable because it stores the decision rule, not just the definition of `demand shift`.
 
-Keep the back short enough to grade honestly. The [guide to making better flashcards](/blog/how-to-make-better-flashcards/) covers that card-writing layer. Mixing retrieval tasks and scheduling their later reviews remain separate jobs.
+Keep the back short enough to grade honestly. The [guide to making better flashcards](/blog/how-to-make-better-flashcards/) covers that card-writing layer, while [active recall vs spaced repetition](/blog/active-recall-vs-spaced-repetition/) explains why retrieval and later scheduling remain separate jobs.
 
 ### 5. Let FSRS schedule the cards worth keeping
 

@@ -158,7 +158,7 @@ Berikut lima contoh umum perubahan kesalahan menjadi kartu:
 
 Jangan menyalin seluruh soal resmi beserta penjelasan jawabannya ke satu kartu. Tulis pelajaran yang sudah dipastikan dengan kata-kata Anda sendiri. Biarkan soal lengkap berada dalam materi latihan dan simpan hanya sasaran hafalan yang ringkas di dalam dek.
 
-[Flashcard vs Tes Latihan pada 2026](/blog/flashcards-vs-practice-tests/) menjelaskan mengapa kartu dan soal baru berikutnya perlu tetap menjadi langkah yang terpisah.
+[Cara Mengubah Soal Latihan Menjadi Flashcard pada 2026](/blog/how-to-turn-practice-questions-into-flashcards/) membahas lebih jauh kekurangan pengetahuan faktual serta kartu pembeda, urutan, dan pola jebakan. [Flashcard vs Tes Latihan pada 2026](/blog/flashcards-vs-practice-tests/) menjelaskan mengapa kartu dan soal baru berikutnya perlu tetap menjadi langkah yang terpisah.
 
 ## Periksa dek TOEFL lama sebelum mengulanginya
 
@@ -180,6 +180,8 @@ Lalu bagi hasilnya menjadi tiga kelompok:
 3. **Hapus atau arsipkan:** petunjuk tugas, durasi, penilaian, dan templat yang hanya menggambarkan format sebelum 21 Januari 2026.
 
 Selanjutnya, bandingkan tag tugas yang tersisa dengan 12 nama tugas ETS saat ini. Berikan sumber resmi ETS yang masih berlaku pada setiap kartu yang khusus membahas format ujian. Anda juga dapat menambahkan tag `verified-2026` dan tanggal pemeriksaan sebagai metadata tambahan. Tanggal penting dalam hal ini karena ETS dapat memperbarui ujian. Kosakata yang tetap berlaku tidak memerlukan perlakuan yang sama.
+
+Jika deknya besar, [Cara Merampingkan Dek Flashcard pada 2026](/blog/how-to-prune-a-flashcard-deck/) menyediakan alur praktis untuk menghapus dan menulis ulang kartu.
 
 ## Gunakan pengulangan berjarak untuk mempertahankan ingatan, bukan menyimulasikan tes
 

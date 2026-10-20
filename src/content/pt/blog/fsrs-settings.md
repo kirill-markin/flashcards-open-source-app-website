@@ -101,7 +101,7 @@ Simule três cenários antes de mudar a configuração em uso:
 2. A meta de retenção que você está considerando.
 3. A mesma meta, com menos cartões novos por dia.
 
-A terceira simulação testa uma alternativa comum: manter a meta de lembrança e reduzir a entrada de material novo. Se isso gerar uma previsão administrável, você não precisa aceitar mais esquecimentos só para aliviar a fila.
+A terceira simulação testa uma alternativa comum: manter a meta de lembrança e reduzir a entrada de material novo. Se isso gerar uma previsão administrável, você não precisa aceitar mais esquecimentos só para aliviar a fila. O guia [Quantos flashcards novos por dia?](/blog/how-many-new-flashcards-per-day/) aprofunda essa decisão.
 
 As duas ferramentas produzem estimativas. Dias sem estudar, cartões editados, material novo e mudanças nos hábitos de avaliação podem fazer o volume real se afastar do gráfico. Use a comparação para escolher uma direção, sem tratá-la como uma promessa de uma fila exata daqui a meses.
 

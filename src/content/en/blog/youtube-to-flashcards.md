@@ -52,7 +52,7 @@ Automatic captions add another failure mode. [YouTube warns that machine-generat
 
 This boundary matters when comparing products. AnkiDecks and Gizmo explicitly describe transcript-based YouTube routes. Knowt says Kai analyzes the video, but its cited guide does not specify that the extension captures every visual detail. StudyFetch lists Image Occlusion as a card type, but its flashcard page does not establish that YouTube ingestion automatically extracts or understands video frames. Do not treat either description as proof of visual comprehension.
 
-For visual-heavy material, use the transcript for spoken claims, then reopen the source at the relevant timestamp and add the missing screenshot, diagram, formula, or code state yourself. If the creator provides slides or notes, check those for the visual context the transcript lacks.
+For visual-heavy material, use the transcript for spoken claims, then reopen the source at the relevant timestamp and add the missing screenshot, diagram, formula, or code state yourself. If the creator provides slides or notes, the [PDF-to-flashcards workflow](/blog/how-to-turn-a-pdf-into-flashcards/) may be the safer source.
 
 ## What each tool actually documents
 

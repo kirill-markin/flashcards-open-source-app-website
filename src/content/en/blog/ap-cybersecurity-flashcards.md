@@ -114,7 +114,7 @@ After practice, save the transferable reason for a miss instead of copying the w
 
 **Back:** The asset or service at risk, the vulnerability or unwanted behavior, and the evidence showing how the traffic creates risk.
 
-This produces a small deck based on your errors. Rewrite each missed lesson in your own words, test one decision per card, and do not store copied exam material.
+This produces a small deck based on your errors. [Turning practice questions into flashcards](/blog/how-to-turn-practice-questions-into-flashcards/) works especially well here, as long as you rewrite the lesson in your own words and do not store copied exam material.
 
 ## Map the deck across five units and three skill categories
 

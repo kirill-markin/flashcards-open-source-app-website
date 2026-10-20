@@ -214,6 +214,7 @@ That is not an algorithm problem. That is a card-writing problem pretending to b
 If you want the scheduling side in more detail, start here:
 
 - [FSRS vs SM-2 in 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
+- [How Many New Flashcards Per Day in 2026](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 
 ## The fastest edit is deletion
 

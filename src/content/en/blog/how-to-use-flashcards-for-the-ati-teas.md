@@ -256,7 +256,7 @@ That matters because TEAS prep is usually short. You do not need a complicated k
 
 One stable deck plus a few honest tags usually works better than constant deck reorganization.
 
-If organization is the bottleneck, use a few subject groups and consistent tags for weak spots instead of adding more layers.
+If organization is the real bottleneck, [How to Organize Flashcards in 2026](https://nibomo.com/blog/how-to-organize-flashcards/) goes deeper on that part.
 
 ## Let AI draft the rough first version, then edit hard
 
@@ -273,7 +273,7 @@ It is closer to this:
 
 If the draft back side looks like a paragraph from a workbook, cut it down. If two cards test the same idea, keep the clearer one. If the prompt only checks recognition, rewrite it for active recall.
 
-Keep the repair focused on one missed idea, as in [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/).
+That is similar to the workflow in [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) and [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/).
 
 ## Where Nibomo fits this ATI TEAS workflow
 

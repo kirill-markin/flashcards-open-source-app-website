@@ -115,6 +115,10 @@ FSRSが好きなのは、古い方式より復習のリズムが落ち着きや�
 
 合わせるべきなのは、実際に存在する自分です。
 
+その負荷をもう少しきれいに見積もりたいなら、次の記事も相性がいいです。
+
+- [2026年、1日に何枚の新しいフラッシュカードを追加すべきか: 無理なく終えられるFSRSの復習量を作る](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
+
 ## 資料を処理する作業と、記憶を鍛える作業は分けておく
 
 これは、自分の勉強習慣の中でもかなり効果が大きかった変更の1つです。
@@ -217,7 +221,9 @@ AIは「作りすぎ」をとても簡単にしてしまいます。
 
 元の資料がまだその一歩手前で止まっているなら、次の記事も役立ちます。
 
+- [2026年版 PDFをフラッシュカード化する方法: 講義スライド・教科書・論文からFSRS向けカードを作る](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 - [2026年にChatGPTでフラッシュカードを作る方法: プロンプトを整え、カードを磨き、FSRSで復習を回す](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [2026年版: NotebookLMのフラッシュカードを本物の間隔反復に変える方法 書き出して整え、FSRSで復習する](https://nibomo.com/blog/notebooklm-flashcards-to-spaced-repetition/)
 
 良い試験デッキは、たいてい一番大きいデッキではありません。
 

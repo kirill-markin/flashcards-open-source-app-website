@@ -33,7 +33,7 @@ Google Docs is not just "notes in the cloud." It is usually the place where raw 
 - one running notes file with headings for each lecture
 - one doc full of comments like "Do we need to know this?"
 
-This overlaps with [How to Turn Notes Into Flashcards](/blog/turn-notes-into-flashcards/). The difference is the collaborative mess. Google Docs gives you live edits, comments, suggestion mode, headings, and copied fragments from five different brains. Good for collecting material. Bad as-is for memorization.
+That makes this topic overlap with both [How to Turn Notes Into Flashcards](/blog/turn-notes-into-flashcards/) and [How to Turn a Study Guide Into Flashcards](/blog/how-to-turn-a-study-guide-into-flashcards/). The difference is the collaborative mess. Google Docs gives you live edits, comments, suggestion mode, headings, and copied fragments from five different brains. Good for collecting material. Bad as-is for memorization.
 
 ## Do not wait for a magical Google Docs sync
 
@@ -165,7 +165,7 @@ Then it drafts four cards.
 
 That is why I would do a hard deletion pass every time. Keep the cleanest version. Merge where needed. Drop anything that only feels useful because you saw it three times in the document.
 
-Accept only draft cards that test relevant gaps. A comprehensive Google Doc does not need to become a comprehensive deck.
+If this is already a pain point, [How to Avoid AI Flashcard Overload](/blog/how-to-avoid-ai-flashcard-overload/) is the companion piece. The fastest way to make a Google Docs deck feel bad is to accept every draft card just because the source looked comprehensive.
 
 ## Cut weak AI cards before FSRS ever sees them
 

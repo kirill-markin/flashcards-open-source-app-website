@@ -244,7 +244,7 @@ Mulai dari bukti, meskipun hanya berupa tes mandiri selama lima menit.
 6. **Susun kembali bentuk tabel di luar dek.** Isi tabel kosong dan sebutkan unsur acuan untuk golongan atau periode dengan lantang. Kartu yang berdiri sendiri tidak cukup untuk mengajarkan tata letak tabel.
 7. **Kembali berlatih kimia.** Baca rumus, jelaskan tren, tulis konfigurasi elektron, dan selesaikan soal yang belum dikenal. Setiap kesalahan berulang bisa menjadi satu kartu singkat untuk melatih hal yang masih keliru.
 
-Jaga agar jumlah pengulangan harian tetap realistis saat menambah materi. Tentukan jumlah kartu baru berdasarkan beban pengulangan yang jatuh tempo.
+Jaga agar jumlah pengulangan harian tetap realistis saat menambah materi. [Berapa Banyak Flashcard Baru per Hari?](/blog/how-many-new-flashcards-per-day/) menjelaskan cara menentukan jumlah kartu baru berdasarkan beban pengulangan yang jatuh tempo, bukan sekadar ambisi.
 
 ## Dek siap pakai untuk tiga kebutuhan berbeda
 

@@ -244,7 +244,7 @@ Ta utgangspunkt i det du faktisk får til, selv om det bare er en fem minutters 
 6. **Øv på oppsettet utenfor kortstokken.** Fyll ut et tomt periodesystem og si holdepunktene for grupper og perioder høyt. Enkeltkort lærer deg ikke plasseringen i tabellen på egen hånd.
 7. **Gå tilbake til kjemien.** Les formler, forklar en trend, skriv en elektronkonfigurasjon og løs ukjente oppgaver. Hver feil som gjentar seg, kan bli til ett lite kort som retter opp akkurat den feilen.
 
-Hold den daglige køen overkommelig når du utvider utvalget. La mengden repetisjoner som forfaller, styre antallet nye kort.
+Hold den daglige køen overkommelig når du utvider utvalget. [Hvor mange nye øvingskort per dag?](/blog/how-many-new-flashcards-per-day/) forklarer hvordan du lar mengden repetisjoner som forfaller, styre antallet nye kort i stedet for ambisjonene dine.
 
 ## Ferdige kortstokker til tre forskjellige formål
 

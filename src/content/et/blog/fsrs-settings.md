@@ -101,7 +101,7 @@ Enne kasutusel olevate seadete muutmist proovi kolme stsenaariumi:
 2. Meelespüsimise siht, mida kaalud.
 3. Sama siht, kuid vähem uusi kaarte päevas.
 
-Kolmas katse kontrollib levinud alternatiivi: säilita meenutamise siht ja vähenda uue materjali lisamise tempot. Kui see annab jõukohase prognoosi, ei pea sa üksnes järjekorra vähendamiseks sagedasema unustamisega leppima.
+Kolmas katse kontrollib levinud alternatiivi: säilita meenutamise siht ja vähenda uue materjali lisamise tempot. Kui see annab jõukohase prognoosi, ei pea sa üksnes järjekorra vähendamiseks sagedasema unustamisega leppima. Põhjalikum juhend on artiklis [Mitu uut õpikaarti päevas?](/blog/how-many-new-flashcards-per-day/).
 
 Mõlemad tööriistad annavad hinnanguid. Vahele jäänud päevad, muudetud kaardid, uus materjal ja muutuvad hindamisharjumused võivad tegeliku töömahu graafikust kõrvale viia. Kasuta võrdlust suuna valimiseks; see ei ennusta täpselt, milline on järjekord mitme kuu pärast.
 

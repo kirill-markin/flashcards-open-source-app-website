@@ -101,7 +101,7 @@ Herkese açık bir arayüz sözleşmesi, entegrasyonda bazı belirsizlikleri ort
 
 Nibomo, okuma işlemlerini yazma araçlarından ayırır: kartlar ve desteler için `sql_execute`, tekrarlar için `submit_review`. OAuth kimlik bilgisi yine de bağlayıcının sunduğu arayüzün tamamını kapsar; bu yüzden araçların engellenmesi ve onayların nasıl alınacağı istemciye bağlıdır. Hassas bilgi içermeyen küçük bir çalışma alanıyla başlayın. Ajanın yalnızca görev için gereken verileri okumasına izin verin, istemci destekliyorsa yazma işlemlerini her çağrıda onaya bağlı tutun ve kabul etmeden önce çalışma alanını ve önerilen değişikliği inceleyin.
 
-Yapay zekâ istemcisinin veri saklama ve işleme koşullarını kontrol etmeden özel çalışma materyallerinizi bağlamayın. İlk aktarım için basit bir kural yeterli: ham dışa aktarımı saklayın, birkaç kartı önizleyin, kapsamı dar bir yazma işlemine onay verin ve daha fazlasını yapmadan önce sonucu hedef uygulamada doğrulayın.
+Yapay zekâ istemcisinin veri saklama ve işleme koşullarını kontrol etmeden özel çalışma materyallerinizi bağlamayın. Ayrıntılı tehdit modeli [Çalışma Kartları İçin MCP Güvenli mi?](/blog/is-mcp-safe-for-flashcards/) yazısında bulunuyor. İlk aktarım için basit bir kural yeterli: ham dışa aktarımı saklayın, birkaç kartı önizleyin, kapsamı dar bir yazma işlemine onay verin ve daha fazlasını yapmadan önce sonucu hedef uygulamada doğrulayın.
 
 ## Özel tarayıcı trafiğini API'ye dönüştürmeyin
 

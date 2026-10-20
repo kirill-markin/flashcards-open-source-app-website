@@ -158,7 +158,7 @@ Tässä on viisi tavallista tapaa muuttaa virhe kortiksi:
 
 Älä kopioi kokonaista virallista kysymystä ja sen perustelua yhdelle kortille. Kirjoita virheestä oppimasi ja tarkistamasi asia omin sanoin. Jätä koko tehtävä harjoitusmateriaaliin ja säilytä pakassa vain pieni muistettava asia.
 
-[Oppimiskortit vai harjoituskokeet vuonna 2026](/blog/flashcards-vs-practice-tests/) selittää, miksi kortin kertaamisen ja seuraavan uuden kysymyksen ratkaisemisen kannattaa pysyä erillisinä vaiheina.
+[Näin muutat harjoituskysymykset oppimiskorteiksi vuonna 2026](/blog/how-to-turn-practice-questions-into-flashcards/) käsittelee tarkemmin kortteja, joilla paikataan tietoaukkoja, erotetaan samankaltaisia asioita toisistaan, opetellaan järjestyksiä ja tunnistetaan harhaanjohtavia vaihtoehtoja. [Oppimiskortit vai harjoituskokeet vuonna 2026](/blog/flashcards-vs-practice-tests/) selittää, miksi kortin kertaamisen ja seuraavan uuden kysymyksen ratkaisemisen kannattaa pysyä erillisinä vaiheina.
 
 ## Tarkista vanha TOEFL-pakka ennen kertaamista
 
@@ -180,6 +180,8 @@ Jaa tulokset sitten kolmeen ryhmään:
 3. **Poista tai arkistoi:** tehtäväohjeet, aikarajat, pisteytys ja vastauspohjat, jotka kuvaavat vain ennen 21. tammikuuta 2026 käytettyä koemuotoa.
 
 Vertaa seuraavaksi jäljelle jääviä tehtävätunnisteita ETS:n nykyisiin 12 tehtävänimeen. Lisää jokaiselle koemuodosta riippuvalle kortille ajantasainen virallinen ETS-lähde. Voit myös lisätä täydentäviksi metatiedoiksi tunnisteen `verified-2026` ja tarkistuspäivän. Päivämäärillä on tässä merkitystä, koska ETS voi päivittää koetta. Vakiintunut sanasto ei tarvitse samaa käsittelyä.
+
+Jos pakka on suuri, [Näin karsit oppimiskorttipakkaa vuonna 2026](/blog/how-to-prune-a-flashcard-deck/) tarjoaa käytännöllisen tavan poistaa ja muokata kortteja.
 
 ## Käytä aikavälikertausta muistamiseen, älä kokeen jäljittelyyn
 

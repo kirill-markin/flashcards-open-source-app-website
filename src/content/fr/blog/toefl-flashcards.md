@@ -158,7 +158,7 @@ Voici cinq exemples courants d’erreurs à transformer en cartes :
 
 Ne copiez pas toute une question officielle et son explication sur une seule carte. Formulez la leçon vérifiée avec vos propres mots. Laissez l’exercice complet dans le support d’entraînement et ne gardez dans le paquet que le petit élément à mémoriser.
 
-[Flashcards ou tests d’entraînement en 2026](/blog/flashcards-vs-practice-tests/) explique pourquoi réviser la carte et répondre ensuite à une question inédite doivent rester deux étapes distinctes.
+[Comment transformer des questions d’entraînement en flashcards en 2026](/blog/how-to-turn-practice-questions-into-flashcards/) détaille les cartes portant sur les connaissances factuelles manquantes, les distinctions, les séquences et les pièges récurrents. [Flashcards ou tests d’entraînement en 2026](/blog/flashcards-vs-practice-tests/) explique pourquoi réviser la carte et répondre ensuite à une question inédite doivent rester deux étapes distinctes.
 
 ## Passez en revue un ancien paquet TOEFL avant de le réviser
 
@@ -180,6 +180,8 @@ Classez ensuite les résultats en trois groupes :
 3. **À supprimer ou à archiver :** consignes, durées, règles de notation et modèles qui décrivent uniquement le format antérieur au 21 janvier 2026.
 
 Comparez ensuite les étiquettes de tâches restantes aux 12 noms de tâches actuels d’ETS. Associez à chaque carte propre au format une source officielle ETS à jour. Vous pouvez aussi ajouter une étiquette `verified-2026` et la date de vérification comme métadonnées complémentaires. Les dates comptent ici, car ETS peut modifier l’examen. Le vocabulaire stable ne demande pas le même traitement.
+
+Si le paquet est volumineux, [Comment alléger un paquet de flashcards en 2026](/blog/how-to-prune-a-flashcard-deck/) propose une méthode pratique de suppression et de réécriture.
 
 ## Utilisez la répétition espacée pour mémoriser, pas pour simuler le test
 

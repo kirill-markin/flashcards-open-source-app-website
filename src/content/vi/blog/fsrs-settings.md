@@ -101,7 +101,7 @@ Hãy chạy ba kịch bản trước khi thay đổi cài đặt đang dùng:
 2. Mục tiêu ghi nhớ bạn đang cân nhắc.
 3. Cùng mục tiêu đó nhưng ít thẻ mới mỗi ngày hơn.
 
-Lần chạy thứ ba kiểm tra một phương án thay thế thường gặp: giữ mục tiêu ghi nhớ và giảm tốc độ đưa kiến thức mới vào. Nếu dự báo cho thấy lượng ôn có thể duy trì, bạn không cần chấp nhận quên nhiều hơn chỉ để giảm số thẻ cần ôn.
+Lần chạy thứ ba kiểm tra một phương án thay thế thường gặp: giữ mục tiêu ghi nhớ và giảm tốc độ đưa kiến thức mới vào. Nếu dự báo cho thấy lượng ôn có thể duy trì, bạn không cần chấp nhận quên nhiều hơn chỉ để giảm số thẻ cần ôn. Bài [Nên học bao nhiêu thẻ mới mỗi ngày?](/blog/how-many-new-flashcards-per-day/) giải thích kỹ hơn về lượng thẻ mới.
 
 Cả hai công cụ đều chỉ đưa ra ước tính. Những ngày bỏ ôn, thẻ được chỉnh sửa, kiến thức mới và thay đổi trong thói quen đánh giá có thể khiến lượng ôn thực tế khác với biểu đồ. Hãy dùng kết quả so sánh để chọn hướng đi, đừng xem đó là lời hứa về số thẻ cần ôn chính xác sau vài tháng.
 

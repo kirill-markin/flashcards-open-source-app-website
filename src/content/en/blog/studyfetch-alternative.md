@@ -87,7 +87,7 @@ A sensible split looks like this:
 4. Rewrite it as one prompt with one answer you can grade honestly.
 5. Put only those survivors into long-term review.
 
-[How to Use AI for Active Recall](/blog/how-to-use-ai-for-active-recall/) separates retrieval practice from simply receiving another explanation. If generation has already filled your queue, stop adding drafts and use [How to Fix AI Flashcards](/blog/how-to-fix-ai-flashcards/) to repair the existing cards before changing apps.
+[How to Use AI for Active Recall](/blog/how-to-use-ai-for-active-recall/) separates retrieval practice from simply receiving another explanation. If generation has already filled your queue, use [How to Avoid AI Flashcard Overload](/blog/how-to-avoid-ai-flashcard-overload/) and [How to Fix AI Flashcards](/blog/how-to-fix-ai-flashcards/) before changing apps.
 
 ## Importing a deck does not prove you can leave later
 

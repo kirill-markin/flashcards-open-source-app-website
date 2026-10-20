@@ -38,7 +38,7 @@ A deck spreads meaning across several layers:
 
 That is why **lecture slides to flashcards** deserves its own article.
 
-If your source is already a flat document, select the relevant pages and verify extracted text, equations, and image labels before drafting cards.
+If your source is already a flat document, start with [How to Turn a PDF Into Flashcards](/blog/how-to-turn-a-pdf-into-flashcards/).
 
 If your source is a real slide deck with hidden context and bullet-heavy shorthand, this workflow is closer.
 
@@ -197,7 +197,7 @@ Extract the labels, sequence, or relationship first. Then turn those into small 
 
 If the deck is mostly visual, [How to Turn Diagrams Into Flashcards](/blog/how-to-turn-diagrams-into-flashcards/) is the better match.
 
-If the deck is thin and the explanation mostly lived in class, consult your own lecture notes or a recording you are allowed to use. Restore missing context before making a card.
+If the deck is thin and the explanation mostly lived in class, [How to Turn Lecture Recordings Into Flashcards](/blog/how-to-turn-lecture-recordings-into-flashcards/) may help more.
 
 ## A practical workflow that holds up after the first week
 

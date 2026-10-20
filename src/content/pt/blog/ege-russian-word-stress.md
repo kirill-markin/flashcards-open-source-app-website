@@ -100,6 +100,6 @@ Suponha que você tenha errado os itens 4, 10 e 12. Crie três cartões: «ло�
 
 Experimente voltar ao conjunto amanhã e depois de novo em alguns dias. Esse é um exemplo de cronograma para começar, não um intervalo obrigatório para cada palavra. Se você usa um app que agenda revisões, faça as revisões previstas e registre os erros com honestidade. Quando conseguir responder com segurança, acrescente outro pequeno grupo da lista atual e continue revisando as palavras anteriores.
 
-O Nibomo tem um [baralho independente “Орфоэпия ЕГЭ-2026” com 192 cartões](/catalog/packages/ege-2026-russian-orthoepy-flashcards/). Ele não tem vínculo com o FIPI nem foi aprovado por ele; também não afirmamos que corresponde aos materiais finais de 2027. Confira o conteúdo e a fonte antes de estudar.
+O Nibomo tem um [baralho independente “Орфоэпия ЕГЭ-2026” com 192 cartões](/catalog/packages/ege-2026-russian-orthoepy-flashcards/). Ele não tem vínculo com o FIPI nem foi aprovado por ele; também não afirmamos que corresponde aos materiais finais de 2027. Confira o conteúdo e a fonte antes de estudar. Para trabalhar com um conjunto maior, consulte o [guia de estudo com baralhos prontos](/blog/how-to-study-a-premade-anki-deck/).
 
 Você pode encerrar a primeira sessão com três cartões concretos e um plano claro para amanhã. Se não houve erros, pegue outro grupo de palavras da lista do seu ano e teste sua memória da mesma maneira.

@@ -244,7 +244,7 @@ Börja med att ta reda på vad du kan, även om det bara är genom ett självtes
 6. **Återskapa strukturen utanför kortleken.** Fyll i en tom tabell och säg hållpunkterna för grupper eller perioder högt. Enskilda kort lär dig inte på egen hand var ämnena ligger.
 7. **Återgå till kemin.** Läs formler, förklara en trend, skriv en elektronkonfiguration och lös nya problem. Varje återkommande fel kan bli ett litet kort som hjälper dig rätta till det.
 
-Håll den dagliga kön rimlig när du utökar urvalet. Låt mängden repetitioner som väntar styra hur många nya kort du lägger till.
+Håll den dagliga kön rimlig när du utökar urvalet. [Hur många nya flashcards per dag?](/blog/how-many-new-flashcards-per-day/) (på engelska) beskriver hur mängden repetitioner som väntar, snarare än ambitionen, kan styra hur många nya kort du lägger till.
 
 ## Färdiga kortlekar för tre olika behov
 

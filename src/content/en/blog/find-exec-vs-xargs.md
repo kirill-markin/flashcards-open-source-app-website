@@ -203,7 +203,7 @@ Use the same fixture and inspector. Predict the argument arrays or invocation co
 
 ## Save the decisions you want to remember
 
-If an exercise exposed a gap, save that specific decision rather than memorizing the whole command list. Review the decision, then use it in a new command on a directory you can safely experiment with.
+If an exercise exposed a gap, save that specific decision rather than memorizing the whole command list. The [terminal-command learning guide](/blog/how-to-learn-terminal-commands-with-flashcards/) develops this task-first approach.
 
 | Prompt | Answer |
 | --- | --- |

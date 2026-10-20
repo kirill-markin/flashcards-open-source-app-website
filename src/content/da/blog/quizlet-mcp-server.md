@@ -101,7 +101,7 @@ En offentlig grænsefladebeskrivelse fjerner noget af gætværket ved integratio
 
 Nibomo adskiller læseoperationer fra sine skriveværktøjer: `sql_execute` til kort og kortsæt og `submit_review` til repetition. OAuth-adgangsoplysningerne dækker stadig hele connectorens grænseflade, så blokering af værktøjer og håndtering af godkendelser afhænger af klienten. Begynd med et lille arbejdsområde uden følsomme data. Lad kun agenten læse de data, opgaven kræver, kræv fortsat godkendelse af hvert enkelt skrivekald, når klienten understøtter det, og gennemgå arbejdsområdet og den foreslåede ændring, før du accepterer den.
 
-Giv ikke adgang til privat studiemateriale, før du har kontrolleret AI-klientens vilkår for opbevaring og behandling af data. Ved den første overførsel er en enkel regel nok: Behold den oprindelige eksport, få en forhåndsvisning af et par kort, godkend en afgrænset skrivehandling, og kontrollér resultatet i destinationsappen, før du fortsætter.
+Giv ikke adgang til privat studiemateriale, før du har kontrolleret AI-klientens vilkår for opbevaring og behandling af data. Den detaljerede trusselsmodel findes i [Er MCP sikkert til flashcards?](/blog/is-mcp-safe-for-flashcards/). Ved den første overførsel er en enkel regel nok: Behold den oprindelige eksport, få en forhåndsvisning af et par kort, godkend en afgrænset skrivehandling, og kontrollér resultatet i destinationsappen, før du fortsætter.
 
 ## Gør ikke privat browsertrafik til en API
 

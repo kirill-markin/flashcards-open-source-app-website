@@ -101,7 +101,7 @@ Kör tre scenarier innan du ändrar de inställningar du faktiskt använder:
 2. Det retentionsmål du överväger.
 3. Samma mål med färre nya kort per dag.
 
-Den tredje körningen prövar ett vanligt alternativ: behåll minnesmålet och minska inflödet av nytt material. Om det ger en hanterbar prognos behöver du inte acceptera att glömma mer bara för att minska kön.
+Den tredje körningen prövar ett vanligt alternativ: behåll minnesmålet och minska inflödet av nytt material. Om det ger en hanterbar prognos behöver du inte acceptera att glömma mer bara för att minska kön. En mer utförlig guide om inflödet finns i [Hur många nya instuderingskort per dag?](/blog/how-many-new-flashcards-per-day/).
 
 Båda verktygen ger uppskattningar. Missade dagar, redigerade kort, nytt material och ändrade bedömningsvanor kan göra att den verkliga arbetsbelastningen avviker från diagrammet. Använd jämförelsen för att välja riktning, inte som ett löfte om exakt hur kön ser ut om flera månader.
 

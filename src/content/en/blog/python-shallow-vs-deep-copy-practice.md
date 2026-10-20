@@ -309,6 +309,6 @@ For any missed question, save a prompt that tests the distinction you missed. Pu
 | The dictionary level | What remains shared after copying the outer list and every row in question 6? | The dictionaries inside the rows |
 | The repeated row | If two slots reach one row, what happens to those paths in one `deepcopy` operation? | Both copied slots reach one copied row |
 
-Trim prompts that ask for unrelated facts and keep the copy or aliasing decision you missed. After explaining that case, change one operation and predict the output again before running it.
+[What should go on a flashcard](/blog/what-should-go-on-a-flashcard/) can help you trim a prompt that asks for unrelated facts. The [coding interview flashcard guide](/blog/how-to-use-flashcards-for-coding-interviews/) connects this kind of review to solving problems. After explaining your missed case, change one operation and predict the output again before running it.
 
 *Production note: AI tools substantially drafted and edited this article and generated its illustration. Automated checks executed the runnable examples using CPython 3.14.7. The linked Python 3.14 documentation displayed version 3.14.8 when consulted on October 18, 2026.*

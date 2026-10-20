@@ -101,7 +101,7 @@ Run three scenarios before changing the live setup:
 2. The retention target you are considering.
 3. The same target with fewer new cards per day.
 
-The third run tests a common alternative: keep the recall target and slow the stream of new material. If that produces a manageable forecast, you do not need to accept more forgetting just to calm the queue.
+The third run tests a common alternative: keep the recall target and slow the stream of new material. If that produces a manageable forecast, you do not need to accept more forgetting just to calm the queue. The deeper intake guide is [How Many New Flashcards per Day?](/blog/how-many-new-flashcards-per-day/).
 
 Both tools are estimates. Missed days, edited cards, new material, and changing rating habits can move real workload away from the graph. Use the comparison to choose a direction, not to promise an exact queue months from now.
 

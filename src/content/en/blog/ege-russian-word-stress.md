@@ -100,6 +100,6 @@ Suppose you got numbers 4, 10 and 12 wrong. Make three cards: “локтя”, 
 
 Try returning to the set tomorrow, then again a few days later. This is an example of a starting schedule, not a required interval for every word. If you use an app that schedules reviews, do the reviews it assigns and mark your mistakes honestly. Once you can answer confidently, add the next small batch from the current list while continuing to review earlier words.
 
-Nibomo has an independent [“Орфоэпия ЕГЭ-2026” deck with 192 cards](/catalog/packages/ege-2026-russian-orthoepy-flashcards/). It is not affiliated with or endorsed by FIPI, and no claim is made here that it matches the final 2027 materials. Review its contents and source before studying. Start with a small relevant subset and edit cards whose prompts or answers need clarification.
+Nibomo has an independent [“Орфоэпия ЕГЭ-2026” deck with 192 cards](/catalog/packages/ege-2026-russian-orthoepy-flashcards/). It is not affiliated with or endorsed by FIPI, and no claim is made here that it matches the final 2027 materials. Review its contents and source before studying. Our [guide to premade decks](/blog/how-to-study-a-premade-anki-deck/) can help when working with a larger set.
 
 You can finish your first session with three specific cards and a clear plan for tomorrow. If you made no mistakes, take the next batch of words from your exam year's list and test them in the same way.

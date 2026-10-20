@@ -101,7 +101,7 @@ Un contracte públic elimina part de les incerteses de la integració, però no 
 
 Nibomo separa les operacions de lectura de les eines d’escriptura: `sql_execute` per a targetes i baralles, i `submit_review` per als repassos. La credencial OAuth continua cobrint tota la interfície del connector, de manera que el bloqueig d’eines i el funcionament de les aprovacions depenen del client. Comença amb un espai de treball petit i sense dades sensibles. Deixa que l’agent llegeixi només les dades necessàries per a la tasca, exigeix l’aprovació de cada crida d’escriptura quan el client ho admeti i inspecciona l’espai de treball i el canvi proposat abans d’acceptar-lo.
 
-No connectis material d’estudi privat fins que hagis comprovat les condicions de conservació i tractament de dades del client d’IA. Per a una primera transferència, n’hi ha prou amb una regla senzilla: conserva l’exportació en brut, previsualitza unes quantes targetes, aprova una escriptura d’abast limitat i comprova el resultat a l’app de destinació abans de continuar.
+No connectis material d’estudi privat fins que hagis comprovat les condicions de conservació i tractament de dades del client d’IA. El model d’amenaces detallat és a [És segur MCP per a les targetes d’estudi?](/blog/is-mcp-safe-for-flashcards/). Per a una primera transferència, n’hi ha prou amb una regla senzilla: conserva l’exportació en brut, previsualitza unes quantes targetes, aprova una escriptura d’abast limitat i comprova el resultat a l’app de destinació abans de continuar.
 
 ## No converteixis el trànsit privat del navegador en una API
 

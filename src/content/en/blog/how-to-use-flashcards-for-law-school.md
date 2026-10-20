@@ -148,7 +148,9 @@ That is excellent flashcard material because the error is already specific.
 
 I would keep a small stream of hypo-derived cards through the semester instead of waiting until finals to do one giant cleanup session.
 
-For a missed practice question, isolate the rule, exception, or factual trigger you overlooked. Write that prompt in your own words and keep full issue-spotting practice separate.
+If that workflow is the main thing you need, start here:
+
+- [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## A practical weekly workflow for law school flashcards
 
@@ -164,7 +166,9 @@ Here is the version I would actually trust:
 
 That is a much healthier workflow for **flashcards for law school** than trying to card every case in full and then wondering why the queue became hostile.
 
-Keep a small number of course decks and tag the rules or issues you want to compare; avoid creating a new deck for every case.
+If your bigger problem is structure rather than writing, this one fits directly:
+
+- [How to Organize Flashcards in 2026](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## Bar exam flashcards work better when the 1L deck was built cleanly
 

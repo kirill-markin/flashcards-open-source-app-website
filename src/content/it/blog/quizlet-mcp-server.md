@@ -101,7 +101,7 @@ Un’interfaccia pubblica documentata riduce alcune incertezze dell’integrazio
 
 Nibomo separa le operazioni di lettura dai suoi strumenti di scrittura: `sql_execute` per carte e mazzi, `submit_review` per i ripassi. Le credenziali OAuth coprono comunque tutte le funzionalità del connettore, quindi il blocco degli strumenti e la gestione delle approvazioni dipendono dal client. Inizia con uno spazio di lavoro piccolo e privo di dati sensibili. Consenti all’agente di leggere solo i dati necessari al compito, richiedi l’approvazione per ogni chiamata di scrittura quando il client lo consente e controlla lo spazio di lavoro e la modifica proposta prima di accettarla.
 
-Non collegare materiale di studio privato finché non avrai controllato le condizioni del client di IA sulla conservazione e sul trattamento dei dati. Per un primo trasferimento basta una regola semplice: conserva l’esportazione originale, visualizza l’anteprima di alcune carte, approva una scrittura circoscritta e verifica il risultato nell’app di destinazione prima di procedere oltre.
+Non collegare materiale di studio privato finché non avrai controllato le condizioni del client di IA sulla conservazione e sul trattamento dei dati. Il modello dettagliato delle minacce è in [MCP è sicuro per le flashcard?](/blog/is-mcp-safe-for-flashcards/). Per un primo trasferimento basta una regola semplice: conserva l’esportazione originale, visualizza l’anteprima di alcune carte, approva una scrittura circoscritta e verifica il risultato nell’app di destinazione prima di procedere oltre.
 
 ## Non trasformare il traffico privato del browser in un’API
 

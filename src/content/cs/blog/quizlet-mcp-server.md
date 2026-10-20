@@ -101,7 +101,7 @@ Veřejná specifikace odstraňuje část nejistoty při integraci, ale nezaruču
 
 Nibomo odděluje operace čtení od nástrojů pro zápis: `sql_execute` pro kartičky a balíčky, `submit_review` pro opakování. Přihlašovací údaj OAuth přesto pokrývá celé rozhraní konektoru, takže blokování nástrojů a způsob schvalování závisí na klientovi. Začněte s malým pracovním prostorem bez citlivých údajů. Nechte agenta číst jen data potřebná pro daný úkol, u zápisů ponechte schvalování každého volání zvlášť, pokud to klient podporuje, a před přijetím změny zkontrolujte pracovní prostor i navrhovanou úpravu.
 
-Soukromé studijní materiály nepřipojujte, dokud si neověříte podmínky AI klienta týkající se uchovávání dat a nakládání s nimi. Pro první přenos stačí jednoduché pravidlo: ponechte si původní export, prohlédněte si několik kartiček, schvalte zápis v úzkém rozsahu a před dalšími kroky ověřte výsledek v cílové aplikaci.
+Soukromé studijní materiály nepřipojujte, dokud si neověříte podmínky AI klienta týkající se uchovávání dat a nakládání s nimi. Podrobný model hrozeb najdete v článku [Je používání MCP s kartičkami bezpečné?](/blog/is-mcp-safe-for-flashcards/). Pro první přenos stačí jednoduché pravidlo: ponechte si původní export, prohlédněte si několik kartiček, schvalte zápis v úzkém rozsahu a před dalšími kroky ověřte výsledek v cílové aplikaci.
 
 ## Nedělejte ze soukromé komunikace prohlížeče API
 

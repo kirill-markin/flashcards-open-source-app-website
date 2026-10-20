@@ -237,6 +237,6 @@ If one distinction caught you, save it as a small recall prompt. You don't need 
 | Paid-order LEFT JOIN: a customer has no qualifying orders. With non-null IDs on actual orders, what do `COUNT(*)` and `COUNT(o.order_id)` return for that customer's group? | `1` and `0`: one preserved row, zero matched order IDs. |
 | A LEFT JOIN checks for `order_id IS NULL` in WHERE. What determines whether it finds “no orders” or “no paid orders”? | The ON condition: all orders qualify in the first case; only paid orders qualify in the second. The marker must be non-null on real matches. |
 
-Keep each card focused on one join or filtering decision. After checking it, return to the query and explain Ben, Cy, and Dee without looking at the tables. Their cases test missing qualifying matches, missing orders, and multiple matches.
+The [guide to choosing flashcard material](/blog/what-should-go-on-a-flashcard/) covers selecting a narrow recall target. After checking a card, return to the query and explain Ben, Cy, and Dee without looking at the tables. Their cases test missing qualifying matches, missing orders, and multiple matches.
 
 *AI assisted substantially with research, drafting, exercise design, and editorial review; the illustration is AI-generated. The nine query variants described here were executed with fictional data in cloud BigQuery using GoogleSQL on October 17, 2026. PostgreSQL 18 documentation provided a documentation cross-check, not a PostgreSQL runtime test. No classroom trial, learner study, or human editorial review is claimed.*

@@ -77,7 +77,7 @@ Front: Place A4 on the treble staff.
 Back: Second space from the bottom.
 ```
 
-Before revealing the back, draw the note on a blank staff or point to its position. The back can show a verified staff image alongside the text answer. Crop screenshots or page images to the relevant staff while keeping the clef and other context needed to read it.
+Before revealing the back, draw the note on a blank staff or point to its position. The back can show a verified staff image alongside the text answer. If you already have screenshots or page images, the [image-to-flashcards workflow](/blog/how-to-turn-images-into-flashcards/) explains how to crop and check them without turning a whole page into one card.
 
 ### Interval flashcards
 
@@ -158,7 +158,7 @@ With FSRS due reviews, use `Again`, `Hard`, `Good`, and `Easy` consistently. Her
 - Choose `Good` for a complete answer produced at a normal pace.
 - Choose `Easy` for a correct answer retrieved with almost no effort.
 
-These are review labels, not timing thresholds or a claim that every learner should respond at the same speed. If the prompt itself is ambiguous, edit or remove the card instead of using a rating to excuse it. Retrieve before revealing, then let the review history schedule the next appearance.
+These are review labels, not timing thresholds or a claim that every learner should respond at the same speed. If the prompt itself is ambiguous, edit or remove the card instead of using a rating to excuse it. [Active recall and spaced repetition do different jobs](/blog/active-recall-vs-spaced-repetition/): retrieve before revealing, then let the review history schedule the next appearance.
 
 ## How to study music theory with a repair deck
 
@@ -175,7 +175,7 @@ The most useful deck grows out of real music study rather than beside it. This l
 
 For example, you could make a small batch after each lesson, review due cards on study days, complete two mixed written sessions during the week, and reserve one longer session for listening, performance, or analysis. This is a schedule template, not a research-backed threshold. Change it to fit your course load and the time the due reviews actually take.
 
-If new cards begin to crowd out exercises, stop adding them. Adjust intake from the review load you can sustain rather than chasing a universal number.
+If new cards begin to crowd out exercises, stop adding them. [How many new flashcards per day](/blog/how-many-new-flashcards-per-day/) gives a fuller way to adjust intake from review load rather than chasing a universal number.
 
 ## Mix close categories after the basics are clear
 

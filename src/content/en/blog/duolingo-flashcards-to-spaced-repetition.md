@@ -142,7 +142,7 @@ If a prompt allows several equally good translations, add context or narrow it. 
 
 Once the cards are clear, let your chosen spaced-repetition app schedule them. Delete or rewrite a card when reviews reveal that the prompt is vague, the answer is too large, or the item no longer matters.
 
-Watch the due queue rather than chasing a perfect intake number. If adding cards after every lesson makes tomorrow’s reviews annoying, capture less.
+Watch the due queue rather than chasing a perfect intake number. If adding cards after every lesson makes tomorrow's reviews annoying, capture less. [How Many New Flashcards Per Day](/blog/how-many-new-flashcards-per-day/) explains that workload tradeoff in more detail.
 
 ## Where FSRS fits—and where it cannot help
 

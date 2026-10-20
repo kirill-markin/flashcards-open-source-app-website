@@ -51,7 +51,7 @@ Treat each row as a separate starting scenario. Don't run the four actions in se
 
 Before choosing, say the intended scope aloud: “this question” or “this vocabulary entry.” That small distinction is useful for cloze notes too, where one sentence can produce several questions. Two separately entered notes with similar text aren't siblings just because their answers match.
 
-For a repair task, write down what needs fixing: “check whether this prompt needs the article” is actionable; “bad card” isn’t. Then decide whether to rewrite the prompt, keep it suspended for later, or remove material you no longer need.
+For a repair task, write down what needs fixing: “check whether this prompt needs the article” is actionable; “bad card” isn't. Our [deck-pruning guide](/blog/how-to-prune-a-flashcard-deck/) covers the broader decision to keep, rewrite, or remove material.
 
 ## Find the hidden cards before bringing them back
 

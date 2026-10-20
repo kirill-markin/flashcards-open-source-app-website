@@ -244,7 +244,7 @@ Partez de vos résultats, même s’il ne s’agit que d’un test de cinq minut
 6. **Travaillez la disposition du tableau en dehors des cartes.** Complétez un tableau vierge et dites à voix haute les repères des groupes ou des périodes. Des cartes isolées ne suffisent pas à apprendre la disposition spatiale.
 7. **Revenez à la chimie.** Lisez des formules, expliquez une tendance, écrivez une configuration électronique et résolvez des problèmes nouveaux. Chaque erreur répétée peut donner lieu à une petite carte ciblée.
 
-Gardez un volume quotidien réaliste à mesure que vous ajoutez des éléments. Adaptez le nombre de nouvelles cartes au nombre de révisions à faire.
+Gardez un volume quotidien réaliste à mesure que vous ajoutez des éléments. L’article [Combien de nouvelles cartes par jour ?](/blog/how-many-new-flashcards-per-day/) (en anglais) explique comment définir le rythme d’ajout à partir du nombre de révisions à faire, plutôt que de vos ambitions.
 
 ## Des paquets prêts à l’emploi pour trois besoins différents
 

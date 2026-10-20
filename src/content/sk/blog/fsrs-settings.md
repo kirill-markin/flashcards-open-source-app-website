@@ -101,7 +101,7 @@ Pred zmenou používaných nastavení spustite tri scenáre:
 2. Cieľ zapamätania, o ktorom uvažujete.
 3. Rovnaký cieľ s menším počtom nových kartičiek za deň.
 
-Tretia simulácia preverí bežnú alternatívu: zachovať cieľ zapamätania a spomaliť prísun nového materiálu. Ak je výsledná predpoveď zvládnuteľná, nemusíte prijímať viac zabúdania len preto, aby ubudlo opakovaní.
+Tretia simulácia preverí bežnú alternatívu: zachovať cieľ zapamätania a spomaliť prísun nového materiálu. Ak je výsledná predpoveď zvládnuteľná, nemusíte prijímať viac zabúdania len preto, aby ubudlo opakovaní. Podrobnejšie sa pridávaniu venuje článok [Koľko nových kartičiek denne?](/blog/how-many-new-flashcards-per-day/).
 
 Oba nástroje poskytujú odhady. Pre vynechané dni, úpravy kartičiek, nový materiál či zmeny v hodnotení sa skutočný objem práce môže líšiť od grafu. Porovnanie používajte na výber smeru, nie ako prísľub presného počtu opakovaní o niekoľko mesiacov.
 

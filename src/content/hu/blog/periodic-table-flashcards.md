@@ -244,7 +244,7 @@ Abból indulj ki, amit ténylegesen tudsz, még ha ezt csak egy ötperces önell
 6. **A táblázat elrendezését a paklin kívül gyakorold.** Tölts ki egy üres táblázatot, és mondd ki hangosan a csoportokhoz vagy periódusokhoz választott támpontokat. Az elszigetelt kártyák önmagukban nem tanítják meg a térbeli elrendezést.
 7. **Térj vissza a kémiához.** Olvass képleteket, magyarázz meg egy periodikus változást, írj fel elektronkonfigurációt, és oldj meg új feladatokat. Minden visszatérő hibából készülhet egy rövid javítókártya.
 
-A pakli bővítése közben maradjon vállalható a napi ismétlések száma. Igazítsd az új kártyák számát az esedékes ismétlésekhez.
+A pakli bővítése közben maradjon vállalható a napi ismétlések száma. A [Hány új tanulókártyát tanulj naponta?](/blog/how-many-new-flashcards-per-day/) bemutatja, hogyan igazítsd az új kártyák számát az esedékes ismétlésekhez a lelkesedésed helyett.
 
 ## Kész paklik három különböző feladathoz
 

@@ -67,7 +67,11 @@ I would work one small chunk at a time:
 - one theorem plus its conditions
 - one short case, passage, or explanation block
 
-If you turn a PDF, article, or notes file into cards, work in small batches and check each prompt. [How to Turn Notes Into Flashcards in 2026](/blog/turn-notes-into-flashcards/) covers that cleanup.
+That is also why broad source-conversion workflows often get bloated. If you want to turn one PDF, article, or notes file into cards, the smaller batches still win:
+
+- [How to Turn a PDF Into Flashcards in 2026](/blog/how-to-turn-a-pdf-into-flashcards/)
+- [How to Turn an Article Into Flashcards in 2026](/blog/how-to-turn-an-article-into-flashcards/)
+- [How to Turn Notes Into Flashcards in 2026](/blog/turn-notes-into-flashcards/)
 
 The retention problem starts before the cards. It starts with chunk size.
 
@@ -140,7 +144,7 @@ A polished summary often hides the struggle.
 
 A rough recall note exposes it.
 
-If your reading usually turns into page-long notes, keep what you actually missed rather than the whole polished performance. Each card should test one useful detail without requiring the source to be open.
+If your reading usually turns into page-long notes, [What Should Go on a Flashcard in 2026?](/blog/what-should-go-on-a-flashcard/) is a good companion piece. The same filter helps here: keep what you actually missed, not the whole polished performance.
 
 ## Most reading material contains more scaffolding than memory targets
 

@@ -156,6 +156,6 @@ Choose one or two cards after checking your work. Keep the orientation and frame
 | Use strict pairing and the standard code. Anticodon: 5′–UGG–3′. Which mRNA codon and amino acid correspond to it? | 5′–CCA–3′; Pro. Use the mRNA reverse complement for the table lookup. |
 | Standard code; translation starts at bases 1–3 of 5′–AUGGCUUGACCA–3′. Give the peptide before processing. | Met–Ala. UGA stops translation; downstream CCA contributes no residue. |
 
-These prompts work on paper or as text flashcards. Narrow each missed question to its failed step. After you can identify the amino acids, the [amino acid side-chain chart](/blog/amino-acid-side-chain-chart/) is a separate next task for learning their properties.
+These prompts work on paper or as text flashcards. The guide to [turning practice questions into flashcards](/blog/how-to-turn-practice-questions-into-flashcards/) helps narrow a missed question to its failed step. After you can identify the amino acids, the [amino acid side-chain chart](/blog/amino-acid-side-chain-chart/) is a separate next task for learning their properties.
 
 Try a fresh sequence after reviewing a card. Write **molecule → ends → frame → mRNA lookup** above the answer space, and make each choice before filling in the bases.

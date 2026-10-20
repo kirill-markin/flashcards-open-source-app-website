@@ -158,7 +158,7 @@ Evo pet uobičajenih načina pretvaranja pogrešaka u kartice:
 
 Nemojte kopirati cijelo službeno pitanje i obrazloženje na jednu karticu. Zapišite provjerenu pouku svojim riječima. Cijeli zadatak ostavite u materijalu za vježbu, a u špilu zadržite samo mali dio za pamćenje.
 
-[Kartice za učenje ili probni testovi u 2026.](/blog/flashcards-vs-practice-tests/) objašnjava zašto kartica i sljedeće novo pitanje trebaju ostati odvojeni koraci.
+Članak [Kako pretvoriti pitanja za vježbu u kartice za učenje u 2026.](/blog/how-to-turn-practice-questions-into-flashcards/) detaljnije obrađuje praznine u poznavanju činjenica, razlikovanje pojmova, redoslijede i kartice o obrascima zamki. [Kartice za učenje ili probni testovi u 2026.](/blog/flashcards-vs-practice-tests/) objašnjava zašto kartica i sljedeće novo pitanje trebaju ostati odvojeni koraci.
 
 ## Pregledajte stari TOEFL špil prije nego što ga počnete ponavljati
 
@@ -180,6 +180,8 @@ Zatim razvrstajte rezultate u tri skupine:
 3. **Ukloniti ili arhivirati:** upute za zadatke, vremenska ograničenja, bodovanje i predloške koji opisuju samo format prije 21. siječnja 2026.
 
 Zatim usporedite preostale oznake zadataka s 12 aktualnih naziva koje upotrebljava ETS. Svakoj kartici koja ovisi o formatu pridružite aktualan službeni izvor ETS-a. Kao dodatne metapodatke možete dodati i oznaku `verified-2026` te datum provjere. Datumi su ovdje važni jer ETS može ažurirati ispit. Vokabular koji ne ovisi o formatu ispita ne zahtijeva isti postupak.
+
+Ako je špil velik, članak [Kako prorijediti špil kartica za učenje u 2026.](/blog/how-to-prune-a-flashcard-deck/) nudi praktičan postupak brisanja i prerade.
 
 ## Ponavljanje s razmacima upotrebljavajte za zadržavanje znanja, a ne za simulaciju ispita
 

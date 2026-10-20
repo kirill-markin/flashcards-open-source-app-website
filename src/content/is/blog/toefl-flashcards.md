@@ -158,7 +158,7 @@ Hér eru fimm algengar leiðir til að breyta mistökum í kort:
 
 Ekki afrita heila opinbera spurningu og rökstuðning á eitt kort. Skrifaðu staðfesta lærdóminn með eigin orðum. Láttu allt prófatriðið vera áfram í æfingaefninu og geymdu aðeins afmarkaða atriðið sem þú vilt muna í kortasafninu.
 
-[Námskort eða æfingapróf árið 2026](/blog/flashcards-vs-practice-tests/) útskýrir hvers vegna kortið og næsta nýja spurning ættu að vera aðskilin skref.
+[Svona breytirðu æfingaspurningum í námskort árið 2026](/blog/how-to-turn-practice-questions-into-flashcards/) fjallar nánar um eyður í þekkingu, aðgreiningu hugtaka, röð atriða og kort um algengar gildrur. [Námskort eða æfingapróf árið 2026](/blog/flashcards-vs-practice-tests/) útskýrir hvers vegna kortið og næsta nýja spurning ættu að vera aðskilin skref.
 
 ## Farðu yfir gamalt TOEFL-kortasafn áður en þú rifjar það upp
 
@@ -180,6 +180,8 @@ Skiptu svo niðurstöðunum í þrjá flokka:
 3. **Eyða eða setja í geymslu:** verkefnisleiðbeiningar, tímamörk, einkunnagjöf og sniðmát sem lýsa eingöngu prófsniðinu fyrir 21. janúar 2026.
 
 Berðu næst verkefnamerkin sem eftir eru saman við núverandi 12 verkefnaheiti ETS. Skráðu núgildandi opinbera heimild frá ETS á hvert kort sem er háð prófsniðinu. Þú getur líka bætt við merkinu `verified-2026` og dagsetningunni þegar þú yfirfórst það sem viðbótarlýsigögnum. Dagsetningar skipta máli hér því ETS getur uppfært prófið. Stöðugur orðaforði þarf ekki sömu meðhöndlun.
+
+Ef safnið er stórt gefur [Svona grisjarðu námskortasafn árið 2026](/blog/how-to-prune-a-flashcard-deck/) hagnýtt vinnuferli fyrir eyðingu og endurskrifun.
 
 ## Notaðu spaced repetition til að festa efnið í minni, ekki til að líkja eftir prófinu
 

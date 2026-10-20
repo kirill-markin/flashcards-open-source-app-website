@@ -189,6 +189,10 @@ Anki の所有権に関する議論が有益だったのはその点です。す
 
 - [2026年版 Ankiから移行する方法](/blog/migrate-from-anki-txt-export-open-source-flashcards/)
 
+より広く、所有権や中身を確認しやすいことが問題なら、次はこれが合います。
+
+- [間隔反復に対応したセルフホスト可能なオープンソースのフラッシュカードアプリ](/blog/self-hosted-open-source-flashcards-app-for-spaced-repetition/)
+
 ## 次のデッキをもっと自分で持ちやすくしたいなら、Nibomo はここに当てはまる
 
 所有しやすさを意識して新しいデッキを組むなら、私が最初に見るのは次のような製品の性質です。

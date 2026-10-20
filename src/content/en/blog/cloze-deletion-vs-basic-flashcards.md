@@ -105,7 +105,7 @@ Compare these versions:
 
 Basic cards also travel better when the source wording will not be available. A question can name the exact formula whose condition you need to recall or the procedure whose next step you need to produce.
 
-Keep the back compact. Split a card when one front requires four independent points. The deeper [guide to making better flashcards](/blog/how-to-make-better-flashcards/) covers prompt clarity and card size. Keep only facts you expect to need again and can grade honestly.
+Keep the back compact. Split a card when one front requires four independent points. The deeper [guide to making better flashcards](/blog/how-to-make-better-flashcards/) covers prompt clarity and card size, while [what should go on a flashcard](/blog/what-should-go-on-a-flashcard/) helps decide whether the fact deserves scheduled review.
 
 ## Use a 30-second decision rule
 
@@ -166,7 +166,7 @@ This note contains three cloze markers, but one front/back card may be enough. C
 
 When a cloze tests language in context, keep the sentence and make the task explicit. A normal front can say `Complete the sentence with the correct preposition: She is responsible [...] preparing the report.`; the back contains `for`. The sentence remains useful without relying on special syntax or automatic card generation.
 
-Inherited decks mix useful material with someone else’s cues and priorities. Edit unfamiliar prompts, skip material outside your goals, and remove cards whose answers you cannot verify.
+Inherited decks mix useful material with someone else's cues and priorities. [How to study a premade Anki deck](/blog/how-to-study-a-premade-anki-deck/) explains why editing and deleting belong in the adoption process.
 
 ## FSRS schedules reviews; card quality stays with you
 
@@ -183,7 +183,7 @@ Audit a small batch before reviews accumulate:
 - No duplicate cloze and basic versions testing the same thing.
 - A front that makes sense without the original page.
 
-Repeated hesitation during review is useful evidence. Rewrite a card when you keep thinking, `I knew the idea, but not the exact word`, or when the sentence pattern produces the answer before the fact does. Retrieval tests the knowledge; scheduling controls when you test it again. The [FSRS settings guide](/blog/fsrs-settings/) covers timing choices after the cards are clean.
+Repeated hesitation during review is useful evidence. Rewrite a card when you keep thinking, `I knew the idea, but not the exact word`, or when the sentence pattern produces the answer before the fact does. [Active recall and spaced repetition](/blog/active-recall-vs-spaced-repetition/) explains how retrieval and scheduling differ, and the [FSRS settings guide](/blog/fsrs-settings/) covers timing choices after the cards are clean.
 
 ## How Nibomo handles this choice
 

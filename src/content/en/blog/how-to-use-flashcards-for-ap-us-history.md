@@ -78,7 +78,7 @@ A card on the New Deal is stronger if it is not only "1930s relief and reform." 
 
 The same move helps with westward expansion, Reconstruction, Populism, Progressive reform, Cold War containment, and civil rights. Theme tags make one fact usable in more than one context, which matters for **APUSH LEQ flashcards** and for DBQ planning.
 
-If you already have a big deck and it feels like random names and dates, reorganizing by `period + theme + question type` usually helps faster than adding 200 more cards.
+If you already have a big deck and it feels like random names and dates, reorganizing by `period + theme + question type` usually helps faster than adding 200 more cards. [How to Organize Flashcards in 2026](/blog/how-to-organize-flashcards/) goes deeper on that part.
 
 ## Evidence and sourcing deserve their own cards
 
@@ -130,7 +130,7 @@ Usually it is one reusable pattern:
 
 Those are excellent card targets, and they fit **AP US History spaced repetition** much better than giant copied stems.
 
-For official-practice misses, extract the historical distinction or reasoning step in your own words rather than copying the question.
+If official-practice misses are already your best source material, [How to Turn Practice Questions Into Flashcards in 2026](/blog/how-to-turn-practice-questions-into-flashcards/) is the direct companion article.
 
 ## APUSH SAQ study works better when each card fixes one repeat miss
 

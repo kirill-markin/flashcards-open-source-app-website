@@ -74,7 +74,7 @@ Keep one main deck, then use tags that answer practical questions:
 - source state: `october-2025`, `august-2026`, or `stable`
 - review state: `needs-source-check`, `needs-rewrite`, or `high-value`
 
-Add a card when you cannot explain a listed concept, confuse two plausible choices, forget the order of a process, or repeat the same authorized-practice mistake. Skip material you can already retrieve and apply. For technical trade-offs, ask which constraint favors one option and what would change the decision.
+Add a card when you cannot explain a listed concept, confuse two plausible choices, forget the order of a process, or repeat the same authorized-practice mistake. Skip material you can already retrieve and apply. The same narrow-deck principle appears in the [Security+ flashcards guide](/blog/how-to-use-flashcards-for-security-plus/), while the [AWS Solutions Architect guide](/blog/how-to-use-flashcards-for-aws-solutions-architect-associate/) has more examples of turning technical trade-offs into cards.
 
 ## Make useful cards across all six CCSP domains
 
@@ -175,7 +175,7 @@ Suppose a practice scenario reveals that you chose a control before identifying 
 
 That card preserves the decision pattern without reproducing protected exam content. ISC2's [exam non-disclosure agreement](https://www.isc2.org/exams/non-disclosure-agreement) says candidates may not disclose or discuss exam questions, items, or answers without written approval. Use a private source label such as `authorized-practice-set-2` only if the material's terms allow your note. Skip dumps, recollections, and any prompt presented as a live exam item.
 
-For each missed question, identify whether the gap was a fact, a distinction, a sequence, or a trap pattern. Write a card for that gap and return to a fresh question to test its use.
+The detailed [practice-question conversion workflow](/blog/how-to-turn-practice-questions-into-flashcards/) covers fact gaps, distinctions, sequences, and trap patterns in more depth.
 
 ## Keep retrieval cards separate from full scenario practice
 
@@ -205,7 +205,7 @@ A practical **CCSP study plan for 2026** looks like this:
 5. Reduce new cards as the exam approaches and spend more time on mixed scenarios.
 6. Keep the August delta visible until its new material has entered normal review.
 
-Do not press a harder rating merely to force a shorter interval. If the queue grows faster than you can finish it on an ordinary day, cut low-value cards or lower the new-card load. [How to Study for an Exam With FSRS](/blog/how-to-study-for-an-exam-with-fsrs/) explains the build, stabilization, and final-review phases.
+Do not press a harder rating merely to force a shorter interval. If the queue grows faster than you can finish it on an ordinary day, cut low-value cards or lower the new-card load. [How to Study for an Exam With FSRS](/blog/how-to-study-for-an-exam-with-fsrs/) explains the build, stabilization, and final-review phases. [How Many New Flashcards Per Day](/blog/how-many-new-flashcards-per-day/) helps estimate a load from available time rather than an impressive card count.
 
 ## Where Nibomo fits
 

@@ -101,7 +101,7 @@ Lingisa izimo ezintathu ngaphambi kokushintsha izilungiselelo ozisebenzisayo:
 2. Umgomo wokukhumbula ocabanga ukuwusebenzisa.
 3. Wona lowo mgomo, kodwa ngamakhadi amasha ambalwa ngosuku.
 
-Isimo sesithathu sivivinya enye indlela evamile: gcina umgomo wokukhumbula bese unciphisa ukungena kwezinto ezintsha. Uma lokho kuveza isilinganiso somsebenzi okwazi ukuwusingatha, akudingeki wamukele ukukhohlwa okwengeziwe ukuze nje unciphise uhlu.
+Isimo sesithathu sivivinya enye indlela evamile: gcina umgomo wokukhumbula bese unciphisa ukungena kwezinto ezintsha. Uma lokho kuveza isilinganiso somsebenzi okwazi ukuwusingatha, akudingeki wamukele ukukhohlwa okwengeziwe ukuze nje unciphise uhlu. Umhlahlandlela onemininingwane yokwengeza amakhadi uthi [Mangaki Amakhadi Okufunda Amasha Ngosuku?](/blog/how-many-new-flashcards-per-day/).
 
 Womabili amathuluzi anikeza izilinganiso. Izinsuku ongazifundanga, amakhadi okubhalwe kuwo kushintshiwe, izinto ezintsha nokushintsha indlela okhetha ngayo izilinganiso kungabangela ukuba umsebenzi wangempela uhluke kulokho okuboniswa igrafu. Sebenzisa ukuqhathanisa ukuze ukhethe indlela ozoyithatha, hhayi ukuze uthembise inani eliqondile lamakhadi ezinyangeni ezizayo.
 

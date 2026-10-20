@@ -158,7 +158,7 @@ Lūk, pieci bieži sastopami piemēri:
 
 Nekopē visu oficiālo jautājumu un atbildes pamatojumu vienā kartītē. Uzraksti pārbaudīto secinājumu saviem vārdiem. Pilno uzdevumu atstāj mācību materiālā, bet komplektā paturi tikai nelielo iegaumējamo vienību.
 
-Rakstā [Mācību kartītes un izmēģinājuma testi 2026. gadā](/blog/flashcards-vs-practice-tests/) skaidrots, kāpēc kartītei un nākamajam jaunajam jautājumam jāpaliek atsevišķiem soļiem.
+Rakstā [Kā pārvērst mācību jautājumus kartītēs 2026. gadā](/blog/how-to-turn-practice-questions-into-flashcards/) sīkāk aplūkotas kartītes par nezināmiem faktiem, atšķirībām, secībām un maldinošu atbilžu modeļiem. Rakstā [Mācību kartītes un izmēģinājuma testi 2026. gadā](/blog/flashcards-vs-practice-tests/) skaidrots, kāpēc kartītei un nākamajam jaunajam jautājumam jāpaliek atsevišķiem soļiem.
 
 ## Pirms atkārtošanas pārbaudi vecu TOEFL kartīšu komplektu
 
@@ -180,6 +180,8 @@ Pēc tam sašķiro rezultātus trīs grupās:
 3. **Dzēst vai arhivēt:** uzdevumu norādes, laika ierobežojumi, vērtēšana un veidnes, kas apraksta tikai formātu pirms 2026. gada 21. janvāra.
 
 Tālāk salīdzini atlikušās uzdevumu birkas ar 12 pašreizējiem ETS uzdevumu nosaukumiem. Katrai ar formātu saistītai kartītei norādi pašreizēju oficiālo ETS avotu. Kā papildu metadatus vari pievienot arī birku `verified-2026` un pārbaudes datumu. Datumi šeit ir svarīgi, jo ETS var mainīt eksāmenu. Nemainīgam vārdu krājumam tāda pati pieeja nav vajadzīga.
+
+Ja komplekts ir liels, rakstā [Kā samazināt mācību kartīšu komplektu 2026. gadā](/blog/how-to-prune-a-flashcard-deck/) atradīsi praktisku dzēšanas un pārrakstīšanas darba gaitu.
 
 ## Izmanto intervālu atkārtošanu zināšanu saglabāšanai, nevis eksāmena simulācijai
 

@@ -158,7 +158,7 @@ Dit zijn vijf veelvoorkomende omzettingen:
 
 Kopieer geen volledige officiële vraag met uitleg op één kaart. Schrijf de gecontroleerde les in je eigen woorden. Laat de volledige opgave in het oefenmateriaal staan en bewaar alleen het kleine onderdeel dat je wilt onthouden in de kaartenset.
 
-[Flashcards versus oefentoetsen in 2026](/blog/flashcards-vs-practice-tests/) legt uit waarom de kaart en de volgende nieuwe vraag aparte stappen moeten blijven.
+[Zo zet je oefenvragen om in flashcards in 2026](/blog/how-to-turn-practice-questions-into-flashcards/) gaat dieper in op ontbrekende feitenkennis, verschillen die je moet herkennen, volgordes en kaarten over terugkerende valkuilen. [Flashcards versus oefentoetsen in 2026](/blog/flashcards-vs-practice-tests/) legt uit waarom de kaart en de volgende nieuwe vraag aparte stappen moeten blijven.
 
 ## Controleer een oude TOEFL-kaartenset voordat je ermee gaat oefenen
 
@@ -180,6 +180,8 @@ Verdeel de resultaten vervolgens in drie groepen:
 3. **Verwijderen of archiveren:** taakinstructies, tijdslimieten, scoreregels en sjablonen die uitsluitend de opzet van vóór 21 januari 2026 beschrijven.
 
 Vergelijk daarna de overgebleven taaktags met de 12 huidige ETS-taaknamen. Geef elke kaart die afhankelijk is van de examenopzet een actuele officiële ETS-bron. Je kunt ook een tag `verified-2026` en de controledatum toevoegen als aanvullende metadata. Datums zijn hier relevant omdat ETS het examen kan aanpassen. Stabiele woordenschat heeft diezelfde behandeling niet nodig.
+
+Voor grote kaartensets biedt [Zo snoei je een flashcardset in 2026](/blog/how-to-prune-a-flashcard-deck/) een praktische aanpak voor verwijderen en herschrijven.
 
 ## Gebruik gespreide herhaling om te onthouden, niet om het examen na te bootsen
 

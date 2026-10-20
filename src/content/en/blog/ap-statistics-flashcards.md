@@ -237,7 +237,7 @@ Keep the routine small enough to use through the school year:
 5. **Once a week:** filter by unit and practice, find thin areas, and retire duplicates or stale pre-2027 cards.
 6. **Closer to May:** add fewer cards and shift toward mixed, timed, digital practice.
 
-Choose a daily new-card target that leaves time to finish reviews and solve real questions. Lower it if unfinished reviews accumulate.
+Choose a daily new-card target that leaves time to finish reviews and solve real questions. [How Many New Flashcards Per Day?](/blog/how-many-new-flashcards-per-day/) explains how to adjust it as reviews accumulate.
 
 ## Where Nibomo fits
 

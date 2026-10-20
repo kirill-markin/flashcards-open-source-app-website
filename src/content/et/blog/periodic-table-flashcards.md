@@ -244,7 +244,7 @@ Alusta oma teadmiste kontrollimisest, kasvõi viieminutilise enesetestiga.
 6. **Harjuta tabeli ülesehitust väljaspool kaardipakki.** Täida tühja tabelit ning ütle rühmade või perioodide pidepunktid valjusti välja. Eraldiseisvad kaardid ei õpeta iseenesest ruumilist paigutust.
 7. **Naase keemiaülesannete juurde.** Loe valemeid, selgita mõnda seaduspärasust, kirjuta elektronkonfiguratsioon ja lahenda uusi ülesandeid. Igast korduvast veast võib saada üks väike parandav kaart.
 
-Hoia kaardipakki laiendades igapäevane kordamismaht jõukohane. Vali uute kaartide arv selle järgi, kui palju sul on juba kaarte korrata.
+Hoia kaardipakki laiendades igapäevane kordamismaht jõukohane. Juhend [Mitu uut õpikaarti päevas?](/blog/how-many-new-flashcards-per-day/) selgitab, kuidas valida uute kaartide arvu selle järgi, kui palju sul on juba kaarte korrata.
 
 ## Valmis kaardipakid kolmeks eri ülesandeks
 

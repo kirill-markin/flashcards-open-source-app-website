@@ -121,7 +121,7 @@ Examples: You missed a biology item because you mixed up lysosome and peroxisome
 
 For a smaller foundation, [this 24-structure organelle package](https://nibomo.com/catalog/packages/cell-organelles-functions/) drills names and primary functions in both directions. It is text-only and not DAT-specific; it does not cover diagrams, pathways, or the rest of cell and molecular biology.
 
-Reduce a missed practice question to the fact, distinction, or decision you could not retrieve. Keep the card small, then use fresh practice to check whether you can apply the lesson.
+[How to Turn Practice Questions Into Flashcards in 2026](/blog/how-to-turn-practice-questions-into-flashcards/) goes deeper on this workflow, and it fits the DAT especially well because the exam punishes repeated small misses more than dramatic knowledge gaps.
 
 ## Let AI draft the rough cards, then edit like a skeptic
 

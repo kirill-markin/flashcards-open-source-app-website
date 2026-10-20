@@ -101,7 +101,7 @@ Maelezo ya kiufundi yaliyo wazi kwa umma hupunguza haja ya kubahatisha unapounga
 
 Nibomo hutenganisha shughuli za kusoma na zana zake za kuandika: `sql_execute` kwa kadi na makundi ya kadi, na `submit_review` kwa marudio ya kujifunza. Hata hivyo, kitambulisho cha OAuth kinatoa ufikiaji wa kiunganishi kwa ujumla, hivyo namna ya kuzuia zana na kuomba idhini hutegemea programu unayotumia. Anza na nafasi ndogo ya kazi isiyo na taarifa nyeti. Ruhusu wakala asome data inayohitajika tu kwa kazi hiyo, hitaji idhini kwa kila mwito wa kuandika data ikiwa programu inaruhusu hilo, na kagua nafasi ya kazi pamoja na mabadiliko yanayopendekezwa kabla ya kuyakubali.
 
-Usiunganishe maudhui binafsi ya kujifunza mpaka ukague masharti ya programu ya AI kuhusu muda wa kuhifadhi data na namna inavyoishughulikia. Kwa uhamishaji wa kwanza, kanuni rahisi inatosha: hifadhi faili asili, angalia hakikisho la kadi chache, idhinisha uandishi wa data wenye wigo mdogo, na uhakikishe matokeo katika programu iliyopokea data kabla ya kuendelea.
+Usiunganishe maudhui binafsi ya kujifunza mpaka ukague masharti ya programu ya AI kuhusu muda wa kuhifadhi data na namna inavyoishughulikia. Uchambuzi wa kina wa vitisho uko katika [Je, MCP ni Salama kwa Kadi za Kujifunzia?](/blog/is-mcp-safe-for-flashcards/). Kwa uhamishaji wa kwanza, kanuni rahisi inatosha: hifadhi faili asili, angalia hakikisho la kadi chache, idhinisha uandishi wa data wenye wigo mdogo, na uhakikishe matokeo katika programu iliyopokea data kabla ya kuendelea.
 
 ## Usigeuze mawasiliano ya faragha ya kivinjari kuwa API
 

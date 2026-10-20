@@ -158,7 +158,7 @@ Iată cinci transformări frecvente:
 
 Nu copia pe o singură fișă o întrebare oficială întreagă și explicația răspunsului. Scrie în cuvintele tale lecția verificată. Lasă itemul complet în materialul de pregătire și păstrează în set doar elementul scurt care merită memorat.
 
-[Fișe de învățare sau teste de pregătire în 2026](/blog/flashcards-vs-practice-tests/) explică de ce fișa și următoarea întrebare nouă trebuie să rămână pași separați.
+[Cum să transformi întrebările de pregătire în fișe de învățare în 2026](/blog/how-to-turn-practice-questions-into-flashcards/) explică mai detaliat fișele pentru lacune de cunoștințe, distincții, succesiuni și tipare de capcane. [Fișe de învățare sau teste de pregătire în 2026](/blog/flashcards-vs-practice-tests/) explică de ce fișa și următoarea întrebare nouă trebuie să rămână pași separați.
 
 ## Verifică un set TOEFL vechi înainte să îl recapitulezi
 
@@ -180,6 +180,8 @@ Apoi împarte rezultatele în trei grupe:
 3. **Elimină sau arhivează:** instrucțiunile, duratele, regulile de notare și șabloanele care descriu exclusiv formatul anterior datei de 21 ianuarie 2026.
 
 Compară apoi etichetele sarcinilor rămase cu cele 12 denumiri actuale ETS. Adaugă o sursă oficială ETS actuală la fiecare fișă care depinde de format. Poți adăuga și eticheta `verified-2026`, împreună cu data verificării, ca metadate suplimentare. Datele contează aici, deoarece ETS poate actualiza examenul. Vocabularul care rămâne valabil nu are nevoie de același tratament.
+
+Dacă setul este mare, [Cum să reduci un set de fișe de învățare în 2026](/blog/how-to-prune-a-flashcard-deck/) oferă pași practici pentru eliminare și rescriere.
 
 ## Folosește repetiția spațiată pentru memorare, nu pentru simularea testului
 

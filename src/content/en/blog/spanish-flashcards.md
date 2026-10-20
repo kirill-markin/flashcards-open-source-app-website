@@ -256,7 +256,7 @@ Start with a small batch from one active source. Review due cards before adding 
 
 FSRS can schedule clear cards from review history. It cannot decide whether `computer` should retrieve `ordenador`, `computador`, or `computadora`; verify a sentence; hear your pronunciation; or notice that a reverse prompt accepts several answers. Those are card-design and language questions.
 
-Set daily intake from the review time you can actually protect. Reduce it when reviews stop fitting, and raise it gradually only after the queue stays manageable.
+Set daily intake from the review time you can actually protect. [How many new flashcards per day](/blog/how-many-new-flashcards-per-day/) explains how to find a sustainable rate without pretending one number works for everyone.
 
 ## A weekly workflow that still leaves time for Spanish
 

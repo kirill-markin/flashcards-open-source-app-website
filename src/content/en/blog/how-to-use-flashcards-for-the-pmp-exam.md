@@ -162,7 +162,7 @@ For example:
 - Front: What should you keep from a missed formula question?
 - Back: The setup or interpretation error that caused the miss, not just the final arithmetic.
 
-Use mocks and quizzes to find repeatable decision errors. Write a short prompt for the principle you missed and keep the scenario’s distinctive wording out of the card.
+If your mocks and quizzes are already generating the best raw material, [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) goes deeper on that workflow.
 
 ## Keep the PMP deck organized by function, not just by chapter
 
@@ -188,7 +188,7 @@ For PMP, I would usually keep one main exam deck and tag by function:
 
 Then tag by source only when it helps later, such as `mock-1` or `chapter-8`.
 
-This keeps the review queue cleaner without turning the deck into a folder-management project. Use only tags that help you find recurring weak spots during review.
+This keeps the review queue cleaner without turning the deck into a folder-management project. If organization is the part that keeps slipping, [How to Organize Flashcards in 2026](https://nibomo.com/blog/how-to-organize-flashcards/) is the practical next read.
 
 ## A weekly PMP flashcards workflow that survives real study life
 

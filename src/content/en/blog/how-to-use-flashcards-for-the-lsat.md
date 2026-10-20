@@ -167,7 +167,7 @@ I would tag these cards by function, not only by section:
 
 That gives your wrong-answer journal a second life as a review system instead of a graveyard of good intentions.
 
-Use practice review to isolate the inference, assumption, or wording distinction behind a miss. Review that lesson briefly, then return to full arguments.
+If practice review is already the source of your best cards, [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) goes deeper on that step.
 
 ## A practical weekly workflow for LSAT flashcards
 
@@ -223,7 +223,7 @@ If you want to run this workflow inside [Nibomo](https://nibomo.com/), the usefu
 
 That matters because **LSAT flashcards** are not only a generation problem. They are also an editing problem, an organization problem, and a review problem.
 
-Keep the deck structure simple, with a few tags for recurring reasoning errors. If you are already thinking ahead to 1L, [How to Use Flashcards for Law School in 2026](https://nibomo.com/blog/how-to-use-flashcards-for-law-school/) is the natural next step after admissions prep.
+If your bigger issue is deck structure, read [How to Organize Flashcards in 2026](https://nibomo.com/blog/how-to-organize-flashcards/). If you are already thinking ahead to 1L, [How to Use Flashcards for Law School in 2026](https://nibomo.com/blog/how-to-use-flashcards-for-law-school/) is the natural next step after admissions prep.
 
 ## Build the deck that helps you see the mistake earlier
 

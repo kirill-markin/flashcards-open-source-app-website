@@ -56,7 +56,7 @@ Recognition feels good because the card already gives your brain a lot of suppor
 
 Real recall is stricter. It asks whether you can produce the answer before the card rescues you.
 
-If the card mostly helps you recognize, it will feel smoother than it actually works. Produce your answer before revealing the back so you can judge recall rather than familiarity.
+If you want the deeper study-method version of that distinction, [Active Recall vs Spaced Repetition in 2026](/blog/active-recall-vs-spaced-repetition/) covers it directly. The short version is simple: if the card mostly helps you recognize, it will feel smoother than it actually works.
 
 Two good warning signs:
 
@@ -106,6 +106,7 @@ These companion articles go deeper on the repair side:
 
 - [How to Fix AI Flashcards in 2026](/blog/how-to-fix-ai-flashcards/)
 - [How to Make Better Flashcards in 2026](/blog/how-to-make-better-flashcards/)
+- [What Should Go on a Flashcard in 2026](/blog/what-should-go-on-a-flashcard/)
 
 This article is the diagnostic version: if your reviews feel heavy, bloated cards are one of the first things I would inspect.
 
@@ -163,6 +164,8 @@ First move:
 
 If the load itself is the issue, these are the better next reads:
 
+- [How Many New Flashcards Per Day in 2026](/blog/how-many-new-flashcards-per-day/)
+- [How to Review Flashcards Faster in 2026](/blog/how-to-review-flashcards-faster/)
 - [How to Catch Up on Flashcards After Falling Behind in 2026](/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
 - [FSRS Settings in 2026](/blog/fsrs-settings/)
 
@@ -192,7 +195,7 @@ I like using cards to preserve:
 - the contrast between two similar ideas
 - the exact mistake I do not want to repeat
 
-Useful AI study workflows keep the misses instead of saving the whole session: quiz first, then keep only the weak spots that deserve long-term review.
+That is also why the most useful AI study workflows now keep the misses instead of saving the whole session. [How to Make a Practice Exam From Your Notes With AI in 2026](/blog/how-to-make-a-practice-exam-from-your-notes-with-ai/) follows that pattern: quiz first, then keep only the weak spots that deserve long-term review.
 
 ## A fast diagnosis table
 
