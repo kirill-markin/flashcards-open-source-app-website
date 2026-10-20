@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1private-flashcards-with-ai.md"
 title: "2026 年的私密抽认卡：如何在不放弃控制权的前提下用 AI 学习"
 description: "了解如何在 2026 年通过开源、离线优先的间隔重复、可选 AI，以及自托管路径来保护抽认卡隐私。"
 date: "2026-06-30"

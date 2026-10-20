@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-turn-ai-summaries-into-flashcards.md"
 title: "2026 年如何把 AI 摘要变成闪卡：保留论断，检验记忆"
 description: "在用 ChatGPT、Gemini、NotebookLM 或其他 AI 摘要工具吗？这是一套适用于 2026 年的实用流程：把 AI 摘要整理成核对过的 FSRS 闪卡，而不是硬背一段看起来很顺的捷径。"
 date: "2026-07-11"

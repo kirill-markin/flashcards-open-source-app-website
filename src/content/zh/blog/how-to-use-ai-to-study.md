@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-use-ai-to-study.md"
 title: "2026 年如何用 AI 学习：保留 AI 导师，再加上真正记得住的闪卡"
 description: "这是一套适用于 2026 年的实用 AI 学习流程：先用 AI 导师和摘要帮助理解，再把真正的薄弱点做成闪卡，最后用 FSRS 复习，让内容到下周仍然记得住。"
 date: "2026-05-09"

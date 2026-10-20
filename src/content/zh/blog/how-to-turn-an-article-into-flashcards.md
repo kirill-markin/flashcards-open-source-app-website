@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-turn-an-article-into-flashcards.md"
 title: "2026 年如何把文章做成抽认卡：留下真正有用的内容，跳过高亮坟场"
 description: "想在 2026 年把文章做成抽认卡？这里有一套适合博客文章、电子报、文档和长文的实用流程：先用 AI 起草，再用 FSRS 复习。"
 date: "2026-04-09"

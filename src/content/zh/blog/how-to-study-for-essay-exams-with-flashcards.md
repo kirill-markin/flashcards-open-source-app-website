@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-study-for-essay-exams-with-flashcards.md"
 title: "2026 年如何用抽认卡准备 Essay Exam：真正能派上用场的 Blue-Book 和 Short-Answer 备考法"
 description: "想在 2026 年建立一套真正可用的 essay exam 复习流程？可以用抽认卡练 thesis 结构、evidence、definitions 和 compare-and-contrast 提示，让你在 blue-book 和 short-answer 考试里更快把答案写出来。"
 date: "2026-06-28"

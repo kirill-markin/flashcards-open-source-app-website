@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-turn-handwritten-notes-into-flashcards.md"
 title: "2026 年如何把手写笔记做成抽认卡：用照片、OCR 和 AI 起草，不必重写整本笔记"
 description: "想在 2026 年把手写笔记做成抽认卡？这里有一套实用流程：上传笔记照片，让 AI 清理文字并起草卡片，再用 FSRS 复习最终保留下来的内容。"
 date: "2026-03-27"

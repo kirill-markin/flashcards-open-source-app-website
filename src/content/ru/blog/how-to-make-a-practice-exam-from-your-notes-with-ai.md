@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ru~1blog~1how-to-make-a-practice-exam-from-your-notes-with-ai.md"
 title: "Как сделать пробный экзамен по своим конспектам с помощью ИИ в 2026 году: квиз по источникам, потом только слабые места в FSRS"
 description: "Хотите сделать пробный экзамен по своим конспектам с помощью ИИ в 2026 году? Загрузите свои слайды, PDF и учебные материалы, получите реалистичный квиз, разберите ошибки и сохраните в FSRS только слабые места."
 date: "2026-06-22"

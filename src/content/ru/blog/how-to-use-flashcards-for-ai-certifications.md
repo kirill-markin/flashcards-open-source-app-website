@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ru~1blog~1how-to-use-flashcards-for-ai-certifications.md"
 title: "Как использовать карточки для AI-сертификаций в 2026 году: AWS AI Practitioner, AI-900 и GenAI Leader без заучивания маркетинговых формулировок"
 description: "Готовитесь к AI-сертификации в 2026 году? Вот практичный сценарий с карточками для AWS AI Practitioner, Microsoft AI-900 или AI-901 и Google Cloud Generative AI Leader: чистые карточки, ошибки из тренировочных вопросов и повторение по FSRS."
 date: "2026-04-21"

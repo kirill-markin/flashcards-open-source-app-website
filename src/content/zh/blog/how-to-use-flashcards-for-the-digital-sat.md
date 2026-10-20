@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-use-flashcards-for-the-digital-sat.md"
 title: "2026 年如何用 Flashcards 准备 Digital SAT：真正能记住的词汇、语法和数学"
 description: "一套实用的 Digital SAT flashcards 工作流：把语境词汇、语法规则、数学公式和 Bluebook 错题整理成 AI 起草加 FSRS 复习的系统。"
 date: "2026-04-18"

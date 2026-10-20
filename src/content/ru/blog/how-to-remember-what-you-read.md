@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ru~1blog~1how-to-remember-what-you-read.md"
 title: "Как запоминать прочитанное в 2026 году: превратите чтение в вспоминание, а не в кучу выделений"
 description: "Если вы дочитываете главы и уже на следующий день почти ничего не помните, этот практичный сценарий на 2026 год покажет, как запоминать прочитанное с помощью коротких фрагментов, проверок на вспоминание и карточек с FSRS."
 image: "/blog/how-to-remember-what-you-read.png"

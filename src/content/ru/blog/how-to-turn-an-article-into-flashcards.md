@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ru~1blog~1how-to-turn-an-article-into-flashcards.md"
 title: 'Как превратить статью в карточки в 2026 году: сохранить полезные идеи и не устроить кладбище цитат'
 description: Хотите превратить статью в карточки в 2026 году? Вот практичный сценарий для блогов, рассылок, документации и лонгридов с AI-черновиком и повторением по FSRS.
 date: '2026-04-09'

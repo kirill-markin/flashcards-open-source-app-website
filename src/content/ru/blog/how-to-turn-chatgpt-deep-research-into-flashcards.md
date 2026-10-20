@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ru~1blog~1how-to-turn-chatgpt-deep-research-into-flashcards.md"
 title: "Как превратить ChatGPT Deep Research в карточки в 2026 году: сохраните ссылки на источники и учите только проверенное"
 description: "Пользуетесь ChatGPT Deep Research в 2026 году? Вот практичный сценарий: превратите подтверждённые источниками выводы из отчёта Deep Research в аккуратные карточки с вопросом и ответом, перепроверьте датированные утверждения перед запоминанием и повторяйте итоговую колоду по FSRS."
 date: "2026-05-27"

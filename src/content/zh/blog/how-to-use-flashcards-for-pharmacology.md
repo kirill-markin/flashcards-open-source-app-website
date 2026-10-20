@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-use-flashcards-for-pharmacology.md"
 title: "2026 年如何用抽认卡学药理学：真正能记住的药物分类、副作用和易混药物"
 description: "想在 2026 年建立一套实用的药理学抽认卡工作流？这篇文章会讲清楚，如何用 FSRS 学习药物分类、作用机制、不良反应、禁忌证以及常见易混药物，而不把每种药都做成一张大段落卡。"
 date: "2026-06-29"

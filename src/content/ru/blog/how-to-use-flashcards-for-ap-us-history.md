@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ru~1blog~1how-to-use-flashcards-for-ap-us-history.md"
 title: "Карточки для AP US History в 2026 году: как учить периоды APUSH, DBQ и доказательства"
 description: "Нужен практичный сценарий работы с карточками для AP US History в 2026 году? Вот как учить периоды APUSH, темы, sourcing, наборы MCQ, SAQ, DBQ, LEQ и интервальное повторение, не превращая колоду во второй учебник."
 image: "/blog/how-to-use-flashcards-for-ap-us-history.png"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-remember-what-you-read.md"
 title: "2026 年如何记住读过的内容：把阅读变成主动回忆，而不是一堆高亮"
 description: "如果你总是读完一章，第二天就忘得差不多，这套 2026 年的实用流程会教你如何用更小的阅读单元、回忆检查和 FSRS 抽认卡，真正记住读过的内容。"
 image: "/blog/how-to-remember-what-you-read.png"

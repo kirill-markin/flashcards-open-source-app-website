@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ru~1blog~1how-to-use-chatgpt-voice-for-language-learning.md"
 title: "Как использовать ChatGPT Voice для изучения языков в 2026 году: превратите разговорную практику в карточки, которые действительно запоминаются"
 description: "Используете ChatGPT Voice для изучения языка в 2026 году? Вот практичный рабочий процесс: проводите короткие разговорные сессии, сохраняйте исправленные фразы и превращайте свои ошибки в карточки для повторения с FSRS."
 date: "2026-04-06"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ru~1blog~1how-to-study-for-open-book-exams-with-flashcards.md"
 title: "Как готовиться к open-book экзаменам с помощью карточек в 2026 году: запоминайте карту, а не весь учебник"
 description: "Готовитесь к open-book или open-note экзамену в 2026 году? Вот практичный подход с карточками, который помогает запомнить триггеры, формулы, карту материалов и шаблоны применения, чтобы не рыться в конспектах под давлением времени."
 date: "2026-07-05"

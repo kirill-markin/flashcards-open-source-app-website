@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ru~1blog~1how-to-turn-ai-summaries-into-flashcards.md"
 title: "Как превратить сводки от ИИ в карточки в 2026 году: сохранить утверждения, проверить память"
 description: "Пользуетесь ChatGPT, Gemini, NotebookLM или другим ИИ-инструментом для сводок? Вот практичный сценарий 2026 года: как превращать сводки от ИИ в проверенные карточки с FSRS, а не заучивать гладкий сокращенный пересказ."
 date: "2026-07-11"

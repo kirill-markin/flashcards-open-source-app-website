@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-use-flashcards-for-law-school.md"
 title: "2026 年法学院如何使用抽认卡：案例、规则，以及真正记得住的争点识别"
 description: "想在 2026 年建立一套实用的法学院抽认卡工作流？这篇文章会讲清楚，怎样把案例、课堂笔记、大纲、练习题、AI 起草和 FSRS 串起来，而不让牌组膨胀成第二份大纲。"
 date: "2026-04-16"

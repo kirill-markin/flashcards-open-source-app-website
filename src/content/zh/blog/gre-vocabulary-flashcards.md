@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1gre-vocabulary-flashcards.md"
 title: "2026 年 GRE 词汇抽认卡：为 Text Completion 和 Sentence Equivalence 搭一副真正有用的牌组"
 description: "想找不只是死记单词表的 GRE 词汇抽认卡？这是一套适用于 2026 年的实用流程，围绕 Text Completion、Sentence Equivalence、例句训练，以及在现代开源 Flashcards 应用中配合 FSRS 做间隔重复。"
 date: "2026-05-05"

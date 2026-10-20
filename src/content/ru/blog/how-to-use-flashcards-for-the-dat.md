@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ru~1blog~1how-to-use-flashcards-for-the-dat.md"
 title: "Как использовать флешкарточки для DAT в 2026 году: биология, органическая химия, PAT и ошибки из пробников, которые действительно закрепляются"
 description: "Готовитесь к DAT в 2026 году? Вот как делать флешкарточки по биологии, органической химии, PAT и Quantitative Reasoning по актуальному blueprint ADA, с AI-черновиками и повторением по FSRS."
 image: "/blog/how-to-use-flashcards-for-the-dat.png"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-study-for-finals-with-flashcards.md"
 title: "2026 年如何用抽认卡准备期末考试：把笔记、课件和错题整理成一套 FSRS 复习计划"
 description: "这是一套适合期末周的实用流程：把课堂笔记、课件、AI 学习对话和练习题错题，整理成一组你真的能在考试前复习完的正反面抽认卡。"
 image: "/blog/how-to-study-for-finals-with-flashcards.png"

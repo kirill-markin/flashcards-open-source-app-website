@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-learn-terminal-commands-with-flashcards.md"
 title: "2026 年如何用抽认卡学习终端命令：真正能记住的 Bash、Git 和 CLI 工作流"
 description: "这是一套适用于 2026 年的终端命令学习流程：利用 Bash 帮助、Git 文档、CLI 失误和小型 FSRS 牌组，记住你真正会反复用到的命令。"
 date: "2026-06-07"

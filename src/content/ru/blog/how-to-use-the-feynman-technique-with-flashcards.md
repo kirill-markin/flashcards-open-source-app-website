@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ru~1blog~1how-to-use-the-feynman-technique-with-flashcards.md"
 title: "Как использовать метод Фейнмана с карточками в 2026 году: объясняйте простыми словами, а FSRS пусть возвращает к слабым местам"
 description: "Практичный сценарий метода Фейнмана с карточками в 2026 году: объясняйте тему простыми словами, превращайте в короткие карточки только слабые места и дайте FSRS вести повторение."
 image: "/blog/how-to-use-the-feynman-technique-with-flashcards.png"

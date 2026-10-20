@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-review-flashcards-faster.md"
 title: "2026 年如何更快复习 Flashcards：不必硬撑，也能做完每日复习"
 description: "2026 年实用指南：想更快复习 flashcards，关键是去掉拖慢速度的卡片摩擦、压住复习膨胀，并用 FSRS 让每日复习重新回到做得完的范围。"
 date: "2026-04-19"

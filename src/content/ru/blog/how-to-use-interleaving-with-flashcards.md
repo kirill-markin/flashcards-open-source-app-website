@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ru~1blog~1how-to-use-interleaving-with-flashcards.md"
 title: "Как чередовать темы при работе с карточками в 2026 году, не нарушая интервальное повторение"
 description: "Узнайте, как сочетать чередование тем, карточки и FSRS: что смешивать, что держать отдельно и почему более сложная практика может улучшить долговременное запоминание."
 date: "2026-07-14"

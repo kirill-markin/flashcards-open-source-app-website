@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-use-flashcards-for-the-nextgen-bar-exam.md"
 title: "2026 年如何用 Flashcards 备考 NextGen Bar Exam：真正能记住的规则、争点识别与 performance tasks"
 description: "准备参加 2026 年 NextGen Bar Exam？这是一套实用的 Flashcards 工作流，帮你整理 black-letter law 规则、争点识别、performance tasks 和 FSRS，而不是把牌组做成第二份大纲。"
 date: "2026-04-24"

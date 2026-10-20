@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-use-the-blurting-method-with-flashcards.md"
 title: "2026 年如何把 Blurting 方法和抽认卡结合起来：把白纸回忆接到 FSRS 复习上"
 description: "这是一份适用于 2026 年的实用指南：先用 Blurting 方法暴露记忆漏洞，只把真正答错、卡住和混淆的地方做成清楚的小卡片，再交给 FSRS 安排后续复习。"
 date: "2026-06-19"

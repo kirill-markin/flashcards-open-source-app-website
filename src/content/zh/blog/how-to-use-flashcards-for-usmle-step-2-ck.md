@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-use-flashcards-for-usmle-step-2-ck.md"
 title: "2026 年如何用抽认卡备考 USMLE Step 2 CK：Shelf 错题、临床管理，以及真正能记住的病例陷阱"
 description: "想在 2026 年建立一套实用的 USMLE Step 2 CK 抽认卡流程？这篇文章会讲清楚，如何把题库错题、临床轮转笔记、管理算法和 shelf 风格病例陷阱，转成可以配合 FSRS 复习的卡片，而不是再造一本教材。"
 date: "2026-05-02"

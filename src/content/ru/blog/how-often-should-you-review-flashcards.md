@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ru~1blog~1how-often-should-you-review-flashcards.md"
 title: "Как часто повторять карточки? Пусть расписание задаёт FSRS"
 description: "Ежедневно проверяйте карточки к повторению, а не всю колоду. Узнайте, как FSRS подбирает интервалы с учётом ваших ответов, желаемого уровня запоминания и посильной нагрузки."
 date: "2026-07-19"

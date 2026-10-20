@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-use-flashcards-for-the-mcat.md"
 title: "2026 年如何用 Flashcards 备考 MCAT：氨基酸、公式，以及真正能记住的错题修正"
 description: "想在 2026 年用 MCAT flashcards 提高复习效率？这篇文章会给你一套实用方法：把氨基酸、公式、心理学/社会学术语和练习错题，整理成适合 FSRS 的间隔重复卡组。"
 date: "2026-04-22"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ru~1blog~1how-to-use-flashcards-for-cfa-level-1.md"
 title: "Как использовать карточки для CFA Level I в 2026 году: формулы, этика и ошибки из пробников, которые запоминаются"
 description: "Готовитесь к CFA Level I в 2026 году? Используйте практичный процесс с карточками для формул, этики, анализа финансовой отчетности, весов тем, ошибок из пробников и повторения по FSRS."
 date: "2026-04-23"

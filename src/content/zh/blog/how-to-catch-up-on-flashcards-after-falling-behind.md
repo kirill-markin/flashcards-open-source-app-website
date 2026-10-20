@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-catch-up-on-flashcards-after-falling-behind.md"
 title: "2026 年落下 Flashcards 之后怎么追上进度：不重置卡组，修复你的复习积压"
 description: "漏了一周 flashcards，或者堆出了巨大的 Anki backlog？这里给出 2026 年实用恢复方案：暂停新卡，把复习队列切成能活下来的规模，修掉坏卡，在不炸掉排程的前提下回到每日间隔重复。"
 date: "2026-04-03"

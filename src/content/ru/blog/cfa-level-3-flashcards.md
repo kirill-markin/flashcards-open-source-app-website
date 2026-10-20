@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ru~1blog~1cfa-level-3-flashcards.md"
 title: "Карточки CFA Level III в 2026 году: колода для выбранного направления"
 description: "Карточки CFA Level III для командных слов, решений выбранного направления, формул и ошибок — в дополнение к практике развёрнутых ответов на время."
 date: "2026-07-21"

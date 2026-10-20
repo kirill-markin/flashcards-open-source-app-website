@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-fix-leech-flashcards.md"
 title: "2026 年如何处理 leech 抽认卡：总是答错的卡，该重写、拆分还是删除？"
 description: "总在忘同一张抽认卡？这是一套适用于 2026 年的 leech 卡实用处理流程：先判断卡片为什么反复失败，再决定重写、拆分、删除低价值提示，让 FSRS 只花在值得复习的卡上。"
 date: "2026-07-07"

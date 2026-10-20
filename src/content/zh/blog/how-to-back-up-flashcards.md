@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-back-up-flashcards.md"
 title: "2026 年如何备份抽认卡：Anki 备份、Quizlet 导出，以及真正属于你的卡组"
 description: "想在 2026 年认真备份抽认卡？这篇指南会讲清楚：如何备份 Anki、导出 Quizlet 实际允许导出的内容、保存媒体文件、保留纯文本副本，以及避免把学习成果困在单一应用里。"
 image: "/blog/how-to-back-up-flashcards.png"

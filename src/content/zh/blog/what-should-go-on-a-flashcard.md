@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1what-should-go-on-a-flashcard.md"
 title: "2026 年抽认卡里该放什么？一套适用于笔记、AI 草稿和课堂幻灯片的实用筛选法"
 description: "2026 年，生成抽认卡已经很容易。真正难的是判断什么内容真的值得做成卡。这里有一套适用于笔记、AI 草稿、课堂幻灯片和教材页面的实用筛选法，帮你只留下那些值得用 FSRS 反复复习的卡。"
 image: "/blog/what-should-go-on-a-flashcard.png"

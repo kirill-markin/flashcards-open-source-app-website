@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ru~1blog~1how-to-organize-flashcards.md"
 title: "Как организовать flashcards в 2026 году: колоды, теги и фильтрованный повтор без лишнего усложнения учебы"
 description: "Нужно организовать flashcards в 2026 году? Вот практичная система с колодами, тегами, фильтрованным повтором и FSRS, чтобы библиотека оставалась удобной, а не превращалась в одержимость папками."
 date: "2026-04-13"

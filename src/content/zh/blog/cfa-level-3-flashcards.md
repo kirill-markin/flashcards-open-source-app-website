@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1cfa-level-3-flashcards.md"
 title: "2026 年 CFA Level III 抽认卡：按所选专业路径建立卡组"
 description: "用 CFA Level III 抽认卡复习指令词、专业路径决策、公式和模考错题，同时保留限时论述题练习。"
 date: "2026-07-21"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-use-flashcards-for-the-act.md"
 title: "2026 年如何用抽认卡备考 ACT：为 English、Math、Reading 和 Science 打造更有效的卡组"
 description: "适用于 2026 年强化版 ACT 的实用抽认卡流程：围绕 English 语法触发点、Math 解题设定与陷阱、Reading 选项模式、Science 图表分析，以及借助 AI 起草、用 FSRS 复习官方练习错题。"
 image: "/blog/how-to-use-flashcards-for-the-act.png"

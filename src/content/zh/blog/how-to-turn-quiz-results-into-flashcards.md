@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-turn-quiz-results-into-flashcards.md"
 title: "2026 年如何把测验结果做成 Flashcards：保留错题，跳过分数报告"
 description: "如果你在 2026 年会用课堂测验、LMS 反馈或 AI 测验总结学习，这里有一套实用方法：把错题、险些做错的题和反复混淆的点，整理成适合 FSRS 复习的 flashcards。"
 date: "2026-07-10"

@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ru~1blog~1how-to-use-flashcards-for-the-nextgen-bar-exam.md"
 title: "Как использовать флешкарточки для NextGen Bar Exam в 2026 году: правила, issue spotting и performance tasks, которые действительно закрепляются"
 description: "Сдаете NextGen Bar Exam в 2026 году? Вот практичный сценарий работы с флешкарточками для black-letter rules, issue spotting, performance tasks и FSRS, чтобы колода не превратилась во второй outline."
 date: "2026-04-24"

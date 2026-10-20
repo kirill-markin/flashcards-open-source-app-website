@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-use-flashcards-for-the-pmp-exam.md"
 title: "2026 年如何用 Flashcards 备考 PMP 考试：真正能记住的情境题、公式和错题"
 description: "准备参加 2026 年 PMP 考试？这是一套实用的 Flashcards 工作流，帮你整理情境题、公式、Business Environment 的变化，以及结合 AI 起草与 FSRS 复习来处理练习题错题。"
 date: "2026-04-27"

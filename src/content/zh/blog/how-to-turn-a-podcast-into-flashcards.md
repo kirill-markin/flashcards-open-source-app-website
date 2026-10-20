@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-turn-a-podcast-into-flashcards.md"
 title: "2026 年如何把播客变成闪卡：从转录稿到 FSRS 卡片，不必把整集反复重听"
 description: "想在 2026 年把播客变成闪卡？这里有一套实用流程：先拿到转录稿，把节目拆成小的知识片段，起草简单卡片，再用 FSRS 学真正值得记住的部分，而不是没完没了地重听。"
 date: "2026-04-08"

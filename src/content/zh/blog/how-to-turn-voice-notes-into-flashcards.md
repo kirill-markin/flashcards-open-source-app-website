@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-turn-voice-notes-into-flashcards.md"
 title: "2026 年如何把语音笔记整理成抽认卡：从音频速记到 FSRS 卡片，不必重写全部内容"
 description: "想在 2026 年把语音笔记变成抽认卡？这里有一套实用流程：先录下简短音频，转写成文字，再用 AI 起草清晰卡片，最后交给 FSRS 复习，而不是让知识一直困在录音里。"
 date: "2026-03-28"

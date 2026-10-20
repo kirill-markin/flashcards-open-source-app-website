@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ru~1blog~1how-to-use-flashcards-for-the-pance.md"
 title: "Как использовать флешкарточки для PANCE в 2026 году: теги по blueprint, выводы из пробных экзаменов и выносливость на 300 вопросов"
 description: "Готовитесь к PANCE в 2026 году? Вот практичный сценарий работы с флешкарточками, построенный вокруг blueprint NCCPA от января 2025 года, ошибок в клинических виньетках, выводов из официальных пробных экзаменов и темпа 300-вопросного экзамена."
 date: "2026-06-05"

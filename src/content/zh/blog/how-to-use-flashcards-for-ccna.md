@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-use-flashcards-for-ccna.md"
 title: "2026 年如何用 Flashcards 备考 CCNA：子网划分、show 命令，以及真正记得住的故障排查"
 description: "正在准备 2026 年的 Cisco CCNA 200-301？这里有一套实用的 Flashcards 工作流，适合整理子网划分、show 命令、路由与交换错题，以及当前官方考试蓝图，并配合 FSRS 复习。"
 date: "2026-06-01"

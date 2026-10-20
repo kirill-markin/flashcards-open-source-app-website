@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-use-flashcards-for-the-nclex.md"
 title: "2026 年如何用抽认卡备考 NCLEX：NGN 案例题、CAT 策略，以及真正记得住的临床判断"
 description: "准备在 2026 年参加 NCLEX？这篇文章会讲清楚，如何围绕 NGN 案例题、CAT 风格错题、部分得分推理，以及考前一周复习来使用抽认卡，而不把牌组做成第二本复习书。"
 date: "2026-05-04"

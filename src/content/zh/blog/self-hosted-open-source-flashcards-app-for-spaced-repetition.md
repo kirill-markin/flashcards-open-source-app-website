@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1self-hosted-open-source-flashcards-app-for-spaced-repetition.md"
 title: "用于间隔重复的可自托管开源 Flashcards 应用"
 description: "在本地自托管开源 Nibomo 技术栈用于开发，或部署文档所述的 AWS CDK 基础设施，运行生产级间隔重复应用。"
 date: "2026-03-08"

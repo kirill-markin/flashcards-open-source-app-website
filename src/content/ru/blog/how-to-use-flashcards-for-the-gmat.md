@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ru~1blog~1how-to-use-flashcards-for-the-gmat.md"
 title: "Как использовать флешкарточки для GMAT в 2026 году: более точная колода для Quant, Critical Reasoning и Data Insights"
 description: "Практичный сценарий работы с флешкарточками для текущего GMAT в 2026 году: карточки для Quantitative Reasoning, Verbal Reasoning, Data Insights и ошибок из официальной практики вместо устаревших словарных наборов."
 image: "/blog/how-to-use-flashcards-for-the-gmat.png"

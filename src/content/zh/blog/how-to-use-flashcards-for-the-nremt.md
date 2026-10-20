@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-use-flashcards-for-the-nremt.md"
 title: "2026 年如何用抽认卡备考 NREMT：修正 CAT 错题、强化初步评估与 TEI 题型"
 description: "准备在 2026 年参加 NREMT EMT 认知考试？这套实用的抽认卡工作流能帮你针对 CAT 错题、初步评估决策、TEI 题型和流程记忆精准补漏，而不是死背整章内容。"
 date: "2026-06-14"

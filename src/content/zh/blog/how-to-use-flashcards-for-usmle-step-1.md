@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-use-flashcards-for-usmle-step-1.md"
 title: "2026 年如何用抽认卡备考 USMLE Step 1：系统整合、题库错题，以及真正能记住的图像"
 description: "想在 2026 年用一套实用的 USMLE Step 1 抽认卡流程复习？这篇文章会讲清楚，如何围绕系统整合、病理图像、药理学以及题库错题来搭建复习流程，并配合 FSRS 应对这场通过/不通过（pass/fail）考试。"
 date: "2026-05-01"

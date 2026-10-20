@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ru~1blog~1how-to-use-flashcards-for-the-cpa-exam.md"
 title: "Как использовать флешкарточки для экзамена CPA в 2026 году: FAR, AUD, REG и темы дисциплины, которые действительно закрепляются"
 description: "Готовитесь к экзамену CPA в 2026 году? Вот практичный подход к карточкам для формул FAR, утверждений в AUD, правил REG, тем дисциплины и ошибок в task-based simulations с черновиками от ИИ и повторением по FSRS."
 date: "2026-04-28"

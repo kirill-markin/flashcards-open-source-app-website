@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-use-flashcards-for-ap-calculus-ab-bc.md"
 title: "2026 年如何用抽认卡备考 AP Calculus AB 和 BC：极限、导数，以及那些总在 FRQ 丢分的错误"
 description: "这是一套适合 2026 年 AP Calculus AB/BC 的实用抽认卡工作流：复习极限、导数、积分、Bluebook 考试形式、FRQ 错因，以及真正能留下来的 FSRS 间隔重复。"
 date: "2026-06-26"

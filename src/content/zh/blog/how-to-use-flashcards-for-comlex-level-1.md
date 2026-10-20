@@ -1,4 +1,6 @@
 ---
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-use-flashcards-for-comlex-level-1.md"
 title: "2026 年如何用抽认卡备考 COMLEX Level 1：OMM、COMSAE 错题与真正能撑过冲刺期的复习法"
 description: "准备 2026 年 COMLEX Level 1？这是一套实用的抽认卡流程，专门针对 OMM、COMSAE 薄弱点、解剖、药理和 TrueLearn 错题，结合 AI 起草与 FSRS 复习。"
 date: "2026-05-31"
