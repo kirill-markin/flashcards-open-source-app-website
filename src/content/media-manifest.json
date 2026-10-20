@@ -871,6 +871,21 @@
     "bytes": 2974871
   },
   {
+    "publicPath": "/blog/find-prune-exclude-directories.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/3a11285cd4ebff226f1f532303e4d623ba6e2602ec47d09c5c8248152d540fe1.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "3a11285cd4ebff226f1f532303e4d623ba6e2602ec47d09c5c8248152d540fe1",
+    "bytes": 154730,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/8a0ddd1b2e5d9e17304093bc83ce8f9b8fe77b0a2fccc90b06b33c1c7647a443.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "8a0ddd1b2e5d9e17304093bc83ce8f9b8fe77b0a2fccc90b06b33c1c7647a443",
+      "bytes": 2239040
+    }
+  },
+  {
     "publicPath": "/blog/flashcard-lab-review.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/c81a20b091aa5795138e58f9fdeb50591b0a685ca1a110cf27bd95f1ee3ab570.png",
     "width": 1200,
