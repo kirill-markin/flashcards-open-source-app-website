@@ -3,7 +3,8 @@ import type { SiteAppEntryTarget } from "./siteAnalyticsCollector";
 
 /**
  * The two attributes a CTA that leads into the product carries so that the document-scoped
- * impression observer can find it and read what it is.
+ * impression observer can find it and read what it is. The observer reads the CTA's URL from the
+ * same element's `href`, so the attributes belong on the anchor itself.
  *
  * Kept in a module of its own, apart from the observer that consumes them: every CTA component
  * needs this pure helper and none of them needs the hook, its React imports or the module-scoped

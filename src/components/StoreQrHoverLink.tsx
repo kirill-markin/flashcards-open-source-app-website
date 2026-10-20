@@ -28,7 +28,7 @@ import styles from "./StoreQrHoverLink.module.css";
 const hoverIntentDelayMs = 120;
 
 /**
- * The QR shows already reported by this document, keyed by target, placement and page kind,
+ * The QR shows already reported by this document, keyed by target, placement, page kind and URL,
  * exactly as `reportedImpressionKeys` in `src/lib/appEntryImpressionTracking.ts` is keyed and for
  * the same reason: `analytics.product_events` is append-only, this component remounts on
  * navigation and under React strict mode, and a show reported twice can never be taken back.
@@ -51,13 +51,14 @@ function reportStoreQrShown(
   target: SiteAppEntryStoreTarget,
   locale: AppLocale,
   placement: AppEntryPlacement,
+  url: string,
 ): void {
   if (isSiteAnalyticsCollectionEnabled() === false) {
     return;
   }
 
   const pageKind = getSitePageKind(window.location.pathname);
-  const qrShowKey = `${target}|${placement}|${pageKind}`;
+  const qrShowKey = `${target}|${placement}|${pageKind}|${url}`;
   if (reportedQrShowKeys.has(qrShowKey)) {
     return;
   }
@@ -70,6 +71,7 @@ function reportStoreQrShown(
     placement,
     source: classifySiteSource(document.referrer, window.location.hostname),
     device_category: getSiteDeviceCategory(),
+    url,
   });
 }
 
@@ -123,8 +125,8 @@ export const StoreQrHoverLink: React.FC<StoreQrHoverLinkProps> = ({
   }, [clearHoverIntent]);
   const showCard = useCallback((): void => {
     setIsCardVisible(true);
-    reportStoreQrShown(target, locale, placement);
-  }, [locale, placement, target]);
+    reportStoreQrShown(target, locale, placement, href);
+  }, [href, locale, placement, target]);
 
   useEffect(() => clearHoverIntent, [clearHoverIntent]);
 

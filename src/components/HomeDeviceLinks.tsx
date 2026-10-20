@@ -38,10 +38,10 @@ function DeviceFilterLink({ locale, platform, storeQrCodes }: DeviceFilterLinkPr
   const impressionAttributes = getSiteAppEntryImpressionAttributes(target, placement);
   const onClick = (): void => {
     if (platform.analytics.kind === "store") {
-      trackStoreLinkClick(platform.analytics.platform, locale, placement);
+      trackStoreLinkClick(platform.analytics.platform, locale, placement, platform.href);
       return;
     }
-    trackAppEntryClick("open_app", locale, placement);
+    trackAppEntryClick("open_app", locale, placement, platform.href);
   };
 
   if (platform.device === "mac" || platform.device === "web") {

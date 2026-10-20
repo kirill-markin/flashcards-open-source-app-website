@@ -49,6 +49,7 @@ export function reportSiteAppEntryClick(
   target: SiteAppEntryTarget,
   locale: AppLocale,
   placement: string,
+  url: string,
   action?: AppEntryAction,
 ): void {
   sendSiteAnalyticsEvent("site_app_entry_clicked", new Date().toISOString(), locale, {
@@ -57,6 +58,7 @@ export function reportSiteAppEntryClick(
     placement,
     source: classifySiteSource(document.referrer, window.location.hostname),
     device_category: getSiteDeviceCategory(),
+    url,
     ...(action === undefined ? {} : { action }),
   });
 }
@@ -70,7 +72,8 @@ export function getStoreAppEntryTarget(
 export function trackAppEntryClick(
   action: AppEntryAction,
   locale: AppLocale,
-  placement: AppEntryPlacement
+  placement: AppEntryPlacement,
+  url: string,
 ): void {
   trackVercelAnalyticsEvent("app_entry_click", {
     action,
@@ -78,5 +81,5 @@ export function trackAppEntryClick(
     platform: "web",
     placement,
   });
-  reportSiteAppEntryClick("web_app", locale, placement, action);
+  reportSiteAppEntryClick("web_app", locale, placement, url, action);
 }

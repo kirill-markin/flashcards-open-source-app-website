@@ -25,7 +25,7 @@ export function TrackedAppEntryLink({
   placement,
 }: TrackedAppEntryLinkProps): React.JSX.Element {
   const handleClick = (): void => {
-    trackAppEntryClick(action, locale, placement);
+    trackAppEntryClick(action, locale, placement, href);
   };
 
   return (
