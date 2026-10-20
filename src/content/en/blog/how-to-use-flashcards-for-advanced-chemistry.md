@@ -185,7 +185,7 @@ Examples:
 
 That last one matters because memory and transfer fail in different ways. Flashcards support recall, while practice problems build the ability to use what you know, so both belong in the workflow.
 
-If your best source material is corrected homework, quizzes, and independently written practice problems, [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) is the most direct companion. For the scheduling side, [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs) fits well here too.
+If your best source material is corrected homework, quizzes, and independently written practice problems, extract the specific concept or decision behind each miss. For the scheduling side, [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs) fits well here too.
 
 ## A practical weekly workflow for advanced chemistry
 

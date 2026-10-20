@@ -117,7 +117,7 @@ Before making a card, write down why your answer was wrong. Then test that parti
 
 Use a short review sequence: answer a question without notes, identify the missed distinction, review one focused card, then apply it to a changed example. If you missed the dynein question, try a cargo carried by myosin next. Name its track and explain which detail changed your answer. You can get the original question right by remembering its wording; the changed example asks you to use the rule.
 
-The [guide to turning practice questions into flashcards](/blog/how-to-turn-practice-questions-into-flashcards/) develops this approach. Keep the missing knowledge small enough to review, then return to a complete question.
+Keep the missing knowledge small enough to review, then return to a complete question to check whether you can apply it.
 
 For focused review after these questions, open [Cytoskeleton Flashcards: Fibers, Motors & Functions](/catalog/packages/cytoskeleton-flashcards/).
 

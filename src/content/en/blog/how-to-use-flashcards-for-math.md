@@ -101,7 +101,7 @@ For a focused example, the [recurring decimals to fractions flashcards](/catalog
 
 These are still **math problem solving flashcards**, but they are not trying to memorize a whole solution path. They train recognition. That matters because explanations are cheap now. You can get a walkthrough from a tutor, a video, or an AI tool in minutes. The harder part is seeing the right move before someone shows it to you.
 
-If your raw material mostly comes from corrected homework, quizzes, or mock tests, [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) fits this workflow well.
+For corrected homework, quizzes, or mock tests, save the step you missed as a short prompt. Solve another full problem afterward to check whether the repair transfers.
 
 ## Your mistake log is usually better than a generic math deck
 
@@ -159,7 +159,7 @@ After homework, a quiz, or a practice set:
 
 That last step matters more than people think. If the error disappears in fresh work, the card probably did its job. If it survives, the card is often too vague, too broad, or aimed at the wrong memory target.
 
-If the deck structure starts getting messy, [How to Organize Flashcards in 2026](https://nibomo.com/blog/how-to-organize-flashcards/) is a better fix than creating a new deck for every worksheet.
+If the deck structure gets messy, group related concepts and use a few consistent tags instead of creating a new deck for every worksheet.
 
 ## AI can draft math cards quickly, but the edit pass still matters
 

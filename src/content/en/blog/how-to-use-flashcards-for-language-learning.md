@@ -184,7 +184,6 @@ That is why I think the useful order is:
 If you want the scheduling side in more detail, start here:
 
 - [FSRS vs SM-2 in 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
-- [How Many New Flashcards Per Day in 2026?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 
 ## Review load matters more than deck size
 
@@ -228,7 +227,6 @@ Because only you know whether:
 If your source material starts as notes, transcript text, or chat output, these guides help upstream:
 
 - [How to Use ChatGPT to Make Flashcards in 2026](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [How to Turn Voice Notes Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-voice-notes-into-flashcards/)
 - [How to Turn YouTube Videos Into Flashcards in 2026](https://nibomo.com/blog/youtube-to-flashcards/)
 
 ## Build around your real goal, not generic language ambition

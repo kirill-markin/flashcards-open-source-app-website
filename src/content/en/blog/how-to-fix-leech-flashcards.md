@@ -106,7 +106,7 @@ Some cards are technically correct and still not worth your future time.
 
 This is common with AI-generated decks, dense textbook passages, and late-night "I should probably remember this too" card creation. If the fact is obscure, trivial, stale, or disconnected from what you actually need, the cleanest fix may be deletion.
 
-That overlaps with [How to Prune a Flashcard Deck in 2026](/blog/how-to-prune-a-flashcard-deck/), but leeches deserve stricter judgment because they have already proven they are expensive.
+Decide whether each leech deserves rewriting, suspension, or deletion. Apply a stricter filter than you would to an untested card: it has already cost you repeated review time.
 
 ## Fix the cause, not the symptom
 
@@ -135,7 +135,7 @@ Here are a few typical fixes:
 | Front: "ACE inhibitors and ARBs" | Not actually a question | Front: "What side effect is common with ACE inhibitors but much less typical with ARBs?" |
 | Front: "How does TCP work?" | Mini oral exam | Front: "What does TCP guarantee that UDP does not?" |
 
-This is the same principle behind [How to Make Better Flashcards in 2026](/blog/how-to-make-better-flashcards/) and [What Should Go on a Flashcard in 2026](/blog/what-should-go-on-a-flashcard/). Good cards are usually narrower than the notes they came from.
+The same principle appears in [How to Make Better Flashcards in 2026](/blog/how-to-make-better-flashcards/). Good cards are usually narrower than the notes they came from.
 
 If tired future-you has to reconstruct the lecture before understanding the question, the card is asking for too much before recall even starts.
 
@@ -216,7 +216,7 @@ People hesitate because deletion feels like waste.
 
 Usually the waste already happened. Keeping a bad card alive just spreads the cost across more days.
 
-If your deck is bloated more broadly, [How to Review Flashcards Faster in 2026](/blog/how-to-review-flashcards-faster/) and [Why Are There So Many Anki Reviews in 2026](/blog/why-are-there-so-many-anki-reviews/) are the better companion reads.
+If the whole deck feels bloated, remove low-value material and reduce intake. [Why Are There So Many Anki Reviews in 2026](/blog/why-are-there-so-many-anki-reviews/) covers the broader workload problem.
 
 ## Honest ratings matter with FSRS
 

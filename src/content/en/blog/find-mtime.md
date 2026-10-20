@@ -115,4 +115,4 @@ Keep the task on the front and a short explanation on the back:
 | At the worksheet clock, does B match plain `-mtime 1`? Explain. | No. Yesterday at 18:00 is only 18 hours ago; its bucket is 0. |
 | Does `-newermt LOWER ! -newermt UPPER` include a file stamped exactly LOWER? | No. The interval is `(LOWER, UPPER]`: the lower endpoint is excluded and the upper endpoint is included. |
 
-The [100-card Linux command-line deck](/catalog/packages/linux-command-line-flashcards/) covers Linux foundations; it isn't a dedicated drill for this worksheet. Add your own missed boundary cases, then use the [terminal-command study guide](/blog/how-to-learn-terminal-commands-with-flashcards/) to turn commands you actually need into recall practice.
+The [100-card Linux command-line deck](/catalog/packages/linux-command-line-flashcards/) covers Linux foundations; it isn’t a dedicated drill for this worksheet. Add your own missed boundary cases, then test them with commands on a small directory whose file ages you know.

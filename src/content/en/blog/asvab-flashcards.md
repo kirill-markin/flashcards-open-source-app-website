@@ -203,7 +203,7 @@ Source: My authorized practice correction; original question not copied
 
 If the formula and conversion were both correct but you misunderstood the situation, spend more time on fresh word problems. If you knew the passage content but ran out of time, schedule timed reading sets. The right repair is not always another card.
 
-The broader guide to [turning practice questions into flashcards](/blog/how-to-turn-practice-questions-into-flashcards/) has more patterns for extracting a learning point without copying a question. [Flashcards versus practice tests](/blog/flashcards-vs-practice-tests/) explains why retrieval review and exam-format practice should remain separate parts of the week.
+Extract the learning point in your own words instead of copying a question. [Flashcards versus practice tests](/blog/flashcards-vs-practice-tests/) explains why retrieval review and exam-format practice should remain separate parts of the week.
 
 ## Practice the format you will actually take
 
@@ -236,7 +236,7 @@ Use a simple loop:
 
 Do not import hundreds of **ASVAB study cards** just because test day feels urgent. Every new card becomes future work. Start with a small AFQT core, add priority modules, and let real practice decide where the deck grows.
 
-The [FSRS exam-planning guide](/blog/how-to-study-for-an-exam-with-fsrs/) shows how to work backward from test day. The guide to [setting a daily new-card load](/blog/how-many-new-flashcards-per-day/) helps when the queue starts expanding faster than you can review it.
+The [FSRS exam-planning guide](/blog/how-to-study-for-an-exam-with-fsrs/) shows how to work backward from test day. If the queue expands faster than you can review it, reduce new cards before adding more material.
 
 ## Where Nibomo fits
 

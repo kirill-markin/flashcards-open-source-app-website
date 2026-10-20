@@ -180,6 +180,6 @@ If one error repeats, save a short reminder and then solve the missed problem ag
 | After one half-life, what amount do I halve next? | The parent amount still remaining, not the original amount. |
 | Elapsed time is half of a half-life. What exponent belongs on 1/2? | 0.5. The remaining fraction is (1/2)^0.5, not a straight-line midpoint. |
 
-The guide to [what should go on a flashcard](/blog/what-should-go-on-a-flashcard/) can help you keep a card focused on the part you need to recall. Keep the multi-step calculation as a full practice problem. For a classroom activity alongside the calculations, see the [EPA's half-life activity](https://www.epa.gov/radtown/radtown-radioactive-atom-activity-5-half-life).
+Keep each card focused on the part you need to recall, and keep the multi-step calculation as a full practice problem. For a classroom activity alongside the calculations, see the [EPA’s half-life activity](https://www.epa.gov/radtown/radtown-radioactive-atom-activity-5-half-life).
 
 *AI tools assisted with source research, drafting, editorial revision, exercise creation, and the article illustration. The numerical answers were checked computationally. These original exercises have not been validated in a classroom or learner study, and the editorial passes do not constitute human expert review.*

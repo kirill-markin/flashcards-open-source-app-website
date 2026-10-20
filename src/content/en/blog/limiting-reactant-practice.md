@@ -209,6 +209,6 @@ Keep whole reaction calculations as paper practice. After a miss, make a short c
 | What does a tie in amount ÷ coefficient mean? | Stoichiometric supplies; neither reactant is in excess. |
 | Can percent yield alone tell me actual excess reactant remaining? | No. Collected product doesn't uniquely determine reactant consumption. |
 
-Our guide to [turning practice questions into flashcards](/blog/how-to-turn-practice-questions-into-flashcards/) explains how to isolate a missed step. For a broader study plan, see [using flashcards for advanced chemistry](/blog/how-to-use-flashcards-for-advanced-chemistry/).
+Isolate the missed step in a short prompt, then solve another complete problem. For a broader study plan, see [using flashcards for advanced chemistry](/blog/how-to-use-flashcards-for-advanced-chemistry/).
 
 Then solve a fresh problem on paper. Check that every reactant row satisfies **initial = consumed + left**, with no negative leftovers, and that the consumed amounts match the balanced coefficients.

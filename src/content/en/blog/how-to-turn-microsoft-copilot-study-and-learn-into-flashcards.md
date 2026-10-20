@@ -71,7 +71,7 @@ Study and Learn makes the most sense when your studying already lives in Microso
 - source links from your class portal
 - notes collected in a Copilot Page
 
-If your starting material is mostly slides or PDFs, the adjacent workflows are [How to Turn PowerPoint Into Flashcards in 2026](/blog/how-to-turn-powerpoint-into-flashcards/) and [How to Turn a PDF Into Flashcards in 2026](/blog/how-to-turn-a-pdf-into-flashcards/).
+If your starting material is mostly slides, see [How to Turn PowerPoint Into Flashcards in 2026](/blog/how-to-turn-powerpoint-into-flashcards/). For a PDF, first extract a small relevant section and check the text and diagrams against the original.
 
 That is a very different workflow from scraping random web summaries into a flashcard deck.
 
@@ -108,7 +108,7 @@ Most guided sessions contain plenty of material that does not deserve a card:
 
 If you save all of it, the deck becomes another project to manage. That is exactly the problem many people are trying to avoid when they look for AI study tools in the first place.
 
-If review load is already getting out of hand, [How to Avoid AI Flashcard Overload in 2026](/blog/how-to-avoid-ai-flashcard-overload/) is the right next read.
+If review load is already getting out of hand, pause new cards and delete duplicate or low-value drafts before generating more.
 
 ## The workflow I would actually use after a Copilot session
 
@@ -127,7 +127,7 @@ That is the whole system.
 
 No giant transcript export. No heroic effort to preserve every activity. No fake completeness.
 
-If you like the same handoff in other tutor-style tools, the closest companion pieces are [How to Turn ChatGPT Study Mode Into Flashcards in 2026](/blog/how-to-turn-chatgpt-study-mode-into-flashcards/) and [How to Turn Gemini Guided Learning Into Flashcards in 2026](/blog/gemini-guided-learning-to-flashcards/).
+The same handoff works with Gemini Guided Learning and other tutor-style tools. For a worked example in ChatGPT, see [How to Turn ChatGPT Study Mode Into Flashcards in 2026](/blog/how-to-turn-chatgpt-study-mode-into-flashcards/).
 
 ## What a good Study and Learn card looks like
 

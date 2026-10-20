@@ -194,7 +194,7 @@ Examples:
 
 That is how the deck gets better each week instead of just getting bigger.
 
-If your source material is mostly question review, [How to Turn Practice Questions Into Flashcards in 2026](/blog/how-to-turn-practice-questions-into-flashcards/) is the most relevant next read.
+For question-review material, isolate the vocabulary distinction, language pattern, or reading cue behind the miss. Write a short prompt, then test it in a fresh passage or response.
 
 ## Use AI to compress your notes, not to invent your deck for you
 
