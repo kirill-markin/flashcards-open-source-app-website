@@ -698,6 +698,21 @@
     "bytes": 2242711
   },
   {
+    "publicPath": "/blog/dihybrid-cross-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/970ece00a569cf5f3a96a26049e1439203ec71251fda09e9da7b879f2c7e94a8.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "970ece00a569cf5f3a96a26049e1439203ec71251fda09e9da7b879f2c7e94a8",
+    "bytes": 195334,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/d63f78898f44a47fb7c468d825d1bab86b7f12d596d17d3404883a485941618c.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "d63f78898f44a47fb7c468d825d1bab86b7f12d596d17d3404883a485941618c",
+      "bytes": 2410064
+    }
+  },
+  {
     "publicPath": "/blog/dimensional-analysis-equations.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/dbf5ebda017804c8dbea838dd9e294ba06be79fd610ef06034006d16e80216db.png",
     "width": 1672,
