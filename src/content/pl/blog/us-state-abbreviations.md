@@ -15,6 +15,8 @@ Alaska to AK, Alabama to AL, a Arkansas to AR. Pierwsze dwie litery nazwy stanu 
 
 Jeśli szukasz konkretnego skrótu, znajdź stan w poniższej tabeli, uporządkowanej alfabetycznie według angielskich nazw. Jeśli się uczysz, zasłoń kolumnę ze skrótami i spróbuj podać każdą odpowiedź, a potem zasłoń nazwy stanów i odgaduj je na podstawie skrótów. Rozpoznanie pary na stronie i odtworzenie jej z pamięci to dwa różne zadania.
 
+Bezpłatna [talia skrótów stanów USA](/pl/catalog/packages/us-state-abbreviations-flashcards/) zawiera **100 fiszek po angielsku** do ćwiczenia w obu kierunkach: od stanu do kodu i od kodu do stanu. Spróbuj przypomnieć sobie każdą odpowiedź przed jej sprawdzeniem, a potem wracaj do regularnych powtórek w odstępach czasu, by dłużej pamiętać te pary. Pełna tabela i odpowiedzi do quizu są poniżej.
+
 ## Skróty wszystkich 50 stanów USA
 
 To dwuliterowe oznaczenia podane w [publikacji USPS nr 28, dodatku B](https://pe.usps.com/text/pub28/28apb.htm), sprawdzone 16 września 2026 r. Każdy skrót zapisuj dwiema wielkimi literami, bez kropek. Przy polskich nazwach podajemy też ich angielską pisownię tam, gdzie się różni.
@@ -128,7 +130,7 @@ Zadanie z geografii może sprawdzać kilka różnych umiejętności. Dopasuj ćw
 | Od skrótu do stanu | Który stan używa MN? | Minnesota |
 | Położenie na mapie | Rozpoznaj stan zaznaczony na mapie konturowej | Nazwa stanu |
 
-Tabela zawiera odpowiedzi do pierwszych dwóch zadań. Jeśli czeka cię sprawdzian z mapy, użyj mapy konturowej z kluczem odpowiedzi i ćwicz rozpoznawanie stanów po ich położeniu. Stolice stanów też wymagają osobnych pytań, na przykład: „Jaka jest stolica Minnesoty?”. Trzymaj te fiszki oddzielnie od pytań o skróty, żeby każda odpowiedź pokazywała, który fakt udało ci się zapamiętać.
+Tabela zawiera odpowiedzi do pierwszych dwóch zadań. Jeśli czeka cię sprawdzian z mapy, użyj mapy konturowej z kluczem odpowiedzi i ćwicz rozpoznawanie stanów po ich położeniu. Stolice stanów też wymagają osobnych pytań, na przykład: „Jaka jest stolica Minnesoty?”. Trzymaj te fiszki oddzielnie od pytań o skróty, żeby każda odpowiedź pokazywała, który fakt udało ci się zapamiętać. Osobna [talia stanów USA i ich stolic](/pl/catalog/packages/us-states-and-capitals/) zawiera fiszki po angielsku do tego zadania.
 
 ## Krótki quiz ze skrótów stanów
 
@@ -173,7 +175,7 @@ Dla każdej pary, przy której pojawił się błąd lub niepewność, przygotuj 
 
 Jeśli mylą ci się MO i MS, dodaj też dwie fiszki dla Missisipi (Mississippi). Na każdej fiszce zostaw jedną odpowiedź, a fiszki z pytaniami w odwrotnym kierunku rozdziel innymi pytaniami. Dzięki temu odpowiedź nie będzie wynikała z dopiero co obejrzanej karty. Nasz [poradnik tworzenia lepszych fiszek](/blog/how-to-make-better-flashcards/) wyjaśnia, jak formułować konkretne pytania.
 
-Podczas kolejnej powtórki odpowiedz przed odsłonięciem tyłu fiszki i uczciwie odnotuj błędy. Wróć do tych fiszek podczas późniejszej sesji, żeby sprawdzić, czy odpowiedzi nadal przychodzą ci do głowy. Dodawaj kolejne stany, gdy masz czas na ich powtarzanie. Nie musisz wprowadzać wszystkich fiszek za jednym razem.
+Regularne przypominanie sobie odpowiedzi i powtórki w odstępach czasu pomagają zachować pary w pamięci na dłużej. Podczas kolejnej powtórki odpowiedz przed odsłonięciem tyłu fiszki i uczciwie odnotuj błędy. Wróć do tych fiszek podczas późniejszej sesji, żeby sprawdzić, czy odpowiedzi nadal przychodzą ci do głowy. Dodawaj kolejne stany, gdy masz czas na ich powtarzanie. Nie musisz wprowadzać wszystkich fiszek za jednym razem.
 
 Bezpłatna [talia ze skrótami stanów USA](/pl/catalog/packages/us-state-abbreviations-flashcards/) zawiera **100 fiszek w języku angielskim**: dla każdego z 50 stanów jedną fiszkę od nazwy stanu do skrótu i jedną od skrótu do nazwy stanu. To niezależna, nieoficjalna pomoc do nauki. Nie zawiera map, stolic, DC, terytoriów ani kodów ZIP.
 

@@ -15,6 +15,8 @@ Alasca (Alaska) é AK, Alabama é AL e Arkansas é AR. As duas primeiras letras 
 
 Para consultar uma sigla, procure o estado na tabela abaixo, organizada por ordem alfabética dos nomes em inglês. Para estudar, cubra a coluna dos códigos e tente lembrar cada resposta. Depois, cubra a outra coluna. Reconhecer um par na página e conseguir lembrá-lo sem consultar são tarefas diferentes.
 
+O [baralho gratuito de abreviações dos estados dos EUA](/pt/catalog/packages/us-state-abbreviations-flashcards/) oferece **100 cartões em inglês** para praticar do estado para o código e no sentido inverso. Tente lembrar cada resposta antes de conferi-la e volte para revisões espaçadas regulares, que ajudam a reter os pares ao longo do tempo. A tabela completa e as respostas do quiz estão abaixo.
+
 ## As siglas dos 50 estados dos EUA
 
 Estes são os códigos de duas letras apresentados na [Publicação 28 do USPS, Apêndice B](https://pe.usps.com/text/pub28/28apb.htm), consultados em 16 de setembro de 2026. Escreva cada código com duas letras maiúsculas, sem pontos.
@@ -128,7 +130,7 @@ Uma atividade de geografia pode exigir habilidades diferentes. Adapte a prática
 | Do código para o estado | Qual estado usa MN? | Minnesota |
 | Localização no mapa | Identifique um estado destacado num mapa sem nomes | O nome do estado |
 
-A tabela fornece as respostas para as duas primeiras tarefas. Para uma prova com mapas, use um mapa sem nomes acompanhado de um gabarito e pratique identificar os estados pela localização. As capitais também precisam de perguntas próprias, como “Qual é a capital de Minnesota?” Mantenha esses cartões separados das perguntas sobre abreviaturas, para que cada resposta mostre qual informação conseguiu lembrar.
+A tabela fornece as respostas para as duas primeiras tarefas. Para uma prova com mapas, use um mapa sem nomes acompanhado de um gabarito e pratique identificar os estados pela localização. As capitais também precisam de perguntas próprias, como “Qual é a capital de Minnesota?” Mantenha esses cartões separados das perguntas sobre abreviaturas, para que cada resposta mostre qual informação conseguiu lembrar. O [baralho de estados dos EUA e suas capitais](/pt/catalog/packages/us-states-and-capitals/), separado do de abreviações, tem cartões em inglês para essa tarefa.
 
 ## Um teste curto de siglas dos estados
 
@@ -173,7 +175,7 @@ Para cada par que errou ou sobre o qual ficou em dúvida, faça dois cartões de
 
 Se confundiu MO com MS, adicione também os dois cartões de Mississippi. Mantenha uma resposta por cartão e coloque outras perguntas entre os cartões de sentidos opostos, para não responder com base no cartão que acabou de ver. O nosso [guia para criar cartões de estudo melhores](/blog/how-to-make-better-flashcards/) explica como formular perguntas específicas.
 
-Na próxima revisão, responda antes de revelar o verso e registre os erros com honestidade. Volte a esses cartões numa sessão posterior para verificar se ainda consegue lembrar as respostas. Acrescente mais estados à medida que tiver tempo para revisá-los; não precisa começar a estudar todos os cartões de uma vez.
+Tentar lembrar as respostas regularmente e fazer revisões espaçadas ajuda a reter os pares a longo prazo. Na próxima revisão, responda antes de revelar o verso e registre os erros com honestidade. Volte a esses cartões numa sessão posterior para verificar se ainda consegue lembrar as respostas. Acrescente mais estados à medida que tiver tempo para revisá-los; não precisa começar a estudar todos os cartões de uma vez.
 
 O [baralho gratuito de siglas dos estados dos EUA](/pt/catalog/packages/us-state-abbreviations-flashcards/) tem **100 cartões em inglês**: um cartão do estado para o código e outro do código para o estado para cada um dos 50 estados. É um recurso de estudo independente e não oficial. Não inclui mapas, capitais, DC, territórios nem ZIP Codes.
 

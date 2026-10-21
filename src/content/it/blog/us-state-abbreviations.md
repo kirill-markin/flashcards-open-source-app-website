@@ -15,6 +15,8 @@ L'Alaska è AK, l'Alabama è AL e l'Arkansas è AR. Le prime due lettere del nom
 
 Per cercare un codice, trova lo stato nella tabella qui sotto, ordinata alfabeticamente secondo i nomi inglesi. Per studiare, copri la colonna dei codici e prova a ricordarli, poi copri quella dei nomi e fai l'esercizio inverso. Riconoscere una coppia sulla pagina e ricordarla a memoria sono due esercizi diversi.
 
+Il [mazzo gratuito sulle abbreviazioni degli stati degli USA](/it/catalog/packages/us-state-abbreviations-flashcards/) offre **100 schede in inglese** per esercitarti dallo stato al codice e viceversa. Prova a ricordare ogni risposta prima di controllarla, poi torna a ripassare regolarmente a intervalli distanziati per ricordare le coppie nel tempo. La tabella completa e le risposte al quiz sono più in basso.
+
 ## Le abbreviazioni di tutti i 50 stati USA
 
 Questi sono i codici di due lettere elencati nella [pubblicazione USPS 28, appendice B](https://pe.usps.com/text/pub28/28apb.htm), verificati il 16 settembre 2026. Scrivi ogni codice con due lettere maiuscole, senza punti.
@@ -128,7 +130,7 @@ Un compito di geografia può richiedere abilità diverse. Adatta gli esercizi al
 | Dal codice allo stato | Quale stato usa MN? | Minnesota |
 | Posizione sulla carta geografica | Identifica uno stato evidenziato su una carta muta | Il nome dello stato |
 
-La tabella fornisce le risposte per i primi due esercizi. Per una verifica sulla carta geografica, usa una carta muta con le soluzioni ed esercitati a riconoscere gli stati dalla loro posizione. Anche le capitali degli stati richiedono domande specifiche, come «Qual è la capitale del Minnesota?». Tieni queste schede separate dalle domande sulle abbreviazioni, così ogni risposta indica quale informazione hai ricordato.
+La tabella fornisce le risposte per i primi due esercizi. Per una verifica sulla carta geografica, usa una carta muta con le soluzioni ed esercitati a riconoscere gli stati dalla loro posizione. Anche le capitali degli stati richiedono domande specifiche, come «Qual è la capitale del Minnesota?». Tieni queste schede separate dalle domande sulle abbreviazioni, così ogni risposta indica quale informazione hai ricordato. Il [mazzo sugli stati degli USA e le loro capitali](/it/catalog/packages/us-states-and-capitals/), separato da quello sulle abbreviazioni, contiene schede in inglese per questo esercizio.
 
 ## Un breve quiz sulle abbreviazioni degli stati
 
@@ -173,7 +175,7 @@ Per ogni coppia che hai sbagliato o su cui hai avuto dubbi, crea due brevi sched
 
 Se hai confuso MO con MS, aggiungi anche le due schede del Mississippi. Mantieni una sola risposta per scheda e separa le schede inverse con altre domande, così non rispondi basandoti sulla scheda appena vista. La nostra [guida per creare flashcard migliori](/blog/how-to-make-better-flashcards/) spiega come formulare domande precise.
 
-Al ripasso successivo, rispondi prima di scoprire il retro e registra gli errori con onestà. Riprendi quelle schede in una sessione successiva per verificare se le risposte ti tornano ancora in mente. Aggiungi altri stati man mano che hai tempo di ripassarli; non serve introdurre tutte le schede in una sola sessione.
+Richiamare regolarmente le risposte dalla memoria e ripassarle a intervalli distanziati aiuta a ricordare le coppie a lungo termine. Al ripasso successivo, rispondi prima di scoprire il retro e registra gli errori con onestà. Riprendi quelle schede in una sessione successiva per verificare se le risposte ti tornano ancora in mente. Aggiungi altri stati man mano che hai tempo di ripassarli; non serve introdurre tutte le schede in una sola sessione.
 
 Il [mazzo gratuito sulle abbreviazioni degli stati USA](/it/catalog/packages/us-state-abbreviations-flashcards/) contiene **100 schede in inglese**: una scheda dallo stato al codice e una dal codice allo stato per ciascuno dei 50 stati. È un supporto allo studio indipendente e non ufficiale. Non include carte geografiche, capitali, DC, territori o ZIP Code.
 

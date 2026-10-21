@@ -15,6 +15,8 @@ Aliaskos kodas yra AK, Alabamos – AL, o Arkanzaso – AR. Pirmosios dvi angli�
 
 Jei norite sužinoti kodą, raskite valstiją toliau pateiktoje lentelėje, išdėstytoje pagal angliškų pavadinimų abėcėlę. Jei mokotės, uždenkite kodų stulpelį ir pabandykite prisiminti kiekvieną atsakymą, tada uždenkite kitą stulpelį. Atpažinti porą puslapyje ir atkurti ją iš atminties – skirtingos užduotys.
 
+Nemokamame [JAV valstijų santrumpų kortelių rinkinyje](/lt/catalog/packages/us-state-abbreviations-flashcards/) yra **100 kortelių anglų kalba**, skirtų mokytis nuo valstijos prie kodo ir atvirkščiai. Prieš tikrindami atsakymą pabandykite jį prisiminti, o vėliau reguliariai kartokite su laiko tarpais, kad poros ilgiau išliktų atmintyje. Visa lentelė ir testo atsakymai pateikti toliau.
+
 ## Visų 50 JAV valstijų santrumpos
 
 Tai dviejų raidžių kodai, pateikti [USPS leidinio „Publication 28“ B priede](https://pe.usps.com/text/pub28/28apb.htm) ir patikrinti 2026 m. rugsėjo 16 d. Kiekvieną kodą rašykite dviem didžiosiomis raidėmis, be taškų.
@@ -128,7 +130,7 @@ Geografijos užduotis gali tikrinti kelis skirtingus gebėjimus. Mokykitės paga
 | Iš kodo prisiminti valstiją | Kuri valstija žymima MN? | Minesota (Minnesota) |
 | Atpažinti vietą žemėlapyje | Įvardykite kontūriniame žemėlapyje pažymėtą valstiją | Valstijos pavadinimas |
 
-Lentelėje rasite atsakymus į pirmųjų dviejų tipų klausimus. Jei per testą reikės atpažinti valstijas žemėlapyje, naudokite kontūrinį žemėlapį su atsakymais ir mokykitės atpažinti valstijas pagal jų vietą. Valstijų sostinėms taip pat reikia atskirų klausimų, pavyzdžiui: „Kokia Minesotos sostinė?“ Šias korteles laikykite atskirai nuo klausimų apie santrumpas, kad kiekvienas atsakymas parodytų, kurį faktą prisiminėte.
+Lentelėje rasite atsakymus į pirmųjų dviejų tipų klausimus. Jei per testą reikės atpažinti valstijas žemėlapyje, naudokite kontūrinį žemėlapį su atsakymais ir mokykitės atpažinti valstijas pagal jų vietą. Valstijų sostinėms taip pat reikia atskirų klausimų, pavyzdžiui: „Kokia Minesotos sostinė?“ Šias korteles laikykite atskirai nuo klausimų apie santrumpas, kad kiekvienas atsakymas parodytų, kurį faktą prisiminėte. Šiai užduočiai atskirame [JAV valstijų ir jų sostinių kortelių rinkinyje](/lt/catalog/packages/us-states-and-capitals/) yra kortelių anglų kalba.
 
 ## Trumpas valstijų santrumpų testas
 
@@ -173,7 +175,7 @@ Kiekvienai porai, kurios neprisiminėte arba dėl kurios abejojote, sukurkite dv
 
 Jei supainiojote MO su MS, pridėkite ir dvi Misisipės (Mississippi) korteles. Vienoje kortelėje palikite vieną atsakymą, o tarp priešingų tos pačios poros klausimų įterpkite kitų kortelių, kad neatsakytumėte remdamiesi ką tik matyta kortele. Mūsų [geresnių mokymosi kortelių kūrimo vadove](/blog/how-to-make-better-flashcards/) paaiškinta, kaip formuluoti konkrečius klausimus.
 
-Kitą kartą kartodami atsakykite prieš atversdami kortelę ir sąžiningai žymėkite klaidas. Prie šių kortelių grįžkite per kitą mokymosi užsiėmimą ir patikrinkite, ar atsakymus vis dar prisimenate. Daugiau valstijų įtraukite tada, kai turėsite laiko jas kartoti. Nebūtina visų kortelių pradėti mokytis vienu prisėdimu.
+Reguliarus atsakymų prisiminimas ir kartojimas su laiko tarpais padeda poras išlaikyti ilgalaikėje atmintyje. Kitą kartą kartodami atsakykite prieš atversdami kortelę ir sąžiningai žymėkite klaidas. Prie šių kortelių grįžkite per kitą mokymosi užsiėmimą ir patikrinkite, ar atsakymus vis dar prisimenate. Daugiau valstijų įtraukite tada, kai turėsite laiko jas kartoti. Nebūtina visų kortelių pradėti mokytis vienu prisėdimu.
 
 Nemokamame [JAV valstijų santrumpų rinkinyje](/lt/catalog/packages/us-state-abbreviations-flashcards/) yra **100 kortelių anglų kalba**: kiekvienai iš 50 valstijų skirta viena kortelė, kurioje pagal pavadinimą reikia prisiminti kodą, ir viena, kurioje pagal kodą reikia prisiminti valstiją. Tai nepriklausoma, neoficiali mokymosi priemonė. Rinkinyje nėra žemėlapių, sostinių, DC, teritorijų ar ZIP pašto indeksų.
 

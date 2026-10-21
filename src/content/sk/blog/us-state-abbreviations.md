@@ -15,6 +15,8 @@ Aljaška (Alaska) má skratku AK, Alabama AL a Arkansas AR. Prvé dve písmená 
 
 Ak si potrebujete skratku vyhľadať, nájdite štát v tabuľke nižšie, zoradenej podľa anglických názvov. Ak sa chcete skratky naučiť, zakryte stĺpec s kódmi a skúste ich doplniť spamäti. Potom zakryte názvy štátov a dopĺňajte tie. Rozpoznať dvojicu na stránke a vybaviť si ju z pamäti sú dve odlišné úlohy.
 
+Bezplatný [balíček skratiek štátov USA](/sk/catalog/packages/us-state-abbreviations-flashcards/) ponúka **100 kartičiek v angličtine** na precvičovanie od štátu ku kódu aj od kódu k štátu. Skúste si odpoveď vybaviť skôr, než ju skontrolujete, a pravidelne sa vracajte k opakovaniu s časovými odstupmi, ktoré pomáha udržať dvojice v pamäti dlhšie. Úplná tabuľka aj odpovede ku kvízu sú nižšie.
+
 ## Skratky všetkých 50 štátov USA
 
 Toto sú dvojpísmenové kódy uvedené v [prílohe B publikácie USPS Publication 28](https://pe.usps.com/text/pub28/28apb.htm), overené 16. septembra 2026. Každý kód píšte dvoma veľkými písmenami bez bodiek.
@@ -128,7 +130,7 @@ Zadanie z geografie môže preverovať niekoľko rôznych zručností. Prispôso
 | Z kódu na štát | Ktorý štát používa MN? | Minnesota |
 | Poloha na mape | Určite zvýraznený štát na slepej mape | Názov štátu |
 
-Tabuľka poskytuje odpovede na prvé dve úlohy. Ak vás čaká test s mapou, použite slepú mapu s kľúčom správnych odpovedí a precvičujte určovanie štátov podľa polohy. Aj hlavné mestá štátov potrebujú vlastné otázky, napríklad „Aké je hlavné mesto Minnesoty?“ Tieto kartičky nechajte oddelené od otázok na skratky, aby vám každá odpoveď ukázala, ktorý údaj ste si zapamätali.
+Tabuľka poskytuje odpovede na prvé dve úlohy. Ak vás čaká test s mapou, použite slepú mapu s kľúčom správnych odpovedí a precvičujte určovanie štátov podľa polohy. Aj hlavné mestá štátov potrebujú vlastné otázky, napríklad „Aké je hlavné mesto Minnesoty?“ Tieto kartičky nechajte oddelené od otázok na skratky, aby vám každá odpoveď ukázala, ktorý údaj ste si zapamätali. Samostatný [balíček štátov USA a ich hlavných miest](/sk/catalog/packages/us-states-and-capitals/) obsahuje na túto úlohu kartičky v angličtine.
 
 ## Krátky kvíz o skratkách štátov
 
@@ -173,7 +175,7 @@ Pre každú dvojicu, v ktorej ste urobili chybu alebo si neboli istí, vytvorte 
 
 Ak ste si pomýlili MO s MS, pridajte aj dve kartičky pre Mississippi. Na každej kartičke nechajte len jednu odpoveď a medzi dvojicu kartičiek v opačných smeroch vložte iné otázky. Nebudete tak odpovedať podľa kartičky, ktorú ste práve videli. Náš [návod na tvorbu lepších učebných kartičiek](/blog/how-to-make-better-flashcards/) vysvetľuje, ako formulovať konkrétne otázky.
 
-Pri ďalšom opakovaní odpovedzte ešte pred odkrytím zadnej strany a poctivo si zaznamenajte chyby. Ku kartičkám sa vráťte pri neskoršom opakovaní a overte si, či si odpovede stále vybavíte. Ďalšie štáty pridávajte podľa toho, koľko času máte na opakovanie. Nemusíte prejsť všetky nové kartičky naraz.
+Pravidelné vybavovanie odpovedí a opakovanie s časovými odstupmi pomáhajú udržať dvojice v dlhodobej pamäti. Pri ďalšom opakovaní odpovedzte ešte pred odkrytím zadnej strany a poctivo si zaznamenajte chyby. Ku kartičkám sa vráťte pri neskoršom opakovaní a overte si, či si odpovede stále vybavíte. Ďalšie štáty pridávajte podľa toho, koľko času máte na opakovanie. Nemusíte prejsť všetky nové kartičky naraz.
 
 Bezplatný [balíček skratiek štátov USA](/sk/catalog/packages/us-state-abbreviations-flashcards/) obsahuje **100 kartičiek výlučne v angličtine**: pre každý z 50 štátov jednu kartičku zo štátu na kód a jednu z kódu na štát. Je to nezávislá, neoficiálna učebná pomôcka. Neobsahuje mapy, hlavné mestá, DC, teritóriá ani poštové smerovacie čísla ZIP Code.
 

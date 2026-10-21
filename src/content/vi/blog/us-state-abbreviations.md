@@ -15,6 +15,8 @@ Alaska là AK, Alabama là AL, còn Arkansas là AR. Không phải lúc nào hai
 
 Để tra cứu, hãy tìm tên bang trong bảng bên dưới, được xếp theo thứ tự chữ cái của tên tiếng Anh. Để học, hãy che cột mã và thử tự trả lời, rồi đổi sang che cột tên bang. Nhận ra một cặp tên–mã khi nhìn trên trang và tự nhớ ra cặp đó là hai việc khác nhau.
 
+[Bộ thẻ tên viết tắt các bang Hoa Kỳ](/vi/catalog/packages/us-state-abbreviations-flashcards/) miễn phí có **100 thẻ bằng tiếng Anh** để luyện từ tên bang sang mã và ngược lại. Hãy thử nhớ từng đáp án trước khi xem, rồi quay lại ôn đều đặn, có khoảng cách giữa các buổi, để ghi nhớ các cặp lâu hơn. Bảng đầy đủ và đáp án bài kiểm tra đều ở bên dưới.
+
 ## Tên viết tắt của cả 50 bang Hoa Kỳ
 
 Đây là các mã gồm hai chữ cái được liệt kê trong [Ấn phẩm 28 của USPS, Phụ lục B](https://pe.usps.com/text/pub28/28apb.htm), đã được đối chiếu vào ngày 16 tháng 9 năm 2026. Viết mỗi mã bằng hai chữ cái in hoa, không có dấu chấm.
@@ -128,7 +130,7 @@ Một bài tập địa lý có thể yêu cầu nhiều kỹ năng khác nhau. 
 | Từ mã sang tên bang | Bang nào dùng MN? | Minnesota |
 | Xác định vị trí trên bản đồ | Xác định bang được tô nổi bật trên bản đồ không ghi tên | Tên bang |
 
-Bảng trên cung cấp đáp án cho hai nhiệm vụ đầu. Nếu bài kiểm tra yêu cầu xác định bang trên bản đồ, hãy dùng bản đồ không ghi tên kèm đáp án và luyện nhận diện các bang theo vị trí. Thủ phủ các bang cũng cần câu hỏi riêng, chẳng hạn “Thủ phủ của Minnesota là gì?”. Hãy tách các thẻ đó khỏi câu hỏi về tên viết tắt để mỗi câu trả lời cho biết bạn đã nhớ được thông tin nào.
+Bảng trên cung cấp đáp án cho hai nhiệm vụ đầu. Nếu bài kiểm tra yêu cầu xác định bang trên bản đồ, hãy dùng bản đồ không ghi tên kèm đáp án và luyện nhận diện các bang theo vị trí. Thủ phủ các bang cũng cần câu hỏi riêng, chẳng hạn “Thủ phủ của Minnesota là gì?”. Hãy tách các thẻ đó khỏi câu hỏi về tên viết tắt để mỗi câu trả lời cho biết bạn đã nhớ được thông tin nào. [Bộ thẻ các bang Hoa Kỳ và thủ phủ](/vi/catalog/packages/us-states-and-capitals/) riêng có các thẻ bằng tiếng Anh dành cho nhiệm vụ đó.
 
 ## Bài tự kiểm tra ngắn về tên viết tắt các bang
 
@@ -173,7 +175,7 @@ Với mỗi cặp bạn trả lời sai hoặc chưa chắc chắn, hãy tạo h
 
 Nếu bạn nhầm MO với MS, hãy thêm cả hai thẻ cho Mississippi. Mỗi thẻ chỉ nên có một đáp án. Hãy xen các câu hỏi khác giữa hai thẻ hỏi theo hai chiều để bạn không trả lời chỉ nhờ nhớ thẻ vừa xem. [Hướng dẫn viết thẻ học tốt hơn](/blog/how-to-make-better-flashcards/) giải thích cách đặt câu hỏi cụ thể.
 
-Ở lần ôn tiếp theo, hãy trả lời trước khi lật mặt sau và ghi lại đúng những lỗi mình mắc phải. Quay lại những thẻ đó trong một buổi ôn sau để kiểm tra xem bạn còn nhớ đáp án không. Thêm các bang khác khi bạn có thời gian ôn; không cần học tất cả thẻ mới trong một buổi.
+Thường xuyên tự nhớ lại đáp án và ôn cách quãng giúp bạn ghi nhớ các cặp tên–mã lâu dài hơn. Ở lần ôn tiếp theo, hãy trả lời trước khi lật mặt sau và ghi lại đúng những lỗi mình mắc phải. Quay lại những thẻ đó trong một buổi ôn sau để kiểm tra xem bạn còn nhớ đáp án không. Thêm các bang khác khi bạn có thời gian ôn; không cần học tất cả thẻ mới trong một buổi.
 
 [Bộ thẻ tên viết tắt các bang Hoa Kỳ](/vi/catalog/packages/us-state-abbreviations-flashcards/) miễn phí có **100 thẻ bằng tiếng Anh**: với mỗi bang trong số 50 bang, có một thẻ hỏi từ tên bang sang mã và một thẻ hỏi từ mã sang tên bang. Đây là tài liệu hỗ trợ học tập độc lập, không chính thức. Bộ thẻ không bao gồm bản đồ, thủ phủ, DC, các lãnh thổ hay mã ZIP.
 

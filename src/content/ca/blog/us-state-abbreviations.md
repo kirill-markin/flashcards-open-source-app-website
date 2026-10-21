@@ -15,6 +15,8 @@ Alaska és AK, Alabama és AL i Arkansas és AR. Les dues primeres lletres del n
 
 Per fer una consulta, busca l’estat a la taula de sota, ordenada alfabèticament pels noms en anglès. Per estudiar, tapa la columna dels codis i intenta donar cada resposta; després, tapa la dels estats i fes l’exercici a l’inrevés. Reconèixer una parella a la pàgina i recordar-la sense mirar són tasques diferents.
 
+El [conjunt gratuït de targetes sobre les abreviatures dels estats dels EUA](/ca/catalog/packages/us-state-abbreviations-flashcards/) ofereix **100 targetes en anglès** per practicar de l’estat al codi i a l’inrevés. Intenta recordar cada resposta abans de comprovar-la i torna-hi amb repassos espaiats regulars per ajudar-te a retenir les parelles al llarg del temps. Més avall tens la taula completa i les respostes del qüestionari.
+
 ## Les abreviatures dels 50 estats dels EUA
 
 Aquests són els codis de dues lletres que figuren a la [Publicació 28 d’USPS, apèndix B](https://pe.usps.com/text/pub28/28apb.htm), consultats el 16 de setembre de 2026. Escriu cada codi amb dues majúscules, sense punts. Els noms en anglès apareixen al costat dels noms catalans quan són diferents. Totes les pistes basades en lletres d’aquest article fan referència a la grafia anglesa.
@@ -128,7 +130,7 @@ Un exercici de geografia pot demanar habilitats diferents. Adapta la pràctica a
 | Del codi a l’estat | Quin estat fa servir MN? | Minnesota |
 | Ubicació al mapa | Identifica un estat ressaltat en un mapa mut | El nom de l’estat |
 
-La taula dona les respostes per a les dues primeres tasques. Per a una prova de mapes, fes servir un mapa mut amb un solucionari i practica la identificació dels estats per la seva ubicació. Les capitals dels estats també necessiten preguntes pròpies, com ara «Quina és la capital de Minnesota?». Mantén aquestes targetes separades de les preguntes sobre abreviatures perquè cada resposta t’indiqui quina dada has recordat.
+La taula dona les respostes per a les dues primeres tasques. Per a una prova de mapes, fes servir un mapa mut amb un solucionari i practica la identificació dels estats per la seva ubicació. Les capitals dels estats també necessiten preguntes pròpies, com ara «Quina és la capital de Minnesota?». Mantén aquestes targetes separades de les preguntes sobre abreviatures perquè cada resposta t’indiqui quina dada has recordat. El [conjunt sobre els estats dels EUA i les seves capitals](/ca/catalog/packages/us-states-and-capitals/), que és independent, té targetes en anglès per a aquesta tasca.
 
 ## Un qüestionari breu sobre les abreviatures dels estats
 
@@ -173,7 +175,7 @@ Per a cada parella que hagis fallat o que t’hagi fet dubtar, crea dues targete
 
 Si has confós MO amb MS, afegeix també les dues targetes de Mississipí (Mississippi). Mantén una sola resposta per targeta i intercala altres preguntes entre les targetes inverses per no respondre a partir de la que acabes de veure. La nostra [guia per crear millors targetes d’estudi](/blog/how-to-make-better-flashcards/) explica com fer preguntes concretes.
 
-Al repàs següent, respon abans de revelar la cara de la resposta i registra els errors amb honestedat. Torna a aquestes targetes en una sessió posterior per comprovar si encara en recordes les respostes. Afegeix més estats a mesura que tinguis temps per repassar-los; no cal introduir totes les targetes en una sola sessió.
+Recordar activament les respostes i repassar-les de manera espaiada i regular ajuda a retenir les parelles al llarg del temps. Al repàs següent, respon abans de revelar la cara de la resposta i registra els errors amb honestedat. Torna a aquestes targetes en una sessió posterior per comprovar si encara en recordes les respostes. Afegeix més estats a mesura que tinguis temps per repassar-los; no cal introduir totes les targetes en una sola sessió.
 
 El [conjunt gratuït de targetes sobre les abreviatures dels estats dels EUA](/ca/catalog/packages/us-state-abbreviations-flashcards/) té **100 targetes en anglès**: una de l’estat al codi i una del codi a l’estat per a cadascun dels 50 estats. És un recurs d’estudi independent i no oficial. No inclou mapes, capitals, DC, territoris ni codis ZIP.
 

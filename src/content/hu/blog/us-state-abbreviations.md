@@ -15,6 +15,8 @@ Alaszka kódja AK, Alabamáé AL, Arkansasé pedig AR. A tagállam angol nevéne
 
 Ha csak egy kódot keresel, keresd meg a tagállamot az alábbi, angol név szerinti betűrendes táblázatban. Tanuláshoz takard le a kódok oszlopát, és próbáld meg felidézni a válaszokat, majd takard le inkább a neveket, és gyakorolj a másik irányban. Más feladat felismerni egy név és egy kód összetartozását az oldalon, mint emlékezetből felidézni őket.
 
+Az ingyenes [amerikai tagállami rövidítéseket tartalmazó kártyacsomag](/hu/catalog/packages/us-state-abbreviations-flashcards/) **100 angol nyelvű kártyát** kínál: a tagállam nevéből a kódot, a kódból pedig a nevet gyakorolhatod. Próbáld felidézni a választ, mielőtt ellenőrzöd, majd térj vissza rendszeres, időben elosztott ismétlésre, hogy hosszabb távon is megjegyezd a párokat. A teljes táblázatot és a kvíz válaszait lejjebb találod.
+
 ## Az USA mind az 50 tagállamának rövidítése
 
 Ezek a [USPS Publication 28 B függelékében](https://pe.usps.com/text/pub28/28apb.htm) szereplő kétbetűs kódok, amelyeket 2026. szeptember 16-án ellenőriztünk. Minden kódot két nagybetűvel, pontok nélkül írj.
@@ -128,7 +130,7 @@ Egy földrajzfeladat többféle tudást is számon kérhet. Azt gyakorold, amire
 | Kód → tagállam | Melyik tagállam kódja MN? | Minnesota |
 | Hely felismerése a térképen | Nevezd meg a vaktérképen kiemelt tagállamot | A tagállam neve |
 
-A táblázat az első két feladathoz adja meg a válaszokat. Térképes számonkéréshez használj megoldókulccsal ellátott vaktérképet, és gyakorold a tagállamok felismerését az elhelyezkedésük alapján. A tagállami fővárosokhoz is külön kérdések kellenek, például: „Mi Minnesota fővárosa?” Ezeket a kártyákat tartsd külön a rövidítésekre vonatkozó kérdésektől, hogy minden válaszból kiderüljön, melyik tényt tudtad felidézni.
+A táblázat az első két feladathoz adja meg a válaszokat. Térképes számonkéréshez használj megoldókulccsal ellátott vaktérképet, és gyakorold a tagállamok felismerését az elhelyezkedésük alapján. A tagállami fővárosokhoz is külön kérdések kellenek, például: „Mi Minnesota fővárosa?” Ezeket a kártyákat tartsd külön a rövidítésekre vonatkozó kérdésektől, hogy minden válaszból kiderüljön, melyik tényt tudtad felidézni. Ehhez a feladathoz a különálló [amerikai tagállamokat és fővárosaikat tartalmazó kártyacsomagban](/hu/catalog/packages/us-states-and-capitals/) találsz angol nyelvű kártyákat.
 
 ## Rövid kvíz a tagállamok rövidítéseiből
 
@@ -173,7 +175,7 @@ Minden elrontott vagy bizonytalan párhoz készíts két rövid tanulókártyát
 
 Ha az MO-t az MS-sel keverted össze, add hozzá Mississippi két kártyáját is. Egy kártyán egyetlen választ kérj, és a fordított irányú kártyák közé tegyél más kérdéseket, hogy ne az éppen látott kártya alapján válaszolj. A [jobb tanulókártyák készítéséről szóló útmutatónk](/blog/how-to-make-better-flashcards/) bemutatja, hogyan fogalmazz pontos kérdéseket.
 
-A következő ismétléskor válaszolj, mielőtt felfeded a hátlapot, és őszintén rögzítsd a hibáidat. Egy későbbi alkalommal térj vissza ezekhez a kártyákhoz, hogy kiderüljön, akkor is eszedbe jutnak-e a válaszok. Annyi új tagállamot adj hozzá, amennyi ismétlésére van időd; nem kell az összes kártyával egyetlen alkalom alatt megismerkedned.
+A válaszok rendszeres felidézése és az időben elosztott ismétlés segít hosszabb távon megjegyezni a párokat. A következő ismétléskor válaszolj, mielőtt felfeded a hátlapot, és őszintén rögzítsd a hibáidat. Egy későbbi alkalommal térj vissza ezekhez a kártyákhoz, hogy kiderüljön, akkor is eszedbe jutnak-e a válaszok. Annyi új tagállamot adj hozzá, amennyi ismétlésére van időd; nem kell az összes kártyával egyetlen alkalom alatt megismerkedned.
 
 Az [USA tagállamainak rövidítéseit tanító ingyenes kártyacsomag](/hu/catalog/packages/us-state-abbreviations-flashcards/) **100 angol nyelvű tanulókártyát** tartalmaz: mind az 50 tagállamhoz egy tagállam → kód és egy kód → tagállam kártyát. Független, nem hivatalos tanulási segédlet. Nem tartalmaz térképeket, tagállami fővárosokat, DC-t, külbirtokokat vagy ZIP Code-okat.
 

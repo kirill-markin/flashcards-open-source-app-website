@@ -15,6 +15,8 @@ Ikhodi ye-Alaska ngu-AK, eye-Alabama ngu-AL, kanti eye-Arkansas ngu-AR. Izinhlam
 
 Uma ufuna isifinyezo, thola isifundazwe ethebula elingezansi elihlelwe ngokulandelana kwezinhlamvu zamagama. Uma ufunda, vala ikholomu yamakhodi bese uzama ukuphendula, bese ushintsha uvale enye ikholomu. Ukubona igama nekhodi yalo ekhasini nokukhumbula ikhodi ngaphandle kokubheka kuyizinto ezimbili ezihlukene.
 
+[Isethi yamahhala yamakhadi ezifinyezo zezifundazwe zase-US](/zu/catalog/packages/us-state-abbreviations-flashcards/) inamakhadi **angu-100 abhalwe ngesiNgisi** okuzilolongela ukusuka egameni lesifundazwe uye kukhodi nokusuka kukhodi uye egameni. Zama ukukhumbula impendulo ngayinye ngaphambi kokuyibheka, bese ubuya njalo uzobuyekeza ngokushiya izikhawu phakathi kwezikhathi zokufunda ukuze ukhumbule amagama namakhodi isikhathi eside. Ithebula eliphelele nezimpendulo zemibuzo kungaphansi.
+
 ## Zonke izifinyezo zezifundazwe zase-US ezingu-50
 
 Lawa ngamakhodi anezinhlamvu ezimbili asohlwini lwe-[USPS Publication 28, Appendix B](https://pe.usps.com/text/pub28/28apb.htm), ahlolwe ngoSepthemba 16, 2026. Bhala ikhodi ngayinye ngezinhlamvu ezimbili ezingosonhlamvukazi, ngaphandle kwamachashazi. Amagama ezifundazwe agcinwe ngendlela abhalwa ngayo ngesiNgisi; zonke izinkomba zezinhlamvu ezikulesi sihloko zibhekisela kulokho kubhalwa kwesiNgisi.
@@ -128,7 +130,7 @@ Umsebenzi wejografi ungadinga amakhono amaningana ahlukene. Yenza ukuzilolonga k
 | Ukusuka kukhodi uye esifundazweni | Yisiphi isifundazwe esisebenzisa u-MN? | Minnesota |
 | Indawo ebalazweni | Khomba isifundazwe esigqanyisiwe ebalazweni elingenamagama | Igama lesifundazwe |
 
-Ithebula linikeza izimpendulo zemisebenzi emibili yokuqala. Uma uzohlolwa ngebalazwe, sebenzisa ibalazwe elingenamagama elinezimpendulo zalo, uzilolonge ngokukhomba izifundazwe ngezindawo ezikuzo. Izinhloko-dolobha zezifundazwe nazo zidinga imibuzo yazo, njengokuthi “Ithini inhloko-dolobha ye-Minnesota?” Gcina lawo makhadi ehlukene nemibuzo yezifinyezo ukuze impendulo ngayinye ikutshele ukuthi yiliphi iqiniso olikhumbulile.
+Ithebula linikeza izimpendulo zemisebenzi emibili yokuqala. Uma uzohlolwa ngebalazwe, sebenzisa ibalazwe elingenamagama elinezimpendulo zalo, uzilolonge ngokukhomba izifundazwe ngezindawo ezikuzo. Izinhloko-dolobha zezifundazwe nazo zidinga imibuzo yazo, njengokuthi “Ithini inhloko-dolobha ye-Minnesota?” Gcina lawo makhadi ehlukene nemibuzo yezifinyezo ukuze impendulo ngayinye ikutshele ukuthi yiliphi iqiniso olikhumbulile. [Isethi ehlukile yezifundazwe zase-US nezinhloko-dolobha zazo](/zu/catalog/packages/us-states-and-capitals/) inamakhadi abhalwe ngesiNgisi alo msebenzi.
 
 ## Imibuzo emifushane yezifinyezo zezifundazwe
 
@@ -173,7 +175,7 @@ Ngegama nekhodi yalo ngakunye okuphendule kabi noma obungaqiniseki ngakho, yenza
 
 Uma udidanise u-MO no-MS, engeza namakhadi amabili e-Mississippi. Gcina impendulo eyodwa ekhadini ngalinye, bese ufaka eminye imibuzo phakathi kwamakhadi abuzana ngokuphambene ukuze ungaphenduli usebenzisa ikhadi osanda kulibona. [Umhlahlandlela wethu wokubhala amakhadi okufunda angcono](/blog/how-to-make-better-flashcards/) uchaza indlela yokwenza imibuzo icace futhi iqonde ngqo.
 
-Lapho ubuyekeza ngokulandelayo, phendula ngaphambi kokuba uveze ingemuva lekhadi futhi ubhale amaphutha njengoba enjalo. Buyela kulawo makhadi kwesinye isikhathi sokufunda ukuze uhlole ukuthi izimpendulo zisafika yini engqondweni. Engeza ezinye izifundazwe njengoba uthola isikhathi sokuzibuyekeza; akudingeki uqale wonke amakhadi ngesikhathi esisodwa.
+Ukuzama ukukhumbula izimpendulo njalo nokubuyekeza ngezikhawu kusiza ukuba ukhumbule amagama namakhodi isikhathi eside. Lapho ubuyekeza ngokulandelayo, phendula ngaphambi kokuba uveze ingemuva lekhadi futhi ubhale amaphutha njengoba enjalo. Buyela kulawo makhadi kwesinye isikhathi sokufunda ukuze uhlole ukuthi izimpendulo zisafika yini engqondweni. Engeza ezinye izifundazwe njengoba uthola isikhathi sokuzibuyekeza; akudingeki uqale wonke amakhadi ngesikhathi esisodwa.
 
 [Isethi yamahhala yamakhadi ezifinyezo zezifundazwe zase-US](/zu/catalog/packages/us-state-abbreviations-flashcards/) inamakhadi **angu-100 abhalwe ngesiNgisi**: ikhadi elilodwa lokusuka esifundazweni uye kukhodi nelilodwa lokusuka kukhodi uye esifundazweni ngesifundazwe ngasinye kulezi ezingu-50. Iyinsiza yokufunda ezimele, engeyona esemthethweni. Ayihlanganisi amabalazwe, izinhloko-dolobha, i-DC, izindawo ezingaphansi kwe-US noma ama-ZIP Code.
 

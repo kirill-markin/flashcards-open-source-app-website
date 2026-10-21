@@ -15,6 +15,8 @@ Alaska er AK, Alabama er AL og Arkansas er AR. Fyrstu tveir stafirnir í heiti f
 
 Til að fletta upp finnurðu fylkið í töflunni hér fyrir neðan, sem er í stafrófsröð eftir ensku heitunum. Til að æfa þig skaltu hylja kóðadálkinn og reyna að nefna hvern kóða. Hyldu svo heitadálkinn og reyndu að nefna fylkin. Að þekkja par þegar þú sérð það á síðu og að kalla það fram úr minni eru ólík verkefni.
 
+Ókeypis [kortasafnið með skammstöfunum fylkja Bandaríkjanna](/is/catalog/packages/us-state-abbreviations-flashcards/) býður upp á **100 kort á ensku** til að æfa frá fylkisheiti yfir í kóða og öfugt. Reyndu að rifja hvert svar upp áður en þú athugar það og komdu reglulega aftur til upprifjunar með hléum á milli, svo pörin haldist lengur í minni. Heildartaflan og svörin við prófinu eru hér að neðan.
+
 ## Skammstafanir allra 50 fylkja Bandaríkjanna
 
 Þetta eru tveggja stafa kóðarnir í [USPS Publication 28, viðauka B](https://pe.usps.com/text/pub28/28apb.htm), sem voru yfirfarnir 16. september 2026. Skrifaðu hvern kóða með tveimur hástöfum, án punkta. Ensku fylkjaheitin fylgja íslenskum heitum þar sem þau eru önnur. Allar vísbendingar um stafi hér í greininni vísa til ensku stafsetningarinnar.
@@ -128,7 +130,7 @@ Landafræðiverkefni getur reynt á ólíka færni. Lagaðu æfingarnar að spur
 | Frá kóða til fylkis | Hvaða fylki notar MN? | Minnesota |
 | Staðsetning á korti | Nefndu fylki sem er auðkennt á ómerktu korti | Heiti fylkisins |
 
-Taflan gefur svörin við fyrstu tveimur verkefnunum. Fyrir kortapróf skaltu nota ómerkt kort með svarlykli og æfa þig í að þekkja fylkin af staðsetningu þeirra. Höfuðborgir fylkjanna þurfa líka sínar eigin spurningar, svo sem „Hver er höfuðborg Minnesota?“ Haltu þeim kortum aðskildum frá spurningum um skammstafanir svo hvert svar sýni hvaða staðreynd þú mundir.
+Taflan gefur svörin við fyrstu tveimur verkefnunum. Fyrir kortapróf skaltu nota ómerkt kort með svarlykli og æfa þig í að þekkja fylkin af staðsetningu þeirra. Höfuðborgir fylkjanna þurfa líka sínar eigin spurningar, svo sem „Hver er höfuðborg Minnesota?“ Haltu þeim kortum aðskildum frá spurningum um skammstafanir svo hvert svar sýni hvaða staðreynd þú mundir. Sérstaka [kortasafnið um fylki Bandaríkjanna og höfuðborgir þeirra](/is/catalog/packages/us-states-and-capitals/) hefur kort á ensku fyrir það verkefni.
 
 ## Stutt próf í skammstöfunum fylkjanna
 
@@ -173,7 +175,7 @@ Búðu til tvö lítil námskort fyrir hvert par sem þú mundir ekki rétt eða
 
 Ef þú ruglaðir MO saman við MS skaltu líka bæta við tveimur kortum fyrir Mississippi. Hafðu eitt svar á hverju korti og láttu aðrar spurningar koma á milli korta sem spyrja í gagnstæða átt, svo þú svarir ekki út frá kortinu sem þú sást rétt áðan. [Leiðbeiningarnar okkar um að búa til betri námskort](/blog/how-to-make-better-flashcards/) fjalla um hvernig halda má spurningum afmörkuðum.
 
-Í næstu upprifjun skaltu svara áður en þú skoðar bakhliðina og skrá mistökin eins og þau eru. Farðu aftur yfir þessi kort í síðari námslotu til að athuga hvort svörin komi enn upp í hugann. Bættu við fleiri fylkjum eftir því sem þú hefur tíma til að rifja þau upp; þú þarft ekki að byrja á öllum kortunum í einni lotu.
+Regluleg upprifjun úr minni og endurtekning með hléum á milli hjálpa þér að muna pörin til lengri tíma. Í næstu upprifjun skaltu svara áður en þú skoðar bakhliðina og skrá mistökin eins og þau eru. Farðu aftur yfir þessi kort í síðari námslotu til að athuga hvort svörin komi enn upp í hugann. Bættu við fleiri fylkjum eftir því sem þú hefur tíma til að rifja þau upp; þú þarft ekki að byrja á öllum kortunum í einni lotu.
 
 Ókeypis [námskortasafnið með skammstöfunum bandarískra fylkja](/is/catalog/packages/us-state-abbreviations-flashcards/) inniheldur **100 kort á ensku**: eitt kort frá fylki til kóða og eitt frá kóða til fylkis fyrir hvert fylkjanna 50. Þetta er sjálfstætt, óopinbert hjálpargagn til náms. Safnið inniheldur ekki landakort, höfuðborgir, DC, yfirráðasvæði eða ZIP-póstnúmer.
 

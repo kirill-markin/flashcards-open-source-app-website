@@ -15,6 +15,8 @@ Alaska ni AK, Alabama ni AL, na Arkansas ni AR. Herufi mbili za kwanza za jina l
 
 Ukitaka kutafuta kifupisho, tafuta jimbo kwenye jedwali lililopangwa kwa mpangilio wa alfabeti hapa chini. Ukitaka kujifunza, funika nguzo ya misimbo na ujaribu kukumbuka kila jibu, kisha funika nguzo ya majina badala yake. Kutambua jina na msimbo wake unapoviona kwenye ukurasa ni tofauti na kuvikumbuka bila kuviangalia.
 
+[Seti ya bure ya kadi za vifupisho vya majimbo ya Marekani](/sw/catalog/packages/us-state-abbreviations-flashcards/) ina **kadi 100 kwa Kiingereza** za kufanya mazoezi kutoka jina la jimbo kwenda kwenye msimbo na kutoka msimbo kwenda kwenye jina. Jaribu kukumbuka kila jibu kabla ya kulikagua, kisha rudi kupitia kadi mara kwa mara kwa vipindi vilivyotenganishwa ili kusaidia kukumbuka jozi hizo kwa muda mrefu. Jedwali kamili na majibu ya jaribio yako hapa chini.
+
 ## Vifupisho vya majimbo yote 50 ya Marekani
 
 Hii ndiyo misimbo ya herufi mbili iliyoorodheshwa katika [Chapisho la 28 la USPS, Kiambatisho B](https://pe.usps.com/text/pub28/28apb.htm), iliyohakikiwa tarehe 16 Septemba 2026. Andika kila msimbo kwa herufi mbili kubwa, bila nukta. Majina ya majimbo yamehifadhiwa kwa tahajia zao za Kiingereza; vidokezo vya herufi katika makala hii vinarejelea tahajia hizo.
@@ -128,7 +130,7 @@ Kazi ya jiografia inaweza kuhitaji ujuzi wa aina tofauti. Chagua mazoezi yanayol
 | Kutoka msimbo kwenda jimbo | Ni jimbo gani linalotumia MN? | Minnesota |
 | Mahali kwenye ramani | Tambua jimbo lililoangaziwa kwenye ramani isiyo na majina | Jina la jimbo |
 
-Jedwali linatoa majibu ya kazi mbili za kwanza. Kwa mtihani wa ramani, tumia ramani isiyo na majina pamoja na mwongozo wa majibu, na ufanye mazoezi ya kutambua majimbo kwa mahali yalipo. Miji mikuu ya majimbo pia inahitaji maswali yake, kama vile “Mji mkuu wa Minnesota ni upi?” Weka kadi hizo kando na maswali ya vifupisho ili kila jibu lionyeshe ni taarifa gani uliyoikumbuka.
+Jedwali linatoa majibu ya kazi mbili za kwanza. Kwa mtihani wa ramani, tumia ramani isiyo na majina pamoja na mwongozo wa majibu, na ufanye mazoezi ya kutambua majimbo kwa mahali yalipo. Miji mikuu ya majimbo pia inahitaji maswali yake, kama vile “Mji mkuu wa Minnesota ni upi?” Weka kadi hizo kando na maswali ya vifupisho ili kila jibu lionyeshe ni taarifa gani uliyoikumbuka. [Seti tofauti ya majimbo ya Marekani na miji yake mikuu](/sw/catalog/packages/us-states-and-capitals/) ina kadi kwa Kiingereza kwa kazi hiyo.
 
 ## Jaribio fupi la vifupisho vya majimbo
 
@@ -173,7 +175,7 @@ Kwa kila jozi ya jina na msimbo uliyoikosea au ambayo hukuwa na uhakika nayo, te
 
 Ikiwa ulichanganya MO na MS, ongeza pia kadi mbili za Mississippi. Weka jibu moja kwa kila kadi, na utenganishe kadi za maswali yaliyogeuzwa kwa kuweka maswali mengine katikati, ili usijibu kwa kutegemea kadi uliyotoka kuona. [Mwongozo wetu wa kuandika kadi bora za kujifunzia](/blog/how-to-make-better-flashcards/) unaeleza jinsi ya kufanya maswali yawe mahususi.
 
-Unapopitia kadi tena, jibu kabla ya kufunua upande wa nyuma na uandike makosa yako kwa uaminifu. Zirudie kadi hizo katika kipindi kingine baadaye ili kuona kama bado unakumbuka majibu. Ongeza majimbo mengine kadiri unavyopata muda wa kuyapitia; huhitaji kuanza na kadi zote kwa kikao kimoja.
+Kukumbuka majibu mara kwa mara na kurudia kadi kwa vipindi vilivyotenganishwa husaidia kuhifadhi jozi hizo kwenye kumbukumbu kwa muda mrefu. Unapopitia kadi tena, jibu kabla ya kufunua upande wa nyuma na uandike makosa yako kwa uaminifu. Zirudie kadi hizo katika kipindi kingine baadaye ili kuona kama bado unakumbuka majibu. Ongeza majimbo mengine kadiri unavyopata muda wa kuyapitia; huhitaji kuanza na kadi zote kwa kikao kimoja.
 
 [Seti ya bure ya kadi za vifupisho vya majimbo ya Marekani](/sw/catalog/packages/us-state-abbreviations-flashcards/) ina **kadi 100 za Kiingereza**: kadi moja ya kutoka jimbo kwenda msimbo na kadi moja ya kutoka msimbo kwenda jimbo kwa kila jimbo kati ya majimbo 50. Ni nyenzo huru ya kujifunzia, isiyo rasmi. Haijumuishi ramani, miji mikuu, DC, maeneo yanayotawaliwa na Marekani, wala misimbo ya ZIP.
 
