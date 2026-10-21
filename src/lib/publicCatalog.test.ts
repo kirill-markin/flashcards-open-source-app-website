@@ -681,7 +681,7 @@ test("parses the schema and builds latest-version-only lookup data", () => {
   );
 });
 
-test("blog deck resources share latest-version study and preview destinations across HTML and Markdown locales", (context) => {
+test("blog deck resources share one localized public deck entry across HTML and Markdown locales", (context) => {
   const originalTrailingSlash = process.env.__NEXT_TRAILING_SLASH;
   context.after(() => {
     if (originalTrailingSlash === undefined) {
@@ -706,11 +706,9 @@ test("blog deck resources share latest-version study and preview destinations ac
     const resource = resolveBlogDeckResource("us-state-abbreviations", locale, model);
     const copy = getPublicCatalogUiCopy(locale);
     assert.ok(resource);
-    const studyUrl = new URL(resource.studyHref);
-    assert.equal(studyUrl.origin, "https://app.nibomo.com");
-    assert.equal(studyUrl.pathname, `/catalog/import/${fixtureLatestVersionId}`);
-    assert.equal(studyUrl.searchParams.get("locale"), locale);
-    assert.equal(resource.previewHref, getPublicCatalogPackageLocalizedPathname(locale, packageSlug));
+    assert.equal(resource.packageHref, getPublicCatalogPackageLocalizedPathname(locale, packageSlug));
+    assert.equal(resource.packageId, fixturePackageId);
+    assert.equal(resource.title, input.packageVersions[1].title);
     assert.equal(resource.cardCountLabel, formatPublicCatalogCardCount(locale, 2, copy));
     assert.ok(resource.languageLabel.includes("(en)"));
     assert.equal(resource.languageLabel.includes("(es)"), false);
@@ -718,14 +716,15 @@ test("blog deck resources share latest-version study and preview destinations ac
     const html = renderToStaticMarkup(createElement(BlogDeckCta, {
       className: "deck-cta",
       locale,
-      placement: "top",
       resource,
     }));
     const studyAnchor = html.match(/<a\b[^>]*data-testid="blog-deck-top-study"[^>]*>/)?.[0];
     assert.ok(studyAnchor);
-    assert.ok(studyAnchor.includes(`href="${resource.studyHref}"`));
-    assert.match(studyAnchor, /rel="nofollow"/);
-    assert.ok(html.includes(`href="${resource.previewHref}"`));
+    assert.ok(studyAnchor.includes(`href="${resource.packageHref}"`));
+    assert.equal((html.match(/<a\b/g) ?? []).length, 1);
+    assert.equal(html.includes("/catalog/import/"), false);
+    assert.equal(html.includes("blog-deck-top-preview"), false);
+    assert.ok(html.includes(resource.title));
 
     const pagePath = locale === "en"
       ? "blog/us-state-abbreviations"
@@ -735,13 +734,21 @@ test("blog deck resources share latest-version study and preview destinations ac
       publicCatalog: model,
     });
     assert.equal(document.status, 200);
-    const nodes = listMarkdownAstNodes(
-      remark().use(gfm).parse(document.markdown) as MarkdownAstNode,
-    );
+    const tree = remark().use(gfm).parse(document.markdown) as MarkdownAstNode;
+    const nodes = listMarkdownAstNodes(tree);
     const links = nodes.filter((node) => node.type === "link").map((node) => node.url);
-    assert.ok(links.includes(resource.studyHref));
-    assert.ok(links.includes(`https://nibomo.com${resource.previewHref}`));
-    assert.equal(document.markdown.includes(`/catalog/import/${fixtureOldVersionId}`), false);
+    const packageUrl = `https://nibomo.com${resource.packageHref}`;
+    assert.ok(links.includes(packageUrl));
+    assert.equal(document.markdown.includes("/catalog/import/"), false);
+    const earlyAction = tree.children?.[4];
+    assert.equal(earlyAction?.type, "paragraph");
+    assert.deepEqual(earlyAction?.children?.map((node) => node.url), [packageUrl]);
+    assert.equal(
+      nodes.filter((node) => node.type === "link" && node.children?.some(
+        (child) => child.type === "text" && child.value === copy.installLabel,
+      )).length,
+      1,
+    );
     assert.ok(nodes.some((node) => node.type === "text" && node.value?.includes("(en)")));
     const firstTable = nodes.find((node) => node.type === "table");
     assert.equal(firstTable?.children?.length, 51);
