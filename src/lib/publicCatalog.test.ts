@@ -1,9 +1,13 @@
 import assert from "node:assert/strict";
 import test from "node:test";
+import { createElement } from "react";
+import { renderToStaticMarkup } from "react-dom/server";
+import { BlogDeckCta } from "../components/BlogDeckCta";
 import { remark } from "remark";
 import gfm from "remark-gfm";
 import type { GlobalActivitySnapshot } from "./globalActivitySnapshot";
 import { SUPPORTED_LOCALES } from "./localeConfig";
+import { resolveBlogDeckResource } from "./blogDeckResource";
 import { parsePublicCatalogBuildConfiguration } from "./publicCatalogBuild";
 import { createPublicCatalogBrowseData } from "./publicCatalogBrowse";
 import {
@@ -674,6 +678,94 @@ test("parses the schema and builds latest-version-only lookup data", () => {
   assert.deepEqual(
     createPublicCatalogBrowseData(model, "de").languages,
     ["de", "en", "es"],
+  );
+});
+
+test("blog deck resources share latest-version study and preview destinations across HTML and Markdown locales", (context) => {
+  const originalTrailingSlash = process.env.__NEXT_TRAILING_SLASH;
+  context.after(() => {
+    if (originalTrailingSlash === undefined) {
+      delete process.env.__NEXT_TRAILING_SLASH;
+    } else {
+      process.env.__NEXT_TRAILING_SLASH = originalTrailingSlash;
+    }
+  });
+  // Standalone rendering does not load next.config.ts's trailingSlash setting.
+  process.env.__NEXT_TRAILING_SLASH = "true";
+
+  const input = createValidDump();
+  const packageSlug = "us-state-abbreviations-flashcards";
+  input.packages[0].slug = packageSlug;
+  input.packageVersions.forEach((version) => {
+    version.slug = packageSlug;
+  });
+  input.packageVersions[1].languageTags = ["en"];
+  const model = createPublicCatalogReadModel(parsePublicCatalogDump(input));
+
+  for (const locale of SUPPORTED_LOCALES) {
+    const resource = resolveBlogDeckResource("us-state-abbreviations", locale, model);
+    const copy = getPublicCatalogUiCopy(locale);
+    assert.ok(resource);
+    const studyUrl = new URL(resource.studyHref);
+    assert.equal(studyUrl.origin, "https://app.nibomo.com");
+    assert.equal(studyUrl.pathname, `/catalog/import/${fixtureLatestVersionId}`);
+    assert.equal(studyUrl.searchParams.get("locale"), locale);
+    assert.equal(resource.previewHref, getPublicCatalogPackageLocalizedPathname(locale, packageSlug));
+    assert.equal(resource.cardCountLabel, formatPublicCatalogCardCount(locale, 2, copy));
+    assert.ok(resource.languageLabel.includes("(en)"));
+    assert.equal(resource.languageLabel.includes("(es)"), false);
+
+    const html = renderToStaticMarkup(createElement(BlogDeckCta, {
+      className: "deck-cta",
+      locale,
+      placement: "top",
+      resource,
+    }));
+    const studyAnchor = html.match(/<a\b[^>]*data-testid="blog-deck-top-study"[^>]*>/)?.[0];
+    assert.ok(studyAnchor);
+    assert.ok(studyAnchor.includes(`href="${resource.studyHref}"`));
+    assert.match(studyAnchor, /rel="nofollow"/);
+    assert.ok(html.includes(`href="${resource.previewHref}"`));
+
+    const pagePath = locale === "en"
+      ? "blog/us-state-abbreviations"
+      : `${locale}/blog/us-state-abbreviations`;
+    const document = renderMarkdownDocument(pagePath, {
+      globalActivitySnapshot: emptyActivitySnapshot,
+      publicCatalog: model,
+    });
+    assert.equal(document.status, 200);
+    const nodes = listMarkdownAstNodes(
+      remark().use(gfm).parse(document.markdown) as MarkdownAstNode,
+    );
+    const links = nodes.filter((node) => node.type === "link").map((node) => node.url);
+    assert.ok(links.includes(resource.studyHref));
+    assert.ok(links.includes(`https://nibomo.com${resource.previewHref}`));
+    assert.equal(document.markdown.includes(`/catalog/import/${fixtureOldVersionId}`), false);
+    assert.ok(nodes.some((node) => node.type === "text" && node.value?.includes("(en)")));
+    const firstTable = nodes.find((node) => node.type === "table");
+    assert.equal(firstTable?.children?.length, 51);
+    assert.ok(nodes.some((node) => node.type === "list" && node.ordered === true && node.children?.length === 12));
+  }
+});
+
+test("blog deck association leaves other articles unchanged and reports a missing published deck", () => {
+  const model = createPublicCatalogReadModel(parsePublicCatalogDump(createValidDump()));
+  assert.equal(resolveBlogDeckResource("how-to-make-better-flashcards", "en", model), null);
+  assert.equal(resolveBlogDeckResource("us-state-abbreviations", "en", null), null);
+  assert.throws(
+    () => resolveBlogDeckResource("us-state-abbreviations", "en", model),
+    /published catalog package us-state-abbreviations-flashcards is missing/,
+  );
+  assert.equal(
+    renderMarkdownDocument("blog/how-to-make-better-flashcards", {
+      globalActivitySnapshot: emptyActivitySnapshot,
+      publicCatalog: model,
+    }).markdown,
+    renderMarkdownDocument("blog/how-to-make-better-flashcards", {
+      globalActivitySnapshot: emptyActivitySnapshot,
+      publicCatalog: null,
+    }).markdown,
   );
 });
 
