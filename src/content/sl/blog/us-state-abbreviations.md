@@ -15,6 +15,8 @@ Aljaska (Alaska) ima kodo AK, Alabama AL, Arkansas pa AR. Prvi dve črki angleš
 
 Če iščete kratico, poiščite zvezno državo v spodnji tabeli, urejeni po abecedi angleških imen. Za učenje prekrijte stolpec s kodami in poskusite priklicati vsak odgovor, nato pa prekrijte stolpec z imeni in vajo ponovite v obratni smeri. Prepoznati par na strani in ga priklicati iz spomina sta različni nalogi.
 
+Brezplačni [komplet kartic s kraticami zveznih držav ZDA](/sl/catalog/packages/us-state-abbreviations-flashcards/) ponuja **100 kartic v angleščini** za vajo od države do kode in obratno. Poskusite se spomniti vsakega odgovora, preden ga preverite, nato pa se redno vračajte k ponavljanju s časovnimi razmiki, da si pare zapomnite za dlje časa. Celotna tabela in odgovori na kviz so spodaj.
+
 ## Kratice vseh 50 ameriških zveznih držav
 
 To so dvočrkovne kode iz [publikacije USPS Publication 28, priloga B](https://pe.usps.com/text/pub28/28apb.htm), preverjene 16. septembra 2026. Vsako kodo pišemo z dvema velikima črkama, brez pik.
@@ -128,7 +130,7 @@ Naloga pri geografiji lahko preverja več različnih spretnosti. Vajo prilagodit
 | Iz kode v zvezno državo | Katera zvezna država uporablja MN? | Minnesota |
 | Lega na zemljevidu | Poimenujte označeno zvezno državo na nemem zemljevidu | Ime zvezne države |
 
-Tabela daje odgovore za prvi dve nalogi. Za preverjanje znanja z zemljevidom uporabite nemi zemljevid z rešitvami in vadite prepoznavanje zveznih držav po njihovi legi. Tudi glavna mesta zveznih držav potrebujejo svoja vprašanja, denimo: »Katero je glavno mesto Minnesote?« Te kartice ločite od vprašanj o kraticah, da vam vsak odgovor pove, kateri podatek ste si zapomnili.
+Tabela daje odgovore za prvi dve nalogi. Za preverjanje znanja z zemljevidom uporabite nemi zemljevid z rešitvami in vadite prepoznavanje zveznih držav po njihovi legi. Tudi glavna mesta zveznih držav potrebujejo svoja vprašanja, denimo: »Katero je glavno mesto Minnesote?« Te kartice ločite od vprašanj o kraticah, da vam vsak odgovor pove, kateri podatek ste si zapomnili. Ločeni [komplet zveznih držav ZDA in njihovih glavnih mest](/sl/catalog/packages/us-states-and-capitals/) vsebuje kartice v angleščini za to nalogo.
 
 ## Kratek kviz o kraticah zveznih držav
 
@@ -173,7 +175,7 @@ Za vsak par, pri katerem ste se zmotili ali niste bili prepričani, izdelajte dv
 
 Če ste MO zamenjali z MS, dodajte še dve kartici za Misisipi (Mississippi). Na vsaki kartici naj bo en odgovor, med kartici za nasprotni smeri pa vstavite druga vprašanja, da odgovora ne boste povzeli s kartice, ki ste jo pravkar videli. Naš [vodnik za izdelavo boljših učnih kartic](/blog/how-to-make-better-flashcards/) pojasnjuje, kako oblikovati dovolj natančna vprašanja.
 
-Pri naslednjem ponavljanju odgovorite, preden razkrijete hrbtno stran, in napake zabeležite pošteno. H karticam se vrnite ob poznejšem ponavljanju in preverite, ali vam odgovori še vedno pridejo na misel. Nove zvezne države dodajajte, ko imate čas za njihovo ponavljanje; vseh kartic vam ni treba vključiti v učenje naenkrat.
+Redno priklicevanje odgovorov iz spomina in ponavljanje s časovnimi razmiki pomagata, da si pare zapomnite dolgoročno. Pri naslednjem ponavljanju odgovorite, preden razkrijete hrbtno stran, in napake zabeležite pošteno. H karticam se vrnite ob poznejšem ponavljanju in preverite, ali vam odgovori še vedno pridejo na misel. Nove zvezne države dodajajte, ko imate čas za njihovo ponavljanje; vseh kartic vam ni treba vključiti v učenje naenkrat.
 
 Brezplačni [komplet učnih kartic s kraticami ameriških zveznih držav](/sl/catalog/packages/us-state-abbreviations-flashcards/) vsebuje **100 kartic v angleščini**: za vsako od 50 zveznih držav po eno kartico za priklic kode ob imenu države in eno za priklic imena države ob kodi. To je neodvisen, neuraden učni pripomoček. Ne vključuje zemljevidov, glavnih mest, DC, ozemelj ali poštnih številk ZIP.
 

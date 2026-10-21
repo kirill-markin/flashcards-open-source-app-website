@@ -15,6 +15,8 @@ Alaska is AK, Alabama is AL en Arkansas is AR. De eerste twee letters van de naa
 
 Wil je iets opzoeken, zoek de staat dan in de alfabetische tabel hieronder. Wil je oefenen, dek dan de kolom met codes af en probeer zelf elk antwoord te geven. Wissel daarna van kolom. Een combinatie op de pagina herkennen en die uit je geheugen ophalen zijn verschillende vaardigheden.
 
+De gratis [kaartenset met afkortingen van Amerikaanse staten](/nl/catalog/packages/us-state-abbreviations-flashcards/) biedt **100 Engelstalige kaarten** om van staat naar code en andersom te oefenen. Probeer elk antwoord te herinneren voordat je het controleert. Kom daarna regelmatig terug voor gespreide herhaling om de paren op de lange termijn te onthouden. De volledige tabel en de antwoorden op de quiz staan hieronder.
+
 ## De afkortingen van alle 50 Amerikaanse staten
 
 Dit zijn de tweelettercodes uit [USPS Publication 28, Appendix B](https://pe.usps.com/text/pub28/28apb.htm), gecontroleerd op 16 september 2026. Schrijf elke code met twee hoofdletters, zonder punten. De tabel volgt de alfabetische volgorde van de Engelse namen van de staten. De geheugensteuntjes met letters verderop verwijzen ook steeds naar de Engelse spelling.
@@ -128,7 +130,7 @@ Bij een aardrijkskundeopdracht kunnen verschillende vaardigheden aan bod komen. 
 | Van code naar staat | Welke staat gebruikt MN? | Minnesota |
 | Locatie op de kaart | Benoem een gemarkeerde staat op een blinde kaart | De naam van de staat |
 
-De tabel geeft de antwoorden voor de eerste twee taken. Gebruik voor een kaarttoets een blinde kaart met een antwoordenblad en oefen het herkennen van staten aan hun ligging. Hoofdsteden hebben ook eigen vragen nodig, zoals “Wat is de hoofdstad van Minnesota?” Houd die kaarten gescheiden van vragen over afkortingen, zodat elk antwoord laat zien welk feit je hebt onthouden.
+De tabel geeft de antwoorden voor de eerste twee taken. Gebruik voor een kaarttoets een blinde kaart met een antwoordenblad en oefen het herkennen van staten aan hun ligging. Hoofdsteden hebben ook eigen vragen nodig, zoals “Wat is de hoofdstad van Minnesota?” Houd die kaarten gescheiden van vragen over afkortingen, zodat elk antwoord laat zien welk feit je hebt onthouden. De aparte [kaartenset met Amerikaanse staten en hun hoofdsteden](/nl/catalog/packages/us-states-and-capitals/) bevat daarvoor Engelstalige kaarten.
 
 ## Een korte quiz over de afkortingen
 
@@ -173,7 +175,7 @@ Maak voor elke combinatie die je fout had of waarover je twijfelde twee korte le
 
 Haalde je MO en MS door elkaar, voeg dan ook twee kaarten voor Mississippi toe. Houd het bij één antwoord per kaart en zet andere vragen tussen de twee richtingen. Zo geef je het antwoord niet op basis van de kaart die je net zag. Onze [gids voor betere leerkaarten](/blog/how-to-make-better-flashcards/) legt uit hoe je vragen concreet houdt.
 
-Geef bij de volgende herhaling antwoord voordat je de achterkant bekijkt en noteer je fouten eerlijk. Kom in een latere sessie op die kaarten terug om te zien of je de antwoorden nog kunt oproepen. Voeg meer staten toe als je tijd hebt om ze te herhalen. Je hoeft niet alle kaarten in één keer toe te voegen.
+Regelmatig antwoorden uit je geheugen ophalen en gespreid herhalen helpt je de paren op de lange termijn te onthouden. Geef bij de volgende herhaling antwoord voordat je de achterkant bekijkt en noteer je fouten eerlijk. Kom in een latere sessie op die kaarten terug om te zien of je de antwoorden nog kunt oproepen. Voeg meer staten toe als je tijd hebt om ze te herhalen. Je hoeft niet alle kaarten in één keer toe te voegen.
 
 De gratis [kaartenset met afkortingen van Amerikaanse staten](/nl/catalog/packages/us-state-abbreviations-flashcards/) bevat **100 Engelstalige leerkaarten**: voor elk van de 50 staten één kaart van staat naar code en één van code naar staat. Het is een onafhankelijk, onofficieel leermiddel. De set bevat geen landkaarten, hoofdsteden, DC, territoria of ZIP Codes.
 

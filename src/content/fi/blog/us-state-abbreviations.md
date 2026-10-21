@@ -15,6 +15,8 @@ Alaskan lyhenne on AK, Alabaman AL ja Arkansasin AR. Osavaltion nimen kaksi ensi
 
 Jos etsit tiettyä lyhennettä, etsi osavaltio alla olevasta taulukosta. Osavaltiot ovat siinä englanninkielisten nimiensä mukaisessa aakkosjärjestyksessä. Kun opiskelet, peitä tunnussarake ja yritä muistaa vastaukset itse. Vaihda sitten peitettävää saraketta. Parin tunnistaminen sivulta ja sen palauttaminen mieleen ovat eri tehtäviä.
 
+Ilmainen [Yhdysvaltain osavaltioiden lyhenteiden korttipakka](/fi/catalog/packages/us-state-abbreviations-flashcards/) tarjoaa **100 englanninkielistä korttia**, joilla voit harjoitella osavaltiosta lyhenteeseen ja toisin päin. Yritä muistaa vastaus ennen sen tarkistamista ja palaa säännölliseen, ajallisesti hajautettuun kertaukseen, joka auttaa pitämään parit mielessä pitkään. Koko taulukko ja tietovisan vastaukset ovat alempana.
+
 ## Kaikkien 50 osavaltion lyhenteet
 
 Nämä kaksikirjaimiset tunnukset ovat peräisin [USPS:n julkaisun 28 liitteestä B](https://pe.usps.com/text/pub28/28apb.htm). Ne on tarkistettu 16. syyskuuta 2026. Kirjoita tunnukset kahdella isolla kirjaimella ilman pisteitä.
@@ -128,7 +130,7 @@ Maantiedon tehtävässä voidaan testata useita eri taitoja. Harjoittele sen muk
 | Tunnuksesta osavaltioon | Minkä osavaltion tunnus on MN? | Minnesota |
 | Sijainti kartalla | Nimeä nimettömältä kartalta korostettu osavaltio | Osavaltion nimi |
 
-Taulukosta saat vastaukset kahteen ensimmäiseen tehtävään. Karttakoetta varten tarvitset nimettömän kartan ja vastauskartan, joiden avulla voit harjoitella osavaltioiden tunnistamista sijainnin perusteella. Harjoittele myös osavaltioiden pääkaupunkeja omilla kysymyksillään, kuten ”Mikä on Minnesotan pääkaupunki?” Pidä nämä kortit erillään lyhennekysymyksistä, jotta jokainen vastaus kertoo, minkä tiedon muistit.
+Taulukosta saat vastaukset kahteen ensimmäiseen tehtävään. Karttakoetta varten tarvitset nimettömän kartan ja vastauskartan, joiden avulla voit harjoitella osavaltioiden tunnistamista sijainnin perusteella. Harjoittele myös osavaltioiden pääkaupunkeja omilla kysymyksillään, kuten ”Mikä on Minnesotan pääkaupunki?” Pidä nämä kortit erillään lyhennekysymyksistä, jotta jokainen vastaus kertoo, minkä tiedon muistit. Erillisessä [Yhdysvaltain osavaltioiden ja pääkaupunkien korttipakassa](/fi/catalog/packages/us-states-and-capitals/) on tähän tehtävään englanninkielisiä kortteja.
 
 ## Lyhyt visa osavaltioiden lyhenteistä
 
@@ -173,7 +175,7 @@ Tee jokaisesta väärin menneestä tai epävarmasta parista kaksi lyhyttä kysym
 
 Jos sekoitit MO:n ja MS:n, lisää myös kaksi Mississippi-korttia. Pidä kullakin kortilla vain yksi vastaus ja sijoita käänteisten korttien väliin muita kysymyksiä. Silloin et vastaa juuri näkemäsi kortin perusteella. [Oppaamme parempien kertauskorttien tekemiseen](/blog/how-to-make-better-flashcards/) kertoo, miten pidät kysymykset täsmällisinä.
 
-Vastaa seuraavalla kertauskerralla ennen kääntöpuolen paljastamista ja kirjaa virheet rehellisesti. Palaa kortteihin myöhemmällä kerralla ja katso, tulevatko vastaukset yhä mieleen. Lisää osavaltioita sitä mukaa kuin ehdit kerrata niitä. Kaikkia kortteja ei tarvitse ottaa käyttöön yhdellä kertaa.
+Säännöllinen mieleen palauttaminen ja ajallisesti hajautettu kertaus auttavat muistamaan parit pitkällä aikavälillä. Vastaa seuraavalla kertauskerralla ennen kääntöpuolen paljastamista ja kirjaa virheet rehellisesti. Palaa kortteihin myöhemmällä kerralla ja katso, tulevatko vastaukset yhä mieleen. Lisää osavaltioita sitä mukaa kuin ehdit kerrata niitä. Kaikkia kortteja ei tarvitse ottaa käyttöön yhdellä kertaa.
 
 Maksuttomassa [Yhdysvaltain osavaltioiden lyhenteiden korttipakassa](/fi/catalog/packages/us-state-abbreviations-flashcards/) on **100 englanninkielistä kertauskorttia**: kustakin 50 osavaltiosta yksi kortti, jossa kysytään nimen perusteella tunnusta, ja toinen, jossa kysytään tunnuksen perusteella nimeä. Pakka on itsenäinen, epävirallinen opiskeluväline. Siinä ei ole karttoja, pääkaupunkeja, DC:tä, territorioita eikä ZIP-postinumeroita.
 

@@ -15,6 +15,8 @@ Alaska es AK, Alabama es AL y Arkansas es AR. Las dos primeras letras del nombre
 
 Para consultar un código, busca el estado en la tabla alfabética de abajo. Para estudiar, tapa la columna de códigos e intenta responder; después cambia de columna. Reconocer una pareja en la página y recordarla sin ayuda son tareas distintas. Conservamos los nombres de los estados en inglés para que coincidan con las direcciones postales y las pistas basadas en sus letras.
 
+El [mazo gratuito de abreviaturas de los estados de EE. UU.](/es/catalog/packages/us-state-abbreviations-flashcards/) ofrece **100 tarjetas en inglés** para practicar del estado al código y al revés. Intenta recordar cada respuesta antes de comprobarla y vuelve a repasarlas con regularidad, dejando tiempo entre sesiones, para retener las parejas a largo plazo. La tabla completa y las respuestas del cuestionario están más abajo.
+
 ## Las abreviaturas de los 50 estados de EE. UU.
 
 Estos son los códigos de dos letras que aparecen en la [Publicación 28 de USPS, apéndice B](https://pe.usps.com/text/pub28/28apb.htm), consultada el 16 de septiembre de 2026. Escribe cada código con dos letras mayúsculas, sin puntos.
@@ -128,7 +130,7 @@ Un ejercicio de geografía puede poner a prueba habilidades distintas. Adapta la
 | Del código al estado | ¿Qué estado utiliza MN? | Minnesota |
 | Ubicación en el mapa | Identifica un estado resaltado en un mapa mudo | El nombre del estado |
 
-La tabla ofrece las respuestas para las dos primeras tareas. Para un examen de ubicación en el mapa, utiliza un mapa mudo con sus soluciones y practica la identificación de los estados por su ubicación. Las capitales también necesitan preguntas propias, como «¿Cuál es la capital de Minnesota?». Separa esas tarjetas de las preguntas sobre abreviaturas para que cada respuesta indique qué dato has recordado.
+La tabla ofrece las respuestas para las dos primeras tareas. Para un examen de ubicación en el mapa, utiliza un mapa mudo con sus soluciones y practica la identificación de los estados por su ubicación. Las capitales también necesitan preguntas propias, como «¿Cuál es la capital de Minnesota?». Separa esas tarjetas de las preguntas sobre abreviaturas para que cada respuesta indique qué dato has recordado. El [mazo de estados de EE. UU. y sus capitales](/es/catalog/packages/us-states-and-capitals/) es independiente y tiene tarjetas en inglés para esa tarea.
 
 ## Un breve cuestionario de abreviaturas
 
@@ -173,7 +175,7 @@ Por cada pareja que no hayas recordado o que te haya hecho dudar, crea dos tarje
 
 Si confundiste MO con MS, añade también las dos tarjetas de Mississippi. Mantén una sola respuesta por tarjeta e intercala otras preguntas entre una tarjeta y su inversa para no responder basándote en la que acabas de ver.
 
-En el siguiente repaso, responde antes de mostrar el reverso y registra los errores con sinceridad. Vuelve a esas tarjetas en otra sesión para comprobar si aún recuerdas las respuestas. Añade más estados a medida que tengas tiempo para repasarlos; no hace falta introducir todas las tarjetas de una vez.
+Recordar las respuestas sin mirar y repasarlas con regularidad, dejando tiempo entre sesiones, ayuda a retener las parejas a largo plazo. En el siguiente repaso, responde antes de mostrar el reverso y registra los errores con sinceridad. Vuelve a esas tarjetas en otra sesión para comprobar si aún recuerdas las respuestas. Añade más estados a medida que tengas tiempo para repasarlos; no hace falta introducir todas las tarjetas de una vez.
 
 El [mazo gratuito de abreviaturas de los estados de EE. UU.](/es/catalog/packages/us-state-abbreviations-flashcards/) contiene **100 tarjetas en inglés**: una del estado al código y otra del código al estado por cada uno de los 50 estados. Es un recurso de estudio independiente y no oficial. No incluye mapas, capitales, DC, territorios ni códigos ZIP.
 

@@ -15,6 +15,8 @@ Alaska disingkat AK, Alabama AL, dan Arkansas AR. Dua huruf pertama nama negara 
 
 Untuk mencari kode, temukan nama negara bagiannya dalam tabel yang disusun menurut abjad di bawah. Untuk belajar, tutup kolom kode dan coba sebutkan kodenya satu per satu, lalu bergantian tutup kolom nama negara bagian. Mengenali pasangan yang tertulis di halaman dan mengingatnya tanpa melihat jawaban adalah dua hal yang berbeda.
 
+[Set kartu singkatan negara bagian AS](/id/catalog/packages/us-state-abbreviations-flashcards/) gratis menyediakan **100 kartu berbahasa Inggris** untuk berlatih dari nama negara bagian ke kode dan sebaliknya. Cobalah mengingat setiap jawaban sebelum memeriksanya, lalu kembali mengulang secara teratur dengan jeda antarsesi agar pasangan nama dan kode lebih lama melekat dalam ingatan. Tabel lengkap dan jawaban kuis ada di bawah.
+
 ## Singkatan seluruh 50 negara bagian AS
 
 Berikut kode dua huruf yang tercantum dalam [USPS Publication 28, Appendix B](https://pe.usps.com/text/pub28/28apb.htm), yang diperiksa pada 16 September 2026. Tulis setiap kode dengan dua huruf kapital, tanpa titik. Nama dalam bahasa Inggris tetap dicantumkan; urutan tabel mengikuti nama-nama tersebut.
@@ -128,7 +130,7 @@ Tugas geografi bisa menguji beberapa keterampilan yang berbeda. Sesuaikan latiha
 | Kode ke negara bagian | Negara bagian apa yang menggunakan MN? | Minnesota |
 | Lokasi di peta | Sebutkan negara bagian yang disorot pada peta tanpa label | Nama negara bagian tersebut |
 
-Tabel di atas menyediakan jawaban untuk dua tugas pertama. Untuk ujian peta, gunakan peta tanpa label beserta kunci jawabannya, lalu berlatihlah mengenali negara bagian berdasarkan lokasinya. Ibu kota negara bagian juga perlu pertanyaan tersendiri, misalnya “Apa ibu kota Minnesota?” Pisahkan kartu-kartu itu dari pertanyaan singkatan agar setiap jawaban menunjukkan fakta mana yang Anda ingat.
+Tabel di atas menyediakan jawaban untuk dua tugas pertama. Untuk ujian peta, gunakan peta tanpa label beserta kunci jawabannya, lalu berlatihlah mengenali negara bagian berdasarkan lokasinya. Ibu kota negara bagian juga perlu pertanyaan tersendiri, misalnya “Apa ibu kota Minnesota?” Pisahkan kartu-kartu itu dari pertanyaan singkatan agar setiap jawaban menunjukkan fakta mana yang Anda ingat. [Set negara bagian AS dan ibu kotanya](/id/catalog/packages/us-states-and-capitals/) yang terpisah menyediakan kartu berbahasa Inggris untuk tugas itu.
 
 ## Kuis singkat tentang singkatan negara bagian
 
@@ -173,7 +175,7 @@ Untuk setiap pasangan yang Anda jawab salah atau belum Anda kuasai dengan yakin,
 
 Jika Anda menukar MO dengan MS, tambahkan juga dua kartu untuk Mississippi. Batasi setiap kartu pada satu jawaban, dan selingi kartu arah sebaliknya dengan pertanyaan lain agar Anda tidak sekadar menjawab berdasarkan kartu yang baru saja dilihat. [Panduan kami untuk membuat kartu belajar yang lebih baik](/blog/how-to-make-better-flashcards/) membahas cara membuat pertanyaan yang spesifik.
 
-Pada sesi latihan berikutnya, jawab sebelum membuka sisi belakang dan catat kesalahan dengan jujur. Pelajari kembali kartu-kartu itu pada sesi berikutnya untuk memeriksa apakah jawabannya masih bisa Anda ingat. Tambahkan negara bagian lain sesuai waktu yang tersedia untuk mengulang materi; Anda tidak perlu mempelajari semua kartu baru dalam satu sesi.
+Mengingat jawaban secara rutin dan mengulangnya dengan jeda antarsesi membantu Anda menyimpan pasangan nama dan kode dalam ingatan jangka panjang. Pada sesi latihan berikutnya, jawab sebelum membuka sisi belakang dan catat kesalahan dengan jujur. Pelajari kembali kartu-kartu itu pada sesi berikutnya untuk memeriksa apakah jawabannya masih bisa Anda ingat. Tambahkan negara bagian lain sesuai waktu yang tersedia untuk mengulang materi; Anda tidak perlu mempelajari semua kartu baru dalam satu sesi.
 
 [Paket kartu singkatan negara bagian AS](/id/catalog/packages/us-state-abbreviations-flashcards/) yang gratis berisi **100 kartu berbahasa Inggris**: satu kartu negara bagian ke kode dan satu kartu kode ke negara bagian untuk masing-masing dari 50 negara bagian. Paket ini merupakan alat bantu belajar independen dan tidak resmi. Isinya tidak mencakup peta, ibu kota, DC, wilayah teritori, atau ZIP Code.
 

@@ -15,6 +15,8 @@ Alaska'nın kodu AK, Alabama'nın AL, Arkansas'ın ise AR. Bir eyaletin adının
 
 Bir kodu bulmak için aşağıdaki tabloda eyaleti arayın. Tablo, eyaletlerin İngilizce adlarına göre alfabetik sıralanmıştır. Çalışırken kod sütununu kapatıp her cevabı hatırlamaya çalışın, ardından diğer sütunu kapatın. Sayfada bir ad-kod eşleşmesini tanımakla onu ezberden söylemek farklı becerilerdir.
 
+Ücretsiz [ABD eyalet kısaltmaları destesi](/tr/catalog/packages/us-state-abbreviations-flashcards/), eyaletten koda ve koddan eyalete çalışmak için **İngilizce 100 kart** sunar. Her cevabı kontrol etmeden önce hatırlamaya çalışın, sonra eşleşmeleri uzun süre aklınızda tutabilmek için düzenli aralıklı tekrara dönün. Tam tablo ve testin cevapları aşağıda bulunuyor.
+
 ## ABD'nin 50 eyalet kısaltmasının tamamı
 
 Bunlar, [USPS Publication 28, Ek B'de](https://pe.usps.com/text/pub28/28apb.htm) yer alan ve 16 Eylül 2026'da kontrol edilen iki harfli kodlardır. Her kodu nokta kullanmadan, iki büyük Latin harfiyle yazın. Türkçede farklı kullanılan eyalet adlarının yanında İngilizce yazılışları da verilmiştir. Aşağıdaki harf ipuçlarının tamamı İngilizce yazılışlara dayanır.
@@ -128,7 +130,7 @@ Bir coğrafya ödevi birkaç farklı beceriyi ölçebilir. Alıştırmalarınız
 | Koddan eyalete | MN kodunu hangi eyalet kullanır? | Minnesota |
 | Haritadaki konum | Boş bir haritada işaretlenmiş eyaleti belirleyin | Eyaletin adı |
 
-Tablo, ilk iki görev için gereken cevapları içerir. Harita sınavına hazırlanıyorsanız cevap anahtarı olan boş bir harita kullanın ve eyaletleri konumlarından tanıma alıştırması yapın. Eyalet başkentleri için de “Minnesota'nın başkenti nedir?” gibi ayrı sorular gerekir. Bu kartları kısaltma sorularından ayrı tutun; böylece her cevap, hangi bilgiyi hatırladığınızı gösterir.
+Tablo, ilk iki görev için gereken cevapları içerir. Harita sınavına hazırlanıyorsanız cevap anahtarı olan boş bir harita kullanın ve eyaletleri konumlarından tanıma alıştırması yapın. Eyalet başkentleri için de “Minnesota'nın başkenti nedir?” gibi ayrı sorular gerekir. Bu kartları kısaltma sorularından ayrı tutun; böylece her cevap, hangi bilgiyi hatırladığınızı gösterir. Ayrı bir [ABD eyaletleri ve başkentleri destesinde](/tr/catalog/packages/us-states-and-capitals/) bu görev için İngilizce kartlar bulunur.
 
 ## Kısa bir eyalet kısaltmaları testi
 
@@ -173,7 +175,7 @@ Yanlış cevapladığınız veya emin olamadığınız her eşleşme için iki k
 
 MO ile MS'yi karıştırdıysanız Mississippi için de iki kart ekleyin. Her kartta tek bir cevap olsun. Ters yöndeki kartların arasına başka sorular koyun; böylece az önce gördüğünüz karttan yararlanarak cevap vermezsiniz. [Daha iyi çalışma kartları hazırlama rehberimiz](/blog/how-to-make-better-flashcards/), soruları nasıl net tutabileceğinizi anlatır.
 
-Bir sonraki tekrarda arka yüzü açmadan önce cevap verin ve hataları dürüstçe kaydedin. Cevapları hâlâ hatırlayıp hatırlamadığınızı görmek için bu kartlara daha sonraki bir çalışma oturumunda dönün. Tekrar etmeye zaman ayırabildikçe yeni eyaletler ekleyin; bütün kartlarla aynı oturumda çalışmaya başlamanız gerekmez.
+Cevapları düzenli olarak hatırlamaya çalışmak ve aralıklı tekrar yapmak, eşleşmeleri uzun vadede akılda tutmaya yardımcı olur. Bir sonraki tekrarda arka yüzü açmadan önce cevap verin ve hataları dürüstçe kaydedin. Cevapları hâlâ hatırlayıp hatırlamadığınızı görmek için bu kartlara daha sonraki bir çalışma oturumunda dönün. Tekrar etmeye zaman ayırabildikçe yeni eyaletler ekleyin; bütün kartlarla aynı oturumda çalışmaya başlamanız gerekmez.
 
 Ücretsiz [ABD eyalet kısaltmaları destesinde](/tr/catalog/packages/us-state-abbreviations-flashcards/) **İngilizce 100 kart** bulunur: 50 eyaletin her biri için eyaletten koda bir kart ve koddan eyalete bir kart. Bu, bağımsız ve resmî olmayan bir çalışma aracıdır. Haritaları, başkentleri, DC'yi, ABD'ye bağlı bölgeleri veya ZIP Code'ları içermez.
 

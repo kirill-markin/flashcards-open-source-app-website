@@ -15,6 +15,8 @@ Aļaskas (Alaska) kods ir AK, Alabamas (Alabama) — AL, bet Arkanzasas (Arkansa
 
 Ja vajadzīga uzziņa, atrodi štatu zemāk redzamajā tabulā, kas sakārtota pēc angļu nosaukumiem alfabēta secībā. Ja mācies, aizsedz kodu sleju un mēģini nosaukt katru atbildi, pēc tam aizsedz štatu nosaukumus un mēģini tos nosaukt pēc kodiem. Atpazīt pāri lapā un atsaukt to atmiņā ir divi dažādi uzdevumi.
 
+Bezmaksas [ASV štatu saīsinājumu kartīšu komplektā](/lv/catalog/packages/us-state-abbreviations-flashcards/) ir **100 kartīšu angļu valodā**, ar kurām vari trenēties no štata nosaukuma uz kodu un otrādi. Pirms atbildes pārbaudes mēģini to atcerēties un pēc tam regulāri atkārto ar laika atstarpēm, lai pāri ilgāk paliktu atmiņā. Pilnā tabula un viktorīnas atbildes ir zemāk.
+
 ## Visu 50 ASV štatu saīsinājumi
 
 Šie divu burtu kodi ir norādīti [USPS izdevuma Publication 28 B pielikumā](https://pe.usps.com/text/pub28/28apb.htm) un pārbaudīti 2026. gada 16. septembrī. Katru kodu raksti ar diviem lielajiem burtiem bez punktiem.
@@ -128,7 +130,7 @@ Aidaho (Idaho) kods ir ID, Ilinoisas (Illinois) — IL, bet Indiānas (Indiana) 
 | No koda uz štatu | Kuram štatam lieto MN? | Minesota (Minnesota) |
 | Atrašanās vieta kartē | Nosauc kontūrkartē izcelto štatu | Štata nosaukums |
 
-Tabulā ir atbildes pirmajiem diviem uzdevumiem. Ja būs pārbaudījums ar karti, izmanto kontūrkarti ar atbilžu lapu un vingrinies atpazīt štatus pēc to atrašanās vietas. Arī štatu galvaspilsētām vajadzīgi atsevišķi jautājumi, piemēram, «Kāda ir Minesotas galvaspilsēta?» Šīs kartītes turi atsevišķi no jautājumiem par saīsinājumiem, lai katra atbilde parādītu, kuru faktu atceries.
+Tabulā ir atbildes pirmajiem diviem uzdevumiem. Ja būs pārbaudījums ar karti, izmanto kontūrkarti ar atbilžu lapu un vingrinies atpazīt štatus pēc to atrašanās vietas. Arī štatu galvaspilsētām vajadzīgi atsevišķi jautājumi, piemēram, «Kāda ir Minesotas galvaspilsēta?» Šīs kartītes turi atsevišķi no jautājumiem par saīsinājumiem, lai katra atbilde parādītu, kuru faktu atceries. Šim uzdevumam atsevišķajā [ASV štatu un to galvaspilsētu komplektā](/lv/catalog/packages/us-states-and-capitals/) ir kartītes angļu valodā.
 
 ## Īss štatu saīsinājumu tests
 
@@ -173,7 +175,7 @@ Katram pārim, kurā kļūdījies vai šaubījies, izveido divas nelielas mācī
 
 Ja sajauci MO ar MS, pievieno arī divas Misisipi kartītes. Katrā kartītē atstāj vienu atbildi un starp pretējo virzienu kartītēm ievieto citus jautājumus, lai neatbildētu pēc tikko redzētās kartītes. Mūsu [ceļvedī par labāku mācību kartīšu veidošanu](/blog/how-to-make-better-flashcards/) ir aprakstīts, kā formulēt konkrētus jautājumus.
 
-Nākamajā atkārtošanas reizē atbildi, pirms atklāj kartītes aizmuguri, un godīgi atzīmē kļūdas. Atgriezies pie šīm kartītēm kādā no nākamajām mācīšanās reizēm, lai pārbaudītu, vai atbildes joprojām nāk prātā. Pievieno citus štatus, kad tev ir laiks tos atkārtot; nav jāsāk mācīties visas kartītes vienā piegājienā.
+Regulāra atbilžu atsaukšana atmiņā un atkārtošana ar laika atstarpēm palīdz pārus atcerēties ilgtermiņā. Nākamajā atkārtošanas reizē atbildi, pirms atklāj kartītes aizmuguri, un godīgi atzīmē kļūdas. Atgriezies pie šīm kartītēm kādā no nākamajām mācīšanās reizēm, lai pārbaudītu, vai atbildes joprojām nāk prātā. Pievieno citus štatus, kad tev ir laiks tos atkārtot; nav jāsāk mācīties visas kartītes vienā piegājienā.
 
 Bezmaksas [ASV štatu saīsinājumu komplektā](/lv/catalog/packages/us-state-abbreviations-flashcards/) ir **100 kartītes angļu valodā**: katram no 50 štatiem viena kartīte virzienā no štata uz kodu un viena virzienā no koda uz štatu. Tas ir neatkarīgs, neoficiāls mācību palīglīdzeklis. Tajā nav karšu, galvaspilsētu, DC, teritoriju vai ZIP indeksu.
 

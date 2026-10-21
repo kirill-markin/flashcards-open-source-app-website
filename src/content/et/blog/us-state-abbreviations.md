@@ -15,6 +15,8 @@ Alaska lühend on AK, Alabama lühend AL ja Arkansase lühend AR. Osariigi nime 
 
 Lühendi leidmiseks otsi osariiki allolevast tabelist, mis on ingliskeelsete nimede järgi tähestikulises järjekorras. Õppimiseks kata koodide veerg kinni ja proovi iga vastus ise öelda, seejärel kata kinni hoopis nimede veerg. Nime ja koodi paari äratundmine lehel ja selle peast meenutamine on eri ülesanded.
 
+Tasuta [USA osariikide lühendite kaardipakk](/et/catalog/packages/us-state-abbreviations-flashcards/) pakub **100 ingliskeelset kaarti**, et harjutada nii osariigist koodini kui ka vastupidi. Püüa vastus enne kontrollimist ise meenutada ja tule korrapäraselt vahedega kordama, et paarid püsiksid kauem meeles. Täielik tabel ja viktoriini vastused on allpool.
+
 ## Kõigi 50 USA osariigi lühendid
 
 Need kahetähelised koodid pärinevad [USPS-i väljaande Publication 28 lisast B](https://pe.usps.com/text/pub28/28apb.htm) ja on kontrollitud 16. septembril 2026. Kirjuta iga kood kahe suurtähega, ilma punktideta. Kui osariigi eestikeelne nimi erineb ingliskeelsest, on ingliskeelne kuju sulgudes.
@@ -128,7 +130,7 @@ Geograafiaülesanne võib nõuda mitut eri oskust. Harjuta seda, mida sinult teg
 | Koodist osariigini | Milline osariik kasutab koodi MN? | Minnesota |
 | Asukoht kaardil | Nimeta kontuurkaardil esile tõstetud osariik | Osariigi nimi |
 
-Tabel annab vastused kahele esimesele ülesandele. Kaarditesti jaoks kasuta kontuurkaarti koos õigete vastustega ja harjuta osariikide määramist asukoha järgi. Ka osariikide pealinnad vajavad omaette küsimusi, näiteks „Mis on Minnesota pealinn?“. Hoia need kaardid lühendiküsimustest eraldi, et iga vastus näitaks, milline fakt sulle meelde jäi.
+Tabel annab vastused kahele esimesele ülesandele. Kaarditesti jaoks kasuta kontuurkaarti koos õigete vastustega ja harjuta osariikide määramist asukoha järgi. Ka osariikide pealinnad vajavad omaette küsimusi, näiteks „Mis on Minnesota pealinn?“. Hoia need kaardid lühendiküsimustest eraldi, et iga vastus näitaks, milline fakt sulle meelde jäi. Eraldi [USA osariikide ja pealinnade kaardipakis](/et/catalog/packages/us-states-and-capitals/) on selle ülesande jaoks ingliskeelsed kaardid.
 
 ## Lühike osariikide lühendite test
 
@@ -173,7 +175,7 @@ Koosta iga paari kohta, mille puhul eksisid või kõhklesid, kaks väikest õpik
 
 Kui ajasid MO ja MS segi, lisa ka kaks Mississippi kaarti. Hoia igal kaardil üks vastus ning pane vastassuunas küsivate kaartide vahele muid küsimusi, et sa ei vastaks äsja nähtud kaardi põhjal. Meie [paremate õpikaartide koostamise juhend](/blog/how-to-make-better-flashcards/) selgitab, kuidas hoida küsimused konkreetsena.
 
-Järgmisel kordamisel vasta enne tagakülje avamist ja märgi vead ausalt üles. Tule nende kaartide juurde mõnel hilisemal õppimiskorral tagasi, et kontrollida, kas vastused meenuvad endiselt. Lisa uusi osariike sedamööda, kuidas sul on aega neid korrata. Kõiki kaarte ei pea ühe korraga kasutusele võtma.
+Vastuste korrapärane meenutamine ja vahedega kordamine aitavad paaridel pikemaks ajaks meelde jääda. Järgmisel kordamisel vasta enne tagakülje avamist ja märgi vead ausalt üles. Tule nende kaartide juurde mõnel hilisemal õppimiskorral tagasi, et kontrollida, kas vastused meenuvad endiselt. Lisa uusi osariike sedamööda, kuidas sul on aega neid korrata. Kõiki kaarte ei pea ühe korraga kasutusele võtma.
 
 Tasuta [USA osariikide lühendite kaardipakis](/et/catalog/packages/us-state-abbreviations-flashcards/) on **100 ingliskeelset õpikaarti**: iga 50 osariigi kohta üks kaart osariigist koodini ja teine koodist osariigini. See on sõltumatu, mitteametlik õppevahend. Pakk ei sisalda kaarte osariikide asukohtadega ega küsimusi pealinnade, DC, territooriumide või ZIP-postikoodide kohta.
 

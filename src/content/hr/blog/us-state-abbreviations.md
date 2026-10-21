@@ -15,6 +15,8 @@ Aljaska (Alaska) ima oznaku AK, Alabama AL, a Arkansas AR. Prva dva slova naziva
 
 Ako samo tražite oznaku, pronađite državu u donjoj tablici, poredanoj abecedno prema engleskim nazivima. Ako učite, prekrijte stupac s oznakama i pokušajte se sjetiti svakog odgovora, a zatim prekrijte nazive država i pokušajte ih navesti prema oznakama. Prepoznati par na stranici i prisjetiti ga se bez pomoći dva su različita zadatka.
 
+Besplatni [špil kratica saveznih država SAD-a](/hr/catalog/packages/us-state-abbreviations-flashcards/) nudi **100 kartica na engleskom jeziku** za vježbanje od države prema kodu i obrnuto. Pokušajte se prisjetiti svakog odgovora prije provjere, a zatim se redovito vraćajte ponavljanju s vremenskim razmacima kako biste parove dulje zadržali u pamćenju. Potpuna tablica i odgovori na kviz nalaze se u nastavku.
+
 ## Kratice svih 50 saveznih država SAD-a
 
 Ovo su dvoslovne oznake navedene u [publikaciji USPS Publication 28, dodatku B](https://pe.usps.com/text/pub28/28apb.htm), provjerene 16. rujna 2026. Svaku oznaku pišite dvama velikim slovima, bez točaka. Uz prilagođene hrvatske nazive navedeni su i engleski nazivi; svi savjeti za pamćenje pomoću slova u nastavku odnose se na engleski zapis naziva.
@@ -128,7 +130,7 @@ U zadatku iz geografije može se provjeravati nekoliko različitih vještina. Us
 | Od oznake do države | Koja država koristi MN? | Minnesota |
 | Položaj na karti | Prepoznajte označenu državu na slijepoj karti | Naziv savezne države |
 
-Tablica daje odgovore za prva dva zadatka. Za provjeru znanja na karti upotrijebite slijepu kartu s rješenjima i vježbajte prepoznavanje država prema položaju. Za glavne gradove saveznih država također pripremite zasebna pitanja, primjerice „Koji je glavni grad Minnesote?” Te kartice držite odvojeno od pitanja o kraticama kako bi vam svaki odgovor pokazao koje ste se činjenice prisjetili.
+Tablica daje odgovore za prva dva zadatka. Za provjeru znanja na karti upotrijebite slijepu kartu s rješenjima i vježbajte prepoznavanje država prema položaju. Za glavne gradove saveznih država također pripremite zasebna pitanja, primjerice „Koji je glavni grad Minnesote?” Te kartice držite odvojeno od pitanja o kraticama kako bi vam svaki odgovor pokazao koje ste se činjenice prisjetili. Zasebni [špil saveznih država SAD-a i njihovih glavnih gradova](/hr/catalog/packages/us-states-and-capitals/) sadrži kartice na engleskom jeziku za taj zadatak.
 
 ## Kratki kviz o kraticama saveznih država
 
@@ -173,7 +175,7 @@ Za svaki par na koji ste pogrešno odgovorili ili u koji niste bili sigurni napr
 
 Ako ste zamijenili MO i MS, dodajte i dvije kartice za Mississippi. Na svakoj kartici neka bude jedan odgovor, a između kartica za suprotne smjerove ubacite druga pitanja kako ne biste odgovarali prema kartici koju ste upravo vidjeli. Naš [vodič za izradu boljih kartica za učenje](/blog/how-to-make-better-flashcards/) objašnjava kako oblikovati precizna pitanja.
 
-Pri sljedećem ponavljanju odgovorite prije nego što otkrijete poleđinu i iskreno zabilježite pogreške. Vratite se tim karticama pri nekom kasnijem učenju kako biste provjerili možete li se i dalje sjetiti odgovora. Dodajte još država kad budete imali vremena za njihovo ponavljanje; ne morate početi učiti sve kartice odjednom.
+Redovito prisjećanje odgovora i ponavljanje s vremenskim razmacima pomažu da parovi dugoročno ostanu u pamćenju. Pri sljedećem ponavljanju odgovorite prije nego što otkrijete poleđinu i iskreno zabilježite pogreške. Vratite se tim karticama pri nekom kasnijem učenju kako biste provjerili možete li se i dalje sjetiti odgovora. Dodajte još država kad budete imali vremena za njihovo ponavljanje; ne morate početi učiti sve kartice odjednom.
 
 Besplatan [špil s kraticama saveznih država SAD-a](/hr/catalog/packages/us-state-abbreviations-flashcards/) sadrži **100 kartica na engleskom jeziku**: za svaku od 50 država jednu karticu od države do oznake i jednu od oznake do države. To je neovisno, neslužbeno pomagalo za učenje. Ne sadrži karte, glavne gradove, DC, teritorije ni poštanske brojeve ZIP Code.
 

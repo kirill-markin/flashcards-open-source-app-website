@@ -15,6 +15,8 @@ Alaska er AK, Alabama er AL, og Arkansas er AR. De to første bokstavene i navne
 
 Skal du slå opp en kode, finner du delstaten i den alfabetiske tabellen nedenfor. Skal du øve, dekker du til kodekolonnen og prøver å svare før du bytter kolonne. Å kjenne igjen et par på siden og å hente det frem fra hukommelsen er to forskjellige oppgaver.
 
+Det gratis [kortsettet med amerikanske delstatsforkortelser](/nb/catalog/packages/us-state-abbreviations-flashcards/) gir deg **100 engelskspråklige kort** for å øve fra delstat til kode og motsatt vei. Prøv å hente fram hvert svar fra hukommelsen før du sjekker det, og kom tilbake til regelmessig repetisjon med mellomrom for å huske parene over tid. Hele tabellen og svarene på quizen står nedenfor.
+
 ## Forkortelsene for alle USAs 50 delstater
 
 Dette er tobokstavskodene i [USPS Publication 28, Appendix B](https://pe.usps.com/text/pub28/28apb.htm), kontrollert 16. september 2026. Skriv hver kode med to store bokstaver, uten punktum. Tabellen følger alfabetisk rekkefølge etter de engelske navnene. Der det norske navnet er annerledes, står det engelske i parentes. Alle bokstavhintene i artikkelen viser til den engelske skrivemåten.
@@ -128,7 +130,7 @@ En geografioppgave kan kreve flere ulike ferdigheter. Tilpass øvingen til spør
 | Fra kode til delstat | Hvilken delstat bruker MN? | Minnesota |
 | Plassering på kart | Finn navnet på en markert delstat på et kart uten navn | Delstatens navn |
 
-Tabellen gir svarene på de to første oppgavetypene. Til en kartprøve bruker du et kart uten navn med tilhørende fasit og øver på å kjenne igjen delstatene ut fra plasseringen. Delstatshovedsteder trenger også egne spørsmål, som «Hva er hovedstaden i Minnesota?» Hold disse kortene atskilt fra spørsmål om forkortelser, slik at hvert svar viser hvilken opplysning du husket.
+Tabellen gir svarene på de to første oppgavetypene. Til en kartprøve bruker du et kart uten navn med tilhørende fasit og øver på å kjenne igjen delstatene ut fra plasseringen. Delstatshovedsteder trenger også egne spørsmål, som «Hva er hovedstaden i Minnesota?» Hold disse kortene atskilt fra spørsmål om forkortelser, slik at hvert svar viser hvilken opplysning du husket. Det separate [kortsettet med amerikanske delstater og hovedstedene deres](/nb/catalog/packages/us-states-and-capitals/) har engelskspråklige kort til den oppgaven.
 
 ## En kort quiz om delstatsforkortelser
 
@@ -173,7 +175,7 @@ Lag to små øvingskort for hvert par du svarte feil på eller var usikker på. 
 
 Hvis du forvekslet MO med MS, legger du også til de to kortene for Mississippi. Ha ett svar per kort, og legg andre spørsmål mellom kortene som går i motsatt retning, slik at du ikke svarer ut fra kortet du nettopp så. [Guiden vår til å lage bedre øvingskort](/blog/how-to-make-better-flashcards/) forklarer hvordan du lager presise spørsmål.
 
-Neste gang du repeterer, svarer du før du viser baksiden og registrerer feilene ærlig. Gå tilbake til kortene i en senere økt for å sjekke om du fortsatt husker svarene. Legg til flere delstater etter hvert som du får tid til å repetere dem. Du trenger ikke å begynne med alle kortene i én økt.
+Å hente fram svarene fra hukommelsen regelmessig og repetere med mellomrom hjelper deg å huske parene på lang sikt. Neste gang du repeterer, svarer du før du viser baksiden og registrerer feilene ærlig. Gå tilbake til kortene i en senere økt for å sjekke om du fortsatt husker svarene. Legg til flere delstater etter hvert som du får tid til å repetere dem. Du trenger ikke å begynne med alle kortene i én økt.
 
 Den gratis [kortstokken med forkortelser for USAs delstater](/nb/catalog/packages/us-state-abbreviations-flashcards/) har **100 engelskspråklige øvingskort**: ett kort fra delstat til kode og ett fra kode til delstat for hver av de 50 delstatene. Dette er et uavhengig, uoffisielt læringsverktøy. Kortstokken inneholder ikke kart, hovedsteder, DC, territorier eller amerikanske postnumre (ZIP Codes).
 

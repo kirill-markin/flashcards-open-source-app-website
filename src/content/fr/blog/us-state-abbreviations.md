@@ -15,6 +15,8 @@ L’Alaska s’abrège AK, l’Alabama AL et l’Arkansas AR. Les deux première
 
 Pour chercher un code, repérez l’État dans le tableau alphabétique ci-dessous. Pour réviser, masquez la colonne des codes et essayez de donner chaque réponse, puis faites l’exercice dans l’autre sens. Reconnaître une association sur la page et la retrouver de mémoire sont deux exercices différents.
 
+Le [paquet gratuit sur les abréviations des États américains](/fr/catalog/packages/us-state-abbreviations-flashcards/) propose **100 cartes en anglais** pour vous exercer de l’État vers le code et dans l’autre sens. Essayez de retrouver chaque réponse avant de la vérifier, puis revenez régulièrement pour des révisions espacées qui aident à retenir les paires sur la durée. Le tableau complet et les réponses au quiz se trouvent plus bas.
+
 ## Les abréviations des 50 États américains
 
 Voici les codes à deux lettres figurant dans la [publication 28 de l’USPS, annexe B](https://pe.usps.com/text/pub28/28apb.htm), vérifiés le 16 septembre 2026. Écrivez chaque code en deux lettres majuscules, sans points. Le tableau suit l’ordre alphabétique des noms anglais, conservés entre parenthèses lorsqu’ils diffèrent du français.
@@ -128,7 +130,7 @@ Un exercice de géographie peut faire appel à plusieurs compétences. Adaptez v
 | Du code vers l’État | Quel État utilise MN ? | Minnesota |
 | Localisation sur une carte | Identifier un État mis en évidence sur une carte muette | Le nom de l’État |
 
-Le tableau donne les réponses aux deux premiers exercices. Pour un contrôle sur carte, utilisez une carte muette accompagnée d’un corrigé et entraînez-vous à reconnaître les États d’après leur emplacement. Pour les capitales des États, prévoyez aussi des questions distinctes, par exemple « Quelle est la capitale du Minnesota ? ». Gardez ces cartes séparées des questions sur les abréviations : chaque réponse indiquera ainsi quel fait vous avez retenu.
+Le tableau donne les réponses aux deux premiers exercices. Pour un contrôle sur carte, utilisez une carte muette accompagnée d’un corrigé et entraînez-vous à reconnaître les États d’après leur emplacement. Pour les capitales des États, prévoyez aussi des questions distinctes, par exemple « Quelle est la capitale du Minnesota ? ». Gardez ces cartes séparées des questions sur les abréviations : chaque réponse indiquera ainsi quel fait vous avez retenu. Le [paquet consacré aux États américains et à leurs capitales](/fr/catalog/packages/us-states-and-capitals/), distinct de celui des abréviations, contient des cartes en anglais pour cet exercice.
 
 ## Un petit quiz sur les abréviations des États
 
@@ -173,7 +175,7 @@ Pour chaque association oubliée ou incertaine, créez deux petites cartes de r�
 
 Si vous avez confondu MO et MS, ajoutez aussi les deux cartes du Mississippi. Gardez une seule réponse par carte et intercalez d’autres questions entre les cartes qui interrogent la même association en sens inverse pour ne pas répondre grâce à celle que vous venez de voir. Notre [guide pour créer de meilleures cartes de révision](/blog/how-to-make-better-flashcards/) explique comment formuler des questions précises.
 
-Lors de la prochaine révision, répondez avant de dévoiler le verso et notez vos erreurs honnêtement. Revenez sur ces cartes au cours d’une séance ultérieure pour vérifier si les réponses vous reviennent toujours en mémoire. Ajoutez d’autres États selon le temps dont vous disposez pour les réviser ; vous n’avez pas besoin de découvrir toutes les cartes en une seule séance.
+Retrouver régulièrement les réponses de mémoire et les revoir à intervalles espacés aide à retenir les paires sur la durée. Lors de la prochaine révision, répondez avant de dévoiler le verso et notez vos erreurs honnêtement. Revenez sur ces cartes au cours d’une séance ultérieure pour vérifier si les réponses vous reviennent toujours en mémoire. Ajoutez d’autres États selon le temps dont vous disposez pour les réviser ; vous n’avez pas besoin de découvrir toutes les cartes en une seule séance.
 
 Le [paquet de cartes gratuit sur les abréviations des États américains](/fr/catalog/packages/us-state-abbreviations-flashcards/) contient **100 cartes en anglais** : une carte de l’État vers le code et une carte du code vers l’État pour chacun des 50 États. C’est un support de révision indépendant et non officiel. Il ne comprend ni cartes géographiques, ni capitales, ni DC, ni territoires, ni ZIP Codes.
 

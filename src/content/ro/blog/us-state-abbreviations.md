@@ -15,6 +15,8 @@ Alaska se abreviază AK, Alabama AL, iar Arkansas AR. Primele două litere ale n
 
 Pentru a găsi un cod, caută statul în tabelul alfabetic de mai jos. Pentru a învăța, acoperă coloana cu coduri și încearcă să dai fiecare răspuns, apoi schimbă coloana acoperită. Să recunoști o pereche pe pagină și să ți-o amintești fără ajutor sunt două lucruri diferite.
 
+[Setul gratuit de fișe cu abrevierile statelor SUA](/ro/catalog/packages/us-state-abbreviations-flashcards/) oferă **100 de fișe în engleză** pentru a exersa de la stat la cod și invers. Încearcă să-ți amintești fiecare răspuns înainte să-l verifici, apoi revino regulat la recapitulări la intervale de timp, ca să reții perechile pe termen lung. Tabelul complet și răspunsurile la test sunt mai jos.
+
 ## Abrevierile tuturor celor 50 de state din SUA
 
 Acestea sunt codurile din două litere din [Publicația 28 a USPS, anexa B](https://pe.usps.com/text/pub28/28apb.htm), verificate la 16 septembrie 2026. Scrie fiecare cod cu două majuscule, fără puncte. Tabelul păstrează ordinea alfabetică a denumirilor în engleză; acolo unde numele românesc diferă, cel englezesc apare în paranteză.
@@ -128,7 +130,7 @@ O temă la geografie poate cere mai multe abilități diferite. Adaptează exerc
 | De la cod la stat | Ce stat folosește MN? | Minnesota |
 | Localizare pe hartă | Identifică un stat evidențiat pe o hartă fără denumiri | Numele statului |
 
-Tabelul oferă răspunsurile pentru primele două sarcini. Pentru un test pe hartă, folosește o hartă fără denumiri și o cheie de răspunsuri și exersează identificarea statelor după poziție. Capitalele statelor au nevoie și ele de întrebări proprii, cum ar fi „Care este capitala statului Minnesota?”. Păstrează acele fișe separat de întrebările despre abrevieri, astfel încât fiecare răspuns să îți arate ce informație ți-ai amintit.
+Tabelul oferă răspunsurile pentru primele două sarcini. Pentru un test pe hartă, folosește o hartă fără denumiri și o cheie de răspunsuri și exersează identificarea statelor după poziție. Capitalele statelor au nevoie și ele de întrebări proprii, cum ar fi „Care este capitala statului Minnesota?”. Păstrează acele fișe separat de întrebările despre abrevieri, astfel încât fiecare răspuns să îți arate ce informație ți-ai amintit. [Setul cu statele SUA și capitalele lor](/ro/catalog/packages/us-states-and-capitals/), separat de cel cu abrevieri, conține fișe în engleză pentru această sarcină.
 
 ## Un test scurt despre abrevierile statelor
 
@@ -173,7 +175,7 @@ Pentru fiecare pereche la care ai greșit sau ai ezitat, fă două fișe de înv
 
 Dacă ai confundat MO cu MS, adaugă și cele două fișe pentru Mississippi. Păstrează un singur răspuns pe fiecare fișă și intercalează alte întrebări între fișele cu sensuri inverse, ca să nu răspunzi pe baza fișei pe care tocmai ai văzut-o. [Ghidul nostru pentru fișe de învățare mai bune](/blog/how-to-make-better-flashcards/) explică cum să formulezi întrebări precise.
 
-La următoarea recapitulare, răspunde înainte să întorci fișa și notează sincer greșelile. Revino la acele fișe într-o sesiune ulterioară, ca să verifici dacă îți mai vin în minte răspunsurile. Adaugă alte state pe măsură ce ai timp să le repeți; nu trebuie să introduci toate fișele într-o singură sesiune.
+Reamintirea regulată a răspunsurilor și recapitularea la intervale de timp ajută la păstrarea perechilor în memorie pe termen lung. La următoarea recapitulare, răspunde înainte să întorci fișa și notează sincer greșelile. Revino la acele fișe într-o sesiune ulterioară, ca să verifici dacă îți mai vin în minte răspunsurile. Adaugă alte state pe măsură ce ai timp să le repeți; nu trebuie să introduci toate fișele într-o singură sesiune.
 
 [Setul gratuit cu abrevierile statelor SUA](/ro/catalog/packages/us-state-abbreviations-flashcards/) conține **100 de fișe în limba engleză**: câte o fișă de la stat la cod și una de la cod la stat pentru fiecare dintre cele 50 de state. Este un material de studiu independent și neoficial. Nu include hărți, capitale, DC, teritorii sau coduri ZIP.
 
