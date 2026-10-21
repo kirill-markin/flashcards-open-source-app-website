@@ -138,6 +138,13 @@ export async function BlogPostPageView({
               </p>
             </div>
           </header>
+          {deckResource !== null && (
+            <BlogDeckCta
+              className={styles.deckCta}
+              locale={locale}
+              resource={deckResource}
+            />
+          )}
           <section className={styles.contentPanel}>
             {chunks.map((chunkHtml, index) => (
               <Fragment key={index}>
@@ -148,25 +155,10 @@ export async function BlogPostPageView({
                   className={styles.content}
                   dangerouslySetInnerHTML={{ __html: chunkHtml }}
                 />
-                {index === 0 && deckResource !== null && (
-                  <BlogDeckCta
-                    className={styles.deckCta}
-                    locale={locale}
-                    placement="top"
-                    resource={deckResource}
-                  />
-                )}
               </Fragment>
             ))}
-            {deckResource === null ? (
+            {deckResource === null && (
               <BlogCta locale={locale} placement="article_end" />
-            ) : (
-              <BlogDeckCta
-                className={styles.deckCta}
-                locale={locale}
-                placement="bottom"
-                resource={deckResource}
-              />
             )}
           </section>
         </div>

@@ -1,4 +1,3 @@
-import { getAppUrl } from "./auth";
 import { getAbsoluteUrl } from "./i18n";
 import { getIntlLocale, type AppLocale } from "./localeConfig";
 import { escapeMarkdownText, renderMarkdownLink } from "./markdownLinks";
@@ -20,8 +19,7 @@ export interface BlogDeckResource {
   readonly title: string;
   readonly cardCountLabel: string;
   readonly languageLabel: string;
-  readonly studyHref: string;
-  readonly previewHref: string;
+  readonly packageHref: string;
 }
 
 export function renderBlogDeckResourceMarkdown(
@@ -31,20 +29,14 @@ export function renderBlogDeckResourceMarkdown(
   const copy = getPublicCatalogUiCopy(locale);
   const studyLink = renderMarkdownLink(
     copy.installLabel,
-    resource.studyHref,
+    getAbsoluteUrl(resource.packageHref),
     "Blog deck study link",
-  );
-  const previewLink = renderMarkdownLink(
-    copy.cardPreviewsHeading,
-    getAbsoluteUrl(resource.previewHref),
-    "Blog deck preview link",
   );
 
   return [
     `**${escapeMarkdownText(resource.title)}**`,
     escapeMarkdownText(`${resource.cardCountLabel} · ${resource.languageLabel}`),
-    `${studyLink} · ${previewLink}`,
-    escapeMarkdownText(copy.installHelper),
+    studyLink,
   ].join("\n\n");
 }
 
@@ -90,7 +82,6 @@ export function resolveBlogDeckResource(
     title: latestVersion.title,
     cardCountLabel: formatPublicCatalogCardCount(locale, latestVersion.cardCount, copy),
     languageLabel: `${copy.languagesLabel}: ${languages.join(", ")}`,
-    studyHref: getAppUrl(latestVersion.installUrl, locale),
-    previewHref: getPublicCatalogPackageLocalizedPathname(locale, packageSlug),
+    packageHref: getPublicCatalogPackageLocalizedPathname(locale, packageSlug),
   };
 }
