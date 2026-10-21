@@ -908,6 +908,21 @@
     }
   },
   {
+    "publicPath": "/blog/find-follow-symlinks.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/e5136ce13c07d88a3296b1fe55aa9455ccff7888f30928756430687677785c8b.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "e5136ce13c07d88a3296b1fe55aa9455ccff7888f30928756430687677785c8b",
+    "bytes": 164046,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/b07ef238e8663c23ee38a7d2e7dcd054fd1da412378b6e49d300e7dda854c91f.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "b07ef238e8663c23ee38a7d2e7dcd054fd1da412378b6e49d300e7dda854c91f",
+      "bytes": 2312985
+    }
+  },
+  {
     "publicPath": "/blog/find-mtime.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/100382186cde189b771ab2788e0f29698f422d6b8d5708587e546653208031ce.png",
     "width": 1672,
