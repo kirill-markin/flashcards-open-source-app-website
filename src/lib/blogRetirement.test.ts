@@ -65,7 +65,7 @@ test("localized retirement excludes publication while retaining sources and serv
   assert.ok(!markdown.listMarkdownPagePaths(null).includes("blog/shared"));
   assert.ok(markdown.listMarkdownPagePaths(null).includes("es/blog/shared"));
   assert.ok(!markdown.renderBlogListingMarkdown("en").markdown.includes("/blog/shared/"));
-  assert.ok(!markdown.renderBlogPostMarkdown("en", "shared").markdown.includes("Preserved article body"));
+  assert.ok(!markdown.renderBlogPostMarkdown("en", "shared", null).markdown.includes("Preserved article body"));
 
   const snapshot: GlobalActivitySnapshot = {
     schemaVersion: 3,

@@ -15,6 +15,8 @@ Alaska is AK, Alabama is AL, and Arkansas is AR. The first two letters of a stat
 
 For a lookup, find the state in the alphabetical table below. For study, cover the code column and try to supply each answer, then switch columns. Recognizing a pair on the page and producing it from memory are different tasks.
 
+The free [US state abbreviations deck](/catalog/packages/us-state-abbreviations-flashcards/) gives you **100 English-language cards** to practice both directions. Try recalling each answer before checking it, then return for regular spaced review to help retain the pairs over time. The full table and quiz answers are below.
+
 ## All 50 US state abbreviations
 
 These are the two-letter codes listed in [USPS Publication 28, Appendix B](https://pe.usps.com/text/pub28/28apb.htm), checked on September 16, 2026. Write each code as two capital letters, without periods.
@@ -128,7 +130,7 @@ A geography assignment can ask for several different skills. Match your practice
 | Code to state | Which state uses MN? | Minnesota |
 | Map location | Identify a highlighted state on a blank map | The state's name |
 
-The table supplies the answers for the first two tasks. For a map test, use a blank map with an answer key and practice identifying the states by location. State capitals need their own prompts too, such as “What is Minnesota's capital?” Keep those cards separate from abbreviation questions so each answer tells you which fact you remembered.
+The table supplies the answers for the first two tasks. For a map test, use a blank map with an answer key and practice identifying the states by location. State capitals need their own prompts too, such as “What is Minnesota's capital?” The separate [US states and capitals deck](/catalog/packages/us-states-and-capitals/) has English-language cards for that task. Keep those cards separate from abbreviation questions so each answer tells you which fact you remembered.
 
 ## A short state abbreviation quiz
 
@@ -173,7 +175,7 @@ For each missed or uncertain pair, make two small cards. For example:
 
 If you confused MO with MS, add Mississippi's two cards too. Keep one answer per card, and separate the reverse cards with other questions so you aren't answering from the card you just saw. Our [guide to writing better flashcards](/blog/how-to-make-better-flashcards/) covers how to keep prompts specific.
 
-On the next review, answer before revealing the back and record mistakes honestly. Return to those cards in a later session to check whether the answers still come to mind. Add more states as you have time to review them; you don't need to introduce every card in one sitting.
+On the next review, answer before revealing the back and record mistakes honestly. Regular recall and spaced review help you retain the pairs over time: return to those cards in later sessions to check whether the answers still come to mind. Add more states as you have time to review them; you don't need to introduce every card in one sitting.
 
 The free [US state abbreviations deck](/catalog/packages/us-state-abbreviations-flashcards/) has **100 English-language cards**: one state-to-code card and one code-to-state card for each of the 50 states. It's an independent, unofficial study aid. It doesn't include maps, capitals, DC, territories, or ZIP Codes.
 

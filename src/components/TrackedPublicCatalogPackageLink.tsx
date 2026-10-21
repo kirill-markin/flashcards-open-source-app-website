@@ -20,6 +20,7 @@ interface TrackedPublicCatalogPackageLinkProps {
   readonly packageSlug: string;
   readonly placement: PublicCatalogNavigationPlacement;
   readonly tabIndex: number | undefined;
+  readonly testId?: string;
 }
 
 export function TrackedPublicCatalogPackageLink({
@@ -31,6 +32,7 @@ export function TrackedPublicCatalogPackageLink({
   packageSlug,
   placement,
   tabIndex,
+  testId,
 }: TrackedPublicCatalogPackageLinkProps): React.JSX.Element {
   const trackNavigation = (): void => {
     trackPublicCatalogEvent(
@@ -43,6 +45,7 @@ export function TrackedPublicCatalogPackageLink({
   return (
     <Link
       className={className}
+      data-testid={testId}
       href={href}
       onClick={trackNavigation}
       tabIndex={tabIndex}

@@ -16,6 +16,7 @@ interface TrackedPublicCatalogInstallLinkProps {
   readonly locale: AppLocale;
   readonly packageId: string;
   readonly placement: PublicCatalogInstallPlacement;
+  readonly testId?: string;
 }
 
 export function TrackedPublicCatalogInstallLink({
@@ -25,6 +26,7 @@ export function TrackedPublicCatalogInstallLink({
   locale,
   packageId,
   placement,
+  testId,
 }: TrackedPublicCatalogInstallLinkProps): React.JSX.Element {
   const externalLinkAttributes = getExternalLinkAttributes(href);
   // Opening an install link creates a guest and installs the deck, so crawlers must not follow it.
@@ -61,6 +63,7 @@ export function TrackedPublicCatalogInstallLink({
   return (
     <a
       className={className}
+      data-testid={testId}
       href={href}
       onAuxClick={activateMiddleInstall}
       onClick={activatePrimaryInstall}

@@ -2,6 +2,7 @@ import { Fragment } from "react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { BlogCta, BlogStartSideCta } from "@/components/BlogCta";
+import { BlogDeckCta } from "@/components/BlogDeckCta";
 import { BreadcrumbStructuredData } from "@/components/BreadcrumbStructuredData";
 import { SiteFrame } from "@/components/SiteFrame";
 import { TrackedOutboundLink } from "@/components/TrackedOutboundLink";
@@ -11,10 +12,12 @@ import {
   getRecommendedBlogPosts,
   readBlogPost,
 } from "@/lib/blog";
+import { resolveBlogDeckResource } from "@/lib/blogDeckResource";
 import { renderMarkdownToHtml } from "@/lib/content/renderMarkdownToHtml";
 import type { AppLocale } from "@/lib/i18n";
 import { getAbsoluteUrl, getLocalizedPathname } from "@/lib/i18n";
 import { getExternalLinkAttributes } from "@/lib/linkTargets";
+import { readPublicCatalog } from "@/lib/publicCatalogData";
 import {
   CREATOR_ENTITY,
   PUBLISHER_REFERENCE,
@@ -63,6 +66,7 @@ export async function BlogPostPageView({
   }
 
   const uiCopy = getUiCopy(locale);
+  const deckResource = resolveBlogDeckResource(slug, locale, readPublicCatalog());
   const articleUrl = getAbsoluteUrl(getLocalizedPathname(locale, `/blog/${slug}/`));
   const articleImageUrl = getBlogPostImageUrl(post);
   const articleSchema: BlogPostingSchema = {
@@ -137,21 +141,40 @@ export async function BlogPostPageView({
           <section className={styles.contentPanel}>
             {chunks.map((chunkHtml, index) => (
               <Fragment key={index}>
-                {index === midInsertIndex && (
+                {deckResource === null && index === midInsertIndex && (
                   <BlogCta locale={locale} placement="mid_article" />
                 )}
                 <div
                   className={styles.content}
                   dangerouslySetInnerHTML={{ __html: chunkHtml }}
                 />
+                {index === 0 && deckResource !== null && (
+                  <BlogDeckCta
+                    className={styles.deckCta}
+                    locale={locale}
+                    placement="top"
+                    resource={deckResource}
+                  />
+                )}
               </Fragment>
             ))}
-            <BlogCta locale={locale} placement="article_end" />
+            {deckResource === null ? (
+              <BlogCta locale={locale} placement="article_end" />
+            ) : (
+              <BlogDeckCta
+                className={styles.deckCta}
+                locale={locale}
+                placement="bottom"
+                resource={deckResource}
+              />
+            )}
           </section>
         </div>
-        <div className={styles.startCtaRail}>
-          <BlogStartSideCta locale={locale} />
-        </div>
+        {deckResource === null && (
+          <div className={styles.startCtaRail}>
+            <BlogStartSideCta locale={locale} />
+          </div>
+        )}
         {recommendedPosts.length > 0 ? (
           <section className={styles.relatedPanel}>
             <h2 className={styles.relatedHeading}>{uiCopy.blog.readNextHeading}</h2>

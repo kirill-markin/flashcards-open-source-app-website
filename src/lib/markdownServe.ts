@@ -1,6 +1,10 @@
 import { DOC_SLUGS } from "@/data/docs";
 import { CONNECTOR_DIRECTORIES } from "@/lib/connectorDirectories";
 import { listBlogPosts, readBlogPost } from "@/lib/blog";
+import {
+  renderBlogDeckResourceMarkdown,
+  resolveBlogDeckResource,
+} from "@/lib/blogDeckResource";
 import { getDocs, readDoc } from "@/lib/docs";
 import {
   getLocalizedPathname,
@@ -535,7 +539,8 @@ export function renderBlogListingMarkdown(locale: AppLocale): MarkdownResult {
 
 export function renderBlogPostMarkdown(
   locale: AppLocale,
-  slug: string
+  slug: string,
+  publicCatalog: PublicCatalogReadModel | null,
 ): MarkdownResult {
   const post = readBlogPost(locale, slug);
 
@@ -544,10 +549,14 @@ export function renderBlogPostMarkdown(
   }
 
   const postPath = getPagePath(getLocalizedPathname(locale, `/blog/${slug}/`));
+  const resource = resolveBlogDeckResource(slug, locale, publicCatalog);
+  const resourceMarkdown = resource === null
+    ? ""
+    : `${renderBlogDeckResourceMarkdown(resource, locale)}\n\n`;
 
   return {
     markdown: appendMarkdownFooter(
-      `# ${post.title}\n\n*${post.date}*\n\n${localizeInternalLinks(
+      `# ${post.title}\n\n*${post.date}*\n\n${resourceMarkdown}${localizeInternalLinks(
         post.bodyMarkdown.trim(),
         locale
       )}`,
@@ -629,7 +638,8 @@ export function renderMarkdownDocument(
   if (normalizedRoutePathname.startsWith("/blog/")) {
     return renderBlogPostMarkdown(
       locale,
-      normalizedRoutePathname.replace(/^\/blog\//, "")
+      normalizedRoutePathname.replace(/^\/blog\//, ""),
+      context.publicCatalog,
     );
   }
 
