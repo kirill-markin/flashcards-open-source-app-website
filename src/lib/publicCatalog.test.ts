@@ -681,7 +681,18 @@ test("parses the schema and builds latest-version-only lookup data", () => {
   );
 });
 
-test("blog deck resources share latest-version study and preview destinations across HTML and Markdown locales", () => {
+test("blog deck resources share latest-version study and preview destinations across HTML and Markdown locales", (context) => {
+  const originalTrailingSlash = process.env.__NEXT_TRAILING_SLASH;
+  context.after(() => {
+    if (originalTrailingSlash === undefined) {
+      delete process.env.__NEXT_TRAILING_SLASH;
+    } else {
+      process.env.__NEXT_TRAILING_SLASH = originalTrailingSlash;
+    }
+  });
+  // Standalone rendering does not load next.config.ts's trailingSlash setting.
+  process.env.__NEXT_TRAILING_SLASH = "true";
+
   const input = createValidDump();
   const packageSlug = "us-state-abbreviations-flashcards";
   input.packages[0].slug = packageSlug;
