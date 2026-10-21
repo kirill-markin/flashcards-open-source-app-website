@@ -2533,6 +2533,21 @@
     "bytes": 2351276
   },
   {
+    "publicPath": "/blog/reported-speech-backshift-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/eceea7a0a11ee9970672e8c8c56ad4d20fed5576b254276bbf4b8b553a519967.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "eceea7a0a11ee9970672e8c8c56ad4d20fed5576b254276bbf4b8b553a519967",
+    "bytes": 117764,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/960a51e9fe588e8ec9f034fb47c800cb27d37a8f046b581e348351a54c8a26c4.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "960a51e9fe588e8ec9f034fb47c800cb27d37a8f046b581e348351a54c8a26c4",
+      "bytes": 2061526
+    }
+  },
+  {
     "publicPath": "/blog/resonance-structures-practice.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/3284a7093e3a5e2b9d09cd113e1bf6482a15f473720074eee84d8a48fa806c14.webp",
     "width": 1672,
