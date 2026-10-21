@@ -2594,6 +2594,21 @@
     "bytes": 2396307
   },
   {
+    "publicPath": "/blog/series-parallel-circuit-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/6d07141cb92dbe4c7d378075f0656898c433a9cc4b3ebbbcafc3df60a8d7f82f.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "6d07141cb92dbe4c7d378075f0656898c433a9cc4b3ebbbcafc3df60a8d7f82f",
+    "bytes": 436626,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/c3107380c1516d3355f55ef3b19695374ca7f7c1a5c94c69234d18ce35718c84.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "c3107380c1516d3355f55ef3b19695374ca7f7c1a5c94c69234d18ce35718c84",
+      "bytes": 3554269
+    }
+  },
+  {
     "publicPath": "/blog/si-base-and-derived-units.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/1ca240b99c4cc3d0d99b3360e20f057a0d1a56ec5b16a35bb6a3094be70dcf10.png",
     "width": 1672,
