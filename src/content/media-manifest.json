@@ -126,6 +126,21 @@
     "bytes": 2267736
   },
   {
+    "publicPath": "/blog/anki-conditional-card-generation.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/df93343271d627e68537ae1963578bd21905dae635b5405a2aaaebba715da94a.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "df93343271d627e68537ae1963578bd21905dae635b5405a2aaaebba715da94a",
+    "bytes": 162010,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/981430a8139bdb6b6088abd581e63a6725e14f246f532573de82dc9f99a17f84.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "981430a8139bdb6b6088abd581e63a6725e14f246f532573de82dc9f99a17f84",
+      "bytes": 2324484
+    }
+  },
+  {
     "publicPath": "/blog/anki-csv-update-existing-notes.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/a25a2364b8c52e96ad1eed95c3cfaa6d23520d3cc565eda49fd7bda6bacbd682.png",
     "width": 1672,
