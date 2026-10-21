@@ -443,6 +443,21 @@
     "bytes": 2604068
   },
   {
+    "publicPath": "/blog/binomial-distribution-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/01c6c52e512bcbcb20f473e7fbfc1406e385c89578ba2dccd72fad5dfefb467a.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "01c6c52e512bcbcb20f473e7fbfc1406e385c89578ba2dccd72fad5dfefb467a",
+    "bytes": 198732,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/7f5eb3aff58e91b57609217f5029f932a5429d6cedef6efb3d1c42be1a898ba8.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "7f5eb3aff58e91b57609217f5029f932a5429d6cedef6efb3d1c42be1a898ba8",
+      "bytes": 2520262
+    }
+  },
+  {
     "publicPath": "/blog/brainscape-alternative.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/29338f0715b9f4a3763d0d7633e5ccab4336aae73f3fc1d19f8560c82b6cf7b0.png",
     "width": 1672,
