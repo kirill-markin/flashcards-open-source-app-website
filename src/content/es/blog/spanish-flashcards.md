@@ -279,7 +279,7 @@ Una configuración sencilla sería:
 
 La IA puede ayudarte a redactar una tarjeta o a precisar su formulación a partir del material que le proporciones. Tú sigues decidiendo qué se guarda y comprobando el español. La aplicación no ofrece un curso oficial de español, un mazo oficial de español ya preparado, audio de hablantes nativos para los ejemplos de este artículo, evaluación de pronunciación, práctica conversacional ni validación automática de la gramática y el uso regional.
 
-La aplicación alojada es gratuita durante la beta actual e incluye la IA y la sincronización; también puedes autoalojarla. Consulta la [guía de primeros pasos](/es/docs/getting-started/) para conocer las modalidades alojada, móvil, para agentes y autoalojada. Si comparas un producto que ofrece un curso de vocabulario con una herramienta de flashcards controlada por el usuario, la [guía de alternativas a Memrise](/es/blog/memrise-alternative/) explica la diferencia entre ambos flujos de trabajo.
+La aplicación alojada es gratuita durante la beta actual e incluye la IA y la sincronización; también puedes autoalojarla. Consulta la [guía de primeros pasos](/es/docs/getting-started/) para conocer las modalidades alojada, móvil, para agentes y autoalojada.
 
 ## Preguntas frecuentes sobre las flashcards de español
 

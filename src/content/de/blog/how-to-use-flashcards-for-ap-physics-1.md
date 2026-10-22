@@ -215,7 +215,7 @@ Ich würde KI deshalb enger einsetzen:
 
 So behältst du den nützlichen Teil und schneidest das falsche Sicherheitsgefühl weg.
 
-Wenn KI ohnehin Teil deines Workflows ist, ist [Wie du 2026 mit KI lernst](/blog/how-to-use-ai-to-study/) der richtige Begleitartikel. Die Regel bleibt gleich: KI kann dir helfen, Fehler zu verarbeiten, sollte aber nicht das harte Denken übernehmen, das du eigentlich trainieren willst.
+KI kann dir helfen, Fehler zu verarbeiten, sollte aber nicht das harte Denken übernehmen, das du eigentlich trainieren willst.
 
 ## Ein wöchentlicher AP-Physics-1-Workflow sollte langweilig bleiben
 

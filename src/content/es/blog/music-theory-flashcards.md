@@ -146,7 +146,7 @@ En los repasos pendientes con FSRS, usa `Again`, `Hard`, `Good` y `Easy` de mane
 - Elige `Good` para una respuesta completa que hayas dado a un ritmo normal.
 - Elige `Easy` para una respuesta correcta que hayas recordado casi sin esfuerzo.
 
-Estas opciones son etiquetas de repaso, no límites de tiempo ni una afirmación de que todo el mundo deba responder a la misma velocidad. Si el enunciado es ambiguo, edita o elimina la tarjeta en vez de recurrir a una valoración para disculpar el problema. [La recuperación activa y la repetición espaciada cumplen funciones distintas](/es/blog/active-recall-vs-spaced-repetition/): intenta recordar la respuesta antes de mostrarla y deja que el historial de repaso programe la próxima aparición.
+Estas opciones son etiquetas de repaso, no límites de tiempo ni una afirmación de que todo el mundo deba responder a la misma velocidad. Si el enunciado es ambiguo, edita o elimina la tarjeta en vez de recurrir a una valoración para disculpar el problema. Intenta recordar la respuesta antes de mostrarla y deja que el historial de repaso programe la próxima aparición.
 
 ## Cómo estudiar teoría musical con un mazo de refuerzo
 

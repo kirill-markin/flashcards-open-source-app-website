@@ -24,7 +24,7 @@ Esa respuesta tiene en cuenta el plazo que de verdad tienes. Tu plan depende de 
 
 La **práctica espaciada**, también llamada **práctica distribuida**, reparte el aprendizaje entre varias sesiones. Una buena preparación para un examen suele incorporar la recuperación: estudias una fórmula el lunes, resuelves un problema de memoria el miércoles y vuelves a usarla en una tanda de ejercicios mixtos el sábado.
 
-Abrir los mismos apuntes durante tres noches también distribuye el estudio en el tiempo. Pero sigue siendo una relectura pasiva, así que la familiaridad con la página puede ocultar que no recuerdas bien el contenido. Ponerte a prueba con el libro cerrado aporta información más fiable: ¿puedes recordar la definición, la distinción o el método antes de volver a verlo? La guía sobre [recuperación activa frente a repetición espaciada](/blog/active-recall-vs-spaced-repetition/) explica la diferencia entre practicar la recuperación y programar los repasos.
+Abrir los mismos apuntes durante tres noches también distribuye el estudio en el tiempo. Pero sigue siendo una relectura pasiva, así que la familiaridad con la página puede ocultar que no recuerdas bien el contenido. Ponerte a prueba con el libro cerrado aporta información más fiable: ¿puedes recordar la definición, la distinción o el método antes de volver a verlo?
 
 La **práctica masiva** concentra las repeticiones, a menudo en una sola sesión larga. El **estudio intensivo de última hora** puede consistir en releer un capítulo dos veces, repetir el mismo cuestionario hasta que las opciones resulten familiares o recorrer varias veces un mazo nuevo en una noche.
 
@@ -43,7 +43,7 @@ La fecha del examen importa. También importa el día siguiente. Usa esta tabla 
 
 Si el examen es mañana, quizá solo quede tiempo para una sesión intensiva y dirigida. Una semana permite varios intentos de recuperación con pausas reales entre ellos. Para un examen final acumulativo, debes seguir repasando los temas anteriores mientras aprendes los últimos. Los conocimientos profesionales, lingüísticos y técnicos suelen merecer repasos incluso después de conocer la nota.
 
-Un plan universal `1-3-7` es demasiado rígido para servir a todos esos objetivos. Los intervalos útiles varían según el tiempo durante el que quieras retener algo, y no todos los temas parten del mismo grado de familiaridad. Un [calendario práctico de repaso de flashcards](/blog/how-often-should-you-review-flashcards/) debe adaptarse al plazo y a lo que de verdad recuerdas.
+Un plan universal `1-3-7` es demasiado rígido para servir a todos esos objetivos. Los intervalos útiles varían según el tiempo durante el que quieras retener algo, y no todos los temas parten del mismo grado de familiaridad. Adapta tu calendario de repaso al plazo y a lo que de verdad recuerdas.
 
 ## Por qué estudiar a última hora parece tan eficaz
 
@@ -127,7 +127,7 @@ No sustituyen bien la producción de la respuesta completa que exige un examen. 
 
 Una tarjeta puede preguntar cuándo usar una fórmula. Un bloque de problemas muestra si reconoces ese momento dentro de un enunciado que no conoces. Una tarjeta puede servir para recordar la distinción central de un ensayo. Escribir el ensayo muestra si puedes construir el argumento bajo presión.
 
-Usa las herramientas en secuencia. Deja que las preguntas similares a las del examen revelen lagunas, guarda las pequeñas que merezca la pena retener y después vuelve a esas preguntas. [Flashcards vs tests de práctica](/blog/flashcards-vs-practice-tests/) profundiza en ese reparto del trabajo.
+Usa las herramientas en secuencia. Deja que las preguntas similares a las del examen revelen lagunas, guarda las pequeñas que merezca la pena retener y después vuelve a esas preguntas.
 
 ## Cómo ayuda FSRS sin estudiar por ti
 

@@ -215,7 +215,7 @@ Así que yo usaría la IA de una forma más acotada:
 
 Eso conserva la parte útil y recorta la falsa confianza.
 
-Si la IA ya forma parte de tu flujo, [Cómo usar IA para estudiar en 2026](/blog/how-to-use-ai-to-study/) es el artículo complementario correcto. La regla sigue siendo la misma: la IA puede ayudarte a procesar errores, pero no debería hacer por ti el pensamiento difícil que estás intentando entrenar.
+La IA puede ayudarte a procesar errores, pero no debería hacer por ti el pensamiento difícil que estás intentando entrenar.
 
 ## Un flujo semanal de AP Physics 1 debería ser aburrido
 

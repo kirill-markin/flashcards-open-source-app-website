@@ -209,10 +209,9 @@ Denn nur du weißt:
 - ob die Frage zu leicht oder zu vage ist
 - ob die Karte wirklich zu deinem Niveau passt
 
-Wenn dein Quellmaterial als Notiz, Transkript oder Chat-Ausgabe beginnt, helfen diese Guides vorher:
+Wenn dein Quellmaterial als Notiz, Transkript oder Chat-Ausgabe beginnt, hilft dir dieser Guide beim ersten Entwurf:
 
 - [Wie du 2026 ChatGPT nutzt, um Flashcards zu erstellen: bessere Prompts, bessere Karten, bessere Reviews mit FSRS](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [Wie du 2026 ein YouTube-Video in Flashcards verwandelst: KI-Entwürfe für Vorlesungen, Tutorials und Sprachvideos](https://nibomo.com/blog/youtube-to-flashcards/)
 
 ## Baue dein Deck um dein echtes Ziel herum, nicht um vagen Sprachlern-Ehrgeiz
 
@@ -242,7 +241,6 @@ So wird der Weg von "Ich habe in einer Quelle brauchbare Sprache gefunden" zu "I
 
 Wenn du außerdem breitere Produktoptionen vergleichst, passen diese Artikel am ehesten dazu:
 
-- [Memrise Alternative 2026: Open-Source-Flashcards-App mit FSRS, Offline-Lernen und iPhone-first-Workflow](https://nibomo.com/blog/memrise-alternative/)
 - [Quizlet Alternative 2026: Open-Source-Flashcards-App mit FSRS, Offline-Lernen und vollständigem Dateneigentum](https://nibomo.com/blog/quizlet-alternative/)
 - [Die beste Offline-Flashcards-App 2026: Mit FSRS und Sync ohne Internet lernen](https://nibomo.com/blog/best-offline-flashcards-app/)
 

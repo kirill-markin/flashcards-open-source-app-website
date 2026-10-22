@@ -66,10 +66,6 @@ Ich würde das lieber in Fragen aufteilen wie:
 
 So entstehen klarere **Anatomie-Flashcards Medizinstudium**, die du auch noch beantworten kannst, wenn du müde bist und schnell weitermusst.
 
-Wenn deine Anatomie-Arbeit besonders diagrammlastig ist, passt dieser Begleitartikel noch weiter vorne im Workflow:
-
-- [Wie du 2026 Diagramme in Flashcards verwandelst](https://nibomo.com/blog/how-to-turn-diagrams-into-flashcards/)
-
 ## Pharmakologie-Karten sollten dir beim Entscheiden helfen, nicht nur beim Aufsagen
 
 Pharmakologie-Decks entgleisen auf eine sehr typische Weise. Eine Karte versucht plötzlich zu viel auf einmal zu tragen:

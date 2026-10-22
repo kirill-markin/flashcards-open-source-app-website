@@ -161,7 +161,7 @@ Was meistens scheitert:
 - eine Karte, die Region, Struktur, Innervation und Funktion gleichzeitig prüft
 - eine Absatzantwort unter einem unruhigen Bild
 
-Wenn dein eigentlicher Engpass darin liegt, Diagramme und beschriftete Visuals sauber in Karten zu verwandeln, erklärt [Wie du 2026 Diagramme in Flashcards verwandelst](https://nibomo.com/blog/how-to-turn-diagrams-into-flashcards/) den vorgelagerten Workflow.
+Schneide überladene Bilder vor dem Erstellen der Karte zu und blende nur die Beschriftung aus, die du tatsächlich abrufen willst.
 
 ## KI eignet sich gut zum Bereinigen, nicht zum Erinnern an deiner Stelle
 
@@ -182,7 +182,7 @@ Wobei sie kaum hilft:
 
 Nutze KI also zur Vorbereitung und Bereinigung, nicht zum Auslagern deiner Erinnerung.
 
-Wenn du die breitere Version dieses Tutor-zu-Behalten-Workflows suchst, sind [Wie du 2026 KI zum Lernen nutzt](https://nibomo.com/blog/how-to-use-ai-to-study/) und [Wie du 2026 KI-Flashcards reparierst](https://nibomo.com/blog/how-to-fix-ai-flashcards/) die zwei sinnvollen Anschlussartikel.
+Wenn du KI-Entwürfe vor der Wiederholung überarbeiten willst, zeigt [Wie du 2026 KI-Flashcards reparierst](https://nibomo.com/blog/how-to-fix-ai-flashcards/), wie du Fehler und überladene Fragen erkennst.
 
 ## Verpasste Pins und verdrehte Beziehungen sind deine beste Kartenquelle
 
@@ -222,7 +222,7 @@ Halte die Schleife schlicht:
 
 Anatomie produziert endlos viele mögliche Karten. Deine Wiederholungswarteschlange muss trotzdem bewohnbar bleiben.
 
-Wenn es schon aus dem Ruder läuft, sind [Wie viele neue Flashcards pro Tag sind 2026 sinnvoll?](https://nibomo.com/blog/how-many-new-flashcards-per-day/) und [Wie du 2026 bei Flashcards wieder aufholst, nachdem du zurückgefallen bist](https://nibomo.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/) die richtigen nächsten Artikel.
+Wenn die Warteschlange wächst, hilft [Wie viele neue Flashcards pro Tag sind 2026 sinnvoll?](https://nibomo.com/blog/how-many-new-flashcards-per-day/), die Kartenzufuhr an deine verfügbare Wiederholungszeit anzupassen.
 
 ## FSRS hilft, sobald die Karten ehrlich werden
 

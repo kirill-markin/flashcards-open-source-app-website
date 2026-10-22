@@ -164,8 +164,6 @@ Schreib sie so um, dass du sie in ein paar Sekunden ehrlich bewerten kannst. Mei
 
 Ein guter Test ist simpel: Wenn du dich an den Unterrichtskontext der ursprünglichen Person erinnern musst, um die Karte zu beantworten, schreib sie um.
 
-Wenn das Deck nach dem Import einen größeren Bereinigungsdurchgang braucht, ist [Wie du 2026 ein Flashcard-Deck bereinigst](/de/blog/how-to-prune-a-flashcard-deck/) der passende Begleitartikel.
-
 ## Behandle KI-generierte geteilte Decks als Entwürfe
 
 Das ist heute wichtiger, weil viele "geteilte Decks" keine vollständig von Menschen geschriebenen Decks mehr sind. Es sind KI-unterstützte Exporte, gescrapte Notizen, die in Karten verwandelt wurden, oder gemischte Pakete, die nie einen ernsthaften Qualitätsdurchgang bekommen haben.

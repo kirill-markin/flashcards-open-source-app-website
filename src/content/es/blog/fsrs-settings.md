@@ -131,7 +131,7 @@ Usa **Again** cuando no hayas podido dar la respuesta esperada o te hayas equivo
 
 Pulsar **Hard** para evitar el intervalo corto de **Again** registra un acierto después de un fallo. FSRS aprende entonces del evento equivocado. Elige el botón que describa lo que ocurrió al intentar recordar, no el intervalo que quieras conseguir según las etiquetas situadas sobre los botones.
 
-Las tarjetas ambiguas dificultan una valoración sincera. Si una pregunta pide cinco datos y recuerdas cuatro, el problema de programación empezó en el editor. Divide o reescribe la tarjeta. Para las tarjetas que sigan fallando pese a repasarlas una y otra vez, consulta [Cómo arreglar las tarjetas sanguijuela](/blog/how-to-fix-leech-flashcards/).
+Las tarjetas ambiguas dificultan una valoración sincera. Si una pregunta pide cinco datos y recuerdas cuatro, el problema de programación empezó en el editor. Divide o reescribe la tarjeta. Si sigues fallando en la misma tarjeta, comprueba primero que entiendes el contenido y que la pregunta tiene una respuesta clara.
 
 ## Mantén cortos los pasos de aprendizaje de FSRS, o déjalos vacíos a propósito
 

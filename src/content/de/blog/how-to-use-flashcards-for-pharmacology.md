@@ -248,10 +248,9 @@ Meistens sieht das bessere Deck weniger beeindruckend aus:
 
 So kannst du tatsächlich **Wirkstoffnamen und Nebenwirkungen auswendig lernen**, ohne das Deck in ein zweites Pharmakologie-Lehrbuch zu verwandeln.
 
-Wenn deine Warteschlange schon schwerer wird, als sie sein sollte, lösen diese beiden Artikel meistens das nächste Problem:
+Wenn deine Warteschlange schon schwerer wird, als sie sein sollte, hilft dir dieser Artikel, die Zahl neuer Karten zu begrenzen:
 
 - [How Many New Flashcards Per Day in 2026?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
-- [How to Review Flashcards Faster in 2026](https://nibomo.com/blog/how-to-review-flashcards-faster/)
 
 ## Wo Nibomo in diesen Ablauf passt
 

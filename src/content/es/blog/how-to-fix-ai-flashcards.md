@@ -187,10 +187,9 @@ La tarjeta hereda cosas que fueron útiles durante la sesión, pero flojas para 
 
 Por eso yo usaría esas sesiones para detectar fallos y puntos débiles, no para exportar toda la conversación como tarjetas permanentes. La sesión de tutoría puede seguir siendo amplia. Las tarjetas que sobreviven no deberían serlo.
 
-Si tu flujo de trabajo empieza antes de la fase de limpieza, estos artículos complementarios encajan mejor:
+Si todavía no has creado las tarjetas, este artículo te ayuda a preparar el primer borrador:
 
 - [How to Use ChatGPT to Make Flashcards in 2026](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [How to Turn ChatGPT Study Mode Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
 
 Este artículo empieza un paso más tarde: las tarjetas ya existen y ahora tienen que convertirse en algo realmente repasable.
 
