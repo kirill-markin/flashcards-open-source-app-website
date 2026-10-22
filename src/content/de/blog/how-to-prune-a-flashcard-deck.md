@@ -12,6 +12,8 @@ keywords:
   - "anki deck aufräumen"
   - "fsrs gewünschte retention"
   - "review last reduzieren"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1de~1blog~1how-to-prune-a-flashcard-deck.md"
 ---
 
 Am Freitagabend habe ich 38 Karten aus einem Deck gelöscht, das ich am selben Morgen noch wiederholt hatte. Nicht aus dem Entwurfsstapel. Aus dem aktiven Deck. Ein paar waren Duplikate, ein paar zu vage, und ein paar gingen mir seit Wochen auf die Nerven, während FSRS sie höflich weiter eingeplant hat, als wären sie meine Zeit wert.

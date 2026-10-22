@@ -13,6 +13,8 @@ keywords:
   - "cómo filtrar flashcards"
   - "qué apuntes merecen flashcards"
   - "buena selección de flashcards"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1es~1blog~1what-should-go-on-a-flashcard.md"
 ---
 
 El lunes por la noche vi cómo una herramienta de estudio con IA convertía doce diapositivas de clase y dos páginas de apuntes en 84 borradores de flashcards en menos tiempo del que yo tardé en prepararme un té. La velocidad impresionaba. El borrador no era lo importante. El trabajo de verdad empezó un minuto después, cuando tuve que decidir si alguna de esas tarjetas merecía acompañarme hasta la semana siguiente.

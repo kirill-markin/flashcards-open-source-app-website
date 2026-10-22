@@ -12,6 +12,8 @@ keywords:
   - "HESI grammar flashcards"
   - "nursing entrance exam flashcards"
   - "HESI Admission Assessment prep"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1en~1blog~1how-to-use-flashcards-for-the-hesi-a2.md"
 ---
 
 At ECU, Grammar, Chemistry, and Physics are dead weight for BSN applicants. At Tarrant County College, Grammar is back in and Anatomy and Physiology may or may not count, depending on the program. That one difference is enough to make a generic **HESI A2 flashcards** deck feel useful for a day and wasteful for the next three weeks.

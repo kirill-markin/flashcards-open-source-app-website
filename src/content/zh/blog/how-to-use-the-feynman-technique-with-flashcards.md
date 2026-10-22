@@ -12,6 +12,8 @@ keywords:
   - "主动回忆 解释法"
   - "用抽认卡解释概念"
   - "FSRS 抽认卡 学习法"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1zh~1blog~1how-to-use-the-feynman-technique-with-flashcards.md"
 ---
 
 上周二，我试着在完全不看笔记的情况下，把心输出量大声讲一遍。大概二十秒后，我开始说前负荷会影响每搏输出量，因为，嗯，它就是会。

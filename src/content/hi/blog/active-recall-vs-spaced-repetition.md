@@ -12,6 +12,8 @@ keywords:
   - "AI study flashcards"
   - "FSRS active recall"
   - "बाद में क्या review करें"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1hi~1blog~1active-recall-vs-spaced-repetition.md"
 ---
 
 एक रात आप पाँच study questions लगातार सही कर देते हैं, दिमाग तेज़ लगने लगता है, laptop बंद करते हैं, और सोचते हैं कि topic अब खत्म हो गया। अगली सुबह बिना देखे उन्हीं answers में से एक समझाने बैठते हैं, और आधे रास्ते में अटक जाते हैं।

@@ -11,6 +11,8 @@ keywords:
   - "ai pdf flashcard generator"
   - "fsrs flashcards"
   - "pdf flashcard app"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1zh~1blog~1how-to-turn-a-pdf-into-flashcards.md"
 ---
 
 昨天我把一份 47 页的 PDF 拖进了 AI chat，因为我绝对不想把周日晚上花在手动把课件改成卡片上。那份 PDF 里有截图、加粗标题、两张图，还有至少一页明显是某位讨厌未来读者的人设计的。

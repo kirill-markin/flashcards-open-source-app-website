@@ -12,6 +12,8 @@ keywords:
   - "ia para tareas escolares"
   - "ia y pensamiento crítico"
   - "convertir errores de tareas en flashcards"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1es~1blog~1how-to-use-ai-for-homework-without-cheating.md"
 ---
 
 Miércoles por la noche, 11:47 p. m., un ejercicio a medio hacer, una pestaña de IA abierta y unos seis segundos entre "ayúdame a entender esto" y "bah, hazlo tú". Ese salto tan pequeño es la razón por la que tanta gente sigue buscando **cómo usar la IA para hacer tareas**.

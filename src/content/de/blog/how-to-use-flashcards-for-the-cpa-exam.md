@@ -13,6 +13,8 @@ keywords:
   - "CPA Discipline Flashcards"
   - "Task-Based-Simulation Flashcards"
   - "FSRS CPA Lernen"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1de~1blog~1how-to-use-flashcards-for-the-cpa-exam.md"
 ---
 
 Eine FAR-Simulation kann dir das Gefühl geben, gut vorbereitet zu sein, bis sich plötzlich ein einziges Leasing-Detail ändert, ein Buchungssatz kippt und die ganze Antwort verdächtig aussieht. Genau deshalb helfen **CPA-Prüfung Flashcards** auch 2026 noch, aber nur dann, wenn sie nicht mehr versuchen, "Accounting" wie ein einziges riesiges Fach auswendig zu lernen.

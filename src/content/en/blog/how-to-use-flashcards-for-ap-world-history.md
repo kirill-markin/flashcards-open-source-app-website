@@ -12,6 +12,8 @@ keywords:
   - "AP World History DBQ"
   - "AP World History exam 2026"
   - "spaced repetition for AP World History"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1en~1blog~1how-to-use-flashcards-for-ap-world-history.md"
 ---
 
 `1200`, `1450`, `1750`, `1900`, `1945`. Most AP World students can recognize those anchors on sight. Then a document set shows up in Bluebook, and suddenly the real problem is not the date. It is whether you can connect that date to a region, a theme, and one piece of outside evidence fast enough to use it.

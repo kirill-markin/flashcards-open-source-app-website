@@ -12,6 +12,8 @@ keywords:
   - "lecture slides to flashcards"
   - "powerpoint slides to flashcards"
   - "study from lecture slides"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1en~1blog~1how-to-turn-powerpoint-into-flashcards.md"
 ---
 
 Yesterday I reopened a 63-slide lecture deck and found the usual mess: titles like "Key mechanisms," bullets with no verbs, and one diagram that probably made sense only while the professor was pointing at it. That is usually when people start searching **powerpoint to flashcards**, **ppt to flashcards**, or **google slides to flashcards**.

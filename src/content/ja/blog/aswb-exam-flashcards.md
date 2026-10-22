@@ -12,6 +12,8 @@ keywords:
   - "ASWB 試験 勉強計画"
   - "ASWB 演習問題 フラッシュカード"
   - "FSRS ASWB フラッシュカード"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1ja~1blog~1aswb-exam-flashcards.md"
 ---
 
 ASWBの受験日が2026年8月2日の日曜日なら、問題数は170問で、2018年版の試験要綱が適用されます。その翌日には問題数が122問になり、2026年版の試験要綱に切り替わります。この夏に**ASWB試験フラッシュカード**を作るなら、まず学習計画の一番上に受験日を書いてください。

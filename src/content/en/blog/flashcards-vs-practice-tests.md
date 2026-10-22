@@ -12,6 +12,8 @@ keywords:
   - "flashcards and practice questions"
   - "active recall vs practice tests"
   - "spaced repetition and practice tests"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1en~1blog~1flashcards-vs-practice-tests.md"
 ---
 
 Wednesday night I scored 18 out of 22 on a practice set, closed the laptop feeling decent, and still blanked on two definitions Thursday morning. That is the whole **flashcards vs practice tests** problem in one small, annoying loop.

@@ -12,6 +12,8 @@ keywords:
   - "flashcard keeps failing"
   - "fix bad flashcards"
   - "fsrs leech cards"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1en~1blog~1how-to-fix-leech-flashcards.md"
 ---
 
 On Sunday afternoon I missed the same biochemistry card for the fourth time in nine days. By then I was not learning from it. I was replaying the same small argument with a bad prompt.

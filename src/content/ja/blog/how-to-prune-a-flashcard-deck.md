@@ -12,6 +12,8 @@ keywords:
   - "フラッシュカード デッキ クリーンアップ"
   - "FSRS desired retention"
   - "フラッシュカード 復習負荷 減らす"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1ja~1blog~1how-to-prune-a-flashcard-deck.md"
 ---
 
 金曜の夜、その朝もう復習を終えていたデッキから38枚のカードを削除しました。下書き置き場からではありません。運用中のデッキからです。数枚は重複、数枚はあいまい、数枚は何週間も前から地味にいらだたせてきたカードで、FSRSはそれでも律儀に「このカードにはあなたの時間を払う価値がありますよ」という顔で出し続けていました。

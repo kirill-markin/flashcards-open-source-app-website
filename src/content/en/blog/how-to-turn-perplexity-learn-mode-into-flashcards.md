@@ -12,6 +12,8 @@ keywords:
   - "Perplexity study workflow"
   - "Perplexity Learn Mode FSRS"
   - "AI weak spots to flashcards"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1en~1blog~1how-to-turn-perplexity-learn-mode-into-flashcards.md"
 ---
 
 Yesterday I uploaded one lecture PDF to Perplexity Learn Mode, answered a few mini-quiz questions, and blanked on a term I had already highlighted twice in the original reading. That blank was the useful part.

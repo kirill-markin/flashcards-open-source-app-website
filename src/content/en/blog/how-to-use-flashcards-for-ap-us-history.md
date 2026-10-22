@@ -12,6 +12,8 @@ keywords:
   - "APUSH LEQ flashcards"
   - "AP US History spaced repetition"
   - "APUSH Anki"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1en~1blog~1how-to-use-flashcards-for-ap-us-history.md"
 ---
 
 `1763`, `1828`, `1898`, `1933`, `1968`. Most APUSH students have seen those years often enough to feel comfortable right up until a source set asks what changed, what stayed the same, and which outside evidence actually proves the claim. That is where a lot of decks get exposed. They remembered the label. They did not remember the historical move.

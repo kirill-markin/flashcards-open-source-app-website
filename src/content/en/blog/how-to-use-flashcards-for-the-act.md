@@ -12,6 +12,8 @@ keywords:
   - "ACT English flashcards"
   - "ACT science flashcards"
   - "ACT study workflow"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1en~1blog~1how-to-use-flashcards-for-the-act.md"
 ---
 
 Three weeks before an ACT date is when a lot of decks start looking fake. The grammar rules are in one app. Math formulas are in a notebook. Reading notes are buried in a document you never reopen. Science screenshots are sitting in a folder called `act stuff`. That is usually when people start searching for **ACT flashcards**, **flashcards for ACT**, or **how to study for the ACT**.

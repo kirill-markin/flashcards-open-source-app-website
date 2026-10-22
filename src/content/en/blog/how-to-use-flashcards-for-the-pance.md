@@ -12,6 +12,8 @@ keywords:
   - "clinical vignette flashcards"
   - "PANCE practice exam"
   - "FSRS PANCE"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1en~1blog~1how-to-use-flashcards-for-the-pance.md"
 ---
 
 By block four of PANCE prep, a lot of misses stop looking random. You knew the disease, but missed the one finding that changed management. You narrowed the differential correctly, then picked the wrong test. You recognized the vignette, but not fast enough to feel calm about doing that again across 300 questions.

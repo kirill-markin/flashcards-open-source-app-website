@@ -12,6 +12,8 @@ keywords:
   - "CFA command words"
   - "spaced repetition CFA"
   - "FSRS CFA study"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1en~1blog~1cfa-level-3-flashcards.md"
 ---
 
 Twenty-two vignette sets—11 item sets and 11 constructed-response, or essay, sets—stand between a CFA Level III candidate and the end of the exam. CFA Level III flashcards can support that work by drilling command words, decision rules, formulas, and repeatable mistakes, but a card cannot test whether you can assemble a complete answer from a vignette under pressure.

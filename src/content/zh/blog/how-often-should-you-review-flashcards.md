@@ -13,6 +13,8 @@ keywords:
   - "什么时候复习闪卡"
   - "每日闪卡复习"
   - "闪卡复习间隔"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1zh~1blog~1how-often-should-you-review-flashcards.md"
 ---
 
 周一早上 7:40，你上班前打开一个有 600 张卡片的牌组，发现 23 张卡已经到期。**闪卡应该多久复习一次？** 条件允许时，每天查看到期队列，但不要每天复习每一张卡。复习这 23 张到期卡片，然后停下。让每张卡的下一次复习间隔根据你实际的回忆表现拉长或缩短。

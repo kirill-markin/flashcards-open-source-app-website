@@ -12,6 +12,8 @@ keywords:
   - "open book test study tips"
   - "active recall for open book exams"
   - "spaced repetition open book exam"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1en~1blog~1how-to-study-for-open-book-exams-with-flashcards.md"
 ---
 
 Last week I watched someone spend eight minutes in an open-note exam looking for one formula they were sure they had highlighted. The formula was there. The points were not.

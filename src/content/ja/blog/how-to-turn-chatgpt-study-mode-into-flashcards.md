@@ -11,6 +11,8 @@ keywords:
   - "学習モード 間隔反復"
   - "ChatGPT Study Mode Anki"
   - "FSRS フラッシュカード"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1ja~1blog~1how-to-turn-chatgpt-study-mode-into-flashcards.md"
 ---
 
 昨日、AI の家庭教師がある話題を順を追って説明し、質問を投げ、弱いところを直し、まだ見放していない先生のように付き合ってくれるのを見ました。そして、そのあとで本当に大事な疑問が浮かびました。で、来週の自分は結局何を覚えているべきなのか。

@@ -12,6 +12,8 @@ keywords:
   - "YouTube transcript to flashcards"
   - "Anki flashcards from YouTube"
   - "YouTube video flashcard generator"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1en~1blog~1youtube-to-flashcards.md"
 ---
 
 The best YouTube-to-flashcards tool depends less on how quickly it accepts a URL than on what you can inspect, edit, review, and move afterward. AnkiDecks has the clearest documented route from a public YouTube URL to an Anki `.apkg` file. StudyFetch and Knowt are more direct if you want generated cards inside their own study environments. Gizmo's documented YouTube workflow creates an AI Tutor lesson, not a flashcard deck. Nibomo takes an extra step because you bring the transcript yourself, but gives you an editable, portable deck with FSRS, offline study, and a self-hosting option.

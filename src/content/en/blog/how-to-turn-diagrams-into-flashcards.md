@@ -11,6 +11,8 @@ keywords:
   - "study diagrams with flashcards"
   - "labeled image flashcards"
   - "image diagram flashcards"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1en~1blog~1how-to-turn-diagrams-into-flashcards.md"
 ---
 
 Yesterday I looked at a diagram I definitely understood three days earlier and realized I now recognized every label without being able to recall what any of them were doing. Which is usually when people start searching **diagram to flashcards**.

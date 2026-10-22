@@ -11,6 +11,8 @@ keywords:
   - "how to study for the digital SAT"
   - "Bluebook mistakes flashcards"
   - "digital SAT study workflow"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1en~1blog~1how-to-use-flashcards-for-the-digital-sat.md"
 ---
 
 One of the most common Digital SAT study messes looks like this: a vocab list in one tab, grammar notes in another, a math notebook full of half-solved problems, and a folder of Bluebook misses you meant to revisit later. Then flashcards get added on top and become one more pile instead of the thing that simplifies the rest. That is usually when people start searching **digital SAT flashcards**, **SAT flashcards**, or **how to study for the digital SAT**.

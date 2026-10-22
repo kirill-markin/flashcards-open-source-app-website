@@ -11,6 +11,8 @@ keywords:
   - "画像からフラッシュカードを作る AI"
   - "手書きノート カード化"
   - "ノート写真 フラッシュカード"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1ja~1blog~1how-to-turn-handwritten-notes-into-flashcards.md"
 ---
 
 昨日、ノート2ページを写真に撮りました。小さな学業地震を生き延びたみたいな見た目です。矢印だらけ。余白には定義の半分。全部を説明しているつもりの図がひとつ。自分で書いたので今の私は読めます。でも、未来の自分をそこまで信用していません。

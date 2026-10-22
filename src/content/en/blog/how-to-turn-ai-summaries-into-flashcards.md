@@ -12,6 +12,8 @@ keywords:
   - "NotebookLM summary flashcards"
   - "AI study workflow 2026"
   - "FSRS flashcards"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1en~1blog~1how-to-turn-ai-summaries-into-flashcards.md"
 ---
 
 Last Tuesday an AI summary turned "usually" into "always" in one sentence. The source was careful. The summary was cleaner. If I had turned that cleaner sentence straight into a flashcard, I would have memorized the wrong version with extra confidence.

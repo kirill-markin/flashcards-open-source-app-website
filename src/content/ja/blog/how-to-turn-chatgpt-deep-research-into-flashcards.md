@@ -12,6 +12,8 @@ keywords:
   - "ChatGPT 学習ワークフロー"
   - "Deep Research 間隔反復"
   - "FSRS フラッシュカード"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1ja~1blog~1how-to-turn-chatgpt-deep-research-into-flashcards.md"
 ---
 
 月曜日、片方のタブには ChatGPT Deep Research のレポート、もう片方のタブには空のフラッシュカードデッキを開いていました。レポートはもう完成しているように見えました。出典が付き、見出しも整い、文章もきれいです。役には立つ。でも、まだ身についたわけではありません。

@@ -12,6 +12,8 @@ keywords:
   - "command words CFA"
   - "repetición espaciada CFA"
   - "estudiar CFA con FSRS"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1es~1blog~1cfa-level-3-flashcards.md"
 ---
 
 Las flashcards para CFA Level III funcionan mejor como una breve capa de recuperación activa para los verbos de instrucción (command words), las reglas de decisión, las fórmulas y los errores recurrentes detectados en preguntas que ya hayas resuelto. Crea una sección para el núcleo común (common core) y otra para el itinerario que hayas elegido. Mantén en el plan las respuestas construidas (constructed response) cronometradas, los bloques de preguntas (item sets) y los simulacros completos: una tarjeta no puede comprobar si sabes elaborar una respuesta completa a partir de un caso bajo la presión del examen.

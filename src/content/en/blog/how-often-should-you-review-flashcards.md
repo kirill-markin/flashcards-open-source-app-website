@@ -13,6 +13,8 @@ keywords:
   - "when to review flashcards"
   - "daily flashcard reviews"
   - "flashcard review intervals"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1en~1blog~1how-often-should-you-review-flashcards.md"
 ---
 
 At 7:40 on Monday morning, you open a 600-card deck before work and find 23 cards due. **How often should you review flashcards?** Check the due queue daily when practical, but do not review every card every day. Review the 23 cards that are due, then stop. Let each card’s next interval expand or contract from how well you actually recalled it.

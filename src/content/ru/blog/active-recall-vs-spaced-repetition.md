@@ -12,6 +12,8 @@ keywords:
   - "карточки для учебы с ии"
   - "fsrs и active recall"
   - "что повторять позже"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1ru~1blog~1active-recall-vs-spaced-repetition.md"
 ---
 
 Вечером вы подряд отвечаете на пять вопросов по теме, закрываете ноутбук и думаете, что с этим разделом уже закончили. Утром пробуете объяснить один из тех же ответов без подсказок и застреваете на середине.

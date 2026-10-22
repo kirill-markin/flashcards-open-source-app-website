@@ -12,6 +12,8 @@ keywords:
   - "hacer flashcards después de los apuntes"
   - "flujo de trabajo de flashcards con IA"
   - "flashcards con FSRS"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1es~1blog~1when-to-make-flashcards.md"
 ---
 
 Ayer vi a alguien pasar 90 minutos convirtiendo una sola clase en 84 flashcards y luego saltarse el repaso porque el mazo ya le parecía estudio suficiente. Ahí estaba todo el problema, en una sola sesión: el momento era malo, la cantidad de tarjetas también y el trabajo empezó antes de que llegara la comprensión.

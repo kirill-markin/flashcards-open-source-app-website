@@ -13,6 +13,8 @@ keywords:
   - "app de flashcards con FSRS"
   - "app de flashcards sin conexión"
   - "app de flashcards autoalojada"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1es~1blog~1memrise-alternative.md"
 ---
 
 Abre Memrise sin una lista de vocabulario y aun así te dirá qué aprender a continuación. Abre un espacio de trabajo vacío en Nibomo y seguirá vacío hasta que añadas algo. Esa es la diferencia clave para quien busca una **alternativa a Memrise**.

@@ -12,6 +12,8 @@ keywords:
   - "DAT Anki"
   - "DAT PAT study tips"
   - "DAT 2026 organic chemistry update"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1en~1blog~1how-to-use-flashcards-for-the-dat.md"
 ---
 
 If you are taking the DAT in May 2026 or later, the ADA is still telling you to review the updated organic chemistry specifications. That sounds like a small note until you open a public deck and realize half the tags, topic names, and examples do not line up cleanly with the current exam.

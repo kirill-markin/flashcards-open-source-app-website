@@ -11,6 +11,8 @@ keywords:
   - "spaced repetition for MCAT"
   - "missed questions into flashcards MCAT"
   - "FSRS MCAT study"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1en~1blog~1how-to-use-flashcards-for-the-mcat.md"
 ---
 
 Two or three weeks into MCAT prep, a lot of students end up with the same scattered setup: amino acids on one sheet, physics equations in a note app, psych/soc terms highlighted in a prep book, and a running list of missed practice questions they keep meaning to revisit. Then flashcards get added on top and somehow become one more pile instead of the system that simplifies the rest. That is usually when people start searching **MCAT flashcards**, **how to study for the MCAT with flashcards**, or **spaced repetition for MCAT**.
