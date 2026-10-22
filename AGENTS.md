@@ -108,6 +108,7 @@ Mostly text pages stay Markdown-backed:
 Keep typed content models mirrored with the other marketing website repository. Build-time generation must produce both HTML and Markdown from the same source of truth.
 
 - Keep every catalog route localized, including package pages. Locale selects UI language; package content language comes only from `languageTags`, and locale catalog roots expose `?language=<locale>`.
+- Blog CTAs use explicit article/deck associations in [src/lib/blogDeckResource.ts](src/lib/blogDeckResource.ts) only for matching article languages; without an association in that language, keep the general app CTA.
 - Collections are the only curated package grouping; do not add catalog topics.
 - Localization and adding a locale: [docs/localization.md](docs/localization.md).
 

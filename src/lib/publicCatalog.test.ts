@@ -684,7 +684,7 @@ test("parses the schema and builds latest-version-only lookup data", () => {
   );
 });
 
-test("blog deck resources fill the article slots and one Markdown footer with localized public details", async (context) => {
+test("matching-language blog decks fill article slots and one Markdown footer with the same public details", async (context) => {
   const cssHook = registerHooks({
     load(url, loadContext, nextLoad) {
       return url.endsWith(".module.css")
@@ -705,17 +705,24 @@ test("blog deck resources fill the article slots and one Markdown footer with lo
   // Standalone rendering does not load next.config.ts's trailingSlash setting.
   process.env.__NEXT_TRAILING_SLASH = "true";
 
-  const input = createValidDump();
-  const packageSlug = "us-state-abbreviations-flashcards";
-  input.packages[0].slug = packageSlug;
-  input.packageVersions.forEach((version) => {
-    version.slug = packageSlug;
-  });
-  input.packageVersions[1].languageTags = ["en"];
-  const model = createPublicCatalogReadModel(parsePublicCatalogDump(input));
-
-  for (const locale of SUPPORTED_LOCALES) {
-    const resource = resolveBlogDeckResource("us-state-abbreviations", locale, model);
+  for (const { articleSlug, locale, packageSlug } of [
+    { articleSlug: "us-state-abbreviations", locale: "en", packageSlug: "us-state-abbreviations-flashcards" },
+    { articleSlug: "git-reset-restore-revert-practice", locale: "en", packageSlug: "git-commands-flashcards" },
+    { articleSlug: "planes-of-movement", locale: "en", packageSlug: "anatomical-planes-movements-flashcards" },
+    { articleSlug: "anatomical-directional-terms", locale: "en", packageSlug: "anatomical-directional-terms" },
+    { articleSlug: "anatomical-directional-terms", locale: "es", packageSlug: "anatomical-directional-terms-es" },
+    { articleSlug: "anatomical-directional-terms", locale: "ar", packageSlug: "anatomical-directional-terms-ar" },
+    { articleSlug: "periodic-table-flashcards", locale: "ru", packageSlug: "periodic-table-elements-russian-flashcards" },
+    { articleSlug: "ccsp-flashcards", locale: "ja", packageSlug: "ccsp-2026-japanese-flashcards" },
+  ] as const) {
+    const input = createValidDump();
+    input.packages[0].slug = packageSlug;
+    input.packageVersions.forEach((version) => {
+      version.slug = packageSlug;
+    });
+    input.packageVersions[1].languageTags = [locale];
+    const model = createPublicCatalogReadModel(parsePublicCatalogDump(input));
+    const resource = resolveBlogDeckResource(articleSlug, locale, model);
     const copy = getPublicCatalogUiCopy(locale);
     assert.ok(resource);
     assert.equal(resource.packageHref, getPublicCatalogPackageLocalizedPathname(locale, packageSlug));
@@ -724,8 +731,7 @@ test("blog deck resources fill the article slots and one Markdown footer with lo
     assert.equal(resource.summary, input.packageVersions[1].summary);
     assert.deepEqual(resource.coverMediaAsset, model.packages[0].coverMediaAsset);
     assert.equal(resource.cardCountLabel, formatPublicCatalogCardCount(locale, 2, copy));
-    assert.ok(resource.languageLabel.includes("(en)"));
-    assert.equal(resource.languageLabel.includes("(es)"), false);
+    assert.ok(resource.languageLabel.includes(`(${locale})`));
 
     for (const placement of ["article_start_side", "mid_article", "article_end"] as const) {
       const html = renderToStaticMarkup(createElement(
@@ -749,8 +755,8 @@ test("blog deck resources fill the article slots and one Markdown footer with lo
     }
 
     const pagePath = locale === "en"
-      ? "blog/us-state-abbreviations"
-      : `${locale}/blog/us-state-abbreviations`;
+      ? `blog/${articleSlug}`
+      : `${locale}/blog/${articleSlug}`;
     const document = renderMarkdownDocument(pagePath, {
       globalActivitySnapshot: emptyActivitySnapshot,
       publicCatalog: model,
@@ -777,30 +783,67 @@ test("blog deck resources fill the article slots and one Markdown footer with lo
       )).length,
       1,
     );
-    assert.ok(nodes.some((node) => node.type === "text" && node.value?.includes("(en)")));
-    const firstTable = nodes.find((node) => node.type === "table");
-    assert.equal(firstTable?.children?.length, 51);
-    assert.ok(nodes.some((node) => node.type === "list" && node.ordered === true && node.children?.length === 12));
+    assert.ok(nodes.some((node) => node.type === "text" && node.value?.includes(`(${locale})`)));
+    if (articleSlug === "us-state-abbreviations") {
+      const firstTable = nodes.find((node) => node.type === "table");
+      assert.equal(firstTable?.children?.length, 51);
+      assert.ok(nodes.some((node) => node.type === "list" && node.ordered === true && node.children?.length === 12));
+    }
   }
 });
 
-test("blog deck association leaves other articles unchanged and reports a missing published deck", () => {
+test("blog deck association leaves unmapped languages and articles unchanged and reports missing decks", () => {
   const model = createPublicCatalogReadModel(parsePublicCatalogDump(createValidDump()));
   assert.equal(resolveBlogDeckResource("how-to-make-better-flashcards", "en", model), null);
   assert.equal(resolveBlogDeckResource("us-state-abbreviations", "en", null), null);
+  for (const locale of SUPPORTED_LOCALES.filter((locale) => locale !== "en")) {
+    assert.equal(resolveBlogDeckResource("us-state-abbreviations", locale, model), null);
+    assert.equal(resolveBlogDeckResource("git-reset-restore-revert-practice", locale, model), null);
+    assert.equal(resolveBlogDeckResource("planes-of-movement", locale, model), null);
+  }
   assert.throws(
     () => resolveBlogDeckResource("us-state-abbreviations", "en", model),
     /published catalog package us-state-abbreviations-flashcards is missing/,
   );
-  assert.equal(
-    renderMarkdownDocument("blog/how-to-make-better-flashcards", {
+  assert.throws(
+    () => resolveBlogDeckResource("anatomical-directional-terms", "es", model),
+    /article anatomical-directional-terms in locale es: published catalog package anatomical-directional-terms-es is missing/,
+  );
+  for (const pagePath of [
+    "blog/how-to-make-better-flashcards",
+    "es/blog/us-state-abbreviations",
+    "de/blog/ccsp-flashcards",
+  ]) {
+    const document = renderMarkdownDocument(pagePath, {
       globalActivitySnapshot: emptyActivitySnapshot,
       publicCatalog: model,
-    }).markdown,
-    renderMarkdownDocument("blog/how-to-make-better-flashcards", {
+    });
+    assert.equal(document.status, 200);
+    assert.equal(document.markdown, renderMarkdownDocument(pagePath, {
       globalActivitySnapshot: emptyActivitySnapshot,
       publicCatalog: null,
-    }).markdown,
+    }).markdown);
+  }
+});
+
+test("blog deck associations reject published decks in the wrong article language", () => {
+  const input = createValidDump();
+  input.packages[0].slug = "anatomical-directional-terms-es";
+  input.packageVersions.forEach((version) => {
+    version.slug = "anatomical-directional-terms-es";
+    version.languageTags = ["en"];
+  });
+  const model = createPublicCatalogReadModel(parsePublicCatalogDump(input));
+  assert.throws(
+    () => resolveBlogDeckResource("anatomical-directional-terms", "es", model),
+    /article anatomical-directional-terms in locale es: published catalog package anatomical-directional-terms-es has languageTags \[en\], which do not include es/,
+  );
+  assert.throws(
+    () => renderMarkdownDocument("es/blog/anatomical-directional-terms", {
+      globalActivitySnapshot: emptyActivitySnapshot,
+      publicCatalog: model,
+    }),
+    /languageTags \[en\], which do not include es/,
   );
 });
 
