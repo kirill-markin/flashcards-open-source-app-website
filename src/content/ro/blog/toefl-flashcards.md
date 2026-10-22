@@ -158,8 +158,6 @@ Iată cinci transformări frecvente:
 
 Nu copia pe o singură fișă o întrebare oficială întreagă și explicația răspunsului. Scrie în cuvintele tale lecția verificată. Lasă itemul complet în materialul de pregătire și păstrează în set doar elementul scurt care merită memorat.
 
-[Fișe de învățare sau teste de pregătire în 2026](/blog/flashcards-vs-practice-tests/) explică de ce fișa și următoarea întrebare nouă trebuie să rămână pași separați.
-
 ## Verifică un set TOEFL vechi înainte să îl recapitulezi
 
 Seturile create înainte de 21 ianuarie 2026 pot combina noțiuni de engleză încă valabile cu detalii despre test care nu se mai aplică. Păstrează conținutul lingvistic util, dar examinează fiecare fișă al cărei răspuns depinde de format.

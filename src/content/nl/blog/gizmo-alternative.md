@@ -83,7 +83,7 @@ AI Tutor heeft een andere taak. Het kan de stof stap voor stap doornemen, aantek
 
 Rond beide modi maakt Gizmo van voortgang een spel. Quizzen levert XP op en draagt bij aan Levels, Leagues en Streaks. Hearts, Hints en Coins beïnvloeden hoe gratis quizsessies verlopen. Als die spelmechanieken het makkelijker maken om elke dag terug te komen, wegen ze mee in je keuze voor het product.
 
-Een korte vraag waarmee je kennis uit je geheugen ophaalt, heeft wel een ander doel dan een oefenvraag met meerdere stappen. [Flashcards of oefentoetsen](/blog/flashcards-vs-practice-tests/) legt uit waarom een combinatie meestal nuttiger is dan elk onderwerp in een kaart proberen te persen.
+Een korte vraag waarmee je kennis uit je geheugen ophaalt, heeft wel een ander doel dan een oefenvraag met meerdere stappen.
 
 ## Vier beperkingen om te controleren voordat je een cursus in Gizmo onderbrengt
 

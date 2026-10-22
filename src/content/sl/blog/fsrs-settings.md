@@ -131,7 +131,7 @@ Uporabite **Again**, kadar zahtevanega odgovora niste znali povedati ali je bil 
 
 Če pritisnete Hard, da se izognete kratkemu intervalu Again, po neuspehu zabeležite uspeh. FSRS se nato uči iz napačnega dogodka. Gumb izberite glede na to, kako ste se spomnili odgovora, ne glede na to, kateri od prikazanih intervalov vam najbolj ustreza.
 
-Dvoumne kartice otežijo iskreno ocenjevanje. Če vprašanje zahteva pet dejstev, vi pa se spomnite štirih, se je težava z razporejanjem začela že v urejevalniku. Kartico razdelite ali preoblikujte. Za kartice, pri katerih vam kljub ponavljanjem vedno znova spodleti, preberite [Kako popraviti kartice, ki jih vedno znova pozabljate](/blog/how-to-fix-leech-flashcards/).
+Dvoumne kartice otežijo iskreno ocenjevanje. Če vprašanje zahteva pet dejstev, vi pa se spomnite štirih, se je težava z razporejanjem začela že v urejevalniku. Kartico razdelite ali preoblikujte.
 
 ## Učni koraki FSRS naj bodo kratki — ali pa jih namenoma pustite prazne
 

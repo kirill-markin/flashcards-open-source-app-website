@@ -205,7 +205,7 @@ Do not use a card to decide:
 
 Those questions require current law, guidance, documented facts, and often qualified legal advice. The answer can change with the product, intended purpose, distribution model, or use context.
 
-Use scenario cards to practice finding the relevant provision. Reach conclusions from the current sources, documented facts, and appropriate advice. The same split appears in [Flashcards vs Practice Tests](/blog/flashcards-vs-practice-tests/): cards keep components retrievable, while larger exercises test whether you can use them together. Split any card whose answer is too broad to grade honestly.
+Use scenario cards to practice finding the relevant provision. Reach conclusions from the current sources, documented facts, and appropriate advice. Cards keep components retrievable, while larger exercises test whether you can use them together. Split any card whose answer is too broad to grade honestly.
 
 ## FAQ about the EU AI Act 2026 timeline
 

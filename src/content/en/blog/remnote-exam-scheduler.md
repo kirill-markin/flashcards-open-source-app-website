@@ -97,4 +97,4 @@ For daily practice, scheduled new material appears in **Learn New Content** and 
 
 After a scheduled session, close the notes and answer an exam-style question: *A competitive inhibitor is added to an enzyme reaction. Sketch how reaction rate changes with substrate concentration, and explain your prediction.* Check your response against the course's expected answer and marking criteria.
 
-If you recall the definitions but can't build the explanation, reserve time to practice that task and improve the cards that exposed the gap. A completed daily goal records flashcard work. Your exam may also ask you to draw, reason, calculate, or connect ideas; the [flashcards and practice tests comparison](/blog/flashcards-vs-practice-tests/) helps you plan time for both.
+If you recall the definitions but can't build the explanation, reserve time to practice that task and improve the cards that exposed the gap. A completed daily goal records flashcard work. Your exam may also ask you to draw, reason, calculate, or connect ideas, so reserve time for those tasks too.

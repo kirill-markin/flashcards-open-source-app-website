@@ -158,8 +158,6 @@ Her er fem vanlige måter å gjøre feil om til kort på:
 
 Ikke kopier et helt offisielt spørsmål med forklaring til ett kort. Skriv det du har lært etter å ha undersøkt feilen, med egne ord. La hele oppgaven bli i øvingsmaterialet, og behold bare det lille huskepunktet i kortstokken.
 
-[Flashkort eller øvingsprøver i 2026](/blog/flashcards-vs-practice-tests/) forklarer hvorfor kortet og den neste nye oppgaven bør forbli to separate trinn.
-
 ## Gå gjennom en gammel TOEFL-kortstokk før du repeterer den
 
 Kortstokker laget før 21. januar 2026 kan blande engelsk som fortsatt er nyttig, med utdaterte prøvedetaljer. Behold nyttig språk, men undersøk alle kort der svaret avhenger av prøveformatet.

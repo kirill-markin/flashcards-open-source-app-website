@@ -131,7 +131,7 @@ Dùng **Again** khi bạn không đưa ra được đáp án cần thiết hoặ
 
 Nhấn Hard để tránh khoảng ôn ngắn của Again sẽ ghi nhận một lần nhớ đúng dù thực tế bạn đã không nhớ được. Khi đó, FSRS học từ một sự kiện bị ghi sai. Hãy chọn nút phản ánh đúng việc bạn có nhớ được đáp án hay không và nhớ dễ hay khó. Đừng chọn chỉ vì muốn có khoảng cách ôn hiển thị phía trên nút đó.
 
-Thẻ mơ hồ khiến việc đánh giá trung thực khó hơn. Nếu câu hỏi yêu cầu năm ý mà bạn nhớ được bốn, vấn đề lên lịch đã bắt đầu từ lúc soạn thẻ. Hãy tách hoặc viết lại thẻ. Với những thẻ bạn cứ quên dù đã ôn nhiều lần, hãy xem [Cách sửa những thẻ cứ học mãi vẫn quên](/blog/how-to-fix-leech-flashcards/).
+Thẻ mơ hồ khiến việc đánh giá trung thực khó hơn. Nếu câu hỏi yêu cầu năm ý mà bạn nhớ được bốn, vấn đề lên lịch đã bắt đầu từ lúc soạn thẻ. Hãy tách hoặc viết lại thẻ.
 
 ## Giữ bước học FSRS ngắn — hoặc chủ động để trống
 

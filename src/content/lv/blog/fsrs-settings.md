@@ -131,7 +131,7 @@ Izmantojiet **Again**, ja nevarējāt sniegt prasīto atbildi vai atbildējāt n
 
 Nospiežot Hard, lai izvairītos no īsā Again intervāla, jūs reģistrējat sekmīgu atbildi, lai gan atcerēties neizdevās. FSRS tad mācās no nepareizi reģistrēta notikuma. Izvēlieties pogu pēc tā, cik labi atcerējāties atbildi, nevis pēc tā, kurš virs pogām norādītais intervāls jums patīk labāk.
 
-Neskaidras kartītes apgrūtina godīgu vērtēšanu. Ja jautājums prasa piecus faktus un atceraties četrus, plānošanas problēma sākās jau redaktorā. Sadaliet vai pārrakstiet kartīti. Kartītēm, kuras neizdodas atcerēties par spīti daudziem atkārtojumiem, izmantojiet rakstu [Kā labot mācību kartītes, kas pastāvīgi sagādā grūtības](/blog/how-to-fix-leech-flashcards/).
+Neskaidras kartītes apgrūtina godīgu vērtēšanu. Ja jautājums prasa piecus faktus un atceraties četrus, plānošanas problēma sākās jau redaktorā. Sadaliet vai pārrakstiet kartīti.
 
 ## Atstājiet FSRS apguves soļus īsus vai apzināti atstājiet laukus tukšus
 

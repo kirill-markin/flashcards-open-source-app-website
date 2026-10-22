@@ -200,8 +200,6 @@ section and label any uncertainty. Do not invent facts or save anything.
 
 Study Mode is available in regular and Temporary Chat conversations, but not in GPT or Project conversations. ChatGPT [Projects](https://help.openai.com/en/articles/10169521-using-projects-in-chatgpt) can keep files, instructions, and chats together for recurring context, so a Project may still be useful for a long course. Open a regular conversation when you specifically want Study Mode.
 
-The companion guide [How to Turn ChatGPT Study Mode Into Flashcards](/blog/how-to-turn-chatgpt-study-mode-into-flashcards/) focuses on tutoring, mistakes, and weak spots. This article covers the broader workflow from source material to an approved deck.
-
 ## Output only the cards you approved
 
 Do not ask ChatGPT to “clean everything up” after approval. That can quietly add cards, merge items, or change factual wording. Give it the accepted IDs and freeze the content:

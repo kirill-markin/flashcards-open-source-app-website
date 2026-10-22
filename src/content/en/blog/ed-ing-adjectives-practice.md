@@ -97,7 +97,7 @@ A card saying only “interested or interesting?” has no clear answer. Keep th
 | Chose by time | Tomorrow I'll feel excitement about the race. I'll be ___. (excited / exciting) | **excited** — my feeling; *tomorrow* supplies the time. |
 | Changed the intended meaning | Repair “The delay is frustrated.” Meaning: it makes travelers feel frustrated. | **The delay is frustrating.** The delay causes the feeling. |
 
-Use paper or your chosen card app. The [cloze vs basic flashcards guide](/blog/cloze-deletion-vs-basic-flashcards/) can help you choose a sentence blank or a direct repair question; the [language-learning flashcard guide](/blog/how-to-use-flashcards-for-language-learning/) covers a broader routine.
+Use paper or your chosen card app. Choose a sentence blank or a direct repair question that tests the mistake you made; the [language-learning flashcard guide](/blog/how-to-use-flashcards-for-language-learning/) covers a broader routine.
 
 When you review, say the completed sentence and name the role. Count an answer as correct only if you can explain who feels something or what causes it. For a question you missed, write a second sentence that describes the other role: “Jo is interested in birds. Her stories about birds are interesting.” Give the second sentence its own context, such as listeners wanting to hear more. Changing the ending changes the meaning, so the new sentence needs to make sense too.
 

@@ -83,7 +83,7 @@ AI Tutor fa una altra feina. Pot explicar el material pas a pas, generar apunts 
 
 Al voltant de tots dos modes, Gizmo converteix el progrés en un joc. Fer qüestionaris contribueix a XP, Levels, Leagues i Streaks, mentre que Hearts, Hints i Coins condicionen el desenvolupament de les sessions gratuïtes. Si aquestes mecàniques t'ajuden a tornar-hi cada dia, pesen a l'hora de triar el producte; no són un simple adorn.
 
-Ara bé, una pregunta breu per recordar una dada i un exercici de diversos passos tenen funcions diferents. [Fitxes o exàmens de pràctica](/blog/flashcards-vs-practice-tests/) explica per què combinar-los acostuma a ser més útil que forçar tots els temes a encaixar en una fitxa.
+Ara bé, una pregunta breu per recordar una dada i un exercici de diversos passos tenen funcions diferents.
 
 ## Quatre limitacions que cal comprovar abans de passar una assignatura a Gizmo
 

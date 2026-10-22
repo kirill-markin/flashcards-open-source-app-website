@@ -95,7 +95,7 @@ Give that choice its own card:
 | Forgot the spelling of led | Yesterday, Sam ___ the group upstairs. (lead) | **led** — the past form of lead |
 | Assumed participles always mean past time | The menu will be ___ tomorrow. (write) | **written** — future passive: will be + participle |
 
-Keep the helping verb visible when you're practicing how to choose a form. Include the base verb in brackets so you don't have to guess which word the card asks for. Our [cloze vs basic flashcards guide](/blog/cloze-deletion-vs-basic-flashcards/) explains how to choose between sentence prompts and direct questions.
+Keep the helping verb visible when you're practicing how to choose a form. Include the base verb in brackets so you don't have to guess which word the card asks for.
 
 For form recall, the [English irregular verbs deck](/catalog/packages/english-irregular-verbs-flashcards/) contains 203 cards covering 70 verbs. For choosing forms in context, try the [past simple vs past participle sentence-practice deck](/catalog/packages/past-simple-vs-past-participle-flashcards/). Its sentence prompts supply the base verb, and the answers explain the grammatical clue. It also includes verb-form corrections and questions about a form's role in a sentence. The [language-learning flashcard guide](/blog/how-to-use-flashcards-for-language-learning/) covers building a broader routine.
 

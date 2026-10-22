@@ -83,7 +83,7 @@ AI Tutorilla on eri tehtävä. Se voi käydä materiaalin läpi vaihe vaiheelta,
 
 Kummassakin tilassa Gizmo tekee etenemisestä pelimäistä. Kysymyksiin vastaaminen kartuttaa XP:tä ja edistää etenemistä tasoilla ja liigoissa sekä ylläpitää opiskelupäivien putkea. Sydämet, vihjeet ja kolikot puolestaan vaikuttavat harjoittelun kulkuun ilmaisversiossa. Jos nämä mekanismit auttavat palaamaan opiskelun pariin joka päivä, niillä on todellinen merkitys tuotetta valittaessa.
 
-Lyhyt muistista palauttamista harjoittava kysymys ja monivaiheinen harjoitustehtävä palvelevat silti eri tarkoituksia. [Oppimiskorttien ja harjoituskokeiden vertailu](/blog/flashcards-vs-practice-tests/) selittää, miksi niiden yhdistäminen on yleensä hyödyllisempää kuin jokaisen aiheen mahduttaminen korttiin.
+Lyhyt muistista palauttamista harjoittava kysymys ja monivaiheinen harjoitustehtävä palvelevat silti eri tarkoituksia.
 
 ## Neljä rajoitusta, jotka kannattaa tarkistaa ennen kurssin siirtämistä Gizmoon
 

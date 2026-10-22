@@ -246,7 +246,7 @@ Back: Tengo
 
 Keep the teacher's correction or source note. AI can draft a cleaner prompt from it, but fluent-looking Spanish is not proof that the form is correct for your intended meaning and variety.
 
-When one card fails repeatedly, more exposure to the same vague prompt rarely fixes it. Check the source, narrow the cue, split mixed targets, or add the exact contrast you missed. The [leech-flashcard repair guide](/blog/how-to-fix-leech-flashcards/) gives that cleanup process in detail.
+When one card fails repeatedly, more exposure to the same vague prompt rarely fixes it. Check the source, narrow the cue, split mixed targets, or add the exact contrast you missed.
 
 ## Keep the review queue smaller than the source pile
 
@@ -285,7 +285,7 @@ One simple setup is:
 
 AI can help draft a card or tighten its wording from material you provide. You still decide what gets saved and verify the Spanish. The app does not provide an official Spanish course or official premade Spanish deck, native-speaker audio for the examples in this article, pronunciation scoring, conversation practice, or automatic validation of grammar and regional usage.
 
-The hosted app is free during the current beta, with AI and sync included, and self-hosting is available. See [Getting Started](/docs/getting-started/) for the hosted, mobile, agent, and self-hosted paths. If you are comparing a vocabulary-course product with a user-controlled flashcard tool, the [Memrise alternative guide](/blog/memrise-alternative/) explains the difference in workflow.
+The hosted app is free during the current beta, with AI and sync included, and self-hosting is available. See [Getting Started](/docs/getting-started/) for the hosted, mobile, agent, and self-hosted paths.
 
 ## Spanish flashcards FAQ
 

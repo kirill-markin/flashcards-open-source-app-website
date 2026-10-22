@@ -158,8 +158,6 @@ Laikykitės tokios eigos:
 
 Nekopijuokite viso oficialaus klausimo ir jo paaiškinimo į vieną kortelę. Patikrintą išvadą užrašykite savais žodžiais. Visą užduotį palikite pratybų medžiagoje, o rinkinyje laikykite tik nedidelį įsimintiną dalyką.
 
-Straipsnyje [„Mokymosi kortelės ar bandomieji testai 2026 m.“](/blog/flashcards-vs-practice-tests/) paaiškinama, kodėl kortelė ir kitas naujas klausimas turėtų likti atskiri žingsniai.
-
 ## Prieš kartodami seną TOEFL rinkinį, jį peržiūrėkite
 
 Iki 2026 m. sausio 21 d. sukurtuose rinkiniuose ilgalaikę vertę turinčios anglų kalbos žinios gali būti sumaišytos su nebegaliojančiomis testo detalėmis. Palikite naudingą kalbinę medžiagą, bet patikrinkite kiekvieną kortelę, kurios atsakymas priklauso nuo formato.

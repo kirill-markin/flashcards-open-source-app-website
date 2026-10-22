@@ -160,7 +160,7 @@ Nibomo covers a narrower learning workflow. It has no connected note knowledge b
 
 Nibomo has a documented [whole-stack AWS self-hosting path](/docs/self-hosting/), but it is not a one-command local appliance. An operator owns AWS, Cloudflare, authentication, email delivery, monitoring, upgrades, database recovery, and separate native-app builds. Its [remote MCP connector](/docs/mcp-connector/) can reach cards and decks without keeping a desktop app open; RemNote's local connector reaches the current knowledge base but not the review queue. These are different product shapes, not a simple better-or-worse ladder.
 
-If privacy matters more than branding, [private flashcards with AI](/blog/private-flashcards-with-ai/) offers a checklist for separating local storage, sync, AI-provider access, and self-hosting across a study workflow.
+When assessing privacy, check local storage, sync, AI-provider access, and self-hosting separately. An open-source license alone does not tell you who can read your study material.
 
 ## The honest answer
 

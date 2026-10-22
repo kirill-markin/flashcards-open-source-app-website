@@ -83,7 +83,7 @@ AI Tutor täidab teist ülesannet. See võib materjali sammhaaval läbi võtta, 
 
 Mõlemas režiimis aitab Gizmo mängulisel viisil edenemist jälgida. Testide tegemine kasvatab XP-d ning mõjutab tasemeid (Levels), liigasid (Leagues) ja järjestikuste õpipäevade arvestust (Streaks). Hearts, Hints ja Coins mõjutavad samal ajal tasuta testiseansside kulgu. Kui need mehhanismid aitavad sul iga päev õppimise juurde tagasi tulla, on need toote valikul päriselt olulised.
 
-Lühike meenutamisküsimus ja mitmest sammust koosnev harjutus täidavad siiski eri ülesandeid. [Õpikaartide ja harjutustestide võrdlus](/blog/flashcards-vs-practice-tests/) selgitab, miks nende kombineerimine on tavaliselt kasulikum kui iga teema õpikaardile surumine.
+Lühike meenutamisküsimus ja mitmest sammust koosnev harjutus täidavad siiski eri ülesandeid.
 
 ## Neli piirangut, mida kontrollida enne terve kursuse Gizmosse viimist
 

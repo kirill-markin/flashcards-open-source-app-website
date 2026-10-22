@@ -111,6 +111,6 @@ Write complete reports before looking below. When backshift is requested, use it
 
 A card saying only “tomorrow → ___” hides the decision. Keep the original date and reporting date visible. For exercise 7, ask: “Ana speaks on 4 September; Bo reports on 5 September. Who receives the call, and on which date?” Put **Bo; 5 September**, followed by the model sentence, on the back.
 
-Keep the reporting date at 5 September, but let Chen report it to someone else. The answer becomes “Ana said she would call **Bo** today.” A clear name avoids an uncertain *him* or *her*. The [cloze vs basic flashcards guide](/blog/cloze-deletion-vs-basic-flashcards/) can help you choose a format; include accepted alternatives so the card preserves the meaning you're practicing.
+Keep the reporting date at 5 September, but let Chen report it to someone else. The answer becomes “Ana said she would call **Bo** today.” A clear name avoids an uncertain *him* or *her*. Include accepted alternatives so the card preserves the meaning you're practicing.
 
 *Production note: AI contributed substantially to the research, writing, original exercises, and two editorial passes on this article. The illustration was also AI-generated.*

@@ -168,10 +168,7 @@ Maybe it was:
 
 That means the generated cards are already one transformation away from the source. Giving them one more cleanup pass before they become review items is not overkill. It is quality control.
 
-If your source is still stuck one step earlier, these companion pieces help:
-
-- [How to Turn Notes Into Flashcards in 2026](https://nibomo.com/blog/turn-notes-into-flashcards/)
-- [How to Turn Notion Notes Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-notion-notes-into-flashcards/)
+If your source is still stuck one step earlier, [How to Turn Notes Into Flashcards in 2026](https://nibomo.com/blog/turn-notes-into-flashcards/) covers choosing and shaping the material before review.
 
 ## The workflow I would use this week
 

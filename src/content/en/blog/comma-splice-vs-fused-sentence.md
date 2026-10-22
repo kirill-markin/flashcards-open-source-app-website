@@ -130,7 +130,7 @@ Retry missed items before making cards. If the same mistake returns, put a short
 | Seeing two verbs as two clauses | Does this need a comma? Jo opened the box and counted the parts. | No. Jo shares both actions; this is one clause. |
 | Adding a reason accidentally | Repair without adding causation: Mina paints, Sol writes. | Mina paints. Sol writes. Because would add a reason. |
 
-Keep the whole sentence visible when practicing diagnosis. Hiding only a punctuation mark can let you memorize its position without finding the clauses. For choosing a card format, see [cloze deletion vs basic flashcards](/blog/cloze-deletion-vs-basic-flashcards/). If this is part of exam preparation, the [ACT flashcard guide](/blog/how-to-use-flashcards-for-the-act/) explains how to connect cards with practice questions.
+Keep the whole sentence visible when practicing diagnosis. Hiding only a punctuation mark can let you memorize its position without finding the clauses.
 
 ## Try the rule on a fresh sentence
 

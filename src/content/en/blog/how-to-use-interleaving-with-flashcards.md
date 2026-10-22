@@ -185,7 +185,7 @@ Interleaved practice flashcards should make you produce at least one of these:
 
 This is where **interleaving and active recall** complement each other. Active recall supplies the retrieval attempt. Interleaving removes the comfort of knowing what kind of attempt comes next.
 
-Practice tests still matter when the real task is larger than one card. Use mixed questions for multi-step work, timing, and transfer; use flashcards to retain the small rules and distinctions exposed by those questions. [Flashcards vs practice tests](/blog/flashcards-vs-practice-tests/) goes deeper on that handoff.
+Practice tests still matter when the real task is larger than one card. Use mixed questions for multi-step work, timing, and transfer; use flashcards to retain the small rules and distinctions exposed by those questions.
 
 ## Common ways to make interleaving worse
 

@@ -182,10 +182,7 @@ The card inherits things that were useful in the session but weak in long-term r
 
 That is why I would mine those sessions for misses and weak spots, not export the entire conversation into permanent cards. The tutoring session can stay broad. The surviving cards should not.
 
-If your workflow begins earlier than cleanup, these companion pieces are the better fit:
-
-- [How to Use ChatGPT to Make Flashcards in 2026](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [How to Turn ChatGPT Study Mode Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
+If your workflow begins earlier than cleanup, [How to Use ChatGPT to Make Flashcards in 2026](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/) covers drafting candidates from your source material.
 
 This article starts one step later: the cards already exist, and now they need to become reviewable.
 

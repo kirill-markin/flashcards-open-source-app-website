@@ -142,7 +142,7 @@ I want to keep:
 
 Everything else can stay in the chat history.
 
-Tutor-style sessions in [ChatGPT Study Mode](/blog/how-to-turn-chatgpt-study-mode-into-flashcards/), Gemini Guided Learning, or another tool can feed the same workflow: keep the short list of misses worth reviewing.
+Tutor-style sessions in ChatGPT Study Mode, Gemini Guided Learning, or another tool can feed the same workflow: keep the short list of misses worth reviewing.
 
 ## The best cards preserve the miss, not the polished explanation
 

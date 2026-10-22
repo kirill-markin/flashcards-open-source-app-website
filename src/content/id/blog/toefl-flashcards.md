@@ -158,8 +158,6 @@ Berikut lima contoh umum perubahan kesalahan menjadi kartu:
 
 Jangan menyalin seluruh soal resmi beserta penjelasan jawabannya ke satu kartu. Tulis pelajaran yang sudah dipastikan dengan kata-kata Anda sendiri. Biarkan soal lengkap berada dalam materi latihan dan simpan hanya sasaran hafalan yang ringkas di dalam dek.
 
-[Flashcard vs Tes Latihan pada 2026](/blog/flashcards-vs-practice-tests/) menjelaskan mengapa kartu dan soal baru berikutnya perlu tetap menjadi langkah yang terpisah.
-
 ## Periksa dek TOEFL lama sebelum mengulanginya
 
 Dek yang dibuat sebelum 21 Januari 2026 mungkin mencampurkan materi bahasa Inggris yang tetap relevan dengan detail tes yang sudah tidak berlaku. Pertahankan materi bahasa yang berguna, tetapi periksa setiap kartu yang jawabannya bergantung pada format ujian.

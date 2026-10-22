@@ -131,7 +131,7 @@ Spauskite **Again**, kai negalėjote pateikti reikiamo atsakymo arba suklydote. 
 
 Spausdami Hard vien tam, kad išvengtumėte trumpo Again intervalo, po nesėkmės užregistruojate sėkmę. Tada FSRS mokosi iš klaidingo įvykio. Rinkitės mygtuką pagal tai, kaip prisiminėte, o ne pagal norimą intervalą, rodomą virš mygtukų.
 
-Dviprasmiškos kortelės trukdo vertinti sąžiningai. Jei užduotyje prašoma penkių faktų, o prisimenate keturis, planavimo problema prasidėjo kortelių redaktoriuje. Padalykite arba perrašykite kortelę. Jei kai kurių kortelių vis nepavyksta prisiminti net po daugelio kartojimų, skaitykite [Kaip pataisyti sunkiai įsimenamas mokymosi korteles](/blog/how-to-fix-leech-flashcards/).
+Dviprasmiškos kortelės trukdo vertinti sąžiningai. Jei užduotyje prašoma penkių faktų, o prisimenate keturis, planavimo problema prasidėjo kortelių redaktoriuje. Padalykite arba perrašykite kortelę.
 
 ## Rinkitės trumpus FSRS mokymosi žingsnius arba sąmoningai palikite laukus tuščius
 

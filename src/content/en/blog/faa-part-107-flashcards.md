@@ -173,7 +173,7 @@ After an authorized practice set, review every wrong answer and every guess:
 
 For example, a missed airspace question may reveal that you do not recognize a boundary symbol. That symbol can become a card. If you recognized every symbol but combined the chart details incorrectly, another isolated card may not help; schedule more chart interpretation.
 
-The same process works for weather and regulations: isolate the fact or decision you missed, write a short prompt in your own words, then try another complete question. [Flashcards vs practice tests](/blog/flashcards-vs-practice-tests/) explains why both tools stay in the plan.
+The same process works for weather and regulations: isolate the fact or decision you missed, write a short prompt in your own words, then try another complete question.
 
 ## Keep chart interpretation and full practice outside the deck
 
@@ -203,7 +203,7 @@ A simple setup in [Nibomo](/features/) is enough for this workflow:
 
 FSRS schedules when individual cards return. It does not check regulatory accuracy, interpret a full chart, or predict your test result. Start early enough for cards to return after real delays, and keep chart sessions and practice questions on the calendar.
 
-The [flashcard review schedule guide](/blog/how-often-should-you-review-flashcards/) explains how due reviews work. The [Getting Started guide](/docs/getting-started/) covers card creation, review, AI chat, and file attachments. The app includes an [independently authored, unofficial FAA Part 107 review deck](/catalog/packages/faa-part-107-flashcards/) with 286 English cards covering the current ACS knowledge areas. It does not include copied exam material, simulate the UAG exam, or replace FAA study materials.
+The [Getting Started guide](/docs/getting-started/) covers card creation, review, AI chat, and file attachments. The app includes an [independently authored, unofficial FAA Part 107 review deck](/catalog/packages/faa-part-107-flashcards/) with 286 English cards covering the current ACS knowledge areas. It does not include copied exam material, simulate the UAG exam, or replace FAA study materials.
 
 Nibomo is not affiliated with or endorsed by the FAA. You remain responsible for checking the material against current official FAA sources.
 

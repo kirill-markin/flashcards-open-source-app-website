@@ -68,7 +68,7 @@ An absent tag also doesn't prove a card is easy. Someone may have removed the ta
 
 In the example, B asks for `bank` without saying which meaning: a financial institution or a riverbank? If the intended vocabulary is the financial institution, change the note's back field to `bank (financial institution)`. B now asks for the intended sense.
 
-That same edit changes A's answer. Selecting B doesn't give you a private copy of the shared fields. Use **Preview** to inspect both directions after the edit: B should ask `bank (financial institution)` and accept `banco`; A should still ask `banco`, with the clarified English answer. If A also needs a cue because `banco` has another meaning in your material, repair that prompt before resuming. For broader choices about rewriting, splitting, or removing difficult material, use the [leech-repair guide](/blog/how-to-fix-leech-flashcards/).
+That same edit changes A's answer. Selecting B doesn't give you a private copy of the shared fields. Use **Preview** to inspect both directions after the edit: B should ask `bank (financial institution)` and accept `banco`; A should still ask `banco`, with the clarified English answer. If A also needs a cue because `banco` has another meaning in your material, repair that prompt before resuming.
 
 ## Unsuspend only the selected question
 

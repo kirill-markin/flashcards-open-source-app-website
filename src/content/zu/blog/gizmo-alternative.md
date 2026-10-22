@@ -83,7 +83,7 @@ I-AI Tutor yenza umsebenzi ohlukile. Ingakuchazela izinto zokufunda isinyathelo 
 
 Kuzo zombili lezi zindlela, i-Gizmo yenza inqubekela phambili ifane nomdlalo. Ukuphendula imibuzo kwengeza ku-XP, ku-Levels, ku-Leagues naku-Streaks, kanti ama-Hearts, ama-Hints nama-Coins athinta indlela ukufunda mahhala okuqhubeka ngayo. Uma lokhu kwenza kube lula ukubuya nsuku zonke, kuyisici esibalulekile lapho ukhetha umkhiqizo.
 
-Noma kunjalo, lezi zinhlobo zemibuzo zifeza izinhloso ezihlukene: umbuzo omfushane wokukhumbula impendulo nombuzo wokuzilolonga onezinyathelo eziningi. [Ukuqhathanisa amakhadi okufunda nezivivinyo zokuzilolonga](/blog/flashcards-vs-practice-tests/) kuchaza ukuthi kungani ukuhlanganisa lezi zindlela kuvame ukusiza kakhulu kunokuphoqelela zonke izihloko ekhadini.
+Noma kunjalo, lezi zinhlobo zemibuzo zifeza izinhloso ezihlukene: umbuzo omfushane wokukhumbula impendulo nombuzo wokuzilolonga onezinyathelo eziningi.
 
 ## Imikhawulo emine okufanele uyihlole ngaphambi kokufaka isifundo sonke ku-Gizmo
 

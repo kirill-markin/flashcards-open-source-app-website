@@ -158,8 +158,6 @@ Dưới đây là năm cách chuyển lỗi thành thẻ thường gặp:
 
 Đừng chép cả câu hỏi chính thức lẫn phần giải thích đáp án vào một thẻ. Hãy viết bài học đã xác minh bằng lời của bạn. Giữ nguyên câu hỏi đầy đủ trong tài liệu luyện tập, và chỉ đưa nội dung nhỏ cần ghi nhớ vào bộ thẻ.
 
-Bài [Flashcard và đề luyện tập năm 2026](/blog/flashcards-vs-practice-tests/) giải thích vì sao ôn thẻ và làm câu hỏi mới tiếp theo nên là hai bước riêng biệt.
-
 ## Rà soát bộ thẻ TOEFL cũ trước khi ôn
 
 Các bộ thẻ được tạo trước ngày 21 tháng 1 năm 2026 có thể trộn lẫn kiến thức tiếng Anh vẫn hữu ích với chi tiết bài thi đã bỏ. Hãy giữ phần ngôn ngữ hữu ích, nhưng kiểm tra mọi thẻ có đáp án phụ thuộc vào cấu trúc bài thi.

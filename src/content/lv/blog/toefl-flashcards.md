@@ -158,8 +158,6 @@ Lūk, pieci bieži sastopami piemēri:
 
 Nekopē visu oficiālo jautājumu un atbildes pamatojumu vienā kartītē. Uzraksti pārbaudīto secinājumu saviem vārdiem. Pilno uzdevumu atstāj mācību materiālā, bet komplektā paturi tikai nelielo iegaumējamo vienību.
 
-Rakstā [Mācību kartītes un izmēģinājuma testi 2026. gadā](/blog/flashcards-vs-practice-tests/) skaidrots, kāpēc kartītei un nākamajam jaunajam jautājumam jāpaliek atsevišķiem soļiem.
-
 ## Pirms atkārtošanas pārbaudi vecu TOEFL kartīšu komplektu
 
 Komplektos, kas veidoti pirms 2026. gada 21. janvāra, ilgstoši noderīgs angļu valodas saturs var būt sajaukts ar vairs neaktuālām eksāmena detaļām. Paturi noderīgo valodas materiālu, bet pārbaudi katru kartīti, kuras atbilde ir atkarīga no formāta.

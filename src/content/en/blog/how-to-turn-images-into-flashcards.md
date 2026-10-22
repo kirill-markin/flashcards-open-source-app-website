@@ -30,7 +30,7 @@ A screenshot usually has readable text and missing context. A phone photo usuall
 
 That difference matters.
 
-If your source is mostly labels, arrows, and visual relationships, [How to Turn Diagrams Into Flashcards](/blog/how-to-turn-diagrams-into-flashcards/) is the closer match. If the source is messy notebook writing, verify the transcription before drafting cards. This article is for the middle ground: screenshots, study photos, scanned pages, and mixed OCR-heavy material that still needs a human review pass.
+If your source is mostly labels, arrows, and visual relationships, decide whether each card should test a label or explain a relationship. If the source is messy notebook writing, verify the transcription before drafting cards. This article is for the middle ground: screenshots, study photos, scanned pages, and mixed OCR-heavy material that still needs a human review pass.
 
 ## OCR helps with typing, not with judgment
 

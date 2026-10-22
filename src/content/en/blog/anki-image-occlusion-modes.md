@@ -99,4 +99,4 @@ These are two separately created notes, not a claim that editing a saved three-c
 
 Before adding a batch, inspect one target with the answer hidden. Check for a duplicate label, legend, partial word, or caption that supplies the answer. Then ask whether visible neighboring labels are useful context or an unintended shortcut. Finally, reveal the answer and verify that the response is precise enough to grade.
 
-If you need to test function, sequence, or relationships, write a question that asks for that knowledge. The [diagram-to-flashcards guide](/blog/how-to-turn-diagrams-into-flashcards/) covers those choices. If the image itself fails to appear, use the [missing Anki images workflow](/blog/anki-images-not-showing/) before changing masks.
+If you need to test function, sequence, or relationships, write a question that asks for that knowledge. If the image itself fails to appear, use the [missing Anki images workflow](/blog/anki-images-not-showing/) before changing masks.

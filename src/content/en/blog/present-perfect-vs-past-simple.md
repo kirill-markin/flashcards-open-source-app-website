@@ -126,7 +126,7 @@ A card such as “I ___ a camera for five years” leaves out whether the owners
 | A museum membership ended last year. Keep the completed period. Repair: “I have had that membership for two years before it expired.” | **I had that membership for two years before it expired.** The period has ended; *for* only tells its length. |
 | A pottery course ended in July. Keep the question limited to that course. Repair: “Have you made a bowl during that course?” | **Did you make a bowl during that course?** The question asks about a completed period, rather than all pottery experience up to now. |
 
-For tense-choice practice, leave the whole verb phrase blank or ask for a correction. “Lin has ___ this violin” already supplies the perfect structure and mostly tests the participle. The [cloze vs basic flashcards guide](/blog/cloze-deletion-vs-basic-flashcards/) helps choose the format; the [language-learning guide](/blog/how-to-use-flashcards-for-language-learning/) covers the wider review routine.
+For tense-choice practice, leave the whole verb phrase blank or ask for a correction. “Lin has ___ this violin” already supplies the perfect structure and mostly tests the participle. The [language-learning guide](/blog/how-to-use-flashcards-for-language-learning/) covers the wider review routine.
 
 Try a fresh pair before finishing. A library's calendar records two completed events in the current month and four last month. More events are planned this month. Using *hold*, give its current month's total up to now, then report last month's total.
 

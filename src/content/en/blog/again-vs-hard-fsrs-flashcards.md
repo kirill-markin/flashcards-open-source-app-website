@@ -187,7 +187,7 @@ Inspect a repeat offender when:
 - two similar cards keep interfering
 - the fact is too low-value to justify the review time
 
-Rewrite, split, relearn, or remove the card instead of protecting it with Hard. The focused [leech-card cleanup guide](/blog/how-to-fix-leech-flashcards/) explains that workflow.
+Rewrite, split, relearn, or remove the card instead of protecting it with Hard.
 
 FSRS schedules the signal you give it. It cannot repair an unclear prompt, decide which missing detail mattered, or fact-check your spoken answer.
 

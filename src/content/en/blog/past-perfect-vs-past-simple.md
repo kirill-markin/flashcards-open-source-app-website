@@ -103,7 +103,7 @@ Keep enough context on each card to judge the meaning. A bare “I ___ the door�
 | Added had to every story event | Tell these events in order: “Mina ___ the jar, ___ the lid, and then ___ it.” (*fill; close; label*) | **Filled; closed; labeled.** The sequence moves forward in past simple. |
 | Rejected a valid alternative | “After Omar ___ the gate, he crossed the yard.” (*unlock*) Must the answer be past perfect? | **Unlocked** and **had unlocked** both work. *After* places unlocking first. |
 
-For tense choice, leave the whole verb phrase blank. A prompt such as “Ren had ___” already chooses the tense and mainly tests the participle. The [cloze vs basic flashcards guide](/blog/cloze-deletion-vs-basic-flashcards/) explains the formats. Put accepted alternatives and their reasons on the back, so the card doesn't teach a false rule.
+For tense choice, leave the whole verb phrase blank. A prompt such as “Ren had ___” already chooses the tense and mainly tests the participle. Put accepted alternatives and their reasons on the back, so the card doesn't teach a false rule.
 
 Try a fresh story before finishing. At 4:00, Imani put the picnic food indoors. At 4:10, rain started. At 4:15, everyone moved inside. Write one version in time order, then another starting with the rain and looking back to the food.
 

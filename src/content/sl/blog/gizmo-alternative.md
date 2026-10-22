@@ -83,7 +83,7 @@ AI Tutor ima drugačno nalogo. Gradivo lahko razloži korak za korakom, ustvari 
 
 Gizmo obema načinoma doda elemente igre. Z reševanjem kvizov napredujete v sistemih XP, Levels, Leagues in Streaks, Hearts, Hints in Coins pa vplivajo na potek kvizov v brezplačnem paketu. Če vas te mehanike spodbujajo, da se vsak dan vrnete k učenju, so pomemben dejavnik pri izbiri izdelka.
 
-Kratko vprašanje za priklic iz spomina in večstopenjska naloga za vajo imata vseeno različni vlogi. Članek [Učne kartice ali preizkusi znanja](/blog/flashcards-vs-practice-tests/) pojasnjuje, zakaj je običajno koristneje združiti oboje, kot pa vsako temo stlačiti na kartico.
+Kratko vprašanje za priklic iz spomina in večstopenjska naloga za vajo imata vseeno različni vlogi.
 
 ## Štiri omejitve, ki jih preverite, preden v Gizmo prenesete gradivo za celoten predmet
 

@@ -83,7 +83,7 @@ AI Tutor pilda citu uzdevumu. Tas var soli pa solim izskaidrot materiālu, ģene
 
 Abiem režīmiem Gizmo pievieno spēles elementus. Atbildes uz jautājumiem tiek ieskaitītas XP, Levels, Leagues un Streaks progresā, savukārt Hearts, Hints un Coins ietekmē bezmaksas pārbaudes sesiju gaitu. Ja šie mehānismi palīdz katru dienu atgriezties pie mācībām, tie ir būtiski produkta izvēlē.
 
-Tomēr īss jautājums atcerēšanās pārbaudei un vairāku soļu praktisks uzdevums pilda atšķirīgus mērķus. Rakstā [Mācību kartītes un pārbaudes uzdevumi](/blog/flashcards-vs-practice-tests/) skaidrots, kāpēc abu apvienošana parasti ir noderīgāka nekā mēģinājums katru tēmu ietilpināt kartītē.
+Tomēr īss jautājums atcerēšanās pārbaudei un vairāku soļu praktisks uzdevums pilda atšķirīgus mērķus.
 
 ## Četri ierobežojumi, kas jāpārbauda, pirms pārvietojat kursa materiālus uz Gizmo
 

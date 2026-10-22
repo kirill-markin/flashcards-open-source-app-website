@@ -83,7 +83,7 @@ AI Tutor menjalankan fungsi berbeda. Fitur ini dapat membahas materi langkah dem
 
 Di kedua mode, Gizmo mengubah kemajuan menjadi permainan. Kuis menambah XP, Levels, Leagues, dan Streaks, sementara Hearts, Hints, dan Coins memengaruhi kelancaran sesi kuis gratis. Jika mekanisme tersebut memudahkan Anda kembali belajar setiap hari, itu menjadi pertimbangan nyata dalam memilih produk, bukan sekadar hiasan.
 
-Meski begitu, pertanyaan singkat untuk menguji ingatan dan soal latihan bertahap memiliki fungsi berbeda. [Kartu Belajar vs Tes Latihan](/blog/flashcards-vs-practice-tests/) menjelaskan mengapa menggabungkan keduanya biasanya lebih berguna daripada memaksakan setiap topik menjadi kartu.
+Meski begitu, pertanyaan singkat untuk menguji ingatan dan soal latihan bertahap memiliki fungsi berbeda.
 
 ## Empat batas yang perlu diperiksa sebelum memasukkan seluruh materi kursus ke Gizmo
 

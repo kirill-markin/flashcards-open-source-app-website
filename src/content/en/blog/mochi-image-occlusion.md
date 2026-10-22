@@ -82,6 +82,6 @@ If that happens, fix the card before treating a successful answer as evidence th
 
 A repeated label is a reason to inspect both locations. Whether they belong in one review depends on what you need to know. Naming a shared category, identifying each location, and recalling a list are different tasks, even when they use the same image.
 
-For broader decisions about labels, relationships, and sequences, use the [guide to turning diagrams into flashcards](/blog/how-to-turn-diagrams-into-flashcards/). For Mochi's wider notes and review workflow, see the [Mochi flashcards review](/blog/mochi-alternative/).
+For Mochi's wider notes and review workflow, see the [Mochi flashcards review](/blog/mochi-alternative/).
 
 Start with one image and write down the complete response for each target. Once you can identify the target, answer without visible clues, and grade it without negotiating with yourself, you have a pattern worth reusing.

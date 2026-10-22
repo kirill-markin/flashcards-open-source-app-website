@@ -158,8 +158,6 @@ Kövesd ezt a munkamenetet:
 
 Ne másolj egy teljes hivatalos kérdést és indoklást egyetlen kártyára. Az ellenőrzött tanulságot a saját szavaiddal írd le. A teljes feladat maradjon a gyakorlóanyagban, a pakliban pedig csak a kis, megjegyzendő rész kapjon helyet.
 
-A [Tanulókártyák vagy próbatesztek 2026-ban?](/blog/flashcards-vs-practice-tests/) elmagyarázza, miért maradjon külön lépés a kártya ismétlése és a következő új kérdés megoldása.
-
 ## Ismétlés előtt nézd át a régi TOEFL-paklikat
 
 A 2026. január 21. előtt készült paklikban a ma is hasznos angol nyelvi anyag keveredhet már megszűnt vizsgarészletekkel. Tartsd meg a hasznos nyelvi tartalmat, de vizsgálj meg minden kártyát, amelynek válasza a formátumtól függ.

@@ -131,7 +131,7 @@ Używaj **Again**, gdy nie potrafisz podać wymaganej odpowiedzi lub odpowiadasz
 
 Naciśnięcie Hard, aby uniknąć krótkiego odstępu Again, zapisuje sukces po nieudanej próbie. FSRS uczy się wtedy na podstawie błędnego zdarzenia. Wybieraj przycisk zgodnie z tym, jak poszło Ci przypomnienie odpowiedzi, zamiast kierować się odstępami widocznymi nad przyciskami.
 
-Niejednoznaczne karty utrudniają rzetelne ocenianie. Jeśli pytanie wymaga pięciu faktów, a pamiętasz cztery, problem z harmonogramem zaczął się już w edytorze. Podziel kartę lub przeredaguj ją. W przypadku kart, z którymi wciąż masz problem mimo licznych powtórek, skorzystaj z poradnika [Jak poprawiać fiszki „pijawki”](/blog/how-to-fix-leech-flashcards/).
+Niejednoznaczne karty utrudniają rzetelne ocenianie. Jeśli pytanie wymaga pięciu faktów, a pamiętasz cztery, problem z harmonogramem zaczął się już w edytorze. Podziel kartę lub przeredaguj ją.
 
 ## Zachowaj krótkie kroki nauki w FSRS — albo świadomie zostaw puste pola
 

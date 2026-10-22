@@ -131,7 +131,7 @@ Valitse **Again**, kun et pystynyt tuottamaan vaadittua vastausta tai vastasit v
 
 Jos painat Hard-painiketta välttääksesi Again-vaihtoehdon lyhyen kertausvälin, kirjaat epäonnistumisen onnistumiseksi. FSRS oppii silloin väärästä tapahtumasta. Valitse painike sen perusteella, miten muistit vastauksen. Älä valitse sitä vain siksi, että sen yläpuolella näkyy haluamasi kertausväli.
 
-Epäselvät kortit vaikeuttavat rehellistä arviointia. Jos kysymys pyytää viittä asiaa ja muistat neljä, ajoitusongelma alkoi jo korttieditorissa. Jaa kortti osiin tai kirjoita se uudelleen. Jos unohdat kortin vastauksen kerta toisensa jälkeen, katso [Näin korjaat jatkuvasti unohtuvat opiskelukortit](/blog/how-to-fix-leech-flashcards/).
+Epäselvät kortit vaikeuttavat rehellistä arviointia. Jos kysymys pyytää viittä asiaa ja muistat neljä, ajoitusongelma alkoi jo korttieditorissa. Jaa kortti osiin tai kirjoita se uudelleen.
 
 ## Pidä FSRS:n oppimisvaiheet lyhyinä tai jätä ne tarkoituksella tyhjiksi
 

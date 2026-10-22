@@ -158,8 +158,6 @@ Her er fem almindelige måder at omsætte fejl til kort på:
 
 Kopiér ikke et helt officielt spørgsmål og dets svarforklaring over på ét kort. Skriv det, du har lært og kontrolleret, med dine egne ord. Lad den fulde opgave blive i øvelsesmaterialet, og behold kun det lille stykke stof, du vil huske, i kortsættet.
 
-[Flashcards eller øveprøver i 2026](/blog/flashcards-vs-practice-tests/) forklarer, hvorfor kortet og det næste nye spørgsmål bør forblive separate trin.
-
 ## Gennemgå et gammelt TOEFL-kortsæt, før du repeterer det
 
 Kortsæt fra før den 21. januar 2026 kan blande engelsk, du stadig har brug for, med udfasede prøvedetaljer. Behold nyttigt sprog, men gennemgå hvert kort, hvor svaret afhænger af formatet.

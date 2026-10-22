@@ -131,7 +131,7 @@ Vajuta **Again**, kui sa ei suutnud nõutud vastust meenutada või vastasid vale
 
 Nupu Hard vajutamine lühikese Again-intervalli vältimiseks salvestab ebaõnnestumise järel õnnestumise. FSRS õpib siis vale sündmuse põhjal. Vali nupp, mis kirjeldab meenutamist, mitte intervall, mida nuppude kohal näha soovid.
 
-Ebaselged kaardid muudavad ausa hindamise keerulisemaks. Kui küsimus nõuab viit fakti ja sulle meenub neli, sai ajastamisprobleem alguse juba kaardi koostamisel. Jaga kaart osadeks või kirjuta ümber. Korduvalt ununevate kaartide puhul aitab [juhend raskete õpikaartide parandamiseks](/blog/how-to-fix-leech-flashcards/).
+Ebaselged kaardid muudavad ausa hindamise keerulisemaks. Kui küsimus nõuab viit fakti ja sulle meenub neli, sai ajastamisprobleem alguse juba kaardi koostamisel. Jaga kaart osadeks või kirjuta ümber.
 
 ## Hoia FSRS-i õppesammud lühikesed või jäta need teadlikult tühjaks
 

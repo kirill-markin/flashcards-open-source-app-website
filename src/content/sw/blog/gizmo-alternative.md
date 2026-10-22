@@ -83,7 +83,7 @@ AI Tutor ina kazi tofauti. Inaweza kukupitisha kwenye nyenzo hatua kwa hatua, ku
 
 Gizmo huongeza vipengele vya mchezo katika njia zote mbili za kujifunza. Kujibu maswali huchangia XP, Levels, Leagues na Streaks, huku Hearts, Hints na Coins zikiathiri jinsi vipindi vya maswali vya bure vinavyoendelea. Ikiwa vipengele hivyo vinakurahisishia kurudi kila siku, vina uzito katika uamuzi wako wa kuchagua programu.
 
-Hata hivyo, swali fupi la kukumbuka jambo na swali la mazoezi lenye hatua kadhaa vina kazi tofauti. [Kadi za kujifunzia dhidi ya mitihani ya mazoezi](/blog/flashcards-vs-practice-tests/) inaeleza kwa nini kuvichanganya kwa kawaida kunasaidia zaidi kuliko kujaribu kuweka kila mada kwenye kadi.
+Hata hivyo, swali fupi la kukumbuka jambo na swali la mazoezi lenye hatua kadhaa vina kazi tofauti.
 
 ## Vikomo vinne vya kuangalia kabla ya kuhamishia kozi kwenye Gizmo
 

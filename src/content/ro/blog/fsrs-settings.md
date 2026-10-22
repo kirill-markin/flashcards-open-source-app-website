@@ -131,7 +131,7 @@ Folosește **Again** când nu ai putut da răspunsul cerut sau ai răspuns greș
 
 Dacă apeși Hard ca să eviți intervalul scurt al butonului Again, înregistrezi un succes după un eșec. FSRS învață astfel dintr-un eveniment înregistrat greșit. Alege butonul după cât de bine ți-ai amintit răspunsul, nu după intervalul pe care ai vrea să îl obții.
 
-Fișele ambigue îngreunează evaluarea corectă. Dacă o întrebare cere cinci informații și îți amintești patru, problema de programare a început în editor. Împarte fișa sau rescrie-o. Pentru fișele la care continui să greșești în ciuda recapitulărilor repetate, citește [Cum să repari fișele problematice de tip „leech”](/blog/how-to-fix-leech-flashcards/).
+Fișele ambigue îngreunează evaluarea corectă. Dacă o întrebare cere cinci informații și îți amintești patru, problema de programare a început în editor. Împarte fișa sau rescrie-o.
 
 ## Păstrează pașii de învățare FSRS scurți sau lasă câmpurile goale în mod deliberat
 

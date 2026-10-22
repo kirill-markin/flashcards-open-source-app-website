@@ -193,8 +193,6 @@ Use it in a narrower sequence:
 
 This keeps AI on the clerical side of the workflow. The difficult reasoning stays yours.
 
-If AI is already part of your study setup, [How to Use AI to Study in 2026](/blog/how-to-use-ai-to-study/) covers the wider boundary.
-
 ## A weekly physics workflow should stay boring
 
 After class, homework, labs, quizzes, or practice sets:

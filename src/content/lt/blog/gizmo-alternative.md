@@ -83,7 +83,7 @@ AI Tutor atlieka kitą užduotį. Jis gali nuosekliai paaiškinti medžiagą, su
 
 Abiejuose režimuose Gizmo pažangą paverčia žaidimu. Atsakinėjimas prisideda prie XP, Levels, Leagues ir Streaks, o Hearts, Hints ir Coins lemia, kaip vyksta nemokamos testų sesijos. Jei šios priemonės padeda sugrįžti kasdien, jos yra svarbi produkto pasirinkimo dalis.
 
-Vis dėlto trumpas klausimas žinioms prisiminti ir kelių žingsnių praktinė užduotis atlieka skirtingus vaidmenis. Straipsnyje [Mokymosi kortelės ir praktiniai testai](/blog/flashcards-vs-practice-tests/) paaiškinama, kodėl juos derinti dažniausiai naudingiau, nei bandyti kiekvieną temą sutalpinti į kortelę.
+Vis dėlto trumpas klausimas žinioms prisiminti ir kelių žingsnių praktinė užduotis atlieka skirtingus vaidmenis.
 
 ## Keturi apribojimai, kuriuos verta patikrinti prieš perkeliant kursą į Gizmo
 

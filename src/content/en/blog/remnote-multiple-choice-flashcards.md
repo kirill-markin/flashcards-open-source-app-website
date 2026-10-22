@@ -123,6 +123,6 @@ How do “score at least 70” and “score greater than 70” differ at score 7
 
 Then try a changed case without options: “The rule says a score must be greater than 70. Does 70 qualify?” Explain why before checking the answer. This tests whether you can apply the distinction after the familiar choices disappear.
 
-RemNote's [multiple-choice learning guide](https://help.remnote.com/en/articles/8191873-using-multiple-choice-flashcards-effectively) warns about recognizing a repeated pattern without gaining knowledge you can use elsewhere. Keep a small multiple-choice component for exam-format practice and add recall cards for the gaps it exposes. The [basic versus cloze guide](/blog/cloze-deletion-vs-basic-flashcards/) can help choose that repair format.
+RemNote's [multiple-choice learning guide](https://help.remnote.com/en/articles/8191873-using-multiple-choice-flashcards-effectively) warns about recognizing a repeated pattern without gaining knowledge you can use elsewhere. Keep a small multiple-choice component for exam-format practice and add recall cards for the gaps it exposes.
 
 If you encountered **Multiple-Choice Mode** while learning new exam cards, that's an AI feature described in [RemNote's exam documentation](https://help.remnote.com/en/articles/9101991-preparing-for-an-exam). The workflow here uses questions, choices, and answer keys you author. Use the [exam-scheduler walkthrough](/blog/remnote-exam-scheduler/) when you're ready to plan when to study the verified set.

@@ -131,7 +131,7 @@ Gunakan **Again** ketika Anda tidak bisa memberikan jawaban yang diminta atau me
 
 Menekan Hard untuk menghindari interval Again yang pendek akan mencatat keberhasilan setelah kegagalan. Akibatnya, FSRS belajar dari kejadian yang salah. Pilih tombol berdasarkan keberhasilan Anda mengingat, bukan karena menginginkan interval yang tertera di atasnya.
 
-Kartu yang ambigu membuat penilaian jujur lebih sulit. Jika satu pertanyaan meminta lima fakta dan Anda hanya mengingat empat, masalah penjadwalannya sudah dimulai di editor. Pecah atau tulis ulang kartunya. Untuk kartu yang tetap sulit diingat meski sudah berulang kali diulang, baca [Cara Memperbaiki Kartu Belajar yang Terus Gagal Diingat](/blog/how-to-fix-leech-flashcards/).
+Kartu yang ambigu membuat penilaian jujur lebih sulit. Jika satu pertanyaan meminta lima fakta dan Anda hanya mengingat empat, masalah penjadwalannya sudah dimulai di editor. Pecah atau tulis ulang kartunya.
 
 ## Gunakan langkah belajar FSRS yang singkat, atau kosongkan dengan sengaja
 

@@ -131,7 +131,7 @@ Fes servir **Again** quan no hagis pogut donar la resposta requerida o t'hagis e
 
 Prémer Hard per evitar l'interval curt d'Again registra un encert després d'un error. FSRS aprèn aleshores a partir d'un fet incorrecte. Tria el botó que descriu com has recordat la resposta, no el que mostra l'interval que voldries obtenir.
 
-Les targetes ambigües dificulten una valoració sincera. Si una pregunta demana cinc dades i en recordes quatre, el problema de planificació ha començat a l'editor. Divideix o reescriu la targeta. Per a les targetes que continues fallant malgrat repassar-les repetidament, consulta [Com arreglar les targetes que s'encallen](/blog/how-to-fix-leech-flashcards/).
+Les targetes ambigües dificulten una valoració sincera. Si una pregunta demana cinc dades i en recordes quatre, el problema de planificació ha començat a l'editor. Divideix o reescriu la targeta.
 
 ## Mantén curts els passos d'aprenentatge de FSRS, o deixa'ls buits expressament
 

@@ -73,7 +73,7 @@ The official [StudySmarter flashcards page](https://www.studysmarter.co.uk/featu
 
 Those tools test different things. Ready-made material gives you a starting point. Multiple-choice quizzes can check coverage quickly. Mock exams can reveal gaps in written reasoning, timing, and exam technique that a card queue cannot reproduce.
 
-Nibomo shows one prompt, reveals one answer, and records Again, Hard, Good, or Easy. It has no native community library, multiple-choice quiz builder, timed exam mode, mock-exam generator, or study-game layer. Recalling an answer without four visible choices is useful practice, but it does not replace an exam rehearsal. [Flashcards and practice tests solve different problems](/blog/flashcards-vs-practice-tests/); StudySmarter puts both inside one product.
+Nibomo shows one prompt, reveals one answer, and records Again, Hard, Good, or Easy. It has no native community library, multiple-choice quiz builder, timed exam mode, mock-exam generator, or study-game layer. Recalling an answer without four visible choices is useful practice, but it does not replace an exam rehearsal. StudySmarter puts both inside one product.
 
 ## Both schedule reviews, but only one documents FSRS-6
 

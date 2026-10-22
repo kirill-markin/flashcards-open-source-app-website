@@ -255,7 +255,7 @@ Required date or time, eligibility conditions, and exclusions.
 
 The official item type is present from N5 through N1. The source materials and complexity change, while the habit of checking every condition remains useful.
 
-Reduce a missed question to one reusable lesson in your own words. Keep the next unfamiliar passage in your plan; [flashcards and practice tests](/blog/flashcards-vs-practice-tests/) measure different parts of readiness.
+Reduce a missed question to one reusable lesson in your own words. Keep the next unfamiliar passage in your plan to check whether you can apply that lesson in context.
 
 ## Listening starts before the transcript appears
 

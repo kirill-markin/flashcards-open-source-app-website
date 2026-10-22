@@ -83,7 +83,7 @@ AI Tutor farklı bir işi üstleniyor. Materyali adım adım açıklayabiliyor, 
 
 Gizmo, her iki modda da ilerlemeyi bir oyuna dönüştürüyor. Test çözmek XP, Levels, Leagues ve Streaks'e katkıda bulunurken Hearts, Hints ve Coins ücretsiz test oturumlarının akışını etkiliyor. Bu mekanikler her gün geri dönmenizi kolaylaştırıyorsa, ürün seçiminizde de yerleri var.
 
-Yine de kısa bir hatırlama sorusu ile birkaç adım gerektiren bir alıştırma sorusu farklı işler yapıyor. [Bilgi kartları mı, deneme testleri mi?](/blog/flashcards-vs-practice-tests/) yazısı, her konuyu bir karta sığdırmaya çalışmak yerine ikisini birleştirmenin neden genellikle daha yararlı olduğunu açıklıyor.
+Yine de kısa bir hatırlama sorusu ile birkaç adım gerektiren bir alıştırma sorusu farklı işler yapıyor.
 
 ## Bir dersin tamamını Gizmo'ya taşımadan önce kontrol etmeniz gereken dört sınır
 

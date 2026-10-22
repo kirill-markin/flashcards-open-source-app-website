@@ -137,7 +137,7 @@ After each practice exam, classify every wrong response and every correct answer
 - **Diagram gap:** you could not read a symbol or trace a connection. Practice with the official diagrams.
 - **Reading error:** you missed words such as `not`, `except`, `maximum`, or `minimum`. Slow down on practice exams; another fact card may not help.
 
-Do not paste the whole missed question into the deck by default. Store the part you want to retrieve next week, then retest it in a different randomized exam. [Flashcards vs Practice Tests](/blog/flashcards-vs-practice-tests/) explains the division in more detail: cards strengthen reusable pieces, while practice tests check selection, coverage, and performance in context.
+Do not paste the whole missed question into the deck by default. Store the part you want to retrieve next week, then retest it in a different randomized exam. Cards strengthen reusable pieces, while practice tests check selection, coverage, and performance in context.
 
 ARRL's [step-by-step licensing guide](https://www.arrl.org/getting-licensed-step-by-step) describes the Technician exam and links its free randomized exam-review tool. Whatever provider you use, verify that it explicitly uses the pool effective July 1, 2026.
 

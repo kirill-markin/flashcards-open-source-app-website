@@ -83,7 +83,7 @@ AI Tutor hỗ trợ một phần khác của việc học: giải thích tài li
 
 Ở cả hai chế độ, Gizmo ghi nhận tiến độ học tập theo cách giống trò chơi. Việc trả lời câu hỏi được tính vào XP, Levels, Leagues và Streaks, còn Hearts, Hints và Coins ảnh hưởng đến quá trình làm bài ở gói miễn phí. Nếu những cơ chế đó giúp bạn quay lại học mỗi ngày, chúng là một yếu tố thực tế khi chọn sản phẩm.
 
-Tuy vậy, một câu hỏi ngắn để kiểm tra khả năng nhớ lại và một câu hỏi luyện tập gồm nhiều bước phục vụ những mục đích khác nhau. Bài [Thẻ học và bài kiểm tra luyện tập](/blog/flashcards-vs-practice-tests/) giải thích vì sao kết hợp chúng thường hữu ích hơn việc cố đưa mọi chủ đề vào thẻ.
+Tuy vậy, một câu hỏi ngắn để kiểm tra khả năng nhớ lại và một câu hỏi luyện tập gồm nhiều bước phục vụ những mục đích khác nhau.
 
 ## Bốn giới hạn cần kiểm tra trước khi đưa cả khóa học vào Gizmo
 

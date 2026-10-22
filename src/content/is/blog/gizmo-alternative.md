@@ -83,7 +83,7 @@ AI Tutor sinnir öðru hlutverki. Það getur farið skref fyrir skref í gegnum
 
 Í báðum hömum gerir Gizmo leik úr framvindunni. Þegar þú tekur próf safnarðu XP og tekur framförum í Levels, Leagues og Streaks. Hearts, Hints og Coins hafa jafnframt áhrif á gang próflota í ókeypis útgáfunni. Ef þetta kerfi hjálpar þér að koma aftur á hverjum degi er það raunverulegur þáttur í vali á appi, ekki bara skraut.
 
-Stutt spurning sem reynir á minni og æfingaspurning í mörgum skrefum þjóna þó ólíkum tilgangi. Í [Námsspjöld eða æfingapróf](/blog/flashcards-vs-practice-tests/) er útskýrt hvers vegna yfirleitt er gagnlegra að nota hvort tveggja en að troða hverju efni inn á spjald.
+Stutt spurning sem reynir á minni og æfingaspurning í mörgum skrefum þjóna þó ólíkum tilgangi.
 
 ## Fjórar takmarkanir til að athuga áður en þú flytur heilt námskeið í Gizmo
 

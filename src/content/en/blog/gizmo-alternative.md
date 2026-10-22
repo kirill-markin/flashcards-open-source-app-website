@@ -83,7 +83,7 @@ AI Tutor handles a different job. It can walk through the material step by step,
 
 Around both modes, Gizmo turns progress into a game. Quizzing contributes to XP, Levels, Leagues, and Streaks, while Hearts, Hints, and Coins affect how free quiz sessions flow. If those mechanics make it easier to return each day, they are a real part of the product decision, not decoration.
 
-Still, a small recall prompt and a multi-step practice question do different jobs. [Flashcards vs Practice Tests](/blog/flashcards-vs-practice-tests/) explains why combining them is usually more useful than forcing every topic into a card.
+Still, a small recall prompt and a multi-step practice question do different jobs. Combine them rather than forcing every topic into a card.
 
 ## Four limits to check before moving a course into Gizmo
 

@@ -20,7 +20,7 @@ Before changing the grouping, write down what a complete answer should contain. 
 
 To create RemNote cloze cards, select text and press `{`, or use the cloze button in the formatting toolbar. When typing a new cloze, enclose its text in `{{` and `}}`. [Official creation instructions](https://help.remnote.com/en/articles/6025481-creating-flashcards).
 
-Keep enough of the sentence visible to identify the task. Hiding an entire paragraph can leave you with little to work from. Hiding one word can leave so many clues that you're barely recalling anything. If you need help choosing the format itself, see the [cloze versus basic flashcards guide](/blog/cloze-deletion-vs-basic-flashcards/).
+Keep enough of the sentence visible to identify the task. Hiding an entire paragraph can leave you with little to work from. Hiding one word can leave so many clues that you're barely recalling anything.
 
 The rehearsal below is hypothetical, based on RemNote's documentation rather than a hands-on test. It uses an invented rule so you can judge each prompt without checking outside facts. The fronts and counts are expected results to compare with your own notes.
 

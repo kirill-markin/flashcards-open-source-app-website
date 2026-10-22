@@ -131,7 +131,7 @@ Upotrijebite **Again** kada se niste mogli prisjetiti traženog odgovora ili ste
 
 Pritisnete li Hard da biste izbjegli kratak razmak uz Again, bilježite uspjeh nakon neuspjeha. FSRS tada uči iz pogrešnog događaja. Odaberite gumb prema tome kako ste se prisjetili odgovora, a ne prema razmaku koji biste željeli dobiti.
 
-Nejasne kartice otežavaju iskreno ocjenjivanje. Ako pitanje traži pet činjenica, a vi se sjećate četiri, problem s raspoređivanjem počeo je u uređivaču. Podijelite ili preoblikujte karticu. Za kartice koje stalno zaboravljate unatoč ponavljanjima pročitajte [Kako popraviti kartice koje stalno zaboravljate](/blog/how-to-fix-leech-flashcards/).
+Nejasne kartice otežavaju iskreno ocjenjivanje. Ako pitanje traži pet činjenica, a vi se sjećate četiri, problem s raspoređivanjem počeo je u uređivaču. Podijelite ili preoblikujte karticu.
 
 ## Neka koraci učenja u FSRS-u budu kratki — ili ih svjesno ostavite praznima
 

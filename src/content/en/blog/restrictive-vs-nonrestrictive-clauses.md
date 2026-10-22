@@ -176,6 +176,6 @@ These three original cards work independently of the exercise list:
 | A class has one aquarium, already identified. Repair: Our aquarium, which holds twenty litres needs cleaning. | **Our aquarium, which holds twenty litres, needs cleaning.** Add the closing comma after *litres*. The capacity is extra information; *needs* is the main verb. |
 | Two neighbours are named Ali. One lives upstairs; the other lives downstairs. Identify the upstairs neighbour. Punctuate: The Ali who lives upstairs found the parcel. | **The Ali who lives upstairs found the parcel.** No commas: the clause distinguishes the two Alis. A shared proper name doesn't identify the neighbour by itself. |
 
-You can save these in Nibomo or another flashcard tool. For cards that require an explanation, see [cloze deletion vs basic flashcards](/blog/cloze-deletion-vs-basic-flashcards/). If you're using this practice alongside exam questions, the [ACT flashcard guide](/blog/how-to-use-flashcards-for-the-act/) covers connecting review cards with broader practice.
+You can save these in Nibomo or another flashcard tool. Keep the intended reference in the question, and require an explanation of the punctuation in the answer. Alongside exam questions, use cards to revisit specific mistakes, then try a fresh full question.
 
 On your next correction, write down the intended person or group first. Then mark the clause's beginning and end. That gives each comma a reason you can explain.

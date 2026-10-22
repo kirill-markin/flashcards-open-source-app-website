@@ -158,8 +158,6 @@ Hér eru fimm algengar leiðir til að breyta mistökum í kort:
 
 Ekki afrita heila opinbera spurningu og rökstuðning á eitt kort. Skrifaðu staðfesta lærdóminn með eigin orðum. Láttu allt prófatriðið vera áfram í æfingaefninu og geymdu aðeins afmarkaða atriðið sem þú vilt muna í kortasafninu.
 
-[Námskort eða æfingapróf árið 2026](/blog/flashcards-vs-practice-tests/) útskýrir hvers vegna kortið og næsta nýja spurning ættu að vera aðskilin skref.
-
 ## Farðu yfir gamalt TOEFL-kortasafn áður en þú rifjar það upp
 
 Kortasöfn frá því fyrir 21. janúar 2026 geta blandað saman ensku sem nýtist áfram og úreltum upplýsingum um prófið. Haltu gagnlegu málfari en skoðaðu hvert kort þar sem svarið fer eftir prófsniðinu.

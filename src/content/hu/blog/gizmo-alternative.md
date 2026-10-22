@@ -83,7 +83,7 @@ Az AI Tutor más feladatot lát el. Lépésről lépésre végigvezethet az anya
 
 A Gizmo mindkét mód köré játékos előrehaladást épít. A kikérdezés növeli az XP-t, és hozzájárul a Levels, Leagues és Streaks rendszeréhez, a Hearts, Hints és Coins pedig befolyásolja az ingyenes kikérdezések menetét. Ha ezek a játékelemek megkönnyítik, hogy minden nap visszatérj, akkor a termék kiválasztásánál is számítanak.
 
-Egy rövid felidézési kérdés és egy több lépésből álló gyakorlófeladat azonban más célt szolgál. A [tanulókártyák és gyakorlótesztek összehasonlítása](/blog/flashcards-vs-practice-tests/) elmagyarázza, miért hasznosabb általában együtt használni őket, mint minden témát kártyába sűríteni.
+Egy rövid felidézési kérdés és egy több lépésből álló gyakorlófeladat azonban más célt szolgál.
 
 ## Négy korlát, amelyet ellenőrizz, mielőtt egy teljes kurzust a Gizmóba költöztetsz
 

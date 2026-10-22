@@ -131,7 +131,7 @@ Použite **Again**, keď si požadovanú odpoveď nevybavíte alebo odpoviete ne
 
 Ak stlačíte Hard len preto, aby ste sa vyhli krátkemu intervalu Again, zaznamenáte po neúspechu úspech. FSRS sa potom učí z nesprávnej udalosti. Tlačidlo vyberajte podľa toho, ako ste si odpoveď vybavili. Neriaďte sa intervalom, ktorý sa vám z možností nad tlačidlami najviac páči.
 
-Nejednoznačné kartičky sťažujú poctivé hodnotenie. Ak otázka žiada päť faktov a vy si pamätáte štyri, problém s plánovaním sa začal už v editore. Kartičku rozdeľte alebo prepíšte. Pri kartičkách, ktoré sa nedarí zapamätať napriek opakovanému učeniu, pomôže článok [Ako opraviť problémové kartičky](/blog/how-to-fix-leech-flashcards/).
+Nejednoznačné kartičky sťažujú poctivé hodnotenie. Ak otázka žiada päť faktov a vy si pamätáte štyri, problém s plánovaním sa začal už v editore. Kartičku rozdeľte alebo prepíšte.
 
 ## Kroky učenia FSRS nechajte krátke — alebo ich zámerne vymažte
 

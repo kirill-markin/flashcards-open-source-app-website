@@ -167,7 +167,7 @@ What tends to fail:
 - one card that tests region, structure, innervation, and action at the same time
 - a paragraph answer under a noisy image
 
-If the real pain point is converting diagrams and labeled visuals cleanly, [How to Turn Diagrams Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-diagrams-into-flashcards/) covers that upstream workflow.
+Before turning a labeled visual into cards, choose one target and check that no visible label supplies its answer.
 
 ## AI is good for cleanup, not for doing the remembering
 
@@ -188,7 +188,7 @@ Where it does not help much:
 
 So use AI for preparation, not for outsourcing memory.
 
-If you want the broader tutor-to-retention version of that workflow, [How to Use AI to Study in 2026](https://nibomo.com/blog/how-to-use-ai-to-study/) and [How to Fix AI Flashcards in 2026](https://nibomo.com/blog/how-to-fix-ai-flashcards/) are the two useful follow-ups.
+If AI has produced a messy deck, [How to Fix AI Flashcards in 2026](https://nibomo.com/blog/how-to-fix-ai-flashcards/) walks through checking and repairing the drafts.
 
 ## Your missed pins and reversed relationships are the best card source
 
@@ -228,7 +228,7 @@ Keep the loop simple:
 
 Anatomy creates endless candidate cards. Your review queue still has to stay livable.
 
-If it is already getting out of hand, [How Many New Flashcards Per Day in 2026](https://nibomo.com/blog/how-many-new-flashcards-per-day/) and [How to Catch Up on Flashcards After Falling Behind in 2026](https://nibomo.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/) are the right next reads.
+If the queue is already getting out of hand, [How Many New Flashcards Per Day in 2026](https://nibomo.com/blog/how-many-new-flashcards-per-day/) can help you set a smaller intake.
 
 ## FSRS helps once the cards get honest
 

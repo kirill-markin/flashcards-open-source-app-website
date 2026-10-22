@@ -138,7 +138,7 @@ Use a different Class C sample set. Investigate wrong answers and guesses throug
 
 ### Day 6: Mix recall with application
 
-Review due cards, identify signs in mixed order, and work through fresh right-of-way situations. Take another official sample test if it will reveal useful gaps. [Flashcards and practice tests train different jobs](/blog/flashcards-vs-practice-tests/), so keep both in the week.
+Review due cards, identify signs in mixed order, and work through fresh right-of-way situations. Take another official sample test if it will reveal useful gaps. Keep both recall and full practice in the week.
 
 ### Day 7: Audit the deck and retest
 
@@ -168,7 +168,7 @@ DMV describes the behind-the-wheel test separately: it evaluates safe vehicle op
 
 [Nibomo](/features/) supports plain front/back cards, decks, tags, and due reviews. FSRS (Free Spaced Repetition Scheduler) uses your review history to schedule when each card returns, which helps distribute a small permit deck across the week.
 
-AI assistance is optional, and you control which draft cards get saved. AI does not verify driving rules or legal accuracy. Compare every AI-produced card with the current DMV handbook, and do not paste private identifiers, application documents, or license records into hosted AI tools. The privacy guide explains that boundary in more detail: [Private Flashcards With AI](/blog/private-flashcards-with-ai/).
+AI assistance is optional, and you control which draft cards get saved. AI does not verify driving rules or legal accuracy. Compare every AI-produced card with the current DMV handbook, and do not paste private identifiers, application documents, or license records into hosted AI tools.
 
 The app supports offline mobile study with sync across web, iOS, and Android. The project is MIT-licensed and has a documented [self-hosting path](/docs/self-hosting/). The [California Permit Test Flashcards: Driver Handbook Rules & Road Signs](/catalog/packages/california-permit-test-flashcards/) deck contains 236 independently authored English cards with no media. It is unofficial, and neither the deck nor the app is affiliated with or endorsed by the California DMV. The [Getting Started guide](/docs/getting-started/) covers the current ways to create and review your own cards.
 

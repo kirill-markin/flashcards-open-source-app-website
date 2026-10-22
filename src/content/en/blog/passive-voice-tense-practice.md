@@ -121,7 +121,7 @@ Make a card for a choice you actually missed, rather than copying the whole refe
 | Kept agreement with the old subject | Keep the meaning: “Nora has checked the locks.” → “The locks ___ by Nora.” | **have been checked** — present perfect; *locks* is plural. |
 | Tried to transform an intransitive verb | Can “The mechanic arrived at noon” become passive with *arrive*? Explain. | **No.** *Arrive* has no object here, so there's no object to make the passive subject. |
 
-The [cloze vs basic flashcards guide](/blog/cloze-deletion-vs-basic-flashcards/) can help you choose between a sentence blank and a direct explanation prompt. Keep the original active sentence on the front when the skill you're practicing is preserving its meaning.
+Choose a sentence blank when the missing form is the target, or a direct explanation question when the reason matters. Keep the original active sentence on the front when the skill you're practicing is preserving its meaning.
 
 After correcting a card, try a new receiver: change *the bell* to *the brakes*, for example. “The brakes are being tested by Sam now” makes you choose agreement again while keeping the action in progress. That's the useful check: you can rebuild the sentence when one part changes.
 

@@ -83,7 +83,7 @@ AI Tutor har en anden opgave. Den kan gennemgå materialet trin for trin, genere
 
 Gizmo gør fremskridt i begge tilstande til en del af et spil. Quizzer bidrager til XP, Levels, Leagues og Streaks, mens Hearts, Hints og Coins påvirker forløbet af gratis quizsessioner. Hvis de mekanikker gør det lettere at vende tilbage hver dag, har de reel betydning for dit valg af produkt.
 
-Et kort spørgsmål, der tester, om du kan huske et svar, og en øvelsesopgave med flere trin har dog forskellige formål. [Flashcards eller øvelsesprøver](/blog/flashcards-vs-practice-tests/) forklarer, hvorfor det normalt er mere nyttigt at kombinere dem end at presse alle emner ind på et kort.
+Et kort spørgsmål, der tester, om du kan huske et svar, og en øvelsesopgave med flere trin har dog forskellige formål.
 
 ## Fire begrænsninger, du bør tjekke, før du flytter et kursus til Gizmo
 

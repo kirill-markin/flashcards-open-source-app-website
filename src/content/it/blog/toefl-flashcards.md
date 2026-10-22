@@ -158,8 +158,6 @@ Ecco come trasformare in carte cinque errori comuni:
 
 Non copiare un intero quesito ufficiale e la spiegazione della risposta su una sola carta. Scrivi con parole tue ciò che hai verificato. Lascia il quesito completo nel materiale di esercitazione e conserva nel mazzo solo il piccolo elemento da memorizzare.
 
-[Flashcard o simulazioni d'esame nel 2026](/blog/flashcards-vs-practice-tests/) spiega perché la carta e il successivo quesito nuovo devono rimanere due passaggi distinti.
-
 ## Controlla un vecchio mazzo TOEFL prima di ripassarlo
 
 I mazzi creati prima del 21 gennaio 2026 possono mescolare contenuti di inglese ancora validi e dettagli dell'esame ormai superati. Conserva i contenuti linguistici utili, ma esamina ogni carta la cui risposta dipende dal formato.

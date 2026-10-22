@@ -131,7 +131,7 @@ Notaðu **Again** þegar þú gast ekki kallað fram svarið sem beðið var um 
 
 Að ýta á Hard til að forðast stutt Again-bil skráir árangur þegar þú mundir ekki. FSRS lærir þá af röngum atburði. Veldu hnapp eftir því hvernig gekk að muna svarið. Láttu ekki bilið sem birtist fyrir ofan hnappinn ráða matinu.
 
-Óljós spjöld gera heiðarlegt mat erfiðara. Ef spurt er um fimm staðreyndir og þú manst fjórar byrjaði tímasetningarvandinn í ritlinum. Skiptu spjaldinu upp eða endurskrifaðu það. Ef þú heldur áfram að gleyma svörum við sömu spjöldum þrátt fyrir endurteknar upprifjanir skaltu lesa [Hvernig laga má námsspjöld sem gleymast aftur og aftur](/blog/how-to-fix-leech-flashcards/).
+Óljós spjöld gera heiðarlegt mat erfiðara. Ef spurt er um fimm staðreyndir og þú manst fjórar byrjaði tímasetningarvandinn í ritlinum. Skiptu spjaldinu upp eða endurskrifaðu það.
 
 ## Hafðu FSRS-námsþrep stutt — eða skildu þau vísvitandi eftir auð
 

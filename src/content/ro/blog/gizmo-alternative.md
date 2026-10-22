@@ -83,7 +83,7 @@ AI Tutor are un alt rol. Poate explica materialul pas cu pas, genera notițe și
 
 În ambele moduri, Gizmo transformă progresul într-un joc. Testele contribuie la XP, Levels, Leagues și Streaks, iar Hearts, Hints și Coins influențează desfășurarea sesiunilor gratuite de testare. Dacă aceste mecanisme te ajută să revii zilnic, ele contează în alegerea produsului, nu sunt doar un decor.
 
-Totuși, o întrebare scurtă de verificare a memoriei și un exercițiu cu mai mulți pași au roluri diferite. [Carduri de învățare sau teste de antrenament](/blog/flashcards-vs-practice-tests/) explică de ce combinarea lor este de obicei mai utilă decât încercarea de a înghesui fiecare subiect într-un card.
+Totuși, o întrebare scurtă de verificare a memoriei și un exercițiu cu mai mulți pași au roluri diferite.
 
 ## Patru limite de verificat înainte să muți un curs în Gizmo
 

@@ -131,7 +131,7 @@ Sebenzisa **Again** uma ungakwazanga ukunikeza impendulo edingekayo noma uphendu
 
 Ukucindezela u-Hard ukuze ugweme isikhawu esifushane sika-Again kuqopha ukuphumelela ngemva kokwehluleka. I-FSRS ibe isifunda esehlakalweni esingabhalwanga kahle. Khetha inkinobho echaza ukuthi ukhumbule kanjani, hhayi isikhawu osifunayo kulokho okubhalwe ngaphezu kwezinkinobho.
 
-Amakhadi angacacile enza kube nzima ukunikeza izilinganiso ezithembekile. Uma umbuzo ufuna amaqiniso amahlanu bese ukhumbula amane, inkinga yokuhlela iqale ngesikhathi kwakhiwa ikhadi. Lihlukanise noma ulibhale kabusha. Ngamakhadi oqhubeka nokuwehluleka naphezu kokuwabuyekeza kaningi, sebenzisa umhlahlandlela othi [Indlela Yokulungisa Amakhadi Ohlale Uwahluleka](/blog/how-to-fix-leech-flashcards/).
+Amakhadi angacacile enza kube nzima ukunikeza izilinganiso ezithembekile. Uma umbuzo ufuna amaqiniso amahlanu bese ukhumbula amane, inkinga yokuhlela iqale ngesikhathi kwakhiwa ikhadi. Lihlukanise noma ulibhale kabusha.
 
 ## Gcina izinyathelo zokufunda ze-FSRS zimfushane—noma uzishiye zingenalutho ngamabomu
 
