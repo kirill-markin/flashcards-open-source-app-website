@@ -140,7 +140,7 @@ Googleは **Learn Your Way** の発表で、その方向をさらに強く押し
 
 それ以外は、チャット履歴に置いておけば十分です。
 
-だから製品ごとの家庭教師ワークフローも、だいたい同じ場所に落ち着きます。入り口が [ChatGPT Study Mode](/ja/blog/how-to-turn-chatgpt-study-mode-into-flashcards/) でも、[Gemini Guided Learning](/ja/blog/gemini-guided-learning-to-flashcards/) でも、別のチューター型ツールでも、残す価値があるのは結局この短い弱点リストです。
+だから製品ごとの家庭教師ワークフローも、だいたい同じ場所に落ち着きます。入り口が ChatGPT Study Mode でも、[Gemini Guided Learning](/ja/blog/gemini-guided-learning-to-flashcards/) でも、別のチューター型ツールでも、残す価値があるのは結局この短い弱点リストです。
 
 ## 良いカードは、整った説明ではなく「どこで外したか」を残す
 

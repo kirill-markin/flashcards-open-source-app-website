@@ -170,11 +170,9 @@ NotebookLM 很多时候本来就是从那些一开始并不干净的材料起步
 
 这意味着，生成出来的卡本来就已经是“距离原来源一步”的产物了。让它们在真正变成复习项之前再过一轮清理，并不是过度，而是质量控制。
 
-如果你的来源还停在更前一步，这几篇配套文章会有帮助：
+如果你从尚未整理的笔记开始，这篇配套文章会有帮助：
 
 - [2026 年如何把笔记变成 Flashcards](https://nibomo.com/blog/turn-notes-into-flashcards/)
-- [2026 年如何把 PDF 变成 Flashcards](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
-- [2026 年如何把 Notion Notes 变成 Flashcards](https://nibomo.com/blog/how-to-turn-notion-notes-into-flashcards/)
 
 ## 如果是这周就要做，我会怎么做
 

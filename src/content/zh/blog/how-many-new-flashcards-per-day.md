@@ -102,9 +102,8 @@ NotebookLM 在 web 和移动学习流程里更积极地推动 flashcards 和 qui
 
 所以我会对任何把做卡变得几乎没有摩擦的工作流保持警惕。摩擦确实烦，但有些摩擦其实一直在悄悄保护你，不让你造出一个你从来没打算长期维护的复习队列。
 
-如果你的源材料还停留在文档形态，这些工作流会帮助你解决起草部分：
+如果你的源材料还停留在笔记形态，这篇指南会帮助你解决起草部分：
 
-- [2026 年如何把 PDF 变成 Flashcards](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 - [2026 年如何把笔记变成 Flashcards](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 ## 一个找到你自己数字的实用方法

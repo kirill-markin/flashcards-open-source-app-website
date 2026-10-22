@@ -163,7 +163,7 @@ keywords:
 - 一张卡同时考区域、结构、神经支配和功能
 - 在一张信息很吵的图下面塞一整段答案
 
-如果你真正的痛点，是怎么把图示和带标注的视觉材料更干净地转成卡片，[2026 年如何把图示转成抽认卡](https://nibomo.com/blog/how-to-turn-diagrams-into-flashcards/) 讲的正是更前面的那一步工作流。
+如果原始材料是图谱截图或实验课照片，[图片转抽认卡指南](/zh/blog/how-to-turn-images-into-flashcards/)介绍了裁切、补足上下文和核对 OCR 草稿的步骤。
 
 ## AI 适合做整理，不适合替你完成记忆
 

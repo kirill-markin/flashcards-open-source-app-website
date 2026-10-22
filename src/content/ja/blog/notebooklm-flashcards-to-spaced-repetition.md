@@ -169,7 +169,6 @@ keywords:
 もし元資料がまださらに手前の段階なら、こちらの関連記事も役立ちます。
 
 - [2026年版 ノートをフラッシュカードに変える方法: 手作業のコピペではなく、AIの下書きとFSRSを使う](https://nibomo.com/blog/turn-notes-into-flashcards/)
-- [2026年版 Notionのノートをフラッシュカード化する方法: エクスポートし、AIで下書きを作り、FSRSで復習する](https://nibomo.com/blog/how-to-turn-notion-notes-into-flashcards/)
 
 ## 私なら今週こう使う
 

@@ -71,7 +71,7 @@ keywords:
 - 课程门户里的源链接
 - 存在 Copilot Pages 里的笔记
 
-如果你的起点是 PDF，可以参考[2026 年如何把 PDF 变成 Flashcards](/zh/blog/how-to-turn-a-pdf-into-flashcards/)。
+如果你的起点是 PDF，先选定具体页码或小节，并在核对卡片草稿时保留对应的来源位置。
 
 这和把网上随手找来的摘要直接塞进卡组，完全不是一回事。
 

@@ -160,7 +160,7 @@ keywords:
 
 每周一两次，在空白纸上写下 `I` 到 `XXVII`，再在每个编号旁写一个核心线索。这样可以消除卡组固定措辞和版式带来的提示。你也可以打乱纸质卡片，或使用美国国家宪法中心的[《27 条修正案配对游戏》](https://constitutioncenter.org/education/classroom-resource-library/classroom/15.3-27-amendments-matching-game)。最后，在不看答案的情况下，大声解释两条容易混淆的修正案。
 
-完成第一轮学习后，只在卡片到期时复习，不必每天从头刷完全部 54 张。[这篇闪卡复习频率指南](/zh/blog/how-often-should-you-review-flashcards/)解释了间隔复习与按固定日程反复刷完整套卡的区别。
+完成第一轮学习后，只在卡片到期时复习，不必每天从头刷完全部 54 张。
 
 ## 把法律解释和实际应用分开练
 

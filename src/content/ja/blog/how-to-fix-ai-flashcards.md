@@ -185,7 +185,6 @@ NotebookLM、ChatGPT、そのほかの学習ツールは、元のソースより
 ワークフローが整理より前の段階から始まるなら、相性がいいのは次の記事です。
 
 - [2026年版 ChatGPTでフラッシュカードを作る方法](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [2026年版 ChatGPT Study Modeをフラッシュカード化する方法](https://nibomo.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
 
 この記事が扱うのはその一歩後です。カードはすでに存在していて、これから復習できる形に整えなければならない、という段階です。
 

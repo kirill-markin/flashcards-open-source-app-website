@@ -72,7 +72,7 @@ keywords:
 
 解剖学で図版が特に多いなら、前段の作業としてはこちらの記事がそのままつながります。
 
-- [2026年版 図をフラッシュカードに変える方法](https://nibomo.com/blog/how-to-turn-diagrams-into-flashcards/)
+- [画像をフラッシュカード化する方法: スクリーンショット・写真・OCRをカードへ変える](/ja/blog/how-to-turn-images-into-flashcards/)
 
 ## 薬理学のカードは、暗唱ではなく選び分けを助けるべき
 
@@ -191,10 +191,6 @@ keywords:
 - 期末試験や国試のプレッシャー
 
 これら全部が雑多な1本のキューに入ると、デッキを信頼しにくくなります。
-
-整理面をもう少し詳しく見たいなら、次はこちらです。
-
-- [2026年版 フラッシュカードの整理術](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## FSRSが最も効くのは、混乱を流し込むのをやめたとき
 

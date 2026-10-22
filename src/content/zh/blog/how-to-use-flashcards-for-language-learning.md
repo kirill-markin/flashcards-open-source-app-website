@@ -207,10 +207,9 @@ keywords:
 - 这条提示到底太简单还是太模糊
 - 这张卡是否真的适合你当前水平
 
-如果你的素材原本是笔记、转录文本，或者聊天记录，这几篇前置文章会更有帮助：
+如果你的素材原本是笔记、转录文本，或者聊天记录，这篇前置文章会更有帮助：
 
 - [2026 年如何用 ChatGPT 制作抽认卡](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [2026 年如何把 YouTube 视频变成抽认卡](https://nibomo.com/blog/youtube-to-flashcards/)
 
 ## 围绕真实目标建卡，而不是围绕空泛的“我要学语言”
 
@@ -246,7 +245,6 @@ keywords:
 
 如果你也在比较更宽泛的产品选择，这几篇会最接近这个话题：
 
-- [2026 年 Memrise 替代品](https://nibomo.com/blog/memrise-alternative/)
 - [2026 年 Quizlet 替代品](https://nibomo.com/blog/quizlet-alternative/)
 - [2026 年最佳离线抽认卡应用](https://nibomo.com/blog/best-offline-flashcards-app/)
 

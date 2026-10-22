@@ -223,7 +223,6 @@ AI 让过量生产变得非常容易。
 
 如果你的源材料还停在更前一步，这几篇也会有帮助：
 
-- [2026 年如何把 PDF 变成 Flashcards](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 - [2026 年如何用 ChatGPT 制作 Flashcards](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
 - [2026 年如何把 NotebookLM Flashcards 变成真正的间隔重复](https://nibomo.com/blog/notebooklm-flashcards-to-spaced-repetition/)
 
