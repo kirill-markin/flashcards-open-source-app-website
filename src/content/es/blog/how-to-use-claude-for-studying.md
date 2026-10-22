@@ -1,10 +1,8 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-use-claude-for-studying.md"
 title: "Cómo usar Claude para estudiar en 2026: guía práctica"
 description: "Estudia tus apuntes con Claude, responde una pregunta cada vez, comprueba las correcciones y convierte tus dudas en flashcards dentro de las normas de tu curso."
 date: "2026-05-28"
-updated: "2026-10-03"
+updated: "2026-10-22"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "cómo usar Claude para estudiar"
@@ -15,15 +13,13 @@ keywords:
   - "Claude Learning mode"
 ---
 
-En una diapositiva aparece «los cromosomas se separan», pero no dice cuáles. Si Claude rellena ese hueco con conocimientos generales sin avisar, puedes terminar practicando una respuesta que suena convincente, aunque la fuente nunca la haya respaldado.
+Si quieres aprender **cómo usar Claude para estudiar**, empieza con una parte pequeña de tus apuntes. Comprueba qué afirmaciones respaldan y responde una pregunta cada vez antes de recibir ayuda. Verifica las correcciones y guarda las dudas que necesites volver a practicar. Para este último paso, recomiendo el [plugin de Nibomo para Claude](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory): ofrece a Claude flujos para crear flashcards, repasar las tarjetas pendientes y mejorar las que te resulten confusas.
 
-Por eso, el primer prompt útil no es «hazme preguntas». Antes conviene pedirle a Claude que indique qué afirmaciones están respaldadas por el material, qué partes son ambiguas y qué contenido no puede leer. A partir de ahí podrá ayudarte como tutor dentro de unos límites que tú mismo puedes comprobar.
+El ciclo útil es **comprobar las fuentes → responder de memoria → verificar → guardar → repasar cuando toque**. Los prompts de tutoría funcionan en un chat normal de Claude; el plugin conecta esa sesión con las tarjetas guardadas y su calendario de repaso.
 
-Ese proceso basado en las fuentes es la respuesta práctica a **cómo usar Claude para estudiar**: revisa primero el material, responde de memoria una pregunta cada vez, conserva la evidencia junto a cada corrección y guarda solo las dudas que realmente merezca la pena repasar. Funciona en un chat normal de Claude y no exige usar una aplicación de flashcards.
+> **Nota de transparencia:** Soy Kirill Markin y desarrollo [Nibomo](/es/features/). Este artículo se investigó y editó con ayuda de IA.
 
-> **Nota de transparencia:** Soy Kirill Markin y desarrollo [Nibomo](/features/). Aparte de esta nota, el producto solo aparece en la sección opcional sobre cómo transferir las tarjetas; el método de estudio no depende de él. Este artículo se investigó y editó con ayuda de IA.
-
-**Información comprobada:** 14 de septiembre de 2026.
+**Información comprobada:** 22 de octubre de 2026.
 
 ![Mesa de estudio que conecta las fuentes con una pregunta y dos flashcards verificadas, mientras aparta una nota ambigua](/blog/how-to-use-claude-for-studying-v2.png)
 
@@ -37,9 +33,20 @@ Sigue estos pasos con una parte de una clase, una lectura o una serie de ejercic
 4. Responde de memoria una pregunta cada vez.
 5. Anota la corrección, su ubicación en la fuente y cualquier incertidumbre.
 6. Comprueba por tu cuenta las respuestas importantes.
-7. Conserva solo las dudas que merezcan otro repaso o una flashcard.
+7. Guarda en Nibomo unas pocas dudas verificadas que convenga recordar a largo plazo, en forma de flashcards.
+8. Repasa las tarjetas guardadas cuando les toque, en Claude o en la aplicación de Nibomo.
 
 El orden importa. Si practicas con una fuente ambigua, la propia práctica puede hacer que esa ambigüedad resulte más difícil de detectar.
+
+## Configura Nibomo en Claude
+
+Abre el [plugin de Nibomo](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory), o ve a **Customize → Plugins**, busca Nibomo y pulsa **Add**. Si ya está instalado, comprueba que esté habilitado.
+
+Conecta el conector de Nibomo incluido en el plugin. Sigue el proceso de inicio de sesión, entra en tu cuenta de Nibomo o crea una y autoriza el acceso de Claude. Elige el espacio de trabajo que quieras utilizar cuando se te pida. Esta vía no requiere copiar un token de API ni introducir la URL de un servidor.
+
+El plugin aporta los flujos para crear, repasar y mejorar tarjetas. Su conector MCP es la conexión que permite a Claude leer y actualizar tu cuenta de Nibomo. También puedes encontrar el [conector en el directorio de Claude](https://claude.ai/directory/nibomo). Nuestra [guía para conectar Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (en inglés) y la [referencia del conector MCP](/es/docs/mcp-connector/) explican la conexión con más detalle.
+
+Actualmente, Anthropic ofrece [plugins en los planes Pro, Max, Team y Enterprise](https://support.claude.com/en/articles/13837440-use-plugins-in-claude), en Claude en la web, en la pestaña Chat de Claude Desktop y en Cowork. Si tu cuenta no tiene acceso a plugins, puedes usar los prompts de tutoría de abajo y copiar a mano las tarjetas seleccionadas en tu aplicación de repaso.
 
 ## Revisa las normas del curso antes de subir archivos
 
@@ -60,9 +67,9 @@ El trabajo debe seguir siendo tuyo. Recibir comentarios después de intentarlo p
 
 Para una sesión breve basta con un chat independiente. Si vas a estudiar una asignatura durante un tiempo, crea un Claude Project y añade solo el material correspondiente.
 
-Los [Claude Projects](https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects) están disponibles para todos los usuarios; actualmente, las cuentas Free tienen un límite de cinco proyectos. Los archivos y las instrucciones que añadas al conocimiento de un proyecto permanecen allí y pueden reutilizarse en sus distintos chats. En cambio, el contexto de un chat normal no se comparte automáticamente con otros chats, a menos que añadas el material pertinente al conocimiento del proyecto.
+Los [Claude Projects](https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects) están disponibles para todos los usuarios; actualmente, las cuentas Free tienen un límite de cinco proyectos. Añade los archivos exactos del curso y las instrucciones de estudio al conocimiento del Project para que estén disponibles en sus distintos chats.
 
-Tener dos chats en el mismo Project no hace, por sí solo, que todos los detalles del primero estén disponibles en el segundo.
+Si la memoria está habilitada, un Project también puede conservar contexto entre conversaciones. Trata esa memoria como contexto para estudiar, no como un registro de referencia ni como sustituto de los archivos fuente. Conserva en el conocimiento del Project la evidencia y las correcciones que necesites reutilizar, y pide a Claude que cite el material original.
 
 La [documentación de Claude sobre la carga de archivos](https://support.claude.com/en/articles/8241126-upload-files-to-claude) enumera actualmente los formatos PDF, DOCX, CSV, TXT, HTML, ODT, RTF, EPUB, JSON y XLSX, además de imágenes JPEG, PNG, GIF y WebP. Para subir archivos XLSX deben estar habilitadas la ejecución de código y la creación de archivos. Puedes adjuntar un archivo a un único chat o guardarlo en la sección Files de un Project para volver a utilizarlo.
 
@@ -71,6 +78,8 @@ Trabaja con el conjunto más pequeño que te resulte útil: una clase, una secci
 Anthropic incorporó el [**Learning mode** a los Claude for Education Projects](https://www.anthropic.com/news/introducing-claude-for-education) como una experiencia guiada y socrática que pide a los estudiantes que razonen, en vez de mostrarles las respuestas de inmediato. Es posible que tengas acceso si tu universidad ofrece Claude for Education, pero no debes suponer que está disponible en todas las cuentas personales de Claude. Los prompts siguientes permiten crear una sesión parecida, guiada por preguntas, en un chat normal.
 
 ## Haz que Claude señale las ambigüedades antes de explicar
+
+En una diapositiva puede aparecer «los cromosomas se separan», sin especificar cuáles. Si Claude rellena ese hueco con conocimientos generales sin avisar, puedes terminar practicando una respuesta que suena convincente, aunque la fuente nunca la haya respaldado.
 
 Adjunta el material, define con precisión qué partes debe usar y pídele primero que revise las fuentes:
 
@@ -113,10 +122,14 @@ Actúa como mi tutor únicamente con el material respaldado por el mapa de fuent
 Haz una pregunta cada vez y espera mi respuesta. No incluyas pistas en la pregunta.
 Después de que responda:
 1. califica la respuesta como Correcta, Parcialmente correcta, Incorrecta o Fuente no concluyente;
-2. explica con precisión qué estaba bien y qué faltaba;
+2. da un comentario breve sin revelar la respuesta completa;
 3. cita el archivo de respaldo y la página, diapositiva o apartado;
-4. pídeme que lo intente una vez más antes de mostrar la respuesta completa;
+4. si mi respuesta es parcialmente correcta o incorrecta, dame una pista y deja
+   que vuelva a intentarlo antes de mostrar la respuesta completa;
 5. añade al registro de dudas únicamente una carencia real.
+
+Si la fuente no es concluyente, marca la pregunta para verificarla en lugar de
+pedirme que vuelva a intentarlo.
 
 Alterna preguntas de recuerdo directo, comparaciones entre ideas parecidas y
 aplicaciones breves. No crees flashcards todavía. Detente después de 10 preguntas
@@ -154,7 +167,7 @@ Incorrecta. Las cromátidas hermanas permanecen unidas durante la anafase I.
 Vuelve a leer las dos frases: ¿qué se desplaza hacia polos opuestos?
 ```
 
-Después del segundo intento, Claude puede explicar en qué se diferencia este proceso de la anafase II. Esa explicación pertenece a la conversación de tutoría. La duda que conviene conservar es mucho más pequeña:
+Si el material que has proporcionado también trata la anafase II, Claude puede comparar ambos procesos después del segundo intento. Esa explicación pertenece a la conversación de tutoría. La duda que conviene conservar es mucho más pequeña:
 
 ```text
 Anverso: ¿Qué se separa durante la anafase I de la meiosis?
@@ -221,19 +234,70 @@ práctica e incluye un ejercicio adecuado para cada una. No guardes nada todaví
 
 Descarta el resto. Una sesión de estudio con Claude puede ser útil aunque no produzca ninguna tarjeta.
 
-## Opcional: pasa las tarjetas seleccionadas a otra herramienta
+## Guarda las dudas verificadas en Nibomo
 
-La opción más sencilla sirve con cualquier aplicación de flashcards. Pide a Claude que devuelva únicamente las tarjetas aprobadas como bloques de anverso y reverso en texto sin formato, compruébalas una vez más y cópialas en tu sistema de repaso habitual.
+Una vez comprobada la evidencia, pide al plugin de Nibomo que convierta las dudas seleccionadas en tarjetas guardadas. Indica el espacio de trabajo y pide a Claude que busque tarjetas existentes antes de añadir más. Este prompt solicita una vista previa antes de guardar:
 
-> [Conectar con Claude](https://claude.ai/directory/nibomo) · [Documentación](/docs/mcp-connector/)
+```text
+Usa Nibomo para crear hasta 5 flashcards a partir del registro verificado de dudas
+anterior. Usa este espacio de trabajo: [nombre del espacio]. Si el nombre es
+ambiguo, confirma conmigo cuál es antes de guardar.
 
-Si utilizas Nibomo, conecta Claude mediante MCP, la conexión entre el asistente y Nibomo. Después puedes pedirle que guarde las tarjetas que has comprobado y aprobado. La [guía del conector de Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) explica la configuración; la [referencia del conector MCP](/docs/mcp-connector/) cubre la conexión de otros asistentes compatibles.
+Busca tarjetas duplicadas o que evalúen el mismo objetivo de memorización.
+Usa solo las dudas respaldadas por la evidencia que he comprobado. Mantén un
+solo objetivo por tarjeta, con un anverso concreto, un reverso breve y la
+ubicación de la fuente.
 
-Cuando llegue el momento de repasar, puedes hacerlo en la [aplicación de Nibomo](https://app.nibomo.com/) o en un chat con Claude o Codex conectado a Nibomo mediante MCP. En la aplicación, intenta recordar la respuesta, muéstrala y valora cuánto te ha costado recordarla.
+Muéstrame primero las tarjetas propuestas, su evidencia y cualquier coincidencia
+con tarjetas existentes. Espera mi aprobación antes de guardar. Después de
+guardarlas, confirma qué has creado y dónde.
+```
 
-En el chat, pide al asistente que repase contigo las tarjetas pendientes, una pregunta cada vez. Espera a que intentes responder antes de mostrar la respuesta guardada; después te pide que valores cómo la has recordado y registra la valoración que elijas en Nibomo. Tú haces el esfuerzo de recordar y eliges la valoración; el asistente lleva la conversación.
+La vista previa es una preferencia que estableces con este prompt. Puedes elegir cuánto quieres revisar antes de pedir a Claude que guarde o edite tarjetas; no es un requisito para cada acción del plugin.
 
-Nibomo mantiene un calendario de repaso compartido entre la aplicación y el chat: un repaso registrado en cualquiera de los dos actualiza cuándo volverá a aparecer esa tarjeta. Elige la opción que te venga mejor para cada sesión. Si prefieres estudiar sin conector, puedes seguir copiando las tarjetas a mano.
+Mantén la distinción del ejemplo anterior: la explicación te ayudó a entender la meiosis, mientras que la tarjeta guardada comprueba la distinción concreta en la que fallaste. Una respuesta larga del tutor rara vez necesita convertirse en una tarjeta larga.
+
+## Repasa las flashcards pendientes en Claude
+
+Un cuestionario sobre apuntes recién subidos es una sesión de tutoría. Un repaso pendiente de Nibomo utiliza tarjetas que ya has guardado y registra un resultado que influye en cuándo volverá a aparecer cada una. Pídelo de forma explícita:
+
+```text
+Usa Nibomo para repasar mis flashcards pendientes durante 10 minutos en
+[nombre del espacio de trabajo]. Usa Europe/Paris como zona horaria.
+
+Muestra una pregunta cada vez y espera mi intento antes de revelar la respuesta
+guardada. Después, compara mi intento original con esa respuesta, da un comentario
+breve y registra la valoración de recuerdo adecuada. Dime qué valoración has
+registrado. Evalúa el intento original, no una respuesta corregida que dé después
+de ver la solución. Detente cuando se acabe el tiempo o no queden tarjetas
+pendientes, y resume los repasos que Nibomo haya confirmado.
+```
+
+Sustituye el espacio de trabajo y la zona horaria por los tuyos. Normalmente, Claude comunica su evaluación y registra la valoración automáticamente. Si prefieres elegir tú cada valoración, añade: «Usa el modo de valoración manual: después de revelar la respuesta, espera a que elija Again, Hard, Good o Easy antes de registrarla».
+
+Si respondes «cromátidas hermanas» a la tarjeta sobre la anafase I, reconocer la corrección después de ver la respuesta no convierte tu intento original en correcto. Una pregunta posterior sobre la anafase II puede comprobar si ahora distingues ambos procesos; no debería mejorar retroactivamente la primera valoración.
+
+También puedes repasar en la [aplicación de Nibomo](https://app.nibomo.com/). Los repasos confirmados actualizan el mismo calendario tanto en la aplicación como en Claude, así que puedes alternar entre ambos sin mantener dos historiales de repaso. Pide a Claude que indique claramente si un registro ha fallado o no se ha confirmado, en lugar de tratarlo como progreso guardado.
+
+## Mejora las tarjetas que sigan resultando confusas
+
+Los fallos repetidos pueden revelar una pregunta imprecisa, una respuesta demasiado cargada o una condición que falta. Pide a Claude que examine la tarjeta antes de concluir que simplemente necesitas más repeticiones:
+
+```text
+Usa Nibomo para revisar las tarjetas que me han resultado confusas en esta sesión.
+Busca anversos imprecisos, varios objetivos de memorización, condiciones ausentes,
+respuestas sin respaldo y duplicados. Contrasta las correcciones propuestas con
+la evidencia del curso proporcionada arriba.
+
+Muestra la tarjeta actual y el cambio propuesto uno al lado del otro, con una
+razón breve y la ubicación de la fuente. Señala lo que la evidencia no permita
+resolver. Espera mi aprobación antes de editar; no borres tarjetas ni cambies
+datos que sigan sin resolverse.
+```
+
+Deja la tarjeta como está si la pregunta es clara y simplemente no pudiste recordar la respuesta. Si la duda necesita un diagrama u otro problema resuelto, vuelve a la tutoría o a la práctica directa.
+
+Si prefieres copiar a mano, pide a Claude las tarjetas aprobadas como bloques de anverso y reverso en texto sin formato y añádelas a tu aplicación de flashcards habitual. La comprobación de fuentes y la tutoría que te deja responder primero siguen siendo útiles.
 
 ## Claude sigue necesitando supervisión
 
@@ -257,8 +321,10 @@ Antes de terminar la sesión, comprueba que:
 - cada corrección remite a evidencia que has abierto tú mismo;
 - los conocimientos externos están etiquetados aparte del material del curso;
 - ninguna duda sin resolver se ha convertido en una flashcard;
-- solo quedan unas pocas dudas que merecen futuros repasos;
-- cualquier escritura mediante el conector se ha previsualizado y aprobado;
-- tienes un plan para volver a cada duda seleccionada.
+- solo unas pocas dudas verificadas que convenga recordar a largo plazo se han convertido en tarjetas guardadas;
+- las tarjetas se han guardado en el espacio de trabajo previsto, sin duplicados innecesarios;
+- has elegido valoraciones automáticas o manuales para los repasos pendientes;
+- las valoraciones reflejan tu intento original y los repasos registrados se han confirmado;
+- sabes dónde volver para el próximo repaso programado.
 
 Un buen **tutor con Claude** no se limita a explicar. Te muestra dónde termina la fuente, espera mientras intentas recordar y deja un registro breve de lo que realmente falló. Ese registro —no la longitud del chat— es lo que hace que merezca la pena repetir este flujo de estudio con Claude.
