@@ -11,6 +11,8 @@ keywords:
   - "AI試験対策 フラッシュカード"
   - "資格試験 間隔反復"
   - "FSRS 資格試験 勉強法"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1ja~1blog~1how-to-use-flashcards-for-ai-certifications.md"
 ---
 
 先週の火曜の夜、私は3問の演習問題を落としました。理由は3つとも別でした。AWSのあるサービス名は、見覚えがあるというだけで分かった気にさせてきました。Microsoftのある定義は、文章としては整っているのに頭に残りませんでした。Google Cloudのある問題は、ベンダー特有の言い回しを時間内に落ち着いて読み解けるかを試していました。たいてい **AI資格試験向けフラッシュカード** が少しやりすぎな勉強法ではなく、実用的な手段に見え始めるのはこういう瞬間です。

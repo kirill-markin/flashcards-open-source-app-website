@@ -13,6 +13,8 @@ keywords:
   - "AI flashcards too many cards"
   - "FSRS review load"
   - "flashcards not helping me remember"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1en~1blog~1why-flashcards-dont-work.md"
 ---
 
 ![Warm desk with sorted flashcards for diagnosing why reviews are not working](/blog/why-flashcards-dont-work.png)

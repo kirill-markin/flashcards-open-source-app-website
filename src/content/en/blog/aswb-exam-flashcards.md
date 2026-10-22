@@ -12,6 +12,8 @@ keywords:
   - "ASWB exam study plan"
   - "ASWB practice question flashcards"
   - "FSRS flashcards for ASWB"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1en~1blog~1aswb-exam-flashcards.md"
 ---
 
 An ASWB appointment on Sunday, August 2, 2026, means 170 questions and the 2018 content outline. One day later, the exam has 122 questions and follows the 2026 blueprint. If you are building **ASWB exam flashcards** this summer, put your appointment date at the top of your study plan.

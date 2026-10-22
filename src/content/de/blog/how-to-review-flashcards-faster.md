@@ -8,6 +8,8 @@ keywords:
   - "wie komme ich schneller durch flashcards"
   - "zu viele tägliche wiederholungen"
   - "flashcards schneller fertig"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1de~1blog~1how-to-review-flashcards-faster.md"
 ---
 
 Am Donnerstagmorgen habe ich ein Deck mit 312 fälligen Karten geöffnet und war schon bei Karte 18 müde. Nicht überfordert. Nicht unter Karten begraben. Einfach nur genervt. Jede Frage brauchte einen Tick zu lang, bis sie klar war, jede Antwort verlangte ein bisschen zu viel Abwägung, und die Session fühlte sich schon teurer an, als der Stoff wert war.

@@ -12,6 +12,8 @@ keywords:
   - "ASWB 考试学习计划"
   - "ASWB 练习题 Flashcards"
   - "ASWB FSRS Flashcards"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1zh~1blog~1aswb-exam-flashcards.md"
 ---
 
 如果你把 ASWB 考试约在 2026 年 8 月 2 日星期日，要答的是依据 2018 年内容大纲编写的 170 道题。只晚一天，考试就变成 122 道题，并改用 2026 年蓝图。如果你准备在今年夏天制作 **ASWB 考试 Flashcards**，先把预约日期写在学习计划的最上方。

@@ -12,6 +12,8 @@ keywords:
   - "estudiar con tus apuntes usando IA"
   - "IA basada en fuentes para estudiar"
   - "flashcards con FSRS"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1es~1blog~1how-to-make-a-practice-exam-from-your-notes-with-ai.md"
 ---
 
 ![Escritorio cálido con un examen de práctica basado en apuntes, fallos y flashcards seleccionadas](/blog/how-to-make-a-practice-exam-from-your-notes-with-ai.png)

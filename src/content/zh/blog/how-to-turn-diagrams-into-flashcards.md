@@ -11,6 +11,8 @@ keywords:
   - "用抽认卡学图示"
   - "标注图片 抽认卡"
   - "图片抽认卡"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1zh~1blog~1how-to-turn-diagrams-into-flashcards.md"
 ---
 
 昨天我看着一张自己三天前明明还看懂的图，突然发现现在虽然认得出每个标注，却已经说不清它们各自到底起什么作用了。通常也就是在这种时候，人们会开始搜索 **把图示做成抽认卡**。

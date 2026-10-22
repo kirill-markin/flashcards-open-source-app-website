@@ -12,6 +12,8 @@ keywords:
   - "diferencia entre cloze y tarjeta básica"
   - "flashcards cloze con IA"
   - "convertir tarjetas cloze en tarjetas básicas"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1es~1blog~1cloze-deletion-vs-basic-flashcards.md"
 ---
 
 Dos tarjetas pueden evaluar el mismo dato y, aun así, hacer trabajar tu memoria de formas distintas:

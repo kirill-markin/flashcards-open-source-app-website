@@ -12,6 +12,8 @@ keywords:
   - "Step 2 CK 問題集 ミス"
   - "FSRS USMLE Step 2 CK"
   - "臨床マネジメント フラッシュカード"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1ja~1blog~1how-to-use-flashcards-for-usmle-step-2-ck.md"
 ---
 
 Step 2 CK の1ブロックを解き終えると、取りこぼした問題に妙に似たパターンがあることに気づきます。ある問題では診断まではたどり着けたのに、次の一手を間違えた。別の問題では、内科 shelf の復習で半分は頭に入っていた禁忌を1つ曖昧にしたせいで落とした。さらに別の問題では、産婦人科のマネジメントの流れ自体はブロック後に口で説明できたのに、症例文の中では十分な速さで引き出せなかった。たいていここで人は **USMLE Step 2 CK フラッシュカード** を探し始めて、そもそもフラッシュカードは臨床系試験に向いているのかと静かに迷い始めます。

@@ -11,6 +11,8 @@ keywords:
   - "复习资料包转抽认卡"
   - "复习提纲转抽认卡"
   - "把学习提纲做成抽认卡"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1zh~1blog~1how-to-turn-a-study-guide-into-flashcards.md"
 ---
 
 昨天我打开一份本来应该让考试周轻松一点的学习提纲，结果立刻撞上老问题：整整十二页内容，四个单独看完全说不清重点的标题，再加上一串显然是按“你应该自己记得住”这个前提写出来的项目符号列表。很多人开始搜索 **学习提纲转抽认卡**，通常就是在这种时候。

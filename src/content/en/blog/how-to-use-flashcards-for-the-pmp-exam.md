@@ -12,6 +12,8 @@ keywords:
   - "PMP Business Environment"
   - "PMP practice question mistakes"
   - "FSRS PMP study"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1en~1blog~1how-to-use-flashcards-for-the-pmp-exam.md"
 ---
 
 A PMP practice question can make you feel ready right up until all four answers look reasonable.

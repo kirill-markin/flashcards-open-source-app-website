@@ -12,6 +12,8 @@ keywords:
   - "flashcards de estudio con IA"
   - "active recall con FSRS"
   - "qué repasar más tarde"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1es~1blog~1active-recall-vs-spaced-repetition.md"
 ---
 
 Una noche respondes bien cinco preguntas seguidas, cierras el portátil con sensación de misión cumplida y das el tema por cerrado. A la mañana siguiente intentas explicar una de esas mismas respuestas sin ayuda y te quedas a medias.

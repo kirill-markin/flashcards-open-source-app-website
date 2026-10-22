@@ -11,6 +11,8 @@ keywords:
   - "تحويل الصوت إلى Flashcards"
   - "ملاحظات البودكاست إلى Flashcards"
   - "دراسة البودكاست باستخدام Flashcards"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1ar~1blog~1how-to-turn-a-podcast-into-flashcards.md"
 ---
 
 بالأمس أعدتُ مقطعًا مدته ثماني دقائق من بودكاست واحد ثلاث مرات، لأن المضيف شرح فكرةً بطريقة تجعلك تشعر أنها مهمة، لكن بصياغة فضفاضة تجعل تذكّرها بدقة أمرًا شبه مستحيل. ومع الإعادة الثالثة خرجتُ بفكرة واحدة مفيدة، وعداوة شخصية صغيرة مع زر الرجوع بضع ثوانٍ إلى الخلف.

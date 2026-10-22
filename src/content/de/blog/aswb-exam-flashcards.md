@@ -12,6 +12,8 @@ keywords:
   - "ASWB-Prüfung Lernplan"
   - "ASWB-Übungsfragen als Flashcards"
   - "FSRS-Flashcards für ASWB"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1de~1blog~1aswb-exam-flashcards.md"
 ---
 
 Ein ASWB-Prüfungstermin am Sonntag, dem 2. August 2026, bedeutet 170 Fragen und den Inhaltsplan von 2018. Nur einen Tag später umfasst die Prüfung 122 Fragen und folgt dem Blueprint von 2026. Wenn du diesen Sommer **ASWB-Flashcards** erstellst, gehört dein Prüfungstermin ganz oben in den Lernplan.

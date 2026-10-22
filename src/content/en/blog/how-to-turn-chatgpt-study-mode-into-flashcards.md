@@ -11,6 +11,8 @@ keywords:
   - "study mode spaced repetition"
   - "ChatGPT study mode Anki"
   - "FSRS flashcards"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1en~1blog~1how-to-turn-chatgpt-study-mode-into-flashcards.md"
 ---
 
 Yesterday I watched an AI tutor walk me through a topic step by step, ask me questions, fix my weak spots, and generally behave like the patient version of a teacher who has not given up on me yet. Then I had the more important thought: nice, but what exactly am I supposed to remember next week?

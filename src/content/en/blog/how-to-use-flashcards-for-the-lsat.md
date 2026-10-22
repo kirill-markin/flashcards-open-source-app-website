@@ -12,6 +12,8 @@ keywords:
   - "LSAT wrong answer journal"
   - "spaced repetition LSAT"
   - "FSRS LSAT study"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1en~1blog~1how-to-use-flashcards-for-the-lsat.md"
 ---
 
 There is still an LSAT flashcards page online in 2026 telling people to study Logic Games. The current LSAT does not even test Logic Games anymore. Since the August 2024 format change, the old Analytical Reasoning section has been replaced by a second scored Logical Reasoning section, and the current test is built around [Logical Reasoning and Reading Comprehension](https://www.lsac.org/lsat/prepare/types-lsat-questions), with [Argumentative Writing](https://www.lsac.org/lsat/prepare/types-lsat-questions) handled separately. LawHub states that change directly in its note on the [redesigned LSAT PrepTests](https://app.lawhub.org/article/redesigned-official-lsat-preptests-available-now).

@@ -12,6 +12,8 @@ keywords:
   - "cloze cards vs question answer cards"
   - "AI cloze flashcards"
   - "convert cloze cards to basic flashcards"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1en~1blog~1cloze-deletion-vs-basic-flashcards.md"
 ---
 
 Two cards can test the same fact while giving your memory different jobs:

@@ -12,6 +12,8 @@ keywords:
   - "AI 批判性思维 作业"
   - "AI 导师 作业"
   - "作业错题转闪卡"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1zh~1blog~1how-to-use-ai-for-homework-without-cheating.md"
 ---
 
 周三晚上 11:47，一道做到一半的作业题，一个开着的 AI 标签页，还有从“帮我讲明白这个”滑到“算了，你直接替我做吧”之间短短六秒。很多人搜索 **如何用 AI 做作业**，其实就卡在这个瞬间。

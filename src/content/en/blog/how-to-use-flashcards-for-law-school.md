@@ -13,6 +13,8 @@ keywords:
   - "practice hypos flashcards"
   - "1L flashcards"
   - "bar exam flashcards"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1en~1blog~1how-to-use-flashcards-for-law-school.md"
 ---
 
 By the middle of the semester, a lot of law students are carrying the same course around three times: the marked-up case brief, the outline that keeps getting longer, and the flashcard deck that somehow became a worse outline. That is usually when people start searching **law school flashcards**, **flashcards for law school**, or **law school spaced repetition**.

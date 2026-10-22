@@ -12,6 +12,8 @@ keywords:
   - "AI 学习 抽认卡"
   - "FSRS 主动回忆"
   - "现在测什么 之后复习什么"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1zh~1blog~1active-recall-vs-spaced-repetition.md"
 ---
 
 昨晚你一口气答对了五道题，感觉状态正好，合上电脑时甚至觉得这块内容已经拿下了。结果第二天早上，你试着不看资料再解释一遍其中一道题，讲到一半就卡住了。

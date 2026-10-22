@@ -11,6 +11,8 @@ keywords:
   - "how to fix anki backlog"
   - "spaced repetition backlog"
   - "missed a week of anki"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1en~1blog~1how-to-catch-up-on-flashcards-after-falling-behind.md"
 ---
 
 Monday morning I opened a deck I had ignored for six days and got greeted by 1,742 due reviews. Which is a very efficient way for a study app to turn into a guilt generator.

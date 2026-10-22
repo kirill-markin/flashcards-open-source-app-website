@@ -13,6 +13,8 @@ keywords:
   - "FSRS flashcards app"
   - "offline flashcards app"
   - "self-hosted flashcards app"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1en~1blog~1memrise-alternative.md"
 ---
 
 Open Memrise without a vocabulary list and it can still tell you what to learn next. Open an empty Nibomo workspace and it stays empty until you add something. That is the central tradeoff for anyone searching for a **Memrise alternative**.

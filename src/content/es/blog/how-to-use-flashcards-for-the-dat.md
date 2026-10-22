@@ -12,6 +12,8 @@ keywords:
   - "DAT Anki"
   - "consejos de estudio PAT DAT"
   - "actualización 2026 de química orgánica DAT"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1es~1blog~1how-to-use-flashcards-for-the-dat.md"
 ---
 
 Si vas a presentarte al DAT en mayo de 2026 o después, la ADA sigue indicando que revises las especificaciones actualizadas de química orgánica. Parece un detalle menor hasta que abres un mazo público y ves que la mitad de las etiquetas, los nombres de los temas y los ejemplos ya no encajan del todo con el examen actual.

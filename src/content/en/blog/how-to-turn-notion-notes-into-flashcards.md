@@ -11,6 +11,8 @@ keywords:
   - "ai flashcards from notion"
   - "notion flashcards ai"
   - "fsrs flashcards"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1en~1blog~1how-to-turn-notion-notes-into-flashcards.md"
 ---
 
 Yesterday I opened a Notion page called "Cell Signaling" and found exactly what you would expect from real notes: three useful sections, two dramatic headings, one quote I clearly copied for emotional support, and a forest of toggles that made sense only to the version of me who wrote them.

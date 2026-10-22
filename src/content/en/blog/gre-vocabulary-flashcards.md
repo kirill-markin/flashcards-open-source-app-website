@@ -12,6 +12,8 @@ keywords:
   - "best GRE vocabulary flashcards"
   - "spaced repetition GRE vocabulary"
   - "GRE vocab deck"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1en~1blog~1gre-vocabulary-flashcards.md"
 ---
 
 You finish a GRE Verbal set, add 37 new words to a deck, and feel productive for about six minutes. A week later you still remember that `laconic` means brief, but you miss the question anyway because the sentence wanted restrained, not merely short. That is usually when people start searching **GRE vocabulary flashcards**, **GRE verbal flashcards**, or **best GRE vocabulary flashcards**.

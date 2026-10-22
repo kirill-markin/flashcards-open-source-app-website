@@ -12,6 +12,8 @@ keywords:
   - "active recall for essay exams"
   - "compare and contrast essay exam study"
   - "history essay exam study"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1en~1blog~1how-to-study-for-essay-exams-with-flashcards.md"
 ---
 
 The blue book opens, the first prompt says "Compare" or "Assess," and suddenly the problem is not your handwriting. It is that the definition, example, or contrast point you could recognize last night will not come back cleanly on command.

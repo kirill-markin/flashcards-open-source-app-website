@@ -12,6 +12,8 @@ keywords:
   - "ADHD active recall"
   - "AI study ADHD"
   - "small review sessions"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1en~1blog~1how-to-study-with-adhd-using-flashcards.md"
 ---
 
 A deck can show only 18 due cards and still feel impossible. Not because 18 is a lot. Because each card comes with a side quest: figure out where to start, remember why this deck exists, parse a vague prompt, then argue with yourself about whether your answer was close enough.

@@ -12,6 +12,8 @@ keywords:
   - "GMAT 勉強法"
   - "GMAT エラーログ フラッシュカード"
   - "GMAT 学習フロー"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1ja~1blog~1how-to-use-flashcards-for-the-gmat.md"
 ---
 
 GMAT のデッキが崩れる場所は、たいてい同じです。誰も見返さない公式リスト、二度と開かれないミスのスプレッドシート、そして公式演習のスクリーンショットが「あとで見る」のまま適当なフォルダーに溜まっていく。そこにフラッシュカードまで4つ目の管理先として足すと、散らかった勉強を整理する仕組みではなく、さらに増やす仕組みになりがちです。GMAT flashcards や flashcards for GMAT を探し始めた人が、まだ旧試験前提のアドバイスにぶつかるのも、だいたいこの段階です。

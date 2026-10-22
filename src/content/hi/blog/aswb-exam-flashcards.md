@@ -12,6 +12,8 @@ keywords:
   - "ASWB परीक्षा अध्ययन योजना"
   - "ASWB अभ्यास प्रश्न फ़्लैशकार्ड"
   - "ASWB के लिए FSRS फ़्लैशकार्ड"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1hi~1blog~1aswb-exam-flashcards.md"
 ---
 
 रविवार, 2 अगस्त 2026 को ASWB परीक्षा देने का मतलब है 170 सवाल और 2018 का content outline। ठीक एक दिन बाद उसी परीक्षा में 122 सवाल होंगे और 2026 का ब्लूप्रिंट लागू होगा। अगर आप इस गर्मी में **ASWB परीक्षा के फ़्लैशकार्ड** बना रहे हैं, तो अपनी परीक्षा की तारीख अध्ययन योजना में सबसे ऊपर लिखें।

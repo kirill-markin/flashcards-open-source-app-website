@@ -12,6 +12,8 @@ keywords:
   - "reading to flashcards"
   - "study reading retention"
   - "how to study reading material"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1en~1blog~1how-to-remember-what-you-read.md"
 ---
 
 Last Thursday I finished a chapter, felt productive for about five minutes, then tried to explain it without looking and stalled on the second definition. That is the annoying version of **how to remember what you read**. The reading went fine. The memory part never really started.

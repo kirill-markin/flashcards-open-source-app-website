@@ -12,6 +12,8 @@ keywords:
   - "plan de estudio para el examen ASWB"
   - "flashcards de preguntas de práctica ASWB"
   - "flashcards con FSRS para ASWB"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1es~1blog~1aswb-exam-flashcards.md"
 ---
 
 Si tu cita para el examen ASWB es el domingo 2 de agosto de 2026, tendrás 170 preguntas y el esquema de contenidos de 2018. Un día después, el examen tendrá 122 preguntas y seguirá el esquema de 2026. Si este verano estás preparando **flashcards para el examen ASWB**, coloca la fecha de la cita al principio del plan de estudio.

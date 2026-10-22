@@ -17,6 +17,8 @@ keywords:
   - grabación de voz en tarjetas didácticas
   - estudiar notas de voz con tarjetas didácticas
   - aplicación de tarjeta de audio
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1es~1blog~1how-to-turn-voice-notes-into-flashcards.md"
 ---
 Ayer dejé una nota de voz de diez minutos para mi yo futuro porque acababa de entender un concepto y no confiaba en absoluto en que esa versión de claridad sobreviviera hasta la noche. Cuando volví a escucharlo más tarde, tenía tres ideas útiles, seis frases de relleno, un solo de tos accidental y un fuerte recordatorio de que el audio sin formato es un formato de estudio final terrible.
 

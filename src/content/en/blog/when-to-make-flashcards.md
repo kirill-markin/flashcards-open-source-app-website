@@ -12,6 +12,8 @@ keywords:
   - "make flashcards after notes"
   - "AI flashcard workflow"
   - "FSRS flashcards"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1en~1blog~1when-to-make-flashcards.md"
 ---
 
 Yesterday I watched someone spend 90 minutes turning one lecture into 84 flashcards, then skip the review because the deck already felt like studying. That was the whole problem in one sitting: the timing was off, the card count was off, and the work started before the understanding did.

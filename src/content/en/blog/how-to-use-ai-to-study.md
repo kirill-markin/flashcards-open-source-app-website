@@ -12,6 +12,8 @@ keywords:
   - "chatgpt study workflow"
   - "ai flashcards spaced repetition"
   - "FSRS study workflow"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1en~1blog~1how-to-use-ai-to-study.md"
 ---
 
 A student can now upload a messy PDF, ask AI to explain it like a patient tutor, get a short quiz, and feel productive in under ten minutes. Then Friday arrives and half of it is gone.

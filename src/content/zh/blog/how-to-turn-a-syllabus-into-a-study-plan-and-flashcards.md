@@ -12,6 +12,8 @@ keywords:
   - "课程大纲做抽认卡"
   - "AI 考试学习计划"
   - "FSRS 学习计划"
+status: retired
+retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1zh~1blog~1how-to-turn-a-syllabus-into-a-study-plan-and-flashcards.md"
 ---
 
 上学期，我本来只是打开课程大纲确认一下期中考试日期，结果看完反而有点不爽。考试本身还不是最大的问题。每周小测占 20%，第九周还藏着一个实验实操考核，最后项目也明显不是等到截止前再想才来得及的那种。我之前一直把这份课程大纲当成行政文件看。课程大纲显然不这么想。
