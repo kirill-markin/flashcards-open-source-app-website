@@ -256,6 +256,21 @@
   text-underline-offset: 0.18em;
 }
 
+.markdown table {
+  display: block;
+  max-inline-size: 100%;
+  overflow-x: auto;
+}
+
+.markdown th,
+.markdown td {
+  min-inline-size: 12rem;
+  text-align: start;
+  vertical-align: top;
+  overflow-wrap: break-word;
+  word-break: normal;
+}
+
 @media (max-width: 980px) {
   .collectionGrid {
     grid-template-columns: repeat(2, minmax(0, 1fr));

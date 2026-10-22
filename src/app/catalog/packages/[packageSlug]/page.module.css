@@ -382,10 +382,13 @@
 
 .markdown th,
 .markdown td {
+  min-inline-size: 12rem;
   padding: 9px 11px;
   border: 1px solid var(--border);
   text-align: start;
   vertical-align: top;
+  overflow-wrap: break-word;
+  word-break: normal;
 }
 
 .markdown img {
