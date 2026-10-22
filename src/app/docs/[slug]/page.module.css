@@ -170,6 +170,7 @@
 
 .content th,
 .content td {
+  min-inline-size: 12rem;
   padding: 12px 14px;
   border: 1px solid var(--border);
   text-align: start;
