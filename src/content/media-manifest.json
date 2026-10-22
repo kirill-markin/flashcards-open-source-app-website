@@ -243,6 +243,21 @@
     "bytes": 2253005
   },
   {
+    "publicPath": "/blog/anki-new-cards-not-showing.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/982117c3f2eeb5c9ad9a23d913d5a9dc75ecf16bb6e3139dd3ab17ed8bf227e7.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "982117c3f2eeb5c9ad9a23d913d5a9dc75ecf16bb6e3139dd3ab17ed8bf227e7",
+    "bytes": 291260,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/505ae7468d1f5d1b3fdce2ec8aa70c8a60dc52631c1c6594e1591a1932b78453.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "505ae7468d1f5d1b3fdce2ec8aa70c8a60dc52631c1c6594e1591a1932b78453",
+      "bytes": 2955829
+    }
+  },
+  {
     "publicPath": "/blog/anki-reverse-cards.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/480b3759c3b65a8083b075a3e8749d11bf3acf38679edb8e51e933cb38aceb83.png",
     "width": 1672,
