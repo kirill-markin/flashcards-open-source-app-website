@@ -15,55 +15,6 @@
   display: none;
 }
 
-.deckCta {
-  display: grid;
-  gap: 14px;
-  margin-block: 28px;
-  padding: clamp(18px, 3vw, 28px);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-card);
-  background: var(--surface);
-}
-
-.deckCta h2 {
-  margin: 0;
-  font-size: 1.2rem;
-  line-height: 1.35;
-}
-
-.deckCta p {
-  margin: 0;
-  color: var(--text-secondary);
-  font-size: 14px;
-  line-height: 1.55;
-}
-
-.deckCta > div {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 14px 20px;
-}
-
-.deckCta a {
-  font-size: 14px;
-  font-weight: 700;
-  text-underline-offset: 0.18em;
-}
-
-.deckCta :global(.blogDeckStudy) {
-  padding: 12px 18px;
-  border-radius: var(--radius-pill);
-  background: var(--accent);
-  color: var(--accent-foreground);
-  text-decoration: none;
-}
-
-.deckCta a:focus-visible {
-  outline: 2px solid var(--accent-strong);
-  outline-offset: 3px;
-}
-
 .articlePanel {
   inline-size: min(100%, var(--reading-width));
   max-width: 100%;

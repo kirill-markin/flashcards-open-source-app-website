@@ -18,7 +18,10 @@ export type PublicCatalogFilterAction =
 export type PublicCatalogNavigationPlacement =
   | "card_cover"
   | "card_title"
-  | "related_deck";
+  | "related_deck"
+  | "article_start_side"
+  | "mid_article"
+  | "article_end";
 export type PublicCatalogInstallPlacement = "top" | "middle" | "bottom";
 
 export interface PublicCatalogFilterAnalytics {

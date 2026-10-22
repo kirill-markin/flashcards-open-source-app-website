@@ -1,8 +1,10 @@
 import assert from "node:assert/strict";
 import test from "node:test";
+import { registerHooks } from "node:module";
 import { createElement } from "react";
 import { renderToStaticMarkup } from "react-dom/server";
-import { BlogDeckCta } from "../components/BlogDeckCta";
+import { ImageConfigContext } from "next/dist/shared/lib/image-config-context.shared-runtime";
+import { imageConfigDefault } from "next/dist/shared/lib/image-config";
 import { remark } from "remark";
 import gfm from "remark-gfm";
 import type { GlobalActivitySnapshot } from "./globalActivitySnapshot";
@@ -681,7 +683,16 @@ test("parses the schema and builds latest-version-only lookup data", () => {
   );
 });
 
-test("blog deck resources share one localized public deck entry across HTML and Markdown locales", (context) => {
+test("blog deck resources fill the article slots and one Markdown footer with localized public details", async (context) => {
+  const cssHook = registerHooks({
+    load(url, loadContext, nextLoad) {
+      return url.endsWith(".module.css")
+        ? { format: "module", shortCircuit: true, source: "export default {};" }
+        : nextLoad(url, loadContext);
+    },
+  });
+  context.after(() => cssHook.deregister());
+  const { BlogDeckCta } = await import("../components/BlogDeckCta");
   const originalTrailingSlash = process.env.__NEXT_TRAILING_SLASH;
   context.after(() => {
     if (originalTrailingSlash === undefined) {
@@ -709,22 +720,32 @@ test("blog deck resources share one localized public deck entry across HTML and 
     assert.equal(resource.packageHref, getPublicCatalogPackageLocalizedPathname(locale, packageSlug));
     assert.equal(resource.packageId, fixturePackageId);
     assert.equal(resource.title, input.packageVersions[1].title);
+    assert.equal(resource.summary, input.packageVersions[1].summary);
+    assert.deepEqual(resource.coverMediaAsset, model.packages[0].coverMediaAsset);
     assert.equal(resource.cardCountLabel, formatPublicCatalogCardCount(locale, 2, copy));
     assert.ok(resource.languageLabel.includes("(en)"));
     assert.equal(resource.languageLabel.includes("(es)"), false);
 
-    const html = renderToStaticMarkup(createElement(BlogDeckCta, {
-      className: "deck-cta",
-      locale,
-      resource,
-    }));
-    const studyAnchor = html.match(/<a\b[^>]*data-testid="blog-deck-top-study"[^>]*>/)?.[0];
-    assert.ok(studyAnchor);
-    assert.ok(studyAnchor.includes(`href="${resource.packageHref}"`));
-    assert.equal((html.match(/<a\b/g) ?? []).length, 1);
-    assert.equal(html.includes("/catalog/import/"), false);
-    assert.equal(html.includes("blog-deck-top-preview"), false);
-    assert.ok(html.includes(resource.title));
+    for (const placement of ["article_start_side", "mid_article", "article_end"] as const) {
+      const html = renderToStaticMarkup(createElement(
+        ImageConfigContext.Provider,
+        { value: { ...imageConfigDefault, unoptimized: true } },
+        createElement(BlogDeckCta, { locale, placement, resource }),
+      ));
+      const studyAnchor = html.match(new RegExp(`<a\\b[^>]*data-testid="blog-deck-${placement}-study"[^>]*>`))?.[0];
+      assert.ok(studyAnchor);
+      assert.ok(studyAnchor.includes(`href="${resource.packageHref}"`));
+      assert.equal((html.match(/<a\b/g) ?? []).length, 1);
+      assert.equal(html.includes("/catalog/import/"), false);
+      assert.equal(html.includes("blog-deck-top"), false);
+      assert.ok(html.includes(resource.title));
+      assert.ok(html.includes(resource.summary));
+      assert.ok(html.includes(resource.cardCountLabel));
+      assert.ok(html.includes(resource.languageLabel));
+      assert.ok(html.includes(copy.installLabel));
+      assert.ok(html.includes("Cover image"));
+      assert.ok(html.includes(`src="${resource.coverMediaAsset?.downloadUrl}"`));
+    }
 
     const pagePath = locale === "en"
       ? "blog/us-state-abbreviations"
@@ -740,9 +761,11 @@ test("blog deck resources share one localized public deck entry across HTML and 
     const packageUrl = `https://nibomo.com${resource.packageHref}`;
     assert.ok(links.includes(packageUrl));
     assert.equal(document.markdown.includes("/catalog/import/"), false);
-    const earlyAction = tree.children?.[4];
-    assert.equal(earlyAction?.type, "paragraph");
-    assert.deepEqual(earlyAction?.children?.map((node) => node.url), [packageUrl]);
+    const resourceTitleIndex = document.markdown.indexOf(`**${resource.title}**`);
+    const studyLinkIndex = document.markdown.indexOf(`](${packageUrl})`);
+    assert.ok(resourceTitleIndex > document.markdown.lastIndexOf("## "));
+    assert.ok(studyLinkIndex > resourceTitleIndex);
+    assert.ok(document.markdown.includes(resource.summary));
     assert.equal(
       nodes.filter((node) => node.type === "link" && node.children?.some(
         (child) => child.type === "text" && child.value === copy.installLabel,

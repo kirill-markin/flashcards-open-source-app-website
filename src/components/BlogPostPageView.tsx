@@ -138,18 +138,19 @@ export async function BlogPostPageView({
               </p>
             </div>
           </header>
-          {deckResource !== null && (
-            <BlogDeckCta
-              className={styles.deckCta}
-              locale={locale}
-              resource={deckResource}
-            />
-          )}
           <section className={styles.contentPanel}>
             {chunks.map((chunkHtml, index) => (
               <Fragment key={index}>
-                {deckResource === null && index === midInsertIndex && (
-                  <BlogCta locale={locale} placement="mid_article" />
+                {index === midInsertIndex && (
+                  deckResource === null ? (
+                    <BlogCta locale={locale} placement="mid_article" />
+                  ) : (
+                    <BlogDeckCta
+                      locale={locale}
+                      placement="mid_article"
+                      resource={deckResource}
+                    />
+                  )
                 )}
                 <div
                   className={styles.content}
@@ -157,16 +158,28 @@ export async function BlogPostPageView({
                 />
               </Fragment>
             ))}
-            {deckResource === null && (
+            {deckResource === null ? (
               <BlogCta locale={locale} placement="article_end" />
+            ) : (
+              <BlogDeckCta
+                locale={locale}
+                placement="article_end"
+                resource={deckResource}
+              />
             )}
           </section>
         </div>
-        {deckResource === null && (
-          <div className={styles.startCtaRail}>
+        <div className={styles.startCtaRail}>
+          {deckResource === null ? (
             <BlogStartSideCta locale={locale} />
-          </div>
-        )}
+          ) : (
+            <BlogDeckCta
+              locale={locale}
+              placement="article_start_side"
+              resource={deckResource}
+            />
+          )}
+        </div>
         {recommendedPosts.length > 0 ? (
           <section className={styles.relatedPanel}>
             <h2 className={styles.relatedHeading}>{uiCopy.blog.readNextHeading}</h2>
