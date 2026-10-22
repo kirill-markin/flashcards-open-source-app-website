@@ -235,6 +235,21 @@
     "bytes": 2339631
   },
   {
+    "publicPath": "/blog/anki-mathjax-cloze.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/becfd250c3ee62c538765e441526903c899c05d7f3267118759a5c724c13b3f2.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "becfd250c3ee62c538765e441526903c899c05d7f3267118759a5c724c13b3f2",
+    "bytes": 164106,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/a35e94c2f689ca962bfce647c993fceedf4e221bc04e1cc8c23b657e74a3e153.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "a35e94c2f689ca962bfce647c993fceedf4e221bc04e1cc8c23b657e74a3e153",
+      "bytes": 2394010
+    }
+  },
+  {
     "publicPath": "/blog/anki-new-card-order.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/ee3ae5f8c610c255110897ba5b7c1648c023ffd16518c51ae6cdfd3bd860c760.png",
     "width": 1672,
