@@ -203,7 +203,7 @@ Source: My authorized practice correction; original question not copied
 
 If the formula and conversion were both correct but you misunderstood the situation, spend more time on fresh word problems. If you knew the passage content but ran out of time, schedule timed reading sets. The right repair is not always another card.
 
-Extract the learning point in your own words instead of copying a question. [Flashcards versus practice tests](/blog/flashcards-vs-practice-tests/) explains why retrieval review and exam-format practice should remain separate parts of the week.
+Extract the learning point in your own words instead of copying a question.
 
 ## Practice the format you will actually take
 

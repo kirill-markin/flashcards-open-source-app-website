@@ -158,8 +158,6 @@ Tady je pět běžných příkladů, jak z chyby vytvořit kartičku:
 
 Nekopírujte na jednu kartičku celou oficiální otázku a zdůvodnění. Ověřené poučení napište vlastními slovy. Celou úlohu nechte v cvičném materiálu a v sadě ponechte jen krátké poučení k zapamatování.
 
-[Kartičky versus cvičné testy v roce 2026](/blog/flashcards-vs-practice-tests/) vysvětluje, proč mají kartička a následující nová otázka zůstat samostatnými kroky.
-
 ## Starou sadu pro TOEFL zkontrolujte před opakováním
 
 Sady vytvořené před 21. lednem 2026 mohou kombinovat stále užitečnou angličtinu se zastaralými údaji o zkoušce. Užitečný jazykový obsah si ponechte, ale zkontrolujte každou kartičku, jejíž odpověď závisí na formátu testu.

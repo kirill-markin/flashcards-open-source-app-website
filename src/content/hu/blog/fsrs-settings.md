@@ -131,7 +131,7 @@ Válaszd az **Again** gombot, ha nem tudtad felidézni a szükséges választ, v
 
 Ha azért választod a Hard gombot, hogy elkerüld az Again rövid intervallumát, sikerként rögzítesz egy sikertelen felidézést. Az FSRS ezután téves eseményből tanul. Aszerint válassz gombot, hogy hogyan sikerült felidézned a választ, ne a gombok fölött látható intervallum alapján.
 
-A kétértelmű kártyák megnehezítik az őszinte értékelést. Ha a kártya öt tény felidézését kéri, de csak négyre emlékszel, az ütemezési probléma már a szerkesztőben elkezdődött. Bontsd fel vagy fogalmazd át a kártyát. Ha egy kártya sok ismétlés ellenére is rendszeresen kifog rajtad, olvasd el a [Makacsul nehéz tanulókártyák javítása](/blog/how-to-fix-leech-flashcards/) című útmutatót.
+A kétértelmű kártyák megnehezítik az őszinte értékelést. Ha a kártya öt tény felidézését kéri, de csak négyre emlékszel, az ütemezési probléma már a szerkesztőben elkezdődött. Bontsd fel vagy fogalmazd át a kártyát.
 
 ## Legyenek rövidek az FSRS tanulási lépései – vagy tudatosan hagyd őket üresen
 

@@ -160,7 +160,7 @@ Here are five common conversions:
 
 Do not copy a whole official question and rationale onto one card. Write the verified lesson in your own words. Leave the full item in the practice material and keep only the small memory target in the deck.
 
-Classify a miss as a fact gap, distinction, sequence, or trap pattern, then write a short card for the reusable lesson. [Flashcards vs Practice Tests in 2026](/blog/flashcards-vs-practice-tests/) explains why the card and the next fresh question should remain separate steps.
+Classify a miss as a fact gap, distinction, sequence, or trap pattern, then write a short card for the reusable lesson.
 
 ## Audit an old TOEFL deck before you review it
 

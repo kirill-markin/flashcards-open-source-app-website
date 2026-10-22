@@ -131,7 +131,7 @@ Tumia **Again** ikiwa hukuweza kutoa jibu linalohitajika au ulijibu vibaya. Tumi
 
 Kubonyeza Hard ili kuepuka muda mfupi wa Again hurekodi kwamba umekumbuka wakati umeshindwa. FSRS basi hujifunza kutokana na tukio lisilo sahihi. Chagua kitufe kinachoeleza jinsi ulivyokumbuka. Usichague kwa kuangalia muda wa kurudia unaoupendelea kati ya nyakati zinazoonyeshwa juu ya vitufe.
 
-Kadi zenye utata hufanya tathmini ya kweli kuwa ngumu zaidi. Ikiwa swali linaomba taarifa tano na unakumbuka nne, tatizo la kupanga marudio lilianza wakati wa kuandika kadi. Igawanye au iandike upya. Kwa kadi unazoendelea kushindwa hata baada ya marudio mengi, tumia [Jinsi ya kurekebisha kadi unazoshindwa kukumbuka mara kwa mara](/blog/how-to-fix-leech-flashcards/).
+Kadi zenye utata hufanya tathmini ya kweli kuwa ngumu zaidi. Ikiwa swali linaomba taarifa tano na unakumbuka nne, tatizo la kupanga marudio lilianza wakati wa kuandika kadi. Igawanye au iandike upya.
 
 ## Weka hatua fupi za kujifunza za FSRS—au ziache tupu kwa makusudi
 

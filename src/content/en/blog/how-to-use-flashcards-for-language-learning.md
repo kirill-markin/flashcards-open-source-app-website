@@ -224,10 +224,7 @@ Because only you know whether:
 - the prompt is too easy or too vague
 - the card fits your actual level
 
-If your source material starts as notes, transcript text, or chat output, these guides help upstream:
-
-- [How to Use ChatGPT to Make Flashcards in 2026](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [How to Turn YouTube Videos Into Flashcards in 2026](https://nibomo.com/blog/youtube-to-flashcards/)
+If your source material starts as notes, transcript text, or chat output, [How to Use ChatGPT to Make Flashcards in 2026](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/) covers drafting candidate cards.
 
 ## Build around your real goal, not generic language ambition
 
@@ -257,7 +254,6 @@ That makes it easier to move from "I found useful language in a source" to "I am
 
 If you are also comparing broader product options, these are the closest adjacent reads:
 
-- [Memrise Alternative in 2026](https://nibomo.com/blog/memrise-alternative/)
 - [Quizlet Alternative in 2026](https://nibomo.com/blog/quizlet-alternative/)
 - [Best Offline Flashcards App in 2026](https://nibomo.com/blog/best-offline-flashcards-app/)
 

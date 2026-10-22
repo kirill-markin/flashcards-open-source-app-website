@@ -158,8 +158,6 @@ Oto pięć typowych przykładów:
 
 Nie kopiuj na jedną fiszkę całego oficjalnego pytania wraz z uzasadnieniem odpowiedzi. Zapisz sprawdzony wniosek własnymi słowami. Pełne zadanie zostaw w materiałach ćwiczeniowych, a w talii zachowaj tylko niewielki element do zapamiętania.
 
-[Fiszki a testy próbne w 2026 roku](/blog/flashcards-vs-practice-tests/) wyjaśnia, dlaczego powtórka fiszki i rozwiązanie kolejnego nowego pytania powinny pozostać osobnymi krokami.
-
 ## Przejrzyj starą talię do TOEFL, zanim zaczniesz ją powtarzać
 
 Talie utworzone przed 21 stycznia 2026 roku mogą łączyć nadal przydatny angielski z nieaktualnymi szczegółami egzaminu. Zachowaj użyteczny materiał językowy, ale przejrzyj każdą fiszkę, której odpowiedź zależy od formatu testu.

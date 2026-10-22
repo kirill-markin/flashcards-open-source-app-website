@@ -43,7 +43,7 @@ The exam date matters. So does the day after it. Use this table to choose a stud
 
 Tomorrow may leave only enough time for a targeted cram session. A week allows several retrieval attempts with real delays between them. For a cumulative final, earlier topics need to return while you learn the latest material. Professional, language, and technical knowledge usually deserve reviews after the score is published.
 
-One universal `1-3-7` plan is too neat for all of those goals. Useful gaps vary with the intended retention interval, and topics start at different levels of familiarity. A practical [flashcard review schedule](/blog/how-often-should-you-review-flashcards/) should respond to the deadline and to actual recall.
+One universal `1-3-7` plan is too neat for all of those goals. Useful gaps vary with the intended retention interval, and topics start at different levels of familiarity. A practical flashcard review schedule should respond to the deadline and to actual recall.
 
 ## Why cramming feels so effective
 
@@ -127,7 +127,7 @@ They are a poor substitute for producing the full answer an exam demands. Keep t
 
 A card can ask when to use a formula. A problem set shows whether you can recognize that moment inside unfamiliar wording. A card can store an essay’s core distinction. Writing the essay shows whether you can build the argument under time pressure.
 
-Use the tools in sequence. Let realistic questions expose gaps, store the small ones worth retaining, then return to realistic questions. [Flashcards vs practice tests](/blog/flashcards-vs-practice-tests/) goes deeper on that division of labour.
+Use the tools in sequence. Let realistic questions expose gaps, store the small ones worth retaining, then return to realistic questions.
 
 ## How FSRS helps without studying for you
 

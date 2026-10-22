@@ -158,8 +158,6 @@ Bir alıştırma hatasını, ancak neyin yanlış gittiğini anladıktan sonra k
 
 Resmî bir sorunun tamamını ve cevap gerekçesini tek karta kopyalamayın. Hatadan çıkardığınız ve doğruladığınız sonucu kendi sözlerinizle yazın. Sorunun tamamı alıştırma materyalinde kalsın; destede yalnızca hatırlamanız gereken küçük parçayı tutun.
 
-[2026'da Bilgi Kartları ve Deneme Sınavları](/blog/flashcards-vs-practice-tests/) kartın ve ardından çözülecek yeni sorunun neden ayrı adımlar olarak kalması gerektiğini açıklıyor.
-
 ## Eski bir TOEFL destesini tekrar etmeye başlamadan önce inceleyin
 
 21 Ocak 2026'dan önce oluşturulmuş desteler, geçerliliğini koruyan İngilizce bilgileri artık kullanılmayan sınav ayrıntılarıyla karıştırabilir. Yararlı dil içeriğini tutun, ancak yanıtı sınav formatına bağlı olan her kartı inceleyin.

@@ -131,7 +131,7 @@ Gerekli yanıtı veremediğinizde veya yanlış yanıt verdiğinizde **Again** k
 
 Again'in kısa aralığından kaçınmak için Hard'a basmak, başarısız bir hatırlamayı başarı olarak kaydeder. FSRS de yanlış olaya dayanarak öğrenir. Düğmelerin üzerindeki süreye bakıp istediğiniz aralığı seçmeyin; yanıtı ne kadar iyi hatırladığınızı doğru anlatan düğmeye basın.
 
-Belirsiz kartlar, dürüst değerlendirmeyi zorlaştırır. Soru beş bilgi istiyor ve siz dördünü hatırlıyorsanız zamanlama sorunu kartı düzenlerken başlamıştır. Kartı bölün veya yeniden yazın. Tekrarlara rağmen sürekli unutulan kartlar için [Sürekli Unutulan Bilgi Kartları Nasıl Düzeltilir?](/blog/how-to-fix-leech-flashcards/) rehberine bakın.
+Belirsiz kartlar, dürüst değerlendirmeyi zorlaştırır. Soru beş bilgi istiyor ve siz dördünü hatırlıyorsanız zamanlama sorunu kartı düzenlerken başlamıştır. Kartı bölün veya yeniden yazın.
 
 ## FSRS öğrenme adımlarını kısa tutun veya bilinçli olarak boş bırakın
 

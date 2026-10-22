@@ -220,9 +220,7 @@ A phrase deserves a card if:
 
 If not, let the phrase stay inside the session and die there.
 
-If review load is already your bigger problem, start here:
-
-- [How to Catch Up on Flashcards After Falling Behind in 2026](https://nibomo.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
+If review load is already your bigger problem, pause new cards and reduce the collection to phrases you still expect to use.
 
 ## FSRS matters because spoken phrases decay strangely
 

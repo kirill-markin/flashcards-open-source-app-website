@@ -158,7 +158,7 @@ Create front/back cards from the official material. Keep the USCIS-listed respon
 
 ### 4. Review due cards and answer aloud
 
-Check the due queue daily when practical. FSRS schedules later reviews from your recall history, but it cannot verify whether an answer is current. [This review-schedule guide](/blog/how-often-should-you-review-flashcards/) explains the difference between checking due cards daily and reviewing every card daily.
+Check the due queue daily when practical, rather than reviewing every card every day. FSRS schedules later reviews from your recall history, but it cannot verify whether an answer is current.
 
 ### 5. Run oral sets
 
@@ -166,7 +166,7 @@ Once or twice a week, have another person read a mixed set without showing you t
 
 ### 6. Use misses to guide extra study
 
-When you miss a card, identify the problem: recall, pronunciation, meaning, or an outdated answer. Read the relevant part of the USCIS study guide when the idea itself is unclear. Broader practice still matters because [flashcards and practice tests train different jobs](/blog/flashcards-vs-practice-tests/).
+When you miss a card, identify the problem: recall, pronunciation, meaning, or an outdated answer. Read the relevant part of the USCIS study guide when the idea itself is unclear. Keep oral practice in the plan so you can answer without the card's visual cues.
 
 ### 7. Audit the current-answer group
 

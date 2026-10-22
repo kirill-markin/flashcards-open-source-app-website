@@ -83,7 +83,7 @@ AI Tutor har en annen oppgave. Den kan gå gjennom materialet trinn for trinn, l
 
 Gizmo gjør fremgangen i begge modusene til et spill. Quizer bidrar til XP, Levels, Leagues og Streaks, mens Hearts, Hints og Coins påvirker hvordan gratis quizøkter forløper. Hvis disse mekanikkene gjør det lettere å komme tilbake hver dag, er de en reell grunn til å velge produktet, ikke bare pynt.
 
-Et kort spørsmål som tester hva du husker, og en øvingsoppgave med flere trinn har likevel ulike formål. [Puggekort sammenlignet med øvingsprøver](/blog/flashcards-vs-practice-tests/) forklarer hvorfor det som regel er mer nyttig å kombinere dem enn å presse hvert emne inn på et kort.
+Et kort spørsmål som tester hva du husker, og en øvingsoppgave med flere trinn har likevel ulike formål.
 
 ## Fire begrensninger du bør sjekke før du legger et helt kurs inn i Gizmo
 

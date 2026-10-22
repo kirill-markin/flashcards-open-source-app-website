@@ -83,7 +83,7 @@ AI Tutor má inú úlohu. Dokáže prejsť materiál krok za krokom, vytvoriť p
 
 V oboch režimoch Gizmo premieňa pokrok na hru. Kvízy prispievajú k XP, Levels, Leagues a Streaks, zatiaľ čo Hearts, Hints a Coins ovplyvňujú priebeh bezplatných kvízov. Ak vám tieto mechanizmy pomáhajú vracať sa každý deň, sú skutočným kritériom pri výbere produktu, nie iba dekoráciou.
 
-Krátka otázka, pri ktorej si vybavíte odpoveď z pamäti, však slúži na niečo iné než cvičná úloha s viacerými krokmi. Článok [Kartičky alebo cvičné testy](/blog/flashcards-vs-practice-tests/) vysvetľuje, prečo je zvyčajne užitočnejšie ich kombinovať než každú tému nasilu vtesnať do kartičky.
+Krátka otázka, pri ktorej si vybavíte odpoveď z pamäti, však slúži na niečo iné než cvičná úloha s viacerými krokmi.
 
 ## Štyri obmedzenia, ktoré si overte pred prenesením celého kurzu do aplikácie Gizmo
 

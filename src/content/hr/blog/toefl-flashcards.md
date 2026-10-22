@@ -158,8 +158,6 @@ Evo pet uobičajenih načina pretvaranja pogrešaka u kartice:
 
 Nemojte kopirati cijelo službeno pitanje i obrazloženje na jednu karticu. Zapišite provjerenu pouku svojim riječima. Cijeli zadatak ostavite u materijalu za vježbu, a u špilu zadržite samo mali dio za pamćenje.
 
-[Kartice za učenje ili probni testovi u 2026.](/blog/flashcards-vs-practice-tests/) objašnjava zašto kartica i sljedeće novo pitanje trebaju ostati odvojeni koraci.
-
 ## Pregledajte stari TOEFL špil prije nego što ga počnete ponavljati
 
 Špilovi nastali prije 21. siječnja 2026. mogu miješati trajno korisno znanje engleskog s ukinutim pojedinostima ispita. Zadržite koristan jezični sadržaj, ali pregledajte svaku karticu čiji odgovor ovisi o formatu.

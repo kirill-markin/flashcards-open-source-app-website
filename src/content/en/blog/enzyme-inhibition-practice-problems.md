@@ -141,6 +141,6 @@ Use complete problems for algebra. If one distinction keeps causing trouble, sav
 | Apparent Km is 0.8× control and Vmax is 0.5× control. Is “both down” enough for uncompetitive? | No. Uncompetitive requires equal factors in this ideal model; this pair fits mixed inhibition. |
 | Which Vmax belongs in the half-maximum definition of an inhibited series' apparent Km? | That inhibited series' own Vmax. |
 
-The [better-flashcards guide](/blog/how-to-make-better-flashcards/) explains how to keep one decision per prompt. If you're organizing biochemistry revision, the [MCAT flashcard guide](/blog/how-to-use-flashcards-for-the-mcat/) covers a broader study workflow. After reviewing a card, redo its missed calculation from a blank page.
+The [better-flashcards guide](/blog/how-to-make-better-flashcards/) explains how to keep one decision per prompt. After reviewing a card, redo its missed calculation from a blank page.
 
 *Production note: This worksheet was created with substantial AI assistance in research, drafting, editing, and exercise construction. The hero image is AI-generated. Exact fraction arithmetic checked the fictional model values. These checks are not laboratory results, human review, classroom validation, or evidence of learning gains.*

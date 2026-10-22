@@ -158,8 +158,6 @@ Tu je päť bežných spôsobov, ako z chyby vytvoriť kartičku:
 
 Nekopírujte na jednu kartičku celú oficiálnu otázku aj s vysvetlením odpovede. Overené poučenie napíšte vlastnými slovami. Celú úlohu nechajte v cvičnom materiáli a v balíčku ponechajte iba malý prvok na zapamätanie.
 
-Článok [Kartičky verzus cvičné testy v roku 2026](/blog/flashcards-vs-practice-tests/) vysvetľuje, prečo by opakovanie kartičky a ďalšia nová otázka mali zostať samostatnými krokmi.
-
 ## Pred opakovaním skontrolujte starý balíček na TOEFL
 
 Balíčky vytvorené pred 21. januárom 2026 môžu spájať stále užitočné jazykové učivo so zastaranými údajmi o skúške. Užitočný jazykový obsah si nechajte, ale skontrolujte každú kartičku, ktorej odpoveď závisí od formátu.

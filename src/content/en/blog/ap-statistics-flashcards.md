@@ -98,7 +98,7 @@ Flashcards work when the retrieval target is narrow. Keep multi-step analysis an
 
 A card can ask which procedure fits. Only a full problem tests whether you can choose it, check conditions, run the analysis, and justify a conclusion together.
 
-If deck-building has started to replace testing yourself, [Flashcards vs. Practice Tests](/blog/flashcards-vs-practice-tests/) gives a clearer boundary between the two tools.
+If deck-building has started to replace testing yourself, reserve time for fresh full problems before adding more cards.
 
 ## Six AP Stats card formats worth keeping
 

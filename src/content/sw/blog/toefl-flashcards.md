@@ -158,8 +158,6 @@ Hapa kuna njia tano za kawaida za kugeuza makosa kuwa kadi:
 
 Usinakili swali zima rasmi pamoja na maelezo ya jibu kwenye kadi moja. Andika funzo lililothibitishwa kwa maneno yako mwenyewe. Acha swali kamili katika nyenzo za mazoezi na uweke tu jambo dogo la kukumbuka katika seti ya kadi.
 
-[Kadi za kujifunzia dhidi ya mitihani ya mazoezi mwaka 2026](/blog/flashcards-vs-practice-tests/) inaeleza kwa nini kadi na swali jipya linalofuata vinapaswa kubaki hatua mbili tofauti.
-
 ## Kagua seti ya zamani ya TOEFL kabla ya kuirudia
 
 Seti zilizotengenezwa kabla ya tarehe 21 Januari 2026 zinaweza kuchanganya Kiingereza kinachoendelea kuwa sahihi na taarifa za mtihani ambazo hazitumiki tena. Hifadhi lugha yenye manufaa, lakini chunguza kila kadi ambayo jibu lake linategemea muundo wa mtihani.

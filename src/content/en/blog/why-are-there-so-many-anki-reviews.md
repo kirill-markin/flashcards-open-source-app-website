@@ -69,7 +69,7 @@ Do not diagnose from the headline number alone. Look at what kind of cards explo
 
 That distinction matters.
 
-If the queue is mostly overdue because you stopped reviewing for a while, go read [How to Catch Up on Flashcards After Falling Behind in 2026](/blog/how-to-catch-up-on-flashcards-after-falling-behind/). That is a backlog problem. This article is for the version where you kept using the deck and the review count still got weird.
+If the queue is mostly overdue because you stopped reviewing for a while, pause new cards and work through the backlog in manageable sessions. This article is for the version where you kept using the deck and the review count still got weird.
 
 ## The most common cause is still simple: too many new cards
 

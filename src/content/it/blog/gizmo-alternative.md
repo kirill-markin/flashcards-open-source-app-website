@@ -83,7 +83,7 @@ AI Tutor svolge un compito diverso. Può accompagnarti nel materiale passo dopo 
 
 Attorno a entrambe le modalità, Gizmo trasforma i progressi in un gioco. I quiz contribuiscono a XP, Levels, Leagues e Streaks, mentre Hearts, Hints e Coins influenzano lo svolgimento delle sessioni gratuite. Se queste meccaniche ti aiutano a tornare ogni giorno, hanno un peso concreto nella scelta del prodotto.
 
-Una breve domanda per richiamare un'informazione e un esercizio articolato in più passaggi servono comunque a scopi diversi. [Flashcard e test di esercitazione a confronto](/blog/flashcards-vs-practice-tests/) spiega perché combinarli è di solito più utile che cercare di inserire ogni argomento in una scheda.
+Una breve domanda per richiamare un'informazione e un esercizio articolato in più passaggi servono comunque a scopi diversi.
 
 ## Quattro limiti da controllare prima di usare Gizmo per un intero corso
 

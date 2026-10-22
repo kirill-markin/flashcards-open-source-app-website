@@ -158,8 +158,6 @@ Nazi izindlela ezinhlanu ezivamile zokwenza lokho:
 
 Ungakopisheli umbuzo osemthethweni ophelele nencazelo yempendulo ekhadini elilodwa. Bhala isifundo esiqinisekisiwe ngamazwi akho. Shiya umbuzo ophelele ezintweni zokuzilolonga, ugcine eqoqweni lamakhadi into encane kuphela okufanele uyikhumbule.
 
-[Ama-flashcard uma eqhathaniswa nezivivinyo zokuzilolonga ngo-2026](/blog/flashcards-vs-practice-tests/) ichaza ukuthi kungani ukubuyekeza ikhadi nokuphendula umbuzo omusha olandelayo kufanele kuhlale kuyizinyathelo ezihlukene.
-
 ## Hlola iqoqo elidala le-TOEFL ngaphambi kokulibuyekeza
 
 Amaqoqo akhiwa ngaphambi komhla zingama-21 kuJanuwari 2026 angahlanganisa isiNgisi esisasebenza nemininingwane yesivivinyo engasasetshenziswa. Gcina ulimi oluwusizo, kodwa hlola wonke amakhadi izimpendulo zawo ezincike esakhiweni sesivivinyo.

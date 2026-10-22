@@ -202,7 +202,7 @@ The useful version is narrower:
 3. keep the clear ones
 4. delete the inflated ones fast
 
-If you already study with AI and want the broader workflow, [How to Use AI to Study in 2026](/blog/how-to-use-ai-to-study/) is the better companion. If the model already made a messy deck, [How to Fix AI Flashcards in 2026](/blog/how-to-fix-ai-flashcards/) is the cleanup guide.
+If the model already made a messy deck, [How to Fix AI Flashcards in 2026](/blog/how-to-fix-ai-flashcards/) is the cleanup guide.
 
 ## Keep the GED deck structure boring and easy to reopen
 

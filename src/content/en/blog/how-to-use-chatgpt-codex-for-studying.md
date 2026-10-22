@@ -201,7 +201,7 @@ or new facts.
 
 Read them once, copy the survivors into Nibomo, and continue with normal review. Manual entry is a sensible choice for private material, a managed school account, or anyone who does not want an AI client to read stored card data.
 
-The companion guide [How to Turn ChatGPT Study Mode Into Flashcards](/blog/how-to-turn-chatgpt-study-mode-into-flashcards/) focuses on that connector-free tutoring workflow. [How to Use ChatGPT to Make Flashcards](/blog/how-to-use-chatgpt-to-make-flashcards/) covers broader card drafting from notes. If you study with Anthropic's tools too, [How to Use Claude for Studying](/blog/how-to-use-claude-for-studying/) shows the parallel tutor-to-MCP loop with Claude's separate connector setup.
+[How to Use ChatGPT to Make Flashcards](/blog/how-to-use-chatgpt-to-make-flashcards/) covers broader card drafting from notes. If you study with Anthropic's tools too, [How to Use Claude for Studying](/blog/how-to-use-claude-for-studying/) shows the parallel tutor-to-MCP loop with Claude's separate connector setup.
 
 ## Keep the handoff smaller than the lesson
 

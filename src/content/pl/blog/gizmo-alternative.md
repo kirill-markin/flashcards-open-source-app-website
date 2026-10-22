@@ -83,7 +83,7 @@ AI Tutor służy do czegoś innego. Może omawiać materiał krok po kroku, gene
 
 W obu trybach Gizmo nadaje postępom formę gry. Quizy pozwalają zdobywać XP i robić postępy w Levels, Leagues oraz Streaks, a Hearts, Hints i Coins wpływają na przebieg darmowych sesji quizowych. Jeśli te mechanizmy pomagają ci wracać codziennie do nauki, mają rzeczywiste znaczenie przy wyborze produktu — nie są tylko ozdobą.
 
-Krótkie pytanie sprawdzające pamięć i wieloetapowe zadanie praktyczne służą jednak różnym celom. Artykuł [Fiszki a testy próbne](/blog/flashcards-vs-practice-tests/) wyjaśnia, dlaczego ich łączenie zwykle daje więcej niż próba zamiany każdego tematu w fiszkę.
+Krótkie pytanie sprawdzające pamięć i wieloetapowe zadanie praktyczne służą jednak różnym celom.
 
 ## Cztery ograniczenia do sprawdzenia, zanim przeniesiesz kurs do Gizmo
 

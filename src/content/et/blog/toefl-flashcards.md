@@ -158,8 +158,6 @@ Siin on viis levinud viisi, kuidas viga kaardiks muuta:
 
 Ära kopeeri ühele kaardile tervet ametlikku küsimust koos vastuse põhjendusega. Kirjuta kontrollitud õppetund oma sõnadega. Jäta terve ülesanne harjutusmaterjali ja hoia kaardipakis ainult väike meeldejäetav osa.
 
-[„Õpikaardid või proovitestid 2026. aastal”](/blog/flashcards-vs-practice-tests/) selgitab, miks kaart ja järgmine uus küsimus peaksid jääma eraldi sammudeks.
-
 ## Vaata vana TOEFL-i kaardipakk enne kordamist üle
 
 Enne 21. jaanuari 2026 loodud kaardipakkides võib olla läbisegi püsivalt kasulikku inglise keelt ja aegunud eksamiüksikasju. Säilita kasulik keelematerjal, kuid vaata üle iga kaart, mille vastus sõltub eksami formaadist.

@@ -120,7 +120,7 @@ Back: hypo-. Hyper- means above, beyond, or excessive.
 Source: MedlinePlus Appendix A; course glossary
 ```
 
-This card repairs one specific confusion. It is more useful than duplicating the two original cards several times. If a difficult card keeps returning without improving, follow the [leech-card repair workflow](/blog/how-to-fix-leech-flashcards/): check the source, narrow the prompt, separate mixed targets, and add the exact contrast that was missing.
+This card repairs one specific confusion. It is more useful than duplicating the two original cards several times. If a difficult card keeps returning without improving, check the source, narrow the prompt, separate mixed targets, and add the exact contrast that was missing.
 
 ## Treat medical abbreviations flashcards as a special case
 

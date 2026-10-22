@@ -79,7 +79,7 @@ Learning all 27 as one block leaves you with too many arbitrary number-to-meanin
 
 Learn the buckets in order first. Inside one bucket, say the number and cue aloud: `13—slavery`, `14—citizenship, due process, equal protection`, `15—voting and race`. Once those links are accurate, mix the buckets so the heading no longer gives away the topic.
 
-This grouping works well for AP Government and APUSH amendments flashcards because the number stays attached to a historical period. The [AP U.S. History flashcards guide](/blog/how-to-use-flashcards-for-ap-us-history/) shows how to add course-specific evidence and argument practice without loading it all onto one card. For broader course context, the [520-card AP U.S. History deck](/catalog/packages/ap-us-history-apush-flashcards/) reviews all nine periods. If you only need Bill of Rights flashcards at first, use the I–X bucket in smaller runs of three or four amendments before mixing all 10.
+This grouping works well for AP Government and APUSH amendments flashcards because the number stays attached to a historical period. For broader course context, the [520-card AP U.S. History deck](/catalog/packages/ap-us-history-apush-flashcards/) reviews all nine periods. If you only need Bill of Rights flashcards at first, use the I–X bucket in smaller runs of three or four amendments before mixing all 10.
 
 ## Practice both directions
 
@@ -162,13 +162,13 @@ Remove the bucket label once the basic links are stable. Mix number-to-meaning c
 
 Once or twice a week, write `I` through `XXVII` on a blank page and add one core cue beside each number. This removes the wording and layout hints supplied by your deck. You can also shuffle paper cards or use the National Constitution Center's [27 Amendments Matching Game](https://constitutioncenter.org/education/classroom-resource-library/classroom/15.3-27-amendments-matching-game). Finish by explaining two easily confused amendments aloud without looking at either answer.
 
-After the first learning pass, review cards when they are due instead of restarting all 54 every day. [This review-frequency guide](/blog/how-often-should-you-review-flashcards/) explains how spaced review differs from running through the whole deck on a fixed schedule.
+After the first learning pass, review cards when they are due instead of restarting all 54 every day.
 
 ## Keep interpretation and application in separate practice
 
 A number-and-meaning deck gives you the basic map of constitutional study. It does not teach the whole subject.
 
-For civics or U.S. history, connect each amendment to the events and arguments in your course. For APUSH, practice placing an amendment in context and using it accurately as evidence in an SAQ, DBQ, or LEQ. For AP Government or an introductory law course, read the assigned cases, doctrine, and instructor materials. The [law school flashcards guide](/blog/how-to-use-flashcards-for-law-school/) explains why rule recall, case relationships, and application practice need different prompts.
+For civics or U.S. history, connect each amendment to the events and arguments in your course. For APUSH, practice placing an amendment in context and using it accurately as evidence in an SAQ, DBQ, or LEQ. For AP Government or an introductory law course, read the assigned cases, doctrine, and instructor materials.
 
 Verbatim recitation needs a different card design too. If exact wording is assigned, work from the official transcript and create smaller prompts around the required clauses. A concise study summary should stay a retrieval cue, not become a claim about everything an amendment means in current law.
 

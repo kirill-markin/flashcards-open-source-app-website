@@ -158,8 +158,6 @@ Voici cinq exemples courants d’erreurs à transformer en cartes :
 
 Ne copiez pas toute une question officielle et son explication sur une seule carte. Formulez la leçon vérifiée avec vos propres mots. Laissez l’exercice complet dans le support d’entraînement et ne gardez dans le paquet que le petit élément à mémoriser.
 
-[Flashcards ou tests d’entraînement en 2026](/blog/flashcards-vs-practice-tests/) explique pourquoi réviser la carte et répondre ensuite à une question inédite doivent rester deux étapes distinctes.
-
 ## Passez en revue un ancien paquet TOEFL avant de le réviser
 
 Les paquets créés avant le 21 janvier 2026 peuvent mêler des connaissances d’anglais durables à des détails d’examen obsolètes. Gardez les éléments linguistiques utiles, mais examinez chaque carte dont la réponse dépend du format.

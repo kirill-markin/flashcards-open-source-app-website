@@ -131,7 +131,7 @@ Gebruik **Again** als je het gevraagde antwoord niet kon geven of een fout antwo
 
 Als je op Hard drukt om het korte interval van Again te vermijden, registreer je een succes terwijl je het antwoord niet wist. FSRS leert dan van de verkeerde gebeurtenis. Kies de knop die aangeeft hoe goed je het antwoord nog wist, niet de knop met het interval dat je graag wilt.
 
-Onduidelijke kaarten maken eerlijk beoordelen lastiger. Vraagt een kaart naar vijf feiten en weet je er vier, dan is het planningsprobleem al bij het maken van de kaart ontstaan. Splits de kaart op of herschrijf de vraag. Voor kaarten die ondanks herhaalde oefening fout blijven gaan, lees [Hardnekkig moeilijke flashcards verbeteren](/blog/how-to-fix-leech-flashcards/).
+Onduidelijke kaarten maken eerlijk beoordelen lastiger. Vraagt een kaart naar vijf feiten en weet je er vier, dan is het planningsprobleem al bij het maken van de kaart ontstaan. Splits de kaart op of herschrijf de vraag.
 
 ## Houd FSRS-leerstappen kort, of laat ze bewust leeg
 

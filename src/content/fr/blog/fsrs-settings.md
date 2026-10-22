@@ -131,7 +131,7 @@ Utilisez **Again** quand vous n’avez pas pu donner la réponse attendue ou que
 
 Appuyer sur Hard pour éviter le court intervalle d’Again enregistre une réussite après un échec. FSRS apprend alors à partir du mauvais événement. Choisissez le bouton qui décrit votre rappel, pas l’intervalle qui vous arrange parmi ceux affichés au-dessus des boutons.
 
-Les cartes ambiguës compliquent une évaluation honnête. Si une question demande cinq faits et que vous en retrouvez quatre, le problème de planification a commencé dans l’éditeur. Divisez ou reformulez la carte. Pour les cartes sur lesquelles vous échouez malgré les révisions répétées, consultez [Comment corriger les cartes qui bloquent votre apprentissage](/blog/how-to-fix-leech-flashcards/).
+Les cartes ambiguës compliquent une évaluation honnête. Si une question demande cinq faits et que vous en retrouvez quatre, le problème de planification a commencé dans l’éditeur. Divisez ou reformulez la carte.
 
 ## Gardez des étapes FSRS courtes, ou laissez-les vides en connaissance de cause
 

@@ -145,6 +145,6 @@ Use the same ideal assumptions. Each question starts from the named original net
 
 After a miss, write a short prompt that tests the decision you skipped: “Two resistors share one node. What must be true there for a series reduction?” Answer: no other current path joins that shared node. Then solve a differently drawn circuit to apply it.
 
-The [basic-versus-cloze guide](/blog/cloze-deletion-vs-basic-flashcards/) can help turn that distinction into a clear retrieval prompt. If the error involved units, use the [dimensional-analysis worksheet](/blog/dimensional-analysis-equations/) for a separate practice session. Learners studying electrical basics for amateur radio can pair this worksheet with the [Technician study guide](/blog/ham-radio-technician-flashcards/); these original exercises aren't official exam questions.
+If the error involved units, use the [dimensional-analysis worksheet](/blog/dimensional-analysis-equations/) for a separate practice session. Learners studying electrical basics for amateur radio can pair this worksheet with the [Technician study guide](/blog/ham-radio-technician-flashcards/); these original exercises aren't official exam questions.
 
 *Production note: AI agents researched and wrote this worksheet, with two separate English editorial passes and exact-fraction Python checks of the circuit arithmetic. The illustration is AI-generated. No physical build, simulator run, classroom trial, or human expert review was performed.*

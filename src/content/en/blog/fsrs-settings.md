@@ -131,7 +131,7 @@ Use **Again** when you could not produce the required answer or got it wrong. Us
 
 Pressing Hard to avoid a short Again interval records a success after a failure. FSRS then learns from the wrong event. Choose the button that describes the recall, not the interval you want from the labels above the buttons.
 
-Ambiguous cards make honest ratings harder. If a prompt asks for five facts and you remember four, the scheduling problem began in the editor. Split or rewrite the card. For cards that keep failing despite repeated reviews, use [How to Fix Leech Flashcards](/blog/how-to-fix-leech-flashcards/).
+Ambiguous cards make honest ratings harder. If a prompt asks for five facts and you remember four, the scheduling problem began in the editor. Split or rewrite the card.
 
 ## Keep FSRS learning steps short—or leave them empty deliberately
 

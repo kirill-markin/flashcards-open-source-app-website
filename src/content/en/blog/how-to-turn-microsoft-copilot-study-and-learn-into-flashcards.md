@@ -71,7 +71,7 @@ Study and Learn makes the most sense when your studying already lives in Microso
 - source links from your class portal
 - notes collected in a Copilot Page
 
-If your starting material is mostly slides, see [How to Turn PowerPoint Into Flashcards in 2026](/blog/how-to-turn-powerpoint-into-flashcards/). For a PDF, first extract a small relevant section and check the text and diagrams against the original.
+For slides or a PDF, first extract a small relevant section and check the text and diagrams against the original.
 
 That is a very different workflow from scraping random web summaries into a flashcard deck.
 
@@ -127,7 +127,7 @@ That is the whole system.
 
 No giant transcript export. No heroic effort to preserve every activity. No fake completeness.
 
-The same handoff works with Gemini Guided Learning and other tutor-style tools. For a worked example in ChatGPT, see [How to Turn ChatGPT Study Mode Into Flashcards in 2026](/blog/how-to-turn-chatgpt-study-mode-into-flashcards/).
+The same handoff works with Gemini Guided Learning and other tutor-style tools.
 
 ## What a good Study and Learn card looks like
 

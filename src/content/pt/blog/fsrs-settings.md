@@ -131,7 +131,7 @@ Use **Novamente (Again)** quando não conseguir dar a resposta exigida ou respon
 
 Pressionar Difícil para evitar o intervalo curto de Novamente registra um acerto depois de um erro. O FSRS passa a aprender com um evento incorreto. Escolha o botão que descreve seu desempenho ao tentar lembrar, sem se guiar pelo intervalo que gostaria de obter entre os exibidos acima dos botões.
 
-Cartões ambíguos dificultam avaliações honestas. Se uma pergunta pede cinco fatos e você lembra de quatro, o problema de agendamento começou no editor. Divida ou reescreva o cartão. Para cartões que continuam gerando erros apesar de revisões repetidas, consulte [Como corrigir flashcards problemáticos](/blog/how-to-fix-leech-flashcards/).
+Cartões ambíguos dificultam avaliações honestas. Se uma pergunta pede cinco fatos e você lembra de quatro, o problema de agendamento começou no editor. Divida ou reescreva o cartão.
 
 ## Mantenha as etapas de aprendizagem do FSRS curtas — ou deixe-as vazias de propósito
 

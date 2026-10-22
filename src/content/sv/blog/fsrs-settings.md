@@ -131,7 +131,7 @@ Använd **Again** när du inte kunde ge det efterfrågade svaret eller svarade f
 
 Om du trycker på Hard för att slippa ett kort Again-intervall registrerar du ett misslyckande som ett lyckat försök. FSRS lär sig då av en felaktig händelse. Välj knappen som beskriver hur väl du mindes svaret. Låt inte tiderna ovanför knapparna styra ditt val.
 
-Tvetydiga kort gör ärliga bedömningar svårare. Om frågan ber om fem fakta och du minns fyra började schemaläggningsproblemet redan när kortet skrevs. Dela upp eller skriv om kortet. För kort som du fortsätter misslyckas med trots upprepade repetitioner, läs [Så åtgärdar du instuderingskort som ständigt ställer till problem](/blog/how-to-fix-leech-flashcards/).
+Tvetydiga kort gör ärliga bedömningar svårare. Om frågan ber om fem fakta och du minns fyra började schemaläggningsproblemet redan när kortet skrevs. Dela upp eller skriv om kortet.
 
 ## Håll FSRS-inlärningsstegen korta – eller lämna dem tomma med avsikt
 

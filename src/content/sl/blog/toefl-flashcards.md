@@ -158,8 +158,6 @@ Pet pogostih načinov pretvorbe:
 
 Na eno kartico ne prepisujte celotnega uradnega vprašanja in razlage rešitve. Preverjeno ugotovitev napišite s svojimi besedami. Celotno nalogo pustite v gradivu za vajo, v zbirki pa ohranite le kratko vsebino za pomnjenje.
 
-[Učne kartice ali poskusni testi v letu 2026](/blog/flashcards-vs-practice-tests/) pojasnjuje, zakaj naj kartica in naslednje novo vprašanje ostaneta ločena koraka.
-
 ## Pred ponavljanjem preglejte staro zbirko za TOEFL
 
 Zbirke, ustvarjene pred 21. januarjem 2026, lahko mešajo še vedno uporabno angleščino z opuščenimi podrobnostmi izpita. Ohranite uporabno jezikovno vsebino, vendar preglejte vsako kartico, katere odgovor je odvisen od oblike izpita.

@@ -78,7 +78,7 @@ The ceramics workshop meets on {{c1::Tuesday}} at {{c1::18:00}} in {{c2::Room 4}
 
 Three marked passages, two distinct numbers, two cards. On the `c1` card, the room stays visible; on the `c2` card, the day and time stay visible. Check the visible words as carefully as the blanks. They're part of the question too.
 
-If you can't make a useful prompt by leaving part of the sentence visible, try a direct question. Our [cloze versus basic flashcards guide](/blog/cloze-deletion-vs-basic-flashcards/) covers choosing the recall target.
+If you can't make a useful prompt by leaving part of the sentence visible, try a direct question.
 
 ## Check the cards before studying them
 

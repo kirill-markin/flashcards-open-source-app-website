@@ -143,7 +143,7 @@ Each card supplies the other endpoint as the intended cue without printing its o
 Fictional Bellmere courier drill: parcels travel from {{1::Dock 7}} to {{1::North Quay}}.
 ```
 
-These repairs serve different questions: an endpoint lookup or the complete route. For a direct question-and-answer format, compare [cloze deletion and basic flashcards](/blog/cloze-deletion-vs-basic-flashcards/).
+These repairs serve different questions: an endpoint lookup or the complete route. You can also use a direct question and answer when a sentence blank gives too many clues.
 
 ## Keep expectations separate from observations
 

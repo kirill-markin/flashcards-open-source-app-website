@@ -131,7 +131,7 @@ Bruk **Again** når du ikke klarte å hente frem svaret som var påkrevd, eller 
 
 Trykker du Hard for å unngå et kort Again-intervall, registrerer du vellykket gjenkalling etter en feil. FSRS lærer da av feil hendelse. Velg knappen ut fra hvordan du husket svaret, ikke ut fra hvilket av intervallene over knappene du helst vil ha.
 
-Tvetydige kort gjør ærlige vurderinger vanskeligere. Hvis et spørsmål ber om fem fakta og du husker fire, begynte planleggingsproblemet i kortredigeringen. Del opp eller skriv om kortet. For kort du stadig glemmer til tross for gjentatte repetisjoner, se [Slik fikser du puggekort du stadig glemmer](/blog/how-to-fix-leech-flashcards/).
+Tvetydige kort gjør ærlige vurderinger vanskeligere. Hvis et spørsmål ber om fem fakta og du husker fire, begynte planleggingsproblemet i kortredigeringen. Del opp eller skriv om kortet.
 
 ## Hold læringstrinnene korte, eller la dem stå tomme med vilje
 

@@ -83,7 +83,7 @@ AI Tutor ima drukčiju ulogu. Može vas voditi kroz gradivo korak po korak, gene
 
 U oba načina rada Gizmo napredovanju dodaje elemente igre. Odgovaranjem u kvizovima napredujete kroz XP, Levels, Leagues i Streaks, dok Hearts, Hints i Coins utječu na tijek besplatnih kvizova. Ako vam ti elementi olakšavaju svakodnevni povratak učenju, imaju stvarnu ulogu pri odabiru proizvoda.
 
-Ipak, kratko pitanje za prisjećanje i zadatak s više koraka služe različitim svrhama. [Kartice za učenje ili probni testovi](/blog/flashcards-vs-practice-tests/) objašnjava zašto je njihovo kombiniranje obično korisnije od pokušaja da svaku temu smjestite na karticu.
+Ipak, kratko pitanje za prisjećanje i zadatak s više koraka služe različitim svrhama.
 
 ## Četiri ograničenja koja treba provjeriti prije prijenosa gradiva u Gizmo
 

@@ -131,7 +131,7 @@ Brug **Again**, når du ikke kunne give det krævede svar, eller når du svarede
 
 Trykker du Hard for at undgå det korte Again-interval, registrerer du et korrekt svar, selvom du ikke kunne huske det. FSRS lærer så af den forkerte hændelse. Vælg den knap, der beskriver, hvor godt du huskede svaret. Lad ikke dit foretrukne interval blandt dem, der står over knapperne, afgøre valget.
 
-Tvetydige kort gør ærlige vurderinger sværere. Hvis et spørgsmål beder om fem fakta, og du husker fire, begyndte planlægningsproblemet allerede i editoren. Del kortet op, eller skriv det om. Hvis et kort bliver ved med at drille trods gentagne repetitioner, kan du læse [Sådan retter du flashcards, du bliver ved med at glemme](/blog/how-to-fix-leech-flashcards/).
+Tvetydige kort gør ærlige vurderinger sværere. Hvis et spørgsmål beder om fem fakta, og du husker fire, begyndte planlægningsproblemet allerede i editoren. Del kortet op, eller skriv det om.
 
 ## Hold FSRS-indlæringstrin korte, eller lad dem bevidst være tomme
 

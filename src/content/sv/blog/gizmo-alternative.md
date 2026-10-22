@@ -83,7 +83,7 @@ AI Tutor fyller en annan funktion. Den kan gå igenom materialet steg för steg,
 
 Runt båda lägena gör Gizmo framstegen till ett spel. Quiz bidrar till XP, Levels, Leagues och Streaks, medan Hearts, Hints och Coins påverkar hur gratispassen fungerar. Om de mekanismerna gör det lättare att komma tillbaka varje dag är de en verklig del av produktvalet.
 
-En kort fråga som kräver att du minns ett svar och en övningsfråga med flera steg fyller dock olika funktioner. [Flashcards jämfört med övningsprov](/blog/flashcards-vs-practice-tests/) förklarar varför det oftast är mer användbart att kombinera dem än att pressa in varje ämne i ett kort.
+En kort fråga som kräver att du minns ett svar och en övningsfråga med flera steg fyller dock olika funktioner.
 
 ## Fyra begränsningar att kontrollera innan du lägger in en kurs i Gizmo
 

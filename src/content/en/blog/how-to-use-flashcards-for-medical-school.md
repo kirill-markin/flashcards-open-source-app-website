@@ -70,9 +70,7 @@ For a focused foundation inside that broader anatomy work, [Cranial Nerve Flashc
 
 If movement names slow you down when recalling muscle actions, the [Anatomical Planes & Joint Movements Flashcards](/catalog/packages/anatomical-planes-movements-flashcards/) offer focused practice with planes and joint-movement terminology.
 
-If your anatomy work is especially diagram-heavy, this companion piece is the closer upstream workflow:
-
-- [How to Turn Diagrams Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-diagrams-into-flashcards/)
+For diagram-heavy anatomy work, hide one target at a time and check for duplicate labels that could give the answer away.
 
 ## Pharmacology cards should help you choose, not recite
 

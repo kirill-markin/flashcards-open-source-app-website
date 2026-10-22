@@ -21,7 +21,7 @@ The two-note rehearsal below follows Anki's manual and [released 26.09.3 source]
 
 ## First decide whether the sentence improves the question
 
-Convert a note when its information fits a sentence whose visible words give you useful context. Keep Basic when the direct question already asks for the answer you need, especially an explanation or a decision. The [cloze versus Basic guide](/blog/cloze-deletion-vs-basic-flashcards/) covers that choice in more detail.
+Convert a note when its information fits a sentence whose visible words give you useful context. Keep Basic when the direct question already asks for the answer you need, especially an explanation or a decision.
 
 For example, these are invented instructions for a fictional repair club:
 

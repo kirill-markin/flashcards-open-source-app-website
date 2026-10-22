@@ -158,8 +158,6 @@ Aqui estão cinco conversões comuns:
 
 Não copie uma questão oficial inteira e sua justificativa para um único cartão. Escreva com suas próprias palavras a lição que você conferiu. Deixe o item completo no material de prática e mantenha apenas o pequeno conteúdo a memorizar no baralho.
 
-[Flashcards ou simulados em 2026](/blog/flashcards-vs-practice-tests/) explica por que o cartão e a próxima questão inédita devem continuar sendo etapas separadas.
-
 ## Examine um baralho antigo de TOEFL antes de começar a revisá-lo
 
 Baralhos criados antes de 21 de janeiro de 2026 podem misturar inglês que continua válido com detalhes de prova que já deixaram de valer. Preserve o conteúdo linguístico útil, mas examine todo cartão cuja resposta dependa do formato.

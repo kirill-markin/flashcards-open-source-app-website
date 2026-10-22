@@ -131,7 +131,7 @@ Usa **Again** quando non sei riuscito a dare la risposta richiesta o hai rispost
 
 Premere Hard per evitare l'intervallo breve di Again registra un successo dopo un fallimento. FSRS impara così dall'evento sbagliato. Scegli il pulsante in base a quanto sei riuscito a ricordare, non all'intervallo che preferisci tra quelli mostrati sopra i pulsanti.
 
-Le carte ambigue rendono più difficile valutarsi con sincerità. Se una domanda chiede cinque informazioni e ne ricordi quattro, il problema di pianificazione è nato nell'editor. Dividi o riscrivi la carta. Per le carte che continui a sbagliare nonostante i ripassi, leggi [Come correggere le flashcard ostinate, o leech](/blog/how-to-fix-leech-flashcards/).
+Le carte ambigue rendono più difficile valutarsi con sincerità. Se una domanda chiede cinque informazioni e ne ricordi quattro, il problema di pianificazione è nato nell'editor. Dividi o riscrivi la carta.
 
 ## Mantieni brevi i passi di apprendimento FSRS, oppure lasciali vuoti consapevolmente
 

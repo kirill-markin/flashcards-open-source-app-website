@@ -131,7 +131,7 @@ Tento návyk je stejně důležitý jako kterékoli nastavení.
 
 Pokud stisknete Hard, abyste se vyhnuli krátkému intervalu Again, zaznamenáte po neúspěchu úspěch. FSRS se pak učí z nesprávné události. Tlačítko vybírejte podle toho, jak jste si odpověď vybavili. Nerozhodujte se podle intervalu uvedeného nad tlačítkem.
 
-Nejednoznačné kartičky ztěžují poctivé hodnocení. Pokud otázka požaduje pět faktů a vy si vzpomenete na čtyři, problém s plánováním vznikl už v editoru. Kartičku rozdělte nebo přeformulujte. Pro kartičky, které se nedaří ani po mnoha opakováních, použijte návod [Jak opravit problémové kartičky („leeches“)](/blog/how-to-fix-leech-flashcards/).
+Nejednoznačné kartičky ztěžují poctivé hodnocení. Pokud otázka požaduje pět faktů a vy si vzpomenete na čtyři, problém s plánováním vznikl už v editoru. Kartičku rozdělte nebo přeformulujte.
 
 ## Kroky učení ve FSRS udržujte krátké, nebo je vědomě nechte prázdné
 

@@ -158,8 +158,6 @@ Dit zijn vijf veelvoorkomende omzettingen:
 
 Kopieer geen volledige officiële vraag met uitleg op één kaart. Schrijf de gecontroleerde les in je eigen woorden. Laat de volledige opgave in het oefenmateriaal staan en bewaar alleen het kleine onderdeel dat je wilt onthouden in de kaartenset.
 
-[Flashcards versus oefentoetsen in 2026](/blog/flashcards-vs-practice-tests/) legt uit waarom de kaart en de volgende nieuwe vraag aparte stappen moeten blijven.
-
 ## Controleer een oude TOEFL-kaartenset voordat je ermee gaat oefenen
 
 Kaartensets van vóór 21 januari 2026 kunnen blijvend bruikbaar Engels combineren met verouderde toetsdetails. Bewaar nuttige taal, maar bekijk elke kaart waarvan het antwoord afhangt van de examenopzet.

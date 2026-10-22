@@ -158,8 +158,6 @@ Tässä on viisi tavallista tapaa muuttaa virhe kortiksi:
 
 Älä kopioi kokonaista virallista kysymystä ja sen perustelua yhdelle kortille. Kirjoita virheestä oppimasi ja tarkistamasi asia omin sanoin. Jätä koko tehtävä harjoitusmateriaaliin ja säilytä pakassa vain pieni muistettava asia.
 
-[Oppimiskortit vai harjoituskokeet vuonna 2026](/blog/flashcards-vs-practice-tests/) selittää, miksi kortin kertaamisen ja seuraavan uuden kysymyksen ratkaisemisen kannattaa pysyä erillisinä vaiheina.
-
 ## Tarkista vanha TOEFL-pakka ennen kertaamista
 
 Ennen 21. tammikuuta 2026 tehdyt pakat voivat yhdistää yhä käyttökelpoista englantia vanhentuneisiin koetta koskeviin tietoihin. Säilytä hyödyllinen kieliaines, mutta tarkista jokainen kortti, jonka vastaus riippuu koemuodosta.

@@ -158,8 +158,6 @@ Här är fem vanliga exempel på hur fel kan bli kort:
 
 Kopiera inte en hel officiell fråga och dess svarsförklaring till ett kort. Skriv den kontrollerade lärdomen med egna ord. Låt hela uppgiften vara kvar i övningsmaterialet och behåll bara den lilla detaljen du behöver minnas i kortleken.
 
-[Flashcards eller övningsprov 2026](/blog/flashcards-vs-practice-tests/) förklarar varför kortet och nästa nya fråga bör förbli separata steg.
-
 ## Granska en gammal TOEFL-kortlek innan du repeterar den
 
 Kortlekar skapade före den 21 januari 2026 kan blanda användbar engelska med provdetaljer som inte längre gäller. Behåll språket som hjälper dig, men granska varje kort vars svar beror på provformatet.

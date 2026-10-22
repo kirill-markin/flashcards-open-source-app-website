@@ -158,8 +158,6 @@ Aquí tens cinc exemples habituals de com convertir errors en targetes:
 
 No copiïs una pregunta oficial sencera i la seva explicació en una sola targeta. Escriu amb les teves paraules la lliçó que has comprovat. Deixa l’exercici complet al material de pràctica i conserva a la baralla només el contingut breu que vols recordar.
 
-[Targetes d’estudi o simulacres d’examen el 2026](/blog/flashcards-vs-practice-tests/) explica per què la targeta i la pregunta nova següent han de continuar sent passos separats.
-
 ## Revisa una baralla antiga del TOEFL abans d’estudiar-la
 
 Les baralles creades abans del 21 de gener de 2026 poden barrejar coneixements d’anglès que continuen sent vàlids amb detalls de l’examen que ja no s’utilitzen. Conserva el llenguatge útil, però examina cada targeta la resposta de la qual depengui del format.
