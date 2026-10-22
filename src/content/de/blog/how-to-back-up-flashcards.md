@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-back-up-flashcards.md"
 title: "So sicherst du 2026 deine Flashcards: Anki-Backup, Quizlet-Export und ein Deck, das dir weiter gehört"
 description: "Du brauchst 2026 einen verlässlichen Backup-Plan für Flashcards? Hier erfährst du, wie du Anki sicherst, welche Exporte Quizlet tatsächlich erlaubt, wie du Medien speicherst, eine Klartext-Kopie behältst und nicht in einer einzigen Lern-App festhängst."
 image: "/blog/how-to-back-up-flashcards.png"

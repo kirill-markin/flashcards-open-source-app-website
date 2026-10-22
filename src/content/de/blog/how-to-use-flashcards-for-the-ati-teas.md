@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-use-flashcards-for-the-ati-teas.md"
 title: "Wie du 2026 Flashcards für den ATI TEAS einsetzt: Ein praktischer Lernworkflow für TEAS 7"
 description: "Du bereitest dich 2026 auf den ATI TEAS vor? Hier ist ein praktischer TEAS-7-Flashcard-Workflow für Science, Math, Reading, English and Language Usage und Fehler aus Übungstests, ohne dein Deck in ein zweites Lernskript zu verwandeln."
 image: "/blog/how-to-use-flashcards-for-the-ati-teas.png"
@@ -250,8 +248,6 @@ Das ist wichtig, weil die TEAS-Vorbereitung meistens kurz ist. Du brauchst kein 
 
 Ein stabiles Deck plus ein paar ehrliche Tags funktioniert meistens besser als ständige Reorganisation der Decks.
 
-Wenn Organisation der eigentliche Engpass ist, geht [How to Organize Flashcards in 2026](https://nibomo.com/blog/how-to-organize-flashcards/) auf diesen Teil tiefer ein.
-
 ## Lass die KI die erste grobe Fassung schreiben und bearbeite sie dann hart
 
 TEAS-Vorbereitung erzeugt chaotisches Quellenmaterial. Am Ende hast du kopierte Begründungen, handschriftliche Notizen, in Text umgewandelte Screenshots, kurze Lernleitfäden und Erklärungen aus Übungsfragen, die du weiterverwenden willst. Ein Tool zum Entwerfen kann das schneller aufräumen, als jede Karte komplett per Hand neu zu schreiben.
@@ -267,7 +263,7 @@ Eher so:
 
 Wenn die Rückseite im ersten Entwurf wie ein Absatz aus einem Arbeitsbuch aussieht, kürze sie. Wenn zwei Karten dieselbe Idee prüfen, behalte die klarere. Wenn der Prompt nur Wiedererkennen testet, schreibe ihn für aktiven Abruf um.
 
-Das ähnelt dem Workflow in [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) und [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/).
+Weitere Hinweise zum Kürzen und Überarbeiten findest du in [Wie du 2026 bessere Flashcards erstellst](https://nibomo.com/blog/how-to-make-better-flashcards/).
 
 ## Wo Nibomo in diesen ATI-TEAS-Workflow passt
 

@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-turn-kindle-highlights-into-flashcards.md"
 title: "2026 年如何把 Kindle 高亮变成 Flashcards：保留阅读习惯，再加上真正有效的间隔重复"
 description: "想在 2026 年把 Kindle 高亮变成 Flashcards？这里有一套实用做法：导出或复制最值得保留的高亮，只把真正值得记住的内容改写成正反面卡片，再用 FSRS 复习，而不是让它们一直躺在笔记里。"
 date: "2026-04-07"

@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-use-flashcards-for-the-ati-teas.md"
 title: "2026年のATI TEASでフラッシュカードを使う方法: 実践的なTEAS 7学習フロー"
 description: "2026年にATI TEASを受けるなら、科学・数学・読解・英語、そして模試の取りこぼしに合わせた実践的なTEAS 7フラッシュカード運用が有効です。デッキを第二の参考書にしないための進め方をまとめました。"
 image: "/blog/how-to-use-flashcards-for-the-ati-teas.png"
@@ -267,7 +265,7 @@ TEAS 対策では、元の材料がすぐ散らかります。解説のコピー
 
 裏面がワークブックの段落のように見えるなら削ります。2枚のカードが同じことを試しているなら、より明確なほうだけ残します。見れば分かるだけのプロンプトなら、能動想起になるように書き直します。
 
-この流れは、[2026年版 演習問題をフラッシュカードに変える方法](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) や [2026年版 より良いフラッシュカードの作り方](https://nibomo.com/blog/how-to-make-better-flashcards/) とかなり近いです。
+カードを短く明確に整える方法は、[2026年版 より良いフラッシュカードの作り方](https://nibomo.com/blog/how-to-make-better-flashcards/)でも扱っています。
 
 ## この ATI TEAS の流れの中で Nibomo がはまる場所
 

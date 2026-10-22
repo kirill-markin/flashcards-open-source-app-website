@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1claude-code-codex-openclaw-flashcards-login.md"
 title: "如何让 Claude Code、Codex 或 OpenClaw 帮你登录 Nibomo"
 description: "Nibomo 提供了一套开源的代理登录流程：一个 discovery URL、邮箱 OTP，以及长期有效的 API key。你只要把链接交给代理，再把邮件里的最新 8 位验证码发给它，它就能自己完成账户和工作区的初始化。"
 date: "2026-03-10"

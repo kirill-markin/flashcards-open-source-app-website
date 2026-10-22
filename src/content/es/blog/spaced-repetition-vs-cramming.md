@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1spaced-repetition-vs-cramming.md"
 title: "Repetición espaciada vs. estudio de última hora en 2026: ¿qué funciona mejor para los exámenes?"
 description: "La repetición espaciada ofrece mejor retención a largo plazo que el estudio intensivo. Descubre cuándo puede ayudar repasar a última hora y cómo crear un plan realista para un examen."
 date: "2026-07-20"
@@ -96,7 +94,7 @@ Si quedan entre cuatro y siete días, tienes tiempo para espaciar de verdad las 
 5. **Practica con preguntas mixtas en el formato del examen.** Cada día debe incluir preguntas que combinen temas o exijan el tipo de respuesta real: cálculos, explicaciones, demostraciones, escenarios o ensayos.
 6. **Reduce el material nuevo cuando se acerque el plazo.** El último día, prioriza los repasos pendientes, los fallos conocidos y una serie manejable de ejercicios variados. El material nuevo debe ser lo bastante importante como para desplazar algo que ya estaba en el plan.
 
-Este ciclo permite repasar varias veces el material que peor dominas sin perder de vista la tarea real del examen. La [guía completa para estudiar un examen con FSRS](/blog/how-to-study-for-an-exam-with-fsrs/) explica cómo gestionar la incorporación de material y la carga de repaso. El [flujo de trabajo para finales](/blog/how-to-study-for-finals-with-flashcards/) ayuda cuando varias asignaturas compiten por la misma semana.
+Este ciclo permite repasar varias veces el material que peor dominas sin perder de vista la tarea real del examen. La [guía completa para estudiar un examen con FSRS](/blog/how-to-study-for-an-exam-with-fsrs/) explica cómo gestionar la incorporación de material y la carga de repaso.
 
 ## Un plan de rescate si el examen es mañana
 

@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards.md"
 title: "كيفية تصدير مجموعات Quizlet في 2026 (وسبب اختفاء زر التصدير)"
 description: "صدّر مجموعة Quizlet باتباع الخطوات الحالية على الموقع. وإذا لم يظهر زر Export، فتحقّق من أنك أنشأت المجموعة الأصلية، ولم تنسخها، وأنك لا تستخدم تطبيق الهاتف."
 image: "/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards.png"

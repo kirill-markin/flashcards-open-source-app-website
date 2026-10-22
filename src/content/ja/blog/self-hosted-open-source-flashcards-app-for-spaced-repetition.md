@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1self-hosted-open-source-flashcards-app-for-spaced-repetition.md"
 title: "間隔反復に対応したセルフホスト可能なオープンソースのNibomoアプリ"
 description: "オープンソースのNibomoスタックを開発用にローカルでセルフホストするか、文書化されたAWS CDKインフラをデプロイして本番用の間隔反復アプリを運用できます。"
 date: "2026-03-08"

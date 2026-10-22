@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1anki-vs-flashcards-open-source-app.md"
 title: "Anki vs. Nibomo (2026): Welche App solltest du nutzen?"
 description: "Vergleiche Anki und Nibomo bei FSRS, Offline-Nutzung, mobilen Apps, KI, Migration, Self-Hosting und Datenkontrolle, bevor du wechselst."
 date: "2026-04-25"

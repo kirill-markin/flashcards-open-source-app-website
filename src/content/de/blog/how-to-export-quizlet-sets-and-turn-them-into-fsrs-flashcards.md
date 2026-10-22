@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards.md"
 title: "Quizlet-Sets exportieren: So geht es 2026 (und warum „Exportieren“ fehlt)"
 description: "So exportierst du ein Quizlet-Set über die Website. Falls „Exportieren“ fehlt, prüfe, ob du das Original erstellt hast, eine Kopie geöffnet hast oder die mobile App verwendest."
 image: "/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards.png"

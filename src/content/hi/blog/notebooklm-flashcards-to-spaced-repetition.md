@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1notebooklm-flashcards-to-spaced-repetition.md"
 title: "2026 में NotebookLM Flashcards को असली Spaced Repetition में कैसे बदलें: Export करें, Clean Up करें, और FSRS के साथ Review करें"
 description: "क्या आप NotebookLM flashcards इस्तेमाल कर रहे हैं, लेकिन बाद में real review system चाहते हैं? यहाँ 2026 का practical workflow है: cards export करें, wording साफ़ करें, और उन्हें ऐसी FSRS flashcards app में ले जाएँ जिसे आप सच में review करते रहें।"
 date: "2026-03-30"
@@ -173,7 +171,6 @@ workflow का एक underrated हिस्सा यह है कि Notebo
 अगर आपकी source अभी भी एक कदम पहले अटकी है, तो ये companion pieces मदद करेंगी:
 
 - [2026 में Notes को Flashcards में कैसे बदलें](https://nibomo.com/blog/turn-notes-into-flashcards/)
-- [2026 में PDF को Flashcards में कैसे बदलें](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 - [2026 में Notion Notes को Flashcards में कैसे बदलें](https://nibomo.com/blog/how-to-turn-notion-notes-into-flashcards/)
 
 ## वह workflow जिसे मैं इस हफ्ते इस्तेमाल करूँगा

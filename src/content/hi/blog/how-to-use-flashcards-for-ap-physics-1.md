@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-use-flashcards-for-ap-physics-1.md"
 title: "2026 में AP Physics 1 के लिए फ़्लैशकार्ड कैसे इस्तेमाल करें: Forces, Energy और FRQ की गलतियाँ जो सच में याद रहें"
 description: "2026 के लिए AP Physics 1 फ़्लैशकार्ड का practical workflow: kinematics, forces, energy, graphs, FRQ गलतियाँ, और hybrid digital exam prep जो सच में काम आए।"
 image: "/blog/how-to-use-flashcards-for-ap-physics-1.png"
@@ -184,8 +182,6 @@ Examples:
 - किस तरह की miss यह बताती है कि मुझे ज़्यादा fresh problems चाहिए, ज़्यादा cards नहीं?
 
 आख़िरी card बहुत matter करता है। कुछ misses memory misses होती हैं। कुछ execution misses। Flashcards पहले group में मदद करते हैं। Timed practice दूसरे को ठीक करती है।
-
-अगर आपका raw material ज़्यादातर corrections से आता है, तो [2026 में अभ्यास प्रश्नों को फ़्लैशकार्ड में कैसे बदलें](/blog/how-to-turn-practice-questions-into-flashcards/) अगला सबसे अच्छा article है।
 
 ## 2026 का hybrid digital format कुछ cards और कुछ habits बदलना चाहिए
 

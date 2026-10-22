@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-many-new-flashcards-per-day.md"
 title: "Wie viele neue Flashcards pro Tag im Jahr 2026? So hältst du den FSRS-Wiederholungsaufwand beherrschbar"
 description: "Du fragst dich, wie viele neue Flashcards pro Tag dauerhaft sinnvoll sind? Hier ist die praktische Regel für 2026: Geh von deiner verfügbaren Wiederholungszeit aus, nicht von deinem Ehrgeiz, und setze ein tägliches Limit für neue Karten, das du wirklich schaffst, ohne in fälligen Wiederholungen unterzugehen."
 date: "2026-03-31"
@@ -102,9 +100,8 @@ Das Deck wächst schneller als deine Gewohnheit, es tatsächlich zu wiederholen.
 
 Darum wäre ich vorsichtig mit jedem Workflow, bei dem sich das Erstellen von Karten völlig mühelos anfühlt. Reibung ist lästig, aber ein bisschen Reibung hat dich früher stillschweigend davor geschützt, eine Wiederholungsschlange aufzubauen, die du nie wirklich pflegen wolltest.
 
-Wenn dein Ausgangsmaterial noch als Dokument vorliegt, helfen diese Workflows bei der Entwurfsseite:
+Wenn dein Ausgangsmaterial noch als Dokument vorliegt, hilft dieser Workflow bei der Entwurfsseite:
 
-- [Wie du 2026 eine PDF in Flashcards verwandelst: Vorlesungsfolien, Lehrbücher und Papers zu FSRS-Karten](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 - [Wie du 2026 Notizen in Flashcards verwandelst: KI-Entwürfe mit FSRS statt manuellem Kopieren und Einfügen](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 ## So findest du eine Zahl, die zu dir passt

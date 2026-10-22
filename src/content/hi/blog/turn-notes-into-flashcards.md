@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1turn-notes-into-flashcards.md"
 title: "2026 में Notes को Flashcards में कैसे बदलें: Manual Copy-Paste की जगह FSRS के साथ AI Drafting"
 description: "क्या आप notes को flashcards में बदलना चाहते हैं, बिना manual copy-paste पर घंटों बर्बाद किए? यहाँ 2026 का practical workflow है: text-based notes से AI से साफ़ question-answer cards draft करवाएँ, फिर उन्हें FSRS spaced repetition के साथ पढ़ें।"
 date: "2026-03-15"

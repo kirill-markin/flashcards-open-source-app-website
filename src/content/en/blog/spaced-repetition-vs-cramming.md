@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1en~1blog~1spaced-repetition-vs-cramming.md"
 title: "Spaced Repetition vs Cramming in 2026: What Works Better for Exams?"
 description: "Spaced repetition beats cramming for long-term retention. Learn when a last-minute review can still help and how to build a realistic exam study plan."
 date: "2026-07-20"
@@ -26,7 +24,7 @@ That answer leaves room for the deadline you actually have. Your plan depends on
 
 **Spaced practice**, also called **distributed practice**, separates learning across sessions. Strong exam preparation usually adds retrieval: study a formula on Monday, solve a problem from memory on Wednesday, then meet it inside a mixed set on Saturday.
 
-Opening the same notes on three evenings is also distributed in time. It is still passive rereading, so familiarity with the page can hide weak recall. A closed book gives better evidence: can you produce the definition, distinction, or method before seeing it again? The guide to [active recall vs spaced repetition](/blog/active-recall-vs-spaced-repetition/) explains the difference between retrieval and scheduling.
+Opening the same notes on three evenings is also distributed in time. It is still passive rereading, so familiarity with the page can hide weak recall. A closed book gives better evidence: can you produce the definition, distinction, or method before seeing it again?
 
 **Massed practice** puts repetitions close together, often in one long session. Cramming might mean rereading a chapter twice, repeating the same quiz until the options look familiar, or cycling through a new deck several times in one evening.
 
@@ -96,7 +94,7 @@ With four to seven days remaining, you have time for genuine spacing. Avoid spen
 5. **Use mixed exam-format practice.** Each day should include questions that combine topics or require the real output: calculations, explanations, proofs, scenarios, or essays.
 6. **Reduce new intake near the deadline.** On the final day, prioritize due reviews, known misses, and a manageable mixed set. New material must be important enough to displace something already in the plan.
 
-This loop gives weak material several encounters while keeping the real exam task visible. The longer [FSRS exam study guide](/blog/how-to-study-for-an-exam-with-fsrs/) covers intake and review load. The [finals workflow](/blog/how-to-study-for-finals-with-flashcards/) helps when several courses compete for the same week.
+This loop gives weak material several encounters while keeping the real exam task visible. The longer [FSRS exam study guide](/blog/how-to-study-for-an-exam-with-fsrs/) covers intake and review load.
 
 ## An exam-tomorrow rescue plan
 

@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1en~1blog~1how-many-new-flashcards-per-day.md"
 title: "How Many New Flashcards Per Day in 2026? Build an FSRS Review Load You Can Actually Finish"
 description: "Wondering how many new flashcards per day is sustainable? Here is a practical 2026 rule: start from available review time, not ambition, then set a daily new-card limit you can actually finish without drowning in due reviews."
 date: "2026-03-31"
@@ -102,9 +100,8 @@ The deck grows faster than your review habit.
 
 That is why I would be careful with any workflow that makes card creation feel frictionless. Friction is annoying, but some friction was quietly protecting you from building a review queue you never intended to maintain.
 
-If your source material is still in document form, these workflows help with the drafting side:
+If your source material is still in document form, this workflow helps with the drafting side:
 
-- [How to Turn a PDF Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 - [How to Turn Notes Into Flashcards in 2026](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 ## A practical way to find your number

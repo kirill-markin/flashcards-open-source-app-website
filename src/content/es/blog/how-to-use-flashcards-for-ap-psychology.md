@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-use-flashcards-for-ap-psychology.md"
 title: "Cómo usar flashcards para AP Psychology en 2026: términos, estudios y evidencia para FRQ que de verdad se te quedan"
 description: "¿Necesitas un flujo práctico de flashcards para AP Psychology en 2026? Aquí tienes cómo estudiar términos, estudios famosos, métodos de investigación y evidencia para FRQ de cara al examen totalmente digital en Bluebook del 12 de mayo de 2026."
 date: "2026-04-29"
@@ -145,8 +143,6 @@ Yo construiría prompts como:
 
 Esa última importa más en un examen digital de lo que muchos estudiantes esperan. Un gráfico, una tabla o un fragmento breve de artículo puede sentirse más difícil en pantalla simplemente porque la redacción y el diseño te resultan menos familiares. Las buenas tarjetas entrenan la idea estable que hay debajo de esa redacción nueva.
 
-Si tus bloques de práctica siguen dejando al descubierto fallos que se repiten, [Cómo convertir preguntas de práctica en flashcards en 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) encaja directamente aquí.
-
 ## La preparación para FRQ funciona mejor cuando la tarjeta guarda el movimiento de razonamiento
 
 Muchas **flashcards para FRQ de AP Psychology** no funcionan porque los estudiantes intentan guardar la consigna entera, toda la respuesta modelo y cada nota de la rúbrica en una sola tarjeta.
@@ -216,8 +212,6 @@ Yo mantendría la rutina así de simple:
 5. Repasa a diario las tarjetas pendientes y mantén las tarjetas nuevas por debajo de lo que te pediría la ambición.
 
 La parte aburrida es lo que hace que el mazo siga siendo usable a finales de abril y principios de mayo en lugar de parecer impresionante durante un solo fin de semana.
-
-Si lo que más se te escapa es la organización, [Cómo organizar flashcards en 2026](https://nibomo.com/blog/how-to-organize-flashcards/) combina muy bien con este flujo.
 
 ## FSRS resulta útil cuando el repaso de AP Psychology se vuelve irregular
 

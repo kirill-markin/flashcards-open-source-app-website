@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-fix-ai-flashcards.md"
 title: >-
   Cómo corregir flashcards de IA en 2026: edita borradores de ChatGPT y
   NotebookLM antes de repasar con FSRS
@@ -155,7 +153,7 @@ Mantén el reverso simple:
 
 Casi cualquier cosa que vaya más allá suele pedir convertirse en otra tarjeta.
 
-Esto importa todavía más si te preocupa la velocidad de repaso más adelante. [How to Review Flashcards Faster in 2026](https://nibomo.com/blog/how-to-review-flashcards-faster/) es, en el fondo, la consecuencia directa de esta decisión de edición.
+Esto importa todavía más si te preocupa la velocidad de repaso más adelante.
 
 ## Usa la IA para la segunda pasada de edición, no como autoridad final
 

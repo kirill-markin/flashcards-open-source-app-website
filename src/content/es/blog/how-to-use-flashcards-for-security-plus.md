@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-use-flashcards-for-security-plus.md"
 title: "Cómo usar flashcards para CompTIA Security+ en 2026: SY0-701, PBQ, puertos y acrónimos que sí se te quedan"
 description: "¿Preparas CompTIA Security+ SY0-701 en 2026? Usa este método práctico con flashcards para PBQ, puertos, acrónimos y fallos en preguntas de práctica con FSRS."
 date: "2026-05-03"
@@ -244,10 +242,6 @@ Después de fallar un PBQ, normalmente apuntaría tres cosas antes de seguir:
 
 Eso mantiene el mazo alineado con la recuperación real. Las flashcards no van a resolver los PBQ por ti. Sí pueden hacer que los bloques de construcción sean más fáciles de reconocer cuando el escenario empieza a moverse rápido.
 
-Si las preguntas falladas son tu fuente principal, este artículo es el complemento natural:
-
-- [Cómo convertir preguntas de práctica en flashcards en 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
-
 ## No construyas un mazo informe de Security+
 
 Aquí es donde mueren muchos mazos de certificación.
@@ -278,10 +272,6 @@ También puedes etiquetar por área débil:
 - `lab-miss`
 
 Eso te da algo mucho más utilizable que un montón plano. También hace más fácil hacer sesiones cortas y dirigidas antes de un simulacro.
-
-Si el problema de fondo es más de organización que de escritura de tarjetas, lee esto después:
-
-- [Cómo organizar Flashcards en 2026](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## Tu flujo semanal debería seguir siendo aburrido
 

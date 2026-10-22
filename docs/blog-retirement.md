@@ -2,8 +2,10 @@
 
 Add `status: retired` to the frontmatter of an individual file in
 `src/content/<locale>/blog/`. Keep its complete frontmatter and article body in Git.
-An absent status or `status: published` publishes the source. Each locale is
-independent: retiring English does not retire its translations.
+An absent status or `status: published` publishes the source. Flags are stored per
+source; retiring English does not mechanically retire its translations. Editorial
+decisions cover the complete verified article family, including every translation.
+Apply a family decision to all its members.
 
 Optional frontmatter fields are `retiredAt` (a quoted date), `retirementReason`, and
 `retirementEvidence` (a string pointing to the decision ledger). These describe
@@ -24,6 +26,7 @@ and path-preserving legacy-domain redirects still apply. This adds no request-ti
 filesystem reads or HTML rendering.
 
 Deploy the changed sources through the normal static-content build. Removing a
-flag takes effect through another build and deploy; generated assets are replaced
+flag and retirement-only metadata restores a source through another build and
+deploy; retain the decision ledger in Git. Generated assets are replaced
 as a complete set. The first retirement changes slash handling so retired variants
 reach the proxy before redirects; healthy routes retain their canonical redirects.

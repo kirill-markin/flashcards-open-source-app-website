@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-use-flashcards-for-ap-physics-1.md"
 title: "2026年版 AP Physics 1向けフラッシュカード活用法: 力、エネルギー、FRQの失点を定着させる"
 description: "2026年のAP Physics 1対策に向けて、運動学、力、エネルギー、グラフ、FRQの典型的な失点、そしてハイブリッド型デジタル試験への備えを整理する実践的なフラッシュカード活用法をまとめました。"
 image: "/blog/how-to-use-flashcards-for-ap-physics-1.png"
@@ -184,8 +182,6 @@ AP Physics 1 のデッキが、ここで急にぼやけやすくなります。
 - どんな失点なら、カードではなく新しい問題演習が必要だと分かるか
 
 最後のカードは大事です。ミスには記憶ミスもあれば、実行ミスもあります。フラッシュカードが助けるのは前者で、時間を測った演習が直すのは後者です。
-
-修正ノートを主な材料にしているなら、[2026年版 演習問題をフラッシュカードに変える方法](/blog/how-to-turn-practice-questions-into-flashcards/) がいちばん次に読むべき記事です。
 
 ## 2026年のハイブリッド型デジタル形式に合わせて、少しだけカードと習慣を変えるべき
 

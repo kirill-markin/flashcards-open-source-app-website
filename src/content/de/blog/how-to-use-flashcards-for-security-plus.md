@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-use-flashcards-for-security-plus.md"
 title: "So nutzt du 2026 Flashcards für CompTIA Security+: SY0-701, PBQs, Ports und Akronyme, die wirklich hängen bleiben"
 description: "Du bereitest dich 2026 auf CompTIA Security+ SY0-701 vor? Nutze diesen praxisnahen Flashcard-Workflow für PBQs, Ports, Akronyme und falsch beantwortete Fragen mit FSRS."
 date: "2026-05-03"
@@ -244,10 +242,6 @@ Nach einem PBQ-Fehler würde ich normalerweise drei Dinge notieren, bevor ich we
 
 So bleibt das Deck auf den echten Abruf ausgerichtet. Flashcards lösen keine PBQs für dich. Sie können aber die Bausteine leichter erkennbar machen, wenn das Szenario plötzlich schnell wird.
 
-Wenn falsch beantwortete Fragen deine Hauptquelle sind, ist dieser Artikel die natürliche Ergänzung:
-
-- [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
-
 ## Bau kein einziges formloses Security+-Deck
 
 Hier sterben viele Zertifizierungs-Decks.
@@ -278,10 +272,6 @@ Du kannst auch nach Schwachstellen taggen:
 - `lab-miss`
 
 So bekommst du etwas deutlich Nutzbareres als einen flachen Haufen. Außerdem wird es einfacher, vor einem Übungstest kurze gezielte Sessions zu machen.
-
-Wenn Organisation gerade eher das Problem ist als das Schreiben von Karten, lies als Nächstes das hier:
-
-- [How to Organize Flashcards in 2026](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## Dein wöchentlicher Workflow sollte bewusst langweilig bleiben
 
