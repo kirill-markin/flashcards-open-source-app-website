@@ -2268,6 +2268,21 @@
     "bytes": 2600135
   },
   {
+    "publicPath": "/blog/odds-vs-probability-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/300d936d9b8b535da0ae9927b07283c8a4565e45d26c80b9c808a7325a429523.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "300d936d9b8b535da0ae9927b07283c8a4565e45d26c80b9c808a7325a429523",
+    "bytes": 190012,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/6211e378dd280b291a3aa46250b552b6f3e210870ccf831a7b6e05002bfe62e4.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "6211e378dd280b291a3aa46250b552b6f3e210870ccf831a7b6e05002bfe62e4",
+      "bytes": 2397246
+    }
+  },
+  {
     "publicPath": "/blog/osmolarity-vs-tonicity.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/d575ac86c13e82665b6018b6e9e8cf0a13c137b8be9aa088e613601a73b5c4c7.png",
     "width": 1672,
