@@ -740,9 +740,9 @@ test("blog deck resources fill the article slots and one Markdown footer with lo
       assert.equal(html.includes("/catalog/import/"), false);
       assert.equal(html.includes("blog-deck-top"), false);
       assert.ok(html.includes(resource.title));
-      assert.ok(html.includes(resource.summary));
+      assert.equal(html.includes(resource.summary), false);
       assert.ok(html.includes(resource.cardCountLabel));
-      assert.ok(html.includes(resource.languageLabel));
+      assert.equal(html.includes(resource.languageLabel), false);
       assert.ok(html.includes(copy.installLabel));
       assert.ok(html.includes("Cover image"));
       assert.ok(html.includes(`src="${resource.coverMediaAsset?.downloadUrl}"`));

@@ -34,7 +34,6 @@
   line-height: 1.35;
 }
 
-.summary,
 .facts {
   margin: 0;
   color: var(--text-secondary);
