@@ -11,8 +11,6 @@ keywords:
   - "Git index working tree HEAD"
 ---
 
-> **Keep practicing:** [Explore the English Git Commands Flashcards deck](https://nibomo.com/catalog/packages/git-commands-flashcards/) — 98 cards for broader Git recall. The complete exercises and answers for this lesson are below.
-
 Your last commit contains `two`. You've staged `three`, then edited the file again to contain `four`. Run `git restore notes.txt`, and the file becomes `three`. Add `--staged` instead, and the file stays `four`. Neither command moves your branch.
 
 To choose between **Git reset, restore, and revert**, decide what you want to change:
@@ -262,6 +260,6 @@ Close the answers and draw the three columns again: HEAD, index, working tree. F
 
 Turn a mistake into a narrow recall prompt. For example: “HEAD is `two`, index is `three`, working file is `four`. After restoring HEAD to the working tree only, why is status still `MM`?” Its answer needs both status comparisons. Remembering the command name alone won't explain the result.
 
-Regular recall practices producing the explanation without the table. Spaced review brings the question back after a gap and can help with long-term retention. Keep using Git on real tasks too: recognizing a card's answer doesn't establish that you can predict an unfamiliar repository state, and no review schedule guarantees permanent memory.
+Regular recall practices producing the explanation without the table. Spaced review brings the question back after a gap and can help with long-term retention. The [English Git Commands Flashcards deck](/catalog/packages/git-commands-flashcards/) offers broader command practice. Keep using Git on real tasks too: recognizing a card's answer doesn't establish that you can predict an unfamiliar repository state, and no review schedule guarantees permanent memory.
 
 *Production note: AI tools performed substantial research, drafting, and editing for this article. An AI agent executed the disposable Git cases that produced the reported results. The accompanying illustration is AI-generated. These checks concern the sample repositories only; they aren't a claim of personal testing or human review by Kirill.*
