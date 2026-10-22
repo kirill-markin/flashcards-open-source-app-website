@@ -2,7 +2,7 @@
 title: "Com fer servir Claude per estudiar el 2026: un mètode pràctic"
 description: "Estudia els teus apunts amb Claude, respon una pregunta cada vegada, verifica les correccions i converteix els punts febles en targetes respectant les normes d'IA del curs."
 date: "2026-05-28"
-updated: "2026-10-03"
+updated: "2026-10-22"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "com fer servir Claude per estudiar"
@@ -13,15 +13,13 @@ keywords:
   - "mode d'aprenentatge de Claude"
 ---
 
-Una diapositiva de classe diu «els cromosomes se separen» sense especificar quins. Si Claude omple el buit amb coneixements generals sense avisar-te, pots acabar practicant una resposta que sembla segura però que la font mai no havia establert.
+Si vols aprendre **com fer servir Claude per estudiar**, comença amb un conjunt petit d'apunts del curs. Comprova quines afirmacions sostenen i respon una pregunta cada vegada abans de veure cap ajuda. Verifica les correccions i desa els punts febles que necessitis tornar a practicar. Per a aquest últim pas, recomano l'[extensió de Nibomo per a Claude](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory): afegeix a Claude mètodes per crear targetes d'estudi, repassar les que toquen i millorar les que et generen confusió.
 
-La primera instrucció útil no és «fes-me preguntes». Demana a Claude que mostri quines afirmacions tenen suport en el material, quines parts són ambigües i què no pot llegir. Així podrà fer de tutor dins d'uns límits que pots comprovar.
+El cicle útil és **comprovar les fonts → respondre de memòria → verificar → desar → repassar quan toqui**. Les instruccions habituals de tutoria funcionen en un xat normal de Claude; l'extensió connecta la sessió amb les targetes desades i un calendari de repassos.
 
-Aquest cicle delimitat per les fonts és la resposta pràctica a **com fer servir Claude per estudiar**: examina el material, respon de memòria una pregunta cada vegada, conserva les proves al costat de cada correcció i desa només els punts febles que valgui la pena tornar a repassar. Funciona en un xat normal de Claude i no requereix cap aplicació de targetes d'estudi.
+> **Declaració de transparència:** Soc Kirill Markin i desenvolupo [Nibomo](/ca/features/). La recerca i l'edició d'aquest article s'han fet amb ajuda d'IA.
 
-> **Declaració de transparència:** Soc Kirill Markin i desenvolupo [Nibomo](/ca/features/). A part d'aquesta declaració, el producte només apareix a la secció opcional de transferència de targetes que hi ha més avall; el mètode d'estudi no en depèn. La recerca i l'edició d'aquest article s'han fet amb ajuda d'IA.
-
-**Dades verificades:** 14 de setembre de 2026.
+**Dades verificades:** 22 d'octubre de 2026.
 
 ![Taula d'estudi amb els apunts originals vinculats a una pregunta i dues targetes verificades sobre punts febles, amb un apunt ambigu apartat](/blog/how-to-use-claude-for-studying-v2.png)
 
@@ -35,9 +33,20 @@ Fes servir aquest cicle per a una secció d'una classe, una lectura o un conjunt
 4. Respon de memòria una pregunta cada vegada.
 5. Registra la correcció, la ubicació de la font i qualsevol incertesa.
 6. Verifica personalment les respostes importants.
-7. Conserva només els punts febles que calgui treballar a llarg termini, amb pràctica o targetes.
+7. Desa a Nibomo unes quantes targetes sobre punts febles verificats que calgui treballar a llarg termini.
+8. Repassa les targetes desades quan toqui, a Claude o a l’aplicació de Nibomo.
 
 L'ordre importa. Fer preguntes a partir d'una font ambigua només fa que l'ambigüitat sigui més difícil de detectar.
+
+## Configura Nibomo a Claude
+
+Obre l'[extensió de Nibomo](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory), o ves a **Customize → Plugins**, cerca Nibomo i fes clic a **Add**. Si ja està instal·lada, comprova que estigui activada.
+
+Connecta el connector de Nibomo inclòs amb l'extensió. Segueix els passos d'inici de sessió, entra al teu compte de Nibomo o crea'n un i autoritza l'accés de Claude. Tria l'espai de treball que vulguis fer servir quan t'ho demani. Amb aquesta opció no cal copiar cap testimoni d'API ni introduir l'URL d'un servidor.
+
+L'extensió aporta els mètodes per crear, repassar i millorar targetes. El seu connector MCP és la connexió que permet a Claude llegir i actualitzar el teu compte de Nibomo. També trobaràs el [connector al directori de Claude](https://claude.ai/directory/nibomo). La nostra [guia de connexió amb Claude (en anglès)](/blog/how-to-connect-flashcards-to-claude-with-mcp/) i la [referència del connector MCP](/ca/docs/mcp-connector/) expliquen aquesta connexió amb més detall.
+
+Actualment, Anthropic ofereix [extensions als plans Pro, Max, Team i Enterprise](https://support.claude.com/en/articles/13837440-use-plugins-in-claude), a Claude al web, a la pestanya Chat de Claude Desktop i a Cowork. Si el teu compte no disposa d'extensions, pots fer servir les instruccions de tutoria següents i copiar manualment les targetes seleccionades a la teva aplicació de repàs.
 
 ## Comprova les normes del curs abans de pujar cap fitxer
 
@@ -58,9 +67,9 @@ L'autoria del treball ha de continuar sent teva. Rebre comentaris després d'hav
 
 Un xat puntual és suficient per a una sessió d'estudi curta. Per a un curs que seguiràs durant un temps, crea un projecte de Claude i afegeix-hi només el material que hi correspon.
 
-Els [projectes de Claude](https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects) estan disponibles per a tots els usuaris; actualment els comptes Free tenen un límit de cinc projectes. Els fitxers i les instruccions afegits al coneixement del projecte s'hi conserven i es poden reutilitzar als diferents xats del projecte. El context d'un xat normal no es comparteix automàticament amb altres xats, tret que afegeixis el material rellevant al coneixement del projecte.
+Els [projectes de Claude](https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects) estan disponibles per a tots els usuaris; actualment els comptes Free tenen un límit de cinc projectes. Afegeix els fitxers exactes del curs i les instruccions d'estudi al coneixement del projecte perquè estiguin disponibles als diferents xats.
 
-Posar dos xats al mateix projecte no fa, per si sol, que tots els detalls del primer estiguin disponibles al segon.
+Quan la memòria està activada, un projecte també pot conservar context entre converses. Fes servir aquesta memòria com a context per estudiar, no com una transcripció de referència ni com un substitut dels fitxers originals. Conserva les proves i les correccions que hagis de reutilitzar al coneixement del projecte, i demana a Claude que citi el material original.
 
 La [documentació de Claude sobre la càrrega de fitxers](https://support.claude.com/en/articles/8241126-upload-files-to-claude) enumera actualment PDF, DOCX, CSV, TXT, HTML, ODT, RTF, EPUB, JSON i XLSX, a més d'imatges JPEG, PNG, GIF i WebP. Per pujar fitxers XLSX cal tenir activades l'execució de codi i la creació de fitxers. Pots adjuntar un fitxer a un xat o conservar-lo a la secció Files d'un projecte per reutilitzar-lo.
 
@@ -69,6 +78,8 @@ Fes servir el conjunt més petit que sigui útil: una classe, una secció d'un c
 Anthropic va introduir el [**mode d'aprenentatge (Learning mode)** dins dels projectes de Claude for Education](https://www.anthropic.com/news/introducing-claude-for-education) com una experiència guiada i socràtica que demana als estudiants que raonin en lloc de donar-los respostes immediates. És possible que el tinguis si la teva universitat ofereix Claude for Education, però no has de donar per fet que està disponible en tots els comptes personals de Claude. Les instruccions següents creen una sessió similar, guiada per preguntes, en un xat normal.
 
 ## Fes que Claude mostri les ambigüitats abans d'ensenyar-te
+
+Una diapositiva de classe pot dir «els cromosomes se separen» sense especificar quins. Si Claude omple el buit amb coneixements generals sense avisar-te, pots acabar practicant una resposta que sembla segura però que la font mai no havia establert.
 
 Adjunta el material, especifica'n els límits exactes i demana primer una revisió de les fonts:
 
@@ -111,10 +122,14 @@ Fes-me de tutor només sobre el material del mapa que tingui suport en les fonts
 Fes-me una pregunta cada vegada i espera la meva resposta. No incloguis pistes
 a la pregunta. Quan hagi respost:
 1. marca-la com a Correcta, Parcialment correcta, Incorrecta o Font poc clara;
-2. digues exactament què era correcte i què hi faltava;
+2. dona comentaris breus sense revelar la resposta completa;
 3. cita el fitxer de suport i la pàgina, diapositiva o encapçalament;
-4. demana'm que ho torni a intentar abans de mostrar la resposta completa;
+4. si la meva resposta és parcialment correcta o incorrecta, dona'm una pista
+   i deixa'm tornar-ho a intentar abans de mostrar la resposta completa;
 5. afegeix al registre de punts febles només una mancança real.
+
+Si la font és poc clara, marca la pregunta perquè es verifiqui en lloc de
+demanar-me que torni a intentar respondre-la.
 
 Combina preguntes de record directe, distincions entre idees semblants i
 aplicacions breus. Encara no creïs targetes. Atura't després de 10 preguntes
@@ -152,7 +167,7 @@ Incorrecta. Les cromàtides germanes es mantenen unides durant l'anafase I.
 Torna a revisar les dues frases: què es desplaça cap a pols oposats?
 ```
 
-Després del segon intent, Claude pot explicar en què es diferencia això de l'anafase II. Aquesta explicació pertany a la conversa amb el tutor. El punt feble que cal treballar a llarg termini és més concret:
+Si el material que has proporcionat també tracta l'anafase II, Claude pot comparar-les després del segon intent. Aquesta explicació pertany a la conversa amb el tutor. El punt feble que cal treballar a llarg termini és més concret:
 
 ```text
 Anvers: Què se separa durant l'anafase I de la meiosi?
@@ -219,19 +234,71 @@ separada, amb un exercici adequat. Encara no desis res.
 
 Descarta la resta. Una sessió d'estudi amb Claude pot ser útil encara que no produeixi cap targeta.
 
-## Opcional: desa i repassa les targetes seleccionades
+## Desa a Nibomo els punts febles verificats
 
-La transferència més senzilla funciona amb qualsevol aplicació de targetes d'estudi. Demana a Claude que retorni només les targetes aprovades en blocs de text simples d'anvers i revers, comprova-les una vegada més i copia-les al teu sistema habitual de repàs.
+Un cop hagis comprovat les proves, demana a l'extensió de Nibomo que converteixi les mancances seleccionades en targetes desades. Indica l'espai de treball i demana a Claude que comprovi les targetes existents abans d'afegir-ne més. Aquesta instrucció demana una previsualització abans de desar:
 
-Si fas servir Nibomo, un cop hagis connectat Claude mitjançant MCP, li pots demanar que hi desi les targetes aprovades. MCP és la connexió entre l'assistent i Nibomo. Revisa i aprova els anversos, els reversos i el lloc on es desaran abans de guardar-les.
+```text
+Fes servir Nibomo per crear fins a 5 targetes d'estudi a partir del registre
+verificat de punts febles anterior. Fes servir aquest espai de treball:
+[nom de l'espai de treball]. Si el nom és ambigu, confirma quin és abans de desar.
 
-Quan toqui repassar, pots fer-ho a l'[aplicació web](https://app.nibomo.com/) o en un xat amb Claude o Codex connectat a Nibomo mitjançant MCP. Al xat, l'assistent et presenta una pregunta cada vegada, espera que intentis respondre i després et mostra la resposta. Tu valores com de fàcil o difícil t'ha estat recordar-la i l'assistent registra aquesta valoració del repàs a Nibomo.
+Comprova si ja hi ha targetes duplicades o que treballin el mateix objectiu
+de memorització. Fes servir només mancances amb suport en les proves que he
+comprovat. Limita cada targeta a un objectiu de memorització, amb un anvers
+concret, un revers breu i la ubicació de la font.
 
-Nibomo manté un calendari de repassos compartit: tant si repasses a l'aplicació com al xat, els repassos següents es programen a partir del mateix historial. Pots triar l'opció que et vagi millor en cada sessió.
+Mostra'm primer les targetes proposades, les proves i les possibles
+coincidències amb targetes existents. Espera la meva aprovació abans de desar.
+Després de desar-les, confirma què has creat i on.
+```
 
-> [Connecta amb Claude](https://claude.ai/directory/nibomo) · [Documentació](/docs/mcp-connector/)
+La previsualització és una preferència que estableixes en aquesta instrucció. Pots triar fins a quin punt vols revisar les targetes abans de demanar a Claude que les desi o les editi; no és un requisit per a totes les accions de l'extensió.
 
-Per configurar la connexió, consulta la [guia del connector de Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/), en anglès, i la [referència del connector MCP](/docs/mcp-connector/). Si prefereixes no connectar l'assistent, pots continuar copiant les targetes manualment.
+Mantén la distinció de l'exemple resolt: l'explicació t'ha ajudat a entendre la meiosi, mentre que la targeta desada comprova la distinció concreta que no havies recordat. Una resposta llarga del tutor rarament ha de convertir-se en una targeta llarga.
+
+## Repassa amb Claude les targetes que toquen
+
+Una sèrie de preguntes sobre apunts que acabes de pujar és una sessió de tutoria. Un repàs programat de Nibomo fa servir targetes que ja has desat i registra un resultat que determina quan tornarà a aparèixer cadascuna. Demana-ho explícitament:
+
+```text
+Fes servir Nibomo per repassar durant 10 minuts les targetes que em toquen
+avui a [nom de l'espai de treball]. Fes servir Europe/Paris com a zona horària.
+
+Mostra una pregunta cada vegada i espera el meu intent abans de revelar
+la resposta desada. Després compara el meu intent original amb aquella resposta,
+dona comentaris breus i registra la valoració de record adequada. Digues-me
+quina valoració has registrat. Avalua l'intent original, no una resposta
+corregida que doni després de veure la solució.
+Atura't quan s'acabi el temps o no quedin més targetes per repassar, i resumeix
+els repassos que Nibomo hagi confirmat.
+```
+
+Substitueix l'espai de treball i la zona horària pels teus. Normalment, Claude anuncia la seva avaluació i registra la valoració automàticament. Si vols triar personalment cada valoració, afegeix: «Fes servir el mode de valoració manual: després de revelar la resposta, espera que triï Again, Hard, Good o Easy abans de registrar-la».
+
+Si respons «les cromàtides germanes» a la targeta sobre l'anafase I, reconèixer la correcció després de veure-la no fa que l'intent original sigui correcte. Una pregunta posterior sobre l'anafase II pot comprovar si ara saps distingir-les; no ha de millorar retroactivament la primera valoració.
+
+També pots repassar a l'[aplicació de Nibomo](https://app.nibomo.com/). Els repassos confirmats actualitzen el mateix calendari tant si els fas a l'aplicació com a Claude, de manera que pots alternar entre les dues opcions sense mantenir dos historials de repàs. Demana a Claude que indiqui clarament qualsevol registre fallit o no confirmat, en lloc de donar-lo per desat.
+
+## Millora les targetes que et continuen generant confusió
+
+Els errors repetits poden revelar una pregunta vaga, una resposta massa carregada o una condició que falta. Demana a Claude que examini la targeta abans de concloure que només et calen més repeticions:
+
+```text
+Fes servir Nibomo per revisar les targetes que m'han generat confusió durant
+la sessió. Comprova si hi ha anversos vagues, diversos objectius de memorització,
+condicions que falten, respostes sense suport o duplicats. Contrasta les
+correccions proposades amb les proves del curs que hi ha més amunt.
+
+Mostra la targeta actual al costat del canvi proposat,
+amb un motiu breu i la ubicació de la font. Assenyala tot allò que les proves
+no permetin aclarir. Espera la meva aprovació abans d'editar; no eliminis
+targetes ni canviïs dades que encara no s'hagin aclarit.
+```
+
+Mantén la targeta tal com està si la pregunta és clara i simplement no has pogut recordar la resposta. Per a les mancances que requereixin un diagrama o un altre problema resolt, torna a la tutoria o a la pràctica directa.
+
+Si prefereixes copiar les targetes manualment, demana a Claude les aprovades en blocs de text simples d'anvers i revers i afegeix-les a la teva aplicació habitual de targetes. Continua comprovant les fonts i responent abans de veure la resposta durant la tutoria.
 
 ## En què Claude encara necessita supervisió
 
@@ -255,8 +322,10 @@ Abans d'acabar la sessió, comprova que:
 - cada correcció remet a proves que has obert personalment;
 - els coneixements externs estan etiquetats per separat del material del curs;
 - cap incertesa pendent no s'ha convertit en una targeta;
-- només han quedat uns quants punts febles que cal treballar a llarg termini;
-- qualsevol escriptura del connector s'ha previsualitzat i aprovat;
-- tens un pla per tornar a treballar cada punt feble seleccionat.
+- només uns quants punts febles verificats que cal treballar a llarg termini s'han convertit en targetes desades;
+- les targetes s'han desat a l'espai de treball previst, sense duplicats innecessaris;
+- has triat valoracions automàtiques o manuals per als repassos programats;
+- les valoracions reflecteixen l'intent original i els repassos registrats s'han confirmat;
+- saps on tornar per al pròxim repàs programat.
 
 Un bon **tutor amb Claude** fa més que explicar. Mostra on s'acaba la font, espera mentre intentes recordar i et deixa un registre breu d'allò en què realment has fallat. Aquest registre, i no la llargada del xat, és el que fa que valgui la pena repetir el mètode d'estudi amb Claude.
