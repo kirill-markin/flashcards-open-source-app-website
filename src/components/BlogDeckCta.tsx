@@ -36,14 +36,7 @@ export function BlogDeckCta({
         <h2 className={styles.heading} dir="auto">
           {resource.title}
         </h2>
-        {resource.summary === "" ? null : (
-          <p className={styles.summary} dir="auto">
-            {resource.summary}
-          </p>
-        )}
-        <p className={styles.facts}>
-          {resource.cardCountLabel} · {resource.languageLabel}
-        </p>
+        <p className={styles.facts}>{resource.cardCountLabel}</p>
         <TrackedPublicCatalogPackageLink
           className={styles.study}
           href={resource.packageHref}
