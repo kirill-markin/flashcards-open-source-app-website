@@ -22,6 +22,7 @@ import {
   serializeMarkdownAssetManifest,
 } from "./markdownAssetManifest";
 import { renderMarkdownDocument } from "./markdownServe";
+import { renderMarkdownLink } from "./markdownLinks";
 import { renderMarkdownToHtml } from "./content/renderMarkdownToHtml";
 import { getPublicCatalogAuthorBioExcerpt } from "./publicCatalogAuthor";
 import {
@@ -762,7 +763,11 @@ test("blog deck resources fill the article slots and one Markdown footer with lo
     assert.ok(links.includes(packageUrl));
     assert.equal(document.markdown.includes("/catalog/import/"), false);
     const resourceTitleIndex = document.markdown.indexOf(`**${resource.title}**`);
-    const studyLinkIndex = document.markdown.indexOf(`](${packageUrl})`);
+    const studyLinkIndex = document.markdown.indexOf(renderMarkdownLink(
+      copy.installLabel,
+      packageUrl,
+      "Blog deck study link test",
+    ));
     assert.ok(resourceTitleIndex > document.markdown.lastIndexOf("## "));
     assert.ok(studyLinkIndex > resourceTitleIndex);
     assert.ok(document.markdown.includes(resource.summary));
