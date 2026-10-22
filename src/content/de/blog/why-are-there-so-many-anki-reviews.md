@@ -166,8 +166,6 @@ Ich würde mir das Deck genau ansehen, wenn du ständig Folgendes siehst:
 - Karten, die du nie gut genug verstanden hast, bevor du sie auswendig gelernt hast
 - winzige Details, die ihre künftigen Wiederholungen nicht wert sind
 
-Wenn das eher nach deiner Situation klingt, ist [Wie du 2026 ein Flashcard-Deck bereinigst](/de/blog/how-to-prune-a-flashcard-deck/) wahrscheinlich die bessere nächste Lektüre.
-
 ## Eine Fünf-Minuten-Diagnose für Anki-Review-Spitzen
 
 Wenn ich **Anki Review-Spitzen** schnell debuggen müsste, würde ich diese Tabelle benutzen:
@@ -222,7 +220,7 @@ Wenn die schmerzhafte Zahl ist:
 - **Learning Count**, räum bei Steps und schwachen Karten auf
 - **Zeit pro Session**, verbessere Kartenqualität und Review-Ablauf
 
-Dieser letzte Fall ist häufig. Manche Leute haben nicht wirklich zu viele Reviews. Sie haben Reviews, die zu langsam und zu nervig sind. Wenn das auf dich zutrifft, hilft [Wie du 2026 Flashcards schneller wiederholst](/de/blog/how-to-review-flashcards-faster/) mehr als noch eine Runde Scheduler-Tweaks.
+Dieser letzte Fall ist häufig. Manche Leute haben nicht wirklich zu viele Reviews. Sie haben Reviews, die zu langsam und zu nervig sind. Wenn das auf dich zutrifft, kürze überladene Antworten und formuliere vage Fragen neu, bevor du weiter am Scheduler schraubst.
 
 ## Wo Nibomo sinnvoll hineinpasst, ohne so zu tun, als wäre es Magie
 

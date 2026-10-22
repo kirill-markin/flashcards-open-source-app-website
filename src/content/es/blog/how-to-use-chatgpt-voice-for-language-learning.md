@@ -176,10 +176,6 @@ Una conversación por voz es interactiva. La otra parte responde, reformula, cor
 
 Eso hace que **usar ChatGPT Voice para aprender idiomas** sea algo distinto de dictarte vocabulario al móvil. Muchas veces, el material útil sale del bucle de corrección, no de tu primer intento.
 
-Si tu punto de partida es audio en bruto grabado por ti, y no una conversación interactiva, te encaja mejor esta guía:
-
-- [Cómo convertir notas de voz en tarjetas didácticas en 2026](https://nibomo.com/blog/how-to-turn-voice-notes-into-flashcards/)
-
 ## Las tarjetas para aprender idiomas deberían parecerse a tus conversaciones reales
 
 Creo que ahí está la ventaja silenciosa de este flujo de trabajo.

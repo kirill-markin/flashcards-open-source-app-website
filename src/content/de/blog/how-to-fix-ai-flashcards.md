@@ -148,7 +148,7 @@ Halte die Rückseite schlicht:
 
 Alles darüber hinaus will meistens zu einer eigenen Karte werden.
 
-Das ist noch wichtiger, wenn dir späteres Wiederholungstempo wichtig ist. [Wie du 2026 Flashcards schneller wiederholst](https://nibomo.com/blog/how-to-review-flashcards-faster/) ist im Grunde die direkte Folge dieser Bearbeitung.
+Kurze, klar bewertbare Antworten helfen dir auch, beim späteren Wiederholen zügig voranzukommen.
 
 ## Nutze KI für die zweite Bearbeitungsrunde, nicht als letzte Autorität
 
@@ -182,10 +182,9 @@ Die Karte übernimmt Dinge, die in der Sitzung nützlich waren, in der Langzeitw
 
 Darum würde ich aus solchen Sitzungen eher Fehler und Schwachstellen herausziehen, statt das komplette Gespräch in dauerhafte Karten zu exportieren. Die Tutor-Sitzung darf breit bleiben. Die Karten, die überleben, sollten das nicht.
 
-Wenn dein Workflow früher beginnt als bei der Bereinigung, passen diese Begleitartikel besser:
+Wenn du noch keine Karten erstellt hast, hilft dir dieser Begleitartikel beim ersten Entwurf:
 
 - [Wie du 2026 mit ChatGPT bessere Lernkarten erstellst: klarere Prompts, bessere Karten, bessere Wiederholung mit FSRS](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [Wie du 2026 den ChatGPT Study Mode in Flashcards verwandelst](https://nibomo.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
 
 Dieser Artikel beginnt einen Schritt später: Die Karten existieren bereits, und jetzt müssen sie wiederholungstauglich werden.
 

@@ -131,7 +131,7 @@ Drücke **Again**, wenn du die geforderte Antwort nicht wiedergeben konntest ode
 
 Wenn du Hard drückst, um ein kurzes Again-Intervall zu vermeiden, zeichnest du nach einem Fehlschlag einen Erfolg auf. FSRS lernt dann aus dem falschen Ereignis. Wähle die Schaltfläche, die deinen Abruf beschreibt – nicht das Intervall, das du laut Beschriftung über den Schaltflächen gern hättest.
 
-Unklare Karten machen ehrliche Bewertungen schwieriger. Wenn eine Frage fünf Fakten verlangt und du dich an vier erinnerst, hat das Planungsproblem bereits im Editor begonnen. Teile die Karte oder formuliere sie neu. Für Karten, die trotz wiederholter Wiederholungen immer wieder scheitern, lies [So reparierst du Leech-Karteikarten](/blog/how-to-fix-leech-flashcards/).
+Unklare Karten machen ehrliche Bewertungen schwieriger. Wenn eine Frage fünf Fakten verlangt und du dich an vier erinnerst, hat das Planungsproblem bereits im Editor begonnen. Teile die Karte oder formuliere sie neu. Prüfe bei wiederholten Fehlschlägen zuerst, ob du den Stoff verstanden hast und die Frage eindeutig beantworten kannst.
 
 ## Halte FSRS-Lernschritte kurz – oder lass die Felder bewusst leer
 

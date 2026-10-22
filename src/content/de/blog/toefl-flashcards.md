@@ -179,8 +179,6 @@ Sortiere die Ergebnisse dann in drei Gruppen:
 
 Vergleiche danach die übrigen Aufgaben-Tags mit den 12 aktuellen ETS-Aufgabennamen. Gib jeder formatspezifischen Karte eine aktuelle offizielle ETS-Quelle. Zusätzlich kannst du ein `verified-2026`-Tag sowie das Datum, an dem du die Karte geprüft hast, als ergänzende Metadaten hinzufügen. Dieses Überprüfungsdatum ist wichtig, weil ETS die Prüfung aktualisieren kann. Stabiler Wortschatz braucht keine solche Kennzeichnung.
 
-Wenn das Deck groß ist, bietet [So bereinigst du 2026 ein Flashcard-Deck](/de/blog/how-to-prune-a-flashcard-deck/) einen praktischen Ablauf zum Löschen und Umschreiben.
-
 ## Nutze Spaced Repetition zum Behalten, nicht als Testsimulation
 
 Spaced Repetition hilft dir, ein Wort, ein Satzmuster oder einen wiederkehrenden Fehler über mehrere Wochen verfügbar zu halten. Eine Karte mit Vorder- und Rückseite kann sich trotzdem nicht wie ein adaptiver Sprachtest verhalten.

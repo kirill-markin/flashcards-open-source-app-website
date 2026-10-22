@@ -72,7 +72,7 @@ Revisa ese inventario antes de continuar. Si ChatGPT incluye algo que no encuent
 
 Cuando el inventario de la fuente sea correcto, pide propuestas. La palabra «propuesta» es importante porque deja claro el siguiente paso: aún tienes que aprobarlas.
 
-Un buen anverso plantea una pregunta clara. Un buen reverso la responde directamente. La tarjeta debe seguir teniendo sentido más adelante, cuando ya no tengas abierta la fuente ni fresco el contexto de la clase. Para ver más ejemplos de lo que encaja en este formato, consulta [¿Qué debería incluir una flashcard?](/es/blog/what-should-go-on-a-flashcard/).
+Un buen anverso plantea una pregunta clara. Un buen reverso la responde directamente. La tarjeta debe seguir teniendo sentido más adelante, cuando ya no tengas abierta la fuente ni fresco el contexto de la clase.
 
 Aquí tienes un **prompt de ChatGPT para flashcards** que puedes copiar:
 

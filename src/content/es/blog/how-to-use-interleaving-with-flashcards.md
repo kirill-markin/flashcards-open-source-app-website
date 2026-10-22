@@ -127,7 +127,7 @@ Por ejemplo:
 
 Esta tarjeta es valiosa porque guarda el criterio de decisión, no solo la definición de `desplazamiento de la demanda`.
 
-Mantén el reverso lo bastante breve como para evaluarte con honestidad. La [guía para hacer mejores flashcards](/es/blog/how-to-make-better-flashcards/) profundiza en la redacción de las tarjetas, mientras que [active recall vs repetición espaciada](/es/blog/active-recall-vs-spaced-repetition/) aclara por qué la recuperación y la programación posterior siguen siendo tareas distintas.
+Mantén el reverso lo bastante breve como para evaluarte con honestidad. La [guía para hacer mejores flashcards](/es/blog/how-to-make-better-flashcards/) profundiza en la redacción de las tarjetas.
 
 ### 5. Deja que FSRS programe las tarjetas que vale la pena conservar
 

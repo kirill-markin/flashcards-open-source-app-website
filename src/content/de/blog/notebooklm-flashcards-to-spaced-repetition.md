@@ -168,10 +168,9 @@ Vielleicht war es:
 
 Das heißt: Die generierten Karten sind ohnehin schon eine Transformation von der Quelle entfernt. Ihnen noch einen Bereinigungsschritt zu geben, bevor sie zu Review-Items werden, ist keine Übertreibung. Es ist Qualitätskontrolle.
 
-Wenn deine Quelle noch einen Schritt früher festhängt, helfen diese Begleitartikel:
+Wenn du aus der ursprünglichen Quelle erst Karten entwerfen willst, hilft dieser Begleitartikel:
 
 - [Wie du 2026 Notizen in Flashcards verwandelst: KI-Entwürfe mit FSRS statt manuellem Copy-and-paste](https://nibomo.com/blog/turn-notes-into-flashcards/)
-- [Wie du 2026 Notion-Notizen in Flashcards verwandelst: Exportieren, mit KI entwerfen und mit FSRS reviewen](https://nibomo.com/blog/how-to-turn-notion-notes-into-flashcards/)
 
 ## Der Workflow, den ich diese Woche nutzen würde
 

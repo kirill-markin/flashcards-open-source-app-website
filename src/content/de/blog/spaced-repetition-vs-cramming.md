@@ -45,7 +45,7 @@ Wenn du für die AEVO planst, kann der [unabhängig erstellte Stapel mit 150 Kar
 
 Bis morgen reicht die Zeit vielleicht nur für eine gezielte Pauksitzung. Eine Woche erlaubt mehrere Abrufversuche mit echten Pausen dazwischen. Für eine Abschlussprüfung über den gesamten Stoff musst du frühere Themen immer wieder aufgreifen, während du den neuesten Stoff lernst. Berufliches, sprachliches und technisches Wissen solltest du meist auch dann noch wiederholen, wenn die Note schon feststeht.
 
-Ein universeller `1-3-7`-Plan ist für all diese Ziele zu schematisch. Sinnvolle Abstände hängen davon ab, wie lange das Wissen halten soll, und Themen sind dir zu Beginn unterschiedlich vertraut. Ein praktischer [Wiederholungsplan für Flashcards](/blog/how-often-should-you-review-flashcards/) sollte sich an der Frist und daran orientieren, was du tatsächlich abrufen kannst.
+Ein universeller `1-3-7`-Plan ist für all diese Ziele zu schematisch. Sinnvolle Abstände hängen davon ab, wie lange das Wissen halten soll, und Themen sind dir zu Beginn unterschiedlich vertraut. Passe deinen Wiederholungsplan an die Frist und daran an, was du tatsächlich abrufen kannst.
 
 ## Warum sich Pauken so wirksam anfühlt
 
@@ -129,7 +129,7 @@ Sie sind kein guter Ersatz dafür, die vollständige Antwort zu geben, die eine 
 
 Eine Karte kann fragen, wann du eine Formel einsetzt. Ein Aufgabensatz zeigt, ob du diesen Moment in einer ungewohnten Formulierung erkennst. Eine Karte kann den zentralen Unterschied für einen Aufsatz festhalten. Erst beim Schreiben zeigt sich, ob du unter Zeitdruck ein Argument daraus bauen kannst.
 
-Nutze die Werkzeuge nacheinander. Lass realistische Fragen Lücken aufdecken, halte die kleinen Fakten und Unterschiede fest, die du behalten willst, und kehre dann zu realistischen Fragen zurück. [Flashcards vs. Übungstests](/blog/flashcards-vs-practice-tests/) erklärt diese Aufgabenteilung ausführlicher.
+Nutze die Werkzeuge nacheinander. Lass realistische Fragen Lücken aufdecken, halte die kleinen Fakten und Unterschiede fest, die du behalten willst, und kehre dann zu realistischen Fragen zurück.
 
 ## Wie FSRS hilft, ohne für dich zu lernen
 

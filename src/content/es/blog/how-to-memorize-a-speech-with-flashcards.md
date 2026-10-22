@@ -196,7 +196,7 @@ Mantén clara la separación: usa las flashcards para recordar el recorrido y de
 
 ## Errores comunes que empeoran las tarjetas de apoyo para discursos
 
-Pegar el guion en el reverso de las tarjetas es la forma más rápida de convertir la práctica en relectura. Si muestras un párrafo y piensas «sí, esto me resulta familiar», has practicado el reconocimiento. Divídelo en una pista de sección, una transición y cualquier frase exacta que realmente necesites verificar. [¿Qué contenido debería incluirse en una flashcard?](/blog/what-should-go-on-a-flashcard/) aplica un filtro más estricto a las tarjetas sobrecargadas.
+Pegar el guion en el reverso de las tarjetas es la forma más rápida de convertir la práctica en relectura. Si muestras un párrafo y piensas «sí, esto me resulta familiar», has practicado el reconocimiento. Divídelo en una pista de sección, una transición y cualquier frase exacta que realmente necesites verificar.
 
 No valores una pista por la familiaridad que te produce en silencio. Con las tarjetas para discursos, casi siempre deberías responder en voz alta. Si la pista no te hizo decir nada hasta que diste la vuelta a la tarjeta, no lograste recordar la respuesta, aunque después pareciera evidente.
 

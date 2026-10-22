@@ -214,11 +214,9 @@ Porque solo tú sabes si:
 - la pista es demasiado fácil o demasiado vaga
 - la tarjeta encaja de verdad con tu nivel
 
-Si tu material de partida son notas, una transcripción o la salida de un chat, estas guías te ayudan en el paso anterior:
+Si tu material de partida son notas, una transcripción o la salida de un chat, esta guía te ayuda con el primer borrador:
 
 - [Cómo utilizar ChatGPT para crear tarjetas didácticas en 2026](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [Cómo convertir notas de voz en tarjetas didácticas en 2026](https://nibomo.com/blog/how-to-turn-voice-notes-into-flashcards/)
-- [Cómo convertir vídeos de YouTube en tarjetas didácticas en 2026](https://nibomo.com/blog/youtube-to-flashcards/)
 
 ## Construye el mazo alrededor de tu objetivo real, no de una ambición lingüística genérica
 
@@ -250,7 +248,6 @@ Eso hace más fácil pasar de "he encontrado lenguaje útil en una fuente" a "es
 
 Si además estás comparando opciones de producto más amplias, estas son las lecturas relacionadas más cercanas:
 
-- [Alternativa a Memrise en 2026: aplicación de tarjetas didácticas de código abierto con FSRS, estudio sin conexión y flujo de trabajo exclusivo del iPhone](https://nibomo.com/blog/memrise-alternative/)
 - [Alternativa a Quizlet en 2026: aplicación de tarjetas didácticas de código abierto con FSRS, estudio sin conexión y propiedad total de los datos](https://nibomo.com/blog/quizlet-alternative/)
 - [Mejor aplicación de tarjetas didácticas sin conexión en 2026](https://nibomo.com/blog/best-offline-flashcards-app/)
 
