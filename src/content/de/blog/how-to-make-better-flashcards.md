@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-make-better-flashcards.md"
 title: "Wie du 2026 bessere Flashcards erstellst: Regeln für Vorder- und Rückseiten, die mit FSRS wirklich funktionieren"
 description: "Du willst 2026 bessere Flashcards erstellen? Hier ist ein praxisnaher Leitfaden: klarere Vorderseiten, kürzere Rückseiten, keine vagen KI-Karten und ein Deck, das mit FSRS arbeitet statt dagegen."
 date: "2026-04-02"

@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-use-flashcards-for-the-fe-exam.md"
 title: "Cómo usar flashcards para el examen FE en 2026: ecuaciones, conversiones de unidades y errores de práctica que sí se te quedan"
 description: "¿Te preparas para el examen FE en 2026? Aquí tienes un flujo práctico de flashcards para ecuaciones, conversiones de unidades, repaso guiado por el handbook, trampas conceptuales y errores de práctica con repetición espaciada sin sustituir las tandas de problemas."
 date: "2026-07-02"
@@ -221,10 +219,6 @@ En su lugar, reduce el fallo a la parte reutilizable:
 
 Si la tarjeta sigue dependiendo de la pregunta original completa para tener sentido, normalmente aún no está lo bastante reducida.
 
-Este artículo complementario entra justo en ese flujo:
-
-- [Cómo convertir preguntas de práctica en flashcards en 2026](/es/blog/how-to-turn-practice-questions-into-flashcards/)
-
 ## Mantén una capa común y una capa por disciplina
 
 Un mazo gigantesco de FE suena eficiente hasta que la cola de repaso se convierte en un recorrido aleatorio por temas que no tienen nada que ver entre sí.
@@ -251,8 +245,6 @@ Para las **flashcards de FE Mechanical**, eso suele significar fallos recurrente
 Para las **flashcards de FE Electrical**, recuerda que el nombre oficial del examen NCEES es FE Electrical and Computer. Tu mazo debería seguir la especificación que realmente estás estudiando, con tarjetas para las distinciones de circuitos, electrónica, señales, potencia, controles o computación que sigues fallando en esa versión.
 
 Esa separación mantiene el repaso coherente. También hace más fácil borrar tarjetas que parecían útiles una vez y luego se convirtieron en ruido.
-
-Si el problema más grande ya es el crecimiento del mazo, [Cómo organizar flashcards en 2026](/es/blog/how-to-organize-flashcards/) es la siguiente lectura correcta.
 
 ## Usa IA para redactar, luego recorta sin piedad
 

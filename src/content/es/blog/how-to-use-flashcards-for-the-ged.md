@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-use-flashcards-for-the-ged.md"
 title: "Cómo usar flashcards para el GED en 2026: matemáticas, RLA, ciencias y estudios sociales que de verdad se te quedan"
 description: "¿Necesitas flashcards para el GED en 2026? Aquí tienes un sistema práctico para matemáticas, RLA, ciencias y estudios sociales usando errores de práctica, limpieza con IA y repaso con FSRS."
 image: "/blog/how-to-use-flashcards-for-the-ged.png"
@@ -123,8 +121,6 @@ Las tarjetas pequeñas de ciencias hacen más trabajo que los resúmenes gigante
 
 Esta materia también responde muy bien a tarjetas hechas a partir de explicaciones. La actual [página de preguntas de práctica](https://www.ged.com/study/practice-questions.html) del GED se apoya bastante en retroalimentación inmediata y paso a paso. Eso ayuda porque muchos fallos en ciencias salen de leer mal un gráfico, no de olvidar un capítulo entero.
 
-Si tu material fuente sale sobre todo de respuestas incorrectas y explicaciones de práctica, [Cómo convertir preguntas de práctica en flashcards en 2026](/es/blog/how-to-turn-practice-questions-into-flashcards/) es el artículo compañero más cercano.
-
 ## Las flashcards de estudios sociales GED no deberían convertirse en un cementerio de fechas
 
 Mucha gente oye "estudios sociales" y enseguida empieza a memorizar nombres, eventos y años.
@@ -202,7 +198,7 @@ La versión útil es más concreta:
 3. quédate con las claras
 4. borra rápido las infladas
 
-Si ya estudias con IA y quieres el flujo más amplio, [Cómo usar la IA para estudiar en 2026](/es/blog/how-to-use-ai-to-study/) es el mejor artículo compañero. Si el modelo ya te generó un mazo desordenado, [Cómo arreglar flashcards hechas con IA en 2026](/es/blog/how-to-fix-ai-flashcards/) es la guía de limpieza.
+Si el modelo ya te generó un mazo desordenado, [Cómo arreglar flashcards hechas con IA en 2026](/es/blog/how-to-fix-ai-flashcards/) es la guía de limpieza.
 
 ## Mantén la estructura del mazo GED aburrida y fácil de reabrir
 
@@ -226,8 +222,6 @@ Las etiquetas y el repaso filtrado son útiles para la presión más inmediata:
 Eso te da una forma de estudiar el problema que tienes delante sin convertir toda la biblioteca en un proyecto de organización.
 
 Yo también mantendría una regla corta para la entrada de tarjetas: si no te imaginas contestando esa tarjeta medio dormido en el autobús o durante el almuerzo, reescríbela.
-
-Si la organización ya se está volviendo más complicada que tu estudio real, [Cómo organizar flashcards en 2026](/es/blog/how-to-organize-flashcards/) es el reinicio correcto.
 
 ## La repetición espaciada para el GED funciona cuando la entrada de tarjetas sigue siendo realista
 

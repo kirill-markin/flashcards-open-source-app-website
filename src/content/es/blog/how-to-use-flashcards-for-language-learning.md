@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-use-flashcards-for-language-learning.md"
 title: >-
   Cómo usar tarjetas didácticas para aprender idiomas en 2026: vocabulario,
   frases y repasos que de verdad se te quedan

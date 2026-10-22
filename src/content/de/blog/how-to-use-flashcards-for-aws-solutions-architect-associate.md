@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-use-flashcards-for-aws-solutions-architect-associate.md"
 title: "Wie du 2026 mit Flashcards für AWS Solutions Architect Associate lernst: SAA-C03-Services, Trade-offs und Fehler aus Übungstests, die wirklich hängen bleiben"
 description: "Du bereitest dich 2026 auf AWS Certified Solutions Architect - Associate (SAA-C03) vor? Hier ist ein praktischer Flashcard-Workflow für AWS-Services, Architektur-Trade-offs, Well-Architected-Muster und Fehler aus Übungstests mit KI-Entwürfen plus FSRS-Wiederholung."
 date: "2026-05-11"
@@ -59,7 +57,7 @@ Ich würde den Exam Guide als Grenze behandeln, nicht als Transkriptionsprojekt.
 
 Überspringe Karten, die nur beweisen, dass du einmal eine AWS-Seite geöffnet hast.
 
-Dieselbe Grundregel gilt auch für andere Zertifizierungen. Wenn du die breitere Version für mehrere Zertifizierungen suchst, macht [Wie du 2026 Flashcards für AI-Zertifizierungen nutzt](https://nibomo.com/blog/how-to-use-flashcards-for-ai-certifications/) denselben Punkt aus einer etwas anderen Perspektive.
+Dieselbe Grundregel gilt auch für andere Zertifizierungen.
 
 ## Die besten SAA-C03-Karten drehen sich um Entscheidungen, nicht um Definitionen
 
@@ -179,7 +177,7 @@ Nützliche Tags könnten sein:
 - `missed`
 - `needs-recheck`
 
-Diese Struktur bleibt ruhig und erlaubt dir trotzdem, vor einer Lerneinheit gezielt Teilmengen herauszuziehen. Wenn du die Organisationsseite ausführlicher willst, ist [Wie du 2026 Flashcards organisierst](https://nibomo.com/blog/how-to-organize-flashcards/) der passende Begleitartikel.
+Diese Struktur bleibt ruhig und erlaubt dir trotzdem, vor einer Lerneinheit gezielt Teilmengen herauszuziehen.
 
 ## Nutze KI, um Karten aus Begründungen zu entwerfen, und bearbeite sie dann hart
 
@@ -259,6 +257,6 @@ Ich würde anfangen mit:
 
 Das ist das Deck, das deinen Score tatsächlich verändert.
 
-Und wenn sich deine aktuellen Karten immer noch zu breit anfühlen, ist [Wie du 2026 Übungsfragen in Flashcards verwandelst](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) der bessere nächste Text, weil SAA-C03-Decks meistens am schnellsten besser werden, wenn das Rohmaterial aus Fehlern statt aus Zusammenfassungen kommt.
+Wenn sich deine aktuellen Karten noch zu breit anfühlen, leite aus jedem Übungsfehler eine einzelne Entscheidung oder Unterscheidung ab, statt eine ganze Zusammenfassung auf die Rückseite zu schreiben.
 
 Für SAA-C03 ist die saubere Kurzfassung einfach: Lerne die offiziellen Domains, nutze Fehler aus Übungsfragen konsequent, baue kleinere Trade-off-Karten, als du zunächst denkst, und lass FSRS das Wiederholungstiming übernehmen. Das reicht meistens, damit die richtige AWS-Antwort schneller auftaucht, wenn die Formulierung im Szenario rutschig wird.

@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1gemini-guided-learning-to-flashcards.md"
 title: "So machst du 2026 aus Gemini Guided Learning sinnvolle Flashcards: Tutor behalten, Fehler mit FSRS wiederholen"
 description: "Du nutzt 2026 Gemini Guided Learning? Hier ist der praktische Workflow: Behalte die Tutor-Sitzung fürs Verstehen, verwandle Fehler in Flashcards und wiederhole sie mit FSRS, damit der Stoff nächste Woche noch sitzt."
 date: "2026-05-18"

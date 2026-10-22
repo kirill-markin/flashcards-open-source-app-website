@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1en~1blog~1how-to-use-flashcards-for-medical-school.md"
 title: "How to Use Flashcards for Medical School in 2026: Anatomy, Pharmacology, Pathology, and Spaced Repetition That Holds"
 description: "Want a practical medical school flashcards workflow in 2026? Here is how to use flashcards for med school across anatomy, pharmacology, pathology, lecture slides, question banks, and FSRS without turning the deck into a second curriculum."
 date: "2026-04-15"
@@ -135,10 +133,9 @@ I would use lecture slides differently:
 
 This matters because **medical school flashcards** are not supposed to preserve the lecture. They are supposed to preserve what you want to still know later.
 
-If your source material is mostly notes or long handouts, these related articles fit that earlier part of the workflow:
+If your source material is mostly notes or long handouts, this guide fits that earlier part of the workflow:
 
 - [How to Turn Notes Into Flashcards in 2026](https://nibomo.com/blog/turn-notes-into-flashcards/)
-- [How to Turn a PDF Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## Question-bank misses should shape the second half of the deck
 
@@ -156,10 +153,6 @@ Examples:
 - forgetting the next step in a management sequence
 
 That gives you a deck shaped by actual failure, not only by what the lecture emphasized. The deck is not there to motivate you. It is there to keep specific misses from repeating.
-
-If that is the part you need help with most, this is the direct companion article:
-
-- [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## A weekly med school flashcards workflow is usually boring on purpose
 
@@ -192,10 +185,6 @@ That matters because board prep has several moving parts at once:
 - final exam or shelf pressure
 
 If all of that lives in one shapeless queue, the deck stops feeling trustworthy.
-
-If you want the organization side in more detail, read this next:
-
-- [How to Organize Flashcards in 2026](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## FSRS helps most when you stop feeding chaos into it
 

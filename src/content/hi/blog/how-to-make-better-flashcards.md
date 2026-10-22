@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-make-better-flashcards.md"
 title: "2026 में बेहतर फ़्लैशकार्ड कैसे बनाएं: फ्रंट और बैक लिखने के नियम जो सचमुच FSRS के साथ काम करते हैं"
 description: "2026 में बेहतर फ़्लैशकार्ड कैसे बनाएं, यही समझना चाहते हैं? यह एक व्यावहारिक गाइड है: फ्रंट को साफ रखें, बैक को छोटा रखें, धुंधले AI-जनरेटेड कार्डों से बचें, और ऐसा डेक बनाएं जो FSRS के साथ काम करे, उससे लड़ाई न करे।"
 date: "2026-04-02"

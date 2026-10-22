@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-study-for-an-exam-with-fsrs.md"
 title: "Cómo estudiar para un examen con FSRS en 2026: crea un plan de flashcards que puedas terminar antes del día del examen"
 description: "Usar IA para generar flashcards es fácil. Lo difícil es repasarlas antes del examen. Aquí tienes un flujo de trabajo práctico de FSRS para exámenes en 2026: definir una carga de tarjetas realista, limpiar los borradores de IA y mantener la cola de repasos bajo control."
 date: "2026-04-01"
@@ -223,7 +221,6 @@ Si quieres probar este flujo:
 
 Y si tu material fuente todavía está un paso antes, estos artículos te ayudan:
 
-- [Cómo convertir un PDF en flashcards en 2026](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 - [Cómo usar ChatGPT para crear flashcards en 2026](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
 - [Cómo convertir las flashcards de NotebookLM en repetición espaciada real en 2026](https://nibomo.com/blog/notebooklm-flashcards-to-spaced-repetition/)
 

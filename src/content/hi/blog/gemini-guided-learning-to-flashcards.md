@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1gemini-guided-learning-to-flashcards.md"
 title: "2026 में Gemini Guided Learning को फ़्लैशकार्ड्स में कैसे बदलें: ट्यूटर बनाए रखें, छूटे हुए हिस्सों को FSRS के साथ दोहराएँ"
 description: "क्या आप 2026 में Gemini Guided Learning इस्तेमाल कर रहे हैं? यहाँ एक व्यावहारिक तरीका है: समझने के लिए tutoring session चलने दें, बार-बार छूटने वाले points, धीमे जवाबों और fragile concepts को फ़्लैशकार्ड्स में बदलें, और उन्हें FSRS के साथ review करें ताकि बात अगले हफ़्ते भी याद रहे।"
 date: "2026-05-18"

@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-use-flashcards-for-aws-solutions-architect-associate.md"
 title: "2026 में AWS Solutions Architect Associate के लिए फ़्लैशकार्ड कैसे इस्तेमाल करें: SAA-C03 services, trade-offs और practice-test misses जो सच में याद रहें"
 description: "क्या आप 2026 में AWS Certified Solutions Architect - Associate (SAA-C03) की तैयारी कर रहे हैं? यहाँ AWS services, architecture trade-offs, Well-Architected patterns और practice-exam misses के लिए AI drafting और FSRS review के साथ एक व्यावहारिक flashcards workflow दिया गया है।"
 date: "2026-05-11"
@@ -59,7 +57,7 @@ AWS यह भी कहता है कि exam में **50 scored question
 
 उन cards को छोड़ दीजिए जो सिर्फ़ यह साबित करते हैं कि आपने AWS का कोई page एक बार खोल लिया था।
 
-Certification prep में यही बड़ा नियम और जगहों पर भी लागू होता है। अगर आपको इसका broader multi-certification version चाहिए, तो [2026 में AI certifications के लिए फ्लैशकार्ड कैसे इस्तेमाल करें](https://nibomo.com/blog/how-to-use-flashcards-for-ai-certifications/) इसी बात को दूसरे angle से समझाता है।
+Certification prep में यही बड़ा नियम और जगहों पर भी लागू होता है।
 
 ## सबसे अच्छे SAA-C03 cards definitions नहीं, choices पर होते हैं
 
@@ -179,7 +177,7 @@ SAA-C03 के लिए मैं abbreviations रटने में extra ti
 - `missed`
 - `needs-recheck`
 
-यह structure सधा हुआ रहता है, लेकिन फिर भी study block से पहले focused subsets निकालने देता है। अगर organization वाला हिस्सा और detail में देखना है, तो [2026 में फ्लैशकार्ड कैसे व्यवस्थित करें](https://nibomo.com/blog/how-to-organize-flashcards/) इसका सही companion article है।
+यह structure सधा हुआ रहता है, लेकिन फिर भी study block से पहले focused subsets निकालने देता है।
 
 ## Reasoning से cards draft कराने के लिए AI का इस्तेमाल करें, फिर उन्हें सख़्ती से edit करें
 
@@ -259,6 +257,6 @@ SAA-C03 के लिए यह practical setup है, क्योंकि ar
 
 यही वह deck है जो सच में score बदलता है।
 
-और अगर आपके मौजूदा cards अब भी बहुत broad लगते हैं, तो [2026 में अभ्यास प्रश्नों को फ़्लैशकार्ड में कैसे बदलें](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) अगला बेहतर लेख है, क्योंकि SAA-C03 decks आम तौर पर तब सबसे तेज़ सुधरते हैं जब raw material summaries से नहीं, misses से आता है।
+और अगर आपके मौजूदा cards अब भी बहुत broad लगते हैं, तो हर practice miss से एक decision या distinction निकालें, पूरी summary को card के पीछे रखने के बजाय।
 
 SAA-C03 के लिए साफ़ version सीधा है: official domains पढ़िए, practice misses को आक्रामक तरीके से mine कीजिए, जितने छोटे trade-off cards ज़रूरी लगते हैं उससे भी छोटे cards बनाइए, और review timing FSRS पर छोड़ दीजिए। आम तौर पर इतना काफ़ी होता है कि scenario wording slippery होने पर भी सही AWS answer जल्दी सामने आ जाए।

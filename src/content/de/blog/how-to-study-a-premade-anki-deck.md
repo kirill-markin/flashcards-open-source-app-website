@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-study-a-premade-anki-deck.md"
 title: "Wie du 2026 mit einem vorgefertigten Anki-Deck lernst: Was du behältst, was du umschreibst und was du zuerst lernen solltest"
 description: "Du nutzt ein vorgefertigtes Anki-Deck oder geteilte Flashcards? So lernst du 2026 mit importierten Karten, ohne schlechte Review-Gewohnheiten, schwache Karten oder Themen zu übernehmen, die du noch gar nicht richtig gelernt hast."
 date: "2026-07-03"
@@ -124,7 +122,7 @@ Starte mit einem Limit, das fast schon zu vorsichtig wirkt:
 
 So hast du Luft, um überhaupt zu sehen, wie das Deck in Wirklichkeit aussieht. Und du verhinderst, dass du an Tag fünf merkst, dass dein "hilfreicher" Import plötzlich ein zweiter unbezahlter Job geworden ist.
 
-Wenn du eine genauere Regel für die Aufnahme neuer Karten willst, ist [Wie viele neue Flashcards pro Tag im Jahr 2026?](/de/blog/how-many-new-flashcards-per-day/) die passendere Ergänzung. Wenn zusätzlich KI weitere Karten in dasselbe System schiebt, ist [So vermeidest du 2026 Überlastung durch KI-Flashcards](/de/blog/how-to-avoid-ai-flashcard-overload/) noch wichtiger.
+Wenn du eine genauere Regel für die Aufnahme neuer Karten willst, ist [Wie viele neue Flashcards pro Tag im Jahr 2026?](/de/blog/how-many-new-flashcards-per-day/) die passendere Ergänzung.
 
 ## Triff in Woche eins nur vier Entscheidungen
 

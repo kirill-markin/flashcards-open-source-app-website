@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-use-flashcards-for-the-ged.md"
 title: "Wie du 2026 Flashcards für den GED nutzt: Mathe, RLA, Science und Social Studies, die wirklich im Kopf bleiben"
 description: "Du suchst 2026 nach GED-Flashcards? Hier ist ein praktischer Workflow für Mathe, RLA, Science und Social Studies mit falsch beantworteten Fragen, KI-Nachbearbeitung und FSRS-Wiederholung."
 image: "/blog/how-to-use-flashcards-for-the-ged.png"
@@ -123,8 +121,6 @@ Kleine Science-Karten leisten mehr als riesige Kapitelzusammenfassungen, weil si
 
 Dieses Fach reagiert auch gut auf Karten, die aus Erklärungen entstehen. GEDs aktuelle Seite mit [Übungsfragen](https://www.ged.com/study/practice-questions.html) setzt stark auf sofortiges Schritt-für-Schritt-Feedback. Das ist nützlich, weil viele Fehler in Science nicht daraus entstehen, dass du ein ganzes Kapitel vergessen hast, sondern dass du eine Grafik einmal falsch gelesen hast.
 
-Wenn dein Ausgangsmaterial größtenteils aus falschen Antworten und Erklärungen aus Übungen besteht, ist [Wie du 2026 Übungsfragen in Flashcards verwandelst](/de/blog/how-to-turn-practice-questions-into-flashcards/) der passendste Begleitartikel.
-
 ## GED-Social-Studies-Flashcards sollten nicht zu einem Friedhof aus Daten werden
 
 Viele hören "Social Studies" und beginnen sofort, Namen, Ereignisse und Jahreszahlen auswendig zu lernen.
@@ -202,7 +198,7 @@ Die nützliche Version ist schmaler:
 3. behalte die klaren
 4. lösche die aufgeblähten sofort
 
-Wenn du ohnehin schon mit KI lernst und den breiteren Workflow willst, ist [So nutzt du KI 2026 zum Lernen](/de/blog/how-to-use-ai-to-study/) der bessere Begleitartikel. Wenn das Modell bereits ein chaotisches Deck produziert hat, ist [So reparierst du 2026 KI-Flashcards](/de/blog/how-to-fix-ai-flashcards/) die Aufräum-Anleitung.
+Wenn das Modell bereits ein chaotisches Deck produziert hat, ist [So reparierst du 2026 KI-Flashcards](/de/blog/how-to-fix-ai-flashcards/) die Aufräum-Anleitung.
 
 ## Halte die GED-Deckstruktur schlicht und leicht wieder aufzugreifen
 
@@ -226,8 +222,6 @@ Tags und gefilterte Wiederholung sind für den temporären Druck nützlich:
 So kannst du genau das Problem lernen, das gerade vor dir liegt, ohne aus deiner ganzen Bibliothek ein Verwaltungsprojekt zu machen.
 
 Ich würde außerdem eine kurze Regel für neue Karten behalten: Wenn du dir nicht vorstellen kannst, die Karte halb schlafend im Bus oder in der Mittagspause zu beantworten, schreib sie um.
-
-Wenn deine Organisation komplizierter wird als dein eigentliches Lernen, ist [Flashcards in 2026 organisieren](/de/blog/how-to-organize-flashcards/) der richtige Reset.
 
 ## GED-Spaced-Repetition funktioniert, wenn du realistisch neue Karten hinzufügst
 

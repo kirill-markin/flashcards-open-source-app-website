@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-turn-images-into-flashcards.md"
 title: "2026 में Images को Flashcards में कैसे बदलें: Screenshots, Photos, और OCR के साथ, सब कुछ दोबारा लिखे बिना"
 description: "क्या आप हाथ से सब कुछ दोबारा टाइप किए बिना images को flashcards में बदलना चाहते हैं? 2026 के लिए यह एक व्यावहारिक workflow है: screenshots, study photos, scans, और OCR cleanup से साफ़ cards तैयार करें, फिर उन्हें FSRS के साथ review करें।"
 date: "2026-05-25"
@@ -32,7 +30,7 @@ screenshot में text अक्सर readable होता है, ले�
 
 यही फर्क असली मायने रखता है।
 
-अगर आपका source ज़्यादातर labels, arrows, और visual relationships है, तो [2026 में Diagrams को Flashcards में कैसे बदलें](/hi/blog/how-to-turn-diagrams-into-flashcards/) ज़्यादा क़रीबी match है। अगर source messy notebook writing है, तो [2026 में Handwritten Notes को Flashcards में कैसे बदलें](/hi/blog/how-to-turn-handwritten-notes-into-flashcards/) ज़्यादा मदद करेगा। यह article बीच वाले हिस्से के लिए है: screenshots, study photos, scanned pages, और mixed OCR-heavy material, जिसे अभी भी human review pass चाहिए।
+अगर आपका source ज़्यादातर labels, arrows, और visual relationships है, तो questions में उन रिश्तों को बनाए रखें। अगर source messy notebook writing है, तो cards बनाने से पहले transcription जाँचें। यह article बीच वाले हिस्से के लिए है: screenshots, study photos, scanned pages, और mixed OCR-heavy material, जिसे अभी भी human review pass चाहिए।
 
 ## OCR typing में मदद करता है, judgment में नहीं
 
@@ -115,7 +113,7 @@ scans को section के हिसाब से तोड़ें:
 - एक table
 - एक worked example
 
-अगर scan असल में document जैसा है, तो [2026 में PDF को Flashcards में कैसे बदलें](/hi/blog/how-to-turn-a-pdf-into-flashcards/) बेहतर companion article है। image layer सिर्फ़ वह तरीका है जिससे material आपके पास पहुँचा।
+अगर scan असल में document जैसा है, तो एक-एक section पर काम करें और cards बनाने से पहले निकाला गया text जाँचें। image layer सिर्फ़ वह तरीका है जिससे material आपके पास पहुँचा।
 
 ## Prompt सख्त और सीधा रहना चाहिए
 

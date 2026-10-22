@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-use-flashcards-for-anatomy.md"
 title: "Wie du 2026 Flashcards für Anatomie nutzt: Anatomie-Testate, Beschriftungen und Spaced Repetition, die wirklich sitzt"
 description: "Ein praktischer Anatomie-Flashcard-Workflow für Testate, Pins im Präparierkurs, markierte Strukturen und bildlastige Wiederholung mit KI-Bereinigung plus FSRS."
 date: "2026-05-17"
@@ -209,8 +207,6 @@ Was meistens keine Karte verdient:
 - Ich habe die Pin-Position einmal falsch gelesen und wusste es sonst eigentlich.
 
 Das sind echte Probleme. Es sind nur keine Flashcard-Probleme.
-
-Wenn dein bestes Ausgangsmaterial aus Fehlern in Testaten und Spottern kommt, passt [Wie du 2026 Übungsfragen in Flashcards verwandelst](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) hier sehr gut.
 
 ## Ein wöchentlicher Anatomie-Workflow sollte langweilig bleiben
 

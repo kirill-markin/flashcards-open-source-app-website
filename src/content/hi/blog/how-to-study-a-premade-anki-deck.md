@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-study-a-premade-anki-deck.md"
 title: "2026 में premade Anki deck से कैसे पढ़ें: क्या रखें, क्या दोबारा लिखें और पहले क्या सीखें"
 description: "Premade Anki deck या shared Flashcards इस्तेमाल कर रहे हैं? 2026 में imported cards को ऐसे पढ़ें कि खराब review habits, कमजोर cards और बिना सीखे हुए topics आपकी पढ़ाई को पटरी से न उतारें।"
 date: "2026-07-03"
@@ -124,7 +122,7 @@ Imported deck सस्ता लगता है क्योंकि आप�
 
 इससे आपको यह समझने की जगह मिलती है कि deck असल में कैसा है। और यह आपको पाँचवें दिन यह पता चलने से बचाता है कि आपका "helpful" import दूसरी unpaid job बन गया।
 
-अगर intake rule और detail में चाहिए, तो [प्रति दिन कितने नए Flashcards लेने चाहिए](/hi/blog/how-many-new-flashcards-per-day/) इस लेख का सबसे नज़दीकी companion है। और अगर उसी system में AI extra cards भी डाल रहा है, तो [2026 में AI Flashcard Overload से कैसे बचें](/hi/blog/how-to-avoid-ai-flashcard-overload/) और भी ज़्यादा ज़रूरी है।
+अगर intake rule और detail में चाहिए, तो [प्रति दिन कितने नए Flashcards लेने चाहिए](/hi/blog/how-many-new-flashcards-per-day/) इस लेख का सबसे नज़दीकी companion है।
 
 ## पहले हफ़्ते में सिर्फ चार decisions लें
 
@@ -165,8 +163,6 @@ Imported decks में अक्सर ऐसे cards मिलते है�
 - overloaded cards को दो या तीन छोटे cards में बाँटना
 
 एक अच्छा test यह है: अगर card का answer देने के लिए आपको original author का class context याद रखना पड़ रहा है, तो उसे rewrite कीजिए।
-
-अगर import के बाद deck को थोड़ा बड़ा cleanup pass चाहिए, तो [2026 में Flashcard deck को कैसे prune करें](/hi/blog/how-to-prune-a-flashcard-deck/) इसका companion guide है।
 
 ## AI-generated shared decks को draft की तरह treat करें
 

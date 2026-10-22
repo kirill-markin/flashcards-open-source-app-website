@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-use-flashcards-for-the-fe-exam.md"
 title: "2026 में FE Exam के लिए फ़्लैशकार्ड कैसे इस्तेमाल करें: equations, unit conversions और practice-problem गलतियाँ जो सच में याद रहें"
 description: "क्या आप 2026 में FE exam की तैयारी कर रहे हैं? यहाँ equations, unit conversions, handbook-based review, conceptual traps और practice-problem गलतियों के लिए spaced repetition के साथ एक व्यावहारिक flashcards workflow दिया गया है, जो problem sets की जगह नहीं लेता।"
 date: "2026-07-02"
@@ -221,10 +219,6 @@ Trap यह है कि पूरे problem को एक ही card मे�
 
 अगर card को समझने के लिए अब भी पूरा original question चाहिए, तो आम तौर पर वह अभी काफ़ी reduce नहीं हुआ है।
 
-यह companion article उसी workflow को और detail में समझाता है:
-
-- [2026 में अभ्यास प्रश्नों को फ़्लैशकार्ड में कैसे बदलें](/hi/blog/how-to-turn-practice-questions-into-flashcards/)
-
 ## एक common layer और एक discipline layer रखें
 
 एक giant FE deck efficient लगता है, जब तक review queue ऐसे random walk में न बदल जाए जिसमें topics का आपस में कोई लेना-देना न हो।
@@ -251,8 +245,6 @@ Common-engineering cards उन failures को cover करती हैं ज
 **FE Electrical फ़्लैशकार्ड** के मामले में याद रखें कि official NCEES exam name FE Electrical and Computer है। आपका deck उसी spec के हिसाब से होना चाहिए जिसकी आप तैयारी कर रहे हैं, और उसी version में बार-बार छूटने वाले circuit, electronics, signals, power, controls, या computing distinctions को पकड़ना चाहिए।
 
 यह split review को coherent रखता है। साथ ही उन cards को delete करना आसान बनाता है जो एक बार useful लगे थे, लेकिन बाद में noise बन गए।
-
-अगर अभी बड़ी problem deck sprawl है, तो [2026 में फ़्लैशकार्ड कैसे व्यवस्थित करें](/hi/blog/how-to-organize-flashcards/) अगला बेहतर article है।
 
 ## AI का इस्तेमाल drafting के लिए करें, फिर सख़्ती से काटें
 

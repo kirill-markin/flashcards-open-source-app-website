@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-use-ai-for-active-recall.md"
 title: "2026 में AI से Active Recall कैसे करें: Tutor पहले पूछे, फिर सिर्फ़ कमज़ोर हिस्से बचाइए"
 description: "2026 के लिए AI tutor के साथ active recall का एक practical workflow: पहले सवाल पूछवाइए, जहाँ आप चूके सिर्फ़ वही बचाइए, और पूरी chat सहेजने के बजाय उन्हें FSRS flashcards में बदलिए।"
 date: "2026-05-30"
@@ -117,11 +115,9 @@ Session के अंत में मुझे ऐसी list चाहिए:
 
 ये असली weak spots हैं। "Chapter 6 पर और काम चाहिए" weak spot नहीं है।
 
-अगर आपका source notes, study guide, या PDF से शुरू होता है, तो recall session से पहले ये companion workflows अच्छी तरह fit बैठते हैं:
+अगर आपका source notes, study guide, या PDF से शुरू होता है, तो recall session से पहले notes से cards बनाने की यह guide काम आती है:
 
 - [2026 में notes को flashcards में कैसे बदलें](/hi/blog/turn-notes-into-flashcards/)
-- [2026 में study guide को flashcards में कैसे बदलें](/hi/blog/how-to-turn-a-study-guide-into-flashcards/)
-- [2026 में PDF को flashcards में कैसे बदलें](/hi/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## पूरी performance नहीं, सिर्फ़ weak spots बचाइए
 
@@ -150,7 +146,7 @@ Session से evidence मिलना चाहिए, ऐसा transcript �
 
 बाकी सब chat history में रह सकता है।
 
-यही वजह है कि अलग-अलग brands के tutor workflows आख़िर में लगभग एक ही जगह पहुँचते हैं। चाहे session [ChatGPT Study Mode](/hi/blog/how-to-turn-chatgpt-study-mode-into-flashcards/) में शुरू हो, [Gemini Guided Learning](/hi/blog/gemini-guided-learning-to-flashcards/) में, या किसी और tutor-style tool में, बचाकर रखने लायक हिस्सा वही छोटी miss list है।
+यही वजह है कि अलग-अलग brands के tutor workflows आख़िर में लगभग एक ही जगह पहुँचते हैं। चाहे session ChatGPT Study Mode में शुरू हो, [Gemini Guided Learning](/hi/blog/gemini-guided-learning-to-flashcards/) में, या किसी और tutor-style tool में, बचाकर रखने लायक हिस्सा वही छोटी miss list है।
 
 ## सबसे अच्छे cards polished explanation नहीं, असली miss को बचाते हैं
 

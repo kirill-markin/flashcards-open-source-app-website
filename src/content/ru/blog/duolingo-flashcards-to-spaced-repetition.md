@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ru~1blog~1duolingo-flashcards-to-spaced-repetition.md"
 title: "Карточки Duolingo (2026): как они работают и что повторять дальше"
 description: "Разбираемся, как устроены раунды Duolingo Flashcards из пяти карточек, где они появляются в уроках и как превратить повторяющиеся ошибки в небольшую личную колоду с FSRS."
 date: "2026-06-12"

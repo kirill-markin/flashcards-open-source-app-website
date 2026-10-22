@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-study-for-an-exam-with-fsrs.md"
 title: "2026 में FSRS के साथ परीक्षा की तैयारी कैसे करें: टेस्ट डे से पहले पूरा किया जा सकने वाला Flashcards प्लान बनाएं"
 description: "AI से flashcards बनाना आसान है। मुश्किल हिस्सा है उन्हें परीक्षा से पहले review कर पाना। यहाँ 2026 के लिए एक व्यावहारिक FSRS exam workflow है, जिसमें real card load सेट करना, AI drafts साफ़ करना, और review queue को नियंत्रण में रखना शामिल है।"
 date: "2026-04-01"
@@ -223,7 +221,6 @@ AI overproduction को आसान बना देता है।
 
 और अगर आपका source material अभी भी उससे एक कदम पहले अटका हुआ है, तो ये लेख मदद करेंगे:
 
-- [2026 में PDF को flashcards में कैसे बदलें](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 - [2026 में ChatGPT से flashcards कैसे बनाएं](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
 - [2026 में NotebookLM flashcards को असली spaced repetition में कैसे बदलें](https://nibomo.com/blog/notebooklm-flashcards-to-spaced-repetition/)
 

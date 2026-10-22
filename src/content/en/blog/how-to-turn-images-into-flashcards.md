@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1en~1blog~1how-to-turn-images-into-flashcards.md"
 title: "How to Turn Images Into Flashcards in 2026: Screenshots, Photos, and OCR Without Rewriting Everything"
 description: "Want to turn images into flashcards without retyping everything by hand? Here is a practical 2026 workflow for screenshots, study photos, and OCR cleanup so you can review the final cards with FSRS."
 date: "2026-05-25"
@@ -32,7 +30,7 @@ A screenshot usually has readable text and missing context. A phone photo usuall
 
 That difference matters.
 
-If your source is mostly labels, arrows, and visual relationships, [How to Turn Diagrams Into Flashcards](/blog/how-to-turn-diagrams-into-flashcards/) is the closer match. If the source is messy notebook writing, [How to Turn Handwritten Notes Into Flashcards](/blog/how-to-turn-handwritten-notes-into-flashcards/) will help more. This article is for the middle ground: screenshots, study photos, scanned pages, and mixed OCR-heavy material that still needs a human review pass.
+If your source is mostly labels, arrows, and visual relationships, [How to Turn Diagrams Into Flashcards](/blog/how-to-turn-diagrams-into-flashcards/) is the closer match. If the source is messy notebook writing, verify the transcription before drafting cards. This article is for the middle ground: screenshots, study photos, scanned pages, and mixed OCR-heavy material that still needs a human review pass.
 
 ## OCR helps with typing, not with judgment
 
@@ -115,7 +113,7 @@ Break scans down by section:
 - one table
 - one worked example
 
-If the scan is basically a document, [How to Turn a PDF Into Flashcards](/blog/how-to-turn-a-pdf-into-flashcards/) is the better companion article. The image layer is only how the material reached you.
+If the scan is basically a document, work section by section and check the extracted text before drafting cards. The image layer is only how the material reached you.
 
 ## The prompt should stay strict and boring
 

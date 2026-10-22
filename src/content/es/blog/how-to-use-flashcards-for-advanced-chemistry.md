@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-use-flashcards-for-advanced-chemistry.md"
 title: "Cómo usar flashcards para química avanzada en 2026: ecuaciones, razonamiento de laboratorio y corrección de errores"
 description: "Un flujo práctico de flashcards para química avanzada: ecuaciones, equilibrio, ácidos y bases, interpretación de laboratorio y errores en respuestas desarrolladas, sin convertir el mazo en un segundo libro de texto."
 image: "/blog/how-to-use-flashcards-for-advanced-chemistry.png"
@@ -175,7 +173,7 @@ Ejemplos:
 
 Esa última importa. Algunos fallos son fallos de memoria. Otros son fallos de transferencia. Las flashcards ayudan con el recuerdo activo. Los problemas prácticos construyen transferencia. Necesitas ambas cosas.
 
-Si tu mejor material fuente son tareas corregidas, quizzes y problemas de práctica escritos de forma independiente, [Cómo convertir preguntas de práctica en flashcards en 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) es el complemento más directo. Y para la parte de planificación, [Cómo estudiar para un examen con FSRS en 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs) encaja muy bien aquí.
+Si tu mejor material fuente son tareas corregidas, quizzes y problemas de práctica escritos de forma independiente, convierte los errores recurrentes en preguntas pequeñas que comprueben la causa del fallo. Y para la parte de planificación, [Cómo estudiar para un examen con FSRS en 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs) encaja muy bien aquí.
 
 ## Un flujo semanal práctico para química avanzada de secundaria
 

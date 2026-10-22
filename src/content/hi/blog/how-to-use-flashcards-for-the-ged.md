@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-use-flashcards-for-the-ged.md"
 title: "2026 में GED के लिए फ़्लैशकार्ड कैसे इस्तेमाल करें: Math, RLA, Science और Social Studies जो सच में याद रहें"
 description: "2026 में GED फ़्लैशकार्ड चाहिए? यहाँ Math, RLA, Science और Social Studies के लिए missed questions, AI cleanup और FSRS review पर आधारित एक practical workflow दिया गया है।"
 image: "/blog/how-to-use-flashcards-for-the-ged.png"
@@ -123,8 +121,6 @@ Science वह जगह है जहाँ बहुत-से learners कह
 
 यह subject explanations से बने cards पर भी अच्छा respond करता है। GED का मौजूदा [practice questions page](https://www.ged.com/study/practice-questions.html) instant, step-by-step feedback पर ज़ोर देता है। यह उपयोगी है, क्योंकि Science की बहुत-सी misses पूरा chapter भूलने से नहीं, graph की एक खराब reading से आती हैं।
 
-अगर आपका source material ज़्यादातर practice की wrong answers और explanations हैं, तो [2026 में अभ्यास प्रश्नों को फ़्लैशकार्ड में कैसे बदलें](/blog/how-to-turn-practice-questions-into-flashcards/) सबसे नज़दीकी companion article है।
-
 ## GED Social Studies फ़्लैशकार्ड dates का graveyard नहीं बनने चाहिए
 
 बहुत-से लोग "Social Studies" सुनते ही names, events, और years याद करना शुरू कर देते हैं।
@@ -226,8 +222,6 @@ temporary pressure के लिए tags और filtered review उपयोग�
 इससे आपके पास सामने वाली समस्या पढ़ने का तरीका रहता है, बिना पूरी library को filing project में बदले।
 
 मैं card intake के लिए एक छोटी rule भी रखूँगा: अगर आप खुद को आधी नींद में bus में या lunch break के दौरान वह card जवाब देते हुए imagine नहीं कर सकते, तो उसे rewrite कीजिए।
-
-अगर आपकी organization आपकी असली पढ़ाई से ज़्यादा जटिल होती जा रही है, तो [2026 में फ़्लैशकार्ड कैसे व्यवस्थित करें](/blog/how-to-organize-flashcards/) सही reset है।
 
 ## GED spaced repetition तब काम करती है जब intake realistic रहे
 

@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-use-flashcards-for-advanced-chemistry.md"
 title: "2026年版 高校の発展化学でフラッシュカードを使う方法: 式、実験の考察、ミスの修正"
 description: "高校の発展化学で、式、平衡、酸塩基、実験データの読み取り、記述式問題のミスを整理する実践的なフラッシュカード活用法です。デッキを第二の教科書にはしません。"
 image: "/blog/how-to-use-flashcards-for-advanced-chemistry.png"
@@ -175,7 +173,7 @@ keywords:
 
 最後の問いはかなり大事です。ミスには記憶ミスと転用ミスがあります。フラッシュカードが助けるのは想起まで。転用は問題演習が育てます。両方必要です。
 
-修正済みの宿題、クイズ、演習問題がいちばん良い素材なら、[2026年版 演習問題をフラッシュカードに変える方法](/blog/how-to-turn-practice-questions-into-flashcards/) がそのまま相方になります。スケジュール面は [2026年版 FSRSで試験勉強する方法](/blog/how-to-study-for-an-exam-with-fsrs) も相性がいいです。
+修正済みの宿題、クイズ、演習問題がいちばん良い素材なら、繰り返す誤答から、間違えた理由を確かめる小さな問いを作ります。スケジュール面は [2026年版 FSRSで試験勉強する方法](/blog/how-to-study-for-an-exam-with-fsrs) も相性がいいです。
 
 ## 高校の発展化学の現実的な週間ワークフロー
 

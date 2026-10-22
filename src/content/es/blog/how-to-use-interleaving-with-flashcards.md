@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-use-interleaving-with-flashcards.md"
 title: "Cómo usar la práctica intercalada con flashcards en 2026: mezcla temas sin romper la repetición espaciada"
 description: "Aprende a combinar práctica intercalada, flashcards y FSRS: qué mezclar, qué mantener separado y por qué una práctica más difícil puede mejorar la retención a largo plazo."
 date: "2026-07-14"
@@ -189,7 +187,7 @@ Las flashcards de práctica intercalada deberían obligarte a producir al menos 
 
 Aquí es donde **la práctica intercalada y la recuperación activa** se complementan. La recuperación activa aporta el intento de recordar. La práctica intercalada elimina la comodidad de saber qué tipo de intento viene después.
 
-Las pruebas de práctica siguen siendo importantes cuando la tarea real supera lo que cabe en una tarjeta. Usa preguntas mixtas para trabajar tareas de varios pasos, el manejo del tiempo y la transferencia de lo aprendido; usa flashcards para retener las reglas concretas y las distinciones que esas preguntas dejan al descubierto. [Flashcards vs pruebas de práctica](/es/blog/flashcards-vs-practice-tests/) explica con más detalle cómo se reparten esas funciones.
+Las pruebas de práctica siguen siendo importantes cuando la tarea real supera lo que cabe en una tarjeta. Usa preguntas mixtas para trabajar tareas de varios pasos, el manejo del tiempo y la transferencia de lo aprendido; usa flashcards para retener las reglas concretas y las distinciones que esas preguntas dejan al descubierto.
 
 ## Formas habituales de empeorar la práctica intercalada
 

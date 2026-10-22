@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-use-flashcards-for-anatomy.md"
 title: "2026年版 解剖学のためのフラッシュカード活用法: 実習試験、ラベル問題、定着する間隔反復"
 description: "2026年に解剖学を実践的に学ぶためのフラッシュカード運用です。実習試験、ピン問題、ラベル付き構造、画像中心の復習を、AIで整えつつ FSRS で回す方法をまとめました。"
 date: "2026-05-17"
@@ -209,8 +207,6 @@ keywords:
 - その1回だけピンの位置を読み違えたが、ほかでは分かっていた
 
 どれも本物の問題です。ただし、フラッシュカードの問題ではありません。
-
-最良の材料が実習試験やスポッターの失点なら、[2026年版 演習問題をフラッシュカードに変える方法](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) がここによくつながります。
 
 ## 週間の解剖学ルーティンは、退屈なくらいでちょうどいい
 

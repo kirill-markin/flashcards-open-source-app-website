@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-use-flashcards-for-aws-solutions-architect-associate.md"
 title: "Cómo usar flashcards para AWS Solutions Architect Associate en 2026: servicios de SAA-C03, trade-offs y fallos de simulacro que de verdad se te quedan"
 description: "¿Te preparas para AWS Certified Solutions Architect - Associate (SAA-C03) en 2026? Aquí tienes un flujo práctico con flashcards para servicios de AWS, trade-offs de arquitectura, patrones Well-Architected y errores de exámenes de práctica, con borradores de IA y repaso con FSRS."
 date: "2026-05-11"
@@ -59,7 +57,7 @@ Yo trataría la guía del examen como un límite, no como un proyecto de transcr
 
 Sáltate las tarjetas que solo demuestran que visitaste una página de AWS una vez.
 
-La misma regla general vale para la preparación de certificaciones en general. Si quieres la versión más amplia para varias certificaciones, [Cómo usar flashcards para certificaciones de IA en 2026](https://nibomo.com/blog/how-to-use-flashcards-for-ai-certifications/) desarrolla una idea parecida desde otro ángulo.
+La misma regla general vale para la preparación de certificaciones en general.
 
 ## Las mejores tarjetas de SAA-C03 van de decisiones, no de definiciones
 
@@ -179,7 +177,7 @@ Unas etiquetas útiles podrían ser:
 - `missed`
 - `needs-recheck`
 
-Esa estructura se mantiene tranquila y aun así te permite sacar subconjuntos enfocados antes de un bloque de estudio. Si quieres más detalle sobre la parte de organización, [Cómo organizar Flashcards en 2026](https://nibomo.com/blog/how-to-organize-flashcards/) es el artículo complementario correcto.
+Esa estructura se mantiene tranquila y aun así te permite sacar subconjuntos enfocados antes de un bloque de estudio.
 
 ## Usa IA para redactar tarjetas a partir del razonamiento y luego edítalas a fondo
 
@@ -259,6 +257,6 @@ Empezaría con:
 
 Ese es el mazo que de verdad cambia tu puntuación.
 
-Y si tus tarjetas actuales todavía te parecen demasiado amplias, [Cómo convertir preguntas de práctica en flashcards en 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) es la mejor lectura siguiente porque los mazos de SAA-C03 suelen mejorar más rápido cuando la materia prima sale de los errores y no de los resúmenes.
+Y si tus tarjetas actuales todavía te parecen demasiado amplias, extrae de cada error de práctica una sola decisión o distinción que merezca la pena recordar, en vez de copiar todo el resumen al reverso.
 
 Para SAA-C03, la versión limpia es simple: estudia los dominios oficiales, exprime a fondo los errores de práctica, crea tarjetas de trade-offs más pequeñas de lo que crees que necesitas y deja que FSRS se encargue del momento de repaso. Suele ser suficiente para que la respuesta correcta de AWS aparezca más rápido cuando la redacción del escenario se vuelve resbaladiza.

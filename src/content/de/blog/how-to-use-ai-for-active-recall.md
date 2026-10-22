@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-use-ai-for-active-recall.md"
 title: "So nutzt du 2026 KI für Active Recall: Erst fragen lassen, dann nur die Schwachstellen behalten"
 description: "Ein praxistauglicher Active-Recall-Workflow für 2026 mit KI-Tutoren: erst fragen lassen, nur Fehler und wacklige Stellen behalten und daraus FSRS-Flashcards machen statt den ganzen Chat zu speichern."
 date: "2026-05-30"
@@ -115,11 +113,9 @@ Am Ende der Sitzung will ich eine Liste, die ungefähr so klingt:
 
 Das sind echte Schwachstellen. "Kapitel 6 braucht noch Arbeit" ist keine.
 
-Wenn deine Quelle als Notizen, Lernzettel oder PDF startet, passen diese Begleit-Workflows natürlich vor die Abrufsitzung:
+Wenn deine Quelle als Notizen, Lernzettel oder PDF startet, passt dieser Leitfaden zum Umwandeln von Notizen in Karten vor die Abrufsitzung:
 
 - [Wie du 2026 Notizen in Flashcards verwandelst](/de/blog/turn-notes-into-flashcards/)
-- [Wie du 2026 aus einem Lernzettel Flashcards machst](/de/blog/how-to-turn-a-study-guide-into-flashcards/)
-- [Wie du 2026 ein PDF in Flashcards verwandelst](/de/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## Speichere die Schwachstellen, nicht die ganze Performance
 
@@ -148,7 +144,7 @@ Ich will behalten:
 
 Alles andere kann im Chatverlauf bleiben.
 
-Genau deshalb landen auch produktspezifische Tutor-Workflows am Ende an fast derselben Stelle. Ob die Sitzung in [ChatGPT Study Mode](/de/blog/how-to-turn-chatgpt-study-mode-into-flashcards/), [Gemini Guided Learning](/de/blog/gemini-guided-learning-to-flashcards/) oder einem anderen tutorartigen Tool beginnt: Der Teil, den es sich zu behalten lohnt, ist immer dieselbe kurze Liste von Schwachstellen.
+Genau deshalb landen auch produktspezifische Tutor-Workflows am Ende an fast derselben Stelle. Ob die Sitzung in ChatGPT Study Mode, [Gemini Guided Learning](/de/blog/gemini-guided-learning-to-flashcards/) oder einem anderen tutorartigen Tool beginnt: Der Teil, den es sich zu behalten lohnt, ist immer dieselbe kurze Liste von Schwachstellen.
 
 ## Die besten Karten bewahren den Fehler, nicht die polierte Erklärung
 

@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-use-flashcards-for-medical-school.md"
 title: "Wie du 2026 Flashcards im Medizinstudium nutzt: Anatomie, Pharmakologie, Pathologie und Spaced Repetition, die wirklich trägt"
 description: "Du suchst 2026 einen praktischen Flashcard-Workflow fürs Medizinstudium? Hier erfährst du, wie du Flashcards im Medizinstudium für Anatomie, Pharmakologie, Pathologie, Vorlesungsfolien, Fragebanken und FSRS nutzt, ohne dass dein Deck zu einem zweiten Curriculum wird."
 date: "2026-04-15"
@@ -131,10 +129,9 @@ Ich würde Vorlesungsfolien anders nutzen:
 
 Das ist wichtig, weil **Flashcards für das Medizinstudium** nicht dafür da sind, die Vorlesung zu konservieren. Sie sollen festhalten, was du später noch wissen willst.
 
-Wenn dein Quellenmaterial eher aus Notizen oder langen Handouts besteht, passen diese Artikel früher im Workflow:
+Wenn dein Quellenmaterial eher aus Notizen oder langen Handouts besteht, passt dieser Artikel früher im Workflow:
 
 - [Wie du 2026 Notizen in Flashcards verwandelst](https://nibomo.com/blog/turn-notes-into-flashcards/)
-- [Wie du 2026 ein PDF in Flashcards verwandelst](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## Fehler aus Fragenbanken sollten die zweite Hälfte des Decks formen
 
@@ -152,10 +149,6 @@ Beispiele:
 - den nächsten Schritt in einer Management-Sequenz vergessen
 
 So entsteht ein Deck, das von tatsächlichen Fehlern geformt ist und nicht nur davon, was die Vorlesung betont hat. Das Deck ist nicht dazu da, dich zu motivieren. Es ist dazu da, bestimmte Fehler daran zu hindern, sich zu wiederholen.
-
-Wenn du dafür am meisten Hilfe brauchst, ist das der direkte Begleitartikel:
-
-- [Wie du 2026 Übungsfragen in Flashcards verwandelst](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## Ein wöchentlicher Flashcard-Workflow im Medizinstudium ist meist absichtlich unspektakulär
 
@@ -188,10 +181,6 @@ Das ist wichtig, weil Examensvorbereitung mehrere Dinge gleichzeitig bewegt:
 - Druck durch Abschluss- oder Fachprüfungen
 
 Wenn all das in einer formlosen Warteschlange landet, fühlt sich das Deck irgendwann nicht mehr vertrauenswürdig an.
-
-Wenn du die Organisationsseite ausführlicher willst, lies als Nächstes diesen Artikel:
-
-- [Wie du 2026 Flashcards organisierst](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## FSRS hilft am meisten, wenn du aufhörst, Chaos ins System zu kippen
 

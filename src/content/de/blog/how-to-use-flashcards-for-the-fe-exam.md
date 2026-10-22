@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-use-flashcards-for-the-fe-exam.md"
 title: "Wie du 2026 Flashcards für die FE-Prüfung nutzt: Formeln, Einheitenumrechnungen und Fehler aus Übungsaufgaben, die wirklich hängen bleiben"
 description: "Du bereitest dich 2026 auf die FE-Prüfung vor? Hier ist ein praxisnaher Flashcard-Workflow für Formeln, Einheitenumrechnungen, Wiederholung mit dem Handbook, Konzeptfallen und Fehler aus Übungsaufgaben mit Spaced Repetition, ohne Aufgabensätze zu ersetzen."
 date: "2026-07-02"
@@ -221,10 +219,6 @@ Reduziere den Fehler lieber auf den wiederverwendbaren Teil:
 
 Wenn die Karte immer noch von der vollständigen Originalfrage abhängt, um Sinn zu ergeben, ist sie meist noch nicht weit genug reduziert.
 
-Dieser Begleitartikel geht genau auf diesen Workflow tiefer ein:
-
-- [Wie du 2026 Übungsfragen in Flashcards verwandelst](/de/blog/how-to-turn-practice-questions-into-flashcards/)
-
 ## Halte eine gemeinsame Ebene und eine Fachrichtungsebene getrennt
 
 Ein einziges riesiges FE-Deck klingt effizient, bis die Review-Warteschlange zu einem ziellosen Spaziergang durch Themen wird, die nichts miteinander zu tun haben.
@@ -251,8 +245,6 @@ Bei **fe mechanical flashcards** heißt das oft: wiederkehrende Fehler rund um T
 Bei **fe electrical flashcards** solltest du im Kopf behalten, dass der offizielle NCEES-Prüfungsname FE Electrical and Computer lautet. Dein Deck sollte der Spezifikation folgen, für die du wirklich lernst, mit Karten zu Schaltungen, Elektronik, Signalen, Power, Controls oder Computing-Unterscheidungen, die dir in genau dieser Version immer wieder wegrutschen.
 
 Diese Trennung hält die Wiederholung zusammenhängend. Und sie macht es leichter, Karten zu löschen, die einmal nützlich aussahen und später nur noch Rauschen waren.
-
-Wenn das größere Problem bereits ein ausuferndes Deck ist, ist [Wie du 2026 Flashcards organisierst](/de/blog/how-to-organize-flashcards/) die bessere nächste Lektüre.
 
 ## Nutze KI für Entwürfe und kürze dann hart
 
