@@ -552,14 +552,14 @@ export function renderBlogPostMarkdown(
   const resource = resolveBlogDeckResource(slug, locale, publicCatalog);
   const resourceMarkdown = resource === null
     ? ""
-    : `${renderBlogDeckResourceMarkdown(resource, locale)}\n\n`;
+    : `\n\n${renderBlogDeckResourceMarkdown(resource, locale)}`;
 
   return {
     markdown: appendMarkdownFooter(
-      `# ${post.title}\n\n*${post.date}*\n\n${resourceMarkdown}${localizeInternalLinks(
+      `# ${post.title}\n\n*${post.date}*\n\n${localizeInternalLinks(
         post.bodyMarkdown.trim(),
         locale
-      )}`,
+      )}${resourceMarkdown}`,
       locale,
       postPath
     ),

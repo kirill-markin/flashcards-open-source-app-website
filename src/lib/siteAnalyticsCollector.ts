@@ -67,7 +67,10 @@ export type SiteCatalogFilterCategory =
 export type SiteCatalogDeckPlacement =
   | "card_cover"
   | "card_title"
-  | "related_deck";
+  | "related_deck"
+  | "article_start_side"
+  | "mid_article"
+  | "article_end";
 
 /** The question put and the collection facts are the fact itself and carry nothing beside it. */
 type SiteEmptyEventProperties = Readonly<Record<string, never>>;
@@ -195,6 +198,7 @@ interface SiteAnalyticsEventPropertiesByName {
   readonly site_catalog_deck_opened: Readonly<{
     package_slug: string;
     placement: SiteCatalogDeckPlacement;
+    page_path?: string;
   }>;
   /**
    * This site's own consent decision and the collection switch moved after it was answered, which

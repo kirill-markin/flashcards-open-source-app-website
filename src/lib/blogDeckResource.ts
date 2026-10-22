@@ -5,6 +5,7 @@ import { getPublicCatalogUiCopy } from "./publicCatalogCopy";
 import { formatPublicCatalogCardCount } from "./publicCatalogFormatting";
 import {
   getPublicCatalogPackageBySlug,
+  type PublicCatalogCoverMediaAsset,
   type PublicCatalogReadModel,
 } from "./publicCatalogReadModel";
 import { getPublicCatalogPackageLocalizedPathname } from "./publicCatalogUrls";
@@ -18,6 +19,8 @@ export interface BlogDeckResource {
   readonly packageId: string;
   readonly packageSlug: string;
   readonly title: string;
+  readonly summary: string;
+  readonly coverMediaAsset: PublicCatalogCoverMediaAsset | null;
   readonly cardCountLabel: string;
   readonly languageLabel: string;
   readonly packageHref: string;
@@ -36,6 +39,7 @@ export function renderBlogDeckResourceMarkdown(
 
   return [
     `**${escapeMarkdownText(resource.title)}**`,
+    ...(resource.summary === "" ? [] : [escapeMarkdownText(resource.summary)]),
     escapeMarkdownText(`${resource.cardCountLabel} · ${resource.languageLabel}`),
     studyLink,
   ].join("\n\n");
@@ -81,6 +85,8 @@ export function resolveBlogDeckResource(
     packageId: packageMetadata.packageId,
     packageSlug,
     title: latestVersion.title,
+    summary: latestVersion.summary,
+    coverMediaAsset: packageView.coverMediaAsset,
     cardCountLabel: formatPublicCatalogCardCount(locale, latestVersion.cardCount, copy),
     languageLabel: `${copy.languagesLabel}: ${languages.join(", ")}`,
     packageHref: getPublicCatalogPackageLocalizedPathname(locale, packageSlug),

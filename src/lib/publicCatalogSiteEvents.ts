@@ -7,7 +7,7 @@ import type {
   PublicCatalogNavigationPlacement,
 } from "./publicCatalogAnalytics";
 import type { PublicCatalogSort } from "./publicCatalogBrowse";
-import { sendSiteAnalyticsEvent } from "./siteAnalyticsCollector";
+import { getSitePagePath, sendSiteAnalyticsEvent } from "./siteAnalyticsCollector";
 
 /**
  * The shape the collector accepts for the reported search text, spelled exactly as the catalog's
@@ -134,18 +134,16 @@ export function reportPublicCatalogPagination(
   });
 }
 
-/**
- * The deck a browse ended on. The slug is the one the catalog snapshot carries, which the parser
- * already holds to the collector's slug shape at build time, so a deck that reaches a listing card
- * has a reportable slug by construction.
- */
 export function reportPublicCatalogDeckOpen(
   locale: AppLocale,
   packageSlug: string,
   placement: PublicCatalogNavigationPlacement,
 ): void {
+  const pagePath = getSitePagePath(window.location.pathname);
+
   sendSiteAnalyticsEvent("site_catalog_deck_opened", new Date().toISOString(), locale, {
     package_slug: packageSlug,
     placement,
+    ...(pagePath === null ? {} : { page_path: pagePath }),
   });
 }
