@@ -1063,6 +1063,21 @@
     }
   },
   {
+    "publicPath": "/blog/git-reset-restore-revert-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/bebe7d9b53b76f2fa3fd921e86c45988004d8cbf78f8fc61a4836cae4c7ead9d.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "bebe7d9b53b76f2fa3fd921e86c45988004d8cbf78f8fc61a4836cae4c7ead9d",
+    "bytes": 174266,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/c3b6db4a199ea1974e849170bc05758a03d372ea8c1e1db235453619f3263585.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "c3b6db4a199ea1974e849170bc05758a03d372ea8c1e1db235453619f3263585",
+      "bytes": 2448289
+    }
+  },
+  {
     "publicPath": "/blog/gizmo-alternative-v2.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/1f6bf9e0cdbc164c6bdc620139201ef32bd987f331703904447c40e5f93aa03b.png",
     "width": 1672,
