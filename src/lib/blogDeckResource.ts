@@ -10,6 +10,7 @@ import {
 import { getPublicCatalogPackageLocalizedPathname } from "./publicCatalogUrls";
 
 const PACKAGE_SLUG_BY_ARTICLE_SLUG: Readonly<Record<string, string>> = {
+  "git-reset-restore-revert-practice": "git-commands-flashcards",
   "us-state-abbreviations": "us-state-abbreviations-flashcards",
 };
 
