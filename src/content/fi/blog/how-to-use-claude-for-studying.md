@@ -2,7 +2,7 @@
 title: "Näin käytät Claudea opiskeluun vuonna 2026: käytännön menetelmä"
 description: "Opiskele omista muistiinpanoistasi Clauden avulla, vastaa kysymys kerrallaan, tarkista korjaukset ja tee osaamisaukoista muistikortteja kurssin tekoälysääntöjen mukaan."
 date: "2026-05-28"
-updated: "2026-10-03"
+updated: "2026-10-22"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "miten käyttää Claudea opiskeluun"
@@ -13,15 +13,13 @@ keywords:
   - "Claude Learning mode"
 ---
 
-Luentokalvolla lukee ”kromosomit erkanevat”, mutta siitä ei selviä, mitkä kromosomit. Jos Claude täydentää aukon huomaamatta yleistiedolla, saatat harjoitella varmalta kuulostavaa vastausta, jolle lähteesi ei koskaan antanut tukea.
+Jos mietit, **miten käyttää Claudea opiskeluun**, aloita pienestä osasta omia kurssimuistiinpanojasi. Tarkista, mitä väitteitä ne tukevat, ja vastaa kysymys kerrallaan ennen avun näkemistä. Tarkista korjaukset ja tallenna sitten ne osaamisaukot, joita sinun pitää harjoitella uudelleen. Suosittelen tähän viimeiseen vaiheeseen [Nibomon Claude-lisäosaa](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory): se antaa Claudelle työnkulut muistikorttien luomiseen, vuorossa olevien korttien kertaamiseen ja epäselvien korttien parantamiseen.
 
-Ensimmäinen hyödyllinen pyyntö ei ole ”tenttaa minua”. Pyydä Claudea ensin näyttämään, mitä väitteitä aineisto tukee, mitkä kohdat ovat epäselviä ja mitä se ei pysty lukemaan. Silloin opetus perustuu aineistoon, jonka rajat voit itse tarkistaa.
+Hyödyllinen kierros on **lähteiden tarkistus → vastaus muistista → varmistus → tallennus → kertaus ajallaan**. Tavalliset opetukseen tarkoitetut kehotteet toimivat normaalissa Claude-keskustelussa. Lisäosa yhdistää opiskelutuokion tallennettuihin kortteihin ja kertausaikatauluun.
 
-Tämä lähteisiin rajattu kierros on käytännön vastaus siihen, **miten Claudea käytetään opiskeluun**: tarkista aineisto, vastaa muistista kysymys kerrallaan, säilytä jokaisen korjauksen yhteydessä sitä tukeva lähdekohta ja ota talteen vain ne osaamisaukot, joihin kannattaa palata. Menetelmä toimii tavallisessa Claude-keskustelussa eikä vaadi muistikorttisovellusta.
+> **Sidonnaisuus:** Olen Kirill Markin ja kehitän [Nibomoa](/fi/features/). Artikkelin taustatutkimuksessa ja toimitustyössä on käytetty tekoälyä.
 
-> **Sidonnaisuus:** Olen Kirill Markin ja kehitän [Nibomoa](/fi/features/). Tämän maininnan lisäksi tuote esiintyy vain jäljempänä olevassa valinnaisessa korttien siirtoa käsittelevässä osiossa. Opiskelumenetelmä ei riipu siitä. Artikkelin taustatutkimuksessa ja toimitustyössä on käytetty tekoälyä.
-
-**Tiedot tarkistettu:** 14. syyskuuta 2026.
+**Tiedot tarkistettu:** 22. lokakuuta 2026.
 
 ![Opiskelupöytä, jolla lähdemuistiinpanot yhdistyvät yhteen kysymykseen ja kahteen tarkistettuun osaamisaukkoja harjoittavaan korttiin; epäselvä muistiinpano on siirretty sivuun](/blog/how-to-use-claude-for-studying-v2.png)
 
@@ -35,9 +33,20 @@ Käytä tätä kierrosta yhden luento-osuuden, lukutekstin tai harjoitustehtäv�
 4. Vastaa muistista yhteen kysymykseen kerrallaan.
 5. Kirjaa korjaus, lähdekohta ja mahdolliset epävarmuudet.
 6. Tarkista tärkeät vastaukset itse.
-7. Säilytä myöhempää harjoittelua tai muistikortteja varten vain ne osaamisaukot, joilla on pidempiaikaista merkitystä.
+7. Tallenna muutama tarkistettu, myöhemminkin tärkeä osaamisaukko muistikorteiksi Nibomoon.
+8. Kertaa tallennetut kortit ajallaan Claudessa tai Nibomo-sovelluksessa.
 
 Järjestyksellä on väliä. Epäselvään lähteeseen perustuva tenttaus tekee epäselvyydestä vain vaikeammin havaittavaa.
+
+## Ota Nibomo käyttöön Claudessa
+
+Avaa [Nibomo-lisäosa](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory) tai siirry kohtaan **Customize → Plugins**, etsi Nibomo ja napsauta **Add**. Jos lisäosa on jo asennettu, varmista, että se on käytössä.
+
+Yhdistä lisäosan mukana tuleva Nibomo-liitin. Seuraa kirjautumisohjeita, kirjaudu Nibomo-tilillesi tai luo tili ja anna Claudelle käyttöoikeus. Valitse haluamasi työtila, kun sitä kysytään. Tällä tavalla käyttöönotto ei vaadi API-tunnisteen kopioimista tai palvelimen URL-osoitteen syöttämistä.
+
+Lisäosa tarjoaa korttien luomisen, kertaamisen ja parantamisen työnkulut. Sen MCP-liitin on yhteys, jonka kautta Claude voi lukea ja päivittää Nibomo-tilisi tietoja. Löydät [liittimen myös Clauden hakemistosta](https://claude.ai/directory/nibomo). [Claude-yhteyden käyttöönotto-ohjeemme](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (englanniksi) ja [MCP-liittimen dokumentaatio](/fi/docs/mcp-connector/) kertovat yhteydestä tarkemmin.
+
+Anthropic tarjoaa tällä hetkellä [lisäosat Pro-, Max-, Team- ja Enterprise-tilaajille](https://support.claude.com/en/articles/13837440-use-plugins-in-claude) Clauden verkkoversiossa, Claude Desktopin Chat-välilehdellä ja Coworkissa. Jos tililläsi ei ole lisäosia, voit silti käyttää alla olevia opetuskehotteita ja kopioida valitut kortit kertausohjelmaasi käsin.
 
 ## Tarkista kurssin säännöt ennen ensimmäisen tiedoston lataamista
 
@@ -58,9 +67,9 @@ Pidä varsinainen työ omana työnäsi. Oman yrityksen jälkeen saatu palaute vo
 
 Yksittäinen keskustelu riittää lyhyeen opiskelutuokioon. Pidempää kurssia varten voit luoda yhden Claude-projektin ja lisätä siihen vain kyseisen kurssin aineistot.
 
-[Claude-projektit](https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects) ovat kaikkien käyttäjien saatavilla. Free-tileillä raja on tällä hetkellä viisi projektia. Projektin tietopohjaan lisätyt tiedostot ja ohjeet säilyvät siellä ja ovat käytettävissä uudelleen saman projektin keskusteluissa. Tavallisen keskustelun konteksti ei siirry automaattisesti muihin keskusteluihin, ellet lisää tarvittavaa aineistoa projektin tietopohjaan.
+[Claude-projektit](https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects) ovat kaikkien käyttäjien saatavilla. Free-tileillä raja on tällä hetkellä viisi projektia. Lisää kurssin varsinaiset lähdetiedostot ja opiskeluohjeet projektin tietopohjaan, jotta ne ovat käytettävissä sen eri keskusteluissa.
 
-Pelkkä kahden keskustelun sijoittaminen samaan projektiin ei tuo ensimmäisen keskustelun kaikkia yksityiskohtia toisen keskustelun käyttöön.
+Kun muisti on käytössä, projekti voi myös välittää muistettua asiayhteyttä keskustelujen välillä. Käsittele muistia opiskelun taustatietona, älä luotettavana keskustelutallenteena tai lähdetiedostojen korvikkeena. Säilytä uudelleen tarvitsemasi lähdetuki ja korjaukset projektin tietopohjassa ja pyydä Claudea viittaamaan alkuperäiseen aineistoon.
 
 Clauden [tiedostojen latausohjeessa](https://support.claude.com/en/articles/8241126-upload-files-to-claude) luetellaan tällä hetkellä PDF-, DOCX-, CSV-, TXT-, HTML-, ODT-, RTF-, EPUB-, JSON- ja XLSX-tiedostot sekä JPEG-, PNG-, GIF- ja WebP-kuvat. XLSX-tiedostojen lataaminen edellyttää, että koodin suoritus ja tiedostojen luonti ovat käytössä. Voit liittää tiedoston yhteen keskusteluun tai säilyttää sen projektin Files-osiossa myöhempää käyttöä varten.
 
@@ -69,6 +78,8 @@ Valitse pienin hyödyllinen aineisto: yksi luento, luvun yksi osio tai juuri vä
 Anthropic esitteli [**Learning mode** -tilan Claude for Educationin projekteissa](https://www.anthropic.com/news/introducing-claude-for-education) ohjaavana, sokraattisena opiskelutapana: se pyytää opiskelijaa päättelemään sen sijaan, että antaisi vastaukset heti. Se voi olla käytössäsi, jos yliopistosi tarjoaa Claude for Educationin. Sen ei kuitenkaan pidä olettaa kuuluvan jokaiseen henkilökohtaiseen Claude-tiliin. Seuraavat kehotteet luovat samantapaisen kysymyksiin perustuvan opiskelutuokion tavallisessa keskustelussa.
 
 ## Pyydä Claudea näyttämään epäselvyydet ennen opetusta
+
+Luentokalvolla lukee ”kromosomit erkanevat”, mutta siitä ei selviä, mitkä kromosomit. Jos Claude täydentää aukon huomaamatta yleistiedolla, saatat harjoitella varmalta kuulostavaa vastausta, jolle lähteesi ei koskaan antanut tukea.
 
 Liitä aineisto, määrittele tarkka rajaus ja pyydä ensin lähteiden tarkistusta:
 
@@ -110,10 +121,14 @@ Opeta minua vain siitä aineistosta, jolle lähdekartassa on osoitettu tuki.
 Kysy yksi kysymys kerrallaan ja odota vastaustani. Älä sisällytä kysymykseen
 vihjeitä. Kun olen vastannut:
 1. arvioi vastaus: Oikein, Osittain oikein, Väärin tai Lähde epäselvä;
-2. kerro täsmällisesti, mikä meni oikein ja mitä puuttui;
+2. anna lyhyt palaute paljastamatta koko vastausta;
 3. viittaa vastausta tukevaan tiedostoon ja sivuun, kalvoon tai otsikkoon;
-4. pyydä minua yrittämään vielä kerran ennen kuin näytät koko vastauksen;
+4. jos vastaukseni on osittain oikein tai väärin, anna vihje ja anna minun
+   yrittää uudelleen ennen kuin näytät koko vastauksen;
 5. lisää osaamisaukkolistaan vain todellinen puute.
+
+Jos lähde on epäselvä, merkitse kysymys tarkistettavaksi sen sijaan, että
+pyytäisit minua yrittämään uudelleen.
 
 Vuorottele kysymyksiä, jotka vaativat suoraa mieleenpalautusta, samankaltaisten
 asioiden erottelua tai lyhyttä soveltamista. Älä tee vielä muistikortteja. Lopeta 10 kysymyksen
@@ -151,7 +166,7 @@ Väärin. Sisarkromatidit pysyvät yhdessä anafaasi I:n aikana. Lue nuo kaksi
 lausetta uudelleen: mitkä siirtyvät vastakkaisiin napoihin?
 ```
 
-Uuden yrityksen jälkeen Claude voi selittää, miten tämä eroaa anafaasi II:sta. Selitys kuuluu opetuskeskusteluun. Myöhemmin kerrattava osaamisaukko on pienempi:
+Jos antamasi aineisto käsittelee myös anafaasi II:ta, Claude voi vertailla näitä kahta uuden yrityksen jälkeen. Selitys kuuluu opetuskeskusteluun. Myöhemmin kerrattava osaamisaukko on pienempi:
 
 ```text
 Etupuoli: Mitkä erkanevat meioosin anafaasi I:n aikana?
@@ -218,17 +233,69 @@ ja ehdota sopivaa harjoitusta. Älä tallenna vielä mitään.
 
 Jätä loput pois. Opiskelutuokio Clauden kanssa voi olla hyödyllinen, vaikka siitä ei syntyisi yhtään korttia.
 
-## Valinnainen vaihe: tallenna ja kertaa valitut kortit
+## Tallenna tarkistetut osaamisaukot Nibomoon
 
-Yksinkertaisin siirto toimii minkä tahansa muistikorttisovelluksen kanssa. Pyydä Claudea palauttamaan vain hyväksytyt kortit tavallisina etupuoli–kääntöpuoli-tekstiosioina, tarkista ne vielä kerran ja kopioi ne tavalliseen kertausjärjestelmääsi.
+Kun olet tarkistanut lähdetuen, pyydä Nibomo-lisäosaa tekemään valituista osaamisaukoista muistikortteja ja tallentamaan ne. Nimeä työtila ja pyydä Claudea tarkistamaan olemassa olevat kortit ennen uusien lisäämistä. Tämä kehote pyytää esikatselun ennen tallentamista:
 
-Jos käytät Nibomoa, voit yhdistää Clauden siihen MCP:n kautta. MCP toimii yhteytenä avustajan ja Nibomon välillä. Pyydä Claudea näyttämään ehdotetut kortit ennen tallentamista ja hyväksy vain ne, jotka haluat säilyttää. Näin valituista heikoista kohdista syntyy kortteja myöhempää kertausta varten.
+```text
+Luo Nibomon avulla enintään 5 muistikorttia yllä olevasta tarkistetusta
+osaamisaukkolistasta. Käytä työtilaa [työtilan nimi]. Jos nimi on epäselvä,
+varmista ennen tallentamista, mistä työtilasta on kyse.
 
-Kun on korttien kertauksen aika, voit käyttää [verkkosovellusta](https://app.nibomo.com/) tai keskustella Clauden tai Codexin kanssa, kun olet yhdistänyt sen Nibomoon MCP:n kautta. Keskustelussa avustaja esittää yhden kysymyksen kerrallaan ja odottaa vastausyritystäsi ennen oikean vastauksen näyttämistä. Arvioit itse, miten hyvin muistit vastauksen, ja avustaja kirjaa arviosi Nibomoon. Nibomo ylläpitää samaa kertausaikataulua riippumatta siitä, kertaatko sovelluksessa vai keskustelussa.
+Tarkista, onko olemassa olevissa korteissa kaksoiskappaleita tai samaa
+muistettavaa asiaa testaavia kortteja. Käytä vain osaamisaukkoja, joille
+tarkistamani aineisto antaa tuen. Testaa yhdessä kortissa yhtä asiaa.
+Tee etupuolesta täsmällinen, pidä kääntöpuoli lyhyenä ja lisää lähdekohta.
 
-> [Yhdistä palveluun Claude](https://claude.ai/directory/nibomo) · [Dokumentaatio](/docs/mcp-connector/)
+Näytä ensin ehdotetut kortit, niiden lähdetuki ja mahdolliset vastaavat kortit.
+Odota hyväksyntääni ennen tallentamista. Vahvista tallentamisen jälkeen,
+mitä luotiin ja mihin.
+```
 
-Yhteyden käyttöönottoon saat apua [Claude-liittimen ohjeesta](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (englanniksi) ja [MCP-liittimen dokumentaatiosta](/docs/mcp-connector/). Voit myös jatkaa korttien kopioimista käsin, jos se sopii sinulle paremmin.
+Esikatselu on tässä kehotteessa asettamasi toive. Voit itse valita, kuinka paljon haluat tarkistaa ennen kuin pyydät Claudea tallentamaan tai muokkaamaan kortteja. Esikatselu ei ole jokaisen lisäosatoiminnon vaatimus.
+
+Muista esimerkin ero: selitys auttoi ymmärtämään meioosia, kun taas tallennettu kortti testaa juuri sitä eroa, jota et muistanut. Pitkästä opetusvastauksesta tarvitsee harvoin tehdä pitkää korttia.
+
+## Kertaa vuorossa olevat muistikortit Claudessa
+
+Uusiin muistiinpanoihin perustuva tenttaus on opetustuokio. Nibomon ajastettu kertaus käyttää jo tallennettuja kortteja ja kirjaa tuloksen, joka vaikuttaa kunkin kortin seuraavaan kertausajankohtaan. Pyydä tätä erikseen:
+
+```text
+Kertaa kanssani Nibomon avulla vuorossa olevia muistikortteja 10 minuutin ajan
+työtilassa [työtilan nimi]. Käytä aikavyöhykkeenäni Europe/Paris.
+
+Näytä yksi kysymys kerrallaan ja odota vastausyritystäni ennen kuin paljastat
+tallennetun vastauksen. Vertaa sitten alkuperäistä yritystäni siihen, anna
+lyhyt palaute ja kirjaa arvio siitä, miten hyvin muistin vastauksen. Kerro,
+minkä arvion kirjasit. Arvioi alkuperäinen yritys, älä vastauksen paljastamisen jälkeen antamaani
+korjattua vastausta. Lopeta, kun aika loppuu tai vuorossa olevia kortteja ei
+enää ole, ja tee yhteenveto Nibomon vahvistamista kertauksista.
+```
+
+Korvaa työtila ja aikavyöhyke omillasi. Claude kertoo tavallisesti arvionsa ja tallentaa sen automaattisesti. Jos haluat valita jokaisen arvion itse, lisää: ”Käytä manuaalista arviointitilaa: paljastettuasi vastauksen odota, että valitsen Again, Hard, Good tai Easy, ennen kuin kirjaat arvion.”
+
+Jos vastaat anafaasi I:tä koskevaan korttiin ”sisarkromatidit”, korjauksen tunnistaminen vastauksen paljastamisen jälkeen ei tee alkuperäisestä yrityksestä oikeaa. Myöhempi kysymys anafaasi II:sta voi testata, erotatko nämä nyt toisistaan. Sen ei pidä parantaa ensimmäistä arviota jälkikäteen.
+
+Voit kerrata myös [Nibomo-sovelluksessa](https://app.nibomo.com/). Vahvistetut kertaukset päivittävät samaa aikataulua sekä sovelluksessa että Claudessa, joten voit vaihdella niiden välillä ylläpitämättä kahta kertaushistoriaa. Pyydä Claudea ilmoittamaan epäonnistuneesta tai vahvistamatta jääneestä kirjauksesta selvästi sen sijaan, että se käsittelisi sitä tallennettuna edistymisenä.
+
+## Paranna kortteja, jotka hämmentävät toistuvasti
+
+Toistuvat virheet voivat paljastaa epämääräisen kysymyksen, liian laajan vastauksen tai puuttuvan ehdon. Pyydä Claudea tutkimaan kortti ennen kuin päättelet tarvitsevasi vain lisää toistoja:
+
+```text
+Tarkista Nibomon avulla kortit, jotka tuntuivat epäselviltä tässä tuokiossa.
+Etsi epämääräisiä etupuolia, useita muistettavia asioita samassa kortissa,
+puuttuvia ehtoja, vailla lähdetukea olevia vastauksia ja kaksoiskappaleita.
+Vertaa korjausehdotuksia yllä olevaan kurssiaineistoon.
+
+Näytä nykyinen kortti ja ehdotettu muutos rinnakkain. Lisää lyhyt perustelu
+ja lähdekohta. Merkitse kohdat, joita aineisto ei ratkaise. Odota hyväksyntääni
+ennen muokkaamista. Älä poista kortteja tai muuta ratkaisematta olevia tietoja.
+```
+
+Säilytä kortti ennallaan, jos kysymys on selkeä etkä vain muistanut vastausta. Jos osaamisaukkoon auttaa kaavio tai toinen esimerkkiratkaisu, palaa opetuskeskusteluun tai suoraan harjoitteluun.
+
+Jos haluat kopioida kortit käsin, pyydä Claudea palauttamaan hyväksytyt kortit tavallisina etupuoli–kääntöpuoli-tekstiosioina ja lisää ne tavalliseen muistikorttisovellukseesi. Lähteiden tarkistaminen ja vastausyrityksestä alkava opetus toimivat silloinkin.
 
 ## Missä Claude tarvitsee edelleen valvontaa
 
@@ -252,8 +319,10 @@ Tarkista ennen tuokion lopettamista, että:
 - jokainen korjaus viittaa lähdekohtaan, jonka avasit itse;
 - ulkopuolinen tieto on merkitty erilleen kurssiaineistosta;
 - ratkaisemattomista epävarmuuksista ei syntynyt muistikortteja;
-- jäljelle jäi vain muutama myöhemminkin tärkeä osaamisaukko;
-- jokainen liittimen kirjoitustoiminto esikatseltiin ja hyväksyttiin;
-- tiedät, miten palaat kuhunkin valittuun osaamisaukkoon.
+- vain muutama tarkistettu, myöhemminkin tärkeä osaamisaukko tallennettiin korteiksi;
+- kortit tallennettiin haluttuun työtilaan ilman tarpeettomia kaksoiskappaleita;
+- valitsit automaattisen tai manuaalisen arvioinnin ajastettuihin kertauksiin;
+- arviot perustuvat alkuperäisiin vastausyrityksiisi ja kirjatut kertaukset vahvistettiin;
+- tiedät, mihin palaat seuraavaa ajastettua kertausta varten.
 
 Hyödyllinen **Claude-tutori** tekee muutakin kuin selittää. Se näyttää, mihin lähdeaineisto riittää, odottaa, kun palautat vastauksen mieleesi, ja jättää lyhyen kirjauksen siitä, missä osaaminen petti. Juuri tämä kirjaus tekee opiskelutavasta toistamisen arvoisen, ei keskustelun pituus.

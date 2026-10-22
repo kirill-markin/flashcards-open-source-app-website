@@ -2,7 +2,7 @@
 title: "Sådan bruger du Claude til at studere i 2026: en praktisk arbejdsgang"
 description: "Studér med Claude ud fra dine egne noter, besvar ét spørgsmål ad gangen, kontrollér rettelser, og lav flashcards af svage punkter inden for fagets AI-regler."
 date: "2026-05-28"
-updated: "2026-10-03"
+updated: "2026-10-22"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "sådan bruger du Claude til at studere"
@@ -13,15 +13,13 @@ keywords:
   - "Claude Learning Mode"
 ---
 
-På et forelæsningsslide står der, at ”kromosomerne adskilles”, uden at det fremgår, hvilke kromosomer der er tale om. Hvis Claude stiltiende udfylder hullet med generel viden, kan du ende med at øve et skråsikkert svar, som din kilde aldrig har underbygget.
+Hvis du vil lære, **hvordan du bruger Claude til at studere**, så begynd med en lille portion af dine noter fra faget. Kontrollér, hvad noterne underbygger, og besvar ét spørgsmål ad gangen, før du får hjælp. Kontrollér rettelserne, og gem derefter de svage punkter, du skal øve igen. Jeg anbefaler [Nibomo-pluginet til Claude](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory) til den sidste del: Det giver Claude arbejdsgange til at oprette flashcards, repetere kort, når det er tid, og forbedre kort, der forvirrer dig.
 
-Den første nyttige prompt er ikke ”stil mig spørgsmål”. Bed Claude om at vise, hvilke påstande materialet underbygger, hvad der er tvetydigt, og hvad det ikke kan læse. Så kan det undervise dig inden for en afgrænsning, du selv kan kontrollere.
+En nyttig arbejdsgang er **kontrollér kilden → svar fra hukommelsen → kontrollér svaret → gem → repetér, når det er tid**. Almindelige tutor-prompter fungerer i en normal Claude-chat; pluginet forbinder sessionen med gemte kort og en repetitionsplan.
 
-Den arbejdsgang, der holder sig til kilderne, er det praktiske svar på, **hvordan du bruger Claude til at studere**: gennemgå materialet, besvar ét spørgsmål ad gangen fra hukommelsen, behold kildegrundlaget ved hver rettelse, og gem kun de svage punkter, der er værd at vende tilbage til. Det fungerer i en almindelig Claude-chat og kræver ingen flashcard-app.
+> **Oplysning om tilknytning:** Jeg hedder Kirill Markin og udvikler [Nibomo](/da/features/). Artiklen er researchet og redigeret med hjælp fra AI.
 
-> **Oplysning om tilknytning:** Jeg hedder Kirill Markin og udvikler [Nibomo](/da/features/). Ud over denne oplysning optræder produktet kun i det valgfrie afsnit nedenfor om at overføre kort; studiemetoden afhænger ikke af det. Artiklen er researchet og redigeret med hjælp fra AI.
-
-**Fakta kontrolleret:** 14. september 2026.
+**Fakta kontrolleret:** 22. oktober 2026.
 
 ![Et studiebord, hvor kildenoter er koblet til ét spørgsmål og to kontrollerede kort om svage punkter, mens en tvetydig note er lagt til side](/blog/how-to-use-claude-for-studying-v2.png)
 
@@ -35,9 +33,20 @@ Brug denne fremgangsmåde til ét afsnit af en forelæsning, en tekst eller et o
 4. Besvar ét spørgsmål ad gangen fra hukommelsen.
 5. Notér rettelsen, placeringen i kilden og eventuel usikkerhed.
 6. Kontrollér selv vigtige svar.
-7. Behold kun svage punkter med varig relevans til senere øvelse eller flashcards.
+7. Gem nogle få kontrollerede svage punkter med varig relevans som flashcards i Nibomo.
+8. Repetér gemte kort, når det er tid ifølge planen, i Claude eller Nibomo-appen.
 
 Rækkefølgen betyder noget. Spørgsmål baseret på en tvetydig kilde gør blot tvetydigheden sværere at opdage.
+
+## Sæt Nibomo op i Claude
+
+Åbn [Nibomo-pluginet](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory), eller gå til **Customize → Plugins**, find Nibomo, og klik på **Add**. Hvis det allerede er installeret, skal du sikre dig, at det er aktiveret.
+
+Tilslut den Nibomo-connector, der følger med pluginet. Følg loginforløbet, log ind på din Nibomo-konto eller opret en, og giv Claude adgang. Vælg det ønskede arbejdsområde, når du bliver spurgt. Denne fremgangsmåde kræver hverken, at du kopierer et API-token eller indtaster en serveradresse.
+
+Pluginet indeholder arbejdsgangene til at oprette, repetere og forbedre kort. Dets MCP-connector er forbindelsen, der lader Claude læse og opdatere din Nibomo-konto. Du kan også finde [connectoren i Claudes katalog](https://claude.ai/directory/nibomo). Vores [vejledning til at forbinde Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (på engelsk) og [dokumentation til MCP-connectoren](/da/docs/mcp-connector/) forklarer forbindelsen nærmere.
+
+Anthropic tilbyder i øjeblikket [plugins på Pro-, Max-, Team- og Enterprise-abonnementer](https://support.claude.com/en/articles/13837440-use-plugins-in-claude), i Claude på nettet, på fanen Chat i Claude Desktop og i Cowork. Hvis din konto ikke har plugins, kan du stadig bruge tutor-prompterne nedenfor og kopiere udvalgte kort manuelt til din repetitionsapp.
 
 ## Undersøg fagets regler før den første upload
 
@@ -58,9 +67,9 @@ Dit eget arbejde skal forblive dit. Feedback efter dit eget forsøg kan være ti
 
 En enkelt chat er nok til en kort studiesession. Til et fag, du følger over længere tid, kan du oprette ét Claude-projekt og kun tilføje det materiale, der hører til faget.
 
-[Claude Projects](https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects) er tilgængeligt for alle brugere. Gratis konti er i øjeblikket begrænset til fem projekter. Filer og instruktioner, der tilføjes projektets vidensgrundlag, bliver gemt dér og kan genbruges på tværs af chats i projektet. Almindelig chatkontekst deles ikke automatisk med andre chats, medmindre du tilføjer det relevante materiale til projektets vidensgrundlag.
+[Claude Projects](https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects) er tilgængeligt for alle brugere. Gratis konti er i øjeblikket begrænset til fem projekter. Tilføj de konkrete filer fra faget og dine studieinstruktioner til projektets vidensgrundlag, så de er tilgængelige på tværs af projektets chats.
 
-At placere to chats i samme projekt gør altså ikke i sig selv alle detaljer fra den første chat tilgængelige i den anden.
+Når hukommelse er aktiveret, kan et projekt også huske kontekst på tværs af samtaler. Brug hukommelsen som baggrund for studierne, ikke som en autoritativ gengivelse af samtalerne eller en erstatning for kildefilerne. Gem det kildegrundlag og de rettelser, du skal genbruge, i projektets vidensgrundlag, og bed Claude om at henvise til originalmaterialet.
 
 Claudes [dokumentation om filuploads](https://support.claude.com/en/articles/8241126-upload-files-to-claude) angiver i øjeblikket PDF, DOCX, CSV, TXT, HTML, ODT, RTF, EPUB, JSON og XLSX samt billeder i JPEG, PNG, GIF og WebP. Upload af XLSX kræver, at kodekørsel og filoprettelse er aktiveret. Du kan vedhæfte en fil til én chat eller gemme den i projektets Files-sektion til genbrug.
 
@@ -69,6 +78,8 @@ Brug den mindste nyttige portion: én forelæsning, ét afsnit i et kapitel elle
 Anthropic introducerede [**Learning mode** i Claude for Education Projects](https://www.anthropic.com/news/introducing-claude-for-education) som en guidet, sokratisk tilgang, der beder studerende om at ræsonnere frem for straks at give dem svarene. Du kan have adgang til den, hvis dit universitet tilbyder Claude for Education, men du bør ikke regne med, at den findes på alle personlige Claude-konti. Prompterne nedenfor skaber en lignende spørgebaseret session i en almindelig chat.
 
 ## Få Claude til at afdække tvetydigheder, før det underviser
+
+På et forelæsningsslide står der måske, at ”kromosomerne adskilles”, uden at det fremgår, hvilke kromosomer der er tale om. Hvis Claude stiltiende udfylder hullet med generel viden, kan du ende med at øve et skråsikkert svar, som din kilde aldrig har underbygget.
 
 Vedhæft materialet, angiv den præcise afgrænsning, og bed først om en gennemgang af kilderne:
 
@@ -109,10 +120,14 @@ Undervis mig kun i det underbyggede materiale i kildeoversigten.
 Stil ét spørgsmål ad gangen, og vent på mit svar. Giv ingen ledetråde i
 spørgsmålet. Når jeg har svaret:
 1. markér svaret som Korrekt, Delvist korrekt, Forkert eller Uklar kilde;
-2. sig præcist, hvad der var rigtigt, og hvad der manglede;
+2. giv kort feedback uden at afsløre hele svaret;
 3. henvis til filen og siden, slidet eller overskriften, der underbygger det;
-4. bed mig om at prøve én gang til, før du viser hele svaret;
+4. hvis svaret er delvist korrekt eller forkert, så giv en ledetråd, og lad mig
+   prøve igen, før du viser hele svaret;
 5. føj kun reelle huller i min forståelse til loggen over svage punkter.
+
+Hvis kilden er uklar, skal du markere spørgsmålet til kontrol i stedet for at
+bede mig om at prøve igen.
 
 Bland direkte genkaldelse, skelnen mellem lignende begreber og korte anvendelsesopgaver.
 Lav ikke flashcards endnu. Stop efter 10 spørgsmål, og vis loggen.
@@ -149,7 +164,7 @@ Forkert. Søsterkromatider forbliver forbundne under anafase I. Se på de to
 sætninger igen: Hvad bevæger sig mod modsatte poler?
 ```
 
-Efter dit nye forsøg kan Claude forklare, hvordan det adskiller sig fra anafase II. Den forklaring hører hjemme i undervisningssamtalen. Det svage punkt, du skal arbejde videre med, er mindre:
+Hvis det udleverede materiale også dækker anafase II, kan Claude sammenligne de to efter dit nye forsøg. Den forklaring hører hjemme i undervisningssamtalen. Det svage punkt, du skal arbejde videre med, er mindre:
 
 ```text
 Forside: Hvad adskilles under meiosens anafase I?
@@ -216,17 +231,70 @@ noget endnu.
 
 Kassér resten. En studiesession med Claude kan være nyttig, selv om den ikke giver nogen kort.
 
-## Valgfrit: Gem og repetér udvalgte kort
+## Gem kontrollerede svage punkter i Nibomo
 
-Den enkleste overførsel fungerer med enhver flashcard-app. Bed Claude om kun at returnere de godkendte kort som almindelige tekstblokke med forside og bagside, kontrollér dem én gang til, og kopiér dem ind i dit sædvanlige repetitionssystem.
+Når du har kontrolleret kildegrundlaget, kan du bede Nibomo-pluginet om at lave gemte kort af udvalgte huller. Angiv arbejdsområdet, og få Claude til at se efter eksisterende kort, før det tilføjer flere. Denne prompt beder om en forhåndsvisning før lagring:
 
-Hvis du bruger Nibomo, kan du forbinde Claude via MCP, som er forbindelsen mellem assistenten og Nibomo. Bed Claude om at vise de foreslåede kort, og gem dem først, når du har godkendt dem. Så bliver de udvalgte svage punkter til kort, du kan vende tilbage til.
+```text
+Brug Nibomo til at oprette op til 5 flashcards ud fra den kontrollerede log over
+svage punkter ovenfor. Brug mit ønskede arbejdsområde: [arbejdsområdets navn].
+Hvis navnet er tvetydigt, skal du afklare, hvilket arbejdsområde det er, før du gemmer.
 
-Når det er tid til repetition, kan du bruge [webappen](https://app.nibomo.com/) eller en chat med Claude eller Codex, som du har forbundet til Nibomo via MCP. I chatten viser assistenten ét spørgsmål ad gangen og venter på dit forsøg, før den afslører svaret. Du vurderer selv, hvor godt du huskede det, og assistenten registrerer din vurdering i Nibomo. Nibomo holder styr på den samme repetitionsplan, uanset om du øver i appen eller i chatten.
+Se efter eksisterende dubletter eller kort, der tester det samme.
+Brug kun huller, der er underbygget af det kildegrundlag, jeg har kontrolleret.
+Lad hvert kort teste én ting med en konkret forside, en kort bagside og en
+placering i kilden.
 
-> [Forbind til Claude](https://claude.ai/directory/nibomo) · [Dokumentation](/docs/mcp-connector/)
+Vis mig først de foreslåede kort, deres kildegrundlag og eventuelle matchende
+dubletter. Vent på min godkendelse, før du gemmer. Bekræft bagefter, hvad der
+blev oprettet, og hvor.
+```
 
-Se [vejledningen til Claude-connectoren](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (på engelsk) og [MCP-connectorens dokumentation](/docs/mcp-connector/) for hjælp til at oprette forbindelsen. Manuel kopiering er stadig en mulighed, hvis du foretrækker det.
+Forhåndsvisningen er en præference, du angiver i denne prompt. Du kan vælge, hvor meget du vil gennemgå, før du beder Claude om at gemme eller redigere kort; det er ikke et krav ved enhver handling med pluginet.
+
+Bevar skellet fra eksemplet: Forklaringen hjalp dig med at forstå meiosen, mens det gemte kort tester den bestemte forskel, du overså. Et langt tutorsvar behøver sjældent at blive til et langt kort.
+
+## Repetér planlagte flashcards i Claude
+
+En quiz om nyligt uploadede noter er en undervisningssession. En planlagt repetition i Nibomo bruger kort, du allerede har gemt, og registrerer et resultat, der påvirker, hvornår hvert kort kommer igen. Bed udtrykkeligt om det:
+
+```text
+Brug Nibomo til at repetere de flashcards, der står til repetition nu, i
+10 minutter i [arbejdsområdets navn]. Brug Europe/Paris som min tidszone.
+
+Vis ét spørgsmål ad gangen, og vent på mit forsøg, før du afslører det gemte
+svar. Sammenlign derefter mit oprindelige forsøg med svaret, giv kort feedback,
+og registrér den passende vurdering af, hvor godt jeg huskede det. Fortæl mig,
+hvilken vurdering du registrerede. Bedøm mit oprindelige forsøg, ikke et rettet
+svar, jeg giver efter afsløringen. Stop, når tiden er gået, eller der ikke er
+flere kort til repetition nu, og opsummér de repetitioner, Nibomo har bekræftet.
+```
+
+Erstat arbejdsområdet og tidszonen med dine egne. Claude oplyser normalt sin vurdering og registrerer den automatisk. Hvis du selv vil vælge hver vurdering, så tilføj: ”Brug manuel vurdering: Når du har afsløret svaret, skal du vente på, at jeg vælger Again, Hard, Good eller Easy, før du registrerer det.”
+
+Hvis du svarer ”søsterkromatider” på kortet om anafase I, bliver det oprindelige forsøg ikke korrekt af, at du genkender rettelsen, efter at svaret er afsløret. Et senere spørgsmål om anafase II kan teste, om du nu skelner mellem de to; det bør ikke forbedre den første vurdering med tilbagevirkende kraft.
+
+Du kan også repetere i [Nibomo-appen](https://app.nibomo.com/). Bekræftede repetitioner opdaterer den samme plan, hvad enten de foregår i appen eller i Claude, så du kan skifte mellem dem uden at vedligeholde to repetitionshistorikker. Bed Claude om tydeligt at oplyse, hvis en registrering mislykkes eller ikke er bekræftet, frem for at behandle den som gemt fremgang.
+
+## Forbedr kort, der bliver ved med at forvirre dig
+
+Gentagne fejl kan afsløre et uklart spørgsmål, et overfyldt svar eller en manglende betingelse. Bed Claude om at gennemgå kortet, før du konkluderer, at du bare har brug for flere repetitioner:
+
+```text
+Brug Nibomo til at gennemgå de kort, jeg fandt forvirrende i denne session.
+Se efter uklare forsider, flere ting at huske på samme kort, manglende
+betingelser, svar uden kildebelæg og dubletter. Sammenhold de foreslåede
+rettelser med kildegrundlaget fra faget ovenfor.
+
+Vis det nuværende kort og den foreslåede ændring side om side med en kort
+begrundelse og en placering i kilden. Markér alt, som kildegrundlaget ikke kan
+afgøre. Vent på min godkendelse, før du redigerer; slet ikke kort, og ændr ikke
+uafklarede fakta.
+```
+
+Lad kortet stå uændret, hvis spørgsmålet er klart, og du blot ikke kunne huske svaret. Vend tilbage til undervisning eller praktisk øvelse ved huller, der kræver et diagram eller endnu en gennemgået opgave.
+
+Hvis du foretrækker manuel kopiering, så bed Claude om de godkendte kort som almindelige tekstblokke med forside og bagside, og føj dem til din sædvanlige flashcard-app. Kontrollen af kilderne og undervisning med spørgsmål først gælder stadig.
 
 ## Hvor Claude stadig har brug for opsyn
 
@@ -250,8 +318,10 @@ Før du afslutter sessionen, skal du kontrollere, at:
 - hver rettelse peger på kildegrundlag, du selv har åbnet;
 - viden udefra er mærket særskilt fra fagets materiale;
 - uafklaret usikkerhed ikke er blevet til et flashcard;
-- kun nogle få svage punkter med varig relevans er tilbage;
-- alle skrivehandlinger via en connector er blevet forhåndsvist og godkendt;
-- du har en plan for at vende tilbage til hvert udvalgt svagt punkt.
+- kun nogle få kontrollerede svage punkter med varig relevans er blevet til gemte kort;
+- kortene blev gemt i det ønskede arbejdsområde uden unødvendige dubletter;
+- du har valgt automatiske eller manuelle vurderinger til planlagte repetitioner;
+- vurderingerne afspejler dit oprindelige forsøg, og de registrerede repetitioner er bekræftet;
+- du ved, hvor du skal vende tilbage til den næste planlagte repetition.
 
 En nyttig **Claude-tutor** gør mere end at forklare. Den viser, hvor kilden stopper, venter, mens du genkalder svaret, og efterlader en kort oversigt over, hvad der faktisk gik galt. Det er den oversigt, og ikke chattens længde, der gør arbejdsgangen med Claude værd at gentage.

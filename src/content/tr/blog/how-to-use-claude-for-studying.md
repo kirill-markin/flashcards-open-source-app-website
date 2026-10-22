@@ -2,7 +2,7 @@
 title: "2026'da Claude ile Nasıl Ders Çalışılır? Uygulanabilir Bir Yöntem"
 description: "Claude ile kendi notlarınızdan çalışın, soruları tek tek yanıtlayın, düzeltmeleri doğrulayın ve dersinizin yapay zekâ kurallarına uyarak eksiklerinizi bilgi kartlarına dönüştürün."
 date: "2026-05-28"
-updated: "2026-10-03"
+updated: "2026-10-22"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "Claude ile nasıl ders çalışılır"
@@ -13,15 +13,13 @@ keywords:
   - "Claude öğrenme modu"
 ---
 
-Bir ders slaytında “kromozomlar ayrılır” yazıyor, ama hangilerinin ayrıldığı belirtilmiyor. Claude bu boşluğu size söylemeden genel bilgisiyle doldurursa, kaynağınızın hiç ortaya koymadığı bir yanıtı kesin bir bilgiymiş gibi tekrar etmeye başlayabilirsiniz.
+**Claude ile nasıl ders çalışılır?** diye merak ediyorsanız, ders notlarınızın küçük bir bölümüyle başlayın. Bu notların hangi bilgileri desteklediğini kontrol edin ve yardım almadan önce soruları tek tek yanıtlayın. Düzeltmeleri doğrulayın, ardından yeniden çalışmanız gereken eksiklerinizi kaydedin. Son adım için [Claude için Nibomo eklentisini](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory) öneriyorum: Claude'a bilgi kartı oluşturma, tekrar zamanı gelen kartları çalışma ve kafanızı karıştıran kartları iyileştirme iş akışları sağlar.
 
-İşe yarayan ilk komut “bana soru sor” değil. Önce Claude'dan materyalin hangi iddiaları desteklediğini, hangi kısımların belirsiz olduğunu ve neleri okuyamadığını göstermesini isteyin. Böylece size, sınırlarını kontrol edebildiğiniz bir kaynak üzerinden rehberlik edebilir.
+İşe yarayan döngü şu: **kaynağı kontrol et → hafızadan yanıtla → doğrula → kaydet → zamanı gelince tekrar et**. Aşağıdaki öğretici komutlar sıradan bir Claude sohbetinde kullanılabilir; eklenti ise bu oturumu kaydedilmiş kartlara ve bir tekrar takvimine bağlar.
 
-**Claude ile nasıl ders çalışılır?** sorusunun pratik yanıtı, kaynağın sınırları içinde kalan bu döngüdür: materyali inceleyin, soruları tek tek hafızanızdan yanıtlayın, her düzeltmenin yanına kanıtını koyun ve yalnızca yeniden çalışmaya değer eksiklerinizi saklayın. Bu yöntem sıradan bir Claude sohbetinde uygulanabilir; bilgi kartı uygulaması gerektirmez.
+> **Açıklama:** Ben Kirill Markin, [Nibomo](/tr/features/)'yu geliştiriyorum. Bu yazının araştırma ve düzenleme aşamalarında yapay zekâdan yararlanıldı.
 
-> **Açıklama:** Ben Kirill Markin, [Nibomo](/tr/features/)'yu geliştiriyorum. Ürün, bu açıklama dışında yalnızca aşağıdaki isteğe bağlı aktarım bölümünde yer alıyor; ders çalışma yöntemi ürüne bağlı değil. Bu yazının araştırma ve düzenleme aşamalarında yapay zekâdan yararlanıldı.
-
-**Bilgilerin kontrol edildiği tarih:** 14 Eylül 2026.
+**Bilgilerin kontrol edildiği tarih:** 22 Ekim 2026.
 
 ![Kaynak notlarını bir soruya ve doğrulanmış iki eksik konu kartına bağlayan, belirsiz bir notun kenara ayrıldığı çalışma masası](/blog/how-to-use-claude-for-studying-v2.png)
 
@@ -35,9 +33,20 @@ Bir ders bölümü, okuma metni veya alıştırma seti için şu döngüyü uygu
 4. Soruları tek tek hafızanızdan yanıtlayın.
 5. Düzeltmeyi, kaynaktaki yerini ve varsa belirsizliği kaydedin.
 6. Önemli yanıtları kendiniz doğrulayın.
-7. Yalnızca uzun vadede önemli olan eksiklerinizi daha sonra çalışmak veya bilgi kartına dönüştürmek için saklayın.
+7. Doğruladığınız ve uzun vadede önemli olan birkaç eksiğinizi Nibomo’da bilgi kartı olarak kaydedin.
+8. Kaydedilmiş kartları tekrar zamanı geldiğinde Claude’da veya Nibomo uygulamasında çalışın.
 
 Sıralama önemli. Belirsiz bir kaynaktan soru çözmek, belirsizliği fark etmeyi daha da zorlaştırır.
+
+## Claude’da Nibomo’yu kurun
+
+[Nibomo eklentisini](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory) açın veya **Customize → Plugins** bölümüne gidip Nibomo’yu bulun ve **Add** düğmesine tıklayın. Zaten kuruluysa etkin olduğundan emin olun.
+
+Eklentiyle birlikte gelen Nibomo bağlayıcısıyla bağlantıyı kurun. Oturum açma adımlarını izleyin, Nibomo hesabınıza giriş yapın veya bir hesap oluşturun ve Claude’a erişim izni verin. Sorulduğunda kullanmak istediğiniz çalışma alanını seçin. Bu yol için API belirteci kopyalamanız veya sunucu adresi girmeniz gerekmez.
+
+Eklenti, kart oluşturma, tekrar ve iyileştirme iş akışlarını sağlar. MCP bağlayıcısı ise Claude’un Nibomo hesabınızı okuyup güncellemesini sağlayan bağlantıdır. [Bağlayıcıyı Claude dizininde](https://claude.ai/directory/nibomo) de bulabilirsiniz. [Claude bağlantı rehberimiz](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (İngilizce) ve [MCP bağlayıcısı başvuru belgesi](/tr/docs/mcp-connector/) bu bağlantıyı daha ayrıntılı açıklar.
+
+Anthropic şu anda eklentileri [Pro, Max, Team ve Enterprise planlarında](https://support.claude.com/en/articles/13837440-use-plugins-in-claude), Claude’un web sürümünde, Claude Desktop’ın Chat sekmesinde ve Cowork’te sunuyor. Hesabınızda eklentiler yoksa aşağıdaki öğretici komutları yine kullanabilir ve seçtiğiniz kartları tekrar uygulamanıza elle kopyalayabilirsiniz.
 
 ## İlk dosyayı yüklemeden önce dersin kurallarını kontrol edin
 
@@ -58,9 +67,9 @@ Asıl çalışma size ait olsun. Kendi denemenizden sonra geri bildirim almak, i
 
 Kısa bir çalışma oturumu için tek seferlik bir sohbet yeterli. Dönem boyunca süren bir ders için bir Claude Project oluşturun ve yalnızca o derse ait materyalleri ekleyin.
 
-[Claude Projects](https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects) tüm kullanıcılara açık; Free hesapları şu anda beş projeyle sınırlı. Proje bilgisine eklenen dosyalar ve talimatlar, o projedeki sohbetlerde yeniden kullanılmak üzere saklanır. İlgili materyali proje bilgisine eklemedikçe, normal bir sohbetin bağlamı diğer sohbetlerle otomatik olarak paylaşılmaz.
+[Claude Projects](https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects) tüm kullanıcılara açık; Free hesapları şu anda beş projeyle sınırlı. Kullanacağınız ders dosyalarını ve çalışma talimatlarını projenin bilgi bölümüne (Project knowledge) ekleyin; böylece o projedeki sohbetlerde kullanılabilirler.
 
-İki sohbeti aynı projeye koymak, ilk sohbetteki her ayrıntıyı kendiliğinden ikinci sohbette kullanılabilir hâle getirmez.
+Bellek etkin olduğunda Project, hatırlanan bağlamı sohbetler arasında da taşıyabilir. Bu belleği çalışma bağlamı olarak kullanın; eksiksiz ve güvenilir bir sohbet dökümü veya kaynak dosyaların yerine geçen bir kayıt olarak görmeyin. Yeniden kullanmanız gereken kanıtları ve düzeltmeleri Project knowledge bölümünde saklayın ve Claude’dan özgün materyale atıf yapmasını isteyin.
 
 Claude'un [dosya yükleme belgeleri](https://support.claude.com/en/articles/8241126-upload-files-to-claude) şu anda PDF, DOCX, CSV, TXT, HTML, ODT, RTF, EPUB, JSON ve XLSX dosyalarını; ayrıca JPEG, PNG, GIF ve WebP görsellerini listeliyor. XLSX yüklemek için kod çalıştırma ve dosya oluşturma özelliklerinin açık olması gerekiyor. Bir dosyayı tek bir sohbete ekleyebilir veya yeniden kullanmak için projenin Files bölümünde saklayabilirsiniz.
 
@@ -69,6 +78,8 @@ Claude'un [dosya yükleme belgeleri](https://support.claude.com/en/articles/8241
 Anthropic, [Claude for Education Projects içinde **Learning mode** özelliğini](https://www.anthropic.com/news/introducing-claude-for-education), yanıtları hemen vermek yerine öğrencileri akıl yürütmeye yönlendiren Sokratik bir öğrenme deneyimi olarak tanıttı. Üniversiteniz Claude for Education sunuyorsa bu özelliğe erişiminiz olabilir, ancak her kişisel Claude hesabında bulunduğunu varsaymayın. Aşağıdaki komutlar, normal bir sohbette benzer biçimde sorularla ilerleyen bir oturum kurar.
 
 ## Konuyu anlatmadan önce belirsizlikleri ortaya çıkarmasını isteyin
+
+Bir ders slaytında “kromozomlar ayrılır” yazıyor, ama hangilerinin ayrıldığı belirtilmiyor. Claude bu boşluğu size söylemeden genel bilgisiyle doldurursa, kaynağınızın hiç ortaya koymadığı bir yanıtı kesin bir bilgiymiş gibi tekrar etmeye başlayabilirsiniz.
 
 Materyali ekleyin, kapsamı tam olarak belirtin ve önce kaynak incelemesi isteyin:
 
@@ -109,10 +120,13 @@ Bana yalnızca kaynak haritasında kaynakla desteklenen materyal üzerinden rehb
 Her seferinde bir soru sor ve yanıtımı bekle. Sorunun içinde ipucu verme.
 Yanıtladıktan sonra:
 1. yanıtı Doğru, Kısmen doğru, Yanlış veya Kaynak belirsiz olarak değerlendir;
-2. neyin doğru, neyin eksik olduğunu açıkça söyle;
+2. tam yanıtı açıklamadan kısa bir geri bildirim ver;
 3. destekleyen dosyayı ve sayfa, slayt veya başlığı belirt;
-4. tam yanıtı göstermeden önce bir kez daha denememi iste;
+4. yanıtım kısmen doğru veya yanlışsa bir ipucu ver ve tam yanıtı göstermeden
+   önce yeniden denememe izin ver;
 5. eksik konular kaydına yalnızca gerçek bir eksiği ekle.
+
+Kaynak belirsizse yeniden denememi istemek yerine soruyu doğrulanmak üzere işaretle.
 
 Doğrudan hatırlama, benzer fikirler arasındaki ayrımlar ve kısa uygulama
 sorularını karıştır. Henüz bilgi kartı oluşturma. 10 sorudan sonra dur ve kaydı göster.
@@ -149,7 +163,7 @@ Yanlış. Anafaz I sırasında kardeş kromatitler birbirine bağlı kalır. İk
 tekrar kontrol et: zıt kutuplara hareket eden ne?
 ```
 
-Yeniden denedikten sonra Claude bunun anafaz II'den nasıl farklı olduğunu açıklayabilir. Bu açıklama, ders çalışma sohbetinde kalmalı. Uzun vadede üzerinde durulacak eksik daha küçüktür:
+Verdiğiniz materyal anafaz II’yi de ele alıyorsa Claude, yeniden denedikten sonra iki evreyi karşılaştırabilir. Bu açıklama, ders çalışma sohbetinde kalmalı. Uzun vadede üzerinde durulacak eksik daha küçüktür:
 
 ```text
 Ön yüz: Mayozun anafaz I evresinde ne ayrılır?
@@ -214,19 +228,71 @@ eksikleri uygun birer alıştırmayla ayrı bir listeye koy. Henüz hiçbir şey
 
 Geri kalanını eleyin. Claude ile bir çalışma oturumu, hiç kart üretmese de yararlı olabilir.
 
-## İsteğe bağlı: kartları kaydedin, uygulamada veya sohbette tekrar edin
+## Doğrulanmış eksiklerinizi Nibomo’ya kaydedin
 
-En basit aktarım yolu her bilgi kartı uygulamasıyla çalışır. Claude’dan yalnızca onayladığınız kartları sade ön yüz/arka yüz blokları olarak vermesini isteyin, bir kez daha kontrol edin ve alıştığınız tekrar sistemine kopyalayın.
+Kanıtları kontrol ettikten sonra Nibomo eklentisinden seçtiğiniz eksikleri kaydedilmiş kartlara dönüştürmesini isteyin. Çalışma alanını belirtin ve yeni kart eklemeden önce mevcut kartları kontrol ettirin. Kaydetmeden önce önizleme isteyen bir komut örneği:
 
-Nibomo kullanıyorsanız Claude’u MCP üzerinden bağlayıp onayladığınız kartları kaydetmesini isteyebilirsiniz. Burada MCP, asistan ile Nibomo arasındaki bağlantıdır. Kaydetmesini istemeden önce kartların içeriğini ve nereye kaydedileceğini kontrol edin.
+```text
+Yukarıdaki doğrulanmış eksik konular kaydından Nibomo ile en fazla 5 bilgi kartı oluştur.
+Kullanmak istediğim çalışma alanı: [çalışma alanı adı]. Ad belirsizse kaydetmeden
+önce hangi çalışma alanı olduğunu netleştir.
 
-Kartların tekrar zamanı geldiğinde [Nibomo uygulamasını](https://app.nibomo.com/) açabilir veya MCP üzerinden Nibomo’ya bağladığınız Claude ya da Codex ile sohbette çalışabilirsiniz. Sohbette asistandan her seferinde tek bir soru sormasını, yanıtlamayı denemenizi beklemesini ve ancak sonra yanıtı göstermesini isteyin. Yanıtı gördükten sonra ne kadar iyi hatırladığınızı siz değerlendirin; asistan seçtiğiniz tekrar değerlendirmesini Nibomo’ya kaydeder.
+Mevcut kartlarda yinelenen veya aynı bilgiyi sınayan kartlar olup olmadığını
+kontrol et. Yalnızca kontrol ettiğim kanıtlarla desteklenen eksikleri kullan.
+Her kartta tek bir bilgiyi sına; ön yüzü belirgin, arka yüzü kısa tut ve kaynağın
+konumunu ekle.
 
-Nibomo, ister uygulamada ister sohbette çalışmış olun, bu değerlendirmelerle sonraki tekrarları planlar. Böylece aynı tekrar takvimini koruyarak uygulama ile sohbet arasında geçiş yapabilirsiniz.
+Önce önerdiğin kartları, kanıtlarını ve benzer ya da yinelenen kartları göster.
+Kaydetmeden önce onayımı bekle. Kaydettikten sonra hangi kartların hangi çalışma alanında oluşturulduğunu
+teyit et.
+```
 
-> [Claude ile bağlan](https://claude.ai/directory/nibomo) · [Dokümantasyon](/docs/mcp-connector/)
+Önizleme, bu komutla belirlediğiniz bir tercihtir. Claude’dan kartları kaydetmesini veya düzenlemesini istemeden önce ne kadar inceleme yapmak istediğinizi seçebilirsiniz; her eklenti işlemi için önizleme zorunlu değildir.
 
-Bağlantıyı kurmak için [adım adım Claude bağlayıcısı rehberine](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (İngilizce) ve [MCP bağlayıcısı başvuru belgesine](/docs/mcp-connector/) bakın. Asistanı bağlamak istemiyorsanız kartları elle kopyalamaya devam edebilirsiniz.
+Uygulamalı örnekteki ayrımı koruyun: açıklama mayozu anlamanıza yardımcı oldu; kaydedilen kart ise karıştırdığınız belirli ayrımı sınar. Uzun bir öğretici yanıtın uzun bir karta dönüşmesi nadiren gerekir.
+
+## Tekrar zamanı gelen bilgi kartlarını Claude’da çalışın
+
+Yeni yüklenen notlarla yapılan soru-cevap çalışması bir öğretici oturumdur. Nibomo’da zamanı gelen kartların tekrarı ise önceden kaydettiğiniz kartları kullanır ve her kartın ne zaman yeniden karşınıza çıkacağını etkileyen bir sonuç kaydeder. Bunu açıkça isteyin:
+
+```text
+Nibomo ile [çalışma alanı adı] içindeki tekrar zamanı gelmiş bilgi kartlarımı
+bana tek tek sorarak 10 dakika boyunca tekrar yapmamı sağla.
+Saat dilimim olarak Europe/Paris kullan.
+
+Her seferinde bir soru göster ve kayıtlı yanıtı açıklamadan önce benim yanıtlamayı
+denememi bekle. Ardından ilk denememi bu yanıtla karşılaştır, kısa bir geri
+bildirim ver ve hatırlama düzeyime uygun değerlendirmeyi kaydet. Hangi
+değerlendirmeyi kaydettiğini söyle. Yanıtı gördükten sonra verdiğim düzeltilmiş
+yanıtı değil, ilk denememi değerlendir.
+Süre dolduğunda veya tekrar zamanı gelen kart kalmadığında dur ve Nibomo’nun
+kaydedildiğini teyit ettiği tekrarları özetle.
+```
+
+Çalışma alanını ve saat dilimini kendinize göre değiştirin. Claude normalde değerlendirmesini söyler ve otomatik olarak kaydeder. Her değerlendirmeyi kendiniz seçmek istiyorsanız şunu ekleyin: “Manuel değerlendirme modunu kullan: yanıtı açıkladıktan sonra kaydetmeden önce Again, Hard, Good veya Easy seçeneklerinden birini seçmemi bekle.”
+
+Anafaz I kartına “kardeş kromatitler” yanıtını verirseniz, yanıt açıklandıktan sonra düzeltmeyi tanımak ilk denemenizi doğru yapmaz. Daha sonra sorulan bir anafaz II sorusu, iki evreyi artık ayırt edip edemediğinizi sınayabilir; ilk değerlendirmenizi geriye dönük olarak yükseltmemelidir.
+
+[Nibomo uygulamasında](https://app.nibomo.com/) da tekrar yapabilirsiniz. Kaydedildiği teyit edilen tekrarlar, ister uygulamada ister Claude’da yapılmış olsun, aynı takvimi günceller. Böylece iki ayrı tekrar geçmişi tutmadan aralarında geçiş yapabilirsiniz. Claude’dan başarısız veya kaydedildiği teyit edilmemiş bir işlemi kaydedilmiş ilerleme saymak yerine açıkça bildirmesini isteyin.
+
+## Kafanızı karıştıran kartları iyileştirin
+
+Tekrarlayan yanlışlar, muğlak bir soruyu, fazla bilgi içeren bir yanıtı veya eksik bir koşulu ortaya çıkarabilir. Yalnızca daha fazla tekrar gerektiğine karar vermeden önce Claude’dan kartı incelemesini isteyin:
+
+```text
+Bu oturumda kafa karıştırıcı bulduğum kartları Nibomo ile denetle. Muğlak ön
+yüzleri, birden fazla bilgiyi sınayan kartları, eksik koşulları, kaynakla
+desteklenmeyen yanıtları ve yinelenen kartları kontrol et. Önerilen düzeltmeleri
+yukarıdaki ders kanıtlarıyla karşılaştır.
+
+Mevcut kartı ve önerilen değişikliği kısa bir gerekçe ve kaynak konumuyla birlikte
+yan yana göster. Kanıtların kesinleştiremediği her şeyi işaretle. Düzenlemeden
+önce onayımı bekle; kartları silme veya belirsizliği giderilmemiş bilgileri değiştirme.
+```
+
+Soru açıksa ve yanıtı yalnızca hatırlayamadıysanız kartı olduğu gibi bırakın. Şekil veya başka bir çözümlü problem gerektiren eksikler için öğretici çalışmaya ya da doğrudan uygulamaya dönün.
+
+Elle kopyalamayı tercih ediyorsanız Claude’dan onayladığınız kartları sade ön yüz/arka yüz blokları olarak isteyin ve alıştığınız bilgi kartı uygulamasına ekleyin. Kaynak kontrolü ve önce sizin yanıtlamanızı bekleyen çalışma yöntemi yine geçerlidir.
 
 ## Claude'un hâlâ gözetim gerektirdiği noktalar
 
@@ -246,12 +312,14 @@ Oturumu bitirmeden önce şunları kontrol edin:
 
 - yapay zekâ kullanımı, bu dersin ve ödevin kurallarına uyuyor;
 - Claude belirsiz, okunamayan veya kaynakla desteklenmeyen her şeyi belirtti;
-- yardım görmeden önce soruları tek tek yanıtladınız;
+- yardım almadan önce soruları tek tek yanıtladınız;
 - her düzeltme, kendiniz açıp baktığınız bir kanıta işaret ediyor;
 - dış bilgi, ders materyalinden ayrı olarak etiketlendi;
 - çözülmemiş belirsizlikler bilgi kartına dönüşmedi;
-- yalnızca uzun vadede önemli olan birkaç eksik kaldı;
-- bağlayıcı üzerinden yapılan her yazma işlemi önce önizlendi ve onaylandı;
-- seçtiğiniz her eksiğe yeniden dönmek için bir planınız var.
+- doğruladığınız ve uzun vadede önemli olan yalnızca birkaç eksik kaydedilmiş kartlara dönüştü;
+- kartlar gereksiz yinelemeler olmadan doğru çalışma alanına kaydedildi;
+- zamanı gelen tekrarlar için otomatik veya manuel değerlendirmeyi seçtiniz;
+- değerlendirmeler ilk denemenizi yansıtıyor ve tekrarların kaydedildiği teyit edildi;
+- sıradaki planlı tekrar için nereye döneceğinizi biliyorsunuz.
 
 **Claude'u özel öğretmen olarak** verimli kullandığınızda, açıklama yapmanın ötesine geçer. Kaynağın nerede bittiğini gösterir, siz hatırlamaya çalışırken bekler ve gerçekte nerede takıldığınızı gösteren kısa bir kayıt bırakır. Claude ile ders çalışma yöntemini tekrarlamaya değer kılan, sohbetin uzunluğu değil bu kayıttır.
