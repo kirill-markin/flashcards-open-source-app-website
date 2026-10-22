@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-turn-microsoft-copilot-study-and-learn-into-flashcards.md"
 title: "So machst du 2026 aus Microsoft Copilot Study and Learn sinnvolle Flashcards: Tutor behalten, mit FSRS wiederholen"
 description: "Nutze Microsoft Copilot Study and Learn mit eigenen Word-Dokumenten, PDFs, Folien und URLs und übertrage danach nur die echten Schwachstellen in Nibomo, um sie mit FSRS wiederholt abzurufen."
 date: "2026-06-09"
@@ -73,8 +71,6 @@ Study and Learn ist besonders sinnvoll, wenn dein Lernen ohnehin in Microsoft-ko
 - Quellenlinks aus dem Kursportal
 - Notizen in einer Copilot Page
 
-Wenn dein Ausgangsmaterial vor allem aus Folien oder PDFs besteht, passen diese Begleitartikel direkt dazu: [Wie du 2026 PowerPoint in Flashcards verwandelst](/de/blog/how-to-turn-powerpoint-into-flashcards/) und [Wie du 2026 eine PDF in Flashcards verwandelst](/de/blog/how-to-turn-a-pdf-into-flashcards/).
-
 Das ist ein ganz anderer Ablauf, als irgendwelche Web-Zusammenfassungen in ein Deck zu kippen.
 
 Ich würde Study and Learn ungefähr so nutzen:
@@ -110,8 +106,6 @@ Die meisten geführten Sitzungen enthalten viel Material, das keine Karte verdie
 
 Wenn du all das speicherst, wird das Deck zum nächsten Projekt, das du verwalten musst. Genau dieses Problem wollen viele vermeiden, wenn sie nach KI-Lerntools suchen.
 
-Falls dir die Wiederholungsmenge ohnehin schon entgleitet, lies als Nächstes [Wie du 2026 KI-Flashcard-Overload vermeidest](/de/blog/how-to-avoid-ai-flashcard-overload/).
-
 ## Der Workflow, den ich nach einer Copilot-Sitzung wirklich wiederholen würde
 
 So würde ich das in einer normalen Lernwoche tatsächlich einsetzen:
@@ -129,7 +123,7 @@ Das ist schon das ganze System.
 
 Kein riesiger Transkript-Export. Kein heroischer Versuch, jede Aktivität aufzubewahren. Keine künstliche Vollständigkeit.
 
-Wenn dir diese Übergabe aus anderen tutorartigen Tools bekannt vorkommt, passen diese Begleitartikel direkt dazu: [Wie du 2026 den ChatGPT Study Mode in Flashcards verwandelst](/de/blog/how-to-turn-chatgpt-study-mode-into-flashcards/) und [Wie du 2026 Gemini Guided Learning in Flashcards verwandelst](/de/blog/gemini-guided-learning-to-flashcards/).
+Wenn dir diese Übergabe aus anderen tutorartigen Tools bekannt vorkommt, passt [Wie du 2026 Gemini Guided Learning in Flashcards verwandelst](/de/blog/gemini-guided-learning-to-flashcards/) direkt dazu.
 
 ## Wie eine gute Study-and-Learn-Karte aussieht
 

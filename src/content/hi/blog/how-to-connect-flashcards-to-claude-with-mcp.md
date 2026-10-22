@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-connect-flashcards-to-claude-with-mcp.md"
 title: "MCP के ज़रिए Nibomo Flashcards को Claude से कैसे जोड़ें"
 description: "रिमोट MCP कनेक्टर से Nibomo को Claude Desktop या ब्राउज़र से जोड़ें। जाँचे गए चरण अपनाएँ, टूल की अनुमतियाँ तय करें और अपना पहला फ़्लैशकार्ड सहेजकर देखें।"
 date: "2026-06-23"

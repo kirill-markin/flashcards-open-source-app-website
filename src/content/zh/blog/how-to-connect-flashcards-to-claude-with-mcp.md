@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-connect-flashcards-to-claude-with-mcp.md"
 title: "如何通过 MCP 将 Nibomo 闪卡连接到 Claude"
 description: "通过远程 MCP 连接器，将 Nibomo 连接到 Claude 桌面版或网页版。按照已验证的步骤完成连接、设置工具权限，并尝试保存第一张闪卡。"
 date: "2026-06-23"

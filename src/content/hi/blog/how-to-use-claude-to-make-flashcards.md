@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-use-claude-to-make-flashcards.md"
 title: "2026 में Claude से फ़्लैशकार्ड्स कैसे बनाएं: Projects, File Uploads और FSRS Review"
 description: "2026 के लिए Claude फ़्लैशकार्ड workflow का एक व्यावहारिक तरीका: Projects और file uploads से छोटे, साफ़ card drafts बनाइए, फिर सिर्फ़ काम के cards को Nibomo में ले जाकर असली FSRS review कीजिए।"
 date: "2026-06-11"
@@ -173,7 +171,7 @@ Claude आम तौर पर clear boundaries पर अच्छा respond �
 
 यह pattern इसलिए मायने रखता है क्योंकि Claude शून्य से कोई study system invent नहीं कर रहा होता। वह बस raw material को छोटे retrieval targets में बदलने में मदद कर रहा होता है।
 
-अगर आपका input ज़्यादातर notes हैं, तो [2026 में Notes को Flashcards में कैसे बदलें](/hi/blog/turn-notes-into-flashcards/) cleanup step पर ज़्यादा गहराई से जाता है। अगर आपका input files से शुरू होता है, तो [2026 में PDF को Flashcards में कैसे बदलें](/hi/blog/how-to-turn-a-pdf-into-flashcards/) इसका ज़्यादा क़रीबी companion है।
+अगर आपका input ज़्यादातर notes हैं, तो [2026 में Notes को Flashcards में कैसे बदलें](/hi/blog/turn-notes-into-flashcards/) cleanup step पर ज़्यादा गहराई से जाता है।
 
 ## जो cards अब भी Claude जैसी लगती हैं, उन्हें काट दीजिए
 

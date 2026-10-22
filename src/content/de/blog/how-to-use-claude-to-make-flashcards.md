@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-use-claude-to-make-flashcards.md"
 title: "So erstellst du 2026 mit Claude Lernkarten: Projects, Datei-Uploads und FSRS-Wiederholung"
 description: "Ein praktischer Claude-Flashcards-Workflow für 2026: Nutze Projects und Datei-Uploads für kleinere, sauberere Kartenentwürfe und verschiebe dann nur die brauchbaren Karten in Nibomo für echte FSRS-Wiederholung."
 date: "2026-06-11"
@@ -171,7 +169,7 @@ Die stärksten Fälle sind:
 
 Das Muster ist wichtig, weil Claude hier kein Lernsystem aus dem Nichts erfindet. Es hilft dir, rohes Material in engere Abrufziele zu verwandeln.
 
-Wenn dein Input hauptsächlich aus Notizen besteht, geht [Wie du 2026 Notizen in Flashcards verwandelst](/de/blog/turn-notes-into-flashcards/) tiefer auf den Bereinigungsschritt ein. Wenn dein Input als Datei beginnt, ist [Wie du 2026 eine PDF in Flashcards verwandelst](/de/blog/how-to-turn-a-pdf-into-flashcards/) der passendere Begleitartikel.
+Wenn dein Input hauptsächlich aus Notizen besteht, geht [Wie du 2026 Notizen in Flashcards verwandelst](/de/blog/turn-notes-into-flashcards/) tiefer auf den Bereinigungsschritt ein.
 
 ## Lösche die Karten, die immer noch nach Claude klingen
 
@@ -272,7 +270,7 @@ Diese Version würde ich behalten:
 
 Das ist ein glaubwürdigerer Workflow, als so zu tun, als wäre Claude selbst der Ort für langfristiges Behalten.
 
-Wenn sich dein KI-generiertes Deck schon aufgebläht anfühlt, sind [Wie du 2026 KI-Flashcard-Overload vermeidest](/de/blog/how-to-avoid-ai-flashcard-overload/) und [Wie du 2026 KI-Flashcards reparierst](/de/blog/how-to-fix-ai-flashcards/) die beiden Texte, die ich als Nächstes lesen würde.
+Wenn sich dein KI-generiertes Deck schon aufgebläht anfühlt, würde ich als Nächstes [Wie du 2026 KI-Flashcards reparierst](/de/blog/how-to-fix-ai-flashcards/) lesen.
 
 ## Die bessere Regel für Claude als Lernkarten-Helfer
 

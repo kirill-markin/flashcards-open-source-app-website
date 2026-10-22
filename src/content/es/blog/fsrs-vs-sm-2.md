@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1fsrs-vs-sm-2.md"
 title: "FSRS vs SM-2: diferencias, carga de repasos y cómo cambiar en Anki"
 description: "Compara FSRS con SM-2, entiende qué aportan las evaluaciones de retención y cambia el planificador de Anki sin reprogramar toda tu colección de golpe."
 date: "2026-03-12"

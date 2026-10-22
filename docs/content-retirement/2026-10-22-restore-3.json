@@ -1,0 +1,356 @@
+{
+  "schema_version": 1,
+  "audit_date": "2026-10-22",
+  "action": "restore",
+  "analysis_at": "2026-10-22T10:44:44.349372+00:00",
+  "baseline": {
+    "started_at": "2026-10-22T09:42:01.146723+00:00",
+    "website_sha": "0dce5cfaba35959d10f244909d65ff266289bf88",
+    "app_sha": "2a5f4b0b16b1fc9abb55e6605d0a3ab258618a9d",
+    "deployed_admin_sha": "b8b1e6e8b8b76e530ba101e95e01311217462527",
+    "refresh_at": "2026-10-22T10:44:29.022888+00:00",
+    "current_website_sha": "a7a3cc88ddf5155b2eca1baa397828d11e599e16",
+    "current_app_sha": "2a5f4b0b16b1fc9abb55e6605d0a3ab258618a9d"
+  },
+  "policy": {
+    "clicks_min_keep": 3,
+    "engaged_visitor_days_min_keep": 2,
+    "minimum_age_days": 90,
+    "impressions": "diagnostic only",
+    "age_basis": "later publication and first followed Git source date; existing live members, or all existing members if fully retired",
+    "family_keep_rule": "WEB clicks >= 3 OR distinct family engaged visitor-days >= 2",
+    "safeguards": "Verified complete family identity and evidence coverage required; unknown evidence blocks changes. Youth or concrete actual use protects the complete family."
+  },
+  "search_window": {
+    "from": "2026-08-21",
+    "to": "2026-10-19",
+    "complete_days": 60,
+    "coverage_gaps": [],
+    "active_new_domain_exports_from": "2026-09-16"
+  },
+  "engagement_window": {
+    "nominal_from": "2026-08-23",
+    "nominal_to": "2026-10-22",
+    "reliable_attribution_baseline": "2026-09-24",
+    "expected_complete_days": 28,
+    "observed_complete_days": 28,
+    "complete_from": "2026-09-24",
+    "complete_to": "2026-10-21",
+    "collection_gaps": [],
+    "unattributed_filtered_views": [],
+    "unassigned_engaged_blog_views": [],
+    "limitations": "Collection began 2026-09-22 part day; route attribution introduced 2026-09-23 part day. Pre-baseline missing paths are archived limitations. Page-read signal introduced 2026-10-19 about 21:00 UTC; older single-page reading cannot be reconstructed. Cohorts remain separate; visitor-days are not unique people."
+  },
+  "measurement": {
+    "search": "Page-level WEB Search Console URL exports, including anonymized queries, across verified old/current domains and URL aliases. Overlapping exports of the same property are deduplicated before summing family clicks and impressions. Export-confirmed empty days are observed coverage, not missing days.",
+    "engagement": "Current app admin builders qualify visitor-days across the whole website before blog attribution: a page view AND at least two qualifying facts total on the same UTC day, counting the page view, with trust, bot, admin, test, manual, automation, sandbox, burst and scraper-fleet exclusions. Identified days use resolved actors and occurred_at; cookieless days use daily hashes and server_received_at. Distinct family visitor-days deduplicate (cohort, resolved actor ID or daily visitor hash, UTC day) across member URLs. Cohorts remain separate; per-URL visitor-days must not be summed, and visitor-days are not unique people.",
+    "attribution": "Collector page_path is locale-stripped; ui_locale restores localized identity before verified alias matching. Attributable positives anywhere in the nominal interval, including pre-baseline and current partial UTC day 2026-10-22, count. Negative coverage uses the disclosed reliable interval through yesterday; earlier missing attribution is not treated as zero.",
+    "age": "The later declared publication date and first followed Git source appearance is an availability proxy, not proof of deployment. Source hashes and revisions describe sources before restoration; historical ledgers remain unchanged."
+  },
+  "provenance": {
+    "domain_cutover": {
+      "pr": 306,
+      "sha": "370be421d08cce808c6ad13f3a30288d53dc0378",
+      "ready_at": "2026-09-18T08:43:00.505000+00:00"
+    },
+    "route_attribution": {
+      "pr": 367,
+      "sha": "000672c0ce9d51a69f81d1e3200064d892f51c54",
+      "ready_at": "2026-09-23T09:58:38.760000+00:00"
+    },
+    "attribution_baseline_basis": "PR367 production READY 2026-09-23T09:58:38.760Z, matching actual page-path producer source; first fully observed attributed UTC day 2026-09-24. No filtered page-view missing paths since.",
+    "new_domain_empty_days": [
+      "2026-09-16",
+      "2026-09-17"
+    ],
+    "new_domain_empty_basis": "Successful URL ExportLog entries on both days, no URL partition/rows; production cutover READY 2026-09-18T08:43:00.505Z. All Sep18+ new-domain active dates exported with partitions.",
+    "unmapped_search_diagnostics": "Five spellings have no source in frozen corpus or followed/all Git path history and zero clicks. They remain separate diagnostics; no positive-click ambiguity affects an existing family.",
+    "implementation_base_sha": "a7a3cc88ddf5155b2eca1baa397828d11e599e16",
+    "restoration_gate": "20261022T104429022888Z: refreshed family decisions have no classification flips; all 44 remaining restoration sources belong to these nine families. Required search and engagement coverage is established. Frozen website source revisions remain the measurement baseline; current app and deployed admin revisions are recorded separately."
+  },
+  "preservation": "Publication changes remove retirement-only frontmatter and preserve all other metadata. Article bodies are preserved except for the scoped contextual repairs to currently retired destinations; useful conceptual prose and currently published references are retained.",
+  "counts": {
+    "families": 9,
+    "family_members": 74,
+    "restored_sources": 44,
+    "repaired_reference_contexts": 55
+  },
+  "families": {
+    "again-vs-hard-fsrs-flashcards": {
+      "decision": "restore",
+      "reason": "engaged-visitor-day-threshold",
+      "members": [
+        "src/content/ar/blog/again-vs-hard-fsrs-flashcards.md",
+        "src/content/de/blog/again-vs-hard-fsrs-flashcards.md",
+        "src/content/en/blog/again-vs-hard-fsrs-flashcards.md",
+        "src/content/es/blog/again-vs-hard-fsrs-flashcards.md",
+        "src/content/hi/blog/again-vs-hard-fsrs-flashcards.md",
+        "src/content/ja/blog/again-vs-hard-fsrs-flashcards.md",
+        "src/content/ru/blog/again-vs-hard-fsrs-flashcards.md",
+        "src/content/zh/blog/again-vs-hard-fsrs-flashcards.md"
+      ],
+      "totals": {
+        "clicks": 0,
+        "impressions": 108,
+        "engaged_views": 8,
+        "engaged_visitor_days": 4
+      },
+      "live_members_before": 3,
+      "restored_members": 5,
+      "age_member_basis": "existing live members",
+      "young_members": [],
+      "concrete_use_veto": null
+    },
+    "ai-flashcard-tutor-due-cards": {
+      "decision": "restore",
+      "reason": "search-click-threshold",
+      "members": [
+        "src/content/ar/blog/ai-flashcard-tutor-due-cards.md",
+        "src/content/de/blog/ai-flashcard-tutor-due-cards.md",
+        "src/content/en/blog/ai-flashcard-tutor-due-cards.md",
+        "src/content/es/blog/ai-flashcard-tutor-due-cards.md",
+        "src/content/hi/blog/ai-flashcard-tutor-due-cards.md",
+        "src/content/ja/blog/ai-flashcard-tutor-due-cards.md",
+        "src/content/ru/blog/ai-flashcard-tutor-due-cards.md",
+        "src/content/zh/blog/ai-flashcard-tutor-due-cards.md"
+      ],
+      "totals": {
+        "clicks": 6,
+        "impressions": 189,
+        "engaged_views": 0,
+        "engaged_visitor_days": 0
+      },
+      "live_members_before": 2,
+      "restored_members": 6,
+      "age_member_basis": "existing live members",
+      "young_members": [],
+      "concrete_use_veto": null
+    },
+    "ccsp-flashcards": {
+      "decision": "restore",
+      "reason": "search-click-threshold",
+      "members": [
+        "src/content/ar/blog/ccsp-flashcards.md",
+        "src/content/de/blog/ccsp-flashcards.md",
+        "src/content/en/blog/ccsp-flashcards.md",
+        "src/content/es/blog/ccsp-flashcards.md",
+        "src/content/hi/blog/ccsp-flashcards.md",
+        "src/content/ja/blog/ccsp-flashcards.md",
+        "src/content/ru/blog/ccsp-flashcards.md",
+        "src/content/zh/blog/ccsp-flashcards.md"
+      ],
+      "totals": {
+        "clicks": 6,
+        "impressions": 114,
+        "engaged_views": 2,
+        "engaged_visitor_days": 2
+      },
+      "live_members_before": 3,
+      "restored_members": 5,
+      "age_member_basis": "existing live members",
+      "young_members": [],
+      "concrete_use_veto": null
+    },
+    "fsrs-vs-sm-2": {
+      "decision": "restore",
+      "reason": "search-click-threshold",
+      "members": [
+        "src/content/ar/blog/fsrs-vs-sm-2.md",
+        "src/content/de/blog/fsrs-vs-sm-2.md",
+        "src/content/en/blog/fsrs-vs-sm-2.md",
+        "src/content/es/blog/fsrs-vs-sm-2.md",
+        "src/content/hi/blog/fsrs-vs-sm-2.md",
+        "src/content/ja/blog/fsrs-vs-sm-2.md",
+        "src/content/ru/blog/fsrs-vs-sm-2.md",
+        "src/content/zh/blog/fsrs-vs-sm-2.md"
+      ],
+      "totals": {
+        "clicks": 5,
+        "impressions": 917,
+        "engaged_views": 10,
+        "engaged_visitor_days": 8
+      },
+      "live_members_before": 4,
+      "restored_members": 4,
+      "age_member_basis": "existing live members",
+      "young_members": [],
+      "concrete_use_veto": null
+    },
+    "how-to-connect-flashcards-to-claude-with-mcp": {
+      "decision": "restore",
+      "reason": "age-under90",
+      "members": [
+        "src/content/ar/blog/how-to-connect-flashcards-to-claude-with-mcp.md",
+        "src/content/de/blog/how-to-connect-flashcards-to-claude-with-mcp.md",
+        "src/content/en/blog/how-to-connect-flashcards-to-claude-with-mcp.md",
+        "src/content/es/blog/how-to-connect-flashcards-to-claude-with-mcp.md",
+        "src/content/fr/blog/how-to-connect-flashcards-to-claude-with-mcp.md",
+        "src/content/hi/blog/how-to-connect-flashcards-to-claude-with-mcp.md",
+        "src/content/ja/blog/how-to-connect-flashcards-to-claude-with-mcp.md",
+        "src/content/pt/blog/how-to-connect-flashcards-to-claude-with-mcp.md",
+        "src/content/ru/blog/how-to-connect-flashcards-to-claude-with-mcp.md",
+        "src/content/zh/blog/how-to-connect-flashcards-to-claude-with-mcp.md"
+      ],
+      "totals": {
+        "clicks": 0,
+        "impressions": 81,
+        "engaged_views": 1,
+        "engaged_visitor_days": 1
+      },
+      "live_members_before": 3,
+      "restored_members": 7,
+      "age_member_basis": "existing live members",
+      "young_members": [
+        "src/content/fr/blog/how-to-connect-flashcards-to-claude-with-mcp.md",
+        "src/content/pt/blog/how-to-connect-flashcards-to-claude-with-mcp.md"
+      ],
+      "concrete_use_veto": null
+    },
+    "how-to-turn-microsoft-copilot-study-and-learn-into-flashcards": {
+      "decision": "restore",
+      "reason": "search-click-threshold",
+      "members": [
+        "src/content/ar/blog/how-to-turn-microsoft-copilot-study-and-learn-into-flashcards.md",
+        "src/content/de/blog/how-to-turn-microsoft-copilot-study-and-learn-into-flashcards.md",
+        "src/content/en/blog/how-to-turn-microsoft-copilot-study-and-learn-into-flashcards.md",
+        "src/content/es/blog/how-to-turn-microsoft-copilot-study-and-learn-into-flashcards.md",
+        "src/content/hi/blog/how-to-turn-microsoft-copilot-study-and-learn-into-flashcards.md",
+        "src/content/ja/blog/how-to-turn-microsoft-copilot-study-and-learn-into-flashcards.md",
+        "src/content/ru/blog/how-to-turn-microsoft-copilot-study-and-learn-into-flashcards.md",
+        "src/content/zh/blog/how-to-turn-microsoft-copilot-study-and-learn-into-flashcards.md"
+      ],
+      "totals": {
+        "clicks": 3,
+        "impressions": 143,
+        "engaged_views": 1,
+        "engaged_visitor_days": 1
+      },
+      "live_members_before": 2,
+      "restored_members": 6,
+      "age_member_basis": "existing live members",
+      "young_members": [],
+      "concrete_use_veto": null
+    },
+    "how-to-use-chatgpt-to-make-flashcards": {
+      "decision": "restore",
+      "reason": "search-click-threshold",
+      "members": [
+        "src/content/ar/blog/how-to-use-chatgpt-to-make-flashcards.md",
+        "src/content/de/blog/how-to-use-chatgpt-to-make-flashcards.md",
+        "src/content/en/blog/how-to-use-chatgpt-to-make-flashcards.md",
+        "src/content/es/blog/how-to-use-chatgpt-to-make-flashcards.md",
+        "src/content/hi/blog/how-to-use-chatgpt-to-make-flashcards.md",
+        "src/content/ja/blog/how-to-use-chatgpt-to-make-flashcards.md",
+        "src/content/ru/blog/how-to-use-chatgpt-to-make-flashcards.md",
+        "src/content/zh/blog/how-to-use-chatgpt-to-make-flashcards.md"
+      ],
+      "totals": {
+        "clicks": 45,
+        "impressions": 2770,
+        "engaged_views": 13,
+        "engaged_visitor_days": 9
+      },
+      "live_members_before": 7,
+      "restored_members": 1,
+      "age_member_basis": "existing live members",
+      "young_members": [],
+      "concrete_use_veto": null
+    },
+    "how-to-use-claude-to-make-flashcards": {
+      "decision": "restore",
+      "reason": "search-click-threshold",
+      "members": [
+        "src/content/ar/blog/how-to-use-claude-to-make-flashcards.md",
+        "src/content/de/blog/how-to-use-claude-to-make-flashcards.md",
+        "src/content/en/blog/how-to-use-claude-to-make-flashcards.md",
+        "src/content/es/blog/how-to-use-claude-to-make-flashcards.md",
+        "src/content/hi/blog/how-to-use-claude-to-make-flashcards.md",
+        "src/content/ja/blog/how-to-use-claude-to-make-flashcards.md",
+        "src/content/ru/blog/how-to-use-claude-to-make-flashcards.md",
+        "src/content/zh/blog/how-to-use-claude-to-make-flashcards.md"
+      ],
+      "totals": {
+        "clicks": 9,
+        "impressions": 509,
+        "engaged_views": 6,
+        "engaged_visitor_days": 4
+      },
+      "live_members_before": 5,
+      "restored_members": 3,
+      "age_member_basis": "existing live members",
+      "young_members": [],
+      "concrete_use_veto": null
+    },
+    "how-to-use-flashcards-for-the-ielts": {
+      "decision": "restore",
+      "reason": "engaged-visitor-day-threshold",
+      "members": [
+        "src/content/ar/blog/how-to-use-flashcards-for-the-ielts.md",
+        "src/content/de/blog/how-to-use-flashcards-for-the-ielts.md",
+        "src/content/en/blog/how-to-use-flashcards-for-the-ielts.md",
+        "src/content/es/blog/how-to-use-flashcards-for-the-ielts.md",
+        "src/content/hi/blog/how-to-use-flashcards-for-the-ielts.md",
+        "src/content/ja/blog/how-to-use-flashcards-for-the-ielts.md",
+        "src/content/ru/blog/how-to-use-flashcards-for-the-ielts.md",
+        "src/content/zh/blog/how-to-use-flashcards-for-the-ielts.md"
+      ],
+      "totals": {
+        "clicks": 0,
+        "impressions": 94,
+        "engaged_views": 2,
+        "engaged_visitor_days": 2
+      },
+      "live_members_before": 1,
+      "restored_members": 7,
+      "age_member_basis": "existing live members",
+      "young_members": [],
+      "concrete_use_veto": null
+    }
+  },
+  "sources": {
+    "src/content/ar/blog/again-vs-hard-fsrs-flashcards.md": {"family_id": "again-vs-hard-fsrs-flashcards", "canonical_url": "https://nibomo.com/ar/blog/again-vs-hard-fsrs-flashcards/", "published_date": "2026-07-17", "first_source_date": "2026-07-17", "age_basis_date": "2026-07-17", "age_days": 97, "clicks": 0, "impressions": 0, "engaged_views": 0, "engaged_visitor_days": 0, "sha256": "3a9fa822c4fef5cdaad37cf4de7381b2ddc2db69029b5cc84acb8b4979f7d7b2", "blob_sha": "f8a40683af997ef4c86dd016f9b97d69340bebec", "first_source_commits": ["f153e1ea7c379d9fa0b2ca45392695e8becbd7f4"]},
+    "src/content/ar/blog/ai-flashcard-tutor-due-cards.md": {"family_id": "ai-flashcard-tutor-due-cards", "canonical_url": "https://nibomo.com/ar/blog/ai-flashcard-tutor-due-cards/", "published_date": "2026-07-15", "first_source_date": "2026-07-15", "age_basis_date": "2026-07-15", "age_days": 99, "clicks": 0, "impressions": 3, "engaged_views": 0, "engaged_visitor_days": 0, "sha256": "845e2f1d09a220243a0ef2d5648bfe55f87b1f88aa65fb51836be65cd31e68ed", "blob_sha": "f438101401c2adbeefbcc3a5a516c57cc3beae15", "first_source_commits": ["c3e5b9edcc7ca3b62442f600734b5c118dfb9d17"]},
+    "src/content/ar/blog/ccsp-flashcards.md": {"family_id": "ccsp-flashcards", "canonical_url": "https://nibomo.com/ar/blog/ccsp-flashcards/", "published_date": "2026-07-18", "first_source_date": "2026-07-18", "age_basis_date": "2026-07-18", "age_days": 96, "clicks": 0, "impressions": 3, "engaged_views": 0, "engaged_visitor_days": 0, "sha256": "06c343653324172e6746b2695bf92f7dfa71b9be476582f3b6e88e481d831096", "blob_sha": "766569bbf003f00a3d0a9b163bf50f7415f8e2f8", "first_source_commits": ["fd452ac382e80eddcae5eea06380b0fe073daceb"]},
+    "src/content/ar/blog/fsrs-vs-sm-2.md": {"family_id": "fsrs-vs-sm-2", "canonical_url": "https://nibomo.com/ar/blog/fsrs-vs-sm-2/", "published_date": "2026-03-12", "first_source_date": "2026-04-12", "age_basis_date": "2026-04-12", "age_days": 193, "clicks": 0, "impressions": 30, "engaged_views": 0, "engaged_visitor_days": 0, "sha256": "2e6da1d531112259d270c1688af61d341b48d39c2b5b5ae34f0ad3486f2e374c", "blob_sha": "84b4243c40718cec5313218f755ede1fc0e8a9e8", "first_source_commits": ["1000ad5aba892d9bc7f854a65116131646332bb1"]},
+    "src/content/ar/blog/how-to-connect-flashcards-to-claude-with-mcp.md": {"family_id": "how-to-connect-flashcards-to-claude-with-mcp", "canonical_url": "https://nibomo.com/ar/blog/how-to-connect-flashcards-to-claude-with-mcp/", "published_date": "2026-06-23", "first_source_date": "2026-06-23", "age_basis_date": "2026-06-23", "age_days": 121, "clicks": 0, "impressions": 0, "engaged_views": 0, "engaged_visitor_days": 0, "sha256": "0f2d3a212ac7f99319dad9a331046d5c79994ee10d9a07087376516e88285a0f", "blob_sha": "1330e8e23f5f2e0a730d6541816d40aec32c8ce1", "first_source_commits": ["d6892a68fdef86f2b3abdcff96bc7abcf7ac627d"]},
+    "src/content/ar/blog/how-to-turn-microsoft-copilot-study-and-learn-into-flashcards.md": {"family_id": "how-to-turn-microsoft-copilot-study-and-learn-into-flashcards", "canonical_url": "https://nibomo.com/ar/blog/how-to-turn-microsoft-copilot-study-and-learn-into-flashcards/", "published_date": "2026-06-09", "first_source_date": "2026-06-09", "age_basis_date": "2026-06-09", "age_days": 135, "clicks": 0, "impressions": 0, "engaged_views": 0, "engaged_visitor_days": 0, "sha256": "3b15f4fb0f7b61856b83cc8cfc013647bbbe2ae6a5a5c21639593b1e53bd1d94", "blob_sha": "b035c0022a147d1f15d7bf6f7e7fd903966fdcbc", "first_source_commits": ["186bc7864409d81264863a2e722cf77e80938eda"]},
+    "src/content/ar/blog/how-to-use-flashcards-for-the-ielts.md": {"family_id": "how-to-use-flashcards-for-the-ielts", "canonical_url": "https://nibomo.com/ar/blog/how-to-use-flashcards-for-the-ielts/", "published_date": "2026-07-06", "first_source_date": "2026-07-06", "age_basis_date": "2026-07-06", "age_days": 108, "clicks": 0, "impressions": 1, "engaged_views": 0, "engaged_visitor_days": 0, "sha256": "563629f1cb766f096bdaad465a23a265ddd5c253f3220dbd6867f4f077de2a9d", "blob_sha": "5ed78ffa0d38203808016a2948e64b6443e2b96e", "first_source_commits": ["84a3f3e50a0c983940566e87c310108378429173"]},
+    "src/content/de/blog/again-vs-hard-fsrs-flashcards.md": {"family_id": "again-vs-hard-fsrs-flashcards", "canonical_url": "https://nibomo.com/de/blog/again-vs-hard-fsrs-flashcards/", "published_date": "2026-07-17", "first_source_date": "2026-07-17", "age_basis_date": "2026-07-17", "age_days": 97, "clicks": 0, "impressions": 1, "engaged_views": 0, "engaged_visitor_days": 0, "sha256": "436ecf6b6d466eab5f8db0f2a1f6dee7d07ca3147b848c4b04ca23fce26f4b45", "blob_sha": "4dfb7eafbc7c88b0258aa78b4a85e4a046c62c25", "first_source_commits": ["f153e1ea7c379d9fa0b2ca45392695e8becbd7f4"]},
+    "src/content/de/blog/ccsp-flashcards.md": {"family_id": "ccsp-flashcards", "canonical_url": "https://nibomo.com/de/blog/ccsp-flashcards/", "published_date": "2026-07-18", "first_source_date": "2026-07-18", "age_basis_date": "2026-07-18", "age_days": 96, "clicks": 0, "impressions": 1, "engaged_views": 0, "engaged_visitor_days": 0, "sha256": "bcd216017a1f0a974d1f28120cb6a9738e83e446bc47e4f85fb2d324b6329de1", "blob_sha": "790876166999262ae717645e251ce81a1a52f6bd", "first_source_commits": ["fd452ac382e80eddcae5eea06380b0fe073daceb"]},
+    "src/content/de/blog/fsrs-vs-sm-2.md": {"family_id": "fsrs-vs-sm-2", "canonical_url": "https://nibomo.com/de/blog/fsrs-vs-sm-2/", "published_date": "2026-03-12", "first_source_date": "2026-04-12", "age_basis_date": "2026-04-12", "age_days": 193, "clicks": 0, "impressions": 10, "engaged_views": 0, "engaged_visitor_days": 0, "sha256": "a77a79f4c198c4d1d824c27c6dc38b4b9175bd6a1f4b25a6567ec0ba83bc407b", "blob_sha": "fdf474bf9c2eb1d492ef614eae89eb8e66a678e3", "first_source_commits": ["ea092275cacd2f975838f0226dc41fb0a78af331"]},
+    "src/content/de/blog/how-to-connect-flashcards-to-claude-with-mcp.md": {"family_id": "how-to-connect-flashcards-to-claude-with-mcp", "canonical_url": "https://nibomo.com/de/blog/how-to-connect-flashcards-to-claude-with-mcp/", "published_date": "2026-06-23", "first_source_date": "2026-06-23", "age_basis_date": "2026-06-23", "age_days": 121, "clicks": 0, "impressions": 14, "engaged_views": 0, "engaged_visitor_days": 0, "sha256": "183720c77395720fe7bb0086279df24e76e21e591c4846fa5cccae56909d0e94", "blob_sha": "cfbeccddd77cc1a7778bcf84cd2f0b7af5271487", "first_source_commits": ["d6892a68fdef86f2b3abdcff96bc7abcf7ac627d"]},
+    "src/content/de/blog/how-to-turn-microsoft-copilot-study-and-learn-into-flashcards.md": {"family_id": "how-to-turn-microsoft-copilot-study-and-learn-into-flashcards", "canonical_url": "https://nibomo.com/de/blog/how-to-turn-microsoft-copilot-study-and-learn-into-flashcards/", "published_date": "2026-06-09", "first_source_date": "2026-06-09", "age_basis_date": "2026-06-09", "age_days": 135, "clicks": 0, "impressions": 6, "engaged_views": 0, "engaged_visitor_days": 0, "sha256": "7cf098fccbe5457300f5c815f55ff787f4be3331684e418994f705b59e77d09f", "blob_sha": "88b40dd6ed55da82d705db1ca74907d198679321", "first_source_commits": ["186bc7864409d81264863a2e722cf77e80938eda"]},
+    "src/content/de/blog/how-to-use-claude-to-make-flashcards.md": {"family_id": "how-to-use-claude-to-make-flashcards", "canonical_url": "https://nibomo.com/de/blog/how-to-use-claude-to-make-flashcards/", "published_date": "2026-06-11", "first_source_date": "2026-06-11", "age_basis_date": "2026-06-11", "age_days": 133, "clicks": 0, "impressions": 45, "engaged_views": 0, "engaged_visitor_days": 0, "sha256": "7c8b064b4eb54b016783a29445bdd717c2262e41a90bcdf34afce87a9ceca228", "blob_sha": "45a343aadba64040b873e95e221ef7dedbe926bb", "first_source_commits": ["076a5e0ec835107bf1d218db94a675e2a83243dc"]},
+    "src/content/de/blog/how-to-use-flashcards-for-the-ielts.md": {"family_id": "how-to-use-flashcards-for-the-ielts", "canonical_url": "https://nibomo.com/de/blog/how-to-use-flashcards-for-the-ielts/", "published_date": "2026-07-06", "first_source_date": "2026-07-06", "age_basis_date": "2026-07-06", "age_days": 108, "clicks": 0, "impressions": 8, "engaged_views": 0, "engaged_visitor_days": 0, "sha256": "21594b0a7e1ca7d5e33f7647870ec8fe2b9de9d0a535661dc588d52b20f51efe", "blob_sha": "9b276d3a5b5f2b4f86a45f285464e9a82438293c", "first_source_commits": ["84a3f3e50a0c983940566e87c310108378429173"]},
+    "src/content/en/blog/ai-flashcard-tutor-due-cards.md": {"family_id": "ai-flashcard-tutor-due-cards", "canonical_url": "https://nibomo.com/blog/ai-flashcard-tutor-due-cards/", "published_date": "2026-07-15", "first_source_date": "2026-07-15", "age_basis_date": "2026-07-15", "age_days": 99, "clicks": 0, "impressions": 29, "engaged_views": 0, "engaged_visitor_days": 0, "sha256": "03b161a5e796ab78468dfe1ce06b063290fe330ee9c690e54347875b51486c1c", "blob_sha": "90d167a51674d0fde8093532596241c3bc34d822", "first_source_commits": ["c3e5b9edcc7ca3b62442f600734b5c118dfb9d17"]},
+    "src/content/es/blog/again-vs-hard-fsrs-flashcards.md": {"family_id": "again-vs-hard-fsrs-flashcards", "canonical_url": "https://nibomo.com/es/blog/again-vs-hard-fsrs-flashcards/", "published_date": "2026-07-17", "first_source_date": "2026-07-17", "age_basis_date": "2026-07-17", "age_days": 97, "clicks": 0, "impressions": 0, "engaged_views": 0, "engaged_visitor_days": 0, "sha256": "bfb2659b6a3d6501241ef6572114cd009e598d71b4f508c042d0fd64d79f9cb1", "blob_sha": "fe2e61ad41206dee22197bb3b4a632cbf3bd2e72", "first_source_commits": ["f153e1ea7c379d9fa0b2ca45392695e8becbd7f4"]},
+    "src/content/es/blog/ai-flashcard-tutor-due-cards.md": {"family_id": "ai-flashcard-tutor-due-cards", "canonical_url": "https://nibomo.com/es/blog/ai-flashcard-tutor-due-cards/", "published_date": "2026-07-15", "first_source_date": "2026-07-15", "age_basis_date": "2026-07-15", "age_days": 99, "clicks": 0, "impressions": 35, "engaged_views": 0, "engaged_visitor_days": 0, "sha256": "eac359889be354200eb236ca4f85e0dc49e2a30039417c180d451a7be1854b61", "blob_sha": "67604d73299d032cb9145a97743978176c1f663c", "first_source_commits": ["c3e5b9edcc7ca3b62442f600734b5c118dfb9d17"]},
+    "src/content/es/blog/fsrs-vs-sm-2.md": {"family_id": "fsrs-vs-sm-2", "canonical_url": "https://nibomo.com/es/blog/fsrs-vs-sm-2/", "published_date": "2026-03-12", "first_source_date": "2026-04-11", "age_basis_date": "2026-04-11", "age_days": 194, "clicks": 0, "impressions": 16, "engaged_views": 0, "engaged_visitor_days": 0, "sha256": "62a930f344f85a56b2db0464a8e9ec4fa465b3628779b3c500ed732d88fc0eb4", "blob_sha": "648d77d1bbaba77f55c07fba8f46bdb0f6375c51", "first_source_commits": ["49fe34ae912f042adbdfd122add7271bea8a48c9"]},
+    "src/content/es/blog/how-to-connect-flashcards-to-claude-with-mcp.md": {"family_id": "how-to-connect-flashcards-to-claude-with-mcp", "canonical_url": "https://nibomo.com/es/blog/how-to-connect-flashcards-to-claude-with-mcp/", "published_date": "2026-06-23", "first_source_date": "2026-06-23", "age_basis_date": "2026-06-23", "age_days": 121, "clicks": 0, "impressions": 9, "engaged_views": 0, "engaged_visitor_days": 0, "sha256": "22d8ddc589d298116e7cc8052ee3ecd567822c4109e3a727a65e7e9cd333a149", "blob_sha": "136d745a9029cbc072ddfa65e61a583a298a0dd9", "first_source_commits": ["d6892a68fdef86f2b3abdcff96bc7abcf7ac627d"]},
+    "src/content/es/blog/how-to-turn-microsoft-copilot-study-and-learn-into-flashcards.md": {"family_id": "how-to-turn-microsoft-copilot-study-and-learn-into-flashcards", "canonical_url": "https://nibomo.com/es/blog/how-to-turn-microsoft-copilot-study-and-learn-into-flashcards/", "published_date": "2026-06-09", "first_source_date": "2026-06-09", "age_basis_date": "2026-06-09", "age_days": 135, "clicks": 0, "impressions": 0, "engaged_views": 0, "engaged_visitor_days": 0, "sha256": "08cf67ab434b0005afe58d9d82eaee6162da836a43be52bd7b349092c10170b1", "blob_sha": "cb48024b02fce437fe4c40c3c5c846a6144b2c36", "first_source_commits": ["186bc7864409d81264863a2e722cf77e80938eda"]},
+    "src/content/es/blog/how-to-use-flashcards-for-the-ielts.md": {"family_id": "how-to-use-flashcards-for-the-ielts", "canonical_url": "https://nibomo.com/es/blog/how-to-use-flashcards-for-the-ielts/", "published_date": "2026-07-06", "first_source_date": "2026-07-06", "age_basis_date": "2026-07-06", "age_days": 108, "clicks": 0, "impressions": 2, "engaged_views": 0, "engaged_visitor_days": 0, "sha256": "86844fd0204cdea46b1cd97732e67597d8b34ac36b494999e13ec5b9c74bd474", "blob_sha": "ead46122e71c7d0ab1713b5da22f1376988014c4", "first_source_commits": ["84a3f3e50a0c983940566e87c310108378429173"]},
+    "src/content/hi/blog/again-vs-hard-fsrs-flashcards.md": {"family_id": "again-vs-hard-fsrs-flashcards", "canonical_url": "https://nibomo.com/hi/blog/again-vs-hard-fsrs-flashcards/", "published_date": "2026-07-17", "first_source_date": "2026-07-17", "age_basis_date": "2026-07-17", "age_days": 97, "clicks": 0, "impressions": 1, "engaged_views": 0, "engaged_visitor_days": 0, "sha256": "6b93b6adee756be287ec7fd34bf2fa9e4e0827290549bbda496e8eb7682be546", "blob_sha": "1b04f9be4fbe2a6c0f5075671fdeeedcfa7c4692", "first_source_commits": ["f153e1ea7c379d9fa0b2ca45392695e8becbd7f4"]},
+    "src/content/hi/blog/ai-flashcard-tutor-due-cards.md": {"family_id": "ai-flashcard-tutor-due-cards", "canonical_url": "https://nibomo.com/hi/blog/ai-flashcard-tutor-due-cards/", "published_date": "2026-07-15", "first_source_date": "2026-07-15", "age_basis_date": "2026-07-15", "age_days": 99, "clicks": 0, "impressions": 0, "engaged_views": 0, "engaged_visitor_days": 0, "sha256": "80bb59c089a39f59627e0db5cb5f77d27ca84cc082ed8b6aefa72e1fcf95ef1b", "blob_sha": "b50d2aa832587166be58640521a53895b114ec3b", "first_source_commits": ["c3e5b9edcc7ca3b62442f600734b5c118dfb9d17"]},
+    "src/content/hi/blog/ccsp-flashcards.md": {"family_id": "ccsp-flashcards", "canonical_url": "https://nibomo.com/hi/blog/ccsp-flashcards/", "published_date": "2026-07-18", "first_source_date": "2026-07-18", "age_basis_date": "2026-07-18", "age_days": 96, "clicks": 0, "impressions": 0, "engaged_views": 0, "engaged_visitor_days": 0, "sha256": "43f1abaf091c8eb1df5811b9a245af0036d6d5fc4857e57af612da558855e7f0", "blob_sha": "f64f0b8fe7865aa37e16f4914d9ec58d32ee5d88", "first_source_commits": ["fd452ac382e80eddcae5eea06380b0fe073daceb"]},
+    "src/content/hi/blog/fsrs-vs-sm-2.md": {"family_id": "fsrs-vs-sm-2", "canonical_url": "https://nibomo.com/hi/blog/fsrs-vs-sm-2/", "published_date": "2026-03-12", "first_source_date": "2026-04-12", "age_basis_date": "2026-04-12", "age_days": 193, "clicks": 0, "impressions": 0, "engaged_views": 0, "engaged_visitor_days": 0, "sha256": "098fb02bdc42b695c0c02764f30ca265cb753ef2b8660001e7ed4bc62baa5d88", "blob_sha": "ff8a79b0cf23e9332cf38b65bbbf8e94757d2070", "first_source_commits": ["1000ad5aba892d9bc7f854a65116131646332bb1"]},
+    "src/content/hi/blog/how-to-connect-flashcards-to-claude-with-mcp.md": {"family_id": "how-to-connect-flashcards-to-claude-with-mcp", "canonical_url": "https://nibomo.com/hi/blog/how-to-connect-flashcards-to-claude-with-mcp/", "published_date": "2026-06-23", "first_source_date": "2026-06-23", "age_basis_date": "2026-06-23", "age_days": 121, "clicks": 0, "impressions": 0, "engaged_views": 0, "engaged_visitor_days": 0, "sha256": "f4ddef339dd9337f88f42ca217ebca9b45540a00402d6127341b4da0fbea5bbc", "blob_sha": "ba3bdd078d65b293bde26d1648830b0a62f93770", "first_source_commits": ["d6892a68fdef86f2b3abdcff96bc7abcf7ac627d"]},
+    "src/content/hi/blog/how-to-turn-microsoft-copilot-study-and-learn-into-flashcards.md": {"family_id": "how-to-turn-microsoft-copilot-study-and-learn-into-flashcards", "canonical_url": "https://nibomo.com/hi/blog/how-to-turn-microsoft-copilot-study-and-learn-into-flashcards/", "published_date": "2026-06-09", "first_source_date": "2026-06-09", "age_basis_date": "2026-06-09", "age_days": 135, "clicks": 0, "impressions": 0, "engaged_views": 0, "engaged_visitor_days": 0, "sha256": "ca6b9d13b5a525287dabadb21017ec8e8ad3f45f9fd8baeb41386ea2dd74470d", "blob_sha": "4eb78ce5483143434f8d73c5de801db086dbfac2", "first_source_commits": ["186bc7864409d81264863a2e722cf77e80938eda"]},
+    "src/content/hi/blog/how-to-use-chatgpt-to-make-flashcards.md": {"family_id": "how-to-use-chatgpt-to-make-flashcards", "canonical_url": "https://nibomo.com/hi/blog/how-to-use-chatgpt-to-make-flashcards/", "published_date": "2026-03-25", "first_source_date": "2026-04-12", "age_basis_date": "2026-04-12", "age_days": 193, "clicks": 0, "impressions": 4, "engaged_views": 0, "engaged_visitor_days": 0, "sha256": "12657a352ad44f9a84ed6379885e453d2cda318fb7224ee0dffffe34c5245955", "blob_sha": "cb946ed2d525ae974a89470d38aad4d19bbfeb04", "first_source_commits": ["ea092275cacd2f975838f0226dc41fb0a78af331"]},
+    "src/content/hi/blog/how-to-use-claude-to-make-flashcards.md": {"family_id": "how-to-use-claude-to-make-flashcards", "canonical_url": "https://nibomo.com/hi/blog/how-to-use-claude-to-make-flashcards/", "published_date": "2026-06-11", "first_source_date": "2026-06-11", "age_basis_date": "2026-06-11", "age_days": 133, "clicks": 0, "impressions": 0, "engaged_views": 0, "engaged_visitor_days": 0, "sha256": "c7892986ae6525c3e8968d0785f92030f67b55b359932898bcc8bc5a365ff024", "blob_sha": "e86c953ef7f9bb422a2e9cf440fc2bdc4ed6f8d2", "first_source_commits": ["076a5e0ec835107bf1d218db94a675e2a83243dc"]},
+    "src/content/hi/blog/how-to-use-flashcards-for-the-ielts.md": {"family_id": "how-to-use-flashcards-for-the-ielts", "canonical_url": "https://nibomo.com/hi/blog/how-to-use-flashcards-for-the-ielts/", "published_date": "2026-07-06", "first_source_date": "2026-07-06", "age_basis_date": "2026-07-06", "age_days": 108, "clicks": 0, "impressions": 0, "engaged_views": 0, "engaged_visitor_days": 0, "sha256": "5bbfd1860b6da975fac4ae939aced5cf2c17c28b9bb982ea21f3160416264e75", "blob_sha": "dfa0a7f7643abc7206131ade72b9ee00746c068f", "first_source_commits": ["84a3f3e50a0c983940566e87c310108378429173"]},
+    "src/content/ja/blog/ai-flashcard-tutor-due-cards.md": {"family_id": "ai-flashcard-tutor-due-cards", "canonical_url": "https://nibomo.com/ja/blog/ai-flashcard-tutor-due-cards/", "published_date": "2026-07-15", "first_source_date": "2026-07-15", "age_basis_date": "2026-07-15", "age_days": 99, "clicks": 0, "impressions": 2, "engaged_views": 0, "engaged_visitor_days": 0, "sha256": "7e535d4052f14d48b14817e1155dec0916a73a9359686974138859f75cb5dd52", "blob_sha": "2d11d5c6f39971f6d94306295042137222f2fb73", "first_source_commits": ["c3e5b9edcc7ca3b62442f600734b5c118dfb9d17"]},
+    "src/content/ja/blog/how-to-connect-flashcards-to-claude-with-mcp.md": {"family_id": "how-to-connect-flashcards-to-claude-with-mcp", "canonical_url": "https://nibomo.com/ja/blog/how-to-connect-flashcards-to-claude-with-mcp/", "published_date": "2026-06-23", "first_source_date": "2026-06-23", "age_basis_date": "2026-06-23", "age_days": 121, "clicks": 0, "impressions": 2, "engaged_views": 0, "engaged_visitor_days": 0, "sha256": "ca2c3de723afa88dba60e870438bacadd13455c3c47a8fb3bd6633710587f37c", "blob_sha": "33fea9cbebf7282996367c38b5b40d235912be04", "first_source_commits": ["d6892a68fdef86f2b3abdcff96bc7abcf7ac627d"]},
+    "src/content/ja/blog/how-to-use-claude-to-make-flashcards.md": {"family_id": "how-to-use-claude-to-make-flashcards", "canonical_url": "https://nibomo.com/ja/blog/how-to-use-claude-to-make-flashcards/", "published_date": "2026-06-11", "first_source_date": "2026-06-11", "age_basis_date": "2026-06-11", "age_days": 133, "clicks": 0, "impressions": 0, "engaged_views": 0, "engaged_visitor_days": 0, "sha256": "ba2c019bf474a8cbd9f0ed893bd343c3b0facefaeea8f2b03a5fc2cfced5d0ee", "blob_sha": "96dea010254876dfa9e9b323b1664c3695a459ba", "first_source_commits": ["076a5e0ec835107bf1d218db94a675e2a83243dc"]},
+    "src/content/ja/blog/how-to-use-flashcards-for-the-ielts.md": {"family_id": "how-to-use-flashcards-for-the-ielts", "canonical_url": "https://nibomo.com/ja/blog/how-to-use-flashcards-for-the-ielts/", "published_date": "2026-07-06", "first_source_date": "2026-07-06", "age_basis_date": "2026-07-06", "age_days": 108, "clicks": 0, "impressions": 12, "engaged_views": 0, "engaged_visitor_days": 0, "sha256": "87588a308bd30bad2fd5211ee25e30b93a212999531347c3ce59385ac5d67599", "blob_sha": "32f5c90478a5b194ed4f8b1ab7f12a0d32e8501f", "first_source_commits": ["84a3f3e50a0c983940566e87c310108378429173"]},
+    "src/content/ru/blog/again-vs-hard-fsrs-flashcards.md": {"family_id": "again-vs-hard-fsrs-flashcards", "canonical_url": "https://nibomo.com/ru/blog/again-vs-hard-fsrs-flashcards/", "published_date": "2026-07-17", "first_source_date": "2026-07-17", "age_basis_date": "2026-07-17", "age_days": 97, "clicks": 0, "impressions": 2, "engaged_views": 0, "engaged_visitor_days": 0, "sha256": "3227f603141755a95f9fcb4782e29c16eedb9d7c2c0252763089e6862fa69a89", "blob_sha": "15c0c6ae889e9759c9ee6a90be91a739e46e57ca", "first_source_commits": ["f153e1ea7c379d9fa0b2ca45392695e8becbd7f4"]},
+    "src/content/ru/blog/ccsp-flashcards.md": {"family_id": "ccsp-flashcards", "canonical_url": "https://nibomo.com/ru/blog/ccsp-flashcards/", "published_date": "2026-07-18", "first_source_date": "2026-07-18", "age_basis_date": "2026-07-18", "age_days": 96, "clicks": 0, "impressions": 0, "engaged_views": 0, "engaged_visitor_days": 0, "sha256": "01b7978cb16f370d872381d616b4a003076a2a172398a34e525cf26246b42661", "blob_sha": "2387adf278cd6d6195c7d2e079a5809dbba325ab", "first_source_commits": ["fd452ac382e80eddcae5eea06380b0fe073daceb"]},
+    "src/content/ru/blog/how-to-connect-flashcards-to-claude-with-mcp.md": {"family_id": "how-to-connect-flashcards-to-claude-with-mcp", "canonical_url": "https://nibomo.com/ru/blog/how-to-connect-flashcards-to-claude-with-mcp/", "published_date": "2026-06-23", "first_source_date": "2026-06-23", "age_basis_date": "2026-06-23", "age_days": 121, "clicks": 0, "impressions": 0, "engaged_views": 0, "engaged_visitor_days": 0, "sha256": "094bb07abc462bd2fbdcf4e8177331fea8439d04cabead1b856a5c51e6817e3c", "blob_sha": "b1920b3a6db24b41401d6e2a75f09b55904a91b2", "first_source_commits": ["d6892a68fdef86f2b3abdcff96bc7abcf7ac627d"]},
+    "src/content/ru/blog/how-to-turn-microsoft-copilot-study-and-learn-into-flashcards.md": {"family_id": "how-to-turn-microsoft-copilot-study-and-learn-into-flashcards", "canonical_url": "https://nibomo.com/ru/blog/how-to-turn-microsoft-copilot-study-and-learn-into-flashcards/", "published_date": "2026-06-09", "first_source_date": "2026-06-09", "age_basis_date": "2026-06-09", "age_days": 135, "clicks": 0, "impressions": 1, "engaged_views": 0, "engaged_visitor_days": 0, "sha256": "20f69d75ecbcbe2a6bec76c42cfdac6529c7f15d96d91544e33574cb8a3cde86", "blob_sha": "7aa4fd6bb7357f8008a9b9f35f9ff8e25e8bc0ff", "first_source_commits": ["186bc7864409d81264863a2e722cf77e80938eda"]},
+    "src/content/ru/blog/how-to-use-flashcards-for-the-ielts.md": {"family_id": "how-to-use-flashcards-for-the-ielts", "canonical_url": "https://nibomo.com/ru/blog/how-to-use-flashcards-for-the-ielts/", "published_date": "2026-07-06", "first_source_date": "2026-07-06", "age_basis_date": "2026-07-06", "age_days": 108, "clicks": 0, "impressions": 5, "engaged_views": 0, "engaged_visitor_days": 0, "sha256": "7bc9a28fbd116589e8d65c3f32029e2460275724f42017804dd46f67dc25f490", "blob_sha": "8e59ffe1086ecbe2cfb681047c9ad9065702ddbb", "first_source_commits": ["84a3f3e50a0c983940566e87c310108378429173"]},
+    "src/content/zh/blog/ai-flashcard-tutor-due-cards.md": {"family_id": "ai-flashcard-tutor-due-cards", "canonical_url": "https://nibomo.com/zh/blog/ai-flashcard-tutor-due-cards/", "published_date": "2026-07-15", "first_source_date": "2026-07-15", "age_basis_date": "2026-07-15", "age_days": 99, "clicks": 0, "impressions": 4, "engaged_views": 0, "engaged_visitor_days": 0, "sha256": "c72af09feaec3b1b11f7f879f71fb3792bce9bb6e9197a0ae0319e201c9f3ce3", "blob_sha": "035f075cb7e9968fb139a3bc134df8c8c3544678", "first_source_commits": ["c3e5b9edcc7ca3b62442f600734b5c118dfb9d17"]},
+    "src/content/zh/blog/ccsp-flashcards.md": {"family_id": "ccsp-flashcards", "canonical_url": "https://nibomo.com/zh/blog/ccsp-flashcards/", "published_date": "2026-07-18", "first_source_date": "2026-07-18", "age_basis_date": "2026-07-18", "age_days": 96, "clicks": 0, "impressions": 0, "engaged_views": 0, "engaged_visitor_days": 0, "sha256": "b1186bab9eac298302856a49234c9fc5fc99d646c69801c8197f9e0edf0aa83c", "blob_sha": "a079beeeec6a94a9137c1ef21a4c26af9804116e", "first_source_commits": ["fd452ac382e80eddcae5eea06380b0fe073daceb"]},
+    "src/content/zh/blog/how-to-connect-flashcards-to-claude-with-mcp.md": {"family_id": "how-to-connect-flashcards-to-claude-with-mcp", "canonical_url": "https://nibomo.com/zh/blog/how-to-connect-flashcards-to-claude-with-mcp/", "published_date": "2026-06-23", "first_source_date": "2026-06-23", "age_basis_date": "2026-06-23", "age_days": 121, "clicks": 0, "impressions": 12, "engaged_views": 0, "engaged_visitor_days": 0, "sha256": "06d6dd561e26cb2c81b1627277eb12222a6136290d25ae0544b49876b39b8f4d", "blob_sha": "95ae01f4651e178c0a3e2f015741b64803976adc", "first_source_commits": ["d6892a68fdef86f2b3abdcff96bc7abcf7ac627d"]},
+    "src/content/zh/blog/how-to-turn-microsoft-copilot-study-and-learn-into-flashcards.md": {"family_id": "how-to-turn-microsoft-copilot-study-and-learn-into-flashcards", "canonical_url": "https://nibomo.com/zh/blog/how-to-turn-microsoft-copilot-study-and-learn-into-flashcards/", "published_date": "2026-06-09", "first_source_date": "2026-06-09", "age_basis_date": "2026-06-09", "age_days": 135, "clicks": 0, "impressions": 1, "engaged_views": 0, "engaged_visitor_days": 0, "sha256": "9fe8683738c7602f682f07ed5b3906d544894d255439421d0b09183c4e06523e", "blob_sha": "bd933e84f68b13b3a9f9a663294bbdc4078c2c6d", "first_source_commits": ["186bc7864409d81264863a2e722cf77e80938eda"]},
+    "src/content/zh/blog/how-to-use-flashcards-for-the-ielts.md": {"family_id": "how-to-use-flashcards-for-the-ielts", "canonical_url": "https://nibomo.com/zh/blog/how-to-use-flashcards-for-the-ielts/", "published_date": "2026-07-06", "first_source_date": "2026-07-06", "age_basis_date": "2026-07-06", "age_days": 108, "clicks": 0, "impressions": 18, "engaged_views": 0, "engaged_visitor_days": 0, "sha256": "bc1f78d9f8df457c25102ca2ab1987a16a6356c732c09e6b0053ee3f03c6863e", "blob_sha": "ef92a64f2b6c10be657b1b437f2026d3a3eab67a", "first_source_commits": ["84a3f3e50a0c983940566e87c310108378429173"]}
+  }
+}

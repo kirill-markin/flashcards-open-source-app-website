@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1again-vs-hard-fsrs-flashcards.md"
 title: "Again vs Hard en FSRS (2026): cómo usar las cuatro valoraciones"
 description: "Aprende cuándo pulsar Again, Hard, Good o Easy en aplicaciones de flashcards con FSRS. Aplica una regla sencilla para valorar lo que recordaste, sin elegir según el intervalo siguiente."
 date: "2026-07-17"
@@ -187,7 +185,7 @@ Revisa esa tarjeta cuando:
 - dos tarjetas parecidas siguen interfiriendo entre sí
 - el dato aporta demasiado poco valor para justificar el tiempo de repaso
 
-Reescribe o divide la tarjeta, vuelve a estudiar el contenido o elimínala en vez de protegerla con Hard. La [guía para corregir flashcards leech](/es/blog/how-to-fix-leech-flashcards/) explica ese flujo de trabajo.
+Reescribe o divide la tarjeta, vuelve a estudiar el contenido o elimínala en vez de protegerla con Hard.
 
 FSRS programa a partir de la señal que le das. No puede reparar una pregunta ambigua, decidir qué detalle ausente era importante ni verificar si tu respuesta oral era correcta.
 

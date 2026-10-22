@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ru~1blog~1how-to-use-flashcards-for-the-ielts.md"
 title: "Как использовать карточки для IELTS в 2026 году: сильные карточки для словаря, Speaking, Writing и Listening"
 description: "Готовитесь к IELTS в 2026 году? Вот практичный подход к карточкам: словарь в контексте, cue cards для Speaking, шаблоны для Writing, перефразирования для Listening и ошибки из официальной практики с AI-черновиками и повторением по FSRS."
 date: "2026-07-06"
@@ -191,8 +189,6 @@ image: "/blog/how-to-use-flashcards-for-the-ielts.png"
 - `Speaking: I answered the question, but I stopped after one short point and never developed it.`
 
 Именно так колода становится лучше каждую неделю, а не просто больше.
-
-Если ваш основной материал - это разбор вопросов и ошибок, следующей логичной статьей будет [Как превратить практические вопросы в карточки в 2026 году](/ru/blog/how-to-turn-practice-questions-into-flashcards/).
 
 ## Используйте AI, чтобы сжимать заметки, а не чтобы он придумывал колоду за вас
 

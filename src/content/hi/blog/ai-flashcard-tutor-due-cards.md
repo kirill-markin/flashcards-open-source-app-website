@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1ai-flashcard-tutor-due-cards.md"
 title: "2026 में AI Flashcard Tutor: MCP से due कार्ड पर quiz करवाएँ और FSRS रिव्यू सेव करें"
 description: "Claude, ChatGPT या Codex को MCP के ज़रिए Nibomo से जोड़ें। AI tutor आपके due कार्ड पर quiz लेता है, हर जवाब grade करता है और rating को FSRS रिव्यू के रूप में सेव कर देता है।"
 date: "2026-07-15"
@@ -179,7 +177,7 @@ Grade असल में model का आकलन है। Tutor जो भ�
 
 Back छिपाना इस loop का तौर-तरीका भर है। `sql_query` कार्ड के दोनों sides पढ़ सकता है, इसलिए loop को नज़रअंदाज़ करने वाला tutor back पहले ही देख सकता है। जिन clients में हर tool के लिए अलग control है, उनमें `sql_query` block करने से यह रास्ता बंद हो जाता है, लेकिन तब डेक और tags खोजने की सुविधा भी चली जाती है।
 
-कार्ड का text Nibomo से बाहर जाता है। Fronts, backs और आपके जवाब AI client तक और वह जिस भी model provider को इस्तेमाल करता है, उस तक पहुँचते हैं, और वहाँ उसी provider की retention और training settings लागू होती हैं। [क्या Flashcards के लिए MCP सुरक्षित है?](/hi/blog/is-mcp-safe-for-flashcards/) data path, permissions और prompt injection को विस्तार से समझाता है। Vocabulary डेक और काम के गोपनीय notes से बने कार्ड, दोनों के लिए फ़ैसला अलग होना चाहिए।
+कार्ड का text Nibomo से बाहर जाता है। Fronts, backs और आपके जवाब AI client तक और वह जिस भी model provider को इस्तेमाल करता है, उस तक पहुँचते हैं, और वहाँ उसी provider की retention और training settings लागू होती हैं। Vocabulary डेक और काम के गोपनीय notes से बने कार्ड, दोनों के लिए फ़ैसला अलग होना चाहिए।
 
 ## AI flashcard tutor के बारे में आम सवाल
 

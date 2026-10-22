@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1again-vs-hard-fsrs-flashcards.md"
 title: "FSRS में Again या Hard (2026): चार Flashcard Ratings कैसे चुनें"
 description: "FSRS वाले flashcard apps में Again, Hard, Good और Easy कब दबाएँ। पहले तय करें कि जवाब याद आया या नहीं; अगला interval देखकर rating न चुनें।"
 date: "2026-07-17"
@@ -187,7 +185,7 @@ Typing की गलती दिखाती है कि कार्ड म�
 - दो मिलते-जुलते कार्ड याद करने में बार-बार दखल देते हैं
 - वह तथ्य इतना कम उपयोगी है कि उस पर review का समय लगाना सही नहीं लगता
 
-कार्ड को `Hard` देकर बचाने के बजाय उसे दोबारा लिखिए, बाँटिए, फिर से सीखिए या हटाइए। [Leech cards साफ़ करने की guide](/hi/blog/how-to-fix-leech-flashcards/) में यह तरीका विस्तार से दिया गया है।
+कार्ड को `Hard` देकर बचाने के बजाय उसे दोबारा लिखिए, बाँटिए, फिर से सीखिए या हटाइए।
 
 FSRS आपके दिए संकेत के आधार पर schedule बनाता है। वह अस्पष्ट सवाल ठीक नहीं कर सकता, यह तय नहीं कर सकता कि छूटी हुई कौन-सी बात ज़रूरी थी और न ही आपके बोले जवाब की तथ्य-जाँच कर सकता है।
 
