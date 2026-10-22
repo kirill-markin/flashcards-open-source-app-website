@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-use-flashcards-for-the-ielts.md"
 title: "So nutzt du 2026 Flashcards für den IELTS: bessere Karten für Wortschatz, Speaking, Writing und Listening"
 description: "Du bereitest dich 2026 auf den IELTS vor? Nutze einen praktischen Flashcard-Workflow für Wortschatz im Kontext, Speaking Cue Cards, Writing-Muster, Listening-Paraphrasen und Fehler aus offiziellen Übungen mit KI-Entwürfen plus FSRS-Wiederholung."
 date: "2026-07-06"
@@ -191,8 +189,6 @@ Beispiele:
 - `Speaking: I answered the question, but I stopped after one short point and never developed it.`
 
 So wird das Deck jede Woche besser, statt nur größer zu werden.
-
-Wenn dein Material hauptsächlich aus der Nachbereitung von Fragen besteht, ist [Wie du 2026 Übungsfragen in Flashcards verwandelst](/de/blog/how-to-turn-practice-questions-into-flashcards/) die passendste nächste Lektüre.
 
 ## Nutze KI, um deine Notizen zu verdichten, nicht um dir das Deck erfinden zu lassen
 

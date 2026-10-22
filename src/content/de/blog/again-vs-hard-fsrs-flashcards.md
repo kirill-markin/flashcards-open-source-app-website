@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1again-vs-hard-fsrs-flashcards.md"
 title: "Again vs Hard in FSRS (2026): So nutzt du die vier Bewertungen"
 description: "Wann solltest du in FSRS-basierten Karteikarten-Apps Again, Hard, Good oder Easy wählen? Eine einfache Regel hilft dir, ehrlich statt nach dem nächsten Intervall zu bewerten."
 date: "2026-07-17"
@@ -187,7 +185,7 @@ Sieh dir eine Karte genauer an, wenn:
 - du zwei ähnliche Karten ständig verwechselst
 - die Information zu wenig wert ist, um die Zeit für Wiederholungen zu rechtfertigen
 
-Formuliere die Karte neu, teile sie auf, lerne sie erneut oder entferne sie, statt sie mit Hard zu schonen. Der gezielte [Leitfaden zum Bereinigen von Leech-Karten](/de/blog/how-to-fix-leech-flashcards/) erklärt diesen Ablauf.
+Formuliere die Karte neu, teile sie auf, lerne sie erneut oder entferne sie, statt sie mit Hard zu schonen.
 
 FSRS plant mit dem Signal, das du ihm gibst. Es kann weder einen unklaren Prompt reparieren noch entscheiden, welches fehlende Detail wichtig war oder ob deine gesprochene Antwort sachlich stimmt.
 

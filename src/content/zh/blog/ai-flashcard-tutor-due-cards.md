@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1ai-flashcard-tutor-due-cards.md"
 title: "2026 年 AI 闪卡导师：通过 MCP 测验到期卡片，评分保存为 FSRS 复习"
 description: "通过 MCP 把 Claude、ChatGPT 或 Codex 接入 Nibomo。AI 导师拿你的到期卡片测验你，给每次作答评分，再把评分保存为一次 FSRS 复习。"
 date: "2026-07-15"
@@ -181,7 +179,7 @@ default_tools_approval_mode = "writes"
 
 隐藏背面只是这个循环的约定。`sql_query` 能读到卡片的正反两面，不按循环来的导师就可能提前看到背面。在能逐个控制工具权限的客户端里，禁用 `sql_query` 就能堵上这条路，代价是没法再查牌组和标签。
 
-卡片内容会离开 Nibomo。正面、背面和你的回答都会发给 AI 客户端以及它所用的模型提供商，适用该提供商的数据保留和训练设置。[通过 MCP 连接 Nibomo 安全吗？](/zh/blog/is-mcp-safe-for-flashcards/)详细讲了数据流向、权限和提示词注入。一套词汇牌组，和用机密工作笔记做成的卡片，该做的决定自然不一样。
+卡片内容会离开 Nibomo。正面、背面和你的回答都会发给 AI 客户端以及它所用的模型提供商，适用该提供商的数据保留和训练设置。一套词汇牌组，和用机密工作笔记做成的卡片，该做的决定自然不一样。
 
 ## AI 闪卡导师常见问题
 

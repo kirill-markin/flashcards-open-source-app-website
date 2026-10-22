@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1en~1blog~1ai-flashcard-tutor-due-cards.md"
 title: "AI Flashcard Tutor in 2026: Quiz Due Cards and Save FSRS Reviews Over MCP"
 description: "Connect Claude, ChatGPT, or Codex to Nibomo over MCP. The AI tutor quizzes your due cards, grades each answer, and saves the rating as an FSRS review."
 date: "2026-07-15"
@@ -41,7 +39,7 @@ Nothing is reserved between those steps. If a chat reconnects halfway, `next_rev
 
 The grading rules come from Nibomo, so the tutor doesn't have to invent them. `get_guide` with the topic `review_flow` returns the full review loop and rating rules. On MCP, each review tool repeats those rules in its result, so a long session doesn't depend on the tutor remembering a guide it read twenty minutes earlier.
 
-Showing the front alone turns each card into a retrieval attempt. In one randomized trial, pediatric and emergency medicine residents took repeated short-answer tests with feedback on one topic and repeatedly studied a review sheet with the same information on another. More than six months later, the 40 residents who finished scored an average of 39% on the tested topic and 26% on the studied one, according to the [published abstract](https://pubmed.ncbi.nlm.nih.gov/19930508/). That was a small medical-education study, not a test of AI tutors. It still backs the basic design here: try first, then see the answer. If you want the bigger picture, [active recall and spaced repetition do different jobs](/blog/active-recall-vs-spaced-repetition/), and this loop covers both.
+Showing the front alone turns each card into a retrieval attempt. In one randomized trial, pediatric and emergency medicine residents took repeated short-answer tests with feedback on one topic and repeatedly studied a review sheet with the same information on another. More than six months later, the 40 residents who finished scored an average of 39% on the tested topic and 26% on the studied one, according to the [published abstract](https://pubmed.ncbi.nlm.nih.gov/19930508/). That was a small medical-education study, not a test of AI tutors. It still backs the basic design here: try first, then see the answer. Active recall and spaced repetition do different jobs, and this loop covers both.
 
 ## Connect Claude, ChatGPT, or Codex
 
@@ -181,7 +179,7 @@ The grade is the model's judgment. `submit_review` stores whatever rating the tu
 
 Hiding the back is a convention of the loop. `sql_query` can read both sides of a card, so a tutor that ignores the loop could see the back early. Blocking `sql_query` closes that path in clients with per-tool controls, at the cost of deck and tag lookups.
 
-Card text leaves Nibomo. Fronts, backs, and your answers go to the AI client and whichever model provider it uses, under that provider's retention and training settings. [Is MCP Safe for Flashcards?](/blog/is-mcp-safe-for-flashcards/) covers the data path, permissions, and prompt injection in detail. A vocabulary deck and cards built from confidential work notes deserve different decisions.
+Card text leaves Nibomo. Fronts, backs, and your answers go to the AI client and whichever model provider it uses, under that provider's retention and training settings. A vocabulary deck and cards built from confidential work notes deserve different decisions.
 
 ## FAQ about AI flashcard tutors
 

@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-use-flashcards-for-the-ielts.md"
 title: "2026 年如何用抽认卡备考 IELTS：更适合词汇、口语、写作和听力的卡片"
 description: "准备在 2026 年考 IELTS？用一套更实用的抽认卡工作流来处理语境词汇、口语 cue card、写作句式、听力释义替换，以及官方练习中的错题，再配合 AI 起草和 FSRS 复习。"
 date: "2026-07-06"
@@ -191,8 +189,6 @@ British Council 的备考指南建议你聚焦自己的弱项、练 mock tests�
 - `Speaking: 我回答了问题，但只说了一个很短的点，后面完全没有展开。`
 
 这样，你的卡组才会每周都变得更好，而不是只会越来越大。
-
-如果你的原始素材本来就主要来自题目复盘，那篇 [2026 年如何把练习题做成 Flashcards](/zh/blog/how-to-turn-practice-questions-into-flashcards/) 会是最直接的下一篇。
 
 ## 用 AI 压缩你的笔记，不要让它替你发明整副卡组
 

@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-turn-microsoft-copilot-study-and-learn-into-flashcards.md"
 title: "2026 年如何把 Microsoft Copilot Study and Learn 变成闪卡：保留导师，用 FSRS 长期复习"
 description: "把 Word 文档、PowerPoint、PDF 和 URL 放进 Microsoft Copilot Study and Learn 做引导式学习，再只把真正的薄弱点转进 Nibomo，用 FSRS 做间隔重复。"
 date: "2026-06-09"
@@ -73,7 +71,7 @@ keywords:
 - 课程门户里的源链接
 - 存在 Copilot Pages 里的笔记
 
-如果你的起点本来就是课件或 PDF，这两篇配套流程刚好接得上：[2026 年如何把 PowerPoint 变成抽认卡](/zh/blog/how-to-turn-powerpoint-into-flashcards/) 和 [2026 年如何把 PDF 变成 Flashcards](/zh/blog/how-to-turn-a-pdf-into-flashcards/)。
+如果你的起点是 PDF，可以参考[2026 年如何把 PDF 变成 Flashcards](/zh/blog/how-to-turn-a-pdf-into-flashcards/)。
 
 这和把网上随手找来的摘要直接塞进卡组，完全不是一回事。
 
@@ -110,8 +108,6 @@ keywords:
 
 如果你把这些全都留下，卡组很快就会变成另一个待管理项目。这正是很多人找 AI 学习工具时，本来最想避开的东西。
 
-如果你现在最大的麻烦已经是复习负担太重，下一篇应该直接看 [2026 年如何避免 AI 抽认卡过载](/zh/blog/how-to-avoid-ai-flashcard-overload/)。
-
 ## 一场 Copilot 会话之后，我真正会反复使用的流程
 
 这是我在普通一周里真的会反复用的版本：
@@ -129,7 +125,7 @@ keywords:
 
 不需要导出整段长长的聊天记录。也不需要费很大劲保留每一个活动。更不需要假装“完整保存一切”才算认真学习。
 
-如果你也喜欢把导师型工具接到闪卡系统上，最接近的两篇配套文章是 [2026 年如何把 ChatGPT Study Mode 变成闪卡](/zh/blog/how-to-turn-chatgpt-study-mode-into-flashcards/) 和 [2026 年如何把 Gemini Guided Learning 变成闪卡](/zh/blog/gemini-guided-learning-to-flashcards/)。
+如果你也喜欢把导师型工具接到闪卡系统上，可以接着看 [2026 年如何把 Gemini Guided Learning 变成闪卡](/zh/blog/gemini-guided-learning-to-flashcards/)。
 
 ## 一张好的 Study and Learn 卡，保留的是失误，不是整段对话
 

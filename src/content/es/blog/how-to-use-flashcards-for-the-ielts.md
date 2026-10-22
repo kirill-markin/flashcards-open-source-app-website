@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-use-flashcards-for-the-ielts.md"
 title: "Cómo usar flashcards para el IELTS en 2026: mejores tarjetas para vocabulario, speaking, writing y listening"
 description: "¿Te preparas para el IELTS en 2026? Usa un sistema práctico de flashcards para vocabulario en contexto, cue cards de Speaking, patrones de Writing, paráfrasis de Listening y errores de práctica oficial con ayuda de IA y repaso con FSRS."
 date: "2026-07-06"
@@ -191,8 +189,6 @@ Ejemplos:
 - `Speaking: respondí a la pregunta, pero me detuve tras un punto corto y nunca desarrollé la idea.`
 
 Así es como el mazo mejora cada semana en vez de limitarse a crecer.
-
-Si tu material de origen es sobre todo revisión de preguntas, [Cómo convertir preguntas de práctica en tarjetas de estudio en 2026](/es/blog/how-to-turn-practice-questions-into-flashcards/) es la siguiente lectura más relevante.
 
 ## Usa la IA para comprimir tus notas, no para inventarte el mazo
 

@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1ccsp-flashcards.md"
 title: "2026 年 CCSP 闪卡：按 8 月 1 日版考试大纲备考"
 description: "按照 2026 年 8 月 1 日版考试大纲制作 CCSP 闪卡：领域平均权重、调整后的 AI/ML 考查范围、决策卡、练习错题与 FSRS 复习。"
 date: "2026-07-18"
@@ -175,8 +173,6 @@ ISC2 在 [6 月 30 日的更新公告](https://www.isc2.org/Insights/2026/06/isc
 - 背面：服务模型、涉及的资产与数据、分配给各方的责任，以及控制措施必须满足的要求。
 
 这张卡保留了决策模式，却没有复现受保护的试题内容。ISC2 的[考试保密协议](https://www.isc2.org/exams/non-disclosure-agreement)规定，未经书面批准，考生不得披露或讨论考试试题、题项或答案。只有在材料许可条款允许你做此类笔记时，才能使用 `授权练习集-2` 之类的私有来源标签。不要使用泄题资料、回忆题，也不要使用任何声称来自实际考试的题目。
-
-详细的[练习题转闪卡流程](/blog/how-to-turn-practice-questions-into-flashcards/)进一步介绍了事实缺口、概念辨析、顺序和陷阱模式。
 
 ## 将主动回忆卡与完整场景练习分开
 

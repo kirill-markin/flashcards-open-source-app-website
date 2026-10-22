@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-turn-microsoft-copilot-study-and-learn-into-flashcards.md"
 title: "كيف تحوّل Microsoft Copilot Study and Learn إلى بطاقات تعليمية في 2026: احتفِظ بالمعلّم وراجع باستخدام FSRS"
 description: "استخدم Microsoft Copilot Study and Learn مع ملفات Word وPowerPoint وPDF وروابطك الدراسية، ثم انقل فقط نقاط الضعف إلى Nibomo حتى تراجعها بالتكرار المتباعد عبر FSRS."
 date: "2026-06-09"
@@ -73,8 +71,6 @@ keywords:
 - روابط مصدرية من بوابة المقرر
 - ملاحظات مجمعة داخل Copilot Pages
 
-إذا كانت مادّتك تبدأ غالبًا من الشرائح أو ملفات PDF، فالمساران المرافقان هنا هما [كيفية تحويل PowerPoint إلى بطاقات تعليمية في 2026](/ar/blog/how-to-turn-powerpoint-into-flashcards/) و[كيفية تحويل ملف PDF إلى بطاقات تعليمية في 2026](/ar/blog/how-to-turn-a-pdf-into-flashcards/).
-
 وهذا يختلف تمامًا عن جمع ملخصات عشوائية من الويب ثم دفعها كلها إلى مجموعة بطاقات.
 
 أنا سأستخدم Study and Learn بهذه الطريقة:
@@ -110,8 +106,6 @@ keywords:
 
 إذا حفظت كل هذا، تتحول المجموعة إلى مشروع إضافي يحتاج إلى إدارة. وهذا بالضبط ما يحاول كثير من الناس تجنبه أصلًا حين يبحثون عن أدوات دراسة بالذكاء الاصطناعي.
 
-إذا كان عبء المراجعة يتضخم لديك أصلًا، فمقالة [كيف تتجنب تضخم بطاقات الذكاء الاصطناعي التعليمية في 2026](/ar/blog/how-to-avoid-ai-flashcard-overload/) هي القراءة التالية المناسبة.
-
 ## سير العمل الذي سأستخدمه فعلًا بعد جلسة Copilot
 
 هذه هي النسخة التي أكررها داخل أسبوع دراسة حقيقي:
@@ -129,7 +123,7 @@ keywords:
 
 لا حاجة إلى تصدير محادثة كاملة. ولا إلى جهد بطولي للاحتفاظ بكل نشاط. ولا إلى شعور زائف بالكمال.
 
-إذا أعجبك منطق التسليم نفسه في أدوات تعليمية أخرى، فالمادتان الأقرب هنا هما [كيف تحوّل ChatGPT Study Mode إلى بطاقات تعليمية في 2026](/ar/blog/how-to-turn-chatgpt-study-mode-into-flashcards/) و[كيف تحوّل Gemini Guided Learning إلى بطاقات تعليمية في 2026](/ar/blog/gemini-guided-learning-to-flashcards/).
+إذا أعجبك منطق التسليم نفسه في أدوات تعليمية أخرى، فمقالة [كيف تحوّل Gemini Guided Learning إلى بطاقات تعليمية في 2026](/ar/blog/gemini-guided-learning-to-flashcards/) هي الأقرب هنا.
 
 ## كيف تبدو البطاقة الجيدة بعد Study and Learn
 

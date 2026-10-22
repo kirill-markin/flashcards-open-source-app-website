@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1ai-flashcard-tutor-due-cards.md"
 title: "Tutor de flashcards con IA en 2026: te pregunta tus tarjetas pendientes y guarda repasos de FSRS con MCP"
 description: "Conecta Claude, ChatGPT o Codex a Nibomo por MCP. El tutor con IA te pregunta tus tarjetas pendientes, evalúa cada respuesta y guarda la valoración como un repaso de FSRS."
 date: "2026-07-15"
@@ -181,7 +179,7 @@ La valoración es el criterio del modelo. `submit_review` guarda la valoración 
 
 Que el reverso quede oculto es una convención del ciclo. `sql_query` puede leer las dos caras de una tarjeta, así que un tutor que se salte el ciclo podría ver el reverso antes de tiempo. En los clientes con controles por herramienta, bloquear `sql_query` cierra esa vía, a cambio de perder las búsquedas de mazos y etiquetas.
 
-El texto de las tarjetas sale de Nibomo. Los anversos, los reversos y tus respuestas van al cliente de IA y al proveedor de modelos que use, según la configuración de retención y entrenamiento de ese proveedor. [¿Es seguro usar MCP con Nibomo?](/es/blog/is-mcp-safe-for-flashcards/) explica en detalle el recorrido de los datos, los permisos y la inyección de prompts. Un mazo de vocabulario y unas tarjetas sacadas de notas de trabajo confidenciales no merecen la misma decisión.
+El texto de las tarjetas sale de Nibomo. Los anversos, los reversos y tus respuestas van al cliente de IA y al proveedor de modelos que use, según la configuración de retención y entrenamiento de ese proveedor. Un mazo de vocabulario y unas tarjetas sacadas de notas de trabajo confidenciales no merecen la misma decisión.
 
 ## Preguntas frecuentes sobre tutores de flashcards con IA
 

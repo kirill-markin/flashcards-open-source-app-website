@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1ccsp-flashcards.md"
 title: "CCSP-Flashcards 2026: Für die Prüfungsübersicht ab dem 1. August lernen"
 description: "Erstelle CCSP-Flashcards für die Prüfungsübersicht ab dem 1. August 2026: durchschnittliche Domänengewichtungen, überarbeitete KI/ML-Themen, Entscheidungskarten, Fehler aus Übungsfragen und Wiederholung mit FSRS."
 date: "2026-07-18"
@@ -175,8 +173,6 @@ Angenommen, ein Übungsszenario zeigt, dass du eine Sicherheitsmaßnahme ausgew�
 - Rückseite: Das Servicemodell, die betroffenen Ressourcen und Daten, die zugewiesenen Verantwortlichkeiten der Parteien und die Anforderung, die die Sicherheitsmaßnahme erfüllen muss.
 
 Diese Karte bewahrt das Entscheidungsmuster, ohne geschützte Prüfungsinhalte wiederzugeben. Laut der [Geheimhaltungsvereinbarung für Prüfungen](https://www.isc2.org/exams/non-disclosure-agreement) von ISC2 dürfen Kandidaten ohne schriftliche Genehmigung keine Prüfungsfragen, -aufgaben oder -antworten offenlegen oder besprechen. Verwende eine private Quellenbezeichnung wie `autorisierter-uebungssatz-2` nur, wenn die Bedingungen des Materials eine solche Notiz zulassen. Verzichte auf Prüfungs-Dumps, Gedächtnisprotokolle und jeden Prompt, der als echte Prüfungsaufgabe dargestellt wird.
-
-Der ausführliche [Workflow zur Umwandlung von Übungsfragen](/blog/how-to-turn-practice-questions-into-flashcards/) behandelt Wissenslücken, Unterscheidungen, Reihenfolgen und typische Fallen noch genauer.
 
 ## Trenne Abrufkarten von vollständigem Szenariotraining
 

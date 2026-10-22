@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-use-flashcards-for-the-ielts.md"
 title: "2026年版 IELTS対策にフラッシュカードを使う方法: 語彙・スピーキング・ライティング・リスニングに効くカード"
 description: "2026年のIELTS対策に向けて、文脈つき語彙、Speaking のキューカード、Writing の型、Listening の言い換え、公式演習での取りこぼしを、AI の下書きと FSRS 復習で回す実践的なフラッシュカード運用を解説します。"
 date: "2026-07-06"
@@ -191,8 +189,6 @@ British Council の対策ガイドは、弱点に集中し、模擬試験で練�
 - `Speaking: 質問には答えたが、短い1点で止まり、その先を広げられなかった。`
 
 こうして初めて、デッキは毎週ただ大きくなるのではなく、毎週少しずつ良くなっていきます。
-
-素材の中心が問題演習の復習なら、次に読むべきものとして最も近いのは [2026年版 演習問題をフラッシュカードに変える方法](/ja/blog/how-to-turn-practice-questions-into-flashcards/) です。
 
 ## AIはノートを圧縮するために使うべきで、デッキを丸ごと発明させるためではない
 

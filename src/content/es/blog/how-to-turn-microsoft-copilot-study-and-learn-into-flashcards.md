@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-turn-microsoft-copilot-study-and-learn-into-flashcards.md"
 title: "Cómo convertir Microsoft Copilot Study and Learn en flashcards en 2026: conserva el tutor y repasa con FSRS"
 description: "Usa Microsoft Copilot Study and Learn con tus propios documentos de Word, PDF, diapositivas y URLs, y convierte solo los puntos débiles en flashcards para repasarlos en Nibomo con FSRS."
 date: "2026-06-09"
@@ -73,8 +71,6 @@ Study and Learn tiene más sentido cuando tu estudio ya vive dentro de archivos 
 - enlaces de fuentes desde el portal de tu curso
 - notas reunidas en una Copilot Page
 
-Si tu material de partida son sobre todo diapositivas o PDF, los flujos complementarios son [Cómo convertir PowerPoint en flashcards en 2026](/es/blog/how-to-turn-powerpoint-into-flashcards/) y [Cómo convertir un PDF en flashcards en 2026](/es/blog/how-to-turn-a-pdf-into-flashcards/).
-
 Eso se parece muy poco a sacar resúmenes aleatorios de la web para meterlos en un mazo de tarjetas.
 
 Yo usaría Study and Learn así:
@@ -110,8 +106,6 @@ En la mayoría de las sesiones guiadas sobra mucho material que no merece una ta
 
 Si guardas todo, el mazo se convierte en otro proyecto que mantener. Ese es justo el problema que mucha gente intenta evitar cuando empieza a buscar herramientas de estudio con IA.
 
-Si la carga de repaso ya se te está yendo de las manos, [Cómo evitar la sobrecarga de flashcards hechas con IA en 2026](/es/blog/how-to-avoid-ai-flashcard-overload/) es la siguiente lectura lógica.
-
 ## El flujo de trabajo que yo sí repetiría después de una sesión con Copilot
 
 Esta es la versión que repetiría en una semana normal:
@@ -129,7 +123,7 @@ Ese es todo el sistema.
 
 Nada de exportar una transcripción gigante. Nada de hacer un esfuerzo heroico por conservar cada actividad. Nada de una falsa sensación de completitud.
 
-Si te interesa el mismo relevo en otras herramientas de tutoría, los artículos más cercanos son [Cómo convertir ChatGPT Study Mode en flashcards en 2026](/es/blog/how-to-turn-chatgpt-study-mode-into-flashcards/) y [Cómo convertir Gemini Guided Learning en flashcards en 2026](/es/blog/gemini-guided-learning-to-flashcards/).
+Si te interesa el mismo relevo en otras herramientas de tutoría, puedes seguir con [Cómo convertir Gemini Guided Learning en flashcards en 2026](/es/blog/gemini-guided-learning-to-flashcards/).
 
 ## Cómo es una buena tarjeta nacida de Study and Learn
 

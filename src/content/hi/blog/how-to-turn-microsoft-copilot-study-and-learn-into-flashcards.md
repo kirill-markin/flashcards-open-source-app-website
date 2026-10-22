@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-turn-microsoft-copilot-study-and-learn-into-flashcards.md"
 title: "2026 में Microsoft Copilot Study and Learn को फ़्लैशकार्ड्स में कैसे बदलें: ट्यूटर बनाए रखें, FSRS के साथ review करें"
 description: "अपने Word documents, PDF files, slides और URLs के साथ Microsoft Copilot Study and Learn का इस्तेमाल करें, फिर सिर्फ़ कमज़ोर हिस्सों को Nibomo में ले जाकर FSRS के साथ spaced repetition review करें।"
 date: "2026-06-09"
@@ -73,8 +71,6 @@ Study and Learn तब सबसे ज़्यादा काम की ह�
 - class portal से source links
 - Copilot Page में रखे notes
 
-अगर आपका starting material ज़्यादातर slides या PDFs हैं, तो इससे जुड़ी workflows हैं [2026 में PowerPoint को फ़्लैशकार्ड्स में कैसे बदलें](/hi/blog/how-to-turn-powerpoint-into-flashcards/) और [2026 में PDF को फ़्लैशकार्ड्स में कैसे बदलें](/hi/blog/how-to-turn-a-pdf-into-flashcards/)।
-
 यह random web summaries उठाकर deck बनाने वाले workflow से काफ़ी अलग है।
 
 मैं Study and Learn को इस तरह इस्तेमाल करूँगा:
@@ -110,8 +106,6 @@ Microsoft की usage guide session के अंदर remediation और miss
 
 अगर आप यह सब save कर लेंगे, तो deck खुद एक नया project बन जाएगी। बहुत लोग AI study tools इसलिए ढूँढते हैं कि admin work कम हो, बढ़े नहीं।
 
-अगर review load पहले से हाथ से निकल रही है, तो [2026 में AI flashcard overload से कैसे बचें](/hi/blog/how-to-avoid-ai-flashcard-overload/) अगला सही article है।
-
 ## Copilot session के बाद मैं जो workflow सच में अपनाऊँगा
 
 असल हफ़्ते में मैं यही version दोहराऊँगा:
@@ -129,7 +123,7 @@ Microsoft की usage guide session के अंदर remediation और miss
 
 कोई giant transcript export नहीं। हर activity को बचाने की heroic कोशिश नहीं। और completeness का नकली एहसास भी नहीं।
 
-अगर आपको tutor-style tools में यही handoff पसंद है, तो इसके सबसे क़रीबी companion articles हैं [2026 में ChatGPT Study Mode को फ़्लैशकार्ड्स में कैसे बदलें](/hi/blog/how-to-turn-chatgpt-study-mode-into-flashcards/) और [2026 में Gemini Guided Learning को फ़्लैशकार्ड्स में कैसे बदलें](/hi/blog/gemini-guided-learning-to-flashcards/)।
+अगर आपको tutor-style tools में यही handoff पसंद है, तो [2026 में Gemini Guided Learning को फ़्लैशकार्ड्स में कैसे बदलें](/hi/blog/gemini-guided-learning-to-flashcards/) इससे जुड़ा article है।
 
 ## एक अच्छा Study and Learn card कैसा दिखता है
 

@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-use-flashcards-for-the-ielts.md"
 title: "2026 में IELTS के लिए फ्लैशकार्ड कैसे इस्तेमाल करें: शब्दावली, स्पीकिंग, राइटिंग और लिसनिंग के लिए बेहतर कार्ड"
 description: "2026 में IELTS की तैयारी कर रहे हैं? संदर्भ के साथ शब्दावली, स्पीकिंग cue cards, राइटिंग patterns, लिसनिंग paraphrases, और official-practice misses के लिए AI drafting plus FSRS review वाला एक व्यावहारिक flashcard workflow अपनाइए।"
 date: "2026-07-06"
@@ -191,8 +189,6 @@ Examples:
 - `Speaking: मैंने सवाल का जवाब दिया, लेकिन सिर्फ एक छोटी point के बाद रुक गया और उसे develop ही नहीं किया।`
 
 यही वह तरीका है जिससे deck हर हफ्ते बेहतर होती है, सिर्फ बड़ी नहीं।
-
-अगर आपका source material ज्यादातर question review है, तो [2026 में अभ्यास प्रश्नों को फ़्लैशकार्ड में कैसे बदलें](/hi/blog/how-to-turn-practice-questions-into-flashcards/) अगला सबसे relevant article है।
 
 ## AI का इस्तेमाल notes को compress करने के लिए करें, deck invent करने के लिए नहीं
 

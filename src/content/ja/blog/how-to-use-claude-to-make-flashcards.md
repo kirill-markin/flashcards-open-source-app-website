@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-use-claude-to-make-flashcards.md"
 title: "2026年にClaudeでフラッシュカードを作る方法: Projects、ファイルアップロード、FSRSレビュー"
 description: "2026年版の実践的なClaudeフラッシュカード手順。Projectsとファイルアップロードで、小さく見直しやすいカード案を作り、残す価値があるものだけをNibomoへ移してFSRSで復習します。"
 date: "2026-06-11"
@@ -173,7 +171,7 @@ Claudeは境界線がはっきりしていると、たいてい素直に動き�
 
 ここが重要なのは、Claudeが勉強システムをゼロから発明しているわけではないからです。やっているのは、元資料を、もっと狭い想起対象へ変える手伝いです。
 
-入力の中心がノートなら、[2026年版 ノートをフラッシュカードに変える方法](/ja/blog/turn-notes-into-flashcards/) が、整理の段階をもう少し深く掘っています。入力の中心がファイルなら、[2026年版 PDFをフラッシュカード化する方法](/ja/blog/how-to-turn-a-pdf-into-flashcards/) のほうがより近い相方です。
+入力の中心がノートなら、[2026年版 ノートをフラッシュカードに変える方法](/ja/blog/turn-notes-into-flashcards/) が、整理の段階をもう少し深く掘っています。
 
 ## まだClaudeっぽさが残るカードは削る
 
