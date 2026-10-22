@@ -126,7 +126,7 @@ Microsoft の usage guide でも、間違えた項目のやり直しや補習が
 
 巨大な会話書き出しは不要です。すべてのアクティビティを保存しようとする頑張りもいりません。形だけの完全性もいりません。
 
-同じ受け渡しを他の家庭教師系ツールで見たいなら、いちばん近いのは [2026年版 ChatGPT Study Mode をフラッシュカードに変える方法](/ja/blog/how-to-turn-chatgpt-study-mode-into-flashcards/) と [2026年版 Gemini Guided Learning をフラッシュカードに変える方法](/ja/blog/gemini-guided-learning-to-flashcards/) です。
+同じ受け渡しを他の家庭教師系ツールで見たいなら、[2026年版 Gemini Guided Learning をフラッシュカードに変える方法](/ja/blog/gemini-guided-learning-to-flashcards/) が近い例です。
 
 ## 良い Study and Learn カードは、会話全体ではなくミスを残す
 

@@ -171,7 +171,7 @@ Claude 通常很吃清楚的边界。问题几乎从来不是 prompt 魔法不�
 
 这个规律之所以重要，是因为 Claude 不是在凭空发明一套学习系统。它是在帮你把原始材料，转成更窄、更清楚的提取目标。
 
-如果你的输入主要是笔记，那篇 [2026 年如何把笔记变成 Flashcards](/zh/blog/turn-notes-into-flashcards/) 会更深入讲清理这一步。如果你的输入一开始就是文件，那篇 [2026 年如何把 PDF 变成 Flashcards](/zh/blog/how-to-turn-a-pdf-into-flashcards/) 会更贴近。
+如果你的输入主要是笔记，那篇 [2026 年如何把笔记变成 Flashcards](/zh/blog/turn-notes-into-flashcards/) 会更深入讲清理这一步。
 
 ## 把那些听起来还像 Claude 的卡删掉
 

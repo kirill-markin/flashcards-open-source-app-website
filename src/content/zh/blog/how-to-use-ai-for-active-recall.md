@@ -113,11 +113,9 @@ Google 在 **Learn Your Way** 的公告里把这个方向推得更明显：使�
 
 这些才叫真实的薄弱点。“第 6 章还得再加强”不算。
 
-如果你的材料起点是笔记、学习提纲或 PDF，在进入这类回忆对话之前，下面这些配套工作流通常很顺手：
+如果你的材料起点是笔记，在进入这类回忆对话之前，可以先按这篇指南整理：
 
 - [2026 年如何把笔记整理成闪卡](/zh/blog/turn-notes-into-flashcards/)
-- [2026 年如何把学习提纲做成抽认卡](/zh/blog/how-to-turn-a-study-guide-into-flashcards/)
-- [2026 年如何把 PDF 做成抽认卡](/zh/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## 保存薄弱点，不要保存整场“表现”
 

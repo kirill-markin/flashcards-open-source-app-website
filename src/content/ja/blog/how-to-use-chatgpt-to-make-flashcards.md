@@ -201,8 +201,6 @@ OpenAIの現在の[Study Modeガイド](https://help.openai.com/en/articles/1178
 
 Study Modeは通常のチャットとTemporary Chatでは利用できますが、GPTやProjects内の会話では利用できません。ChatGPTの[Projects](https://help.openai.com/en/articles/10169521-using-projects-in-chatgpt)には、ファイル、指示、チャットをまとめておき、繰り返し使う文脈を保てるため、長期の学習にはProjectsが役立つ場合もあります。Study Modeを使いたいときは、通常のチャットを開いてください。
 
-関連記事の[ChatGPT Study Modeからフラッシュカードを作る方法](/ja/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)では、個別指導、間違えた点、苦手分野に焦点を当てています。本稿で扱うのは、資料から承認済みデッキを作るまでの、より広い流れです。
-
 ## 承認したカードだけを出力する
 
 承認後に、ChatGPTへ「全部きれいに整えて」と頼んではいけません。カードがひそかに追加されたり、項目が結合されたり、事実の表現が変わったりする可能性があります。承認したIDを指定し、内容を固定します。

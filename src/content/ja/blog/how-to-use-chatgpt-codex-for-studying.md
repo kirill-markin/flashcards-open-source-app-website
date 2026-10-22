@@ -203,7 +203,7 @@ ChatGPTのWeb版は、ローカルのCodexに保存された`config.toml`のMCP�
 
 一度読み返し、残したいカードだけをNibomoへコピーして、いつもの復習に進みます。非公開の教材を扱う場合、学校が管理するアカウントを使っている場合、AIクライアントに保存済みのカードを読ませたくない場合には、手動入力が無理のない選択です。
 
-関連記事の[ChatGPT Study Modeをフラッシュカードに変える方法](/ja/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)では、コネクタを使わず、家庭教師との対話からカードを作る流れに焦点を当てています。[ChatGPTでフラッシュカードを作る方法](/ja/blog/how-to-use-chatgpt-to-make-flashcards/)では、ノートからカード案を作る、より広い使い方を紹介しています。Anthropicのツールも使うなら、[Claudeで勉強する方法](/ja/blog/how-to-use-claude-for-studying/)で、Claude独自のコネクタ設定を使い、家庭教師からMCPへ引き継ぐ同じ流れを確認できます。
+[ChatGPTでフラッシュカードを作る方法](/ja/blog/how-to-use-chatgpt-to-make-flashcards/)では、ノートからカード案を作る、より広い使い方を紹介しています。Anthropicのツールも使うなら、[Claudeで勉強する方法](/ja/blog/how-to-use-claude-for-studying/)で、Claude独自のコネクタ設定を使い、家庭教師からMCPへ引き継ぐ同じ流れを確認できます。
 
 ## カードへ渡す内容は、学習セッションより小さくする
 

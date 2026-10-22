@@ -127,7 +127,7 @@ keywords:
 
 这张卡有价值，是因为它记录的是判断规则，而不只是 `需求曲线位移` 的定义。
 
-背面要足够简短，让你能如实评分。[如何做出更好的抽认卡](/zh/blog/how-to-make-better-flashcards/)会继续讲如何设计卡片，[主动回忆与间隔重复](/zh/blog/active-recall-vs-spaced-repetition/)则解释为什么现在回忆答案和之后安排复习仍然是两项不同的工作。
+背面要足够简短，让你能如实评分。[如何做出更好的抽认卡](/zh/blog/how-to-make-better-flashcards/)会继续讲如何设计卡片。先尝试回忆答案，再让调度器根据复习记录安排下次检查。
 
 ### 5. 值得保留的卡片交给 FSRS 安排
 

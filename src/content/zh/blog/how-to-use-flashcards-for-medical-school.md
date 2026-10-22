@@ -74,7 +74,7 @@ keywords:
 
 如果你的解剖学习本来就高度依赖图谱，这篇配套文章更接近前一步的工作流：
 
-- [2026 年如何把图示转成抽认卡](https://nibomo.com/blog/how-to-turn-diagrams-into-flashcards/)
+- [图片转抽认卡指南：处理截图、照片和 OCR 草稿](/zh/blog/how-to-turn-images-into-flashcards/)
 
 ## 药理学卡片，应该帮你做判断，而不是背稿子
 
@@ -145,10 +145,9 @@ keywords:
 
 它们的目的，是把你以后还想记得的内容保存下来。
 
-如果你的原始材料更多是笔记或长讲义，这两篇相关文章更适合前面的流程：
+如果你的原始材料更多是笔记或长讲义，这篇文章更适合前面的流程：
 
 - [2026 年如何把笔记转成抽认卡](https://nibomo.com/blog/turn-notes-into-flashcards/)
-- [2026 年如何把 PDF 转成抽认卡](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## 题库错题，应该决定牌组的后半部分长什么样
 

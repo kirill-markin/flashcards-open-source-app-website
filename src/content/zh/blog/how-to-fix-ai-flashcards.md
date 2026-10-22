@@ -182,10 +182,9 @@ NotebookLM、ChatGPT 和其他学习工具，常常会产出一种比原始来�
 
 所以我会把这些会话当成“挖错题和薄弱点”的地方，而不是把整段对话直接导出成永久卡。辅导会话本身可以很宽，但留下来的卡不应该这样。
 
-如果你的工作流开始得比“清理”更早，那更适合读这些配套文章：
+如果你的工作流开始得比“清理”更早，可以先读这篇配套文章：
 
 - [2026 年如何用 ChatGPT 制作抽认卡](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [2026 年如何把 ChatGPT Study Mode 变成抽认卡](https://nibomo.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
 
 这篇文章是从后一步开始的：卡已经有了，现在要把它们修到适合复习。
 

@@ -210,7 +210,6 @@ keywords:
 元資料がノート、文字起こし、チャットの出力から始まるなら、その前段ではこちらも参考になります。
 
 - [2026年にChatGPTでフラッシュカードを作る方法: プロンプトを整え、カードを磨き、FSRSで復習を回す](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [2026年版 YouTube動画をフラッシュカードに変える方法: 講義・チュートリアル・語学動画をAIで下書きする](https://nibomo.com/blog/youtube-to-flashcards/)
 
 ## 漠然とした語学力向上ではなく、現実の目的を軸に作る
 
@@ -241,7 +240,6 @@ keywords:
 
 より広く製品比較もしたいなら、近い記事はこちらです。
 
-- [2026年の Memrise Alternative: FSRS、オフライン学習、iPhone 重視の流れを備えたオープンソースのフラッシュカードアプリ](https://nibomo.com/blog/memrise-alternative/)
 - [2026年の Quizlet Alternative: FSRS、オフライン学習、完全なデータ所有を備えたオープンソースのフラッシュカードアプリ](https://nibomo.com/blog/quizlet-alternative/)
 - [2026年版 オフラインで使いやすいフラッシュカードアプリ: FSRS対応で、あとから同期できる学習環境](https://nibomo.com/blog/best-offline-flashcards-app/)
 

@@ -161,7 +161,7 @@ keywords:
 - 部位、構造、神経支配、作用を同時に問う1枚
 - ノイズの多い画像の下に段落の答えがある
 
-本当の痛点が、図やラベル付き画像をきれいにカード化することなら、[2026年版 図をフラッシュカードに変える方法](https://nibomo.com/blog/how-to-turn-diagrams-into-flashcards/) が前段のワークフローとしてよくつながります。
+図版のスクリーンショットや実習写真からカードを作るなら、[画像をフラッシュカード化する方法](/ja/blog/how-to-turn-images-into-flashcards/)で、切り出し、文脈の補足、OCR後の確認手順を紹介しています。
 
 ## AI は、覚える作業の代行ではなく整理に使うと役立つ
 
@@ -182,7 +182,7 @@ keywords:
 
 だから AI は準備に使い、記憶の外注には使わないほうがいいです。
 
-チューター的な使い方から定着まで含めた流れを見たいなら、[2026年版 AIを使って勉強する方法](https://nibomo.com/blog/how-to-use-ai-to-study/) と [2026年版 AIが作ったフラッシュカードを修正する方法](https://nibomo.com/blog/how-to-fix-ai-flashcards/) が次の読み物になります。
+AIの下書きを復習向けに整える手順を見たいなら、[2026年版 AIが作ったフラッシュカードを修正する方法](https://nibomo.com/blog/how-to-fix-ai-flashcards/) が次の読み物になります。
 
 ## 実習で外したピンと逆に覚えた位置関係こそ、最高のカード材料
 
@@ -222,7 +222,7 @@ keywords:
 
 解剖学は、候補カードをいくらでも作れてしまいます。それでも復習キューは、ちゃんと回せる量に保たなければいけません。
 
-すでに増えすぎているなら、[2026年版 1日に何枚の新規フラッシュカードを追加すべきか](https://nibomo.com/blog/how-many-new-flashcards-per-day/) と [2026年版 フラッシュカードが溜まりすぎたときの立て直し方](https://nibomo.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/) が次に読む記事です。
+すでに増えすぎているなら、[2026年版 1日に何枚の新規フラッシュカードを追加すべきか](https://nibomo.com/blog/how-many-new-flashcards-per-day/)で、続けられる追加量を考えてください。
 
 ## FSRS は、カードが正直になってから効く
 
