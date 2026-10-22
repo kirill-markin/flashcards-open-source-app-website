@@ -198,7 +198,7 @@ practice block के बाद मैं जो workflow सच में इ�
 3. जो साफ़ हों, उन्हें रखिए
 4. जो फूले हुए हों, उन्हें जल्दी delete कीजिए
 
-अगर आप पहले से AI के साथ पढ़ते हैं और broader workflow चाहते हैं, तो [2026 में AI से पढ़ाई कैसे करें](/blog/how-to-use-ai-to-study/) बेहतर companion है। अगर model पहले ही messy deck बना चुका है, तो [2026 में AI फ़्लैशकार्ड्स कैसे ठीक करें](/blog/how-to-fix-ai-flashcards/) cleanup guide है।
+अगर model पहले ही messy deck बना चुका है, तो [2026 में AI फ़्लैशकार्ड्स कैसे ठीक करें](/blog/how-to-fix-ai-flashcards/) cleanup guide है।
 
 ## GED deck की structure को boring और दोबारा खोलने में आसान रखिए
 

@@ -207,10 +207,9 @@ keywords:
 - संकेत बहुत आसान है या बहुत अस्पष्ट
 - कार्ड आपके असली स्तर के अनुकूल है या नहीं
 
-अगर आपकी सामग्री नोट्स, प्रतिलेख, या chat output से शुरू हो रही है, तो ये मार्गदर्शिकाएँ शुरुआती चरण में मदद करेंगी:
+अगर आपकी सामग्री नोट्स, प्रतिलेख, या chat output से शुरू हो रही है, तो यह मार्गदर्शिका शुरुआती चरण में मदद करेगी:
 
 - [2026 में ChatGPT से Flashcards कैसे बनाएं](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [2026 में YouTube Videos को Flashcards में कैसे बदलें](https://nibomo.com/blog/youtube-to-flashcards/)
 
 ## अपनी डेक को किसी धुँधले भाषा-लक्ष्य पर नहीं, अपने असली उद्देश्य पर बनाइए
 
@@ -240,7 +239,6 @@ keywords:
 
 अगर आप दूसरे उत्पाद विकल्प भी देख रहे हैं, तो ये सबसे नज़दीकी संबंधित लेख हैं:
 
-- [2026 में Memrise Alternative](https://nibomo.com/blog/memrise-alternative/)
 - [2026 में Quizlet Alternative](https://nibomo.com/blog/quizlet-alternative/)
 - [2026 में Best Offline Flashcards App](https://nibomo.com/blog/best-offline-flashcards-app/)
 

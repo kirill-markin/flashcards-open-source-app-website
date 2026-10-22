@@ -182,10 +182,9 @@ back side को सादा रखें:
 
 इसीलिए मैं उन sessions से misses और weak spots निकालूंगा, पूरी conversation को permanent cards में export नहीं करूंगा। tutoring session broad रह सकता है। बचने वाले cards broad नहीं होने चाहिए।
 
-अगर आपका workflow cleanup से पहले शुरू होता है, तो ये companion pieces ज़्यादा उपयुक्त हैं:
+अगर आपका workflow cleanup से पहले शुरू होता है, तो यह guide बेहतर शुरुआत है:
 
 - [2026 में फ़्लैशकार्ड बनाने के लिए ChatGPT का इस्तेमाल कैसे करें](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [2026 में ChatGPT Study Mode को फ़्लैशकार्ड्स में कैसे बदलें](https://nibomo.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
 
 यह article एक कदम बाद से शुरू होता है: cards पहले से मौजूद हैं, और अब उन्हें reviewable बनाना है।
 
