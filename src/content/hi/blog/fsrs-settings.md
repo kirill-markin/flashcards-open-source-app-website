@@ -131,7 +131,7 @@ Weights हाथ से type न करें और न ही उन्हे
 
 Again का छोटा interval टालने के लिए Hard दबाने पर failure, success की तरह record होता है। फिर FSRS गलत event से सीखता है। वह button चुनें जो आपके recall को सही बताता हो, न कि वह interval जिसे आप buttons के ऊपर देखना चाहते हैं।
 
-अस्पष्ट कार्ड ईमानदार rating देना मुश्किल बनाते हैं। अगर prompt पाँच facts पूछता है और आपको चार याद हैं, तो scheduling की समस्या editor में शुरू हो चुकी थी। कार्ड को बाँटें या दोबारा लिखें। बार-बार review के बावजूद fail होने वाले कार्डों के लिए [Leech फ़्लैशकार्ड्स कैसे ठीक करें](/blog/how-to-fix-leech-flashcards/) पढ़ें।
+अस्पष्ट कार्ड ईमानदार rating देना मुश्किल बनाते हैं। अगर prompt पाँच facts पूछता है और आपको चार याद हैं, तो scheduling की समस्या editor में शुरू हो चुकी थी। कार्ड को बाँटें या दोबारा लिखें। बार-बार review के बावजूद कार्ड fail हो, तो केवल scheduling बदलने के बजाय उसकी wording जाँचें।
 
 ## FSRS learning steps छोटे रखें—या सोच-समझकर खाली छोड़ें
 

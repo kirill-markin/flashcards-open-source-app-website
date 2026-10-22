@@ -161,8 +161,6 @@ Anatomy उन कुछ subjects में से है जहाँ source ma
 - एक card जो region, structure, innervation, और action सब कुछ एक साथ test करे
 - noisy image के नीचे paragraph जैसा answer
 
-अगर असली pain point diagrams और labeled visuals को साफ़ तरीके से cards में बदलना है, तो [2026 में diagrams को फ़्लैशकार्ड में कैसे बदलें](https://nibomo.com/blog/how-to-turn-diagrams-into-flashcards/) उस upstream workflow को cover करता है।
-
 ## AI cleanup के लिए अच्छा है, याद रखने का काम करने के लिए नहीं
 
 2026 तक ज़्यादातर anatomy students workflow के किसी न किसी हिस्से में AI इस्तेमाल कर ही रहे हैं। यह अब normal बात है।
@@ -182,7 +180,7 @@ Anatomy उन कुछ subjects में से है जहाँ source ma
 
 इसलिए AI को preparation के लिए इस्तेमाल करें, memory outsource करने के लिए नहीं।
 
-अगर tutor-to-retention वाला broader workflow चाहिए, तो [2026 में AI के साथ पढ़ाई कैसे करें](https://nibomo.com/blog/how-to-use-ai-to-study/) और [2026 में AI Flashcards को कैसे ठीक करें](https://nibomo.com/blog/how-to-fix-ai-flashcards/) इसके दो अच्छे follow-ups हैं।
+AI से बने cards को साफ़ और reviewable बनाने के लिए [2026 में AI Flashcards को कैसे ठीक करें](https://nibomo.com/blog/how-to-fix-ai-flashcards/) अगला उपयोगी लेख है।
 
 ## आपके missed pins और उल्टे relationships ही सबसे अच्छे card source हैं
 
@@ -222,7 +220,7 @@ Loop को simple रखें:
 
 Anatomy आपको endless candidate cards देती है। आपकी review queue को फिर भी livable रहना चाहिए।
 
-अगर चीजें पहले ही control से बाहर जा रही हैं, तो [2026 में रोज़ कितने नए फ़्लैशकार्ड?](https://nibomo.com/blog/how-many-new-flashcards-per-day/) और [2026 में पीछे रह जाने के बाद फ़्लैशकार्ड में फिर से पकड़ कैसे बनाएँ](https://nibomo.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/) अगले सही reads हैं।
+अगर चीजें पहले ही control से बाहर जा रही हैं, तो [2026 में रोज़ कितने नए फ़्लैशकार्ड?](https://nibomo.com/blog/how-many-new-flashcards-per-day/) पढ़कर नए cards की संख्या तय करें।
 
 ## FSRS तब मदद करता है जब cards ईमानदार हो जाते हैं
 

@@ -127,7 +127,7 @@ Back दिखाने से पहले हर front का जवाब द
 
 यह card उपयोगी है, क्योंकि इसमें केवल `demand shift` की definition नहीं, बल्कि decision rule सहेजा गया है।
 
-Back इतना छोटा रखें कि आप उसे ईमानदारी से grade कर सकें। [बेहतर flashcards बनाने की guide](/hi/blog/how-to-make-better-flashcards/) card लिखने की उस layer को समझाती है, जबकि [active recall बनाम spaced repetition](/hi/blog/active-recall-vs-spaced-repetition/) बताता है कि retrieval और बाद की scheduling अलग काम क्यों हैं।
+Back इतना छोटा रखें कि आप उसे ईमानदारी से grade कर सकें। [बेहतर flashcards बनाने की guide](/hi/blog/how-to-make-better-flashcards/) card लिखने की उस layer को समझाती है। जवाब पहले याद से दें, फिर scheduler को अगला review तय करने दें।
 
 ### 5. रखने लायक cards को FSRS से schedule होने दें
 

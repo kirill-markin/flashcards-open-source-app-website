@@ -168,10 +168,9 @@ workflow का एक underrated हिस्सा यह है कि Notebo
 
 इसका मतलब है generated cards source से पहले ही एक transformation दूर हैं। review items बनने से पहले उन्हें एक और cleanup pass देना overkill नहीं है। यह quality control है।
 
-अगर आपकी source अभी भी एक कदम पहले अटकी है, तो ये companion pieces मदद करेंगी:
+अगर आपकी source अभी भी एक कदम पहले अटकी है, तो यह guide मदद करेगी:
 
 - [2026 में Notes को Flashcards में कैसे बदलें](https://nibomo.com/blog/turn-notes-into-flashcards/)
-- [2026 में Notion Notes को Flashcards में कैसे बदलें](https://nibomo.com/blog/how-to-turn-notion-notes-into-flashcards/)
 
 ## वह workflow जिसे मैं इस हफ्ते इस्तेमाल करूँगा
 

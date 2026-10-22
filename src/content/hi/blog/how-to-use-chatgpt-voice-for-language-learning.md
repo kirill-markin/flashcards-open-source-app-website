@@ -218,10 +218,9 @@ voice practice आसान बना देती है, इसलिए ल�
 
 अगर नहीं, तो phrase को session के भीतर रहने दें और वहीं मरने दें।
 
-अगर review load पहले से आपकी बड़ी समस्या है, तो ये companion pieces इसके ठीक बगल में बैठती हैं:
+अगर review load पहले से आपकी बड़ी समस्या है, तो नए cards की संख्या तय करने के लिए यह guide पढ़ें:
 
 - [2026 में प्रति दिन कितने नए फ़्लैशकार्ड?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
-- [2026 में पीछे छूट जाने के बाद Flashcards में फिर से कैसे पकड़ बनाएं](https://nibomo.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
 
 ## FSRS मायने रखता है क्योंकि spoken phrases अजीब तरह से decay करती हैं
 

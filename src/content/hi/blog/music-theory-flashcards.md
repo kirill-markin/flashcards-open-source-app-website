@@ -146,7 +146,7 @@ FSRS की due reviews में `Again`, `Hard`, `Good` और `Easy` को �
 - सामान्य गति से पूरा जवाब मिला हो, तो `Good` चुनें।
 - लगभग बिना मेहनत के सही जवाब याद आ गया हो, तो `Easy` चुनें।
 
-ये review labels हैं, timing thresholds नहीं, और न ही यह दावा कि हर learner को एक ही रफ़्तार से जवाब देना चाहिए। अगर prompt ही अस्पष्ट है, तो rating से उसे सही ठहराने के बजाय card को edit करें या हटा दें। [Active recall और spaced repetition अलग काम करते हैं](/hi/blog/active-recall-vs-spaced-repetition/): जवाब खोलने से पहले याद से निकालें, फिर review history को अगली बार आने का समय तय करने दें।
+ये review labels हैं, timing thresholds नहीं, और न ही यह दावा कि हर learner को एक ही रफ़्तार से जवाब देना चाहिए। अगर prompt ही अस्पष्ट है, तो rating से उसे सही ठहराने के बजाय card को edit करें या हटा दें। जवाब खोलने से पहले याद से निकालें, फिर review history को अगली बार आने का समय तय करने दें।
 
 ## Repair deck के साथ म्यूज़िक थ्योरी कैसे पढ़ें
 
