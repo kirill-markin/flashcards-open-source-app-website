@@ -2,7 +2,7 @@
 title: "Hvernig á að nota Claude við nám árið 2026: hagnýt vinnuaðferð"
 description: "Lærðu út frá eigin glósum með Claude, svaraðu einni spurningu í einu, sannreyndu leiðréttingar og gerðu minniskort úr því sem þú þarft að æfa, í samræmi við reglur námskeiðsins um gervigreind."
 date: "2026-05-28"
-updated: "2026-10-03"
+updated: "2026-10-22"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "hvernig á að nota Claude við nám"
@@ -13,15 +13,13 @@ keywords:
   - "Claude Learning Mode"
 ---
 
-Á fyrirlestrarglæru stendur „litningarnir skiljast að“ án þess að fram komi hvaða litningar. Ef Claude fyllir í eyðuna með almennri þekkingu án þess að láta vita gætirðu endað á að æfa svar sem er sett fram af öryggi en á sér enga stoð í heimildinni þinni.
+Ef þú vilt læra **hvernig á að nota Claude við nám** skaltu byrja með lítið safn af glósum úr námskeiðinu þínu. Athugaðu hvað glósurnar styðja og svaraðu einni spurningu í einu áður en þú færð hjálp. Sannreyndu leiðréttingarnar og vistaðu síðan þau atriði sem þú þarft að æfa aftur. Ég mæli með [Nibomo-viðbótinni fyrir Claude](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory) fyrir síðasta skrefið: hún gefur Claude vinnuaðferðir til að búa til minniskort, rifja upp kort sem komið er að og bæta kort sem valda þér ruglingi.
 
-Fyrstu gagnlegu fyrirmælin eru ekki „prófaðu mig“. Biddu Claude fyrst að sýna hvaða fullyrðingar efnið styður, hvað er tvírætt og hvað það getur ekki lesið. Þá getur það kennt innan marka sem þú getur sjálfur yfirfarið.
+Gagnlega hringrásin er **yfirfara heimildir → svara eftir minni → sannreyna → vista → rifja upp á réttum tíma**. Venjuleg fyrirmæli um kennslu virka í hefðbundnu Claude-spjalli; viðbótin tengir námslotuna við vistuð kort og upprifjunaráætlun.
 
-Þessi hringrás, bundin við heimildir, er hagnýtt svar við spurningunni **hvernig á að nota Claude við nám**: farðu yfir efnið, svaraðu einni spurningu í einu eftir minni, hafðu heimild við hverja leiðréttingu og geymdu aðeins þá veikleika sem vert er að rifja upp. Aðferðin virkar í venjulegu Claude-spjalli og krefst ekki minniskortaforrits.
+> **Upplýsingagjöf:** Ég heiti Kirill Markin og þróa [Nibomo](/is/features/). Gervigreind var notuð við heimildavinnu og ritstjórn greinarinnar.
 
-> **Upplýsingagjöf:** Ég heiti Kirill Markin og þróa [Nibomo](/is/features/). Fyrir utan þessa upplýsingagjöf kemur varan aðeins við sögu í valfrjálsa kaflanum hér fyrir neðan um að flytja kort yfir í annað kerfi; námsaðferðin er óháð henni. Gervigreind var notuð við heimildavinnu og ritstjórn greinarinnar.
-
-**Staðreyndir yfirfarnar:** 14. september 2026.
+**Staðreyndir yfirfarnar:** 22. október 2026.
 
 ![Vinnuborð þar sem heimildaglósur tengjast einni spurningu og tveimur sannreyndum minniskortum um veikleika, en tvíræð glósa hefur verið lögð til hliðar](/blog/how-to-use-claude-for-studying-v2.png)
 
@@ -35,9 +33,20 @@ Notaðu þessa hringrás fyrir einn hluta fyrirlesturs, lesefni eða verkefnasaf
 4. Svaraðu einni spurningu í einu eftir minni.
 5. Skráðu leiðréttinguna, staðsetningu heimildarinnar og alla óvissu.
 6. Sannreyndu sjálfur mikilvæg svör.
-7. Geymdu aðeins þau atriði sem þú þarft að bæta og vert er að æfa áfram eða gera minniskort úr.
+7. Vistaðu nokkra sannreynda veikleika sem skipta máli til lengri tíma sem minniskort í Nibomo.
+8. Rifjaðu vistuð kort upp þegar komið er að þeim, í Claude eða Nibomo-forritinu.
 
 Röðin skiptir máli. Spurningaæfingar byggðar á tvíræðri heimild gera tvíræðnina bara erfiðari að greina.
+
+## Settu Nibomo upp í Claude
+
+Opnaðu [Nibomo-viðbótina](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory) eða farðu í **Customize → Plugins**, finndu Nibomo og smelltu á **Add**. Ef hún er þegar uppsett skaltu ganga úr skugga um að hún sé virk.
+
+Tengdu Nibomo-tengið sem fylgir viðbótinni. Fylgdu innskráningarferlinu, skráðu þig inn á Nibomo-aðganginn þinn eða stofnaðu nýjan og veittu Claude aðgang. Veldu rétt vinnusvæði þegar þú ert beðinn um það. Þessi leið krefst þess hvorki að þú afritir API-lykil né sláir inn vefslóð netþjóns.
+
+Viðbótin býður vinnuaðferðir til að búa til kort, rifja þau upp og bæta þau. MCP-tengið hennar gerir Claude kleift að lesa og uppfæra Nibomo-aðganginn þinn. Þú finnur líka [tengið í tengjaskrá Claude](https://claude.ai/directory/nibomo). [Leiðbeiningar okkar um tengingu Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (á ensku) og [skjölun MCP-tengisins](/is/docs/mcp-connector/) útskýra tenginguna nánar.
+
+Anthropic býður nú [viðbætur með Pro-, Max-, Team- og Enterprise-áskriftum](https://support.claude.com/en/articles/13837440-use-plugins-in-claude), í Claude á vefnum, Chat-flipa Claude Desktop og Cowork. Ef viðbætur eru ekki í boði fyrir aðganginn þinn geturðu samt notað kennslufyrirmælin hér að neðan og afritað valin kort handvirkt í upprifjunarforritið þitt.
 
 ## Athugaðu reglur námskeiðsins áður en þú hleður upp fyrstu skránni
 
@@ -58,9 +67,9 @@ Vinnan á að vera þín. Endurgjöf eftir eigin tilraun gæti verið leyfilegur
 
 Eitt spjall dugar fyrir stutta námslotu. Fyrir námskeið sem stendur yfir lengur skaltu stofna eitt verkefni í Claude Projects og bæta aðeins við efni sem tilheyrir því.
 
-[Claude Projects](https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects) er í boði fyrir alla notendur. Á ókeypis Free-aðgangi eru nú að hámarki fimm verkefni. Skrár og fyrirmæli sem bætt er við þekkingargrunn verkefnis haldast þar og má endurnýta í spjöllum innan þess. Samhengi úr venjulegu spjalli deilist ekki sjálfkrafa með öðrum spjöllum nema þú bætir viðkomandi efni við þekkingargrunn verkefnisins.
+[Claude Projects](https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects) er í boði fyrir alla notendur. Á ókeypis Free-aðgangi eru nú að hámarki fimm verkefni. Bættu sjálfum námsefnisskránum og námsfyrirmælum við þekkingargrunn verkefnisins svo þau séu aðgengileg í spjöllum þess.
 
-Það eitt að setja tvö spjöll í sama verkefni gerir ekki hvert einasta atriði úr fyrra spjallinu aðgengilegt í því síðara.
+Þegar minnið er virkt getur verkefni einnig varðveitt samhengi milli samtala. Líttu á það sem samhengi fyrir námið, ekki sem áreiðanlegt afrit af samtölum eða staðgengil skránna sem þú byggir á. Geymdu heimildir og leiðréttingar sem þú þarft að endurnýta í þekkingargrunni verkefnisins og biddu Claude að vísa í upprunalega efnið.
 
 Í [skjölun Claude um skráaupphleðslu](https://support.claude.com/en/articles/8241126-upload-files-to-claude) eru nú talin upp sniðin PDF, DOCX, CSV, TXT, HTML, ODT, RTF, EPUB, JSON og XLSX, auk JPEG-, PNG-, GIF- og WebP-mynda. Til að hlaða upp XLSX-skrám þarf að virkja keyrslu kóða og skráagerð. Þú getur hengt skrá við eitt spjall eða geymt hana í Files-hluta verkefnis til endurnotkunar.
 
@@ -69,6 +78,8 @@ Notaðu minnsta efnissafn sem kemur að gagni: einn fyrirlestur, einn hluta kafl
 Anthropic kynnti [**Learning mode** innan verkefna í Claude for Education](https://www.anthropic.com/news/introducing-claude-for-education) sem leiðsögn með sókratískri spurningaaðferð: nemendur eru beðnir að beita rökhugsun í stað þess að fá svörin strax. Þú gætir haft aðgang ef háskólinn þinn býður Claude for Education, en ekki gera ráð fyrir að hamurinn sé í boði á öllum persónulegum Claude-aðgöngum. Fyrirmælin hér að neðan búa til svipaða námslotu með spurningum í venjulegu spjalli.
 
 ## Láttu Claude sýna tvíræðni áður en kennslan hefst
+
+Á fyrirlestrarglæru gæti staðið „litningarnir skiljast að“ án þess að fram komi hvaða litningar. Ef Claude fyllir í eyðuna með almennri þekkingu án þess að láta vita gætirðu endað á að æfa svar sem er sett fram af öryggi en á sér enga stoð í heimildinni þinni.
 
 Hengdu efnið við, skilgreindu nákvæm mörk og biddu fyrst um yfirferð heimildanna:
 
@@ -110,10 +121,14 @@ Kenndu mér aðeins efnið sem á sér stoð í heimildayfirlitinu.
 Spyrðu einnar spurningar í einu og bíddu eftir svarinu mínu. Ekki hafa
 vísbendingar í spurningunni. Eftir að ég svara skaltu:
 1. meta svarið sem Rétt, Að hluta rétt, Rangt eða Heimild óljós;
-2. segja nákvæmlega hvað var rétt og hvað vantaði;
+2. gefa stutta endurgjöf án þess að sýna allt svarið;
 3. vísa í skrána og síðuna, glæruna eða fyrirsögnina sem styður svarið;
-4. biðja mig að reyna einu sinni enn áður en þú sýnir allt svarið;
+4. ef svarið mitt er að hluta rétt eða rangt, gefa vísbendingu og leyfa mér að
+   reyna aftur áður en þú sýnir allt svarið;
 5. aðeins bæta raunverulegu þekkingargati á veikleikalistann.
+
+Ef heimildin er óljós skaltu merkja spurninguna til sannprófunar í stað þess
+að biðja mig að reyna aftur.
 
 Blandaðu saman beinni upprifjun, aðgreiningu svipaðra hugmynda og stuttum
 verkefnum þar sem ég beiti þekkingunni. Ekki búa til minniskort enn. Hættu eftir 10 spurningar
@@ -151,7 +166,7 @@ Rangt. Systurlitningsþræðir haldast tengdir í afturfasa I. Skoðaðu þessar
 setningar aftur: hvað færist að gagnstæðum skautum?
 ```
 
-Eftir að þú reynir aftur gæti Claude útskýrt muninn á þessu og afturfasa II. Sú útskýring á heima í kennsluspjallinu. Veikleikinn sem vert er að geyma er afmarkaðri:
+Ef efnið sem þú lagðir fram fjallar líka um afturfasa II getur Claude borið þá saman eftir að þú reynir aftur. Sú útskýring á heima í kennsluspjallinu. Veikleikinn sem vert er að geyma er afmarkaðri:
 
 ```text
 Framhlið: Hvað skilst að í afturfasa I í meiósu?
@@ -218,17 +233,71 @@ Settu veikleika sem þarf að æfa með verkefnum á sérstakan lista ásamt vi�
 
 Slepptu restinni. Námslota með Claude getur verið gagnleg þótt engin kort verði til.
 
-## Valfrjálst: flyttu valin kort úr Claude
+## Vistaðu sannreynda veikleika í Nibomo
 
-Einfaldasta flutningsleiðin virkar með hvaða minniskortaforriti sem er. Biddu Claude að skila aðeins samþykktu kortunum sem einföldum textablokkum með framhlið og bakhlið, yfirfarðu þau einu sinni enn og afritaðu þau í kerfið sem þú notar venjulega til upprifjunar.
+Þegar þú hefur yfirfarið heimildirnar skaltu biðja Nibomo-viðbótina að búa til kort úr völdum þekkingargötum og vista þau. Tilgreindu vinnusvæðið og láttu Claude athuga hvaða kort eru þegar til áður en fleiri bætast við. Þessi fyrirmæli biðja um forskoðun áður en kortin eru vistuð:
 
-Ef þú notar Nibomo geturðu tengt Claude með MCP, tengingu milli aðstoðarmannsins og Nibomo. Þá geturðu beðið Claude að vista kortin sem þú hefur yfirfarið og samþykkt. Athugaðu innihald þeirra og hvar þau verða vistuð áður en þú samþykkir vistunina.
+```text
+Notaðu Nibomo til að búa til allt að 5 minniskort úr sannreynda veikleikalistanum
+hér að ofan. Notaðu vinnusvæðið mitt: [heiti vinnusvæðis]. Ef heitið er tvírætt
+skaltu staðfesta hvaða vinnusvæði ég á við áður en þú vistar.
 
-Þegar komið er að upprifjun geturðu notað [vefforrit Nibomo](https://app.nibomo.com/) eða spjallað við Claude eða Codex sem hefur verið tengt við Nibomo með MCP. Biddu aðstoðarmanninn í spjallinu að leggja fyrir eina spurningu í einu, bíða eftir tilraun þinni áður en svarið er sýnt og skrá síðan mat þitt á því hversu vel þú mundir svarið í Nibomo. Nibomo heldur utan um sameiginlega upprifjunaráætlun, svo þú getur skipt á milli forritsins og spjallsins.
+Athugaðu hvort fyrir séu tvítekin kort eða kort sem prófa sama minnisatriði.
+Notaðu aðeins þekkingargöt sem eiga sér stoð í heimildunum sem ég yfirfór.
+Hafðu eitt minnisatriði á hverju korti, með afmarkaðri framhlið, stuttri bakhlið
+og staðsetningu heimildar.
 
-> [Tengjast Claude](https://claude.ai/directory/nibomo) · [Skjölun](/docs/mcp-connector/)
+Sýndu mér fyrst kortatillögurnar, heimildir þeirra og hugsanlegar tvítekningar.
+Bíddu eftir samþykki mínu áður en þú vistar. Að vistun lokinni skaltu staðfesta
+hvað var búið til og hvar.
+```
 
-Sjá [leiðbeiningar um tengingu Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (á ensku) og [skjölun MCP-tengisins](/docs/mcp-connector/) fyrir uppsetningu. Þú getur áfram afritað kortin handvirkt ef þú vilt ekki tengja aðstoðarmanninn.
+Forskoðunin er ósk sem þú tilgreinir í þessum fyrirmælum. Þú getur ákveðið hversu ítarlega þú vilt yfirfara kort áður en þú biður Claude að vista eða breyta þeim; forskoðun er ekki krafa fyrir hverja aðgerð viðbótarinnar.
+
+Haltu í aðgreininguna úr útfærða dæminu: útskýringin hjálpaði þér að skilja meiósu, en vistaða kortið prófar tiltekinn mun sem þú ruglaðist á. Langt svar frá kennara þarf sjaldnast að verða langt kort.
+
+## Rifjaðu upp minniskort í Claude þegar komið er að þeim
+
+Spurningaæfing úr nýupphlöðnum glósum er kennslulota. Upprifjun í Nibomo notar kort sem þú hefur þegar vistað og skráir niðurstöðu sem hefur áhrif á hvenær hvert kort birtist aftur. Biddu sérstaklega um það:
+
+```text
+Notaðu Nibomo til að rifja upp minniskort sem komið er að í 10 mínútur á
+[vinnusvæði]. Notaðu Europe/Paris sem tímabeltið mitt.
+
+Sýndu eina spurningu í einu og bíddu eftir tilraun minni áður en þú sýnir
+vistaða svarið. Berðu síðan upprunalega svarið mitt saman við það, gefðu stutta
+endurgjöf og skráðu viðeigandi mat á því hversu vel ég mundi svarið. Segðu mér
+hvaða mat þú skráðir. Matið á að byggjast á upphaflegu tilrauninni, ekki
+leiðréttu svari sem ég gef eftir að rétta svarið hefur verið sýnt.
+Hættu þegar tíminn er liðinn eða engin fleiri kort bíða upprifjunar og taktu
+saman þær upprifjanir sem Nibomo staðfesti.
+```
+
+Skiptu vinnusvæðinu og tímabeltinu út fyrir þín eigin. Claude segir venjulega frá matinu og skráir það sjálfkrafa. Ef þú vilt velja hvert mat sjálfur skaltu bæta við: „Notaðu handvirkt mat: eftir að þú sýnir svarið skaltu bíða eftir að ég velji Again, Hard, Good eða Easy áður en þú skráir það.“
+
+Ef þú svarar „systurlitningsþræðir“ við kortinu um afturfasa I verður upphaflega tilraunin ekki rétt þótt þú kannist við leiðréttinguna þegar þú sérð hana. Síðari spurning um afturfasa II getur prófað hvort þú greinir nú þar á milli; hún á ekki að bæta matið á fyrra svarinu afturvirkt.
+
+Þú getur líka rifjað upp í [Nibomo-forritinu](https://app.nibomo.com/). Staðfestar upprifjanir uppfæra sömu áætlun hvort sem þær fara fram í forritinu eða Claude, svo þú getur skipt á milli án þess að halda utan um tvær upprifjunarsögur. Biddu Claude að segja skýrt frá því ef skráning mistekst eða er óstaðfest, í stað þess að telja hana vistaðan árangur.
+
+## Bættu kort sem valda sífellt ruglingi
+
+Endurtekin röng svör geta bent til óljósrar spurningar, of umfangsmikils svars eða skilyrðis sem vantar. Biddu Claude að skoða kortið áður en þú ákveður að þú þurfir einfaldlega fleiri upprifjanir:
+
+```text
+Notaðu Nibomo til að yfirfara kortin sem mér fannst ruglingsleg í þessari lotu.
+Leitaðu að óljósum framhliðum, mörgum minnisatriðum á sama korti, skilyrðum
+sem vantar, svörum án heimildastoðar og tvíteknum kortum. Berðu
+leiðréttingartillögur saman við heimildir námskeiðsins hér að ofan.
+
+Sýndu núverandi kort og breytingartillöguna hlið við hlið, með stuttri ástæðu
+og staðsetningu heimildar. Merktu allt sem heimildirnar geta ekki skorið úr um.
+Bíddu eftir samþykki mínu áður en þú breytir; ekki eyða kortum eða breyta
+staðreyndum sem enn eru óvissar.
+```
+
+Haltu korti óbreyttu ef spurningin er skýr og þú mundir einfaldlega ekki svarið. Fyrir þekkingargöt sem kalla á skýringarmynd eða annað útfært verkefni skaltu snúa aftur að kennslu eða beinni æfingu.
+
+Ef þú vilt frekar afrita handvirkt skaltu biðja Claude um samþykktu kortin sem einfaldar textablokkir með framhlið og bakhlið og bæta þeim í minniskortaforritið þitt. Yfirferð heimildanna og kennsla þar sem þú svarar áður en þú færð hjálp eiga enn við.
 
 ## Hvar Claude þarf enn eftirlit
 
@@ -252,8 +321,10 @@ Byrjaðu aftur út frá tilgreindri heimild þegar samtalið fer út fyrir mörk
 - hver leiðrétting vísi í heimild sem þú opnaðir sjálfur;
 - utanaðkomandi þekking sé merkt sérstaklega og aðgreind frá námsefninu;
 - óleyst óvissa hafi ekki orðið að minniskorti;
-- aðeins fáeinir veikleikar sem vert er að vinna með til lengri tíma hafi staðið eftir;
-- hver skrifaðgerð í gegnum tengi hafi verið forskoðuð og samþykkt;
-- þú hafir áætlun um að fara aftur yfir hvern valinn veikleika.
+- aðeins fáeinir sannreyndir veikleikar sem skipta máli til lengri tíma hafi orðið að vistuðum kortum;
+- kortin hafi verið vistuð á réttu vinnusvæði án óþarfa tvítekninga;
+- þú hafir valið sjálfvirkt eða handvirkt mat fyrir áætlaðar upprifjanir;
+- matið endurspegli upphaflegu tilraunina og skráðar upprifjanir hafi verið staðfestar;
+- þú vitir hvert þú átt að snúa aftur við næstu áætluðu upprifjun.
 
 Gagnlegur **Claude-einkakennari** gerir meira en að útskýra. Hann sýnir hvar heimildin endar, bíður meðan þú rifjar upp og skilur eftir stutta skrá um hvað brást í raun. Sú skrá, frekar en lengd spjallsins, gerir námsaðferðina með Claude þess virði að endurtaka.

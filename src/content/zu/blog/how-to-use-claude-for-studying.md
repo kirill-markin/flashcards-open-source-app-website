@@ -2,7 +2,7 @@
 title: "Ungayisebenzisa kanjani i-Claude ekufundeni ngo-2026: Indlela ongayilandela"
 description: "Funda ngamanothi akho nge-Claude, uphendule umbuzo ngamunye, uhlole izilungiso, uguqule amaphuzu ongakawaqondi abe amakhadi okufunda, ulandela imithetho ye-AI yesifundo sakho."
 date: "2026-05-28"
-updated: "2026-10-03"
+updated: "2026-10-22"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "indlela yokusebenzisa i-Claude ekufundeni"
@@ -13,15 +13,13 @@ keywords:
   - "i-Claude Learning Mode"
 ---
 
-Isilayidi sesifundo sithi “ama-chromosome ayahlukana” singasho ukuthi yimaphi. Uma i-Claude igcwalisa leso sikhala ngolwazi olujwayelekile ingakutsheli, ungagcina uzijwayeza impendulo ezwakala iqinisekile kodwa engasekelwe ngumthombo wakho.
+Uma ufuna ukwazi **indlela yokusebenzisa i-Claude ekufundeni**, qala ngeqoqo elincane lamanothi esifundo sakho. Hlola ukuthi lawo manothi asekela ini, bese uphendula umbuzo ngamunye ngaphambi kokubona usizo. Qinisekisa izilungiso, bese ugcina amaphuzu ongakawaqondi okufanele uphinde uzilolonge kuwo. Kule ngxenye yokugcina ngincoma [i-plugin ye-Nibomo ye-Claude](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory): inikeza i-Claude izindlela zokwakha amakhadi okufunda, ukubuyekeza amakhadi osekuyisikhathi sokuwabuyekeza, nokuthuthukisa amakhadi akudidayo.
 
-Umyalelo wokuqala owusizo awuthi “ngibuze imibuzo.” Cela i-Claude ikhombise ukuthi yimaphi amaphuzu asekelwa yimithombo, yiziphi izingxenye ezingacacile, nokuthi yini engakwazi ukuyifunda. Ngemva kwalokho ingakufundisa ngaphakathi kwemingcele ongayihlola.
+Indlela ewusizo ithi **hlola umthombo → phendula ngekhanda → qinisekisa → gcina → buyekeza ngesikhathi esifanele**. Imiyalelo evamile yokufundisa isebenza engxoxweni evamile ye-Claude; i-plugin ixhumanisa leso sikhathi sokufunda namakhadi agciniwe nohlelo lwezikhathi zokuwabuyekeza.
 
-Le ndlela yokubuyela emithonjeni iyimpendulo esebenzayo embuzweni othi **ungayisebenzisa kanjani i-Claude ekufundeni**: hlola okuzofundwa, phendula umbuzo ngamunye ngekhanda, gcina ubufakazi eduze kwesilungiso ngasinye, bese ugcina kuphela lapho untula khona okufanele uphinde uzilolonge kukho. Isebenza engxoxweni evamile ye-Claude futhi ayidingi uhlelo lwamakhadi okufunda.
+> **Ukudalula:** NginguKirill Markin, futhi ngiyakha i-[Nibomo](/zu/features/). Lesi sihloko sacwaningwa futhi sahlelwa ngosizo lwe-AI.
 
-> **Ukudalula:** NginguKirill Markin, futhi ngiyakha i-[Nibomo](/zu/features/). Ngaphandle kwalokhu kudalula, lo mkhiqizo uvela kuphela esigabeni esingezansi sokudlulisa amakhadi uma uthanda; indlela yokufunda ayincikile kuwo. Lesi sihloko sacwaningwa futhi sahlelwa ngosizo lwe-AI.
-
-**Amaqiniso ahlolwe:** 14 Septhemba 2026.
+**Amaqiniso ahlolwe:** 22 Okthoba 2026.
 
 ![Ideski lokufunda elixhumanisa amanothi omthombo nombuzo owodwa namakhadi amabili aqinisekisiwe agxile lapho umfundi entula khona, kubekwe eceleni inothi elingacacile](/blog/how-to-use-claude-for-studying-v2.png)
 
@@ -35,9 +33,20 @@ Sebenzisa le ndlela engxenyeni eyodwa yesifundo, embhalweni owufundayo, noma eqo
 4. Phendula umbuzo ngamunye ngekhanda.
 5. Bhala isilungiso, indawo esitholakala kuyo emthonjeni, nanoma yini engakaqinisekiswa.
 6. Zihlolele wena izimpendulo ezibalulekile.
-7. Gcina kuphela lapho untula khona okuzobaluleka nangesikhathi esizayo, ukuze uzilolonge noma wenze amakhadi okufunda.
+7. Gcina amaphuzu ambalwa aqinisekisiwe lapho untula khona, azobaluleka nangesikhathi esizayo, njengamakhadi okufunda ku-Nibomo.
+8. Buyekeza amakhadi agciniwe lapho sekuyisikhathi sawo, ku-Claude noma ohlelweni lwe-Nibomo.
 
 Ukulandelana kubalulekile. Ukuphendula imibuzo esekelwe emthonjeni ongacacile kwenza kube nzima nakakhulu ukubona lokho kungacaci.
+
+## Setha i-Nibomo ku-Claude
+
+Vula [i-plugin ye-Nibomo](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory), noma uye ku-**Customize → Plugins**, uthole i-Nibomo, bese uchofoza u-**Add**. Uma isivele ifakiwe, qinisekisa ukuthi ivuliwe.
+
+Xhuma isixhumi se-Nibomo esifakwe ne-plugin. Landela izinyathelo zokungena, ungene ku-akhawunti yakho ye-Nibomo noma udale entsha, bese unikeza i-Claude imvume yokufinyelela. Khetha indawo yokusebenza oyihlosile uma ucelwa. Le ndlela ayidingi ukukopisha ithokheni ye-API noma ukufaka i-URL yeseva.
+
+I-plugin inikeza izindlela zokwakha, ukubuyekeza, nokuthuthukisa amakhadi. Isixhumi sayo se-MCP sivumela i-Claude ukuthi ifunde futhi ibuyekeze i-akhawunti yakho ye-Nibomo. Ungathola futhi [isixhumi ohlwini lwe-Claude](https://claude.ai/directory/nibomo). [Isiqondiso sethu sokuxhuma i-Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (ngesiNgisi) kanye [nemibhalo yesixhumi se-MCP](/zu/docs/mcp-connector/) kuchaza kabanzi ngalokhu kuxhumana.
+
+Okwamanje u-Anthropic wenza [ama-plugin atholakale ezinhlelweni ze-Pro, Max, Team, ne-Enterprise](https://support.claude.com/en/articles/13837440-use-plugins-in-claude), ku-Claude kuwebhu, kuthebhu ye-Chat ye-Claude Desktop, naku-Cowork. Uma i-akhawunti yakho ingenawo ama-plugin, usengasebenzisa imiyalelo yokufundisa engezansi bese ukopisha amakhadi owakhethile ngesandla ohlelweni lwakho lokubuyekeza.
 
 ## Hlola imithetho yesifundo ngaphambi kokulayisha ifayela lokuqala
 
@@ -58,9 +67,9 @@ Umsebenzi wokuqala mawube ngowakho. Impendulo ngemva kokuthi uzame wena ingase i
 
 Ingxoxo eyodwa yanele isikhathi esifushane sokufunda. Uma kuyisifundo esiqhubekayo, dala i-Claude Project eyodwa bese ufaka kuphela izinto eziphathelene naso.
 
-[Ama-Claude Project](https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects) ayatholakala kubo bonke abasebenzisi; okwamanje ama-akhawunti e-Free avunyelwe amaphrojekthi afinyelela kwamahlanu. Amafayela nemiyalelo efakwe olwazini lwephrojekthi kugcinwa lapho ukuze kuphinde kusetshenziswe ezingxoxweni zaleyo Project. Okuqukethwe yingxoxo evamile akwabelwana ngokuzenzakalelayo nezinye izingxoxo ngaphandle kokuthi ufake lokho okudingekayo olwazini lwephrojekthi.
+[Ama-Claude Project](https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects) ayatholakala kubo bonke abasebenzisi; okwamanje ama-akhawunti e-Free avunyelwe amaphrojekthi afinyelela kwamahlanu. Faka amafayela athile esifundo nemiyalelo yokufunda olwazini lwe-Project ukuze ukwazi ukukusebenzisa ezingxoxweni zayo.
 
-Ukubeka izingxoxo ezimbili ku-Project eyodwa akusho, ngokwakho, ukuthi yonke imininingwane yengxoxo yokuqala iyatholakala kweyesibili.
+Uma inkumbulo ivuliwe, i-Project ingagcina futhi umongo ekhumbula wona phakathi kwezingxoxo. Thatha leyo nkumbulo njengomongo wokufunda, hhayi umbhalo ogunyaziwe wengxoxo noma into ethatha indawo yamafayela omthombo. Gcina ubufakazi nanoma yiziphi izilungiso ofuna ukuphinde uzisebenzise olwazini lwe-Project, bese ucela i-Claude ikhombise umthombo wokuqala.
 
 [Imibhalo ye-Claude yokulayisha amafayela](https://support.claude.com/en/articles/8241126-upload-files-to-claude) okwamanje ibala i-PDF, DOCX, CSV, TXT, HTML, ODT, RTF, EPUB, JSON, ne-XLSX, kanye nezithombe ze-JPEG, PNG, GIF, ne-WebP. Ukulayisha i-XLSX kudinga ukuthi kuvulwe ukusebenzisa ikhodi nokwakha amafayela. Unganamathisela ifayela engxoxweni eyodwa noma uligcine esigabeni se-Files se-Project ukuze uphinde ulisebenzise.
 
@@ -69,6 +78,8 @@ Sebenzisa iqoqo elincane kunawo wonke elisawusizo: isifundo esisodwa, ingxenye e
 U-Anthropic wethula [i-**Learning mode** ngaphakathi kwama-Claude for Education Project](https://www.anthropic.com/news/introducing-claude-for-education) njengendlela eqondisiwe elandela indlela kaSocrates, ekhuthaza abafundi ukuthi bacabange kunokubanika izimpendulo ngokushesha. Ungase uyithole uma inyuvesi yakho ihlinzeka nge-Claude for Education, kodwa akufanele ucabange ukuthi iyatholakala kuwo wonke ama-akhawunti e-Claude omuntu siqu. Imiyalelo engezansi yakha indlela efanayo yokufunda eholwa yimibuzo engxoxweni evamile.
 
 ## Cela i-Claude iveze okungacacile ngaphambi kokufundisa
+
+Isilayidi sesifundo sithi “ama-chromosome ayahlukana” singasho ukuthi yimaphi. Uma i-Claude igcwalisa leso sikhala ngolwazi olujwayelekile ingakutsheli, ungagcina uzijwayeza impendulo ezwakala iqinisekile kodwa engasekelwe ngumthombo wakho.
 
 Namathisela imithombo, chaza umngcele ngokuqondile, bese ucela ukuthi kuqalwe ngokuhlola imithombo:
 
@@ -112,10 +123,14 @@ Buza umbuzo owodwa ngesikhathi bese ulinda impendulo yami. Ungafaki izinto
 ezingisikisela impendulo embuzweni. Ngemva kokuba ngiphendulile:
 1. maka impendulo ngokuthi Ilungile, Ilungile ngokwengxenye, Ayilungile,
    noma Umthombo awucacile;
-2. sho ngokuqondile ukuthi yini ebilungile nokuthi yini ebishoda;
+2. nikeza amazwana amafushane ngomzamo wami ungakayivezi impendulo ephelele;
 3. khomba ifayela nekhasi, isilayidi, noma isihloko esisekela impendulo;
-4. ngicele ngizame futhi ngaphambi kokubonisa impendulo ephelele;
+4. uma impendulo yami ilungile ngokwengxenye noma ingalungile, nikeza isikiselo
+   bese ungivumela ngizame futhi ngaphambi kokubonisa impendulo ephelele;
 5. faka kuphela lapho ngintula khona ngempela kurekhodi lobuthakathaka bami.
+
+Uma umthombo ungacacile, maka umbuzo ukuze uqinisekiswe kunokungicela
+ukuthi ngiphinde ngizame.
 
 Hlanganisa imibuzo yokukhumbula ngokuqondile, yokuhlukanisa imiqondo efanayo,
 neyokusebenzisa ulwazi kafushane. Ungawenzi amakhadi okufunda okwamanje.
@@ -153,7 +168,7 @@ Ayilungile. Ama-chromatid angamawele (sister chromatids) ahlala exhumene ku-anap
 Phinda uhlole le misho emibili: yini eya ezigxotsheni eziphambene zeseli?
 ```
 
-Ngemva kokuzama futhi, i-Claude ingachaza ukuthi lokhu kuhluke kanjani ku-anaphase II. Leyo ncazelo ifanele ukuhlala engxoxweni yokufundisa. Iphuzu ontula kulo okufanele uqhubeke ulizijwayeza lincane kunalokho:
+Uma imithombo oyinikezile ihlanganisa ne-anaphase II, i-Claude ingaqhathanisa lezi zigaba ezimbili ngemva kokuzama futhi. Leyo ncazelo ifanele ukuhlala engxoxweni yokufundisa. Iphuzu ontula kulo okufanele uqhubeke ulizijwayeza lincane kunalokho:
 
 ```text
 Ngaphambili: Yini ehlukana ku-anaphase I ye-meiosis?
@@ -222,17 +237,75 @@ oluhlukile, uzihambise nesivivinyo esifanele. Ungagcini lutho okwamanje.
 
 Lahla okunye. Ukufunda nge-Claude kungaba wusizo noma kungakhiqizi nelilodwa ikhadi.
 
-## Uma uthanda: dlulisela amakhadi akhethiwe ngaphandle kwe-Claude
+## Gcina amaphuzu aqinisekisiwe lapho untula khona ku-Nibomo
 
-Indlela elula yokudlulisa isebenza kunoma yiluphi uhlelo lwamakhadi okufunda. Cela i-Claude ikhiphe kuphela amakhadi owavumile ngamabhulokhi alula engaphambili nengemuva, uwahlole futhi, bese uwakopishela ohlelweni lwakho olujwayelekile lokubuyekeza.
+Uma usuhlolile ubufakazi, cela i-plugin ye-Nibomo iguqule amaphuzu owakhethile abe amakhadi agciniwe. Yisho indawo yokusebenza, bese ucela i-Claude ihlole amakhadi akhona ngaphambi kokwengeza amasha. Nawu umyalelo ocela ukuboniswa kwamakhadi ngaphambi kokuwagcina:
 
-Uma usebenzisa i-Nibomo, xhuma i-Claude nge-MCP, okuyindlela yokuxhumanisa umsizi ne-Nibomo. Ungabe usuyicela ukuthi igcine amakhadi osuwahlolile futhi wawavuma. Ngaphambi kokuwagcina, hlola okuqukethwe kuwo nendawo azogcinwa kuyo.
+```text
+Sebenzisa i-Nibomo ukwakha amakhadi okufunda afinyelela kwangu-5 ngerekhodi
+eliqinisekisiwe lalapho ngintula khona elingenhla.
+Sebenzisa indawo yokusebenza engiyihlosile: [igama lendawo yokusebenza].
+Uma igama lingacacile, qinisekisa ukuthi iyiphi indawo ngaphambi kokugcina.
 
-Lapho sekuyisikhathi sokubuyekeza, ungasebenzisa [uhlelo lwewebhu lwe-Nibomo](https://app.nibomo.com/) noma uxoxe ne-Claude noma i-Codex exhunywe ku-Nibomo nge-MCP. Engxoxweni, cela umsizi abuze umbuzo owodwa ngesikhathi, alinde ukuthi uzame ukuphendula, bese kuphela eveza impendulo. Ngemva kwalokho uqopha ku-Nibomo isilinganiso sakho sokuthi uyikhumbule kahle kangakanani impendulo. I-Nibomo igcina uhlelo olulodwa lwezikhathi zokubuyekeza, ngakho ungashintsha phakathi kohlelo lokusebenza nengxoxo.
+Hlola amakhadi akhona ukuze uthole aphindaphindayo noma ahlola iphuzu elifanayo.
+Sebenzisa kuphela izikhala ezisekelwa ubufakazi engibuhlolile. Ikhadi ngalinye
+malihlole iphuzu elilodwa, libe nengaphambili elicacile, ingemuva elifushane,
+nendawo yomthombo.
 
-> [Xhuma ku-Claude](https://claude.ai/directory/nibomo) · [Imibhalo yokusebenzisa](/docs/mcp-connector/)
+Qala ngokungibonisa amakhadi ahlongozwayo, ubufakazi bawo, nanoma yimaphi
+amakhadi akhona afanayo. Linda imvume yami ngaphambi kokugcina.
+Ngemva kokugcina, qinisekisa ukuthi kudalwe ini nokuthi kugcinwe kuphi.
+```
 
-Ukuze uxhume, bheka [isiqondiso sokuxhuma i-Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (ngesiNgisi) kanye [nemibhalo yesixhumi se-MCP](/docs/mcp-connector/). Uma ungafuni ukuxhuma umsizi, usengawakopisha ngesandla amakhadi.
+Ukuboniswa kwamakhadi kuqala kuyindlela oyikhethayo ngalo myalelo. Ungakhetha ukuthi ufuna ukuhlola okungakanani ngaphambi kokucela i-Claude igcine noma ihlele amakhadi; akuyona imfuneko yazo zonke izenzo ze-plugin.
+
+Khumbula umehluko osesibonelweni esingenhla: incazelo ikusizile ukuqonda i-meiosis, kuyilapho ikhadi eligciniwe lihlola umehluko othile ongawuqondanga. Impendulo ende yomfundisi akuvamile ukuthi idinge ukuba ikhadi elide.
+
+## Buyekeza amakhadi okufunda ku-Claude lapho sekuyisikhathi sawo
+
+Imibuzo ngamanothi osanda kuwalayisha iyisikhathi sokufundiswa. Ukubuyekeza okuhleliwe kwe-Nibomo kusebenzisa amakhadi osuwagcinile futhi kuqopha umphumela othinta ukuthi ikhadi ngalinye lizobuya nini. Cela lokho ngokucacile:
+
+```text
+Sebenzisa i-Nibomo ukubuyekeza amakhadi ami osekuyisikhathi sokuwabuyekeza
+imizuzu eyi-10 ku-[igama lendawo yokusebenza].
+Sebenzisa i-Europe/Paris njengezoni yami yesikhathi.
+
+Bonisa umbuzo owodwa ngesikhathi bese ulinda umzamo wami ngaphambi kokuveza
+impendulo egciniwe. Bese uqhathanisa umzamo wami wokuqala naleyo mpendulo,
+unikeze amazwana amafushane ngomzamo wami, uqophe isilinganiso esifanele
+sokukhumbula. Ngitshele ukuthi yisiphi isilinganiso osiqophile.
+Linganisa umzamo wokuqala, hhayi impendulo elungisiwe engiyinikeza ngemva
+kokuvezwa kwempendulo. Yima uma isikhathi sesiphelile noma engasekho amakhadi
+osekuyisikhathi sokuwabuyekeza, bese ufingqa ukubuyekeza okuqinisekiswe yi-Nibomo.
+```
+
+Shintsha indawo yokusebenza nezoni yesikhathi kube okwakho. Ngokuvamile i-Claude imemezela isilinganiso esikhethile bese isiqopha ngokuzenzakalelayo. Uma ufuna ukukhetha isilinganiso ngasinye ngokwakho, engeza: “Sebenzisa indlela yokukhetha izilinganiso ngesandla: ngemva kokuveza impendulo, linda ngikhethe u-Again, Hard, Good, noma Easy ngaphambi kokusiqopha.”
+
+Uma uphendula ikhadi le-anaphase I ngokuthi “ama-chromatid angamawele”, ukubona ukuthi isilungiso silungile ngemva kokuvezwa kwaso akuwenzi umzamo wakho wokuqala ulunge. Umbuzo wakamuva nge-anaphase II ungahlola ukuthi manje usuyakwazi yini ukuhlukanisa lezi zigaba ezimbili; akufanele uthuthukise isilinganiso sokuqala ngokubuyela emuva.
+
+Ungabuyekeza futhi [ohlelweni lwe-Nibomo](https://app.nibomo.com/). Ukubuyekeza okuqinisekisiwe kubuyekeza uhlelo olulodwa lwezikhathi, kungakhathaliseki ukuthi kwenzeka ohlelweni lokusebenza noma ku-Claude, ngakho ungashintsha phakathi kwazo ngaphandle kokugcina amarekhodi amabili okubuyekeza. Cela i-Claude ibike ngokucacile uma ukuqopha kwehlulekile noma kungaqinisekisiwe, ingakuthathi njengenqubekela phambili egciniwe.
+
+## Thuthukisa amakhadi aqhubeka ekudida
+
+Ukuphendula kabi ngokuphindaphindiwe kungaveza umbuzo ongacacile, impendulo egcwele amaphuzu amaningi, noma umbandela ongekho. Cela i-Claude ihlole ikhadi ngaphambi kokunquma ukuthi udinga ukuphindaphinda okwengeziwe nje:
+
+```text
+Sebenzisa i-Nibomo ukuhlola amakhadi angididayo kulesi sikhathi sokufunda.
+Hlola izingaphambili ezingacacile, amaphuzu amaningi okukhumbula ekhadini
+elilodwa, izimo ezingashiwongo, izimpendulo ezingasekelwe, namakhadi
+aphindaphindayo. Qhathanisa izilungiso ezihlongozwayo nobufakazi besifundo
+obungenhla.
+
+Bonisa ikhadi lamanje noshintsho oluhlongozwayo ndawonye ukuze kube lula
+ukuqhathanisa, ufake isizathu esifushane nendawo yomthombo. Maka noma yini
+ubufakazi obungeke buyicacise.
+Linda imvume yami ngaphambi kokuhlela; ungasusi amakhadi noma uguqule
+amaqiniso angakaqinisekiswa.
+```
+
+Shiya ikhadi linjalo uma umbuzo ucacile futhi umane wehlulekile ukukhumbula impendulo. Ezikhala ezidinga umdwebo noma enye inkinga exazululiwe, buyela ekufundisweni noma ekuzilolongeni ngokuqondile.
+
+Uma ukhetha ukukopisha ngesandla, cela i-Claude ikhiphe amakhadi owavumile ngamabhulokhi alula engaphambili nengemuva, bese uwafaka ohlelweni lwakho olujwayelekile lwamakhadi okufunda. Ukuhlola imithombo nokuphendula umbuzo ngaphambi kokubona usizo kusasebenza.
 
 ## Lapho i-Claude isadinga ukugadwa khona
 
@@ -256,8 +329,10 @@ Ngaphambi kokuqeda ukufunda, hlola ukuthi:
 - isilungiso ngasinye sikhomba ubufakazi ozivulele bona;
 - ulwazi lwangaphandle lubhalwe ngokuhlukile kokuqukethwe yisifundo;
 - okungakaqinisekiswa akuguqulwanga kwaba ikhadi lokufunda;
-- kusale amaphuzu ambalwa kuphela lapho untula khona azobaluleka nangesikhathi esizayo;
-- noma yisiphi isenzo sokubhala ngesixhumi sibonisiwe kuqala futhi savunywa;
-- unohlelo lokuphinda ubuyele ephuzwini ngalinye olikhethile.
+- amaphuzu ambalwa kuphela aqinisekisiwe lapho untula khona, azobaluleka nangesikhathi esizayo, aba amakhadi agciniwe;
+- amakhadi agcinwe endaweni yokusebenza oyihlosile ngaphandle kokuphindaphinda okungadingekile;
+- ukhethe izilinganiso ezizenzakalelayo noma ezikhethwa ngesandla ekubuyekezeni okuhleliwe;
+- izilinganiso zibonisa umzamo wakho wokuqala, futhi ukubuyekeza okuqoshiwe kuqinisekisiwe;
+- uyazi ukuthi uzobuyela kuphi lapho kufika isikhathi esilandelayo esihleliwe sokubuyekeza.
 
 **I-Claude ewusizo njengomfundisi** yenza okungaphezu kokuchaza. Ikhombisa lapho umthombo uphela khona, ilinde usazama ukukhumbula, bese ikushiyela irekhodi elifushane lalapho wehluleke khona ngempela. Yilelo rekhodi, hhayi ubude bengxoxo, elenza le ndlela yokufunda nge-Claude ifanele ukuphindwa.

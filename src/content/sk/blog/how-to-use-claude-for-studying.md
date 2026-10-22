@@ -2,7 +2,7 @@
 title: "Ako používať Claude pri učení v roku 2026: praktický postup"
 description: "Učte sa s Claude z vlastných poznámok, odpovedajte na otázky po jednej, overujte opravy a premieňajte slabé miesta na kartičky v súlade s pravidlami kurzu pre AI."
 date: "2026-05-28"
-updated: "2026-10-03"
+updated: "2026-10-22"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "ako používať Claude pri učení"
@@ -13,15 +13,13 @@ keywords:
   - "Claude Learning mode"
 ---
 
-Na snímke z prednášky sa píše „chromozómy sa oddeľujú“, no nie je uvedené, ktoré. Ak Claude túto medzeru potichu doplní zo všeobecných znalostí, môžete si precvičovať presvedčivo znejúcu odpoveď, ktorú váš zdroj vôbec nepodložil.
+Ak hľadáte, **ako používať Claude pri učení**, začnite malou časťou vlastných poznámok z kurzu. Skontrolujte, ktoré tvrdenia tieto poznámky podporujú, a odpovedajte na otázky po jednej, ešte pred zobrazením pomoci. Overte opravy a potom si uložte slabé miesta, ktoré potrebujete precvičovať ďalej. Na tento posledný krok odporúčam [plugin Nibomo pre Claude](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory): poskytuje Claude postupy na tvorbu kartičiek, opakovanie kartičiek naplánovaných na teraz a zlepšovanie kartičiek, ktoré vás mätú.
 
-Prvý užitočný pokyn preto nie je „vyskúšaj ma“. Požiadajte Claude, aby ukázal, ktoré tvrdenia materiál podporuje, ktoré časti sú nejednoznačné a čo nedokáže prečítať. Potom vás môže viesť pri učení v rámci hraníc, ktoré viete skontrolovať.
+Užitočný cyklus je **kontrola zdroja → odpoveď spamäti → overenie → uloženie → opakovanie v naplánovanom čase**. Bežné pokyny na doučovanie fungujú v normálnom chate s Claude; plugin prepája toto učenie s uloženými kartičkami a plánom opakovania.
 
-Tento cyklus vychádzajúci z konkrétnych zdrojov je praktickou odpoveďou na otázku, **ako používať Claude pri učení**: skontrolujte materiál, odpovedajte spamäti na jednu otázku za druhou, ku každej oprave uchovajte podklad a uložte si len tie slabé miesta, ku ktorým sa oplatí vrátiť. Funguje to v bežnom chate s Claude a nepotrebujete na to aplikáciu s kartičkami.
+> **Upozornenie na prepojenie s produktom:** Som Kirill Markin a vyvíjam [Nibomo](/sk/features/). Pri rešerši a úprave článku pomáhala AI.
 
-> **Upozornenie na prepojenie s produktom:** Som Kirill Markin a vyvíjam [Nibomo](/sk/features/). Okrem tohto oznámenia sa produkt objavuje len v nepovinnej časti o prenose kartičiek nižšie; samotná metóda učenia od neho nezávisí. Pri rešerši a úprave článku pomáhala AI.
-
-**Fakty overené:** 14. septembra 2026.
+**Fakty overené:** 22. októbra 2026.
 
 ![Pracovný stôl s podkladmi na učenie prepájajúci zdrojové poznámky s jednou otázkou a dvoma overenými kartičkami k slabým miestam; nejednoznačná poznámka je odložená bokom](/blog/how-to-use-claude-for-studying-v2.png)
 
@@ -35,9 +33,20 @@ Tento cyklus použite na jednu časť prednášky, text na čítanie alebo sadu 
 4. Odpovedajte spamäti, vždy na jednu otázku.
 5. Zaznamenajte opravu, miesto v zdroji a prípadnú neistotu.
 6. Dôležité odpovede si overte sami.
-7. Na ďalšie precvičovanie alebo kartičky si nechajte len slabé miesta, ktoré majú dlhodobejší význam.
+7. Uložte si v Nibomo niekoľko overených slabých miest s dlhodobejším významom ako kartičky.
+8. Opakujte si uložené kartičky v naplánovanom čase v Claude alebo v aplikácii Nibomo.
 
 Na poradí záleží. Skúšanie z nejednoznačného zdroja len sťažuje odhalenie tejto nejednoznačnosti.
+
+## Nastavte si Nibomo v Claude
+
+Otvorte [plugin Nibomo](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory) alebo prejdite do **Customize → Plugins**, vyhľadajte Nibomo a kliknite na **Add**. Ak už je nainštalovaný, overte, že je zapnutý.
+
+Pripojte konektor Nibomo, ktorý je súčasťou pluginu. Postupujte podľa pokynov na prihlásenie: prihláste sa do svojho účtu Nibomo alebo si ho vytvorte a povoľte prístup pre Claude. Keď sa zobrazí výber pracovného priestoru, vyberte ten, ktorý chcete používať. Pri tomto postupe nemusíte kopírovať token API ani zadávať adresu servera.
+
+Plugin poskytuje postupy na tvorbu, opakovanie a zlepšovanie kartičiek. Jeho konektor MCP je prepojenie, ktoré umožňuje Claude čítať a upravovať údaje vo vašom účte Nibomo. [Konektor nájdete aj v adresári Claude](https://claude.ai/directory/nibomo). Podrobnosti vysvetľuje náš [návod na pripojenie ku Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (v angličtine) a [dokumentácia konektora MCP](/sk/docs/mcp-connector/).
+
+Anthropic momentálne sprístupňuje [pluginy v plánoch Pro, Max, Team a Enterprise](https://support.claude.com/en/articles/13837440-use-plugins-in-claude), a to v Claude na webe, na karte Chat v Claude Desktop a v Cowork. Ak váš účet pluginy nemá, môžete stále používať pokyny na doučovanie nižšie a vybrané kartičky ručne skopírovať do aplikácie na opakovanie.
 
 ## Pred prvým nahratím si pozrite pravidlá kurzu
 
@@ -58,9 +67,9 @@ Vlastnú prácu robte sami. Spätná väzba po vašom pokuse môže byť povolen
 
 Na krátke učenie stačí jednorazový chat. Pri dlhšom kurze si vytvorte jeden projekt v Claude a pridajte doň len materiál, ktorý k nemu patrí.
 
-[Projekty v Claude](https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects) sú dostupné všetkým používateľom; účty Free sú momentálne obmedzené na päť projektov. Súbory a pokyny pridané do znalostí projektu tam zostávajú a dajú sa opakovane používať v chatoch daného projektu. Bežný kontext chatu sa automaticky nezdieľa s ostatnými chatmi, pokiaľ príslušný materiál nepridáte do znalostí projektu.
+[Projekty v Claude](https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects) sú dostupné všetkým používateľom; účty Free sú momentálne obmedzené na päť projektov. Do znalostí projektu pridajte konkrétne súbory z kurzu a pokyny na učenie, aby boli dostupné v jeho chatoch.
 
-Samotné zaradenie dvoch chatov do jedného projektu neznamená, že v druhom budú dostupné všetky podrobnosti z prvého.
+Ak je zapnutá pamäť, projekt môže medzi rozhovormi prenášať aj zapamätaný kontext. Berte ho ako kontext pri učení, nie ako smerodajný prepis rozhovoru či náhradu zdrojových súborov. Podklady a opravy, ktoré budete potrebovať znova, uchovajte v znalostiach projektu a požiadajte Claude, aby citoval pôvodný materiál.
 
 [Dokumentácia nahrávania súborov do Claude](https://support.claude.com/en/articles/8241126-upload-files-to-claude) momentálne uvádza PDF, DOCX, CSV, TXT, HTML, ODT, RTF, EPUB, JSON a XLSX, ako aj obrázky JPEG, PNG, GIF a WebP. Nahrávanie XLSX vyžaduje zapnuté spúšťanie kódu a vytváranie súborov. Súbor môžete priložiť k jednému chatu alebo ho ponechať v časti Files projektu na opakované použitie.
 
@@ -69,6 +78,8 @@ Použite čo najmenší zmysluplný rozsah: jednu prednášku, časť kapitoly a
 Anthropic predstavil [**Learning mode** v projektoch Claude for Education](https://www.anthropic.com/news/introducing-claude-for-education) ako vedené učenie sokratovskou metódou, ktoré študentov vedie k uvažovaniu namiesto okamžitého poskytnutia odpovedí. Môžete ho mať k dispozícii, ak vaša univerzita poskytuje Claude for Education, no nepredpokladajte, že je dostupný v každom osobnom účte Claude. Pokyny nižšie vytvoria podobné učenie vedené otázkami aj v bežnom chate.
 
 ## Nechajte Claude odhaliť nejasnosti ešte pred vysvetľovaním
+
+Na snímke z prednášky sa môže písať „chromozómy sa oddeľujú“, no nie je uvedené, ktoré. Ak Claude túto medzeru potichu doplní zo všeobecných znalostí, môžete si precvičovať presvedčivo znejúcu odpoveď, ktorú váš zdroj vôbec nepodložil.
 
 Priložte materiál, presne vymedzte rozsah a najprv požiadajte o kontrolu zdrojov:
 
@@ -109,10 +120,14 @@ Doučuj ma len z podloženého materiálu v prehľade zdrojov.
 Polož vždy iba jednu otázku a počkaj na moju odpoveď. Do otázky nevkladaj
 nápovedu. Keď odpoviem:
 1. označ odpoveď ako Správne, Čiastočne správne, Nesprávne alebo Nejasný zdroj;
-2. povedz presne, čo bolo správne a čo chýbalo;
+2. daj mi krátku spätnú väzbu bez prezradenia celej odpovede;
 3. uveď zdrojový súbor a stranu, snímku alebo nadpis, o ktoré sa odpoveď opiera;
-4. požiadaj ma o ďalší pokus ešte predtým, než ukážeš celú odpoveď;
+4. ak je moja odpoveď čiastočne správna alebo nesprávna, daj mi nápovedu
+   a umožni mi ďalší pokus ešte pred zobrazením celej odpovede;
 5. do záznamu slabých miest pridaj len skutočnú medzeru v znalostiach.
+
+Ak je zdroj nejasný, označ otázku na overenie namiesto toho, aby si odo mňa
+žiadal ďalší pokus.
 
 Striedaj priame vybavovanie z pamäti, rozlišovanie podobných myšlienok a krátke úlohy
 na použitie poznatkov. Zatiaľ nevytváraj kartičky. Po 10 otázkach sa zastav
@@ -150,7 +165,7 @@ Nesprávne. Sesterské chromatídy zostávajú počas anafázy I spojené. Pozri
 na tie dve vety ešte raz: čo sa pohybuje k opačným pólom?
 ```
 
-Po ďalšom pokuse môže Claude vysvetliť, ako sa tento proces líši od anafázy II. Takéto vysvetlenie patrí do rozhovoru pri učení. Slabé miesto, ku ktorému sa oplatí vracať, je užšie:
+Ak dodané materiály zahŕňajú aj anafázu II, Claude môže po ďalšom pokuse tieto dva procesy porovnať. Takéto vysvetlenie patrí do rozhovoru pri učení. Slabé miesto, ku ktorému sa oplatí vracať, je užšie:
 
 ```text
 Predná strana: Čo sa oddeľuje počas anafázy I meiózy?
@@ -217,17 +232,69 @@ s vhodným cvičením. Zatiaľ nič neukladaj.
 
 Zvyšok vyraďte. Učenie s Claude môže byť užitočné aj vtedy, keď nevznikne ani jedna kartička.
 
-## Voliteľne: preneste vybrané kartičky z Claude
+## Uložte overené slabé miesta do Nibomo
 
-Najjednoduchší prenos funguje s akoukoľvek aplikáciou s kartičkami. Požiadajte Claude, aby vrátil iba schválené kartičky v jednoduchých blokoch s prednou a zadnou stranou, ešte raz ich skontrolujte a skopírujte do systému, v ktorom si bežne opakujete.
+Keď skontrolujete podklady, požiadajte plugin Nibomo, aby z vybraných medzier vytvoril a uložil kartičky. Pomenujte pracovný priestor a nechajte Claude pred pridaním ďalších kartičiek skontrolovať tie existujúce. Tento pokyn žiada o náhľad pred uložením:
 
-Ak používate Nibomo, pripojte Claude cez MCP, teda spojenie medzi asistentom a Nibomo. Potom ho môžete požiadať o uloženie kartičiek, ktoré ste skontrolovali a schválili. Pred uložením si overte ich obsah aj miesto, kam sa uložia.
+```text
+Pomocou Nibomo vytvor najviac 5 kartičiek z overeného záznamu slabých miest vyššie.
+Použi tento pracovný priestor: [názov pracovného priestoru]. Ak je názov
+nejednoznačný, pred uložením si over, ktorý priestor mám na mysli.
 
-Keď príde čas opakovať, môžete použiť [webovú aplikáciu Nibomo](https://app.nibomo.com/) alebo chat s Claude či Codexom pripojeným k Nibomo cez MCP. V chate požiadajte asistenta o jednu otázku naraz: počká na váš pokus, až potom odhalí odpoveď a následne do Nibomo zapíše vaše hodnotenie toho, ako dobre ste si odpoveď vybavili. Nibomo vedie spoločný plán opakovania, takže môžete prechádzať medzi aplikáciou a chatom.
+Skontroluj existujúce kartičky, či medzi nimi nie sú duplikáty alebo kartičky
+preverujúce ten istý poznatok. Použi len medzery podložené zdrojmi, ktoré som
+skontroloval. Na každej kartičke preveruj jeden poznatok. Prednú stranu formuluj
+konkrétne, zadnú stručne a pridaj miesto v zdroji.
 
-> [Pripojiť k Claude](https://claude.ai/directory/nibomo) · [Dokumentácia](/docs/mcp-connector/)
+Najprv mi ukáž navrhnuté kartičky, ich podklady a prípadné nájdené duplikáty.
+Pred uložením počkaj na moje schválenie. Po uložení potvrď, aké kartičky vznikli a kde sa uložili.
+```
 
-S pripojením pomôže [návod pre Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (v angličtine) a [dokumentácia konektora MCP](/docs/mcp-connector/). Ak asistenta nechcete pripájať, kartičky môžete naďalej kopírovať ručne.
+Náhľad je vaša preferencia nastavená týmto pokynom. Sami si zvolíte, koľko kontroly chcete pred tým, než Claude požiadate o uloženie alebo úpravu kartičiek; nie je to povinná súčasť každej akcie pluginu.
+
+Nezabudnite na rozdiel z konkrétneho príkladu: vysvetlenie vám pomohlo pochopiť meiózu, kým uložená kartička preveruje konkrétny rozdiel, v ktorom ste sa pomýlili. Z dlhej odpovede pri doučovaní zvyčajne nemusí vzniknúť dlhá kartička.
+
+## Opakujte si v Claude kartičky naplánované na teraz
+
+Skúšanie z čerstvo nahratých poznámok je doučovanie. Naplánované opakovanie v Nibomo používa kartičky, ktoré ste už uložili, a zaznamenáva výsledok, ktorý ovplyvní, kedy sa každá kartička vráti. Požiadajte o to výslovne:
+
+```text
+Pomocou Nibomo so mnou 10 minút opakuj kartičky naplánované na teraz
+v pracovnom priestore [názov pracovného priestoru].
+Ako moje časové pásmo použi Europe/Paris.
+
+Ukazuj jednu otázku po druhej a pred odhalením uloženej odpovede počkaj na môj
+pokus. Potom porovnaj môj pôvodný pokus s touto odpoveďou, daj mi krátku spätnú
+väzbu a zaznamenaj hodnotenie podľa toho, ako som si odpoveď vybavil. Povedz mi,
+ktoré hodnotenie si zaznamenal. Hodnoť pôvodný pokus, nie opravenú odpoveď,
+ktorú dám po odhalení riešenia. Skonči po uplynutí času alebo keď už nebudú
+žiadne kartičky na opakovanie a zhrň opakovania, ktoré Nibomo potvrdilo.
+```
+
+Pracovný priestor a časové pásmo nahraďte vlastnými. Claude zvyčajne oznámi svoje posúdenie a automaticky zaznamená hodnotenie. Ak si chcete každé hodnotenie zvoliť sami, pridajte: „Použi režim ručného hodnotenia: po odhalení odpovede počkaj, kým si vyberiem Again, Hard, Good alebo Easy, a až potom hodnotenie zaznamenaj.“
+
+Ak pri kartičke o anafáze I odpoviete „sesterské chromatídy“, to, že po odhalení rozpoznáte správnu odpoveď, neurobí pôvodný pokus správnym. Neskoršia otázka o anafáze II môže preveriť, či už tieto dva procesy rozlišujete; nemala by spätne zlepšiť prvé hodnotenie.
+
+Opakovať si môžete aj v [aplikácii Nibomo](https://app.nibomo.com/). Potvrdené opakovania aktualizujú ten istý plán bez ohľadu na to, či prebehli v aplikácii alebo v Claude. Môžete teda medzi nimi prechádzať bez vedenia dvoch histórií opakovania. Požiadajte Claude, aby neúspešný alebo nepotvrdený zápis jasne oznámil a nepovažoval ho za uložený pokrok.
+
+## Zlepšite kartičky, ktoré vás opakovane mätú
+
+Opakované chyby môžu odhaliť neurčitú otázku, príliš rozsiahlu odpoveď alebo chýbajúcu podmienku. Než usúdite, že jednoducho potrebujete viac opakovaní, požiadajte Claude, aby kartičku preskúmal:
+
+```text
+Pomocou Nibomo skontroluj kartičky, ktoré ma počas tohto učenia miatli.
+Hľadaj neurčité predné strany, viacero poznatkov na jednej kartičke, chýbajúce
+podmienky, nepodložené odpovede a duplikáty. Navrhnuté opravy porovnaj
+s podkladmi z kurzu uvedenými vyššie.
+
+Ukáž súčasnú kartičku a navrhovanú zmenu vedľa seba, s krátkym dôvodom a miestom
+v zdroji. Označ všetko, čo sa z podkladov nedá rozhodnúť. Pred úpravou počkaj
+na moje schválenie; kartičky nemaž a nemeň nevyjasnené fakty.
+```
+
+Kartičku ponechajte bez zmeny, ak je otázka jasná a odpoveď ste si len nedokázali vybaviť. Pri medzerách, ktoré potrebujú diagram alebo ďalší riešený príklad, sa vráťte k doučovaniu alebo priamemu precvičovaniu.
+
+Ak uprednostňujete ručné kopírovanie, požiadajte Claude o schválené kartičky v jednoduchých blokoch s prednou a zadnou stranou a pridajte ich do aplikácie s kartičkami, ktorú bežne používate. Kontrola zdrojov a doučovanie, pri ktorom odpovedáte pred zobrazením riešenia, platia aj tu.
 
 ## Kde Claude stále potrebuje dohľad
 
@@ -251,8 +318,10 @@ Pred skončením si overte, že:
 - každá oprava odkazuje na podklad, ktorý ste si sami otvorili;
 - znalosti mimo kurzu sú označené oddelene od jeho materiálov;
 - nevyriešená neistota sa nezmenila na kartičku;
-- zostalo len niekoľko slabých miest, ku ktorým sa oplatí vracať;
-- každý zápis cez konektor ste si prezreli v náhľade a schválili;
-- máte plán, ako sa k vybraným slabým miestam vrátiť.
+- uložili ste len niekoľko overených slabých miest s dlhodobejším významom;
+- kartičky sa uložili do zamýšľaného pracovného priestoru bez zbytočných duplikátov;
+- zvolili ste si automatické alebo ručné hodnotenie naplánovaných opakovaní;
+- hodnotenia zodpovedajú vašim pôvodným pokusom a zaznamenané opakovania boli potvrdené;
+- viete, kam sa vrátiť na ďalšie naplánované opakovanie.
 
 Ak má byť **Claude ako tútor** užitočný, musí robiť viac než len vysvetľovať. Ukáže, kde sa zdroj končí, počká, kým si vybavíte odpoveď, a zanechá krátky záznam toho, kde ste narazili. Práve tento záznam, nie dĺžka chatu, dáva dôvod postup učenia s Claude opakovať.
