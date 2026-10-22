@@ -2,7 +2,7 @@
 title: "Studeren met Claude in 2026: een praktische werkwijze"
 description: "Studeer met je eigen aantekeningen in Claude, beantwoord één vraag tegelijk, controleer correcties en maak flashcards van zwakke punten binnen de AI-regels van je vak."
 date: "2026-05-28"
-updated: "2026-10-03"
+updated: "2026-10-22"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "hoe gebruik je Claude om te studeren"
@@ -13,15 +13,13 @@ keywords:
   - "Claude Learning Mode"
 ---
 
-Op een collegedia staat ‘chromosomen gaan uit elkaar’, zonder te vermelden welke. Als Claude die leemte stilletjes opvult met algemene kennis, oefen je misschien een stellig antwoord dat nergens in je bron is onderbouwd.
+Wil je weten **hoe je Claude gebruikt om te studeren**, begin dan met een kleine verzameling aantekeningen van je vak. Controleer wat die aantekeningen onderbouwen en beantwoord één vraag tegelijk voordat je hulp ziet. Controleer de correcties en sla daarna de zwakke punten op die je opnieuw moet oefenen. Voor die laatste stap raad ik de [Nibomo-plugin voor Claude](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory) aan: die geeft Claude werkwijzen om flashcards te maken, kaarten te herhalen die aan de beurt zijn en verwarrende kaarten te verbeteren.
 
-De eerste nuttige prompt is niet ‘overhoor me’. Vraag Claude om aan te geven welke beweringen het materiaal ondersteunt, welke onderdelen onduidelijk zijn en wat het niet kan lezen. Daarna kan het je begeleiden op basis van een afbakening die je zelf kunt controleren.
+De nuttige cyclus is **bron controleren → uit je hoofd antwoorden → verifiëren → opslaan → op het geplande moment herhalen**. Gewone tutor-prompts werken in een normale Claude-chat; de plugin verbindt die sessie met opgeslagen kaarten en een herhalingsschema.
 
-Die werkwijze, met je bronnen als grens, is het praktische antwoord op de vraag **hoe je Claude gebruikt om te studeren**: controleer het materiaal, beantwoord één vraag tegelijk uit je hoofd, bewaar bij elke correctie het bewijs en sla alleen de zwakke punten op die je later nog wilt oefenen. Dat werkt in een gewone Claude-chat en vereist geen flashcard-app.
+> **Transparantie:** Ik ben Kirill Markin en ik bouw [Nibomo](/nl/features/). Dit artikel is met hulp van AI onderzocht en geredigeerd.
 
-> **Transparantie:** Ik ben Kirill Markin en ik bouw [Nibomo](/nl/features/). Afgezien van deze vermelding komt het product alleen terug in het optionele onderdeel hieronder over het overzetten van kaarten; de studiemethode werkt ook zonder. Dit artikel is met hulp van AI onderzocht en geredigeerd.
-
-**Feiten gecontroleerd:** 14 september 2026.
+**Feiten gecontroleerd:** 22 oktober 2026.
 
 ![Studiebureau waarop bronaantekeningen zijn gekoppeld aan één vraag en twee gecontroleerde kaarten over zwakke punten, met een onduidelijke aantekening apart gelegd](/blog/how-to-use-claude-for-studying-v2.png)
 
@@ -35,9 +33,20 @@ Gebruik deze cyclus voor één deel van een college, een leestekst of een reeks 
 4. Beantwoord één vraag tegelijk uit je hoofd.
 5. Leg de correctie, de vindplaats in de bron en eventuele onzekerheid vast.
 6. Controleer belangrijke antwoorden zelf.
-7. Bewaar alleen zwakke punten die op langere termijn relevant zijn, voor latere oefeningen of flashcards.
+7. Sla enkele gecontroleerde zwakke punten die op langere termijn relevant zijn op als flashcards in Nibomo.
+8. Herhaal opgeslagen kaarten wanneer ze aan de beurt zijn, in Claude of de Nibomo-app.
 
 De volgorde doet ertoe. Jezelf laten overhoren op basis van een onduidelijke bron maakt die onduidelijkheid alleen maar lastiger te herkennen.
+
+## Stel Nibomo in Claude in
+
+Open de [Nibomo-plugin](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory), of ga naar **Customize → Plugins**, zoek Nibomo en klik op **Add**. Is de plugin al geïnstalleerd, controleer dan of die is ingeschakeld.
+
+Verbind de Nibomo-connector die bij de plugin hoort. Volg de aanmeldstappen, meld je aan bij je Nibomo-account of maak er een aan en geef Claude toegang. Kies de bedoelde werkruimte wanneer daarom wordt gevraagd. Hiervoor hoef je geen API-token te kopiëren of een server-URL in te voeren.
+
+De plugin levert de werkwijzen voor het maken, herhalen en verbeteren van kaarten. De MCP-connector is de verbinding waarmee Claude je Nibomo-account kan lezen en bijwerken. Je vindt de [connector ook in de catalogus van Claude](https://claude.ai/directory/nibomo). Onze [handleiding om Claude met Nibomo te verbinden](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (Engels) en de [MCP-connectorreferentie](/nl/docs/mcp-connector/) leggen die verbinding verder uit.
+
+Anthropic biedt [plugins momenteel aan bij Pro, Max, Team en Enterprise](https://support.claude.com/en/articles/13837440-use-plugins-in-claude), in Claude op het web, op het tabblad Chat van Claude Desktop en in Cowork. Heeft je account geen plugins, dan kun je nog steeds de tutor-prompts hieronder gebruiken en geselecteerde kaarten handmatig naar je flashcard-app kopiëren.
 
 ## Controleer de regels van je vak voordat je iets uploadt
 
@@ -58,9 +67,9 @@ Zorg dat het eigenlijke werk van jou blijft. Feedback op je eigen poging kan toe
 
 Een losse chat is genoeg voor een korte studiesessie. Maak voor een doorlopend vak één Claude Project aan en voeg alleen materiaal toe dat daarbij hoort.
 
-[Claude Projects](https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects) zijn beschikbaar voor alle gebruikers; gratis accounts zijn momenteel beperkt tot vijf projecten. Bestanden en instructies die je aan de projectkennis toevoegt, blijven daar beschikbaar voor hergebruik in andere chats binnen dat Project. De context van een gewone chat wordt niet automatisch met andere chats gedeeld, tenzij je het relevante materiaal toevoegt aan de projectkennis.
+[Claude Projects](https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects) zijn beschikbaar voor alle gebruikers; gratis accounts zijn momenteel beperkt tot vijf projecten. Voeg de exacte bestanden van je vak en je studie-instructies toe aan de projectkennis, zodat ze in alle chats binnen dat Project beschikbaar zijn.
 
-Twee chats in hetzelfde Project plaatsen maakt dus niet vanzelf elk detail uit de eerste chat beschikbaar in de tweede.
+Wanneer geheugen is ingeschakeld, kan een Project ook context tussen gesprekken onthouden. Gebruik dat geheugen als studiecontext, niet als een gezaghebbend gespreksverslag of vervanging van de bronbestanden. Bewaar bewijs en correcties die je opnieuw nodig hebt in de projectkennis en vraag Claude om naar het oorspronkelijke materiaal te verwijzen.
 
 Claude noemt in zijn [documentatie over bestandsuploads](https://support.claude.com/en/articles/8241126-upload-files-to-claude) momenteel PDF, DOCX, CSV, TXT, HTML, ODT, RTF, EPUB, JSON en XLSX, plus afbeeldingen in JPEG, PNG, GIF en WebP. Voor XLSX-uploads moeten het uitvoeren van code en het aanmaken van bestanden zijn ingeschakeld. Je kunt een bestand aan één chat toevoegen of het bewaren in de sectie Files van een Project om het opnieuw te gebruiken.
 
@@ -69,6 +78,8 @@ Kies de kleinste hoeveelheid materiaal waarmee je zinvol kunt werken: één coll
 Anthropic introduceerde [**Learning mode** binnen Claude for Education Projects](https://www.anthropic.com/news/introducing-claude-for-education) als een begeleide, socratische manier van leren die studenten zelf laat redeneren in plaats van meteen antwoorden te geven. Je hebt er mogelijk toegang toe als je universiteit Claude for Education aanbiedt, maar ga er niet van uit dat deze functie op elk persoonlijk Claude-account beschikbaar is. Met de prompts hieronder kun je een vergelijkbare sessie op basis van vragen voeren in een gewone chat.
 
 ## Laat Claude onduidelijkheden benoemen voordat het uitleg geeft
+
+Op een collegedia staat misschien ‘chromosomen gaan uit elkaar’, zonder te vermelden welke. Als Claude die leemte stilletjes opvult met algemene kennis, oefen je misschien een stellig antwoord dat nergens in je bron is onderbouwd.
 
 Voeg het materiaal toe, geef precies aan wat de afbakening is en vraag eerst om een broncontrole:
 
@@ -110,10 +121,14 @@ Begeleid me alleen bij het onderbouwde materiaal in het bronnenoverzicht.
 Stel één vraag tegelijk en wacht op mijn antwoord. Geef geen hints in de vraag.
 Doe na mijn antwoord het volgende:
 1. beoordeel het als Goed, Deels goed, Fout of Bron onduidelijk;
-2. geef precies aan wat klopte en wat ontbrak;
+2. geef korte feedback zonder het volledige antwoord te verklappen;
 3. vermeld het onderbouwende bestand en de pagina, dia of kop;
-4. laat me nog één poging doen voordat je het volledige antwoord geeft;
+4. geef bij een deels goed of fout antwoord een hint en laat me opnieuw proberen
+   voordat je het volledige antwoord geeft;
 5. voeg alleen een echte kennislacune toe aan het overzicht van zwakke punten.
+
+Als de bron onduidelijk is, markeer de vraag dan voor controle in plaats van
+me opnieuw te laten antwoorden.
 
 Wissel directe kennisvragen, onderscheid tussen vergelijkbare ideeën en korte
 toepassingen af. Maak nog geen flashcards. Stop na 10 vragen en toon het overzicht.
@@ -150,7 +165,7 @@ Fout. Zusterchromatiden blijven tijdens anafase I met elkaar verbonden.
 Bekijk de twee zinnen nog eens: wat beweegt naar tegenoverliggende polen?
 ```
 
-Na de tweede poging kan Claude uitleggen hoe dit verschilt van anafase II. Die uitleg hoort thuis in het begeleidende gesprek. Het zwakke punt dat je wilt blijven oefenen is kleiner:
+Als het aangeleverde materiaal ook anafase II behandelt, kan Claude de twee na de nieuwe poging vergelijken. Die uitleg hoort thuis in het begeleidende gesprek. Het zwakke punt dat je wilt blijven oefenen is kleiner:
 
 ```text
 Voorkant: Wat gaat uit elkaar tijdens anafase I van de meiose?
@@ -218,19 +233,72 @@ oefening. Sla nog niets op.
 
 Laat de rest weg. Een studiesessie met Claude kan nuttig zijn zonder ook maar één kaart op te leveren.
 
-## Optioneel: zet geselecteerde kaarten over vanuit Claude
+## Sla gecontroleerde zwakke punten op in Nibomo
 
-De eenvoudigste overdracht werkt met elke flashcard-app. Vraag Claude om alleen de goedgekeurde kaarten terug te geven als eenvoudige blokken met een voor- en achterkant, controleer ze nog eens en kopieer ze naar het systeem waarin je gewoonlijk herhaalt.
+Nadat je het bewijs hebt gecontroleerd, vraag je de Nibomo-plugin om geselecteerde kennislacunes om te zetten in opgeslagen kaarten. Noem de werkruimte en laat Claude bestaande kaarten controleren voordat het nieuwe toevoegt. Met deze prompt laat je de voorgestelde kaarten eerst zien voordat ze worden opgeslagen:
 
-Als je Nibomo gebruikt, kun je Claude via MCP verbinden met je kaarten. MCP is hier de verbinding tussen de assistent en Nibomo. Na het instellen kan Claude de kaarten die je hebt gecontroleerd en goedgekeurd direct in Nibomo opslaan. Laat eerst de inhoud en de plek waar ze worden opgeslagen zien, en controleer daarna de opgeslagen kaarten.
+```text
+Gebruik Nibomo om maximaal 5 flashcards te maken op basis van het gecontroleerde
+overzicht van zwakke punten hierboven. Gebruik de volgende werkruimte:
+[naam werkruimte]. Bevestig vóór het opslaan welke werkruimte dat is als de naam
+niet eenduidig is.
 
-Wanneer kaarten aan herhaling toe zijn, kun je oefenen in de [webapp](https://app.nibomo.com/) of in een gesprek met Claude of Codex dat via MCP met Nibomo is verbonden. Vraag de assistent om één vraag tegelijk te stellen en op jouw poging te wachten voordat hij het antwoord toont. Daarna geef jij aan hoe goed je het antwoord wist; de assistent legt jouw beoordeling vast in Nibomo.
+Controleer bestaande kaarten op duplicaten of kaarten met hetzelfde leerdoel.
+Gebruik alleen kennislacunes die worden onderbouwd door het bewijs dat ik heb
+gecontroleerd. Gebruik één leerdoel per kaart, met een specifieke voorkant,
+een korte achterkant en de vindplaats in de bron.
 
-Nibomo houdt één herhalingsschema bij, zowel voor de app als voor de gesprekken. Je kunt dus wisselen tussen de app en de assistent en verdergaan met dezelfde kaarten en planning.
+Toon eerst de voorgestelde kaarten, het bewijs en eventuele overeenkomende kaarten.
+Wacht op mijn goedkeuring voordat je ze opslaat. Bevestig na het opslaan wat je
+hebt aangemaakt en waar.
+```
 
-> [Verbinden met Claude](https://claude.ai/directory/nibomo) · [Documentatie](/docs/mcp-connector/)
+Het vooraf bekijken is een voorkeur die je in deze prompt vastlegt. Je kunt zelf kiezen hoeveel je wilt controleren voordat je Claude vraagt kaarten op te slaan of te bewerken; dat is geen vereiste voor elke actie van de plugin.
 
-Voor het instellen kun je de [handleiding voor de Claude-connector](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (in het Engels) en de [MCP-connectorreferentie](/docs/mcp-connector/) gebruiken. Handmatig kopiëren blijft een volwaardige optie als je geen verbinding wilt instellen.
+Houd het onderscheid uit het uitgewerkte voorbeeld vast: de uitleg hielp je de meiose te begrijpen, terwijl de opgeslagen kaart het specifieke onderscheid toetst dat je miste. Een lang antwoord van een tutor hoeft zelden een lange kaart te worden.
+
+## Herhaal flashcards in Claude wanneer ze aan de beurt zijn
+
+Een overhoring over nieuwe aantekeningen is een begeleide studiesessie. Een geplande herhaling in Nibomo gebruikt kaarten die je al hebt opgeslagen en legt een resultaat vast dat bepaalt wanneer elke kaart terugkomt. Vraag daar uitdrukkelijk om:
+
+```text
+Gebruik Nibomo om 10 minuten lang mijn flashcards te herhalen die nu aan de beurt
+zijn in [naam werkruimte]. Gebruik Europe/Paris als mijn tijdzone.
+
+Toon één vraag tegelijk en wacht op mijn poging voordat je het opgeslagen antwoord
+laat zien. Vergelijk daarna mijn oorspronkelijke poging met dat antwoord, geef
+korte feedback en sla een passende beoordeling op voor hoe goed ik het antwoord
+wist. Vertel me welke beoordeling je hebt opgeslagen. Beoordeel mijn oorspronkelijke
+poging, niet een verbeterd antwoord dat ik na het tonen van de achterkant geef.
+Stop als de tijd om is of er geen kaarten meer aan de beurt zijn en vat de
+herhalingen samen die Nibomo heeft bevestigd.
+```
+
+Vervang de werkruimte en tijdzone door die van jou. Claude noemt normaal gesproken zijn beoordeling en slaat die automatisch op. Wil je elke beoordeling zelf kiezen, voeg dan toe: ‘Gebruik de handmatige beoordelingsmodus: wacht na het tonen van het antwoord tot ik Again, Hard, Good of Easy kies voordat je de beoordeling opslaat.’
+
+Antwoord je ‘zusterchromatiden’ op de kaart over anafase I, dan maakt het herkennen van de correctie na het tonen van het antwoord je oorspronkelijke poging niet goed. Een latere vraag over anafase II kan toetsen of je de twee nu uit elkaar houdt; die mag de eerste beoordeling niet achteraf verbeteren.
+
+Je kunt ook herhalen in de [Nibomo-app](https://app.nibomo.com/). Bevestigde herhalingen werken hetzelfde schema bij, of je nu in de app of in Claude oefent. Je kunt dus wisselen zonder je herhalingen op twee plekken apart bij te houden. Vraag Claude om een mislukte of onbevestigde opslag duidelijk te melden in plaats van die als opgeslagen voortgang te behandelen.
+
+## Verbeter kaarten die verwarrend blijven
+
+Als je een kaart telkens fout hebt, kan dat wijzen op een vage vraag, een te vol antwoord of een ontbrekende voorwaarde. Vraag Claude om de kaart te bekijken voordat je besluit dat je simpelweg vaker moet herhalen:
+
+```text
+Gebruik Nibomo om de kaarten te controleren die ik in deze sessie verwarrend vond.
+Controleer op vage voorkanten, meerdere leerdoelen, ontbrekende voorwaarden,
+niet-onderbouwde antwoorden en duplicaten. Vergelijk voorgestelde correcties met
+het bewijs uit het lesmateriaal hierboven.
+
+Toon de huidige kaart en de voorgestelde wijziging naast elkaar, met een korte
+reden en de vindplaats in de bron. Markeer alles waarover het bewijs geen uitsluitsel
+geeft. Wacht op mijn goedkeuring voordat je iets bewerkt; verwijder geen kaarten
+en wijzig geen feiten die nog onzeker zijn.
+```
+
+Laat een kaart ongewijzigd als de vraag duidelijk is en je het antwoord gewoon niet kon ophalen. Ga voor kennislacunes die om een diagram of nog een uitgewerkt voorbeeld vragen terug naar begeleiding of directe oefening.
+
+Kopieer je liever handmatig, vraag Claude dan om de goedgekeurde kaarten als eenvoudige blokken met een voor- en achterkant en voeg ze toe aan je gebruikelijke flashcard-app. De broncontroles en de werkwijze waarbij je eerst zelf antwoordt, blijven van toepassing.
 
 ## Waar Claude nog begeleiding nodig heeft
 
@@ -254,8 +322,10 @@ Controleer voordat je de sessie afsluit of:
 - elke correctie verwijst naar bewijs dat je zelf hebt geopend;
 - kennis van buiten het lesmateriaal een apart label heeft;
 - onopgeloste onzekerheid geen flashcard is geworden;
-- er slechts enkele zwakke punten zijn overgebleven die op langere termijn relevant zijn;
-- elke schrijfactie via een connector vooraf is getoond en goedgekeurd;
-- je een plan hebt om elk geselecteerd zwak punt opnieuw te oefenen.
+- alleen enkele gecontroleerde zwakke punten die op langere termijn relevant zijn, zijn opgeslagen als kaarten;
+- de opgeslagen kaarten in de bedoelde werkruimte staan, zonder onnodige duplicaten;
+- je hebt gekozen voor automatische of handmatige beoordelingen bij geplande herhalingen;
+- beoordelingen je oorspronkelijke poging weerspiegelen en opgeslagen herhalingen zijn bevestigd;
+- je weet waar je terugkomt voor de volgende geplande herhaling.
 
 Een nuttige **Claude-tutor** doet meer dan uitleggen. Hij laat zien waar de bron ophoudt, wacht terwijl jij het antwoord uit je geheugen ophaalt en laat een kort overzicht achter van wat er werkelijk misging. Dat overzicht, niet de lengte van de chat, maakt deze manier van studeren met Claude het herhalen waard.
