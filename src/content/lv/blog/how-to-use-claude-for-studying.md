@@ -2,7 +2,7 @@
 title: "Kā izmantot Claude mācībām 2026. gadā: praktiska pieeja"
 description: "Mācies ar Claude no saviem pierakstiem, atbildi uz vienu jautājumu reizē, pārbaudi labojumus un veido kartītes par grūtākajām tēmām, ievērojot kursa MI noteikumus."
 date: "2026-05-28"
-updated: "2026-10-03"
+updated: "2026-10-22"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "kā izmantot Claude mācībām"
@@ -13,15 +13,13 @@ keywords:
   - "Claude Learning Mode"
 ---
 
-Lekcijas slaidā rakstīts «hromosomas atdalās», bet nav norādīts, kuras tieši. Ja Claude nemanāmi aizpilda šo robu ar vispārīgām zināšanām, tu vari sākt iegaumēt pārliecinoši formulētu atbildi, kuru tavs avots nemaz neapstiprina.
+Ja vēlies saprast, **kā izmantot Claude mācībām**, sāc ar nelielu sava kursa pierakstu kopu. Pārbaudi, ko šie pieraksti pamato, un atbildi uz vienu jautājumu reizē, pirms ieraugi palīdzību. Pārbaudi labojumus, pēc tam saglabā zināšanu robus, pie kuriem jāatgriežas. Pēdējam solim iesaku [Nibomo spraudni darbam ar Claude](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory): tas palīdz Claude veidot kartītes, atkārtot tās, kurām pienācis atkārtošanas laiks, un uzlabot neskaidras kartītes.
 
-Pirmā noderīgā uzvedne nav «pārbaudi manas zināšanas». Vispirms lūdz Claude parādīt, kurus apgalvojumus materiāls pamato, kuras vietas ir neskaidras un ko tas nespēj nolasīt. Tad tas var palīdzēt mācīties, ievērojot robežas, kuras tu vari pārbaudīt.
+Noderīgais cikls ir **avota pārbaude → atbilde no atmiņas → pārbaude → saglabāšana → atkārtošana paredzētajā laikā**. Parastas mācību uzvednes darbojas ierastā Claude sarunā; spraudnis sasaista šo sesiju ar saglabātām kartītēm un atkārtošanas grafiku.
 
-Šāds darbs ar skaidri noteiktiem avotiem ir praktiska atbilde uz jautājumu, **kā izmantot Claude mācībām**: pārbaudi materiālu, atbildi no atmiņas uz vienu jautājumu reizē, pie katra labojuma saglabā pamatojumu un paturi tikai tos zināšanu robus, pie kuriem ir vērts atgriezties. Tas darbojas parastā Claude sarunā un neprasa kartīšu lietotni.
+> **Atklātībai:** mani sauc Kirill Markin, un es izstrādāju [Nibomo](/lv/features/). Šī raksta izpētē un rediģēšanā izmantota MI palīdzība.
 
-> **Atklātībai:** mani sauc Kirill Markin, un es izstrādāju [Nibomo](/lv/features/). Izņemot šo norādi, produkts minēts tikai tālākajā izvēles sadaļā par kartīšu pārnešanu; pati mācīšanās metode no tā nav atkarīga. Šī raksta izpētē un rediģēšanā izmantota MI palīdzība.
-
-**Fakti pārbaudīti:** 2026. gada 14. septembrī.
+**Fakti pārbaudīti:** 2026. gada 22. oktobrī.
 
 ![Mācību darba galds, kur avotu pieraksti sasaistīti ar vienu jautājumu un divām pārbaudītām kartītēm par zināšanu robiem, bet neskaidrs pieraksts nolikts malā](/blog/how-to-use-claude-for-studying-v2.png)
 
@@ -35,9 +33,20 @@ Izmanto šo ciklu vienai lekcijas daļai, lasāmvielai vai uzdevumu kopai:
 4. Atbildi no atmiņas uz vienu jautājumu reizē.
 5. Pieraksti labojumu, tā atrašanās vietu avotā un visas neskaidrības.
 6. Būtiskās atbildes pārbaudi pats.
-7. Turpmākai vingrināšanai vai kartītēm paturi tikai tos zināšanu robus, kuru novēršanai būs ilgstoša nozīme.
+7. Saglabā Nibomo dažas kartītes par pārbaudītiem, ilgtermiņā svarīgiem zināšanu robiem.
+8. Atkārto saglabātās kartītes paredzētajā laikā sarunā ar Claude vai Nibomo lietotnē.
 
 Secībai ir nozīme. Ja zināšanas pārbauda pēc neskaidra avota, šo neskaidrību kļūst tikai grūtāk pamanīt.
+
+## Iestati Nibomo darbam ar Claude
+
+Atver [Nibomo spraudni](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory) vai dodies uz **Customize → Plugins**, atrodi Nibomo un nospied **Add**. Ja tas jau ir instalēts, pārliecinies, ka tas ir ieslēgts.
+
+Pievieno spraudnī iekļauto Nibomo savienotāju. Izpildi pierakstīšanās darbības: pieraksties savā Nibomo kontā vai izveido jaunu un atļauj Claude piekļuvi. Ja tiek prasīts, izvēlies paredzēto darbvietu. Šajā variantā nav jākopē API piekļuves tokens vai jāievada servera URL.
+
+Spraudnis nodrošina kartīšu veidošanas, atkārtošanas un uzlabošanas darbplūsmas. Tā MCP savienotājs ļauj Claude lasīt un atjaunināt datus tavā Nibomo kontā. [Savienotājs ir atrodams arī Claude katalogā](https://claude.ai/directory/nibomo). Sīkāk savienojums aprakstīts mūsu [Claude savienošanas ceļvedī](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (angļu valodā) un [MCP savienotāja dokumentācijā](/lv/docs/mcp-connector/).
+
+Anthropic pašlaik piedāvā [spraudņus Pro, Max, Team un Enterprise plānos](https://support.claude.com/en/articles/13837440-use-plugins-in-claude): Claude tīmekļa versijā, Claude Desktop cilnē Chat un Cowork. Ja tavā kontā spraudņi nav pieejami, vari izmantot tālāk dotās mācību uzvednes un atlasītās kartītes manuāli pārkopēt savā atkārtošanas lietotnē.
 
 ## Pirms pirmās augšupielādes pārbaudi kursa noteikumus
 
@@ -58,9 +67,9 @@ Darbs joprojām jāveic tev pašam. Atgriezeniskā saite pēc tava paša mēģin
 
 Īsai mācību sesijai pietiek ar atsevišķu sarunu. Ilgākam kursam izveido vienu Claude projektu un pievieno tikai uz šo kursu attiecināmos materiālus.
 
-[Claude projekti](https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects) ir pieejami visiem lietotājiem; bezmaksas kontos pašlaik var būt ne vairāk kā pieci projekti. Projekta zināšanu bāzei pievienotie faili un norādījumi tur saglabājas, lai tos varētu izmantot atkārtoti šī projekta sarunās. Parastas sarunas konteksts netiek automātiski kopīgots ar citām sarunām — tam attiecīgais materiāls jāpievieno projekta zināšanu bāzei.
+[Claude projekti](https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects) ir pieejami visiem lietotājiem; bezmaksas kontos pašlaik var būt ne vairāk kā pieci projekti. Pievieno konkrētos kursa failus un mācību norādījumus projekta zināšanu bāzei, lai tie būtu pieejami dažādās projekta sarunās.
 
-Divu sarunu ievietošana vienā projektā pati par sevi nenozīmē, ka visas pirmās sarunas detaļas būs pieejamas otrajā.
+Ja ir ieslēgta atmiņa, projekts var pārnest arī atcerēto kontekstu starp sarunām. Uztver šo atmiņu kā mācību kontekstu, nevis precīzu sarunas protokolu vai avotu failu aizstājēju. Pamatojumu un labojumus, kurus vajadzēs izmantot atkārtoti, glabā projekta zināšanu bāzē un lūdz Claude atsaukties uz sākotnējo materiālu.
 
 Claude [failu augšupielādes dokumentācijā](https://support.claude.com/en/articles/8241126-upload-files-to-claude) pašlaik norādīti PDF, DOCX, CSV, TXT, HTML, ODT, RTF, EPUB, JSON un XLSX faili, kā arī JPEG, PNG, GIF un WebP attēli. Lai augšupielādētu XLSX failus, jābūt ieslēgtai koda izpildei un failu veidošanai. Failu var pievienot vienai sarunai vai glabāt projekta sadaļā Files, lai izmantotu atkārtoti.
 
@@ -69,6 +78,8 @@ Izvēlies mazāko noderīgo materiālu kopu: vienu lekciju, vienu nodaļas daļu
 Anthropic ieviesa [**Learning mode** Claude for Education projektos](https://www.anthropic.com/news/introducing-claude-for-education) kā vadītu, sokratisku mācīšanās veidu, kas mudina studentus spriest, nevis uzreiz dod atbildes. Tas var būt pieejams, ja tava universitāte nodrošina Claude for Education, taču nevajag pieņemt, ka tas ir katrā personīgajā Claude kontā. Tālāk dotās uzvednes ļauj līdzīgu, jautājumos balstītu sesiju izveidot parastā sarunā.
 
 ## Lūdz Claude atklāt neskaidrības pirms skaidrošanas
+
+Lekcijas slaidā var būt rakstīts «hromosomas atdalās», nenorādot, kuras tieši. Ja Claude nemanāmi aizpilda šo robu ar vispārīgām zināšanām, tu vari sākt iegaumēt pārliecinoši formulētu atbildi, kuru tavs avots nemaz neapstiprina.
 
 Pievieno materiālu, precīzi nosaki tā robežas un vispirms lūdz pārbaudīt avotus:
 
@@ -109,10 +120,13 @@ Palīdzi man mācīties tikai to, kas avotu pārskatā ir pamatots ar materiālu
 Uzdod vienu jautājumu reizē un gaidi manu atbildi. Neiekļauj jautājumā mājienus.
 Kad esmu atbildējis:
 1. novērtē atbildi kā Pareizi, Daļēji pareizi, Nepareizi vai Avots ir neskaidrs;
-2. precīzi pasaki, kas bija pareizi un kā pietrūka;
+2. sniedz īsu atgriezenisko saiti, neatklājot pilno atbildi;
 3. norādi pamatojošo failu un lapu, slaidu vai virsrakstu;
-4. lūdz mani mēģināt vēlreiz, pirms rādi pilno atbildi;
+4. ja atbilde ir daļēji pareiza vai nepareiza, dod mājienu un ļauj mēģināt vēlreiz,
+   pirms rādi pilno atbildi;
 5. zināšanu robu žurnālam pievieno tikai īstu robu.
+
+Ja avots ir neskaidrs, atzīmē jautājumu pārbaudei, nevis liec man mēģināt vēlreiz.
 
 Maini jautājumu veidus: tieša atcerēšanās, līdzīgu ideju atšķiršana un īsi
 pielietojuma uzdevumi. Vēl neveido kartītes. Pēc 10 jautājumiem apstājies un parādi žurnālu.
@@ -149,7 +163,7 @@ Nepareizi. Anafāzē I māsu hromatīdas paliek savienotas. Vēlreiz apskati abu
 teikumus: kas pārvietojas uz pretējiem poliem?
 ```
 
-Pēc atkārtota mēģinājuma Claude var izskaidrot, ar ko tas atšķiras no anafāzes II. Šim skaidrojumam ir vieta mācību sarunā. Turpmākai atkārtošanai pietiek ar konkrētāku jautājumu:
+Ja iesniegtais materiāls aptver arī anafāzi II, pēc atkārtota mēģinājuma Claude var tās salīdzināt. Šim skaidrojumam ir vieta mācību sarunā. Turpmākai atkārtošanai pietiek ar konkrētāku jautājumu:
 
 ```text
 Priekšpuse: Kas atdalās mejozes anafāzē I?
@@ -215,17 +229,68 @@ atsevišķā sarakstā ar piemērotu uzdevumu. Vēl neko nesaglabā.
 
 Pārējo atmet. Mācību sesija ar Claude var būt noderīga arī tad, ja tajā nerodas neviena kartīte.
 
-## Pēc izvēles: pārnes atlasītās kartītes no Claude
+## Saglabā Nibomo kartītes par pārbaudītajiem zināšanu robiem
 
-Vienkāršākais pārnešanas veids darbojas ar jebkuru kartīšu lietotni. Lūdz Claude atgriezt tikai apstiprinātās kartītes vienkāršos priekšpuses un aizmugures teksta blokos, pārbaudi tās vēlreiz un iekopē savā ierastajā atkārtošanas sistēmā.
+Kad esi pārbaudījis pamatojumu, lūdz Nibomo spraudnim izveidot un saglabāt kartītes par atlasītajiem zināšanu robiem. Nosauc darbvietu un lūdz Claude pārbaudīt esošās kartītes pirms jaunu pievienošanas. Šajā uzvednē ir lūgts parādīt priekšskatījumu pirms saglabāšanas:
 
-Ja izmanto Nibomo, savieno Claude ar to, izmantojot MCP — savienojumu starp asistentu un Nibomo. Tad vari lūgt saglabāt kartītes, kuras esi pārskatījis un apstiprinājis. Pirms saglabāšanas pārbaudi to saturu un vietu, kur tās tiks saglabātas.
+```text
+Izmanto Nibomo, lai izveidotu līdz 5 kartītēm no iepriekšējā pārbaudīto zināšanu
+robu žurnāla. Izmanto manu paredzēto darbvietu: [darbvietas nosaukums]. Ja
+nosaukums ir neskaidrs, pirms saglabāšanas precizē, kura darbvieta domāta.
 
-Kad pienācis atkārtošanas laiks, vari izmantot [Nibomo tīmekļa lietotni](https://app.nibomo.com/) vai sarunu ar Claude vai Codex, kas savienots ar Nibomo, izmantojot MCP. Sarunā lūdz uzdot vienu jautājumu reizē: asistents nogaida tavu mēģinājumu, pirms parāda atbildi, un pēc tam reģistrē Nibomo tavu vērtējumu par to, cik labi atcerējies atbildi. Nibomo uztur kopīgu atkārtošanas grafiku, tāpēc vari pārslēgties starp lietotni un sarunu.
+Pārbaudi esošās kartītes, meklējot dublikātus un kartītes par to pašu iegaumējamo
+vienību. Izmanto tikai robus, kurus pamato manis pārbaudītie avoti. Katrā kartītē
+iekļauj vienu iegaumējamu vienību: konkrētu priekšpusi, īsu aizmuguri un vietu avotā.
 
-> [Savienot ar Claude](https://claude.ai/directory/nibomo) · [Dokumentācija](/docs/mcp-connector/)
+Vispirms parādi ierosinātās kartītes, to pamatojumu un atrastos iespējamos
+dublikātus. Pirms saglabāšanas sagaidi manu apstiprinājumu. Pēc saglabāšanas
+apstiprini, kas un kur tika izveidots.
+```
 
-Savienojuma iestatīšana aprakstīta [Claude savienotāja ceļvedī](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (angļu valodā) un [MCP savienotāja dokumentācijā](/docs/mcp-connector/). Ja nevēlies savienot asistentu, kartītes joprojām vari kopēt manuāli.
+Priekšskatījums ir tava izvēle, ko nosaki šajā uzvednē. Vari izvēlēties, cik rūpīgi vēlies pārskatīt kartītes, pirms lūdz Claude tās saglabāt vai rediģēt; tā nav prasība katrai spraudņa darbībai.
+
+Paturi prātā piemēra atšķirību: skaidrojums palīdzēja saprast mejozi, bet saglabātā kartīte pārbauda konkrēto atšķirību, kurā kļūdījies. Garai mācību atbildei reti jākļūst par garu kartīti.
+
+## Atkārto kartītes paredzētajā laikā sarunā ar Claude
+
+Jautājumi par tikko augšupielādētiem pierakstiem ir mācību sesija. Nibomo plānotajā atkārtošanā izmanto jau saglabātās kartītes un reģistrē rezultātu, kas ietekmē to, kad katra kartīte atgriezīsies. Lūdz to nepārprotami:
+
+```text
+Izmanto Nibomo, lai 10 minūtes atkārtotu manas kartītes, kurām pienācis
+atkārtošanas laiks, darbvietā [darbvietas nosaukums]. Izmanto Europe/Paris kā manu laika joslu.
+
+Rādi vienu jautājumu reizē un sagaidi manu mēģinājumu, pirms atklāj saglabāto
+atbildi. Tad salīdzini manu sākotnējo mēģinājumu ar šo atbildi, sniedz īsu
+atgriezenisko saiti un reģistrē atbilstošo atcerēšanās vērtējumu. Pasaki, kuru
+vērtējumu reģistrēji. Vērtē sākotnējo mēģinājumu, nevis laboto atbildi, ko sniedzu
+pēc atklāšanas. Apstājies, kad laiks beidzies vai vairs nav kartīšu, kurām pienācis atkārtošanas laiks,
+un apkopo atkārtojumus, kuru reģistrēšanu Nibomo apstiprināja.
+```
+
+Aizstāj darbvietu un laika joslu ar savējām. Claude parasti paziņo savu vērtējumu un to reģistrē automātiski. Ja katru vērtējumu vēlies izvēlēties pats, pievieno: «Izmanto manuālo vērtēšanas režīmu: pēc atbildes atklāšanas sagaidi, līdz izvēlos Again, Hard, Good vai Easy, un tikai tad reģistrē vērtējumu.»
+
+Ja uz kartīti par anafāzi I atbildi «māsu hromatīdas», labojuma atpazīšana pēc atbildes atklāšanas nepadara sākotnējo mēģinājumu pareizu. Vēlāks jautājums par anafāzi II var pārbaudīt, vai tagad tās atšķir; tam nevajadzētu ar atpakaļejošu spēku uzlabot pirmo vērtējumu.
+
+Vari atkārtot arī [Nibomo lietotnē](https://app.nibomo.com/). Apstiprinātie atkārtojumi atjaunina vienu un to pašu grafiku gan lietotnē, gan Claude, tāpēc vari pārslēgties starp tiem, neuzturot divas atkārtošanas vēstures. Lūdz Claude skaidri ziņot par neizdevušos vai neapstiprinātu vērtējuma reģistrēšanu, nevis uzskatīt to par saglabātu progresu.
+
+## Uzlabo kartītes, kas joprojām mulsina
+
+Atkārtotas kļūdas var norādīt uz neskaidru jautājumu, pārāk plašu atbildi vai trūkstošu nosacījumu. Lūdz Claude apskatīt kartīti, pirms secini, ka vienkārši vajag vairāk atkārtojumu:
+
+```text
+Izmanto Nibomo, lai pārbaudītu kartītes, kuras šajā sesijā mani mulsināja. Meklē
+neskaidras priekšpuses, vairākas iegaumējamās vienības vienā kartītē, trūkstošus
+nosacījumus, nepamatotas atbildes un dublikātus. Salīdzini ierosinātos labojumus
+ar iepriekš norādītajiem kursa avotiem.
+
+Parādi esošo kartīti un ierosināto izmaiņu blakus, norādot īsu pamatojumu un
+vietu avotā. Atzīmē visu, ko avoti neļauj noskaidrot. Pirms rediģēšanas sagaidi
+manu apstiprinājumu; nedzēs kartītes un nemaini nenoskaidrotus faktus.
+```
+
+Atstāj kartīti nemainītu, ja jautājums ir skaidrs un tu vienkārši nespēji atcerēties atbildi. Ja robam vajadzīga diagramma vai vēl viens atrisināts piemērs, atgriezies pie skaidrojumiem vai praktiskas vingrināšanās.
+
+Ja dod priekšroku manuālai kopēšanai, lūdz Claude atgriezt apstiprinātās kartītes vienkāršos priekšpuses un aizmugures teksta blokos un pievieno tās savai ierastajai kartīšu lietotnei. Avotu pārbaude un atbildēšana pirms palīdzības saņemšanas joprojām ir spēkā.
 
 ## Kur Claude joprojām vajadzīga uzraudzība
 
@@ -249,8 +314,10 @@ Pirms beidz sesiju, pārbaudi, vai:
 - katrs labojums norāda uz pamatojumu, kuru pats atvēri;
 - ārējās zināšanas ir marķētas atsevišķi no kursa materiāla;
 - neatrisinātas neskaidrības nav kļuvušas par kartītēm;
-- atlasīti palikuši tikai daži ilgtermiņā svarīgi zināšanu robi;
-- katra savienotāja rakstīšanas darbība tika parādīta priekšskatījumā un apstiprināta;
-- tev ir plāns atgriezties pie katra atlasītā zināšanu roba.
+- par saglabātām kartītēm kļuva tikai daži pārbaudīti, ilgtermiņā svarīgi zināšanu robi;
+- kartītes tika saglabātas paredzētajā darbvietā bez nevajadzīgiem dublikātiem;
+- plānotajai atkārtošanai izvēlējies automātisku vai manuālu vērtēšanu;
+- vērtējumi atspoguļo sākotnējos mēģinājumus un reģistrētie atkārtojumi ir apstiprināti;
+- zini, kur atgriezties nākamajai plānotajai atkārtošanai.
 
 Noderīgs **Claude privātskolotājs** dara vairāk nekā tikai skaidro. Tas parāda, kur beidzas avota sniegtā informācija, gaida, kamēr mēģini atcerēties, un atstāj īsu pierakstu par to, kas īsti sagādāja grūtības. Tieši šis pieraksts, nevis sarunas garums, ir iemesls šo mācīšanās paņēmienu izmantot atkal.

@@ -2,7 +2,7 @@
 title: "Kako koristiti Claudea za učenje u 2026.: praktičan postupak"
 description: "Učite uz Claudea iz vlastitih bilježaka, odgovarajte na jedno po jedno pitanje, provjerite ispravke i pretvorite slabe točke u kartice, u skladu s pravilima kolegija."
 date: "2026-05-28"
-updated: "2026-10-03"
+updated: "2026-10-22"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "kako koristiti Claudea za učenje"
@@ -13,15 +13,13 @@ keywords:
   - "Claude Learning Mode"
 ---
 
-Na slajdu s predavanja piše „kromosomi se razdvajaju”, ali nije navedeno koji. Ako Claude neprimjetno popuni tu prazninu općim znanjem, možete početi uvježbavati samouvjeren odgovor koji vaš izvor zapravo ne potkrepljuje.
+Ako želite naučiti **kako koristiti Claudea za učenje**, počnite s manjim skupom bilježaka s kolegija. Provjerite što te bilješke potkrepljuju i odgovarajte na jedno po jedno pitanje prije nego što dobijete pomoć. Provjerite ispravke, a zatim spremite slabe točke koje trebate ponovno uvježbati. Za taj posljednji korak preporučujem [dodatak Nibomo za Claude](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory): Claudeu daje postupke za izradu kartica za učenje, ponavljanje kartica kada dođu na red i poboljšavanje kartica koje vas zbunjuju.
 
-Prva korisna uputa nije „ispituj me”. Zatražite od Claudea da pokaže koje tvrdnje gradivo potkrepljuje, što je dvosmisleno i što ne može pročitati. Tada vas može poučavati unutar granica koje možete provjeriti.
+Koristan je ciklus **provjera izvora → odgovor iz pamćenja → provjera → spremanje → ponavljanje prema rasporedu**. Upute za poduku funkcioniraju u običnom razgovoru s Claudeom; dodatak povezuje to učenje sa spremljenim karticama i rasporedom ponavljanja.
 
-Takav postupak, ograničen na izvore, praktičan je odgovor na pitanje **kako koristiti Claudea za učenje**: pregledajte gradivo, odgovarajte na jedno po jedno pitanje iz pamćenja, uz svaki ispravak zadržite dokaz i spremite samo slabe točke koje vrijedi ponoviti. To funkcionira u običnom razgovoru s Claudeom i ne zahtijeva aplikaciju za kartice.
+> **Napomena o autoru:** Ja sam Kirill Markin i razvijam [Nibomo](/hr/features/). Istraživanje za članak i njegovo uređivanje provedeni su uz pomoć umjetne inteligencije.
 
-> **Napomena o autoru:** Ja sam Kirill Markin i razvijam [Nibomo](/hr/features/). Osim u ovoj napomeni, proizvod se spominje samo u neobaveznom odjeljku o prijenosu kartica u nastavku; metoda učenja ne ovisi o njemu. Istraživanje za članak i njegovo uređivanje provedeni su uz pomoć umjetne inteligencije.
-
-**Činjenice provjerene:** 14. rujna 2026.
+**Činjenice provjerene:** 22. listopada 2026.
 
 ![Radni stol za učenje na kojem su izvorne bilješke povezane s jednim pitanjem i dvjema provjerenim karticama za slabe točke, uz izdvojenu nejasnu bilješku](/blog/how-to-use-claude-for-studying-v2.png)
 
@@ -35,9 +33,20 @@ Primijenite ove korake na jedan dio predavanja, tekst za čitanje ili skup zadat
 4. Odgovarajte na jedno po jedno pitanje iz pamćenja.
 5. Zabilježite ispravak, mjesto u izvoru i sve neizvjesnosti.
 6. Sami provjerite važne odgovore.
-7. Zadržite samo slabe točke koje vrijedi dugoročno uvježbavati ili pretvoriti u kartice.
+7. Spremite nekoliko provjerenih slabih točaka koje vrijedi dugoročno uvježbavati kao kartice u Nibomu.
+8. Ponavljajte spremljene kartice kada dođu na red, u Claudeu ili aplikaciji Nibomo.
 
 Redoslijed je važan. Ispitivanje na temelju nejasnog izvora samo otežava uočavanje nejasnoća.
+
+## Postavite Nibomo u Claudeu
+
+Otvorite [dodatak Nibomo](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory) ili odaberite **Customize → Plugins**, pronađite Nibomo i kliknite **Add**. Ako je već instaliran, provjerite je li omogućen.
+
+Povežite konektor Nibomo koji dolazi s dodatkom. Slijedite postupak prijave, prijavite se na svoj račun za Nibomo ili ga izradite i odobrite Claudeu pristup. Kada se to od vas zatraži, odaberite željeni radni prostor. Ovaj postupak ne zahtijeva kopiranje API tokena ni unos adrese poslužitelja.
+
+Dodatak donosi postupke za izradu, ponavljanje i poboljšavanje kartica. Njegov MCP konektor omogućuje Claudeu čitanje i ažuriranje vašeg računa za Nibomo. [Konektor možete pronaći i u Claudeovu katalogu](https://claude.ai/directory/nibomo). Naš [vodič za povezivanje s Claudeom](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (na engleskom) i [dokumentacija MCP konektora](/hr/docs/mcp-connector/) detaljnije objašnjavaju tu vezu.
+
+Anthropic trenutačno omogućuje [dodatke u pretplatama Pro, Max, Team i Enterprise](https://support.claude.com/en/articles/13837440-use-plugins-in-claude), u Claudeu na webu, na kartici Chat u aplikaciji Claude Desktop te u Coworku. Ako vaš račun nema dodatke, i dalje možete koristiti upute za poduku u nastavku i ručno kopirati odabrane kartice u svoju aplikaciju za ponavljanje.
 
 ## Provjerite pravila kolegija prije prvog učitavanja
 
@@ -58,9 +67,9 @@ Rad neka bude vaš. Povratne informacije nakon vlastitog pokušaja mogu biti dop
 
 Za kratko učenje dovoljan je jedan razgovor. Za kolegij koji pratite dulje vrijeme izradite jedan Claude Project i dodajte samo materijale koji mu pripadaju.
 
-[Claude Projects](https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects) dostupni su svim korisnicima, a računi Free trenutačno su ograničeni na pet projekata. Datoteke i upute dodane u bazu znanja projekta ostaju ondje i mogu se ponovno koristiti u razgovorima unutar tog projekta. Kontekst običnog razgovora ne dijeli se automatski s drugim razgovorima ako odgovarajuće materijale ne dodate u bazu znanja projekta.
+[Claude Projects](https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects) dostupni su svim korisnicima, a računi Free trenutačno su ograničeni na pet projekata. U bazu znanja projekta dodajte upravo one datoteke kolegija i upute za učenje koje želite koristiti kako bi bile dostupne u svim razgovorima unutar projekta.
 
-Sama činjenica da su dva razgovora u istom projektu ne znači da je svaki detalj iz prvog dostupan u drugome.
+Kada je memorija omogućena, projekt može prenositi zapamćeni kontekst između razgovora. Tu memoriju koristite kao kontekst za učenje, a ne kao mjerodavan prijepis ili zamjenu za izvorne datoteke. Dokaze i ispravke koje trebate ponovno koristiti čuvajte u bazi znanja projekta te tražite od Claudea da navede izvorni materijal.
 
 Claudeova [dokumentacija o učitavanju datoteka](https://support.claude.com/en/articles/8241126-upload-files-to-claude) trenutačno navodi PDF, DOCX, CSV, TXT, HTML, ODT, RTF, EPUB, JSON i XLSX te slike JPEG, PNG, GIF i WebP. Za učitavanje XLSX datoteka moraju biti omogućeni izvršavanje koda i izrada datoteka. Datoteku možete priložiti jednom razgovoru ili je pohraniti u odjeljak Files projekta za ponovnu upotrebu.
 
@@ -69,6 +78,8 @@ Koristite najmanji koristan skup: jedno predavanje, dio poglavlja ili pitanja na
 Anthropic je predstavio [**Learning mode** unutar projekata Claude for Education](https://www.anthropic.com/news/introducing-claude-for-education) kao vođeni, sokratovski način učenja koji od studenata traži da razmišljaju umjesto da im odmah daje odgovore. Možda vam je dostupan ako vaše sveučilište pruža Claude for Education, no nemojte pretpostaviti da postoji na svakom osobnom računu za Claude. Upute u nastavku omogućuju slično učenje kroz pitanja u običnom razgovoru.
 
 ## Neka Claude otkrije nejasnoće prije poučavanja
+
+Na slajdu s predavanja može pisati „kromosomi se razdvajaju”, ali bez naznake koji. Ako Claude neprimjetno popuni tu prazninu općim znanjem, možete početi uvježbavati samouvjeren odgovor koji vaš izvor zapravo ne potkrepljuje.
 
 Priložite materijal, točno odredite opseg i prvo zatražite pregled izvora:
 
@@ -109,10 +120,14 @@ Poučavaj me samo o gradivu koje je potkrijepljeno u pregledu izvora.
 Postavljaj jedno po jedno pitanje i čekaj moj odgovor. Nemoj uključivati
 natuknice u pitanje. Nakon što odgovorim:
 1. označi odgovor kao Točan, Djelomično točan, Netočan ili Izvor je nejasan;
-2. reci točno što je bilo ispravno, a što je nedostajalo;
+2. daj kratku povratnu informaciju bez otkrivanja potpunog odgovora;
 3. navedi datoteku i stranicu, slajd ili naslov odjeljka koji podupiru odgovor;
-4. zamoli me da pokušam još jednom prije nego što pokažeš potpuni odgovor;
+4. ako je moj odgovor djelomično točan ili netočan, daj natuknicu i dopusti mi
+   da pokušam ponovno prije nego što pokažeš potpuni odgovor;
 5. u evidenciju slabih točaka dodaj samo stvarnu prazninu u znanju.
+
+Ako je izvor nejasan, označi pitanje za provjeru umjesto da tražiš da pokušam
+ponovno odgovoriti.
 
 Kombiniraj izravno dosjećanje, razlikovanje sličnih ideja i kratke primjene.
 Još nemoj izrađivati kartice. Stani nakon 10 pitanja i pokaži evidenciju.
@@ -149,7 +164,7 @@ Netočno. Sestrinske kromatide ostaju spojene tijekom anafaze I. Ponovno pročit
 te dvije rečenice: što se pomiče prema suprotnim polovima?
 ```
 
-Nakon ponovnog pokušaja Claude može objasniti po čemu se to razlikuje od anafaze II. To objašnjenje pripada razgovoru tijekom učenja. Slaba točka koju vrijedi trajno uvježbavati uža je:
+Ako priloženo gradivo obrađuje i anafazu II, Claude ih nakon ponovnog pokušaja može usporediti. To objašnjenje pripada razgovoru tijekom učenja. Slaba točka koju vrijedi trajno uvježbavati uža je:
 
 ```text
 Prednja strana: Što se razdvaja tijekom anafaze I mejoze?
@@ -216,17 +231,70 @@ odgovarajućom vježbom. Još ništa nemoj spremati.
 
 Ostalo odbacite. Učenje uz Claudea može biti korisno i kada ne nastane nijedna kartica.
 
-## Neobavezno: prenesite odabrane kartice iz Claudea
+## Spremite provjerene slabe točke u Nibomo
 
-Najjednostavniji prijenos funkcionira s bilo kojom aplikacijom za kartice. Zatražite da Claude vrati samo odobrene kartice kao obične blokove s prednjom i stražnjom stranom, provjerite ih još jednom i kopirajte u sustav koji inače koristite za ponavljanje.
+Nakon što provjerite dokaze, zatražite od dodatka Nibomo da odabrane praznine u znanju pretvori u spremljene kartice. Navedite radni prostor i tražite da Claude provjeri postojeće kartice prije dodavanja novih. Ova uputa traži pregled prijedloga prije spremanja:
 
-Ako koristite Nibomo, povežite Claude putem MCP-a, veze između asistenta i Niboma. Tada možete zatražiti da spremi kartice koje ste pregledali i odobrili. Prije spremanja provjerite njihov sadržaj i mjesto na kojem će biti spremljene.
+```text
+Koristi Nibomo za izradu najviše 5 kartica za učenje iz gornje provjerene
+evidencije slabih točaka. Koristi moj željeni radni prostor: [naziv radnog
+prostora]. Ako je naziv dvosmislen, prije spremanja potvrdi o kojem je prostoru riječ.
 
-Kad dođe vrijeme za ponavljanje, kartice možete ponavljati u [web-aplikaciji Nibomo](https://app.nibomo.com/) ili u razgovoru s Claudeom ili Codexom povezanim s Nibomom putem MCP-a. U razgovoru zatražite jedno po jedno pitanje: asistent čeka vaš pokušaj prije nego što otkrije odgovor, a zatim u Nibomo bilježi vašu ocjenu koliko ste se dobro prisjetili odgovora. Nibomo vodi zajednički raspored ponavljanja, pa možete prelaziti između aplikacije i razgovora.
+Provjeri postoje li duplikati ili kartice koje provjeravaju isto znanje.
+Koristi samo praznine potkrijepljene dokazima koje sam provjerio. Svaka kartica
+neka provjerava samo jednu stvar, s konkretnom prednjom stranom, kratkom
+stražnjom stranom i mjestom u izvoru.
 
-> [Poveži s uslugom Claude](https://claude.ai/directory/nibomo) · [Dokumentacija](/docs/mcp-connector/)
+Prvo mi pokaži predložene kartice, njihove dokaze i moguće duplikate.
+Čekaj moje odobrenje prije spremanja. Nakon spremanja potvrdi što je izrađeno
+i gdje.
+```
 
-Za povezivanje pogledajte [vodič za Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (na engleskom) i [dokumentaciju MCP konektora](/docs/mcp-connector/). Ručno kopiranje ostaje dostupno ako ne želite povezivati asistenta.
+Pregled prijedloga vaša je postavka u ovoj uputi. Možete odabrati koliko želite pregledavati prije nego što zatražite da Claude spremi ili uredi kartice; to nije uvjet za svaku radnju dodatka.
+
+Zadržite razliku iz primjera: objašnjenje vam je pomoglo razumjeti mejozu, a spremljena kartica provjerava baš razliku koju ste propustili. Dug odgovor instruktora rijetko treba postati duga kartica.
+
+## Ponavljajte kartice u Claudeu kada dođu na red
+
+Ispitivanje o upravo učitanim bilješkama jest poduka. Ponavljanje u Nibomu koristi već spremljene kartice koje su došle na red i bilježi rezultat koji utječe na to kada će se svaka ponovno pojaviti. Zatražite to izričito:
+
+```text
+Koristi Nibomo za desetominutno ponavljanje mojih kartica koje su došle na red
+u radnom prostoru [naziv radnog prostora]. Kao moju vremensku zonu koristi
+Europe/Paris.
+
+Pokaži jedno po jedno pitanje i čekaj moj pokušaj prije nego što otkriješ
+spremljeni odgovor. Zatim usporedi moj izvorni pokušaj s tim odgovorom, daj kratku
+povratnu informaciju i zabilježi odgovarajuću ocjenu dosjećanja. Reci mi koju si
+ocjenu zabilježio. Ocijeni izvorni pokušaj, a ne ispravljeni odgovor koji dam
+nakon otkrivanja rješenja. Stani kada vrijeme istekne ili više nema kartica koje
+su došle na red te sažmi ponavljanja čije je bilježenje Nibomo potvrdio.
+```
+
+Zamijenite radni prostor i vremensku zonu vlastitima. Claude obično iznosi svoju procjenu i automatski bilježi ocjenu. Ako želite sami odabrati svaku ocjenu, dodajte: „Koristi ručni način ocjenjivanja: nakon otkrivanja odgovora čekaj da odaberem Again, Hard, Good ili Easy prije nego što zabilježiš ocjenu.”
+
+Ako na karticu o anafazi I odgovorite „sestrinske kromatide”, prepoznavanje ispravka nakon otkrivanja odgovora ne čini izvorni pokušaj točnim. Kasnije pitanje o anafazi II može provjeriti razlikujete li ih sada; ne bi smjelo naknadno poboljšati prvu ocjenu.
+
+Možete ponavljati i u [aplikaciji Nibomo](https://app.nibomo.com/). Potvrđena ponavljanja ažuriraju isti raspored bez obzira na to odvijaju li se u aplikaciji ili Claudeu, pa možete prelaziti iz jednog u drugo bez održavanja dviju povijesti ponavljanja. Tražite da Claude jasno prijavi neuspjelo ili nepotvrđeno bilježenje, umjesto da ga smatra spremljenim napretkom.
+
+## Poboljšajte kartice koje vas stalno zbunjuju
+
+Ponavljane pogreške mogu otkriti nejasno pitanje, preopširan odgovor ili uvjet koji nedostaje. Zatražite da Claude pregleda karticu prije nego što zaključite da vam samo treba više ponavljanja:
+
+```text
+Koristi Nibomo za pregled kartica koje su me zbunjivale tijekom ovog učenja.
+Provjeri nejasne prednje strane, više stvari za pamćenje na jednoj kartici,
+uvjete koji nedostaju, nepotkrijepljene odgovore i duplikate. Usporedi predložene
+ispravke s gore navedenim dokazima iz gradiva kolegija.
+
+Pokaži postojeću karticu i predloženu izmjenu jednu uz drugu, uz kratak razlog
+i mjesto u izvoru. Označi sve što se ne može razriješiti dokazima. Čekaj moje
+odobrenje prije uređivanja; nemoj brisati kartice ni mijenjati nerazjašnjene činjenice.
+```
+
+Ostavite karticu kakva jest ako je pitanje jasno, a vi se samo niste mogli prisjetiti odgovora. Za praznine koje traže dijagram ili još jedan riješeni zadatak vratite se poduci ili izravnoj vježbi.
+
+Ako radije ručno kopirate, zatražite od Claudea odobrene kartice kao obične blokove s prednjom i stražnjom stranom te ih dodajte u svoju uobičajenu aplikaciju za kartice. Provjere izvora i poduka koja počinje pitanjem i dalje vrijede.
 
 ## Gdje Claude i dalje treba nadzor
 
@@ -250,8 +318,10 @@ Prije kraja učenja provjerite:
 - svaki ispravak upućuje na dokaz koji ste sami otvorili;
 - vanjsko znanje označeno je odvojeno od gradiva kolegija;
 - nerazriješena neizvjesnost nije postala kartica;
-- zadržali ste samo nekoliko slabih točaka koje vrijedi dugoročno uvježbavati;
-- svako zapisivanje putem konektora prethodno je pregledano i odobreno;
-- imate plan ponavljanja za svaku odabranu slabu točku.
+- samo je nekoliko provjerenih slabih točaka koje vrijedi dugoročno uvježbavati postalo spremljenim karticama;
+- kartice su spremljene u željeni radni prostor bez nepotrebnih duplikata;
+- odabrali ste automatsko ili ručno ocjenjivanje ponavljanja prema rasporedu;
+- ocjene odražavaju vaš izvorni pokušaj, a bilježenje ponavljanja je potvrđeno;
+- znate gdje ćete se vratiti za sljedeće zakazano ponavljanje.
 
 Koristan **instruktor Claude** radi više od samog objašnjavanja. Pokazuje gdje izvor završava, čeka dok se pokušavate prisjetiti i ostavlja vam kratak zapis onoga što je doista zapelo. Taj zapis, a ne duljina razgovora, čini ovaj postupak učenja uz Claudea vrijednim ponavljanja.

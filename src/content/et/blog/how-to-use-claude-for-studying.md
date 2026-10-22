@@ -2,7 +2,7 @@
 title: "Kuidas kasutada Claude'i õppimiseks 2026. aastal: praktiline töövoog"
 description: "Õpi Claude'iga oma märkmete põhjal, vasta ühele küsimusele korraga, kontrolli parandusi ja tee lünkadest õpikaarte, järgides kursuse tehisintellekti reegleid."
 date: "2026-05-28"
-updated: "2026-10-03"
+updated: "2026-10-22"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "kuidas kasutada Claude'i õppimiseks"
@@ -13,15 +13,13 @@ keywords:
   - "Claude'i õpperežiim Learning mode"
 ---
 
-Loenguslaidil seisab „kromosoomid lahknevad”, kuid pole täpsustatud, millised. Kui Claude täidab selle lünga vaikselt üldteadmiste põhjal, võid hakata harjutama kindlas kõneviisis esitatud vastust, millele sinu allikas tegelikult alust ei andnud.
+Kui tahad teada, **kuidas kasutada Claude'i õppimiseks**, alusta väikese koguse kursusemärkmetega. Kontrolli, mida need märkmed tõendavad, ja vasta ühele küsimusele korraga enne abi nägemist. Kontrolli parandused üle ning salvesta lüngad, mida pead uuesti harjutama. Viimase sammu jaoks soovitan [Nibomo pluginat Claude'ile](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory): see annab Claude'ile töövood õpikaartide loomiseks, õigel ajal kordamiseks ja segadust tekitavate kaartide parandamiseks.
 
-Esimene kasulik juhis pole „küsi mult küsimusi”. Palu Claude'il näidata, milliseid väiteid materjal toetab, mis on mitmetähenduslik ja mida ta lugeda ei suuda. Siis saab ta sind juhendada piirides, mida saad ise kontrollida.
+Kasulik ring on **allika kontroll → vastamine mälu järgi → kontrollimine → salvestamine → kordamine õigel ajal**. Tavalised õppimisjuhised toimivad harilikus Claude'i vestluses; plugin seob selle õppimiskorra salvestatud kaartide ja kordamisgraafikuga.
 
-See allikatega piiritletud õppimisring on praktiline vastus küsimusele, **kuidas kasutada Claude'i õppimiseks**: vaata materjal kriitiliselt üle, vasta mälu järgi ühele küsimusele korraga, hoia iga paranduse juures tõendusmaterjal ja salvesta ainult need lüngad, mille juurde tasub tagasi tulla. See toimib tavalises Claude'i vestluses ega nõua õpikaardirakendust.
+> **Seotus tootega:** olen Kirill Markin ja arendan [Nibomot](/et/features/). Selle artikli uurimistöös ja toimetamisel kasutati tehisintellekti abi.
 
-> **Seotus tootega:** olen Kirill Markin ja arendan [Nibomot](/et/features/). Peale selle märkuse mainin toodet vaid allpool olevas valikulises kaartide ülekandmise osas; õppemeetod sellest ei sõltu. Selle artikli uurimistöös ja toimetamisel kasutati tehisintellekti abi.
-
-**Faktid kontrollitud:** 14. septembril 2026.
+**Faktid kontrollitud:** 22. oktoobril 2026.
 
 ![Õppelaud, kus allikamärkmed on seotud ühe küsimuse ja kahe kontrollitud teadmistelünka käsitleva õpikaardiga ning ebaselge märge on kõrvale tõstetud](/blog/how-to-use-claude-for-studying-v2.png)
 
@@ -35,9 +33,20 @@ Kasuta seda ringi ühe loenguosa, lugemismaterjali või harjutuste komplekti jao
 4. Vasta mälu järgi ühele küsimusele korraga.
 5. Pane kirja parandus, selle asukoht allikas ja kõik ebakindlused.
 6. Kontrolli olulisi vastuseid ise.
-7. Jäta hilisemaks harjutamiseks või õpikaartideks alles ainult need lüngad, mille kõrvaldamisest on pikemaajalist kasu.
+7. Salvesta mõni kontrollitud ja pikemaajaliselt oluline lünk Nibomos õpikaardina.
+8. Korda salvestatud kaarte siis, kui nende kordamisaeg kätte jõuab, kas Claude'is või Nibomo rakenduses.
 
 Järjekord on oluline. Ebaselge allika põhjal küsimustele vastamine muudab ebaselguse märkamise üksnes raskemaks.
+
+## Seadista Nibomo Claude'is
+
+Ava [Nibomo plugin](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory) või mine jaotisse **Customize → Plugins**, otsi Nibomo ja klõpsa **Add**. Kui plugin on juba paigaldatud, veendu, et see on lubatud.
+
+Ühenda pluginaga kaasas olev Nibomo konnektor. Järgi sisselogimise juhiseid, logi oma Nibomo kontole sisse või loo konto ning anna Claude'ile juurdepääsuluba. Kui seda küsitakse, vali soovitud tööruum. Selle viisi puhul pole vaja API-pääsmikku kopeerida ega serveri URL-i sisestada.
+
+Plugin annab kaartide loomise, kordamise ja parandamise töövood. Selle MCP-konnektor võimaldab Claude'il sinu Nibomo kontolt andmeid lugeda ja neid uuendada. [Konnektori leiad ka Claude'i kataloogist](https://claude.ai/directory/nibomo). Ühendust selgitavad lähemalt meie [Claude'iga ühendamise juhend](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (inglise keeles) ja [MCP-konnektori teatmik](/et/docs/mcp-connector/).
+
+Anthropic pakub praegu [pluginaid Pro, Max, Team ja Enterprise'i pakettides](https://support.claude.com/en/articles/13837440-use-plugins-in-claude): Claude'i veebiversioonis, Claude Desktopi vahekaardil Chat ja Coworkis. Kui sinu kontol pole pluginaid, saad siiski kasutada allolevaid õppimisjuhiseid ja kopeerida valitud kaardid käsitsi oma kordamisrakendusse.
 
 ## Kontrolli kursuse reegleid enne esimest üleslaadimist
 
@@ -58,9 +67,9 @@ Tee oma töö ise. Tagasiside pärast sinu enda katset võib olla lubatud õpiab
 
 Lühikeseks õppimiskorraks piisab ühest vestlusest. Pikemaks kursuseks loo üks Claude'i projekt ja lisa sinna ainult selle kursuse materjal.
 
-[Claude'i projektid](https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects) on saadaval kõigile kasutajatele, kusjuures Free-kontodega saab praegu luua kuni viis projekti. Projekti teadmistebaasi lisatud failid ja juhised säilivad seal ning neid saab kasutada sama projekti eri vestlustes. Tavalise vestluse konteksti ei jagata automaatselt teiste vestlustega, kui sa ei lisa vastavat materjali projekti teadmistebaasi.
+[Claude'i projektid](https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects) on saadaval kõigile kasutajatele, kusjuures Free-kontodega saab praegu luua kuni viis projekti. Lisa täpsed kursusefailid ja õppimisjuhised projekti teadmistebaasi, et need oleksid kättesaadavad selle eri vestlustes.
 
-Kahe vestluse paigutamine samasse projekti ei tee iseenesest esimese vestluse kõiki üksikasju teises kättesaadavaks.
+Kui mälu on lubatud, võib projekt kanda vestluste vahel edasi ka meelde jäetud konteksti. Käsitle seda õppimise taustana, mitte autoriteetse vestlusprotokolli või allikafailide asendajana. Hoia tõendid ja edaspidi vajalikud parandused projekti teadmistebaasis ning palu Claude'il viidata algmaterjalile.
 
 Claude'i [failide üleslaadimise dokumentatsioon](https://support.claude.com/en/articles/8241126-upload-files-to-claude) loetleb praegu vormingud PDF, DOCX, CSV, TXT, HTML, ODT, RTF, EPUB, JSON ja XLSX ning pildid vormingutes JPEG, PNG, GIF ja WebP. XLSX-failide üleslaadimiseks peab koodi käivitamine ja failide loomine olema lubatud. Võid lisada faili ühte vestlusse või hoida seda korduvaks kasutamiseks projekti jaotises Files.
 
@@ -69,6 +78,8 @@ Kasuta väikseimat kasulikku materjalikogust: üht loengut, peatüki üht osa v�
 Anthropic tutvustas [**Learning mode'i** Claude for Educationi projektides](https://www.anthropic.com/news/introducing-claude-for-education) sokraatilise juhendamisviisina, mis palub üliõpilastel arutleda, selle asemel et kohe vastused ette anda. See võib olla sulle kättesaadav, kui sinu ülikool pakub Claude for Educationit, kuid ära eelda, et see on olemas igal isiklikul Claude'i kontol. Allolevad juhised aitavad luua sarnase küsimustel põhineva õppimiskorra tavalises vestluses.
 
 ## Palu Claude'il enne õpetamist ebaselgused välja tuua
+
+Loenguslaidil seisab „kromosoomid lahknevad”, kuid pole täpsustatud, millised. Kui Claude täidab selle lünga vaikselt üldteadmiste põhjal, võid hakata harjutama kindlas kõneviisis esitatud vastust, millele sinu allikas tegelikult alust ei andnud.
 
 Lisa materjal, määra täpsed piirid ja palu esmalt allikad üle vaadata:
 
@@ -109,10 +120,14 @@ Juhenda mind ainult allikaülevaates oleva tõendatud materjali põhjal.
 Esita üks küsimus korraga ja oota minu vastust. Ära lisa küsimusse vihjeid.
 Pärast minu vastust:
 1. anna hinnang: Õige, Osaliselt õige, Vale või Allikas ebaselge;
-2. ütle täpselt, mis oli õige ja mis jäi puudu;
+2. anna lühike tagasiside täielikku vastust avaldamata;
 3. viita toetavale failile ning leheküljele, slaidile või pealkirjale;
-4. palu mul enne täieliku vastuse näitamist veel kord proovida;
+4. kui mu vastus on osaliselt õige või vale, anna vihje ja lase mul enne
+   täieliku vastuse näitamist uuesti proovida;
 5. lisa lünkade loendisse ainult tegelik puudujääk.
+
+Kui allikas on ebaselge, märgi küsimus kontrollimist vajavaks, selle asemel et
+paluda mul uuesti proovida.
 
 Vahelda otsest meenutamist, sarnaste ideede eristamist ja lühikesi rakendusülesandeid.
 Ära veel õpikaarte koosta. Peatu pärast 10 küsimust ja näita loendit.
@@ -149,7 +164,7 @@ Vale. Õdekromatiidid jäävad anafaasis I ühendatuks. Vaata neid kahte lauset
 uuesti: mis liigub vastaspoolustele?
 ```
 
-Pärast uut katset võib Claude selgitada, kuidas see erineb anafaasist II. See selgitus kuulub juhendavasse vestlusse. Teadmine, mida tasub edaspidi korrata, on kitsam:
+Kui sinu esitatud materjal käsitleb ka anafaasi II, võib Claude pärast uut katset neid kahte võrrelda. See selgitus kuulub juhendavasse vestlusse. Teadmine, mida tasub edaspidi korrata, on kitsam:
 
 ```text
 Esikülg: Mis lahkneb meioosi anafaasis I?
@@ -215,17 +230,70 @@ midagi salvesta.
 
 Ülejäänu jäta kõrvale. Claude'iga õppimisest võib kasu olla ka siis, kui sellest ei sünni ühtki kaarti.
 
-## Soovi korral vii valitud kaardid Claude'ist välja
+## Salvesta kontrollitud lüngad Nibomosse
 
-Lihtsaim ülekandmisviis töötab iga õpikaardirakendusega. Palu Claude'il esitada ainult heakskiidetud kaardid lihtsate esi- ja tagakülje plokkidena, kontrolli need veel kord üle ning kopeeri oma tavapärasesse kordamissüsteemi.
+Kui oled tõendid üle kontrollinud, palu Nibomo pluginal luua valitud lünkadest õpikaardid ja need salvestada. Nimeta tööruum ja lase Claude'il enne uute kaartide lisamist olemasolevad üle vaadata. Järgmise juhisega palud kaarte enne salvestamist näha:
 
-Kui kasutad Nibomot, ühenda see esmalt Claude'iga MCP kaudu. MCP loob ühenduse assistendi ja Nibomo vahel. Palu Claude'il näidata valitud kaarte ja nende salvestuskohta. Pärast sinu heakskiitu saab ta kaardid Nibomosse salvestada.
+```text
+Loo Nibomos ülaloleva kontrollitud lünkade loendi põhjal kuni 5 õpikaarti.
+Kasuta soovitud tööruumi: [tööruumi nimi]. Kui nimi on mitmetähenduslik,
+täpsusta enne salvestamist, millist tööruumi mõtlen.
 
-Kordamiseks võid kasutada [veebirakendust](https://app.nibomo.com/) või vestelda Claude'i või Codexiga, mis on MCP kaudu Nibomoga ühendatud. Vestluses esitab assistent ühe küsimuse korraga, ootab sinu vastusekatset ja näitab alles seejärel kaardi vastust. Sina hindad, kui lihtne või raske oli vastust meenutada, ning assistent salvestab sinu hinnangu Nibomosse. Nibomo peab mõlema viisi jaoks ühist kordamisgraafikut, nii et saad rakenduse ja vestluse vahel vahetada ning jätkata kaartidega, mille kordamisaeg on kätte jõudnud.
+Kontrolli olemasolevaid kaarte, et leida duplikaadid või sama teadmist
+käsitlevad kaardid. Kasuta ainult lünki, mida toetavad minu kontrollitud
+tõendid. Pane igale kaardile üks meeldejäetav teadmine, konkreetne küsimus,
+lühike vastus ja allika asukoht.
 
-> [Ühenda teenusega Claude](https://claude.ai/directory/nibomo) · [Dokumentatsioon](/docs/mcp-connector/)
+Näita mulle esmalt pakutud kaarte, nende tõendeid ja leitud duplikaate.
+Oota enne salvestamist minu heakskiitu. Pärast salvestamist kinnita,
+mis loodi ja kuhu.
+```
 
-Ühenduse seadistamiseks vaata [Claude'i konnektori juhendit](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (inglise keeles) ja [MCP-konnektori teatmikku](/docs/mcp-connector/). Kui sa ei soovi konnektorit kasutada, on käsitsi kopeerimine samuti terviklik töövoog.
+Eelvaade on selles juhises sinu valitud eelistus. Saad ise otsustada, kui põhjalikult tahad kaarte enne üle vaadata, kui palud Claude'il need salvestada või neid muuta; eelvaade pole iga pluginatoimingu nõue.
+
+Pea meeles näites toodud eristust: selgitus aitas sul meioosist aru saada, salvestatud kaart aga kontrollib konkreetset erinevust, mille juures eksisid. Pikk juhendav vastus peab harva muutuma pikaks kaardiks.
+
+## Korda Claude'is õpikaarte, mille kordamisaeg on kätte jõudnud
+
+Uute üleslaaditud märkmete põhjal küsimustele vastamine on juhendav õppimiskord. Nibomo ajastatud kordamine kasutab juba salvestatud kaarte ja registreerib tulemuse, mis mõjutab iga kaardi järgmist kordamisaega. Küsi seda selgelt:
+
+```text
+Kasuta Nibomot, et korrata 10 minuti jooksul minu õpikaarte, mille kordamisaeg
+on kätte jõudnud, tööruumis [tööruumi nimi]. Kasuta ajavööndit Europe/Paris.
+
+Näita üht küsimust korraga ja oota minu vastusekatset enne salvestatud vastuse
+avaldamist. Seejärel võrdle minu esialgset vastust kaardi vastusega, anna
+lühike tagasiside ja salvesta sobiv meenutamishinnang. Ütle, millise hinnangu
+salvestasid. Hinda esialgset katset, mitte parandatud vastust, mille annan
+pärast õige vastuse nägemist. Lõpeta, kui aeg saab täis või pole enam kaarte,
+mille kordamisaeg on kätte jõudnud, ja tee kokkuvõte kordamistest, mille Nibomo kinnitas.
+```
+
+Asenda tööruum ja ajavöönd enda omadega. Tavaliselt ütleb Claude oma hinnangu välja ja salvestab selle automaatselt. Kui tahad iga hinnangu ise valida, lisa: „Kasuta käsitsi hindamist: pärast vastuse avaldamist oota, kuni valin Again, Hard, Good või Easy, enne kui hinnangu salvestad.”
+
+Kui vastad anafaasi I kaardile „õdekromatiidid”, ei muuda paranduse äratundmine pärast vastuse avaldamist esialgset katset õigeks. Hilisem küsimus anafaasi II kohta võib kontrollida, kas nüüd eristad neid kahte; see ei tohiks tagantjärele esimese vastuse hinnangut parandada.
+
+Korrata saad ka [Nibomo rakenduses](https://app.nibomo.com/). Kinnitatud kordamised uuendavad sama graafikut nii rakenduses kui ka Claude'is, seega saad nende vahel vahetada ilma kahte kordamisajalugu pidamata. Palu Claude'il ebaõnnestunud või kinnitamata salvestamisest selgelt teada anda, mitte käsitleda seda salvestatud edusammuna.
+
+## Paranda kaarte, mis tekitavad pidevalt segadust
+
+Korduvad eksimused võivad osutada ebamäärasele küsimusele, liiga mahukale vastusele või puuduvale tingimusele. Palu Claude'il kaart üle vaadata, enne kui otsustad, et vajad lihtsalt rohkem kordamisi:
+
+```text
+Vaata Nibomo abil üle kaardid, mis mulle selle õppimiskorra jooksul segadust
+tekitasid. Otsi ebamääraseid küsimusi, mitut meeldejäetavat teadmist ühel
+kaardil, puuduvaid tingimusi, tõendamata vastuseid ja duplikaate. Võrdle
+pakutud parandusi ülalolevate kursusematerjali tõenditega.
+
+Näita praegust kaarti ja pakutud muudatust kõrvuti koos lühikese põhjenduse
+ja allika asukohaga. Märgi kõik, mida tõendid ei võimalda kindlaks teha.
+Oota enne muutmist minu heakskiitu; ära kustuta kaarte ega muuda veel
+lahendamata faktiküsimusi.
+```
+
+Jäta kaart muutmata, kui küsimus on selge ja vastus lihtsalt ei meenunud. Kui lünga täitmiseks on vaja joonist või veel üht lahenduskäiguga näidet, mine tagasi juhendamise või vahetu harjutamise juurde.
+
+Kui eelistad käsitsi kopeerimist, palu Claude'il esitada heakskiidetud kaardid lihtsate esi- ja tagakülje plokkidena ning lisa need oma tavapärasesse õpikaardirakendusse. Allikate kontroll ja küsimusele enne abi nägemist vastamine kehtivad endiselt.
 
 ## Kus Claude endiselt järelevalvet vajab
 
@@ -249,8 +317,10 @@ Enne õppimiskorra lõpetamist kontrolli, et:
 - iga parandus viitab tõendile, mille oled ise avanud;
 - välised teadmised on kursusematerjalist eraldi märgistatud;
 - lahendamata ebaselgusest ei saanud õpikaarti;
-- alles jäi vaid mõni lünk, mille kõrvaldamisest on pikemaajalist kasu;
-- kõiki konnektori kirjutustoiminguid näidati eelvaates ja need kiideti heaks;
-- sul on plaan iga valitud lünga juurde tagasi tulla.
+- salvestatud kaartideks sai vaid mõni kontrollitud ja pikemaajaliselt oluline lünk;
+- kaardid salvestati soovitud tööruumi ilma tarbetute duplikaatideta;
+- valisid ajastatud kordamisteks automaatse või käsitsi hindamise;
+- hinnangud kajastavad sinu esialgset vastusekatset ja salvestatud kordamised said kinnituse;
+- tead, kus järgmise ajastatud kordamise ajal jätkata.
 
 **Claude õpijuhendajana** on kasulik siis, kui ta teeb enamat kui selgitab. Ta näitab, kus allikas enam vastust ei anna, ootab, kuni sa vastust meenutad, ja jätab sulle lühikese ülevaate sellest, kus sa tegelikult hätta jäid. Just see ülevaade, mitte vestluse pikkus, teeb Claude'iga õppimise töövoo kordamist väärt.

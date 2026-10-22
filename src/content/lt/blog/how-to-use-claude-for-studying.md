@@ -2,7 +2,7 @@
 title: "Kaip naudoti Claude mokymuisi 2026 m.: praktinė eiga"
 description: "Mokykitės su Claude iš savo užrašų: atsakykite po vieną klausimą, tikrinkite pataisymus ir paverskite spragas kortelėmis, laikydamiesi kurso DI taisyklių."
 date: "2026-05-28"
-updated: "2026-10-03"
+updated: "2026-10-22"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "kaip naudoti Claude mokymuisi"
@@ -13,15 +13,13 @@ keywords:
   - "Claude mokymosi režimas"
 ---
 
-Paskaitos skaidrėje parašyta „chromosomos atsiskiria“, bet nenurodyta, kurios. Jei Claude tyliai užpildys šią spragą bendromis žiniomis, galite pradėti kartoti užtikrintai skambantį atsakymą, kurio jūsų šaltinis niekada nepagrindė.
+Jei norite sužinoti, **kaip naudoti Claude mokymuisi**, pradėkite nuo nedidelės savo kurso užrašų dalies. Patikrinkite, ką šie užrašai pagrindžia, ir atsakykite po vieną klausimą dar nepamatę pagalbos. Patikrinkite pataisymus, tada išsaugokite žinių spragas, prie kurių dar reikės grįžti. Tam rekomenduoju [Claude skirtą Nibomo įskiepį](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory): jis pateikia Claude nurodymus, kaip kurti mokymosi korteles, kartoti jas numatytu laiku ir tobulinti tas, kurios jus klaidina.
 
-Pirmoji naudinga užklausa nėra „patikrink mano žinias“. Paprašykite Claude parodyti, kuriuos teiginius medžiaga pagrindžia, kas joje dviprasmiška ir ko jis negali perskaityti. Tuomet jis galės mokyti remdamasis aiškiai apibrėžta medžiaga, kurią galite patikrinti.
+Naudinga eiga yra **šaltinio patikra → atsakymas iš atminties → tikrinimas → išsaugojimas → kartojimas numatytu laiku**. Įprastos mokymosi užklausos veikia paprastame Claude pokalbyje; įskiepis susieja jį su išsaugotomis kortelėmis ir kartojimo tvarkaraščiu.
 
-Tokia šaltiniais apribota mokymosi eiga yra praktinis atsakymas į klausimą, **kaip naudoti Claude mokymuisi**: patikrinkite medžiagą, iš atminties atsakykite po vieną klausimą, prie kiekvieno pataisymo išsaugokite pagrindimą ir pasilikite tik tas žinių spragas, prie kurių verta grįžti. Tam užtenka įprasto Claude pokalbio; mokymosi kortelių programėlė nebūtina.
+> **Apie autoriaus interesus:** esu Kirill Markin, kuriu [Nibomo](/lt/features/). Renkant informaciją šiam straipsniui ir jį redaguojant naudotasi DI pagalba.
 
-> **Apie autoriaus interesus:** esu Kirill Markin, kuriu [Nibomo](/lt/features/). Be šio paaiškinimo, produktas minimas tik toliau esančiame pasirenkamame skyriuje apie kortelių perkėlimą; mokymosi metodas nuo jo nepriklauso. Renkant informaciją šiam straipsniui ir jį redaguojant naudotasi DI pagalba.
-
-**Faktai patikrinti:** 2026 m. rugsėjo 14 d.
+**Faktai patikrinti:** 2026 m. spalio 22 d.
 
 ![Mokymosi stalas: šaltinio užrašai susieti su vienu klausimu ir dviem patikrintomis žinių spragų kortelėmis, o dviprasmiškas užrašas atidėtas į šalį](/blog/how-to-use-claude-for-studying-v2.png)
 
@@ -35,9 +33,20 @@ Tokia šaltiniais apribota mokymosi eiga yra praktinis atsakymas į klausimą, *
 4. Iš atminties atsakykite po vieną klausimą.
 5. Užrašykite pataisymą, jo vietą šaltinyje ir visus neaiškumus.
 6. Svarbius atsakymus patikrinkite patys.
-7. Vėlesnei praktikai ar kortelėms pasilikite tik ilgesniam laikui aktualias žinių spragas.
+7. Kelias patikrintas, ilgesniam laikui aktualias žinių spragas išsaugokite kaip korteles Nibomo.
+8. Atėjus laikui, kartokite išsaugotas korteles su Claude arba Nibomo programėlėje.
 
 Eiliškumas svarbus. Klausimai iš dviprasmiško šaltinio tik apsunkina tos dviprasmybės pastebėjimą.
+
+## Kaip paruošti Nibomo darbui su Claude
+
+Atidarykite [Nibomo įskiepį](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory) arba eikite į **Customize → Plugins**, raskite Nibomo ir spustelėkite **Add**. Jei įskiepis jau įdiegtas, patikrinkite, ar jis įjungtas.
+
+Prijunkite kartu su įskiepiu pateikiamą Nibomo jungtį. Atlikite prisijungimo veiksmus: prisijunkite prie savo Nibomo paskyros arba sukurkite naują ir suteikite Claude prieigą. Kai būsite paprašyti, pasirinkite reikiamą darbo sritį. Šiuo būdu nereikia kopijuoti API rakto ar įvesti serverio URL.
+
+Įskiepis pateikia nurodymus, kaip kurti, kartoti ir tobulinti korteles. Jo MCP jungtis leidžia Claude skaityti ir atnaujinti jūsų Nibomo paskyros duomenis. [Jungtį rasite ir Claude kataloge](https://claude.ai/directory/nibomo). Išsamiau apie prisijungimą rašoma mūsų [Claude prijungimo vadove](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (anglų kalba) ir [MCP jungties dokumentacijoje](/lt/docs/mcp-connector/).
+
+Šiuo metu Anthropic [įskiepius leidžia naudoti Pro, Max, Team ir Enterprise planų naudotojams](https://support.claude.com/en/articles/13837440-use-plugins-in-claude): Claude žiniatinklio versijoje, Claude Desktop skirtuke Chat ir Cowork. Jei jūsų paskyroje įskiepių nėra, vis tiek galite naudoti toliau pateiktas mokymosi užklausas ir rankiniu būdu nukopijuoti atrinktas korteles į savo kartojimo programėlę.
 
 ## Prieš pirmą įkėlimą patikrinkite kurso taisykles
 
@@ -58,9 +67,9 @@ Darbą pirmiausia atlikite patys. Grįžtamasis ryšys po jūsų pačių bandymo
 
 Trumpam mokymuisi pakanka vieno pokalbio. Jei kursą mokysitės ilgesnį laiką, sukurkite vieną Claude projektą ir pridėkite tik tam kursui priklausančią medžiagą.
 
-[Claude projektai](https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects) prieinami visiems naudotojams; šiuo metu nemokamose paskyrose galima turėti iki penkių projektų. Į projekto žinių bazę pridėti failai ir nurodymai išlieka, todėl juos galima pakartotinai naudoti to projekto pokalbiuose. Įprasto pokalbio kontekstas automatiškai neperduodamas kitiems pokalbiams, nebent atitinkamą medžiagą įtraukiate į projekto žinių bazę.
+[Claude projektai](https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects) prieinami visiems naudotojams; šiuo metu nemokamose paskyrose galima turėti iki penkių projektų. Tikslius kurso failus ir mokymosi nurodymus pridėkite į projekto žinių bazę, kad jie būtų prieinami visuose jo pokalbiuose.
 
-Vien tai, kad du pokalbiai yra tame pačiame projekte, nereiškia, kad visos pirmojo pokalbio detalės bus prieinamos antrajame.
+Kai atmintis įjungta, projektas taip pat gali išlaikyti įsimintą kontekstą tarp pokalbių. Laikykite šią atmintį mokymosi kontekstu, o ne patikimu pokalbio nuorašu ar šaltinių pakaitalu. Pagrindimą ir pataisymus, kurių reikės vėliau, laikykite projekto žinių bazėje ir prašykite Claude nurodyti pirminę medžiagą.
 
 Claude [failų įkėlimo dokumentacijoje](https://support.claude.com/en/articles/8241126-upload-files-to-claude) šiuo metu nurodyti PDF, DOCX, CSV, TXT, HTML, ODT, RTF, EPUB, JSON ir XLSX formatai, taip pat JPEG, PNG, GIF ir WebP vaizdai. Norint įkelti XLSX, turi būti įjungtas kodo vykdymas ir failų kūrimas. Failą galite pridėti prie vieno pokalbio arba laikyti projekto skiltyje Files, kad galėtumėte jį naudoti pakartotinai.
 
@@ -69,6 +78,8 @@ Rinkitės mažiausią naudingą medžiagos dalį: vieną paskaitą, vieną skyri
 Anthropic pristatė [**Learning mode** Claude for Education projektuose](https://www.anthropic.com/news/introducing-claude-for-education) – sokratinį mokymosi režimą, kuris skatina studentus samprotauti, užuot iš karto pateikęs atsakymus. Jis gali būti prieinamas, jei jūsų universitetas teikia Claude for Education, tačiau nereikėtų manyti, kad jį turi kiekviena asmeninė Claude paskyra. Toliau pateiktos užklausos leidžia panašiai mokytis per klausimus ir įprastame pokalbyje.
 
 ## Prieš mokydamas Claude turi atskleisti neaiškumus
+
+Paskaitos skaidrėje gali būti parašyta „chromosomos atsiskiria“, bet nenurodyta, kurios. Jei Claude tyliai užpildys šią spragą bendromis žiniomis, galite pradėti kartoti užtikrintai skambantį atsakymą, kurio jūsų šaltinis niekada nepagrindė.
 
 Pridėkite medžiagą, tiksliai apibrėžkite jos ribas ir pirmiausia paprašykite patikrinti šaltinius:
 
@@ -109,10 +120,14 @@ Mokyk mane tik to, kas pagrįsta šaltinių apžvalgoje.
 Užduok po vieną klausimą ir lauk mano atsakymo. Klausime nepateik užuominų.
 Kai atsakysiu:
 1. įvertink: Teisinga, Iš dalies teisinga, Neteisinga arba Šaltinis neaiškus;
-2. tiksliai pasakyk, kas buvo teisinga ir ko trūko;
+2. pateik trumpą grįžtamąjį ryšį, neatskleisdamas viso atsakymo;
 3. nurodyk pagrindžiantį failą ir puslapį, skaidrę arba antraštę;
-4. prieš parodydamas visą atsakymą, paprašyk manęs pabandyti dar kartą;
+4. jei atsakymas iš dalies teisingas arba neteisingas, duok užuominą ir leisk
+   pabandyti dar kartą prieš parodydamas visą atsakymą;
 5. į žinių spragų žurnalą įtrauk tik tikrą spragą.
+
+Jei šaltinis neaiškus, pažymėk klausimą patikrai, užuot prašęs manęs
+bandyti atsakyti dar kartą.
 
 Derink tiesioginio atsiminimo klausimus, panašių idėjų palyginimus ir trumpas
 taikymo užduotis. Kortelių dar nekurk. Sustok po 10 klausimų ir parodyk žurnalą.
@@ -149,7 +164,7 @@ Neteisinga. Per anafazę I seserinės chromatidės lieka susijungusios. Dar kart
 perskaityk tuos du sakinius: kas juda į priešingus polius?
 ```
 
-Po antro bandymo Claude gali paaiškinti, kuo tai skiriasi nuo anafazės II. Šis paaiškinimas tinka mokymosi pokalbiui. Ilgalaikiam kartojimui aktuali spraga yra mažesnė:
+Jei jūsų pateikta medžiaga apima ir anafazę II, po pakartotinio bandymo Claude gali palyginti šiuos du etapus. Šis paaiškinimas tinka mokymosi pokalbiui. Ilgalaikiam kartojimui aktuali spraga yra mažesnė:
 
 ```text
 Priekinė pusė: Kas atsiskiria per mejozės anafazę I?
@@ -216,17 +231,73 @@ sąrašą su tinkamu pratimu. Kol kas nieko neišsaugok.
 
 Visa kita atmeskite. Mokymasis su Claude gali būti naudingas ir nesukūrus nė vienos kortelės.
 
-## Pasirinktinai: perkelkite atrinktas korteles iš Claude
+## Išsaugokite patikrintas žinių spragas Nibomo
 
-Paprasčiausias perkėlimas tinka bet kuriai mokymosi kortelių programėlei. Paprašykite Claude pateikti tik patvirtintas korteles paprastais priekinės ir galinės pusės teksto blokais, dar kartą jas patikrinkite ir nukopijuokite į įprastą kartojimo sistemą.
+Patikrinę pagrindimą, paprašykite Nibomo įskiepio atrinktas spragas paversti išsaugotomis kortelėmis. Įvardykite darbo sritį ir paprašykite Claude prieš pridedant naujas korteles patikrinti esamas. Šia užklausa prašoma prieš išsaugant parodyti pasiūlymus:
 
-Jei naudojate Nibomo, prijunkite Claude per MCP – jungtį tarp asistento ir Nibomo. Tuomet galite paprašyti išsaugoti korteles, kurias peržiūrėjote ir patvirtinote. Prieš išsaugodami patikrinkite jų turinį ir išsaugojimo vietą.
+```text
+Naudodamas Nibomo, sukurk iki 5 mokymosi kortelių iš pirmiau pateikto
+patikrinto žinių spragų žurnalo. Naudok mano pasirinktą darbo sritį:
+[darbo srities pavadinimas]. Jei pavadinimas dviprasmiškas, prieš išsaugodamas
+pasitikslink, kurią darbo sritį turiu omenyje.
 
-Atėjus laikui kartoti, galite naudoti [Nibomo žiniatinklio programėlę](https://app.nibomo.com/) arba pokalbį su Claude ar Codex, prijungtu prie Nibomo per MCP. Pokalbyje paprašykite pateikti po vieną klausimą: asistentas palaukia jūsų bandymo prieš parodydamas atsakymą, o tada Nibomo užregistruoja jūsų įvertinimą, kaip gerai atsiminėte atsakymą. Nibomo palaiko bendrą kartojimo tvarkaraštį, tad galite pereiti iš programėlės į pokalbį ir atvirkščiai.
+Patikrink, ar nėra pasikartojančių kortelių arba kortelių tam pačiam įsiminimo
+tikslui. Naudok tik spragas, pagrįstas mano patikrintais šaltiniais. Kiekvienai
+kortelei skirk vieną įsiminimo tikslą, konkretų klausimą priekinėje pusėje,
+trumpą atsakymą galinėje pusėje ir vietą šaltinyje.
 
-> [Prisijungti prie Claude](https://claude.ai/directory/nibomo) · [Dokumentacija](/docs/mcp-connector/)
+Pirmiausia parodyk siūlomas korteles, jų pagrindimą ir rastus sutapimus.
+Prieš išsaugodamas palauk mano patvirtinimo. Išsaugojęs patvirtink,
+kas buvo sukurta ir kur.
+```
 
-Kaip prisijungti, paaiškinta [Claude prijungimo vadove](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (anglų kalba) ir [MCP jungties dokumentacijoje](/docs/mcp-connector/). Jei nenorite prijungti asistento, korteles ir toliau galite kopijuoti rankiniu būdu.
+Peržiūra prieš išsaugant yra šioje užklausoje jūsų pasirinktas būdas. Galite patys nuspręsti, kiek norite peržiūrėti prieš prašydami Claude išsaugoti ar redaguoti korteles; tai nėra reikalavimas kiekvienam įskiepio veiksmui.
+
+Prisiminkite praktinio pavyzdžio skirtumą: paaiškinimas padėjo suprasti mejozę, o išsaugota kortelė tikrina konkretų skirtumą, kurį supainiojote. Ilgas mokytojo atsakymas retai turi virsti ilga kortele.
+
+## Kartokite korteles su Claude atėjus jų laikui
+
+Klausimai iš ką tik įkeltų užrašų yra mokymasis su korepetitoriumi. Nibomo kartojimas numatytu laiku naudoja jau išsaugotas korteles ir užregistruoja rezultatą, nuo kurio priklauso, kada kiekviena kortelė pasirodys vėl. Paprašykite to aiškiai:
+
+```text
+Naudodamas Nibomo, 10 minučių kartok su manimi korteles, kurių kartojimo
+laikas jau atėjo, darbo srityje [darbo srities pavadinimas].
+Naudok laiko juostą Europe/Paris.
+
+Rodyk po vieną klausimą ir prieš atskleisdamas išsaugotą atsakymą palauk
+mano bandymo. Tada palygink mano pradinį bandymą su tuo atsakymu, pateik
+trumpą grįžtamąjį ryšį ir užregistruok tinkamą atsiminimo įvertinimą.
+Pasakyk, kurį įvertinimą užregistravai. Vertink pradinį bandymą, o ne
+pataisytą atsakymą, kurį pateikiu jau pamatęs kortelės atsakymą.
+Baik, kai laikas pasibaigs arba nebeliks kortelių, kurias laikas kartoti,
+ir apibendrink kartojimus, kurių įrašymą Nibomo patvirtino.
+```
+
+Darbo sritį ir laiko juostą pakeiskite savosiomis. Paprastai Claude praneša savo įvertinimą ir jį užregistruoja automatiškai. Jei kiekvieną įvertinimą norite pasirinkti patys, pridėkite: „Naudok rankinį vertinimo režimą: atskleidęs atsakymą palauk, kol pasirinksiu Again, Hard, Good arba Easy, ir tik tada užregistruok įvertinimą.“
+
+Jei į kortelės klausimą apie anafazę I atsakote „seserinės chromatidės“, pataisymo atpažinimas po atsakymo atskleidimo nepadaro pradinio bandymo teisingo. Vėlesnis klausimas apie anafazę II gali patikrinti, ar dabar skiriate šiuos etapus; jis neturėtų pakeisti pirmojo bandymo įvertinimo į geresnį.
+
+Kartoti galite ir [Nibomo programėlėje](https://app.nibomo.com/). Patvirtinti kartojimai atnaujina tą patį tvarkaraštį tiek programėlėje, tiek Claude, todėl galite pereiti iš vieno į kitą netvarkydami dviejų kartojimo istorijų. Paprašykite Claude aiškiai pranešti apie nepavykusį arba nepatvirtintą įrašymą ir nelaikyti jo išsaugota pažanga.
+
+## Patobulinkite korteles, kurios vis klaidina
+
+Pasikartojančios klaidos gali atskleisti miglotą klausimą, pernelyg platų atsakymą ar trūkstamą sąlygą. Prieš nuspręsdami, kad tiesiog reikia daugiau kartojimų, paprašykite Claude patikrinti kortelę:
+
+```text
+Naudodamas Nibomo, patikrink korteles, kurios šiame kartojime mane klaidino.
+Ieškok neaiškių klausimų priekinėje pusėje, kelių įsiminimo tikslų vienoje
+kortelėje, trūkstamų sąlygų, nepagrįstų atsakymų ir pasikartojimų.
+Siūlomus pataisymus palygink su pirmiau pateiktais kurso šaltiniais.
+
+Greta parodyk dabartinę kortelę ir siūlomą pakeitimą, trumpai nurodyk
+priežastį ir vietą šaltinyje. Pažymėk viską, ko šaltiniai neleidžia nustatyti.
+Prieš redaguodamas palauk mano patvirtinimo; neištrink kortelių ir nekeisk
+neišsiaiškintų faktų.
+```
+
+Jei klausimas aiškus ir tiesiog negalėjote prisiminti atsakymo, palikite kortelę nepakeistą. Jei spragai įveikti reikia schemos ar dar vieno išspręsto pavyzdžio, grįžkite prie mokymosi su korepetitoriumi arba tiesioginės praktikos.
+
+Jei mieliau kopijuojate rankiniu būdu, paprašykite Claude pateikti patvirtintas korteles paprastais priekinės ir galinės pusės teksto blokais ir pridėkite jas į įprastą kortelių programėlę. Šaltinių patikra ir mokymasis pirmiausia atsakant į klausimus lieka tokie patys.
 
 ## Kur Claude vis dar reikia priežiūros
 
@@ -238,7 +309,7 @@ Kaip prisijungti, paaiškinta [Claude prijungimo vadove](/blog/how-to-connect-fl
 - Ilgas mokymosi pokalbis gali nutolti nuo pradinių ribų.
 - Lengvos užuominos gali išmokyti atpažinti, bet ne tvirtai prisiminti.
 
-Kai pokalbis nukrypsta, pradėkite iš naujo nuo įvardyto šaltinio. Pasikeitus paaiškinimui, paprašykite vėl nurodyti jo vietą šaltinyje. Mokydamiesi įrodymų, rašinių, tarimo, laboratorinio darbo ar programavimo, greta atsiminimo klausimų tiesiogiai praktikuokitės ir naudokitės žmonių grįžtamuoju ryšiu.
+Kai pokalbis nukrypsta, pradėkite iš naujo nuo įvardyto šaltinio. Pasikeitus paaiškinimui, paprašykite vėl nurodyti jo vietą šaltinyje. Mokydamiesi įrodinėti teiginius, rašyti rašinius, taisyklingai tarti, atlikti laboratorinius darbus ar programuoti, greta atsiminimo klausimų tiesiogiai praktikuokitės ir naudokitės žmonių grįžtamuoju ryšiu.
 
 ## Ką patikrinti baigiant mokytis su Claude
 
@@ -250,8 +321,10 @@ Prieš baigdami patikrinkite, ar:
 - kiekvienas pataisymas nurodo pagrindimą, kurį patys atidarėte;
 - išorinės žinios pažymėtos atskirai nuo kurso medžiagos;
 - neišspręsti neaiškumai nevirto kortelėmis;
-- pasilikote tik kelias ilgesniam laikui aktualias žinių spragas;
-- prieš kiekvieną įrašymą per jungtį peržiūrėjote ir patvirtinote veiksmą;
-- turite planą grįžti prie kiekvienos atrinktos spragos.
+- išsaugotomis kortelėmis tapo tik kelios patikrintos, ilgesniam laikui aktualios žinių spragos;
+- kortelės išsaugotos reikiamoje darbo srityje be nereikalingų pasikartojimų;
+- kartojimams pasirinkote automatinį arba rankinį vertinimą;
+- įvertinimai atspindi pradinius bandymus, o kartojimų įrašymas buvo patvirtintas;
+- žinote, kur grįžti kitam suplanuotam kartojimui.
 
 Naudingas **Claude korepetitorius** ne tik aiškina. Jis parodo, kur baigiasi šaltinio informacija, laukia, kol prisiminsite, ir palieka trumpą įrašą apie tai, kas iš tikrųjų nepavyko. Būtent dėl šio įrašo, o ne pokalbio ilgio, mokymosi su Claude eigą verta kartoti.
