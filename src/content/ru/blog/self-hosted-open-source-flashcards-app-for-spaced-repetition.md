@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ru~1blog~1self-hosted-open-source-flashcards-app-for-spaced-repetition.md"
 title: "Самостоятельно развёртываемое приложение с открытым исходным кодом и карточками для интервального повторения"
 description: "Запустите открытый стек Nibomo локально для разработки или разверните в AWS описанную в документации рабочую инфраструктуру на базе CDK."
 date: "2026-03-08"

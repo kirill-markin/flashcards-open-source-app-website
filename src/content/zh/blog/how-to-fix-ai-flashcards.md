@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-fix-ai-flashcards.md"
 title: "2026 年如何修正 AI 生成的抽认卡：在用 FSRS 复习前，先编辑 ChatGPT 和 NotebookLM 草稿"
 description: "正在用 ChatGPT Study Mode、NotebookLM 或其他 AI 工具在 2026 年制作抽认卡？这里有一套实用流程，帮你找出错误事实、拆开过载卡片、删掉模糊提示词，并在最后用 FSRS 复习整理后的卡组。"
 date: "2026-04-26"
@@ -150,7 +148,7 @@ NotebookLM、ChatGPT 和其他学习工具，常常会产出一种比原始来�
 
 再多的内容，通常都更适合拆成另一张卡。
 
-如果你之后还在乎复习速度，这一点就更重要了。[2026 年如何更快复习抽认卡](https://nibomo.com/blog/how-to-review-flashcards-faster/) 基本上就是这类编辑决定在下游带来的结果。
+如果你之后还在乎复习速度，这一点就更重要了。
 
 ## 把 AI 用在第二轮编辑，不要让它当最终裁判
 

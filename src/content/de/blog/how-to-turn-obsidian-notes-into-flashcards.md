@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-turn-obsidian-notes-into-flashcards.md"
 title: "Wie du 2026 Obsidian-Notizen in Flashcards verwandelst: Vom Markdown-Vault zu FSRS-Karten ohne Copy-and-Paste"
 description: "Du willst 2026 Obsidian-Notizen in Flashcards verwandeln? Kopiere oder exportiere sauberes Markdown aus deinem Vault, lass dir mit KI Kartenentwürfe erstellen und lerne sie mit FSRS, ohne alles von Hand neu aufzubauen."
 date: "2026-04-25"
@@ -176,8 +174,6 @@ Lass den Vault weiter das tun, was er gut kann:
 Dann verschiebst du nur den kleinen Teil, der aktives Abrufen verdient, in ein echtes Wiederholungssystem.
 
 Diese Arbeitsteilung ist deutlich sauberer, als direkt aus einem riesigen Notizgraphen lernen zu wollen. Sie hält den Prozess auch ehrlich. Keine falschen Sync-Versprechen. Kein Plugin-Labyrinth. Nur sauberes Markdown rein, Kartenentwurf raus und danach Spaced Repetition.
-
-Wenn dein Ausgangsmaterial eher einem langen exportierten Dokument als einer Notiz entspricht, ist [Wie du 2026 einen Artikel in Flashcards verwandelst](https://nibomo.com/blog/how-to-turn-an-article-into-flashcards/) der passendere verwandte Leitfaden.
 
 ## Die nützliche Regel für 2026
 

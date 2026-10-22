@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-turn-obsidian-notes-into-flashcards.md"
 title: "2026 में Obsidian Notes को Flashcards में कैसे बदलें: Markdown Vault से FSRS Cards तक, बिना Copy-Paste"
 description: "क्या आप 2026 में Obsidian notes को flashcards में बदलना चाहते हैं? अपने vault से साफ़ Markdown कॉपी या export करें, AI से cards का शुरुआती मसौदा बनवाएँ, और सब कुछ हाथ से फिर से बनाए बिना उन्हें FSRS के साथ review करें।"
 date: "2026-04-25"
@@ -176,8 +174,6 @@ vault को वही करते रहने दें जो वह अच�
 फिर उस छोटे हिस्से को, जिसे active recall चाहिए, एक proper review system में ले जाएँ।
 
 यह काम का बँटवारा किसी बड़े note graph से सीधे पढ़ने की कोशिश करने से कहीं साफ़ है। यह process को ईमानदार भी रखता है। कोई fake sync promises नहीं। कोई plugin maze नहीं। बस clean Markdown in, card draft out, और उसके बाद spaced repetition।
-
-अगर आपका source material note से ज़्यादा किसी लंबे exported document जैसा है, तो [2026 में किसी लेख को flashcards में कैसे बदलें](https://nibomo.com/blog/how-to-turn-an-article-into-flashcards/) बेहतर related guide है।
 
 ## 2026 के लिए उपयोगी नियम
 

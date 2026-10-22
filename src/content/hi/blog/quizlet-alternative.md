@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1quizlet-alternative.md"
 title: "2026 का ओपन सोर्स Quizlet विकल्प: Quizlet बनाम Nibomo"
 description: "ओपन सोर्स Quizlet विकल्प खोज रहे हैं? स्टडी मोड, FSRS, ऑफ़लाइन इस्तेमाल, AI, शेयरिंग, इम्पोर्ट, एक्सपोर्ट और डेटा पर नियंत्रण के आधार पर Quizlet और Nibomo की तुलना करें।"
 date: "2026-03-17"

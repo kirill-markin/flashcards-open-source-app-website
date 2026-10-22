@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1en~1blog~1how-to-use-flashcards-for-security-plus.md"
 title: "How to Use Flashcards for CompTIA Security+ in 2026: SY0-701, PBQs, Ports, and Acronyms That Actually Stick"
 description: "Preparing for CompTIA Security+ SY0-701 in 2026? Use this practical flashcards workflow for PBQs, ports, acronyms, and missed questions with FSRS."
 date: "2026-05-03"
@@ -246,10 +244,6 @@ After a PBQ miss, I would usually write down three things before moving on:
 
 That keeps the deck aligned with actual retrieval. Flashcards will not solve PBQs for you. They can make the building blocks easier to recognize when the scenario starts moving fast.
 
-If missed questions are your main source, this article is the natural companion:
-
-- [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
-
 ## Do not build one shapeless Security+ deck
 
 This is where a lot of certification decks die.
@@ -280,10 +274,6 @@ You can also tag by weak area:
 - `lab-miss`
 
 That gives you something much more usable than one flat pile. It also makes it easier to run short targeted sessions before a practice test.
-
-If organization is the bigger problem than card writing, read this next:
-
-- [How to Organize Flashcards in 2026](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## Your weekly workflow should stay boring
 

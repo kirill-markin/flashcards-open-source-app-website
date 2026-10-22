@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-use-flashcards-for-math.md"
 title: "Wie du 2026 Flashcards für Mathe nutzt: Formeln, Mustererkennung und Fehlerkarten"
 description: "Ein praktischer Workflow für Mathe-Flashcards 2026: Formeln sicher abrufen, typische Aufgabenmuster schneller erkennen und wiederkehrende Fehler mit Spaced Repetition aufarbeiten, ohne echte Rechenpraxis zu ersetzen."
 date: "2026-05-08"
@@ -95,8 +93,6 @@ Darum mag ich Karten, die einen Hinweis direkt mit einer Methode verbinden:
 
 Das sind weiterhin **Flashcards fürs mathematische Problemlösen**, aber sie versuchen nicht, einen kompletten Lösungsweg auswendig zu machen. Sie trainieren Mustererkennung. Das ist wichtig, weil Erklärungen heute billig geworden sind. Du bekommst in wenigen Minuten einen Lösungsweg von Nachhilfe, Video oder KI-Tool. Schwieriger ist, den richtigen nächsten Schritt zu sehen, bevor ihn dir jemand zeigt.
 
-Wenn dein Rohmaterial hauptsächlich aus korrigierten Hausaufgaben, Quizzen oder Übungssets kommt, passt [Wie du 2026 Übungsfragen in Flashcards verwandelst: Baue aus deinen Fehlern ein FSRS-Deck](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) sehr gut zu diesem Workflow.
-
 ## Dein Fehlerprotokoll ist meistens besser als ein generisches Mathe-Deck
 
 Wenn ich nur eine Quelle für ein Mathe-Deck wählen dürfte, würde ich fast immer deine wiederholten Fehler einer öffentlichen Formelsammlung vorziehen.
@@ -151,7 +147,7 @@ Nach Hausaufgaben, einem Quiz oder einem Übungsset:
 
 Dieser letzte Schritt ist wichtiger, als viele denken. Wenn der Fehler in frischer Arbeit verschwindet, hat die Karte ihren Job wahrscheinlich erledigt. Wenn er bleibt, ist die Karte oft zu vage, zu breit oder auf das falsche Gedächtnisziel gerichtet.
 
-Wenn die Deck-Struktur unübersichtlich wird, ist [Flashcards in 2026 organisieren: Decks, Tags und gefilterte Wiederholung, ohne das Lernen unnötig kompliziert zu machen](https://nibomo.com/blog/how-to-organize-flashcards/) die bessere Reparatur, als für jedes Aufgabenblatt ein neues Deck anzulegen.
+Wenn die Deck-Struktur unübersichtlich wird, halte ein stabiles Deck und nutze Tags für Themen oder Fehlertypen, statt für jedes Aufgabenblatt ein neues Deck anzulegen.
 
 ## KI kann Mathe-Karten schnell entwerfen, aber die Bearbeitung bleibt wichtig
 

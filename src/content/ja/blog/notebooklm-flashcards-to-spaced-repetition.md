@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1notebooklm-flashcards-to-spaced-repetition.md"
 title: "2026年版: NotebookLM のフラッシュカードを本物の間隔反復に変える方法 書き出して整え、FSRS で復習する"
 description: "NotebookLM のフラッシュカードは使っているが、その先にきちんとした復習システムも欲しい人向けの実践的な手順です。カードをエクスポートし、表現を整え、実際に続けられる FSRS 対応のフラッシュカードアプリへ移します。"
 date: "2026-03-30"
@@ -171,7 +169,6 @@ keywords:
 もし元資料がまださらに手前の段階なら、こちらの関連記事も役立ちます。
 
 - [2026年版 ノートをフラッシュカードに変える方法: 手作業のコピペではなく、AIの下書きとFSRSを使う](https://nibomo.com/blog/turn-notes-into-flashcards/)
-- [2026年版 PDFをフラッシュカード化する方法: 講義スライド・教科書・論文からFSRS向けカードを作る](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 - [2026年版 Notionのノートをフラッシュカード化する方法: エクスポートし、AIで下書きを作り、FSRSで復習する](https://nibomo.com/blog/how-to-turn-notion-notes-into-flashcards/)
 
 ## 私なら今週こう使う

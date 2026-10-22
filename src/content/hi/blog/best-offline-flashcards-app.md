@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1best-offline-flashcards-app.md"
 title: "2026 में कौन-से फ़्लैशकार्ड ऐप ऑफ़लाइन चलते हैं? 5 ऐप की तुलना"
 description: "Anki, Quizlet, RemNote, Mochi और Nibomo की तुलना ऑफ़लाइन कार्ड ऐक्सेस, संपादन, मीडिया, रिव्यू हिस्ट्री और सिंक के आधार पर—साथ में एक व्यावहारिक एयरप्लेन-मोड टेस्ट।"
 date: "2026-03-16"

@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards.md"
 title: "2026 में Quizlet सेट कैसे एक्सपोर्ट करें (और Export क्यों नहीं दिखता)"
 description: "Quizlet की मौजूदा वेबसाइट प्रक्रिया से सेट एक्सपोर्ट करें। अगर Export नहीं दिखता, तो जाँचें कि मूल सेट आपने बनाया है, उसकी कॉपी बनाई है या मोबाइल ऐप इस्तेमाल कर रहे हैं।"
 image: "/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards.png"

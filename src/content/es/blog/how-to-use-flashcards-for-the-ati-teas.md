@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-use-flashcards-for-the-ati-teas.md"
 title: "Cómo usar flashcards para el ATI TEAS en 2026: un flujo práctico de estudio para TEAS 7"
 description: "¿Te preparas para el ATI TEAS en 2026? Usa este flujo práctico de flashcards para TEAS 7 en ciencias, matemáticas, comprensión lectora, inglés y errores de simulacros sin convertir tu mazo en una segunda guía de estudio."
 image: "/blog/how-to-use-flashcards-for-the-ati-teas.png"
@@ -250,8 +248,6 @@ Eso importa porque la preparación del TEAS suele ser corta. No necesitas un sis
 
 Un mazo estable y unas pocas etiquetas honestas suele funcionar mejor que reorganizar mazos todo el tiempo.
 
-Si el verdadero cuello de botella es la organización, [Cómo organizar flashcards en 2026](https://nibomo.com/blog/how-to-organize-flashcards/) profundiza más en esa parte.
-
 ## Deja que la IA redacte una primera versión tosca y luego edítala con mano dura
 
 La preparación para TEAS genera material bastante desordenado. Acabas con explicaciones copiadas, apuntes escritos a mano, capturas convertidas en texto, guías cortas de estudio y explicaciones de práctica que quieres reutilizar. Una herramienta de borrador puede limpiarlo más rápido que crear cada tarjeta a mano desde cero.
@@ -267,7 +263,7 @@ Se parece más a esto:
 
 Si el reverso del borrador parece un párrafo de un cuaderno de ejercicios, recórtalo. Si dos tarjetas prueban la misma idea, quédate con la más clara. Si el enunciado solo comprueba reconocimiento, reescríbelo para recuerdo activo.
 
-Eso se parece bastante al flujo de [Cómo convertir preguntas de práctica en flashcards en 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) y [Cómo hacer mejores flashcards en 2026](https://nibomo.com/blog/how-to-make-better-flashcards/).
+Ese proceso de revisión también se explica en [Cómo hacer mejores flashcards en 2026](https://nibomo.com/blog/how-to-make-better-flashcards/).
 
 ## Dónde encaja Nibomo en este flujo de trabajo para ATI TEAS
 

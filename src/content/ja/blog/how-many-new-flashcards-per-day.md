@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-many-new-flashcards-per-day.md"
 title: "2026年、1日に何枚の新しいフラッシュカードを追加すべきか: 無理なく終えられるFSRSの復習量を作る"
 description: "1日に何枚の新しいフラッシュカードなら続けられるのか。2026年時点で実用的なのは、やる気ではなく使える復習時間から逆算して、復習待ちが破綻しない1日あたりの追加枚数を決めることです。"
 date: "2026-03-31"
@@ -104,7 +102,6 @@ NotebookLM は web とモバイルの学習導線でフラッシュカードや�
 
 元の資料がまだ文書のままなら、下書き側には次の記事も役立ちます。
 
-- [2026年版 PDFをフラッシュカード化する方法: 講義スライド・教科書・論文からFSRS向けカードを作る](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 - [2026年版 ノートをフラッシュカードに変える方法: 手作業のコピペではなく、AIの下書きとFSRSを使う](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 ## 自分の上限を見つける実践的なやり方

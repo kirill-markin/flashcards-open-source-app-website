@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-use-flashcards-for-ap-psychology.md"
 title: "Wie du 2026 mit Flashcards für AP Psychology lernst: Begriffe, Studien und FRQ-Evidenz, die wirklich hängen bleibt"
 description: "Du suchst 2026 einen praxistauglichen Flashcard-Workflow für AP Psychology? Hier erfährst du, wie du Begriffe, berühmte Studien, Forschungsmethoden und FRQ-Evidenz für die komplett digitale Bluebook-Prüfung am 12. Mai 2026 lernst."
 date: "2026-04-29"
@@ -145,8 +143,6 @@ Ich würde Prompts bauen wie:
 
 Gerade die letzte Frage ist für eine digitale Prüfung wichtiger, als viele erwarten. Eine Grafik, Tabelle oder ein kurzer Artikelausschnitt kann am Bildschirm schwerer wirken, einfach weil Formulierung und Layout ungewohnt sind. Gute Karten trainieren die stabile Idee darunter und nicht nur den genauen Wortlaut.
 
-Wenn deine Übungssets immer wieder dieselben reproduzierbaren Lücken aufdecken, passt [Wie du 2026 Übungsfragen in Flashcards verwandelst](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) hier direkt dazu.
-
 ## FRQ-Vorbereitung funktioniert besser, wenn die Karte den Denkschritt speichert
 
 Viele **AP Psychology FRQ Flashcards** gehen schief, weil Lernende versuchen, die ganze Aufgabenstellung, die komplette Musterantwort und jede einzelne Rubriknotiz auf eine Karte zu packen.
@@ -216,8 +212,6 @@ Ich würde die Routine so einfach halten:
 5. Fällige Karten täglich wiederholen und die Zahl neuer Karten niedriger halten, als dein Ehrgeiz es gerne hätte.
 
 Der langweilige Teil ist genau das, was das Deck Ende April und Anfang Mai nutzbar macht, statt nur an einem Wochenende beeindruckend wirken zu lassen.
-
-Wenn ausgerechnet die Organisation immer wieder wegrutscht, passt [Wie du 2026 Flashcards organisierst](https://nibomo.com/blog/how-to-organize-flashcards/) gut zu diesem Workflow.
 
 ## FSRS ist nützlich, wenn AP-Psychology-Wiederholung ungleichmäßig wird
 

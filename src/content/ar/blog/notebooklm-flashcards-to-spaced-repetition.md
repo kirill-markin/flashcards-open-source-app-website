@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1notebooklm-flashcards-to-spaced-repetition.md"
 title: "كيف تحوّل بطاقات NotebookLM إلى تكرار متباعد فعلي في 2026: صدّرها، ونقّحها، وراجعها مع FSRS"
 description: "تستخدم بطاقات NotebookLM لكنك تريد نظام مراجعة حقيقيًا بعدها؟ هذا سير عمل عملي في 2026: صدّر البطاقات، حسّن صياغتها، ثم انقلها إلى تطبيق Flashcards يدعم FSRS لتراجعها بانتظام."
 date: "2026-03-30"
@@ -173,7 +171,6 @@ keywords:
 إذا كانت مادّتك ما تزال في المرحلة السابقة لهذه الخطوة، فقد تساعدك هذه المقالات أيضًا:
 
 - [كيف تحوّل الملاحظات إلى Flashcards في 2026](https://nibomo.com/blog/turn-notes-into-flashcards/)
-- [كيف تحوّل ملف PDF إلى Flashcards في 2026](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 - [كيف تحوّل ملاحظات Notion إلى Flashcards في 2026](https://nibomo.com/blog/how-to-turn-notion-notes-into-flashcards/)
 
 ## المسار الذي سأستخدمه هذا الأسبوع

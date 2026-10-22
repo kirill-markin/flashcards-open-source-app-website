@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-turn-kindle-highlights-into-flashcards.md"
 title: "Wie du 2026 Kindle-Highlights in Flashcards verwandelst: besser behalten statt nur markieren"
 description: "Du willst Kindle-Highlights 2026 in Flashcards verwandeln? Hier ist ein praxistauglicher Workflow: Exportiere oder kopiere nur die besten Markierungen, mache daraus klare Vorder- und Rückseiten und wiederhole sie mit FSRS statt sie im Kindle-Notizbuch verstauben zu lassen."
 date: "2026-04-07"

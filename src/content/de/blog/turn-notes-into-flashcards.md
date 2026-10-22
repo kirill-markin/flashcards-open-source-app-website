@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1turn-notes-into-flashcards.md"
 title: "Wie du 2026 Notizen in Flashcards verwandelst: KI-Entwürfe mit FSRS statt manuellem Kopieren und Einfügen"
 description: "Du willst Notizen in Flashcards verwandeln, ohne Stunden mit manuellem Kopieren und Einfügen zu verlieren? Hier ist ein praktischer Workflow für 2026: Lass KI aus textbasierten Notizen saubere Frage-Antwort-Karten entwerfen und lerne sie anschließend mit FSRS."
 date: "2026-03-15"

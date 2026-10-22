@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1spaced-repetition-vs-cramming.md"
 title: "Spaced Repetition oder Pauken 2026: Was hilft bei Prüfungen besser?"
 description: "Spaced Repetition ist für langfristiges Behalten wirksamer als Pauken. Erfahre, wann gezieltes Lernen auf den letzten Drücker trotzdem hilft und wie du realistisch planst."
 date: "2026-07-20"
@@ -26,7 +24,7 @@ Dabei zählt die Frist, die du tatsächlich hast. Dein Plan hängt davon ab, wan
 
 Beim **verteilten Lernen**, auch **Distributed Practice** genannt, verteilst du das Lernen auf mehrere Sitzungen. Eine gute Prüfungsvorbereitung ergänzt dazu Abrufübungen: Du lernst am Montag eine Formel, löst am Mittwoch eine Aufgabe dazu aus dem Gedächtnis und setzt die Formel am Samstag in einem gemischten Aufgabensatz erneut ein.
 
-Auch wenn du dieselben Notizen an drei Abenden öffnest, verteilst du das Lernen über die Zeit. Es bleibt jedoch passives Wiederlesen. Die vertraute Seite kann dann verdecken, dass du den Stoff noch nicht sicher abrufen kannst. Lernen ohne Unterlagen zeigt dir mehr: Kannst du die Definition, den Unterschied oder die Methode nennen, bevor du sie wieder siehst? Der Leitfaden zu [Active Recall vs. Spaced Repetition](/blog/active-recall-vs-spaced-repetition/) erklärt den Unterschied zwischen Abruf und Zeitplanung.
+Auch wenn du dieselben Notizen an drei Abenden öffnest, verteilst du das Lernen über die Zeit. Es bleibt jedoch passives Wiederlesen. Die vertraute Seite kann dann verdecken, dass du den Stoff noch nicht sicher abrufen kannst. Lernen ohne Unterlagen zeigt dir mehr: Kannst du die Definition, den Unterschied oder die Methode nennen, bevor du sie wieder siehst?
 
 Beim **massierten Lernen** liegen die Wiederholungen dicht beieinander, oft in einer einzigen langen Sitzung. Pauken kann bedeuten, ein Kapitel zweimal zu lesen, dasselbe Quiz so oft zu wiederholen, bis die Antworten vertraut aussehen, oder ein neues Deck an einem Abend mehrfach durchzugehen.
 
@@ -98,7 +96,7 @@ Mit vier bis sieben Tagen hast du noch Zeit für echte Abstände zwischen den Le
 5. **Übe gemischt und im Prüfungsformat.** Jeder Tag sollte Fragen enthalten, die Themen verbinden oder dieselbe Leistung wie die Prüfung verlangen: Rechnungen, Erklärungen, Beweise, Szenarien oder Aufsätze.
 6. **Nimm kurz vor der Frist weniger neuen Stoff auf.** Konzentriere dich am letzten Tag auf fällige Wiederholungen, bekannte Fehler und ein überschaubares gemischtes Set. Neuer Stoff muss wichtig genug sein, um etwas anderes aus dem Plan zu verdrängen.
 
-In diesem Kreislauf begegnet dir schwacher Stoff mehrmals, während die eigentliche Prüfungsaufgabe sichtbar bleibt. Der ausführlichere [FSRS-Leitfaden zum Lernen für Prüfungen](/blog/how-to-study-for-an-exam-with-fsrs/) behandelt die Aufnahme neuer Karten und die Wiederholungslast. Der [Lernplan für die Klausurenphase](/blog/how-to-study-for-finals-with-flashcards/) hilft, wenn du mehrere Kurse in derselben Woche vorbereiten musst.
+In diesem Kreislauf begegnet dir schwacher Stoff mehrmals, während die eigentliche Prüfungsaufgabe sichtbar bleibt. Der ausführlichere [FSRS-Leitfaden zum Lernen für Prüfungen](/blog/how-to-study-for-an-exam-with-fsrs/) behandelt die Aufnahme neuer Karten und die Wiederholungslast.
 
 ## Ein Rettungsplan für eine Prüfung am nächsten Tag
 

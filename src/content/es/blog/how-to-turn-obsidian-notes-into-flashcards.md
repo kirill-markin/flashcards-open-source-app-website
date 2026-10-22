@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-turn-obsidian-notes-into-flashcards.md"
 title: "Cómo convertir notas de Obsidian en tarjetas didácticas en 2026: de un vault Markdown a tarjetas con FSRS sin copiar y pegar"
 description: "¿Quieres convertir notas de Obsidian en tarjetas didácticas en 2026? Copia o exporta Markdown limpio desde tu vault, redacta tarjetas con IA y repásalas con FSRS sin reconstruirlo todo a mano."
 date: "2026-04-25"
@@ -176,8 +174,6 @@ Deja que el vault siga haciendo lo que hace bien:
 Luego mueve la pequeña parte que merece recuerdo activo a un sistema de repaso de verdad.
 
 Esa división del trabajo es mucho más limpia que intentar estudiar directamente desde un grafo enorme de notas. También mantiene el proceso honesto. Sin promesas falsas de sincronización. Sin laberintos de plugins. Solo Markdown limpio como entrada, un borrador de tarjetas como salida y repetición espaciada después.
-
-Si tu material fuente se parece más a un documento largo exportado que a una nota, la mejor guía relacionada es [Cómo convertir un artículo en tarjetas didácticas en 2026](https://nibomo.com/blog/how-to-turn-an-article-into-flashcards/).
 
 ## La regla útil para 2026
 

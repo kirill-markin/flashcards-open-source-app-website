@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-turn-obsidian-notes-into-flashcards.md"
 title: "2026年版 Obsidianノートをフラッシュカード化する方法: Markdown VaultからFSRSカードへ、手作業のコピペなしで"
 description: "2026年にObsidianノートをフラッシュカード化したい人向けの記事です。Vaultから整ったMarkdownをコピーまたは書き出しし、AIでカード案を作り、すべてを手で作り直さずにFSRSで復習する流れを紹介します。"
 date: "2026-04-25"
@@ -178,8 +176,6 @@ Vault には、得意な役割をそのまま任せておけば十分です。
 そのうえで、能動的想起に値する小さな部分だけを、適切な復習システムへ移せばいいのです。
 
 この役割分担のほうが、巨大なノートグラフから直接勉強しようとするより、はるかにきれいです。それに、プロセスも誠実になります。存在しない同期を約束しない。プラグイン迷路にも入らない。きれいな Markdown を入れ、カードの下書きを出し、そのあとに間隔反復を回すだけです。
-
-元の素材がノートというより長い書き出し記事に近いなら、[2026年版 記事をフラッシュカードに変える方法](https://nibomo.com/blog/how-to-turn-an-article-into-flashcards/) のほうが関連ガイドとして向いています。
 
 ## 2026年に役立つ実用ルール
 

@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-use-flashcards-for-ap-psychology.md"
 title: "2026年版 AP Psychology向けフラッシュカードの使い方: 本当に定着する用語・研究・FRQの根拠"
 description: "2026年のAP Psychologyに向けた実践的なフラッシュカード運用が必要ですか。2026年5月12日のBluebook完全デジタル試験に向けて、用語、有名研究、研究法、FRQの根拠をどう学ぶかを整理します。"
 date: "2026-04-29"
@@ -146,8 +144,6 @@ AP Psychologyでは、「有名研究を半分だけ覚えていて、実際に�
 - データ表示が分かりにくいとき、最初に何を見るべきか。
 
 最後の問いは、受験生が思う以上にデジタル試験で重要です。グラフ、表、短い記事抜粋は、単に言い回しやレイアウトが見慣れないというだけで、画面上では難しく感じられることがあります。良いカードは、そうした新しい見せ方の下にある、変わらない考え方を鍛えます。
-
-演習セットで何度も同じタイプのミスが出るなら、[2026年版 演習問題をフラッシュカードに変える方法](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) がここにそのままつながります。
 
 ## FRQ対策は、「答え全体」より「思考の動き」を保存したほうがうまくいく
 

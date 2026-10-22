@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1anki-vs-quizlet-vs-open-source-flashcards-app.md"
 title: "Anki vs Quizlet vs Nibomo (2026): कौन-सा फ़्लैशकार्ड ऐप चुनें?"
 description: "2026 में Anki, Quizlet और Nibomo की व्यावहारिक तुलना: स्पेस्ड रिपीटिशन, ऑफ़लाइन पढ़ाई, AI, इम्पोर्ट-एक्सपोर्ट, कीमत, ओपन सोर्स और डेटा पर नियंत्रण।"
 image: "/blog/anki-vs-quizlet-vs-open-source-flashcards-app.png"

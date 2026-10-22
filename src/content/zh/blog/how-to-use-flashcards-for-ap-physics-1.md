@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-use-flashcards-for-ap-physics-1.md"
 title: "2026 年如何用抽认卡备考 AP Physics 1：力、能量，以及真正能记住的 FRQ 失分点"
 description: "这是一套适合 2026 年 AP Physics 1 的实用抽认卡工作流：复习运动学、受力、能量、图像题、FRQ 失分点，以及真正能留下来的混合数字化考试准备。"
 image: "/blog/how-to-use-flashcards-for-ap-physics-1.png"
@@ -185,8 +183,6 @@ Physics 1 也特别会惩罚那种“公式会了，但模型错了”的情况�
 
 最后这个问题很重要。有些错误是记忆错误。有些错误是执行错误。抽认卡帮前者。限时练习修后者。
 
-如果你现在的原材料大多都来自订正后的题目，这篇 [2026 年如何把练习题转成抽认卡](/zh/blog/how-to-turn-practice-questions-into-flashcards/) 会是最直接的下一篇。
-
 ## 2026 年的 hybrid digital 形式，应该改变你少量卡片和少量习惯
 
 这一点很容易被忽略。
@@ -219,7 +215,7 @@ RAND 在 [2026 年 3 月 17 日](https://www.rand.org/news/press/2026/03/student
 
 这样，你保留的是有用的部分，砍掉的是虚假的自信。
 
-如果 AI 已经是你工作流的一部分，那这篇 [2026 年如何用 AI 学习](/zh/blog/how-to-use-ai-to-study/) 会是最合适的配套文章。规则还是一样：AI 可以帮你处理错误，但不该替你做你本来要训练的那部分思考。
+规则还是一样：AI 可以帮你处理错误，但不该替你做你本来要训练的那部分思考。
 
 ## 一套每周 AP Physics 1 工作流，最好稍微有点无聊
 

@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1quizlet-alternative.md"
 title: "Alternativa de código abierto a Quizlet en 2026: Quizlet frente a Nibomo"
 description: "¿Buscas una alternativa de código abierto a Quizlet? Compara Quizlet y Nibomo en modos de estudio, FSRS, uso sin conexión, IA, contenido compartido, importación, exportación y control de datos."
 date: "2026-03-17"

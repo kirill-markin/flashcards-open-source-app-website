@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1notebooklm-flashcards-to-spaced-repetition.md"
 title: "Wie du 2026 NotebookLM-Flashcards in echte Spaced Repetition verwandelst: exportieren, bereinigen und mit FSRS reviewen"
 description: "Du nutzt NotebookLM-Flashcards, willst danach aber ein echtes Review-System? Hier ist ein praktischer Workflow für 2026: Exportiere die Karten, bereinige die Formulierungen und verschiebe sie in eine FSRS-Flashcards-App, die du wirklich weiter reviewen wirst."
 date: "2026-03-30"
@@ -173,7 +171,6 @@ Das heißt: Die generierten Karten sind ohnehin schon eine Transformation von de
 Wenn deine Quelle noch einen Schritt früher festhängt, helfen diese Begleitartikel:
 
 - [Wie du 2026 Notizen in Flashcards verwandelst: KI-Entwürfe mit FSRS statt manuellem Copy-and-paste](https://nibomo.com/blog/turn-notes-into-flashcards/)
-- [Wie du 2026 eine PDF in Flashcards verwandelst: Vorlesungsfolien, Lehrbücher und Papers zu FSRS-Karten](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 - [Wie du 2026 Notion-Notizen in Flashcards verwandelst: Exportieren, mit KI entwerfen und mit FSRS reviewen](https://nibomo.com/blog/how-to-turn-notion-notes-into-flashcards/)
 
 ## Der Workflow, den ich diese Woche nutzen würde
