@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-turn-images-into-flashcards.md"
 title: >-
   Cómo convertir imágenes en tarjetas didácticas en 2026: capturas, fotos y
   OCR sin reescribirlo todo
@@ -37,7 +35,7 @@ Una captura suele tener texto legible y contexto perdido. Una foto hecha con el 
 
 Esa diferencia importa.
 
-Si tu fuente son sobre todo etiquetas, flechas y relaciones visuales, [Cómo convertir diagramas en tarjetas didácticas](/es/blog/how-to-turn-diagrams-into-flashcards/) encaja mejor. Si la fuente son apuntes desordenados de cuaderno, [Cómo convertir notas escritas a mano en tarjetas didácticas](/es/blog/how-to-turn-handwritten-notes-into-flashcards/) te ayudará más. Este artículo va del punto intermedio: capturas de pantalla, fotos de estudio, páginas escaneadas y material mixto con mucho OCR que todavía necesita una revisión humana.
+Si tu fuente son sobre todo etiquetas, flechas y relaciones visuales, conserva esas relaciones en las preguntas. Si son apuntes desordenados de cuaderno, comprueba primero que la transcripción sea correcta. Este artículo va del punto intermedio: capturas de pantalla, fotos de estudio, páginas escaneadas y material mixto con mucho OCR que todavía necesita una revisión humana.
 
 ## El OCR ayuda a escribir menos, no a decidir mejor
 
@@ -120,7 +118,7 @@ Divide los escaneos por sección:
 - una tabla
 - un ejemplo resuelto
 
-Si el escaneo en realidad funciona como documento, [Cómo convertir un PDF en tarjetas didácticas](/es/blog/how-to-turn-a-pdf-into-flashcards/) es el artículo complementario más adecuado. La capa de imagen es solo la forma en la que ese material te llegó.
+Si el escaneo en realidad funciona como documento, trabaja por secciones y comprueba el texto extraído antes de redactar las tarjetas. La capa de imagen es solo la forma en la que ese material te llegó.
 
 ## El prompt debería ser estricto y bastante aburrido
 

@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1why-are-there-so-many-anki-reviews.md"
 title: "¿Por qué hay tantos repasos de Anki en 2026? Reduce los picos de repaso sin abandonar la repetición espaciada"
 description: "¿Te están saliendo muchos más repasos de Anki de los que esperabas? Aquí tienes una guía práctica de 2026 para entender por qué se disparan los repasos con FSRS, los límites de tarjetas nuevas, los learning steps y la retención deseada, y cómo volver a controlar la cola sin reiniciar el mazo."
 date: "2026-07-04"
@@ -71,7 +69,7 @@ No diagnostiques solo por el número grande del encabezado. Mira qué tipo de ta
 
 Esa distinción importa.
 
-Si la cola está sobre todo atrasada porque dejaste de repasar durante un tiempo, lee [Cómo ponerse al día con las flashcards después de quedarse atrás en 2026](/es/blog/how-to-catch-up-on-flashcards-after-falling-behind/). Ese es un problema de acumulación. Este artículo es para la versión en la que seguiste usando el mazo y aun así el número de repasos se volvió raro.
+Si la cola está sobre todo atrasada porque dejaste de repasar durante un tiempo, reduce las tarjetas nuevas y avanza por las pendientes a un ritmo sostenible. Ese es un problema de acumulación. Este artículo es para la versión en la que seguiste usando el mazo y aun así el número de repasos se volvió raro.
 
 ## La causa más común sigue siendo simple: demasiadas tarjetas nuevas
 
@@ -168,8 +166,6 @@ Yo miraría muy de cerca el mazo si sigues viendo:
 - tarjetas que nunca llegaste a entender bien antes de memorizarlas
 - detalles mínimos que no merecen su coste futuro de repaso
 
-Si esto se parece más a tu caso, [Cómo podar un mazo de flashcards en 2026](/es/blog/how-to-prune-a-flashcard-deck/) probablemente sea la mejor lectura siguiente.
-
 ## Un diagnóstico de cinco minutos para los picos de repaso en Anki
 
 Si tuviera que diagnosticar **picos de repaso Anki** rápido, usaría esta tabla:
@@ -224,7 +220,7 @@ Si el número doloroso es:
 - **cantidad en aprendizaje**, limpia los pasos y las tarjetas flojas
 - **tiempo por sesión**, mejora la calidad de las tarjetas y el flujo de repaso
 
-Ese último caso es muy común. Algunas personas no tienen realmente demasiados repasos. Tienen repasos demasiado lentos y demasiado molestos. Si ése es tu caso, [Cómo repasar flashcards más rápido en 2026](/es/blog/how-to-review-flashcards-faster/) te ayudará más que otra ronda de ajustes del planificador.
+Ese último caso es muy común. Algunas personas no tienen realmente demasiados repasos. Tienen repasos demasiado lentos y demasiado molestos. Si ése es tu caso, acorta las respuestas y divide las preguntas que evalúan demasiadas cosas antes de volver a ajustar el planificador.
 
 ## Dónde encaja Nibomo sin fingir que es magia
 

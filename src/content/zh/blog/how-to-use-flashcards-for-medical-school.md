@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-use-flashcards-for-medical-school.md"
 title: "2026 年医学院如何使用抽认卡：解剖学、药理学、病理学，以及真正记得住的间隔重复"
 description: "想在 2026 年建立一套实用的医学院抽认卡工作流？这篇文章会讲清楚，怎样把解剖学、药理学、病理学、课程讲义、题库和 FSRS 串起来，而不让牌组膨胀成第二套课程。"
 date: "2026-04-15"
@@ -180,10 +178,6 @@ keywords:
 
 它是为了让某些具体失误不要重复发生。
 
-如果你最需要补的正是这一块，这篇文章就是最直接的配套阅读：
-
-- [2026 年如何把练习题转成抽认卡](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
-
 ## 每周的医学院抽认卡工作流，往往刻意地很无聊
 
 最可靠的流程通常并不花哨。
@@ -219,10 +213,6 @@ keywords:
 - 期末考试或分科考试的压力
 
 如果这些都被扔进一个没有形状的队列里，牌组很快就不再值得信任。
-
-如果你想更细一点看组织层面，可以接着读这篇：
-
-- [2026 年如何整理抽认卡](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## FSRS 真正最有用的时候，是你不再把混乱持续喂给它
 

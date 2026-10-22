@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-use-flashcards-for-advanced-chemistry.md"
 title: "Wie du 2026 mit Flashcards für fortgeschrittene Chemie lernst: Gleichungen, Laborlogik und Fehlerkorrektur"
 description: "Ein praktischer Flashcard-Workflow für fortgeschrittene Chemie: Gleichungen, Gleichgewichte, Säuren und Basen, Laborauswertung und Fehler in ausführlichen Antworten – ohne ein zweites Lehrbuch zu bauen."
 image: "/blog/how-to-use-flashcards-for-advanced-chemistry.png"
@@ -175,7 +173,7 @@ Beispiele:
 
 Diese letzte Frage ist wichtig. Manche Fehler sind Gedächtnisfehler. Manche sind Transferfehler. Flashcards helfen beim Abruf. Übungsaufgaben bauen Transfer auf. Du brauchst beides.
 
-Wenn dein bestes Ausgangsmaterial aus korrigierten Hausaufgaben, Quizzes und unabhängig formulierten Übungsaufgaben kommt, ist [Wie du 2026 Übungsfragen in Flashcards verwandelst](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) der direkteste Begleitartikel. Für die Planungsseite passt [Wie du 2026 mit FSRS für eine Prüfung lernst](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs) hier genauso gut.
+Wenn dein bestes Ausgangsmaterial aus korrigierten Hausaufgaben, Quizzes und unabhängig formulierten Übungsaufgaben kommt, mache aus wiederkehrenden Fehlern kleine Fragen, die den Fehlergrund prüfen. Für die Planungsseite passt [Wie du 2026 mit FSRS für eine Prüfung lernst](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs) hier genauso gut.
 
 ## Ein praktischer Wochenablauf für fortgeschrittene Chemie
 

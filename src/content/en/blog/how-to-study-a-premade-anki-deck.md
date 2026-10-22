@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1en~1blog~1how-to-study-a-premade-anki-deck.md"
 title: "How to Study a Premade Anki Deck in 2026: What to Keep, What to Rewrite, and What to Learn First"
 description: "Using a premade Anki deck or shared flashcards? Here is how to study imported cards in 2026 without inheriting bad review habits, weak cards, or topics you never actually learned."
 date: "2026-07-03"
@@ -124,7 +122,7 @@ Start with a cap that feels almost conservative:
 
 That gives you room to inspect what the deck is really like. It also keeps you from discovering on day five that your "helpful" import became a second unpaid job.
 
-If you want a more detailed intake rule, [How Many New Flashcards Per Day](/blog/how-many-new-flashcards-per-day/) is the closer companion. If AI is feeding extra cards into the same system, [How to Avoid AI Flashcard Overload in 2026](/blog/how-to-avoid-ai-flashcard-overload/) matters even more.
+If you want a more detailed intake rule, [How Many New Flashcards Per Day](/blog/how-many-new-flashcards-per-day/) is the closer companion.
 
 ## Make only four decisions in week one
 
@@ -165,8 +163,6 @@ Rewrite them into something you can grade in a few seconds. Usually that means:
 - splitting overloaded cards into two or three smaller ones
 
 Here is a good test: if you need to remember the original author's class context to answer the card, rewrite it.
-
-If the deck needs a broader cleanup pass after import, [How to Prune a Flashcard Deck in 2026](/blog/how-to-prune-a-flashcard-deck/) is the companion guide.
 
 ## Treat AI-generated shared decks as drafts
 

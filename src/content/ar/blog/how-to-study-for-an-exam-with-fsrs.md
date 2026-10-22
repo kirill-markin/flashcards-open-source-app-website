@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-study-for-an-exam-with-fsrs.md"
 title: "كيفية الدراسة لامتحان باستخدام FSRS في 2026: ابنِ خطة بطاقات تعليمية يمكنك إنهاؤها قبل يوم الاختبار"
 description: "أصبح استخدام الذكاء الاصطناعي لإنشاء البطاقات التعليمية سهلًا. الصعب هو أن تراجعها كلها قبل الامتحان. إليك طريقة عملية في 2026 لاستخدام FSRS لوضع حمل يومي واقعي، وتنظيف مسودات الذكاء الاصطناعي، ومنع قائمة المراجعة من الخروج عن السيطرة."
 date: "2026-04-01"
@@ -223,7 +221,6 @@ keywords:
 
 وإذا كانت مادّتك المصدرية ما تزال متوقفة خطوة قبل ذلك، فهذه المقالات ستساعدك:
 
-- [كيفية تحويل PDF إلى بطاقات تعليمية في 2026](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 - [كيفية استخدام ChatGPT لإنشاء بطاقات تعليمية في 2026](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
 - [كيفية تحويل بطاقات NotebookLM إلى تكرار متباعد حقيقي في 2026](https://nibomo.com/blog/notebooklm-flashcards-to-spaced-repetition/)
 

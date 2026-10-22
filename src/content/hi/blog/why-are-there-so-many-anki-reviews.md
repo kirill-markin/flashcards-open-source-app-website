@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1why-are-there-so-many-anki-reviews.md"
 title: "2026 में Anki में इतने ज़्यादा reviews क्यों आ रहे हैं? spaced repetition छोड़े बिना review spikes संभालें"
 description: "क्या Anki में आपकी उम्मीद से कहीं ज़्यादा reviews दिख रहे हैं? यह 2026 की practical guide बताती है कि FSRS, new-card limits, learning steps, और retention settings की वजह से review count क्यों उछलता है, और deck reset किए बिना queue को कैसे संभालें।"
 date: "2026-07-04"
@@ -71,7 +69,7 @@ Settings छूने से पहले पीछे देखिए।
 
 यह फर्क मायने रखता है।
 
-अगर queue ज़्यादातर overdue है क्योंकि आपने कुछ समय review ही नहीं किया, तो [2026 में पीछे छूट जाने के बाद फ्लैशकार्ड में फिर से पटरी पर कैसे आएँ](/hi/blog/how-to-catch-up-on-flashcards-after-falling-behind/) पढ़िए। वह backlog problem है। यह article उस version के लिए है जहाँ आप deck इस्तेमाल करते रहे, लेकिन review count फिर भी अजीब हो गया।
+अगर queue ज़्यादातर overdue है क्योंकि आपने कुछ समय review ही नहीं किया, तो नए cards कम करें और backlog को ऐसे pace पर पूरा करें जिसे जारी रख सकें। वह backlog problem है। यह article उस version के लिए है जहाँ आप deck इस्तेमाल करते रहे, लेकिन review count फिर भी अजीब हो गया।
 
 ## सबसे आम वजह अब भी वही simple चीज़ है: बहुत ज़्यादा new cards
 
@@ -168,8 +166,6 @@ Bad cards workload को दो तरीकों से बढ़ाते �
 - ऐसे cards जिन्हें आपने memorize करने से पहले कभी ठीक से समझा ही नहीं
 - ऐसी tiny details जिनकी future review cost उनकी value से ज़्यादा है
 
-अगर आपकी situation इससे ज़्यादा मिलती है, तो [2026 में फ्लैशकार्ड डेक की छँटाई कैसे करें](/hi/blog/how-to-prune-a-flashcard-deck/) अगला बेहतर लेख है।
-
 ## Anki review spikes के लिए पाँच मिनट का diagnosis
 
 अगर मुझे **Anki review spikes** जल्दी debug करने हों, तो मैं यह table इस्तेमाल करूँगा:
@@ -224,7 +220,7 @@ Low-value cards delete कीजिए। Non-priority material suspend की�
 - **learning count**, तो steps और weak cards साफ़ कीजिए
 - **time spent per session**, तो card quality और review flow सुधारिए
 
-तीसरा case बहुत common है। कुछ लोगों के पास असल में बहुत ज़्यादा reviews नहीं होते। उनके reviews बस बहुत slow और बहुत annoying होते हैं। अगर आपकी problem यह है, तो [2026 में फ्लैशकार्ड review तेज़ कैसे करें](/hi/blog/how-to-review-flashcards-faster/) किसी और scheduler tweak से ज़्यादा मदद करेगा।
+तीसरा case बहुत common है। कुछ लोगों के पास असल में बहुत ज़्यादा reviews नहीं होते। उनके reviews बस बहुत slow और बहुत annoying होते हैं। अगर आपकी problem यह है, तो scheduler फिर बदलने से पहले answers छोटे करें और कई बातें पूछने वाले cards को बाँटें।
 
 ## Nibomo कहाँ fit होता है, बिना magic होने का नाटक किए
 

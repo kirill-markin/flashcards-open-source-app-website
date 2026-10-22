@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-use-flashcards-for-ap-biology.md"
 title: "2026年版 AP Biology向けフラッシュカードの使い方: 細胞、FRQ、データを本当に定着させる"
 description: "2026年のAP Biologyに向けて実践的なフラッシュカード運用を探しているなら。2026年5月4日のハイブリッド型デジタル試験に向けて、プロセス、実験、FRQの動詞、高配点単元をどう学ぶかを整理します。"
 date: "2026-04-30"
@@ -146,8 +144,6 @@ AP Biology は、生物をそれなりに分かっていても、データに押
 - グラフ問題で、傾向を説明し始める前に何を言うべきか。
 - **negative control** が positive control ではなく negative control だといえるのはどんな条件か。
 - AP Biology の設定で、単なるパターンではなく **因果** の主張を支えられるのはどんなときか。
-
-演習で落とした問題がいちばん良いカード材料なら、[2026年版 演習問題をフラッシュカードに変える方法](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) がここにそのままつながります。
 
 ## FRQ対策は、答え全体ではなく推論の動きを残したほうがうまくいく
 

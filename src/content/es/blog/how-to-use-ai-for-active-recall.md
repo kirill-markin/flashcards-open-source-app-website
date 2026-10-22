@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-use-ai-for-active-recall.md"
 title: "Cómo usar IA para hacer active recall en 2026: deja que el tutor pregunte primero y quédate con los puntos flojos"
 description: "Un flujo práctico de active recall con tutores de IA en 2026: empieza con preguntas, guarda solo los fallos y conviértelos en flashcards con FSRS en vez de archivar todo el chat."
 date: "2026-05-30"
@@ -115,11 +113,9 @@ Al final de la sesión, quiero una lista que suene así:
 
 Esos son puntos flojos reales. "Necesita más trabajo en el capítulo 6" no lo es.
 
-Si tu fuente empieza como apuntes, una guía de estudio o un PDF, estos flujos complementarios encajan muy bien antes de la sesión de práctica:
+Si tu fuente empieza como apuntes, una guía de estudio o un PDF, esta guía para convertir apuntes en tarjetas encaja antes de la sesión de práctica:
 
 - [Cómo convertir apuntes en flashcards en 2026](/es/blog/turn-notes-into-flashcards/)
-- [Cómo convertir una guía de estudio en flashcards en 2026](/es/blog/how-to-turn-a-study-guide-into-flashcards/)
-- [Cómo convertir un PDF en flashcards en 2026](/es/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## Guarda los puntos flojos, no toda la actuación
 
@@ -148,7 +144,7 @@ Yo quiero conservar:
 
 Todo lo demás puede quedarse en el historial del chat.
 
-Por eso los flujos de tutoría ligados a una marca concreta acaban una y otra vez en un lugar parecido. Tanto si la sesión empieza en [ChatGPT Study Mode](/es/blog/how-to-turn-chatgpt-study-mode-into-flashcards/), [Gemini Guided Learning](/es/blog/gemini-guided-learning-to-flashcards/) o en otra herramienta de tutoría, lo que merece la pena guardar sigue siendo la misma lista corta de fallos.
+Por eso los flujos de tutoría ligados a una marca concreta acaban una y otra vez en un lugar parecido. Tanto si la sesión empieza en ChatGPT Study Mode, [Gemini Guided Learning](/es/blog/gemini-guided-learning-to-flashcards/) o en otra herramienta de tutoría, lo que merece la pena guardar sigue siendo la misma lista corta de fallos.
 
 ## Las mejores tarjetas conservan el fallo, no la explicación pulida
 

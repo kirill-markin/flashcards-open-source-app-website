@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-study-for-an-exam-with-fsrs.md"
 title: "Wie du 2026 mit FSRS für eine Prüfung lernst: Ein Flashcard-Plan, den du vor dem Prüfungstag wirklich schaffst"
 description: "KI macht das Erstellen von Flashcards einfach. Schwer ist, sie vor der Prüfung auch wirklich zu wiederholen. Hier ist ein praktischer FSRS-Workflow für 2026: realistische Kartenmenge festlegen, KI-Entwürfe aufräumen und die Review-Warteschlange unter Kontrolle halten."
 date: "2026-04-01"

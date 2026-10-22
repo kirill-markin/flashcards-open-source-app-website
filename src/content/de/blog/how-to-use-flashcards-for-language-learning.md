@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-use-flashcards-for-language-learning.md"
 title: "Wie du 2026 Flashcards fürs Sprachenlernen nutzt: Vokabeln, Beispielsätze und Wiederholungen, die wirklich hängen bleiben"
 description: "Du willst 2026 mit Flashcards Sprachen lernen, ohne leblose Wortlisten auswendig zu pauken? Hier ist ein praktisches System für Vokabeln, Satzkarten, Wiederholungsaufwand und FSRS, das langfristig trägt."
 date: "2026-04-04"
@@ -214,7 +212,6 @@ Denn nur du weißt:
 Wenn dein Quellmaterial als Notiz, Transkript oder Chat-Ausgabe beginnt, helfen diese Guides vorher:
 
 - [Wie du 2026 ChatGPT nutzt, um Flashcards zu erstellen: bessere Prompts, bessere Karten, bessere Reviews mit FSRS](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [Wie du 2026 Voice Notes in Flashcards verwandelst: Von Audiodiktat zu FSRS-Karten, ohne alles neu zu schreiben](https://nibomo.com/blog/how-to-turn-voice-notes-into-flashcards/)
 - [Wie du 2026 ein YouTube-Video in Flashcards verwandelst: KI-Entwürfe für Vorlesungen, Tutorials und Sprachvideos](https://nibomo.com/blog/youtube-to-flashcards/)
 
 ## Baue dein Deck um dein echtes Ziel herum, nicht um vagen Sprachlern-Ehrgeiz

@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-use-flashcards-for-anatomy.md"
 title: "2026 में Anatomy के लिए Flashcards कैसे इस्तेमाल करें: Lab Practicals, Labels और ऐसी Spaced Repetition जो सच में टिके"
 description: "2026 में anatomy flashcards के लिए एक practical workflow चाहिए? यहाँ lab practicals, cadaver pins, labeled structures, image-heavy review, AI cleanup और FSRS के साथ anatomy पढ़ने का तरीका है।"
 date: "2026-05-17"
@@ -209,8 +207,6 @@ Lab session या quiz के बाद यह मत पूछिए, "मै�
 - मैंने pin placement एक बार गलत पढ़ी, वरना मुझे आता था
 
 ये real problems हैं। बस ये flashcard problems नहीं हैं।
-
-अगर आपका सबसे अच्छा source material practical misses और spotter questions हैं, तो [2026 में अभ्यास प्रश्नों को फ़्लैशकार्ड में कैसे बदलें](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) यहाँ अच्छा fit बैठता है।
 
 ## साप्ताहिक anatomy workflow थोड़ा boring ही होना चाहिए
 

@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-use-flashcards-for-language-learning.md"
 title: "كيف تستخدم البطاقات التعليمية لتعلّم اللغات في 2026: مفردات وجمل ومراجعات تثبت فعلًا"
 description: "هل تريد استخدام البطاقات التعليمية لتعلّم اللغات في 2026 من دون الاكتفاء بقوائم كلمات جامدة؟ إليك نظامًا عمليًا لبناء بطاقات مفردات وجمل واضحة، وضبط عبء المراجعة، والاستفادة من FSRS بطريقة تدوم فعلًا."
 date: "2026-04-04"
@@ -214,7 +212,6 @@ keywords:
 إذا كانت المادة الأصلية تبدأ كملاحظات، أو تفريغ، أو مخرجات دردشة، فهذه الأدلة مفيدة قبل هذه المرحلة:
 
 - [كيفية استخدام ChatGPT لإنشاء Flashcards في 2026: مطالبات أفضل، وبطاقات أفضل، ومراجعة أفضل مع FSRS](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [كيف تحوّل الملاحظات الصوتية إلى بطاقات تعليمية في 2026: من الإملاء الصوتي إلى بطاقات FSRS من دون إعادة كتابة كل شيء](https://nibomo.com/blog/how-to-turn-voice-notes-into-flashcards/)
 - [كيفية تحويل فيديو YouTube إلى Flashcards في 2026: صياغة بالذكاء الاصطناعي للمحاضرات والشروحات ومقاطع اللغات](https://nibomo.com/blog/youtube-to-flashcards/)
 
 ## ابنِ المجموعة حول هدفك الحقيقي، لا حول طموح لغوي عام

@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ru~1blog~1how-to-study-for-an-exam-with-fsrs.md"
 title: "Как готовиться к экзамену с FSRS в 2026 году: соберите план с карточками, который реально выполнить до дня экзамена"
 description: "Сгенерировать карточки с помощью ИИ теперь легко. Сложнее успеть качественно повторить их до экзамена. Ниже — практичный сценарий подготовки с FSRS в 2026 году: как задать реалистичную нагрузку, почистить черновики, созданные ИИ, и не дать очереди повторений выйти из-под контроля."
 date: "2026-04-01"
@@ -223,7 +221,6 @@ keywords:
 
 А если ваши исходные материалы пока еще застряли на шаг раньше, пригодятся вот эти статьи:
 
-- [Как превратить PDF в карточки в 2026 году](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 - [Как использовать ChatGPT для создания карточек в 2026 году](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
 - [Как превратить карточки из NotebookLM в настоящее интервальное повторение в 2026 году](https://nibomo.com/blog/notebooklm-flashcards-to-spaced-repetition/)
 

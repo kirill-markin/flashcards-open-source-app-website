@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-use-interleaving-with-flashcards.md"
 title: "2026 में Flashcards के साथ Interleaving कैसे करें: Spaced Repetition बिगाड़े बिना Topics मिलाएँ"
 description: "Interleaving, flashcards और FSRS को साथ इस्तेमाल करना सीखें: किन topics को मिलाना है, किन्हें अलग रखना है, और कठिन practice लंबे समय तक याद रखने में क्यों मदद कर सकती है।"
 date: "2026-07-14"
@@ -189,7 +187,7 @@ Interleaved practice flashcards में आपको इनमें से �
 
 यहीं **interleaving और active recall** एक-दूसरे को पूरा करते हैं। Active recall retrieval attempt करवाता है। Interleaving यह सुविधा हटा देता है कि आपको पहले से पता हो अगला attempt किस तरह का होगा।
 
-जब असली task एक card से बड़ा हो, तब practice tests की ज़रूरत बनी रहती है। Multi-step work, timing और transfer के लिए mixed questions इस्तेमाल करें; उन questions से सामने आए छोटे rules और distinctions याद रखने के लिए flashcards इस्तेमाल करें। [Flashcards बनाम practice tests](/hi/blog/flashcards-vs-practice-tests/) इस handoff को और विस्तार से समझाता है।
+जब असली task एक card से बड़ा हो, तब practice tests की ज़रूरत बनी रहती है। Multi-step work, timing और transfer के लिए mixed questions इस्तेमाल करें; उन questions से सामने आए छोटे rules और distinctions याद रखने के लिए flashcards इस्तेमाल करें।
 
 ## Interleaving को खराब करने के आम तरीके
 

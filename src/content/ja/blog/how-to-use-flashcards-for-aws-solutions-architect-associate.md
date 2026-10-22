@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-use-flashcards-for-aws-solutions-architect-associate.md"
 title: "2026年版 AWS Solutions Architect Associate向けフラッシュカードの使い方: SAA-C03のサービス、トレードオフ、模試のミスを定着させる"
 description: "2026年に AWS Certified Solutions Architect - Associate (SAA-C03) を受ける人向けに、AWS サービス、アーキテクチャのトレードオフ、Well-Architected の判断、演習問題の誤答を AI 下書きと FSRS 復習で整理する実践的な学習法を解説します。"
 date: "2026-05-11"
@@ -267,6 +265,6 @@ SAA-C03 では、アーキテクチャ学習の最初の材料がたいてい散
 
 実際にスコアを変えるのは、そういうデッキです。
 
-今のカードがまだ広すぎるなら、[2026年版 演習問題をフラッシュカードに変える方法: 間違えた問題からFSRSデッキを作る](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) が次に読むべき記事です。SAA-C03 のデッキは、要約から作るより、誤答から作るほうが速く良くなることが多いからです。
+今のカードがまだ広すぎるなら、演習の誤答から、覚えるべき判断や区別を一つずつ取り出しましょう。要約全体を裏面に載せるより、何を間違えたのかを確かめやすくなります。
 
 SAA-C03 に関しては、結論はかなりシンプルです。公式ドメインに沿って学び、演習問題の誤答を強く掘り、必要だと思うより小さいトレードオフカードを作り、復習タイミングは FSRS に任せる。それで、問題文がいやらしくなっても正しい AWS の答えが出てきやすくなります。

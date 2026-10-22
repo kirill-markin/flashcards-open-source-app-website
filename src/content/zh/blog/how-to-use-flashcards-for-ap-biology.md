@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-use-flashcards-for-ap-biology.md"
 title: "2026 年如何用抽认卡备考 AP Biology：细胞、FRQ 与真正记得住的数据题"
 description: "想在 2026 年用更实用的 AP Biology 抽认卡备考？这篇文章会讲清楚，如何在 2026 年 5 月 4 日的混合数字化考试前复习生物过程、实验设计、FRQ 指令动词和高权重单元。"
 date: "2026-04-30"
@@ -147,8 +145,6 @@ AP Biology 这门课很容易出现这样一种情况：你明明懂了不少生
 - 遇到图表题时，在开始解释趋势之前，你应该先说清什么？
 - 什么才会让一个对照成为 **negative control**，而不是 **positive control**？
 - 什么时候一个 AP Biology 实验设置支持的是关于 **cause** 的论断，而不只是某种模式？
-
-如果你最好的卡片来源本来就是练习里做错的东西，那么这篇文章正好可以接着看：[2026 年如何把练习题转成抽认卡](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)。
 
 ## 准备 FRQ 时，更适合把“推理动作”存进卡片里
 

@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-use-flashcards-for-medical-school.md"
 title: "2026 में मेडिकल स्कूल के लिए फ्लैशकार्ड कैसे इस्तेमाल करें: Anatomy, Pharmacology, Pathology और टिकाऊ स्पेस्ड रिपिटिशन"
 description: "2026 में मेडिकल स्कूल फ्लैशकार्ड के लिए एक व्यावहारिक वर्कफ़्लो चाहिए? यहाँ anatomy, pharmacology, pathology, lecture slides, question banks और FSRS के साथ फ्लैशकार्ड इस्तेमाल करने का तरीका है, ताकि आपका deck दूसरा curriculum न बन जाए।"
 date: "2026-04-15"
@@ -139,10 +137,9 @@ Pathology फिसलन भरी होती है, क्योंकि r
 
 उनका काम यह सुरक्षित रखना है कि आप बाद में क्या याद रखना चाहते हैं।
 
-अगर आपका source material ज़्यादातर notes या लंबे handouts हैं, तो workflow के शुरुआती हिस्से के लिए ये related articles ठीक बैठते हैं:
+अगर आपका source material ज़्यादातर notes या लंबे handouts हैं, तो workflow के शुरुआती हिस्से के लिए यह guide ठीक बैठती है:
 
 - [2026 में नोट्स से फ्लैशकार्ड कैसे बनाएँ](https://nibomo.com/blog/turn-notes-into-flashcards/)
-- [2026 में PDF से फ्लैशकार्ड कैसे बनाएँ](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## Question-bank misses को deck के दूसरे हिस्से को आकार देना चाहिए
 
@@ -160,10 +157,6 @@ Pathology फिसलन भरी होती है, क्योंकि r
 - management sequence का अगला step भूल जाना
 
 इससे आपका deck actual failure के हिसाब से shape होता है, सिर्फ़ lecture के emphasis से नहीं। Deck का काम आपको motivate करना नहीं है। उसका काम specific misses को दोबारा होने से रोकना है।
-
-अगर आपको workflow का यही हिस्सा सबसे ज़्यादा मुश्किल लगता है, तो यह उसका direct companion article है:
-
-- [2026 में अभ्यास प्रश्नों से फ्लैशकार्ड कैसे बनाएँ](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## मेडिकल स्कूल फ्लैशकार्ड का साप्ताहिक workflow जानबूझकर थोड़ा उबाऊ होता है
 
@@ -200,10 +193,6 @@ Pathology फिसलन भरी होती है, क्योंकि r
 - final exam या shelf का pressure
 
 अगर यह सब एक shapeless queue में पड़ा हो, तो deck भरोसेमंद लगना बंद हो जाती है।
-
-अगर organization वाले हिस्से को और detail में समझना है, तो इसे आगे पढ़ें:
-
-- [2026 में फ्लैशकार्ड कैसे व्यवस्थित करें](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## FSRS तब सबसे ज़्यादा मदद करता है जब आप उसमें chaos डालना बंद करते हैं
 

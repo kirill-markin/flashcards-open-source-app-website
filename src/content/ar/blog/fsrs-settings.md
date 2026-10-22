@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1fsrs-settings.md"
 title: "أفضل إعدادات FSRS في Anki لعام 2026: الاحتفاظ والخطوات وعبء المراجعة"
 description: "اختر إعدادات Anki FSRS آمنة للاحتفاظ المستهدف وخطوات التعلم وتحسين المعاملات وإعادة الجدولة وعبء المراجعة في Anki 26.08 مع FSRS-6."
 date: "2026-04-25"

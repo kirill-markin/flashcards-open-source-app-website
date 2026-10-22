@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-turn-images-into-flashcards.md"
 title: "Wie du 2026 Bilder in Flashcards verwandelst: Screenshots, Fotos und OCR ohne alles neu abzutippen"
 description: "Du willst Bilder in Flashcards verwandeln, ohne alles von Hand neu abzutippen? Hier ist ein praktischer Workflow für 2026: Screenshots, Lernfotos und OCR-Bereinigung zu sauberen Karten machen und das finale Set mit FSRS wiederholen."
 date: "2026-05-25"
@@ -32,7 +30,7 @@ Ein Screenshot hat meist gut lesbaren Text, aber zu wenig Kontext. Ein Handyfoto
 
 Dieser Unterschied ist nicht klein.
 
-Wenn deine Quelle vor allem aus Beschriftungen, Pfeilen und visuellen Beziehungen besteht, passt [Wie du 2026 Diagramme in Flashcards verwandelst](/de/blog/how-to-turn-diagrams-into-flashcards/) besser. Wenn die Quelle chaotische handschriftliche Notizen sind, hilft dir [Wie du 2026 handschriftliche Notizen in Flashcards verwandelst](/de/blog/how-to-turn-handwritten-notes-into-flashcards/) mehr. Dieser Artikel ist für den Bereich dazwischen: Screenshots, Lernfotos, gescannte Seiten und gemischtes Bildmaterial mit viel OCR, das trotzdem noch eine menschliche Prüfrunde braucht.
+Besteht deine Quelle vor allem aus Beschriftungen, Pfeilen und visuellen Beziehungen, müssen die Fragen diese Beziehungen erhalten. Bei chaotischen handschriftlichen Notizen prüfst du zuerst, ob der Text richtig gelesen wurde. Dieser Artikel ist für den Bereich dazwischen: Screenshots, Lernfotos, gescannte Seiten und gemischtes Bildmaterial mit viel OCR, das trotzdem noch eine menschliche Prüfrunde braucht.
 
 ## OCR hilft beim Tippen, nicht beim Urteilen
 
@@ -115,7 +113,7 @@ Teile Scans nach Abschnitten auf:
 - eine Tabelle
 - ein durchgerechnetes Beispiel
 
-Wenn der Scan im Grunde ein Dokument ist, ist [Wie du 2026 eine PDF in Flashcards verwandelst](/de/blog/how-to-turn-a-pdf-into-flashcards/) der passendere Begleitartikel. Die Bildebene ist dann nur die Art, wie das Material bei dir angekommen ist.
+Wenn der Scan im Grunde ein Dokument ist, arbeite Abschnitt für Abschnitt und prüfe den erkannten Text, bevor du Karten formulierst. Die Bildebene ist dann nur die Art, wie das Material bei dir angekommen ist.
 
 ## Der Prompt sollte streng und langweilig bleiben
 

@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1why-are-there-so-many-anki-reviews.md"
 title: "Warum gibt es 2026 so viele Anki-Reviews? So glättest du Review-Spitzen, ohne Spaced Repetition aufzugeben"
 description: "Du siehst plötzlich viel mehr Anki-Reviews als erwartet? Hier ist ein praktischer Leitfaden für 2026 dazu, warum Wiederholungen mit FSRS, neuen Karten, Learning Steps und Desired Retention ansteigen und wie du die Warteschlange wieder in den Griff bekommst, ohne dein Deck zurückzusetzen."
 date: "2026-07-04"
@@ -71,7 +69,7 @@ Diagnostiziere nicht nur nach der großen Zahl oben. Schau dir an, welche Art vo
 
 Dieser Unterschied ist wichtig.
 
-Wenn die Warteschlange vor allem überfällig ist, weil du eine Weile nicht wiederholt hast, lies [Wie du 2026 bei Flashcards wieder aufholst, nachdem du zurückgefallen bist](/de/blog/how-to-catch-up-on-flashcards-after-falling-behind/). Das ist ein Backlog-Problem. Dieser Artikel ist für die Version, bei der du das Deck weiter genutzt hast und die Review-Zahl trotzdem seltsam wurde.
+Wenn die Warteschlange vor allem überfällig ist, weil du eine Weile nicht wiederholt hast, reduziere neue Karten und arbeite den Rückstand in einem tragbaren Tempo ab. Das ist ein Backlog-Problem. Dieser Artikel ist für die Version, bei der du das Deck weiter genutzt hast und die Review-Zahl trotzdem seltsam wurde.
 
 ## Die häufigste Ursache ist immer noch simpel: zu viele neue Karten
 

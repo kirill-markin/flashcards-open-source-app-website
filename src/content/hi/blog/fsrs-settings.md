@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1fsrs-settings.md"
 title: "2026 में Anki की बेहतरीन FSRS सेटिंग्स: रिटेंशन, स्टेप्स और रिव्यू लोड"
 description: "Anki 26.08 में FSRS-6 के लिए Desired retention, learning steps, optimization, rescheduling और workload की सुरक्षित सेटिंग्स चुनें।"
 date: "2026-04-25"

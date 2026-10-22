@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-use-flashcards-for-the-ged.md"
 title: "2026 年如何用抽认卡备考 GED：真正能记住的 Math、RLA、Science 和 Social Studies"
 description: "2026 年想用 GED 抽认卡备考？这是一套适用于 Math、RLA、Science 和 Social Studies 的实用方法：围绕错题制卡，用 AI 精修，再配合 FSRS 复习。"
 image: "/blog/how-to-use-flashcards-for-the-ged.png"
@@ -123,8 +121,6 @@ Science 是很多学习者最容易说出“我看了解析明明就懂了”的
 
 这个科目也很适合直接从解析做卡。GED 当前的 [练习题页面](https://www.ged.com/study/practice-questions.html) 很强调即时、分步骤反馈，这很有帮助，因为很多 Science 错题并不是忘了一整章，而是第一眼就把图读歪了。
 
-如果你的原始素材主要就是练习题错题和解析，那篇 [2026 年如何把练习题做成 Flashcards](/blog/how-to-turn-practice-questions-into-flashcards/) 会是最贴近这篇的配套文章。
-
 ## GED Social Studies 抽认卡，别做成“日期墓地”
 
 很多人一听到 “social studies”，马上就开始背人名、事件和年份。
@@ -226,8 +222,6 @@ GED 官方备考材料本身就很强调练习题、答案解析和 GED Ready �
 这样你就能专门练眼前这个问题，而不会把整个卡库都变成一项“整理工程”。
 
 我还会给卡片入口设一条很短的规则：如果你没法想象自己在公交上半睡半醒，或者午休时，依然能答出这张卡，那就重写它。
-
-如果你现在整理卡组这件事已经比真正学习还复杂，那篇 [2026 年如何整理抽认卡](/blog/how-to-organize-flashcards/) 会是更合适的重置文章。
 
 ## 只要卡片入口保持现实，GED 间隔重复就真的有用
 

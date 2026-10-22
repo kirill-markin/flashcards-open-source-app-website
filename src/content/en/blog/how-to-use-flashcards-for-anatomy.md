@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1en~1blog~1how-to-use-flashcards-for-anatomy.md"
 title: "How to Use Flashcards for Anatomy in 2026: Lab Practicals, Labels, and Spaced Repetition That Actually Sticks"
 description: "A practical anatomy flashcards workflow for lab practicals, cadaver pins, labeled structures, and image-heavy review with AI cleanup plus FSRS."
 date: "2026-05-17"
@@ -215,8 +213,6 @@ What usually does not deserve a card:
 - I misread the pin placement one time and otherwise knew it
 
 Those are real problems. They are just not flashcard problems.
-
-If your best source material is practical misses and spotter questions, [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) fits well here.
 
 ## A weekly anatomy workflow should stay boring
 

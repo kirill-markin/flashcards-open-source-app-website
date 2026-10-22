@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-use-flashcards-for-pharmacology.md"
 title: "2026 年如何用抽认卡学药理学：真正能记住的药物分类、副作用和易混药物"
 description: "想在 2026 年建立一套实用的药理学抽认卡工作流？这篇文章会讲清楚，如何用 FSRS 学习药物分类、作用机制、不良反应、禁忌证以及常见易混药物，而不把每种药都做成一张大段落卡。"
 date: "2026-06-29"
@@ -219,8 +217,6 @@ keywords:
 - 这是分类问题、机制问题，还是混淆问题？
 - 什么样的最小卡片，能阻止我下周再犯同样的错？
 
-如果你最好的卡，大多都是从题目里长出来的，而不是从笔记里抄出来的，那篇 [2026 年如何把练习题转成抽认卡](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) 会是最直接的下一步。
-
 ## 药理学更需要反复回访，而不是一场英雄式突击
 
 这一部分没那么好看，但通常更经得住用。
@@ -262,10 +258,9 @@ keywords:
 
 这才是你真正**记住药名和副作用**的方式，而不是把牌组做成第二本药理学教材。
 
-如果你的复习队列已经比该有的更重，下面这两篇通常就是接下来的解法：
+如果你的复习队列已经比该有的更重，可以先参考这篇文章，控制每天新增的卡片量：
 
 - [2026 年每天该新增多少张抽认卡？](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
-- [2026 年如何更快复习抽认卡](https://nibomo.com/blog/how-to-review-flashcards-faster/)
 
 ## Nibomo 在这套工作流里的位置
 

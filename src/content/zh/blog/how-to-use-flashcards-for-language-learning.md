@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-use-flashcards-for-language-learning.md"
 title: "2026 年如何用抽认卡学语言：真正记得住的词汇、句子与复习方法"
 description: "想在 2026 年用抽认卡学语言，又不想死背单词表？这篇文章会给你一套更实用的方法：怎样做词汇卡、句子卡、控制复习负担，并配合 FSRS 真正把内容记住。"
 date: "2026-04-04"
@@ -212,7 +210,6 @@ keywords:
 如果你的素材原本是笔记、转录文本，或者聊天记录，这几篇前置文章会更有帮助：
 
 - [2026 年如何用 ChatGPT 制作抽认卡](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [2026 年如何把语音笔记变成抽认卡](https://nibomo.com/blog/how-to-turn-voice-notes-into-flashcards/)
 - [2026 年如何把 YouTube 视频变成抽认卡](https://nibomo.com/blog/youtube-to-flashcards/)
 
 ## 围绕真实目标建卡，而不是围绕空泛的“我要学语言”

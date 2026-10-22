@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1migrate-from-anki-txt-export-open-source-flashcards.md"
 title: "كيفية الانتقال من Anki في 2026: طريقة آمنة للتصدير بصيغة TXT"
 description: "انقل بطاقات Anki النصية من دون المخاطرة بالمجموعة الأصلية. أنشئ نسخة احتياطية بصيغة .colpkg، وصدّر الملاحظات إلى TXT، واختبر الحقول والوسائط، ثم أعد إنشاء رزمة صغيرة بأمان."
 date: "2026-03-13"

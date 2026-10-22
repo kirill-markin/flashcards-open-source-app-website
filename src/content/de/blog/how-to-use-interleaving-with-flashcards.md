@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-use-interleaving-with-flashcards.md"
 title: "So nutzt du 2026 Interleaving mit Flashcards: Themen mischen, ohne Spaced Repetition zu stören"
 description: "So kombinierst du Interleaving, Flashcards und FSRS: welche Inhalte du mischen solltest, was besser getrennt bleibt und warum anspruchsvolleres Üben den langfristigen Abruf verbessern kann."
 date: "2026-07-14"
@@ -129,7 +127,7 @@ Zum Beispiel:
 
 Diese Karte ist wertvoll, weil sie die Entscheidungsregel festhält und nicht nur die Definition von `Verschiebung der Nachfrage`.
 
-Halte die Rückseite kurz genug, um dich ehrlich bewerten zu können. Der [Leitfaden für bessere Flashcards](/de/blog/how-to-make-better-flashcards/) behandelt das Schreiben der Karten genauer, während [Active Recall vs. Spaced Repetition](/de/blog/active-recall-vs-spaced-repetition/) erklärt, warum Abruf und spätere Wiederholungsplanung getrennte Aufgaben bleiben.
+Halte die Rückseite kurz genug, um dich ehrlich bewerten zu können. Der [Leitfaden für bessere Flashcards](/de/blog/how-to-make-better-flashcards/) behandelt das Schreiben der Karten genauer. Abruf ist der Versuch zu antworten; die Wiederholungsplanung legt fest, wann du es erneut versuchst.
 
 ### 5. Lass FSRS die nächsten Wiederholungen der Karten planen, die du behalten willst
 
@@ -187,7 +185,7 @@ Flashcards für gemischtes Üben sollten von dir mindestens eines davon verlange
 
 Hier ergänzen sich **Interleaving und Active Recall**. Active Recall sorgt für den Abrufversuch. Interleaving nimmt dir die Sicherheit, schon zu wissen, welche Art von Abruf als Nächstes kommt.
 
-Übungstests bleiben wichtig, wenn die eigentliche Aufgabe größer als eine Karte ist. Nutze gemischte Fragen für mehrstufige Aufgaben, das Arbeiten unter Zeitvorgabe und Transfer. Nutze Flashcards, um die kleinen Regeln und Unterscheidungen zu behalten, die diese Fragen sichtbar machen. [Flashcards vs. Übungstests](/de/blog/flashcards-vs-practice-tests/) geht genauer auf dieses Zusammenspiel ein.
+Übungstests bleiben wichtig, wenn die eigentliche Aufgabe größer als eine Karte ist. Nutze gemischte Fragen für mehrstufige Aufgaben, das Arbeiten unter Zeitvorgabe und Transfer. Nutze Flashcards, um die kleinen Regeln und Unterscheidungen zu behalten, die diese Fragen sichtbar machen.
 
 ## Häufige Fehler beim Interleaving
 

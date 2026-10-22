@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1toefl-flashcards.md"
 title: "2026 में TOEFL Flashcards: Vocabulary, नए iBT Task Types और Practice-Test की गलतियाँ"
 description: "नए 2026 iBT के लिए TOEFL flashcards बनाएँ: vocabulary, sentence patterns, task types और official practice में हुई गलतियों के cards को FSRS से review करें—पुराने decks के भरोसे न रहें।"
 date: "2026-07-16"
@@ -158,7 +156,7 @@ Practice की गलती को card में तभी बदलिए ज
 
 पूरा official question और उसका rationale एक card पर copy मत कीजिए। जिस lesson की पुष्टि हो चुकी है, उसे अपने शब्दों में लिखिए। पूरा item practice material में रहने दीजिए और deck में सिर्फ़ छोटा memory target रखिए।
 
-[2026 में Practice Questions को Flashcards में कैसे बदलें](/hi/blog/how-to-turn-practice-questions-into-flashcards/) fact gaps, distinctions, sequences और trap-pattern cards को और विस्तार से समझाता है। [2026 में Flashcards vs Practice Tests](/hi/blog/flashcards-vs-practice-tests/) बताता है कि card और अगला fresh question अलग steps क्यों रहने चाहिए।
+Fact gaps, distinctions, sequences और trap patterns के लिए छोटे cards बनाएँ। Card review और अगला fresh question अलग steps रखें, ताकि याद की हुई बात को नए सवाल में लागू करके भी जाँच सकें।
 
 ## पुरानी TOEFL deck review करने से पहले audit करें
 
@@ -181,7 +179,7 @@ Deck में सबसे पहले ये चीज़ें search की
 
 इसके बाद बचे हुए task tags को ETS के मौजूदा 12 task names से मिलाइए। हर format-specific card के साथ ETS का मौजूदा official source रखिए। Additional metadata के रूप में `verified-2026` tag और जाँचने की date भी जोड़ सकते हैं। यहाँ dates मायने रखती हैं, क्योंकि ETS exam को update कर सकता है। Stable vocabulary के साथ ऐसा करना ज़रूरी नहीं।
 
-अगर deck बड़ी है, तो [2026 में Flashcard Deck को कैसे Prune करें](/hi/blog/how-to-prune-a-flashcard-deck/) cards हटाने और दोबारा लिखने का practical workflow देता है।
+अगर deck बड़ी है, तो नए cards जोड़ने से पहले duplicates हटाएँ और broad cards को दोबारा लिखें।
 
 ## Spaced repetition को याद बनाए रखने के लिए इस्तेमाल करें, test simulation के लिए नहीं
 

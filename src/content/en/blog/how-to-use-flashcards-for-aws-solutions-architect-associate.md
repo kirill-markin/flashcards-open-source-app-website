@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1en~1blog~1how-to-use-flashcards-for-aws-solutions-architect-associate.md"
 title: "How to Use Flashcards for AWS Solutions Architect Associate in 2026: SAA-C03 Services, Trade-Offs, and Practice-Test Misses That Actually Stick"
 description: "Preparing for AWS Certified Solutions Architect - Associate (SAA-C03) in 2026? Here is a practical flashcards workflow for AWS services, architecture trade-offs, Well-Architected patterns, and practice-exam misses using AI drafting plus FSRS review."
 date: "2026-05-11"
@@ -61,7 +59,7 @@ I would treat the exam guide as a boundary, not as a transcription project. Add 
 
 Skip cards that only prove you visited an AWS page once.
 
-The same general rule applies across certification prep. If you want the broader multi-certification version, [How to Use Flashcards for AI Certifications in 2026](https://nibomo.com/blog/how-to-use-flashcards-for-ai-certifications/) makes a similar point from a different angle.
+The same general rule applies across certification prep.
 
 ## The best SAA-C03 cards are about choices, not definitions
 
@@ -181,7 +179,7 @@ Useful tags might be:
 - `missed`
 - `needs-recheck`
 
-That structure stays calm while still letting you pull focused subsets before a study block. If you want the organization side in more detail, [How to Organize Flashcards in 2026](https://nibomo.com/blog/how-to-organize-flashcards/) is the right companion piece.
+That structure stays calm while still letting you pull focused subsets before a study block.
 
 ## Use AI to draft cards from reasoning, then edit them hard
 
@@ -261,6 +259,6 @@ I would start with:
 
 That is the deck that actually changes your score.
 
-And if your current cards still feel too broad, [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) is the better next read because SAA-C03 decks usually improve fastest when the raw material comes from misses instead of summaries.
+If your current cards still feel too broad, turn each practice miss into one decision or distinction worth remembering, rather than putting an entire summary on the back.
 
 For SAA-C03, the clean version is simple: study the official domains, mine practice misses aggressively, make smaller trade-off cards than you think you need, and let FSRS handle the review timing. That is usually enough to make the right AWS answer show up faster when the scenario wording gets slippery.

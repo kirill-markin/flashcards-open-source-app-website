@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-use-flashcards-for-language-learning.md"
 title: "2026年版: 語学学習にフラッシュカードを使う方法 単語・例文・復習を本当に定着させる"
 description: "死んだ単語リストを暗記するだけで終わらせず、2026年に語学学習でフラッシュカードを使いたい人向けの実践的な方法です。単語、例文カード、復習量、FSRS による間隔反復を組み合わせて、実際に定着する学び方にします。"
 date: "2026-04-04"
@@ -212,7 +210,6 @@ keywords:
 元資料がノート、文字起こし、チャットの出力から始まるなら、その前段ではこちらも参考になります。
 
 - [2026年にChatGPTでフラッシュカードを作る方法: プロンプトを整え、カードを磨き、FSRSで復習を回す](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [2026年版 音声メモをフラッシュカードに変える方法: 全文を書き直さず、文字起こしからFSRSカードを作る](https://nibomo.com/blog/how-to-turn-voice-notes-into-flashcards/)
 - [2026年版 YouTube動画をフラッシュカードに変える方法: 講義・チュートリアル・語学動画をAIで下書きする](https://nibomo.com/blog/youtube-to-flashcards/)
 
 ## 漠然とした語学力向上ではなく、現実の目的を軸に作る

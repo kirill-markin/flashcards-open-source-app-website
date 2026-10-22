@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1toefl-flashcards.md"
 title: "2026年版 TOEFL単語カード: 新iBTの語彙・12タスク・公式演習のミスを復習"
 description: "2026年の新TOEFL iBT向けフラッシュカードの作り方。古いデッキに頼らず、語彙、英文パターン、現行12タスク、ETS公式演習で確認したミスをFSRSで復習します。"
 date: "2026-07-16"
@@ -158,7 +156,7 @@ Speakingの型は、丸暗記用の台本にしないでください。ETSも[TO
 
 公式問題と解説を丸ごと1枚のカードへコピーしないでください。確認済みの教訓を自分の言葉で書きます。問題全体は練習教材に残し、デッキには短い復習ポイントだけを入れてください。
 
-[2026年版 演習問題をフラッシュカードに変える方法](/ja/blog/how-to-turn-practice-questions-into-flashcards/)では、知識の穴、区別、順序、引っかけパターンのカードをさらに詳しく扱っています。[2026年版 フラッシュカードと模擬試験の違い](/ja/blog/flashcards-vs-practice-tests/)では、カードと次の新しい問題を別々の手順にする理由を説明しています。
+知識の穴、区別、順序、引っかけパターンは、小さなカードに分けて扱います。カードの復習と次の新しい問題は別々の手順にして、思い出した知識を応用できるかも確かめましょう。
 
 ## 古いTOEFLデッキは復習前に点検する
 

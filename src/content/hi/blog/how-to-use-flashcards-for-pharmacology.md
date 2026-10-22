@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-use-flashcards-for-pharmacology.md"
 title: "2026 में Pharmacology के लिए Flashcards कैसे इस्तेमाल करें: Drug Classes, Side Effects और वे Medication Confusions जो सच में टिकें"
 description: "2026 में pharmacology flashcards के लिए practical workflow चाहिए? यहाँ drug classes, mechanisms, adverse effects, contraindications और common medication mix-ups को FSRS के साथ पढ़ने का तरीका है, बिना हर drug को paragraph card बनाए।"
 date: "2026-06-29"
@@ -211,8 +209,6 @@ Pharmacology में यह खास तौर पर सच है, क्�
 - यह class problem थी, mechanism problem, या confusion problem?
 - सबसे छोटा कौन-सा card अगले हफ्ते यही miss दोबारा होने से रोक सकता है?
 
-अगर आपके सबसे अच्छे cards notes के बजाय questions से आ रहे हों, तो [2026 में अभ्यास प्रश्नों से फ्लैशकार्ड कैसे बनाएँ](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) इसका सीधा अगला article है।
-
 ## Pharmacology को heroic cramming से ज़्यादा revisitation की ज़रूरत होती है
 
 यह हिस्सा कम glamorous है, लेकिन ज़्यादा टिकाऊ है।
@@ -252,10 +248,9 @@ Pharmacology flashcards class structure, mechanisms, adverse effects, contraindi
 
 यही वह तरीका है जिससे आप सच में **drug names और side effects याद करना** सीखते हैं, बिना deck को दूसरा pharmacology textbook बनाए।
 
-अगर आपकी queue पहले ही ज़रूरत से भारी होने लगी है, तो ये दो articles आम तौर पर अगली दिक्कत सुलझाते हैं:
+अगर आपकी queue पहले ही ज़रूरत से भारी होने लगी है, तो यह article अगली दिक्कत सुलझाने में मदद करेगा:
 
 - [2026 में रोज़ कितने नए फ्लैशकार्ड?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
-- [2026 में फ्लैशकार्ड तेज़ी से review कैसे करें](https://nibomo.com/blog/how-to-review-flashcards-faster/)
 
 ## इस workflow में Nibomo कहाँ fit बैठता है
 

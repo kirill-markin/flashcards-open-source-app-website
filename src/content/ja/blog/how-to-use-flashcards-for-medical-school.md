@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-use-flashcards-for-medical-school.md"
 title: "2026年版 医学生のためのフラッシュカード活用法: 解剖学・薬理学・病理学・定着する間隔反復"
 description: "2026年に医学生向けフラッシュカードを実践的に使いたいなら、解剖学、薬理学、病理学、講義スライド、問題演習、FSRSをどう扱うかが重要です。デッキを第二のカリキュラムにしないための進め方をまとめました。"
 date: "2026-04-15"
@@ -140,7 +138,6 @@ keywords:
 もとの資料がノートや長い配布資料中心なら、前段の作業にはこちらの記事が合います。
 
 - [2026年版 ノートをフラッシュカードに変える方法](https://nibomo.com/blog/turn-notes-into-flashcards/)
-- [2026年版 PDFをフラッシュカードに変える方法](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## 問題演習で落とした点が、デッキ後半の形を決めるべき
 
@@ -158,10 +155,6 @@ keywords:
 - 管理手順の次の一手を忘れる
 
 こうすると、講義で強調されたことだけではなく、実際に自分が落とした点に合わせたデッキになります。デッキの役割はやる気を出させることではありません。同じ失点を繰り返さないようにすることです。
-
-この部分を特に強化したいなら、直接つながる記事はこちらです。
-
-- [2026年版 演習問題をフラッシュカードに変える方法](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## 医学部向けフラッシュカードの週間運用は、たいてい意図的につまらない
 
