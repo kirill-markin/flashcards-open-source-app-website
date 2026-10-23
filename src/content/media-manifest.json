@@ -1006,6 +1006,21 @@
     }
   },
   {
+    "publicPath": "/blog/find-size.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/940b13cda358b0b8d2efd404dba16f6405a4c472c3553260aaba2f90bfc2679f.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "940b13cda358b0b8d2efd404dba16f6405a4c472c3553260aaba2f90bfc2679f",
+    "bytes": 214650,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/d524c42660053389ec69d10018ac14a1373588ef3843fbb581d80d23c1f1fdf6.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "d524c42660053389ec69d10018ac14a1373588ef3843fbb581d80d23c1f1fdf6",
+      "bytes": 2653487
+    }
+  },
+  {
     "publicPath": "/blog/flashcard-lab-review.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/c81a20b091aa5795138e58f9fdeb50591b0a685ca1a110cf27bd95f1ee3ab570.png",
     "width": 1200,
