@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-turn-google-docs-into-flashcards.md"
 title: "2026 में Google Docs को Flashcards में कैसे बदलें: बिखरे shared docs से साफ़ FSRS cards तक"
 description: "2026 में Google Docs की बिखरी study material को काम के flashcards में बदलें: एक-एक heading साफ़ करें, comments और suggestions को समझदारी से इस्तेमाल करें, कमज़ोर AI cards हटाएँ, फिर बचे हुए cards को FSRS के साथ review करें।"
 image: "/blog/how-to-turn-google-docs-into-flashcards.png"
@@ -35,7 +33,7 @@ Google Docs सिर्फ़ "cloud में notes" नहीं है। �
 - एक running notes file जिसमें हर lecture की headings होती हैं
 - एक doc जिसमें comments भरे होते हैं जैसे "Do we need to know this?"
 
-इसलिए यह topic [How to Turn Notes Into Flashcards](/blog/turn-notes-into-flashcards/) और [How to Turn a Study Guide Into Flashcards](/blog/how-to-turn-a-study-guide-into-flashcards/) दोनों से जुड़ता है। फर्क collaborative mess का है। Google Docs आपको live edits, comments, suggestion mode, headings, और पाँच अलग दिमागों से आए copied fragments देता है। material इकट्ठा करने के लिए अच्छा। ज्यों का त्यों याद करने के लिए खराब।
+इसलिए यह topic [How to Turn Notes Into Flashcards](/blog/turn-notes-into-flashcards/) से जुड़ता है। फर्क collaborative mess का है। Google Docs आपको live edits, comments, suggestion mode, headings, और पाँच अलग दिमागों से आए copied fragments देता है। material इकट्ठा करने के लिए अच्छा। ज्यों का त्यों याद करने के लिए खराब।
 
 ## किसी जादुई Google Docs sync का इंतज़ार मत कीजिए
 
@@ -167,7 +165,7 @@ AI यह सब पढ़कर ठीक ही समझती है कि 
 
 इसीलिए मैं हर बार hard deletion pass करूँगा। सबसे साफ़ version रखिए। जहाँ ज़रूरत हो merge कीजिए। ऐसी हर चीज़ हटाइए जो सिर्फ़ इसलिए useful लग रही हो क्योंकि आपने उसे document में तीन बार देखा।
 
-अगर यही पहले से pain point है, तो [How to Avoid AI Flashcard Overload](/blog/how-to-avoid-ai-flashcard-overload/) उसका companion piece है। Google Docs deck को खराब महसूस कराने का सबसे तेज़ तरीका है हर draft card को सिर्फ़ इसलिए रख लेना क्योंकि source comprehensive लग रही थी।
+Google Docs deck को खराब महसूस कराने का सबसे तेज़ तरीका है हर draft card को सिर्फ़ इसलिए रख लेना क्योंकि source comprehensive लग रही थी।
 
 ## FSRS के सामने जाने से पहले weak AI cards काट दें
 

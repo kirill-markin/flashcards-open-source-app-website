@@ -13,8 +13,6 @@ keywords:
   - "when to review flashcards"
   - "daily flashcard reviews"
   - "flashcard review intervals"
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1en~1blog~1how-often-should-you-review-flashcards.md"
 ---
 
 At 7:40 on Monday morning, you open a 600-card deck before work and find 23 cards due. **How often should you review flashcards?** Check the due queue daily when practical, but do not review every card every day. Review the 23 cards that are due, then stop. Let each card’s next interval expand or contract from how well you actually recalled it.
@@ -129,7 +127,7 @@ A large backlog needs a different workload plan:
 - rewrite or remove cards that keep wasting time
 - keep ratings honest even when progress feels slow
 
-The scheduler can adapt after late reviews, but it cannot make an hour of overdue work fit into ten minutes. Nor can it guarantee that every forgotten card will recover on the same timeline. If several missed days have turned into a wall of reviews, use the dedicated [flashcard backlog recovery plan](/blog/how-to-catch-up-on-flashcards-after-falling-behind/) rather than trying to clear everything in one night.
+The scheduler can adapt after late reviews, but it cannot make an hour of overdue work fit into ten minutes. Nor can it guarantee that every forgotten card will recover on the same timeline. If several missed days have turned into a wall of reviews, follow the workload plan above rather than trying to clear everything in one night.
 
 ## An exam deadline changes the planning
 

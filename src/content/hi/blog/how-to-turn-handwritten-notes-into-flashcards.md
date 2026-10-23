@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-turn-handwritten-notes-into-flashcards.md"
 title: "2026 में Handwritten Notes को Flashcards में कैसे बदलें: Photos, OCR, और AI Drafting के साथ, सब कुछ दोबारा लिखे बिना"
 description: "क्या आप 2026 में handwritten notes को flashcards में बदलना चाहते हैं? यहाँ एक व्यावहारिक workflow है: notes की photos upload करें, AI से text साफ़ करवाएँ और cards draft करवाएँ, फिर final set को FSRS के साथ पढ़ें।"
 date: "2026-03-27"
@@ -162,11 +160,9 @@ notebook photo आम तौर पर ज़्यादा personal, ज़्
 
 अगर आपका source पहले से साफ़ text है, तो यह companion piece बेहतर match है:
 
-- [2026 में Notes को Flashcards में कैसे बदलें](https://nibomo.com/blog/turn-notes-into-flashcards/)
+- [2026 में Notes को Flashcards में कैसे बदलें](/hi/blog/turn-notes-into-flashcards/)
 
-और अगर source document या lecture slides है, तो यह ज़्यादा क़रीब है:
-
-- [2026 में PDF को Flashcards में कैसे बदलें](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
+Document या lecture slides के लिए page numbers और diagrams का context बनाए रखें, ताकि हर card को original से जाँचा जा सके।
 
 ## इस workflow में Nibomo कहाँ फिट बैठता है
 

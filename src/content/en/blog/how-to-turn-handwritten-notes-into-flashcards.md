@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1en~1blog~1how-to-turn-handwritten-notes-into-flashcards.md"
 title: "How to Turn Handwritten Notes Into Flashcards in 2026: Photos, OCR, and AI Drafting Without Rewriting Everything"
 description: "Want to turn handwritten notes into flashcards in 2026? Here is a practical workflow: upload note photos, let AI clean the text and draft cards, then study the final set with FSRS."
 date: "2026-03-27"
@@ -162,11 +160,9 @@ So I would not treat **flashcards from notes photos** as the same query as the t
 
 If your source is already clean text, this companion piece is the better match:
 
-- [How to Turn Notes Into Flashcards in 2026](https://nibomo.com/blog/turn-notes-into-flashcards/)
+- [How to Turn Notes Into Flashcards in 2026](/blog/turn-notes-into-flashcards/)
 
-And if your source is a document or lecture slides, this one is closer:
-
-- [How to Turn a PDF Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
+For a document or lecture slides, keep page numbers and diagram context so you can check each card against the original.
 
 ## Where Nibomo fits this workflow
 

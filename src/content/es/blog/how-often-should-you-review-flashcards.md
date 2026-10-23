@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-often-should-you-review-flashcards.md"
 title: "¿Cada cuánto debes repasar flashcards? Deja que FSRS fije el calendario"
 description: "Consulta a diario las tarjetas pendientes, no todas. Descubre cómo FSRS adapta los intervalos a lo que recuerdas, la retención deseada y una carga sostenible."
 date: "2026-07-19"
@@ -95,9 +93,9 @@ Una sesión útil tiene cinco partes:
 
 Ese cuarto paso decide si el calendario conserva información útil o se convierte en puro teatro. Pulsar Hard después de fallar porque Again hace volver la tarjeta demasiado pronto registra un acierto que no ocurrió. Pulsar Easy para quitarte de encima una tarjeta molesta causa el mismo daño en la dirección contraria.
 
-Tampoco necesitas ir con prisas. Un repaso tranquilo y concentrado suele ser más rápido que comprobar dos veces cada respuesta y negociar con cada botón. Si la cola suele ocupar más tiempo del que tienes, la [guía para repasar flashcards más rápido](/blog/how-to-review-flashcards-faster/) explica con más detalle cómo limpiar las tarjetas y reducir la fricción de la sesión.
+Tampoco necesitas ir con prisas. Un repaso tranquilo y concentrado suele ser más rápido que comprobar dos veces cada respuesta y negociar con cada botón. Si la cola suele ocupar más tiempo del que tienes, simplifica las preguntas que te frenan y elimina las tarjetas que ya no necesitas.
 
-El repaso debe usar recuperación activa. Leer el anverso y pensar «sí, esto me lo sé» es reconocimiento, no un intento de recuperar la respuesta. La diferencia entre el planificador y el trabajo mental se explica en [recuperación activa frente a repetición espaciada](/blog/active-recall-vs-spaced-repetition/).
+El repaso debe usar recuperación activa. Leer el anverso y pensar «sí, esto me lo sé» es reconocimiento, no un intento de recuperar la respuesta. El planificador decide cuándo repasar; tú debes formular una respuesta antes de mostrarla.
 
 ## ¿Qué debes hacer cuando no hay nada pendiente?
 
@@ -129,7 +127,7 @@ Una gran acumulación exige otro plan de carga de trabajo:
 - reescribe o elimina las tarjetas que no hacen más que hacerte perder tiempo
 - mantén valoraciones sinceras aunque el progreso parezca lento
 
-El planificador puede adaptarse después de repasos hechos con retraso, pero no puede hacer que una hora de repasos atrasados quepa en diez minutos. Tampoco puede garantizar que todas las tarjetas olvidadas se recuperen en el mismo plazo. Si varios días sin repasar se han convertido en un muro de repasos, usa el [plan específico para ponerte al día con tus flashcards](/blog/how-to-catch-up-on-flashcards-after-falling-behind/) en lugar de intentar acabar con todo en una noche.
+El planificador puede adaptarse después de repasos hechos con retraso, pero no puede hacer que una hora de repasos atrasados quepa en diez minutos. Tampoco puede garantizar que todas las tarjetas olvidadas se recuperen en el mismo plazo. Si varios días sin repasar se han convertido en un muro de repasos, sigue el plan de carga de trabajo anterior en lugar de intentar acabar con todo en una noche.
 
 ## La fecha de un examen cambia la planificación
 

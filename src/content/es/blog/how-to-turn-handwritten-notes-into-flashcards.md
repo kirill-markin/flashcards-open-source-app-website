@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-turn-handwritten-notes-into-flashcards.md"
 title: >-
   Cómo convertir notas escritas a mano en tarjetas didácticas en 2026:
   fotografías, OCR y redacción con IA sin reescribirlo todo
@@ -167,11 +165,9 @@ Por eso yo no trataría **flashcards a partir de fotos de apuntes** como la mism
 
 Si tu fuente ya es texto limpio, este artículo complementario encaja mejor:
 
-- [Cómo convertir notas en tarjetas didácticas en 2026](https://nibomo.com/blog/turn-notes-into-flashcards/)
+- [Cómo convertir notas en tarjetas didácticas en 2026](/es/blog/turn-notes-into-flashcards/)
 
-Y si tu fuente es un documento o unas diapositivas, este se parece más a lo que necesitas:
-
-- [Cómo convertir un PDF en tarjetas didácticas en 2026](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
+Si trabajas con un documento o unas diapositivas, conserva los números de página y el contexto de los diagramas para poder comprobar cada tarjeta en el original.
 
 ## Dónde encaja Nibomo en este flujo
 

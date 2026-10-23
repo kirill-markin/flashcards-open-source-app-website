@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-turn-google-docs-into-flashcards.md"
 title: "Wie du 2026 Google Docs in Flashcards verwandelst: Aus gemeinsamen Lernzetteln werden saubere FSRS-Karten"
 description: "Verwandle 2026 chaotische Google Docs in brauchbare Flashcards: Abschnitt für Abschnitt bereinigen, Kommentare und Vorschläge gezielt nutzen, schwache KI-Karten streichen und den Rest mit FSRS lernen."
 image: "/blog/how-to-turn-google-docs-into-flashcards.png"
@@ -35,7 +33,7 @@ Google Docs ist nicht einfach nur "Notizen in der Cloud". Es ist meistens der Or
 - eine laufende Datei mit Überschriften für jede Vorlesung
 - ein Doc voller Kommentare wie "Do we need to know this?"
 
-Darum überschneidet sich das Thema mit [Wie du Notizen in Flashcards verwandelst](/blog/turn-notes-into-flashcards/) und [Wie du einen Lernzettel in Flashcards verwandelst](/blog/how-to-turn-a-study-guide-into-flashcards/). Der Unterschied ist das kollaborative Chaos. Google Docs bringt Live-Bearbeitungen, Kommentare, Vorschlagsmodus, Überschriften und hineinkopierte Fragmente aus fünf verschiedenen Köpfen mit. Gut zum Sammeln von Material. Im Rohzustand schlecht zum Auswendiglernen.
+Darum überschneidet sich das Thema mit [Wie du Notizen in Flashcards verwandelst](/blog/turn-notes-into-flashcards/). Der Unterschied ist das kollaborative Chaos. Google Docs bringt Live-Bearbeitungen, Kommentare, Vorschlagsmodus, Überschriften und hineinkopierte Fragmente aus fünf verschiedenen Köpfen mit. Gut zum Sammeln von Material. Im Rohzustand schlecht zum Auswendiglernen.
 
 ## Warte nicht auf eine magische Google Docs Synchronisierung
 
@@ -167,7 +165,7 @@ Dann entwirft sie vier Karten.
 
 Deshalb würde ich jedes Mal konsequent löschen. Behalte die sauberste Version. Führe Karten zusammen, wenn es nötig ist. Streiche alles, was nur deshalb nützlich wirkt, weil du es dreimal im Dokument gesehen hast.
 
-Wenn das schon ein Schmerzpunkt ist, ist [Wie du KI-Flashcard-Überladung vermeidest](/blog/how-to-avoid-ai-flashcard-overload/) der passende Begleitartikel. Der schnellste Weg, ein Google-Docs-Deck unangenehm werden zu lassen, ist, jede Entwurfskarte zu akzeptieren, nur weil die Quelle umfassend aussah.
+Der schnellste Weg, ein Google-Docs-Deck unangenehm werden zu lassen, ist, jede Entwurfskarte zu akzeptieren, nur weil die Quelle umfassend aussah.
 
 ## Streiche schwache KI-Karten, bevor FSRS sie überhaupt sieht
 

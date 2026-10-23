@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-turn-handwritten-notes-into-flashcards.md"
 title: "2026 年如何把手写笔记做成抽认卡：用照片、OCR 和 AI 起草，不必重写整本笔记"
 description: "想在 2026 年把手写笔记做成抽认卡？这里有一套实用流程：上传笔记照片，让 AI 清理文字并起草卡片，再用 FSRS 复习最终保留下来的内容。"
 date: "2026-03-27"
@@ -162,11 +160,9 @@ PDF 通常一开始就更完整、更规整。
 
 如果你的原始材料已经是干净文本，这篇配套文章会更适合你：
 
-- [2026 年如何把笔记做成抽认卡](https://nibomo.com/blog/turn-notes-into-flashcards/)
+- [2026 年如何把笔记做成抽认卡](/zh/blog/turn-notes-into-flashcards/)
 
-如果你的来源是文档或课件，这篇更接近：
-
-- [2026 年如何把 PDF 做成抽认卡](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
+处理文档或课件时，保留页码和图示的上下文，方便对照原文核查每张卡片。
 
 ## Nibomo 在这套流程里适合做什么
 

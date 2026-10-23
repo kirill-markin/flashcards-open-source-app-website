@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-turn-google-docs-into-flashcards.md"
 title: "2026 年如何把 Google Docs 变成闪卡：把共享文档整理成适合 FSRS 的卡片"
 description: "在 2026 年把杂乱的 Google Docs 整理成真正能复习的闪卡：按标题逐段清理，谨慎处理评论和建议，删掉质量差的 AI 卡片，再用 FSRS 复习留下来的内容。"
 image: "/blog/how-to-turn-google-docs-into-flashcards.png"
@@ -35,7 +33,7 @@ Google Docs 不只是“云端笔记”。它通常就是原始课堂材料被�
 - 按每节课标题持续累积的一份课堂笔记
 - 一份到处写着“这个要考吗？”的文档
 
-所以这个主题和 [如何把笔记变成闪卡](/blog/turn-notes-into-flashcards/) 以及 [如何把学习指南变成闪卡](/blog/how-to-turn-a-study-guide-into-flashcards/) 都有重叠。区别在于协作带来的混乱。Google Docs 里有实时编辑、评论、建议模式、标题层级，以及五个人各自带着不同思路复制进来的碎片。拿来收集材料很好，原样拿来记忆就不太行。
+所以这个主题和 [如何把笔记变成闪卡](/blog/turn-notes-into-flashcards/) 有重叠。区别在于协作带来的混乱。Google Docs 里有实时编辑、评论、建议模式、标题层级，以及五个人各自带着不同思路复制进来的碎片。拿来收集材料很好，原样拿来记忆就不太行。
 
 ## 不要等一个神奇的 Google Docs 同步功能
 
@@ -167,7 +165,7 @@ AI 看到这些内容后，会很合理地判断：这个概念很重要。
 
 所以我每次都会做一轮很狠的删除。保留最干净的版本。需要时合并。凡是只是因为在文档里出现了三次才显得重要的内容，直接删掉。
 
-如果你已经被这个问题困住，[如何避免 AI 闪卡过载](/blog/how-to-avoid-ai-flashcard-overload/) 正好是配套文章。最容易让一套 Google Docs 卡组变难用的方法，就是因为源文档看起来很全面，于是把所有草稿卡都收下。
+最容易让一套 Google Docs 卡组变难用的方法，就是因为源文档看起来很全面，于是把所有草稿卡都收下。
 
 ## 在 FSRS 看到这些卡之前，先删掉质量差的 AI 卡片
 

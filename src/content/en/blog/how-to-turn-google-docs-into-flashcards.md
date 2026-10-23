@@ -12,8 +12,6 @@ keywords:
   - "ai flashcards from notes"
   - "study guide to flashcards"
   - "fsrs flashcards"
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1en~1blog~1how-to-turn-google-docs-into-flashcards.md"
 ---
 
 Yesterday I opened a shared Google Doc called "Exam 3 Study Guide" and found the usual mess: suggestion-mode edits still hanging around, three comments saying "Do we need this?", one heading called "IMPORTANT", and a sentence that started as chemistry notes and ended as teammate negotiation. Useful study doc. Terrible flashcard draft.
