@@ -177,4 +177,6 @@ Keep the worked rankings on paper. If you missed a question, choose a short revi
 
 Nibomo's [periodic-trends flashcards](/catalog/packages/periodic-trends-flashcards/) include isoelectronic comparisons alongside atomic and ionic radius, shielding, and other trends. Use the deck for concise recall practice and this worksheet for showing the counting and grouping steps.
 
+For focused practice, the [isoelectronic ion flashcards](/catalog/packages/isoelectronic-ion-radius-flashcards/) cover electron counts, grouping [Ne] and [Ar] ions, and qualitative radius rankings within each series. They also ask you to work backward from electron and proton counts to charge and spot comparisons the isoelectronic rule cannot justify.
+
 On your next attempt, cover both the reference and answer key. Write electron and proton counts beside every ion, then read the final line as “smaller than” or “larger than.” Changing the requested order should change where you write the smallest ion, not which ion it is.
