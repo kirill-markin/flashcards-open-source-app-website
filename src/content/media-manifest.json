@@ -1108,6 +1108,21 @@
     }
   },
   {
+    "publicPath": "/blog/gerund-vs-infinitive-meaning-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/d99925b9b8997c600982acb86a1172353e835a00703e1aec8ef93aa2352f0cdc.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "d99925b9b8997c600982acb86a1172353e835a00703e1aec8ef93aa2352f0cdc",
+    "bytes": 302454,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/edda052216fb0a3176cdd337e745fbf99d97eaa1c92680a7ece9eeedcb6558cc.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "edda052216fb0a3176cdd337e745fbf99d97eaa1c92680a7ece9eeedcb6558cc",
+      "bytes": 2883315
+    }
+  },
+  {
     "publicPath": "/blog/git-reset-restore-revert-practice.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/bebe7d9b53b76f2fa3fd921e86c45988004d8cbf78f8fc61a4836cae4c7ead9d.webp",
     "width": 1672,
