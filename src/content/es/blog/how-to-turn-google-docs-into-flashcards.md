@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-turn-google-docs-into-flashcards.md"
 title: "Cómo convertir Google Docs en tarjetas didácticas en 2026: limpia documentos compartidos y conviértelos en tarjetas con FSRS"
 description: "Convierte Google Docs desordenados en tarjetas didácticas útiles en 2026: limpia una sección cada vez, aprovecha comentarios y sugerencias, elimina las tarjetas flojas de IA y repasa las buenas con FSRS."
 image: "/blog/how-to-turn-google-docs-into-flashcards.png"
@@ -35,7 +33,7 @@ Google Docs no es solo "apuntes en la nube". Suele ser el lugar donde el materia
 - un archivo de apuntes en marcha con encabezados para cada lección
 - un documento lleno de comentarios como "Do we need to know this?"
 
-Por eso este tema se cruza tanto con [Cómo convertir apuntes en tarjetas didácticas](/blog/turn-notes-into-flashcards/) como con [Cómo convertir una guía de estudio en tarjetas didácticas](/blog/how-to-turn-a-study-guide-into-flashcards/). La diferencia es el desorden colaborativo. Google Docs te da ediciones en vivo, comentarios, modo sugerencias, encabezados y fragmentos copiados desde cinco cerebros distintos. Muy bueno para reunir material. Malo, tal como está, para memorizar.
+Por eso este tema se cruza con [Cómo convertir apuntes en tarjetas didácticas](/blog/turn-notes-into-flashcards/). La diferencia es el desorden colaborativo. Google Docs te da ediciones en vivo, comentarios, modo sugerencias, encabezados y fragmentos copiados desde cinco cerebros distintos. Muy bueno para reunir material. Malo, tal como está, para memorizar.
 
 ## No esperes una sincronización mágica con Google Docs
 
@@ -167,7 +165,7 @@ Luego redacta cuatro tarjetas.
 
 Por eso yo haría siempre una pasada dura de eliminación. Quédate con la versión más limpia. Fusiona cuando haga falta. Borra cualquier cosa que solo parezca útil porque la viste tres veces en el documento.
 
-Si este ya es un problema para ti, [Cómo evitar la sobrecarga de tarjetas didácticas con IA](/blog/how-to-avoid-ai-flashcard-overload/) es el artículo complementario. La forma más rápida de hacer que un mazo nacido en Google Docs se sienta mal es aceptar cada borrador solo porque el material de origen parecía completo.
+La forma más rápida de hacer que un mazo nacido en Google Docs se sienta mal es aceptar cada borrador solo porque el material de origen parecía completo.
 
 ## Corta las malas tarjetas de IA antes de que FSRS llegue a verlas
 

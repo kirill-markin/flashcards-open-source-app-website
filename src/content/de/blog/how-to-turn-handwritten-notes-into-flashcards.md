@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-turn-handwritten-notes-into-flashcards.md"
 title: "Wie du 2026 handschriftliche Notizen in Flashcards verwandelst: mit Fotos, OCR und KI-Entwürfen statt alles neu abzuschreiben"
 description: "Du willst 2026 handschriftliche Notizen in Flashcards verwandeln? Hier ist ein praktischer Workflow: Notizfotos hochladen, den Text mit KI bereinigen lassen, Karten entwerfen und das fertige Set mit FSRS lernen."
 date: "2026-03-27"
@@ -162,11 +160,9 @@ Darum würde ich **Notizfotos in Flashcards** nicht als dieselbe Suchanfrage beh
 
 Wenn deine Quelle bereits sauberer Text ist, passt dieser Begleitartikel besser:
 
-- [Wie du 2026 Notizen in Flashcards verwandelst: KI-Entwürfe mit FSRS statt manuellem Kopieren und Einfügen](https://nibomo.com/blog/turn-notes-into-flashcards/)
+- [Wie du 2026 Notizen in Flashcards verwandelst: KI-Entwürfe mit FSRS statt manuellem Kopieren und Einfügen](/de/blog/turn-notes-into-flashcards/)
 
-Und wenn deine Quelle ein Dokument oder Vorlesungsfolien sind, ist dieser Artikel näher dran:
-
-- [Wie du 2026 eine PDF in Flashcards verwandelst: Vorlesungsfolien, Lehrbücher und Papers zu FSRS-Karten](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
+Bewahre bei Dokumenten oder Vorlesungsfolien die Seitenzahlen und den Kontext von Abbildungen, damit du jede Karte am Original prüfen kannst.
 
 ## Wo Nibomo in diesen Workflow passt
 

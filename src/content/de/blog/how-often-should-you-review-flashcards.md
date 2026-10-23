@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-often-should-you-review-flashcards.md"
 title: "Wie oft Flashcards wiederholen? Lass FSRS die Termine planen"
 description: "Prüfe täglich die fälligen Karten – nicht jeden Tag alle. FSRS passt Intervalle an deinen Abruf, die Desired Retention und eine tragbare Wiederholungslast an."
 date: "2026-07-19"
@@ -95,9 +93,9 @@ Eine sinnvolle Sitzung besteht aus fünf Teilen:
 
 Im vierten Schritt entscheidet sich, ob dein Zeitplan aussagekräftig bleibt oder zum Theater wird. Wenn du nach einem fehlgeschlagenen Abruf Hard drückst, weil Again die Karte zu schnell zurückbringt, hältst du einen Erfolg fest, den es nicht gab. Easy zu drücken, damit eine lästige Karte verschwindet, richtet in der anderen Richtung denselben Schaden an.
 
-Du musst auch nicht rasen. Eine ruhige, konzentrierte Wiederholung ist meist schneller, als jede Antwort zweimal zu prüfen und mit jedem Button zu verhandeln. Wenn die Warteschlange regelmäßig mehr Zeit verschlingt, als du hast, erklärt der [Leitfaden für schnellere Flashcard-Wiederholungen](/blog/how-to-review-flashcards-faster/) ausführlicher, wie du Karten aufräumst und unnötige Reibung im Ablauf reduzierst.
+Du musst auch nicht rasen. Eine ruhige, konzentrierte Wiederholung ist meist schneller, als jede Antwort zweimal zu prüfen und mit jedem Button zu verhandeln. Wenn die Warteschlange regelmäßig mehr Zeit verschlingt, als du hast, vereinfache zeitraubende Fragen und entferne Karten, die du nicht mehr brauchst.
 
-Bei der Wiederholung selbst solltest du Active Recall einsetzen. Die Vorderseite zu lesen und zu denken „Ja, das weiß ich“ ist Wiedererkennen, kein Abrufversuch. Den Unterschied zwischen dem Planungssystem und der geistigen Arbeit erklärt der [Vergleich von Active Recall und Spaced Repetition](/blog/active-recall-vs-spaced-repetition/).
+Bei der Wiederholung selbst solltest du Active Recall einsetzen. Die Vorderseite zu lesen und zu denken „Ja, das weiß ich“ ist Wiedererkennen, kein Abrufversuch. Der Scheduler legt fest, wann du wiederholst; du musst trotzdem eine Antwort geben, bevor du sie aufdeckst.
 
 ## Was solltest du tun, wenn nichts fällig ist?
 
@@ -129,7 +127,7 @@ Bei einem großen Rückstand musst du die Arbeitslast anders planen:
 - schreibe Karten um oder entferne sie, wenn sie immer wieder Zeit verschwenden
 - bleibe bei ehrlichen Bewertungen, auch wenn sich der Fortschritt langsam anfühlt
 
-Der Scheduler kann sich nach verspäteten Wiederholungen anpassen. Er kann aber nicht eine Stunde Arbeit an überfälligen Karten in zehn Minuten unterbringen. Ebenso wenig kann er garantieren, dass sich jede vergessene Karte im selben Tempo wieder festigt. Wenn mehrere verpasste Tage zu einer Wand aus Wiederholungen geworden sind, nutze den eigens dafür vorgesehenen [Plan zum Aufholen eines Flashcard-Rückstands](/blog/how-to-catch-up-on-flashcards-after-falling-behind/), statt alles in einer Nacht abarbeiten zu wollen.
+Der Scheduler kann sich nach verspäteten Wiederholungen anpassen. Er kann aber nicht eine Stunde Arbeit an überfälligen Karten in zehn Minuten unterbringen. Ebenso wenig kann er garantieren, dass sich jede vergessene Karte im selben Tempo wieder festigt. Wenn mehrere verpasste Tage zu einer Wand aus Wiederholungen geworden sind, folge dem obigen Arbeitsplan, statt alles in einer Nacht abarbeiten zu wollen.
 
 ## Ein Prüfungstermin verändert die Planung
 

@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-turn-google-docs-into-flashcards.md"
 title: "2026年版 Google Docsをフラッシュカードにする方法: 共有ドキュメントを整えてFSRSカードに変える"
 description: "2026年に Google Docs をフラッシュカードにする現実的な手順です。見出し単位で整理し、コメントと提案を見極め、弱い AI カードを落としてから、残ったカードだけを FSRS で回します。"
 image: "/blog/how-to-turn-google-docs-into-flashcards.png"
@@ -35,7 +33,7 @@ Google Docs は、ただの「クラウド上のノート」ではありませ�
 - 講義ごとに見出しを立てたランニングノート
 - "Do we need to know this?" のようなコメントだらけの文書
 
-だからこの話題は、[ノートをフラッシュカードに変える方法](/blog/turn-notes-into-flashcards/) と [勉強ガイドをフラッシュカードに変える方法](/blog/how-to-turn-a-study-guide-into-flashcards/) の両方にまたがっています。違いは、共同編集ならではの散らかり方です。Google Docs にはリアルタイム編集、コメント、提案モード、見出し、そして 5 人分の頭から持ち込まれた断片が混ざります。素材を集めるには向いている。でも、そのまま暗記用には向きません。
+だからこの話題は、[ノートをフラッシュカードに変える方法](/blog/turn-notes-into-flashcards/) と重なります。違いは、共同編集ならではの散らかり方です。Google Docs にはリアルタイム編集、コメント、提案モード、見出し、そして 5 人分の頭から持ち込まれた断片が混ざります。素材を集めるには向いている。でも、そのまま暗記用には向きません。
 
 ## 魔法みたいな Google Docs 同期を待たない
 
@@ -167,7 +165,7 @@ AI はそれを読んで、「この概念は大事だ」と正しく判断し�
 
 だから私は毎回、かなり強めの削除パスを入れます。いちばんきれいな 1 枚だけ残す。必要なら統合する。ドキュメント内で 3 回見たから役立ちそうに感じるだけのものは落とす。
 
-もしここがすでに悩みどころなら、[AIフラッシュカード過多を避ける方法](/blog/how-to-avoid-ai-flashcard-overload/) が相方になります。Google Docs 由来のデッキを気持ちよくなくする最速の方法は、出典が網羅的に見えたからという理由で、下書きカードを全部受け入れることです。
+Google Docs 由来のデッキを使いにくくするのは、出典が網羅的に見えたからという理由で、下書きカードを全部受け入れることです。
 
 ## 弱い AI カードは、FSRS に触れさせる前に切る
 
