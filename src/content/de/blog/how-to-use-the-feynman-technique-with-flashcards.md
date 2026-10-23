@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-use-the-feynman-technique-with-flashcards.md"
 title: "So nutzt du die Feynman-Technik 2026 mit Flashcards: einfach erklären, dann FSRS die Wiederholung überlassen"
 description: "Nutze die Feynman-Technik 2026 mit Flashcards: Erkläre ein Thema in einfachen Worten, verwandle nur die Lücken in kleine Karten und lass FSRS die Wiederholung planen."
 image: "/blog/how-to-use-the-feynman-technique-with-flashcards.png"
@@ -63,11 +61,7 @@ Ein besseres Ziel für eine Erklärungsrunde ist meistens eher eines davon:
 
 Kleinere Themen erzeugen klarere Lücken. Klarere Lücken ergeben bessere Karten.
 
-Wenn das Ausgangsmaterial vor dem Erklärungsschritt noch zu unordentlich ist, starte lieber mit einem von diesen Artikeln:
-
-- [Wie du 2026 Notizen in Flashcards verwandelst](/de/blog/turn-notes-into-flashcards/)
-- [Wie du 2026 eine PDF in Flashcards verwandelst](/de/blog/how-to-turn-a-pdf-into-flashcards/)
-- [So merkst du dir 2026, was du liest](/de/blog/how-to-remember-what-you-read/)
+Wenn das Ausgangsmaterial vor dem Erklärungsschritt noch zu unordentlich ist, starte mit [Wie du 2026 Notizen in Flashcards verwandelst](/de/blog/turn-notes-into-flashcards/).
 
 ## So klingt eine gute Feynman-Erklärung
 
@@ -150,10 +144,7 @@ Das ist keine gute Flashcard. Das ist ein gespeicherter Vortrag.
 
 Wenn die Erklärung drei Schwachstellen gezeigt hat, mach drei Karten. Wenn sie einen hartnäckigen Unterschied gezeigt hat, mach eine Karte. Richte die Karte genau auf den Satz aus, bei dem deine Erklärung angefangen hat wegzudriften.
 
-Wenn du für diesen Schritt strengere Regeln fürs Kartenschreiben willst, sind diese beiden Artikel die besten nächsten Schritte:
-
-- [Was gehört 2026 auf eine Flashcard?](/de/blog/what-should-go-on-a-flashcard/)
-- [Wie du 2026 bessere Flashcards erstellst](/de/blog/how-to-make-better-flashcards/)
+Wenn du für diesen Schritt strengere Regeln fürs Kartenschreiben willst, lies [Wie du 2026 bessere Flashcards erstellst](/de/blog/how-to-make-better-flashcards/).
 
 ## Die besten Karten aus dieser Methode sehen meistens langweilig aus
 
@@ -281,10 +272,7 @@ Zum Beispiel:
 
 Das ist deutlich tragfähiger als eine riesige Sonntagssitzung, in der du versuchst, vier Kapitel zu beherrschen und fünfzig neue Karten zu erstellen.
 
-Wenn sich deine Warteschlange zu voll oder unübersichtlich anfühlt, würde ich als Nächstes diese beiden Artikel öffnen:
-
-- [Wie viele neue Flashcards pro Tag im Jahr 2026?](/de/blog/how-many-new-flashcards-per-day/)
-- [Wie du 2026 Flashcards schneller wiederholst](/de/blog/how-to-review-flashcards-faster/)
+Wenn sich deine Warteschlange zu voll anfühlt, hilft dir [Wie viele neue Flashcards pro Tag im Jahr 2026?](/de/blog/how-many-new-flashcards-per-day/), die Zahl neuer Karten an deinen Wiederholungsaufwand anzupassen.
 
 ## Die Version, der ich wirklich vertraue
 

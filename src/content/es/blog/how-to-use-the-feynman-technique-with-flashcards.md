@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-use-the-feynman-technique-with-flashcards.md"
 title: "Cómo usar la técnica Feynman con flashcards en 2026: explícalo con palabras sencillas y deja que FSRS programe el repaso"
 description: "Usa la técnica Feynman con flashcards en 2026: explica un tema con palabras sencillas, convierte solo los puntos débiles en tarjetas pequeñas y deja que FSRS programe el seguimiento."
 image: "/blog/how-to-use-the-feynman-technique-with-flashcards.png"
@@ -63,11 +61,7 @@ Un objetivo mejor para explicar suele ser una de estas cosas:
 
 Los temas pequeños dejan ver mejor los errores. Y errores más claros producen mejores tarjetas.
 
-Si el material fuente sigue desordenado antes de hacer la pasada de explicación, empieza por uno de estos:
-
-- [Cómo convertir apuntes en flashcards en 2026](/es/blog/turn-notes-into-flashcards/)
-- [Cómo convertir un PDF en flashcards en 2026](/es/blog/how-to-turn-a-pdf-into-flashcards/)
-- [Cómo recordar lo que lees en 2026](/es/blog/how-to-remember-what-you-read/)
+Si el material fuente sigue desordenado antes de hacer la pasada de explicación, empieza por [Cómo convertir apuntes en flashcards en 2026](/es/blog/turn-notes-into-flashcards/).
 
 ## Cómo suena una buena explicación al estilo Feynman
 
@@ -150,10 +144,7 @@ Eso no es una buena flashcard. Es un discurso guardado.
 
 Si la explicación dejó al descubierto tres puntos débiles, haz tres tarjetas. Si dejó al descubierto una distinción especialmente terca, haz una tarjeta. Mantén cada tarjeta centrada justo en la frase en la que tu explicación empezó a desviarse.
 
-Si quieres reglas más estrictas para redactar tarjetas en ese paso, estos son los dos mejores artículos para seguir:
-
-- [Qué debería ir en una flashcard en 2026](/es/blog/what-should-go-on-a-flashcard/)
-- [Cómo hacer mejores flashcards en 2026](/es/blog/how-to-make-better-flashcards/)
+Si quieres reglas más estrictas para redactar tarjetas en ese paso, lee [Cómo hacer mejores flashcards en 2026](/es/blog/how-to-make-better-flashcards/).
 
 ## Las mejores tarjetas de este método suelen parecer aburridas
 
@@ -281,7 +272,7 @@ Por ejemplo:
 
 Eso es bastante más sostenible que una sesión gigante el domingo en la que intentas dominar cuatro capítulos y crear cincuenta tarjetas nuevas.
 
-Si la cola empieza a sentirse ruidosa, [Cuántas flashcards nuevas por día en 2026](/es/blog/how-many-new-flashcards-per-day/) y [Cómo repasar flashcards más rápido en 2026](/es/blog/how-to-review-flashcards-faster/) son los dos siguientes artículos que yo abriría.
+Si la cola empieza a resultar difícil de completar, [Cuántas flashcards nuevas por día en 2026](/es/blog/how-many-new-flashcards-per-day/) te ayuda a ajustar las tarjetas nuevas a la carga de repaso.
 
 ## La versión en la que sí confío
 

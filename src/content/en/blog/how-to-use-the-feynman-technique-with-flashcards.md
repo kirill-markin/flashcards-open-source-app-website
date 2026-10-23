@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1en~1blog~1how-to-use-the-feynman-technique-with-flashcards.md"
 title: "How to Use the Feynman Technique With Flashcards in 2026: Explain It Simply, Then Let FSRS Keep It"
 description: "Use the Feynman technique with flashcards in 2026: explain a topic in plain language, turn only the weak spots into small cards, and let FSRS handle the follow-up."
 image: "/blog/how-to-use-the-feynman-technique-with-flashcards.png"
@@ -63,11 +61,7 @@ A better explanation target is usually one of these:
 
 Smaller topics give you cleaner misses. Cleaner misses give you better cards.
 
-If the source material is still messy before the explanation pass, start with one of these first:
-
-- [How to Turn Notes Into Flashcards in 2026](/blog/turn-notes-into-flashcards/)
-- [How to Turn a PDF Into Flashcards in 2026](/blog/how-to-turn-a-pdf-into-flashcards/)
-- [How to Remember What You Read in 2026](/blog/how-to-remember-what-you-read/)
+If the source material is still messy before the explanation pass, start with [How to Turn Notes Into Flashcards in 2026](/blog/turn-notes-into-flashcards/).
 
 ## What a good Feynman explanation sounds like
 
@@ -150,10 +144,7 @@ That is not a good flashcard. It is a saved speech.
 
 If the explanation exposed three weak spots, make three cards. If it exposed one stubborn distinction, make one card. Keep the card aimed at the exact sentence where your explanation started to drift.
 
-If you want stricter card-writing rules for that step, these two are the best follow-ups:
-
-- [What Should Go on a Flashcard in 2026?](/blog/what-should-go-on-a-flashcard/)
-- [How to Make Better Flashcards in 2026](/blog/how-to-make-better-flashcards/)
+If you want stricter card-writing rules for that step, read [How to Make Better Flashcards in 2026](/blog/how-to-make-better-flashcards/).
 
 ## The best cards from this method usually look boring
 
@@ -281,7 +272,7 @@ For example:
 
 That is much more sustainable than one giant Sunday session where you try to master four chapters and create fifty new cards.
 
-If the queue starts feeling noisy, [How Many New Flashcards Per Day in 2026](/blog/how-many-new-flashcards-per-day/) and [How to Review Flashcards Faster in 2026](/blog/how-to-review-flashcards-faster/) are the next two articles I would open.
+If the queue starts feeling noisy, [How Many New Flashcards Per Day in 2026](/blog/how-many-new-flashcards-per-day/) helps you adjust new cards to the review workload.
 
 ## The version I actually trust
 

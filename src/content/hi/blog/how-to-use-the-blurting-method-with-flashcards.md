@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-use-the-blurting-method-with-flashcards.md"
 title: "2026 में Flashcards के साथ Blurting Method कैसे इस्तेमाल करें: Blank-Page Recall को FSRS Reviews में बदलें"
 description: "2026 की यह practical guide बताती है कि blurting method से weak spots कैसे पकड़ें, सिर्फ़ misses को साफ़ flashcards में कैसे बदलें, और आगे की timing FSRS पर कैसे छोड़ें।"
 date: "2026-06-19"
@@ -87,7 +85,6 @@ Birmingham City University की सलाह यहाँ बिल्कु�
 अगर blurting step से पहले आपका material अभी भी cleanup माँगता है, तो ये starting points बेहतर हैं:
 
 - [2026 में notes को flashcards में कैसे बदलें](/hi/blog/turn-notes-into-flashcards/)
-- [2026 में PDF को flashcards में कैसे बदलें](/hi/blog/how-to-turn-a-pdf-into-flashcards/)
 - [2026 में AI से active recall कैसे करें](/hi/blog/how-to-use-ai-for-active-recall/)
 
 ## एक अच्छा blurt आपको असल में क्या देता है
