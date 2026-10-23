@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-use-flashcards-for-cfa-level-2.md"
 title: "Wie du 2026 Flashcards für CFA Level II nutzt: Item Sets, LOS-Tags und Mock-Fehler, die sitzen"
 description: "Bereitest du dich 2026 auf CFA Level II vor? Dieser konkrete Flashcard-Workflow hilft bei Item Sets, LOS-Tags, Formelinterpretation, CFA Institute Practice Questions, Mocks und FSRS-Wiederholung."
 image: "/blog/how-to-use-flashcards-for-cfa-level-2.png"
@@ -40,7 +38,7 @@ Dein Deck muss dir nicht die ganze Vignette erneut beibringen. Es sollte die Tei
 - welche Interpretation aus der Berechnung folgt
 - welcher Distractor immer wieder plausibel aussieht
 
-Wenn du zuerst die Level-I-Version dieses Workflows möchtest, ist [Wie du 2026 Flashcards für CFA Level I nutzt](/de/blog/how-to-use-flashcards-for-cfa-level-1/) der passende Begleitartikel. Level I ist direkter. Level II ist interpretativer, fallbasierter und deutlich weniger nachsichtig bei unscharfem Abruf.
+Level I ist direkter. Level II ist interpretativer, fallbasierter und deutlich weniger nachsichtig bei unscharfem Abruf.
 
 ## Nutze die Topic Weights 2026 als Review-Budget
 
@@ -85,8 +83,6 @@ Dieses Tagging bleibt klein genug, um es zu pflegen, und spezifisch genug, um n�
 - Ich verstehe die Ethics-Antwort nach der Review, aber nicht während der Vignette
 
 Das sind viel bessere Abrufziele als bloße Kapitelnamen.
-
-Wenn die Organisation deines Decks bereits unübersichtlich wird, lohnt sich [Wie du 2026 Flashcards organisierst](/de/blog/how-to-organize-flashcards/), bevor die Kartenzahl weiter steigt.
 
 ## Baue Karten aus den Scharnierpunkten der Vignette
 
@@ -152,7 +148,7 @@ Die besten **CFA Mock Exam Review**-Karten kommen meistens aus:
 
 Dieser Fokus auf die Quelle ist wichtig, weil Level II voller Material ist, das vertraut aussieht. Genau an deinen Fehlern siehst du, wo Vertrautheit nicht mehr reicht.
 
-Wenn du den breiteren Workflow suchst, um falsche Übungsfragen in Karten zu verwandeln, geht [Wie du 2026 Übungsfragen in Flashcards verwandelst](/de/blog/how-to-turn-practice-questions-into-flashcards/) tiefer in den Extraktionsprozess.
+Wie du aus einem einzelnen Fehler eine klare Frage mit einer kurzen Antwort machst, zeigt [Wie du bessere Flashcards erstellst](/de/blog/how-to-make-better-flashcards/).
 
 ## Ein verfehltes Item Set kann drei gute Karten ergeben
 
@@ -261,7 +257,7 @@ Ich würde die wöchentliche Schleife bewusst langweilig halten:
 
 Diese letzte Review ist wichtiger, als sie aussieht. Wenn deine Themenmischung oder dein Fehlermuster merkwürdig wirkt, korrigiere den Prozess früh. Warte nicht bis zum nächsten Mock, um festzustellen, dass die Hälfte deiner schwachen Karten eigentlich dieselbe Accounting-Anpassung in fünf Varianten ist.
 
-Wenn deine tägliche Warteschlange zäh wird, ist [Wie du 2026 Flashcards schneller wiederholst](/de/blog/how-to-review-flashcards-faster/) eine gute Aufräumrunde, bevor du noch mehr Karten hinzufügst.
+Wenn deine tägliche Warteschlange zäh wird, passe die Zahl neuer Karten an deine verfügbare Wiederholungszeit an. [Wie viele neue Flashcards pro Tag?](/de/blog/how-many-new-flashcards-per-day/) hilft dir, eine dauerhaft tragbare Menge zu finden.
 
 ## Wo Nibomo hier hineinpasst
 

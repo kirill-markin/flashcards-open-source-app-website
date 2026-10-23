@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-turn-notion-notes-into-flashcards.md"
 title: >-
   Cómo convertir notas de Notion en tarjetas didácticas en 2026: exportar,
   redactar con IA y revisar con FSRS
@@ -220,10 +218,6 @@ Eso hace que el flujo de trabajo de exportación y borrador sea especialmente pr
 Si su material fuente es texto sin formato en lugar de un espacio de trabajo de Notion, este artículo complementario es la mejor opción:
 
 - [Cómo convertir notas en tarjetas didácticas en 2026](https://nibomo.com/blog/turn-notes-into-flashcards/)
-
-Y si tu exportación de Notion termina funcionando mejor como documento, este también es útil:
-
-- [Cómo convertir un PDF en tarjetas didácticas en 2026](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## Un flujo de trabajo práctico que realmente usaría
 

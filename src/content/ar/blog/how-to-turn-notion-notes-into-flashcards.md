@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-turn-notion-notes-into-flashcards.md"
 title: "كيف تحوّل ملاحظات Notion إلى بطاقات تعليمية في 2026: صدّر الصفحة، وصُغ مسودات بالذكاء الاصطناعي، ثم راجعها مع FSRS"
 description: "هل تريد تحويل ملاحظات Notion إلى بطاقات تعليمية من دون نسخ كل جزء يدويًا إلى تطبيق دراسة؟ إليك مسارًا عمليًا في 2026: صدّر الصفحة، وأنشئ مسودات بطاقات نظيفة بالذكاء الاصطناعي، ثم راجعها باستخدام FSRS."
 date: "2026-03-29"
@@ -215,10 +213,6 @@ keywords:
 إذا كانت مادّتك الأصلية مجرد نص عادي لا صفحة في Notion، فالمقال المرافق التالي أنسب:
 
 - [كيفية تحويل الملاحظات إلى Flashcards في 2026](https://nibomo.com/blog/turn-notes-into-flashcards/)
-
-وإذا وجدت أن تصدير Notion عندك يعمل أفضل بوصفه مستندًا، فهذا المقال مفيد أيضًا:
-
-- [كيفية تحويل PDF إلى Flashcards في 2026](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## سير عملي يمكنني أن أستخدمه فعلًا
 

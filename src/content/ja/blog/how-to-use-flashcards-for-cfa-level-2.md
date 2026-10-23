@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-use-flashcards-for-cfa-level-2.md"
 title: "2026年版 CFA Level II向けフラッシュカードの使い方: item set、LOSタグ、模試の取りこぼしを定着させる"
 description: "2026年にCFA Level IIを受験する人向けに、item set対策、LOSタグ、CFA Instituteの演習と模試の復習、式の解釈、FSRSを使った実践的なフラッシュカード運用を解説します。"
 image: "/blog/how-to-use-flashcards-for-cfa-level-2.png"
@@ -40,7 +38,7 @@ Level Iなら、1つの事実、1つの式、1つの倫理上の区別に切り�
 - その計算からどんな解釈が導かれるか
 - どのdistractorが毎回もっともらしく見えるか
 
-Level I版の流れを先に見たいなら、[2026年版 CFA Level I向けフラッシュカードの使い方](/ja/blog/how-to-use-flashcards-for-cfa-level-1/) がそのまま補助記事になります。Level Iのほうがまだ素直です。Level IIは、より解釈寄りで、よりケースベースで、曖昧な想起にずっと厳しくなります。
+Level Iのほうがまだ素直です。Level IIは、より解釈寄りで、よりケースベースで、曖昧な想起にずっと厳しくなります。
 
 ## 2026年の配点を復習予算として使う
 
@@ -85,8 +83,6 @@ Level I版の流れを先に見たいなら、[2026年版 CFA Level I向けフ�
 - 復習後なら倫理の答えが分かるが、vignette中では拾えない
 
 こういうもののほうが、章タイトルよりずっと良い想起ターゲットになります。
-
-デッキ構成がすでに散らかっているなら、[2026年版 フラッシュカードの整理術](/ja/blog/how-to-organize-flashcards/) を先に読む価値があります。カード枚数が増え切る前に整えたほうが、あとでかなり楽です。
 
 ## vignetteの分岐点からカードを作る
 
@@ -152,7 +148,7 @@ Level IIでは、1つの式から少なくとも3つの記憶タスクが生ま�
 
 この材料の偏りは重要です。Level IIには、見たことがある気がする問題が多いからです。ミスは、「見覚え」が信頼できなくなった場所を示してくれます。
 
-誤答からカードに落とす全体フローを見たいなら、[2026年版 演習問題をフラッシュカードに変える方法](/ja/blog/how-to-turn-practice-questions-into-flashcards/) が、その抽出作業をもっと詳しく扱っています。
+一つのミスを明確な質問と短い答えにする書き方は、[より良いフラッシュカードの作り方](/ja/blog/how-to-make-better-flashcards/) で詳しく説明しています。
 
 ## 1つのitem setのミスから3枚の良いカードが作れる
 
@@ -261,7 +257,7 @@ Level II対策は、もともと動く部品が多いです。スケジューラ
 
 この最後の見直しは、見た目以上に重要です。トピックの配分やミスの偏りが変なら、早めに工程を直します。次の模試まで放置して、「弱いカードの半分が実は同じ会計調整を5通りに書き直しただけだった」と気付くのは遅いです。
 
-毎日のキューがだんだん重くなってきたら、[2026年版 フラッシュカードを速く復習する方法](/ja/blog/how-to-review-flashcards-faster/) が、カードを増やす前の整理として役立ちます。
+毎日のキューが重くなってきたら、実際に復習に使える時間から新規カードの上限を決めましょう。[1日に何枚の新しいフラッシュカードを追加すべきか](/ja/blog/how-many-new-flashcards-per-day/) が、続けられる復習量を見つける参考になります。
 
 ## Nibomo がこの流れに合う理由
 

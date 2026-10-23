@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1how-to-use-flashcards-for-cfa-level-2.md"
 title: "Cómo usar flashcards para CFA Level II en 2026: item sets, etiquetas LOS y errores de simulacro que de verdad se te quedan"
 description: "¿Preparas CFA Level II en 2026? Usa un flujo práctico de flashcards para item sets, etiquetas LOS, interpretación de fórmulas, preguntas oficiales y simulacros de CFA Institute, y repaso con FSRS."
 image: "/blog/how-to-use-flashcards-for-cfa-level-2.png"
@@ -40,7 +38,7 @@ Tu mazo no necesita devolverte toda la viñeta. Tiene que conservar las partes q
 - qué interpretación se desprende del cálculo
 - qué distractor sigue pareciendo plausible
 
-Si primero quieres la versión de Level I de este flujo, [Cómo usar flashcards para CFA Level I en 2026](/es/blog/how-to-use-flashcards-for-cfa-level-1/) es el artículo complementario adecuado. Level I es más directo. Level II es más interpretativo, más basado en casos y menos indulgente con el recuerdo borroso.
+Level I es más directo. Level II es más interpretativo, más basado en casos y menos indulgente con el recuerdo borroso.
 
 ## Usa los pesos por tema de 2026 como presupuesto de repaso
 
@@ -85,8 +83,6 @@ Este sistema de etiquetas sigue siendo lo bastante pequeño para gestionarlo y l
 - entiendo la respuesta de ética al revisar, pero no dentro de la viñeta
 
 Esos son objetivos de recuperación mucho mejores que los nombres de capítulo.
-
-Si la organización del mazo ya se te está enredando, [Cómo organizar flashcards en 2026](/es/blog/how-to-organize-flashcards/) merece la pena antes de que el número de tarjetas siga creciendo.
 
 ## Construye tarjetas a partir del detalle que cambia la viñeta
 
@@ -152,7 +148,7 @@ Las mejores **tarjetas para repasar simulacros CFA** suelen salir de:
 
 Ese sesgo de fuente importa porque Level II está lleno de material que parece familiar. Los fallos te enseñan dónde lo familiar dejó de ser fiable.
 
-Si quieres el flujo más amplio para convertir preguntas falladas en tarjetas, [Cómo convertir preguntas de práctica en flashcards en 2026](/es/blog/how-to-turn-practice-questions-into-flashcards/) entra más a fondo en el proceso de extracción.
+Para convertir un fallo concreto en una pregunta clara con una respuesta breve, consulta [Cómo crear mejores flashcards](/es/blog/how-to-make-better-flashcards/).
 
 ## Un item set fallado puede darte tres buenas tarjetas
 
@@ -261,7 +257,7 @@ Yo mantendría el ciclo semanal aburrido a propósito:
 
 Esa última revisión importa más de lo que parece. Si la mezcla por tema o el patrón de fallos se ve raro, corrige el proceso pronto. No esperes al siguiente simulacro para descubrir que la mitad de tus tarjetas flojas son en realidad el mismo ajuste contable escrito de cinco maneras distintas.
 
-Si tu cola diaria empieza a atascarse, [Cómo repasar flashcards más rápido en 2026](/es/blog/how-to-review-flashcards-faster/) es una buena puesta a punto antes de añadir más tarjetas.
+Si tu cola diaria empieza a atascarse, ajusta las tarjetas nuevas al tiempo de repaso que realmente tienes. [¿Cuántas tarjetas nuevas al día?](/es/blog/how-many-new-flashcards-per-day/) explica cómo encontrar una carga sostenible.
 
 ## Dónde encaja Nibomo
 

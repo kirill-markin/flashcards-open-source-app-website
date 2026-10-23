@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-use-ai-for-homework-without-cheating.md"
 title: "Wie du 2026 KI für Hausaufgaben nutzt, ohne zu schummeln: Stoff verstehen, eigene Arbeit abgeben, Fehler behalten"
 description: "Du willst 2026 KI für Hausaufgaben nutzen? Nutze sie, um die Aufgabe zu verstehen, dein Denken zu prüfen und Fehler später in Flashcards zu verwandeln, statt dir die Abgabe schreiben zu lassen."
 image: "/blog/how-to-use-ai-for-homework-without-cheating.png"
@@ -183,7 +181,7 @@ Ich würde nicht jede Hausaufgabenfrage in eine Karte verwandeln. Ich würde mir
 - Definitionen oder Gegensätze, die ständig wieder auftauchen
 - kurze Abrufpunkte, die du nächste Woche noch schnell parat haben willst
 
-Wenn du den breiteren Workflow für genau diesen Schritt willst, ist [Wie du 2026 Übungsfragen in Flashcards verwandelst](/de/blog/how-to-turn-practice-questions-into-flashcards/) der direkte Begleitartikel. Wenn du die größere KI-Lernstrategie suchst, ist [So nutzt du KI 2026 zum Lernen](/de/blog/how-to-use-ai-to-study/) die breitere Version.
+Wenn du KI erst fragen lassen und anschließend nur die Schwachstellen in Karten festhalten möchtest, zeigt [So nutzt du KI für Active Recall](/de/blog/how-to-use-ai-for-active-recall/) den passenden Ablauf.
 
 ## Was aus Hausaufgaben überhaupt eine Flashcard verdient
 
@@ -232,8 +230,7 @@ So bleibt der Workflow ehrlich. KI hilft beim Verstehen. Hausaufgaben zeigen, wo
 
 Wenn du statt mit Hausaufgaben eher mit Notizen, Quizzen oder einer Tutor-Sitzung startest, sind das die sinnvollsten nächsten Artikel:
 
-- [Wie du 2026 mit KI eine Probeklausur aus deinen Notizen erstellst](/de/blog/how-to-make-a-practice-exam-from-your-notes-with-ai/)
-- [Wie du 2026 den ChatGPT Study Mode in Flashcards verwandelst](/de/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
+- [Wie du Notizen in Flashcards verwandelst](/de/blog/turn-notes-into-flashcards/)
 - [Wie du 2026 Gemini Guided Learning in Flashcards verwandelst](/de/blog/gemini-guided-learning-to-flashcards/)
 
 Wenn du danach direkt ins Produkt willst, starte mit [Erste Schritte](/de/docs/getting-started/) oder der [Features-Seite](/de/features/).

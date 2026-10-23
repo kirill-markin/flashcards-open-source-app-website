@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-use-ai-for-homework-without-cheating.md"
 title: "2026 में होमवर्क के लिए AI का उपयोग बिना चीटिंग कैसे करें: सामग्री समझें, अपना काम खुद जमा करें, गलतियाँ संभाल कर रखें"
 description: "2026 में होमवर्क के लिए AI इस्तेमाल करना चाहते हैं? इसका उपयोग assignment समझने, अपनी reasoning जाँचने, और बाद में गलतियों को flashcards में बदलने के लिए करें, जमा किए जाने वाले काम को outsource करने के लिए नहीं।"
 image: "/blog/how-to-use-ai-for-homework-without-cheating.png"
@@ -183,7 +181,7 @@ AI का misuse करने का सबसे आसान तरीका �
 - वे definitions या contrasts जो बार-बार सामने आते हैं
 - वे one-liners जिन्हें आप अगले हफ़्ते जल्दी retrieve करना चाहते हैं
 
-अगर इस step का broader workflow चाहिए, तो [2026 में अभ्यास प्रश्नों को फ़्लैशकार्ड में कैसे बदलें](/hi/blog/how-to-turn-practice-questions-into-flashcards/) इसका सीधा companion article है। अगर बड़ा सवाल overall AI study strategy का है, तो [2026 में AI से पढ़ाई कैसे करें](/hi/blog/how-to-use-ai-to-study/) उसका wider version है।
+AI से पहले सवाल पूछवाने और फिर सिर्फ़ कमज़ोर हिस्सों को cards में बदलने के लिए [AI से Active Recall कैसे करें](/hi/blog/how-to-use-ai-for-active-recall/) वाला workflow पढ़िए।
 
 ## होमवर्क से क्या flashcard बनना चाहिए
 
@@ -232,8 +230,7 @@ AI का misuse करने का सबसे आसान तरीका �
 
 अगर आप homework की जगह notes, quizzes, या tutor session से शुरू कर रहे हैं, तो ये अगले पढ़ने लायक सबसे अच्छे articles हैं:
 
-- [2026 में AI से अपने notes से practice exam कैसे बनाएं](/hi/blog/how-to-make-a-practice-exam-from-your-notes-with-ai/)
-- [2026 में ChatGPT Study Mode को फ़्लैशकार्ड्स में कैसे बदलें](/hi/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
+- [नोट्स को फ़्लैशकार्ड में कैसे बदलें](/hi/blog/turn-notes-into-flashcards/)
 - [2026 में Gemini Guided Learning को फ़्लैशकार्ड्स में कैसे बदलें](/hi/blog/gemini-guided-learning-to-flashcards/)
 
 अगर उसके बाद product entry points चाहिए, तो [Getting Started](/hi/docs/getting-started/) या [फ़ीचर्स पेज](/hi/features/) से शुरू कीजिए।
