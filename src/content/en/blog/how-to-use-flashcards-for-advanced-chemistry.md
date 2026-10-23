@@ -92,6 +92,8 @@ Electron geometry versus molecular shape is another useful distinction. The [VSE
 
 If you keep using the wrong electron-allocation rule, the [formal charge vs oxidation number flashcards](/catalog/packages/formal-charge-vs-oxidation-number-flashcards/) mix short Lewis-structure calculations with method-choice and charge-check prompts.
 
+For ionic-radius mistakes, the [isoelectronic ion flashcards](/catalog/packages/isoelectronic-ion-radius-flashcards/) practice checking configurations before ranking by proton count. They use common monatomic ions with [Ne] or [Ar] configurations for electron counting, qualitative radius orders within a series, and repairs of misapplied shortcuts.
+
 These cards work because they train the fork in the road where points disappear.
 
 This is also why **how to study advanced chemistry** with flashcards gets better once you stop asking every card to explain a whole topic. One clean distinction card is often more valuable than one heroic card that tries to summarize half a unit.

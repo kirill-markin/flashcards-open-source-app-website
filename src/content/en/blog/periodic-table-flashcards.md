@@ -246,14 +246,15 @@ Start with evidence, even if it is only a five-minute self-test.
 
 Keep the daily queue realistic while expanding the set. Use the due-review load you can finish, rather than ambition, to set new-card intake.
 
-## Ready-made decks for three different jobs
+## Ready-made decks for four different jobs
 
 If all 118 identities really are your target, the installable [Periodic Table Flashcards: All 118 Names, Symbols & Atomic Numbers](/catalog/packages/periodic-table-elements/) deck contains 354 cards. It uses three explicit directions for each element: name → symbol, symbol → name, and atomic number → complete element identity. It excludes atomic weights, spatial layout, trends, and electron configurations, so it stays an identity-recall deck instead of trying to become a chemistry course.
 
-Two separate decks cover different scopes:
+Three separate decks cover different scopes:
 
 - [Periodic Trends Flashcards](/catalog/packages/periodic-trends-flashcards/) covers concise trend rules, important distinctions, and comparisons.
 - [Electron Configuration Flashcards: All 118 Elements](/catalog/packages/electron-configuration-flashcards-all-elements/) covers neutral-atom ground-state configurations, including clearly labeled predictions where the reference data requires them.
+- [Isoelectronic Ion Flashcards](/catalog/packages/isoelectronic-ion-radius-flashcards/) practices electron counts, grouping common [Ne] and [Ar] ions, and qualitative radius rankings within each series.
 
 Metric prefixes are another nearby source of case errors—`M` and `m` do not mean the same thing—but they are not periodic-table content. Keep them in the separate [Metric Prefix Flashcards guide](/blog/metric-prefixes-flashcards/) so chemistry notation does not become one giant mixed deck.
 

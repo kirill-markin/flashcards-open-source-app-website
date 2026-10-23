@@ -135,4 +135,6 @@ Before making a card, classify the mistake. Otherwise, you may memorize the corr
 
 For neutral-atom recall, Nibomo's [electron configuration flashcards](/catalog/packages/electron-configuration-flashcards-all-elements/) provide a separate practice set. Keep written ion problems alongside it: recalling an atom's configuration and deriving an ion are different tasks.
 
+For common monatomic ions with [Ne] or [Ar] configurations, the [isoelectronic ion flashcards](/catalog/packages/isoelectronic-ion-radius-flashcards/) practice electron counting, grouping ions by configuration, and ranking radii within each series. Use them for that focused follow-on task alongside the written configuration exercises.
+
 On your next attempt, redo the questions you missed without looking at the reference, worked examples, or cards. Write one sentence explaining each correction: “The count was right, but I removed 3d electrons before 4s” tells you much more than “I got iron wrong.”
