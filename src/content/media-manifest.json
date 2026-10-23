@@ -2867,6 +2867,21 @@
     }
   },
   {
+    "publicPath": "/blog/sql-union-vs-union-all-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/086bb6ace13fd811a7b0d2316bb80e868cbb22d315300bba4e4f1063485c666b.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "086bb6ace13fd811a7b0d2316bb80e868cbb22d315300bba4e4f1063485c666b",
+    "bytes": 205668,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/d05556cacaed6da1cf1bf6f9f4b5dfd65b6f9d9c2f9f558c5f736ee0b5296601.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "d05556cacaed6da1cf1bf6f9f4b5dfd65b6f9d9c2f9f558c5f736ee0b5296601",
+      "bytes": 2554800
+    }
+  },
+  {
     "publicPath": "/blog/standard-deviation-vs-standard-error.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/8c147e5169a1c4c8a899c300d52111ad4aa2e05a79d288da25e24993ce925a9b.png",
     "width": 1672,
