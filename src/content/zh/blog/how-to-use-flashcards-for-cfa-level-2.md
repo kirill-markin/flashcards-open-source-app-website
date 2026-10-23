@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-use-flashcards-for-cfa-level-2.md"
 title: "2026 年如何用抽认卡备考 CFA Level II：item set、LOS 标签和真正记得住的模考错题"
 description: "备考 2026 年 CFA Level II？这套实用抽认卡工作流会带你处理 item set、LOS 标签、公式解释、CFA Institute 练习题与模考复盘，以及 FSRS 复习。"
 image: "/blog/how-to-use-flashcards-for-cfa-level-2.png"
@@ -42,7 +40,7 @@ Level I 和 Level II 最大的实际差别，不只是“内容更难”。
 - 算出来之后应该怎么解释
 - 哪个干扰项总是看起来很合理
 
-如果你想先看这个工作流在 Level I 里的版本，可以配套读 [2026 年如何用抽认卡备考 CFA Level I](/zh/blog/how-to-use-flashcards-for-cfa-level-1/)。Level I 更直接。Level II 更依赖解释，更依赖案例，也更不容忍模糊回忆。
+Level I 更直接。Level II 更依赖解释，更依赖案例，也更不容忍模糊回忆。
 
 ## 把 2026 年科目权重当成复习预算
 
@@ -87,8 +85,6 @@ Level I 和 Level II 最大的实际差别，不只是“内容更难”。
 - 我复盘后能看懂 ethics 答案，可在 vignette 里就是认不出来
 
 这些才是比章节名更值得提取的目标。
-
-如果你的卡组结构已经开始变乱，最好先读一下 [2026 年如何整理抽认卡](/zh/blog/how-to-organize-flashcards/)，别等卡片数量上去之后再补救。
 
 ## 卡片要围绕 vignette 的转折点来写
 
@@ -154,7 +150,7 @@ Level II 的 item set 很容易诱使人写出巨大无比的卡片。
 
 这种素材优先级很关键，因为 Level II 到处都是“看起来很熟”的内容。错题会明确告诉你：你熟到哪里就停住了。
 
-如果你想看更完整的错题转卡流程，可以继续读 [2026 年如何把练习题做成 Flashcards](/zh/blog/how-to-turn-practice-questions-into-flashcards/)，里面把提取步骤讲得更细。
+要把一个具体错误写成清晰的问题和简短的答案，可以参考 [如何做出更好的抽认卡](/zh/blog/how-to-make-better-flashcards/)。
 
 ## 一个做错的 item set，通常能拆出三张好卡
 
@@ -263,7 +259,7 @@ Level II 备考本来就已经有很多变量了。排程器应该让系统安�
 
 最后这一步比看起来更重要。如果科目分布或错误模式开始变得奇怪，就要尽早修正流程。不要等到下一套 mock 才发现，你以为是半副不同的弱卡，实际上只是同一个 accounting adjustment 被你写成了五种不同版本。
 
-如果你每天的复习队列开始变得卡住，最好先读一下 [2026 年如何更快复习抽认卡](/zh/blog/how-to-review-flashcards-faster/)。在继续加卡之前，这篇很适合作为一次清理。
+如果每天的复习队列开始积压，就按实际可用的复习时间来设定新卡上限。[每天该加多少新 Flashcards？](/zh/blog/how-many-new-flashcards-per-day/) 介绍了如何找到能持续完成的复习量。
 
 ## Nibomo 在这个工作流里适合做什么
 

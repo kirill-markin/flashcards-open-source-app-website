@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1en~1blog~1how-to-use-ai-for-homework-without-cheating.md"
 title: "How to Use AI for Homework Without Cheating in 2026: Learn the Material, Submit Your Own Work, Keep the Misses"
 description: "Using AI for homework in 2026? Use it to understand the assignment, test your reasoning, and save the misses as flashcards later, without outsourcing the work you submit."
 image: "/blog/how-to-use-ai-for-homework-without-cheating.png"
@@ -183,7 +181,7 @@ I would not turn every homework question into a card. I would keep:
 - the definitions or contrasts that keep showing up
 - the one-liners you want to retrieve quickly next week
 
-If you want the broader workflow for that step, [How to Turn Practice Questions Into Flashcards in 2026](/blog/how-to-turn-practice-questions-into-flashcards/) is the direct companion. If your bigger question is AI study strategy overall, [How to Use AI to Study in 2026](/blog/how-to-use-ai-to-study/) is the wider version.
+For a question-first AI workflow that turns the weak spots into cards afterward, see [How to Use AI for Active Recall](/blog/how-to-use-ai-for-active-recall/).
 
 ## What deserves a flashcard from homework
 
@@ -232,8 +230,7 @@ That keeps the workflow honest. AI helps with explanation. Homework reveals wher
 
 If you are starting from notes, quizzes, or a tutor session instead of homework, these are the best next reads:
 
-- [How to Make a Practice Exam From Your Notes With AI in 2026](/blog/how-to-make-a-practice-exam-from-your-notes-with-ai/)
-- [How to Turn ChatGPT Study Mode Into Flashcards in 2026](/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
+- [How to Turn Notes Into Flashcards](/blog/turn-notes-into-flashcards/)
 - [How to Turn Gemini Guided Learning Into Flashcards in 2026](/blog/gemini-guided-learning-to-flashcards/)
 
 If you want the product entry points after that, start with [Getting Started](/docs/getting-started/) or the [features page](/features/).

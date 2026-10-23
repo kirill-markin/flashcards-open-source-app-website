@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-use-flashcards-for-cfa-level-2.md"
 title: "2026 में CFA Level II के लिए फ्लैशकार्ड कैसे इस्तेमाल करें: item sets, LOS tags और mock mistakes जो सच में याद रहें"
 description: "2026 में CFA Level II की तैयारी कर रहे हैं? item sets, LOS tags, formula interpretation, CFA Institute practice questions, mocks, और FSRS review के लिए यह practical flashcards workflow अपनाएँ।"
 image: "/blog/how-to-use-flashcards-for-cfa-level-2.png"
@@ -40,7 +38,7 @@ Level I में आप अक्सर एक fact, एक formula, या ए
 - calculation से कौन-सी interpretation निकलती है
 - कौन-सा distractor बार-बार plausible लगता है
 
-अगर आप पहले इसी workflow का Level I version देखना चाहते हैं, तो [2026 में CFA Level I के लिए फ्लैशकार्ड कैसे इस्तेमाल करें](/hi/blog/how-to-use-flashcards-for-cfa-level-1/) सही companion article है। Level I ज़्यादा direct है। Level II ज़्यादा interpretive, ज़्यादा case-based, और fuzzy recall के लिए कम forgiving है।
+Level I ज़्यादा direct है। Level II ज़्यादा interpretive, ज़्यादा case-based, और fuzzy recall के लिए कम forgiving है।
 
 ## 2026 topic weights को review budget की तरह इस्तेमाल करें
 
@@ -85,8 +83,6 @@ Official [2026 Level II topic outline PDF](https://www.cfainstitute.org/sites/de
 - review के बाद ethics answer समझ आता है, vignette के दौरान नहीं
 
 ये chapter names से कहीं बेहतर retrieval targets हैं।
-
-अगर आपके deck की organization पहले से messy हो रही है, तो card count और बढ़ने से पहले [2026 में फ्लैशकार्ड कैसे व्यवस्थित करें](/hi/blog/how-to-organize-flashcards/) पढ़ना काम का रहेगा।
 
 ## Vignette के hinge points से cards बनाइए
 
@@ -152,7 +148,7 @@ Official [CFA candidate resources page](https://www.cfainstitute.org/programs/cf
 
 यह source bias इसलिए important है क्योंकि Level II familiar-looking material से भरा होता है। Misses आपको दिखाते हैं कि familiar होना कहाँ से unreliable बन गया।
 
-अगर आप missed questions को cards में बदलने वाला broader workflow चाहते हैं, तो [2026 में अभ्यास प्रश्नों को फ़्लैशकार्ड में कैसे बदलें](/hi/blog/how-to-turn-practice-questions-into-flashcards/) extraction process को और गहराई से समझाता है।
+किसी खास गलती को साफ़ सवाल और छोटे जवाब में बदलने के लिए [बेहतर फ़्लैशकार्ड कैसे बनाएं](/hi/blog/how-to-make-better-flashcards/) पढ़िए।
 
 ## एक missed item set से तीन अच्छे cards निकल सकते हैं
 
@@ -261,7 +257,7 @@ Level II prep में पहले से ही काफ़ी moving parts 
 
 आख़िरी review जितना दिखता है, उससे ज़्यादा important है। अगर आपका topic mix या miss pattern अजीब दिख रहा है, तो process को जल्दी ठीक कीजिए। अगले mock तक यह समझने के लिए इंतज़ार मत कीजिए कि आपके आधे weak cards दरअसल वही accounting adjustment हैं जिन्हें पाँच अलग तरीकों से लिखा गया है।
 
-अगर आपकी daily queue चिपचिपी होने लगे, तो और cards जोड़ने से पहले [2026 में flashcards को तेज़ी से review कैसे करें](/hi/blog/how-to-review-flashcards-faster/) अच्छा cleanup pass है।
+अगर आपकी daily queue भारी होने लगे, तो नए cards की संख्या अपने असली review समय के हिसाब से तय कीजिए। [रोज़ कितने नए फ्लैशकार्ड?](/hi/blog/how-many-new-flashcards-per-day/) ऐसा load चुनने में मदद करता है जिसे आप निभा सकें।
 
 ## इस workflow में Nibomo कहाँ फिट बैठता है
 

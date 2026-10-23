@@ -13,8 +13,6 @@ keywords:
   - "FSRSでフラッシュカードを復習する"
   - "Notion ノート フラッシュカード"
   - "Notion フラッシュカード化"
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1ja~1blog~1how-to-turn-notion-notes-into-flashcards.md"
 ---
 
 昨日、「細胞シグナル伝達」という名前の Notion ページを開いたら、現実のノートらしいものがきれいにそろっていました。役に立つセクションが 3 つ、やけに大げさな見出しが 2 つ、たぶん気持ちを支えるためだけに貼った引用が 1 つ。そして、そのページを書いた当時の自分にしか意味がわからない大量のトグルです。

@@ -11,8 +11,6 @@ keywords:
   - "AI 生成 Notion 闪卡"
   - "Notion AI 闪卡"
   - "FSRS 闪卡"
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1zh~1blog~1how-to-turn-notion-notes-into-flashcards.md"
 ---
 
 昨天我打开了一页名叫 “Cell Signaling” 的 Notion 页面，里面的样子和真实笔记一模一样：三个确实有用的部分、两个相当用力的标题、一句显然是我为了给自己打气才复制进去的引文，还有一大片只有写下它的那个我才看得懂的折叠块。
@@ -225,10 +223,6 @@ retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src
 如果你的原始材料是纯文本，而不是一个 Notion workspace，这篇配套文章会更合适：
 
 - [2026 年如何把笔记变成 Flashcards](https://nibomo.com/blog/turn-notes-into-flashcards/)
-
-如果你的 Notion 导出结果最后更像一份文档，这篇也值得看：
-
-- [2026 年如何把 PDF 变成 Flashcards](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## 一套我自己真的会重复使用的流程
 

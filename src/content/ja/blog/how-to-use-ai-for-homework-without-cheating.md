@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-use-ai-for-homework-without-cheating.md"
 title: "2026年に宿題でAIをズルせず使う方法: 理解には使い、提出は自分でやり、ミスだけを残す"
 description: "2026年に宿題でAIを使うなら、課題の理解、詰まった箇所の特定、考え方の確認までにとどめ、提出する答えそのものは自分で作るべきです。返却後はミスだけをフラッシュカードに残せます。"
 image: "/blog/how-to-use-ai-for-homework-without-cheating.png"
@@ -183,7 +181,7 @@ AIをいちばん誤用しやすい方法は、たいてい一番魅力的でも
 - 何度も出てくる定義や対比
 - 来週すぐ取り出したい一行レベルの知識
 
-この工程をもう少し広く見たいなら、[2026年版 演習問題をフラッシュカードに変える方法](/blog/how-to-turn-practice-questions-into-flashcards/) がそのまま続きです。AI学習全体の戦略を見たいなら、[2026年にAIで勉強する方法](/blog/how-to-use-ai-to-study/) が全体版です。
+AIに先に問いかけてもらい、その後で弱点だけをカードにする流れは、[AIでアクティブリコールする方法](/ja/blog/how-to-use-ai-for-active-recall/) で紹介しています。
 
 ## 宿題の何をフラッシュカードにする価値があるか
 
@@ -232,8 +230,7 @@ AIをいちばん誤用しやすい方法は、たいてい一番魅力的でも
 
 出発点が宿題ではなく、ノート、クイズ、家庭教師セッションなら、次に読むならこのあたりです。
 
-- [2026年にノートからAIで模擬試験を作る方法](/blog/how-to-make-a-practice-exam-from-your-notes-with-ai/)
-- [2026年版 ChatGPT Study Mode をフラッシュカードに変える方法](/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
+- [ノートをフラッシュカードにする方法](/ja/blog/turn-notes-into-flashcards/)
 - [2026年版 Gemini Guided Learning をフラッシュカードに変える方法](/blog/gemini-guided-learning-to-flashcards/)
 
 そのあと製品の入口を見るなら、[使い始めガイド](/docs/getting-started/) と [機能ページ](/features/) が最短です。

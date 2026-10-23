@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-turn-notion-notes-into-flashcards.md"
 title: "2026 में Notion notes को flashcards में कैसे बदलें: export करें, AI से प्रारूप बनवाएँ और FSRS के साथ review करें"
 description: "क्या आप हर toggle को हाथ से किसी फ्लैशकार्ड app में कॉपी किए बिना Notion notes को flashcards में बदलना चाहते हैं? 2026 के लिए यह एक व्यावहारिक तरीका है: पेज export करें, AI से साफ़ कार्ड का प्रारूप बनवाएँ, फिर FSRS के साथ review करें।"
 date: "2026-03-29"
@@ -215,10 +213,6 @@ direct sync सुनने में अच्छा लगता है, ज�
 अगर आपकी सामग्री Notion workspace के बजाय plain text में है, तो यह साथ पढ़ने लायक लेख ज़्यादा उपयुक्त है:
 
 - [2026 में notes को flashcards में कैसे बदलें](https://nibomo.com/blog/turn-notes-into-flashcards/)
-
-और अगर आपका Notion export दस्तावेज़ की तरह ज़्यादा अच्छी तरह काम करता है, तो यह लेख भी उपयोगी है:
-
-- [2026 में PDF को flashcards में कैसे बदलें](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## एक व्यावहारिक तरीका जिसे मैं सच में इस्तेमाल करूँगा
 

@@ -12,8 +12,6 @@ keywords:
   - "ia para tareas escolares"
   - "ia y pensamiento crítico"
   - "convertir errores de tareas en flashcards"
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1es~1blog~1how-to-use-ai-for-homework-without-cheating.md"
 ---
 
 Miércoles por la noche, 11:47 p. m., un ejercicio a medio hacer, una pestaña de IA abierta y unos seis segundos entre "ayúdame a entender esto" y "bah, hazlo tú". Ese salto tan pequeño es la razón por la que tanta gente sigue buscando **cómo usar la IA para hacer tareas**.
@@ -232,7 +230,7 @@ Así el flujo de trabajo se mantiene honesto. La IA ayuda a explicar. La tarea r
 
 Si empiezas desde apuntes, cuestionarios o una tutoría, puedes seguir estos pasos y lecturas:
 
-- [Cómo crear un examen de práctica con tus apuntes usando IA en 2026](/es/blog/how-to-make-a-practice-exam-from-your-notes-with-ai/)
+- [Cómo convertir notas en tarjetas didácticas](/es/blog/turn-notes-into-flashcards/)
 - Tras una tutoría, selecciona los errores y lagunas que merezcan repaso y crea preguntas breves, comprobadas con la fuente.
 - [Cómo convertir Gemini Guided Learning en flashcards en 2026](/es/blog/gemini-guided-learning-to-flashcards/)
 

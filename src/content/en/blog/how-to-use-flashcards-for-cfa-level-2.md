@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1en~1blog~1how-to-use-flashcards-for-cfa-level-2.md"
 title: "How to Use Flashcards for CFA Level II in 2026: Item Sets, LOS Tags, and Mock-Exam Misses That Actually Stick"
 description: "Preparing for CFA Level II in 2026? Use this practical flashcards workflow for item sets, LOS tags, formula interpretation, CFA Institute practice questions and mocks, and FSRS review."
 image: "/blog/how-to-use-flashcards-for-cfa-level-2.png"
@@ -40,7 +38,7 @@ Your deck does not need to teach the whole vignette back to you. It should prese
 - which interpretation follows from the calculation
 - which distractor keeps looking plausible
 
-If you want the Level I version of this workflow first, [How to Use Flashcards for CFA Level I in 2026](/blog/how-to-use-flashcards-for-cfa-level-1/) is the right companion article. Level I is more direct. Level II gets more interpretive, more case-based, and less forgiving of fuzzy recall.
+Level I is more direct. Level II gets more interpretive, more case-based, and less forgiving of fuzzy recall.
 
 ## Use the 2026 topic weights as a review budget
 
@@ -85,8 +83,6 @@ That tagging system stays small enough to manage and specific enough to be usefu
 - I understand the ethics answer after review, but not during the vignette
 
 Those are much better retrieval targets than chapter names.
-
-If your deck organization is already getting messy, [How to Organize Flashcards in 2026](/blog/how-to-organize-flashcards/) is worth reading before the card count gets bigger.
 
 ## Build cards from vignette hinge points
 
@@ -152,7 +148,7 @@ The best **CFA mock exam review** cards usually come from:
 
 That source bias matters because Level II is full of familiar-looking material. The misses show you where familiar stopped being reliable.
 
-If you want the broader workflow for converting missed questions into cards, [How to Turn Practice Questions Into Flashcards in 2026](/blog/how-to-turn-practice-questions-into-flashcards/) goes deeper on the extraction process.
+For turning a specific miss into a clear question with a short answer, see [How to Make Better Flashcards](/blog/how-to-make-better-flashcards/).
 
 ## One missed item set can produce three good cards
 
@@ -261,7 +257,7 @@ I would keep the weekly loop boring on purpose:
 
 That last review is more important than it looks. If your topic mix or miss pattern looks strange, fix the process early. Do not wait until your next mock to discover that half your weak cards are really the same accounting adjustment written five different ways.
 
-If your daily queue starts getting sticky, [How to Review Flashcards Faster in 2026](/blog/how-to-review-flashcards-faster/) is a useful cleanup pass before you add more cards.
+If your daily queue starts getting sticky, set your new-card intake from the review time you actually have. [How Many New Flashcards Per Day?](/blog/how-many-new-flashcards-per-day/) explains how to find a sustainable load.
 
 ## Where Nibomo fits
 
