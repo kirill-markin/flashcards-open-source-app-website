@@ -2384,6 +2384,21 @@
     "bytes": 497196
   },
   {
+    "publicPath": "/blog/permutations-vs-combinations-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/194ed0e5f0b7c3922b9e37666c6878d17f402a3e0ebeae11294d97ef1287a137.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "194ed0e5f0b7c3922b9e37666c6878d17f402a3e0ebeae11294d97ef1287a137",
+    "bytes": 132070,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/92b787c923b8d14fbe268190c96e5b5882ed4fb9ee4f954eba46ec00ba7f1225.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "92b787c923b8d14fbe268190c96e5b5882ed4fb9ee4f954eba46ec00ba7f1225",
+      "bytes": 2244945
+    }
+  },
+  {
     "publicPath": "/blog/ph-significant-figures.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/411a417dd915f034354e1a3bfa48f693a2127b8e0abca1ae9e9fed33b72f628c.webp",
     "width": 1672,
