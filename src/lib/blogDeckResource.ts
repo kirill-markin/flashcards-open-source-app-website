@@ -13,6 +13,7 @@ import { getPublicCatalogPackageLocalizedPathname } from "./publicCatalogUrls";
 const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   Record<string, Readonly<Partial<Record<AppLocale, string>>>>
 > = {
+  "git-reflog-recover-lost-commits": { en: "git-commands-flashcards" },
   "git-reset-restore-revert-practice": { en: "git-commands-flashcards" },
   "us-state-abbreviations": { en: "us-state-abbreviations-flashcards" },
   "anatomical-directional-terms": {

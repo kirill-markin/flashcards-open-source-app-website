@@ -1123,6 +1123,21 @@
     }
   },
   {
+    "publicPath": "/blog/git-reflog-recover-lost-commits.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/1c05b0d30d11e2f677403750be229e37936afec6d45d23e56dd8986cbbe070da.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "1c05b0d30d11e2f677403750be229e37936afec6d45d23e56dd8986cbbe070da",
+    "bytes": 162934,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/dddb0306e07cc010c90a0afd6ee04d4ba719d89e9786786804d7c10388814cf3.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "dddb0306e07cc010c90a0afd6ee04d4ba719d89e9786786804d7c10388814cf3",
+      "bytes": 2308246
+    }
+  },
+  {
     "publicPath": "/blog/git-reset-restore-revert-practice.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/bebe7d9b53b76f2fa3fd921e86c45988004d8cbf78f8fc61a4836cae4c7ead9d.webp",
     "width": 1672,
