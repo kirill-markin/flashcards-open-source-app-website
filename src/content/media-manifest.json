@@ -305,6 +305,21 @@
     "bytes": 2336672
   },
   {
+    "publicPath": "/blog/anki-sort-field.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/3574b84f7b2375bfeef4866d55a61f17e6a96ac4f9d8629042038393d11b56c3.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "3574b84f7b2375bfeef4866d55a61f17e6a96ac4f9d8629042038393d11b56c3",
+    "bytes": 137866,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/ae3c08bb0a12a4056b38aa492f3993856e98a416a4e30e73b6faf0384de8809a.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "ae3c08bb0a12a4056b38aa492f3993856e98a416a4e30e73b6faf0384de8809a",
+      "bytes": 2106986
+    }
+  },
+  {
     "publicPath": "/blog/anki-sync-upload-or-download.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/cbe2d63a4f1e76fe49ee0e0ca97238617092153b9fb8263110d025ca6b4fb10c.png",
     "width": 1672,
