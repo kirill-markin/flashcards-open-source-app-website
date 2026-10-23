@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1ja~1blog~1how-to-use-the-feynman-technique-with-flashcards.md"
 title: "2026年版 フラッシュカードで実践するファインマン・テクニック: やさしく説明して、定着はFSRSに任せる"
 description: "2026年にファインマン・テクニックをフラッシュカードで使うなら、説明の弱点だけを小さなカードに変え、その後の復習はFSRSに任せる流れが実用的です。"
 date: "2026-06-20"
@@ -63,11 +61,7 @@ keywords:
 
 小さな話題ほど、どこでつまずいたかがはっきりします。つまずきがはっきりするほど、カードも良くなります。
 
-説明に入る前の時点で、元の教材がまだ散らかっているなら、先に向いているのは次です。
-
-- [2026年版 ノートをフラッシュカードに変える方法](/ja/blog/turn-notes-into-flashcards/)
-- [2026年版 PDFをフラッシュカードに変える方法](/ja/blog/how-to-turn-a-pdf-into-flashcards/)
-- [2026年版 読んだ内容を覚える方法](/ja/blog/how-to-remember-what-you-read/)
+説明に入る前の時点で、元の教材がまだ散らかっているなら、まずは[2026年版 ノートをフラッシュカードに変える方法](/ja/blog/turn-notes-into-flashcards/)を読んでみてください。
 
 ## 良い説明はどんな感じか
 
@@ -150,10 +144,7 @@ keywords:
 
 説明で3つの弱点が出たなら、3枚のカードにする。しつこく混同する1つの違いが出たなら、1枚にする。説明が崩れ始めた、まさにその文に向けてカードを作るべきです。
 
-その段階でカードの書き方をもう少し厳しくしたいなら、次の2本がいちばん自然につながります。
-
-- [2026年版 フラッシュカードには何を入れるべきか](/ja/blog/what-should-go-on-a-flashcard/)
-- [2026年、より良いフラッシュカードの作り方](/ja/blog/how-to-make-better-flashcards/)
+その段階でカードの書き方をもう少し厳しくしたいなら、[2026年、より良いフラッシュカードの作り方](/ja/blog/how-to-make-better-flashcards/)が役立ちます。
 
 ## この方法でできる良いカードは、たいてい地味
 
@@ -281,10 +272,7 @@ AI 側をもっと詳しく見たいなら、[2026年版 AIでアクティブリ
 
 4章を一気に片づけようとして50枚の新規カードを作る、巨大な日曜セッションより、ずっと現実的です。
 
-キューがうるさくなってきたら、次に開くべきなのはこの2本です。
-
-- [2026年、1日に何枚の新しいフラッシュカードを追加すべきか](/ja/blog/how-many-new-flashcards-per-day/)
-- [2026年版 フラッシュカードをもっと速く復習する方法](/ja/blog/how-to-review-flashcards-faster/)
+復習キューをこなしにくくなってきたら、[2026年、1日に何枚の新しいフラッシュカードを追加すべきか](/ja/blog/how-many-new-flashcards-per-day/)で、復習の負担に合わせて新規カードの枚数を調整してください。
 
 ## 私が本当に信頼している形
 

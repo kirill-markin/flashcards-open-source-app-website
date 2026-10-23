@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1zh~1blog~1how-to-use-the-blurting-method-with-flashcards.md"
 title: "2026 年如何把 Blurting 方法和抽认卡结合起来：把白纸回忆接到 FSRS 复习上"
 description: "这是一份适用于 2026 年的实用指南：先用 Blurting 方法暴露记忆漏洞，只把真正答错、卡住和混淆的地方做成清楚的小卡片，再交给 FSRS 安排后续复习。"
 date: "2026-06-19"
@@ -87,7 +85,6 @@ Blurting 能让你看见：
 如果你的材料在进入 blurting 之前还需要先整理一遍，这几篇更适合作为前置步骤：
 
 - [2026 年如何把笔记整理成抽认卡](/zh/blog/turn-notes-into-flashcards/)
-- [2026 年如何把 PDF 做成抽认卡](/zh/blog/how-to-turn-a-pdf-into-flashcards/)
 - [2026 年如何用 AI 做主动回忆](/zh/blog/how-to-use-ai-for-active-recall/)
 
 ## 一次好的 blurt 真正会给你什么

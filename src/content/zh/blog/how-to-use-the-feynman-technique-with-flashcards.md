@@ -12,8 +12,6 @@ keywords:
   - "主动回忆 解释法"
   - "用抽认卡解释概念"
   - "FSRS 抽认卡 学习法"
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1zh~1blog~1how-to-use-the-feynman-technique-with-flashcards.md"
 ---
 
 上周二，我试着在完全不看笔记的情况下，把心输出量大声讲一遍。大概二十秒后，我开始说前负荷会影响每搏输出量，因为，嗯，它就是会。
@@ -65,10 +63,7 @@ retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src
 
 主题小一点，卡壳点才会更清楚。卡壳点更清楚，卡片才会更好。
 
-如果在进入解释这一步之前，原始材料本身还很乱，那可以先看这几篇：
-
-- [2026 年如何把笔记整理成闪卡](/zh/blog/turn-notes-into-flashcards/)
-- [2026 年如何把 PDF 做成抽认卡](/zh/blog/how-to-turn-a-pdf-into-flashcards/)
+如果在进入解释这一步之前，原始材料本身还很乱，可以先看[2026 年如何把笔记整理成闪卡](/zh/blog/turn-notes-into-flashcards/)。
 
 ## 一段好的费曼式解释，听起来会是什么样
 

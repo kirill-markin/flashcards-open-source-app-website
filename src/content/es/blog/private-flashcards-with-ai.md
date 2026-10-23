@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1es~1blog~1private-flashcards-with-ai.md"
 title: "Flashcards privadas en 2026: cómo estudiar con IA sin renunciar al control"
 description: "Aprende a mantener tus flashcards privadas en 2026 con repetición espaciada de código abierto, enfoque offline-first, IA opcional y una ruta de autohospedaje."
 date: "2026-06-30"

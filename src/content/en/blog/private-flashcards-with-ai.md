@@ -12,8 +12,6 @@ keywords:
   - "offline flashcards"
   - "study app no account"
   - "flashcards data ownership"
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1en~1blog~1private-flashcards-with-ai.md"
 ---
 
 A student can now paste class notes into an AI tutor, get a clean explanation in thirty seconds, and accidentally hand over a lot more personal study material than they meant to.

@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ru~1blog~1private-flashcards-with-ai.md"
 title: "Приватные карточки в 2026 году: как учиться с ИИ и не терять контроль"
 description: "Как сохранить карточки приватными в 2026 году: открытый исходный код, offline-first, опциональный ИИ и путь к самостоятельному хостингу без потери контроля над учебными данными."
 date: "2026-06-30"

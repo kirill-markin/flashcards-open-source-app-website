@@ -12,8 +12,6 @@ keywords:
   - "flashcards después de blurting"
   - "flashcards con fsrs"
   - "cómo estudiar con blurting"
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-22-retire.json#/records/src~1content~1es~1blog~1how-to-use-the-blurting-method-with-flashcards.md"
 ---
 
 A los ocho minutos de una sesión de blurting de fisiología, la página parecía convincente. Flechas por todas partes. Vías a medio terminar. Una definición de la que me sentí demasiado orgulloso hasta que volví a los apuntes y vi que estaba mal.

@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20-recheck.json#/records/src~1content~1en~1blog~1how-to-use-the-blurting-method-with-flashcards.md"
 title: "How to Use the Blurting Method With Flashcards in 2026: Turn Blank-Page Recall Into FSRS Reviews"
 description: "A practical 2026 guide to the blurting method with flashcards: use blank-page recall to expose weak spots, turn only the misses into clear cards, and let FSRS handle the follow-up."
 date: "2026-06-19"
@@ -87,7 +85,6 @@ When the scope is too big, the page turns into a confidence ritual. You write br
 If your material still needs cleanup before the blurting step, these are the better starting points:
 
 - [How to Turn Notes Into Flashcards in 2026](/blog/turn-notes-into-flashcards/)
-- [How to Turn a PDF Into Flashcards in 2026](/blog/how-to-turn-a-pdf-into-flashcards/)
 - [How to Use AI for Active Recall in 2026](/blog/how-to-use-ai-for-active-recall/)
 
 ## What a good blurt actually gives you

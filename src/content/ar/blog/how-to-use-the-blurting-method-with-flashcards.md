@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1ar~1blog~1how-to-use-the-blurting-method-with-flashcards.md"
 title: "كيفية استخدام طريقة Blurting مع البطاقات التعليمية في 2026: حوّل استرجاع الورقة الفارغة إلى مراجعات FSRS"
 description: "دليل عملي في 2026 لاستخدام طريقة Blurting مع البطاقات التعليمية: استخدم استرجاع الورقة الفارغة لكشف نقاط الضعف، وحوّل فقط ما أخفقت فيه إلى بطاقات واضحة، ثم دع FSRS يتولى المراجعة اللاحقة."
 date: "2026-06-19"
@@ -87,7 +85,6 @@ keywords:
 إذا كانت مادّتك ما تزال تحتاج إلى ترتيب قبل خطوة Blurting، فهذه أفضل نقاط بداية:
 
 - [كيفية تحويل الملاحظات إلى بطاقات تعليمية في 2026](/ar/blog/turn-notes-into-flashcards/)
-- [كيفية تحويل ملف PDF إلى بطاقات تعليمية في 2026](/ar/blog/how-to-turn-a-pdf-into-flashcards/)
 - [كيف تستخدم الذكاء الاصطناعي للاسترجاع النشط في 2026](/ar/blog/how-to-use-ai-for-active-recall/)
 
 ## ما الذي تمنحك إياه جلسة Blurting الجيدة فعلًا

@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1private-flashcards-with-ai.md"
 title: "2026 में प्राइवेट फ्लैशकार्ड्स: AI के साथ पढ़ाई करें, नियंत्रण छोड़े बिना"
 description: "जानें 2026 में प्राइवेट फ्लैशकार्ड्स कैसे रखें: ओपन सोर्स, ऑफलाइन-फर्स्ट स्पेस्ड रिपिटिशन, ऑप्शनल AI, और स्व-होस्टेड रास्ते के साथ."
 date: "2026-06-30"

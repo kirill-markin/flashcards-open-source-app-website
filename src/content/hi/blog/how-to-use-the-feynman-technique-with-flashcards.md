@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1hi~1blog~1how-to-use-the-feynman-technique-with-flashcards.md"
 title: "2026 में Flashcards के साथ Feynman Technique कैसे इस्तेमाल करें: आसान भाषा में समझाइए, फिर FSRS पर छोड़ दीजिए"
 description: "2026 में Feynman technique का एक practical workflow: topic को आसान भाषा में समझाइए, सिर्फ़ कमज़ोर हिस्सों को छोटे flashcards में बदलिए, और follow-up FSRS पर छोड़ दीजिए।"
 date: "2026-06-20"
@@ -63,11 +61,7 @@ Workflow सीधा है, लेकिन टिकाऊ है।
 
 छोटे topics से misses साफ़ दिखते हैं। साफ़ misses से cards बेहतर बनते हैं।
 
-अगर explanation pass से पहले source material अभी भी messy है, तो पहले इनमें से किसी एक से शुरू कीजिए:
-
-- [2026 में Notes को Flashcards में कैसे बदलें](/hi/blog/turn-notes-into-flashcards/)
-- [2026 में PDF को Flashcards में कैसे बदलें](/hi/blog/how-to-turn-a-pdf-into-flashcards/)
-- [2026 में जो पढ़ें उसे कैसे याद रखें](/hi/blog/how-to-remember-what-you-read/)
+अगर explanation pass से पहले source material अभी भी messy है, तो [2026 में Notes को Flashcards में कैसे बदलें](/hi/blog/turn-notes-into-flashcards/) से शुरू कीजिए।
 
 ## एक अच्छा Feynman explanation कैसा सुनाई देता है
 
@@ -150,10 +144,7 @@ Example:
 
 अगर explanation ने तीन weak spots दिखाए, तो तीन cards बनाइए। अगर उसने एक stubborn distinction दिखाया, तो एक card बनाइए। Card को ठीक उसी sentence पर aim कीजिए जहाँ आपका explanation drift करना शुरू हुआ था।
 
-अगर उस step के लिए card-writing के और सख़्त rules चाहिए, तो ये दो best follow-ups हैं:
-
-- [2026 में Flashcard पर क्या होना चाहिए?](/hi/blog/what-should-go-on-a-flashcard/)
-- [2026 में बेहतर Flashcards कैसे बनाएं](/hi/blog/how-to-make-better-flashcards/)
+अगर उस step के लिए card-writing के और सख़्त rules चाहिए, तो [2026 में बेहतर Flashcards कैसे बनाएं](/hi/blog/how-to-make-better-flashcards/) पढ़िए।
 
 ## इस method से निकले सबसे अच्छे cards अक्सर boring दिखते हैं
 
@@ -281,7 +272,7 @@ Feynman technique पूरा study system नहीं है। यह एक
 
 यह उस एक giant Sunday session से कहीं ज़्यादा sustainable है, जहाँ आप चार chapters master करने और पचास नए cards बनाने की कोशिश करते हैं।
 
-अगर queue noisy लगने लगे, तो [2026 में प्रति दिन कितने नए Flashcards जोड़ें](/hi/blog/how-many-new-flashcards-per-day/) और [2026 में Flashcards जल्दी कैसे review करें](/hi/blog/how-to-review-flashcards-faster/) अगले दो articles हैं जिन्हें मैं खोलूँगा।
+अगर queue पूरी करना मुश्किल होने लगे, तो [2026 में प्रति दिन कितने नए Flashcards जोड़ें](/hi/blog/how-many-new-flashcards-per-day/) review workload के हिसाब से नए cards की संख्या तय करने में मदद करेगा।
 
 ## वही version जिस पर मुझे सच में भरोसा है
 

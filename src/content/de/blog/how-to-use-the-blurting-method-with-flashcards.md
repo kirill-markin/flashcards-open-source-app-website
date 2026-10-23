@@ -1,6 +1,4 @@
 ---
-status: retired
-retirementEvidence: "docs/content-retirement/2026-10-20.json#/records/src~1content~1de~1blog~1how-to-use-the-blurting-method-with-flashcards.md"
 title: "So nutzt du 2026 die Blurting-Methode mit Flashcards: Blank-Page-Recall in FSRS-Reviews verwandeln"
 description: "Ein praxisnaher Leitfaden für 2026 zur Blurting-Methode mit Flashcards: Nutze Blank-Page-Recall, um Schwachstellen aufzudecken, verwandle nur die Fehler in klare Karten und überlass FSRS die weitere Planung."
 date: "2026-06-19"
@@ -87,7 +85,6 @@ Wenn der Umfang zu groß wird, verwandelt sich die Seite in ein Selbstberuhigung
 Wenn dein Material vor dem Blurting-Schritt noch aufgeräumt werden muss, sind diese Startpunkte besser:
 
 - [Wie du 2026 Notizen in Flashcards verwandelst](/de/blog/turn-notes-into-flashcards/)
-- [Wie du 2026 ein PDF in Flashcards verwandelst](/de/blog/how-to-turn-a-pdf-into-flashcards/)
 - [Wie du 2026 KI für Active Recall nutzt](/de/blog/how-to-use-ai-for-active-recall/)
 
 ## Was ein guter Blurt dir wirklich liefert
