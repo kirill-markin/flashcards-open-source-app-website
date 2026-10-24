@@ -1093,6 +1093,21 @@
     "bytes": 1975312
   },
   {
+    "publicPath": "/blog/geometric-distribution-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/4524e352cd6e1432e8e3dc43ce927da45e2afa21560821277bc69b3fd40aabe8.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "4524e352cd6e1432e8e3dc43ce927da45e2afa21560821277bc69b3fd40aabe8",
+    "bytes": 277812,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/002b4cbda23b5347a141469b2ac3a5a8fb9235c5e022df286c321c7df2b0184f.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "002b4cbda23b5347a141469b2ac3a5a8fb9235c5e022df286c321c7df2b0184f",
+      "bytes": 2861422
+    }
+  },
+  {
     "publicPath": "/blog/german-verb-second-word-order.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/9cef0683bec5da1e31c16d4b511efdcb844217f7bd58b41b6478eedbcbbe4557.webp",
     "width": 1672,
