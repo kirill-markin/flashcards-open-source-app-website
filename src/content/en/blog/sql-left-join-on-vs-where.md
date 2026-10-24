@@ -239,4 +239,6 @@ If one distinction caught you, save it as a small recall prompt. You don't need 
 
 Keep each card focused on one join or filtering decision. After checking it, return to the query and explain Ben, Cy, and Dee without looking at the tables. Their cases test missing qualifying matches, missing orders, and multiple matches.
 
+For a broader set of query-writing exercises, the [PostgreSQL SQL Interview Problems deck](/catalog/packages/postgresql-sql-interview-problems/) pairs 63 problems with PostgreSQL query solutions. Write your query before revealing the back, then account for the rows its joins and filters retain.
+
 *AI assisted substantially with research, drafting, exercise design, and editorial review; the illustration is AI-generated. The nine query variants described here were executed with fictional data in cloud BigQuery using GoogleSQL on October 17, 2026. PostgreSQL 18 documentation provided a documentation cross-check, not a PostgreSQL runtime test. No classroom trial, learner study, or human editorial review is claimed.*
