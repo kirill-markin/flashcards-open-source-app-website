@@ -268,4 +268,6 @@ If you missed an exercise, make a recall prompt from the exact distinction that 
 
 Keep each recall target narrow. Use the card to rehearse that distinction, then return to a full query and account for its rows: apply `WHERE`, form groups using their keys, calculate the aggregates, and apply `HAVING`.
 
+Continue with the [PostgreSQL SQL Interview Problems deck](/catalog/packages/postgresql-sql-interview-problems/) for 63 query-writing problems with PostgreSQL solutions. For each aggregation task, state what one output row represents before writing the grouping keys or checking the answer.
+
 *AI assisted substantially with research, writing, editing, and exercise construction; the illustration is AI-generated. The nine variants were executed with fictional data in cloud BigQuery using GoogleSQL on October 19, 2026, in Europe/Paris time (October 18 UTC). PostgreSQL 18 documentation was consulted, but no PostgreSQL runtime test, human editorial review, or classroom validation is claimed.*

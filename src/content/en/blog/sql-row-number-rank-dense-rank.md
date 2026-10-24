@@ -255,4 +255,6 @@ If one mistake keeps recurring, turn that decision into a small retrieval prompt
 
 Try answering with the entry IDs before rerunning the query. That makes a missed tie or changed population easier to spot than recalling a definition alone.
 
+To practice ranking choices alongside other SQL interview tasks, use the [PostgreSQL SQL Interview Problems deck](/catalog/packages/postgresql-sql-interview-problems/), with 63 problems and PostgreSQL query solutions. Decide how ties should behave before choosing a window function and revealing the answer.
+
 *This article was researched and written with substantial AI assistance. Its nine deterministic query variants were executed in BigQuery; the illustration is AI-generated.*

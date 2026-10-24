@@ -272,4 +272,6 @@ After checking an answer, keep a narrow prompt for the mistake. Include enough d
 
 You can put these prompts on paper or use front-and-back cards; the [getting started guide](/docs/getting-started/) explains the app path. Then change the blocked list and predict the rows again before running SQL. Keep both parts of your answer: the predicate value and whether `WHERE` retains it.
 
+For more complete query-writing prompts, the [PostgreSQL SQL Interview Problems deck](/catalog/packages/postgresql-sql-interview-problems/) has 63 problems with PostgreSQL query solutions. Write your answer before revealing the back, keeping the missing-value policy explicit whenever a column can be NULL.
+
 *This article was researched and written with AI assistance and edited through AI editorial passes. The nine matrix predicates and the two additional predicates in exercises 7 and 8 were executed over the five demonstration rows in cloud BigQuery using GoogleSQL on October 14, 2026, with synthetic data and no private tables. The other exercise answers apply those results and logical rules. PostgreSQL 18 documentation was used to cross-check scalar semantics; PostgreSQL execution and human review are not claimed.*
