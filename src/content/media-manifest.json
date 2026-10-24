@@ -750,6 +750,21 @@
     "bytes": 2106976
   },
   {
+    "publicPath": "/blog/dangling-modifiers-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/a4314a4766ea5ea73c737c1b47dda556803b96afa5c2aca9434a629afc161d54.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "a4314a4766ea5ea73c737c1b47dda556803b96afa5c2aca9434a629afc161d54",
+    "bytes": 155360,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/83ccfa5f01c5f09a58dbd08dcce1e94a2f87403a6ee7d6ae2dc8019bf8d3b69b.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "83ccfa5f01c5f09a58dbd08dcce1e94a2f87403a6ee7d6ae2dc8019bf8d3b69b",
+      "bytes": 2307205
+    }
+  },
+  {
     "publicPath": "/blog/diffusion-vs-osmosis.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/94534d6ba10ac0b71dec50a8c9206dbdf5816ad7a2f358a2ad2c32e180e03f44.png",
     "width": 1672,
