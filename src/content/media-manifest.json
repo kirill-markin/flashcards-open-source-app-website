@@ -2819,6 +2819,21 @@
     "bytes": 2396307
   },
   {
+    "publicPath": "/blog/serial-dilution-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/161988942eb0476cb279f5cbe4e611223a901219282e85ebac09c26445849437.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "161988942eb0476cb279f5cbe4e611223a901219282e85ebac09c26445849437",
+    "bytes": 203874,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/70a80ae648f4dec955aee8eb3d05df865f51651790c9d480a286713a2064f9d8.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "70a80ae648f4dec955aee8eb3d05df865f51651790c9d480a286713a2064f9d8",
+      "bytes": 2463246
+    }
+  },
+  {
     "publicPath": "/blog/series-parallel-circuit-practice.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/6d07141cb92dbe4c7d378075f0656898c433a9cc4b3ebbbcafc3df60a8d7f82f.webp",
     "width": 1672,
