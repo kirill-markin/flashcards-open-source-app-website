@@ -114,6 +114,8 @@ That is usually better for **flashcards for vocabulary** than endless translatio
 
 For English phrases, the [English phrasal verb flashcards](/catalog/packages/english-phrasal-verbs-flashcards/) pair meaning recall in short contexts with word-order practice, including where object pronouns belong. For verb forms, the [past simple vs past participle flashcards](/catalog/packages/past-simple-vs-past-participle-flashcards/) give you a base verb and a sentence to complete, with the answer and grammatical clue on the back.
 
+For tense choice, the [past perfect vs past simple flashcards](/catalog/packages/past-perfect-vs-past-simple-flashcards/) include whole-phrase blanks that distinguish a story moving forward from a look back at an earlier event.
+
 ## Do not let the deck become a museum of words you never plan to use
 
 This happens a lot with AI-generated decks and imported lists.

@@ -105,6 +105,8 @@ Keep enough context on each card to judge the meaning. A bare “I ___ the door�
 
 For tense choice, leave the whole verb phrase blank. A prompt such as “Ren had ___” already chooses the tense and mainly tests the participle. Put accepted alternatives and their reasons on the back, so the card doesn't teach a false rule.
 
+For more retrieval practice, the [past perfect vs past simple flashcards](/catalog/packages/past-perfect-vs-past-simple-flashcards/) cover event order, whole-phrase tense choices, and meaning repairs. The answers explain valid alternatives where both tenses fit.
+
 Try a fresh story before finishing. At 4:00, Imani put the picnic food indoors. At 4:10, rain started. At 4:15, everyone moved inside. Write one version in time order, then another starting with the rain and looking back to the food.
 
 One chronological version is: “Imani **put** the food indoors. Ten minutes later, rain **started**, and everyone **moved** inside.” Starting at the later moment: “Rain **started** at 4:10. Imani **had put** the food indoors, so everyone **moved** inside to eat.” On your next review, change the events and explain the order again before choosing the verbs.

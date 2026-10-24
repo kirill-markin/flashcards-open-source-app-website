@@ -61,6 +61,8 @@ In Report B, **yesterday** also works for 7 June. **The next day** works when cl
 
 Past simple usually becomes past perfect when backshifted; past perfect stays unchanged. The [British Council's statement lesson](https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/reported-speech-statements) covers these patterns. Use the [past perfect timeline guide](/blog/past-perfect-vs-past-simple/) if *had repaired* is unfamiliar, or the [past participle guide](/blog/past-simple-vs-past-participle/) for forms such as *had written*.
 
+For separate event-order practice, the [past perfect vs past simple flashcards](/catalog/packages/past-perfect-vs-past-simple-flashcards/) ask you to choose the whole verb phrase from a past timeline.
+
 ## Check whether the information still applies
 
 Backshift isn't compulsory after every past reporting verb. Suppose Sana says, “I repair bicycles,” and you know she still does that work:
