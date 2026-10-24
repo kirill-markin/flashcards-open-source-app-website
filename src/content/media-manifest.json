@@ -3103,6 +3103,21 @@
     "bytes": 1960766
   },
   {
+    "publicPath": "/blog/triad-inversion-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/8e68521aa27ed1f9923249cd132235ba25df825386d34b46fa66075257e794bd.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "8e68521aa27ed1f9923249cd132235ba25df825386d34b46fa66075257e794bd",
+    "bytes": 299124,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/0e29ef0a6f15b67c987f165d960e1ed7efb0da7d2ca51083dd7cc1e381485aa0.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "0e29ef0a6f15b67c987f165d960e1ed7efb0da7d2ca51083dd7cc1e381485aa0",
+      "bytes": 3010144
+    }
+  },
+  {
     "publicPath": "/blog/truth-values-conjunction-disjunction.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/36cc29f7cae54e18f81b697ccce94d4753081831fac6e32e2e4f078636f16517.png",
     "width": 1672,
