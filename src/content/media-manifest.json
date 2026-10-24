@@ -2529,6 +2529,21 @@
     }
   },
   {
+    "publicPath": "/blog/python-mutable-default-arguments.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/5be229561840d823eb0578dfa5abc000ed304b3d05256283b33b5da27b57204e.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "5be229561840d823eb0578dfa5abc000ed304b3d05256283b33b5da27b57204e",
+    "bytes": 168236,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/ff194a976c7c62edc3199b706190500bd55e46ea68881709e289d3e3aaafb9f7.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "ff194a976c7c62edc3199b706190500bd55e46ea68881709e289d3e3aaafb9f7",
+      "bytes": 2459578
+    }
+  },
+  {
     "publicPath": "/blog/python-shallow-vs-deep-copy-practice.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/2f12c6702300b9f5ceb273d066c916c95076e0c3044e94da99131381eec200c3.webp",
     "width": 1672,
