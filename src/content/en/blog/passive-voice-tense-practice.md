@@ -40,7 +40,7 @@ These are separate entries in a fictional repair workshop's records. Each passiv
 
 The first row also changes agreement. *The technicians* is plural, but the new subject, *every brake*, is singular, so the passive needs **is**. Don't copy the old subject's number into the new verb.
 
-The fourth row keeps two events in order: the wheel replacement was complete before the call. Changing *had been replaced* to *was being replaced* would describe work in progress, losing that statement of completion. For more practice with this timeline, see [past perfect vs past simple](/blog/past-perfect-vs-past-simple/).
+The fourth row keeps two events in order: the wheel replacement was complete before the call. Changing *had been replaced* to *was being replaced* would describe work in progress, losing that statement of completion. For this tense distinction, use the [past perfect vs past simple lesson](/blog/past-perfect-vs-past-simple/) or try the [timeline flashcards](/catalog/packages/past-perfect-vs-past-simple-flashcards/) for separate event-order practice.
 
 ## Being vs been: build from the original verb phrase
 
