@@ -16,6 +16,11 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   "serial-dilution-practice": { en: "ap-chemistry-flashcards" },
   "git-reflog-recover-lost-commits": { en: "git-commands-flashcards" },
   "git-reset-restore-revert-practice": { en: "git-commands-flashcards" },
+  "sql-group-by-having-practice": { en: "postgresql-sql-interview-problems" },
+  "sql-left-join-on-vs-where": { en: "postgresql-sql-interview-problems" },
+  "sql-null-not-in-practice": { en: "postgresql-sql-interview-problems" },
+  "sql-row-number-rank-dense-rank": { en: "postgresql-sql-interview-problems" },
+  "sql-union-vs-union-all-practice": { en: "postgresql-sql-interview-problems" },
   "us-state-abbreviations": { en: "us-state-abbreviations-flashcards" },
   "anatomical-directional-terms": {
     en: "anatomical-directional-terms",
