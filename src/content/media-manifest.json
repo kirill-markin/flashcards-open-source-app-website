@@ -1037,6 +1037,36 @@
     "bytes": 1982893
   },
   {
+    "publicPath": "/blog/force-displacement-graph-practice-chart.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/561b77062c8e7c46c3ffc8c254d5cfd102ae04eed9a5917d2cb0997bf4702125.webp",
+    "width": 2016,
+    "height": 1116,
+    "sha256": "561b77062c8e7c46c3ffc8c254d5cfd102ae04eed9a5917d2cb0997bf4702125",
+    "bytes": 56700,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/67de1c53eaee8c3a78c015f466397df4ee0951eac43b0a3de3fb3668d85ff020.png",
+      "width": 2016,
+      "height": 1116,
+      "sha256": "67de1c53eaee8c3a78c015f466397df4ee0951eac43b0a3de3fb3668d85ff020",
+      "bytes": 132482
+    }
+  },
+  {
+    "publicPath": "/blog/force-displacement-graph-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/dc053c1d8ad86f8eceedb11f84b9907bd920e7e0a256a8ab77a24258a63c6d82.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "dc053c1d8ad86f8eceedb11f84b9907bd920e7e0a256a8ab77a24258a63c6d82",
+    "bytes": 146390,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/9f814b208caab1a4bea76b355a4f6b54b0e049e90ca4cb84500b74f3efc3e231.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "9f814b208caab1a4bea76b355a4f6b54b0e049e90ca4cb84500b74f3efc3e231",
+      "bytes": 2297623
+    }
+  },
+  {
     "publicPath": "/blog/formal-charge-vs-oxidation-number.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/998b8027f999c28d19c35650c6aba34eb99d70442b0206912e1363ae1587b316.png",
     "width": 1672,

@@ -13,6 +13,7 @@ import { getPublicCatalogPackageLocalizedPathname } from "./publicCatalogUrls";
 const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   Record<string, Readonly<Partial<Record<AppLocale, string>>>>
 > = {
+  "force-displacement-graph-practice": { en: "ap-physics-1-flashcards" },
   "serial-dilution-practice": { en: "ap-chemistry-flashcards" },
   "git-reflog-recover-lost-commits": { en: "git-commands-flashcards" },
   "git-reset-restore-revert-practice": { en: "git-commands-flashcards" },
