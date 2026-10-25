@@ -91,6 +91,8 @@ This also matters for probability. Suppose each of two independent draws chooses
 
 When replacement is forbidden, the available choices change after a draw. The [probability without replacement worksheet](/blog/probability-without-replacement/) follows those changing counts and probabilities step by step.
 
+For short recall practice with those decisions, use the [probability without replacement flashcards](/catalog/packages/probability-without-replacement-flashcards/). They ask you to track what remains and distinguish one ordered path from an event that allows several orders.
+
 ## Reusable symbols differ from a fixed inventory
 
 Reusable symbols let you choose A again whenever you fill another position. Arranging the letters in **MAMA** gives you a fixed inventory instead: you must use exactly two M letters and two A letters. You may swap existing copies, but you can't add new ones.

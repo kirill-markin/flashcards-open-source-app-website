@@ -153,6 +153,8 @@ Count equally likely subsets of three distinct tokens. There are `C(10, 3) = 120
 
 Binomial(3, 0.6) would instead give `3 × 0.6² × 0.4 = 0.432`, so it isn't exact for this bag. For calculations that follow the changing collection draw by draw, continue with the [probability without replacement guide](/blog/probability-without-replacement/).
 
+The [probability without replacement flashcards](/catalog/packages/probability-without-replacement-flashcards/) offer short prompts on remaining counts, ordered paths, and exactly or at-least events in finite collections. Use them to review those setup decisions before solving another full draw problem.
+
 ## Keep the decision available for next time
 
 After solving, turn a missed decision into a small retrieval prompt. Try “Which counts does X > 3 include when n = 5?” or “Does a constant success probability prove independence?” Answer from memory, then check: **4 and 5**; **no—the shared-switch model is a counterexample**.
