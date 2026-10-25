@@ -76,6 +76,8 @@ The [University of Minnesota's two-way-table lesson](https://www.stat.umn.edu/ge
 
 P(A | B) and P(B | A) can happen to be equal. You still need to check their respective denominators. A conditional percentage alone generally isn't enough to calculate the reverse conditional probability.
 
+To practice how the given information affects a sequence of draws, try the [probability without replacement flashcards](/catalog/packages/probability-without-replacement-flashcards/). Their finite-collection prompts distinguish a known first result from a hidden draw and from knowing that at least one selected item has a property.
+
 ## Build a table from percentages
 
 Suppose a fictional depot has 240 parcels:
