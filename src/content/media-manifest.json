@@ -1971,6 +1971,21 @@
     "bytes": 2296964
   },
   {
+    "publicPath": "/blog/javascript-promise-all-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/b523641d2d92ad227cab5d799d9f0d584b8f241cb4a64dc60d5536eec74262df.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "b523641d2d92ad227cab5d799d9f0d584b8f241cb4a64dc60d5536eec74262df",
+    "bytes": 354770,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/0fe7838287fb8334b23f7ecbb2650ac43d0b57009618214f6297b6af9dcfbb03.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "0fe7838287fb8334b23f7ecbb2650ac43d0b57009618214f6297b6af9dcfbb03",
+      "bytes": 3182288
+    }
+  },
+  {
     "publicPath": "/blog/jlpt-flashcards.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/959dd8311ac2731e6ef2777d1ba9eba3dae2db849b5868868f1153cfd2df2e01.png",
     "width": 1672,
