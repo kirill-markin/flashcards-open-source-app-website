@@ -2713,6 +2713,21 @@
     }
   },
   {
+    "publicPath": "/blog/relative-risk-vs-odds-ratio-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/5524fa139a837712dc9418a1ea58bb992d6645793280bcdc6636cedcbdfbe467.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "5524fa139a837712dc9418a1ea58bb992d6645793280bcdc6636cedcbdfbe467",
+    "bytes": 140524,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/f1e21cb2cd48f0428ec4e9f53ec0d3a024d7076f328becae79e75a5dc579ea56.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "f1e21cb2cd48f0428ec4e9f53ec0d3a024d7076f328becae79e75a5dc579ea56",
+      "bytes": 2172367
+    }
+  },
+  {
     "publicPath": "/blog/relative-vs-parallel-minor.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/f69920750867e6a9fe89e9a3dca41fe1f46f7de3be77c686dbd56143fb4e2a6d.png",
     "width": 1672,
