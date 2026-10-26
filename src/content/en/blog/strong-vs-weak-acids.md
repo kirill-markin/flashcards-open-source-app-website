@@ -67,7 +67,7 @@ For pH, use **pH ≈ −log₁₀[H₃O⁺]**, inserting the numerical concentra
 | B | 0.10 × 0.010 M | 0.0010 M | 3.00 |
 | C | 1.00 × 0.00010 M | 0.00010 M | 4.00 |
 
-For A and B, −log₁₀(10⁻³) = 3. For C, −log₁₀(10⁻⁴) = 4. If the powers slow you down, try the separate [scientific notation practice](/blog/scientific-notation-practice/).
+For A and B, −log₁₀(10⁻³) = 3. For C, −log₁₀(10⁻⁴) = 4. If the powers slow you down, try the separate [scientific notation practice](/blog/scientific-notation-practice/) or the [scientific notation flashcards](/catalog/packages/scientific-notation-practice-flashcards/) for exact decimal conversions and exponent checks. The cards leave logarithms and acid-equilibrium calculations to your chemistry practice.
 
 A and B share a pH. B has ten times A's analytical concentration, but only one tenth of B's acid ionizes. The products αC match.
 
