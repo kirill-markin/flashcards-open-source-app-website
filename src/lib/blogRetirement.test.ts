@@ -1,3 +1,6 @@
+// Next snapshots AsyncLocalStorage at import time, so its runtime setup must come first.
+import "next/dist/server/node-environment-baseline";
+
 import assert from "node:assert/strict";
 import { mkdirSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
