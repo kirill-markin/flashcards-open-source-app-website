@@ -46,7 +46,7 @@ Set the reporting limit before rounding:
 | `4.70 × 10⁻⁴ M` | 3 | `3.327902…` | **3.328** |
 | `0.000800 M` | 3 | `3.096910…` | **3.097** |
 
-In `0.000800`, the leading zeros position the decimal point. The `8` and its two trailing zeros give three significant figures. Scientific notation makes the count easier to see: `8.00 × 10⁻⁴ M`. The exponent doesn't add significant figures. Use the [scientific notation practice](/blog/scientific-notation-practice/) if these counts need work.
+In `0.000800`, the leading zeros position the decimal point. The `8` and its two trailing zeros give three significant figures. Scientific notation makes the count easier to see: `8.00 × 10⁻⁴ M`. The exponent doesn't add significant figures. For decimal conversions and exponent-sign checks, use the [scientific notation practice](/blog/scientific-notation-practice/) or the [scientific notation flashcards](/catalog/packages/scientific-notation-practice-flashcards/). Those exercises use exact values; keep significant-figure counts and pH reporting rules in this worksheet.
 
 The first two rows describe equal numerical values with different stated precision. Adding a zero yourself doesn't improve a measurement; these are separately supplied inputs. A calculator treats them identically, so its display can't choose the reporting limit for you.
 

@@ -117,7 +117,7 @@ Use `1 m = 100 cm`, now raised to the third power:
 = 0.00042 m³
 ```
 
-In scientific notation, the answer is `4.2 × 10^-4 m³`: `420 × 10^-6 = 4.2 × 10^-4`. The power in the conversion factor and the power in the final answer can differ because the starting numerical value also contributes.
+In scientific notation, the answer is `4.2 × 10^-4 m³`: `420 × 10^-6 = 4.2 × 10^-4`. The power in the conversion factor and the power in the final answer can differ because the starting numerical value also contributes. For the normalization step, the [scientific notation flashcards](/catalog/packages/scientific-notation-practice-flashcards/) offer short exact-number prompts and error checks. The unit-factor setup stays in this conversion practice.
 
 ## Liters already measure volume
 

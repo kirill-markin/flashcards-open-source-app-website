@@ -154,6 +154,8 @@ Use fresh problems to practice that move:
 - `470 kΩ = 0.470 MΩ`, because `3 - 6 = -3`
 - `12 ns = 1.2 × 10^-8 s`
 
+If decimal placement or exponent arithmetic is the sticking point, the [scientific notation flashcards](/catalog/packages/scientific-notation-practice-flashcards/) practice exact conversions, normalization, and operations with powers of ten. Keep choosing prefixes and setting up unit conversions in your written practice.
+
 Do not turn those four finished answers into permanent cards and call the conversion skill learned. Once you remember the particular numbers, the card tests recognition of an old example. Work new values, change the source and target prefixes, and estimate the direction before calculating.
 
 A small card can still repair a repeated conversion error:

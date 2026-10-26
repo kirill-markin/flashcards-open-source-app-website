@@ -125,6 +125,8 @@ A useful error card does not need to copy the whole original problem. It just ne
 - Why do I check for extraneous solutions after solving an equation with a square root?
 - In a calculus problem, what mistake happens if I differentiate the outside without handling the inside?
 
+For repeated exponent-sign or normalization errors, the [scientific notation flashcards](/catalog/packages/scientific-notation-practice-flashcards/) give you short exact conversions, operations, and mistake-repair prompts. Answer before revealing the back, then apply the same decision to fresh numbers on paper.
+
 For the probability example, the [probability without replacement flashcards](/catalog/packages/probability-without-replacement-flashcards/) give you short prompts on updating a finite collection after each observed draw, keeping all allowed orders, and using complements. Follow the recall practice with a fresh draw problem so you still work through the calculation.
 
 This is one reason I like error cards so much for **spaced repetition math**. They stay close to reality. They come from actual failures, not from a fantasy version of studying where every card is equally important.
