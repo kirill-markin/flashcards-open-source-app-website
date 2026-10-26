@@ -998,6 +998,21 @@
     }
   },
   {
+    "publicPath": "/blog/find-mtime-vs-ctime.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/b6d8f244a2eabfdeb32175c7a8c1bbda1b5a74b117ce83cb4af4dc2b96e0b045.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "b6d8f244a2eabfdeb32175c7a8c1bbda1b5a74b117ce83cb4af4dc2b96e0b045",
+    "bytes": 178722,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/97935d3376ffbcc037690764dc9f84a117a9b760d8a393d687b403ac97311bc9.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "97935d3376ffbcc037690764dc9f84a117a9b760d8a393d687b403ac97311bc9",
+      "bytes": 2371576
+    }
+  },
+  {
     "publicPath": "/blog/find-mtime.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/100382186cde189b771ab2788e0f29698f422d6b8d5708587e546653208031ce.png",
     "width": 1672,
