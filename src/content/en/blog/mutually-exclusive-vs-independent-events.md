@@ -65,6 +65,8 @@ Use ten as the count denominator because the given information restricts your at
 
 Independence describes a relationship between probabilities. It doesn't establish a causal claim about color or shape.
 
+For a sequence where an observed draw changes the collection, use the [probability without replacement flashcards](/catalog/packages/probability-without-replacement-flashcards/). They practice updating the remaining counts and distinguishing an observed first result from a hidden one before calculating the next probability.
+
 When two observations are used to identify a hidden source, check independence within each possible source before multiplying their likelihoods. The [Bayes' theorem flashcards](/catalog/packages/bayes-theorem-base-rate-flashcards/) include short prompts on that conditional check and on updating from evidence.
 
 ## Keep the totals, change the answer

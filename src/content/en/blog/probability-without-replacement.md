@@ -160,6 +160,8 @@ They total 108/210 = 18/35. In RRB, the last numerator counts blues; in RBR, it 
 
 Find your first incorrect step. A narrow card can prompt that decision; use complete problems for calculations.
 
+The [probability without replacement flashcards](/catalog/packages/probability-without-replacement-flashcards/) give you short draw-by-draw practice with remaining counts, ordered paths, either-order events, complements, and hidden versus observed draws. Review the step you missed, then try a fresh collection without the answers in view.
+
 | Flashcard front | Flashcard back |
 |---|---|
 | Three red and two blue tokens; first draw observed red, without replacement. What fraction are red now? | 2/4. One red and one total token have left. |

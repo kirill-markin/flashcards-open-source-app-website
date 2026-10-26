@@ -124,6 +124,8 @@ Do not memorize one floating checklist for every procedure. Ask how a condition 
 
 Build separate cards for each procedure's conditions. This keeps unrelated rules out of your answer.
 
+For exact probabilities in small finite collections, the [probability without replacement flashcards](/catalog/packages/probability-without-replacement-flashcards/) practice updating counts after observed draws, following ordered paths, and including every permitted order. Use these focused prompts alongside the broader course deck and full probability problems.
+
 ### 3. Parameter-versus-statistic cards
 
 Keep the population attached to the notation.
