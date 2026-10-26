@@ -2667,6 +2667,21 @@
     "bytes": 2258681
   },
   {
+    "publicPath": "/blog/rate-law-initial-rates-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/08e656387bf7bf649c965ca4e09253797520977860f2bdb8f0809c728fc7847d.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "08e656387bf7bf649c965ca4e09253797520977860f2bdb8f0809c728fc7847d",
+    "bytes": 240328,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/66d11d7f77b410b9d2ffa35cab2fa07c498693f3b6b13f1886e5c9208922237c.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "66d11d7f77b410b9d2ffa35cab2fa07c498693f3b6b13f1886e5c9208922237c",
+      "bytes": 2733301
+    }
+  },
+  {
     "publicPath": "/blog/recover-deleted-anki-deck.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/79e1cf1ceb3fd4097739786c0258451ead0fcc321e10d4d72006de3551028098.png",
     "width": 1672,
