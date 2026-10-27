@@ -3077,6 +3077,21 @@
     }
   },
   {
+    "publicPath": "/blog/sql-rows-vs-range-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/37eaebb993521a46c99728009dc45a7c4b6c24b1a1b33b23532ca4720a878fdf.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "37eaebb993521a46c99728009dc45a7c4b6c24b1a1b33b23532ca4720a878fdf",
+    "bytes": 388630,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/f6e65d0dbea896081f8933d31dac332e952d856be6d2ef8b24b17e8279602adb.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "f6e65d0dbea896081f8933d31dac332e952d856be6d2ef8b24b17e8279602adb",
+      "bytes": 3347746
+    }
+  },
+  {
     "publicPath": "/blog/sql-union-vs-union-all-practice.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/086bb6ace13fd811a7b0d2316bb80e868cbb22d315300bba4e4f1063485c666b.webp",
     "width": 1672,
