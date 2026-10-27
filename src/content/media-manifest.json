@@ -281,6 +281,21 @@
     "bytes": 1754219
   },
   {
+    "publicPath": "/blog/anki-review-sort-order.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/90dedb66991db5fe5bc0a4fb4be558892de55c4f8ae1fe36acfbbffc0f086326.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "90dedb66991db5fe5bc0a4fb4be558892de55c4f8ae1fe36acfbbffc0f086326",
+    "bytes": 198026,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/fa1c0b3acc51ce156b9be4076aeaa712429b797056584bfc568baee275483601.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "fa1c0b3acc51ce156b9be4076aeaa712429b797056584bfc568baee275483601",
+      "bytes": 2444218
+    }
+  },
+  {
     "publicPath": "/blog/anki-search-filters.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/a46a0832a0a716468fb3db42b251490abd4696eb65efc7212d84753ece82c159.png",
     "width": 1672,
