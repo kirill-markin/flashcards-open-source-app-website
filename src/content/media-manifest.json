@@ -273,6 +273,21 @@
     }
   },
   {
+    "publicPath": "/blog/anki-retention-statistics.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/7d2f5b941e3fff567c40bd953326dae0d111028c5f671a124aafe362aa7489b5.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "7d2f5b941e3fff567c40bd953326dae0d111028c5f671a124aafe362aa7489b5",
+    "bytes": 257774,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/08e5a4b4b1273be5f8150856fda0737c82c28b3c96ba6eb48f26ab474fa571c9.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "08e5a4b4b1273be5f8150856fda0737c82c28b3c96ba6eb48f26ab474fa571c9",
+      "bytes": 2777690
+    }
+  },
+  {
     "publicPath": "/blog/anki-reverse-cards.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/480b3759c3b65a8083b075a3e8749d11bf3acf38679edb8e51e933cb38aceb83.png",
     "width": 1672,
