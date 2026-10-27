@@ -709,6 +709,21 @@
     "bytes": 2220346
   },
   {
+    "publicPath": "/blog/comparative-advantage-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/dfc0ea8f1803f596ff54fb8e4e299b99b775d655414d96f8a164dd5ad0260e7d.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "dfc0ea8f1803f596ff54fb8e4e299b99b775d655414d96f8a164dd5ad0260e7d",
+    "bytes": 202310,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/473c732de08609d75643a1ab7af696c63ebf5349d86461351b211f755d4ca12e.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "473c732de08609d75643a1ab7af696c63ebf5349d86461351b211f755d4ca12e",
+      "bytes": 2578992
+    }
+  },
+  {
     "publicPath": "/blog/comptia-a-plus-flashcards.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/10aa440be61d89176a676c840215f73027c9754241eeea54304c1dbcdf6ac45a.png",
     "width": 1672,
