@@ -2369,6 +2369,21 @@
     "bytes": 2132614
   },
   {
+    "publicPath": "/blog/momentum-collisions-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/7bdf4a698865606bcb35cdb5fb211d899a59e7bdbd437783bc382d379b673592.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "7bdf4a698865606bcb35cdb5fb211d899a59e7bdbd437783bc382d379b673592",
+    "bytes": 128808,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/1300d56150c6cce8e99005d37139e662f7e7fa7661cbed1e709f02def2bbd5e2.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "1300d56150c6cce8e99005d37139e662f7e7fa7661cbed1e709f02def2bbd5e2",
+      "bytes": 2133350
+    }
+  },
+  {
     "publicPath": "/blog/monohybrid-cross-practice.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/0af7cb9db0e6ebc6468a8f57155491af867de05cde6530a0de9e02dd2b1cd022.png",
     "width": 1672,
