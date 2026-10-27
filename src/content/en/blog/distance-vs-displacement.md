@@ -108,6 +108,8 @@ For the explicitly straight-segment graph, the total elapsed time is 11 s. Avera
 
 Include the waiting time in both denominators. If the units need a refresher, the [SI base and derived units guide](/blog/si-base-and-derived-units/) explains how units such as m/s are built.
 
+To practice that numerator choice in short one-axis journeys, the [average speed flashcards](/catalog/packages/average-speed-practice-flashcards/) include average-speed and signed-average-velocity prompts. Choose the requested quantity before dividing by elapsed time.
+
 ## A corner needs two components
 
 A robot travels 8 m east along one straight corridor, then 15 m north along another. The corridors meet at a right angle, and these are its only movements.

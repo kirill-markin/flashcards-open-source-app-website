@@ -87,7 +87,7 @@ The cart has zero velocity at 0, 7, and 13 s. During the plotted 13 seconds, the
 
 For one straight velocity segment, average velocity is `(initial velocity + final velocity) / 2`. Multiply by the duration to find displacement. This shortcut follows from [constant-acceleration motion](https://openstax.org/books/university-physics-volume-1/pages/3-4-motion-with-constant-acceleration).
 
-The cart's whole graph isn't one straight segment, so its endpoints alone don't justify that shortcut. Use the areas: average velocity is `+4/13 ≈ +0.308 m/s`, and average speed is `36/13 ≈ 2.77 m/s`. The [average speed practice](/blog/average-speed-practice/) has more problems with unequal time intervals.
+The cart's whole graph isn't one straight segment, so its endpoints alone don't justify that shortcut. Use the areas: average velocity is `+4/13 ≈ +0.308 m/s`, and average speed is `36/13 ≈ 2.77 m/s`. The [average speed practice](/blog/average-speed-practice/) has more problems with unequal time intervals. For text-based journey calculations, the [average speed flashcards](/catalog/packages/average-speed-practice-flashcards/) practice time weighting and stops.
 
 ## Eight velocity–time graph practice questions
 
