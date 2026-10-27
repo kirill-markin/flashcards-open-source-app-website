@@ -2110,6 +2110,21 @@
     "bytes": 2481775
   },
   {
+    "publicPath": "/blog/measurement-uncertainty-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/f46ed5520ee471539ec034e9420317c178a174fedd695f90f3b8e5d266e02541.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "f46ed5520ee471539ec034e9420317c178a174fedd695f90f3b8e5d266e02541",
+    "bytes": 162406,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/704532f7d9c26e7df74c7ab4fa9455cae9eb5a7ec02cacffa2980572a167f3b4.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "704532f7d9c26e7df74c7ab4fa9455cae9eb5a7ec02cacffa2980572a167f3b4",
+      "bytes": 2412981
+    }
+  },
+  {
     "publicPath": "/blog/medical-terminology-flashcards.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/9762649bb3f9d971ad87aa292e48de7bc2b018a17130c0eb4d4d7b858f9d2a14.png",
     "width": 1200,
