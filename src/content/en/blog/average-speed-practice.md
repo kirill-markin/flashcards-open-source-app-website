@@ -169,4 +169,6 @@ Keep full worked problems on paper. A short recall card can help you remember th
 | What must I check before finding a speed needed to reach a positive target average? | Find the total time budget: distance / target average. Subtract elapsed time and future stops. Positive remaining distance needs positive remaining travel time. |
 | Can a round trip have positive average speed and zero average velocity? | Yes. Distance is positive; displacement is zero because the endpoints match. |
 
+For more short scenarios, the [average speed flashcards](/catalog/packages/average-speed-practice-flashcards/) practice equal-distance and equal-time weighting, stops, and target-time checks. Solve each card before revealing its calculation, then return to full problems on paper.
+
 On the next attempt, change the numbers and decide whether the problem specifies equal times, equal distances, or neither before calculating. The [algebra-based physics flashcard guide](/blog/how-to-use-flashcards-for-algebra-based-physics-1/) explains how to pair small recall prompts with full problem solving.
