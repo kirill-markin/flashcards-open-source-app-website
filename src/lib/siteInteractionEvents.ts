@@ -3,8 +3,8 @@
 import { isSiteAnalyticsCollectionEnabled } from "@/lib/analyticsConsent";
 import type { AppLocale } from "@/lib/i18n";
 import {
-  classifySiteSource,
   getSiteDeviceCategory,
+  getSiteLoadSource,
   getSitePageKind,
   sendSiteAnalyticsEvent,
   type SiteCopyTarget,
@@ -26,7 +26,7 @@ export function reportSiteOutboundClick(
     target,
     page_kind: getSitePageKind(window.location.pathname),
     placement,
-    source: classifySiteSource(document.referrer, window.location.hostname),
+    source: getSiteLoadSource(),
     device_category: getSiteDeviceCategory(),
   });
 }

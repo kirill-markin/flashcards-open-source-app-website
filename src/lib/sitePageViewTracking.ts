@@ -112,6 +112,8 @@ function sendPendingSitePageView(): void {
       ...(draft.campaign.utmSource === null ? {} : { utm_source: draft.campaign.utmSource }),
       ...(draft.campaign.utmMedium === null ? {} : { utm_medium: draft.campaign.utmMedium }),
       ...(draft.campaign.utmCampaign === null ? {} : { utm_campaign: draft.campaign.utmCampaign }),
+      ...(draft.campaign.utmContent === null ? {} : { utm_content: draft.campaign.utmContent }),
+      ...(draft.campaign.utmTerm === null ? {} : { utm_term: draft.campaign.utmTerm }),
       ...(draft.timeZone === null ? {} : { time_zone: draft.timeZone }),
       automation: draft.automation,
       screen_width_bucket: draft.screenWidthBucket,
@@ -173,6 +175,7 @@ function reportSitePageView(locale: AppLocale, pageUrl: string): void {
   }
 
   const deviceCategory = getSiteDeviceCategory();
+  const campaign = readSiteCampaignParameters(window.location.search);
 
   sendPendingSitePageView();
   pendingSitePageView = {
@@ -181,10 +184,10 @@ function reportSitePageView(locale: AppLocale, pageUrl: string): void {
     pageKind,
     pagePath,
     packageVersionId,
-    source: classifySiteSource(referrer, window.location.hostname),
+    source: classifySiteSource(referrer, window.location.hostname, campaign.utmSource),
     deviceCategory,
     referrerHost: classifySiteReferrerHost(referrer, window.location.hostname),
-    campaign: readSiteCampaignParameters(window.location.search),
+    campaign,
     timeZone: getSiteTimeZone(),
     automation: getSiteAutomation(),
     screenWidthBucket: getSiteScreenWidthBucket(),
