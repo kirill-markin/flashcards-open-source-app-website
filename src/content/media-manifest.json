@@ -2694,6 +2694,21 @@
     }
   },
   {
+    "publicPath": "/blog/python-late-binding-closures.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/220494243e4fbed9b7507351ed7f2dd3006690836ac4994926c1497beb791330.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "220494243e4fbed9b7507351ed7f2dd3006690836ac4994926c1497beb791330",
+    "bytes": 135810,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/7511dd7be62a1bf8fe47f6960de95c2b0676266e576f50787c5fc6a36b3c5bb9.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "7511dd7be62a1bf8fe47f6960de95c2b0676266e576f50787c5fc6a36b3c5bb9",
+      "bytes": 2150810
+    }
+  },
+  {
     "publicPath": "/blog/python-mutable-default-arguments.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/5be229561840d823eb0578dfa5abc000ed304b3d05256283b33b5da27b57204e.webp",
     "width": 1672,
