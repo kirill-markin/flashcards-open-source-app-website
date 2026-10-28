@@ -17,8 +17,8 @@ import type { AppEntryPlacement } from "@/lib/appEntryTracking";
 import type { AppLocale } from "@/lib/i18n";
 import { getExternalLinkAttributes } from "@/lib/linkTargets";
 import {
-  classifySiteSource,
   getSiteDeviceCategory,
+  getSiteLoadSource,
   getSitePageKind,
   sendSiteAnalyticsEvent,
   type SiteAppEntryStoreTarget,
@@ -69,7 +69,7 @@ function reportStoreQrShown(
     target,
     page_kind: pageKind,
     placement,
-    source: classifySiteSource(document.referrer, window.location.hostname),
+    source: getSiteLoadSource(),
     device_category: getSiteDeviceCategory(),
     url,
   });

@@ -9,6 +9,7 @@ export type SiteSource =
   | "social"
   | "referral"
   | "internal"
+  | "ai_assistant"
   | "unknown";
 
 export type SiteDeviceCategory =
@@ -121,10 +122,10 @@ interface SiteAnalyticsEventPropertiesByName {
     device_category: SiteDeviceCategory;
   }>;
   /**
-   * `referrer_host` and the three `utm_*` properties say where the visit came from, which `source`
-   * only sorts into six buckets. They are optional the way `page_path` is: a direct visit has no
-   * referrer, an uncampaigned link has no `utm_*`, and a value outside its shape is left out rather
-   * than trimmed into one. They sit here alone because a visit begins once.
+   * `referrer_host` and the five `utm_*` properties say where the visit came from, which `source`
+   * only sorts into seven buckets. They are optional the way `page_path` is: a direct visit has no
+   * referrer, and an uncampaigned link has no `utm_*`. They sit here alone because a visit begins
+   * once.
    *
    * `time_zone`, `automation` and `screen_width_bucket` are browser signals that tell a reader from
    * a scraper; the zone is optional because a browser can fail to name one.
@@ -139,6 +140,8 @@ interface SiteAnalyticsEventPropertiesByName {
     utm_source?: string;
     utm_medium?: string;
     utm_campaign?: string;
+    utm_content?: string;
+    utm_term?: string;
     time_zone?: string;
     automation: SiteAutomation;
     screen_width_bucket: SiteScreenWidthBucket;
@@ -283,17 +286,32 @@ const SEARCH_HOSTNAMES = [
   "yandex.com",
   "yandex.ru",
 ] as const;
+const AI_ASSISTANT_HOSTNAMES = [
+  "chat.deepseek.com",
+  "chat.openai.com",
+  "chatgpt.com",
+  "claude.ai",
+  "copilot.microsoft.com",
+  "gemini.google.com",
+  "grok.com",
+  "meta.ai",
+  "perplexity.ai",
+  "poe.com",
+  "you.com",
+] as const;
 
 /**
  * The host of the site a visit came from, reduced to one this file already names: every Google
- * country domain answers `google.com`, every other known search or social site answers its own
- * entry, and anything else answers `other`. The property therefore carries no host we did not name,
- * and every value it can take fits the collector's host shape without the producer testing it.
+ * country domain answers `google.com`, every other known search, social or AI assistant site
+ * answers its own entry, and anything else answers `other`. The property therefore carries no host
+ * we did not name, and every value it can take fits the collector's host shape without the producer
+ * testing it.
  */
 export type SiteReferrerHost =
   | typeof GOOGLE_SEARCH_HOSTNAME
   | (typeof SEARCH_HOSTNAMES)[number]
   | (typeof SOCIAL_HOSTNAMES)[number]
+  | (typeof AI_ASSISTANT_HOSTNAMES)[number]
   | "other";
 
 function createUuidV7(): string {
@@ -343,32 +361,71 @@ function isNamedGoogleSearchHostname(hostname: string): boolean {
   return GOOGLE_SEARCH_HOSTNAME_PATTERN.test(hostname);
 }
 
-export function classifySiteSource(
-  referrer: string,
-  currentHostname: string,
-): SiteSource {
-  if (referrer === "") {
-    return "direct";
-  }
-
+/**
+ * The lowercased host of an http(s) referrer, or null when the referrer is absent or names no
+ * parseable web site, such as an `android-app://` one.
+ */
+function readSiteReferrerHostname(referrer: string): string | null {
   let referrerUrl: URL;
   try {
     referrerUrl = new URL(referrer);
   } catch {
-    return "unknown";
+    return null;
   }
 
   if (referrerUrl.protocol !== "http:" && referrerUrl.protocol !== "https:") {
-    return "unknown";
+    return null;
   }
 
-  const hostname = referrerUrl.hostname.toLowerCase();
-  if (
-    hostnameMatches(hostname, currentHostname.toLowerCase())
+  return referrerUrl.hostname.toLowerCase();
+}
+
+function isSiteInternalHostname(hostname: string, currentHostname: string): boolean {
+  return hostnameMatches(hostname, currentHostname.toLowerCase())
     || PRODUCT_ROOT_HOSTNAMES.some((productHostname) =>
-      hostnameMatches(hostname, productHostname))
-  ) {
+      hostnameMatches(hostname, productHostname));
+}
+
+/** `utm_source` names an assistant only by its exact host, optionally under `www.`. */
+function isAiAssistantUtmSource(utmSource: string | null): boolean {
+  if (utmSource === null) {
+    return false;
+  }
+
+  const sourceHostname = utmSource.toLowerCase().replace(/^www\./u, "");
+  return AI_ASSISTANT_HOSTNAMES.some((assistantHostname) => assistantHostname === sourceHostname);
+}
+
+/**
+ * An AI assistant is recognized by its referrer or, because its apps often send none, by the
+ * `utm_source` of the address the referrer belongs to. It is checked right after `internal`, so a
+ * same-site page never claims it and an assistant link never reads as `direct` or `unknown`.
+ */
+export function classifySiteSource(
+  referrer: string,
+  currentHostname: string,
+  utmSource: string | null,
+): SiteSource {
+  const hostname = readSiteReferrerHostname(referrer);
+  if (hostname !== null && isSiteInternalHostname(hostname, currentHostname)) {
     return "internal";
+  }
+
+  if (
+    (hostname !== null
+      && AI_ASSISTANT_HOSTNAMES.some((assistantHostname) =>
+        hostnameMatches(hostname, assistantHostname)))
+    || isAiAssistantUtmSource(utmSource)
+  ) {
+    return "ai_assistant";
+  }
+
+  if (referrer === "") {
+    return "direct";
+  }
+
+  if (hostname === null) {
+    return "unknown";
   }
 
   if (
@@ -405,23 +462,12 @@ export function classifySiteReferrerHost(
     return null;
   }
 
-  let referrerUrl: URL;
-  try {
-    referrerUrl = new URL(referrer);
-  } catch {
+  const hostname = readSiteReferrerHostname(referrer);
+  if (hostname === null) {
     return "other";
   }
 
-  if (referrerUrl.protocol !== "http:" && referrerUrl.protocol !== "https:") {
-    return "other";
-  }
-
-  const hostname = referrerUrl.hostname.toLowerCase();
-  if (
-    hostnameMatches(hostname, currentHostname.toLowerCase())
-    || PRODUCT_ROOT_HOSTNAMES.some((productHostname) =>
-      hostnameMatches(hostname, productHostname))
-  ) {
+  if (isSiteInternalHostname(hostname, currentHostname)) {
     return null;
   }
 
@@ -439,6 +485,12 @@ export function classifySiteReferrerHost(
     hostnameMatches(hostname, knownHostname));
   if (socialHostname !== undefined) {
     return socialHostname;
+  }
+
+  const assistantHostname = AI_ASSISTANT_HOSTNAMES.find((knownHostname) =>
+    hostnameMatches(hostname, knownHostname));
+  if (assistantHostname !== undefined) {
+    return assistantHostname;
   }
 
   return "other";
@@ -580,45 +632,68 @@ export function getSitePagePath(pathname: string): string | null {
   return pagePath;
 }
 
-/**
- * The shape the collector accepts for a campaign token. Both separators are admitted and neither is
- * rewritten into the other, because equality with the campaign as it is spelled in the store and in
- * the ad platform is the whole point of carrying it; case is the one normalization taken, because
- * the collector admits lowercase alone.
- */
-const SITE_CAMPAIGN_TOKEN_PATTERN = /^[a-z0-9](?:[a-z0-9_-]{0,62}[a-z0-9])?$/u;
+// The collector's cap on a campaign value, in UTF-16 units.
+const SITE_CAMPAIGN_VALUE_MAX_LENGTH = 500;
 
 export interface SiteCampaignParameters {
   readonly utmSource: string | null;
   readonly utmMedium: string | null;
   readonly utmCampaign: string | null;
-}
-
-function readSiteCampaignToken(
-  parameters: URLSearchParams,
-  parameterName: string,
-): string | null {
-  const value = parameters.get(parameterName)?.toLowerCase() ?? null;
-  if (value === null || SITE_CAMPAIGN_TOKEN_PATTERN.test(value) === false) {
-    return null;
-  }
-
-  return value;
+  readonly utmContent: string | null;
+  readonly utmTerm: string | null;
 }
 
 /**
- * The three campaign parameters of an address, lowercased. A value outside the token shape answers
- * null so the page view still goes out without that property: somebody else's link can spell a
- * campaign any way it likes, and trimming one into shape would report a campaign nobody ran.
+ * One campaign parameter as the collector stores it: control characters removed, every whitespace
+ * run collapsed to one space, the ends trimmed, and a longer value cut to the cap without splitting
+ * a surrogate pair. Case and every other character are kept as written, because equality with the
+ * campaign as it is spelled in the store and in the ad platform is the whole point of carrying it.
+ * Only a value left empty answers null, so the page view goes out without that property.
  */
+function readSiteCampaignValue(
+  parameters: URLSearchParams,
+  parameterName: string,
+): string | null {
+  const rawValue = parameters.get(parameterName);
+  if (rawValue === null) {
+    return null;
+  }
+
+  const collapsedValue = rawValue.replace(/\p{Cc}/gu, "").replace(/\s+/gu, " ").trim();
+  const cutValue = collapsedValue.slice(0, SITE_CAMPAIGN_VALUE_MAX_LENGTH);
+  const lastCodeUnit = cutValue.charCodeAt(cutValue.length - 1);
+  const endsInHighSurrogate = lastCodeUnit >= 0xd800 && lastCodeUnit <= 0xdbff;
+  // The cut can end on the space between two words.
+  const value = (endsInHighSurrogate ? cutValue.slice(0, -1) : cutValue).trimEnd();
+
+  return value === "" ? null : value;
+}
+
 export function readSiteCampaignParameters(search: string): SiteCampaignParameters {
   const parameters = new URLSearchParams(search);
 
   return {
-    utmSource: readSiteCampaignToken(parameters, "utm_source"),
-    utmMedium: readSiteCampaignToken(parameters, "utm_medium"),
-    utmCampaign: readSiteCampaignToken(parameters, "utm_campaign"),
+    utmSource: readSiteCampaignValue(parameters, "utm_source"),
+    utmMedium: readSiteCampaignValue(parameters, "utm_medium"),
+    utmCampaign: readSiteCampaignValue(parameters, "utm_campaign"),
+    utmContent: readSiteCampaignValue(parameters, "utm_content"),
+    utmTerm: readSiteCampaignValue(parameters, "utm_term"),
   };
+}
+
+/**
+ * The source of this page load, for the events other than the page view. `document.referrer` keeps
+ * naming the load's referrer after client-side navigations, which drop the campaign from the
+ * address, so the `utm_source` read beside it comes from the address the load opened, as the
+ * navigation entry records it. A browser that keeps no such entry classifies by the referrer alone.
+ */
+export function getSiteLoadSource(): SiteSource {
+  const [navigationEntry] = performance.getEntriesByType("navigation");
+  const loadUtmSource = navigationEntry === undefined
+    ? null
+    : readSiteCampaignValue(new URL(navigationEntry.name).searchParams, "utm_source");
+
+  return classifySiteSource(document.referrer, window.location.hostname, loadUtmSource);
 }
 
 function parseSiteAnalyticsErrorBody(value: unknown): SiteAnalyticsErrorBody {

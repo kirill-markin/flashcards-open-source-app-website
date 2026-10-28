@@ -2,8 +2,8 @@ import type { AppLocale } from "./i18n";
 import { CATALOG_APP_HOSTNAMES } from "./site";
 import type { PublicCatalogInstallPlacement } from "./publicCatalogAnalytics";
 import {
-  classifySiteSource,
   getSiteDeviceCategory,
+  getSiteLoadSource,
   sendSiteAnalyticsEvent,
   warnAboutSiteAnalyticsFailure,
 } from "./siteAnalyticsCollector";
@@ -51,7 +51,7 @@ export function reportPublicCatalogInstallClick(
   sendSiteAnalyticsEvent("catalog_install_clicked", new Date().toISOString(), locale, {
     package_version_id: packageVersionId,
     placement,
-    source: classifySiteSource(document.referrer, window.location.hostname),
+    source: getSiteLoadSource(),
     device_category: getSiteDeviceCategory(),
   });
 }

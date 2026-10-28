@@ -13,8 +13,8 @@ import {
 import { APP_ENTRY_PLACEMENTS, type AppEntryPlacement } from "./appEntryTracking";
 import type { AppLocale } from "./i18n";
 import {
-  classifySiteSource,
   getSiteDeviceCategory,
+  getSiteLoadSource,
   getSitePageKind,
   sendSiteAnalyticsEvent,
   warnAboutSiteAnalyticsFailure,
@@ -126,7 +126,7 @@ function reportSiteAppEntryImpression(
     target,
     page_kind: pageKind,
     placement,
-    source: classifySiteSource(document.referrer, window.location.hostname),
+    source: getSiteLoadSource(),
     device_category: getSiteDeviceCategory(),
     url,
   });

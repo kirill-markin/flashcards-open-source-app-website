@@ -2,8 +2,8 @@
 
 import type { AppLocale } from "@/lib/i18n";
 import {
-  classifySiteSource,
   getSiteDeviceCategory,
+  getSiteLoadSource,
   getSitePageKind,
   sendSiteAnalyticsEvent,
   type SiteInternalCtaTarget,
@@ -22,7 +22,7 @@ export function reportSiteInternalCtaClick(
     target,
     page_kind: getSitePageKind(window.location.pathname),
     placement,
-    source: classifySiteSource(document.referrer, window.location.hostname),
+    source: getSiteLoadSource(),
     device_category: getSiteDeviceCategory(),
   });
 }
