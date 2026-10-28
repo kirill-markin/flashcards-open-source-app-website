@@ -1304,6 +1304,21 @@
     "bytes": 3047502
   },
   {
+    "publicPath": "/blog/gizmo-export-pdf.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/783b4ee6df37a899709a663230244e16f2c79570f863e5f9b206e2b2a9d8879d.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "783b4ee6df37a899709a663230244e16f2c79570f863e5f9b206e2b2a9d8879d",
+    "bytes": 165872,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/dda4c43d5b02b609ba1b8a84e7c2a375930090ca9c2b7ea36296da786e0f948b.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "dda4c43d5b02b609ba1b8a84e7c2a375930090ca9c2b7ea36296da786e0f948b",
+      "bytes": 2341437
+    }
+  },
+  {
     "publicPath": "/blog/gre-vocabulary-flashcards.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/71027848aeea10834f7dc3bebf019d9980e9dec3695623dfaec7ec92292ea20a.png",
     "width": 1671,
