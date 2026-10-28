@@ -148,7 +148,7 @@ Calculate the sample cross-product OR for defective, A compared with B. A learne
 
 ## Make a card for the error you actually made
 
-Keep the event, direction, and needed numbers on the card. A prompt like “What is OR?” won't repair a habit of reporting odds as probability.
+Keep the event, direction, and needed numbers on the card. A prompt like “What is OR?” won't repair a habit of reporting odds as probability. For more original table problems, use the [relative risk vs odds ratio flashcards](/catalog/packages/relative-risk-odds-ratio-flashcards/) to practice calculating and interpreting both ratios and repairing denominator or comparison mistakes.
 
 | Flashcard front | Flashcard back |
 |---|---|

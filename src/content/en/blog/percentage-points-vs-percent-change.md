@@ -39,6 +39,8 @@ The percentage change formula requires a nonzero starting value. Keep both rates
 
 The relative calculation uses **30, the starting percentage value**, as its denominator. Dividing by 36 would answer a comparison with a different baseline. A positive change means an increase; a negative change means a decrease. For a percentage point difference stated as a gap, give its positive size and say which rate is higher.
 
+For comparisons of event probabilities across two groups, the [relative risk vs odds ratio flashcards](/catalog/packages/relative-risk-odds-ratio-flashcards/) practice interpreting ratios and keeping relative probability comparisons separate from percentage-point differences.
+
 ## Keep the counts beside the rates
 
 Here's a fictional ledger for three separate workshops. Each attendee is assigned one task. The completed count records attendees who finished it. All scenarios in this article are invented for practice.
