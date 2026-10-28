@@ -100,6 +100,7 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   "truth-values-conjunction-disjunction": { en: "truth-table-flashcards" },
   "bayes-theorem-practice": { en: "bayes-theorem-base-rate-flashcards" },
   "conditional-probability-two-way-tables": { en: "conditional-probability-two-way-table-flashcards" },
+  "relative-risk-vs-odds-ratio-practice": { en: "relative-risk-odds-ratio-flashcards" },
   "random-sampling-vs-random-assignment": { en: "random-sampling-vs-random-assignment-flashcards" },
   "negative-reinforcement-vs-punishment": { en: "operant-conditioning-flashcards" },
   "proactive-vs-retroactive-interference": { en: "proactive-retroactive-interference-flashcards" },

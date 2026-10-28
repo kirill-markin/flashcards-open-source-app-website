@@ -215,3 +215,5 @@ If you found the right group but simplified the fraction incorrectly, practice t
 Keep a card understandable without the original worksheet beside it. The [guide to making better flashcards](/blog/how-to-make-better-flashcards/) explains how to narrow a prompt to one retrieval task. You can keep these cards on paper or use ordinary cards in Nibomo; its [getting started guide](/docs/getting-started/) covers the app. For a broader study plan, see the [AP Statistics flashcard guide](/blog/ap-statistics-flashcards/).
 
 After reviewing a repair card, solve a fresh table question with different counts and wording. Write the group name beside the denominator before dividing. That connects the recalled rule to the part of the problem that actually needed it.
+
+Once you can find a probability within each group, the [relative risk vs odds ratio flashcards](/catalog/packages/relative-risk-odds-ratio-flashcards/) practice comparing two groups using probabilities or odds, with the outcome and reference group kept explicit.

@@ -99,6 +99,8 @@ If instead you learn that the token is blue and ask whether it came from A, use 
 
 Reversing a condition changes the group and the question. Finding odds against merely swaps event and complement within the same group. For more practice choosing that group, use the [conditional probability two-way-table worksheet](/blog/conditional-probability-two-way-tables/).
 
+To move from one group to a comparison between two groups, use the [relative risk vs odds ratio flashcards](/catalog/packages/relative-risk-odds-ratio-flashcards/). They practice dividing probabilities for relative risk and dividing event-to-other odds for an odds ratio, with the outcome and comparison direction stated.
+
 ## Odds and probability practice
 
 Try the questions before reading the answers. Write what each ratio part represents. Treat all stated probabilities and ratios as exact. Whenever a question says “uniformly,” every individual item in that collection has the same chance of selection.
