@@ -3406,6 +3406,21 @@
     "bytes": 2373440
   },
   {
+    "publicPath": "/blog/weighted-average-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/a494839f0493a25b0951fa4e507afcb9240f72ea6d251166d5564039030f3eaf.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "a494839f0493a25b0951fa4e507afcb9240f72ea6d251166d5564039030f3eaf",
+    "bytes": 229058,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/2fe9528b7d6fec9db96b20b24544372d52b86c9e7f2571a3bb3bf14867128aa3.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "2fe9528b7d6fec9db96b20b24544372d52b86c9e7f2571a3bb3bf14867128aa3",
+      "bytes": 2636187
+    }
+  },
+  {
     "publicPath": "/blog/what-is-fsrs.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/46cce54372f4f92ffa9dadc4bd43cc567b6f868b610fcae131b2e9653976aab7.png",
     "width": 1536,
