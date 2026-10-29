@@ -144,6 +144,8 @@ Keep full calculations on paper. Use short recall cards for recurring rule mista
 | Does an exactly counted divisor add percentage uncertainty? | No. Divide the value and absolute uncertainty by that count. |
 | Is adding percentage uncertainties an exact product interval calculation? | No. It is first-order; exact extrema can be asymmetric. |
 
+For more short calculations and mistake repairs, use the [measurement uncertainty flashcards](/catalog/packages/measurement-uncertainty-flashcards/). They practice absolute and percentage uncertainties, mixed-step handoffs, and approximation limits under an explicitly stated classroom linear interval model. Products, quotients, and powers use first-order estimates; keep full worked calculations in your practice work.
+
 The [flashcard-writing guide](/blog/how-to-make-better-flashcards/) can help you shorten a missed decision into a self-contained prompt. Before the next calculation, write what each ± means and which operation comes next.
 
 *Production note: AI tools substantially assisted with research, writing, and exercise construction. Calculations were checked using decimal arithmetic and a square-root calculation. These are hypothetical exercises; no apparatus measurements, classroom trials, or learner-outcome tests were performed. The illustration is AI-generated.*

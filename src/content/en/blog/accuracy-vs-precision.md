@@ -107,4 +107,6 @@ A useful review card preserves enough context to answer without this article. Ch
 
 When you return to a numerical problem, write the reference beside the readings. Check the individual differences and the spread before trusting the average.
 
+For supplied ± amounts, the [measurement uncertainty flashcards](/catalog/packages/measurement-uncertainty-flashcards/) practice combining absolute and percentage uncertainties under a stated classroom interval model. Those calculations describe how the supplied intervals affect a result; they do not establish measurement accuracy or precision across repeated readings.
+
 Reporting a calculated result is a separate skill. The [significant figures mixed-operations flashcards](/catalog/packages/significant-figures-mixed-operations-flashcards/) practice carrying extra digits and choosing the final reporting limit under introductory classroom rules. Those rules do not establish measurement accuracy or agreement across repeated readings.

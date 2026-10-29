@@ -17,6 +17,8 @@ For significant figures in mixed operations, keep the calculator value and its r
 
 These are the usual introductory chemistry and physics rules: a classroom approximation to handling measurement uncertainty. The arithmetic exercises omit units to focus on rounding. Treat their inputs as measured unless explicitly marked exact; in a physical problem, any quantities you add or subtract must have compatible units.
 
+When a problem supplies explicit ± amounts, the [measurement uncertainty flashcards](/catalog/packages/measurement-uncertainty-flashcards/) practice carrying absolute and percentage uncertainties through calculations under a stated classroom interval model. Their product, quotient, and power rules are first-order approximations; counting significant figures alone does not perform that calculation.
+
 ![A woman marks an uncut wooden slat where it extends beyond a frame before trimming it to fit](/blog/significant-figures-mixed-operations.png)
 
 ## Keep the value and its reporting limit separate
