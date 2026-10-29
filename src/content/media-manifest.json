@@ -1096,6 +1096,21 @@
     "bytes": 2974871
   },
   {
+    "publicPath": "/blog/find-operator-precedence.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/55deda23b7c97fe32bbc5d9ab39918e7a3c59c3965242a3ab9ed7ba7ed5451ac.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "55deda23b7c97fe32bbc5d9ab39918e7a3c59c3965242a3ab9ed7ba7ed5451ac",
+    "bytes": 173208,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/a3dcfec301b8801ada53ec2a960cf91525ea5bd755df69432e20d243dccd73ed.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "a3dcfec301b8801ada53ec2a960cf91525ea5bd755df69432e20d243dccd73ed",
+      "bytes": 2297812
+    }
+  },
+  {
     "publicPath": "/blog/find-prune-exclude-directories.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/3a11285cd4ebff226f1f532303e4d623ba6e2602ec47d09c5c8248152d540fe1.webp",
     "width": 1672,

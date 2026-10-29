@@ -13,6 +13,7 @@ import { getPublicCatalogPackageLocalizedPathname } from "./publicCatalogUrls";
 const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   Record<string, Readonly<Partial<Record<AppLocale, string>>>>
 > = {
+  "find-operator-precedence": { en: "linux-command-line-flashcards" },
   "find-mtime-vs-ctime": { en: "linux-command-line-flashcards" },
   "rate-law-initial-rates-practice": { en: "ap-chemistry-flashcards" },
   "force-displacement-graph-practice": { en: "ap-physics-1-flashcards" },
