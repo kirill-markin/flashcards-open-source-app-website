@@ -2739,6 +2739,21 @@
     }
   },
   {
+    "publicPath": "/blog/python-iterator-exhaustion.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/abbd9e9fe6ca831027c3a48d29ea55ed97150997d803edbf4cb9c562e9ead81d.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "abbd9e9fe6ca831027c3a48d29ea55ed97150997d803edbf4cb9c562e9ead81d",
+    "bytes": 165942,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/a39335c68bc46f897cc66ad2d8090d3fe579e2855b7f7f22c1fd98f3df1716ea.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "a39335c68bc46f897cc66ad2d8090d3fe579e2855b7f7f22c1fd98f3df1716ea",
+      "bytes": 2414396
+    }
+  },
+  {
     "publicPath": "/blog/python-late-binding-closures.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/220494243e4fbed9b7507351ed7f2dd3006690836ac4994926c1497beb791330.webp",
     "width": 1672,
