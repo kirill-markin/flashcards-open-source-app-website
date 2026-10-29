@@ -153,6 +153,8 @@ A card that asks `How do I run the cart lab?` is too broad. A card that asks `Wh
 
 Keep full experimental design outside the deck. You still need to plan procedures, handle equipment, analyze unfamiliar data, and explain limitations in complete sentences. Cards help when one reusable decision keeps slowing that work down.
 
+For calculations with supplied ± amounts, the [measurement uncertainty flashcards](/catalog/packages/measurement-uncertainty-flashcards/) practice choosing absolute or percentage uncertainty and carrying it into the next operation. Each calculation states its classroom interval model or operative rule; products, quotients, and powers use first-order approximations. Check your lab’s uncertainty model before applying those rules to measurements.
+
 ## Reasoning cards should store the miss
 
 After a written problem, it is tempting to save the full prompt and the full worked response. Then the card comes due, looks like homework, and gets skipped.
