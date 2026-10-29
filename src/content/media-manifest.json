@@ -3204,6 +3204,21 @@
     "bytes": 442139
   },
   {
+    "publicPath": "/blog/sql-exists-vs-join.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/6166390a0abedf15e7af02e764afbcd1df2615ced8a515f6c95f4b42c60b4b08.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "6166390a0abedf15e7af02e764afbcd1df2615ced8a515f6c95f4b42c60b4b08",
+    "bytes": 151988,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/bbf52c66de418ffdb0f189612300a83b34adad952588296cbfe0c5314ee495bb.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "bbf52c66de418ffdb0f189612300a83b34adad952588296cbfe0c5314ee495bb",
+      "bytes": 2195340
+    }
+  },
+  {
     "publicPath": "/blog/sql-group-by-having-practice.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/3094f87c34fde7afe8cf7c0291ad869e3ac7039e5d014765dece2be1a006ba56.webp",
     "width": 1672,
