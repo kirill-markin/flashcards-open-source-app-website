@@ -3250,6 +3250,21 @@
     "bytes": 2587514
   },
   {
+    "publicPath": "/blog/static-kinetic-friction-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/159d60a9fc50b3243af6ab3c68a1c7f41b405060eb5f26ea7ad3067d3852be0f.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "159d60a9fc50b3243af6ab3c68a1c7f41b405060eb5f26ea7ad3067d3852be0f",
+    "bytes": 105296,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/3bf903d974f01f66eefed963d353e01907bcc08e05eab41d2ecdc70fdf5f98af.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "3bf903d974f01f66eefed963d353e01907bcc08e05eab41d2ecdc70fdf5f98af",
+      "bytes": 2030030
+    }
+  },
+  {
     "publicPath": "/blog/strong-vs-weak-acids.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/f780a463f761e903473a191ca0cea4d10a4eb2b1a670118d5799e4cd2873e7fe.png",
     "width": 1672,
