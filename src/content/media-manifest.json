@@ -3383,6 +3383,21 @@
     "bytes": 2142130
   },
   {
+    "publicPath": "/blog/used-to-be-used-to-get-used-to.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/64fe7b5380f15bc494ae7749b1c19716b39c1d4a098995a30b405b079749202c.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "64fe7b5380f15bc494ae7749b1c19716b39c1d4a098995a30b405b079749202c",
+    "bytes": 151566,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/7ece586e27b428038199740d75ffe8a6c095d5e455a52bcfd232ee5f85e289c8.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "7ece586e27b428038199740d75ffe8a6c095d5e455a52bcfd232ee5f85e289c8",
+      "bytes": 2233776
+    }
+  },
+  {
     "publicPath": "/blog/velocity-time-graph-practice-chart.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/0e7a43499940c4d3b011592fa72d29794bfe28b76e0d6f8ad14d8944006d96c9.webp",
     "width": 1920,
