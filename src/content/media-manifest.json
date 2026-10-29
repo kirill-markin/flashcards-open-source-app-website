@@ -2138,6 +2138,21 @@
     "bytes": 2423832
   },
   {
+    "publicPath": "/blog/knowt-merge-flashcard-sets.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/0cdeba52d6a086566fb377f81cd4662f7649bc54a378e45c51cd2f0d46137116.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "0cdeba52d6a086566fb377f81cd4662f7649bc54a378e45c51cd2f0d46137116",
+    "bytes": 140670,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/49ab67dfdc78495e7bda822e016e91973edfdc233cb29c458db0f88df0103274.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "49ab67dfdc78495e7bda822e016e91973edfdc233cb29c458db0f88df0103274",
+      "bytes": 2231172
+    }
+  },
+  {
     "publicPath": "/blog/ksp-molar-solubility-practice.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/2920ac871b845f21d6d8015b31d1ba6b84cfacd814e9efd34212420df1c4dd54.webp",
     "width": 1672,
