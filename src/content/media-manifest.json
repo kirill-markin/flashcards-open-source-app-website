@@ -157,6 +157,21 @@
     "bytes": 2114758
   },
   {
+    "publicPath": "/blog/anki-deck-override.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/a452ed0290464b584f63f0f2789f53e8573d343b75e31557b0ae9252fd259ece.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "a452ed0290464b584f63f0f2789f53e8573d343b75e31557b0ae9252fd259ece",
+    "bytes": 116814,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/cd216ee038f52dffd5642b9f5362a9b29b8de35938ed3c800aa8bd308442c5b9.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "cd216ee038f52dffd5642b9f5362a9b29b8de35938ed3c800aa8bd308442c5b9",
+      "bytes": 2186632
+    }
+  },
+  {
     "publicPath": "/blog/anki-delete-unused-media.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/acfa2a9b1997efddda32d78800eccd05373ca675028d2ba0941dbee3cb4b751a.png",
     "width": 1672,
