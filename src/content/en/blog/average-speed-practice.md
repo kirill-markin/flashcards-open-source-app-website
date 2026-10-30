@@ -80,6 +80,8 @@ For two segments with unequal durations, use their time weights:
 
 The segments must account for the full chosen interval, with positive total time. This is the same distance-over-time calculation: each v × t contributes a distance. You can include more segments by adding more terms, including zero speed for a stop. If only distances and speeds are supplied, find the times with d/v first.
 
+For weight choices in other settings, the [weighted average flashcards](/catalog/packages/weighted-average-flashcards/) practice group counts and stated grading policies. The journey problems here use segment durations as weights; keep those time calculations in your written practice.
+
 ## A stop belongs in its own row
 
 Return to the two 120 m legs at 6 m/s and 10 m/s, but add an 8 s stop between them.
