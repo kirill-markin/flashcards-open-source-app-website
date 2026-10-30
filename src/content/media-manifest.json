@@ -1333,6 +1333,21 @@
     }
   },
   {
+    "publicPath": "/blog/git-stash-pop-conflict.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/f005adb41236e32fcefb4a0882a658f874ec7147b50c7ebb98eb1b82a41ea7a0.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "f005adb41236e32fcefb4a0882a658f874ec7147b50c7ebb98eb1b82a41ea7a0",
+    "bytes": 145278,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/21c3f11404d2a1d5b37888e7c337b969cd76a102eea9321f4c0ed8101f96f8ed.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "21c3f11404d2a1d5b37888e7c337b969cd76a102eea9321f4c0ed8101f96f8ed",
+      "bytes": 2294897
+    }
+  },
+  {
     "publicPath": "/blog/gizmo-alternative-v2.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/1f6bf9e0cdbc164c6bdc620139201ef32bd987f331703904447c40e5f93aa03b.png",
     "width": 1672,
