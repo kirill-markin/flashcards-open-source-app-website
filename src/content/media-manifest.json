@@ -2651,6 +2651,21 @@
     "bytes": 2628320
   },
   {
+    "publicPath": "/blog/paired-vs-independent-samples.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/04decc2d022cf348d0c008ab2abe0fb178be7a450a15536fc32a38ad9ed5b2aa.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "04decc2d022cf348d0c008ab2abe0fb178be7a450a15536fc32a38ad9ed5b2aa",
+    "bytes": 183216,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/7d2a7e27a861baed57d5746bf42907e8deefae875b44380e870d34d7518123b5.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "7d2a7e27a861baed57d5746bf42907e8deefae875b44380e870d34d7518123b5",
+      "bytes": 2371745
+    }
+  },
+  {
     "publicPath": "/blog/passive-voice-tense-practice.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/ac72e2b44b1619fe5203b4299b9f8e0b4721e247dc8e8c25f91e165ed03e86c5.png",
     "width": 1672,
