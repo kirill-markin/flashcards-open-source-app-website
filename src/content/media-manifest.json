@@ -2284,6 +2284,21 @@
     "bytes": 2189126
   },
   {
+    "publicPath": "/blog/midpoint-elasticity-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/69a0b2d19c9338de57482d70948c7c849a45020b426911ade80f006931bcd054.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "69a0b2d19c9338de57482d70948c7c849a45020b426911ade80f006931bcd054",
+    "bytes": 171264,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/58c0b1cde5dcb00c89089b931bd39e7ca2193ec825c5a60be8226b7b891e370c.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "58c0b1cde5dcb00c89089b931bd39e7ca2193ec825c5a60be8226b7b891e370c",
+      "bytes": 2323270
+    }
+  },
+  {
     "publicPath": "/blog/migrate-from-anki-txt-export-open-source-flashcards.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/a07532178038ac7e3d06490b1ba693e67916376db938f275c492b2f521d98b4c.png",
     "width": 1672,
