@@ -2829,6 +2829,21 @@
     }
   },
   {
+    "publicPath": "/blog/prospective-vs-retrospective-memory.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/990100bf265ce32549dee998430d9d81cef3cf167dd0458f1122f9c0219f0f6f.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "990100bf265ce32549dee998430d9d81cef3cf167dd0458f1122f9c0219f0f6f",
+    "bytes": 111318,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/a26fe9f2003e28f278fc6edca9cc4c12bc13112671d9e77bca196891fe05114e.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "a26fe9f2003e28f278fc6edca9cc4c12bc13112671d9e77bca196891fe05114e",
+      "bytes": 2067124
+    }
+  },
+  {
     "publicPath": "/blog/python-iterator-exhaustion.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/abbd9e9fe6ca831027c3a48d29ea55ed97150997d803edbf4cb9c562e9ead81d.webp",
     "width": 1672,

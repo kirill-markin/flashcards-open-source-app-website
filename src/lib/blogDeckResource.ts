@@ -130,6 +130,7 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   },
   "how-to-use-flashcards-for-ap-biology": { en: "ap-biology-flashcards-complete-course-review" },
   "how-to-use-flashcards-for-ap-psychology": { en: "ap-psychology-flashcards" },
+  "prospective-vs-retrospective-memory": { en: "ap-psychology-flashcards" },
   "ap-statistics-flashcards": { en: "ap-statistics-flashcards" },
   "paired-vs-independent-samples": { en: "ap-statistics-flashcards" },
   "comptia-a-plus-flashcards": { en: "comptia-a-plus-220-1201-220-1202-flashcards" },
