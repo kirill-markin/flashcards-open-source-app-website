@@ -101,6 +101,8 @@ For a focused example, the [recurring decimals to fractions flashcards](/catalog
 
 If you average two travel speeds before checking the durations, the [average speed flashcards](/catalog/packages/average-speed-practice-flashcards/) practice choosing the time weights and including stops. Follow those short decisions with a fresh journey problem on paper.
 
+For a mean across all individuals in unequal groups, the [weighted average flashcards](/catalog/packages/weighted-average-flashcards/) practice choosing group counts as weights and repairing an unweighted average. Apply the same decision to a fresh problem after reviewing.
+
 These are still **math problem solving flashcards**, but they are not trying to memorize a whole solution path. They train recognition. That matters because explanations are cheap now. You can get a walkthrough from a tutor, a video, or an AI tool in minutes. The harder part is seeing the right move before someone shows it to you.
 
 For corrected homework, quizzes, or mock tests, save the step you missed as a short prompt. Solve another full problem afterward to check whether the repair transfers.

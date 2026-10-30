@@ -158,6 +158,8 @@ Try these before reading the answers.
 3. **Young.** The previous interval was below 21 days. The new 35-day interval doesn't reclassify that historical event.
 4. **One Mature failure.** The ordinary Review failure qualifies; the short relearning success doesn't. Across all answers, the pair still contains one success in two attempts. Neither fraction establishes permanent mastery.
 
+To practice the count-weighting step in the first check, try the [weighted average flashcards](/catalog/packages/weighted-average-flashcards/). They include combining group percentages using their counts. For your Anki history, use the eligible records established by the audit.
+
 ## Make the settings decision after the audit
 
 Desired retention is a target you choose for FSRS scheduling. Observed retention describes eligible answers in a particular historical scope. An aggregate across several decks or presets needn't match one deck's target, and three eligible answers provide little evidence for a settings change.

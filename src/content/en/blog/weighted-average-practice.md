@@ -200,6 +200,8 @@ If you chose the wrong weights, save the decision you missed as a short recall p
 
 Another prompt can target the grading distinction: “What does dividing the completed contribution by the completed course weight give?” Answer: **the normalized percentage on completed work**, under the stated weighting policy. The final grade still needs the remaining scores.
 
+The [weighted average flashcards](/catalog/packages/weighted-average-flashcards/) offer short prompts on choosing weights, combining group means and rates, and separating completed-work contributions from normalized percentages.
+
 Use regular recall and spaced review to revisit a missed decision, then solve a fresh problem with new numbers. Recalling the formula and choosing its weights are separate things to practice. For an example where durations provide the weights, try the [average speed practice](/blog/average-speed-practice/).
 
 *Production note: AI assisted substantially with research, drafting, editing, and the illustration. An automated process checked the original example and exercise calculations with exact fraction arithmetic in CPython 3.14.7. The examples don't report gradebook tests or measured learning outcomes. This site is published by Nibomo's owner.*

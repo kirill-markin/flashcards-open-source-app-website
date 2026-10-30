@@ -47,6 +47,8 @@ Each weight is the subgroup's job count divided by that team's total job count. 
 
 Adding two subgroup percentages and dividing by two gives each subgroup equal weight, regardless of its size. That calculation describes a 50/50 mix. It generally won't give the observed pooled rate.
 
+If that count-weighting step needs practice, the [weighted average flashcards](/catalog/packages/weighted-average-flashcards/) cover choosing weights and pooling simple group rates. Keep the full tables here for practicing Simpson's paradox reversals.
+
 ## Keep this audit beside the table
 
 Use this worksheet on a new count table before deciding which team is “better.”
