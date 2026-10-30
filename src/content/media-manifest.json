@@ -594,6 +594,21 @@
     "bytes": 495324
   },
   {
+    "publicPath": "/blog/buffer-calculations-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/03471a09e685116b7348cc78a96c19e2b039b73529349941a0bc59737118f808.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "03471a09e685116b7348cc78a96c19e2b039b73529349941a0bc59737118f808",
+    "bytes": 188964,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/fba8297c4f40ea546d6d37aea69fd69ec840182b2aeac68820da545e79a929dd.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "fba8297c4f40ea546d6d37aea69fd69ec840182b2aeac68820da545e79a929dd",
+      "bytes": 2452284
+    }
+  },
+  {
     "publicPath": "/blog/california-permit-test-flashcards.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/f08e7d8c1653c521157f6d2660f77327c82559117bbf68272b4e8b63525fb3ed.png",
     "width": 1672,
