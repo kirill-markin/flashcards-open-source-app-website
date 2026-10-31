@@ -7,6 +7,7 @@ import type { PricingTiersSection } from "@/lib/content/types";
 import { formatHeadingText } from "@/lib/headingText";
 import { getPricingCards, getPricingTerms, type PricingCard } from "@/lib/pricingCards";
 import { getPricingExperienceCopy } from "@/lib/pricingExperienceCopy";
+import { getUiCopy } from "@/lib/uiCopy";
 import styles from "./PricingCards.module.css";
 
 function PlanCard({ card, locale }: { readonly card: PricingCard; readonly locale: AppLocale }): React.JSX.Element {
@@ -17,7 +18,7 @@ function PlanCard({ card, locale }: { readonly card: PricingCard; readonly local
         <h2>{formatHeadingText(card.tier.name)}</h2>
         <span className={premium ? styles.badge : styles.smallLabel}>{card.label}</span>
       </div>
-      {premium ? <RegionalPremiumOffer locale={locale} copy={getPricingExperienceCopy(locale)} standardPrice={card.tier.price} actionLabel={card.actionLabel}>
+      {premium ? <RegionalPremiumOffer locale={locale} copy={getPricingExperienceCopy(locale)} standardPrice={card.tier.price} actionLabel={card.actionLabel} closeLabel={getUiCopy(locale).analyticsConsentWithdrawal.close}>
         <p className={styles.planDescription}>{getPricingExperienceCopy(locale).descriptions[1]}</p>
       </RegionalPremiumOffer> : <>
         <p className={styles.price}><strong><bdi>{card.amount}</bdi></strong>{card.period !== null && <span>{card.period}</span>}</p>
