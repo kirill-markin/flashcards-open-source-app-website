@@ -156,6 +156,8 @@ Use fresh problems to practice that move:
 
 If decimal placement or exponent arithmetic is the sticking point, the [scientific notation flashcards](/catalog/packages/scientific-notation-practice-flashcards/) practice exact conversions, normalization, and operations with powers of ten. Keep choosing prefixes and setting up unit conversions in your written practice.
 
+For an electronics application, the [resistor color code flashcards](/catalog/packages/resistor-color-code-flashcards/) practice decoding written four- and five-band codes and expressing the nominal resistance in ohms or prefixed units. Assign the band roles first, then check the unit scale.
+
 Do not turn those four finished answers into permanent cards and call the conversion skill learned. Once you remember the particular numbers, the card tests recognition of an old example. Work new values, change the source and target prefixes, and estimate the direction before calculating.
 
 A small card can still repair a repeated conversion error:

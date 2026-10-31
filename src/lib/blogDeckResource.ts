@@ -98,6 +98,7 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
     ru: "periodic-table-elements-russian-flashcards",
   },
   "metric-prefixes-flashcards": { en: "metric-prefix-flashcards" },
+  "resistor-color-code-practice": { en: "resistor-color-code-flashcards" },
   "si-base-and-derived-units": { en: "si-units-flashcards" },
   "converting-squared-cubed-units": { en: "squared-cubed-unit-conversion-flashcards" },
   "significant-figures-mixed-operations": { en: "significant-figures-mixed-operations-flashcards" },

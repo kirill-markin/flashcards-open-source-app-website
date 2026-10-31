@@ -15,6 +15,8 @@ Three resistors, one 12 V source, two different answers: the networks below draw
 
 Start this series and parallel circuit practice by labeling nodes. Then calculate equivalent resistance, work back through the branches, and try seven questions with explained answers. You'll need Ohm's law, `V = IR`, and a way to keep track of the connections. These are introductory DC problems to solve on paper.
 
+These problems supply each resistance. If reading a nominal value from a band code is the step you need to practice, the [resistor color code flashcards](/catalog/packages/resistor-color-code-flashcards/) cover written four- and five-band codes and their nominal tolerance ranges.
+
 ![A gardener follows two stone-lined irrigation channels that pass around a vegetable bed and rejoin](https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/6d07141cb92dbe4c7d378075f0656898c433a9cc4b3ebbbcafc3df60a8d7f82f.webp)
 
 ## Give every connection a name
