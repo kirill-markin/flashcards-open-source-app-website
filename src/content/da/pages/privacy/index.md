@@ -56,9 +56,13 @@ Stripe behandler betalinger for webabonnementer. På sine hostede checkout- og f
 
 Vi bruger disse data til at opfylde vores abonnementsaftale, verificere og give betalt adgang, administrere fakturering og sende servicemails; vi opbevarer også registreringer af hensyn til regnskab, afstemning og retlige forpligtelser eller retskrav. Faktureringsregistreringer og faktureringshændelser registreret på serveren er uafhængige af indstillingen for produktanalyse. Stripes egen behandling af data er beskrevet i Stripes [privatlivspolitik](https://stripe.com/privacy).
 
-Vi sender Nibomos påmindelser om prøveperioden samt kvitteringer for betalinger og refusioner via [Resend](https://resend.com/legal/privacy-policy). Resend modtager Stripe-kundens e-mailadresse til fakturering og beskedens indhold, herunder det relevante beløb og den relevante valuta, prøveperiodens slutdato, hvor det er relevant, og et link til administration af fakturering eller til kvitteringen. Vi opbevarer leveringsstatus og id'er for at håndtere nye afsendelsesforsøg og undgå dobbelte beskeder.
+Ved nye køb via Stripe Managed Payments sender Stripe/Link obligatoriske betalingskvitteringer, fakturaer, refusionsmeddelelser og visse abonnementsmeddelelser, herunder bekræftelse af prøvestart. Behandlingen af oplysninger er beskrevet i privatlivspolitikken hos [Link](https://link.com/privacy).
+
+Vi sender Nibomos påmindelse om udløbet af den syv dage lange prøveperiode samt betalings- og refusionskvitteringer for tidligere Stripe-køb via [Resend](https://resend.com/legal/privacy-policy). Resend modtager Stripe-kundens e-mailadresse til fakturering og beskedens indhold, herunder det relevante beløb og den relevante valuta, prøveperiodens slutdato, hvor det er relevant, og et link til administration af fakturering eller til kvitteringen. Vi opbevarer leveringsstatus og id'er for at håndtere nye afsendelsesforsøg og undgå dobbelte beskeder.
 
 ## Analyse og cookies
+
+Hvor funktionen er tilgængelig, kan prisvisningen bruge anmodningens IP-adresse til at foreslå et land, som du kan ændre manuelt. Funktionen husker kun det valgte land i en funktionel cookie, der deles mellem Nibomos hjemmeside og webapp i op til ét år. Denne præference er adskilt fra analyse og bestemmer ikke dit sprog. Infrastrukturens logning beskrives andre steder i denne politik.
 
 Marketingwebsitet bruger Vercel Web Analytics til at måle sidevisninger og udvalgte klikhændelser på sitet. Den tjeneste fungerer uden analysecookies, men websitet sætter selv én, som er beskrevet nedenfor. Ved sidevisninger kan Vercel modtage tidspunktet for hændelsen, sidens URL og filtrerede forespørgselsparametre, henvisningskilde, omtrentlig placering, browser, operativsystem og enhedstype. Vores egne klikhændelser indeholder begrænsede egenskaber som landestandard, platform, linkplacering eller interaktionstype. Vi medtager ikke bevidst navne, e-mailadresser, kortindhold eller konto-id'er i disse hændelser. Vercel aggregerer dataene og knytter ikke et datapunkt til en person eller en IP-adresse; dets daglige besøgshash kasseres efter 24 timer. Når din browser sender et Global Privacy Control-signal, sender websitet slet intet til Vercel Web Analytics.
 
@@ -115,7 +119,7 @@ Vi bruger følgende kategorier af tjenesteudbydere til den hostede tjeneste:
 - Amazon Web Services (AWS) til hosting, Cognito-godkendelse, Postgres, fillagring, backups og driftslogge;
 - Apple til betalinger i App Store, verificering af køb og abonnementsnotifikationer;
 - Google til betalinger i Google Play, verificering af køb og abonnementsnotifikationer;
-- Stripe til betalinger for webabonnementer, administration af fakturering, beregning af skatter og afgifter samt betalingsnotifikationer;
+- Stripe/Link til betalinger for webabonnementer, administration af fakturering, beregning af skatter og afgifter samt betalingsnotifikationer;
 - Resend til transaktionelle godkendelses- og faktureringsmails;
 - OpenAI til valgfri hostede AI-forespørgsler;
 - Sentry til renset fejl- og diagnoserapportering, når det er aktiveret i den relevante hostede tjeneste eller appbuild;

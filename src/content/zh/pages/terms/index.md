@@ -40,11 +40,13 @@ Nibomo 是一款开源的间隔重复与抽认卡工具。本条款仅适用于 
 
 ## Stripe 订阅
 
-当 Stripe 结账可用时，Nibomo Premium 的基本价格为每月6.99美元，包含适用税费。Stripe Adaptive Pricing 可能以当地货币显示价格；Stripe 会在您确认前显示最终金额和账单货币。购买需要登录已绑定电子邮箱的账户；访客必须先绑定邮箱。
+当 Stripe 结账可用时，Nibomo Premium 的基本价格为每月6.99美元，包含适用税费。价格可能因国家或商店而异。 Stripe Adaptive Pricing 可能以当地货币显示价格；Stripe 会在您确认前显示最终金额和账单货币。购买需要登录已绑定电子邮箱的账户；访客必须先绑定邮箱。
 
 符合条件的 Stripe 客户可获得七天免费试用，但必须提供付款方式。每位 Stripe 客户只能享受一次试用；此前的 Apple 或 Google 试用不影响资格。除非您在试用结束前取消，否则将通过您的付款方式收取月度订阅费。之后，订阅每月自动续订，直到取消。试用提醒说明每月基本价格；Stripe 会显示以账单货币计价的最终扣款金额。
 
 通过[订阅设置](https://app.nibomo.com/settings/subscription)打开 Stripe 账单门户，即可管理或取消订阅。普通取消在当前试用期或已付费期限结束时生效；在此之前，访问权限继续有效。通过 Stripe 购买不会取消任何独立的 Apple 或 Google 订阅，也不会替代现有的终身访问权限。
+
+对于通过 Stripe Managed Payments 进行的新购买，结账时会标明对销售负责的商家，购买会显示为“Sold through Link”。您可以通过 [Link](https://app.link.com) 管理这些交易；[Link](https://support.link.com/topics/sold-through-link) 客服处理付款和订阅问题以及符合条件的交易退款申请。Nibomo 提供产品支持。
 
 从任何受支持的客户端删除 Nibomo 账户时，会在清除数据前取消所有关联到该账户的 Nibomo Stripe 订阅的未来续订，并关闭尚未完成的 Nibomo 结账会话。如果无法确认取消，账户删除不会完成；请重试或联系支持。删除账户不会取消 Apple 或 Google 订阅。取消订阅和删除账户不会自动触发退款或按比例返还款项。本条款不限制消费者依法享有的强制性权利，包括适用的撤回或退款权利。
 

@@ -56,9 +56,13 @@ Platby za webová předplatná zpracovává Stripe. Na svých hostovaných plate
 
 Tyto údaje používáme k plnění smlouvy o předplatném, k ověřování a poskytování placeného přístupu, ke správě fakturace a k odesílání servisních e-mailů; záznamy také uchováváme pro účely účetnictví a párování transakcí a kvůli právním povinnostem nebo právním nárokům. Záznamy o fakturaci a události fakturace zaznamenané na serveru nezávisí na nastavení produktové analytiky. Vlastní zpracování údajů ze strany Stripe popisují jeho [Zásady ochrany osobních údajů](https://stripe.com/privacy).
 
-Připomínky zkušebního období Nibomo a potvrzení o platbách a vrácení peněz odesíláme prostřednictvím [Resend](https://resend.com/legal/privacy-policy). Resend dostává fakturační e-mailovou adresu zákazníka Stripe a obsah zprávy, včetně příslušné částky a měny, případně data konce zkušebního období, a odkazu na správu fakturace nebo na potvrzení. Stav doručení a identifikátory uchováváme, abychom mohli spravovat opakované pokusy o odeslání a předcházet duplicitním zprávám.
+U nových nákupů přes Stripe Managed Payments posílá Stripe/Link povinná potvrzení o platbách, faktury, oznámení o vrácení peněz a některá oznámení k předplatnému včetně potvrzení o začátku zkušebního období. Zpracování údajů popisují zásady ochrany soukromí služby [Link](https://link.com/privacy).
+
+Připomínku Nibomo o konci sedmidenního zkušebního období a potvrzení o platbách a vrácení peněz za dřívější nákupy přes Stripe odesíláme prostřednictvím [Resend](https://resend.com/legal/privacy-policy). Resend dostává fakturační e-mailovou adresu zákazníka Stripe a obsah zprávy, včetně příslušné částky a měny, případně data konce zkušebního období, a odkazu na správu fakturace nebo na potvrzení. Stav doručení a identifikátory uchováváme, abychom mohli spravovat opakované pokusy o odeslání a předcházet duplicitním zprávám.
 
 ## Analytika a cookies
+
+Je-li funkce k dispozici, může cenová nabídka využít IP adresu požadavku k navržení země, kterou můžete ručně změnit. Tato funkce si pamatuje pouze vybranou zemi ve funkčním souboru cookie sdíleném webem a webovou aplikací Nibomo po dobu až jednoho roku. Tato předvolba je oddělená od analytiky a neurčuje váš jazyk. Infrastrukturní protokoly jsou popsány jinde v těchto zásadách.
 
 Marketingový web používá Vercel Web Analytics k měření zobrazení stránek a vybraných událostí kliknutí na webu. Tato služba funguje bez analytických cookies, web ale nastavuje jednu vlastní, popsanou níže. U zobrazení stránek může Vercel obdržet čas události, URL stránky a filtrované parametry dotazu, odkazující stránku (referrer), přibližnou polohu, prohlížeč, operační systém a typ zařízení. Naše vlastní události kliknutí obsahují omezené vlastnosti, jako je jazyková verze, platforma, umístění odkazu nebo typ interakce. Jména, e-mailové adresy, obsah kartiček ani identifikátory účtů do těchto událostí záměrně nevkládáme. Vercel údaje agreguje a nespojuje datový bod s jednotlivcem ani s IP adresou; jeho denní hash návštěvníka se po 24 hodinách zahazuje. Pokud váš prohlížeč vysílá Global Privacy Control, web do Vercel Web Analytics neodesílá vůbec nic.
 
@@ -115,7 +119,7 @@ Pro hostovanou službu využíváme tyto kategorie poskytovatelů služeb:
 - Amazon Web Services (AWS) pro hosting, autentizaci Cognito, Postgres, ukládání souborů, zálohy a provozní logy;
 - Apple pro platby v App Storu, ověřování nákupů a oznámení o předplatném;
 - Google pro platby v Google Play, ověřování nákupů a oznámení o předplatném;
-- Stripe pro platby webových předplatných, správu fakturace, výpočet daní a oznámení o platbách;
+- Stripe/Link pro platby webových předplatných, správu fakturace, výpočet daní a oznámení o platbách;
 - Resend pro transakční autentizační a fakturační e-maily;
 - OpenAI pro volitelné hostované požadavky AI;
 - Sentry pro očištěná hlášení chyb a diagnostiky, pokud je to zapnuté v příslušné hostované službě nebo buildu aplikace;

@@ -56,9 +56,13 @@ Stripe hanterar betalningar för webbprenumerationer. På de betalnings- och fak
 
 Vi använder dessa uppgifter för att fullgöra vårt prenumerationsavtal, verifiera och ge betald åtkomst, hantera fakturering och skicka tjänstemeddelanden via e-post; vi sparar också poster för bokföring, avstämning och rättsliga förpliktelser eller anspråk. Faktureringsposter och faktureringshändelser som registreras på servern är oberoende av inställningen för produktanalys. Stripes egen behandling beskrivs i Stripes [integritetspolicy](https://stripe.com/privacy).
 
-Vi skickar Nibomos påminnelser om provperioden samt kvitton på betalningar och återbetalningar via [Resend](https://resend.com/legal/privacy-policy). Resend tar emot Stripe-kundens e-postadress för fakturering och meddelandets innehåll, däribland aktuellt belopp och aktuell valuta, slutdatum för provperioden i förekommande fall och en länk för hantering av fakturering eller till kvittot. Vi sparar leveransstatus och identifierare för att hantera nya leveransförsök och förhindra dubblettmeddelanden.
+Vid nya Stripe Managed Payments-köp skickar Stripe/Link obligatoriska betalningskvitton, fakturor, återbetalningsmeddelanden och vissa prenumerationsmeddelanden, inklusive bekräftelse på provperiodens start. Behandlingen beskrivs i integritetspolicyn hos [Link](https://link.com/privacy).
+
+Vi skickar Nibomos påminnelse om att den sju dagar långa provperioden tar slut samt betalnings- och återbetalningskvitton för tidigare Stripe-köp via [Resend](https://resend.com/legal/privacy-policy). Resend tar emot Stripe-kundens e-postadress för fakturering och meddelandets innehåll, däribland aktuellt belopp och aktuell valuta, slutdatum för provperioden i förekommande fall och en länk för hantering av fakturering eller till kvittot. Vi sparar leveransstatus och identifierare för att hantera nya leveransförsök och förhindra dubblettmeddelanden.
 
 ## Analys och cookies
+
+Där funktionen finns kan prisvisningen använda förfrågans IP-adress för att föreslå ett land, som du kan ändra manuellt. Funktionen kommer bara ihåg det valda landet i en funktionell kaka som delas mellan Nibomos webbplats och webbapp i upp till ett år. Detta val är skilt från analys och bestämmer inte ditt språk. Infrastrukturens loggning beskrivs på andra ställen i denna policy.
 
 Marknadsföringswebbplatsen använder Vercel Web Analytics för att mäta sidvisningar och utvalda klickhändelser på webbplatsen. Den tjänsten fungerar utan analyscookies, men webbplatsen sätter en egen, som beskrivs nedan. För sidvisningar kan Vercel ta emot tidpunkten för händelsen, sidans URL och filtrerade frågeparametrar, hänvisande sida, ungefärlig plats, webbläsare, operativsystem och enhetstyp. Våra egna klickhändelser innehåller begränsade egenskaper som språkinställning, plattform, länkens placering eller typ av interaktion. Vi tar inte avsiktligt med namn, e-postadresser, kortinnehåll eller kontoidentifierare i dessa händelser. Vercel aggregerar data och kopplar inte en datapunkt till en enskild person eller IP-adress; dess dagliga besökarhash kasseras efter 24 timmar. När din webbläsare skickar en Global Privacy Control-signal skickar webbplatsen ingenting alls till Vercel Web Analytics.
 
@@ -115,7 +119,7 @@ Vi använder följande kategorier av tjänsteleverantörer för den molndrivna t
 - Amazon Web Services (AWS) för drift, autentisering med Cognito, Postgres, fillagring, säkerhetskopior och driftloggar;
 - Apple för betalningar i App Store, verifiering av köp och aviseringar om prenumerationer;
 - Google för betalningar i Google Play, verifiering av köp och aviseringar om prenumerationer;
-- Stripe för betalningar av webbprenumerationer, hantering av fakturering, skatteberäkning och aviseringar om betalningar;
+- Stripe/Link för betalningar av webbprenumerationer, hantering av fakturering, skatteberäkning och aviseringar om betalningar;
 - Resend för transaktionella e-postmeddelanden för autentisering och fakturering;
 - OpenAI för valfria molndrivna AI-förfrågningar;
 - Sentry för rensad fel- och diagnostikrapportering när det är aktiverat i den aktuella molndrivna tjänsten eller appversionen;

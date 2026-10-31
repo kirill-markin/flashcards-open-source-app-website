@@ -40,11 +40,13 @@ Kui volitad välist AI-klienti kasutama MCP-teenust või Agent API-t, töötleva
 
 ## Stripe'i tellimused
 
-Kui Stripe'i kaudu maksmine on saadaval, pakutakse Nibomo Premiumit baashinnaga 6,99 USD kuus koos kohaldatavate maksudega. Stripe Adaptive Pricing võib kuvada hinna kohalikus vääringus; Stripe näitab lõplikku summat ja arveldusvääringut enne, kui sa ostu kinnitad. Ostmiseks on vaja sisselogitud kontot, millel on e-posti aadress; külalised peavad esmalt siduma e-posti aadressi.
+Kui Stripe'i kaudu maksmine on saadaval, pakutakse Nibomo Premiumit baashinnaga 6,99 USD kuus koos kohaldatavate maksudega. Hinnad võivad riigiti või poeti erineda. Stripe Adaptive Pricing võib kuvada hinna kohalikus vääringus; Stripe näitab lõplikku summat ja arveldusvääringut enne, kui sa ostu kinnitad. Ostmiseks on vaja sisselogitud kontot, millel on e-posti aadress; külalised peavad esmalt siduma e-posti aadressi.
 
 Tingimustele vastavad Stripe'i kliendid saavad seitsmepäevase tasuta prooviperioodi, mille jaoks on nõutav makseviis. Prooviperiood on saadaval üks kord Stripe'i kliendi kohta; varasemad Apple'i või Google’i prooviperioodid ei mõjuta selle saamise õigust. Kui sa ei tühista tellimust enne prooviperioodi lõppu, võetakse sinu makseviisilt tasu kuutellimuse eest. Seejärel uueneb tellimus automaatselt iga kuu, kuni see tühistatakse. Prooviperioodi meeldetuletustes on märgitud kuu baashind; Stripe näitab lõplikku tasu arveldusvääringus.
 
 Kasuta [tellimuse seadeid](https://app.nibomo.com/settings/subscription), et avada Stripe'i arveldusportaal ning hallata või tühistada oma tellimust. Tavaline tühistamine jõustub käimasoleva prooviperioodi või tasulise perioodi lõpus; seni säilib sinu juurdepääs. Stripe'i kaudu tehtud ost ei tühista eraldi Apple'i ega Google’i tellimust ega asenda olemasolevat eluaegset juurdepääsu.
+
+Uute Stripe Managed Paymentsi kaudu tehtud ostude puhul näidatakse maksmisel müügi eest vastutavat kaupmeest ja ost kuvatakse tähisega „Sold through Link“. Neid tehinguid saad hallata teenuses [Link](https://app.link.com); [Link](https://support.link.com/topics/sold-through-link)i tugi tegeleb maksete, tellimuste ja tingimustele vastavate tehingute tagasimaksetaotlustega. Nibomo pakub tootetuge.
 
 Kui kustutad oma Nibomo konto mis tahes toetatud kliendis, tühistatakse enne andmete lõplikku kustutamist kõigi selle kontoga seotud Nibomo Stripe'i tellimuste edasised uuendamised ja suletakse avatud Nibomo makseseansid. Kui tühistamist ei saa kinnitada, kustutamist lõpule ei viida; proovi uuesti või võta ühendust toega. Konto kustutamine ei tühista Apple'i ega Google’i tellimusi. Tühistamine ja konto kustutamine ei too automaatselt kaasa tagasimakset ega proportsionaalset krediiti. Miski nendes tingimustes ei piira tarbija õigusi, mida ei saa lepinguga välistada, sealhulgas kohaldatavat taganemis- või tagasimakseõigust.
 

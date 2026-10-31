@@ -56,9 +56,13 @@ A webes előfizetések fizetését a Stripe kezeli. A Stripe által üzemeltetet
 
 Ezeket az adatokat az előfizetési szerződés teljesítésére, a fizetős hozzáférés ellenőrzésére és biztosítására, a számlázás kezelésére és szolgáltatási e-mailek küldésére használjuk; a nyilvántartásokat a számvitel, az egyeztetés, valamint jogi kötelezettségek teljesítése vagy jogi igények céljából is megőrizzük. A számlázási nyilvántartások és a szerveren rögzített számlázási események függetlenek a termékanalitika beállításától. A Stripe saját adatkezelését a Stripe [adatvédelmi szabályzata](https://stripe.com/privacy) ismerteti.
 
-A Nibomo próbaidőszakról szóló emlékeztetőit, valamint a fizetési és visszatérítési nyugtákat a [Resend](https://resend.com/legal/privacy-policy) szolgáltatáson keresztül küldjük. A Resend megkapja a Stripe-ügyfél számlázási e-mail-címét és az üzenet tartalmát, beleértve a vonatkozó összeget és pénznemet, adott esetben a próbaidőszak végének dátumát, valamint a számlázás kezelésére szolgáló vagy a nyugtához vezető linket. A kézbesítési állapotot és az azonosítókat az újrapróbálkozások kezelése és az ismétlődő üzenetek megelőzése érdekében megőrizzük.
+Új Stripe Managed Payments-vásárlásoknál a Stripe/Link küldi a kötelező fizetési nyugtákat, számlákat, visszatérítési értesítéseket és bizonyos előfizetési értesítéseket, köztük a próbaidőszak kezdetének visszaigazolását. Az adatkezelést a [Link](https://link.com/privacy) adatvédelmi szabályzata ismerteti.
+
+A Nibomo hétnapos próbaidőszakának végét jelző emlékeztetőt és a korábbi Stripe-vásárlások fizetési és visszatérítési nyugtáit a [Resend](https://resend.com/legal/privacy-policy) szolgáltatáson keresztül küldjük. A Resend megkapja a Stripe-ügyfél számlázási e-mail-címét és az üzenet tartalmát, beleértve a vonatkozó összeget és pénznemet, adott esetben a próbaidőszak végének dátumát, valamint a számlázás kezelésére szolgáló vagy a nyugtához vezető linket. A kézbesítési állapotot és az azonosítókat az újrapróbálkozások kezelése és az ismétlődő üzenetek megelőzése érdekében megőrizzük.
 
 ## Analitika és sütik
+
+Ahol elérhető a funkció, az árak megjelenítése a kérés IP-címe alapján országot javasolhat, amelyet kézzel megváltoztathatsz. Ez a funkció csak a kiválasztott országot jegyzi meg egy funkcionális sütiben, amelyet a Nibomo webhelye és webalkalmazása legfeljebb egy évig közösen használ. Ez a beállítás elkülönül az analitikától, és nem határozza meg a nyelvedet. Az infrastruktúra naplózását e szabályzat más részei ismertetik.
 
 A marketingweboldal a Vercel Web Analytics szolgáltatást használja az oldalmegtekintések és a webhely bizonyos kattintási eseményeinek mérésére. Ez a szolgáltatás analitikai sütik nélkül működik, a weboldal azonban beállít egy saját sütit, amelyet alább ismertetünk. Az oldalmegtekintéseknél a Vercel megkaphatja az esemény időpontját, az oldal URL-jét és a szűrt lekérdezési paramétereket, a hivatkozó oldalt, a hozzávetőleges helyet, a böngészőt, az operációs rendszert és az eszköz típusát. Egyéni kattintási eseményeink csak korlátozott tulajdonságokat tartalmaznak, például a nyelvi beállítást, a platformot, a hivatkozás elhelyezkedését vagy az interakció típusát. Ezekbe az eseményekbe szándékosan nem teszünk neveket, e-mail-címeket, kártyatartalmat vagy fiókazonosítókat. A Vercel összesíti az adatokat, és egyetlen adatpontot sem kapcsol egy adott személyhez vagy IP-címhez; a napi látogatói hash-értéket 24 óra után elveti. Ha a böngésződ Global Privacy Control jelzést küld, a weboldal egyáltalán semmit sem küld a Vercel Web Analyticsnek.
 
@@ -115,7 +119,7 @@ A felhős szolgáltatáshoz a következő szolgáltatókategóriákat vesszük i
 - Amazon Web Services (AWS) a tárhelyszolgáltatáshoz, a Cognito-hitelesítéshez, a Postgreshez, a fájltároláshoz, a biztonsági mentésekhez és az üzemeltetési naplókhoz;
 - Apple az App Store-os fizetésekhez, a vásárlások ellenőrzéséhez és az előfizetési értesítésekhez;
 - Google a Google Playen történő fizetésekhez, a vásárlások ellenőrzéséhez és az előfizetési értesítésekhez;
-- Stripe a webes előfizetések fizetéséhez, a számlázás kezeléséhez, az adószámításhoz és a fizetési értesítésekhez;
+- Stripe/Link a webes előfizetések fizetéséhez, a számlázás kezeléséhez, az adószámításhoz és a fizetési értesítésekhez;
 - Resend a hitelesítéssel és a számlázással kapcsolatos tranzakciós e-mailekhez;
 - OpenAI az opcionális felhős AI-kérésekhez;
 - Sentry a megtisztított hiba- és diagnosztikai jelentésekhez, ha az adott felhős szolgáltatásban vagy alkalmazásbuildben engedélyezve van;

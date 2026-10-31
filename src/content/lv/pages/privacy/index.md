@@ -56,9 +56,13 @@ Stripe apstrādā maksājumus par tīmekļa abonementiem. Savās mitinātajās a
 
 Šos datus mēs izmantojam, lai izpildītu mūsu abonementa līgumu, pārbaudītu un nodrošinātu maksas piekļuvi, pārvaldītu norēķinus un sūtītu pakalpojuma e-pastus; ierakstus mēs glabājam arī grāmatvedības, saskaņošanas un juridisku pienākumu vai prasību nolūkā. Norēķinu ieraksti un serverī reģistrētie norēķinu notikumi nav atkarīgi no produkta analītikas iestatījuma. Stripe pašas veiktā apstrāde ir aprakstīta tās [Privātuma politikā](https://stripe.com/privacy).
 
-Nibomo izmēģinājuma atgādinājumus un maksājumu un atmaksu kvītis mēs sūtām, izmantojot [Resend](https://resend.com/legal/privacy-policy). Resend saņem Stripe klienta norēķinu e-pasta adresi un ziņojuma saturu, tostarp attiecīgo summu un valūtu, izmēģinājuma beigu datumu, ja piemērojams, un norēķinu pārvaldības vai kvīts saiti. Mēs glabājam piegādes statusu un identifikatorus, lai pārvaldītu atkārtotus mēģinājumus un novērstu ziņojumu dublēšanos.
+Jauniem Stripe Managed Payments pirkumiem Stripe/Link sūta obligātās maksājumu kvītis, rēķinus, atmaksas paziņojumus un noteiktus abonementa paziņojumus, tostarp izmēģinājuma sākuma apstiprinājumu. Datu apstrāde aprakstīta [Link](https://link.com/privacy) privātuma politikā.
+
+Nibomo atgādinājumu par septiņu dienu izmēģinājuma beigām un agrāko Stripe pirkumu maksājumu un atmaksu kvītis sūtām, izmantojot [Resend](https://resend.com/legal/privacy-policy). Resend saņem Stripe klienta norēķinu e-pasta adresi un ziņojuma saturu, tostarp attiecīgo summu un valūtu, izmēģinājuma beigu datumu, ja piemērojams, un norēķinu pārvaldības vai kvīts saiti. Mēs glabājam piegādes statusu un identifikatorus, lai pārvaldītu atkārtotus mēģinājumus un novērstu ziņojumu dublēšanos.
 
 ## Analītika un sīkdatnes
+
+Ja funkcija ir pieejama, cenu attēlošanai var izmantot pieprasījuma IP adresi, lai ieteiktu valsti, ko vari manuāli mainīt. Šī funkcija atceras tikai izvēlēto valsti funkcionālā sīkdatnē, ko Nibomo vietne un tīmekļa lietotne koplieto līdz vienam gadam. Šī izvēle ir atsevišķa no analītikas un nenosaka tavu valodu. Infrastruktūras žurnālu veidošana aprakstīta citviet šajā politikā.
 
 Mārketinga vietne izmanto Vercel Web Analytics, lai mērītu lapu skatījumus un atsevišķus klikšķu notikumus vietnē. Šis pakalpojums darbojas bez analītikas sīkdatnēm, taču vietne iestata vienu savu sīkdatni, kas aprakstīta tālāk. Par lapu skatījumiem Vercel var saņemt notikuma laiku, lapas URL un filtrētus vaicājuma parametrus, atsauces lapu, aptuveno atrašanās vietu, pārlūku, operētājsistēmu un ierīces veidu. Mūsu pielāgotie klikšķu notikumi ietver ierobežotus rekvizītus, piemēram, lokalizāciju, platformu, saites izvietojumu vai mijiedarbības veidu. Mēs apzināti neiekļaujam šajos notikumos vārdus, e-pasta adreses, kartīšu saturu vai kontu identifikatorus. Vercel apkopo datus un nesaista datu punktu ar konkrētu personu vai IP adresi; Vercel ikdienas apmeklētāju jaucējkods tiek dzēsts pēc 24 stundām. Ja tavs pārlūks sūta Global Privacy Control signālu, vietne uz Vercel Web Analytics nesūta vispār neko.
 
@@ -115,7 +119,7 @@ Mitinātajam pakalpojumam mēs izmantojam šādu kategoriju pakalpojumu sniedzē
 - Amazon Web Services (AWS) mitināšanai, Cognito autentifikācijai, Postgres, failu glabāšanai, dublējumkopijām un darbības žurnāliem;
 - Apple App Store maksājumiem, pirkumu pārbaudei un abonementu paziņojumiem;
 - Google Google Play maksājumiem, pirkumu pārbaudei un abonementu paziņojumiem;
-- Stripe tīmekļa abonementu maksājumiem, norēķinu pārvaldībai, nodokļu aprēķinam un maksājumu paziņojumiem;
+- Stripe/Link tīmekļa abonementu maksājumiem, norēķinu pārvaldībai, nodokļu aprēķinam un maksājumu paziņojumiem;
 - Resend transakciju e-pastiem autentifikācijai un norēķiniem;
 - OpenAI neobligātiem mitinātā MI pieprasījumiem;
 - Sentry attīrītu kļūdu un diagnostikas datu ziņošanai, ja tā ir ieslēgta attiecīgajā mitinātajā pakalpojumā vai lietotnes būvējumā;

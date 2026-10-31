@@ -56,9 +56,13 @@ Stripe obrađuje plaćanja za web-pretplate. Na svojim hostiranim stranicama za 
 
 Te podatke koristimo za izvršenje ugovora o pretplati, provjeru i pružanje plaćenog pristupa, upravljanje naplatom i slanje servisnih e-poruka; zapise zadržavamo i radi računovodstva i usklađivanja te ispunjavanja pravnih obveza ili radi pravnih zahtjeva. Zapisi o naplati i događaji naplate zabilježeni na poslužitelju ne ovise o postavci analitike proizvoda. Obrada podataka koju provodi sam Stripe opisana je u njegovim [Pravilima privatnosti](https://stripe.com/privacy).
 
-Nibomo podsjetnike o probnom razdoblju te potvrde o plaćanju i povratu novca šaljemo putem [Resenda](https://resend.com/legal/privacy-policy). Resend prima adresu e-pošte za naplatu kupca u Stripeu i sadržaj poruke, uključujući relevantni iznos i valutu, datum isteka probnog razdoblja ako je primjenjivo te poveznicu za upravljanje naplatom ili na potvrdu. Status i identifikatore isporuke zadržavamo kako bismo upravljali ponovnim pokušajima i spriječili dvostruke poruke.
+Za nove kupnje putem Stripe Managed Paymentsa Stripe/Link šalje obvezne potvrde o plaćanju, račune, obavijesti o povratu i određene obavijesti o pretplati, uključujući potvrdu početka probnog razdoblja. Obrada je opisana u pravilima privatnosti servisa [Link](https://link.com/privacy).
+
+Nibomo podsjetnik o isteku sedmodnevnog probnog razdoblja i potvrde o plaćanju i povratu za ranije kupnje putem Stripea šaljemo putem [Resend](https://resend.com/legal/privacy-policy)a. Resend prima adresu e-pošte za naplatu kupca u Stripeu i sadržaj poruke, uključujući relevantni iznos i valutu, datum isteka probnog razdoblja ako je primjenjivo te poveznicu za upravljanje naplatom ili na potvrdu. Status i identifikatore isporuke zadržavamo kako bismo upravljali ponovnim pokušajima i spriječili dvostruke poruke.
 
 ## Analitika i kolačići
+
+Gdje je značajka dostupna, prikaz cijena može upotrijebiti IP adresu zahtjeva za prijedlog države koju možete ručno promijeniti. Ta značajka pamti samo odabranu državu u funkcionalnom kolačiću koji dijele web-mjesto i web-aplikacija Nibomo najviše godinu dana. Ta je postavka odvojena od analitike i ne određuje vaš jezik. Zapisivanje infrastrukturnih dnevnika opisano je drugdje u ovim pravilima.
 
 Marketinška web stranica koristi Vercel Web Analytics za mjerenje pregleda stranica i odabranih događaja klikova na stranici. Ta usluga radi bez analitičkih kolačića, ali web stranica postavlja jedan vlastiti, opisan u nastavku. Za preglede stranica Vercel može primiti vrijeme događaja, URL stranice i filtrirane parametre upita, stranicu s koje ste došli, približnu lokaciju, preglednik, operacijski sustav i vrstu uređaja. Naši prilagođeni događaji klikova uključuju ograničena svojstva kao što su jezične postavke, platforma, položaj poveznice ili vrsta interakcije. U te događaje namjerno ne uključujemo imena, adrese e-pošte, sadržaj kartica ni identifikatore računa. Vercel objedinjuje podatke i ne povezuje pojedini podatak s pojedincem ili IP adresom; njegov dnevni hash posjetitelja odbacuje se nakon 24 sata. Kad vaš preglednik šalje signal Global Privacy Control, web stranica uslugi Vercel Web Analytics ne šalje baš ništa.
 
@@ -115,7 +119,7 @@ Za hostiranu uslugu koristimo sljedeće kategorije pružatelja usluga:
 - Amazon Web Services (AWS) za hosting, Cognito autentifikaciju, Postgres, pohranu datoteka, sigurnosne kopije i operativne zapisnike;
 - Apple za plaćanja u App Storeu, provjeru kupnji i obavijesti o pretplatama;
 - Google za plaćanja u Google Playu, provjeru kupnji i obavijesti o pretplatama;
-- Stripe za plaćanja web-pretplata, upravljanje naplatom, izračun poreza i obavijesti o plaćanjima;
+- Stripe/Link za plaćanja web-pretplata, upravljanje naplatom, izračun poreza i obavijesti o plaćanjima;
 - Resend za transakcijske e-poruke za autentifikaciju i naplatu;
 - OpenAI za neobavezne hostirane AI zahtjeve;
 - Sentry za izvještavanje o pogreškama i dijagnostici, iz kojeg su uklonjeni osjetljivi podaci, kad je omogućeno u relevantnoj hostiranoj usluzi ili buildu aplikacije;

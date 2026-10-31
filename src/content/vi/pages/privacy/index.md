@@ -56,9 +56,13 @@ Stripe xử lý thanh toán cho các gói đăng ký trên web. Trên các trang
 
 Chúng tôi sử dụng dữ liệu này để thực hiện hợp đồng gói đăng ký với bạn, xác minh và cung cấp quyền truy cập trả phí, quản lý thanh toán và gửi email về dịch vụ; chúng tôi cũng lưu giữ hồ sơ để phục vụ kế toán, đối soát và các nghĩa vụ hoặc yêu cầu pháp lý. Hồ sơ thanh toán và các sự kiện thanh toán được ghi nhận trên máy chủ không phụ thuộc vào thiết lập phân tích sản phẩm. Việc xử lý của chính Stripe được mô tả trong [Chính sách bảo mật](https://stripe.com/privacy) của Stripe.
 
-Chúng tôi gửi thông báo nhắc về thời gian dùng thử Nibomo cùng biên lai thanh toán và hoàn tiền qua [Resend](https://resend.com/legal/privacy-policy). Resend nhận địa chỉ email thanh toán của khách hàng Stripe và nội dung thư, bao gồm số tiền và đơn vị tiền tệ liên quan, ngày kết thúc dùng thử nếu có, và một liên kết quản lý thanh toán hoặc liên kết biên lai. Chúng tôi lưu giữ trạng thái gửi và các mã định danh để quản lý việc gửi lại và ngăn chặn thư trùng lặp.
+Với giao dịch mua mới qua Stripe Managed Payments, Stripe/Link gửi các biên lai thanh toán, hóa đơn, thông báo hoàn tiền bắt buộc và một số thông báo về gói đăng ký, bao gồm xác nhận bắt đầu dùng thử. Việc xử lý dữ liệu được mô tả trong chính sách quyền riêng tư của [Link](https://link.com/privacy).
+
+Chúng tôi gửi thông báo Nibomo nhắc kết thúc thời gian dùng thử bảy ngày và biên lai thanh toán, hoàn tiền cho các giao dịch mua Stripe trước đây qua [Resend](https://resend.com/legal/privacy-policy). Resend nhận địa chỉ email thanh toán của khách hàng Stripe và nội dung thư, bao gồm số tiền và đơn vị tiền tệ liên quan, ngày kết thúc dùng thử nếu có, và một liên kết quản lý thanh toán hoặc liên kết biên lai. Chúng tôi lưu giữ trạng thái gửi và các mã định danh để quản lý việc gửi lại và ngăn chặn thư trùng lặp.
 
 ## Phân tích và cookie
+
+Khi tính năng này có sẵn, phần hiển thị giá có thể dùng địa chỉ IP của yêu cầu để gợi ý quốc gia, và bạn có thể đổi thủ công. Tính năng này chỉ ghi nhớ quốc gia đã chọn trong một cookie chức năng dùng chung giữa trang web và ứng dụng web Nibomo trong tối đa một năm. Lựa chọn này tách biệt với phân tích và không quyết định ngôn ngữ của bạn. Việc ghi nhật ký hạ tầng được mô tả ở các phần khác của chính sách này.
 
 Trang web marketing sử dụng Vercel Web Analytics để đo lượt xem trang và một số sự kiện nhấp chuột được chọn trên trang. Dịch vụ đó hoạt động mà không dùng cookie phân tích, nhưng trang web đặt một cookie của riêng mình, được mô tả dưới đây. Đối với lượt xem trang, Vercel có thể nhận thời điểm diễn ra sự kiện, URL trang và các tham số truy vấn đã được lọc, trang giới thiệu (referrer), vị trí gần đúng, trình duyệt, hệ điều hành và loại thiết bị. Các sự kiện nhấp chuột tùy chỉnh của chúng tôi bao gồm một số thuộc tính hạn chế như ngôn ngữ-khu vực, nền tảng, vị trí đặt liên kết hoặc loại tương tác. Chúng tôi không cố ý đưa tên, địa chỉ email, nội dung thẻ hoặc mã định danh tài khoản vào các sự kiện này. Vercel tổng hợp dữ liệu và không liên kết một điểm dữ liệu với một cá nhân hoặc địa chỉ IP; mã băm khách truy cập hằng ngày của dịch vụ này bị loại bỏ sau 24 giờ. Khi trình duyệt của bạn gửi tín hiệu Global Privacy Control, trang web hoàn toàn không gửi gì tới Vercel Web Analytics.
 
@@ -115,7 +119,7 @@ Chúng tôi sử dụng các nhóm nhà cung cấp dịch vụ sau cho dịch v�
 - Amazon Web Services (AWS) cho lưu trữ máy chủ, xác thực Cognito, Postgres, lưu trữ tệp, sao lưu và nhật ký vận hành;
 - Apple cho thanh toán trên App Store, xác minh giao dịch mua và thông báo về gói đăng ký;
 - Google cho thanh toán trên Google Play, xác minh giao dịch mua và thông báo về gói đăng ký;
-- Stripe cho thanh toán gói đăng ký trên web, quản lý thanh toán, tính thuế và thông báo thanh toán;
+- Stripe/Link cho thanh toán gói đăng ký trên web, quản lý thanh toán, tính thuế và thông báo thanh toán;
 - Resend cho email xác thực và email thanh toán mang tính giao dịch;
 - OpenAI cho các yêu cầu AI tùy chọn trên dịch vụ lưu trữ sẵn;
 - Sentry cho báo cáo lỗi và chẩn đoán đã được làm sạch khi được bật trong dịch vụ lưu trữ sẵn hoặc bản build ứng dụng tương ứng;

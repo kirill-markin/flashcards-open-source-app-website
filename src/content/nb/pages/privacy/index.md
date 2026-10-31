@@ -56,9 +56,13 @@ Stripe behandler betalinger for nettabonnementer. På sine hostede betalings- og
 
 Vi bruker disse dataene til å oppfylle abonnementsavtalen vår, verifisere og gi betalt tilgang, administrere fakturering og sende tjeneste-e-poster; vi oppbevarer også oppføringer av hensyn til regnskap, avstemming og rettslige forpliktelser eller rettskrav. Faktureringsoppføringer og faktureringshendelser registrert på serveren er uavhengige av innstillingen for produktanalyse. Stripes egen behandling er beskrevet i Stripes [personvernerklæring](https://stripe.com/privacy).
 
-Vi sender Nibomos påminnelser om prøveperioden samt kvitteringer for betalinger og refusjoner via [Resend](https://resend.com/legal/privacy-policy). Resend mottar Stripe-kundens e-postadresse for fakturering og innholdet i meldingen, inkludert det aktuelle beløpet og den aktuelle valutaen, sluttdatoen for prøveperioden der det er relevant, og en lenke til administrasjon av fakturering eller til kvitteringen. Vi oppbevarer leveringsstatus og identifikatorer for å håndtere nye sendingsforsøk og hindre dupliserte meldinger.
+Ved nye Stripe Managed Payments-kjøp sender Stripe/Link obligatoriske betalingskvitteringer, fakturaer, refusjonsvarsler og visse abonnementsvarsler, inkludert bekreftelse på prøvestart. Behandlingen er beskrevet i personvernerklæringen til [Link](https://link.com/privacy).
+
+Vi sender Nibomos påminnelse om at den sju dager lange prøveperioden avsluttes, samt betalings- og refusjonskvitteringer for tidligere Stripe-kjøp via [Resend](https://resend.com/legal/privacy-policy). Resend mottar Stripe-kundens e-postadresse for fakturering og innholdet i meldingen, inkludert det aktuelle beløpet og den aktuelle valutaen, sluttdatoen for prøveperioden der det er relevant, og en lenke til administrasjon av fakturering eller til kvitteringen. Vi oppbevarer leveringsstatus og identifikatorer for å håndtere nye sendingsforsøk og hindre dupliserte meldinger.
 
 ## Analyse og informasjonskapsler
+
+Der funksjonen er tilgjengelig, kan prisvisningen bruke forespørselens IP-adresse til å foreslå et land, som du kan endre manuelt. Funksjonen husker bare det valgte landet i en funksjonell informasjonskapsel som deles mellom Nibomos nettsted og nettapp i opptil ett år. Dette valget er atskilt fra analyse og bestemmer ikke språket ditt. Logging av infrastrukturen er beskrevet andre steder i denne erklæringen.
 
 Markedsføringsnettstedet bruker Vercel Web Analytics til å måle sidevisninger og utvalgte klikkhendelser på nettstedet. Den tjenesten fungerer uten informasjonskapsler for analyse, men nettstedet setter en egen, som er beskrevet nedenfor. For sidevisninger kan Vercel motta tidspunktet for hendelsen, sidens URL og filtrerte spørreparametere, henvisende side, omtrentlig plassering, nettleser, operativsystem og enhetstype. Våre egendefinerte klikkhendelser inneholder begrensede egenskaper som språkinnstilling, plattform, plasseringen av lenken eller typen interaksjon. Vi tar ikke bevisst med navn, e-postadresser, kortinnhold eller kontoidentifikatorer i disse hendelsene. Vercel aggregerer dataene og knytter ikke et datapunkt til en enkeltperson eller IP-adresse; den daglige besøkshashen forkastes etter 24 timer. Når nettleseren din sender et Global Privacy Control-signal, sender nettstedet ingenting i det hele tatt til Vercel Web Analytics.
 
@@ -115,7 +119,7 @@ Vi bruker følgende kategorier av tjenesteleverandører for den hostede tjeneste
 - Amazon Web Services (AWS) for hosting, Cognito-autentisering, Postgres, fillagring, sikkerhetskopier og driftslogger;
 - Apple for betalinger i App Store, verifisering av kjøp og varsler om abonnementer;
 - Google for betalinger i Google Play, verifisering av kjøp og varsler om abonnementer;
-- Stripe for betalinger av nettabonnementer, administrasjon av fakturering, beregning av skatter og avgifter og varsler om betalinger;
+- Stripe/Link for betalinger av nettabonnementer, administrasjon av fakturering, beregning av skatter og avgifter og varsler om betalinger;
 - Resend for transaksjonelle e-poster for autentisering og fakturering;
 - OpenAI for valgfrie hostede AI-forespørsler;
 - Sentry for rensede feil- og diagnoserapporter når dette er aktivert i den aktuelle hostede tjenesten eller det aktuelle appbygget;

@@ -56,9 +56,13 @@ Web aboneliklerinin ödemelerini Stripe işler. Stripe, kendi barındırdığı 
 
 Bu verileri abonelik sözleşmemizi ifa etmek, ücretli erişimi doğrulamak ve sağlamak, faturalandırmayı yönetmek ve hizmet e-postaları göndermek için kullanırız; kayıtları ayrıca muhasebe ve mutabakat amacıyla ve yasal yükümlülükleri yerine getirmek veya hukuki talepler için saklarız. Faturalandırma kayıtları ve sunucuda kaydedilen faturalandırma olayları, ürün analizi ayarından bağımsızdır. Stripe'ın kendi veri işleme faaliyetleri, şirketin [Gizlilik Politikası'nda](https://stripe.com/privacy) açıklanmıştır.
 
-Nibomo deneme hatırlatmalarını ve ödeme ile iade makbuzlarını [Resend](https://resend.com/legal/privacy-policy) aracılığıyla göndeririz. Resend, Stripe müşterisinin faturalandırma e-posta adresini ve ilgili tutar ile para birimi, varsa deneme bitiş tarihi ve bir faturalandırma yönetimi veya makbuz bağlantısı dahil mesaj içeriğini alır. Yeniden denemeleri yönetmek ve yinelenen mesajları önlemek için teslim durumunu ve tanımlayıcıları saklarız.
+Yeni Stripe Managed Payments satın almalarında Stripe/Link zorunlu ödeme makbuzlarını, faturaları, iade bildirimlerini ve deneme başlangıcı onayı dahil belirli abonelik bildirimlerini gönderir. Veri işleme uygulamaları [Link](https://link.com/privacy) gizlilik politikasında açıklanır.
+
+Nibomo'nun yedi günlük denemenin bitiş hatırlatmasını ve önceki Stripe satın almalarının ödeme ve iade makbuzlarını [Resend](https://resend.com/legal/privacy-policy) aracılığıyla göndeririz. Resend, Stripe müşterisinin faturalandırma e-posta adresini ve ilgili tutar ile para birimi, varsa deneme bitiş tarihi ve bir faturalandırma yönetimi veya makbuz bağlantısı dahil mesaj içeriğini alır. Yeniden denemeleri yönetmek ve yinelenen mesajları önlemek için teslim durumunu ve tanımlayıcıları saklarız.
 
 ## Analiz ve Çerezler
+
+Özellik kullanılabildiğinde fiyat gösterimi, bir ülke önermek için isteğin IP adresini kullanabilir; bu ülkeyi elle değiştirebilirsiniz. Bu özellik yalnızca seçilen ülkeyi, Nibomo web sitesi ve web uygulamasının paylaştığı işlevsel bir çerezde en fazla bir yıl hatırlar. Bu tercih analitikten ayrıdır ve dilinizi belirlemez. Altyapı günlükleri bu politikanın diğer bölümlerinde açıklanır.
 
 Pazarlama web sitesi, sayfa görüntülemelerini ve seçili site tıklama olaylarını ölçmek için Vercel Web Analytics kullanır. Bu hizmet analiz çerezleri olmadan çalışır, ancak web sitesi aşağıda açıklanan kendi çerezini ayarlar. Sayfa görüntülemeleri için Vercel; olay zamanını, sayfa URL'sini ve filtrelenmiş sorgu parametrelerini, yönlendireni, yaklaşık konumu, tarayıcıyı, işletim sistemini ve cihaz türünü alabilir. Özel tıklama olaylarımız yerel ayar, platform, bağlantı yerleşimi veya etkileşim türü gibi sınırlı özellikler içerir. Bu olaylara bilerek ad, e-posta adresi, kart içeriği veya hesap tanımlayıcısı eklemeyiz. Vercel verileri toplulaştırır ve bir veri noktasını bir kişiyle veya IP adresiyle ilişkilendirmez; günlük ziyaretçi hash değeri 24 saat sonra silinir. Tarayıcınız Global Privacy Control sinyali gönderdiğinde web sitesi Vercel Web Analytics'e hiçbir şey göndermez.
 
@@ -115,7 +119,7 @@ Barındırılan hizmet için aşağıdaki hizmet sağlayıcı kategorilerini kul
 - barındırma, Cognito kimlik doğrulaması, Postgres, dosya depolama, yedekler ve operasyonel günlükler için Amazon Web Services (AWS);
 - App Store ödemeleri, satın alma doğrulaması ve abonelik bildirimleri için Apple;
 - Google Play ödemeleri, satın alma doğrulaması ve abonelik bildirimleri için Google;
-- web aboneliği ödemeleri, faturalandırma yönetimi, vergi hesaplama ve ödeme bildirimleri için Stripe;
+- web aboneliği ödemeleri, faturalandırma yönetimi, vergi hesaplama ve ödeme bildirimleri için Stripe/Link;
 - işlemsel kimlik doğrulama ve faturalandırma e-postaları için Resend;
 - isteğe bağlı barındırılan AI istekleri için OpenAI;
 - ilgili barındırılan hizmette veya uygulama derlemesinde etkinleştirildiğinde arındırılmış hata ve tanılama raporlaması için Sentry;

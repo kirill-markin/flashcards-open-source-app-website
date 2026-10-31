@@ -40,11 +40,13 @@ When you authorize an external AI client to use the MCP service or Agent API, th
 
 ## Stripe Subscriptions
 
-When Stripe checkout is available, Nibomo Premium is offered at a base price of USD 6.99 per month, including applicable taxes. Stripe Adaptive Pricing may present a local currency price; Stripe shows the final amount and billing currency before you confirm. Purchasing requires a signed-in account with an email address; guests must link an email first.
+When Stripe checkout is available, Nibomo Premium is offered at a base price of USD 6.99 per month, including applicable taxes. Prices may vary by country or store. Stripe Adaptive Pricing may present a local currency price; Stripe shows the final amount and billing currency before you confirm. Purchasing requires a signed-in account with an email address; guests must link an email first.
 
 Eligible Stripe customers receive a seven-day free trial with a payment method required. The trial is available once per Stripe customer; previous Apple or Google trials do not affect eligibility. Unless you cancel before the trial ends, your payment method is charged for the monthly subscription. It then renews automatically each month until canceled. Trial reminders state the monthly base price; Stripe shows the final charge in the billing currency.
 
 Use [Subscription settings](https://app.nibomo.com/settings/subscription) to open Stripe's billing portal and manage or cancel your subscription. Ordinary cancellation takes effect at the end of the current trial or paid period; access continues until then. A Stripe purchase does not cancel any separate Apple or Google subscription or replace existing lifetime access.
+
+For new purchases through Stripe Managed Payments, the merchant of record is identified at checkout and the purchase is presented as “Sold through Link”. You can manage these transactions through [Link](https://app.link.com); [Link](https://support.link.com/topics/sold-through-link) handles payment and subscription support and eligible transaction refund requests. Nibomo provides product support.
 
 Deleting your Nibomo account from any supported client cancels future renewals of all Nibomo Stripe subscriptions linked to that account and closes open Nibomo checkout sessions before erasure. If cancellation cannot be confirmed, deletion does not complete; retry or contact support. Account deletion does not cancel Apple or Google subscriptions. Cancellation and account deletion do not automatically issue a refund or prorated credit. Nothing in these Terms limits mandatory consumer rights, including any applicable withdrawal or refund rights.
 

@@ -56,9 +56,13 @@ Płatności za subskrypcje internetowe przetwarza Stripe. Na hostowanych przez s
 
 Wykorzystujemy te dane do wykonania umowy subskrypcji, weryfikacji i zapewniania płatnego dostępu, zarządzania rozliczeniami i wysyłania e-maili serwisowych; przechowujemy też zapisy na potrzeby księgowości i uzgadniania transakcji oraz w związku z obowiązkami prawnymi lub roszczeniami. Zapisy rozliczeniowe i zdarzenia rozliczeniowe rejestrowane na serwerze nie zależą od ustawienia analityki produktowej. Sposób, w jaki Stripe sam przetwarza dane, opisuje jego [Polityka prywatności](https://stripe.com/privacy).
 
-Przypomnienia Nibomo o okresie próbnym oraz potwierdzenia płatności i zwrotów wysyłamy za pośrednictwem [Resend](https://resend.com/legal/privacy-policy). Resend otrzymuje rozliczeniowy adres e-mail klienta Stripe i treść wiadomości, w tym odpowiednią kwotę i walutę, datę zakończenia okresu próbnego, jeśli dotyczy, oraz link do zarządzania rozliczeniami lub do potwierdzenia. Przechowujemy status i identyfikatory dostarczenia, aby zarządzać ponownymi próbami i zapobiegać powielaniu wiadomości.
+Przy nowych zakupach Stripe Managed Payments Stripe/Link wysyła obowiązkowe potwierdzenia płatności, faktury, powiadomienia o zwrotach i określone powiadomienia o subskrypcji, w tym potwierdzenie rozpoczęcia okresu próbnego. Przetwarzanie danych opisuje polityka prywatności [Link](https://link.com/privacy).
+
+Przypomnienie Nibomo o końcu siedmiodniowego okresu próbnego oraz potwierdzenia płatności i zwrotów za wcześniejsze zakupy przez Stripe wysyłamy za pośrednictwem [Resend](https://resend.com/legal/privacy-policy). Resend otrzymuje rozliczeniowy adres e-mail klienta Stripe i treść wiadomości, w tym odpowiednią kwotę i walutę, datę zakończenia okresu próbnego, jeśli dotyczy, oraz link do zarządzania rozliczeniami lub do potwierdzenia. Przechowujemy status i identyfikatory dostarczenia, aby zarządzać ponownymi próbami i zapobiegać powielaniu wiadomości.
 
 ## Analityka i pliki cookie
+
+Tam, gdzie funkcja jest dostępna, wyświetlanie cen może wykorzystywać adres IP żądania do proponowania kraju, który możesz ręcznie zmienić. Ta funkcja zapamiętuje wyłącznie wybrany kraj w funkcjonalnym pliku cookie współdzielonym przez witrynę i aplikację internetową Nibomo przez maksymalnie rok. Ta preferencja jest oddzielna od analityki i nie ustala języka. Rejestrowanie zdarzeń infrastruktury opisano w innych częściach tej polityki.
 
 Witryna marketingowa korzysta z Vercel Web Analytics do mierzenia odsłon stron i wybranych zdarzeń kliknięć w witrynie. Ta usługa działa bez analitycznych plików cookie, ale witryna ustawia jeden własny, opisany poniżej. W przypadku odsłon strony Vercel może otrzymać czas zdarzenia, adres URL strony i przefiltrowane parametry zapytania, stronę odsyłającą, przybliżoną lokalizację, przeglądarkę, system operacyjny i typ urządzenia. Nasze własne zdarzenia kliknięć zawierają ograniczone właściwości, takie jak ustawienia regionalne, platforma, umiejscowienie linku lub typ interakcji. Nie umieszczamy w tych zdarzeniach w sposób zamierzony imion i nazwisk, adresów e-mail, treści kart ani identyfikatorów kont. Vercel agreguje dane i nie łączy punktu danych z konkretną osobą ani adresem IP; jego dzienny hash odwiedzającego jest usuwany po 24 godzinach. Gdy Twoja przeglądarka udostępnia sygnał Global Privacy Control, witryna w ogóle nie wysyła niczego do Vercel Web Analytics.
 
@@ -115,7 +119,7 @@ W usłudze hostowanej korzystamy z następujących kategorii usługodawców:
 - Amazon Web Services (AWS) do hostingu, uwierzytelniania Cognito, Postgres, przechowywania plików, kopii zapasowych i logów operacyjnych;
 - Apple do płatności w App Store, weryfikacji zakupów i powiadomień o subskrypcjach;
 - Google do płatności w Google Play, weryfikacji zakupów i powiadomień o subskrypcjach;
-- Stripe do płatności za subskrypcje internetowe, zarządzania rozliczeniami, obliczania podatków i powiadomień o płatnościach;
+- Stripe/Link do płatności za subskrypcje internetowe, zarządzania rozliczeniami, obliczania podatków i powiadomień o płatnościach;
 - Resend do transakcyjnych e-maili uwierzytelniających i rozliczeniowych;
 - OpenAI do opcjonalnych hostowanych żądań AI;
 - Sentry do oczyszczonych raportów o błędach i diagnostyki, gdy jest włączony w danej usłudze hostowanej lub kompilacji aplikacji;

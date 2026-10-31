@@ -56,9 +56,13 @@ Stripe tramita els pagaments de les subscripcions web. A les pàgines de pagamen
 
 Fem servir aquestes dades per executar el nostre contracte de subscripció, verificar i oferir l'accés de pagament, gestionar la facturació i enviar correus electrònics del servei; també conservem registres per a finalitats comptables i de conciliació, i per complir obligacions legals o atendre reclamacions. Els registres de facturació i els esdeveniments de facturació registrats al servidor no depenen de l'opció d'analítica de producte. El tractament de dades propi de Stripe es descriu a la seva [Política de privadesa](https://stripe.com/privacy).
 
-Enviem els recordatoris del període de prova de Nibomo i els rebuts de pagament i de reemborsament a través de [Resend](https://resend.com/legal/privacy-policy). Resend rep l'adreça de correu electrònic de facturació del client de Stripe i el contingut del missatge, inclosos l'import i la moneda corresponents, la data de fi del període de prova quan escaigui i un enllaç per gestionar la facturació o un enllaç al rebut. Conservem l'estat de lliurament i els identificadors per gestionar els reintents i evitar missatges duplicats.
+Per a les compres noves amb Stripe Managed Payments, Stripe/Link envia els rebuts de pagament, les factures i els avisos de reemborsament obligatoris, així com determinats avisos de subscripció, inclosa la confirmació d'inici de la prova. El seu tractament de dades es descriu a la política de privacitat de [Link](https://link.com/privacy).
+
+Enviem el recordatori de Nibomo del final de la prova de set dies i els rebuts de pagament i reemborsament de les compres anteriors amb Stripe a través de [Resend](https://resend.com/legal/privacy-policy). Resend rep l'adreça de correu electrònic de facturació del client de Stripe i el contingut del missatge, inclosos l'import i la moneda corresponents, la data de fi del període de prova quan escaigui i un enllaç per gestionar la facturació o un enllaç al rebut. Conservem l'estat de lliurament i els identificadors per gestionar els reintents i evitar missatges duplicats.
 
 ## Analítica i galetes
+
+Quan està disponible, la funció de preus pot utilitzar l'adreça IP de la petició per suggerir un país, que pots canviar manualment. Aquesta funció recorda només el país seleccionat en una galeta funcional compartida entre el lloc web i l'aplicació web de Nibomo durant un màxim d'un any. Aquesta preferència és independent de l'analítica i no determina l'idioma. Els registres de la infraestructura es descriuen en altres apartats d'aquesta política.
 
 El lloc web de màrqueting fa servir Vercel Web Analytics per mesurar les visualitzacions de pàgina i alguns esdeveniments de clic seleccionats. Aquest servei funciona sense galetes d'analítica, però el lloc web n'estableix una de pròpia, descrita més avall. En les visualitzacions de pàgina, Vercel pot rebre l'hora de l'esdeveniment, l'URL de la pàgina i els paràmetres de consulta filtrats, la pàgina de referència, la ubicació aproximada, el navegador, el sistema operatiu i el tipus de dispositiu. Els nostres esdeveniments de clic personalitzats inclouen propietats limitades com la configuració regional, la plataforma, la posició de l'enllaç o el tipus d'interacció. No hi incloem intencionadament noms, adreces de correu electrònic, contingut de targetes ni identificadors de compte. Vercel agrega les dades i no associa cap dada a una persona ni a una adreça IP; el seu hash diari de visitants es descarta al cap de 24 hores. Quan el teu navegador exposa Global Privacy Control, el lloc web no envia absolutament res a Vercel Web Analytics.
 
@@ -115,7 +119,7 @@ Fem servir les categories següents de proveïdors de serveis per al servei allo
 - Amazon Web Services (AWS) per a l'allotjament, l'autenticació amb Cognito, Postgres, l'emmagatzematge de fitxers, les còpies de seguretat i els registres operatius;
 - Apple per als pagaments de l'App Store, la verificació de compres i les notificacions de subscripcions;
 - Google per als pagaments de Google Play, la verificació de compres i les notificacions de subscripcions;
-- Stripe per als pagaments de les subscripcions web, la gestió de la facturació, el càlcul d'impostos i les notificacions de pagament;
+- Stripe/Link per als pagaments de les subscripcions web, la gestió de la facturació, el càlcul d'impostos i les notificacions de pagament;
 - Resend per als correus electrònics transaccionals d'autenticació i de facturació;
 - OpenAI per a les sol·licituds opcionals d'IA allotjada;
 - Sentry per a l'informe d'errors i de diagnòstics sanejats quan està activat al servei allotjat o a la compilació de l'app corresponents;
