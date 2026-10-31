@@ -137,6 +137,8 @@ For each question you miss, write down the first wrong step. Then solve a relate
 
 A short recall prompt can isolate that step: “In a conventional five-band code, what does band 4 do?” Answer: it multiplies the three-digit number. Later, solve a whole sequence again without the lookup. Recalling a role and applying it in a calculation are both worth practicing.
 
+The [resistor color code flashcards](/catalog/packages/resistor-color-code-flashcards/) give you short decoding, encoding, and nominal tolerance-range questions for conventional four- and five-band codes. The prompts use written color names, so you can focus on band roles and arithmetic.
+
 Once you can read individual resistor values, use the [series and parallel circuit practice](/blog/series-parallel-circuit-practice/) to work out how connections change a network's resistance, current, and voltage.
 
 *Production note: AI agents researched and wrote this worksheet, with two separate English editorial passes. The band calculations and tolerance ranges were checked with exact-rational Python arithmetic. The illustration is AI-generated. No physical measurements, classroom trial, or human expert review was performed.*
