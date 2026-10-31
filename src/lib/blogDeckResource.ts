@@ -28,6 +28,7 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   "sql-group-by-having-practice": { en: "postgresql-sql-interview-problems" },
   "sql-exists-vs-join": { en: "postgresql-sql-interview-problems" },
   "sql-left-join-on-vs-where": { en: "postgresql-sql-interview-problems" },
+  "sql-lag-lead-practice": { en: "postgresql-sql-interview-problems" },
   "sql-null-not-in-practice": { en: "postgresql-sql-interview-problems" },
   "sql-row-number-rank-dense-rank": { en: "postgresql-sql-interview-problems" },
   "sql-rows-vs-range-practice": { en: "postgresql-sql-interview-problems" },
