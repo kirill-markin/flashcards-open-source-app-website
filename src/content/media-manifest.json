@@ -3208,6 +3208,21 @@
     }
   },
   {
+    "publicPath": "/blog/resistor-color-code-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/5433c096e311344b3557a80a1f79e6121031c357db34845c87fe5f58b0dd8760.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "5433c096e311344b3557a80a1f79e6121031c357db34845c87fe5f58b0dd8760",
+    "bytes": 142722,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/15d05f74d2b1b246bd81c5f5aed9fc219526455641467d0a25c8ab13346b63bd.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "15d05f74d2b1b246bd81c5f5aed9fc219526455641467d0a25c8ab13346b63bd",
+      "bytes": 2215769
+    }
+  },
+  {
     "publicPath": "/blog/resonance-structures-practice.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/3284a7093e3a5e2b9d09cd113e1bf6482a15f473720074eee84d8a48fa806c14.webp",
     "width": 1672,
