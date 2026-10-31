@@ -56,9 +56,13 @@ Stripe käsittelee verkkotilausten maksut. Isännöidyillä maksu- ja laskutussi
 
 Käytämme näitä tietoja tilaussopimuksemme täyttämiseen, maksullisen käyttöoikeuden tarkistamiseen ja tarjoamiseen, laskutuksen hallintaan ja palveluviestien lähettämiseen; säilytämme tietueita myös kirjanpitoa, täsmäytystä sekä lakisääteisiä velvoitteita tai oikeusvaateita varten. Laskutustietueet ja palvelimelle kirjatut laskutustapahtumat eivät riipu tuoteanalytiikan asetuksesta. Stripen omasta tietojenkäsittelystä kerrotaan sen [tietosuojaselosteessa](https://stripe.com/privacy).
 
-Lähetämme Nibomon kokeilujakson muistutukset sekä maksu- ja hyvityskuitit [Resendin](https://resend.com/legal/privacy-policy) kautta. Resend vastaanottaa Stripe-asiakkaan laskutussähköpostiosoitteen ja viestin sisällön, mukaan lukien kyseisen summan ja valuutan, tarvittaessa kokeilujakson päättymispäivän sekä laskutuksen hallinta- tai kuittilinkin. Säilytämme toimitustilan ja tunnisteet uudelleenyritysten hallintaa ja päällekkäisten viestien estämistä varten.
+Uusissa Stripe Managed Payments -ostoissa Stripe/Link lähettää pakolliset maksukuitit, laskut, hyvitysilmoitukset ja tietyt tilausilmoitukset, myös kokeilujakson aloitusvahvistuksen. Käsittely kuvataan palvelun [Link](https://link.com/privacy) tietosuojakäytännössä.
+
+Lähetämme Nibomon muistutuksen seitsemän päivän kokeilujakson päättymisestä sekä aiempien Stripe-ostojen maksu- ja hyvityskuitit palvelun [Resend](https://resend.com/legal/privacy-policy) kautta. Resend vastaanottaa Stripe-asiakkaan laskutussähköpostiosoitteen ja viestin sisällön, mukaan lukien kyseisen summan ja valuutan, tarvittaessa kokeilujakson päättymispäivän sekä laskutuksen hallinta- tai kuittilinkin. Säilytämme toimitustilan ja tunnisteet uudelleenyritysten hallintaa ja päällekkäisten viestien estämistä varten.
 
 ## Analytiikka ja evästeet
+
+Kun toiminto on saatavilla, hinnoittelu voi käyttää pyynnön IP-osoitetta ehdottaakseen maata, jonka voit vaihtaa käsin. Tämä toiminto muistaa vain valitun maan toiminnallisessa evästeessä, jonka Nibomon verkkosivusto ja verkkosovellus jakavat enintään vuoden ajan. Tämä valinta on erillinen analytiikasta eikä määrää kieltäsi. Infrastruktuurin lokitusta kuvataan muualla tässä käytännössä.
 
 Markkinointisivusto käyttää Vercel Web Analyticsia sivun katselukertojen ja valittujen sivustolla tehtyjen klikkaustapahtumien mittaamiseen. Palvelu toimii ilman analytiikkaevästeitä, mutta verkkosivusto asettaa oman evästeensä, jota kuvataan jäljempänä. Sivun katselukerroista Vercel voi vastaanottaa tapahtuman ajankohdan, sivun URL-osoitteen ja suodatetut kyselyparametrit, viittaavan sivun, likimääräisen sijainnin, selaimen, käyttöjärjestelmän ja laitetyypin. Omat klikkaustapahtumamme sisältävät rajattuja ominaisuuksia, kuten kieli- ja alueasetuksen, alustan, linkin sijainnin tai vuorovaikutuksen tyypin. Emme tarkoituksellisesti sisällytä näihin tapahtumiin nimiä, sähköpostiosoitteita, korttien sisältöä tai tilitunnisteita. Vercel koostaa tiedot eikä yhdistä yksittäistä datapistettä henkilöön tai IP-osoitteeseen; sen päivittäinen kävijätiiviste hävitetään 24 tunnin kuluttua. Kun selaimesi välittää Global Privacy Control -signaalin, verkkosivusto ei lähetä Vercel Web Analyticsiin mitään.
 
@@ -115,7 +119,7 @@ Käytämme isännöidyssä palvelussa seuraavia palveluntarjoajaluokkia:
 - Amazon Web Services (AWS) isännöintiin, Cognito-tunnistautumiseen, Postgresiin, tiedostojen tallennukseen, varmuuskopioihin ja toimintalokeihin;
 - Apple App Storen maksuihin, ostojen tarkistamiseen ja tilausilmoituksiin;
 - Google Google Playn maksuihin, ostojen tarkistamiseen ja tilausilmoituksiin;
-- Stripe verkkotilausten maksuihin, laskutuksen hallintaan, verojen laskemiseen ja maksuilmoituksiin;
+- Stripe/Link verkkotilausten maksuihin, laskutuksen hallintaan, verojen laskemiseen ja maksuilmoituksiin;
 - Resend tunnistautumiseen ja laskutukseen liittyvien palveluviestien lähettämiseen;
 - OpenAI valinnaisiin isännöityihin tekoälypyyntöihin;
 - Sentry puhdistettuun virhe- ja diagnostiikkaraportointiin, kun se on käytössä kyseisessä isännöidyssä palvelussa tai sovelluksen käännöksessä;

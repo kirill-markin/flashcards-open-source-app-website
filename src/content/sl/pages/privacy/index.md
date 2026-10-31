@@ -56,9 +56,13 @@ Plačila za spletne naročnine obdeluje Stripe. Na svojih gostovanih straneh za 
 
 Te podatke uporabljamo za izpolnjevanje pogodbe o naročnini, preverjanje in zagotavljanje plačljivega dostopa, upravljanje obračunavanja in pošiljanje servisnih e-poštnih sporočil; evidence hranimo tudi za namene računovodstva in usklajevanja ter zaradi zakonskih obveznosti ali pravnih zahtevkov. Evidence obračunavanja in dogodki obračunavanja, zabeleženi na strežniku, so neodvisni od nastavitve analitike izdelka. Obdelavo podatkov, ki jo izvaja Stripe sam, opisuje njegova [Politika zasebnosti](https://stripe.com/privacy).
 
-Opomnike Nibomo o preizkusni dobi ter potrdila o plačilih in vračilih pošiljamo prek storitve [Resend](https://resend.com/legal/privacy-policy). Resend prejme e-poštni naslov za obračun stranke storitve Stripe in vsebino sporočila, vključno z ustreznim zneskom in valuto, datumom konca preizkusne dobe, kadar je to ustrezno, ter povezavo za upravljanje obračunavanja ali do potrdila. Stanje in identifikatorje dostave hranimo, da lahko upravljamo ponovne poskuse pošiljanja in preprečujemo podvojena sporočila.
+Za nove nakupe Stripe Managed Payments Stripe/Link pošilja obvezna potrdila o plačilih, račune, obvestila o vračilih ter določena obvestila o naročnini, vključno s potrditvijo začetka preizkusnega obdobja. Obdelava podatkov je opisana v pravilniku o zasebnosti storitve [Link](https://link.com/privacy).
+
+Opomnik Nibomo o koncu sedemdnevnega preizkusnega obdobja in potrdila o plačilih in vračilih za prejšnje nakupe prek Stripe pošiljamo prek storitve [Resend](https://resend.com/legal/privacy-policy). Resend prejme e-poštni naslov za obračun stranke storitve Stripe in vsebino sporočila, vključno z ustreznim zneskom in valuto, datumom konca preizkusne dobe, kadar je to ustrezno, ter povezavo za upravljanje obračunavanja ali do potrdila. Stanje in identifikatorje dostave hranimo, da lahko upravljamo ponovne poskuse pošiljanja in preprečujemo podvojena sporočila.
 
 ## Analitika in piškotki
+
+Kjer je funkcija na voljo, lahko prikaz cen uporabi naslov IP zahteve za predlog države, ki jo lahko ročno spremenite. Ta funkcija si zapomni samo izbrano državo v funkcionalnem piškotku, ki si ga spletno mesto in spletna aplikacija Nibomo delita do enega leta. Ta nastavitev je ločena od analitike in ne določa vašega jezika. Dnevniki infrastrukture so opisani drugje v tem pravilniku.
 
 Marketinško spletno mesto za merjenje ogledov strani in izbranih dogodkov klikov na spletnem mestu uporablja Vercel Web Analytics. Ta storitev deluje brez analitičnih piškotkov, vendar spletno mesto nastavi lasten analitični piškotek, opisan spodaj. Pri ogledih strani lahko Vercel prejme čas dogodka, URL strani in filtrirane parametre poizvedbe, napotitelja, približno lokacijo, brskalnik, operacijski sistem in vrsto naprave. Naši dogodki klikov po meri vključujejo omejene lastnosti, kot so jezikovna nastavitev, platforma, umestitev povezave ali vrsta interakcije. V te dogodke namerno ne vključujemo imen, e-poštnih naslovov, vsebine kartic ali identifikatorjev računov. Vercel podatke združuje in posamezne podatkovne točke ne poveže s posameznikom ali naslovom IP; njegovo dnevno zgoščeno vrednost obiskovalca zavrže po 24 urah. Ko vaš brskalnik pošilja signal Global Privacy Control, spletno mesto storitvi Vercel Web Analytics ne pošlje prav ničesar.
 
@@ -115,7 +119,7 @@ Za gostovano storitev uporabljamo naslednje kategorije ponudnikov storitev:
 - Amazon Web Services (AWS) za gostovanje, preverjanje pristnosti Cognito, Postgres, shranjevanje datotek, varnostne kopije in operativne dnevnike;
 - Apple za plačila v App Store, preverjanje nakupov in obvestila o naročninah;
 - Google za plačila v Google Play, preverjanje nakupov in obvestila o naročninah;
-- Stripe za plačila spletnih naročnin, upravljanje obračunavanja, izračun davkov in obvestila o plačilih;
+- Stripe/Link za plačila spletnih naročnin, upravljanje obračunavanja, izračun davkov in obvestila o plačilih;
 - Resend za transakcijska e-poštna sporočila za preverjanje pristnosti in obračunavanje;
 - OpenAI za neobvezne gostovane zahteve AI;
 - Sentry za prečiščeno poročanje o napakah in diagnostiko, kadar je omogočeno v ustrezni gostovani storitvi ali gradnji aplikacije;

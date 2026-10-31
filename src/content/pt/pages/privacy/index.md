@@ -56,9 +56,13 @@ O Stripe processa pagamentos de assinaturas web. Nas páginas de checkout e cobr
 
 Usamos esses dados para cumprir nosso contrato de assinatura, verificar e fornecer acesso pago, gerenciar a cobrança e enviar e-mails de serviço; também mantemos registros para contabilidade, conciliação e obrigações ou reivindicações legais. Registros de cobrança e eventos de cobrança registrados no servidor são mantidos independentemente do controle de análise de produto. O tratamento realizado pelo próprio Stripe está descrito em sua [Política de privacidade](https://stripe.com/privacy).
 
-Enviamos lembretes de teste e recibos de pagamentos e reembolsos do Nibomo pelo [Resend](https://resend.com/legal/privacy-policy). O Resend recebe o e-mail de cobrança do cliente do Stripe e o conteúdo da mensagem, incluindo o valor e a moeda relevantes, a data de término do teste quando aplicável e um link para gerenciar a cobrança ou acessar o recibo. Mantemos o status e os identificadores de envio para gerenciar novas tentativas e evitar mensagens duplicadas.
+Nas novas compras pelo Stripe Managed Payments, o Stripe/Link envia os recibos de pagamento, as faturas e os avisos de reembolso obrigatórios, além de determinados avisos de assinatura, incluindo a confirmação do início do teste. O tratamento de dados é descrito na política de privacidade do [Link](https://link.com/privacy).
+
+Enviamos o lembrete do Nibomo sobre o fim do teste de sete dias e os recibos de pagamento e reembolso das compras anteriores pelo Stripe por meio do [Resend](https://resend.com/legal/privacy-policy). O Resend recebe o e-mail de cobrança do cliente do Stripe e o conteúdo da mensagem, incluindo o valor e a moeda relevantes, a data de término do teste quando aplicável e um link para gerenciar a cobrança ou acessar o recibo. Mantemos o status e os identificadores de envio para gerenciar novas tentativas e evitar mensagens duplicadas.
 
 ## Análise e cookies
+
+Quando disponível, a função de preços pode usar o endereço IP da solicitação para sugerir um país, que você pode alterar manualmente. Essa função lembra apenas o país selecionado em um cookie funcional compartilhado entre o site e o aplicativo web do Nibomo por até um ano. Essa preferência é separada da análise e não define seu idioma. Os registros da infraestrutura são descritos em outras partes desta política.
 
 O site de divulgação usa o Vercel Web Analytics para medir visualizações de página e alguns eventos de clique no site. Esse serviço funciona sem cookies de análise, mas o próprio site grava um cookie seu, descrito abaixo. Para visualizações de página, o Vercel pode receber a hora do evento, a URL da página e os parâmetros de consulta filtrados, o referenciador, a localização aproximada, o navegador, o sistema operacional e o tipo de dispositivo. Nossos eventos de clique personalizados incluem propriedades limitadas, como idioma, plataforma, posição do link ou tipo de interação. Não incluímos de propósito nomes, endereços de e-mail, conteúdo de cartões ou identificadores de conta nesses eventos. O Vercel agrega os dados e não associa um ponto de dado a uma pessoa ou a um endereço IP; o hash diário de visitante é descartado depois de 24 horas. Quando o seu navegador expõe o Global Privacy Control, o site não envia nada para o Vercel Web Analytics.
 
@@ -115,7 +119,7 @@ Usamos as seguintes categorias de prestadores de serviço para o serviço hosped
 - Amazon Web Services (AWS) para hospedagem, autenticação com o Cognito, Postgres, armazenamento de arquivos, backups e logs operacionais;
 - Apple para pagamentos na App Store, verificação de compras e notificações de assinaturas;
 - Google para pagamentos no Google Play, verificação de compras e notificações de assinaturas;
-- Stripe para pagamentos de assinaturas web, gestão de cobrança, cálculo de impostos e notificações de pagamento;
+- Stripe/Link para pagamentos de assinaturas web, gestão de cobrança, cálculo de impostos e notificações de pagamento;
 - Resend para e-mails transacionais de autenticação e cobrança;
 - OpenAI para as solicitações opcionais de IA hospedada;
 - Sentry para relatórios higienizados de erro e diagnóstico, quando ativado no serviço hospedado ou na build do aplicativo em questão;

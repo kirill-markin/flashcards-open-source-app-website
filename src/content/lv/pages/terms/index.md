@@ -40,11 +40,13 @@ Ja tu atļauj ārējam MI klientam izmantot MCP pakalpojumu vai Agent API, šis 
 
 ## Stripe abonementi
 
-Kad ir pieejama apmaksa ar Stripe, Nibomo Premium tiek piedāvāts par pamatcenu USD 6,99 mēnesī, ieskaitot piemērojamos nodokļus. Stripe Adaptive Pricing var parādīt cenu vietējā valūtā; Stripe parāda galīgo summu un norēķinu valūtu, pirms tu apstiprini pirkumu. Lai iegādātos, nepieciešams konts, kurā esi pieteicies un kuram ir e-pasta adrese; viesiem vispirms jāpiesaista e-pasta adrese.
+Kad ir pieejama apmaksa ar Stripe, Nibomo Premium tiek piedāvāts par pamatcenu USD 6,99 mēnesī, ieskaitot piemērojamos nodokļus. Cenas var atšķirties atkarībā no valsts vai veikala. Stripe Adaptive Pricing var parādīt cenu vietējā valūtā; Stripe parāda galīgo summu un norēķinu valūtu, pirms tu apstiprini pirkumu. Lai iegādātos, nepieciešams konts, kurā esi pieteicies un kuram ir e-pasta adrese; viesiem vispirms jāpiesaista e-pasta adrese.
 
 Atbilstošie Stripe klienti saņem septiņu dienu bezmaksas izmēģinājumu, kam jānorāda maksājuma veids. Izmēģinājums ir pieejams vienu reizi katram Stripe klientam; iepriekšējie Apple vai Google izmēģinājumi neietekmē tiesības uz to. Ja neatcelsi abonementu pirms izmēģinājuma beigām, no tava maksājuma veida tiks iekasēta maksa par mēneša abonementu. Pēc tam tas automātiski pagarinās katru mēnesi, līdz tiek atcelts. Atgādinājumos par izmēģinājumu norādīta mēneša pamatcena; galīgo maksu norēķinu valūtā parāda Stripe.
 
 Izmanto [abonementa iestatījumus](https://app.nibomo.com/settings/subscription), lai atvērtu Stripe norēķinu portālu un pārvaldītu vai atceltu savu abonementu. Parasta atcelšana stājas spēkā pašreizējā izmēģinājuma vai apmaksātā perioda beigās; līdz tam piekļuve saglabājas. Pirkums ar Stripe neatceļ nevienu atsevišķu Apple vai Google abonementu un neaizstāj esošo mūža piekļuvi.
+
+Jauniem pirkumiem ar Stripe Managed Payments par pārdošanu atbildīgais tirgotājs ir norādīts norēķinu laikā, un pirkums ir apzīmēts kā “Sold through Link”. Šos darījumus vari pārvaldīt, izmantojot [Link](https://app.link.com); [Link](https://support.link.com/topics/sold-through-link) atbalsta dienests risina maksājumu un abonementu jautājumus un prasībām atbilstošu darījumu atmaksas pieprasījumus. Nibomo nodrošina produkta atbalstu.
 
 Ja dzēs savu Nibomo kontu jebkurā atbalstītā klientā, pirms datu galīgas dzēšanas tiek atcelta visu ar šo kontu saistīto Nibomo Stripe abonementu turpmākā pagarināšana un slēgtas atvērtās Nibomo apmaksas sesijas. Ja atcelšanu nevar apstiprināt, dzēšana netiek pabeigta; mēģini vēlreiz vai sazinies ar atbalstu. Konta dzēšana neatceļ Apple vai Google abonementus. Atcelšana un konta dzēšana automātiski nenodrošina atmaksu vai proporcionālu kredītu. Nekas šajos noteikumos neierobežo obligātās patērētāju tiesības, tostarp piemērojamās atteikuma vai atmaksas tiesības.
 

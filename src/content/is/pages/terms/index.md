@@ -40,11 +40,13 @@ Hýstir AI-eiginleikar eru valfrjálsir og nota OpenAI til vinnslu beiðnigagna 
 
 ## Áskriftir í gegnum Stripe
 
-Þegar greiðsla í gegnum Stripe er í boði er Nibomo Premium boðið á grunnverði 6,99 USD á mánuði, að meðtöldum viðeigandi sköttum. Stripe Adaptive Pricing kann að birta verð í staðbundnum gjaldmiðli; Stripe sýnir endanlega upphæð og greiðslugjaldmiðil áður en þú staðfestir. Til að kaupa þarf innskráðan aðgang með netfangi; gestir þurfa fyrst að tengja netfang.
+Þegar greiðsla í gegnum Stripe er í boði er Nibomo Premium boðið á grunnverði 6,99 USD á mánuði, að meðtöldum viðeigandi sköttum. Verð getur verið mismunandi eftir landi eða verslun. Stripe Adaptive Pricing kann að birta verð í staðbundnum gjaldmiðli; Stripe sýnir endanlega upphæð og greiðslugjaldmiðil áður en þú staðfestir. Til að kaupa þarf innskráðan aðgang með netfangi; gestir þurfa fyrst að tengja netfang.
 
 Stripe-viðskiptavinir sem uppfylla skilyrði fá sjö daga ókeypis prufutímabil sem krefst greiðslumáta. Prufutímabilið býðst einu sinni á hvern Stripe-viðskiptavin; fyrri prufutímabil hjá Apple eða Google hafa ekki áhrif á hvort skilyrðin eru uppfyllt. Nema þú segir upp áður en prufutímabilinu lýkur er mánaðaráskriftin skuldfærð á greiðslumátann þinn. Eftir það endurnýjast hún sjálfkrafa í hverjum mánuði þar til henni er sagt upp. Áminningar um prufutímabil tilgreina mánaðarlegt grunnverð; Stripe sýnir endanlega upphæð gjaldsins í greiðslugjaldmiðlinum.
 
 Notaðu [áskriftarstillingarnar](https://app.nibomo.com/settings/subscription) til að opna greiðslugátt Stripe og stjórna áskriftinni eða segja henni upp. Venjuleg uppsögn tekur gildi í lok yfirstandandi prufutímabils eða greidds tímabils; þú hefur aðgang fram að því. Kaup í gegnum Stripe segja ekki upp aðskilinni áskrift hjá Apple eða Google og koma ekki í stað ævilangs aðgangs sem þegar er fyrir hendi.
+
+Við ný kaup í gegnum Stripe Managed Payments kemur fram við greiðslu hvaða söluaðili ber ábyrgð á sölunni og kaupin eru merkt „Sold through Link“. Þú getur stjórnað þessum færslum í gegnum [Link](https://app.link.com); þjónustuver [Link](https://support.link.com/topics/sold-through-link) sinnir greiðslu- og áskriftarmálum og endurgreiðslubeiðnum vegna færslna sem uppfylla skilyrðin. Nibomo veitir aðstoð vegna vörunnar.
 
 Ef þú eyðir Nibomo-aðganginum þínum úr hvaða studdum biðlara sem er, segir það upp framtíðarendurnýjunum allra Nibomo-áskrifta hjá Stripe sem tengdar eru þeim aðgangi og lokar opnum greiðslulotum Nibomo áður en gögnunum er eytt endanlega. Ef ekki er hægt að staðfesta uppsögnina lýkur eyðingunni ekki; reyndu aftur eða hafðu samband við aðstoð. Eyðing aðgangs segir ekki upp áskriftum hjá Apple eða Google. Uppsögn og eyðing aðgangs leiða ekki sjálfkrafa til endurgreiðslu eða hlutfallslegrar inneignar. Ekkert í þessum skilmálum takmarkar ófrávíkjanleg réttindi neytenda, þar á meðal gildandi rétt til að falla frá samningi eða til endurgreiðslu.
 

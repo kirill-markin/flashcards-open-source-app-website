@@ -56,9 +56,13 @@ Stripe procesează plățile pentru abonamentele web. Pe paginile de plată și 
 
 Folosim aceste date pentru a executa contractul de abonament, pentru a verifica și a oferi accesul plătit, pentru a gestiona facturarea și pentru a trimite e-mailuri legate de serviciu; de asemenea, păstrăm înregistrări în scopuri contabile și de reconciliere, precum și pentru îndeplinirea obligațiilor legale sau în legătură cu pretenții juridice. Înregistrările de facturare și evenimentele de facturare înregistrate pe server sunt independente de setarea de analiză a produsului. Prelucrarea efectuată de Stripe însuși este descrisă în [Politica de confidențialitate](https://stripe.com/privacy) a acestuia.
 
-Trimitem mementourile Nibomo privind perioada de probă și chitanțele pentru plăți și rambursări prin [Resend](https://resend.com/legal/privacy-policy). Resend primește adresa de e-mail de facturare a clientului Stripe și conținutul mesajului, inclusiv suma și moneda relevante, data de încheiere a perioadei de probă, dacă este cazul, și un link de gestionare a facturării sau către chitanță. Păstrăm starea livrării și identificatorii pentru a gestiona reîncercările și a preveni mesajele duplicate.
+Pentru achizițiile noi Stripe Managed Payments, Stripe/Link trimite chitanțele de plată, facturile și notificările de rambursare obligatorii, precum și anumite notificări de abonament, inclusiv confirmarea începerii perioadei de probă. Prelucrarea datelor este descrisă în politica de confidențialitate [Link](https://link.com/privacy).
+
+Trimitem mementoul Nibomo privind sfârșitul perioadei de probă de șapte zile și chitanțele de plată și rambursare pentru achizițiile Stripe anterioare prin [Resend](https://resend.com/legal/privacy-policy). Resend primește adresa de e-mail de facturare a clientului Stripe și conținutul mesajului, inclusiv suma și moneda relevante, data de încheiere a perioadei de probă, dacă este cazul, și un link de gestionare a facturării sau către chitanță. Păstrăm starea livrării și identificatorii pentru a gestiona reîncercările și a preveni mesajele duplicate.
 
 ## Analiză și cookie-uri
+
+Unde funcția este disponibilă, afișarea prețurilor poate folosi adresa IP a cererii pentru a sugera o țară, pe care o poți schimba manual. Această funcție reține doar țara selectată într-un cookie funcțional partajat între site-ul și aplicația web Nibomo timp de cel mult un an. Această preferință este separată de analiză și nu stabilește limba. Jurnalele infrastructurii sunt descrise în alte părți ale acestei politici.
 
 Site-ul de prezentare folosește Vercel Web Analytics pentru a măsura afișările de pagină și anumite evenimente de clic de pe site. Acest serviciu funcționează fără cookie-uri de analiză, dar site-ul setează un cookie propriu, descris mai jos. Pentru afișările de pagină, Vercel poate primi momentul evenimentului, URL-ul paginii și parametrii de interogare filtrați, sursa de trimitere (referrer), locația aproximativă, browserul, sistemul de operare și tipul de dispozitiv. Evenimentele noastre personalizate de clic includ proprietăți limitate, precum limba site-ului, platforma, amplasarea linkului sau tipul de interacțiune. Nu includem intenționat în aceste evenimente nume, adrese de e-mail, conținutul fișelor sau identificatori de cont. Vercel agregă datele și nu asociază un punct de date cu o persoană sau cu o adresă IP; hash-ul zilnic al vizitatorului este eliminat după 24 de ore. Când browserul tău transmite Global Privacy Control, site-ul nu trimite absolut nimic către Vercel Web Analytics.
 
@@ -115,7 +119,7 @@ Folosim următoarele categorii de furnizori de servicii pentru serviciul găzdui
 - Amazon Web Services (AWS) pentru găzduire, autentificarea Cognito, Postgres, stocarea fișierelor, copii de rezervă și jurnale operaționale;
 - Apple pentru plățile din App Store, verificarea achizițiilor și notificările privind abonamentele;
 - Google pentru plățile din Google Play, verificarea achizițiilor și notificările privind abonamentele;
-- Stripe pentru plățile abonamentelor web, gestionarea facturării, calculul taxelor și notificările privind plățile;
+- Stripe/Link pentru plățile abonamentelor web, gestionarea facturării, calculul taxelor și notificările privind plățile;
 - Resend pentru e-mailurile tranzacționale de autentificare și facturare;
 - OpenAI pentru cererile AI găzduite opționale;
 - Sentry pentru raportarea erorilor și a diagnosticelor curățate de date sensibile, atunci când este activat în serviciul găzduit sau în versiunea aplicației respective;

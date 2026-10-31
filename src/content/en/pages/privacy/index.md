@@ -56,9 +56,13 @@ Stripe processes payments for web subscriptions. In its hosted checkout and bill
 
 We use these data to perform our subscription contract, verify and provide paid access, manage billing, and send service emails; we also retain records for accounting, reconciliation, and legal obligations or claims. Billing records and server-recorded billing events remain independent of the product analytics switch. Stripe's own processing is described in its [Privacy Policy](https://stripe.com/privacy).
 
-We send Nibomo trial reminders and payment and refund receipts through [Resend](https://resend.com/legal/privacy-policy). Resend receives the Stripe customer's billing email address and the message content, including the relevant amount and currency, trial-end date where applicable, and a billing-management or receipt link. We retain delivery status and identifiers to manage retries and prevent duplicate messages.
+For new Stripe Managed Payments purchases, Stripe/Link sends required payment receipts, invoices, refund notices and certain subscription notices, including trial-start confirmation. Its processing is described in the [Link](https://link.com/privacy) privacy policy.
+
+We send Nibomo's reminder before the seven-day trial ends and legacy Stripe payment and refund receipts through [Resend](https://resend.com/legal/privacy-policy). Resend receives the Stripe customer's billing email address and the message content, including the relevant amount and currency, trial-end date where applicable, and a billing-management or receipt link. We retain delivery status and identifiers to manage retries and prevent duplicate messages.
 
 ## Analytics and Cookies
+
+Where available, pricing can use the request IP address to suggest a country, which you can change manually. This feature remembers only the selected country in a functional cookie shared by the Nibomo website and web app for up to one year. This preference is separate from analytics and does not set your language. Infrastructure logging is described elsewhere in this policy.
 
 The marketing website uses Vercel Web Analytics to measure page views and selected site click events. That service operates without analytics cookies, but the website sets one of its own, described below. For page views, Vercel can receive the event time, page URL and filtered query parameters, referrer, approximate location, browser, operating system, and device type. Our custom click events include limited properties such as locale, platform, link placement, or interaction type. We do not intentionally include names, email addresses, card content, or account identifiers in these events. Vercel aggregates the data and does not associate a data point with an individual or IP address; its daily visitor hash is discarded after 24 hours. When your browser exposes Global Privacy Control, the website sends nothing to Vercel Web Analytics at all.
 
@@ -115,7 +119,7 @@ We use the following service-provider categories for the hosted service:
 - Amazon Web Services (AWS) for hosting, Cognito authentication, Postgres, file storage, backups, and operational logs;
 - Apple for App Store payments, purchase verification, and subscription notifications;
 - Google for Google Play payments, purchase verification, and subscription notifications;
-- Stripe for web subscription payments, billing management, tax calculation, and payment notifications;
+- Stripe/Link for web subscription payments, billing management, tax calculation, and payment notifications;
 - Resend for transactional authentication and billing emails;
 - OpenAI for optional hosted AI requests;
 - Sentry for sanitized error and diagnostic reporting when enabled in the relevant hosted service or app build;

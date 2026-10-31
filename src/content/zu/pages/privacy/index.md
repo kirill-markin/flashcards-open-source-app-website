@@ -56,9 +56,13 @@ I-Stripe icubungula izinkokhelo zokubhalisela kwewebhu. Emakhasini ayo okukhokha
 
 Sisebenzisa le datha ukuze sifeze isivumelwano sethu sokubhalisela, siqinisekise futhi sinikeze ukufinyelela okukhokhelwayo, siphathe izinkokhelo, futhi sithumele ama-imeyili esevisi; siphinde sigcine amarekhodi ngenxa yamarekhodi ezimali, ukuqhathanisa ukuthengiselana, nezibopho noma izimangalo zomthetho. Amarekhodi ezinkokhelo nezehlakalo zezinkokhelo ezirekhodwa kuseva azincikile kusilungiselelo sokuhlaziywa komkhiqizo. Ukucubungula kwe-Stripe uqobo kuchazwe [kuNqubomgomo Yobumfihlo](https://stripe.com/privacy) yayo.
 
-Sithumela izikhumbuzo zesikhathi sokuzama ze-Nibomo kanye namarisidi okukhokha nawokubuyiselwa kwemali nge-[Resend](https://resend.com/legal/privacy-policy). I-Resend ithola ikheli le-imeyili lezinkokhelo lekhasimende le-Stripe kanye nokuqukethwe komlayezo, kuhlanganise nenani lemali nohlobo lwemali olufanele, usuku lokuphela kwesikhathi sokuzama lapho kufanele khona, kanye nesixhumanisi sokuphatha izinkokhelo noma serisidi. Sigcina isimo sokulethwa nezihlonzi ukuze siphathe imizamo yokuphinda sithumele futhi sivimbele imilayezo ephindiwe.
+Ekuthengeni okusha nge-Stripe Managed Payments, i-Stripe/Link ithumela amarisidi okukhokha, ama-invoyisi, izaziso zokubuyiselwa imali ezidingekayo kanye nezaziso ezithile zokubhalisela, kuhlanganise nokuqinisekiswa kokuqala kwesikhathi sokuzama. Ukucutshungulwa kwedatha kuchazwe kunqubomgomo yobumfihlo ye-[Link](https://link.com/privacy).
+
+Sithumela isikhumbuzo se-Nibomo sokuphela kwesikhathi sokuzama sezinsuku eziyisikhombisa kanye namarisidi okukhokha nawokubuyiselwa imali ngokuthenga kwangaphambilini nge-Stripe nge-[Resend](https://resend.com/legal/privacy-policy). I-Resend ithola ikheli le-imeyili lezinkokhelo lekhasimende le-Stripe kanye nokuqukethwe komlayezo, kuhlanganise nenani lemali nohlobo lwemali olufanele, usuku lokuphela kwesikhathi sokuzama lapho kufanele khona, kanye nesixhumanisi sokuphatha izinkokhelo noma serisidi. Sigcina isimo sokulethwa nezihlonzi ukuze siphathe imizamo yokuphinda sithumele futhi sivimbele imilayezo ephindiwe.
 
 ## Ukuhlaziya namakhukhi
+
+Lapho lesi sici sitholakala, ukuboniswa kwamanani kungase kusebenzise ikheli le-IP lesicelo ukuphakamisa izwe, ongalishintsha ngokwakho. Lesi sici sikhumbula kuphela izwe elikhethiwe kukhukhi esebenzayo eyabelwana iwebhusayithi nohlelo lwewebhu lwe-Nibomo kuze kube unyaka owodwa. Lokhu kukhetha kuhlukile ekuhlaziyeni futhi akunqumi ulimi lwakho. Ukugcinwa kwamalogi engqalasizinda kuchazwe kwezinye izingxenye zale nqubomgomo.
 
 Iwebhusayithi yokumaketha isebenzisa i-Vercel Web Analytics ukulinganisa ukubukwa kwamakhasi nemicimbi ekhethiwe yokuchofoza kusayithi. Leyo sevisi isebenza ngaphandle kwamakhukhi okuhlaziya, kodwa iwebhusayithi isetha ikhukhi eyodwa yayo, echazwe ngezansi. Ekubukweni kwamakhasi, i-Vercel ingathola isikhathi somcimbi, i-URL yekhasi namapharamitha ombuzo ahlungiwe, isayithi elikudlulisele, indawo ecishe ibe yiyo, isiphequluli, isistimu yokusebenza, nohlobo lwedivayisi. Imicimbi yethu yangokwezifiso yokuchofoza ifaka izici ezilinganiselwe ezifana nolimi nesifunda, ipulatifomu, indawo yesixhumanisi, noma uhlobo lokusebenzisana. Asifaki ngamabomu amagama, amakheli e-imeyili, okuqukethwe kwamakhadi, noma izihlonzi ze-akhawunti kule micimbi. I-Vercel iqoqa idatha ibe yizibalo ezihlangene futhi ayixhumanisi iphuzu ledatha nomuntu othile noma nekheli le-IP; i-hash yayo yezivakashi yansuku zonke ilahlwa ngemva kwamahora angu-24. Uma isiphequluli sakho siveza i-Global Privacy Control, iwebhusayithi ayithumeli lutho nhlobo ku-Vercel Web Analytics.
 
@@ -115,7 +119,7 @@ Sisebenzisa lezi zigaba zabahlinzeki besevisi kusevisi esingathiwe:
 - I-Amazon Web Services (AWS) yokusingatha, ukuqinisekisa ubuwena nge-Cognito, i-Postgres, ukugcinwa kwamafayela, izipele, namarekhodi okusebenza;
 - I-Apple yezinkokhelo ze-App Store, ukuqinisekiswa kokuthenga, nezaziso zokubhalisela;
 - I-Google yezinkokhelo ze-Google Play, ukuqinisekiswa kokuthenga, nezaziso zokubhalisela;
-- I-Stripe yezinkokhelo zokubhalisela kwewebhu, ukuphathwa kwezinkokhelo, ukubalwa kwentela, nezaziso zokukhokha;
+- I-Stripe/Link yezinkokhelo zokubhalisela kwewebhu, ukuphathwa kwezinkokhelo, ukubalwa kwentela, nezaziso zokukhokha;
 - I-Resend yama-imeyili okuqinisekisa ubuwena nawezinkokhelo athunyelwa ngokuzenzakalela;
 - I-OpenAI yezicelo ze-AI ezisingathiwe ezingaphoqelekile;
 - I-Sentry yokubika amaphutha nemininingwane yokuhlola ehlanziwe lapho kuvuliwe kusevisi esingathiwe efanele noma ekwakhiweni kohlelo;

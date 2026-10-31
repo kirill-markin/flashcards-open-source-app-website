@@ -40,11 +40,13 @@ Kun valtuutat ulkoisen tekoälyasiakkaan käyttämään MCP-palvelua tai Agent A
 
 ## Stripe-tilaukset
 
-Kun Stripe-maksu on saatavilla, Nibomo Premiumia tarjotaan perushintaan 6,99 USD kuukaudessa sovellettavine veroineen. Stripe Adaptive Pricing voi näyttää hinnan paikallisessa valuutassa; Stripe näyttää lopullisen summan ja laskutusvaluutan ennen kuin vahvistat ostoksen. Ostaminen edellyttää kirjautumista tiliin, johon on liitetty sähköpostiosoite; vieraskäyttäjien on ensin liitettävä sähköpostiosoite.
+Kun Stripe-maksu on saatavilla, Nibomo Premiumia tarjotaan perushintaan 6,99 USD kuukaudessa sovellettavine veroineen. Hinnat voivat vaihdella maan tai kaupan mukaan. Stripe Adaptive Pricing voi näyttää hinnan paikallisessa valuutassa; Stripe näyttää lopullisen summan ja laskutusvaluutan ennen kuin vahvistat ostoksen. Ostaminen edellyttää kirjautumista tiliin, johon on liitetty sähköpostiosoite; vieraskäyttäjien on ensin liitettävä sähköpostiosoite.
 
 Ehdot täyttävät Stripe-asiakkaat saavat seitsemän päivän ilmaisen kokeilujakson, johon tarvitaan maksutapa. Kokeilujakso on saatavilla kerran Stripe-asiakasta kohden; aiemmat Applen tai Googlen kokeilujaksot eivät vaikuta oikeuteen saada se. Ellet peruuta ennen kokeilujakson päättymistä, maksutapaasi veloitetaan kuukausitilauksesta. Sen jälkeen tilaus uusiutuu automaattisesti joka kuukausi, kunnes se peruutetaan. Kokeilujakson muistutuksissa ilmoitetaan kuukausittainen perushinta; Stripe näyttää lopullisen veloituksen laskutusvaluutassa.
 
 Avaa Stripen laskutusportaali [tilausasetuksista](https://app.nibomo.com/settings/subscription) ja hallitse tai peruuta tilauksesi siellä. Tavallinen peruutus tulee voimaan meneillään olevan kokeilujakson tai maksetun jakson lopussa; käyttöoikeus jatkuu siihen asti. Stripe-osto ei peruuta erillistä Apple- tai Google-tilausta eikä korvaa olemassa olevaa elinikäistä käyttöoikeutta.
+
+Uusissa Stripe Managed Payments -ostoissa myynnistä vastaava kauppias ilmoitetaan kassalla ja ostos esitetään merkinnällä ”Sold through Link”. Voit hallita näitä tapahtumia palvelussa [Link](https://app.link.com); palvelun [Link](https://support.link.com/topics/sold-through-link) tuki käsittelee maksu- ja tilausasioita sekä ehdot täyttävien tapahtumien hyvityspyyntöjä. Nibomo tarjoaa tuotetuen.
 
 Nibomo-tilin poistaminen mistä tahansa tuetusta asiakassovelluksesta peruuttaa kaikkien tiliin liitettyjen Nibomon Stripe-tilausten tulevat uusinnat ja sulkee avoimet Nibomon maksuistunnot ennen tietojen pysyvää poistamista. Jos peruutusta ei voida vahvistaa, tilin poistoa ei viedä loppuun; yritä uudelleen tai ota yhteyttä tukeen. Tilin poistaminen ei peruuta Applen tai Googlen tilauksia. Peruutus ja tilin poistaminen eivät automaattisesti johda maksun palautukseen tai suhteutettuun hyvitykseen. Mikään näissä ehdoissa ei rajoita kuluttajan pakottavia oikeuksia, mukaan lukien mahdollisesti sovellettavia peruuttamis- tai palautusoikeuksia.
 

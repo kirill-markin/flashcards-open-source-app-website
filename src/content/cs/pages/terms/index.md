@@ -40,11 +40,13 @@ Když externímu AI klientovi povolíte používat službu MCP nebo Agent API, z
 
 ## Předplatné přes Stripe
 
-Pokud je k dispozici platba přes Stripe, nabízí se Nibomo Premium za základní cenu 6,99 USD měsíčně včetně příslušných daní. Stripe Adaptive Pricing může zobrazit cenu v místní měně; konečnou částku a měnu fakturace vám Stripe zobrazí před potvrzením. K nákupu musíte být přihlášeni k účtu s e-mailovou adresou; hosté musí nejprve propojit e-mail.
+Pokud je k dispozici platba přes Stripe, nabízí se Nibomo Premium za základní cenu 6,99 USD měsíčně včetně příslušných daní. Ceny se mohou lišit podle země nebo obchodu. Stripe Adaptive Pricing může zobrazit cenu v místní měně; konečnou částku a měnu fakturace vám Stripe zobrazí před potvrzením. K nákupu musíte být přihlášeni k účtu s e-mailovou adresou; hosté musí nejprve propojit e-mail.
 
 Zákazníci Stripe, kteří splňují podmínky, získají sedmidenní zkušební období zdarma, pro které je nutné zadat platební metodu. Zkušební období je k dispozici jednou na zákazníka Stripe; předchozí zkušební období přes Apple nebo Google nárok neovlivňují. Pokud předplatné nezrušíte před koncem zkušebního období, bude z vaší platební metody stržena platba za měsíční předplatné. Poté se předplatné automaticky obnovuje každý měsíc až do zrušení. Připomínky zkušebního období uvádějí měsíční základní cenu; konečnou účtovanou částku v měně fakturace zobrazuje Stripe.
 
 V [nastavení předplatného](https://app.nibomo.com/settings/subscription) otevřete fakturační portál Stripe, kde můžete předplatné spravovat nebo zrušit. Běžné zrušení nabývá účinnosti na konci aktuálního zkušebního nebo zaplaceného období; do té doby máte přístup i nadále. Nákup přes Stripe neruší žádné samostatné předplatné přes Apple nebo Google ani nenahrazuje existující doživotní přístup.
+
+U nových nákupů přes Stripe Managed Payments je obchodník odpovědný za prodej uveden při placení a nákup je označen jako „Sold through Link“. Tyto transakce můžete spravovat přes [Link](https://app.link.com); podpora [Link](https://support.link.com/topics/sold-through-link) řeší platby, předplatná a způsobilé žádosti o vrácení peněz za transakce. Nibomo poskytuje podporu k produktu.
 
 Smazáním účtu Nibomo z kteréhokoli podporovaného klienta se před vymazáním údajů zruší budoucí obnovení všech předplatných Nibomo přes Stripe propojených s tímto účtem a uzavřou se otevřené platební relace Nibomo. Pokud zrušení nelze potvrdit, smazání se nedokončí; zkuste to znovu nebo kontaktujte podporu. Smazání účtu neruší předplatné přes Apple nebo Google. Zrušením předplatného ani smazáním účtu nedochází automaticky k vrácení peněz ani k připsání poměrného kreditu. Nic v těchto Podmínkách neomezuje kogentní práva spotřebitelů, včetně případného práva na odstoupení od smlouvy nebo na vrácení peněz.
 

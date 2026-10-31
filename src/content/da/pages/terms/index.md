@@ -40,11 +40,13 @@ Når du giver en ekstern AI-klient tilladelse til at bruge MCP-tjenesten eller A
 
 ## Stripe-abonnementer
 
-Når Stripe-checkout er tilgængelig, tilbydes Nibomo Premium til en basispris på 6,99 USD om måneden inklusive gældende skatter og afgifter. Stripe Adaptive Pricing kan vise en pris i lokal valuta; Stripe viser det endelige beløb og faktureringsvalutaen, før du bekræfter. For at købe skal du være logget ind på en konto med en e-mailadresse; gæster skal først tilknytte en e-mailadresse.
+Når Stripe-checkout er tilgængelig, tilbydes Nibomo Premium til en basispris på 6,99 USD om måneden inklusive gældende skatter og afgifter. Priserne kan variere efter land eller butik. Stripe Adaptive Pricing kan vise en pris i lokal valuta; Stripe viser det endelige beløb og faktureringsvalutaen, før du bekræfter. For at købe skal du være logget ind på en konto med en e-mailadresse; gæster skal først tilknytte en e-mailadresse.
 
 Kvalificerede Stripe-kunder får en gratis prøveperiode på syv dage, som kræver en betalingsmetode. Prøveperioden er tilgængelig én gang pr. Stripe-kunde; tidligere prøveperioder via Apple eller Google påvirker ikke, om du er kvalificeret. Medmindre du opsiger, før prøveperioden slutter, trækkes betalingen for månedsabonnementet på din betalingsmetode. Derefter fornyes abonnementet automatisk hver måned, indtil det opsiges. Påmindelser om prøveperioden angiver den månedlige basispris; Stripe viser den endelige opkrævning i faktureringsvalutaen.
 
 Brug [abonnementsindstillingerne](https://app.nibomo.com/settings/subscription) til at åbne Stripes faktureringsportal og administrere eller opsige dit abonnement. Almindelig opsigelse får virkning ved udgangen af den aktuelle prøveperiode eller betalte periode; indtil da har du fortsat adgang. Et køb via Stripe opsiger ikke et separat Apple- eller Google-abonnement og erstatter ikke eksisterende livstidsadgang.
+
+Ved nye køb via Stripe Managed Payments fremgår den juridisk ansvarlige sælger ved betaling, og købet vises som “Sold through Link”. Du kan administrere disse transaktioner via [Link](https://app.link.com); support hos [Link](https://support.link.com/topics/sold-through-link) håndterer betalinger, abonnementer og berettigede anmodninger om refusion af transaktioner. Nibomo yder produktsupport.
 
 Når du sletter din Nibomo-konto fra en understøttet klient, opsiges fremtidige fornyelser af alle Nibomo-abonnementer hos Stripe, der er knyttet til kontoen, og åbne Nibomo-checkoutsessioner lukkes, før dataene slettes. Hvis opsigelsen ikke kan bekræftes, gennemføres sletningen ikke; prøv igen, eller kontakt support. Sletning af kontoen opsiger ikke Apple- eller Google-abonnementer. Opsigelse og sletning af kontoen medfører ikke automatisk refusion eller forholdsmæssig kreditering. Intet i disse vilkår begrænser ufravigelige forbrugerrettigheder, herunder eventuel gældende fortrydelsesret eller ret til refusion.
 

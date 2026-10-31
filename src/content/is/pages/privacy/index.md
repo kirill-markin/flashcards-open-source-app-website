@@ -56,9 +56,13 @@ Stripe sér um greiðslur fyrir vefáskriftir. Á hýstum greiðslu- og reikning
 
 Við notum þessi gögn til að efna áskriftarsamning okkar, staðfesta og veita greiddan aðgang, stjórna innheimtu og senda þjónustutölvupósta; við varðveitum einnig færslur vegna bókhalds, afstemmingar og lagaskyldu eða réttarkrafna. Greiðslufærslur og greiðsluatburðir sem skráðir eru á þjóninum eru óháðir stillingunni fyrir notkunargreiningu. Eigin vinnslu Stripe er lýst í [persónuverndarstefnu](https://stripe.com/privacy) fyrirtækisins.
 
-Við sendum áminningar Nibomo um prufutímabil og kvittanir fyrir greiðslum og endurgreiðslum í gegnum [Resend](https://resend.com/legal/privacy-policy). Resend fær netfang Stripe-viðskiptavinarins fyrir reikninga og efni skilaboðanna, þar á meðal viðkomandi upphæð og gjaldmiðil, lokadagsetningu prufutímabils þar sem við á og tengil á innheimtustjórnun eða kvittun. Við varðveitum afhendingarstöðu og auðkenni til að stjórna endurteknum sendingartilraunum og koma í veg fyrir tvítekin skilaboð.
+Við ný Stripe Managed Payments-kaup sendir Stripe/Link skyldubundnar greiðslukvittanir, reikninga, endurgreiðslutilkynningar og tilteknar áskriftartilkynningar, þar á meðal staðfestingu á upphafi prufutímabils. Vinnslunni er lýst í persónuverndarstefnu [Link](https://link.com/privacy).
+
+Við sendum áminningu Nibomo um lok sjö daga prufutímabils og greiðslu- og endurgreiðslukvittanir vegna eldri Stripe-kaupa í gegnum [Resend](https://resend.com/legal/privacy-policy). Resend fær netfang Stripe-viðskiptavinarins fyrir reikninga og efni skilaboðanna, þar á meðal viðkomandi upphæð og gjaldmiðil, lokadagsetningu prufutímabils þar sem við á og tengil á innheimtustjórnun eða kvittun. Við varðveitum afhendingarstöðu og auðkenni til að stjórna endurteknum sendingartilraunum og koma í veg fyrir tvítekin skilaboð.
 
 ## Greining og vafrakökur
+
+Þar sem eiginleikinn er í boði getur verðbirting notað IP-tölu beiðninnar til að stinga upp á landi sem þú getur breytt handvirkt. Eiginleikinn man aðeins valið land í virkniköku sem vefsvæði og vefforrit Nibomo deila í allt að eitt ár. Þessi stilling er aðskilin frá greiningum og ákvarðar ekki tungumálið þitt. Skráningu innviða er lýst annars staðar í þessari stefnu.
 
 Markaðsvefurinn notar Vercel Web Analytics til að mæla síðuflettingar og valda smellatburði á vefnum. Sú þjónusta starfar án greiningarvafrakaka, en vefurinn setur eina eigin vafraköku, sem lýst er hér að neðan. Fyrir síðuflettingar getur Vercel fengið tíma atburðarins, slóð síðunnar og síaðar fyrirspurnarfæribreytur, tilvísunarsíðu, áætlaða staðsetningu, vafra, stýrikerfi og tegund tækis. Sérsniðnir smellatburðir okkar innihalda takmarkaða eiginleika eins og tungumálastillingu, vettvang, staðsetningu tengils eða tegund samskipta. Við setjum ekki vísvitandi nöfn, netföng, efni spjalda eða auðkenni aðganga í þessa atburði. Vercel tekur gögnin saman og tengir ekki gagnapunkt við einstakling eða IP-tölu; daglegu gestatætigildi þess er fargað eftir 24 klukkustundir. Þegar vafrinn þinn sendir Global Privacy Control-merki sendir vefurinn alls ekkert til Vercel Web Analytics.
 
@@ -115,7 +119,7 @@ Við notum eftirfarandi flokka þjónustuveitenda fyrir hýstu þjónustuna:
 - Amazon Web Services (AWS) fyrir hýsingu, Cognito-auðkenningu, Postgres, skráageymslu, afrit og rekstrarskrár;
 - Apple fyrir greiðslur í App Store, staðfestingu kaupa og tilkynningar um áskriftir;
 - Google fyrir greiðslur í Google Play, staðfestingu kaupa og tilkynningar um áskriftir;
-- Stripe fyrir greiðslur vefáskrifta, umsýslu innheimtu, útreikning skatta og tilkynningar um greiðslur;
+- Stripe/Link fyrir greiðslur vefáskrifta, umsýslu innheimtu, útreikning skatta og tilkynningar um greiðslur;
 - Resend fyrir tölvupósta sem tengjast auðkenningu og greiðslum;
 - OpenAI fyrir valfrjálsar hýstar gervigreindarbeiðnir;
 - Sentry fyrir skýrslur um hreinsaðar villur og villugreiningar þegar það er virkjað í viðkomandi hýstu þjónustu eða smíð forritsins;

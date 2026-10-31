@@ -56,9 +56,13 @@ Stripe verwerkt de betalingen voor webabonnementen. Op zijn gehoste afreken- en 
 
 We gebruiken deze gegevens om onze abonnementsovereenkomst uit te voeren, betaalde toegang te verifiëren en te bieden, de facturering te beheren en service-e-mails te versturen; we bewaren ook gegevens voor de boekhouding, afstemming en wettelijke verplichtingen of rechtsvorderingen. Factureringsgegevens en factureringsgebeurtenissen die op de server worden vastgelegd, staan los van de instelling voor productanalyse. De eigen verwerking door Stripe staat beschreven in het [privacybeleid](https://stripe.com/privacy) van Stripe.
 
-We versturen herinneringen over de proefperiode van Nibomo en ontvangstbewijzen voor betalingen en terugbetalingen via [Resend](https://resend.com/legal/privacy-policy). Resend ontvangt het factuur-e-mailadres van de Stripe-klant en de inhoud van het bericht, waaronder het betreffende bedrag en de valuta, de einddatum van de proefperiode waar van toepassing en een link naar het factuurbeheer of het ontvangstbewijs. We bewaren de bezorgstatus en identificaties om nieuwe verzendpogingen te beheren en dubbele berichten te voorkomen.
+Bij nieuwe Stripe Managed Payments-aankopen verstuurt Stripe/Link verplichte betalingsbewijzen, facturen, terugbetalingsmeldingen en bepaalde abonnementsmeldingen, waaronder de bevestiging van de start van de proefperiode. De verwerking wordt beschreven in het privacybeleid van [Link](https://link.com/privacy).
+
+We versturen de Nibomo-herinnering aan het einde van de proefperiode van zeven dagen en betalings- en terugbetalingsbewijzen voor eerdere Stripe-aankopen via [Resend](https://resend.com/legal/privacy-policy). Resend ontvangt het factuur-e-mailadres van de Stripe-klant en de inhoud van het bericht, waaronder het betreffende bedrag en de valuta, de einddatum van de proefperiode waar van toepassing en een link naar het factuurbeheer of het ontvangstbewijs. We bewaren de bezorgstatus en identificaties om nieuwe verzendpogingen te beheren en dubbele berichten te voorkomen.
 
 ## Analyse en cookies
+
+Waar de functie beschikbaar is, kan de prijsweergave het IP-adres van het verzoek gebruiken om een land voor te stellen, dat je handmatig kunt wijzigen. Deze functie onthoudt alleen het gekozen land in een functionele cookie die de Nibomo-website en webapp maximaal één jaar delen. Deze voorkeur staat los van analyses en bepaalt je taal niet. Logregistratie door de infrastructuur wordt elders in dit beleid beschreven.
 
 De marketingwebsite gebruikt Vercel Web Analytics om paginaweergaven en geselecteerde klikgebeurtenissen op de site te meten. Die dienst werkt zonder analytische cookies, maar de website plaatst er zelf één, zoals hieronder beschreven. Voor paginaweergaven kan Vercel het tijdstip van de gebeurtenis, de pagina-URL en gefilterde queryparameters, de verwijzer, de geschatte locatie, de browser, het besturingssysteem en het apparaattype ontvangen. Onze eigen klikgebeurtenissen bevatten beperkte eigenschappen, zoals landinstelling, platform, plaatsing van de link of type interactie. We nemen in deze gebeurtenissen niet bewust namen, e-mailadressen, kaartinhoud of accountidentificaties op. Vercel aggregeert de gegevens en koppelt een datapunt niet aan een persoon of IP-adres; de dagelijkse bezoekershash wordt na 24 uur verwijderd. Als je browser Global Privacy Control doorgeeft, stuurt de website helemaal niets naar Vercel Web Analytics.
 
@@ -115,7 +119,7 @@ We gebruiken de volgende categorieën dienstverleners voor de gehoste dienst:
 - Amazon Web Services (AWS) voor hosting, authenticatie via Cognito, Postgres, bestandsopslag, back-ups en operationele logs;
 - Apple voor betalingen in de App Store, verificatie van aankopen en meldingen over abonnementen;
 - Google voor betalingen in Google Play, verificatie van aankopen en meldingen over abonnementen;
-- Stripe voor betalingen van webabonnementen, factureringsbeheer, belastingberekening en meldingen over betalingen;
+- Stripe/Link voor betalingen van webabonnementen, factureringsbeheer, belastingberekening en meldingen over betalingen;
 - Resend voor transactionele authenticatie- en factureringsmails;
 - OpenAI voor optionele gehoste AI-verzoeken;
 - Sentry voor opgeschoonde fout- en diagnostische rapportage wanneer dat is ingeschakeld in de betreffende gehoste dienst of app-build;

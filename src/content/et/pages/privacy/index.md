@@ -56,9 +56,13 @@ Stripe töötleb veebitellimuste makseid. Oma majutatud makse- ja arvelduslehted
 
 Kasutame neid andmeid tellimuslepingu täitmiseks, tasulise juurdepääsu kontrollimiseks ja andmiseks, arvelduse haldamiseks ja teenusega seotud e-kirjade saatmiseks; samuti säilitame kirjeid raamatupidamise, tehingute vastavusse viimise ning juriidiliste kohustuste või õigusnõuete jaoks. Arvelduskirjed ja serveris salvestatud arveldussündmused ei sõltu sellest, kas tooteanalüütika on sisse või välja lülitatud. Stripe'i enda andmetöötlust kirjeldatakse Stripe'i [privaatsuspoliitikas](https://stripe.com/privacy).
 
-Saadame Nibomo prooviperioodi meeldetuletusi ning makse- ja tagasimaksekviitungeid teenuse [Resend](https://resend.com/legal/privacy-policy) kaudu. Resend saab Stripe'i kliendi arvelduse e-posti aadressi ja sõnumi sisu, sealhulgas asjakohase summa ja vääringu, vajaduse korral prooviperioodi lõppkuupäeva ning arvelduse haldamise või kviitungi lingi. Säilitame kättetoimetamise oleku ja identifikaatorid, et hallata korduskatseid ja vältida topeltsõnumeid.
+Uute Stripe Managed Paymentsi ostude korral saadab Stripe/Link kohustuslikud maksekviitungid, arved, tagasimakseteated ja teatud tellimusteated, sealhulgas prooviperioodi alguse kinnituse. Andmetöötlust kirjeldab [Link](https://link.com/privacy)i privaatsuspoliitika.
+
+Saadame Nibomo seitsmepäevase prooviperioodi lõpu meeldetuletuse ning varasemate Stripe'i ostude makse- ja tagasimaksekviitungid teenuse [Resend](https://resend.com/legal/privacy-policy) kaudu. Resend saab Stripe'i kliendi arvelduse e-posti aadressi ja sõnumi sisu, sealhulgas asjakohase summa ja vääringu, vajaduse korral prooviperioodi lõppkuupäeva ning arvelduse haldamise või kviitungi lingi. Säilitame kättetoimetamise oleku ja identifikaatorid, et hallata korduskatseid ja vältida topeltsõnumeid.
 
 ## Analüütika ja küpsised
+
+Kui funktsioon on saadaval, võib hinnakuvamine kasutada päringu IP-aadressi riigi soovitamiseks, mida saad käsitsi muuta. See funktsioon jätab meelde ainult valitud riigi funktsionaalses küpsises, mida Nibomo veebisait ja veebirakendus jagavad kuni ühe aasta jooksul. See eelistus on analüütikast eraldi ega määra sinu keelt. Taristu logimist kirjeldatakse selle poliitika teistes osades.
 
 Turundusveebisait kasutab Vercel Web Analyticsit lehevaatamiste ja valitud saidisiseste klikisündmuste mõõtmiseks. See teenus töötab ilma analüütikaküpsisteta, kuid veebisait seab ühe oma küpsise, mida kirjeldatakse allpool. Lehevaatamiste puhul võib Vercel saada sündmuse aja, lehe URL-i ja filtreeritud päringuparameetrid, viitaja, ligikaudse asukoha, brauseri, operatsioonisüsteemi ja seadme tüübi. Meie kohandatud klikisündmused sisaldavad piiratud omadusi, näiteks keele- ja piirkonnasätet, platvormi, lingi paigutust või interaktsiooni tüüpi. Me ei lisa nendesse sündmustesse teadlikult nimesid, e-posti aadresse, kaartide sisu ega kontoidentifikaatoreid. Vercel koondab andmed ega seo andmepunkti üksikisiku ega IP-aadressiga; selle päevane külastaja räsi kustutatakse 24 tunni möödudes. Kui sinu brauser saadab Global Privacy Control signaali, ei saada veebisait Vercel Web Analyticsile üldse midagi.
 
@@ -115,7 +119,7 @@ Kasutame majutatud teenuse jaoks järgmisi teenusepakkujate kategooriaid:
 - Amazon Web Services (AWS) majutuseks, Cognito autentimiseks, Postgresiks, failide salvestamiseks, varukoopiateks ja tegevuslogideks;
 - Apple App Store'i maksete, ostude kontrollimise ja tellimuste teavituste jaoks;
 - Google Google Play maksete, ostude kontrollimise ja tellimuste teavituste jaoks;
-- Stripe veebitellimuste maksete, arvelduse haldamise, maksude arvutamise ja makseteavituste jaoks;
+- Stripe/Link veebitellimuste maksete, arvelduse haldamise, maksude arvutamise ja makseteavituste jaoks;
 - Resend autentimise ja arveldusega seotud teenuskirjade saatmiseks;
 - OpenAI valikuliste majutatud AI päringute jaoks;
 - Sentry puhastatud vea- ja diagnostikaaruannete jaoks, kui see on asjakohases majutatud teenuses või rakenduse järgus lubatud;

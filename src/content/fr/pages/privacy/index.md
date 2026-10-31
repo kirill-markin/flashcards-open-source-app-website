@@ -56,9 +56,13 @@ Stripe traite les paiements des abonnements web. Sur ses pages hébergées de pa
 
 Nous utilisons ces données pour exécuter notre contrat d'abonnement, vérifier et fournir l'accès payant, gérer la facturation et envoyer des e-mails de service ; nous conservons aussi des pièces pour la comptabilité, le rapprochement et les obligations ou réclamations légales. Les données et événements de facturation enregistrés côté serveur sont conservés indépendamment du réglage d'analyse produit. Les traitements propres à Stripe sont décrits dans sa [Politique de confidentialité](https://stripe.com/privacy).
 
-Nous envoyons les rappels d'essai et les reçus de paiement et de remboursement Nibomo via [Resend](https://resend.com/legal/privacy-policy). Resend reçoit l'adresse e-mail de facturation du client Stripe et le contenu du message, notamment le montant et la devise concernés, la date de fin d'essai le cas échéant et un lien vers la gestion de facturation ou le reçu. Nous conservons le statut et les identifiants d'envoi pour gérer les nouvelles tentatives et éviter les doublons.
+Pour les nouveaux achats Stripe Managed Payments, Stripe/Link envoie les reçus de paiement, factures et avis de remboursement obligatoires, ainsi que certains avis d'abonnement, dont la confirmation du début de l'essai. Son traitement des données est décrit dans la politique de confidentialité de [Link](https://link.com/privacy).
+
+Nous envoyons le rappel Nibomo de fin d'essai de sept jours et les reçus de paiement et de remboursement des achats Stripe antérieurs via [Resend](https://resend.com/legal/privacy-policy). Resend reçoit l'adresse e-mail de facturation du client Stripe et le contenu du message, notamment le montant et la devise concernés, la date de fin d'essai le cas échéant et un lien vers la gestion de facturation ou le reçu. Nous conservons le statut et les identifiants d'envoi pour gérer les nouvelles tentatives et éviter les doublons.
 
 ## Analyse d'audience et cookies
+
+Lorsqu'elle est disponible, la fonction de tarification peut utiliser l'adresse IP de la requête pour suggérer un pays, que vous pouvez modifier manuellement. Cette fonction mémorise uniquement le pays choisi dans un cookie fonctionnel partagé entre le site et l'application web Nibomo pendant un an au maximum. Cette préférence est distincte des analyses et ne détermine pas votre langue. Les journaux d'infrastructure sont décrits ailleurs dans cette politique.
 
 Le site web marketing utilise Vercel Web Analytics pour mesurer les pages vues et certains événements de clic sur le site. Ce service fonctionne sans cookies d'analyse, mais le site en dépose un qui lui est propre, décrit ci-dessous. Pour une page vue, Vercel peut recevoir l'heure de l'événement, l'URL de la page et des paramètres de requête filtrés, le référent, la localisation approximative, le navigateur, le système d'exploitation et le type d'appareil. Nos événements de clic personnalisés contiennent des propriétés limitées telles que la langue, la plateforme, l'emplacement du lien ou le type d'interaction. Nous n'incluons pas volontairement de noms, d'adresses e-mail, de contenu de cartes ou d'identifiants de compte dans ces événements. Vercel agrège les données et n'associe pas une donnée à une personne ou à une adresse IP ; son hachage quotidien de visiteur est supprimé après 24 heures. Lorsque votre navigateur expose Global Privacy Control, le site n'envoie rien du tout à Vercel Web Analytics.
 
@@ -115,7 +119,7 @@ Nous utilisons les catégories de prestataires suivantes pour le service héberg
 - Amazon Web Services (AWS) pour l'hébergement, l'authentification Cognito, Postgres, le stockage de fichiers, les sauvegardes et les journaux opérationnels ;
 - Apple pour les paiements sur l’App Store, la vérification des achats et les notifications d’abonnement ;
 - Google pour les paiements sur Google Play, la vérification des achats et les notifications d’abonnement ;
-- Stripe pour les paiements d'abonnements web, la gestion de facturation, le calcul des taxes et les notifications de paiement ;
+- Stripe/Link pour les paiements d'abonnements web, la gestion de facturation, le calcul des taxes et les notifications de paiement ;
 - Resend pour les e-mails transactionnels d'authentification et de facturation ;
 - OpenAI pour les requêtes d'IA hébergées facultatives ;
 - Sentry pour les rapports d'erreur et de diagnostic nettoyés, lorsqu'ils sont activés dans le service hébergé ou la version d'application concernée ;

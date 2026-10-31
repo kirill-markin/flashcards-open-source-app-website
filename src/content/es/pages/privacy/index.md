@@ -56,9 +56,13 @@ Stripe procesa los pagos de las suscripciones web. En sus páginas alojadas de p
 
 Usamos estos datos para cumplir nuestro contrato de suscripción, verificar y proporcionar acceso de pago, gestionar la facturación y enviar correos de servicio; también conservamos registros para contabilidad, conciliación y obligaciones o reclamaciones legales. Los registros y eventos de facturación registrados por el servidor se mantienen con independencia del interruptor de analítica del producto. El tratamiento propio de Stripe se describe en su [Política de privacidad](https://stripe.com/privacy).
 
-Enviamos recordatorios de prueba y recibos de pagos y reembolsos de Nibomo mediante [Resend](https://resend.com/legal/privacy-policy). Resend recibe el correo de facturación del cliente de Stripe y el contenido del mensaje, incluidos el importe y la moneda correspondientes, la fecha de fin de prueba cuando proceda y un enlace para gestionar la facturación o ver el recibo. Conservamos el estado del envío y sus identificadores para gestionar reintentos y evitar mensajes duplicados.
+Para compras nuevas mediante Stripe Managed Payments, Stripe/Link envía los recibos de pago, facturas y avisos de reembolso obligatorios, así como determinados avisos de suscripción, incluida la confirmación del inicio de la prueba. Su tratamiento de datos se describe en la política de privacidad de [Link](https://link.com/privacy).
+
+Enviamos el recordatorio de Nibomo del final de la prueba de siete días y los recibos de pagos y reembolsos de compras anteriores mediante Stripe a través de [Resend](https://resend.com/legal/privacy-policy). Resend recibe el correo de facturación del cliente de Stripe y el contenido del mensaje, incluidos el importe y la moneda correspondientes, la fecha de fin de prueba cuando proceda y un enlace para gestionar la facturación o ver el recibo. Conservamos el estado del envío y sus identificadores para gestionar reintentos y evitar mensajes duplicados.
 
 ## Analítica y cookies
+
+Cuando esté disponible, la función de precios puede usar la dirección IP de la solicitud para sugerir un país, que puedes cambiar manualmente. Esta función recuerda solo el país seleccionado en una cookie funcional compartida entre el sitio web y la aplicación web de Nibomo durante un máximo de un año. Esta preferencia es independiente de los análisis y no determina tu idioma. Los registros de infraestructura se describen en otros apartados de esta política.
 
 El sitio web de marketing usa Vercel Web Analytics para medir visitas de páginas y determinados clics. Ese servicio funciona sin cookies de analítica, pero el propio sitio instala una cookie suya, descrita más abajo. Para una visita, Vercel puede recibir la hora del evento, la URL y parámetros de consulta filtrados, la página de referencia, la ubicación aproximada, el navegador, el sistema operativo y el tipo de dispositivo. Nuestros eventos de clic personalizados incluyen propiedades limitadas como idioma, plataforma, ubicación del enlace o tipo de interacción. No incluimos deliberadamente nombres, correos electrónicos, contenido de tarjetas ni identificadores de cuenta. Vercel agrega los datos y no asocia cada dato con una persona o dirección IP; su hash diario de visitante se elimina después de 24 horas. Cuando tu navegador señala Global Privacy Control, el sitio no envía nada en absoluto a Vercel Web Analytics.
 
@@ -115,7 +119,7 @@ Usamos estas categorías de proveedores para el servicio alojado:
 - Amazon Web Services (AWS) para alojamiento, autenticación con Cognito, Postgres, almacenamiento de archivos, copias de seguridad y registros operativos;
 - Apple para los pagos del App Store, la verificación de compras y las notificaciones de suscripciones;
 - Google para los pagos de Google Play, la verificación de compras y las notificaciones de suscripciones;
-- Stripe para pagos de suscripciones web, gestión de facturación, cálculo de impuestos y notificaciones de pago;
+- Stripe/Link para pagos de suscripciones web, gestión de facturación, cálculo de impuestos y notificaciones de pago;
 - Resend para correos transaccionales de autenticación y facturación;
 - OpenAI para las solicitudes opcionales de IA alojada;
 - Sentry para informes depurados de errores y diagnóstico cuando esté activado en el servicio o la compilación correspondiente;

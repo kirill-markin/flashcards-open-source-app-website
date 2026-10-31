@@ -56,9 +56,13 @@ Stripe memproses pembayaran untuk langganan web. Di halaman checkout dan penagih
 
 Kami menggunakan data ini untuk melaksanakan kontrak langganan kami, memverifikasi dan menyediakan akses berbayar, mengelola penagihan, dan mengirim email layanan; kami juga menyimpan catatan untuk akuntansi, rekonsiliasi, serta kewajiban atau tuntutan hukum. Catatan penagihan dan peristiwa penagihan yang dicatat di server tidak bergantung pada pengaturan analitik produk. Pemrosesan oleh Stripe sendiri dijelaskan dalam [Kebijakan Privasi](https://stripe.com/privacy) miliknya.
 
-Kami mengirim pengingat uji coba Nibomo serta tanda terima pembayaran dan pengembalian dana melalui [Resend](https://resend.com/legal/privacy-policy). Resend menerima alamat email penagihan pelanggan Stripe dan isi pesan, termasuk jumlah dan mata uang terkait, tanggal berakhirnya uji coba jika berlaku, serta tautan pengelolaan penagihan atau tanda terima. Kami menyimpan status pengiriman dan pengenal untuk mengelola percobaan ulang dan mencegah pesan duplikat.
+Untuk pembelian baru Stripe Managed Payments, Stripe/Link mengirim tanda terima pembayaran, faktur, pemberitahuan pengembalian dana yang wajib, serta pemberitahuan langganan tertentu, termasuk konfirmasi dimulainya uji coba. Pemrosesan datanya dijelaskan dalam kebijakan privasi [Link](https://link.com/privacy).
+
+Kami mengirim pengingat Nibomo tentang berakhirnya uji coba tujuh hari serta tanda terima pembayaran dan pengembalian dana untuk pembelian Stripe sebelumnya melalui [Resend](https://resend.com/legal/privacy-policy). Resend menerima alamat email penagihan pelanggan Stripe dan isi pesan, termasuk jumlah dan mata uang terkait, tanggal berakhirnya uji coba jika berlaku, serta tautan pengelolaan penagihan atau tanda terima. Kami menyimpan status pengiriman dan pengenal untuk mengelola percobaan ulang dan mencegah pesan duplikat.
 
 ## Analitik dan Cookie
+
+Jika tersedia, fitur harga dapat memakai alamat IP permintaan untuk menyarankan negara, yang dapat Anda ubah secara manual. Fitur ini hanya mengingat negara pilihan dalam cookie fungsional yang dibagikan antara situs web dan aplikasi web Nibomo hingga satu tahun. Preferensi ini terpisah dari analitik dan tidak menentukan bahasa Anda. Pencatatan log infrastruktur dijelaskan di bagian lain kebijakan ini.
 
 Situs web pemasaran menggunakan Vercel Web Analytics untuk mengukur tampilan halaman dan peristiwa klik situs tertentu. Layanan tersebut beroperasi tanpa cookie analitik, tetapi situs web memasang satu cookie miliknya sendiri, yang dijelaskan di bawah. Untuk tampilan halaman, Vercel dapat menerima waktu peristiwa, URL halaman dan parameter kueri yang telah difilter, perujuk, perkiraan lokasi, peramban, sistem operasi, dan jenis perangkat. Peristiwa klik kustom kami mencakup properti terbatas seperti locale, platform, penempatan tautan, atau jenis interaksi. Kami tidak dengan sengaja menyertakan nama, alamat email, isi kartu, atau pengenal akun dalam peristiwa ini. Vercel mengagregasi data dan tidak mengaitkan satu titik data dengan individu atau alamat IP; hash pengunjung hariannya dibuang setelah 24 jam. Jika peramban Anda mengirim sinyal Global Privacy Control, situs web sama sekali tidak mengirim apa pun ke Vercel Web Analytics.
 
@@ -115,7 +119,7 @@ Kami menggunakan kategori penyedia layanan berikut untuk layanan terkelola:
 - Amazon Web Services (AWS) untuk hosting, autentikasi Cognito, Postgres, penyimpanan berkas, backup, dan log operasional;
 - Apple untuk pembayaran App Store, verifikasi pembelian, dan notifikasi langganan;
 - Google untuk pembayaran Google Play, verifikasi pembelian, dan notifikasi langganan;
-- Stripe untuk pembayaran langganan web, pengelolaan penagihan, perhitungan pajak, dan notifikasi pembayaran;
+- Stripe/Link untuk pembayaran langganan web, pengelolaan penagihan, perhitungan pajak, dan notifikasi pembayaran;
 - Resend untuk email transaksional autentikasi dan penagihan;
 - OpenAI untuk permintaan AI terkelola yang opsional;
 - Sentry untuk pelaporan error dan diagnostik yang telah disanitasi jika diaktifkan di layanan terkelola atau build aplikasi yang relevan;

@@ -56,9 +56,13 @@ Stripe huchakata malipo ya usajili wa wavuti. Katika kurasa zake zilizopangishwa
 
 Tunatumia data hizi kutekeleza mkataba wetu wa usajili, kuthibitisha na kutoa ufikiaji wa kulipia, kusimamia malipo, na kutuma barua pepe za huduma; pia tunahifadhi rekodi kwa ajili ya uhasibu, ulinganishaji wa miamala, na wajibu au madai ya kisheria. Rekodi za malipo na matukio ya malipo yanayorekodiwa kwenye seva hayategemei mpangilio wa uchanganuzi wa bidhaa. Uchakataji wa Stripe wenyewe umeelezwa katika [Sera yake ya faragha](https://stripe.com/privacy).
 
-Tunatuma vikumbusho vya kipindi cha majaribio cha Nibomo na stakabadhi za malipo na za kurejeshewa pesa kupitia [Resend](https://resend.com/legal/privacy-policy). Resend hupokea anwani ya barua pepe ya malipo ya mteja wa Stripe na maudhui ya ujumbe, ikiwemo kiasi na sarafu husika, tarehe ya mwisho wa kipindi cha majaribio pale inapohusika, na kiungo cha kusimamia malipo au cha stakabadhi. Tunahifadhi hali ya uwasilishaji na vitambulisho ili kusimamia majaribio ya kutuma tena na kuzuia jumbe zinazojirudia.
+Kwa ununuzi mpya wa Stripe Managed Payments, Stripe/Link hutuma stakabadhi za malipo, ankara na arifa za kurejeshewa pesa zinazohitajika, pamoja na baadhi ya arifa za usajili, ikiwemo uthibitisho wa kuanza kwa majaribio. Uchakataji wake wa data umeelezwa katika sera ya faragha ya [Link](https://link.com/privacy).
+
+Tunatuma kikumbusho cha Nibomo cha mwisho wa majaribio ya siku saba na stakabadhi za malipo na kurejeshewa pesa kwa ununuzi wa awali wa Stripe kupitia [Resend](https://resend.com/legal/privacy-policy). Resend hupokea anwani ya barua pepe ya malipo ya mteja wa Stripe na maudhui ya ujumbe, ikiwemo kiasi na sarafu husika, tarehe ya mwisho wa kipindi cha majaribio pale inapohusika, na kiungo cha kusimamia malipo au cha stakabadhi. Tunahifadhi hali ya uwasilishaji na vitambulisho ili kusimamia majaribio ya kutuma tena na kuzuia jumbe zinazojirudia.
 
 ## Uchanganuzi na vidakuzi
+
+Kipengele hiki kinapopatikana, kuonyesha bei kunaweza kutumia anwani ya IP ya ombi kupendekeza nchi, ambayo unaweza kubadilisha mwenyewe. Kipengele hiki hukumbuka nchi iliyochaguliwa pekee katika kidakuzi cha utendaji kinachoshirikiwa na tovuti na programu ya wavuti ya Nibomo kwa hadi mwaka mmoja. Chaguo hili ni tofauti na uchanganuzi na haliamui lugha yako. Kumbukumbu za miundombinu zimeelezwa kwingine katika sera hii.
 
 Tovuti ya masoko hutumia Vercel Web Analytics kupima mitazamo ya kurasa na matukio teule ya mibofyo kwenye tovuti. Huduma hiyo hufanya kazi bila vidakuzi vya uchanganuzi, lakini tovuti huweka kidakuzi chake kimoja, kilichoelezwa hapa chini. Kwa mitazamo ya kurasa, Vercel inaweza kupokea muda wa tukio, URL ya ukurasa na vigezo vya hoja vilivyochujwa, kirejeleo, eneo la takriban, kivinjari, mfumo wa uendeshaji, na aina ya kifaa. Matukio yetu maalum ya mibofyo yanajumuisha sifa chache kama lugha na eneo, jukwaa, mahali kiungo kilipo, au aina ya mwingiliano. Hatujumuishi kwa makusudi majina, anwani za barua pepe, maudhui ya kadi, au vitambulisho vya akaunti katika matukio haya. Vercel hujumlisha data na haihusishi kipande cha data na mtu binafsi au anwani ya IP; hashi yake ya kila siku ya mgeni hutupwa baada ya saa 24. Kivinjari chako kinapoonyesha Global Privacy Control, tovuti haitumi chochote kabisa kwa Vercel Web Analytics.
 
@@ -115,7 +119,7 @@ Tunatumia aina zifuatazo za watoa huduma kwa huduma iliyopangishwa:
 - Amazon Web Services (AWS) kwa upangishaji, uthibitishaji wa Cognito, Postgres, uhifadhi wa faili, nakala rudufu, na kumbukumbu za uendeshaji;
 - Apple kwa malipo ya App Store, uthibitishaji wa ununuzi, na arifa za usajili;
 - Google kwa malipo ya Google Play, uthibitishaji wa ununuzi, na arifa za usajili;
-- Stripe kwa malipo ya usajili wa wavuti, usimamizi wa malipo, ukokotoaji wa kodi, na arifa za malipo;
+- Stripe/Link kwa malipo ya usajili wa wavuti, usimamizi wa malipo, ukokotoaji wa kodi, na arifa za malipo;
 - Resend kwa barua pepe za kimiamala za uthibitishaji na za malipo;
 - OpenAI kwa maombi ya hiari ya AI iliyopangishwa;
 - Sentry kwa kuripoti hitilafu na taarifa za uchunguzi zilizosafishwa pale inapowezeshwa katika huduma husika iliyopangishwa au toleo husika la programu;

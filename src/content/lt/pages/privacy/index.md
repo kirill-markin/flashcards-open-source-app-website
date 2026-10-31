@@ -56,9 +56,13 @@ Už interneto prenumeratas mokėjimus apdoroja Stripe. Savo talpinamuose apmokė
 
 Šiuos duomenis naudojame prenumeratos sutarčiai vykdyti, mokamai prieigai patikrinti ir suteikti, atsiskaitymams valdyti ir paslaugos el. laiškams siųsti; įrašus taip pat saugome apskaitos, operacijų suderinimo ir teisinių prievolių vykdymo ar teisinių reikalavimų tikslais. Atsiskaitymo įrašai ir serveryje registruojami atsiskaitymo įvykiai nepriklauso nuo produkto analitikos nustatymo. Kaip duomenis tvarko pati Stripe, aprašyta jos [privatumo politikoje](https://stripe.com/privacy).
 
-Nibomo priminimus apie bandomąjį laikotarpį ir mokėjimų bei pinigų grąžinimo kvitus siunčiame per [Resend](https://resend.com/legal/privacy-policy). Resend gauna Stripe kliento atsiskaitymo el. pašto adresą ir laiško turinį, įskaitant atitinkamą sumą ir valiutą, bandomojo laikotarpio pabaigos datą, kai taikoma, ir atsiskaitymų valdymo arba kvito nuorodą. Pristatymo būseną ir identifikatorius saugome, kad galėtume valdyti pakartotinius bandymus ir išvengti pasikartojančių laiškų.
+Naujų Stripe Managed Payments pirkimų atveju Stripe/Link siunčia privalomus mokėjimo kvitus, sąskaitas faktūras, pranešimus apie pinigų grąžinimą ir tam tikrus prenumeratos pranešimus, įskaitant bandomojo laikotarpio pradžios patvirtinimą. Duomenų tvarkymas aprašytas [Link](https://link.com/privacy) privatumo politikoje.
+
+Nibomo priminimą apie septynių dienų bandomojo laikotarpio pabaigą ir ankstesnių Stripe pirkimų mokėjimų bei pinigų grąžinimo kvitus siunčiame per [Resend](https://resend.com/legal/privacy-policy). Resend gauna Stripe kliento atsiskaitymo el. pašto adresą ir laiško turinį, įskaitant atitinkamą sumą ir valiutą, bandomojo laikotarpio pabaigos datą, kai taikoma, ir atsiskaitymų valdymo arba kvito nuorodą. Pristatymo būseną ir identifikatorius saugome, kad galėtume valdyti pakartotinius bandymus ir išvengti pasikartojančių laiškų.
 
 ## Analitika ir slapukai
+
+Kai funkcija prieinama, kainų rodymas gali naudoti užklausos IP adresą šaliai pasiūlyti; ją galite pakeisti rankiniu būdu. Ši funkcija įsimena tik pasirinktą šalį funkciniame slapuke, kuriuo Nibomo svetainė ir žiniatinklio programa dalijasi iki vienų metų. Ši parinktis atskira nuo analitikos ir nenustato jūsų kalbos. Infrastruktūros žurnalai aprašyti kitose šios politikos dalyse.
 
 Rinkodaros svetainė naudoja Vercel Web Analytics puslapių peržiūroms ir pasirinktiems svetainės paspaudimų įvykiams matuoti. Ši paslauga veikia be analitikos slapukų, tačiau svetainė nustato vieną savo analitikos slapuką, aprašytą toliau. Puslapių peržiūrų atveju Vercel gali gauti įvykio laiką, puslapio URL ir filtruotus užklausos parametrus, nukreipiantį puslapį, apytikslę vietą, naršyklę, operacinę sistemą ir įrenginio tipą. Mūsų pačių apibrėžti paspaudimų įvykiai apima ribotas savybes, pavyzdžiui, lokalę, platformą, nuorodos vietą ar sąveikos tipą. Į šiuos įvykius sąmoningai neįtraukiame vardų, el. pašto adresų, kortelių turinio ar paskyrų identifikatorių. Vercel duomenis apibendrina ir nesieja duomenų taško su konkrečiu asmeniu ar IP adresu; Vercel dienos lankytojo maiša pašalinama po 24 valandų. Kai jūsų naršyklė siunčia Global Privacy Control signalą, svetainė į Vercel Web Analytics nesiunčia visiškai nieko.
 
@@ -115,7 +119,7 @@ Talpinamai paslaugai naudojame šių kategorijų paslaugų teikėjus:
 - Amazon Web Services (AWS) – talpinimui, Cognito autentifikavimui, Postgres, failų saugyklai, atsarginėms kopijoms ir operaciniams žurnalams;
 - Apple – App Store mokėjimams, pirkimų patikrinimui ir prenumeratų pranešimams;
 - Google – Google Play mokėjimams, pirkimų patikrinimui ir prenumeratų pranešimams;
-- Stripe – interneto prenumeratų mokėjimams, atsiskaitymų valdymui, mokesčių apskaičiavimui ir mokėjimų pranešimams;
+- Stripe/Link – interneto prenumeratų mokėjimams, atsiskaitymų valdymui, mokesčių apskaičiavimui ir mokėjimų pranešimams;
 - Resend – sisteminiams autentifikavimo ir atsiskaitymo el. laiškams;
 - OpenAI – neprivalomoms talpinamo DI užklausoms;
 - Sentry – išvalytoms klaidų ir diagnostikos ataskaitoms, kai tai įjungta atitinkamoje talpinamoje paslaugoje ar programėlės versijoje;

@@ -56,9 +56,13 @@ Stripe verarbeitet Zahlungen für Web-Abonnements. Auf seinen gehosteten Zahlung
 
 Wir nutzen diese Daten zur Erfüllung unseres Abonnementvertrags, zur Prüfung und Bereitstellung bezahlten Zugangs, zur Abrechnungsverwaltung und für Service-E-Mails. Außerdem bewahren wir Unterlagen für Buchhaltung, Abgleich und rechtliche Pflichten oder Ansprüche auf. Abrechnungsdaten und serverseitig erfasste Abrechnungsereignisse bleiben unabhängig vom Schalter für Produktanalyse bestehen. Stripes eigene Verarbeitung beschreibt seine [Datenschutzerklärung](https://stripe.com/privacy).
 
-Wir versenden Nibomo-Erinnerungen an das Testende sowie Zahlungs- und Erstattungsbelege über [Resend](https://resend.com/legal/privacy-policy). Resend erhält die Abrechnungs-E-Mail-Adresse des Stripe-Kunden und den Nachrichteninhalt, einschließlich des jeweiligen Betrags und der Währung, gegebenenfalls des Testenddatums sowie eines Links zur Abrechnungsverwaltung oder zum Beleg. Wir speichern Versandstatus und Kennungen, um Wiederholungsversuche zu verwalten und doppelte Nachrichten zu vermeiden.
+Bei neuen Käufen über Stripe Managed Payments versendet Stripe/Link vorgeschriebene Zahlungsbelege, Rechnungen, Erstattungsmitteilungen und bestimmte Abonnementmitteilungen einschließlich der Bestätigung des Testbeginns. Die Verarbeitung ist in der Datenschutzerklärung von [Link](https://link.com/privacy) beschrieben.
+
+Wir versenden Nibomos Erinnerung an das Ende des siebentägigen Tests sowie Zahlungs- und Erstattungsbelege für frühere Stripe-Käufe über [Resend](https://resend.com/legal/privacy-policy). Resend erhält die Abrechnungs-E-Mail-Adresse des Stripe-Kunden und den Nachrichteninhalt, einschließlich des jeweiligen Betrags und der Währung, gegebenenfalls des Testenddatums sowie eines Links zur Abrechnungsverwaltung oder zum Beleg. Wir speichern Versandstatus und Kennungen, um Wiederholungsversuche zu verwalten und doppelte Nachrichten zu vermeiden.
 
 ## Analyse und Cookies
+
+Wo verfügbar, kann die Preisfunktion anhand der IP-Adresse der Anfrage ein Land vorschlagen, das Sie manuell ändern können. Diese Funktion merkt sich nur das gewählte Land in einem funktionalen Cookie, das die Nibomo-Website und die Web-App bis zu einem Jahr gemeinsam nutzen. Diese Einstellung ist von der Analyse getrennt und legt Ihre Sprache nicht fest. Die Protokollierung der Infrastruktur ist an anderer Stelle dieser Erklärung beschrieben.
 
 Die Marketing-Website nutzt Vercel Web Analytics, um Seitenaufrufe und ausgewählte Klicks zu messen. Dieser Dienst arbeitet ohne Analyse-Cookies; die Website selbst setzt jedoch ein eigenes, unten beschriebenes Cookie. Bei Seitenaufrufen kann Vercel Zeitpunkt, URL und gefilterte Abfrageparameter, Referrer, ungefähren Standort, Browser, Betriebssystem und Gerätetyp erhalten. Unsere benutzerdefinierten Klickereignisse enthalten nur begrenzte Angaben wie Sprache, Plattform, Linkposition oder Interaktionsart. Namen, E-Mail-Adressen, Karteninhalte oder Kontokennungen werden nicht absichtlich übermittelt. Vercel aggregiert die Daten und ordnet einzelne Datenpunkte weder einer Person noch einer IP-Adresse zu; der tägliche Besucher-Hash wird nach 24 Stunden verworfen. Signalisiert Ihr Browser Global Privacy Control, sendet die Website überhaupt nichts an Vercel Web Analytics.
 
@@ -115,7 +119,7 @@ Für den gehosteten Dienst nutzen wir folgende Anbieterkategorien:
 - Amazon Web Services (AWS) für Hosting, Cognito-Authentifizierung, Postgres, Dateispeicherung, Backups und Betriebsprotokolle;
 - Apple für App-Store-Zahlungen, Kaufprüfungen und Abonnementbenachrichtigungen;
 - Google für Google-Play-Zahlungen, Kaufprüfungen und Abonnementbenachrichtigungen;
-- Stripe für Zahlungen von Web-Abonnements, Abrechnungsverwaltung, Steuerberechnung und Zahlungsbenachrichtigungen;
+- Stripe/Link für Zahlungen von Web-Abonnements, Abrechnungsverwaltung, Steuerberechnung und Zahlungsbenachrichtigungen;
 - Resend für transaktionale Authentifizierungs- und Abrechnungs-E-Mails;
 - OpenAI für optionale gehostete KI-Anfragen;
 - Sentry für bereinigte Fehler- und Diagnoseberichte, soweit dies im jeweiligen gehosteten Dienst oder App-Build aktiviert ist;
