@@ -9,10 +9,12 @@ export interface PricingExperienceCopy {
   readonly ownAws: string;
   readonly importExport: string;
   readonly period: string;
+  readonly regional: readonly [pricesFor: string, changeCountry: string, chooseCountry: string, loading: string, error: string, retry: string, checkoutNote: string, purchasesDisabled: string, countryUnavailable: string, storageUnavailable: string];
 }
 
 const COPY: Readonly<Record<AppLocale, PricingExperienceCopy>> = {
   en: {
+    regional: ["Prices for {country}", "Change country", "Choose a country", "Loading your price…", "Your price could not be loaded.", "Retry", "Checkout confirms the final amount and currency.", "New purchases are currently paused.", "Purchases are unavailable for this country.", "Country could not be saved. Your selection still works for this visit."],
     heading: ["Start free", "Make room for more"],
     labels: ["A place to begin", "More AI", "On your terms"],
     descriptions: ["Start a daily learning habit. Create cards and review across your devices.", "Get more help from AI. Enjoy extra chat messages and custom accent colors.", "Run Nibomo on your own AWS. You manage the hosting and AI provider costs."],
@@ -23,6 +25,7 @@ const COPY: Readonly<Record<AppLocale, PricingExperienceCopy>> = {
     period: "/ month",
   },
   es: {
+    regional: ["Precios para {country}", "Cambiar país", "Elige un país", "Cargando tu precio…", "No se pudo cargar tu precio.", "Reintentar", "El pago confirma el importe y la moneda finales.", "Las nuevas compras están pausadas.", "Las compras no están disponibles en este país.", "No se pudo guardar el país. Tu selección sigue activa durante esta visita."],
     heading: ["Empieza gratis", "Haz espacio para más"],
     labels: ["Para empezar", "Más IA", "A tu manera"],
     descriptions: ["Crea un hábito de aprendizaje diario. Crea tarjetas y repasa en todos tus dispositivos.", "Recibe más ayuda de la IA. Disfruta de más mensajes y colores de acento personalizados.", "Ejecuta Nibomo en tu propia cuenta de AWS. Tú gestionas los costes de alojamiento y de los proveedores de IA."],
@@ -33,6 +36,7 @@ const COPY: Readonly<Record<AppLocale, PricingExperienceCopy>> = {
     period: "/ mes",
   },
   de: {
+    regional: ["Preise für {country}", "Land ändern", "Land auswählen", "Dein Preis wird geladen…", "Dein Preis konnte nicht geladen werden.", "Erneut versuchen", "Beim Checkout werden Endbetrag und Währung bestätigt.", "Neue Käufe sind derzeit pausiert.", "Käufe sind für dieses Land nicht verfügbar.", "Das Land konnte nicht gespeichert werden. Deine Auswahl gilt für diesen Besuch."],
     heading: ["Kostenlos starten", "Platz für mehr schaffen"],
     labels: ["Zum Einstieg", "Mehr KI", "Nach deinen Regeln"],
     descriptions: ["Mach Lernen zur täglichen Gewohnheit. Erstelle Karten und wiederhole auf all deinen Geräten.", "Hol dir mehr Unterstützung von KI. Nutze zusätzliche Chatnachrichten und eigene Akzentfarben.", "Betreibe Nibomo in deinem eigenen AWS-Konto. Du verwaltest die Kosten für Hosting und KI-Anbieter."],
@@ -43,6 +47,7 @@ const COPY: Readonly<Record<AppLocale, PricingExperienceCopy>> = {
     period: "/ Monat",
   },
   fr: {
+    regional: ["Tarifs pour {country}", "Changer de pays", "Choisir un pays", "Chargement de votre tarif…", "Votre tarif n’a pas pu être chargé.", "Réessayer", "Le paiement confirme le montant final et la devise.", "Les nouveaux achats sont actuellement suspendus.", "Les achats ne sont pas disponibles dans ce pays.", "Le pays n’a pas pu être enregistré. Votre choix reste actif pour cette visite."],
     heading: ["Commencez gratuitement", "Faites place à plus"],
     labels: ["Pour commencer", "Plus d’IA", "À votre façon"],
     descriptions: ["Prenez l’habitude d’apprendre chaque jour. Créez des cartes et révisez sur tous vos appareils.", "Profitez davantage de l’aide de l’IA. Accédez à plus de messages et à des couleurs d’accent personnalisées.", "Hébergez Nibomo sur votre propre compte AWS. Vous gérez les coûts d’hébergement et des fournisseurs d’IA."],
@@ -53,6 +58,7 @@ const COPY: Readonly<Record<AppLocale, PricingExperienceCopy>> = {
     period: "/ mois",
   },
   pt: {
+    regional: ["Preços para {country}", "Alterar país", "Escolha um país", "A carregar o seu preço…", "Não foi possível carregar o seu preço.", "Tentar novamente", "O pagamento confirma o valor final e a moeda.", "As novas compras estão temporariamente suspensas.", "As compras não estão disponíveis neste país.", "Não foi possível guardar o país. A sua escolha mantém-se nesta visita."],
     heading: ["Comece grátis", "Abra espaço para mais"],
     labels: ["Para começar", "Mais IA", "Do seu jeito"],
     descriptions: ["Crie o hábito de aprender todos os dias. Crie cartões e revise em todos os seus dispositivos.", "Receba mais ajuda da IA. Aproveite mais mensagens e cores de destaque personalizadas.", "Execute o Nibomo na sua própria conta AWS. Você gerencia os custos de hospedagem e dos provedores de IA."],
@@ -63,6 +69,7 @@ const COPY: Readonly<Record<AppLocale, PricingExperienceCopy>> = {
     period: "/ mês",
   },
   ru: {
+    regional: ["Цены для страны: {country}", "Изменить страну", "Выберите страну", "Загружаем вашу цену…", "Не удалось загрузить вашу цену.", "Повторить", "При оплате будут подтверждены итоговая сумма и валюта.", "Новые покупки временно приостановлены.", "Покупки недоступны для этой страны.", "Не удалось сохранить страну. Выбор действует в течение этого посещения."],
     heading: ["Начните бесплатно", "Больше возможностей"],
     labels: ["Для начала", "Больше ИИ", "На ваших условиях"],
     descriptions: ["Учитесь понемногу каждый день. Создавайте карточки и повторяйте их на всех устройствах.", "Получайте больше помощи от ИИ. Используйте больше сообщений в чате и выбирайте цвета оформления.", "Запустите Nibomo в своём аккаунте AWS. Вы управляете хостингом и оплачиваете услуги провайдеров ИИ."],
@@ -73,6 +80,7 @@ const COPY: Readonly<Record<AppLocale, PricingExperienceCopy>> = {
     period: "/ месяц",
   },
   it: {
+    regional: ["Prezzi per {country}", "Cambia paese", "Scegli un paese", "Caricamento del prezzo…", "Impossibile caricare il prezzo.", "Riprova", "Il pagamento conferma importo finale e valuta.", "I nuovi acquisti sono attualmente sospesi.", "Gli acquisti non sono disponibili in questo paese.", "Impossibile salvare il paese. La scelta resta valida per questa visita."],
     heading: ["Inizia gratis", "Fai spazio a più possibilità"],
     labels: ["Per iniziare", "Più IA", "A modo tuo"],
     descriptions: ["Prendi l’abitudine di imparare ogni giorno. Crea schede e ripassa su tutti i tuoi dispositivi.", "Ricevi più aiuto dall’IA. Approfitta di più messaggi e di colori personalizzati.", "Esegui Nibomo sul tuo account AWS. Gestisci i costi di hosting e dei fornitori di IA."],
@@ -83,6 +91,7 @@ const COPY: Readonly<Record<AppLocale, PricingExperienceCopy>> = {
     period: "/ mese",
   },
   nl: {
+    regional: ["Prijzen voor {country}", "Land wijzigen", "Kies een land", "Je prijs wordt geladen…", "Je prijs kon niet worden geladen.", "Opnieuw proberen", "Bij het afrekenen worden het definitieve bedrag en de valuta bevestigd.", "Nieuwe aankopen zijn momenteel gepauzeerd.", "Aankopen zijn niet beschikbaar voor dit land.", "Het land kon niet worden opgeslagen. Je keuze blijft geldig tijdens dit bezoek."],
     heading: ["Begin gratis", "Maak ruimte voor meer"],
     labels: ["Om te beginnen", "Meer AI", "Op jouw manier"],
     descriptions: ["Maak van leren een dagelijkse gewoonte. Maak kaarten en herhaal ze op al je apparaten.", "Krijg meer hulp van AI. Gebruik extra chatberichten en eigen accentkleuren.", "Draai Nibomo op je eigen AWS-account. Je beheert de kosten voor hosting en AI-providers."],
@@ -93,6 +102,7 @@ const COPY: Readonly<Record<AppLocale, PricingExperienceCopy>> = {
     period: "/ maand",
   },
   pl: {
+    regional: ["Ceny dla kraju: {country}", "Zmień kraj", "Wybierz kraj", "Wczytywanie ceny…", "Nie udało się wczytać ceny.", "Spróbuj ponownie", "Przy płatności potwierdzisz końcową kwotę i walutę.", "Nowe zakupy są obecnie wstrzymane.", "Zakupy są niedostępne w tym kraju.", "Nie udało się zapisać kraju. Wybór obowiązuje podczas tej wizyty."],
     heading: ["Zacznij za darmo", "Zyskaj więcej możliwości"],
     labels: ["Na początek", "Więcej AI", "Na Twoich zasadach"],
     descriptions: ["Ucz się trochę każdego dnia. Twórz fiszki i powtarzaj je na wszystkich urządzeniach.", "Korzystaj z większej pomocy AI. Zyskaj więcej wiadomości i własne kolory akcentów.", "Uruchom Nibomo na swoim koncie AWS. Zarządzaj kosztami hostingu i dostawców AI."],
@@ -103,6 +113,7 @@ const COPY: Readonly<Record<AppLocale, PricingExperienceCopy>> = {
     period: "/ miesiąc",
   },
   sv: {
+    regional: ["Priser för {country}", "Byt land", "Välj ett land", "Laddar ditt pris…", "Ditt pris kunde inte laddas.", "Försök igen", "I kassan bekräftas slutbelopp och valuta.", "Nya köp är för närvarande pausade.", "Köp är inte tillgängliga för detta land.", "Landet kunde inte sparas. Ditt val gäller under detta besök."],
     heading: ["Börja gratis", "Gör plats för mer"],
     labels: ["För att komma igång", "Mer AI", "På dina villkor"],
     descriptions: ["Gör lärandet till en daglig vana. Skapa kort och repetera på alla dina enheter.", "Få mer hjälp av AI. Använd fler chattmeddelanden och egna accentfärger.", "Kör Nibomo på ditt eget AWS-konto. Du hanterar kostnaderna för hosting och AI-leverantörer."],
@@ -113,6 +124,7 @@ const COPY: Readonly<Record<AppLocale, PricingExperienceCopy>> = {
     period: "/ månad",
   },
   da: {
+    regional: ["Priser for {country}", "Skift land", "Vælg et land", "Indlæser din pris…", "Din pris kunne ikke indlæses.", "Prøv igen", "Ved betaling bekræftes det endelige beløb og valutaen.", "Nye køb er i øjeblikket sat på pause.", "Køb er ikke tilgængelige for dette land.", "Landet kunne ikke gemmes. Dit valg gælder under dette besøg."],
     heading: ["Start gratis", "Gør plads til mere"],
     labels: ["Til at komme i gang", "Mere AI", "På dine vilkår"],
     descriptions: ["Gør læring til en daglig vane. Opret kort og repetér på alle dine enheder.", "Få mere hjælp fra AI. Brug flere chatbeskeder og dine egne accentfarver.", "Kør Nibomo på din egen AWS-konto. Du styrer udgifterne til hosting og AI-udbydere."],
@@ -123,6 +135,7 @@ const COPY: Readonly<Record<AppLocale, PricingExperienceCopy>> = {
     period: "/ måned",
   },
   nb: {
+    regional: ["Priser for {country}", "Endre land", "Velg et land", "Laster inn prisen din…", "Prisen din kunne ikke lastes inn.", "Prøv igjen", "Ved betaling bekreftes endelig beløp og valuta.", "Nye kjøp er midlertidig satt på pause.", "Kjøp er ikke tilgjengelige for dette landet.", "Landet kunne ikke lagres. Valget ditt gjelder under dette besøket."],
     heading: ["Start gratis", "Gjør plass til mer"],
     labels: ["For å komme i gang", "Mer KI", "På dine vilkår"],
     descriptions: ["Gjør læring til en daglig vane. Lag kort og repeter på alle enhetene dine.", "Få mer hjelp fra KI. Bruk flere chatmeldinger og egne aksentfarger.", "Kjør Nibomo på din egen AWS-konto. Du styrer kostnadene for hosting og KI-leverandører."],
@@ -133,6 +146,7 @@ const COPY: Readonly<Record<AppLocale, PricingExperienceCopy>> = {
     period: "/ måned",
   },
   fi: {
+    regional: ["Hinnat maassa {country}", "Vaihda maata", "Valitse maa", "Hintaasi ladataan…", "Hintaasi ei voitu ladata.", "Yritä uudelleen", "Lopullinen summa ja valuutta vahvistetaan kassalla.", "Uudet ostot on toistaiseksi keskeytetty.", "Ostot eivät ole saatavilla tässä maassa.", "Maata ei voitu tallentaa. Valintasi on voimassa tämän käynnin ajan."],
     heading: ["Aloita ilmaiseksi", "Tilaa useammille mahdollisuuksille"],
     labels: ["Alkuun pääsemiseen", "Enemmän tekoälyä", "Omilla ehdoillasi"],
     descriptions: ["Tee oppimisesta päivittäinen tapa. Luo kortteja ja kertaa kaikilla laitteillasi.", "Saat enemmän apua tekoälyltä. Käytä enemmän chat-viestejä ja omia korostusvärejä.", "Käytä Nibomoa omalla AWS-tililläsi. Hallitset itse hostingin ja tekoälypalvelujen kustannuksia."],
@@ -143,6 +157,7 @@ const COPY: Readonly<Record<AppLocale, PricingExperienceCopy>> = {
     period: "/ kuukausi",
   },
   cs: {
+    regional: ["Ceny pro zemi: {country}", "Změnit zemi", "Vyberte zemi", "Načítání ceny…", "Cenu se nepodařilo načíst.", "Zkusit znovu", "Při platbě se potvrdí konečná částka a měna.", "Nové nákupy jsou nyní pozastaveny.", "Nákupy nejsou pro tuto zemi dostupné.", "Zemi se nepodařilo uložit. Výběr platí po dobu této návštěvy."],
     heading: ["Začněte zdarma", "Získejte více možností"],
     labels: ["Pro začátek", "Více AI", "Podle vašich pravidel"],
     descriptions: ["Vytvořte si každodenní studijní návyk. Tvořte kartičky a opakujte na všech svých zařízeních.", "Získejte více pomoci od AI. Využijte více zpráv a vlastní zvýrazňovací barvy.", "Provozujte Nibomo na vlastním účtu AWS. Spravujete náklady na hosting a poskytovatele AI."],
@@ -153,6 +168,7 @@ const COPY: Readonly<Record<AppLocale, PricingExperienceCopy>> = {
     period: "/ měsíc",
   },
   sk: {
+    regional: ["Ceny pre krajinu: {country}", "Zmeniť krajinu", "Vyberte krajinu", "Načítava sa cena…", "Cenu sa nepodarilo načítať.", "Skúsiť znova", "Pri platbe sa potvrdí konečná suma a mena.", "Nové nákupy sú momentálne pozastavené.", "Nákupy nie sú pre túto krajinu dostupné.", "Krajinu sa nepodarilo uložiť. Výber platí počas tejto návštevy."],
     heading: ["Začnite zadarmo", "Získajte viac možností"],
     labels: ["Na začiatok", "Viac AI", "Podľa vašich pravidiel"],
     descriptions: ["Vytvorte si každodenný študijný návyk. Tvorte kartičky a opakujte na všetkých svojich zariadeniach.", "Získajte viac pomoci od AI. Využite viac správ a vlastné zvýrazňovacie farby.", "Prevádzkujte Nibomo na vlastnom účte AWS. Spravujete náklady na hosting a poskytovateľov AI."],
@@ -163,6 +179,7 @@ const COPY: Readonly<Record<AppLocale, PricingExperienceCopy>> = {
     period: "/ mesiac",
   },
   sl: {
+    regional: ["Cene za državo: {country}", "Spremeni državo", "Izberite državo", "Nalaganje cene…", "Cene ni bilo mogoče naložiti.", "Poskusi znova", "Pri plačilu se potrdita končni znesek in valuta.", "Novi nakupi so trenutno začasno ustavljeni.", "Nakupi za to državo niso na voljo.", "Države ni bilo mogoče shraniti. Izbira velja za ta obisk."],
     heading: ["Začnite brezplačno", "Več prostora za več možnosti"],
     labels: ["Za začetek", "Več UI", "Po vaših pravilih"],
     descriptions: ["Naj učenje postane vsakodnevna navada. Ustvarjajte kartice in ponavljajte na vseh svojih napravah.", "Pridobite več pomoči umetne inteligence. Uporabite več sporočil in lastne poudarjene barve.", "Poganjajte Nibomo v svojem računu AWS. Upravljate stroške gostovanja in ponudnikov umetne inteligence."],
@@ -173,6 +190,7 @@ const COPY: Readonly<Record<AppLocale, PricingExperienceCopy>> = {
     period: "/ mesec",
   },
   hr: {
+    regional: ["Cijene za {country}", "Promijeni državu", "Odaberi državu", "Učitavanje cijene…", "Cijena se nije mogla učitati.", "Pokušaj ponovno", "Pri plaćanju potvrđuju se konačni iznos i valuta.", "Nove kupnje trenutačno su zaustavljene.", "Kupnje nisu dostupne za ovu državu.", "Država se nije mogla spremiti. Odabir vrijedi tijekom ovog posjeta."],
     heading: ["Počnite besplatno", "Više prostora za više mogućnosti"],
     labels: ["Za početak", "Više AI-ja", "Po vašim pravilima"],
     descriptions: ["Neka učenje postane svakodnevna navika. Stvarajte kartice i ponavljajte na svim svojim uređajima.", "Dobijte više pomoći od AI-ja. Koristite više poruka i vlastite naglasne boje.", "Pokrenite Nibomo na vlastitom AWS računu. Upravljate troškovima hostinga i pružatelja AI usluga."],
@@ -183,6 +201,7 @@ const COPY: Readonly<Record<AppLocale, PricingExperienceCopy>> = {
     period: "/ mjesec",
   },
   hu: {
+    regional: ["Árak ehhez az országhoz: {country}", "Ország módosítása", "Válassz országot", "Ár betöltése…", "Az árat nem sikerült betölteni.", "Újrapróbálás", "A fizetésnél megerősítjük a végösszeget és a pénznemet.", "Az új vásárlások jelenleg szünetelnek.", "Ebben az országban nem érhető el vásárlás.", "Az országot nem sikerült menteni. A választás erre a látogatásra érvényes."],
     heading: ["Kezdd ingyen", "Adj teret a több lehetőségnek"],
     labels: ["Kezdéshez", "Több MI", "A saját feltételeiddel"],
     descriptions: ["Tedd a tanulást napi szokássá. Készíts kártyákat, és ismételj minden eszközödön.", "Kérj több segítséget a mesterséges intelligenciától. Használj több csevegőüzenetet és egyéni kiemelőszíneket.", "Futtasd a Nibomót a saját AWS-fiókodban. Te kezeled a tárhely és az MI-szolgáltatók költségeit."],
@@ -193,6 +212,7 @@ const COPY: Readonly<Record<AppLocale, PricingExperienceCopy>> = {
     period: "/ hónap",
   },
   ro: {
+    regional: ["Prețuri pentru {country}", "Schimbă țara", "Alege o țară", "Se încarcă prețul…", "Prețul nu a putut fi încărcat.", "Reîncearcă", "La plată se confirmă suma finală și moneda.", "Achizițiile noi sunt suspendate momentan.", "Achizițiile nu sunt disponibile pentru această țară.", "Țara nu a putut fi salvată. Alegerea rămâne valabilă pentru această vizită."],
     heading: ["Începe gratuit", "Fă loc pentru mai mult"],
     labels: ["Pentru început", "Mai multă IA", "În condițiile tale"],
     descriptions: ["Transformă învățarea într-un obicei zilnic. Creează carduri și repetă pe toate dispozitivele tale.", "Primește mai mult ajutor de la IA. Folosește mai multe mesaje și culori de accent personalizate.", "Rulează Nibomo în propriul cont AWS. Gestionezi costurile găzduirii și ale furnizorilor de IA."],
@@ -203,6 +223,7 @@ const COPY: Readonly<Record<AppLocale, PricingExperienceCopy>> = {
     period: "/ lună",
   },
   bg: {
+    regional: ["Цени за {country}", "Промяна на държавата", "Изберете държава", "Зареждане на цената…", "Цената не можа да се зареди.", "Опитайте отново", "При плащане се потвърждават крайната сума и валутата.", "Новите покупки временно са спрени.", "Покупките не са достъпни за тази държава.", "Държавата не можа да се запази. Изборът важи за това посещение."],
     heading: ["Започнете безплатно", "Повече място за повече възможности"],
     labels: ["За начало", "Повече ИИ", "По вашите правила"],
     descriptions: ["Превърнете ученето в ежедневен навик. Създавайте карти и преговаряйте на всичките си устройства.", "Получете повече помощ от ИИ. Използвайте повече съобщения и собствени акцентни цветове.", "Стартирайте Nibomo в собствения си AWS акаунт. Вие управлявате разходите за хостинг и доставчици на ИИ."],
@@ -213,6 +234,7 @@ const COPY: Readonly<Record<AppLocale, PricingExperienceCopy>> = {
     period: "/ месец",
   },
   uk: {
+    regional: ["Ціни для країни: {country}", "Змінити країну", "Виберіть країну", "Завантажуємо вашу ціну…", "Не вдалося завантажити вашу ціну.", "Повторити", "Під час оплати буде підтверджено остаточну суму та валюту.", "Нові покупки тимчасово призупинено.", "Покупки недоступні для цієї країни.", "Не вдалося зберегти країну. Вибір діє протягом цього відвідування."],
     heading: ["Почніть безкоштовно", "Більше можливостей"],
     labels: ["Для початку", "Більше ШІ", "На ваших умовах"],
     descriptions: ["Навчайтеся потроху щодня. Створюйте картки й повторюйте їх на всіх пристроях.", "Отримуйте більше допомоги від ШІ. Використовуйте більше повідомлень і власні кольори оформлення.", "Запустіть Nibomo у власному акаунті AWS. Ви керуєте хостингом і сплачуєте послуги провайдерів ШІ."],
@@ -223,6 +245,7 @@ const COPY: Readonly<Record<AppLocale, PricingExperienceCopy>> = {
     period: "/ місяць",
   },
   el: {
+    regional: ["Τιμές για {country}", "Αλλαγή χώρας", "Επιλέξτε χώρα", "Φόρτωση της τιμής σας…", "Δεν ήταν δυνατή η φόρτωση της τιμής σας.", "Δοκιμάστε ξανά", "Στην πληρωμή επιβεβαιώνονται το τελικό ποσό και το νόμισμα.", "Οι νέες αγορές έχουν προσωρινά ανασταλεί.", "Οι αγορές δεν είναι διαθέσιμες για αυτήν τη χώρα.", "Δεν ήταν δυνατή η αποθήκευση της χώρας. Η επιλογή ισχύει για αυτήν την επίσκεψη."],
     heading: ["Ξεκινήστε δωρεάν", "Κάντε χώρο για περισσότερα"],
     labels: ["Για αρχή", "Περισσότερη ΤΝ", "Με τους δικούς σας όρους"],
     descriptions: ["Κάντε τη μάθηση καθημερινή συνήθεια. Δημιουργήστε κάρτες και κάντε επανάληψη σε όλες τις συσκευές σας.", "Αποκτήστε περισσότερη βοήθεια από την ΤΝ. Χρησιμοποιήστε περισσότερα μηνύματα και προσαρμοσμένα χρώματα έμφασης.", "Εκτελέστε το Nibomo στον δικό σας λογαριασμό AWS. Διαχειρίζεστε τα έξοδα φιλοξενίας και των παρόχων ΤΝ."],
@@ -233,6 +256,7 @@ const COPY: Readonly<Record<AppLocale, PricingExperienceCopy>> = {
     period: "/ μήνα",
   },
   tr: {
+    regional: ["{country} için fiyatlar", "Ülkeyi değiştir", "Bir ülke seçin", "Fiyatınız yükleniyor…", "Fiyatınız yüklenemedi.", "Yeniden dene", "Son tutar ve para birimi ödeme sırasında onaylanır.", "Yeni satın almalar şu anda duraklatıldı.", "Bu ülke için satın alma kullanılamıyor.", "Ülke kaydedilemedi. Seçiminiz bu ziyaret boyunca geçerlidir."],
     heading: ["Ücretsiz başlayın", "Daha fazlasına yer açın"],
     labels: ["Başlangıç için", "Daha fazla yapay zekâ", "Sizin koşullarınızda"],
     descriptions: ["Her gün öğrenme alışkanlığı edinin. Kartlar oluşturun ve tüm cihazlarınızda tekrar yapın.", "Yapay zekâdan daha fazla yardım alın. Daha fazla mesaj ve özel vurgu renklerinin keyfini çıkarın.", "Nibomo’yu kendi AWS hesabınızda çalıştırın. Barındırma ve yapay zekâ sağlayıcılarının maliyetlerini siz yönetirsiniz."],
@@ -243,6 +267,7 @@ const COPY: Readonly<Record<AppLocale, PricingExperienceCopy>> = {
     period: "/ ay",
   },
   ca: {
+    regional: ["Preus per a {country}", "Canvia el país", "Tria un país", "S’està carregant el preu…", "No s’ha pogut carregar el preu.", "Torna-ho a provar", "El pagament confirma l’import final i la moneda.", "Les compres noves estan aturades temporalment.", "Les compres no estan disponibles en aquest país.", "No s’ha pogut desar el país. La tria continua activa durant aquesta visita."],
     heading: ["Comença gratis", "Fes lloc per a més"],
     labels: ["Per començar", "Més IA", "A la teva manera"],
     descriptions: ["Crea un hàbit d’aprenentatge diari. Crea targetes i repassa en tots els teus dispositius.", "Rep més ajuda de la IA. Gaudeix de més missatges i colors d’accent personalitzats.", "Executa Nibomo al teu propi compte d’AWS. Tu gestiones els costos d’allotjament i dels proveïdors d’IA."],
@@ -253,6 +278,7 @@ const COPY: Readonly<Record<AppLocale, PricingExperienceCopy>> = {
     period: "/ mes",
   },
   et: {
+    regional: ["Hinnad riigis {country}", "Muuda riiki", "Vali riik", "Sinu hinna laadimine…", "Sinu hinda ei saanud laadida.", "Proovi uuesti", "Lõplik summa ja valuuta kinnitatakse maksmisel.", "Uued ostud on praegu peatatud.", "Ostud pole selles riigis saadaval.", "Riiki ei saanud salvestada. Valik kehtib selle külastuse ajal."],
     heading: ["Alusta tasuta", "Tee ruumi rohkemale"],
     labels: ["Alustamiseks", "Rohkem tehisaru", "Sinu tingimustel"],
     descriptions: ["Muuda õppimine igapäevaseks harjumuseks. Loo õpikaarte ja korda kõigis oma seadmetes.", "Saa tehisarult rohkem abi. Kasuta rohkem vestlussõnumeid ja kohandatud rõhutoone.", "Käivita Nibomo oma AWS-i kontol. Sina haldad majutuse ja tehisaruteenuste kulusid."],
@@ -263,6 +289,7 @@ const COPY: Readonly<Record<AppLocale, PricingExperienceCopy>> = {
     period: "/ kuu",
   },
   is: {
+    regional: ["Verð fyrir {country}", "Breyta landi", "Veldu land", "Hleð verðinu þínu…", "Ekki tókst að hlaða verðinu þínu.", "Reyna aftur", "Lokaupphæð og gjaldmiðill eru staðfest við greiðslu.", "Ný kaup eru í bið eins og er.", "Kaup eru ekki í boði fyrir þetta land.", "Ekki tókst að vista landið. Valið gildir í þessari heimsókn."],
     heading: ["Byrjaðu ókeypis", "Skapaðu pláss fyrir meira"],
     labels: ["Til að byrja", "Meiri gervigreind", "Á þínum forsendum"],
     descriptions: ["Gerðu nám að daglegri venju. Búðu til námskort og rifjaðu upp í öllum tækjunum þínum.", "Fáðu meiri hjálp frá gervigreind. Notaðu fleiri spjallskilaboð og eigin áhersluliti.", "Keyrðu Nibomo á eigin AWS-reikningi. Þú sérð um kostnað við hýsingu og gervigreindarþjónustu."],
@@ -273,6 +300,7 @@ const COPY: Readonly<Record<AppLocale, PricingExperienceCopy>> = {
     period: "/ mánuð",
   },
   lt: {
+    regional: ["Kainos šaliai: {country}", "Keisti šalį", "Pasirinkite šalį", "Įkeliama jūsų kaina…", "Nepavyko įkelti jūsų kainos.", "Bandyti dar kartą", "Mokant patvirtinama galutinė suma ir valiuta.", "Nauji pirkimai šiuo metu sustabdyti.", "Šioje šalyje pirkti negalima.", "Nepavyko išsaugoti šalies. Pasirinkimas galioja šio apsilankymo metu."],
     heading: ["Pradėkite nemokamai", "Daugiau vietos galimybėms"],
     labels: ["Pradžiai", "Daugiau DI", "Jūsų sąlygomis"],
     descriptions: ["Paverskite mokymąsi kasdieniu įpročiu. Kurkite mokymosi korteles ir kartokite visuose savo įrenginiuose.", "Gaukite daugiau DI pagalbos. Naudokite daugiau pokalbio žinučių ir savo akcentines spalvas.", "Paleiskite Nibomo savo AWS paskyroje. Jūs valdote prieglobos ir DI paslaugų teikėjų išlaidas."],
@@ -283,6 +311,7 @@ const COPY: Readonly<Record<AppLocale, PricingExperienceCopy>> = {
     period: "/ mėnesį",
   },
   lv: {
+    regional: ["Cenas valstij: {country}", "Mainīt valsti", "Izvēlieties valsti", "Ielādē cenu…", "Neizdevās ielādēt cenu.", "Mēģināt vēlreiz", "Maksājuma laikā apstiprina galīgo summu un valūtu.", "Jauni pirkumi pašlaik ir apturēti.", "Pirkumi šajā valstī nav pieejami.", "Neizdevās saglabāt valsti. Izvēle ir spēkā šī apmeklējuma laikā."],
     heading: ["Sāciet bez maksas", "Vairāk vietas iespējām"],
     labels: ["Sākumam", "Vairāk MI", "Pēc jūsu noteikumiem"],
     descriptions: ["Padariet mācīšanos par ikdienas ieradumu. Veidojiet mācību kartītes un atkārtojiet visās savās ierīcēs.", "Saņemiet vairāk MI palīdzības. Izmantojiet vairāk tērzēšanas ziņojumu un savas akcenta krāsas.", "Darbiniet Nibomo savā AWS kontā. Jūs pārvaldāt mitināšanas un MI pakalpojumu sniedzēju izmaksas."],
@@ -293,6 +322,7 @@ const COPY: Readonly<Record<AppLocale, PricingExperienceCopy>> = {
     period: "/ mēnesī",
   },
   ar: {
+    regional: ["الأسعار في {country}", "تغيير البلد", "اختر بلدًا", "جارٍ تحميل السعر…", "تعذّر تحميل السعر.", "إعادة المحاولة", "تؤكد صفحة الدفع المبلغ النهائي والعملة.", "عمليات الشراء الجديدة متوقفة مؤقتًا.", "الشراء غير متاح لهذا البلد.", "تعذّر حفظ البلد. يظل اختيارك ساريًا خلال هذه الزيارة."],
     heading: ["ابدأ مجانًا", "مساحة لمزيد من الإمكانات"],
     labels: ["للبداية", "مزيد من الذكاء الاصطناعي", "وفق شروطك"],
     descriptions: ["اجعل التعلّم عادة يومية. أنشئ بطاقات وراجعها على جميع أجهزتك.", "احصل على مزيد من المساعدة من الذكاء الاصطناعي. استفد من رسائل إضافية وألوان تمييز مخصصة.", "شغّل Nibomo على حساب AWS الخاص بك. أنت تدير تكاليف الاستضافة ومزوّدي الذكاء الاصطناعي."],
@@ -303,6 +333,7 @@ const COPY: Readonly<Record<AppLocale, PricingExperienceCopy>> = {
     period: "/ شهر",
   },
   fa: {
+    regional: ["قیمت‌ها برای {country}", "تغییر کشور", "کشوری انتخاب کنید", "در حال بارگذاری قیمت…", "قیمت بارگذاری نشد.", "تلاش دوباره", "مبلغ نهایی و ارز هنگام پرداخت تأیید می‌شوند.", "خریدهای جدید فعلاً متوقف شده‌اند.", "خرید برای این کشور در دسترس نیست.", "کشور ذخیره نشد. انتخاب شما در این بازدید همچنان معتبر است."],
     heading: ["رایگان شروع کنید", "فضای بیشتری برای امکانات بیشتر"],
     labels: ["برای شروع", "هوش مصنوعی بیشتر", "با شرایط خودتان"],
     descriptions: ["یادگیری را به عادتی روزانه تبدیل کنید. کارت بسازید و در همه دستگاه‌هایتان مرور کنید.", "از هوش مصنوعی کمک بیشتری بگیرید. از پیام‌های بیشتر و رنگ‌های تأکیدی دلخواه استفاده کنید.", "Nibomo را در حساب AWS خودتان اجرا کنید. مدیریت هزینه‌های میزبانی و ارائه‌دهندگان هوش مصنوعی با شماست."],
@@ -313,6 +344,7 @@ const COPY: Readonly<Record<AppLocale, PricingExperienceCopy>> = {
     period: "/ ماه",
   },
   he: {
+    regional: ["מחירים עבור {country}", "שינוי מדינה", "בחירת מדינה", "המחיר שלך נטען…", "לא ניתן לטעון את המחיר שלך.", "ניסיון נוסף", "בעת התשלום יאושרו הסכום הסופי והמטבע.", "רכישות חדשות מושהות כעת.", "רכישות אינן זמינות למדינה זו.", "לא ניתן לשמור את המדינה. הבחירה תקפה לביקור הנוכחי."],
     heading: ["מתחילים בחינם", "מקום לעוד אפשרויות"],
     labels: ["כדי להתחיל", "יותר AI", "בתנאים שלכם"],
     descriptions: ["הפכו את הלמידה להרגל יומי. צרו כרטיסיות ותרגלו בכל המכשירים שלכם.", "קבלו יותר עזרה מה-AI. תיהנו מהודעות נוספות ומצבעי הדגשה מותאמים אישית.", "הריצו את Nibomo בחשבון AWS משלכם. אתם מנהלים את עלויות האירוח וספקי ה-AI."],
@@ -323,6 +355,7 @@ const COPY: Readonly<Record<AppLocale, PricingExperienceCopy>> = {
     period: "/ חודש",
   },
   zh: {
+    regional: ["{country}的价格", "更改国家或地区", "选择国家或地区", "正在加载价格…", "无法加载价格。", "重试", "结账时将确认最终金额和币种。", "新购买目前已暂停。", "此国家或地区暂不支持购买。", "无法保存国家或地区。本次访问仍将使用您的选择。"],
     heading: ["免费开始", "解锁更多可能"],
     labels: ["轻松入门", "更多 AI", "由你掌控"],
     descriptions: ["养成每天学习的习惯。创建卡片，在所有设备上复习。", "获得更多 AI 帮助。享受更多聊天消息和自定义强调色。", "在自己的 AWS 账户上运行 Nibomo。托管和 AI 服务的费用由你管理。"],
@@ -333,6 +366,7 @@ const COPY: Readonly<Record<AppLocale, PricingExperienceCopy>> = {
     period: "/ 月",
   },
   ja: {
+    regional: ["{country}向けの価格", "国を変更", "国を選択", "価格を読み込み中…", "価格を読み込めませんでした。", "再試行", "最終金額と通貨は決済時に確認できます。", "新規購入は現在停止中です。", "この国では購入できません。", "国を保存できませんでした。今回の訪問では選択が有効です。"],
     heading: ["無料で始める", "もっとできる余地を"],
     labels: ["まずはここから", "もっとAIを", "自分のやり方で"],
     descriptions: ["毎日の学習を習慣にしましょう。カードを作り、すべての端末で復習できます。", "AIからもっとサポートを受けられます。チャットメッセージの追加とアクセントカラーのカスタマイズを楽しめます。", "自分のAWSアカウントでNibomoを運用できます。ホスティングとAIサービスの費用は自分で管理します。"],
@@ -343,6 +377,7 @@ const COPY: Readonly<Record<AppLocale, PricingExperienceCopy>> = {
     period: "/ 月",
   },
   ko: {
+    regional: ["{country} 기준 가격", "국가 변경", "국가 선택", "가격을 불러오는 중…", "가격을 불러오지 못했습니다.", "다시 시도", "최종 금액과 통화는 결제 시 확인됩니다.", "현재 신규 구매가 일시 중지되었습니다.", "이 국가에서는 구매할 수 없습니다.", "국가를 저장하지 못했습니다. 이번 방문에는 선택이 유지됩니다."],
     heading: ["무료로 시작하세요", "더 많은 가능성을 열어보세요"],
     labels: ["시작하기", "더 많은 AI", "원하는 방식으로"],
     descriptions: ["매일 학습하는 습관을 만들어 보세요. 카드를 만들고 모든 기기에서 복습할 수 있어요.", "AI의 도움을 더 많이 받아 보세요. 더 많은 채팅 메시지와 나만의 강조 색상을 이용할 수 있어요.", "내 AWS 계정에서 Nibomo를 실행하세요. 호스팅과 AI 서비스 비용은 직접 관리해요."],
@@ -353,6 +388,7 @@ const COPY: Readonly<Record<AppLocale, PricingExperienceCopy>> = {
     period: "/ 월",
   },
   vi: {
+    regional: ["Giá cho {country}", "Đổi quốc gia", "Chọn quốc gia", "Đang tải giá…", "Không thể tải giá của bạn.", "Thử lại", "Số tiền cuối cùng và loại tiền được xác nhận khi thanh toán.", "Các giao dịch mua mới hiện đang tạm dừng.", "Không thể mua tại quốc gia này.", "Không thể lưu quốc gia. Lựa chọn vẫn có hiệu lực trong lần truy cập này."],
     heading: ["Bắt đầu miễn phí", "Thêm chỗ cho nhiều khả năng"],
     labels: ["Để bắt đầu", "Thêm AI", "Theo cách của bạn"],
     descriptions: ["Tạo thói quen học mỗi ngày. Tạo thẻ và ôn tập trên mọi thiết bị của bạn.", "Nhận thêm trợ giúp từ AI. Sử dụng nhiều tin nhắn hơn và màu nhấn tùy chỉnh.", "Chạy Nibomo trên tài khoản AWS của bạn. Bạn quản lý chi phí lưu trữ và nhà cung cấp AI."],
@@ -363,6 +399,7 @@ const COPY: Readonly<Record<AppLocale, PricingExperienceCopy>> = {
     period: "/ tháng",
   },
   id: {
+    regional: ["Harga untuk {country}", "Ubah negara", "Pilih negara", "Memuat harga Anda…", "Harga Anda tidak dapat dimuat.", "Coba lagi", "Jumlah akhir dan mata uang dikonfirmasi saat pembayaran.", "Pembelian baru sedang dijeda.", "Pembelian tidak tersedia untuk negara ini.", "Negara tidak dapat disimpan. Pilihan Anda tetap berlaku selama kunjungan ini."],
     heading: ["Mulai gratis", "Ruang untuk lebih banyak"],
     labels: ["Untuk memulai", "Lebih banyak AI", "Sesuai pilihanmu"],
     descriptions: ["Bangun kebiasaan belajar setiap hari. Buat kartu dan ulangi pelajaran di semua perangkatmu.", "Dapatkan lebih banyak bantuan AI. Nikmati pesan tambahan dan warna aksen khusus.", "Jalankan Nibomo di akun AWS milikmu. Kamu mengelola biaya hosting dan penyedia AI."],
@@ -373,6 +410,7 @@ const COPY: Readonly<Record<AppLocale, PricingExperienceCopy>> = {
     period: "/ bulan",
   },
   hi: {
+    regional: ["{country} के लिए कीमतें", "देश बदलें", "देश चुनें", "आपकी कीमत लोड हो रही है…", "आपकी कीमत लोड नहीं हो सकी।", "फिर कोशिश करें", "अंतिम राशि और मुद्रा की पुष्टि भुगतान के समय होती है।", "नई खरीदारी फ़िलहाल रुकी हुई है।", "इस देश के लिए खरीदारी उपलब्ध नहीं है।", "देश सेव नहीं हो सका। इस विज़िट में आपका चयन लागू रहेगा।"],
     heading: ["मुफ़्त शुरू करें", "और ज़्यादा के लिए जगह बनाएँ"],
     labels: ["शुरुआत के लिए", "ज़्यादा AI", "आपकी शर्तों पर"],
     descriptions: ["हर दिन सीखने की आदत बनाएँ। कार्ड बनाएँ और अपने सभी डिवाइस पर रिव्यू करें।", "AI से और मदद पाएँ। ज़्यादा चैट मैसेज और अपनी पसंद के एक्सेंट रंग इस्तेमाल करें।", "अपने AWS अकाउंट पर Nibomo चलाएँ। होस्टिंग और AI सेवा प्रदाताओं का खर्च आप संभालते हैं।"],
@@ -383,6 +421,7 @@ const COPY: Readonly<Record<AppLocale, PricingExperienceCopy>> = {
     period: "/ महीना",
   },
   bn: {
+    regional: ["দেশভিত্তিক মূল্য: {country}", "দেশ পরিবর্তন করুন", "দেশ বেছে নিন", "আপনার মূল্য লোড হচ্ছে…", "আপনার মূল্য লোড করা যায়নি।", "আবার চেষ্টা করুন", "চূড়ান্ত পরিমাণ ও মুদ্রা পেমেন্টের সময় নিশ্চিত করা হয়।", "নতুন কেনাকাটা আপাতত বন্ধ আছে।", "এই দেশে কেনাকাটা উপলব্ধ নয়।", "দেশ সেভ করা যায়নি। এই ভিজিটে আপনার নির্বাচন কার্যকর থাকবে।"],
     heading: ["বিনামূল্যে শুরু করুন", "আরও সম্ভাবনার জন্য জায়গা"],
     labels: ["শুরু করার জন্য", "আরও AI", "আপনার শর্তে"],
     descriptions: ["প্রতিদিন শেখার অভ্যাস গড়ুন। কার্ড তৈরি করুন এবং আপনার সব ডিভাইসে রিভিউ করুন।", "AI-এর আরও সাহায্য পান। বেশি চ্যাট বার্তা ও পছন্দের অ্যাকসেন্ট রং ব্যবহার করুন।", "আপনার নিজস্ব AWS অ্যাকাউন্টে Nibomo চালান। হোস্টিং ও AI সেবা প্রদানকারীদের খরচ আপনি পরিচালনা করেন।"],
@@ -393,6 +432,7 @@ const COPY: Readonly<Record<AppLocale, PricingExperienceCopy>> = {
     period: "/ মাস",
   },
   gu: {
+    regional: ["{country} માટે કિંમતો", "દેશ બદલો", "દેશ પસંદ કરો", "તમારી કિંમત લોડ થઈ રહી છે…", "તમારી કિંમત લોડ થઈ શકી નહીં.", "ફરી પ્રયાસ કરો", "અંતિમ રકમ અને ચલણની પુષ્ટિ ચુકવણી વખતે થાય છે.", "નવી ખરીદીઓ હાલ થોભાવવામાં આવી છે.", "આ દેશ માટે ખરીદી ઉપલબ્ધ નથી.", "દેશ સાચવી શકાયો નહીં. આ મુલાકાત દરમિયાન તમારી પસંદગી લાગુ રહેશે."],
     heading: ["મફતમાં શરૂ કરો", "વધુ શક્યતાઓ માટે જગ્યા"],
     labels: ["શરૂઆત માટે", "વધુ AI", "તમારી શરતો પર"],
     descriptions: ["દરરોજ શીખવાની ટેવ બનાવો. કાર્ડ બનાવો અને તમારા બધા ઉપકરણો પર રિવ્યૂ કરો.", "AI પાસેથી વધુ મદદ મેળવો. વધુ ચેટ સંદેશા અને મનપસંદ એક્સેન્ટ રંગોનો ઉપયોગ કરો.", "તમારા પોતાના AWS ખાતામાં Nibomo ચલાવો. હોસ્ટિંગ અને AI સેવા પ્રદાતાઓનો ખર્ચ તમે સંભાળો છો."],
@@ -403,6 +443,7 @@ const COPY: Readonly<Record<AppLocale, PricingExperienceCopy>> = {
     period: "/ મહિનો",
   },
   kn: {
+    regional: ["{country} ಗಾಗಿ ಬೆಲೆಗಳು", "ದೇಶ ಬದಲಿಸಿ", "ದೇಶ ಆಯ್ಕೆಮಾಡಿ", "ನಿಮ್ಮ ಬೆಲೆ ಲೋಡ್ ಆಗುತ್ತಿದೆ…", "ನಿಮ್ಮ ಬೆಲೆಯನ್ನು ಲೋಡ್ ಮಾಡಲು ಆಗಲಿಲ್ಲ.", "ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ", "ಅಂತಿಮ ಮೊತ್ತ ಮತ್ತು ಕರೆನ್ಸಿಯನ್ನು ಪಾವತಿ ಸಮಯದಲ್ಲಿ ದೃಢೀಕರಿಸಲಾಗುತ್ತದೆ.", "ಹೊಸ ಖರೀದಿಗಳನ್ನು ಸದ್ಯಕ್ಕೆ ನಿಲ್ಲಿಸಲಾಗಿದೆ.", "ಈ ದೇಶಕ್ಕೆ ಖರೀದಿಗಳು ಲಭ್ಯವಿಲ್ಲ.", "ದೇಶವನ್ನು ಉಳಿಸಲಾಗಲಿಲ್ಲ. ಈ ಭೇಟಿಯಲ್ಲಿ ನಿಮ್ಮ ಆಯ್ಕೆ ಅನ್ವಯಿಸುತ್ತದೆ."],
     heading: ["ಉಚಿತವಾಗಿ ಆರಂಭಿಸಿ", "ಹೆಚ್ಚಿನ ಸಾಧ್ಯತೆಗಳಿಗೆ ಜಾಗ"],
     labels: ["ಆರಂಭಿಸಲು", "ಹೆಚ್ಚು AI", "ನಿಮ್ಮ ಷರತ್ತುಗಳಲ್ಲಿ"],
     descriptions: ["ಪ್ರತಿದಿನ ಕಲಿಯುವ ಅಭ್ಯಾಸ ಬೆಳೆಸಿಕೊಳ್ಳಿ. ಕಾರ್ಡ್‌ಗಳನ್ನು ರಚಿಸಿ ಮತ್ತು ನಿಮ್ಮ ಎಲ್ಲ ಸಾಧನಗಳಲ್ಲಿ ರಿವ್ಯೂ ಮಾಡಿ.", "AIಯಿಂದ ಹೆಚ್ಚು ನೆರವು ಪಡೆಯಿರಿ. ಹೆಚ್ಚುವರಿ ಚಾಟ್ ಸಂದೇಶಗಳು ಮತ್ತು ನಿಮ್ಮ ಆಯ್ಕೆಯ ಅಕ್ಸೆಂಟ್ ಬಣ್ಣಗಳನ್ನು ಬಳಸಿ.", "ನಿಮ್ಮ ಸ್ವಂತ AWS ಖಾತೆಯಲ್ಲಿ Nibomo ಚಲಾಯಿಸಿ. ಹೋಸ್ಟಿಂಗ್ ಮತ್ತು AI ಸೇವಾ ಪೂರೈಕೆದಾರರ ವೆಚ್ಚವನ್ನು ನೀವೇ ನಿರ್ವಹಿಸುತ್ತೀರಿ."],
@@ -413,6 +454,7 @@ const COPY: Readonly<Record<AppLocale, PricingExperienceCopy>> = {
     period: "/ ತಿಂಗಳು",
   },
   ml: {
+    regional: ["{country} എന്ന രാജ്യത്തിനുള്ള വിലകൾ", "രാജ്യം മാറ്റുക", "രാജ്യം തിരഞ്ഞെടുക്കുക", "നിങ്ങളുടെ വില ലോഡ് ചെയ്യുന്നു…", "നിങ്ങളുടെ വില ലോഡ് ചെയ്യാനായില്ല.", "വീണ്ടും ശ്രമിക്കുക", "അവസാന തുകയും കറൻസിയും പണമടയ്ക്കുമ്പോൾ സ്ഥിരീകരിക്കും.", "പുതിയ വാങ്ങലുകൾ താൽക്കാലികമായി നിർത്തിയിരിക്കുന്നു.", "ഈ രാജ്യത്ത് വാങ്ങലുകൾ ലഭ്യമല്ല.", "രാജ്യം സേവ് ചെയ്യാനായില്ല. ഈ സന്ദർശനത്തിൽ നിങ്ങളുടെ തിരഞ്ഞെടുപ്പ് ബാധകമാണ്."],
     heading: ["സൗജന്യമായി തുടങ്ങൂ", "കൂടുതൽ സാധ്യതകൾക്ക് ഇടം"],
     labels: ["തുടങ്ങാൻ", "കൂടുതൽ AI", "നിങ്ങളുടെ നിബന്ധനകളിൽ"],
     descriptions: ["എല്ലാ ദിവസവും പഠിക്കുന്ന ശീലം വളർത്തൂ. കാർഡുകൾ സൃഷ്ടിച്ച് നിങ്ങളുടെ എല്ലാ ഉപകരണങ്ങളിലും റിവ്യൂ ചെയ്യൂ.", "AIയിൽ നിന്ന് കൂടുതൽ സഹായം നേടൂ. കൂടുതൽ ചാറ്റ് സന്ദേശങ്ങളും ഇഷ്ടാനുസൃത ആക്സന്റ് നിറങ്ങളും ഉപയോഗിക്കൂ.", "നിങ്ങളുടെ സ്വന്തം AWS അക്കൗണ്ടിൽ Nibomo പ്രവർത്തിപ്പിക്കൂ. ഹോസ്റ്റിംഗിന്റെയും AI സേവനദാതാക്കളുടെയും ചെലവ് നിങ്ങൾ നിയന്ത്രിക്കുന്നു."],
@@ -423,6 +465,7 @@ const COPY: Readonly<Record<AppLocale, PricingExperienceCopy>> = {
     period: "/ മാസം",
   },
   mr: {
+    regional: ["{country} साठी किंमती", "देश बदला", "देश निवडा", "तुमची किंमत लोड होत आहे…", "तुमची किंमत लोड करता आली नाही.", "पुन्हा प्रयत्न करा", "अंतिम रक्कम आणि चलनाची खात्री पेमेंटच्या वेळी होते.", "नवीन खरेदी सध्या थांबवली आहे.", "या देशासाठी खरेदी उपलब्ध नाही.", "देश जतन करता आला नाही. या भेटीत तुमची निवड लागू राहील."],
     heading: ["मोफत सुरुवात करा", "अधिक शक्यतांसाठी जागा"],
     labels: ["सुरुवातीसाठी", "अधिक AI", "तुमच्या अटींवर"],
     descriptions: ["दररोज शिकण्याची सवय लावा. कार्ड तयार करा आणि तुमच्या सर्व डिव्हाइसवर रिव्ह्यू करा.", "AIकडून अधिक मदत मिळवा. अधिक चॅट संदेश आणि आवडीचे अॅक्सेंट रंग वापरा.", "तुमच्या स्वतःच्या AWS खात्यावर Nibomo चालवा. होस्टिंग आणि AI सेवा पुरवठादारांचा खर्च तुम्ही सांभाळता."],
@@ -433,6 +476,7 @@ const COPY: Readonly<Record<AppLocale, PricingExperienceCopy>> = {
     period: "/ महिना",
   },
   pa: {
+    regional: ["{country} ਲਈ ਕੀਮਤਾਂ", "ਦੇਸ਼ ਬਦਲੋ", "ਦੇਸ਼ ਚੁਣੋ", "ਤੁਹਾਡੀ ਕੀਮਤ ਲੋਡ ਹੋ ਰਹੀ ਹੈ…", "ਤੁਹਾਡੀ ਕੀਮਤ ਲੋਡ ਨਹੀਂ ਹੋ ਸਕੀ।", "ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ", "ਅੰਤਿਮ ਰਕਮ ਅਤੇ ਮੁਦਰਾ ਦੀ ਪੁਸ਼ਟੀ ਭੁਗਤਾਨ ਵੇਲੇ ਹੁੰਦੀ ਹੈ।", "ਨਵੀਆਂ ਖਰੀਦਾਂ ਫਿਲਹਾਲ ਰੋਕੀਆਂ ਗਈਆਂ ਹਨ।", "ਇਸ ਦੇਸ਼ ਲਈ ਖਰੀਦਾਂ ਉਪਲਬਧ ਨਹੀਂ ਹਨ।", "ਦੇਸ਼ ਸੇਵ ਨਹੀਂ ਹੋ ਸਕਿਆ। ਇਸ ਫੇਰੀ ਵਿੱਚ ਤੁਹਾਡੀ ਚੋਣ ਲਾਗੂ ਰਹੇਗੀ।"],
     heading: ["ਮੁਫ਼ਤ ਸ਼ੁਰੂ ਕਰੋ", "ਹੋਰ ਸੰਭਾਵਨਾਵਾਂ ਲਈ ਥਾਂ"],
     labels: ["ਸ਼ੁਰੂਆਤ ਲਈ", "ਹੋਰ AI", "ਤੁਹਾਡੀਆਂ ਸ਼ਰਤਾਂ ’ਤੇ"],
     descriptions: ["ਹਰ ਰੋਜ਼ ਸਿੱਖਣ ਦੀ ਆਦਤ ਬਣਾਓ। ਕਾਰਡ ਬਣਾਓ ਅਤੇ ਆਪਣੇ ਸਾਰੇ ਡਿਵਾਈਸਾਂ ’ਤੇ ਰਿਵਿਊ ਕਰੋ।", "AI ਤੋਂ ਹੋਰ ਮਦਦ ਲਵੋ। ਵੱਧ ਚੈਟ ਸੁਨੇਹੇ ਅਤੇ ਆਪਣੀ ਪਸੰਦ ਦੇ ਐਕਸੈਂਟ ਰੰਗ ਵਰਤੋ।", "ਆਪਣੇ AWS ਖਾਤੇ ’ਤੇ Nibomo ਚਲਾਓ। ਹੋਸਟਿੰਗ ਅਤੇ AI ਸੇਵਾ ਪ੍ਰਦਾਤਾਵਾਂ ਦਾ ਖ਼ਰਚ ਤੁਸੀਂ ਸੰਭਾਲਦੇ ਹੋ।"],
@@ -443,6 +487,7 @@ const COPY: Readonly<Record<AppLocale, PricingExperienceCopy>> = {
     period: "/ ਮਹੀਨਾ",
   },
   ta: {
+    regional: ["{country} நாட்டுக்கான விலைகள்", "நாட்டை மாற்று", "நாட்டைத் தேர்ந்தெடு", "உங்கள் விலை ஏற்றப்படுகிறது…", "உங்கள் விலையை ஏற்ற முடியவில்லை.", "மீண்டும் முயல்க", "இறுதித் தொகையும் நாணயமும் கட்டணம் செலுத்தும்போது உறுதிப்படுத்தப்படும்.", "புதிய வாங்குதல்கள் தற்போது நிறுத்தப்பட்டுள்ளன.", "இந்த நாட்டில் வாங்க முடியாது.", "நாட்டைச் சேமிக்க முடியவில்லை. இந்த வருகையில் உங்கள் தேர்வு பொருந்தும்."],
     heading: ["இலவசமாகத் தொடங்குங்கள்", "மேலும் வாய்ப்புகளுக்கு இடம்"],
     labels: ["தொடங்குவதற்கு", "மேலும் AI", "உங்கள் விருப்பப்படி"],
     descriptions: ["தினமும் கற்கும் பழக்கத்தை உருவாக்குங்கள். கார்டுகளை உருவாக்கி உங்கள் எல்லாச் சாதனங்களிலும் ரிவ்யூ செய்யுங்கள்.", "AIயிடமிருந்து மேலும் உதவி பெறுங்கள். கூடுதல் அரட்டைச் செய்திகள் மற்றும் விருப்பமான சிறப்புநிறங்களைப் பயன்படுத்துங்கள்.", "உங்கள் சொந்த AWS கணக்கில் Nibomoவை இயக்குங்கள். ஹோஸ்டிங் மற்றும் AI சேவை வழங்குநர்களின் செலவை நீங்களே நிர்வகிக்கிறீர்கள்."],
@@ -453,6 +498,7 @@ const COPY: Readonly<Record<AppLocale, PricingExperienceCopy>> = {
     period: "/ மாதம்",
   },
   te: {
+    regional: ["{country} కోసం ధరలు", "దేశాన్ని మార్చండి", "దేశాన్ని ఎంచుకోండి", "మీ ధర లోడ్ అవుతోంది…", "మీ ధరను లోడ్ చేయలేకపోయాము.", "మళ్లీ ప్రయత్నించండి", "తుది మొత్తం మరియు కరెన్సీ చెల్లింపు సమయంలో నిర్ధారించబడతాయి.", "కొత్త కొనుగోళ్లు ప్రస్తుతం నిలిపివేయబడ్డాయి.", "ఈ దేశానికి కొనుగోళ్లు అందుబాటులో లేవు.", "దేశాన్ని సేవ్ చేయలేకపోయాము. ఈ సందర్శనలో మీ ఎంపిక అమలులో ఉంటుంది."],
     heading: ["ఉచితంగా ప్రారంభించండి", "మరిన్ని అవకాశాలకు చోటు"],
     labels: ["ప్రారంభించడానికి", "మరింత AI", "మీ నిబంధనలపై"],
     descriptions: ["ప్రతిరోజూ నేర్చుకునే అలవాటు చేసుకోండి. కార్డులు సృష్టించి మీ అన్ని పరికరాల్లో రివ్యూ చేయండి.", "AI నుంచి మరింత సహాయం పొందండి. అదనపు చాట్ సందేశాలు మరియు మీకు నచ్చిన యాక్సెంట్ రంగులను ఉపయోగించండి.", "మీ సొంత AWS ఖాతాలో Nibomoను నడపండి. హోస్టింగ్ మరియు AI సేవా ప్రదాతల ఖర్చులను మీరే నిర్వహిస్తారు."],
@@ -463,6 +509,7 @@ const COPY: Readonly<Record<AppLocale, PricingExperienceCopy>> = {
     period: "/ నెల",
   },
   ur: {
+    regional: ["{country} کے لیے قیمتیں", "ملک بدلیں", "ملک منتخب کریں", "آپ کی قیمت لوڈ ہو رہی ہے…", "آپ کی قیمت لوڈ نہیں ہو سکی۔", "دوبارہ کوشش کریں", "حتمی رقم اور کرنسی کی تصدیق ادائیگی کے وقت ہوتی ہے۔", "نئی خریداری فی الحال روک دی گئی ہے۔", "اس ملک کے لیے خریداری دستیاب نہیں ہے۔", "ملک محفوظ نہیں ہو سکا۔ اس دورے میں آپ کا انتخاب برقرار رہے گا۔"],
     heading: ["مفت شروع کریں", "مزید امکانات کے لیے جگہ"],
     labels: ["شروع کرنے کے لیے", "مزید AI", "آپ کی شرائط پر"],
     descriptions: ["ہر روز سیکھنے کی عادت بنائیں۔ کارڈ بنائیں اور اپنے تمام آلات پر ریویو کریں۔", "AI سے مزید مدد حاصل کریں۔ زیادہ چیٹ پیغامات اور اپنی پسند کے ایکسنٹ رنگ استعمال کریں۔", "اپنے AWS اکاؤنٹ پر Nibomo چلائیں۔ ہوسٹنگ اور AI سروس فراہم کرنے والوں کے اخراجات آپ سنبھالتے ہیں۔"],
@@ -473,6 +520,7 @@ const COPY: Readonly<Record<AppLocale, PricingExperienceCopy>> = {
     period: "/ مہینہ",
   },
   sw: {
+    regional: ["Bei za {country}", "Badilisha nchi", "Chagua nchi", "Inapakia bei yako…", "Bei yako haikuweza kupakiwa.", "Jaribu tena", "Kiasi cha mwisho na sarafu huthibitishwa wakati wa malipo.", "Ununuzi mpya umesitishwa kwa sasa.", "Ununuzi haupatikani kwa nchi hii.", "Nchi haikuweza kuhifadhiwa. Chaguo lako bado linatumika katika ziara hii."],
     heading: ["Anza bila malipo", "Nafasi kwa zaidi"],
     labels: ["Kwa kuanzia", "AI zaidi", "Kwa masharti yako"],
     descriptions: ["Jenga tabia ya kujifunza kila siku. Unda kadi na upitie kwenye vifaa vyako vyote.", "Pata msaada zaidi kutoka kwa AI. Tumia ujumbe zaidi wa mazungumzo na rangi za msisitizo unazochagua.", "Endesha Nibomo kwenye akaunti yako ya AWS. Unasimamia gharama za upangishaji na watoa huduma za AI."],
@@ -483,6 +531,7 @@ const COPY: Readonly<Record<AppLocale, PricingExperienceCopy>> = {
     period: "/ mwezi",
   },
   zu: {
+    regional: ["Amanani: {country}", "Shintsha izwe", "Khetha izwe", "Kulayishwa inani lakho…", "Inani lakho alikwazanga ukulayishwa.", "Zama futhi", "Isamba sokugcina nemali esetshenziswayo kuqinisekiswa lapho ukhokha.", "Ukuthenga okusha kumisiwe okwamanje.", "Ukuthenga akutholakali kuleli zwe.", "Izwe alikwazanga ukulondolozwa. Okukhethile kusasebenza kulokhu kuvakasha."],
     heading: ["Qala mahhala", "Yenza indawo yokuningi"],
     labels: ["Ukuze uqale", "I-AI eyengeziwe", "Ngokwemibandela yakho"],
     descriptions: ["Zijwayeze ukufunda nsuku zonke. Yakha amakhadi futhi ubuyekeze kuwo wonke amadivayisi akho.", "Thola usizo olwengeziwe lwe-AI. Sebenzisa imilayezo eyengeziwe nemibala yokugqamisa oyikhethayo.", "Sebenzisa i-Nibomo ku-akhawunti yakho ye-AWS. Uwena ophethe izindleko zokusingathwa nezabahlinzeki be-AI."],
@@ -493,6 +542,7 @@ const COPY: Readonly<Record<AppLocale, PricingExperienceCopy>> = {
     period: "/ inyanga",
   },
   th: {
+    regional: ["ราคาสำหรับ {country}", "เปลี่ยนประเทศ", "เลือกประเทศ", "กำลังโหลดราคาของคุณ…", "ไม่สามารถโหลดราคาของคุณได้", "ลองอีกครั้ง", "ยอดเงินสุดท้ายและสกุลเงินจะได้รับการยืนยันเมื่อชำระเงิน", "ขณะนี้ระงับการซื้อใหม่ชั่วคราว", "ไม่สามารถซื้อได้ในประเทศนี้", "ไม่สามารถบันทึกประเทศได้ ตัวเลือกของคุณยังใช้ได้ในการเข้าชมครั้งนี้"],
     heading: ["เริ่มใช้ฟรี", "เพิ่มพื้นที่ให้ความเป็นไปได้"],
     labels: ["สำหรับเริ่มต้น", "AI เพิ่มเติม", "ในแบบของคุณ"],
     descriptions: ["สร้างนิสัยเรียนรู้ทุกวัน สร้างการ์ดและทบทวนบนอุปกรณ์ทุกเครื่องของคุณ", "รับความช่วยเหลือจาก AI ได้มากขึ้น ใช้ข้อความแชตเพิ่มเติมและสีเน้นที่ปรับแต่งได้", "ใช้งาน Nibomo บนบัญชี AWS ของคุณ คุณจัดการค่าโฮสติ้งและค่าบริการ AI เอง"],

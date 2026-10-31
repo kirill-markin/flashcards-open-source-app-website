@@ -13,14 +13,16 @@ interface AuthButtonProps {
   readonly locale: AppLocale;
   readonly placement: AppEntryPlacement;
   readonly label: string;
+  readonly pricingCountry?: string;
 }
 
 export const AuthButton: React.FC<AuthButtonProps> = ({
   locale,
   placement,
   label,
+  pricingCountry,
 }) => {
-  const href = getAppUrl("/", locale);
+  const href = getAppUrl("/", locale, pricingCountry);
   const handleOpenAppClick = (): void => {
     trackAppEntryClick("open_app", locale, placement, href);
   };

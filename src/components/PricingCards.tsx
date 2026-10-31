@@ -1,4 +1,5 @@
 import { AuthButton } from "./AuthButton";
+import { RegionalPremiumOffer } from "./RegionalPremiumOffer";
 import { MarketingHeading, getMarketingHeadingBadge } from "./MarketingHeading";
 import { TrackedSelfHostCtaLink } from "./TrackedSelfHostCtaLink";
 import type { AppLocale } from "@/lib/i18n";
@@ -16,15 +17,19 @@ function PlanCard({ card, locale }: { readonly card: PricingCard; readonly local
         <h2>{formatHeadingText(card.tier.name)}</h2>
         <span className={premium ? styles.badge : styles.smallLabel}>{card.label}</span>
       </div>
-      <p className={styles.price}><strong><bdi>{card.amount}</bdi></strong>{card.period !== null && <span>{card.period}</span>}</p>
-      <p className={styles.planDescription}>{card.description}</p>
-      <div className={`${styles.action} ${premium ? "" : styles.subtleAction}`}>
-        {card.tier.type === "auth_tier" ? (
-          <AuthButton locale={locale} placement="pricing" label={card.actionLabel} />
-        ) : (
-          <TrackedSelfHostCtaLink locale={locale} className={styles.repositoryButton} href={card.tier.cta.href} label={card.actionLabel} />
-        )}
-      </div>
+      {premium ? <RegionalPremiumOffer locale={locale} copy={getPricingExperienceCopy(locale)} standardPrice={card.tier.price} actionLabel={card.actionLabel}>
+        <p className={styles.planDescription}>{getPricingExperienceCopy(locale).descriptions[1]}</p>
+      </RegionalPremiumOffer> : <>
+        <p className={styles.price}><strong><bdi>{card.amount}</bdi></strong>{card.period !== null && <span>{card.period}</span>}</p>
+        <p className={styles.planDescription}>{card.description}</p>
+        <div className={`${styles.action} ${premium ? "" : styles.subtleAction}`}>
+          {card.tier.type === "auth_tier" ? (
+            <AuthButton locale={locale} placement="pricing" label={card.actionLabel} />
+          ) : (
+            <TrackedSelfHostCtaLink locale={locale} className={styles.repositoryButton} href={card.tier.cta.href} label={card.actionLabel} />
+          )}
+        </div>
+      </>}
       <ul className={styles.features}>
         {card.features.map(feature => <li key={feature}><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="m4 10 4 4 8-8" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" /></svg><span>{feature}</span></li>)}
       </ul>
