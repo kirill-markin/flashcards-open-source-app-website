@@ -1186,6 +1186,21 @@
     }
   },
   {
+    "publicPath": "/blog/fischer-projection-r-s-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/38955d641d87fe36cfb0e3769885efa54f1fcfb1d40e8fb09e3ea00fc38e22f1.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "38955d641d87fe36cfb0e3769885efa54f1fcfb1d40e8fb09e3ea00fc38e22f1",
+    "bytes": 166940,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/8fef148d5a6bb6cf7689e2e84175de50240c2f156bece65214d1d4d826079301.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "8fef148d5a6bb6cf7689e2e84175de50240c2f156bece65214d1d4d826079301",
+      "bytes": 2290257
+    }
+  },
+  {
     "publicPath": "/blog/flashcard-lab-review.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/c81a20b091aa5795138e58f9fdeb50591b0a685ca1a110cf27bd95f1ee3ab570.png",
     "width": 1200,
