@@ -40,7 +40,7 @@ Uma ugunyaza iklayenti le-AI langaphandle ukuthi lisebenzise isevisi ye-MCP noma
 
 ## Ukubhalisela nge-Stripe
 
-Lapho ukukhokha nge-Stripe kutholakala, i-Nibomo Premium inikezwa ngentengo eyisisekelo ye-USD 6.99 ngenyanga, kuhlanganise nentela esebenzayo. I-Amanani angahluka ngezwe noma ngesitolo. Stripe Adaptive Pricing ingabonisa intengo ngohlobo lwemali lwasendaweni; i-Stripe ibonisa inani lokugcina nohlobo lwemali yokukhokha ngaphambi kokuthi uqinisekise. Ukuze uthenge, kufanele ungene ku-akhawunti enekheli le-imeyili; izivakashi kufanele ziqale zixhumanise i-imeyili.
+Lapho ukukhokha nge-Stripe kutholakala, i-Nibomo Premium inikezwa ngentengo eyisisekelo ye-USD 6.99 ngenyanga, kuhlanganise nentela esebenzayo. Amanani angahluka ngezwe noma ngesitolo. I-Stripe Adaptive Pricing ingabonisa intengo ngohlobo lwemali lwasendaweni; i-Stripe ibonisa inani lokugcina nohlobo lwemali yokukhokha ngaphambi kokuthi uqinisekise. Ukuze uthenge, kufanele ungene ku-akhawunti enekheli le-imeyili; izivakashi kufanele ziqale zixhumanise i-imeyili.
 
 Amakhasimende e-Stripe afanelekayo athola isikhathi sokuzama samahhala sezinsuku eziyisikhombisa, esidinga ukuthi ufake indlela yokukhokha. Isikhathi sokuzama sitholakala kanye kuphela ekhasimendeni ngalinye le-Stripe; izikhathi zokuzama zangaphambilini ze-Apple noma ze-Google azithinti ukufaneleka. Uma ungakhanseli ngaphambi kokuba isikhathi sokuzama siphele, indlela yakho yokukhokha izokhokhiswa imali yokubhalisela kwanyanga zonke. Ngemva kwalokho ukubhalisela kuzivuselela ngokuzenzakalela inyanga ngayinye kuze kukhanselwe. Izikhumbuzo zesikhathi sokuzama zisho intengo eyisisekelo yanyanga zonke; i-Stripe ibonisa inkokhelo yokugcina ngohlobo lwemali yokukhokha.
 
