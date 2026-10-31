@@ -2486,6 +2486,21 @@
     "bytes": 2348358
   },
   {
+    "publicPath": "/blog/mochi-move-cards-between-decks.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/1ddf88e64d6d1b16be0576a95dcb21d1ec1d3220974665c65a86eed6d3087550.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "1ddf88e64d6d1b16be0576a95dcb21d1ec1d3220974665c65a86eed6d3087550",
+    "bytes": 171946,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/f980b0a1412678e9d6444ba3f8e8f4bc2eaa9eed77d7c4bd8efdcaf59cb12b9b.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "f980b0a1412678e9d6444ba3f8e8f4bc2eaa9eed77d7c4bd8efdcaf59cb12b9b",
+      "bytes": 2156641
+    }
+  },
+  {
     "publicPath": "/blog/mochi-reverse-cards.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/7f963d606a441c9616f7583b0471c6f3da61ffc43f3641186afcb2607a51160f.png",
     "width": 1536,
