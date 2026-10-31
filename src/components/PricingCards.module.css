@@ -44,3 +44,11 @@
   .threeCards { grid-template-columns: minmax(0, 1fr); grid-template-rows: none; row-gap: 18px; }
   .planCard { display: flex; flex-direction: column; grid-row: auto; }
 }
+
+.regionalPrice { display: grid; align-content: start; gap: 10px; margin-block: 20px 16px; color: var(--text-secondary); font-size: 14px; line-height: 1.5; }
+.standardPrice { font-size: 12px; color: var(--text-tertiary); }
+.regionalPrice .price { margin-block: 0 8px; color: var(--text); }
+.regionalPrice button { color: var(--accent); text-decoration: underline; cursor: pointer; }
+.countrySelector { display: grid; gap: 4px; }
+.countrySelector select { inline-size: 100%; min-block-size: 44px; padding: 8px; border: 1px solid var(--border-strong); border-radius: 8px; color: var(--text); background: var(--surface); font: inherit; }
+.countrySelector select:focus-visible, .regionalPrice button:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
