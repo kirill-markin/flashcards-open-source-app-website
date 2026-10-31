@@ -3,7 +3,7 @@ import type { PageContent } from "@/lib/content/types";
 export const PRICING_PAGE_CONTENT: PageContent = {
   title: "Gratis untuk memulai. Premium untuk lebih banyak AI.",
   description:
-    "Mulai gratis di aplikasi terkelola, tingkatkan ke Premium seharga USD 6.99/bulan untuk lebih banyak obrolan AI, atau jalankan stack open source-nya di infrastruktur AWS Anda sendiri.",
+    "Premium — Harga web standar: USD 6.99/bulan. Harga web standar termasuk pajak. Penawaran regional dan toko dapat berbeda; harga akhir ditampilkan sebelum pembelian.",
   slug: "pricing",
   sections: [
     {
@@ -33,7 +33,7 @@ export const PRICING_PAGE_CONTENT: PageContent = {
         {
           type: "auth_tier",
           name: "Premium",
-          price: "$6.99/bulan",
+          price: "Harga web standar: USD 6.99/bulan",
           highlighted: false,
           bullets: [
             "Uji coba gratis 7 hari untuk pelanggan baru yang memenuhi syarat; metode pembayaran wajib disertakan",
@@ -41,7 +41,7 @@ export const PRICING_PAGE_CONTENT: PageContent = {
             "Warna aksen khusus",
             "Semua yang ada di paket Gratis",
             "Satu langganan untuk akun Anda di web, iOS, dan Android",
-            "Harga dalam USD sudah termasuk pajak; halaman pembayaran mungkin menampilkan harga dalam mata uang lokal",
+            "Harga web standar termasuk pajak. Penawaran regional dan toko dapat berbeda; harga akhir ditampilkan sebelum pembelian.",
             "Diperpanjang setiap bulan; batalkan kapan saja dan akses tetap berlaku hingga akhir periode",
           ],
           cta: {

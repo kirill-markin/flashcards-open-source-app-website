@@ -3,7 +3,7 @@ import type { PageContent } from "@/lib/content/types";
 export const PRICING_PAGE_CONTENT: PageContent = {
   title: "Zacznij za darmo. Więcej AI w Premium.",
   description:
-    "Zacznij za darmo w hostowanej aplikacji, przejdź na Premium za USD 6.99 miesięcznie, aby mieć więcej wiadomości na czacie AI, albo uruchom otwarty stack na własnej infrastrukturze AWS.",
+    "Premium — Standardowa cena w wersji webowej: USD 6.99/mies. Standardowa cena w wersji webowej zawiera podatki. Oferty regionalne i oferty w sklepach mogą się różnić; ostateczna cena jest wyświetlana przed zakupem.",
   slug: "pricing",
   sections: [
     {
@@ -33,7 +33,7 @@ export const PRICING_PAGE_CONTENT: PageContent = {
         {
           type: "auth_tier",
           name: "Premium",
-          price: "$6.99/mies.",
+          price: "Standardowa cena w wersji webowej: USD 6.99/mies.",
           highlighted: false,
           bullets: [
             "7-dniowy bezpłatny okres próbny dla uprawnionych nowych subskrybentów; wymagana metoda płatności",
@@ -41,7 +41,7 @@ export const PRICING_PAGE_CONTENT: PageContent = {
             "Własne kolory akcentu",
             "Wszystko, co w planie Darmowym",
             "Jedna subskrypcja dla konta w wersji webowej, na iOS i Androidzie",
-            "Cena w USD z wliczonymi podatkami; przy płatności może pojawić się cena w lokalnej walucie",
+            "Standardowa cena w wersji webowej zawiera podatki. Oferty regionalne i oferty w sklepach mogą się różnić; ostateczna cena jest wyświetlana przed zakupem.",
             "Odnawia się co miesiąc; anuluj w dowolnym momencie i zachowaj dostęp do końca okresu",
           ],
           cta: {

@@ -3,7 +3,7 @@ import type { PageContent } from "@/lib/content/types";
 export const PRICING_PAGE_CONTENT: PageContent = {
   title: "Sāc bez maksas. Vairāk MI ar Premium.",
   description:
-    "Sāc bez maksas mitinātajā lietotnē, pārej uz Premium par USD 6.99/mēnesī, lai iegūtu vairāk MI sarunu, vai darbini atvērtā pirmkoda sistēmu savā AWS infrastruktūrā.",
+    "Premium — Standarta cena tīmeklī: USD 6.99/mēnesī. Standarta cenā tīmeklī ir iekļauti nodokļi. Reģionālie un lietotņu veikalu piedāvājumi var atšķirties; galīgā cena tiek parādīta pirms pirkuma.",
   slug: "pricing",
   sections: [
     {
@@ -33,7 +33,7 @@ export const PRICING_PAGE_CONTENT: PageContent = {
         {
           type: "auth_tier",
           name: "Premium",
-          price: "$6.99/mēnesī",
+          price: "Standarta cena tīmeklī: USD 6.99/mēnesī",
           highlighted: false,
           bullets: [
             "7 dienu bezmaksas izmēģinājums jauniem abonentiem, kas atbilst nosacījumiem; nepieciešams maksāšanas veids",
@@ -41,7 +41,7 @@ export const PRICING_PAGE_CONTENT: PageContent = {
             "Pielāgotas akcenta krāsas",
             "Viss, kas ir plānā „Bezmaksas“",
             "Viens abonements tavam kontam tīmeklī, iOS un Android",
-            "Cena ASV dolāros ar iekļautiem nodokļiem; norēķinoties var tikt parādīta cena vietējā valūtā",
+            "Standarta cenā tīmeklī ir iekļauti nodokļi. Reģionālie un lietotņu veikalu piedāvājumi var atšķirties; galīgā cena tiek parādīta pirms pirkuma.",
             "Abonements tiek atjaunots katru mēnesi; atcel jebkurā laikā, un piekļuve saglabājas līdz perioda beigām",
           ],
           cta: {

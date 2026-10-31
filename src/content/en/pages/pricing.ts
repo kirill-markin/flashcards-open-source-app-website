@@ -3,7 +3,7 @@ import type { PageContent } from "@/lib/content/types";
 export const PRICING_PAGE_CONTENT: PageContent = {
   title: "Free to start. Premium for more AI.",
   description:
-    "Start free on the hosted app, upgrade to Premium for USD 6.99/month for more AI chat, or self-host the open-source stack on your own AWS infrastructure.",
+    "Premium — Standard web price: USD 6.99/month. The standard web price includes taxes. Regional and store offers may differ; the final price is shown before purchase.",
   slug: "pricing",
   sections: [
     {
@@ -33,7 +33,7 @@ export const PRICING_PAGE_CONTENT: PageContent = {
         {
           type: "auth_tier",
           name: "Premium",
-          price: "$6.99/month",
+          price: "Standard web price: USD 6.99/month",
           highlighted: false,
           bullets: [
             "7-day free trial for eligible new subscribers; payment method required",
@@ -41,7 +41,7 @@ export const PRICING_PAGE_CONTENT: PageContent = {
             "Custom accent colors",
             "Everything in Free",
             "One subscription for your account on web, iOS, and Android",
-            "Priced in USD with taxes included; checkout may show a local-currency price",
+            "The standard web price includes taxes. Regional and store offers may differ; the final price is shown before purchase.",
             "Renews monthly; cancel any time and keep access until the end of the period",
           ],
           cta: {

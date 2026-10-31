@@ -3,7 +3,7 @@ import type { PageContent } from "@/lib/content/types";
 export const PRICING_PAGE_CONTENT: PageContent = {
   title: "Začnite brezplačno. Premium za več AI.",
   description:
-    "Začnite brezplačno v gostovani aplikaciji, za več klepeta z AI preidite na Premium za USD 6.99 na mesec ali pa odprtokodni sistem gostite na lastni infrastrukturi AWS.",
+    "Premium — Standardna spletna cena: USD 6.99/mesec. Standardna spletna cena vključuje davke. Regionalne ponudbe in ponudbe trgovin se lahko razlikujejo; končna cena je prikazana pred nakupom.",
   slug: "pricing",
   sections: [
     {
@@ -33,7 +33,7 @@ export const PRICING_PAGE_CONTENT: PageContent = {
         {
           type: "auth_tier",
           name: "Premium",
-          price: "$6.99/mesec",
+          price: "Standardna spletna cena: USD 6.99/mesec",
           highlighted: false,
           bullets: [
             "7-dnevno brezplačno preizkusno obdobje za upravičene nove naročnike; potreben je način plačila",
@@ -41,7 +41,7 @@ export const PRICING_PAGE_CONTENT: PageContent = {
             "Barve poudarka po meri",
             "Vse iz brezplačnega paketa",
             "Ena naročnina za vaš račun v spletu, iOS-u in Androidu",
-            "Cena v USD z vključenimi davki; ob plačilu je lahko prikazana cena v lokalni valuti",
+            "Standardna spletna cena vključuje davke. Regionalne ponudbe in ponudbe trgovin se lahko razlikujejo; končna cena je prikazana pred nakupom.",
             "Naročnina se obnavlja mesečno; prekličete jo lahko kadar koli, dostop pa ohranite do konca obdobja",
           ],
           cta: {

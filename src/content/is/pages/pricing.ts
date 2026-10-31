@@ -3,7 +3,7 @@ import type { PageContent } from "@/lib/content/types";
 export const PRICING_PAGE_CONTENT: PageContent = {
   title: "Ókeypis til að byrja. Premium fyrir meiri gervigreind.",
   description:
-    "Byrjaðu ókeypis í hýstu útgáfunni, uppfærðu í Premium fyrir USD 6.99 á mánuði og fáðu meira gervigreindarspjall, eða hýstu opna hugbúnaðinn á eigin AWS-innviðum.",
+    "Premium — Staðlað vefverð: USD 6.99/mán. Staðlað vefverð er með sköttum. Svæðisbundin tilboð og tilboð í forritaverslunum geta verið mismunandi; lokaverð birtist fyrir kaup.",
   slug: "pricing",
   sections: [
     {
@@ -33,7 +33,7 @@ export const PRICING_PAGE_CONTENT: PageContent = {
         {
           type: "auth_tier",
           name: "Premium",
-          price: "$6.99/mán.",
+          price: "Staðlað vefverð: USD 6.99/mán.",
           highlighted: false,
           bullets: [
             "7 daga ókeypis prufa fyrir nýja áskrifendur sem uppfylla skilyrði; greiðslumáti er nauðsynlegur",
@@ -41,7 +41,7 @@ export const PRICING_PAGE_CONTENT: PageContent = {
             "Sérsniðnir áherslulitir",
             "Allt sem er innifalið í ókeypis leiðinni",
             "Ein áskrift fyrir aðganginn þinn á vefnum, iOS og Android",
-            "Verð í USD, skattar innifaldir; við greiðslu getur verð birst í staðbundnum gjaldmiðli",
+            "Staðlað vefverð er með sköttum. Svæðisbundin tilboð og tilboð í forritaverslunum geta verið mismunandi; lokaverð birtist fyrir kaup.",
             "Endurnýjast mánaðarlega; segðu upp hvenær sem er og haltu aðgangi til loka tímabilsins",
           ],
           cta: {

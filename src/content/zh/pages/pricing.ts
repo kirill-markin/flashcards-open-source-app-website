@@ -3,7 +3,7 @@ import type { PageContent } from "@/lib/content/types";
 export const PRICING_PAGE_CONTENT: PageContent = {
   title: "免费开始，升级 Premium 获得更多 AI。",
   description:
-    "在托管应用上免费开始；每月 USD 6.99 升级到 Premium，获得更多 AI 聊天；或在自己的 AWS 基础设施上自行托管开源技术栈。",
+    "Premium — Web 标准价格: USD 6.99/月. Web 标准价格包含税费。地区和应用商店的优惠可能有所不同；最终价格会在购买前显示。",
   slug: "pricing",
   sections: [
     {
@@ -33,7 +33,7 @@ export const PRICING_PAGE_CONTENT: PageContent = {
         {
           type: "auth_tier",
           name: "Premium",
-          price: "$6.99/月",
+          price: "Web 标准价格: USD 6.99/月",
           highlighted: false,
           bullets: [
             "符合条件的新订阅用户可享 7 天免费试用；需要提供付款方式",
@@ -41,7 +41,7 @@ export const PRICING_PAGE_CONTENT: PageContent = {
             "自定义强调色",
             "包含免费版的全部功能",
             "你的账户在 Web、iOS 和 Android 上共用一份订阅",
-            "以美元计价，包含税费；结账时可能显示当地货币价格",
+            "Web 标准价格包含税费。地区和应用商店的优惠可能有所不同；最终价格会在购买前显示。",
             "按月续订；可随时取消，访问权限保留至当期结束",
           ],
           cta: {

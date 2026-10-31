@@ -3,7 +3,7 @@ import type { PageContent } from "@/lib/content/types";
 export const PRICING_PAGE_CONTENT: PageContent = {
   title: "Pradėkite nemokamai. Daugiau DI – su Premium.",
   description:
-    "Pradėkite nemokamai mūsų talpinamoje programėlėje, už USD 6.99/mėn. pereikite prie Premium ir gaukite daugiau DI pokalbių arba talpinkite atvirojo kodo sprendimą savo AWS infrastruktūroje.",
+    "Premium — Standartinė kaina žiniatinklyje: USD 6.99/mėn. Į standartinę kainą žiniatinklyje įskaičiuoti mokesčiai. Regioniniai ir programėlių parduotuvių pasiūlymai gali skirtis; galutinė kaina rodoma prieš perkant.",
   slug: "pricing",
   sections: [
     {
@@ -33,7 +33,7 @@ export const PRICING_PAGE_CONTENT: PageContent = {
         {
           type: "auth_tier",
           name: "Premium",
-          price: "$6.99/mėn.",
+          price: "Standartinė kaina žiniatinklyje: USD 6.99/mėn.",
           highlighted: false,
           bullets: [
             "7 dienų nemokamas bandomasis laikotarpis reikalavimus atitinkantiems naujiems prenumeratoriams; reikalingas mokėjimo būdas",
@@ -41,7 +41,7 @@ export const PRICING_PAGE_CONTENT: PageContent = {
             "Pasirinktinės akcento spalvos",
             "Viskas, kas įeina į planą „Nemokamas“",
             "Viena prenumerata jūsų paskyrai naršyklėje, iOS ir Android",
-            "Kaina nurodyta JAV doleriais su įskaičiuotais mokesčiais; atsiskaitant kaina gali būti rodoma vietine valiuta",
+            "Į standartinę kainą žiniatinklyje įskaičiuoti mokesčiai. Regioniniai ir programėlių parduotuvių pasiūlymai gali skirtis; galutinė kaina rodoma prieš perkant.",
             "Pratęsiama kas mėnesį; atšaukite bet kada, o prieiga išliks iki laikotarpio pabaigos",
           ],
           cta: {

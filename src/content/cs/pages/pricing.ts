@@ -3,7 +3,7 @@ import type { PageContent } from "@/lib/content/types";
 export const PRICING_PAGE_CONTENT: PageContent = {
   title: "Začněte zdarma. Premium pro víc AI.",
   description:
-    "Začněte zdarma v hostované aplikaci, přejděte na Premium za USD 6.99 měsíčně a získejte víc AI chatu, nebo si otevřený systém hostujte na vlastní infrastruktuře AWS.",
+    "Premium — Standardní cena na webu: USD 6.99/měsíc. Standardní cena na webu zahrnuje daně. Regionální nabídky a nabídky obchodů se mohou lišit; konečná cena se zobrazí před nákupem.",
   slug: "pricing",
   sections: [
     {
@@ -33,7 +33,7 @@ export const PRICING_PAGE_CONTENT: PageContent = {
         {
           type: "auth_tier",
           name: "Premium",
-          price: "$6.99/měsíc",
+          price: "Standardní cena na webu: USD 6.99/měsíc",
           highlighted: false,
           bullets: [
             "7denní zkušební období zdarma pro nové předplatitele, kteří splňují podmínky; je vyžadována platební metoda",
@@ -41,7 +41,7 @@ export const PRICING_PAGE_CONTENT: PageContent = {
             "Vlastní barvy zvýraznění",
             "Vše z tarifu Zdarma",
             "Jedno předplatné pro váš účet na webu, v iOS i Androidu",
-            "Cena v USD včetně daní; při platbě se může zobrazit cena v místní měně",
+            "Standardní cena na webu zahrnuje daně. Regionální nabídky a nabídky obchodů se mohou lišit; konečná cena se zobrazí před nákupem.",
             "Obnovuje se měsíčně; zrušit ho můžete kdykoli a přístup vám zůstane do konce období",
           ],
           cta: {

@@ -3,7 +3,7 @@ import type { PageContent } from "@/lib/content/types";
 export const PRICING_PAGE_CONTENT: PageContent = {
   title: "시작은 무료. 더 많은 AI는 Premium.",
   description:
-    "호스팅 앱을 무료로 시작하고, 월 USD 6.99의 Premium으로 업그레이드해 AI 채팅을 더 많이 쓰거나, 오픈 소스 스택을 직접 운영하는 AWS 인프라에 셀프 호스팅하세요.",
+    "Premium — 웹 표준 가격: USD 6.99/월. 웹 표준 가격에는 세금이 포함됩니다. 지역 및 스토어별 혜택은 다를 수 있으며, 최종 가격은 구매 전에 표시됩니다.",
   slug: "pricing",
   sections: [
     {
@@ -33,7 +33,7 @@ export const PRICING_PAGE_CONTENT: PageContent = {
         {
           type: "auth_tier",
           name: "Premium",
-          price: "$6.99/월",
+          price: "웹 표준 가격: USD 6.99/월",
           highlighted: false,
           bullets: [
             "조건을 충족하는 신규 구독자에게 7일 무료 체험 제공. 결제 수단 등록 필요",
@@ -41,7 +41,7 @@ export const PRICING_PAGE_CONTENT: PageContent = {
             "사용자 지정 강조 색상",
             "무료 요금제의 모든 기능",
             "웹, iOS, Android 어디서나 계정 하나에 구독 하나",
-            "USD 기준 세금 포함 가격. 결제 시 현지 통화 가격이 표시될 수 있습니다",
+            "웹 표준 가격에는 세금이 포함됩니다. 지역 및 스토어별 혜택은 다를 수 있으며, 최종 가격은 구매 전에 표시됩니다.",
             "매월 갱신. 언제든 취소할 수 있으며 기간이 끝날 때까지 이용 가능",
           ],
           cta: {

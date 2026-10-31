@@ -3,7 +3,7 @@ import type { PageContent } from "@/lib/content/types";
 export const PRICING_PAGE_CONTENT: PageContent = {
   title: "Gratis at komme i gang. Premium for mere AI.",
   description:
-    "Kom gratis i gang med den hostede app, opgrader til Premium til USD 6.99 om måneden, og få mere AI-chat, eller selvhost open source-stakken på din egen AWS-infrastruktur.",
+    "Premium — Standardpris på nettet: USD 6.99/måned. Standardprisen på nettet er inklusive skatter og afgifter. Regionale tilbud og butikstilbud kan variere; den endelige pris vises før køb.",
   slug: "pricing",
   sections: [
     {
@@ -33,7 +33,7 @@ export const PRICING_PAGE_CONTENT: PageContent = {
         {
           type: "auth_tier",
           name: "Premium",
-          price: "$6.99/måned",
+          price: "Standardpris på nettet: USD 6.99/måned",
           highlighted: false,
           bullets: [
             "7 dages gratis prøveperiode for nye abonnenter, der opfylder betingelserne; betalingsmetode påkrævet",
@@ -41,7 +41,7 @@ export const PRICING_PAGE_CONTENT: PageContent = {
             "Tilpassede accentfarver",
             "Alt i Gratis",
             "Ét abonnement til din konto på web, iOS og Android",
-            "Prissat i USD inkl. skatter og afgifter; ved betalingen kan prisen blive vist i lokal valuta",
+            "Standardprisen på nettet er inklusive skatter og afgifter. Regionale tilbud og butikstilbud kan variere; den endelige pris vises før køb.",
             "Fornyes hver måned; du kan opsige når som helst og beholder adgangen til periodens udløb",
           ],
           cta: {

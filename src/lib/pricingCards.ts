@@ -39,7 +39,7 @@ export function getPricingCards(section: PricingTiersSection, locale: AppLocale)
         : [requireBullet(free, 0, locale), requireBullet(free, 2, locale), copy.ownApiKey],
     },
     {
-      kind: "premium", tier: premium, label: copy.labels[1], description: copy.descriptions[1],
+      kind: "premium", tier: premium, label: copy.labels[1], description: `${premium.price} · ${copy.descriptions[1]}`,
       amount: new Intl.NumberFormat(locale, { style: "currency", currency: "USD" }).format(6.99),
       period: copy.period, actionLabel: getUiCopy(locale).auth.openApp,
       features: [locale === "en" ? "1,000 AI chat messages / month" : requireBullet(premium, 1, locale), requireBullet(premium, 3, locale), requireBullet(premium, 2, locale)],
@@ -56,7 +56,7 @@ export function getPricingCards(section: PricingTiersSection, locale: AppLocale)
 export function getPricingTerms(section: PricingTiersSection, locale: AppLocale): string {
   const [, premium, selfHosted] = getPricingCards(section, locale);
   if (locale === "en") {
-    return "Free needs no credit card. Premium: 7-day trial for eligible new subscribers; payment method required. USD, taxes included. Renews monthly; cancel any time. Self-hosting: you pay hosting and AI costs.";
+    return `Free needs no credit card. Premium: 7-day trial for eligible new subscribers; payment method required. ${requireBullet(premium.tier, 5, locale)} Renews monthly; cancel any time. Self-hosting: you pay hosting and AI costs.`;
   }
   return [
     requireBullet(premium.tier, 0, locale),

@@ -3,7 +3,7 @@ import type { PageContent } from "@/lib/content/types";
 export const PRICING_PAGE_CONTENT: PageContent = {
   title: "Anza bila malipo. Premium kwa AI zaidi.",
   description:
-    "Anza bila malipo kwenye programu iliyopangishwa, pandisha hadi Premium kwa USD 6.99 kwa mwezi upate gumzo zaidi la AI, au jipangie mwenyewe mrundikano wa chanzo huria kwenye miundombinu yako ya AWS.",
+    "Premium — Bei ya kawaida ya wavuti: USD 6.99/mwezi. Bei ya kawaida ya wavuti inajumuisha kodi. Ofa za kikanda na za maduka zinaweza kutofautiana; bei ya mwisho huonyeshwa kabla ya kununua.",
   slug: "pricing",
   sections: [
     {
@@ -33,7 +33,7 @@ export const PRICING_PAGE_CONTENT: PageContent = {
         {
           type: "auth_tier",
           name: "Premium",
-          price: "$6.99/mwezi",
+          price: "Bei ya kawaida ya wavuti: USD 6.99/mwezi",
           highlighted: false,
           bullets: [
             "Majaribio ya siku 7 bila malipo kwa wanaojisajili wapya wanaostahiki; njia ya malipo inahitajika",
@@ -41,7 +41,7 @@ export const PRICING_PAGE_CONTENT: PageContent = {
             "Rangi maalumu za msisitizo",
             "Kila kitu kilicho kwenye mpango wa Bila malipo",
             "Usajili mmoja kwa akaunti yako kwenye wavuti, iOS na Android",
-            "Bei iko katika USD ikijumuisha kodi; wakati wa kulipa unaweza kuona bei kwa sarafu ya nchi yako",
+            "Bei ya kawaida ya wavuti inajumuisha kodi. Ofa za kikanda na za maduka zinaweza kutofautiana; bei ya mwisho huonyeshwa kabla ya kununua.",
             "Hujisasisha kila mwezi; ghairi wakati wowote na uendelee kuwa na ufikiaji hadi mwisho wa kipindi",
           ],
           cta: {

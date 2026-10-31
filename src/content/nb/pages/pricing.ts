@@ -3,7 +3,7 @@ import type { PageContent } from "@/lib/content/types";
 export const PRICING_PAGE_CONTENT: PageContent = {
   title: "Kom i gang gratis. Mer KI med Premium.",
   description:
-    "Start gratis i den hostede appen, oppgrader til Premium til USD 6.99/mnd. for mer KI-chat, eller selvhost stakken med åpen kildekode på din egen AWS-infrastruktur.",
+    "Premium — Standardpris på nettet: USD 6.99/mnd. Standardprisen på nettet inkluderer skatter og avgifter. Regionale tilbud og butikktilbud kan variere; den endelige prisen vises før kjøp.",
   slug: "pricing",
   sections: [
     {
@@ -33,7 +33,7 @@ export const PRICING_PAGE_CONTENT: PageContent = {
         {
           type: "auth_tier",
           name: "Premium",
-          price: "$6.99/mnd.",
+          price: "Standardpris på nettet: USD 6.99/mnd.",
           highlighted: false,
           bullets: [
             "7 dagers gratis prøveperiode for kvalifiserte nye abonnenter; betalingsmåte kreves",
@@ -41,7 +41,7 @@ export const PRICING_PAGE_CONTENT: PageContent = {
             "Egendefinerte aksentfarger",
             "Alt i Gratis",
             "Ett abonnement for kontoen din på web, iOS og Android",
-            "Pris i USD inkludert skatter og avgifter; i kassen kan prisen vises i lokal valuta",
+            "Standardprisen på nettet inkluderer skatter og avgifter. Regionale tilbud og butikktilbud kan variere; den endelige prisen vises før kjøp.",
             "Fornyes månedlig; si opp når som helst og behold tilgangen ut perioden",
           ],
           cta: {

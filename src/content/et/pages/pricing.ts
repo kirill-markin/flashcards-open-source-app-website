@@ -3,7 +3,7 @@ import type { PageContent } from "@/lib/content/types";
 export const PRICING_PAGE_CONTENT: PageContent = {
   title: "Alusta tasuta. Premiumiga rohkem AI-d.",
   description:
-    "Alusta majutatud rakenduses tasuta, mine üle Premiumile hinnaga USD 6.99 kuus, et AI-ga rohkem vestelda, või majuta avatud lähtekoodiga lahendust ise oma AWS-i taristus.",
+    "Premium — Tavahind veebis: USD 6.99/kuu. Veebi tavahind sisaldab makse. Piirkondlikud ja rakendusepoodide pakkumised võivad erineda; lõplik hind kuvatakse enne ostmist.",
   slug: "pricing",
   sections: [
     {
@@ -33,7 +33,7 @@ export const PRICING_PAGE_CONTENT: PageContent = {
         {
           type: "auth_tier",
           name: "Premium",
-          price: "$6.99/kuu",
+          price: "Tavahind veebis: USD 6.99/kuu",
           highlighted: false,
           bullets: [
             "7-päevane tasuta prooviperiood tingimustele vastavatele uutele tellijatele; makseviis on nõutav",
@@ -41,7 +41,7 @@ export const PRICING_PAGE_CONTENT: PageContent = {
             "Kohandatud rõhuvärvid",
             "Kõik, mis on paketis Tasuta",
             "Üks tellimus sinu kontole veebis, iOS-is ja Androidis",
-            "Hind USD-s koos maksudega; maksmisel võidakse näidata hinda kohalikus valuutas",
+            "Veebi tavahind sisaldab makse. Piirkondlikud ja rakendusepoodide pakkumised võivad erineda; lõplik hind kuvatakse enne ostmist.",
             "Uueneb igakuiselt; saad igal ajal tühistada ja ligipääs säilib perioodi lõpuni",
           ],
           cta: {
