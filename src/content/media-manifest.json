@@ -2919,6 +2919,21 @@
     }
   },
   {
+    "publicPath": "/blog/python-try-except-finally-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/0527ef0bf6af55ac61fe5759a5074ef1ba4f455904b1a027324b177130858338.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "0527ef0bf6af55ac61fe5759a5074ef1ba4f455904b1a027324b177130858338",
+    "bytes": 138112,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/11963ac19ff69e70fb56384bea87a2f5222221c5a0ae6e640f9fdaf49d3d3985.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "11963ac19ff69e70fb56384bea87a2f5222221c5a0ae6e640f9fdaf49d3d3985",
+      "bytes": 2249226
+    }
+  },
+  {
     "publicPath": "/blog/quizlet-alternative.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/1da1d9cd77cc2e0192ff642f6560aefccd7d867d8e0f896059a148b41a38d4ce.png",
     "width": 1672,
