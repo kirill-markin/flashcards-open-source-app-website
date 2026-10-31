@@ -58,7 +58,21 @@
 .countryDialogHeader h2 { flex: 1; min-inline-size: 0; font-size: 18px; font-weight: 550; overflow-wrap: anywhere; }
 .countryDialogHeader button { min-block-size: 44px; padding: 8px 12px; border: 0; border-radius: var(--radius-xs); background: transparent; color: var(--accent-strong); font: inherit; font-size: 14px; cursor: pointer; }
 .countrySelector { display: grid; gap: 8px; font-size: 14px; }
-.countrySelector select { inline-size: 100%; min-inline-size: 0; min-block-size: 44px; padding: 8px; border: 1px solid var(--border-strong); border-radius: var(--radius-xs); color: var(--text); background: var(--bg-elevated); font: inherit; font-size: 16px; }
+.countrySelector select { grid-area: 2 / 1; appearance: none; inline-size: 100%; min-inline-size: 0; min-block-size: 44px; padding-block: 8px; padding-inline: 8px 40px; border: 1px solid var(--border-strong); border-radius: var(--radius-xs); color: var(--text); background: var(--bg-elevated); font: inherit; font-size: 16px; }
+.countrySelector::after {
+  content: "";
+  grid-area: 2 / 1;
+  align-self: center;
+  justify-self: end;
+  margin-inline-end: 16px;
+  inline-size: 8px;
+  block-size: 8px;
+  border-block-end: 2px solid var(--text-secondary);
+  border-inline-end: 2px solid var(--text-secondary);
+  transform: rotate(45deg);
+  pointer-events: none;
+}
+.countrySelector:dir(rtl)::after { transform: rotate(-45deg); }
 .countrySelector select:focus-visible, .countryChange:focus-visible, .countryDialogHeader button:focus-visible, .regionalPrice button:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 @media (hover: hover) and (pointer: fine) {
   .countryChange:hover { color: var(--text); }
