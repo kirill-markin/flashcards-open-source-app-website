@@ -3,7 +3,7 @@ import type { PageContent } from "@/lib/content/types";
 export const PRICING_PAGE_CONTENT: PageContent = {
   title: "Börja gratis. Premium för mer AI.",
   description:
-    "Börja gratis i den molndrivna appen, få mer AI-chatt med Premium för USD 6.99 per månad, eller kör stacken med öppen källkod på din egen AWS-infrastruktur.",
+    "Premium — Standardpris på webben: USD 6.99/månad. Standardpriset på webben inkluderar skatter. Regionala erbjudanden och butikserbjudanden kan skilja sig åt; slutpriset visas före köp.",
   slug: "pricing",
   sections: [
     {
@@ -33,7 +33,7 @@ export const PRICING_PAGE_CONTENT: PageContent = {
         {
           type: "auth_tier",
           name: "Premium",
-          price: "$6.99/månad",
+          price: "Standardpris på webben: USD 6.99/månad",
           highlighted: false,
           bullets: [
             "7 dagars gratis provperiod för berättigade nya prenumeranter; betalningsmetod krävs",
@@ -41,7 +41,7 @@ export const PRICING_PAGE_CONTENT: PageContent = {
             "Anpassade accentfärger",
             "Allt i Gratis",
             "En prenumeration för ditt konto på webben, iOS och Android",
-            "Pris i USD inklusive skatter; i kassan kan priset visas i lokal valuta",
+            "Standardpriset på webben inkluderar skatter. Regionala erbjudanden och butikserbjudanden kan skilja sig åt; slutpriset visas före köp.",
             "Förnyas varje månad; säg upp när som helst och behåll åtkomsten till periodens slut",
           ],
           cta: {

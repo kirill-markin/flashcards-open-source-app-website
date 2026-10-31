@@ -3,7 +3,7 @@ import type { PageContent } from "@/lib/content/types";
 export const PRICING_PAGE_CONTENT: PageContent = {
   title: "Începe gratuit. Mai mult AI cu Premium.",
   description:
-    "Începe gratuit în aplicația găzduită, treci la Premium pentru USD 6.99/lună ca să ai mai mult chat AI sau găzduiește singur stiva open source pe propria infrastructură AWS.",
+    "Premium — Preț standard pe web: USD 6.99/lună. Prețul standard pe web include taxele. Ofertele regionale și cele din magazine pot diferi; prețul final este afișat înainte de cumpărare.",
   slug: "pricing",
   sections: [
     {
@@ -33,7 +33,7 @@ export const PRICING_PAGE_CONTENT: PageContent = {
         {
           type: "auth_tier",
           name: "Premium",
-          price: "$6.99/lună",
+          price: "Preț standard pe web: USD 6.99/lună",
           highlighted: false,
           bullets: [
             "Perioadă de probă gratuită de 7 zile pentru abonații noi eligibili; este necesară o metodă de plată",
@@ -41,7 +41,7 @@ export const PRICING_PAGE_CONTENT: PageContent = {
             "Culori de accent personalizate",
             "Tot ce include planul Gratuit",
             "Un singur abonament pentru contul tău pe web, iOS și Android",
-            "Preț în USD, cu taxele incluse; la plată poate apărea un preț în moneda locală",
+            "Prețul standard pe web include taxele. Ofertele regionale și cele din magazine pot diferi; prețul final este afișat înainte de cumpărare.",
             "Se reînnoiește lunar; anulezi oricând și păstrezi accesul până la sfârșitul perioadei",
           ],
           cta: {

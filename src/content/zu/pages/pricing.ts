@@ -3,7 +3,7 @@ import type { PageContent } from "@/lib/content/types";
 export const PRICING_PAGE_CONTENT: PageContent = {
   title: "Qala mahhala. I-Premium ukuze uthole i-AI eningi.",
   description:
-    "Qala mahhala ohlelweni olusingathiwe, thuthukela ku-Premium nge-USD 6.99 ngenyanga ukuze uthole ingxoxo ye-AI eyengeziwe, noma uzisingathele isistimu enomthombo ovulekile kwingqalasizinda yakho ye-AWS.",
+    "Premium — Intengo evamile yewebhu: USD 6.99/inyanga. Intengo evamile yewebhu ihlanganisa izintela. Izipesheli zezifunda nezezitolo zingahluka; intengo yokugcina iboniswa ngaphambi kokuthenga.",
   slug: "pricing",
   sections: [
     {
@@ -33,7 +33,7 @@ export const PRICING_PAGE_CONTENT: PageContent = {
         {
           type: "auth_tier",
           name: "Premium",
-          price: "$6.99/inyanga",
+          price: "Intengo evamile yewebhu: USD 6.99/inyanga",
           highlighted: false,
           bullets: [
             "Isivivinyo samahhala sezinsuku ezingu-7 sababhalisi abasha abafanelekayo; kudingeka indlela yokukhokha",
@@ -41,7 +41,7 @@ export const PRICING_PAGE_CONTENT: PageContent = {
             "Imibala yokugqamisa oyikhethayo",
             "Konke okusohlelweni lwamahhala",
             "Ukubhalisa okukodwa kwe-akhawunti yakho kuwebhu, i-iOS ne-Android",
-            "Intengo ikhonjiswa nge-USD kuhlanganise nezintela; ekukhokheni kungase kuboniswe intengo ngemali yasekhaya",
+            "Intengo evamile yewebhu ihlanganisa izintela. Izipesheli zezifunda nezezitolo zingahluka; intengo yokugcina iboniswa ngaphambi kokuthenga.",
             "Kuvuselelwa njalo ngenyanga; khansela noma nini futhi ugcine ukufinyelela kuze kuphele isikhathi samanje",
           ],
           cta: {

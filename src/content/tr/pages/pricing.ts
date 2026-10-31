@@ -3,7 +3,7 @@ import type { PageContent } from "@/lib/content/types";
 export const PRICING_PAGE_CONTENT: PageContent = {
   title: "Ücretsiz başlayın. Daha fazla yapay zekâ için Premium.",
   description:
-    "Barındırılan uygulamada ücretsiz başlayın, daha fazla yapay zekâ sohbeti için aylık USD 6.99 karşılığında Premium'a geçin ya da açık kaynak yığını kendi AWS altyapınızda çalıştırın.",
+    "Premium — Standart web fiyatı: USD 6.99/ay. Standart web fiyatına vergiler dahildir. Bölgesel teklifler ve mağaza teklifleri farklı olabilir; nihai fiyat satın almadan önce gösterilir.",
   slug: "pricing",
   sections: [
     {
@@ -33,7 +33,7 @@ export const PRICING_PAGE_CONTENT: PageContent = {
         {
           type: "auth_tier",
           name: "Premium",
-          price: "$6.99/ay",
+          price: "Standart web fiyatı: USD 6.99/ay",
           highlighted: false,
           bullets: [
             "Uygun yeni aboneler için 7 günlük ücretsiz deneme; ödeme yöntemi gereklidir",
@@ -41,7 +41,7 @@ export const PRICING_PAGE_CONTENT: PageContent = {
             "Özel vurgu renkleri",
             "Ücretsiz plandaki her şey",
             "Web, iOS ve Android'de hesabınız için tek abonelik",
-            "Fiyat USD cinsindendir ve vergiler dahildir; ödeme sayfasında yerel para biriminde fiyat gösterilebilir",
+            "Standart web fiyatına vergiler dahildir. Bölgesel teklifler ve mağaza teklifleri farklı olabilir; nihai fiyat satın almadan önce gösterilir.",
             "Her ay yenilenir; istediğiniz zaman iptal edin, erişiminiz dönem sonuna kadar sürer",
           ],
           cta: {

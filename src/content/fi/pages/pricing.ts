@@ -3,7 +3,7 @@ import type { PageContent } from "@/lib/content/types";
 export const PRICING_PAGE_CONTENT: PageContent = {
   title: "Aloita ilmaiseksi. Premiumilla enemmän tekoälyä.",
   description:
-    "Aloita isännöidyssä sovelluksessa ilmaiseksi, päivitä Premiumiin hintaan USD 6.99 kuukaudessa saadaksesi enemmän tekoälykeskusteluja tai ylläpidä avoimen lähdekoodin pinoa itse omassa AWS-infrastruktuurissasi.",
+    "Premium — Verkon vakiohinta: USD 6.99/kk. Verkon vakiohinta sisältää verot. Alueelliset ja sovelluskauppojen tarjoukset voivat poiketa toisistaan; lopullinen hinta näytetään ennen ostoa.",
   slug: "pricing",
   sections: [
     {
@@ -33,7 +33,7 @@ export const PRICING_PAGE_CONTENT: PageContent = {
         {
           type: "auth_tier",
           name: "Premium",
-          price: "$6.99/kk",
+          price: "Verkon vakiohinta: USD 6.99/kk",
           highlighted: false,
           bullets: [
             "7 päivän ilmainen kokeilujakso ehdot täyttäville uusille tilaajille; maksutapa vaaditaan",
@@ -41,7 +41,7 @@ export const PRICING_PAGE_CONTENT: PageContent = {
             "Mukautetut korostusvärit",
             "Kaikki Ilmainen-paketin ominaisuudet",
             "Yksi tilaus tilillesi verkossa, iOS:ssä ja Androidissa",
-            "Hinta USD:nä, sisältää verot; maksun yhteydessä hinta voidaan näyttää paikallisessa valuutassa",
+            "Verkon vakiohinta sisältää verot. Alueelliset ja sovelluskauppojen tarjoukset voivat poiketa toisistaan; lopullinen hinta näytetään ennen ostoa.",
             "Uusiutuu kuukausittain; voit peruuttaa milloin tahansa, ja käyttöoikeus säilyy jakson loppuun",
           ],
           cta: {

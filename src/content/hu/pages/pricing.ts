@@ -3,7 +3,7 @@ import type { PageContent } from "@/lib/content/types";
 export const PRICING_PAGE_CONTENT: PageContent = {
   title: "Ingyenes kezdés. Több AI a Premiummal.",
   description:
-    "Kezdd ingyen a felhős alkalmazással, válts Premiumra havi 6.99 USD-ért több AI-csevegésért, vagy üzemeltesd a nyílt forráskódú rendszert a saját AWS-infrastruktúrádon.",
+    "Premium — Normál webes ár: USD 6.99/hó. A normál webes ár tartalmazza az adókat. A regionális és áruházi ajánlatok eltérhetnek; a végső ár a vásárlás előtt jelenik meg.",
   slug: "pricing",
   sections: [
     {
@@ -33,7 +33,7 @@ export const PRICING_PAGE_CONTENT: PageContent = {
         {
           type: "auth_tier",
           name: "Premium",
-          price: "$6.99/hó",
+          price: "Normál webes ár: USD 6.99/hó",
           highlighted: false,
           bullets: [
             "7 napos ingyenes próbaidőszak a jogosult új előfizetőknek; fizetési mód megadása szükséges",
@@ -41,7 +41,7 @@ export const PRICING_PAGE_CONTENT: PageContent = {
             "Egyéni kiemelőszínek",
             "Minden, ami az Ingyenes csomagban benne van",
             "Egyetlen előfizetés a fiókodhoz a weben, iOS-en és Androidon",
-            "USD-ben megadott ár, az adókkal együtt; fizetéskor helyi pénznemben is megjelenhet az ár",
+            "A normál webes ár tartalmazza az adókat. A regionális és áruházi ajánlatok eltérhetnek; a végső ár a vásárlás előtt jelenik meg.",
             "Havonta megújul; bármikor lemondhatod, és a hozzáférésed az időszak végéig megmarad",
           ],
           cta: {

@@ -73,7 +73,8 @@ export interface MonthlyPriceSpecificationStructuredData {
 
 export interface PremiumOfferStructuredData {
   readonly "@type": "Offer";
-  readonly name: "Premium";
+  readonly name: "Premium — standard web price";
+  readonly description: string;
   readonly price: "6.99";
   readonly priceCurrency: "USD";
   readonly priceSpecification: MonthlyPriceSpecificationStructuredData;
@@ -232,7 +233,8 @@ function createOfferStructuredData(
     case "Premium":
       return {
         "@type": "Offer",
-        name: "Premium",
+        name: "Premium — standard web price",
+        description: "Standard web price of USD 6.99 per month, including taxes. Regional and store offers may differ; the final price is shown before purchase.",
         price: "6.99",
         priceCurrency: "USD",
         priceSpecification: {
@@ -282,7 +284,6 @@ function createSoftwareSourceCodeStructuredData(): SoftwareSourceCodeStructuredD
   };
 }
 
-/** Sitewide entities; they refer to the product only by `@id`. */
 export function createSiteJsonLdGraph(
   params: CreateSiteJsonLdGraphParams
 ): SiteJsonLdGraph {

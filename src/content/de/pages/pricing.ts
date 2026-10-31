@@ -3,7 +3,7 @@ import type { PageContent } from "@/lib/content/types";
 export const PRICING_PAGE_CONTENT: PageContent = {
   title: "Kostenlos starten. Premium für mehr KI.",
   description:
-    "Starte kostenlos mit der gehosteten App, wechsle für 6,99 USD pro Monat zu Premium und chatte mehr mit der KI oder hoste den Open-Source-Stack selbst in deiner eigenen AWS-Infrastruktur.",
+    "Premium — Standardpreis im Web: 6,99 USD /Monat. Der Standardpreis im Web enthält Steuern. Regionale Angebote und Store-Angebote können abweichen; der endgültige Preis wird vor dem Kauf angezeigt.",
   slug: "pricing",
   sections: [
     {
@@ -33,7 +33,7 @@ export const PRICING_PAGE_CONTENT: PageContent = {
         {
           type: "auth_tier",
           name: "Premium",
-          price: "6,99 $/Monat",
+          price: "Standardpreis im Web: 6,99 USD /Monat",
           highlighted: false,
           bullets: [
             "7-tägige kostenlose Testphase für berechtigte Neuabonnenten; Zahlungsmethode erforderlich",
@@ -41,7 +41,7 @@ export const PRICING_PAGE_CONTENT: PageContent = {
             "Eigene Akzentfarben",
             "Alles aus dem kostenlosen Tarif",
             "Ein Abonnement für dein Konto im Web, auf iOS und Android",
-            "Preis in USD inklusive Steuern; beim Checkout kann ein Preis in lokaler Währung angezeigt werden",
+            "Der Standardpreis im Web enthält Steuern. Regionale Angebote und Store-Angebote können abweichen; der endgültige Preis wird vor dem Kauf angezeigt.",
             "Verlängert sich monatlich; jederzeit kündbar, der Zugang bleibt bis zum Ende des Zeitraums bestehen",
           ],
           cta: {

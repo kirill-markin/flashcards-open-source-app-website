@@ -3,7 +3,7 @@ import type { PageContent } from "@/lib/content/types";
 export const PRICING_PAGE_CONTENT: PageContent = {
   title: "Gratis om te beginnen. Premium voor meer AI.",
   description:
-    "Begin gratis met de gehoste app, stap voor USD 6.99/maand over op Premium voor meer AI-chat, of host de open-source stack zelf op je eigen AWS-infrastructuur.",
+    "Premium — Standaardprijs op het web: USD 6.99/maand. De standaardprijs op het web is inclusief belastingen. Regionale aanbiedingen en aanbiedingen in appstores kunnen verschillen; de definitieve prijs wordt vóór aankoop getoond.",
   slug: "pricing",
   sections: [
     {
@@ -33,7 +33,7 @@ export const PRICING_PAGE_CONTENT: PageContent = {
         {
           type: "auth_tier",
           name: "Premium",
-          price: "$6.99/maand",
+          price: "Standaardprijs op het web: USD 6.99/maand",
           highlighted: false,
           bullets: [
             "Gratis proefperiode van 7 dagen voor nieuwe abonnees die in aanmerking komen; betaalmethode vereist",
@@ -41,7 +41,7 @@ export const PRICING_PAGE_CONTENT: PageContent = {
             "Aangepaste accentkleuren",
             "Alles uit Gratis",
             "Eén abonnement voor je account op web, iOS en Android",
-            "Prijs in USD, inclusief belastingen; bij het afrekenen kan een prijs in lokale valuta worden getoond",
+            "De standaardprijs op het web is inclusief belastingen. Regionale aanbiedingen en aanbiedingen in appstores kunnen verschillen; de definitieve prijs wordt vóór aankoop getoond.",
             "Wordt maandelijks verlengd; altijd opzegbaar en je houdt toegang tot het einde van de periode",
           ],
           cta: {

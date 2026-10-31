@@ -3,7 +3,7 @@ import type { PageContent } from "@/lib/content/types";
 export const PRICING_PAGE_CONTENT: PageContent = {
   title: "無料で始める。AI をもっと使うなら Premium。",
   description:
-    "ホスト型アプリを無料で使い始め、月額 USD 6.99 の Premium にアップグレードして AI チャットをもっと使うか、オープンソースのスタックを自分の AWS インフラでセルフホストできます。",
+    "Premium — Webの標準価格: USD 6.99/月. Webの標準価格は税込です。地域やストアによってオファーが異なる場合があります。最終価格は購入前に表示されます。",
   slug: "pricing",
   sections: [
     {
@@ -33,7 +33,7 @@ export const PRICING_PAGE_CONTENT: PageContent = {
         {
           type: "auth_tier",
           name: "Premium",
-          price: "$6.99/月",
+          price: "Webの標準価格: USD 6.99/月",
           highlighted: false,
           bullets: [
             "対象となる新規登録者は7日間の無料トライアルを利用可能（支払い方法の登録が必要）",
@@ -41,7 +41,7 @@ export const PRICING_PAGE_CONTENT: PageContent = {
             "カスタムアクセントカラー",
             "無料プランのすべての機能",
             "1つのサブスクリプションで、Web、iOS、Android のアカウントに対応",
-            "USD 建ての税込み価格。決済画面では現地通貨で価格が表示される場合があります",
+            "Webの標準価格は税込です。地域やストアによってオファーが異なる場合があります。最終価格は購入前に表示されます。",
             "毎月更新。いつでも解約でき、期間終了まで引き続き利用可能",
           ],
           cta: {

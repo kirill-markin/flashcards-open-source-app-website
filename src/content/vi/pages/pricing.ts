@@ -3,7 +3,7 @@ import type { PageContent } from "@/lib/content/types";
 export const PRICING_PAGE_CONTENT: PageContent = {
   title: "Bắt đầu miễn phí. Premium để dùng AI nhiều hơn.",
   description:
-    "Bắt đầu miễn phí với bản lưu trữ sẵn, nâng cấp lên Premium với giá USD 6.99 mỗi tháng để trò chuyện với AI nhiều hơn, hoặc tự lưu trữ toàn bộ mã nguồn mở trên hạ tầng AWS của bạn.",
+    "Premium — Giá web tiêu chuẩn: USD 6.99/tháng. Giá web tiêu chuẩn đã bao gồm thuế. Ưu đãi theo khu vực và trên cửa hàng có thể khác nhau; giá cuối cùng được hiển thị trước khi mua.",
   slug: "pricing",
   sections: [
     {
@@ -33,7 +33,7 @@ export const PRICING_PAGE_CONTENT: PageContent = {
         {
           type: "auth_tier",
           name: "Premium",
-          price: "$6.99/tháng",
+          price: "Giá web tiêu chuẩn: USD 6.99/tháng",
           highlighted: false,
           bullets: [
             "Dùng thử miễn phí 7 ngày cho người đăng ký mới đủ điều kiện; cần có phương thức thanh toán",
@@ -41,7 +41,7 @@ export const PRICING_PAGE_CONTENT: PageContent = {
             "Màu nhấn tùy chỉnh",
             "Mọi thứ trong gói Miễn phí",
             "Một gói đăng ký cho tài khoản của bạn trên web, iOS và Android",
-            "Giá niêm yết bằng USD, đã bao gồm thuế; trang thanh toán có thể hiển thị giá bằng nội tệ",
+            "Giá web tiêu chuẩn đã bao gồm thuế. Ưu đãi theo khu vực và trên cửa hàng có thể khác nhau; giá cuối cùng được hiển thị trước khi mua.",
             "Tự động gia hạn hằng tháng; hủy bất cứ lúc nào và vẫn dùng được đến hết kỳ hiện tại",
           ],
           cta: {

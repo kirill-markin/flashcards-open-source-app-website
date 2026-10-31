@@ -3,7 +3,7 @@ import type { PageContent } from "@/lib/content/types";
 export const PRICING_PAGE_CONTENT: PageContent = {
   title: "Besplatno za početak. Premium za više AI-ja.",
   description:
-    "Počnite besplatno u hostiranoj aplikaciji, prijeđite na Premium za USD 6.99 mjesečno i dobijte više poruka u AI razgovoru ili sami hostirajte otvoreni kod na vlastitoj AWS infrastrukturi.",
+    "Premium — Standardna cijena na webu: USD 6.99/mjesec. Standardna cijena na webu uključuje poreze. Regionalne ponude i ponude trgovina mogu se razlikovati; konačna cijena prikazuje se prije kupnje.",
   slug: "pricing",
   sections: [
     {
@@ -33,7 +33,7 @@ export const PRICING_PAGE_CONTENT: PageContent = {
         {
           type: "auth_tier",
           name: "Premium",
-          price: "$6.99/mjesec",
+          price: "Standardna cijena na webu: USD 6.99/mjesec",
           highlighted: false,
           bullets: [
             "Besplatno probno razdoblje od 7 dana za nove pretplatnike koji ispunjavaju uvjete; potreban je način plaćanja",
@@ -41,7 +41,7 @@ export const PRICING_PAGE_CONTENT: PageContent = {
             "Prilagođene boje naglaska",
             "Sve što nudi plan Besplatno",
             "Jedna pretplata za vaš račun na webu, iOS-u i Androidu",
-            "Cijena u USD s uključenim porezima; pri plaćanju može se prikazati cijena u lokalnoj valuti",
+            "Standardna cijena na webu uključuje poreze. Regionalne ponude i ponude trgovina mogu se razlikovati; konačna cijena prikazuje se prije kupnje.",
             "Obnavlja se mjesečno; otkažite bilo kada i zadržite pristup do kraja razdoblja",
           ],
           cta: {

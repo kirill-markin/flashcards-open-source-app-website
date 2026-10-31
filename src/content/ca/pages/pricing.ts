@@ -3,7 +3,7 @@ import type { PageContent } from "@/lib/content/types";
 export const PRICING_PAGE_CONTENT: PageContent = {
   title: "Gratuït per començar. Premium per a més IA.",
   description:
-    "Comença gratis a l'app allotjada, passa a Premium per USD 6.99 al mes i xateja més amb la IA, o autoallotja la pila de codi obert a la teva pròpia infraestructura d'AWS.",
+    "Premium — Preu web estàndard: USD 6.99/mes. El preu web estàndard inclou impostos. Les ofertes regionals i de les botigues poden variar; el preu final es mostra abans de comprar.",
   slug: "pricing",
   sections: [
     {
@@ -33,7 +33,7 @@ export const PRICING_PAGE_CONTENT: PageContent = {
         {
           type: "auth_tier",
           name: "Premium",
-          price: "$6.99/mes",
+          price: "Preu web estàndard: USD 6.99/mes",
           highlighted: false,
           bullets: [
             "Prova gratuïta de 7 dies per a subscriptors nous que compleixin els requisits; cal un mètode de pagament",
@@ -41,7 +41,7 @@ export const PRICING_PAGE_CONTENT: PageContent = {
             "Colors d'accent personalitzats",
             "Tot el que inclou el pla Gratuït",
             "Una sola subscripció per al teu compte al web, iOS i Android",
-            "Preu en USD amb impostos inclosos; en el pagament pot aparèixer un preu en moneda local",
+            "El preu web estàndard inclou impostos. Les ofertes regionals i de les botigues poden variar; el preu final es mostra abans de comprar.",
             "Es renova cada mes; cancel·la quan vulguis i conserva l'accés fins al final del període",
           ],
           cta: {
