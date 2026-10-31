@@ -40,7 +40,7 @@ Quando você autoriza um cliente de IA externo a usar o serviço MCP ou a Agent 
 
 ## Assinaturas do Stripe
 
-Quando o checkout do Stripe estiver disponível, o Nibomo Premium é oferecido pelo preço base de US$ 6,99 por mês, incluindo os impostos aplicáveis. O Os preços podem variar conforme o país ou a loja. Stripe Adaptive Pricing pode apresentar um preço em moeda local; o Stripe mostra o valor final e a moeda de cobrança antes da confirmação. A compra exige uma conta conectada com endereço de e-mail; convidados precisam vincular um e-mail primeiro.
+Quando o checkout do Stripe estiver disponível, o Nibomo Premium é oferecido pelo preço base de US$ 6,99 por mês, incluindo os impostos aplicáveis. Os preços podem variar conforme o país ou a loja. O Stripe Adaptive Pricing pode apresentar um preço em moeda local; o Stripe mostra o valor final e a moeda de cobrança antes da confirmação. A compra exige uma conta conectada com endereço de e-mail; convidados precisam vincular um e-mail primeiro.
 
 Clientes elegíveis do Stripe recebem um teste gratuito de sete dias que exige um método de pagamento. O teste está disponível uma vez por cliente do Stripe; testes anteriores da Apple ou do Google não afetam a elegibilidade. Se você não cancelar antes do fim do teste, o valor da assinatura mensal será cobrado no seu método de pagamento. Depois, ela se renova automaticamente a cada mês até ser cancelada. Os lembretes do teste informam o preço base mensal; o Stripe mostra a cobrança final na moeda de faturamento.
 
