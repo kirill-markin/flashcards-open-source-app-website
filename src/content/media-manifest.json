@@ -3339,6 +3339,21 @@
     }
   },
   {
+    "publicPath": "/blog/sql-lag-lead-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/c57c4561f64881992ae501c7783ba4eea6f5053fce137654b445d40c77d87e5b.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "c57c4561f64881992ae501c7783ba4eea6f5053fce137654b445d40c77d87e5b",
+    "bytes": 107552,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/9dcaf199aac496ca34f667ff026d82f041077d93cc680b38b7dbf120ebfd8075.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "9dcaf199aac496ca34f667ff026d82f041077d93cc680b38b7dbf120ebfd8075",
+      "bytes": 1999491
+    }
+  },
+  {
     "publicPath": "/blog/sql-left-join-on-vs-where.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/31de3c4badb52027979212df13b2a86d84f9845f233c86c45ae0d74b4de269d0.webp",
     "width": 1672,
