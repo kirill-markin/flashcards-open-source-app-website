@@ -1042,6 +1042,21 @@
     "bytes": 2312258
   },
   {
+    "publicPath": "/blog/engineering-materials-flashcards.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/46c4446ea2840ffa8d8623a24ec556a26bf95499efba81cfbb301ac4266fc3b5.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "46c4446ea2840ffa8d8623a24ec556a26bf95499efba81cfbb301ac4266fc3b5",
+    "bytes": 137676,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/429b544e890b0bfb5ac9365fca68c8c64168387749d77906ff6eabe67604b5e3.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "429b544e890b0bfb5ac9365fca68c8c64168387749d77906ff6eabe67604b5e3",
+      "bytes": 2089561
+    }
+  },
+  {
     "publicPath": "/blog/enzyme-inhibition-practice-problems.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/fd2bb652d94d39980d576e84d2434aff215ba84c5cb0822922ade4ad7dc4d219.webp",
     "width": 1672,
@@ -1063,6 +1078,21 @@
     "height": 941,
     "sha256": "49d3d5050c62435b7f309c19d67f7ae774aa97c780ceaea0f46200bd2bb1d5c9",
     "bytes": 2117201
+  },
+  {
+    "publicPath": "/blog/everyday-english-vocabulary-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/ed01615ce056187f25186dec3c6287cb3671ebe644b5cdac385b9a5f7b758be4.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "ed01615ce056187f25186dec3c6287cb3671ebe644b5cdac385b9a5f7b758be4",
+    "bytes": 169012,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/97ee7fdc6814484b41f14f894cd89465613b20cc3e7d796c236bb0e50bc3e8e8.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "97ee7fdc6814484b41f14f894cd89465613b20cc3e7d796c236bb0e50bc3e8e8",
+      "bytes": 2330193
+    }
   },
   {
     "publicPath": "/blog/expected-value-practice.webp",
@@ -1466,6 +1496,21 @@
       "height": 941,
       "sha256": "dda4c43d5b02b609ba1b8a84e7c2a375930090ca9c2b7ea36296da786e0f948b",
       "bytes": 2341437
+    }
+  },
+  {
+    "publicPath": "/blog/gmdss-goc-flashcards.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/f567afad7ada447f9e22ef177531d5b7c8332b4751fe149e64a99821a5393ed4.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "f567afad7ada447f9e22ef177531d5b7c8332b4751fe149e64a99821a5393ed4",
+    "bytes": 201456,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/0e09ecfeb8d78fa43a7c40d6c83d4d4727adc1535baa02b86b432c6345cc9c22.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "0e09ecfeb8d78fa43a7c40d6c83d4d4727adc1535baa02b86b432c6345cc9c22",
+      "bytes": 2418758
     }
   },
   {
