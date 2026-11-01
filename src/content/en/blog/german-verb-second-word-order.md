@@ -141,4 +141,6 @@ If you missed a pattern, turn it into one focused prompt. Paper or any flashcard
 
 Use the mistake to choose the card. If you dropped *an* in exercise 4, make a prefix card instead of collecting three prompts you already answer easily. The guides to [language-learning flashcards](/blog/how-to-use-flashcards-for-language-learning/) and [making better flashcards](/blog/how-to-make-better-flashcards/) explain how to keep review prompts focused.
 
+For a separate noun-form task, the [German noun gender and plural practice](/blog/german-noun-gender-plurals/) gives singular articles and complete plurals their own recall questions.
+
 *How this practice was made: AI was used substantially for source research, drafting, example and exercise construction, and editorial work. The illustration is also AI-generated. The cited grammar references support the rules; the practice items were created for this article. These materials have not been tested with learners or reviewed by a human German teacher or native speaker.*

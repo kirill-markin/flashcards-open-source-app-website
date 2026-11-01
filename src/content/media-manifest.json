@@ -1333,6 +1333,21 @@
     }
   },
   {
+    "publicPath": "/blog/german-noun-gender-plurals.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/65aeecc055170c192996c036780b2237b96be68846b1520cfd56ebe72fbbeb0d.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "65aeecc055170c192996c036780b2237b96be68846b1520cfd56ebe72fbbeb0d",
+    "bytes": 153462,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/96b09a3d0af92f8b0966f99ddc57e4f5959da85349b0004a8298bc311a00a442.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "96b09a3d0af92f8b0966f99ddc57e4f5959da85349b0004a8298bc311a00a442",
+      "bytes": 2214185
+    }
+  },
+  {
     "publicPath": "/blog/german-verb-second-word-order.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/9cef0683bec5da1e31c16d4b511efdcb844217f7bd58b41b6478eedbcbbe4557.webp",
     "width": 1672,
