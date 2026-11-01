@@ -1378,6 +1378,21 @@
     }
   },
   {
+    "publicPath": "/blog/german-everyday-expressions.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/cc7a8cf25794cebcaf8b07c5bc2d410637229d5b611f717568b3476db223170c.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "cc7a8cf25794cebcaf8b07c5bc2d410637229d5b611f717568b3476db223170c",
+    "bytes": 160906,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/e9a223381e6b8dd74317720fea02ec48f704444dc6dab1a11c1e3114e5e92bf7.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "e9a223381e6b8dd74317720fea02ec48f704444dc6dab1a11c1e3114e5e92bf7",
+      "bytes": 2292176
+    }
+  },
+  {
     "publicPath": "/blog/german-noun-gender-plurals.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/65aeecc055170c192996c036780b2237b96be68846b1520cfd56ebe72fbbeb0d.webp",
     "width": 1672,

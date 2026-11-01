@@ -23,6 +23,7 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
     ru: "everyday-english-vocabulary-russian-speakers",
   },
   "german-noun-gender-plurals": { ru: "german-noun-gender-plurals-russian-speakers" },
+  "german-everyday-expressions": { it: "german-everyday-expressions-italian-speakers" },
   "find-delete": { en: "linux-command-line-flashcards" },
   "find-operator-precedence": { en: "linux-command-line-flashcards" },
   "find-mtime-vs-ctime": { en: "linux-command-line-flashcards" },
