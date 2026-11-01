@@ -255,6 +255,8 @@ Dues baralles separades cobreixen altres necessitats:
 - [Targetes de tendències periòdiques](/ca/catalog/packages/periodic-trends-flashcards/): regles breus sobre les tendències, distincions importants i comparacions.
 - [Targetes de configuració electrònica: tots els 118 elements](/ca/catalog/packages/electron-configuration-flashcards-all-elements/): configuracions d'àtoms neutres en estat fonamental, amb les prediccions clarament indicades quan les dades de referència ho requereixen.
 
+Aquestes dues baralles, de moment, només estan en anglès.
+
 Els prefixos mètrics també poden provocar errors amb les majúscules i minúscules —`M` i `m` no volen dir el mateix—, però no formen part de la taula periòdica. Treballa'ls per separat amb la [guia de targetes de prefixos mètrics](/blog/metric-prefixes-flashcards/), en anglès, perquè tota la notació química no acabi en una única baralla enorme i barrejada.
 
 ## Què no poden ensenyar les targetes de la taula periòdica

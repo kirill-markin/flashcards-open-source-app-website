@@ -255,6 +255,8 @@ Hedefiniz gerçekten 118 elementin tamamının kimlik bilgilerini öğrenmekse e
 - [Periyodik Eğilimler Bilgi Kartları](/tr/catalog/packages/periodic-trends-flashcards/), kısa eğilim kurallarını, önemli ayrımları ve karşılaştırmaları kapsar.
 - [Elektron Dizilimi Bilgi Kartları: 118 Elementin Tamamı](/tr/catalog/packages/electron-configuration-flashcards-all-elements/), nötr atomların temel hâl elektron dizilimlerini kapsar; referans verilerinin gerektirdiği yerlerde tahminler açıkça işaretlenir.
 
+Bu iki deste şimdilik yalnızca İngilizce olarak sunuluyor.
+
 Metrik ön ekler de büyük-küçük harf hatalarına yol açabilir; `M` ile `m` aynı anlama gelmez. Ancak periyodik tablonun konusu değildir. Kimyasal gösterimlerin tek bir dev karma desteye dönüşmemesi için bunları ayrı [Metrik Ön Ekler Bilgi Kartları rehberinde](/blog/metric-prefixes-flashcards/) tutun.
 
 ## Periyodik tablo bilgi kartları neleri öğretemez?

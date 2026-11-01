@@ -255,6 +255,8 @@ To separate kortstokker dekker andre behov:
 - [Periodic Trends Flashcards](/nb/catalog/packages/periodic-trends-flashcards/) dekker korte regler for trender, viktige skiller og sammenligninger.
 - [Electron Configuration Flashcards: All 118 Elements](/nb/catalog/packages/electron-configuration-flashcards-all-elements/) dekker elektronkonfigurasjoner for nøytrale atomer i grunntilstanden, med tydelig merkede prediksjoner der referansedataene krever det.
 
+Disse to kortstokkene finnes foreløpig bare på engelsk.
+
 SI-prefikser er en beslektet kilde til feil med store og små bokstaver – `M` og `m` betyr ikke det samme – men de hører ikke til periodesystemet. Hold dem atskilt ved hjelp av [veiledningen til øvingskort om SI-prefikser](/blog/metric-prefixes-flashcards/), slik at kjemisk notasjon ikke blir én enorm, blandet kortstokk.
 
 ## Hva øvingskort om periodesystemet ikke kan lære deg

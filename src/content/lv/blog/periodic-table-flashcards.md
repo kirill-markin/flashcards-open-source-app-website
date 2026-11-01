@@ -255,6 +255,8 @@ Divi atsevišķi komplekti aptver citas tēmas:
 - [Kartītes par īpašību periodiskajām izmaiņām](/lv/catalog/packages/periodic-trends-flashcards/) aptver īsas likumsakarības, būtiskas atšķirības un salīdzinājumus.
 - [Elektronu konfigurāciju kartītes: visi 118 elementi](/lv/catalog/packages/electron-configuration-flashcards-all-elements/) aptver neitrālu atomu pamatstāvokļa konfigurācijas, tostarp skaidri marķētas prognozes, kur tās ir nepieciešamas saskaņā ar atsauces datiem.
 
+Šie divi komplekti pagaidām ir pieejami tikai angļu valodā.
+
 Vēl viens saistīts kļūdu avots ir mērvienību priedēkļu lielie un mazie burti — `M` un `m` nenozīmē vienu un to pašu —, taču tie nav periodiskās tabulas saturs. Atstāj tos atsevišķi, izmantojot [mērvienību priedēkļu kartīšu ceļvedi](/blog/metric-prefixes-flashcards/) angļu valodā, lai ķīmijas pieraksts nepārvērstos vienā milzīgā, sajauktā komplektā.
 
 ## Ko periodiskās tabulas kartītes nevar iemācīt

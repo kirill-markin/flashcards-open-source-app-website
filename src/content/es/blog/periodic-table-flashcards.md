@@ -248,7 +248,7 @@ Mantén una cola diaria de repasos realista mientras amplías el conjunto. [¿Cu
 
 ## Mazos preparados para tres objetivos distintos
 
-Si de verdad necesitas recordar la identidad de los 118 elementos, el mazo instalable [Flashcards de la tabla periódica: nombres, símbolos y números atómicos de los 118 elementos](/catalog/packages/periodic-table-elements/) contiene 354 tarjetas. Incluye tres tipos de tarjeta bien definidos para cada elemento: nombre → símbolo, símbolo → nombre y número atómico → identidad completa del elemento. Excluye pesos atómicos, disposición espacial, tendencias y configuraciones electrónicas, de modo que sigue siendo un mazo para recordar identidades en vez de intentar convertirse en un curso de química.
+Si de verdad necesitas recordar la identidad de los 118 elementos, el mazo instalable [Tabla periódica: tarjetas de los 118 elementos](/catalog/packages/tabla-periodica-elementos-tarjetas-espanol/) contiene 354 tarjetas. Incluye tres tipos de tarjeta bien definidos para cada elemento: nombre → símbolo, símbolo → nombre y número atómico → identidad completa del elemento. Excluye pesos atómicos, disposición espacial, tendencias y configuraciones electrónicas, de modo que sigue siendo un mazo para recordar identidades en vez de intentar convertirse en un curso de química.
 
 Otros dos mazos cubren contenidos diferentes:
 

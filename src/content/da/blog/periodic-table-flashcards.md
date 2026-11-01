@@ -255,6 +255,8 @@ To separate kortsæt dækker andre områder:
 - [Periodic Trends Flashcards](/da/catalog/packages/periodic-trends-flashcards/) dækker korte regler for periodiske tendenser, vigtige skel og sammenligninger.
 - [Electron Configuration Flashcards: All 118 Elements](/da/catalog/packages/electron-configuration-flashcards-all-elements/) dækker neutrale atomers elektronkonfigurationer i grundtilstanden, herunder tydeligt markerede forudsigelser, hvor referencedataene kræver det.
 
+Disse to kortsæt findes indtil videre kun på engelsk.
+
 SI-præfikser er en anden nærliggende kilde til fejl med store og små bogstaver: `M` og `m` betyder ikke det samme. De hører dog ikke til det periodiske system. Brug den separate [guide til flashcards med SI-præfikser](/blog/metric-prefixes-flashcards/), så al notation i kemi ikke ender i ét stort, blandet kortsæt.
 
 ## Hvad flashcards om det periodiske system ikke kan lære dig
