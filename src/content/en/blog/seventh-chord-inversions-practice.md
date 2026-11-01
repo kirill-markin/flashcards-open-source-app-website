@@ -178,4 +178,6 @@ If questions 3 and 4 blurred together, compare their seventh intervals. If 5–7
 
 For spaced review, save the questions that exposed a recurring error. Ask for the chord, bass member, and reason; keep the full explanation on the answer side. Try again on a later day, then use a fresh voicing so you're applying the rule. Written naming, hearing inversions, and playing them are separate skills. This worksheet practices written naming.
 
+The [seventh chord inversion flashcards](/catalog/packages/seventh-chord-inversion-flashcards/) offer a separate written practice set: identify root, quality, bass member, inversion, and figures from registered voicings; build a voicing from a named chord and required bass; then compare arrangements and repair specific errors. Every chord includes all four members. The cards use note names and octave numbers, without audio or staff-reading tasks.
+
 *Preparation note: AI tools were used to research, write, and edit this worksheet using the linked theory references. The worked voicings and exercises were created for this article and checked for pitch order, chord spelling, and intervals. The illustration is AI-generated. No classroom trial or human expert review was performed.*
