@@ -318,6 +318,21 @@
     }
   },
   {
+    "publicPath": "/blog/anki-resize-images.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/720414c618bb82de1244fcd45cd993495e55db163687d5abd681e9daba2c800e.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "720414c618bb82de1244fcd45cd993495e55db163687d5abd681e9daba2c800e",
+    "bytes": 90580,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/a6c1dfb5f9660119a7d9271a09a0d268b54ab675bac49cea0c52918d2125f993.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "a6c1dfb5f9660119a7d9271a09a0d268b54ab675bac49cea0c52918d2125f993",
+      "bytes": 1943577
+    }
+  },
+  {
     "publicPath": "/blog/anki-retention-statistics.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/7d2f5b941e3fff567c40bd953326dae0d111028c5f671a124aafe362aa7489b5.webp",
     "width": 1672,
