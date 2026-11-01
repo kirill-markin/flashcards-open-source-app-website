@@ -16,6 +16,11 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   "rioplatense-spanish-voseo-household": {
     ru: "rioplatense-spanish-voseo-household-russian-speakers",
   },
+  "dutch-everyday-vocabulary-flashcards": { en: "dutch-home-work-family-vocabulary" },
+  "gmdss-goc-flashcards": { en: "gmdss-goc-radio-concepts" },
+  "everyday-english-vocabulary-practice": {
+    ru: "everyday-english-vocabulary-russian-speakers",
+  },
   "german-noun-gender-plurals": { ru: "german-noun-gender-plurals-russian-speakers" },
   "find-delete": { en: "linux-command-line-flashcards" },
   "find-operator-precedence": { en: "linux-command-line-flashcards" },
@@ -203,6 +208,7 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   "faa-part-107-flashcards": { en: "faa-part-107-flashcards" },
   "ham-radio-technician-flashcards": { en: "ham-radio-technician-2026-2030-flashcards" },
   "how-to-use-flashcards-for-the-fe-exam": { en: "fe-exam-engineering-equations-units-flashcards" },
+  "engineering-materials-flashcards": { en: "engineering-materials-properties-processing" },
   "toefl-flashcards": { en: "toefl-ibt-task-strategy-flashcards" },
   "eu-ai-act-2026-flashcards": { en: "eu-ai-act-2026-essentials-flashcards" },
 };
