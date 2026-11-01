@@ -172,6 +172,7 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   "circle-of-fifths-practice": { en: "circle-of-fifths-flashcards" },
   "relative-vs-parallel-minor": { en: "relative-vs-parallel-minor-flashcards" },
   "triad-chord-spelling": { en: "triad-chord-spelling-flashcards" },
+  "seventh-chord-inversions-practice": { en: "seventh-chord-inversion-flashcards" },
   "bass-clef-notes": { en: "music-note-flashcards-treble-bass" },
   "morse-code-alphabet": { en: "morse-code-alphabet-numbers" },
   "common-network-ports": { en: "common-network-port-numbers-flashcards" },
