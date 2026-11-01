@@ -248,7 +248,7 @@ Mantieni sostenibile il carico giornaliero mentre ampli l'insieme degli elementi
 
 ## Mazzi già pronti per tre obiettivi diversi
 
-Se il tuo obiettivo è davvero ricordare l'identità di tutti i 118 elementi, il mazzo installabile [Flashcard della tavola periodica: nomi, simboli e numeri atomici di tutti i 118 elementi](/it/catalog/packages/periodic-table-elements/) contiene 354 carte. Per ogni elemento usa tre versi di richiamo espliciti: nome → simbolo, simbolo → nome e numero atomico → identità completa dell'elemento. Esclude pesi atomici, disposizione nello spazio, proprietà periodiche e configurazioni elettroniche, così rimane un mazzo per ricordare l'identità degli elementi senza cercare di diventare un corso di chimica. I link aprono il catalogo con l'interfaccia in italiano; il contenuto dei mazzi resta nella lingua indicata nel catalogo.
+Se il tuo obiettivo è davvero ricordare l'identità di tutti i 118 elementi, il mazzo installabile [Flashcard della tavola periodica: nomi, simboli e numeri atomici di tutti i 118 elementi](/it/catalog/packages/periodic-table-elements-it/) contiene 354 carte. Per ogni elemento usa tre versi di richiamo espliciti: nome → simbolo, simbolo → nome e numero atomico → identità completa dell'elemento. Esclude pesi atomici, disposizione nello spazio, proprietà periodiche e configurazioni elettroniche, così rimane un mazzo per ricordare l'identità degli elementi senza cercare di diventare un corso di chimica. Questo mazzo è in italiano; per gli altri mazzi, il contenuto resta nella lingua indicata nel catalogo.
 
 Due mazzi separati coprono argomenti diversi:
 

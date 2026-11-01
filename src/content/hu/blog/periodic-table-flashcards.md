@@ -248,7 +248,7 @@ A pakli bővítése közben maradjon vállalható a napi ismétlések száma. Ig
 
 ## Kész paklik három különböző feladathoz
 
-Ha valóban mind a 118 elem azonosító adatait kell tudnod, a telepíthető [Periódusos rendszer: mind a 118 elem neve, vegyjele és rendszáma](/hu/catalog/packages/periodic-table-elements/) pakli 354 kártyát tartalmaz. Minden elemet három meghatározott irányból kérdez: név → vegyjel, vegyjel → név és rendszám → az elem teljes azonosítása. Atomtömegeket, térbeli elrendezést, periodikus tulajdonságváltozásokat és elektronkonfigurációkat nem tartalmaz, így az elemek azonosító adatainak felidézését gyakoroltatja, nem próbál teljes kémiatananyagot adni. A magyar katalógusfelület nem jelenti a pakli tartalmának magyar fordítását.
+Ha valóban mind a 118 elem azonosító adatait kell tudnod, a telepíthető [Periódusos rendszer tanulókártyák: mind a 118 elem neve, vegyjele és rendszáma](/hu/catalog/packages/periodic-table-elements-hu/) pakli 354 kártyát tartalmaz. Minden elemet három meghatározott irányból kérdez: név → vegyjel, vegyjel → név és rendszám → az elem teljes azonosítása. Atomtömegeket, térbeli elrendezést, periodikus tulajdonságváltozásokat és elektronkonfigurációkat nem tartalmaz, így az elemek azonosító adatainak felidézését gyakoroltatja, nem próbál teljes kémiatananyagot adni. A pakli kártyái magyar nyelvűek.
 
 Két külön pakli más-más területet fed le:
 

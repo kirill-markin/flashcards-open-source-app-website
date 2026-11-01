@@ -248,7 +248,7 @@ Gcina inani lokubuyekeza nsuku zonke lilingana namandla akho njengoba wandisa iq
 
 ## Amadekhi aselungile emisebenzi emithathu ehlukene
 
-Uma ngempela uhlose ukwazi wonke ama-elementi angu-118, idekhi efakekayo ethi [Ama-flashcard ethebula le-periodic: wonke amagama, izimpawu nezinombolo ze-athomu zama-elementi angu-118](/zu/catalog/packages/periodic-table-elements/) inamakhadi angu-354. Isebenzisa izindlela ezintathu ezicacile ze-elementi ngayinye: igama → uphawu, uphawu → igama, kanye nenombolo ye-athomu → imininingwane ephelele ekhomba i-elementi. Ayifaki izisindo ze-athomu, ukuhleleka kwezindawo, ukuthambekela noma ukuhleleka kwama-electron, ngakho ihlala iyidekhi yokukhumbula ama-elementi kunokuzama ukuba isifundo samakhemikhali esiphelele. Ukukhetha isiZulu kukhathalogi kushintsha ulimi lwezinkinobho nemiyalelo kuphela, akuhumushi okuqukethwe yidekhi.
+Uma ngempela uhlose ukwazi wonke ama-elementi angu-118, idekhi efakekayo ethi [Ama-flashcard ethebula le-periodic: wonke amagama, izimpawu nezinombolo ze-athomu zama-elementi angu-118](/zu/catalog/packages/periodic-table-elements-zu/) inamakhadi angu-354. Isebenzisa izindlela ezintathu ezicacile ze-elementi ngayinye: igama → uphawu, uphawu → igama, kanye nenombolo ye-athomu → imininingwane ephelele ekhomba i-elementi. Ayifaki izisindo ze-athomu, ukuhleleka kwezindawo, ukuthambekela noma ukuhleleka kwama-electron, ngakho ihlala iyidekhi yokukhumbula ama-elementi kunokuzama ukuba isifundo samakhemikhali esiphelele. Amakhadi akule dekhi abhalwe ngesiZulu.
 
 Amanye amadekhi amabili ahlanganisa okwehlukile:
 

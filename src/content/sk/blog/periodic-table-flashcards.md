@@ -248,7 +248,7 @@ Pri rozširovaní balíčka udržujte denný počet opakovaní zvládnuteľný. 
 
 ## Hotové balíčky na tri rôzne úlohy
 
-Ak sa skutočne potrebujete naučiť identifikovať všetkých 118 prvkov, môžete si pridať balíček [Periodická tabuľka: názvy, značky a protónové čísla všetkých 118 prvkov](/sk/catalog/packages/periodic-table-elements/) s 354 kartičkami. Pri každom prvku používa tri jasne určené smery: názov → značka, značka → názov a protónové číslo → úplná identifikácia prvku. Neobsahuje relatívne atómové hmotnosti, priestorové usporiadanie, trendy ani elektrónové konfigurácie. Zostáva tak balíčkom na vybavovanie základných údajov o prvkoch a nesnaží sa nahradiť kurz chémie. Slovenské rozhranie katalógu neznamená, že obsah balíčka je preložený do slovenčiny.
+Ak sa skutočne potrebujete naučiť identifikovať všetkých 118 prvkov, môžete si pridať balíček [Periodická tabuľka v kartičkách: názvy, značky a protónové čísla všetkých 118 prvkov](/sk/catalog/packages/periodic-table-elements-sk/) s 354 kartičkami. Pri každom prvku používa tri jasne určené smery: názov → značka, značka → názov a protónové číslo → úplná identifikácia prvku. Neobsahuje relatívne atómové hmotnosti, priestorové usporiadanie, trendy ani elektrónové konfigurácie. Zostáva tak balíčkom na vybavovanie základných údajov o prvkoch a nesnaží sa nahradiť kurz chémie. Obsah balíčka je v slovenčine.
 
 Dva samostatné balíčky pokrývajú iné učivo:
 

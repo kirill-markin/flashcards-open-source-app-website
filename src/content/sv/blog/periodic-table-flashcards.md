@@ -248,7 +248,7 @@ Håll den dagliga kön rimlig när du utökar urvalet. Låt mängden repetitione
 
 ## Färdiga kortlekar för tre olika behov
 
-Om du faktiskt behöver kunna identifiera alla 118 grundämnen innehåller den installerbara kortleken [Periodic Table Flashcards: All 118 Names, Symbols & Atomic Numbers](/sv/catalog/packages/periodic-table-elements/) 354 kort. Den tränar tre tydliga riktningar för varje grundämne: namn → kemiskt tecken, kemiskt tecken → namn och atomnummer → grundämnets fullständiga identitet. Atomvikter, placeringar i tabellen, trender och elektronkonfigurationer ingår inte. Kortleken tränar därmed identifiering av grundämnen utan att försöka ersätta en kemikurs. Katalogens gränssnitt är på svenska; kortlekarnas innehåll översätts inte av språkvalet.
+Om du faktiskt behöver kunna identifiera alla 118 grundämnen innehåller den installerbara kortleken [Flashcards för periodiska systemet: alla 118 grundämnens namn, kemiska tecken och atomnummer](/sv/catalog/packages/periodic-table-elements-sv/) 354 kort. Den tränar tre tydliga riktningar för varje grundämne: namn → kemiskt tecken, kemiskt tecken → namn och atomnummer → grundämnets fullständiga identitet. Atomvikter, placeringar i tabellen, trender och elektronkonfigurationer ingår inte. Kortleken tränar därmed identifiering av grundämnen utan att försöka ersätta en kemikurs. Kortleken är på svenska; för övriga kortlekar översätts innehållet inte av språkvalet.
 
 Två separata kortlekar täcker andra områden:
 

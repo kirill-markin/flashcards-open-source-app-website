@@ -248,7 +248,7 @@ Halte deine tägliche Wiederholungsmenge realistisch, während du den Lernstoff 
 
 ## Vorgefertigte Decks für drei verschiedene Lernziele
 
-Wenn du wirklich alle 118 Elemente lernen musst, enthält das installierbare Deck [Periodensystem-Flashcards: Alle 118 Namen, Symbole und Ordnungszahlen](/catalog/packages/periodic-table-elements/) 354 Karten. Für jedes Element gibt es drei eindeutige Abfragerichtungen: Name → Symbol, Symbol → Name und Ordnungszahl → vollständige Angaben zum Element. Atomgewichte, räumliche Anordnung, Trends und Elektronenkonfigurationen sind nicht enthalten. So bleibt es ein Deck für die Zuordnung der Elemente, statt zu versuchen, einen ganzen Chemiekurs zu ersetzen.
+Wenn du wirklich alle 118 Elemente lernen musst, enthält das installierbare Deck [Periodensystem-Karteikarten: alle 118 Namen, Symbole und Ordnungszahlen](/catalog/packages/periodic-table-elements-de/) 354 Karten. Für jedes Element gibt es drei eindeutige Abfragerichtungen: Name → Symbol, Symbol → Name und Ordnungszahl → vollständige Angaben zum Element. Atomgewichte, räumliche Anordnung, Trends und Elektronenkonfigurationen sind nicht enthalten. So bleibt es ein Deck für die Zuordnung der Elemente, statt zu versuchen, einen ganzen Chemiekurs zu ersetzen.
 
 Zwei separate Decks decken andere Lernziele ab:
 

@@ -248,7 +248,7 @@ Dok proširujete skup, pazite da dnevni broj kartica za ponavljanje ostane izved
 
 ## Gotovi špilovi za tri različita zadatka
 
-Ako doista trebate znati osnovne podatke o svih 118 elemenata, špil [Periodni sustav: nazivi, simboli i atomski brojevi svih 118 elemenata](/hr/catalog/packages/periodic-table-elements/) dostupan je za dodavanje u aplikaciju i sadrži 354 kartice. Za svaki element vježba tri jasno određena smjera: naziv → simbol, simbol → naziv i atomski broj → svi osnovni podaci o elementu. Ne obuhvaća atomske težine, prostorni raspored, trendove ni elektronske konfiguracije, pa služi prisjećanju osnovnih podataka, a ne pokušava zamijeniti nastavu kemije. Hrvatsko sučelje kataloga ne mijenja jezik sadržaja špila.
+Ako doista trebate znati osnovne podatke o svih 118 elemenata, špil [Periodni sustav: nazivi, simboli i atomski brojevi svih 118 elemenata](/hr/catalog/packages/periodic-table-elements-hr/) dostupan je za dodavanje u aplikaciju i sadrži 354 kartice. Za svaki element vježba tri jasno određena smjera: naziv → simbol, simbol → naziv i atomski broj → svi osnovni podaci o elementu. Ne obuhvaća atomske težine, prostorni raspored, trendove ni elektronske konfiguracije, pa služi prisjećanju osnovnih podataka, a ne pokušava zamijeniti nastavu kemije. Sadržaj špila je na hrvatskom jeziku.
 
 Dva zasebna špila pokrivaju druga područja:
 

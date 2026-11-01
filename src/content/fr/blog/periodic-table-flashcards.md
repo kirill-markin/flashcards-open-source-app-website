@@ -248,7 +248,7 @@ Gardez un volume quotidien réaliste à mesure que vous ajoutez des éléments. 
 
 ## Des paquets prêts à l’emploi pour trois besoins différents
 
-Si votre objectif est bien d’identifier les 118 éléments, le paquet à installer [Tableau périodique : les 118 noms, symboles et numéros atomiques](/fr/catalog/packages/periodic-table-elements/) contient 354 cartes. Il propose trois sens de rappel explicites pour chaque élément : nom → symbole, symbole → nom et numéro atomique → identification complète de l’élément. Il exclut les masses atomiques relatives, la disposition spatiale, les tendances et les configurations électroniques. Il reste ainsi centré sur l’identification des éléments, sans chercher à remplacer un cours de chimie. Les liens du catalogue ouvrent l’interface en français ; ils ne traduisent pas le contenu des paquets.
+Si votre objectif est bien d’identifier les 118 éléments, le paquet à installer [Flashcards du tableau périodique : les 118 noms, symboles et numéros atomiques](/fr/catalog/packages/periodic-table-elements-fr/) contient 354 cartes. Il propose trois sens de rappel explicites pour chaque élément : nom → symbole, symbole → nom et numéro atomique → identification complète de l’élément. Il exclut les masses atomiques relatives, la disposition spatiale, les tendances et les configurations électroniques. Il reste ainsi centré sur l’identification des éléments, sans chercher à remplacer un cours de chimie. Ce paquet est en français ; les liens vers les autres paquets ouvrent l’interface en français, sans en traduire le contenu.
 
 Deux autres paquets couvrent des besoins distincts :
 

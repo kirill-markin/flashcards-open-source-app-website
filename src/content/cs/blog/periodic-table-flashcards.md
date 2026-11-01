@@ -248,7 +248,7 @@ Při rozšiřování balíčku udržujte denní objem opakování zvládnutelný
 
 ## Hotové balíčky pro tři různé úkoly
 
-Pokud skutečně potřebujete znát všech 118 prvků, můžete si přidat balíček [Periodická tabulka: názvy, značky a protonová čísla všech 118 prvků](/cs/catalog/packages/periodic-table-elements/), který obsahuje 354 kartiček. Každý prvek procvičuje ve třech jasných směrech: název → značka, značka → název a protonové číslo → úplné určení prvku. Nezahrnuje relativní atomové hmotnosti, rozložení tabulky, trendy ani elektronové konfigurace. Zůstává tak balíčkem na vybavování prvků z paměti a nesnaží se nahradit kurz chemie. Odkazy vedou na české rozhraní katalogu; obsah samotných balíčků tím není přeložen.
+Pokud skutečně potřebujete znát všech 118 prvků, můžete si přidat balíček [Periodická tabulka v kartičkách: názvy, značky a protonová čísla všech 118 prvků](/cs/catalog/packages/periodic-table-elements-cs/), který obsahuje 354 kartiček. Každý prvek procvičuje ve třech jasných směrech: název → značka, značka → název a protonové číslo → úplné určení prvku. Nezahrnuje relativní atomové hmotnosti, rozložení tabulky, trendy ani elektronové konfigurace. Zůstává tak balíčkem na vybavování prvků z paměti a nesnaží se nahradit kurz chemie. Tento balíček je v češtině; u ostatních balíčků odkazy vedou na české rozhraní katalogu, ale jejich obsah tím přeložen není.
 
 Dva samostatné balíčky pokrývají jiné oblasti:
 

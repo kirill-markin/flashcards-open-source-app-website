@@ -248,7 +248,7 @@ Jaga agar jumlah pengulangan harian tetap realistis saat menambah materi. Tentuk
 
 ## Dek siap pakai untuk tiga kebutuhan berbeda
 
-Jika identitas semua 118 unsur memang menjadi target Anda, dek [Flashcard Tabel Periodik: Nama, Lambang, dan Nomor Atom Semua 118 Unsur](/id/catalog/packages/periodic-table-elements/) yang dapat dipasang berisi 354 kartu. Dek ini menggunakan tiga arah yang jelas untuk setiap unsur: nama → lambang, lambang → nama, dan nomor atom → identitas unsur lengkap. Isinya tidak mencakup bobot atom, tata letak tabel, tren, atau konfigurasi elektron, sehingga tetap berfokus pada hafalan identitas unsur dan tidak mencoba menggantikan pelajaran kimia. Halaman katalog tersedia dalam bahasa Indonesia; bahasa isi dek mengikuti yang tercantum pada katalog.
+Jika identitas semua 118 unsur memang menjadi target Anda, dek [Flashcard Tabel Periodik: Nama, Lambang, dan Nomor Atom Semua 118 Unsur](/id/catalog/packages/periodic-table-elements-id/) yang dapat dipasang berisi 354 kartu. Dek ini menggunakan tiga arah yang jelas untuk setiap unsur: nama → lambang, lambang → nama, dan nomor atom → identitas unsur lengkap. Isinya tidak mencakup bobot atom, tata letak tabel, tren, atau konfigurasi elektron, sehingga tetap berfokus pada hafalan identitas unsur dan tidak mencoba menggantikan pelajaran kimia. Isi dek ini berbahasa Indonesia.
 
 Dua dek terpisah mencakup materi lain:
 

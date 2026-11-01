@@ -248,7 +248,7 @@ Hafðu daglegt upprifjunarmagn viðráðanlegt á meðan þú stækkar safnið. 
 
 ## Tilbúnir stokkar fyrir þrjú ólík verkefni
 
-Ef markmiðið er í raun að kunna auðkenni allra 118 frumefnanna geturðu sett upp stokkinn [Periodic Table Flashcards: All 118 Names, Symbols & Atomic Numbers](/is/catalog/packages/periodic-table-elements/), sem inniheldur 354 kort. Fyrir hvert frumefni eru þrjár skýrar stefnur: heiti → tákn, tákn → heiti og sætistala → fullt auðkenni frumefnis. Stokkurinn nær ekki yfir atómþyngdir, staðsetningu í töflunni, reglubundna eiginleika eða rafeindaskipan. Hann æfir því upprifjun auðkenna án þess að reyna að vera heilt efnafræðinámskeið. Íslenska viðmótið í skrá stokka breytir ekki tungumáli kortanna.
+Ef markmiðið er í raun að kunna auðkenni allra 118 frumefnanna geturðu sett upp stokkinn [Spjaldkort um lotukerfið: heiti, tákn og sætistölur allra 118 frumefnanna](/is/catalog/packages/periodic-table-elements-is/), sem inniheldur 354 kort. Fyrir hvert frumefni eru þrjár skýrar stefnur: heiti → tákn, tákn → heiti og sætistala → fullt auðkenni frumefnis. Stokkurinn nær ekki yfir atómþyngdir, staðsetningu í töflunni, reglubundna eiginleika eða rafeindaskipan. Hann æfir því upprifjun auðkenna án þess að reyna að vera heilt efnafræðinámskeið. Kortin í stokknum eru á íslensku.
 
 Tveir aðrir stokkar fjalla um önnur afmörkuð efni:
 

@@ -248,7 +248,7 @@ Hoia kaardipakki laiendades igapäevane kordamismaht jõukohane. Vali uute kaart
 
 ## Valmis kaardipakid kolmeks eri ülesandeks
 
-Kui sinu eesmärk on tõesti kõigi 118 elemendi tundmine, sisaldab paigaldatav pakk [Perioodilisustabeli õpikaardid: kõigi 118 elemendi nimed, sümbolid ja aatomnumbrid](/et/catalog/packages/periodic-table-elements/) 354 kaarti. Iga elemendi kohta on kolm selget suunda: nimi → sümbol, sümbol → nimi ja aatomnumber → elemendi täielikud põhiandmed. Pakk ei sisalda aatomkaale, ruumilist paigutust, perioodilisi seaduspärasusi ega elektronkonfiguratsioone. Nii keskendub see elementide tundmisele ega püüa asendada tervet keemiakursust. Kataloogi eestikeelne kasutajaliides ei muuda paki kaartide sisu keelt.
+Kui sinu eesmärk on tõesti kõigi 118 elemendi tundmine, sisaldab paigaldatav pakk [Perioodilisustabeli õpikaardid: kõigi 118 elemendi nimed, sümbolid ja aatomnumbrid](/et/catalog/packages/periodic-table-elements-et/) 354 kaarti. Iga elemendi kohta on kolm selget suunda: nimi → sümbol, sümbol → nimi ja aatomnumber → elemendi täielikud põhiandmed. Pakk ei sisalda aatomkaale, ruumilist paigutust, perioodilisi seaduspärasusi ega elektronkonfiguratsioone. Nii keskendub see elementide tundmisele ega püüa asendada tervet keemiakursust. Paki kaardid on eesti keeles.
 
 Kaks eraldi pakki katavad teisi teemasid:
 

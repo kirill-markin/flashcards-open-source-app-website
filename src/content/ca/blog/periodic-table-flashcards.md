@@ -248,7 +248,7 @@ Mantén una càrrega diària assumible mentre amplies el conjunt. Ajusta el nomb
 
 ## Baralles preparades per a tres objectius diferents
 
-Si realment necessites identificar tots els 118 elements, la baralla instal·lable [Targetes de la taula periòdica: noms, símbols i nombres atòmics dels 118 elements](/ca/catalog/packages/periodic-table-elements/) conté 354 targetes. Per a cada element, treballa tres sentits explícits: nom → símbol, símbol → nom i nombre atòmic → identificació completa de l'element. No inclou pesos atòmics, disposició espacial, tendències ni configuracions electròniques: se centra a recordar la identitat dels elements, sense intentar convertir-se en un curs de química. El contingut de la baralla és en anglès; l'idioma del catàleg només canvia la interfície.
+Si realment necessites identificar tots els 118 elements, la baralla instal·lable [Targetes de la taula periòdica: noms, símbols i nombres atòmics dels 118 elements](/ca/catalog/packages/periodic-table-elements-ca/) conté 354 targetes. Per a cada element, treballa tres sentits explícits: nom → símbol, símbol → nom i nombre atòmic → identificació completa de l'element. No inclou pesos atòmics, disposició espacial, tendències ni configuracions electròniques: se centra a recordar la identitat dels elements, sense intentar convertir-se en un curs de química. El contingut de la baralla és en català.
 
 Dues baralles separades cobreixen altres necessitats:
 
