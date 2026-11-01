@@ -15,7 +15,7 @@ keywords:
   - "thẻ học 20 nguyên tố đầu tiên"
 ---
 
-**Bảng tuần hoàn năm 2026 có 118 nguyên tố đã được biết đến**. Danh sách bắt đầu từ hiđro, số hiệu nguyên tử 1, đến oganesson, số hiệu nguyên tử 118. [Hiệp hội Hóa học Hoa Kỳ (ACS)](https://www.acs.org/education/whatischemistry/periodictable.html) cũng đưa ra con số này và giải thích nguyên tắc sắp xếp: các nguyên tố nằm theo thứ tự số hiệu nguyên tử tăng dần.
+**Bảng tuần hoàn năm 2026 có 118 nguyên tố đã được biết đến**. Danh sách bắt đầu từ hydrogen, số hiệu nguyên tử 1, đến oganesson, số hiệu nguyên tử 118. [Hiệp hội Hóa học Hoa Kỳ (ACS)](https://www.acs.org/education/whatischemistry/periodictable.html) cũng đưa ra con số này và giải thích nguyên tắc sắp xếp: các nguyên tố nằm theo thứ tự số hiệu nguyên tử tăng dần.
 
 Nếu bạn cần tra nhanh, bảng đầy đủ nằm ngay bên dưới. Bảng có tên từng nguyên tố, ký hiệu viết đúng chữ hoa và chữ thường, cùng số hiệu nguyên tử, không trộn thêm nguyên tử lượng. Sau bảng là cách xác định những kiến thức môn học thực sự yêu cầu và chỉ tạo thẻ học cho phạm vi đó.
 
@@ -25,126 +25,126 @@ Nếu bạn cần tra nhanh, bảng đầy đủ nằm ngay bên dưới. Bảng
 
 ## Đủ 118 nguyên tố: số hiệu nguyên tử, ký hiệu và tên
 
-Dãy số hiệu, ký hiệu và tên dưới đây đã được đối chiếu với [bảng tuần hoàn của NIST](https://www.nist.gov/pml/periodic-table-elements) và [bảng tham chiếu của IUPAC](https://iupac.org/cms/wp-content/uploads/2018/12/IUPAC_Periodic_Table-01Dec18.pdf). Bản tiếng Anh của bài viết dùng cách viết tiếng Anh Mỹ theo NIST: *aluminum* và *cesium*. IUPAC dùng *aluminium* và *caesium*. Hai cách viết không làm thay đổi `Al`, `Cs`, 13 hay 55. Khi làm bài bằng tiếng Anh, hãy dùng cách viết môn học yêu cầu. Bảng dưới đây dùng tên nguyên tố tiếng Việt.
+Dãy số hiệu, ký hiệu và tên dưới đây đã được đối chiếu với [bảng tuần hoàn của NIST](https://www.nist.gov/pml/periodic-table-elements) và [bảng tham chiếu của IUPAC](https://iupac.org/cms/wp-content/uploads/2018/12/IUPAC_Periodic_Table-01Dec18.pdf). Bản tiếng Anh của bài viết dùng cách viết tiếng Anh Mỹ theo NIST: *aluminum* và *cesium*. IUPAC dùng *aluminium* và *caesium*. Hai cách viết không làm thay đổi `Al`, `Cs`, 13 hay 55. Khi làm bài bằng tiếng Anh, hãy dùng cách viết môn học yêu cầu. Bảng dưới đây dùng tên nguyên tố theo Chương trình giáo dục phổ thông môn Hóa học 2018: giữ 13 tên tiếng Việt quen thuộc và dùng tên theo IUPAC cho các nguyên tố còn lại.
 
 | Số hiệu nguyên tử | Ký hiệu | Tên nguyên tố |
 | ---: | :---: | --- |
-| 1 | `H` | Hiđro |
-| 2 | `He` | Heli |
-| 3 | `Li` | Liti |
-| 4 | `Be` | Berili |
-| 5 | `B` | Bo |
-| 6 | `C` | Cacbon |
+| 1 | `H` | Hydrogen |
+| 2 | `He` | Helium |
+| 3 | `Li` | Lithium |
+| 4 | `Be` | Beryllium |
+| 5 | `B` | Boron |
+| 6 | `C` | Carbon |
 | 7 | `N` | Nitơ |
-| 8 | `O` | Oxi |
-| 9 | `F` | Flo |
+| 8 | `O` | Oxygen |
+| 9 | `F` | Fluorine |
 | 10 | `Ne` | Neon |
 | 11 | `Na` | Natri |
-| 12 | `Mg` | Magie |
+| 12 | `Mg` | Magnesium |
 | 13 | `Al` | Nhôm |
-| 14 | `Si` | Silic |
-| 15 | `P` | Photpho |
+| 14 | `Si` | Silicon |
+| 15 | `P` | Phosphorus |
 | 16 | `S` | Lưu huỳnh |
-| 17 | `Cl` | Clo |
+| 17 | `Cl` | Chlorine |
 | 18 | `Ar` | Argon |
 | 19 | `K` | Kali |
-| 20 | `Ca` | Canxi |
-| 21 | `Sc` | Scandi |
-| 22 | `Ti` | Titan |
-| 23 | `V` | Vanadi |
-| 24 | `Cr` | Crom |
-| 25 | `Mn` | Mangan |
+| 20 | `Ca` | Calcium |
+| 21 | `Sc` | Scandium |
+| 22 | `Ti` | Titanium |
+| 23 | `V` | Vanadium |
+| 24 | `Cr` | Chromium |
+| 25 | `Mn` | Manganese |
 | 26 | `Fe` | Sắt |
-| 27 | `Co` | Coban |
-| 28 | `Ni` | Niken |
+| 27 | `Co` | Cobalt |
+| 28 | `Ni` | Nickel |
 | 29 | `Cu` | Đồng |
 | 30 | `Zn` | Kẽm |
-| 31 | `Ga` | Gali |
-| 32 | `Ge` | Germani |
-| 33 | `As` | Asen |
-| 34 | `Se` | Selen |
-| 35 | `Br` | Brom |
+| 31 | `Ga` | Gallium |
+| 32 | `Ge` | Germanium |
+| 33 | `As` | Arsenic |
+| 34 | `Se` | Selenium |
+| 35 | `Br` | Bromine |
 | 36 | `Kr` | Krypton |
-| 37 | `Rb` | Rubidi |
-| 38 | `Sr` | Stronti |
-| 39 | `Y` | Ytri |
-| 40 | `Zr` | Zirconi |
-| 41 | `Nb` | Niobi |
-| 42 | `Mo` | Molypden |
-| 43 | `Tc` | Tecneti |
-| 44 | `Ru` | Rutheni |
-| 45 | `Rh` | Rhodi |
-| 46 | `Pd` | Paladi |
+| 37 | `Rb` | Rubidium |
+| 38 | `Sr` | Strontium |
+| 39 | `Y` | Yttrium |
+| 40 | `Zr` | Zirconium |
+| 41 | `Nb` | Niobium |
+| 42 | `Mo` | Molybdenum |
+| 43 | `Tc` | Technetium |
+| 44 | `Ru` | Ruthenium |
+| 45 | `Rh` | Rhodium |
+| 46 | `Pd` | Palladium |
 | 47 | `Ag` | Bạc |
-| 48 | `Cd` | Cadmi |
-| 49 | `In` | Indi |
+| 48 | `Cd` | Cadmium |
+| 49 | `In` | Indium |
 | 50 | `Sn` | Thiếc |
-| 51 | `Sb` | Antimon |
-| 52 | `Te` | Teluri |
-| 53 | `I` | Iot |
+| 51 | `Sb` | Antimony |
+| 52 | `Te` | Tellurium |
+| 53 | `I` | Iodine |
 | 54 | `Xe` | Xenon |
-| 55 | `Cs` | Xesi |
-| 56 | `Ba` | Bari |
-| 57 | `La` | Lantan |
-| 58 | `Ce` | Xeri |
-| 59 | `Pr` | Praseodymi |
-| 60 | `Nd` | Neodymi |
-| 61 | `Pm` | Promethi |
-| 62 | `Sm` | Samari |
-| 63 | `Eu` | Europi |
-| 64 | `Gd` | Gadolini |
-| 65 | `Tb` | Terbi |
-| 66 | `Dy` | Dysprosi |
-| 67 | `Ho` | Holmi |
-| 68 | `Er` | Erbi |
-| 69 | `Tm` | Thuli |
-| 70 | `Yb` | Ytterbi |
-| 71 | `Lu` | Luteti |
-| 72 | `Hf` | Hafni |
-| 73 | `Ta` | Tantal |
-| 74 | `W` | Wolfram |
-| 75 | `Re` | Rheni |
-| 76 | `Os` | Osmi |
-| 77 | `Ir` | Iridi |
-| 78 | `Pt` | Bạch kim |
+| 55 | `Cs` | Caesium |
+| 56 | `Ba` | Barium |
+| 57 | `La` | Lanthanum |
+| 58 | `Ce` | Cerium |
+| 59 | `Pr` | Praseodymium |
+| 60 | `Nd` | Neodymium |
+| 61 | `Pm` | Promethium |
+| 62 | `Sm` | Samarium |
+| 63 | `Eu` | Europium |
+| 64 | `Gd` | Gadolinium |
+| 65 | `Tb` | Terbium |
+| 66 | `Dy` | Dysprosium |
+| 67 | `Ho` | Holmium |
+| 68 | `Er` | Erbium |
+| 69 | `Tm` | Thulium |
+| 70 | `Yb` | Ytterbium |
+| 71 | `Lu` | Lutetium |
+| 72 | `Hf` | Hafnium |
+| 73 | `Ta` | Tantalum |
+| 74 | `W` | Tungsten |
+| 75 | `Re` | Rhenium |
+| 76 | `Os` | Osmium |
+| 77 | `Ir` | Iridium |
+| 78 | `Pt` | Platinum |
 | 79 | `Au` | Vàng |
-| 80 | `Hg` | Thủy ngân |
-| 81 | `Tl` | Tali |
+| 80 | `Hg` | Thuỷ ngân |
+| 81 | `Tl` | Thallium |
 | 82 | `Pb` | Chì |
-| 83 | `Bi` | Bitmut |
-| 84 | `Po` | Poloni |
-| 85 | `At` | Astatin |
+| 83 | `Bi` | Bismuth |
+| 84 | `Po` | Polonium |
+| 85 | `At` | Astatine |
 | 86 | `Rn` | Radon |
-| 87 | `Fr` | Franxi |
-| 88 | `Ra` | Radi |
-| 89 | `Ac` | Actini |
-| 90 | `Th` | Thori |
-| 91 | `Pa` | Protactini |
-| 92 | `U` | Urani |
-| 93 | `Np` | Neptuni |
-| 94 | `Pu` | Plutoni |
-| 95 | `Am` | Americi |
-| 96 | `Cm` | Curi |
-| 97 | `Bk` | Berkeli |
-| 98 | `Cf` | Californi |
-| 99 | `Es` | Einsteini |
-| 100 | `Fm` | Fermi |
-| 101 | `Md` | Mendelevi |
-| 102 | `No` | Nobeli |
-| 103 | `Lr` | Lawrenci |
-| 104 | `Rf` | Rutherfordi |
-| 105 | `Db` | Dubni |
-| 106 | `Sg` | Seaborgi |
-| 107 | `Bh` | Bohri |
-| 108 | `Hs` | Hassi |
-| 109 | `Mt` | Meitneri |
-| 110 | `Ds` | Darmstadti |
-| 111 | `Rg` | Roentgeni |
-| 112 | `Cn` | Copernixi |
-| 113 | `Nh` | Nihoni |
-| 114 | `Fl` | Flerovi |
-| 115 | `Mc` | Moscovi |
-| 116 | `Lv` | Livermori |
+| 87 | `Fr` | Francium |
+| 88 | `Ra` | Radium |
+| 89 | `Ac` | Actinium |
+| 90 | `Th` | Thorium |
+| 91 | `Pa` | Protactinium |
+| 92 | `U` | Uranium |
+| 93 | `Np` | Neptunium |
+| 94 | `Pu` | Plutonium |
+| 95 | `Am` | Americium |
+| 96 | `Cm` | Curium |
+| 97 | `Bk` | Berkelium |
+| 98 | `Cf` | Californium |
+| 99 | `Es` | Einsteinium |
+| 100 | `Fm` | Fermium |
+| 101 | `Md` | Mendelevium |
+| 102 | `No` | Nobelium |
+| 103 | `Lr` | Lawrencium |
+| 104 | `Rf` | Rutherfordium |
+| 105 | `Db` | Dubnium |
+| 106 | `Sg` | Seaborgium |
+| 107 | `Bh` | Bohrium |
+| 108 | `Hs` | Hassium |
+| 109 | `Mt` | Meitnerium |
+| 110 | `Ds` | Darmstadtium |
+| 111 | `Rg` | Roentgenium |
+| 112 | `Cn` | Copernicium |
+| 113 | `Nh` | Nihonium |
+| 114 | `Fl` | Flerovium |
+| 115 | `Mc` | Moscovium |
+| 116 | `Lv` | Livermorium |
 | 117 | `Ts` | Tennessine |
 | 118 | `Og` | Oganesson |
 
@@ -181,17 +181,17 @@ Giáo viên có thể làm rõ yêu cầu bằng cách nói cụ thể chiều h
 
 ## Tạo thẻ từ lỗi sai, đừng chép cả ô nguyên tố
 
-`Co` là coban. `CO` là một công thức chứa hai ký hiệu riêng biệt `C` và `O`. Chỉ một chữ thường đã làm thay đổi ý nghĩa. Một thẻ hữu ích sẽ nhắm đúng lỗi đó:
+`Co` là cobalt. `CO` là một công thức chứa hai ký hiệu riêng biệt `C` và `O`. Chỉ một chữ thường đã làm thay đổi ý nghĩa. Một thẻ hữu ích sẽ nhắm đúng lỗi đó:
 
 ```text
 Mặt trước: Nguyên tố nào có ký hiệu Co?
-Mặt sau: Coban.
+Mặt sau: Cobalt.
 
 Mặt trước: Trong CO có hai ký hiệu nguyên tố nào?
-Mặt sau: C là cacbon và O là oxi.
+Mặt sau: C là carbon và O là oxygen.
 ```
 
-Câu hỏi thứ hai luyện đọc công thức, không phải một thẻ khác về coban. Những cặp dễ nhầm khác gồm `S` và `Si`, `N` và `Ni`, `C` và `Ca`, `P` và `Pb`. Chữ thứ hai trong ký hiệu hai chữ cái phải viết thường.
+Câu hỏi thứ hai luyện đọc công thức, không phải một thẻ khác về cobalt. Những cặp dễ nhầm khác gồm `S` và `Si`, `N` và `Ni`, `C` và `Ca`, `P` và `Pb`. Chữ thứ hai trong ký hiệu hai chữ cái phải viết thường.
 
 Một số ký hiệu khó nhớ vì lý do khác: tên tiếng Anh không gợi ra những chữ cái trong ký hiệu. Nếu bạn học tên tiếng Anh và những nguyên tố này nằm trong phạm vi môn học, chúng là các ứng viên phù hợp để tạo thẻ ngay khi mắc lỗi:
 
@@ -203,10 +203,10 @@ Một số ký hiệu khó nhớ vì lý do khác: tên tiếng Anh không gợi
 | Đồng (Copper) | `Cu` | 29 |
 | Bạc (Silver) | `Ag` | 47 |
 | Thiếc (Tin) | `Sn` | 50 |
-| Antimon (Antimony) | `Sb` | 51 |
-| Wolfram (Tungsten) | `W` | 74 |
+| Antimony | `Sb` | 51 |
+| Tungsten | `W` | 74 |
 | Vàng (Gold) | `Au` | 79 |
-| Thủy ngân (Mercury) | `Hg` | 80 |
+| Thuỷ ngân (Mercury) | `Hg` | 80 |
 | Chì (Lead) | `Pb` | 82 |
 
 Đừng tạo thẻ cho cả 11 nguyên tố chỉ vì chúng có trong danh sách. Hãy thử điền bảng trống hoặc làm bài kiểm tra ký hiệu trước, rồi giữ lại những mục bạn trả lời sai.
@@ -283,11 +283,11 @@ Trò chuyện với AI và đính kèm tệp có thể giúp soạn thẻ nháp 
 
 ### Bảng tuần hoàn năm 2026 có bao nhiêu nguyên tố?
 
-Có 118 nguyên tố đã được biết đến. Hiđro có số hiệu 1 và oganesson có số hiệu 118. Các bảng hiện hành của ACS, NIST và IUPAC đều kết thúc ở nguyên tố 118.
+Có 118 nguyên tố đã được biết đến. Hydrogen có số hiệu 1 và oganesson có số hiệu 118. Các bảng hiện hành của ACS, NIST và IUPAC đều kết thúc ở nguyên tố 118.
 
 ### Nguyên tố thứ 118 là gì?
 
-Oganesson, ký hiệu `Og`, là nguyên tố 118. IUPAC thông qua tên và ký hiệu hiện tại vào tháng 11 năm 2016, cùng với nihoni (`Nh`), moscovi (`Mc`) và tennessine (`Ts`).
+Oganesson, ký hiệu `Og`, là nguyên tố 118. IUPAC thông qua tên và ký hiệu hiện tại vào tháng 11 năm 2016, cùng với nihonium (`Nh`), moscovium (`Mc`) và tennessine (`Ts`).
 
 ### Học sinh có nên thuộc cả 118 nguyên tố không?
 
