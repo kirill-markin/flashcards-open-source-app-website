@@ -25,7 +25,7 @@ Ef þú vilt fletta einhverju upp er heildartaflan hér beint fyrir neðan. Hún
 
 ## Öll 118 frumefnin: sætistölur, tákn og heiti
 
-Röðin sætistala–tákn–heiti hér að neðan var borin saman við [lotukerfi NIST](https://www.nist.gov/pml/periodic-table-elements) og [viðmiðunartöflu IUPAC](https://iupac.org/cms/wp-content/uploads/2018/12/IUPAC_Periodic_Table-01Dec18.pdf). Í ensku frumgerð greinarinnar fylgja heitin bandarískri stafsetningu NIST: *aluminum* og *cesium*. IUPAC notar *aluminium* og *caesium*. Hér eru íslensk heiti, ál og sesín. Stafsetningin breytir hvorki `Al`, `Cs`, 13 né 55, svo notaðu þann rithátt sem námskeiðið þitt krefst.
+Röðin sætistala–tákn–heiti hér að neðan var borin saman við [lotukerfi NIST](https://www.nist.gov/pml/periodic-table-elements) og [viðmiðunartöflu IUPAC](https://iupac.org/cms/wp-content/uploads/2018/12/IUPAC_Periodic_Table-01Dec18.pdf). Í ensku frumgerð greinarinnar fylgja heitin bandarískri stafsetningu NIST: *aluminum* og *cesium*. IUPAC notar *aluminium* og *caesium*. Hér eru íslensk heiti, þar á meðal ál og sesín, úr kennslubókinni Efnisheimurinn og Orðaskrá um eðlisfræði í Íðorðabankanum og, fyrir frumefni 104–118, af Vísindavefnum. Stafsetningin breytir hvorki `Al`, `Cs`, 13 né 55, svo notaðu þann rithátt sem námskeiðið þitt krefst.
 
 | Sætistala | Tákn | Heiti frumefnis |
 | ---: | :---: | --- |
@@ -35,7 +35,7 @@ Röðin sætistala–tákn–heiti hér að neðan var borin saman við [lotuker
 | 4 | `Be` | Beryllín |
 | 5 | `B` | Bór |
 | 6 | `C` | Kolefni |
-| 7 | `N` | Köfnunarefni |
+| 7 | `N` | Nitur (köfnunarefni) |
 | 8 | `O` | Súrefni |
 | 9 | `F` | Flúor |
 | 10 | `Ne` | Neon |
@@ -99,7 +99,7 @@ Röðin sætistala–tákn–heiti hér að neðan var borin saman við [lotuker
 | 68 | `Er` | Erbín |
 | 69 | `Tm` | Túlín |
 | 70 | `Yb` | Ytterbín |
-| 71 | `Lu` | Lútetín |
+| 71 | `Lu` | Lútesín |
 | 72 | `Hf` | Hafnín |
 | 73 | `Ta` | Tantal |
 | 74 | `W` | Volfram |
@@ -126,7 +126,7 @@ Röðin sætistala–tákn–heiti hér að neðan var borin saman við [lotuker
 | 95 | `Am` | Ameríkín |
 | 96 | `Cm` | Kúrín |
 | 97 | `Bk` | Berkelín |
-| 98 | `Cf` | Kalifornín |
+| 98 | `Cf` | Kalífornín |
 | 99 | `Es` | Einsteinín |
 | 100 | `Fm` | Fermín |
 | 101 | `Md` | Mendelevín |
@@ -135,10 +135,10 @@ Röðin sætistala–tákn–heiti hér að neðan var borin saman við [lotuker
 | 104 | `Rf` | Rutherfordín |
 | 105 | `Db` | Dubnín |
 | 106 | `Sg` | Seborgín |
-| 107 | `Bh` | Bohrín |
+| 107 | `Bh` | Bórín |
 | 108 | `Hs` | Hassín |
 | 109 | `Mt` | Meitnerín |
-| 110 | `Ds` | Darmstadtín |
+| 110 | `Ds` | Darmstatín |
 | 111 | `Rg` | Röntgenín |
 | 112 | `Cn` | Kópernikín |
 | 113 | `Nh` | Níhon |

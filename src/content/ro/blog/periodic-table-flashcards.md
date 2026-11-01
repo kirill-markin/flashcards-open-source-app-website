@@ -25,7 +25,7 @@ Dacă ai venit pentru o verificare rapidă, tabelul complet este chiar mai jos. 
 
 ## Toate cele 118 elemente: numere atomice, simboluri și denumiri
 
-Corespondențele dintre numere, simboluri și denumiri de mai jos au fost verificate folosind [tabelul periodic NIST](https://www.nist.gov/pml/periodic-table-elements) și [tabelul de referință IUPAC](https://iupac.org/cms/wp-content/uploads/2018/12/IUPAC_Periodic_Table-01Dec18.pdf). Articolul-sursă în engleză folosește ortografia americană din NIST: *aluminum* și *cesium*. IUPAC folosește *aluminium* și *caesium*. Aceste variante nu schimbă simbolurile `Al` și `Cs` sau numerele 13 și 55. Mai jos sunt denumirile românești; dacă studiezi în engleză, folosește varianta cerută la curs.
+Corespondențele dintre numere, simboluri și denumiri de mai jos au fost verificate folosind [tabelul periodic NIST](https://www.nist.gov/pml/periodic-table-elements) și [tabelul de referință IUPAC](https://iupac.org/cms/wp-content/uploads/2018/12/IUPAC_Periodic_Table-01Dec18.pdf). Articolul-sursă în engleză folosește ortografia americană din NIST: *aluminum* și *cesium*. IUPAC folosește *aluminium* și *caesium*. Aceste variante nu schimbă simbolurile `Al` și `Cs` sau numerele 13 și 55. Mai jos sunt denumirile românești din manualele școlare de chimie și din DOOM3; dacă studiezi în engleză, folosește varianta cerută la curs.
 
 | Număr atomic | Simbol | Denumirea elementului |
 | ---: | :---: | --- |
@@ -71,7 +71,7 @@ Corespondențele dintre numere, simboluri și denumiri de mai jos au fost verifi
 | 40 | `Zr` | Zirconiu |
 | 41 | `Nb` | Niobiu |
 | 42 | `Mo` | Molibden |
-| 43 | `Tc` | Tehnețiu |
+| 43 | `Tc` | Technețiu |
 | 44 | `Ru` | Ruteniu |
 | 45 | `Rh` | Rodiu |
 | 46 | `Pd` | Paladiu |
@@ -113,7 +113,7 @@ Corespondențele dintre numere, simboluri și denumiri de mai jos au fost verifi
 | 82 | `Pb` | Plumb |
 | 83 | `Bi` | Bismut |
 | 84 | `Po` | Poloniu |
-| 85 | `At` | Astatin |
+| 85 | `At` | Astatiniu (Astatin) |
 | 86 | `Rn` | Radon |
 | 87 | `Fr` | Franciu |
 | 88 | `Ra` | Radiu |
@@ -129,7 +129,7 @@ Corespondențele dintre numere, simboluri și denumiri de mai jos au fost verifi
 | 98 | `Cf` | Californiu |
 | 99 | `Es` | Einsteiniu |
 | 100 | `Fm` | Fermiu |
-| 101 | `Md` | Mendeleviu |
+| 101 | `Md` | Mendeleeviu (Mendeleviu) |
 | 102 | `No` | Nobeliu |
 | 103 | `Lr` | Lawrenciu |
 | 104 | `Rf` | Rutherfordiu |

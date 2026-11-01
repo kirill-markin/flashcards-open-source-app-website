@@ -25,7 +25,7 @@ keywords:
 
 ## 전체 118개 원소의 원자 번호, 기호, 이름
 
-아래의 번호·기호·이름은 [NIST 원소 주기율표](https://www.nist.gov/pml/periodic-table-elements) 및 [IUPAC 기준 주기율표](https://iupac.org/cms/wp-content/uploads/2018/12/IUPAC_Periodic_Table-01Dec18.pdf)와 대조했습니다. 이 글의 영어 원문은 NIST의 미국식 영어 표기인 *aluminum*과 *cesium*을 사용합니다. IUPAC는 *aluminium*과 *caesium*을 사용합니다. 어느 쪽이든 `Al`, `Cs`, 13, 55는 바뀌지 않습니다. 영어 이름을 쓸 때는 수업에서 요구하는 표기를 따르세요. 아래 표는 한국어 원소명으로 정리했습니다.
+아래의 번호·기호·이름은 [NIST 원소 주기율표](https://www.nist.gov/pml/periodic-table-elements) 및 [IUPAC 기준 주기율표](https://iupac.org/cms/wp-content/uploads/2018/12/IUPAC_Periodic_Table-01Dec18.pdf)와 대조했습니다. 이 글의 영어 원문은 NIST의 미국식 영어 표기인 *aluminum*과 *cesium*을 사용합니다. IUPAC는 *aluminium*과 *caesium*을 사용합니다. 어느 쪽이든 `Al`, `Cs`, 13, 55는 바뀌지 않습니다. 영어 이름을 쓸 때는 수업에서 요구하는 표기를 따르세요. 아래 표의 한국어 원소명은 대한화학회 표준 주기율표를 따릅니다.
 
 | 원자 번호 | 기호 | 원소 이름 |
 | ---: | :---: | --- |
@@ -133,7 +133,7 @@ keywords:
 | 102 | `No` | 노벨륨 |
 | 103 | `Lr` | 로렌슘 |
 | 104 | `Rf` | 러더포듐 |
-| 105 | `Db` | 더브늄 |
+| 105 | `Db` | 두브늄 |
 | 106 | `Sg` | 시보귬 |
 | 107 | `Bh` | 보륨 |
 | 108 | `Hs` | 하슘 |

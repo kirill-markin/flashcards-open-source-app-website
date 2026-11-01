@@ -25,7 +25,7 @@ V periodnem sistemu je leta 2026 **118 znanih elementov**. Seznam se začne z vo
 
 ## Vseh 118 elementov: vrstna števila, simboli in imena
 
-Spodnje zaporedje števil, simbolov in imen je bilo preverjeno s [periodnim sistemom elementov NIST](https://www.nist.gov/pml/periodic-table-elements) in [referenčno tabelo IUPAC](https://iupac.org/cms/wp-content/uploads/2018/12/IUPAC_Periodic_Table-01Dec18.pdf). Angleški izvirnik tega članka uporablja ameriški zapis imen po NIST: *aluminum* in *cesium*. IUPAC uporablja *aluminium* in *caesium*. Spodaj so slovenska imena. Različni angleški zapisi ne spremenijo simbolov `Al` in `Cs` ali vrstnih števil 13 in 55; pri učenju v angleščini uporabite zapis, ki ga zahteva vaš predmet.
+Spodnje zaporedje števil, simbolov in imen je bilo preverjeno s [periodnim sistemom elementov NIST](https://www.nist.gov/pml/periodic-table-elements) in [referenčno tabelo IUPAC](https://iupac.org/cms/wp-content/uploads/2018/12/IUPAC_Periodic_Table-01Dec18.pdf). Angleški izvirnik tega članka uporablja ameriški zapis imen po NIST: *aluminum* in *cesium*. IUPAC uporablja *aluminium* in *caesium*. Spodaj so slovenska imena po Slovenskem pravopisu in periodnem sistemu Slovenskega kemijskega društva. Različni angleški zapisi ne spremenijo simbolov `Al` in `Cs` ali vrstnih števil 13 in 55; pri učenju v angleščini uporabite zapis, ki ga zahteva vaš predmet.
 
 | Vrstno število | Simbol | Ime elementa |
 | ---: | :---: | --- |
@@ -132,14 +132,14 @@ Spodnje zaporedje števil, simbolov in imen je bilo preverjeno s [periodnim sist
 | 101 | `Md` | Mendelevij |
 | 102 | `No` | Nobelij |
 | 103 | `Lr` | Lavrencij |
-| 104 | `Rf` | Raderfordij |
+| 104 | `Rf` | Rutherfordij (raderfordij) |
 | 105 | `Db` | Dubnij |
-| 106 | `Sg` | Siborgij |
-| 107 | `Bh` | Borij |
-| 108 | `Hs` | Hasij |
-| 109 | `Mt` | Majtnerij |
-| 110 | `Ds` | Darmštatij |
-| 111 | `Rg` | Rentgenij |
+| 106 | `Sg` | Seaborgij (siborgij) |
+| 107 | `Bh` | Bohrij (borij) |
+| 108 | `Hs` | Hassij (hasij) |
+| 109 | `Mt` | Meitnerij (majtnerij) |
+| 110 | `Ds` | Darmstadtij (darmštatij) |
+| 111 | `Rg` | Roentgenij (rentgenij) |
 | 112 | `Cn` | Kopernicij |
 | 113 | `Nh` | Nihonij |
 | 114 | `Fl` | Flerovij |

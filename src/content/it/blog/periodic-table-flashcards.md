@@ -25,7 +25,7 @@ Se cerchi un riferimento rapido, trovi la tabella completa qui sotto. Riporta il
 
 ## Tutti i 118 elementi: numeri atomici, simboli e nomi
 
-La sequenza numero-simbolo-nome qui sotto è stata confrontata con la [tavola periodica degli elementi del NIST](https://www.nist.gov/pml/periodic-table-elements) e con la [tavola di riferimento IUPAC](https://iupac.org/cms/wp-content/uploads/2018/12/IUPAC_Periodic_Table-01Dec18.pdf). Nell'articolo originale inglese, i nomi seguono la grafia statunitense del NIST: *aluminum* e *cesium*. La IUPAC usa *aluminium* e *caesium*. Queste differenze non cambiano `Al`, `Cs`, 13 o 55; se studi in inglese, usa la grafia richiesta dal tuo corso. Qui i nomi sono riportati in italiano.
+La sequenza numero-simbolo-nome qui sotto è stata confrontata con la [tavola periodica degli elementi del NIST](https://www.nist.gov/pml/periodic-table-elements) e con la [tavola di riferimento IUPAC](https://iupac.org/cms/wp-content/uploads/2018/12/IUPAC_Periodic_Table-01Dec18.pdf). Nell'articolo originale inglese, i nomi seguono la grafia statunitense del NIST: *aluminum* e *cesium*. La IUPAC usa *aluminium* e *caesium*. Queste differenze non cambiano `Al`, `Cs`, 13 o 55; se studi in inglese, usa la grafia richiesta dal tuo corso. Qui i nomi sono riportati in italiano, secondo le tavole periodiche scolastiche di Zanichelli e HUB Scuola.
 
 | Numero atomico | Simbolo | Nome dell'elemento |
 | ---: | :---: | --- |
@@ -64,7 +64,7 @@ La sequenza numero-simbolo-nome qui sotto è stata confrontata con la [tavola pe
 | 33 | `As` | Arsenico |
 | 34 | `Se` | Selenio |
 | 35 | `Br` | Bromo |
-| 36 | `Kr` | Kripton |
+| 36 | `Kr` | Cripton (Kripton) |
 | 37 | `Rb` | Rubidio |
 | 38 | `Sr` | Stronzio |
 | 39 | `Y` | Ittrio |
@@ -82,7 +82,7 @@ La sequenza numero-simbolo-nome qui sotto è stata confrontata con la [tavola pe
 | 51 | `Sb` | Antimonio |
 | 52 | `Te` | Tellurio |
 | 53 | `I` | Iodio |
-| 54 | `Xe` | Xeno |
+| 54 | `Xe` | Xenon |
 | 55 | `Cs` | Cesio |
 | 56 | `Ba` | Bario |
 | 57 | `La` | Lantanio |
@@ -138,7 +138,7 @@ La sequenza numero-simbolo-nome qui sotto è stata confrontata con la [tavola pe
 | 107 | `Bh` | Bohrio |
 | 108 | `Hs` | Hassio |
 | 109 | `Mt` | Meitnerio |
-| 110 | `Ds` | Darmstadtio |
+| 110 | `Ds` | Darmstadio (Darmstadtio) |
 | 111 | `Rg` | Roentgenio |
 | 112 | `Cn` | Copernicio |
 | 113 | `Nh` | Nihonio |
