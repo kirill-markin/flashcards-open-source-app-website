@@ -3627,6 +3627,21 @@
     "bytes": 2519643
   },
   {
+    "publicPath": "/blog/thermoplastic-vs-thermoset-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/e5d9fdc54c4c71ec57190d1c8b417982f816f5d6658b1a367f7087bf1dd67e02.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "e5d9fdc54c4c71ec57190d1c8b417982f816f5d6658b1a367f7087bf1dd67e02",
+    "bytes": 144388,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/deb2012fcef10105fa3bb0d6df11a564d9e5ef0aa5865dfe0ecba71b38fe59d0.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "deb2012fcef10105fa3bb0d6df11a564d9e5ef0aa5865dfe0ecba71b38fe59d0",
+      "bytes": 2219726
+    }
+  },
+  {
     "publicPath": "/blog/three-set-venn-diagram-problems.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/96677b7f7c945be838719c7de0c1f464cac75fbb053b94a1df3ecd92e768f3a5.webp",
     "width": 1672,
