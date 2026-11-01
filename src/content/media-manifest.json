@@ -3717,6 +3717,21 @@
     "bytes": 2519643
   },
   {
+    "publicPath": "/blog/thai-alphabet-flashcards-aspiration.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/870e9c21f8b1d6e5c724dbcdbc06956cb05da3b37ac4b620adea8dab371166ad.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "870e9c21f8b1d6e5c724dbcdbc06956cb05da3b37ac4b620adea8dab371166ad",
+    "bytes": 82600,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/5853a1ebe9e4382d25085077177f84685111bf0c4419ae8c9ecdcc35aa309512.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "5853a1ebe9e4382d25085077177f84685111bf0c4419ae8c9ecdcc35aa309512",
+      "bytes": 1996921
+    }
+  },
+  {
     "publicPath": "/blog/thermoplastic-vs-thermoset-practice.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/e5d9fdc54c4c71ec57190d1c8b417982f816f5d6658b1a367f7087bf1dd67e02.webp",
     "width": 1672,

@@ -13,6 +13,7 @@ import { getPublicCatalogPackageLocalizedPathname } from "./publicCatalogUrls";
 const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   Record<string, Readonly<Partial<Record<AppLocale, string>>>>
 > = {
+  "thai-alphabet-flashcards": { it: "thai-alphabet-italian-speakers" },
   "rioplatense-spanish-voseo-household": {
     ru: "rioplatense-spanish-voseo-household-russian-speakers",
   },
