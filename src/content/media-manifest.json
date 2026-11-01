@@ -1027,6 +1027,21 @@
     "bytes": 2312258
   },
   {
+    "publicPath": "/blog/engineering-materials-flashcards.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/46c4446ea2840ffa8d8623a24ec556a26bf95499efba81cfbb301ac4266fc3b5.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "46c4446ea2840ffa8d8623a24ec556a26bf95499efba81cfbb301ac4266fc3b5",
+    "bytes": 137676,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/429b544e890b0bfb5ac9365fca68c8c64168387749d77906ff6eabe67604b5e3.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "429b544e890b0bfb5ac9365fca68c8c64168387749d77906ff6eabe67604b5e3",
+      "bytes": 2089561
+    }
+  },
+  {
     "publicPath": "/blog/enzyme-inhibition-practice-problems.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/fd2bb652d94d39980d576e84d2434aff215ba84c5cb0822922ade4ad7dc4d219.webp",
     "width": 1672,
@@ -1345,6 +1360,21 @@
       "height": 941,
       "sha256": "002b4cbda23b5347a141469b2ac3a5a8fb9235c5e022df286c321c7df2b0184f",
       "bytes": 2861422
+    }
+  },
+  {
+    "publicPath": "/blog/german-noun-gender-plurals.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/65aeecc055170c192996c036780b2237b96be68846b1520cfd56ebe72fbbeb0d.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "65aeecc055170c192996c036780b2237b96be68846b1520cfd56ebe72fbbeb0d",
+    "bytes": 153462,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/96b09a3d0af92f8b0966f99ddc57e4f5959da85349b0004a8298bc311a00a442.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "96b09a3d0af92f8b0966f99ddc57e4f5959da85349b0004a8298bc311a00a442",
+      "bytes": 2214185
     }
   },
   {
