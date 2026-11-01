@@ -3329,6 +3329,21 @@
     }
   },
   {
+    "publicPath": "/blog/seventh-chord-inversions-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/0da8ceeaded957bcf9e410ddb46a529a9a5e21efbb8b8ed9df9012df8e6fb52d.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "0da8ceeaded957bcf9e410ddb46a529a9a5e21efbb8b8ed9df9012df8e6fb52d",
+    "bytes": 147328,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/63598402bcb83c0b807ef33d42e3748c9975e4e227804718de04e547a3306967.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "63598402bcb83c0b807ef33d42e3748c9975e4e227804718de04e547a3306967",
+      "bytes": 2319819
+    }
+  },
+  {
     "publicPath": "/blog/si-base-and-derived-units.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/1ca240b99c4cc3d0d99b3360e20f057a0d1a56ec5b16a35bb6a3094be70dcf10.png",
     "width": 1672,
