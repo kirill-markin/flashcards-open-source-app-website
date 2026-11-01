@@ -1331,6 +1331,21 @@
     "bytes": 2047250
   },
   {
+    "publicPath": "/blog/french-conversational-fillers.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/e025e4b01c686b443fd716713e7b6dda376310f8bd49514009dfe2ee2d5e6147.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "e025e4b01c686b443fd716713e7b6dda376310f8bd49514009dfe2ee2d5e6147",
+    "bytes": 112090,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/f0df2201f482f322946265e9b9300f5e14fa2ae7f5e5aeb74a4ee751b05e31a0.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "f0df2201f482f322946265e9b9300f5e14fa2ae7f5e5aeb74a4ee751b05e31a0",
+      "bytes": 2030909
+    }
+  },
+  {
     "publicPath": "/blog/fsrs-settings-v2.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/0f13f4f72039285bcd797120e287150fb82a4fa6c161e9df180d667b0a6ee273.png",
     "width": 1717,

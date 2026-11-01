@@ -157,6 +157,8 @@ I would use production cards selectively:
 
 That keeps the deck useful without turning it into homework theater.
 
+For French, the [conversational fillers practice guide](/blog/french-conversational-fillers/) uses short exchanges and constrained choices to distinguish meaning, register and overuse, with English explanations.
+
 For a concrete example, [this Spanish present-tense deck](/catalog/packages/spanish-present-tense-verbs/) has 150 production cards, each pairing one of 25 infinitives with one of six subject groups and asking for a single present-indicative form. It is a focused conjugation drill, not a complete Spanish course.
 
 For contextual tense choice, [Spanish Preterite vs. Imperfect Flashcards: Tense Choice in Context](/catalog/packages/spanish-preterite-vs-imperfect-flashcards/) uses 160 cards: 16 foundations, 120 contextual-production prompts, and 24 story-context questions. Each contextual back gives the answer first, then the completed sentence and a short English explanation.
