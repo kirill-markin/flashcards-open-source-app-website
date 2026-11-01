@@ -3136,6 +3136,21 @@
     "bytes": 2253193
   },
   {
+    "publicPath": "/blog/remnote-disable-flashcards.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/34fb95a25bccf06664a3c29342b4249622a2fc4f2254ac89ff3bddee58b07595.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "34fb95a25bccf06664a3c29342b4249622a2fc4f2254ac89ff3bddee58b07595",
+    "bytes": 298862,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/6c58a49deb4d5509f2f01ccbc07ba68b63fc3ae90ae491b533083f7514785179.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "6c58a49deb4d5509f2f01ccbc07ba68b63fc3ae90ae491b533083f7514785179",
+      "bytes": 2982499
+    }
+  },
+  {
     "publicPath": "/blog/remnote-exam-scheduler.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/9323680bb770e57ac620d57fc0449b495316c07615ec97d633046f045b3f7cbc.png",
     "width": 1672,
