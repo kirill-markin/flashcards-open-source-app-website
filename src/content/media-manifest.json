@@ -2780,6 +2780,21 @@
     }
   },
   {
+    "publicPath": "/blog/percent-error-vs-percent-difference.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/950bb872ad444cc1df05784a96a73f60e6a7cb5b7ef5f0cb56c8589369b5021a.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "950bb872ad444cc1df05784a96a73f60e6a7cb5b7ef5f0cb56c8589369b5021a",
+    "bytes": 193950,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/f11a6ee8966859f1ffc6104aedacece35891caf1a009e0b5487608f488d64b3d.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "f11a6ee8966859f1ffc6104aedacece35891caf1a009e0b5487608f488d64b3d",
+      "bytes": 2456281
+    }
+  },
+  {
     "publicPath": "/blog/percentage-points-vs-percent-change.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/219f337c38d1fc76fc92aff058c00acd5dce57e61dbf82dc3d947d0d3ea70c14.png",
     "width": 1672,
