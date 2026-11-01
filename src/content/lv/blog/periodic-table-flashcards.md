@@ -25,7 +25,7 @@ Ja vajadzīga ātra uzziņa, pilnā tabula ir tepat zemāk. Tajā ir katra eleme
 
 ## Visi 118 elementi: atomskaitļi, simboli un nosaukumi
 
-Tālāk norādītā skaitļu, simbolu un nosaukumu atbilstība ir salīdzināta ar [NIST elementu periodisko tabulu](https://www.nist.gov/pml/periodic-table-elements) un [IUPAC atsauces tabulu](https://iupac.org/cms/wp-content/uploads/2018/12/IUPAC_Periodic_Table-01Dec18.pdf). Raksta angļu oriģinālā nosaukumi atbilst NIST lietotajai ASV angļu valodas rakstībai: *aluminum* un *cesium*. IUPAC lieto *aluminium* un *caesium*. Latviski tie ir alumīnijs un cēzijs. Neviens rakstības variants nemaina `Al`, `Cs`, 13 vai 55, tāpēc, mācoties angliski, lieto savā kursā prasīto rakstību.
+Tālāk norādītā skaitļu, simbolu un nosaukumu atbilstība ir salīdzināta ar [NIST elementu periodisko tabulu](https://www.nist.gov/pml/periodic-table-elements) un [IUPAC atsauces tabulu](https://iupac.org/cms/wp-content/uploads/2018/12/IUPAC_Periodic_Table-01Dec18.pdf). Latviskie nosaukumi atbilst Nacionālajai enciklopēdijai un LZA Terminoloģijas komisijas terminiem. Raksta angļu oriģinālā nosaukumi atbilst NIST lietotajai ASV angļu valodas rakstībai: *aluminum* un *cesium*. IUPAC lieto *aluminium* un *caesium*. Latviski tie ir alumīnijs un cēzijs. Neviens rakstības variants nemaina `Al`, `Cs`, 13 vai 55, tāpēc, mācoties angliski, lieto savā kursā prasīto rakstību.
 
 | Atomskaitlis | Simbols | Elementa nosaukums |
 | ---: | :---: | --- |
@@ -134,13 +134,13 @@ Tālāk norādītā skaitļu, simbolu un nosaukumu atbilstība ir salīdzināta 
 | 103 | `Lr` | Lourensijs |
 | 104 | `Rf` | Rezerfordijs |
 | 105 | `Db` | Dubnijs |
-| 106 | `Sg` | Sīborgijs |
+| 106 | `Sg` | Sībordžijs |
 | 107 | `Bh` | Borijs |
 | 108 | `Hs` | Hasijs |
 | 109 | `Mt` | Meitnerijs |
 | 110 | `Ds` | Darmštatijs |
 | 111 | `Rg` | Rentgenijs |
-| 112 | `Cn` | Kopernicijs |
+| 112 | `Cn` | Kopernikijs |
 | 113 | `Nh` | Nihonijs |
 | 114 | `Fl` | Flerovijs |
 | 115 | `Mc` | Moskovijs |

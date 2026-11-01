@@ -15,7 +15,7 @@ keywords:
   - "kadi za elementi 20 za kwanza"
 ---
 
-Kuna **elementi 118 zinazojulikana katika jedwali la elementi mwaka 2026**. Orodha inaanzia hidrojeni, yenye namba atomia 1, hadi oganesoni, yenye namba atomia 118. [American Chemical Society](https://www.acs.org/education/whatischemistry/periodictable.html) inatoa jumla hiyohiyo na kueleza kanuni ya mpangilio: elementi hupangwa kwa kufuata ongezeko la namba atomia.
+Kuna **elementi 118 zinazojulikana katika jedwali la elementi mwaka 2026**. Orodha inaanzia haidrojeni, yenye namba atomia 1, hadi oganesoni, yenye namba atomia 118. [American Chemical Society](https://www.acs.org/education/whatischemistry/periodictable.html) inatoa jumla hiyohiyo na kueleza kanuni ya mpangilio: elementi hupangwa kwa kufuata ongezeko la namba atomia.
 
 Ikiwa unahitaji kutafuta taarifa haraka, jedwali kamili liko hapa chini. Lina jina la kila elementi, alama yake yenye herufi kubwa na ndogo sahihi, na namba atomia, bila kuchanganya taarifa hizo na uzani atomia. Baada ya jedwali, kuna njia ya kuamua ni taarifa zipi hasa kozi yako inahitaji na kutengeneza kadi za kujifunzia kwa taarifa hizo tu.
 
@@ -25,17 +25,17 @@ Ikiwa unahitaji kutafuta taarifa haraka, jedwali kamili liko hapa chini. Lina ji
 
 ## Elementi zote 118: namba atomia, alama na majina
 
-Mfuatano wa namba, alama na majina ulio hapa chini ulihakikiwa kwa kutumia [Jedwali la Elementi la NIST](https://www.nist.gov/pml/periodic-table-elements) na [jedwali la marejeo la IUPAC](https://iupac.org/cms/wp-content/uploads/2018/12/IUPAC_Periodic_Table-01Dec18.pdf). Makala ya asili ya Kiingereza hutumia tahajia za Kiingereza cha Marekani zinazotumiwa na NIST: *aluminum* na *cesium*. IUPAC hutumia *aluminium* na *caesium*. Tofauti hizo hazibadilishi `Al`, `Cs`, 13 au 55, kwa hiyo tumia tahajia zinazotakiwa katika kozi yako.
+Mfuatano wa namba, alama na majina ulio hapa chini ulihakikiwa kwa kutumia [Jedwali la Elementi la NIST](https://www.nist.gov/pml/periodic-table-elements) na [jedwali la marejeo la IUPAC](https://iupac.org/cms/wp-content/uploads/2018/12/IUPAC_Periodic_Table-01Dec18.pdf). Pale ambapo mitihani ya Sayansi ya NECTA inataja elementi, majina ya Kiswahili yanafuata mitihani hiyo. Makala ya asili ya Kiingereza hutumia tahajia za Kiingereza cha Marekani zinazotumiwa na NIST: *aluminum* na *cesium*. IUPAC hutumia *aluminium* na *caesium*. Tofauti hizo hazibadilishi `Al`, `Cs`, 13 au 55, kwa hiyo tumia tahajia zinazotakiwa katika kozi yako.
 
 | Namba atomia | Alama | Jina la elementi |
 | ---: | :---: | --- |
-| 1 | `H` | Hidrojeni |
+| 1 | `H` | Haidrojeni |
 | 2 | `He` | Heliamu |
 | 3 | `Li` | Lithiamu |
 | 4 | `Be` | Beriliamu |
 | 5 | `B` | Boroni |
 | 6 | `C` | Kaboni |
-| 7 | `N` | Nitrojeni |
+| 7 | `N` | Naitrojeni (Nitrojeni) |
 | 8 | `O` | Oksijeni |
 | 9 | `F` | Florini |
 | 10 | `Ne` | Neoni |
@@ -81,7 +81,7 @@ Mfuatano wa namba, alama na majina ulio hapa chini ulihakikiwa kwa kutumia [Jedw
 | 50 | `Sn` | Bati |
 | 51 | `Sb` | Antimoni |
 | 52 | `Te` | Teluriamu |
-| 53 | `I` | Iodini |
+| 53 | `I` | Ayodini |
 | 54 | `Xe` | Zenoni |
 | 55 | `Cs` | Sesiamu |
 | 56 | `Ba` | Bariamu |
@@ -283,7 +283,7 @@ Mazungumzo na AI pamoja na faili zilizoambatishwa vinaweza kusaidia kuandaa rasi
 
 ### Jedwali la elementi lina elementi ngapi mwaka 2026?
 
-Kuna elementi 118 zinazojulikana. Hidrojeni ni namba 1 na oganesoni ni namba 118. Majedwali ya sasa ya ACS, NIST na IUPAC yote yanaishia kwenye elementi 118.
+Kuna elementi 118 zinazojulikana. Haidrojeni ni namba 1 na oganesoni ni namba 118. Majedwali ya sasa ya ACS, NIST na IUPAC yote yanaishia kwenye elementi 118.
 
 ### Elementi ya 118 ni ipi?
 

@@ -25,7 +25,7 @@ Wil je snel iets opzoeken? De volledige tabel staat direct hieronder. Je vindt e
 
 ## Alle 118 elementen: atoomnummers, symbolen en namen
 
-De volgorde van nummers, symbolen en namen hieronder is gecontroleerd aan de hand van het [periodiek systeem van NIST](https://www.nist.gov/pml/periodic-table-elements) en de [referentietabel van IUPAC](https://iupac.org/cms/wp-content/uploads/2018/12/IUPAC_Periodic_Table-01Dec18.pdf). De Engelse brontekst gebruikt de Amerikaans-Engelse spelling van NIST: *aluminum* en *cesium*. IUPAC schrijft in het Engels *aluminium* en *caesium*. Die keuze verandert niets aan `Al`, `Cs`, 13 of 55. Hieronder staan de Nederlandse namen; gebruik bij Engelstalige opdrachten de spelling die je opleiding verwacht.
+De volgorde van nummers, symbolen en namen hieronder is gecontroleerd aan de hand van het [periodiek systeem van NIST](https://www.nist.gov/pml/periodic-table-elements) en de [referentietabel van IUPAC](https://iupac.org/cms/wp-content/uploads/2018/12/IUPAC_Periodic_Table-01Dec18.pdf). De Engelse brontekst gebruikt de Amerikaans-Engelse spelling van NIST: *aluminum* en *cesium*. IUPAC schrijft in het Engels *aluminium* en *caesium*. Die keuze verandert niets aan `Al`, `Cs`, 13 of 55. Hieronder staan de Nederlandse namen volgens de KVCV-nomenclatuur en de examensyllabus van het CvTE; gebruik bij Engelstalige opdrachten de spelling die je opleiding verwacht.
 
 | Atoomnummer | Symbool | Naam van het element |
 | ---: | :---: | --- |
@@ -50,7 +50,7 @@ De volgorde van nummers, symbolen en namen hieronder is gecontroleerd aan de han
 | 19 | `K` | Kalium |
 | 20 | `Ca` | Calcium |
 | 21 | `Sc` | Scandium |
-| 22 | `Ti` | Titanium |
+| 22 | `Ti` | Titaan (titanium) |
 | 23 | `V` | Vanadium |
 | 24 | `Cr` | Chroom |
 | 25 | `Mn` | Mangaan |
@@ -120,7 +120,7 @@ De volgorde van nummers, symbolen en namen hieronder is gecontroleerd aan de han
 | 89 | `Ac` | Actinium |
 | 90 | `Th` | Thorium |
 | 91 | `Pa` | Protactinium |
-| 92 | `U` | Uranium |
+| 92 | `U` | Uraan (uranium) |
 | 93 | `Np` | Neptunium |
 | 94 | `Pu` | Plutonium |
 | 95 | `Am` | Americium |

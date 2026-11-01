@@ -25,7 +25,7 @@ Pokud potřebujete něco rychle najít, úplná tabulka je hned níže. Obsahuje
 
 ## Všech 118 prvků: protonová čísla, značky a názvy
 
-Níže uvedené přiřazení čísel, značek a názvů bylo porovnáno s [periodickou tabulkou prvků NIST](https://www.nist.gov/pml/periodic-table-elements) a [referenční tabulkou IUPAC](https://iupac.org/cms/wp-content/uploads/2018/12/IUPAC_Periodic_Table-01Dec18.pdf). Anglický originál článku používá americký pravopis podle NIST: *aluminum* a *cesium*. IUPAC používá *aluminium* a *caesium*. V české tabulce jde o hliník a cesium. Žádná z těchto variant nemění značky `Al`, `Cs` ani čísla 13 a 55; při výuce v angličtině používejte pravopis, který po vás vyučující požaduje.
+Níže uvedené přiřazení čísel, značek a názvů bylo porovnáno s [periodickou tabulkou prvků NIST](https://www.nist.gov/pml/periodic-table-elements) a [referenční tabulkou IUPAC](https://iupac.org/cms/wp-content/uploads/2018/12/IUPAC_Periodic_Table-01Dec18.pdf). Anglický originál článku používá americký pravopis podle NIST: *aluminum* a *cesium*. IUPAC používá *aluminium* a *caesium*. České názvy v tabulce vycházejí z přehledu v Chemických listech (2022). Pro Al a Cs jde o hliník a cesium. Žádná z těchto variant nemění značky `Al`, `Cs` ani čísla 13 a 55; při výuce v angličtině používejte pravopis, který po vás vyučující požaduje.
 
 | Protonové číslo | Značka | Název prvku |
 | ---: | :---: | --- |
@@ -143,7 +143,7 @@ Níže uvedené přiřazení čísel, značek a názvů bylo porovnáno s [perio
 | 112 | `Cn` | Kopernicium |
 | 113 | `Nh` | Nihonium |
 | 114 | `Fl` | Flerovium |
-| 115 | `Mc` | Moskovium |
+| 115 | `Mc` | Moscovium (Moskovium) |
 | 116 | `Lv` | Livermorium |
 | 117 | `Ts` | Tennessin |
 | 118 | `Og` | Oganesson |
@@ -287,7 +287,7 @@ Obsahuje 118 známých prvků. Vodík má číslo 1 a oganesson číslo 118. Sou
 
 ### Jaký je 118. prvek?
 
-Prvkem 118 je oganesson se značkou `Og`. IUPAC schválila jeho současný název a značku v listopadu 2016 společně s nihoniem (`Nh`), moskoviem (`Mc`) a tennessinem (`Ts`).
+Prvkem 118 je oganesson se značkou `Og`. IUPAC schválila jeho současný název a značku v listopadu 2016 společně s nihoniem (`Nh`), moscoviem (`Mc`) a tennessinem (`Ts`).
 
 ### Mají se studenti učit všech 118 prvků nazpaměť?
 

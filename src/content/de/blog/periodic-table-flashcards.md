@@ -25,7 +25,7 @@ Wenn du nur schnell etwas nachschlagen möchtest, findest du direkt hier die vol
 
 ## Alle 118 Elemente: Ordnungszahlen, Symbole und Namen
 
-Die folgende Reihenfolge von Ordnungszahlen, Symbolen und Namen wurde mit dem [Periodensystem der Elemente von NIST](https://www.nist.gov/pml/periodic-table-elements) und der [Referenztabelle der IUPAC](https://iupac.org/cms/wp-content/uploads/2018/12/IUPAC_Periodic_Table-01Dec18.pdf) abgeglichen. Für die Namen verwenden wir die etablierten deutschen Bezeichnungen. In den englischen Quellen schreibt NIST auf US-Englisch *aluminum* und *cesium*, die IUPAC dagegen *aluminium* und *caesium*. Die Unterschiede ändern weder die Symbole `Al` und `Cs` noch die Ordnungszahlen 13 und 55. Halte dich bei den Namen an die Vorgaben deines Kurses.
+Die folgende Reihenfolge von Ordnungszahlen, Symbolen und Namen wurde mit dem [Periodensystem der Elemente von NIST](https://www.nist.gov/pml/periodic-table-elements) und der [Referenztabelle der IUPAC](https://iupac.org/cms/wp-content/uploads/2018/12/IUPAC_Periodic_Table-01Dec18.pdf) abgeglichen. Die deutschen Namen folgen den Periodensystemen der Abitur-Formelsammlung von IQB und KMK sowie des ISB Bayern. In den englischen Quellen schreibt NIST auf US-Englisch *aluminum* und *cesium*, die IUPAC dagegen *aluminium* und *caesium*. Die Unterschiede ändern weder die Symbole `Al` und `Cs` noch die Ordnungszahlen 13 und 55. Halte dich bei den Namen an die Vorgaben deines Kurses.
 
 | Ordnungszahl | Symbol | Elementname |
 | ---: | :---: | --- |
@@ -55,7 +55,7 @@ Die folgende Reihenfolge von Ordnungszahlen, Symbolen und Namen wurde mit dem [P
 | 24 | `Cr` | Chrom |
 | 25 | `Mn` | Mangan |
 | 26 | `Fe` | Eisen |
-| 27 | `Co` | Kobalt |
+| 27 | `Co` | Cobalt (Kobalt) |
 | 28 | `Ni` | Nickel |
 | 29 | `Cu` | Kupfer |
 | 30 | `Zn` | Zink |
@@ -181,17 +181,17 @@ Lehrkräfte können viele Unklarheiten vermeiden, indem sie genau angeben, was a
 
 ## Erstelle Karten zu deinen Fehlern, nicht zum ganzen Kästchen
 
-`Co` steht für Kobalt. `CO` ist eine Formel aus den beiden getrennten Symbolen `C` und `O`. Ein einziger Kleinbuchstabe verändert also die Bedeutung der Schreibweise. Eine sinnvolle Karte setzt genau bei diesem Fehler an:
+`Co` steht für Cobalt. `CO` ist eine Formel aus den beiden getrennten Symbolen `C` und `O`. Ein einziger Kleinbuchstabe verändert also die Bedeutung der Schreibweise. Eine sinnvolle Karte setzt genau bei diesem Fehler an:
 
 ```text
 Vorderseite: Welches Element hat das Symbol Co?
-Rückseite: Kobalt.
+Rückseite: Cobalt.
 
 Vorderseite: Welche beiden Elementsymbole kommen in CO vor?
 Rückseite: C für Kohlenstoff und O für Sauerstoff.
 ```
 
-Die zweite Frage übt das Lesen einer Formel; sie ist keine zusätzliche Kobalt-Karte. Weitere leicht verwechselbare Schreibweisen sind `S` und `Si`, `N` und `Ni`, `C` und `Ca` sowie `P` und `Pb`. Bei einem Elementsymbol mit zwei Buchstaben wird der zweite immer kleingeschrieben.
+Die zweite Frage übt das Lesen einer Formel; sie ist keine zusätzliche Cobalt-Karte. Weitere leicht verwechselbare Schreibweisen sind `S` und `Si`, `N` und `Ni`, `C` und `Ca` sowie `P` und `Pb`. Bei einem Elementsymbol mit zwei Buchstaben wird der zweite immer kleingeschrieben.
 
 Manche Symbole sind aus einem anderen Grund schwierig: Ihre Buchstaben lassen sich nicht ohne Weiteres aus dem deutschen Elementnamen ableiten. Falls sie zu deinem Lernstoff gehören, eignen sich solche Zuordnungen gut für frühe, gezielte Karten:
 

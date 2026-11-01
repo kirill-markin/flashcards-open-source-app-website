@@ -25,7 +25,7 @@ Jei norite tik greitai pasitikrinti, visa lentelė pateikta iškart žemiau. Joj
 
 ## Visi 118 elementų: atominiai skaičiai, simboliai ir pavadinimai
 
-Toliau pateiktos skaičių, simbolių ir pavadinimų atitiktys sutikrintos su [NIST periodine elementų lentele](https://www.nist.gov/pml/periodic-table-elements) ir [IUPAC lentele](https://iupac.org/cms/wp-content/uploads/2018/12/IUPAC_Periodic_Table-01Dec18.pdf). Angliškame šio straipsnio originale pavadinimai rašomi pagal NIST vartojamą JAV anglų kalbos rašybą: *aluminum* ir *cesium*. IUPAC vartoja *aluminium* ir *caesium*. Lietuviškai šie elementai vadinami aliuminiu ir ceziu. Rašybos variantai nekeičia nei `Al`, nei `Cs`, nei 13 ar 55, tad mokydamiesi anglų kalba vartokite jūsų kurse reikalaujamą rašybą.
+Toliau pateiktos skaičių, simbolių ir pavadinimų atitiktys sutikrintos su [NIST periodine elementų lentele](https://www.nist.gov/pml/periodic-table-elements) ir [IUPAC lentele](https://iupac.org/cms/wp-content/uploads/2018/12/IUPAC_Periodic_Table-01Dec18.pdf). Lietuviški pavadinimai atitinka chemijos valstybinio brandos egzamino lentelių rinkinį. Angliškame šio straipsnio originale pavadinimai rašomi pagal NIST vartojamą JAV anglų kalbos rašybą: *aluminum* ir *cesium*. IUPAC vartoja *aluminium* ir *caesium*. Lietuviškai šie elementai vadinami aliuminiu ir ceziu. Rašybos variantai nekeičia nei `Al`, nei `Cs`, nei 13 ar 55, tad mokydamiesi anglų kalba vartokite jūsų kurse reikalaujamą rašybą.
 
 | Atominis skaičius | Simbolis | Elemento pavadinimas |
 | ---: | :---: | --- |
@@ -99,7 +99,7 @@ Toliau pateiktos skaičių, simbolių ir pavadinimų atitiktys sutikrintos su [N
 | 68 | `Er` | Erbis |
 | 69 | `Tm` | Tulis |
 | 70 | `Yb` | Iterbis |
-| 71 | `Lu` | Lutecis |
+| 71 | `Lu` | Liutecis |
 | 72 | `Hf` | Hafnis |
 | 73 | `Ta` | Tantalas |
 | 74 | `W` | Volframas |
@@ -131,7 +131,7 @@ Toliau pateiktos skaičių, simbolių ir pavadinimų atitiktys sutikrintos su [N
 | 100 | `Fm` | Fermis |
 | 101 | `Md` | Mendelevis |
 | 102 | `No` | Nobelis |
-| 103 | `Lr` | Laurencis |
+| 103 | `Lr` | Laurensis |
 | 104 | `Rf` | Rezerfordis |
 | 105 | `Db` | Dubnis |
 | 106 | `Sg` | Siborgis |

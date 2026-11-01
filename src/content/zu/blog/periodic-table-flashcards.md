@@ -25,7 +25,7 @@ Uma ufuna ukubheka okuthile ngokushesha, ithebula eliphelele lingezansi. Linikez
 
 ## Wonke ama-elementi angu-118: izinombolo ze-athomu, izimpawu namagama
 
-Ukulandelana kwezinombolo, izimpawu namagama ngezansi kuqhathaniswe ne-[NIST Periodic Table of the Elements](https://www.nist.gov/pml/periodic-table-elements) kanye [nethebula le-IUPAC](https://iupac.org/cms/wp-content/uploads/2018/12/IUPAC_Periodic_Table-01Dec18.pdf). Umbhalo wokuqala wesiNgisi usebenzisa indlela yaseMelika yokupela ye-NIST: *aluminum* no-*cesium*. I-IUPAC isebenzisa *aluminium* no-*caesium*. Lokhu akushintshi `Al`, `Cs`, 13 noma 55. Uma uphendula ngesiNgisi, sebenzisa indlela yokupela edingwa yizifundo zakho. Amagama esayensi abolekiwe asetshenziswa ngezansi lapho kudingeka khona.
+Ukulandelana kwezinombolo, izimpawu namagama ngezansi kuqhathaniswe ne-[NIST Periodic Table of the Elements](https://www.nist.gov/pml/periodic-table-elements) kanye [nethebula le-IUPAC](https://iupac.org/cms/wp-content/uploads/2018/12/IUPAC_Periodic_Table-01Dec18.pdf). Umbhalo wokuqala wesiNgisi usebenzisa indlela yaseMelika yokupela ye-NIST: *aluminum* no-*cesium*. I-IUPAC isebenzisa *aluminium* no-*caesium*. Lokhu akushintshi `Al`, `Cs`, 13 noma 55. Uma uphendula ngesiNgisi, sebenzisa indlela yokupela edingwa yizifundo zakho. Amagama esiZulu angezansi ikakhulukazi alandela izinhlu zamagama esayensi zoMnyango Wezemfundo Eyisisekelo (DBE) noMnyango Wezobuciko Namasiko (DAC). Amagama esayensi abolekiwe asetshenziswa ngezansi lapho kudingeka khona.
 
 | Inombolo ye-athomu | Uphawu | Igama le-elementi |
 | ---: | :---: | --- |
@@ -35,30 +35,30 @@ Ukulandelana kwezinombolo, izimpawu namagama ngezansi kuqhathaniswe ne-[NIST Per
 | 4 | `Be` | I-beryllium |
 | 5 | `B` | I-boron |
 | 6 | `C` | Ikhabhoni |
-| 7 | `N` | I-nitrogen |
-| 8 | `O` | Umoyampilo |
+| 7 | `N` | Inayithrojini |
+| 8 | `O` | I-oksijini (umoyampilo) |
 | 9 | `F` | I-fluorine |
 | 10 | `Ne` | I-neon |
-| 11 | `Na` | I-sodium |
-| 12 | `Mg` | I-magnesium |
+| 11 | `Na` | Isodiyamu |
+| 12 | `Mg` | Imagineziyamu |
 | 13 | `Al` | I-aluminium |
-| 14 | `Si` | I-silicon |
-| 15 | `P` | I-phosphorus |
-| 16 | `S` | Isibabule |
-| 17 | `Cl` | I-chlorine |
-| 18 | `Ar` | I-argon |
-| 19 | `K` | I-potassium |
-| 20 | `Ca` | I-calcium |
+| 14 | `Si` | Isilikhoni |
+| 15 | `P` | Ifosiforasi |
+| 16 | `S` | Isibabuli |
+| 17 | `Cl` | Iklorini |
+| 18 | `Ar` | I-agoni |
+| 19 | `K` | Iphothaziyamu |
+| 20 | `Ca` | Ikhalisiyamu |
 | 21 | `Sc` | I-scandium |
 | 22 | `Ti` | I-titanium |
 | 23 | `V` | I-vanadium |
 | 24 | `Cr` | I-chromium |
 | 25 | `Mn` | I-manganese |
 | 26 | `Fe` | Insimbi |
-| 27 | `Co` | I-cobalt |
-| 28 | `Ni` | I-nickel |
+| 27 | `Co` | Ikhabhali |
+| 28 | `Ni` | Inikheli |
 | 29 | `Cu` | Ithusi |
-| 30 | `Zn` | I-zinc |
+| 30 | `Zn` | Uzinki |
 | 31 | `Ga` | I-gallium |
 | 32 | `Ge` | I-germanium |
 | 33 | `As` | I-arsenic |
@@ -81,7 +81,7 @@ Ukulandelana kwezinombolo, izimpawu namagama ngezansi kuqhathaniswe ne-[NIST Per
 | 50 | `Sn` | Ithini |
 | 51 | `Sb` | I-antimony |
 | 52 | `Te` | I-tellurium |
-| 53 | `I` | I-iodine |
+| 53 | `I` | I-ayodini |
 | 54 | `Xe` | I-xenon |
 | 55 | `Cs` | I-caesium |
 | 56 | `Ba` | I-barium |
@@ -102,13 +102,13 @@ Ukulandelana kwezinombolo, izimpawu namagama ngezansi kuqhathaniswe ne-[NIST Per
 | 71 | `Lu` | I-lutetium |
 | 72 | `Hf` | I-hafnium |
 | 73 | `Ta` | I-tantalum |
-| 74 | `W` | I-tungsten |
+| 74 | `W` | Ithangisteni |
 | 75 | `Re` | I-rhenium |
 | 76 | `Os` | I-osmium |
 | 77 | `Ir` | I-iridium |
 | 78 | `Pt` | I-platinum |
 | 79 | `Au` | Igolide |
-| 80 | `Hg` | I-mercury |
+| 80 | `Hg` | Isigidi |
 | 81 | `Tl` | I-thallium |
 | 82 | `Pb` | Umthofu |
 | 83 | `Bi` | I-bismuth |
@@ -116,11 +116,11 @@ Ukulandelana kwezinombolo, izimpawu namagama ngezansi kuqhathaniswe ne-[NIST Per
 | 85 | `At` | I-astatine |
 | 86 | `Rn` | I-radon |
 | 87 | `Fr` | I-francium |
-| 88 | `Ra` | I-radium |
+| 88 | `Ra` | Iradiyamu |
 | 89 | `Ac` | I-actinium |
 | 90 | `Th` | I-thorium |
 | 91 | `Pa` | I-protactinium |
-| 92 | `U` | I-uranium |
+| 92 | `U` | Iyureniyamu |
 | 93 | `Np` | I-neptunium |
 | 94 | `Pu` | I-plutonium |
 | 95 | `Am` | I-americium |
@@ -154,8 +154,8 @@ I-IUPAC yagunyaza ngokusemthethweni amagama nezimpawu `Nh`, `Mc`, `Ts` no-`Og` z
 
 Ibhokisi le-elementi lingaba nezinombolo eziningana, kodwa ziphendula imibuzo ehlukene.
 
-- **Inombolo ye-athomu** ikhomba i-elementi futhi ilingana nenani lama-proton ayo. I-sodium ihlale inenombolo ye-athomu engu-11.
-- **Uphawu lwe-elementi** luyisifinyezo esinohlamvu olulodwa noma izinhlamvu ezimbili. Ubukhulu bezinhlamvu buyingxenye yencazelo: i-sodium ibhalwa `Na`, hhayi `NA` noma `na`.
+- **Inombolo ye-athomu** ikhomba i-elementi futhi ilingana nenani lama-proton ayo. Isodiyamu ihlale inenombolo ye-athomu engu-11.
+- **Uphawu lwe-elementi** luyisifinyezo esinohlamvu olulodwa noma izinhlamvu ezimbili. Ubukhulu bezinhlamvu buyingxenye yencazelo: isodiyamu ibhalwa `Na`, hhayi `NA` noma `na`.
 - **Imasi ye-athomu nesisindo se-athomu** akuyona inombolo ye-athomu. Amathebula asetshenziswa ekilasini angase abhale elinye lala magama eduze kwenombolo enkulu enedesimali, kodwa la magama awasho into efanayo ncamashi; landela ilebula, ukunemba nenqubo esetshenziswa yithebula.
 - **Inombolo yemasi** iyisamba esiyinombolo ephelele sama-proton nama-neutron ku-nuclide eyodwa.
 
@@ -181,51 +181,51 @@ Othisha bangasusa ukungaqondi okuningi ngokusho ukuthi iyiphi indlela yokubuza e
 
 ## Yenza amakhadi aqondiswe ephutheni, hhayi kulo lonke ibhokisi
 
-`Co` yi-cobalt. `CO` iyifomula equkethe izimpawu ezimbili ezihlukene, `C` no-`O`. Uhlamvu olulodwa oluncane lushintsha incazelo. Ikhadi eliwusizo lokulungisa iphutha liqondiswa kulelo phutha ngqo:
+`Co` yikhabhali. `CO` iyifomula equkethe izimpawu ezimbili ezihlukene, `C` no-`O`. Uhlamvu olulodwa oluncane lushintsha incazelo. Ikhadi eliwusizo lokulungisa iphutha liqondiswa kulelo phutha ngqo:
 
 ```text
 Ngaphambili: Iyiphi i-elementi enophawu oluthi Co?
-Ngemuva: I-cobalt.
+Ngemuva: Ikhabhali.
 
 Ngaphambili: Yiziphi izimpawu zama-elementi ezimbili eziku-CO?
-Ngemuva: U-C wekhabhoni no-O womoyampilo.
+Ngemuva: U-C wekhabhoni no-O we-oksijini.
 ```
 
-Umbuzo wesibili uwukuzilolonga ngokufunda ifomula, awulona elinye ikhadi le-cobalt. Ezinye izimpawu ezifanayo zihlanganisa `S` no-`Si`, `N` no-`Ni`, `C` no-`Ca`, kanye no-`P` no-`Pb`. Uhlamvu lwesibili lophawu olunezinhlamvu ezimbili kufanele lube luncane.
+Umbuzo wesibili uwukuzilolonga ngokufunda ifomula, awulona elinye ikhadi lekhabhali. Ezinye izimpawu ezifanayo zihlanganisa `S` no-`Si`, `N` no-`Ni`, `C` no-`Ca`, kanye no-`P` no-`Pb`. Uhlamvu lwesibili lophawu olunezinhlamvu ezimbili kufanele lube luncane.
 
 Ezinye izimpawu zinzima ngesinye isizathu: igama lesiNgisi alinazo izinhlamvu obungalindela ukuzibona ophawini. Lezi zilungele amakhadi okuqala aqondiswe emaphutheni uma zidingeka ezifundweni zakho:
 
 | I-elementi (igama lesiNgisi) | Uphawu | Inombolo ye-athomu |
 | --- | :---: | ---: |
-| I-sodium (sodium) | `Na` | 11 |
-| I-potassium (potassium) | `K` | 19 |
+| Isodiyamu (sodium) | `Na` | 11 |
+| Iphothaziyamu (potassium) | `K` | 19 |
 | Insimbi (iron) | `Fe` | 26 |
 | Ithusi (copper) | `Cu` | 29 |
 | Isiliva (silver) | `Ag` | 47 |
 | Ithini (tin) | `Sn` | 50 |
 | I-antimony (antimony) | `Sb` | 51 |
-| I-tungsten (tungsten) | `W` | 74 |
+| Ithangisteni (tungsten) | `W` | 74 |
 | Igolide (gold) | `Au` | 79 |
-| I-mercury (mercury) | `Hg` | 80 |
+| Isigidi (mercury) | `Hg` | 80 |
 | Umthofu (lead) | `Pb` | 82 |
 
 Ungawenzi wonke amakhadi ayishumi nanye ngoba nje ekulolu hlu. Qala ngokugcwalisa ithebula elingenalutho noma uzihlole ngezimpawu, bese ugcina lawo owehlulekile ukuwaphendula.
 
 ## Iqiniso elilodwa ekhadini lenza ukuzihlola kuthembeke
 
-“Ngitshele konke nge-sodium” kubukeka kuwusizo ngoba kungena ekhadini elilodwa. Kodwa ngesikhathi sokubuyekeza kuba nzima: mhlawumbe ukhumbule `Na` no-11 kodwa wayibeka enkathini engafanele yethebula. Kunzima ukunikeza impendulo elungile ngokwengxenye isilinganiso esithembekile.
+“Ngitshele konke ngesodiyamu” kubukeka kuwusizo ngoba kungena ekhadini elilodwa. Kodwa ngesikhathi sokubuyekeza kuba nzima: mhlawumbe ukhumbule `Na` no-11 kodwa wayibeka enkathini engafanele yethebula. Kunzima ukunikeza impendulo elungile ngokwengxenye isilinganiso esithembekile.
 
 Kunalokho, hlukanisa amaqiniso azohlolwa:
 
 ```text
-Ngaphambili: Bhala uphawu lwe-sodium. Gcina ubukhulu bezinhlamvu obufanele.
+Ngaphambili: Bhala uphawu lwesodiyamu. Gcina ubukhulu bezinhlamvu obufanele.
 Ngemuva: Na.
 
 Ngaphambili: Iyiphi i-elementi enophawu oluthi Na?
-Ngemuva: I-sodium.
+Ngemuva: Isodiyamu.
 
 Ngaphambili: Iyiphi i-elementi enenombolo ye-athomu engu-11?
-Ngemuva: I-sodium.
+Ngemuva: Isodiyamu.
 ```
 
 Lezi izindlela ezintathu zokubuza, hhayi amakhadi amathathu ayimpoqo. Qala ngendlela esetshenziswa emsebenzini wakho. Faka indlela ebuyela emuva kuphela uma kudingeka ukwazi ukuyiphendula noma ukuzilolonga kuveza igebe. Ukuguqula ngokuzenzakalelayo wonke amaqiniso ukuze abuzwe nhlangothi zombili kungaguqula ama-elementi angu-118 abe amakhulu amakhadi okufanele uwabuyekeze ngaphandle kokuthuthukisa ikhono elisetshenziswa esivivinyweni sakho.
@@ -259,7 +259,7 @@ Iziqalo zemethrikhi nazo zingadala amaphutha obukhulu bezinhlamvu—`M` no-`m` a
 
 ## Lokho ama-flashcard ethebula le-periodic angeke akufundise
 
-Ama-flashcard asiza ukugcina ukuxhumana okuqondile kukhumbuleka: `Fe` → insimbi, 26 → insimbi, noma “i-sodium” → `Na`. Awasebenzi kahle uma kuwukuphela kwendlela yokuzilolonga ngomsebenzi odinga ukuhlanganisa ulwazi.
+Ama-flashcard asiza ukugcina ukuxhumana okuqondile kukhumbuleka: `Fe` → insimbi, 26 → insimbi, noma “isodiyamu” → `Na`. Awasebenzi kahle uma kuwukuphela kwendlela yokuzilolonga ngomsebenzi odinga ukuhlanganisa ulwazi.
 
 Qhubeka wenze lokhu ngaphandle kwedekhi:
 
@@ -291,7 +291,7 @@ I-oganesson, enophawu oluthi `Og`, yi-elementi engu-118. I-IUPAC yagunyaza igama
 
 ### Ingabe abafundi kufanele bakhumbule wonke ama-elementi angu-118?
 
-Kufanele bawakhumbule wonke kuphela uma lokho kudingeka ezifundweni noma esivivinyweni. Abafundi abaningi badinga iqoqo elincane, njengama-elementi 1–20, ama-elementi avamile kumafomula, imindeni ekhethiwe noma ingxenye yezifundo abafunda yona manje. Qinisekisa nendlela yokubuza: ukubona `Na` nokuyibhala usuka egameni elithi “i-sodium” kungamakhono ahlukene.
+Kufanele bawakhumbule wonke kuphela uma lokho kudingeka ezifundweni noma esivivinyweni. Abafundi abaningi badinga iqoqo elincane, njengama-elementi 1–20, ama-elementi avamile kumafomula, imindeni ekhethiwe noma ingxenye yezifundo abafunda yona manje. Qinisekisa nendlela yokubuza: ukubona `Na` nokuyibhala usuka egameni elithi “isodiyamu” kungamakhono ahlukene.
 
 ### Ingabe inombolo ye-athomu iyafana nemasi ye-athomu?
 

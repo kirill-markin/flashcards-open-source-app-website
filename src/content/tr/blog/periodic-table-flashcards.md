@@ -25,7 +25,7 @@ Hızlıca bir bilgiye bakmak için geldiyseniz tam liste hemen aşağıda. Her e
 
 ## 118 elementin tamamı: atom numaraları, sembolleri ve adları
 
-Aşağıdaki numara-sembol-ad eşleşmeleri, [NIST Periyodik Elementler Tablosu](https://www.nist.gov/pml/periodic-table-elements) ve [IUPAC referans tablosu](https://iupac.org/cms/wp-content/uploads/2018/12/IUPAC_Periodic_Table-01Dec18.pdf) ile karşılaştırılarak kontrol edildi. Bu yazının İngilizce kaynağında NIST'in Amerikan İngilizcesi yazımı kullanılır: *aluminum* ve *cesium*. IUPAC ise *aluminium* ve *caesium* yazar. Türkçede bunlar alüminyum ve sezyumdur. İngilizcedeki iki yazım da `Al`, `Cs`, 13 veya 55'i değiştirmez; dersinizde beklenen yazımı kullanın.
+Aşağıdaki numara-sembol-ad eşleşmeleri, [NIST Periyodik Elementler Tablosu](https://www.nist.gov/pml/periodic-table-elements) ve [IUPAC referans tablosu](https://iupac.org/cms/wp-content/uploads/2018/12/IUPAC_Periodic_Table-01Dec18.pdf) ile karşılaştırılarak kontrol edildi. Türkçe element adları, MEB 9. sınıf Kimya ders kitabındaki periyodik tabloya göredir. Bu yazının İngilizce kaynağında NIST'in Amerikan İngilizcesi yazımı kullanılır: *aluminum* ve *cesium*. IUPAC ise *aluminium* ve *caesium* yazar. Türkçede bunlar alüminyum ve sezyumdur. İngilizcedeki iki yazım da `Al`, `Cs`, 13 veya 55'i değiştirmez; dersinizde beklenen yazımı kullanın.
 
 | Atom numarası | Sembol | Element adı |
 | ---: | :---: | --- |
@@ -94,12 +94,12 @@ Aşağıdaki numara-sembol-ad eşleşmeleri, [NIST Periyodik Elementler Tablosu]
 | 63 | `Eu` | Evropiyum |
 | 64 | `Gd` | Gadolinyum |
 | 65 | `Tb` | Terbiyum |
-| 66 | `Dy` | Disprosyum |
+| 66 | `Dy` | Disprozyum |
 | 67 | `Ho` | Holmiyum |
 | 68 | `Er` | Erbiyum |
 | 69 | `Tm` | Tulyum |
 | 70 | `Yb` | İterbiyum |
-| 71 | `Lu` | Lütesyum |
+| 71 | `Lu` | Lutesyum |
 | 72 | `Hf` | Hafniyum |
 | 73 | `Ta` | Tantal |
 | 74 | `W` | Tungsten |
@@ -132,20 +132,20 @@ Aşağıdaki numara-sembol-ad eşleşmeleri, [NIST Periyodik Elementler Tablosu]
 | 101 | `Md` | Mendelevyum |
 | 102 | `No` | Nobelyum |
 | 103 | `Lr` | Lavrensiyum |
-| 104 | `Rf` | Rutherfordyum |
+| 104 | `Rf` | Rutherfordiyum |
 | 105 | `Db` | Dubniyum |
 | 106 | `Sg` | Seaborgiyum |
 | 107 | `Bh` | Bohriyum |
 | 108 | `Hs` | Hassiyum |
-| 109 | `Mt` | Metneryum |
+| 109 | `Mt` | Meitneriyum |
 | 110 | `Ds` | Darmstadtiyum |
 | 111 | `Rg` | Röntgenyum |
 | 112 | `Cn` | Kopernikyum |
-| 113 | `Nh` | Nihonyum |
-| 114 | `Fl` | Flerovyum |
-| 115 | `Mc` | Moskovyum |
-| 116 | `Lv` | Livermoryum |
-| 117 | `Ts` | Tennessin |
+| 113 | `Nh` | Nihoniyum |
+| 114 | `Fl` | Fleroviyum |
+| 115 | `Mc` | Moskoviyum |
+| 116 | `Lv` | Livermoriyum |
+| 117 | `Ts` | Tennesin |
 | 118 | `Og` | Oganesson |
 
 IUPAC, 113, 115, 117 ve 118 numaralı elementlerin adlarını ve `Nh`, `Mc`, `Ts`, `Og` sembollerini Kasım 2016'da resmen onayladı. Eski bir çalışma kâğıdında hâlâ geçici üç harfli semboller varsa bu [IUPAC adlandırma duyurusu](https://iupac.org/iupac-announces-the-names-of-the-elements-113-115-117-and-118/) işinize yarar.
@@ -289,7 +289,7 @@ Bilinen 118 element var. Hidrojen 1, oganesson 118 numaralı elementtir. ACS, NI
 
 ### 118. element hangisidir?
 
-Sembolü `Og` olan oganesson, 118. elementtir. IUPAC, bugünkü adını ve sembolünü nihonyum (`Nh`), moskovyum (`Mc`) ve tennessin (`Ts`) ile birlikte Kasım 2016'da onayladı.
+Sembolü `Og` olan oganesson, 118. elementtir. IUPAC, bugünkü adını ve sembolünü nihoniyum (`Nh`), moskoviyum (`Mc`) ve tennesin (`Ts`) ile birlikte Kasım 2016'da onayladı.
 
 ### Öğrenciler 118 elementin tamamını ezberlemeli mi?
 
