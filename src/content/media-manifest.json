@@ -1050,6 +1050,21 @@
     "bytes": 2117201
   },
   {
+    "publicPath": "/blog/everyday-english-vocabulary-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/ed01615ce056187f25186dec3c6287cb3671ebe644b5cdac385b9a5f7b758be4.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "ed01615ce056187f25186dec3c6287cb3671ebe644b5cdac385b9a5f7b758be4",
+    "bytes": 169012,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/97ee7fdc6814484b41f14f894cd89465613b20cc3e7d796c236bb0e50bc3e8e8.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "97ee7fdc6814484b41f14f894cd89465613b20cc3e7d796c236bb0e50bc3e8e8",
+      "bytes": 2330193
+    }
+  },
+  {
     "publicPath": "/blog/expected-value-practice.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/baa6868938b9b75e11b2606104e537100cd60d6c5c0ea4c1b8f039ac31ce08be.webp",
     "width": 1672,
