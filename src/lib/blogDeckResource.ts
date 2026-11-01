@@ -13,6 +13,7 @@ import { getPublicCatalogPackageLocalizedPathname } from "./publicCatalogUrls";
 const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   Record<string, Readonly<Partial<Record<AppLocale, string>>>>
 > = {
+  "gmdss-goc-flashcards": { en: "gmdss-goc-radio-concepts" },
   "everyday-english-vocabulary-practice": {
     ru: "everyday-english-vocabulary-russian-speakers",
   },

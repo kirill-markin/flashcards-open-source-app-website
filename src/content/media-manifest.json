@@ -1484,6 +1484,21 @@
     }
   },
   {
+    "publicPath": "/blog/gmdss-goc-flashcards.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/f567afad7ada447f9e22ef177531d5b7c8332b4751fe149e64a99821a5393ed4.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "f567afad7ada447f9e22ef177531d5b7c8332b4751fe149e64a99821a5393ed4",
+    "bytes": 201456,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/0e09ecfeb8d78fa43a7c40d6c83d4d4727adc1535baa02b86b432c6345cc9c22.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "0e09ecfeb8d78fa43a7c40d6c83d4d4727adc1535baa02b86b432c6345cc9c22",
+      "bytes": 2418758
+    }
+  },
+  {
     "publicPath": "/blog/gre-vocabulary-flashcards.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/71027848aeea10834f7dc3bebf019d9980e9dec3695623dfaec7ec92292ea20a.png",
     "width": 1671,
