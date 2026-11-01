@@ -3411,6 +3411,21 @@
     "bytes": 2389508
   },
   {
+    "publicPath": "/blog/rioplatense-spanish-voseo-household.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/d53f71f06121eb85ccab6b77c7d350139b0590003181ff1e8add11cb1d1d1886.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "d53f71f06121eb85ccab6b77c7d350139b0590003181ff1e8add11cb1d1d1886",
+    "bytes": 170650,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/ee9144fca79fcfce503eeec044050ef7bbdb932ceaece48a4f495644deae6fb0.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "ee9144fca79fcfce503eeec044050ef7bbdb932ceaece48a4f495644deae6fb0",
+      "bytes": 2312659
+    }
+  },
+  {
     "publicPath": "/blog/scientific-notation-practice.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/a8c13509260849a23a2dec479b39b41934f217f4ad0af437e951a5b6898f075c.png",
     "width": 1672,

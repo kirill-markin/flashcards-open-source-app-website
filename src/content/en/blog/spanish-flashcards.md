@@ -27,6 +27,8 @@ Spanish does not fit neatly into one anonymous “neutral” deck. Vocabulary, p
 
 Choose one reference variety that matches your course, teacher, destination, family, or main media source. This is simply a study boundary. You can recognize and add other varieties later without forcing yourself to produce all of them at once.
 
+For a concrete regional exercise, the [Buenos Aires vos and household-language guide](/blog/rioplatense-spanish-voseo-household/) compares *vos* with *tú* and gives ten prompts with explained answers. Its companion [deck for Russian speakers](/ru/catalog/packages/rioplatense-spanish-voseo-household-russian-speakers/) uses Russian prompts and explanations with Spanish targets.
+
 Record a little context with each batch of cards:
 
 ```text
