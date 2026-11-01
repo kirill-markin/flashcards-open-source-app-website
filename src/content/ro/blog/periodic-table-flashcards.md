@@ -248,7 +248,7 @@ Pe măsură ce extinzi setul, păstrează un volum zilnic realist. Stabilește c
 
 ## Seturi gata făcute pentru trei obiective diferite
 
-Dacă ai într-adevăr de învățat identificarea tuturor celor 118 elemente, setul instalabil [Tabelul periodic: denumiri, simboluri și numere atomice pentru toate cele 118 elemente](/ro/catalog/packages/periodic-table-elements/) conține 354 de fișe. Folosește trei sensuri explicite pentru fiecare element: denumire → simbol, simbol → denumire și număr atomic → identificarea completă a elementului. Nu include mase atomice relative, dispunerea în tabel, tendințe sau configurații electronice. Rămâne astfel un set pentru identificarea elementelor din memorie, fără să încerce să devină un curs de chimie. Fișele acestui set sunt în engleză; interfața românească a catalogului nu traduce conținutul setului.
+Dacă ai într-adevăr de învățat identificarea tuturor celor 118 elemente, setul instalabil [Fișe pentru tabelul periodic: denumirile, simbolurile și numerele atomice ale celor 118 elemente](/ro/catalog/packages/periodic-table-elements-ro/) conține 354 de fișe. Folosește trei sensuri explicite pentru fiecare element: denumire → simbol, simbol → denumire și număr atomic → identificarea completă a elementului. Nu include mase atomice relative, dispunerea în tabel, tendințe sau configurații electronice. Rămâne astfel un set pentru identificarea elementelor din memorie, fără să încerce să devină un curs de chimie. Fișele acestui set sunt în limba română.
 
 Alte două seturi acoperă materii diferite:
 

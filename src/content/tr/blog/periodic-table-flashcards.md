@@ -248,7 +248,7 @@ Kapsamı genişletirken günlük tekrar listenizi gerçekçi tutun. Yeni kart sa
 
 ## Üç farklı ihtiyaç için hazır desteler
 
-Hedefiniz gerçekten 118 elementin tamamının kimlik bilgilerini öğrenmekse ekleyebileceğiniz [Periyodik Tablo Bilgi Kartları: 118 Elementin Adları, Sembolleri ve Atom Numaraları](/tr/catalog/packages/periodic-table-elements/) destesinde 354 kart var. Her element için üç açık soru yönü kullanılır: ad → sembol, sembol → ad ve atom numarası → elementin tüm kimlik bilgileri. Atom ağırlıkları, tablodaki yerleşim, periyodik eğilimler ve elektron dizilimleri dahil değildir. Böylece deste, bir kimya dersinin tamamını üstlenmek yerine elementlerin kimlik bilgilerini hatırlamaya odaklanır. Katalog arayüzünü Türkçe görüntülemek, deste içeriğini Türkçeye çevirmez.
+Hedefiniz gerçekten 118 elementin tamamının kimlik bilgilerini öğrenmekse ekleyebileceğiniz [Periyodik Tablo Bilgi Kartları: 118 Elementin Adları, Sembolleri ve Atom Numaraları](/tr/catalog/packages/periodic-table-elements-tr/) destesinde 354 kart var. Her element için üç açık soru yönü kullanılır: ad → sembol, sembol → ad ve atom numarası → elementin tüm kimlik bilgileri. Atom ağırlıkları, tablodaki yerleşim, periyodik eğilimler ve elektron dizilimleri dahil değildir. Böylece deste, bir kimya dersinin tamamını üstlenmek yerine elementlerin kimlik bilgilerini hatırlamaya odaklanır. Destenin içeriği Türkçedir.
 
 İki ayrı deste farklı kapsamları ele alıyor:
 

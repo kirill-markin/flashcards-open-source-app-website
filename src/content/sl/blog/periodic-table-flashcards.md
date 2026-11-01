@@ -248,7 +248,7 @@ Med širjenjem nabora naj dnevno število ponovitev ostane izvedljivo. Količino
 
 ## Pripravljene zbirke za tri različne naloge
 
-Če morate res poznati podatke o vseh 118 elementih, lahko namestite zbirko [Učne kartice za periodni sistem: imena, simboli in vrstna števila vseh 118 elementov](/sl/catalog/packages/periodic-table-elements/), ki vsebuje 354 kartic. Za vsak element uporablja tri izrecne smeri: ime → simbol, simbol → ime in vrstno število → vsi podatki za prepoznavanje elementa. Ne vključuje atomskih tež, prostorske razporeditve, trendov in elektronskih konfiguracij, zato ostaja zbirka za priklic podatkov o elementih in ne poskuša nadomestiti celotnega predmeta kemije. Slovenski vmesnik kataloga ne pomeni, da je prevedena tudi vsebina zbirke.
+Če morate res poznati podatke o vseh 118 elementih, lahko namestite zbirko [Učne kartice za periodni sistem: imena, simboli in vrstna števila vseh 118 elementov](/sl/catalog/packages/periodic-table-elements-sl/), ki vsebuje 354 kartic. Za vsak element uporablja tri izrecne smeri: ime → simbol, simbol → ime in vrstno število → vsi podatki za prepoznavanje elementa. Ne vključuje atomskih tež, prostorske razporeditve, trendov in elektronskih konfiguracij, zato ostaja zbirka za priklic podatkov o elementih in ne poskuša nadomestiti celotnega predmeta kemije. Vsebina zbirke je v slovenščini.
 
 Drugi dve zbirki pokrivata drugačno snov:
 

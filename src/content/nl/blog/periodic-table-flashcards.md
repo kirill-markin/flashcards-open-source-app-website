@@ -248,7 +248,7 @@ Houd de dagelijkse hoeveelheid herhalingen haalbaar terwijl je de kaartenset uit
 
 ## Kant-en-klare kaartensets voor drie verschillende doelen
 
-Moet je echt alle 118 elementen kennen? De installeerbare kaartenset [Periodic Table Flashcards: All 118 Names, Symbols & Atomic Numbers](/nl/catalog/packages/periodic-table-elements/) bevat 354 kaarten. Per element oefen je in drie duidelijke richtingen: naam → symbool, symbool → naam en atoomnummer → volledige identificatie van het element. Atoomgewichten, de indeling van de tabel, trends en elektronenconfiguraties vallen erbuiten. Zo blijft de set gericht op het ophalen van elementgegevens, zonder te proberen een volledige scheikundecursus te zijn. De Nederlandstalige cataloguspagina vertaalt de inhoud van de kaartenset niet.
+Moet je echt alle 118 elementen kennen? De installeerbare kaartenset [Flashcards periodiek systeem: alle 118 namen, symbolen en atoomnummers](/nl/catalog/packages/periodic-table-elements-nl/) bevat 354 kaarten. Per element oefen je in drie duidelijke richtingen: naam → symbool, symbool → naam en atoomnummer → volledige identificatie van het element. Atoomgewichten, de indeling van de tabel, trends en elektronenconfiguraties vallen erbuiten. Zo blijft de set gericht op het ophalen van elementgegevens, zonder te proberen een volledige scheikundecursus te zijn. De kaarten in deze set zijn in het Nederlands.
 
 Twee afzonderlijke kaartensets behandelen andere leerstof:
 

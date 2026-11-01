@@ -248,7 +248,7 @@ Paplašinot komplektu, saglabā paveicamu ikdienas atkārtojumu apjomu. Jauno ka
 
 ## Gatavi komplekti trim dažādiem uzdevumiem
 
-Ja tavs mērķis tiešām ir visu 118 elementu pamatdati, pievienojamajā komplektā [Periodiskās tabulas mācību kartītes: visu 118 elementu nosaukumi, simboli un atomskaitļi](/lv/catalog/packages/periodic-table-elements/) ir 354 kartītes. Katram elementam paredzēti trīs skaidri virzieni: nosaukums → simbols, simbols → nosaukums un atomskaitlis → visi elementa pamatdati. Komplektā nav atomsvaru, telpiskā izkārtojuma, īpašību periodisko izmaiņu vai elektronu konfigurāciju, tāpēc tas paliek elementu pamatdatu iegaumēšanas komplekts, nevis mēģina aizstāt ķīmijas kursu. Kataloga saskarnes valodas maiņa netulko pašu kartīšu saturu.
+Ja tavs mērķis tiešām ir visu 118 elementu pamatdati, pievienojamajā komplektā [Periodiskās tabulas mācību kartītes: visu 118 elementu nosaukumi, simboli un atomskaitļi](/lv/catalog/packages/periodic-table-elements-lv/) ir 354 kartītes. Katram elementam paredzēti trīs skaidri virzieni: nosaukums → simbols, simbols → nosaukums un atomskaitlis → visi elementa pamatdati. Komplektā nav atomsvaru, telpiskā izkārtojuma, īpašību periodisko izmaiņu vai elektronu konfigurāciju, tāpēc tas paliek elementu pamatdatu iegaumēšanas komplekts, nevis mēģina aizstāt ķīmijas kursu. Komplekta kartītes ir latviešu valodā.
 
 Divi atsevišķi komplekti aptver citas tēmas:
 

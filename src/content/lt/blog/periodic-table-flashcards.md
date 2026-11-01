@@ -248,7 +248,7 @@ Plėsdami rinkinį išlaikykite realistišką kasdienio kartojimo krūvį. Nauj�
 
 ## Parengti rinkiniai trims skirtingoms užduotims
 
-Jei iš tikrųjų siekiate atpažinti visus 118 elementų, įdiegiamame rinkinyje [Periodinės lentelės kortelės: visų 118 elementų pavadinimai, simboliai ir atominiai skaičiai](/lt/catalog/packages/periodic-table-elements/) yra 354 kortelės. Kiekvienas elementas tikrinamas trimis aiškiomis kryptimis: pavadinimas → simbolis, simbolis → pavadinimas ir atominis skaičius → elemento pavadinimas, simbolis ir atominis skaičius. Rinkinyje nėra atominių svorių, erdvinio išdėstymo, periodinių kitimų ar elektronų konfigūracijų. Jis skirtas elementams prisiminti ir nebando atstoti chemijos kurso. Lietuviška katalogo sąsaja nekeičia paties rinkinio turinio kalbos.
+Jei iš tikrųjų siekiate atpažinti visus 118 elementų, įdiegiamame rinkinyje [Periodinės lentelės kortelės: visų 118 elementų pavadinimai, simboliai ir atominiai skaičiai](/lt/catalog/packages/periodic-table-elements-lt/) yra 354 kortelės. Kiekvienas elementas tikrinamas trimis aiškiomis kryptimis: pavadinimas → simbolis, simbolis → pavadinimas ir atominis skaičius → elemento pavadinimas, simbolis ir atominis skaičius. Rinkinyje nėra atominių svorių, erdvinio išdėstymo, periodinių kitimų ar elektronų konfigūracijų. Jis skirtas elementams prisiminti ir nebando atstoti chemijos kurso. Rinkinio kortelės yra lietuvių kalba.
 
 Du atskiri rinkiniai skirti kitoms temoms:
 

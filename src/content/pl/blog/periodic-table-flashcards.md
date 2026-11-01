@@ -248,7 +248,7 @@ Rozszerzając zestaw, utrzymuj rozsądną liczbę codziennych powtórek. Dobiera
 
 ## Gotowe talie do trzech różnych zadań
 
-Jeśli rzeczywiście musisz znać wszystkie 118 pierwiastków, możesz zainstalować talię [Fiszki z układu okresowego: nazwy, symbole i liczby atomowe wszystkich 118 pierwiastków](/pl/catalog/packages/periodic-table-elements/), która zawiera 354 karty. Każdy pierwiastek jest sprawdzany w trzech kierunkach: nazwa → symbol, symbol → nazwa oraz liczba atomowa → pełne dane identyfikujące pierwiastek. Talia nie obejmuje względnych mas atomowych, rozmieszczenia w tabeli, zmian właściwości ani konfiguracji elektronowych. Pomaga zapamiętać dane identyfikujące pierwiastki; nie zastępuje całego kursu chemii. Polska wersja strony katalogu zmienia język interfejsu, a nie treść kart w talii.
+Jeśli rzeczywiście musisz znać wszystkie 118 pierwiastków, możesz zainstalować talię [Fiszki z układu okresowego: nazwy, symbole i liczby atomowe wszystkich 118 pierwiastków](/pl/catalog/packages/periodic-table-elements-pl/), która zawiera 354 karty. Każdy pierwiastek jest sprawdzany w trzech kierunkach: nazwa → symbol, symbol → nazwa oraz liczba atomowa → pełne dane identyfikujące pierwiastek. Talia nie obejmuje względnych mas atomowych, rozmieszczenia w tabeli, zmian właściwości ani konfiguracji elektronowych. Pomaga zapamiętać dane identyfikujące pierwiastki; nie zastępuje całego kursu chemii. Karty w tej talii są po polsku.
 
 Dwie osobne talie obejmują inne zakresy:
 

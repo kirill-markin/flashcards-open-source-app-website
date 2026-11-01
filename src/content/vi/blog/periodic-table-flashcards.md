@@ -248,7 +248,7 @@ Khi mở rộng phạm vi, hãy giữ số thẻ cần ôn mỗi ngày ở mức
 
 ## Ba bộ thẻ làm sẵn cho ba nhu cầu khác nhau
 
-Nếu bạn thực sự cần nhớ thông tin nhận diện của cả 118 nguyên tố, bộ [Thẻ học bảng tuần hoàn: tên, ký hiệu và số hiệu nguyên tử của đủ 118 nguyên tố](/vi/catalog/packages/periodic-table-elements/) có thể thêm vào ứng dụng và gồm 354 thẻ. Mỗi nguyên tố có ba chiều hỏi đáp rõ ràng: tên → ký hiệu, ký hiệu → tên và số hiệu nguyên tử → đầy đủ thông tin nhận diện nguyên tố. Bộ thẻ không chứa nguyên tử lượng, bố cục bảng, xu hướng hay cấu hình electron, nên tập trung vào khả năng nhớ thông tin nhận diện thay vì cố bao quát cả môn hóa học. Giao diện danh mục có tiếng Việt; nội dung bộ thẻ giữ nguyên ngôn ngữ đã xuất bản.
+Nếu bạn thực sự cần nhớ thông tin nhận diện của cả 118 nguyên tố, bộ [Thẻ học bảng tuần hoàn: tên, ký hiệu và số hiệu nguyên tử của 118 nguyên tố](/vi/catalog/packages/periodic-table-elements-vi/) có thể thêm vào ứng dụng và gồm 354 thẻ. Mỗi nguyên tố có ba chiều hỏi đáp rõ ràng: tên → ký hiệu, ký hiệu → tên và số hiệu nguyên tử → đầy đủ thông tin nhận diện nguyên tố. Bộ thẻ không chứa nguyên tử lượng, bố cục bảng, xu hướng hay cấu hình electron, nên tập trung vào khả năng nhớ thông tin nhận diện thay vì cố bao quát cả môn hóa học. Nội dung bộ thẻ bằng tiếng Việt.
 
 Hai bộ thẻ riêng bao quát những phạm vi khác:
 

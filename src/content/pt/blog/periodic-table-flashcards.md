@@ -248,7 +248,7 @@ Mantenha uma carga diária realista enquanto amplia o conjunto. Defina quantos c
 
 ## Baralhos prontos para três objetivos diferentes
 
-Se lembrar a identidade dos 118 elementos for realmente seu objetivo, o baralho instalável [Flashcards da tabela periódica: os 118 nomes, símbolos e números atômicos](/pt/catalog/packages/periodic-table-elements/) contém 354 cartões. Ele trabalha três sentidos explícitos para cada elemento: nome → símbolo, símbolo → nome e número atômico → identidade completa do elemento. Não inclui pesos atômicos, disposição espacial, tendências nem configurações eletrônicas, mantendo o foco em lembrar identidades em vez de tentar virar um curso de química. O link abre a interface do catálogo em português; isso não traduz o conteúdo do baralho.
+Se lembrar a identidade dos 118 elementos for realmente seu objetivo, o baralho instalável [Flashcards da tabela periódica: os 118 nomes, símbolos e números atômicos](/pt/catalog/packages/periodic-table-elements-pt/) contém 354 cartões. Ele trabalha três sentidos explícitos para cada elemento: nome → símbolo, símbolo → nome e número atômico → identidade completa do elemento. Não inclui pesos atômicos, disposição espacial, tendências nem configurações eletrônicas, mantendo o foco em lembrar identidades em vez de tentar virar um curso de química. O conteúdo do baralho está em português.
 
 Dois baralhos separados cobrem outros conteúdos:
 

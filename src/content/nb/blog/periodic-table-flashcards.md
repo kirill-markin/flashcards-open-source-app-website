@@ -248,7 +248,7 @@ Hold den daglige køen overkommelig når du utvider utvalget. La mengden repetis
 
 ## Ferdige kortstokker til tre forskjellige formål
 
-Hvis målet faktisk er å kunne identifisere alle 118 grunnstoffene, kan du installere kortstokken [Periodic Table Flashcards: All 118 Names, Symbols & Atomic Numbers](/nb/catalog/packages/periodic-table-elements/) med 354 kort. Den bruker tre tydelige retninger for hvert grunnstoff: navn → symbol, symbol → navn og atomnummer → grunnstoffets fullstendige identitet. Atomvekter, plassering i tabellen, trender og elektronkonfigurasjoner er utelatt. Kortstokken øver dermed på å identifisere grunnstoffene, uten å forsøke å dekke et helt kjemikurs. Katalogen har norsk grensesnitt; selve kortinnholdet er på engelsk.
+Hvis målet faktisk er å kunne identifisere alle 118 grunnstoffene, kan du installere kortstokken [Øvingskort for periodesystemet: navn, symboler og atomnumre for alle 118 grunnstoffer](/nb/catalog/packages/periodic-table-elements-nb/) med 354 kort. Den bruker tre tydelige retninger for hvert grunnstoff: navn → symbol, symbol → navn og atomnummer → grunnstoffets fullstendige identitet. Atomvekter, plassering i tabellen, trender og elektronkonfigurasjoner er utelatt. Kortstokken øver dermed på å identifisere grunnstoffene, uten å forsøke å dekke et helt kjemikurs. Selve kortinnholdet er på norsk.
 
 To separate kortstokker dekker andre behov:
 

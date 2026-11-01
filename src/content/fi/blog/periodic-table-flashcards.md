@@ -248,7 +248,7 @@ Pidä päivittäinen kertausjono kohtuullisena, kun laajennat opeteltavaa joukko
 
 ## Valmiita pakkoja kolmeen eri tarkoitukseen
 
-Jos tavoitteenasi todella ovat kaikkien 118 alkuaineen tunnistetiedot, asennettava [Periodic Table Flashcards: All 118 Names, Symbols & Atomic Numbers](/fi/catalog/packages/periodic-table-elements/) -pakka sisältää 354 korttia. Jokaisesta alkuaineesta on kolme erillistä kyselysuuntaa: nimi → merkki, merkki → nimi ja järjestysluku → alkuaineen täydelliset tunnistetiedot. Pakassa ei ole atomipainoja, sijainteja taulukossa, trendejä eikä elektronikonfiguraatioita. Se keskittyy siis alkuaineiden tunnistetietojen muistamiseen eikä yritä korvata kemian kurssia. Luettelon suomenkielinen käyttöliittymä ei käännä pakan sisältöä.
+Jos tavoitteenasi todella ovat kaikkien 118 alkuaineen tunnistetiedot, asennettava [Jaksollisen järjestelmän opiskelukortit: kaikkien 118 alkuaineen nimet, merkit ja järjestysluvut](/fi/catalog/packages/periodic-table-elements-fi/) -pakka sisältää 354 korttia. Jokaisesta alkuaineesta on kolme erillistä kyselysuuntaa: nimi → merkki, merkki → nimi ja järjestysluku → alkuaineen täydelliset tunnistetiedot. Pakassa ei ole atomipainoja, sijainteja taulukossa, trendejä eikä elektronikonfiguraatioita. Se keskittyy siis alkuaineiden tunnistetietojen muistamiseen eikä yritä korvata kemian kurssia. Pakan kortit ovat suomeksi.
 
 Kaksi muuta pakkaa kattavat eri sisältöjä:
 

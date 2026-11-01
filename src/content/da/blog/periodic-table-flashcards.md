@@ -248,7 +248,7 @@ Hold den daglige kø på et realistisk niveau, mens kortsættet vokser. Lad mæn
 
 ## Færdige kortsæt til tre forskellige formål
 
-Hvis du faktisk skal kunne identificere alle 118 grundstoffer, indeholder kortsættet [Periodic Table Flashcards: All 118 Names, Symbols & Atomic Numbers](/da/catalog/packages/periodic-table-elements/) 354 kort og kan installeres direkte. Det bruger tre tydelige retninger for hvert grundstof: navn → symbol, symbol → navn og atomnummer → grundstoffets fulde identitet. Det omfatter ikke atomvægte, placering i tabellen, tendenser eller elektronkonfigurationer. Det holder dermed fokus på at huske grundstoffernes identitet frem for at forsøge at dække et helt kemifag. Den danske katalogside ændrer grænsefladens sprog; kortsættets indhold er fortsat på engelsk.
+Hvis du faktisk skal kunne identificere alle 118 grundstoffer, indeholder kortsættet [Flashcards til det periodiske system: alle 118 grundstoffer med navne, symboler og atomnumre](/da/catalog/packages/periodic-table-elements-da/) 354 kort og kan installeres direkte. Det bruger tre tydelige retninger for hvert grundstof: navn → symbol, symbol → navn og atomnummer → grundstoffets fulde identitet. Det omfatter ikke atomvægte, placering i tabellen, tendenser eller elektronkonfigurationer. Det holder dermed fokus på at huske grundstoffernes identitet frem for at forsøge at dække et helt kemifag. Kortsættets indhold er på dansk.
 
 To separate kortsæt dækker andre områder:
 

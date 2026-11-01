@@ -248,7 +248,7 @@ Unapoongeza elementi, hakikisha idadi ya mapitio ya kila siku inabaki ndani ya u
 
 ## Seti zilizotayarishwa kwa kazi tatu tofauti
 
-Ikiwa unahitaji kweli kujua utambulisho wa elementi zote 118, seti inayoweza kusakinishwa ya [Kadi za jedwali la elementi: majina, alama na namba atomia za elementi zote 118](/sw/catalog/packages/periodic-table-elements/) ina kadi 354. Inatumia mielekeo mitatu iliyo wazi kwa kila elementi: jina → alama, alama → jina, na namba atomia → utambulisho kamili wa elementi. Haina uzani atomia, mpangilio wa nafasi, mielekeo ya sifa wala miundo ya elektroni, kwa hiyo inabaki kuwa seti ya kukumbuka utambulisho badala ya kujaribu kuwa kozi nzima ya kemia. Lugha ya ukurasa wa katalogi haibadilishi lugha ya maudhui ya seti.
+Ikiwa unahitaji kweli kujua utambulisho wa elementi zote 118, seti inayoweza kusakinishwa ya [Kadi za jedwali la elementi: majina, alama na namba atomia za elementi zote 118](/sw/catalog/packages/periodic-table-elements-sw/) ina kadi 354. Inatumia mielekeo mitatu iliyo wazi kwa kila elementi: jina → alama, alama → jina, na namba atomia → utambulisho kamili wa elementi. Haina uzani atomia, mpangilio wa nafasi, mielekeo ya sifa wala miundo ya elektroni, kwa hiyo inabaki kuwa seti ya kukumbuka utambulisho badala ya kujaribu kuwa kozi nzima ya kemia. Maudhui ya seti hii yako kwa Kiswahili.
 
 Seti nyingine mbili zina mahitaji tofauti:
 
