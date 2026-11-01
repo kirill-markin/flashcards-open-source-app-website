@@ -987,6 +987,21 @@
     }
   },
   {
+    "publicPath": "/blog/dutch-everyday-vocabulary-flashcards.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/e8b99282262f012a695c860806efdfe2b734cda3059521ab24424c0b95de21d8.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "e8b99282262f012a695c860806efdfe2b734cda3059521ab24424c0b95de21d8",
+    "bytes": 126930,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/017c63df1710d0f129688172dc4928f11bc2beb1e41cab1e270c0b4505e96b61.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "017c63df1710d0f129688172dc4928f11bc2beb1e41cab1e270c0b4505e96b61",
+      "bytes": 2046152
+    }
+  },
+  {
     "publicPath": "/blog/ed-ing-adjectives-practice.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/f733c20058942d1de0cf0286a1812c597c4853b5a63ccf17654c33916d2ecdc9.png",
     "width": 1672,
