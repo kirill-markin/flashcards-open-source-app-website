@@ -333,6 +333,21 @@
     }
   },
   {
+    "publicPath": "/blog/anki-remove-reverse-cards.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/33661c64928157b25e1e6a7eef4d8f6e509fb930e43be0338c50e7dc9bcaa0d9.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "33661c64928157b25e1e6a7eef4d8f6e509fb930e43be0338c50e7dc9bcaa0d9",
+    "bytes": 273578,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/2805a03fe5685342eb8ca2f6c8ec16617cddbdac87de84db7877942651cff747.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "2805a03fe5685342eb8ca2f6c8ec16617cddbdac87de84db7877942651cff747",
+      "bytes": 2892757
+    }
+  },
+  {
     "publicPath": "/blog/anki-resize-images.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/720414c618bb82de1244fcd45cd993495e55db163687d5abd681e9daba2c800e.webp",
     "width": 1672,
