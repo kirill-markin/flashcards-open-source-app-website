@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-02"
+retirementReason: "Family below search and engagement thresholds after 90 days; no concrete-use veto"
+retirementEvidence: "docs/content-retirement/2026-11-02.json#/records/src~1content~1ja~1blog~1california-permit-test-flashcards.md"
 title: "California Permit Testフラッシュカード：DMVハンドブックで対策"
 description: "現行のCalifornia DMVハンドブック、道路標識、公式Class Cサンプルテストの誤答からフラッシュカードを作り、7日間で復習する方法を解説します。"
 date: "2026-08-02"

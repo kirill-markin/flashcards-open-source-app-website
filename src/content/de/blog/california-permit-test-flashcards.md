@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-02"
+retirementReason: "Family below search and engagement thresholds after 90 days; no concrete-use veto"
+retirementEvidence: "docs/content-retirement/2026-11-02.json#/records/src~1content~1de~1blog~1california-permit-test-flashcards.md"
 title: "California-Permit-Test-Lernkarten: Mit dem DMV-Handbuch lernen"
 description: "Erstelle California-Permit-Test-Lernkarten aus dem aktuellen DMV-Handbuch, aus Verkehrszeichen und deinen Fehlern in offiziellen Beispieltests – mit einem fokussierten Sieben-Tage-Lernplan."
 date: "2026-08-02"
