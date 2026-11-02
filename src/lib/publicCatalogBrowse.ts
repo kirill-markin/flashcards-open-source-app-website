@@ -1,4 +1,4 @@
-import type { AppLocale } from "./localeConfig";
+import { getLocaleSearchAliases, type AppLocale } from "./localeConfig";
 import {
   formatPublicCatalogLanguageLabel,
   getPublicCatalogLanguageName,
@@ -346,6 +346,10 @@ function getSearchScore(item: PublicCatalogBrowsePackage, query: string): number
     ...item.languageNames.flatMap((languageName) => [
       { value: normalizePublicCatalogSearchText(languageName.nativeName), weight: 25 },
       { value: normalizePublicCatalogSearchText(languageName.englishName), weight: 25 },
+      ...getLocaleSearchAliases(languageName.tag).map((alias) => ({
+        value: normalizePublicCatalogSearchText(alias),
+        weight: 25,
+      })),
     ]),
     { value: normalizePublicCatalogSearchText(latestVersion.license), weight: 20 },
     ...item.collections.flatMap((collection) => [
