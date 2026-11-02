@@ -1,14 +1,27 @@
-import { getIntlLocale, type AppLocale } from "./localeConfig";
+import {
+  getIntlLocale,
+  getLocaleEnglishName,
+  getLocaleNativeName,
+  isSupportedLocale,
+  type AppLocale,
+} from "./localeConfig";
 
-/**
- * Node ICU and browser ICU can name languages differently, so names are resolved on the
- * server and handed to client components as data to keep hydration stable.
- */
+/** Labels use the site language menu's names so the catalog and the menu name a language identically. */
 export type PublicCatalogLanguageName = Readonly<{
-  tag: string;
+  tag: AppLocale;
   nativeName: string;
   englishName: string;
 }>;
+
+function assertSupportedLanguageTag(tag: string): AppLocale {
+  if (isSupportedLocale(tag) === false) {
+    throw new Error(
+      `Cannot name public catalog language ${tag}: it is not a supported site locale. Correct the language tag.`,
+    );
+  }
+
+  return tag;
+}
 
 function getLanguageDisplayName(displayLocale: string, tag: string): string {
   const name = new Intl.DisplayNames([displayLocale], {
@@ -25,18 +38,13 @@ function getLanguageDisplayName(displayLocale: string, tag: string): string {
   return name;
 }
 
-/** Leaves names with their own capitalization, such as "isiZulu", untouched. */
-function capitalizeLanguageName(name: string, tag: string): string {
-  return name === name.toLocaleLowerCase(tag)
-    ? `${name.charAt(0).toLocaleUpperCase(tag)}${name.slice(1)}`
-    : name;
-}
-
 export function getPublicCatalogLanguageName(tag: string): PublicCatalogLanguageName {
+  const supportedTag = assertSupportedLanguageTag(tag);
+
   return {
-    tag,
-    nativeName: capitalizeLanguageName(getLanguageDisplayName(tag, tag), tag),
-    englishName: getLanguageDisplayName("en", tag),
+    tag: supportedTag,
+    nativeName: getLocaleNativeName(supportedTag),
+    englishName: getLocaleEnglishName(supportedTag),
   };
 }
 
@@ -52,7 +60,9 @@ export function formatPublicCatalogLanguageLabel(name: PublicCatalogLanguageName
     : `${name.nativeName} — ${name.englishName}`;
 }
 
-/** Uncapitalized because templates place it mid-sentence. */
+/** Non-English page locales get the uncapitalized Intl name because their templates place it mid-sentence. */
 export function getPublicCatalogLanguageNameInLocale(tag: string, locale: AppLocale): string {
-  return getLanguageDisplayName(getIntlLocale(locale), tag);
+  return locale === "en"
+    ? getLocaleEnglishName(assertSupportedLanguageTag(tag))
+    : getLanguageDisplayName(getIntlLocale(locale), tag);
 }
