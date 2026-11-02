@@ -57,10 +57,6 @@ export function formatPublicCatalogPackageCount(
   );
 }
 
-export function formatPublicCatalogFacetTag(tag: string): string {
-  return tag.normalize("NFC").trim();
-}
-
 // Single source of truth for the visible educational alignment rows shared by the
 // package page and its generated Markdown. Only the labels are localized: the values
 // stay verbatim in the language the deck author wrote them. A blank value counts as

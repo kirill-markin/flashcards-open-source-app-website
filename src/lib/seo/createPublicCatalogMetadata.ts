@@ -20,7 +20,7 @@ import {
   getPublicCatalogDestinationCopy,
   interpolatePublicCatalogCopy,
 } from "@/lib/publicCatalogDestinationCopy";
-import { formatPublicCatalogFacetTag } from "@/lib/publicCatalogFormatting";
+import { getPublicCatalogLanguageNameInLocale } from "@/lib/publicCatalogLanguageNames";
 import {
   getPublicCatalogAuthorRoutePathname,
   getPublicCatalogCollectionRoutePathname,
@@ -231,7 +231,7 @@ export function createPublicCatalogFacetMetadata(
   tag: string,
 ): Metadata {
   const copy = getPublicCatalogDestinationCopy(locale);
-  const displayTag = formatPublicCatalogFacetTag(tag);
+  const languageName = getPublicCatalogLanguageNameInLocale(tag, locale);
 
   return createPublicCatalogMetadata({
     alternateLocales: SUPPORTED_LOCALES,
@@ -239,7 +239,7 @@ export function createPublicCatalogFacetMetadata(
     description: interpolatePublicCatalogCopy(
       copy.languageIntroTemplate,
       "tag",
-      displayTag,
+      languageName,
     ),
     image: null,
     modifiedTime: null,
@@ -248,7 +248,7 @@ export function createPublicCatalogFacetMetadata(
     title: interpolatePublicCatalogCopy(
       copy.languageTitleTemplate,
       "tag",
-      displayTag,
+      languageName,
     ),
     type: "website",
   });

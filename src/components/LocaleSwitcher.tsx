@@ -7,6 +7,7 @@ import {
 import { normalizeLocaleSearchText } from "@/lib/localeSearch";
 import { getLocaleSwitcherEntriesForLocales } from "@/lib/routeTranslations";
 import { getUiCopy } from "@/lib/uiCopy";
+import { LanguageNameLabel } from "./LanguageNameLabel";
 import { LocaleSwitcherSearch } from "./LocaleSwitcherSearch";
 import styles from "./LocaleSwitcher.module.css";
 
@@ -14,12 +15,6 @@ interface LocaleSwitcherProps {
   readonly locale: AppLocale;
   readonly routeLocales: ReadonlyArray<AppLocale>;
   readonly routePathname: string;
-}
-
-interface LocaleOptionLabelProps {
-  readonly englishName: string;
-  readonly locale: AppLocale;
-  readonly nativeName: string;
 }
 
 function GlobeIcon(): React.JSX.Element {
@@ -41,28 +36,6 @@ function getLocaleSearchText(
   return [nativeName, englishName, locale, ...getLocaleSearchAliases(locale)]
     .map(normalizeLocaleSearchText)
     .join("\n");
-}
-
-/**
- * Each half is direction-isolated so the pair keeps its order on LTR and RTL pages.
- * The pair is one inline run, so the flex parent sees a single item.
- */
-function LocaleOptionLabel({
-  englishName,
-  locale,
-  nativeName,
-}: LocaleOptionLabelProps): React.JSX.Element {
-  if (nativeName === englishName) {
-    return <bdi lang={locale}>{nativeName}</bdi>;
-  }
-
-  return (
-    <span>
-      <bdi lang={locale}>{nativeName}</bdi>
-      {" — "}
-      <bdi lang="en">{englishName}</bdi>
-    </span>
-  );
 }
 
 export function LocaleSwitcher({
@@ -112,17 +85,17 @@ export function LocaleSwitcher({
               >
                 {entry.locale === locale ? (
                   <span className={styles.currentOption} aria-current="true">
-                    <LocaleOptionLabel
+                    <LanguageNameLabel
                       englishName={entry.englishName}
-                      locale={entry.locale}
+                      lang={entry.locale}
                       nativeName={entry.nativeName}
                     />
                   </span>
                 ) : (
                   <Link href={entry.href}>
-                    <LocaleOptionLabel
+                    <LanguageNameLabel
                       englishName={entry.englishName}
-                      locale={entry.locale}
+                      lang={entry.locale}
                       nativeName={entry.nativeName}
                     />
                   </Link>

@@ -7,7 +7,7 @@ import {
   getPublicCatalogDestinationCopy,
   interpolatePublicCatalogCopy,
 } from "@/lib/publicCatalogDestinationCopy";
-import { formatPublicCatalogFacetTag } from "@/lib/publicCatalogFormatting";
+import { getPublicCatalogLanguageNameInLocale } from "@/lib/publicCatalogLanguageNames";
 import { projectPublicCatalogCardMarkdownToPlainText } from "@/lib/publicCatalogMarkdownFragment";
 import type {
   PublicCatalogPackageView,
@@ -409,7 +409,7 @@ export function createPublicCatalogFacetJsonLd(
   tag: string,
 ): CatalogCollectionPageJsonLd {
   const copy = getPublicCatalogDestinationCopy(locale);
-  const displayTag = formatPublicCatalogFacetTag(tag);
+  const languageName = getPublicCatalogLanguageNameInLocale(tag, locale);
 
   return createCatalogCollectionPageJsonLd({
     dateModified: null,
@@ -417,14 +417,14 @@ export function createPublicCatalogFacetJsonLd(
     description: interpolatePublicCatalogCopy(
       copy.languageIntroTemplate,
       "tag",
-      displayTag,
+      languageName,
     ),
     entities: createPackageListEntities(packages, locale),
     locale,
     name: interpolatePublicCatalogCopy(
       copy.languageTitleTemplate,
       "tag",
-      displayTag,
+      languageName,
     ),
     ordered: false,
     routePathname: getPublicCatalogLanguageRoutePathname(tag),

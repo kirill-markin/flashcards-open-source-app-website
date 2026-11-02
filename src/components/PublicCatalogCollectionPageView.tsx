@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { BreadcrumbStructuredData } from "@/components/BreadcrumbStructuredData";
+import { LanguageNameLabel } from "@/components/LanguageNameLabel";
 import { PublicCatalogNavigation } from "@/components/PublicCatalogNavigation";
 import { PublicCatalogPackageCard } from "@/components/PublicCatalogPackageCard";
 import { SiteFrame } from "@/components/SiteFrame";
@@ -13,6 +14,7 @@ import {
   formatPublicCatalogPackageCount,
 } from "@/lib/publicCatalogFormatting";
 import { renderPublicCatalogDescriptionMarkdownToHtml } from "@/lib/publicCatalogMarkdownHtml";
+import { getPublicCatalogLanguageNames } from "@/lib/publicCatalogLanguageNames";
 import type { PublicCatalogPackageView } from "@/lib/publicCatalogReadModel";
 import type { PublicCatalogCollection } from "@/lib/publicCatalogTypes";
 import {
@@ -73,16 +75,20 @@ export async function PublicCatalogCollectionPageView({
             <p className={styles.summary}>{collection.summary}</p>
           )}
           <ul className={styles.facets}>
-            {collection.languageTags.map((languageTag) => (
-              <li key={`language:${languageTag}`}>
+            {getPublicCatalogLanguageNames(collection.languageTags).map((languageName) => (
+              <li key={`language:${languageName.tag}`}>
                 <Link
                   className={styles.facetLink}
                   href={getLocalizedPathname(
                     locale,
-                    getPublicCatalogLanguageRoutePathname(languageTag),
+                    getPublicCatalogLanguageRoutePathname(languageName.tag),
                   )}
                 >
-                  {languageTag}
+                  <LanguageNameLabel
+                    englishName={languageName.englishName}
+                    lang={languageName.tag}
+                    nativeName={languageName.nativeName}
+                  />
                 </Link>
               </li>
             ))}
@@ -125,6 +131,9 @@ export async function PublicCatalogCollectionPageView({
                   <PublicCatalogPackageCard
                     copy={catalogCopy}
                     coverSizes="(max-width: 700px) calc(100vw - 60px), 850px"
+                    languageNames={getPublicCatalogLanguageNames(
+                      packageView.latestVersion.languageTags,
+                    )}
                     locale={locale}
                     packageView={packageView}
                   />

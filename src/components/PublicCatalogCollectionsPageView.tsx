@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { BreadcrumbStructuredData } from "@/components/BreadcrumbStructuredData";
+import { LanguageNameLabel } from "@/components/LanguageNameLabel";
 import { PublicCatalogCover } from "@/components/PublicCatalogCover";
 import { PublicCatalogNavigation } from "@/components/PublicCatalogNavigation";
 import { SiteFrame } from "@/components/SiteFrame";
@@ -9,6 +10,7 @@ import { getLocalizedPathname } from "@/lib/i18n";
 import { getPublicCatalogUiCopy } from "@/lib/publicCatalogCopy";
 import { getPublicCatalogDestinationCopy } from "@/lib/publicCatalogDestinationCopy";
 import { formatPublicCatalogPackageCount } from "@/lib/publicCatalogFormatting";
+import { getPublicCatalogLanguageNames } from "@/lib/publicCatalogLanguageNames";
 import {
   getPublicCatalogCollectionCoverMediaAsset,
   type PublicCatalogReadModel,
@@ -91,16 +93,20 @@ export function PublicCatalogCollectionsPageView({
                     {formatPublicCatalogPackageCount(locale, packages.length, copy)}
                   </p>
                   <ul className={styles.facets}>
-                    {collection.languageTags.map((languageTag) => (
-                      <li key={`language:${languageTag}`}>
+                    {getPublicCatalogLanguageNames(collection.languageTags).map((languageName) => (
+                      <li key={`language:${languageName.tag}`}>
                         <Link
                           className={styles.facetLink}
                           href={getLocalizedPathname(
                             locale,
-                            getPublicCatalogLanguageRoutePathname(languageTag),
+                            getPublicCatalogLanguageRoutePathname(languageName.tag),
                           )}
                         >
-                          {languageTag}
+                          <LanguageNameLabel
+                            englishName={languageName.englishName}
+                            lang={languageName.tag}
+                            nativeName={languageName.nativeName}
+                          />
                         </Link>
                       </li>
                     ))}

@@ -1,10 +1,12 @@
 import Link from "next/link";
+import { LanguageNameLabel } from "@/components/LanguageNameLabel";
 import { PublicCatalogCover } from "@/components/PublicCatalogCover";
 import { TrackedPublicCatalogPackageLink } from "@/components/TrackedPublicCatalogPackageLink";
 import type { AppLocale } from "@/lib/i18n";
 import { getLocalizedPathname } from "@/lib/i18n";
 import type { PublicCatalogUiCopy } from "@/lib/publicCatalogCopy";
 import { formatPublicCatalogCardCount } from "@/lib/publicCatalogFormatting";
+import type { PublicCatalogLanguageName } from "@/lib/publicCatalogLanguageNames";
 import type { PublicCatalogPackageCardView } from "@/lib/publicCatalogReadModel";
 import {
   getPublicCatalogAuthorRoutePathname,
@@ -16,6 +18,7 @@ import styles from "./PublicCatalogPackageCard.module.css";
 interface PublicCatalogPackageCardProps {
   readonly copy: PublicCatalogUiCopy;
   readonly coverSizes: string;
+  readonly languageNames: ReadonlyArray<PublicCatalogLanguageName>;
   readonly locale: AppLocale;
   readonly packageView: PublicCatalogPackageCardView;
 }
@@ -23,6 +26,7 @@ interface PublicCatalogPackageCardProps {
 export function PublicCatalogPackageCard({
   copy,
   coverSizes,
+  languageNames,
   locale,
   packageView,
 }: PublicCatalogPackageCardProps): React.JSX.Element {
@@ -87,16 +91,20 @@ export function PublicCatalogPackageCard({
               copy,
             )}
           </li>
-          {latestVersion.languageTags.map((languageTag) => (
-            <li key={languageTag}>
+          {languageNames.map((languageName) => (
+            <li key={languageName.tag}>
               <Link
                 className={styles.facetLink}
                 href={getLocalizedPathname(
                   locale,
-                  getPublicCatalogLanguageRoutePathname(languageTag),
+                  getPublicCatalogLanguageRoutePathname(languageName.tag),
                 )}
               >
-                {languageTag}
+                <LanguageNameLabel
+                  englishName={languageName.englishName}
+                  lang={languageName.tag}
+                  nativeName={languageName.nativeName}
+                />
               </Link>
             </li>
           ))}

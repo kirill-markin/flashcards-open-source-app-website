@@ -680,7 +680,11 @@ test("parses the schema and builds latest-version-only lookup data", () => {
   assert.deepEqual(model.languageTags, ["en", "es"]);
   assert.deepEqual(
     createPublicCatalogBrowseData(model, "de").languages,
-    ["de", "en", "es"],
+    [
+      { value: "de", label: "Deutsch — German" },
+      { value: "en", label: "English" },
+      { value: "es", label: "Español — Spanish" },
+    ],
   );
 });
 
@@ -1729,7 +1733,7 @@ test("includes collection-only languages in static facets without inventing pack
 
   const browseData = createPublicCatalogBrowseData(model, "en");
 
-  assert.deepEqual(browseData.languages, ["en", "es"]);
+  assert.deepEqual(browseData.languages.map((choice) => choice.value), ["en", "es"]);
   assert.equal("description" in browseData.packages[0].packageView.packageMetadata, false);
   assert.equal("cards" in browseData.packages[0].packageView, false);
   assert.equal("mediaAssets" in browseData.packages[0].packageView, false);

@@ -10,10 +10,11 @@ import {
   getPublicCatalogDestinationCopy,
   interpolatePublicCatalogCopy,
 } from "@/lib/publicCatalogDestinationCopy";
+import { formatPublicCatalogPackageCount } from "@/lib/publicCatalogFormatting";
 import {
-  formatPublicCatalogFacetTag,
-  formatPublicCatalogPackageCount,
-} from "@/lib/publicCatalogFormatting";
+  getPublicCatalogLanguageNameInLocale,
+  getPublicCatalogLanguageNames,
+} from "@/lib/publicCatalogLanguageNames";
 import type { PublicCatalogPackageView } from "@/lib/publicCatalogReadModel";
 import {
   getPublicCatalogLanguageRoutePathname,
@@ -35,17 +36,17 @@ export function PublicCatalogFacetPageView({
 }: PublicCatalogFacetPageViewProps): React.JSX.Element {
   const catalogCopy = getPublicCatalogUiCopy(locale);
   const copy = getPublicCatalogDestinationCopy(locale);
-  const displayTag = formatPublicCatalogFacetTag(tag);
+  const languageName = getPublicCatalogLanguageNameInLocale(tag, locale);
   const routePathname = getPublicCatalogLanguageRoutePathname(tag);
   const title = interpolatePublicCatalogCopy(
     copy.languageTitleTemplate,
     "tag",
-    displayTag,
+    languageName,
   );
   const intro = interpolatePublicCatalogCopy(
     copy.languageIntroTemplate,
     "tag",
-    displayTag,
+    languageName,
   );
 
   return (
@@ -86,6 +87,9 @@ export function PublicCatalogFacetPageView({
                   key={packageView.packageMetadata.packageId}
                   copy={catalogCopy}
                   coverSizes="(max-width: 700px) calc(100vw - 60px), 440px"
+                  languageNames={getPublicCatalogLanguageNames(
+                    packageView.latestVersion.languageTags,
+                  )}
                   locale={locale}
                   packageView={packageView}
                 />

@@ -12,6 +12,7 @@ import {
   interpolatePublicCatalogCopy,
 } from "@/lib/publicCatalogDestinationCopy";
 import { formatPublicCatalogPackageCount } from "@/lib/publicCatalogFormatting";
+import { getPublicCatalogLanguageNames } from "@/lib/publicCatalogLanguageNames";
 import type { PublicCatalogPackageView } from "@/lib/publicCatalogReadModel";
 import type { PublicCatalogAuthor } from "@/lib/publicCatalogTypes";
 import {
@@ -96,6 +97,9 @@ export function PublicCatalogAuthorPageView({
                   key={packageView.packageMetadata.packageId}
                   copy={catalogCopy}
                   coverSizes="(max-width: 700px) calc(100vw - 60px), 440px"
+                  languageNames={getPublicCatalogLanguageNames(
+                    packageView.latestVersion.languageTags,
+                  )}
                   locale={locale}
                   packageView={packageView}
                 />

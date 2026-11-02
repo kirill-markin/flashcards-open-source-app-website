@@ -18,12 +18,16 @@ import {
 import {
   formatPublicCatalogCardCount,
   formatPublicCatalogDate,
-  formatPublicCatalogFacetTag,
   formatPublicCatalogNumber,
   formatPublicCatalogPackageCount,
   getPublicCatalogPackageAlignmentFacts,
   getPublicCatalogPackageContentWarning,
 } from "./publicCatalogFormatting";
+import {
+  formatPublicCatalogLanguageLabel,
+  getPublicCatalogLanguageName,
+  getPublicCatalogLanguageNameInLocale,
+} from "./publicCatalogLanguageNames";
 import {
   getPublicCatalogPackageCardTags,
   getPublicCatalogRelatedPackages,
@@ -101,6 +105,18 @@ function joinLinks(links: ReadonlyArray<string>): string {
   return links.length === 0 ? "—" : links.join(", ");
 }
 
+function renderLanguageLinks(
+  languageTags: ReadonlyArray<string>,
+  locale: AppLocale,
+): string {
+  return joinLinks(languageTags.map((languageTag) =>
+    createLocalizedCatalogLink(
+      formatPublicCatalogLanguageLabel(getPublicCatalogLanguageName(languageTag)),
+      locale,
+      getPublicCatalogLanguageRoutePathname(languageTag),
+    )));
+}
+
 function renderPackageFacts(
   collections: ReadonlyArray<PublicCatalogCollection>,
   locale: AppLocale,
@@ -119,12 +135,7 @@ function renderPackageFacts(
   ];
 
   if (latestVersion.languageTags.length > 0) {
-    lines.push(`- ${copy.languagesLabel}: ${joinLinks(latestVersion.languageTags.map((languageTag) =>
-      createLocalizedCatalogLink(
-        languageTag,
-        locale,
-        getPublicCatalogLanguageRoutePathname(languageTag),
-      )))}`);
+    lines.push(`- ${copy.languagesLabel}: ${renderLanguageLinks(latestVersion.languageTags, locale)}`);
   }
 
   getPublicCatalogPackageAlignmentFacts(latestVersion, copy).forEach((fact) => {
@@ -174,12 +185,7 @@ function renderPackageListItem(
     `  - ${copy.versionLabel}: ${formatPublicCatalogNumber(locale, latestVersion.versionNumber)}`,
     `  - ${copy.cardsLabel}: ${formatPublicCatalogCardCount(locale, latestVersion.cardCount, copy)}`,
     `  - ${copy.licenseLabel}: ${escapeMarkdownText(latestVersion.license)}`,
-    `  - ${copy.languagesLabel}: ${joinLinks(latestVersion.languageTags.map((languageTag) =>
-      createLocalizedCatalogLink(
-        languageTag,
-        locale,
-        getPublicCatalogLanguageRoutePathname(languageTag),
-      )))}`,
+    `  - ${copy.languagesLabel}: ${renderLanguageLinks(latestVersion.languageTags, locale)}`,
   );
 
   return lines;
@@ -500,12 +506,7 @@ function renderCollectionDetail(
   lines.push(
     `- ${catalogCopy.publishedLabel}: ${formatPublicCatalogDate(locale, collection.publishedAt)}`,
     `- ${catalogCopy.lastUpdatedLabel}: ${formatPublicCatalogDate(locale, collection.updatedAt)}`,
-    `- ${catalogCopy.languagesLabel}: ${joinLinks(collection.languageTags.map((languageTag) =>
-      createLocalizedCatalogLink(
-        languageTag,
-        locale,
-        getPublicCatalogLanguageRoutePathname(languageTag),
-      )))}`,
+    `- ${catalogCopy.languagesLabel}: ${renderLanguageLinks(collection.languageTags, locale)}`,
   );
 
   if (collection.description.trim() !== "") {
@@ -537,16 +538,16 @@ function renderFacet(
   tag: string,
 ): string {
   const copy = getPublicCatalogDestinationCopy(locale);
-  const displayTag = formatPublicCatalogFacetTag(tag);
+  const languageName = getPublicCatalogLanguageNameInLocale(tag, locale);
   const title = interpolatePublicCatalogCopy(
     copy.languageTitleTemplate,
     "tag",
-    displayTag,
+    languageName,
   );
   const intro = interpolatePublicCatalogCopy(
     copy.languageIntroTemplate,
     "tag",
-    displayTag,
+    languageName,
   );
 
   return [
@@ -719,7 +720,7 @@ export function renderPublicCatalogLlmsSection(
   }
   catalog.languageTags.forEach((languageTag) => {
     lines.push(`- ${createLocalizedCatalogLink(
-      `Audience language: ${languageTag}`,
+      `Audience language: ${formatPublicCatalogLanguageLabel(getPublicCatalogLanguageName(languageTag))}`,
       "en",
       getPublicCatalogLanguageRoutePathname(languageTag),
     )}`);
