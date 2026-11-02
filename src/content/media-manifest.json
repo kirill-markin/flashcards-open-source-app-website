@@ -2438,6 +2438,21 @@
     }
   },
   {
+    "publicPath": "/blog/le-chatelier-principle-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/5df0fb516a8538d86e4bc2a6c32029b957744d9cdc84dd72bea21b4afa07de66.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "5df0fb516a8538d86e4bc2a6c32029b957744d9cdc84dd72bea21b4afa07de66",
+    "bytes": 217430,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/4a3e6cd8ad74bb36cd492ac1a84b510e33d5ff970dcc3b63f1f866a776499895.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "4a3e6cd8ad74bb36cd492ac1a84b510e33d5ff970dcc3b63f1f866a776499895",
+      "bytes": 2531797
+    }
+  },
+  {
     "publicPath": "/blog/leading-vs-lagging-strand.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/61b128d9e62e265e1e9dd665cea53bac325e9bf8fc9ae1a793920c1166a543ea.png",
     "width": 1672,
@@ -2759,6 +2774,21 @@
     "bytes": 2132614
   },
   {
+    "publicPath": "/blog/modern-greek-vocabulary-flashcards.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/bb691d2f0d41a5e06ba65bf3478a1a120ef133f619b9e96080b8f44db3fc1583.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "bb691d2f0d41a5e06ba65bf3478a1a120ef133f619b9e96080b8f44db3fc1583",
+    "bytes": 285702,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/e66846df339b2564d9c7ddbf1bc0ea88b6d9a2188f9c9af64d0e81c6cce377a7.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "e66846df339b2564d9c7ddbf1bc0ea88b6d9a2188f9c9af64d0e81c6cce377a7",
+      "bytes": 2899435
+    }
+  },
+  {
     "publicPath": "/blog/momentum-collisions-practice.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/7bdf4a698865606bcb35cdb5fb211d899a59e7bdbd437783bc382d379b673592.webp",
     "width": 1672,
@@ -2996,6 +3026,21 @@
       "height": 941,
       "sha256": "92b787c923b8d14fbe268190c96e5b5882ed4fb9ee4f954eba46ec00ba7f1225",
       "bytes": 2244945
+    }
+  },
+  {
+    "publicPath": "/blog/persian-vocabulary-flashcards.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/6cea13213bd25e624371ea0af082d3e32f3e123dd1f484e5a0a7a954fe7047f8.webp",
+    "width": 1729,
+    "height": 910,
+    "sha256": "6cea13213bd25e624371ea0af082d3e32f3e123dd1f484e5a0a7a954fe7047f8",
+    "bytes": 157428,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/41f666aa59ce0e0328d8b2b8dc97366f7bad1fe17f9ffbd3999a06039027ef5b.png",
+      "width": 1729,
+      "height": 910,
+      "sha256": "41f666aa59ce0e0328d8b2b8dc97366f7bad1fe17f9ffbd3999a06039027ef5b",
+      "bytes": 2321526
     }
   },
   {
@@ -3513,6 +3558,21 @@
       "height": 941,
       "sha256": "ee9144fca79fcfce503eeec044050ef7bbdb932ceaece48a4f495644deae6fb0",
       "bytes": 2312659
+    }
+  },
+  {
+    "publicPath": "/blog/russian-beginner-vocabulary-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/3ca445b4dce761bb2332b488e6104fb02479da0ee3cfd12aaa0b598389555b9d.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "3ca445b4dce761bb2332b488e6104fb02479da0ee3cfd12aaa0b598389555b9d",
+    "bytes": 199994,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/7a22f1af275bd30d7cc90f31b9cbe9e7209bd1eddda8ebcbffc35cf558d36835.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "7a22f1af275bd30d7cc90f31b9cbe9e7209bd1eddda8ebcbffc35cf558d36835",
+      "bytes": 2478814
     }
   },
   {

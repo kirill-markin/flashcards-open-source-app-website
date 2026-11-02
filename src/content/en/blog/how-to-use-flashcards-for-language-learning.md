@@ -85,11 +85,15 @@ You are not only remembering that a word exists. You are learning where it belon
 
 For a concrete Dutch example, try the [home, work and family vocabulary practice](/blog/dutch-everyday-vocabulary-flashcards/). Its English cues separate noun-and-article recall, written plurals, verb meanings and present-tense forms, with eight questions and complete answers.
 
+For Persian, the [everyday Persian vocabulary deck for English speakers](/catalog/packages/persian-everyday-vocabulary/) separates reading script for meaning from selected English-to-script prompts, keeping pronunciation aids on the answer side of recognition cards.
+
 Writing-system cards can use the same two-way pattern while staying intentionally narrow. [Hiragana Flashcards: All 46 Basic Characters with Romaji](/catalog/packages/basic-hiragana-romaji/) contains exactly 92 cards for all 46 modern basic hiragana, split between kana → Hepburn-style learner romaji and romaji → kana recall. It has no audio, vocabulary, stroke order, dakuten, or contracted sounds, so treat it as a focused foundation rather than a complete Japanese course.
 
 If katakana is your next script, [this two-way katakana deck](/catalog/packages/basic-katakana-romaji/) covers all 46 modern basic katakana with 92 independently reviewed cards in total: 46 katakana → romaji and 46 romaji → katakana.
 
 For Greek letter-form and name recognition, [Greek Alphabet Flashcards: All 24 Uppercase & Lowercase Letters](/catalog/packages/greek-alphabet-flashcards/) has 72 cards covering all 24 letters through uppercase-to-name, lowercase-to-name, and name-to-symbol recall. It does not teach pronunciation, transliteration, vocabulary, handwriting, or mathematical meanings.
+
+Once you can read basic Greek script, the [Modern Greek everyday vocabulary deck](/catalog/packages/modern-greek-everyday-vocabulary/) adds noun-and-article recall, meanings in short contexts and everyday phrase production with English cues. It supports written practice; it has no audio.
 
 ## Sentences usually beat raw vocabulary once you are past the first layer
 
@@ -158,6 +162,8 @@ I would use production cards selectively:
 - for sentence frames you want to automate
 
 That keeps the deck useful without turning it into homework theater.
+
+For English-speaking Russian beginners, the [Russian vocabulary deck](/catalog/packages/russian-beginner-everyday-vocabulary/) combines meaning questions in short contexts with selected English-to-Russian production prompts, using stressed Cyrillic and English instructions.
 
 For French, the [conversational fillers practice guide](/blog/french-conversational-fillers/) uses short exchanges and constrained choices to distinguish meaning, register and overuse, with English explanations.
 
