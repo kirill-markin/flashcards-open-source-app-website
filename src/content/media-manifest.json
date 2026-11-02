@@ -2288,6 +2288,21 @@
     }
   },
   {
+    "publicPath": "/blog/latin-prepositions-conjunctions.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/ed18d1dfa03483cb044047738cc30a356fdab1c07611680fc3a64809f382d2a3.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "ed18d1dfa03483cb044047738cc30a356fdab1c07611680fc3a64809f382d2a3",
+    "bytes": 293160,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/ab859ec9908fb483bdf89098c25d85b4bf8449f5914ef52cf68de9b8d20ce881.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "ab859ec9908fb483bdf89098c25d85b4bf8449f5914ef52cf68de9b8d20ce881",
+      "bytes": 2864985
+    }
+  },
+  {
     "publicPath": "/blog/leading-vs-lagging-strand.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/61b128d9e62e265e1e9dd665cea53bac325e9bf8fc9ae1a793920c1166a543ea.png",
     "width": 1672,
