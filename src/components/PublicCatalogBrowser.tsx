@@ -220,10 +220,6 @@ export function PublicCatalogBrowser({
   );
   const state = parsePublicCatalogQuery(search, data, locale);
   const result = queryPublicCatalogPackages(data.packages, state);
-  const languageOptions = useMemo<ReadonlyArray<PublicCatalogPickerOption<string>>>(
-    () => data.languages.map((language) => ({ label: language, value: language })),
-    [data.languages],
-  );
   const authorOptions = useMemo<ReadonlyArray<PublicCatalogPickerOption<string>>>(
     () => [
       { label: copy.browse.allAuthorsLabel, value: "" },
@@ -493,7 +489,7 @@ export function PublicCatalogBrowser({
 
                     updateLanguage(change.language, change.isSelected);
                   }}
-                  options={languageOptions}
+                  options={data.languages}
                   searchLabel={copy.browse.languageSearchLabel}
                   searchPlaceholder={copy.browse.languageSearchPlaceholder}
                   values={state.languages}
@@ -557,6 +553,7 @@ export function PublicCatalogBrowser({
                   copy={copy}
                   coverSizes="(max-width: 640px) calc(100vw - 56px), (max-width: 980px) calc(50vw - 38px), 390px"
                   key={item.packageView.packageMetadata.packageId}
+                  languageNames={item.languageNames}
                   locale={locale}
                   packageView={item.packageView}
                 />

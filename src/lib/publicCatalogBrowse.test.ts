@@ -11,6 +11,13 @@ import {
   type PublicCatalogQueryState,
 } from "./publicCatalogBrowse";
 import {
+  formatPublicCatalogLanguageLabel,
+  getPublicCatalogLanguageName,
+  getPublicCatalogLanguageNameInLocale,
+  getPublicCatalogLanguageNames,
+} from "./publicCatalogLanguageNames";
+import { SUPPORTED_LOCALES } from "./localeConfig";
+import {
   createPublicCatalogFilterAnalytics,
   createPublicCatalogInstallAnalytics,
   createPublicCatalogNavigationAnalytics,
@@ -53,6 +60,7 @@ function createPackage(
       },
       coverMediaAsset: null,
     },
+    languageNames: getPublicCatalogLanguageNames(languages),
     collections,
   };
 }
@@ -60,12 +68,21 @@ function createPackage(
 const starterCollection = [{ value: "starter", label: "Starter Collection" }];
 const advancedCollection = [{ value: "advanced", label: "Advanced Grammar" }];
 
+function createLanguageChoices(
+  languages: ReadonlyArray<string>,
+): PublicCatalogBrowseData["languages"] {
+  return languages.map((language) => ({
+    value: language,
+    label: formatPublicCatalogLanguageLabel(getPublicCatalogLanguageName(language)),
+  }));
+}
+
 function createBrowseData(
   packages: ReadonlyArray<PublicCatalogBrowsePackage>,
 ): PublicCatalogBrowseData {
   return {
     packages,
-    languages: ["en", "es", "fr"],
+    languages: createLanguageChoices(["en", "es", "fr"]),
     authors: [
       { value: "author-one", label: "Author One" },
       { value: "author-two", label: "Author Two" },
@@ -484,6 +501,25 @@ test("searches author, language, license, and collection membership text", () =>
       .packages.map((item) => item.packageView.packageMetadata.slug),
     ["grammar", "grammar-basics"],
   );
+  assert.deepEqual(
+    queryPublicCatalogPackages(packages, { ...createEmptyState(), q: "Spanish" })
+      .packages.map((item) => item.packageView.packageMetadata.slug),
+    ["grammar-basics"],
+  );
+  assert.deepEqual(
+    queryPublicCatalogPackages(packages, { ...createEmptyState(), q: "francais" })
+      .packages.map((item) => item.packageView.packageMetadata.slug),
+    ["advanced-grammar"],
+  );
+});
+
+test("names every supported language tag natively, in English, and in every page locale", () => {
+  SUPPORTED_LOCALES.forEach((tag) => {
+    assert.notEqual(formatPublicCatalogLanguageLabel(getPublicCatalogLanguageName(tag)), "");
+    SUPPORTED_LOCALES.forEach((locale) => {
+      assert.notEqual(getPublicCatalogLanguageNameInLocale(tag, locale), "");
+    });
+  });
 });
 
 test("supports explicit title and newest ordering with stable slug ties", () => {
@@ -536,7 +572,7 @@ test("uses a fixed page size and clamps oversized pages to the final page", () =
 });
 
 test("re-parses URL snapshots for back-forward state and preserves localized paths", () => {
-  const arData = { ...data, languages: ["ar", ...data.languages] };
+  const arData = { ...data, languages: [...createLanguageChoices(["ar"]), ...data.languages] };
   const firstState = parsePublicCatalogQuery("?language=en&page=2", arData, "ar");
   const secondState = parsePublicCatalogQuery("?q=grammar&sort=title", arData, "ar");
 
@@ -551,7 +587,10 @@ test("re-parses URL snapshots for back-forward state and preserves localized pat
 });
 
 test("round-trips locale defaults, explicit selections, and cleared languages", () => {
-  const localizedData = { ...data, languages: ["de", ...data.languages] };
+  const localizedData = {
+    ...data,
+    languages: [...createLanguageChoices(["de"]), ...data.languages],
+  };
   const defaultState = parsePublicCatalogQuery("", localizedData, "de");
   const explicitState = parsePublicCatalogQuery(
     "?q=grammar&language=fr&language=en",

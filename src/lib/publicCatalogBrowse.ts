@@ -1,4 +1,10 @@
 import type { AppLocale } from "./localeConfig";
+import {
+  formatPublicCatalogLanguageLabel,
+  getPublicCatalogLanguageName,
+  getPublicCatalogLanguageNames,
+  type PublicCatalogLanguageName,
+} from "./publicCatalogLanguageNames";
 import type {
   PublicCatalogPackageCardView,
   PublicCatalogReadModel,
@@ -21,12 +27,13 @@ export type PublicCatalogBrowseChoice = Readonly<{
 
 export type PublicCatalogBrowsePackage = Readonly<{
   packageView: PublicCatalogPackageCardView;
+  languageNames: ReadonlyArray<PublicCatalogLanguageName>;
   collections: ReadonlyArray<PublicCatalogBrowseChoice>;
 }>;
 
 export type PublicCatalogBrowseData = Readonly<{
   packages: ReadonlyArray<PublicCatalogBrowsePackage>;
-  languages: ReadonlyArray<string>;
+  languages: ReadonlyArray<PublicCatalogBrowseChoice>;
   authors: ReadonlyArray<PublicCatalogBrowseChoice>;
   collections: ReadonlyArray<PublicCatalogBrowseChoice>;
 }>;
@@ -126,6 +133,7 @@ export function createPublicCatalogBrowseData(
               mimeType: packageView.coverMediaAsset.mimeType,
             },
       },
+      languageNames: getPublicCatalogLanguageNames(packageView.latestVersion.languageTags),
       collections: [...collections].sort(compareChoices),
     };
   });
@@ -146,7 +154,10 @@ export function createPublicCatalogBrowseData(
         defaultAudienceLanguage,
         ...packages.flatMap(({ packageView }) => packageView.latestVersion.languageTags),
       ],
-    ),
+    ).map((language): PublicCatalogBrowseChoice => ({
+      value: language,
+      label: formatPublicCatalogLanguageLabel(getPublicCatalogLanguageName(language)),
+    })),
     authors,
     collections,
   };
@@ -210,7 +221,9 @@ export function parsePublicCatalogQuery(
   data: PublicCatalogBrowseData,
   defaultAudienceLanguage: AppLocale,
 ): PublicCatalogQueryState {
-  if (data.languages.includes(defaultAudienceLanguage) === false) {
+  const languageValues = data.languages.map((choice) => choice.value);
+
+  if (languageValues.includes(defaultAudienceLanguage) === false) {
     throw new Error(
       `Public catalog default audience language must be an available choice. received=${defaultAudienceLanguage}`,
     );
@@ -226,7 +239,7 @@ export function parsePublicCatalogQuery(
   return {
     q,
     languages: searchParams.has("language")
-      ? parseRepeatedChoice(searchParams, "language", data.languages)
+      ? parseRepeatedChoice(searchParams, "language", languageValues)
       : [defaultAudienceLanguage],
     author: parseSingleChoice(
       searchParams,
@@ -330,6 +343,10 @@ function getSearchScore(item: PublicCatalogBrowsePackage, query: string): number
       value: normalizePublicCatalogSearchText(value),
       weight: 25,
     })),
+    ...item.languageNames.flatMap((languageName) => [
+      { value: normalizePublicCatalogSearchText(languageName.nativeName), weight: 25 },
+      { value: normalizePublicCatalogSearchText(languageName.englishName), weight: 25 },
+    ]),
     { value: normalizePublicCatalogSearchText(latestVersion.license), weight: 20 },
     ...item.collections.flatMap((collection) => [
       { value: normalizePublicCatalogSearchText(collection.label), weight: 30 },

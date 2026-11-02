@@ -2,6 +2,7 @@ import { getAppUrl } from "@/lib/auth";
 import "katex/dist/katex.min.css";
 import Link from "next/link";
 import { AncestorBreadcrumbStructuredData } from "@/components/BreadcrumbStructuredData";
+import { LanguageNameLabel } from "@/components/LanguageNameLabel";
 import { PublicCatalogCover } from "@/components/PublicCatalogCover";
 import { SiteFrameForRouteLocales } from "@/components/SiteFrame";
 import { StructuredDataScript } from "@/components/StructuredDataScript";
@@ -23,6 +24,7 @@ import {
   getPublicCatalogPackageAlignmentFacts,
   getPublicCatalogPackageContentWarning,
 } from "@/lib/publicCatalogFormatting";
+import { getPublicCatalogLanguageNames } from "@/lib/publicCatalogLanguageNames";
 import {
   renderPublicCatalogCardMarkdownToHtml,
   renderPublicCatalogDescriptionMarkdownToHtml,
@@ -379,15 +381,19 @@ export async function PublicCatalogPackagePageView({
                     <div className={styles.fact}>
                       <dt>{copy.languagesLabel}</dt>
                       <dd className={styles.facetList}>
-                        {latestVersion.languageTags.map((languageTag) => (
+                        {getPublicCatalogLanguageNames(latestVersion.languageTags).map((languageName) => (
                           <Link
-                            key={languageTag}
+                            key={languageName.tag}
                             href={getLocalizedPathname(
                               locale,
-                              getPublicCatalogLanguageRoutePathname(languageTag),
+                              getPublicCatalogLanguageRoutePathname(languageName.tag),
                             )}
                           >
-                            {languageTag}
+                            <LanguageNameLabel
+                              englishName={languageName.englishName}
+                              lang={languageName.tag}
+                              nativeName={languageName.nativeName}
+                            />
                           </Link>
                         ))}
                       </dd>
