@@ -31,6 +31,7 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   "everyday-english-vocabulary-practice": {
     ru: "everyday-english-vocabulary-russian-speakers",
   },
+  "russian-beginner-vocabulary-flashcards": { en: "russian-beginner-everyday-vocabulary" },
   "german-noun-gender-plurals": { ru: "german-noun-gender-plurals-russian-speakers" },
   "swedish-everyday-vocabulary-flashcards": { en: "swedish-everyday-vocabulary" },
   "german-everyday-expressions": { it: "german-everyday-expressions-italian-speakers" },
