@@ -17,6 +17,7 @@ import { getPublicCatalogPackageLocalizedPathname } from "./publicCatalogUrls";
 const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   Record<string, Readonly<Partial<Record<AppLocale, string>>>>
 > = {
+  "find-maxdepth-mindepth": { en: "linux-command-line-flashcards" },
   "crossing-over-vs-independent-assortment": { en: "ap-biology-flashcards-complete-course-review" },
   "le-chatelier-principle-practice": { en: "ap-chemistry-flashcards" },
   "sap-idoc-status-codes": { en: "sap-idoc-status-codes" },

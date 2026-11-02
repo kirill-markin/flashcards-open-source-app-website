@@ -1238,6 +1238,21 @@
     }
   },
   {
+    "publicPath": "/blog/find-maxdepth-mindepth.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/d5820bdadaee34496d118827e9973912d23d4f78817066d17ee759e03271641b.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "d5820bdadaee34496d118827e9973912d23d4f78817066d17ee759e03271641b",
+    "bytes": 230908,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/897c3f0318604d5f138b6c8057fae8d7fcb87ba5f6460ccbf123233ce9104247.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "897c3f0318604d5f138b6c8057fae8d7fcb87ba5f6460ccbf123233ce9104247",
+      "bytes": 2763402
+    }
+  },
+  {
     "publicPath": "/blog/find-mtime-vs-ctime.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/b6d8f244a2eabfdeb32175c7a8c1bbda1b5a74b117ce83cb4af4dc2b96e0b045.webp",
     "width": 1672,
