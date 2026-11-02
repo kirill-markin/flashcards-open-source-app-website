@@ -17,6 +17,7 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   "korean-vocabulary-recall-practice": { en: "korean-everyday-vocabulary" },
   "latin-prepositions-conjunctions": { de: "latin-prepositions-conjunctions-german-speakers" },
   "french-conversational-fillers": { en: "french-conversational-fillers" },
+  "persian-vocabulary-flashcards": { en: "persian-everyday-vocabulary" },
   "thai-alphabet-flashcards": { it: "thai-alphabet-italian-speakers" },
   "rioplatense-spanish-voseo-household": {
     ru: "rioplatense-spanish-voseo-household-russian-speakers",
