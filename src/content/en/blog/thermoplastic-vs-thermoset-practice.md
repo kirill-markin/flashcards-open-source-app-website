@@ -116,6 +116,8 @@ Passing this worksheet is a shortlist decision. A real part also needs suitable 
 
 ## Keep the controlling requirement in your answer
 
+For broader selection practice, the [worked metal, ABS and PA6 cases](/blog/engineering-materials-flashcards/) connect stiffness, manufacturing routes and long-term gripping force to the evidence a candidate still needs.
+
 When reviewing a missed problem, write the requirement beside the decision: “C fails because the part must be reshaped after forming.” This records why the answer holds. If the requirements change, screen the candidates again.
 
 For short recall practice, turn a recurring mistake into one self-contained question: “How should a candidate with no modulus data be recorded in a stiffness screen?” Answer: “More information needed; request comparable data at the required temperature.” The [flashcard-writing guide](/blog/how-to-make-better-flashcards/) explains keeping prompts narrow. To start using Nibomo with your own questions, see the [getting-started guide](/docs/getting-started/). Keep full selection worksheets alongside your course work.

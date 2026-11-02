@@ -83,6 +83,8 @@ That mix gives the deck more range.
 
 You are not only remembering that a word exists. You are learning where it belongs.
 
+For a concrete Dutch example, try the [home, work and family vocabulary practice](/blog/dutch-everyday-vocabulary-flashcards/). Its English cues separate noun-and-article recall, written plurals, verb meanings and present-tense forms, with eight questions and complete answers.
+
 Writing-system cards can use the same two-way pattern while staying intentionally narrow. [Hiragana Flashcards: All 46 Basic Characters with Romaji](/catalog/packages/basic-hiragana-romaji/) contains exactly 92 cards for all 46 modern basic hiragana, split between kana → Hepburn-style learner romaji and romaji → kana recall. It has no audio, vocabulary, stroke order, dakuten, or contracted sounds, so treat it as a focused foundation rather than a complete Japanese course.
 
 If katakana is your next script, [this two-way katakana deck](/catalog/packages/basic-katakana-romaji/) covers all 46 modern basic katakana with 92 independently reviewed cards in total: 46 katakana → romaji and 46 romaji → katakana.
@@ -156,6 +158,8 @@ I would use production cards selectively:
 - for sentence frames you want to automate
 
 That keeps the deck useful without turning it into homework theater.
+
+For French, the [conversational fillers practice guide](/blog/french-conversational-fillers/) uses short exchanges and constrained choices to distinguish meaning, register and overuse, with English explanations.
 
 For a concrete example, [this Spanish present-tense deck](/catalog/packages/spanish-present-tense-verbs/) has 150 production cards, each pairing one of 25 infinitives with one of six subject groups and asking for a single present-indicative form. It is a focused conjugation drill, not a complete Spanish course.
 

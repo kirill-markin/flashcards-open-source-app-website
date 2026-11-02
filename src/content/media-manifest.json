@@ -295,6 +295,21 @@
     }
   },
   {
+    "publicPath": "/blog/anki-nested-cloze.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/6c70710cbf3115c5bb51a98426bfe8146c79af8e79895406546f256eb603de1d.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "6c70710cbf3115c5bb51a98426bfe8146c79af8e79895406546f256eb603de1d",
+    "bytes": 134180,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/7407d2c1ff5e2c970b7c59350ddd8cdb6fa454bf2187d0056dca73c0ed903b28.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "7407d2c1ff5e2c970b7c59350ddd8cdb6fa454bf2187d0056dca73c0ed903b28",
+      "bytes": 2264448
+    }
+  },
+  {
     "publicPath": "/blog/anki-new-card-order.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/ee3ae5f8c610c255110897ba5b7c1648c023ffd16518c51ae6cdfd3bd860c760.png",
     "width": 1672,
@@ -987,6 +1002,21 @@
     }
   },
   {
+    "publicPath": "/blog/dutch-everyday-vocabulary-flashcards.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/e8b99282262f012a695c860806efdfe2b734cda3059521ab24424c0b95de21d8.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "e8b99282262f012a695c860806efdfe2b734cda3059521ab24424c0b95de21d8",
+    "bytes": 126930,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/017c63df1710d0f129688172dc4928f11bc2beb1e41cab1e270c0b4505e96b61.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "017c63df1710d0f129688172dc4928f11bc2beb1e41cab1e270c0b4505e96b61",
+      "bytes": 2046152
+    }
+  },
+  {
     "publicPath": "/blog/ed-ing-adjectives-practice.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/f733c20058942d1de0cf0286a1812c597c4853b5a63ccf17654c33916d2ecdc9.png",
     "width": 1672,
@@ -1027,6 +1057,21 @@
     "bytes": 2312258
   },
   {
+    "publicPath": "/blog/engineering-materials-flashcards.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/46c4446ea2840ffa8d8623a24ec556a26bf95499efba81cfbb301ac4266fc3b5.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "46c4446ea2840ffa8d8623a24ec556a26bf95499efba81cfbb301ac4266fc3b5",
+    "bytes": 137676,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/429b544e890b0bfb5ac9365fca68c8c64168387749d77906ff6eabe67604b5e3.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "429b544e890b0bfb5ac9365fca68c8c64168387749d77906ff6eabe67604b5e3",
+      "bytes": 2089561
+    }
+  },
+  {
     "publicPath": "/blog/enzyme-inhibition-practice-problems.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/fd2bb652d94d39980d576e84d2434aff215ba84c5cb0822922ade4ad7dc4d219.webp",
     "width": 1672,
@@ -1048,6 +1093,21 @@
     "height": 941,
     "sha256": "49d3d5050c62435b7f309c19d67f7ae774aa97c780ceaea0f46200bd2bb1d5c9",
     "bytes": 2117201
+  },
+  {
+    "publicPath": "/blog/everyday-english-vocabulary-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/ed01615ce056187f25186dec3c6287cb3671ebe644b5cdac385b9a5f7b758be4.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "ed01615ce056187f25186dec3c6287cb3671ebe644b5cdac385b9a5f7b758be4",
+    "bytes": 169012,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/97ee7fdc6814484b41f14f894cd89465613b20cc3e7d796c236bb0e50bc3e8e8.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "97ee7fdc6814484b41f14f894cd89465613b20cc3e7d796c236bb0e50bc3e8e8",
+      "bytes": 2330193
+    }
   },
   {
     "publicPath": "/blog/expected-value-practice.webp",
@@ -1286,6 +1346,21 @@
     "bytes": 2047250
   },
   {
+    "publicPath": "/blog/french-conversational-fillers.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/e025e4b01c686b443fd716713e7b6dda376310f8bd49514009dfe2ee2d5e6147.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "e025e4b01c686b443fd716713e7b6dda376310f8bd49514009dfe2ee2d5e6147",
+    "bytes": 112090,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/f0df2201f482f322946265e9b9300f5e14fa2ae7f5e5aeb74a4ee751b05e31a0.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "f0df2201f482f322946265e9b9300f5e14fa2ae7f5e5aeb74a4ee751b05e31a0",
+      "bytes": 2030909
+    }
+  },
+  {
     "publicPath": "/blog/fsrs-settings-v2.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/0f13f4f72039285bcd797120e287150fb82a4fa6c161e9df180d667b0a6ee273.png",
     "width": 1717,
@@ -1330,6 +1405,21 @@
       "height": 941,
       "sha256": "002b4cbda23b5347a141469b2ac3a5a8fb9235c5e022df286c321c7df2b0184f",
       "bytes": 2861422
+    }
+  },
+  {
+    "publicPath": "/blog/german-everyday-expressions.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/cc7a8cf25794cebcaf8b07c5bc2d410637229d5b611f717568b3476db223170c.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "cc7a8cf25794cebcaf8b07c5bc2d410637229d5b611f717568b3476db223170c",
+    "bytes": 160906,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/e9a223381e6b8dd74317720fea02ec48f704444dc6dab1a11c1e3114e5e92bf7.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "e9a223381e6b8dd74317720fea02ec48f704444dc6dab1a11c1e3114e5e92bf7",
+      "bytes": 2292176
     }
   },
   {
@@ -1451,6 +1541,21 @@
       "height": 941,
       "sha256": "dda4c43d5b02b609ba1b8a84e7c2a375930090ca9c2b7ea36296da786e0f948b",
       "bytes": 2341437
+    }
+  },
+  {
+    "publicPath": "/blog/gmdss-goc-flashcards.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/f567afad7ada447f9e22ef177531d5b7c8332b4751fe149e64a99821a5393ed4.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "f567afad7ada447f9e22ef177531d5b7c8332b4751fe149e64a99821a5393ed4",
+    "bytes": 201456,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/0e09ecfeb8d78fa43a7c40d6c83d4d4727adc1535baa02b86b432c6345cc9c22.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "0e09ecfeb8d78fa43a7c40d6c83d4d4727adc1535baa02b86b432c6345cc9c22",
+      "bytes": 2418758
     }
   },
   {
@@ -2300,6 +2405,21 @@
       "height": 941,
       "sha256": "5bd53e1ba26b89bf23749b85780be3ed7657af31cbfa5dc0ecf38d4c4e82381a",
       "bytes": 2413806
+    }
+  },
+  {
+    "publicPath": "/blog/latin-prepositions-conjunctions.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/ed18d1dfa03483cb044047738cc30a356fdab1c07611680fc3a64809f382d2a3.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "ed18d1dfa03483cb044047738cc30a356fdab1c07611680fc3a64809f382d2a3",
+    "bytes": 293160,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/ab859ec9908fb483bdf89098c25d85b4bf8449f5914ef52cf68de9b8d20ce881.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "ab859ec9908fb483bdf89098c25d85b4bf8449f5914ef52cf68de9b8d20ce881",
+      "bytes": 2864985
     }
   },
   {
@@ -3366,6 +3486,21 @@
     "bytes": 2389508
   },
   {
+    "publicPath": "/blog/rioplatense-spanish-voseo-household.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/d53f71f06121eb85ccab6b77c7d350139b0590003181ff1e8add11cb1d1d1886.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "d53f71f06121eb85ccab6b77c7d350139b0590003181ff1e8add11cb1d1d1886",
+    "bytes": 170650,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/ee9144fca79fcfce503eeec044050ef7bbdb932ceaece48a4f495644deae6fb0.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "ee9144fca79fcfce503eeec044050ef7bbdb932ceaece48a4f495644deae6fb0",
+      "bytes": 2312659
+    }
+  },
+  {
     "publicPath": "/blog/scientific-notation-practice.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/a8c13509260849a23a2dec479b39b41934f217f4ad0af437e951a5b6898f075c.png",
     "width": 1672,
@@ -3649,12 +3784,42 @@
     }
   },
   {
+    "publicPath": "/blog/swedish-everyday-vocabulary-flashcards.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/f5e8d254ca76e5a45e520f4f3b8602cb17075fde7146b099d33bde6130361c04.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "f5e8d254ca76e5a45e520f4f3b8602cb17075fde7146b099d33bde6130361c04",
+    "bytes": 151454,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/55995a09185dab5a85e1676bf69b39fc0f9ba91ffcddc071c33af1dfa5925f3b.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "55995a09185dab5a85e1676bf69b39fc0f9ba91ffcddc071c33af1dfa5925f3b",
+      "bytes": 2211989
+    }
+  },
+  {
     "publicPath": "/blog/tcp-sequence-acknowledgment-numbers.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/7953e4daaea9d1e78ad2a80258566fc31f01de74fc80f2f84381ea5bc0cd89e4.png",
     "width": 1672,
     "height": 941,
     "sha256": "7953e4daaea9d1e78ad2a80258566fc31f01de74fc80f2f84381ea5bc0cd89e4",
     "bytes": 2519643
+  },
+  {
+    "publicPath": "/blog/thai-alphabet-flashcards-aspiration.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/870e9c21f8b1d6e5c724dbcdbc06956cb05da3b37ac4b620adea8dab371166ad.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "870e9c21f8b1d6e5c724dbcdbc06956cb05da3b37ac4b620adea8dab371166ad",
+    "bytes": 82600,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/5853a1ebe9e4382d25085077177f84685111bf0c4419ae8c9ecdcc35aa309512.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "5853a1ebe9e4382d25085077177f84685111bf0c4419ae8c9ecdcc35aa309512",
+      "bytes": 1996921
+    }
   },
   {
     "publicPath": "/blog/thermoplastic-vs-thermoset-practice.webp",
