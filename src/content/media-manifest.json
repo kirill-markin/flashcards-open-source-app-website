@@ -3501,6 +3501,21 @@
     }
   },
   {
+    "publicPath": "/blog/russian-beginner-vocabulary-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/3ca445b4dce761bb2332b488e6104fb02479da0ee3cfd12aaa0b598389555b9d.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "3ca445b4dce761bb2332b488e6104fb02479da0ee3cfd12aaa0b598389555b9d",
+    "bytes": 199994,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/7a22f1af275bd30d7cc90f31b9cbe9e7209bd1eddda8ebcbffc35cf558d36835.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "7a22f1af275bd30d7cc90f31b9cbe9e7209bd1eddda8ebcbffc35cf558d36835",
+      "bytes": 2478814
+    }
+  },
+  {
     "publicPath": "/blog/sap-idoc-status-codes-handoff-evidence.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/ac180d6f4e7c4e45149fe31d3a1bc49ce8c6ae5442a9d04f4848bf9aa14656ac.webp",
     "width": 1672,

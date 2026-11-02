@@ -159,6 +159,8 @@ I would use production cards selectively:
 
 That keeps the deck useful without turning it into homework theater.
 
+For English-speaking Russian beginners, the [Russian vocabulary deck](/catalog/packages/russian-beginner-everyday-vocabulary/) combines meaning questions in short contexts with selected English-to-Russian production prompts, using stressed Cyrillic and English instructions.
+
 For French, the [conversational fillers practice guide](/blog/french-conversational-fillers/) uses short exchanges and constrained choices to distinguish meaning, register and overuse, with English explanations.
 
 For a concrete example, [this Spanish present-tense deck](/catalog/packages/spanish-present-tense-verbs/) has 150 production cards, each pairing one of 25 infinitives with one of six subject groups and asking for a single present-indicative form. It is a focused conjugation drill, not a complete Spanish course.
