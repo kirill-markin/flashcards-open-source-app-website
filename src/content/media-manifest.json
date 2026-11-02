@@ -2423,6 +2423,21 @@
     }
   },
   {
+    "publicPath": "/blog/le-chatelier-principle-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/5df0fb516a8538d86e4bc2a6c32029b957744d9cdc84dd72bea21b4afa07de66.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "5df0fb516a8538d86e4bc2a6c32029b957744d9cdc84dd72bea21b4afa07de66",
+    "bytes": 217430,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/4a3e6cd8ad74bb36cd492ac1a84b510e33d5ff970dcc3b63f1f866a776499895.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "4a3e6cd8ad74bb36cd492ac1a84b510e33d5ff970dcc3b63f1f866a776499895",
+      "bytes": 2531797
+    }
+  },
+  {
     "publicPath": "/blog/leading-vs-lagging-strand.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/61b128d9e62e265e1e9dd665cea53bac325e9bf8fc9ae1a793920c1166a543ea.png",
     "width": 1672,
