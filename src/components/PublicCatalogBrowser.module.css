@@ -72,6 +72,7 @@
 }
 
 .resultsCount {
+  margin-block-start: 6px;
   color: var(--text-secondary);
   font-size: 14px;
 }

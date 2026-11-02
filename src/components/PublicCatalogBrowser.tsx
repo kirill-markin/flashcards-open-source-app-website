@@ -11,7 +11,6 @@ import { PublicCatalogPackageCard } from "@/components/PublicCatalogPackageCard"
 import {
   PublicCatalogCompactSinglePicker,
   PublicCatalogSearchableMultiPicker,
-  PublicCatalogSearchableSinglePicker,
   type PublicCatalogPickerOption,
 } from "@/components/PublicCatalogPicker";
 import { getIntlLocale, type AppLocale } from "@/lib/i18n";
@@ -86,10 +85,6 @@ function updateRepeatedValue(
   }
 
   return values.filter((currentValue) => currentValue !== value);
-}
-
-function getSingleChoiceValue(value: string): string | null {
-  return value === "" ? null : value;
 }
 
 interface PublicCatalogLanguageSelectionChange {
@@ -223,20 +218,6 @@ export function PublicCatalogBrowser({
   const languageOptions = useMemo<ReadonlyArray<PublicCatalogPickerOption<string>>>(
     () => data.languages.map((language) => ({ label: language, value: language })),
     [data.languages],
-  );
-  const authorOptions = useMemo<ReadonlyArray<PublicCatalogPickerOption<string>>>(
-    () => [
-      { label: copy.browse.allAuthorsLabel, value: "" },
-      ...data.authors,
-    ],
-    [copy.browse.allAuthorsLabel, data.authors],
-  );
-  const collectionOptions = useMemo<ReadonlyArray<PublicCatalogPickerOption<string>>>(
-    () => [
-      { label: copy.browse.allCollectionsLabel, value: "" },
-      ...data.collections,
-    ],
-    [copy.browse.allCollectionsLabel, data.collections],
   );
   const sortOptions = useMemo<ReadonlyArray<PublicCatalogPickerOption<PublicCatalogSort>>>(
     () => [
@@ -403,19 +384,6 @@ export function PublicCatalogBrowser({
     );
     reportPublicCatalogSort(locale, sort, nextResult.totalCount);
   };
-  const updateSingleChoiceFilter = (
-    category: "author" | "collection",
-    value: string,
-  ): void => {
-    const selectedValue = getSingleChoiceValue(value);
-
-    updateFilter(
-      { ...state, [category]: selectedValue, page: 1 },
-      category,
-      "select",
-      selectedValue === null ? 0 : 1,
-    );
-  };
   const hasActiveControls = state.q.trim() !== ""
     || state.languages.length > 0
     || state.author !== null
@@ -459,14 +427,6 @@ export function PublicCatalogBrowser({
                 {copy.browse.clearFiltersLabel}
               </button>
             </div>
-            <p
-              aria-atomic="true"
-              aria-live="polite"
-              className={styles.resultsCount}
-              data-testid="catalog-result-count"
-            >
-              {formatResultCount(result.totalCount, locale, copy)}
-            </p>
             <label className={styles.controlLabel} htmlFor="catalog-search">
               {copy.browse.searchLabel}
             </label>
@@ -500,44 +460,14 @@ export function PublicCatalogBrowser({
                 />
               </div>
             </div>
-            <div className={styles.filterControl}>
-              <span className={styles.controlLabel}>{copy.browse.authorLabel}</span>
-              <div className={styles.filterPicker}>
-                <PublicCatalogSearchableSinglePicker
-                  ariaLabel={copy.browse.authorLabel}
-                  closeLabel={copy.browse.pickerCloseLabel}
-                  emptySearchResultsLabel={copy.browse.noAuthorsFoundLabel}
-                  onValueChange={(author) => {
-                    if (author !== (state.author ?? "")) {
-                      updateSingleChoiceFilter("author", author);
-                    }
-                  }}
-                  options={authorOptions}
-                  searchLabel={copy.browse.authorSearchLabel}
-                  searchPlaceholder={copy.browse.authorSearchPlaceholder}
-                  value={state.author ?? ""}
-                />
-              </div>
-            </div>
-            <div className={styles.filterControl}>
-              <span className={styles.controlLabel}>{copy.browse.collectionLabel}</span>
-              <div className={styles.filterPicker}>
-                <PublicCatalogSearchableSinglePicker
-                  ariaLabel={copy.browse.collectionLabel}
-                  closeLabel={copy.browse.pickerCloseLabel}
-                  emptySearchResultsLabel={copy.browse.noCollectionsFoundLabel}
-                  onValueChange={(collection) => {
-                    if (collection !== (state.collection ?? "")) {
-                      updateSingleChoiceFilter("collection", collection);
-                    }
-                  }}
-                  options={collectionOptions}
-                  searchLabel={copy.browse.collectionSearchLabel}
-                  searchPlaceholder={copy.browse.collectionSearchPlaceholder}
-                  value={state.collection ?? ""}
-                />
-              </div>
-            </div>
+            <p
+              aria-atomic="true"
+              aria-live="polite"
+              className={styles.resultsCount}
+              data-testid="catalog-result-count"
+            >
+              {formatResultCount(result.totalCount, locale, copy)}
+            </p>
           </aside>
         </details>
         <section
