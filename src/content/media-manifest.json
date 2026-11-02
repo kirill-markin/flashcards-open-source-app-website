@@ -3769,6 +3769,21 @@
     }
   },
   {
+    "publicPath": "/blog/swedish-everyday-vocabulary-flashcards.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/f5e8d254ca76e5a45e520f4f3b8602cb17075fde7146b099d33bde6130361c04.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "f5e8d254ca76e5a45e520f4f3b8602cb17075fde7146b099d33bde6130361c04",
+    "bytes": 151454,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/55995a09185dab5a85e1676bf69b39fc0f9ba91ffcddc071c33af1dfa5925f3b.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "55995a09185dab5a85e1676bf69b39fc0f9ba91ffcddc071c33af1dfa5925f3b",
+      "bytes": 2211989
+    }
+  },
+  {
     "publicPath": "/blog/tcp-sequence-acknowledgment-numbers.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/7953e4daaea9d1e78ad2a80258566fc31f01de74fc80f2f84381ea5bc0cd89e4.png",
     "width": 1672,
