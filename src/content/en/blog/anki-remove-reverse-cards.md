@@ -126,6 +126,6 @@ If another device still has unsynced work, resolve that before choosing a side. 
 
 Removing A2 and B2 means giving up those card identities. Converting the notes back later can generate reverse cards again, but it doesn't restore the removed cards' former schedules. Suspension keeps those same cards available if you want the option to resume later.
 
-For **Basic (optional reversed card)**, clearing Add Reverse is a different operation: an existing reverse becomes empty and needs a separate **Tools → Empty Cards** cleanup. That report covers the collection, beyond the current Browse search. The [optional reverse-card guide](/blog/anki-reverse-cards/#if-you-later-stop-studying-a-reverse) covers those checks. Keep that cleanup separate from this and-reversed-to-Basic recipe.
+For **Basic (optional reversed card)**, clearing Add Reverse is a different operation: an existing reverse becomes empty and needs a separate **Tools → Empty Cards** cleanup. That report covers the collection, beyond the current Browse search. The [optional reverse-card guide](/blog/anki-reverse-cards/) covers those checks. Keep that cleanup separate from this and-reversed-to-Basic recipe.
 
 *Production note: AI tools performed substantial source research, drafting, editing, and illustration. The worksheet is an original, hypothetical example derived from Anki's documentation and released 26.09.3 source, the latest release checked on November 2, 2026. No desktop or mobile flow was executed, and the article doesn't claim personal testing or human review by Kirill Markin.*
