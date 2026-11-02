@@ -263,6 +263,8 @@ Label each miss: dimensions, row/column selection, arithmetic, reversed order, o
 
 For a short recall prompt, ask: “`A` is `2 × 3` and `B` is `3 × 4`. Does `BA` exist?” Answer: “No. Its inner dimensions are 4 and 2.” Another useful prompt is: “What produces entry `(2, 3)` of `AB`?” Answer: “Row 2 of `A` multiplied by column 3 of `B`, pairing corresponding entries and adding their products.” Apply that answer to exercise 2 with the numbers visible.
 
+For short review between paper problems, the [matrix multiplication flashcards](/catalog/packages/matrix-multiplication-flashcards/) cover dimension checks, row-by-column entries, and `AB` versus `BA`, with explained answers.
+
 The [math flashcards guide](/blog/how-to-use-flashcards-for-math/) explains how to keep these reusable decisions separate from full solutions. Keep full matrix products in your practice too: knowing the rule and carrying out every entry are different tasks.
 
 *This worksheet was drafted and edited with AI assistance; the illustration was AI-generated. Its numerical products were checked with Python calculations.*
