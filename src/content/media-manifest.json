@@ -295,6 +295,21 @@
     }
   },
   {
+    "publicPath": "/blog/anki-nested-cloze.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/6c70710cbf3115c5bb51a98426bfe8146c79af8e79895406546f256eb603de1d.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "6c70710cbf3115c5bb51a98426bfe8146c79af8e79895406546f256eb603de1d",
+    "bytes": 134180,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/7407d2c1ff5e2c970b7c59350ddd8cdb6fa454bf2187d0056dca73c0ed903b28.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "7407d2c1ff5e2c970b7c59350ddd8cdb6fa454bf2187d0056dca73c0ed903b28",
+      "bytes": 2264448
+    }
+  },
+  {
     "publicPath": "/blog/anki-new-card-order.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/ee3ae5f8c610c255110897ba5b7c1648c023ffd16518c51ae6cdfd3bd860c760.png",
     "width": 1672,
