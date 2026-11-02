@@ -134,4 +134,6 @@ Back: C major, first inversion (C/E).
 
 After solving on paper, revisit a missed voicing later and answer before revealing it. On another review, change the upper spacing while keeping the bass fixed, so you have to analyze a less familiar shape. The [music theory flashcards guide](/blog/music-theory-flashcards/) covers writing precise prompts. Keep written analysis separate from listening and playing practice, which need their own work.
 
+Once you can track the bass through triad voicings, the [seventh chord inversion flashcards](/catalog/packages/seventh-chord-inversion-flashcards/) extend the written task to complete four-member chords, including third inversion. They ask you to identify the chord and bass member, construct voicings, and check changes in spacing or inversion.
+
 *Production note: This article was drafted and edited with AI, and its hero illustration is AI-generated. Its original voicings were checked computationally for spelled members, equal-tempered semitone distances, pitch order, and inversion labels. Those checks don't establish listening, performance, or classroom results; no human musician review is claimed.*

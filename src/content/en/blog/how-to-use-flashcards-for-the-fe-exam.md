@@ -176,6 +176,8 @@ These cards should stay light. They are there to shorten lookup time and reduce 
 
 ## Conceptual-trap cards are often better than fact cards
 
+For materials-related misses, the [engineering materials selection cases](/blog/engineering-materials-flashcards/) practise separating stiffness from strength and short-term properties from long-term gripping-force evidence. They are topic practice, rather than a complete FE syllabus.
+
 A lot of FE misses happen after you remembered the formula.
 
 The real problem was something else:

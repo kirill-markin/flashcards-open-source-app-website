@@ -14,7 +14,21 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   Record<string, Readonly<Partial<Record<AppLocale, string>>>>
 > = {
   "sap-idoc-status-codes": { en: "sap-idoc-status-codes" },
+  "korean-vocabulary-recall-practice": { en: "korean-everyday-vocabulary" },
+  "latin-prepositions-conjunctions": { de: "latin-prepositions-conjunctions-german-speakers" },
+  "french-conversational-fillers": { en: "french-conversational-fillers" },
+  "thai-alphabet-flashcards": { it: "thai-alphabet-italian-speakers" },
+  "rioplatense-spanish-voseo-household": {
+    ru: "rioplatense-spanish-voseo-household-russian-speakers",
+  },
+  "dutch-everyday-vocabulary-flashcards": { en: "dutch-home-work-family-vocabulary" },
+  "gmdss-goc-flashcards": { en: "gmdss-goc-radio-concepts" },
+  "everyday-english-vocabulary-practice": {
+    ru: "everyday-english-vocabulary-russian-speakers",
+  },
   "german-noun-gender-plurals": { ru: "german-noun-gender-plurals-russian-speakers" },
+  "swedish-everyday-vocabulary-flashcards": { en: "swedish-everyday-vocabulary" },
+  "german-everyday-expressions": { it: "german-everyday-expressions-italian-speakers" },
   "find-delete": { en: "linux-command-line-flashcards" },
   "find-operator-precedence": { en: "linux-command-line-flashcards" },
   "find-mtime-vs-ctime": { en: "linux-command-line-flashcards" },
@@ -165,6 +179,7 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   "circle-of-fifths-practice": { en: "circle-of-fifths-flashcards" },
   "relative-vs-parallel-minor": { en: "relative-vs-parallel-minor-flashcards" },
   "triad-chord-spelling": { en: "triad-chord-spelling-flashcards" },
+  "seventh-chord-inversions-practice": { en: "seventh-chord-inversion-flashcards" },
   "bass-clef-notes": { en: "music-note-flashcards-treble-bass" },
   "morse-code-alphabet": { en: "morse-code-alphabet-numbers" },
   "common-network-ports": { en: "common-network-port-numbers-flashcards" },
@@ -201,6 +216,7 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   "faa-part-107-flashcards": { en: "faa-part-107-flashcards" },
   "ham-radio-technician-flashcards": { en: "ham-radio-technician-2026-2030-flashcards" },
   "how-to-use-flashcards-for-the-fe-exam": { en: "fe-exam-engineering-equations-units-flashcards" },
+  "engineering-materials-flashcards": { en: "engineering-materials-properties-processing" },
   "toefl-flashcards": { en: "toefl-ibt-task-strategy-flashcards" },
   "eu-ai-act-2026-flashcards": { en: "eu-ai-act-2026-essentials-flashcards" },
 };
