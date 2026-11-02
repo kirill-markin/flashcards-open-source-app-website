@@ -15,7 +15,7 @@ Alaska to AK, Alabama to AL, a Arkansas to AR. Pierwsze dwie litery nazwy stanu 
 
 Jeśli szukasz konkretnego skrótu, znajdź stan w poniższej tabeli, uporządkowanej alfabetycznie według angielskich nazw. Jeśli się uczysz, zasłoń kolumnę ze skrótami i spróbuj podać każdą odpowiedź, a potem zasłoń nazwy stanów i odgaduj je na podstawie skrótów. Rozpoznanie pary na stronie i odtworzenie jej z pamięci to dwa różne zadania.
 
-Bezpłatna [talia skrótów stanów USA](/pl/catalog/packages/us-state-abbreviations-flashcards/) zawiera **100 fiszek po angielsku** do ćwiczenia w obu kierunkach: od stanu do kodu i od kodu do stanu. Spróbuj przypomnieć sobie każdą odpowiedź przed jej sprawdzeniem, a potem wracaj do regularnych powtórek w odstępach czasu, by dłużej pamiętać te pary. Pełna tabela i odpowiedzi do quizu są poniżej.
+Bezpłatna [talia skrótów stanów USA](/pl/catalog/packages/us-state-abbreviations-flashcards-pl/) zawiera **100 fiszek po polsku** do ćwiczenia w obu kierunkach: od stanu do kodu i od kodu do stanu. Spróbuj przypomnieć sobie każdą odpowiedź przed jej sprawdzeniem, a potem wracaj do regularnych powtórek w odstępach czasu, by dłużej pamiętać te pary. Pełna tabela i odpowiedzi do quizu są poniżej.
 
 ## Skróty wszystkich 50 stanów USA
 
@@ -177,6 +177,6 @@ Jeśli mylą ci się MO i MS, dodaj też dwie fiszki dla Missisipi (Mississippi)
 
 Regularne przypominanie sobie odpowiedzi i powtórki w odstępach czasu pomagają zachować pary w pamięci na dłużej. Podczas kolejnej powtórki odpowiedz przed odsłonięciem tyłu fiszki i uczciwie odnotuj błędy. Wróć do tych fiszek podczas późniejszej sesji, żeby sprawdzić, czy odpowiedzi nadal przychodzą ci do głowy. Dodawaj kolejne stany, gdy masz czas na ich powtarzanie. Nie musisz wprowadzać wszystkich fiszek za jednym razem.
 
-Bezpłatna [talia ze skrótami stanów USA](/pl/catalog/packages/us-state-abbreviations-flashcards/) zawiera **100 fiszek w języku angielskim**: dla każdego z 50 stanów jedną fiszkę od nazwy stanu do skrótu i jedną od skrótu do nazwy stanu. To niezależna, nieoficjalna pomoc do nauki. Nie zawiera map, stolic, DC, terytoriów ani kodów ZIP.
+Bezpłatna [talia ze skrótami stanów USA](/pl/catalog/packages/us-state-abbreviations-flashcards-pl/) zawiera **100 fiszek w języku polskim**: dla każdego z 50 stanów jedną fiszkę od nazwy stanu do skrótu i jedną od skrótu do nazwy stanu. To niezależna, nieoficjalna pomoc do nauki. Nie zawiera map, stolic, DC, terytoriów ani kodów ZIP.
 
 Otwórz stronę talii, żeby obejrzeć fiszki i rozpocząć naukę. Jeśli dopiero zaczynasz korzystać z aplikacji, [poradnik na początek](/pl/docs/getting-started/) wyjaśnia, jak ją skonfigurować. Zacznij od par, przy których pojawiły się błędy, a gdy będziesz gotów, sprawdź całą listę w losowej kolejności.

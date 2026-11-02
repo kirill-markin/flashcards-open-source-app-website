@@ -15,7 +15,7 @@ Aljaška má zkratku AK, Alabama AL a Arkansas AR. První dvě písmena anglick�
 
 Pokud hledáte konkrétní zkratku, najděte stát v tabulce níže, seřazené podle anglických názvů. Pokud se zkratky učíte, zakryjte sloupec s kódy a zkuste každý z nich doplnit. Potom zakryjte názvy států a zkoušejte je doplnit podle kódů. Poznat dvojici na stránce a vybavit si ji zpaměti jsou dvě různé dovednosti.
 
-Bezplatný [balíček zkratek států USA](/cs/catalog/packages/us-state-abbreviations-flashcards/) nabízí **100 kartiček v angličtině** pro procvičování od státu ke kódu i od kódu ke státu. Zkuste si odpověď vybavit, než ji zkontrolujete, a vracejte se k pravidelnému opakování s časovými odstupy, které pomáhá udržet dvojice v paměti. Úplnou tabulku i odpovědi ke kvízu najdete níže.
+Bezplatný [balíček zkratek států USA](/cs/catalog/packages/us-state-abbreviations-flashcards-cs/) nabízí **100 kartiček v češtině** pro procvičování od státu ke kódu i od kódu ke státu. Zkuste si odpověď vybavit, než ji zkontrolujete, a vracejte se k pravidelnému opakování s časovými odstupy, které pomáhá udržet dvojice v paměti. Úplnou tabulku i odpovědi ke kvízu najdete níže.
 
 ## Zkratky všech 50 států USA
 
@@ -177,6 +177,6 @@ Pokud jste zaměnili MO s MS, přidejte i dvě kartičky pro Mississippi. Na ka�
 
 Pravidelné vybavování odpovědí a opakování s časovými odstupy pomáhají udržet dvojice v dlouhodobé paměti. Při dalším opakování odpovězte dřív, než odkryjete zadní stranu, a chyby si poctivě zaznamenejte. Ke kartičkám se vraťte při některém z dalších opakování a ověřte si, zda si odpovědi stále vybavíte. Další státy přidávejte podle toho, kolik jich stíháte opakovat. Nemusíte zařadit všechny kartičky najednou.
 
-Bezplatný [balíček zkratek států USA](/cs/catalog/packages/us-state-abbreviations-flashcards/) obsahuje **100 kartiček v angličtině**: pro každý z 50 států jednu kartičku, na které doplňujete kód podle názvu státu, a jednu, na které doplňujete název státu podle kódu. Jde o nezávislou, neoficiální studijní pomůcku. Neobsahuje mapy, hlavní města, DC, teritoria ani poštovní směrovací čísla ZIP Code.
+Bezplatný [balíček zkratek států USA](/cs/catalog/packages/us-state-abbreviations-flashcards-cs/) obsahuje **100 kartiček v češtině**: pro každý z 50 států jednu kartičku, na které doplňujete kód podle názvu státu, a jednu, na které doplňujete název státu podle kódu. Jde o nezávislou, neoficiální studijní pomůcku. Neobsahuje mapy, hlavní města, DC, teritoria ani poštovní směrovací čísla ZIP Code.
 
 Otevřete stránku balíčku, prohlédněte si kartičky a začněte se učit. Pokud s aplikací začínáte, [úvodní průvodce](/cs/docs/getting-started/) vám vysvětlí nastavení. Začněte dvojicemi, ve kterých jste výše chybovali. Až budete připraveni, vyzkoušejte si celý seznam v promíchaném pořadí.

@@ -15,7 +15,7 @@ Aljaška (Alaska) má skratku AK, Alabama AL a Arkansas AR. Prvé dve písmená 
 
 Ak si potrebujete skratku vyhľadať, nájdite štát v tabuľke nižšie, zoradenej podľa anglických názvov. Ak sa chcete skratky naučiť, zakryte stĺpec s kódmi a skúste ich doplniť spamäti. Potom zakryte názvy štátov a dopĺňajte tie. Rozpoznať dvojicu na stránke a vybaviť si ju z pamäti sú dve odlišné úlohy.
 
-Bezplatný [balíček skratiek štátov USA](/sk/catalog/packages/us-state-abbreviations-flashcards/) ponúka **100 kartičiek v angličtine** na precvičovanie od štátu ku kódu aj od kódu k štátu. Skúste si odpoveď vybaviť skôr, než ju skontrolujete, a pravidelne sa vracajte k opakovaniu s časovými odstupmi, ktoré pomáha udržať dvojice v pamäti dlhšie. Úplná tabuľka aj odpovede ku kvízu sú nižšie.
+Bezplatný [balíček skratiek štátov USA](/sk/catalog/packages/us-state-abbreviations-flashcards-sk/) ponúka **100 kartičiek v slovenčine** na precvičovanie od štátu ku kódu aj od kódu k štátu. Skúste si odpoveď vybaviť skôr, než ju skontrolujete, a pravidelne sa vracajte k opakovaniu s časovými odstupmi, ktoré pomáha udržať dvojice v pamäti dlhšie. Úplná tabuľka aj odpovede ku kvízu sú nižšie.
 
 ## Skratky všetkých 50 štátov USA
 
@@ -177,6 +177,6 @@ Ak ste si pomýlili MO s MS, pridajte aj dve kartičky pre Mississippi. Na každ
 
 Pravidelné vybavovanie odpovedí a opakovanie s časovými odstupmi pomáhajú udržať dvojice v dlhodobej pamäti. Pri ďalšom opakovaní odpovedzte ešte pred odkrytím zadnej strany a poctivo si zaznamenajte chyby. Ku kartičkám sa vráťte pri neskoršom opakovaní a overte si, či si odpovede stále vybavíte. Ďalšie štáty pridávajte podľa toho, koľko času máte na opakovanie. Nemusíte prejsť všetky nové kartičky naraz.
 
-Bezplatný [balíček skratiek štátov USA](/sk/catalog/packages/us-state-abbreviations-flashcards/) obsahuje **100 kartičiek výlučne v angličtine**: pre každý z 50 štátov jednu kartičku zo štátu na kód a jednu z kódu na štát. Je to nezávislá, neoficiálna učebná pomôcka. Neobsahuje mapy, hlavné mestá, DC, teritóriá ani poštové smerovacie čísla ZIP Code.
+Bezplatný [balíček skratiek štátov USA](/sk/catalog/packages/us-state-abbreviations-flashcards-sk/) obsahuje **100 kartičiek v slovenčine**: pre každý z 50 štátov jednu kartičku zo štátu na kód a jednu z kódu na štát. Je to nezávislá, neoficiálna učebná pomôcka. Neobsahuje mapy, hlavné mestá, DC, teritóriá ani poštové smerovacie čísla ZIP Code.
 
 Otvorte stránku balíčka, prezrite si kartičky a začnite sa učiť. Ak aplikáciu ešte nepoznáte, [úvodný návod](/sk/docs/getting-started/) vysvetľuje prvé nastavenie. Začnite dvojicami, v ktorých ste vyššie urobili chybu. Keď budete pripravení, overte si celý zoznam v premiešanom poradí.

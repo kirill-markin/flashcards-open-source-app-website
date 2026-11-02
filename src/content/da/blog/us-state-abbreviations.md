@@ -15,7 +15,7 @@ Alaska er AK, Alabama er AL, og Arkansas er AR. De første to bogstaver i en del
 
 Skal du slå en kode op, så find delstaten i den alfabetiske tabel nedenfor. Vil du øve dig, så dæk kolonnen med koder, og prøv at huske koden for hver delstat. Dæk derefter navnene, og prøv den anden vej. At genkende et par på siden og at hente det frem fra hukommelsen er to forskellige opgaver.
 
-Det gratis [sæt øvekort med amerikanske delstaters forkortelser](/da/catalog/packages/us-state-abbreviations-flashcards/) giver dig **100 engelsksprogede øvekort**, så du kan øve fra delstat til kode og omvendt. Prøv at huske svaret, før du tjekker det, og vend tilbage til regelmæssig repetition med mellemrum for at huske parrene over længere tid. Den fulde tabel og svarene på quizzen står nedenfor.
+Det gratis [sæt øvekort med amerikanske delstaters forkortelser](/da/catalog/packages/us-state-abbreviations-flashcards-da/) giver dig **100 dansksprogede øvekort**, så du kan øve fra delstat til kode og omvendt. Prøv at huske svaret, før du tjekker det, og vend tilbage til regelmæssig repetition med mellemrum for at huske parrene over længere tid. Den fulde tabel og svarene på quizzen står nedenfor.
 
 ## Forkortelser for alle 50 amerikanske delstater
 
@@ -177,6 +177,6 @@ Hvis du forvekslede MO med MS, så tilføj også de to kort for Mississippi. Hol
 
 Når du regelmæssigt henter svarene frem fra hukommelsen og repeterer med mellemrum, hjælper det dig med at huske parrene over længere tid. Ved næste repetition skal du svare, før du vender kortet, og registrere dine fejl ærligt. Vend tilbage til kortene i en senere øverunde for at se, om du stadig kan huske svarene. Tilføj flere delstater, efterhånden som du har tid til at repetere dem. Du behøver ikke tage alle kortene i brug på én gang.
 
-Det gratis [sæt øvekort med amerikanske delstaters forkortelser](/da/catalog/packages/us-state-abbreviations-flashcards/) indeholder **100 engelsksprogede øvekort**: ét kort fra delstat til kode og ét fra kode til delstat for hver af de 50 delstater. Det er et uafhængigt, uofficielt hjælpemiddel til at lære stoffet. Det indeholder hverken geografiske kort, hovedstæder, DC, territorier eller ZIP Codes.
+Det gratis [sæt øvekort med amerikanske delstaters forkortelser](/da/catalog/packages/us-state-abbreviations-flashcards-da/) indeholder **100 dansksprogede øvekort**: ét kort fra delstat til kode og ét fra kode til delstat for hver af de 50 delstater. Det er et uafhængigt, uofficielt hjælpemiddel til at lære stoffet. Det indeholder hverken geografiske kort, hovedstæder, DC, territorier eller ZIP Codes.
 
 Åbn siden med kortsættet for at se kortene og begynde at øve. Hvis du er ny i appen, forklarer [kom godt i gang-guiden](/da/docs/getting-started/) opsætningen. Begynd med de par, du svarede forkert på ovenfor, og gennemgå derefter hele listen i blandet rækkefølge, når du er klar.

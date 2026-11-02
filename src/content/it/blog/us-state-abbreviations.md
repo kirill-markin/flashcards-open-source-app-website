@@ -15,7 +15,7 @@ L'Alaska è AK, l'Alabama è AL e l'Arkansas è AR. Le prime due lettere del nom
 
 Per cercare un codice, trova lo stato nella tabella qui sotto, ordinata alfabeticamente secondo i nomi inglesi. Per studiare, copri la colonna dei codici e prova a ricordarli, poi copri quella dei nomi e fai l'esercizio inverso. Riconoscere una coppia sulla pagina e ricordarla a memoria sono due esercizi diversi.
 
-Il [mazzo gratuito sulle abbreviazioni degli stati degli USA](/it/catalog/packages/us-state-abbreviations-flashcards/) offre **100 schede in inglese** per esercitarti dallo stato al codice e viceversa. Prova a ricordare ogni risposta prima di controllarla, poi torna a ripassare regolarmente a intervalli distanziati per ricordare le coppie nel tempo. La tabella completa e le risposte al quiz sono più in basso.
+Il [mazzo gratuito sulle abbreviazioni degli stati degli USA](/it/catalog/packages/us-state-abbreviations-flashcards-it/) offre **100 schede in italiano** per esercitarti dallo stato al codice e viceversa. Prova a ricordare ogni risposta prima di controllarla, poi torna a ripassare regolarmente a intervalli distanziati per ricordare le coppie nel tempo. La tabella completa e le risposte al quiz sono più in basso.
 
 ## Le abbreviazioni di tutti i 50 stati USA
 
@@ -177,6 +177,6 @@ Se hai confuso MO con MS, aggiungi anche le due schede del Mississippi. Mantieni
 
 Richiamare regolarmente le risposte dalla memoria e ripassarle a intervalli distanziati aiuta a ricordare le coppie a lungo termine. Al ripasso successivo, rispondi prima di scoprire il retro e registra gli errori con onestà. Riprendi quelle schede in una sessione successiva per verificare se le risposte ti tornano ancora in mente. Aggiungi altri stati man mano che hai tempo di ripassarli; non serve introdurre tutte le schede in una sola sessione.
 
-Il [mazzo gratuito sulle abbreviazioni degli stati USA](/it/catalog/packages/us-state-abbreviations-flashcards/) contiene **100 schede in inglese**: una scheda dallo stato al codice e una dal codice allo stato per ciascuno dei 50 stati. È un supporto allo studio indipendente e non ufficiale. Non include carte geografiche, capitali, DC, territori o ZIP Code.
+Il [mazzo gratuito sulle abbreviazioni degli stati USA](/it/catalog/packages/us-state-abbreviations-flashcards-it/) contiene **100 schede in italiano**: una scheda dallo stato al codice e una dal codice allo stato per ciascuno dei 50 stati. È un supporto allo studio indipendente e non ufficiale. Non include carte geografiche, capitali, DC, territori o ZIP Code.
 
 Apri la pagina del mazzo per esaminare le schede e iniziare a studiare. Se è la prima volta che usi l'app, la [guida introduttiva](/it/docs/getting-started/) spiega come iniziare. Parti dalle coppie che hai sbagliato nel quiz, poi, quando ti senti pronto, mettiti alla prova sull'intero elenco in ordine sparso.

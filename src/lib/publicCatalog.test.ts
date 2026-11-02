@@ -809,7 +809,10 @@ test("blog deck association leaves unmapped languages and articles unchanged and
   assert.equal(resolveBlogDeckResource("how-to-make-better-flashcards", "en", model), null);
   assert.equal(resolveBlogDeckResource("us-state-abbreviations", "en", null), null);
   for (const locale of SUPPORTED_LOCALES.filter((locale) => locale !== "en")) {
-    assert.equal(resolveBlogDeckResource("us-state-abbreviations", locale, model), null);
+    assert.throws(
+      () => resolveBlogDeckResource("us-state-abbreviations", locale, model),
+      new RegExp(`article us-state-abbreviations in locale ${locale}: published catalog package us-state-abbreviations-flashcards-${locale} is missing`),
+    );
     assert.equal(resolveBlogDeckResource("git-reset-restore-revert-practice", locale, model), null);
     assert.equal(resolveBlogDeckResource("planes-of-movement", locale, model), null);
   }
@@ -821,9 +824,15 @@ test("blog deck association leaves unmapped languages and articles unchanged and
     () => resolveBlogDeckResource("anatomical-directional-terms", "es", model),
     /article anatomical-directional-terms in locale es: published catalog package anatomical-directional-terms-es is missing/,
   );
+  assert.throws(
+    () => renderMarkdownDocument("es/blog/us-state-abbreviations", {
+      globalActivitySnapshot: emptyActivitySnapshot,
+      publicCatalog: model,
+    }),
+    /article us-state-abbreviations in locale es: published catalog package us-state-abbreviations-flashcards-es is missing/,
+  );
   for (const pagePath of [
     "blog/how-to-make-better-flashcards",
-    "es/blog/us-state-abbreviations",
     "de/blog/ccsp-flashcards",
   ]) {
     const document = renderMarkdownDocument(pagePath, {

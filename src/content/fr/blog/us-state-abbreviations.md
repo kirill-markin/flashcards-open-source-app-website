@@ -15,7 +15,7 @@ L’Alaska s’abrège AK, l’Alabama AL et l’Arkansas AR. Les deux première
 
 Pour chercher un code, repérez l’État dans le tableau alphabétique ci-dessous. Pour réviser, masquez la colonne des codes et essayez de donner chaque réponse, puis faites l’exercice dans l’autre sens. Reconnaître une association sur la page et la retrouver de mémoire sont deux exercices différents.
 
-Le [paquet gratuit sur les abréviations des États américains](/fr/catalog/packages/us-state-abbreviations-flashcards/) propose **100 cartes en anglais** pour vous exercer de l’État vers le code et dans l’autre sens. Essayez de retrouver chaque réponse avant de la vérifier, puis revenez régulièrement pour des révisions espacées qui aident à retenir les paires sur la durée. Le tableau complet et les réponses au quiz se trouvent plus bas.
+Le [paquet gratuit sur les abréviations des États américains](/fr/catalog/packages/us-state-abbreviations-flashcards-fr/) propose **100 cartes en français** pour vous exercer de l’État vers le code et dans l’autre sens. Essayez de retrouver chaque réponse avant de la vérifier, puis revenez régulièrement pour des révisions espacées qui aident à retenir les paires sur la durée. Le tableau complet et les réponses au quiz se trouvent plus bas.
 
 ## Les abréviations des 50 États américains
 
@@ -177,6 +177,6 @@ Si vous avez confondu MO et MS, ajoutez aussi les deux cartes du Mississippi. Ga
 
 Retrouver régulièrement les réponses de mémoire et les revoir à intervalles espacés aide à retenir les paires sur la durée. Lors de la prochaine révision, répondez avant de dévoiler le verso et notez vos erreurs honnêtement. Revenez sur ces cartes au cours d’une séance ultérieure pour vérifier si les réponses vous reviennent toujours en mémoire. Ajoutez d’autres États selon le temps dont vous disposez pour les réviser ; vous n’avez pas besoin de découvrir toutes les cartes en une seule séance.
 
-Le [paquet de cartes gratuit sur les abréviations des États américains](/fr/catalog/packages/us-state-abbreviations-flashcards/) contient **100 cartes en anglais** : une carte de l’État vers le code et une carte du code vers l’État pour chacun des 50 États. C’est un support de révision indépendant et non officiel. Il ne comprend ni cartes géographiques, ni capitales, ni DC, ni territoires, ni ZIP Codes.
+Le [paquet de cartes gratuit sur les abréviations des États américains](/fr/catalog/packages/us-state-abbreviations-flashcards-fr/) contient **100 cartes en français** : une carte de l’État vers le code et une carte du code vers l’État pour chacun des 50 États. C’est un support de révision indépendant et non officiel. Il ne comprend ni cartes géographiques, ni capitales, ni DC, ni territoires, ni ZIP Codes.
 
 Ouvrez la page du paquet pour consulter les cartes et commencer à réviser. Si vous découvrez l’application, le [guide de démarrage](/fr/docs/getting-started/) explique comment la configurer. Commencez par les associations sur lesquelles vous vous êtes trompé ci-dessus, puis vérifiez toute la liste dans un ordre aléatoire quand vous vous sentirez prêt.

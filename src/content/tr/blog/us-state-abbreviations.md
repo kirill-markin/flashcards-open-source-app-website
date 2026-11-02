@@ -1,6 +1,6 @@
 ---
 title: "ABD eyalet kısaltmaları: 50 kodun tamamı ve alıştırma testi"
-description: "ABD'nin 50 eyalet kısaltmasını bulun, kolay karıştırılan kodları ayırt edin; kısa bir test ve 100 kartlık ücretsiz İngilizce çalışma destesiyle iki yönde de kendinizi sınayın."
+description: "ABD'nin 50 eyalet kısaltmasını bulun, kolay karıştırılan kodları ayırt edin; kısa bir test ve 100 kartlık ücretsiz Türkçe çalışma destesiyle iki yönde de kendinizi sınayın."
 date: "2026-09-16"
 image: "/blog/us-state-abbreviations.png"
 keywords:
@@ -15,7 +15,7 @@ Alaska'nın kodu AK, Alabama'nın AL, Arkansas'ın ise AR. Bir eyaletin adının
 
 Bir kodu bulmak için aşağıdaki tabloda eyaleti arayın. Tablo, eyaletlerin İngilizce adlarına göre alfabetik sıralanmıştır. Çalışırken kod sütununu kapatıp her cevabı hatırlamaya çalışın, ardından diğer sütunu kapatın. Sayfada bir ad-kod eşleşmesini tanımakla onu ezberden söylemek farklı becerilerdir.
 
-Ücretsiz [ABD eyalet kısaltmaları destesi](/tr/catalog/packages/us-state-abbreviations-flashcards/), eyaletten koda ve koddan eyalete çalışmak için **İngilizce 100 kart** sunar. Her cevabı kontrol etmeden önce hatırlamaya çalışın, sonra eşleşmeleri uzun süre aklınızda tutabilmek için düzenli aralıklı tekrara dönün. Tam tablo ve testin cevapları aşağıda bulunuyor.
+Ücretsiz [ABD eyalet kısaltmaları destesi](/tr/catalog/packages/us-state-abbreviations-flashcards-tr/), eyaletten koda ve koddan eyalete çalışmak için **Türkçe 100 kart** sunar. Her cevabı kontrol etmeden önce hatırlamaya çalışın, sonra eşleşmeleri uzun süre aklınızda tutabilmek için düzenli aralıklı tekrara dönün. Tam tablo ve testin cevapları aşağıda bulunuyor.
 
 ## ABD'nin 50 eyalet kısaltmasının tamamı
 
@@ -177,6 +177,6 @@ MO ile MS'yi karıştırdıysanız Mississippi için de iki kart ekleyin. Her ka
 
 Cevapları düzenli olarak hatırlamaya çalışmak ve aralıklı tekrar yapmak, eşleşmeleri uzun vadede akılda tutmaya yardımcı olur. Bir sonraki tekrarda arka yüzü açmadan önce cevap verin ve hataları dürüstçe kaydedin. Cevapları hâlâ hatırlayıp hatırlamadığınızı görmek için bu kartlara daha sonraki bir çalışma oturumunda dönün. Tekrar etmeye zaman ayırabildikçe yeni eyaletler ekleyin; bütün kartlarla aynı oturumda çalışmaya başlamanız gerekmez.
 
-Ücretsiz [ABD eyalet kısaltmaları destesinde](/tr/catalog/packages/us-state-abbreviations-flashcards/) **İngilizce 100 kart** bulunur: 50 eyaletin her biri için eyaletten koda bir kart ve koddan eyalete bir kart. Bu, bağımsız ve resmî olmayan bir çalışma aracıdır. Haritaları, başkentleri, DC'yi, ABD'ye bağlı bölgeleri veya ZIP Code'ları içermez.
+Ücretsiz [ABD eyalet kısaltmaları destesinde](/tr/catalog/packages/us-state-abbreviations-flashcards-tr/) **Türkçe 100 kart** bulunur: 50 eyaletin her biri için eyaletten koda bir kart ve koddan eyalete bir kart. Bu, bağımsız ve resmî olmayan bir çalışma aracıdır. Haritaları, başkentleri, DC'yi, ABD'ye bağlı bölgeleri veya ZIP Code'ları içermez.
 
 Kartları incelemek ve çalışmaya başlamak için destenin sayfasını açın. Uygulamayı ilk kez kullanıyorsanız [başlangıç rehberi](/tr/docs/getting-started/) kurulumu açıklar. Yukarıda yanlış cevapladığınız eşleşmelerle başlayın, ardından hazır olduğunuzda tüm listeyi karışık sırayla kontrol edin.

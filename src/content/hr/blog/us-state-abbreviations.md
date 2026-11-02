@@ -15,7 +15,7 @@ Aljaska (Alaska) ima oznaku AK, Alabama AL, a Arkansas AR. Prva dva slova naziva
 
 Ako samo tražite oznaku, pronađite državu u donjoj tablici, poredanoj abecedno prema engleskim nazivima. Ako učite, prekrijte stupac s oznakama i pokušajte se sjetiti svakog odgovora, a zatim prekrijte nazive država i pokušajte ih navesti prema oznakama. Prepoznati par na stranici i prisjetiti ga se bez pomoći dva su različita zadatka.
 
-Besplatni [špil kratica saveznih država SAD-a](/hr/catalog/packages/us-state-abbreviations-flashcards/) nudi **100 kartica na engleskom jeziku** za vježbanje od države prema kodu i obrnuto. Pokušajte se prisjetiti svakog odgovora prije provjere, a zatim se redovito vraćajte ponavljanju s vremenskim razmacima kako biste parove dulje zadržali u pamćenju. Potpuna tablica i odgovori na kviz nalaze se u nastavku.
+Besplatni [špil kratica saveznih država SAD-a](/hr/catalog/packages/us-state-abbreviations-flashcards-hr/) nudi **100 kartica na hrvatskom jeziku** za vježbanje od države prema kodu i obrnuto. Pokušajte se prisjetiti svakog odgovora prije provjere, a zatim se redovito vraćajte ponavljanju s vremenskim razmacima kako biste parove dulje zadržali u pamćenju. Potpuna tablica i odgovori na kviz nalaze se u nastavku.
 
 ## Kratice svih 50 saveznih država SAD-a
 
@@ -177,6 +177,6 @@ Ako ste zamijenili MO i MS, dodajte i dvije kartice za Mississippi. Na svakoj ka
 
 Redovito prisjećanje odgovora i ponavljanje s vremenskim razmacima pomažu da parovi dugoročno ostanu u pamćenju. Pri sljedećem ponavljanju odgovorite prije nego što otkrijete poleđinu i iskreno zabilježite pogreške. Vratite se tim karticama pri nekom kasnijem učenju kako biste provjerili možete li se i dalje sjetiti odgovora. Dodajte još država kad budete imali vremena za njihovo ponavljanje; ne morate početi učiti sve kartice odjednom.
 
-Besplatan [špil s kraticama saveznih država SAD-a](/hr/catalog/packages/us-state-abbreviations-flashcards/) sadrži **100 kartica na engleskom jeziku**: za svaku od 50 država jednu karticu od države do oznake i jednu od oznake do države. To je neovisno, neslužbeno pomagalo za učenje. Ne sadrži karte, glavne gradove, DC, teritorije ni poštanske brojeve ZIP Code.
+Besplatan [špil s kraticama saveznih država SAD-a](/hr/catalog/packages/us-state-abbreviations-flashcards-hr/) sadrži **100 kartica na hrvatskom jeziku**: za svaku od 50 država jednu karticu od države do oznake i jednu od oznake do države. To je neovisno, neslužbeno pomagalo za učenje. Ne sadrži karte, glavne gradove, DC, teritorije ni poštanske brojeve ZIP Code.
 
 Otvorite stranicu špila da biste pregledali kartice i počeli učiti. Ako tek počinjete koristiti aplikaciju, [vodič za početak rada](/hr/docs/getting-started/) objašnjava kako je postaviti. Počnite s parovima na koje ste u kvizu pogrešno odgovorili, a kad budete spremni, provjerite cijeli popis nasumičnim redoslijedom.

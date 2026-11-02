@@ -15,7 +15,7 @@ Alaska là AK, Alabama là AL, còn Arkansas là AR. Không phải lúc nào hai
 
 Để tra cứu, hãy tìm tên bang trong bảng bên dưới, được xếp theo thứ tự chữ cái của tên tiếng Anh. Để học, hãy che cột mã và thử tự trả lời, rồi đổi sang che cột tên bang. Nhận ra một cặp tên–mã khi nhìn trên trang và tự nhớ ra cặp đó là hai việc khác nhau.
 
-[Bộ thẻ tên viết tắt các bang Hoa Kỳ](/vi/catalog/packages/us-state-abbreviations-flashcards/) miễn phí có **100 thẻ bằng tiếng Anh** để luyện từ tên bang sang mã và ngược lại. Hãy thử nhớ từng đáp án trước khi xem, rồi quay lại ôn đều đặn, có khoảng cách giữa các buổi, để ghi nhớ các cặp lâu hơn. Bảng đầy đủ và đáp án bài kiểm tra đều ở bên dưới.
+[Bộ thẻ tên viết tắt các bang Hoa Kỳ](/vi/catalog/packages/us-state-abbreviations-flashcards-vi/) miễn phí có **100 thẻ bằng tiếng Việt** để luyện từ tên bang sang mã và ngược lại. Hãy thử nhớ từng đáp án trước khi xem, rồi quay lại ôn đều đặn, có khoảng cách giữa các buổi, để ghi nhớ các cặp lâu hơn. Bảng đầy đủ và đáp án bài kiểm tra đều ở bên dưới.
 
 ## Tên viết tắt của cả 50 bang Hoa Kỳ
 
@@ -177,6 +177,6 @@ Nếu bạn nhầm MO với MS, hãy thêm cả hai thẻ cho Mississippi. Mỗi
 
 Thường xuyên tự nhớ lại đáp án và ôn cách quãng giúp bạn ghi nhớ các cặp tên–mã lâu dài hơn. Ở lần ôn tiếp theo, hãy trả lời trước khi lật mặt sau và ghi lại đúng những lỗi mình mắc phải. Quay lại những thẻ đó trong một buổi ôn sau để kiểm tra xem bạn còn nhớ đáp án không. Thêm các bang khác khi bạn có thời gian ôn; không cần học tất cả thẻ mới trong một buổi.
 
-[Bộ thẻ tên viết tắt các bang Hoa Kỳ](/vi/catalog/packages/us-state-abbreviations-flashcards/) miễn phí có **100 thẻ bằng tiếng Anh**: với mỗi bang trong số 50 bang, có một thẻ hỏi từ tên bang sang mã và một thẻ hỏi từ mã sang tên bang. Đây là tài liệu hỗ trợ học tập độc lập, không chính thức. Bộ thẻ không bao gồm bản đồ, thủ phủ, DC, các lãnh thổ hay mã ZIP.
+[Bộ thẻ tên viết tắt các bang Hoa Kỳ](/vi/catalog/packages/us-state-abbreviations-flashcards-vi/) miễn phí có **100 thẻ bằng tiếng Việt**: với mỗi bang trong số 50 bang, có một thẻ hỏi từ tên bang sang mã và một thẻ hỏi từ mã sang tên bang. Đây là tài liệu hỗ trợ học tập độc lập, không chính thức. Bộ thẻ không bao gồm bản đồ, thủ phủ, DC, các lãnh thổ hay mã ZIP.
 
 Mở trang bộ thẻ để xem nội dung các thẻ và bắt đầu học. Nếu bạn mới dùng ứng dụng, [hướng dẫn bắt đầu](/vi/docs/getting-started/) sẽ giải thích cách thiết lập. Hãy bắt đầu với những cặp bạn trả lời sai ở trên, rồi kiểm tra toàn bộ danh sách theo thứ tự xáo trộn khi đã sẵn sàng.

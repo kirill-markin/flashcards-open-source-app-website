@@ -1,6 +1,6 @@
 ---
 title: "Abreviaturas de los estados de EE. UU.: los 50 códigos y un cuestionario"
-description: "Consulta las 50 abreviaturas de los estados de EE. UU., distingue los códigos que se confunden y practica en ambos sentidos con un cuestionario y un mazo gratuito de 100 tarjetas en inglés."
+description: "Consulta las 50 abreviaturas de los estados de EE. UU., distingue los códigos que se confunden y practica en ambos sentidos con un cuestionario y un mazo gratuito de 100 tarjetas en español."
 date: "2026-09-16"
 image: "/blog/us-state-abbreviations.png"
 keywords:
@@ -15,7 +15,7 @@ Alaska es AK, Alabama es AL y Arkansas es AR. Las dos primeras letras del nombre
 
 Para consultar un código, busca el estado en la tabla alfabética de abajo. Para estudiar, tapa la columna de códigos e intenta responder; después cambia de columna. Reconocer una pareja en la página y recordarla sin ayuda son tareas distintas. Conservamos los nombres de los estados en inglés para que coincidan con las direcciones postales y las pistas basadas en sus letras.
 
-El [mazo gratuito de abreviaturas de los estados de EE. UU.](/es/catalog/packages/us-state-abbreviations-flashcards/) ofrece **100 tarjetas en inglés** para practicar del estado al código y al revés. Intenta recordar cada respuesta antes de comprobarla y vuelve a repasarlas con regularidad, dejando tiempo entre sesiones, para retener las parejas a largo plazo. La tabla completa y las respuestas del cuestionario están más abajo.
+El [mazo gratuito de abreviaturas de los estados de EE. UU.](/es/catalog/packages/us-state-abbreviations-flashcards-es/) ofrece **100 tarjetas en español** para practicar del estado al código y al revés. Intenta recordar cada respuesta antes de comprobarla y vuelve a repasarlas con regularidad, dejando tiempo entre sesiones, para retener las parejas a largo plazo. La tabla completa y las respuestas del cuestionario están más abajo.
 
 ## Las abreviaturas de los 50 estados de EE. UU.
 
@@ -177,6 +177,6 @@ Si confundiste MO con MS, añade también las dos tarjetas de Mississippi. Mant�
 
 Recordar las respuestas sin mirar y repasarlas con regularidad, dejando tiempo entre sesiones, ayuda a retener las parejas a largo plazo. En el siguiente repaso, responde antes de mostrar el reverso y registra los errores con sinceridad. Vuelve a esas tarjetas en otra sesión para comprobar si aún recuerdas las respuestas. Añade más estados a medida que tengas tiempo para repasarlos; no hace falta introducir todas las tarjetas de una vez.
 
-El [mazo gratuito de abreviaturas de los estados de EE. UU.](/es/catalog/packages/us-state-abbreviations-flashcards/) contiene **100 tarjetas en inglés**: una del estado al código y otra del código al estado por cada uno de los 50 estados. Es un recurso de estudio independiente y no oficial. No incluye mapas, capitales, DC, territorios ni códigos ZIP.
+El [mazo gratuito de abreviaturas de los estados de EE. UU.](/es/catalog/packages/us-state-abbreviations-flashcards-es/) contiene **100 tarjetas en español**: una del estado al código y otra del código al estado por cada uno de los 50 estados. Es un recurso de estudio independiente y no oficial. No incluye mapas, capitales, DC, territorios ni códigos ZIP.
 
 Abre la página del mazo para consultar las tarjetas y empezar a estudiar. Si es la primera vez que usas la aplicación, la [guía de primeros pasos](/es/docs/getting-started/) explica cómo configurarla. Empieza por las parejas que no hayas recordado y, cuando estés listo, ponte a prueba con la lista completa en orden aleatorio.

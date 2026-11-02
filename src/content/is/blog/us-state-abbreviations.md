@@ -15,7 +15,7 @@ Alaska er AK, Alabama er AL og Arkansas er AR. Fyrstu tveir stafirnir í heiti f
 
 Til að fletta upp finnurðu fylkið í töflunni hér fyrir neðan, sem er í stafrófsröð eftir ensku heitunum. Til að æfa þig skaltu hylja kóðadálkinn og reyna að nefna hvern kóða. Hyldu svo heitadálkinn og reyndu að nefna fylkin. Að þekkja par þegar þú sérð það á síðu og að kalla það fram úr minni eru ólík verkefni.
 
-Ókeypis [kortasafnið með skammstöfunum fylkja Bandaríkjanna](/is/catalog/packages/us-state-abbreviations-flashcards/) býður upp á **100 kort á ensku** til að æfa frá fylkisheiti yfir í kóða og öfugt. Reyndu að rifja hvert svar upp áður en þú athugar það og komdu reglulega aftur til upprifjunar með hléum á milli, svo pörin haldist lengur í minni. Heildartaflan og svörin við prófinu eru hér að neðan.
+Ókeypis [kortasafnið með skammstöfunum fylkja Bandaríkjanna](/is/catalog/packages/us-state-abbreviations-flashcards-is/) býður upp á **100 kort á íslensku** til að æfa frá fylkisheiti yfir í kóða og öfugt. Reyndu að rifja hvert svar upp áður en þú athugar það og komdu reglulega aftur til upprifjunar með hléum á milli, svo pörin haldist lengur í minni. Heildartaflan og svörin við prófinu eru hér að neðan.
 
 ## Skammstafanir allra 50 fylkja Bandaríkjanna
 
@@ -177,6 +177,6 @@ Ef þú ruglaðir MO saman við MS skaltu líka bæta við tveimur kortum fyrir 
 
 Regluleg upprifjun úr minni og endurtekning með hléum á milli hjálpa þér að muna pörin til lengri tíma. Í næstu upprifjun skaltu svara áður en þú skoðar bakhliðina og skrá mistökin eins og þau eru. Farðu aftur yfir þessi kort í síðari námslotu til að athuga hvort svörin komi enn upp í hugann. Bættu við fleiri fylkjum eftir því sem þú hefur tíma til að rifja þau upp; þú þarft ekki að byrja á öllum kortunum í einni lotu.
 
-Ókeypis [námskortasafnið með skammstöfunum bandarískra fylkja](/is/catalog/packages/us-state-abbreviations-flashcards/) inniheldur **100 kort á ensku**: eitt kort frá fylki til kóða og eitt frá kóða til fylkis fyrir hvert fylkjanna 50. Þetta er sjálfstætt, óopinbert hjálpargagn til náms. Safnið inniheldur ekki landakort, höfuðborgir, DC, yfirráðasvæði eða ZIP-póstnúmer.
+Ókeypis [námskortasafnið með skammstöfunum bandarískra fylkja](/is/catalog/packages/us-state-abbreviations-flashcards-is/) inniheldur **100 kort á íslensku**: eitt kort frá fylki til kóða og eitt frá kóða til fylkis fyrir hvert fylkjanna 50. Þetta er sjálfstætt, óopinbert hjálpargagn til náms. Safnið inniheldur ekki landakort, höfuðborgir, DC, yfirráðasvæði eða ZIP-póstnúmer.
 
 Opnaðu síðu safnsins til að skoða kortin og byrja að læra. Ef þú ert nýr notandi appsins útskýra [leiðbeiningarnar fyrir fyrstu skrefin](/is/docs/getting-started/) hvernig þú kemur þér af stað. Byrjaðu á pörunum sem þú mundir ekki rétt hér að ofan og prófaðu svo allan listann í blandaðri röð þegar þú ert tilbúin eða tilbúinn.

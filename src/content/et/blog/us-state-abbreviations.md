@@ -15,7 +15,7 @@ Alaska lühend on AK, Alabama lühend AL ja Arkansase lühend AR. Osariigi nime 
 
 Lühendi leidmiseks otsi osariiki allolevast tabelist, mis on ingliskeelsete nimede järgi tähestikulises järjekorras. Õppimiseks kata koodide veerg kinni ja proovi iga vastus ise öelda, seejärel kata kinni hoopis nimede veerg. Nime ja koodi paari äratundmine lehel ja selle peast meenutamine on eri ülesanded.
 
-Tasuta [USA osariikide lühendite kaardipakk](/et/catalog/packages/us-state-abbreviations-flashcards/) pakub **100 ingliskeelset kaarti**, et harjutada nii osariigist koodini kui ka vastupidi. Püüa vastus enne kontrollimist ise meenutada ja tule korrapäraselt vahedega kordama, et paarid püsiksid kauem meeles. Täielik tabel ja viktoriini vastused on allpool.
+Tasuta [USA osariikide lühendite kaardipakk](/et/catalog/packages/us-state-abbreviations-flashcards-et/) pakub **100 eestikeelset kaarti**, et harjutada nii osariigist koodini kui ka vastupidi. Püüa vastus enne kontrollimist ise meenutada ja tule korrapäraselt vahedega kordama, et paarid püsiksid kauem meeles. Täielik tabel ja viktoriini vastused on allpool.
 
 ## Kõigi 50 USA osariigi lühendid
 
@@ -177,6 +177,6 @@ Kui ajasid MO ja MS segi, lisa ka kaks Mississippi kaarti. Hoia igal kaardil ük
 
 Vastuste korrapärane meenutamine ja vahedega kordamine aitavad paaridel pikemaks ajaks meelde jääda. Järgmisel kordamisel vasta enne tagakülje avamist ja märgi vead ausalt üles. Tule nende kaartide juurde mõnel hilisemal õppimiskorral tagasi, et kontrollida, kas vastused meenuvad endiselt. Lisa uusi osariike sedamööda, kuidas sul on aega neid korrata. Kõiki kaarte ei pea ühe korraga kasutusele võtma.
 
-Tasuta [USA osariikide lühendite kaardipakis](/et/catalog/packages/us-state-abbreviations-flashcards/) on **100 ingliskeelset õpikaarti**: iga 50 osariigi kohta üks kaart osariigist koodini ja teine koodist osariigini. See on sõltumatu, mitteametlik õppevahend. Pakk ei sisalda kaarte osariikide asukohtadega ega küsimusi pealinnade, DC, territooriumide või ZIP-postikoodide kohta.
+Tasuta [USA osariikide lühendite kaardipakis](/et/catalog/packages/us-state-abbreviations-flashcards-et/) on **100 eestikeelset õpikaarti**: iga 50 osariigi kohta üks kaart osariigist koodini ja teine koodist osariigini. See on sõltumatu, mitteametlik õppevahend. Pakk ei sisalda kaarte osariikide asukohtadega ega küsimusi pealinnade, DC, territooriumide või ZIP-postikoodide kohta.
 
 Ava kaardipaki leht, et kaarte vaadata ja õppimist alustada. Kui kasutad rakendust esimest korda, selgitab seadistamist [alustamisjuhend](/et/docs/getting-started/). Alusta paaridest, millega eespool eksisid, ning kontrolli valmis olles kogu loendit segatud järjekorras.

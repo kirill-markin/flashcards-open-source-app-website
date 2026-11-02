@@ -15,7 +15,7 @@ Alaska är AK, Alabama är AL och Arkansas är AR. De två första bokstäverna 
 
 Vill du slå upp en kod hittar du delstaten i tabellen nedan, som följer de engelska namnens alfabetiska ordning. Vill du öva kan du täcka över kodkolumnen och försöka komma på varje kod. Täck sedan över namnen i stället. Att känna igen ett par på sidan och att plocka fram det ur minnet är olika saker.
 
-Den kostnadsfria [kortleken med amerikanska delstatsförkortningar](/sv/catalog/packages/us-state-abbreviations-flashcards/) ger dig **100 engelskspråkiga kort** för att öva från delstat till kod och åt andra hållet. Försök minnas varje svar innan du kontrollerar det och återkom till regelbunden repetition med mellanrum för att minnas paren på längre sikt. Hela tabellen och svaren på frågesporten finns nedan.
+Den kostnadsfria [kortleken med amerikanska delstatsförkortningar](/sv/catalog/packages/us-state-abbreviations-flashcards-sv/) ger dig **100 svenskspråkiga kort** för att öva från delstat till kod och åt andra hållet. Försök minnas varje svar innan du kontrollerar det och återkom till regelbunden repetition med mellanrum för att minnas paren på längre sikt. Hela tabellen och svaren på frågesporten finns nedan.
 
 ## Alla 50 delstatsförkortningar i USA
 
@@ -177,6 +177,6 @@ Om du blandade ihop MO med MS lägger du också till två kort för Mississippi.
 
 Att regelbundet plocka fram svaren ur minnet och repetera med mellanrum hjälper dig att minnas paren på längre sikt. Vid nästa repetition svarar du innan du visar baksidan och noterar ärligt när du svarar fel. Återkom till korten vid ett senare tillfälle för att se om du fortfarande minns svaren. Lägg till fler delstater när du har tid att repetera dem. Du behöver inte börja med alla kort på en gång.
 
-Den kostnadsfria [kortleken med USA:s delstatsförkortningar](/sv/catalog/packages/us-state-abbreviations-flashcards/) innehåller **100 engelskspråkiga övningskort**: ett kort från delstat till kod och ett från kod till delstat för var och en av de 50 delstaterna. Det är ett fristående, inofficiellt studiehjälpmedel. Kartor, huvudstäder, DC, territorier och ZIP Codes ingår inte.
+Den kostnadsfria [kortleken med USA:s delstatsförkortningar](/sv/catalog/packages/us-state-abbreviations-flashcards-sv/) innehåller **100 svenskspråkiga övningskort**: ett kort från delstat till kod och ett från kod till delstat för var och en av de 50 delstaterna. Det är ett fristående, inofficiellt studiehjälpmedel. Kartor, huvudstäder, DC, territorier och ZIP Codes ingår inte.
 
 Öppna kortlekens sida för att titta på korten och börja öva. Om appen är ny för dig förklarar [kom igång-guiden](/sv/docs/getting-started/) hur du kommer igång. Börja med paren du missade ovan och testa sedan hela listan i blandad ordning när du är redo.

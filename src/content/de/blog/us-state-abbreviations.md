@@ -1,6 +1,6 @@
 ---
 title: "Abkürzungen der US-Bundesstaaten: alle 50 Kürzel mit Quiz"
-description: "Alle 50 US-Bundesstaaten und ihre Abkürzungen: ähnliche Kürzel unterscheiden, beide Richtungen im Quiz üben und mit 100 kostenlosen englischsprachigen Lernkarten lernen."
+description: "Alle 50 US-Bundesstaaten und ihre Abkürzungen: ähnliche Kürzel unterscheiden, beide Richtungen im Quiz üben und mit 100 kostenlosen deutschsprachigen Lernkarten lernen."
 date: "2026-09-16"
 image: "/blog/us-state-abbreviations.png"
 keywords:
@@ -15,7 +15,7 @@ Alaska wird mit AK abgekürzt, Alabama mit AL und Arkansas mit AR. Die ersten be
 
 Zum Nachschlagen suchst du den Bundesstaat in der alphabetischen Tabelle unten. Zum Lernen deckst du die Spalte mit den Kürzeln ab und versuchst, jedes Kürzel aus dem Gedächtnis zu nennen. Danach deckst du die Namen ab und übst die Gegenrichtung. Ein Paar auf der Seite wiederzuerkennen und es aus dem Gedächtnis abzurufen sind unterschiedliche Aufgaben.
 
-Das kostenlose [Deck zu den Abkürzungen der US-Bundesstaaten](/de/catalog/packages/us-state-abbreviations-flashcards/) bietet **100 englischsprachige Karten**, mit denen du vom Namen zum Kürzel und umgekehrt üben kannst. Versuche, dich an jede Antwort zu erinnern, bevor du nachsiehst. Regelmäßige Wiederholungen mit zeitlichem Abstand helfen dir, die Paare langfristig zu behalten. Die vollständige Tabelle und die Quizlösungen stehen weiter unten.
+Das kostenlose [Deck zu den Abkürzungen der US-Bundesstaaten](/de/catalog/packages/us-state-abbreviations-flashcards-de/) bietet **100 deutschsprachige Karten**, mit denen du vom Namen zum Kürzel und umgekehrt üben kannst. Versuche, dich an jede Antwort zu erinnern, bevor du nachsiehst. Regelmäßige Wiederholungen mit zeitlichem Abstand helfen dir, die Paare langfristig zu behalten. Die vollständige Tabelle und die Quizlösungen stehen weiter unten.
 
 ## Alle 50 US-Bundesstaaten und ihre Abkürzungen
 
@@ -177,6 +177,6 @@ Wenn du MO mit MS verwechselt hast, ergänze auch die beiden Karten für Mississ
 
 Regelmäßiges Abrufen aus dem Gedächtnis und Wiederholen mit zeitlichem Abstand helfen dir, die Paare langfristig zu behalten. Antworte bei der nächsten Wiederholung, bevor du die Rückseite aufdeckst, und notiere Fehler ehrlich. Wiederhole diese Karten in einer späteren Lerneinheit und prüfe, ob dir die Antworten noch einfallen. Ergänze weitere Staaten, wenn du Zeit hast, sie regelmäßig zu wiederholen. Du musst nicht alle Karten in einer Sitzung dazunehmen.
 
-Das kostenlose [Deck zu den Abkürzungen der US-Bundesstaaten](/de/catalog/packages/us-state-abbreviations-flashcards/) enthält **100 englischsprachige Karten**: für jeden der 50 Staaten eine Karte vom Namen zum Kürzel und eine vom Kürzel zum Namen. Es ist eine unabhängige, inoffizielle Lernhilfe. Landkarten, Hauptstädte, DC, Territorien und ZIP Codes sind nicht enthalten.
+Das kostenlose [Deck zu den Abkürzungen der US-Bundesstaaten](/de/catalog/packages/us-state-abbreviations-flashcards-de/) enthält **100 deutschsprachige Karten**: für jeden der 50 Staaten eine Karte vom Namen zum Kürzel und eine vom Kürzel zum Namen. Es ist eine unabhängige, inoffizielle Lernhilfe. Landkarten, Hauptstädte, DC, Territorien und ZIP Codes sind nicht enthalten.
 
 Öffne die Deck-Seite, um dir die Karten anzusehen und mit dem Lernen zu beginnen. Falls du die App noch nicht kennst, erklärt die [Einstiegsanleitung](/de/docs/getting-started/) die Einrichtung. Fang mit den Paaren an, die du oben nicht wusstest. Prüfe danach die vollständige Liste in gemischter Reihenfolge, sobald du bereit bist.

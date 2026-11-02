@@ -15,7 +15,7 @@ Alaska és AK, Alabama és AL i Arkansas és AR. Les dues primeres lletres del n
 
 Per fer una consulta, busca l’estat a la taula de sota, ordenada alfabèticament pels noms en anglès. Per estudiar, tapa la columna dels codis i intenta donar cada resposta; després, tapa la dels estats i fes l’exercici a l’inrevés. Reconèixer una parella a la pàgina i recordar-la sense mirar són tasques diferents.
 
-El [conjunt gratuït de targetes sobre les abreviatures dels estats dels EUA](/ca/catalog/packages/us-state-abbreviations-flashcards/) ofereix **100 targetes en anglès** per practicar de l’estat al codi i a l’inrevés. Intenta recordar cada resposta abans de comprovar-la i torna-hi amb repassos espaiats regulars per ajudar-te a retenir les parelles al llarg del temps. Més avall tens la taula completa i les respostes del qüestionari.
+El [conjunt gratuït de targetes sobre les abreviatures dels estats dels EUA](/ca/catalog/packages/us-state-abbreviations-flashcards-ca/) ofereix **100 targetes en català** per practicar de l’estat al codi i a l’inrevés. Intenta recordar cada resposta abans de comprovar-la i torna-hi amb repassos espaiats regulars per ajudar-te a retenir les parelles al llarg del temps. Més avall tens la taula completa i les respostes del qüestionari.
 
 ## Les abreviatures dels 50 estats dels EUA
 
@@ -177,6 +177,6 @@ Si has confós MO amb MS, afegeix també les dues targetes de Mississipí (Missi
 
 Recordar activament les respostes i repassar-les de manera espaiada i regular ajuda a retenir les parelles al llarg del temps. Al repàs següent, respon abans de revelar la cara de la resposta i registra els errors amb honestedat. Torna a aquestes targetes en una sessió posterior per comprovar si encara en recordes les respostes. Afegeix més estats a mesura que tinguis temps per repassar-los; no cal introduir totes les targetes en una sola sessió.
 
-El [conjunt gratuït de targetes sobre les abreviatures dels estats dels EUA](/ca/catalog/packages/us-state-abbreviations-flashcards/) té **100 targetes en anglès**: una de l’estat al codi i una del codi a l’estat per a cadascun dels 50 estats. És un recurs d’estudi independent i no oficial. No inclou mapes, capitals, DC, territoris ni codis ZIP.
+El [conjunt gratuït de targetes sobre les abreviatures dels estats dels EUA](/ca/catalog/packages/us-state-abbreviations-flashcards-ca/) té **100 targetes en català**: una de l’estat al codi i una del codi a l’estat per a cadascun dels 50 estats. És un recurs d’estudi independent i no oficial. No inclou mapes, capitals, DC, territoris ni codis ZIP.
 
 Obre la pàgina del conjunt per veure les targetes i començar a estudiar. Si és el primer cop que fas servir l’aplicació, la [guia de primers passos](/ca/docs/getting-started/) n’explica la configuració. Comença per les parelles que has fallat més amunt i, quan estiguis a punt, posa’t a prova amb la llista completa en ordre aleatori.

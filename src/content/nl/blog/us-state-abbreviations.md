@@ -15,7 +15,7 @@ Alaska is AK, Alabama is AL en Arkansas is AR. De eerste twee letters van de naa
 
 Wil je iets opzoeken, zoek de staat dan in de alfabetische tabel hieronder. Wil je oefenen, dek dan de kolom met codes af en probeer zelf elk antwoord te geven. Wissel daarna van kolom. Een combinatie op de pagina herkennen en die uit je geheugen ophalen zijn verschillende vaardigheden.
 
-De gratis [kaartenset met afkortingen van Amerikaanse staten](/nl/catalog/packages/us-state-abbreviations-flashcards/) biedt **100 Engelstalige kaarten** om van staat naar code en andersom te oefenen. Probeer elk antwoord te herinneren voordat je het controleert. Kom daarna regelmatig terug voor gespreide herhaling om de paren op de lange termijn te onthouden. De volledige tabel en de antwoorden op de quiz staan hieronder.
+De gratis [kaartenset met afkortingen van Amerikaanse staten](/nl/catalog/packages/us-state-abbreviations-flashcards-nl/) biedt **100 Nederlandstalige kaarten** om van staat naar code en andersom te oefenen. Probeer elk antwoord te herinneren voordat je het controleert. Kom daarna regelmatig terug voor gespreide herhaling om de paren op de lange termijn te onthouden. De volledige tabel en de antwoorden op de quiz staan hieronder.
 
 ## De afkortingen van alle 50 Amerikaanse staten
 
@@ -177,6 +177,6 @@ Haalde je MO en MS door elkaar, voeg dan ook twee kaarten voor Mississippi toe. 
 
 Regelmatig antwoorden uit je geheugen ophalen en gespreid herhalen helpt je de paren op de lange termijn te onthouden. Geef bij de volgende herhaling antwoord voordat je de achterkant bekijkt en noteer je fouten eerlijk. Kom in een latere sessie op die kaarten terug om te zien of je de antwoorden nog kunt oproepen. Voeg meer staten toe als je tijd hebt om ze te herhalen. Je hoeft niet alle kaarten in één keer toe te voegen.
 
-De gratis [kaartenset met afkortingen van Amerikaanse staten](/nl/catalog/packages/us-state-abbreviations-flashcards/) bevat **100 Engelstalige leerkaarten**: voor elk van de 50 staten één kaart van staat naar code en één van code naar staat. Het is een onafhankelijk, onofficieel leermiddel. De set bevat geen landkaarten, hoofdsteden, DC, territoria of ZIP Codes.
+De gratis [kaartenset met afkortingen van Amerikaanse staten](/nl/catalog/packages/us-state-abbreviations-flashcards-nl/) bevat **100 Nederlandstalige leerkaarten**: voor elk van de 50 staten één kaart van staat naar code en één van code naar staat. Het is een onafhankelijk, onofficieel leermiddel. De set bevat geen landkaarten, hoofdsteden, DC, territoria of ZIP Codes.
 
 Open de pagina van de kaartenset om de kaarten te bekijken en te beginnen met oefenen. Gebruik je de app voor het eerst, dan legt de [gids om aan de slag te gaan](/nl/docs/getting-started/) uit hoe je alles instelt. Begin met de combinaties die je hierboven fout had en toets jezelf op de volledige lijst in willekeurige volgorde zodra je eraan toe bent.

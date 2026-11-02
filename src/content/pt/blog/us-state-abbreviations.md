@@ -15,7 +15,7 @@ Alasca (Alaska) é AK, Alabama é AL e Arkansas é AR. As duas primeiras letras 
 
 Para consultar uma sigla, procure o estado na tabela abaixo, organizada por ordem alfabética dos nomes em inglês. Para estudar, cubra a coluna dos códigos e tente lembrar cada resposta. Depois, cubra a outra coluna. Reconhecer um par na página e conseguir lembrá-lo sem consultar são tarefas diferentes.
 
-O [baralho gratuito de abreviações dos estados dos EUA](/pt/catalog/packages/us-state-abbreviations-flashcards/) oferece **100 cartões em inglês** para praticar do estado para o código e no sentido inverso. Tente lembrar cada resposta antes de conferi-la e volte para revisões espaçadas regulares, que ajudam a reter os pares ao longo do tempo. A tabela completa e as respostas do quiz estão abaixo.
+O [baralho gratuito de abreviações dos estados dos EUA](/pt/catalog/packages/us-state-abbreviations-flashcards-pt/) oferece **100 cartões em português** para praticar do estado para o código e no sentido inverso. Tente lembrar cada resposta antes de conferi-la e volte para revisões espaçadas regulares, que ajudam a reter os pares ao longo do tempo. A tabela completa e as respostas do quiz estão abaixo.
 
 ## As siglas dos 50 estados dos EUA
 
@@ -177,6 +177,6 @@ Se confundiu MO com MS, adicione também os dois cartões de Mississippi. Manten
 
 Tentar lembrar as respostas regularmente e fazer revisões espaçadas ajuda a reter os pares a longo prazo. Na próxima revisão, responda antes de revelar o verso e registre os erros com honestidade. Volte a esses cartões numa sessão posterior para verificar se ainda consegue lembrar as respostas. Acrescente mais estados à medida que tiver tempo para revisá-los; não precisa começar a estudar todos os cartões de uma vez.
 
-O [baralho gratuito de siglas dos estados dos EUA](/pt/catalog/packages/us-state-abbreviations-flashcards/) tem **100 cartões em inglês**: um cartão do estado para o código e outro do código para o estado para cada um dos 50 estados. É um recurso de estudo independente e não oficial. Não inclui mapas, capitais, DC, territórios nem ZIP Codes.
+O [baralho gratuito de siglas dos estados dos EUA](/pt/catalog/packages/us-state-abbreviations-flashcards-pt/) tem **100 cartões em português**: um cartão do estado para o código e outro do código para o estado para cada um dos 50 estados. É um recurso de estudo independente e não oficial. Não inclui mapas, capitais, DC, territórios nem ZIP Codes.
 
 Abra a página do baralho para consultar os cartões e começar a estudar. Se está começando a usar o aplicativo, o [guia de primeiros passos](/pt/docs/getting-started/) explica a configuração. Comece pelos pares que errou acima e, quando estiver pronto, teste a lista completa em ordem aleatória.
