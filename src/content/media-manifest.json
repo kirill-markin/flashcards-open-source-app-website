@@ -3501,6 +3501,21 @@
     }
   },
   {
+    "publicPath": "/blog/sap-idoc-status-codes-handoff-evidence.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/ac180d6f4e7c4e45149fe31d3a1bc49ce8c6ae5442a9d04f4848bf9aa14656ac.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "ac180d6f4e7c4e45149fe31d3a1bc49ce8c6ae5442a9d04f4848bf9aa14656ac",
+    "bytes": 132958,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/c7a6a34b92a11849921872cd332e2038806b466c5843cb0f012e243a1aea3fb0.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "c7a6a34b92a11849921872cd332e2038806b466c5843cb0f012e243a1aea3fb0",
+      "bytes": 2115951
+    }
+  },
+  {
     "publicPath": "/blog/scientific-notation-practice.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/a8c13509260849a23a2dec479b39b41934f217f4ad0af437e951a5b6898f075c.png",
     "width": 1672,
