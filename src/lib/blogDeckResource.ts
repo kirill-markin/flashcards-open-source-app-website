@@ -1,8 +1,12 @@
 import { getAbsoluteUrl } from "./i18n";
-import { getIntlLocale, type AppLocale } from "./localeConfig";
+import type { AppLocale } from "./localeConfig";
 import { escapeMarkdownText, renderMarkdownLink } from "./markdownLinks";
 import { getPublicCatalogUiCopy } from "./publicCatalogCopy";
 import { formatPublicCatalogCardCount } from "./publicCatalogFormatting";
+import {
+  formatPublicCatalogLanguageLabel,
+  getPublicCatalogLanguageNames,
+} from "./publicCatalogLanguageNames";
 import {
   getPublicCatalogPackageBySlug,
   type PublicCatalogCoverMediaAsset,
@@ -290,20 +294,8 @@ export function resolveBlogDeckResource(
   }
 
   const copy = getPublicCatalogUiCopy(locale);
-  const languageNames = new Intl.DisplayNames([getIntlLocale(locale)], {
-    type: "language",
-  });
-  const languages = latestVersion.languageTags.map((languageTag) => {
-    const name = languageNames.of(languageTag);
-
-    if (name === undefined) {
-      throw new Error(
-        `Cannot name study resource language ${languageTag} for article ${slug} in locale ${locale}.`,
-      );
-    }
-
-    return `${name} (${languageTag})`;
-  });
+  const languages = getPublicCatalogLanguageNames(latestVersion.languageTags)
+    .map(formatPublicCatalogLanguageLabel);
 
   return {
     packageId: packageMetadata.packageId,
