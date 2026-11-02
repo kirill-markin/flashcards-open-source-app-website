@@ -137,6 +137,8 @@ That final card checks more than three piano keys. In G major, V/V is an A-major
 
 For ready-made practice, the [triad chord spelling flashcards deck](/catalog/packages/triad-chord-spelling-flashcards/) has 90 cards: four quality-rule cards, followed by 43 root-position major, minor, diminished, and augmented triads in both directions—chord name to correctly spelled notes, and notes to chord name and quality.
 
+For written inversion work, the [seventh chord inversion flashcards](/catalog/packages/seventh-chord-inversion-flashcards/) use note names and octave numbers to practice root, quality, bass member, inversion, and figured-bass labels. They also ask you to build a valid voicing and compare or repair an analysis; they don't test Roman-numeral function, staff reading, or listening.
+
 For rhythm and meter, keep compact facts on cards and perform the rhythm elsewhere. A card can ask what a meter symbol means or how many stated subdivisions complete a measure. Then clap, count, conduct, play, or sing a fresh example. Reading “syncopation” on the back of a card is still reading, not rhythm practice.
 
 ## Grade spelling and context without moving the goalposts
