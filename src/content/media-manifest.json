@@ -2560,6 +2560,21 @@
     "bytes": 2481775
   },
   {
+    "publicPath": "/blog/matrix-multiplication-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/302ba96626dbe552ce0f54d46328f7e9c4e13cddd0239cde162e014a7fae18e2.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "302ba96626dbe552ce0f54d46328f7e9c4e13cddd0239cde162e014a7fae18e2",
+    "bytes": 179910,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/988da886677fc2bd3f5ca817023481feec8aff648fd4e3bae21e19dcc9828b70.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "988da886677fc2bd3f5ca817023481feec8aff648fd4e3bae21e19dcc9828b70",
+      "bytes": 2534113
+    }
+  },
+  {
     "publicPath": "/blog/measurement-uncertainty-practice.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/f46ed5520ee471539ec034e9420317c178a174fedd695f90f3b8e5d266e02541.webp",
     "width": 1672,
