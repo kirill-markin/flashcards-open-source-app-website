@@ -234,6 +234,7 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   "measurement-uncertainty-practice": { en: "measurement-uncertainty-flashcards" },
   "dimensional-analysis-equations": { en: "dimensional-analysis-equation-flashcards" },
   "weighted-average-practice": { en: "weighted-average-flashcards" },
+  "matrix-multiplication-practice": { en: "matrix-multiplication-flashcards" },
   "how-to-memorize-the-unit-circle": { en: "unit-circle-degrees-radians-coordinates" },
   "recurring-decimals-to-fractions": { en: "recurring-decimals-to-fractions-flashcards" },
   "truth-values-conjunction-disjunction": { en: "truth-table-flashcards" },
