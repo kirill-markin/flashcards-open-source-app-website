@@ -13,6 +13,7 @@ import { getPublicCatalogPackageLocalizedPathname } from "./publicCatalogUrls";
 const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   Record<string, Readonly<Partial<Record<AppLocale, string>>>>
 > = {
+  "latin-prepositions-conjunctions": { de: "latin-prepositions-conjunctions-german-speakers" },
   "french-conversational-fillers": { en: "french-conversational-fillers" },
   "thai-alphabet-flashcards": { it: "thai-alphabet-italian-speakers" },
   "rioplatense-spanish-voseo-household": {
