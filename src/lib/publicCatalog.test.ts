@@ -13,6 +13,10 @@ import { resolveBlogDeckResource } from "./blogDeckResource";
 import { parsePublicCatalogBuildConfiguration } from "./publicCatalogBuild";
 import { createPublicCatalogBrowseData } from "./publicCatalogBrowse";
 import {
+  formatPublicCatalogLanguageLabel,
+  getPublicCatalogLanguageName,
+} from "./publicCatalogLanguageNames";
+import {
   getCanonicalPagePathname,
   getMarkdownAssetPathname,
   getPagePathnameFromMarkdownPathname,
@@ -735,7 +739,10 @@ test("matching-language blog decks fill article slots and one Markdown footer wi
     assert.equal(resource.summary, input.packageVersions[1].summary);
     assert.deepEqual(resource.coverMediaAsset, model.packages[0].coverMediaAsset);
     assert.equal(resource.cardCountLabel, formatPublicCatalogCardCount(locale, 2, copy));
-    assert.ok(resource.languageLabel.includes(`(${locale})`));
+    assert.equal(
+      resource.languageLabel,
+      `${copy.languagesLabel}: ${formatPublicCatalogLanguageLabel(getPublicCatalogLanguageName(locale))}`,
+    );
 
     for (const placement of ["article_start_side", "mid_article", "article_end"] as const) {
       const html = renderToStaticMarkup(createElement(
@@ -787,7 +794,8 @@ test("matching-language blog decks fill article slots and one Markdown footer wi
       )).length,
       1,
     );
-    assert.ok(nodes.some((node) => node.type === "text" && node.value?.includes(`(${locale})`)));
+    assert.ok(nodes.some((node) => node.type === "text" && node.value?.includes(resource.languageLabel)));
+    assert.equal(nodes.some((node) => node.type === "text" && node.value?.includes(`(${locale})`)), false);
     if (articleSlug === "us-state-abbreviations") {
       const firstTable = nodes.find((node) => node.type === "table");
       assert.equal(firstTable?.children?.length, 51);
