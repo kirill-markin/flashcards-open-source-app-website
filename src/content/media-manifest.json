@@ -2744,6 +2744,21 @@
     "bytes": 2132614
   },
   {
+    "publicPath": "/blog/modern-greek-vocabulary-flashcards.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/bb691d2f0d41a5e06ba65bf3478a1a120ef133f619b9e96080b8f44db3fc1583.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "bb691d2f0d41a5e06ba65bf3478a1a120ef133f619b9e96080b8f44db3fc1583",
+    "bytes": 285702,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/e66846df339b2564d9c7ddbf1bc0ea88b6d9a2188f9c9af64d0e81c6cce377a7.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "e66846df339b2564d9c7ddbf1bc0ea88b6d9a2188f9c9af64d0e81c6cce377a7",
+      "bytes": 2899435
+    }
+  },
+  {
     "publicPath": "/blog/momentum-collisions-practice.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/7bdf4a698865606bcb35cdb5fb211d899a59e7bdbd437783bc382d379b673592.webp",
     "width": 1672,

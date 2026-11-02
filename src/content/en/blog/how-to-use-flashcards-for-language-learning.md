@@ -91,6 +91,8 @@ If katakana is your next script, [this two-way katakana deck](/catalog/packages/
 
 For Greek letter-form and name recognition, [Greek Alphabet Flashcards: All 24 Uppercase & Lowercase Letters](/catalog/packages/greek-alphabet-flashcards/) has 72 cards covering all 24 letters through uppercase-to-name, lowercase-to-name, and name-to-symbol recall. It does not teach pronunciation, transliteration, vocabulary, handwriting, or mathematical meanings.
 
+Once you can read basic Greek script, the [Modern Greek everyday vocabulary deck](/catalog/packages/modern-greek-everyday-vocabulary/) adds noun-and-article recall, meanings in short contexts and everyday phrase production with English cues. It supports written practice; it has no audio.
+
 ## Sentences usually beat raw vocabulary once you are past the first layer
 
 This is the biggest upgrade most people can make.
