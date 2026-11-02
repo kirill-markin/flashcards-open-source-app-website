@@ -877,6 +877,21 @@
     "bytes": 2218017
   },
   {
+    "publicPath": "/blog/crossing-over-vs-independent-assortment.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/70e47ee7eb3715a964e57d2a0624f5e37d914184fe2b154d398b9e961d7a1e26.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "70e47ee7eb3715a964e57d2a0624f5e37d914184fe2b154d398b9e961d7a1e26",
+    "bytes": 242092,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/2cd05ba804f3471e667c7f60751dfff72d9c519b56bde8b114f5db45a44f385a.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "2cd05ba804f3471e667c7f60751dfff72d9c519b56bde8b114f5db45a44f385a",
+      "bytes": 2873283
+    }
+  },
+  {
     "publicPath": "/blog/cytoskeleton-structure-and-function.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/37781fb680ad3ed0774a9b7695c3c69185a848378ea68e1cd3101852e7d1e5bb.png",
     "width": 1672,
