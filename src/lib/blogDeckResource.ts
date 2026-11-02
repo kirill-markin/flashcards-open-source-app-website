@@ -13,6 +13,7 @@ import { getPublicCatalogPackageLocalizedPathname } from "./publicCatalogUrls";
 const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   Record<string, Readonly<Partial<Record<AppLocale, string>>>>
 > = {
+  "le-chatelier-principle-practice": { en: "ap-chemistry-flashcards" },
   "sap-idoc-status-codes": { en: "sap-idoc-status-codes" },
   "korean-vocabulary-recall-practice": { en: "korean-everyday-vocabulary" },
   "latin-prepositions-conjunctions": { de: "latin-prepositions-conjunctions-german-speakers" },
