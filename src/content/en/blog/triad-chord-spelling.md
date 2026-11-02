@@ -144,6 +144,8 @@ The exercises give you root–third–fifth order on purpose. In a score, the lo
 
 When analyzing a voicing, identify the root and quality, then check which chord member is in the bass. [The university text's chord-analysis lesson](https://musictheory.pugetsound.edu/mt21c/AnalyzingChords.html) treats these as separate questions. Don't apply a root-position semitone pattern directly from an arbitrary bass note.
 
+After triad spelling and inversion practice, the [seventh chord inversion flashcards](/catalog/packages/seventh-chord-inversion-flashcards/) take that root-versus-bass check to complete four-member chords. The written prompts use note names and octave numbers to ask for the chord, bass member, inversion, and figures.
+
 ## Turn a recurring miss into a useful card
 
 Once you can construct the answers, practice recalling them. The [triad chord spelling flashcards](/catalog/packages/triad-chord-spelling-flashcards/) contain 90 English cards: four quality rules and 43 root-position chords in both directions, from chord name to notes and from notes to chord name.
