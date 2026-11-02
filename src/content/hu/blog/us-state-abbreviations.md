@@ -1,6 +1,6 @@
 ---
 title: "Az USA tagállamainak rövidítései: mind az 50 kód és egy gyakorló kvíz"
-description: "Az USA mind az 50 tagállamának rövidítése, segítség az összekeverhető kódokhoz, rövid kvíz és ingyenes, 100 angol nyelvű tanulókártyából álló csomag a kétirányú gyakorláshoz."
+description: "Az USA mind az 50 tagállamának rövidítése, segítség az összekeverhető kódokhoz, rövid kvíz és ingyenes, 100 magyar nyelvű tanulókártyából álló csomag a kétirányú gyakorláshoz."
 date: "2026-09-16"
 image: "/blog/us-state-abbreviations.png"
 keywords:
@@ -15,7 +15,7 @@ Alaszka kódja AK, Alabamáé AL, Arkansasé pedig AR. A tagállam angol nevéne
 
 Ha csak egy kódot keresel, keresd meg a tagállamot az alábbi, angol név szerinti betűrendes táblázatban. Tanuláshoz takard le a kódok oszlopát, és próbáld meg felidézni a válaszokat, majd takard le inkább a neveket, és gyakorolj a másik irányban. Más feladat felismerni egy név és egy kód összetartozását az oldalon, mint emlékezetből felidézni őket.
 
-Az ingyenes [amerikai tagállami rövidítéseket tartalmazó kártyacsomag](/hu/catalog/packages/us-state-abbreviations-flashcards/) **100 angol nyelvű kártyát** kínál: a tagállam nevéből a kódot, a kódból pedig a nevet gyakorolhatod. Próbáld felidézni a választ, mielőtt ellenőrzöd, majd térj vissza rendszeres, időben elosztott ismétlésre, hogy hosszabb távon is megjegyezd a párokat. A teljes táblázatot és a kvíz válaszait lejjebb találod.
+Az ingyenes [amerikai tagállami rövidítéseket tartalmazó kártyacsomag](/hu/catalog/packages/us-state-abbreviations-flashcards-hu/) **100 magyar nyelvű kártyát** kínál: a tagállam nevéből a kódot, a kódból pedig a nevet gyakorolhatod. Próbáld felidézni a választ, mielőtt ellenőrzöd, majd térj vissza rendszeres, időben elosztott ismétlésre, hogy hosszabb távon is megjegyezd a párokat. A teljes táblázatot és a kvíz válaszait lejjebb találod.
 
 ## Az USA mind az 50 tagállamának rövidítése
 
@@ -177,6 +177,6 @@ Ha az MO-t az MS-sel keverted össze, add hozzá Mississippi két kártyáját i
 
 A válaszok rendszeres felidézése és az időben elosztott ismétlés segít hosszabb távon megjegyezni a párokat. A következő ismétléskor válaszolj, mielőtt felfeded a hátlapot, és őszintén rögzítsd a hibáidat. Egy későbbi alkalommal térj vissza ezekhez a kártyákhoz, hogy kiderüljön, akkor is eszedbe jutnak-e a válaszok. Annyi új tagállamot adj hozzá, amennyi ismétlésére van időd; nem kell az összes kártyával egyetlen alkalom alatt megismerkedned.
 
-Az [USA tagállamainak rövidítéseit tanító ingyenes kártyacsomag](/hu/catalog/packages/us-state-abbreviations-flashcards/) **100 angol nyelvű tanulókártyát** tartalmaz: mind az 50 tagállamhoz egy tagállam → kód és egy kód → tagállam kártyát. Független, nem hivatalos tanulási segédlet. Nem tartalmaz térképeket, tagállami fővárosokat, DC-t, külbirtokokat vagy ZIP Code-okat.
+Az [USA tagállamainak rövidítéseit tanító ingyenes kártyacsomag](/hu/catalog/packages/us-state-abbreviations-flashcards-hu/) **100 magyar nyelvű tanulókártyát** tartalmaz: mind az 50 tagállamhoz egy tagállam → kód és egy kód → tagállam kártyát. Független, nem hivatalos tanulási segédlet. Nem tartalmaz térképeket, tagállami fővárosokat, DC-t, külbirtokokat vagy ZIP Code-okat.
 
 Nyisd meg a csomag oldalát, nézd át a kártyákat, és kezdd el a tanulást. Ha még új vagy az alkalmazásban, az [első lépéseket bemutató útmutató](/hu/docs/getting-started/) segít a beállításban. Kezdd azokkal a párokkal, amelyeket fent elrontottál, majd amikor készen állsz, ellenőrizd a teljes listát kevert sorrendben.

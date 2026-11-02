@@ -15,7 +15,7 @@ Alaskan lyhenne on AK, Alabaman AL ja Arkansasin AR. Osavaltion nimen kaksi ensi
 
 Jos etsit tiettyä lyhennettä, etsi osavaltio alla olevasta taulukosta. Osavaltiot ovat siinä englanninkielisten nimiensä mukaisessa aakkosjärjestyksessä. Kun opiskelet, peitä tunnussarake ja yritä muistaa vastaukset itse. Vaihda sitten peitettävää saraketta. Parin tunnistaminen sivulta ja sen palauttaminen mieleen ovat eri tehtäviä.
 
-Ilmainen [Yhdysvaltain osavaltioiden lyhenteiden korttipakka](/fi/catalog/packages/us-state-abbreviations-flashcards/) tarjoaa **100 englanninkielistä korttia**, joilla voit harjoitella osavaltiosta lyhenteeseen ja toisin päin. Yritä muistaa vastaus ennen sen tarkistamista ja palaa säännölliseen, ajallisesti hajautettuun kertaukseen, joka auttaa pitämään parit mielessä pitkään. Koko taulukko ja tietovisan vastaukset ovat alempana.
+Ilmainen [Yhdysvaltain osavaltioiden lyhenteiden korttipakka](/fi/catalog/packages/us-state-abbreviations-flashcards-fi/) tarjoaa **100 suomenkielistä korttia**, joilla voit harjoitella osavaltiosta lyhenteeseen ja toisin päin. Yritä muistaa vastaus ennen sen tarkistamista ja palaa säännölliseen, ajallisesti hajautettuun kertaukseen, joka auttaa pitämään parit mielessä pitkään. Koko taulukko ja tietovisan vastaukset ovat alempana.
 
 ## Kaikkien 50 osavaltion lyhenteet
 
@@ -177,6 +177,6 @@ Jos sekoitit MO:n ja MS:n, lisää myös kaksi Mississippi-korttia. Pidä kullak
 
 Säännöllinen mieleen palauttaminen ja ajallisesti hajautettu kertaus auttavat muistamaan parit pitkällä aikavälillä. Vastaa seuraavalla kertauskerralla ennen kääntöpuolen paljastamista ja kirjaa virheet rehellisesti. Palaa kortteihin myöhemmällä kerralla ja katso, tulevatko vastaukset yhä mieleen. Lisää osavaltioita sitä mukaa kuin ehdit kerrata niitä. Kaikkia kortteja ei tarvitse ottaa käyttöön yhdellä kertaa.
 
-Maksuttomassa [Yhdysvaltain osavaltioiden lyhenteiden korttipakassa](/fi/catalog/packages/us-state-abbreviations-flashcards/) on **100 englanninkielistä kertauskorttia**: kustakin 50 osavaltiosta yksi kortti, jossa kysytään nimen perusteella tunnusta, ja toinen, jossa kysytään tunnuksen perusteella nimeä. Pakka on itsenäinen, epävirallinen opiskeluväline. Siinä ei ole karttoja, pääkaupunkeja, DC:tä, territorioita eikä ZIP-postinumeroita.
+Maksuttomassa [Yhdysvaltain osavaltioiden lyhenteiden korttipakassa](/fi/catalog/packages/us-state-abbreviations-flashcards-fi/) on **100 suomenkielistä kertauskorttia**: kustakin 50 osavaltiosta yksi kortti, jossa kysytään nimen perusteella tunnusta, ja toinen, jossa kysytään tunnuksen perusteella nimeä. Pakka on itsenäinen, epävirallinen opiskeluväline. Siinä ei ole karttoja, pääkaupunkeja, DC:tä, territorioita eikä ZIP-postinumeroita.
 
 Avaa pakan sivu, tutustu kortteihin ja aloita opiskelu. Jos sovellus on sinulle uusi, [aloitusopas](/fi/docs/getting-started/) neuvoo käyttöönotossa. Aloita pareista, joissa teit yllä virheen. Kun olet valmis, tarkista koko luettelo sekoitetussa järjestyksessä.

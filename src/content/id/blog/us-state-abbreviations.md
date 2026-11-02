@@ -15,7 +15,7 @@ Alaska disingkat AK, Alabama AL, dan Arkansas AR. Dua huruf pertama nama negara 
 
 Untuk mencari kode, temukan nama negara bagiannya dalam tabel yang disusun menurut abjad di bawah. Untuk belajar, tutup kolom kode dan coba sebutkan kodenya satu per satu, lalu bergantian tutup kolom nama negara bagian. Mengenali pasangan yang tertulis di halaman dan mengingatnya tanpa melihat jawaban adalah dua hal yang berbeda.
 
-[Set kartu singkatan negara bagian AS](/id/catalog/packages/us-state-abbreviations-flashcards/) gratis menyediakan **100 kartu berbahasa Inggris** untuk berlatih dari nama negara bagian ke kode dan sebaliknya. Cobalah mengingat setiap jawaban sebelum memeriksanya, lalu kembali mengulang secara teratur dengan jeda antarsesi agar pasangan nama dan kode lebih lama melekat dalam ingatan. Tabel lengkap dan jawaban kuis ada di bawah.
+[Set kartu singkatan negara bagian AS](/id/catalog/packages/us-state-abbreviations-flashcards-id/) gratis menyediakan **100 kartu berbahasa Indonesia** untuk berlatih dari nama negara bagian ke kode dan sebaliknya. Cobalah mengingat setiap jawaban sebelum memeriksanya, lalu kembali mengulang secara teratur dengan jeda antarsesi agar pasangan nama dan kode lebih lama melekat dalam ingatan. Tabel lengkap dan jawaban kuis ada di bawah.
 
 ## Singkatan seluruh 50 negara bagian AS
 
@@ -177,6 +177,6 @@ Jika Anda menukar MO dengan MS, tambahkan juga dua kartu untuk Mississippi. Bata
 
 Mengingat jawaban secara rutin dan mengulangnya dengan jeda antarsesi membantu Anda menyimpan pasangan nama dan kode dalam ingatan jangka panjang. Pada sesi latihan berikutnya, jawab sebelum membuka sisi belakang dan catat kesalahan dengan jujur. Pelajari kembali kartu-kartu itu pada sesi berikutnya untuk memeriksa apakah jawabannya masih bisa Anda ingat. Tambahkan negara bagian lain sesuai waktu yang tersedia untuk mengulang materi; Anda tidak perlu mempelajari semua kartu baru dalam satu sesi.
 
-[Paket kartu singkatan negara bagian AS](/id/catalog/packages/us-state-abbreviations-flashcards/) yang gratis berisi **100 kartu berbahasa Inggris**: satu kartu negara bagian ke kode dan satu kartu kode ke negara bagian untuk masing-masing dari 50 negara bagian. Paket ini merupakan alat bantu belajar independen dan tidak resmi. Isinya tidak mencakup peta, ibu kota, DC, wilayah teritori, atau ZIP Code.
+[Paket kartu singkatan negara bagian AS](/id/catalog/packages/us-state-abbreviations-flashcards-id/) yang gratis berisi **100 kartu berbahasa Indonesia**: satu kartu negara bagian ke kode dan satu kartu kode ke negara bagian untuk masing-masing dari 50 negara bagian. Paket ini merupakan alat bantu belajar independen dan tidak resmi. Isinya tidak mencakup peta, ibu kota, DC, wilayah teritori, atau ZIP Code.
 
 Buka halaman paket untuk melihat kartu-kartunya dan mulai belajar. Jika Anda baru menggunakan aplikasi ini, [panduan memulai](/id/docs/getting-started/) menjelaskan cara menyiapkannya. Mulailah dari pasangan yang tadi salah, lalu uji seluruh daftar dalam urutan acak saat Anda sudah siap.

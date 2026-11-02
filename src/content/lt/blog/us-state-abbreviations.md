@@ -15,7 +15,7 @@ Aliaskos kodas yra AK, Alabamos – AL, o Arkanzaso – AR. Pirmosios dvi angli�
 
 Jei norite sužinoti kodą, raskite valstiją toliau pateiktoje lentelėje, išdėstytoje pagal angliškų pavadinimų abėcėlę. Jei mokotės, uždenkite kodų stulpelį ir pabandykite prisiminti kiekvieną atsakymą, tada uždenkite kitą stulpelį. Atpažinti porą puslapyje ir atkurti ją iš atminties – skirtingos užduotys.
 
-Nemokamame [JAV valstijų santrumpų kortelių rinkinyje](/lt/catalog/packages/us-state-abbreviations-flashcards/) yra **100 kortelių anglų kalba**, skirtų mokytis nuo valstijos prie kodo ir atvirkščiai. Prieš tikrindami atsakymą pabandykite jį prisiminti, o vėliau reguliariai kartokite su laiko tarpais, kad poros ilgiau išliktų atmintyje. Visa lentelė ir testo atsakymai pateikti toliau.
+Nemokamame [JAV valstijų santrumpų kortelių rinkinyje](/lt/catalog/packages/us-state-abbreviations-flashcards-lt/) yra **100 kortelių lietuvių kalba**, skirtų mokytis nuo valstijos prie kodo ir atvirkščiai. Prieš tikrindami atsakymą pabandykite jį prisiminti, o vėliau reguliariai kartokite su laiko tarpais, kad poros ilgiau išliktų atmintyje. Visa lentelė ir testo atsakymai pateikti toliau.
 
 ## Visų 50 JAV valstijų santrumpos
 
@@ -177,6 +177,6 @@ Jei supainiojote MO su MS, pridėkite ir dvi Misisipės (Mississippi) korteles. 
 
 Reguliarus atsakymų prisiminimas ir kartojimas su laiko tarpais padeda poras išlaikyti ilgalaikėje atmintyje. Kitą kartą kartodami atsakykite prieš atversdami kortelę ir sąžiningai žymėkite klaidas. Prie šių kortelių grįžkite per kitą mokymosi užsiėmimą ir patikrinkite, ar atsakymus vis dar prisimenate. Daugiau valstijų įtraukite tada, kai turėsite laiko jas kartoti. Nebūtina visų kortelių pradėti mokytis vienu prisėdimu.
 
-Nemokamame [JAV valstijų santrumpų rinkinyje](/lt/catalog/packages/us-state-abbreviations-flashcards/) yra **100 kortelių anglų kalba**: kiekvienai iš 50 valstijų skirta viena kortelė, kurioje pagal pavadinimą reikia prisiminti kodą, ir viena, kurioje pagal kodą reikia prisiminti valstiją. Tai nepriklausoma, neoficiali mokymosi priemonė. Rinkinyje nėra žemėlapių, sostinių, DC, teritorijų ar ZIP pašto indeksų.
+Nemokamame [JAV valstijų santrumpų rinkinyje](/lt/catalog/packages/us-state-abbreviations-flashcards-lt/) yra **100 kortelių lietuvių kalba**: kiekvienai iš 50 valstijų skirta viena kortelė, kurioje pagal pavadinimą reikia prisiminti kodą, ir viena, kurioje pagal kodą reikia prisiminti valstiją. Tai nepriklausoma, neoficiali mokymosi priemonė. Rinkinyje nėra žemėlapių, sostinių, DC, teritorijų ar ZIP pašto indeksų.
 
 Atidarykite rinkinio puslapį, peržiūrėkite korteles ir pradėkite mokytis. Jei programėle naudojatės pirmą kartą, [darbo pradžios vadove](/lt/docs/getting-started/) paaiškinta, kaip pasiruošti. Pradėkite nuo porų, kurių neprisiminėte atsakydami į testo klausimus, o kai būsite pasirengę, pasitikrinkite visą sąrašą sumaišyta tvarka.

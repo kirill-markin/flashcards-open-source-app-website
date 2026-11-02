@@ -15,7 +15,7 @@ Alaska se abreviază AK, Alabama AL, iar Arkansas AR. Primele două litere ale n
 
 Pentru a găsi un cod, caută statul în tabelul alfabetic de mai jos. Pentru a învăța, acoperă coloana cu coduri și încearcă să dai fiecare răspuns, apoi schimbă coloana acoperită. Să recunoști o pereche pe pagină și să ți-o amintești fără ajutor sunt două lucruri diferite.
 
-[Setul gratuit de fișe cu abrevierile statelor SUA](/ro/catalog/packages/us-state-abbreviations-flashcards/) oferă **100 de fișe în engleză** pentru a exersa de la stat la cod și invers. Încearcă să-ți amintești fiecare răspuns înainte să-l verifici, apoi revino regulat la recapitulări la intervale de timp, ca să reții perechile pe termen lung. Tabelul complet și răspunsurile la test sunt mai jos.
+[Setul gratuit de fișe cu abrevierile statelor SUA](/ro/catalog/packages/us-state-abbreviations-flashcards-ro/) oferă **100 de fișe în română** pentru a exersa de la stat la cod și invers. Încearcă să-ți amintești fiecare răspuns înainte să-l verifici, apoi revino regulat la recapitulări la intervale de timp, ca să reții perechile pe termen lung. Tabelul complet și răspunsurile la test sunt mai jos.
 
 ## Abrevierile tuturor celor 50 de state din SUA
 
@@ -177,6 +177,6 @@ Dacă ai confundat MO cu MS, adaugă și cele două fișe pentru Mississippi. P�
 
 Reamintirea regulată a răspunsurilor și recapitularea la intervale de timp ajută la păstrarea perechilor în memorie pe termen lung. La următoarea recapitulare, răspunde înainte să întorci fișa și notează sincer greșelile. Revino la acele fișe într-o sesiune ulterioară, ca să verifici dacă îți mai vin în minte răspunsurile. Adaugă alte state pe măsură ce ai timp să le repeți; nu trebuie să introduci toate fișele într-o singură sesiune.
 
-[Setul gratuit cu abrevierile statelor SUA](/ro/catalog/packages/us-state-abbreviations-flashcards/) conține **100 de fișe în limba engleză**: câte o fișă de la stat la cod și una de la cod la stat pentru fiecare dintre cele 50 de state. Este un material de studiu independent și neoficial. Nu include hărți, capitale, DC, teritorii sau coduri ZIP.
+[Setul gratuit cu abrevierile statelor SUA](/ro/catalog/packages/us-state-abbreviations-flashcards-ro/) conține **100 de fișe în limba română**: câte o fișă de la stat la cod și una de la cod la stat pentru fiecare dintre cele 50 de state. Este un material de studiu independent și neoficial. Nu include hărți, capitale, DC, teritorii sau coduri ZIP.
 
 Deschide pagina setului ca să vezi fișele și să începi să înveți. Dacă folosești aplicația pentru prima dată, [ghidul pentru primii pași](/ro/docs/getting-started/) explică pașii de configurare. Începe cu perechile la care ai greșit mai sus, apoi verifică întreaga listă în ordine aleatorie când ești pregătit.

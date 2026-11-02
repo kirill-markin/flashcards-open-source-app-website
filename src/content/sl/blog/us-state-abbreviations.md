@@ -15,7 +15,7 @@ Aljaska (Alaska) ima kodo AK, Alabama AL, Arkansas pa AR. Prvi dve črki angleš
 
 Če iščete kratico, poiščite zvezno državo v spodnji tabeli, urejeni po abecedi angleških imen. Za učenje prekrijte stolpec s kodami in poskusite priklicati vsak odgovor, nato pa prekrijte stolpec z imeni in vajo ponovite v obratni smeri. Prepoznati par na strani in ga priklicati iz spomina sta različni nalogi.
 
-Brezplačni [komplet kartic s kraticami zveznih držav ZDA](/sl/catalog/packages/us-state-abbreviations-flashcards/) ponuja **100 kartic v angleščini** za vajo od države do kode in obratno. Poskusite se spomniti vsakega odgovora, preden ga preverite, nato pa se redno vračajte k ponavljanju s časovnimi razmiki, da si pare zapomnite za dlje časa. Celotna tabela in odgovori na kviz so spodaj.
+Brezplačni [komplet kartic s kraticami zveznih držav ZDA](/sl/catalog/packages/us-state-abbreviations-flashcards-sl/) ponuja **100 kartic v slovenščini** za vajo od države do kode in obratno. Poskusite se spomniti vsakega odgovora, preden ga preverite, nato pa se redno vračajte k ponavljanju s časovnimi razmiki, da si pare zapomnite za dlje časa. Celotna tabela in odgovori na kviz so spodaj.
 
 ## Kratice vseh 50 ameriških zveznih držav
 
@@ -177,6 +177,6 @@ Za vsak par, pri katerem ste se zmotili ali niste bili prepričani, izdelajte dv
 
 Redno priklicevanje odgovorov iz spomina in ponavljanje s časovnimi razmiki pomagata, da si pare zapomnite dolgoročno. Pri naslednjem ponavljanju odgovorite, preden razkrijete hrbtno stran, in napake zabeležite pošteno. H karticam se vrnite ob poznejšem ponavljanju in preverite, ali vam odgovori še vedno pridejo na misel. Nove zvezne države dodajajte, ko imate čas za njihovo ponavljanje; vseh kartic vam ni treba vključiti v učenje naenkrat.
 
-Brezplačni [komplet učnih kartic s kraticami ameriških zveznih držav](/sl/catalog/packages/us-state-abbreviations-flashcards/) vsebuje **100 kartic v angleščini**: za vsako od 50 zveznih držav po eno kartico za priklic kode ob imenu države in eno za priklic imena države ob kodi. To je neodvisen, neuraden učni pripomoček. Ne vključuje zemljevidov, glavnih mest, DC, ozemelj ali poštnih številk ZIP.
+Brezplačni [komplet učnih kartic s kraticami ameriških zveznih držav](/sl/catalog/packages/us-state-abbreviations-flashcards-sl/) vsebuje **100 kartic v slovenščini**: za vsako od 50 zveznih držav po eno kartico za priklic kode ob imenu države in eno za priklic imena države ob kodi. To je neodvisen, neuraden učni pripomoček. Ne vključuje zemljevidov, glavnih mest, DC, ozemelj ali poštnih številk ZIP.
 
 Odprite stran kompleta, preglejte kartice in začnite z učenjem. Če aplikacije še ne poznate, vam pri začetni nastavitvi pomaga [vodnik za prve korake](/sl/docs/getting-started/). Začnite s pari, pri katerih ste se zgoraj zmotili, nato pa, ko boste pripravljeni, preverite celoten seznam v premešanem vrstnem redu.

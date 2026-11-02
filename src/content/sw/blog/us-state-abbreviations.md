@@ -15,7 +15,7 @@ Alaska ni AK, Alabama ni AL, na Arkansas ni AR. Herufi mbili za kwanza za jina l
 
 Ukitaka kutafuta kifupisho, tafuta jimbo kwenye jedwali lililopangwa kwa mpangilio wa alfabeti hapa chini. Ukitaka kujifunza, funika nguzo ya misimbo na ujaribu kukumbuka kila jibu, kisha funika nguzo ya majina badala yake. Kutambua jina na msimbo wake unapoviona kwenye ukurasa ni tofauti na kuvikumbuka bila kuviangalia.
 
-[Seti ya bure ya kadi za vifupisho vya majimbo ya Marekani](/sw/catalog/packages/us-state-abbreviations-flashcards/) ina **kadi 100 kwa Kiingereza** za kufanya mazoezi kutoka jina la jimbo kwenda kwenye msimbo na kutoka msimbo kwenda kwenye jina. Jaribu kukumbuka kila jibu kabla ya kulikagua, kisha rudi kupitia kadi mara kwa mara kwa vipindi vilivyotenganishwa ili kusaidia kukumbuka jozi hizo kwa muda mrefu. Jedwali kamili na majibu ya jaribio yako hapa chini.
+[Seti ya bure ya kadi za vifupisho vya majimbo ya Marekani](/sw/catalog/packages/us-state-abbreviations-flashcards-sw/) ina **kadi 100 kwa Kiswahili** za kufanya mazoezi kutoka jina la jimbo kwenda kwenye msimbo na kutoka msimbo kwenda kwenye jina. Jaribu kukumbuka kila jibu kabla ya kulikagua, kisha rudi kupitia kadi mara kwa mara kwa vipindi vilivyotenganishwa ili kusaidia kukumbuka jozi hizo kwa muda mrefu. Jedwali kamili na majibu ya jaribio yako hapa chini.
 
 ## Vifupisho vya majimbo yote 50 ya Marekani
 
@@ -177,6 +177,6 @@ Ikiwa ulichanganya MO na MS, ongeza pia kadi mbili za Mississippi. Weka jibu moj
 
 Kukumbuka majibu mara kwa mara na kurudia kadi kwa vipindi vilivyotenganishwa husaidia kuhifadhi jozi hizo kwenye kumbukumbu kwa muda mrefu. Unapopitia kadi tena, jibu kabla ya kufunua upande wa nyuma na uandike makosa yako kwa uaminifu. Zirudie kadi hizo katika kipindi kingine baadaye ili kuona kama bado unakumbuka majibu. Ongeza majimbo mengine kadiri unavyopata muda wa kuyapitia; huhitaji kuanza na kadi zote kwa kikao kimoja.
 
-[Seti ya bure ya kadi za vifupisho vya majimbo ya Marekani](/sw/catalog/packages/us-state-abbreviations-flashcards/) ina **kadi 100 za Kiingereza**: kadi moja ya kutoka jimbo kwenda msimbo na kadi moja ya kutoka msimbo kwenda jimbo kwa kila jimbo kati ya majimbo 50. Ni nyenzo huru ya kujifunzia, isiyo rasmi. Haijumuishi ramani, miji mikuu, DC, maeneo yanayotawaliwa na Marekani, wala misimbo ya ZIP.
+[Seti ya bure ya kadi za vifupisho vya majimbo ya Marekani](/sw/catalog/packages/us-state-abbreviations-flashcards-sw/) ina **kadi 100 za Kiswahili**: kadi moja ya kutoka jimbo kwenda msimbo na kadi moja ya kutoka msimbo kwenda jimbo kwa kila jimbo kati ya majimbo 50. Ni nyenzo huru ya kujifunzia, isiyo rasmi. Haijumuishi ramani, miji mikuu, DC, maeneo yanayotawaliwa na Marekani, wala misimbo ya ZIP.
 
 Fungua ukurasa wa seti hiyo ili kuangalia kadi na kuanza kujifunza. Ikiwa unaanza kutumia programu, [mwongozo wa kuanza](/sw/docs/getting-started/) unaeleza jinsi ya kuisanidi. Anza na majina na misimbo uliyokosea hapo juu, kisha, ukiwa tayari, jipime kwa orodha nzima ukiyachanganya majimbo bila kufuata mpangilio wa alfabeti.

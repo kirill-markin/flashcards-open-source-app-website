@@ -15,7 +15,7 @@ Alaska er AK, Alabama er AL, og Arkansas er AR. De to første bokstavene i navne
 
 Skal du slå opp en kode, finner du delstaten i den alfabetiske tabellen nedenfor. Skal du øve, dekker du til kodekolonnen og prøver å svare før du bytter kolonne. Å kjenne igjen et par på siden og å hente det frem fra hukommelsen er to forskjellige oppgaver.
 
-Det gratis [kortsettet med amerikanske delstatsforkortelser](/nb/catalog/packages/us-state-abbreviations-flashcards/) gir deg **100 engelskspråklige kort** for å øve fra delstat til kode og motsatt vei. Prøv å hente fram hvert svar fra hukommelsen før du sjekker det, og kom tilbake til regelmessig repetisjon med mellomrom for å huske parene over tid. Hele tabellen og svarene på quizen står nedenfor.
+Det gratis [kortsettet med amerikanske delstatsforkortelser](/nb/catalog/packages/us-state-abbreviations-flashcards-nb/) gir deg **100 kort på norsk bokmål** for å øve fra delstat til kode og motsatt vei. Prøv å hente fram hvert svar fra hukommelsen før du sjekker det, og kom tilbake til regelmessig repetisjon med mellomrom for å huske parene over tid. Hele tabellen og svarene på quizen står nedenfor.
 
 ## Forkortelsene for alle USAs 50 delstater
 
@@ -177,6 +177,6 @@ Hvis du forvekslet MO med MS, legger du også til de to kortene for Mississippi.
 
 Å hente fram svarene fra hukommelsen regelmessig og repetere med mellomrom hjelper deg å huske parene på lang sikt. Neste gang du repeterer, svarer du før du viser baksiden og registrerer feilene ærlig. Gå tilbake til kortene i en senere økt for å sjekke om du fortsatt husker svarene. Legg til flere delstater etter hvert som du får tid til å repetere dem. Du trenger ikke å begynne med alle kortene i én økt.
 
-Den gratis [kortstokken med forkortelser for USAs delstater](/nb/catalog/packages/us-state-abbreviations-flashcards/) har **100 engelskspråklige øvingskort**: ett kort fra delstat til kode og ett fra kode til delstat for hver av de 50 delstatene. Dette er et uavhengig, uoffisielt læringsverktøy. Kortstokken inneholder ikke kart, hovedsteder, DC, territorier eller amerikanske postnumre (ZIP Codes).
+Den gratis [kortstokken med forkortelser for USAs delstater](/nb/catalog/packages/us-state-abbreviations-flashcards-nb/) har **100 øvingskort på norsk bokmål**: ett kort fra delstat til kode og ett fra kode til delstat for hver av de 50 delstatene. Dette er et uavhengig, uoffisielt læringsverktøy. Kortstokken inneholder ikke kart, hovedsteder, DC, territorier eller amerikanske postnumre (ZIP Codes).
 
 Åpne siden til kortstokken for å se på kortene og begynne å øve. Er du ny i appen, forklarer [kom i gang-guiden](/nb/docs/getting-started/) hvordan du setter den opp. Begynn med parene du svarte feil på ovenfor. Når du er klar, går du gjennom hele listen i blandet rekkefølge.
