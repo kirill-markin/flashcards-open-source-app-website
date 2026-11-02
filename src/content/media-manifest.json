@@ -3014,6 +3014,21 @@
     }
   },
   {
+    "publicPath": "/blog/persian-vocabulary-flashcards.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/6cea13213bd25e624371ea0af082d3e32f3e123dd1f484e5a0a7a954fe7047f8.webp",
+    "width": 1729,
+    "height": 910,
+    "sha256": "6cea13213bd25e624371ea0af082d3e32f3e123dd1f484e5a0a7a954fe7047f8",
+    "bytes": 157428,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/41f666aa59ce0e0328d8b2b8dc97366f7bad1fe17f9ffbd3999a06039027ef5b.png",
+      "width": 1729,
+      "height": 910,
+      "sha256": "41f666aa59ce0e0328d8b2b8dc97366f7bad1fe17f9ffbd3999a06039027ef5b",
+      "bytes": 2321526
+    }
+  },
+  {
     "publicPath": "/blog/ph-significant-figures.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/411a417dd915f034354e1a3bfa48f693a2127b8e0abca1ae9e9fed33b72f628c.webp",
     "width": 1672,
