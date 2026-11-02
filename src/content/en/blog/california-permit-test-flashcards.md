@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-02"
+retirementReason: "Family below search and engagement thresholds after 90 days; no concrete-use veto"
+retirementEvidence: "docs/content-retirement/2026-11-02.json#/records/src~1content~1en~1blog~1california-permit-test-flashcards.md"
 title: "California Permit Test Flashcards: Study the DMV Handbook"
 description: "Build California permit test flashcards from the live DMV handbook, road signs, and official sample-test misses with a focused seven-day review plan."
 date: "2026-08-02"

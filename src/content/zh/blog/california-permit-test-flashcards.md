@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-02"
+retirementReason: "Family below search and engagement thresholds after 90 days; no concrete-use veto"
+retirementEvidence: "docs/content-retirement/2026-11-02.json#/records/src~1content~1zh~1blog~1california-permit-test-flashcards.md"
 title: "加州驾照笔试闪卡：用 DMV 驾驶员手册备考"
 description: "从在线更新的 DMV 驾驶员手册、道路标志和官方模拟题错题制作加州驾照笔试闪卡，再按专注的七天计划复习。"
 date: "2026-08-02"

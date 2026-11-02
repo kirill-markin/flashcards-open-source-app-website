@@ -1,0 +1,257 @@
+{
+  "schema_version": 1,
+  "audit_date": "2026-11-02",
+  "action": "retire",
+  "analysis_at": "2026-11-02T08:42:40.948454+00:00",
+  "record_key": "Repository-relative source path; frontmatter uses an RFC6901 pointer into records. Each record shares its family decision, policy, observation windows and coverage below.",
+  "baseline": {
+    "website_sha": "d73ef62dba28f21b6d49904e14d1987d0357ef30",
+    "app_sha": "b6c2e5deba46637ec2b8aeeba3f7055a1e11e802",
+    "deployed_admin_sha": "4bde7a5c69eeec9312252023b1547e197982b9ac",
+    "metric_source_deployment_parity": "Relevant engagement, site fact, audience and exclusion files identical between app main and deployed admin"
+  },
+  "policy": {
+    "minimumAgeDays": 90,
+    "keepClicks": 3,
+    "keepDistinctEngagedVisitorDays": 2,
+    "impressions": "diagnostic only",
+    "publicationTransitions": "published to retired only"
+  },
+  "search_window": {
+    "from": "2026-09-02",
+    "to": "2026-10-31",
+    "complete_days": 60,
+    "domains": [
+      "flashcards-open-source-app.com",
+      "nibomo.com"
+    ],
+    "coverage_gaps": [],
+    "new_domain_expected_from": "2026-09-16",
+    "new_domain_export_confirmed_empty_days": [
+      "2026-09-16",
+      "2026-09-17"
+    ],
+    "unmapped_url_observations": [
+      {
+        "url": "https://flashcards-open-source-app.com/blog/flashcards-open-source-app.com/blog/flashcards-vs-practice-tests/",
+        "clicks": 0,
+        "impressions": 2
+      },
+      {
+        "url": "https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-the-hesi-a2-in-2026/",
+        "clicks": 0,
+        "impressions": 1
+      },
+      {
+        "url": "https://flashcards-open-source-app.com/blog/how-to-export-quizlet-sets-and-why-export-is-missing/",
+        "clicks": 0,
+        "impressions": 3
+      },
+      {
+        "url": "https://flashcards-open-source-app.com/blog/self-hosted-open-source-flashcard-app/",
+        "clicks": 0,
+        "impressions": 1
+      },
+      {
+        "url": "https://flashcards-open-source-app.com/es/blog/how-to-use-ia-for-homework-without-cheating/",
+        "clicks": 0,
+        "impressions": 1
+      }
+    ]
+  },
+  "engagement_window": {
+    "nominal_from": "2026-09-03",
+    "nominal_to": "2026-11-02",
+    "reliable_attribution_baseline": "2026-09-24",
+    "complete_to": "2026-11-01",
+    "expected_complete_days": 39,
+    "observed_complete_days": 39,
+    "current_day_is_partial": true,
+    "collection_gaps": [],
+    "unassigned_engaged_article_views": [],
+    "archived_unattributed_article_views": {
+      "2026-09-22": 2,
+      "2026-09-23": 23
+    },
+    "queried_at": "2026-11-02 08:41:51.192958+00",
+    "classification_refresh_at": "2026-11-02T07:50:27.070Z",
+    "classification_rows": {
+      "androidBurst": 124,
+      "scraperFleet": 32651
+    },
+    "limitations": "Reliable negative URL-attributed observation is 39 complete days, not 60. Collection began 2026-09-22 part day; route attribution began 2026-09-23 part day. The 25 earlier pathless engaged article views remain archived measurement limitations. Attributable positives anywhere in nominal Sep03-Nov02 range count. Before 2026-10-19T21:06:34Z passive impressions also qualified; thereafter a second page view or real action, including 10+ seconds visible reading plus interaction, is required. Older single-page reading cannot be reconstructed. Visitor-days are not unique people; cohorts remain separate."
+  },
+  "audit_summary": {
+    "families": 423,
+    "sources": 2465,
+    "locales": 49,
+    "kept_families": 352,
+    "selected_families": 1,
+    "selected_urls": 8,
+    "already_retired_families": 70,
+    "already_retired_urls": 560,
+    "vetoed_below_threshold_families": 2,
+    "blocked_families": 0,
+    "live_sources_after": 1897,
+    "retired_sources_after": 568
+  },
+  "families": {
+    "california-permit-test-flashcards": {
+      "decision": "retire",
+      "reason": "All eight members are at least 90 days old; family has fewer than 3 Google Web clicks and fewer than 2 distinct engaged visitor-days. No concrete-use veto was found.",
+      "members": [
+        "src/content/en/blog/california-permit-test-flashcards.md",
+        "src/content/es/blog/california-permit-test-flashcards.md",
+        "src/content/ar/blog/california-permit-test-flashcards.md",
+        "src/content/de/blog/california-permit-test-flashcards.md",
+        "src/content/hi/blog/california-permit-test-flashcards.md",
+        "src/content/ja/blog/california-permit-test-flashcards.md",
+        "src/content/ru/blog/california-permit-test-flashcards.md",
+        "src/content/zh/blog/california-permit-test-flashcards.md"
+      ],
+      "totals": {
+        "clicks": 2,
+        "impressions": 144,
+        "engaged_views": 0,
+        "engaged_visitor_days": 0
+      },
+      "minimum_member_age_days": 92,
+      "concrete_use_veto": null
+    }
+  },
+  "reference_audit": {
+    "californiaFamily": "No incoming article URLs or meaningful references outside its complete retained bodies. Static blogDeckResource associations and shared media are preserved; they do not publish retired destinations. No source rewrite needed.",
+    "vetoCheck": "No concrete backlink, campaign, support obligation, seasonal deadline or strategic use found for California family in repo or project materials; existing deck associations alone are not a permanent veto.",
+    "unknownSearch": "Five unverified zero-click spellings have eight diagnostic impressions; no ambiguous positive-click attribution."
+  },
+  "records": {
+    "src/content/en/blog/california-permit-test-flashcards.md": {
+      "canonical_url": "https://nibomo.com/blog/california-permit-test-flashcards/",
+      "locale": "en",
+      "family_id": "california-permit-test-flashcards",
+      "family_decision": "#/families/california-permit-test-flashcards",
+      "publication_date": "2026-08-02",
+      "first_source_date": "2026-08-02T07:07:49+02:00",
+      "effective_age_date": "2026-08-02",
+      "age_days": 92,
+      "google_web_clicks": 0,
+      "google_web_impressions": 12,
+      "engaged_views": 0,
+      "engaged_visitor_days": 0,
+      "concrete_use_veto": null,
+      "decision": "retire"
+    },
+    "src/content/es/blog/california-permit-test-flashcards.md": {
+      "canonical_url": "https://nibomo.com/es/blog/california-permit-test-flashcards/",
+      "locale": "es",
+      "family_id": "california-permit-test-flashcards",
+      "family_decision": "#/families/california-permit-test-flashcards",
+      "publication_date": "2026-08-02",
+      "first_source_date": "2026-08-02T07:07:49+02:00",
+      "effective_age_date": "2026-08-02",
+      "age_days": 92,
+      "google_web_clicks": 0,
+      "google_web_impressions": 30,
+      "engaged_views": 0,
+      "engaged_visitor_days": 0,
+      "concrete_use_veto": null,
+      "decision": "retire"
+    },
+    "src/content/ar/blog/california-permit-test-flashcards.md": {
+      "canonical_url": "https://nibomo.com/ar/blog/california-permit-test-flashcards/",
+      "locale": "ar",
+      "family_id": "california-permit-test-flashcards",
+      "family_decision": "#/families/california-permit-test-flashcards",
+      "publication_date": "2026-08-02",
+      "first_source_date": "2026-08-02T07:07:49+02:00",
+      "effective_age_date": "2026-08-02",
+      "age_days": 92,
+      "google_web_clicks": 0,
+      "google_web_impressions": 7,
+      "engaged_views": 0,
+      "engaged_visitor_days": 0,
+      "concrete_use_veto": null,
+      "decision": "retire"
+    },
+    "src/content/de/blog/california-permit-test-flashcards.md": {
+      "canonical_url": "https://nibomo.com/de/blog/california-permit-test-flashcards/",
+      "locale": "de",
+      "family_id": "california-permit-test-flashcards",
+      "family_decision": "#/families/california-permit-test-flashcards",
+      "publication_date": "2026-08-02",
+      "first_source_date": "2026-08-02T07:07:49+02:00",
+      "effective_age_date": "2026-08-02",
+      "age_days": 92,
+      "google_web_clicks": 0,
+      "google_web_impressions": 3,
+      "engaged_views": 0,
+      "engaged_visitor_days": 0,
+      "concrete_use_veto": null,
+      "decision": "retire"
+    },
+    "src/content/hi/blog/california-permit-test-flashcards.md": {
+      "canonical_url": "https://nibomo.com/hi/blog/california-permit-test-flashcards/",
+      "locale": "hi",
+      "family_id": "california-permit-test-flashcards",
+      "family_decision": "#/families/california-permit-test-flashcards",
+      "publication_date": "2026-08-02",
+      "first_source_date": "2026-08-02T07:07:49+02:00",
+      "effective_age_date": "2026-08-02",
+      "age_days": 92,
+      "google_web_clicks": 0,
+      "google_web_impressions": 0,
+      "engaged_views": 0,
+      "engaged_visitor_days": 0,
+      "concrete_use_veto": null,
+      "decision": "retire"
+    },
+    "src/content/ja/blog/california-permit-test-flashcards.md": {
+      "canonical_url": "https://nibomo.com/ja/blog/california-permit-test-flashcards/",
+      "locale": "ja",
+      "family_id": "california-permit-test-flashcards",
+      "family_decision": "#/families/california-permit-test-flashcards",
+      "publication_date": "2026-08-02",
+      "first_source_date": "2026-08-02T07:07:49+02:00",
+      "effective_age_date": "2026-08-02",
+      "age_days": 92,
+      "google_web_clicks": 0,
+      "google_web_impressions": 3,
+      "engaged_views": 0,
+      "engaged_visitor_days": 0,
+      "concrete_use_veto": null,
+      "decision": "retire"
+    },
+    "src/content/ru/blog/california-permit-test-flashcards.md": {
+      "canonical_url": "https://nibomo.com/ru/blog/california-permit-test-flashcards/",
+      "locale": "ru",
+      "family_id": "california-permit-test-flashcards",
+      "family_decision": "#/families/california-permit-test-flashcards",
+      "publication_date": "2026-08-02",
+      "first_source_date": "2026-08-02T07:07:49+02:00",
+      "effective_age_date": "2026-08-02",
+      "age_days": 92,
+      "google_web_clicks": 0,
+      "google_web_impressions": 10,
+      "engaged_views": 0,
+      "engaged_visitor_days": 0,
+      "concrete_use_veto": null,
+      "decision": "retire"
+    },
+    "src/content/zh/blog/california-permit-test-flashcards.md": {
+      "canonical_url": "https://nibomo.com/zh/blog/california-permit-test-flashcards/",
+      "locale": "zh",
+      "family_id": "california-permit-test-flashcards",
+      "family_decision": "#/families/california-permit-test-flashcards",
+      "publication_date": "2026-08-02",
+      "first_source_date": "2026-08-02T07:07:49+02:00",
+      "effective_age_date": "2026-08-02",
+      "age_days": 92,
+      "google_web_clicks": 2,
+      "google_web_impressions": 79,
+      "engaged_views": 0,
+      "engaged_visitor_days": 0,
+      "concrete_use_veto": null,
+      "decision": "retire"
+    }
+  }
+}

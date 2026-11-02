@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-02"
+retirementReason: "Family below search and engagement thresholds after 90 days; no concrete-use veto"
+retirementEvidence: "docs/content-retirement/2026-11-02.json#/records/src~1content~1ar~1blog~1california-permit-test-flashcards.md"
 title: "بطاقات اختبار تصريح القيادة في كاليفورنيا: ذاكر دليل DMV"
 description: "أنشئ بطاقات اختبار تصريح القيادة في كاليفورنيا من دليل DMV الحالي على الموقع ولافتات الطرق وأخطائك في الاختبارات النموذجية الرسمية، ضمن خطة مراجعة مركزة لسبعة أيام."
 date: "2026-08-02"

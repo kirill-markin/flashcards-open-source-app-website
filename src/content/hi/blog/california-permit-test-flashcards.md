@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-02"
+retirementReason: "Family below search and engagement thresholds after 90 days; no concrete-use veto"
+retirementEvidence: "docs/content-retirement/2026-11-02.json#/records/src~1content~1hi~1blog~1california-permit-test-flashcards.md"
 title: "California परमिट टेस्ट फ़्लैशकार्ड: DMV हैंडबुक से पढ़ाई करें"
 description: "मौजूदा DMV हैंडबुक, सड़क संकेतों और आधिकारिक सैंपल टेस्ट की गलतियों से California परमिट टेस्ट फ़्लैशकार्ड बनाएँ और सात दिन की केंद्रित योजना से पढ़ें।"
 date: "2026-08-02"
