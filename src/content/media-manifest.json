@@ -188,6 +188,21 @@
     "bytes": 2029119
   },
   {
+    "publicPath": "/blog/anki-duplicate-note-types.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/3192d649b494ab799ab1d0178fbfa6ebca16c23592f0370b9a5579baaeebcf32.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "3192d649b494ab799ab1d0178fbfa6ebca16c23592f0370b9a5579baaeebcf32",
+    "bytes": 161942,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/4c9bc69287b65c2eefc1150d128d4b77fd01199b454826689502cfa46edcfbd6.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "4c9bc69287b65c2eefc1150d128d4b77fd01199b454826689502cfa46edcfbd6",
+      "bytes": 2407777
+    }
+  },
+  {
     "publicPath": "/blog/anki-filtered-decks-without-rescheduling.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/bad824c84b3d0a8328150c966d053aa04a39c8acc0a15c520aa4ac051e665b0a.png",
     "width": 1672,
