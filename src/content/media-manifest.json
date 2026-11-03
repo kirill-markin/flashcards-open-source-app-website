@@ -3189,6 +3189,21 @@
     }
   },
   {
+    "publicPath": "/blog/production-possibilities-frontier-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/d5054744963fb902aa512114f3e53769bfb1bdb4db15d8e7f1d0055a030724a7.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "d5054744963fb902aa512114f3e53769bfb1bdb4db15d8e7f1d0055a030724a7",
+    "bytes": 211210,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/69f212294536402ea295a1fd428ff72e700a224f42137b9ca3e42d2048cf9dc2.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "69f212294536402ea295a1fd428ff72e700a224f42137b9ca3e42d2048cf9dc2",
+      "bytes": 2592496
+    }
+  },
+  {
     "publicPath": "/blog/pronoun-reference-practice.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/e78c0e5ef48a2cf4671fed35c672f081eaf7b65ea5884ba810cb2b5849c1eb07.webp",
     "width": 1672,
