@@ -269,6 +269,8 @@ Use the unchanged fixture. Predict the paths or explain the branch on paper befo
 
 If a result surprised you, turn that exact mistake into a recall prompt. For example: “A `.txt` file satisfies the left side of `-o`. Will a `-print` on the right run?” Cover the answer and work through the branch: the OR is already true, so that right branch is skipped. Then write the grouped repair from memory and compare it with the command above.
 
+For separate short exercises on grouped tests, printing, and directory exclusions, use the [GNU find expressions and pruning flashcards](/catalog/packages/gnu-find-expression-prune-flashcards/).
+
 For broader terminal practice, the [Linux Command Line flashcards in English](/catalog/packages/linux-command-line-flashcards/) contain 100 cards, including quoted `-name` patterns and `-type f`. It's a general Linux foundations deck; it isn't a dedicated set of precedence problems. All six problems and their answers are available above. To practise retaining a missed rule, answer a short prompt before checking it, then revisit it in spaced reviews. You can make your own cards for the branch decisions this lab exposed.
 
 Once the filename selection is right, [find -mtime](/blog/find-mtime/) adds age conditions. Before passing the selected paths to another program, [find -exec vs xargs](/blog/find-exec-vs-xargs/) explains the handoff and filename boundaries.

@@ -269,8 +269,8 @@ If one answer surprised you, save that decision. A short prompt on paper or in a
 | The first OR branch matches `node_modules`. Will a later `-prune` run? | No. A true OR branch skips the later branches. Group both directory alternatives before pruning. |
 | Pruning works, but the excluded directories appear in output. What should you check? | An explicit `-print` belongs on the wanted-file branch; omitting it can activate default printing. |
 
-Keep practice tied to the decisions you actually forget. You don't need a card for every variation in this lab.
+Keep practice tied to the decisions you actually forget. You don't need a card for every variation in this lab. The [GNU find expressions and pruning flashcards](/catalog/packages/gnu-find-expression-prune-flashcards/) add short output-prediction and repair exercises, including cases where identical printed paths hide different traversal.
 
 Once directory selection is right, use [find -mtime](/blog/find-mtime/) to choose files by age, or [find -exec vs xargs](/blog/find-exec-vs-xargs/) to check how selected paths reach another program. Those are separate decisions: first choose the files, then check the handoff.
 
-*AI assisted substantially with research, writing, editing, fixture execution, and exercise construction; the illustration is AI-generated. Nine command variants and two additional traversal-observation runs used demonstration files on native macOS on October 20, 2026. GNU documentation was consulted; no GNU/Linux runtime test, human editorial review, speed benchmark, or learning-outcome study is claimed.*
+*Disclosure: Nibomo publishes this site and offers the linked deck in its own catalog. AI assisted substantially with research, writing, editing, fixture execution, and exercise construction; the illustration is AI-generated. Nine command variants and two additional traversal-observation runs used demonstration files on native macOS on October 20, 2026. GNU documentation was consulted; no GNU/Linux runtime test, human editorial review, speed benchmark, or learning-outcome study is claimed.*
