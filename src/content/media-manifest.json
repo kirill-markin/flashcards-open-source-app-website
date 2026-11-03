@@ -3309,6 +3309,21 @@
     }
   },
   {
+    "publicPath": "/blog/python-negative-slicing-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/09deb2003450b9291b6df1117b5e1e8c3121a46040ba65848e86e017b7c6f786.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "09deb2003450b9291b6df1117b5e1e8c3121a46040ba65848e86e017b7c6f786",
+    "bytes": 384592,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/0873526a949a48503f4f4a44f4ac5d1f6e385d51b3f9f52d550d4f09cc98fd8b.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "0873526a949a48503f4f4a44f4ac5d1f6e385d51b3f9f52d550d4f09cc98fd8b",
+      "bytes": 3323485
+    }
+  },
+  {
     "publicPath": "/blog/python-shallow-vs-deep-copy-practice.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/2f12c6702300b9f5ceb273d066c916c95076e0c3044e94da99131381eec200c3.webp",
     "width": 1672,
