@@ -3279,6 +3279,21 @@
     }
   },
   {
+    "publicPath": "/blog/python-sort-vs-sorted-practice.png",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/aacd3556bf03864d1c3920600a2e6513861cd2236d293995bf39dc05d6bca61d.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "aacd3556bf03864d1c3920600a2e6513861cd2236d293995bf39dc05d6bca61d",
+    "bytes": 149328,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/d521d900cb9a5756c9e41f2570eb3969a8223cc6793d2b053b8c46f75fc5854a.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "d521d900cb9a5756c9e41f2570eb3969a8223cc6793d2b053b8c46f75fc5854a",
+      "bytes": 2216293
+    }
+  },
+  {
     "publicPath": "/blog/python-try-except-finally-practice.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/0527ef0bf6af55ac61fe5759a5074ef1ba4f455904b1a027324b177130858338.webp",
     "width": 1672,
