@@ -2747,6 +2747,21 @@
     "bytes": 2713676
   },
   {
+    "publicPath": "/blog/mochi-images-not-syncing.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/c47b558c1a2c1e74ac29e4a40956bc67a4870489b447d5354a45a81f686125fb.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "c47b558c1a2c1e74ac29e4a40956bc67a4870489b447d5354a45a81f686125fb",
+    "bytes": 193606,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/098cf5120a723d5574744767d01a71fada680cca6c19be20dab4a8268fa6d67d.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "098cf5120a723d5574744767d01a71fada680cca6c19be20dab4a8268fa6d67d",
+      "bytes": 2528966
+    }
+  },
+  {
     "publicPath": "/blog/mochi-links-backlinks.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/29ac103d3518a602f43445e44ccfe1eb7df6c07dc81b0ca4397f1dbdfb4195ee.png",
     "width": 1672,
