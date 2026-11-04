@@ -10,7 +10,10 @@ import { getBrowserPreferredLocale } from "@/lib/browserLocaleMatching";
 import type { AppLocale } from "@/lib/i18n";
 import { getLocaleDirection } from "@/lib/localeConfig";
 import type { LocaleSuggestionTarget } from "@/lib/routeTranslations";
-import type { SiteLocaleSuggestionOutcome } from "@/lib/siteAnalyticsCollector";
+import {
+  readSiteCampaignParameters,
+  type SiteLocaleSuggestionOutcome,
+} from "@/lib/siteAnalyticsCollector";
 import {
   reportSiteLocaleSuggestionAnswered,
   reportSiteLocaleSuggestionShown,
@@ -21,6 +24,7 @@ import styles from "./LocaleSuggestionBanner.module.css";
 
 const DISMISSAL_STORAGE_KEY = "flashcards.localeSuggestion.dismissedUntil";
 const DISMISSAL_DURATION_MS = 7 * 24 * 60 * 60 * 1000;
+const CAMPAIGN_VISIT_STORAGE_KEY = "flashcards.localeSuggestion.campaignVisit";
 const LOCALE_SUGGESTION_INTERACTION_EVENT =
   "locale_suggestion_banner_interaction";
 
@@ -110,6 +114,49 @@ function storeDismissal(now: number): void {
   }
 }
 
+/**
+ * Our own tagged links carry `utm_medium` or `utm_campaign`; assistants that append only
+ * `utm_source` do not make a campaign visit.
+ */
+function isCampaignLanding(search: string): boolean {
+  const campaign = readSiteCampaignParameters(search);
+
+  return campaign.utmMedium !== null || campaign.utmCampaign !== null;
+}
+
+function storeCampaignVisit(): void {
+  try {
+    window.sessionStorage.setItem(CAMPAIGN_VISIT_STORAGE_KEY, "true");
+  } catch (error: unknown) {
+    if (isExpectedStorageWriteError(error)) {
+      return;
+    }
+
+    throw error;
+  }
+}
+
+/**
+ * A campaign visit lasts until the tab closes, because client-side navigation drops the campaign
+ * from the address the visitor landed on.
+ */
+function isCampaignVisit(search: string): boolean {
+  if (isCampaignLanding(search)) {
+    storeCampaignVisit();
+    return true;
+  }
+
+  try {
+    return window.sessionStorage.getItem(CAMPAIGN_VISIT_STORAGE_KEY) !== null;
+  } catch (error: unknown) {
+    if (isSecurityError(error)) {
+      return true;
+    }
+
+    throw error;
+  }
+}
+
 function trackLocaleSuggestionInteraction(
   action: LocaleSuggestionInteractionAction,
   currentLocale: AppLocale,
@@ -160,8 +207,14 @@ function getVisibleTarget(
   currentLocale: AppLocale,
   targets: ReadonlyArray<LocaleSuggestionTarget>,
   dismissedForSession: boolean,
+  search: string,
   now: number
 ): LocaleSuggestionTarget | null {
+  // Checked first so that a landing page without other locales still records the campaign visit.
+  if (isCampaignVisit(search)) {
+    return null;
+  }
+
   if (targets.length === 0) {
     return null;
   }
@@ -201,6 +254,7 @@ export function LocaleSuggestionBanner({
         currentLocale,
         targets,
         dismissedForSession,
+        window.location.search,
         Date.now()
       );
 
