@@ -17,6 +17,7 @@ import { getPublicCatalogPackageLocalizedPathname } from "./publicCatalogUrls";
 const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   Record<string, Readonly<Partial<Record<AppLocale, string>>>>
 > = {
+  "buoyancy-practice": { en: "ap-physics-1-flashcards" },
   "torque-lever-arm-practice": { en: "ap-physics-1-flashcards" },
   "find-maxdepth-mindepth": { en: "linux-command-line-flashcards" },
   "crossing-over-vs-independent-assortment": { en: "ap-biology-flashcards-complete-course-review" },
