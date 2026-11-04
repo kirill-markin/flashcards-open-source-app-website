@@ -38,6 +38,51 @@ function sanitizeMarkdownHtml(): (tree: Root) => Root {
   };
 }
 
+const imageGalleryClassName = "markdown-image-gallery";
+
+function getImageGalleryColumnCount(imageCount: number): number {
+  if (imageCount === 4) {
+    return 2;
+  }
+
+  return Math.min(imageCount, 3);
+}
+
+/**
+ * A paragraph holding only two or more images, separated by spaces, tabs, or
+ * soft line breaks, is the cross-client image gallery. It is marked after the
+ * sanitizer so the sanitizer schema keeps rejecting authored classes and data
+ * attributes.
+ */
+function markImageGalleryParagraphs(): (tree: Root) => Root {
+  return (tree: Root): Root => {
+    const markedTree = structuredClone(tree);
+
+    visit(markedTree, "element", (element) => {
+      if (element.tagName !== "p") {
+        return;
+      }
+
+      const isImageOnlyParagraph = element.children.every((child) => (
+        (child.type === "element" && child.tagName === "img")
+        || (child.type === "text" && /^[ \t\n]*$/u.test(child.value))
+      ));
+      const imageCount = element.children.filter((child) => (
+        child.type === "element"
+      )).length;
+
+      if (isImageOnlyParagraph === false || imageCount < 2) {
+        return;
+      }
+
+      element.properties.className = [imageGalleryClassName];
+      element.properties.dataGalleryColumns = getImageGalleryColumnCount(imageCount);
+    });
+
+    return markedTree;
+  };
+}
+
 /**
  * `transformPublicCatalogCardMathBlocks` rewrites every formula it does not
  * accept to plain text, so the only remaining `math-display` and `math-inline`
@@ -86,6 +131,7 @@ const publicCatalogCardHtmlProcessor = remark()
   .use(math)
   .use(remarkRehype, { handlers: markdownHandlers })
   .use(sanitizeMarkdownHtml)
+  .use(markImageGalleryParagraphs)
   .use(restrictKatexToAcceptedMath)
   .use(rehypeKatex, publicCatalogKatexOptions)
   .use(rehypeStringify)

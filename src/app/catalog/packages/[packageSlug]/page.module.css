@@ -398,6 +398,25 @@
   border-radius: var(--radius-md);
 }
 
+.markdown :global(.markdown-image-gallery) {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  gap: 8px;
+}
+
+.markdown :global(.markdown-image-gallery)[data-gallery-columns="2"] {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.markdown :global(.markdown-image-gallery)[data-gallery-columns="3"] {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.markdown :global(.markdown-image-gallery) > img {
+  inline-size: 100%;
+}
+
 .cardsPanel {
   padding-block-start: clamp(20px, 3vw, 28px);
   border-block-start: 1px solid var(--border);
