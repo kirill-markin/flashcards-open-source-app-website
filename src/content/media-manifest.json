@@ -2575,6 +2575,21 @@
     "bytes": 2481775
   },
   {
+    "publicPath": "/blog/longest-prefix-match-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/f77efbef201f19eb38d69d9d2c1e6f1f41454c6fc09117382b65a16f28fee402.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "f77efbef201f19eb38d69d9d2c1e6f1f41454c6fc09117382b65a16f28fee402",
+    "bytes": 203244,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/b5bcffa5695f3c13975d67369daf5fd39f7be3fbba1b3c4a8b5afd42145e1f45.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "b5bcffa5695f3c13975d67369daf5fd39f7be3fbba1b3c4a8b5afd42145e1f45",
+      "bytes": 2672505
+    }
+  },
+  {
     "publicPath": "/blog/matrix-multiplication-practice.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/302ba96626dbe552ce0f54d46328f7e9c4e13cddd0239cde162e014a7fae18e2.webp",
     "width": 1672,
