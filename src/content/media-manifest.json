@@ -3502,6 +3502,21 @@
     "bytes": 2546255
   },
   {
+    "publicPath": "/blog/remnote-card-clusters.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/977227bdf21bacde934f974353819de80b7b99bb4838e6de249a7c4c65d31dee.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "977227bdf21bacde934f974353819de80b7b99bb4838e6de249a7c4c65d31dee",
+    "bytes": 136566,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/985d1de270a0464a8969cd12e6286dfc8f1e4b6df2aad21561898d2d783c3249.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "985d1de270a0464a8969cd12e6286dfc8f1e4b6df2aad21561898d2d783c3249",
+      "bytes": 2232884
+    }
+  },
+  {
     "publicPath": "/blog/remnote-cards-not-showing.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/afc46d48c93e9865b50a09092028d95963d0b32194915c0a35e91d28bce16749.png",
     "width": 1672,
