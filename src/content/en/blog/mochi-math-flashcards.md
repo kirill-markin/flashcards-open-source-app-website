@@ -96,6 +96,8 @@ $D=b^{2}-4ac$.
 
 “Distinct” matters: at D = 0, the plus and minus branches give the same x-value. If you keep missing one case, split that case into a separate question instead of lengthening this answer.
 
+For more short root-count questions, the [discriminant flashcards in Nibomo](/catalog/packages/discriminant-real-roots-flashcards/) cover discriminant signs, coefficient mistakes, and parameter boundaries. That is a separate review set; use the Markdown examples here to check your Mochi cards.
+
 ### Card 3: calculate before revealing
 
 ```markdown

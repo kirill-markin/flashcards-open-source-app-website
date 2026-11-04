@@ -71,6 +71,8 @@ Better **math formula flashcards** aim at one memory target at a time:
 - What is the derivative of `sin(x)`?
 - For independent events, what is the multiplication rule?
 
+For the discriminant example, the [discriminant flashcards](/catalog/packages/discriminant-real-roots-flashcards/) separate real-root counts, coefficient errors, and parameter boundaries into short prompts. Check whether the equation is still quadratic before applying the sign rule, then use the same decisions in a fresh problem on paper.
+
 If basic division facts are the missing layer, [Division Flashcards 1–12: All 144 Facts](/catalog/packages/division-flashcards-1-12/) has 144 text-only quotient-recall cards covering every divisor-and-quotient pair from 1 through 12. It doesn't include remainders or long division, so keep those in problem practice.
 
 If switching between fractions, decimals, and percentages slows down your problem solving, [Fractions, Decimals & Percentages Flashcards](/catalog/packages/fractions-decimals-percentages-flashcards/) offers focused conversion practice. Follow the cards with fresh problems that use those conversions.

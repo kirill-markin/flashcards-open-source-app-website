@@ -169,6 +169,8 @@ Find the first error in your working. A wrong zero form needs different practice
 
 Use paper or any front/back card system. Answer before revealing the back. Our guides to [using flashcards for math](/blog/how-to-use-flashcards-for-math/) and [making better flashcards](/blog/how-to-make-better-flashcards/) explain how to keep these prompts focused.
 
+For a ready-made review set, the [discriminant flashcards](/catalog/packages/discriminant-real-roots-flashcards/) cover distinct real-root counts, coefficient mistakes, and parameter boundaries, including values that make a = 0. Work out each answer before revealing it, then return to a fresh problem on paper.
+
 After reviewing a missed step, try **5x² − 4x = 1** on paper: move the constant, identify the coefficients, and calculate D before checking the result below.
 
 You should get a = 5, b = −4, c = −1, and D = 16 + 20 = 36, giving two distinct real roots. If you reached that result without copying an earlier solution, you've applied the decisions to a fresh problem.
