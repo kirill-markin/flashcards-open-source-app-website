@@ -4107,6 +4107,21 @@
     }
   },
   {
+    "publicPath": "/blog/three-point-testcross-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/6ba69c50092beddbab749853d5bd72d8e9b3c7628af2ad29690f0af4d92955f7.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "6ba69c50092beddbab749853d5bd72d8e9b3c7628af2ad29690f0af4d92955f7",
+    "bytes": 522598,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/7ae6930eaf3824f27728acb1eff6d8bf541ef23676561bd499f8f86087912bfd.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "7ae6930eaf3824f27728acb1eff6d8bf541ef23676561bd499f8f86087912bfd",
+      "bytes": 3861278
+    }
+  },
+  {
     "publicPath": "/blog/three-set-venn-diagram-problems.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/96677b7f7c945be838719c7de0c1f464cac75fbb053b94a1df3ecd92e768f3a5.webp",
     "width": 1672,
