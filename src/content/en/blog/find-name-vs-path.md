@@ -249,4 +249,6 @@ Keep the fixture unchanged. Write down each prediction before running the releva
 
 If you missed a prediction, turn that decision into a short recall prompt. For example: “With a starting point of `project`, which string reaches the path test for the root `src/main.ts`?” Answer `project/src/main.ts` before checking. Try it again later with a different starting point or a deeper file, so you have to apply the rule rather than repeat a saved output.
 
+For more tree-based recall practice, the [GNU Find flashcards in English](/catalog/packages/gnu-find-expression-prune-flashcards/) include 40 exercises on name and path matching, quoting, expressions, output, and pruning. They cover more than this lab. Answer before revealing the explanation, then revisit missed rules in spaced reviews to practise retaining them. All six answers for this lab remain above.
+
 *Disclosure: Nibomo publishes this site. AI assisted substantially with research, drafting, editing, fixture execution, and exercise construction; the illustration is AI-generated. The ten list-only command variants were executed on native macOS on November 4, 2026. GNU behavior is grounded in the linked documentation.*
