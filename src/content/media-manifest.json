@@ -4145,6 +4145,21 @@
     "bytes": 1904519
   },
   {
+    "publicPath": "/blog/topological-sort-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/64a080216947bc27b2ae49aa1b4225b335ae908bcab534796b40e598776aa222.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "64a080216947bc27b2ae49aa1b4225b335ae908bcab534796b40e598776aa222",
+    "bytes": 140366,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/0218d1d95cedfa47d1bafd679a076124453943790f5e0b102701d967e98f7e97.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "0218d1d95cedfa47d1bafd679a076124453943790f5e0b102701d967e98f7e97",
+      "bytes": 2153584
+    }
+  },
+  {
     "publicPath": "/blog/torque-lever-arm-practice.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/4425cc260051feec2954b650513f3e213faca5a405861320e99c5ceb4ec25fe6.webp",
     "width": 1672,
