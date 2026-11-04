@@ -669,6 +669,21 @@
     }
   },
   {
+    "publicPath": "/blog/buoyancy-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/a6e771b9b56fae3d63604d633e7c890ba9c218598b2da0f58e8baf6284afef20.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "a6e771b9b56fae3d63604d633e7c890ba9c218598b2da0f58e8baf6284afef20",
+    "bytes": 180928,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/934303e0bbd2501c0e005ba737e4f636bd14880af44946e35bae72d75fb0b148.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "934303e0bbd2501c0e005ba737e4f636bd14880af44946e35bae72d75fb0b148",
+      "bytes": 2418384
+    }
+  },
+  {
     "publicPath": "/blog/california-permit-test-flashcards.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/f08e7d8c1653c521157f6d2660f77327c82559117bbf68272b4e8b63525fb3ed.png",
     "width": 1672,
