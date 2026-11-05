@@ -42,7 +42,7 @@ export type PublicCatalogQueryState = Readonly<{
   q: string;
   languages: ReadonlyArray<string>;
   author: string | null;
-  collection: string | null;
+  collections: ReadonlyArray<string>;
   sort: PublicCatalogSort | null;
   page: number;
 }>;
@@ -184,7 +184,7 @@ export function resolvePublicCatalogSort(
 
 function parseRepeatedChoice(
   searchParams: URLSearchParams,
-  key: "language",
+  key: "language" | "collection",
   choices: ReadonlyArray<string>,
 ): ReadonlyArray<string> {
   const requestedValues = new Set(searchParams.getAll(key));
@@ -192,12 +192,11 @@ function parseRepeatedChoice(
   return choices.filter((choice) => requestedValues.has(choice));
 }
 
-function parseSingleChoice(
+function parseAuthor(
   searchParams: URLSearchParams,
-  key: "author" | "collection",
   choices: ReadonlyArray<string>,
 ): string | null {
-  const requestedValue = searchParams.get(key);
+  const requestedValue = searchParams.get("author");
 
   return requestedValue !== null && choices.includes(requestedValue)
     ? requestedValue
@@ -241,12 +240,8 @@ export function parsePublicCatalogQuery(
     languages: searchParams.has("language")
       ? parseRepeatedChoice(searchParams, "language", languageValues)
       : [defaultAudienceLanguage],
-    author: parseSingleChoice(
-      searchParams,
-      "author",
-      data.authors.map((choice) => choice.value),
-    ),
-    collection: parseSingleChoice(
+    author: parseAuthor(searchParams, data.authors.map((choice) => choice.value)),
+    collections: parseRepeatedChoice(
       searchParams,
       "collection",
       data.collections.map((choice) => choice.value),
@@ -267,9 +262,9 @@ export function serializePublicCatalogQuery(state: PublicCatalogQueryState): str
     searchParams.set("author", state.author);
   }
 
-  if (state.collection !== null) {
-    searchParams.set("collection", state.collection);
-  }
+  getUniqueSortedValues(state.collections).forEach((collection) => {
+    searchParams.append("collection", collection);
+  });
 
   if (state.sort !== null && state.sort !== getDefaultPublicCatalogSort(state.q)) {
     searchParams.set("sort", state.sort);
@@ -306,8 +301,8 @@ function matchesFilters(
   return (state.languages.length === 0
       || state.languages.some((language) => latestVersion.languageTags.includes(language)))
     && (state.author === null || item.packageView.author.slug === state.author)
-    && (state.collection === null
-      || item.collections.some((collection) => collection.value === state.collection));
+    && (state.collections.length === 0
+      || item.collections.some((collection) => state.collections.includes(collection.value)));
 }
 
 function scoreSearchField(value: string, term: string, weight: number): number {
