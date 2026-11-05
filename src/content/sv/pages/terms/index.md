@@ -4,7 +4,7 @@ description: Användarvillkor för Nibomo.
 slug: terms
 sections:
   - type: legal_page
-    lastUpdated: oktober 2026
+    lastUpdated: november 2026
 ---
 ## Tjänsten och leverantören
 
@@ -42,7 +42,7 @@ När du ger en extern AI-klient behörighet att använda MCP-tjänsten eller Age
 
 När betalning via Stripe är tillgänglig erbjuds Nibomo Premium till ett grundpris av 6,99 USD per månad inklusive tillämpliga skatter. Priserna kan variera beroende på land eller butik. Stripe Adaptive Pricing kan visa ett pris i lokal valuta; Stripe visar det slutliga beloppet och faktureringsvalutan innan du bekräftar. För att köpa måste du vara inloggad på ett konto med en e-postadress; gäster måste först koppla en e-postadress.
 
-Berättigade Stripe-kunder får en kostnadsfri provperiod på sju dagar, som kräver en betalningsmetod. Provperioden är tillgänglig en gång per Stripe-kund; tidigare provperioder via Apple eller Google påverkar inte rätten till den. Om du inte avslutar prenumerationen innan provperioden löper ut debiteras din betalningsmetod för månadsprenumerationen. Därefter förnyas den automatiskt varje månad tills den avslutas. Påminnelser om provperioden anger det månatliga grundpriset; Stripe visar den slutliga debiteringen i faktureringsvalutan.
+Berättigade Stripe-kunder får en kostnadsfri provperiod på sju dagar, som kräver en betalningsmetod. Provperioden är tillgänglig en gång per Stripe-kund; tidigare provperioder via Apple eller Google påverkar inte rätten till den. Om du inte avslutar prenumerationen innan provperioden löper ut debiteras din betalningsmetod för månadsprenumerationen. Därefter förnyas den automatiskt varje månad tills den avslutas. Påminnelser om provperioden anger det månatliga priset; Stripe visar den slutliga debiteringen i faktureringsvalutan.
 
 Använd [prenumerationsinställningarna](https://app.nibomo.com/settings/subscription) för att öppna Stripes faktureringsportal och hantera eller avsluta din prenumeration. En vanlig avslutning av prenumerationen får verkan vid slutet av den pågående provperioden eller betalda perioden; åtkomsten fortsätter fram till dess. Ett köp via Stripe avslutar inte en separat prenumeration hos Apple eller Google och ersätter inte befintlig livstidsåtkomst.
 

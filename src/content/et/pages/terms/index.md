@@ -4,7 +4,7 @@ description: Nibomo kasutustingimused.
 slug: terms
 sections:
   - type: legal_page
-    lastUpdated: oktoober 2026
+    lastUpdated: november 2026
 ---
 ## Teenus ja teenusepakkuja
 
@@ -42,7 +42,7 @@ Kui volitad välist AI-klienti kasutama MCP-teenust või Agent API-t, töötleva
 
 Kui Stripe'i kaudu maksmine on saadaval, pakutakse Nibomo Premiumit baashinnaga 6,99 USD kuus koos kohaldatavate maksudega. Hinnad võivad riigiti või poeti erineda. Stripe Adaptive Pricing võib kuvada hinna kohalikus vääringus; Stripe näitab lõplikku summat ja arveldusvääringut enne, kui sa ostu kinnitad. Ostmiseks on vaja sisselogitud kontot, millel on e-posti aadress; külalised peavad esmalt siduma e-posti aadressi.
 
-Tingimustele vastavad Stripe'i kliendid saavad seitsmepäevase tasuta prooviperioodi, mille jaoks on nõutav makseviis. Prooviperiood on saadaval üks kord Stripe'i kliendi kohta; varasemad Apple'i või Google’i prooviperioodid ei mõjuta selle saamise õigust. Kui sa ei tühista tellimust enne prooviperioodi lõppu, võetakse sinu makseviisilt tasu kuutellimuse eest. Seejärel uueneb tellimus automaatselt iga kuu, kuni see tühistatakse. Prooviperioodi meeldetuletustes on märgitud kuu baashind; Stripe näitab lõplikku tasu arveldusvääringus.
+Tingimustele vastavad Stripe'i kliendid saavad seitsmepäevase tasuta prooviperioodi, mille jaoks on nõutav makseviis. Prooviperiood on saadaval üks kord Stripe'i kliendi kohta; varasemad Apple'i või Google’i prooviperioodid ei mõjuta selle saamise õigust. Kui sa ei tühista tellimust enne prooviperioodi lõppu, võetakse sinu makseviisilt tasu kuutellimuse eest. Seejärel uueneb tellimus automaatselt iga kuu, kuni see tühistatakse. Prooviperioodi meeldetuletustes on märgitud kuu hind; Stripe näitab lõplikku tasu arveldusvääringus.
 
 Kasuta [tellimuse seadeid](https://app.nibomo.com/settings/subscription), et avada Stripe'i arveldusportaal ning hallata või tühistada oma tellimust. Tavaline tühistamine jõustub käimasoleva prooviperioodi või tasulise perioodi lõpus; seni säilib sinu juurdepääs. Stripe'i kaudu tehtud ost ei tühista eraldi Apple'i ega Google’i tellimust ega asenda olemasolevat eluaegset juurdepääsu.
 

@@ -4,7 +4,7 @@ description: Gebruiksvoorwaarden van Nibomo.
 slug: terms
 sections:
   - type: legal_page
-    lastUpdated: oktober 2026
+    lastUpdated: november 2026
 ---
 ## Dienst en aanbieder
 
@@ -42,7 +42,7 @@ Wanneer je een externe AI-client toestemming geeft om de MCP-dienst of de Agent 
 
 Wanneer afrekenen via Stripe beschikbaar is, wordt Nibomo Premium aangeboden voor een basisprijs van USD 6,99 per maand, inclusief toepasselijke belastingen. Prijzen kunnen per land of winkel verschillen. Stripe Adaptive Pricing kan een prijs in lokale valuta tonen; Stripe toont het definitieve bedrag en de factureringsvaluta voordat je bevestigt. Voor een aankoop heb je een account nodig waarop je bent ingelogd en dat een e-mailadres heeft; gasten moeten eerst een e-mailadres koppelen.
 
-In aanmerking komende Stripe-klanten krijgen een gratis proefperiode van zeven dagen, waarvoor een betaalmethode vereist is. De proefperiode is één keer per Stripe-klant beschikbaar; eerdere proefperiodes via Apple of Google hebben geen invloed op de vraag of je ervoor in aanmerking komt. Tenzij je opzegt voordat de proefperiode afloopt, wordt het maandabonnement via je betaalmethode in rekening gebracht. Daarna wordt het abonnement elke maand automatisch verlengd totdat het wordt opgezegd. Herinneringen over de proefperiode vermelden de maandelijkse basisprijs; Stripe toont het definitieve bedrag van de afschrijving in de factureringsvaluta.
+In aanmerking komende Stripe-klanten krijgen een gratis proefperiode van zeven dagen, waarvoor een betaalmethode vereist is. De proefperiode is één keer per Stripe-klant beschikbaar; eerdere proefperiodes via Apple of Google hebben geen invloed op de vraag of je ervoor in aanmerking komt. Tenzij je opzegt voordat de proefperiode afloopt, wordt het maandabonnement via je betaalmethode in rekening gebracht. Daarna wordt het abonnement elke maand automatisch verlengd totdat het wordt opgezegd. Herinneringen over de proefperiode vermelden de maandelijkse prijs; Stripe toont het definitieve bedrag van de afschrijving in de factureringsvaluta.
 
 Gebruik de [abonnementsinstellingen](https://app.nibomo.com/settings/subscription) om het factureringsportaal van Stripe te openen en je abonnement te beheren of op te zeggen. Een gewone opzegging gaat in aan het einde van de lopende proefperiode of betaalde periode; tot dan behoud je toegang. Een aankoop via Stripe zegt geen afzonderlijk Apple- of Google-abonnement op en vervangt geen bestaande levenslange toegang.
 

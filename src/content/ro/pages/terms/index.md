@@ -4,7 +4,7 @@ description: Termenii și condițiile de utilizare ale Nibomo.
 slug: terms
 sections:
   - type: legal_page
-    lastUpdated: octombrie 2026
+    lastUpdated: noiembrie 2026
 ---
 ## Serviciul și furnizorul
 
@@ -42,7 +42,7 @@ Când autorizezi un client AI extern să folosească serviciul MCP sau Agent API
 
 Când plata prin Stripe este disponibilă, Nibomo Premium este oferit la un preț de bază de 6,99 USD pe lună, cu taxele aplicabile incluse. Prețurile pot varia în funcție de țară sau magazin. Stripe Adaptive Pricing poate afișa un preț în moneda locală; Stripe îți arată suma finală și moneda de facturare înainte să confirmi. Pentru a cumpăra, trebuie să fii autentificat într-un cont cu adresă de e-mail; vizitatorii trebuie mai întâi să asocieze o adresă de e-mail.
 
-Clienții Stripe eligibili beneficiază de o perioadă de probă gratuită de șapte zile, pentru care este necesară o metodă de plată. Perioada de probă este disponibilă o singură dată pentru fiecare client Stripe; perioadele de probă anterioare prin Apple sau Google nu afectează eligibilitatea. Dacă nu anulezi înainte de încheierea perioadei de probă, metoda ta de plată va fi debitată cu prețul abonamentului lunar. Abonamentul se reînnoiește apoi automat în fiecare lună până la anulare. Mementourile privind perioada de probă indică prețul de bază lunar; Stripe afișează suma finală debitată în moneda de facturare.
+Clienții Stripe eligibili beneficiază de o perioadă de probă gratuită de șapte zile, pentru care este necesară o metodă de plată. Perioada de probă este disponibilă o singură dată pentru fiecare client Stripe; perioadele de probă anterioare prin Apple sau Google nu afectează eligibilitatea. Dacă nu anulezi înainte de încheierea perioadei de probă, metoda ta de plată va fi debitată cu prețul abonamentului lunar. Abonamentul se reînnoiește apoi automat în fiecare lună până la anulare. Mementourile privind perioada de probă indică prețul lunar; Stripe afișează suma finală debitată în moneda de facturare.
 
 Folosește [setările abonamentului](https://app.nibomo.com/settings/subscription) pentru a deschide portalul de facturare Stripe și a-ți gestiona sau anula abonamentul. Anularea obișnuită produce efecte la sfârșitul perioadei curente de probă sau plătite; până atunci îți păstrezi accesul. O achiziție prin Stripe nu anulează niciun abonament separat Apple sau Google și nu înlocuiește accesul pe viață existent.
 

@@ -4,7 +4,7 @@ description: Pogoji uporabe za Nibomo.
 slug: terms
 sections:
   - type: legal_page
-    lastUpdated: oktober 2026
+    lastUpdated: november 2026
 ---
 ## Storitev in ponudnik
 
@@ -42,7 +42,7 @@ Ko zunanjemu odjemalcu AI dovolite uporabo storitve MCP ali Agent API, ta odjema
 
 Kadar je na voljo plačilo prek storitve Stripe, se Nibomo Premium ponuja po osnovni ceni 6,99 USD na mesec, vključno z veljavnimi davki. Cene se lahko razlikujejo glede na državo ali trgovino. Stripe Adaptive Pricing lahko prikaže ceno v lokalni valuti; Stripe pred vašo potrditvijo prikaže končni znesek in valuto obračuna. Za nakup morate biti prijavljeni v račun z e-poštnim naslovom; gostje morajo najprej povezati e-poštni naslov.
 
-Upravičene stranke storitve Stripe prejmejo sedemdnevno brezplačno preizkusno obdobje, za katero morate navesti način plačila. Preizkusno obdobje je na voljo enkrat na stranko storitve Stripe; prejšnja preizkusna obdobja prek Appla ali Googla ne vplivajo na upravičenost. Če naročnine ne prekličete pred koncem preizkusnega obdobja, se mesečna naročnina zaračuna prek vašega načina plačila. Nato se naročnina samodejno podaljšuje vsak mesec, dokler je ne prekličete. Opomniki o preizkusnem obdobju navajajo mesečno osnovno ceno; Stripe prikaže končni znesek bremenitve v valuti obračuna.
+Upravičene stranke storitve Stripe prejmejo sedemdnevno brezplačno preizkusno obdobje, za katero morate navesti način plačila. Preizkusno obdobje je na voljo enkrat na stranko storitve Stripe; prejšnja preizkusna obdobja prek Appla ali Googla ne vplivajo na upravičenost. Če naročnine ne prekličete pred koncem preizkusnega obdobja, se mesečna naročnina zaračuna prek vašega načina plačila. Nato se naročnina samodejno podaljšuje vsak mesec, dokler je ne prekličete. Opomniki o preizkusnem obdobju navajajo mesečno ceno; Stripe prikaže končni znesek bremenitve v valuti obračuna.
 
 V [nastavitvah naročnine](https://app.nibomo.com/settings/subscription) odprite portal za obračunavanje Stripe, kjer lahko naročnino upravljate ali jo prekličete. Običajni preklic začne veljati ob koncu tekočega preizkusnega ali plačanega obdobja; do takrat ohranite dostop. Nakup prek storitve Stripe ne prekliče nobene ločene naročnine Apple ali Google in ne nadomesti obstoječega dosmrtnega dostopa.
 

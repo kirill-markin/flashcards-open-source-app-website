@@ -4,7 +4,7 @@ description: Ketentuan layanan untuk Nibomo.
 slug: terms
 sections:
   - type: legal_page
-    lastUpdated: Oktober 2026
+    lastUpdated: November 2026
 ---
 ## Layanan dan Penyedia
 
@@ -42,7 +42,7 @@ Saat Anda mengizinkan klien AI eksternal menggunakan layanan MCP atau Agent API,
 
 Jika checkout Stripe tersedia, Nibomo Premium ditawarkan dengan harga dasar USD 6.99 per bulan, sudah termasuk pajak yang berlaku. Harga dapat berbeda menurut negara atau toko. Stripe Adaptive Pricing dapat menampilkan harga dalam mata uang lokal; Stripe menampilkan jumlah akhir dan mata uang penagihan sebelum Anda mengonfirmasi. Untuk membeli, Anda harus masuk ke akun yang memiliki alamat email; pengguna tamu harus menautkan email terlebih dahulu.
 
-Pelanggan Stripe yang memenuhi syarat mendapatkan uji coba gratis tujuh hari dengan syarat menambahkan metode pembayaran. Uji coba tersedia satu kali per pelanggan Stripe; uji coba Apple atau Google sebelumnya tidak memengaruhi kelayakan. Jika Anda tidak membatalkan sebelum uji coba berakhir, biaya langganan bulanan akan ditagihkan ke metode pembayaran Anda. Setelah itu, langganan diperpanjang otomatis setiap bulan hingga dibatalkan. Pengingat uji coba mencantumkan harga dasar bulanan; Stripe menampilkan tagihan akhir dalam mata uang penagihan.
+Pelanggan Stripe yang memenuhi syarat mendapatkan uji coba gratis tujuh hari dengan syarat menambahkan metode pembayaran. Uji coba tersedia satu kali per pelanggan Stripe; uji coba Apple atau Google sebelumnya tidak memengaruhi kelayakan. Jika Anda tidak membatalkan sebelum uji coba berakhir, biaya langganan bulanan akan ditagihkan ke metode pembayaran Anda. Setelah itu, langganan diperpanjang otomatis setiap bulan hingga dibatalkan. Pengingat uji coba mencantumkan harga bulanan; Stripe menampilkan tagihan akhir dalam mata uang penagihan.
 
 Gunakan [Pengaturan langganan](https://app.nibomo.com/settings/subscription) untuk membuka portal penagihan Stripe serta mengelola atau membatalkan langganan Anda. Pembatalan biasa berlaku pada akhir periode uji coba atau periode berbayar yang sedang berjalan; akses tetap berlanjut hingga saat itu. Pembelian melalui Stripe tidak membatalkan langganan Apple atau Google terpisah mana pun dan tidak menggantikan akses seumur hidup yang sudah ada.
 

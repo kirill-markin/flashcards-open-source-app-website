@@ -4,7 +4,7 @@ description: Điều khoản dịch vụ của Nibomo.
 slug: terms
 sections:
   - type: legal_page
-    lastUpdated: tháng 10 năm 2026
+    lastUpdated: tháng 11 năm 2026
 ---
 ## Dịch vụ và nhà cung cấp
 
@@ -42,7 +42,7 @@ Khi bạn cho phép một client AI bên ngoài sử dụng dịch vụ MCP ho�
 
 Khi thanh toán qua Stripe khả dụng, Nibomo Premium được cung cấp với giá cơ bản USD 6.99 mỗi tháng, đã bao gồm các loại thuế hiện hành. Giá có thể khác nhau theo quốc gia hoặc cửa hàng. Stripe Adaptive Pricing có thể hiển thị giá bằng nội tệ; Stripe hiển thị số tiền cuối cùng và đơn vị tiền tệ thanh toán trước khi bạn xác nhận. Để mua, bạn cần đăng nhập vào một tài khoản có địa chỉ email; người dùng khách phải liên kết email trước.
 
-Khách hàng Stripe đủ điều kiện được dùng thử miễn phí bảy ngày và phải cung cấp phương thức thanh toán. Mỗi khách hàng Stripe chỉ được dùng thử một lần; các lần dùng thử trước đây qua Apple hoặc Google không ảnh hưởng đến điều kiện được dùng thử. Nếu bạn không hủy trước khi thời gian dùng thử kết thúc, phí gói đăng ký hằng tháng sẽ được tính vào phương thức thanh toán của bạn. Sau đó, gói đăng ký tự động gia hạn mỗi tháng cho đến khi bị hủy. Thông báo nhắc về thời gian dùng thử nêu giá cơ bản hằng tháng; Stripe hiển thị khoản phí cuối cùng bằng đơn vị tiền tệ thanh toán.
+Khách hàng Stripe đủ điều kiện được dùng thử miễn phí bảy ngày và phải cung cấp phương thức thanh toán. Mỗi khách hàng Stripe chỉ được dùng thử một lần; các lần dùng thử trước đây qua Apple hoặc Google không ảnh hưởng đến điều kiện được dùng thử. Nếu bạn không hủy trước khi thời gian dùng thử kết thúc, phí gói đăng ký hằng tháng sẽ được tính vào phương thức thanh toán của bạn. Sau đó, gói đăng ký tự động gia hạn mỗi tháng cho đến khi bị hủy. Thông báo nhắc về thời gian dùng thử nêu giá hằng tháng; Stripe hiển thị khoản phí cuối cùng bằng đơn vị tiền tệ thanh toán.
 
 Dùng [Cài đặt gói đăng ký](https://app.nibomo.com/settings/subscription) để mở cổng thanh toán của Stripe và quản lý hoặc hủy gói đăng ký của bạn. Việc hủy thông thường có hiệu lực vào cuối thời gian dùng thử hoặc kỳ đã thanh toán hiện tại; bạn vẫn có quyền truy cập cho đến lúc đó. Việc mua qua Stripe không hủy bất kỳ gói đăng ký riêng nào qua Apple hoặc Google và không thay thế quyền truy cập trọn đời hiện có.
 
