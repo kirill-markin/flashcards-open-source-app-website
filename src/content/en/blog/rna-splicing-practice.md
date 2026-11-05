@@ -91,6 +91,6 @@ Use the same pre-mRNA for all six problems. For the fragment questions, consider
 
 Cover the answers and write the exon order from memory. Then pick a junction and name the two blocks that supply its bases. Try the same prompt again in a few days. Recalling the answer after a delay can help you remember it longer, as shown in a [study of spaced retrieval practice](https://pubmed.ncbi.nlm.nih.gov/17576148/).
 
-For more practice with splicing, alternative splicing, the 5′ cap, and the poly(A) tail, try the English-language [AP Biology Complete Course Review deck](/catalog/packages/ap-biology-flashcards-complete-course-review/).
+Review exon junctions and compare isoforms with the [RNA splicing flashcards](/catalog/packages/rna-splicing-exon-junction-flashcards/). For broader review that also covers the 5′ cap and the poly(A) tail, try the English-language [AP Biology Complete Course Review deck](/catalog/packages/ap-biology-flashcards-complete-course-review/).
 
 *AI assisted with the research and writing. The illustration is AI-generated. The RNA sequences were invented for these exercises.*
