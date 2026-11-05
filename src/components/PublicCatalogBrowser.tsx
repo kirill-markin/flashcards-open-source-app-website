@@ -223,6 +223,19 @@ export function PublicCatalogBrowser({
     ],
     [copy.browse.allCollectionsLabel, data.collections],
   );
+  const hasNarrowingFacets = state.languages.length > 0
+    || state.author !== null
+    || state.collection !== null;
+  const allDecksState: PublicCatalogQueryState = {
+    ...state,
+    languages: [],
+    author: null,
+    collection: null,
+    page: 1,
+  };
+  const allDecksCount = hasNarrowingFacets
+    ? queryPublicCatalogPackages(data.packages, allDecksState).totalCount
+    : null;
   const sortOptions = useMemo<ReadonlyArray<PublicCatalogPickerOption<PublicCatalogSort>>>(
     () => [
       { label: copy.browse.sortRelevanceLabel, value: "relevance" },
@@ -236,7 +249,7 @@ export function PublicCatalogBrowser({
     ],
   );
   const resultsRef = useRef<HTMLElement>(null);
-  const paginationFocusPageRef = useRef<number | null>(null);
+  const resultsFocusPageRef = useRef<number | null>(null);
 
   useEffect(() => {
     const searchAnalyticsScheduler = searchAnalyticsSchedulerRef.current;
@@ -259,11 +272,11 @@ export function PublicCatalogBrowser({
   }, [search, state]);
 
   useEffect(() => {
-    if (paginationFocusPageRef.current !== result.page) {
+    if (resultsFocusPageRef.current !== result.page) {
       return;
     }
 
-    paginationFocusPageRef.current = null;
+    resultsFocusPageRef.current = null;
     const results = resultsRef.current;
 
     if (results === null) {
@@ -272,7 +285,7 @@ export function PublicCatalogBrowser({
 
     results.focus({ preventScroll: true });
     results.scrollIntoView({ block: "start" });
-  }, [result.page]);
+  }, [hasNarrowingFacets, result.page]);
 
   const updatePendingSearchAnalytics = (
     nextState: PublicCatalogQueryState,
@@ -371,7 +384,7 @@ export function PublicCatalogBrowser({
   const updatePage = (page: number): void => {
     const nextState = { ...state, page };
 
-    paginationFocusPageRef.current = page;
+    resultsFocusPageRef.current = page;
     pushCatalogState(nextState);
     updatePendingSearchAnalytics(nextState, result.totalCount);
     trackPublicCatalogEvent(
@@ -402,10 +415,12 @@ export function PublicCatalogBrowser({
     );
     reportPublicCatalogSort(locale, sort, nextResult.totalCount);
   };
+  const showAllDecks = (): void => {
+    resultsFocusPageRef.current = allDecksState.page;
+    updateFilter(allDecksState, "all", "clear", 0);
+  };
   const hasActiveControls = state.q.trim() !== ""
-    || state.languages.length > 0
-    || state.author !== null
-    || state.collection !== null
+    || hasNarrowingFacets
     || state.sort !== null
     || state.page > 1;
 
@@ -549,6 +564,19 @@ export function PublicCatalogBrowser({
                 {copy.browse.nextPageLabel}
               </button>
             </nav>
+          ) : null}
+          {allDecksCount !== null ? (
+            <button
+              className={styles.showAllDecksButton}
+              data-testid="catalog-show-all-decks"
+              onClick={showAllDecks}
+              type="button"
+            >
+              {copy.browse.showAllDecksTemplate.replace(
+                "{count}",
+                formatPublicCatalogNumber(locale, allDecksCount),
+              )}
+            </button>
           ) : null}
         </section>
       </div>
