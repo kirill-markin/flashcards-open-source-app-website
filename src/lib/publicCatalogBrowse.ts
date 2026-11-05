@@ -163,6 +163,32 @@ export function createPublicCatalogBrowseData(
   };
 }
 
+function matchesAudienceLanguages(
+  item: PublicCatalogBrowsePackage,
+  languages: ReadonlyArray<string>,
+): boolean {
+  const { languageTags } = item.packageView.latestVersion;
+
+  return languages.length === 0 || languages.some((language) => languageTags.includes(language));
+}
+
+export function getPublicCatalogCollectionChoices(
+  data: PublicCatalogBrowseData,
+  languages: ReadonlyArray<string>,
+): ReadonlyArray<PublicCatalogBrowseChoice> {
+  if (languages.length === 0) {
+    return data.collections;
+  }
+
+  const availableSlugs = new Set(
+    data.packages
+      .filter((item) => matchesAudienceLanguages(item, languages))
+      .flatMap((item) => item.collections.map((collection) => collection.value)),
+  );
+
+  return data.collections.filter((collection) => availableSlugs.has(collection.value));
+}
+
 export function normalizePublicCatalogSearchText(value: string): string {
   return value
     .normalize("NFKD")
@@ -234,17 +260,18 @@ export function parsePublicCatalogQuery(
   const supportedSort = PUBLIC_CATALOG_SORT_VALUES.find(
     (sortValue) => sortValue === requestedSort,
   ) ?? null;
+  const languages = searchParams.has("language")
+    ? parseRepeatedChoice(searchParams, "language", languageValues)
+    : [defaultAudienceLanguage];
 
   return {
     q,
-    languages: searchParams.has("language")
-      ? parseRepeatedChoice(searchParams, "language", languageValues)
-      : [defaultAudienceLanguage],
+    languages,
     author: parseAuthor(searchParams, data.authors.map((choice) => choice.value)),
     collections: parseRepeatedChoice(
       searchParams,
       "collection",
-      data.collections.map((choice) => choice.value),
+      getPublicCatalogCollectionChoices(data, languages).map((choice) => choice.value),
     ),
     sort: supportedSort === getDefaultPublicCatalogSort(q) ? null : supportedSort,
     page: parsePage(searchParams),
@@ -296,10 +323,7 @@ function matchesFilters(
   item: PublicCatalogBrowsePackage,
   state: PublicCatalogQueryState,
 ): boolean {
-  const { latestVersion } = item.packageView;
-
-  return (state.languages.length === 0
-      || state.languages.some((language) => latestVersion.languageTags.includes(language)))
+  return matchesAudienceLanguages(item, state.languages)
     && (state.author === null || item.packageView.author.slug === state.author)
     && (state.collections.length === 0
       || item.collections.some((collection) => state.collections.includes(collection.value)));

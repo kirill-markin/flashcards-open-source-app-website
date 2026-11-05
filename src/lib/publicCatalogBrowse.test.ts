@@ -582,7 +582,11 @@ test("uses a fixed page size and clamps oversized pages to the final page", () =
 
 test("re-parses URL snapshots for back-forward state and preserves localized paths", () => {
   const arData = { ...data, languages: [...createLanguageChoices(["ar"]), ...data.languages] };
-  const firstState = parsePublicCatalogQuery("?collection=starter&language=en&page=2", arData, "ar");
+  const firstState = parsePublicCatalogQuery(
+    "?collection=starter&collection=advanced&language=en&page=2",
+    arData,
+    "ar",
+  );
   const secondState = parsePublicCatalogQuery("?q=grammar&sort=title", arData, "ar");
 
   assert.deepEqual(firstState.languages, ["en"]);
@@ -601,15 +605,20 @@ test("round-trips locale defaults, explicit selections, and cleared languages", 
     ...data,
     languages: [...createLanguageChoices(["de"]), ...data.languages],
   };
-  const defaultState = parsePublicCatalogQuery("", localizedData, "de");
+  const defaultState = parsePublicCatalogQuery("?collection=starter", localizedData, "de");
   const explicitState = parsePublicCatalogQuery(
     "?q=grammar&language=fr&language=en",
     localizedData,
     "de",
   );
-  const clearedState = parsePublicCatalogQuery("?language=", localizedData, "de");
+  const clearedState = parsePublicCatalogQuery(
+    "?collection=advanced&collection=starter&language=",
+    localizedData,
+    "de",
+  );
 
   assert.deepEqual(defaultState.languages, ["de"]);
+  assert.deepEqual(defaultState.collections, []);
   assert.equal(queryPublicCatalogPackages(packages, defaultState).totalCount, 0);
   assert.equal(serializePublicCatalogQuery(defaultState), "?language=de");
   assert.deepEqual(explicitState.languages, ["en", "fr"]);
@@ -618,6 +627,10 @@ test("round-trips locale defaults, explicit selections, and cleared languages", 
     "?q=grammar&language=en&language=fr",
   );
   assert.deepEqual(clearedState.languages, []);
-  assert.equal(serializePublicCatalogQuery(clearedState), "?language=");
+  assert.deepEqual(clearedState.collections, ["advanced", "starter"]);
+  assert.equal(
+    serializePublicCatalogQuery(clearedState),
+    "?collection=advanced&collection=starter&language=",
+  );
   assert.equal(queryPublicCatalogPackages(packages, clearedState).totalCount, 3);
 });

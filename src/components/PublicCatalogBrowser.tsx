@@ -17,6 +17,7 @@ import { getIntlLocale, type AppLocale } from "@/lib/i18n";
 import type { PublicCatalogUiCopy } from "@/lib/publicCatalogCopy";
 import { formatPublicCatalogNumber } from "@/lib/publicCatalogFormatting";
 import {
+  getPublicCatalogCollectionChoices,
   getPublicCatalogUrl,
   parsePublicCatalogQuery,
   queryPublicCatalogPackages,
@@ -210,6 +211,7 @@ export function PublicCatalogBrowser({
     getServerSearch,
   );
   const state = parsePublicCatalogQuery(search, data, locale);
+  const collectionOptions = getPublicCatalogCollectionChoices(data, state.languages);
   const result = queryPublicCatalogPackages(data.packages, state);
   const hasNarrowingFacets = state.languages.length > 0
     || state.author !== null
@@ -347,10 +349,15 @@ export function PublicCatalogBrowser({
   };
   const updateLanguage = (language: string, isSelected: boolean): void => {
     const languages = updateRepeatedValue(state.languages, language, isSelected);
+    const nextCollectionOptions = getPublicCatalogCollectionChoices(data, languages);
+    const collections = state.collections.filter((collection) =>
+      nextCollectionOptions.some((option) => option.value === collection),
+    );
 
     updateFilter({
       ...state,
       languages,
+      collections,
       page: 1,
     }, "language", isSelected ? "add" : "remove", languages.length);
   };
@@ -486,7 +493,7 @@ export function PublicCatalogBrowser({
                   emptySelectionLabel={copy.browse.allCollectionsLabel}
                   formatSelection={formatPickerSelection}
                   onValuesChange={updateCollections}
-                  options={data.collections}
+                  options={collectionOptions}
                   searchLabel={copy.browse.collectionSearchLabel}
                   searchPlaceholder={copy.browse.collectionSearchPlaceholder}
                   values={state.collections}
