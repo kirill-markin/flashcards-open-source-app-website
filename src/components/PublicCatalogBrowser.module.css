@@ -135,10 +135,20 @@
 .pagination {
   justify-content: center;
   gap: 14px;
-  margin-top: 22px;
+}
+
+.pagination,
+.showAllDecksButton {
+  margin-block-start: 22px;
+}
+
+.showAllDecksButton {
+  display: block;
+  margin-inline: auto;
 }
 
 .pagination button,
+.showAllDecksButton,
 .filtersSummary {
   min-height: 42px;
   padding-inline: 15px;
@@ -163,6 +173,7 @@
 .clearButton:focus-visible,
 .filtersSummary:focus-visible,
 .results:focus-visible,
+.showAllDecksButton:focus-visible,
 .pagination button:focus-visible {
   outline: 2px solid rgba(255, 214, 201, 0.62);
   outline-offset: 3px;

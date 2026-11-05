@@ -11,6 +11,7 @@ import { PublicCatalogPackageCard } from "@/components/PublicCatalogPackageCard"
 import {
   PublicCatalogCompactSinglePicker,
   PublicCatalogSearchableMultiPicker,
+  PublicCatalogSearchableSinglePicker,
   type PublicCatalogPickerOption,
 } from "@/components/PublicCatalogPicker";
 import { getIntlLocale, type AppLocale } from "@/lib/i18n";
@@ -215,6 +216,26 @@ export function PublicCatalogBrowser({
   );
   const state = parsePublicCatalogQuery(search, data, locale);
   const result = queryPublicCatalogPackages(data.packages, state);
+  const collectionOptions = useMemo<ReadonlyArray<PublicCatalogPickerOption<string>>>(
+    () => [
+      { label: copy.browse.allCollectionsLabel, value: "" },
+      ...data.collections,
+    ],
+    [copy.browse.allCollectionsLabel, data.collections],
+  );
+  const hasNarrowingFacets = state.languages.length > 0
+    || state.author !== null
+    || state.collection !== null;
+  const allDecksState: PublicCatalogQueryState = {
+    ...state,
+    languages: [],
+    author: null,
+    collection: null,
+    page: 1,
+  };
+  const allDecksCount = hasNarrowingFacets
+    ? queryPublicCatalogPackages(data.packages, allDecksState).totalCount
+    : null;
   const sortOptions = useMemo<ReadonlyArray<PublicCatalogPickerOption<PublicCatalogSort>>>(
     () => [
       { label: copy.browse.sortRelevanceLabel, value: "relevance" },
@@ -228,7 +249,7 @@ export function PublicCatalogBrowser({
     ],
   );
   const resultsRef = useRef<HTMLElement>(null);
-  const paginationFocusPageRef = useRef<number | null>(null);
+  const resultsFocusPageRef = useRef<number | null>(null);
 
   useEffect(() => {
     const searchAnalyticsScheduler = searchAnalyticsSchedulerRef.current;
@@ -251,11 +272,11 @@ export function PublicCatalogBrowser({
   }, [search, state]);
 
   useEffect(() => {
-    if (paginationFocusPageRef.current !== result.page) {
+    if (resultsFocusPageRef.current !== result.page) {
       return;
     }
 
-    paginationFocusPageRef.current = null;
+    resultsFocusPageRef.current = null;
     const results = resultsRef.current;
 
     if (results === null) {
@@ -264,7 +285,7 @@ export function PublicCatalogBrowser({
 
     results.focus({ preventScroll: true });
     results.scrollIntoView({ block: "start" });
-  }, [result.page]);
+  }, [hasNarrowingFacets, result.page]);
 
   const updatePendingSearchAnalytics = (
     nextState: PublicCatalogQueryState,
@@ -327,6 +348,20 @@ export function PublicCatalogBrowser({
       selectedCount,
     );
   };
+  const updateCollection = (value: string): void => {
+    const collection = value === "" ? null : value;
+
+    if (collection === state.collection) {
+      return;
+    }
+
+    const isClearing = collection === null;
+    updateFilter({
+      ...state,
+      collection,
+      page: 1,
+    }, "collection", isClearing ? "clear" : "select", isClearing ? 0 : 1);
+  };
   const updateLanguage = (language: string, isSelected: boolean): void => {
     const languages = updateRepeatedValue(state.languages, language, isSelected);
 
@@ -349,7 +384,7 @@ export function PublicCatalogBrowser({
   const updatePage = (page: number): void => {
     const nextState = { ...state, page };
 
-    paginationFocusPageRef.current = page;
+    resultsFocusPageRef.current = page;
     pushCatalogState(nextState);
     updatePendingSearchAnalytics(nextState, result.totalCount);
     trackPublicCatalogEvent(
@@ -380,10 +415,12 @@ export function PublicCatalogBrowser({
     );
     reportPublicCatalogSort(locale, sort, nextResult.totalCount);
   };
+  const showAllDecks = (): void => {
+    resultsFocusPageRef.current = allDecksState.page;
+    updateFilter(allDecksState, "all", "clear", 0);
+  };
   const hasActiveControls = state.q.trim() !== ""
-    || state.languages.length > 0
-    || state.author !== null
-    || state.collection !== null
+    || hasNarrowingFacets
     || state.sort !== null
     || state.page > 1;
 
@@ -435,6 +472,21 @@ export function PublicCatalogBrowser({
               type="search"
               value={state.q}
             />
+            <div className={styles.filterControl}>
+              <span className={styles.controlLabel}>{copy.browse.collectionLabel}</span>
+              <div className={styles.filterPicker} data-testid="catalog-collection">
+                <PublicCatalogSearchableSinglePicker
+                  ariaLabel={copy.browse.collectionLabel}
+                  closeLabel={copy.browse.pickerCloseLabel}
+                  emptySearchResultsLabel={copy.browse.noCollectionsFoundLabel}
+                  onValueChange={updateCollection}
+                  options={collectionOptions}
+                  searchLabel={copy.browse.collectionSearchLabel}
+                  searchPlaceholder={copy.browse.collectionSearchPlaceholder}
+                  value={state.collection ?? ""}
+                />
+              </div>
+            </div>
             <div className={styles.filterControl}>
               <span className={styles.controlLabel}>{copy.browse.languageLabel}</span>
               <div className={styles.filterPicker}>
@@ -512,6 +564,19 @@ export function PublicCatalogBrowser({
                 {copy.browse.nextPageLabel}
               </button>
             </nav>
+          ) : null}
+          {allDecksCount !== null ? (
+            <button
+              className={styles.showAllDecksButton}
+              data-testid="catalog-show-all-decks"
+              onClick={showAllDecks}
+              type="button"
+            >
+              {copy.browse.showAllDecksTemplate.replace(
+                "{count}",
+                formatPublicCatalogNumber(locale, allDecksCount),
+              )}
+            </button>
           ) : null}
         </section>
       </div>
