@@ -413,7 +413,7 @@ function createEmptyState(): PublicCatalogQueryState {
     q: "",
     languages: [],
     author: null,
-    collection: null,
+    collections: [],
     sort: null,
     page: 1,
   };
@@ -421,8 +421,8 @@ function createEmptyState(): PublicCatalogQueryState {
 
 test("parses known query values and predictably ignores unknown values", () => {
   const state = parsePublicCatalogQuery(
-    "?q=Alpha+Grammar&language=zz&language=es&language=en&language=es"
-      + "&author=missing&collection=starter"
+    "?q=Alpha+Grammar&language=zz&language=es&language=en&language=es&language=fr"
+      + "&author=missing&collection=starter&collection=missing&collection=advanced&collection=starter"
       + "&license=CC0-1.0&sort=unsupported&page=-2&unrelated=value",
     data,
     "en",
@@ -430,9 +430,9 @@ test("parses known query values and predictably ignores unknown values", () => {
 
   assert.deepEqual(state, {
     q: "Alpha Grammar",
-    languages: ["en", "es"],
+    languages: ["en", "es", "fr"],
     author: null,
-    collection: "starter",
+    collections: ["advanced", "starter"],
     sort: null,
     page: 1,
   });
@@ -445,11 +445,11 @@ test("serializes query state deterministically with languages last", () => {
       q: "Alpha Grammar",
       languages: ["es", "en"],
       author: "author-one",
-      collection: "starter",
+      collections: ["starter", "advanced"],
       sort: "newest",
       page: 2,
     }),
-    "?q=Alpha+Grammar&author=author-one&collection=starter"
+    "?q=Alpha+Grammar&author=author-one&collection=advanced&collection=starter"
       + "&sort=newest&page=2&language=en&language=es",
   );
   assert.equal(
@@ -458,17 +458,26 @@ test("serializes query state deterministically with languages last", () => {
   );
 });
 
-test("applies OR within languages and AND between different filters", () => {
-  const result = queryPublicCatalogPackages(packages, {
+test("applies OR within languages and collections and AND between different filters", () => {
+  const state = {
     ...createEmptyState(),
-    languages: ["en", "es"],
+    languages: ["en", "es", "fr"],
+    collections: ["starter", "advanced"],
+  };
+  const result = queryPublicCatalogPackages(packages, state);
+  const narrowed = queryPublicCatalogPackages(packages, {
+    ...state,
+    languages: ["en", "fr"],
     author: "author-one",
-    collection: "starter",
   });
 
   assert.deepEqual(
     result.packages.map((item) => item.packageView.packageMetadata.slug),
-    ["grammar-basics", "grammar"],
+    ["grammar-basics", "advanced-grammar", "grammar"],
+  );
+  assert.deepEqual(
+    narrowed.packages.map((item) => item.packageView.packageMetadata.slug),
+    ["grammar"],
   );
 });
 
@@ -573,10 +582,15 @@ test("uses a fixed page size and clamps oversized pages to the final page", () =
 
 test("re-parses URL snapshots for back-forward state and preserves localized paths", () => {
   const arData = { ...data, languages: [...createLanguageChoices(["ar"]), ...data.languages] };
-  const firstState = parsePublicCatalogQuery("?language=en&page=2", arData, "ar");
+  const firstState = parsePublicCatalogQuery(
+    "?collection=starter&collection=advanced&language=en&page=2",
+    arData,
+    "ar",
+  );
   const secondState = parsePublicCatalogQuery("?q=grammar&sort=title", arData, "ar");
 
   assert.deepEqual(firstState.languages, ["en"]);
+  assert.deepEqual(firstState.collections, ["starter"]);
   assert.equal(firstState.page, 2);
   assert.equal(secondState.q, "grammar");
   assert.equal(secondState.sort, "title");
@@ -591,15 +605,20 @@ test("round-trips locale defaults, explicit selections, and cleared languages", 
     ...data,
     languages: [...createLanguageChoices(["de"]), ...data.languages],
   };
-  const defaultState = parsePublicCatalogQuery("", localizedData, "de");
+  const defaultState = parsePublicCatalogQuery("?collection=starter", localizedData, "de");
   const explicitState = parsePublicCatalogQuery(
     "?q=grammar&language=fr&language=en",
     localizedData,
     "de",
   );
-  const clearedState = parsePublicCatalogQuery("?language=", localizedData, "de");
+  const clearedState = parsePublicCatalogQuery(
+    "?collection=advanced&collection=starter&language=",
+    localizedData,
+    "de",
+  );
 
   assert.deepEqual(defaultState.languages, ["de"]);
+  assert.deepEqual(defaultState.collections, []);
   assert.equal(queryPublicCatalogPackages(packages, defaultState).totalCount, 0);
   assert.equal(serializePublicCatalogQuery(defaultState), "?language=de");
   assert.deepEqual(explicitState.languages, ["en", "fr"]);
@@ -608,6 +627,10 @@ test("round-trips locale defaults, explicit selections, and cleared languages", 
     "?q=grammar&language=en&language=fr",
   );
   assert.deepEqual(clearedState.languages, []);
-  assert.equal(serializePublicCatalogQuery(clearedState), "?language=");
+  assert.deepEqual(clearedState.collections, ["advanced", "starter"]);
+  assert.equal(
+    serializePublicCatalogQuery(clearedState),
+    "?collection=advanced&collection=starter&language=",
+  );
   assert.equal(queryPublicCatalogPackages(packages, clearedState).totalCount, 3);
 });

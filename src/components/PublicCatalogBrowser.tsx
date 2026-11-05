@@ -11,13 +11,13 @@ import { PublicCatalogPackageCard } from "@/components/PublicCatalogPackageCard"
 import {
   PublicCatalogCompactSinglePicker,
   PublicCatalogSearchableMultiPicker,
-  PublicCatalogSearchableSinglePicker,
   type PublicCatalogPickerOption,
 } from "@/components/PublicCatalogPicker";
 import { getIntlLocale, type AppLocale } from "@/lib/i18n";
 import type { PublicCatalogUiCopy } from "@/lib/publicCatalogCopy";
 import { formatPublicCatalogNumber } from "@/lib/publicCatalogFormatting";
 import {
+  getPublicCatalogCollectionChoices,
   getPublicCatalogUrl,
   parsePublicCatalogQuery,
   queryPublicCatalogPackages,
@@ -88,33 +88,29 @@ function updateRepeatedValue(
   return values.filter((currentValue) => currentValue !== value);
 }
 
-interface PublicCatalogLanguageSelectionChange {
+interface PublicCatalogSelectionChange {
   readonly isSelected: boolean;
-  readonly language: string;
+  readonly value: string;
 }
 
-function getLanguageSelectionChange(
-  currentLanguages: ReadonlyArray<string>,
-  nextLanguages: ReadonlyArray<string>,
-): PublicCatalogLanguageSelectionChange {
-  const addedLanguages = nextLanguages.filter(
-    (language) => currentLanguages.includes(language) === false,
-  );
-  const removedLanguages = currentLanguages.filter(
-    (language) => nextLanguages.includes(language) === false,
-  );
+function getSelectionChange(
+  currentValues: ReadonlyArray<string>,
+  nextValues: ReadonlyArray<string>,
+): PublicCatalogSelectionChange {
+  const addedValues = nextValues.filter((value) => currentValues.includes(value) === false);
+  const removedValues = currentValues.filter((value) => nextValues.includes(value) === false);
 
-  if (addedLanguages.length === 1 && removedLanguages.length === 0) {
-    return { isSelected: true, language: addedLanguages[0] };
+  if (addedValues.length === 1 && removedValues.length === 0) {
+    return { isSelected: true, value: addedValues[0] };
   }
 
-  if (addedLanguages.length === 0 && removedLanguages.length === 1) {
-    return { isSelected: false, language: removedLanguages[0] };
+  if (addedValues.length === 0 && removedValues.length === 1) {
+    return { isSelected: false, value: removedValues[0] };
   }
 
   throw new Error(
-    "Public catalog language picker must toggle exactly one language. "
-      + `current=${JSON.stringify(currentLanguages)} next=${JSON.stringify(nextLanguages)}`,
+    "Public catalog picker must toggle exactly one value. "
+      + `current=${JSON.stringify(currentValues)} next=${JSON.stringify(nextValues)}`,
   );
 }
 
@@ -215,22 +211,16 @@ export function PublicCatalogBrowser({
     getServerSearch,
   );
   const state = parsePublicCatalogQuery(search, data, locale);
+  const collectionOptions = getPublicCatalogCollectionChoices(data, state.languages);
   const result = queryPublicCatalogPackages(data.packages, state);
-  const collectionOptions = useMemo<ReadonlyArray<PublicCatalogPickerOption<string>>>(
-    () => [
-      { label: copy.browse.allCollectionsLabel, value: "" },
-      ...data.collections,
-    ],
-    [copy.browse.allCollectionsLabel, data.collections],
-  );
   const hasNarrowingFacets = state.languages.length > 0
     || state.author !== null
-    || state.collection !== null;
+    || state.collections.length > 0;
   const allDecksState: PublicCatalogQueryState = {
     ...state,
     languages: [],
     author: null,
-    collection: null,
+    collections: [],
     page: 1,
   };
   const allDecksCount = hasNarrowingFacets
@@ -348,26 +338,26 @@ export function PublicCatalogBrowser({
       selectedCount,
     );
   };
-  const updateCollection = (value: string): void => {
-    const collection = value === "" ? null : value;
+  const updateCollections = (collections: ReadonlyArray<string>): void => {
+    const { isSelected } = getSelectionChange(state.collections, collections);
 
-    if (collection === state.collection) {
-      return;
-    }
-
-    const isClearing = collection === null;
     updateFilter({
       ...state,
-      collection,
+      collections,
       page: 1,
-    }, "collection", isClearing ? "clear" : "select", isClearing ? 0 : 1);
+    }, "collection", isSelected ? "add" : "remove", collections.length);
   };
   const updateLanguage = (language: string, isSelected: boolean): void => {
     const languages = updateRepeatedValue(state.languages, language, isSelected);
+    const nextCollectionOptions = getPublicCatalogCollectionChoices(data, languages);
+    const collections = state.collections.filter((collection) =>
+      nextCollectionOptions.some((option) => option.value === collection),
+    );
 
     updateFilter({
       ...state,
       languages,
+      collections,
       page: 1,
     }, "language", isSelected ? "add" : "remove", languages.length);
   };
@@ -376,7 +366,7 @@ export function PublicCatalogBrowser({
       q: "",
       languages: [],
       author: null,
-      collection: null,
+      collections: [],
       sort: null,
       page: 1,
     }, "all", "clear", 0);
@@ -473,21 +463,6 @@ export function PublicCatalogBrowser({
               value={state.q}
             />
             <div className={styles.filterControl}>
-              <span className={styles.controlLabel}>{copy.browse.collectionLabel}</span>
-              <div className={styles.filterPicker} data-testid="catalog-collection">
-                <PublicCatalogSearchableSinglePicker
-                  ariaLabel={copy.browse.collectionLabel}
-                  closeLabel={copy.browse.pickerCloseLabel}
-                  emptySearchResultsLabel={copy.browse.noCollectionsFoundLabel}
-                  onValueChange={updateCollection}
-                  options={collectionOptions}
-                  searchLabel={copy.browse.collectionSearchLabel}
-                  searchPlaceholder={copy.browse.collectionSearchPlaceholder}
-                  value={state.collection ?? ""}
-                />
-              </div>
-            </div>
-            <div className={styles.filterControl}>
               <span className={styles.controlLabel}>{copy.browse.languageLabel}</span>
               <div className={styles.filterPicker}>
                 <PublicCatalogSearchableMultiPicker
@@ -497,14 +472,31 @@ export function PublicCatalogBrowser({
                   emptySelectionLabel={copy.browse.allLanguagesLabel}
                   formatSelection={formatPickerSelection}
                   onValuesChange={(languages) => {
-                    const change = getLanguageSelectionChange(state.languages, languages);
+                    const change = getSelectionChange(state.languages, languages);
 
-                    updateLanguage(change.language, change.isSelected);
+                    updateLanguage(change.value, change.isSelected);
                   }}
                   options={data.languages}
                   searchLabel={copy.browse.languageSearchLabel}
                   searchPlaceholder={copy.browse.languageSearchPlaceholder}
                   values={state.languages}
+                />
+              </div>
+            </div>
+            <div className={styles.filterControl}>
+              <span className={styles.controlLabel}>{copy.browse.collectionLabel}</span>
+              <div className={styles.filterPicker} data-testid="catalog-collection">
+                <PublicCatalogSearchableMultiPicker
+                  ariaLabel={copy.browse.collectionLabel}
+                  doneLabel={copy.browse.pickerDoneLabel}
+                  emptySearchResultsLabel={copy.browse.noCollectionsFoundLabel}
+                  emptySelectionLabel={copy.browse.allCollectionsLabel}
+                  formatSelection={formatPickerSelection}
+                  onValuesChange={updateCollections}
+                  options={collectionOptions}
+                  searchLabel={copy.browse.collectionSearchLabel}
+                  searchPlaceholder={copy.browse.collectionSearchPlaceholder}
+                  values={state.collections}
                 />
               </div>
             </div>
