@@ -3816,6 +3816,21 @@
     }
   },
   {
+    "publicPath": "/blog/rna-splicing-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/1a049cf3837adde779094cc895f9c3caf38cc47e57ba09cb566c4ec19dca1c4e.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "1a049cf3837adde779094cc895f9c3caf38cc47e57ba09cb566c4ec19dca1c4e",
+    "bytes": 167496,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/9783b0b9a8caf9331af4b9a29741ca62fed341162c4e7a7ec4290f33c7ab03b9.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "9783b0b9a8caf9331af4b9a29741ca62fed341162c4e7a7ec4290f33c7ab03b9",
+      "bytes": 2319182
+    }
+  },
+  {
     "publicPath": "/blog/russian-beginner-vocabulary-practice.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/3ca445b4dce761bb2332b488e6104fb02479da0ee3cfd12aaa0b598389555b9d.webp",
     "width": 1672,
