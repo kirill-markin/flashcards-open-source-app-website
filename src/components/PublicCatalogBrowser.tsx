@@ -11,6 +11,7 @@ import { PublicCatalogPackageCard } from "@/components/PublicCatalogPackageCard"
 import {
   PublicCatalogCompactSinglePicker,
   PublicCatalogSearchableMultiPicker,
+  PublicCatalogSearchableSinglePicker,
   type PublicCatalogPickerOption,
 } from "@/components/PublicCatalogPicker";
 import { getIntlLocale, type AppLocale } from "@/lib/i18n";
@@ -215,6 +216,13 @@ export function PublicCatalogBrowser({
   );
   const state = parsePublicCatalogQuery(search, data, locale);
   const result = queryPublicCatalogPackages(data.packages, state);
+  const collectionOptions = useMemo<ReadonlyArray<PublicCatalogPickerOption<string>>>(
+    () => [
+      { label: copy.browse.allCollectionsLabel, value: "" },
+      ...data.collections,
+    ],
+    [copy.browse.allCollectionsLabel, data.collections],
+  );
   const sortOptions = useMemo<ReadonlyArray<PublicCatalogPickerOption<PublicCatalogSort>>>(
     () => [
       { label: copy.browse.sortRelevanceLabel, value: "relevance" },
@@ -327,6 +335,20 @@ export function PublicCatalogBrowser({
       selectedCount,
     );
   };
+  const updateCollection = (value: string): void => {
+    const collection = value === "" ? null : value;
+
+    if (collection === state.collection) {
+      return;
+    }
+
+    const isClearing = collection === null;
+    updateFilter({
+      ...state,
+      collection,
+      page: 1,
+    }, "collection", isClearing ? "clear" : "select", isClearing ? 0 : 1);
+  };
   const updateLanguage = (language: string, isSelected: boolean): void => {
     const languages = updateRepeatedValue(state.languages, language, isSelected);
 
@@ -435,6 +457,21 @@ export function PublicCatalogBrowser({
               type="search"
               value={state.q}
             />
+            <div className={styles.filterControl}>
+              <span className={styles.controlLabel}>{copy.browse.collectionLabel}</span>
+              <div className={styles.filterPicker} data-testid="catalog-collection">
+                <PublicCatalogSearchableSinglePicker
+                  ariaLabel={copy.browse.collectionLabel}
+                  closeLabel={copy.browse.pickerCloseLabel}
+                  emptySearchResultsLabel={copy.browse.noCollectionsFoundLabel}
+                  onValueChange={updateCollection}
+                  options={collectionOptions}
+                  searchLabel={copy.browse.collectionSearchLabel}
+                  searchPlaceholder={copy.browse.collectionSearchPlaceholder}
+                  value={state.collection ?? ""}
+                />
+              </div>
+            </div>
             <div className={styles.filterControl}>
               <span className={styles.controlLabel}>{copy.browse.languageLabel}</span>
               <div className={styles.filterPicker}>
