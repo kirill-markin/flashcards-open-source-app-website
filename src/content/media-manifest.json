@@ -3110,6 +3110,21 @@
     "bytes": 2221623
   },
   {
+    "publicPath": "/blog/pcr-primer-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/73a96d9b70deebec1f9de470a7c8ccc4cd6ca7df32dacf07f277fa4cb62aa3d6.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "73a96d9b70deebec1f9de470a7c8ccc4cd6ca7df32dacf07f277fa4cb62aa3d6",
+    "bytes": 178232,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/1af0d19454535ccdbf1c82eed2735103a5af48ef7392cf7df5cdb13bf78a57d5.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "1af0d19454535ccdbf1c82eed2735103a5af48ef7392cf7df5cdb13bf78a57d5",
+      "bytes": 2448542
+    }
+  },
+  {
     "publicPath": "/blog/peptide-net-charge-practice.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/2588edf9be959642565afbad4edb04c26da17fcb11da5f52e44e076c8116f047.webp",
     "width": 1672,
