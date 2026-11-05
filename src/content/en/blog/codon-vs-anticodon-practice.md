@@ -33,6 +33,8 @@ Real tRNAs can recognize more than one codon through **wobble pairing**, which r
 
 If your starting material is DNA, first use the [coding vs template strand practice](/blog/coding-vs-template-strand/) to obtain the requested RNA. A DNA strand label alone doesn't supply the translation start site.
 
+If a problem gives you pre-mRNA and a splice pattern, practice assembling the mature sequence first with the [RNA splicing flashcards](/catalog/packages/rna-splicing-exon-junction-flashcards/).
+
 ## Pair first, then report the requested direction
 
 For the codon **5′–GCU–3′**, write the complement underneath with opposite ends:

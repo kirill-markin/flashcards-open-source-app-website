@@ -33,7 +33,7 @@ The coding strand and RNA run in the same direction. The template runs in the op
 
 “Template” isn't a permanent top/bottom label. These roles apply to the gene being transcribed; another gene can use the opposite strand as its template. The promoter's location and orientation establish the transcription direction and template choice ([MIT introductory biology notes, PDF](https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/1b4657e96df545e0edac86b7dd433cab_MIT7_016F18rec6.pdf)).
 
-If your worksheet asks for mRNA, check whether it also specifies RNA processing. Removing introns can change the sequence of a mature mRNA ([NHGRI RNA fact sheet](https://www.genome.gov/about-genomics/educational-resources/fact-sheets/ribonucleic-acid-fact-sheet)). Our examples stop at transcription. They don't specify a protein reading frame, so there's no need to group bases into codons.
+If your worksheet asks for mRNA, check whether it also specifies RNA processing. Removing introns can change the sequence of a mature mRNA ([NHGRI RNA fact sheet](https://www.genome.gov/about-genomics/educational-resources/fact-sheets/ribonucleic-acid-fact-sheet)). Our examples stop at transcription. They don't specify a protein reading frame, so there's no need to group bases into codons. To practice joining exons in a pre-mRNA sequence, try the [RNA splicing flashcards](/catalog/packages/rna-splicing-exon-junction-flashcards/).
 
 ## Decide the direction before the bases
 

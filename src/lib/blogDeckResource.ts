@@ -17,7 +17,7 @@ import { getPublicCatalogPackageLocalizedPathname } from "./publicCatalogUrls";
 const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   Record<string, Readonly<Partial<Record<AppLocale, string>>>>
 > = {
-  "rna-splicing-practice": { en: "ap-biology-flashcards-complete-course-review" },
+  "rna-splicing-practice": { en: "rna-splicing-exon-junction-flashcards" },
   "pcr-primer-practice": { en: "ap-biology-flashcards-complete-course-review" },
   "buoyancy-practice": { en: "ap-physics-1-flashcards" },
   "torque-lever-arm-practice": { en: "ap-physics-1-flashcards" },

@@ -129,6 +129,8 @@ This is how **AP Biology flashcards** stop being mini-essays and start acting li
 
 If strand roles or 5′/3′ ends keep tripping you up, try [Coding vs Template Strand Flashcards: Transcription Practice](/catalog/packages/coding-template-strand-transcription-flashcards/). This focused transcription practice asks you to convert labeled DNA segments into initial RNA before processing and correct common sequence errors. Use it alongside your course questions.
 
+Then try the [RNA splicing flashcards](/catalog/packages/rna-splicing-exon-junction-flashcards/) to assemble the mature mRNA sequence from pre-mRNA using a given splicing pattern.
+
 For focused mitosis and meiosis practice, try the [Chromosome and Chromatid Counting Flashcards](/catalog/packages/chromosome-chromatid-counting-flashcards/). Work out chromosome and DNA-molecule counts for a specified cell, nucleus, or pole, then return to your course questions.
 
 ## Experimental design and graph interpretation deserve their own deck slice
