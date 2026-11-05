@@ -4,7 +4,7 @@ description: Podmienky služby pre Nibomo.
 slug: terms
 sections:
   - type: legal_page
-    lastUpdated: október 2026
+    lastUpdated: november 2026
 ---
 ## Služba a poskytovateľ
 
@@ -42,7 +42,7 @@ Keď autorizujete externého AI klienta na používanie služby MCP alebo Agent 
 
 Keď je dostupná platba cez Stripe, Nibomo Premium sa ponúka za základnú cenu 6,99 USD mesačne vrátane príslušných daní. Ceny sa môžu líšiť podľa krajiny alebo obchodu. Stripe Adaptive Pricing môže zobraziť cenu v miestnej mene; Stripe vám pred potvrdením zobrazí konečnú sumu a menu fakturácie. Na nákup musíte byť prihlásení do účtu s e-mailovou adresou; hostia musia najprv prepojiť e-mail.
 
-Oprávnení zákazníci Stripe dostanú sedemdňové bezplatné skúšobné obdobie, na ktoré je potrebné zadať spôsob platby. Skúšobné obdobie je dostupné raz na zákazníka Stripe; predchádzajúce skúšobné obdobia cez Apple alebo Google nemajú na nárok vplyv. Ak predplatné nezrušíte pred koncom skúšobného obdobia, z vášho spôsobu platby sa strhne platba za mesačné predplatné. Potom sa predplatné automaticky obnovuje každý mesiac, kým ho nezrušíte. Pripomienky skúšobného obdobia uvádzajú mesačnú základnú cenu; konečnú účtovanú sumu v mene fakturácie zobrazuje Stripe.
+Oprávnení zákazníci Stripe dostanú sedemdňové bezplatné skúšobné obdobie, na ktoré je potrebné zadať spôsob platby. Skúšobné obdobie je dostupné raz na zákazníka Stripe; predchádzajúce skúšobné obdobia cez Apple alebo Google nemajú na nárok vplyv. Ak predplatné nezrušíte pred koncom skúšobného obdobia, z vášho spôsobu platby sa strhne platba za mesačné predplatné. Potom sa predplatné automaticky obnovuje každý mesiac, kým ho nezrušíte. Pripomienky skúšobného obdobia uvádzajú mesačnú cenu; konečnú účtovanú sumu v mene fakturácie zobrazuje Stripe.
 
 V [nastaveniach predplatného](https://app.nibomo.com/settings/subscription) otvoríte fakturačný portál Stripe, kde môžete predplatné spravovať alebo zrušiť. Bežné zrušenie nadobúda účinnosť na konci aktuálneho skúšobného alebo zaplateného obdobia; dovtedy máte naďalej prístup. Nákup cez Stripe neruší žiadne samostatné predplatné cez Apple alebo Google ani nenahrádza existujúci doživotný prístup.
 

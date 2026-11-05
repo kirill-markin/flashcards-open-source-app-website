@@ -4,7 +4,7 @@ description: Condicions del servei de Nibomo.
 slug: terms
 sections:
   - type: legal_page
-    lastUpdated: octubre de 2026
+    lastUpdated: novembre de 2026
 ---
 ## Servei i proveïdor
 
@@ -42,7 +42,7 @@ Quan autoritzes un client d'IA extern a fer servir el servei MCP o l'Agent API, 
 
 Quan el pagament amb Stripe està disponible, Nibomo Premium s'ofereix a un preu base de 6,99 USD al mes, impostos aplicables inclosos. Els preus poden variar segons el país o la botiga. Stripe Adaptive Pricing pot mostrar un preu en moneda local; Stripe mostra l'import final i la moneda de facturació abans que confirmis. Per comprar cal haver iniciat la sessió amb un compte que tingui una adreça de correu electrònic; els convidats primer han de vincular una adreça de correu electrònic.
 
-Els clients de Stripe que compleixin els requisits tenen un període de prova gratuït de set dies, per al qual cal indicar un mètode de pagament. El període de prova només està disponible una vegada per client de Stripe; els períodes de prova anteriors d'Apple o de Google no afecten aquests requisits. Tret que cancel·lis abans que acabi el període de prova, es carregarà la subscripció mensual al teu mètode de pagament. A partir d'aleshores, la subscripció es renova automàticament cada mes fins que es cancel·li. Els recordatoris del període de prova indiquen el preu base mensual; Stripe mostra el càrrec final en la moneda de facturació.
+Els clients de Stripe que compleixin els requisits tenen un període de prova gratuït de set dies, per al qual cal indicar un mètode de pagament. El període de prova només està disponible una vegada per client de Stripe; els períodes de prova anteriors d'Apple o de Google no afecten aquests requisits. Tret que cancel·lis abans que acabi el període de prova, es carregarà la subscripció mensual al teu mètode de pagament. A partir d'aleshores, la subscripció es renova automàticament cada mes fins que es cancel·li. Els recordatoris del període de prova indiquen el preu mensual; Stripe mostra el càrrec final en la moneda de facturació.
 
 Fes servir la [configuració de la subscripció](https://app.nibomo.com/settings/subscription) per obrir el portal de facturació de Stripe i gestionar o cancel·lar la teva subscripció. La cancel·lació ordinària té efecte al final del període de prova o del període de pagament en curs, i fins aleshores conserves l'accés. Una compra amb Stripe no cancel·la cap subscripció independent d'Apple o de Google ni substitueix l'accés vitalici que ja tinguis.
 

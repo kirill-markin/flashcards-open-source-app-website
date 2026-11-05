@@ -4,7 +4,7 @@ description: Uvjeti korištenja usluge Nibomo.
 slug: terms
 sections:
   - type: legal_page
-    lastUpdated: listopad 2026.
+    lastUpdated: studeni 2026.
 ---
 ## Usluga i pružatelj
 
@@ -42,7 +42,7 @@ Kad ovlastite vanjski AI klijent da koristi MCP uslugu ili Agent API, taj klijen
 
 Kad je dostupno plaćanje putem Stripea, Nibomo Premium nudi se po osnovnoj cijeni od 6,99 USD mjesečno, uključujući primjenjive poreze. Cijene se mogu razlikovati ovisno o državi ili trgovini. Stripe Adaptive Pricing može prikazati cijenu u lokalnoj valuti; Stripe prikazuje konačni iznos i valutu naplate prije nego što potvrdite. Za kupnju morate biti prijavljeni u račun s adresom e-pošte; gosti najprije moraju povezati adresu e-pošte.
 
-Kupci u Stripeu koji ispunjavaju uvjete dobivaju besplatno probno razdoblje od sedam dana uz obvezno navođenje načina plaćanja. Probno razdoblje dostupno je jednom po kupcu u Stripeu; prethodna probna razdoblja putem Applea ili Googlea ne utječu na pravo na njega. Ako ne otkažete prije isteka probnog razdoblja, s vašeg će se načina plaćanja naplatiti mjesečna pretplata. Pretplata se zatim automatski obnavlja svaki mjesec dok je ne otkažete. Podsjetnici o probnom razdoblju navode mjesečnu osnovnu cijenu; Stripe prikazuje konačni iznos terećenja u valuti naplate.
+Kupci u Stripeu koji ispunjavaju uvjete dobivaju besplatno probno razdoblje od sedam dana uz obvezno navođenje načina plaćanja. Probno razdoblje dostupno je jednom po kupcu u Stripeu; prethodna probna razdoblja putem Applea ili Googlea ne utječu na pravo na njega. Ako ne otkažete prije isteka probnog razdoblja, s vašeg će se načina plaćanja naplatiti mjesečna pretplata. Pretplata se zatim automatski obnavlja svaki mjesec dok je ne otkažete. Podsjetnici o probnom razdoblju navode mjesečnu cijenu; Stripe prikazuje konačni iznos terećenja u valuti naplate.
 
 Putem [postavki pretplate](https://app.nibomo.com/settings/subscription) otvorite Stripeov portal za naplatu kako biste upravljali pretplatom ili je otkazali. Uobičajeno otkazivanje stupa na snagu na kraju tekućeg probnog ili plaćenog razdoblja; do tada zadržavate pristup. Kupnja putem Stripea ne otkazuje nijednu zasebnu pretplatu putem Applea ili Googlea niti zamjenjuje postojeći doživotni pristup.
 

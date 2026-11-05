@@ -4,7 +4,7 @@ description: A Nibomo általános szerződési feltételei.
 slug: terms
 sections:
   - type: legal_page
-    lastUpdated: 2026. október
+    lastUpdated: 2026. november
 ---
 ## A szolgáltatás és a szolgáltató
 
@@ -42,7 +42,7 @@ Ha egy külső AI-kliensnek engedélyezed az MCP-szolgáltatás vagy az Agent AP
 
 Ha elérhető a Stripe-os fizetés, a Nibomo Premiumot havi 6,99 USD alapáron kínáljuk, amely az alkalmazandó adókat is tartalmazza. Az árak országonként vagy áruházanként eltérhetnek. A Stripe Adaptive Pricing helyi pénznemben is megjelenítheti az árat; a végső összeget és a számlázási pénznemet a Stripe a megerősítés előtt megmutatja. A vásárláshoz be kell jelentkezned egy e-mail-címmel rendelkező fiókba; a vendégeknek előbb e-mail-címet kell csatolniuk.
 
-A jogosult Stripe-ügyfelek hétnapos ingyenes próbaidőszakot kapnak, amelyhez fizetési mód megadása szükséges. A próbaidőszak Stripe-ügyfelenként egyszer vehető igénybe; a korábbi Apple- vagy Google-próbaidőszakok nem befolyásolják a jogosultságot. Ha a próbaidőszak vége előtt nem mondod le az előfizetést, a fizetési módodat megterheljük a havi előfizetés díjával. Ezt követően az előfizetés havonta automatikusan megújul, amíg le nem mondod. A próbaidőszakról szóló emlékeztetők a havi alapárat tüntetik fel; a végső terhelést a Stripe a számlázási pénznemben mutatja meg.
+A jogosult Stripe-ügyfelek hétnapos ingyenes próbaidőszakot kapnak, amelyhez fizetési mód megadása szükséges. A próbaidőszak Stripe-ügyfelenként egyszer vehető igénybe; a korábbi Apple- vagy Google-próbaidőszakok nem befolyásolják a jogosultságot. Ha a próbaidőszak vége előtt nem mondod le az előfizetést, a fizetési módodat megterheljük a havi előfizetés díjával. Ezt követően az előfizetés havonta automatikusan megújul, amíg le nem mondod. A próbaidőszakról szóló emlékeztetők a havi árat tüntetik fel; a végső terhelést a Stripe a számlázási pénznemben mutatja meg.
 
 Az [előfizetési beállításokban](https://app.nibomo.com/settings/subscription) megnyithatod a Stripe számlázási portálját, ahol kezelheted vagy lemondhatod az előfizetésedet. A szokásos lemondás az aktuális próbaidőszak vagy fizetett időszak végén lép hatályba; addig a hozzáférésed megmarad. A Stripe-os vásárlás nem mondja le az esetleges különálló Apple- vagy Google-előfizetéseidet, és nem váltja fel a meglévő élethosszig tartó hozzáférést.
 

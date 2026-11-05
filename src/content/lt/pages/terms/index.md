@@ -4,7 +4,7 @@ description: Nibomo paslaugų teikimo sąlygos.
 slug: terms
 sections:
   - type: legal_page
-    lastUpdated: 2026 m. spalio mėn.
+    lastUpdated: 2026 m. lapkričio mėn.
 ---
 ## Paslauga ir teikėjas
 
@@ -42,7 +42,7 @@ Kai leidžiate išoriniam DI klientui naudotis MCP paslauga ar Agent API, tas kl
 
 Kai galima apmokėti per Stripe, Nibomo Premium siūloma už bazinę 6,99 USD per mėnesį kainą, įskaitant taikomus mokesčius. Kainos gali skirtis pagal šalį ar parduotuvę. Stripe Adaptive Pricing gali rodyti kainą vietos valiuta; Stripe parodo galutinę sumą ir atsiskaitymo valiutą prieš jums patvirtinant. Norint pirkti, reikia būti prisijungus prie paskyros su el. pašto adresu; svečiai pirmiausia turi susieti el. pašto adresą.
 
-Reikalavimus atitinkantys Stripe klientai gauna septynių dienų nemokamą bandomąjį laikotarpį, kuriam reikia nurodyti mokėjimo būdą. Bandomasis laikotarpis suteikiamas vieną kartą kiekvienam Stripe klientui; ankstesni Apple ar Google bandomieji laikotarpiai neturi įtakos teisei jį gauti. Jei neatšauksite prenumeratos iki bandomojo laikotarpio pabaigos, iš jūsų mokėjimo būdo bus nuskaičiuotas mokestis už mėnesio prenumeratą. Vėliau ji automatiškai pratęsiama kas mėnesį, kol bus atšaukta. Priminimuose apie bandomąjį laikotarpį nurodoma mėnesio bazinė kaina; galutinę nuskaičiuojamą sumą atsiskaitymo valiuta parodo Stripe.
+Reikalavimus atitinkantys Stripe klientai gauna septynių dienų nemokamą bandomąjį laikotarpį, kuriam reikia nurodyti mokėjimo būdą. Bandomasis laikotarpis suteikiamas vieną kartą kiekvienam Stripe klientui; ankstesni Apple ar Google bandomieji laikotarpiai neturi įtakos teisei jį gauti. Jei neatšauksite prenumeratos iki bandomojo laikotarpio pabaigos, iš jūsų mokėjimo būdo bus nuskaičiuotas mokestis už mėnesio prenumeratą. Vėliau ji automatiškai pratęsiama kas mėnesį, kol bus atšaukta. Priminimuose apie bandomąjį laikotarpį nurodoma mėnesio kaina; galutinę nuskaičiuojamą sumą atsiskaitymo valiuta parodo Stripe.
 
 Naudokite [prenumeratos nustatymus](https://app.nibomo.com/settings/subscription), kad atidarytumėte Stripe atsiskaitymo portalą ir valdytumėte arba atšauktumėte prenumeratą. Įprastas atšaukimas įsigalioja pasibaigus dabartiniam bandomajam arba apmokėtam laikotarpiui; iki tol prieiga išlieka. Pirkimas per Stripe neatšaukia jokios atskiros Apple ar Google prenumeratos ir nepakeičia esamos prieigos visam laikui.
 

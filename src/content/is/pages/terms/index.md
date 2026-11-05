@@ -4,7 +4,7 @@ description: Þjónustuskilmálar Nibomo.
 slug: terms
 sections:
   - type: legal_page
-    lastUpdated: október 2026
+    lastUpdated: nóvember 2026
 ---
 ## Þjónustan og veitandi hennar
 
@@ -42,7 +42,7 @@ Hýstir AI-eiginleikar eru valfrjálsir og nota OpenAI til vinnslu beiðnigagna 
 
 Þegar greiðsla í gegnum Stripe er í boði er Nibomo Premium boðið á grunnverði 6,99 USD á mánuði, að meðtöldum viðeigandi sköttum. Verð getur verið mismunandi eftir landi eða verslun. Stripe Adaptive Pricing kann að birta verð í staðbundnum gjaldmiðli; Stripe sýnir endanlega upphæð og greiðslugjaldmiðil áður en þú staðfestir. Til að kaupa þarf innskráðan aðgang með netfangi; gestir þurfa fyrst að tengja netfang.
 
-Stripe-viðskiptavinir sem uppfylla skilyrði fá sjö daga ókeypis prufutímabil sem krefst greiðslumáta. Prufutímabilið býðst einu sinni á hvern Stripe-viðskiptavin; fyrri prufutímabil hjá Apple eða Google hafa ekki áhrif á hvort skilyrðin eru uppfyllt. Nema þú segir upp áður en prufutímabilinu lýkur er mánaðaráskriftin skuldfærð á greiðslumátann þinn. Eftir það endurnýjast hún sjálfkrafa í hverjum mánuði þar til henni er sagt upp. Áminningar um prufutímabil tilgreina mánaðarlegt grunnverð; Stripe sýnir endanlega upphæð gjaldsins í greiðslugjaldmiðlinum.
+Stripe-viðskiptavinir sem uppfylla skilyrði fá sjö daga ókeypis prufutímabil sem krefst greiðslumáta. Prufutímabilið býðst einu sinni á hvern Stripe-viðskiptavin; fyrri prufutímabil hjá Apple eða Google hafa ekki áhrif á hvort skilyrðin eru uppfyllt. Nema þú segir upp áður en prufutímabilinu lýkur er mánaðaráskriftin skuldfærð á greiðslumátann þinn. Eftir það endurnýjast hún sjálfkrafa í hverjum mánuði þar til henni er sagt upp. Áminningar um prufutímabil tilgreina mánaðarlegt verð; Stripe sýnir endanlega upphæð gjaldsins í greiðslugjaldmiðlinum.
 
 Notaðu [áskriftarstillingarnar](https://app.nibomo.com/settings/subscription) til að opna greiðslugátt Stripe og stjórna áskriftinni eða segja henni upp. Venjuleg uppsögn tekur gildi í lok yfirstandandi prufutímabils eða greidds tímabils; þú hefur aðgang fram að því. Kaup í gegnum Stripe segja ekki upp aðskilinni áskrift hjá Apple eða Google og koma ekki í stað ævilangs aðgangs sem þegar er fyrir hendi.
 

@@ -4,7 +4,7 @@ description: Warunki korzystania z Nibomo.
 slug: terms
 sections:
   - type: legal_page
-    lastUpdated: październik 2026
+    lastUpdated: listopad 2026
 ---
 ## Usługa i usługodawca
 
@@ -42,7 +42,7 @@ Gdy upoważnisz zewnętrznego klienta AI do korzystania z usługi MCP lub Agent 
 
 Gdy dostępna jest płatność przez Stripe, oferujemy Nibomo Premium w cenie bazowej 6,99 USD miesięcznie, łącznie z obowiązującymi podatkami. Ceny mogą się różnić w zależności od kraju lub sklepu. Stripe Adaptive Pricing może wyświetlić cenę w walucie lokalnej; Stripe pokazuje ostateczną kwotę i walutę rozliczenia, zanim potwierdzisz zakup. Zakupu można dokonać tylko po zalogowaniu się na konto z adresem e-mail; goście muszą najpierw powiązać adres e-mail.
 
-Uprawnieni klienci Stripe otrzymują siedmiodniowy bezpłatny okres próbny, który wymaga podania metody płatności. Okres próbny jest dostępny raz na klienta Stripe; wcześniejsze okresy próbne w Apple lub Google nie wpływają na uprawnienie do niego. Jeśli nie anulujesz subskrypcji przed końcem okresu próbnego, Twoja metoda płatności zostanie obciążona opłatą za subskrypcję miesięczną. Następnie subskrypcja odnawia się automatycznie co miesiąc aż do anulowania. Przypomnienia o okresie próbnym podają miesięczną cenę bazową; Stripe pokazuje ostateczną kwotę obciążenia w walucie rozliczenia.
+Uprawnieni klienci Stripe otrzymują siedmiodniowy bezpłatny okres próbny, który wymaga podania metody płatności. Okres próbny jest dostępny raz na klienta Stripe; wcześniejsze okresy próbne w Apple lub Google nie wpływają na uprawnienie do niego. Jeśli nie anulujesz subskrypcji przed końcem okresu próbnego, Twoja metoda płatności zostanie obciążona opłatą za subskrypcję miesięczną. Następnie subskrypcja odnawia się automatycznie co miesiąc aż do anulowania. Przypomnienia o okresie próbnym podają miesięczną cenę; Stripe pokazuje ostateczną kwotę obciążenia w walucie rozliczenia.
 
 Skorzystaj z [ustawień subskrypcji](https://app.nibomo.com/settings/subscription), aby otworzyć portal rozliczeniowy Stripe i zarządzać subskrypcją lub ją anulować. Zwykłe anulowanie staje się skuteczne z końcem bieżącego okresu próbnego lub opłaconego okresu; do tego czasu dostęp pozostaje aktywny. Zakup przez Stripe nie anuluje żadnej odrębnej subskrypcji Apple lub Google ani nie zastępuje istniejącego dożywotniego dostępu.
 

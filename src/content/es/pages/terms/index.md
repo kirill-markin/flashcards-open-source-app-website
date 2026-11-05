@@ -4,7 +4,7 @@ description: Términos del servicio de Nibomo.
 slug: terms
 sections:
   - type: legal_page
-    lastUpdated: octubre de 2026
+    lastUpdated: noviembre de 2026
 ---
 ## Servicio y proveedor
 
@@ -42,7 +42,7 @@ Si autorizas a un cliente externo de IA a usar el servicio MCP o la Agent API, e
 
 Cuando el pago mediante Stripe esté disponible, Nibomo Premium se ofrece a un precio base de 6,99 USD al mes, incluidos los impuestos aplicables. Los precios pueden variar según el país o la tienda. Stripe Adaptive Pricing puede mostrar un precio en moneda local; Stripe muestra el importe final y la moneda de facturación antes de que confirmes. Para comprar necesitas una cuenta con sesión iniciada y dirección de correo; los invitados deben vincular primero un correo.
 
-Los clientes de Stripe que cumplan los requisitos reciben una prueba gratuita de siete días que requiere un método de pago. La prueba está disponible una vez por cliente de Stripe; las pruebas anteriores de Apple o Google no afectan a la elegibilidad. Si no cancelas antes de que termine la prueba, se cobrará la suscripción mensual en tu método de pago. Después se renueva automáticamente cada mes hasta que la canceles. Los recordatorios de la prueba indican el precio base mensual; Stripe muestra el cargo final en la moneda de facturación.
+Los clientes de Stripe que cumplan los requisitos reciben una prueba gratuita de siete días que requiere un método de pago. La prueba está disponible una vez por cliente de Stripe; las pruebas anteriores de Apple o Google no afectan a la elegibilidad. Si no cancelas antes de que termine la prueba, se cobrará la suscripción mensual en tu método de pago. Después se renueva automáticamente cada mes hasta que la canceles. Los recordatorios de la prueba indican el precio mensual; Stripe muestra el cargo final en la moneda de facturación.
 
 Usa los [ajustes de suscripción](https://app.nibomo.com/settings/subscription) para abrir el portal de facturación de Stripe y gestionar o cancelar tu suscripción. La cancelación ordinaria surte efecto al terminar el período de prueba o de pago actual; el acceso continúa hasta entonces. Una compra de Stripe no cancela ninguna suscripción independiente de Apple o Google ni sustituye el acceso vitalicio existente.
 

@@ -4,7 +4,7 @@ description: Termini di servizio di Nibomo.
 slug: terms
 sections:
   - type: legal_page
-    lastUpdated: ottobre 2026
+    lastUpdated: novembre 2026
 ---
 ## Servizio e fornitore
 
@@ -42,7 +42,7 @@ Quando autorizzi un client AI esterno a usare il servizio MCP o l'Agent API, que
 
 Quando il checkout di Stripe è disponibile, Nibomo Premium è offerto a un prezzo base di 6,99 USD al mese, imposte applicabili incluse. I prezzi possono variare in base al paese o allo store. Stripe Adaptive Pricing può mostrare un prezzo in valuta locale; Stripe mostra l'importo finale e la valuta di fatturazione prima che tu confermi. Per acquistare devi aver effettuato l'accesso con un account dotato di indirizzo email; gli ospiti devono prima collegare un indirizzo email.
 
-I clienti Stripe idonei ricevono una prova gratuita di sette giorni, per la quale è richiesto un metodo di pagamento. La prova è disponibile una sola volta per cliente Stripe; eventuali prove gratuite precedenti su Apple o Google non incidono sull'idoneità. Se non annulli prima della fine della prova, al tuo metodo di pagamento viene addebitato l'abbonamento mensile. L'abbonamento si rinnova poi automaticamente ogni mese fino al suo annullamento. I promemoria della prova indicano il prezzo base mensile; Stripe mostra l'addebito finale nella valuta di fatturazione.
+I clienti Stripe idonei ricevono una prova gratuita di sette giorni, per la quale è richiesto un metodo di pagamento. La prova è disponibile una sola volta per cliente Stripe; eventuali prove gratuite precedenti su Apple o Google non incidono sull'idoneità. Se non annulli prima della fine della prova, al tuo metodo di pagamento viene addebitato l'abbonamento mensile. L'abbonamento si rinnova poi automaticamente ogni mese fino al suo annullamento. I promemoria della prova indicano il prezzo mensile; Stripe mostra l'addebito finale nella valuta di fatturazione.
 
 Usa le [impostazioni dell'abbonamento](https://app.nibomo.com/settings/subscription) per aprire il portale di fatturazione di Stripe e gestire o annullare il tuo abbonamento. L'annullamento ordinario ha effetto alla fine del periodo di prova o del periodo a pagamento in corso; fino ad allora l'accesso continua. Un acquisto tramite Stripe non annulla eventuali abbonamenti Apple o Google separati né sostituisce un accesso a vita già esistente.
 

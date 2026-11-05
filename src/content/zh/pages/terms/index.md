@@ -4,7 +4,7 @@ description: Nibomo 的服务条款。
 slug: terms
 sections:
   - type: legal_page
-    lastUpdated: 2026年10月
+    lastUpdated: 2026年11月
 ---
 ## 服务与提供方
 
@@ -42,7 +42,7 @@ Nibomo 是一款开源的间隔重复与抽认卡工具。本条款仅适用于 
 
 当 Stripe 结账可用时，Nibomo Premium 的基本价格为每月6.99美元，包含适用税费。价格可能因国家或商店而异。 Stripe Adaptive Pricing 可能以当地货币显示价格；Stripe 会在您确认前显示最终金额和账单货币。购买需要登录已绑定电子邮箱的账户；访客必须先绑定邮箱。
 
-符合条件的 Stripe 客户可获得七天免费试用，但必须提供付款方式。每位 Stripe 客户只能享受一次试用；此前的 Apple 或 Google 试用不影响资格。除非您在试用结束前取消，否则将通过您的付款方式收取月度订阅费。之后，订阅每月自动续订，直到取消。试用提醒说明每月基本价格；Stripe 会显示以账单货币计价的最终扣款金额。
+符合条件的 Stripe 客户可获得七天免费试用，但必须提供付款方式。每位 Stripe 客户只能享受一次试用；此前的 Apple 或 Google 试用不影响资格。除非您在试用结束前取消，否则将通过您的付款方式收取月度订阅费。之后，订阅每月自动续订，直到取消。试用提醒说明每月价格；Stripe 会显示以账单货币计价的最终扣款金额。
 
 通过[订阅设置](https://app.nibomo.com/settings/subscription)打开 Stripe 账单门户，即可管理或取消订阅。普通取消在当前试用期或已付费期限结束时生效；在此之前，访问权限继续有效。通过 Stripe 购买不会取消任何独立的 Apple 或 Google 订阅，也不会替代现有的终身访问权限。
 

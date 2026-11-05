@@ -4,7 +4,7 @@ description: Nibomon käyttöehdot.
 slug: terms
 sections:
   - type: legal_page
-    lastUpdated: lokakuu 2026
+    lastUpdated: marraskuu 2026
 ---
 ## Palvelu ja palveluntarjoaja
 
@@ -42,7 +42,7 @@ Kun valtuutat ulkoisen tekoälyasiakkaan käyttämään MCP-palvelua tai Agent A
 
 Kun Stripe-maksu on saatavilla, Nibomo Premiumia tarjotaan perushintaan 6,99 USD kuukaudessa sovellettavine veroineen. Hinnat voivat vaihdella maan tai kaupan mukaan. Stripe Adaptive Pricing voi näyttää hinnan paikallisessa valuutassa; Stripe näyttää lopullisen summan ja laskutusvaluutan ennen kuin vahvistat ostoksen. Ostaminen edellyttää kirjautumista tiliin, johon on liitetty sähköpostiosoite; vieraskäyttäjien on ensin liitettävä sähköpostiosoite.
 
-Ehdot täyttävät Stripe-asiakkaat saavat seitsemän päivän ilmaisen kokeilujakson, johon tarvitaan maksutapa. Kokeilujakso on saatavilla kerran Stripe-asiakasta kohden; aiemmat Applen tai Googlen kokeilujaksot eivät vaikuta oikeuteen saada se. Ellet peruuta ennen kokeilujakson päättymistä, maksutapaasi veloitetaan kuukausitilauksesta. Sen jälkeen tilaus uusiutuu automaattisesti joka kuukausi, kunnes se peruutetaan. Kokeilujakson muistutuksissa ilmoitetaan kuukausittainen perushinta; Stripe näyttää lopullisen veloituksen laskutusvaluutassa.
+Ehdot täyttävät Stripe-asiakkaat saavat seitsemän päivän ilmaisen kokeilujakson, johon tarvitaan maksutapa. Kokeilujakso on saatavilla kerran Stripe-asiakasta kohden; aiemmat Applen tai Googlen kokeilujaksot eivät vaikuta oikeuteen saada se. Ellet peruuta ennen kokeilujakson päättymistä, maksutapaasi veloitetaan kuukausitilauksesta. Sen jälkeen tilaus uusiutuu automaattisesti joka kuukausi, kunnes se peruutetaan. Kokeilujakson muistutuksissa ilmoitetaan kuukausittainen hinta; Stripe näyttää lopullisen veloituksen laskutusvaluutassa.
 
 Avaa Stripen laskutusportaali [tilausasetuksista](https://app.nibomo.com/settings/subscription) ja hallitse tai peruuta tilauksesi siellä. Tavallinen peruutus tulee voimaan meneillään olevan kokeilujakson tai maksetun jakson lopussa; käyttöoikeus jatkuu siihen asti. Stripe-osto ei peruuta erillistä Apple- tai Google-tilausta eikä korvaa olemassa olevaa elinikäistä käyttöoikeutta.
 

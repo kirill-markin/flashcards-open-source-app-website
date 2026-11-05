@@ -4,7 +4,7 @@ description: Nutzungsbedingungen für Nibomo.
 slug: terms
 sections:
   - type: legal_page
-    lastUpdated: Oktober 2026
+    lastUpdated: November 2026
 ---
 ## Dienst und Anbieter
 
@@ -42,7 +42,7 @@ Wenn Sie einen externen KI-Client zur Nutzung des MCP-Dienstes oder der Agent AP
 
 Wenn der Stripe-Checkout verfügbar ist, wird Nibomo Premium zu einem Basispreis von 6,99 USD pro Monat einschließlich anwendbarer Steuern angeboten. Die Preise können je nach Land oder Store variieren. Stripe Adaptive Pricing kann einen Preis in lokaler Währung anzeigen; Stripe zeigt den endgültigen Betrag und die Abrechnungswährung vor Ihrer Bestätigung. Für den Kauf benötigen Sie ein angemeldetes Konto mit E-Mail-Adresse; Gäste müssen zuerst eine E-Mail-Adresse verknüpfen.
 
-Berechtigte Stripe-Kunden erhalten eine siebentägige kostenlose Testphase, für die eine Zahlungsmethode erforderlich ist. Die Testphase ist einmal pro Stripe-Kunde verfügbar; frühere Apple- oder Google-Testphasen beeinflussen die Berechtigung nicht. Wenn Sie nicht vor Ablauf der Testphase kündigen, wird Ihre Zahlungsmethode mit dem monatlichen Abonnementpreis belastet. Das Abonnement verlängert sich danach jeden Monat automatisch bis zur Kündigung. Erinnerungen an das Testende nennen den monatlichen Basispreis; Stripe zeigt den endgültigen Zahlbetrag in der Abrechnungswährung.
+Berechtigte Stripe-Kunden erhalten eine siebentägige kostenlose Testphase, für die eine Zahlungsmethode erforderlich ist. Die Testphase ist einmal pro Stripe-Kunde verfügbar; frühere Apple- oder Google-Testphasen beeinflussen die Berechtigung nicht. Wenn Sie nicht vor Ablauf der Testphase kündigen, wird Ihre Zahlungsmethode mit dem monatlichen Abonnementpreis belastet. Das Abonnement verlängert sich danach jeden Monat automatisch bis zur Kündigung. Erinnerungen an das Testende nennen den monatlichen Preis; Stripe zeigt den endgültigen Zahlbetrag in der Abrechnungswährung.
 
 Öffnen Sie über die [Abonnementeinstellungen](https://app.nibomo.com/settings/subscription) das Stripe-Kundenportal, um Ihr Abonnement zu verwalten oder zu kündigen. Eine reguläre Kündigung wird zum Ende der aktuellen Test- oder bezahlten Periode wirksam; bis dahin bleibt der Zugang bestehen. Ein Stripe-Kauf kündigt kein separates Apple- oder Google-Abonnement und ersetzt keinen bestehenden lebenslangen Zugang.
 

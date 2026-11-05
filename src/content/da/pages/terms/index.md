@@ -4,7 +4,7 @@ description: Servicevilkår for Nibomo.
 slug: terms
 sections:
   - type: legal_page
-    lastUpdated: oktober 2026
+    lastUpdated: november 2026
 ---
 ## Tjenesten og udbyderen
 
@@ -42,7 +42,7 @@ Når du giver en ekstern AI-klient tilladelse til at bruge MCP-tjenesten eller A
 
 Når Stripe-checkout er tilgængelig, tilbydes Nibomo Premium til en basispris på 6,99 USD om måneden inklusive gældende skatter og afgifter. Priserne kan variere efter land eller butik. Stripe Adaptive Pricing kan vise en pris i lokal valuta; Stripe viser det endelige beløb og faktureringsvalutaen, før du bekræfter. For at købe skal du være logget ind på en konto med en e-mailadresse; gæster skal først tilknytte en e-mailadresse.
 
-Kvalificerede Stripe-kunder får en gratis prøveperiode på syv dage, som kræver en betalingsmetode. Prøveperioden er tilgængelig én gang pr. Stripe-kunde; tidligere prøveperioder via Apple eller Google påvirker ikke, om du er kvalificeret. Medmindre du opsiger, før prøveperioden slutter, trækkes betalingen for månedsabonnementet på din betalingsmetode. Derefter fornyes abonnementet automatisk hver måned, indtil det opsiges. Påmindelser om prøveperioden angiver den månedlige basispris; Stripe viser den endelige opkrævning i faktureringsvalutaen.
+Kvalificerede Stripe-kunder får en gratis prøveperiode på syv dage, som kræver en betalingsmetode. Prøveperioden er tilgængelig én gang pr. Stripe-kunde; tidligere prøveperioder via Apple eller Google påvirker ikke, om du er kvalificeret. Medmindre du opsiger, før prøveperioden slutter, trækkes betalingen for månedsabonnementet på din betalingsmetode. Derefter fornyes abonnementet automatisk hver måned, indtil det opsiges. Påmindelser om prøveperioden angiver den månedlige pris; Stripe viser den endelige opkrævning i faktureringsvalutaen.
 
 Brug [abonnementsindstillingerne](https://app.nibomo.com/settings/subscription) til at åbne Stripes faktureringsportal og administrere eller opsige dit abonnement. Almindelig opsigelse får virkning ved udgangen af den aktuelle prøveperiode eller betalte periode; indtil da har du fortsat adgang. Et køb via Stripe opsiger ikke et separat Apple- eller Google-abonnement og erstatter ikke eksisterende livstidsadgang.
 

@@ -4,7 +4,7 @@ description: Masharti ya huduma ya Nibomo.
 slug: terms
 sections:
   - type: legal_page
-    lastUpdated: Oktoba 2026
+    lastUpdated: Novemba 2026
 ---
 ## Huduma na mtoa huduma
 
@@ -42,7 +42,7 @@ Unapoidhinisha kiteja cha nje cha AI kutumia huduma ya MCP au Agent API, kiteja 
 
 Malipo kupitia Stripe yanapopatikana, Nibomo Premium hutolewa kwa bei ya msingi ya USD 6.99 kwa mwezi, ikijumuisha kodi zinazotumika. Bei zinaweza kutofautiana kulingana na nchi au duka. Stripe Adaptive Pricing inaweza kuonyesha bei kwa sarafu ya ndani; Stripe huonyesha kiasi cha mwisho na sarafu ya malipo kabla hujathibitisha. Ili kununua, lazima uwe umeingia kwenye akaunti yenye anwani ya barua pepe; watumiaji wageni lazima kwanza waunganishe barua pepe.
 
-Wateja wa Stripe wanaostahiki hupata kipindi cha majaribio bila malipo cha siku saba, ambacho kinahitaji uweke njia ya malipo. Kipindi cha majaribio kinapatikana mara moja kwa kila mteja wa Stripe; vipindi vya majaribio vya awali vya Apple au Google haviathiri ustahiki. Usipoghairi kabla ya kipindi cha majaribio kuisha, njia yako ya malipo itatozwa kwa usajili wa kila mwezi. Baada ya hapo usajili husasishwa kiotomatiki kila mwezi hadi utakapoghairiwa. Vikumbusho vya kipindi cha majaribio hutaja bei ya msingi ya kila mwezi; Stripe huonyesha kiasi cha mwisho cha kutozwa kwa sarafu ya malipo.
+Wateja wa Stripe wanaostahiki hupata kipindi cha majaribio bila malipo cha siku saba, ambacho kinahitaji uweke njia ya malipo. Kipindi cha majaribio kinapatikana mara moja kwa kila mteja wa Stripe; vipindi vya majaribio vya awali vya Apple au Google haviathiri ustahiki. Usipoghairi kabla ya kipindi cha majaribio kuisha, njia yako ya malipo itatozwa kwa usajili wa kila mwezi. Baada ya hapo usajili husasishwa kiotomatiki kila mwezi hadi utakapoghairiwa. Vikumbusho vya kipindi cha majaribio hutaja bei ya kila mwezi; Stripe huonyesha kiasi cha mwisho cha kutozwa kwa sarafu ya malipo.
 
 Tumia [Mipangilio ya usajili](https://app.nibomo.com/settings/subscription) kufungua lango la malipo la Stripe na kusimamia au kughairi usajili wako. Kughairi kwa kawaida huanza kutumika mwishoni mwa kipindi cha sasa cha majaribio au cha kulipia; ufikiaji unaendelea hadi wakati huo. Ununuzi kupitia Stripe haughairi usajili wowote tofauti wa Apple au Google wala hauchukui nafasi ya ufikiaji wa maisha yote uliopo.
 

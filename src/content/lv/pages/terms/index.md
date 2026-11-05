@@ -4,7 +4,7 @@ description: Nibomo lietošanas noteikumi.
 slug: terms
 sections:
   - type: legal_page
-    lastUpdated: 2026. gada oktobris
+    lastUpdated: 2026. gada novembris
 ---
 ## Pakalpojums un pakalpojuma sniedzējs
 
@@ -42,7 +42,7 @@ Ja tu atļauj ārējam MI klientam izmantot MCP pakalpojumu vai Agent API, šis 
 
 Kad ir pieejama apmaksa ar Stripe, Nibomo Premium tiek piedāvāts par pamatcenu USD 6,99 mēnesī, ieskaitot piemērojamos nodokļus. Cenas var atšķirties atkarībā no valsts vai veikala. Stripe Adaptive Pricing var parādīt cenu vietējā valūtā; Stripe parāda galīgo summu un norēķinu valūtu, pirms tu apstiprini pirkumu. Lai iegādātos, nepieciešams konts, kurā esi pieteicies un kuram ir e-pasta adrese; viesiem vispirms jāpiesaista e-pasta adrese.
 
-Atbilstošie Stripe klienti saņem septiņu dienu bezmaksas izmēģinājumu, kam jānorāda maksājuma veids. Izmēģinājums ir pieejams vienu reizi katram Stripe klientam; iepriekšējie Apple vai Google izmēģinājumi neietekmē tiesības uz to. Ja neatcelsi abonementu pirms izmēģinājuma beigām, no tava maksājuma veida tiks iekasēta maksa par mēneša abonementu. Pēc tam tas automātiski pagarinās katru mēnesi, līdz tiek atcelts. Atgādinājumos par izmēģinājumu norādīta mēneša pamatcena; galīgo maksu norēķinu valūtā parāda Stripe.
+Atbilstošie Stripe klienti saņem septiņu dienu bezmaksas izmēģinājumu, kam jānorāda maksājuma veids. Izmēģinājums ir pieejams vienu reizi katram Stripe klientam; iepriekšējie Apple vai Google izmēģinājumi neietekmē tiesības uz to. Ja neatcelsi abonementu pirms izmēģinājuma beigām, no tava maksājuma veida tiks iekasēta maksa par mēneša abonementu. Pēc tam tas automātiski pagarinās katru mēnesi, līdz tiek atcelts. Atgādinājumos par izmēģinājumu norādīta mēneša cena; galīgo maksu norēķinu valūtā parāda Stripe.
 
 Izmanto [abonementa iestatījumus](https://app.nibomo.com/settings/subscription), lai atvērtu Stripe norēķinu portālu un pārvaldītu vai atceltu savu abonementu. Parasta atcelšana stājas spēkā pašreizējā izmēģinājuma vai apmaksātā perioda beigās; līdz tam piekļuve saglabājas. Pirkums ar Stripe neatceļ nevienu atsevišķu Apple vai Google abonementu un neaizstāj esošo mūža piekļuvi.
 
