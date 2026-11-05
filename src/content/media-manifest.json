@@ -4288,6 +4288,21 @@
     }
   },
   {
+    "publicPath": "/blog/trigonal-bipyramidal-lone-pairs.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/aa84480897142abf128b117efa03ced4ee99c13acf872ca427cd0cf4f79e57fe.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "aa84480897142abf128b117efa03ced4ee99c13acf872ca427cd0cf4f79e57fe",
+    "bytes": 279452,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/96b1b6c13fa7e060a370141a058ea315cb73a3be1c7e8fc8dd756da269808736.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "96b1b6c13fa7e060a370141a058ea315cb73a3be1c7e8fc8dd756da269808736",
+      "bytes": 2935583
+    }
+  },
+  {
     "publicPath": "/blog/truth-values-conjunction-disjunction.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/36cc29f7cae54e18f81b697ccce94d4753081831fac6e32e2e4f078636f16517.png",
     "width": 1672,
