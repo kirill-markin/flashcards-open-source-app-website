@@ -874,6 +874,21 @@
     }
   },
   {
+    "publicPath": "/blog/compound-intervals-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/4d06dd47c5eedc6dd912990deca0e84413999711232ff946eb4a1ff3f1fae9ec.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "4d06dd47c5eedc6dd912990deca0e84413999711232ff946eb4a1ff3f1fae9ec",
+    "bytes": 250506,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/9294d86bc407e0e6869fa8803b213d6e4f94e3b7e62fbd687966ebc357a7c88a.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "9294d86bc407e0e6869fa8803b213d6e4f94e3b7e62fbd687966ebc357a7c88a",
+      "bytes": 2833886
+    }
+  },
+  {
     "publicPath": "/blog/comptia-a-plus-flashcards.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/10aa440be61d89176a676c840215f73027c9754241eeea54304c1dbcdf6ac45a.png",
     "width": 1672,
