@@ -110,6 +110,21 @@
     "bytes": 2413661
   },
   {
+    "publicPath": "/blog/anki-bury-siblings.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/ede78992d93184fd9b53918dee34e7520cb2b288bd15210a432c4fe5f1d5f1b6.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "ede78992d93184fd9b53918dee34e7520cb2b288bd15210a432c4fe5f1d5f1b6",
+    "bytes": 216368,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/d2daa5a1b5a29fce562a7555b5daf22e9873148c0cc4e13e844acd52fe34f482.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "d2daa5a1b5a29fce562a7555b5daf22e9873148c0cc4e13e844acd52fe34f482",
+      "bytes": 2584684
+    }
+  },
+  {
     "publicPath": "/blog/anki-bury-vs-suspend.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/3d4377d1f4dd9d7d5c0b56192a0db55cef77b6f3b1902aa97beeb46be806c671.png",
     "width": 1672,
