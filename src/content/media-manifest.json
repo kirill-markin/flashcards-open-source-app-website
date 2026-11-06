@@ -2481,6 +2481,21 @@
     "bytes": 2296964
   },
   {
+    "publicPath": "/blog/japanese-small-tsu.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/472313ea9f506771725a396c460575aab9c4afccaa09c1add17e65c6a45bd562.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "472313ea9f506771725a396c460575aab9c4afccaa09c1add17e65c6a45bd562",
+    "bytes": 146684,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/b9153379b923f101b0864bf20e315828541816df8c99f372686209cbcd2bed96.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "b9153379b923f101b0864bf20e315828541816df8c99f372686209cbcd2bed96",
+      "bytes": 2363516
+    }
+  },
+  {
     "publicPath": "/blog/javascript-promise-all-practice.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/b523641d2d92ad227cab5d799d9f0d584b8f241cb4a64dc60d5536eec74262df.webp",
     "width": 1672,
