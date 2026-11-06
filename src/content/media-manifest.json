@@ -2387,6 +2387,21 @@
     "bytes": 2128503
   },
   {
+    "publicPath": "/blog/hypergeometric-distribution-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/dd5aa36a5a91c5e1b97e058e97562526e5522788924970be5a25ef6ddeaacc21.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "dd5aa36a5a91c5e1b97e058e97562526e5522788924970be5a25ef6ddeaacc21",
+    "bytes": 187150,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/c24d46b78dfd2d77bbaa76e23a894befc2ce8043a3d65ce08fa5ce27d27470c2.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "c24d46b78dfd2d77bbaa76e23a894befc2ce8043a3d65ce08fa5ce27d27470c2",
+      "bytes": 2462002
+    }
+  },
+  {
     "publicPath": "/blog/interval-inversion.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/1b370a0dbed434b36a298261d082cc0470f029e749088ec5b44d55ca769516e5.png",
     "width": 1672,
