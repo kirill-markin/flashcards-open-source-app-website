@@ -64,7 +64,9 @@ export interface PublicCatalogSearchableMultiPickerProps<Value extends string>
 }
 
 export interface PublicCatalogCompactSinglePickerProps<Value extends string>
-  extends SinglePickerProps<Value> {}
+  extends SinglePickerProps<Value> {
+  readonly triggerIcon: React.JSX.Element;
+}
 
 type InternalPickerProps<Value extends string> =
   | (PublicCatalogSearchableSinglePickerProps<Value> & {
@@ -638,6 +640,9 @@ function PublicCatalogPicker<Value extends string>(
         }}
         type="button"
       >
+        {props.variant === "compact-single" ? (
+          <span className={styles.triggerIcon}>{props.triggerIcon}</span>
+        ) : null}
         <span className={styles.triggerSummary}>{triggerSummary}</span>
         <span className={styles.chevron} data-open={isOpen ? "true" : undefined}>
           <PickerChevron />

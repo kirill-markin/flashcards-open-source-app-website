@@ -3,20 +3,69 @@
 
   display: grid;
   grid-template-columns: minmax(220px, 280px) minmax(0, 1fr);
+  grid-template-rows: auto 1fr;
+  grid-template-areas:
+    "filters search"
+    "filters results";
   gap: 20px;
   align-items: start;
 }
 
-.filtersSummary {
-  display: none;
+.searchRow {
+  display: flex;
+  grid-area: search;
+  align-items: center;
+  gap: 10px;
+  min-inline-size: 0;
 }
 
-.filtersDetails {
-  align-self: start;
+.searchRow > .textInput {
+  flex: 1 1 auto;
+  min-inline-size: 0;
+}
+
+.filtersToggle {
+  display: none;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  min-block-size: 44px;
+  min-inline-size: 44px;
+  padding-inline: 12px;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-sm);
+  background: var(--bg-elevated);
+  color: var(--text-secondary);
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.filtersToggle svg {
+  inline-size: 18px;
+  block-size: 18px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: 1.8;
+}
+
+.filtersToggle:hover,
+.filtersToggle[aria-expanded="true"] {
+  border-color: rgba(238, 238, 238, 0.28);
+  background: var(--surface);
+}
+
+.filtersToggle[data-active="true"] {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  color: var(--accent);
 }
 
 .filtersPanel {
   display: grid;
+  grid-area: filters;
   gap: 10px;
   padding: 18px;
   border-radius: var(--radius-card);
@@ -24,31 +73,18 @@
 }
 
 .filtersHeading,
-.toolbar,
-.sortControl,
 .pagination {
   display: flex;
   align-items: center;
 }
 
-.filtersHeading,
-.toolbar {
+.filtersHeading {
   justify-content: space-between;
   gap: 12px;
 }
 
 .toolbar {
-  align-items: flex-end;
-  flex-wrap: wrap;
   margin-block-end: 18px;
-}
-
-.toolbar > [data-marketing-heading] {
-  flex: 1 1 360px;
-}
-
-.toolbar > .sortControl {
-  margin-inline-start: auto;
 }
 
 .filtersHeading h2 {
@@ -100,9 +136,12 @@
   color: var(--text);
 }
 
-.filterPicker,
-.sortPicker {
+.filterPicker {
   min-inline-size: 0;
+}
+
+.sortPicker {
+  flex: none;
 }
 
 .filterPicker > button,
@@ -110,26 +149,10 @@
   block-size: 44px;
 }
 
-.sortPicker {
-  inline-size: clamp(126px, 16vw, 180px);
-}
-
-.sortPicker > button {
-  inline-size: 100%;
-  min-inline-size: 0;
-}
-
 .results {
+  grid-area: results;
   min-width: 0;
   scroll-margin-block-start: var(--catalog-sticky-header-clearance);
-}
-
-.sortControl {
-  gap: 8px;
-  min-inline-size: 0;
-  color: var(--text-secondary);
-  font-size: 14px;
-  white-space: nowrap;
 }
 
 .pagination {
@@ -148,8 +171,7 @@
 }
 
 .pagination button,
-.showAllDecksButton,
-.filtersSummary {
+.showAllDecksButton {
   min-height: 42px;
   padding-inline: 15px;
   border: 1px solid var(--border-strong);
@@ -171,7 +193,7 @@
 
 .textInput:focus-visible,
 .clearButton:focus-visible,
-.filtersSummary:focus-visible,
+.filtersToggle:focus-visible,
 .results:focus-visible,
 .showAllDecksButton:focus-visible,
 .pagination button:focus-visible {
@@ -190,7 +212,7 @@
     --catalog-sticky-header-clearance: 100px;
   }
 
-  .filtersDetails {
+  .filtersPanel {
     position: sticky;
     inset-block-start: var(--catalog-sticky-header-clearance);
     max-block-size: calc(100vh - var(--catalog-sticky-header-clearance) - 20px);
@@ -200,61 +222,30 @@
 
 @media (max-width: 900px) {
   .browser {
-    grid-template-columns: 1fr;
-    gap: 12px;
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: none;
+    grid-template-areas:
+      "search"
+      "filters"
+      "results";
+    row-gap: 0;
   }
 
-  .filtersSummary {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-radius: var(--radius-md);
-    list-style: none;
+  .filtersToggle {
+    display: inline-flex;
   }
 
-  .filtersSummary::-webkit-details-marker {
+  .filtersPanel:not([data-open="true"]) {
     display: none;
   }
 
-  .filtersSummary::after {
-    content: "+";
-    margin-inline-start: 12px;
-  }
-
-  .filtersDetails[open] .filtersSummary::after {
-    content: "−";
-  }
-
-  .filtersDetails:not([open]) .filtersPanel {
-    display: none;
-  }
-
-  .filtersPanel {
-    position: static;
-    margin-top: 10px;
+  .filtersPanel,
+  .results {
+    margin-block-start: 12px;
   }
 }
 
 @media (max-width: 520px) {
-  .toolbar {
-    align-items: stretch;
-    flex-direction: column;
-    gap: 8px;
-  }
-
-  .toolbar > [data-marketing-heading] {
-    flex: none;
-  }
-
-  .toolbar > .sortControl {
-    justify-content: space-between;
-    margin-inline-start: 0;
-  }
-
-  .sortPicker {
-    inline-size: min(178px, 62%);
-  }
-
   .pagination {
     display: grid;
     grid-template-columns: 1fr 1fr;
