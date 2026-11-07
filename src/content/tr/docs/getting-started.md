@@ -1,7 +1,36 @@
 ---
 title: Başlangıç Rehberi
-description: Barındırılan web uygulamasıyla başlayın, bir agent'ı keşif URL'si üzerinden bağlayın veya yerel yığını kendiniz çalıştırın.
+description: iPhone, iPad, Mac veya Android uygulamasıyla, web uygulamasıyla, bir AI agent'ıyla ya da kendi sunucunuzda başlayın.
 ---
+
+Başlamanın birkaç yolu var; en popülerden başlayarak:
+
+- **iPhone, iPad ve Mac uygulaması**: [App Store](https://apps.apple.com/app/apple-store/id6760538964?pt=128797295&ct=marketing_site&mt=8)
+- **Android uygulaması**: [Google Play](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&utm_source=flashcards_website&utm_medium=referral&utm_campaign=marketing_site)
+- **Barındırılan web uygulaması**: [app.nibomo.com](https://app.nibomo.com)
+- **AI agent'ları**: [MCP bağlayıcısı](/docs/mcp-connector/) veya `https://api.nibomo.com/v1/` adresindeki API
+- **Kendi sunucunuzda**: [Kendi Sunucunuzda Barındırma Rehberi](/docs/self-hosting/)
+
+## Mobil ve Masaüstü Uygulamaları
+
+Cihazınıza uygun yerel uygulamayı yükleyin:
+
+- iPhone, iPad ve Mac: [App Store](https://apps.apple.com/app/apple-store/id6760538964?pt=128797295&ct=marketing_site&mt=8)
+- Android: [Google Play](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&utm_source=flashcards_website&utm_medium=referral&utm_campaign=marketing_site)
+
+Uygulamalar kartlarınızı cihazda tutar; böylece çevrimdışıyken de tekrar yapabilirsiniz, yeniden çevrimiçi olduğunuzda kartlar senkronize edilir. Misafir olarak başlayıp daha sonra giriş yapabilirsiniz.
+
+### Ana Ekran Widget'ları
+
+Nibomo uygulaması iPhone, iPad, Mac ve Android'e bir Tekrar widget'ı ekler. Widget üç boyutta sunulur:
+
+- **Küçük**: tekrar zamanı gelen kart sayısı ve çalışma seriniz
+- **Orta**: tekrar zamanı gelen kart sayısı ve sonraki kartınızdaki soru
+- **Büyük**: tekrar zamanı gelen kart sayısı, sonraki sorunuz ve seriniz
+
+Tekrar zamanı gelen kart olmadığında widget “Hepsi tamam” yazısını ve sonraki kartın ne zaman tekrar edileceğini gösterir. Cevabı asla göstermez. Tekrar'ı açmak için widget'a dokunun; Orta veya Büyük boyuttaki widget, Tekrar'ı gösterdiği kartta açar. Widget'lar misafir kullanıcılar dahil herkes için ücretsizdir.
+
+Eklemek için cihazınızın widget galerisini açın, Nibomo'yu seçin ve bir boyut belirleyin.
 
 ## Barındırılan Web Uygulaması
 
@@ -14,6 +43,8 @@ Başlamanın en hızlı yolu barındırılan web uygulamasıdır:
 Barındırılan sürüm için kurulum veya sunucu yapılandırması gerekmez.
 
 ## Agent Kurulumu
+
+Claude, ChatGPT ve Cursor gibi MCP istemcileri [MCP bağlayıcısı rehberi](/docs/mcp-connector/) üzerinden bağlanabilir.
 
 Claude Code, Codex veya OpenClaw'un doğrudan bağlanmasını istiyorsanız şuradan başlayın:
 
@@ -32,7 +63,7 @@ Kendi kurulumunuzu çalıştırmayı tercih ediyorsanız [Kendi Sunucunuzda Bar�
 ## Bugün Neler Sunuluyor
 
 - Kartlar, tekrar ve AI sohbeti için barındırılan web uygulaması
-- Ana depoda yerel SQLite ve çevrimdışı öncelikli senkronizasyona sahip iOS istemcisi
+- Cihazda SQLite depolama ve çevrimdışı öncelikli senkronizasyona sahip yerel iPhone, iPad, Mac ve Android uygulamaları
 - Ayrı `api` ve `auth` alan adlarında ortak backend ve kimlik doğrulama hizmetleri
 - Keşif, OTP ve ApiKey kimlik doğrulaması üzerinden harici agent'ların bağlanması
 - Postgres'in tek doğruluk kaynağı olduğu, AWS üzerinde açık kaynak dağıtım yolu
