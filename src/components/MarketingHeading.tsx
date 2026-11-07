@@ -50,7 +50,7 @@ export function MarketingHeading({
   const lines: ReadonlyArray<string> = typeof title === "string" ? [title] : title;
   return (
     <div className={`${styles.heading} ${className}`} data-marketing-heading>
-      {badge !== undefined && <p className={styles.badge}>{formatHeadingText(badge)}</p>}
+      {badge !== undefined && <p className={Heading === "h1" ? `${styles.badge} ${styles.pageIntroBadge}` : styles.badge}>{formatHeadingText(badge)}</p>}
       <Heading className={`marketingHeading ${styles.title}`} id={id}>
         {lines.map((line) => <span className={styles.line} key={line}>{formatHeadingText(line)}{" "}</span>)}
       </Heading>

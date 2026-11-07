@@ -43,3 +43,13 @@
 .line {
   display: block;
 }
+
+@media (max-width: 768px) {
+  .pageIntroBadge {
+    display: none;
+  }
+
+  .pageIntroBadge + .title {
+    margin-block-start: 0;
+  }
+}

@@ -211,6 +211,10 @@
   .agents { grid-template-columns: minmax(0,1fr); }
 }
 
+@media (max-width: 768px) {
+  .story, .featurePrimary { padding-block-start: 48px; }
+}
+
 @media (max-width: 700px) {
   .hero { grid-template-columns: minmax(0,1fr); }
   .hero { gap: 64px; padding-block: 48px 64px; }
@@ -225,7 +229,7 @@
   .cardQuestion { font-size: 28px; }
   .cardLabel { margin-block-start: 24px; }
   .cardAnswer { font-size: 18px; }
-  .story { padding-block: var(--page-intro-offset) 64px; }
+  .story { padding-block-end: 64px; }
   .steps { grid-template-columns: minmax(0,1fr); grid-template-rows: none; gap: 48px; margin-block-start: 48px; }
   .step { display: block; grid-row: auto; }
   .step h3 { min-block-size: 0; }

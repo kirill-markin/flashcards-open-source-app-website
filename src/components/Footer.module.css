@@ -199,6 +199,10 @@
 }
 
 @media (max-width: 768px) {
+  .cta {
+    padding-block-start: 48px;
+  }
+
   .bottom {
     grid-template-columns: 1fr;
   }
@@ -227,7 +231,7 @@
 
 @media (max-width: 600px) {
   .cta {
-    padding-block: var(--page-intro-offset) 96px;
+    padding-block-end: 96px;
   }
 
 

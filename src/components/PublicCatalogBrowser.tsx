@@ -5,6 +5,7 @@ import {
   useEffect,
   useMemo,
   useRef,
+  useState,
   useSyncExternalStore,
 } from "react";
 import { PublicCatalogPackageCard } from "@/components/PublicCatalogPackageCard";
@@ -49,6 +50,7 @@ import pageStyles from "@/app/catalog/page.module.css";
 import styles from "./PublicCatalogBrowser.module.css";
 
 const publicCatalogUrlChangeEvent = "public-catalog-url-change";
+const publicCatalogFiltersPanelId = "catalog-filters";
 
 interface PublicCatalogBrowserProps {
   readonly copy: PublicCatalogUiCopy;
@@ -142,6 +144,22 @@ function formatPageStatus(
   return copy.browse.pageStatusTemplate
     .replace("{page}", formatPublicCatalogNumber(locale, page))
     .replace("{total}", formatPublicCatalogNumber(locale, totalPages));
+}
+
+function FiltersIcon(): React.JSX.Element {
+  return (
+    <svg aria-hidden="true" viewBox="0 0 20 20">
+      <path d="M3.5 6h13M6 10h8M8.5 14h3" />
+    </svg>
+  );
+}
+
+function SortIcon(): React.JSX.Element {
+  return (
+    <svg aria-hidden="true" viewBox="0 0 20 20">
+      <path d="M6.5 15.5v-11M3.5 7.5l3-3 3 3M13.5 4.5v11M10.5 12.5l3 3 3-3" />
+    </svg>
+  );
 }
 
 export function PublicCatalogBrowser({
@@ -240,6 +258,7 @@ export function PublicCatalogBrowser({
   );
   const resultsRef = useRef<HTMLElement>(null);
   const resultsFocusPageRef = useRef<number | null>(null);
+  const [areFiltersOpen, setAreFiltersOpen] = useState<boolean>(false);
 
   useEffect(() => {
     const searchAnalyticsScheduler = searchAnalyticsSchedulerRef.current;
@@ -413,13 +432,43 @@ export function PublicCatalogBrowser({
     || hasNarrowingFacets
     || state.sort !== null
     || state.page > 1;
+  const activeFilterCount = state.languages.length
+    + state.collections.length
+    + (state.author !== null ? 1 : 0);
+  const formattedActiveFilterCount = formatPublicCatalogNumber(locale, activeFilterCount);
 
   return (
     <>
       <header className={styles.toolbar}>
         {heading}
-        <div className={styles.sortControl}>
-          <span>{copy.browse.sortLabel}</span>
+      </header>
+      <div className={styles.browser} data-testid="catalog-browser">
+        <div className={styles.searchRow}>
+          <input
+            aria-label={copy.browse.searchLabel}
+            className={styles.textInput}
+            data-testid="catalog-search"
+            id="catalog-search"
+            onChange={(event) => updateSearch(event.currentTarget.value)}
+            placeholder={copy.browse.searchPlaceholder}
+            type="search"
+            value={state.q}
+          />
+          <button
+            aria-controls={publicCatalogFiltersPanelId}
+            aria-expanded={areFiltersOpen}
+            aria-label={`${copy.browse.filtersLabel}: ${formattedActiveFilterCount}`}
+            className={styles.filtersToggle}
+            data-active={activeFilterCount > 0 ? "true" : undefined}
+            data-testid="catalog-filters-toggle"
+            onClick={() => setAreFiltersOpen((isOpen) => !isOpen)}
+            type="button"
+          >
+            <FiltersIcon />
+            {activeFilterCount > 0 ? (
+              <span aria-hidden="true">{formattedActiveFilterCount}</span>
+            ) : null}
+          </button>
           <div className={styles.sortPicker} data-testid="catalog-sort">
             <PublicCatalogCompactSinglePicker
               ariaLabel={copy.browse.sortLabel}
@@ -430,86 +479,75 @@ export function PublicCatalogBrowser({
                 }
               }}
               options={sortOptions}
+              triggerIcon={<SortIcon />}
               value={result.sort}
             />
           </div>
         </div>
-      </header>
-      <div className={styles.browser} data-testid="catalog-browser">
-        <details className={styles.filtersDetails} open>
-          <summary className={styles.filtersSummary}>{copy.browse.showFiltersLabel}</summary>
-          <aside className={styles.filtersPanel} aria-label={copy.browse.filtersLabel}>
-            <div className={styles.filtersHeading}>
-              <h2>{copy.browse.filtersLabel}</h2>
-              <button
-                className={styles.clearButton}
-                disabled={hasActiveControls === false}
-                onClick={clearFilters}
-                type="button"
-              >
-                {copy.browse.clearFiltersLabel}
-              </button>
-            </div>
-            <label className={styles.controlLabel} htmlFor="catalog-search">
-              {copy.browse.searchLabel}
-            </label>
-            <input
-              className={styles.textInput}
-              data-testid="catalog-search"
-              id="catalog-search"
-              onChange={(event) => updateSearch(event.currentTarget.value)}
-              placeholder={copy.browse.searchPlaceholder}
-              type="search"
-              value={state.q}
-            />
-            <div className={styles.filterControl}>
-              <span className={styles.controlLabel}>{copy.browse.languageLabel}</span>
-              <div className={styles.filterPicker}>
-                <PublicCatalogSearchableMultiPicker
-                  ariaLabel={copy.browse.languageLabel}
-                  doneLabel={copy.browse.pickerDoneLabel}
-                  emptySearchResultsLabel={copy.browse.noLanguagesFoundLabel}
-                  emptySelectionLabel={copy.browse.allLanguagesLabel}
-                  formatSelection={formatPickerSelection}
-                  onValuesChange={(languages) => {
-                    const change = getSelectionChange(state.languages, languages);
-
-                    updateLanguage(change.value, change.isSelected);
-                  }}
-                  options={data.languages}
-                  searchLabel={copy.browse.languageSearchLabel}
-                  searchPlaceholder={copy.browse.languageSearchPlaceholder}
-                  values={state.languages}
-                />
-              </div>
-            </div>
-            <div className={styles.filterControl}>
-              <span className={styles.controlLabel}>{copy.browse.collectionLabel}</span>
-              <div className={styles.filterPicker} data-testid="catalog-collection">
-                <PublicCatalogSearchableMultiPicker
-                  ariaLabel={copy.browse.collectionLabel}
-                  doneLabel={copy.browse.pickerDoneLabel}
-                  emptySearchResultsLabel={copy.browse.noCollectionsFoundLabel}
-                  emptySelectionLabel={copy.browse.allCollectionsLabel}
-                  formatSelection={formatPickerSelection}
-                  onValuesChange={updateCollections}
-                  options={collectionOptions}
-                  searchLabel={copy.browse.collectionSearchLabel}
-                  searchPlaceholder={copy.browse.collectionSearchPlaceholder}
-                  values={state.collections}
-                />
-              </div>
-            </div>
-            <p
-              aria-atomic="true"
-              aria-live="polite"
-              className={styles.resultsCount}
-              data-testid="catalog-result-count"
+        <aside
+          aria-label={copy.browse.filtersLabel}
+          className={styles.filtersPanel}
+          data-open={areFiltersOpen ? "true" : undefined}
+          id={publicCatalogFiltersPanelId}
+        >
+          <div className={styles.filtersHeading}>
+            <h2>{copy.browse.filtersLabel}</h2>
+            <button
+              className={styles.clearButton}
+              disabled={hasActiveControls === false}
+              onClick={clearFilters}
+              type="button"
             >
-              {formatResultCount(result.totalCount, locale, copy)}
-            </p>
-          </aside>
-        </details>
+              {copy.browse.clearFiltersLabel}
+            </button>
+          </div>
+          <div className={styles.filterControl}>
+            <span className={styles.controlLabel}>{copy.browse.languageLabel}</span>
+            <div className={styles.filterPicker}>
+              <PublicCatalogSearchableMultiPicker
+                ariaLabel={copy.browse.languageLabel}
+                doneLabel={copy.browse.pickerDoneLabel}
+                emptySearchResultsLabel={copy.browse.noLanguagesFoundLabel}
+                emptySelectionLabel={copy.browse.allLanguagesLabel}
+                formatSelection={formatPickerSelection}
+                onValuesChange={(languages) => {
+                  const change = getSelectionChange(state.languages, languages);
+
+                  updateLanguage(change.value, change.isSelected);
+                }}
+                options={data.languages}
+                searchLabel={copy.browse.languageSearchLabel}
+                searchPlaceholder={copy.browse.languageSearchPlaceholder}
+                values={state.languages}
+              />
+            </div>
+          </div>
+          <div className={styles.filterControl}>
+            <span className={styles.controlLabel}>{copy.browse.collectionLabel}</span>
+            <div className={styles.filterPicker} data-testid="catalog-collection">
+              <PublicCatalogSearchableMultiPicker
+                ariaLabel={copy.browse.collectionLabel}
+                doneLabel={copy.browse.pickerDoneLabel}
+                emptySearchResultsLabel={copy.browse.noCollectionsFoundLabel}
+                emptySelectionLabel={copy.browse.allCollectionsLabel}
+                formatSelection={formatPickerSelection}
+                onValuesChange={updateCollections}
+                options={collectionOptions}
+                searchLabel={copy.browse.collectionSearchLabel}
+                searchPlaceholder={copy.browse.collectionSearchPlaceholder}
+                values={state.collections}
+              />
+            </div>
+          </div>
+          <p
+            aria-atomic="true"
+            aria-live="polite"
+            className={styles.resultsCount}
+            data-testid="catalog-result-count"
+          >
+            {formatResultCount(result.totalCount, locale, copy)}
+          </p>
+        </aside>
         <section
           aria-label={copy.title}
           className={styles.results}

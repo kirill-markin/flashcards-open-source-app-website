@@ -26,6 +26,15 @@
   min-inline-size: 126px;
 }
 
+.triggerIcon {
+  display: grid;
+  flex: none;
+  inline-size: 18px;
+  block-size: 18px;
+  margin-inline-end: 8px;
+  color: var(--text-secondary);
+}
+
 .triggerSummary {
   min-inline-size: 0;
   overflow: hidden;
@@ -50,6 +59,7 @@
   transform: translateY(-50%) rotate(180deg);
 }
 
+.triggerIcon svg,
 .chevron svg,
 .checkmark svg {
   inline-size: 100%;
@@ -273,6 +283,24 @@
 .option[data-active="true"][data-selected="true"]:active {
   background: var(--accent-muted);
   box-shadow: inset 0 0 0 1px var(--accent-strong);
+}
+
+@media (max-width: 900px) {
+  .compactTrigger {
+    justify-content: center;
+    inline-size: 44px;
+    min-inline-size: 44px;
+    padding-inline: 0;
+  }
+
+  .compactTrigger .triggerIcon {
+    margin-inline-end: 0;
+  }
+
+  .compactTrigger .triggerSummary,
+  .compactTrigger .chevron {
+    display: none;
+  }
 }
 
 @media (max-width: 768px) {

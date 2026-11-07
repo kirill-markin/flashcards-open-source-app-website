@@ -277,11 +277,17 @@
   }
 }
 
+@media (max-width: 768px) {
+  .container,
+  .narrowContainer {
+    padding-block-start: var(--page-intro-offset);
+  }
+}
+
 @media (max-width: 700px) {
   .container,
   .narrowContainer {
     padding-inline: 0;
-    padding-top: 26px;
   }
 
   .list,
