@@ -167,6 +167,10 @@
   min-width: 0;
 }
 
+.relatedDecksBottom {
+  display: none;
+}
+
 .relatedDeckList {
   display: grid;
   gap: 8px;
@@ -625,6 +629,15 @@
 
   .deckDetails {
     margin-block-start: 4px;
+  }
+
+  .relatedDecksSidebar {
+    display: none;
+  }
+
+  .relatedDecksBottom {
+    display: block;
+    margin-block-start: 14px;
   }
 
   .relatedDeckList {
