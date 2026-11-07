@@ -1,9 +1,38 @@
 ---
 title: Empezando
 description: >-
-  Comience con la aplicación web alojada, conecte un agente a través de la URL
-  de descubrimiento o ejecute la pila local usted mismo.
+  Comience con la aplicación para iPhone, iPad, Mac o Android, la aplicación
+  web, un agente de IA o su propio servidor.
 ---
+Hay varias formas de comenzar, ordenadas de más a menos populares:
+
+- **Aplicación para iPhone, iPad y Mac**: [App Store](https://apps.apple.com/app/apple-store/id6760538964?pt=128797295&ct=marketing_site&mt=8)
+- **Aplicación para Android**: [Google Play](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&utm_source=flashcards_website&utm_medium=referral&utm_campaign=marketing_site)
+- **Aplicación web alojada**: [app.nibomo.com](https://app.nibomo.com)
+- **Agentes de IA**: el [conector MCP](/docs/mcp-connector/) o la API en `https://api.nibomo.com/v1/`
+- **Autohospedaje**: la [Guía de autohospedaje](/docs/self-hosting/)
+
+## Aplicaciones para móvil y escritorio
+
+Instale la aplicación nativa para su dispositivo:
+
+- iPhone, iPad y Mac: [App Store](https://apps.apple.com/app/apple-store/id6760538964?pt=128797295&ct=marketing_site&mt=8)
+- Android: [Google Play](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&utm_source=flashcards_website&utm_medium=referral&utm_campaign=marketing_site)
+
+Las aplicaciones guardan sus tarjetas en el dispositivo, así que puede repasar sin conexión, y se sincronizan cuando vuelve a estar en línea. Puede empezar como invitado e iniciar sesión más tarde.
+
+### Widgets de la pantalla de inicio
+
+La aplicación Nibomo añade el widget Repasar a iPhone, iPad, Mac y Android. Está disponible en tres tamaños:
+
+- **Pequeño**: cuántas tarjetas tiene pendientes y su racha de estudio
+- **Mediano**: cuántas tarjetas tiene pendientes y la pregunta de su siguiente tarjeta
+- **Grande**: cuántas tarjetas tiene pendientes, su siguiente pregunta y su racha
+
+Cuando no hay nada pendiente, el widget muestra «Todo al día» y cuándo toca la siguiente tarjeta. Nunca muestra una respuesta. Toque el widget para abrir Repasar; un widget mediano o grande abre Repasar directamente en la tarjeta que muestra. Los widgets son gratuitos para todos, incluidos los invitados.
+
+Para añadir uno, abra la galería de widgets de su dispositivo, elija Nibomo y seleccione un tamaño.
+
 ## Aplicación web alojada
 
 La forma más rápida de comenzar es la aplicación web alojada:
@@ -15,6 +44,8 @@ La forma más rápida de comenzar es la aplicación web alojada:
 No se requiere instalación ni configuración del servidor para la ruta alojada.
 
 ## Configuración del agente
+
+Los clientes MCP como Claude, ChatGPT y Cursor pueden conectarse mediante la [guía del conector MCP](/docs/mcp-connector/).
 
 Si desea que Claude Code, Codex u OpenClaw se conecten directamente, comience desde:
 
@@ -33,7 +64,7 @@ Si prefiere ejecutar su propia instancia, consulte la [Guía de autohospedaje](/
 ## Lo que obtienes hoy
 
 - Aplicación web alojada para tarjetas, reseñas y chat de IA
-- Cliente iOS en el repositorio principal con SQLite local y sincronización sin conexión
+- Aplicaciones nativas para iPhone, iPad, Mac y Android con almacenamiento SQLite local y sincronización que prioriza el uso sin conexión
 - Servicios de autenticación y backend compartidos en dominios `api` y `auth` separados
 - Incorporación de agentes externos a través de descubrimiento, OTP y autenticación ApiKey
 - Ruta de implementación de código abierto en AWS con Postgres como fuente de verdad

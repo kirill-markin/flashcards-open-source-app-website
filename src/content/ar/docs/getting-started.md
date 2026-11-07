@@ -1,7 +1,36 @@
 ---
 title: البدء
-description: ابدأ من تطبيق الويب المستضاف، أو صِل وكيلًا عبر رابط الاكتشاف، أو شغّل الحزمة محليًا بنفسك.
+description: ابدأ بتطبيق iPhone أو iPad أو Mac أو Android، أو بتطبيق الويب، أو بوكيل ذكاء اصطناعي، أو بخادمك الخاص.
 ---
+
+هناك عدة طرق للبدء، مرتبة من الأكثر شيوعًا:
+
+- **تطبيق iPhone وiPad وMac**: [App Store](https://apps.apple.com/app/apple-store/id6760538964?pt=128797295&ct=marketing_site&mt=8)
+- **تطبيق Android**: [Google Play](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&utm_source=flashcards_website&utm_medium=referral&utm_campaign=marketing_site)
+- **تطبيق الويب المستضاف**: [app.nibomo.com](https://app.nibomo.com)
+- **وكلاء الذكاء الاصطناعي**: [موصّل MCP](/docs/mcp-connector/) أو واجهة API على `https://api.nibomo.com/v1/`
+- **الاستضافة الذاتية**: [دليل الاستضافة الذاتية](/docs/self-hosting/)
+
+## تطبيقات الجوال وسطح المكتب
+
+ثبّت التطبيق الأصلي لجهازك:
+
+- iPhone وiPad وMac: [App Store](https://apps.apple.com/app/apple-store/id6760538964?pt=128797295&ct=marketing_site&mt=8)
+- Android: [Google Play](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&utm_source=flashcards_website&utm_medium=referral&utm_campaign=marketing_site)
+
+تحتفظ التطبيقات ببطاقاتك على الجهاز، لذا يمكنك المراجعة دون اتصال، وتتم المزامنة عند عودتك إلى الاتصال. يمكنك البدء كضيف وتسجيل الدخول لاحقًا.
+
+### أدوات الشاشة الرئيسية
+
+يضيف تطبيق Nibomo أداة «المراجعة» إلى iPhone وiPad وMac وAndroid. وتتوفر بثلاثة أحجام:
+
+- **صغيرة**: عدد البطاقات المستحقة وسلسلة أيام دراستك
+- **متوسطة**: عدد البطاقات المستحقة والسؤال الموجود على بطاقتك التالية
+- **كبيرة**: عدد البطاقات المستحقة وسؤالك التالي وسلسلة أيام دراستك
+
+عندما لا تكون هناك بطاقات مستحقة، تعرض الأداة «أنهيت كل شيء» وموعد البطاقة التالية. ولا تعرض أي إجابة أبدًا. اضغط على الأداة لفتح «المراجعة»؛ وتفتح الأداة المتوسطة أو الكبيرة «المراجعة» على البطاقة التي تعرضها. الأدوات مجانية للجميع، بمن فيهم الضيوف.
+
+لإضافة أداة، افتح معرض الأدوات على جهازك، واختر Nibomo، ثم حدّد الحجم.
 
 ## تطبيق الويب المستضاف
 
@@ -14,6 +43,8 @@ description: ابدأ من تطبيق الويب المستضاف، أو صِل 
 لا يتطلب المسار المستضاف أي تثبيت أو إعداد خادم.
 
 ## إعداد الوكيل
+
+يمكن لعملاء MCP مثل Claude وChatGPT وCursor الاتصال عبر [دليل موصّل MCP](/docs/mcp-connector/).
 
 إذا كنت تريد أن يتصل Claude Code أو Codex أو OpenClaw مباشرة، فابدأ من:
 
@@ -32,7 +63,7 @@ GET https://api.nibomo.com/v1/
 ## ما الذي تحصل عليه اليوم
 
 - تطبيق ويب مستضاف للبطاقات والمراجعة ودردشة الذكاء الاصطناعي
-- عميل iOS في المستودع الرئيسي مع SQLite محلي ومزامنة تعمل دون اتصال أولًا
+- تطبيقات أصلية لـ iPhone وiPad وMac وAndroid مع تخزين SQLite محلي ومزامنة تعمل دون اتصال أولًا
 - خدمات خلفية ومصادقة مشتركة على نطاقي `api` و`auth` المنفصلين
 - إعداد خارجي للوكلاء عبر الاكتشاف وOTP ومصادقة ApiKey
 - مسار نشر مفتوح المصدر على AWS مع Postgres كمصدر الحقيقة

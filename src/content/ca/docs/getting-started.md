@@ -1,7 +1,36 @@
 ---
 title: Primers passos
-description: Comença amb l'app web allotjada, connecta un agent a través de l'URL de descobriment o executa tu mateix la pila local.
+description: Comença amb l'app per a iPhone, iPad, Mac o Android, l'app web, un agent d'IA o el teu propi servidor.
 ---
+
+Hi ha diverses maneres de començar, ordenades de més a menys populars:
+
+- **App per a iPhone, iPad i Mac**: [App Store](https://apps.apple.com/app/apple-store/id6760538964?pt=128797295&ct=marketing_site&mt=8)
+- **App per a Android**: [Google Play](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&utm_source=flashcards_website&utm_medium=referral&utm_campaign=marketing_site)
+- **App web allotjada**: [app.nibomo.com](https://app.nibomo.com)
+- **Agents d'IA**: el [connector MCP](/docs/mcp-connector/) o l'API a `https://api.nibomo.com/v1/`
+- **Autoallotjament**: la [Guia d'autoallotjament](/docs/self-hosting/)
+
+## Apps per a mòbil i ordinador
+
+Instal·la l'app nativa per al teu dispositiu:
+
+- iPhone, iPad i Mac: [App Store](https://apps.apple.com/app/apple-store/id6760538964?pt=128797295&ct=marketing_site&mt=8)
+- Android: [Google Play](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&utm_source=flashcards_website&utm_medium=referral&utm_campaign=marketing_site)
+
+Les apps guarden les targetes al dispositiu, de manera que pots repassar sense connexió, i se sincronitzen quan tornes a estar en línia. Pots començar com a convidat i iniciar la sessió més tard.
+
+### Widgets de la pantalla d'inici
+
+L'app Nibomo afegeix un widget de Repàs a l'iPhone, l'iPad, el Mac i Android. N'hi ha de tres mides:
+
+- **Petit**: quantes targetes tens pendents i la teva ratxa d'estudi
+- **Mitjà**: quantes targetes tens pendents i la pregunta de la teva targeta següent
+- **Gran**: quantes targetes tens pendents, la pregunta següent i la teva ratxa
+
+Quan no tens res pendent, el widget mostra «Tot al dia» i quan toca la targeta següent. Mai no mostra cap resposta. Toca el widget per obrir Repàs; un widget mitjà o gran obre Repàs directament a la targeta que mostra. Els widgets són gratuïts per a tothom, convidats inclosos.
+
+Per afegir-ne un, obre la galeria de widgets del dispositiu, tria Nibomo i escull una mida.
 
 ## App web allotjada
 
@@ -14,6 +43,8 @@ La manera més ràpida de començar és l'app web allotjada:
 L'opció allotjada no requereix cap instal·lació ni configurar cap servidor.
 
 ## Configuració d'agents
+
+Els clients MCP com Claude, ChatGPT i Cursor s'hi poden connectar seguint la [guia del connector MCP](/docs/mcp-connector/).
 
 Si vols que Claude Code, Codex o OpenClaw s'hi connectin directament, comença per:
 
@@ -32,7 +63,7 @@ Si prefereixes executar la teva pròpia instància, consulta la [Guia d'autoallo
 ## Què tens avui
 
 - App web allotjada per a targetes, repassos i xat amb IA
-- Client d'iOS al repositori principal amb SQLite local i sincronització que prioritza el funcionament fora de línia
+- Apps natives per a iPhone, iPad, Mac i Android amb emmagatzematge SQLite local i sincronització que prioritza el funcionament fora de línia
 - Serveis compartits de backend i d'autenticació en dominis `api` i `auth` separats
 - Incorporació d'agents externs mitjançant descobriment, OTP i autenticació ApiKey
 - Camí de desplegament de codi obert a AWS, amb Postgres com a font de referència
