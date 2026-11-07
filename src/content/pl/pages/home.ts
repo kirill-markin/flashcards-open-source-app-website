@@ -3,7 +3,7 @@ import type { PageContent } from "@/lib/content/types";
 export const HOME_PAGE_CONTENT: PageContent = {
   title: "Nibomo - Darmowe fiszki open source z powtórkami rozłożonymi w czasie",
   description:
-    "Darmowe fiszki open source z powtórkami FSRS, tworzeniem kart przy wsparciu AI, nauką offline i synchronizacją, przenośnym eksportem i self-hostingiem.",
+    "Darmowe fiszki open source z powtórkami FSRS, tworzeniem kart przy wsparciu AI, nauką offline i synchronizacją, widżetami na ekranie początkowym i self-hostingiem.",
   slug: "home",
   sections: [
     {
@@ -102,6 +102,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
           title: "Nauka offline z automatyczną synchronizacją",
           description:
             "Powtarzaj na urządzeniu mobilnym bez połączenia z internetem. Zmiany synchronizują się automatycznie.",
+        },
+        {
+          title: "Następna karta w zasięgu wzroku",
+          description:
+            "Widżety na ekranie początkowym urządzeń iPhone, iPad, Mac i Android pokazują, ile kart czeka na powtórkę, i następne pytanie.",
         },
         {
           title: "Import, eksport i kontrola nad danymi",

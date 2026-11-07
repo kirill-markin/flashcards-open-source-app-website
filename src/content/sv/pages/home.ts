@@ -3,7 +3,7 @@ import type { PageContent } from "@/lib/content/types";
 export const HOME_PAGE_CONTENT: PageContent = {
   title: "Nibomo - Gratis flashcards-app med öppen källkod och intervallrepetition",
   description:
-    "Gratis flashcards med öppen källkod, FSRS-intervallrepetition, AI-stöd när du skapar kort, plugg offline med synk, flyttbara exporter och drift på egen server.",
+    "Gratis flashcards med öppen källkod, FSRS-intervallrepetition, AI-stöd när du skapar kort, plugg offline med synk, widgetar för hemskärmen och drift på egen server.",
   slug: "home",
   sections: [
     {
@@ -102,6 +102,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
           title: "Plugga offline med automatisk synk",
           description:
             "Fortsätt repetera på din mobila enhet utan internetanslutning. Ändringar synkroniseras automatiskt.",
+        },
+        {
+          title: "Nästa kort på ett ögonkast",
+          description:
+            "Widgetar för hemskärmen på iPhone, iPad, Mac och Android visar vad som ska repeteras och nästa fråga.",
         },
         {
           title: "Importera, exportera och äg dina data",

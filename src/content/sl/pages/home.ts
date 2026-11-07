@@ -3,7 +3,7 @@ import type { PageContent } from "@/lib/content/types";
 export const HOME_PAGE_CONTENT: PageContent = {
   title: "Nibomo - brezplačne odprtokodne učne kartice s ponavljanjem v časovnih razmikih",
   description:
-    "Brezplačne odprtokodne učne kartice s ponavljanjem v časovnih razmikih po algoritmu FSRS, ustvarjanjem kartic s pomočjo AI, učenjem brez povezave in sinhronizacijo, prenosljivimi izvozi in lastnim gostovanjem.",
+    "Brezplačne odprtokodne učne kartice s ponavljanjem v časovnih razmikih po algoritmu FSRS, ustvarjanjem kartic s pomočjo AI, učenjem brez povezave in sinhronizacijo, pripomočki za začetni zaslon in lastnim gostovanjem.",
   slug: "home",
   sections: [
     {
@@ -102,6 +102,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
           title: "Učenje brez povezave s samodejno sinhronizacijo",
           description:
             "Nadaljujte s ponavljanjem na mobilni napravi brez internetne povezave. Spremembe se samodejno sinhronizirajo.",
+        },
+        {
+          title: "Naslednja kartica vedno pred očmi",
+          description:
+            "Pripomočki za začetni zaslon v napravah iPhone, iPad, Mac in Android pokažejo, koliko kartic čaka na ponovitev, in naslednje vprašanje.",
         },
         {
           title: "Uvoz, izvoz in lastništvo vaših podatkov",

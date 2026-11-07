@@ -3,7 +3,7 @@ import type { PageContent } from "@/lib/content/types";
 export const HOME_PAGE_CONTENT: PageContent = {
   title: "Nibomo - 免费开源的间隔重复闪卡应用",
   description:
-    "免费开源闪卡应用，支持 FSRS 间隔重复、AI 辅助创建、离线学习与同步、数据导出和自行托管。",
+    "免费开源闪卡应用，支持 FSRS 间隔重复、AI 辅助创建、离线学习与同步、主屏幕小组件和自行托管。",
   slug: "home",
   sections: [
     {
@@ -102,6 +102,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
           title: "离线学习与自动同步",
           description:
             "没有网络连接，也能在移动设备上继续复习。更改会自动同步。",
+        },
+        {
+          title: "下一张闪卡一眼可见",
+          description:
+            "iPhone、iPad、Mac 和 Android 主屏幕小组件会显示待复习的闪卡和下一个问题。",
         },
         {
           title: "导入、导出并掌控数据",

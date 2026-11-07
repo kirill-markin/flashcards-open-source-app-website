@@ -3,7 +3,7 @@ import type { PageContent } from "@/lib/content/types";
 export const HOME_PAGE_CONTENT: PageContent = {
   title: "Nibomo - Gratis open source-app til flashcards med spaced repetition",
   description:
-    "Gratis open source-flashcards med FSRS spaced repetition, AI-assisteret oprettelse af kort, offline læring og synkronisering, flytbare eksporter og selvhosting.",
+    "Gratis open source-flashcards med FSRS spaced repetition, AI-assisteret oprettelse af kort, offline læring og synkronisering, widgets til hjemmeskærmen og selvhosting.",
   slug: "home",
   sections: [
     {
@@ -102,6 +102,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
           title: "Offline læring med automatisk synkronisering",
           description:
             "Fortsæt med at repetere på din mobile enhed uden internetforbindelse. Ændringer synkroniseres automatisk.",
+        },
+        {
+          title: "Dit næste kort med ét blik",
+          description:
+            "Widgets til hjemmeskærmen på iPhone, iPad, Mac og Android viser, hvad der skal repeteres, og dit næste spørgsmål.",
         },
         {
           title: "Import, eksport og dine egne data",

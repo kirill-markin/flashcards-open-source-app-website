@@ -3,7 +3,7 @@ import type { PageContent } from "@/lib/content/types";
 export const HOME_PAGE_CONTENT: PageContent = {
   title: "Nibomo - App gratuito e de código aberto com repetição espaçada",
   description:
-    "Flashcards gratuitos e de código aberto com repetição espaçada FSRS, criação de cartões com IA, estudo offline, sincronização, exportação e auto-hospedagem.",
+    "Flashcards gratuitos e de código aberto com repetição espaçada FSRS, criação de cartões com IA, estudo offline, sincronização, widgets na Tela de Início e auto-hospedagem.",
   slug: "home",
   sections: [
     {
@@ -102,6 +102,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
           title: "Estudo offline com sincronização automática",
           description:
             "Continue revisando no seu dispositivo móvel sem conexão com a internet. As alterações são sincronizadas automaticamente.",
+        },
+        {
+          title: "Seu próximo cartão, de relance",
+          description:
+            "Widgets da Tela de Início para iPhone, iPad, Mac e Android mostram quantos cartões estão pendentes e a próxima pergunta.",
         },
         {
           title: "Importe, exporte e seja dono dos seus dados",

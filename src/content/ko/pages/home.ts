@@ -3,7 +3,7 @@ import type { PageContent } from "@/lib/content/types";
 export const HOME_PAGE_CONTENT: PageContent = {
   title: "Nibomo - 무료 오픈 소스 간격 반복 플래시카드 앱",
   description:
-    "FSRS 간격 반복, AI 카드 작성 도우미, 오프라인 학습과 동기화, 자유로운 내보내기, 셀프 호스팅을 갖춘 무료 오픈 소스 플래시카드.",
+    "FSRS 간격 반복, AI 카드 작성 도우미, 오프라인 학습과 동기화, 홈 화면 위젯, 셀프 호스팅을 갖춘 무료 오픈 소스 플래시카드.",
   slug: "home",
   sections: [
     {
@@ -102,6 +102,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
           title: "오프라인 학습과 자동 동기화",
           description:
             "인터넷 연결 없이도 모바일 기기에서 계속 복습할 수 있습니다. 변경 사항은 자동으로 동기화됩니다.",
+        },
+        {
+          title: "다음 카드를 한눈에",
+          description:
+            "iPhone, iPad, Mac, Android용 홈 화면 위젯에서 복습할 카드와 다음 질문을 바로 확인할 수 있습니다.",
         },
         {
           title: "가져오기, 내보내기, 내 데이터는 내 것",

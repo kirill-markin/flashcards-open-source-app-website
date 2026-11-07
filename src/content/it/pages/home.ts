@@ -3,7 +3,7 @@ import type { PageContent } from "@/lib/content/types";
 export const HOME_PAGE_CONTENT: PageContent = {
   title: "Nibomo - App di flashcard gratuita e open source a ripetizione dilazionata",
   description:
-    "Flashcard gratuite e open source con ripetizione dilazionata FSRS, creazione di carte assistita dall'AI, studio offline e sincronizzazione, esportazioni portabili e self-hosting.",
+    "Flashcard gratuite e open source con ripetizione dilazionata FSRS, creazione di carte assistita dall'AI, studio offline e sincronizzazione, widget per la schermata Home e self-hosting.",
   slug: "home",
   sections: [
     {
@@ -102,6 +102,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
           title: "Studio offline con sincronizzazione automatica",
           description:
             "Continua a ripassare sul tuo dispositivo mobile senza connessione a Internet. Le modifiche si sincronizzano automaticamente.",
+        },
+        {
+          title: "La tua prossima carta a colpo d'occhio",
+          description:
+            "I widget della schermata Home per iPhone, iPad, Mac e Android mostrano le carte da ripassare e la tua prossima domanda.",
         },
         {
           title: "Importa, esporta e possiedi i tuoi dati",

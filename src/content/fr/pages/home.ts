@@ -3,7 +3,7 @@ import type { PageContent } from "@/lib/content/types";
 export const HOME_PAGE_CONTENT: PageContent = {
   title: "Nibomo - Cartes mémoire gratuites et open source à répétition espacée",
   description:
-    "Cartes mémoire gratuites et open source avec répétition espacée FSRS, création assistée par IA, étude hors ligne et synchronisation, exports portables et auto-hébergement.",
+    "Cartes mémoire gratuites et open source avec répétition espacée FSRS, création assistée par IA, étude hors ligne et synchronisation, widgets d'écran d'accueil et auto-hébergement.",
   slug: "home",
   sections: [
     {
@@ -102,6 +102,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
           title: "Étude hors ligne avec synchronisation automatique",
           description:
             "Continuez à réviser sur votre appareil mobile sans connexion Internet. Les modifications se synchronisent automatiquement.",
+        },
+        {
+          title: "Votre prochaine carte en un coup d'œil",
+          description:
+            "Les widgets d'écran d'accueil pour iPhone, iPad, Mac et Android affichent les cartes à réviser et votre prochaine question.",
         },
         {
           title: "Importez, exportez et gardez vos données",

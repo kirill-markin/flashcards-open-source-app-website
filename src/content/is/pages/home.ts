@@ -3,7 +3,7 @@ import type { PageContent } from "@/lib/content/types";
 export const HOME_PAGE_CONTENT: PageContent = {
   title: "Nibomo - Ókeypis námskortaforrit með spaced repetition, opinn hugbúnaður",
   description:
-    "Ókeypis námskort í opnum hugbúnaði: spaced repetition með FSRS, spjaldagerð með hjálp gervigreindar, nám án nettengingar og samstilling, færanlegur útflutningur og eigin hýsing.",
+    "Ókeypis námskort í opnum hugbúnaði: spaced repetition með FSRS, spjaldagerð með hjálp gervigreindar, nám án nettengingar og samstilling, græjur á heimaskjá og eigin hýsing.",
   slug: "home",
   sections: [
     {
@@ -102,6 +102,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
           title: "Nám án nettengingar með sjálfvirkri samstillingu",
           description:
             "Haltu áfram að rifja upp í farsímanum án nettengingar. Breytingar samstillast sjálfkrafa.",
+        },
+        {
+          title: "Næsta spjald alltaf í sjónmáli",
+          description:
+            "Græjur á heimaskjá fyrir iPhone, iPad, Mac og Android sýna hvað er á dagskrá og næstu spurningu.",
         },
         {
           title: "Innflutningur, útflutningur og eignarhald á gögnunum",

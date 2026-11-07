@@ -4,7 +4,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
   title:
     "Nibomo - Ücretsiz, Açık Kaynak Aralıklı Tekrar Bilgi Kartı Uygulaması",
   description:
-    "FSRS aralıklı tekrar, AI destekli kart oluşturma, çevrimdışı çalışma ve senkronizasyon, taşınabilir dışa aktarma ve kendi sunucunuzda barındırma ile ücretsiz, açık kaynak bilgi kartları.",
+    "FSRS aralıklı tekrar, AI destekli kart oluşturma, çevrimdışı çalışma ve senkronizasyon, ana ekran widget'ları ve kendi sunucunuzda barındırma ile ücretsiz, açık kaynak bilgi kartları.",
   slug: "home",
   sections: [
     {
@@ -103,6 +103,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
           title: "Otomatik Senkronizasyonla Çevrimdışı Çalışma",
           description:
             "İnternet bağlantısı olmadan mobil cihazında tekrar yapmaya devam et. Değişiklikler otomatik olarak eşitlenir.",
+        },
+        {
+          title: "Sonraki Kart Tek Bakışta",
+          description:
+            "iPhone, iPad, Mac ve Android için ana ekran widget'ları, zamanı gelen kartları ve sonraki sorunuzu gösterir.",
         },
         {
           title: "İçe Aktarın, Dışa Aktarın, Verileriniz Sizde Kalsın",

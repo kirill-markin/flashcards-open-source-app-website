@@ -3,7 +3,7 @@ import type { PageContent } from "@/lib/content/types";
 export const HOME_PAGE_CONTENT: PageContent = {
   title: "Nibomo - Gratis læringskort med åpen kildekode og intervallrepetisjon",
   description:
-    "Gratis læringskort med åpen kildekode, FSRS-intervallrepetisjon, AI-assistert kortlaging, studier uten nett og synkronisering, portable eksporter og selvhosting.",
+    "Gratis læringskort med åpen kildekode, FSRS-intervallrepetisjon, AI-assistert kortlaging, studier uten nett og synkronisering, widgeter på Hjem-skjermen og selvhosting.",
   slug: "home",
   sections: [
     {
@@ -102,6 +102,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
           title: "Studier uten nett med automatisk synkronisering",
           description:
             "Fortsett å repetere på mobilen uten internettforbindelse. Endringer synkroniseres automatisk.",
+        },
+        {
+          title: "Neste kort, bare et blikk unna",
+          description:
+            "Widgeter på Hjem-skjermen for iPhone, iPad, Mac og Android viser hvor mange kort som skal repeteres, og neste spørsmål.",
         },
         {
           title: "Importer, eksporter og eier dataene dine",

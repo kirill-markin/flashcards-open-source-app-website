@@ -29,7 +29,7 @@ for (const locale of SUPPORTED_LOCALES) {
     assert.ok(features);
     assert.ok(cta);
     assert.equal(walkthrough.items.length, 3);
-    assert.equal(features.items.length, 5);
+    assert.equal(features.items.length, 6);
     const hero = home.sections.find(section=>section.type === "hero");
     assert.ok(hero);
     const copy = getHomeExperienceCopy(locale);

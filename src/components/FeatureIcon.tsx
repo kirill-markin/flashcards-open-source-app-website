@@ -1,9 +1,10 @@
-type FeatureIconName = "reviews" | "cards" | "offline" | "data" | "agents" | "server";
+type FeatureIconName = "reviews" | "cards" | "offline" | "widget" | "data" | "agents" | "server";
 
 export const FEATURE_ICON_NAMES: ReadonlyArray<FeatureIconName> = [
   "reviews",
   "cards",
   "offline",
+  "widget",
   "data",
   "agents",
   "server",
@@ -27,6 +28,13 @@ const ICON_CONTENT: Readonly<Record<FeatureIconName, React.ReactNode>> = {
     <>
       <path d="M6 15H5a4 4 0 0 1-.8-7.9 6 6 0 0 1 11.5-1.5A4.8 4.8 0 0 1 20 15h-2" />
       <path d="M12 10v11m-4-4 4 4 4-4" />
+    </>
+  ),
+  widget: (
+    <>
+      <rect x="5" y="2" width="14" height="20" rx="3" />
+      <rect x="8" y="5" width="8" height="6" rx="1.5" />
+      <path d="M8.5 15h.01M12 15h.01M15.5 15h.01M8.5 18h.01M12 18h.01M15.5 18h.01" />
     </>
   ),
   data: (

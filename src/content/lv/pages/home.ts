@@ -3,7 +3,7 @@ import type { PageContent } from "@/lib/content/types";
 export const HOME_PAGE_CONTENT: PageContent = {
   title: "Nibomo - bezmaksas atvērtā pirmkoda mācību kartītes ar spaced repetition",
   description:
-    "Bezmaksas atvērtā pirmkoda mācību kartītes ar FSRS spaced repetition, kartīšu veidošanu ar MI palīdzību, mācīšanos bezsaistē un sinhronizāciju, pārnesamu eksportu un darbināšanu savā serverī.",
+    "Bezmaksas atvērtā pirmkoda mācību kartītes ar FSRS spaced repetition, kartīšu veidošanu ar MI palīdzību, mācīšanos bezsaistē un sinhronizāciju, sākuma ekrāna logrīkiem un darbināšanu savā serverī.",
   slug: "home",
   sections: [
     {
@@ -102,6 +102,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
           title: "Mācīšanās bezsaistē ar automātisku sinhronizāciju",
           description:
             "Turpiniet atkārtot mobilajā ierīcē bez interneta savienojuma. Izmaiņas tiek sinhronizētas automātiski.",
+        },
+        {
+          title: "Nākamā kartīte – vienā skatienā",
+          description:
+            "iPhone, iPad, Mac un Android sākuma ekrāna logrīki rāda, cik kartīšu jāatkārto, un nākamo jautājumu.",
         },
         {
           title: "Imports, eksports un dati, kas pieder tev",

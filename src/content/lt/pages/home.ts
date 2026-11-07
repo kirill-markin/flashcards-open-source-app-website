@@ -3,7 +3,7 @@ import type { PageContent } from "@/lib/content/types";
 export const HOME_PAGE_CONTENT: PageContent = {
   title: "Nibomo - Nemokamos atvirojo kodo mokymosi kortelės su kartojimu intervalais",
   description:
-    "Nemokamos atvirojo kodo mokymosi kortelės su FSRS kartojimu intervalais, kortelių kūrimu su dirbtiniu intelektu, mokymusi neprisijungus ir sinchronizavimu, perkeliamu eksportu ir talpinimu savame serveryje.",
+    "Nemokamos atvirojo kodo mokymosi kortelės su FSRS kartojimu intervalais, kortelių kūrimu su dirbtiniu intelektu, mokymusi neprisijungus ir sinchronizavimu, pradžios ekrano valdikliais ir talpinimu savame serveryje.",
   slug: "home",
   sections: [
     {
@@ -102,6 +102,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
           title: "Mokymasis neprisijungus su automatiniu sinchronizavimu",
           description:
             "Kartokite mobiliajame įrenginyje be interneto ryšio. Pakeitimai sinchronizuojami automatiškai.",
+        },
+        {
+          title: "Kita kortelė – vienu žvilgsniu",
+          description:
+            "iPhone, iPad, Mac ir Android pradžios ekrano valdikliai rodo, kiek kortelių laikas kartoti, ir kitą klausimą.",
         },
         {
           title: "Importas, eksportas ir duomenys, kurie priklauso jums",

@@ -3,7 +3,7 @@ import type { PageContent } from "@/lib/content/types";
 export const HOME_PAGE_CONTENT: PageContent = {
   title: "Nibomo - App gratuïta i de codi obert de targetes d'estudi amb repetició espaiada",
   description:
-    "Targetes d'estudi gratuïtes i de codi obert amb repetició espaiada FSRS, creació de targetes assistida per IA, estudi fora de línia i sincronització, exportacions portables i autoallotjament.",
+    "Targetes d'estudi gratuïtes i de codi obert amb repetició espaiada FSRS, creació de targetes assistida per IA, estudi fora de línia i sincronització, widgets a la pantalla d'inici i autoallotjament.",
   slug: "home",
   sections: [
     {
@@ -102,6 +102,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
           title: "Estudi fora de línia amb sincronització automàtica",
           description:
             "Continua repassant al dispositiu mòbil sense connexió a internet. Els canvis se sincronitzen automàticament.",
+        },
+        {
+          title: "La targeta següent, d'un cop d'ull",
+          description:
+            "Els widgets de la pantalla d'inici per a l'iPhone, l'iPad, el Mac i Android mostren què tens pendent i la pregunta següent.",
         },
         {
           title: "Importa, exporta i sigues l'amo de les teves dades",

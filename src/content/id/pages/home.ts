@@ -3,7 +3,7 @@ import type { PageContent } from "@/lib/content/types";
 export const HOME_PAGE_CONTENT: PageContent = {
   title: "Nibomo - Aplikasi Kartu Pengulangan Berjarak Gratis dan Open Source",
   description:
-    "Kartu gratis dan open source dengan pengulangan berjarak FSRS, pembuatan kartu berbantuan AI, belajar offline dan sinkronisasi, ekspor portabel, serta self-hosting.",
+    "Kartu gratis dan open source dengan pengulangan berjarak FSRS, pembuatan kartu berbantuan AI, belajar offline dan sinkronisasi, widget Layar Utama, serta self-hosting.",
   slug: "home",
   sections: [
     {
@@ -102,6 +102,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
           title: "Belajar Offline dengan Sinkronisasi Otomatis",
           description:
             "Terus mengulas di perangkat seluler tanpa koneksi internet. Perubahan disinkronkan secara otomatis.",
+        },
+        {
+          title: "Kartu Berikutnya dalam Sekali Lihat",
+          description:
+            "Widget Layar Utama untuk iPhone, iPad, Mac, dan Android menampilkan kartu yang jatuh tempo dan pertanyaan berikutnya.",
         },
         {
           title: "Impor, Ekspor, dan Miliki Data Anda",

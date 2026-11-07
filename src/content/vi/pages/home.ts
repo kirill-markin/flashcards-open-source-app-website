@@ -3,7 +3,7 @@ import type { PageContent } from "@/lib/content/types";
 export const HOME_PAGE_CONTENT: PageContent = {
   title: "Nibomo - Ứng dụng thẻ ghi nhớ lặp lại ngắt quãng miễn phí, mã nguồn mở",
   description:
-    "Thẻ ghi nhớ miễn phí, mã nguồn mở với lặp lại ngắt quãng FSRS, tạo thẻ có AI hỗ trợ, học ngoại tuyến và đồng bộ, xuất dữ liệu linh hoạt và tự lưu trữ.",
+    "Thẻ ghi nhớ miễn phí, mã nguồn mở với lặp lại ngắt quãng FSRS, tạo thẻ có AI hỗ trợ, học ngoại tuyến và đồng bộ, tiện ích Màn hình chính và tự lưu trữ.",
   slug: "home",
   sections: [
     {
@@ -102,6 +102,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
           title: "Học ngoại tuyến với đồng bộ tự động",
           description:
             "Tiếp tục ôn tập trên thiết bị di động mà không cần kết nối internet. Các thay đổi được đồng bộ tự động.",
+        },
+        {
+          title: "Thẻ tiếp theo ngay trước mắt",
+          description:
+            "Tiện ích Màn hình chính trên iPhone, iPad, Mac và Android cho bạn thấy thẻ nào đến hạn và câu hỏi tiếp theo.",
         },
         {
           title: "Nhập, xuất và sở hữu dữ liệu của bạn",

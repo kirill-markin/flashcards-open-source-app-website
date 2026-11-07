@@ -3,7 +3,7 @@ import type { PageContent } from "@/lib/content/types";
 export const HOME_PAGE_CONTENT: PageContent = {
   title: "Nibomo - Amakhadi okufunda amahhala ne-spaced repetition, umthombo ovulekile",
   description:
-    "Amakhadi okufunda amahhala anomthombo ovulekile: i-spaced repetition nge-FSRS, ukudala amakhadi ngosizo lwe-AI, ukufunda ngaphandle kwe-inthanethi nokuvumelanisa, ukukhipha idatha nokuzisingathela.",
+    "Amakhadi okufunda amahhala anomthombo ovulekile: i-spaced repetition nge-FSRS, ukudala amakhadi ngosizo lwe-AI, ukufunda ngaphandle kwe-inthanethi nokuvumelanisa, amawijethi esikrini sasekhaya nokuzisingathela.",
   slug: "home",
   sections: [
     {
@@ -102,6 +102,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
           title: "Funda ngaphandle kwe-inthanethi, kuvumelaniswe ngokuzenzakalela",
           description:
             "Qhubeka nokubuyekeza kudivayisi yakho yeselula ngaphandle kokuxhumeka ku-inthanethi. Izinguquko zivunyelaniswa ngokuzenzakalelayo.",
+        },
+        {
+          title: "Ikhadi elilandelayo ngokubheka kanye",
+          description:
+            "Amawijethi esikrini sasekhaya ku-iPhone, i-iPad, i-Mac ne-Android akubonisa amakhadi asesikhathini sokubuyekezwa nombuzo wakho olandelayo.",
         },
         {
           title: "Ngenisa, ukhiphe, futhi ube ngumnikazi wedatha yakho",

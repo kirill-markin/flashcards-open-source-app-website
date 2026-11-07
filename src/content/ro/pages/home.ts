@@ -3,7 +3,7 @@ import type { PageContent } from "@/lib/content/types";
 export const HOME_PAGE_CONTENT: PageContent = {
   title: "Nibomo - Aplicație gratuită și open source de fișe cu repetiție spațiată",
   description:
-    "Fișe gratuite și open source cu repetiție spațiată FSRS, creare de fișe asistată de AI, studiu offline și sincronizare, exporturi portabile și găzduire proprie.",
+    "Fișe gratuite și open source cu repetiție spațiată FSRS, creare de fișe asistată de AI, studiu offline și sincronizare, widgeturi pe ecranul principal și găzduire proprie.",
   slug: "home",
   sections: [
     {
@@ -102,6 +102,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
           title: "Studiu offline cu sincronizare automată",
           description:
             "Continuă să recapitulezi pe dispozitivul mobil fără conexiune la internet. Modificările se sincronizează automat.",
+        },
+        {
+          title: "Următoarea fișă dintr-o privire",
+          description:
+            "Widgeturile pentru ecranul principal de pe iPhone, iPad, Mac și Android arată câte fișe sunt de recapitulat și următoarea întrebare.",
         },
         {
           title: "Importă, exportă și deține datele tale",
