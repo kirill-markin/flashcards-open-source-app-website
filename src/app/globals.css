@@ -136,7 +136,8 @@ main h1,
   :root {
     --site-header-height: 70px;
     --page-title-font-size: 32px;
-    --page-intro-offset: 48px;
+    --page-intro-offset: 16px;
+    --heading-badge-gap: 12px;
     --reading-font-size: 18px;
   }
 }

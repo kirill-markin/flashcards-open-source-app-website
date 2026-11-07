@@ -324,7 +324,7 @@
   .container {
     inline-size: var(--site-content-width);
     padding-inline: 0;
-    padding-top: 26px;
+    padding-block-start: var(--page-intro-offset);
   }
 
   .intro {
