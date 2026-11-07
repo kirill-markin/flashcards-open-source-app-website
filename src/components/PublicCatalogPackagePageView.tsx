@@ -80,6 +80,7 @@ interface PublicCatalogCardListStudyCtaProps extends PublicCatalogStudyCtaProps 
 }
 
 interface PublicCatalogRelatedDecksProps {
+  readonly className: string;
   readonly heading: string;
   readonly locale: AppLocale;
   readonly packages: ReadonlyArray<PublicCatalogPackageCardView>;
@@ -148,6 +149,7 @@ function PublicCatalogCardListStudyCta({
 }
 
 function PublicCatalogRelatedDecks({
+  className,
   heading,
   locale,
   packages,
@@ -158,7 +160,7 @@ function PublicCatalogRelatedDecks({
   }
 
   return (
-    <section className={styles.relatedDecks}>
+    <section className={`${styles.relatedDecks} ${className}`}>
       <h2>{heading}</h2>
       <ul className={styles.relatedDeckList} role="list">
         {packages.map(({ coverMediaAsset, latestVersion, packageMetadata }) => (
@@ -432,6 +434,7 @@ export async function PublicCatalogPackagePageView({
                 </dl>
               </section>
               <PublicCatalogRelatedDecks
+                className={styles.relatedDecksSidebar}
                 heading={copy.similarDecksHeading}
                 locale={locale}
                 packages={relatedPackages}
@@ -517,6 +520,14 @@ export async function PublicCatalogPackagePageView({
             </>
           )}
         </section>
+
+        <PublicCatalogRelatedDecks
+          className={styles.relatedDecksBottom}
+          heading={copy.similarDecksHeading}
+          locale={locale}
+          packages={relatedPackages}
+          placeholderLabel={copy.coverPlaceholderLabel}
+        />
       </article>
     </SiteFrameForRouteLocales>
   );
