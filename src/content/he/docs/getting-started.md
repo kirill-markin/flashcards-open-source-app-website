@@ -1,7 +1,36 @@
 ---
 title: צעדים ראשונים
-description: התחל באפליקציית הרשת המתארחת, חבר סוכן דרך כתובת הגילוי או הרץ את המערכת המקומית בעצמך.
+description: התחל עם האפליקציה ל-iPhone, ל-iPad, ל-Mac או ל-Android, עם אפליקציית הרשת, עם סוכן AI או עם שרת משלך.
 ---
+
+יש כמה דרכים להתחיל, מהפופולרית ביותר ואילך:
+
+- **אפליקציה ל-iPhone, ל-iPad ול-Mac**: [App Store](https://apps.apple.com/app/apple-store/id6760538964?pt=128797295&ct=marketing_site&mt=8)
+- **אפליקציה ל-Android**: [Google Play](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&utm_source=flashcards_website&utm_medium=referral&utm_campaign=marketing_site)
+- **אפליקציית הרשת המתארחת**: [app.nibomo.com](https://app.nibomo.com)
+- **סוכני AI**: [מחבר ה-MCP](/docs/mcp-connector/) או ה-API בכתובת `https://api.nibomo.com/v1/`
+- **אירוח עצמי**: [מדריך האירוח העצמי](/docs/self-hosting/)
+
+## אפליקציות לנייד ולמחשב
+
+התקן את האפליקציה הנייטיבית למכשיר שלך:
+
+- iPhone, iPad ו-Mac: [App Store](https://apps.apple.com/app/apple-store/id6760538964?pt=128797295&ct=marketing_site&mt=8)
+- Android: [Google Play](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&utm_source=flashcards_website&utm_medium=referral&utm_campaign=marketing_site)
+
+האפליקציות שומרות את הכרטיסים שלך במכשיר, כך שאפשר לחזור עליהם גם בלי חיבור לאינטרנט, והן מסתנכרנות כשהחיבור חוזר. אפשר להתחיל כאורח ולהתחבר מאוחר יותר.
+
+### וידג׳טים במסך הבית
+
+אפליקציית Nibomo מוסיפה וידג׳ט חזרה ל-iPhone, ל-iPad, ל-Mac ול-Android. הוא זמין בשלושה גדלים:
+
+- **קטן**: כמה כרטיסים ממתינים לחזרה ורצף הלמידה שלך
+- **בינוני**: כמה כרטיסים ממתינים לחזרה והשאלה בכרטיס הבא שלך
+- **גדול**: כמה כרטיסים ממתינים לחזרה, השאלה הבאה שלך והרצף שלך
+
+כשאין כרטיסים שממתינים לחזרה, הווידג׳ט מציג "הכול הושלם" ומתי יגיע זמנו של הכרטיס הבא. הוא אף פעם לא מציג תשובה. הקש על הווידג׳ט כדי לפתוח את מסך החזרה; וידג׳ט בינוני או גדול פותח את מסך החזרה בכרטיס שהוא מציג. הווידג׳טים חינמיים לכולם, כולל אורחים.
+
+כדי להוסיף וידג׳ט, פתח את גלריית הווידג׳טים במכשיר שלך, בחר ב-Nibomo ולאחר מכן בגודל הרצוי.
 
 ## אפליקציית הרשת המתארחת
 
@@ -14,6 +43,8 @@ description: התחל באפליקציית הרשת המתארחת, חבר סו�
 במסלול המתארח אין צורך בהתקנה או בהגדרת שרת.
 
 ## הגדרת סוכן
+
+לקוחות MCP כמו Claude, ChatGPT ו-Cursor יכולים להתחבר בעזרת [המדריך למחבר ה-MCP](/docs/mcp-connector/).
 
 אם אתה רוצה ש-Claude Code, Codex או OpenClaw יתחברו ישירות, התחל מכאן:
 
@@ -32,7 +63,7 @@ GET https://api.nibomo.com/v1/
 ## מה מקבלים כבר היום
 
 - אפליקציית רשת מתארחת לכרטיסים, לחזרות ולצ׳אט AI
-- לקוח iOS במאגר הראשי עם SQLite מקומי וסנכרון שמתוכנן קודם כל לעבודה ללא חיבור
+- אפליקציות נייטיב ל-iPhone, ל-iPad, ל-Mac ול-Android עם אחסון SQLite מקומי וסנכרון שמתוכנן קודם כל לעבודה ללא חיבור
 - שירותי צד שרת ואימות משותפים בדומיינים נפרדים, `api` ו-`auth`
 - חיבור סוכנים חיצוניים דרך גילוי, קוד חד-פעמי ואימות ApiKey
 - מסלול פריסה בקוד פתוח ב-AWS, עם Postgres כמקור האמת

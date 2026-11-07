@@ -1,7 +1,36 @@
 ---
 title: はじめに
-description: ホスト版Webアプリから始める方法、ディスカバリーURL経由でエージェントを接続する方法、自分でローカルスタックを動かす方法を案内します。
+description: iPhone、iPad、Mac、Android のアプリ、Webアプリ、AI エージェント、自分のサーバーから始める方法を案内します。
 ---
+
+始め方はいくつかあります。よく使われている順に紹介します。
+
+- **iPhone、iPad、Mac 向けアプリ**: [App Store](https://apps.apple.com/app/apple-store/id6760538964?pt=128797295&ct=marketing_site&mt=8)
+- **Android アプリ**: [Google Play](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&utm_source=flashcards_website&utm_medium=referral&utm_campaign=marketing_site)
+- **ホスト版Webアプリ**: [app.nibomo.com](https://app.nibomo.com)
+- **AI エージェント**: [MCP コネクタ](/docs/mcp-connector/) または `https://api.nibomo.com/v1/` の API
+- **セルフホスティング**: [セルフホスティングガイド](/docs/self-hosting/)
+
+## モバイル・デスクトップアプリ
+
+お使いのデバイス向けのネイティブアプリをインストールします。
+
+- iPhone、iPad、Mac: [App Store](https://apps.apple.com/app/apple-store/id6760538964?pt=128797295&ct=marketing_site&mt=8)
+- Android: [Google Play](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&utm_source=flashcards_website&utm_medium=referral&utm_campaign=marketing_site)
+
+アプリはカードをデバイス上に保存するため、オフラインでも復習でき、オンラインに戻ると同期されます。ゲストとして始めて、後からサインインすることもできます。
+
+### ホーム画面ウィジェット
+
+Nibomo アプリは、iPhone、iPad、Mac、Android に「復習」ウィジェットを追加します。サイズは 3 種類です。
+
+- **小**: 復習待ちのカード数と連続学習の日数
+- **中**: 復習待ちのカード数と次のカードの問題
+- **大**: 復習待ちのカード数、次の問題、連続学習の日数
+
+復習待ちのカードがないときは、ウィジェットに「すべて完了」と次のカードの復習時刻が表示されます。答えが表示されることはありません。ウィジェットをタップすると「復習」が開きます。中または大のウィジェットでは、表示中のカードから「復習」が始まります。ウィジェットはゲストを含め、誰でも無料で使えます。
+
+追加するには、デバイスのウィジェットギャラリーを開き、Nibomo を選んでからサイズを選びます。
 
 ## ホスト版Webアプリ
 
@@ -14,6 +43,8 @@ description: ホスト版Webアプリから始める方法、ディスカバリ�
 この方法なら、インストールやサーバー設定は不要です。
 
 ## エージェントのセットアップ
+
+Claude、ChatGPT、Cursor などの MCP クライアントは、[MCP コネクタガイド](/docs/mcp-connector/) の手順で接続できます。
 
 Claude Code、Codex、OpenClaw を直接接続する場合は、まず次のURLから始めます。
 
@@ -32,7 +63,7 @@ GET https://api.nibomo.com/v1/
 ## 現在利用できるもの
 
 - カード作成、復習、AIチャットを利用できるホスト版Webアプリ
-- ローカル SQLite とオフラインファースト同期を備えた iOS クライアント
+- ローカル SQLite ストレージとオフラインファースト同期を備えた、iPhone、iPad、Mac、Android 向けネイティブアプリ
 - `api` ドメインと `auth` ドメインで分けて提供される共有バックエンドと認証サービス
 - ディスカバリー、OTP、ApiKey 認証による外部エージェント向けの接続フロー
 - Postgres を正本データストアとする、AWS 上でのオープンソース運用構成

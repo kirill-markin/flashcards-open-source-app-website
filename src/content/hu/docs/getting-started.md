@@ -1,7 +1,36 @@
 ---
 title: Első lépések
-description: Kezdd a felhős webalkalmazással, csatlakoztass egy ügynököt a felderítési URL-en keresztül, vagy futtasd magad a helyi környezetet.
+description: Kezdd az iPhone-, iPad-, Mac- vagy Android-alkalmazással, a webalkalmazással, egy AI-ügynökkel vagy a saját szervereden.
 ---
+
+Többféleképpen is elkezdheted, a legnépszerűbb lehetőséggel kezdve:
+
+- **iPhone-, iPad- és Mac-alkalmazás**: [App Store](https://apps.apple.com/app/apple-store/id6760538964?pt=128797295&ct=marketing_site&mt=8)
+- **Android-alkalmazás**: [Google Play](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&utm_source=flashcards_website&utm_medium=referral&utm_campaign=marketing_site)
+- **Felhős webalkalmazás**: [app.nibomo.com](https://app.nibomo.com)
+- **AI-ügynökök**: az [MCP-csatlakozó](/docs/mcp-connector/) vagy az API a `https://api.nibomo.com/v1/` címen
+- **Saját üzemeltetés**: a [saját üzemeltetési útmutató](/docs/self-hosting/)
+
+## Mobil- és asztali alkalmazások
+
+Telepítsd az eszközödhöz való natív alkalmazást:
+
+- iPhone, iPad és Mac: [App Store](https://apps.apple.com/app/apple-store/id6760538964?pt=128797295&ct=marketing_site&mt=8)
+- Android: [Google Play](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&utm_source=flashcards_website&utm_medium=referral&utm_campaign=marketing_site)
+
+Az alkalmazások az eszközön tárolják a kártyáidat, így offline is ismételhetsz, és amikor újra online vagy, szinkronizálnak. Vendégként is kezdhetsz, és később bejelentkezhetsz.
+
+### Főképernyő-widgetek
+
+A Nibomo alkalmazás egy Ismétlés widgetet kínál iPhone-ra, iPadre, Macre és Androidra. Három méretben érhető el:
+
+- **Kicsi**: hány kártya esedékes, és a tanulási sorozatod
+- **Közepes**: hány kártya esedékes, és a következő kártyád kérdése
+- **Nagy**: hány kártya esedékes, a következő kérdésed és a sorozatod
+
+Ha semmi sem esedékes, a widget a „Mindennel végeztél” üzenetet mutatja, és azt, hogy mikor esedékes a következő kártya. Választ soha nem mutat. Koppints a widgetre az Ismétlés megnyitásához; a közepes vagy nagy widget azon a kártyán nyitja meg az Ismétlést, amelyet mutat. A widgetek mindenki számára ingyenesek, a vendégeknek is.
+
+Hozzáadáshoz nyisd meg az eszközöd widgetgalériáját, válaszd a Nibomót, majd jelölj ki egy méretet.
 
 ## Felhős webalkalmazás
 
@@ -14,6 +43,8 @@ A leggyorsabban a felhős webalkalmazással kezdhetsz:
 A felhős változathoz nincs szükség telepítésre vagy szerverbeállításra.
 
 ## Ügynök beállítása
+
+Az olyan MCP-kliensek, mint a Claude, a ChatGPT és a Cursor, az [MCP-csatlakozó útmutatója](/docs/mcp-connector/) alapján csatlakozhatnak.
 
 Ha azt szeretnéd, hogy a Claude Code, a Codex vagy az OpenClaw közvetlenül csatlakozzon, innen indulj:
 
@@ -32,7 +63,7 @@ Ha inkább saját példányt futtatnál, nézd meg a [saját üzemeltetési útm
 ## Mit kapsz már most
 
 - Felhős webalkalmazás a kártyákhoz, az ismétléshez és az AI-csevegéshez
-- iOS-kliens a fő tárolóban, helyi SQLite-tal és offline-first szinkronizálással
+- Natív iPhone-, iPad-, Mac- és Android-alkalmazások helyi SQLite-tárolással és offline-first szinkronizálással
 - Közös backend- és hitelesítési szolgáltatások külön `api` és `auth` domaineken
 - Külső ügynökök bekötése felderítéssel, OTP-vel és ApiKey-hitelesítéssel
 - Nyílt forráskódú telepítési útvonal AWS-en, ahol a Postgres az egyetlen hiteles adatforrás

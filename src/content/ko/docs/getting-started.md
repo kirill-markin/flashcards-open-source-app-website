@@ -1,7 +1,36 @@
 ---
 title: 시작하기
-description: 호스팅 웹 앱으로 시작하거나, 디스커버리 URL로 에이전트를 연결하거나, 로컬 스택을 직접 실행하세요.
+description: iPhone, iPad, Mac, Android 앱이나 웹 앱으로 시작하거나, AI 에이전트를 연결하거나, 직접 서버를 운영하세요.
 ---
+
+시작하는 방법은 여러 가지이며, 많이 쓰는 순서대로 소개합니다.
+
+- **iPhone, iPad, Mac 앱**: [App Store](https://apps.apple.com/app/apple-store/id6760538964?pt=128797295&ct=marketing_site&mt=8)
+- **Android 앱**: [Google Play](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&utm_source=flashcards_website&utm_medium=referral&utm_campaign=marketing_site)
+- **호스팅 웹 앱**: [app.nibomo.com](https://app.nibomo.com)
+- **AI 에이전트**: [MCP 커넥터](/docs/mcp-connector/) 또는 `https://api.nibomo.com/v1/`의 API
+- **셀프 호스팅**: [셀프 호스팅 가이드](/docs/self-hosting/)
+
+## 모바일 및 데스크톱 앱
+
+사용하는 기기에 맞는 네이티브 앱을 설치하세요.
+
+- iPhone, iPad, Mac: [App Store](https://apps.apple.com/app/apple-store/id6760538964?pt=128797295&ct=marketing_site&mt=8)
+- Android: [Google Play](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&utm_source=flashcards_website&utm_medium=referral&utm_campaign=marketing_site)
+
+앱은 카드를 기기에 저장하므로 오프라인에서도 복습할 수 있고, 다시 온라인 상태가 되면 동기화됩니다. 게스트로 시작하고 나중에 로그인할 수도 있습니다.
+
+### 홈 화면 위젯
+
+Nibomo 앱은 iPhone, iPad, Mac, Android에 복습 위젯을 추가합니다. 크기는 세 가지입니다.
+
+- **소형**: 복습할 카드 수와 연속 학습 일수
+- **중형**: 복습할 카드 수와 다음 카드의 질문
+- **대형**: 복습할 카드 수, 다음 질문, 연속 학습 일수
+
+복습할 카드가 없으면 위젯에 “모두 완료”와 다음 카드의 복습 시간이 표시됩니다. 답은 표시되지 않습니다. 위젯을 탭하면 복습이 열리며, 중형 또는 대형 위젯은 표시된 카드에서 바로 복습을 엽니다. 위젯은 게스트를 포함해 누구나 무료로 사용할 수 있습니다.
+
+추가하려면 기기의 위젯 갤러리를 열고 Nibomo를 선택한 다음 크기를 고르세요.
 
 ## 호스팅 웹 앱
 
@@ -14,6 +43,8 @@ description: 호스팅 웹 앱으로 시작하거나, 디스커버리 URL로 에
 호스팅 방식을 쓰면 설치나 서버 설정이 필요 없습니다.
 
 ## 에이전트 설정
+
+Claude, ChatGPT, Cursor 같은 MCP 클라이언트는 [MCP 커넥터 가이드](/docs/mcp-connector/)를 따라 연결할 수 있습니다.
 
 Claude Code, Codex, OpenClaw를 직접 연결하려면 여기서 시작하세요.
 
@@ -32,7 +63,7 @@ GET https://api.nibomo.com/v1/
 ## 현재 제공되는 것
 
 - 카드, 복습, AI 채팅을 위한 호스팅 웹 앱
-- 메인 저장소에 포함된 iOS 클라이언트(로컬 SQLite와 오프라인 우선 동기화 지원)
+- 로컬 SQLite 저장소와 오프라인 우선 동기화를 지원하는 iPhone, iPad, Mac, Android 네이티브 앱
 - 별도의 `api` 도메인과 `auth` 도메인에서 동작하는 공용 백엔드와 인증 서비스
 - 디스커버리, OTP, ApiKey 인증을 통한 외부 에이전트 온보딩
 - Postgres를 기준 데이터 저장소로 삼는 AWS 기반 오픈 소스 배포 경로
