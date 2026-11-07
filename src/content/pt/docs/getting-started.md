@@ -1,9 +1,38 @@
 ---
 title: Primeiros passos
 description: >-
-  Comece pelo app web hospedado, conecte um agente pela URL de descoberta ou
-  execute a stack local por conta própria.
+  Comece pelo app para iPhone, iPad, Mac ou Android, pelo app web, por um
+  agente de IA ou pelo seu próprio servidor.
 ---
+
+Há várias formas de começar; as mais populares vêm primeiro:
+
+- **App para iPhone, iPad e Mac**: [App Store](https://apps.apple.com/app/apple-store/id6760538964?pt=128797295&ct=marketing_site&mt=8)
+- **App para Android**: [Google Play](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&utm_source=flashcards_website&utm_medium=referral&utm_campaign=marketing_site)
+- **App web hospedado**: [app.nibomo.com](https://app.nibomo.com)
+- **Agentes de IA**: o [conector MCP](/docs/mcp-connector/) ou a API em `https://api.nibomo.com/v1/`
+- **Auto-hospedagem**: o [Guia de auto-hospedagem](/docs/self-hosting/)
+
+## Apps para celular e computador
+
+Instale o app nativo para o seu dispositivo:
+
+- iPhone, iPad e Mac: [App Store](https://apps.apple.com/app/apple-store/id6760538964?pt=128797295&ct=marketing_site&mt=8)
+- Android: [Google Play](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&utm_source=flashcards_website&utm_medium=referral&utm_campaign=marketing_site)
+
+Os apps guardam seus cartões no dispositivo, então você pode revisar offline, e sincronizam quando você volta a ficar online. Você pode começar como convidado e entrar na sua conta depois.
+
+### Widgets da Tela de Início
+
+O app Nibomo adiciona o widget “Revisar” ao iPhone, iPad, Mac e Android. Ele vem em três tamanhos:
+
+- **Pequeno**: quantos cartões estão pendentes e sua sequência de estudos
+- **Médio**: quantos cartões estão pendentes e a pergunta do seu próximo cartão
+- **Grande**: quantos cartões estão pendentes, sua próxima pergunta e sua sequência
+
+Quando não há nada pendente, o widget mostra “Tudo em dia” e quando vence o próximo cartão. Ele nunca mostra uma resposta. Toque no widget para abrir a seção Revisar; um widget médio ou grande abre Revisar direto no cartão exibido. Os widgets são gratuitos para todos, inclusive convidados.
+
+Para adicionar um, abra a galeria de widgets do seu dispositivo, escolha o Nibomo e selecione um tamanho.
 
 ## App web hospedado
 
@@ -16,6 +45,8 @@ O jeito mais rápido de começar é o app web hospedado:
 Nenhuma instalação ou configuração de servidor é necessária no caminho hospedado.
 
 ## Configuração do agente
+
+Clientes MCP como Claude, ChatGPT e Cursor podem se conectar pelo [guia do conector MCP](/docs/mcp-connector/).
 
 Se você quiser conectar o Claude Code, o Codex ou o OpenClaw diretamente, comece por:
 
@@ -34,7 +65,7 @@ Se você preferir rodar sua própria instância, veja o [Guia de auto-hospedagem
 ## O que você tem hoje
 
 - App web hospedado para cartões, revisão e chat de IA
-- Cliente iOS no repositório principal, com SQLite local e sincronização offline-first
+- Apps nativos para iPhone, iPad, Mac e Android, com armazenamento SQLite local e sincronização offline-first
 - Serviços de backend e de autenticação compartilhados em domínios `api` e `auth` separados
 - Onboarding de agentes externos por descoberta, OTP e autenticação ApiKey
 - Caminho de implantação open source na AWS, com Postgres como fonte da verdade

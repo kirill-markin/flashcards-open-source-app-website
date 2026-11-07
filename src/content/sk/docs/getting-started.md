@@ -1,7 +1,36 @@
 ---
 title: Prvé kroky
-description: Začnite s hosťovanou webovou aplikáciou, pripojte agenta cez zisťovaciu URL adresu alebo si sami spustite lokálny stack.
+description: Začnite s aplikáciou pre iPhone, iPad, Mac alebo Android, webovou aplikáciou, AI agentom alebo vlastným serverom.
 ---
+
+Začať môžete viacerými spôsobmi, od najobľúbenejšieho:
+
+- **Aplikácia pre iPhone, iPad a Mac**: [App Store](https://apps.apple.com/app/apple-store/id6760538964?pt=128797295&ct=marketing_site&mt=8)
+- **Aplikácia pre Android**: [Google Play](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&utm_source=flashcards_website&utm_medium=referral&utm_campaign=marketing_site)
+- **Hosťovaná webová aplikácia**: [app.nibomo.com](https://app.nibomo.com)
+- **AI agenti**: [MCP konektor](/docs/mcp-connector/) alebo API na adrese `https://api.nibomo.com/v1/`
+- **Vlastné hosťovanie**: [Návod na vlastné hosťovanie](/docs/self-hosting/)
+
+## Mobilné a desktopové aplikácie
+
+Nainštalujte si natívnu aplikáciu pre svoje zariadenie:
+
+- iPhone, iPad a Mac: [App Store](https://apps.apple.com/app/apple-store/id6760538964?pt=128797295&ct=marketing_site&mt=8)
+- Android: [Google Play](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&utm_source=flashcards_website&utm_medium=referral&utm_campaign=marketing_site)
+
+Aplikácie ukladajú kartičky v zariadení, takže môžete opakovať aj offline, a keď ste znova online, synchronizujú sa. Môžete začať ako hosť a prihlásiť sa neskôr.
+
+### Widgety na ploche
+
+Aplikácia Nibomo pridáva widget „Opakovanie“ na iPhone, iPad, Mac a Android. Je dostupný v troch veľkostiach:
+
+- **Malý**: koľko kartičiek čaká na opakovanie a vaša séria učenia
+- **Stredný**: koľko kartičiek čaká na opakovanie a otázka z ďalšej kartičky
+- **Veľký**: koľko kartičiek čaká na opakovanie, ďalšia otázka a vaša séria
+
+Keď nie je čo opakovať, widget zobrazí „Všetko zopakované“ a čas, keď príde na rad ďalšia kartička. Odpoveď nikdy nezobrazuje. Ťuknutím na widget otvoríte sekciu Opakovanie; stredný alebo veľký widget ju otvorí priamo na zobrazenej kartičke. Widgety sú bezplatné pre všetkých vrátane hostí.
+
+Ak ho chcete pridať, otvorte galériu widgetov v zariadení, vyberte Nibomo a zvoľte veľkosť.
 
 ## Hosťovaná webová aplikácia
 
@@ -14,6 +43,8 @@ Najrýchlejšie začnete s hosťovanou webovou aplikáciou:
 Pri hosťovanej aplikácii nemusíte nič inštalovať ani nastavovať server.
 
 ## Nastavenie agenta
+
+MCP klienti ako Claude, ChatGPT a Cursor sa môžu pripojiť podľa [návodu na MCP konektor](/docs/mcp-connector/).
 
 Ak chcete, aby sa Claude Code, Codex alebo OpenClaw pripojili priamo, začnite tu:
 
@@ -32,7 +63,7 @@ Ak radšej prevádzkujete vlastnú inštanciu, pozrite si [Návod na vlastné ho
 ## Čo dostanete už dnes
 
 - Hosťovanú webovú aplikáciu na kartičky, opakovanie a AI chat
-- Klienta pre iOS v hlavnom repozitári s lokálnym SQLite a synchronizáciou navrhnutou primárne na prácu offline
+- Natívne aplikácie pre iPhone, iPad, Mac a Android s lokálnym úložiskom SQLite a synchronizáciou navrhnutou primárne na prácu offline
 - Spoločný backend a autentifikačné služby na samostatných doménach `api` a `auth`
 - Pripojenie externých agentov cez zisťovanie, OTP a autentifikáciu ApiKey
 - Nasadenie s otvoreným zdrojovým kódom na AWS, kde je zdrojom pravdy Postgres

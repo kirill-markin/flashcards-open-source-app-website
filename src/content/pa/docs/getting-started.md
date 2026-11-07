@@ -1,7 +1,36 @@
 ---
 title: ਸ਼ੁਰੂਆਤ
-description: ਹੋਸਟ ਕੀਤੀ ਵੈੱਬ ਐਪ ਨਾਲ ਸ਼ੁਰੂ ਕਰੋ, ਡਿਸਕਵਰੀ URL ਰਾਹੀਂ ਕੋਈ ਏਜੰਟ ਜੋੜੋ, ਜਾਂ ਲੋਕਲ ਸਟੈਕ ਆਪ ਚਲਾਓ।
+description: iPhone, iPad, Mac ਜਾਂ Android ਐਪ, ਵੈੱਬ ਐਪ, ਕਿਸੇ AI ਏਜੰਟ ਜਾਂ ਆਪਣੇ ਸਰਵਰ ਨਾਲ ਸ਼ੁਰੂ ਕਰੋ।
 ---
+
+ਸ਼ੁਰੂ ਕਰਨ ਦੇ ਕਈ ਤਰੀਕੇ ਹਨ; ਸਭ ਤੋਂ ਮਸ਼ਹੂਰ ਤਰੀਕੇ ਪਹਿਲਾਂ ਦਿੱਤੇ ਹਨ:
+
+- **iPhone, iPad ਅਤੇ Mac ਐਪ**: [App Store](https://apps.apple.com/app/apple-store/id6760538964?pt=128797295&ct=marketing_site&mt=8)
+- **Android ਐਪ**: [Google Play](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&utm_source=flashcards_website&utm_medium=referral&utm_campaign=marketing_site)
+- **ਹੋਸਟ ਕੀਤੀ ਵੈੱਬ ਐਪ**: [app.nibomo.com](https://app.nibomo.com)
+- **AI ਏਜੰਟ**: [MCP ਕਨੈਕਟਰ](/docs/mcp-connector/) ਜਾਂ `https://api.nibomo.com/v1/` ਉੱਤੇ API
+- **ਆਪ ਹੋਸਟਿੰਗ**: [ਆਪ ਹੋਸਟਿੰਗ ਗਾਈਡ](/docs/self-hosting/)
+
+## ਮੋਬਾਈਲ ਅਤੇ ਡੈਸਕਟਾਪ ਐਪਾਂ
+
+ਆਪਣੇ ਡਿਵਾਈਸ ਲਈ ਨੇਟਿਵ ਐਪ ਇੰਸਟਾਲ ਕਰੋ:
+
+- iPhone, iPad ਅਤੇ Mac: [App Store](https://apps.apple.com/app/apple-store/id6760538964?pt=128797295&ct=marketing_site&mt=8)
+- Android: [Google Play](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&utm_source=flashcards_website&utm_medium=referral&utm_campaign=marketing_site)
+
+ਐਪਾਂ ਤੁਹਾਡੇ ਕਾਰਡ ਡਿਵਾਈਸ ਉੱਤੇ ਹੀ ਰੱਖਦੀਆਂ ਹਨ, ਇਸ ਲਈ ਤੁਸੀਂ ਆਫ਼ਲਾਈਨ ਵੀ ਦੁਹਰਾਈ ਕਰ ਸਕਦੇ ਹੋ, ਅਤੇ ਮੁੜ ਆਨਲਾਈਨ ਹੋਣ ਉੱਤੇ ਇਹ ਸਿੰਕ ਹੋ ਜਾਂਦੀਆਂ ਹਨ। ਤੁਸੀਂ ਮਹਿਮਾਨ ਵਜੋਂ ਸ਼ੁਰੂ ਕਰਕੇ ਬਾਅਦ ਵਿੱਚ ਸਾਈਨ ਇਨ ਕਰ ਸਕਦੇ ਹੋ।
+
+### ਹੋਮ ਸਕ੍ਰੀਨ ਵਿਜੇਟ
+
+Nibomo ਐਪ iPhone, iPad, Mac ਅਤੇ Android ਉੱਤੇ “ਦੁਹਰਾਈ” ਵਿਜੇਟ ਜੋੜਦੀ ਹੈ। ਇਹ ਤਿੰਨ ਆਕਾਰਾਂ ਵਿੱਚ ਮਿਲਦਾ ਹੈ:
+
+- **ਛੋਟਾ**: ਕਿੰਨੇ ਕਾਰਡਾਂ ਦੀ ਦੁਹਰਾਈ ਬਾਕੀ ਹੈ ਅਤੇ ਤੁਹਾਡੀ ਪੜ੍ਹਾਈ ਦੀ ਲੜੀ
+- **ਦਰਮਿਆਨਾ**: ਕਿੰਨੇ ਕਾਰਡਾਂ ਦੀ ਦੁਹਰਾਈ ਬਾਕੀ ਹੈ ਅਤੇ ਤੁਹਾਡੇ ਅਗਲੇ ਕਾਰਡ ਦਾ ਸਵਾਲ
+- **ਵੱਡਾ**: ਕਿੰਨੇ ਕਾਰਡਾਂ ਦੀ ਦੁਹਰਾਈ ਬਾਕੀ ਹੈ, ਤੁਹਾਡਾ ਅਗਲਾ ਸਵਾਲ ਅਤੇ ਤੁਹਾਡੀ ਲੜੀ
+
+ਜਦੋਂ ਦੁਹਰਾਈ ਲਈ ਕੁਝ ਬਾਕੀ ਨਹੀਂ ਹੁੰਦਾ, ਤਾਂ ਵਿਜੇਟ “ਸਭ ਮੁਕੰਮਲ” ਅਤੇ ਅਗਲੇ ਕਾਰਡ ਦੀ ਦੁਹਰਾਈ ਦਾ ਸਮਾਂ ਵਿਖਾਉਂਦਾ ਹੈ। ਇਹ ਕਦੇ ਵੀ ਜਵਾਬ ਨਹੀਂ ਵਿਖਾਉਂਦਾ। “ਦੁਹਰਾਈ” ਖੋਲ੍ਹਣ ਲਈ ਵਿਜੇਟ ਉੱਤੇ ਟੈਪ ਕਰੋ; ਦਰਮਿਆਨਾ ਜਾਂ ਵੱਡਾ ਵਿਜੇਟ “ਦੁਹਰਾਈ” ਨੂੰ ਉਸੇ ਕਾਰਡ ਉੱਤੇ ਖੋਲ੍ਹਦਾ ਹੈ ਜੋ ਉਹ ਵਿਖਾ ਰਿਹਾ ਹੈ। ਵਿਜੇਟ ਮਹਿਮਾਨਾਂ ਸਮੇਤ ਸਾਰਿਆਂ ਲਈ ਮੁਫ਼ਤ ਹਨ।
+
+ਵਿਜੇਟ ਜੋੜਨ ਲਈ ਆਪਣੇ ਡਿਵਾਈਸ ਦੀ ਵਿਜੇਟ ਗੈਲਰੀ ਖੋਲ੍ਹੋ, Nibomo ਚੁਣੋ ਅਤੇ ਕੋਈ ਆਕਾਰ ਚੁਣੋ।
 
 ## ਹੋਸਟ ਕੀਤੀ ਵੈੱਬ ਐਪ
 
@@ -14,6 +43,8 @@ description: ਹੋਸਟ ਕੀਤੀ ਵੈੱਬ ਐਪ ਨਾਲ ਸ਼ੁ�
 ਹੋਸਟ ਕੀਤੇ ਰਾਹ ਲਈ ਕੁਝ ਵੀ ਇੰਸਟਾਲ ਕਰਨ ਜਾਂ ਸਰਵਰ ਸੈੱਟਅੱਪ ਕਰਨ ਦੀ ਲੋੜ ਨਹੀਂ।
 
 ## ਏਜੰਟ ਸੈੱਟਅੱਪ
+
+Claude, ChatGPT ਅਤੇ Cursor ਵਰਗੇ MCP ਕਲਾਇੰਟ [MCP ਕਨੈਕਟਰ ਗਾਈਡ](/docs/mcp-connector/) ਰਾਹੀਂ ਜੁੜ ਸਕਦੇ ਹਨ।
 
 ਜੇ ਤੁਸੀਂ ਚਾਹੁੰਦੇ ਹੋ ਕਿ Claude Code, Codex ਜਾਂ OpenClaw ਸਿੱਧੇ ਜੁੜਨ, ਤਾਂ ਇੱਥੋਂ ਸ਼ੁਰੂ ਕਰੋ:
 
@@ -32,7 +63,7 @@ GET https://api.nibomo.com/v1/
 ## ਅੱਜ ਤੁਹਾਨੂੰ ਕੀ ਮਿਲਦਾ ਹੈ
 
 - ਕਾਰਡਾਂ, ਦੁਹਰਾਈ ਅਤੇ AI ਚੈਟ ਲਈ ਹੋਸਟ ਕੀਤੀ ਵੈੱਬ ਐਪ
-- ਮੁੱਖ ਰਿਪੋਜ਼ਿਟਰੀ ਵਿੱਚ iOS ਕਲਾਇੰਟ, ਲੋਕਲ SQLite ਅਤੇ ਆਫ਼ਲਾਈਨ-ਫ਼ਸਟ ਸਿੰਕ ਸਮੇਤ
+- ਲੋਕਲ SQLite ਸਟੋਰੇਜ ਅਤੇ ਆਫ਼ਲਾਈਨ-ਫ਼ਸਟ ਸਿੰਕ ਵਾਲੀਆਂ ਨੇਟਿਵ iPhone, iPad, Mac ਅਤੇ Android ਐਪਾਂ
 - ਵੱਖਰੇ `api` ਅਤੇ `auth` ਡੋਮੇਨਾਂ ਉੱਤੇ ਸਾਂਝੀਆਂ ਬੈਕਐਂਡ ਅਤੇ ਪ੍ਰਮਾਣੀਕਰਨ ਸੇਵਾਵਾਂ
 - ਡਿਸਕਵਰੀ, OTP ਅਤੇ ApiKey ਪ੍ਰਮਾਣੀਕਰਨ ਰਾਹੀਂ ਬਾਹਰੀ ਏਜੰਟਾਂ ਨੂੰ ਜੋੜਨਾ
 - AWS ਉੱਤੇ ਓਪਨ ਸੋਰਸ ਡਿਪਲੌਇਮੈਂਟ ਦਾ ਰਾਹ, ਜਿਸ ਵਿੱਚ Postgres ਡਾਟੇ ਦਾ ਮੁੱਖ ਸਰੋਤ ਹੈ
