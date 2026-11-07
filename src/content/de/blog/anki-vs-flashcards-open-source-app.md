@@ -2,7 +2,7 @@
 title: "Anki vs. Nibomo (2026): Welche App solltest du nutzen?"
 description: "Vergleiche Anki und Nibomo bei FSRS, Offline-Nutzung, mobilen Apps, KI, Migration, Self-Hosting und Datenkontrolle, bevor du wechselst."
 date: "2026-04-25"
-updated: "2026-08-23"
+updated: "2026-11-07"
 image: "/blog/anki-vs-flashcards-open-source-app-v2.png"
 keywords:
   - "Anki vs. Nibomo"
@@ -18,7 +18,7 @@ Diese Einschränkung ist für die meisten Vergleiche von **Anki vs. Nibomo** aus
 
 > **Offenlegung:** Ich bin Kirill Markin und entwickle [Nibomo](https://nibomo.com/). Ich habe ein klares Interesse an dem Produkt. Deshalb ist Anki in diesem Vergleich die Standardempfehlung für alle Workflows, die Nibomo noch nicht abbilden kann.
 
-**Fakten geprüft:** 23. August 2026.
+**Fakten geprüft:** 23. August 2026; Angaben zu Widgets für den Home-Bildschirm geprüft am 7. November 2026.
 
 ![Ein Reisender trägt eine Archivkiste über eine schmale Testbrücke, während hinter ihm eine stark befahrene Bahnstrecke weiter in Betrieb bleibt](/blog/anki-vs-flashcards-open-source-app-v2.png)
 
@@ -29,6 +29,7 @@ Diese Einschränkung ist für die meisten Vergleiche von **Anki vs. Nibomo** aus
 | Du musst eine komplexe Sammlung samt Wiederholungsverlauf erhalten | Eine `.colpkg`-Datei enthält die vollständige Sammlung und den Lernplan; eine `.apkg`-Datei kann den Wiederholungsverlauf, Deck-Voreinstellungen und Medien enthalten | Kein direkter Import von Anki-Paketen; aus einem Anki-Textexport entstehen geprüfte Kartenentwürfe, keine originalgetreue Übertragung der Sammlung | **Anki** |
 | Du möchtest FSRS nutzen | Unterstützt FSRS, die Parameteroptimierung anhand des Wiederholungsverlaufs, die gewünschte Behaltensquote und Deck-Voreinstellungen | Verwendet fest vorgegebene FSRS-6-Gewichte im Web, unter iOS und Android sowie im Backend; die Workspace-Einstellungen optimieren die Gewichte nicht anhand deiner Wiederholungen | **Beide**; Anki ist stärker bei der persönlichen Optimierung und beim Erhalt des bestehenden Lernplans |
 | Du lernst ohne Internet | Installierte Desktop-, iOS- und Android-Clients speichern die Sammlung lokal; AnkiWeb bleibt auf eine Internetverbindung angewiesen | Web, iOS und Android speichern Kartenänderungen und Wiederholungen zuerst lokal; Anmeldung, erstmalige Datenübernahme, Synchronisierung, KI und nicht zwischengespeicherte Medien benötigen eine Verbindung | **Beide**, nachdem du deine konkreten Geräte und Medien getestet hast |
+| Du möchtest ein Widget für den Home-Bildschirm | [AnkiDroid](https://github.com/ankidroid/Anki-Android) bietet Widgets für Decks und die Kartenanzahl; AnkiMobile auf iPhone und iPad hat keines, und Nutzer [fragen weiterhin danach](https://forums.ankiweb.net/t/ankimobile-widget/32633) | Kostenlose „Wiederholen“-Widgets für iPhone, iPad, Mac und Android zeigen die Zahl fälliger Karten und die Frage deiner nächsten Karte; ein Tippen darauf öffnet „Wiederholen“ | **Nibomo** auf Apple-Geräten; **beide** unter Android |
 | Du bist auf Vorlagen, Add-ons oder geteilte Decks angewiesen | Ausgereifte offizielle Workflows und ein großes Community-Ökosystem | Konzentriert sich auf Karten mit Vorder- und Rückseite; kein vergleichbares Ökosystem für Add-ons oder geteilte Decks | **Anki** |
 | Du möchtest integrierte KI und Agentenzugriff | Über Add-ons und Integrationen von Drittanbietern möglich | KI-Chat mit Workspace-Kontext und Dateien sowie MCP und eine öffentliche Agent API | **Nibomo** |
 | Du möchtest selbst über den Server bestimmen | Der offizielle selbst gehostete Server ersetzt die Synchronisierung von Sammlung und Medien | Die dokumentierte AWS-Bereitstellung umfasst Web, Authentifizierung, Backend, Synchronisierung, KI-Worker und Infrastruktur | Hängt davon ab, ob du **nur die Synchronisierung** oder den **gesamten Stack** brauchst |

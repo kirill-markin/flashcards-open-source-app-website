@@ -2,7 +2,7 @@
 title: "Anki vs Nibomo (2026): ¿qué aplicación te conviene?"
 description: "Compara Anki y Nibomo en FSRS, uso sin conexión, apps móviles, IA, migración, autoalojamiento y control de tus datos antes de cambiarte."
 date: "2026-04-25"
-updated: "2026-08-23"
+updated: "2026-11-07"
 image: "/blog/anki-vs-flashcards-open-source-app-v2.png"
 keywords:
   - "Anki vs Nibomo"
@@ -18,7 +18,7 @@ Ese límite determina la mayoría de las comparaciones entre **Anki y Nibomo**. 
 
 > **Aviso de transparencia:** Soy Kirill Markin y desarrollo [Nibomo](https://nibomo.com/). Tengo un interés evidente en el producto, así que esta comparación considera Anki la opción predeterminada para los flujos de trabajo que Nibomo todavía no puede reproducir.
 
-**Datos verificados:** 23 de agosto de 2026.
+**Datos verificados:** 23 de agosto de 2026; los datos sobre los widgets de la pantalla de inicio se verificaron el 7 de noviembre de 2026.
 
 ![Un viajero cruza un estrecho puente de prueba con una caja de archivo mientras, a su espalda, sigue funcionando una vía ferroviaria muy transitada](/blog/anki-vs-flashcards-open-source-app-v2.png)
 
@@ -29,6 +29,7 @@ Ese límite determina la mayoría de las comparaciones entre **Anki y Nibomo**. 
 | Necesitas conservar una colección compleja y su historial de repasos | Un `.colpkg` conserva la colección completa y su programación; un `.apkg` puede incluir el historial de repasos, los ajustes preestablecidos del mazo y los archivos multimedia | No importa directamente los paquetes de Anki; una exportación de texto de Anki se convierte en borradores de tarjetas que debes revisar, no en una copia fiel de la colección | **Anki** |
 | Quieres FSRS | Admite FSRS, optimiza sus parámetros a partir del historial de repasos y permite configurar la retención deseada y ajustes preestablecidos por mazo | Usa pesos fijos de FSRS-6 en la web, iOS, Android y el backend; los ajustes del espacio de trabajo no optimizan esos pesos a partir de tus repasos | **Cualquiera de las dos**; Anki es mejor para la optimización personal y para conservar la continuidad de la programación |
 | Estudias sin internet | Los clientes instalados para escritorio, iOS y Android guardan colecciones locales; AnkiWeb sigue funcionando solo con conexión | La web, iOS y Android guardan primero en local los cambios en tarjetas y repasos; el inicio de sesión, la carga inicial, la sincronización, la IA y los archivos multimedia que aún no estén en caché requieren conexión | **Cualquiera de las dos**, después de probar tus dispositivos y archivos multimedia concretos |
+| Quieres un widget en la pantalla de inicio | [AnkiDroid](https://github.com/ankidroid/Anki-Android) tiene widgets de mazos y de recuento de tarjetas; AnkiMobile para iPhone y iPad no tiene ninguno, y los usuarios [siguen pidiéndolo](https://forums.ankiweb.net/t/ankimobile-widget/32633) | Los widgets gratuitos de «Repasar» para iPhone, iPad, Mac y Android muestran cuántas tarjetas tienes pendientes y la pregunta de tu siguiente tarjeta; al tocarlos se abre «Repasar» | **Nibomo** en dispositivos Apple; **cualquiera de las dos** en Android |
 | Dependes de plantillas, complementos o mazos compartidos | Ofrece flujos de trabajo oficiales muy completos y un gran ecosistema comunitario | Se centra en tarjetas de anverso y reverso; no cuenta con un ecosistema equivalente de complementos o mazos compartidos | **Anki** |
 | Quieres IA integrada y acceso para agentes | Es posible mediante complementos e integraciones de terceros | Incluye un chat con IA que utiliza el contexto y los archivos del espacio de trabajo, además de MCP y una API pública para agentes | **Nibomo** |
 | Quieres controlar el servidor | El servidor oficial autoalojado sustituye la sincronización de la colección y los archivos multimedia | El despliegue documentado en AWS abarca la web, la autenticación, el backend, la sincronización, el worker de IA y la infraestructura | Depende de si necesitas **solo la sincronización** o **toda la pila** |
