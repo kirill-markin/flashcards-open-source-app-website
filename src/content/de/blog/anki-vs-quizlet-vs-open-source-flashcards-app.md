@@ -3,7 +3,7 @@ title: "Anki vs Quizlet vs Nibomo 2026: Welche Karteikarten-App ist die beste?"
 description: "Anki vs Quizlet vs Nibomo im Praxisvergleich 2026: Spaced Repetition, Offline-Lernen, KI, Import, Export, Preise, Open Source und Datenhoheit."
 image: "/blog/anki-vs-quizlet-vs-open-source-flashcards-app.png"
 date: "2026-03-09"
-updated: "2026-08-02"
+updated: "2026-11-07"
 keywords:
   - "anki vs quizlet"
   - "beste karteikarten app"
@@ -31,13 +31,13 @@ Die Details sind wichtig, vor allem wenn du bereits Hunderte oder Tausende Karte
 
 ## Anki vs Quizlet vs Nibomo: der Praxisvergleich
 
-Diese Tabelle basiert auf Produktinformationen, die am 2. August 2026 geprüft wurden. Preise und Funktionsumfang können je nach Region abweichen.
+Diese Tabelle basiert auf Produktinformationen, die am 2. August 2026 geprüft wurden; die Angaben zu den Widgets für den Home-Bildschirm wurden am 7. November 2026 geprüft. Preise und Funktionsumfang können je nach Region abweichen.
 
 | Kategorie | Anki | Quizlet | Nibomo |
 | --- | --- | --- | --- |
 | Wiederholungsplanung | Ausgereifter Scheduler mit [FSRS-Unterstützung](https://docs.ankiweb.net/deck-options), detaillierten Einstellungen, Wiederholungsverlauf und großem Add-on-Ökosystem | [Learn](https://help.quizlet.com/hc/en-us/articles/360030986971-Studying-with-Learn) erstellt mithilfe von maschinellem Lernen einen persönlichen Lernpfad anhand deiner Ziele und deiner Vertrautheit mit dem Stoff; es ist kein langfristiger Scheduler nach Art von FSRS | FSRS ist integriert und standardmäßig aktiv, mit den Bewertungen Again/Hard/Good/Easy und Einstellungen auf Workspace-Ebene |
 | Offline | Desktop-Anwendung und native mobile Apps ermöglichen lokales Lernen; die Synchronisierung ist optional | Auf [iOS und Android](https://help.quizlet.com/hc/en-us/articles/360030565412-Studying-offline-with-Quizlet-mobile-apps) lassen sich gespeicherte Sets in Flashcards und Match offline nutzen und Sets offline erstellen; die Website funktioniert nicht offline | Native Apps für iOS (SQLite) und Android (Room/SQLite) sind der zuverlässigste Offline-Weg; nach dem Laden speichert die Web-App Karten und noch nicht synchronisierte Änderungen in IndexedDB, KI und Synchronisierung benötigen aber eine Verbindung |
-| Web und Mobilgeräte | Windows, macOS, Linux, AnkiWeb, offizielle kostenpflichtige iOS-App und separate kostenlose Community-App für Android | Ausgereifte Apps für Web, iOS und Android; keine Desktop-App | Gehostete Web-App sowie Apps für iOS und Android |
+| Web und Mobilgeräte | Windows, macOS, Linux, AnkiWeb, offizielle kostenpflichtige iOS-App und separate kostenlose Community-App für Android | Ausgereifte Apps für Web, iOS und Android; keine Desktop-App | Gehostete Web-App sowie Apps für iOS und Android, dazu Widgets für den Home-Bildschirm auf iPhone, iPad, Mac und Android, die fällige Karten und die nächste Frage zeigen |
 | KI | Kein direkt von Anki bereitgestellter Workflow für generative KI im Kernprodukt; Add-ons und externe KI-Workflows sind verfügbar | Leistungsfähige [integrierte KI-Werkzeuge](https://quizlet.com/features/ai-study-tools), darunter Karteikartenerstellung, Lernleitfäden, Übungstests und Werkzeuge für PDFs; die Limits hängen vom Tarif ab | KI-Chat mit Workspace-Kontext kann Karten erstellen und bearbeiten und Dateianhänge verwenden; MCP und eine Agent-API binden externe KI-Werkzeuge an |
 | Import | Umfangreiche Unterstützung für [Text, paketierte Anki-Decks und Mnemosyne-Dateien](https://docs.ankiweb.net/importing/intro.html) | Auf der Website lässt sich [Text mit Trennzeichen einfügen](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content); KI-Werkzeuge können Notizen und Dokumente verarbeiten | Importiert native `flashcards.zip`-Workspace-Pakete; Inhalte aus Anki und Quizlet müssen derzeit als Text exportiert und gegebenenfalls mithilfe von KI bereinigt werden; kein direkter Import von `.apkg`-Dateien |
 | Export | Umfangreiche [Paket- und Textexporte](https://docs.ankiweb.net/exporting.html), wahlweise mit Planungsdaten, Deck-Voreinstellungen und Medien | Der Website-Export umfasst Begriffe und Definitionen aus selbst erstellten Sets; [kopierte Sets und Bilder sind ausgeschlossen](https://help.quizlet.com/hc/en-us/articles/360034345672-Exporting-your-sets) | Native `flashcards.zip`-Pakete übertragen nur aktive Karten, Tags und referenzierte Medien – nicht Wiederholungsverlauf, FSRS-Planungsstatus, Workspace-Einstellungen, vollständige Deck-Strukturen oder Kontodaten |
