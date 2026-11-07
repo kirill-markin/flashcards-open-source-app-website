@@ -1,7 +1,36 @@
 ---
 title: Pirmie soļi
-description: Sāc ar mitināto tīmekļa lietotni, pieslēdz aģentu caur atklāšanas URL vai pats darbini lokālo sistēmu.
+description: Sāc ar iPhone, iPad, Mac vai Android lietotni, tīmekļa lietotni, MI aģentu vai savu serveri.
 ---
+
+Sākt var vairākos veidos – sākot ar populārāko:
+
+- **iPhone, iPad un Mac lietotne**: [App Store](https://apps.apple.com/app/apple-store/id6760538964?pt=128797295&ct=marketing_site&mt=8)
+- **Android lietotne**: [Google Play](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&utm_source=flashcards_website&utm_medium=referral&utm_campaign=marketing_site)
+- **Mitinātā tīmekļa lietotne**: [app.nibomo.com](https://app.nibomo.com)
+- **MI aģenti**: [MCP savienotājs](/docs/mcp-connector/) vai API adresē `https://api.nibomo.com/v1/`
+- **Darbināšana savā serverī**: [pamācība darbināšanai savā serverī](/docs/self-hosting/)
+
+## Mobilās un datora lietotnes
+
+Instalē savai ierīcei paredzēto lietotni:
+
+- iPhone, iPad un Mac: [App Store](https://apps.apple.com/app/apple-store/id6760538964?pt=128797295&ct=marketing_site&mt=8)
+- Android: [Google Play](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&utm_source=flashcards_website&utm_medium=referral&utm_campaign=marketing_site)
+
+Lietotnes glabā tavas kartītes ierīcē, tāpēc vari atkārtot arī bezsaistē, un, kad atkal esi tiešsaistē, dati tiek sinhronizēti. Vari sākt kā viesis un pieteikties vēlāk.
+
+### Sākuma ekrāna logrīki
+
+Nibomo lietotnē ir logrīks “Atkārtošana” iPhone, iPad, Mac un Android ierīcēm. Tam ir trīs izmēri:
+
+- **Mazais**: cik kartīšu jāatkārto un tava mācību sērija
+- **Vidējais**: cik kartīšu jāatkārto un nākamās kartītes jautājums
+- **Lielais**: cik kartīšu jāatkārto, nākamais jautājums un tava sērija
+
+Kad nekas nav jāatkārto, logrīks rāda “Viss atkārtots” un to, kad pienāks laiks nākamajai kartītei. Atbildi tas nekad nerāda. Pieskaries logrīkam, lai atvērtu sadaļu “Atkārtošana”; vidējais vai lielais logrīks tajā uzreiz atver redzamo kartīti. Logrīki ir bez maksas visiem, arī viesiem.
+
+Lai pievienotu logrīku, atver ierīces logrīku galeriju, izvēlies Nibomo un norādi izmēru.
 
 ## Mitinātā tīmekļa lietotne
 
@@ -14,6 +43,8 @@ description: Sāc ar mitināto tīmekļa lietotni, pieslēdz aģentu caur atklā
 Mitinātajai versijai nekas nav jāinstalē un serveris nav jāiestata.
 
 ## Aģenta iestatīšana
+
+MCP klienti, piemēram, Claude, ChatGPT un Cursor, var pieslēgties, izmantojot [MCP savienotāja pamācību](/docs/mcp-connector/).
 
 Ja vēlies, lai Claude Code, Codex vai OpenClaw pieslēdzas tieši, sāc ar:
 
@@ -32,7 +63,7 @@ Ja vēlies darbināt pats savu instanci, skati [pamācību darbināšanai savā 
 ## Kas pieejams jau šodien
 
 - Mitināta tīmekļa lietotne kartītēm, atkārtošanai un MI sarunai
-- iOS klients galvenajā repozitorijā ar lokālu SQLite un sinhronizāciju, kas orientēta uz darbu bezsaistē
+- Natīvās iPhone, iPad, Mac un Android lietotnes ar lokālu SQLite krātuvi un sinhronizāciju, kas orientēta uz darbu bezsaistē
 - Kopīgi aizmugursistēmas un autentifikācijas pakalpojumi atsevišķos `api` un `auth` domēnos
 - Ārējo aģentu pieslēgšana caur atklāšanu, OTP un ApiKey autentifikāciju
 - Atvērtā pirmkoda izvietošanas ceļš AWS ar Postgres kā autoritatīvo datu avotu

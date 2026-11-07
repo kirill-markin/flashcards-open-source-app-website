@@ -3,7 +3,7 @@ import type { PageContent } from "@/lib/content/types";
 export const HOME_PAGE_CONTENT: PageContent = {
   title: "Nibomo - Gratis open-source flashcard-app met gespreide herhaling",
   description:
-    "Gratis open-source flashcards met FSRS gespreide herhaling, AI-ondersteunde kaarten, offline leren en synchronisatie, overdraagbare exports en selfhosting.",
+    "Gratis open-source flashcards met FSRS gespreide herhaling, AI-ondersteunde kaarten, offline leren en synchronisatie, widgets voor het beginscherm en selfhosting.",
   slug: "home",
   sections: [
     {
@@ -102,6 +102,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
           title: "Offline leren met automatische synchronisatie",
           description:
             "Blijf herhalen op je mobiele apparaat zonder internetverbinding. Wijzigingen worden automatisch gesynchroniseerd.",
+        },
+        {
+          title: "Je volgende kaart in één oogopslag",
+          description:
+            "Beginschermwidgets voor iPhone, iPad, Mac en Android tonen hoeveel kaarten je moet herhalen en de volgende vraag.",
         },
         {
           title: "Importeren, exporteren en je data in eigen hand",

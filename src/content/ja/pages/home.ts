@@ -3,7 +3,7 @@ import type { PageContent } from "@/lib/content/types";
 export const HOME_PAGE_CONTENT: PageContent = {
   title: "Nibomo - 無料・オープンソースの間隔反復アプリ",
   description:
-    "FSRS による間隔反復、AI を使ったフラッシュカード作成、オフライン学習と同期、エクスポート、セルフホストに対応した無料・オープンソースアプリです。",
+    "FSRS による間隔反復、AI を使ったフラッシュカード作成、オフライン学習と同期、ホーム画面ウィジェット、セルフホストに対応した無料・オープンソースアプリです。",
   slug: "home",
   sections: [
     {
@@ -103,6 +103,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
           title: "オフライン学習と自動同期",
           description:
             "インターネット接続がなくても、モバイル端末で復習を続けられます。変更は自動で同期されます。",
+        },
+        {
+          title: "次のカードがひと目でわかる",
+          description:
+            "iPhone、iPad、Mac、Android 向けのホーム画面ウィジェットに、復習待ちのフラッシュカードの数と次の問題が表示されます。",
         },
         {
           title: "データをインポート・エクスポートして自分で管理",

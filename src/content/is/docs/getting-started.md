@@ -1,7 +1,36 @@
 ---
 title: Fyrstu skref
-description: Byrjaðu í hýsta vefforritinu, tengdu gervigreindarumboð í gegnum uppgötvunarslóðina eða keyrðu allan hugbúnaðinn á eigin vél.
+description: Byrjaðu í forritinu fyrir iPhone, iPad, Mac eða Android, í vefforritinu, með gervigreindarumboði eða á eigin netþjóni.
 ---
+
+Hægt er að byrja á nokkra vegu og hér eru þeir vinsælustu fyrst:
+
+- **Forrit fyrir iPhone, iPad og Mac**: [App Store](https://apps.apple.com/app/apple-store/id6760538964?pt=128797295&ct=marketing_site&mt=8)
+- **Forrit fyrir Android**: [Google Play](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&utm_source=flashcards_website&utm_medium=referral&utm_campaign=marketing_site)
+- **Hýsta vefforritið**: [app.nibomo.com](https://app.nibomo.com)
+- **Gervigreindarumboð**: [MCP-tengið](/docs/mcp-connector/) eða API-ið á `https://api.nibomo.com/v1/`
+- **Eigin hýsing**: [leiðbeiningar um eigin hýsingu](/docs/self-hosting/)
+
+## Forrit fyrir farsíma og tölvur
+
+Settu upp forritið sem hentar tækinu þínu:
+
+- iPhone, iPad og Mac: [App Store](https://apps.apple.com/app/apple-store/id6760538964?pt=128797295&ct=marketing_site&mt=8)
+- Android: [Google Play](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&utm_source=flashcards_website&utm_medium=referral&utm_campaign=marketing_site)
+
+Forritin geyma spjöldin þín í tækinu, svo þú getur rifjað upp án nettengingar, og þau samstillast þegar þú kemst aftur á netið. Þú getur byrjað sem gestur og skráð þig inn síðar.
+
+### Græjur á heimaskjá
+
+Nibomo-forritið bætir græjunni Upprifjun við iPhone, iPad, Mac og Android. Hún fæst í þremur stærðum:
+
+- **Lítil**: hve mörg spjöld eru á dagskrá og runan þín
+- **Miðlungs**: hve mörg spjöld eru á dagskrá og spurningin á næsta spjaldi
+- **Stór**: hve mörg spjöld eru á dagskrá, næsta spurning og runan þín
+
+Þegar ekkert er á dagskrá sýnir græjan „Allt búið“ og hvenær næsta spjald kemur á dagskrá. Hún sýnir aldrei svar. Ýttu á græjuna til að opna Upprifjun; miðlungs eða stór græja opnar Upprifjun á spjaldinu sem hún sýnir. Græjurnar eru ókeypis fyrir alla, líka gesti.
+
+Til að bæta einni við skaltu opna græjusafn tækisins, velja Nibomo og síðan stærð.
 
 ## Hýsta vefforritið
 
@@ -14,6 +43,8 @@ Fljótlegasta leiðin til að byrja er hýsta vefforritið:
 Með hýstu leiðinni þarf hvorki að setja neitt upp né stilla netþjón.
 
 ## Uppsetning fyrir gervigreindarumboð
+
+MCP-biðlarar á borð við Claude, ChatGPT og Cursor geta tengst samkvæmt [leiðbeiningunum um MCP-tengið](/docs/mcp-connector/).
 
 Ef þú vilt að Claude Code, Codex eða OpenClaw tengist beint skaltu byrja hér:
 
@@ -32,7 +63,7 @@ Ef þú vilt frekar keyra þitt eigið tilvik skaltu skoða [leiðbeiningar um e
 ## Hvað þú færð í dag
 
 - Hýst vefforrit fyrir spjöld, upprifjun og gervigreindarspjall
-- iOS-biðlari í aðalkóðasafninu með staðbundnu SQLite og samstillingu sem virkar fyrst og fremst án nettengingar
+- Forrit fyrir iPhone, iPad, Mac og Android með staðbundinni SQLite-gagnageymslu og samstillingu sem virkar fyrst og fremst án nettengingar
 - Sameiginleg bakendaþjónusta og auðkenningarþjónusta á aðskildum lénum, `api` og `auth`
 - Tenging ytri gervigreindarumboða í gegnum uppgötvun, einnota kóða og ApiKey-auðkenningu
 - Uppsetningarleið á AWS í opnum hugbúnaði, með Postgres sem meginheimild gagnanna

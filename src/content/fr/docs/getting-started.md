@@ -1,7 +1,36 @@
 ---
 title: Premiers pas
-description: Commencez avec l'application web hébergée, connectez un agent via l'URL de découverte, ou exécutez vous-même la pile en local.
+description: Commencez avec l'application iPhone, iPad, Mac ou Android, l'application web, un agent IA ou votre propre serveur.
 ---
+
+Il existe plusieurs façons de commencer, de la plus populaire à la moins répandue :
+
+- **Application iPhone, iPad et Mac** : [App Store](https://apps.apple.com/app/apple-store/id6760538964?pt=128797295&ct=marketing_site&mt=8)
+- **Application Android** : [Google Play](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&utm_source=flashcards_website&utm_medium=referral&utm_campaign=marketing_site)
+- **Application web hébergée** : [app.nibomo.com](https://app.nibomo.com)
+- **Agents IA** : le [connecteur MCP](/docs/mcp-connector/) ou l'API à l'adresse `https://api.nibomo.com/v1/`
+- **Auto-hébergement** : le [guide d'auto-hébergement](/docs/self-hosting/)
+
+## Applications mobiles et de bureau
+
+Installez l'application native pour votre appareil :
+
+- iPhone, iPad et Mac : [App Store](https://apps.apple.com/app/apple-store/id6760538964?pt=128797295&ct=marketing_site&mt=8)
+- Android : [Google Play](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&utm_source=flashcards_website&utm_medium=referral&utm_campaign=marketing_site)
+
+Les applications conservent vos cartes sur l'appareil : vous pouvez réviser hors ligne, et la synchronisation se fait dès que vous êtes de nouveau en ligne. Vous pouvez commencer en tant qu'invité et vous connecter plus tard.
+
+### Widgets de l'écran d'accueil
+
+L'application Nibomo ajoute un widget Réviser sur iPhone, iPad, Mac et Android. Il existe en trois tailles :
+
+- **Petit** : le nombre de cartes à réviser et votre série d'étude
+- **Moyen** : le nombre de cartes à réviser et la question de votre prochaine carte
+- **Grand** : le nombre de cartes à réviser, votre prochaine question et votre série
+
+Quand rien n'est à réviser, le widget affiche « Vous êtes à jour » et le moment où la prochaine carte sera à réviser. Il n'affiche jamais de réponse. Touchez le widget pour ouvrir Réviser ; un widget Moyen ou Grand ouvre Réviser sur la carte qu'il affiche. Les widgets sont gratuits pour tous, y compris les invités.
+
+Pour en ajouter un, ouvrez la galerie de widgets de votre appareil, choisissez Nibomo, puis sélectionnez une taille.
 
 ## Application web hébergée
 
@@ -14,6 +43,8 @@ Le moyen le plus rapide de commencer est l'application web hébergée :
 Aucune installation ni configuration de serveur n'est nécessaire pour la voie hébergée.
 
 ## Configuration d'un agent
+
+Les clients MCP comme Claude, ChatGPT et Cursor peuvent se connecter en suivant le [guide du connecteur MCP](/docs/mcp-connector/).
 
 Si vous voulez connecter directement Claude Code, Codex ou OpenClaw, partez de :
 
@@ -32,7 +63,7 @@ Si vous préférez exécuter votre propre instance, consultez le [guide d'auto-h
 ## Ce que vous obtenez aujourd'hui
 
 - Application web hébergée pour les cartes, la révision et le chat IA
-- Client iOS dans le dépôt principal, avec SQLite local et synchronisation offline-first
+- Applications natives iPhone, iPad, Mac et Android, avec stockage SQLite local et synchronisation offline-first
 - Services backend et d'authentification partagés sur des domaines `api` et `auth` distincts
 - Intégration d'agents externes via la découverte, l'OTP et l'authentification ApiKey
 - Chemin de déploiement open source sur AWS avec Postgres comme source de vérité

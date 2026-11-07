@@ -3,7 +3,7 @@ import type { PageContent } from "@/lib/content/types";
 export const HOME_PAGE_CONTENT: PageContent = {
   title: "Nibomo - Free, Open-Source Spaced Repetition Flashcards App",
   description:
-    "Free, open-source flashcards with FSRS spaced repetition, AI-assisted card creation, offline study and sync, portable exports, and self-hosting.",
+    "Free, open-source flashcards with FSRS spaced repetition, AI-assisted card creation, offline study and sync, Home Screen widgets, and self-hosting.",
   slug: "home",
   sections: [
     {
@@ -97,6 +97,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
           title: "No signal? Keep going.",
           description:
             "Review offline on your phone. Sync when you’re back online.",
+        },
+        {
+          title: "Your next card, one glance away.",
+          description:
+            "Home Screen widgets for iPhone, iPad, Mac, and Android show what’s due and your next question.",
         },
         {
           title: "Your cards can come with you.",

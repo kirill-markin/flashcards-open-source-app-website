@@ -3,7 +3,7 @@ import type { PageContent } from "@/lib/content/types";
 export const HOME_PAGE_CONTENT: PageContent = {
   title: "Nibomo - Programu ya kadi za kujifunzia ya bure, ya chanzo huria yenye marudio ya vipindi",
   description:
-    "Kadi za kujifunzia bila malipo na za chanzo huria zenye marudio ya vipindi ya FSRS, utengenezaji wa kadi kwa msaada wa AI, kusoma bila intaneti na usawazishaji, utoaji rahisi wa data na kujipangia mwenyewe.",
+    "Kadi za kujifunzia bila malipo na za chanzo huria zenye marudio ya vipindi ya FSRS, utengenezaji wa kadi kwa msaada wa AI, kusoma bila intaneti na usawazishaji, wijeti za skrini ya kwanza na kujipangia mwenyewe.",
   slug: "home",
   sections: [
     {
@@ -102,6 +102,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
           title: "Kusoma bila intaneti, usawazishaji wa kiotomatiki",
           description:
             "Endelea kurudia kwenye kifaa chako cha mkononi bila muunganisho wa intaneti. Mabadiliko husawazishwa kiotomatiki.",
+        },
+        {
+          title: "Kadi inayofuata kwa mtazamo mmoja",
+          description:
+            "Wijeti za skrini ya kwanza kwenye iPhone, iPad, Mac na Android zinaonyesha kadi zinazostahili marudio na swali lako linalofuata.",
         },
         {
           title: "Leta, toa na umiliki data yako",

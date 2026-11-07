@@ -2,7 +2,7 @@
 title: "Anki vs Nibomo (2026): Which App Should You Use?"
 description: "Compare Anki and Nibomo on FSRS, offline use, mobile apps, AI, migration, self-hosting, and data control before you switch."
 date: "2026-04-25"
-updated: "2026-08-23"
+updated: "2026-11-07"
 image: "/blog/anki-vs-flashcards-open-source-app-v2.png"
 keywords:
   - "Anki vs Nibomo"
@@ -18,7 +18,7 @@ That boundary decides most **Anki vs Nibomo** comparisons. Stay with Anki when c
 
 > **Disclosure:** I am Kirill Markin, and I build [Nibomo](https://nibomo.com/). I have a clear interest in the product, so this comparison treats Anki as the default for workflows that Nibomo cannot yet reproduce.
 
-**Facts checked:** August 23, 2026.
+**Facts checked:** August 23, 2026; Home Screen widget details checked November 7, 2026.
 
 ![A traveler carries one archive box across a narrow test bridge while a well-used railway remains open behind them](/blog/anki-vs-flashcards-open-source-app-v2.png)
 
@@ -29,6 +29,7 @@ That boundary decides most **Anki vs Nibomo** comparisons. Stay with Anki when c
 | You need to preserve a complex collection and its review history | A `.colpkg` keeps the full collection and schedule; an `.apkg` can include review history, deck presets, and media | No direct Anki package import; an Anki text export becomes reviewed card drafts, not a faithful collection transfer | **Anki** |
 | You want FSRS | Supports FSRS, parameter optimization from review history, desired retention, and deck presets | Uses pinned FSRS-6 weights across web, iOS, Android, and the backend; workspace settings do not optimize weights from your reviews | **Either**; Anki is stronger for personal optimization and schedule continuity |
 | You study without internet | Installed desktop, iOS, and Android clients keep local collections; AnkiWeb remains online-only | Web, iOS, and Android write card and review changes locally first; sign-in, initial hydration, sync, AI, and uncached media need a connection | **Either**, after testing your exact devices and media |
+| You want a Home Screen widget | [AnkiDroid](https://github.com/ankidroid/Anki-Android) has deck and card-count widgets; AnkiMobile on iPhone and iPad has none, and users [still ask for one](https://forums.ankiweb.net/t/ankimobile-widget/32633) | Free Review widgets for iPhone, iPad, Mac, and Android show the due count and your next card's question; a tap opens Review | **Nibomo** on Apple devices; **either** on Android |
 | You rely on templates, add-ons, or shared decks | Deep official workflows and a large community ecosystem | Focused front/back workflow; no equivalent add-on or shared-deck ecosystem | **Anki** |
 | You want built-in AI and agent access | Possible through third-party add-ons and integrations | AI chat with workspace context and files, plus MCP and a public Agent API | **Nibomo** |
 | You want to control the server | Official self-hosted server replaces collection and media sync | Documented AWS deployment covers web, auth, backend, sync, AI worker, and infrastructure | Depends whether you need **sync only** or the **whole stack** |

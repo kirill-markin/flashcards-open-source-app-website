@@ -3,7 +3,7 @@ import type { PageContent } from "@/lib/content/types";
 export const HOME_PAGE_CONTENT: PageContent = {
   title: "Nibomo - Kostenlose Open-Source-App für Spaced Repetition",
   description:
-    "Kostenlose Open-Source-Lernkarten mit FSRS Spaced Repetition, KI-gestützter Kartenerstellung, Offline-Lernen, Synchronisierung, Export und Self-Hosting.",
+    "Kostenlose Open-Source-Lernkarten mit FSRS Spaced Repetition, KI-gestützter Kartenerstellung, Offline-Lernen, Synchronisierung, Home-Bildschirm-Widgets und Self-Hosting.",
   slug: "home",
   sections: [
     {
@@ -102,6 +102,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
           title: "Offline lernen mit automatischer Synchronisierung",
           description:
             "Wiederhole auf deinem Mobilgerät auch ohne Internetverbindung. Änderungen werden automatisch synchronisiert.",
+        },
+        {
+          title: "Deine nächste Karte auf einen Blick",
+          description:
+            "Widgets für den Home-Bildschirm auf iPhone, iPad, Mac und Android zeigen, was fällig ist, und deine nächste Frage.",
         },
         {
           title: "Daten importieren, exportieren und selbst verwalten",

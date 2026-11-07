@@ -1,7 +1,36 @@
 ---
 title: Getting Started
-description: Get set up with the web app, an AI agent, or the local stack.
+description: Start with the iPhone, iPad, Mac, or Android app, the web app, an AI agent, or your own server.
 ---
+
+There are several ways to start, from the most popular:
+
+- **iPhone, iPad, and Mac app**: [App Store](https://apps.apple.com/app/apple-store/id6760538964?pt=128797295&ct=marketing_site&mt=8)
+- **Android app**: [Google Play](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&utm_source=flashcards_website&utm_medium=referral&utm_campaign=marketing_site)
+- **Hosted web app**: [app.nibomo.com](https://app.nibomo.com)
+- **AI agents**: the [MCP connector](/docs/mcp-connector/) or the API at `https://api.nibomo.com/v1/`
+- **Self-hosting**: the [Self-Hosting Guide](/docs/self-hosting/)
+
+## Mobile and Desktop Apps
+
+Install the native app for your device:
+
+- iPhone, iPad, and Mac: [App Store](https://apps.apple.com/app/apple-store/id6760538964?pt=128797295&ct=marketing_site&mt=8)
+- Android: [Google Play](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&utm_source=flashcards_website&utm_medium=referral&utm_campaign=marketing_site)
+
+The apps keep your cards on the device, so you can review offline, and sync when you are back online. You can start as a guest and sign in later.
+
+### Home Screen Widgets
+
+The Nibomo app adds a Review widget to iPhone, iPad, Mac, and Android. It comes in three sizes:
+
+- **Small**: how many cards are due and your study streak
+- **Medium**: how many cards are due and the question on your next card
+- **Large**: how many cards are due, your next question, and your streak
+
+When nothing is due, the widget shows "All done" and when the next card is due. It never shows an answer. Tap the widget to open Review; a Medium or Large widget opens Review on the card it shows. Widgets are free for everyone, including guests.
+
+To add one, open your device's widget gallery, choose Nibomo, and pick a size.
 
 ## Hosted Web App
 
@@ -14,6 +43,8 @@ The fastest way to start is the hosted web app:
 No installation or server setup is required for the hosted path.
 
 ## Agent Setup
+
+MCP clients such as Claude, ChatGPT, and Cursor can connect through the [MCP connector guide](/docs/mcp-connector/).
 
 If you want Claude Code, Codex, or OpenClaw to connect directly, start from:
 
@@ -32,7 +63,7 @@ If you prefer to run your own instance, see the [Self-Hosting Guide](/docs/self-
 ## What You Get Today
 
 - Hosted web app for cards, review, and AI chat
-- iOS client in the main repository with local SQLite and offline-first sync
+- Native iPhone, iPad, Mac, and Android apps with local SQLite storage and offline-first sync
 - Shared backend and auth services on separate `api` and `auth` domains
 - External agent onboarding through discovery, OTP, and ApiKey auth
 - Open-source deployment path on AWS with Postgres as the source of truth

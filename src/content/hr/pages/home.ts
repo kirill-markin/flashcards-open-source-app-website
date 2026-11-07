@@ -3,7 +3,7 @@ import type { PageContent } from "@/lib/content/types";
 export const HOME_PAGE_CONTENT: PageContent = {
   title: "Nibomo - Besplatna aplikacija otvorenog koda za kartice s razmaknutim ponavljanjem",
   description:
-    "Besplatne kartice za učenje otvorenog koda: FSRS razmaknuto ponavljanje, izrada kartica uz AI, učenje offline uz sinkronizaciju, prenosivi izvozi i vlastito hostiranje.",
+    "Besplatne kartice za učenje otvorenog koda: FSRS razmaknuto ponavljanje, izrada kartica uz AI, učenje offline uz sinkronizaciju, widgeti za početni zaslon i vlastito hostiranje.",
   slug: "home",
   sections: [
     {
@@ -102,6 +102,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
           title: "Učenje offline uz automatsku sinkronizaciju",
           description:
             "Nastavite ponavljati na mobilnom uređaju bez internetske veze. Promjene se automatski sinkroniziraju.",
+        },
+        {
+          title: "Sljedeća kartica uvijek pred očima",
+          description:
+            "Widgeti za početni zaslon na iPhoneu, iPadu, Macu i Androidu prikazuju koliko je kartica na redu i vaše sljedeće pitanje.",
         },
         {
           title: "Uvoz, izvoz i vlasništvo nad podacima",

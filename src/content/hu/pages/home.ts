@@ -3,7 +3,7 @@ import type { PageContent } from "@/lib/content/types";
 export const HOME_PAGE_CONTENT: PageContent = {
   title: "Nibomo - Ingyenes, nyílt forráskódú szakaszos ismétléses tanulókártya-alkalmazás",
   description:
-    "Ingyenes, nyílt forráskódú tanulókártyák FSRS szakaszos ismétléssel, AI-támogatott kártyakészítéssel, offline tanulással és szinkronizálással, hordozható exportokkal és saját üzemeltetéssel.",
+    "Ingyenes, nyílt forráskódú tanulókártyák FSRS szakaszos ismétléssel, AI-támogatott kártyakészítéssel, offline tanulással és szinkronizálással, főképernyő-widgetekkel és saját üzemeltetéssel.",
   slug: "home",
   sections: [
     {
@@ -102,6 +102,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
           title: "Offline tanulás automatikus szinkronizálással",
           description:
             "Folytasd az ismétlést a mobileszközödön internetkapcsolat nélkül is. A módosítások automatikusan szinkronizálódnak.",
+        },
+        {
+          title: "A következő kártyád egy pillantásra",
+          description:
+            "Az iPhone-ra, iPadre, Macre és Androidra készült főképernyő-widgetek megmutatják, mi esedékes, és mi a következő kérdésed.",
         },
         {
           title: "Importálás, exportálás és a saját adataid",

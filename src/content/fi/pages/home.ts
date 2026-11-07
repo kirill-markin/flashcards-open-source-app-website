@@ -3,7 +3,7 @@ import type { PageContent } from "@/lib/content/types";
 export const HOME_PAGE_CONTENT: PageContent = {
   title: "Nibomo - ilmainen avoimen lähdekoodin muistikorttisovellus välistettyyn kertaukseen",
   description:
-    "Ilmaiset avoimen lähdekoodin muistikortit: FSRS-välistetty kertaus, tekoälyavusteinen korttien luonti, offline-opiskelu ja synkronointi, siirrettävät viennit ja itse ylläpidetty asennus.",
+    "Ilmaiset avoimen lähdekoodin muistikortit: FSRS-välistetty kertaus, tekoälyavusteinen korttien luonti, offline-opiskelu ja synkronointi, Koti-valikon widgetit ja itse ylläpidetty asennus.",
   slug: "home",
   sections: [
     {
@@ -102,6 +102,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
           title: "Offline-opiskelu ja automaattinen synkronointi",
           description:
             "Jatka kertaamista mobiililaitteellasi ilman internetyhteyttä. Muutokset synkronoituvat automaattisesti.",
+        },
+        {
+          title: "Seuraava kortti yhdellä silmäyksellä",
+          description:
+            "Koti-valikon widgetit iPhonelle, iPadille, Macille ja Androidille näyttävät, mitä on kerrattavana, ja seuraavan kysymyksesi.",
         },
         {
           title: "Tuo, vie ja omista datasi",

@@ -3,7 +3,7 @@ import type { PageContent } from "@/lib/content/types";
 export const HOME_PAGE_CONTENT: PageContent = {
   title: "Nibomo - tasuta avatud lähtekoodiga õpikaardid hajutatud kordamisega",
   description:
-    "Tasuta avatud lähtekoodiga õpikaardid: FSRS-i hajutatud kordamine, AI abiga kaartide loomine, õppimine võrguühenduseta ja sünkroonimine, teisaldatavad eksportfailid ning ise majutamine.",
+    "Tasuta avatud lähtekoodiga õpikaardid: FSRS-i hajutatud kordamine, AI abiga kaartide loomine, õppimine võrguühenduseta ja sünkroonimine, avakuva vidinad ning ise majutamine.",
   slug: "home",
   sections: [
     {
@@ -102,6 +102,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
           title: "Õppimine võrguühenduseta ja automaatne sünkroonimine",
           description:
             "Jätka kordamist mobiiliseadmes ilma internetiühenduseta. Muudatused sünkroonitakse automaatselt.",
+        },
+        {
+          title: "Järgmine kaart ühe pilguga",
+          description:
+            "Avakuva vidinad iPhone'is, iPadis, Macis ja Androidis näitavad, mis ootab kordamist, ja sinu järgmist küsimust.",
         },
         {
           title: "Impordi, ekspordi ja oma andmed enda käes",

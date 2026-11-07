@@ -48,7 +48,7 @@ function StudyPreview({ locale, index, alt }: { readonly locale: AppLocale; read
 export function HomeLanding({ locale, hero, walkthrough, features, storeQrCodes }: HomeLandingProps): React.JSX.Element {
   const copy = getHomeExperienceCopy(locale);
   const uiCopy = getUiCopy(locale);
-  if (walkthrough.items.length !== 3 || features.items.length !== 5) throw new Error(`Homepage requires three steps and five supporting features for ${locale}.`);
+  if (walkthrough.items.length !== 3 || features.items.length !== 6) throw new Error(`Homepage requires three steps and six supporting features for ${locale}.`);
   return (
     <div className={styles.page}>
       <section className={styles.hero} aria-labelledby="home-hero-title" id="home-hero">

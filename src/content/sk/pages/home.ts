@@ -3,7 +3,7 @@ import type { PageContent } from "@/lib/content/types";
 export const HOME_PAGE_CONTENT: PageContent = {
   title: "Nibomo - Bezplatné kartičky s opakovaním v rozostupoch a otvoreným zdrojovým kódom",
   description:
-    "Bezplatné kartičky s otvoreným zdrojovým kódom: opakovanie v rozostupoch podľa FSRS, tvorba kartičiek s pomocou AI, učenie offline so synchronizáciou, prenosné exporty a vlastné hosťovanie.",
+    "Bezplatné kartičky s otvoreným zdrojovým kódom: opakovanie v rozostupoch podľa FSRS, tvorba kartičiek s pomocou AI, učenie offline so synchronizáciou, widgety na ploche a vlastné hosťovanie.",
   slug: "home",
   sections: [
     {
@@ -102,6 +102,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
           title: "Učenie offline s automatickou synchronizáciou",
           description:
             "Pokračujte v opakovaní na mobilnom zariadení bez pripojenia na internet. Zmeny sa synchronizujú automaticky.",
+        },
+        {
+          title: "Ďalšia kartička vždy na očiach",
+          description:
+            "Widgety na ploche pre iPhone, iPad, Mac a Android ukazujú, koľko kartičiek čaká na opakovanie, a ďalšiu otázku.",
         },
         {
           title: "Import, export a vlastníctvo vašich dát",
