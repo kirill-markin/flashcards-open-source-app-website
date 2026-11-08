@@ -3,7 +3,7 @@ title: "Parhaat ilmaiset Quizlet-vaihtoehdot 2026: vertailussa 5 sovellusta"
 description: "Vertaa Ankia, Knowtia, RemNotea, Mochia ja Nibomoa: ilmainen kertaus, synkronointi, offline-käyttö, Quizlet-tuonti, tekoälyrajat ja ilmaispakettien rajoitukset."
 image: "/blog/free-quizlet-alternative-v2.png"
 date: "2026-06-20"
-updated: "2026-09-10"
+updated: "2026-11-08"
 keywords:
   - "ilmaiset Quizlet-vaihtoehdot"
   - "paras ilmainen Quizlet-vaihtoehto"
@@ -25,7 +25,7 @@ Paras ilmainen Quizlet-vaihtoehto on se, jonka rajoitukset eivät haittaa omaa o
 
 > **Sidonnaisuus:** Olen Kirill Markin ja kehitän Nibomoa, yhtä tämän vertailun viidestä sovelluksesta. Otin sen mukaan avoimen lähdekoodin, FSRS:n ja tekoälyagenttien kanssa työskentelyn vuoksi. Se ei ole paras valinta kaikille: siinä ei ole suoraa Quizlet-tuontia, sen oma siirtopaketti ei säilytä kertaustilaa, ja ylläpidetyn sovelluksen tämänhetkinen ilmaistarjous koskee betavaihetta. Tämä vertailu perustuu tarkistettuihin virallisiin hinnastoihin, ohjesivuihin ja lähdekoodivarastojen dokumentaatioon. En väitä testanneeni kaikkia viittä sovellusta pitkäaikaisessa käytössä.
 
-**Tiedot tarkistettu:** 10. syyskuuta 2026.
+**Tiedot tarkistettu:** 10. syyskuuta 2026; Nibomon Anki-`.apkg`-tuonnin tiedot 8. marraskuuta 2026.
 
 ![Esimerkkikorttisarjaa pitelevä opiskelija vertailee viittä venettä ennen ilmaisen Quizlet-vaihtoehdon valintaa ja tiedonsiirron testaamista molempiin suuntiin](/blog/free-quizlet-alternative-v2.png)
 
@@ -114,7 +114,7 @@ Nibomo palvelee tämän listan rajatuinta käyttötarvetta. Ylläpidetty sovellu
 
 Pysyvä lupaus on betatarjousta suppeampi. Korttien luomisen ja kertauksen perustoiminnot pysyvät ilmaisina. Runsaampi tekoälyn käyttö voi myöhemmin vaatia oman palveluntarjoajan avaimen tai maksullisen vaihtoehdon. Kaikkia ylläpidetyn palvelun ominaisuuksia ei luvata ikuisesti ilmaisiksi.
 
-Quizlet-siirto on myös tämän vaihtoehdon heikoin puoli. Nibomossa ei ole suoraa Quizlet-, CSV-, TSV-, Anki- tai yleistä tekstintuontia. Vientikelpoinen Quizlet-teksti voi toimia lähdeaineistona käsin rakennettaville korteille tai tarkistettaville tekoälyluonnoksille, mutta kyse ei ole häviöttömästä tuonnista. [Quizletin vientiopas](/fi/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/) neuvoo aineiston siistimisessä lupaamatta, että puuttuva media tai opiskelun tila voitaisiin palauttaa.
+Quizlet-siirto on myös tämän vaihtoehdon heikoin puoli. Nibomossa ei ole yhden napsautuksen Quizlet-, CSV-, TSV-, Anki- tai yleistä tekstintuontia. Ankin `.apkg`-tiedoston voi liittää tekoälychattiin, joka [muuttaa sen uusiksi korteiksi](/blog/import-anki-apkg/). Vientikelpoinen Quizlet-teksti voi toimia lähdeaineistona käsin rakennettaville korteille tai tarkistettaville tekoälyluonnoksille, mutta kyse ei ole häviöttömästä tuonnista. [Quizletin vientiopas](/fi/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/) neuvoo aineiston siistimisessä lupaamatta, että puuttuva media tai opiskelun tila voitaisiin palauttaa.
 
 Nibomon oma `flashcards.zip`-paketti siirtää kortit, tunnisteet ja niihin liittyvän median Nibomon työtilasta toiseen. Se ei siirrä kertaushistoriaa, FSRS-ajoitusjärjestelmän tilaa, asetuksia, pakkojen koko rakennetta tai tilitietoja. Itse ylläpitämällä saat MIT-lisensoidun ohjelmiston ja hallitset asennusta, mutta dokumentoitu tuotantoratkaisu käyttää AWS:ää. Siitä syntyy edelleen infrastruktuuri-, palveluntarjoaja-, ylläpito-, varmuuskopiointi- ja operointikuluja. [Omatoimisen ylläpidon opas](/docs/self-hosting/) täsmentää tämän rajan.
 

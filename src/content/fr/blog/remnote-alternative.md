@@ -2,7 +2,7 @@
 title: "Alternatives à RemNote en 2026 : options gratuites et open source"
 description: "Comparez les alternatives à RemNote sur les notes, les PDF, les cartes, le prix et l'auto-hébergement. Voyez ce qui migre, ce qui casse et comment répéter un changement sans risque."
 date: "2026-03-19"
-updated: "2026-08-31"
+updated: "2026-11-08"
 image: "/blog/remnote-alternative.png"
 keywords:
   - "alternative à remnote"
@@ -21,7 +21,7 @@ La meilleure **alternative à RemNote** est celle qui règle votre raison de par
 
 > **Transparence :** Je suis Kirill Markin et je développe [Nibomo](/fr/), l'un des produits comparés ici. Nibomo ne remplace pas RemNote en entier. RemNote propose le flux intégré notes-et-PDF le plus solide de cette comparaison, tandis qu'Anki possède le système de cartes et les formats de migration les plus mûrs.
 
-**Faits et prix vérifiés :** 31 août 2026. Les prix indiqués correspondent aux tarifs publics américains et à la facturation annuelle lorsque c'est précisé ; les taxes, les régions, les boutiques d'applications et les conditions de la bêta peuvent modifier le montant.
+**Faits et prix vérifiés :** 31 août 2026. Les prix indiqués correspondent aux tarifs publics américains et à la facturation annuelle lorsque c'est précisé ; les taxes, les régions, les boutiques d'applications et les conditions de la bêta peuvent modifier le montant. Détails de l'import `.apkg` d'Anki dans Nibomo vérifiés le 8 novembre 2026.
 
 ![Une conservatrice d'archives teste le transfert d'un petit échantillon depuis un dossier d'étude lié et intact vers des systèmes séparés de cartes, de fichiers et de blocs](/blog/remnote-alternative.png)
 
@@ -96,7 +96,7 @@ Nibomo fait presque l'arbitrage inverse de RemNote. Ses [fonctionnalités](/feat
 
 La frontière du code source est large : le dépôt sous licence MIT contient le web, iOS, Android, l'authentification, le backend, la synchronisation et l'infrastructure. Le [guide d'auto-hébergement en production](/docs/self-hosting/) pris en charge s'appuie sur AWS CDK. Ce n'est pas un boîtier local qui démarre en une commande. Celui qui l'exploite assume les coûts cloud, les secrets, les migrations, la supervision, les sauvegardes, les tests de restauration et les applications mobiles compilées séparément.
 
-La migration est la plus grosse limite pour qui utilise déjà RemNote. Nibomo importe ses propres paquets `flashcards.zip`, pas du Markdown RemNote ni des `.apkg` Anki. Ces paquets portent les cartes, les tags et les médias référencés, mais pas l'historique de révision, l'état FSRS, les réglages d'espace de travail, la structure complète des decks ni les comptes. Le chat IA peut transformer du texte exporté en brouillons de cartes à relire ; cela reconstruit le contenu, cela ne prolonge pas l'ancienne collection. Notre guide de migration depuis un export TXT montre cette étape avec pertes pas à pas.
+La migration est la plus grosse limite pour qui utilise déjà RemNote. L'import de la Bibliothèque de Nibomo n'accepte que ses propres paquets `flashcards.zip`, pas du Markdown RemNote ni des `.apkg` Anki. Ces paquets portent les cartes, les tags et les médias référencés, mais pas l'historique de révision, l'état FSRS, les réglages d'espace de travail, la structure complète des decks ni les comptes. Le chat IA peut lire un `.apkg` Anki joint ou du texte exporté et le transformer en cartes qui repartent toutes comme nouvelles ; cela reconstruit le contenu, cela ne prolonge pas l'ancienne collection. Le [guide d'import `.apkg` Anki](/blog/import-anki-apkg/) montre ce que cette route conserve et ce qu'elle perd, et notre ancien guide de migration depuis un export TXT couvre la route en texte brut.
 
 Choisissez Nibomo pour un espace de cartes neuf ou simple quand l'accès au code de toute la pile compte. Gardez RemNote pour l'étude connectée, et choisissez Anki quand la fidélité de la migration ou une structure de cartes avancée compte. Pour la comparaison plus étroite des systèmes de cartes, voyez notre comparatif entre Anki et Nibomo ainsi que le [guide des applications de flashcards open source](/blog/best-open-source-flashcard-apps-2026/).
 

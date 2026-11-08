@@ -2,7 +2,7 @@
 title: "Alternatives a Anki el 2026: què conserves, què perds i què guanyes amb el canvi"
 description: "Compara set alternatives a Anki segons què conserven en migrar, l’ús sense connexió, la programació de repassos, el preu, el codi i l’autoallotjament. Quan convé quedar-se a Anki?"
 date: "2026-03-14"
-updated: "2026-08-28"
+updated: "2026-11-08"
 image: "/blog/best-anki-alternatives.png"
 keywords:
   - "alternatives a Anki"
@@ -20,9 +20,9 @@ Aquí és on equivocar-se en triar una alternativa a Anki pot sortir car. Un edi
 
 Aquesta comparativa parteix del que es conserva i del que es perd en migrar. Examina set aplicacions com Anki, què pot aprofitar cadascuna d'una col·lecció existent, què canvia després d'importar-la i quan quedar-se a Anki és l'opció més segura.
 
-> **Declaració d'interessos:** Soc Kirill Markin i desenvolupo [Nibomo](https://nibomo.com/), un dels productes que apareixen a continuació. L'he inclòs pel codi obert, l'autoallotjament i els fluxos de treball amb agents. No és el guanyador per defecte: no té cap importador directe de `.apkg`, la migració des d'Anki perd informació i mantenir tota la infraestructura autoallotjada comporta feina real.
+> **Declaració d'interessos:** Soc Kirill Markin i desenvolupo [Nibomo](https://nibomo.com/), un dels productes que apareixen a continuació. L'he inclòs pel codi obert, l'autoallotjament i els fluxos de treball amb agents. No és el guanyador per defecte: només llegeix els fitxers `.apkg` d'Anki a través del xat amb IA, la migració des d'Anki perd informació i mantenir tota la infraestructura autoallotjada comporta feina real.
 
-**Dades comprovades:** 28 d'agost de 2026. Els preus són els preus públics dels Estats Units o els preus locals indicats disponibles en aquella data. Els impostos, la regió, les ofertes educatives i la facturació a través de les botigues d'aplicacions poden canviar l'import.
+**Dades comprovades:** 28 d'agost de 2026. Els preus són els preus públics dels Estats Units o els preus locals indicats disponibles en aquella data. Els impostos, la regió, les ofertes educatives i la facturació a través de les botigues d'aplicacions poden canviar l'import. Detalls de la importació de `.apkg` d'Anki a Nibomo comprovats el 8 de novembre de 2026.
 
 ![Un rellotger comprova si el mecanisme d'un rellotge de butxaca amb anys de funcionament encaixarà en una altra caixa](/blog/best-anki-alternatives.png)
 
@@ -41,7 +41,7 @@ Les altres quatre opcions impliquen reconstruir el contingut, no migrar la col·
 - **Quizlet** és útil per a conjunts públics, classes, jocs i pràctica guiada.
 - **Brainscape** ofereix als grups un cicle de repàs més senzill, basat en valoracions de confiança de l'1 al 5.
 - **SuperMemo** implica passar al seu mètode propietari i al seu catàleg de cursos.
-- **Nibomo** t'ofereix clients web i natius amb llicència MIT, un backend autoallotjat i accés a l'API i a MCP. El seu flux de treball amb TXT o CSV, que requereix revisió, no conserva l'estat d'aprenentatge d'Anki.
+- **Nibomo** t'ofereix clients web i natius amb llicència MIT, un backend autoallotjat i accés a l'API i a MCP. El seu xat amb IA pot convertir un `.apkg` adjunt en targetes, però l'estat d'aprenentatge d'Anki no s'hi trasllada.
 
 Si les teves targetes depenen d'una representació exacta, dels complements o de la cua de repassos actual, quedar-te a Anki no és indecisió. És la resposta.
 
@@ -78,7 +78,7 @@ Un importador pot complir el primer requisit i fallar en els altres dos.
 | [Quizlet](https://quizlet.com/) | [Enganxar termes i definicions](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content) | Cap dada d'Anki | Tipus de nota, plantilles, baralles, estructura multimèdia i totes les dades de programació |
 | [Brainscape](https://www.brainscape.com/) | [CSV, TXT, XLSX o ODS](https://brainscape.zendesk.com/hc/en-us/articles/115002369931-How-do-I-import-various-files-to-create-flashcards) | Cap dada d'Anki | Plantilles, complements, regles multimèdia i totes les dades de programació |
 | [SuperMemo](https://www.supermemo.com/) | [Enganxar files de preguntes i respostes amb delimitadors](https://www.supermemo.com/en/blog/how-to-create-flashcards-for-learning), fins a 100 alhora | Cap dada d'Anki | Estructura de la col·lecció, fitxers multimèdia, plantilles i totes les dades de programació |
-| [Nibomo](https://nibomo.com/) | Creació d'esborranys assistida per IA, amb revisió, a partir de TXT o CSV d'Anki | Cap dada d'Anki | No admet `.apkg`; queden enrere les plantilles, la fidelitat multimèdia, la jerarquia de baralles i totes les dades de programació |
+| [Nibomo](https://nibomo.com/) | [Adjunta el `.apkg` al xat amb IA](/blog/import-anki-apkg/); la IA desa les targetes directament. També funcionen TXT o CSV | Cap dada d'Anki; totes les targetes comencen com a noves | Les notes de buits per completar es converteixen en targetes de pregunta i resposta; queden enrere les plantilles, el CSS, la imbricació de baralles i totes les dades de programació |
 
 ## Preu, ús sense connexió, programació i control
 
@@ -166,11 +166,11 @@ Els cursos descarregats es poden estudiar sense connexió a les aplicacions mòb
 
 Tria SuperMemo si el seu mètode o el seu catàleg de cursos et compensen haver de començar una programació de repassos nova. Si la prioritat és conservar la programació existent, no resol el problema que tens.
 
-## Nibomo: accés al codi de tota la pila, amb la importació d'Anki més limitada
+## Nibomo: accés al codi de tota la pila, amb una importació d'Anki només de contingut
 
 Nibomo ofereix un control ampli sobre el sistema. El [repositori amb llicència MIT](https://github.com/kirill-markin/flashcards-open-source-app) conté l'aplicació web, els clients d'iOS i Android, el backend, la sincronització sense connexió, la infraestructura, l'[API pública](/docs/api/) i el [servidor MCP](/docs/mcp-connector/). Els repassos fan servir [FSRS](/docs/architecture/#scheduling). Els clients web, iOS i Android desen primer les dades localment, afegeixen els canvis a una cua de sortida i sincronitzen quan es recupera la connexió.
 
-Això no el fa compatible amb Anki. Nibomo no pot llegir `.apkg` ni `.colpkg`. La [migració admesa amb TXT d'Anki](/blog/migrate-from-anki-txt-export-open-source-flashcards/) és un flux de creació d'esborranys assistit per IA i amb revisió, pensat per a targetes principalment de text. No conserva plantilles, complements, jerarquia de baralles, dates de venciment, intervals ni esdeveniments de repàs. Les referències multimèdia d'un TXT no són fitxers multimèdia, de manera que les baralles amb molts d'aquests fitxers requereixen una reconstrucció i una verificació separades.
+Això no el fa compatible amb Anki. No hi ha cap importador d'un sol clic, i Biblioteca → Importar només accepta el `.zip` propi de Nibomo. En canvi, [adjuntes un `.apkg` al xat amb IA](/blog/import-anki-apkg/) i li demanes que converteixi la baralla en targetes. En una prova amb una petita baralla de mostra, va conservar les targetes bàsiques, les etiquetes i una imatge, va dividir cada nota bàsica amb inversa en dues targetes d'un sol sentit i va reescriure les notes de buits per completar com a targetes de pregunta i resposta. Les subbaralles es van convertir en baralles planes de Nibomo. Les plantilles, els complements, les dates de venciment, els intervals i els esdeveniments de repàs queden enrere, i no s'accepten fitxers `.colpkg`. Exporta amb **Support older Anki versions** marcat; Nibomo dona a la IA la llista de noms dels fitxers multimèdia només en aquest format antic. El paquet de prova era un fitxer en el format antic creat amb un script, no una exportació d'Anki. Comprova les imatges després d'importar. La [migració amb TXT d'Anki](/blog/migrate-from-anki-txt-export-open-source-flashcards/), més antiga, continua funcionant per a targetes només de text.
 
 El paquet propi `flashcards.zip` de Nibomo tampoc no equival a una còpia de seguretat completa. Mou targetes, etiquetes i fitxers multimèdia relacionats entre espais de treball de Nibomo. No mou l'historial de repassos, l'estat de FSRS, les estructures completes de baralles, la configuració de l'espai de treball ni els comptes.
 

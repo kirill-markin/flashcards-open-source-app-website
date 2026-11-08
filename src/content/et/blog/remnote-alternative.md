@@ -2,7 +2,7 @@
 title: "RemNote'i alternatiivid 2026. aastal: tasuta ja avatud lähtekoodiga valikud"
 description: "Võrdle RemNote'i alternatiive märkmete, PDF-ide, õpikaartide, hinna ja ise majutamise järgi. Vaata, mis üle kandub, mis kaotsi läheb ja kuidas üleviimist turvaliselt proovida."
 date: "2026-03-19"
-updated: "2026-08-31"
+updated: "2026-11-08"
 image: "/blog/remnote-alternative.png"
 keywords:
   - "remnote alternatiiv"
@@ -21,7 +21,7 @@ Parim **RemNote'i alternatiiv** lahendab lahkumise põhjuse, kaotamata märkamat
 
 > **Seotus tootega:** Olen Kirill Markin ja arendan [Nibomot](/et/), üht siin võrreldavatest toodetest. Nibomo ei asenda RemNote'i täielikult. RemNote'il on selles võrdluses kõige tugevam ühendatud märkmete ja PDF-ide töövoog, Ankil aga kõige küpsem kaardisüsteem ja andmete üleviimise vormingud.
 
-**Faktid ja hinnad kontrollitud:** 31. augustil 2026. Hinnad põhinevad USA avalikul hinnakirjal ning märgitud juhtudel aastasel arveldusel. Maksud, piirkond, rakenduspood ja beetaversiooni tingimused võivad summat muuta.
+**Faktid ja hinnad kontrollitud:** 31. augustil 2026. Hinnad põhinevad USA avalikul hinnakirjal ning märgitud juhtudel aastasel arveldusel. Maksud, piirkond, rakenduspood ja beetaversiooni tingimused võivad summat muuta. Nibomo Anki `.apkg` impordi üksikasjad kontrollitud 8. novembril 2026.
 
 ![Arhiivikonservaator katsetab väikese osa üleviimist terviklikust omavahel seotud õppematerjalide toimikust eraldi kaardi-, faili- ja plokisüsteemidesse](/blog/remnote-alternative.png)
 
@@ -96,7 +96,7 @@ Nibomo teeb RemNote'iga peaaegu vastupidise kompromissi. Selle [funktsioonid](/e
 
 Avalik lähtekood hõlmab palju: MIT-litsentsiga hoidlas on veebi-, iOS-i ja Androidi rakendused, autentimine, tagarakendus, sünkroonimine ja taristu. Toetatud [tootmiskeskkonnas ise majutamise juhend](/docs/self-hosting/) kasutab AWS CDK-d. See ei ole ühe käsuga käivitatav kohalik lahendus. Haldaja vastutab pilvekulude, salajaste juurdepääsuandmete, andmemigratsioonide, seire, varukoopiate, taastamise katsetamise ja eraldi ehitatavate mobiilirakenduste eest.
 
-Olemasolevale RemNote'i kasutajale on suurem piirang andmete üleviimine. Nibomo impordib enda `flashcards.zip` pakette, mitte RemNote'i Markdowni ega Anki `.apkg` faile. Need paketid sisaldavad kaarte, silte ja viidatud meediafaile, kuid mitte kordamisajalugu, FSRS-i olekut, tööruumi seadistusi, kaardipakkide täielikku struktuuri ega kontosid. Tehisaruvestlus võib muuta eksporditud teksti kaardikavanditeks, mille üle vaatad; nii lood sisu uuesti, mitte ei jätka vana kogu. [TXT-vormingus üleviimise juhend](/blog/migrate-from-anki-txt-export-open-source-flashcards/) näitab sammhaaval, kus andmed kaotsi lähevad.
+Olemasolevale RemNote'i kasutajale on suurem piirang andmete üleviimine. Nibomo teegi import võtab vastu ainult enda `flashcards.zip` pakette, mitte RemNote'i Markdowni ega Anki `.apkg` faile. Need paketid sisaldavad kaarte, silte ja viidatud meediafaile, kuid mitte kordamisajalugu, FSRS-i olekut, tööruumi seadistusi, kaardipakkide täielikku struktuuri ega kontosid. Tehisaruvestlus oskab lugeda manustatud Anki `.apkg` faili või eksporditud teksti ja muuta selle kaartideks, mis kõik alustavad uuena; nii lood sisu uuesti, mitte ei jätka vana kogu. [Anki `.apkg` impordi juhend](/blog/import-anki-apkg/) näitab, mida see tee säilitab ja mida kaotab, ning vanem [TXT-vormingus üleviimise juhend](/blog/migrate-from-anki-txt-export-open-source-flashcards/) käsitleb lihttekstiga teed.
 
 Vali Nibomo uue või lihtsa kaarditööruumi jaoks, kui kogu süsteemi lähtekoodile ligipääs on oluline. Seotud materjalidest õppimiseks jää RemNote'i juurde ning vali Anki siis, kui tähtis on andmete täpne üleviimine või keerukam kaardistruktuur. Kitsama kaardisüsteemide võrdluse leiad artiklitest [Anki ja Nibomo võrdlus](/blog/anki-vs-flashcards-open-source-app/) ning [avatud lähtekoodiga õpikaardirakenduste ülevaade](/et/blog/best-open-source-flashcard-apps-2026/).
 

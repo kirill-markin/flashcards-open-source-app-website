@@ -2,7 +2,7 @@
 title: "Alternativer til Anki i 2026: Hvad du beholder, mister og får ved at skifte"
 description: "Sammenlign syv alternativer til Anki på databevaring ved flytning, offlinebrug, repetitionsplanlægning, pris, kildekode og egen hosting – og se, hvornår Anki er det sikreste valg."
 date: "2026-03-14"
-updated: "2026-08-28"
+updated: "2026-11-08"
 image: "/blog/best-anki-alternatives.png"
 keywords:
   - "alternativer til Anki"
@@ -20,9 +20,9 @@ Det er den dyre del af at sammenligne alternativer til Anki. En mere overskuelig
 
 Denne sammenligning tager udgangspunkt i, hvad der følger med, og hvad der går tabt. Den dækker syv apps som Anki, hvad hver af dem kan overtage fra en eksisterende samling, hvad der ændrer sig efter importen, og hvornår det er sikrere at beholde Anki.
 
-> **Min tilknytning:** Jeg hedder Kirill Markin og udvikler [Nibomo](https://nibomo.com/), et af produkterne nedenfor. Jeg har taget det med på grund af den åbne kildekode, muligheden for egen hosting og arbejdsgangene med agenter. Det er ikke vinderen på forhånd: Nibomo har ingen direkte `.apkg`-import, overførsel fra Anki medfører tab, og at drive hele systemet selv kræver reelt arbejde med infrastrukturen.
+> **Min tilknytning:** Jeg hedder Kirill Markin og udvikler [Nibomo](https://nibomo.com/), et af produkterne nedenfor. Jeg har taget det med på grund af den åbne kildekode, muligheden for egen hosting og arbejdsgangene med agenter. Det er ikke vinderen på forhånd: Nibomo læser kun Anki-`.apkg`-filer gennem AI-chatten og ikke via en direkte import, overførsel fra Anki medfører tab, og at drive hele systemet selv kræver reelt arbejde med infrastrukturen.
 
-**Fakta kontrolleret:** 28. august 2026. Priserne er de offentlige amerikanske priser eller de angivne lokale priser, der var tilgængelige den dag. Skatter, regioner, uddannelsestilbud og betaling via appbutikker kan ændre beløbet.
+**Fakta kontrolleret:** 28. august 2026. Priserne er de offentlige amerikanske priser eller de angivne lokale priser, der var tilgængelige den dag. Skatter, regioner, uddannelsestilbud og betaling via appbutikker kan ændre beløbet. Nibomos Anki-`.apkg`-import kontrolleret 8. november 2026.
 
 ![En urmager undersøger, om et ældre, gennemprøvet lommeursværk passer i en anden urkasse](/blog/best-anki-alternatives.png)
 
@@ -41,7 +41,7 @@ Med de øvrige fire genopbygger du indholdet frem for at flytte samlingen:
 - **Quizlet** er nyttigt til offentlige kortsæt, klasser, spil og guidede øvelser.
 - **Brainscape** giver en gruppe en enklere repetitionsrutine, hvor man vurderer, hvor sikker man er på svaret, fra 1 til 5.
 - **SuperMemo** er et skift til produktets proprietære metode og kursuskatalog.
-- **Nibomo** giver dig web- og native klienter under MIT-licensen, en backend på egen infrastruktur samt API- og MCP-adgang. Arbejdsgangen med AI-assisterede udkast fra TXT eller CSV og efterfølgende gennemgang bevarer ikke læringstilstanden fra Anki.
+- **Nibomo** giver dig web- og native klienter under MIT-licensen, en backend på egen infrastruktur samt API- og MCP-adgang. Dets AI-chat kan lave en vedhæftet `.apkg` om til kort, men læringstilstanden fra Anki følger ikke med.
 
 Hvis dine kort afhænger af præcis visning, tilføjelser eller den aktuelle repetitionskø, er det ikke ubeslutsomhed at blive i Anki. Det er svaret.
 
@@ -78,7 +78,7 @@ En import kan opfylde det første krav og svigte på de to andre.
 | [Quizlet](https://quizlet.com/) | [Indsæt begreber og definitioner](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content) | Ingen fra Anki | Notetyper, skabeloner, kortsæt, mediestruktur og alle planlægningsdata |
 | [Brainscape](https://www.brainscape.com/) | [CSV, TXT, XLSX eller ODS](https://brainscape.zendesk.com/hc/en-us/articles/115002369931-How-do-I-import-various-files-to-create-flashcards) | Ingen fra Anki | Skabeloner, tilføjelser, medieregler og alle planlægningsdata |
 | [SuperMemo](https://www.supermemo.com/) | [Indsæt rækker med spørgsmål og svar adskilt af skilletegn](https://www.supermemo.com/en/blog/how-to-create-flashcards-for-learning), højst 100 ad gangen | Ingen fra Anki | Samlingens struktur, medier, skabeloner og alle planlægningsdata |
-| [Nibomo](https://nibomo.com/) | AI-assisteret udarbejdelse af udkast fra Anki TXT eller CSV med efterfølgende gennemgang | Ingen fra Anki | Ingen `.apkg`-understøttelse; skabeloner, nøjagtig mediegengivelse, kortsæthierarki og alle planlægningsdata kommer ikke med |
+| [Nibomo](https://nibomo.com/) | [Vedhæft `.apkg`-filen i AI-chatten](/blog/import-anki-apkg/); AI'en gemmer kortene direkte. TXT eller CSV virker også | Ingen fra Anki; alle kort starter som nye | Cloze-noter bliver til spørgsmål-og-svar-kort; skabeloner, CSS, indlejrede kortsæt og alle planlægningsdata kommer ikke med |
 
 ## Pris, offlinebrug, repetitionsplanlægning og ejerskab
 
@@ -166,11 +166,11 @@ Downloadede kurser kan bruges offline i mobilapps. [Offlinevejledningen](https:/
 
 Vælg SuperMemo, hvis du vil have netop SuperMemos metode eller kursuskatalog så meget, at du vil begynde på en ny repetitionsplan. Hvis det vigtigste er at bevare din eksisterende plan, løser det det forkerte problem.
 
-## Nibomo: adgang til hele systemets kildekode, men den svageste Anki-import
+## Nibomo: adgang til hele systemets kildekode, men en Anki-import kun af indhold
 
 Nibomo giver dig mulighed for at eje og kontrollere en stor del af systemet. [Repositoryet under MIT-licensen](https://github.com/kirill-markin/flashcards-open-source-app) indeholder webappen, iOS- og Android-klienter, backend, offlinesynkronisering, infrastruktur, et [offentligt API](/docs/api/) og en [MCP-server](/docs/mcp-connector/). Repetitionerne bruger [FSRS](/docs/architecture/#scheduling). Web, iOS og Android skriver først lokalt, lægger ændringer i en udbakke og synkroniserer, når forbindelsen vender tilbage.
 
-Det gør ikke Nibomo kompatibelt med Anki. Nibomo kan ikke læse `.apkg` eller `.colpkg`. Den understøttede [flytning fra Anki via TXT](/blog/migrate-from-anki-txt-export-open-source-flashcards/) er en arbejdsgang med AI-assisterede udkast og efterfølgende gennemgang til primært tekstbaserede kort. Den bevarer ikke skabeloner, tilføjelser, kortsæthierarki, repetitionsdatoer, intervaller eller registrerede repetitioner. Mediereferencer i en TXT-fil er ikke mediefiler, så kortsæt med mange medier skal genopbygges og kontrolleres særskilt.
+Det gør ikke Nibomo kompatibelt med Anki. Der er ingen import med ét klik, og Bibliotek → Import tager kun Nibomos egen `.zip`. I stedet [vedhæfter du en `.apkg` i AI-chatten](/blog/import-anki-apkg/) og beder den lave kortsættet om til kort. I en test med et lille eksempelkortsæt bevarede den basiskort, tags og et billede, delte noter af typen basis og omvendt op i to envejskort og omskrev cloze-noter til spørgsmål-og-svar-kort. Underkortsæt blev til flade Nibomo-kortsæt. Skabeloner, tilføjelser, repetitionsdatoer, intervaller og registrerede repetitioner kommer ikke med, og `.colpkg`-filer accepteres ikke. Eksportér med **Support older Anki versions** slået til; Nibomo giver kun AI'en listen over mediefilnavne, når pakken er i det ældre format. Testpakken var en fil i det ældre format, bygget med et script, ikke en eksport fra Anki. Tjek billederne efter importen. Den ældre [flytning fra Anki via TXT](/blog/migrate-from-anki-txt-export-open-source-flashcards/) virker stadig til kort med ren tekst.
 
 Nibomos egen `flashcards.zip`-pakke er også mere begrænset end en sikkerhedskopi. Den flytter kort, tags og tilknyttede medier mellem Nibomo-arbejdsområder. Den flytter ikke repetitionshistorik, FSRS-tilstand, komplette kortsætstrukturer, arbejdsområdeindstillinger eller konti.
 

@@ -2,7 +2,7 @@
 title: "Alternatives a RemNote el 2026: opcions gratuïtes i de codi obert"
 description: "Compara alternatives a RemNote segons les notes, els PDF, les targetes, el preu i l’allotjament propi. Descobreix què es migra, què es perd i com provar el canvi amb seguretat."
 date: "2026-03-19"
-updated: "2026-08-31"
+updated: "2026-11-08"
 image: "/blog/remnote-alternative.png"
 keywords:
   - "alternativa a remnote"
@@ -21,7 +21,7 @@ La millor **alternativa a RemNote** és la que resol el motiu pel qual vols marx
 
 > **Declaració d'interessos:** Soc Kirill Markin i desenvolupo [Nibomo](/ca/), un dels productes comparats aquí. Nibomo no substitueix RemNote del tot. RemNote ofereix la millor integració de notes i PDF d'aquesta comparativa, mentre que Anki té el sistema de targetes i els formats de migració més consolidats.
 
-**Dades i preus comprovats:** 31 d'agost de 2026. Els preus indicats són els preus públics dels Estats Units, amb facturació anual quan s'especifica; els impostos, la regió, les botigues d'aplicacions i les condicions de la beta poden fer variar l'import.
+**Dades i preus comprovats:** 31 d'agost de 2026. Els preus indicats són els preus públics dels Estats Units, amb facturació anual quan s'especifica; els impostos, la regió, les botigues d'aplicacions i les condicions de la beta poden fer variar l'import. Detalls de la importació de `.apkg` d'Anki a Nibomo comprovats el 8 de novembre de 2026.
 
 ![Un conservador d'arxius prova una petita transferència d'un dossier d'estudi amb enllaços, que es manté intacte, a sistemes separats de targetes, fitxers i blocs](/blog/remnote-alternative.png)
 
@@ -96,7 +96,7 @@ Nibomo pren una decisió gairebé oposada a la de RemNote. Les seves [funcions](
 
 Tens accés al codi font de tot el sistema: el repositori amb llicència MIT inclou web, iOS, Android, autenticació, backend, sincronització i infraestructura. La [guia d'allotjament propi en producció](/docs/self-hosting/) descriu el desplegament amb AWS CDK, que és la via amb suport. No és un paquet local que es posa en marxa amb una sola ordre. Qui l'administra assumeix els costos del núvol, els secrets, les migracions, la supervisió, les còpies de seguretat, les proves de restauració i la compilació per separat de les apps mòbils.
 
-La migració és la limitació més gran per a qui ja fa servir RemNote. Nibomo importa els seus propis paquets `flashcards.zip`, no el Markdown de RemNote ni els `.apkg` d'Anki. Aquests paquets contenen targetes, etiquetes i els fitxers multimèdia referenciats, però no l'historial de repassos, l'estat FSRS, els ajustos de l'espai de treball, l'estructura completa dels paquets de targetes ni els comptes. El xat amb IA pot convertir el text exportat en esborranys de targetes que revises; això és reconstruir el contingut, no continuar la col·lecció antiga. La [guia de migració amb TXT](/blog/migrate-from-anki-txt-export-open-source-flashcards/) mostra pas a pas què es perd en aquest procés.
+La migració és la limitació més gran per a qui ja fa servir RemNote. La importació de la Biblioteca de Nibomo només accepta els seus propis paquets `flashcards.zip`, no el Markdown de RemNote ni els `.apkg` d'Anki. Aquests paquets contenen targetes, etiquetes i els fitxers multimèdia referenciats, però no l'historial de repassos, l'estat FSRS, els ajustos de l'espai de treball, l'estructura completa dels paquets de targetes ni els comptes. El xat amb IA pot llegir un `.apkg` d'Anki adjunt o text exportat i convertir-lo en targetes que comencen totes com a noves; això és reconstruir el contingut, no continuar la col·lecció antiga. La [guia d'importació de `.apkg` d'Anki](/blog/import-anki-apkg/) mostra què conserva i què perd aquesta via, i la [guia de migració amb TXT](/blog/migrate-from-anki-txt-export-open-source-flashcards/), més antiga, explica la via de text pla.
 
 Tria Nibomo per a un espai de targetes nou o senzill quan importi tenir accés al codi de tot el sistema. Conserva RemNote per estudiar amb notes i fonts connectades, i tria Anki quan importin la fidelitat de la migració o una estructura de targetes avançada. Per comparar específicament els sistemes de targetes, consulta [Anki i Nibomo](/blog/anki-vs-flashcards-open-source-app/) i la [guia d'apps de targetes d'estudi de codi obert](/ca/blog/best-open-source-flashcard-apps-2026/).
 
