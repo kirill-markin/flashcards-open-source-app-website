@@ -1434,6 +1434,21 @@
     "bytes": 1305518
   },
   {
+    "publicPath": "/blog/flashcard-widget-v2.png",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/94e11d677ef5da28b4490f899a86e423764ec2142a9264c0cbd088823c3101ae.webp",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "94e11d677ef5da28b4490f899a86e423764ec2142a9264c0cbd088823c3101ae",
+    "bytes": 138688,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/a36981bce2c1840666110f455705a6aa0c179d0503bf02c97aa0fedaf999e8d5.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "a36981bce2c1840666110f455705a6aa0c179d0503bf02c97aa0fedaf999e8d5",
+      "bytes": 2388027
+    }
+  },
+  {
     "publicPath": "/blog/flashcards-vs-practice-tests.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/5cd59449187e2209125fa7bc334a08d80633eedb5c30a04bd3811548fcf66e73.png",
     "width": 1672,
