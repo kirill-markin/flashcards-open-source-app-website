@@ -3,7 +3,7 @@ title: "【2026年版】Anki・Quizlet・Nibomoを比較：おすすめはどれ
 description: "Anki、Quizlet、Nibomoを2026年の最新情報で比較。間隔反復、オフライン学習、AI、データ移行、料金、オープンソース、データ所有権の違いを解説します。"
 image: "/blog/anki-vs-quizlet-vs-open-source-flashcards-app.png"
 date: "2026-03-09"
-updated: "2026-11-07"
+updated: "2026-11-08"
 keywords:
   - "Anki Quizlet 比較"
   - "おすすめ フラッシュカードアプリ"
@@ -31,7 +31,7 @@ keywords:
 
 ## Anki・Quizlet・Nibomoを実用面で比較
 
-以下は、2026年8月2日時点で確認した製品情報です（ホーム画面ウィジェットの詳細は2026年11月7日に確認）。料金や利用できる機能は地域によって異なる場合があります。
+以下は、2026年8月2日時点で確認した製品情報です（ホーム画面ウィジェットの詳細は2026年11月7日、Ankiの`.apkg`インポートの詳細は2026年11月8日に確認）。料金や利用できる機能は地域によって異なる場合があります。
 
 | 比較項目 | Anki | Quizlet | Nibomo |
 | --- | --- | --- | --- |
@@ -39,7 +39,7 @@ keywords:
 | オフライン学習 | ローカルファーストのデスクトップアプリとネイティブモバイルアプリで学習でき、同期は任意 | [iOSとAndroid](https://help.quizlet.com/hc/en-us/articles/360030565412-Studying-offline-with-Quizlet-mobile-apps)では、保存したセットを「単語カード」と「マッチ」でオフライン利用でき、セットの作成も可能。Webサイトはオフラインでは利用できない | ネイティブiOS（SQLite）・Android（Room/SQLite）アプリが、最も明快で確実なオフライン手段。Webアプリは一度読み込むと、カードと未同期の変更をIndexedDBに保存するが、AIと同期には接続が必要 |
 | Web・対応端末 | Windows、macOS、Linux、AnkiWeb、公式の有料iOSアプリ、別プロジェクトの無料コミュニティ製Androidアプリ | 洗練されたWeb、iOS、Androidアプリ。デスクトップアプリはない | ホスト型WebアプリとiOS・Androidアプリ。iPhone、iPad、Mac、Android向けのホーム画面ウィジェットで、復習待ちのカードと次の問題を確認できる |
 | AI | Anki本体には、公式の生成AIワークフローが組み込まれていない。アドオンや外部AIを利用する方法はある | フラッシュカード生成、学習ガイド、模擬テスト、PDF向け機能など、充実した[組み込みAIツール](https://quizlet.com/features/ai-study-tools)がある。利用上限はプランによって異なる | ワークスペースの内容を参照できるAIチャットで、ファイルを添付しながらカードを作成・編集できる。MCPとエージェントAPIを通じて外部AIツールとも連携可能 |
-| インポート | [テキスト、パッケージ化されたAnkiデッキ、Mnemosyneファイル](https://docs.ankiweb.net/importing/intro.html)に幅広く対応 | Webサイトで[区切り文字付きテキストを貼り付け](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content)できる。AIツールではノートや文書も利用できる | 独自形式の`flashcards.zip`ワークスペースパッケージをインポートできる。AnkiやQuizletのコンテンツは現時点ではテキストに書き出し、必要に応じてAIで整える必要がある。`.apkg`の直接インポートには未対応 |
+| インポート | [テキスト、パッケージ化されたAnkiデッキ、Mnemosyneファイル](https://docs.ankiweb.net/importing/intro.html)に幅広く対応 | Webサイトで[区切り文字付きテキストを貼り付け](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content)できる。AIツールではノートや文書も利用できる | ライブラリのインポートは独自形式の`flashcards.zip`パッケージに対応。AIチャットは[添付したAnkiの`.apkg`をカードにできる](/blog/import-anki-apkg/)が、復習履歴は含まれない。Quizletのコンテンツはテキストへのエクスポートが必要 |
 | エクスポート | [パッケージ形式とテキスト形式のエクスポート](https://docs.ankiweb.net/exporting.html)に幅広く対応。スケジュール情報、デッキプリセット、メディアを含めるオプションがある | Webサイトから、自分で作成したセットの用語と定義をエクスポートできる。[コピーしたセットと画像は対象外](https://help.quizlet.com/hc/en-us/articles/360034345672-Exporting-your-sets) | 独自形式の`flashcards.zip`パッケージで移せるのは、有効なカード、タグ、参照されているメディアのみ。復習履歴、FSRSスケジューラーの状態、ワークスペース設定、完全なデッキ構造、アカウントデータは含まれない |
 | 料金 | デスクトップ版、AnkiWeb、AnkiDroidは無料。公式iOS版AnkiMobileは[米国App Storeで24.99ドルの買い切り](https://apps.apple.com/us/app/ankimobile-flashcards/id373493387) | 無料版には制限がある。米国向けページでは[Plusが年額35.99ドル、Plus Unlimitedが年額44.99ドル](https://quizlet.com/upgrade)で、いずれも年払い。地域によって料金が異なる場合がある | [ホスト型Cloud Betaは無料](/pricing/)。基本的なカード作成と復習は今後も無料だが、AIを多く使う場合は、将来自分のプロバイダーキーまたは有料オプションが必要になる可能性がある。MITライセンスのためセルフホストにライセンス料はかからないが、インフラの費用と管理は利用者が負担 |
 | オープンソース | [Ankiプロジェクトとデスクトップアプリ](https://apps.ankiweb.net/)はオープンソース。AnkiMobileは別の公式有料iOSアプリ、AnkiDroidはコントリビューターが開発する別プロジェクト | クローズドソースのホスト型プラットフォーム | [スタック全体が公開](https://github.com/kirill-markin/flashcards-open-source-app)されている。MITライセンスで、セルフホスト可能 |
@@ -95,7 +95,7 @@ Nibomoが向いているのは、次のような人です。
 
 ### 成熟度に関する重要な注意点
 
-Nibomoは開発の初期段階にあります。エコシステム、インポート対応、詳細な復習ツール、障害からの復旧手段は、Ankiほど成熟していません。`.apkg`を直接取り込む機能もありません。独自形式の`flashcards.zip`パッケージで移せるのは、有効なカード、タグ、参照されているメディアです。復習履歴、FSRSスケジューラーの状態、ワークスペース設定、完全なデッキ構造、アカウントデータは移せません。
+Nibomoは開発の初期段階にあります。エコシステム、インポート対応、詳細な復習ツール、障害からの復旧手段は、Ankiほど成熟していません。Ankiの`.apkg`はワンクリックのインポーターではなくAIチャット経由で取り込み、復習履歴は引き継がれません。独自形式の`flashcards.zip`パッケージで移せるのは、有効なカード、タグ、参照されているメディアです。復習履歴、FSRSスケジューラーの状態、ワークスペース設定、完全なデッキ構造、アカウントデータは移せません。
 
 実際には、ここから二つの注意点が生じます。高度にカスタマイズしたAnkiコレクションを移す場合、Ankiを正本として残さない限り、重要な構造が失われます。また、Nibomoパッケージを災害復旧用の完全なバックアップとして扱うべきではありません。別途保管すべきデータは、詳しい[フラッシュカードのバックアップガイド](/blog/how-to-back-up-flashcards/)で説明しています。
 
@@ -105,7 +105,7 @@ Nibomoは開発の初期段階にあります。エコシステム、インポ�
 
 ゼロから始めるなら、比較は簡単です。既存のコレクションがあると、移行条件がそのまま判断基準になります。
 
-何年分ものAnki復習履歴があるなら、履歴をリセットしてでも移行する価値がある場合を除き、Ankiを使い続けるのが安全です。シンプルな表裏カードのデッキなら、テキストにエクスポートし、[Anki TXT移行手順](/blog/migrate-from-anki-txt-export-open-source-flashcards/)に従ってください。この手順は、書き出したテキストを素材に、整えたカードの下書きを作るものです。Ankiコレクションを完全に再現するものではありません。
+何年分ものAnki復習履歴があるなら、履歴をリセットしてでも移行する価値がある場合を除き、Ankiを使い続けるのが安全です。シンプルな表裏カードのデッキなら、その`.apkg`をNibomoのAIチャットに添付してください。[Anki `.apkg`インポートガイド](/blog/import-anki-apkg/)では、何が移るかを紹介しています。テキストとタグは移り、テストに含まれていた1枚の画像も移りましたが、すべてのカードのスケジュールは一から始まり、穴埋めノートは質問と回答のカードになります。エクスポート時は**Support older Anki versions**にチェックを入れてください。Nibomoがメディアファイル名の一覧をAIに渡すのは、この古い形式の場合だけです。テスト用パッケージは、Ankiからエクスポートしたものではなく、スクリプトで作成した古い形式のファイルでした。インポート後は画像を確認してください。従来の[Anki TXT移行手順](/blog/migrate-from-anki-txt-export-open-source-flashcards/)も、テキストだけのデッキには引き続き使えます。
 
 教材がQuizletにある場合は、まず自分で作成したセットであり、必要な内容がテキストであることを確認してください。[QuizletからエクスポートしてFSRSに移行するガイド](/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/)で、実際の手順とエクスポートの制約を説明しています。
 

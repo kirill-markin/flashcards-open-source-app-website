@@ -2,7 +2,7 @@
 title: "2026 年 RemNote 替代方案：免费与开源选择"
 description: "对比 RemNote 替代方案的笔记、PDF、卡片、价格和自托管能力，了解哪些内容能迁移、哪些环节会失效，以及如何先演练一次安全迁移。"
 date: "2026-03-19"
-updated: "2026-08-31"
+updated: "2026-11-08"
 image: "/blog/remnote-alternative.png"
 keywords:
   - "RemNote 替代方案"
@@ -21,7 +21,7 @@ RemNote 把 Anki 导出标为 **Flashcards Only（仅闪卡）**。没有做成�
 
 > **披露：** 我是 Kirill Markin，也是本文对比产品之一 [Nibomo](/zh/) 的开发者。Nibomo 无法完整替代 RemNote。在这几款产品中，RemNote 的笔记与 PDF 一体化工作流最强，Anki 的卡片系统和迁移格式则最成熟。
 
-**事实与价格核查日期：** 2026 年 8 月 31 日。文中采用美国公开定价；注明年付的项目按年付价格计算。税费、地区、应用商店和测试版条款都可能影响实际金额。
+**事实与价格核查日期：** 2026 年 8 月 31 日。文中采用美国公开定价；注明年付的项目按年付价格计算。税费、地区、应用商店和测试版条款都可能影响实际金额。Nibomo 的 Anki `.apkg` 导入相关信息核查于 2026 年 11 月 8 日。
 
 ![档案修复师从完好保留的关联学习资料夹中取出少量样本，试着转入独立的卡片、文件和模块系统](/blog/remnote-alternative.png)
 
@@ -96,7 +96,7 @@ Nibomo 的取舍几乎与 RemNote 相反。它的[功能](/zh/features/)围绕�
 
 它的开源范围覆盖整套技术栈：采用 MIT 许可证的仓库包含 Web、iOS、Android、身份验证、后端、同步和基础设施。官方支持的[生产环境自托管指南](/zh/docs/self-hosting/)使用 AWS CDK。这不是一条命令就能启动的本地一体化应用。运维者要自行负责云服务成本、密钥、迁移、监控、备份、恢复测试，还要分别构建移动应用。
 
-对现有 RemNote 用户来说，迁移才是更大的限制。Nibomo 只能导入自己的 `flashcards.zip` 包，不能导入 RemNote Markdown 或 Anki `.apkg`。这些包会带上卡片、标签和引用的媒体，但不包括复习历史、FSRS 状态、工作区设置、完整牌组结构或账户。AI 聊天可以把导出的文本转换成卡片草稿，再由你审核；这是在重建内容，不是在延续原来的卡片集合。[TXT 迁移指南](/zh/blog/migrate-from-anki-txt-export-open-source-flashcards/)逐步展示了这条有损迁移的边界。
+对现有 RemNote 用户来说，迁移才是更大的限制。Nibomo 的资料库导入只接受自己的 `flashcards.zip` 包，不接受 RemNote Markdown 或 Anki `.apkg`。这些包会带上卡片、标签和引用的媒体，但不包括复习历史、FSRS 状态、工作区设置、完整牌组结构或账户。AI 聊天可以读取附加的 Anki `.apkg` 或导出的文本，并把它转换成卡片，所有卡片都作为新卡开始；这是在重建内容，不是在延续原来的卡片集合。[Anki `.apkg` 导入指南](/blog/import-anki-apkg/)说明了这条路径会保留和丢失哪些内容，较早的 [TXT 迁移指南](/zh/blog/migrate-from-anki-txt-export-open-source-flashcards/)则介绍纯文本路径。
 
 如果你准备建立一个全新或简单的卡片工作区，而且想拿到整套技术栈的源码，可以选择 Nibomo。需要关联式学习工作流就继续用 RemNote；如果迁移完整性或高级卡片结构更重要，则选择 Anki。更聚焦的卡片系统对比可参阅 [Anki 与 Nibomo](/zh/blog/anki-vs-flashcards-open-source-app/)和[开源闪卡应用指南](/zh/blog/best-open-source-flashcard-apps-2026/)。
 

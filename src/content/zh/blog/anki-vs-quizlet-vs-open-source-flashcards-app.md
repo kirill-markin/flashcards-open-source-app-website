@@ -3,7 +3,7 @@ title: "2026 年 Anki vs Quizlet vs Nibomo 对比：闪卡应用怎么选？"
 description: "2026 年 Anki vs Quizlet vs Nibomo 实用对比：涵盖调度器、离线学习、AI、导入导出、价格、开源与数据所有权，帮你选择最适合的闪卡应用。"
 image: "/blog/anki-vs-quizlet-vs-open-source-flashcards-app.png"
 date: "2026-03-09"
-updated: "2026-11-07"
+updated: "2026-11-08"
 keywords:
   - "anki vs quizlet"
   - "最佳闪卡应用"
@@ -31,7 +31,7 @@ keywords:
 
 ## Anki vs Quizlet vs Nibomo：实用对比
 
-下表依据截至 2026 年 8 月 2 日核对过的产品信息；主屏幕小组件的相关信息则于 2026 年 11 月 7 日核对。价格和功能可用性可能因地区而异。
+下表依据截至 2026 年 8 月 2 日核对过的产品信息；主屏幕小组件的相关信息于 2026 年 11 月 7 日核对，Anki `.apkg` 导入的相关信息于 2026 年 11 月 8 日核对。价格和功能可用性可能因地区而异。
 
 | 对比项 | Anki | Quizlet | Nibomo |
 | --- | --- | --- | --- |
@@ -39,7 +39,7 @@ keywords:
 | 离线使用 | 桌面端与原生移动端均以本地学习为主；同步并非必需 | 在 [iOS 和 Android](https://help.quizlet.com/hc/en-us/articles/360030565412-Studying-offline-with-Quizlet-mobile-apps) 上，已保存的学习集可在 Flashcards 和 Match 模式中离线使用，也可以离线创建学习集；网站不支持离线使用 | 原生 iOS（SQLite）和 Android（Room/SQLite）应用是最直接、可靠的离线方案；Web 应用加载后会将卡片和尚未同步的更改保存在 IndexedDB 中，但 AI 和同步仍需联网 |
 | Web 与移动端 | 支持 Windows、macOS、Linux 和 AnkiWeb，另有官方付费 iOS 应用，以及由社区独立开发的免费 Android 应用 | Web、iOS 和 Android 应用成熟完善；没有桌面应用 | 提供托管版 Web 应用，以及 iOS 和 Android 应用；另有适用于 iPhone、iPad、Mac 和 Android 的主屏幕小组件，可显示待复习的卡片和下一个问题 |
 | AI | Anki 核心产品没有集成第一方生成式 AI 工作流；可以使用插件和外部 AI 工具 | 提供强大的[内置 AI 学习工具](https://quizlet.com/features/ai-study-tools)，包括生成闪卡、学习指南、练习测试和 PDF 工具；使用额度取决于套餐 | AI 聊天可以读取工作区上下文，创建和编辑卡片，并处理文件附件；MCP 和智能体 API 可连接外部 AI 工具 |
-| 导入 | 完善支持[文本、Anki 牌组包和 Mnemosyne 文件](https://docs.ankiweb.net/importing/intro.html) | 可在网站上[粘贴带分隔符的文本](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content)；AI 工具也能处理笔记和文档 | 可导入原生 `flashcards.zip` 工作区包；Anki 和 Quizlet 内容目前需要先导出为文本，必要时再借助 AI 整理；不支持直接导入 `.apkg` |
+| 导入 | 完善支持[文本、Anki 牌组包和 Mnemosyne 文件](https://docs.ankiweb.net/importing/intro.html) | 可在网站上[粘贴带分隔符的文本](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content)；AI 工具也能处理笔记和文档 | 资料库导入只接受原生 `flashcards.zip` 包；AI 对话可以[把附加的 Anki `.apkg` 转换成卡片](/blog/import-anki-apkg/)，但不含复习历史；Quizlet 内容需要先导出为文本 |
 | 导出 | 支持完善的[牌组包与文本导出](https://docs.ankiweb.net/exporting.html)，可选择包含调度信息、牌组选项预设和媒体 | 可在网站上导出自己创建的学习集中的术语和定义；[复制的学习集与图片不能导出](https://help.quizlet.com/hc/en-us/articles/360034345672-Exporting-your-sets) | 原生 `flashcards.zip` 包只会转移仍在使用的卡片、标签和被引用的媒体，不包含复习历史、FSRS 调度器状态、工作区设置、完整牌组结构或账号数据 |
 | 价格 | 桌面端、AnkiWeb 和 AnkiDroid 免费；官方 iOS 版 AnkiMobile 在美国 App Store [一次性收费 24.99 美元](https://apps.apple.com/us/app/ankimobile-flashcards/id373493387) | 免费版功能有限；美国页面列出的年付价格为 [Plus 每年 35.99 美元、Plus Unlimited 每年 44.99 美元](https://quizlet.com/upgrade)；其他地区的价格可能不同 | [托管版 Cloud Beta 免费](/pricing/)；核心制卡与复习功能将保持免费，日后较高的 AI 用量可能需要使用你自己的 AI 服务商 API 密钥或付费选项。自托管软件采用 MIT 许可证，可免费使用，但基础设施需要自行付费和维护 |
 | 开源 | [Anki 项目和桌面应用](https://apps.ankiweb.net/)开源；AnkiMobile 是另行收费的官方 iOS 应用，AnkiDroid 则是由社区贡献者独立开发的应用 | 否；它是闭源托管平台 | 是；[整个技术栈均公开](https://github.com/kirill-markin/flashcards-open-source-app)，采用 MIT 许可证，并支持自托管 |
@@ -95,7 +95,7 @@ Quizlet Learn 会根据你的目标和对材料的熟悉程度，利用机器学
 
 ### 产品成熟度的限制不能忽略
 
-Nibomo 仍处于早期开发阶段。它的生态、导入格式支持、高级复习工具和数据恢复能力都不如 Anki 成熟。目前没有直接导入 `.apkg` 的工具。原生 `flashcards.zip` 包可以转移仍在使用的卡片、标签和被引用的媒体，但不会转移复习历史、FSRS 调度器状态、工作区设置、完整牌组结构或账号数据。
+Nibomo 仍处于早期开发阶段。它的生态、导入格式支持、高级复习工具和数据恢复能力都不如 Anki 成熟。Anki `.apkg` 文件要通过 AI 对话处理，而不是通过一键导入器，复习历史也会留在原处。原生 `flashcards.zip` 包可以转移仍在使用的卡片、标签和被引用的媒体，但不会转移复习历史、FSRS 调度器状态、工作区设置、完整牌组结构或账号数据。
 
 实际使用中，这会带来两点影响。迁移一套高度定制的 Anki 卡片库时，除非继续保留 Anki 作为主数据源，否则会丢失重要结构。Nibomo 工作区包也不能当作完整的灾难恢复备份。另行保存原始文件，并确认导出内容能恢复你需要的数据。
 
@@ -105,7 +105,7 @@ Nibomo 仍处于早期开发阶段。它的生态、导入格式支持、高级�
 
 从零开始时，这项比较很简单。已有的卡片库会让问题变得具体。
 
-如果你有多年的 Anki 复习历史，除非切换应用的收益足以抵消复习历史被重置的代价，否则应该继续使用 Anki。对于结构简单的正反面牌组，可以先导出文本，再按照 [Anki TXT 迁移流程](/blog/migrate-from-anki-txt-export-open-source-flashcards/)操作。这个流程只是把导出的文本整理成卡片草稿，并不能完整复刻原来的 Anki 卡片库。
+如果你有多年的 Anki 复习历史，除非切换应用的收益足以抵消复习历史被重置的代价，否则应该继续使用 Anki。对于结构简单的正反面牌组，可以把它的 `.apkg` 附加到 Nibomo 的 AI 对话中。[Anki `.apkg` 导入指南](/blog/import-anki-apkg/)展示了哪些内容能迁移过来：文本和标签可以，测试中的那张图片也迁移了过来，但每张卡片都会重新开始调度，填空笔记会变成问答卡片。导出时请勾选 **Support older Anki versions**：只有这种旧格式，Nibomo 才会把媒体文件名列表提供给 AI。测试用的包是用脚本生成的旧格式文件，而不是从 Anki 导出的。导入后请检查图片。较早的 [Anki TXT 迁移流程](/blog/migrate-from-anki-txt-export-open-source-flashcards/)仍适用于纯文本牌组。
 
 如果材料在 Quizlet 中，先确认学习集由你创建，而且需要保留的主要是文本内容。[从 Quizlet 导出并转换为 FSRS 的指南](/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/)介绍了实际操作路径和导出限制。
 

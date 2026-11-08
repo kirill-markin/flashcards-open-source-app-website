@@ -2,7 +2,7 @@
 title: "2026 年 Anki 替代品对比：迁移后会保留、失去和得到什么"
 description: "从迁移保真度、离线使用、调度、价格、源代码开放程度和自托管等方面比较 7 款 Anki 替代品，并判断何时继续使用 Anki 更稳妥。"
 date: "2026-03-14"
-updated: "2026-08-28"
+updated: "2026-11-08"
 image: "/blog/best-anki-alternatives.png"
 keywords:
   - "Anki 替代品"
@@ -20,9 +20,9 @@ Anki 导入可以全程不报错，却依然毁掉一副牌组原本好用的地
 
 这篇对比就从这条边界讲起。下文会比较 7 款类似 Anki 的应用：它们能从现有集合中带走什么、导入后会发生哪些变化，以及什么时候继续使用 Anki 才是更稳妥的结论。
 
-> **利益披露：** 我是 Kirill Markin，也是下文产品之一 [Nibomo](https://nibomo.com/) 的开发者。我把它纳入比较，是因为它支持开源、自托管和智能体工作流。它不是默认赢家：它不能直接导入 `.apkg`，从 Anki 迁移会丢失数据，而且运行自托管技术栈确实是一项基础设施工作。
+> **利益披露：** 我是 Kirill Markin，也是下文产品之一 [Nibomo](https://nibomo.com/) 的开发者。我把它纳入比较，是因为它支持开源、自托管和智能体工作流。它不是默认赢家：它只能通过 AI 对话读取 Anki `.apkg` 文件，从 Anki 迁移会丢失数据，而且运行自托管技术栈确实是一项基础设施工作。
 
-**事实核查日期：** 2026 年 8 月 28 日。价格为当天可查到的美国公开价格或页面所列当地价格。税费、地区、教育优惠和应用商店计费方式都可能影响实际金额。
+**事实核查日期：** 2026 年 8 月 28 日。价格为当天可查到的美国公开价格或页面所列当地价格。税费、地区、教育优惠和应用商店计费方式都可能影响实际金额。Nibomo 的 Anki `.apkg` 导入相关信息核查于 2026 年 11 月 8 日。
 
 ![钟表匠检查一枚经过长期使用的怀表机芯能否装进另一只表壳](/blog/best-anki-alternatives.png)
 
@@ -41,7 +41,7 @@ Anki 导入可以全程不报错，却依然毁掉一副牌组原本好用的地
 - **Quizlet** 适合公开学习集、班级、游戏和引导式练习。
 - **Brainscape** 为群体提供更简单的 1–5 分信心评分循环。
 - **SuperMemo** 意味着改用它的专有方法和课程目录。
-- **Nibomo** 提供采用 MIT 许可的网页端和原生客户端、自托管后端、API 与 MCP 访问。它通过 TXT 或 CSV 生成需要人工检查的内容，不会保留 Anki 的学习状态。
+- **Nibomo** 提供采用 MIT 许可的网页端和原生客户端、自托管后端、API 与 MCP 访问。它的 AI 对话可以把附加的 `.apkg` 转换成卡片，但 Anki 的学习状态不会随之迁移。
 
 如果你的卡片依赖精确渲染、插件或当前复习队列，那么继续使用 Anki 并不是犹豫不决。这就是答案。
 
@@ -78,7 +78,7 @@ Anki 导入可以全程不报错，却依然毁掉一副牌组原本好用的地
 | [Quizlet](https://quizlet.com/) | [粘贴术语和定义](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content) | 不保留任何 Anki 学习状态 | 笔记类型、模板、牌组、媒体结构和全部调度数据 |
 | [Brainscape](https://www.brainscape.com/) | [CSV、TXT、XLSX 或 ODS](https://brainscape.zendesk.com/hc/en-us/articles/115002369931-How-do-I-import-various-files-to-create-flashcards) | 不保留任何 Anki 学习状态 | 模板、插件、媒体规则和全部调度数据 |
 | [SuperMemo](https://www.supermemo.com/) | [粘贴用分隔符隔开的问答行](https://www.supermemo.com/en/blog/how-to-create-flashcards-for-learning)，每次最多 100 张 | 不保留任何 Anki 学习状态 | 集合结构、媒体、模板和全部调度数据 |
-| [Nibomo](https://nibomo.com/) | 根据 Anki TXT 或 CSV 生成需要人工检查的 AI 辅助草稿 | 不保留任何 Anki 学习状态 | 不支持 `.apkg`；模板、媒体保真度、牌组层级和全部调度数据都无法带走 |
+| [Nibomo](https://nibomo.com/) | [在 AI 对话中附加 `.apkg`](/blog/import-anki-apkg/)，AI 会直接保存卡片；也可以使用 TXT 或 CSV | 不保留任何 Anki 学习状态；每张卡片都作为新卡开始 | 填空笔记会变成问答卡片；模板、CSS、牌组嵌套和全部调度数据都无法带走 |
 
 ## 价格、离线使用、调度和所有权
 
@@ -166,11 +166,11 @@ Brainscape 当前的帮助中心称，网站和移动应用现在都具备相同
 
 只有当你足够想要 SuperMemo 自己的方法或课程目录，并愿意从新的调度开始时，才选择它。如果保留现有调度才是首要目标，它解决的就不是你的问题。
 
-## Nibomo：全栈源代码开放，但 Anki 导入能力最弱
+## Nibomo：全栈源代码开放，Anki 导入只迁移内容
 
 Nibomo 允许你掌控的范围很广。[采用 MIT 许可的仓库](https://github.com/kirill-markin/flashcards-open-source-app)包含网页应用、iOS 和 Android 客户端、后端、离线同步、基础设施、[公共 API](/docs/api/) 和 [MCP 服务器](/docs/mcp-connector/)。复习使用 [FSRS](/docs/architecture/#scheduling)。网页端、iOS 和 Android 都会先写入本地，把更改加入待发送队列，再在恢复连接后同步。
 
-但这不代表它兼容 Anki。Nibomo 无法读取 `.apkg` 或 `.colpkg`。受支持的 [Anki TXT 迁移](/blog/migrate-from-anki-txt-export-open-source-flashcards/)是一套需要人工检查、由 AI 辅助起草的流程，主要适合以文字为主的卡片。它不会保留模板、插件、牌组层级、到期时间、间隔或复习记录。TXT 文件中的媒体引用并不是媒体文件，因此媒体较多的牌组需要单独重建和验证。
+但这不代表它兼容 Anki。它没有一键导入器，“资料库 → 导入”也只接受 Nibomo 自己的 `.zip`。你需要[在 AI 对话中附加 `.apkg`](/blog/import-anki-apkg/)，并让它把牌组转换成卡片。在一个小型示例牌组的测试中，它保留了基础卡片、标签和一张图片，把正反双向笔记（basic and reversed）拆成两张单向卡片，并把填空笔记改写成问答卡片。子牌组变成了 Nibomo 中的扁平牌组。模板、插件、到期时间、间隔和复习记录都会留在原处，也不接受 `.colpkg` 文件。导出时请勾选 **Support older Anki versions**：只有这种旧格式，Nibomo 才会把媒体文件名列表提供给 AI。测试用的包是用脚本生成的旧格式文件，而不是从 Anki 导出的。导入后请检查图片。较早的 [Anki TXT 迁移](/blog/migrate-from-anki-txt-export-open-source-flashcards/)仍适用于纯文本卡片。
 
 Nibomo 自己的 `flashcards.zip` 包也达不到完整备份的范围。它可以在 Nibomo 工作区之间迁移卡片、标签和相关媒体，但不会迁移复习历史、FSRS 状态、完整牌组结构、工作区设置或账户。
 
