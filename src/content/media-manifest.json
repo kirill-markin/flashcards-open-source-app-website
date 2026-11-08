@@ -2537,6 +2537,96 @@
     }
   },
   {
+    "publicPath": "/blog/import-anki-apkg-ai-reply.png",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/2a86d621456e1351912c1cd062e88bfbc482972605124a6f8ae82acac0d472fa.webp",
+    "width": 1206,
+    "height": 1317,
+    "sha256": "2a86d621456e1351912c1cd062e88bfbc482972605124a6f8ae82acac0d472fa",
+    "bytes": 82586,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/dc7c9a94c78e8947941696df5f307239687b4b419eb4e03743289ce0cbce4b43.png",
+      "width": 1206,
+      "height": 1317,
+      "sha256": "dc7c9a94c78e8947941696df5f307239687b4b419eb4e03743289ce0cbce4b43",
+      "bytes": 126887
+    }
+  },
+  {
+    "publicPath": "/blog/import-anki-apkg-attach.png",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/d29e0c5091ff117223990747e5d00ddf87f79bf8b1bcac1bb09077a1f52197dc.webp",
+    "width": 1206,
+    "height": 642,
+    "sha256": "d29e0c5091ff117223990747e5d00ddf87f79bf8b1bcac1bb09077a1f52197dc",
+    "bytes": 18570,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/b5ea23061e9d7b8a3bdd40435ce0597502b9c559b46e79dd80ab0f5676c2423e.png",
+      "width": 1206,
+      "height": 642,
+      "sha256": "b5ea23061e9d7b8a3bdd40435ce0597502b9c559b46e79dd80ab0f5676c2423e",
+      "bytes": 98975
+    }
+  },
+  {
+    "publicPath": "/blog/import-anki-apkg-cards.png",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/3399f781e2825ea17a9df8e948b73d5d7d5821a21feadeb731f09df0fb32d5b3.webp",
+    "width": 1110,
+    "height": 1869,
+    "sha256": "3399f781e2825ea17a9df8e948b73d5d7d5821a21feadeb731f09df0fb32d5b3",
+    "bytes": 63958,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/52e6b4d700d4fc60873a766b471a3419e91bd6d5350740cf20db3752b8e7300d.png",
+      "width": 1110,
+      "height": 1869,
+      "sha256": "52e6b4d700d4fc60873a766b471a3419e91bd6d5350740cf20db3752b8e7300d",
+      "bytes": 120148
+    }
+  },
+  {
+    "publicPath": "/blog/import-anki-apkg-choose-file.png",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/e18fb9241279339928861c26994b6dcbdae571c083c0a4e7bfe772bc6999afe9.webp",
+    "width": 1210,
+    "height": 948,
+    "sha256": "e18fb9241279339928861c26994b6dcbdae571c083c0a4e7bfe772bc6999afe9",
+    "bytes": 19312,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/1d8a3602a3596d2ea3b8527ccf091bfc9811ff08cfcdc62bc007c2a184f6ab61.png",
+      "width": 1210,
+      "height": 948,
+      "sha256": "1d8a3602a3596d2ea3b8527ccf091bfc9811ff08cfcdc62bc007c2a184f6ab61",
+      "bytes": 68228
+    }
+  },
+  {
+    "publicPath": "/blog/import-anki-apkg-decks.png",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/d4f8c0fcc99eb5068b78803b7ef72cb334369b9621023b541cf63e1c26c555ac.webp",
+    "width": 1206,
+    "height": 1765,
+    "sha256": "d4f8c0fcc99eb5068b78803b7ef72cb334369b9621023b541cf63e1c26c555ac",
+    "bytes": 52410,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/7f04299a1cf648a0363518dbb1911b4a7afcf93d628830eced1ea469dc3fd077.png",
+      "width": 1206,
+      "height": 1765,
+      "sha256": "7f04299a1cf648a0363518dbb1911b4a7afcf93d628830eced1ea469dc3fd077",
+      "bytes": 134494
+    }
+  },
+  {
+    "publicPath": "/blog/import-anki-apkg-review.png",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/dbc3b8d74c94bb40d18e69756f0a207169c1009c3666c93d3c4df2aee2a898a1.webp",
+    "width": 1206,
+    "height": 2259,
+    "sha256": "dbc3b8d74c94bb40d18e69756f0a207169c1009c3666c93d3c4df2aee2a898a1",
+    "bytes": 41530,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/c3f39de1eb59b0978241cf774866c74519bf67ce0a6ab9d4f0773acb6a43705f.png",
+      "width": 1206,
+      "height": 2259,
+      "sha256": "c3f39de1eb59b0978241cf774866c74519bf67ce0a6ab9d4f0773acb6a43705f",
+      "bytes": 354935
+    }
+  },
+  {
     "publicPath": "/blog/interval-inversion.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/1b370a0dbed434b36a298261d082cc0470f029e749088ec5b44d55ca769516e5.png",
     "width": 1672,
