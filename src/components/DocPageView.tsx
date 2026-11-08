@@ -1,6 +1,6 @@
 import { BreadcrumbStructuredData } from "@/components/BreadcrumbStructuredData";
 import { SiteFrame } from "@/components/SiteFrame";
-import { renderMarkdownToHtml } from "@/lib/content/renderMarkdownToHtml";
+import { renderContentPageMarkdownToHtml } from "@/lib/content/renderMarkdownToHtml";
 import { readDoc } from "@/lib/docs";
 import type { AppLocale } from "@/lib/i18n";
 import { getAbsoluteUrl, getLocalizedPathname } from "@/lib/i18n";
@@ -60,7 +60,7 @@ export async function DocPageView({
     );
   }
 
-  const contentHtml = await renderMarkdownToHtml(doc.bodyMarkdown, locale);
+  const contentHtml = await renderContentPageMarkdownToHtml(doc.bodyMarkdown, locale);
   const articleUrl = getAbsoluteUrl(getLocalizedPathname(locale, `/docs/${slug}/`));
   const articleSchema: TechArticleSchema = {
     "@context": "https://schema.org",

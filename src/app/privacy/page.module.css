@@ -36,6 +36,7 @@
 .content h5,
 .content h6 {
   font-family: var(--ui-font-family);
+  scroll-margin-block-start: var(--site-header-height);
 }
 
 .content h2 {

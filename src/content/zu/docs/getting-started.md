@@ -1,6 +1,6 @@
 ---
 title: Ukuqalisa
-description: Qala ngohlelo lokusebenza lwe-iPhone, i-iPad, i-Mac noma i-Android, uhlelo lwewebhu, i-ejenti ye-AI, noma iseva yakho.
+description: Qala ngohlelo lokusebenza lwe-iPhone, i-iPad, i-Mac noma i-Android, ngohlelo lwewebhu, nge-ejenti ye-AI, noma ngeseva yakho.
 ---
 
 Kunezindlela eziningana zokuqala, kusukela kuleyo edume kakhulu:

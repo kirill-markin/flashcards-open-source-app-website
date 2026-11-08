@@ -5,6 +5,7 @@ title: "Cómo usar flashcards para AP US History en 2026: períodos de APUSH, DB
 description: "¿Necesitas un flujo práctico de flashcards para AP US History en 2026? Aquí tienes cómo estudiar períodos de APUSH, temas, sourcing, bloques de MCQ, SAQ, DBQ, LEQ y repetición espaciada sin convertir tu mazo en un segundo libro de texto."
 image: "/blog/how-to-use-flashcards-for-ap-us-history.png"
 date: "2026-05-16"
+updated: "2026-11-08"
 keywords:
   - "flashcards para AP US History"
   - "flashcards para APUSH"
@@ -224,7 +225,7 @@ Yo mantendría el flujo semanal así de simple:
 
 Ésa es la versión práctica de la **repetición espaciada AP US History**. Mazo más pequeño, tarjetas más precisas, más práctica real.
 
-Si vienes de un mazo grande ya hecho o de una configuración antigua de **APUSH Anki**, [Cómo migrar de Anki a una app open source de flashcards en 2026](/blog/migrate-from-anki-txt-export-open-source-flashcards/) es la guía más limpia para hacer el traspaso. Para la parte de planificación, [Cómo estudiar para un examen con FSRS en 2026](/blog/how-to-study-for-an-exam-with-fsrs/) es el mejor complemento.
+Si vienes de un mazo grande ya hecho o de una configuración antigua de **APUSH Anki**, adjunta el `.apkg` del mazo en el chat con IA de Nibomo. [Importar un `.apkg` de Anki en Nibomo](/blog/import-anki-apkg/) explica esta vía principal y lo que se transfiere. La guía más antigua basada en TXT, [Cómo migrar de Anki a una app open source de flashcards en 2026](/blog/migrate-from-anki-txt-export-open-source-flashcards/), sigue sirviendo para mazos solo de texto. Para la parte de planificación, [Cómo estudiar para un examen con FSRS en 2026](/blog/how-to-study-for-an-exam-with-fsrs/) es el mejor complemento.
 
 ## Dónde encaja Nibomo en un flujo de APUSH
 

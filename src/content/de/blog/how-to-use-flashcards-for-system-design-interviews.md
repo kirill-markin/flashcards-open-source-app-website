@@ -24,7 +24,7 @@ Genau diesen Teil der Vorbereitung auf System-Design-Interviews unterschätzen v
 
 Genau dort helfen Flashcards. Nicht als riesige Enzyklopädie für Distributed Systems. Eher als kompakte Abrufhilfe für die Teile einer System-Design-Antwort, die genau dann verschwimmen, wenn der Interviewer tiefer bohrt.
 
-![Warmer Schreibtisch mit Karteikarten fuer System-Design-Interviews und Diagrammen im Notizbuch](/blog/how-to-use-flashcards-for-system-design-interviews.png)
+![Warmer Schreibtisch mit Karteikarten für System-Design-Interviews und Diagrammen im Notizbuch](/blog/how-to-use-flashcards-for-system-design-interviews.png)
 
 ## System-Design-Interviews scheitern oft am Follow-up-Druck
 

@@ -46,7 +46,7 @@ W wersji hostowanej nie musisz niczego instalować ani konfigurować serwera.
 
 ## Konfiguracja agenta
 
-Klienty MCP, takie jak Claude, ChatGPT i Cursor, mogą się połączyć według [przewodnika po konektorze MCP](/docs/mcp-connector/).
+Klienci MCP, tacy jak Claude, ChatGPT i Cursor, mogą się połączyć według [przewodnika po konektorze MCP](/docs/mcp-connector/).
 
 Jeśli chcesz, aby Claude Code, Codex lub OpenClaw łączyły się bezpośrednio, zacznij od:
 

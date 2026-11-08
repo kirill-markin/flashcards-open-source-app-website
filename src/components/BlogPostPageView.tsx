@@ -13,7 +13,7 @@ import {
   readBlogPost,
 } from "@/lib/blog";
 import { resolveBlogDeckResource } from "@/lib/blogDeckResource";
-import { renderMarkdownToHtml } from "@/lib/content/renderMarkdownToHtml";
+import { renderContentPageMarkdownToHtml } from "@/lib/content/renderMarkdownToHtml";
 import type { AppLocale } from "@/lib/i18n";
 import { getAbsoluteUrl, getLocalizedPathname } from "@/lib/i18n";
 import { getExternalLinkAttributes } from "@/lib/linkTargets";
@@ -87,7 +87,7 @@ export async function BlogPostPageView({
     publisher: PUBLISHER_REFERENCE,
   };
   const recommendedPosts = getRecommendedBlogPosts(locale, slug, 4);
-  const localizedContentHtml = await renderMarkdownToHtml(
+  const localizedContentHtml = await renderContentPageMarkdownToHtml(
     post.bodyMarkdown,
     locale
   );

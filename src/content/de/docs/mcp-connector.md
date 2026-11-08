@@ -17,17 +17,17 @@ claude mcp add --transport http nibomo https://mcp.nibomo.com/mcp
 
 [Claude Code MCP documentation](https://code.claude.com/docs/en/mcp#use-mcp-servers-from-claudeai).
 
-## Ueberblick
+## Überblick
 
 Nibomo betreibt einen entfernten MCP-Server (Model Context Protocol), damit
-MCP-Clients und KI-Agenten deine faelligen Karten lesen, sie Frage fuer Frage mit
-dir wiederholen und Karten sowie Decks fuer dich erstellen oder bearbeiten
-koennen.
+MCP-Clients und KI-Agenten deine fälligen Karten lesen, sie Frage für Frage mit
+dir wiederholen und Karten sowie Decks für dich erstellen oder bearbeiten
+können.
 
-Agenten koennen sich auf zwei Wegen verbinden: ueber diesen MCP-Server (am besten
-fuer MCP-Clients wie Claude oder Cursor) oder ueber die
-[Discovery-URL der Agent-API](/docs/api/) fuer CLI-Agenten. Beide erreichen
-dieselbe Datenoberflaeche pro Nutzer; diese Seite behandelt den MCP-Server.
+Agenten können sich auf zwei Wegen verbinden: über diesen MCP-Server (am besten
+für MCP-Clients wie Claude oder Cursor) oder über die
+[Discovery-URL der Agent-API](/docs/api/) für CLI-Agenten. Beide erreichen
+dieselbe Datenoberfläche pro Nutzer; diese Seite behandelt den MCP-Server.
 
 Verbinde dich damit unter:
 
@@ -37,24 +37,24 @@ https://mcp.nibomo.com/mcp
 
 Der Transport ist Streamable HTTP. Der Server bietet acht Tools für Arbeitsbereiche, das Lesen und Schreiben von Karten und Decks, Referenzhandbücher, Wiederholungen und die Kontonutzung.
 
-## So fuegst du ihn in deinem Client hinzu
+## So fügst du ihn in deinem Client hinzu
 
-Die meisten Clients fuegen einen entfernten MCP-Server als benutzerdefinierten
+Die meisten Clients fügen einen entfernten MCP-Server als benutzerdefinierten
 Connector hinzu:
 
-1. Oeffne die Connector- oder MCP-Server-Einstellungen deines Clients.
-2. Fuege einen benutzerdefinierten Connector hinzu und fuege die Server-URL `https://mcp.nibomo.com/mcp` ein.
+1. Öffne die Connector- oder MCP-Server-Einstellungen deines Clients.
+2. Füge einen benutzerdefinierten Connector hinzu und füge die Server-URL `https://mcp.nibomo.com/mcp` ein.
 3. Autorisiere bei interaktiven Clients im Browser, wenn du dazu aufgefordert
    wirst. Der Server nutzt OAuth 2.1 mit Dynamic Client Registration, daher gibt
-   es kein Client-Secret zum Einfuegen und keine App, die du zuerst registrieren
+   es kein Client-Secret zum Einfügen und keine App, die du zuerst registrieren
    musst.
-4. Setze fuer den Headless- oder CLI-Einsatz stattdessen einen Header
+4. Setze für den Headless- oder CLI-Einsatz stattdessen einen Header
    `Authorization: Bearer fca_…` mit deinem Agent-API-Key anstelle des
    Browser-Flows.
 
 Rufe nach der Autorisierung einmal `list_workspaces` auf, um einen Workspace
-auszuwaehlen, und nutze dann `sql_query` zum Lesen und `sql_execute` zum
-Schreiben von Karten und Decks. Rufe fuer ein Review `next_review_card`, dann
+auszuwählen, und nutze dann `sql_query` zum Lesen und `sql_execute` zum
+Schreiben von Karten und Decks. Rufe für ein Review `next_review_card`, dann
 `reveal_answer` und dann `submit_review` auf.
 
 ## Tools
@@ -69,43 +69,43 @@ damit ein einzelnes Tool niemals sichere und destruktive Operationen vermischt.
   `DELETE`) als atomarer Batch.
 - `list_workspaces` — strikt nur lesende Liste der Workspaces, auf die du
   zugreifen kannst, jeweils mit ihrer `workspaceId`, dem Namen, der Anzahl
-  aktiver Karten, der letzten Aktivitaet und der Angabe, ob es dein aktuell
-  ausgewaehlter Standard ist. Verwende eine zurueckgegebene `workspaceId` fuer
+  aktiver Karten, der letzten Aktivität und der Angabe, ob es dein aktuell
+  ausgewählter Standard ist. Verwende eine zurückgegebene `workspaceId` für
   das optionale `workspaceId`-Argument der SQL- und Review-Tools.
 - `get_guide` — strikt nur lesender Referenz-Leitfaden zu einem Thema:
   `sql_dialect`, `card_authoring`, `bulk_authoring` oder `review_flow`. Das Tool
   liest keine Workspace-Daten.
-- `next_review_card` — strikt nur lesend: gibt die naechste Karte zur Wiederholung
-  zurueck, nur die Vorderseite, in derselben Warteschlangen-Reihenfolge wie die
+- `next_review_card` — strikt nur lesend: gibt die nächste Karte zur Wiederholung
+  zurück, nur die Vorderseite, in derselben Warteschlangen-Reihenfolge wie die
   Apps. Optionale `tags` oder `deckId` grenzen die Warteschlange ein.
-- `reveal_answer` — strikt nur lesend: gibt die Rueckseite einer Karte zurueck,
+- `reveal_answer` — strikt nur lesend: gibt die Rückseite einer Karte zurück,
   nachdem sich der Lernende an ihrer Vorderseite versucht hat.
 - `submit_review` — erfasst eine Bewertung `Again`, `Hard`, `Good` oder `Easy`
   und schreibt den FSRS-Wiederholungsplan der Karte fort.
 
-Die SQL-Oberflaeche ist ein absichtlich eingeschraenkter Dialekt und kein
-vollstaendiges PostgreSQL. Diese Dokumentation beschreibt nur den unterstuetzten
-Dialekt, keine PostgreSQL-Kompatibilitaetsreferenz. Anweisungen koennen nur die
+Die SQL-Oberfläche ist ein absichtlich eingeschränkter Dialekt und kein
+vollständiges PostgreSQL. Diese Dokumentation beschreibt nur den unterstützten
+Dialekt, keine PostgreSQL-Kompatibilitätsreferenz. Anweisungen können nur die
 Ressourcen `workspace`, `cards`, `decks` und `review_events` adressieren, jede
-Anweisung ist auf deinen eigenen Workspace beschraenkt, und Lese- sowie
-Schreibvorgaenge sind auf `100` Zeilen pro Anweisung begrenzt.
+Anweisung ist auf deinen eigenen Workspace beschränkt, und Lese- sowie
+Schreibvorgänge sind auf `100` Zeilen pro Anweisung begrenzt.
 
 ## Reviews
 
-Mit den Review-Tools kann ein Agent einen Lernenden Karte fuer Karte abfragen und
+Mit den Review-Tools kann ein Agent einen Lernenden Karte für Karte abfragen und
 jede Bewertung im FSRS-Wiederholungsplan der Karte speichern:
 
-1. `next_review_card` gibt eine `cardId` und `frontText` zurueck, oder
-   `card: null`, wenn nichts faellig ist.
+1. `next_review_card` gibt eine `cardId` und `frontText` zurück, oder
+   `card: null`, wenn nichts fällig ist.
 2. Nachdem der Lernende geantwortet hat, gibt `reveal_answer` den `backText`
-   dieser Karte zurueck.
+   dieser Karte zurück.
 3. `submit_review` nimmt die `cardId`, eine clientseitig erzeugte
    `reviewId`-UUID, ein `rating` und die IANA-`reviewedTimeZone` des Lernenden
    entgegen. Der Server setzt die Review-Zeit und gibt den neuen
-   Wiederholungsplan der Karte zurueck.
+   Wiederholungsplan der Karte zurück.
 
-Sende eine unsichere Uebermittlung mit derselben `reviewId` erneut; dabei wird nie
-ein zweites Review erfasst. Eine Uebermittlung kann ausserdem folgende Antworten
+Sende eine unsichere Übermittlung mit derselben `reviewId` erneut; dabei wird nie
+ein zweites Review erfasst. Eine Übermittlung kann außerdem folgende Antworten
 liefern:
 
 - `409 REVIEW_EVENT_CONFLICT` — das Review wurde bereits erfasst, und die
@@ -114,31 +114,31 @@ liefern:
   einer anderen Karte, daher wurde nichts gespeichert; sende erneut mit einer
   neuen `reviewId`.
 - `409 REVIEW_STALE` — die gespeicherte Review-Zeit der Karte ist gleich oder
-  spaeter als die aktuelle Serverzeit; wiederhole eine andere Karte.
+  später als die aktuelle Serverzeit; wiederhole eine andere Karte.
 
-Reviews werden nur ueber `submit_review` erfasst: SQL kann weder `review_events`
+Reviews werden nur über `submit_review` erfasst: SQL kann weder `review_events`
 noch den FSRS-Planungszustand schreiben. Rufe `get_guide` mit dem Thema
-`review_flow` auf, um die vollstaendigen Review- und Bewertungsregeln zu erhalten.
+`review_flow` auf, um die vollständigen Review- und Bewertungsregeln zu erhalten.
 
 ## Karten-Vertrag
 
 Jede Karte folgt einem Vertrag, und die Tools verlassen sich darauf:
 
-- `front_text` ist nur eine Frage oder ein Wiederholungs-Prompt und enthaelt
+- `front_text` ist nur eine Frage oder ein Wiederholungs-Prompt und enthält
   niemals die Antwort.
-- `back_text` enthaelt die Antwort, optional mit einem konkreten Beispiel.
+- `back_text` enthält die Antwort, optional mit einem konkreten Beispiel.
 
-Agenten, die Karten ueber `sql_execute` generieren, folgen diesem Vertrag, sodass
+Agenten, die Karten über `sql_execute` generieren, folgen diesem Vertrag, sodass
 die von ihnen erstellten Karten sofort mit Spaced Repetition wiederholbar sind.
 
 ## Authentifizierung
 
-Zwei Autorisierungswege erreichen dieselbe Datenoberflaeche pro Nutzer.
+Zwei Autorisierungswege erreichen dieselbe Datenoberfläche pro Nutzer.
 
 ### OAuth 2.1 (interaktive Connector-Clients)
 
 Der Server implementiert den Authorization-Code-Flow mit PKCE und Dynamic Client
-Registration. Fuege die MCP-URL als benutzerdefinierten Connector hinzu und
+Registration. Füge die MCP-URL als benutzerdefinierten Connector hinzu und
 autorisiere im Browser; es wird kein Client-Secret vorab geteilt. Die Discovery
 ist standardisiert:
 
@@ -149,7 +149,7 @@ ist standardisiert:
 
 ### API-Key (Headless und CLI)
 
-Beziehe einen langlebigen `fca_`-Agent-API-Key ueber den E-Mail-OTP-Login-Flow,
+Beziehe einen langlebigen `fca_`-Agent-API-Key über den E-Mail-OTP-Login-Flow,
 der in der [API-Referenz](/docs/api/) dokumentiert ist, und sende ihn dann als
 Bearer-Token:
 
@@ -157,7 +157,7 @@ Bearer-Token:
 Authorization: Bearer fca_ABCDEFGH_0123456789ABCDEFGHJKMNPQRS
 ```
 
-Das ist derselbe Key, den die REST-Agent-Oberflaeche akzeptiert, und er benoetigt
+Das ist derselbe Key, den die REST-Agent-Oberfläche akzeptiert, und er benötigt
 weder einen Browser noch einen OAuth-Roundtrip.
 
 Die kanonische maschinenlesbare Beschreibung beider Wege ist die
@@ -166,29 +166,29 @@ Discovery-Nutzlast unter `https://api.nibomo.com/v1/`
 
 ## Sicherheit und Geltungsbereich
 
-Die SQL-Tools koennen bedenkenlos genehmigt werden, weil die Oberflaeche ein
+Die SQL-Tools können bedenkenlos genehmigt werden, weil die Oberfläche ein
 abgesicherter, vom Parser erzwungener Dialekt ist und kein beliebiger
 Datenbankzugriff:
 
 - **Geschlossene Anweisungsliste**: `sql_query` akzeptiert nur `SHOW TABLES`,
   `DESCRIBE`, `SHOW COLUMNS` und `SELECT`; `sql_execute` akzeptiert nur `INSERT`,
   `UPDATE` und `DELETE`. Alles andere wird beim Parsen abgelehnt.
-- **Begrenzte Ressourcen**: Anweisungen koennen nur `workspace`, `cards`, `decks`
+- **Begrenzte Ressourcen**: Anweisungen können nur `workspace`, `cards`, `decks`
   und `review_events` betreffen.
 - **Workspace-Geltungsbereich**: jede SQL-Anweisung und jedes Review ist auf
-  einen Workspace beschraenkt, auf den du zugreifen kannst, entweder die von dir
-  uebergebene `workspaceId` oder deinen ausgewaehlten Standard, ohne
-  mandantenuebergreifenden Zugriff.
+  einen Workspace beschränkt, auf den du zugreifen kannst, entweder die von dir
+  übergebene `workspaceId` oder deinen ausgewählten Standard, ohne
+  mandantenübergreifenden Zugriff.
 - **Strikte Argumente**: jedes Tool lehnt ein unbekanntes Argument ab, sodass eine
-  falsch geschriebene `workspaceId` fehlschlaegt, statt gegen deinen
-  Standard-Workspace ausgefuehrt zu werden.
+  falsch geschriebene `workspaceId` fehlschlägt, statt gegen deinen
+  Standard-Workspace ausgeführt zu werden.
 - **Grenzwerte**: bis zu `100` Zeilen pro Anweisung, bis zu `50` Anweisungen pro
   Batch und eine Ergebnisgrenze von etwa `12k` Tokens. Mutations-Batches werden
   atomar angewendet.
 - **Trennung von Lesen und Schreiben**: `get_usage_limits`, `sql_query`, `list_workspaces`,
   `get_guide`, `next_review_card` und `reveal_answer` sind strikt nur lesend
   (`readOnlyHint`) und reparieren keine Daten, berechnen keine Planung neu und
-  aendern keinen Kartenzustand. `sql_execute` und `submit_review` sind die
+  ändern keinen Kartenzustand. `sql_execute` und `submit_review` sind die
   einzigen Schreib-Tools (`destructiveHint`): `sql_execute` schreibt Karten und
   Decks, und `submit_review` erfasst ein Review und schreibt den Plan seiner
   Karte fort.
