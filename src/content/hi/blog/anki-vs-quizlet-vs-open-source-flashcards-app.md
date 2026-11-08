@@ -3,7 +3,7 @@ title: "Anki vs Quizlet vs Nibomo (2026): कौन-सा फ़्लैशक
 description: "2026 में Anki, Quizlet और Nibomo की व्यावहारिक तुलना: स्पेस्ड रिपीटिशन, ऑफ़लाइन पढ़ाई, AI, इम्पोर्ट-एक्सपोर्ट, कीमत, ओपन सोर्स और डेटा पर नियंत्रण।"
 image: "/blog/anki-vs-quizlet-vs-open-source-flashcards-app.png"
 date: "2026-03-09"
-updated: "2026-08-02"
+updated: "2026-11-07"
 keywords:
   - "anki vs quizlet"
   - "best flashcard app"
@@ -31,13 +31,13 @@ keywords:
 
 ## Anki vs Quizlet vs Nibomo: व्यावहारिक तुलना
 
-यह तालिका 2 अगस्त 2026 को जाँची गई प्रोडक्ट जानकारी पर आधारित है। कीमत और फ़ीचर की उपलब्धता क्षेत्र के अनुसार बदल सकती है।
+यह तालिका 2 अगस्त 2026 को जाँची गई प्रोडक्ट जानकारी पर आधारित है; होम स्क्रीन विजेट से जुड़ी जानकारी 7 नवंबर 2026 को जाँची गई। कीमत और फ़ीचर की उपलब्धता क्षेत्र के अनुसार बदल सकती है।
 
 | श्रेणी | Anki | Quizlet | Nibomo |
 | --- | --- | --- | --- |
 | शेड्यूलर | [FSRS उपलब्ध](https://docs.ankiweb.net/deck-options); परिपक्व शेड्यूलर, विस्तृत सेटिंग्स, रिव्यू हिस्ट्री और बड़ा add-on ecosystem | [Learn](https://help.quizlet.com/hc/en-us/articles/360030986971-Studying-with-Learn) लक्ष्यों और सामग्री से आपकी परिचितता के आधार पर machine learning से व्यक्तिगत अध्ययन-पथ बनाता है; यह FSRS जैसा दीर्घकालिक शेड्यूलर नहीं है | FSRS बिल्ट-इन और डिफ़ॉल्ट है; Again/Hard/Good/Easy रेटिंग और workspace settings उपलब्ध हैं |
 | ऑफ़लाइन | लोकल-फ़र्स्ट desktop और native mobile apps; sync वैकल्पिक | [iOS और Android](https://help.quizlet.com/hc/en-us/articles/360030565412-Studying-offline-with-Quizlet-mobile-apps) पर सेव किए गए सेट Flashcards और Match में ऑफ़लाइन चलते हैं और ऑफ़लाइन बनाए भी जा सकते हैं; वेबसाइट ऑफ़लाइन नहीं चलती | Native iOS (SQLite) और Android (Room/SQLite) ऐप सबसे भरोसेमंद ऑफ़लाइन विकल्प हैं; वेब ऐप लोड होने के बाद कार्ड और pending writes को IndexedDB में रखता है, लेकिन AI और sync के लिए कनेक्शन चाहिए |
-| वेब और मोबाइल | Windows, macOS, Linux, AnkiWeb, आधिकारिक paid iOS ऐप और अलग free community Android ऐप | सधे हुए web, iOS और Android ऐप; desktop ऐप नहीं | Hosted web के साथ iOS और Android ऐप |
+| वेब और मोबाइल | Windows, macOS, Linux, AnkiWeb, आधिकारिक paid iOS ऐप और अलग free community Android ऐप | सधे हुए web, iOS और Android ऐप; desktop ऐप नहीं | Hosted web के साथ iOS और Android ऐप; iPhone, iPad, Mac और Android के लिए होम स्क्रीन विजेट भी हैं, जो देय कार्ड और अगला प्रश्न दिखाते हैं |
 | AI | मुख्य Anki में first-party generative AI workflow बिल्ट-इन नहीं है; add-ons और बाहरी AI workflows मौजूद हैं | मज़बूत [बिल्ट-इन AI टूल](https://quizlet.com/features/ai-study-tools): फ़्लैशकार्ड बनाना, study guides, practice tests और PDF टूल; सीमाएँ plan पर निर्भर | Workspace-aware AI chat कार्ड बना और संपादित कर सकता है और file attachments इस्तेमाल कर सकता है; MCP और agent API बाहरी AI टूल को सपोर्ट करते हैं |
 | इम्पोर्ट | [Text, packaged Anki decks और Mnemosyne files](https://docs.ankiweb.net/importing/intro.html) के लिए मज़बूत सपोर्ट | वेबसाइट पर [delimiter-separated text paste](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content) कर सकते हैं; AI टूल notes और documents से भी काम करते हैं | Native `flashcards.zip` workspace packages; Anki और Quizlet के लिए अभी text export और ज़रूरत पड़ने पर AI से cleanup चाहिए; सीधे `.apkg` इम्पोर्ट नहीं होता |
 | एक्सपोर्ट | मज़बूत [package और text export](https://docs.ankiweb.net/exporting.html); scheduling information, deck presets और media के विकल्प | वेबसाइट से केवल अपने बनाए सेट के terms और definitions एक्सपोर्ट होते हैं; [कॉपी किए गए सेट और images नहीं](https://help.quizlet.com/hc/en-us/articles/360034345672-Exporting-your-sets) | Native `flashcards.zip` में केवल active cards, tags और referenced media आते हैं—review history, FSRS scheduler state, workspace settings, पूरे deck structures या account data नहीं |

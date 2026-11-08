@@ -3,7 +3,7 @@ title: "2026 年 Anki vs Quizlet vs Nibomo 对比：闪卡应用怎么选？"
 description: "2026 年 Anki vs Quizlet vs Nibomo 实用对比：涵盖调度器、离线学习、AI、导入导出、价格、开源与数据所有权，帮你选择最适合的闪卡应用。"
 image: "/blog/anki-vs-quizlet-vs-open-source-flashcards-app.png"
 date: "2026-03-09"
-updated: "2026-08-02"
+updated: "2026-11-07"
 keywords:
   - "anki vs quizlet"
   - "最佳闪卡应用"
@@ -31,13 +31,13 @@ keywords:
 
 ## Anki vs Quizlet vs Nibomo：实用对比
 
-下表依据截至 2026 年 8 月 2 日核对过的产品信息。价格和功能可用性可能因地区而异。
+下表依据截至 2026 年 8 月 2 日核对过的产品信息；主屏幕小组件的相关信息则于 2026 年 11 月 7 日核对。价格和功能可用性可能因地区而异。
 
 | 对比项 | Anki | Quizlet | Nibomo |
 | --- | --- | --- | --- |
 | 调度器 | 调度体系成熟，[支持 FSRS](https://docs.ankiweb.net/deck-options)，设置细致，保留复习历史，并拥有庞大的插件生态 | [Learn](https://help.quizlet.com/hc/en-us/articles/360030986971-Studying-with-Learn) 会根据学习目标和对材料的熟悉程度，用机器学习规划个性化学习路径；但它不是采用 FSRS 的长期调度器 | 内置并默认使用 FSRS，提供 Again、Hard、Good、Easy 四档评分以及工作区设置 |
 | 离线使用 | 桌面端与原生移动端均以本地学习为主；同步并非必需 | 在 [iOS 和 Android](https://help.quizlet.com/hc/en-us/articles/360030565412-Studying-offline-with-Quizlet-mobile-apps) 上，已保存的学习集可在 Flashcards 和 Match 模式中离线使用，也可以离线创建学习集；网站不支持离线使用 | 原生 iOS（SQLite）和 Android（Room/SQLite）应用是最直接、可靠的离线方案；Web 应用加载后会将卡片和尚未同步的更改保存在 IndexedDB 中，但 AI 和同步仍需联网 |
-| Web 与移动端 | 支持 Windows、macOS、Linux 和 AnkiWeb，另有官方付费 iOS 应用，以及由社区独立开发的免费 Android 应用 | Web、iOS 和 Android 应用成熟完善；没有桌面应用 | 提供托管版 Web 应用，以及 iOS 和 Android 应用 |
+| Web 与移动端 | 支持 Windows、macOS、Linux 和 AnkiWeb，另有官方付费 iOS 应用，以及由社区独立开发的免费 Android 应用 | Web、iOS 和 Android 应用成熟完善；没有桌面应用 | 提供托管版 Web 应用，以及 iOS 和 Android 应用；另有适用于 iPhone、iPad、Mac 和 Android 的主屏幕小组件，可显示待复习的卡片和下一个问题 |
 | AI | Anki 核心产品没有集成第一方生成式 AI 工作流；可以使用插件和外部 AI 工具 | 提供强大的[内置 AI 学习工具](https://quizlet.com/features/ai-study-tools)，包括生成闪卡、学习指南、练习测试和 PDF 工具；使用额度取决于套餐 | AI 聊天可以读取工作区上下文，创建和编辑卡片，并处理文件附件；MCP 和智能体 API 可连接外部 AI 工具 |
 | 导入 | 完善支持[文本、Anki 牌组包和 Mnemosyne 文件](https://docs.ankiweb.net/importing/intro.html) | 可在网站上[粘贴带分隔符的文本](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content)；AI 工具也能处理笔记和文档 | 可导入原生 `flashcards.zip` 工作区包；Anki 和 Quizlet 内容目前需要先导出为文本，必要时再借助 AI 整理；不支持直接导入 `.apkg` |
 | 导出 | 支持完善的[牌组包与文本导出](https://docs.ankiweb.net/exporting.html)，可选择包含调度信息、牌组选项预设和媒体 | 可在网站上导出自己创建的学习集中的术语和定义；[复制的学习集与图片不能导出](https://help.quizlet.com/hc/en-us/articles/360034345672-Exporting-your-sets) | 原生 `flashcards.zip` 包只会转移仍在使用的卡片、标签和被引用的媒体，不包含复习历史、FSRS 调度器状态、工作区设置、完整牌组结构或账号数据 |

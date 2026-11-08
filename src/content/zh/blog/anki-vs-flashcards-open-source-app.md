@@ -2,7 +2,7 @@
 title: "Anki vs Nibomo（2026）：哪款应用更适合你？"
 description: "切换之前，先从 FSRS、离线使用、移动端、AI、迁移、自托管和数据控制等方面对比 Anki 与 Nibomo。"
 date: "2026-04-25"
-updated: "2026-08-23"
+updated: "2026-11-07"
 image: "/blog/anki-vs-flashcards-open-source-app-v2.png"
 keywords:
   - "Anki vs Nibomo"
@@ -19,7 +19,7 @@ keywords:
 
 > **披露：** 我是 Kirill Markin，也是 [Nibomo](https://nibomo.com/) 的开发者。我与这个产品有直接利益关系，因此凡是 Nibomo 暂时无法复现的工作流，本文都默认推荐 Anki。
 
-**事实核实日期：** 2026 年 8 月 23 日。
+**事实核实日期：** 2026 年 8 月 23 日；主屏幕小组件相关信息核实于 2026 年 11 月 7 日。
 
 ![一名旅行者抱着档案箱走过狭窄的测试桥，身后那条常用铁路仍在通行](/blog/anki-vs-flashcards-open-source-app-v2.png)
 
@@ -30,6 +30,7 @@ keywords:
 | 你需要完整保留复杂集合及其复习历史 | `.colpkg` 会保留完整集合和调度信息；`.apkg` 可以包含复习历史、牌组选项组和媒体 | 不支持直接导入 Anki 包；Anki 文本导出文件只能变成经你审核的卡片草稿，无法忠实迁移整个集合 | **Anki** |
 | 你想使用 FSRS | 支持 FSRS，可根据复习历史优化参数、设置目标保留率，并使用牌组选项组 | Web、iOS、Android 和后端都使用锁定的 FSRS-6 权重；工作区设置不会根据你的复习记录优化权重 | **两者皆可**；Anki 在个性化优化和调度连续性方面更强 |
 | 你会在没有网络时学习 | 已安装的桌面端、iOS 和 Android 客户端会在本地保存集合；AnkiWeb 仍然只能在线使用 | Web、iOS 和 Android 会先把卡片与复习变更写入本地；登录、首次数据加载、同步、AI 和未缓存的媒体都需要联网 | **两者皆可**，但应先用你实际的设备和媒体做测试 |
+| 你想要主屏幕小组件 | [AnkiDroid](https://github.com/ankidroid/Anki-Android) 提供牌组和卡片数量小组件；iPhone 和 iPad 上的 AnkiMobile 没有小组件，用户至今仍在[呼吁添加](https://forums.ankiweb.net/t/ankimobile-widget/32633) | 适用于 iPhone、iPad、Mac 和 Android 的免费“复习”小组件会显示待复习卡片数量和下一张卡片的问题；轻点即可打开“复习” | 在 Apple 设备上选 **Nibomo**；在 Android 上**两者皆可** |
 | 你依赖模板、插件或共享牌组 | 官方工作流成熟深入，社区生态庞大 | 以正面/背面卡片为核心；没有同等规模的插件或共享牌组生态 | **Anki** |
 | 你想要内置 AI 和 AI 智能体接入 | 可通过第三方插件和集成实现 | AI 对话可读取工作区上下文和文件，另外还提供 MCP 与公共 Agent API | **Nibomo** |
 | 你想控制服务器 | 官方自托管服务器可以接管集合与媒体同步 | 文档完备的 AWS 部署涵盖 Web、身份验证、后端、同步、AI worker 和基础设施 | 取决于你只需要**同步**，还是需要**整个技术栈** |

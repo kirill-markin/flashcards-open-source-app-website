@@ -3,7 +3,7 @@ title: "Anki vs Quizlet vs Nibomo en 2026: ¿cuál elegir?"
 description: "Comparamos Anki, Quizlet y Nibomo en 2026: repetición espaciada, uso sin conexión, IA, migración, precios, código abierto y control de tus datos."
 image: "/blog/anki-vs-quizlet-vs-open-source-flashcards-app.png"
 date: "2026-03-09"
-updated: "2026-08-02"
+updated: "2026-11-07"
 keywords:
   - "anki vs quizlet"
   - "mejor app de flashcards"
@@ -31,13 +31,13 @@ Los detalles importan, sobre todo si ya tienes cientos o miles de tarjetas.
 
 ## Anki vs Quizlet vs Nibomo: comparación práctica
 
-La información de esta tabla se verificó el 2 de agosto de 2026. Los precios y la disponibilidad de las funciones pueden variar según la región.
+La información de esta tabla se verificó el 2 de agosto de 2026; los detalles de los widgets de la pantalla de inicio se verificaron el 7 de noviembre de 2026. Los precios y la disponibilidad de las funciones pueden variar según la región.
 
 | Categoría | Anki | Quizlet | Nibomo |
 | --- | --- | --- | --- |
 | Planificación de repasos | Sistema consolidado con [FSRS disponible](https://docs.ankiweb.net/deck-options), ajustes detallados, historial de repasos y un amplio ecosistema de complementos | [Learn](https://help.quizlet.com/hc/en-us/articles/360030986971-Studying-with-Learn) crea una ruta personalizada según tus objetivos y lo bien que conoces el material mediante aprendizaje automático; no es un sistema de planificación a largo plazo como FSRS | FSRS viene integrado y se usa de forma predeterminada, con las valoraciones Again/Hard/Good/Easy y ajustes por espacio de trabajo |
 | Sin conexión | En las aplicaciones de escritorio y móviles nativas, el estudio funciona con datos locales; la sincronización es opcional | En [iOS y Android](https://help.quizlet.com/hc/en-us/articles/360030565412-Studying-offline-with-Quizlet-mobile-apps), los conjuntos guardados funcionan sin conexión en Flashcards y Match, y también se pueden crear conjuntos sin conexión; el sitio web necesita conexión | Las aplicaciones nativas para iOS (SQLite) y Android (Room/SQLite) ofrecen la opción sin conexión más clara y fiable. Tras cargarse, la aplicación web guarda las tarjetas y los cambios pendientes en IndexedDB, pero la IA y la sincronización necesitan conexión |
-| Web y móvil | Windows, macOS, Linux, AnkiWeb, una aplicación oficial de pago para iOS y una aplicación comunitaria gratuita e independiente para Android | Aplicaciones web, iOS y Android muy cuidadas; no tiene aplicación de escritorio | Aplicación web alojada y aplicaciones para iOS y Android |
+| Web y móvil | Windows, macOS, Linux, AnkiWeb, una aplicación oficial de pago para iOS y una aplicación comunitaria gratuita e independiente para Android | Aplicaciones web, iOS y Android muy cuidadas; no tiene aplicación de escritorio | Aplicación web alojada y aplicaciones para iOS y Android, con widgets de la pantalla de inicio para iPhone, iPad, Mac y Android que muestran las tarjetas pendientes y la siguiente pregunta |
 | IA | El núcleo de Anki no incluye un flujo propio de IA generativa; existen complementos y procesos que usan IA externa | Buenas [herramientas de IA integradas](https://quizlet.com/features/ai-study-tools), como generación de tarjetas, guías de estudio, exámenes de práctica y herramientas para PDF; los límites dependen del plan | El chat con IA conoce el contexto del espacio de trabajo, puede crear y editar tarjetas y admite archivos adjuntos; MCP y una API para agentes permiten conectar herramientas de IA externas |
 | Importación | Amplia compatibilidad con [texto, paquetes de mazos de Anki y archivos de Mnemosyne](https://docs.ankiweb.net/importing/intro.html) | En el sitio web puedes [pegar texto delimitado](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content); las herramientas de IA pueden trabajar con notas y documentos | Importa paquetes nativos de espacios de trabajo en formato `flashcards.zip`. Por ahora, el contenido de Anki y Quizlet debe exportarse como texto y, cuando convenga, limpiarse con ayuda de la IA; no hay importación directa de archivos `.apkg` |
 | Exportación | Amplias opciones de [exportación a paquetes y texto](https://docs.ankiweb.net/exporting.html), que pueden incluir datos de planificación, ajustes preestablecidos de los mazos y archivos multimedia | La exportación desde el sitio web incluye los términos y las definiciones de los conjuntos que hayas creado; [no incluye conjuntos copiados ni imágenes](https://help.quizlet.com/hc/en-us/articles/360034345672-Exporting-your-sets) | Los paquetes nativos `flashcards.zip` solo transfieren las tarjetas activas, las etiquetas y los archivos multimedia referenciados. No incluyen el historial de repasos, el estado del planificador FSRS, los ajustes del espacio de trabajo, las estructuras completas de los mazos ni los datos de la cuenta |

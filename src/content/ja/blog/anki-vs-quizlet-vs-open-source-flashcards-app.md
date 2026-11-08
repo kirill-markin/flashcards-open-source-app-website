@@ -3,7 +3,7 @@ title: "【2026年版】Anki・Quizlet・Nibomoを比較：おすすめはどれ
 description: "Anki、Quizlet、Nibomoを2026年の最新情報で比較。間隔反復、オフライン学習、AI、データ移行、料金、オープンソース、データ所有権の違いを解説します。"
 image: "/blog/anki-vs-quizlet-vs-open-source-flashcards-app.png"
 date: "2026-03-09"
-updated: "2026-08-02"
+updated: "2026-11-07"
 keywords:
   - "Anki Quizlet 比較"
   - "おすすめ フラッシュカードアプリ"
@@ -31,13 +31,13 @@ keywords:
 
 ## Anki・Quizlet・Nibomoを実用面で比較
 
-以下は、2026年8月2日時点で確認した製品情報です。料金や利用できる機能は地域によって異なる場合があります。
+以下は、2026年8月2日時点で確認した製品情報です（ホーム画面ウィジェットの詳細は2026年11月7日に確認）。料金や利用できる機能は地域によって異なる場合があります。
 
 | 比較項目 | Anki | Quizlet | Nibomo |
 | --- | --- | --- | --- |
 | 復習スケジューラー | 成熟したスケジューラーで、[FSRSを利用できる](https://docs.ankiweb.net/deck-options)。詳細な設定、復習履歴、大規模なアドオンエコシステムがある | [Learn](https://help.quizlet.com/hc/en-us/articles/360030986971-Studying-with-Learn)は、目標と教材への習熟度をもとに、機械学習で個別の学習経路を組み立てる。FSRS型の長期スケジューラーではない | FSRSを標準搭載し、デフォルトで使用。Again、Hard、Good、Easyの4段階評価とワークスペース設定がある |
 | オフライン学習 | ローカルファーストのデスクトップアプリとネイティブモバイルアプリで学習でき、同期は任意 | [iOSとAndroid](https://help.quizlet.com/hc/en-us/articles/360030565412-Studying-offline-with-Quizlet-mobile-apps)では、保存したセットを「単語カード」と「マッチ」でオフライン利用でき、セットの作成も可能。Webサイトはオフラインでは利用できない | ネイティブiOS（SQLite）・Android（Room/SQLite）アプリが、最も明快で確実なオフライン手段。Webアプリは一度読み込むと、カードと未同期の変更をIndexedDBに保存するが、AIと同期には接続が必要 |
-| Web・対応端末 | Windows、macOS、Linux、AnkiWeb、公式の有料iOSアプリ、別プロジェクトの無料コミュニティ製Androidアプリ | 洗練されたWeb、iOS、Androidアプリ。デスクトップアプリはない | ホスト型WebアプリとiOS・Androidアプリ |
+| Web・対応端末 | Windows、macOS、Linux、AnkiWeb、公式の有料iOSアプリ、別プロジェクトの無料コミュニティ製Androidアプリ | 洗練されたWeb、iOS、Androidアプリ。デスクトップアプリはない | ホスト型WebアプリとiOS・Androidアプリ。iPhone、iPad、Mac、Android向けのホーム画面ウィジェットで、復習待ちのカードと次の問題を確認できる |
 | AI | Anki本体には、公式の生成AIワークフローが組み込まれていない。アドオンや外部AIを利用する方法はある | フラッシュカード生成、学習ガイド、模擬テスト、PDF向け機能など、充実した[組み込みAIツール](https://quizlet.com/features/ai-study-tools)がある。利用上限はプランによって異なる | ワークスペースの内容を参照できるAIチャットで、ファイルを添付しながらカードを作成・編集できる。MCPとエージェントAPIを通じて外部AIツールとも連携可能 |
 | インポート | [テキスト、パッケージ化されたAnkiデッキ、Mnemosyneファイル](https://docs.ankiweb.net/importing/intro.html)に幅広く対応 | Webサイトで[区切り文字付きテキストを貼り付け](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content)できる。AIツールではノートや文書も利用できる | 独自形式の`flashcards.zip`ワークスペースパッケージをインポートできる。AnkiやQuizletのコンテンツは現時点ではテキストに書き出し、必要に応じてAIで整える必要がある。`.apkg`の直接インポートには未対応 |
 | エクスポート | [パッケージ形式とテキスト形式のエクスポート](https://docs.ankiweb.net/exporting.html)に幅広く対応。スケジュール情報、デッキプリセット、メディアを含めるオプションがある | Webサイトから、自分で作成したセットの用語と定義をエクスポートできる。[コピーしたセットと画像は対象外](https://help.quizlet.com/hc/en-us/articles/360034345672-Exporting-your-sets) | 独自形式の`flashcards.zip`パッケージで移せるのは、有効なカード、タグ、参照されているメディアのみ。復習履歴、FSRSスケジューラーの状態、ワークスペース設定、完全なデッキ構造、アカウントデータは含まれない |
