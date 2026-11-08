@@ -17,6 +17,7 @@ import {
 } from "@/lib/i18n";
 import { getGlobalActivitySnapshotGeneratedFilePath } from "@/lib/globalActivitySnapshot";
 import { DASHBOARDS_ROUTE_PATHNAME } from "@/lib/dashboardsPage";
+import { MCP_ROUTE_PATHNAME } from "@/lib/mcpPage";
 import {
   getLanguageAlternates,
   hasRouteTranslation,
@@ -109,6 +110,16 @@ function getDashboardsEntries(): MetadataRoute.Sitemap {
   );
 }
 
+function getMcpEntries(): MetadataRoute.Sitemap {
+  return getLocalizedContentEntries(
+    MCP_ROUTE_PATHNAME,
+    0.6,
+    "monthly",
+    // The page's endpoint caption comes from the locale's home content.
+    (locale) => getFileLastModified(getMarketingPageSourceFilePath("home", locale))
+  );
+}
+
 function getLocalizedContentEntries(
   routePathname: string,
   priority: number,
@@ -198,6 +209,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     ...getMarketingEntries(),
     ...getDashboardsEntries(),
+    ...getMcpEntries(),
     ...getDocsEntries(),
     ...getBlogEntries(),
     ...(publicCatalog === null

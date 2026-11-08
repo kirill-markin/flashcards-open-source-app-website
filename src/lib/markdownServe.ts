@@ -1,5 +1,8 @@
 import { DOC_SLUGS } from "@/data/docs";
-import { CONNECTOR_DIRECTORIES } from "@/lib/connectorDirectories";
+import {
+  CONNECTOR_DIRECTORIES,
+  getConnectorDirectoryLabel,
+} from "@/lib/connectorDirectories";
 import { listBlogPosts, readBlogPost } from "@/lib/blog";
 import {
   renderBlogDeckResourceMarkdown,
@@ -13,7 +16,10 @@ import {
   type AppLocale,
 } from "@/lib/i18n";
 import { localizeInternalLinks } from "@/lib/localizeInternalLinks";
-import { hasRouteTranslation } from "@/lib/routeTranslations";
+import {
+  getAvailableLocalizedPathname,
+  hasRouteTranslation,
+} from "@/lib/routeTranslations";
 import {
   getMarketingPageFromPath,
   hasMarketingPageTranslation,
@@ -47,6 +53,12 @@ import {
   getDashboardsPageDescription,
   getDashboardsPageTitle,
 } from "@/lib/dashboardsPage";
+import {
+  getMcpPageDescription,
+  MCP_PAGE_TITLE,
+  MCP_ROUTE_PATHNAME,
+} from "@/lib/mcpPage";
+import { getMcpPageEndpointConnector } from "@/lib/mcpPageConnector";
 import { getUiCopy } from "@/lib/uiCopy";
 import {
   listPublicCatalogMarkdownPagePaths,
@@ -64,6 +76,7 @@ const DISCOVERY_URL = `${PRODUCT_API_ORIGIN}/v1/`;
 const MCP_URL = "https://mcp.nibomo.com/mcp";
 const DASHBOARDS_NORMALIZED_ROUTE_PATHNAME =
   DASHBOARDS_ROUTE_PATHNAME.replace(/\/+$/, "");
+const MCP_NORMALIZED_ROUTE_PATHNAME = MCP_ROUTE_PATHNAME.replace(/\/+$/, "");
 type MarkdownResult = {
   readonly markdown: string;
   readonly status: 200 | 404;
@@ -450,6 +463,36 @@ function renderDashboardsMarkdown(
   };
 }
 
+function renderMcpPageMarkdown(locale: AppLocale): MarkdownResult {
+  const connector = getMcpPageEndpointConnector(locale);
+  const docsPathname = getAvailableLocalizedPathname(locale, "/docs/mcp-connector/");
+  const lines = [
+    `# ${MCP_PAGE_TITLE}`,
+    "",
+    getMcpPageDescription(locale),
+    "",
+    ...CONNECTOR_DIRECTORIES.map((directory) =>
+      `- [${getConnectorDirectoryLabel(locale, directory.name)}](${directory.href}): ${directory.products}`),
+    "",
+    connector.caption,
+    "",
+    "```text",
+    connector.link.href,
+    "```",
+    "",
+    `[${getUiCopy(locale).footer.documentationLabel}](${SITE_CONTEXT.siteUrl}${docsPathname})`,
+  ];
+
+  return {
+    markdown: appendMarkdownFooter(
+      lines.join("\n"),
+      locale,
+      getPagePath(getLocalizedPathname(locale, MCP_ROUTE_PATHNAME))
+    ),
+    status: 200,
+  };
+}
+
 export function renderDocsListingMarkdown(locale: AppLocale): MarkdownResult {
   const uiCopy = getUiCopy(locale);
   const lines: string[] = [
@@ -575,6 +618,11 @@ export function listMarkdownPagePaths(
   ).map((locale) =>
     getPagePath(getLocalizedPathname(locale, DASHBOARDS_ROUTE_PATHNAME))
   );
+  const localizedMcpPaths = SUPPORTED_LOCALES.filter((locale) =>
+    hasRouteTranslation(MCP_ROUTE_PATHNAME, locale)
+  ).map((locale) =>
+    getPagePath(getLocalizedPathname(locale, MCP_ROUTE_PATHNAME))
+  );
   const localizedDocsAndBlogPaths = SUPPORTED_LOCALES.flatMap((locale) => {
     const blogPostPaths = getBlogPosts(locale).map((post) =>
       getPagePath(getLocalizedPathname(locale, `/blog/${post.slug}/`))
@@ -595,6 +643,7 @@ export function listMarkdownPagePaths(
   return [
     ...listMarketingPagePaths(),
     ...localizedDashboardPaths,
+    ...localizedMcpPaths,
     ...localizedDocsAndBlogPaths,
     ...(publicCatalog === null
       ? []
@@ -621,6 +670,13 @@ export function renderMarkdownDocument(
     hasRouteTranslation(DASHBOARDS_ROUTE_PATHNAME, locale)
   ) {
     return renderDashboardsMarkdown(locale, context);
+  }
+
+  if (
+    normalizedRoutePathname === MCP_NORMALIZED_ROUTE_PATHNAME &&
+    hasRouteTranslation(MCP_ROUTE_PATHNAME, locale)
+  ) {
+    return renderMcpPageMarkdown(locale);
   }
 
   if (normalizedRoutePathname === "/docs" && hasRouteTranslation("/docs/", locale)) {
@@ -684,6 +740,8 @@ export function renderLlmsText(
   const dashboardsPageUrl = `${SITE_CONTEXT.siteUrl}${DASHBOARDS_ROUTE_PATHNAME}`;
   const dashboardsPageLine =
     `- [${dashboardsPageTitle}](${dashboardsPageUrl}): ${dashboardsPageDescription}`;
+  const mcpPageLine =
+    `- [${MCP_PAGE_TITLE}](${SITE_CONTEXT.siteUrl}${MCP_ROUTE_PATHNAME}): ${getMcpPageDescription("en")}`;
   const pagesSection = readAllMarketingPages("en")
     .map((pageContent) => {
       const pageHref =
@@ -693,7 +751,7 @@ export function renderLlmsText(
 
       return `- [${pageContent.title}](${pageHref}): ${pageContent.description}`;
     })
-    .concat(dashboardsPageLine)
+    .concat(dashboardsPageLine, mcpPageLine)
     .join("\n");
 
   const posts = getBlogPosts("en");

@@ -38,7 +38,7 @@ export type SiteAppEntryStoreTarget = Exclude<SiteAppEntryTarget, "web_app">;
 /** Which way into the web app a CTA offers; a store CTA offers no such choice and carries none. */
 export type SiteAppEntryAction = "login" | "signup" | "open_app";
 
-export type SiteInternalCtaTarget = "home";
+export type SiteInternalCtaTarget = "home" | "mcp";
 
 export type SiteOutboundTarget = "repository" | "author_website" | "activity_snapshot";
 
