@@ -2,7 +2,7 @@
 title: "2026'da RemNote alternatifleri: Ücretsiz ve açık kaynaklı seçenekler"
 description: "RemNote alternatiflerini notlar, PDF'ler, kartlar, fiyat ve kendi sunucunuzda barındırma açısından karşılaştırın. Nelerin taşındığını, nelerin bozulduğunu ve geçişi güvenle nasıl deneyebileceğinizi görün."
 date: "2026-03-19"
-updated: "2026-08-31"
+updated: "2026-11-08"
 image: "/blog/remnote-alternative.png"
 keywords:
   - "remnote alternatifi"
@@ -21,7 +21,7 @@ En iyi **RemNote alternatifi**, ayrılma nedeninizi ortadan kaldırırken RemNot
 
 > **Açıklama:** Ben Kirill Markin. Burada karşılaştırılan ürünlerden biri olan [Nibomo'yu](/tr/) geliştiriyorum. Nibomo, RemNote'un tam bir karşılığı değil. Bu karşılaştırmada notları ve PDF'leri en iyi bir araya getiren çalışma düzeni RemNote'ta; en olgun kart sistemi ve veri taşıma biçimleri ise Anki'de.
 
-**Bilgilerin ve fiyatların kontrol edildiği tarih:** 31 Ağustos 2026. Listelenen fiyatlar ABD için yayımlanan fiyatlardır; belirtilen yerlerde yıllık ödeme esas alınmıştır. Vergiler, bölgeler, uygulama mağazaları ve beta koşulları tutarı değiştirebilir.
+**Bilgilerin ve fiyatların kontrol edildiği tarih:** 31 Ağustos 2026. Listelenen fiyatlar ABD için yayımlanan fiyatlardır; belirtilen yerlerde yıllık ödeme esas alınmıştır. Vergiler, bölgeler, uygulama mağazaları ve beta koşulları tutarı değiştirebilir. Nibomo'nun Anki `.apkg` içe aktarma ayrıntıları 8 Kasım 2026'da kontrol edildi.
 
 ![Bir arşiv konservatörü, bağlantıları korunmuş bir çalışma dosyasından ayrı kart, dosya ve blok sistemlerine küçük bir aktarım deniyor](/blog/remnote-alternative.png)
 
@@ -96,7 +96,7 @@ Nibomo, RemNote'un neredeyse tersi bir tercih yapıyor. [Özellikleri](/tr/featu
 
 Kaynak kodunun kapsamı geniş: MIT lisanslı depo web, iOS, Android, kimlik doğrulama, backend, senkronizasyon ve altyapıyı içeriyor. Desteklenen [üretim ortamında kendi altyapınıza kurulum rehberi](/docs/self-hosting/), AWS CDK kullanıyor. Tek komutla yerel olarak çalıştırılan hazır bir sistem değil. Bulut maliyetleri, gizli anahtarlar, veri geçişleri, izleme, yedekler, geri yükleme denemeleri ve ayrı derlenen mobil uygulamalar sistemi işleten kişinin sorumluluğunda.
 
-Mevcut bir RemNote kullanıcısı için daha büyük sınırlama veri taşıma. Nibomo, RemNote Markdown dosyalarını veya Anki `.apkg` dosyalarını değil, kendi `flashcards.zip` paketlerini içe aktarır. Bu paketler kartları, etiketleri ve başvurulan medyayı taşır; ancak tekrar geçmişini, FSRS durumunu, çalışma alanı ayarlarını, tam deste yapısını veya hesapları taşımaz. Yapay zekâ sohbeti, dışa aktarılan metni gözden geçirilmiş kart taslaklarına dönüştürebilir. Bu, eski koleksiyona devam etmek değil, içeriği yeniden oluşturmaktır. [TXT ile geçiş rehberi](/blog/migrate-from-anki-txt-export-open-source-flashcards/), bu kayıplı geçişin sınırlarını adım adım gösteriyor.
+Mevcut bir RemNote kullanıcısı için daha büyük sınırlama veri taşıma. Nibomo'nun Kitaplık içe aktarması RemNote Markdown dosyalarını veya Anki `.apkg` dosyalarını değil, yalnızca kendi `flashcards.zip` paketlerini kabul eder. Bu paketler kartları, etiketleri ve başvurulan medyayı taşır; ancak tekrar geçmişini, FSRS durumunu, çalışma alanı ayarlarını, tam deste yapısını veya hesapları taşımaz. Yapay zekâ sohbeti, eklenen bir Anki `.apkg` dosyasını veya dışa aktarılan metni okuyup yeni kartlara dönüştürebilir; kartların hepsi yeni olarak başlar. Bu, eski koleksiyona devam etmek değil, içeriği yeniden oluşturmaktır. [Anki `.apkg` içe aktarma rehberi](/blog/import-anki-apkg/) bu yolun neyi koruyup neyi bıraktığını gösteriyor; eski [TXT ile geçiş rehberi](/blog/migrate-from-anki-txt-export-open-source-flashcards/) ise düz metin yolunu anlatıyor.
 
 Sistemin tamamının kaynak koduna erişim önemliyse, yeni veya basit bir kart çalışma alanı için Nibomo'yu seçin. Bağlantılı bir çalışma düzeni için RemNote'ta kalın; verilerin taşınırken korunması veya gelişmiş kart yapısı önemliyse Anki'yi seçin. Daha dar kapsamlı kart sistemi karşılaştırması için [Anki ve Nibomo](/blog/anki-vs-flashcards-open-source-app/) yazısına ve [açık kaynaklı bilgi kartı uygulamaları rehberine](/tr/blog/best-open-source-flashcard-apps-2026/) bakın.
 

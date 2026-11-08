@@ -3,7 +3,7 @@ title: "Mbadala bora za bure za Quizlet mwaka 2026: Ulinganisho wa programu 5"
 description: "Linganisha Anki, Knowt, RemNote, Mochi na Nibomo: kujifunza kwa kadi bila malipo, usawazishaji, matumizi bila intaneti, uingizaji kutoka Quizlet, mipaka ya AI na vikwazo vya kila mpango wa $0."
 image: "/blog/free-quizlet-alternative-v2.png"
 date: "2026-06-20"
-updated: "2026-09-10"
+updated: "2026-11-08"
 keywords:
   - "mbadala za bure za Quizlet"
   - "mbadala bora ya bure ya Quizlet"
@@ -25,7 +25,7 @@ Mbadala bora ya bure ya Quizlet ni ile ambayo vikwazo vyake havivurugi utaratibu
 
 > **Uwazi kuhusu uhusiano wangu na bidhaa:** Mimi ni Kirill Markin, na ninatengeneza Nibomo, mojawapo ya programu tano zinazolinganishwa hapa. Nimeijumuisha kwa sababu ya msimbo wake huria, FSRS na uwezo wa kufanya kazi na mawakala wa AI. Si bora kwa kila mtu: haina njia ya kuingiza moja kwa moja kutoka Quizlet, kifurushi chake cha kuhamisha data hakihifadhi hali ya marudio, na ofa ya sasa ya bure ya programu inayohostiwa ni ya beta. Ulinganisho huu umetokana na kuhakiki vyanzo rasmi vya bei, kurasa za msaada na nyaraka za hazina za msimbo—si madai kwamba nimezitumia programu zote tano kwa majaribio ya muda mrefu.
 
-**Taarifa zimehakikiwa:** 10 Septemba 2026.
+**Taarifa zimehakikiwa:** 10 Septemba 2026; taarifa kuhusu uingizaji wa `.apkg` ya Anki kwenye Nibomo zimehakikiwa 8 Novemba 2026.
 
 ![Mwanafunzi aliyeshika seti ya mfano ya kadi za kujifunzia analinganisha mashua tano kabla ya kuchagua mbadala ya bure ya Quizlet na kujaribu kuhamisha data ndani na nje](/blog/free-quizlet-alternative-v2.png)
 
@@ -114,7 +114,7 @@ Katika orodha hii, Nibomo inafaa zaidi kwa mahitaji maalumu. Programu inayohosti
 
 Ahadi ya kudumu ni ndogo kuliko ofa ya beta. Uundaji wa msingi wa kadi na marudio vitabaki bure. Matumizi makubwa ya AI huenda baadaye yakahitaji ufunguo wako mwenyewe wa mtoa huduma au chaguo la kulipia, na hakuna ahadi kwamba kila kipengele kinachohostiwa kitabaki bure milele.
 
-Uhamishaji kutoka Quizlet pia ndio udhaifu mkubwa zaidi hapa. Nibomo haina zana ya kuingiza moja kwa moja kutoka Quizlet, CSV, TSV, Anki au maandishi ya jumla. Maandishi yanayoruhusiwa kutolewa kutoka Quizlet yanaweza kutumika kutengeneza kadi upya mwenyewe au kwa msaada wa rasimu za AI unazozikagua, lakini huo si uingizaji unaohifadhi kila kitu. [Mwongozo wa kutoa data kutoka Quizlet](/sw/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/) unaeleza maandalizi ya data bila kujifanya kwamba media na hali ya kujifunza zilizokosekana zinaweza kurejeshwa.
+Uhamishaji kutoka Quizlet pia ndio udhaifu mkubwa zaidi hapa. Nibomo haina zana ya kuingiza kwa mbofyo mmoja kutoka Quizlet, CSV, TSV, Anki au maandishi ya jumla. `.apkg` ya Anki inaweza kuambatishwa kwenye mazungumzo ya AI, ambayo [huigeuza kuwa kadi mpya](/blog/import-anki-apkg/). Maandishi yanayoruhusiwa kutolewa kutoka Quizlet yanaweza kutumika kutengeneza kadi upya mwenyewe au kwa msaada wa rasimu za AI unazozikagua, lakini huo si uingizaji unaohifadhi kila kitu. [Mwongozo wa kutoa data kutoka Quizlet](/sw/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/) unaeleza maandalizi ya data bila kujifanya kwamba media na hali ya kujifunza zilizokosekana zinaweza kurejeshwa.
 
 Kifurushi cha umbizo lake la `flashcards.zip` huhamisha kadi, lebo na media zinazohusiana kati ya maeneo ya kazi ya Nibomo. Hakihamishi historia ya marudio, hali ya kiratibu cha FSRS, mipangilio, miundo kamili ya mafungu au data ya akaunti. Kujihostia kunakupa programu yenye leseni ya MIT na udhibiti wa usakinishaji, lakini njia iliyoelezwa ya kuendesha huduma katika matumizi halisi hutumia AWS na bado ina gharama za miundombinu, watoa huduma, matengenezo, nakala za akiba na usimamizi. [Mwongozo wa kujihostia](/docs/self-hosting/) unaeleza mpaka huo.
 

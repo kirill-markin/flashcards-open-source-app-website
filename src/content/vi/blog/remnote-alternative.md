@@ -2,7 +2,7 @@
 title: "Ứng dụng thay thế RemNote năm 2026: Lựa chọn miễn phí và mã nguồn mở"
 description: "So sánh các lựa chọn thay thế RemNote về ghi chú, PDF, thẻ, giá và tự triển khai. Xem dữ liệu nào chuyển được, điều gì mất đi và cách thử chuyển an toàn."
 date: "2026-03-19"
-updated: "2026-08-31"
+updated: "2026-11-08"
 image: "/blog/remnote-alternative.png"
 keywords:
   - "ứng dụng thay thế remnote"
@@ -21,7 +21,7 @@ RemNote đặt tên cho tùy chọn xuất sang Anki là **Flashcards Only (Ch�
 
 > **Thông tin về tác giả:** Tôi là Kirill Markin, người phát triển [Nibomo](/vi/), một trong những sản phẩm được so sánh ở đây. Nibomo không thay thế hoàn toàn RemNote. Trong bài so sánh này, RemNote có quy trình tích hợp ghi chú và PDF tốt nhất, còn Anki có hệ thống thẻ và các định dạng chuyển dữ liệu hoàn thiện nhất.
 
-**Thông tin và giá được kiểm chứng ngày:** 31 tháng 8 năm 2026. Giá nêu trong bài là giá công khai tại Mỹ, thanh toán theo năm ở những chỗ có ghi rõ; thuế, khu vực, kho ứng dụng và điều kiện beta có thể làm thay đổi số tiền.
+**Thông tin và giá được kiểm chứng ngày:** 31 tháng 8 năm 2026. Giá nêu trong bài là giá công khai tại Mỹ, thanh toán theo năm ở những chỗ có ghi rõ; thuế, khu vực, kho ứng dụng và điều kiện beta có thể làm thay đổi số tiền. Thông tin về cách Nibomo nhập tệp `.apkg` của Anki được kiểm chứng ngày 8 tháng 11 năm 2026.
 
 ![Một chuyên viên bảo quản tài liệu thử chuyển một phần nhỏ từ hồ sơ học tập có liên kết còn nguyên vẹn sang các hệ thống thẻ, tệp và khối riêng biệt](/blog/remnote-alternative.png)
 
@@ -96,7 +96,7 @@ Nibomo chọn cách đánh đổi gần như ngược với RemNote. Các [tính
 
 Phạm vi mã nguồn được công khai rất rộng: kho mã nguồn theo giấy phép MIT gồm web, iOS, Android, xác thực, backend, đồng bộ và hạ tầng. Phương án được hỗ trợ trong [hướng dẫn tự triển khai cho môi trường vận hành thực tế](/docs/self-hosting/) sử dụng AWS CDK. Đây không phải gói chạy cục bộ chỉ bằng một lệnh. Người vận hành phải tự trả chi phí đám mây, quản lý thông tin bí mật, cập nhật cấu trúc cơ sở dữ liệu, giám sát, sao lưu, thử khôi phục và biên dịch riêng các ứng dụng di động.
 
-Chuyển dữ liệu là giới hạn lớn hơn với người đang dùng RemNote. Nibomo nhập gói `flashcards.zip` riêng, không nhập Markdown của RemNote hay `.apkg` của Anki. Các gói này chứa thẻ, nhãn và nội dung đa phương tiện được tham chiếu, nhưng không chứa lịch sử ôn tập, trạng thái FSRS, cài đặt không gian làm việc, toàn bộ cấu trúc bộ thẻ hay tài khoản. Bạn có thể dùng trò chuyện AI để chuyển văn bản đã xuất thành bản nháp thẻ rồi kiểm tra lại; đó là dựng lại nội dung, không phải tiếp tục bộ sưu tập cũ. [Hướng dẫn chuyển dữ liệu qua TXT](/blog/migrate-from-anki-txt-export-open-source-flashcards/) trình bày từng bước và những thông tin bị mất.
+Chuyển dữ liệu là giới hạn lớn hơn với người đang dùng RemNote. Chức năng nhập trong Thư viện của Nibomo chỉ nhận gói `flashcards.zip` riêng, không nhận Markdown của RemNote hay `.apkg` của Anki. Các gói này chứa thẻ, nhãn và nội dung đa phương tiện được tham chiếu, nhưng không chứa lịch sử ôn tập, trạng thái FSRS, cài đặt không gian làm việc, toàn bộ cấu trúc bộ thẻ hay tài khoản. Trò chuyện AI có thể đọc tệp `.apkg` của Anki được đính kèm hoặc văn bản đã xuất rồi chuyển thành thẻ, tất cả đều bắt đầu như thẻ mới; đó là dựng lại nội dung, không phải tiếp tục bộ sưu tập cũ. [Hướng dẫn nhập `.apkg` của Anki](/blog/import-anki-apkg/) cho thấy cách này giữ lại và bỏ đi những gì, còn [hướng dẫn cũ về chuyển dữ liệu qua TXT](/blog/migrate-from-anki-txt-export-open-source-flashcards/) trình bày cách dùng văn bản thuần.
 
 Chọn Nibomo cho không gian học thẻ mới hoặc đơn giản khi quyền truy cập mã nguồn toàn bộ hệ thống là điều quan trọng. Giữ RemNote để học với các nội dung liên kết, và chọn Anki khi cần giữ nguyên dữ liệu khi chuyển hoặc có cấu trúc thẻ phức tạp. Để so sánh riêng về hệ thống thẻ, xem [Anki so với Nibomo](/blog/anki-vs-flashcards-open-source-app/) và [hướng dẫn về ứng dụng thẻ ghi nhớ mã nguồn mở](/vi/blog/best-open-source-flashcard-apps-2026/).
 

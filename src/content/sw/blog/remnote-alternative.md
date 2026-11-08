@@ -2,7 +2,7 @@
 title: "Mbadala za RemNote mwaka 2026: Chaguo za bure na zenye msimbo huria"
 description: "Linganisha mbadala za RemNote kwa madokezo, PDF, kadi, bei na kujihostia. Ona kinachohamishika, kinachopotea na jinsi ya kufanya jaribio la kuhama salama."
 date: "2026-03-19"
-updated: "2026-08-31"
+updated: "2026-11-08"
 image: "/blog/remnote-alternative.png"
 keywords:
   - "mbadala wa remnote"
@@ -21,7 +21,7 @@ RemNote inaweka lebo **Flashcards Only** kwenye chaguo lake la kutoa data kwa An
 
 > **Uwazi kuhusu uhusiano wangu na bidhaa:** Mimi ni Kirill Markin, na ninatengeneza [Nibomo](/sw/), mojawapo ya bidhaa zinazolinganishwa hapa. Nibomo haiwezi kuchukua nafasi ya RemNote kikamilifu. Katika ulinganisho huu, RemNote ina utaratibu bora zaidi wa kuunganisha madokezo na PDF, huku Anki ikiwa na mfumo wa kadi na miundo ya kuhamisha data iliyokomaa zaidi.
 
-**Taarifa na bei zilihakikiwa:** 31 Agosti 2026. Bei zilizoorodheshwa ni bei za umma za Marekani, kwa malipo ya mwaka pale ilipoelezwa; kodi, eneo, maduka ya programu na masharti ya beta vinaweza kubadili kiasi hicho.
+**Taarifa na bei zilihakikiwa:** 31 Agosti 2026. Bei zilizoorodheshwa ni bei za umma za Marekani, kwa malipo ya mwaka pale ilipoelezwa; kodi, eneo, maduka ya programu na masharti ya beta vinaweza kubadili kiasi hicho. Taarifa kuhusu uingizaji wa `.apkg` ya Anki kwenye Nibomo zilihakikiwa 8 Novemba 2026.
 
 ![Mhifadhi wa nyaraka anajaribu kuhamisha sehemu ndogo ya jalada kamili la masomo lenye viungo kwenda kwenye mifumo tofauti ya kadi, faili na vitalu vya maudhui](/blog/remnote-alternative.png)
 
@@ -96,7 +96,7 @@ Nibomo ina vipaumbele vilivyo karibu kinyume cha vile vya RemNote. [Vipengele vy
 
 Ufikiaji wa msimbo ni mpana: hazina yenye leseni ya MIT inajumuisha wavuti, iOS, Android, uthibitishaji, backend, usawazishaji na miundombinu. [Mwongozo unaoungwa mkono wa kujihostia kwa matumizi halisi](/docs/self-hosting/) hutumia AWS CDK. Si mfumo wa kusakinisha na kuendesha kwenye kompyuta yako kwa amri moja. Waendeshaji wanawajibika kwa gharama za wingu, siri za mfumo, uhamishaji wa data, ufuatiliaji, nakala za akiba, majaribio ya kurejesha data na programu za simu zinazojengwa kando.
 
-Uhamaji ndicho kikwazo kikubwa zaidi kwa mtumiaji wa sasa wa RemNote. Nibomo huingiza vifurushi vyake vya `flashcards.zip`, si Markdown ya RemNote wala `.apkg` ya Anki. Vifurushi hivyo hubeba kadi, lebo na media zinazorejelewa, lakini havibebi historia ya marudio, hali ya FSRS, mipangilio ya eneo la kazi, muundo mzima wa mafungu au akaunti. Mazungumzo ya AI yanaweza kubadili maandishi yaliyotolewa kuwa rasimu za kadi zilizokaguliwa; huo ni ujenzi upya wa maudhui, si kuendeleza mkusanyiko wa zamani. [Mwongozo wa uhamaji kupitia TXT](/blog/migrate-from-anki-txt-export-open-source-flashcards/) unaonyesha kikomo hicho kinachopoteza baadhi ya data hatua kwa hatua.
+Uhamaji ndicho kikwazo kikubwa zaidi kwa mtumiaji wa sasa wa RemNote. Uingizaji wa Maktaba ya Nibomo hupokea vifurushi vyake vya `flashcards.zip` pekee, si Markdown ya RemNote wala `.apkg` ya Anki. Vifurushi hivyo hubeba kadi, lebo na media zinazorejelewa, lakini havibebi historia ya marudio, hali ya FSRS, mipangilio ya eneo la kazi, muundo mzima wa mafungu au akaunti. Mazungumzo ya AI yanaweza kusoma `.apkg` ya Anki iliyoambatishwa au maandishi yaliyotolewa na kuyageuza kuwa kadi mpya, zote zikianza kama mpya; huo ni ujenzi upya wa maudhui, si kuendeleza mkusanyiko wa zamani. [Mwongozo wa kuingiza `.apkg` ya Anki](/blog/import-anki-apkg/) unaonyesha kile njia hiyo inachohifadhi na inachoacha, na [mwongozo wa zamani wa uhamaji kupitia TXT](/blog/migrate-from-anki-txt-export-open-source-flashcards/) unaeleza njia ya maandishi matupu.
 
 Chagua Nibomo kwa eneo jipya au rahisi la kadi ikiwa ufikiaji wa msimbo wa mfumo mzima ni muhimu. Baki na RemNote kwa masomo yanayounganisha madokezo na vyanzo, na chagua Anki ikiwa kuhamisha data bila kuipoteza au kuibadilisha au muundo wa kadi wenye uwezo wa juu ni muhimu. Kwa ulinganisho unaolenga mifumo ya kadi pekee, soma [Anki dhidi ya Nibomo](/blog/anki-vs-flashcards-open-source-app/) na [mwongozo wa programu za kadi za kujifunzia za msimbo huria](/sw/blog/best-open-source-flashcard-apps-2026/).
 

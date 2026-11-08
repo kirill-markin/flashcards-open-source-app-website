@@ -2,7 +2,7 @@
 title: "Các lựa chọn thay thế Anki năm 2026: Bạn giữ được, mất đi và nhận thêm những gì?"
 description: "So sánh bảy ứng dụng thay thế Anki về khả năng giữ nguyên dữ liệu khi chuyển, dùng ngoại tuyến, lịch ôn, giá, mã nguồn và tự triển khai; xem khi nào nên giữ Anki."
 date: "2026-03-14"
-updated: "2026-08-28"
+updated: "2026-11-08"
 image: "/blog/best-anki-alternatives.png"
 keywords:
   - "ứng dụng thay thế Anki"
@@ -20,9 +20,9 @@ Một lần nhập dữ liệu Anki có thể hoàn tất mà không báo lỗi,
 
 Bài so sánh này lấy khả năng giữ nguyên dữ liệu làm điểm xuất phát, xem xét bảy ứng dụng giống Anki, mỗi ứng dụng tiếp nhận được những gì từ bộ sưu tập hiện có, điều gì thay đổi sau khi nhập, và khi nào giữ Anki là lựa chọn an toàn hơn.
 
-> **Thông tin về tác giả:** Tôi là Kirill Markin, người phát triển [Nibomo](https://nibomo.com/), một trong các sản phẩm bên dưới. Tôi đưa Nibomo vào vì mã nguồn mở, khả năng tự triển khai và quy trình làm việc với tác nhân AI. Điều đó không có nghĩa Nibomo mặc nhiên là lựa chọn tốt nhất: Nibomo không có chức năng nhập trực tiếp `.apkg`, việc chuyển từ Anki làm mất một phần dữ liệu, và vận hành hệ thống tự triển khai đòi hỏi công sức quản lý hạ tầng thực sự.
+> **Thông tin về tác giả:** Tôi là Kirill Markin, người phát triển [Nibomo](https://nibomo.com/), một trong các sản phẩm bên dưới. Tôi đưa Nibomo vào vì mã nguồn mở, khả năng tự triển khai và quy trình làm việc với tác nhân AI. Điều đó không có nghĩa Nibomo mặc nhiên là lựa chọn tốt nhất: Nibomo chỉ đọc tệp `.apkg` của Anki qua trò chuyện AI, việc chuyển từ Anki làm mất một phần dữ liệu, và vận hành hệ thống tự triển khai đòi hỏi công sức quản lý hạ tầng thực sự.
 
-**Thông tin được kiểm tra ngày:** 28 tháng 8 năm 2026. Giá là mức công khai tại Mỹ hoặc mức giá địa phương được niêm yết vào ngày đó. Thuế, khu vực, ưu đãi giáo dục và cách thanh toán qua cửa hàng ứng dụng có thể làm thay đổi số tiền.
+**Thông tin được kiểm tra ngày:** 28 tháng 8 năm 2026. Giá là mức công khai tại Mỹ hoặc mức giá địa phương được niêm yết vào ngày đó. Thuế, khu vực, ưu đãi giáo dục và cách thanh toán qua cửa hàng ứng dụng có thể làm thay đổi số tiền. Thông tin về cách Nibomo nhập tệp `.apkg` của Anki được kiểm tra ngày 8 tháng 11 năm 2026.
 
 ![Một thợ đồng hồ kiểm tra xem bộ máy đồng hồ bỏ túi đã dùng lâu năm có lắp vừa một chiếc vỏ khác hay không](/blog/best-anki-alternatives.png)
 
@@ -41,7 +41,7 @@ Bốn ứng dụng còn lại đòi hỏi dựng lại nội dung, chứ không 
 - **Quizlet** hữu ích cho bộ học liệu công khai, lớp học, trò chơi và bài luyện tập có hướng dẫn.
 - **Brainscape** cho nhóm học một cách ôn đơn giản hơn, dựa trên mức độ tự tin từ 1–5.
 - **SuperMemo** đưa bạn sang phương pháp độc quyền và danh mục khóa học của họ.
-- **Nibomo** cung cấp ứng dụng web và ứng dụng gốc theo giấy phép MIT, backend tự triển khai, API và quyền truy cập MCP. Quy trình TXT hoặc CSV có bước kiểm tra lại không giữ được trạng thái học tập từ Anki.
+- **Nibomo** cung cấp ứng dụng web và ứng dụng gốc theo giấy phép MIT, backend tự triển khai, API và quyền truy cập MCP. Trò chuyện AI của Nibomo có thể biến tệp `.apkg` đính kèm thành thẻ, nhưng trạng thái học tập từ Anki không đi theo.
 
 Nếu thẻ của bạn phụ thuộc vào cách hiển thị chính xác, tiện ích bổ sung hoặc hàng đợi ôn hiện tại, ở lại Anki không phải là thiếu quyết đoán. Đó chính là câu trả lời.
 
@@ -78,7 +78,7 @@ Một công cụ nhập có thể vượt qua câu hỏi đầu tiên nhưng th�
 | [Quizlet](https://quizlet.com/) | [Dán thuật ngữ và định nghĩa](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content) | Không giữ dữ liệu học từ Anki | Loại ghi chú, mẫu thẻ, bộ thẻ, cấu trúc tệp đa phương tiện và toàn bộ dữ liệu lịch ôn |
 | [Brainscape](https://www.brainscape.com/) | [CSV, TXT, XLSX hoặc ODS](https://brainscape.zendesk.com/hc/en-us/articles/115002369931-How-do-I-import-various-files-to-create-flashcards) | Không giữ dữ liệu học từ Anki | Mẫu thẻ, tiện ích bổ sung, quy tắc tệp đa phương tiện và toàn bộ dữ liệu lịch ôn |
 | [SuperMemo](https://www.supermemo.com/) | [Dán các dòng hỏi–đáp có dấu phân cách](https://www.supermemo.com/en/blog/how-to-create-flashcards-for-learning), tối đa 100 thẻ mỗi lần | Không giữ dữ liệu học từ Anki | Cấu trúc bộ sưu tập, tệp đa phương tiện, mẫu thẻ và toàn bộ dữ liệu lịch ôn |
-| [Nibomo](https://nibomo.com/) | Dùng AI hỗ trợ soạn bản nháp từ TXT hoặc CSV của Anki, rồi kiểm tra lại | Không giữ dữ liệu học từ Anki | Không hỗ trợ `.apkg`; mẫu thẻ, độ nguyên vẹn của tệp đa phương tiện, phân cấp bộ thẻ và toàn bộ dữ liệu lịch ôn không được chuyển sang |
+| [Nibomo](https://nibomo.com/) | [Đính kèm tệp `.apkg` trong trò chuyện AI](/blog/import-anki-apkg/); AI lưu thẻ ngay. TXT hoặc CSV cũng dùng được | Không giữ dữ liệu học từ Anki; mọi thẻ bắt đầu như thẻ mới | Ghi chú điền khuyết thành thẻ hỏi–đáp; mẫu thẻ, CSS, bộ thẻ lồng nhau và toàn bộ dữ liệu lịch ôn không được chuyển sang |
 
 ## Giá, khả năng dùng ngoại tuyến, lịch ôn và quyền kiểm soát
 
@@ -166,11 +166,11 @@ Bạn có thể học các khóa đã tải xuống ngay cả khi ngoại tuyế
 
 Chọn SuperMemo vì bạn muốn phương pháp riêng hoặc danh mục khóa học của họ đến mức sẵn sàng bắt đầu lịch ôn mới. Nếu ưu tiên là giữ lịch hiện có, ứng dụng này không giải quyết đúng vấn đề.
 
-## Nibomo: truy cập mã nguồn toàn hệ thống, nhưng nhập từ Anki yếu nhất
+## Nibomo: truy cập mã nguồn toàn hệ thống, nhập từ Anki chỉ chuyển nội dung
 
 Nibomo cho phép bạn nắm quyền kiểm soát phần lớn hệ thống. [Kho mã theo giấy phép MIT](https://github.com/kirill-markin/flashcards-open-source-app) chứa ứng dụng web, ứng dụng iOS và Android, backend, đồng bộ ngoại tuyến, hạ tầng, [API công khai](/docs/api/) và [máy chủ MCP](/docs/mcp-connector/). Lịch ôn dùng [FSRS](/docs/architecture/#scheduling). Bản web, iOS và Android đều ghi dữ liệu cục bộ trước, đưa thay đổi vào hàng đợi gửi đi, rồi đồng bộ khi có mạng trở lại.
 
-Điều đó không khiến Nibomo tương thích với Anki. Nibomo không đọc được `.apkg` hay `.colpkg`. [Quy trình chuyển từ TXT của Anki](/blog/migrate-from-anki-txt-export-open-source-flashcards/) được hỗ trợ là quy trình dùng AI soạn bản nháp rồi kiểm tra lại, chủ yếu dành cho thẻ văn bản. Nó không giữ mẫu thẻ, tiện ích bổ sung, phân cấp bộ thẻ, ngày đến hạn, khoảng cách ôn hay các lần ôn. Tham chiếu đến tệp đa phương tiện trong TXT không phải bản thân tệp, nên bộ thẻ nhiều hình ảnh, âm thanh cần được dựng lại và kiểm tra riêng.
+Điều đó không khiến Nibomo tương thích với Anki. Không có chức năng nhập bằng một cú nhấp, và Thư viện → Nhập chỉ nhận tệp `.zip` riêng của Nibomo. Thay vào đó, bạn [đính kèm tệp `.apkg` trong trò chuyện AI](/blog/import-anki-apkg/) và yêu cầu AI chuyển bộ thẻ thành thẻ. Trong lần thử với một bộ thẻ mẫu nhỏ, thẻ cơ bản, nhãn và một hình ảnh được giữ lại; ghi chú cơ bản kèm thẻ đảo được tách thành hai thẻ một chiều, còn ghi chú điền khuyết được viết lại thành thẻ hỏi–đáp. Bộ thẻ con trở thành các bộ thẻ phẳng trong Nibomo. Mẫu thẻ, tiện ích bổ sung, ngày đến hạn, khoảng cách ôn và các lần ôn không được chuyển sang, và tệp `.colpkg` không được chấp nhận. Khi xuất, hãy đánh dấu **Support older Anki versions**; Nibomo chỉ đưa cho AI danh sách tên tệp đa phương tiện với định dạng cũ đó. Gói thử nghiệm là tệp định dạng cũ được tạo bằng script, không phải tệp xuất từ Anki. Hãy kiểm tra hình ảnh sau khi nhập. [Quy trình cũ chuyển từ TXT của Anki](/blog/migrate-from-anki-txt-export-open-source-flashcards/) vẫn dùng được cho thẻ chỉ có văn bản.
 
 Gói `flashcards.zip` riêng của Nibomo cũng có phạm vi hẹp hơn bản sao lưu. Nó chuyển thẻ, nhãn và tệp đa phương tiện liên quan giữa các không gian làm việc Nibomo. Nó không chuyển lịch sử ôn, trạng thái FSRS, cấu trúc bộ thẻ đầy đủ, thiết lập không gian làm việc hay tài khoản.
 

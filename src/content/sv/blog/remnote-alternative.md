@@ -2,7 +2,7 @@
 title: "Alternativ till RemNote 2026: gratisappar och öppen källkod"
 description: "Jämför alternativ till RemNote för anteckningar, PDF-filer, kort, pris och egen drift. Se vad som följer med, vad som går förlorat och hur du testar en säker flytt."
 date: "2026-03-19"
-updated: "2026-08-31"
+updated: "2026-11-08"
 image: "/blog/remnote-alternative.png"
 keywords:
   - "alternativ till remnote"
@@ -21,7 +21,7 @@ Det bästa **alternativet till RemNote** löser skälet till att du vill byta ut
 
 > **Om min koppling till produkterna:** Jag heter Kirill Markin och utvecklar [Nibomo](/sv/), en av produkterna i jämförelsen. Nibomo ersätter inte RemNote fullt ut. RemNote har det starkaste integrerade arbetsflödet för anteckningar och PDF-filer i den här jämförelsen, medan Anki har det mest utvecklade kortsystemet och de mest etablerade formaten för att flytta data.
 
-**Fakta och priser kontrollerade:** 31 augusti 2026. Priserna är offentliga USA-priser med årsbetalning där det anges. Skatter, regioner, appbutiker och betavillkor kan påverka beloppet.
+**Fakta och priser kontrollerade:** 31 augusti 2026. Priserna är offentliga USA-priser med årsbetalning där det anges. Skatter, regioner, appbutiker och betavillkor kan påverka beloppet. Uppgifterna om Nibomos import av Ankis `.apkg`-filer kontrollerades 8 november 2026.
 
 ![En arkivkonservator testar en liten överföring från ett intakt sammanlänkat studiearkiv till separata system för kort, filer och block](/blog/remnote-alternative.png)
 
@@ -96,7 +96,7 @@ Nibomo gör nästan motsatt avvägning mot RemNote. Dess [funktioner](/sv/featur
 
 Källkoden täcker hela systemet: det MIT-licensierade kodarkivet inkluderar webb, iOS, Android, autentisering, backend, synkronisering och infrastruktur. Den officiellt stödda [guiden till egen produktionsdrift](/docs/self-hosting/) använder AWS CDK. Det är inte ett lokalt system du startar med ett enda kommando. Den som driver det ansvarar för molnkostnader, hantering av hemliga nycklar och andra autentiseringsuppgifter, migreringar, övervakning, säkerhetskopior, återställningstester och separat byggda mobilappar.
 
-Flytten är den större begränsningen för den som redan använder RemNote. Nibomo importerar sina egna `flashcards.zip`-paket, inte RemNotes Markdown eller Ankis `.apkg`. Paketen innehåller kort, taggar och refererade media, men inte repetitionshistorik, FSRS-tillstånd, arbetsyteinställningar, fullständig kortleksstruktur eller konton. AI-chatten kan göra granskade kortutkast av exporterad text. Det innebär att bygga upp innehåll på nytt, inte att fortsätta med den gamla samlingen. [Guiden till flytt via TXT](/blog/migrate-from-anki-txt-export-open-source-flashcards/) visar steg för steg vad som går förlorat.
+Flytten är den större begränsningen för den som redan använder RemNote. Nibomos import i Bibliotek tar bara emot de egna `flashcards.zip`-paketen, inte RemNotes Markdown eller Ankis `.apkg`. Paketen innehåller kort, taggar och refererade media, men inte repetitionshistorik, FSRS-tillstånd, arbetsyteinställningar, fullständig kortleksstruktur eller konton. AI-chatten kan läsa en bifogad `.apkg` från Anki eller exporterad text och göra nya kort av den, och alla börjar som nya. Det innebär att bygga upp innehåll på nytt, inte att fortsätta med den gamla samlingen. [Guiden till import av Ankis `.apkg`](/blog/import-anki-apkg/) visar vad den vägen behåller och tappar, och den äldre [guiden till flytt via TXT](/blog/migrate-from-anki-txt-export-open-source-flashcards/) beskriver vägen med ren text.
 
 Välj Nibomo för en ny eller enkel kortarbetsyta när tillgång till hela systemets källkod är viktig. Behåll RemNote när anteckningar, källor och kort behöver hänga ihop, och välj Anki när du behöver bevara samlingen vid en flytt eller använda avancerad kortstruktur. För en mer avgränsad jämförelse av kortsystemen, se [Anki jämfört med Nibomo](/blog/anki-vs-flashcards-open-source-app/) och [guiden till flashcard-appar med öppen källkod](/sv/blog/best-open-source-flashcard-apps-2026/).
 

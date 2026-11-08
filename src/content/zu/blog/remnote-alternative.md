@@ -2,7 +2,7 @@
 title: "Ezinye izinhlelo esikhundleni se-RemNote ngo-2026: izinketho zamahhala nezinekhodi evulekile"
 description: "Qhathanisa ezinye izinhlelo esikhundleni se-RemNote ngamanothi, ama-PDF, amakhadi, intengo nokuzisingathela. Bona okuthuthekayo, okulahlekayo nendlela yokuhlola ukuthutha ngokuphepha."
 date: "2026-03-19"
-updated: "2026-08-31"
+updated: "2026-11-08"
 image: "/blog/remnote-alternative.png"
 keywords:
   - "enye indlela esikhundleni se-RemNote"
@@ -21,7 +21,7 @@ I-RemNote ibiza ukukhiphela kwayo idatha ku-Anki ngokuthi **Flashcards Only** (A
 
 > **Ubudlelwano bami nomkhiqizo:** NginguKirill Markin, futhi ngithuthukisa i-[Nibomo](/zu/), omunye wemikhiqizo eqhathaniswa lapha. I-Nibomo ayithathi indawo ye-RemNote ngokuphelele. Kulesi siqhathaniso i-RemNote ihlanganisa kahle kakhulu amanothi nama-PDF endleleni eyodwa yokusebenza, kuyilapho i-Anki inohlelo lwamakhadi namafomethi okuthutha idatha athuthukiswe isikhathi eside kakhulu.
 
-**Amaqiniso namanani ahlolwe:** 31 Agasti 2026. Amanani asohlwini ngamanani asesidlangalaleni ase-US, futhi asebenzisa inkokhelo yonyaka lapho kushiwo khona; izintela, izifunda, izitolo zezinhlelo nemibandela ye-beta kungashintsha inani.
+**Amaqiniso namanani ahlolwe:** 31 Agasti 2026. Amanani asohlwini ngamanani asesidlangalaleni ase-US, futhi asebenzisa inkokhelo yonyaka lapho kushiwo khona; izintela, izifunda, izitolo zezinhlelo nemibandela ye-beta kungashintsha inani. Imininingwane yokungenisa ama-`.apkg` e-Anki ku-Nibomo ihlolwe ngo-8 Novemba 2026.
 
 ![Umlondolozi wengobo yomlando uhlola ukuthutha ingxenye encane isuka eqoqweni lokufunda eliphelele nelixhumene iye ezinhlelweni ezihlukene zamakhadi, zamafayela nezamabhulokhi](/blog/remnote-alternative.png)
 
@@ -96,7 +96,7 @@ I-Nibomo ikhetha cishe okuphambene ne-RemNote. [Izici zayo](/zu/features/) zigxi
 
 Ikhodi etholakalayo ihlanganisa okuningi: ikhosombe elinelayisensi ye-MIT lifaka iwebhu, i-iOS, i-Android, ukuqinisekisa ubuwena, iseva, ukuvumelanisa nengqalasizinda. [Umhlahlandlela osekelwayo wokuzisingathela ekukhiqizeni](/docs/self-hosting/) usebenzisa i-AWS CDK. Akulona ithuluzi olisebenzisa kudivayisi ngomyalo owodwa. Abaliphethe banomthwalo wezindleko zefu, izimfihlo zokufinyelela, ukuthuthwa kwesizindalwazi, ukuqapha, amakhophi ayisipele, ukuhlola ukubuyisela nezinhlelo zeselula ezakhiwa ngokwehlukana.
 
-Ukuthutha kuwumkhawulo omkhulu kumuntu osebenzisa i-RemNote. I-Nibomo ingenisa amaphakheji ayo e-`flashcards.zip`, hhayi i-Markdown ye-RemNote noma ama-`.apkg` e-Anki. Lawo maphakheji athwala amakhadi, amathegi nemidiya ebhekiselwe kuyo, kodwa awafaki umlando wokubuyekeza, isimo se-FSRS, izilungiselelo zendawo yokusebenza, ukwakheka okugcwele kwezinqwaba zamakhadi noma ama-akhawunti. Ingxoxo ye-AI ingaguqula umbhalo okhishiwe ube yimibhalo yokuqala yamakhadi ozoyihlola; lokho kuwukwakha kabusha okuqukethwe, hhayi ukuqhubeka neqoqo elidala. [Umhlahlandlela wokuthutha nge-TXT](/blog/migrate-from-anki-txt-export-open-source-flashcards/) ubonisa lo mkhawulo wokulahleka kwedatha isinyathelo ngesinyathelo.
+Ukuthutha kuwumkhawulo omkhulu kumuntu osebenzisa i-RemNote. Ukungenisa eMtapweni wolwazi we-Nibomo kwamukela kuphela amaphakheji ayo e-`flashcards.zip`, hhayi i-Markdown ye-RemNote noma ama-`.apkg` e-Anki. Lawo maphakheji athwala amakhadi, amathegi nemidiya ebhekiselwe kuyo, kodwa awafaki umlando wokubuyekeza, isimo se-FSRS, izilungiselelo zendawo yokusebenza, ukwakheka okugcwele kwezinqwaba zamakhadi noma ama-akhawunti. Ingxoxo ye-AI ingafunda i-`.apkg` ye-Anki enamathiselwe noma umbhalo okhishiwe bese ikuguqula kube ngamakhadi amasha, wonke aqala njengamasha; lokho kuwukwakha kabusha okuqukethwe, hhayi ukuqhubeka neqoqo elidala. [Umhlahlandlela wokungenisa i-`.apkg` ye-Anki](/blog/import-anki-apkg/) ubonisa ukuthi le ndlela igcinani nokuthi ishiyani, kanti [umhlahlandlela omdala wokuthutha nge-TXT](/blog/migrate-from-anki-txt-export-open-source-flashcards/) uchaza indlela yombhalo kuphela.
 
 Khetha i-Nibomo ukuze uqale indawo entsha noma elula yamakhadi uma ukufinyelela ikhodi yalo lonke uhlelo kubalulekile. Gcina i-RemNote ukuze ufunde ngezinto ezixhumene, bese ukhetha i-Anki uma ukugcina idatha injengoba injalo ngesikhathi sokuthutha noma ukwakheka kwamakhadi okuthuthukile kubalulekile. Ukuze uthole ukuqhathanisa okugxile ezinhlelweni zamakhadi, bheka [i-Anki ne-Nibomo](/blog/anki-vs-flashcards-open-source-app/) kanye [nomhlahlandlela wezinhlelo zamakhadi okufunda ezinekhodi evulekile](/zu/blog/best-open-source-flashcard-apps-2026/).
 

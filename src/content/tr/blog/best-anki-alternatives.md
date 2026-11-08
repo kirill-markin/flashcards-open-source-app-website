@@ -2,7 +2,7 @@
 title: "2026'da Anki Alternatifleri: Geçiş Yapınca Neleri Korur, Neleri Kaybeder, Neler Kazanırsınız?"
 description: "Yedi Anki alternatifini aktarım doğruluğu, çevrimdışı kullanım, tekrar planlama, fiyat, kaynak kodu ve kendi sunucunuzda barındırma açısından karşılaştırın; Anki'de kalmanın ne zaman daha güvenli olduğunu görün."
 date: "2026-03-14"
-updated: "2026-08-28"
+updated: "2026-11-08"
 image: "/blog/best-anki-alternatives.png"
 keywords:
   - "Anki alternatifleri"
@@ -20,9 +20,9 @@ Anki alternatiflerini karşılaştırırken asıl maliyet burada ortaya çıkar.
 
 Bu karşılaştırma tam bu noktadan başlıyor. Anki benzeri yedi uygulamayı, her birinin mevcut koleksiyonunuzdan neleri aktarabildiğini, içe aktarma sonrasında nelerin değiştiğini ve Anki'de kalmanın ne zaman daha güvenli olduğunu ele alıyor.
 
-> **Açıklama:** Ben Kirill Markin. Aşağıdaki ürünlerden biri olan [Nibomo'yu](https://nibomo.com/) geliştiriyorum. Açık kaynaklı olması, kendi sunucunuzda barındırılabilmesi ve yapay zekâ ajanlarıyla çalışma olanakları nedeniyle listeye ekledim. Otomatik olarak birinci sıraya koymuyorum: doğrudan `.apkg` içe aktarma desteği yok, Anki'den geçişte veri kaybı yaşanıyor ve sistemi kendi altyapınızda çalıştırmak ciddi bir altyapı işi.
+> **Açıklama:** Ben Kirill Markin. Aşağıdaki ürünlerden biri olan [Nibomo'yu](https://nibomo.com/) geliştiriyorum. Açık kaynaklı olması, kendi sunucunuzda barındırılabilmesi ve yapay zekâ ajanlarıyla çalışma olanakları nedeniyle listeye ekledim. Otomatik olarak birinci sıraya koymuyorum: Anki `.apkg` dosyalarını yalnızca yapay zekâ sohbeti üzerinden okuyor, Anki'den geçişte veri kaybı yaşanıyor ve sistemi kendi altyapınızda çalıştırmak ciddi bir altyapı işi.
 
-**Bilgilerin kontrol edildiği tarih:** 28 Ağustos 2026. Fiyatlar, o tarihte herkese açık ABD fiyatları veya belirtilen yerel fiyatlardır. Vergiler, bölge, eğitim indirimleri ve uygulama mağazası üzerinden ödeme tutarı değiştirebilir.
+**Bilgilerin kontrol edildiği tarih:** 28 Ağustos 2026. Fiyatlar, o tarihte herkese açık ABD fiyatları veya belirtilen yerel fiyatlardır. Vergiler, bölge, eğitim indirimleri ve uygulama mağazası üzerinden ödeme tutarı değiştirebilir. Nibomo'nun Anki `.apkg` içe aktarma ayrıntıları 8 Kasım 2026'da kontrol edildi.
 
 ![Bir saatçi, yıllanmış bir cep saati mekanizmasının farklı bir kasaya uyup uymayacağını kontrol ediyor](/blog/best-anki-alternatives.png)
 
@@ -41,7 +41,7 @@ Kalan dört seçenekte koleksiyon taşınmıyor; içerik yeniden oluşturuluyor:
 - **Quizlet**, herkese açık setler, sınıflar, oyunlar ve yönlendirmeli alıştırmalar için kullanışlı.
 - **Brainscape**, gruplara 1–5 arası güven puanıyla daha basit bir tekrar düzeni sunuyor.
 - **SuperMemo**, kendine özgü, kapalı kaynaklı yöntemine ve kurs kataloğuna geçiş anlamına geliyor.
-- **Nibomo**, MIT lisanslı web ve yerel mobil istemciler, kendi sunucunuzda barındırabileceğiniz bir arka uç, API ve MCP erişimi sunuyor. Sonuçları kontrol edilen TXT veya CSV aktarım süreci, Anki'deki öğrenme durumunu korumuyor.
+- **Nibomo**, MIT lisanslı web ve yerel mobil istemciler, kendi sunucunuzda barındırabileceğiniz bir arka uç, API ve MCP erişimi sunuyor. Yapay zekâ sohbeti eklenen bir `.apkg` dosyasını kartlara dönüştürebiliyor, ancak Anki'deki öğrenme durumu aktarılmıyor.
 
 Kartlarınızın tam olarak aynı görünmesine, eklentilere veya mevcut tekrar kuyruğuna bağımlıysanız Anki'de kalmak kararsızlık değildir. Aradığınız cevap budur.
 
@@ -78,7 +78,7 @@ Bir içe aktarma aracı ilk ölçütü karşılayıp diğer ikisinde yetersiz ka
 | [Quizlet](https://quizlet.com/) | [Terimleri ve tanımları yapıştırma](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content) | Anki'den aktarılmaz | Not türleri, şablonlar, desteler, medya yapısı ve tüm tekrar planlama verileri |
 | [Brainscape](https://www.brainscape.com/) | [CSV, TXT, XLSX veya ODS](https://brainscape.zendesk.com/hc/en-us/articles/115002369931-How-do-I-import-various-files-to-create-flashcards) | Anki'den aktarılmaz | Şablonlar, eklentiler, medya kuralları ve tüm tekrar planlama verileri |
 | [SuperMemo](https://www.supermemo.com/) | Bir seferde en fazla 100 adet [ayraçlarla ayrılmış soru-cevap satırı yapıştırma](https://www.supermemo.com/en/blog/how-to-create-flashcards-for-learning) | Anki'den aktarılmaz | Koleksiyon yapısı, medya, şablonlar ve tüm tekrar planlama verileri |
-| [Nibomo](https://nibomo.com/) | Anki TXT veya CSV dosyasından yapay zekâ yardımıyla, kontrol edilerek taslak oluşturma | Anki'den aktarılmaz | `.apkg` desteği yok; şablonlar, medyanın aslına uygunluğu, deste hiyerarşisi ve tüm tekrar planlama verileri geride kalır |
+| [Nibomo](https://nibomo.com/) | [`.apkg` dosyasını yapay zekâ sohbetine ekleyin](/blog/import-anki-apkg/); yapay zekâ kartları doğrudan kaydeder. TXT veya CSV de olur | Anki'den aktarılmaz; her kart yeni olarak başlar | Boşluk doldurma notları soru-cevap kartlarına dönüşür; şablonlar, CSS, iç içe desteler ve tüm tekrar planlama verileri geride kalır |
 
 ## Fiyat, çevrimdışı kullanım, tekrar planlama ve sahiplik
 
@@ -166,11 +166,11 @@ Burada karar, sorunsuz bir Anki aktarımından çok yöntem ve katalogla ilgili.
 
 SuperMemo'yu, kendi yöntemini veya kurs kataloğunu yeni bir tekrar planına başlamaya değecek kadar istiyorsanız seçin. Önceliğiniz mevcut planınızı korumaksa yanlış sorunu çözüyor.
 
-## Nibomo: tüm katmanlarda kaynak koduna erişim, ama en zayıf Anki aktarımı
+## Nibomo: tüm katmanlarda kaynak koduna erişim, yalnızca içeriği taşıyan bir Anki aktarımı
 
 Nibomo, sistemin pek çok katmanını kendi denetiminize almanıza imkân veriyor. [MIT lisanslı depo](https://github.com/kirill-markin/flashcards-open-source-app); web uygulamasını, iOS ve Android istemcilerini, arka ucu, çevrimdışı eşitlemeyi, altyapıyı, [herkese açık API'yi](/docs/api/) ve [MCP sunucusunu](/docs/mcp-connector/) içeriyor. Tekrarlarda [FSRS](/docs/architecture/#scheduling) kullanılıyor. Web, iOS ve Android istemcileri verileri önce cihazda kaydediyor, değişiklikleri bir gönderim kuyruğuna ekliyor ve bağlantı yeniden kurulduğunda eşitliyor.
 
-Bu, Anki ile uyumlu olduğu anlamına gelmiyor. Nibomo, `.apkg` veya `.colpkg` okuyamıyor. Desteklenen [Anki TXT aktarımı](/blog/migrate-from-anki-txt-export-open-source-flashcards/), ağırlıklı olarak metin içeren kartlar için sonuçları kontrol edilen, yapay zekâ destekli bir taslak oluşturma iş akışı. Şablonları, eklentileri, deste hiyerarşisini, tekrar tarihlerini, aralıkları veya tekrar kayıtlarını korumuyor. TXT dosyasındaki medya referansları medya dosyası değildir. Bu yüzden yoğun medya içeren destelerin ayrıca yeniden kurulması ve doğrulanması gerekiyor.
+Bu, Anki ile uyumlu olduğu anlamına gelmiyor. Tek tıkla çalışan bir içe aktarıcı yok ve Kitaplık → İçe aktar yalnızca Nibomo'nun kendi `.zip` dosyasını kabul ediyor. Bunun yerine [`.apkg` dosyasını yapay zekâ sohbetine ekleyip](/blog/import-anki-apkg/) desteyi kartlara dönüştürmesini istiyorsunuz. Küçük bir örnek desteyle yapılan testte temel kartlar, etiketler ve bir görsel korundu; temel ve ters kartlı notlar iki tek yönlü karta ayrıldı, boşluk doldurma notları da soru-cevap kartları olarak yeniden yazıldı. Alt desteler Nibomo'da düz destelere dönüştü. Şablonlar, eklentiler, tekrar tarihleri, aralıklar ve tekrar kayıtları geride kalıyor; `.colpkg` dosyaları da kabul edilmiyor. Dışa aktarırken **Support older Anki versions** seçeneğini işaretleyin; Nibomo medya dosyası adlarının listesini yapay zekâya yalnızca bu eski biçimde iletir. Test paketi, Anki'den dışa aktarılmış bir dosya değil, bir betikle oluşturulmuş eski biçimli bir dosyaydı. İçe aktarmadan sonra görselleri kontrol edin. Eski [Anki TXT aktarımı](/blog/migrate-from-anki-txt-export-open-source-flashcards/) yalnızca metin içeren kartlar için hâlâ işe yarıyor.
 
 Nibomo'nun kendi `flashcards.zip` paketi de bir yedekten daha dar kapsamlı. Nibomo çalışma alanları arasında kartları, etiketleri ve ilgili medyayı taşıyor. Tekrar geçmişini, FSRS durumunu, tam deste yapılarını, çalışma alanı ayarlarını veya hesapları taşımıyor.
 

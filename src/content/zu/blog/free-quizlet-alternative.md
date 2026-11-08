@@ -3,7 +3,7 @@ title: "Izindlela ezingcono zamahhala esikhundleni se-Quizlet ngo-2026: kuqhatha
 description: "Qhathanisa i-Anki, i-Knowt, i-RemNote, i-Mochi ne-Nibomo ngokufunda ngamakhadi mahhala, ukuvumelanisa, ukusebenza ngaphandle kwe-inthanethi, ukungenisa okuvela ku-Quizlet, izabelo ze-AI nemikhawulo yohlelo ngalunye lwe-$0."
 image: "/blog/free-quizlet-alternative-v2.png"
 date: "2026-06-20"
-updated: "2026-09-10"
+updated: "2026-11-08"
 keywords:
   - "izindlela zamahhala esikhundleni se-Quizlet"
   - "indlela engcono yamahhala esikhundleni se-Quizlet"
@@ -25,7 +25,7 @@ Indlela engcono yamahhala esikhundleni se-Quizlet yileyo enemikhawulo engaphazam
 
 > **Ubudlelwano bami nalezi zinhlelo:** NginguKirill Markin, futhi ngithuthukisa i-Nibomo, enye yezinhlelo ezinhlanu eziqhathaniswa lapha. Ngiyifakile ngenxa yekhodi yayo evulekile, i-FSRS nezindlela zokusebenza ngama-ejenti. Ayiphumeleli kuzo zonke izimo: ayinayo indlela eqondile yokungenisa okuvela ku-Quizlet, iphakheji yayo yokudlulisa okuqukethwe ayigcini isimo sokubuyekeza, kanti uhlelo olusingathiwe olunikezwa mahhala njengamanje luse-beta. Lokhu kuqhathanisa kusekelwe ekuhloleni amanani asemthethweni, amakhasi osizo nemibhalo yamakhosombe ekhodi—angisho ukuthi ngizivivinye mathupha zonke lezi zinhlelo ezinhlanu isikhathi eside.
 
-**Amaqiniso ahlolwe:** ngo-10 Septhemba 2026.
+**Amaqiniso ahlolwe:** ngo-10 Septhemba 2026; imininingwane yokungenisa ama-`.apkg` e-Anki ku-Nibomo ihlolwe ngo-8 Novemba 2026.
 
 ![Umfundi ophethe isethi yokufunda eyisibonelo uqhathanisa izikebhe ezinhlanu ngaphambi kokukhetha enye indlela yamahhala ye-Quizlet nokuhlola ukungenisa okuqukethwe aphinde akukhiphe](/blog/free-quizlet-alternative-v2.png)
 
@@ -114,7 +114,7 @@ I-Nibomo igxile ezidingweni ezithile kulolu hlu. Uhlelo olusingathiwe [lumahhala
 
 Isithembiso sesikhathi eside sincane kunalokho okunikezwa yi-beta. Ukwakha nokubuyekeza amakhadi okuyisisekelo kuzohlala kumahhala. Ukusebenzisa i-AI kakhulu kungase kamuva kudinge ukhiye wakho womhlinzeki noma inketho ekhokhelwayo, futhi asikho isithembiso sokuthi zonke izici ezisingathiwe zizohlala zimahhala unomphela.
 
-Ukuthutha usuka ku-Quizlet nakho kuyindawo ebuthaka kakhulu lapha. I-Nibomo ayinalo ithuluzi eliqondile lokungenisa okuvela ku-Quizlet, i-CSV, i-TSV, i-Anki noma umbhalo ojwayelekile. Umbhalo we-Quizlet ovunyelwe ukukhishwa ungaba umthombo wokwakha kabusha ngesandla noma wemibhalo yokuqala ye-AI oyihlolile, kodwa lokho akukhona ukungenisa okugcina yonke imininingwane. [Indlela yokukhipha okuvela ku-Quizlet](/zu/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/) ichaza ukulungisa okuqukethwe ngaphandle kokwenza sengathi imidiya nesimo sokufunda okungekho kungabuyiswa.
+Ukuthutha usuka ku-Quizlet nakho kuyindawo ebuthaka kakhulu lapha. I-Nibomo ayinalo ithuluzi lokungenisa ngokuchofoza kanye okuvela ku-Quizlet, i-CSV, i-TSV, i-Anki noma umbhalo ojwayelekile. I-`.apkg` ye-Anki inganamathiselwa eNgxoxweni ye-AI, [eyiguqula ibe ngamakhadi amasha](/blog/import-anki-apkg/). Umbhalo we-Quizlet ovunyelwe ukukhishwa ungaba umthombo wokwakha kabusha ngesandla noma wemibhalo yokuqala ye-AI oyihlolile, kodwa lokho akukhona ukungenisa okugcina yonke imininingwane. [Indlela yokukhipha okuvela ku-Quizlet](/zu/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/) ichaza ukulungisa okuqukethwe ngaphandle kokwenza sengathi imidiya nesimo sokufunda okungekho kungabuyiswa.
 
 Iphakheji ye-`flashcards.zip` yohlelo idlulisa amakhadi, amathegi nemidiya ehlobene phakathi kwezindawo zokusebenza ze-Nibomo. Ayidlulisi umlando wokubuyekeza, isimo sohlelo lwe-FSRS lokuhlela izikhathi, izilungiselelo, izakhiwo eziphelele zezinqwaba noma idatha ye-akhawunti. Ukuzisingathela kukunika isofthiwe enelayisensi ye-MIT nokulawula ukufakwa kwayo, kodwa indlela ebhaliwe yokuyisebenzisa njengesevisi esetshenziswa ngempela isebenzisa i-AWS, futhi isenezindleko zengqalasizinda, abahlinzeki, ukunakekelwa, amakhophi ayisipele nomuntu oyiphathayo. [Umhlahlandlela wokuzisingathela](/docs/self-hosting/) uwuchaza ngokucacile lowo mngcele.
 
