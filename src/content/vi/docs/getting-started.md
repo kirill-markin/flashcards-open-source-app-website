@@ -30,6 +30,8 @@ Cài đặt ứng dụng gốc cho thiết bị của bạn:
 
 Khi không còn thẻ nào đến hạn, tiện ích hiển thị “Đã ôn xong” và thời điểm thẻ tiếp theo đến hạn. Tiện ích không bao giờ hiển thị đáp án. Chạm vào tiện ích để mở Ôn tập; tiện ích cỡ Vừa hoặc Lớn sẽ mở Ôn tập ngay tại thẻ đang hiển thị. Tiện ích miễn phí cho tất cả mọi người, kể cả người dùng khách.
 
+Tám tiện ích khác cho bạn thấy tiến độ học: “Hoạt động”, “Năm”, “Hôm nay”, “Lượt ôn tập”, “Chuỗi ngày”, “Lịch”, “Sắp tới” và “Tổng quan”. Trên iPhone, bạn cũng có thể đặt tiện ích “Thẻ đến hạn” lên Màn hình khóa, và [hướng dẫn về tiện ích](/blog/flashcard-widget/) giới thiệu từng tiện ích.
+
 Để thêm tiện ích trên iPhone, iPad hoặc Mac, hãy mở thư viện tiện ích, chọn Nibomo rồi chọn kích thước. Trên Android, hãy thêm tiện ích Nibomo từ danh sách tiện ích rồi đổi kích thước của tiện ích; bố cục sẽ thay đổi theo kích thước.
 
 ## Ứng dụng web lưu trữ sẵn

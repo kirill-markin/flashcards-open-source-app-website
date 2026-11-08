@@ -101,7 +101,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Your next card, one glance away.",
           description:
-            "Home Screen widgets for iPhone, iPad, Mac, and Android show what’s due and your next question.",
+            "Home Screen widgets for iPhone, iPad, Mac, and Android show what’s due, your next question, and your study progress.",
         },
         {
           title: "Your cards can come with you.",

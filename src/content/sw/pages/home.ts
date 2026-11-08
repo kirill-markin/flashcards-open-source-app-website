@@ -106,7 +106,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Kadi inayofuata kwa mtazamo mmoja",
           description:
-            "Wijeti za skrini ya kwanza kwenye iPhone, iPad, Mac na Android zinaonyesha kadi zinazostahili marudio na swali lako linalofuata.",
+            "Wijeti za skrini ya kwanza kwenye iPhone, iPad, Mac na Android zinaonyesha kadi zinazostahili marudio, swali lako linalofuata na maendeleo yako.",
         },
         {
           title: "Leta, toa na umiliki data yako",

@@ -30,6 +30,8 @@ Nibomo lietotnē ir logrīks “Atkārtošana” iPhone, iPad, Mac un Android ie
 
 Kad nekas nav jāatkārto, logrīks rāda “Viss atkārtots” un to, kad pienāks laiks nākamajai kartītei. Atbildi tas nekad nerāda. Pieskaries logrīkam, lai atvērtu sadaļu “Atkārtošana”; vidējais vai lielais logrīks tajā uzreiz atver redzamo kartīti. Logrīki ir bez maksas visiem, arī viesiem.
 
+Vēl astoņi logrīki rāda tavu progresu: “Aktivitāte”, “Gads”, “Šodien”, “Atkārtojumi”, “Sērijas”, “Kalendārs”, “Gaidāmie” un “Pārskats”. iPhone ierīcē logrīku “Jāatkārto” vari likt arī bloķēšanas ekrānā, un [logrīku ceļvedis](/blog/flashcard-widget/) parāda katru no tiem.
+
 Lai pievienotu logrīku iPhone, iPad vai Mac ierīcē, atver logrīku galeriju, izvēlies Nibomo un norādi izmēru. Android ierīcē pievieno Nibomo logrīku no logrīku saraksta un pēc tam maini tā izmēru; izkārtojums pielāgojas izmēram.
 
 ## Mitinātā tīmekļa lietotne

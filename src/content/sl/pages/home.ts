@@ -106,7 +106,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Naslednja kartica vedno pred očmi",
           description:
-            "Pripomočki za začetni zaslon v napravah iPhone, iPad, Mac in Android pokažejo, koliko kartic čaka na ponovitev, in naslednje vprašanje.",
+            "Pripomočki za začetni zaslon v napravah iPhone, iPad, Mac in Android pokažejo, koliko kartic čaka na ponovitev, naslednje vprašanje in vaš napredek.",
         },
         {
           title: "Uvoz, izvoz in lastništvo vaših podatkov",

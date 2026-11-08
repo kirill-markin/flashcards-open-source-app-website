@@ -106,7 +106,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "다음 카드를 한눈에",
           description:
-            "iPhone, iPad, Mac, Android용 홈 화면 위젯에서 복습할 카드와 다음 질문을 바로 확인할 수 있습니다.",
+            "iPhone, iPad, Mac, Android용 홈 화면 위젯에서 복습할 카드, 다음 질문, 학습 진행 상황을 바로 확인할 수 있습니다.",
         },
         {
           title: "가져오기, 내보내기, 내 데이터는 내 것",

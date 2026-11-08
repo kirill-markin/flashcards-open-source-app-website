@@ -106,7 +106,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Kita kortelė – vienu žvilgsniu",
           description:
-            "iPhone, iPad, Mac ir Android pradžios ekrano valdikliai rodo, kiek kortelių laikas kartoti, ir kitą klausimą.",
+            "iPhone, iPad, Mac ir Android pradžios ekrano valdikliai rodo, kiek kortelių laikas kartoti, kitą klausimą ir jūsų pažangą.",
         },
         {
           title: "Importas, eksportas ir duomenys, kurie priklauso jums",

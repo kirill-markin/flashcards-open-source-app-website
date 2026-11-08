@@ -106,7 +106,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Următoarea fișă dintr-o privire",
           description:
-            "Widgeturile pentru ecranul principal de pe iPhone, iPad, Mac și Android arată câte fișe sunt de recapitulat și următoarea întrebare.",
+            "Widgeturile pentru ecranul principal de pe iPhone, iPad, Mac și Android arată câte fișe sunt de recapitulat, următoarea întrebare și progresul tău.",
         },
         {
           title: "Importă, exportă și deține datele tale",

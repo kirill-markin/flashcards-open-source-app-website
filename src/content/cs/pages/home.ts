@@ -106,7 +106,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Další kartička na první pohled",
           description:
-            "Widgety na ploše pro iPhone, iPad, Mac a Android ukazují, co je na řadě, i vaši další otázku.",
+            "Widgety na ploše pro iPhone, iPad, Mac a Android ukazují, co je na řadě, vaši další otázku i váš pokrok.",
         },
         {
           title: "Import, export a vlastnictví vašich dat",

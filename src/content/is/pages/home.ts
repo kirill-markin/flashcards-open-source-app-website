@@ -106,7 +106,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Næsta spjald alltaf í sjónmáli",
           description:
-            "Græjur á heimaskjá fyrir iPhone, iPad, Mac og Android sýna hvað er á dagskrá og næstu spurningu.",
+            "Græjur á heimaskjá fyrir iPhone, iPad, Mac og Android sýna hvað er á dagskrá, næstu spurningu og framvinduna þína.",
         },
         {
           title: "Innflutningur, útflutningur og eignarhald á gögnunum",

@@ -106,7 +106,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Tu siguiente tarjeta, de un vistazo",
           description:
-            "Los widgets de la pantalla de inicio para iPhone, iPad, Mac y Android muestran lo que tienes pendiente y tu siguiente pregunta.",
+            "Los widgets de la pantalla de inicio para iPhone, iPad, Mac y Android muestran lo que tienes pendiente, tu siguiente pregunta y tu progreso.",
         },
         {
           title: "Importa, exporta y controla tus datos",

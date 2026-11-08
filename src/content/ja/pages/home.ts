@@ -107,7 +107,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "次のカードがひと目でわかる",
           description:
-            "iPhone、iPad、Mac、Android 向けのホーム画面ウィジェットに、復習待ちのフラッシュカードの数と次の問題が表示されます。",
+            "iPhone、iPad、Mac、Android 向けのホーム画面ウィジェットに、復習待ちのフラッシュカードの数、次の問題、学習の進み具合が表示されます。",
         },
         {
           title: "データをインポート・エクスポートして自分で管理",

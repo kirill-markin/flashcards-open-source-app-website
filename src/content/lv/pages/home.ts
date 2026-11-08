@@ -106,7 +106,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Nākamā kartīte – vienā skatienā",
           description:
-            "iPhone, iPad, Mac un Android sākuma ekrāna logrīki rāda, cik kartīšu jāatkārto, un nākamo jautājumu.",
+            "iPhone, iPad, Mac un Android sākuma ekrāna logrīki rāda, cik kartīšu jāatkārto, nākamo jautājumu un tavu progresu.",
         },
         {
           title: "Imports, eksports un dati, kas pieder tev",

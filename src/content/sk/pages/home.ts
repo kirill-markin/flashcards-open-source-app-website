@@ -106,7 +106,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Ďalšia kartička vždy na očiach",
           description:
-            "Widgety na ploche pre iPhone, iPad, Mac a Android ukazujú, koľko kartičiek čaká na opakovanie, a ďalšiu otázku.",
+            "Widgety na ploche pre iPhone, iPad, Mac a Android ukazujú, koľko kartičiek čaká na opakovanie, ďalšiu otázku a váš pokrok.",
         },
         {
           title: "Import, export a vlastníctvo vašich dát",

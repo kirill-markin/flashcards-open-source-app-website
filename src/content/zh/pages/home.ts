@@ -106,7 +106,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "下一张闪卡一眼可见",
           description:
-            "iPhone、iPad、Mac 和 Android 主屏幕小组件会显示待复习的闪卡和下一个问题。",
+            "iPhone、iPad、Mac 和 Android 主屏幕小组件会显示待复习的闪卡、下一个问题和学习进度。",
         },
         {
           title: "导入、导出并掌控数据",

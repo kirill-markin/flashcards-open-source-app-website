@@ -106,7 +106,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "A következő kártyád egy pillantásra",
           description:
-            "Az iPhone-ra, iPadre, Macre és Androidra készült főképernyő-widgetek megmutatják, mi esedékes, és mi a következő kérdésed.",
+            "Az iPhone-ra, iPadre, Macre és Androidra készült főképernyő-widgetek megmutatják, mi esedékes, mi a következő kérdésed, és hogyan haladsz.",
         },
         {
           title: "Importálás, exportálás és a saját adataid",

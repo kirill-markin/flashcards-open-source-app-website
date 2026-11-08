@@ -106,7 +106,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Nästa kort på ett ögonkast",
           description:
-            "Widgetar för hemskärmen på iPhone, iPad, Mac och Android visar vad som ska repeteras och nästa fråga.",
+            "Widgetar för hemskärmen på iPhone, iPad, Mac och Android visar vad som ska repeteras, nästa fråga och dina framsteg.",
         },
         {
           title: "Importera, exportera och äg dina data",

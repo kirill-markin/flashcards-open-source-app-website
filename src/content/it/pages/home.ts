@@ -106,7 +106,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "La tua prossima carta a colpo d'occhio",
           description:
-            "I widget della schermata Home per iPhone, iPad, Mac e Android mostrano le carte da ripassare e la tua prossima domanda.",
+            "I widget della schermata Home per iPhone, iPad, Mac e Android mostrano le carte da ripassare, la tua prossima domanda e i tuoi progressi.",
         },
         {
           title: "Importa, esporta e possiedi i tuoi dati",
