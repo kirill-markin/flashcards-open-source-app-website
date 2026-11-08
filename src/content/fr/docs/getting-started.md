@@ -30,7 +30,7 @@ L'application Nibomo ajoute un widget Réviser sur iPhone, iPad, Mac et Android.
 
 Quand rien n'est à réviser, le widget affiche « Vous êtes à jour » et le moment où la prochaine carte sera à réviser. Il n'affiche jamais de réponse. Touchez le widget pour ouvrir Réviser ; un widget Moyen ou Grand ouvre Réviser sur la carte qu'il affiche. Les widgets sont gratuits pour tous, y compris les invités.
 
-Pour en ajouter un, ouvrez la galerie de widgets de votre appareil, choisissez Nibomo, puis sélectionnez une taille.
+Pour en ajouter un sur iPhone, iPad ou Mac, ouvrez la galerie de widgets, choisissez Nibomo, puis sélectionnez une taille. Sur Android, ajoutez le widget Nibomo depuis la liste des widgets, puis redimensionnez-le ; la mise en page s'adapte à la taille.
 
 ## Application web hébergée
 

@@ -30,7 +30,7 @@ Nibomo rakendus lisab iPhone'ile, iPadile, Macile ja Androidile vidina Korda. Vi
 
 Kui kordamiseks pole midagi, näitab vidin teksti „Kõik korratud“ ja seda, millal on järgmise kaardi kord. Vastust see kunagi ei näita. Puuduta vidinat, et avada jaotis Korda; keskmine või suur vidin avab jaotise Korda otse kaardil, mida see näitab. Vidinad on kõigile tasuta, ka külalistele.
 
-Vidina lisamiseks ava oma seadme vidinagalerii, vali Nibomo ja seejärel suurus.
+Vidina lisamiseks iPhone'is, iPadis või Macis ava vidinagalerii, vali Nibomo ja seejärel suurus. Androidis lisa Nibomo vidin vidinate loendist ja muuda seejärel selle suurust; paigutus kohandub suurusega.
 
 ## Majutatud veebirakendus
 

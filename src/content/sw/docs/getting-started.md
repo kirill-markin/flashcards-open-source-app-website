@@ -30,7 +30,7 @@ Programu ya Nibomo inaongeza wijeti ya Marudio kwenye iPhone, iPad, Mac na Andro
 
 Ikiwa hakuna kadi inayostahili marudio, wijeti huonyesha “Umemaliza yote” na wakati kadi inayofuata itakapostahili marudio. Haionyeshi jibu kamwe. Gusa wijeti ili kufungua Marudio; wijeti ya Wastani au Kubwa hufungua Marudio kwenye kadi inayoionyesha. Wijeti ni bure kwa kila mtu, wakiwemo watumiaji wageni.
 
-Ili kuongeza wijeti, fungua matunzio ya wijeti kwenye kifaa chako, chagua Nibomo, kisha uchague ukubwa.
+Ili kuongeza wijeti kwenye iPhone, iPad au Mac, fungua matunzio ya wijeti, chagua Nibomo, kisha uchague ukubwa. Kwenye Android, ongeza wijeti ya Nibomo kutoka kwenye orodha ya wijeti, kisha ubadilishe ukubwa wake; mpangilio hufuata ukubwa.
 
 ## Programu ya wavuti iliyopangishwa
 

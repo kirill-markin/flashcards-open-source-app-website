@@ -30,7 +30,7 @@ De Nibomo-app voegt de widget “Herhalen” toe aan iPhone, iPad, Mac en Androi
 
 Als er niets aan de beurt is, toont de widget “Helemaal bij” en wanneer de volgende kaart aan de beurt is. Een antwoord toont hij nooit. Tik op de widget om het onderdeel Herhalen te openen; een middelgrote of grote widget opent Herhalen meteen bij de kaart die erop staat. Widgets zijn gratis voor iedereen, ook voor gasten.
 
-Om er een toe te voegen, open je de widgetgalerij van je apparaat, kies je Nibomo en selecteer je een formaat.
+Om er een toe te voegen op iPhone, iPad of Mac, open je de widgetgalerij, kies je Nibomo en selecteer je een formaat. Op Android voeg je de Nibomo-widget toe vanuit de widgetlijst en pas je daarna het formaat aan; de indeling past zich aan het formaat aan.
 
 ## Gehoste web-app
 

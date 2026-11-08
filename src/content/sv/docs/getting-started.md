@@ -30,7 +30,7 @@ Nibomo-appen lägger till en Repetera-widget på iPhone, iPad, Mac och Android. 
 
 När inget ska repeteras visar widgeten ”Allt klart” och när nästa kort ska repeteras. Den visar aldrig något svar. Tryck på widgeten för att öppna Repetera; en medelstor eller stor widget öppnar Repetera på kortet som den visar. Widgetarna är gratis för alla, även för gäster.
 
-Lägg till en widget genom att öppna enhetens widgetgalleri, välja Nibomo och sedan en storlek.
+På iPhone, iPad eller Mac lägger du till en widget genom att öppna widgetgalleriet, välja Nibomo och sedan en storlek. På Android lägger du till Nibomo-widgeten från widgetlistan och ändrar sedan dess storlek; layouten anpassas efter storleken.
 
 ## Molndriven webbapp
 

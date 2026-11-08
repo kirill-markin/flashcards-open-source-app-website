@@ -30,7 +30,7 @@ Aplikacija Nibomo dodaje widget Ponavljanje na iPhone, iPad, Mac i Android. Dost
 
 Kad ništa nije na redu, widget prikazuje „Sve je ponovljeno” i kada sljedeća kartica dolazi na red. Nikad ne prikazuje odgovor. Dodirnite widget da biste otvorili Ponavljanje; srednji ili veliki widget otvara Ponavljanje na kartici koju prikazuje. Widgeti su besplatni za sve, uključujući goste.
 
-Da biste ga dodali, otvorite galeriju widgeta na uređaju, odaberite Nibomo i zatim veličinu.
+Da biste ga dodali na iPhoneu, iPadu ili Macu, otvorite galeriju widgeta, odaberite Nibomo i zatim veličinu. Na Androidu dodajte widget Nibomo s popisa widgeta, a zatim mu promijenite veličinu; raspored se prilagođava veličini.
 
 ## Hostirana web aplikacija
 

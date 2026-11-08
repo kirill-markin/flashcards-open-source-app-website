@@ -30,7 +30,7 @@ L'app Nibomo afegeix un widget de Repàs a l'iPhone, l'iPad, el Mac i Android. N
 
 Quan no tens res pendent, el widget mostra «Tot al dia» i quan toca la targeta següent. Mai no mostra cap resposta. Toca el widget per obrir Repàs; un widget mitjà o gran obre Repàs directament a la targeta que mostra. Els widgets són gratuïts per a tothom, convidats inclosos.
 
-Per afegir-ne un, obre la galeria de widgets del dispositiu, tria Nibomo i escull una mida.
+Per afegir-ne un a l'iPhone, l'iPad o el Mac, obre la galeria de widgets, tria Nibomo i escull una mida. A Android, afegeix el widget de Nibomo des de la llista de widgets i després canvia'n la mida; la disposició s'adapta a la mida.
 
 ## App web allotjada
 
