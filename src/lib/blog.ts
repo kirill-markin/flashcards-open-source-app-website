@@ -4,7 +4,7 @@ import {
   getTranslatedBlogPostSlugs,
   hasTranslatedBlogPostSlug,
 } from "@/data/blog";
-import { renderMarkdownToHtml } from "@/lib/content/renderMarkdownToHtml";
+import { renderContentPageMarkdownToHtml } from "@/lib/content/renderMarkdownToHtml";
 import { getBlogDirectory, getBlogFilePath } from "@/lib/content/paths";
 import { getAbsoluteUrl, type AppLocale } from "@/lib/i18n";
 import { OPEN_GRAPH_IMAGE_URL } from "@/lib/site";
@@ -933,7 +933,7 @@ export async function readBlogPostContent(
     renderedHtmlByLocaleAndSlug.get(locale) ?? new Map<string, Promise<string>>();
   const cachedHtml = renderedHtmlBySlug.get(slug);
   const contentHtmlPromise =
-    cachedHtml ?? renderMarkdownToHtml(post.bodyMarkdown, locale);
+    cachedHtml ?? renderContentPageMarkdownToHtml(post.bodyMarkdown, locale);
 
   if (cachedHtml === undefined) {
     renderedHtmlBySlug.set(slug, contentHtmlPromise);

@@ -5,7 +5,7 @@ import { BreadcrumbStructuredData } from "@/components/BreadcrumbStructuredData"
 import { HomeLanding } from "@/components/HomeLanding";
 import { SiteFrame } from "@/components/SiteFrame";
 import { StructuredDataScript } from "@/components/StructuredDataScript";
-import { renderMarkdownToHtml } from "@/lib/content/renderMarkdownToHtml";
+import { renderContentPageMarkdownToHtml } from "@/lib/content/renderMarkdownToHtml";
 import { readPageContent } from "@/lib/content/readPageContent";
 import type {
   AppWalkthroughSection,
@@ -115,7 +115,7 @@ async function renderLegalPage(
   legalSection: LegalPageSection
 ): Promise<React.JSX.Element> {
   const uiCopy = getUiCopy(locale);
-  const contentHtml = await renderMarkdownToHtml(body, locale);
+  const contentHtml = await renderContentPageMarkdownToHtml(body, locale);
 
   return (
     <div className={legalStyles.container}>

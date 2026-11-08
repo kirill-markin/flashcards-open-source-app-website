@@ -1,5 +1,4 @@
 import type { Root } from "hast";
-import { sanitize } from "hast-util-sanitize";
 import rehypeKatex from "rehype-katex";
 import rehypeStringify from "rehype-stringify";
 import { remark } from "remark";
@@ -9,8 +8,8 @@ import remarkRehype from "remark-rehype";
 import { visit } from "unist-util-visit";
 import {
   markdownHandlers,
-  markdownSanitizeSchema,
   renderMarkdownToHtml,
+  sanitizeMarkdownHtml,
 } from "./content/renderMarkdownToHtml";
 import type { AppLocale } from "./i18n";
 import {
@@ -24,18 +23,6 @@ async function renderNormalizedPublicCatalogMarkdownToHtml(
   locale: AppLocale,
 ): Promise<string> {
   return renderMarkdownToHtml(markdown, locale);
-}
-
-function sanitizeMarkdownHtml(): (tree: Root) => Root {
-  return (tree: Root): Root => {
-    const sanitizedTree = sanitize(tree, markdownSanitizeSchema);
-
-    if (sanitizedTree.type !== "root") {
-      throw new Error("Catalog Markdown sanitizer returned a non-root tree.");
-    }
-
-    return sanitizedTree;
-  };
 }
 
 const imageGalleryClassName = "markdown-image-gallery";
