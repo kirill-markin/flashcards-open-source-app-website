@@ -2,7 +2,7 @@
 title: "RemNote-Alternativen 2026: kostenlos und Open Source"
 description: "Vergleiche RemNote-Alternativen nach Notizen, PDFs, Lernkarten, Preis und Self-Hosting. Erfahre, was sich übertragen lässt, was verloren geht und wie du den Wechsel sicher testest."
 date: "2026-03-19"
-updated: "2026-08-31"
+updated: "2026-11-08"
 image: "/blog/remnote-alternative.png"
 keywords:
   - "RemNote Alternative"
@@ -21,7 +21,7 @@ Die beste **RemNote-Alternative** löst den konkreten Grund für deinen Wechsel,
 
 > **Offenlegung:** Ich bin Kirill Markin und entwickle [Nibomo](/de/), eines der hier verglichenen Produkte. Nibomo ist kein vollständiger Ersatz für RemNote. RemNote bietet in diesem Vergleich den stärksten integrierten Workflow für Notizen und PDFs; Ankis Kartensystem und Migrationsformate sind die ausgereiftesten.
 
-**Stand der Fakten und Preise:** 31. August 2026. Die genannten Preise basieren auf den öffentlich verfügbaren US-Preisen und, soweit angegeben, auf jährlicher Abrechnung. Steuern, Region, App-Store und Beta-Bedingungen können den tatsächlichen Betrag verändern.
+**Stand der Fakten und Preise:** 31. August 2026. Die genannten Preise basieren auf den öffentlich verfügbaren US-Preisen und, soweit angegeben, auf jährlicher Abrechnung. Steuern, Region, App-Store und Beta-Bedingungen können den tatsächlichen Betrag verändern. Die Angaben zum Anki-`.apkg`-Import von Nibomo wurden am 8. November 2026 geprüft.
 
 ![Eine Archivarin testet die Übertragung einer kleinen Auswahl aus einer intakten verknüpften Studienmappe in getrennte Karten-, Datei- und Bausteinsysteme](/blog/remnote-alternative.png)
 
@@ -96,7 +96,7 @@ Nibomo setzt fast den entgegengesetzten Schwerpunkt zu RemNote. Die [Funktionen]
 
 Der Zugriff auf den Quellcode reicht weit: Das MIT-lizenzierte Repository umfasst Web, iOS, Android, Authentifizierung, Backend, Synchronisierung und Infrastruktur. Die unterstützte [Anleitung für Self-Hosting in Produktion](/de/docs/self-hosting/) nutzt AWS CDK. Das ist keine lokale Lösung, die mit einem einzigen Befehl läuft. Betreiber kümmern sich selbst um Cloud-Kosten, Secrets, Migrationen, Monitoring, Backups, Wiederherstellungstests und separat gebaute Mobile-Apps.
 
-Für bestehende RemNote-Nutzer ist die Migration die größere Einschränkung. Nibomo importiert eigene `flashcards.zip`-Pakete, aber weder RemNote-Markdown noch Anki-Dateien im Format `.apkg`. Diese Pakete enthalten Karten, Tags und referenzierte Medien, aber keinen Wiederholungsverlauf, keinen FSRS-Stand, keine Workspace-Einstellungen, keine vollständige Deckstruktur und keine Konten. Der KI-Chat kann exportierten Text in überprüfte Kartenentwürfe verwandeln. Dabei werden Inhalte neu aufgebaut; die bisherige Sammlung wird nicht fortgesetzt. Die [Anleitung zur Migration aus einem Anki-TXT-Export](/de/blog/migrate-from-anki-txt-export-open-source-flashcards/) zeigt diese verlustbehaftete Grenze Schritt für Schritt.
+Für bestehende RemNote-Nutzer ist die Migration die größere Einschränkung. Der Bibliotheksimport von Nibomo nimmt nur eigene `flashcards.zip`-Pakete an, weder RemNote-Markdown noch Anki-Dateien im Format `.apkg`. Diese Pakete enthalten Karten, Tags und referenzierte Medien, aber keinen Wiederholungsverlauf, keinen FSRS-Stand, keine Workspace-Einstellungen, keine vollständige Deckstruktur und keine Konten. Der KI-Chat kann eine angehängte Anki-`.apkg` oder exportierten Text lesen und daraus Karten machen, die alle als neu starten. Dabei werden Inhalte neu aufgebaut; die bisherige Sammlung wird nicht fortgesetzt. Der [Leitfaden zum Anki-`.apkg`-Import](/blog/import-anki-apkg/) zeigt, was dieser Weg behält und was verloren geht, und die ältere [Anleitung zur Migration aus einem Anki-TXT-Export](/de/blog/migrate-from-anki-txt-export-open-source-flashcards/) beschreibt den Weg über reinen Text.
 
 Wähle Nibomo für ein neues oder einfaches Kartensystem, wenn dir der Zugriff auf den gesamten Quellcode wichtig ist. Bleibe für vernetztes Lernen bei RemNote, und wähle Anki, wenn eine originalgetreue Migration oder eine anspruchsvollere Kartenstruktur entscheidend ist. Der [Leitfaden zu Open-Source-Lernkarten-Apps](/de/blog/best-open-source-flashcard-apps-2026/) vergleicht weitere Optionen.
 

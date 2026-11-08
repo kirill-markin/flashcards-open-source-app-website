@@ -3,7 +3,7 @@ title: "2026 के सबसे अच्छे मुफ़्त Quizlet व�
 description: "Anki, Knowt, RemNote, Mochi और Nibomo की तुलना करें: मुफ़्त कार्ड स्टडी, सिंक, ऑफ़लाइन उपयोग, Quizlet इंपोर्ट, AI की सीमाएँ और हर $0 प्लान की असली शर्तें।"
 image: "/blog/free-quizlet-alternative-v2.png"
 date: "2026-06-20"
-updated: "2026-09-10"
+updated: "2026-11-08"
 keywords:
   - "मुफ़्त Quizlet विकल्प"
   - "सबसे अच्छा मुफ़्त Quizlet विकल्प"
@@ -25,7 +25,7 @@ Quizlet के मुफ़्त अकाउंट में अब भी fla
 
 > **खुलासा:** मेरा नाम Kirill Markin है और इस लेख में तुलना किए गए पाँच ऐप्स में से एक—Nibomo—मैं बनाता हूँ। इसे शामिल करने की वजह इसके open-source, FSRS और agent workflows हैं। यह हर किसी के लिए सबसे अच्छा विकल्प नहीं है: इसमें सीधे Quizlet इंपोर्ट करने का तरीका नहीं है, इसका native transfer package review state को सुरक्षित नहीं रखता और hosted app का मौजूदा मुफ़्त offer beta है। यह तुलना आधिकारिक pricing, help pages और repository documentation के स्रोतों से जाँची गई है; इसका मतलब यह नहीं कि मैंने पाँचों ऐप्स को लंबे समय तक खुद इस्तेमाल करके परखा है।
 
-**तथ्यों की जाँच:** 10 सितंबर, 2026।
+**तथ्यों की जाँच:** 10 सितंबर, 2026; Nibomo के Anki `.apkg` import से जुड़े विवरणों की जाँच 8 नवंबर, 2026 को की गई।
 
 ![एक छात्रा छोटे नमूना अध्ययन सेट के साथ मुफ़्त Quizlet विकल्प चुनने और माइग्रेशन की पूरी वापसी यात्रा जाँचने से पहले पाँच नावों की तुलना करती हुई](/blog/free-quizlet-alternative-v2.png)
 
@@ -114,7 +114,7 @@ Mochi से अपना डेटा बाहर निकालने के
 
 लंबी अवधि का वादा beta offer के मुकाबले सीमित है। Cards बनाना और उन्हें दोहराना मुफ़्त रहेगा। AI के ज़्यादा उपयोग के लिए बाद में अपनी provider key या paid option की ज़रूरत पड़ सकती है। यह वादा भी नहीं है कि हर hosted feature हमेशा मुफ़्त रहेगा।
 
-Quizlet migration भी इस विकल्प की सबसे बड़ी कमज़ोरी है। Nibomo में Quizlet, CSV, TSV, Anki या सामान्य text के लिए कोई direct importer नहीं है। Eligible Quizlet text को manually cards बनाने या review किए गए AI drafts के source material की तरह इस्तेमाल किया जा सकता है, लेकिन यह lossless import नहीं है। Text जाँचकर साफ़ करें; उससे गायब media और study state वापस नहीं आती।
+Quizlet migration भी इस विकल्प की सबसे बड़ी कमज़ोरी है। Nibomo में Quizlet, CSV, TSV, Anki या सामान्य text के लिए कोई one-click importer नहीं है। Anki `.apkg` को AI chat में डाला जा सकता है, जो [उसे नए cards में बदल देता है](/blog/import-anki-apkg/)। Eligible Quizlet text को manually cards बनाने या review किए गए AI drafts के source material की तरह इस्तेमाल किया जा सकता है, लेकिन यह lossless import नहीं है। Text जाँचकर साफ़ करें; उससे गायब media और study state वापस नहीं आती।
 
 Native `flashcards.zip` package Nibomo workspaces के बीच cards, tags और उनसे जुड़ा media ले जाता है। इसमें review history, FSRS scheduler state, settings, पूरा deck structure या account data नहीं जाता। Self-hosting से MIT-licensed software और deployment पर नियंत्रण मिलता है, लेकिन documented production path AWS इस्तेमाल करता है। Infrastructure, provider, maintenance, backup और operator की लागत फिर भी आती है। [Self-hosting guide](/docs/self-hosting/) इस सीमा को साफ़ करती है।
 

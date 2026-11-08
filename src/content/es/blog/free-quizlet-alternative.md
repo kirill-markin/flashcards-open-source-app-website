@@ -3,7 +3,7 @@ title: "Mejores alternativas gratuitas a Quizlet en 2026: 5 apps comparadas"
 description: "Compara Anki, Knowt, RemNote, Mochi y Nibomo según el estudio gratuito con tarjetas, la sincronización, el uso sin conexión, la importación desde Quizlet, los límites de IA y la letra pequeña de cada plan de 0 $."
 image: "/blog/free-quizlet-alternative-v2.png"
 date: "2026-06-20"
-updated: "2026-09-10"
+updated: "2026-11-08"
 keywords:
   - "alternativas gratuitas a Quizlet"
   - "mejor alternativa gratuita a Quizlet"
@@ -25,7 +25,7 @@ La mejor alternativa gratuita a Quizlet es aquella cuya contrapartida no estrope
 
 > **Aviso de transparencia:** Soy Kirill Markin y desarrollo Nibomo, una de las cinco aplicaciones comparadas aquí. La incluí por ser de código abierto y por sus flujos de trabajo con FSRS y agentes. No es la ganadora universal: no tiene un importador directo de Quizlet, su paquete de transferencia nativo no conserva el estado de los repasos y la oferta gratuita actual de la aplicación alojada es una beta. Esta comparativa se basa en la comprobación de fuentes oficiales —precios, páginas de ayuda y documentación de los repositorios—; no afirmo haber hecho pruebas prácticas a largo plazo con las cinco aplicaciones.
 
-**Datos comprobados:** 10 de septiembre de 2026.
+**Datos comprobados:** 10 de septiembre de 2026; los datos sobre la importación de `.apkg` de Anki en Nibomo, el 8 de noviembre de 2026.
 
 ![Una estudiante con un conjunto de estudio de muestra compara cinco barcos antes de elegir una alternativa gratuita a Quizlet y probar la migración de ida y vuelta](/blog/free-quizlet-alternative-v2.png)
 
@@ -114,7 +114,7 @@ Nibomo es la opción más especializada de esta lista. La aplicación alojada es
 
 La promesa a largo plazo es más limitada que la oferta de la beta. La creación y el repaso básicos de tarjetas seguirán siendo gratuitos. Un mayor uso de la IA podría requerir más adelante tu propia clave de proveedor o una opción de pago, y no se promete que todas las funciones alojadas vayan a ser gratuitas para siempre.
 
-La migración desde Quizlet también es el punto más débil. Nibomo no tiene un importador directo de Quizlet, CSV, TSV, Anki ni texto genérico. El texto de Quizlet que cumpla los requisitos puede servir como material de partida para una reconstrucción manual o para borradores de IA revisados, pero no es una importación sin pérdidas. El [flujo de exportación desde Quizlet](/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/) explica la limpieza sin fingir que se puedan recuperar los archivos multimedia y el estado de estudio ausentes.
+La migración desde Quizlet también es el punto más débil. Nibomo no tiene un importador de un solo clic para Quizlet, CSV, TSV, Anki ni texto genérico. Un `.apkg` de Anki se puede adjuntar en el chat con IA, que [lo convierte en tarjetas nuevas](/blog/import-anki-apkg/). El texto de Quizlet que cumpla los requisitos puede servir como material de partida para una reconstrucción manual o para borradores de IA revisados, pero no es una importación sin pérdidas. El [flujo de exportación desde Quizlet](/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/) explica la limpieza sin fingir que se puedan recuperar los archivos multimedia y el estado de estudio ausentes.
 
 El paquete nativo `flashcards.zip` mueve tarjetas, etiquetas y archivos multimedia relacionados entre espacios de trabajo de Nibomo. No mueve el historial de repasos, el estado del programador FSRS, los ajustes, las estructuras completas de los mazos ni los datos de la cuenta. El autoalojamiento te da el software con licencia MIT y el control del despliegue, pero la vía de producción documentada usa AWS y sigue generando costes de infraestructura, proveedores, mantenimiento, copias de seguridad y operación. La [guía de autoalojamiento](/docs/self-hosting/) explica ese límite.
 

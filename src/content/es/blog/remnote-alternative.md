@@ -2,7 +2,7 @@
 title: "Alternativas a RemNote en 2026: opciones gratuitas y de código abierto"
 description: "Compara las alternativas a RemNote según cómo gestionan notas, PDF y tarjetas, su precio y el autoalojamiento. Descubre qué puedes migrar, qué se pierde y cómo ensayar un cambio seguro."
 date: "2026-03-19"
-updated: "2026-08-31"
+updated: "2026-11-08"
 image: "/blog/remnote-alternative.png"
 keywords:
   - "alternativa a remnote"
@@ -21,7 +21,7 @@ La mejor **alternativa a RemNote** es la que resuelve tu motivo para cambiar sin
 
 > **Aviso:** Soy Kirill Markin y desarrollo [Nibomo](/es/), uno de los productos que se comparan aquí. Nibomo no sustituye a RemNote por completo. RemNote ofrece el flujo integrado de notas y PDF más sólido de esta comparación, mientras que Anki tiene el sistema de tarjetas y los formatos de migración más maduros.
 
-**Datos y precios comprobados:** 31 de agosto de 2026. Los importes indicados corresponden a los precios públicos de EE. UU. y a la facturación anual cuando así se especifica; los impuestos, la región, las tiendas de aplicaciones y las condiciones de la beta pueden cambiar el precio.
+**Datos y precios comprobados:** 31 de agosto de 2026. Los importes indicados corresponden a los precios públicos de EE. UU. y a la facturación anual cuando así se especifica; los impuestos, la región, las tiendas de aplicaciones y las condiciones de la beta pueden cambiar el precio. Los datos sobre la importación de `.apkg` de Anki en Nibomo se comprobaron el 8 de noviembre de 2026.
 
 ![Una conservadora de archivo prueba a transferir una pequeña muestra de un dosier de estudio enlazado e intacto a sistemas separados de fichas, archivos y bloques](/blog/remnote-alternative.png)
 
@@ -96,7 +96,7 @@ Nibomo plantea casi el equilibrio opuesto a RemNote. Sus [funciones](/es/feature
 
 El código abierto abarca toda la pila: el repositorio con licencia MIT incluye web, iOS, Android, autenticación, backend, sincronización e infraestructura. La [guía oficial de autoalojamiento para producción](/es/docs/self-hosting/) usa AWS CDK. No es una aplicación local que se instala con un solo comando. Quien lo despliega se hace cargo de los costes de la nube, los secretos, las migraciones, la monitorización, las copias de seguridad, las pruebas de restauración y las apps móviles, que deben compilarse por separado.
 
-La migración es una limitación aún mayor para quien ya usa RemNote. Nibomo importa sus propios paquetes `flashcards.zip`, no archivos Markdown de RemNote ni `.apkg` de Anki. Esos paquetes contienen tarjetas, etiquetas y contenido multimedia referenciado, pero no el historial de repasos, el estado de FSRS, la configuración del espacio de trabajo, la estructura completa de los mazos ni las cuentas. El chat con IA puede convertir el texto exportado en borradores de tarjetas para que los revises; eso reconstruye el contenido, no continúa la colección anterior. La [guía de migración desde TXT](/es/blog/migrate-from-anki-txt-export-open-source-flashcards/) muestra paso a paso ese límite con pérdidas.
+La migración es una limitación aún mayor para quien ya usa RemNote. La importación de la Biblioteca de Nibomo solo acepta sus propios paquetes `flashcards.zip`, no archivos Markdown de RemNote ni `.apkg` de Anki. Esos paquetes contienen tarjetas, etiquetas y contenido multimedia referenciado, pero no el historial de repasos, el estado de FSRS, la configuración del espacio de trabajo, la estructura completa de los mazos ni las cuentas. El chat con IA puede leer un `.apkg` de Anki adjunto o texto exportado y convertirlo en tarjetas, que empiezan todas como nuevas; eso reconstruye el contenido, no continúa la colección anterior. La [guía de importación de `.apkg` de Anki](/blog/import-anki-apkg/) muestra qué conserva y qué pierde esa vía, y la [guía de migración desde TXT](/es/blog/migrate-from-anki-txt-export-open-source-flashcards/), más antigua, cubre la vía de texto plano.
 
 Elige Nibomo para un sistema de tarjetas nuevo o sencillo cuando te importe acceder al código de toda la pila. Conserva RemNote para un estudio conectado y elige Anki cuando sean prioritarias la fidelidad de la migración o una estructura de tarjetas avanzada. Para una comparación más específica de sistemas de tarjetas, consulta [Anki vs Nibomo](/es/blog/anki-vs-flashcards-open-source-app/) y la [guía de apps de flashcards de código abierto](/es/blog/best-open-source-flashcard-apps-2026/).
 

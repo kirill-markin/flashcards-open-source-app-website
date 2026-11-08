@@ -3,7 +3,7 @@ title: "Beste kostenlose Quizlet-Alternativen 2026: 5 Apps im Vergleich"
 description: "Vergleiche Anki, Knowt, RemNote, Mochi und Nibomo: kostenloses Karteikartenlernen, Synchronisierung, Offline-Nutzung, Quizlet-Import, KI-Limits und die Haken der Gratis-Tarife."
 image: "/blog/free-quizlet-alternative-v2.png"
 date: "2026-06-20"
-updated: "2026-09-10"
+updated: "2026-11-08"
 keywords:
   - "kostenlose Quizlet-Alternativen"
   - "beste kostenlose Quizlet-Alternative"
@@ -25,7 +25,7 @@ Die beste kostenlose Quizlet-Alternative ist die, deren Haken deinen tatsächlic
 
 > **Offenlegung:** Ich bin Kirill Markin und entwickle Nibomo, eine der fünf hier verglichenen Apps. Ich habe die App wegen ihres Open-Source-Modells, FSRS und der Agenten-Workflows aufgenommen. Sie ist nicht pauschal die beste Lösung: Es gibt keinen direkten Quizlet-Importer, das native Übertragungspaket bewahrt den Wiederholungsstand nicht, und das derzeit kostenlose Angebot der gehosteten App befindet sich in der Beta. Dieser Vergleich wurde anhand offizieller Preisangaben, Hilfeseiten und Repository-Dokumentation geprüft. Er ist keine Behauptung, ich hätte alle fünf Apps selbst über längere Zeit getestet.
 
-**Stand der Angaben:** 10. September 2026.
+**Stand der Angaben:** 10. September 2026; Angaben zum Anki-`.apkg`-Import von Nibomo geprüft am 8. November 2026.
 
 ![Eine Studentin mit einem kleinen Lernset vergleicht fünf Boote, bevor sie eine kostenlose Quizlet-Alternative auswählt und den Hin- und Rückweg der Migration testet](/blog/free-quizlet-alternative-v2.png)
 
@@ -114,7 +114,7 @@ Nibomo ist die spezialisierte Option in dieser Liste. Die gehostete App ist [wä
 
 Das langfristige Versprechen ist kleiner als das Beta-Angebot. Die Kernfunktionen zum Erstellen und Wiederholen von Karten bleiben kostenlos. Für eine höhere KI-Nutzung kann später ein eigener Anbieterschlüssel oder eine kostenpflichtige Option erforderlich sein. Es gibt außerdem kein Versprechen, dass jede gehostete Funktion dauerhaft kostenlos bleibt.
 
-Auch bei der Quizlet-Migration ist Nibomo die schwächste Option. Es gibt keinen direkten Importer für Quizlet, CSV, TSV, Anki oder allgemeine Textformate. Zulässiger Quizlet-Text kann als Ausgangsmaterial für den manuellen Neuaufbau oder geprüfte KI-Entwürfe dienen, aber das ist kein verlustfreier Import. Prüfe und bereinige den Text vor der Übertragung; fehlende Medien und Lernstände lassen sich daraus nicht wiederherstellen.
+Auch bei der Quizlet-Migration ist Nibomo die schwächste Option. Es gibt keinen Ein-Klick-Importer für Quizlet, CSV, TSV, Anki oder allgemeine Textformate. Eine Anki-`.apkg` lässt sich im KI-Chat anhängen, der [daraus neue Karten macht](/blog/import-anki-apkg/). Zulässiger Quizlet-Text kann als Ausgangsmaterial für den manuellen Neuaufbau oder geprüfte KI-Entwürfe dienen, aber das ist kein verlustfreier Import. Prüfe und bereinige den Text vor der Übertragung; fehlende Medien und Lernstände lassen sich daraus nicht wiederherstellen.
 
 Das native Paket `flashcards.zip` überträgt Karten, Tags und zugehörige Medien zwischen Nibomo-Arbeitsbereichen. Es überträgt weder den Wiederholungsverlauf noch den Zustand des FSRS-Schedulers, Einstellungen, vollständige Deck-Strukturen oder Kontodaten. Beim Self-Hosting erhältst du die MIT-lizenzierte Software und die Kontrolle über die Bereitstellung. Der dokumentierte Produktionsweg nutzt jedoch AWS und verursacht weiterhin Kosten für Infrastruktur und Anbieter sowie Aufwand für Wartung, Backups und Betrieb. Der [Self-Hosting-Leitfaden](/docs/self-hosting/) beschreibt diese Grenze genau.
 
