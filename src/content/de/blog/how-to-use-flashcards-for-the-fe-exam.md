@@ -31,7 +31,7 @@ Die Version, der ich vertraue, ist schmaler als die meisten riesigen öffentlich
 
 Das reicht völlig aus, um **fundamentals of engineering flashcards** nützlich zu machen, ohne daraus ein zweites Nachschlagewerk zu bauen.
 
-![Warmer Lerntisch fuer Ingenieurwesen mit FE-Exam-Flashcards, Notizen zu Einheitenumrechnungen und weich unscharfem Review-Dashboard](/blog/how-to-use-flashcards-for-the-fe-exam.png)
+![Warmer Lerntisch für Ingenieurwesen mit FE-Exam-Flashcards, Notizen zu Einheitenumrechnungen und weich unscharfem Review-Dashboard](/blog/how-to-use-flashcards-for-the-fe-exam.png)
 
 ## Die FE-Prüfung ist eine Problemlöseprüfung, also braucht dein Deck einen kleineren Job
 
