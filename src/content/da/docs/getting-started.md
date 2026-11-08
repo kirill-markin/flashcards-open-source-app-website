@@ -18,7 +18,7 @@ Installer den native app til din enhed:
 - iPhone, iPad og Mac: [App Store](https://apps.apple.com/app/apple-store/id6760538964?pt=128797295&ct=marketing_site&mt=8)
 - Android: [Google Play](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&utm_source=flashcards_website&utm_medium=referral&utm_campaign=marketing_site)
 
-Appen gemmer dine kort på enheden, så du kan repetere offline, og synkroniserer, når du er online igen. Du kan starte som gæst og logge ind senere.
+Apperne gemmer dine kort på enheden, så du kan repetere offline, og synkroniserer, når du er online igen. Du kan starte som gæst og logge ind senere.
 
 ### Widgets til hjemmeskærmen
 

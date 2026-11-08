@@ -10,7 +10,7 @@ Hay varias formas de comenzar, ordenadas de más a menos populares:
 - **Aplicación para Android**: [Google Play](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&utm_source=flashcards_website&utm_medium=referral&utm_campaign=marketing_site)
 - **Aplicación web alojada**: [app.nibomo.com](https://app.nibomo.com)
 - **Agentes de IA**: el [conector MCP](/docs/mcp-connector/) o la API en `https://api.nibomo.com/v1/`
-- **Autohospedaje**: la [Guía de autohospedaje](/docs/self-hosting/)
+- **Autoalojamiento**: la [Guía de autoalojamiento](/docs/self-hosting/)
 
 ## Aplicaciones para móvil y escritorio
 
@@ -59,7 +59,7 @@ La misma carga útil también está disponible en `GET /v1/agent`, pero `/v1/` e
 
 ## Autohospedado
 
-Si prefiere ejecutar su propia instancia, consulte la [Guía de autohospedaje](/docs/self-hosting/).
+Si prefiere ejecutar su propia instancia, consulte la [Guía de autoalojamiento](/docs/self-hosting/).
 
 ## Lo que obtienes hoy
 
