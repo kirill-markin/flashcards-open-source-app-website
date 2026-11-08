@@ -30,6 +30,8 @@ Aplikacija Nibomo prinaša pripomoček Ponavljanje za iPhone, iPad, Mac in Andro
 
 Ko ni nobene kartice za ponovitev, pripomoček prikaže »Vse ponovljeno« in kdaj bo na vrsti naslednja kartica. Odgovora nikoli ne prikaže. Tapnite pripomoček, da odprete Ponavljanje; srednji ali velik pripomoček odpre Ponavljanje pri kartici, ki jo prikazuje. Pripomočki so brezplačni za vse, tudi za goste.
 
+Še osem pripomočkov prikazuje vaš napredek: »Dejavnost«, »Leto«, »Danes«, »Ponovitve«, »Nizi«, »Koledar«, »Prihajajoče« in »Pregled«. V iPhonu lahko pripomoček »Za ponovitev« postavite tudi na zaklenjeni zaslon, [vodnik po pripomočkih](/blog/flashcard-widget/) pa prikaže vsakega od njih.
+
 Pripomoček v iPhonu, iPadu ali Macu dodate tako, da odprete galerijo pripomočkov, izberete Nibomo in nato velikost. V Androidu dodajte pripomoček Nibomo s seznama pripomočkov in mu nato spremenite velikost; postavitev se prilagodi velikosti.
 
 ## Gostovana spletna aplikacija

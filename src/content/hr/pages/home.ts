@@ -106,7 +106,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Sljedeća kartica uvijek pred očima",
           description:
-            "Widgeti za početni zaslon na iPhoneu, iPadu, Macu i Androidu prikazuju koliko je kartica na redu i vaše sljedeće pitanje.",
+            "Widgeti za početni zaslon na iPhoneu, iPadu, Macu i Androidu prikazuju koliko je kartica na redu, vaše sljedeće pitanje i vaš napredak.",
         },
         {
           title: "Uvoz, izvoz i vlasništvo nad podacima",

@@ -106,7 +106,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Järgmine kaart ühe pilguga",
           description:
-            "Avakuva vidinad iPhone'is, iPadis, Macis ja Androidis näitavad, mis ootab kordamist, ja sinu järgmist küsimust.",
+            "Avakuva vidinad iPhone'is, iPadis, Macis ja Androidis näitavad, mis ootab kordamist, sinu järgmist küsimust ja õppimise edenemist.",
         },
         {
           title: "Impordi, ekspordi ja oma andmed enda käes",

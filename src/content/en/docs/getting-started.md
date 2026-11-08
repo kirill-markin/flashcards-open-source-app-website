@@ -30,6 +30,8 @@ The Nibomo app adds a Review widget to iPhone, iPad, Mac, and Android. It comes 
 
 When nothing is due, the widget shows "All done" and when the next card is due. It never shows an answer. Tap the widget to open Review; a Medium or Large widget opens Review on the card it shows. Widgets are free for everyone, including guests.
 
+Eight more widgets show your study progress: Activity, Year, Today, Reviews, Streaks, Calendar, Coming up, and Dashboard. On iPhone, you can also put the Cards due widget on the Lock Screen; the [widget guide](/blog/flashcard-widget/) shows each one.
+
 To add one on iPhone, iPad, or Mac, open the widget gallery, choose Nibomo, and pick a size. On Android, add the Nibomo widget from the widgets list, then resize it; the layout follows the size.
 
 ## Hosted Web App

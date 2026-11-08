@@ -106,7 +106,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Thẻ tiếp theo ngay trước mắt",
           description:
-            "Tiện ích Màn hình chính trên iPhone, iPad, Mac và Android cho bạn thấy thẻ nào đến hạn và câu hỏi tiếp theo.",
+            "Tiện ích Màn hình chính trên iPhone, iPad, Mac và Android cho bạn thấy thẻ nào đến hạn, câu hỏi tiếp theo và tiến độ học của bạn.",
         },
         {
           title: "Nhập, xuất và sở hữu dữ liệu của bạn",

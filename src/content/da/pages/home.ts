@@ -106,7 +106,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Dit næste kort med ét blik",
           description:
-            "Widgets til hjemmeskærmen på iPhone, iPad, Mac og Android viser, hvad der skal repeteres, og dit næste spørgsmål.",
+            "Widgets til hjemmeskærmen på iPhone, iPad, Mac og Android viser, hvad der skal repeteres, dit næste spørgsmål og dine fremskridt.",
         },
         {
           title: "Import, eksport og dine egne data",

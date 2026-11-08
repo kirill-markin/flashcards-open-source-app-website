@@ -30,6 +30,8 @@ Aplikacija Nibomo dodaje widget Ponavljanje na iPhone, iPad, Mac i Android. Dost
 
 Kad ništa nije na redu, widget prikazuje „Sve je ponovljeno” i kada sljedeća kartica dolazi na red. Nikad ne prikazuje odgovor. Dodirnite widget da biste otvorili Ponavljanje; srednji ili veliki widget otvara Ponavljanje na kartici koju prikazuje. Widgeti su besplatni za sve, uključujući goste.
 
+Još osam widgeta prati vaš napredak: „Aktivnost”, „Godina”, „Danas”, „Ponavljanja”, „Nizovi”, „Kalendar”, „Uskoro” i „Pregled”. Na iPhoneu widget „Dospjele kartice” možete staviti i na zaključani zaslon, a [vodič za widgete](/blog/flashcard-widget/) prikazuje svaki od njih.
+
 Da biste ga dodali na iPhoneu, iPadu ili Macu, otvorite galeriju widgeta, odaberite Nibomo i zatim veličinu. Na Androidu dodajte widget Nibomo s popisa widgeta, a zatim mu promijenite veličinu; raspored se prilagođava veličini.
 
 ## Hostirana web aplikacija

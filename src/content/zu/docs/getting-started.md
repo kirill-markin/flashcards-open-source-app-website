@@ -30,6 +30,8 @@ Uhlelo lokusebenza lwe-Nibomo lwengeza iwijethi ethi Buyekeza ku-iPhone, i-iPad,
 
 Uma kungekho khadi okumele libuyekezwe, iwijethi ibonisa okuthi “Usuqedile konke” nokuthi ikhadi elilandelayo lizobuyekezwa nini. Ayilokothi ibonise impendulo. Thepha iwijethi ukuze uvule ingxenye ethi Buyekeza; iwijethi ephakathi noma enkulu ivula ingxenye ethi Buyekeza ekhadini eliboniswa yiyo. Amawijethi angamahhala kuwo wonke umuntu, kuhlanganise nezivakashi.
 
+Amanye amawijethi ayisishiyagalombili akubonisa inqubekelaphambili yakho: “Umsebenzi”, “Unyaka”, “Namuhla”, “Ukubukeza”, “Uchungechunge”, “Ikhalenda”, “Okuzayo” ne-“Ideshibhodi”. Ku-iPhone, ungabeka newijethi ethi “Amakhadi okubukeza” esikrinini sokukhiya, futhi [umhlahlandlela wamawijethi](/blog/flashcard-widget/) ubonisa ngalinye.
+
 Ukuze wengeze iwijethi ku-iPhone, ku-iPad noma ku-Mac, vula igalari yamawijethi, khetha i-Nibomo, bese ukhetha usayizi. Ku-Android, engeza iwijethi ye-Nibomo ohlwini lwamawijethi, bese ushintsha usayizi wayo; ukubukeka kwayo kulandela usayizi.
 
 ## Uhlelo lwewebhu olusingathiwe

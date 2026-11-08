@@ -106,7 +106,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Je volgende kaart in één oogopslag",
           description:
-            "Beginschermwidgets voor iPhone, iPad, Mac en Android tonen hoeveel kaarten je moet herhalen en de volgende vraag.",
+            "Beginschermwidgets voor iPhone, iPad, Mac en Android tonen hoeveel kaarten je moet herhalen, de volgende vraag en je voortgang.",
         },
         {
           title: "Importeren, exporteren en je data in eigen hand",

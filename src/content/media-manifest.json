@@ -1793,6 +1793,51 @@
     "bytes": 2405022
   },
   {
+    "publicPath": "/blog/home-screen-widgets-android-activity-small.png",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/d20c5ed9004726d73a538a89f835cbc99735b71178094ae4d89573ead6d9c193.webp",
+    "width": 519,
+    "height": 578,
+    "sha256": "d20c5ed9004726d73a538a89f835cbc99735b71178094ae4d89573ead6d9c193",
+    "bytes": 9254,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/e14b951b32b0416e3adf1f49b3577cbfd098715fd6baba15c7eef03c81c51961.png",
+      "width": 519,
+      "height": 578,
+      "sha256": "e14b951b32b0416e3adf1f49b3577cbfd098715fd6baba15c7eef03c81c51961",
+      "bytes": 63735
+    }
+  },
+  {
+    "publicPath": "/blog/home-screen-widgets-android-calendar-small.png",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/c8507c322dc6d6ef1e3941fbd91fc84b988199632f4ba1b1ba0c7b452fed76d0.webp",
+    "width": 519,
+    "height": 578,
+    "sha256": "c8507c322dc6d6ef1e3941fbd91fc84b988199632f4ba1b1ba0c7b452fed76d0",
+    "bytes": 8880,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/9e5ef581ccf3bb27fa9e862b4ac1f6f453c4cf10623da438017ee1d9d4822eb3.png",
+      "width": 519,
+      "height": 578,
+      "sha256": "9e5ef581ccf3bb27fa9e862b4ac1f6f453c4cf10623da438017ee1d9d4822eb3",
+      "bytes": 73922
+    }
+  },
+  {
+    "publicPath": "/blog/home-screen-widgets-android-dashboard-large.png",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/15b24c667363731c705d9cc67c450c0e0eb70d419fca0d5c589b9842af096f41.webp",
+    "width": 1028,
+    "height": 1136,
+    "sha256": "15b24c667363731c705d9cc67c450c0e0eb70d419fca0d5c589b9842af096f41",
+    "bytes": 22948,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/541d990af6d6c60c2ed57bf7588f91efd3326dc4cf958f13a28a255069653387.png",
+      "width": 1028,
+      "height": 1136,
+      "sha256": "541d990af6d6c60c2ed57bf7588f91efd3326dc4cf958f13a28a255069653387",
+      "bytes": 124383
+    }
+  },
+  {
     "publicPath": "/blog/home-screen-widgets-android-large.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/32c757b3fc9784b5a6e08dde3715e9976a9445a6369d655d1cf957fbef3a1a9b.webp",
     "width": 1080,
@@ -1823,6 +1868,21 @@
     }
   },
   {
+    "publicPath": "/blog/home-screen-widgets-android-reviews-large.png",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/fd6fcdc12de2ba4a2bba162542ecfeb8bed9a7d3185d50c195bf2758a19742de.webp",
+    "width": 1028,
+    "height": 1136,
+    "sha256": "fd6fcdc12de2ba4a2bba162542ecfeb8bed9a7d3185d50c195bf2758a19742de",
+    "bytes": 14646,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/1908e3367613d35e818a4da2c451de68d87b14d3c5f8324557fb95c390159b61.png",
+      "width": 1028,
+      "height": 1136,
+      "sha256": "1908e3367613d35e818a4da2c451de68d87b14d3c5f8324557fb95c390159b61",
+      "bytes": 106393
+    }
+  },
+  {
     "publicPath": "/blog/home-screen-widgets-android-small.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/3454bb05543d756876f4cba9a49413a84ff8ab4f230655de45e72b2a30af6abe.webp",
     "width": 1080,
@@ -1835,6 +1895,51 @@
       "height": 845,
       "sha256": "d0fa234cc9a6879e561564c237a359000483156f64c765cec0523e4a7648b367",
       "bytes": 417854
+    }
+  },
+  {
+    "publicPath": "/blog/home-screen-widgets-android-streaks-small.png",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/82d41999027d20ea6d82b96e57e5ba870e962a91e89c32494d0e8ee70b51a05d.webp",
+    "width": 519,
+    "height": 578,
+    "sha256": "82d41999027d20ea6d82b96e57e5ba870e962a91e89c32494d0e8ee70b51a05d",
+    "bytes": 5654,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/714359402fcd2c2870e4a2be5b8ed861a4636c8082bdfc906b49ccfbde2629f3.png",
+      "width": 519,
+      "height": 578,
+      "sha256": "714359402fcd2c2870e4a2be5b8ed861a4636c8082bdfc906b49ccfbde2629f3",
+      "bytes": 53369
+    }
+  },
+  {
+    "publicPath": "/blog/home-screen-widgets-android-today-medium.png",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/687b60cc0d4908231e18bc5bd1bdf94c1c3c95d3541d735ac9cce01d4de722f9.webp",
+    "width": 1028,
+    "height": 578,
+    "sha256": "687b60cc0d4908231e18bc5bd1bdf94c1c3c95d3541d735ac9cce01d4de722f9",
+    "bytes": 9126,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/ec51fe0e71e83b2849588ae7279e63c0113cd2a52cb714930b0f65d01f02a474.png",
+      "width": 1028,
+      "height": 578,
+      "sha256": "ec51fe0e71e83b2849588ae7279e63c0113cd2a52cb714930b0f65d01f02a474",
+      "bytes": 77791
+    }
+  },
+  {
+    "publicPath": "/blog/home-screen-widgets-ios-activity-large.png",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/948ac7e18143fbe737f0e5bc4a57a87de7ea9b47c598af5b50479ec466177574.webp",
+    "width": 1097,
+    "height": 1143,
+    "sha256": "948ac7e18143fbe737f0e5bc4a57a87de7ea9b47c598af5b50479ec466177574",
+    "bytes": 34450,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/0d12b3c9debb75c4167467b6eb1f41db7dbe639c7756abea4a8f53bbf3c4726b.png",
+      "width": 1097,
+      "height": 1143,
+      "sha256": "0d12b3c9debb75c4167467b6eb1f41db7dbe639c7756abea4a8f53bbf3c4726b",
+      "bytes": 199611
     }
   },
   {
@@ -1853,6 +1958,51 @@
     }
   },
   {
+    "publicPath": "/blog/home-screen-widgets-ios-calendar-large.png",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/9558ac19618a7275b87e1f3efb567d06b6786d45fa53cd9aa8ec43a38ffc4e25.webp",
+    "width": 1097,
+    "height": 1143,
+    "sha256": "9558ac19618a7275b87e1f3efb567d06b6786d45fa53cd9aa8ec43a38ffc4e25",
+    "bytes": 29066,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/c2820e6d2a8c9e552c3cf7f6fca5b600dec05e21c3716438436d34d57a101c1c.png",
+      "width": 1097,
+      "height": 1143,
+      "sha256": "c2820e6d2a8c9e552c3cf7f6fca5b600dec05e21c3716438436d34d57a101c1c",
+      "bytes": 198037
+    }
+  },
+  {
+    "publicPath": "/blog/home-screen-widgets-ios-coming-up-large.png",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/160a5b052698b755eb998f4407d8393d217ba09b6267e525ead9a51e03df8177.webp",
+    "width": 1097,
+    "height": 1143,
+    "sha256": "160a5b052698b755eb998f4407d8393d217ba09b6267e525ead9a51e03df8177",
+    "bytes": 26664,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/8515acbb2379ddb50dc1cd95c2bb0803da447b235017312cb690b67772249026.png",
+      "width": 1097,
+      "height": 1143,
+      "sha256": "8515acbb2379ddb50dc1cd95c2bb0803da447b235017312cb690b67772249026",
+      "bytes": 202009
+    }
+  },
+  {
+    "publicPath": "/blog/home-screen-widgets-ios-dashboard-large.png",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/3a3d76b320e4cf4ab329d68cd08cd871590d8b4c039c7ee49173219ce1251a02.webp",
+    "width": 1097,
+    "height": 1143,
+    "sha256": "3a3d76b320e4cf4ab329d68cd08cd871590d8b4c039c7ee49173219ce1251a02",
+    "bytes": 32772,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/c69c873a568b9ee45ccd008968d34dab2e29508f3dc92c60e90a6fdcadb186f9.png",
+      "width": 1097,
+      "height": 1143,
+      "sha256": "c69c873a568b9ee45ccd008968d34dab2e29508f3dc92c60e90a6fdcadb186f9",
+      "bytes": 209490
+    }
+  },
+  {
     "publicPath": "/blog/home-screen-widgets-ios-large.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/b388801858385905778245de7bcf37d1c8b7e9a91c26b11a1037031454a7e068.webp",
     "width": 1206,
@@ -1865,6 +2015,21 @@
       "height": 1445,
       "sha256": "db0bdf7909ab02904962538839e7c10088838598bb13e9d2abcb05ade32e5b32",
       "bytes": 636261
+    }
+  },
+  {
+    "publicPath": "/blog/home-screen-widgets-ios-lock-screen.png",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/261ca5179e0d39b6e610e6fe46181c094212c76ec82f3fbd04c7938f034fe61c.webp",
+    "width": 1206,
+    "height": 330,
+    "sha256": "261ca5179e0d39b6e610e6fe46181c094212c76ec82f3fbd04c7938f034fe61c",
+    "bytes": 18042,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/0faef131a5a2cb93eff43bf55b0e405daa75d879b9ae822fec2e6f3959d2f89b.png",
+      "width": 1206,
+      "height": 330,
+      "sha256": "0faef131a5a2cb93eff43bf55b0e405daa75d879b9ae822fec2e6f3959d2f89b",
+      "bytes": 418985
     }
   },
   {
@@ -1883,6 +2048,21 @@
     }
   },
   {
+    "publicPath": "/blog/home-screen-widgets-ios-reviews-medium.png",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/85a97b0ebf24f3d231e5ad6a0912c6df43a87548913c73adec4a099a88c3f2e4.webp",
+    "width": 1097,
+    "height": 541,
+    "sha256": "85a97b0ebf24f3d231e5ad6a0912c6df43a87548913c73adec4a099a88c3f2e4",
+    "bytes": 14378,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/e8187864ee460c66aab187547e54398e60f644f18dcec4ee5eead4514044eec9.png",
+      "width": 1097,
+      "height": 541,
+      "sha256": "e8187864ee460c66aab187547e54398e60f644f18dcec4ee5eead4514044eec9",
+      "bytes": 124319
+    }
+  },
+  {
     "publicPath": "/blog/home-screen-widgets-ios-small.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/2a3daced7fc378799e710a3fa8b13c6c092ecd26c84006c4f74614ebd7033057.webp",
     "width": 1206,
@@ -1895,6 +2075,51 @@
       "height": 850,
       "sha256": "0db12f928cd04a95d92d640b7a45af1409783dbf353c667e84c519b3d07c9716",
       "bytes": 805916
+    }
+  },
+  {
+    "publicPath": "/blog/home-screen-widgets-ios-streaks-medium.png",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/09017397bdcf0939b7ee2ebc4f1a77a6e58c49f8d16ecbdefbc5697cf430c936.webp",
+    "width": 1097,
+    "height": 541,
+    "sha256": "09017397bdcf0939b7ee2ebc4f1a77a6e58c49f8d16ecbdefbc5697cf430c936",
+    "bytes": 16336,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/117a79f2012fa47748858d755b348756e67137f9ae9fb63653361add95ba4849.png",
+      "width": 1097,
+      "height": 541,
+      "sha256": "117a79f2012fa47748858d755b348756e67137f9ae9fb63653361add95ba4849",
+      "bytes": 138789
+    }
+  },
+  {
+    "publicPath": "/blog/home-screen-widgets-ios-today-small.png",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/248f134c2dd5f4a7a37bef0c9e2cf2f60b88f9ca1b56574aa2c90409b77b707d.webp",
+    "width": 541,
+    "height": 541,
+    "sha256": "248f134c2dd5f4a7a37bef0c9e2cf2f60b88f9ca1b56574aa2c90409b77b707d",
+    "bytes": 11648,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/2be3ddf2d7e6d3b011b020703885c3b39a5709d7cc5e4607441fce32d0a54d79.png",
+      "width": 541,
+      "height": 541,
+      "sha256": "2be3ddf2d7e6d3b011b020703885c3b39a5709d7cc5e4607441fce32d0a54d79",
+      "bytes": 96770
+    }
+  },
+  {
+    "publicPath": "/blog/home-screen-widgets-ios-year-large.png",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/c2e54683966716820f3697baa8dfaf7334833954156d295b13727a1a62a097ab.webp",
+    "width": 1097,
+    "height": 1143,
+    "sha256": "c2e54683966716820f3697baa8dfaf7334833954156d295b13727a1a62a097ab",
+    "bytes": 26938,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/43c23caf5d0663f2144eeb478f084c1d78c4558ac89271d580298d42311f2c53.png",
+      "width": 1097,
+      "height": 1143,
+      "sha256": "43c23caf5d0663f2144eeb478f084c1d78c4558ac89271d580298d42311f2c53",
+      "bytes": 185246
     }
   },
   {

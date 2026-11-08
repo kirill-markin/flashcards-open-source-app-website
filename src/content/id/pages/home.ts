@@ -106,7 +106,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Kartu Berikutnya dalam Sekali Lihat",
           description:
-            "Widget Layar Utama untuk iPhone, iPad, Mac, dan Android menampilkan kartu yang jatuh tempo dan pertanyaan berikutnya.",
+            "Widget Layar Utama untuk iPhone, iPad, Mac, dan Android menampilkan kartu yang jatuh tempo, pertanyaan berikutnya, dan kemajuan belajar.",
         },
         {
           title: "Impor, Ekspor, dan Miliki Data Anda",
