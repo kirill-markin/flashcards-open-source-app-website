@@ -2,7 +2,7 @@
 title: "How to Migrate from Anki in 2026: A Safe TXT Export Workflow"
 description: "Migrate text-based Anki cards without risking the original collection. Make a .colpkg backup, export notes as TXT, test fields and media, then rebuild a small deck safely."
 date: "2026-03-13"
-updated: "2026-08-27"
+updated: "2026-11-08"
 image: "/blog/migrate-from-anki-txt-export-open-source-flashcards.png"
 keywords:
   - "migrate from Anki"
@@ -20,9 +20,11 @@ Those files solve different problems. The collection package is your way back. T
 
 This workflow is for text-based decks and destinations that can work from TXT or CSV. The text export does not preserve Anki's scheduler state, templates, add-ons, or media files. You will test a representative deck first, inspect every field, and leave the original collection untouched until the result is good enough to use.
 
+> **Moving to Nibomo?** The main route is now the deck's `.apkg` itself: attach it in Nibomo's AI chat and ask it to turn the deck into cards. [Importing an Anki `.apkg` into Nibomo](/blog/import-anki-apkg/) walks through it. This TXT workflow is the older, extra option. It still helps when you want to control the field mapping yourself or when the destination reads only text.
+
 > **Disclosure:** I am Kirill Markin, and I build [Nibomo](https://nibomo.com/). This guide is explicit about the cases where staying in Anki, or choosing a destination that imports `.apkg`, is the better decision.
 
-**Facts checked:** August 27, 2026.
+**Facts checked:** August 27, 2026; Nibomo's Anki `.apkg` import details checked November 8, 2026.
 
 ![A botanist keeps the original plant intact beside a protected backup cutting and three test cuttings](/blog/migrate-from-anki-txt-export-open-source-flashcards.png)
 
@@ -168,9 +170,9 @@ If the test fails, remove the temporary cards using the destination's own cleanu
 
 ## Using the TXT file with Nibomo
 
-Nibomo does not have a direct Anki importer. It cannot read `.apkg` or `.colpkg` and reconstruct Anki templates, media, or review history.
+Nibomo has no one-click Anki importer. Its AI chat can read an attached `.apkg`, which is the simpler route covered in the [`.apkg` import guide](/blog/import-anki-apkg/). It doesn't accept `.colpkg`, and neither route rebuilds Anki templates or review history. Use the TXT file when you want to decide every field mapping yourself.
 
-The current hosted path is AI-assisted drafting from file attachments. Open the [hosted app using the getting-started guide](/docs/getting-started/), attach the TXT or a carefully prepared CSV file in AI chat, and explicitly ask for a small draft without saving anything. Review the proposed cards in chat; only then ask the assistant to save the approved batch.
+With a TXT file, the hosted path is AI-assisted drafting from file attachments. Open the [hosted app using the getting-started guide](/docs/getting-started/), attach the TXT or a carefully prepared CSV file in AI chat, and explicitly ask for a small draft without saving anything. Review the proposed cards in chat; only then ask the assistant to save the approved batch.
 
 A useful first request is specific about the mapping and cautious about side effects:
 
@@ -202,7 +204,7 @@ There is no prize for deleting Anki quickly. Keep the original collection until 
 
 ## When you should not migrate from Anki this way
 
-Stay in Anki, or choose a destination that explicitly imports `.apkg`, when your collection depends on:
+Stay in Anki, or choose a destination whose `.apkg` import explicitly keeps these, when your collection depends on:
 
 - complex note types or several generated card directions;
 - custom templates, CSS, JavaScript, or add-ons;

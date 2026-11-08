@@ -2,7 +2,7 @@
 title: "RemNote Alternatives in 2026: Free and Open-Source Options"
 description: "Compare RemNote alternatives for notes, PDFs, cards, price, and self-hosting. See what migrates, what breaks, and how to rehearse a safe move."
 date: "2026-03-19"
-updated: "2026-08-31"
+updated: "2026-11-08"
 image: "/blog/remnote-alternative.png"
 keywords:
   - "remnote alternative"
@@ -21,7 +21,7 @@ The best **RemNote alternative** is the route that fixes your reason for leaving
 
 > **Disclosure:** I am Kirill Markin, and I build [Nibomo](/), one of the products compared here. Nibomo is not a full RemNote replacement. RemNote has the strongest integrated notes-and-PDF workflow in this comparison, while Anki has the most mature card system and migration formats.
 
-**Facts and prices checked:** August 31, 2026. Listed prices use public US pricing and annual billing where stated; taxes, regions, app stores, and beta terms can change the amount.
+**Facts and prices checked:** August 31, 2026. Listed prices use public US pricing and annual billing where stated; taxes, regions, app stores, and beta terms can change the amount. Nibomo's Anki `.apkg` import details checked November 8, 2026.
 
 ![An archive conservator tests a small transfer from an intact linked study dossier into separate card, file, and block systems](/blog/remnote-alternative.png)
 
@@ -96,7 +96,7 @@ Nibomo makes almost the opposite trade from RemNote. Its [features](/features/) 
 
 The source boundary is broad: the MIT-licensed repository includes web, iOS, Android, authentication, backend, sync, and infrastructure. The supported [production self-hosting guide](/docs/self-hosting/) uses AWS CDK. It is not a one-command local appliance. Operators own cloud costs, secrets, migrations, monitoring, backups, restore tests, and separately built mobile apps.
 
-Migration is the larger limitation for an existing RemNote user. Nibomo imports its own `flashcards.zip` packages, not RemNote Markdown or Anki `.apkg`. Those packages carry cards, tags, and referenced media, but not review history, FSRS state, workspace settings, full deck structure, or accounts. AI chat can turn exported text into reviewed card drafts; that is rebuilding content, not continuing the old collection. The [TXT migration guide](/blog/migrate-from-anki-txt-export-open-source-flashcards/) shows that lossy boundary step by step.
+Migration is the larger limitation for an existing RemNote user. Nibomo's Library import takes only its own `flashcards.zip` packages, not RemNote Markdown or Anki `.apkg`. Those packages carry cards, tags, and referenced media, but not review history, FSRS state, workspace settings, full deck structure, or accounts. AI chat can read an attached Anki `.apkg` or exported text and turn it into new cards, all starting as new; that is rebuilding content, not continuing the old collection. The [Anki `.apkg` import guide](/blog/import-anki-apkg/) shows what that route keeps and drops, and the older [TXT migration guide](/blog/migrate-from-anki-txt-export-open-source-flashcards/) covers the plain-text route.
 
 Choose Nibomo for a fresh or simple card workspace when whole-stack source access matters. Keep RemNote for connected study, and choose Anki when migration fidelity or advanced card structure matters. For the narrower card-system comparison, see [Anki vs Nibomo](/blog/anki-vs-flashcards-open-source-app/) and the [open-source flashcard apps guide](/blog/best-open-source-flashcard-apps-2026/).
 
