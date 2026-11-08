@@ -2,7 +2,7 @@
 title: "Brainscape Alternative (2026): Brainscape vs Nibomo"
 description: "Compare Brainscape and Nibomo across Confidence-Based Repetition vs FSRS, offline use, mobile apps, collaboration, AI, pricing, imports, exports, and ownership."
 date: "2026-03-21"
-updated: "2026-08-03"
+updated: "2026-11-08"
 image: "/blog/brainscape-alternative.png"
 keywords:
   - "brainscape alternative"
@@ -21,7 +21,7 @@ That scheduler split drives most of the **Brainscape vs Nibomo** decision. Brain
 
 > **Disclosure:** I am Kirill Markin, and I build Nibomo, one of the products compared here. Brainscape wins several important categories in this article. I have limited the comparison to behavior documented by official product pages, help articles, and source repositories.
 
-**Facts checked:** August 3, 2026. Prices are the public US prices shown on that date. Taxes, regional prices, app-store billing, institutional quotes, and future beta terms can differ.
+**Facts checked:** August 3, 2026. Prices are the public US prices shown on that date. Taxes, regional prices, app-store billing, institutional quotes, and future beta terms can differ. Nibomo's Anki `.apkg` import details checked November 8, 2026.
 
 ![Brainscape alternative comparison of confidence ratings, an FSRS due queue, offline mobile study, and open-source ownership](/blog/brainscape-alternative.png)
 
@@ -43,7 +43,7 @@ Stay with Brainscape if its classes or analytics are part of your real workflow.
 | Offline behavior | Previously downloaded cards can be studied offline on mobile; creating and editing need a connection | Reviews and edits write locally first in IndexedDB on web, SQLite on iOS, and Room/SQLite on Android, then sync | Nibomo for offline creation and editing |
 | Collaboration | Classes, share links, editor permissions, and detailed analytics on school/group plans | No equivalent link-shared classes, card-editor permissions, or teacher progress analytics | Brainscape |
 | AI | Basic can make “100s” of AI flashcards; Pro lists unlimited AI; source-to-card and import-cleanup workflows | AI chat, supported file attachments, workspace read/write actions, MCP, and Agent API | Brainscape for guided bulk authoring; Nibomo for agent access |
-| Import | Paste a list or upload CSV, TXT, XLSX, or ODS; mobile also accepts files, images, and camera capture | Direct import only for its own `flashcards.zip`; other supported files can be source material for reviewed AI drafting | Brainscape for general import |
+| Import | Paste a list or upload CSV, TXT, XLSX, or ODS; mobile also accepts files, images, and camera capture | Direct import only for its own `flashcards.zip`; AI chat turns other supported files into saved cards you then check against the source | Brainscape for general import |
 | Export | Pro deck export produces spreadsheet files that open in Excel | `flashcards.zip` carries active cards, tags, and referenced media between Nibomo workspaces or instances | Depends: Brainscape for spreadsheets; Nibomo for its own workspace transfer |
 | Price checked August 3, 2026 | Basic free; Pro shown at US$7.99/month on annual billing; Enterprise by quote | Hosted app free during beta; self-hosted software free plus infrastructure and provider costs | Depends on usage and hosting choice |
 | Ownership | Proprietary hosted service; export exists on Pro | Full application and infrastructure MIT licensed; documented AWS self-hosting | Nibomo |
@@ -123,9 +123,9 @@ Brainscape has the broader general import path. Its [official import guide](http
 
 Export is available, but [Brainscape deck export requires Pro](https://brainscape.zendesk.com/hc/en-us/articles/115002383872-How-can-I-export-a-backup-of-my-flashcards). The generated files open in Excel and can later be re-uploaded. Brainscape does not document that export as carrying confidence ratings, study history, analytics, classes, or permission state, so treat it as a card-content backup rather than a portable copy of the learning environment.
 
-Nibomo imports and exports its own [`flashcards.zip` package](https://github.com/kirill-markin/flashcards-open-source-app/tree/main/apps/web/src/screens/settings/workspace/packages). It carries active cards, tags, and referenced media between Nibomo workspaces or hosted and self-hosted instances. It does not include review history, FSRS state, workspace settings, complete deck structure, or account data. There is no direct Brainscape spreadsheet importer or Anki package importer.
+Nibomo imports and exports its own [`flashcards.zip` package](https://github.com/kirill-markin/flashcards-open-source-app/tree/main/apps/web/src/screens/settings/workspace/packages). It carries active cards, tags, and referenced media between Nibomo workspaces or hosted and self-hosted instances. It does not include review history, FSRS state, workspace settings, complete deck structure, or account data. There is no direct Brainscape spreadsheet importer or one-click Anki importer. An Anki `.apkg` can go into AI chat, which [turns it into new cards](/blog/import-anki-apkg/) without review history.
 
-You can attach supported files to Nibomo AI chat and ask it to draft cards. That may help with selective rebuilding, but it remains an AI-assisted authoring process. Review every proposed card, correct it against the source, and expect entirely new FSRS scheduling state.
+You can attach supported files to Nibomo AI chat and ask it to make cards. It saves them directly. That may help with selective rebuilding, but it remains an AI-assisted authoring process. Check every saved card against the source, fix what is wrong, and expect entirely new FSRS scheduling state.
 
 Brainscape wins for bringing common files into a deck. Neither product offers a lossless Brainscape-to-Nibomo migration.
 

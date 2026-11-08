@@ -2,7 +2,7 @@
 title: "Alternativa a Brainscape (2026): Brainscape vs Nibomo"
 description: "Compara Brainscape y Nibomo: Confidence-Based Repetition vs FSRS, uso sin conexión, apps móviles, colaboración, IA, precios, importación, exportación y propiedad."
 date: "2026-03-21"
-updated: "2026-08-03"
+updated: "2026-11-08"
 image: "/blog/brainscape-alternative.png"
 keywords:
   - "alternativa a Brainscape"
@@ -21,7 +21,7 @@ Esta diferencia entre planificadores define buena parte de la decisión entre **
 
 > **Aviso de transparencia:** Soy Kirill Markin y desarrollo Nibomo, uno de los productos que comparo aquí. Brainscape gana en varias categorías importantes de este artículo. He limitado la comparación al funcionamiento documentado en las páginas oficiales de los productos, los artículos de ayuda y los repositorios de código fuente.
 
-**Datos comprobados:** 3 de agosto de 2026. Los precios corresponden a las tarifas públicas para Estados Unidos que se mostraban ese día. Los impuestos, los precios regionales, la facturación en las tiendas de aplicaciones, los presupuestos para instituciones y las futuras condiciones de la beta pueden variar.
+**Datos comprobados:** 3 de agosto de 2026. Los precios corresponden a las tarifas públicas para Estados Unidos que se mostraban ese día. Los impuestos, los precios regionales, la facturación en las tiendas de aplicaciones, los presupuestos para instituciones y las futuras condiciones de la beta pueden variar. Los datos sobre la importación de `.apkg` de Anki en Nibomo se comprobaron el 8 de noviembre de 2026.
 
 ![Comparación entre Brainscape y Nibomo con niveles de confianza, una cola de repasos de FSRS, estudio sin conexión en el móvil y control mediante código abierto](/blog/brainscape-alternative.png)
 
@@ -43,7 +43,7 @@ Quédate con Brainscape si sus clases o analíticas forman parte de tu flujo de 
 | Uso sin conexión | Las tarjetas descargadas previamente se pueden estudiar sin conexión en el móvil; para crear y editar hace falta conexión | Los repasos y las ediciones se guardan primero en local, en IndexedDB en web, SQLite en iOS y Room/SQLite en Android, y después se sincronizan | Nibomo para crear y editar sin conexión |
 | Colaboración | Clases, enlaces para compartir, permisos de edición y analíticas detalladas en los planes para centros y grupos | No ofrece clases equivalentes compartidas mediante enlace, permisos para editar tarjetas ni analíticas de progreso para docentes | Brainscape |
 | IA | Basic permite crear «cientos» de flashcards con IA; Pro ofrece IA ilimitada; flujos para convertir fuentes en tarjetas y limpiar contenido importado | Chat de IA, archivos adjuntos compatibles, acciones de lectura y escritura en el espacio de trabajo, MCP y Agent API | Brainscape para la creación masiva guiada; Nibomo para el acceso de agentes |
-| Importación | Pegar una lista o subir archivos CSV, TXT, XLSX u ODS; en el móvil también admite archivos, imágenes y capturas con la cámara | Solo importa directamente su propio `flashcards.zip`; otros archivos compatibles pueden servir como material de origen para redactar con IA borradores que después deben revisarse | Brainscape para la importación general |
+| Importación | Pegar una lista o subir archivos CSV, TXT, XLSX u ODS; en el móvil también admite archivos, imágenes y capturas con la cámara | Solo importa directamente su propio `flashcards.zip`; el chat de IA convierte otros archivos compatibles en tarjetas guardadas que después debes comparar con la fuente | Brainscape para la importación general |
 | Exportación | La exportación de mazos de Pro genera hojas de cálculo que se abren en Excel | `flashcards.zip` transfiere tarjetas activas, etiquetas y archivos multimedia asociados entre espacios de trabajo o instancias de Nibomo | Depende: Brainscape para hojas de cálculo; Nibomo para transferir su propio espacio de trabajo |
 | Precio comprobado el 3 de agosto de 2026 | Basic gratis; Pro se mostraba a US$7.99 al mes con facturación anual; Enterprise, precio a consultar | App alojada gratis durante la beta; software autoalojado gratis, más los costes de infraestructura y proveedores | Depende del uso y de la opción de alojamiento |
 | Propiedad | Servicio alojado y propietario; Pro incluye exportación | Aplicación e infraestructura completas con licencia MIT; autoalojamiento documentado en AWS | Nibomo |
@@ -123,9 +123,9 @@ Brainscape ofrece más opciones para importar archivos en general. Su [guía ofi
 
 La exportación está disponible, pero [exportar un mazo de Brainscape requiere Pro](https://brainscape.zendesk.com/hc/en-us/articles/115002383872-How-can-I-export-a-backup-of-my-flashcards). Los archivos generados se abren en Excel y se pueden volver a subir más adelante. Brainscape no documenta que esa exportación incluya las valoraciones de confianza, el historial de estudio, las analíticas, las clases o el estado de los permisos. Por eso conviene tratarla como una copia de seguridad del contenido de las tarjetas, no como una copia transferible de todo el entorno de aprendizaje.
 
-Nibomo importa y exporta su propio [paquete `flashcards.zip`](https://github.com/kirill-markin/flashcards-open-source-app/tree/main/apps/web/src/screens/settings/workspace/packages). El paquete transfiere las tarjetas activas, las etiquetas y los archivos multimedia asociados entre espacios de trabajo de Nibomo o entre instancias alojadas y autoalojadas. No incluye el historial de repasos, el estado de FSRS, los ajustes del espacio de trabajo, la estructura completa de los mazos ni los datos de la cuenta. No existe un importador directo para hojas de cálculo de Brainscape ni para paquetes de Anki.
+Nibomo importa y exporta su propio [paquete `flashcards.zip`](https://github.com/kirill-markin/flashcards-open-source-app/tree/main/apps/web/src/screens/settings/workspace/packages). El paquete transfiere las tarjetas activas, las etiquetas y los archivos multimedia asociados entre espacios de trabajo de Nibomo o entre instancias alojadas y autoalojadas. No incluye el historial de repasos, el estado de FSRS, los ajustes del espacio de trabajo, la estructura completa de los mazos ni los datos de la cuenta. No existe un importador directo para hojas de cálculo de Brainscape ni un importador de Anki de un solo clic. Un `.apkg` de Anki se puede adjuntar en el chat con IA, que [lo convierte en tarjetas nuevas](/blog/import-anki-apkg/) sin el historial de repasos.
 
-Puedes adjuntar archivos compatibles al chat de IA de Nibomo y pedirle que redacte tarjetas. Esto puede servir para reconstruir parte del material, pero sigue siendo un proceso de creación asistido por IA. Revisa cada tarjeta propuesta, corrígela comparándola con la fuente y cuenta con empezar desde cero en cuanto al estado de planificación de FSRS.
+Puedes adjuntar archivos compatibles al chat de IA de Nibomo y pedirle que cree tarjetas. El chat las guarda directamente. Esto puede servir para reconstruir parte del material, pero sigue siendo un proceso de creación asistido por IA. Revisa cada tarjeta guardada, corrígela comparándola con la fuente y cuenta con empezar desde cero en cuanto al estado de planificación de FSRS.
 
 Brainscape gana cuando se trata de convertir archivos habituales en un mazo. Ninguno de los productos permite migrar de Brainscape a Nibomo sin pérdidas.
 

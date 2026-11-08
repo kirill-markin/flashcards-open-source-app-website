@@ -2,7 +2,7 @@
 title: "Brainscape 替代方案（2026）：Brainscape 与 Nibomo 对比"
 description: "对比 Brainscape 与 Nibomo：基于信心评分的重复学习与 FSRS、离线使用、移动应用、协作、AI、价格、导入导出和数据所有权。"
 date: "2026-03-21"
-updated: "2026-08-03"
+updated: "2026-11-08"
 image: "/blog/brainscape-alternative.png"
 keywords:
   - "brainscape 替代方案"
@@ -21,7 +21,7 @@ Brainscape 与 Nibomo 最重要的区别，藏在一个 Brainscape 用户从不�
 
 > **披露声明：** 我是 Kirill Markin，也是本文对比产品之一 Nibomo 的开发者。Brainscape 在本文多个重要项目中胜出。对比内容仅限官方产品页面、帮助文章和源代码仓库有明确记录的功能与行为。
 
-**事实核查日期：** 2026 年 8 月 3 日。文中价格为当天显示的美国公开价格；税费、地区定价、应用商店计费、机构报价及未来测试版条款可能不同。
+**事实核查日期：** 2026 年 8 月 3 日。文中价格为当天显示的美国公开价格；税费、地区定价、应用商店计费、机构报价及未来测试版条款可能不同。Nibomo 的 Anki `.apkg` 导入相关信息核查于 2026 年 11 月 8 日。
 
 ![Brainscape 替代方案对比：信心评分、FSRS 到期队列、移动端离线学习与开源所有权](/blog/brainscape-alternative.png)
 
@@ -43,7 +43,7 @@ Brainscape 与 Nibomo 最重要的区别，藏在一个 Brainscape 用户从不�
 | 离线使用 | 移动端可离线学习此前下载的卡片；创建和编辑需要联网 | 复习和编辑先写入本地：Web 使用 IndexedDB，iOS 使用 SQLite，Android 使用 Room/SQLite，之后再同步 | 离线创建和编辑选 Nibomo |
 | 协作 | 班级、分享链接、编辑者权限；学校/团体方案提供详细分析 | 没有同等的链接共享班级、卡片编辑权限或教师进度分析 | Brainscape |
 | AI | Basic 可生成“100s”张 AI 闪卡；Pro 标明 AI 不限量；支持将来源转换为卡片和清理导入内容 | AI 对话、支持的文件附件、工作区读写操作、MCP 和 Agent API | 引导式批量制卡选 Brainscape；智能体接入选 Nibomo |
-| 导入 | 可粘贴列表，或上传 CSV、TXT、XLSX、ODS；移动端还支持文件、图片和相机拍摄 | 只能直接导入自有的 `flashcards.zip`；其他支持的文件可作为 AI 起草卡片的来源，生成内容需人工审核 | 通用导入选 Brainscape |
+| 导入 | 可粘贴列表，或上传 CSV、TXT、XLSX、ODS；移动端还支持文件、图片和相机拍摄 | 只能直接导入自有的 `flashcards.zip`；AI 对话可把其他支持的文件转换成卡片并直接保存，之后需对照原始材料检查 | 通用导入选 Brainscape |
 | 导出 | Pro 可将卡组导出为 Excel 能打开的电子表格文件 | `flashcards.zip` 可在 Nibomo 工作区或实例之间传输有效卡片、标签和引用的媒体 | 电子表格选 Brainscape；Nibomo 工作区迁移选 Nibomo |
 | 2026 年 8 月 3 日核查价格 | Basic 免费；Pro 按年付费时显示为每月 US$7.99；Enterprise 需询价 | 托管应用测试期间免费；自托管软件免费，另需承担基础设施和服务商费用 | 取决于使用场景和托管方式 |
 | 所有权 | 专有托管服务；Pro 支持导出 | 完整应用及基础设施采用 MIT 许可；提供 AWS 自托管文档 | Nibomo |
@@ -123,9 +123,9 @@ Brainscape 的通用导入渠道更丰富。[官方导入指南](https://brainsc
 
 Brainscape 支持导出，但[导出卡组需要 Pro](https://brainscape.zendesk.com/hc/en-us/articles/115002383872-How-can-I-export-a-backup-of-my-flashcards)。生成的文件可以用 Excel 打开，之后也能重新上传。Brainscape 并未说明导出内容包含信心评分、学习历史、分析数据、班级或权限状态，因此应把它看作卡片内容备份，而不是可以完整迁移的学习环境副本。
 
-Nibomo 可导入和导出自有的 [`flashcards.zip` 内容包](https://github.com/kirill-markin/flashcards-open-source-app/tree/main/apps/web/src/screens/settings/workspace/packages)。它可以在不同 Nibomo 工作区之间，或托管与自托管实例之间传输有效卡片、标签和引用的媒体。但其中不含复习历史、FSRS 状态、工作区设置、完整卡组结构或账户数据，也没有直接导入 Brainscape 电子表格或 Anki 内容包的功能。
+Nibomo 可导入和导出自有的 [`flashcards.zip` 内容包](https://github.com/kirill-markin/flashcards-open-source-app/tree/main/apps/web/src/screens/settings/workspace/packages)。它可以在不同 Nibomo 工作区之间，或托管与自托管实例之间传输有效卡片、标签和引用的媒体。但其中不含复习历史、FSRS 状态、工作区设置、完整卡组结构或账户数据，也没有直接导入 Brainscape 电子表格的功能或一键导入 Anki 的工具。Anki `.apkg` 可以附加到 AI 对话中，由 AI [把它转换成新卡片](/blog/import-anki-apkg/)，但复习历史不会保留。
 
-你可以把支持的文件附加到 Nibomo AI 对话中，请它起草卡片。这有助于选择性重建内容，但仍属于 AI 辅助制卡。每张建议卡片都需要审核，并对照原始材料修正；FSRS 调度状态也会从头开始。
+你可以把支持的文件附加到 Nibomo AI 对话中，请它制作卡片。AI 会直接保存这些卡片。这有助于选择性重建内容，但仍属于 AI 辅助制卡。保存后的每张卡片都需要对照原始材料检查和修正；FSRS 调度状态也会从头开始。
 
 把常见文件导入卡组，Brainscape 更方便。两款产品都无法把 Brainscape 数据无损迁移到 Nibomo。
 

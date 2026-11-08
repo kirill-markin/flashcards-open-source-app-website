@@ -2,7 +2,7 @@
 title: "Brainscape विकल्प (2026): Brainscape बनाम Nibomo"
 description: "Confidence-Based Repetition बनाम FSRS, ऑफ़लाइन इस्तेमाल, मोबाइल ऐप, सहयोग, AI, कीमत, इम्पोर्ट, एक्सपोर्ट और मालिकाना हक के आधार पर Brainscape और Nibomo की तुलना।"
 date: "2026-03-21"
-updated: "2026-08-03"
+updated: "2026-11-08"
 image: "/blog/brainscape-alternative.png"
 keywords:
   - "Brainscape विकल्प"
@@ -21,7 +21,7 @@ Scheduler का यही अंतर **Brainscape बनाम Nibomo** क�
 
 > **खुलासा:** मैं Kirill Markin हूँ और इस लेख में शामिल उत्पादों में से एक, Nibomo, बनाता हूँ। इस तुलना की कई अहम श्रेणियों में Brainscape आगे है। मैंने तुलना केवल आधिकारिक product pages, help articles और source repositories में दर्ज व्यवहार तक सीमित रखी है।
 
-**तथ्यों की जाँच:** 3 अगस्त, 2026। कीमतें उस तारीख को उपलब्ध सार्वजनिक अमेरिकी कीमतें हैं। टैक्स, क्षेत्रीय कीमतें, app-store billing, संस्थानों के लिए दिए गए quotes और beta की भावी शर्तें अलग हो सकती हैं।
+**तथ्यों की जाँच:** 3 अगस्त, 2026। कीमतें उस तारीख को उपलब्ध सार्वजनिक अमेरिकी कीमतें हैं। टैक्स, क्षेत्रीय कीमतें, app-store billing, संस्थानों के लिए दिए गए quotes और beta की भावी शर्तें अलग हो सकती हैं। Nibomo के Anki `.apkg` import से जुड़े विवरणों की जाँच 8 नवंबर, 2026 को की गई।
 
 ![Confidence ratings, FSRS due queue, ऑफ़लाइन मोबाइल पढ़ाई और ओपन-सोर्स मालिकाना हक की तुलना दिखाता Brainscape विकल्प](/blog/brainscape-alternative.png)
 
@@ -43,7 +43,7 @@ Scheduler का यही अंतर **Brainscape बनाम Nibomo** क�
 | ऑफ़लाइन व्यवहार | मोबाइल पर पहले से download किए गए कार्ड offline पढ़े जा सकते हैं; नए कार्ड बनाने और संपादित करने के लिए connection चाहिए | रिव्यू और बदलाव पहले device पर save होते हैं—web पर IndexedDB में, iOS पर SQLite में और Android पर Room/SQLite में—फिर sync होते हैं | ऑफ़लाइन कार्ड बनाने और संपादित करने के लिए Nibomo |
 | साथ मिलकर काम करने की सुविधाएँ | Classes, share links, editor permissions और school/group plans पर विस्तृत analytics | Link से साझा होने वाली वैसी classes, card-editor permissions या teacher progress analytics नहीं | Brainscape |
 | AI | Basic में AI से “100s” flashcards बनाए जा सकते हैं; Pro में unlimited AI दर्ज है; source-to-card और import-cleanup workflows | AI chat, supported file attachments, workspace में सीमित read/write actions, MCP और Agent API | Guided bulk authoring के लिए Brainscape; agent access के लिए Nibomo |
-| इम्पोर्ट | सूची paste करें या CSV, TXT, XLSX अथवा ODS upload करें; मोबाइल पर फ़ाइल, तस्वीर या camera capture से भी यही प्रक्रिया शुरू की जा सकती है | सीधे केवल अपना `flashcards.zip` इम्पोर्ट करता है; दूसरी supported files, जाँच के बाद AI drafting के लिए source material बन सकती हैं | आम files इम्पोर्ट करने के लिए Brainscape |
+| इम्पोर्ट | सूची paste करें या CSV, TXT, XLSX अथवा ODS upload करें; मोबाइल पर फ़ाइल, तस्वीर या camera capture से भी यही प्रक्रिया शुरू की जा सकती है | सीधे केवल अपना `flashcards.zip` इम्पोर्ट करता है; AI chat दूसरी supported files से cards बनाकर save कर देता है, जिन्हें बाद में source से मिलाकर जाँचना होता है | आम files इम्पोर्ट करने के लिए Brainscape |
 | एक्सपोर्ट | Pro deck export ऐसी spreadsheet files बनाता है जो Excel में खुलती हैं | `flashcards.zip` active cards, tags और उनसे जुड़ा media Nibomo workspaces या instances के बीच ले जाता है | जरूरत पर निर्भर: spreadsheets के लिए Brainscape; अपने workspace को स्थानांतरित करने के लिए Nibomo |
 | 3 अगस्त, 2026 को जाँची गई कीमत | Basic मुफ्त; annual billing पर Pro US$7.99 प्रति माह दिखाया गया; Enterprise के लिए quote | Hosted app beta के दौरान मुफ्त; self-hosted software मुफ्त, लेकिन infrastructure और provider costs अलग | इस्तेमाल और hosting के तरीके पर निर्भर |
 | मालिकाना हक | Proprietary hosted service; Pro में export उपलब्ध | पूरा application और infrastructure MIT licensed; documented AWS self-hosting | Nibomo |
@@ -123,9 +123,9 @@ Brainscape में आम files इम्पोर्ट करने के �
 
 Export उपलब्ध है, लेकिन [Brainscape deck export के लिए Pro चाहिए](https://brainscape.zendesk.com/hc/en-us/articles/115002383872-How-can-I-export-a-backup-of-my-flashcards)। तैयार files Excel में खुलती हैं और बाद में दोबारा upload की जा सकती हैं। Brainscape यह नहीं बताता कि उस export में confidence ratings, study history, analytics, classes या permission state शामिल होते हैं, इसलिए इसे पूरे learning environment की portable copy के बजाय card-content backup समझें।
 
-Nibomo अपने [`flashcards.zip` package](https://github.com/kirill-markin/flashcards-open-source-app/tree/main/apps/web/src/screens/settings/workspace/packages) को इम्पोर्ट और एक्सपोर्ट करता है। यह active cards, tags और उनसे जुड़े media को Nibomo workspaces या hosted और self-hosted instances के बीच ले जाता है। इसमें review history, FSRS state, workspace settings, डेक का पूरा structure या account data शामिल नहीं होता। Brainscape spreadsheet या Anki package के लिए कोई direct importer नहीं है।
+Nibomo अपने [`flashcards.zip` package](https://github.com/kirill-markin/flashcards-open-source-app/tree/main/apps/web/src/screens/settings/workspace/packages) को इम्पोर्ट और एक्सपोर्ट करता है। यह active cards, tags और उनसे जुड़े media को Nibomo workspaces या hosted और self-hosted instances के बीच ले जाता है। इसमें review history, FSRS state, workspace settings, डेक का पूरा structure या account data शामिल नहीं होता। Brainscape spreadsheet के लिए कोई direct importer नहीं है, और Anki के लिए कोई one-click importer भी नहीं। Anki `.apkg` को AI chat में डाला जा सकता है, जो [उसे नए cards में बदल देता है](/blog/import-anki-apkg/), लेकिन review history साथ नहीं आती।
 
-आप supported files को Nibomo AI chat में attach करके उससे कार्ड का draft बनाने को कह सकते हैं। इससे चुनिंदा सामग्री दोबारा बनाने में मदद मिल सकती है, लेकिन यह AI-assisted authoring process ही रहता है। हर सुझाए गए कार्ड को जाँचें, source से मिलाकर ठीक करें और शुरुआत में पूरी तरह नई FSRS scheduling state मिलने की उम्मीद रखें।
+आप supported files को Nibomo AI chat में attach करके उससे कार्ड बनाने को कह सकते हैं। AI chat इन कार्ड्स को सीधे save कर देता है। इससे चुनिंदा सामग्री दोबारा बनाने में मदद मिल सकती है, लेकिन यह AI-assisted authoring process ही रहता है। हर save हुए कार्ड को source से मिलाकर जाँचें, ज़रूरत हो तो ठीक करें और शुरुआत में पूरी तरह नई FSRS scheduling state मिलने की उम्मीद रखें।
 
 आम files से डेक बनाने में Brainscape आगे है। दोनों में से कोई भी lossless Brainscape-to-Nibomo migration नहीं देता।
 
