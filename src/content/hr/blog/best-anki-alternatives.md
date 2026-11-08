@@ -2,7 +2,7 @@
 title: "Alternative Ankiju u 2026.: što zadržavate, gubite i dobivate prelaskom"
 description: "Usporedite sedam alternativa Ankiju prema očuvanju podataka pri migraciji, radu bez interneta, rasporedu ponavljanja, cijeni, pristupu kodu i vlastitom hostingu te saznajte kada je sigurnije ostati na Ankiju."
 date: "2026-03-14"
-updated: "2026-08-28"
+updated: "2026-11-08"
 image: "/blog/best-anki-alternatives.png"
 keywords:
   - "alternative Ankiju"
@@ -20,9 +20,9 @@ Tu pogrešan izbor alternative Ankiju može skupo stajati. Uredniji uređivač i
 
 Ova usporedba polazi upravo od toga što se pri prijenosu očuva, a što izgubi. Obuhvaća sedam aplikacija poput Ankija: što svaka može preuzeti iz postojeće zbirke, što se mijenja nakon uvoza i kada je ostanak na Ankiju sigurniji ishod.
 
-> **Napomena o autoru:** Ja sam Kirill Markin i razvijam [Nibomo](https://nibomo.com/), jedan od proizvoda u nastavku. Uključio sam ga zbog otvorenog koda, mogućnosti vlastitog hostinga i rada s agentima. Nije automatski pobjednik: nema izravan uvoz datoteka `.apkg`, migracijom iz Ankija gube se podaci, a pokretanje i održavanje sustava na vlastitoj infrastrukturi zahtijeva stvaran rad.
+> **Napomena o autoru:** Ja sam Kirill Markin i razvijam [Nibomo](https://nibomo.com/), jedan od proizvoda u nastavku. Uključio sam ga zbog otvorenog koda, mogućnosti vlastitog hostinga i rada s agentima. Nije automatski pobjednik: Ankijeve datoteke `.apkg` čita samo putem AI razgovora, migracijom iz Ankija gube se podaci, a pokretanje i održavanje sustava na vlastitoj infrastrukturi zahtijeva stvaran rad.
 
-**Činjenice provjerene:** 28. kolovoza 2026. Cijene su javno dostupne američke ili navedene lokalne cijene na taj datum. Iznos može ovisiti o porezima, regiji, posebnim ponudama za obrazovanje i naplati putem trgovina aplikacijama.
+**Činjenice provjerene:** 28. kolovoza 2026. Cijene su javno dostupne američke ili navedene lokalne cijene na taj datum. Iznos može ovisiti o porezima, regiji, posebnim ponudama za obrazovanje i naplati putem trgovina aplikacijama. Pojedinosti o uvozu Ankijevih datoteka `.apkg` u Nibomo provjerene su 8. studenoga 2026.
 
 ![Urar provjerava hoće li provjereni mehanizam džepnog sata stati u drugo kućište](/blog/best-anki-alternatives.png)
 
@@ -41,7 +41,7 @@ Preostale četiri aplikacije služe za ponovnu izradu sadržaja, a ne za migraci
 - **Quizlet** je koristan za javne skupove kartica, razrede, igre i vođeno vježbanje.
 - **Brainscape** grupi nudi jednostavniji ciklus ponavljanja uz ocjenu sigurnosti u odgovor od 1 do 5.
 - **SuperMemo** znači prelazak na njegovu vlasničku metodu i katalog tečajeva.
-- **Nibomo** nudi web i izvorne klijente pod licencom MIT, backend koji možete sami hostati te pristup putem API-ja i MCP-a. Njegov postupak rada s TXT-om ili CSV-om, koji uključuje pregled rezultata, ne čuva Ankijevo stanje učenja.
+- **Nibomo** nudi web i izvorne klijente pod licencom MIT, backend koji možete sami hostati te pristup putem API-ja i MCP-a. Njegov AI razgovor može priloženu datoteku `.apkg` pretvoriti u kartice, ali se Ankijevo stanje učenja ne prenosi.
 
 Ako vaše kartice ovise o točnom prikazu, dodacima ili trenutačnom redu za ponavljanje, ostanak na Ankiju nije neodlučnost. To je odgovor.
 
@@ -78,7 +78,7 @@ Alat za uvoz može zadovoljiti prvi uvjet, a ne zadovoljiti druga dva.
 | [Quizlet](https://quizlet.com/) | [Lijepljenje pojmova i definicija](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content) | Ništa iz Ankija | Vrste bilježaka, predlošci, špilovi, struktura medija i svi podaci o rasporedu |
 | [Brainscape](https://www.brainscape.com/) | [CSV, TXT, XLSX ili ODS](https://brainscape.zendesk.com/hc/en-us/articles/115002369931-How-do-I-import-various-files-to-create-flashcards) | Ništa iz Ankija | Predlošci, dodaci, pravila za medije i svi podaci o rasporedu |
 | [SuperMemo](https://www.supermemo.com/) | [Lijepljenje redaka s pitanjima i odgovorima odvojenima razdjelnikom](https://www.supermemo.com/en/blog/how-to-create-flashcards-for-learning), do 100 odjednom | Ništa iz Ankija | Struktura zbirke, mediji, predlošci i svi podaci o rasporedu |
-| [Nibomo](https://nibomo.com/) | Izrada nacrta uz pomoć AI-ja iz Ankijeva TXT-a ili CSV-a, uz pregled rezultata | Ništa iz Ankija | Nema podrške za `.apkg`; ne prenose se predlošci, vjeran prikaz medija, hijerarhija špilova ni podaci o rasporedu |
+| [Nibomo](https://nibomo.com/) | [Priložite `.apkg` u AI razgovoru](/blog/import-anki-apkg/); AI izravno sprema kartice. Može i TXT ili CSV | Ništa iz Ankija; svaka kartica počinje kao nova | Cloze bilješke postaju kartice s pitanjem i odgovorom; predlošci, CSS, ugniježđenost špilova i svi podaci o rasporedu ne prenose se |
 
 ## Cijena, rad bez interneta, raspored ponavljanja i kontrola nad sustavom
 
@@ -166,11 +166,11 @@ Preuzeti tečajevi mogu se učiti bez interneta u mobilnim aplikacijama. [Vodič
 
 Odaberite SuperMemo ako vam je njegova vlastita metoda ili katalog tečajeva dovoljno važan da započnete novi raspored. Ako je prioritet očuvati postojeći raspored, on rješava pogrešan problem.
 
-## Nibomo: pristup izvornom kodu cijelog sustava, uz najslabiji uvoz iz Ankija
+## Nibomo: pristup izvornom kodu cijelog sustava, uz uvoz iz Ankija samo za sadržaj
 
 Nibomo daje široku kontrolu nad sustavom. [Repozitorij pod licencom MIT](https://github.com/kirill-markin/flashcards-open-source-app) sadrži web-aplikaciju, klijente za iOS i Android, backend, sinkronizaciju za rad bez interneta, infrastrukturu, [javni API](/docs/api/) i [MCP poslužitelj](/docs/mcp-connector/). Ponavljanja koriste [FSRS](/docs/architecture/#scheduling). Web, iOS i Android prvo zapisuju lokalno, dodaju promjene u red za slanje i sinkroniziraju ih nakon ponovnog povezivanja.
 
-To ga ne čini kompatibilnim s Ankijem. Nibomo ne može čitati `.apkg` ni `.colpkg`. Podržana [migracija iz Ankija putem TXT-a](/blog/migrate-from-anki-txt-export-open-source-flashcards/) postupak je izrade nacrta uz pomoć AI-ja i naknadne provjere rezultata, namijenjen uglavnom tekstualnim karticama. Ne čuva predloške, dodatke, hijerarhiju špilova, datume sljedećeg ponavljanja, intervale ni zapise ponavljanja. Reference na medije u TXT datoteci nisu same medijske datoteke, pa špilovi s mnogo medija zahtijevaju zasebnu ponovnu izradu i provjeru.
+To ga ne čini kompatibilnim s Ankijem. Nema uvoza jednim klikom, a Knjižnica → Uvoz prihvaća samo Nibomov `.zip`. Umjesto toga [priložite `.apkg` u AI razgovoru](/blog/import-anki-apkg/) i zatražite da špil pretvori u kartice. U testu s malim oglednim špilom AI je zadržao osnovne kartice, oznake i jednu sliku, bilješke s osnovnom i obrnutom karticom podijelio je na dvije jednosmjerne kartice, a cloze bilješke preoblikovao je u kartice s pitanjem i odgovorom. Podšpilovi su postali obični Nibomo špilovi bez hijerarhije. Predlošci, dodaci, datumi sljedećeg ponavljanja, intervali i zapisi ponavljanja ne prenose se, a datoteke `.colpkg` ne prihvaćaju se. Izvezite s opcijom **Support older Anki versions**; Nibomo AI-ju daje popis naziva medijskih datoteka samo za taj stariji format. Testni paket bio je datoteka u starijem formatu izrađena skriptom, a ne izvoz iz Ankija. Nakon uvoza provjerite slike. Starija [migracija iz Ankija putem TXT-a](/blog/migrate-from-anki-txt-export-open-source-flashcards/) i dalje radi za kartice sa samim tekstom.
 
 Ni Nibomov vlastiti paket `flashcards.zip` nije potpuna sigurnosna kopija. Prenosi kartice, oznake i povezane medije između radnih prostora u Nibomu. Ne prenosi povijest ponavljanja, stanje FSRS-a, potpune strukture špilova, postavke radnog prostora ni račune.
 

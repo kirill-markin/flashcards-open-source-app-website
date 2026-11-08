@@ -2,7 +2,7 @@
 title: "Alternatif RemNote pada 2026: Pilihan Gratis dan Sumber Terbuka"
 description: "Bandingkan alternatif RemNote untuk catatan, PDF, kartu, harga, dan hosting mandiri. Pahami apa yang bisa dipindahkan, apa yang hilang, dan cara menguji migrasi dengan aman."
 date: "2026-03-19"
-updated: "2026-08-31"
+updated: "2026-11-08"
 image: "/blog/remnote-alternative.png"
 keywords:
   - "alternatif remnote"
@@ -21,7 +21,7 @@ RemNote memberi label **Flashcards Only** pada ekspor Anki-nya. Butir catatan ta
 
 > **Tentang penulis:** Saya Kirill Markin, pembuat [Nibomo](/id/), salah satu produk yang dibandingkan di sini. Nibomo bukan pengganti RemNote sepenuhnya. Dalam perbandingan ini, RemNote memiliki alur kerja catatan dan PDF terintegrasi yang paling kuat, sedangkan Anki memiliki sistem kartu dan format migrasi yang paling matang.
 
-**Fakta dan harga diperiksa:** 31 Agustus 2026. Harga yang tercantum menggunakan harga publik di AS, dengan pembayaran tahunan jika disebutkan; pajak, wilayah, toko aplikasi, dan ketentuan beta bisa mengubah jumlahnya.
+**Fakta dan harga diperiksa:** 31 Agustus 2026. Harga yang tercantum menggunakan harga publik di AS, dengan pembayaran tahunan jika disebutkan; pajak, wilayah, toko aplikasi, dan ketentuan beta bisa mengubah jumlahnya. Detail impor `.apkg` Anki di Nibomo diperiksa pada 8 November 2026.
 
 ![Seorang konservator arsip menguji pemindahan sebagian kecil berkas belajar tertaut yang masih utuh ke sistem kartu, file, dan blok yang terpisah](/blog/remnote-alternative.png)
 
@@ -96,7 +96,7 @@ Nibomo mengambil pendekatan dengan kelebihan dan keterbatasan yang hampir berlaw
 
 Cakupan kode sumbernya luas: repositori berlisensi MIT mencakup web, iOS, Android, autentikasi, backend, sinkronisasi, dan infrastruktur. [Panduan hosting mandiri untuk produksi](/docs/self-hosting/) yang didukung menggunakan AWS CDK. Ini bukan perangkat lunak lokal yang siap digunakan lewat satu perintah. Pengelola bertanggung jawab atas biaya cloud, kredensial rahasia, migrasi, pemantauan, pencadangan, uji pemulihan, dan aplikasi seluler yang harus dibangun secara terpisah.
 
-Migrasi menjadi keterbatasan yang lebih besar bagi pengguna RemNote lama. Nibomo mengimpor paket `flashcards.zip` miliknya sendiri, bukan Markdown RemNote atau `.apkg` Anki. Paket itu membawa kartu, tag, dan media yang dirujuk, tetapi tidak membawa riwayat pengulangan, status FSRS, pengaturan ruang kerja, struktur lengkap kumpulan kartu, atau akun. Obrolan AI bisa mengubah teks ekspor menjadi draf kartu yang Anda periksa; itu berarti membangun ulang konten, bukan melanjutkan koleksi lama. [Panduan migrasi TXT](/blog/migrate-from-anki-txt-export-open-source-flashcards/) menjelaskan tahap demi tahap informasi yang hilang dalam proses tersebut.
+Migrasi menjadi keterbatasan yang lebih besar bagi pengguna RemNote lama. Fitur impor di Pustaka Nibomo hanya menerima paket `flashcards.zip` buatan Nibomo sendiri, bukan Markdown RemNote atau `.apkg` Anki. Paket itu membawa kartu, tag, dan media yang dirujuk, tetapi tidak membawa riwayat pengulangan, status FSRS, pengaturan ruang kerja, struktur lengkap kumpulan kartu, atau akun. Obrolan AI bisa membaca `.apkg` Anki yang dilampirkan atau teks ekspor, lalu mengubahnya menjadi kartu baru yang semuanya dimulai dari awal; itu berarti membangun ulang konten, bukan melanjutkan koleksi lama. [Panduan impor `.apkg` Anki](/blog/import-anki-apkg/) menunjukkan apa yang dipertahankan dan apa yang hilang lewat jalur itu, sementara [panduan migrasi TXT](/blog/migrate-from-anki-txt-export-open-source-flashcards/) yang lebih lama membahas jalur teks biasa.
 
 Pilih Nibomo untuk ruang belajar berbasis kartu yang baru atau sederhana jika akses kode sumber seluruh sistem penting bagi Anda. Tetap gunakan RemNote untuk belajar dengan materi yang saling terhubung, dan pilih Anki jika keutuhan data saat migrasi atau struktur kartu lanjutan menjadi prioritas. Untuk perbandingan yang lebih khusus pada sistem kartu, lihat [Anki vs Nibomo](/blog/anki-vs-flashcards-open-source-app/) dan [panduan aplikasi kartu belajar sumber terbuka](/id/blog/best-open-source-flashcard-apps-2026/).
 

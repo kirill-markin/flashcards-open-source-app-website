@@ -2,7 +2,7 @@
 title: "Anki alternatyvos 2026 m.: ką išsaugosite, prarasite ir gausite pakeitę programėlę"
 description: "Palyginkite septynias Anki alternatyvas pagal perkėlimo tikslumą, veikimą be interneto, kartojimo planavimą, kainą, prieigą prie kodo bei savarankišką diegimą ir sužinokite, kada saugiau likti su Anki."
 date: "2026-03-14"
-updated: "2026-08-28"
+updated: "2026-11-08"
 image: "/blog/best-anki-alternatives.png"
 keywords:
   - "Anki alternatyvos"
@@ -20,9 +20,9 @@ Būtent šie skirtumai gali brangiai kainuoti renkantis Anki alternatyvą. Patog
 
 Todėl lyginant svarbiausia, ką pavyks perkelti. Toliau aptariamos septynios į Anki panašios programėlės: ką kiekviena gali perimti iš turimos kolekcijos, kas pasikeičia po importo ir kada saugiau likti su Anki.
 
-> **Autoriaus ryšys su produktu:** esu Kirill Markin ir kuriu [Nibomo](https://nibomo.com/) – vieną iš toliau aptariamų produktų. Jį įtraukiau dėl atvirojo kodo, galimybės diegti savo infrastruktūroje ir darbo su agentais. Tai nereiškia, kad Nibomo savaime geriausias pasirinkimas: tiesioginio `.apkg` importo nėra, perkeliant iš Anki dalis duomenų prarandama, o savarankiškai įdiegtai sistemai reikia rimtos infrastruktūros priežiūros.
+> **Autoriaus ryšys su produktu:** esu Kirill Markin ir kuriu [Nibomo](https://nibomo.com/) – vieną iš toliau aptariamų produktų. Jį įtraukiau dėl atvirojo kodo, galimybės diegti savo infrastruktūroje ir darbo su agentais. Tai nereiškia, kad Nibomo savaime geriausias pasirinkimas: Anki `.apkg` failus jis skaito tik per DI pokalbį, perkeliant iš Anki dalis duomenų prarandama, o savarankiškai įdiegtai sistemai reikia rimtos infrastruktūros priežiūros.
 
-**Faktai patikrinti:** 2026 m. rugpjūčio 28 d. Kainos – tą dieną viešai skelbtos JAV arba nurodytos vietinės kainos. Galutinę sumą gali keisti mokesčiai, regionas, švietimui skirti pasiūlymai ir atsiskaitymas per programėlių parduotuves.
+**Faktai patikrinti:** 2026 m. rugpjūčio 28 d. Kainos – tą dieną viešai skelbtos JAV arba nurodytos vietinės kainos. Galutinę sumą gali keisti mokesčiai, regionas, švietimui skirti pasiūlymai ir atsiskaitymas per programėlių parduotuves. Informacija apie Anki `.apkg` failų importą į Nibomo patikrinta 2026 m. lapkričio 8 d.
 
 ![Laikrodininkas tikrina, ar nusistovėjusios konstrukcijos kišeninio laikrodžio mechanizmas tilps į kitą korpusą](/blog/best-anki-alternatives.png)
 
@@ -41,7 +41,7 @@ Likusiuose keturiuose produktuose turinį reikės atkurti – tai nėra kolekcij
 - **Quizlet** praverčia viešiems rinkiniams, klasėms, žaidimams ir mokymuisi pagal programėlės nurodymus.
 - **Brainscape** grupei siūlo paprastesnį kartojimą, pagrįstą pasitikėjimo atsakymu vertinimu nuo 1 iki 5.
 - **SuperMemo** reiškia perėjimą prie jo nuosavo metodo ir kursų katalogo.
-- **Nibomo** suteikia pagal MIT licenciją platinamą žiniatinklio programėlę ir įrenginiuose įdiegiamus klientus, savo infrastruktūroje diegiamą serverio dalį, API ir MCP prieigą. Jo TXT ar CSV procesas su rezultatų peržiūra Anki mokymosi būsenos neišsaugo.
+- **Nibomo** suteikia pagal MIT licenciją platinamą žiniatinklio programėlę ir įrenginiuose įdiegiamus klientus, savo infrastruktūroje diegiamą serverio dalį, API ir MCP prieigą. Jo DI pokalbis gali pridėtą `.apkg` failą paversti kortelėmis, tačiau Anki mokymosi būsena neperkeliama.
 
 Jei jūsų kortelėms būtinas tikslus atvaizdavimas, papildiniai ar dabartinė kartojimų eilė, likti su Anki nėra neryžtingumas. Tai ir yra atsakymas.
 
@@ -78,7 +78,7 @@ Importavimo priemonė gali atitikti pirmą kriterijų ir neatitikti kitų dviej�
 | [Quizlet](https://quizlet.com/) | [Terminų ir apibrėžimų įklijavimas](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content) | Iš Anki neperkeliama | Užrašų tipai, šablonai, rinkiniai, medijos struktūra ir visi kartojimo planavimo duomenys |
 | [Brainscape](https://www.brainscape.com/) | [CSV, TXT, XLSX arba ODS](https://brainscape.zendesk.com/hc/en-us/articles/115002369931-How-do-I-import-various-files-to-create-flashcards) | Iš Anki neperkeliama | Šablonai, papildiniai, medijos taisyklės ir visi kartojimo planavimo duomenys |
 | [SuperMemo](https://www.supermemo.com/) | [Klausimų ir atsakymų eilučių su skirtukais įklijavimas](https://www.supermemo.com/en/blog/how-to-create-flashcards-for-learning), iki 100 vienu kartu | Iš Anki neperkeliama | Kolekcijos struktūra, medija, šablonai ir visi kartojimo planavimo duomenys |
-| [Nibomo](https://nibomo.com/) | Juodraščių rengimas iš Anki TXT ar CSV su DI pagalba ir rezultatų peržiūra | Iš Anki neperkeliama | `.apkg` nepalaikomas; šablonai, tikslus medijos atkūrimas, rinkinių hierarchija ir visi kartojimo planavimo duomenys neperkeliami |
+| [Nibomo](https://nibomo.com/) | [Pridėkite `.apkg` DI pokalbyje](/blog/import-anki-apkg/); DI korteles išsaugo iš karto. Tinka ir TXT ar CSV | Iš Anki neperkeliama; kiekviena kortelė pradedama kaip nauja | Praleisto teksto užrašai tampa klausimo ir atsakymo kortelėmis; šablonai, CSS, rinkinių hierarchija ir visi kartojimo planavimo duomenys neperkeliami |
 
 ## Kaina, veikimas be interneto, kartojimo planavimas ir kontrolė
 
@@ -166,11 +166,11 @@ Atsisiųstus kursus galima mokytis be interneto mobiliosiose programėlėse. [Ve
 
 Rinkitės SuperMemo, jei jo metodo ar kursų katalogo norite tiek, kad verta pradėti naują kartojimo planą. Jei svarbiausia išsaugoti dabartinį planą, jis sprendžia ne tą problemą.
 
-## Nibomo: visos sistemos kodas prieinamas, tačiau importas iš Anki silpniausias
+## Nibomo: visos sistemos kodas prieinamas, tačiau iš Anki importuojamas tik turinys
 
 Nibomo leidžia valdyti didelę sistemos dalį. [Pagal MIT licenciją platinamoje saugykloje](https://github.com/kirill-markin/flashcards-open-source-app) yra žiniatinklio programėlė, iOS ir Android klientai, serverio dalis, sinchronizavimas po darbo be interneto, infrastruktūra, [vieša API](/docs/api/) ir [MCP serveris](/docs/mcp-connector/). Kartojimui naudojamas [FSRS](/docs/architecture/#scheduling). Žiniatinklio, iOS ir Android programėlės pirmiausia įrašo duomenis vietoje, pakeitimus įtraukia į siuntimo eilę ir sinchronizuoja vėl prisijungus.
 
-Tačiau tai nereiškia suderinamumo su Anki. Nibomo neskaito `.apkg` ar `.colpkg`. Palaikomas [perkėlimas iš Anki per TXT](/blog/migrate-from-anki-txt-export-open-source-flashcards/) yra juodraščių rengimas su DI pagalba ir rezultatų peržiūra, skirtas daugiausia tekstinėms kortelėms. Jis neišsaugo šablonų, papildinių, rinkinių hierarchijos, kartojimo datų, intervalų ar kartojimų įrašų. Medijos nuorodos TXT faile nėra patys medijos failai, todėl rinkinius, kuriuose daug medijos, reikės atskirai atkurti ir patikrinti.
+Tačiau tai nereiškia suderinamumo su Anki. Importo vienu spustelėjimu nėra, o Biblioteka → Importuoti priima tik paties Nibomo `.zip`. Vietoj to [pridėkite `.apkg` DI pokalbyje](/blog/import-anki-apkg/) ir paprašykite rinkinį paversti kortelėmis. Bandant su nedideliu pavyzdiniu rinkiniu, išliko paprastos kortelės, žymos ir vienas paveikslėlis, paprastos ir atvirkštinės kortelės užrašai buvo padalyti į dvi vienos krypties korteles, o praleisto teksto užrašai perrašyti kaip klausimo ir atsakymo kortelės. Porinkiniai tapo vieno lygio Nibomo rinkiniais. Šablonai, papildiniai, kartojimo datos, intervalai ir kartojimų įrašai neperkeliami, o `.colpkg` failai nepriimami. Eksportuokite pasirinkę **Support older Anki versions**; tik šiam senesniam formatui Nibomo perduoda DI medijos failų pavadinimų sąrašą. Bandomasis paketas buvo senesnio formato failas, sukurtas scenarijumi, o ne eksportuotas iš Anki. Po importo patikrinkite paveikslėlius. Senesnis [perkėlimas iš Anki per TXT](/blog/migrate-from-anki-txt-export-open-source-flashcards/) vis dar tinka kortelėms, kuriose yra tik tekstas.
 
 Nuosavas Nibomo `flashcards.zip` paketas taip pat siauresnis už atsarginę kopiją. Jis perkelia korteles, žymas ir susijusią mediją tarp Nibomo darbo sričių. Jis neperkelia kartojimų istorijos, FSRS būsenos, visos rinkinių struktūros, darbo srities nustatymų ar paskyrų.
 

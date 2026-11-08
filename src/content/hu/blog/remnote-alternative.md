@@ -2,7 +2,7 @@
 title: "RemNote-alternatívák 2026-ban: ingyenes és nyílt forráskódú lehetőségek"
 description: "RemNote-alternatívák összehasonlítása: jegyzetek, PDF-ek, tanulókártyák, árak és saját üzemeltetés. Mi vihető át, mi vész el, és hogyan próbáld ki biztonságosan a költözést?"
 date: "2026-03-19"
-updated: "2026-08-31"
+updated: "2026-11-08"
 image: "/blog/remnote-alternative.png"
 keywords:
   - "remnote alternatíva"
@@ -21,7 +21,7 @@ A legjobb **RemNote-alternatíva** megoldja azt a problémát, amiért váltaná
 
 > **A szerző érdekeltsége:** Kirill Markin vagyok, és az itt összehasonlított termékek egyikét, a [Nibomo](/hu/) alkalmazást fejlesztem. A Nibomo nem helyettesíti teljes egészében a RemNote-ot. Ebben az összehasonlításban a RemNote kínálja a legerősebb, jegyzeteket és PDF-eket összekapcsoló munkafolyamatot, az Anki pedig a legkiforrottabb kártyarendszert és adatmigrációs formátumokat.
 
-**A tények és árak ellenőrzésének dátuma:** 2026. augusztus 31. Az árak a nyilvános amerikai díjszabást követik, és ahol jelezzük, éves számlázásra vonatkoznak; az adók, a régió, az alkalmazásbolt és a bétaverzió feltételei módosíthatják az összeget.
+**A tények és árak ellenőrzésének dátuma:** 2026. augusztus 31. Az árak a nyilvános amerikai díjszabást követik, és ahol jelezzük, éves számlázásra vonatkoznak; az adók, a régió, az alkalmazásbolt és a bétaverzió feltételei módosíthatják az összeget. Az Anki `.apkg`-fájlok Nibomóba importálásának részleteit 2026. november 8-án ellenőriztem.
 
 ![Egy levéltári restaurátor egy érintetlen, összekapcsolt tanulási dosszié kis részének átvitelét próbálja ki különálló kártya-, fájl- és blokkrendszerekbe](/blog/remnote-alternative.png)
 
@@ -96,7 +96,7 @@ A Nibomo szinte ellentétes kompromisszumot kínál, mint a RemNote. A [funkció
 
 A hozzáférhető forráskód sok mindenre kiterjed: az MIT-licencű kódtár tartalmazza a webes, iOS- és Android-alkalmazást, a hitelesítést, a szerveroldalt, a szinkronizálást és az infrastruktúrát. Az [éles környezetben történő saját üzemeltetés útmutatója](/docs/self-hosting/) az AWS CDK-ra épülő, támogatott megoldást mutatja be. Ez nem egyetlen paranccsal elindítható helyi készmegoldás. Az üzemeltető felel a felhőköltségekért, a titkos adatokért, az adatmigrációkért, a felügyeletért, a mentésekért, a visszaállítási próbákért és a külön összeállítandó mobilalkalmazásokért.
 
-Egy meglévő RemNote-felhasználónak a költözés a nagyobb korlát. A Nibomo a saját `flashcards.zip` csomagjait importálja, nem a RemNote Markdown-exportját vagy az Anki `.apkg`-fájljait. Ezek a csomagok kártyákat, címkéket és hivatkozott médiafájlokat visznek át, de ismétlési előzményeket, FSRS-állapotot, munkatér-beállításokat, teljes paklistruktúrát vagy fiókokat nem. Az AI-chat segítségével az exportált szövegből ellenőrzött kártyavázlatok készülhetnek; ez a tartalom újraépítése, nem a régi gyűjtemény folytatása. A [TXT-alapú költözési útmutató](/blog/migrate-from-anki-txt-export-open-source-flashcards/) lépésről lépésre mutatja meg, hol jelentkezik ez az adatveszteség.
+Egy meglévő RemNote-felhasználónak a költözés a nagyobb korlát. A Nibomo Könyvtárában az importálás csak a saját `flashcards.zip` csomagokat fogadja, nem a RemNote Markdown-exportját vagy az Anki `.apkg`-fájljait. Ezek a csomagok kártyákat, címkéket és hivatkozott médiafájlokat visznek át, de ismétlési előzményeket, FSRS-állapotot, munkatér-beállításokat, teljes paklistruktúrát vagy fiókokat nem. Az AI-chat be tud olvasni egy csatolt Anki `.apkg`-fájlt vagy exportált szöveget, és kártyákká alakítja, amelyek mind újként indulnak; ez a tartalom újraépítése, nem a régi gyűjtemény folytatása. Az [Anki `.apkg`-importálási útmutató](/blog/import-anki-apkg/) megmutatja, mit tart meg és mit hagy el ez az út, a régebbi [TXT-alapú költözési útmutató](/blog/migrate-from-anki-txt-export-open-source-flashcards/) pedig a sima szöveges utat mutatja be.
 
 Válaszd a Nibomót új vagy egyszerű kártyás munkatérhez, ha a teljes rendszer forráskódjához való hozzáférés fontos. Ha a tanulásban a jegyzetek és források összekapcsolására építesz, tartsd meg a RemNote-ot; ha pedig az adatok pontos átvitele vagy az összetett kártyaszerkezet számít, válaszd az Ankit. A kártyarendszerek szűkebb összehasonlítását az [Anki és Nibomo](/blog/anki-vs-flashcards-open-source-app/) cikkben és a [nyílt forráskódú tanulókártya-alkalmazások útmutatójában](/hu/blog/best-open-source-flashcard-apps-2026/) találod.
 

@@ -2,7 +2,7 @@
 title: "2026년 추천 오픈 소스 플래시카드 앱: FOSS 6종 비교"
 description: "유지보수 중인 오픈 소스 플래시카드 앱 6종을 소스 공개 범위, 오프라인 데이터, 동기화, Anki 가져오기, 내보내기, 셀프 호스팅, 복구 기준으로 비교합니다."
 date: "2026-08-02"
-updated: "2026-09-05"
+updated: "2026-11-08"
 image: "/blog/best-open-source-flashcard-apps-2026-v2.png"
 keywords:
   - "오픈 소스 플래시카드 앱 추천"
@@ -24,7 +24,7 @@ keywords:
 
 > **이해관계 공개:** 저는 Kirill Markin이며, 아래 여섯 앱 중 하나인 [Nibomo](https://nibomo.com/)를 개발하고 있습니다. MIT 라이선스 저장소에 웹 앱, 네이티브 클라이언트, 백엔드, 동기화, 인프라가 포함되어 있습니다. 그렇다고 첫 번째로 추천하지는 않았습니다. 기본 선택으로는 Anki가 더 안전하고, Mnemosyne의 Anki 이전 경로는 더 오래 검증되었으며, 여기 소개하는 앱 중에는 운영이 훨씬 쉬운 것도 있습니다.
 
-**사실 확인일:** 2026년 9월 5일. 안정 버전과 기본 브랜치에만 존재하는 작업을 구분했습니다.
+**사실 확인일:** 2026년 9월 5일. 안정 버전과 기본 브랜치에만 존재하는 작업을 구분했습니다. Nibomo의 Anki `.apkg` 가져오기 관련 내용은 2026년 11월 8일에 확인했습니다.
 
 ![등산객이 오픈 소스 플래시카드 앱을 고르기 전에 열린 배낭 여섯 개를 비교하고 예비 장비를 시험하는 모습](/blog/best-open-source-flashcard-apps-2026-v2.png)
 
@@ -61,7 +61,7 @@ keywords:
 | **Anki** | [26.08.1](https://github.com/ankitects/anki/releases/tag/26.08.1), 2026년 8월 5일 | Windows, macOS, Linux. 별도 Android·iOS 클라이언트, AnkiWeb | 설치형 클라이언트는 로컬 컬렉션으로 학습 | FSRS 또는 기존 SM-2 | AnkiWeb 또는 공식 셀프 호스팅 동기화 서버 | 텍스트, APKG/COLPKG, Mnemosyne 데이터베이스 가져오기. 텍스트 또는 미디어·일정 포함 여부를 선택할 수 있는 패키지 내보내기 | **동기화 서버만 제공.** 직접 호스팅하는 AnkiWeb이나 브라우저 학습 화면은 없음 |
 | **Mnemosyne** | [2.11](https://github.com/mnemosyne-proj/mnemosyne/releases/tag/2.11), 2023년 11월 12일. 2026년에도 저장소 활동이 이어짐 | Windows, macOS, Linux, Android. 제한적인 브라우저 복습 | 데스크톱은 로컬 저장. Android는 오프라인 복습이 가능하지만 편집 불가 | 0~5점 회상 평가에 따른 적응형 방식 | 데스크톱 또는 헤드리스 인스턴스로 내장 동기화 | 사용자 지정 카드 유형과 학습 데이터를 포함한 Anki 전체 가져오기를 공식 문서에 명시. 공유용 내보내기는 전체 백업이 아님 | **동기화와 제한적인 브라우저 복습.** 브라우저 서버에 보안 기능이 없음 |
 | **SiYuan** | [v3.8.2](https://github.com/siyuan-note/siyuan/releases/tag/v3.8.2), 2026년 8월 30일 | Windows, macOS, Linux, Android, iOS, HarmonyOS. Docker를 통한 브라우저 사용 | 네이티브 클라이언트가 워크스페이스를 로컬에 보관 | FSRS | 유료 공식 종단 간 암호화 동기화 또는 유료 외부 S3/WebDAV 연동 | 일반 앱은 Markdown·데이터 가져오기와 여러 문서·데이터 형식 내보내기를 지원. 문서에 명시된 APKG 가져오기는 없음 | **전체 브라우저 앱.** Docker는 네이티브 클라이언트와 동기화되지 않으며 일부 가져오기·내보내기 명령이 빠짐 |
-| **Nibomo** | [v1.23.0](https://github.com/kirill-markin/flashcards-open-source-app/releases/tag/v1.23.0), 2026년 9월 1일 | 웹, iOS, Android | 웹은 IndexedDB, iOS는 SQLite, Android는 SQLite 위의 Room. 로컬 변경을 동기화 대기열에 저장 | FSRS | 호스팅된 백엔드 또는 운영자가 배포한 백엔드 | 자체 ZIP으로 카드, 태그, 출처 메타데이터, 참조 미디어를 옮기지만 덱, 학습 상태, 설정, 계정은 제외. APKG 가져오기 없음 | **전체 웹·백엔드 스택.** 프로덕션 배포는 AWS 중심. 비공개 네이티브 빌드는 별도 |
+| **Nibomo** | [v1.23.0](https://github.com/kirill-markin/flashcards-open-source-app/releases/tag/v1.23.0), 2026년 9월 1일 | 웹, iOS, Android | 웹은 IndexedDB, iOS는 SQLite, Android는 SQLite 위의 Room. 로컬 변경을 동기화 대기열에 저장 | FSRS | 호스팅된 백엔드 또는 운영자가 배포한 백엔드 | 자체 ZIP으로 카드, 태그, 출처 메타데이터, 참조 미디어를 옮기지만 덱, 학습 상태, 설정, 계정은 제외. APKG 가져오기 없음. v1.34.0부터 AI 채팅이 `.apkg`를 콘텐츠만 담은 카드로 변환. 원클릭 가져오기는 여전히 없음 | **전체 웹·백엔드 스택.** 프로덕션 배포는 AWS 중심. 비공개 네이티브 빌드는 별도 |
 | **Recall** | [v1.3.0](https://github.com/Madlezz/Recall/releases/tag/v1.3.0), 2026년 7월 31일 | Windows, macOS, Linux. 설치 가능한 PWA | 데스크톱은 SQLite, 브라우저는 IndexedDB. 계정 불필요, 기본적으로 텔레메트리 비활성화 | FSRS | 데스크톱 폴더 동기화 또는 선택형 암호화 Cloudflare Worker/R2 중계 서버 | 데스크톱 APKG 가져오기로 첫 두 필드, 덱, 태그, 대략적인 복습 일정 스냅샷, 이미지 처리. JSON 및 Recall 아카이브 내보내기 | **암호화된 스냅샷 중계 서버만 제공.** PWA를 호스팅하지 않음 |
 | **Essentialist** | [v0.3.22](https://github.com/essentialist-app/essentialist/releases/tag/v0.3.22), 2025년 10월 10일. 2026년에도 소스 변경이 이어짐 | Android APK, macOS DMG, Linux Flatpak. Windows는 소스에서 빌드 | 네트워크 접근 없음. 덱 내용은 Markdown | 안정 버전: SM-2. 기본 브랜치: FSRS | 없음 | Markdown은 카드 내용을, 함께 저장되는 숨김 데이터베이스는 학습 진행 상태를 보존 | **호스팅할 서버 없음.** Markdown 파일과 그에 딸린 데이터베이스를 함께 백업 |
 
@@ -119,7 +119,7 @@ Nibomo는 이 비교에서 제품 소스를 가장 넓게 공개합니다. MIT �
 
 Nibomo의 자체 ZIP 패키지는 콘텐츠를 옮기는 형식이며 계정 백업은 아닙니다. v1.23.0의 [패키지 스키마](https://github.com/kirill-markin/flashcards-open-source-app/blob/v1.23.0/apps/backend/src/workspacePackages/types.ts)는 앞뒷면 내용, 태그, 카드 유형, 출처 메타데이터, 패키지 메타데이터를 담고, 참조된 미디어는 별도로 묶습니다. 덱 구조, 복습 기록, FSRS 상태, 워크스페이스 설정, 계정은 담지 않습니다.
 
-v1.23.0에는 APKG 가져오기 기능이 없습니다. 문서에 설명된 [Anki TXT/CSV 이전 절차](/blog/migrate-from-anki-txt-export-open-source-flashcards/)는 내보낸 텍스트로 카드를 다시 만들며 사람이 검토해야 합니다. 템플릿, 복습 일정 상태, 덱 구조, 패키지에 포함된 미디어가 자동으로 보존되지는 않습니다. 단순한 텍스트 덱에는 합리적인 방법이지만 많이 커스터마이즈한 컬렉션에는 적합하지 않습니다.
+v1.23.0에는 APKG 가져오기 기능이 없고, 지금도 원클릭 가져오기는 없습니다. 보관함 → 가져오기는 Nibomo 자체 ZIP만 받습니다. [v1.34.0](https://github.com/kirill-markin/flashcards-open-source-app/releases/tag/v1.34.0)부터는 AI 채팅에 `.apkg`를 첨부하고 덱을 카드로 만들어 달라고 요청할 수 있습니다. 작은 샘플 덱으로 테스트했을 때 텍스트, 태그, 이미지 1개가 넘어왔고, 빈칸 채우기 노트는 질문·답변 카드가 되었으며, 모든 카드가 새 카드로 시작했습니다. 템플릿, 복습 일정 상태, 덱 중첩 구조는 유지되지 않습니다. **Support older Anki versions** 옵션을 선택해 내보내세요. Nibomo는 이 이전 형식에서만 AI에 미디어 파일 이름 목록을 전달합니다. 테스트 패키지는 Anki에서 내보낸 파일이 아니라 스크립트로 만든 이전 형식 파일이었습니다. 가져온 뒤에는 이미지를 확인하세요. 자세한 내용은 [`.apkg` 가져오기 안내](/blog/import-anki-apkg/)에 있으며, 예전 방식인 [Anki TXT/CSV 이전 절차](/blog/migrate-from-anki-txt-export-open-source-flashcards/)도 텍스트만 있는 덱에는 여전히 쓸 수 있습니다. 두 방법 모두 단순한 덱에는 합리적이지만 많이 커스터마이즈한 컬렉션에는 적합하지 않습니다.
 
 [셀프 호스팅 가이드](/docs/self-hosting/)도 범위를 명확히 설명합니다. 프로덕션은 RDS, Cognito, API Gateway와 Lambda, S3와 CloudFront, 비밀 정보, 경보, 백업을 포함한 AWS CDK 스택을 사용합니다. Cloudflare DNS, Resend 이메일, Sentry 설정은 AWS 밖에 있습니다. Docker Compose는 로컬 개발용이며, 지원되는 프로덕션 패키지가 아닙니다. 비공개 iOS 또는 Android 바이너리가 필요한 운영자는 별도로 빌드하고 배포해야 합니다.
 

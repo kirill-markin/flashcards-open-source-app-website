@@ -2,7 +2,7 @@
 title: "RemNote alternatyvos 2026 m.: nemokami ir atvirojo kodo pasirinkimai"
 description: "Palyginkite RemNote alternatyvas pagal užrašus, PDF, korteles, kainą ir savarankišką prieglobą. Sužinokite, ką pavyks perkelti, kas prarandama ir kaip saugiai išbandyti perėjimą."
 date: "2026-03-19"
-updated: "2026-08-31"
+updated: "2026-11-08"
 image: "/blog/remnote-alternative.png"
 keywords:
   - "remnote alternatyva"
@@ -21,7 +21,7 @@ Geriausia **RemNote alternatyva** išsprendžia problemą, dėl kurios norite ke
 
 > **Apie autoriaus interesus:** esu Kirill Markin ir kuriu [Nibomo](/lt/), vieną iš čia lyginamų produktų. Nibomo nėra visavertis RemNote pakaitalas. Šiame palyginime RemNote geriausiai sujungia užrašus ir PDF į bendrą darbo eigą, o Anki turi brandžiausią kortelių sistemą ir perkėlimo formatus.
 
-**Faktai ir kainos patikrinti:** 2026 m. rugpjūčio 31 d. Pateiktos viešos JAV kainos; kur nurodyta, mokama už metus. Mokesčiai, regionas, programėlių parduotuvės ir beta versijos sąlygos gali pakeisti galutinę sumą.
+**Faktai ir kainos patikrinti:** 2026 m. rugpjūčio 31 d. Pateiktos viešos JAV kainos; kur nurodyta, mokama už metus. Mokesčiai, regionas, programėlių parduotuvės ir beta versijos sąlygos gali pakeisti galutinę sumą. Informacija apie Anki `.apkg` failų importą į Nibomo patikrinta 2026 m. lapkričio 8 d.
 
 ![Archyvų restauratorius išbando nedidelės dalies perkėlimą iš nepakeistos susietos mokymosi medžiagos bylos į atskiras kortelių, failų ir blokų sistemas](/blog/remnote-alternative.png)
 
@@ -96,7 +96,7 @@ Nibomo siūlo beveik priešingą kompromisą nei RemNote. Jos [funkcijų](/lt/fe
 
 Viešo pirminio kodo apimtis plati: MIT licencijuota saugykla apima žiniatinklį, iOS, Android, tapatybės patvirtinimą, serverio dalį, sinchronizavimą ir infrastruktūrą. Palaikomame [savarankiško diegimo produkcinėje aplinkoje vadove](/docs/self-hosting/) naudojamas AWS CDK. Tai nėra vienos komandos vietinis diegimas. Administratorius atsako už debesijos išlaidas, slaptus prieigos duomenis, migracijas, stebėseną, atsargines kopijas, atkūrimo bandymus ir atskirai kuriamas mobiliųjų programėlių versijas.
 
-Esamam RemNote naudotojui didesnis apribojimas yra perkėlimas. Nibomo importuoja savo `flashcards.zip` paketus, o ne RemNote Markdown ar Anki `.apkg`. Šie paketai perkelia korteles, žymas ir jose naudojamą mediją, tačiau ne kartojimų istoriją, FSRS būseną, darbo srities nustatymus, visą rinkinių struktūrą ar paskyras. DI pokalbyje eksportuotą tekstą galima paversti kortelių ruošiniais ir juos patikrinti; taip turinys kuriamas iš naujo, o ne tęsiama sena kolekcija. [Perkėlimo per TXT vadove](/blog/migrate-from-anki-txt-export-open-source-flashcards/) šios ribos ir praradimai paaiškinami žingsnis po žingsnio.
+Esamam RemNote naudotojui didesnis apribojimas yra perkėlimas. Per biblioteką Nibomo importuoja tik savo `flashcards.zip` paketus, o ne RemNote Markdown ar Anki `.apkg`. Šie paketai perkelia korteles, žymas ir jose naudojamą mediją, tačiau ne kartojimų istoriją, FSRS būseną, darbo srities nustatymus, visą rinkinių struktūrą ar paskyras. DI pokalbis gali perskaityti pridėtą Anki `.apkg` arba eksportuotą tekstą ir paversti jį kortelėmis, kurios visos pradedamos kaip naujos; taip turinys kuriamas iš naujo, o ne tęsiama sena kolekcija. [Anki `.apkg` importo vadove](/blog/import-anki-apkg/) parodyta, kas šiuo būdu išlieka ir kas prarandama, o senesniame [perkėlimo per TXT vadove](/blog/migrate-from-anki-txt-export-open-source-flashcards/) aprašytas grynojo teksto būdas.
 
 Rinkitės Nibomo naujai ar paprastai kortelių darbo sričiai, kai svarbi prieiga prie visos sistemos pirminio kodo. Susietam mokymuisi pasilikite RemNote, o kai svarbus perkėlimo tikslumas ar sudėtinga kortelių struktūra, rinkitės Anki. Siauresnį kortelių sistemų palyginimą rasite straipsniuose [Anki ir Nibomo](/blog/anki-vs-flashcards-open-source-app/) bei [atvirojo kodo mokymosi kortelių programėlių vadove](/lt/blog/best-open-source-flashcard-apps-2026/).
 

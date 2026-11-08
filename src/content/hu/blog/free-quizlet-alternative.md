@@ -3,7 +3,7 @@ title: "A legjobb ingyenes Quizlet-alternatívák 2026-ban: 5 alkalmazás össze
 description: "Anki, Knowt, RemNote, Mochi és Nibomo: ingyenes tanulókártyák, szinkronizálás, offline használat, Quizlet-import, MI-korlátok és az ingyenes csomagok buktatói."
 image: "/blog/free-quizlet-alternative-v2.png"
 date: "2026-06-20"
-updated: "2026-09-10"
+updated: "2026-11-08"
 keywords:
   - "ingyenes Quizlet-alternatívák"
   - "legjobb ingyenes Quizlet-alternatíva"
@@ -25,7 +25,7 @@ Az a legjobb ingyenes Quizlet-alternatíva, amelynek a korlátai beleférnek a t
 
 > **Átláthatóság:** Kirill Markin vagyok, és én fejlesztem a Nibomót, az itt összehasonlított öt alkalmazás egyikét. A nyílt forráskód, az FSRS és az MI-ágensekkel végezhető munka miatt vettem fel a listára. Nem mindenki számára ez a legjobb választás: nincs közvetlen Quizlet-importálója, saját átviteli csomagja nem őrzi meg az ismétlések állapotát, és a szolgáltatásként elérhető alkalmazás jelenlegi ingyenes ajánlata a bétaverzióra szól. Ez az összehasonlítás hivatalos árlisták, súgóoldalak és a kódtárak dokumentációjának ellenőrzésén alapul; nem állítom, hogy mind az öt alkalmazást hosszú távon, személyesen teszteltem.
 
-**Az adatok ellenőrzésének dátuma:** 2026. szeptember 10.
+**Az adatok ellenőrzésének dátuma:** 2026. szeptember 10.; az Anki `.apkg`-fájlok Nibomóba importálásának részleteit 2026. november 8-án ellenőriztem.
 
 ![Egy diák egy tanulókártya-mintakészlettel a kezében öt hajót hasonlít össze, mielőtt ingyenes Quizlet-alternatívát választana és kipróbálná az adatok oda-vissza átvitelét](/blog/free-quizlet-alternative-v2.png)
 
@@ -114,7 +114,7 @@ A Nibomo ezen a listán egy szűkebb igénykörre ad választ. A szolgáltatásk
 
 A hosszú távú ígéret szűkebb, mint a béta ajánlata. Az alapvető kártyakészítés és ismétlés ingyenes marad. Nagyobb MI-használathoz később saját szolgáltatói kulcsra vagy fizetős lehetőségre lehet szükség, és nincs ígéret arra, hogy a szolgáltatásként elérhető változat minden funkciója örökre ingyenes marad.
 
-A Quizletből való átköltözés a megoldás leggyengébb pontja is. A Nibomónak nincs közvetlen Quizlet-, CSV-, TSV-, Anki- vagy általános szövegimportálója. Az exportálható Quizlet-szöveg alapanyag lehet a kézi újraépítéshez vagy ellenőrzött MI-vázlatokhoz, de ez nem veszteségmentes import. A [Quizlet-exportálási útmutató](/hu/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/) bemutatja a tisztítás lépéseit anélkül, hogy a hiányzó médiafájlok és tanulási állapot visszaállíthatóságát ígérné.
+A Quizletből való átköltözés a megoldás leggyengébb pontja is. A Nibomónak nincs egykattintásos Quizlet-, CSV-, TSV-, Anki- vagy általános szövegimportálója. Egy Anki `.apkg`-fájl bekerülhet az MI-csevegésbe, amely [új kártyákká alakítja](/blog/import-anki-apkg/). Az exportálható Quizlet-szöveg alapanyag lehet a kézi újraépítéshez vagy ellenőrzött MI-vázlatokhoz, de ez nem veszteségmentes import. A [Quizlet-exportálási útmutató](/hu/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/) bemutatja a tisztítás lépéseit anélkül, hogy a hiányzó médiafájlok és tanulási állapot visszaállíthatóságát ígérné.
 
 A saját `flashcards.zip` csomag kártyákat, címkéket és kapcsolódó médiafájlokat visz át a Nibomo munkaterületei között. Nem viszi át az ismétlési előzményeket, az FSRS-ütemező állapotát, a beállításokat, a teljes paklistruktúrát vagy a fiókadatokat. Saját üzemeltetéssel megkapod az MIT-licencű szoftvert és a telepítés feletti irányítást, de a dokumentált éles üzemeltetési mód AWS-t használ, és továbbra is vannak infrastruktúra-, szolgáltatói, karbantartási, mentési és üzemeltetői költségei. A [saját üzemeltetés útmutatója](/docs/self-hosting/) részletezi ezeket a kereteket.
 

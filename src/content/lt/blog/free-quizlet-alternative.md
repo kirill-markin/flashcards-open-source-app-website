@@ -3,7 +3,7 @@ title: "Geriausios nemokamos „Quizlet“ alternatyvos 2026 m.: 5 programėlių
 description: "Palyginkite „Anki“, „Knowt“, „RemNote“, „Mochi“ ir „Nibomo“: nemokamą mokymąsi su kortelėmis, sinchronizavimą, darbą be interneto, „Quizlet“ importą, DI ribas ir nemokamų planų išlygas."
 image: "/blog/free-quizlet-alternative-v2.png"
 date: "2026-06-20"
-updated: "2026-09-10"
+updated: "2026-11-08"
 keywords:
   - "nemokamos Quizlet alternatyvos"
   - "geriausia nemokama Quizlet alternatyva"
@@ -25,7 +25,7 @@ Geriausia nemokama „Quizlet“ alternatyva yra ta, kurios išlygos netrukdo j�
 
 > **Apie mano ryšį su produktu:** esu Kirill Markin ir kuriu „Nibomo“, vieną iš penkių čia lyginamų programėlių. Įtraukiau ją dėl atvirojo kodo, FSRS ir darbo su agentais galimybių. Ji nėra geriausias pasirinkimas visiems: neturi tiesioginio „Quizlet“ importo, jos savasis perkėlimo paketas neišsaugo kartojimo būsenos, o šiuo metu nemokama mūsų talpinama programėlė yra beta versija. Šis palyginimas remiasi patikrintais šaltiniais: oficialiais kainoraščiais, pagalbos puslapiais ir saugyklų dokumentacija. Netvirtinu, kad visas penkias programėles pats išsamiai išbandžiau ilgą laiką jomis naudodamasis.
 
-**Faktai patikrinti:** 2026 m. rugsėjo 10 d.
+**Faktai patikrinti:** 2026 m. rugsėjo 10 d.; informacija apie „Anki“ `.apkg` failų importą į „Nibomo“ patikrinta 2026 m. lapkričio 8 d.
 
 ![Studentas su pavyzdiniu mokymosi rinkiniu lygina penkis laivelius prieš pasirinkdamas nemokamą „Quizlet“ alternatyvą ir išbandydamas duomenų perkėlimą į ją bei eksportą iš jos](/blog/free-quizlet-alternative-v2.png)
 
@@ -114,7 +114,7 @@ Rinkitės „Mochi“, jei mokymasis be paskyros ir interneto bei „Markdown“
 
 Ilgalaikis pažadas siauresnis už beta pasiūlymą. Pagrindinės kortelių kūrimo ir kartojimo funkcijos liks nemokamos. Intensyvesniam DI naudojimui vėliau gali prireikti savo paslaugos teikėjo rakto arba mokamos parinkties, ir nežadama, kad visos talpinamos paslaugos funkcijos amžinai liks nemokamos.
 
-Perkėlimas iš „Quizlet“ taip pat yra silpniausia šio pasirinkimo vieta. „Nibomo“ neturi tiesioginio „Quizlet“, CSV, TSV, „Anki“ ar bendrojo teksto importo. Leidžiamą eksportuoti „Quizlet“ tekstą galima naudoti kaip medžiagą kortelėms atkurti rankiniu būdu arba DI juodraščiams, kuriuos reikia patikrinti, tačiau tai nėra importas be nuostolių. [„Quizlet“ eksporto vadove](/lt/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/) paaiškinta, kaip paruošti tekstą, nežadant atkurti trūkstamos medijos ir mokymosi būsenos.
+Perkėlimas iš „Quizlet“ taip pat yra silpniausia šio pasirinkimo vieta. „Nibomo“ neturi „Quizlet“, CSV, TSV, „Anki“ ar bendrojo teksto importo vienu spustelėjimu. „Anki“ `.apkg` failą galima pridėti DI pokalbyje, kuris [paverčia jį naujomis kortelėmis](/blog/import-anki-apkg/). Leidžiamą eksportuoti „Quizlet“ tekstą galima naudoti kaip medžiagą kortelėms atkurti rankiniu būdu arba DI juodraščiams, kuriuos reikia patikrinti, tačiau tai nėra importas be nuostolių. [„Quizlet“ eksporto vadove](/lt/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/) paaiškinta, kaip paruošti tekstą, nežadant atkurti trūkstamos medijos ir mokymosi būsenos.
 
 Savasis `flashcards.zip` paketas perkelia korteles, žymas ir susijusią mediją tarp „Nibomo“ darbo erdvių. Jis neperkelia kartojimo istorijos, FSRS planuoklio būsenos, nustatymų, visos kaladžių struktūros ar paskyros duomenų. Savarankiškas talpinimas suteikia MIT licencijuotą programinę įrangą ir diegimo kontrolę, tačiau dokumentuotas diegimas realiam naudojimui remiasi AWS, tad vis tiek lieka infrastruktūros, paslaugų teikėjų, priežiūros, atsarginių kopijų ir administravimo išlaidos. [Savarankiško talpinimo vadove](/docs/self-hosting/) ši riba paaiškinta išsamiai.
 

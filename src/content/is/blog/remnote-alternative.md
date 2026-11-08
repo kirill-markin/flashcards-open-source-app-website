@@ -2,7 +2,7 @@
 title: "Valkostir við RemNote árið 2026: ókeypis og opinn hugbúnaður"
 description: "Berðu saman valkosti við RemNote út frá glósum, PDF-skjölum, námskortum, verði og eigin hýsingu. Sjáðu hvað flyst, hvað tapast og hvernig þú prófar flutninginn."
 date: "2026-03-19"
-updated: "2026-08-31"
+updated: "2026-11-08"
 image: "/blog/remnote-alternative.png"
 keywords:
   - "valkostur við remnote"
@@ -21,7 +21,7 @@ Besti **valkosturinn við RemNote** er sá sem leysir vandann sem fær þig til 
 
 > **Upplýsingar um hagsmunatengsl:** Ég heiti Kirill Markin og þróa [Nibomo](/is/), eina af vörunum í þessum samanburði. Nibomo kemur ekki að fullu í stað RemNote. RemNote býður upp á besta samþætta vinnuflæðið fyrir glósur og PDF-skjöl í þessum samanburði, en Anki er með þroskaðasta kortakerfið og flutningssniðin.
 
-**Staðreyndir og verð yfirfarin:** 31. ágúst 2026. Verðin eru opinber verð í Bandaríkjunum og miðast við ársgreiðslu þar sem það er tekið fram. Skattar, landsvæði, forritaverslanir og skilmálar beta-útgáfna geta breytt upphæðinni.
+**Staðreyndir og verð yfirfarin:** 31. ágúst 2026. Verðin eru opinber verð í Bandaríkjunum og miðast við ársgreiðslu þar sem það er tekið fram. Skattar, landsvæði, forritaverslanir og skilmálar beta-útgáfna geta breytt upphæðinni. Upplýsingar um innflutning Anki `.apkg`-skráa í Nibomo voru yfirfarnar 8. nóvember 2026.
 
 ![Skjalaforvörður prófar að flytja lítinn hluta úr heilu safni samtengdra námsgagna í aðskilin kerfi fyrir kort, skrár og textablokkir](/blog/remnote-alternative.png)
 
@@ -96,7 +96,7 @@ Nibomo forgangsraðar nánast öfugt við RemNote. [Eiginleikarnir](/is/features
 
 Frumkóðinn nær yfir allt kerfið: kóðasafnið með MIT-leyfi inniheldur vef, iOS, Android, auðkenningu, bakenda, samstillingu og innviði. [Leiðarvísirinn fyrir eigin hýsingu í rekstri](/docs/self-hosting/) lýsir studdu uppsetningarleiðinni með AWS CDK. Þetta er ekki staðbundin lausn sem þú ræsir með einni skipun. Rekstraraðilar bera ábyrgð á skýjakostnaði, leynilegum aðgangsupplýsingum, gagnaflutningum, vöktun, afritum, prófunum á endurheimt og símaforritum sem þarf að byggja sérstaklega.
 
-Flutningurinn er stærri takmörkunin fyrir núverandi RemNote-notanda. Nibomo flytur inn eigin `flashcards.zip`-pakka, ekki RemNote Markdown eða Anki `.apkg`. Þessir pakkar innihalda kort, merki og miðla sem kortin vísa í, en ekki upprifjunarsögu, FSRS-stöðu, stillingar vinnusvæðis, alla uppbyggingu bunka eða notandaaðganga. Gervigreindarspjall getur breytt útfluttum texta í kortadrög sem þú ferð yfir; það er endurgerð efnis, ekki áframhald gamla safnsins. [Leiðarvísirinn um TXT-flutning](/blog/migrate-from-anki-txt-export-open-source-flashcards/) sýnir þetta skref fyrir skref og hvað tapast á leiðinni.
+Flutningurinn er stærri takmörkunin fyrir núverandi RemNote-notanda. Innflutningur í Safni Nibomo tekur aðeins við `flashcards.zip`-pökkum Nibomo sjálfs, ekki RemNote Markdown eða Anki `.apkg`. Þessir pakkar innihalda kort, merki og miðla sem kortin vísa í, en ekki upprifjunarsögu, FSRS-stöðu, stillingar vinnusvæðis, alla uppbyggingu bunka eða notandaaðganga. Gervigreindarspjall getur lesið Anki `.apkg`-skrá í viðhengi eða útfluttan texta og breytt efninu í kort sem öll byrja sem ný; það er endurgerð efnis, ekki áframhald gamla safnsins. [Leiðarvísirinn um Anki `.apkg`-innflutning](/blog/import-anki-apkg/) sýnir hvað þessi leið varðveitir og hvað glatast, og eldri [leiðarvísirinn um TXT-flutning](/blog/migrate-from-anki-txt-export-open-source-flashcards/) fjallar um leiðina með hreinum texta.
 
 Veldu Nibomo fyrir nýtt eða einfalt kortavinnusvæði þegar aðgangur að frumkóða alls kerfisins skiptir máli. Haltu þig við RemNote fyrir nám með samtengdum glósum og veldu Anki þegar varðveisla gagna við flutning eða flókin kortauppbygging skiptir máli. Fyrir afmarkaðri samanburð á kortakerfum má lesa [Anki og Nibomo](/blog/anki-vs-flashcards-open-source-app/) og [leiðarvísinn um opin námskortaforrit](/is/blog/best-open-source-flashcard-apps-2026/).
 

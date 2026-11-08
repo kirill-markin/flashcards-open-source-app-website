@@ -2,7 +2,7 @@
 title: "Alternative a RemNote nel 2026: opzioni gratuite e open source"
 description: "Confronta le alternative a RemNote per appunti, PDF, flashcard, prezzi e self-hosting. Scopri cosa si trasferisce, cosa si perde e come provare il passaggio in sicurezza."
 date: "2026-03-19"
-updated: "2026-08-31"
+updated: "2026-11-08"
 image: "/blog/remnote-alternative.png"
 keywords:
   - "alternativa a remnote"
@@ -21,7 +21,7 @@ La migliore **alternativa a RemNote** risolve il motivo per cui vuoi cambiare se
 
 > **Per trasparenza:** sono Kirill Markin e sviluppo [Nibomo](/it/), uno dei prodotti confrontati qui. Nibomo non sostituisce tutte le funzioni di RemNote. Tra le opzioni di questo confronto, RemNote offre la migliore integrazione tra appunti e PDF, mentre Anki ha il sistema di flashcard e i formati di migrazione più maturi.
 
-**Informazioni e prezzi verificati il:** 31 agosto 2026. I prezzi indicati sono quelli pubblici statunitensi, con fatturazione annuale dove specificato; imposte, area geografica, app store e condizioni della beta possono modificare l'importo.
+**Informazioni e prezzi verificati il:** 31 agosto 2026. I prezzi indicati sono quelli pubblici statunitensi, con fatturazione annuale dove specificato; imposte, area geografica, app store e condizioni della beta possono modificare l'importo. I dettagli sull'importazione dei file `.apkg` di Anki in Nibomo sono stati verificati l'8 novembre 2026.
 
 ![Un conservatore d'archivio prova a trasferire una piccola parte di un dossier di studio con contenuti collegati, lasciandolo intatto, verso sistemi separati di schede, file e blocchi](/blog/remnote-alternative.png)
 
@@ -96,7 +96,7 @@ Nibomo sceglie un compromesso quasi opposto a quello di RemNote. Le sue [funzion
 
 Il codice disponibile copre un ambito ampio: il repository con licenza MIT include web, iOS, Android, autenticazione, backend, sincronizzazione e infrastruttura. La [guida alla configurazione supportata per il self-hosting in produzione](/docs/self-hosting/) usa AWS CDK. Non è una soluzione locale da avviare con un solo comando. Chi la gestisce si occupa di costi cloud, segreti, migrazioni, monitoraggio, backup, prove di ripristino e compilazione separata delle app mobili.
 
-Per chi usa già RemNote, la migrazione è il limite maggiore. Nibomo importa i propri pacchetti `flashcards.zip`, non i file Markdown di RemNote o i `.apkg` di Anki. Questi pacchetti contengono carte, tag e contenuti multimediali a cui rimandano le carte, ma non cronologia dei ripassi, stato FSRS, impostazioni dello spazio di lavoro, struttura completa dei mazzi o account. La chat IA può trasformare il testo esportato in bozze di carte da controllare; significa ricostruire i contenuti, non proseguire con la vecchia collezione. La [guida alla migrazione tramite TXT](/blog/migrate-from-anki-txt-export-open-source-flashcards/) mostra passo per passo i limiti e le perdite di questo passaggio.
+Per chi usa già RemNote, la migrazione è il limite maggiore. In Nibomo l'importazione dalla Libreria accetta solo i pacchetti `flashcards.zip` dell'app, non i file Markdown di RemNote o i `.apkg` di Anki. Questi pacchetti contengono carte, tag e contenuti multimediali a cui rimandano le carte, ma non cronologia dei ripassi, stato FSRS, impostazioni dello spazio di lavoro, struttura completa dei mazzi o account. La chat IA può leggere un `.apkg` di Anki allegato o il testo esportato e trasformarlo in carte che partono tutte come nuove; significa ricostruire i contenuti, non proseguire con la vecchia collezione. La [guida all'importazione di `.apkg` da Anki](/blog/import-anki-apkg/) mostra cosa conserva e cosa perde questo percorso, mentre la [guida alla migrazione tramite TXT](/blog/migrate-from-anki-txt-export-open-source-flashcards/), più vecchia, copre il percorso in testo semplice.
 
 Scegli Nibomo per uno spazio di flashcard nuovo o semplice, quando conta l'accesso al codice dell'intero stack. Tieni RemNote per uno studio basato su contenuti collegati e scegli Anki quando contano la fedeltà della migrazione o strutture di carte avanzate. Per un confronto più circoscritto tra sistemi di flashcard, leggi [Anki vs Nibomo](/blog/anki-vs-flashcards-open-source-app/) e la [guida alle app di flashcard open source](/it/blog/best-open-source-flashcard-apps-2026/).
 

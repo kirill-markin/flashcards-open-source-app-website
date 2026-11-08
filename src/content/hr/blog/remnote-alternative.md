@@ -2,7 +2,7 @@
 title: "Alternative RemNoteu u 2026.: besplatne opcije i opcije otvorenog koda"
 description: "Usporedite alternative RemNoteu prema bilješkama, PDF-ovima, karticama, cijeni i vlastitom hostingu. Saznajte što se prenosi, što se gubi i kako isprobati siguran prijelaz."
 date: "2026-03-19"
-updated: "2026-08-31"
+updated: "2026-11-08"
 image: "/blog/remnote-alternative.png"
 keywords:
   - "alternativa RemNoteu"
@@ -21,7 +21,7 @@ Najbolja **alternativa RemNoteu** rješava razlog zbog kojeg želite otići, a d
 
 > **Napomena o autoru:** Ja sam Kirill Markin i razvijam [Nibomo](/hr/), jedan od proizvoda u ovoj usporedbi. Nibomo nije potpuna zamjena za RemNote. RemNote u ovoj usporedbi nudi najbolje povezan rad s bilješkama i PDF-ovima, dok Anki ima najzreliji sustav kartica i formate za prijenos.
 
-**Činjenice i cijene provjerene:** 31. kolovoza 2026. Navedene su javne cijene za SAD, uz godišnju naplatu gdje je to naznačeno; porezi, regije, trgovine aplikacija i uvjeti beta-verzija mogu utjecati na iznos.
+**Činjenice i cijene provjerene:** 31. kolovoza 2026. Navedene su javne cijene za SAD, uz godišnju naplatu gdje je to naznačeno; porezi, regije, trgovine aplikacija i uvjeti beta-verzija mogu utjecati na iznos. Pojedinosti o uvozu Ankijevih datoteka `.apkg` u Nibomo provjerene su 8. studenoga 2026.
 
 ![Arhivski konzervator isprobava mali prijenos iz cjelovite, povezane zbirke materijala za učenje u odvojene sustave kartica, datoteka i blokova](/blog/remnote-alternative.png)
 
@@ -96,7 +96,7 @@ Nibomo prihvaća gotovo suprotan kompromis od RemNotea. Njegove [značajke](/hr/
 
 Opseg dostupnog koda širok je: repozitorij pod licencom MIT uključuje web, iOS, Android, autentifikaciju, pozadinski sustav, sinkronizaciju i infrastrukturu. Podržani [vodič za vlastiti hosting u produkciji](/docs/self-hosting/) koristi AWS CDK. To nije lokalno rješenje koje pokrenete jednom naredbom. Oni koji ga održavaju odgovorni su za troškove u oblaku, tajne podatke za pristup, migracije, nadzor, sigurnosne kopije, testove vraćanja podataka i zasebnu izgradnju mobilnih aplikacija.
 
-Postojećem korisniku RemNotea veće je ograničenje prijenos. Nibomo uvozi vlastite pakete `flashcards.zip`, a ne Markdown iz RemNotea ili Ankijev `.apkg`. Ti paketi prenose kartice, oznake i medijske sadržaje na koje kartice upućuju, ali ne i povijest ponavljanja, stanje FSRS-a, postavke radnog prostora, potpunu strukturu špilova ili račune. AI razgovor može izvezeni tekst pretvoriti u nacrte kartica koje zatim pregledate; to je ponovna izrada sadržaja, a ne nastavak stare kolekcije. [Vodič za prijenos putem TXT-a](/blog/migrate-from-anki-txt-export-open-source-flashcards/) korak po korak prikazuje što se pri tome gubi.
+Postojećem korisniku RemNotea veće je ograničenje prijenos. Nibomo kroz Knjižnicu uvozi samo vlastite pakete `flashcards.zip`, a ne Markdown iz RemNotea ili Ankijev `.apkg`. Ti paketi prenose kartice, oznake i medijske sadržaje na koje kartice upućuju, ali ne i povijest ponavljanja, stanje FSRS-a, postavke radnog prostora, potpunu strukturu špilova ili račune. AI razgovor može pročitati priloženi Ankijev `.apkg` ili izvezeni tekst i pretvoriti ga u kartice koje sve počinju kao nove; to je ponovna izrada sadržaja, a ne nastavak stare kolekcije. [Vodič za uvoz Ankijeva `.apkg`](/blog/import-anki-apkg/) pokazuje što se tim putem zadržava, a što gubi, dok stariji [vodič za prijenos putem TXT-a](/blog/migrate-from-anki-txt-export-open-source-flashcards/) pokriva put s običnim tekstom.
 
 Odaberite Nibomo za nov ili jednostavan radni prostor s karticama kada vam je važan pristup izvornom kodu cijelog sustava. Zadržite RemNote za učenje s povezanim materijalima, a odaberite Anki kada su važni vjernost prijenosa ili napredna struktura kartica. Za užu usporedbu sustava kartica pogledajte [Anki i Nibomo](/blog/anki-vs-flashcards-open-source-app/) te [vodič kroz aplikacije za kartice za učenje otvorenog koda](/hr/blog/best-open-source-flashcard-apps-2026/).
 
