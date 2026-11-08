@@ -30,9 +30,9 @@ Aplikácia Nibomo pridáva widget „Opakovanie“ na iPhone, iPad, Mac a Androi
 
 Keď nie je čo opakovať, widget zobrazí „Všetko zopakované“ a čas, keď príde na rad ďalšia kartička. Odpoveď nikdy nezobrazuje. Ťuknutím na widget otvoríte sekciu Opakovanie; stredný alebo veľký widget ju otvorí priamo na zobrazenej kartičke. Widgety sú bezplatné pre všetkých vrátane hostí.
 
-Ďalších osem widgetov ukazuje váš pokrok: „Aktivita“, „Rok“, „Dnes“, „Opakovania“, „Série“, „Kalendár“, „Nadchádzajúce“ a „Prehľad“. Na iPhone môžete widget „Na opakovanie“ pridať aj na zamknutú obrazovku a [sprievodca widgetmi](/blog/flashcard-widget/) ukazuje každý z nich.
+Ďalších osem widgetov ukazuje váš pokrok: „Aktivita“, „Rok“, „Dnes“, „Opakovania“, „Série“, „Kalendár“, „Nadchádzajúce“ a „Prehľad“. Na iPhone a iPade môžete widget „Na opakovanie“ pridať aj na zamknutú obrazovku a [sprievodca widgetmi](/blog/flashcard-widget/) ukazuje každý z nich.
 
-Ak ho chcete pridať na iPhone, iPade alebo Macu, otvorte galériu widgetov, vyberte Nibomo a zvoľte veľkosť. V Androide pridajte widget Nibomo zo zoznamu widgetov a potom zmeňte jeho veľkosť; rozloženie sa prispôsobí veľkosti.
+Ak ho chcete pridať na iPhone, iPade alebo Macu, otvorte galériu widgetov, vyberte Nibomo a zvoľte veľkosť. V Androide pridajte požadovaný widget Nibomo zo zoznamu widgetov a potom zmeňte jeho veľkosť; rozloženie sa prispôsobí veľkosti.
 
 ## Hosťovaná webová aplikácia
 

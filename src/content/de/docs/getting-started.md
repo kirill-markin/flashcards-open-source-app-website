@@ -30,9 +30,9 @@ Die Nibomo-App bringt ein Wiederholen-Widget auf iPhone, iPad, Mac und Android. 
 
 Wenn nichts fällig ist, zeigt das Widget "Alles erledigt" und wann die nächste Karte fällig ist. Eine Antwort zeigt es nie. Tippe auf das Widget, um Wiederholen zu öffnen; ein mittleres oder großes Widget öffnet Wiederholen direkt bei der angezeigten Karte. Widgets sind für alle kostenlos, auch für Gäste.
 
-Acht weitere Widgets zeigen deinen Lernfortschritt: „Aktivität“, „Jahr“, „Heute“, „Wiederholungen“, „Serien“, „Kalender“, „Demnächst“ und „Übersicht“. Auf dem iPhone kannst du außerdem das Widget „Fällige Karten“ auf den Sperrbildschirm legen; der [Widget-Leitfaden](/blog/flashcard-widget/) zeigt jedes davon.
+Acht weitere Widgets zeigen deinen Lernfortschritt: „Aktivität“, „Jahr“, „Heute“, „Wiederholungen“, „Serien“, „Kalender“, „Demnächst“ und „Übersicht“. Auf dem iPhone und iPad kannst du außerdem das Widget „Fällige Karten“ auf den Sperrbildschirm legen; der [Widget-Leitfaden](/blog/flashcard-widget/) zeigt jedes davon.
 
-Auf dem iPhone, iPad oder Mac öffnest du zum Hinzufügen die Widget-Galerie, wählst Nibomo und dann eine Größe. Auf Android fügst du das Nibomo-Widget aus der Widget-Liste hinzu und änderst dann seine Größe; das Layout passt sich der Größe an.
+Auf dem iPhone, iPad oder Mac öffnest du zum Hinzufügen die Widget-Galerie, wählst Nibomo und dann eine Größe. Auf Android fügst du ein Nibomo-Widget aus der Widget-Liste hinzu und änderst dann seine Größe; das Layout passt sich der Größe an.
 
 ## Gehostete Web-App
 

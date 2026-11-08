@@ -100,13 +100,15 @@ Cards due is the one widget you can see without unlocking your iPhone or iPad. I
 
 When nothing's due, the rectangular and inline versions say "All done".
 
-![Nibomo Cards due widgets on an iPhone Lock Screen: a rectangular widget showing 1 due, a 12-day streak, and the start of the next question, and a circular ring with 1 card left](https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/261ca5179e0d39b6e610e6fe46181c094212c76ec82f3fbd04c7938f034fe61c.webp)
+![Nibomo Cards due inline widget on an iPhone Lock Screen showing 1 due and a 12-day streak beside the date, Sun 8](https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/ff8e5708fa5143376b68f959cc0cbf89cd74818fd9e0e16bf4e772b86d403856.webp)
+
+![Nibomo Cards due widgets on an iPhone Lock Screen: a rectangular widget showing 1 due, a 12-day streak, and the question "In economics, what is opportunity cost?" on two lines, next to a circular ring with 1 card left inside](https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/04f0a17f163d59af9b804ead3f61551a1ba63fd06fe9a44b41872ed1693f4ebb.webp)
 
 ### Activity
 
 Activity draws your daily reviews as a heatmap: one square per day, a stronger color on busier days, ice blue for days a streak freeze saved, and today outlined. A streak freeze fills in a day you missed, so the streak keeps going. The Small size shows the last 5 weeks and your streak. Medium stretches to 20 weeks and adds the number of reviews in them. Large keeps the 20 weeks and lists the numbers underneath: current and best streak, reviews and active days in those weeks, reviews today, cards due now, and streak freezes you have left.
 
-![Nibomo Activity widget, Large size, on an iPhone showing a 20-week review heatmap, a 12-day current and best streak, 21 reviews, 16 active days, 6 reviews today, 1 due now, and 1 streak freeze](https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/948ac7e18143fbe737f0e5bc4a57a87de7ea9b47c598af5b50479ec466177574.webp)
+![Nibomo Activity widget, Large size, on an iPhone showing a 20-week review heatmap with reviewed days in solid blue, days a streak freeze saved outlined, and today ringed, then a 12-day current and best streak, 21 reviews, 16 active days, 6 reviews today, 1 due now, and 1 streak freeze](https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/fc1c587e7bfb92a98638f51c7118d8e92f5314c8739ebdd2c465235abfb752d1.webp)
 
 ![Nibomo Activity widget, Small size, on an Android Home Screen showing a 5-week heatmap and an 8-day streak](https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/d20c5ed9004726d73a538a89f835cbc99735b71178094ae4d89573ead6d9c193.webp)
 
@@ -114,7 +116,7 @@ Activity draws your daily reviews as a heatmap: one square per day, a stronger c
 
 Year is the long view: the last 12 months, one row per month, one small square per day, with your total reviews and active days at the bottom. It only comes in Large, because a year needs the room.
 
-![Nibomo Year widget on an iPhone showing a row of daily squares for each month from December to November, 21 reviews, and 16 active days](https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/c2e54683966716820f3697baa8dfaf7334833954156d295b13727a1a62a097ab.webp)
+![Nibomo Year widget on an iPhone showing a row of daily squares for each month from December to November, with reviewed days in solid blue and days a streak freeze saved outlined in October, today ringed, 21 reviews, and 16 active days](https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/aba6e7e91ac0c98f8ed67bcaf73fa1d9e3de4a49c0776fd3d928bfc5dfec7ee8.webp)
 
 ### Streaks
 
@@ -138,7 +140,7 @@ Reviews is a bar chart of your daily reviews: the last 14 days on Medium and the
 
 ![Nibomo Reviews widget, Medium size, on an iPhone showing 14 days of review bars, a daily average line, and a 300% rise compared with the previous 14 days](https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/85a97b0ebf24f3d231e5ad6a0912c6df43a87548913c73adec4a099a88c3f2e4.webp)
 
-![Nibomo Reviews widget, Large size, on an Android Home Screen showing 30 days of review bars colored by answer, a daily average of 1, and an Again, Hard, Good, Easy legend](https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/fd6fcdc12de2ba4a2bba162542ecfeb8bed9a7d3185d50c195bf2758a19742de.webp)
+![Nibomo Reviews widget, Large size, on an Android Home Screen showing 30 days of review bars from Oct 10 to Nov 8 colored by answer, Good in green and today's taller bar in blue for Easy, a dashed daily average line, a daily average of 1, and an Again, Hard, Good, Easy legend](https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/1e16fe17e3456b07f8e76155d052ac8eda753fe6aeba8e82652883e1a413618e.webp)
 
 ### Coming up
 
@@ -148,11 +150,11 @@ Coming up looks forward instead of back. It shows how many cards are due today a
 
 ### Dashboard
 
-Dashboard puts the most useful bits into one Large widget: a ring of today's progress, the cards due, your streak, the next question, and the last 5 weeks of activity with your reviews and active days in them. Like the Review widget, a tap opens Review with the card you saw.
+Dashboard puts the most useful bits into one Large widget: a ring of today's progress, the cards due, your streak, the next question, and the last 5 weeks of activity (on Android, as many weeks as fit the widget) with your reviews and active days in them. Like the Review widget, a tap opens Review with the card you saw.
 
-![Nibomo Dashboard widget on an iPhone showing 6 reviews today in a ring, 1 card to review, a 12-day streak, the question "In economics, what is opportunity cost?", and a 5-week heatmap](https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/3a3d76b320e4cf4ab329d68cd08cd871590d8b4c039c7ee49173219ce1251a02.webp)
+![Nibomo Dashboard widget on an iPhone showing 6 reviews today in a ring, 1 card to review, a 12-day streak, the question "In economics, what is opportunity cost?", and a 5-week heatmap with days a streak freeze saved outlined, next to 20 reviews and 15 active days](https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/f5ceb07562f5327581b4507133d09748601e0ab20c621d7f5e34097a3b81d395.webp)
 
-![Nibomo Dashboard widget on an Android Home Screen showing 6 reviews today in a ring, 1 card due, an 8-day streak, the next question, and a 5-week heatmap](https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/15b24c667363731c705d9cc67c450c0e0eb70d419fca0d5c589b9842af096f41.webp)
+![Nibomo Dashboard widget on an Android Home Screen showing 6 reviews today in a ring, 1 card due, an 8-day streak, the question "In economics, what is opportunity cost?", a 10-week heatmap that fills the rest of the widget, with reviewed days in orange, days a streak freeze saved in light blue, and today outlined, above 21 reviews and 16 active days](https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/9fc7941f4aba942b760b6a3b56de887d4f68e8c21f5347680d5b924d789fa37a.webp)
 
 ## How to add a flashcard widget on iPhone and iPad
 

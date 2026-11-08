@@ -30,9 +30,9 @@ L'application Nibomo ajoute un widget Réviser sur iPhone, iPad, Mac et Android.
 
 Quand rien n'est à réviser, le widget affiche « Vous êtes à jour » et le moment où la prochaine carte sera à réviser. Il n'affiche jamais de réponse. Touchez le widget pour ouvrir Réviser ; un widget Moyen ou Grand ouvre Réviser sur la carte qu'il affiche. Les widgets sont gratuits pour tous, y compris les invités.
 
-Huit autres widgets suivent vos progrès : « Activité », « Année », « Aujourd'hui », « Révisions », « Séries », « Calendrier », « À venir » et « Tableau de bord ». Sur iPhone, vous pouvez aussi placer le widget « Cartes à réviser » sur l'écran verrouillé, et le [guide des widgets](/blog/flashcard-widget/) les présente tous.
+Huit autres widgets suivent vos progrès : « Activité », « Année », « Aujourd'hui », « Révisions », « Séries », « Calendrier », « À venir » et « Tableau de bord ». Sur iPhone et iPad, vous pouvez aussi placer le widget « Cartes à réviser » sur l'écran verrouillé, et le [guide des widgets](/blog/flashcard-widget/) les présente tous.
 
-Pour en ajouter un sur iPhone, iPad ou Mac, ouvrez la galerie de widgets, choisissez Nibomo, puis sélectionnez une taille. Sur Android, ajoutez le widget Nibomo depuis la liste des widgets, puis redimensionnez-le ; la mise en page s'adapte à la taille.
+Pour en ajouter un sur iPhone, iPad ou Mac, ouvrez la galerie de widgets, choisissez Nibomo, puis sélectionnez une taille. Sur Android, ajoutez un widget Nibomo depuis la liste des widgets, puis redimensionnez-le ; la mise en page s'adapte à la taille.
 
 ## Application web hébergée
 
