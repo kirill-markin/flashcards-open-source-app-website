@@ -5,6 +5,7 @@ title: "2026 में AP US History फ़्लैशकार्ड: APUSH pe
 description: "2026 में AP US History flashcards के लिए practical workflow चाहिए? यहाँ APUSH periods, themes, sourcing, MCQ sets, SAQs, DBQs, LEQs और spaced repetition पढ़ने का तरीका है, बिना अपने deck को दूसरी textbook बनाए।"
 image: "/blog/how-to-use-flashcards-for-ap-us-history.png"
 date: "2026-05-16"
+updated: "2026-11-08"
 keywords:
   - "AP US History फ़्लैशकार्ड"
   - "APUSH फ़्लैशकार्ड"
@@ -224,7 +225,7 @@ LEQ वह जगह है जहाँ date-only decks बहुत जल्�
 
 यही **AP US History स्पेस्ड रिपीटिशन** का practical version है। छोटा deck, sharper cards, और ज़्यादा real practice।
 
-अगर आप किसी बड़े premade deck या पुराने **APUSH Anki** setup से आ रहे हैं, तो [2026 में Anki से Open Source Flashcards App पर कैसे migrate करें](/blog/migrate-from-anki-txt-export-open-source-flashcards/) सबसे साफ handoff guide है। Scheduling side के लिए [2026 में FSRS के साथ exam की तैयारी कैसे करें](/blog/how-to-study-for-an-exam-with-fsrs/) सबसे अच्छा companion है।
+अगर आप किसी बड़े premade deck या पुराने **APUSH Anki** setup से आ रहे हैं, तो deck की `.apkg` file को Nibomo के AI chat में डालें। [Anki `.apkg` को Nibomo में इंपोर्ट करना](/blog/import-anki-apkg/) इसी main route को समझाता है और बताता है कि क्या-क्या आता है। पुरानी TXT guide, [2026 में Anki से Open Source Flashcards App पर कैसे migrate करें](/blog/migrate-from-anki-txt-export-open-source-flashcards/), सिर्फ़ text वाले decks के लिए अब भी काम करती है। Scheduling side के लिए [2026 में FSRS के साथ exam की तैयारी कैसे करें](/blog/how-to-study-for-an-exam-with-fsrs/) सबसे अच्छा companion है।
 
 ## APUSH workflow में Nibomo कहाँ fit बैठता है
 

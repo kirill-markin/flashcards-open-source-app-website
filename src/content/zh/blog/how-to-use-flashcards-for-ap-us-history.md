@@ -5,6 +5,7 @@ title: "2026 年如何用抽认卡备考 AP US History：APUSH 时期、DBQ 和�
 description: "想在 2026 年用更实用的 AP US History 抽认卡备考？这篇文章会讲清楚，怎样复习 APUSH 的时期、主题、sourcing、MCQ 材料组、SAQ、DBQ、LEQ 和间隔重复，而不是把牌组做成第二本教材。"
 image: "/blog/how-to-use-flashcards-for-ap-us-history.png"
 date: "2026-05-16"
+updated: "2026-11-08"
 keywords:
   - "AP US History 抽认卡"
   - "APUSH 抽认卡"
@@ -224,7 +225,7 @@ LEQ 恰好是那种“只背日期”的牌组会很快失效的地方。你不�
 
 这才是 **AP US History 间隔重复** 更实用的版本：更小的牌组、更利落的卡片、更多真实练习。
 
-如果你现在正从一副很大的预制牌组，或者较老的 **APUSH Anki** 流程迁移出来，那 [2026 年如何从 Anki 迁移到开源抽认卡应用](/blog/migrate-from-anki-txt-export-open-source-flashcards/) 会是最顺手的迁移指南。至于排程这一层，[2026 年如何用 FSRS 备考](/blog/how-to-study-for-an-exam-with-fsrs/) 最值得配着看。
+如果你现在正从一副很大的预制牌组，或者较老的 **APUSH Anki** 流程迁移出来，主要做法是把牌组的 `.apkg` 附加到 Nibomo 的 AI 对话中。[`.apkg` 导入指南](/blog/import-anki-apkg/) 介绍了这条路线，以及哪些内容能迁移过来。较早的 TXT 迁移指南 [2026 年如何从 Anki 迁移到开源抽认卡应用](/blog/migrate-from-anki-txt-export-open-source-flashcards/) 仍适用于纯文本牌组。至于排程这一层，[2026 年如何用 FSRS 备考](/blog/how-to-study-for-an-exam-with-fsrs/) 最值得配着看。
 
 ## Nibomo 在 APUSH 工作流里适合放在哪
 

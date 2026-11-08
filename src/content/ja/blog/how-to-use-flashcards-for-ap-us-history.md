@@ -5,6 +5,7 @@ title: "2026年版 AP US History向けフラッシュカードの使い方: APUS
 description: "2026年のAP US History対策に向けて、実用的なフラッシュカード運用を探している人へ。APUSHの時代区分、テーマ、史料の読み方、MCQセット、SAQ、DBQ、LEQ、間隔反復を、デッキを第二の教科書にしない形でどう整理するかをまとめました。"
 image: "/blog/how-to-use-flashcards-for-ap-us-history.png"
 date: "2026-05-16"
+updated: "2026-11-08"
 keywords:
   - "AP US History フラッシュカード"
   - "APUSH フラッシュカード"
@@ -224,7 +225,7 @@ LEQ は、年号だけのデッキがすぐ通用しなくなる場所です。�
 
 これが **AP US History 間隔反復** の実用版です。デッキは小さく、カードは鋭く、実戦練習はちゃんと残す。このバランスが大事です。
 
-大きい既製デッキや古い **APUSH Anki** の設定から移行するなら、[2026年版 Ankiからオープンソースのフラッシュカードアプリへ移行する方法](/blog/migrate-from-anki-txt-export-open-source-flashcards/) が整理に向いています。スケジューリング側は、[2026年版 FSRSで試験勉強する方法](/blog/how-to-study-for-an-exam-with-fsrs/) が一番相性のいい補助記事です。
+大きい既製デッキや古い **APUSH Anki** の設定から移行するなら、デッキの`.apkg`をNibomoのAIチャットに添付するのが基本です。この方法と移行される内容は、[Ankiの`.apkg`をNibomoにインポートする方法](/blog/import-anki-apkg/)で紹介しています。以前からあるTXT形式のガイド [2026年版 Ankiからオープンソースのフラッシュカードアプリへ移行する方法](/blog/migrate-from-anki-txt-export-open-source-flashcards/) も、テキストだけのデッキなら引き続き使えます。スケジューリング側は、[2026年版 FSRSで試験勉強する方法](/blog/how-to-study-for-an-exam-with-fsrs/) が一番相性のいい補助記事です。
 
 ## APUSHの学習フローの中で、Nibomoはどこにはまるのか
 
