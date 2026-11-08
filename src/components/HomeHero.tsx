@@ -82,6 +82,7 @@ export function HomeHero(props: HomeHeroProps): React.JSX.Element {
               caption={connector.caption}
               labels={uiCopy.copyCodeField}
               locale={locale}
+              placement="home_agent_access"
               value={connector.link.href}
             />
           ))}

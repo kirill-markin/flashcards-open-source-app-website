@@ -11,6 +11,8 @@ import type { AppWalkthroughSection, FeatureListSection, HeroSection } from "@/l
 import { getHomeExperienceCopy } from "@/lib/homeExperienceCopy";
 import { getHomeShowcaseImagePath } from "@/lib/homeShowcaseImage";
 import { getMarketingMediaUrl } from "@/lib/marketingMedia";
+import { MCP_ROUTE_PATHNAME } from "@/lib/mcpPage";
+import { getAvailableLocalizedPathname } from "@/lib/routeTranslations";
 import type { AppLocale } from "@/lib/i18n";
 import type { StoreQrCodes } from "@/lib/storeQrCodes";
 import { getUiCopy } from "@/lib/uiCopy";
@@ -61,7 +63,7 @@ export function HomeLanding({ locale, hero, walkthrough, features, storeQrCodes 
           </div>
           <div className={styles.storeLinks}>
             <HumanPlatformLinks locale={locale} storeQrCodes={storeQrCodes} appearance="hero-badges" googlePlayImageUrl={getMarketingMediaUrl("/home/google-play-lockup.png")} />
-            <HomeDeviceLinks locale={locale} storeQrCodes={storeQrCodes} />
+            <HomeDeviceLinks locale={locale} mcpHref={getAvailableLocalizedPathname(locale, MCP_ROUTE_PATHNAME)} storeQrCodes={storeQrCodes} />
           </div>
         </div>
         <HomeFlashcardDemo example={copy.heroCard} controls={copy.controls} />
@@ -72,7 +74,7 @@ export function HomeLanding({ locale, hero, walkthrough, features, storeQrCodes 
           <p className={styles.agentDescription}>{copy.agents[1]}</p>
           <div className={styles.agentTools}>
             <AgentDirectoryLinks locale={locale} appearance="hero" /><span className={styles.agentOr}>{copy.agents[2]}</span>
-            <div className={styles.endpoint}>{hero.agentConnectors.map(connector=><TrackedMcpEndpointCopyField key={connector.link.href} caption={connector.caption} labels={uiCopy.copyCodeField} locale={locale} value={connector.link.href} appearance="compact" />)}</div>
+            <div className={styles.endpoint}>{hero.agentConnectors.map(connector=><TrackedMcpEndpointCopyField key={connector.link.href} caption={connector.caption} labels={uiCopy.copyCodeField} locale={locale} placement="home_agent_access" value={connector.link.href} appearance="compact" />)}</div>
           </div>
         </aside>
       </div>
