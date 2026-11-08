@@ -5,6 +5,7 @@ title: "AP US History Flashcards 2026: So lernst du APUSH-Periods, DBQs und Evid
 description: "Du brauchst 2026 einen praktischen Flashcard-Workflow für AP US History? Hier erfährst du, wie du APUSH-Periods, Themes, Sourcing, MCQ-Sets, SAQs, DBQs, LEQs und Spaced Repetition lernst, ohne dein Deck in ein zweites Lehrbuch zu verwandeln."
 image: "/blog/how-to-use-flashcards-for-ap-us-history.png"
 date: "2026-05-16"
+updated: "2026-11-08"
 keywords:
   - "AP US History Flashcards"
   - "APUSH Flashcards"
@@ -224,7 +225,7 @@ Ich würde den Wochenablauf simpel halten:
 
 Das ist die praktische Version von **AP US History Spaced Repetition**. Kleineres Deck, schärfere Karten, mehr echte Übung.
 
-Wenn du von einem großen Premade Deck oder einem älteren **APUSH Anki**-Setup kommst, ist [Wie du 2026 von Anki zu einer Open-Source-Flashcards-App wechselst](/blog/migrate-from-anki-txt-export-open-source-flashcards/) die saubere Übergabe. Für die Scheduling-Seite ist [Wie du 2026 mit FSRS für eine Prüfung lernst](/blog/how-to-study-for-an-exam-with-fsrs/) der beste Begleitartikel.
+Wenn du von einem großen Premade Deck oder einem älteren **APUSH Anki**-Setup kommst, hängst du die `.apkg` des Decks im KI-Chat von Nibomo an. [Eine Anki-`.apkg` in Nibomo importieren](/blog/import-anki-apkg/) führt durch diesen Hauptweg und zeigt, was dabei ankommt. Der ältere TXT-Leitfaden [Wie du 2026 von Anki zu einer Open-Source-Flashcards-App wechselst](/blog/migrate-from-anki-txt-export-open-source-flashcards/) funktioniert weiterhin für reine Textdecks. Für die Scheduling-Seite ist [Wie du 2026 mit FSRS für eine Prüfung lernst](/blog/how-to-study-for-an-exam-with-fsrs/) der beste Begleitartikel.
 
 ## Wo Nibomo in einen APUSH-Workflow hineinpasst
 
