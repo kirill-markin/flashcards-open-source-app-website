@@ -30,9 +30,9 @@ L'app Nibomo aggiunge un widget Ripasso su iPhone, iPad, Mac e Android. È dispo
 
 Quando non c'è nulla da ripassare, il widget mostra «Tutto fatto» e quando la prossima carta sarà da ripassare. Non mostra mai una risposta. Tocca il widget per aprire Ripasso; un widget Medio o Grande apre Ripasso sulla carta che mostra. I widget sono gratuiti per tutti, ospiti compresi.
 
-Altri otto widget mostrano i tuoi progressi: «Attività», «Anno», «Oggi», «Ripassi», «Serie», «Calendario», «In arrivo» e «Riepilogo». Su iPhone puoi mettere anche il widget «Schede da ripassare» sulla schermata di blocco, e la [guida ai widget](/blog/flashcard-widget/) li mostra tutti.
+Altri otto widget mostrano i tuoi progressi: «Attività», «Anno», «Oggi», «Ripassi», «Serie», «Calendario», «In arrivo» e «Riepilogo». Su iPhone e iPad puoi mettere anche il widget «Schede da ripassare» sulla schermata di blocco, e la [guida ai widget](/blog/flashcard-widget/) li mostra tutti.
 
-Per aggiungerne uno su iPhone, iPad o Mac, apri la galleria dei widget, scegli Nibomo e seleziona una dimensione. Su Android, aggiungi il widget di Nibomo dall'elenco dei widget, poi ridimensionalo; il layout si adatta alla dimensione.
+Per aggiungerne uno su iPhone, iPad o Mac, apri la galleria dei widget, scegli Nibomo e seleziona una dimensione. Su Android, aggiungi un widget di Nibomo dall'elenco dei widget, poi ridimensionalo; il layout si adatta alla dimensione.
 
 ## App web ospitata
 

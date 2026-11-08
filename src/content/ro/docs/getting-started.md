@@ -30,9 +30,9 @@ Aplicația Nibomo adaugă widgetul „Recapitulare” pe iPhone, iPad, Mac și A
 
 Când nu e nimic de recapitulat, widgetul arată „Ești la zi” și când devine scadentă următoarea fișă. Nu arată niciodată răspunsul. Atinge widgetul ca să deschizi secțiunea Recapitulare; un widget mediu sau mare o deschide direct la fișa afișată. Widgeturile sunt gratuite pentru toți, inclusiv pentru vizitatori.
 
-Alte opt widgeturi îți arată progresul: „Activitate”, „An”, „Astăzi”, „Recapitulări”, „Serii”, „Calendar”, „Urmează” și „Panou”. Pe iPhone poți pune și widgetul „Fișe de recapitulat” pe ecranul de blocare, iar [ghidul widgeturilor](/blog/flashcard-widget/) le prezintă pe fiecare.
+Alte opt widgeturi îți arată progresul: „Activitate”, „An”, „Astăzi”, „Recapitulări”, „Serii”, „Calendar”, „Urmează” și „Panou”. Pe iPhone și iPad poți pune și widgetul „Fișe de recapitulat” pe ecranul de blocare, iar [ghidul widgeturilor](/blog/flashcard-widget/) le prezintă pe fiecare.
 
-Ca să adaugi unul pe iPhone, iPad sau Mac, deschide galeria de widgeturi, alege Nibomo și selectează o dimensiune. Pe Android, adaugă widgetul Nibomo din lista de widgeturi, apoi redimensionează-l; aspectul se adaptează la dimensiune.
+Ca să adaugi unul pe iPhone, iPad sau Mac, deschide galeria de widgeturi, alege Nibomo și selectează o dimensiune. Pe Android, adaugă un widget Nibomo din lista de widgeturi, apoi redimensionează-l; aspectul se adaptează la dimensiune.
 
 ## Aplicația web găzduită
 

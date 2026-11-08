@@ -30,9 +30,9 @@ Nibomo-forritið bætir græjunni Upprifjun við iPhone, iPad, Mac og Android. H
 
 Þegar ekkert er á dagskrá sýnir græjan „Allt búið“ og hvenær næsta spjald kemur á dagskrá. Hún sýnir aldrei svar. Ýttu á græjuna til að opna Upprifjun; miðlungs eða stór græja opnar Upprifjun á spjaldinu sem hún sýnir. Græjurnar eru ókeypis fyrir alla, líka gesti.
 
-Átta græjur til viðbótar sýna framvinduna þína: „Virkni“, „Ár“, „Í dag“, „Upprifjanir“, „Runur“, „Dagatal“, „Fram undan“ og „Yfirlit“. Á iPhone geturðu líka sett græjuna „Spjöld á dagskrá“ á lásskjáinn og [leiðarvísirinn um græjurnar](/blog/flashcard-widget/) sýnir hverja og eina.
+Átta græjur til viðbótar sýna framvinduna þína: „Virkni“, „Ár“, „Í dag“, „Upprifjanir“, „Runur“, „Dagatal“, „Fram undan“ og „Yfirlit“. Á iPhone og iPad geturðu líka sett græjuna „Spjöld á dagskrá“ á lásskjáinn og [leiðarvísirinn um græjurnar](/blog/flashcard-widget/) sýnir hverja og eina.
 
-Til að bæta einni við á iPhone, iPad eða Mac skaltu opna græjusafnið, velja Nibomo og síðan stærð. Á Android skaltu bæta Nibomo-græjunni við af græjulistanum og breyta síðan stærð hennar; útlitið lagar sig að stærðinni.
+Til að bæta einni við á iPhone, iPad eða Mac skaltu opna græjusafnið, velja Nibomo og síðan stærð. Á Android skaltu bæta Nibomo-græju við af græjulistanum og breyta síðan stærð hennar; útlitið lagar sig að stærðinni.
 
 ## Hýsta vefforritið
 
