@@ -1,0 +1,127 @@
+.page {
+  inline-size: var(--site-content-width);
+  margin-inline: auto;
+  padding-block-start: var(--page-intro-offset);
+}
+
+.panel {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.5fr);
+  align-items: center;
+  gap: 24px 32px;
+  padding: 32px;
+  border-radius: 28px;
+  background: var(--surface);
+  text-align: start;
+}
+
+.intro {
+  grid-column: 1 / -1;
+  display: grid;
+  gap: 16px;
+  min-inline-size: 0;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.description {
+  max-inline-size: 800px;
+  color: rgb(255 255 255 / 60%);
+  font-size: 15px;
+  line-height: 21px;
+}
+
+.documentation {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--text-secondary);
+  font-size: 14px;
+}
+
+.documentation:hover {
+  color: var(--text);
+}
+
+.documentation:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 5px;
+  border-radius: 4px;
+}
+
+.agentLinks {
+  min-inline-size: 0;
+}
+
+.panel .agentLinks a {
+  min-block-size: 44px;
+  padding-inline: 16px;
+  gap: 8px;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.endpoint {
+  min-inline-size: 0;
+}
+
+.endpoint > div > div {
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 12px;
+  min-block-size: 64px;
+  padding: 10px 12px;
+  border-radius: 20px;
+}
+
+.endpoint pre {
+  padding: 12px 14px;
+  border-radius: 12px;
+}
+
+.endpoint code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 14px;
+}
+
+.endpoint button {
+  min-block-size: 44px;
+  padding-inline: 22px;
+  font-size: 14px;
+}
+
+@media (max-width: 960px) {
+  .panel {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+@media (max-width: 700px) {
+  .panel {
+    padding: 24px;
+  }
+
+  .documentation {
+    gap: 6px;
+    font-size: 12px;
+  }
+
+  .panel .agentLinks a {
+    inline-size: 100%;
+  }
+
+  .endpoint > div > div {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 8px;
+  }
+
+  .endpoint code {
+    font-size: 12px;
+  }
+}

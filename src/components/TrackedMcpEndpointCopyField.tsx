@@ -8,12 +8,11 @@ import type { AppLocale } from "@/lib/i18n";
 import { reportSiteCopyAction } from "@/lib/siteInteractionEvents";
 import { trackVercelAnalyticsEvent } from "@/lib/vercelAnalytics";
 
-const MCP_ENDPOINT_COPY_PLACEMENT = "home_agent_access";
-
 interface TrackedMcpEndpointCopyFieldProps {
   readonly caption: string;
   readonly labels: CopyCodeFieldLabels;
   readonly locale: AppLocale;
+  readonly placement: string;
   readonly value: string;
   readonly appearance?: "default" | "compact";
 }
@@ -22,15 +21,16 @@ export function TrackedMcpEndpointCopyField({
   caption,
   labels,
   locale,
+  placement,
   value,
   appearance = "default",
 }: TrackedMcpEndpointCopyFieldProps): React.JSX.Element {
   const trackCopySuccess = (): void => {
     trackVercelAnalyticsEvent("mcp_endpoint_copy", {
       locale,
-      placement: MCP_ENDPOINT_COPY_PLACEMENT,
+      placement,
     });
-    reportSiteCopyAction("mcp_endpoint", locale, MCP_ENDPOINT_COPY_PLACEMENT);
+    reportSiteCopyAction("mcp_endpoint", locale, placement);
   };
 
   return (

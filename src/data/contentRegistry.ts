@@ -10,6 +10,7 @@ import {
   type AppLocale,
 } from "@/lib/localeConfig";
 import { DASHBOARDS_ROUTE_PATHNAME } from "@/lib/dashboardsPage";
+import { MCP_ROUTE_PATHNAME } from "@/lib/mcpPage";
 import { listPublishedBlogPostSlugs } from "@/lib/blogPublication";
 
 type StructuredMarketingPageSlug = "home" | "pricing";
@@ -35,6 +36,7 @@ const MARKETING_PAGE_SLUGS: ReadonlyArray<MarketingPageSlug> = [
 ];
 const STATIC_ROUTE_PATHNAMES: ReadonlyArray<string> = [
   DASHBOARDS_ROUTE_PATHNAME,
+  MCP_ROUTE_PATHNAME,
 ] as const;
 const PREFERRED_DOC_SLUG_ORDER: ReadonlyArray<string> = [
   "getting-started",
