@@ -2,7 +2,7 @@
 title: "RemNote-alternatieven in 2026: gratis en opensource-opties"
 description: "Vergelijk RemNote-alternatieven op notities, pdf's, kaarten, prijs en zelf hosten. Ontdek wat meegaat, wat verloren gaat en hoe je een veilige overstap test."
 date: "2026-03-19"
-updated: "2026-08-31"
+updated: "2026-11-08"
 image: "/blog/remnote-alternative.png"
 keywords:
   - "remnote alternatief"
@@ -21,7 +21,7 @@ Het beste **RemNote-alternatief** lost het probleem op waarvoor je wilt overstap
 
 > **Over mijn betrokkenheid:** Ik ben Kirill Markin en ik bouw [Nibomo](/nl/), een van de producten in deze vergelijking. Nibomo is geen volledige vervanger voor RemNote. RemNote biedt hier de sterkste geïntegreerde werkwijze voor notities en pdf's; Anki heeft het meest volwassen kaartensysteem en de best ontwikkelde migratieformaten.
 
-**Feiten en prijzen gecontroleerd:** 31 augustus 2026. De genoemde prijzen zijn de openbare Amerikaanse prijzen, met jaarlijkse facturering waar vermeld. Belastingen, regio's, appstores en bètavoorwaarden kunnen het bedrag veranderen.
+**Feiten en prijzen gecontroleerd:** 31 augustus 2026. De genoemde prijzen zijn de openbare Amerikaanse prijzen, met jaarlijkse facturering waar vermeld. Belastingen, regio's, appstores en bètavoorwaarden kunnen het bedrag veranderen. Details over de Anki-`.apkg`-import van Nibomo gecontroleerd op 8 november 2026.
 
 ![Een archiefrestaurator test een kleine overdracht vanuit een intact, gekoppeld studiedossier naar afzonderlijke systemen voor kaarten, bestanden en blokken](/blog/remnote-alternative.png)
 
@@ -96,7 +96,7 @@ Nibomo maakt vrijwel de tegenovergestelde afweging als RemNote. De [functies](/n
 
 De broncode omvat de hele stack: de repository onder de MIT-licentie bevat web, iOS, Android, authenticatie, backend, synchronisatie en infrastructuur. De ondersteunde [handleiding voor zelf hosten in productie](/docs/self-hosting/) gebruikt AWS CDK. Het is geen lokaal systeem dat je met één opdracht start. Beheerders zijn verantwoordelijk voor cloudkosten, geheime sleutels, migraties, monitoring, back-ups, hersteltests en apart gebouwde mobiele apps.
 
-Voor een bestaande RemNote-gebruiker is migratie de grotere beperking. Nibomo importeert zijn eigen `flashcards.zip`-pakketten, geen RemNote-Markdown of Anki-`.apkg`. Die pakketten bevatten kaarten, tags en de media waarnaar wordt verwezen, maar geen herhaalgeschiedenis, FSRS-status, werkruimte-instellingen, volledige structuur van kaartensets of accounts. Via AI-chat kun je geëxporteerde tekst omzetten in kaartvoorstellen die je controleert; daarmee bouw je inhoud opnieuw op in plaats van door te gaan met de oude verzameling. De [handleiding voor migreren via TXT](/blog/migrate-from-anki-txt-export-open-source-flashcards/) laat stap voor stap zien wat daarbij verloren gaat.
+Voor een bestaande RemNote-gebruiker is migratie de grotere beperking. De bibliotheekimport van Nibomo accepteert alleen de eigen `flashcards.zip`-pakketten, geen RemNote-Markdown of Anki-`.apkg`. Die pakketten bevatten kaarten, tags en de media waarnaar wordt verwezen, maar geen herhaalgeschiedenis, FSRS-status, werkruimte-instellingen, volledige structuur van kaartensets of accounts. AI-chat kan een bijgevoegde Anki-`.apkg` of geëxporteerde tekst lezen en omzetten in kaarten die allemaal als nieuw beginnen; daarmee bouw je inhoud opnieuw op in plaats van door te gaan met de oude verzameling. De [handleiding voor de Anki-`.apkg`-import](/blog/import-anki-apkg/) laat zien wat die route behoudt en wat niet, en de oudere [handleiding voor migreren via TXT](/blog/migrate-from-anki-txt-export-open-source-flashcards/) behandelt de route met platte tekst.
 
 Kies Nibomo voor een nieuwe of eenvoudige kaartenwerkruimte als toegang tot de broncode van de hele stack belangrijk is. Houd RemNote voor studeren met gekoppelde notities en bronnen, en kies Anki als behoud van je verzameling bij migratie of een geavanceerde kaartstructuur telt. Voor een gerichtere vergelijking van kaartensystemen kun je [Anki tegenover Nibomo](/blog/anki-vs-flashcards-open-source-app/) en de [gids met opensource flashcard-apps](/nl/blog/best-open-source-flashcard-apps-2026/) lezen.
 

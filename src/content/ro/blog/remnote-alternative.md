@@ -2,7 +2,7 @@
 title: "Alternative la RemNote în 2026: opțiuni gratuite și open source"
 description: "Compară alternativele la RemNote pentru notițe, PDF-uri, carduri, preț și găzduire proprie. Află ce se transferă, ce se pierde și cum să testezi migrarea în siguranță."
 date: "2026-03-19"
-updated: "2026-08-31"
+updated: "2026-11-08"
 image: "/blog/remnote-alternative.png"
 keywords:
   - "alternativă la RemNote"
@@ -21,7 +21,7 @@ Cea mai bună **alternativă la RemNote** este cea care rezolvă motivul plecăr
 
 > **Declarație de interese:** Sunt Kirill Markin și dezvolt [Nibomo](/ro/), unul dintre produsele comparate aici. Nibomo nu înlocuiește complet RemNote. Dintre opțiunile comparate, RemNote oferă cel mai bine integrat mod de lucru cu notițe și PDF-uri, iar Anki are cel mai matur sistem de carduri și cele mai mature formate de migrare.
 
-**Informații și prețuri verificate:** 31 august 2026. Prețurile afișate sunt cele publice din SUA, cu facturare anuală acolo unde este precizat; taxele, regiunea, magazinele de aplicații și condițiile versiunilor beta pot modifica suma.
+**Informații și prețuri verificate:** 31 august 2026. Prețurile afișate sunt cele publice din SUA, cu facturare anuală acolo unde este precizat; taxele, regiunea, magazinele de aplicații și condițiile versiunilor beta pot modifica suma. Detaliile despre importul `.apkg` din Anki în Nibomo au fost verificate pe 8 noiembrie 2026.
 
 ![Un conservator de arhivă testează un mic transfer dintr-un dosar de studiu intact, cu materiale legate între ele, către sisteme separate de carduri, fișiere și blocuri](/blog/remnote-alternative.png)
 
@@ -96,7 +96,7 @@ Nibomo face un compromis aproape opus celui din RemNote. [Funcțiile](/ro/featur
 
 Codul sursă disponibil acoperă întregul sistem: depozitul cu licență MIT include aplicațiile web, iOS și Android, autentificarea, backendul, sincronizarea și infrastructura. [Ghidul oficial de găzduire proprie în producție](/docs/self-hosting/) folosește AWS CDK. Nu este un sistem local pe care îl pornești cu o singură comandă. Administratorii răspund de costurile cloud, secrete, migrări, monitorizare, copii de siguranță, teste de restaurare și compilarea separată a aplicațiilor mobile.
 
-Pentru cineva care folosește deja RemNote, migrarea este limitarea principală. Nibomo importă propriile pachete `flashcards.zip`, nu Markdown din RemNote sau `.apkg` din Anki. Aceste pachete conțin carduri, etichete și fișierele media la care fac referire, dar nu istoricul recapitulărilor, starea FSRS, setările spațiului de lucru, structura completă a pachetelor sau conturile. Chatul AI poate transforma textul exportat în ciorne de carduri pe care le verifici; asta înseamnă reconstruirea conținutului, nu continuarea vechii colecții. [Ghidul de migrare prin TXT](/blog/migrate-from-anki-txt-export-open-source-flashcards/) explică pas cu pas aceste pierderi.
+Pentru cineva care folosește deja RemNote, migrarea este limitarea principală. Importul din Biblioteca Nibomo acceptă doar propriile pachete `flashcards.zip`, nu Markdown din RemNote sau `.apkg` din Anki. Aceste pachete conțin carduri, etichete și fișierele media la care fac referire, dar nu istoricul recapitulărilor, starea FSRS, setările spațiului de lucru, structura completă a pachetelor sau conturile. Chatul AI poate citi un `.apkg` din Anki atașat sau textul exportat și îl poate transforma în carduri care pornesc toate ca noi; asta înseamnă reconstruirea conținutului, nu continuarea vechii colecții. [Ghidul de import `.apkg` din Anki](/blog/import-anki-apkg/) arată ce păstrează și ce pierde această cale, iar vechiul [ghid de migrare prin TXT](/blog/migrate-from-anki-txt-export-open-source-flashcards/) acoperă calea prin text simplu.
 
 Alege Nibomo pentru un spațiu de carduri nou sau simplu, când contează accesul la sursa întregului sistem. Păstrează RemNote pentru studiul cu materiale conectate și alege Anki când contează fidelitatea migrării sau o structură avansată a cardurilor. Pentru comparația mai restrânsă a sistemelor de carduri, vezi [Anki vs Nibomo](/blog/anki-vs-flashcards-open-source-app/) și [ghidul aplicațiilor open source pentru carduri de învățare](/ro/blog/best-open-source-flashcard-apps-2026/).
 

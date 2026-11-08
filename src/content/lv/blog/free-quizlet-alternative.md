@@ -3,7 +3,7 @@ title: "Labākās bezmaksas Quizlet alternatīvas 2026. gadā: 5 lietotņu salī
 description: "Salīdzini Anki, Knowt, RemNote, Mochi un Nibomo: mācīšanās ar kartītēm bez maksas, sinhronizācija, bezsaistes režīms, Quizlet imports, MI limiti un bezmaksas plānu ierobežojumi."
 image: "/blog/free-quizlet-alternative-v2.png"
 date: "2026-06-20"
-updated: "2026-09-10"
+updated: "2026-11-08"
 keywords:
   - "bezmaksas Quizlet alternatīvas"
   - "labākā bezmaksas Quizlet alternatīva"
@@ -25,7 +25,7 @@ Labākā bezmaksas Quizlet alternatīva ir tā, kuras ierobežojumi netraucē ta
 
 > **Par manu saistību ar Nibomo:** Es esmu Kirill Markin un izstrādāju Nibomo — vienu no piecām šeit salīdzinātajām lietotnēm. Iekļāvu to atvērtā pirmkoda, FSRS un iespējas strādāt ar MI aģentiem dēļ. Tā nav labākā izvēle visiem: tai nav tieša Quizlet importētāja, tās iebūvētais datu pārcelšanas formāts nesaglabā atkārtošanas stāvokli, un mitinātās lietotnes pašreizējais bezmaksas piedāvājums ir beta versija. Salīdzinājums balstīts uz pārbaudītiem avotiem — oficiālajām cenu lapām, palīdzības rakstiem un repozitoriju dokumentāciju. Es neapgalvoju, ka būtu ilgstoši izmēģinājis visas piecas lietotnes praksē.
 
-**Fakti pārbaudīti:** 2026. gada 10. septembrī.
+**Fakti pārbaudīti:** 2026. gada 10. septembrī; Nibomo Anki `.apkg` importa informācija pārbaudīta 2026. gada 8. novembrī.
 
 ![Students ar mācību kartīšu paraugkomplektu rokās salīdzina piecas laivas, pirms izvēlas bezmaksas Quizlet alternatīvu un pārbauda datu importu un atkārtotu eksportu](/blog/free-quizlet-alternative-v2.png)
 
@@ -114,7 +114,7 @@ Nibomo šajā sarakstā ir šauri specializēts risinājums. Mitinātā lietotne
 
 Ilgtermiņa solījums ir šaurāks nekā beta piedāvājums. Kartīšu veidošanas un atkārtošanas pamatfunkcijas paliks bezmaksas. Intensīvākai MI lietošanai vēlāk var būt vajadzīga sava pakalpojumu sniedzēja atslēga vai maksas iespēja, un nav solīts, ka visas mitinātās funkcijas vienmēr būs bez maksas.
 
-Pāreja no Quizlet ir arī šīs izvēles vājākā puse. Nibomo nav tieša Quizlet, CSV, TSV, Anki vai vispārēja teksta importētāja. Quizlet teksts, kuru atļauts eksportēt, var kalpot par izejmateriālu kartīšu manuālai atjaunošanai vai MI melnrakstiem, kurus pēc tam pārbaudi, taču tas nav imports bez datu zuduma. [Quizlet eksporta ceļvedī](/lv/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/) izskaidrota teksta sakārtošana, neradot iespaidu, ka trūkstošos multivides failus un mācību stāvokli var atgūt.
+Pāreja no Quizlet ir arī šīs izvēles vājākā puse. Nibomo nav Quizlet, CSV, TSV, Anki vai vispārēja teksta importētāja ar vienu klikšķi. Anki `.apkg` failu var pievienot MI čatā, kas to [pārvērš jaunās kartītēs](/blog/import-anki-apkg/). Quizlet teksts, kuru atļauts eksportēt, var kalpot par izejmateriālu kartīšu manuālai atjaunošanai vai MI melnrakstiem, kurus pēc tam pārbaudi, taču tas nav imports bez datu zuduma. [Quizlet eksporta ceļvedī](/lv/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/) izskaidrota teksta sakārtošana, neradot iespaidu, ka trūkstošos multivides failus un mācību stāvokli var atgūt.
 
 Iebūvētā `flashcards.zip` pakotne pārvieto kartītes, birkas un saistītos multivides failus starp Nibomo darbvietām. Tā nepārvieto atkārtošanas vēsturi, FSRS plānotāja stāvokli, iestatījumus, pilnu kavu struktūru vai konta datus. Pašmitināšana dod piekļuvi programmatūrai ar MIT licenci un kontroli pār izvietojumu, taču dokumentētais risinājums izvietošanai produkcijas vidē izmanto AWS. Tas joprojām rada izmaksas par infrastruktūru, pakalpojumu sniedzējiem, uzturēšanu, rezerves kopijām un pārvaldītāja darbu. [Pašmitināšanas ceļvedī](/docs/self-hosting/) šī robeža ir izskaidrota.
 

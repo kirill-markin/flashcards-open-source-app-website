@@ -2,7 +2,7 @@
 title: "Alternativas ao RemNote em 2026: opções gratuitas e de código aberto"
 description: "Compare alternativas ao RemNote em notas, PDFs, cartões, preço e auto-hospedagem. Veja o que migra, o que quebra e como ensaiar uma mudança segura."
 date: "2026-03-19"
-updated: "2026-08-31"
+updated: "2026-11-08"
 image: "/blog/remnote-alternative.png"
 keywords:
   - "alternativa ao remnote"
@@ -21,7 +21,7 @@ A melhor **alternativa ao RemNote** é o caminho que resolve o seu motivo para s
 
 > **Aviso:** Sou Kirill Markin e desenvolvo o [Nibomo](/), um dos produtos comparados aqui. O Nibomo não substitui o RemNote por completo. O RemNote tem o fluxo integrado de notas e PDFs mais forte desta comparação, enquanto o Anki tem o sistema de cartões e os formatos de migração mais maduros.
 
-**Fatos e preços verificados:** 31 de agosto de 2026. Os valores listados usam os preços públicos dos EUA e a cobrança anual quando indicado; impostos, regiões, lojas de apps e condições de beta podem mudar o valor.
+**Fatos e preços verificados:** 31 de agosto de 2026. Os valores listados usam os preços públicos dos EUA e a cobrança anual quando indicado; impostos, regiões, lojas de apps e condições de beta podem mudar o valor. Detalhes da importação de `.apkg` do Anki no Nibomo verificados em 8 de novembro de 2026.
 
 ![Uma conservadora de arquivos testa uma pequena transferência de um dossiê de estudo conectado e intacto para sistemas separados de cartões, arquivos e blocos](/blog/remnote-alternative.png)
 
@@ -96,7 +96,7 @@ O Nibomo faz quase a troca oposta à do RemNote. Os [recursos](/features/) dele 
 
 A fronteira do código-fonte é ampla: o repositório com licença MIT inclui web, iOS, Android, autenticação, backend, sincronização e infraestrutura. O [guia oficial de auto-hospedagem em produção](/docs/self-hosting/) usa o AWS CDK. Não é um appliance local de um comando só. Quem opera assume os custos de nuvem, os segredos, as migrações, o monitoramento, os backups, os testes de restauração e os apps móveis compilados à parte.
 
-A migração é a limitação maior para quem já usa o RemNote. O Nibomo importa os próprios pacotes `flashcards.zip`, não o Markdown do RemNote nem o `.apkg` do Anki. Esses pacotes levam cartões, tags e as mídias referenciadas, mas não o histórico de revisões, o estado do FSRS, as configurações do espaço de trabalho, a estrutura completa dos baralhos ou as contas. O chat de IA consegue transformar texto exportado em rascunhos de cartões para você revisar; isso é recriar conteúdo, não continuar a coleção antiga. Uma migração a partir de um TXT exportado mostra esse limite com perdas passo a passo.
+A migração é a limitação maior para quem já usa o RemNote. A importação da Biblioteca do Nibomo aceita só os próprios pacotes `flashcards.zip`, não o Markdown do RemNote nem o `.apkg` do Anki. Esses pacotes levam cartões, tags e as mídias referenciadas, mas não o histórico de revisões, o estado do FSRS, as configurações do espaço de trabalho, a estrutura completa dos baralhos ou as contas. O chat de IA consegue ler um `.apkg` do Anki anexado ou texto exportado e transformar isso em cartões, todos começando como novos; isso é recriar conteúdo, não continuar a coleção antiga. O [guia de importação de `.apkg` do Anki](/blog/import-anki-apkg/) mostra o que esse caminho mantém e o que descarta, e a migração mais antiga a partir de um TXT exportado cobre o caminho em texto simples.
 
 Escolha o Nibomo para um espaço de cartões novo ou simples quando o acesso ao código de toda a stack importar. Mantenha o RemNote para estudo conectado e escolha o Anki quando a fidelidade da migração ou uma estrutura avançada de cartões importar. Para a comparação mais estreita entre sistemas de cartões, vale olhar Anki e Nibomo lado a lado, além do [guia de apps de flashcards de código aberto](/blog/best-open-source-flashcard-apps-2026/).
 

@@ -3,7 +3,7 @@ title: "Cele mai bune alternative gratuite la Quizlet în 2026: 5 aplicații com
 description: "Compară Anki, Knowt, RemNote, Mochi și Nibomo: învățare gratuită cu fișe, sincronizare, utilizare offline, import din Quizlet, limite AI și compromisurile fiecărui plan gratuit."
 image: "/blog/free-quizlet-alternative-v2.png"
 date: "2026-06-20"
-updated: "2026-09-10"
+updated: "2026-11-08"
 keywords:
   - "alternative gratuite la Quizlet"
   - "cea mai bună alternativă gratuită la Quizlet"
@@ -25,7 +25,7 @@ Cea mai bună alternativă gratuită la Quizlet este cea ale cărei compromisuri
 
 > **Transparență:** Sunt Kirill Markin și dezvolt Nibomo, una dintre cele cinci aplicații comparate aici. Am inclus-o pentru codul open source, FSRS și posibilitatea de a lucra cu agenți AI. Nu este cea mai bună alegere pentru toată lumea: nu are un importator direct din Quizlet, pachetul său nativ de transfer nu păstrează starea recapitulărilor, iar oferta gratuită actuală a aplicației găzduite este în fază beta. Comparația se bazează pe verificarea paginilor oficiale de prețuri, de ajutor și a documentației din depozitele de cod; nu susțin că am testat personal, pe termen lung, toate cele cinci aplicații.
 
-**Informații verificate:** 10 septembrie 2026.
+**Informații verificate:** 10 septembrie 2026; detaliile despre importul `.apkg` din Anki în Nibomo au fost verificate pe 8 noiembrie 2026.
 
 ![Un student ține în mână un set de fișe de probă și compară cinci bărci înainte de a alege o alternativă gratuită la Quizlet și de a testa întregul ciclu de migrare](/blog/free-quizlet-alternative-v2.png)
 
@@ -114,7 +114,7 @@ Nibomo este opțiunea specializată din această listă. Aplicația găzduită e
 
 Promisiunea pe termen lung este mai restrânsă decât oferta beta. Funcțiile de bază pentru crearea și recapitularea fișelor vor rămâne gratuite. Utilizarea mai intensă a AI ar putea necesita ulterior propria cheie API de la furnizor sau o opțiune plătită și nu există promisiunea că fiecare funcție găzduită va rămâne gratuită pentru totdeauna.
 
-Migrarea din Quizlet este și cel mai slab punct al acestei opțiuni. Nibomo nu are un importator direct pentru Quizlet, CSV, TSV, Anki sau text în general. Textul pe care Quizlet permite să îl exporți poate servi drept material-sursă pentru refacere manuală sau variante generate de AI și apoi verificate, dar nu este un import fără pierderi. [Ghidul de export din Quizlet](/ro/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/) explică pregătirea datelor fără să pretindă că fișierele media și starea învățării care lipsesc pot fi recuperate.
+Migrarea din Quizlet este și cel mai slab punct al acestei opțiuni. Nibomo nu are un importator cu un singur clic pentru Quizlet, CSV, TSV, Anki sau text în general. Un `.apkg` din Anki poate fi dat chatului AI, care [îl transformă în carduri noi](/blog/import-anki-apkg/). Textul pe care Quizlet permite să îl exporți poate servi drept material-sursă pentru refacere manuală sau variante generate de AI și apoi verificate, dar nu este un import fără pierderi. [Ghidul de export din Quizlet](/ro/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/) explică pregătirea datelor fără să pretindă că fișierele media și starea învățării care lipsesc pot fi recuperate.
 
 Pachetul nativ `flashcards.zip` transferă fișe, etichete și fișierele media asociate între spații de lucru Nibomo. Nu transferă istoricul recapitulărilor, starea planificatorului FSRS, setările, structurile complete ale pachetelor sau datele contului. Găzduirea pe cont propriu îți oferă software-ul sub licență MIT și controlul asupra instalării, însă configurația de producție documentată folosește AWS și presupune în continuare costuri pentru infrastructură, furnizori, mentenanță, copii de siguranță și administrare. [Ghidul de găzduire pe cont propriu](/docs/self-hosting/) explică aceste limite.
 

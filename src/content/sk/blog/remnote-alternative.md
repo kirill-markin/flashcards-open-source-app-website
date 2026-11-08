@@ -2,7 +2,7 @@
 title: "Alternatívy k RemNote v roku 2026: bezplatné a open-source možnosti"
 description: "Porovnajte alternatívy k RemNote podľa poznámok, PDF, kartičiek, ceny a vlastného hostovania. Čo sa prenesie, čo sa stratí a ako si prechod bezpečne vyskúšať."
 date: "2026-03-19"
-updated: "2026-08-31"
+updated: "2026-11-08"
 image: "/blog/remnote-alternative.png"
 keywords:
   - "alternatíva k remnote"
@@ -21,7 +21,7 @@ Najlepšia **alternatíva k RemNote** vyrieši problém, pre ktorý chcete odís
 
 > **Môj vzťah k produktu:** Som Kirill Markin a vyvíjam [Nibomo](/sk/), jeden z produktov v tomto porovnaní. Nibomo nie je úplná náhrada RemNote. RemNote má v tomto porovnaní najlepšie integrovanú prácu s poznámkami a PDF, zatiaľ čo Anki má najvyspelejší systém kartičiek a formáty na migráciu.
 
-**Fakty a ceny overené:** 31. augusta 2026. Uvedené ceny vychádzajú z verejného cenníka pre USA a tam, kde sa to uvádza, z ročnej fakturácie. Výslednú sumu môžu ovplyvniť dane, región, obchod s aplikáciami a podmienky beta verzie.
+**Fakty a ceny overené:** 31. augusta 2026. Uvedené ceny vychádzajú z verejného cenníka pre USA a tam, kde sa to uvádza, z ročnej fakturácie. Výslednú sumu môžu ovplyvniť dane, región, obchod s aplikáciami a podmienky beta verzie. Podrobnosti o importe Anki `.apkg` v Nibomo overené 8. novembra 2026.
 
 ![Archívny konzervátor skúša prenos malej vzorky z neporušeného prepojeného študijného spisu do samostatných systémov kartičiek, súborov a blokov](/blog/remnote-alternative.png)
 
@@ -96,7 +96,7 @@ Nibomo volí takmer opačný kompromis než RemNote. Jeho [funkcie](/sk/features
 
 Rozsah zverejneného zdrojového kódu je široký: repozitár s licenciou MIT zahŕňa web, iOS, Android, prihlasovanie, backend, synchronizáciu aj infraštruktúru. Podporovaný [návod na vlastné produkčné hostovanie](/docs/self-hosting/) používa AWS CDK. Nejde o lokálny systém, ktorý spustíte jedným príkazom. Prevádzkovateľ zodpovedá za náklady na cloud, tajné údaje, migrácie, monitoring, zálohy, skúšky obnovy a samostatné zostavenie mobilných aplikácií.
 
-Pre existujúceho používateľa RemNote je väčším obmedzením migrácia. Nibomo importuje vlastné balíky `flashcards.zip`, nie Markdown z RemNote ani `.apkg` z Anki. Tieto balíky prenášajú kartičky, značky a odkazované médiá, ale nie históriu opakovania, stav FSRS, nastavenia pracovného priestoru, úplnú štruktúru balíčkov ani účty. AI chat dokáže z exportovaného textu vytvoriť návrhy kartičiek, ktoré si skontrolujete; ide o opätovné vytvorenie obsahu, nie o pokračovanie pôvodnej kolekcie. [Návod na migráciu cez TXT](/blog/migrate-from-anki-txt-export-open-source-flashcards/) krok za krokom ukazuje, čo sa pri tom stráca.
+Pre existujúceho používateľa RemNote je väčším obmedzením migrácia. Import v Knižnici Nibomo prijme len vlastné balíky `flashcards.zip`, nie Markdown z RemNote ani `.apkg` z Anki. Tieto balíky prenášajú kartičky, značky a odkazované médiá, ale nie históriu opakovania, stav FSRS, nastavenia pracovného priestoru, úplnú štruktúru balíčkov ani účty. AI chat dokáže prečítať priložený súbor Anki `.apkg` alebo exportovaný text a vytvoriť z neho kartičky, ktoré všetky začínajú ako nové; ide o opätovné vytvorenie obsahu, nie o pokračovanie pôvodnej kolekcie. [Návod na import Anki `.apkg`](/blog/import-anki-apkg/) ukazuje, čo táto cesta zachová a čo vynechá, a starší [návod na migráciu cez TXT](/blog/migrate-from-anki-txt-export-open-source-flashcards/) opisuje cestu cez obyčajný text.
 
 Vyberte si Nibomo pre nový alebo jednoduchý priestor na kartičky, ak vám záleží na prístupe k zdrojovému kódu celého systému. Pri prepojenom štúdiu si ponechajte RemNote a pri dôraze na verný prenos dát alebo pokročilú štruktúru kartičiek zvoľte Anki. Užšie porovnanie systémov kartičiek nájdete v článku [Anki vs Nibomo](/blog/anki-vs-flashcards-open-source-app/) a v [prehľade open-source aplikácií na kartičky](/sk/blog/best-open-source-flashcard-apps-2026/).
 

@@ -2,7 +2,7 @@
 title: "Alternatieven voor Anki in 2026: wat je behoudt, verliest en wint bij een overstap"
 description: "Vergelijk zeven alternatieven voor Anki op behoud van gegevens, offline gebruik, planning, prijs, broncode en zelf hosten. En ontdek wanneer je beter bij Anki blijft."
 date: "2026-03-14"
-updated: "2026-08-28"
+updated: "2026-11-08"
 image: "/blog/best-anki-alternatives.png"
 keywords:
   - "alternatieven voor Anki"
@@ -20,9 +20,9 @@ Daar kan een overstap naar een alternatief voor Anki duur uitpakken. Een overzic
 
 Deze vergelijking begint bij wat er tijdens een migratie behouden blijft. We bekijken zeven apps zoals Anki: wat ze uit een bestaande verzameling kunnen overnemen, wat er na de import verandert en wanneer bij Anki blijven de veiligere uitkomst is.
 
-> **Over mijn betrokkenheid:** Ik ben Kirill Markin en ik bouw [Nibomo](https://nibomo.com/), een van de producten hieronder. Ik heb het opgenomen vanwege de open broncode, de mogelijkheid om het zelf te hosten en de workflows met AI-agents. Het is niet automatisch de winnaar: het heeft geen directe `.apkg`-import, bij de migratie vanuit Anki gaan gegevens verloren en de zelfgehoste stack beheren is serieus infrastructuurwerk.
+> **Over mijn betrokkenheid:** Ik ben Kirill Markin en ik bouw [Nibomo](https://nibomo.com/), een van de producten hieronder. Ik heb het opgenomen vanwege de open broncode, de mogelijkheid om het zelf te hosten en de workflows met AI-agents. Het is niet automatisch de winnaar: het leest Anki-`.apkg`-bestanden alleen via AI-chat, bij de migratie vanuit Anki gaan gegevens verloren en de zelfgehoste stack beheren is serieus infrastructuurwerk.
 
-**Feiten gecontroleerd op:** 28 augustus 2026. De prijzen zijn de openbare Amerikaanse prijzen of de vermelde lokale prijzen die op die datum beschikbaar waren. Belastingen, regio's, onderwijskortingen en facturering via appstores kunnen het bedrag veranderen.
+**Feiten gecontroleerd op:** 28 augustus 2026. De prijzen zijn de openbare Amerikaanse prijzen of de vermelde lokale prijzen die op die datum beschikbaar waren. Belastingen, regio's, onderwijskortingen en facturering via appstores kunnen het bedrag veranderen. Details over de Anki-`.apkg`-import van Nibomo gecontroleerd op 8 november 2026.
 
 ![Een horlogemaker controleert of het bestaande uurwerk van een zakhorloge in een andere kast past](/blog/best-anki-alternatives.png)
 
@@ -41,7 +41,7 @@ Bij de overige vier bouw je de inhoud opnieuw op, in plaats van de verzameling t
 - **Quizlet** is handig voor openbare sets, klassen, spellen en begeleid oefenen.
 - **Brainscape** biedt groepen een eenvoudiger herhaalproces waarin je op een schaal van 1 tot 5 aangeeft hoe zeker je het antwoord weet.
 - **SuperMemo** betekent overstappen naar de eigen, gesloten methode en cursuscatalogus van dat product.
-- **Nibomo** biedt web- en native apps onder de MIT-licentie, een zelfgehoste backend en toegang via een API en MCP. De TXT- of CSV-workflow met controle van het resultaat behoudt je leerstatus uit Anki niet.
+- **Nibomo** biedt web- en native apps onder de MIT-licentie, een zelfgehoste backend en toegang via een API en MCP. De AI-chat kan een bijgevoegd `.apkg`-bestand omzetten in kaarten, maar je leerstatus uit Anki komt niet mee.
 
 Als je kaarten afhankelijk zijn van exacte weergave, uitbreidingen of de huidige herhaalwachtrij, is bij Anki blijven geen besluiteloosheid. Het is het antwoord.
 
@@ -78,7 +78,7 @@ Een importfunctie kan voor de eerste vraag slagen en voor de andere twee zakken.
 | [Quizlet](https://quizlet.com/) | [Begrippen en definities plakken](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content) | Niets uit Anki | Notitietypen, sjablonen, kaartensets, mediastructuur en alle planningsgegevens |
 | [Brainscape](https://www.brainscape.com/) | [CSV, TXT, XLSX of ODS](https://brainscape.zendesk.com/hc/en-us/articles/115002369931-How-do-I-import-various-files-to-create-flashcards) | Niets uit Anki | Sjablonen, uitbreidingen, regels voor media en alle planningsgegevens |
 | [SuperMemo](https://www.supermemo.com/) | [Vraag-en-antwoordregels met scheidingstekens plakken](https://www.supermemo.com/en/blog/how-to-create-flashcards-for-learning), maximaal 100 tegelijk | Niets uit Anki | Structuur van de verzameling, media, sjablonen en alle planningsgegevens |
-| [Nibomo](https://nibomo.com/) | Met AI conceptkaarten opstellen vanuit Anki TXT of CSV en het resultaat controleren | Niets uit Anki | Geen `.apkg`-ondersteuning; sjablonen, getrouwe mediaweergave, de hiërarchie van kaartensets en alle planningsgegevens blijven achter |
+| [Nibomo](https://nibomo.com/) | [Voeg het `.apkg`-bestand toe in AI-chat](/blog/import-anki-apkg/); de AI slaat de kaarten direct op. TXT of CSV werkt ook | Niets uit Anki; elke kaart begint als nieuw | Notities met invulvragen worden vraag-en-antwoordkaarten; sjablonen, CSS, de hiërarchie van kaartensets en alle planningsgegevens blijven achter |
 
 ## Prijs, offline gebruik, planning en eigenaarschap
 
@@ -166,11 +166,11 @@ Met gedownloade cursussen kun je offline leren in de mobiele apps. De [handleidi
 
 Kies SuperMemo als je de eigen methode of cursuscatalogus graag genoeg wilt gebruiken om een nieuw herhaalschema te beginnen. Als behoud van je bestaande planning vooropstaat, lost het het verkeerde probleem op.
 
-## Nibomo: toegang tot de broncode van de hele stack, met de zwakste Anki-import
+## Nibomo: toegang tot de broncode van de hele stack, met een Anki-import die alleen inhoud meeneemt
 
 Bij Nibomo kun je een groot deel van het systeem zelf in handen nemen. De [repository met MIT-licentie](https://github.com/kirill-markin/flashcards-open-source-app) bevat de webapp, iOS- en Android-clients, backend, offline synchronisatie, infrastructuur, [openbare API](/docs/api/) en [MCP-server](/docs/mcp-connector/). Herhalingen gebruiken [FSRS](/docs/architecture/#scheduling). Web, iOS en Android schrijven eerst lokaal, zetten wijzigingen in een uitgaande wachtrij en synchroniseren zodra er weer verbinding is.
 
-Dat maakt het nog niet compatibel met Anki. Nibomo kan geen `.apkg` of `.colpkg` lezen. De ondersteunde [migratie via Anki TXT](/blog/migrate-from-anki-txt-export-open-source-flashcards/) is een workflow waarin je met AI conceptkaarten opstelt en controleert, vooral bedoeld voor kaarten die hoofdzakelijk uit tekst bestaan. Sjablonen, uitbreidingen, de hiërarchie van kaartensets, geplande herhaaldatums, intervallen en eerdere herhalingen blijven niet behouden. Mediaverwijzingen in een TXT-bestand zijn geen mediabestanden. Sets met veel media moet je daarom apart opnieuw opbouwen en controleren.
+Dat maakt het nog niet compatibel met Anki. Er is geen import met één klik, en Bibliotheek → Importeren accepteert alleen de eigen `.zip` van Nibomo. In plaats daarvan [voeg je het `.apkg`-bestand toe in AI-chat](/blog/import-anki-apkg/) en vraag je de AI om de set om te zetten in kaarten. In een test met een kleine voorbeeldset bleven basiskaarten, tags en een afbeelding behouden, werden notities van het type basis en omgekeerd gesplitst in twee kaarten met elk één richting, en werden notities met invulvragen herschreven als vraag-en-antwoordkaarten. Onderliggende kaartensets werden losse Nibomo-sets zonder hiërarchie. Sjablonen, uitbreidingen, geplande herhaaldatums, intervallen en eerdere herhalingen blijven achter, en `.colpkg`-bestanden worden niet geaccepteerd. Exporteer met **Support older Anki versions**; alleen voor dat oudere formaat geeft Nibomo de AI de lijst met namen van mediabestanden. Het testpakket was een bestand in het oudere formaat dat met een script was gemaakt, geen export uit Anki. Controleer de afbeeldingen na het importeren. De oudere [migratie via Anki TXT](/blog/migrate-from-anki-txt-export-open-source-flashcards/) werkt nog steeds voor kaarten met alleen tekst.
 
 Ook het eigen `flashcards.zip`-pakket van Nibomo is beperkter dan een back-up. Het verplaatst kaarten, tags en bijbehorende media tussen Nibomo-werkruimten. Het neemt geen herhaalgeschiedenis, FSRS-status, volledige structuren van kaartensets, werkruimte-instellingen of accounts mee.
 

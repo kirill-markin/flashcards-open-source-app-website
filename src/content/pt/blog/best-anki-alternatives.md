@@ -2,7 +2,7 @@
 title: "Alternativas ao Anki em 2026: o que você mantém, perde e ganha ao trocar"
 description: "Compare sete alternativas ao Anki por fidelidade da migração, uso offline, agendamento, preço, acesso ao código e auto-hospedagem — e veja quando ficar no Anki é mais seguro."
 date: "2026-03-14"
-updated: "2026-08-28"
+updated: "2026-11-08"
 image: "/blog/best-anki-alternatives.png"
 keywords:
   - "alternativas ao Anki"
@@ -20,9 +20,9 @@ Essa é a parte cara de comparar alternativas ao Anki. Um editor mais limpo ou u
 
 Esta comparação começa nesse limite. Ela cobre sete apps como o Anki, o que cada um consegue trazer de uma coleção existente, o que muda depois da importação e quando ficar no Anki é o resultado mais seguro.
 
-> **Aviso de interesse:** Sou Kirill Markin e desenvolvo o [Nibomo](https://nibomo.com/), um dos produtos abaixo. Incluí ele pelo código aberto, pela auto-hospedagem e pelos fluxos com agentes. Ele não é o vencedor por padrão: não tem importador direto de `.apkg`, sua migração do Anki perde informação e manter a stack auto-hospedada é um trabalho de infraestrutura de verdade.
+> **Aviso de interesse:** Sou Kirill Markin e desenvolvo o [Nibomo](https://nibomo.com/), um dos produtos abaixo. Incluí ele pelo código aberto, pela auto-hospedagem e pelos fluxos com agentes. Ele não é o vencedor por padrão: só lê arquivos `.apkg` do Anki pelo chat de IA, sua migração do Anki perde informação e manter a stack auto-hospedada é um trabalho de infraestrutura de verdade.
 
-**Dados verificados:** 28 de agosto de 2026. Os preços são os valores públicos dos EUA ou os preços locais informados disponíveis nessa data. Impostos, região, ofertas educacionais e a cobrança pelas lojas de apps podem mudar o valor.
+**Dados verificados:** 28 de agosto de 2026. Os preços são os valores públicos dos EUA ou os preços locais informados disponíveis nessa data. Impostos, região, ofertas educacionais e a cobrança pelas lojas de apps podem mudar o valor. Detalhes da importação de `.apkg` do Anki no Nibomo verificados em 8 de novembro de 2026.
 
 ![Um relojoeiro verifica se o mecanismo de um relógio de bolso antigo cabe em outra caixa](/blog/best-anki-alternatives.png)
 
@@ -41,7 +41,7 @@ Os outros quatro são reconstruções de conteúdo, não migrações de coleçã
 - **Quizlet** é útil para conjuntos públicos, turmas, jogos e prática guiada.
 - **Brainscape** dá a um grupo um ciclo de confiança mais simples, de 1 a 5.
 - **SuperMemo** é uma mudança para o método proprietário e o catálogo de cursos dele.
-- **Nibomo** entrega clientes web e nativos com licença MIT, backend auto-hospedado, API e acesso por MCP. O fluxo revisado a partir de TXT ou CSV não preserva o estado de aprendizado do Anki.
+- **Nibomo** entrega clientes web e nativos com licença MIT, backend auto-hospedado, API e acesso por MCP. O chat de IA consegue transformar um `.apkg` anexado em cartões, mas o estado de aprendizado do Anki não vem junto.
 
 Se os seus cartões dependem da renderização exata, de complementos ou da fila de revisão atual, ficar no Anki não é indecisão. É a resposta.
 
@@ -78,7 +78,7 @@ Um importador pode passar na primeira pergunta e falhar nas outras duas.
 | [Quizlet](https://quizlet.com/) | [Colar termos e definições](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content) | Nenhum vindo do Anki | Tipos de nota, modelos, baralhos, estrutura de mídia e todos os dados de agendamento |
 | [Brainscape](https://www.brainscape.com/) | [CSV, TXT, XLSX ou ODS](https://brainscape.zendesk.com/hc/en-us/articles/115002369931-How-do-I-import-various-files-to-create-flashcards) | Nenhum vindo do Anki | Modelos, complementos, regras de mídia e todos os dados de agendamento |
 | [SuperMemo](https://www.supermemo.com/) | [Colar linhas delimitadas de pergunta e resposta](https://www.supermemo.com/en/blog/how-to-create-flashcards-for-learning), até 100 por vez | Nenhum vindo do Anki | Estrutura da coleção, mídia, modelos e todos os dados de agendamento |
-| [Nibomo](https://nibomo.com/) | Criação assistida por IA e revisada a partir de TXT ou CSV do Anki | Nenhum vindo do Anki | Sem suporte a `.apkg`; modelos, fidelidade da mídia, hierarquia de baralhos e todos os dados de agendamento ficam para trás |
+| [Nibomo](https://nibomo.com/) | [Anexe o `.apkg` no chat de IA](/blog/import-anki-apkg/); a IA salva os cartões diretamente. TXT ou CSV também funcionam | Nenhum vindo do Anki; todo cartão começa como novo | Notas cloze viram cartões de pergunta e resposta; modelos, CSS, hierarquia de baralhos e todos os dados de agendamento ficam para trás |
 
 ## Preço, uso offline, agendamento e propriedade
 
@@ -166,11 +166,11 @@ Os cursos baixados podem ser estudados offline nos apps de celular. O [guia de u
 
 Escolha o SuperMemo porque você quer o método ou o catálogo de cursos dele o bastante para começar um agendamento novo. Se preservar o agendamento atual é a prioridade, ele resolve o problema errado.
 
-## Nibomo: acesso ao código de toda a stack, com a importação mais fraca do Anki
+## Nibomo: acesso ao código de toda a stack, com uma importação do Anki só de conteúdo
 
 O Nibomo expõe um limite amplo de propriedade. O [repositório com licença MIT](https://github.com/kirill-markin/flashcards-open-source-app) contém o app web, os clientes iOS e Android, o backend, a sincronização offline, a infraestrutura, a [API pública](/docs/api/) e o [servidor MCP](/docs/mcp-connector/). As revisões usam [FSRS](/docs/architecture/#scheduling). Web, iOS e Android escrevem primeiro localmente, adicionam as mudanças a um outbox e sincronizam quando a conexão volta.
 
-Isso não o torna compatível com o Anki. O Nibomo não consegue ler `.apkg` nem `.colpkg`. A migração suportada a partir de um TXT do Anki é um fluxo de criação assistida por IA e revisada por você, para cartões majoritariamente de texto. Ela não preserva modelos, complementos, hierarquia de baralhos, datas de vencimento, intervalos nem eventos de revisão. Referências de mídia em um arquivo TXT não são arquivos de mídia, então baralhos cheios de mídia precisam de reconstrução e verificação à parte.
+Isso não o torna compatível com o Anki. Não há importador de um clique, e Biblioteca → Importar aceita só o `.zip` do próprio Nibomo. Em vez disso, você [anexa um `.apkg` no chat de IA](/blog/import-anki-apkg/) e pede para transformar o baralho em cartões. Num teste com um pequeno baralho de amostra, ele manteve cartões básicos, tags e uma imagem, dividiu notas do tipo básico e invertido em dois cartões de mão única e reescreveu notas cloze como cartões de pergunta e resposta. Sub-baralhos viraram baralhos planos no Nibomo. Modelos, complementos, datas de vencimento, intervalos e eventos de revisão ficam para trás, e arquivos `.colpkg` não são aceitos. Exporte com **Support older Anki versions**; só para esse formato mais antigo o Nibomo passa à IA a lista de nomes dos arquivos de mídia. O pacote de teste era um arquivo no formato antigo criado com um script, não uma exportação do Anki. Confira as imagens depois da importação. A migração mais antiga a partir de um TXT do Anki ainda funciona para cartões só de texto.
 
 O pacote `flashcards.zip` do próprio Nibomo também é mais estreito do que um backup. Ele move cartões, tags e a mídia relacionada entre espaços de trabalho do Nibomo. Não move histórico de revisões, estado do FSRS, estruturas completas de baralhos, configurações do espaço de trabalho nem contas.
 

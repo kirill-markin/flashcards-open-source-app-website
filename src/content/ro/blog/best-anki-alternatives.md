@@ -2,7 +2,7 @@
 title: "Alternative la Anki în 2026: ce păstrezi, ce pierzi și ce câștigi dacă schimbi aplicația"
 description: "Compară șapte alternative la Anki după fidelitatea migrării, utilizarea offline, programarea recapitulărilor, preț, accesul la cod și găzduirea proprie. Vezi când e mai sigur să păstrezi Anki."
 date: "2026-03-14"
-updated: "2026-08-28"
+updated: "2026-11-08"
 image: "/blog/best-anki-alternatives.png"
 keywords:
   - "alternative la Anki"
@@ -20,9 +20,9 @@ Aici apar costurile greu de văzut când compari alternative la Anki. Un editor 
 
 Comparația de față pornește de la ce se păstrează și ce se pierde la transfer. Acoperă șapte aplicații similare cu Anki, ce poate prelua fiecare dintr-o colecție existentă, ce se schimbă după import și când păstrarea Anki este alegerea mai sigură.
 
-> **Declarație de interese:** Sunt Kirill Markin și dezvolt [Nibomo](https://nibomo.com/), unul dintre produsele de mai jos. L-am inclus pentru codul open-source, posibilitatea de găzduire proprie și fluxurile de lucru cu agenți. Nu este câștigătorul implicit: nu are import direct pentru `.apkg`, migrarea din Anki pierde informații, iar administrarea infrastructurii găzduite pe cont propriu presupune muncă serioasă.
+> **Declarație de interese:** Sunt Kirill Markin și dezvolt [Nibomo](https://nibomo.com/), unul dintre produsele de mai jos. L-am inclus pentru codul open-source, posibilitatea de găzduire proprie și fluxurile de lucru cu agenți. Nu este câștigătorul implicit: citește fișiere Anki `.apkg` doar prin chatul AI, migrarea din Anki pierde informații, iar administrarea infrastructurii găzduite pe cont propriu presupune muncă serioasă.
 
-**Informații verificate:** 28 august 2026. Prețurile sunt cele publice din SUA sau prețurile locale afișate la acea dată. Taxele, regiunea, ofertele pentru educație și facturarea prin magazinele de aplicații pot schimba suma.
+**Informații verificate:** 28 august 2026. Prețurile sunt cele publice din SUA sau prețurile locale afișate la acea dată. Taxele, regiunea, ofertele pentru educație și facturarea prin magazinele de aplicații pot schimba suma. Detaliile despre importul `.apkg` din Anki în Nibomo au fost verificate pe 8 noiembrie 2026.
 
 ![Un ceasornicar verifică dacă mecanismul unui ceas de buzunar vechi se potrivește într-o altă carcasă](/blog/best-anki-alternatives.png)
 
@@ -41,7 +41,7 @@ Celelalte patru presupun reconstruirea conținutului, nu migrarea colecției:
 - **Quizlet** este util pentru seturi publice, clase, jocuri și exerciții ghidate.
 - **Brainscape** oferă grupurilor un proces mai simplu, bazat pe evaluarea siguranței răspunsului pe o scară de la 1 la 5.
 - **SuperMemo** înseamnă trecerea la metoda sa proprietară și la catalogul său de cursuri.
-- **Nibomo** oferă clienți web și nativi sub licență MIT, un backend pe care îl poți găzdui singur, API și acces MCP. Fluxul său de lucru cu TXT sau CSV, care include verificarea rezultatului, nu păstrează starea învățării din Anki.
+- **Nibomo** oferă clienți web și nativi sub licență MIT, un backend pe care îl poți găzdui singur, API și acces MCP. Chatul său AI poate transforma un `.apkg` atașat în carduri, dar starea învățării din Anki nu se transferă.
 
 Dacă te bazezi pe afișarea exactă a cardurilor, pe extensii sau pe coada actuală de recapitulare, a rămâne în Anki nu înseamnă indecizie. Este răspunsul potrivit.
 
@@ -78,7 +78,7 @@ Un importator poate trece prima probă și le poate rata pe celelalte două.
 | [Quizlet](https://quizlet.com/) | [Lipirea termenilor și definițiilor](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content) | Nimic din Anki | Tipuri de note, șabloane, pachete, structura media și toate datele de programare |
 | [Brainscape](https://www.brainscape.com/) | [CSV, TXT, XLSX sau ODS](https://brainscape.zendesk.com/hc/en-us/articles/115002369931-How-do-I-import-various-files-to-create-flashcards) | Nimic din Anki | Șabloane, extensii, reguli pentru media și toate datele de programare |
 | [SuperMemo](https://www.supermemo.com/) | [Lipirea unor rânduri de întrebări și răspunsuri separate prin delimitatori](https://www.supermemo.com/en/blog/how-to-create-flashcards-for-learning), până la 100 deodată | Nimic din Anki | Structura colecției, fișierele media, șabloanele și toate datele de programare |
-| [Nibomo](https://nibomo.com/) | Pregătirea cardurilor din Anki TXT sau CSV cu ajutorul AI, urmată de verificare | Nimic din Anki | Fără suport `.apkg`; șabloanele, fidelitatea media, ierarhia pachetelor și toate datele de programare se pierd |
+| [Nibomo](https://nibomo.com/) | [Atașează `.apkg` în chatul AI](/blog/import-anki-apkg/); AI-ul salvează direct cardurile. Merge și TXT sau CSV | Nimic din Anki; fiecare card pornește ca nou | Notele cloze devin carduri întrebare-răspuns; șabloanele, CSS-ul, ierarhia pachetelor și toate datele de programare se pierd |
 
 ## Preț, utilizare offline, programarea recapitulărilor și controlul asupra aplicației
 
@@ -166,11 +166,11 @@ Cursurile descărcate pot fi studiate offline în aplicațiile mobile. [Ghidul p
 
 Alege SuperMemo dacă metoda sau catalogul său de cursuri merită pentru tine începerea unui program nou de recapitulare. Dacă prioritatea este păstrarea programului existent, rezolvă altă problemă decât cea care te interesează.
 
-## Nibomo: acces la codul întregului sistem, cu cel mai limitat import din Anki
+## Nibomo: acces la codul întregului sistem, cu un import din Anki doar pentru conținut
 
 Nibomo îți oferă control asupra unei mari părți a sistemului. [Depozitul sub licență MIT](https://github.com/kirill-markin/flashcards-open-source-app) conține aplicația web, clienții iOS și Android, backendul, sincronizarea offline, infrastructura, [API-ul public](/docs/api/) și [serverul MCP](/docs/mcp-connector/). Recapitulările folosesc [FSRS](/docs/architecture/#scheduling). Aplicațiile web, iOS și Android scriu mai întâi local, adaugă modificările într-o coadă de trimitere și le sincronizează după reconectare.
 
-Asta nu îl face compatibil cu Anki. Nibomo nu poate citi `.apkg` sau `.colpkg`. [Migrarea din Anki prin TXT](/blog/migrate-from-anki-txt-export-open-source-flashcards/), acceptată oficial, este un flux de pregătire a cardurilor cu ajutorul AI, urmat de verificare, pentru carduri bazate în principal pe text. Nu păstrează șabloanele, extensiile, ierarhia pachetelor, datele scadente, intervalele sau înregistrările recapitulărilor. Referințele media dintr-un fișier TXT nu sunt fișierele media în sine, așa că pachetele bogate în media necesită reconstruire și verificare separate.
+Asta nu îl face compatibil cu Anki. Nu există un importator cu un singur clic, iar Bibliotecă → Import acceptă doar `.zip`-ul propriu al Nibomo. În schimb, [atașezi `.apkg` în chatul AI](/blog/import-anki-apkg/) și îi ceri să transforme pachetul în carduri. Într-un test cu un pachet mic de probă, s-au păstrat cardurile de bază, etichetele și o imagine, notele de tip de bază și inversat au fost împărțite în două carduri cu un singur sens, iar notele cloze au fost rescrise drept carduri întrebare-răspuns. Subpachetele au devenit pachete Nibomo fără ierarhie. Șabloanele, extensiile, datele scadente, intervalele și înregistrările recapitulărilor se pierd, iar fișierele `.colpkg` nu sunt acceptate. Exportă cu **Support older Anki versions**; doar pentru acest format mai vechi Nibomo îi dă AI-ului lista cu numele fișierelor media. Pachetul de test a fost un fișier în formatul mai vechi, creat cu un script, nu un export din Anki. Verifică imaginile după import. Vechea [migrare din Anki prin TXT](/blog/migrate-from-anki-txt-export-open-source-flashcards/) funcționează în continuare pentru carduri doar cu text.
 
 Nici pachetul propriu `flashcards.zip` din Nibomo nu echivalează cu o copie de siguranță. Mută carduri, etichete și fișierele media asociate între spațiile de lucru Nibomo. Nu mută istoricul recapitulărilor, starea FSRS, structurile complete ale pachetelor, setările spațiilor de lucru sau conturile.
 

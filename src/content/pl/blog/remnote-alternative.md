@@ -2,7 +2,7 @@
 title: "Alternatywy dla RemNote w 2026 roku: darmowe i z otwartym kodem"
 description: "Porównaj alternatywy dla RemNote: notatki, PDF-y, fiszki, ceny i własny hosting. Sprawdź, co da się przenieść, co stracisz i jak przetestować migrację."
 date: "2026-03-19"
-updated: "2026-08-31"
+updated: "2026-11-08"
 image: "/blog/remnote-alternative.png"
 keywords:
   - "alternatywa dla RemNote"
@@ -21,7 +21,7 @@ Najlepsza **alternatywa dla RemNote** rozwiązuje problem, przez który chcesz o
 
 > **Informacja o autorze:** Nazywam się Kirill Markin i tworzę [Nibomo](/pl/), jeden z porównywanych tu produktów. Nibomo nie jest pełnym zamiennikiem RemNote. W tym zestawieniu RemNote najlepiej łączy pracę z notatkami i PDF-ami, a Anki ma najbardziej dojrzały system fiszek i formaty migracji.
 
-**Fakty i ceny sprawdzone:** 31 sierpnia 2026 r. Podane ceny pochodzą z publicznych cenników dla USA i dotyczą płatności rocznej tam, gdzie to zaznaczono. Podatki, region, sklep z aplikacjami i warunki wersji beta mogą wpływać na kwotę.
+**Fakty i ceny sprawdzone:** 31 sierpnia 2026 r. Podane ceny pochodzą z publicznych cenników dla USA i dotyczą płatności rocznej tam, gdzie to zaznaczono. Podatki, region, sklep z aplikacjami i warunki wersji beta mogą wpływać na kwotę. Szczegóły importu plików Anki `.apkg` w Nibomo sprawdzone 8 listopada 2026 r.
 
 ![Konserwator materiałów archiwalnych testuje przeniesienie małej próbki z nienaruszonego zbioru powiązanych materiałów do nauki do osobnych systemów fiszek, plików i bloków](/blog/remnote-alternative.png)
 
@@ -96,7 +96,7 @@ Nibomo opiera się na niemal odwrotnych założeniach niż RemNote. Jego [funkcj
 
 Zakres udostępnionego kodu jest szeroki: repozytorium na licencji MIT obejmuje WWW, iOS, Androida, uwierzytelnianie, backend, synchronizację i infrastrukturę. [Przewodnik po własnym hostingu produkcyjnym](/docs/self-hosting/) opisuje wspierane wdrożenie z użyciem AWS CDK. Nie jest to lokalne rozwiązanie uruchamiane jednym poleceniem. Osoby utrzymujące wdrożenie odpowiadają za koszty chmury, sekrety, migracje, monitoring, kopie zapasowe, testy odtwarzania i osobne kompilowanie aplikacji mobilnych.
 
-Dla obecnego użytkownika RemNote większym ograniczeniem jest migracja. Nibomo importuje własne pakiety `flashcards.zip`, a nie Markdown z RemNote ani pliki Anki `.apkg`. Te pakiety zawierają fiszki, tagi i powiązane multimedia, ale nie historię powtórek, stan FSRS, ustawienia przestrzeni roboczej, pełną strukturę talii ani konta. Czat AI może zamienić wyeksportowany tekst w szkice fiszek, które następnie sprawdzisz; to odtwarzanie treści, a nie kontynuacja starej kolekcji. [Przewodnik po migracji przez TXT](/blog/migrate-from-anki-txt-export-open-source-flashcards/) pokazuje krok po kroku, gdzie następuje utrata informacji.
+Dla obecnego użytkownika RemNote większym ograniczeniem jest migracja. Import w Bibliotece Nibomo przyjmuje tylko własne pakiety `flashcards.zip`, a nie Markdown z RemNote ani pliki Anki `.apkg`. Te pakiety zawierają fiszki, tagi i powiązane multimedia, ale nie historię powtórek, stan FSRS, ustawienia przestrzeni roboczej, pełną strukturę talii ani konta. Czat AI może odczytać załączony plik Anki `.apkg` lub wyeksportowany tekst i zamienić go w fiszki, które wszystkie startują jako nowe; to odtwarzanie treści, a nie kontynuacja starej kolekcji. [Przewodnik po imporcie Anki `.apkg`](/blog/import-anki-apkg/) pokazuje, co ta droga zachowuje, a co pomija, a starszy [przewodnik po migracji przez TXT](/blog/migrate-from-anki-txt-export-open-source-flashcards/) opisuje drogę przez zwykły tekst.
 
 Wybierz Nibomo do nowej lub prostej kolekcji fiszek, jeśli ważny jest dostęp do kodu całego systemu. Zostań przy RemNote do nauki z powiązanych materiałów, a Anki wybierz wtedy, gdy liczy się wierne przeniesienie kolekcji lub zaawansowana struktura fiszek. Węższe porównanie systemów fiszek znajdziesz w artykule [Anki a Nibomo](/blog/anki-vs-flashcards-open-source-app/) i [przewodniku po aplikacjach do fiszek z otwartym kodem](/pl/blog/best-open-source-flashcard-apps-2026/).
 
