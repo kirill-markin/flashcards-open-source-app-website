@@ -1,9 +1,9 @@
 ---
 title: Architektur
-description: Systemueberblick, oeffentliche Domains, unterstuetzte Clients und der aktuelle Offline-First-Datenfluss.
+description: Systemüberblick, öffentliche Domains, unterstützte Clients und der aktuelle Offline-First-Datenfluss.
 ---
 
-## Systemueberblick
+## Systemüberblick
 
 ```text
 iOS-App / Agent-Client         -> api.<domain>  -> API Gateway -> Lambda backend -> Postgres
@@ -14,18 +14,18 @@ Apex-Weiterleitung             -> <domain>      -> CloudFront redirect -> app.<d
 
 ## Prinzipien
 
-1. Getrennte oeffentliche Domains fuer `app`, `api` und `auth`
+1. Getrennte öffentliche Domains für `app`, `api` und `auth`
 2. Postgres ist die Source of Truth
 3. Der iOS-Client ist Offline-First mit lokalem SQLite und Sync
-4. Web-App, iOS-App und externe Agent-Oberflaeche teilen dasselbe Workspace-Modell
+4. Web-App, iOS-App und externe Agent-Oberfläche teilen dasselbe Workspace-Modell
 5. Externe Agenten starten bei `GET https://api.nibomo.com/v1/`
 
-## Unterstuetzte Clients
+## Unterstützte Clients
 
 - Web-App auf `app.nibomo.com`
 - iOS-App im Haupt-Repository mit lokalem SQLite-Speicher
 - Android-App bei Google Play
-- Externe Agent-Clients ueber Discovery, OTP-Bootstrap und `Authorization: ApiKey`
+- Externe Agent-Clients über Discovery, OTP-Bootstrap und `Authorization: ApiKey`
 
 ## Datenmodell
 
@@ -43,25 +43,25 @@ Apex-Weiterleitung             -> <domain>      -> CloudFront redirect -> app.<d
 
 ### Web
 
-1. Der Browser meldet sich ueber `auth.<domain>` an.
-2. Die Web-App laedt Workspace-Daten von `api.<domain>`.
-3. KI-Chat-Anfragen laufen ueber `/chat/local-turn`.
+1. Der Browser meldet sich über `auth.<domain>` an.
+2. Die Web-App lädt Workspace-Daten von `api.<domain>`.
+3. KI-Chat-Anfragen laufen über `/chat/local-turn`.
 4. Review-Submissions aktualisieren beim Schreiben den Scheduler-Zustand.
 
 ### iOS
 
 1. Die iOS-App schreibt zuerst lokal in SQLite.
-2. Lokale Aenderungen landen in einer Outbox.
-3. Sync laedt Aenderungen ueber `/v1/workspaces/{workspaceId}/sync/push` hoch.
-4. Sync holt entfernte Updates ueber `/v1/workspaces/{workspaceId}/sync/pull`.
-5. Die lokale Datenbank uebernimmt die Aenderungen und schiebt den Sync-Cursor weiter.
+2. Lokale Änderungen landen in einer Outbox.
+3. Sync lädt Änderungen über `/v1/workspaces/{workspaceId}/sync/push` hoch.
+4. Sync holt entfernte Updates über `/v1/workspaces/{workspaceId}/sync/pull`.
+5. Die lokale Datenbank übernimmt die Änderungen und schiebt den Sync-Cursor weiter.
 
 ### Externe Agenten
 
 1. Agenten starten mit `GET /v1/`.
-2. Der OTP-Bootstrap laeuft auf `auth.<domain>`.
-3. Der Agent erhaelt einen langlebigen API-Key.
-4. Der Agent laedt `/v1/agent/me`, listet Workspaces, waehlt bei Bedarf einen aus und nutzt dann `/v1/agent/sql/query` und `/v1/agent/sql/execute`.
+2. Der OTP-Bootstrap läuft auf `auth.<domain>`.
+3. Der Agent erhält einen langlebigen API-Key.
+4. Der Agent lädt `/v1/agent/me`, listet Workspaces, wählt bei Bedarf einen aus und nutzt dann `/v1/agent/sql/query` und `/v1/agent/sql/execute`.
 
 ## Scheduling
 
@@ -74,15 +74,15 @@ Implementierungshinweise:
 - Workspace-weite Scheduler-Einstellungen umfassen Ziel-Retention, Lernschritte, Relearning-Schritte, maximales Intervall und Fuzz
 - der echte Review-Zeitstempel kommt aus `reviewedAtClient`
 
-Fuer den Detailvertrag siehe [FSRS scheduling logic im Haupt-Repository](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md).
+Für den Detailvertrag siehe [FSRS scheduling logic im Haupt-Repository](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md).
 
 ## Auth
 
-- E-Mail-OTP ueber Cognito
-- Shared-Domain-Session-Cookies fuer die gehostete Web-App
+- E-Mail-OTP über Cognito
+- Shared-Domain-Session-Cookies für die gehostete Web-App
 - Agent-OTP-Bootstrap auf `auth.<domain>` mit langlebigem ApiKey-Ergebnis
-- `AUTH_MODE=none` fuer lokale Entwicklung
-- `AUTH_MODE=cognito` fuer produktionsnahe Auth
+- `AUTH_MODE=none` für lokale Entwicklung
+- `AUTH_MODE=cognito` für produktionsnahe Auth
 
 ## Deployment-Form
 
@@ -91,4 +91,4 @@ Fuer den Detailvertrag siehe [FSRS scheduling logic im Haupt-Repository](https:/
 - `auth.<domain>` -> API Gateway + Lambda auth service
 - Postgres in AWS RDS
 
-Die Apex-Domain kann auf einer separaten Marketing-Site bleiben. Wenn sie waehrend des Bootstraps frei ist, kann die Infrastruktur sie voruebergehend auf `app.<domain>` umleiten.
+Die Apex-Domain kann auf einer separaten Marketing-Site bleiben. Wenn sie während des Bootstraps frei ist, kann die Infrastruktur sie vorübergehend auf `app.<domain>` umleiten.
