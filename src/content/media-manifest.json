@@ -2627,6 +2627,21 @@
     }
   },
   {
+    "publicPath": "/blog/import-anki-apkg.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/4582484682bb3b61ab695a4130ef89e83e980cb7dc8f80a183a3c3cb960564ea.webp",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "4582484682bb3b61ab695a4130ef89e83e980cb7dc8f80a183a3c3cb960564ea",
+    "bytes": 123744,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/687a456e954d99289dd211ff7fabe42b200ff858e22aac1e2d9d51d1f3250feb.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "687a456e954d99289dd211ff7fabe42b200ff858e22aac1e2d9d51d1f3250feb",
+      "bytes": 2453364
+    }
+  },
+  {
     "publicPath": "/blog/interval-inversion.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/1b370a0dbed434b36a298261d082cc0470f029e749088ec5b44d55ca769516e5.png",
     "width": 1672,
