@@ -3,7 +3,7 @@ title: "Best Free Quizlet Alternatives in 2026: 5 Apps Compared"
 description: "Compare Anki, Knowt, RemNote, Mochi, and Nibomo by free card study, sync, offline use, Quizlet import, AI limits, and the catch behind each $0 plan."
 image: "/blog/free-quizlet-alternative-v2.png"
 date: "2026-06-20"
-updated: "2026-09-10"
+updated: "2026-11-08"
 keywords:
   - "free Quizlet alternatives"
   - "best free Quizlet alternative"
@@ -25,7 +25,7 @@ The best free Quizlet alternative is the one whose catch does not break your act
 
 > **Disclosure:** I am Kirill Markin, and I build Nibomo, one of the five apps compared here. I included it for its open-source, FSRS, and agent workflows. It is not the universal winner: there is no direct Quizlet importer, its native transfer package does not preserve review state, and the hosted app's current free offer is a beta. This is a source-checked comparison of official pricing, help pages, and repository documentation—not a claim that I ran long-term hands-on tests with all five apps.
 
-**Facts checked:** September 10, 2026.
+**Facts checked:** September 10, 2026; Nibomo's Anki `.apkg` import details checked November 8, 2026.
 
 ![A student holding a sample study set compares five boats before choosing a free Quizlet alternative and testing the migration round trip](/blog/free-quizlet-alternative-v2.png)
 
@@ -114,7 +114,7 @@ Nibomo is the narrow specialist in this list. The hosted app is [free during bet
 
 The lasting promise is smaller than the beta offer. Core card creation and review will remain free. Higher AI usage may later require your own provider key or a paid option, and there is no promise that every hosted feature will remain free forever.
 
-Quizlet migration is also the weakest part of the fit. Nibomo has no direct Quizlet, CSV, TSV, Anki, or general text importer. Eligible Quizlet text can serve as source material for manual rebuilding or reviewed AI drafts, but that is not a lossless import. The [Quizlet export workflow](/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/) explains the cleanup without pretending the missing media and study state can be recovered.
+Quizlet migration is also the weakest part of the fit. Nibomo has no one-click Quizlet, CSV, TSV, Anki, or general text importer. An Anki `.apkg` can go into AI chat, which [turns it into new cards](/blog/import-anki-apkg/). Eligible Quizlet text can serve as source material for manual rebuilding or reviewed AI drafts, but that is not a lossless import. The [Quizlet export workflow](/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/) explains the cleanup without pretending the missing media and study state can be recovered.
 
 The native `flashcards.zip` package moves cards, tags, and related media between Nibomo workspaces. It does not move review history, FSRS scheduler state, settings, full deck structures, or account data. Self-hosting gives you the MIT-licensed software and control of the deployment, but the documented production path uses AWS and still creates infrastructure, provider, maintenance, backup, and operator costs. The [self-hosting guide](/docs/self-hosting/) spells out that boundary.
 

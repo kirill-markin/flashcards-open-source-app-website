@@ -30,7 +30,7 @@ Aplikacja Nibomo dodaje widżet „Powtórki” na urządzeniach iPhone, iPad, M
 
 Gdy nie ma nic do powtórki, widżet pokazuje „Wszystko zrobione” i termin powtórki następnej karty. Nigdy nie pokazuje odpowiedzi. Dotknij widżetu, aby otworzyć sekcję Powtórki; średni lub duży widżet otwiera ją od razu na pokazanej karcie. Widżety są darmowe dla wszystkich, także dla gości.
 
-Aby dodać widżet, otwórz galerię widżetów na urządzeniu, wybierz Nibomo i rozmiar.
+Aby dodać widżet na iPhonie, iPadzie lub Macu, otwórz galerię widżetów, wybierz Nibomo i rozmiar. Na Androidzie dodaj widżet Nibomo z listy widżetów, a potem zmień jego rozmiar; układ dopasowuje się do rozmiaru.
 
 ## Hostowana aplikacja webowa
 

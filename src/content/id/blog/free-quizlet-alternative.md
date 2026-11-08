@@ -3,7 +3,7 @@ title: "Alternatif Quizlet Gratis Terbaik pada 2026: Perbandingan 5 Aplikasi"
 description: "Bandingkan Anki, Knowt, RemNote, Mochi, dan Nibomo: fitur belajar gratis, sinkronisasi, akses offline, impor Quizlet, kuota AI, dan batasan tiap paket $0."
 image: "/blog/free-quizlet-alternative-v2.png"
 date: "2026-06-20"
-updated: "2026-09-10"
+updated: "2026-11-08"
 keywords:
   - "alternatif Quizlet gratis"
   - "alternatif Quizlet gratis terbaik"
@@ -25,7 +25,7 @@ Alternatif Quizlet gratis terbaik adalah yang batasannya tidak mengganggu kebias
 
 > **Tentang penulis:** Saya Kirill Markin, pengembang Nibomo, salah satu dari lima aplikasi yang dibandingkan di sini. Saya memasukkannya karena kode sumber terbuka, FSRS, dan alur kerja agennya. Nibomo bukan pilihan terbaik untuk semua orang: tidak ada pengimpor langsung dari Quizlet, paket transfer bawaannya tidak menyimpan status pengulangan kartu, dan penawaran gratis aplikasi yang dihosting saat ini masih berupa beta. Perbandingan ini didasarkan pada pemeriksaan halaman harga resmi, halaman bantuan, dan dokumentasi repositori, bukan klaim bahwa saya telah menguji langsung kelima aplikasi dalam jangka panjang.
 
-**Fakta diperiksa:** 10 September 2026.
+**Fakta diperiksa:** 10 September 2026; detail impor `.apkg` Anki di Nibomo diperiksa pada 8 November 2026.
 
 ![Seorang pelajar memegang contoh set kartu belajar sambil membandingkan lima perahu sebelum memilih alternatif Quizlet gratis dan menguji proses impor-ekspornya](/blog/free-quizlet-alternative-v2.png)
 
@@ -114,7 +114,7 @@ Nibomo melayani kebutuhan yang lebih khusus dalam daftar ini. Aplikasi yang diho
 
 Yang dijanjikan untuk jangka panjang lebih terbatas daripada penawaran beta. Pembuatan dan pengulangan kartu sebagai fitur inti akan tetap gratis. Penggunaan AI yang lebih tinggi mungkin kelak memerlukan kunci penyedia Anda sendiri atau opsi berbayar, dan tidak ada janji bahwa semua fitur layanan hosting akan gratis selamanya.
 
-Migrasi dari Quizlet juga menjadi bagian terlemahnya. Nibomo tidak memiliki pengimpor langsung untuk Quizlet, CSV, TSV, Anki, atau teks umum. Teks Quizlet yang boleh diekspor dapat menjadi bahan untuk membuat ulang kartu secara manual atau menghasilkan draf AI yang diperiksa, tetapi proses tersebut bukan impor tanpa kehilangan data. [Alur ekspor Quizlet](/id/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/) menjelaskan proses perapian tanpa memberi kesan bahwa media dan status belajar yang hilang bisa dipulihkan.
+Migrasi dari Quizlet juga menjadi bagian terlemahnya. Nibomo tidak memiliki pengimpor sekali klik untuk Quizlet, CSV, TSV, Anki, atau teks umum. Berkas `.apkg` Anki bisa dilampirkan di obrolan AI, yang akan [mengubahnya menjadi kartu baru](/blog/import-anki-apkg/). Teks Quizlet yang boleh diekspor dapat menjadi bahan untuk membuat ulang kartu secara manual atau menghasilkan draf AI yang diperiksa, tetapi proses tersebut bukan impor tanpa kehilangan data. [Alur ekspor Quizlet](/id/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/) menjelaskan proses perapian tanpa memberi kesan bahwa media dan status belajar yang hilang bisa dipulihkan.
 
 Paket bawaan `flashcards.zip` memindahkan kartu, tag, dan media terkait dari satu ruang kerja Nibomo ke ruang kerja lainnya. Paket ini tidak memindahkan riwayat pengulangan, status penjadwal FSRS, pengaturan, struktur dek lengkap, atau data akun. Hosting mandiri memberi Anda perangkat lunak berlisensi MIT dan kendali atas sistem yang dijalankan, tetapi jalur produksi yang didokumentasikan menggunakan AWS dan tetap menimbulkan biaya infrastruktur, penyedia layanan, pemeliharaan, pencadangan, dan tenaga pengelola. [Panduan hosting mandiri](/docs/self-hosting/) menjelaskan batas tersebut.
 

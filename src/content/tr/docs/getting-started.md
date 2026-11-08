@@ -30,7 +30,7 @@ Nibomo uygulaması iPhone, iPad, Mac ve Android'e bir Tekrar widget'ı ekler. Wi
 
 Tekrar zamanı gelen kart olmadığında widget “Hepsi tamam” yazısını ve sonraki kartın ne zaman tekrar edileceğini gösterir. Cevabı asla göstermez. Tekrar'ı açmak için widget'a dokunun; Orta veya Büyük boyuttaki widget, Tekrar'ı gösterdiği kartta açar. Widget'lar misafir kullanıcılar dahil herkes için ücretsizdir.
 
-Eklemek için cihazınızın widget galerisini açın, Nibomo'yu seçin ve bir boyut belirleyin.
+iPhone, iPad veya Mac'te eklemek için widget galerisini açın, Nibomo'yu seçin ve bir boyut belirleyin. Android'de Nibomo widget'ını widget listesinden ekleyin, ardından yeniden boyutlandırın; düzen boyuta göre değişir.
 
 ## Barındırılan Web Uygulaması
 

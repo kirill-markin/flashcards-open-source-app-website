@@ -3,7 +3,7 @@ title: "2026 年最佳免费 Quizlet 替代品：5 款应用对比"
 description: "从免费抽认卡学习、同步、离线使用、Quizlet 导入和 AI 限额等方面，对比 Anki、Knowt、RemNote、Mochi 和 Nibomo，以及各款零元套餐的主要限制。"
 image: "/blog/free-quizlet-alternative-v2.png"
 date: "2026-06-20"
-updated: "2026-09-10"
+updated: "2026-11-08"
 keywords:
   - "免费 Quizlet 替代品"
   - "最佳免费 Quizlet 替代品"
@@ -25,7 +25,7 @@ Quizlet 免费账户依然能用来学习抽认卡、做练习题、查看图表
 
 > **利益披露：** 我是 Kirill Markin，也是本文所比较的五款应用之一 Nibomo 的开发者。我把它列入对比，是因为它开源，并支持 FSRS 和智能体工作流。它并非适合所有人的赢家：它没有直接的 Quizlet 导入工具，原生迁移包不保留复习状态，托管版目前的免费方案也仍处于测试期。本文依据官方定价页、帮助页面和代码仓库文档逐项核对，并不代表我对这五款应用都做过长期的亲自测试。
 
-**事实核查日期：** 2026 年 9 月 10 日。
+**事实核查日期：** 2026 年 9 月 10 日；Nibomo 的 Anki `.apkg` 导入相关信息核查于 2026 年 11 月 8 日。
 
 ![一名学生拿着小型学习样本，在选择免费 Quizlet 替代品并测试往返迁移之前比较五艘船](/blog/free-quizlet-alternative-v2.png)
 
@@ -114,7 +114,7 @@ Nibomo 是这份清单中定位最专一的产品。托管版在[测试期间免
 
 长期承诺的免费范围比测试期方案更窄。核心的卡片创建和复习会保持免费。以后 AI 用量较高时，可能需要你自己的 AI 服务商密钥或付费方案，官方也没有承诺所有托管功能都会永久免费。
 
-Quizlet 迁移是它最明显的短板。Nibomo 没有直接的 Quizlet、CSV、TSV、Anki 或通用文本导入工具。符合条件的 Quizlet 文本可以作为手动重建或生成经人工审核的 AI 草稿的素材，但这并不是无损导入。[Quizlet 导出流程](/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/)介绍了如何清理数据，同时明确说明缺失的媒体和学习状态无法恢复。
+Quizlet 迁移是它最明显的短板。Nibomo 没有一键导入 Quizlet、CSV、TSV、Anki 或通用文本的工具。Anki `.apkg` 可以附加到 AI 对话中，由 AI [把它转换成新卡片](/blog/import-anki-apkg/)。符合条件的 Quizlet 文本可以作为手动重建或生成经人工审核的 AI 草稿的素材，但这并不是无损导入。[Quizlet 导出流程](/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/)介绍了如何清理数据，同时明确说明缺失的媒体和学习状态无法恢复。
 
 原生 `flashcards.zip` 包可以在不同 Nibomo 工作区之间迁移卡片、标签和相关媒体，但不会迁移复习历史、FSRS 调度状态、设置、完整牌组结构或账户数据。自托管能让你获得采用 MIT 许可证的软件并掌控部署，但文档中的生产环境方案使用 AWS，因此仍然会产生基础设施、服务商、维护、备份和运维成本。[自托管指南](/docs/self-hosting/)详细说明了这条边界。
 

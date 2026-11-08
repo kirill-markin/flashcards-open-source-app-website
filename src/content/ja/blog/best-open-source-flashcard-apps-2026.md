@@ -2,7 +2,7 @@
 title: "2026年版：おすすめのオープンソース・フラッシュカードアプリ6選を比較"
 description: "メンテナンスが続く6つのオープンソース・フラッシュカードアプリを、ソース公開範囲、オフラインデータ、同期、Ankiインポート、エクスポート、セルフホスト、復旧の観点から比較します。"
 date: "2026-08-02"
-updated: "2026-09-05"
+updated: "2026-11-08"
 image: "/blog/best-open-source-flashcard-apps-2026-v2.png"
 keywords:
   - "オープンソース フラッシュカード おすすめ"
@@ -24,7 +24,7 @@ keywords:
 
 > **開示事項：** 私はKirill Markinです。以下の6アプリのひとつである[Nibomo](https://nibomo.com/)を開発しています。MITライセンスのリポジトリには、Webアプリ、ネイティブクライアント、バックエンド、同期、インフラが含まれます。ただし、Nibomoを1位にはしていません。Ankiのほうが無難な第一候補であり、Mnemosyneにはより確立されたAnki移行手段があります。また、ここで挙げる製品の中には、運用がずっと簡単なものも複数あります。
 
-**事実確認日：** 2026年9月5日。安定版リリースと、デフォルトブランチにしか存在しない作業内容は分けて記載しています。
+**事実確認日：** 2026年9月5日。安定版リリースと、デフォルトブランチにしか存在しない作業内容は分けて記載しています。Ankiの`.apkg`をNibomoへインポートする手順の情報は2026年11月8日に確認しました。
 
 ![オープンソースのフラッシュカードアプリを選ぶ前に、6つの開いたバックパックを比較し、予備キットを確認する登山者](/blog/best-open-source-flashcard-apps-2026-v2.png)
 
@@ -61,7 +61,7 @@ GitHubのスター数は足切り条件にしませんでした。スター数�
 | **Anki** | [26.08.1](https://github.com/ankitects/anki/releases/tag/26.08.1)、2026年8月5日 | Windows、macOS、Linux。別クライアントとしてAndroidとiOS。AnkiWeb | インストール型クライアントはローカルコレクションから学習 | FSRSまたは従来のSM-2 | AnkiWebまたは公式セルフホスト同期サーバー | テキスト、APKG/COLPKG、Mnemosyneデータベースをインポート。メディアとスケジューリング情報の有無を選んで、テキストまたはパッケージへエクスポート | **同期サーバーのみ。** セルフホスト版AnkiWebやブラウザ学習UIはない |
 | **Mnemosyne** | [2.11](https://github.com/mnemosyne-proj/mnemosyne/releases/tag/2.11)、2023年11月12日。リポジトリでは2026年も活動が継続 | Windows、macOS、Linux、Android。限定的なブラウザ復習 | デスクトップはローカル。Androidではオフライン復習できるが編集不可 | 0〜5段階の想起評価に応じて調整 | デスクトップまたはヘッドレスインスタンスとの組み込み同期 | カスタムカードタイプと学習データを含む完全なAnkiインポートを公式に文書化。共有用エクスポートは完全なバックアップではない | **同期と限定的なブラウザ復習。** ブラウザサーバーにセキュリティ機能はない |
 | **SiYuan** | [v3.8.2](https://github.com/siyuan-note/siyuan/releases/tag/v3.8.2)、2026年8月30日 | Windows、macOS、Linux、Android、iOS、HarmonyOS。Docker経由のブラウザ版 | ネイティブクライアントはワークスペースをローカルに保持 | FSRS | 有料の公式E2EE同期、または有料のサードパーティS3/WebDAV連携 | 通常版アプリはMarkdown・データをインポートし、複数の文書・データ形式へエクスポート。文書化されたAPKGインポーターはない | **完全なブラウザアプリ。** Dockerはネイティブクライアントと同期できず、一部のインポート・エクスポートコマンドも使えない |
-| **Nibomo** | [v1.23.0](https://github.com/kirill-markin/flashcards-open-source-app/releases/tag/v1.23.0)、2026年9月1日 | Web、iOS、Android | WebはIndexedDB、iOSはSQLite、AndroidはSQLite上のRoom。ローカル書き込みを同期キューに追加 | FSRS | ホスト型または運用者がデプロイしたバックエンド | 独自ZIPでカード、タグ、ソースメタデータ、参照メディアを移動。ただしデッキ、学習状態、設定、アカウントは含まない。APKGインポーターもない | **完全なWeb・バックエンドスタック。** 本番デプロイはAWS中心。非公開のネイティブビルドは別途必要 |
+| **Nibomo** | [v1.23.0](https://github.com/kirill-markin/flashcards-open-source-app/releases/tag/v1.23.0)、2026年9月1日 | Web、iOS、Android | WebはIndexedDB、iOSはSQLite、AndroidはSQLite上のRoom。ローカル書き込みを同期キューに追加 | FSRS | ホスト型または運用者がデプロイしたバックエンド | 独自ZIPでカード、タグ、ソースメタデータ、参照メディアを移動。ただしデッキ、学習状態、設定、アカウントは含まない。APKGインポーターもない。v1.34.0以降、AIチャットで`.apkg`を内容のみのカードにできるが、ワンクリックのインポーターは今もない | **完全なWeb・バックエンドスタック。** 本番デプロイはAWS中心。非公開のネイティブビルドは別途必要 |
 | **Recall** | [v1.3.0](https://github.com/Madlezz/Recall/releases/tag/v1.3.0)、2026年7月31日 | Windows、macOS、Linux。インストール可能なPWA | デスクトップはSQLite、ブラウザはIndexedDB。デフォルトではアカウントもテレメトリも不要 | FSRS | デスクトップのフォルダ同期、または任意の暗号化Cloudflare Worker/R2リレー | デスクトップのAPKGインポートは先頭2フィールド、デッキ、タグ、おおよそのスケジューリングスナップショット、画像を読み込む。JSONとRecallアーカイブへエクスポート | **暗号化スナップショットリレーのみ。** PWAはホストしない |
 | **Essentialist** | [v0.3.22](https://github.com/essentialist-app/essentialist/releases/tag/v0.3.22)、2025年10月10日。ソースでは2026年も活動が継続 | Android APK、macOS DMG、Linux Flatpak。Windowsはソースからビルド | ネットワークアクセスなし。デッキ内容はMarkdown | 安定版リリース：SM-2。デフォルトブランチ：FSRS | なし | Markdownはカード内容を保持し、隠しsidecarデータベースは進捗を保持 | **ホストするものはない。** Markdownファイルとsidecarを一緒にバックアップする |
 
@@ -119,7 +119,7 @@ Dockerで本格的なブラウザアプリを動かせますが、インスト�
 
 Nibomo独自のZIPパッケージは、アカウントのバックアップではなくコンテンツ転送形式です。v1.23.0の[パッケージスキーマ](https://github.com/kirill-markin/flashcards-open-source-app/blob/v1.23.0/apps/backend/src/workspacePackages/types.ts)には、表面と裏面の内容、タグ、カードタイプ、ソースメタデータ、パッケージメタデータが入り、参照メディアは別途同梱されます。デッキ構造、復習履歴、FSRSの状態、ワークスペース設定、アカウントは含まれません。
 
-v1.23.0にはAPKGインポーターがありません。文書化された[Anki TXT/CSV移行手順](/blog/migrate-from-anki-txt-export-open-source-flashcards/)は、エクスポートしたテキストからカードを作り直し、人が確認する方式です。この経路ではテンプレート、スケジューリング状態、デッキ構造、同梱メディアは自動的に引き継がれません。単純なテキストデッキには妥当ですが、大幅にカスタマイズしたコレクションには不向きです。
+v1.23.0にはAPKGインポーターがなく、ワンクリックのインポーターは今もありません。ライブラリ → インポートが受け付けるのはNibomo独自のZIPだけです。[v1.34.0](https://github.com/kirill-markin/flashcards-open-source-app/releases/tag/v1.34.0)以降は、AIチャットに`.apkg`を添付し、デッキをカードにするよう依頼できます。小さなサンプルデッキでのテストでは、テキスト、タグ、画像1枚が移り、穴埋めノートは質問と回答のカードになり、すべてのカードが新規カードとして始まりました。テンプレート、スケジューリング状態、デッキの入れ子構造は引き継がれません。エクスポート時は**Support older Anki versions**にチェックを入れてください。Nibomoがメディアファイル名の一覧をAIに渡すのは、この古い形式の場合だけです。テスト用パッケージは、Ankiからエクスポートしたものではなく、スクリプトで作成した古い形式のファイルでした。インポート後は画像を確認してください。詳しくは[`.apkg`インポートガイド](/blog/import-anki-apkg/)を参照してください。従来の[Anki TXT/CSV移行手順](/blog/migrate-from-anki-txt-export-open-source-flashcards/)も、テキストだけのデッキには引き続き使えます。どちらの経路も単純なデッキには妥当ですが、大幅にカスタマイズしたコレクションには不向きです。
 
 [セルフホストガイド](/docs/self-hosting/)も同じように明確です。本番環境では、RDS、Cognito、API GatewayとLambda、S3とCloudFront、シークレット、アラーム、バックアップを含むAWS CDKスタックを使います。Cloudflare DNS、Resendメール、Sentryの設定はAWSの外にあります。Docker Composeはローカル開発用であり、対応する本番パッケージではありません。プライベート配布用のiOS・Androidバイナリが必要な運用者は、別途ビルドして配布します。
 

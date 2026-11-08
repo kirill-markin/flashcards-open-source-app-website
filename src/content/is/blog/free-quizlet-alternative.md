@@ -3,7 +3,7 @@ title: "Bestu ókeypis valkostirnir við Quizlet 2026: 5 öpp borin saman"
 description: "Berðu saman Anki, Knowt, RemNote, Mochi og Nibomo: ókeypis námskort, samstillingu, nám án nets, Quizlet-innflutning, gervigreindarmörk og takmarkanir ókeypis áskrifta."
 image: "/blog/free-quizlet-alternative-v2.png"
 date: "2026-06-20"
-updated: "2026-09-10"
+updated: "2026-11-08"
 keywords:
   - "ókeypis valkostir við Quizlet"
   - "besti ókeypis valkosturinn við Quizlet"
@@ -25,7 +25,7 @@ Besti ókeypis valkosturinn við Quizlet er sá sem hentar námsvenjunum þínum
 
 > **Upplýsingar um hagsmunatengsl:** Ég heiti Kirill Markin og þróa Nibomo, eitt af öppunum fimm í þessum samanburði. Ég tók það með vegna opins frumkóða, FSRS og möguleikanna sem það býður gervigreindarfulltrúum. Það er ekki best fyrir alla: það hefur engan beinan Quizlet-innflutning, eigið flutningssnið varðveitir ekki stöðu upprifjunar og núverandi ókeypis tilboð hýstu útgáfunnar gildir á betatímabilinu. Samanburðurinn byggist á yfirförnum heimildum: opinberum verðskrám, hjálparsíðum og skjölum í kóðasöfnum. Ég er ekki að halda því fram að ég hafi prófað öll fimm öppin sjálfur í langan tíma.
 
-**Staðreyndir yfirfarnar:** 10. september 2026.
+**Staðreyndir yfirfarnar:** 10. september 2026; upplýsingar um innflutning Anki `.apkg`-skráa í Nibomo yfirfarnar 8. nóvember 2026.
 
 ![Nemandi með sýnishorn af námskortasafni ber saman fimm báta áður en hann velur ókeypis valkost við Quizlet og prófar flutning bæði inn og út](/blog/free-quizlet-alternative-v2.png)
 
@@ -114,7 +114,7 @@ Nibomo hefur þrengsta sérsviðið á þessum lista. Hýsta appið er [ókeypis
 
 Til lengri tíma er minna innifalið í loforðinu en í betatilboðinu. Grunnvirkni fyrir kortagerð og upprifjun verður áfram ókeypis. Meiri gervigreindarnotkun gæti síðar krafist eigin lykils hjá þjónustuveitanda eða greidds valkosts og ekkert loforð er um að allir hýstir eiginleikar verði ókeypis að eilífu.
 
-Flutningur frá Quizlet er líka veikasti hlekkurinn. Nibomo hefur engan beinan innflutning fyrir Quizlet, CSV, TSV, Anki eða almennan texta. Quizlet-texti sem má flytja út getur verið grunnefni fyrir handvirka endurgerð eða yfirfarin gervigreindardrög, en það er ekki innflutningur sem varðveitir allt. [Leiðbeiningarnar um Quizlet-útflutning](/is/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/) útskýra hreinsun gagnanna án þess að láta eins og hægt sé að endurheimta miðla og námsstöðu sem vantar.
+Flutningur frá Quizlet er líka veikasti hlekkurinn. Nibomo hefur engan innflutning með einum smelli fyrir Quizlet, CSV, TSV, Anki eða almennan texta. Anki `.apkg`-skrá má setja í gervigreindarspjall, sem [breytir henni í ný kort](/blog/import-anki-apkg/). Quizlet-texti sem má flytja út getur verið grunnefni fyrir handvirka endurgerð eða yfirfarin gervigreindardrög, en það er ekki innflutningur sem varðveitir allt. [Leiðbeiningarnar um Quizlet-útflutning](/is/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/) útskýra hreinsun gagnanna án þess að láta eins og hægt sé að endurheimta miðla og námsstöðu sem vantar.
 
 Eigin `flashcards.zip`-pakki Nibomo flytur kort, merki og tengda miðla á milli vinnusvæða í Nibomo. Hann flytur ekki upprifjunarsögu, stöðu FSRS-tímasetningarkerfisins, stillingar, alla uppbyggingu stokka eða reikningsgögn. Eigin hýsing gefur þér hugbúnað með MIT-leyfi og stjórn á uppsetningunni, en uppsetningin fyrir almennan rekstur sem lýst er í skjölunum notar AWS og henni fylgir áfram kostnaður við innviði, þjónustuveitendur, viðhald, öryggisafrit og rekstrarvinnu. [Leiðbeiningarnar um eigin hýsingu](/docs/self-hosting/) útskýra þessi mörk.
 

@@ -3,7 +3,7 @@ title: "Anki vs Quizlet vs Nibomo (2026): कौन-सा फ़्लैशक
 description: "2026 में Anki, Quizlet और Nibomo की व्यावहारिक तुलना: स्पेस्ड रिपीटिशन, ऑफ़लाइन पढ़ाई, AI, इम्पोर्ट-एक्सपोर्ट, कीमत, ओपन सोर्स और डेटा पर नियंत्रण।"
 image: "/blog/anki-vs-quizlet-vs-open-source-flashcards-app.png"
 date: "2026-03-09"
-updated: "2026-11-07"
+updated: "2026-11-08"
 keywords:
   - "anki vs quizlet"
   - "best flashcard app"
@@ -31,7 +31,7 @@ keywords:
 
 ## Anki vs Quizlet vs Nibomo: व्यावहारिक तुलना
 
-यह तालिका 2 अगस्त 2026 को जाँची गई प्रोडक्ट जानकारी पर आधारित है; होम स्क्रीन विजेट से जुड़ी जानकारी 7 नवंबर 2026 को जाँची गई। कीमत और फ़ीचर की उपलब्धता क्षेत्र के अनुसार बदल सकती है।
+यह तालिका 2 अगस्त 2026 को जाँची गई प्रोडक्ट जानकारी पर आधारित है; होम स्क्रीन विजेट से जुड़ी जानकारी 7 नवंबर 2026 को और Anki `.apkg` इम्पोर्ट से जुड़ी जानकारी 8 नवंबर 2026 को जाँची गई। कीमत और फ़ीचर की उपलब्धता क्षेत्र के अनुसार बदल सकती है।
 
 | श्रेणी | Anki | Quizlet | Nibomo |
 | --- | --- | --- | --- |
@@ -39,7 +39,7 @@ keywords:
 | ऑफ़लाइन | लोकल-फ़र्स्ट desktop और native mobile apps; sync वैकल्पिक | [iOS और Android](https://help.quizlet.com/hc/en-us/articles/360030565412-Studying-offline-with-Quizlet-mobile-apps) पर सेव किए गए सेट Flashcards और Match में ऑफ़लाइन चलते हैं और ऑफ़लाइन बनाए भी जा सकते हैं; वेबसाइट ऑफ़लाइन नहीं चलती | Native iOS (SQLite) और Android (Room/SQLite) ऐप सबसे भरोसेमंद ऑफ़लाइन विकल्प हैं; वेब ऐप लोड होने के बाद कार्ड और pending writes को IndexedDB में रखता है, लेकिन AI और sync के लिए कनेक्शन चाहिए |
 | वेब और मोबाइल | Windows, macOS, Linux, AnkiWeb, आधिकारिक paid iOS ऐप और अलग free community Android ऐप | सधे हुए web, iOS और Android ऐप; desktop ऐप नहीं | Hosted web के साथ iOS और Android ऐप; iPhone, iPad, Mac और Android के लिए होम स्क्रीन विजेट भी हैं, जो देय कार्ड और अगला प्रश्न दिखाते हैं |
 | AI | मुख्य Anki में first-party generative AI workflow बिल्ट-इन नहीं है; add-ons और बाहरी AI workflows मौजूद हैं | मज़बूत [बिल्ट-इन AI टूल](https://quizlet.com/features/ai-study-tools): फ़्लैशकार्ड बनाना, study guides, practice tests और PDF टूल; सीमाएँ plan पर निर्भर | Workspace-aware AI chat कार्ड बना और संपादित कर सकता है और file attachments इस्तेमाल कर सकता है; MCP और agent API बाहरी AI टूल को सपोर्ट करते हैं |
-| इम्पोर्ट | [Text, packaged Anki decks और Mnemosyne files](https://docs.ankiweb.net/importing/intro.html) के लिए मज़बूत सपोर्ट | वेबसाइट पर [delimiter-separated text paste](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content) कर सकते हैं; AI टूल notes और documents से भी काम करते हैं | Native `flashcards.zip` workspace packages; Anki और Quizlet के लिए अभी text export और ज़रूरत पड़ने पर AI से cleanup चाहिए; सीधे `.apkg` इम्पोर्ट नहीं होता |
+| इम्पोर्ट | [Text, packaged Anki decks और Mnemosyne files](https://docs.ankiweb.net/importing/intro.html) के लिए मज़बूत सपोर्ट | वेबसाइट पर [delimiter-separated text paste](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content) कर सकते हैं; AI टूल notes और documents से भी काम करते हैं | लाइब्रेरी import सिर्फ़ native `flashcards.zip` packages लेता है; AI chat [attach किए गए Anki `.apkg` को cards में बदल सकता है](/blog/import-anki-apkg/), review history के बिना; Quizlet content के लिए text export चाहिए |
 | एक्सपोर्ट | मज़बूत [package और text export](https://docs.ankiweb.net/exporting.html); scheduling information, deck presets और media के विकल्प | वेबसाइट से केवल अपने बनाए सेट के terms और definitions एक्सपोर्ट होते हैं; [कॉपी किए गए सेट और images नहीं](https://help.quizlet.com/hc/en-us/articles/360034345672-Exporting-your-sets) | Native `flashcards.zip` में केवल active cards, tags और referenced media आते हैं—review history, FSRS scheduler state, workspace settings, पूरे deck structures या account data नहीं |
 | कीमत | Desktop, AnkiWeb और AnkiDroid मुफ़्त; आधिकारिक AnkiMobile iOS ऐप की [अमेरिकी App Store में एकमुश्त कीमत $24.99](https://apps.apple.com/us/app/ankimobile-flashcards/id373493387) | मुफ़्त अनुभव सीमित; अमेरिकी पेज पर [Plus $35.99/वर्ष और Plus Unlimited $44.99/वर्ष](https://quizlet.com/upgrade), सालाना बिलिंग; क्षेत्रीय कीमतें अलग हो सकती हैं | [Hosted Cloud Beta मुफ़्त है](/pricing/); कार्ड बनाने और रिव्यू करने की मुख्य सुविधाएँ मुफ़्त रहेंगी, लेकिन अधिक AI इस्तेमाल के लिए आगे अपनी provider key या paid option की ज़रूरत पड़ सकती है। MIT के तहत self-hosting मुफ़्त है; infrastructure का खर्च और प्रबंधन आपका है |
 | ओपन सोर्स | [Anki project और desktop ऐप](https://apps.ankiweb.net/) ओपन सोर्स हैं; AnkiMobile अलग paid आधिकारिक iOS ऐप है और AnkiDroid contributors का अलग ऐप | नहीं; closed-source hosted platform | हाँ; [पूरा स्टैक सार्वजनिक](https://github.com/kirill-markin/flashcards-open-source-app), MIT-licensed और self-hostable है |
@@ -95,7 +95,7 @@ Nibomo चुनें अगर आप:
 
 ### प्रोडक्ट की सीमित परिपक्वता को समझना ज़रूरी है
 
-Nibomo अभी शुरुआती विकास में है। इसका ecosystem, import coverage, advanced review tooling और recovery व्यवस्था Anki जितनी परिपक्व नहीं है। सीधे `.apkg` इम्पोर्ट करने की सुविधा नहीं है। Native `flashcards.zip` packages में active cards, tags और referenced media ट्रांसफ़र होते हैं, लेकिन review history, FSRS scheduler state, workspace settings, पूरे deck structures या account data नहीं।
+Nibomo अभी शुरुआती विकास में है। इसका ecosystem, import coverage, advanced review tooling और recovery व्यवस्था Anki जितनी परिपक्व नहीं है। Anki `.apkg` files one-click importer के बजाय AI chat से जाती हैं, और review history पीछे छूट जाती है। Native `flashcards.zip` packages में active cards, tags और referenced media ट्रांसफ़र होते हैं, लेकिन review history, FSRS scheduler state, workspace settings, पूरे deck structures या account data नहीं।
 
 व्यवहार में इसके दो अर्थ हैं। बहुत अधिक customize किए गए Anki collection को स्थानांतरित करने पर अहम structure खो जाएगा, जब तक आप Anki को मूल और प्रामाणिक स्रोत बनाए न रखें। दूसरा, Nibomo package को पूरा disaster-recovery backup नहीं मानना चाहिए। विस्तृत [फ़्लैशकार्ड backup guide](/blog/how-to-back-up-flashcards/) बताती है कि किन चीज़ों को अलग से सुरक्षित रखना है।
 
@@ -105,7 +105,7 @@ Hosted Cloud Beta अभी मुफ़्त है और इसमें AI 
 
 शून्य से शुरुआत करने पर यह तुलना आसान है। मौजूदा collection होने पर फैसला कहीं अधिक ठोस हो जाता है।
 
-अगर आपके पास Anki की कई वर्षों की review history है, तो Anki पर ही रहें—जब तक migrate करने का फ़ायदा उस history को reset करने जितना बड़ा न हो। साधारण front-and-back deck के लिए text एक्सपोर्ट करें और [Anki TXT migration workflow](/blog/migrate-from-anki-txt-export-open-source-flashcards/) अपनाएँ। इसमें text को साफ़ card drafts बनाने की source material की तरह इस्तेमाल किया जाता है; यह Anki collection की हूबहू नकल बनाने का दावा नहीं करता।
+अगर आपके पास Anki की कई वर्षों की review history है, तो Anki पर ही रहें—जब तक migrate करने का फ़ायदा उस history को reset करने जितना बड़ा न हो। साधारण front-and-back deck के लिए उसकी `.apkg` Nibomo के AI chat में attach करें। [Anki `.apkg` import guide](/blog/import-anki-apkg/) दिखाती है कि क्या-क्या आता है: text और tags आते हैं, test में इकलौती image भी आई, लेकिन हर card का schedule नए सिरे से शुरू होता है और cloze notes सवाल-जवाब cards बन जाते हैं। **Support older Anki versions** चुनकर एक्सपोर्ट करें; Nibomo सिर्फ़ इसी पुराने फ़ॉर्मेट के लिए AI को मीडिया फ़ाइलों के नामों की सूची देता है। टेस्ट पैकेज पुराने फ़ॉर्मेट की एक फ़ाइल थी, जिसे स्क्रिप्ट से बनाया गया था; वह Anki से एक्सपोर्ट नहीं की गई थी। इम्पोर्ट के बाद इमेज जाँचें। पुराना [Anki TXT migration workflow](/blog/migrate-from-anki-txt-export-open-source-flashcards/) सिर्फ़ text वाले decks के लिए अब भी काम करता है।
 
 अगर आपकी सामग्री Quizlet में है, तो पहले पक्का करें कि सेट आपने बनाया है और उसकी उपयोगी सामग्री text में है। [Quizlet export से FSRS guide](/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/) व्यावहारिक तरीका और export restrictions समझाती है।
 

@@ -2,7 +2,7 @@
 title: "Anki alternatiivid 2026. aastal: mis jääb alles, mis kaob ja mida vahetusega võidad"
 description: "Võrdle seitset Anki alternatiivi üleviimise täpsuse, võrguühenduseta kasutuse, korduste ajastamise, hinna, lähtekoodi ja ise majutamise järgi ning vaata, millal on turvalisem Anki juurde jääda."
 date: "2026-03-14"
-updated: "2026-08-28"
+updated: "2026-11-08"
 image: "/blog/best-anki-alternatives.png"
 keywords:
   - "Anki alternatiivid"
@@ -20,9 +20,9 @@ Just see teeb Anki alternatiivide võrdlemise kulukaks. Selgemat redaktorit või
 
 See võrdlus alustabki sealt. Vaatame seitset Anki sarnast rakendust: mida igaüks olemasolevast kogust üle võtab, mis pärast importi muutub ja millal on Anki juurde jäämine turvalisem valik.
 
-> **Autori seotus:** olen Kirill Markin ja arendan [Nibomot](https://nibomo.com/), üht allpool käsitletud toodet. Kaasasin selle avatud lähtekoodi, ise majutamise võimaluse ja tehisaruagentidega töötamise võimaluste tõttu. See pole vaikimisi võitja: otsene `.apkg` import puudub, Ankist üleviimisel läheb osa andmeid kaotsi ja ise majutatava süsteemi käitamine on päris taristutöö.
+> **Autori seotus:** olen Kirill Markin ja arendan [Nibomot](https://nibomo.com/), üht allpool käsitletud toodet. Kaasasin selle avatud lähtekoodi, ise majutamise võimaluse ja tehisaruagentidega töötamise võimaluste tõttu. See pole vaikimisi võitja: Anki `.apkg` faile loeb see ainult AI-vestluse kaudu, Ankist üleviimisel läheb osa andmeid kaotsi ja ise majutatava süsteemi käitamine on päris taristutöö.
 
-**Faktid kontrollitud:** 28. augustil 2026. Hinnad on sel kuupäeval avalikult kättesaadavad USA hinnad või märgitud kohalikud hinnad. Maksud, piirkond, hariduspakkumised ja rakendusepoe arveldus võivad summat muuta.
+**Faktid kontrollitud:** 28. augustil 2026. Hinnad on sel kuupäeval avalikult kättesaadavad USA hinnad või märgitud kohalikud hinnad. Maksud, piirkond, hariduspakkumised ja rakendusepoe arveldus võivad summat muuta. Nibomo Anki `.apkg` impordi üksikasjad kontrollitud 8. novembril 2026.
 
 ![Kellassepp kontrollib, kas sissetöötanud taskukella mehhanism mahub teise korpusesse](/blog/best-anki-alternatives.png)
 
@@ -41,7 +41,7 @@ Kolm toodet võtavad vastu Anki pakette koos õppimisandmetega, kuid üle kantav
 - **Quizlet** on kasulik avalike õpikomplektide, klasside, mängude ja juhendatud harjutamise jaoks.
 - **Brainscape** pakub rühmale lihtsamat kordamisviisi, kus kindlustunnet hinnatakse skaalal 1–5.
 - **SuperMemo** tähendab üleminekut selle kinnisele meetodile ja kursusekataloogile.
-- **Nibomo** pakub MIT-litsentsiga veebirakendust ja seadmesse paigaldatavaid kliente, ise majutatavat serveripoolset süsteemi ning ligipääsu API ja MCP kaudu. Selle kontrollimist hõlmav TXT- või CSV-töövoog ei säilita Anki õppimisseisu.
+- **Nibomo** pakub MIT-litsentsiga veebirakendust ja seadmesse paigaldatavaid kliente, ise majutatavat serveripoolset süsteemi ning ligipääsu API ja MCP kaudu. Selle AI-vestlus oskab manustatud `.apkg` faili kaartideks muuta, kuid Anki õppimisseis kaasa ei tule.
 
 Kui su kaardid sõltuvad täpsest kuvamisest, lisadest või praegusest kordamisjärjekorrast, ei ole Anki juurde jäämine otsustamatus. See ongi vastus.
 
@@ -78,7 +78,7 @@ Importija võib esimese kontrolli läbida, kuid kahes ülejäänus läbi kukkuda
 | [Quizlet](https://quizlet.com/) | [Mõistete ja definitsioonide kleepimine](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content) | Anki õppimisseis ei säili | Märkmetüübid, mallid, kaardipakid, meediastruktuur ja kõik ajastusandmed |
 | [Brainscape](https://www.brainscape.com/) | [CSV, TXT, XLSX või ODS](https://brainscape.zendesk.com/hc/en-us/articles/115002369931-How-do-I-import-various-files-to-create-flashcards) | Anki õppimisseis ei säili | Mallid, lisad, meediareeglid ja kõik ajastusandmed |
 | [SuperMemo](https://www.supermemo.com/) | [Eraldajatega küsimuse-vastuse ridade kleepimine](https://www.supermemo.com/en/blog/how-to-create-flashcards-for-learning), kuni 100 korraga | Anki õppimisseis ei säili | Kogu struktuur, meedia, mallid ja kõik ajastusandmed |
-| [Nibomo](https://nibomo.com/) | Anki TXT- või CSV-failist tehisaru abil mustandite koostamine ja nende kontrollimine | Anki õppimisseis ei säili | `.apkg` tugi puudub; mallid, meedia täpne esitus, kaardipakkide hierarhia ja kõik ajastusandmed jäävad maha |
+| [Nibomo](https://nibomo.com/) | [Manusta `.apkg` AI-vestlusesse](/blog/import-anki-apkg/); tehisaru salvestab kaardid otse. Sobib ka TXT või CSV | Anki õppimisseis ei säili; iga kaart alustab uuena | Lünktekstid muutuvad küsimuse-vastuse kaartideks; mallid, CSS, kaardipakkide pesastus ja kõik ajastusandmed jäävad maha |
 
 ## Hind, võrguühenduseta kasutus, ajastamine ja kontroll andmete üle
 
@@ -166,11 +166,11 @@ Allalaaditud kursusi saab mobiilirakendustes õppida võrguühenduseta. [Võrgu�
 
 Vali SuperMemo siis, kui tahad selle enda meetodit või kursusekataloogi piisavalt, et uue kordamisgraafikuga alustada. Kui esmatähtis on olemasoleva graafiku säilitamine, lahendab see vale probleemi.
 
-## Nibomo: kogu süsteemi lähtekood, kuid kõige nõrgem Anki import
+## Nibomo: kogu süsteemi lähtekood, kuid Ankist imporditakse ainult sisu
 
 Nibomo annab ulatusliku kontrolli kogu süsteemi üle. [MIT-litsentsiga hoidla](https://github.com/kirill-markin/flashcards-open-source-app) sisaldab veebirakendust, iOS-i ja Androidi kliente, serveripoolset süsteemi, võrguühenduseta sünkroonimist, taristut, [avalikku API-t](/docs/api/) ja [MCP serverit](/docs/mcp-connector/). Kordamisel kasutatakse [FSRS-i](/docs/architecture/#scheduling). Veebis, iOS-is ja Androidis kirjutatakse andmed kõigepealt kohalikku seadmesse, lisatakse muudatused saatmisjärjekorda ning sünkroonitakse ühenduse taastudes.
 
-See ei muuda Nibomot Ankiga ühilduvaks. Nibomo ei saa lugeda `.apkg` ega `.colpkg` faile. Toetatud [üleviimine Anki TXT-ekspordist](/blog/migrate-from-anki-txt-export-open-source-flashcards/) on kontrollimist hõlmav töövoog, milles tehisaru aitab koostada peamiselt tekstipõhiste kaartide mustandeid. See ei säilita malle, lisasid, kaardipakkide hierarhiat, kordamistähtaegu, intervalle ega kordamissündmusi. TXT-faili meediaviited ei ole meediafailid, seega tuleb meediarohkeid kaardipakke eraldi taastada ja kontrollida.
+See ei muuda Nibomot Ankiga ühilduvaks. Ühe klikiga importijat pole ja Teek → Import võtab vastu ainult Nibomo enda `.zip` faili. Selle asemel [manustad `.apkg` faili AI-vestlusesse](/blog/import-anki-apkg/) ja palud sel kaardipaki kaartideks muuta. Väikese näidispakiga tehtud katses säilisid põhikaardid, sildid ja üks pilt, põhi- ja pöördkaardiga märkmed jagati kaheks ühesuunaliseks kaardiks ning lünktekstid kirjutati ümber küsimuse-vastuse kaartideks. Alampakid muutusid Nibomos lamedateks kaardipakkideks. Mallid, lisad, kordamistähtajad, intervallid ja kordamissündmused jäävad maha ning `.colpkg` faile vastu ei võeta. Ekspordi nii, et **Support older Anki versions** on märgitud; Nibomo annab tehisarule meediafailide nimede loendi ainult selle vanema vormingu puhul. Testpakett oli skriptiga koostatud vanemas vormingus fail, mitte Anki eksport. Kontrolli pärast importi pilte. Vanem [üleviimine Anki TXT-ekspordist](/blog/migrate-from-anki-txt-export-open-source-flashcards/) toimib endiselt ainult tekstiga kaartide puhul.
 
 Ka Nibomo enda `flashcards.zip` pakett on kitsama ulatusega kui varukoopia. See viib Nibomo tööruumide vahel üle kaardid, sildid ja seotud meedia. See ei vii üle kordamisajalugu, FSRS-i seisundit, täielikke kaardipakistruktuure, tööruumi seadistusi ega kontosid.
 

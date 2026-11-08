@@ -2,7 +2,7 @@
 title: "2026 में RemNote के मुफ़्त और ओपन-सोर्स विकल्प"
 description: "नोट्स, PDFs, कार्ड, कीमत और self-hosting के आधार पर RemNote के विकल्पों की तुलना करें। जानें कि क्या migrate होगा, क्या छूटेगा और सुरक्षित बदलाव का अभ्यास कैसे करें।"
 date: "2026-03-19"
-updated: "2026-08-31"
+updated: "2026-11-08"
 image: "/blog/remnote-alternative.png"
 keywords:
   - "RemNote का विकल्प"
@@ -21,7 +21,7 @@ RemNote अपने Anki export को **Flashcards Only** कहता है�
 
 > **खुलासा:** मैं Kirill Markin हूँ और यहाँ तुलना किए गए products में से एक, [Nibomo](/hi/), बनाता हूँ। Nibomo, RemNote का पूरा विकल्प नहीं है। इस तुलना में RemNote का integrated notes-and-PDF workflow सबसे मजबूत है, जबकि Anki का card system और migration formats सबसे परिपक्व हैं।
 
-**तथ्यों और कीमतों की जाँच:** 31 अगस्त 2026। यहाँ सार्वजनिक US prices इस्तेमाल की गई हैं और जहाँ बताया गया है, वहाँ annual billing के हिसाब से रकम दी गई है। Taxes, region, app store और beta की शर्तों से कीमत बदल सकती है।
+**तथ्यों और कीमतों की जाँच:** 31 अगस्त 2026। यहाँ सार्वजनिक US prices इस्तेमाल की गई हैं और जहाँ बताया गया है, वहाँ annual billing के हिसाब से रकम दी गई है। Taxes, region, app store और beta की शर्तों से कीमत बदल सकती है। Nibomo के Anki `.apkg` import से जुड़े विवरणों की जाँच 8 नवंबर 2026 को की गई।
 
 ![एक अभिलेख संरक्षक सुरक्षित और परस्पर जुड़ी अध्ययन फ़ाइल से छोटे नमूने को अलग कार्ड, फ़ाइल और ब्लॉक प्रणालियों में ले जाने की जाँच करते हुए](/blog/remnote-alternative.png)
 
@@ -44,7 +44,7 @@ RemNote अपने Anki export को **Flashcards Only** कहता है�
 | **Anki** | Cards, templates, add-ons और collection fidelity सबसे अहम हैं | Connected notes या PDF reading के लिए कोई integrated workspace नहीं | Mature FSRS controls, optimized parameters, desired retention और workload simulation | Local desktop/mobile collections; open desktop core और official self-hosted sync server | Desktop, AnkiWeb और AnkiDroid मुफ़्त हैं; official AnkiMobile एक paid iOS app है | RemNote पूरे note system के बजाय cards को `.apkg` में export करता है; test import में scheduling data और media जाँचें |
 | **Obsidian + Anki** | Mature card scheduler छोड़े बिना साधारण local Markdown notes चाहिए | Local notes और attachments Obsidian में, cards Anki में; कोई एक integrated Reader-to-review loop नहीं | Anki FSRS | Local Markdown vault और local Anki collection; Obsidian खुद मुफ़्त है, लेकिन proprietary है | Obsidian मुफ़्त; optional Sync सालाना billing पर US$4/माह से; Anki की कीमत ऊपर दी गई है | RemNote Markdown और Anki exports दो अलग systems बनाते हैं; notes, sources और cards के बीच live RemNote links एक portable workflow में नहीं बदलते |
 | **Logseq** | खास तौर पर PDFs और built-in cards वाला open-source, notes-first outliner चाहिए | Linked blocks, PDF annotation और चार grades वाला card review | Built-in four-grade scheduler; [docs इसके नए algorithm](https://github.com/logseq/docs/blob/master/db-version.md#cards) को original FSRS project से जोड़ते हैं | AGPL-licensed app; database-version data को SQLite, EDN या कुछ जानकारी छोड़ देने वाले standard Markdown में export किया जा सकता है | मुफ़्त open-source app | मौजूदा database version beta में है; नया iOS app और real-time sync alpha में हैं, नया Android app अभी testing के लिए उपलब्ध नहीं है, और पुराने Logseq का SRS state नए card algorithm के साथ compatible नहीं है |
-| **Nibomo** | Open web/mobile/backend stack में simple cards चाहिए | Note knowledge base, backlinks, PDF reader या native desktop app नहीं | Fixed weights के साथ FSRS-6; Anki या RemNote के मुकाबले tuning controls कम | Offline-first web, iOS और Android; AWS production path वाला MIT-licensed full stack | Hosted app beta के दौरान मुफ़्त; self-hosting में infrastructure और provider costs जुड़ते हैं | कोई direct RemNote या Anki importer नहीं; content दोबारा बनाया जा सकता है, लेकिन review history और FSRS state transfer नहीं होते |
+| **Nibomo** | Open web/mobile/backend stack में simple cards चाहिए | Note knowledge base, backlinks, PDF reader या native desktop app नहीं | Fixed weights के साथ FSRS-6; Anki या RemNote के मुकाबले tuning controls कम | Offline-first web, iOS और Android; AWS production path वाला MIT-licensed full stack | Hosted app beta के दौरान मुफ़्त; self-hosting में infrastructure और provider costs जुड़ते हैं | कोई RemNote importer या one-click Anki importer नहीं; AI chat attach किए गए Anki `.apkg` को [नए cards](/blog/import-anki-apkg/) में बदल सकता है, लेकिन review history और FSRS state transfer नहीं होते |
 
 यह feature score नहीं है। PDFs पर बहुत निर्भर कोई छात्र “सबसे open” विकल्प अपनाकर license से जितना पाएगा, उससे अधिक खो सकता है। दूसरी ओर, simple vocabulary deck वाला व्यक्ति शायद ऐसे note system के पैसे दे रहा हो जिसका वह अब इस्तेमाल ही नहीं करता। पहले वह row चुनें जो आपकी असली बाधा बताती है, फिर उसकी migration सीमा को जाँचें।
 
@@ -96,7 +96,7 @@ Nibomo का समझौता RemNote से लगभग उलटा है
 
 इसका source केवल frontend तक सीमित नहीं है। MIT-licensed repository में web, iOS, Android, authentication, backend, sync और infrastructure शामिल हैं। Supported [production self-hosting guide](/hi/docs/self-hosting/) AWS CDK इस्तेमाल करती है। यह one-command local appliance नहीं है। इसे चलाने वाले व्यक्ति को cloud costs, secrets, migrations, monitoring, backups, restore tests और अलग से build किए mobile apps संभालने होंगे।
 
-मौजूदा RemNote user के लिए migration इससे भी बड़ी सीमा है। Nibomo अपने `flashcards.zip` packages import करता है, RemNote Markdown या Anki `.apkg` नहीं। उन packages में cards, tags और referenced media होते हैं, लेकिन review history, FSRS state, workspace settings, पूरा deck structure या accounts नहीं। AI chat export किए गए text को reviewed card drafts में बदल सकता है। यह content को फिर से बनाना है, पुराने collection को वहीं से आगे चलाना नहीं।
+मौजूदा RemNote user के लिए migration इससे भी बड़ी सीमा है। Nibomo का लाइब्रेरी import सिर्फ़ अपने `flashcards.zip` packages लेता है, RemNote Markdown या Anki `.apkg` नहीं। उन packages में cards, tags और referenced media होते हैं, लेकिन review history, FSRS state, workspace settings, पूरा deck structure या accounts नहीं। AI chat attach किए गए Anki `.apkg` या export किए गए text को पढ़कर cards बना सकता है, जो सब नए cards की तरह शुरू होते हैं। यह content को फिर से बनाना है, पुराने collection को वहीं से आगे चलाना नहीं। [Anki `.apkg` import guide](/blog/import-anki-apkg/) बताती है कि इस रास्ते में क्या बचता है और क्या छूटता है, और पुरानी [TXT migration guide](/blog/migrate-from-anki-txt-export-open-source-flashcards/) plain-text वाला रास्ता समझाती है।
 
 जब पूरे stack के source तक पहुँच अहम हो, तब नए या simple card workspace के लिए Nibomo चुनें। Connected study के लिए RemNote रखें। Migration fidelity या advanced card structure चाहिए, तो Anki चुनें। दूसरे विकल्पों के लिए [open-source flashcard apps guide](/hi/blog/best-open-source-flashcard-apps-2026/) देखें।
 

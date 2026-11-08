@@ -2,6 +2,7 @@
 title: "JLPT-Lernkarten 2026: Kanji, Grammatik und Hörverstehen"
 description: "Bereite dich mit Lernkarten auf JLPT N5, N4, N3, N2 oder N1 vor: Kanji, Wortschatz, Grammatik, Fehler beim Hörverstehen und FSRS-Wiederholungen bis zur Prüfung."
 date: "2026-07-31"
+updated: "2026-11-08"
 image: "/blog/jlpt-flashcards.png"
 keywords:
   - "JLPT-Lernkarten"
@@ -334,7 +335,7 @@ FSRS kann spätere Wiederholungen anhand deines Verlaufs planen: Schwierige Kart
 
 In [Nibomo](/features/) reichen einfache Karten mit Vorder- und Rückseite für die Beispiele in diesem Leitfaden aus. Mit Tags kannst du Stufe und Aufgabentyp festhalten, etwa `N3`, `kanji-reading`, `paraphrase`, `text-grammar` oder `listening-miss`. Füge Bilder oder andere Medien hinzu, wenn sie hilfreichen Kontext liefern. Du kannst fällige Karten mit FSRS wiederholen, mobil offline lernen und Änderungen synchronisieren, sobald wieder eine Verbindung besteht. Durch Import und Export bleiben Karten, Tags und zugehörige Medien portabel.
 
-Die App stellt weder ein fertiges JLPT-Deck noch einen JLPT-Prüfungssimulator bereit und kann Anki-Dateien im Format `.apkg` nicht direkt importieren. KI kann beim Entwerfen oder Kürzen möglicher Karten helfen. Sie überprüft jedoch weder das Japanisch noch die Richtigkeit der Quelle, die Einordnung der Stufe oder die Prüfungsrelevanz. Prüfe jede generierte Karte, bevor du sie speicherst. Der Leitfaden [Erste Schritte](/docs/getting-started/) beschreibt die Nutzung als gehostete Web-App, auf Mobilgeräten, per Agent oder im Self-Hosting.
+Die App stellt weder ein fertiges JLPT-Deck noch einen JLPT-Prüfungssimulator bereit und hat keinen Ein-Klick-Import für Anki. Der KI-Chat kann aus einer Anki-`.apkg` neue Karten ohne deren Wiederholungsverlauf machen; der [Leitfaden zum `.apkg`-Import](/blog/import-anki-apkg/) zeigt, wie. KI kann beim Entwerfen oder Kürzen möglicher Karten helfen. Sie überprüft jedoch weder das Japanisch noch die Richtigkeit der Quelle, die Einordnung der Stufe oder die Prüfungsrelevanz. Prüfe jede generierte Karte, bevor du sie speicherst. Der Leitfaden [Erste Schritte](/docs/getting-started/) beschreibt die Nutzung als gehostete Web-App, auf Mobilgeräten, per Agent oder im Self-Hosting.
 
 ## Erstelle die nächsten zehn Karten aus konkreten Quellen und Fehlern
 

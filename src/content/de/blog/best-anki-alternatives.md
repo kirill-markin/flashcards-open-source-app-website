@@ -2,7 +2,7 @@
 title: "Anki-Alternativen 2026: Was du beim Wechsel behältst, verlierst und gewinnst"
 description: "Vergleiche sieben Anki-Alternativen nach Datenübernahme, Offline-Nutzung, Lernplanung, Preis, Quellcodezugriff und Self-Hosting – und erfahre, wann du besser bei Anki bleibst."
 date: "2026-03-14"
-updated: "2026-08-28"
+updated: "2026-11-08"
 image: "/blog/best-anki-alternatives.png"
 keywords:
   - "Anki-Alternativen"
@@ -20,9 +20,9 @@ Das ist der teure Teil beim Vergleich von Anki-Alternativen. Einen aufgeräumter
 
 Genau dort setzt dieser Vergleich an. Er behandelt sieben Apps wie Anki, zeigt, was sie aus einer bestehenden Sammlung übernehmen, was sich nach dem Import ändert und wann du besser bei Anki bleibst.
 
-> **Offenlegung:** Ich bin Kirill Markin und entwickle [Nibomo](https://nibomo.com/), eines der Produkte in diesem Vergleich. Ich habe es wegen des offenen Quellcodes, der Self-Hosting-Option und der Workflows für KI-Agenten aufgenommen. Es ist hier nicht automatisch die beste Wahl: Es hat keinen direkten `.apkg`-Importer, die Migration aus Anki ist verlustbehaftet, und der Betrieb des selbst gehosteten Stacks ist eine echte Infrastrukturaufgabe.
+> **Offenlegung:** Ich bin Kirill Markin und entwickle [Nibomo](https://nibomo.com/), eines der Produkte in diesem Vergleich. Ich habe es wegen des offenen Quellcodes, der Self-Hosting-Option und der Workflows für KI-Agenten aufgenommen. Es ist hier nicht automatisch die beste Wahl: Es liest Anki-`.apkg`-Dateien nur über den KI-Chat, die Migration aus Anki ist verlustbehaftet, und der Betrieb des selbst gehosteten Stacks ist eine echte Infrastrukturaufgabe.
 
-**Fakten geprüft:** 28. August 2026. Die Preise sind die an diesem Tag verfügbaren öffentlichen US-Preise oder angegebenen lokalen Preise. Steuern, Regionen, Bildungsangebote und die Abrechnung über App-Stores können den Betrag verändern.
+**Fakten geprüft:** 28. August 2026. Die Preise sind die an diesem Tag verfügbaren öffentlichen US-Preise oder angegebenen lokalen Preise. Steuern, Regionen, Bildungsangebote und die Abrechnung über App-Stores können den Betrag verändern. Die Angaben zum Anki-`.apkg`-Import von Nibomo wurden am 8. November 2026 geprüft.
 
 ![Ein Uhrmacher prüft, ob das eingespielte Werk einer Taschenuhr in ein anderes Gehäuse passt](/blog/best-anki-alternatives.png)
 
@@ -41,7 +41,7 @@ Bei den übrigen vier Produkten baust du Inhalte neu auf, statt eine Sammlung zu
 - **Quizlet** eignet sich für öffentliche Lernsets, Klassen, Spiele und angeleitetes Üben.
 - **Brainscape** bietet Gruppen eine einfachere Bewertungsschleife von 1 bis 5.
 - **SuperMemo** ist ein Wechsel zu seiner proprietären Methode und seinem Kurskatalog.
-- **Nibomo** bietet MIT-lizenzierte Web- und native Clients, ein selbst hostbares Backend sowie API- und MCP-Zugriff. Der geprüfte Workflow mit TXT oder CSV erhält den Anki-Lernstatus nicht.
+- **Nibomo** bietet MIT-lizenzierte Web- und native Clients, ein selbst hostbares Backend sowie API- und MCP-Zugriff. Sein KI-Chat kann aus einer angehängten `.apkg` Karten machen, der Anki-Lernstatus kommt aber nicht mit.
 
 Wenn deine Karten von exakter Darstellung, Add-ons oder der aktuellen Wiederholungswarteschlange abhängen, ist es keine Unentschlossenheit, bei Anki zu bleiben. Es ist die richtige Antwort.
 
@@ -78,7 +78,7 @@ Ein Importer kann die erste Frage bestehen und bei den anderen beiden scheitern.
 | [Quizlet](https://quizlet.com/) | [Begriffe und Definitionen einfügen](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content) | Kein Anki-Lernstatus | Notiztypen, Vorlagen, Decks, Medienstruktur und sämtliche Planungsdaten |
 | [Brainscape](https://www.brainscape.com/) | [CSV, TXT, XLSX oder ODS](https://brainscape.zendesk.com/hc/en-us/articles/115002369931-How-do-I-import-various-files-to-create-flashcards) | Kein Anki-Lernstatus | Vorlagen, Add-ons, Medienregeln und sämtliche Planungsdaten |
 | [SuperMemo](https://www.supermemo.com/) | [Frage-und-Antwort-Zeilen mit Trennzeichen einfügen](https://www.supermemo.com/en/blog/how-to-create-flashcards-for-learning), bis zu 100 auf einmal | Kein Anki-Lernstatus | Sammlungsstruktur, Medien, Vorlagen und sämtliche Planungsdaten |
-| [Nibomo](https://nibomo.com/) | Geprüfter, KI-gestützter Entwurfsworkflow mit Anki-TXT oder -CSV | Kein Anki-Lernstatus | Keine `.apkg`-Unterstützung; Vorlagen, Medientreue, Deck-Hierarchie und sämtliche Planungsdaten bleiben zurück |
+| [Nibomo](https://nibomo.com/) | [`.apkg` im KI-Chat anhängen](/blog/import-anki-apkg/); die KI speichert die Karten direkt. TXT oder CSV funktioniert ebenfalls | Kein Anki-Lernstatus; jede Karte startet als neu | Lückentext-Notizen werden zu Frage-Antwort-Karten; Vorlagen, CSS, Deck-Verschachtelung und sämtliche Planungsdaten bleiben zurück |
 
 ## Preis, Offline-Nutzung, Lernplanung und Kontrolle
 
@@ -166,11 +166,11 @@ Heruntergeladene Kurse lassen sich in den mobilen Apps offline lernen. Die [Offl
 
 Wähle SuperMemo, wenn dir die eigene Methode oder der Kurskatalog wichtig genug ist, um mit einem neuen Lernplan zu beginnen. Wenn dein bestehender Lernplan erhalten bleiben soll, löst das Produkt das falsche Problem.
 
-## Nibomo: Quellcodezugriff auf den gesamten Stack, aber der schwächste Anki-Import
+## Nibomo: Quellcodezugriff auf den gesamten Stack, mit einem reinen Inhaltsimport aus Anki
 
 Nibomo legt den gesamten Stack offen. Das [MIT-lizenzierte Repository](https://github.com/kirill-markin/flashcards-open-source-app) enthält die Web-App, iOS- und Android-Clients, das Backend, Offline-Synchronisierung, Infrastruktur, eine [öffentliche API](/docs/api/) und einen [MCP-Server](/docs/mcp-connector/). Wiederholungen verwenden [FSRS](/docs/architecture/#scheduling). Web, iOS und Android schreiben zuerst lokal, sammeln Änderungen in einer Outbox und synchronisieren sie nach der nächsten Verbindung.
 
-Das macht Nibomo nicht mit Anki kompatibel. Nibomo kann weder `.apkg` noch `.colpkg` lesen. Die unterstützte [Anki-Migration per TXT](/blog/migrate-from-anki-txt-export-open-source-flashcards/) ist ein geprüfter, KI-gestützter Workflow zum Entwerfen überwiegend textbasierter Karten. Vorlagen, Add-ons, Deck-Hierarchie, Fälligkeitstermine, Intervalle und Wiederholungsereignisse bleiben nicht erhalten. Medienverweise in einer TXT-Datei sind keine Mediendateien. Decks mit vielen Medien müssen daher getrennt neu aufgebaut und geprüft werden.
+Das macht Nibomo nicht mit Anki kompatibel. Es gibt keinen Ein-Klick-Importer, und Bibliothek → Import nimmt nur Nibomos eigenes `.zip` an. Stattdessen [hängst du eine `.apkg` im KI-Chat an](/blog/import-anki-apkg/) und bittest darum, aus dem Deck Karten zu machen. In einem Test mit einem kleinen Beispieldeck blieben einfache Karten, Tags und ein Bild erhalten; Notizen mit umgekehrter Karte wurden in zwei Karten mit je einer Richtung aufgeteilt, und Lückentext-Notizen wurden als Frage-Antwort-Karten neu geschrieben. Unterdecks wurden zu flachen Nibomo-Decks. Vorlagen, Add-ons, Fälligkeitstermine, Intervalle und Wiederholungsereignisse bleiben zurück, und `.colpkg`-Dateien werden nicht angenommen. Exportiere mit **Support older Anki versions**; nur bei diesem älteren Format gibt Nibomo der KI die Liste der Mediendateinamen. Das Testpaket war eine per Skript erstellte Datei im älteren Format, kein Anki-Export. Prüfe die Bilder nach dem Import. Die ältere [Anki-Migration per TXT](/blog/migrate-from-anki-txt-export-open-source-flashcards/) funktioniert weiterhin für reine Textkarten.
 
 Auch das eigene `flashcards.zip`-Paket von Nibomo sichert weniger als ein vollständiges Backup. Es verschiebt Karten, Tags und zugehörige Medien zwischen Nibomo-Workspaces. Wiederholungsverlauf, FSRS-Status, vollständige Deck-Strukturen, Workspace-Einstellungen und Konten werden nicht übertragen.
 

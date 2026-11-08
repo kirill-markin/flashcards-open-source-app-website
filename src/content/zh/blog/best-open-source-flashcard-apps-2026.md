@@ -2,7 +2,7 @@
 title: "2026 年最佳开源闪卡应用：6 款 FOSS 方案对比"
 description: "从源码覆盖范围、离线数据、同步、Anki 导入、导出、自托管和恢复能力等方面，对比六款仍在维护的开源闪卡应用。"
 date: "2026-08-02"
-updated: "2026-09-05"
+updated: "2026-11-08"
 image: "/blog/best-open-source-flashcard-apps-2026-v2.png"
 keywords:
   - "最佳开源闪卡应用"
@@ -24,7 +24,7 @@ keywords:
 
 > **利益披露：** 我是 Kirill Markin，也是下列六款应用之一 [Nibomo](https://nibomo.com/) 的开发者。它采用 MIT 许可证的仓库覆盖 Web 应用、原生客户端、后端、同步和基础设施。我没有把它排在第一。Anki 是更稳妥的默认选择，Mnemosyne 的 Anki 迁移路径更成熟，而且这里还有几款方案运维起来轻松得多。
 
-**事实核查日期：** 2026 年 9 月 5 日。稳定版与只存在于默认分支的开发成果会分开说明。
+**事实核查日期：** 2026 年 9 月 5 日。稳定版与只存在于默认分支的开发成果会分开说明。Nibomo 的 Anki `.apkg` 导入相关信息核查于 2026 年 11 月 8 日。
 
 ![徒步者在选择开源闪卡应用前，对比六个打开的背包并检查备份套件](/blog/best-open-source-flashcard-apps-2026-v2.png)
 
@@ -61,7 +61,7 @@ GitHub 星标数不是入选门槛。它既反映项目年龄和知名度，也�
 | **Anki** | [26.08.1](https://github.com/ankitects/anki/releases/tag/26.08.1)，2026 年 8 月 5 日 | Windows、macOS、Linux；独立的 Android 和 iOS 客户端；AnkiWeb | 已安装的客户端使用本地收藏学习 | FSRS 或旧版 SM-2 | AnkiWeb 或官方自托管同步服务器 | 可导入文本、APKG/COLPKG 和 Mnemosyne 数据库；可导出文本或软件包，并选择是否包含媒体与调度数据 | **仅同步服务器。** 不能自托管 AnkiWeb，也没有浏览器学习界面 |
 | **Mnemosyne** | [2.11](https://github.com/mnemosyne-proj/mnemosyne/releases/tag/2.11)，2023 年 11 月 12 日；仓库在 2026 年仍有开发活动 | Windows、macOS、Linux、Android；有限的浏览器复习功能 | 桌面端使用本地数据；Android 可离线复习，但不能编辑 | 自适应的 0–5 级回忆评分 | 内置同步，可连接桌面端或无界面实例 | 官方文档说明可完整导入 Anki，包括自定义卡片类型和学习数据；用于分享的导出不是完整备份 | **同步加有限的浏览器复习。** 浏览器服务器没有安全功能 |
 | **SiYuan** | [v3.8.2](https://github.com/siyuan-note/siyuan/releases/tag/v3.8.2)，2026 年 8 月 30 日 | Windows、macOS、Linux、Android、iOS、HarmonyOS；通过 Docker 在浏览器中使用 | 原生客户端在本地保存工作空间 | FSRS | 付费的官方 E2EE 同步，或付费的第三方 S3/WebDAV 集成 | 常规应用可导入 Markdown 和数据，并导出多种文档及数据格式；没有文档化的 APKG 导入器 | **完整的浏览器应用。** Docker 版不能与原生客户端同步，并移除了部分导入和导出命令 |
-| **Nibomo** | [v1.23.0](https://github.com/kirill-markin/flashcards-open-source-app/releases/tag/v1.23.0)，2026 年 9 月 1 日 | Web、iOS、Android | Web 端使用 IndexedDB；iOS 使用 SQLite；Android 使用基于 SQLite 的 Room；本地写入会排队等待同步 | FSRS | 官方托管或由运营者部署的后端 | 自有 ZIP 可迁移卡片、标签、来源元数据和引用的媒体文件，但不包括牌组、学习状态、设置或账号；没有 APKG 导入器 | **完整的 Web/后端栈。** 生产部署以 AWS 为中心；私有原生构建需要另行处理 |
+| **Nibomo** | [v1.23.0](https://github.com/kirill-markin/flashcards-open-source-app/releases/tag/v1.23.0)，2026 年 9 月 1 日 | Web、iOS、Android | Web 端使用 IndexedDB；iOS 使用 SQLite；Android 使用基于 SQLite 的 Room；本地写入会排队等待同步 | FSRS | 官方托管或由运营者部署的后端 | 自有 ZIP 可迁移卡片、标签、来源元数据和引用的媒体文件，但不包括牌组、学习状态、设置或账号；没有 APKG 导入器。自 v1.34.0 起，AI 对话可以把 `.apkg` 转换成只含内容的卡片；仍然没有一键导入器 | **完整的 Web/后端栈。** 生产部署以 AWS 为中心；私有原生构建需要另行处理 |
 | **Recall** | [v1.3.0](https://github.com/Madlezz/Recall/releases/tag/v1.3.0)，2026 年 7 月 31 日 | Windows、macOS、Linux；可安装的 PWA | 桌面端使用 SQLite；浏览器使用 IndexedDB；默认不需要账号，也不开启遥测 | FSRS | 桌面文件夹同步，或可选的加密 Cloudflare Worker/R2 中继 | 桌面端导入 APKG 时读取前两个字段、牌组、标签、近似的调度状态快照和图片；可导出 JSON 与 Recall 归档 | **仅加密快照中继。** 它不托管 PWA |
 | **Essentialist** | [v0.3.22](https://github.com/essentialist-app/essentialist/releases/tag/v0.3.22)，2025 年 10 月 10 日；源码在 2026 年仍有开发活动 | Android APK、macOS DMG、Linux Flatpak；Windows 需从源码构建 | 不访问网络；牌组内容采用 Markdown | 稳定版：SM-2；默认分支：FSRS | 无 | Markdown 保存卡片内容；隐藏的配套数据库保存进度 | **没有可托管的服务。** Markdown 文件和配套数据库必须一起备份 |
 
@@ -119,7 +119,7 @@ Docker 运行的是真正的浏览器应用，但它不会变成已安装应用�
 
 Nibomo 自有的 ZIP 软件包用于迁移内容，不是账号备份。在 v1.23.0 中，它的[软件包结构定义](https://github.com/kirill-markin/flashcards-open-source-app/blob/v1.23.0/apps/backend/src/workspacePackages/types.ts)包含正面和背面内容、标签、卡片类型、来源元数据和软件包元数据；引用的媒体文件另行打包。它不包含牌组结构、复习历史、FSRS 状态、工作空间设置或账号。
 
-v1.23.0 没有 APKG 导入器。文档中的[从 Anki TXT/CSV 迁移流程](/blog/migrate-from-anki-txt-export-open-source-flashcards/)使用导出的文本重建卡片，并且需要人工检查。模板、调度状态、牌组结构和打包媒体不会通过这条路径自动保留。它适合简单的纯文本牌组，不适合高度定制的收藏。
+v1.23.0 没有 APKG 导入器，现在也仍然没有一键导入器：“资料库 → 导入”只接受 Nibomo 自己的 ZIP。自 [v1.34.0](https://github.com/kirill-markin/flashcards-open-source-app/releases/tag/v1.34.0) 起，你可以在 AI 对话中附加 `.apkg`，并让它把牌组转换成卡片。在一个小型示例牌组的测试中，文本、标签和一张图片都迁移了过来；填空笔记变成了问答卡片，每张卡片都作为新卡开始。模板、调度状态和牌组嵌套不会保留。导出时请勾选 **Support older Anki versions**：只有这种旧格式，Nibomo 才会把媒体文件名列表提供给 AI。测试用的包是用脚本生成的旧格式文件，而不是从 Anki 导出的。导入后请检查图片。详情见 [`.apkg` 导入指南](/blog/import-anki-apkg/)；较早的[从 Anki TXT/CSV 迁移流程](/blog/migrate-from-anki-txt-export-open-source-flashcards/)仍适用于纯文本牌组。两条路径都适合简单牌组，不适合高度定制的收藏。
 
 [自托管指南](/docs/self-hosting/)也同样明确。生产环境使用 AWS CDK 技术栈，包括 RDS、Cognito、API Gateway 和 Lambda、S3 和 CloudFront、机密信息、告警与备份。Cloudflare DNS、Resend 邮件和 Sentry 配置位于 AWS 之外。Docker Compose 用于本地开发，不是官方支持的生产软件包。需要私有 iOS 或 Android 二进制文件的运营者，要单独构建和分发。
 

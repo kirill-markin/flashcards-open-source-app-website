@@ -2,7 +2,7 @@
 title: "Anki alternatīvas 2026. gadā: ko saglabājat, zaudējat un iegūstat, pārejot uz citu lietotni"
 description: "Salīdziniet septiņas Anki alternatīvas pēc migrācijas precizitātes, bezsaistes režīma, atkārtošanas plānošanas, cenas, pirmkoda un pašmitināšanas — un uzziniet, kad drošāk palikt pie Anki."
 date: "2026-03-14"
-updated: "2026-08-28"
+updated: "2026-11-08"
 image: "/blog/best-anki-alternatives.png"
 keywords:
   - "Anki alternatīvas"
@@ -20,9 +20,9 @@ Tieši tā ir dārgākā daļa, salīdzinot Anki alternatīvas. Pārskatāmāku 
 
 Šī salīdzinājuma sākumpunkts ir tas, ko iespējams pārnest uz citu lietotni. Tajā aplūkotas septiņas Anki līdzīgas lietotnes: ko katra spēj pārņemt no esošas kolekcijas, kas pēc importa mainās un kad drošākais iznākums ir palikt pie Anki.
 
-> **Par autora saistību ar produktu:** Esmu Kirill Markin un veidoju [Nibomo](https://nibomo.com/), vienu no tālāk aplūkotajiem produktiem. Iekļāvu to atvērtā pirmkoda, pašmitināšanas un darbplūsmu ar aģentiem dēļ. Tas nav uzvarētājs pēc noklusējuma: tam nav tieša `.apkg` importētāja, migrācijā no Anki daļa datu zūd, un pašmitinātās sistēmas uzturēšana prasa īstu infrastruktūras pārvaldības darbu.
+> **Par autora saistību ar produktu:** Esmu Kirill Markin un veidoju [Nibomo](https://nibomo.com/), vienu no tālāk aplūkotajiem produktiem. Iekļāvu to atvērtā pirmkoda, pašmitināšanas un darbplūsmu ar aģentiem dēļ. Tas nav uzvarētājs pēc noklusējuma: Anki `.apkg` failus tas nolasa tikai MI čatā, migrācijā no Anki daļa datu zūd, un pašmitinātās sistēmas uzturēšana prasa īstu infrastruktūras pārvaldības darbu.
 
-**Fakti pārbaudīti:** 2026. gada 28. augustā. Norādītas tajā dienā publiski pieejamās ASV cenas vai publicētās vietējās cenas. Nodokļi, reģions, izglītības piedāvājumi un norēķini lietotņu veikalos var mainīt galīgo summu.
+**Fakti pārbaudīti:** 2026. gada 28. augustā. Norādītas tajā dienā publiski pieejamās ASV cenas vai publicētās vietējās cenas. Nodokļi, reģions, izglītības piedāvājumi un norēķini lietotņu veikalos var mainīt galīgo summu. Nibomo Anki `.apkg` importa informācija pārbaudīta 2026. gada 8. novembrī.
 
 ![Pulksteņmeistars pārbauda, vai labi kalpojis kabatas pulksteņa mehānisms iederēsies citā korpusā](/blog/best-anki-alternatives.png)
 
@@ -41,7 +41,7 @@ Pārējās četrās lietotnēs saturs jāveido no jauna, nevis jāpārceļ visa 
 - **Quizlet** noder publiskiem komplektiem, klasēm, spēlēm un vadītiem vingrinājumiem.
 - **Brainscape** grupai piedāvā vienkāršāku atkārtošanu ar pārliecības novērtējumu no 1 līdz 5.
 - **SuperMemo** nozīmē pāreju uz tā slēgto metodi un kursu katalogu.
-- **Nibomo** piedāvā tīmekļa un ierīcēs instalējamas lietotnes ar MIT licenci, pašmitinātu servera daļu, API un MCP piekļuvi. Tā TXT vai CSV darbplūsma ar rezultāta pārbaudi nesaglabā Anki mācīšanās stāvokli.
+- **Nibomo** piedāvā tīmekļa un ierīcēs instalējamas lietotnes ar MIT licenci, pašmitinātu servera daļu, API un MCP piekļuvi. Tā MI čats var pārvērst pievienotu `.apkg` failu kartītēs, taču Anki mācīšanās stāvoklis netiek pārnests.
 
 Ja jūsu kartīšu darbība ir atkarīga no precīza attēlojuma, papildinājumiem vai pašreizējās atkārtošanas rindas, palikšana pie Anki nav neizlēmība. Tā ir atbilde.
 
@@ -78,7 +78,7 @@ Importētājs var izturēt pirmo pārbaudi, bet neizturēt pārējās divas.
 | [Quizlet](https://quizlet.com/) | [Terminu un definīciju ielīmēšana](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content) | Anki mācīšanās dati netiek pārnesti | Piezīmju tipi, veidnes, komplekti, multivides struktūra un visi plānošanas dati |
 | [Brainscape](https://www.brainscape.com/) | [CSV, TXT, XLSX vai ODS](https://brainscape.zendesk.com/hc/en-us/articles/115002369931-How-do-I-import-various-files-to-create-flashcards) | Anki mācīšanās dati netiek pārnesti | Veidnes, papildinājumi, multivides noteikumi un visi plānošanas dati |
 | [SuperMemo](https://www.supermemo.com/) | [Ar atdalītājiem nodalītu jautājumu un atbilžu rindu ielīmēšana](https://www.supermemo.com/en/blog/how-to-create-flashcards-for-learning), līdz 100 vienā reizē | Anki mācīšanās dati netiek pārnesti | Kolekcijas struktūra, multivide, veidnes un visi plānošanas dati |
-| [Nibomo](https://nibomo.com/) | Melnrakstu veidošana no Anki TXT vai CSV ar mākslīgā intelekta palīdzību un rezultāta pārbaudi | Anki mācīšanās dati netiek pārnesti | Nav `.apkg` atbalsta; veidnes, precīza multivides pārnešana, komplektu hierarhija un visi plānošanas dati paliek Anki |
+| [Nibomo](https://nibomo.com/) | [Pievienojiet `.apkg` MI čatā](/blog/import-anki-apkg/); MI kartītes saglabā uzreiz. Der arī TXT vai CSV | Anki mācīšanās dati netiek pārnesti; katra kartīte sākas kā jauna | Teksta izlaidumu piezīmes kļūst par jautājuma un atbildes kartītēm; veidnes, CSS, komplektu hierarhija un visi plānošanas dati paliek Anki |
 
 ## Cena, darbs bezsaistē, atkārtošanas plānošana un kontrole pār sistēmu
 
@@ -166,11 +166,11 @@ Lejupielādētos kursus mobilajās lietotnēs var apgūt bezsaistē. [Bezsaistes
 
 Izvēlieties SuperMemo, ja tā paša metode vai kursu katalogs jums ir pietiekami svarīgs, lai sāktu jaunu atkārtošanas grafiku. Ja prioritāte ir saglabāt esošo grafiku, tas risina citu problēmu.
 
-## Nibomo: pirmkods visai sistēmai, bet visvājākais Anki imports
+## Nibomo: pirmkods visai sistēmai, bet Anki imports tikai saturam
 
 Nibomo ļauj pārņemt kontroli pār plašu sistēmas daļu. [Repozitorijā ar MIT licenci](https://github.com/kirill-markin/flashcards-open-source-app) ir tīmekļa lietotne, iOS un Android klienti, servera daļa, bezsaistes sinhronizācija, infrastruktūra, [publiskais API](/docs/api/) un [MCP serveris](/docs/mcp-connector/). Atkārtošanai tiek izmantots [FSRS](/docs/architecture/#scheduling). Tīmekļa, iOS un Android lietotnes vispirms raksta datus lokāli, pievieno izmaiņas nosūtīšanas rindai un sinhronizē pēc savienojuma atjaunošanas.
 
-Tas nenozīmē saderību ar Anki. Nibomo nevar lasīt `.apkg` vai `.colpkg`. Atbalstītā [Anki TXT migrācija](/blog/migrate-from-anki-txt-export-open-source-flashcards/) ir melnrakstu veidošanas darbplūsma ar MI palīdzību un rezultāta pārbaudi, paredzēta galvenokārt teksta kartītēm. Tā nesaglabā veidnes, papildinājumus, komplektu hierarhiju, nākamo atkārtojumu datumus, intervālus vai atkārtojumu ierakstus. Atsauces uz multividi TXT failā nav paši multivides faili, tāpēc komplekti ar daudz multivides jāatjauno un jāpārbauda atsevišķi.
+Tas nenozīmē saderību ar Anki. Importētāja ar vienu klikšķi nav, un Bibliotēka → Importēt pieņem tikai paša Nibomo `.zip`. Tā vietā [pievienojiet `.apkg` MI čatā](/blog/import-anki-apkg/) un palūdziet pārvērst komplektu kartītēs. Testā ar nelielu parauga komplektu tika saglabāti pamata kartītes, birkas un attēls, pamata un apgrieztās piezīmes tika sadalītas divās vienvirziena kartītēs, bet teksta izlaidumu piezīmes pārrakstītas kā jautājuma un atbildes kartītes. Apakškomplekti kļuva par vienlīmeņa Nibomo komplektiem. Veidnes, papildinājumi, nākamo atkārtojumu datumi, intervāli un atkārtojumu ieraksti paliek Anki, un `.colpkg` faili netiek pieņemti. Eksportējiet ar opciju **Support older Anki versions**; tikai šim vecākajam formātam Nibomo nodod MI multivides failu nosaukumu sarakstu. Testa pakotne bija vecākā formāta fails, kas izveidots ar skriptu, nevis Anki eksports. Pēc importa pārbaudiet attēlus. Vecākā [Anki TXT migrācija](/blog/migrate-from-anki-txt-export-open-source-flashcards/) joprojām der kartītēm tikai ar tekstu.
 
 Arī paša Nibomo `flashcards.zip` pakotne aptver mazāk nekā rezerves kopija. Tā pārnes kartītes, birkas un saistīto multividi starp Nibomo darbvietām. Tā nepārnes atkārtojumu vēsturi, FSRS stāvokli, pilnas komplektu struktūras, darbvietu iestatījumus vai kontus.
 

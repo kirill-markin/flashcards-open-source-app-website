@@ -2,6 +2,7 @@
 title: "JLPT Flashcards 2026: Kanji, Grammar और Listening"
 description: "JLPT N5, N4, N3, N2 या N1 की तैयारी के लिए kanji, vocabulary, grammar और listening में हुई गलतियों के flashcards बनाएँ और परीक्षा से पहले FSRS से review करें।"
 date: "2026-07-31"
+updated: "2026-11-08"
 image: "/blog/jlpt-flashcards.png"
 keywords:
   - "JLPT flashcards"
@@ -334,7 +335,7 @@ FSRS आपकी review history से अगली reviews schedule कर स
 
 [Nibomo](/features/) में इस guide के examples के लिए सादे front/back cards काफ़ी हैं। `N3`, `kanji-reading`, `paraphrase`, `text-grammar` या `listening-miss` जैसे tags level और item type को सहेज सकते हैं। आप उपयोगी context देने वाली images या related media जोड़ सकते हैं, FSRS के साथ due cards review कर सकते हैं, mobile पर offline पढ़ सकते हैं और connection लौटने पर changes sync कर सकते हैं। Import और export से cards, tags और related media को साथ ले जाना आसान रहता है।
 
-App में premade JLPT deck या JLPT test simulator नहीं मिलता और यह Anki `.apkg` files सीधे import नहीं कर सकता। AI cards का draft बनाने या उन्हें छोटा करने में मदद कर सकता है, लेकिन वह Japanese, source की accuracy, level placement या test relevance verify नहीं करता। हर generated card को save करने से पहले जाँचिए। [Getting Started guide](/docs/getting-started/) hosted, mobile, agent और self-hosted options समझाती है।
+App में premade JLPT deck या JLPT test simulator नहीं मिलता और इसमें one-click Anki importer नहीं है। AI chat किसी Anki `.apkg` को उसकी review history के बिना नए cards में बदल सकता है; [`.apkg` import guide](/blog/import-anki-apkg/) तरीका दिखाती है। AI cards का draft बनाने या उन्हें छोटा करने में मदद कर सकता है, लेकिन वह Japanese, source की accuracy, level placement या test relevance verify नहीं करता। हर generated card को save करने से पहले जाँचिए। [Getting Started guide](/docs/getting-started/) hosted, mobile, agent और self-hosted options समझाती है।
 
 ## अगले दस cards पुख्ता आधार पर बनाएँ
 

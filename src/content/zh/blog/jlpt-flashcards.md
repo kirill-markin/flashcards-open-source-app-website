@@ -2,6 +2,7 @@
 title: "2026 年 JLPT 闪卡：汉字、语法与听力备考"
 description: "使用汉字、词汇、语法和听力错题闪卡，配合 FSRS 复习，备考 JLPT N5、N4、N3、N2 或 N1，同时保留完整的阅读与听力训练。"
 date: "2026-07-31"
+updated: "2026-11-08"
 image: "/blog/jlpt-flashcards.png"
 keywords:
   - "JLPT 闪卡"
@@ -333,7 +334,7 @@ FSRS 可以根据你的复习记录安排下一次复习：难卡更早出现，
 
 在 [Nibomo](/features/) 中，本指南的示例只需使用普通正反面卡片。标签可以记录级别和题型，例如 `N3`、`kanji-reading`、`paraphrase`、`text-grammar` 或 `listening-miss`。图片或相关媒体能提供有效语境时，也可以加入卡片。你可以用 FSRS 复习到期卡片，在移动端离线学习，并在恢复网络后同步更改。导入和导出功能可让卡片、标签及相关媒体保持可迁移。
 
-应用不提供预制 JLPT 牌组或 JLPT 模拟考试，也不能直接导入 Anki `.apkg` 文件。AI 可以协助起草或精简候选卡片，但不会核实日语、来源准确性、级别归属或考试相关性。保存前必须检查每张生成的卡片。[入门指南](/docs/getting-started/)介绍了托管版、移动端、Agent 和自托管选项。
+应用不提供预制 JLPT 牌组或 JLPT 模拟考试，也没有一键导入 Anki 的工具。AI 对话可以把 Anki `.apkg` 转换成不含复习历史的新卡片，具体方法见 [`.apkg` 导入指南](/blog/import-anki-apkg/)。AI 可以协助起草或精简候选卡片，但不会核实日语、来源准确性、级别归属或考试相关性。保存前必须检查每张生成的卡片。[入门指南](/docs/getting-started/)介绍了托管版、移动端、Agent 和自托管选项。
 
 ## 根据学习材料和错题制作接下来的十张卡片
 

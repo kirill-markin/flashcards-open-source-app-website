@@ -2,7 +2,7 @@
 title: "Okungasetshenziswa esikhundleni se-Anki ngo-2026: okugcinayo, okulahlekelayo nokuzuzayo lapho ushintsha"
 description: "Qhathanisa izinhlelo eziyisikhombisa ezingangena esikhundleni se-Anki ngokulondolozwa kwedatha lapho uthutha, ukusebenza ngaphandle kwe-inthanethi, izikhathi zokubuyekeza, intengo, ukufinyelela ikhodi nokuzisingathela—ubone nokuthi kunini lapho kuphephe khona ukugcina i-Anki."
 date: "2026-03-14"
-updated: "2026-08-28"
+updated: "2026-11-08"
 image: "/blog/best-anki-alternatives.png"
 keywords:
   - "okungasetshenziswa esikhundleni se-Anki"
@@ -20,9 +20,9 @@ Yilapho ukuqhathanisa izinhlelo ezingangena esikhundleni se-Anki kungakubiza kho
 
 Lesi siqhathaniso siqala ngokuthi yini engagcinwa lapho uthutha. Sibheka izinhlelo eziyisikhombisa ezifana ne-Anki, lokho ngasinye esingakuthatha eqoqweni osuvele unalo, okushintshayo ngemva kokungenisa idatha, nokuthi kunini lapho kuphephe khona ukuqhubeka ne-Anki.
 
-> **Ukudalula ubudlelwano bami:** NginguKirill Markin, futhi ngithuthukisa i-[Nibomo](https://nibomo.com/), omunye wemikhiqizo engezansi. Ngiyifake ngenxa yomthombo wayo ovulekile, ukuzisingathela nokusebenza nama-ejenti. Lokho akuyenzi ibe yiyo enqobayo ngokuzenzakalela: ayinaso isingenisi se-`.apkg` esiqondile, ukuthutha kusuka ku-Anki kulahlekelwa enye idatha, kanti ukusebenzisa zonke izingxenye zayo uzisingathele kuwumsebenzi wangempela wengqalasizinda.
+> **Ukudalula ubudlelwano bami:** NginguKirill Markin, futhi ngithuthukisa i-[Nibomo](https://nibomo.com/), omunye wemikhiqizo engezansi. Ngiyifake ngenxa yomthombo wayo ovulekile, ukuzisingathela nokusebenza nama-ejenti. Lokho akuyenzi ibe yiyo enqobayo ngokuzenzakalela: ifunda amafayela e-`.apkg` e-Anki kuphela ngeNgxoxo ye-AI, ukuthutha kusuka ku-Anki kulahlekelwa enye idatha, kanti ukusebenzisa zonke izingxenye zayo uzisingathele kuwumsebenzi wangempela wengqalasizinda.
 
-**Amaqiniso ahlolwe:** 28 Agasti 2026. Amanani ngawase-US atholakala emphakathini noma ngawendawo abhalwe ngosuku lokuhlola. Izintela, izifunda, izaphulelo zemfundo nendlela izitolo zezinhlelo ezikhokhisa ngayo kungashintsha inani.
+**Amaqiniso ahlolwe:** 28 Agasti 2026. Amanani ngawase-US atholakala emphakathini noma ngawendawo abhalwe ngosuku lokuhlola. Izintela, izifunda, izaphulelo zemfundo nendlela izitolo zezinhlelo ezikhokhisa ngayo kungashintsha inani. Imininingwane yokungenisa ama-`.apkg` e-Anki ku-Nibomo ihlolwe ngo-8 Novemba 2026.
 
 ![Umenzi wamawashi uhlola ukuthi izingxenye ezisebenzayo zewashi lasephaketheni eselisetshenziswe isikhathi eside zingangena yini kwelinye igobolondo](/blog/best-anki-alternatives.png)
 
@@ -41,7 +41,7 @@ Ezine ezisele zidinga ukwakha kabusha okuqukethwe, kunokuthutha lonke iqoqo:
 - **I-Quizlet** iwusizo kumasethi omphakathi, amakilasi, imidlalo nokuzijwayeza okuqondiswayo.
 - **I-Brainscape** inika iqembu indlela elula yokubuyekeza ngokulinganisa ukuzethemba kusukela ku-1 kuya ku-5.
 - **I-SuperMemo** isho ukuthuthela endleleni yayo evaliwe nakukhathalogi yezifundo zayo.
-- **I-Nibomo** ikunikeza uhlelo lwewebhu nezinhlelo ezenzelwe amadivayisi ngqo ezinelayisensi ye-MIT, i-backend ongazisingathela yona, kanye nokufinyelela nge-API ne-MCP. Indlela yayo ye-TXT noma ye-CSV, edinga ukuhlolwa, ayisigcini isimo sakho sokufunda se-Anki.
+- **I-Nibomo** ikunikeza uhlelo lwewebhu nezinhlelo ezenzelwe amadivayisi ngqo ezinelayisensi ye-MIT, i-backend ongazisingathela yona, kanye nokufinyelela nge-API ne-MCP. Ingxoxo yayo ye-AI ingaguqula i-`.apkg` enamathiselwe ibe ngamakhadi, kodwa isimo sakho sokufunda se-Anki asidluli.
 
 Uma amakhadi akho encike ekubonisweni ngendlela ethile ngqo, ezingezeni noma emgqeni wamanje wokubuyekeza, ukuhlala ku-Anki akusho ukungakwazi ukunquma. Yiyo impendulo.
 
@@ -78,7 +78,7 @@ Isingenisi singaphumelela embuzweni wokuqala kodwa sehluleke kweminye emibili.
 | [Quizlet](https://quizlet.com/) | [Namathisela amagama nezincazelo](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content) | Asikho esivela ku-Anki | Izinhlobo zamanothi, izifanekiso, amaqoqo, ukuhleleka kwemidiya nayo yonke idatha yezikhathi zokubuyekeza |
 | [Brainscape](https://www.brainscape.com/) | [CSV, TXT, XLSX noma ODS](https://brainscape.zendesk.com/hc/en-us/articles/115002369931-How-do-I-import-various-files-to-create-flashcards) | Asikho esivela ku-Anki | Izifanekiso, izengezo, imithetho yemidiya nayo yonke idatha yezikhathi zokubuyekeza |
 | [SuperMemo](https://www.supermemo.com/) | [Namathisela imigqa yemibuzo nezimpendulo ehlukaniswe ngezimpawu](https://www.supermemo.com/en/blog/how-to-create-flashcards-for-learning), kuze kufike ku-100 ngesikhathi esisodwa | Asikho esivela ku-Anki | Ukuhleleka kweqoqo, imidiya, izifanekiso nayo yonke idatha yezikhathi zokubuyekeza |
-| [Nibomo](https://nibomo.com/) | Ukwakha umbhalo wokuqala ngosizo lwe-AI kusuka ku-Anki TXT noma CSV, bese uyahlolwa | Asikho esivela ku-Anki | Ayisekeli i-`.apkg`; izifanekiso, ukulondolozwa kwemidiya njengoba injalo, ukuhleleka kwamazinga amaqoqo nayo yonke idatha yezikhathi zokubuyekeza kusala emuva |
+| [Nibomo](https://nibomo.com/) | [Namathisela i-`.apkg` eNgxoxweni ye-AI](/blog/import-anki-apkg/); i-AI igcina amakhadi ngqo. I-TXT noma i-CSV nayo iyasebenza | Asikho esivela ku-Anki; ikhadi ngalinye liqala njengelisha | Amanothi anezikhala zokugcwaliswa (cloze) aba ngamakhadi ombuzo nempendulo; izifanekiso, i-CSS, amaqoqo angaphakathi kwamanye nayo yonke idatha yezikhathi zokubuyekeza kusala emuva |
 
 ## Intengo, ukusebenza ngaphandle kwe-inthanethi, izikhathi zokubuyekeza nobunikazi
 
@@ -166,11 +166,11 @@ Izifundo ezilandiwe zingafundwa ngaphandle kwe-inthanethi ezinhlelweni zeselula.
 
 Khetha i-SuperMemo uma indlela yayo noma ikhathalogi yayo yezifundo ibaluleke ngokwanele kuwe ukuba uqale uhlelo olusha lwezikhathi. Uma okubalulekile kuwe kuwukugcina uhlelo osuvele unalo, yona ixazulula inkinga ehlukile.
 
-## Nibomo: ukufinyelela ikhodi yazo zonke izingxenye, kodwa ingenisa okuncane kakhulu kusuka ku-Anki
+## Nibomo: ukufinyelela ikhodi yazo zonke izingxenye, nokungenisa okuqukethwe kuphela kusuka ku-Anki
 
 I-Nibomo ivumela ukuba ulawule izingxenye eziningi zomkhiqizo. [Ikhosombe elinelayisensi ye-MIT](https://github.com/kirill-markin/flashcards-open-source-app) liqukethe uhlelo lwewebhu, izinhlelo ze-iOS ne-Android, i-backend, ukuvumelanisa lapho ubuya ekusebenzeni ngaphandle kwe-inthanethi, ingqalasizinda, [i-API yomphakathi](/docs/api/) kanye [neseva ye-MCP](/docs/mcp-connector/). Ukubuyekeza kusebenzisa [i-FSRS](/docs/architecture/#scheduling). Iwebhu, i-iOS ne-Android kubhala endaweni kuqala, kufake izinguquko emgqeni wokuthumela, bese kuvumelanisa lapho uxhumano lubuya.
 
-Lokho akuyenzi ihambisane ne-Anki. I-Nibomo ayikwazi ukufunda i-`.apkg` noma i-`.colpkg`. [Ukuthutha nge-Anki TXT](/blog/migrate-from-anki-txt-export-open-source-flashcards/) okusekelwayo kuyindlela yokwakha umbhalo wokuqala ngosizo lwe-AI bese uhlolwa, emakhadini asekelwe kakhulu embhalweni. Ayigcini izifanekiso, izengezo, ukuhleleka kwamazinga amaqoqo, izinsuku ezimisiwe, izikhawu noma izehlakalo zokubuyekeza. Izikhombo zemidiya efayeleni le-TXT aziwona amafayela emidiya, ngakho amaqoqo asebenzisa imidiya eningi adinga ukwakhiwa kabusha nokuhlolwa ngokwehlukana.
+Lokho akuyenzi ihambisane ne-Anki. Asikho isingenisi sokuchofoza kanye, futhi okuthi Umtapo wolwazi → Ngenisa kwamukela kuphela i-`.zip` ye-Nibomo uqobo. Esikhundleni salokho, [unamathisela i-`.apkg` eNgxoxweni ye-AI](/blog/import-anki-apkg/) bese uyicela ukuthi iguqule iqoqo libe ngamakhadi. Ekuhloleni ngeqoqo elincane lesibonelo, kwagcinwa amakhadi ayisisekelo, amathegi nesithombe esisodwa; amanothi ayisisekelo anekhadi elihlehliswayo ahlukaniswa aba ngamakhadi amabili ohlangothi olulodwa, kanti amanothi anezikhala zokugcwaliswa abhalwa kabusha njengamakhadi ombuzo nempendulo. Amaqoqo angaphansi aba ngamaqoqo e-Nibomo angenazo izigaba. Izifanekiso, izengezo, izinsuku ezimisiwe, izikhawu nezehlakalo zokubuyekeza kusala emuva, futhi amafayela e-`.colpkg` awamukelwa. Lapho ukhipha, khetha i-**Support older Anki versions**; i-Nibomo inikeza i-AI uhlu lwamagama amafayela emidiya kuphela kuleyo fomethi endala. Iphakheji yokuhlola yayiyifayela lefomethi endala elakhiwe ngesikripthi, hhayi elikhishwe ku-Anki. Hlola izithombe ngemuva kokungenisa. [Ukuthutha okudala nge-Anki TXT](/blog/migrate-from-anki-txt-export-open-source-flashcards/) kusasebenza emakhadini anombhalo kuphela.
 
 Iphakheji ye-Nibomo ethi `flashcards.zip` nayo ayibanzi njengekhophi eyisipele. Ihambisa amakhadi, amathegi nemidiya ehlobene phakathi kwezindawo zokusebenza ze-Nibomo. Ayihambisi umlando wokubuyekeza, isimo se-FSRS, izakhiwo ezigcwele zamaqoqo, izilungiselelo zendawo yokusebenza noma ama-akhawunti.
 

@@ -2,7 +2,7 @@
 title: "Cómo migrar desde Anki en 2026: un proceso seguro de exportación a TXT"
 description: "Migra tarjetas de Anki basadas en texto sin poner en riesgo la colección original. Crea una copia .colpkg, exporta las notas a TXT, comprueba los campos y los archivos multimedia y reconstruye un mazo pequeño con seguridad."
 date: "2026-03-13"
-updated: "2026-08-27"
+updated: "2026-11-08"
 image: "/blog/migrate-from-anki-txt-export-open-source-flashcards.png"
 keywords:
   - "migrar desde Anki"
@@ -20,9 +20,11 @@ Cada archivo resuelve un problema distinto. El paquete de la colección es tu v�
 
 Este proceso está pensado para mazos basados en texto y aplicaciones capaces de trabajar con TXT o CSV. La exportación de texto no conserva el estado de programación de Anki, las plantillas, los complementos ni los archivos multimedia. Primero probarás un mazo representativo, revisarás todos los campos y mantendrás intacta la colección original hasta obtener un resultado que puedas usar con confianza.
 
+> **¿Te pasas a Nibomo?** Ahora la vía principal es el propio `.apkg` del mazo: adjúntalo en el chat con IA de Nibomo y pídele que convierta el mazo en tarjetas. [Cómo importar un `.apkg` de Anki en Nibomo](/blog/import-anki-apkg/) explica el proceso. Este flujo con TXT es la opción más antigua y complementaria. Sigue siendo útil cuando quieres controlar tú mismo la correspondencia de campos o cuando la aplicación de destino solo lee texto.
+
 > **Aviso:** Soy Kirill Markin y desarrollo [Nibomo](https://nibomo.com/). Esta guía deja claro cuándo conviene seguir usando Anki o elegir una aplicación que importe archivos `.apkg`.
 
-**Información comprobada:** 27 de agosto de 2026.
+**Información comprobada:** 27 de agosto de 2026; los datos sobre la importación de `.apkg` de Anki en Nibomo, el 8 de noviembre de 2026.
 
 ![Un botánico mantiene intacta la planta original junto a un esqueje de respaldo protegido y tres esquejes de prueba](/blog/migrate-from-anki-txt-export-open-source-flashcards.png)
 
@@ -168,9 +170,9 @@ Si la prueba falla, elimina las tarjetas temporales mediante el proceso de limpi
 
 ## Cómo usar el archivo TXT con Nibomo
 
-Nibomo no tiene un importador directo de Anki. No puede leer archivos `.apkg` o `.colpkg` y reconstruir las plantillas, los archivos multimedia ni el historial de repasos de Anki.
+Nibomo no tiene un importador de Anki de un solo clic. Su chat con IA puede leer un `.apkg` adjunto, que es la vía más sencilla y la que describe la [guía de importación de `.apkg`](/blog/import-anki-apkg/). No acepta `.colpkg`, y ninguna de las dos vías reconstruye las plantillas ni el historial de repasos de Anki. Usa el archivo TXT cuando quieras decidir tú cada correspondencia de campos.
 
-La opción disponible actualmente en la aplicación alojada es crear borradores con ayuda de la IA a partir de archivos adjuntos. Abre la [aplicación alojada siguiendo la guía de primeros pasos](/es/docs/getting-started/), adjunta el TXT o un CSV preparado con cuidado en el chat de IA y pide expresamente un borrador pequeño sin guardar nada. Revisa las tarjetas propuestas en el chat y, solo entonces, pide al asistente que guarde el lote aprobado.
+Con un archivo TXT, la opción en la aplicación alojada es crear borradores con ayuda de la IA a partir de archivos adjuntos. Abre la [aplicación alojada siguiendo la guía de primeros pasos](/es/docs/getting-started/), adjunta el TXT o un CSV preparado con cuidado en el chat de IA y pide expresamente un borrador pequeño sin guardar nada. Revisa las tarjetas propuestas en el chat y, solo entonces, pide al asistente que guarde el lote aprobado.
 
 Una primera petición útil debe indicar con precisión la asignación y limitar los efectos secundarios:
 
@@ -203,7 +205,7 @@ No ganas nada por eliminar Anki deprisa. Conserva la colección original hasta q
 
 ## Cuándo no deberías migrar desde Anki de esta manera
 
-Sigue usando Anki o elige una aplicación que importe archivos `.apkg` de forma explícita si tu colección depende de:
+Sigue usando Anki o elige una aplicación cuya importación de `.apkg` conserve explícitamente estos elementos si tu colección depende de:
 
 - tipos de nota complejos o varias direcciones de tarjeta generadas;
 - plantillas personalizadas, CSS, JavaScript o complementos;

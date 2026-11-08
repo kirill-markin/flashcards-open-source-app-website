@@ -2,7 +2,7 @@
 title: "So migrierst du 2026 sicher von Anki: ein Workflow mit TXT-Export"
 description: "Übertrage textbasierte Anki-Karten, ohne die ursprüngliche Sammlung zu gefährden. Erstelle ein .colpkg-Backup, exportiere Notizen als TXT, teste Felder und Medien und baue anschließend sicher ein kleines Deck neu auf."
 date: "2026-03-13"
-updated: "2026-08-27"
+updated: "2026-11-08"
 image: "/blog/migrate-from-anki-txt-export-open-source-flashcards.png"
 keywords:
   - "von Anki migrieren"
@@ -20,9 +20,11 @@ Die beiden Dateien erfüllen unterschiedliche Aufgaben. Das Sammlungspaket siche
 
 Dieser Ablauf eignet sich für textbasierte Decks und Zielsysteme, die mit TXT- oder CSV-Dateien arbeiten können. Der Textexport enthält weder den Status des Anki-Schedulers noch Vorlagen, Add-ons oder Mediendateien. Teste deshalb zuerst ein repräsentatives Deck, prüfe jedes Feld und lass die ursprüngliche Sammlung unverändert, bis das Ergebnis im Alltag überzeugt.
 
+> **Du wechselst zu Nibomo?** Der Hauptweg ist jetzt die `.apkg` des Decks selbst: Hänge sie im KI-Chat von Nibomo an und bitte darum, aus dem Deck Karten zu machen. [Eine Anki-`.apkg` in Nibomo importieren](/blog/import-anki-apkg/) führt durch den Ablauf. Dieser TXT-Workflow ist die ältere, zusätzliche Option. Er hilft weiterhin, wenn du die Feldzuordnung selbst steuern willst oder das Zielsystem nur Text liest.
+
 > **Offenlegung:** Ich bin Kirill Markin und entwickle [Nibomo](https://nibomo.com/). Dieser Leitfaden sagt klar, wann du besser bei Anki bleibst oder ein Zielsystem wählst, das `.apkg` importieren kann.
 
-**Fakten geprüft:** 27. August 2026.
+**Fakten geprüft:** 27. August 2026; Angaben zum Anki-`.apkg`-Import von Nibomo geprüft am 8. November 2026.
 
 ![Ein Botaniker lässt die ursprüngliche Pflanze unversehrt neben einem geschützten Sicherungssteckling und drei Teststecklingen](/blog/migrate-from-anki-txt-export-open-source-flashcards.png)
 
@@ -168,9 +170,9 @@ Falls der Test scheitert, entfernst du die temporären Karten über die dafür v
 
 ## Die TXT-Datei mit Nibomo verwenden
 
-Nibomo bietet keinen direkten Anki-Importer. Die App kann `.apkg` oder `.colpkg` nicht lesen und daraus Anki-Vorlagen, Medien oder den Wiederholungsverlauf rekonstruieren.
+Nibomo hat keinen Ein-Klick-Importer für Anki. Sein KI-Chat kann eine angehängte `.apkg` lesen; das ist der einfachere Weg, den der [Leitfaden zum `.apkg`-Import](/blog/import-anki-apkg/) beschreibt. `.colpkg` nimmt er nicht an, und keiner der beiden Wege baut Anki-Vorlagen oder den Wiederholungsverlauf nach. Nimm die TXT-Datei, wenn du jede Feldzuordnung selbst festlegen willst.
 
-Der derzeit verfügbare gehostete Weg führt über KI-gestützte Entwürfe aus Dateianhängen. Öffne die [gehostete App mithilfe des Leitfadens für die ersten Schritte](/de/docs/getting-started/), hänge die TXT-Datei oder eine sorgfältig vorbereitete CSV-Datei im KI-Chat an und fordere ausdrücklich einen kleinen Entwurf an, ohne etwas speichern zu lassen. Prüfe die vorgeschlagenen Karten im Chat. Erst danach bittest du den Assistenten, den freigegebenen Stapel zu speichern.
+Mit einer TXT-Datei führt der gehostete Weg über KI-gestützte Entwürfe aus Dateianhängen. Öffne die [gehostete App mithilfe des Leitfadens für die ersten Schritte](/de/docs/getting-started/), hänge die TXT-Datei oder eine sorgfältig vorbereitete CSV-Datei im KI-Chat an und fordere ausdrücklich einen kleinen Entwurf an, ohne etwas speichern zu lassen. Prüfe die vorgeschlagenen Karten im Chat. Erst danach bittest du den Assistenten, den freigegebenen Stapel zu speichern.
 
 Eine gute erste Anfrage beschreibt die Zuordnung genau und vermeidet ungewollte Änderungen:
 
@@ -204,7 +206,7 @@ Du gewinnst nichts, wenn du Anki besonders schnell löschst. Behalte die ursprü
 
 ## Wann du nicht auf diese Weise von Anki migrieren solltest
 
-Bleibe bei Anki oder wähle ein Zielsystem, das `.apkg` ausdrücklich importiert, wenn du auf Folgendes angewiesen bist:
+Bleibe bei Anki oder wähle ein Zielsystem, dessen `.apkg`-Import diese Dinge ausdrücklich erhält, wenn du auf Folgendes angewiesen bist:
 
 - komplexe Notiztypen oder mehrere erzeugte Kartenrichtungen;
 - benutzerdefinierte Vorlagen, CSS, JavaScript oder Add-ons;

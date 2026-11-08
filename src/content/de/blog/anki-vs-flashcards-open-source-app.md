@@ -2,7 +2,7 @@
 title: "Anki vs. Nibomo (2026): Welche App solltest du nutzen?"
 description: "Vergleiche Anki und Nibomo bei FSRS, Offline-Nutzung, mobilen Apps, KI, Migration, Self-Hosting und Datenkontrolle, bevor du wechselst."
 date: "2026-04-25"
-updated: "2026-11-07"
+updated: "2026-11-08"
 image: "/blog/anki-vs-flashcards-open-source-app-v2.png"
 keywords:
   - "Anki vs. Nibomo"
@@ -12,13 +12,13 @@ keywords:
   - "selbst gehostete Karteikarten-App"
 ---
 
-Wenn deine Karten und dein Wiederholungsverlauf bereits in Anki stecken, ist ein App-Wechsel vor allem eine Datenmigration – und erst in zweiter Linie eine Designfrage. Anki kann einzelne Decks oder die gesamte Sammlung samt Planungsdaten und Medien exportieren. Nibomo kann Ankis `.apkg`- und `.colpkg`-Pakete jedoch nicht importieren. Einfache Karteninhalte lassen sich damit zwar neu aufbauen, deine aktuelle Wiederholungswarteschlange lässt sich aber nicht fortsetzen.
+Wenn deine Karten und dein Wiederholungsverlauf bereits in Anki stecken, ist ein App-Wechsel vor allem eine Datenmigration – und erst in zweiter Linie eine Designfrage. Anki kann einzelne Decks oder die gesamte Sammlung samt Planungsdaten und Medien exportieren. Der KI-Chat von Nibomo kann eine angehängte `.apkg`-Datei lesen und daraus Karten machen. Jede Karte startet dabei aber als neu, deshalb lässt sich deine aktuelle Wiederholungswarteschlange nicht fortsetzen.
 
 Diese Einschränkung ist für die meisten Vergleiche von **Anki vs. Nibomo** ausschlaggebend. Bleib bei Anki, wenn dir eine originalgetreue Sammlung, Vorlagen, Add-ons, geteilte Decks oder deine eingespielte Wiederholungsroutine am wichtigsten sind. Probiere Nibomo aus, wenn du mit einem neuen oder überwiegend textbasierten Deck beginnen kannst und dir der Quellcode des gesamten Stacks, Offline-first-Synchronisierung, integrierte KI oder Agenten-Workflows wichtiger sind.
 
 > **Offenlegung:** Ich bin Kirill Markin und entwickle [Nibomo](https://nibomo.com/). Ich habe ein klares Interesse an dem Produkt. Deshalb ist Anki in diesem Vergleich die Standardempfehlung für alle Workflows, die Nibomo noch nicht abbilden kann.
 
-**Fakten geprüft:** 23. August 2026; Angaben zu Widgets für den Home-Bildschirm geprüft am 7. November 2026.
+**Fakten geprüft:** 23. August 2026; Angaben zu Widgets für den Home-Bildschirm geprüft am 7. November 2026; Angaben zum Import von Anki-`.apkg`-Dateien geprüft am 8. November 2026.
 
 ![Ein Reisender trägt eine Archivkiste über eine schmale Testbrücke, während hinter ihm eine stark befahrene Bahnstrecke weiter in Betrieb bleibt](/blog/anki-vs-flashcards-open-source-app-v2.png)
 
@@ -26,7 +26,7 @@ Diese Einschränkung ist für die meisten Vergleiche von **Anki vs. Nibomo** aus
 
 | Deine Anforderung | Anki | Nibomo | Aktuell besser geeignet |
 | --- | --- | --- | --- |
-| Du musst eine komplexe Sammlung samt Wiederholungsverlauf erhalten | Eine `.colpkg`-Datei enthält die vollständige Sammlung und den Lernplan; eine `.apkg`-Datei kann den Wiederholungsverlauf, Deck-Voreinstellungen und Medien enthalten | Kein direkter Import von Anki-Paketen; aus einem Anki-Textexport entstehen geprüfte Kartenentwürfe, keine originalgetreue Übertragung der Sammlung | **Anki** |
+| Du musst eine komplexe Sammlung samt Wiederholungsverlauf erhalten | Eine `.colpkg`-Datei enthält die vollständige Sammlung und den Lernplan; eine `.apkg`-Datei kann den Wiederholungsverlauf, Deck-Voreinstellungen und Medien enthalten | Der KI-Chat macht aus einer angehängten `.apkg`-Datei Karten, aber Wiederholungsverlauf, Planungsdaten und Vorlagen bleiben zurück; übertragen werden Inhalte, nicht die Sammlung | **Anki** |
 | Du möchtest FSRS nutzen | Unterstützt FSRS, die Parameteroptimierung anhand des Wiederholungsverlaufs, die gewünschte Behaltensquote und Deck-Voreinstellungen | Verwendet fest vorgegebene FSRS-6-Gewichte im Web, unter iOS und Android sowie im Backend; die Workspace-Einstellungen optimieren die Gewichte nicht anhand deiner Wiederholungen | **Beide**; Anki ist stärker bei der persönlichen Optimierung und beim Erhalt des bestehenden Lernplans |
 | Du lernst ohne Internet | Installierte Desktop-, iOS- und Android-Clients speichern die Sammlung lokal; AnkiWeb bleibt auf eine Internetverbindung angewiesen | Web, iOS und Android speichern Kartenänderungen und Wiederholungen zuerst lokal; Anmeldung, erstmalige Datenübernahme, Synchronisierung, KI und nicht zwischengespeicherte Medien benötigen eine Verbindung | **Beide**, nachdem du deine konkreten Geräte und Medien getestet hast |
 | Du möchtest ein Widget für den Home-Bildschirm | [AnkiDroid](https://github.com/ankidroid/Anki-Android) bietet Widgets für Decks und die Kartenanzahl; AnkiMobile auf iPhone und iPad hat keines, und Nutzer [fragen weiterhin danach](https://forums.ankiweb.net/t/ankimobile-widget/32633) | Kostenlose „Wiederholen“-Widgets für iPhone, iPad, Mac und Android zeigen die Zahl fälliger Karten und die Frage deiner nächsten Karte; ein Tippen darauf öffnet „Wiederholen“ | **Nibomo** auf Apple-Geräten; **beide** unter Android |
@@ -51,7 +51,7 @@ Wichtiger als die Versionsnummer ist jedoch, was rund um das Sammlungsformat gew
 
 Ankis [Paketexporte](https://docs.ankiweb.net/exporting.html) enthalten außerdem weit mehr Struktur als eine einfache Kartenliste. Eine `.colpkg`-Datei kann die gesamte Sammlung mit allen Decks und Planungsinformationen enthalten; Medien lassen sich optional ebenfalls exportieren. Eine `.apkg`-Datei kann Karten, Notizen und Notiztypen eines Decks sowie optional Planungsinformationen, Deck-Voreinstellungen und Medien enthalten. Das ist nützlich für Sicherungen, die Übertragung auf ein anderes Gerät und die Migration zu Programmen, die Anki-Pakete verstehen.
 
-Nibomo erreicht diese Tiefe nicht. Es gibt [veröffentlichte Clients für Web, iOS und Android](https://github.com/kirill-markin/flashcards-open-source-app#available-on), aber keinen nativen Client für Windows, macOS oder Linux, keinen vergleichbaren Add-on-Katalog, kein Ökosystem für geteilte Decks, keine Vorlagen-Engine und keinen direkten Import für Anki-Pakete. Wenn dein Lernworkflow von einer dieser Funktionen abhängt, würdest du mit einem Wechsel bestehende Möglichkeiten verlieren.
+Nibomo erreicht diese Tiefe nicht. Es gibt [veröffentlichte Clients für Web, iOS und Android](https://github.com/kirill-markin/flashcards-open-source-app#available-on), aber keinen nativen Client für Windows, macOS oder Linux, keinen vergleichbaren Add-on-Katalog, kein Ökosystem für geteilte Decks, keine Vorlagen-Engine und keinen Ein-Klick-Import für Anki-Pakete. Wenn dein Lernworkflow von einer dieser Funktionen abhängt, würdest du mit einem Wechsel bestehende Möglichkeiten verlieren.
 
 ## Beide nutzen FSRS – der bestehende Lernplan lässt sich trotzdem nicht übernehmen
 
@@ -73,7 +73,7 @@ Offline-first heißt nicht, dass jede Funktion offline verfügbar ist. KI-Aufruf
 
 Mit Anki arbeitest du sehr nah am Kartenformat. Felder, Notiztypen, Vorlagen, Importe und Add-ons ermöglichen hochspezifische Workflows. Diese Flexibilität ist schwer zu ersetzen, wenn du Lückentextvarianten, eigene Gestaltung, Sprachwerkzeuge, medienreiche Notizen oder Automatisierungen rund um die Anki-Sammlung nutzt.
 
-Nibomo arbeitet mit einem engeren Kartenmodell und baut mehr Automatisierung direkt ins Produkt ein. Die [gehostete App](/docs/getting-started/) bietet einen KI-Chat mit Workspace-Kontext und Dateianhängen. Du kannst die KI bitten, Karten zu entwerfen oder umzuschreiben, den Vorschlag prüfen und selbst entscheiden, was gespeichert wird. So lässt sich Text- oder CSV-Quellmaterial in bearbeitbare Karten mit Vorder- und Rückseite überführen. Die Arbeit mit KI ersetzt jedoch keinen formatgetreuen Import.
+Nibomo arbeitet mit einem engeren Kartenmodell und baut mehr Automatisierung direkt ins Produkt ein. Die [gehostete App](/docs/getting-started/) bietet einen KI-Chat mit Workspace-Kontext und Dateianhängen. Du kannst die KI bitten, Karten zu entwerfen oder umzuschreiben. So lassen sich Text, CSV-Dateien oder eine Anki-`.apkg` in bearbeitbare Karten mit Vorder- und Rückseite überführen. Ein formatgetreuer Import ist das jedoch nicht.
 
 Ein weiterer bereits verfügbarer Unterschied ist der programmatische Zugriff. Nibomo stellt eine [Agent API](/docs/api/) und einen MCP-Connector für Werkzeuge wie Claude Code und Codex bereit. Agenten können sich authentifizieren, einen Workspace auswählen, die veröffentlichte Datenschnittstelle abfragen und Karten erstellen oder bearbeiten. Wenn dein Workflow im Terminal oder bei einem KI-Agenten beginnt, ist dieser Zugang fest eingebaut und kein nachträgliches Add-on für die Desktop-App.
 
@@ -99,15 +99,14 @@ Nibomo kann sein eigenes [portables Workspace-Paket `flashcards.zip`](https://gi
 
 Ankis vollständiger Sammlungsexport ist aus Nutzersicht umfassender. Das ist ein wichtiges Gegengewicht zum breiteren Quellcode-Repository von Nibomo: Einsehbarer Quellcode und bereitstellbare Infrastruktur machen den Export persönlicher Daten nicht automatisch originalgetreuer.
 
-Ein Wechsel von Anki zu Nibomo bedeutet derzeit, die Inhalte neu aufzubereiten:
+Ein Wechsel von Anki zu Nibomo bedeutet derzeit, die Inhalte über den KI-Chat zu übertragen:
 
-1. Exportiere überwiegend textbasierte Notizen mit Ankis Option **Notes in Plain Text**. Sie erzeugt eine tabulatorgetrennte Textdatei.
-2. Hänge diese TXT-Datei im KI-Chat von Nibomo an. CSV wird ebenfalls akzeptiert, wenn du den Export bewusst in dieses Format umwandelst.
-3. Bitte um Entwürfe für Karten mit Vorder- und Rückseite sowie um die gewünschte Bereinigung der Tags.
-4. Prüfe jeden Entwurf, bevor du ihn speicherst.
-5. Lege die Medien separat neu an oder überprüfe sie.
+1. Exportiere das Deck aus Anki als `.apkg` und aktiviere dabei **Support older Anki versions**. Nur bei diesem älteren Format gibt Nibomo der KI die Liste der Mediendateinamen. Das Testpaket war eine per Skript erstellte Datei im älteren Format, kein Anki-Export.
+2. Hänge die Datei im KI-Chat von Nibomo an und bitte darum, aus dem Deck Karten zu machen. Jede Datei darf bis zu 30 MB groß sein.
+3. Die KI liest das Paket und speichert die Karten direkt; im Test gab es keinen Entwurfs- oder Bestätigungsschritt.
+4. Vergleiche Kartenanzahl, Vorderseiten, Rückseiten, Tags und Bilder mit Anki. Achte besonders auf die Bilder.
 
-Dieser Weg bewahrt weder den Wiederholungsverlauf noch Fälligkeitstermine, FSRS-Zustand, Notiztypen, Beziehungen zwischen erzeugten Karten, Vorlagen in HTML und CSS, Add-on-Verhalten oder eine garantierte Semantik für Lückentexte und Medien. Der [Schritt-für-Schritt-Migrationsleitfaden](/blog/migrate-from-anki-txt-export-open-source-flashcards/) ist für einfache Decks hilfreich. Wenn deine Sammlung einen direkten `.apkg`-Import erfordert, sieh dir stattdessen den [umfassenderen Vergleich von Anki-Alternativen](/blog/best-anki-alternatives/) an.
+In einem Test mit einem kleinen Beispieldeck kamen einfache Karten, Tags und ein Bild an. Jede Notiz mit umgekehrter Karte wurde zu zwei Karten mit je einer Richtung, Lückentext-Notizen wurden zu Frage-Antwort-Karten, und Unterdecks wurden zu flachen Nibomo-Decks. Wiederholungsverlauf, Fälligkeitstermine, FSRS-Zustand, Notiztypen, Vorlagen in HTML und CSS und Add-on-Verhalten werden nicht übertragen. Der [Leitfaden zum `.apkg`-Import](/blog/import-anki-apkg/) zeigt den kompletten Ablauf. Der ältere [Leitfaden zur TXT-Migration](/blog/migrate-from-anki-txt-export-open-source-flashcards/) funktioniert weiterhin für reine Textdecks. Wenn auch dein Wiederholungsverlauf mit umziehen muss, sieh dir stattdessen den [umfassenderen Vergleich von Anki-Alternativen](/blog/best-anki-alternatives/) an.
 
 ## Teste ein repräsentatives Deck mit geringem Risiko
 
@@ -115,11 +114,11 @@ Migriere nicht dein gesamtes Profil, nur um herauszufinden, ob sich der neue Wie
 
 1. **Sichere Anki zuerst.** Exportiere eine vollständige `.colpkg`-Datei mit Planungsinformationen und Medien und bewahre sie außerhalb des aktiven Profils auf.
 2. **Wähle ein repräsentatives Deck.** Nimm die Kartentypen, Tags, Lückentextfunktionen, Bilder, Audiodateien, Formeln und den Wiederholungsverlauf auf, an denen eine schlechte Migration sichtbar würde.
-3. **Bewahre eine Anki-eigene Kopie auf.** Exportiere das Deck als `.apkg`, bevor du die TXT- oder CSV-Kopie für Nibomo erstellst.
-4. **Lass Entwürfe erstellen, statt blind zu importieren.** Bitte Nibomo um eine Vorschau. Vergleiche anschließend Kartenanzahl, Vorderseiten, Rückseiten, Tags, Formatierung und Medienverweise mit Anki.
+3. **Exportiere das Deck als `.apkg`.** Diese Datei ist zugleich deine Anki-eigene Kopie und das, was du im KI-Chat von Nibomo anhängst.
+4. **Prüfe das Ergebnis, statt es vorauszusetzen.** Vergleiche Kartenanzahl, Vorderseiten, Rückseiten, Tags, Formatierung und Bilder mit Anki.
 5. **Geh davon aus, dass die Warteschlange neu beginnt.** Prüfe, ob ein neuer FSRS-Verlauf für dieses Material akzeptabel ist. Erwarte nicht, dass Antworten in einer App auch die andere aktualisieren.
 6. **Teste die verfügbaren Apps und Oberflächen, die du tatsächlich nutzen wirst.** Wiederhole und bearbeite Karten im Web, unter iOS oder Android, trenne ein Gerät vom Netz, stelle die Verbindung wieder her und prüfe, ob Änderungen und Medien wie erwartet ankommen.
-7. **Behalte beide Systeme, bis die entscheidende Anforderung nachweislich erfüllt ist.** Ein erfolgreicher Inhaltsentwurf beweist nicht, dass der tägliche Ablauf für Wiederholung, Synchronisierung, Export und Wiederherstellung zu dir passt.
+7. **Behalte beide Systeme, bis die entscheidende Anforderung nachweislich erfüllt ist.** Ein erfolgreicher Import beweist nicht, dass der tägliche Ablauf für Wiederholung, Synchronisierung, Export und Wiederherstellung zu dir passt.
 
 Am Ende dieses Tests kannst du auch bei zwei Werkzeugen landen: Etablierte Decks bleiben in Anki, während ein neues Thema in Nibomo beginnt. Das ist ein saubereres Ergebnis, als einen vollständigen Wechsel zu erzwingen.
 
@@ -142,7 +141,7 @@ Probiere Nibomo aus, wenn du:
 - mit einem neuen Deck beginnst oder überwiegend einfache Karten mit Vorder- und Rückseite hast;
 - ein einziges MIT-lizenziertes Repository für Web, iOS, Android, Backend, Authentifizierung, Synchronisierung und Infrastruktur möchtest;
 - lokale Änderungen nach dem Offline-first-Prinzip mit automatischer Synchronisierung bevorzugst;
-- integrierte KI-Unterstützung für Quelldateien und geprüfte Kartenentwürfe möchtest;
+- integrierte KI möchtest, die Quelldateien, auch eine Anki-`.apkg`, in bearbeitbare Karten verwandelt;
 - MCP- oder Agent-API-Zugriff über das Terminal und KI-Werkzeuge möchtest;
 - den Aufwand für AWS-basiertes Self-Hosting und die aktuellen Lücken bei Migration und Exporttreue akzeptierst.
 

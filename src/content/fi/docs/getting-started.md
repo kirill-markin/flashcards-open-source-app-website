@@ -30,7 +30,7 @@ Nibomo-sovellus tuo iPhoneen, iPadiin, Maciin ja Androidiin Kertaa-widgetin. Sit
 
 Kun mitään ei ole erääntynyt, widget näyttää tekstin ”Kaikki kerrattu” ja sen, milloin seuraava kortti erääntyy. Vastausta se ei näytä koskaan. Avaa Kertaa-näkymä napauttamalla widgetiä; keskikokoinen tai suuri widget avaa Kertaa-näkymän suoraan siihen korttiin, jonka se näyttää. Widgetit ovat ilmaisia kaikille, myös vieraskäyttäjille.
 
-Lisää widget avaamalla laitteesi widgetgallerian, valitsemalla Nibomon ja sitten haluamasi koon.
+Lisää widget iPhonessa, iPadissa tai Macissa avaamalla widgetgallerian, valitsemalla Nibomon ja sitten haluamasi koon. Androidissa lisää Nibomo-widget widgetluettelosta ja muuta sitten sen kokoa; asettelu mukautuu kokoon.
 
 ## Isännöity verkkosovellus
 

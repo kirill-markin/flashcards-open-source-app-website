@@ -3,7 +3,7 @@ title: "Najboljše brezplačne alternative Quizletu v letu 2026: primerjava 5 ap
 description: "Primerjava aplikacij Anki, Knowt, RemNote, Mochi in Nibomo: brezplačno učenje s karticami, sinhronizacija, delo brez povezave, uvoz iz Quizleta, omejitve UI in pasti brezplačnih paketov."
 image: "/blog/free-quizlet-alternative-v2.png"
 date: "2026-06-20"
-updated: "2026-09-10"
+updated: "2026-11-08"
 keywords:
   - "brezplačne alternative Quizletu"
   - "najboljša brezplačna alternativa Quizletu"
@@ -25,7 +25,7 @@ Najboljša brezplačna alternativa Quizletu je tista, katere omejitve ne ovirajo
 
 > **Razkritje:** Sem Kirill Markin in razvijam Nibomo, eno od petih aplikacij v tej primerjavi. Vključil sem jo zaradi odprte kode, algoritma FSRS in možnosti dela z agenti. Ni najboljša izbira za vsakogar: nima neposrednega uvoza iz Quizleta, njen lastni paket za prenos ne ohrani stanja ponavljanja, trenutna brezplačna ponudba gostovane aplikacije pa velja v obdobju beta. Primerjava temelji na preverjenih uradnih cenikih, straneh s pomočjo in dokumentaciji v repozitorijih. Ne trdim, da sem vseh pet aplikacij osebno preizkušal daljše obdobje.
 
-**Podatki preverjeni:** 10. septembra 2026.
+**Podatki preverjeni:** 10. septembra 2026; podrobnosti o uvozu Ankijevih datotek `.apkg` v Nibomo preverjene 8. novembra 2026.
 
 ![Študent z vzorčnim kompletom učnih kartic primerja pet čolnov, preden izbere brezplačno alternativo Quizletu in preizkusi prenos podatkov v obe smeri](/blog/free-quizlet-alternative-v2.png)
 
@@ -114,7 +114,7 @@ Nibomo je med naštetimi najbolj specializirana možnost. Gostovana aplikacija j
 
 Trajna obljuba je ožja od ponudbe v obdobju beta. Osnovno ustvarjanje kartic in ponavljanje bosta ostala brezplačna. Večja poraba UI bo pozneje morda zahtevala vaš lastni ključ ponudnika ali plačljivo možnost, ni pa obljube, da bodo vse gostovane funkcije brezplačne za vedno.
 
-Prenos iz Quizleta je tudi najšibkejša točka te izbire. Nibomo nima neposrednega uvoznika za Quizlet, CSV, TSV, Anki ali besedilo na splošno. Dovoljeni besedilni izvoz iz Quizleta lahko služi kot izhodišče za ročno ponovno izdelavo kartic ali za osnutke, ki jih ustvari UI in jih nato preverite, vendar to ni uvoz brez izgube podatkov. [Postopek izvoza iz Quizleta](/sl/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/) pojasnjuje urejanje gradiva, ne da bi ustvarjal vtis, da je mogoče obnoviti manjkajoče predstavnostne datoteke in stanje učenja.
+Prenos iz Quizleta je tudi najšibkejša točka te izbire. Nibomo nima uvoznika z enim klikom za Quizlet, CSV, TSV, Anki ali besedilo na splošno. Ankijevo datoteko `.apkg` lahko priložite v klepetu z UI, ki jo [pretvori v nove kartice](/blog/import-anki-apkg/). Dovoljeni besedilni izvoz iz Quizleta lahko služi kot izhodišče za ročno ponovno izdelavo kartic ali za osnutke, ki jih ustvari UI in jih nato preverite, vendar to ni uvoz brez izgube podatkov. [Postopek izvoza iz Quizleta](/sl/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/) pojasnjuje urejanje gradiva, ne da bi ustvarjal vtis, da je mogoče obnoviti manjkajoče predstavnostne datoteke in stanje učenja.
 
 Lastni paket `flashcards.zip` prenaša kartice, oznake in povezane predstavnostne datoteke med delovnimi prostori Nibomo. Ne prenese zgodovine ponavljanja, stanja razporejevalnika FSRS, nastavitev, celotnih struktur zbirk ali podatkov računa. Z lastnim gostovanjem dobite programsko opremo pod licenco MIT in nadzor nad postavitvijo, vendar dokumentirana produkcijska postavitev uporablja AWS in še vedno prinaša stroške infrastrukture, ponudnikov, vzdrževanja, varnostnih kopij in upravljanja. [Vodnik za lastno gostovanje](/docs/self-hosting/) te meje podrobno pojasnjuje.
 

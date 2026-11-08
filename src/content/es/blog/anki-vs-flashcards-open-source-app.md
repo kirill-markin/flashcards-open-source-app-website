@@ -2,7 +2,7 @@
 title: "Anki vs Nibomo (2026): ¿qué aplicación te conviene?"
 description: "Compara Anki y Nibomo en FSRS, uso sin conexión, apps móviles, IA, migración, autoalojamiento y control de tus datos antes de cambiarte."
 date: "2026-04-25"
-updated: "2026-11-07"
+updated: "2026-11-08"
 image: "/blog/anki-vs-flashcards-open-source-app-v2.png"
 keywords:
   - "Anki vs Nibomo"
@@ -12,13 +12,13 @@ keywords:
   - "app de tarjetas autoalojada"
 ---
 
-Si ya tienes tus tarjetas y tu historial de repasos en Anki, cambiar de aplicación es, ante todo, una decisión sobre la migración de tus datos; el diseño viene después. Anki permite exportar un mazo o la colección completa con el historial de programación y los archivos multimedia. Nibomo no puede importar los paquetes `.apkg` o `.colpkg` de Anki. Puede ayudarte a reconstruir el contenido de tarjetas sencillas, pero no a retomar la cola de repasos tal como está hoy.
+Si ya tienes tus tarjetas y tu historial de repasos en Anki, cambiar de aplicación es, ante todo, una decisión sobre la migración de tus datos; el diseño viene después. Anki permite exportar un mazo o la colección completa con el historial de programación y los archivos multimedia. El chat con IA de Nibomo puede leer un `.apkg` adjunto y convertirlo en tarjetas, pero todas empiezan como nuevas, así que no puede retomar la cola de repasos tal como está hoy.
 
 Ese límite determina la mayoría de las comparaciones entre **Anki y Nibomo**. Quédate con Anki si lo que más te importa es conservar la colección tal cual, o si dependes de sus plantillas, complementos, mazos compartidos o de un hábito de repaso ya consolidado. Prueba Nibomo si puedes empezar con un mazo nuevo o compuesto sobre todo por texto y valoras más el acceso al código fuente de toda la pila, la sincronización offline-first, la IA integrada o los flujos de trabajo con agentes.
 
 > **Aviso de transparencia:** Soy Kirill Markin y desarrollo [Nibomo](https://nibomo.com/). Tengo un interés evidente en el producto, así que esta comparación considera Anki la opción predeterminada para los flujos de trabajo que Nibomo todavía no puede reproducir.
 
-**Datos verificados:** 23 de agosto de 2026; los datos sobre los widgets de la pantalla de inicio se verificaron el 7 de noviembre de 2026.
+**Datos verificados:** 23 de agosto de 2026; los datos sobre los widgets de la pantalla de inicio se verificaron el 7 de noviembre de 2026, y los de la importación de `.apkg` de Anki, el 8 de noviembre de 2026.
 
 ![Un viajero cruza un estrecho puente de prueba con una caja de archivo mientras, a su espalda, sigue funcionando una vía ferroviaria muy transitada](/blog/anki-vs-flashcards-open-source-app-v2.png)
 
@@ -26,7 +26,7 @@ Ese límite determina la mayoría de las comparaciones entre **Anki y Nibomo**. 
 
 | Tu requisito | Anki | Nibomo | Mejor opción hoy |
 | --- | --- | --- | --- |
-| Necesitas conservar una colección compleja y su historial de repasos | Un `.colpkg` conserva la colección completa y su programación; un `.apkg` puede incluir el historial de repasos, los ajustes preestablecidos del mazo y los archivos multimedia | No importa directamente los paquetes de Anki; una exportación de texto de Anki se convierte en borradores de tarjetas que debes revisar, no en una copia fiel de la colección | **Anki** |
+| Necesitas conservar una colección compleja y su historial de repasos | Un `.colpkg` conserva la colección completa y su programación; un `.apkg` puede incluir el historial de repasos, los ajustes preestablecidos del mazo y los archivos multimedia | El chat con IA convierte un `.apkg` adjunto en tarjetas, pero el historial de repasos, la programación y las plantillas se quedan atrás; traslada el contenido, no la colección | **Anki** |
 | Quieres FSRS | Admite FSRS, optimiza sus parámetros a partir del historial de repasos y permite configurar la retención deseada y ajustes preestablecidos por mazo | Usa pesos fijos de FSRS-6 en la web, iOS, Android y el backend; los ajustes del espacio de trabajo no optimizan esos pesos a partir de tus repasos | **Cualquiera de las dos**; Anki es mejor para la optimización personal y para conservar la continuidad de la programación |
 | Estudias sin internet | Los clientes instalados para escritorio, iOS y Android guardan colecciones locales; AnkiWeb sigue funcionando solo con conexión | La web, iOS y Android guardan primero en local los cambios en tarjetas y repasos; el inicio de sesión, la carga inicial, la sincronización, la IA y los archivos multimedia que aún no estén en caché requieren conexión | **Cualquiera de las dos**, después de probar tus dispositivos y archivos multimedia concretos |
 | Quieres un widget en la pantalla de inicio | [AnkiDroid](https://github.com/ankidroid/Anki-Android) tiene widgets de mazos y de recuento de tarjetas; AnkiMobile para iPhone y iPad no tiene ninguno, y los usuarios [siguen pidiéndolo](https://forums.ankiweb.net/t/ankimobile-widget/32633) | Los widgets gratuitos de «Repasar» para iPhone, iPad, Mac y Android muestran cuántas tarjetas tienes pendientes y la pregunta de tu siguiente tarjeta; al tocarlos se abre «Repasar» | **Nibomo** en dispositivos Apple; **cualquiera de las dos** en Android |
@@ -51,7 +51,7 @@ Más importante que el número de versión es todo lo que se ha construido alred
 
 Sus [exportaciones empaquetadas](https://docs.ankiweb.net/exporting.html) también conservan mucha más estructura que una simple lista de tarjetas. Un `.colpkg` puede incluir la colección completa, con todos los mazos y los datos de programación, además de los archivos multimedia si marcas esa opción al exportar. Un `.apkg` puede incluir las tarjetas, las notas y los tipos de nota de un mazo, junto con información opcional sobre la programación, los ajustes preestablecidos del mazo y los archivos multimedia. Esto resulta útil para crear copias de seguridad, transferir datos entre dispositivos y migrar a programas compatibles con los paquetes de Anki.
 
-Nibomo no alcanza ese nivel de profundidad. Ya ofrece [clientes para web, iOS y Android](https://github.com/kirill-markin/flashcards-open-source-app#available-on), pero no dispone de un cliente nativo para Windows, macOS o Linux, un catálogo comparable de complementos, un ecosistema de mazos compartidos, un motor de plantillas ni un importador directo de paquetes de Anki. Si alguno de esos elementos sostiene tu forma de estudiar, cambiar de aplicación supondría perder una función que ya te sirve.
+Nibomo no alcanza ese nivel de profundidad. Ya ofrece [clientes para web, iOS y Android](https://github.com/kirill-markin/flashcards-open-source-app#available-on), pero no dispone de un cliente nativo para Windows, macOS o Linux, un catálogo comparable de complementos, un ecosistema de mazos compartidos, un motor de plantillas ni un importador de paquetes de Anki con un solo clic. Si alguno de esos elementos sostiene tu forma de estudiar, cambiar de aplicación supondría perder una función que ya te sirve.
 
 ## Ambos usan FSRS, pero no puedes trasladar el estado del programador de repasos
 
@@ -73,7 +73,7 @@ Que una aplicación sea offline-first no significa que todas sus funciones esté
 
 Anki te da un control directo sobre el formato de las tarjetas. Los campos, los tipos de nota, las plantillas, las importaciones y los complementos permiten crear flujos de trabajo muy específicos. Esa flexibilidad es difícil de sustituir si utilizas variantes cloze, estilos personalizados, herramientas para idiomas, notas con muchos archivos multimedia o automatizaciones construidas alrededor de la colección de Anki.
 
-Nibomo utiliza un modelo de tarjeta más limitado, pero integra más automatización en el propio producto. La [aplicación alojada](/docs/getting-started/) incluye un chat con IA que conoce el contexto del espacio de trabajo y admite archivos adjuntos. Puedes pedirle que redacte o reescriba tarjetas, revisar la propuesta y decidir qué se guarda. Es útil para convertir texto o archivos CSV en tarjetas editables de anverso y reverso, pero revisar contenido con IA no equivale a importarlo conservando el formato.
+Nibomo utiliza un modelo de tarjeta más limitado, pero integra más automatización en el propio producto. La [aplicación alojada](/docs/getting-started/) incluye un chat con IA que conoce el contexto del espacio de trabajo y admite archivos adjuntos. Puedes pedirle que redacte o reescriba tarjetas. Es útil para convertir texto, archivos CSV o un `.apkg` de Anki en tarjetas editables de anverso y reverso, pero no es una importación que conserve el formato.
 
 La otra diferencia que ya está disponible es el acceso desde otras herramientas. Nibomo ofrece una [API para agentes](/docs/api/) y un conector MCP para herramientas como Claude Code y Codex. Los agentes pueden autenticarse, seleccionar un espacio de trabajo, consultar los datos publicados y crear o editar tarjetas. Si tu flujo de trabajo empieza en un terminal o en un agente de IA, se trata de una vía de acceso de primera clase, no de un complemento añadido sobre la aplicación de escritorio.
 
@@ -99,15 +99,14 @@ Nibomo puede exportar e importar su propio [paquete portátil de espacio de trab
 
 La exportación de la colección completa de Anki es más exhaustiva desde el punto de vista del usuario. Es un contrapeso importante al repositorio más amplio de Nibomo: poder leer el código fuente y desplegar la infraestructura no se traduce automáticamente en una exportación más fiel de tus datos personales.
 
-Hoy, pasar de Anki a Nibomo exige reconstruir el contenido:
+Hoy, pasar de Anki a Nibomo consiste en trasladar el contenido a través del chat con IA:
 
-1. Exporta las notas formadas principalmente por texto con la opción **Notes in Plain Text** de Anki, que genera un archivo de texto separado por tabulaciones.
-2. Adjunta ese archivo TXT al chat con IA de Nibomo. También puedes usar CSV si conviertes la exportación de forma deliberada.
-3. Pide borradores de tarjetas con anverso y reverso, junto con la limpieza de etiquetas que necesites.
-4. Revisa todos los borradores antes de guardarlos.
-5. Vuelve a crear o comprueba los archivos multimedia por separado.
+1. Exporta el mazo desde Anki como `.apkg` con la opción **Support older Anki versions** marcada. Solo con ese formato antiguo Nibomo le pasa a la IA la lista de nombres de los archivos multimedia. El paquete de prueba era un archivo en el formato antiguo creado con un script, no una exportación de Anki.
+2. Adjunta el archivo al chat con IA de Nibomo y pídele que convierta el mazo en tarjetas. Cada archivo puede ocupar hasta 30 MB.
+3. La IA lee el paquete y guarda las tarjetas directamente; en la prueba no hubo ningún paso de borrador ni de confirmación.
+4. Compara con Anki el número de tarjetas, los anversos, los reversos, las etiquetas y las imágenes. Fíjate sobre todo en las imágenes.
 
-Este proceso no conserva el historial de repasos, las fechas de vencimiento, la memoria de FSRS, los tipos de nota, las relaciones entre las tarjetas generadas, las plantillas HTML/CSS ni el comportamiento de los complementos; tampoco ofrece garantías sobre la semántica de los cloze y los archivos multimedia. La [guía de migración paso a paso](/blog/migrate-from-anki-txt-export-open-source-flashcards/) resulta útil para mazos sencillos. Si tu colección necesita una importación directa de archivos `.apkg`, consulta en su lugar la [comparación más amplia de alternativas a Anki](/blog/best-anki-alternatives/).
+En una prueba con un mazo de muestra pequeño llegaron las tarjetas básicas, las etiquetas y una imagen. Cada nota básica con tarjeta inversa se convirtió en dos tarjetas de un solo sentido, las notas cloze pasaron a ser tarjetas de pregunta y respuesta, y los submazos quedaron como mazos planos de Nibomo. No se transfieren el historial de repasos, las fechas de vencimiento, la memoria de FSRS, los tipos de nota, las plantillas HTML/CSS ni el comportamiento de los complementos. La [guía de importación de `.apkg`](/blog/import-anki-apkg/) muestra el proceso completo. La [guía de migración desde TXT](/blog/migrate-from-anki-txt-export-open-source-flashcards/), más antigua, sigue sirviendo para mazos solo de texto. Si también necesitas trasladar el historial de repasos, consulta en su lugar la [comparación más amplia de alternativas a Anki](/blog/best-anki-alternatives/).
 
 ## Haz una prueba de bajo riesgo con un mazo representativo
 
@@ -115,11 +114,11 @@ No migres todo tu perfil solo para descubrir si te resulta cómoda la nueva pant
 
 1. **Haz primero una copia de seguridad de Anki.** Exporta un `.colpkg` completo con la información de programación y los archivos multimedia y guárdalo fuera del perfil activo.
 2. **Elige un mazo representativo.** Incluye los tipos de tarjeta, las etiquetas, el comportamiento de los cloze, las imágenes, el audio, las fórmulas y el historial de repasos que pondrían en evidencia una mala migración.
-3. **Conserva una copia nativa de Anki.** Exporta ese mazo como `.apkg` antes de crear la copia TXT o CSV para Nibomo.
-4. **Crea borradores; no importes a ciegas.** Pide a Nibomo que genere una vista previa y después compara con Anki el número de tarjetas, los anversos, los reversos, las etiquetas, el formato y las referencias a archivos multimedia.
+3. **Exporta el mazo como `.apkg`.** Ese archivo es a la vez tu copia nativa de Anki y lo que adjuntas en el chat con IA de Nibomo.
+4. **Comprueba el resultado; no lo des por hecho.** Compara con Anki el número de tarjetas, los anversos, los reversos, las etiquetas, el formato y las imágenes.
 5. **Da por hecho que la cola empieza de cero.** Comprueba que un historial nuevo de FSRS sea aceptable para ese material. No esperes que las respuestas en una aplicación actualicen la otra.
 6. **Prueba las interfaces que vayas a utilizar.** Repasa y edita en la web, iOS o Android, desconecta un dispositivo, vuelve a conectarlo y confirma que los cambios y los archivos multimedia llegan donde deben.
-7. **Mantén ambos sistemas hasta comprobar que se cumple tu requisito.** Que los borradores de contenido sean correctos no demuestra que el flujo diario de repaso, sincronización, exportación y recuperación encaje contigo.
+7. **Mantén ambos sistemas hasta comprobar que se cumple tu requisito.** Que la importación salga bien no demuestra que el flujo diario de repaso, sincronización, exportación y recuperación encaje contigo.
 
 La prueba puede terminar con dos herramientas: los mazos consolidados se quedan en Anki, mientras que una asignatura nueva empieza en Nibomo. Es una solución más limpia que forzar un cambio completo.
 
@@ -142,7 +141,7 @@ Prueba Nibomo si:
 - estás empezando un mazo nuevo o tienes material sencillo, compuesto principalmente por tarjetas de anverso y reverso;
 - quieres un único repositorio con licencia MIT que abarque la web, iOS, Android, el backend, la autenticación, la sincronización y la infraestructura;
 - prefieres guardar primero los cambios en local y sincronizarlos automáticamente después;
-- quieres ayuda integrada de la IA para trabajar con archivos fuente y borradores de tarjetas que puedas revisar;
+- quieres una IA integrada que convierta archivos fuente, incluido un `.apkg` de Anki, en tarjetas que puedas editar;
 - quieres acceder mediante MCP o la API para agentes desde el terminal y otras herramientas de IA;
 - aceptas el trabajo que exige el autoalojamiento en AWS y las limitaciones actuales de fidelidad en la migración y la exportación.
 

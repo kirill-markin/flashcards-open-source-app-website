@@ -3,7 +3,7 @@ title: "Najlepsze darmowe alternatywy dla Quizlet w 2026 roku: porównanie 5 apl
 description: "Porównaj Anki, Knowt, RemNote, Mochi i Nibomo: darmową naukę z fiszek, synchronizację, tryb offline, import z Quizlet, limity AI i ograniczenia darmowych planów."
 image: "/blog/free-quizlet-alternative-v2.png"
 date: "2026-06-20"
-updated: "2026-09-10"
+updated: "2026-11-08"
 keywords:
   - "darmowe alternatywy dla Quizlet"
   - "najlepsza darmowa alternatywa dla Quizlet"
@@ -25,7 +25,7 @@ Najlepsza darmowa alternatywa dla Quizlet to taka, której ograniczenia nie prze
 
 > **Informacja o autorze:** Nazywam się Kirill Markin i tworzę Nibomo, jedną z pięciu porównywanych tu aplikacji. Uwzględniłem ją ze względu na otwarty kod źródłowy, FSRS i możliwość pracy z agentami. Nie jest najlepszym wyborem dla każdego: nie ma bezpośredniego importu z Quizlet, jej własny pakiet do przenoszenia danych nie zachowuje stanu powtórek, a obecna darmowa oferta hostowanej aplikacji dotyczy wersji beta. To porównanie oparte na sprawdzonych źródłach: oficjalnych cennikach, stronach pomocy i dokumentacji repozytoriów. Nie twierdzę, że osobiście testowałem wszystkie pięć aplikacji przez dłuższy czas.
 
-**Stan informacji:** 10 września 2026 r.
+**Stan informacji:** 10 września 2026 r.; szczegóły importu plików Anki `.apkg` w Nibomo: 8 listopada 2026 r.
 
 ![Osoba ucząca się trzyma przykładowy zestaw fiszek i porównuje pięć łódek przed wyborem darmowej alternatywy dla Quizlet oraz przetestowaniem importu i eksportu danych](/blog/free-quizlet-alternative-v2.png)
 
@@ -114,7 +114,7 @@ Nibomo odpowiada w tym zestawieniu na bardziej konkretne potrzeby. Hostowana apl
 
 Długoterminowa obietnica jest węższa niż oferta bety. Podstawowe tworzenie fiszek i powtórki pozostaną darmowe. Większe użycie AI może w przyszłości wymagać własnego klucza dostawcy lub płatnej opcji. Nie ma obietnicy, że każda hostowana funkcja pozostanie darmowa na zawsze.
 
-Migracja z Quizlet jest też najsłabszym punktem tej propozycji. Nibomo nie ma bezpośredniego importera Quizlet, CSV, TSV, Anki ani ogólnego importera tekstu. Tekst z zestawów Quizlet, które można eksportować, może służyć jako materiał do ręcznego odtworzenia fiszek lub przygotowania fiszek przez AI, które trzeba potem sprawdzić, ale nie jest to import bez utraty danych. [Poradnik eksportu z Quizlet](/pl/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/) wyjaśnia porządkowanie danych, nie sugerując, że da się odzyskać brakujące multimedia i stan nauki.
+Migracja z Quizlet jest też najsłabszym punktem tej propozycji. Nibomo nie ma działającego jednym kliknięciem importera Quizlet, CSV, TSV, Anki ani ogólnego importera tekstu. Plik Anki `.apkg` można przekazać czatowi AI, który [zamieni go w nowe fiszki](/blog/import-anki-apkg/). Tekst z zestawów Quizlet, które można eksportować, może służyć jako materiał do ręcznego odtworzenia fiszek lub przygotowania fiszek przez AI, które trzeba potem sprawdzić, ale nie jest to import bez utraty danych. [Poradnik eksportu z Quizlet](/pl/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/) wyjaśnia porządkowanie danych, nie sugerując, że da się odzyskać brakujące multimedia i stan nauki.
 
 Własny pakiet `flashcards.zip` przenosi fiszki, tagi i powiązane multimedia między obszarami roboczymi Nibomo. Nie przenosi historii powtórek, stanu algorytmu FSRS, ustawień, pełnych struktur talii ani danych konta. Samodzielny hosting daje oprogramowanie na licencji MIT i kontrolę nad wdrożeniem, ale opisana ścieżka produkcyjna korzysta z AWS i nadal wiąże się z kosztami infrastruktury, usług zewnętrznych, utrzymania, kopii zapasowych i pracy osoby zarządzającej wdrożeniem. [Przewodnik po samodzielnym hostingu](/docs/self-hosting/) wyjaśnia te granice.
 

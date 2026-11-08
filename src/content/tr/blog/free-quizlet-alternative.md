@@ -3,7 +3,7 @@ title: "2026'nın en iyi ücretsiz Quizlet alternatifleri: 5 uygulamanın karş�
 description: "Anki, Knowt, RemNote, Mochi ve Nibomo'yu ücretsiz kart çalışması, senkronizasyon, çevrimdışı kullanım, Quizlet aktarımı, yapay zekâ sınırları ve ücretsiz planların kısıtları açısından karşılaştırın."
 image: "/blog/free-quizlet-alternative-v2.png"
 date: "2026-06-20"
-updated: "2026-09-10"
+updated: "2026-11-08"
 keywords:
   - "ücretsiz Quizlet alternatifleri"
   - "en iyi ücretsiz Quizlet alternatifi"
@@ -25,7 +25,7 @@ En iyi ücretsiz Quizlet alternatifi, kısıtları sizin çalışma düzeninizi 
 
 > **Açıklama:** Ben Kirill Markin. Burada karşılaştırılan beş uygulamadan biri olan Nibomo'yu geliştiriyorum. Açık kaynak yapısı, FSRS ve yapay zekâ ajanlarıyla çalışma olanakları nedeniyle bu listeye ekledim. Herkes için en iyi seçenek değil: Doğrudan Quizlet içe aktarıcısı yok, uygulamanın kendi aktarım paketi tekrar durumunu korumuyor ve barındırılan uygulamanın mevcut ücretsiz teklifi beta dönemiyle sınırlı. Bu karşılaştırma resmî fiyatlandırma ve yardım sayfaları ile kod deposundaki belgeler kontrol edilerek hazırlandı; beş uygulamayı da uzun süre bizzat denediğim iddiasını taşımıyor.
 
-**Bilgilerin kontrol edildiği tarih:** 10 Eylül 2026.
+**Bilgilerin kontrol edildiği tarih:** 10 Eylül 2026; Nibomo'nun Anki `.apkg` içe aktarma ayrıntıları 8 Kasım 2026'da kontrol edildi.
 
 ![Elinde örnek bir çalışma seti tutan bir öğrenci, ücretsiz bir Quizlet alternatifi seçip içe ve dışa aktarımı denemeden önce beş tekneyi karşılaştırıyor](/blog/free-quizlet-alternative-v2.png)
 
@@ -114,7 +114,7 @@ Nibomo bu listede daha dar bir ihtiyaca odaklanıyor. Barındırılan uygulama [
 
 Uzun vadede ücretsiz kalacağı belirtilen özellikler, beta teklifindekilerden daha sınırlı. Temel kart oluşturma ve tekrar özellikleri ücretsiz kalacak. Daha yüksek yapay zekâ kullanımı ileride kendi sağlayıcı anahtarınızı veya ücretli bir seçeneği gerektirebilir. Barındırılan her özelliğin sonsuza kadar ücretsiz kalacağı sözü yok.
 
-Quizlet'ten geçiş de Nibomo'nun en zayıf yanı. Nibomo'da doğrudan Quizlet, CSV, TSV, Anki veya genel amaçlı metin içe aktarıcısı bulunmuyor. Dışa aktarılabilen Quizlet metni, kartları elle yeniden oluşturmak veya kontrol edilmiş yapay zekâ taslakları hazırlamak için kaynak olabilir. Ancak bu kayıpsız bir içe aktarım değildir. [Quizlet dışa aktarma rehberi](/tr/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/), eksik medyanın ve çalışma durumunun geri getirilebileceği izlenimini vermeden metnin nasıl düzenleneceğini anlatıyor.
+Quizlet'ten geçiş de Nibomo'nun en zayıf yanı. Nibomo'da tek tıkla çalışan bir Quizlet, CSV, TSV, Anki veya genel amaçlı metin içe aktarıcısı bulunmuyor. Bir Anki `.apkg` dosyası yapay zekâ sohbetine eklenebilir; sohbet onu [yeni kartlara dönüştürür](/blog/import-anki-apkg/). Dışa aktarılabilen Quizlet metni, kartları elle yeniden oluşturmak veya kontrol edilmiş yapay zekâ taslakları hazırlamak için kaynak olabilir. Ancak bu kayıpsız bir içe aktarım değildir. [Quizlet dışa aktarma rehberi](/tr/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/), eksik medyanın ve çalışma durumunun geri getirilebileceği izlenimini vermeden metnin nasıl düzenleneceğini anlatıyor.
 
 Uygulamanın kendi `flashcards.zip` paketi; kartları, etiketleri ve ilişkili medya dosyalarını Nibomo çalışma alanları arasında taşır. Tekrar geçmişini, FSRS zamanlayıcı durumunu, ayarları, deste yapılarının tamamını veya hesap verilerini taşımaz. Kendi sunucunuzda barındırmak size MIT lisanslı yazılımı ve kurulumun kontrolünü verir. Ancak belgelenmiş üretim ortamı AWS kullanır; altyapı, sağlayıcı, bakım, yedekleme ve işletme maliyetleri yine oluşur. [Kendi sunucunuzda barındırma rehberi](/docs/self-hosting/) bu sınırı açıklıyor.
 

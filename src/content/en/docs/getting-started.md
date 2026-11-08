@@ -30,7 +30,7 @@ The Nibomo app adds a Review widget to iPhone, iPad, Mac, and Android. It comes 
 
 When nothing is due, the widget shows "All done" and when the next card is due. It never shows an answer. Tap the widget to open Review; a Medium or Large widget opens Review on the card it shows. Widgets are free for everyone, including guests.
 
-To add one, open your device's widget gallery, choose Nibomo, and pick a size.
+To add one on iPhone, iPad, or Mac, open the widget gallery, choose Nibomo, and pick a size. On Android, add the Nibomo widget from the widgets list, then resize it; the layout follows the size.
 
 ## Hosted Web App
 

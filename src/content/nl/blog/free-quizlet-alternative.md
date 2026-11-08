@@ -3,7 +3,7 @@ title: "De beste gratis Quizlet-alternatieven in 2026: 5 apps vergeleken"
 description: "Vergelijk Anki, Knowt, RemNote, Mochi en Nibomo op gratis leren met flashcards, synchronisatie, offline gebruik, Quizlet-import, AI-limieten en de beperkingen van elk gratis abonnement."
 image: "/blog/free-quizlet-alternative-v2.png"
 date: "2026-06-20"
-updated: "2026-09-10"
+updated: "2026-11-08"
 keywords:
   - "gratis Quizlet-alternatieven"
   - "beste gratis Quizlet-alternatief"
@@ -25,7 +25,7 @@ Het beste gratis Quizlet-alternatief is de app waarvan de beperkingen jouw manie
 
 > **Over mijn betrokkenheid:** Ik ben Kirill Markin en ik bouw Nibomo, een van de vijf apps in deze vergelijking. Ik heb de app opgenomen vanwege de opensourcecode, FSRS en de mogelijkheden voor AI-agents. Nibomo is niet voor iedereen de beste keuze: er is geen directe Quizlet-importfunctie, het eigen overdrachtspakket bewaart geen herhaalstatus en het huidige gratis aanbod van de gehoste app is een bèta. Voor deze vergelijking heb ik officiële prijspagina's, hulppagina's en documentatie in de repositories geraadpleegd. Ik beweer niet dat ik alle vijf de apps langdurig zelf heb getest.
 
-**Feiten gecontroleerd:** 10 september 2026.
+**Feiten gecontroleerd:** 10 september 2026; details over de Anki-`.apkg`-import van Nibomo gecontroleerd op 8 november 2026.
 
 ![Een student met een voorbeeldset flashcards vergelijkt vijf boten om een gratis Quizlet-alternatief te kiezen en het importeren en weer exporteren te testen](/blog/free-quizlet-alternative-v2.png)
 
@@ -114,7 +114,7 @@ Nibomo is de specialist in deze lijst. De gehoste app is [gratis tijdens de bèt
 
 De blijvende belofte is beperkter dan het bèta-aanbod. De basisfuncties voor het maken en herhalen van kaarten blijven gratis. Voor intensiever AI-gebruik kan later een eigen providersleutel of een betaalde optie nodig zijn. Er is geen belofte dat elke gehoste functie voor altijd gratis blijft.
 
-Overstappen vanuit Quizlet is ook het zwakste punt. Nibomo heeft geen directe importfunctie voor Quizlet, CSV, TSV, Anki of algemene tekst. Quizlet-tekst die je mag exporteren, kan dienen als bronmateriaal om kaarten handmatig opnieuw op te bouwen of AI-concepten te maken die je controleert. Dat is geen import zonder gegevensverlies. De [gids voor exporteren uit Quizlet](/nl/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/) legt uit hoe je de tekst opschoont, zonder te doen alsof ontbrekende media en leerstatus terug te halen zijn.
+Overstappen vanuit Quizlet is ook het zwakste punt. Nibomo heeft geen importfunctie met één klik voor Quizlet, CSV, TSV, Anki of algemene tekst. Een Anki-`.apkg` kun je wel in AI-chat zetten; die [maakt er nieuwe kaarten van](/blog/import-anki-apkg/). Quizlet-tekst die je mag exporteren, kan dienen als bronmateriaal om kaarten handmatig opnieuw op te bouwen of AI-concepten te maken die je controleert. Dat is geen import zonder gegevensverlies. De [gids voor exporteren uit Quizlet](/nl/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/) legt uit hoe je de tekst opschoont, zonder te doen alsof ontbrekende media en leerstatus terug te halen zijn.
 
 Het eigen `flashcards.zip`-pakket verplaatst kaarten, tags en bijbehorende media tussen Nibomo-werkruimtes. Het verplaatst geen herhaalgeschiedenis, status van de FSRS-herhaalplanner, instellingen, volledige structuren van kaartensets of accountgegevens. Met zelf hosten krijg je de software onder de MIT-licentie en controle over de installatie. De gedocumenteerde route voor productie gebruikt echter AWS en brengt nog steeds kosten mee voor infrastructuur, providers, onderhoud, back-ups en beheer. De [gids voor zelf hosten](/docs/self-hosting/) beschrijft die grens.
 

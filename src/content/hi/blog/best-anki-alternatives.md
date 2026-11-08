@@ -2,7 +2,7 @@
 title: "2026 में Anki के विकल्प: बदलने पर क्या बचेगा, क्या छूटेगा और क्या मिलेगा"
 description: "Anki के सात विकल्पों की तुलना करें: माइग्रेशन में कितना डेटा बचता है, ऑफ़लाइन उपयोग, शेड्यूलिंग, कीमत, सोर्स एक्सेस और self-hosting—साथ ही जानें कि Anki पर टिके रहना कब सुरक्षित है।"
 date: "2026-03-14"
-updated: "2026-08-28"
+updated: "2026-11-08"
 image: "/blog/best-anki-alternatives.png"
 keywords:
   - "Anki के विकल्प"
@@ -20,9 +20,9 @@ Anki के विकल्पों की तुलना में यही 
 
 यह तुलना उसी सीमा से शुरू होती है। इसमें Anki जैसे सात ऐप शामिल हैं: हर ऐप मौजूदा कलेक्शन से क्या ले जा सकता है, इंपोर्ट के बाद क्या बदलता है और कब Anki पर टिके रहना अधिक सुरक्षित है।
 
-> **खुलासा:** मैं Kirill Markin हूँ और नीचे दिए गए प्रोडक्ट में से एक, [Nibomo](https://nibomo.com/), बनाता हूँ। मैंने इसे open-source, self-hosting और agent workflows के कारण शामिल किया है। यह अपने-आप पहला विकल्प नहीं बन जाता: इसमें सीधे `.apkg` इंपोर्ट करने की सुविधा नहीं है, Anki माइग्रेशन में डेटा छूटता है और self-hosted stack चलाना सचमुच infrastructure का काम है।
+> **खुलासा:** मैं Kirill Markin हूँ और नीचे दिए गए प्रोडक्ट में से एक, [Nibomo](https://nibomo.com/), बनाता हूँ। मैंने इसे open-source, self-hosting और agent workflows के कारण शामिल किया है। यह अपने-आप पहला विकल्प नहीं बन जाता: यह Anki `.apkg` files सिर्फ़ AI chat के ज़रिए पढ़ता है, Anki माइग्रेशन में डेटा छूटता है और self-hosted stack चलाना सचमुच infrastructure का काम है।
 
-**तथ्यों की जाँच:** 28 अगस्त 2026। कीमतें उस तारीख को उपलब्ध सार्वजनिक अमेरिकी या बताई गई स्थानीय कीमतें हैं। टैक्स, क्षेत्र, शिक्षा संबंधी ऑफ़र और app-store billing से रकम बदल सकती है।
+**तथ्यों की जाँच:** 28 अगस्त 2026। कीमतें उस तारीख को उपलब्ध सार्वजनिक अमेरिकी या बताई गई स्थानीय कीमतें हैं। टैक्स, क्षेत्र, शिक्षा संबंधी ऑफ़र और app-store billing से रकम बदल सकती है। Nibomo के Anki `.apkg` इंपोर्ट से जुड़े विवरणों की जाँच 8 नवंबर 2026 को की गई।
 
 ![एक घड़ीसाज़ जाँचता है कि पुरानी पॉकेट घड़ी का परखा हुआ मैकेनिज़्म दूसरे केस में ठीक से फिट होगा या नहीं](/blog/best-anki-alternatives.png)
 
@@ -41,7 +41,7 @@ Anki के विकल्पों की तुलना में यही 
 - **Quizlet** public sets, classes, games और guided practice के लिए उपयोगी है।
 - **Brainscape** किसी समूह को 1–5 confidence वाला सरल review loop देता है।
 - **SuperMemo** अपनाने का मतलब उसकी proprietary method और course catalog पर जाना है।
-- **Nibomo** MIT-licensed web और native clients, self-hosted backend, API और MCP access देता है। इसका जाँचा हुआ TXT या CSV workflow Anki की learning state सुरक्षित नहीं रखता।
+- **Nibomo** MIT-licensed web और native clients, self-hosted backend, API और MCP access देता है। इसका AI chat attach की गई `.apkg` को cards में बदल सकता है, लेकिन Anki की learning state साथ नहीं आती।
 
 अगर आपके कार्ड हूबहू rendering, add-ons या मौजूदा review queue पर निर्भर हैं, तो Anki पर टिके रहना अनिर्णय नहीं है। यही सही जवाब है।
 
@@ -78,7 +78,7 @@ Anki के विकल्पों की तुलना में यही 
 | [Quizlet](https://quizlet.com/) | [Terms और definitions paste करें](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content) | Anki से कुछ नहीं | Note types, templates, डेक, मीडिया की बनावट और पूरा scheduling data |
 | [Brainscape](https://www.brainscape.com/) | [CSV, TXT, XLSX या ODS](https://brainscape.zendesk.com/hc/en-us/articles/115002369931-How-do-I-import-various-files-to-create-flashcards) | Anki से कुछ नहीं | Templates, add-ons, मीडिया के नियम और पूरा scheduling data |
 | [SuperMemo](https://www.supermemo.com/) | एक बार में अधिकतम 100 [delimiter से अलग की गई सवाल-जवाब की पंक्तियाँ paste करें](https://www.supermemo.com/en/blog/how-to-create-flashcards-for-learning) | Anki से कुछ नहीं | कलेक्शन की बनावट, मीडिया, templates और पूरा scheduling data |
-| [Nibomo](https://nibomo.com/) | Anki TXT या CSV से जाँची हुई AI-assisted drafting | Anki से कुछ नहीं | `.apkg` support नहीं; templates, मीडिया की fidelity, deck hierarchy और पूरा scheduling data पीछे छूट जाता है |
+| [Nibomo](https://nibomo.com/) | [AI chat में `.apkg` attach करें](/blog/import-anki-apkg/); AI cards सीधे save कर देता है। TXT या CSV भी चलता है | Anki से कुछ नहीं; हर card नए card की तरह शुरू होता है | Cloze notes सवाल-जवाब cards बन जाते हैं; templates, CSS, deck nesting और पूरा scheduling data पीछे छूट जाता है |
 
 ## कीमत, ऑफ़लाइन उपयोग, शेड्यूलिंग और मालिकाना हक़
 
@@ -166,11 +166,11 @@ Personal deck export अब भी [Pro feature](https://brainscape.zendesk.com/
 
 SuperMemo तब चुनें, जब आप उसकी अपनी method या course catalog को इतना चाहते हों कि नया schedule शुरू करना मंज़ूर हो। अगर मौजूदा schedule बचाना प्राथमिकता है, तो यह आपकी समस्या का सही हल नहीं है।
 
-## Nibomo: पूरे stack का सोर्स एक्सेस, लेकिन सबसे कमज़ोर Anki इंपोर्ट
+## Nibomo: पूरे stack का सोर्स एक्सेस, और सिर्फ़ content लाने वाला Anki इंपोर्ट
 
 Nibomo आपको पूरे stack पर व्यापक मालिकाना नियंत्रण देता है। [MIT-licensed repository](https://github.com/kirill-markin/flashcards-open-source-app) में web ऐप, iOS और Android clients, backend, offline sync, infrastructure, [public API](/docs/api/) और [MCP server](/docs/mcp-connector/) शामिल हैं। रिव्यू में [FSRS](/docs/architecture/#scheduling) इस्तेमाल होता है। Web, iOS और Android पहले local data में लिखते हैं, changes को outbox में जोड़ते हैं और connection लौटने पर sync करते हैं।
 
-इससे यह Anki-compatible नहीं हो जाता। Nibomo `.apkg` या `.colpkg` नहीं पढ़ सकता। Anki से export किए गए TXT से कार्ड दोबारा बनाना अधिकतर text-based कार्ड के लिए जाँचा हुआ AI-assisted drafting workflow है। यह templates, add-ons, deck hierarchy, देय तारीखें, intervals या review events सुरक्षित नहीं रखता। TXT फ़ाइल में media references होते हैं, media files नहीं; इसलिए media-heavy डेक को अलग से दोबारा बनाकर verify करना पड़ता है।
+इससे यह Anki-compatible नहीं हो जाता। One-click importer नहीं है, और लाइब्रेरी → इम्पोर्ट सिर्फ़ Nibomo की अपनी `.zip` लेता है। इसके बजाय आप [AI chat में `.apkg` attach करते हैं](/blog/import-anki-apkg/) और डेक को कार्ड में बदलने को कहते हैं। एक छोटे sample deck के test में basic cards, tags और एक image बचे रहे, उल्टे कार्ड वाले basic notes दो one-way cards में बँट गए और cloze notes सवाल-जवाब cards के रूप में दोबारा लिखे गए। Subdecks Nibomo में बिना nesting वाले decks बन गए। Templates, add-ons, देय तारीखें, intervals और review events पीछे छूट जाते हैं, और `.colpkg` files स्वीकार नहीं होतीं। **Support older Anki versions** चुनकर एक्सपोर्ट करें; Nibomo सिर्फ़ इसी पुराने फ़ॉर्मेट के लिए AI को मीडिया फ़ाइलों के नामों की सूची देता है। टेस्ट पैकेज पुराने फ़ॉर्मेट की एक फ़ाइल थी, जिसे स्क्रिप्ट से बनाया गया था; वह Anki से एक्सपोर्ट नहीं की गई थी। इंपोर्ट के बाद इमेज जाँचें। पुराना [Anki TXT migration](/blog/migrate-from-anki-txt-export-open-source-flashcards/) सिर्फ़ text वाले कार्ड के लिए अब भी काम करता है।
 
 Nibomo का अपना `flashcards.zip` package भी backup से सीमित है। यह Nibomo workspaces के बीच कार्ड, tags और संबंधित मीडिया ले जाता है। यह review history, FSRS state, पूरा deck structure, workspace settings या accounts नहीं ले जाता।
 

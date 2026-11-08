@@ -2,7 +2,7 @@
 title: "Anki Alternatives in 2026: What You Keep, Lose, and Gain by Switching"
 description: "Compare seven Anki alternatives by migration fidelity, offline use, scheduling, price, source access, and self-hosting—and see when keeping Anki is safer."
 date: "2026-03-14"
-updated: "2026-08-28"
+updated: "2026-11-08"
 image: "/blog/best-anki-alternatives.png"
 keywords:
   - "Anki alternatives"
@@ -20,9 +20,9 @@ That is the expensive part of comparing Anki alternatives. A cleaner editor or a
 
 This comparison starts at that boundary. It covers seven apps like Anki, what each one can take from an existing collection, what changes after import, and when keeping Anki is the safer result.
 
-> **Disclosure:** I am Kirill Markin, and I build [Nibomo](https://nibomo.com/), one of the products below. I included it for its open-source, self-hosting, and agent workflows. It is not the default winner: it has no direct `.apkg` importer, its Anki migration is lossy, and operating the self-hosted stack is a real infrastructure job.
+> **Disclosure:** I am Kirill Markin, and I build [Nibomo](https://nibomo.com/), one of the products below. I included it for its open-source, self-hosting, and agent workflows. It is not the default winner: it reads Anki `.apkg` files only through AI chat, its Anki migration is lossy, and operating the self-hosted stack is a real infrastructure job.
 
-**Facts checked:** August 28, 2026. Prices are the public US or listed local prices available on that date. Taxes, regions, education offers, and app-store billing can change the amount.
+**Facts checked:** August 28, 2026. Prices are the public US or listed local prices available on that date. Taxes, regions, education offers, and app-store billing can change the amount. Nibomo's Anki `.apkg` import details checked November 8, 2026.
 
 ![A watchmaker checks whether a mature pocket-watch movement will fit a different case](/blog/best-anki-alternatives.png)
 
@@ -41,7 +41,7 @@ The remaining four are content rebuilds, not collection migrations:
 - **Quizlet** is useful for public sets, classes, games, and guided practice.
 - **Brainscape** gives a group a simpler 1–5 confidence loop.
 - **SuperMemo** is a move into its proprietary method and course catalog.
-- **Nibomo** gives you MIT-licensed web and native clients, a self-hosted backend, API, and MCP access. Its reviewed TXT or CSV workflow does not preserve Anki learning state.
+- **Nibomo** gives you MIT-licensed web and native clients, a self-hosted backend, API, and MCP access. Its AI chat can turn an attached `.apkg` into cards, but Anki learning state doesn't come along.
 
 If your cards depend on exact rendering, add-ons, or the current review queue, staying in Anki is not indecision. It is the answer.
 
@@ -78,7 +78,7 @@ An importer may pass the first question and fail the other two.
 | [Quizlet](https://quizlet.com/) | [Paste terms and definitions](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content) | None from Anki | Note types, templates, decks, media structure, and all scheduling data |
 | [Brainscape](https://www.brainscape.com/) | [CSV, TXT, XLSX, or ODS](https://brainscape.zendesk.com/hc/en-us/articles/115002369931-How-do-I-import-various-files-to-create-flashcards) | None from Anki | Templates, add-ons, media rules, and all scheduling data |
 | [SuperMemo](https://www.supermemo.com/) | [Paste delimited question-and-answer rows](https://www.supermemo.com/en/blog/how-to-create-flashcards-for-learning), up to 100 at once | None from Anki | Collection structure, media, templates, and all scheduling data |
-| [Nibomo](https://nibomo.com/) | Reviewed AI-assisted drafting from Anki TXT or CSV | None from Anki | No `.apkg` support; templates, media fidelity, deck hierarchy, and all scheduling data stay behind |
+| [Nibomo](https://nibomo.com/) | [Attach the `.apkg` in AI chat](/blog/import-anki-apkg/); the AI saves the cards directly. TXT or CSV also works | None from Anki; every card starts as new | Cloze notes become question-and-answer cards; templates, CSS, deck nesting, and all scheduling data stay behind |
 
 ## Price, offline use, scheduling, and ownership
 
@@ -166,11 +166,11 @@ Downloaded courses can be studied offline in the mobile apps. The [offline guide
 
 Choose SuperMemo because you want SuperMemo's own method or course catalog enough to start a new schedule. If preserving your existing schedule is the priority, it solves the wrong problem.
 
-## Nibomo: source access across the full stack, with the weakest Anki import
+## Nibomo: source access across the full stack, with a content-only Anki import
 
 Nibomo exposes a broad ownership boundary. The [MIT-licensed repository](https://github.com/kirill-markin/flashcards-open-source-app) contains the web app, iOS and Android clients, backend, offline sync, infrastructure, [public API](/docs/api/), and [MCP server](/docs/mcp-connector/). Reviews use [FSRS](/docs/architecture/#scheduling). Web, iOS, and Android write locally first, add changes to an outbox, and sync after reconnection.
 
-That does not make it Anki-compatible. Nibomo cannot read `.apkg` or `.colpkg`. The supported [Anki TXT migration](/blog/migrate-from-anki-txt-export-open-source-flashcards/) is a reviewed, AI-assisted drafting workflow for mostly text-based cards. It does not preserve templates, add-ons, deck hierarchy, due dates, intervals, or review events. Media references in a TXT file are not media files, so media-heavy decks need separate rebuilding and verification.
+That does not make it Anki-compatible. There's no one-click importer, and Library → Import takes only Nibomo's own `.zip`. Instead, you [attach an `.apkg` in AI chat](/blog/import-anki-apkg/) and ask it to turn the deck into cards. In a test with a small sample deck, it kept basic cards, tags, and an image, split basic-and-reversed notes into two one-way cards, and rewrote cloze notes as question-and-answer cards. Subdecks became flat Nibomo decks. Templates, add-ons, due dates, intervals, and review events stay behind, and `.colpkg` files aren't accepted. Export with **Support older Anki versions**; Nibomo gives the AI the list of media file names only for that older format. The test package was an older-format file built with a script, not an Anki export. Check images after import. The older [Anki TXT migration](/blog/migrate-from-anki-txt-export-open-source-flashcards/) still works for text-only cards.
 
 Nibomo's own `flashcards.zip` package is also narrower than a backup. It moves cards, tags, and related media between Nibomo workspaces. It does not move review history, FSRS state, full deck structures, workspace settings, or accounts.
 

@@ -2,7 +2,7 @@
 title: "Mbadala za Anki mwaka 2026: unachohifadhi, unachopoteza na unachopata ukihama"
 description: "Linganisha mbadala saba za Anki kwa uhifadhi wa data unapohama, matumizi bila intaneti, ratiba, bei, msimbo chanzo na kujihostia—na uone lini kubaki na Anki ni salama zaidi."
 date: "2026-03-14"
-updated: "2026-08-28"
+updated: "2026-11-08"
 image: "/blog/best-anki-alternatives.png"
 keywords:
   - "mbadala za Anki"
@@ -20,9 +20,9 @@ Hayo ndiyo makosa yanayoweza kukugharimu unapolinganisha mbadala za Anki. Kihari
 
 Ulinganisho huu unaanzia kwenye suala hilo la kuhifadhi data na namna kadi zinavyofanya kazi. Unahusu programu saba kama Anki, kile ambacho kila moja inaweza kuchukua kutoka mkusanyiko uliopo, kinachobadilika baada ya kuingiza data, na lini kubaki na Anki ni uamuzi salama zaidi.
 
-> **Uwazi kuhusu maslahi:** Mimi ni Kirill Markin, na ninatengeneza [Nibomo](https://nibomo.com/), mojawapo ya bidhaa zilizo hapa chini. Nimeijumuisha kwa sababu ya msimbo wake huria, uwezekano wa kujihostia na namna ya kufanya kazi na mawakala wa AI. Si mshindi wa moja kwa moja: haina kiingizi cha `.apkg`, uhamishaji kutoka Anki hupoteza baadhi ya data, na kuendesha mfumo wake mwenyewe ni kazi halisi ya miundombinu.
+> **Uwazi kuhusu maslahi:** Mimi ni Kirill Markin, na ninatengeneza [Nibomo](https://nibomo.com/), mojawapo ya bidhaa zilizo hapa chini. Nimeijumuisha kwa sababu ya msimbo wake huria, uwezekano wa kujihostia na namna ya kufanya kazi na mawakala wa AI. Si mshindi wa moja kwa moja: husoma faili za `.apkg` za Anki kupitia mazungumzo ya AI pekee, uhamishaji kutoka Anki hupoteza baadhi ya data, na kuendesha mfumo wake mwenyewe ni kazi halisi ya miundombinu.
 
-**Taarifa zilihakikiwa:** Agosti 28, 2026. Bei ni zile zilizotangazwa kwa umma nchini Marekani au bei za eneo husika zilizoorodheshwa siku hiyo. Kodi, eneo, ofa za elimu na malipo kupitia maduka ya programu vinaweza kubadilisha kiasi.
+**Taarifa zilihakikiwa:** Agosti 28, 2026. Bei ni zile zilizotangazwa kwa umma nchini Marekani au bei za eneo husika zilizoorodheshwa siku hiyo. Kodi, eneo, ofa za elimu na malipo kupitia maduka ya programu vinaweza kubadilisha kiasi. Taarifa kuhusu uingizaji wa `.apkg` ya Anki kwenye Nibomo zilihakikiwa Novemba 8, 2026.
 
 ![Fundi wa saa anakagua kama mtambo wa saa ya mfukoni uliotumika kwa muda utafaa kwenye ganda tofauti](/blog/best-anki-alternatives.png)
 
@@ -41,7 +41,7 @@ Nne zilizobaki zinahitaji kujenga upya maudhui, badala ya kuhamisha mkusanyiko m
 - **Quizlet** inafaa kwa seti za umma, madarasa, michezo na mazoezi yanayoongozwa.
 - **Brainscape** inalipatia kundi utaratibu rahisi zaidi wa kujipima kwa kiwango cha kujiamini cha 1–5.
 - **SuperMemo** inakuhamishia kwenye mbinu yake inayomilikiwa na kampuni na katalogi yake ya kozi.
-- **Nibomo** inakupa programu ya wavuti na programu maalumu za vifaa zenye leseni ya MIT, mfumo wa nyuma unaoweza kuuhosti mwenyewe, API na ufikiaji wa MCP. Utaratibu wake wa TXT au CSV unaohusisha ukaguzi hauhifadhi hali ya kujifunza ya Anki.
+- **Nibomo** inakupa programu ya wavuti na programu maalumu za vifaa zenye leseni ya MIT, mfumo wa nyuma unaoweza kuuhosti mwenyewe, API na ufikiaji wa MCP. Mazungumzo yake ya AI yanaweza kugeuza `.apkg` iliyoambatishwa kuwa kadi, lakini hali ya kujifunza ya Anki haihamii.
 
 Ikiwa kadi zako zinategemea kuonyeshwa kwa namna ileile kabisa, programu-jalizi au foleni ya sasa ya marudio, kubaki na Anki si kushindwa kuamua. Ndilo jibu.
 
@@ -78,7 +78,7 @@ Kiingizi kinaweza kufaulu swali la kwanza na kushindwa mawili mengine.
 | [Quizlet](https://quizlet.com/) | [Bandika istilahi na ufafanuzi](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content) | Hakuna inayotoka Anki | Aina za madokezo, violezo, vifurushi, muundo wa faili za picha na sauti, na data yote ya ratiba |
 | [Brainscape](https://www.brainscape.com/) | [CSV, TXT, XLSX au ODS](https://brainscape.zendesk.com/hc/en-us/articles/115002369931-How-do-I-import-various-files-to-create-flashcards) | Hakuna inayotoka Anki | Violezo, programu-jalizi, kanuni za faili za picha na sauti, na data yote ya ratiba |
 | [SuperMemo](https://www.supermemo.com/) | [Bandika mistari ya maswali na majibu yenye alama za kutenganisha](https://www.supermemo.com/en/blog/how-to-create-flashcards-for-learning), hadi 100 kwa wakati mmoja | Hakuna inayotoka Anki | Muundo wa mkusanyiko, faili za picha na sauti, violezo na data yote ya ratiba |
-| [Nibomo](https://nibomo.com/) | Kuunda rasimu kwa msaada wa AI kutoka Anki TXT au CSV, kisha kuzikagua | Hakuna inayotoka Anki | Hakuna usaidizi wa `.apkg`; violezo, uhifadhi sahihi wa picha na sauti, ngazi za vifurushi na data yote ya ratiba vinabaki nyuma |
+| [Nibomo](https://nibomo.com/) | [Ambatisha `.apkg` kwenye mazungumzo ya AI](/blog/import-anki-apkg/); AI huhifadhi kadi moja kwa moja. TXT au CSV pia inafanya kazi | Hakuna inayotoka Anki; kila kadi huanza kama mpya | Madokezo ya kujaza mapengo huwa kadi za swali na jibu; violezo, CSS, vifurushi vilivyo ndani ya vingine na data yote ya ratiba vinabaki nyuma |
 
 ## Bei, matumizi bila intaneti, ratiba na umiliki
 
@@ -166,11 +166,11 @@ Kozi zilizopakuliwa zinaweza kusomwa bila intaneti kwenye programu za simu. [Mwo
 
 Chagua SuperMemo ikiwa unataka mbinu yake yenyewe au katalogi ya kozi kiasi cha kukubali kuanza ratiba mpya. Ikiwa kuhifadhi ratiba yako iliyopo ndiyo kipaumbele, inatatua tatizo lisilokuwa lako.
 
-## Nibomo: msimbo chanzo wa mfumo mzima, lakini uingizaji dhaifu zaidi wa Anki
+## Nibomo: msimbo chanzo wa mfumo mzima, na uingizaji wa Anki unaohamisha maudhui pekee
 
 Nibomo inakupa udhibiti wa sehemu nyingi za mfumo. [Hazina yenye leseni ya MIT](https://github.com/kirill-markin/flashcards-open-source-app) ina programu ya wavuti, programu za iOS na Android, mfumo wa nyuma, usawazishaji wa matumizi bila intaneti, miundombinu, [API ya umma](/docs/api/) na [seva ya MCP](/docs/mcp-connector/). Marudio hutumia [FSRS](/docs/architecture/#scheduling). Wavuti, iOS na Android huandika data kwenye kifaa kwanza, huongeza mabadiliko kwenye foleni ya kutuma, kisha husawazisha muunganisho unaporudi.
 
-Hilo haliifanyi ioane na Anki. Nibomo haiwezi kusoma `.apkg` au `.colpkg`. [Uhamishaji wa Anki kupitia TXT](/blog/migrate-from-anki-txt-export-open-source-flashcards/) unaoungwa mkono ni utaratibu wa kuandaa rasimu kwa msaada wa AI na kuzikagua, hasa kwa kadi za maandishi. Hauhifadhi violezo, programu-jalizi, ngazi za vifurushi, tarehe za kurudia, vipindi kati ya marudio au matukio ya marudio. Marejeo ya picha na sauti kwenye faili ya TXT si faili zenyewe, kwa hiyo vifurushi vyenye picha na sauti nyingi vinahitaji kujengwa upya na kuhakikiwa kando.
+Hilo haliifanyi ioane na Anki. Hakuna kiingizi cha mbofyo mmoja, na Maktaba → Ingiza hupokea `.zip` ya Nibomo yenyewe pekee. Badala yake, [unaambatisha `.apkg` kwenye mazungumzo ya AI](/blog/import-anki-apkg/) na kuiomba AI igeuze kifurushi kuwa kadi. Katika jaribio na kifurushi kidogo cha mfano, kadi za msingi, lebo na picha moja vilibaki, madokezo ya msingi yenye kadi ya kinyume yaligawanywa kuwa kadi mbili za upande mmoja, na madokezo ya kujaza mapengo yaliandikwa upya kama kadi za swali na jibu. Vifurushi vidogo vilivyo ndani ya vingine vikawa vifurushi bapa vya Nibomo. Violezo, programu-jalizi, tarehe za kurudia, vipindi kati ya marudio na matukio ya marudio vinabaki nyuma, na faili za `.colpkg` hazipokelewi. Toa kifurushi ukiwa umechagua **Support older Anki versions**; Nibomo huipa AI orodha ya majina ya faili za picha na sauti kwa muundo huo wa zamani pekee. Kifurushi cha jaribio kilikuwa faili ya muundo wa zamani iliyotengenezwa kwa hati (script), si kifurushi kilichotolewa na Anki. Kagua picha baada ya kuingiza. [Uhamishaji wa zamani wa Anki kupitia TXT](/blog/migrate-from-anki-txt-export-open-source-flashcards/) bado unafanya kazi kwa kadi zenye maandishi pekee.
 
 Kifurushi cha Nibomo chenyewe cha `flashcards.zip` pia kina upeo mdogo kuliko nakala rudufu. Kinahamisha kadi, lebo na faili zinazohusiana kati ya maeneo ya kazi ya Nibomo. Hakihamishi historia ya marudio, hali ya FSRS, miundo kamili ya vifurushi, mipangilio ya eneo la kazi au akaunti.
 

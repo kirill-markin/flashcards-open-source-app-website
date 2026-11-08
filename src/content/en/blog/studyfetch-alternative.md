@@ -2,6 +2,7 @@
 title: "StudyFetch Alternative in 2026: StudyFetch vs Anki vs Nibomo"
 description: "Looking for a StudyFetch alternative? Compare StudyFetch, Anki, and Nibomo for AI study tools, spaced review, offline use, privacy, and ownership."
 date: "2026-08-17"
+updated: "2026-11-08"
 image: "/blog/studyfetch-alternative.png"
 keywords:
   - "studyfetch alternative"
@@ -20,7 +21,7 @@ So the useful **StudyFetch alternative** question is not “Which app can make A
 
 > **Disclosure:** I am Kirill Markin, and I build [Nibomo](/), one of the products compared here. Nibomo does not automatically win. StudyFetch has the broadest built-in AI tutoring and practice suite in this comparison. Anki has the most mature offline ecosystem, templates, add-ons, migration formats, and scheduler controls.
 
-**Facts checked:** August 17, 2026. StudyFetch's live consumer Privacy Policy is dated August 13, 2026, and its Terms of Service August 16, 2026. Those pages are separate from enterprise and educational-institution agreements. I could not verify a current numeric StudyFetch web price on an official public page, so this guide does not repeat prices from competitor blogs.
+**Facts checked:** August 17, 2026. StudyFetch's live consumer Privacy Policy is dated August 13, 2026, and its Terms of Service August 16, 2026. Those pages are separate from enterprise and educational-institution agreements. I could not verify a current numeric StudyFetch web price on an official public page, so this guide does not repeat prices from competitor blogs. Nibomo's Anki `.apkg` import details checked November 8, 2026.
 
 ![A canal keeper filters many paper boats into a few sturdy wooden boats that return through a looping channel](/blog/studyfetch-alternative.png)
 
@@ -40,7 +41,7 @@ So the useful **StudyFetch alternative** question is not “Which app can make A
 | Source traceability | A generated card can link to the relevant place in uploaded material | No built-in citation link between a card and its source | No persistent source-citation field on saved cards |
 | Spaced review | Shared Hub for new, due, and upcoming cards; combined sessions; Again/Hard/Good/Easy | FSRS with desired retention, parameters fitted to review history, presets, and workload simulation | Documented FSRS-6 with configurable retention, steps, maximum interval, and fuzz; weights are pinned |
 | Offline boundary | Web and mobile apps exist, but the official pages checked here do not promise a complete offline source-and-review workflow | Desktop and mobile collections are local; AnkiWeb sync is optional | Cards, edits, and reviews write locally first; hosted AI, agent calls, and cloud package transfer need a connection |
-| Import | Quizlet URL and Anki `.apkg`; complex Anki card types are converted to supported formats | Text, Anki packages, and Mnemosyne data | Its own `flashcards.zip` only; other files can become AI drafting inputs, not lossless imports |
+| Import | Quizlet URL and Anki `.apkg`; complex Anki card types are converted to supported formats | Text, Anki packages, and Mnemosyne data | Library import takes only its own `flashcards.zip`; AI chat can turn an attached Anki `.apkg` or other files into cards, but that isn't a lossless import |
 | Export and backup | The official docs checked here do not provide a general flashcard export or full-account backup procedure | Text, `.apkg`, and `.colpkg`; media and scheduling data depend on format and export settings | `flashcards.zip` contains active cards, tags, and related media, not a complete workspace backup |
 | Open source / self-hosting | Proprietary; no official whole-service self-hosting path found | Open-source clients and an official self-hosted sync server, not a full AnkiWeb deployment | MIT-licensed application and AWS CDK infrastructure for a whole-stack production deployment |
 | Price checked Aug. 17, 2026 | Free entry point and paid subscription features; no numeric price repeated here | Desktop, AnkiWeb, and AnkiDroid free; AnkiMobile US$24.99 once in the US | Hosted app free during beta; self-hosted software free, plus infrastructure and provider costs |
@@ -99,7 +100,7 @@ The route out is less clearly documented. I found sharing instructions, but no g
 
 Anki has the strongest portability here. Its [import manual](https://docs.ankiweb.net/importing/intro.html) covers text, packaged Anki decks, and Mnemosyne data. Its [export manual](https://docs.ankiweb.net/exporting.html) separates readable text, single-deck `.apkg`, and whole-collection `.colpkg`. A collection package includes decks and scheduling; deck-package settings decide whether media, presets, and scheduling information travel with it.
 
-Nibomo has the weakest direct competitor migration. It cannot import an Anki `.apkg` or a StudyFetch set. Its direct package path accepts only `flashcards.zip`. Text, CSV, Markdown, document, spreadsheet, image, and PDF files can be attached to online AI chat and used to draft reviewed cards, but that is reconstruction, not import.
+Nibomo has the weakest direct competitor migration. Its Library import accepts only `flashcards.zip`, and it can't import a StudyFetch set. An Anki `.apkg` can be attached to online AI chat, which [reads the package and saves the cards](/blog/import-anki-apkg/): text and tags come through, and so did the one image in the test, but review history doesn't, and cloze notes become question-and-answer cards. Export with **Support older Anki versions**; Nibomo gives the AI the list of media file names only for that older format. The test package was an older-format file built with a script, not an Anki export. Check images after import. Text, CSV, Markdown, document, spreadsheet, image, and PDF files work the same way, as source material for new cards. That is reconstruction, not import.
 
 Its own package has deliberate limits too. The [data-portability documentation](/docs/self-hosting/#data-portability) says it transfers active cards, tags, and related media—not review history, FSRS state, workspace settings, full deck structures, or account data. Treat it as content transfer, not disaster recovery.
 
@@ -176,7 +177,7 @@ You give up StudyFetch's native tutor and source-transformation suite. If you wa
 
 Nibomo fits a new or mostly simple front/back collection when you want AI to help draft cards, FSRS-6 to schedule the checked result, and local-first clients to keep ordinary card work available offline. The [features page](/features/) shows the current product surface.
 
-It is also the option to inspect when whole-stack source access, self-hosting, MCP, or the [Agent API](/docs/api/) matters. The limits are real: a younger ecosystem, no native desktop app, no direct `.apkg` or StudyFetch importer, no personalized FSRS optimizer, and a package that is not a full backup. Hosted AI and agent workflows remain online, while self-hosting creates genuine operator work.
+It is also the option to inspect when whole-stack source access, self-hosting, MCP, or the [Agent API](/docs/api/) matters. The limits are real: a younger ecosystem, no native desktop app, no one-click `.apkg` or StudyFetch importer, no personalized FSRS optimizer, and a package that is not a full backup. Hosted AI and agent workflows remain online, while self-hosting creates genuine operator work.
 
 ## Choose the system around what you want to keep
 

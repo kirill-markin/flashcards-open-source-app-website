@@ -2,7 +2,7 @@
 title: "Alternative Ankiju v letu 2026: kaj ob menjavi ohranite, izgubite in pridobite"
 description: "Primerjajte sedem alternativ Ankiju: ohranitev podatkov pri prenosu, delo brez povezave, razporejanje, cene, dostop do kode in lastno gostovanje. Kdaj je varneje ostati pri Ankiju?"
 date: "2026-03-14"
-updated: "2026-08-28"
+updated: "2026-11-08"
 image: "/blog/best-anki-alternatives.png"
 keywords:
   - "alternative Ankiju"
@@ -20,9 +20,9 @@ Prav te izgube vas lahko pri menjavi Ankija drago stanejo. Preglednejši urejeva
 
 Ta primerjava se začne pri teh omejitvah. Obravnava sedem aplikacij, podobnih Ankiju: kaj lahko vsaka prevzame iz obstoječe zbirke, kaj se po uvozu spremeni in kdaj je varneje ostati pri Ankiju.
 
-> **Razkritje:** Sem Kirill Markin in razvijam [Nibomo](https://nibomo.com/), enega od spodnjih izdelkov. Vključil sem ga zaradi odprte kode, možnosti lastnega gostovanja in dela z agenti. Ni samodejni zmagovalec: nima neposrednega uvoza `.apkg`, pri prenosu iz Ankija se del podatkov izgubi, upravljanje celotnega sistema na lastni infrastrukturi pa zahteva precej dela z infrastrukturo.
+> **Razkritje:** Sem Kirill Markin in razvijam [Nibomo](https://nibomo.com/), enega od spodnjih izdelkov. Vključil sem ga zaradi odprte kode, možnosti lastnega gostovanja in dela z agenti. Ni samodejni zmagovalec: Ankijeve datoteke `.apkg` bere le prek klepeta z UI, pri prenosu iz Ankija se del podatkov izgubi, upravljanje celotnega sistema na lastni infrastrukturi pa zahteva precej dela z infrastrukturo.
 
-**Dejstva preverjena:** 28. avgusta 2026. Cene so javno objavljene ameriške ali navedene lokalne cene, ki so veljale na ta dan. Davki, regija, izobraževalne ponudbe in obračunavanje prek trgovin z aplikacijami lahko znesek spremenijo.
+**Dejstva preverjena:** 28. avgusta 2026. Cene so javno objavljene ameriške ali navedene lokalne cene, ki so veljale na ta dan. Davki, regija, izobraževalne ponudbe in obračunavanje prek trgovin z aplikacijami lahko znesek spremenijo. Podrobnosti o uvozu Ankijevih datotek `.apkg` v Nibomo so bile preverjene 8. novembra 2026.
 
 ![Urar preverja, ali bo utečen mehanizem žepne ure ustrezal drugemu ohišju](/blog/best-anki-alternatives.png)
 
@@ -41,7 +41,7 @@ Pri preostalih štirih gre za ponovno sestavljanje vsebine, ne za prenos celotne
 - **Quizlet** je uporaben za javne zbirke, razrede, igre in vodeno vajo.
 - **Brainscape** skupini ponuja preprostejše ponavljanje z ocenjevanjem prepričanosti v svoje znanje od 1 do 5.
 - **SuperMemo** pomeni prehod na njegovo lastniško metodo in katalog tečajev.
-- **Nibomo** ponuja spletno aplikacijo in namenske odjemalce pod licenco MIT, zaledni sistem na lastni infrastrukturi ter dostop prek API-ja in MCP-ja. Njegov postopek s TXT ali CSV, ki vključuje pregled vsebine, ne ohrani Ankijevega stanja učenja.
+- **Nibomo** ponuja spletno aplikacijo in namenske odjemalce pod licenco MIT, zaledni sistem na lastni infrastrukturi ter dostop prek API-ja in MCP-ja. Njegov klepet z UI lahko priloženo datoteko `.apkg` pretvori v kartice, Ankijevo stanje učenja pa se ne prenese.
 
 Če so vaše kartice odvisne od natančnega prikaza, dodatkov ali trenutne čakalne vrste za ponavljanje, odločitev, da ostanete pri Ankiju, ni neodločnost. Je odgovor.
 
@@ -78,7 +78,7 @@ Uvoznik lahko opravi prvi preizkus, pri drugih dveh pa odpove.
 | [Quizlet](https://quizlet.com/) | [Lepljenje izrazov in definicij](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content) | Ni prenosa iz Ankija | Vrste zapisov, predloge, kompleti, struktura predstavnostnih datotek in vsi podatki o razporejanju |
 | [Brainscape](https://www.brainscape.com/) | [CSV, TXT, XLSX ali ODS](https://brainscape.zendesk.com/hc/en-us/articles/115002369931-How-do-I-import-various-files-to-create-flashcards) | Ni prenosa iz Ankija | Predloge, dodatki, pravila za predstavnostne datoteke in vsi podatki o razporejanju |
 | [SuperMemo](https://www.supermemo.com/) | [Lepljenje vrstic z vprašanji in odgovori, razmejenimi z ločilom](https://www.supermemo.com/en/blog/how-to-create-flashcards-for-learning), največ 100 naenkrat | Ni prenosa iz Ankija | Struktura zbirke, predstavnostne datoteke, predloge in vsi podatki o razporejanju |
-| [Nibomo](https://nibomo.com/) | Priprava osnutkov iz Ankijevega TXT ali CSV s pomočjo umetne inteligence in pregledom vsebine | Ni prenosa iz Ankija | Ni podpore za `.apkg`; predloge, hierarhija kompletov in vsi podatki o razporejanju se ne prenesejo, predstavnostne vsebine pa se ne ohranijo v celoti |
+| [Nibomo](https://nibomo.com/) | [Datoteko `.apkg` priložite v klepetu z UI](/blog/import-anki-apkg/); UI kartice shrani neposredno. Deluje tudi TXT ali CSV | Ni prenosa iz Ankija; vsaka kartica začne kot nova | Zapisi z izpuščenim besedilom postanejo kartice z vprašanjem in odgovorom; predloge, CSS, gnezdenje kompletov in vsi podatki o razporejanju se ne prenesejo |
 
 ## Cena, delo brez povezave, razporejanje in lastništvo
 
@@ -166,11 +166,11 @@ Prenesene tečaje lahko v mobilnih aplikacijah uporabljate brez povezave. [Navod
 
 SuperMemo izberite, če si njegove metode ali kataloga tečajev želite dovolj, da začnete z novim razporedom. Če je najpomembnejše ohraniti obstoječi razpored, rešuje napačno težavo.
 
-## Nibomo: dostop do kode celotnega sistema z najšibkejšim uvozom iz Ankija
+## Nibomo: dostop do kode celotnega sistema in uvoz iz Ankija samo za vsebino
 
 Nibomo omogoča dostop do izvorne kode in nadzor nad velikim delom sistema. [Repozitorij z licenco MIT](https://github.com/kirill-markin/flashcards-open-source-app) vsebuje spletno aplikacijo, odjemalca za iOS in Android, zaledni sistem, sinhronizacijo po delu brez povezave, infrastrukturo, [javni API](/docs/api/) in [strežnik MCP](/docs/mcp-connector/). Ponavljanje uporablja [FSRS](/docs/architecture/#scheduling). Spletna aplikacija ter aplikaciji za iOS in Android najprej zapisujejo lokalno, spremembe dodajo v čakalno vrsto za pošiljanje ter jih sinhronizirajo po ponovni povezavi.
 
-Zaradi tega še ni združljiv z Ankijem. Nibomo ne zna prebrati `.apkg` ali `.colpkg`. Podprti [prenos iz Ankija prek TXT](/blog/migrate-from-anki-txt-export-open-source-flashcards/) je postopek priprave osnutkov s pomočjo umetne inteligence in pregledom vsebine za pretežno besedilne kartice. Ne ohrani predlog, dodatkov, hierarhije kompletov, rokov, intervalov ali posameznih ponavljanj. Sklici na predstavnostne datoteke v TXT niso same datoteke, zato kompleti z veliko takšne vsebine zahtevajo ločeno ponovno sestavljanje in preverjanje.
+Zaradi tega še ni združljiv z Ankijem. Uvoznika z enim klikom ni, Knjižnica → Uvoz pa sprejme le Nibomov lastni `.zip`. Namesto tega [datoteko `.apkg` priložite v klepetu z UI](/blog/import-anki-apkg/) in prosite, naj komplet pretvori v kartice. V preizkusu z majhnim vzorčnim kompletom so se ohranile osnovne kartice, oznake in slika; zapisi z osnovno in obrnjeno kartico so se razdelili na po dve enosmerni kartici, zapisi z izpuščenim besedilom pa so postali kartice z vprašanjem in odgovorom. Podkompleti so postali ploski kompleti v Nibomu. Predloge, dodatki, roki, intervali in posamezna ponavljanja se ne prenesejo, datoteke `.colpkg` pa niso sprejete. Izvozite z možnostjo **Support older Anki versions**; Nibomo posreduje UI seznam imen predstavnostnih datotek samo pri tej starejši obliki. Preizkusni paket je bil datoteka v starejši obliki, ustvarjena s skriptom, in ne izvoz iz Ankija. Po uvozu preverite slike. Starejši [prenos iz Ankija prek TXT](/blog/migrate-from-anki-txt-export-open-source-flashcards/) še vedno deluje za kartice samo z besedilom.
 
 Tudi Nibomov lastni paket `flashcards.zip` vsebuje manj podatkov kot varnostna kopija. Med delovnimi prostori Nibomo prenaša kartice, oznake in povezane predstavnostne datoteke. Ne prenaša zgodovine ponavljanja, stanja FSRS, celotne strukture kompletov, nastavitev delovnega prostora ali računov.
 

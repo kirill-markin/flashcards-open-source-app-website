@@ -3,7 +3,7 @@ title: "Ứng dụng miễn phí thay thế Quizlet tốt nhất năm 2026: So s
 description: "So sánh Anki, Knowt, RemNote, Mochi và Nibomo về học bằng thẻ miễn phí, đồng bộ, học ngoại tuyến, nhập từ Quizlet, giới hạn AI và điều kiện của từng gói 0 USD."
 image: "/blog/free-quizlet-alternative-v2.png"
 date: "2026-06-20"
-updated: "2026-09-10"
+updated: "2026-11-08"
 keywords:
   - "ứng dụng miễn phí thay thế Quizlet"
   - "ứng dụng thay thế Quizlet miễn phí tốt nhất"
@@ -25,7 +25,7 @@ Vì vậy, chỉ dựa vào chữ “miễn phí” thì khó chọn đúng ứn
 
 > **Thông tin minh bạch:** Tôi là Kirill Markin, người phát triển Nibomo, một trong năm ứng dụng được so sánh ở đây. Tôi đưa Nibomo vào vì mã nguồn mở, FSRS và khả năng làm việc với tác nhân AI. Đây không phải lựa chọn tốt nhất cho mọi người: Nibomo không có công cụ nhập trực tiếp từ Quizlet, gói chuyển dữ liệu riêng của ứng dụng không giữ lại trạng thái ôn tập, và dịch vụ do chúng tôi vận hành hiện miễn phí trong giai đoạn beta. Bài so sánh này dựa trên việc đối chiếu bảng giá chính thức, trang trợ giúp và tài liệu trong kho mã nguồn; tôi không khẳng định mình đã trực tiếp sử dụng cả năm ứng dụng trong thời gian dài.
 
-**Thông tin được kiểm chứng ngày:** 10 tháng 9 năm 2026.
+**Thông tin được kiểm chứng ngày:** 10 tháng 9 năm 2026; thông tin về cách Nibomo nhập tệp `.apkg` của Anki được kiểm chứng ngày 8 tháng 11 năm 2026.
 
 ![Một học sinh cầm bộ thẻ mẫu, so sánh năm chiếc thuyền trước khi chọn ứng dụng miễn phí thay thế Quizlet và thử cả việc chuyển dữ liệu vào lẫn xuất ra](/blog/free-quizlet-alternative-v2.png)
 
@@ -114,7 +114,7 @@ Nibomo phục vụ một nhóm nhu cầu chuyên biệt trong danh sách này. D
 
 Cam kết lâu dài hẹp hơn ưu đãi beta. Các chức năng tạo và ôn thẻ cốt lõi sẽ tiếp tục miễn phí. Sau này, mức sử dụng AI cao hơn có thể cần khóa API riêng của bạn từ nhà cung cấp hoặc một lựa chọn trả phí; không có cam kết mọi tính năng của dịch vụ sẽ miễn phí mãi mãi.
 
-Chuyển từ Quizlet cũng là điểm yếu lớn nhất. Nibomo không có công cụ nhập trực tiếp từ Quizlet, CSV, TSV, Anki hoặc văn bản nói chung. Văn bản Quizlet đủ điều kiện xuất có thể làm tài liệu nguồn để tạo lại thẻ thủ công hoặc tạo bản nháp bằng AI rồi kiểm tra, nhưng đó không phải cách nhập bảo toàn toàn bộ dữ liệu. [Quy trình xuất từ Quizlet](/vi/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/) giải thích cách chỉnh sửa dữ liệu mà không hứa hẹn có thể khôi phục tệp đa phương tiện và trạng thái học đã bị thiếu.
+Chuyển từ Quizlet cũng là điểm yếu lớn nhất. Nibomo không có công cụ nhập bằng một cú nhấp từ Quizlet, CSV, TSV, Anki hoặc văn bản nói chung. Bạn có thể đính kèm tệp `.apkg` của Anki trong trò chuyện AI để AI [biến nó thành thẻ mới](/blog/import-anki-apkg/). Văn bản Quizlet đủ điều kiện xuất có thể làm tài liệu nguồn để tạo lại thẻ thủ công hoặc tạo bản nháp bằng AI rồi kiểm tra, nhưng đó không phải cách nhập bảo toàn toàn bộ dữ liệu. [Quy trình xuất từ Quizlet](/vi/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/) giải thích cách chỉnh sửa dữ liệu mà không hứa hẹn có thể khôi phục tệp đa phương tiện và trạng thái học đã bị thiếu.
 
 Gói `flashcards.zip` riêng của Nibomo chuyển thẻ, nhãn và tệp đa phương tiện liên quan giữa các không gian làm việc Nibomo. Gói này không chuyển lịch sử ôn tập, trạng thái bộ lập lịch FSRS, cài đặt, cấu trúc bộ thẻ đầy đủ hay dữ liệu tài khoản. Tự triển khai cho bạn phần mềm theo giấy phép MIT và quyền kiểm soát việc triển khai, nhưng phương án triển khai cho môi trường vận hành chính thức trong tài liệu sử dụng AWS và vẫn phát sinh chi phí hạ tầng, nhà cung cấp, bảo trì, sao lưu và nhân lực vận hành. [Hướng dẫn tự triển khai](/docs/self-hosting/) nêu rõ ranh giới đó.
 

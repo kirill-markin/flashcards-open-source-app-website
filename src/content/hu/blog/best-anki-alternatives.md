@@ -2,7 +2,7 @@
 title: "Anki-alternatívák 2026-ban: mit őrzöl meg, mit veszítesz és mit nyersz a váltással?"
 description: "Hét Anki-alternatíva összehasonlítása: adatmegőrzés költözéskor, offline használat, ütemezés, ár, forráskód és saját üzemeltetés. Mikor biztonságosabb az Ankinál maradni?"
 date: "2026-03-14"
-updated: "2026-08-28"
+updated: "2026-11-08"
 image: "/blog/best-anki-alternatives.png"
 keywords:
   - "Anki-alternatívák"
@@ -20,9 +20,9 @@ Ez az Anki-alternatívák összehasonlításának költséges része. A letisztu
 
 Ez az összehasonlítás ebből indul ki. Hét, az Ankihoz hasonló alkalmazást vesz sorra: melyik mit tud átvenni egy meglévő gyűjteményből, mi változik az import után, és mikor biztonságosabb az Ankinál maradni.
 
-> **Szerzői érdekeltség:** Kirill Markin vagyok, és az alább bemutatott termékek egyikét, a [Nibomót](https://nibomo.com/) fejlesztem. A nyílt forráskódja, a saját üzemeltetés lehetősége és az AI-ügynökökkel használható munkafolyamatai miatt vettem fel a listára. Nem tekintem alapértelmezett győztesnek: nincs közvetlen `.apkg`-importálója, az Ankiról való költözés adatvesztéssel jár, a saját telepítés fenntartása pedig komoly infrastruktúrás munkával jár.
+> **Szerzői érdekeltség:** Kirill Markin vagyok, és az alább bemutatott termékek egyikét, a [Nibomót](https://nibomo.com/) fejlesztem. A nyílt forráskódja, a saját üzemeltetés lehetősége és az AI-ügynökökkel használható munkafolyamatai miatt vettem fel a listára. Nem tekintem alapértelmezett győztesnek: az Anki `.apkg`-fájljait csak az AI-chaten keresztül olvassa be, az Ankiról való költözés adatvesztéssel jár, a saját telepítés fenntartása pedig komoly infrastruktúrás munkával jár.
 
-**A tények ellenőrzésének dátuma:** 2026. augusztus 28. Az árak az ezen a napon elérhető nyilvános amerikai vagy feltüntetett helyi árak. Az adók, a régiók, az oktatási kedvezmények és az alkalmazásbolti számlázás módosíthatják az összeget.
+**A tények ellenőrzésének dátuma:** 2026. augusztus 28. Az árak az ezen a napon elérhető nyilvános amerikai vagy feltüntetett helyi árak. Az adók, a régiók, az oktatási kedvezmények és az alkalmazásbolti számlázás módosíthatják az összeget. Az Anki `.apkg`-fájlok Nibomóba importálásának részleteit 2026. november 8-án ellenőriztem.
 
 ![Egy órás azt ellenőrzi, hogy egy régi, bevált zsebóra szerkezete beleillik-e egy másik tokba](/blog/best-anki-alternatives.png)
 
@@ -41,7 +41,7 @@ A másik négy alkalmazásnál a tartalmat építed újra, nem a gyűjteményt k
 - A **Quizlet** nyilvános kártyakészletekhez, osztályokhoz, játékokhoz és irányított gyakorláshoz hasznos.
 - A **Brainscape** egyszerűbb ismétlési folyamatot kínál a csoportoknak: a tanulók 1-től 5-ig értékelik, mennyire biztosak a válaszukban.
 - A **SuperMemo** esetében a szolgáltatás saját módszerére és tanfolyamkatalógusára váltasz.
-- A **Nibomo** MIT-licencű webes és natív klienseket, saját üzemeltetésű backendet, API- és MCP-hozzáférést kínál. Az ellenőrzéssel kiegészített TXT- vagy CSV-alapú munkafolyamata nem őrzi meg az Anki tanulási állapotát.
+- A **Nibomo** MIT-licencű webes és natív klienseket, saját üzemeltetésű backendet, API- és MCP-hozzáférést kínál. Az AI-chatje kártyákká tudja alakítani a csatolt `.apkg`-fájlt, de az Anki tanulási állapota nem jön át vele.
 
 Ha a kártyáid a pontos megjelenítésre, bővítményekre vagy a jelenlegi ismétlési sorra támaszkodnak, az Ankinál maradni nem határozatlanság. Ez a válasz.
 
@@ -78,7 +78,7 @@ Egy importáló az első feltételt teljesítheti úgy is, hogy a másik kettőn
 | [Quizlet](https://quizlet.com/) | [Kifejezések és definíciók beillesztése](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content) | Nem kerül át tanulási állapot az Ankiból | Jegyzettípusok, sablonok, paklik, médiaszerkezet és minden ütemezési adat |
 | [Brainscape](https://www.brainscape.com/) | [CSV, TXT, XLSX vagy ODS](https://brainscape.zendesk.com/hc/en-us/articles/115002369931-How-do-I-import-various-files-to-create-flashcards) | Nem kerül át tanulási állapot az Ankiból | Sablonok, bővítmények, médiaszabályok és minden ütemezési adat |
 | [SuperMemo](https://www.supermemo.com/) | [Elválasztójelekkel tagolt kérdés-válasz sorok beillesztése](https://www.supermemo.com/en/blog/how-to-create-flashcards-for-learning), egyszerre legfeljebb 100 | Nem kerül át tanulási állapot az Ankiból | A gyűjtemény szerkezete, média, sablonok és minden ütemezési adat |
-| [Nibomo](https://nibomo.com/) | Ellenőrzött, AI-segítséggel készülő kártyavázlatok Anki TXT- vagy CSV-exportból | Nem kerül át tanulási állapot az Ankiból | Nincs `.apkg`-támogatás; a sablonok, a média hű átvitele, a paklihierarchia és minden ütemezési adat elvész |
+| [Nibomo](https://nibomo.com/) | [Csatold az `.apkg`-t az AI-chatben](/blog/import-anki-apkg/); az AI közvetlenül menti a kártyákat. TXT vagy CSV is működik | Nem kerül át tanulási állapot az Ankiból; minden kártya újként indul | A szövegkiegészítéses jegyzetekből kérdés–válasz kártyák lesznek; a sablonok, a CSS, a paklik egymásba ágyazása és minden ütemezési adat elvész |
 
 ## Ár, offline használat, ütemezés és saját kézben tartott rendszer
 
@@ -166,11 +166,11 @@ A letöltött tanfolyamok a mobilalkalmazásokban offline is tanulhatók. Az [of
 
 Akkor válaszd a SuperMemót, ha annyira szeretnéd a saját módszerét vagy tanfolyamkatalógusát, hogy megérje új ütemezést kezdened. Ha a meglévő ütemezés megőrzése az elsődleges, nem a te problémádat oldja meg.
 
-## Nibomo: a teljes rendszer forráskódja, a leggyengébb Anki-importtal
+## Nibomo: a teljes rendszer forráskódja, csak a tartalmat átvevő Anki-importtal
 
 A Nibomónál a rendszer nagy részét saját kézben tarthatod. Az [MIT-licencű repó](https://github.com/kirill-markin/flashcards-open-source-app) tartalmazza a webalkalmazást, az iOS- és Android-klienseket, a backendet, az offline szinkronizálást, az infrastruktúrát, a [nyilvános API-t](/docs/api/) és az [MCP-szervert](/docs/mcp-connector/). Az ismétléseket [FSRS](/docs/architecture/#scheduling) ütemezi. A webes, iOS- és Android-kliensek először helyben írják az adatokat, a változtatásokat egy kimenő sorba teszik, majd újracsatlakozás után szinkronizálnak.
 
-Ettől még nem lesz Anki-kompatibilis. A Nibomo nem tud `.apkg`- vagy `.colpkg`-fájlokat olvasni. A támogatott [Anki TXT-költözés](/blog/migrate-from-anki-txt-export-open-source-flashcards/) ellenőrzéssel kiegészített, AI-segítséggel végzett vázlatkészítési folyamat, főként szöveges kártyákhoz. Nem őrzi meg a sablonokat, bővítményeket, paklihierarchiát, esedékességeket, időközöket vagy ismétlési eseményeket. A TXT-fájl médiahivatkozásai nem médiafájlok, ezért a sok médiát tartalmazó paklikat külön újra kell építeni és ellenőrizni.
+Ettől még nem lesz Anki-kompatibilis. Nincs egykattintásos importáló, a Könyvtár → Importálás pedig csak a Nibomo saját `.zip`-csomagját fogadja. Ehelyett [csatolj egy `.apkg`-t az AI-chatben](/blog/import-anki-apkg/), és kérd meg, hogy alakítsa kártyákká a paklit. Egy kis mintapaklival végzett teszten az AI megtartotta az alapkártyákat, a címkéket és egy képet, az alap- és fordított jegyzeteket két egyirányú kártyára bontotta, a szövegkiegészítéses jegyzeteket pedig kérdés–válasz kártyákká írta át. Az alpaklikból egyszintű Nibomo-paklik lettek. A sablonok, bővítmények, esedékességek, időközök és ismétlési események elvesznek, a `.colpkg`-fájlokat pedig nem fogadja el. Exportálj a **Support older Anki versions** beállítással; a Nibomo csak ennél a régebbi formátumnál adja át az AI-nak a médiafájlok neveinek listáját. A tesztcsomag szkripttel készült, régebbi formátumú fájl volt, nem Anki-export. Importálás után ellenőrizd a képeket. A régebbi [Anki TXT-költözés](/blog/migrate-from-anki-txt-export-open-source-flashcards/) a csak szöveget tartalmazó kártyáknál továbbra is működik.
 
 A Nibomo saját `flashcards.zip` csomagja is szűkebb körű egy biztonsági mentésnél. Kártyákat, címkéket és kapcsolódó médiát mozgat Nibomo-munkaterületek között. Nem viszi át az ismétlési előzményeket, az FSRS állapotát, a teljes pakliszerkezeteket, a munkaterület beállításait vagy a fiókokat.
 

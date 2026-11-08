@@ -30,7 +30,7 @@ Nibomo programėlėje yra valdiklis „Kartojimas“, skirtas iPhone, iPad, Mac 
 
 Kai kartoti nėra ko, valdiklyje rodoma „Viskas pakartota“ ir kada laikas kartoti kitą kortelę. Atsakymo jis niekada nerodo. Bakstelėkite valdiklį, kad atidarytumėte skiltį „Kartojimas“; vidutinis arba didelis valdiklis joje iškart atveria rodomą kortelę. Valdikliai nemokami visiems, įskaitant svečius.
 
-Norėdami pridėti valdiklį, atidarykite įrenginio valdiklių galeriją, pasirinkite Nibomo ir išsirinkite dydį.
+Norėdami pridėti valdiklį iPhone, iPad ar Mac įrenginyje, atidarykite valdiklių galeriją, pasirinkite Nibomo ir išsirinkite dydį. Android įrenginyje pridėkite Nibomo valdiklį iš valdiklių sąrašo, tada pakeiskite jo dydį; išdėstymas prisitaiko prie dydžio.
 
 ## Talpinama žiniatinklio programėlė
 

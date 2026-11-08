@@ -30,7 +30,7 @@ Aplikace Nibomo přidává na iPhone, iPad, Mac a Android widget Opakování. Na
 
 Když není nic na řadě, widget ukáže „Vše hotovo“ a kdy přijde na řadu další kartička. Odpověď nikdy neukazuje. Klepnutím na widget otevřete Opakování; střední nebo velký widget otevře Opakování přímo na kartičce, kterou zobrazuje. Widgety jsou zdarma pro všechny, včetně hostů.
 
-Widget přidáte tak, že na svém zařízení otevřete galerii widgetů, vyberete Nibomo a zvolíte velikost.
+Na iPhonu, iPadu nebo Macu widget přidáte tak, že otevřete galerii widgetů, vyberete Nibomo a zvolíte velikost. Na Androidu přidejte widget Nibomo ze seznamu widgetů a pak změňte jeho velikost; rozvržení se velikosti přizpůsobí.
 
 ## Hostovaná webová aplikace
 

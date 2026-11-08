@@ -3,7 +3,7 @@ title: "Parimad tasuta Quizleti alternatiivid 2026. aastal: 5 rakenduse võrdlus
 description: "Võrdle Ankit, Knowti, RemNote’i, Mochit ja Nibomot: tasuta õpikaartidega õppimine, sünkroonimine, võrguühenduseta kasutus, Quizleti import, tehisintellekti piirangud ja tasuta pakettide konksud."
 image: "/blog/free-quizlet-alternative-v2.png"
 date: "2026-06-20"
-updated: "2026-09-10"
+updated: "2026-11-08"
 keywords:
   - "tasuta Quizleti alternatiivid"
   - "parim tasuta Quizleti alternatiiv"
@@ -25,7 +25,7 @@ Parim tasuta Quizleti alternatiiv on see, mille konks sinu tegelikku õppimisrut
 
 > **Seotuse avalikustus:** Olen Kirill Markin ja arendan Nibomot, üht viiest siin võrreldavast rakendusest. Kaasasin selle avatud lähtekoodi, FSRS-i ja agendipõhiste töövoogude tõttu. See ei ole kõigile parim valik: otsest Quizleti importijat ei ole, rakenduse enda ülekandepakett ei säilita kordamisandmeid ja majutatud rakenduse praegune tasuta pakkumine kehtib beetaperioodil. Võrdlus põhineb ametlike hinnakirjade, abilehtede ja lähtekoodihoidlate dokumentatsiooni kontrollimisel. Ma ei väida, et oleksin kõiki viit rakendust pikalt ise katsetanud.
 
-**Faktid kontrollitud:** 10. septembril 2026.
+**Faktid kontrollitud:** 10. septembril 2026; Nibomo Anki `.apkg` impordi üksikasjad 8. novembril 2026.
 
 ![Õppija hoiab näidiskomplekti ja võrdleb viit paati, enne kui valib tasuta Quizleti alternatiivi ning katsetab andmete sisse- ja väljaviimist](/blog/free-quizlet-alternative-v2.png)
 
@@ -114,7 +114,7 @@ Nibomo on selles loendis kitsamale vajadusele keskenduv valik. Majutatud rakendu
 
 Pikaajaline lubadus on beetapakkumisest kitsam. Kaartide loomise ja kordamise põhifunktsioonid jäävad tasuta. Suurem tehisintellekti kasutus võib hiljem nõuda sinu enda teenusepakkuja võtit või tasulist võimalust. Lubadust, et kõik majutatud funktsioonid jäävad igaveseks tasuta, ei ole.
 
-Quizletist kolimine on samuti selle valiku nõrgim külg. Nibomol pole otsest Quizleti, CSV, TSV, Anki ega üldist tekstiimportijat. Lubatud Quizleti tekstieksport võib olla lähtematerjal kaartide käsitsi taasloomiseks või kontrollitud tehisintellektimustanditeks, kuid see ei ole kadudeta import. [Quizleti ekspordi töövoog](/et/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/) selgitab teksti korrastamist, väitmata, et puuduva meedia ja kordamisandmed saaks taastada.
+Quizletist kolimine on samuti selle valiku nõrgim külg. Nibomol pole ühe klikiga Quizleti, CSV, TSV, Anki ega üldist tekstiimportijat. Anki `.apkg` faili saab manustada AI-vestlusesse, mis [muudab selle uuteks kaartideks](/blog/import-anki-apkg/). Lubatud Quizleti tekstieksport võib olla lähtematerjal kaartide käsitsi taasloomiseks või kontrollitud tehisintellektimustanditeks, kuid see ei ole kadudeta import. [Quizleti ekspordi töövoog](/et/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/) selgitab teksti korrastamist, väitmata, et puuduva meedia ja kordamisandmed saaks taastada.
 
 Nibomo oma `flashcards.zip` pakett kannab Nibomo töökeskkondade vahel üle kaardid, sildid ja seotud meedia. See ei kanna üle kordamisajalugu, FSRS-ajastaja olekut, sätteid, kaardipakkide täielikke struktuure ega kontoandmeid. Ise majutades saad MIT-litsentsiga tarkvara ja kontrolli paigalduse üle, kuid dokumenteeritud tootmiskeskkonna lahendus kasutab AWS-i ning tekitab endiselt taristu-, teenusepakkuja-, hooldus-, varundus- ja halduskulusid. [Ise majutamise juhend](/docs/self-hosting/) selgitab neid piire.
 

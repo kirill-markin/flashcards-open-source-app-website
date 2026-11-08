@@ -30,7 +30,7 @@ Aplikasi Nibomo menambahkan widget Pengulangan ke iPhone, iPad, Mac, dan Android
 
 Saat tidak ada kartu yang jatuh tempo, widget menampilkan “Semua selesai” dan kapan kartu berikutnya jatuh tempo. Widget tidak pernah menampilkan jawaban. Ketuk widget untuk membuka Pengulangan; widget Sedang atau Besar membuka Pengulangan pada kartu yang ditampilkannya. Widget gratis untuk semua orang, termasuk tamu.
 
-Untuk menambahkannya, buka galeri widget di perangkat Anda, pilih Nibomo, lalu pilih ukuran.
+Untuk menambahkannya di iPhone, iPad, atau Mac, buka galeri widget, pilih Nibomo, lalu pilih ukuran. Di Android, tambahkan widget Nibomo dari daftar widget, lalu ubah ukurannya; tata letaknya menyesuaikan ukuran.
 
 ## Aplikasi Web Terkelola
 

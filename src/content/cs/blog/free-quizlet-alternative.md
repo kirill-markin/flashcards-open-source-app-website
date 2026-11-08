@@ -3,7 +3,7 @@ title: "Nejlepší bezplatné alternativy Quizletu v roce 2026: srovnání 5 apl
 description: "Srovnání Anki, Knowt, RemNote, Mochi a Nibomo: učení s kartičkami zdarma, synchronizace, offline režim, import z Quizletu, limity AI a háčky bezplatných tarifů."
 image: "/blog/free-quizlet-alternative-v2.png"
 date: "2026-06-20"
-updated: "2026-09-10"
+updated: "2026-11-08"
 keywords:
   - "bezplatné alternativy Quizletu"
   - "nejlepší alternativa Quizletu zdarma"
@@ -25,7 +25,7 @@ Nejlepší bezplatná alternativa Quizletu je ta, jejíž omezení vám nenaruš
 
 > **Prohlášení autora:** Jmenuji se Kirill Markin a vyvíjím Nibomo, jednu z pěti zde srovnávaných aplikací. Zařadil jsem ji kvůli otevřenému zdrojovému kódu, FSRS a možnostem práce s AI agenty. Není univerzálním vítězem: nemá přímý import z Quizletu, její nativní balíček pro přenos dat nezachovává stav opakování a současná bezplatná nabídka hostované aplikace platí během bety. Toto srovnání vychází z ověřených údajů v oficiálních cenících, nápovědě a dokumentaci repozitářů. Netvrdím, že jsem všech pět aplikací dlouhodobě osobně testoval.
 
-**Údaje ověřeny:** 10. září 2026.
+**Údaje ověřeny:** 10. září 2026; údaje o importu `.apkg` z Anki do Nibomo 8. listopadu 2026.
 
 ![Student se vzorovou sadou kartiček porovnává pět lodí, než si vybere bezplatnou alternativu Quizletu a otestuje přenos dat tam i zpět](/blog/free-quizlet-alternative-v2.png)
 
@@ -114,7 +114,7 @@ Nibomo v tomto výběru osloví užší skupinu uživatelů. Hostovaná aplikace
 
 Dlouhodobý příslib je užší než nabídka bety. Základní vytváření a opakování kartiček zůstane zdarma. Vyšší využití AI může později vyžadovat vlastní klíč poskytovatele nebo placenou možnost a neexistuje příslib, že všechny hostované funkce zůstanou zdarma navždy.
 
-Přenos z Quizletu je zároveň nejslabší stránkou této volby. Nibomo nemá přímý import z Quizletu, CSV, TSV, Anki ani prostého textu obecně. Text, který Quizlet dovoluje exportovat, může posloužit jako podklad pro ruční vytvoření kartiček nebo pro návrhy AI, které následně zkontrolujete. Nejde ale o bezztrátový import. [Postup exportu z Quizletu](/cs/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/) vysvětluje úpravu podkladů, aniž by předstíral, že lze obnovit chybějící média a stav učení.
+Přenos z Quizletu je zároveň nejslabší stránkou této volby. Nibomo nemá import na jedno kliknutí z Quizletu, CSV, TSV, Anki ani prostého textu obecně. Soubor `.apkg` z Anki lze přiložit do chatu s AI, který [z něj vytvoří nové kartičky](/blog/import-anki-apkg/). Text, který Quizlet dovoluje exportovat, může posloužit jako podklad pro ruční vytvoření kartiček nebo pro návrhy AI, které následně zkontrolujete. Nejde ale o bezztrátový import. [Postup exportu z Quizletu](/cs/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/) vysvětluje úpravu podkladů, aniž by předstíral, že lze obnovit chybějící média a stav učení.
 
 Nativní balíček `flashcards.zip` přenáší mezi pracovními prostory Nibomo kartičky, štítky a související média. Nepřenáší historii opakování, stav plánovače FSRS, nastavení, úplné struktury balíčků ani data účtu. Vlastní hosting vám dává software pod licencí MIT a kontrolu nad nasazením, ale zdokumentovaný postup pro produkční provoz využívá AWS a stále přináší náklady na infrastrukturu, poskytovatele, údržbu, zálohování a správu. [Průvodce vlastním hostingem](/docs/self-hosting/) tuto hranici podrobně vysvětluje.
 

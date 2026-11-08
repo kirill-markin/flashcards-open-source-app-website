@@ -2,7 +2,7 @@
 title: "Alternatywy dla Anki w 2026 roku: co zachowasz, stracisz i zyskasz po zmianie"
 description: "Porównaj siedem alternatyw dla Anki pod kątem wierności migracji, pracy offline, planowania powtórek, cen, dostępu do kodu i własnego hostingu. Sprawdź, kiedy bezpieczniej zostać przy Anki."
 date: "2026-03-14"
-updated: "2026-08-28"
+updated: "2026-11-08"
 image: "/blog/best-anki-alternatives.png"
 keywords:
   - "alternatywy dla Anki"
@@ -20,9 +20,9 @@ To właśnie tu zmiana Anki na inną aplikację może sporo kosztować. Wygodnie
 
 Od tych ograniczeń zaczyna się to porównanie. Obejmuje siedem aplikacji podobnych do Anki: co każda potrafi przejąć z istniejącej kolekcji, co zmienia się po imporcie i kiedy bezpieczniejszym wyborem jest pozostanie przy Anki.
 
-> **Informacja od autora:** Nazywam się Kirill Markin i tworzę [Nibomo](https://nibomo.com/), jeden z opisanych poniżej produktów. Uwzględniłem go ze względu na otwarty kod, możliwość samodzielnego hostowania i pracę z agentami AI. Nie wygrywa z założenia: nie ma bezpośredniego importera `.apkg`, migracja z Anki wiąże się z utratą danych, a utrzymywanie własnego wdrożenia wymaga rzeczywistej pracy nad infrastrukturą.
+> **Informacja od autora:** Nazywam się Kirill Markin i tworzę [Nibomo](https://nibomo.com/), jeden z opisanych poniżej produktów. Uwzględniłem go ze względu na otwarty kod, możliwość samodzielnego hostowania i pracę z agentami AI. Nie wygrywa z założenia: pliki Anki `.apkg` odczytuje tylko przez czat AI, migracja z Anki wiąże się z utratą danych, a utrzymywanie własnego wdrożenia wymaga rzeczywistej pracy nad infrastrukturą.
 
-**Informacje sprawdzone:** 28 sierpnia 2026 r. Ceny to publicznie dostępne ceny amerykańskie lub podane ceny lokalne z tego dnia. Podatki, region, oferty edukacyjne i rozliczenia przez sklepy z aplikacjami mogą wpłynąć na kwotę.
+**Informacje sprawdzone:** 28 sierpnia 2026 r. Ceny to publicznie dostępne ceny amerykańskie lub podane ceny lokalne z tego dnia. Podatki, region, oferty edukacyjne i rozliczenia przez sklepy z aplikacjami mogą wpłynąć na kwotę. Szczegóły importu plików Anki `.apkg` w Nibomo sprawdzone 8 listopada 2026 r.
 
 ![Zegarmistrz sprawdza, czy dopracowany mechanizm zegarka kieszonkowego zmieści się w innej kopercie](/blog/best-anki-alternatives.png)
 
@@ -41,7 +41,7 @@ Pozostałe cztery aplikacje pozwalają odtworzyć treść, a nie przenieść kol
 - **Quizlet** przydaje się do publicznych zestawów, klas, gier i ćwiczeń, przez które prowadzi aplikacja.
 - **Brainscape** daje grupie prostszy sposób powtarzania z oceną pewności odpowiedzi od 1 do 5.
 - **SuperMemo** oznacza przejście na jego autorską metodę i katalog kursów.
-- **Nibomo** udostępnia aplikację webową i aplikacje natywne na licencji MIT, samodzielnie hostowany backend oraz dostęp przez API i MCP. Przygotowanie kart z TXT lub CSV, z kontrolą wyniku, nie zachowuje stanu nauki z Anki.
+- **Nibomo** udostępnia aplikację webową i aplikacje natywne na licencji MIT, samodzielnie hostowany backend oraz dostęp przez API i MCP. Jego czat AI może zamienić załączony plik `.apkg` w karty, ale stan nauki z Anki nie zostaje przeniesiony.
 
 Jeżeli twoje karty wymagają dokładnie określonego wyglądu, dodatków lub obecnej kolejki powtórek, pozostanie przy Anki jest konkretną odpowiedzią.
 
@@ -78,7 +78,7 @@ Importer może zdać pierwszy sprawdzian i oblać dwa pozostałe.
 | [Quizlet](https://quizlet.com/) | [Wklejenie pojęć i definicji](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content) | Nic z Anki | Typy notatek, szablony, talie, struktura multimediów i wszystkie dane harmonogramu |
 | [Brainscape](https://www.brainscape.com/) | [CSV, TXT, XLSX lub ODS](https://brainscape.zendesk.com/hc/en-us/articles/115002369931-How-do-I-import-various-files-to-create-flashcards) | Nic z Anki | Szablony, dodatki, reguły obsługi multimediów i wszystkie dane harmonogramu |
 | [SuperMemo](https://www.supermemo.com/) | [Wklejenie wierszy pytań i odpowiedzi rozdzielonych separatorami](https://www.supermemo.com/en/blog/how-to-create-flashcards-for-learning), do 100 naraz | Nic z Anki | Struktura kolekcji, multimedia, szablony i wszystkie dane harmonogramu |
-| [Nibomo](https://nibomo.com/) | Przygotowanie kart z pliku TXT lub CSV z Anki przy pomocy AI, z kontrolą wyniku | Nic z Anki | Brak obsługi `.apkg`; szablony, wierne odwzorowanie multimediów, hierarchia talii i wszystkie dane harmonogramu nie są przenoszone |
+| [Nibomo](https://nibomo.com/) | [Załącz plik `.apkg` w czacie AI](/blog/import-anki-apkg/); AI od razu zapisuje karty. Działa też TXT lub CSV | Nic z Anki; każda karta zaczyna jako nowa | Notatki z lukami stają się kartami pytanie–odpowiedź; szablony, CSS, hierarchia talii i wszystkie dane harmonogramu nie są przenoszone |
 
 ## Cena, praca offline, powtórki i kontrola nad aplikacją
 
@@ -166,11 +166,11 @@ Z pobranych kursów można uczyć się offline w aplikacjach mobilnych. [Poradni
 
 Wybierz SuperMemo, jeśli jego metoda lub katalog kursów są dla ciebie na tyle ważne, że chcesz zacząć nowy harmonogram. Jeśli priorytetem jest zachowanie obecnego, ta aplikacja rozwiązuje inny problem.
 
-## Nibomo: dostęp do kodu wszystkich komponentów, ale najsłabszy import z Anki
+## Nibomo: dostęp do kodu wszystkich komponentów, ale import z Anki obejmuje tylko treść
 
 Nibomo daje szeroką kontrolę nad oprogramowaniem. [Repozytorium na licencji MIT](https://github.com/kirill-markin/flashcards-open-source-app) zawiera aplikację webową, klientów na iOS i Androida, backend, synchronizację offline, infrastrukturę, [publiczne API](/docs/api/) i [serwer MCP](/docs/mcp-connector/). Powtórki korzystają z [FSRS](/docs/architecture/#scheduling). Wersje webowa, na iOS i na Androida najpierw zapisują dane lokalnie, dodają zmiany do kolejki wysyłania i synchronizują je po odzyskaniu połączenia.
 
-Nie zapewnia to zgodności z Anki. Nibomo nie odczytuje `.apkg` ani `.colpkg`. Wspierana [migracja z Anki przez TXT](/blog/migrate-from-anki-txt-export-open-source-flashcards/) polega na przygotowaniu głównie tekstowych kart przy pomocy AI i sprawdzeniu wyniku. Nie zachowuje szablonów, dodatków, hierarchii talii, terminów, odstępów między powtórkami ani zapisów poszczególnych powtórek. Odwołania do multimediów w pliku TXT nie są plikami multimedialnymi, więc talie intensywnie z nich korzystające wymagają osobnego odtworzenia i sprawdzenia.
+Nie zapewnia to zgodności z Anki. Nie ma importera działającego jednym kliknięciem, a Biblioteka → Import przyjmuje tylko własny plik `.zip` Nibomo. Zamiast tego [załączasz plik `.apkg` w czacie AI](/blog/import-anki-apkg/) i prosisz o zamianę talii na karty. W teście z małą przykładową talią zachowały się podstawowe karty, tagi i obraz, notatki typu podstawowa i odwrócona zostały podzielone na dwie jednokierunkowe karty, a notatki z lukami przepisano jako karty pytanie–odpowiedź. Podtalie stały się płaskimi taliami Nibomo. Szablony, dodatki, terminy, odstępy między powtórkami i zapisy poszczególnych powtórek nie są przenoszone, a pliki `.colpkg` nie są akceptowane. Eksportuj z opcją **Support older Anki versions**; tylko dla tego starszego formatu Nibomo przekazuje AI listę nazw plików multimedialnych. Pakiet testowy był plikiem w starszym formacie utworzonym skryptem, a nie eksportem z Anki. Po imporcie sprawdź obrazy. Starsza [migracja z Anki przez TXT](/blog/migrate-from-anki-txt-export-open-source-flashcards/) nadal działa w przypadku kart zawierających tylko tekst.
 
 Własny pakiet `flashcards.zip` Nibomo także ma węższy zakres niż kopia zapasowa. Przenosi karty, tagi i powiązane multimedia między obszarami roboczymi Nibomo. Nie przenosi historii powtórek, stanu FSRS, pełnych struktur talii, ustawień obszaru roboczego ani kont.
 

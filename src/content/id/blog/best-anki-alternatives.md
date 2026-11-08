@@ -2,7 +2,7 @@
 title: "Alternatif Anki di 2026: Apa yang Bertahan, Hilang, dan Anda Dapatkan Saat Beralih"
 description: "Bandingkan tujuh alternatif Anki berdasarkan keutuhan data setelah migrasi, penggunaan offline, penjadwalan, harga, akses kode sumber, dan hosting mandiri, serta kapan lebih aman tetap memakai Anki."
 date: "2026-03-14"
-updated: "2026-08-28"
+updated: "2026-11-08"
 image: "/blog/best-anki-alternatives.png"
 keywords:
   - "alternatif Anki"
@@ -20,9 +20,9 @@ Di situlah biaya beralih dari Anki sering tersembunyi. Editor yang lebih rapi at
 
 Perbandingan ini dimulai dari apa yang bisa dan tidak bisa dipertahankan saat migrasi. Ada tujuh aplikasi seperti Anki yang dibahas: apa yang bisa dibawa masing-masing dari koleksi lama, apa yang berubah setelah impor, dan kapan tetap memakai Anki menjadi keputusan yang lebih aman.
 
-> **Keterbukaan penulis:** Saya Kirill Markin, pembuat [Nibomo](https://nibomo.com/), salah satu produk di bawah ini. Saya menyertakannya karena kode sumbernya terbuka, bisa dihosting sendiri, dan mendukung alur kerja dengan agen. Nibomo bukan otomatis pilihan terbaik: tidak ada pengimpor `.apkg` langsung, migrasi dari Anki menghilangkan sebagian data, dan menjalankan seluruh sistem di infrastruktur sendiri membutuhkan pengelolaan yang serius.
+> **Keterbukaan penulis:** Saya Kirill Markin, pembuat [Nibomo](https://nibomo.com/), salah satu produk di bawah ini. Saya menyertakannya karena kode sumbernya terbuka, bisa dihosting sendiri, dan mendukung alur kerja dengan agen. Nibomo bukan otomatis pilihan terbaik: berkas `.apkg` Anki hanya bisa dibaca melalui obrolan AI, migrasi dari Anki menghilangkan sebagian data, dan menjalankan seluruh sistem di infrastruktur sendiri membutuhkan pengelolaan yang serius.
 
-**Fakta diperiksa:** 28 Agustus 2026. Harga yang dicantumkan adalah harga untuk umum di AS atau harga lokal yang tersedia pada tanggal tersebut. Pajak, wilayah, penawaran pendidikan, dan penagihan melalui toko aplikasi dapat mengubah jumlahnya.
+**Fakta diperiksa:** 28 Agustus 2026. Harga yang dicantumkan adalah harga untuk umum di AS atau harga lokal yang tersedia pada tanggal tersebut. Pajak, wilayah, penawaran pendidikan, dan penagihan melalui toko aplikasi dapat mengubah jumlahnya. Detail impor `.apkg` Anki di Nibomo diperiksa pada 8 November 2026.
 
 ![Seorang pembuat jam memeriksa apakah mekanisme jam saku yang sudah lama digunakan bisa dipasang ke casing lain](/blog/best-anki-alternatives.png)
 
@@ -41,7 +41,7 @@ Empat lainnya mengharuskan Anda membangun ulang konten, bukan memigrasikan kolek
 - **Quizlet** berguna untuk set publik, kelas, permainan, dan latihan terpandu.
 - **Brainscape** menawarkan alur pengulangan kelompok yang lebih sederhana, dengan penilaian keyakinan mengingat jawaban pada skala 1–5.
 - **SuperMemo** berarti beralih ke metode proprieter dan katalog kursusnya.
-- **Nibomo** menyediakan klien web dan native berlisensi MIT, backend yang bisa dihosting sendiri, serta akses API dan MCP. Alur kerjanya melalui TXT atau CSV yang diperiksa ulang tidak mempertahankan status pembelajaran Anki.
+- **Nibomo** menyediakan klien web dan native berlisensi MIT, backend yang bisa dihosting sendiri, serta akses API dan MCP. Obrolan AI-nya dapat mengubah berkas `.apkg` yang dilampirkan menjadi kartu, tetapi status pembelajaran Anki tidak ikut terbawa.
 
 Jika kartu Anda bergantung pada tampilan yang persis, add-on, atau antrean pengulangan saat ini, tetap memakai Anki bukan berarti ragu mengambil keputusan. Itulah jawabannya.
 
@@ -78,7 +78,7 @@ Sebuah pengimpor bisa memenuhi syarat pertama, tetapi gagal pada dua syarat lain
 | [Quizlet](https://quizlet.com/) | [Menempelkan istilah dan definisi](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content) | Tidak ada yang dibawa dari Anki | Jenis catatan, templat, dek, struktur media, dan seluruh data penjadwalan |
 | [Brainscape](https://www.brainscape.com/) | [CSV, TXT, XLSX, atau ODS](https://brainscape.zendesk.com/hc/en-us/articles/115002369931-How-do-I-import-various-files-to-create-flashcards) | Tidak ada yang dibawa dari Anki | Templat, add-on, aturan media, dan seluruh data penjadwalan |
 | [SuperMemo](https://www.supermemo.com/) | [Menempelkan baris pertanyaan dan jawaban dengan pemisah](https://www.supermemo.com/en/blog/how-to-create-flashcards-for-learning), maksimal 100 sekaligus | Tidak ada yang dibawa dari Anki | Struktur koleksi, media, templat, dan seluruh data penjadwalan |
-| [Nibomo](https://nibomo.com/) | Penyusunan draf berbantuan AI dari TXT atau CSV Anki, lalu diperiksa ulang | Tidak ada yang dibawa dari Anki | Tidak mendukung `.apkg`; templat, keutuhan media, hierarki dek, dan seluruh data penjadwalan tidak ikut dipindahkan |
+| [Nibomo](https://nibomo.com/) | [Lampirkan `.apkg` di obrolan AI](/blog/import-anki-apkg/); AI langsung menyimpan kartunya. TXT atau CSV juga bisa | Tidak ada yang dibawa dari Anki; setiap kartu dimulai sebagai kartu baru | Catatan cloze menjadi kartu tanya-jawab; templat, CSS, susunan dek bertingkat, dan seluruh data penjadwalan tidak ikut dipindahkan |
 
 ## Harga, penggunaan offline, penjadwalan, dan kepemilikan
 
@@ -166,11 +166,11 @@ Kursus yang sudah diunduh bisa dipelajari offline di aplikasi seluler. [Panduan 
 
 Pilih SuperMemo jika metode atau katalog kursusnya cukup menarik bagi Anda untuk memulai jadwal baru. Jika prioritasnya mempertahankan jadwal yang sudah ada, aplikasi ini tidak menyelesaikan masalah Anda.
 
-## Nibomo: akses kode sumber seluruh sistem, dengan impor Anki paling terbatas
+## Nibomo: akses kode sumber seluruh sistem, dengan impor Anki yang hanya membawa konten
 
 Nibomo memberi Anda akses kode sumber dan kendali atas banyak bagian sistem. [Repositori berlisensi MIT](https://github.com/kirill-markin/flashcards-open-source-app) memuat aplikasi web, klien iOS dan Android, backend, sinkronisasi offline, infrastruktur, [API publik](/docs/api/), dan [server MCP](/docs/mcp-connector/). Pengulangan menggunakan [FSRS](/docs/architecture/#scheduling). Web, iOS, dan Android menulis data secara lokal terlebih dahulu, memasukkan perubahan ke antrean keluar, lalu menyinkronkannya setelah tersambung kembali.
 
-Itu tidak membuatnya kompatibel dengan Anki. Nibomo tidak bisa membaca `.apkg` atau `.colpkg`. [Migrasi TXT Anki](/blog/migrate-from-anki-txt-export-open-source-flashcards/) yang didukung merupakan alur penyusunan draf berbantuan AI dengan pemeriksaan ulang, untuk kartu yang sebagian besar berbasis teks. Alur ini tidak mempertahankan templat, add-on, hierarki dek, tanggal jatuh tempo, interval, atau catatan aktivitas pengulangan. Referensi media dalam berkas TXT bukanlah berkas medianya, sehingga dek yang banyak memakai media perlu dibangun ulang dan diperiksa secara terpisah.
+Itu tidak membuatnya kompatibel dengan Anki. Tidak ada pengimpor sekali klik, dan Pustaka → Impor hanya menerima `.zip` milik Nibomo sendiri. Sebagai gantinya, [lampirkan `.apkg` di obrolan AI](/blog/import-anki-apkg/) dan minta AI mengubah dek itu menjadi kartu. Dalam uji coba dengan dek contoh kecil, AI mempertahankan kartu dasar, tag, dan satu gambar, memecah catatan dasar-dan-terbalik menjadi dua kartu satu arah, dan menulis ulang catatan cloze menjadi kartu tanya-jawab. Subdek menjadi dek Nibomo tanpa tingkatan. Templat, add-on, tanggal jatuh tempo, interval, dan catatan aktivitas pengulangan tidak ikut dipindahkan, dan berkas `.colpkg` tidak diterima. Ekspor dengan opsi **Support older Anki versions**; hanya untuk format lama itu Nibomo memberikan daftar nama berkas media kepada AI. Paket uji tersebut adalah berkas format lama yang dibuat dengan skrip, bukan hasil ekspor Anki. Periksa gambar setelah impor. [Migrasi TXT Anki](/blog/migrate-from-anki-txt-export-open-source-flashcards/) yang lebih lama tetap bisa dipakai untuk kartu yang hanya berisi teks.
 
 Paket `flashcards.zip` milik Nibomo sendiri juga lebih terbatas daripada cadangan. Paket ini memindahkan kartu, tag, dan media terkait antarruang kerja Nibomo. Riwayat pengulangan, status FSRS, struktur dek lengkap, pengaturan ruang kerja, dan akun tidak ikut dipindahkan.
 

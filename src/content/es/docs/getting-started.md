@@ -31,7 +31,7 @@ La aplicación Nibomo añade el widget Repasar a iPhone, iPad, Mac y Android. Es
 
 Cuando no hay nada pendiente, el widget muestra «Todo al día» y cuándo toca la siguiente tarjeta. Nunca muestra una respuesta. Toque el widget para abrir Repasar; un widget mediano o grande abre Repasar directamente en la tarjeta que muestra. Los widgets son gratuitos para todos, incluidos los invitados.
 
-Para añadir uno, abra la galería de widgets de su dispositivo, elija Nibomo y seleccione un tamaño.
+Para añadir uno en iPhone, iPad o Mac, abra la galería de widgets, elija Nibomo y seleccione un tamaño. En Android, añada el widget de Nibomo desde la lista de widgets y luego cambie su tamaño; el diseño se adapta al tamaño.
 
 ## Aplicación web alojada
 

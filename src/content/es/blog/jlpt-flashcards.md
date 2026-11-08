@@ -2,6 +2,7 @@
 title: "Flashcards para el JLPT 2026: kanji, gramática y comprensión auditiva"
 description: "Prepárate para el JLPT N5, N4, N3, N2 o N1 con flashcards de kanji, vocabulario, gramática y errores de comprensión auditiva, y repasos programados con FSRS."
 date: "2026-07-31"
+updated: "2026-11-08"
 image: "/blog/jlpt-flashcards.png"
 keywords:
   - "flashcards para el JLPT"
@@ -334,7 +335,7 @@ FSRS puede programar repasos posteriores a partir de tu historial: hace reaparec
 
 En [Nibomo](/features/), las tarjetas sencillas de anverso y reverso bastan para los ejemplos de esta guía. Las etiquetas pueden conservar el nivel y el tipo de pregunta, como `N3`, `kanji-reading`, `paraphrase`, `text-grammar` o `listening-miss`. Puedes añadir imágenes o archivos relacionados cuando aporten un contexto útil, repasar con FSRS las tarjetas pendientes, estudiar sin conexión en el móvil y sincronizar los cambios cuando recuperes la conexión. La importación y la exportación permiten trasladar las tarjetas, las etiquetas y los archivos relacionados.
 
-La aplicación no ofrece un mazo prediseñado para el JLPT ni un simulador del examen, y no puede importar directamente archivos `.apkg` de Anki. La IA puede ayudar a redactar o acortar posibles tarjetas, pero no verifica que el japonés o la fuente sean correctos, ni que el nivel y la relevancia para el examen estén bien asignados. Comprueba cada tarjeta generada antes de guardarla. La [guía de primeros pasos](/docs/getting-started/) explica cómo empezar con la web alojada, la aplicación móvil, el uso con agentes y el autoalojamiento.
+La aplicación no ofrece un mazo prediseñado para el JLPT ni un simulador del examen, y no tiene un importador de Anki de un solo clic. El chat con IA puede convertir un `.apkg` de Anki en tarjetas nuevas sin su historial de repasos; la [guía de importación de `.apkg`](/blog/import-anki-apkg/) explica cómo. La IA puede ayudar a redactar o acortar posibles tarjetas, pero no verifica que el japonés o la fuente sean correctos, ni que el nivel y la relevancia para el examen estén bien asignados. Comprueba cada tarjeta generada antes de guardarla. La [guía de primeros pasos](/docs/getting-started/) explica cómo empezar con la web alojada, la aplicación móvil, el uso con agentes y el autoalojamiento.
 
 ## Crea las próximas diez tarjetas a partir de tu práctica
 
