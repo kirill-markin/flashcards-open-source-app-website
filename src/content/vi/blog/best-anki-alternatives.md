@@ -2,7 +2,7 @@
 title: "Các lựa chọn thay thế Anki năm 2026: Bạn giữ được, mất đi và nhận thêm những gì?"
 description: "So sánh bảy ứng dụng thay thế Anki về khả năng giữ nguyên dữ liệu khi chuyển, dùng ngoại tuyến, lịch ôn, giá, mã nguồn và tự triển khai; xem khi nào nên giữ Anki."
 date: "2026-03-14"
-updated: "2026-11-08"
+updated: "2026-11-09"
 image: "/blog/best-anki-alternatives.png"
 keywords:
   - "ứng dụng thay thế Anki"
@@ -78,7 +78,7 @@ Một công cụ nhập có thể vượt qua câu hỏi đầu tiên nhưng th�
 | [Quizlet](https://quizlet.com/) | [Dán thuật ngữ và định nghĩa](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content) | Không giữ dữ liệu học từ Anki | Loại ghi chú, mẫu thẻ, bộ thẻ, cấu trúc tệp đa phương tiện và toàn bộ dữ liệu lịch ôn |
 | [Brainscape](https://www.brainscape.com/) | [CSV, TXT, XLSX hoặc ODS](https://brainscape.zendesk.com/hc/en-us/articles/115002369931-How-do-I-import-various-files-to-create-flashcards) | Không giữ dữ liệu học từ Anki | Mẫu thẻ, tiện ích bổ sung, quy tắc tệp đa phương tiện và toàn bộ dữ liệu lịch ôn |
 | [SuperMemo](https://www.supermemo.com/) | [Dán các dòng hỏi–đáp có dấu phân cách](https://www.supermemo.com/en/blog/how-to-create-flashcards-for-learning), tối đa 100 thẻ mỗi lần | Không giữ dữ liệu học từ Anki | Cấu trúc bộ sưu tập, tệp đa phương tiện, mẫu thẻ và toàn bộ dữ liệu lịch ôn |
-| [Nibomo](https://nibomo.com/) | [Đính kèm tệp `.apkg` trong trò chuyện AI](/blog/import-anki-apkg/); AI lưu thẻ ngay. TXT hoặc CSV cũng dùng được | Không giữ dữ liệu học từ Anki; mọi thẻ bắt đầu như thẻ mới | Ghi chú điền khuyết thành thẻ hỏi–đáp; mẫu thẻ, CSS, bộ thẻ lồng nhau và toàn bộ dữ liệu lịch ôn không được chuyển sang |
+| [Nibomo](https://nibomo.com/) | [Đính kèm tệp `.apkg` trong trò chuyện AI](/blog/import-anki-apkg/); AI lưu thẻ ngay, và thẻ điền khuyết vẫn giữ dạng điền vào chỗ trống. TXT hoặc CSV cũng dùng được | Không giữ dữ liệu học từ Anki; mọi thẻ bắt đầu như thẻ mới | Mẫu thẻ, CSS và toàn bộ dữ liệu lịch ôn không được chuyển sang; bộ thẻ con trở thành các bộ thẻ phẳng riêng, mang tên theo đường dẫn đầy đủ trong Anki |
 
 ## Giá, khả năng dùng ngoại tuyến, lịch ôn và quyền kiểm soát
 
@@ -170,7 +170,7 @@ Chọn SuperMemo vì bạn muốn phương pháp riêng hoặc danh mục khóa 
 
 Nibomo cho phép bạn nắm quyền kiểm soát phần lớn hệ thống. [Kho mã theo giấy phép MIT](https://github.com/kirill-markin/flashcards-open-source-app) chứa ứng dụng web, ứng dụng iOS và Android, backend, đồng bộ ngoại tuyến, hạ tầng, [API công khai](/docs/api/) và [máy chủ MCP](/docs/mcp-connector/). Lịch ôn dùng [FSRS](/docs/architecture/#scheduling). Bản web, iOS và Android đều ghi dữ liệu cục bộ trước, đưa thay đổi vào hàng đợi gửi đi, rồi đồng bộ khi có mạng trở lại.
 
-Điều đó không khiến Nibomo tương thích với Anki. Không có chức năng nhập bằng một cú nhấp, và Thư viện → Nhập chỉ nhận tệp `.zip` riêng của Nibomo. Thay vào đó, bạn [đính kèm tệp `.apkg` trong trò chuyện AI](/blog/import-anki-apkg/) và yêu cầu AI chuyển bộ thẻ thành thẻ. Trong lần thử với một bộ thẻ mẫu nhỏ, thẻ cơ bản, nhãn và một hình ảnh được giữ lại; ghi chú cơ bản kèm thẻ đảo được tách thành hai thẻ một chiều, còn ghi chú điền khuyết được viết lại thành thẻ hỏi–đáp. Bộ thẻ con trở thành các bộ thẻ phẳng trong Nibomo. Mẫu thẻ, tiện ích bổ sung, ngày đến hạn, khoảng cách ôn và các lần ôn không được chuyển sang, và tệp `.colpkg` không được chấp nhận. Khi xuất, hãy đánh dấu **Support older Anki versions**; Nibomo chỉ đưa cho AI danh sách tên tệp đa phương tiện với định dạng cũ đó. Gói thử nghiệm là tệp định dạng cũ được tạo bằng script, không phải tệp xuất từ Anki. Hãy kiểm tra hình ảnh sau khi nhập. [Quy trình cũ chuyển từ TXT của Anki](/blog/migrate-from-anki-txt-export-open-source-flashcards/) vẫn dùng được cho thẻ chỉ có văn bản.
+Điều đó không khiến Nibomo tương thích với Anki. Không có chức năng nhập bằng một cú nhấp, và Thư viện → Nhập chỉ nhận tệp `.zip` riêng của Nibomo. Thay vào đó, bạn [đính kèm tệp `.apkg` trong trò chuyện AI](/blog/import-anki-apkg/) và yêu cầu AI chuyển bộ thẻ thành thẻ. Tệp xuất ở định dạng hiện tại dùng được, tối đa 30 MB mỗi tệp; bạn không cần **Support older Anki versions**. AI lưu thẻ ngay: nhãn được chuyển sang, mỗi bộ thẻ Anki trở thành một bộ thẻ Nibomo (mỗi bộ thẻ con trở thành một bộ thẻ phẳng riêng, mang tên theo đường dẫn đầy đủ trong Anki, và bộ thẻ cha cũng bao gồm các thẻ của bộ thẻ con), còn thẻ điền khuyết vẫn giữ dạng điền vào chỗ trống. Trong một lần thử nhỏ với gói định dạng mới nhất được tạo bằng mã xuất chính thức của Anki (thư viện Python anki), cả ba hình ảnh đều nằm đúng thẻ, và ghi chú cơ bản kèm thẻ đảo được tách thành hai thẻ một chiều. Dù vậy, hãy kiểm tra hình ảnh sau khi nhập. Mẫu thẻ, tiện ích bổ sung, ngày đến hạn, khoảng cách ôn và các lần ôn không được chuyển sang, và tệp `.colpkg` không được chấp nhận. [Quy trình cũ chuyển từ TXT của Anki](/blog/migrate-from-anki-txt-export-open-source-flashcards/) vẫn dùng được cho thẻ chỉ có văn bản.
 
 Gói `flashcards.zip` riêng của Nibomo cũng có phạm vi hẹp hơn bản sao lưu. Nó chuyển thẻ, nhãn và tệp đa phương tiện liên quan giữa các không gian làm việc Nibomo. Nó không chuyển lịch sử ôn, trạng thái FSRS, cấu trúc bộ thẻ đầy đủ, thiết lập không gian làm việc hay tài khoản.
 
