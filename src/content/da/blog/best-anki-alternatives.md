@@ -2,7 +2,7 @@
 title: "Alternativer til Anki i 2026: Hvad du beholder, mister og får ved at skifte"
 description: "Sammenlign syv alternativer til Anki på databevaring ved flytning, offlinebrug, repetitionsplanlægning, pris, kildekode og egen hosting – og se, hvornår Anki er det sikreste valg."
 date: "2026-03-14"
-updated: "2026-11-08"
+updated: "2026-11-09"
 image: "/blog/best-anki-alternatives.png"
 keywords:
   - "alternativer til Anki"
@@ -78,7 +78,7 @@ En import kan opfylde det første krav og svigte på de to andre.
 | [Quizlet](https://quizlet.com/) | [Indsæt begreber og definitioner](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content) | Ingen fra Anki | Notetyper, skabeloner, kortsæt, mediestruktur og alle planlægningsdata |
 | [Brainscape](https://www.brainscape.com/) | [CSV, TXT, XLSX eller ODS](https://brainscape.zendesk.com/hc/en-us/articles/115002369931-How-do-I-import-various-files-to-create-flashcards) | Ingen fra Anki | Skabeloner, tilføjelser, medieregler og alle planlægningsdata |
 | [SuperMemo](https://www.supermemo.com/) | [Indsæt rækker med spørgsmål og svar adskilt af skilletegn](https://www.supermemo.com/en/blog/how-to-create-flashcards-for-learning), højst 100 ad gangen | Ingen fra Anki | Samlingens struktur, medier, skabeloner og alle planlægningsdata |
-| [Nibomo](https://nibomo.com/) | [Vedhæft `.apkg`-filen i AI-chatten](/blog/import-anki-apkg/); AI'en gemmer kortene direkte. TXT eller CSV virker også | Ingen fra Anki; alle kort starter som nye | Cloze-noter bliver til spørgsmål-og-svar-kort; skabeloner, CSS, indlejrede kortsæt og alle planlægningsdata kommer ikke med |
+| [Nibomo](https://nibomo.com/) | [Vedhæft `.apkg`-filen i AI-chatten](/blog/import-anki-apkg/); AI'en gemmer kortene direkte, og cloze-kort forbliver kort med huller, der skal udfyldes. TXT eller CSV virker også | Ingen fra Anki; alle kort starter som nye | Skabeloner, CSS og alle planlægningsdata kommer ikke med; underkortsæt bliver separate flade kortsæt, navngivet med den fulde Anki-sti |
 
 ## Pris, offlinebrug, repetitionsplanlægning og ejerskab
 
@@ -170,7 +170,7 @@ Vælg SuperMemo, hvis du vil have netop SuperMemos metode eller kursuskatalog s�
 
 Nibomo giver dig mulighed for at eje og kontrollere en stor del af systemet. [Repositoryet under MIT-licensen](https://github.com/kirill-markin/flashcards-open-source-app) indeholder webappen, iOS- og Android-klienter, backend, offlinesynkronisering, infrastruktur, et [offentligt API](/docs/api/) og en [MCP-server](/docs/mcp-connector/). Repetitionerne bruger [FSRS](/docs/architecture/#scheduling). Web, iOS og Android skriver først lokalt, lægger ændringer i en udbakke og synkroniserer, når forbindelsen vender tilbage.
 
-Det gør ikke Nibomo kompatibelt med Anki. Der er ingen import med ét klik, og Bibliotek → Import tager kun Nibomos egen `.zip`. I stedet [vedhæfter du en `.apkg` i AI-chatten](/blog/import-anki-apkg/) og beder den lave kortsættet om til kort. I en test med et lille eksempelkortsæt bevarede den basiskort, tags og et billede, delte noter af typen basis og omvendt op i to envejskort og omskrev cloze-noter til spørgsmål-og-svar-kort. Underkortsæt blev til flade Nibomo-kortsæt. Skabeloner, tilføjelser, repetitionsdatoer, intervaller og registrerede repetitioner kommer ikke med, og `.colpkg`-filer accepteres ikke. Eksportér med **Support older Anki versions** slået til; Nibomo giver kun AI'en listen over mediefilnavne, når pakken er i det ældre format. Testpakken var en fil i det ældre format, bygget med et script, ikke en eksport fra Anki. Tjek billederne efter importen. Den ældre [flytning fra Anki via TXT](/blog/migrate-from-anki-txt-export-open-source-flashcards/) virker stadig til kort med ren tekst.
+Det gør ikke Nibomo kompatibelt med Anki. Der er ingen import med ét klik, og Bibliotek → Import tager kun Nibomos egen `.zip`. I stedet [vedhæfter du en `.apkg` i AI-chatten](/blog/import-anki-apkg/) og beder den lave kortsættet om til kort. Eksportfiler i det nuværende format virker, op til 30 MB pr. fil; du behøver ikke **Support older Anki versions**. AI'en gemmer kortene direkte: tags kommer med, hvert Anki-kortsæt bliver et Nibomo-kortsæt (hvert underkortsæt bliver sit eget flade kortsæt, navngivet med den fulde Anki-sti, og det overordnede kortsæt indeholder også underkortsættets kort), og cloze-kort forbliver kort med huller, der skal udfyldes. I en lille test med en pakke i det nyeste format, lavet med Ankis officielle eksportkode (Python-biblioteket anki), havnede alle tre billeder på de rigtige kort, og noter af typen basis og omvendt blev delt op i to envejskort. Tjek alligevel billederne efter importen. Skabeloner, tilføjelser, repetitionsdatoer, intervaller og registrerede repetitioner kommer ikke med, og `.colpkg`-filer accepteres ikke. Den ældre [flytning fra Anki via TXT](/blog/migrate-from-anki-txt-export-open-source-flashcards/) virker stadig til kort med ren tekst.
 
 Nibomos egen `flashcards.zip`-pakke er også mere begrænset end en sikkerhedskopi. Den flytter kort, tags og tilknyttede medier mellem Nibomo-arbejdsområder. Den flytter ikke repetitionshistorik, FSRS-tilstand, komplette kortsætstrukturer, arbejdsområdeindstillinger eller konti.
 

@@ -2,7 +2,7 @@
 title: "Ankin vaihtoehdot vuonna 2026: mitä säilytät, menetät ja saat vaihtaessasi"
 description: "Vertaa seitsemää Ankin vaihtoehtoa tietojen siirtymisen, offline-käytön, ajoituksen, hinnan, lähdekoodin ja itseylläpidon kannalta. Katso myös, milloin Anki on turvallisempi valinta."
 date: "2026-03-14"
-updated: "2026-11-08"
+updated: "2026-11-09"
 image: "/blog/best-anki-alternatives.png"
 keywords:
   - "Ankin vaihtoehdot"
@@ -78,7 +78,7 @@ Tuonti voi läpäistä ensimmäisen kohdan ja epäonnistua kahdessa muussa.
 | [Quizlet](https://quizlet.com/) | [Termien ja määritelmien liittäminen](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content) | Ei mitään Ankista | Muistiinpanotyypit, korttipohjat, pakat, median rakenne ja kaikki ajoitustiedot |
 | [Brainscape](https://www.brainscape.com/) | [CSV, TXT, XLSX tai ODS](https://brainscape.zendesk.com/hc/en-us/articles/115002369931-How-do-I-import-various-files-to-create-flashcards) | Ei mitään Ankista | Korttipohjat, lisäosat, median käsittelysäännöt ja kaikki ajoitustiedot |
 | [SuperMemo](https://www.supermemo.com/) | [Erottimilla jäsenneltyjen kysymys–vastausrivien liittäminen](https://www.supermemo.com/en/blog/how-to-create-flashcards-for-learning), enintään 100 kerrallaan | Ei mitään Ankista | Kokoelman rakenne, media, korttipohjat ja kaikki ajoitustiedot |
-| [Nibomo](https://nibomo.com/) | [Liitä `.apkg` tekoälychattiin](/blog/import-anki-apkg/); tekoäly tallentaa kortit suoraan. Myös TXT tai CSV käy | Ei mitään Ankista; jokainen kortti alkaa uutena | Aukkotehtävät muuttuvat kysymys–vastaus-korteiksi; korttipohjat, CSS, pakkojen sisäkkäisyys ja kaikki ajoitustiedot jäävät pois |
+| [Nibomo](https://nibomo.com/) | [Liitä `.apkg` tekoälychattiin](/blog/import-anki-apkg/); tekoäly tallentaa kortit suoraan, ja aukkotehtävät pysyvät aukkotehtävinä. Myös TXT tai CSV käy | Ei mitään Ankista; jokainen kortti alkaa uutena | Korttipohjat, CSS ja kaikki ajoitustiedot jäävät pois; alipakoista tulee erillisiä litteitä pakkoja, joiden nimenä on koko Anki-polku |
 
 ## Hinta, offline-käyttö, ajoitus ja omistajuus
 
@@ -170,7 +170,7 @@ Valitse SuperMemo, jos haluat sen oman menetelmän tai kurssivalikoiman niin vah
 
 Nibomossa voit hallita laajaa osaa järjestelmästä itse. [MIT-lisensoitu repositorio](https://github.com/kirill-markin/flashcards-open-source-app) sisältää verkkosovelluksen, iOS- ja Android-sovellukset, taustajärjestelmän, offline-synkronoinnin, infrastruktuurin, [julkisen API:n](/docs/api/) ja [MCP-palvelimen](/docs/mcp-connector/). Kertaus käyttää [FSRS:ää](/docs/architecture/#scheduling). Verkko-, iOS- ja Android-sovellukset tallentavat ensin paikallisesti, lisäävät muutokset lähetysjonoon ja synkronoivat yhteyden palattua.
 
-Tämä ei tee siitä Anki-yhteensopivaa. Yhden napsautuksen tuontia ei ole, ja Kirjasto → Tuonti hyväksyy vain Nibomon oman `.zip`-tiedoston. Sen sijaan [liität `.apkg`-tiedoston tekoälychattiin](/blog/import-anki-apkg/) ja pyydät sitä muuttamaan pakan korteiksi. Pienellä esimerkkipakalla tehdyssä testissä se säilytti peruskortit, tunnisteet ja yhden kuvan, jakoi perus- ja käänteiskortin muistiinpanot kahdeksi yksisuuntaiseksi kortiksi ja kirjoitti aukkotehtävät uudelleen kysymys–vastaus-korteiksi. Alipakoista tuli Nibomossa litteitä pakkoja. Korttipohjat, lisäosat, eräpäivät, kertausvälit ja kertaustapahtumat jäävät pois, eikä `.colpkg`-tiedostoja hyväksytä. Vie paketti niin, että **Support older Anki versions** on valittuna; Nibomo antaa tekoälylle mediatiedostojen nimiluettelon vain tässä vanhemmassa muodossa. Testipaketti oli skriptillä tehty vanhemman muodon tiedosto, ei Ankin vienti. Tarkista kuvat tuonnin jälkeen. Vanhempi [siirto Ankin TXT-viennistä](/blog/migrate-from-anki-txt-export-open-source-flashcards/) toimii yhä pelkkää tekstiä sisältäville korteille.
+Tämä ei tee siitä Anki-yhteensopivaa. Yhden napsautuksen tuontia ei ole, ja Kirjasto → Tuonti hyväksyy vain Nibomon oman `.zip`-tiedoston. Sen sijaan [liität `.apkg`-tiedoston tekoälychattiin](/blog/import-anki-apkg/) ja pyydät sitä muuttamaan pakan korteiksi. Nykyisen muodon viennit toimivat, enintään 30 Mt tiedostoa kohden; **Support older Anki versions** -valintaa ei tarvita. Tekoäly tallentaa kortit suoraan: tunnisteet siirtyvät, jokaisesta Anki-pakasta tulee Nibomo-pakka (jokaisesta alipakasta tulee oma litteä pakkansa, jonka nimenä on koko Anki-polku, ja yläpakka sisältää myös alipakan kortit), ja aukkotehtävät pysyvät aukkotehtävinä. Pienessä testissä, jossa käytettiin Ankin virallisella vientikoodilla (Python-kirjastolla anki) tehtyä uusimman muodon pakettia, kaikki kolme kuvaa päätyivät oikeisiin kortteihin, ja perus- ja käänteiskortin muistiinpanot jakautuivat kahdeksi yksisuuntaiseksi kortiksi. Tarkista kuvat silti tuonnin jälkeen. Korttipohjat, lisäosat, eräpäivät, kertausvälit ja kertaustapahtumat jäävät pois, eikä `.colpkg`-tiedostoja hyväksytä. Vanhempi [siirto Ankin TXT-viennistä](/blog/migrate-from-anki-txt-export-open-source-flashcards/) toimii yhä pelkkää tekstiä sisältäville korteille.
 
 Myös Nibomon oma `flashcards.zip`-paketti on varmuuskopiota suppeampi. Se siirtää kortit, tunnisteet ja niihin liittyvän median Nibomon työtilojen välillä. Se ei siirrä kertaushistoriaa, FSRS-tilaa, kokonaisia pakkarakenteita, työtilan asetuksia tai tilejä.
 
