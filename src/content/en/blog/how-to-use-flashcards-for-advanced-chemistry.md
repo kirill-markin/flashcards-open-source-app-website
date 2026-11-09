@@ -88,7 +88,7 @@ So I would write a lot of cards around distinctions:
 
 If the recurring error comes earlier, when you turn an ionic compound name into a formula, use the [ionic compound naming flashcards](/catalog/packages/ionic-compound-naming-flashcards/). They practice names and formulas, neutral charge balance, Roman numerals, and polyatomic-ion parentheses, including short error-repair prompts.
 
-Electron geometry versus molecular shape is another useful distinction. The [VSEPR and molecular geometry flashcards](/catalog/packages/vsepr-molecular-geometry-flashcards/) practice that split alongside AXE notation and ideal bond-angle benchmarks.
+Electron geometry versus molecular shape is another useful distinction. The [VSEPR and molecular geometry flashcards](/catalog/packages/vsepr-molecular-geometry-flashcards/) practice that split alongside AXE notation and ideal bond-angle benchmarks. For practice choosing between axial and equatorial sites, try the [trigonal bipyramidal lone pair flashcards](/catalog/packages/trigonal-bipyramidal-lone-pair-flashcards/).
 
 If you keep using the wrong electron-allocation rule, the [formal charge vs oxidation number flashcards](/catalog/packages/formal-charge-vs-oxidation-number-flashcards/) mix short Lewis-structure calculations with method-choice and charge-check prompts.
 
