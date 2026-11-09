@@ -1298,6 +1298,21 @@
     }
   },
   {
+    "publicPath": "/blog/find-exec-exit-status.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/c304a86f969c20d04be3b17364d231e265f98896a116fa6a44430347748137d3.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "c304a86f969c20d04be3b17364d231e265f98896a116fa6a44430347748137d3",
+    "bytes": 239858,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/16ad95b31eec908b4094ae87572c020c4f453e3ab14d15d542774c56dcd59770.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "16ad95b31eec908b4094ae87572c020c4f453e3ab14d15d542774c56dcd59770",
+      "bytes": 2623711
+    }
+  },
+  {
     "publicPath": "/blog/find-exec-vs-xargs.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/912b3a32bed5bca8b637fa54e79a6efee1361a05c2d5acec24454a9a0a09384e.webp",
     "width": 1672,
