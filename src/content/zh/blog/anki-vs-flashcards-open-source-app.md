@@ -2,7 +2,7 @@
 title: "Anki vs Nibomo（2026）：哪款应用更适合你？"
 description: "切换之前，先从 FSRS、离线使用、移动端、AI、迁移、自托管和数据控制等方面对比 Anki 与 Nibomo。"
 date: "2026-04-25"
-updated: "2026-11-08"
+updated: "2026-11-09"
 image: "/blog/anki-vs-flashcards-open-source-app-v2.png"
 keywords:
   - "Anki vs Nibomo"
@@ -102,12 +102,12 @@ Nibomo 可以导入和导出自己的[便携式 `flashcards.zip` 工作区包](h
 
 目前，从 Anki 迁移到 Nibomo 是通过 AI 对话转移内容：
 
-1. 在 Anki 中把牌组导出为 `.apkg`，并勾选 **Support older Anki versions**。只有这种旧格式，Nibomo 才会把媒体文件名列表提供给 AI。测试用的包是用脚本生成的旧格式文件，而不是从 Anki 导出的。
+1. 在 Anki 中把牌组导出为 `.apkg`。当前格式的导出文件可以直接使用，不需要勾选 **Support older Anki versions**。
 2. 在 Nibomo AI 对话中附加这个文件，并让它把牌组转换成卡片。每个文件最大 30 MB。
 3. AI 会读取这个包并直接保存卡片；测试中没有草稿或确认步骤。
-4. 对照 Anki 检查卡片数量、正面、背面、标签和图片，尤其要检查图片。
+4. 对照 Anki 检查卡片数量、正面、背面、标签、牌组和图片，尤其要检查图片。
 
-在一个小型示例牌组的测试中，基础卡片、标签和一张图片都迁移了过来。每条正反双向笔记（basic and reversed）变成了两张单向卡片，填空笔记变成了问答卡片，子牌组变成了 Nibomo 中的扁平牌组。复习历史、到期日、FSRS 记忆状态、笔记类型、模板 HTML/CSS 和插件行为都不会迁移。[`.apkg` 导入指南](/blog/import-anki-apkg/)展示了完整过程。较早的 [TXT 迁移指南](/blog/migrate-from-anki-txt-export-open-source-flashcards/)仍适用于纯文本牌组。如果复习历史也必须迁移，请改看[更全面的 Anki 替代品对比](/blog/best-anki-alternatives/)。
+测试使用的是用 Anki 官方导出代码（anki Python 库）生成的最新格式包：基础卡片和标签都迁移了过来，三张图片也全部出现在了正确的卡片上。每条正反双向笔记（basic and reversed）变成了两张单向卡片，填空卡片仍保留填空形式。每个 Anki 牌组都变成了一个 Nibomo 牌组：每个子牌组成为单独的扁平牌组，以完整的 Anki 路径命名，父牌组也包含了子牌组的卡片。复习历史、到期日、FSRS 记忆状态、笔记类型、模板 HTML/CSS 和插件行为都不会迁移。这次测试没有涉及音频。[`.apkg` 导入指南](/blog/import-anki-apkg/)展示了完整过程。较早的 [TXT 迁移指南](/blog/migrate-from-anki-txt-export-open-source-flashcards/)仍适用于纯文本牌组。如果复习历史也必须迁移，请改看[更全面的 Anki 替代品对比](/blog/best-anki-alternatives/)。
 
 ## 用一个有代表性的牌组进行低风险试用
 

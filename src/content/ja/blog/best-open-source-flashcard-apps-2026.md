@@ -2,7 +2,7 @@
 title: "2026年版：おすすめのオープンソース・フラッシュカードアプリ6選を比較"
 description: "メンテナンスが続く6つのオープンソース・フラッシュカードアプリを、ソース公開範囲、オフラインデータ、同期、Ankiインポート、エクスポート、セルフホスト、復旧の観点から比較します。"
 date: "2026-08-02"
-updated: "2026-11-08"
+updated: "2026-11-09"
 image: "/blog/best-open-source-flashcard-apps-2026-v2.png"
 keywords:
   - "オープンソース フラッシュカード おすすめ"
@@ -119,7 +119,7 @@ Dockerで本格的なブラウザアプリを動かせますが、インスト�
 
 Nibomo独自のZIPパッケージは、アカウントのバックアップではなくコンテンツ転送形式です。v1.23.0の[パッケージスキーマ](https://github.com/kirill-markin/flashcards-open-source-app/blob/v1.23.0/apps/backend/src/workspacePackages/types.ts)には、表面と裏面の内容、タグ、カードタイプ、ソースメタデータ、パッケージメタデータが入り、参照メディアは別途同梱されます。デッキ構造、復習履歴、FSRSの状態、ワークスペース設定、アカウントは含まれません。
 
-v1.23.0にはAPKGインポーターがなく、ワンクリックのインポーターは今もありません。ライブラリ → インポートが受け付けるのはNibomo独自のZIPだけです。[v1.34.0](https://github.com/kirill-markin/flashcards-open-source-app/releases/tag/v1.34.0)以降は、AIチャットに`.apkg`を添付し、デッキをカードにするよう依頼できます。小さなサンプルデッキでのテストでは、テキスト、タグ、画像1枚が移り、穴埋めノートは質問と回答のカードになり、すべてのカードが新規カードとして始まりました。テンプレート、スケジューリング状態、デッキの入れ子構造は引き継がれません。エクスポート時は**Support older Anki versions**にチェックを入れてください。Nibomoがメディアファイル名の一覧をAIに渡すのは、この古い形式の場合だけです。テスト用パッケージは、Ankiからエクスポートしたものではなく、スクリプトで作成した古い形式のファイルでした。インポート後は画像を確認してください。詳しくは[`.apkg`インポートガイド](/blog/import-anki-apkg/)を参照してください。従来の[Anki TXT/CSV移行手順](/blog/migrate-from-anki-txt-export-open-source-flashcards/)も、テキストだけのデッキには引き続き使えます。どちらの経路も単純なデッキには妥当ですが、大幅にカスタマイズしたコレクションには不向きです。
+v1.23.0にはAPKGインポーターがなく、ワンクリックのインポーターは今もありません。ライブラリ → インポートが受け付けるのはNibomo独自のZIPだけです。[v1.34.0](https://github.com/kirill-markin/flashcards-open-source-app/releases/tag/v1.34.0)以降は、AIチャットに`.apkg`を添付し、デッキをカードにするよう依頼できます。現行形式のエクスポートに対応しており、ファイルは1つあたり30 MBまでです。**Support older Anki versions**にチェックを入れる必要はありません。AIはカードをそのまま保存します。タグは引き継がれ、Ankiの各デッキはNibomoのデッキになります（各サブデッキはAnkiでのフルパスを名前にした個別のフラットなデッキになり、親デッキにはサブデッキのカードも含まれます）。穴埋めカードは穴埋め形式のまま残ります。小規模なテストでは、3枚の画像はすべて正しいカードに配置されました。それでも、インポート後は画像を確認してください。すべてのカードは新規カードとして始まり、テンプレートとスケジューリング状態は引き継がれません。詳しくは[`.apkg`インポートガイド](/blog/import-anki-apkg/)を参照してください。従来の[Anki TXT/CSV移行手順](/blog/migrate-from-anki-txt-export-open-source-flashcards/)も、テキストだけのデッキには引き続き使えます。どちらの経路も単純なデッキには妥当ですが、大幅にカスタマイズしたコレクションには不向きです。
 
 [セルフホストガイド](/docs/self-hosting/)も同じように明確です。本番環境では、RDS、Cognito、API GatewayとLambda、S3とCloudFront、シークレット、アラーム、バックアップを含むAWS CDKスタックを使います。Cloudflare DNS、Resendメール、Sentryの設定はAWSの外にあります。Docker Composeはローカル開発用であり、対応する本番パッケージではありません。プライベート配布用のiOS・Androidバイナリが必要な運用者は、別途ビルドして配布します。
 

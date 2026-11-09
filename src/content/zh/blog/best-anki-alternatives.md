@@ -2,7 +2,7 @@
 title: "2026 年 Anki 替代品对比：迁移后会保留、失去和得到什么"
 description: "从迁移保真度、离线使用、调度、价格、源代码开放程度和自托管等方面比较 7 款 Anki 替代品，并判断何时继续使用 Anki 更稳妥。"
 date: "2026-03-14"
-updated: "2026-11-08"
+updated: "2026-11-09"
 image: "/blog/best-anki-alternatives.png"
 keywords:
   - "Anki 替代品"
@@ -78,7 +78,7 @@ Anki 导入可以全程不报错，却依然毁掉一副牌组原本好用的地
 | [Quizlet](https://quizlet.com/) | [粘贴术语和定义](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content) | 不保留任何 Anki 学习状态 | 笔记类型、模板、牌组、媒体结构和全部调度数据 |
 | [Brainscape](https://www.brainscape.com/) | [CSV、TXT、XLSX 或 ODS](https://brainscape.zendesk.com/hc/en-us/articles/115002369931-How-do-I-import-various-files-to-create-flashcards) | 不保留任何 Anki 学习状态 | 模板、插件、媒体规则和全部调度数据 |
 | [SuperMemo](https://www.supermemo.com/) | [粘贴用分隔符隔开的问答行](https://www.supermemo.com/en/blog/how-to-create-flashcards-for-learning)，每次最多 100 张 | 不保留任何 Anki 学习状态 | 集合结构、媒体、模板和全部调度数据 |
-| [Nibomo](https://nibomo.com/) | [在 AI 对话中附加 `.apkg`](/blog/import-anki-apkg/)，AI 会直接保存卡片；也可以使用 TXT 或 CSV | 不保留任何 Anki 学习状态；每张卡片都作为新卡开始 | 填空笔记会变成问答卡片；模板、CSS、牌组嵌套和全部调度数据都无法带走 |
+| [Nibomo](https://nibomo.com/) | [在 AI 对话中附加 `.apkg`](/blog/import-anki-apkg/)，AI 会直接保存卡片，填空卡片仍保留填空形式；也可以使用 TXT 或 CSV | 不保留任何 Anki 学习状态；每张卡片都作为新卡开始 | 模板、CSS 和全部调度数据都无法带走；子牌组会变成单独的扁平牌组，以完整的 Anki 路径命名 |
 
 ## 价格、离线使用、调度和所有权
 
@@ -170,7 +170,7 @@ Brainscape 当前的帮助中心称，网站和移动应用现在都具备相同
 
 Nibomo 允许你掌控的范围很广。[采用 MIT 许可的仓库](https://github.com/kirill-markin/flashcards-open-source-app)包含网页应用、iOS 和 Android 客户端、后端、离线同步、基础设施、[公共 API](/docs/api/) 和 [MCP 服务器](/docs/mcp-connector/)。复习使用 [FSRS](/docs/architecture/#scheduling)。网页端、iOS 和 Android 都会先写入本地，把更改加入待发送队列，再在恢复连接后同步。
 
-但这不代表它兼容 Anki。它没有一键导入器，“资料库 → 导入”也只接受 Nibomo 自己的 `.zip`。你需要[在 AI 对话中附加 `.apkg`](/blog/import-anki-apkg/)，并让它把牌组转换成卡片。在一个小型示例牌组的测试中，它保留了基础卡片、标签和一张图片，把正反双向笔记（basic and reversed）拆成两张单向卡片，并把填空笔记改写成问答卡片。子牌组变成了 Nibomo 中的扁平牌组。模板、插件、到期时间、间隔和复习记录都会留在原处，也不接受 `.colpkg` 文件。导出时请勾选 **Support older Anki versions**：只有这种旧格式，Nibomo 才会把媒体文件名列表提供给 AI。测试用的包是用脚本生成的旧格式文件，而不是从 Anki 导出的。导入后请检查图片。较早的 [Anki TXT 迁移](/blog/migrate-from-anki-txt-export-open-source-flashcards/)仍适用于纯文本卡片。
+但这不代表它兼容 Anki。它没有一键导入器，“资料库 → 导入”也只接受 Nibomo 自己的 `.zip`。你需要[在 AI 对话中附加 `.apkg`](/blog/import-anki-apkg/)，并让它把牌组转换成卡片。当前格式的导出文件可以直接使用，每个文件最大 30 MB；不需要勾选 **Support older Anki versions**。AI 会直接保存卡片：标签会保留，每个 Anki 牌组都会变成一个 Nibomo 牌组（每个子牌组会成为单独的扁平牌组，以完整的 Anki 路径命名，父牌组也会包含子牌组的卡片），填空卡片仍保留填空形式。在一次使用 Anki 官方导出代码（anki Python 库）生成的最新格式包进行的小型测试中，三张图片全部出现在了正确的卡片上，正反双向笔记（basic and reversed）也拆成了两张单向卡片。但导入后仍请检查图片。模板、插件、到期时间、间隔和复习记录都会留在原处，也不接受 `.colpkg` 文件。较早的 [Anki TXT 迁移](/blog/migrate-from-anki-txt-export-open-source-flashcards/)仍适用于纯文本卡片。
 
 Nibomo 自己的 `flashcards.zip` 包也达不到完整备份的范围。它可以在 Nibomo 工作区之间迁移卡片、标签和相关媒体，但不会迁移复习历史、FSRS 状态、完整牌组结构、工作区设置或账户。
 

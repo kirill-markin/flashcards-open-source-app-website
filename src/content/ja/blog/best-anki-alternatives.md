@@ -2,7 +2,7 @@
 title: "Anki代替アプリ7選【2026年版】：乗り換えて残るもの、失うもの、得るもの"
 description: "7つのAnki代替アプリを、移行精度、オフライン利用、スケジューリング、料金、ソース公開、セルフホスティングの観点から比較。Ankiを使い続けるほうが安全なケースも解説します。"
 date: "2026-03-14"
-updated: "2026-11-08"
+updated: "2026-11-09"
 image: "/blog/best-anki-alternatives.png"
 keywords:
   - "Anki 代替アプリ"
@@ -78,7 +78,7 @@ Anki代替アプリを比べるとき、本当に高くつくのはこの部分�
 | [Quizlet](https://quizlet.com/) | [用語と定義を貼り付ける](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content) | Ankiからは何も引き継がない | ノートタイプ、テンプレート、デッキ、メディア構造、すべてのスケジューリングデータ |
 | [Brainscape](https://www.brainscape.com/) | [CSV、TXT、XLSX、ODS](https://brainscape.zendesk.com/hc/en-us/articles/115002369931-How-do-I-import-various-files-to-create-flashcards) | Ankiからは何も引き継がない | テンプレート、アドオン、メディア規則、すべてのスケジューリングデータ |
 | [SuperMemo](https://www.supermemo.com/) | [区切り付きの質問・回答行を貼り付ける](https://www.supermemo.com/en/blog/how-to-create-flashcards-for-learning)。一度に最大100枚 | Ankiからは何も引き継がない | コレクション構造、メディア、テンプレート、すべてのスケジューリングデータ |
-| [Nibomo](https://nibomo.com/) | [AIチャットに`.apkg`を添付](/blog/import-anki-apkg/)。AIがカードをそのまま保存する。TXTやCSVも使える | Ankiからは何も引き継がない。すべてのカードが新規カードになる | 穴埋めノートは質問と回答のカードになる。テンプレート、CSS、デッキの入れ子構造、すべてのスケジューリングデータは引き継がれない |
+| [Nibomo](https://nibomo.com/) | [AIチャットに`.apkg`を添付](/blog/import-anki-apkg/)。AIがカードをそのまま保存し、穴埋めカードは穴埋め形式のまま残る。TXTやCSVも使える | Ankiからは何も引き継がない。すべてのカードが新規カードになる | テンプレート、CSS、すべてのスケジューリングデータは引き継がれない。サブデッキはAnkiでのフルパスを名前にした個別のフラットなデッキになる |
 
 ## 料金、オフライン利用、スケジューリング、所有権
 
@@ -170,7 +170,7 @@ Brainscapeの現行ヘルプセンターによると、Webサイトとモバイ�
 
 Nibomoは、利用者が自分で管理できる範囲の広さが特徴です。[MITライセンスのリポジトリ](https://github.com/kirill-markin/flashcards-open-source-app)には、Webアプリ、iOS／Androidクライアント、バックエンド、オフライン同期、インフラストラクチャ、[公開API](/docs/api/)、[MCPサーバー](/docs/mcp-connector/)が含まれます。復習には[FSRS](/docs/architecture/#scheduling)を使います。Web、iOS、Androidはいずれも変更をまずローカルに保存し、送信待ちキューへ追加して、再接続後に同期します。
 
-だからといって、Ankiとの互換性があるわけではありません。ワンクリックのインポーターはなく、ライブラリ → インポートが受け付けるのはNibomo独自の`.zip`だけです。代わりに、[AIチャットに`.apkg`を添付](/blog/import-anki-apkg/)し、デッキをカードにするよう依頼します。小さなサンプルデッキでのテストでは、基本カード、タグ、画像1枚が残り、表裏両方向のノート（basic and reversed）は2枚の片方向カードに分かれ、穴埋めノートは質問と回答のカードに書き換えられました。サブデッキはNibomoのフラットなデッキになりました。テンプレート、アドオン、次回復習日、間隔、復習記録は引き継がれず、`.colpkg`ファイルは受け付けません。エクスポート時は**Support older Anki versions**にチェックを入れてください。Nibomoがメディアファイル名の一覧をAIに渡すのは、この古い形式の場合だけです。テスト用パッケージは、Ankiからエクスポートしたものではなく、スクリプトで作成した古い形式のファイルでした。インポート後は画像を確認してください。従来の[Anki TXT移行](/blog/migrate-from-anki-txt-export-open-source-flashcards/)も、テキストだけのカードには引き続き使えます。
+だからといって、Ankiとの互換性があるわけではありません。ワンクリックのインポーターはなく、ライブラリ → インポートが受け付けるのはNibomo独自の`.zip`だけです。代わりに、[AIチャットに`.apkg`を添付](/blog/import-anki-apkg/)し、デッキをカードにするよう依頼します。現行形式のエクスポートに対応しており、ファイルは1つあたり30 MBまでです。**Support older Anki versions**にチェックを入れる必要はありません。AIはカードをそのまま保存します。タグは引き継がれ、Ankiの各デッキはNibomoのデッキになります（各サブデッキはAnkiでのフルパスを名前にした個別のフラットなデッキになり、親デッキにはサブデッキのカードも含まれます）。穴埋めカードは穴埋め形式のまま残ります。Ankiの公式エクスポートコード（Python用のankiライブラリ）で作成した最新形式のパッケージを使った小規模なテストでは、3枚の画像はすべて正しいカードに配置され、表裏両方向のノート（basic and reversed）は2枚の片方向カードに分かれました。それでも、インポート後は画像を確認してください。テンプレート、アドオン、次回復習日、間隔、復習記録は引き継がれず、`.colpkg`ファイルは受け付けません。従来の[Anki TXT移行](/blog/migrate-from-anki-txt-export-open-source-flashcards/)も、テキストだけのカードには引き続き使えます。
 
 Nibomo独自の`flashcards.zip`パッケージも、完全なバックアップではありません。Nibomoのワークスペース間で移せるのは、カード、タグ、関連メディアです。復習履歴、FSRSの状態、完全なデッキ構造、ワークスペース設定、アカウントは移動しません。
 

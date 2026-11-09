@@ -3,7 +3,7 @@ title: "2026 年 Anki vs Quizlet vs Nibomo 对比：闪卡应用怎么选？"
 description: "2026 年 Anki vs Quizlet vs Nibomo 实用对比：涵盖调度器、离线学习、AI、导入导出、价格、开源与数据所有权，帮你选择最适合的闪卡应用。"
 image: "/blog/anki-vs-quizlet-vs-open-source-flashcards-app.png"
 date: "2026-03-09"
-updated: "2026-11-08"
+updated: "2026-11-09"
 keywords:
   - "anki vs quizlet"
   - "最佳闪卡应用"
@@ -105,7 +105,7 @@ Nibomo 仍处于早期开发阶段。它的生态、导入格式支持、高级�
 
 从零开始时，这项比较很简单。已有的卡片库会让问题变得具体。
 
-如果你有多年的 Anki 复习历史，除非切换应用的收益足以抵消复习历史被重置的代价，否则应该继续使用 Anki。对于结构简单的正反面牌组，可以把它的 `.apkg` 附加到 Nibomo 的 AI 对话中。[Anki `.apkg` 导入指南](/blog/import-anki-apkg/)展示了哪些内容能迁移过来：文本和标签可以，测试中的那张图片也迁移了过来，但每张卡片都会重新开始调度，填空笔记会变成问答卡片。导出时请勾选 **Support older Anki versions**：只有这种旧格式，Nibomo 才会把媒体文件名列表提供给 AI。测试用的包是用脚本生成的旧格式文件，而不是从 Anki 导出的。导入后请检查图片。较早的 [Anki TXT 迁移流程](/blog/migrate-from-anki-txt-export-open-source-flashcards/)仍适用于纯文本牌组。
+如果你有多年的 Anki 复习历史，除非切换应用的收益足以抵消复习历史被重置的代价，否则应该继续使用 Anki。对于结构较简单的牌组，可以把它的 `.apkg` 附加到 Nibomo 的 AI 对话中。当前格式的导出文件可以直接使用，每个文件最大 30 MB；不需要勾选 **Support older Anki versions**。AI 会直接保存卡片：标签会保留，每个 Anki 牌组都会变成一个 Nibomo 牌组（每个子牌组会成为单独的扁平牌组，以完整的 Anki 路径命名，父牌组也会包含子牌组的卡片），填空卡片仍保留填空形式。在一次小型测试中，三张图片全部出现在了正确的卡片上；但导入后仍请检查图片。每张卡片都会重新开始调度。[Anki `.apkg` 导入指南](/blog/import-anki-apkg/)展示了完整过程。较早的 [Anki TXT 迁移流程](/blog/migrate-from-anki-txt-export-open-source-flashcards/)仍适用于纯文本牌组。
 
 如果材料在 Quizlet 中，先确认学习集由你创建，而且需要保留的主要是文本内容。[从 Quizlet 导出并转换为 FSRS 的指南](/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/)介绍了实际操作路径和导出限制。
 
