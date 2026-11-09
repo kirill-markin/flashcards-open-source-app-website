@@ -98,6 +98,8 @@ RNA answer:    5′–GCAUUCAG–3′
 
 This is the **reverse complement**: complement, then reverse. Reversing the template first and then complementing also works. The tempting answer **5′–GACUUACG–3′** has the complementary letters in the wrong order. Swapping labels alone doesn't fix it.
 
+If you keep getting the paired bases right but reading from the wrong end, work through that step with two DNA strands in the [DNA reverse complement flashcards](/catalog/packages/dna-reverse-complement-flashcards/).
+
 ### A coding strand written 5′→3′
 
 Given coding DNA **5′–GACTTACG–3′**, keep the order and replace T with U:

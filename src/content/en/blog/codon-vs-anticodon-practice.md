@@ -75,6 +75,8 @@ Look up **CUG → leucine (Leu)**. CAG in an mRNA table specifies glutamine (Gln
 
 Use **Table 28.1** in [OpenStax's translation chapter](https://openstax.org/books/organic-chemistry/pages/28-5-translation-of-rna-protein-biosynthesis) for the amino acid assignments throughout this worksheet. Follow first, second, then third base of the **5′→3′ mRNA codon**.
 
+The [DNA reverse complement flashcards](/catalog/packages/dna-reverse-complement-flashcards/) use the same direction check with A–T and C–G pairs in DNA.
+
 ## Mark the start before drawing triplet boundaries
 
 Here is a short, hypothetical mature mRNA segment:
