@@ -2,7 +2,7 @@
 title: "StudyFetch Alternative in 2026: StudyFetch vs Anki vs Nibomo"
 description: "Looking for a StudyFetch alternative? Compare StudyFetch, Anki, and Nibomo for AI study tools, spaced review, offline use, privacy, and ownership."
 date: "2026-08-17"
-updated: "2026-11-08"
+updated: "2026-11-09"
 image: "/blog/studyfetch-alternative.png"
 keywords:
   - "studyfetch alternative"
@@ -100,7 +100,7 @@ The route out is less clearly documented. I found sharing instructions, but no g
 
 Anki has the strongest portability here. Its [import manual](https://docs.ankiweb.net/importing/intro.html) covers text, packaged Anki decks, and Mnemosyne data. Its [export manual](https://docs.ankiweb.net/exporting.html) separates readable text, single-deck `.apkg`, and whole-collection `.colpkg`. A collection package includes decks and scheduling; deck-package settings decide whether media, presets, and scheduling information travel with it.
 
-Nibomo has the weakest direct competitor migration. Its Library import accepts only `flashcards.zip`, and it can't import a StudyFetch set. An Anki `.apkg` can be attached to online AI chat, which [reads the package and saves the cards](/blog/import-anki-apkg/): text and tags come through, and so did the one image in the test, but review history doesn't, and cloze notes become question-and-answer cards. Export with **Support older Anki versions**; Nibomo gives the AI the list of media file names only for that older format. The test package was an older-format file built with a script, not an Anki export. Check images after import. Text, CSV, Markdown, document, spreadsheet, image, and PDF files work the same way, as source material for new cards. That is reconstruction, not import.
+Nibomo has the weakest direct competitor migration. Its Library import accepts only `flashcards.zip`, and it can't import a StudyFetch set. An Anki `.apkg` can be attached to online AI chat, which [reads the package and saves the cards](/blog/import-anki-apkg/). Current-format exports work, up to 30 MB per file; you don't need **Support older Anki versions**. Tags come through, each Anki deck becomes a Nibomo deck (each subdeck becomes its own flat deck, named with the full Anki path, and the parent deck also includes the subdeck's cards), and cloze cards stay fill-in-the-blank. In a small test, all three images landed on the right cards; check images after import anyway. Review history doesn't. Text, CSV, Markdown, document, spreadsheet, image, and PDF files work the same way, as source material for new cards. That is reconstruction, not import.
 
 Its own package has deliberate limits too. The [data-portability documentation](/docs/self-hosting/#data-portability) says it transfers active cards, tags, and related media—not review history, FSRS state, workspace settings, full deck structures, or account data. Treat it as content transfer, not disaster recovery.
 

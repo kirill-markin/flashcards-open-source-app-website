@@ -2,7 +2,7 @@
 title: "Anki vs Nibomo (2026): Which App Should You Use?"
 description: "Compare Anki and Nibomo on FSRS, offline use, mobile apps, AI, migration, self-hosting, and data control before you switch."
 date: "2026-04-25"
-updated: "2026-11-08"
+updated: "2026-11-09"
 image: "/blog/anki-vs-flashcards-open-source-app-v2.png"
 keywords:
   - "Anki vs Nibomo"
@@ -101,12 +101,12 @@ Anki's full collection export is more complete at the user level. This is an imp
 
 Moving from Anki to Nibomo is currently a content transfer through AI chat:
 
-1. Export the deck from Anki as `.apkg` with **Support older Anki versions** ticked. Nibomo gives the AI the list of media file names only for that older format. The test package was an older-format file built with a script, not an Anki export.
+1. Export the deck from Anki as `.apkg`. Current-format exports work; you don't need **Support older Anki versions**.
 2. Attach the file in Nibomo AI chat and ask it to turn the deck into cards. Each file can be up to 30 MB.
 3. The AI reads the package and saves the cards directly; in the test there was no draft or confirmation step.
-4. Compare card counts, fronts, backs, tags, and images with Anki. Check images in particular.
+4. Compare card counts, fronts, backs, tags, decks, and images with Anki. Check images in particular.
 
-In a test with a small sample deck, basic cards, tags, and an image came through. Each basic-and-reversed note became two one-way cards, cloze notes became question-and-answer cards, and subdecks became flat Nibomo decks. Review history, due dates, FSRS memory, note types, template HTML/CSS, and add-on behavior don't transfer. The [`.apkg` import guide](/blog/import-anki-apkg/) shows the whole run. The older [TXT migration guide](/blog/migrate-from-anki-txt-export-open-source-flashcards/) still works for text-only decks. If your review history has to move too, see the [broader Anki alternatives comparison](/blog/best-anki-alternatives/) instead.
+In a test with a newest-format package made with Anki's official export code (the anki Python library), basic cards and tags came through, and all three images landed on the right cards. Each basic-and-reversed note became two one-way cards, and cloze cards stayed fill-in-the-blank. Each Anki deck became a Nibomo deck: each subdeck became its own flat deck, named with the full Anki path, and the parent deck also included the subdeck's cards. Review history, due dates, FSRS memory, note types, template HTML/CSS, and add-on behavior don't transfer. Audio wasn't part of the test. The [`.apkg` import guide](/blog/import-anki-apkg/) shows the whole run. The older [TXT migration guide](/blog/migrate-from-anki-txt-export-open-source-flashcards/) still works for text-only decks. If your review history has to move too, see the [broader Anki alternatives comparison](/blog/best-anki-alternatives/) instead.
 
 ## Run a low-risk representative-deck trial
 
