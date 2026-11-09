@@ -3594,6 +3594,21 @@
     "bytes": 2236901
   },
   {
+    "publicPath": "/blog/ncea-as92047-energy-concepts.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/43dd30c71f74dc630ab55186e554a27a662647c1fa5b53c532a8860bf4a644a3.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "43dd30c71f74dc630ab55186e554a27a662647c1fa5b53c532a8860bf4a644a3",
+    "bytes": 117792,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/97624218043284f53f0ec538e5edff0f59d793c4a081500b2937187e58c33e27.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "97624218043284f53f0ec538e5edff0f59d793c4a081500b2937187e58c33e27",
+      "bytes": 2069097
+    }
+  },
+  {
     "publicPath": "/blog/negative-reinforcement-vs-punishment.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/211334d0c05c36cd921cd7ae00e491b14c99d67bd2a22d475d414b1992da1d7e.png",
     "width": 1672,

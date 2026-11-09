@@ -62,6 +62,7 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   "rate-law-initial-rates-practice": { en: "ap-chemistry-flashcards" },
   "buffer-calculations-practice": { en: "ap-chemistry-flashcards" },
   "force-displacement-graph-practice": { en: "ap-physics-1-flashcards" },
+  "ncea-as92047-energy-concepts": { en: "ncea-level-1-as92047-energy-concepts" },
   "static-kinetic-friction-practice": { en: "ap-physics-1-flashcards" },
   "momentum-collisions-practice": { en: "ap-physics-1-flashcards" },
   "serial-dilution-practice": { en: "ap-chemistry-flashcards" },
