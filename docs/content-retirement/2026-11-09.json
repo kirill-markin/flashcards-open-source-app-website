@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "audit_date": "2026-11-09",
+  "action": "retire",
+  "baseline": {
+    "site_sha": "9d5ef3770c0c3649364fad824f275cd2c68c09e6",
+    "app_sha": "40e13e0fa457111dd7593860191b9f734b18bbfe",
+    "deployed_admin": "ffa9d1c2b2dc39d165464dc7ef03acde66d8789b",
+    "frozen_metric_source_sha": "ffa9d1c2b2dc39d165464dc7ef03acde66d8789b"
+  },
+  "policy": {
+    "min_age_days": 90,
+    "keep_at_web_clicks": 3,
+    "keep_at_engaged_visitor_days": 2
+  },
+  "search_window": {
+    "from": "2026-09-09",
+    "to": "2026-11-07",
+    "days": 60,
+    "cutover": "2026-09-18",
+    "properties": {
+      "searchconsole": {
+        "expected_days": 60,
+        "empty_days": [],
+        "gaps": []
+      },
+      "searchconsole_nibomo": {
+        "expected_days": 53,
+        "empty_days": [
+          "2026-09-16",
+          "2026-09-17"
+        ],
+        "gaps": []
+      }
+    }
+  },
+  "engagement_window": {
+    "from": "2026-09-10",
+    "to": "2026-11-09",
+    "time": "2026-11-09T06:03:21.384Z",
+    "switch": "2026-10-19T21:06:34Z",
+    "reliable_from": "2026-09-24",
+    "reliable_through": "2026-11-08",
+    "complete_days": 46,
+    "gaps": [],
+    "refresh": {
+      "last_completed": "2026-11-09T05:50:28.324000+00:00"
+    }
+  },
+  "engagement_limits": {
+    "current_day_is_partial": true,
+    "archived_pathless_engaged_article_views": 25,
+    "unassigned_engaged_article_views_in_reliable_window": 0,
+    "definition": "Deduplicated by cohort, resolved actor or daily visitor hash, and UTC visit date across family URLs. Passive impressions could qualify before the October 19 switch. Older single-page reads cannot be reconstructed."
+  },
+  "age_definition": "Age uses the later of declared publication and first Git appearance, following verified renames. Git appearance is a proxy for availability.",
+  "families": {
+    "how-to-use-flashcards-for-ap-psychology": {
+      "decision": "retire",
+      "veto": null,
+      "clicks": 2,
+      "impressions": 187,
+      "engaged_days": 0,
+      "engaged_views": 0,
+      "youngest_days": 194,
+      "members": [
+        "src/content/ar/blog/how-to-use-flashcards-for-ap-psychology.md",
+        "src/content/de/blog/how-to-use-flashcards-for-ap-psychology.md",
+        "src/content/en/blog/how-to-use-flashcards-for-ap-psychology.md",
+        "src/content/es/blog/how-to-use-flashcards-for-ap-psychology.md",
+        "src/content/hi/blog/how-to-use-flashcards-for-ap-psychology.md",
+        "src/content/ja/blog/how-to-use-flashcards-for-ap-psychology.md",
+        "src/content/ru/blog/how-to-use-flashcards-for-ap-psychology.md",
+        "src/content/zh/blog/how-to-use-flashcards-for-ap-psychology.md"
+      ],
+      "concrete_use_review": "The guide addresses the May 2026 exam. Two live articles can direct readers to the still-published AP Psychology deck. No concrete backlink, support obligation or current campaign was found."
+    }
+  },
+  "records": {
+    "src/content/ar/blog/how-to-use-flashcards-for-ap-psychology.md": {
+      "locale": "ar",
+      "published": "2026-04-29",
+      "route": "/ar/blog/how-to-use-flashcards-for-ap-psychology/",
+      "family": "how-to-use-flashcards-for-ap-psychology",
+      "first_source": "2026-04-29",
+      "age_days": 194,
+      "clicks": 0,
+      "impressions": 0,
+      "engaged_views": 0,
+      "engaged_days": 0
+    },
+    "src/content/de/blog/how-to-use-flashcards-for-ap-psychology.md": {
+      "locale": "de",
+      "published": "2026-04-29",
+      "route": "/de/blog/how-to-use-flashcards-for-ap-psychology/",
+      "family": "how-to-use-flashcards-for-ap-psychology",
+      "first_source": "2026-04-29",
+      "age_days": 194,
+      "clicks": 0,
+      "impressions": 0,
+      "engaged_views": 0,
+      "engaged_days": 0
+    },
+    "src/content/en/blog/how-to-use-flashcards-for-ap-psychology.md": {
+      "locale": "en",
+      "published": "2026-04-29",
+      "route": "/blog/how-to-use-flashcards-for-ap-psychology/",
+      "family": "how-to-use-flashcards-for-ap-psychology",
+      "first_source": "2026-04-29",
+      "age_days": 194,
+      "clicks": 1,
+      "impressions": 117,
+      "engaged_views": 0,
+      "engaged_days": 0
+    },
+    "src/content/es/blog/how-to-use-flashcards-for-ap-psychology.md": {
+      "locale": "es",
+      "published": "2026-04-29",
+      "route": "/es/blog/how-to-use-flashcards-for-ap-psychology/",
+      "family": "how-to-use-flashcards-for-ap-psychology",
+      "first_source": "2026-04-29",
+      "age_days": 194,
+      "clicks": 0,
+      "impressions": 34,
+      "engaged_views": 0,
+      "engaged_days": 0
+    },
+    "src/content/hi/blog/how-to-use-flashcards-for-ap-psychology.md": {
+      "locale": "hi",
+      "published": "2026-04-29",
+      "route": "/hi/blog/how-to-use-flashcards-for-ap-psychology/",
+      "family": "how-to-use-flashcards-for-ap-psychology",
+      "first_source": "2026-04-29",
+      "age_days": 194,
+      "clicks": 0,
+      "impressions": 0,
+      "engaged_views": 0,
+      "engaged_days": 0
+    },
+    "src/content/ja/blog/how-to-use-flashcards-for-ap-psychology.md": {
+      "locale": "ja",
+      "published": "2026-04-29",
+      "route": "/ja/blog/how-to-use-flashcards-for-ap-psychology/",
+      "family": "how-to-use-flashcards-for-ap-psychology",
+      "first_source": "2026-04-29",
+      "age_days": 194,
+      "clicks": 0,
+      "impressions": 8,
+      "engaged_views": 0,
+      "engaged_days": 0
+    },
+    "src/content/ru/blog/how-to-use-flashcards-for-ap-psychology.md": {
+      "locale": "ru",
+      "published": "2026-04-29",
+      "route": "/ru/blog/how-to-use-flashcards-for-ap-psychology/",
+      "family": "how-to-use-flashcards-for-ap-psychology",
+      "first_source": "2026-04-29",
+      "age_days": 194,
+      "clicks": 0,
+      "impressions": 9,
+      "engaged_views": 0,
+      "engaged_days": 0
+    },
+    "src/content/zh/blog/how-to-use-flashcards-for-ap-psychology.md": {
+      "locale": "zh",
+      "published": "2026-04-29",
+      "route": "/zh/blog/how-to-use-flashcards-for-ap-psychology/",
+      "family": "how-to-use-flashcards-for-ap-psychology",
+      "first_source": "2026-04-29",
+      "age_days": 194,
+      "clicks": 1,
+      "impressions": 19,
+      "engaged_views": 0,
+      "engaged_days": 0
+    }
+  }
+}

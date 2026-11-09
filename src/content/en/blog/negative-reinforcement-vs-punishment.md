@@ -143,6 +143,6 @@ For an item you missed, put the scenario and the exact action to classify on the
 
 You can also change one detail yourself: keep removal but reverse the later effect, or keep the decrease but replace removal with addition. Explain why the answer changes before checking the table again.
 
-For more scenarios, the [operant conditioning flashcards](/catalog/packages/operant-conditioning-flashcards/) offer 48 English cards, including checks for missing evidence. They're optional follow-on practice for this distinction, not a complete psychology course. The broader [AP Psychology flashcard guide](/blog/how-to-use-flashcards-for-ap-psychology/) covers how to organize terms, studies, and application questions.
+For more scenarios, the [operant conditioning flashcards](/catalog/packages/operant-conditioning-flashcards/) offer 48 English cards, including checks for missing evidence. They're optional follow-on practice for this distinction, not a complete psychology course. For practice beyond operant conditioning, try the [AP Psychology flashcard deck](/catalog/packages/ap-psychology-flashcards/).
 
 Before you settle on an answer, underline what changed in the environment and what happened later to the same person's same action. Your label should explain both.

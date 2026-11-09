@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-09"
+retirementReason: "Family below search and engagement thresholds after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-09.json#/records/src~1content~1en~1blog~1how-to-use-flashcards-for-ap-psychology.md"
 title: "How to Use Flashcards for AP Psychology in 2026: Terms, Studies, and FRQ Evidence That Actually Stick"
 description: "Need a practical AP Psychology flashcards workflow for 2026? Here is how to study terms, famous studies, research methods, and FRQ evidence for the fully digital Bluebook exam on May 12, 2026."
 date: "2026-04-29"
