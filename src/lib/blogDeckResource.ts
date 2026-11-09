@@ -27,11 +27,13 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   "sap-idoc-status-codes": { en: "sap-idoc-status-codes" },
   "korean-vocabulary-recall-practice": { en: "korean-everyday-vocabulary" },
   "japanese-small-tsu": { en: "basic-hiragana-romaji" },
+  "japanese-masu-dictionary-te-form": { en: "japanese-masu-dictionary-te-form" },
   "modern-greek-vocabulary-flashcards": { en: "modern-greek-everyday-vocabulary" },
   "latin-prepositions-conjunctions": { de: "latin-prepositions-conjunctions-german-speakers" },
   "french-conversational-fillers": { en: "french-conversational-fillers" },
   "persian-vocabulary-flashcards": { en: "persian-everyday-vocabulary" },
   "thai-alphabet-flashcards": { it: "thai-alphabet-italian-speakers" },
+  "spanish-flashcards": { de: "everyday-spanish-german-speakers" },
   "rioplatense-spanish-voseo-household": {
     ru: "rioplatense-spanish-voseo-household-russian-speakers",
   },
@@ -40,6 +42,7 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
     ru: "dutch-home-work-family-vocabulary-ru",
   },
   "gmdss-goc-flashcards": { en: "gmdss-goc-radio-concepts" },
+  "gmdss-goc-hf-distress-channels": { en: "gmdss-goc-hf-distress-channels" },
   "everyday-english-vocabulary-practice": {
     ru: "everyday-english-vocabulary-russian-speakers",
   },
@@ -59,6 +62,7 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   "rate-law-initial-rates-practice": { en: "ap-chemistry-flashcards" },
   "buffer-calculations-practice": { en: "ap-chemistry-flashcards" },
   "force-displacement-graph-practice": { en: "ap-physics-1-flashcards" },
+  "ncea-as92047-energy-concepts": { en: "ncea-level-1-as92047-energy-concepts" },
   "static-kinetic-friction-practice": { en: "ap-physics-1-flashcards" },
   "momentum-collisions-practice": { en: "ap-physics-1-flashcards" },
   "serial-dilution-practice": { en: "ap-chemistry-flashcards" },
@@ -267,6 +271,7 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   "comma-splice-vs-fused-sentence": { en: "comma-splice-fused-sentence-flashcards" },
   "medical-terminology-flashcards": {
     en: "medical-terminology-word-parts",
+    de: "medizinische-fachbegriffe",
     es: "terminologia-medica-prefijos-raices-sufijos",
   },
   "us-constitutional-amendments-flashcards": { en: "us-constitutional-amendments" },
