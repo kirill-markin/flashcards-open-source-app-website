@@ -28,7 +28,7 @@ V závislosti od toho, ako hosťovanú službu používate, spracúvame:
 - prevádzkové a bezpečnostné údaje vrátane identifikátorov požiadaviek, časových pečiatok, IP adresy, identifikačného reťazca prehliadača, trasy, stavu odpovede, verzie aplikácie, podrobností o zariadení alebo platforme a očistenej diagnostiky chýb; a
 - údaje o používaní webovej stránky a produktu v aplikácii opísané nižšie v častiach Analytika a súbory cookie a Produktová analytika.
 
-Na vytvorenie hosťovaného účtu a prihlásenie doň je potrebná e-mailová adresa. Bez nej vám nemôžeme poskytnúť e-mailovú autentifikáciu ani synchronizáciu založenú na účte. Bez prihláseného účtu môžu byť dostupné obmedzené funkcie pre hostí alebo lokálne funkcie.
+Na vytvorenie hosťovaného účtu a prihlásenie doň je potrebná e-mailová adresa. Bez nej vám nemôžeme poskytnúť e-mailovú autentifikáciu ani synchronizáciu založenú na účte. Bez prihláseného účtu môžu byť dostupné obmedzené funkcie pre hostí alebo lokálne funkcie. Keď sa hosťovaná webová aplikácia chystá vytvoriť novú reláciu hosťa pre prehliadač, ktorý náš server označí ako možno automatizovaný (pretože jeho požiadavka prichádza zo siete cloudového hostingu, verzia prehliadača, ktorú uvádza, nezodpovedá prehliadaču, prehliadač výrazne zaostáva za aktuálnou verziou alebo jeho identifikačný reťazec prehliadača patrí automatizačnému softvéru), webová aplikácia najprv zobrazí overenie Cloudflare Turnstile a reláciu hosťa vytvorí až po úspešnom overení. Prostredníctvom overenia Cloudflare dostane vašu IP adresu a charakteristiky vášho prehliadača a zariadenia a spracúva ich pre nás, aby overenie vykonal. Vlastné spracúvanie zo strany Cloudflare opisujú jeho [Zásady ochrany súkromia](https://www.cloudflare.com/privacypolicy/) a [Dodatok o ochrane súkromia pre Turnstile](https://www.cloudflare.com/turnstile-privacy-policy/). Náš server potom pošle Cloudflare token overenia a vašu IP adresu na potvrdenie overenia a dostane späť informáciu, či overenie prešlo, spolu s podrobnosťami výsledku od Cloudflare (akcia, názov hostiteľa a prípadné chybové kódy), podľa ktorých overenie prijme alebo zamietne. Náš server zaznamená každý výsledok, či už bolo overenie vyžadované, úspešné, neúspešné alebo obídené (overenie môžu preskočiť iba naše vlastné automatizované testy vydaní), ako záznam v aplikačných logoch nášho backendu, nie ako udalosť produktovej analytiky, spolu so signálmi, na základe ktorých bol prehliadač označený, identifikátorom sieťového operátora adresy, z ktorej požiadavka prišla, hlavnými verziami prehliadača, ktoré prehliadač uvádza a hlási, aktuálnou hlavnou verziou, s ktorou sa porovnávajú, a identifikátorom požiadavky, a pri neúspešnom overení aj s dôvodom a podrobnosťami výsledku od Cloudflare; tieto záznamy sa uchovávajú tak, ako je opísané pre aplikačné logy CloudWatch v časti Uchovávanie a odstraňovanie. Robíme to na základe nášho oprávneného záujmu na predchádzaní automatizovanému zneužívaniu účtov hostí. Prehliadač, ktorý nie je označený, z Cloudflare nič nenačíta.
 
 ## Účely a právne základy
 
@@ -124,7 +124,7 @@ Pre hosťovanú službu využívame tieto kategórie poskytovateľov služieb:
 - OpenAI na voliteľné hosťované požiadavky AI;
 - Sentry na hlásenie očistených chýb a diagnostiky, ak je zapnuté v príslušnej hosťovanej službe alebo zostavení aplikácie;
 - Vercel na marketingovú webovú stránku a jej Web Analytics bez súborov cookie; a
-- Cloudflare na DNS a správu domén. Aktuálne DNS záznamy Nibomo sú v režime iba DNS, takže Cloudflare nesprostredkúva HTTP prevádzku hosťovanej webovej stránky ani aplikácie.
+- Cloudflare na DNS a správu domén a na overenie Turnstile, ktoré hosťovaná webová aplikácia zobrazí pred vytvorením relácie hosťa pre prehliadač označený ako možno automatizovaný. Aktuálne DNS záznamy Nibomo sú v režime iba DNS, takže Cloudflare nesprostredkúva HTTP prevádzku hosťovanej webovej stránky ani aplikácie.
 
 Od sprostredkovateľov konajúcich v našom mene vyžadujeme rovnakú alebo rovnocennú ochranu zdieľaných používateľských údajov podľa týchto zásad a platného práva. [Dodatok o spracúvaní údajov](https://openai.com/policies/data-processing-addendum/) OpenAI je súčasťou zmluvy o službách a vyžaduje obmedzené spracúvanie, dôvernosť, bezpečnostné opatrenia a záruky pri medzinárodných prenosoch.
 
@@ -132,7 +132,7 @@ Od sprostredkovateľov konajúcich v našom mene vyžadujeme rovnakú alebo rovn
 
 ## Medzinárodné prenosy
 
-Hlavná hosťovaná aplikácia beží v infraštruktúre AWS v EÚ. Nastavený e-mailový región Resend a dátový región Sentry sú tiež v Európe. Niektorí poskytovatelia vrátane OpenAI a Vercel môžu spracúvať údaje mimo vašej krajiny alebo Európskeho hospodárskeho priestoru. Ak sa to vyžaduje, pri týchto prenosoch využívame príslušné rozhodnutia o primeranosti, zmluvy o spracúvaní údajov a štandardné zmluvné doložky alebo rovnocenné záruky.
+Hlavná hosťovaná aplikácia beží v infraštruktúre AWS v EÚ. Nastavený e-mailový región Resend a dátový región Sentry sú tiež v Európe. Niektorí poskytovatelia vrátane OpenAI, Vercel a Cloudflare môžu spracúvať údaje mimo vašej krajiny alebo Európskeho hospodárskeho priestoru. Ak sa to vyžaduje, pri týchto prenosoch využívame príslušné rozhodnutia o primeranosti, zmluvy o spracúvaní údajov a štandardné zmluvné doložky alebo rovnocenné záruky.
 
 ## Uchovávanie a odstraňovanie
 
