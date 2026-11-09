@@ -33,6 +33,7 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   "french-conversational-fillers": { en: "french-conversational-fillers" },
   "persian-vocabulary-flashcards": { en: "persian-everyday-vocabulary" },
   "thai-alphabet-flashcards": { it: "thai-alphabet-italian-speakers" },
+  "spanish-flashcards": { de: "everyday-spanish-german-speakers" },
   "rioplatense-spanish-voseo-household": {
     ru: "rioplatense-spanish-voseo-household-russian-speakers",
   },

@@ -1,7 +1,8 @@
 ---
 title: "Spanisch-Flashcards 2026: Vokabeln, Genus, Verben und Wendungen"
-description: "So erstellst du praktische Spanisch-Flashcards für Vokabeln, Genus, Verbformen, Akzente, nützliche Wendungen und regionale Varianten – ohne riesiges Standarddeck."
+description: "Erstelle Spanisch-Karteikarten für Wortschatz, Genus, Verbformen und Akzente. Übe Alltagsdialoge mit Fragen auf Deutsch und Antworten auf Spanisch."
 date: "2026-08-10"
+updated: "2026-11-09"
 image: "/blog/spanish-flashcards.png"
 keywords:
   - "Spanisch Flashcards"
@@ -19,7 +20,7 @@ keywords:
 
 ![Eine Spanisch lernende Person wiederholt Flashcards zu Vokabeln, dem Genus von Substantiven, Verbformen, Akzenten und nützlichen Wendungen](/blog/spanish-flashcards.png)
 
-Gute **Spanisch-Flashcards** halten genau das fest, was du später abrufen willst: den Artikel zusammen mit dem Substantiv, eine Verbform in einer eindeutigen Situation, den Akzent, der über die richtige Antwort entscheidet, oder die konkrete Wendung aus deinem Kurs. Erstelle kleine Kartengruppen aus dem Spanisch, das du gerade liest, hörst oder selbst sprechen möchtest. So hat jedes Deck einen klaren Zweck. Für ganze Gespräche, Hörverstehen, Lesen und Schreiben bleibt weiterhin die echte Sprachpraxis zuständig.
+Gute **Spanisch-Flashcards** halten genau das fest, was du später abrufen willst: den Artikel zusammen mit dem Substantiv, eine Verbform in einer eindeutigen Situation, den Akzent, der über die richtige Antwort entscheidet, oder die konkrete Wendung aus deinem Kurs. Erstelle kleine Kartengruppen aus dem Spanisch, das du gerade liest, hörst oder selbst sprechen möchtest. So hat jedes Deck einen klaren Zweck. Für ganze Gespräche, Hörverstehen, Lesen und Schreiben bleibt weiterhin die echte Sprachpraxis zuständig. In der Dialogübung weiter unten antwortest du auf Spanisch und machst aus einer Situation deine eigene Karte.
 
 ## Entscheide zuerst, welches Spanisch du lernst
 
@@ -162,6 +163,33 @@ Sinnvolle Kategorien für solche Wendungen sind:
 
 Auf „Was sagt man im Restaurant?“ gibt es Dutzende gute Antworten. „Bitte mit der Wendung aus Lektion 4 um die Rechnung“ zielt auf genau eine. Bei Höflichkeit und Anredeformen ist diese Quellenbegrenzung besonders wichtig, denn die passende Formulierung hängt von der sprechenden Person, der Beziehung und der Region ab.
 
+## Kleine Dialogübung für unterwegs
+
+Du fährst nach Segovia. Dort triffst du am Abend eine Freundin im Café. Antworte in jeder Situation laut auf Spanisch und vergleiche erst danach mit den Vorschlägen.
+
+1. **Am Fahrkartenschalter.** „¿En qué puedo ayudarle?“, fragt der Mitarbeiter. Frag ihn, ob du auf dem Weg nach Segovia umsteigen musst.
+2. **Beim Nachfragen.** „Sí, tiene que hacer transbordo en …“ Den Namen des Bahnhofs hast du nicht verstanden. Bitte ihn höflich, den Namen zu wiederholen.
+3. **Vor dem Treffen.** „¿Nos vemos a las seis?“, schreibt deine Freundin. Schlag ihr halb sieben vor.
+4. **Im Café.** „¿El té con limón es para llevar?“, fragt die Bedienung. Sag, dass du den Tee hier trinken möchtest.
+
+### Mögliche Antworten
+
+1. *¿Tengo que cambiar de tren para ir a Segovia?* Du kannst auch *¿Hay que hacer transbordo para llegar a Segovia?* fragen.
+2. *¿Puede repetir el nombre de la estación, por favor?* Wenn klar ist, dass du den Namen meinst, reicht auch *¿Puede repetirlo, por favor?*
+3. *¿Qué tal a las seis y media?* Auch *¿Te viene bien a las seis y media?* passt. *Seis y media* ist halb sieben.
+4. *No, para tomar aquí, gracias.* Du kannst auch *Me lo tomo aquí, gracias* sagen.
+
+Entscheidend ist, dass dein Satz verständlich ist und zur Situation passt. Falls dir beim Nachfragen die Worte fehlen, mach aus Schritt 2 eine Karte.
+
+```text
+Vorderseite: Bitte am Fahrkartenschalter höflich darum, den Namen des Bahnhofs zu wiederholen.
+Rückseite: ¿Puede repetir el nombre de la estación, por favor?
+```
+
+Sag den Satz bei der nächsten Wiederholung aus dem Gedächtnis. Probier ihn danach mit einer Uhrzeit aus, etwa mit *¿Puede repetir la hora, por favor?*
+
+Mit den 60 [Spanisch-Karteikarten für den Alltag](/de/catalog/packages/everyday-spanish-german-speakers/) übst du ähnliche Situationen auf A1–A2-Niveau. Die Fragen und Erklärungen sind auf Deutsch, die Antworten auf Spanisch. Die Karten helfen dir etwa beim Nachfragen, Bestellen und Verabreden.
+
 ## Prüfe den Akzent, wenn der Akzent das Lernziel ist
 
 Wenn du Spanisch auch schreibst, muss auf der Vorderseite stehen, wann die exakte Schreibweise zählt. Dann ist der Akzent ein bewertbarer Teil der Antwort und kein Detail, das du nach jeder Wiederholung großzügig übersiehst.
@@ -192,7 +220,7 @@ Für die Aussprache brauchst du eine ähnliche Grenze. Das [Aussprache-Inventar 
 
 ## Kennzeichne regionale Varianten, statt falsche Fehler zu erzeugen
 
-Angenommen, in deinem auf Spanien ausgerichteten Kurs steht `el ordenador`, während eine Person in einem Interview `la computadora` sagt. Das RAE-Wörterbuch kennzeichnet die Computerbedeutung von [`ordenador` als in Spanien gebräuchlich](https://dle.rae.es/ordenador). Im Eintrag [`computador, computadora`](https://dle.rae.es/computador) sind sowohl die maskuline als auch die feminine Substantivform für das elektronische Gerät verzeichnet.
+Angenommen, in deinem auf Spanien ausgerichteten Kurs steht `el ordenador`, während eine Person in einem Interview `la computadora` sagt. Das [Diccionario panhispánico de dudas](https://www.rae.es/dpd/computador) nennt `ordenador` als übliche Form in Spanien. Im Spanischen Amerikas sind je nach Land `computadora` oder `computador` verbreitet.
 
 Fasse beide Formen nicht in einer umgekehrten Karte zusammen, die nur nach `Computer` fragt und dadurch eine gültige Antwort als Fehler wertet. Grenze stattdessen jede Karte eindeutig ein:
 
@@ -266,7 +294,7 @@ In diesem Kreislauf bleibt **Spanischlernen mit Spaced Repetition** eine Unterst
 
 ## Wo Nibomo ins Spiel kommt
 
-[Nibomo](/de/features/) übernimmt in diesem Ablauf die Wiederholungen. Die App unterstützt Karten mit Vorder- und Rückseite, Decks und Tags, fällige Wiederholungen nach FSRS, KI-gestützte Kartenerstellung, Offline-Lernen und Synchronisierung im Web sowie auf iOS und Android, portable Importe und Exporte und eine Open-Source-Option zum Selbsthosten.
+[Nibomo](/de/#key-features) plant mit FSRS, wann deine Karten wieder fällig sind. Du kannst Karten in Decks organisieren, mit Tags versehen und deine Lernmaterialien importieren oder exportieren. Deine Karten werden zwischen Web, iOS und Android synchronisiert. Auf iOS und Android kannst du auch offline wiederholen.
 
 Eine einfache Struktur dafür sieht so aus:
 
@@ -275,9 +303,9 @@ Eine einfache Struktur dafür sieht so aus:
 - Quellen- und Varietätshinweise auf der Rückseite, wenn sie die Antwort bestimmen
 - FSRS-Wiederholungen, sobald jede Frage eindeutig genug für eine Bewertung ist
 
-KI kann aus deinem Material einen Kartenentwurf erstellen oder eine Frage präziser formulieren. Du entscheidest weiterhin selbst, was gespeichert wird, und überprüfst das Spanisch. Die App enthält weder einen offiziellen Spanischkurs noch ein offizielles fertiges Spanisch-Deck. Sie bietet auch keine von Muttersprachlern eingesprochenen Audiodateien zu den Beispielen dieses Artikels, keine Aussprachebewertung, keine Gesprächsübungen und keine automatische Prüfung von Grammatik oder regionalem Sprachgebrauch.
+KI kann aus deinem Material einen Kartenentwurf erstellen oder eine Frage präziser formulieren. Du entscheidest, was du speicherst, und überprüfst das Spanisch anhand deiner Quelle. Rückmeldung zur Aussprache bekommst du zum Beispiel im Gespräch mit deiner Lehrkraft.
 
-Die gehostete App ist in der aktuellen Betaphase kostenlos, einschließlich KI und Synchronisierung. Du kannst sie außerdem selbst hosten. Unter [Erste Schritte](/de/docs/getting-started/) findest du Anleitungen für die gehostete App, die mobilen Apps, den Agenten und das Selbsthosting.
+Mit der gehosteten App kannst du kostenlos anfangen. Als Open-Source-Projekt lässt sich Nibomo auch selbst hosten. Unter [Erste Schritte](/de/docs/getting-started/) findest du die Anleitungen.
 
 ## Häufige Fragen zu Spanisch-Flashcards
 
