@@ -28,7 +28,7 @@ Sõltuvalt sellest, kuidas majutatud teenust kasutad, töötleme:
 - tegevus- ja turvaandmeid, sealhulgas päringute identifikaatoreid, ajatempleid, IP-aadressi, kasutajaagenti, marsruuti, vastuse olekut, rakenduse versiooni, seadme või platvormi andmeid ja puhastatud veadiagnostikat; ning
 - veebisaidi ja rakendusesisese tootekasutuse andmeid, mida kirjeldavad allpool jaotised „Analüütika ja küpsised“ ning „Tooteanalüütika“.
 
-Majutatud konto loomiseks ja sellesse sisselogimiseks on vaja e-posti aadressi. Ilma selleta ei saa me pakkuda e-postipõhist autentimist ega kontopõhist sünkroonimist. Mõned piiratud külalis- või kohalikud funktsioonid võivad olla saadaval ka ilma sisselogitud kontota.
+Majutatud konto loomiseks ja sellesse sisselogimiseks on vaja e-posti aadressi. Ilma selleta ei saa me pakkuda e-postipõhist autentimist ega kontopõhist sünkroonimist. Mõned piiratud külalis- või kohalikud funktsioonid võivad olla saadaval ka ilma sisselogitud kontota. Kui majutatud veebirakendus on loomas uut külalisseanssi brauserile, mille meie server märgib potentsiaalselt automatiseerituks (sest selle päring tuleb pilvemajutuse võrgust, brauseri versioon, mida see väidab, ei vasta brauserile, brauser on praegusest versioonist kaugel maas, selle kasutajaagent kuulub automatiseerimistarkvarale või meie server ei suuda kindlaks teha, millisest võrgust päring tuleb), näitab veebirakendus esmalt Cloudflare Turnstile'i kontrolli ja loob külalisseansi alles pärast kontrolli läbimist. Kontrolli kaudu saab Cloudflare sinu IP-aadressi ning sinu brauseri ja seadme omadused ning töötleb neid meie nimel kontrolli tegemiseks. Cloudflare'i enda töötlemist kirjeldavad tema [privaatsuspoliitika](https://www.cloudflare.com/privacypolicy/) ja [Turnstile'i privaatsuslisa](https://www.cloudflare.com/turnstile-privacy-policy/). Seejärel saadab meie server Cloudflare'ile kontrolli tokeni ja, kui see on teada, sinu IP-aadressi kontrolli kinnitamiseks ning saab vastu teabe selle kohta, kas kontroll läbiti, koos Cloudflare'i tulemuse üksikasjadega (toiming, hostinimi ja võimalikud veakoodid), mille alusel server kontrolli aktsepteerib või tagasi lükkab. Meie server salvestab iga tulemuse, olgu kontroll nõutud, läbitud, ebaõnnestunud või vahele jäetud (kontrolli saavad vahele jätta ainult meie enda automatiseeritud väljalasketestid), kirjena meie taustasüsteemi rakenduslogidesse, mitte tooteanalüütika sündmusena, koos signaalidega, mille tõttu brauser märgiti, selle aadressi võrguoperaatori identifikaatoriga, kust päring tuli, brauseri põhiversioonidega, mida brauser väidab ja teatab, praeguse põhiversiooniga, millega neid võrreldakse, ja päringu identifikaatoriga ning ebaõnnestunud kontrolli korral ka põhjuse ja Cloudflare'i tulemuse üksikasjadega; neid kirjeid säilitatakse nii, nagu on CloudWatchi rakenduslogide kohta kirjeldatud jaotises „Säilitamine ja kustutamine“. Teeme seda oma õigustatud huvi alusel vältida külaliskontode automatiseeritud kuritarvitamist. Brauser, mida pole märgitud, ei laadi Cloudflare'ist midagi.
 
 ## Eesmärgid ja õiguslikud alused
 
@@ -124,7 +124,7 @@ Kasutame majutatud teenuse jaoks järgmisi teenusepakkujate kategooriaid:
 - OpenAI valikuliste majutatud AI päringute jaoks;
 - Sentry puhastatud vea- ja diagnostikaaruannete jaoks, kui see on asjakohases majutatud teenuses või rakenduse järgus lubatud;
 - Vercel turundusveebisaidi ja selle küpsisteta Web Analyticsi jaoks; ning
-- Cloudflare DNS-i ja domeenide haldamiseks. Nibomo praegused DNS-kirjed on ainult DNS-režiimis, seega Cloudflare ei vahenda majutatud veebisaidi ega rakenduse HTTP-liiklust.
+- Cloudflare DNS-i ja domeenide haldamiseks ning Turnstile'i kontrolliks, mida majutatud veebirakendus näitab enne külalisseansi loomist potentsiaalselt automatiseerituks märgitud brauserile. Nibomo praegused DNS-kirjed on ainult DNS-režiimis, seega Cloudflare ei vahenda majutatud veebisaidi ega rakenduse HTTP-liiklust.
 
 Nõuame meie nimel tegutsevatelt volitatud töötlejatelt jagatud kasutajaandmetele sama või samaväärset kaitset selle poliitika ja kohaldatava õiguse alusel. OpenAI [andmetöötluse lisa](https://openai.com/policies/data-processing-addendum/) kuulub teenuselepingusse ning nõuab piiratud töötlemist, konfidentsiaalsust, turvameetmeid ja rahvusvahelise edastamise kaitsemeetmeid.
 
@@ -132,7 +132,7 @@ Andmeid võidakse avaldada ka jagatud tööruumi teistele liikmetele vastavalt t
 
 ## Rahvusvahelised edastused
 
-Peamine majutatud rakendus töötab AWS-i ELi taristus. Seadistatud Resendi e-posti piirkond ja Sentry andmepiirkond asuvad samuti Euroopas. Mõned teenusepakkujad, sealhulgas OpenAI ja Vercel, võivad töödelda andmeid väljaspool sinu riiki või Euroopa Majanduspiirkonda. Kui see on nõutav, kasutame nende edastuste puhul kohaldatavaid kaitse piisavuse otsuseid, andmetöötluslepinguid ja lepingu tüüptingimusi või samaväärseid kaitsemeetmeid.
+Peamine majutatud rakendus töötab AWS-i ELi taristus. Seadistatud Resendi e-posti piirkond ja Sentry andmepiirkond asuvad samuti Euroopas. Mõned teenusepakkujad, sealhulgas OpenAI, Vercel ja Cloudflare, võivad töödelda andmeid väljaspool sinu riiki või Euroopa Majanduspiirkonda. Kui see on nõutav, kasutame nende edastuste puhul kohaldatavaid kaitse piisavuse otsuseid, andmetöötluslepinguid ja lepingu tüüptingimusi või samaväärseid kaitsemeetmeid.
 
 ## Säilitamine ja kustutamine
 

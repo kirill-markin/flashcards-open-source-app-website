@@ -28,7 +28,7 @@ Depending on how you use the hosted service, we process:
 - operational and security data, including request identifiers, timestamps, IP address, user agent, route, response status, app version, device or platform details, and sanitized error diagnostics; and
 - website and in-app product usage data described in the Analytics and Product Analytics sections below.
 
-An email address is required to create and sign in to a hosted account. Without it, we cannot provide email authentication or account-based synchronization. Limited guest or local features may be available without a signed-in account.
+An email address is required to create and sign in to a hosted account. Without it, we cannot provide email authentication or account-based synchronization. Limited guest or local features may be available without a signed-in account. When the hosted web app is about to create a new guest session for a browser our server flags as possibly automated (because its request comes from a cloud-hosting network, the browser version it claims does not match the browser, the browser is far behind the current version, its user agent belongs to automation software, or our server cannot determine the network the request comes from), the web app first shows a Cloudflare Turnstile check and creates the guest session only after the check passes. Through the check, Cloudflare receives your IP address and characteristics of your browser and device and processes them for us to run the check. Cloudflare's own processing is described in its [Privacy Policy](https://www.cloudflare.com/privacypolicy/) and [Turnstile Privacy Addendum](https://www.cloudflare.com/turnstile-privacy-policy/). Our server then sends Cloudflare the check's token and, when known, your IP address to confirm the check, and receives back whether it passed, together with Cloudflare's result details (the action, hostname, and any error codes) that it uses to accept or reject the check. Our server records each outcome, whether a check was required, passed, failed, or bypassed (only our own automated release tests can skip the check), as an entry in our backend application logs, not as a product analytics event, with the signals that flagged the browser, the network operator identifier of the address the request came from, the major browser versions the browser claims and reports, the current major version they are compared with, and a request identifier, plus, for a failed check, the reason and Cloudflare's result details; these entries are kept as described for CloudWatch application logs in the Retention and Deletion section. We do this under our legitimate interest in preventing automated abuse of guest accounts. A browser that is not flagged loads nothing from Cloudflare.
 
 ## Purposes and Legal Bases
 
@@ -124,7 +124,7 @@ We use the following service-provider categories for the hosted service:
 - OpenAI for optional hosted AI requests;
 - Sentry for sanitized error and diagnostic reporting when enabled in the relevant hosted service or app build;
 - Vercel for the marketing website and its cookie-free Web Analytics; and
-- Cloudflare for DNS and domain management. Current Nibomo DNS records are DNS-only, so Cloudflare does not proxy hosted website or app HTTP traffic.
+- Cloudflare for DNS and domain management, and for the Turnstile check the hosted web app shows before creating a guest session for a browser flagged as possibly automated. Current Nibomo DNS records are DNS-only, so Cloudflare does not proxy hosted website or app HTTP traffic.
 
 We require processors acting on our behalf to provide the same or equal protection for shared user data under this policy and applicable law. OpenAI’s [Data Processing Addendum](https://openai.com/policies/data-processing-addendum/) is incorporated into its Services Agreement and requires restricted processing, confidentiality, security measures, and safeguards for international transfers.
 
@@ -132,7 +132,7 @@ Data can also be disclosed to other members of a shared workspace according to t
 
 ## International Transfers
 
-The primary hosted application runs in AWS's EU infrastructure. The configured Resend email region and Sentry data region are also in Europe. Some providers, including OpenAI and Vercel, may process data outside your country or the European Economic Area. Where required, we use applicable adequacy decisions, data-processing agreements, and Standard Contractual Clauses or equivalent safeguards for those transfers.
+The primary hosted application runs in AWS's EU infrastructure. The configured Resend email region and Sentry data region are also in Europe. Some providers, including OpenAI, Vercel, and Cloudflare, may process data outside your country or the European Economic Area. Where required, we use applicable adequacy decisions, data-processing agreements, and Standard Contractual Clauses or equivalent safeguards for those transfers.
 
 ## Retention and Deletion
 
