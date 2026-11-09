@@ -3,7 +3,7 @@ title: "Anki vs Quizlet vs Nibomo in 2026: Which Flashcard App Should You Choose
 description: "A practical 2026 Anki vs Quizlet vs Nibomo comparison covering scheduling, offline study, AI, imports, exports, price, open source, and data ownership."
 image: "/blog/anki-vs-quizlet-vs-open-source-flashcards-app.png"
 date: "2026-03-09"
-updated: "2026-11-08"
+updated: "2026-11-09"
 keywords:
   - "anki vs quizlet"
   - "best flashcard app"
@@ -105,7 +105,7 @@ The hosted Cloud Beta is free today, including AI and sync. That is a beta offer
 
 Starting from zero makes this comparison easy. Existing collections make it concrete.
 
-If you have years of Anki review history, stay with Anki unless the benefit of moving is worth resetting that history. For a simpler front-and-back deck, attach its `.apkg` in Nibomo's AI chat. The [Anki `.apkg` import guide](/blog/import-anki-apkg/) shows what comes through: text and tags do, and so did the one image in the test, but every card starts a new schedule and cloze notes become question-and-answer cards. Export with **Support older Anki versions**; Nibomo gives the AI the list of media file names only for that older format. The test package was an older-format file built with a script, not an Anki export. Check images after import. The older [Anki TXT migration workflow](/blog/migrate-from-anki-txt-export-open-source-flashcards/) still works for text-only decks.
+If you have years of Anki review history, stay with Anki unless the benefit of moving is worth resetting that history. For a simpler deck, attach its `.apkg` in Nibomo's AI chat. Current-format exports work, up to 30 MB per file; you don't need **Support older Anki versions**. The AI saves the cards directly: tags come through, each Anki deck becomes a Nibomo deck (each subdeck becomes its own flat deck, named with the full Anki path, and the parent deck also includes the subdeck's cards), and cloze cards stay fill-in-the-blank. In a small test, all three images landed on the right cards; check images after import anyway. Every card starts a new schedule. The [Anki `.apkg` import guide](/blog/import-anki-apkg/) shows the whole run. The older [Anki TXT migration workflow](/blog/migrate-from-anki-txt-export-open-source-flashcards/) still works for text-only decks.
 
 If your material is in Quizlet, first confirm that you created the set and that its useful content is text. The [Quizlet export to FSRS guide](/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/) walks through the practical path and the export restrictions.
 

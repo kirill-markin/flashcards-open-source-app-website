@@ -3,7 +3,7 @@ title: "Anki vs Quizlet vs Nibomo 2026: Welche Karteikarten-App ist die beste?"
 description: "Anki vs Quizlet vs Nibomo im Praxisvergleich 2026: Spaced Repetition, Offline-Lernen, KI, Import, Export, Preise, Open Source und Datenhoheit."
 image: "/blog/anki-vs-quizlet-vs-open-source-flashcards-app.png"
 date: "2026-03-09"
-updated: "2026-11-08"
+updated: "2026-11-09"
 keywords:
   - "anki vs quizlet"
   - "beste karteikarten app"
@@ -105,7 +105,7 @@ Die gehostete Cloud Beta ist derzeit kostenlos – einschließlich KI und Synchr
 
 Wenn du bei null anfängst, ist dieser Vergleich einfach. Mit vorhandenen Sammlungen wird er konkret.
 
-Wenn du über Jahre Anki-Wiederholungsverläufe aufgebaut hast, bleibe bei Anki – es sei denn, die Vorteile eines Umstiegs sind es dir wert, diese Verläufe zurückzusetzen. Für ein einfacheres Deck mit Vorder- und Rückseite hängst du seine `.apkg` im KI-Chat von Nibomo an. Der [Leitfaden zum Anki-`.apkg`-Import](/blog/import-anki-apkg/) zeigt, was dabei ankommt: Text und Tags ja, ebenso das eine Bild im Test, aber jede Karte startet mit einem neuen Lernplan, und Lückentext-Notizen werden zu Frage-Antwort-Karten. Exportiere mit **Support older Anki versions**; nur bei diesem älteren Format gibt Nibomo der KI die Liste der Mediendateinamen. Das Testpaket war eine per Skript erstellte Datei im älteren Format, kein Anki-Export. Prüfe die Bilder nach dem Import. Der ältere [Workflow für die Migration aus einer Anki-TXT-Datei](/blog/migrate-from-anki-txt-export-open-source-flashcards/) funktioniert weiterhin für reine Textdecks.
+Wenn du über Jahre Anki-Wiederholungsverläufe aufgebaut hast, bleibe bei Anki – es sei denn, die Vorteile eines Umstiegs sind es dir wert, diese Verläufe zurückzusetzen. Für ein einfacheres Deck hängst du seine `.apkg` im KI-Chat von Nibomo an. Exporte im aktuellen Format funktionieren, bis zu 30 MB pro Datei; **Support older Anki versions** brauchst du nicht. Die KI speichert die Karten direkt: Tags kommen an, jedes Anki-Deck wird zu einem Nibomo-Deck (jedes Unterdeck wird zu einem eigenen flachen Deck, benannt mit dem vollständigen Anki-Pfad, und das übergeordnete Deck enthält zusätzlich die Karten des Unterdecks), und Lückentext-Karten bleiben Lückentexte. In einem kleinen Test landeten alle drei Bilder auf den richtigen Karten; prüfe die Bilder nach dem Import trotzdem. Jede Karte startet mit einem neuen Lernplan. Der [Leitfaden zum Anki-`.apkg`-Import](/blog/import-anki-apkg/) zeigt den kompletten Ablauf. Der ältere [Workflow für die Migration aus einer Anki-TXT-Datei](/blog/migrate-from-anki-txt-export-open-source-flashcards/) funktioniert weiterhin für reine Textdecks.
 
 Wenn dein Material in Quizlet liegt, prüfe zuerst, ob du das Set selbst erstellt hast und ob die relevanten Inhalte als Text vorliegen. Bewahre den Rohexport auf und prüfe vor der Übertragung, welche Inhalte und Lernstände fehlen.
 

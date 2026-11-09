@@ -2,7 +2,7 @@
 title: "StudyFetch-Alternative 2026: StudyFetch vs Anki vs Nibomo"
 description: "Du suchst eine StudyFetch-Alternative? Vergleiche StudyFetch, Anki und Nibomo bei KI-Lernhilfen, Spaced Repetition, Offline-Nutzung, Datenschutz und Datenhoheit."
 date: "2026-08-17"
-updated: "2026-11-08"
+updated: "2026-11-09"
 image: "/blog/studyfetch-alternative.png"
 keywords:
   - "studyfetch alternative"
@@ -100,7 +100,7 @@ Der Weg hinaus ist weniger eindeutig dokumentiert. Ich habe Anleitungen zum Teil
 
 Anki bietet hier die größte Datenportabilität. Das [Handbuch zum Import](https://docs.ankiweb.net/importing/intro.html) behandelt Text, gepackte Anki-Stapel und Mnemosyne-Daten. Das [Handbuch zum Export](https://docs.ankiweb.net/exporting.html) unterscheidet zwischen lesbarem Text, einer `.apkg` für einen einzelnen Stapel und einer `.colpkg` für die gesamte Sammlung. Ein Sammlungspaket enthält Stapel und Planungsdaten. Die Einstellungen eines Stapelpakets bestimmen, ob Medien, Voreinstellungen und Informationen zur Lernplanung mit übertragen werden.
 
-Nibomo bietet die schwächsten direkten Migrationswege von konkurrierenden Produkten. Sein Bibliotheksimport akzeptiert nur `flashcards.zip`, und ein StudyFetch-Set kann es nicht importieren. Eine Anki-`.apkg` lässt sich an den Online-KI-Chat anhängen, der [das Paket liest und die Karten speichert](/blog/import-anki-apkg/): Text und Tags kommen an, ebenso das eine Bild im Test, der Wiederholungsverlauf aber nicht, und Lückentext-Notizen werden zu Frage-Antwort-Karten. Exportiere mit **Support older Anki versions**; nur bei diesem älteren Format gibt Nibomo der KI die Liste der Mediendateinamen. Das Testpaket war eine per Skript erstellte Datei im älteren Format, kein Anki-Export. Prüfe die Bilder nach dem Import. Text-, CSV-, Markdown-, Dokument-, Tabellen-, Bild- und PDF-Dateien funktionieren genauso, als Ausgangsmaterial für neue Karten. Das ist eine Rekonstruktion, kein Import.
+Nibomo bietet die schwächsten direkten Migrationswege von konkurrierenden Produkten. Sein Bibliotheksimport akzeptiert nur `flashcards.zip`, und ein StudyFetch-Set kann es nicht importieren. Eine Anki-`.apkg` lässt sich an den Online-KI-Chat anhängen, der [das Paket liest und die Karten speichert](/blog/import-anki-apkg/). Exporte im aktuellen Format funktionieren, bis zu 30 MB pro Datei; **Support older Anki versions** brauchst du nicht. Tags kommen an, jedes Anki-Deck wird zu einem Nibomo-Deck (jedes Unterdeck wird zu einem eigenen flachen Deck, benannt mit dem vollständigen Anki-Pfad, und das übergeordnete Deck enthält zusätzlich die Karten des Unterdecks), und Lückentext-Karten bleiben Lückentexte. In einem kleinen Test landeten alle drei Bilder auf den richtigen Karten; prüfe die Bilder nach dem Import trotzdem. Der Wiederholungsverlauf wird nicht übertragen. Text-, CSV-, Markdown-, Dokument-, Tabellen-, Bild- und PDF-Dateien funktionieren genauso, als Ausgangsmaterial für neue Karten. Das ist eine Rekonstruktion, kein Import.
 
 Auch das eigene Paket hat bewusst gesetzte Grenzen. Laut der [Dokumentation zur Datenportabilität](/docs/self-hosting/#data-portability) überträgt es aktive Karten, Tags und zugehörige Medien – nicht jedoch Wiederholungsverlauf, FSRS-Zustand, Workspace-Einstellungen, vollständige Stapelstrukturen oder Kontodaten. Betrachte es als Inhaltsübertragung, nicht als Wiederherstellung im Notfall.
 

@@ -2,7 +2,7 @@
 title: "2026 年最佳开源闪卡应用：6 款 FOSS 方案对比"
 description: "从源码覆盖范围、离线数据、同步、Anki 导入、导出、自托管和恢复能力等方面，对比六款仍在维护的开源闪卡应用。"
 date: "2026-08-02"
-updated: "2026-11-08"
+updated: "2026-11-09"
 image: "/blog/best-open-source-flashcard-apps-2026-v2.png"
 keywords:
   - "最佳开源闪卡应用"
@@ -119,7 +119,7 @@ Docker 运行的是真正的浏览器应用，但它不会变成已安装应用�
 
 Nibomo 自有的 ZIP 软件包用于迁移内容，不是账号备份。在 v1.23.0 中，它的[软件包结构定义](https://github.com/kirill-markin/flashcards-open-source-app/blob/v1.23.0/apps/backend/src/workspacePackages/types.ts)包含正面和背面内容、标签、卡片类型、来源元数据和软件包元数据；引用的媒体文件另行打包。它不包含牌组结构、复习历史、FSRS 状态、工作空间设置或账号。
 
-v1.23.0 没有 APKG 导入器，现在也仍然没有一键导入器：“资料库 → 导入”只接受 Nibomo 自己的 ZIP。自 [v1.34.0](https://github.com/kirill-markin/flashcards-open-source-app/releases/tag/v1.34.0) 起，你可以在 AI 对话中附加 `.apkg`，并让它把牌组转换成卡片。在一个小型示例牌组的测试中，文本、标签和一张图片都迁移了过来；填空笔记变成了问答卡片，每张卡片都作为新卡开始。模板、调度状态和牌组嵌套不会保留。导出时请勾选 **Support older Anki versions**：只有这种旧格式，Nibomo 才会把媒体文件名列表提供给 AI。测试用的包是用脚本生成的旧格式文件，而不是从 Anki 导出的。导入后请检查图片。详情见 [`.apkg` 导入指南](/blog/import-anki-apkg/)；较早的[从 Anki TXT/CSV 迁移流程](/blog/migrate-from-anki-txt-export-open-source-flashcards/)仍适用于纯文本牌组。两条路径都适合简单牌组，不适合高度定制的收藏。
+v1.23.0 没有 APKG 导入器，现在也仍然没有一键导入器：“资料库 → 导入”只接受 Nibomo 自己的 ZIP。自 [v1.34.0](https://github.com/kirill-markin/flashcards-open-source-app/releases/tag/v1.34.0) 起，你可以在 AI 对话中附加 `.apkg`，并让它把牌组转换成卡片。当前格式的导出文件可以直接使用，每个文件最大 30 MB；不需要勾选 **Support older Anki versions**。AI 会直接保存卡片：标签会保留，每个 Anki 牌组都会变成一个 Nibomo 牌组（每个子牌组会成为单独的扁平牌组，以完整的 Anki 路径命名，父牌组也会包含子牌组的卡片），填空卡片仍保留填空形式。在一次小型测试中，三张图片全部出现在了正确的卡片上；但导入后仍请检查图片。每张卡片都作为新卡开始，模板和调度状态也不会保留。详情见 [`.apkg` 导入指南](/blog/import-anki-apkg/)；较早的[从 Anki TXT/CSV 迁移流程](/blog/migrate-from-anki-txt-export-open-source-flashcards/)仍适用于纯文本牌组。两条路径都适合简单牌组，不适合高度定制的收藏。
 
 [自托管指南](/docs/self-hosting/)也同样明确。生产环境使用 AWS CDK 技术栈，包括 RDS、Cognito、API Gateway 和 Lambda、S3 和 CloudFront、机密信息、告警与备份。Cloudflare DNS、Resend 邮件和 Sentry 配置位于 AWS 之外。Docker Compose 用于本地开发，不是官方支持的生产软件包。需要私有 iOS 或 Android 二进制文件的运营者，要单独构建和分发。
 

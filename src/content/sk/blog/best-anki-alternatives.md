@@ -2,7 +2,7 @@
 title: "Alternatívy k Anki v roku 2026: čo si pri prechode zachováte, čo stratíte a čo získate"
 description: "Porovnajte sedem alternatív k Anki podľa vernosti migrácie, práce offline, plánovania, ceny, prístupu ku kódu a vlastného hostingu. Zistite, kedy je bezpečnejšie zostať pri Anki."
 date: "2026-03-14"
-updated: "2026-11-08"
+updated: "2026-11-09"
 image: "/blog/best-anki-alternatives.png"
 keywords:
   - "alternatívy k Anki"
@@ -78,7 +78,7 @@ Pri prvej otázke môže importér obstáť a pri zvyšných dvoch zlyhať.
 | [Quizlet](https://quizlet.com/) | [Vloženie pojmov a definícií](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content) | Z Anki sa neprenáša | Typy poznámok, šablóny, balíčky, štruktúra médií a všetky údaje o plánovaní |
 | [Brainscape](https://www.brainscape.com/) | [CSV, TXT, XLSX alebo ODS](https://brainscape.zendesk.com/hc/en-us/articles/115002369931-How-do-I-import-various-files-to-create-flashcards) | Z Anki sa neprenáša | Šablóny, doplnky, pravidlá pre médiá a všetky údaje o plánovaní |
 | [SuperMemo](https://www.supermemo.com/) | [Vloženie riadkov s otázkami a odpoveďami oddelenými oddeľovačom](https://www.supermemo.com/en/blog/how-to-create-flashcards-for-learning), najviac 100 naraz | Z Anki sa neprenáša | Štruktúra zbierky, médiá, šablóny a všetky údaje o plánovaní |
-| [Nibomo](https://nibomo.com/) | [Priložte `.apkg` v AI chate](/blog/import-anki-apkg/); AI kartičky rovno uloží. Funguje aj TXT alebo CSV | Z Anki sa neprenáša; každá kartička začína ako nová | Poznámky s dopĺňaním vynechaného textu sa menia na kartičky otázka – odpoveď; šablóny, CSS, hierarchia balíčkov a všetky údaje o plánovaní zostávajú v Anki |
+| [Nibomo](https://nibomo.com/) | [Priložte `.apkg` v AI chate](/blog/import-anki-apkg/); AI kartičky rovno uloží a kartičky s vynechaným textom zostanú kartičkami na dopĺňanie. Funguje aj TXT alebo CSV | Z Anki sa neprenáša; každá kartička začína ako nová | Šablóny, CSS a všetky údaje o plánovaní zostávajú v Anki; podbalíčky sa menia na samostatné ploché balíčky s celou cestou z Anki v názve |
 
 ## Cena, používanie offline, plánovanie a kontrola nad systémom
 
@@ -170,7 +170,7 @@ Vyberte si SuperMemo, ak vám jeho vlastná metóda alebo katalóg kurzov stoja 
 
 Nibomo vám dáva kontrolu nad veľkou časťou systému. [Repozitár s licenciou MIT](https://github.com/kirill-markin/flashcards-open-source-app) obsahuje webovú aplikáciu, klientov pre iOS a Android, backend, offline synchronizáciu, infraštruktúru, [verejné API](/docs/api/) a [server MCP](/docs/mcp-connector/). Opakovanie používa [FSRS](/docs/architecture/#scheduling). Web, iOS aj Android najprv zapisujú lokálne, pridajú zmeny do radu na odoslanie a po obnovení pripojenia ich synchronizujú.
 
-Tým sa však Nibomo nestáva kompatibilným s Anki. Import jedným kliknutím neexistuje a Knižnica → Import prijme len vlastný `.zip` Nibomo. Namiesto toho [priložíte `.apkg` v AI chate](/blog/import-anki-apkg/) a požiadate ho, aby z balíčka vytvoril kartičky. V teste s malým ukážkovým balíčkom sa zachovali základné kartičky, značky a obrázok, poznámky typu základná a obrátená sa rozdelili na dve jednosmerné kartičky a poznámky s dopĺňaním vynechaného textu sa prepísali na kartičky otázka – odpoveď. Podbalíčky sa zmenili na ploché balíčky Nibomo. Šablóny, doplnky, termíny, intervaly a záznamy opakovaní zostávajú v Anki a súbory `.colpkg` sa neprijímajú. Exportujte s voľbou **Support older Anki versions**; len pri tomto staršom formáte dá Nibomo AI zoznam názvov mediálnych súborov. Testovací balík bol súbor v staršom formáte vytvorený skriptom, nie export z Anki. Po importe skontrolujte obrázky. Staršia [migrácia cez Anki TXT](/blog/migrate-from-anki-txt-export-open-source-flashcards/) stále funguje pre kartičky len s textom.
+Tým sa však Nibomo nestáva kompatibilným s Anki. Import jedným kliknutím neexistuje a Knižnica → Import prijme len vlastný `.zip` Nibomo. Namiesto toho [priložíte `.apkg` v AI chate](/blog/import-anki-apkg/) a požiadate ho, aby z balíčka vytvoril kartičky. Fungujú exporty v aktuálnom formáte, do 30 MB na súbor; voľbu **Support older Anki versions** nepotrebujete. AI kartičky rovno uloží: značky sa prenesú, z každého balíčka Anki sa stane balíček Nibomo (z každého podbalíčka vznikne samostatný plochý balíček s celou cestou z Anki v názve a nadradený balíček obsahuje aj kartičky podbalíčka) a kartičky s vynechaným textom zostanú kartičkami na dopĺňanie. V malom teste s balíkom v najnovšom formáte, vytvoreným oficiálnym exportným kódom Anki (knižnicou anki pre Python), sa všetky tri obrázky dostali na správne kartičky a poznámky typu základná a obrátená sa rozdelili na dve jednosmerné kartičky. Po importe aj tak skontrolujte obrázky. Šablóny, doplnky, termíny, intervaly a záznamy opakovaní zostávajú v Anki a súbory `.colpkg` sa neprijímajú. Staršia [migrácia cez Anki TXT](/blog/migrate-from-anki-txt-export-open-source-flashcards/) stále funguje pre kartičky len s textom.
 
 Ani vlastný balík Nibomo `flashcards.zip` nie je plnohodnotnou zálohou. Presúva kartičky, značky a súvisiace médiá medzi pracovnými priestormi Nibomo. Neprenáša históriu opakovaní, stav FSRS, úplné štruktúry balíčkov, nastavenia pracovného priestoru ani účty.
 

@@ -2,7 +2,7 @@
 title: "2026 年 StudyFetch 替代品：StudyFetch、Anki 与 Nibomo 对比"
 description: "在找 StudyFetch 替代品？对比 StudyFetch、Anki 与 Nibomo 在 AI 学习工具、间隔复习、离线使用、隐私和所有权方面的差异。"
 date: "2026-08-17"
-updated: "2026-11-08"
+updated: "2026-11-09"
 image: "/blog/studyfetch-alternative.png"
 keywords:
   - "StudyFetch 替代品"
@@ -100,7 +100,7 @@ StudyFetch 记录了两条实用的导入路径：Quizlet URL 会变成基础的
 
 Anki 在这里的可迁移性最强。它的[导入手册](https://docs.ankiweb.net/importing/intro.html)涵盖文本、Anki 包和 Mnemosyne 数据；[导出手册](https://docs.ankiweb.net/exporting.html)则分别说明了可读文本、单牌组 `.apkg` 和完整集合 `.colpkg`。集合包包含牌组和调度数据；牌组包是否包含媒体、预设和调度信息，取决于导出设置。
 
-Nibomo 对竞品数据的直接迁移支持最弱。它的资料库导入只接受 `flashcards.zip`，也无法导入 StudyFetch 学习集。Anki `.apkg` 可以附加到在线 AI 对话中，由 AI [读取这个包并保存卡片](/blog/import-anki-apkg/)：文本和标签可以迁移，测试中的那张图片也迁移了过来，但复习历史不会迁移，填空笔记会变成问答卡片。导出时请勾选 **Support older Anki versions**：只有这种旧格式，Nibomo 才会把媒体文件名列表提供给 AI。测试用的包是用脚本生成的旧格式文件，而不是从 Anki 导出的。导入后请检查图片。文本、CSV、Markdown、文档、电子表格、图片和 PDF 也可以用同样的方式，作为新卡片的素材。这属于重新构建，而不是导入。
+Nibomo 对竞品数据的直接迁移支持最弱。它的资料库导入只接受 `flashcards.zip`，也无法导入 StudyFetch 学习集。Anki `.apkg` 可以附加到在线 AI 对话中，由 AI [读取这个包并保存卡片](/blog/import-anki-apkg/)。当前格式的导出文件可以直接使用，每个文件最大 30 MB；不需要勾选 **Support older Anki versions**。标签会保留，每个 Anki 牌组都会变成一个 Nibomo 牌组（每个子牌组会成为单独的扁平牌组，以完整的 Anki 路径命名，父牌组也会包含子牌组的卡片），填空卡片仍保留填空形式。在一次小型测试中，三张图片全部出现在了正确的卡片上；但导入后仍请检查图片。不过，复习历史不会迁移。文本、CSV、Markdown、文档、电子表格、图片和 PDF 也可以用同样的方式，作为新卡片的素材。这属于重新构建，而不是导入。
 
 它自己的包也有明确限制。[数据可迁移性文档](/docs/self-hosting/#data-portability)说明，该文件会转移当前有效的卡片、标签和相关媒体，但不包含复习历史、FSRS 状态、工作区设置、完整牌组结构或账号数据。请把它视为内容传输工具，而不是灾难恢复方案。
 

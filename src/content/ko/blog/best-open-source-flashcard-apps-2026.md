@@ -2,7 +2,7 @@
 title: "2026년 추천 오픈 소스 플래시카드 앱: FOSS 6종 비교"
 description: "유지보수 중인 오픈 소스 플래시카드 앱 6종을 소스 공개 범위, 오프라인 데이터, 동기화, Anki 가져오기, 내보내기, 셀프 호스팅, 복구 기준으로 비교합니다."
 date: "2026-08-02"
-updated: "2026-11-08"
+updated: "2026-11-09"
 image: "/blog/best-open-source-flashcard-apps-2026-v2.png"
 keywords:
   - "오픈 소스 플래시카드 앱 추천"
@@ -119,7 +119,7 @@ Nibomo는 이 비교에서 제품 소스를 가장 넓게 공개합니다. MIT �
 
 Nibomo의 자체 ZIP 패키지는 콘텐츠를 옮기는 형식이며 계정 백업은 아닙니다. v1.23.0의 [패키지 스키마](https://github.com/kirill-markin/flashcards-open-source-app/blob/v1.23.0/apps/backend/src/workspacePackages/types.ts)는 앞뒷면 내용, 태그, 카드 유형, 출처 메타데이터, 패키지 메타데이터를 담고, 참조된 미디어는 별도로 묶습니다. 덱 구조, 복습 기록, FSRS 상태, 워크스페이스 설정, 계정은 담지 않습니다.
 
-v1.23.0에는 APKG 가져오기 기능이 없고, 지금도 원클릭 가져오기는 없습니다. 보관함 → 가져오기는 Nibomo 자체 ZIP만 받습니다. [v1.34.0](https://github.com/kirill-markin/flashcards-open-source-app/releases/tag/v1.34.0)부터는 AI 채팅에 `.apkg`를 첨부하고 덱을 카드로 만들어 달라고 요청할 수 있습니다. 작은 샘플 덱으로 테스트했을 때 텍스트, 태그, 이미지 1개가 넘어왔고, 빈칸 채우기 노트는 질문·답변 카드가 되었으며, 모든 카드가 새 카드로 시작했습니다. 템플릿, 복습 일정 상태, 덱 중첩 구조는 유지되지 않습니다. **Support older Anki versions** 옵션을 선택해 내보내세요. Nibomo는 이 이전 형식에서만 AI에 미디어 파일 이름 목록을 전달합니다. 테스트 패키지는 Anki에서 내보낸 파일이 아니라 스크립트로 만든 이전 형식 파일이었습니다. 가져온 뒤에는 이미지를 확인하세요. 자세한 내용은 [`.apkg` 가져오기 안내](/blog/import-anki-apkg/)에 있으며, 예전 방식인 [Anki TXT/CSV 이전 절차](/blog/migrate-from-anki-txt-export-open-source-flashcards/)도 텍스트만 있는 덱에는 여전히 쓸 수 있습니다. 두 방법 모두 단순한 덱에는 합리적이지만 많이 커스터마이즈한 컬렉션에는 적합하지 않습니다.
+v1.23.0에는 APKG 가져오기 기능이 없고, 지금도 원클릭 가져오기는 없습니다. 보관함 → 가져오기는 Nibomo 자체 ZIP만 받습니다. [v1.34.0](https://github.com/kirill-markin/flashcards-open-source-app/releases/tag/v1.34.0)부터는 AI 채팅에 `.apkg`를 첨부하고 덱을 카드로 만들어 달라고 요청할 수 있습니다. 현재 형식으로 내보낸 파일을 그대로 쓸 수 있으며, 파일당 최대 30MB입니다. **Support older Anki versions** 옵션은 필요 없습니다. AI가 카드를 바로 저장합니다. 태그가 넘어오고, Anki 덱은 각각 Nibomo 덱이 되며(하위 덱은 각각 Anki 전체 경로를 이름으로 한 별도의 계층 없는 덱이 되고, 상위 덱에는 하위 덱의 카드도 포함됩니다), 빈칸 채우기 카드는 빈칸 채우기 카드로 그대로 유지됩니다. 작은 테스트에서 이미지 3개가 모두 올바른 카드에 들어갔지만, 그래도 가져온 뒤에는 이미지를 확인하세요. 모든 카드는 새 카드로 시작하며, 템플릿과 복습 일정 상태는 유지되지 않습니다. 자세한 내용은 [`.apkg` 가져오기 안내](/blog/import-anki-apkg/)에 있으며, 예전 방식인 [Anki TXT/CSV 이전 절차](/blog/migrate-from-anki-txt-export-open-source-flashcards/)도 텍스트만 있는 덱에는 여전히 쓸 수 있습니다. 두 방법 모두 단순한 덱에는 합리적이지만 많이 커스터마이즈한 컬렉션에는 적합하지 않습니다.
 
 [셀프 호스팅 가이드](/docs/self-hosting/)도 범위를 명확히 설명합니다. 프로덕션은 RDS, Cognito, API Gateway와 Lambda, S3와 CloudFront, 비밀 정보, 경보, 백업을 포함한 AWS CDK 스택을 사용합니다. Cloudflare DNS, Resend 이메일, Sentry 설정은 AWS 밖에 있습니다. Docker Compose는 로컬 개발용이며, 지원되는 프로덕션 패키지가 아닙니다. 비공개 iOS 또는 Android 바이너리가 필요한 운영자는 별도로 빌드하고 배포해야 합니다.
 

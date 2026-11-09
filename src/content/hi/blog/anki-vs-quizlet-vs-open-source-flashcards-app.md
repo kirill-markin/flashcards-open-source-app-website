@@ -3,7 +3,7 @@ title: "Anki vs Quizlet vs Nibomo (2026): कौन-सा फ़्लैशक
 description: "2026 में Anki, Quizlet और Nibomo की व्यावहारिक तुलना: स्पेस्ड रिपीटिशन, ऑफ़लाइन पढ़ाई, AI, इम्पोर्ट-एक्सपोर्ट, कीमत, ओपन सोर्स और डेटा पर नियंत्रण।"
 image: "/blog/anki-vs-quizlet-vs-open-source-flashcards-app.png"
 date: "2026-03-09"
-updated: "2026-11-08"
+updated: "2026-11-09"
 keywords:
   - "anki vs quizlet"
   - "best flashcard app"
@@ -105,7 +105,7 @@ Hosted Cloud Beta अभी मुफ़्त है और इसमें AI 
 
 शून्य से शुरुआत करने पर यह तुलना आसान है। मौजूदा collection होने पर फैसला कहीं अधिक ठोस हो जाता है।
 
-अगर आपके पास Anki की कई वर्षों की review history है, तो Anki पर ही रहें—जब तक migrate करने का फ़ायदा उस history को reset करने जितना बड़ा न हो। साधारण front-and-back deck के लिए उसकी `.apkg` Nibomo के AI chat में attach करें। [Anki `.apkg` import guide](/blog/import-anki-apkg/) दिखाती है कि क्या-क्या आता है: text और tags आते हैं, test में इकलौती image भी आई, लेकिन हर card का schedule नए सिरे से शुरू होता है और cloze notes सवाल-जवाब cards बन जाते हैं। **Support older Anki versions** चुनकर एक्सपोर्ट करें; Nibomo सिर्फ़ इसी पुराने फ़ॉर्मेट के लिए AI को मीडिया फ़ाइलों के नामों की सूची देता है। टेस्ट पैकेज पुराने फ़ॉर्मेट की एक फ़ाइल थी, जिसे स्क्रिप्ट से बनाया गया था; वह Anki से एक्सपोर्ट नहीं की गई थी। इम्पोर्ट के बाद इमेज जाँचें। पुराना [Anki TXT migration workflow](/blog/migrate-from-anki-txt-export-open-source-flashcards/) सिर्फ़ text वाले decks के लिए अब भी काम करता है।
+अगर आपके पास Anki की कई वर्षों की review history है, तो Anki पर ही रहें—जब तक migrate करने का फ़ायदा उस history को reset करने जितना बड़ा न हो। साधारण deck के लिए उसकी `.apkg` Nibomo के AI chat में attach करें। मौजूदा format वाले exports काम करते हैं, हर file 30 MB तक; **Support older Anki versions** की ज़रूरत नहीं है। AI cards सीधे save कर देता है: tags आ जाते हैं, Anki का हर deck Nibomo deck बन जाता है (हर subdeck अपना अलग, बिना nesting वाला deck बन जाता है, जिसका नाम पूरे Anki path से रखा जाता है, और parent deck में subdeck के cards भी शामिल रहते हैं), और cloze cards fill-in-the-blank ही रहते हैं। एक छोटे test में तीनों images सही cards पर पहुँचीं; फिर भी import के बाद images जाँचें। हर card का schedule नए सिरे से शुरू होता है। [Anki `.apkg` import guide](/blog/import-anki-apkg/) पूरी प्रक्रिया दिखाती है। पुराना [Anki TXT migration workflow](/blog/migrate-from-anki-txt-export-open-source-flashcards/) सिर्फ़ text वाले decks के लिए अब भी काम करता है।
 
 अगर आपकी सामग्री Quizlet में है, तो पहले पक्का करें कि सेट आपने बनाया है और उसकी उपयोगी सामग्री text में है। [Quizlet export से FSRS guide](/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/) व्यावहारिक तरीका और export restrictions समझाती है।
 

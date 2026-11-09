@@ -2,7 +2,7 @@
 title: "Alternativer til Anki i 2026: hva du beholder, mister og får ved å bytte"
 description: "Sammenlign sju alternativer til Anki etter hva som bevares ved flytting, bruk uten nett, repetisjonsplan, pris, kildekode og egen drift – og se når Anki er tryggest."
 date: "2026-03-14"
-updated: "2026-11-08"
+updated: "2026-11-09"
 image: "/blog/best-anki-alternatives.png"
 keywords:
   - "alternativer til Anki"
@@ -78,7 +78,7 @@ En importfunksjon kan bestå det første punktet og stryke på de to andre.
 | [Quizlet](https://quizlet.com/) | [Lim inn begreper og definisjoner](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content) | Ingen fra Anki | Notattyper, maler, kortstokker, mediestruktur og alle data om repetisjonsplanen |
 | [Brainscape](https://www.brainscape.com/) | [CSV, TXT, XLSX eller ODS](https://brainscape.zendesk.com/hc/en-us/articles/115002369931-How-do-I-import-various-files-to-create-flashcards) | Ingen fra Anki | Maler, tillegg, medieregler og alle data om repetisjonsplanen |
 | [SuperMemo](https://www.supermemo.com/) | [Lim inn rader med spørsmål og svar atskilt med skilletegn](https://www.supermemo.com/en/blog/how-to-create-flashcards-for-learning), opptil 100 om gangen | Ingen fra Anki | Samlingsstruktur, medier, maler og alle data om repetisjonsplanen |
-| [Nibomo](https://nibomo.com/) | [Legg ved `.apkg`-filen i KI-chat](/blog/import-anki-apkg/); KI-en lagrer kortene direkte. TXT eller CSV fungerer også | Ingen fra Anki; alle kort starter som nye | Utfyllingsnotater blir spørsmål-og-svar-kort; maler, CSS, kortstokkhierarki og alle data om repetisjonsplanen blir igjen |
+| [Nibomo](https://nibomo.com/) | [Legg ved `.apkg`-filen i KI-chat](/blog/import-anki-apkg/); KI-en lagrer kortene direkte, og utfyllingskort beholder lukene som skal fylles ut. TXT eller CSV fungerer også | Ingen fra Anki; alle kort starter som nye | Maler, CSS og alle data om repetisjonsplanen blir igjen; underkortstokker blir separate flate kortstokker med hele Anki-banen i navnet |
 
 ## Pris, bruk uten nett, repetisjonsplan og eierskap
 
@@ -170,7 +170,7 @@ Velg SuperMemo hvis du ønsker deres egen metode eller kurskatalog så mye at du
 
 Nibomo gir deg eierskap til en stor del av løsningen. [Kodearkivet med MIT-lisens](https://github.com/kirill-markin/flashcards-open-source-app) inneholder nettappen, iOS- og Android-klientene, backend, synkronisering etter bruk uten nett, infrastruktur, [offentlig API](/docs/api/) og [MCP-server](/docs/mcp-connector/). Repetisjonene planlegges med [FSRS](/docs/architecture/#scheduling). Nett-, iOS- og Android-klientene skriver lokalt først, legger endringer i en utboks og synkroniserer når forbindelsen er tilbake.
 
-Det gjør ikke Nibomo kompatibelt med Anki. Det finnes ingen import med ett klikk, og Bibliotek → Import tar bare imot Nibomos egen `.zip`. I stedet [legger du ved `.apkg`-filen i KI-chat](/blog/import-anki-apkg/) og ber den gjøre kortstokken om til kort. I en test med en liten eksempelkortstokk ble grunnleggende kort, etiketter og et bilde bevart, notater med grunnleggende og omvendt kort ble delt i to enveiskort, og utfyllingsnotater ble skrevet om til spørsmål-og-svar-kort. Underkortstokker ble flate Nibomo-kortstokker. Maler, tillegg, forfallsdatoer, intervaller og registrerte repetisjoner blir igjen, og `.colpkg`-filer godtas ikke. Eksporter med **Support older Anki versions**; bare for dette eldre formatet gir Nibomo KI-en listen over mediefilnavn. Testpakken var en fil i det eldre formatet laget med et skript, ikke en eksport fra Anki. Kontroller bildene etter importen. Den eldre [flyttingen fra Anki via TXT](/blog/migrate-from-anki-txt-export-open-source-flashcards/) fungerer fortsatt for kort med bare tekst.
+Det gjør ikke Nibomo kompatibelt med Anki. Det finnes ingen import med ett klikk, og Bibliotek → Import tar bare imot Nibomos egen `.zip`. I stedet [legger du ved `.apkg`-filen i KI-chat](/blog/import-anki-apkg/) og ber den gjøre kortstokken om til kort. Eksportfiler i dagens format fungerer, opptil 30 MB per fil; du trenger ikke **Support older Anki versions**. KI-en lagrer kortene direkte: etikettene kommer med, hver Anki-kortstokk blir en Nibomo-kortstokk (hver underkortstokk blir en egen flat kortstokk med hele Anki-banen i navnet, og den overordnede kortstokken inneholder også kortene fra underkortstokken), og utfyllingskort beholder lukene som skal fylles ut. I en liten test med en pakke i nyeste format, laget med Ankis offisielle eksportkode (Python-biblioteket anki), havnet alle tre bildene på de riktige kortene, og notater med grunnleggende og omvendt kort ble delt i to enveiskort. Kontroller likevel bildene etter importen. Maler, tillegg, forfallsdatoer, intervaller og registrerte repetisjoner blir igjen, og `.colpkg`-filer godtas ikke. Den eldre [flyttingen fra Anki via TXT](/blog/migrate-from-anki-txt-export-open-source-flashcards/) fungerer fortsatt for kort med bare tekst.
 
 Nibomos egen `flashcards.zip`-pakke er også mer begrenset enn en sikkerhetskopi. Den flytter kort, tagger og tilhørende medier mellom arbeidsområder i Nibomo. Den flytter ikke repetisjonshistorikk, FSRS-tilstand, fullstendige kortstokkstrukturer, arbeidsområdeinnstillinger eller kontoer.
 
