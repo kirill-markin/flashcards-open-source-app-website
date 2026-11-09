@@ -4887,6 +4887,21 @@
     "bytes": 2519643
   },
   {
+    "publicPath": "/blog/temperature-conversion-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/2a8637a26ddc0109be98e8e1e8758445d24f39641b576f72f5536758ad5ab119.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "2a8637a26ddc0109be98e8e1e8758445d24f39641b576f72f5536758ad5ab119",
+    "bytes": 347206,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/a08855c428106e49a5f16ae6da9f358e863935ab542b6a36bbf97a740b95e40f.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "a08855c428106e49a5f16ae6da9f358e863935ab542b6a36bbf97a740b95e40f",
+      "bytes": 3112893
+    }
+  },
+  {
     "publicPath": "/blog/thai-alphabet-flashcards-aspiration.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/870e9c21f8b1d6e5c724dbcdbc06956cb05da3b37ac4b620adea8dab371166ad.webp",
     "width": 1672,
