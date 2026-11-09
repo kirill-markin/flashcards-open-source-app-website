@@ -2,7 +2,7 @@
 title: "Alternativas ao Anki em 2026: o que você mantém, perde e ganha ao trocar"
 description: "Compare sete alternativas ao Anki por fidelidade da migração, uso offline, agendamento, preço, acesso ao código e auto-hospedagem — e veja quando ficar no Anki é mais seguro."
 date: "2026-03-14"
-updated: "2026-11-08"
+updated: "2026-11-09"
 image: "/blog/best-anki-alternatives.png"
 keywords:
   - "alternativas ao Anki"
@@ -78,7 +78,7 @@ Um importador pode passar na primeira pergunta e falhar nas outras duas.
 | [Quizlet](https://quizlet.com/) | [Colar termos e definições](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content) | Nenhum vindo do Anki | Tipos de nota, modelos, baralhos, estrutura de mídia e todos os dados de agendamento |
 | [Brainscape](https://www.brainscape.com/) | [CSV, TXT, XLSX ou ODS](https://brainscape.zendesk.com/hc/en-us/articles/115002369931-How-do-I-import-various-files-to-create-flashcards) | Nenhum vindo do Anki | Modelos, complementos, regras de mídia e todos os dados de agendamento |
 | [SuperMemo](https://www.supermemo.com/) | [Colar linhas delimitadas de pergunta e resposta](https://www.supermemo.com/en/blog/how-to-create-flashcards-for-learning), até 100 por vez | Nenhum vindo do Anki | Estrutura da coleção, mídia, modelos e todos os dados de agendamento |
-| [Nibomo](https://nibomo.com/) | [Anexe o `.apkg` no chat de IA](/blog/import-anki-apkg/); a IA salva os cartões diretamente. TXT ou CSV também funcionam | Nenhum vindo do Anki; todo cartão começa como novo | Notas cloze viram cartões de pergunta e resposta; modelos, CSS, hierarquia de baralhos e todos os dados de agendamento ficam para trás |
+| [Nibomo](https://nibomo.com/) | [Anexe o `.apkg` no chat de IA](/blog/import-anki-apkg/); a IA salva os cartões diretamente, e os clozes continuam no formato de preencher lacunas. TXT ou CSV também funcionam | Nenhum vindo do Anki; todo cartão começa como novo | Modelos, CSS e todos os dados de agendamento ficam para trás; sub-baralhos viram baralhos planos separados, com o caminho completo do Anki no nome |
 
 ## Preço, uso offline, agendamento e propriedade
 
@@ -170,7 +170,7 @@ Escolha o SuperMemo porque você quer o método ou o catálogo de cursos dele o 
 
 O Nibomo expõe um limite amplo de propriedade. O [repositório com licença MIT](https://github.com/kirill-markin/flashcards-open-source-app) contém o app web, os clientes iOS e Android, o backend, a sincronização offline, a infraestrutura, a [API pública](/docs/api/) e o [servidor MCP](/docs/mcp-connector/). As revisões usam [FSRS](/docs/architecture/#scheduling). Web, iOS e Android escrevem primeiro localmente, adicionam as mudanças a um outbox e sincronizam quando a conexão volta.
 
-Isso não o torna compatível com o Anki. Não há importador de um clique, e Biblioteca → Importar aceita só o `.zip` do próprio Nibomo. Em vez disso, você [anexa um `.apkg` no chat de IA](/blog/import-anki-apkg/) e pede para transformar o baralho em cartões. Num teste com um pequeno baralho de amostra, ele manteve cartões básicos, tags e uma imagem, dividiu notas do tipo básico e invertido em dois cartões de mão única e reescreveu notas cloze como cartões de pergunta e resposta. Sub-baralhos viraram baralhos planos no Nibomo. Modelos, complementos, datas de vencimento, intervalos e eventos de revisão ficam para trás, e arquivos `.colpkg` não são aceitos. Exporte com **Support older Anki versions**; só para esse formato mais antigo o Nibomo passa à IA a lista de nomes dos arquivos de mídia. O pacote de teste era um arquivo no formato antigo criado com um script, não uma exportação do Anki. Confira as imagens depois da importação. A migração mais antiga a partir de um TXT do Anki ainda funciona para cartões só de texto.
+Isso não o torna compatível com o Anki. Não há importador de um clique, e Biblioteca → Importar aceita só o `.zip` do próprio Nibomo. Em vez disso, você [anexa um `.apkg` no chat de IA](/blog/import-anki-apkg/) e pede para transformar o baralho em cartões. Exportações no formato atual funcionam, com até 30 MB por arquivo; você não precisa de **Support older Anki versions**. A IA salva os cartões diretamente: as tags passam, cada baralho do Anki vira um baralho do Nibomo (cada sub-baralho vira um baralho plano próprio, com o caminho completo do Anki no nome, e o baralho pai também inclui os cartões do sub-baralho), e os cartões cloze continuam no formato de preencher lacunas. Num pequeno teste com um pacote no formato mais recente, criado com o código oficial de exportação do Anki (a biblioteca Python anki), as três imagens foram parar nos cartões certos, e notas do tipo básico e invertido foram divididas em dois cartões de mão única. Mesmo assim, confira as imagens depois da importação. Modelos, complementos, datas de vencimento, intervalos e eventos de revisão ficam para trás, e arquivos `.colpkg` não são aceitos. A migração mais antiga a partir de um TXT do Anki ainda funciona para cartões só de texto.
 
 O pacote `flashcards.zip` do próprio Nibomo também é mais estreito do que um backup. Ele move cartões, tags e a mídia relacionada entre espaços de trabalho do Nibomo. Não move histórico de revisões, estado do FSRS, estruturas completas de baralhos, configurações do espaço de trabalho nem contas.
 
