@@ -77,7 +77,7 @@ Counting four drawn bond lines would give the wrong domain count. Adding the oxy
 
 SF₄ has 6 + 4 × 7 = 34 valence electrons. Four S–F single bonds use eight, and completing the four fluorine octets uses another 24 as lone pairs. The remaining two electrons form one lone pair on sulfur. Around sulfur, 4 + 1 gives AX₄E: trigonal bipyramidal electron geometry and seesaw molecular geometry.
 
-A trigonal bipyramid has three equatorial positions in a plane and two axial positions above and below it. The sulfur lone pair takes an equatorial position: there it has two neighboring domains at 90°, compared with three in an axial position. This placement reduces the lone pair's close interactions with bonding domains.
+A trigonal bipyramid has three equatorial positions in a plane and two axial positions above and below it. The sulfur lone pair takes an equatorial position: there it has two neighboring domains at 90°, compared with three in an axial position. This placement reduces the lone pair's close interactions with bonding domains. Repeat that 90° count for other placements with the [trigonal bipyramidal lone pair flashcards](/catalog/packages/trigonal-bipyramidal-lone-pair-flashcards/).
 
 XeF₄ has 8 + 4 × 7 = 36 valence electrons. Four Xe–F single bonds use eight and the fluorine lone pairs use 24, leaving four electrons as two lone pairs on xenon. The count is 4 + 2 → AX₄E₂ → octahedral electron geometry → square planar molecular geometry. The xenon lone pairs occupy opposite positions; the four fluorines lie in a square with xenon at its center.
 

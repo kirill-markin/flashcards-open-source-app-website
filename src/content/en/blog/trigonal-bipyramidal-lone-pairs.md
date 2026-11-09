@@ -74,6 +74,6 @@ In XeF₂, any split of the three lone pairs across the axis and the plane creat
 
 In a few days, redraw the two ClF₃ layouts with zero 90° LP–LP contacts. See if you can choose between them before checking the table. Spacing out your attempts to recall an answer can help you remember it longer. [Karpicke and Bauernschmidt's study on spaced retrieval](https://pubmed.ncbi.nlm.nih.gov/21574747/)
 
-For more practice, the VSEPR molecular geometry deck has 78 English text cards, including why AX₄E favors an equatorial lone pair and how the lone pairs in ClF₃ determine its shape. Fill the grid before flipping a placement card. [VSEPR molecular geometry flashcards](/catalog/packages/vsepr-molecular-geometry-flashcards/)
+Try another layout with the [trigonal bipyramidal lone pair flashcards](/catalog/packages/trigonal-bipyramidal-lone-pair-flashcards/). Sketch the five sites and count the 90° contacts before flipping a card. For a wider review of shapes and ideal angles, use the [VSEPR molecular geometry flashcards](/catalog/packages/vsepr-molecular-geometry-flashcards/).
 
 *AI assisted with research and writing and generated the illustration.*
