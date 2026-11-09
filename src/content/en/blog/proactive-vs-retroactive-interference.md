@@ -104,4 +104,4 @@ Here are three cards you can use:
 
 For more scenario practice, use the [proactive vs retroactive interference flashcards](/catalog/packages/proactive-retroactive-interference-flashcards/) to identify the requested memory, the competing memory, and the interference direction.
 
-For a broader study set, the [AP Psychology flashcard guide](/blog/how-to-use-flashcards-for-ap-psychology/) includes cards for concepts and applications. For your next practice question, keep the two learned facts, switch which one is requested, and explain why the label changes before turning the card over.
+If you’re reviewing other units too, try the [AP Psychology flashcard deck](/catalog/packages/ap-psychology-flashcards/). For your next practice question, keep the two learned facts, switch which one is requested, and explain why the label changes before turning the card over.

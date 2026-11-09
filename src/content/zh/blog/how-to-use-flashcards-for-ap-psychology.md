@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-09"
+retirementReason: "Family below search and engagement thresholds after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-09.json#/records/src~1content~1zh~1blog~1how-to-use-flashcards-for-ap-psychology.md"
 title: "2026 年如何用抽认卡备考 AP Psychology：真正记得住的术语、经典研究和 FRQ 证据"
 description: "想在 2026 年用一套更实用的 AP Psychology 抽认卡流程备考？这篇文章会讲清楚，如何为 2026 年 5 月 12 日在 Bluebook 上进行的全数字化考试整理术语、经典研究、研究方法和 FRQ 证据。"
 date: "2026-04-29"
