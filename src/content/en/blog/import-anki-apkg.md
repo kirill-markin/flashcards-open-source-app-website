@@ -19,7 +19,7 @@ That's how you import an Anki deck into Nibomo today. Export the deck as an `.ap
 
 ![A woman packs a framed pear painting into a moving box, leaving its pale outline and hanging hook on the old wall](https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/4582484682bb3b61ab695a4130ef89e83e980cb7dc8f80a183a3c3cb960564ea.webp)
 
-> **Disclosure:** I am Kirill Markin, and I build [Nibomo](https://nibomo.com/). I didn't run the test in this article myself. An AI agent ran it on November 8, 2026, in the iOS Simulator (iPhone 17 Pro, iOS 27), using a development build of Nibomo 1.41.0 at app commit `fba02cd6c`, as a fresh guest on the production backend. The deck was made only for the test. The `.apkg` was a real export in Anki's current package format, written by Anki's official Python library (`anki` 26.09.4) rather than through desktop Anki's export dialog.
+> **Disclosure:** I am Kirill Markin, and I build [Nibomo](https://nibomo.com/). I didn't run the test in this article myself. An AI agent ran it on November 8, 2026, in the iOS Simulator (iPhone 17 Pro, iOS 27), using a development build of Nibomo 1.41.0 at app commit `fba02cd6c`, as a fresh guest on the production backend. On November 9, 2026, after an app update, it repeated the test with the same file on app commit `b7fee80ba` and got the same cards, decks and pictures; the Cards and Decks screenshots come from that repeat. The deck was made only for the test. The `.apkg` was a real export in Anki's current package format, written by Anki's official Python library (`anki` 26.09.4) rather than through desktop Anki's export dialog.
 
 ## What came over from Anki, and what stayed behind
 
@@ -83,15 +83,15 @@ There was no confirmation step. Nibomo's AI acts on a clear request, so "turn it
 
 ## Check the cards, decks and pictures
 
-Open **Library**. In the test, **Cards** went from 1 to 14: the guest workspace's demo card plus the 13 imported cards, all marked New. The reversed notes show up as separate cards, like "la mesa" and "the table", and the cloze cards show the `[...]` gap.
+Open **Library**. In the test, **Cards** went from 1 to 14: the guest workspace's demo card plus the 13 imported cards, all marked New. The reversed notes show up as separate cards, so "buenas noches" and "good night" each get a row, and the cloze cards show the `[...]` gap.
 
-![Nibomo Cards list with imported cards including "What is this? What is this?", "la mesa", "Which fruit is this? Which fruit is this?", "Lima is the capital of [...].", "In Spanish, milk is [...].", "[...] is the capital of Peru." and "the table", each marked New with tags such as spanish, food, home, spanish-basics and spanish-basics::home](https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/835628d46a8139dd8472ff266a476f39bc48b23241ba22de16bb13259a595f94.webp)
+![Nibomo Cards list with imported cards "adiós", "Which animal is this?", "hola", "In Spanish, milk is [...].", "Which fruit is this?", "What is this?" and "good night", each marked New with tags such as greetings, food, home, image, spanish, spanish-basics and spanish-basics::home](https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/9bc0d3d947eaa496dda31a30ceb60f3f431ae3d5b1c14e44543dd414025138c4.webp)
 
-The picture cards show their question twice in the list, as in "Which fruit is this? Which fruit is this?". The second copy is the picture's alt text, the description screen readers use, so a screen reader also reads the question twice. The AI writes alt text from the card's own words so it doesn't give away the answer, which means it repeats the question on these cards. The picture and the answer are unaffected.
+The picture cards show just their question, like "Which fruit is this?". In the November 9 repeat, the AI saved the pictures without a text description, so nothing in the list gives away the answer. The web app shows these rows this way already; the iPhone and Android apps get this change in their next release, so until then their rows may show extra text after the question.
 
 **Decks** needs a short explanation, because a Nibomo deck isn't a folder. It's a saved filter over tags. The AI gave every imported card a tag for its Anki deck, `spanish-basics` or `spanish-basics::home`, and created one deck per Anki deck with the full Anki name. The subdeck became its own deck, "Spanish Basics::Home", with 4 cards. The parent, "Spanish Basics", filters on both tags, so it shows all 13, just like an Anki parent deck includes its children. You get a flat list rather than a folding tree, and the `::` stays in the name. The [tags vs decks guide](/blog/anki-tags-vs-decks/) covers how the two ideas differ in Anki.
 
-![Nibomo Decks screen showing All cards with 14 cards and 14 to study, Spanish Basics with 13 cards filtered by the spanish-basics tags, and Spanish Basics::Home with 4 cards filtered by spanish-basics::home](https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/747e60beb661d282f750c622e5113744305ebe74df27b783ca4a23fb59a801b7.webp)
+![Nibomo Decks screen showing All cards with 14 cards and 14 to study, Spanish Basics with 13 cards and the tag line "tags any of spanish-basics, spanish-basics::home" wrapped onto two lines, and Spanish Basics::Home with 4 cards and "tags any of spanish-basics::home"](https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/7b6d491bd7d27113363bca5460b879943e70f8d4f49176db2ef4730de62bd8ae.webp)
 
 Check the pictures in **Review**. The filter at the top lets you pick one of the new decks or a tag; in the test, the `image` tag brought up the three picture cards. Each showed the right picture: a lemon for "Which fruit is this?", a cat for "Which animal is this?", and a house for "What is this?".
 
