@@ -1052,6 +1052,21 @@
     "bytes": 3059135
   },
   {
+    "publicPath": "/blog/dna-reverse-complement-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/c83716b832187321e84fef25044e92882f0548c369e1451949fd3cf247486255.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "c83716b832187321e84fef25044e92882f0548c369e1451949fd3cf247486255",
+    "bytes": 313722,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/c6db19722921c0a9dfc49c66c479762ed2e223eeb8dd7e040cd42311bb99d301.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "c6db19722921c0a9dfc49c66c479762ed2e223eeb8dd7e040cd42311bb99d301",
+      "bytes": 3085160
+    }
+  },
+  {
     "publicPath": "/blog/does-anki-work-offline.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/f0b27d3e4e01204f9d2af3eb4964cd865eb8949c731af4d42f88f11562af9874.png",
     "width": 1200,
