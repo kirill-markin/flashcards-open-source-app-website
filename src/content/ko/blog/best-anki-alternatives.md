@@ -2,7 +2,7 @@
 title: "2026년 Anki 대체 앱: 옮길 때 유지되는 것, 잃는 것, 얻는 것"
 description: "Anki 대체 앱 7종을 이전 시 데이터 보존 범위, 오프라인 사용, 복습 일정, 가격, 소스 공개, 셀프 호스팅 기준으로 비교합니다. Anki를 유지하는 편이 안전한 경우도 살펴봅니다."
 date: "2026-03-14"
-updated: "2026-11-08"
+updated: "2026-11-09"
 image: "/blog/best-anki-alternatives.png"
 keywords:
   - "Anki 대체 앱"
@@ -78,7 +78,7 @@ Anki 대체 앱을 비교할 때 실제로 비용이 드는 부분은 이런 데
 | [Quizlet](https://quizlet.com/) | [용어와 정의 붙여넣기](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content) | Anki 학습 상태를 가져오지 않음 | 노트 유형, 템플릿, 덱, 미디어 구조, 모든 복습 일정 데이터 |
 | [Brainscape](https://www.brainscape.com/) | [CSV, TXT, XLSX 또는 ODS](https://brainscape.zendesk.com/hc/en-us/articles/115002369931-How-do-I-import-various-files-to-create-flashcards) | Anki 학습 상태를 가져오지 않음 | 템플릿, 애드온, 미디어 규칙, 모든 복습 일정 데이터 |
 | [SuperMemo](https://www.supermemo.com/) | [구분자로 나눈 질문·답변 행 붙여넣기](https://www.supermemo.com/en/blog/how-to-create-flashcards-for-learning), 한 번에 최대 100개 | Anki 학습 상태를 가져오지 않음 | 컬렉션 구조, 미디어, 템플릿, 모든 복습 일정 데이터 |
-| [Nibomo](https://nibomo.com/) | [AI 채팅에 `.apkg` 첨부](/blog/import-anki-apkg/). AI가 카드를 바로 저장. TXT 또는 CSV도 가능 | Anki 학습 상태를 가져오지 않음. 모든 카드가 새 카드로 시작 | 빈칸 채우기 노트는 질문·답변 카드로 바뀜. 템플릿, CSS, 덱 중첩 구조, 모든 복습 일정 데이터가 보존되지 않음 |
+| [Nibomo](https://nibomo.com/) | [AI 채팅에 `.apkg` 첨부](/blog/import-anki-apkg/). AI가 카드를 바로 저장하고 빈칸 채우기 카드도 그대로 유지. TXT 또는 CSV도 가능 | Anki 학습 상태를 가져오지 않음. 모든 카드가 새 카드로 시작 | 템플릿, CSS, 모든 복습 일정 데이터가 보존되지 않음. 하위 덱은 Anki 전체 경로를 이름으로 한 별도의 계층 없는 덱이 됨 |
 
 ## 가격, 오프라인 사용, 복습 일정, 소유권
 
@@ -170,7 +170,7 @@ SuperMemo를 고르는 이유는 학습 방식과 강좌 목록에 있습니다.
 
 Nibomo는 사용자가 직접 소유하고 관리할 수 있는 범위가 넓습니다. [MIT 라이선스 저장소](https://github.com/kirill-markin/flashcards-open-source-app)에는 웹 앱, iOS·Android 클라이언트, 백엔드, 오프라인 동기화, 인프라, [공개 API](/docs/api/), [MCP 서버](/docs/mcp-connector/)가 들어 있습니다. 복습에는 [FSRS](/docs/architecture/#scheduling)를 사용합니다. 웹, iOS, Android 모두 로컬에 먼저 기록하고, 변경 사항을 전송 대기함에 넣은 뒤 다시 연결되면 동기화합니다.
 
-그렇다고 Anki와 호환되는 것은 아닙니다. 원클릭 가져오기 기능은 없고, 보관함 → 가져오기는 Nibomo 자체 `.zip`만 받습니다. 대신 [AI 채팅에 `.apkg`를 첨부하고](/blog/import-anki-apkg/) 덱을 카드로 만들어 달라고 요청하면 됩니다. 작은 샘플 덱으로 테스트했을 때 기본 카드, 태그, 이미지 1개가 유지되었고, 기본·역방향 노트는 단방향 카드 두 장으로 나뉘었으며, 빈칸 채우기 노트는 질문·답변 카드로 다시 작성되었습니다. 하위 덱은 계층 없는 Nibomo 덱이 되었습니다. 템플릿, 애드온, 복습 예정일, 간격, 복습 이벤트는 넘어오지 않으며 `.colpkg` 파일은 받지 않습니다. **Support older Anki versions** 옵션을 선택해 내보내세요. Nibomo는 이 이전 형식에서만 AI에 미디어 파일 이름 목록을 전달합니다. 테스트 패키지는 Anki에서 내보낸 파일이 아니라 스크립트로 만든 이전 형식 파일이었습니다. 가져온 뒤에는 이미지를 확인하세요. 예전 방식인 [Anki TXT 이전](/blog/migrate-from-anki-txt-export-open-source-flashcards/)은 텍스트만 있는 카드에 여전히 쓸 수 있습니다.
+그렇다고 Anki와 호환되는 것은 아닙니다. 원클릭 가져오기 기능은 없고, 보관함 → 가져오기는 Nibomo 자체 `.zip`만 받습니다. 대신 [AI 채팅에 `.apkg`를 첨부하고](/blog/import-anki-apkg/) 덱을 카드로 만들어 달라고 요청하면 됩니다. 현재 형식으로 내보낸 파일을 그대로 쓸 수 있으며, 파일당 최대 30MB입니다. **Support older Anki versions** 옵션은 필요 없습니다. AI가 카드를 바로 저장합니다. 태그가 넘어오고, Anki 덱은 각각 Nibomo 덱이 되며(하위 덱은 각각 Anki 전체 경로를 이름으로 한 별도의 계층 없는 덱이 되고, 상위 덱에는 하위 덱의 카드도 포함됩니다), 빈칸 채우기 카드는 빈칸 채우기 카드로 그대로 유지됩니다. Anki의 공식 내보내기 코드(anki Python 라이브러리)로 만든 최신 형식 패키지로 작은 테스트를 했을 때 이미지 3개가 모두 올바른 카드에 들어갔고, 기본·역방향 노트는 단방향 카드 두 장으로 나뉘었습니다. 그래도 가져온 뒤에는 이미지를 확인하세요. 템플릿, 애드온, 복습 예정일, 간격, 복습 이벤트는 넘어오지 않으며 `.colpkg` 파일은 받지 않습니다. 예전 방식인 [Anki TXT 이전](/blog/migrate-from-anki-txt-export-open-source-flashcards/)은 텍스트만 있는 카드에 여전히 쓸 수 있습니다.
 
 Nibomo 자체 `flashcards.zip` 패키지도 백업보다 범위가 좁습니다. Nibomo 작업 공간 사이에서 카드, 태그, 관련 미디어를 옮깁니다. 복습 기록, FSRS 상태, 전체 덱 구조, 작업 공간 설정, 계정은 옮기지 않습니다.
 

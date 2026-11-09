@@ -2,7 +2,7 @@
 title: "Valkostir við Anki árið 2026: Hvað varðveitist, hvað tapast og hvað fæst í staðinn"
 description: "Berðu saman sjö valkosti við Anki: varðveislu gagna við flutning, notkun án nets, upprifjunaráætlanir, verð, aðgang að frumkóða og eigin hýsingu. Sjáðu hvenær öruggara er að halda Anki."
 date: "2026-03-14"
-updated: "2026-11-08"
+updated: "2026-11-09"
 image: "/blog/best-anki-alternatives.png"
 keywords:
   - "valkostir við Anki"
@@ -78,7 +78,7 @@ Innflutningur getur uppfyllt fyrsta skilyrðið en brugðist hinum tveimur.
 | [Quizlet](https://quizlet.com/) | [Líma inn hugtök og skilgreiningar](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content) | Ekkert úr Anki | Færslugerðir, sniðmát, stokkar, uppbygging margmiðlunar og öll áætlunargögn |
 | [Brainscape](https://www.brainscape.com/) | [CSV, TXT, XLSX eða ODS](https://brainscape.zendesk.com/hc/en-us/articles/115002369931-How-do-I-import-various-files-to-create-flashcards) | Ekkert úr Anki | Sniðmát, viðbætur, reglur um margmiðlun og öll áætlunargögn |
 | [SuperMemo](https://www.supermemo.com/) | [Líma inn raðir með spurningum og svörum aðskildum með skiltáknum](https://www.supermemo.com/en/blog/how-to-create-flashcards-for-learning), allt að 100 í einu | Ekkert úr Anki | Uppbygging safnsins, margmiðlun, sniðmát og öll áætlunargögn |
-| [Nibomo](https://nibomo.com/) | [Hengdu `.apkg` við í gervigreindarspjalli](/blog/import-anki-apkg/); gervigreindin vistar spjöldin beint. TXT eða CSV virkar líka | Ekkert úr Anki; öll spjöld byrja sem ný | Eyðufyllingar verða að spurninga- og svarspjöldum; sniðmát, CSS, stigskipting stokka og öll áætlunargögn verða eftir |
+| [Nibomo](https://nibomo.com/) | [Hengdu `.apkg` við í gervigreindarspjalli](/blog/import-anki-apkg/); gervigreindin vistar spjöldin beint og eyðufyllingar haldast eyðufyllingar. TXT eða CSV virkar líka | Ekkert úr Anki; öll spjöld byrja sem ný | Sniðmát, CSS og öll áætlunargögn verða eftir; undirstokkar verða að aðskildum flötum stokkum sem bera alla Anki-slóðina í heitinu |
 
 ## Verð, notkun án nets, upprifjunaráætlanir og yfirráð yfir gögnunum
 
@@ -170,7 +170,7 @@ Veldu SuperMemo ef þig langar nógu mikið í eigin aðferð þess eða námske
 
 Nibomo veitir víðtæk yfirráð yfir kerfinu. [Kóðasafnið með MIT-leyfi](https://github.com/kirill-markin/flashcards-open-source-app) inniheldur vefappið, iOS- og Android-forritin, bakenda, samstillingu fyrir notkun án nets, innviði, [opinbert API](/docs/api/) og [MCP-þjón](/docs/mcp-connector/). Upprifjun er skipulögð með [FSRS](/docs/architecture/#scheduling). Vef-, iOS- og Android-öppin skrifa fyrst staðbundið, setja breytingar í úthólf og samstilla þegar tenging kemst á aftur.
 
-Það gerir Nibomo ekki samhæft við Anki. Enginn innflutningur með einum smelli er í boði og Safn → Flytja inn tekur aðeins við `.zip`-skrám Nibomo sjálfs. Í staðinn [hengirðu `.apkg` við í gervigreindarspjalli](/blog/import-anki-apkg/) og biður um að stokknum verði breytt í spjöld. Í prófun með litlum sýnistokki hélt spjallið grunnspjöldum, merkjum og einni mynd, skipti færslum með grunnspjaldi og öfugu spjaldi í tvö einátta spjöld og endurskrifaði eyðufyllingar sem spurninga- og svarspjöld. Undirstokkar urðu að flötum Nibomo-stokkum. Sniðmát, viðbætur, dagsetningar næstu upprifjana, bil milli upprifjana og skráðar upprifjanir verða eftir og ekki er tekið við `.colpkg`-skrám. Flyttu út með **Support older Anki versions**; aðeins fyrir þetta eldra snið lætur Nibomo gervigreindina fá lista yfir heiti margmiðlunarskráa. Prófunarpakkinn var skrá á eldra sniðinu sem var búin til með skriftu, ekki útflutningur úr Anki. Athugaðu myndirnar eftir innflutning. Eldri leiðin, [flutningur úr Anki með TXT](/blog/migrate-from-anki-txt-export-open-source-flashcards/), virkar enn fyrir spjöld sem eru eingöngu texti.
+Það gerir Nibomo ekki samhæft við Anki. Enginn innflutningur með einum smelli er í boði og Safn → Flytja inn tekur aðeins við `.zip`-skrám Nibomo sjálfs. Í staðinn [hengirðu `.apkg` við í gervigreindarspjalli](/blog/import-anki-apkg/) og biður um að stokknum verði breytt í spjöld. Útflutningur á núverandi sniði virkar, allt að 30 MB á hverja skrá; þú þarft ekki **Support older Anki versions**. Gervigreindin vistar spjöldin beint: merki skila sér, hver Anki-stokkur verður að Nibomo-stokki (hver undirstokkur verður að sérstökum flötum stokki sem ber alla Anki-slóðina í heitinu og yfirstokkurinn inniheldur líka spjöld undirstokksins) og eyðufyllingar haldast eyðufyllingar. Í lítilli prófun með pakka á nýjasta sniðinu, sem var búinn til með opinberum útflutningskóða Anki (Python-safninu anki), lentu allar þrjár myndirnar á réttum spjöldum og færslum með grunnspjaldi og öfugu spjaldi var skipt í tvö einátta spjöld. Athugaðu samt myndirnar eftir innflutning. Sniðmát, viðbætur, dagsetningar næstu upprifjana, bil milli upprifjana og skráðar upprifjanir verða eftir og ekki er tekið við `.colpkg`-skrám. Eldri leiðin, [flutningur úr Anki með TXT](/blog/migrate-from-anki-txt-export-open-source-flashcards/), virkar enn fyrir spjöld sem eru eingöngu texti.
 
 Eigin `flashcards.zip`-pakki Nibomo er líka takmarkaðri en öryggisafrit. Hann flytur spjöld, merki og tengda margmiðlun milli Nibomo-vinnusvæða. Hann flytur ekki upprifjunarsögu, FSRS-stöðu, heildaruppbyggingu stokka, vinnusvæðisstillingar eða reikninga.
 
