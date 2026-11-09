@@ -1754,6 +1754,21 @@
     }
   },
   {
+    "publicPath": "/blog/gmdss-goc-hf-distress-channels.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/d5be597aabe27a68ae458576e91dee645643afbc14b98e44cab9873258724119.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "d5be597aabe27a68ae458576e91dee645643afbc14b98e44cab9873258724119",
+    "bytes": 189296,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/dbec7dfd9d238c272e90c69d91c494d2fed9cc6f268ed7720c43a29b1a296643.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "dbec7dfd9d238c272e90c69d91c494d2fed9cc6f268ed7720c43a29b1a296643",
+      "bytes": 2441619
+    }
+  },
+  {
     "publicPath": "/blog/gre-vocabulary-flashcards.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/71027848aeea10834f7dc3bebf019d9980e9dec3695623dfaec7ec92292ea20a.png",
     "width": 1671,
@@ -2976,6 +2991,21 @@
     "bytes": 2296964
   },
   {
+    "publicPath": "/blog/japanese-masu-dictionary-te-form.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/b9e1db26d06f47c6a354df985291d9ac43b29a7f49c76d3389347d0e3f6092ae.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "b9e1db26d06f47c6a354df985291d9ac43b29a7f49c76d3389347d0e3f6092ae",
+    "bytes": 165506,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/bd41c654ebadc3c806913446f0791f2d8f6876b626b0a299d71949142e99be31.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "bd41c654ebadc3c806913446f0791f2d8f6876b626b0a299d71949142e99be31",
+      "bytes": 2330700
+    }
+  },
+  {
     "publicPath": "/blog/japanese-small-tsu.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/472313ea9f506771725a396c460575aab9c4afccaa09c1add17e65c6a45bd562.webp",
     "width": 1672,
@@ -3562,6 +3592,21 @@
     "height": 941,
     "sha256": "a8f2bea8fabc0d1719e9e512799229cd04bf2920a59690790e7791ae42a1bcdb",
     "bytes": 2236901
+  },
+  {
+    "publicPath": "/blog/ncea-as92047-energy-concepts.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/43dd30c71f74dc630ab55186e554a27a662647c1fa5b53c532a8860bf4a644a3.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "43dd30c71f74dc630ab55186e554a27a662647c1fa5b53c532a8860bf4a644a3",
+    "bytes": 117792,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/97624218043284f53f0ec538e5edff0f59d793c4a081500b2937187e58c33e27.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "97624218043284f53f0ec538e5edff0f59d793c4a081500b2937187e58c33e27",
+      "bytes": 2069097
+    }
   },
   {
     "publicPath": "/blog/negative-reinforcement-vs-punishment.png",
