@@ -106,7 +106,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Deine nächste Karte auf einen Blick",
           description:
-            "Widgets für den Home-Bildschirm auf iPhone, iPad, Mac und Android zeigen, was fällig ist, und deine nächste Frage.",
+            "Widgets für den Home-Bildschirm auf iPhone, iPad, Mac und Android zeigen, was fällig ist, deine nächste Frage und deinen Lernfortschritt.",
         },
         {
           title: "Daten importieren, exportieren und selbst verwalten",

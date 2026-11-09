@@ -106,7 +106,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Neste kort, bare et blikk unna",
           description:
-            "Widgeter på Hjem-skjermen for iPhone, iPad, Mac og Android viser hvor mange kort som skal repeteres, og neste spørsmål.",
+            "Widgeter på Hjem-skjermen for iPhone, iPad, Mac og Android viser hvor mange kort som skal repeteres, neste spørsmål og fremdriften din.",
         },
         {
           title: "Importer, eksporter og eier dataene dine",

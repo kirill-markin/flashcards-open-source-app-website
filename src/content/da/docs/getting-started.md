@@ -30,7 +30,9 @@ Nibomo-appen tilføjer en Repetition-widget på iPhone, iPad, Mac og Android. De
 
 Når der ikke er noget at repetere, viser widgetten “Du er ajour”, og hvornår næste kort skal repeteres. Den viser aldrig et svar. Tryk på widgetten for at åbne Repetition; en mellemstor eller stor widget åbner Repetition på det kort, den viser. Widgets er gratis for alle, også gæster.
 
-På iPhone, iPad eller Mac tilføjer du en ved at åbne widgetgalleriet, vælge Nibomo og derefter en størrelse. På Android tilføjer du Nibomo-widgetten fra listen over widgets og ændrer derefter dens størrelse; layoutet følger størrelsen.
+Otte andre widgets følger dine fremskridt: “Aktivitet”, “År”, “I dag”, “Repetitioner”, “Læringsserier”, “Kalender”, “Kommende” og “Oversigt”. På iPhone og iPad kan du også sætte widgetten “Kort til repetition” på låseskærmen, og [widgetguiden](/blog/flashcard-widget/) viser dem alle.
+
+På iPhone, iPad eller Mac tilføjer du en ved at åbne widgetgalleriet, vælge Nibomo og derefter en størrelse. På Android tilføjer du en Nibomo-widget fra listen over widgets og ændrer derefter dens størrelse; layoutet følger størrelsen.
 
 ## Hostet webapp
 

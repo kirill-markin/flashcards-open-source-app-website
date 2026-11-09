@@ -106,7 +106,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "La targeta següent, d'un cop d'ull",
           description:
-            "Els widgets de la pantalla d'inici per a l'iPhone, l'iPad, el Mac i Android mostren què tens pendent i la pregunta següent.",
+            "Els widgets de la pantalla d'inici per a l'iPhone, l'iPad, el Mac i Android mostren què tens pendent, la pregunta següent i el teu progrés.",
         },
         {
           title: "Importa, exporta i sigues l'amo de les teves dades",

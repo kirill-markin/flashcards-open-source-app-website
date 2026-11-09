@@ -106,7 +106,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Votre prochaine carte en un coup d'œil",
           description:
-            "Les widgets d'écran d'accueil pour iPhone, iPad, Mac et Android affichent les cartes à réviser et votre prochaine question.",
+            "Les widgets d'écran d'accueil pour iPhone, iPad, Mac et Android affichent les cartes à réviser, votre prochaine question et vos progrès.",
         },
         {
           title: "Importez, exportez et gardez vos données",

@@ -107,7 +107,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Sonraki Kart Tek Bakışta",
           description:
-            "iPhone, iPad, Mac ve Android için ana ekran widget'ları, zamanı gelen kartları ve sonraki sorunuzu gösterir.",
+            "iPhone, iPad, Mac ve Android için ana ekran widget'ları, zamanı gelen kartları, sonraki sorunuzu ve ilerlemenizi gösterir.",
         },
         {
           title: "İçe Aktarın, Dışa Aktarın, Verileriniz Sizde Kalsın",

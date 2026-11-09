@@ -30,7 +30,9 @@ Nibomo-appen gir deg widgeten «Repeter» på iPhone, iPad, Mac og Android. Den 
 
 Når ingenting skal repeteres, viser widgeten «Du er ajour» og når neste kort forfaller. Den viser aldri svaret. Trykk på widgeten for å åpne «Repeter»; en middels eller stor widget åpner «Repeter» rett på kortet den viser. Widgetene er gratis for alle, også gjester.
 
-For å legge til en widget på iPhone, iPad eller Mac åpner du widgetgalleriet, velger Nibomo og velger en størrelse. På Android legger du til Nibomo-widgeten fra widgetlisten og endrer deretter størrelsen på den; oppsettet tilpasser seg størrelsen.
+Åtte andre widgeter viser fremdriften din: «Aktivitet», «År», «I dag», «Repetisjoner», «Dagrekker», «Kalender», «Kommende» og «Oversikt». På iPhone og iPad kan du også legge widgeten «Kort til repetisjon» på låseskjermen, og [widgetguiden](/blog/flashcard-widget/) viser hver av dem.
+
+For å legge til en widget på iPhone, iPad eller Mac åpner du widgetgalleriet, velger Nibomo og velger en størrelse. På Android legger du til en Nibomo-widget fra widgetlisten og endrer deretter størrelsen på den; oppsettet tilpasser seg størrelsen.
 
 ## Hostet nettapp
 

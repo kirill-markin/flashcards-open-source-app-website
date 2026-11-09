@@ -106,7 +106,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Seu próximo cartão, de relance",
           description:
-            "Widgets da Tela de Início para iPhone, iPad, Mac e Android mostram quantos cartões estão pendentes e a próxima pergunta.",
+            "Widgets da Tela de Início para iPhone, iPad, Mac e Android mostram quantos cartões estão pendentes, a próxima pergunta e seu progresso.",
         },
         {
           title: "Importe, exporte e seja dono dos seus dados",

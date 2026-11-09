@@ -30,7 +30,9 @@ A Nibomo alkalmazás egy Ismétlés widgetet kínál iPhone-ra, iPadre, Macre é
 
 Ha semmi sem esedékes, a widget a „Mindennel végeztél” üzenetet mutatja, és azt, hogy mikor esedékes a következő kártya. Választ soha nem mutat. Koppints a widgetre az Ismétlés megnyitásához; a közepes vagy nagy widget azon a kártyán nyitja meg az Ismétlést, amelyet mutat. A widgetek mindenki számára ingyenesek, a vendégeknek is.
 
-iPhone-on, iPaden vagy Macen a hozzáadáshoz nyisd meg a widgetgalériát, válaszd a Nibomót, majd jelölj ki egy méretet. Androidon add hozzá a Nibomo-widgetet a widgetek listájából, majd méretezd át; az elrendezés a mérethez igazodik.
+Nyolc további widget mutatja a haladásodat: „Aktivitás”, „Év”, „Ma”, „Ismétlések”, „Sorozatok”, „Naptár”, „Következők” és „Áttekintés”. iPhone-on és iPaden az „Esedékes kártyák” widgetet a zárolási képernyőre is kiteheted, a [widgetútmutató](/blog/flashcard-widget/) pedig mindegyiket bemutatja.
+
+iPhone-on, iPaden vagy Macen a hozzáadáshoz nyisd meg a widgetgalériát, válaszd a Nibomót, majd jelölj ki egy méretet. Androidon adj hozzá egy Nibomo-widgetet a widgetek listájából, majd méretezd át; az elrendezés a mérethez igazodik.
 
 ## Felhős webalkalmazás
 

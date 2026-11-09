@@ -32,7 +32,9 @@ O app Nibomo adiciona o widget “Revisar” ao iPhone, iPad, Mac e Android. Ele
 
 Quando não há nada pendente, o widget mostra “Tudo em dia” e quando vence o próximo cartão. Ele nunca mostra uma resposta. Toque no widget para abrir a seção Revisar; um widget médio ou grande abre Revisar direto no cartão exibido. Os widgets são gratuitos para todos, inclusive convidados.
 
-Para adicionar um no iPhone, iPad ou Mac, abra a galeria de widgets, escolha o Nibomo e selecione um tamanho. No Android, adicione o widget do Nibomo pela lista de widgets e depois ajuste o tamanho dele; o layout acompanha o tamanho.
+Outros oito widgets mostram seu progresso: “Atividade”, “Ano”, “Hoje”, “Revisões”, “Sequências”, “Calendário”, “Próximos dias” e “Painel”. No iPhone e no iPad, você também pode colocar o widget “Cartões pendentes” na Tela Bloqueada, e o [guia de widgets](/blog/flashcard-widget/) mostra cada um.
+
+Para adicionar um no iPhone, iPad ou Mac, abra a galeria de widgets, escolha o Nibomo e selecione um tamanho. No Android, adicione um widget do Nibomo pela lista de widgets e depois ajuste o tamanho dele; o layout acompanha o tamanho.
 
 ## App web hospedado
 

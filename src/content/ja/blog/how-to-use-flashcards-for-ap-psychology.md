@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-09"
+retirementReason: "Family below search and engagement thresholds after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-09.json#/records/src~1content~1ja~1blog~1how-to-use-flashcards-for-ap-psychology.md"
 title: "2026年版 AP Psychology向けフラッシュカードの使い方: 本当に定着する用語・研究・FRQの根拠"
 description: "2026年のAP Psychologyに向けた実践的なフラッシュカード運用が必要ですか。2026年5月12日のBluebook完全デジタル試験に向けて、用語、有名研究、研究法、FRQの根拠をどう学ぶかを整理します。"
 date: "2026-04-29"

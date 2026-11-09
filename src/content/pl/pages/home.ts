@@ -106,7 +106,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Następna karta w zasięgu wzroku",
           description:
-            "Widżety na ekranie początkowym urządzeń iPhone, iPad, Mac i Android pokazują, ile kart czeka na powtórkę, i następne pytanie.",
+            "Widżety na ekranie początkowym urządzeń iPhone, iPad, Mac i Android pokazują, ile kart czeka na powtórkę, następne pytanie i postępy w nauce.",
         },
         {
           title: "Import, eksport i kontrola nad danymi",

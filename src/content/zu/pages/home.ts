@@ -106,7 +106,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Ikhadi elilandelayo ngokubheka kanye",
           description:
-            "Amawijethi esikrini sasekhaya ku-iPhone, i-iPad, i-Mac ne-Android akubonisa amakhadi asesikhathini sokubuyekezwa nombuzo wakho olandelayo.",
+            "Amawijethi esikrini sasekhaya ku-iPhone, i-iPad, i-Mac ne-Android akubonisa amakhadi asesikhathini sokubuyekezwa, umbuzo wakho olandelayo nenqubekelaphambili yakho.",
         },
         {
           title: "Ngenisa, ukhiphe, futhi ube ngumnikazi wedatha yakho",

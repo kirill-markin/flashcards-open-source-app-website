@@ -106,7 +106,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Seuraava kortti yhdellä silmäyksellä",
           description:
-            "Koti-valikon widgetit iPhonelle, iPadille, Macille ja Androidille näyttävät, mitä on kerrattavana, ja seuraavan kysymyksesi.",
+            "Koti-valikon widgetit iPhonelle, iPadille, Macille ja Androidille näyttävät, mitä on kerrattavana, seuraavan kysymyksesi ja edistymisesi.",
         },
         {
           title: "Tuo, vie ja omista datasi",
