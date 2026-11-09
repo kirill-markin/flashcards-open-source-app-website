@@ -3,7 +3,7 @@ title: "Anki vs Quizlet vs Nibomo en 2026: ¿cuál elegir?"
 description: "Comparamos Anki, Quizlet y Nibomo en 2026: repetición espaciada, uso sin conexión, IA, migración, precios, código abierto y control de tus datos."
 image: "/blog/anki-vs-quizlet-vs-open-source-flashcards-app.png"
 date: "2026-03-09"
-updated: "2026-11-08"
+updated: "2026-11-09"
 keywords:
   - "anki vs quizlet"
   - "mejor app de flashcards"
@@ -105,7 +105,7 @@ La beta alojada en la nube es gratuita actualmente e incluye IA y sincronizació
 
 Si empiezas desde cero, esta comparación es sencilla. Si ya tienes una colección, la migración pasa a ser un factor decisivo.
 
-Si tienes años de historial de repasos en Anki, quédate en Anki a menos que las ventajas de cambiar compensen perder ese historial. Para un mazo sencillo de anverso y reverso, adjunta su `.apkg` en el chat con IA de Nibomo. La [guía de importación de `.apkg` de Anki](/blog/import-anki-apkg/) muestra qué llega: el texto y las etiquetas sí, y también la única imagen de la prueba, pero cada tarjeta empieza con una programación nueva y las notas cloze se convierten en tarjetas de pregunta y respuesta. Exporta con **Support older Anki versions**; solo con ese formato antiguo Nibomo le pasa a la IA la lista de nombres de los archivos multimedia. El paquete de prueba era un archivo en el formato antiguo creado con un script, no una exportación de Anki. Revisa las imágenes después de importar. El [proceso de migración desde un archivo TXT de Anki](/blog/migrate-from-anki-txt-export-open-source-flashcards/), más antiguo, sigue sirviendo para mazos solo de texto.
+Si tienes años de historial de repasos en Anki, quédate en Anki a menos que las ventajas de cambiar compensen perder ese historial. Para un mazo sencillo, adjunta su `.apkg` en el chat con IA de Nibomo. Las exportaciones en el formato actual funcionan, hasta 30 MB por archivo; no necesitas **Support older Anki versions**. La IA guarda las tarjetas directamente: las etiquetas llegan, cada mazo de Anki se convierte en un mazo de Nibomo (cada submazo pasa a ser un mazo plano propio, con la ruta completa de Anki como nombre, y el mazo superior también incluye las tarjetas del submazo), y las tarjetas cloze siguen siendo de rellenar huecos. En una prueba pequeña, las tres imágenes acabaron en las tarjetas correctas; aun así, revisa las imágenes después de importar. Cada tarjeta empieza con una programación nueva. La [guía de importación de `.apkg` de Anki](/blog/import-anki-apkg/) muestra el proceso completo. El [proceso de migración desde un archivo TXT de Anki](/blog/migrate-from-anki-txt-export-open-source-flashcards/), más antiguo, sigue sirviendo para mazos solo de texto.
 
 Si tu material está en Quizlet, confirma primero que tú creaste el conjunto y que el contenido que necesitas es texto. La [guía para exportar de Quizlet a FSRS](/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/) explica el proceso práctico y las restricciones de exportación.
 

@@ -2,7 +2,7 @@
 title: "Anki vs Nibomo (2026): ¿qué aplicación te conviene?"
 description: "Compara Anki y Nibomo en FSRS, uso sin conexión, apps móviles, IA, migración, autoalojamiento y control de tus datos antes de cambiarte."
 date: "2026-04-25"
-updated: "2026-11-08"
+updated: "2026-11-09"
 image: "/blog/anki-vs-flashcards-open-source-app-v2.png"
 keywords:
   - "Anki vs Nibomo"
@@ -101,12 +101,12 @@ La exportación de la colección completa de Anki es más exhaustiva desde el pu
 
 Hoy, pasar de Anki a Nibomo consiste en trasladar el contenido a través del chat con IA:
 
-1. Exporta el mazo desde Anki como `.apkg` con la opción **Support older Anki versions** marcada. Solo con ese formato antiguo Nibomo le pasa a la IA la lista de nombres de los archivos multimedia. El paquete de prueba era un archivo en el formato antiguo creado con un script, no una exportación de Anki.
+1. Exporta el mazo desde Anki como `.apkg`. Las exportaciones en el formato actual funcionan; no necesitas **Support older Anki versions**.
 2. Adjunta el archivo al chat con IA de Nibomo y pídele que convierta el mazo en tarjetas. Cada archivo puede ocupar hasta 30 MB.
 3. La IA lee el paquete y guarda las tarjetas directamente; en la prueba no hubo ningún paso de borrador ni de confirmación.
-4. Compara con Anki el número de tarjetas, los anversos, los reversos, las etiquetas y las imágenes. Fíjate sobre todo en las imágenes.
+4. Compara con Anki el número de tarjetas, los anversos, los reversos, las etiquetas, los mazos y las imágenes. Fíjate sobre todo en las imágenes.
 
-En una prueba con un mazo de muestra pequeño llegaron las tarjetas básicas, las etiquetas y una imagen. Cada nota básica con tarjeta inversa se convirtió en dos tarjetas de un solo sentido, las notas cloze pasaron a ser tarjetas de pregunta y respuesta, y los submazos quedaron como mazos planos de Nibomo. No se transfieren el historial de repasos, las fechas de vencimiento, la memoria de FSRS, los tipos de nota, las plantillas HTML/CSS ni el comportamiento de los complementos. La [guía de importación de `.apkg`](/blog/import-anki-apkg/) muestra el proceso completo. La [guía de migración desde TXT](/blog/migrate-from-anki-txt-export-open-source-flashcards/), más antigua, sigue sirviendo para mazos solo de texto. Si también necesitas trasladar el historial de repasos, consulta en su lugar la [comparación más amplia de alternativas a Anki](/blog/best-anki-alternatives/).
+En una prueba con un paquete en el formato más reciente creado con el código de exportación oficial de Anki (la biblioteca de Python anki), llegaron las tarjetas básicas y las etiquetas, y las tres imágenes acabaron en las tarjetas correctas. Cada nota básica con tarjeta inversa se convirtió en dos tarjetas de un solo sentido, y las tarjetas cloze siguieron siendo de rellenar huecos. Cada mazo de Anki se convirtió en un mazo de Nibomo: cada submazo pasó a ser un mazo plano propio, con la ruta completa de Anki como nombre, y el mazo superior también incluyó las tarjetas del submazo. No se transfieren el historial de repasos, las fechas de vencimiento, la memoria de FSRS, los tipos de nota, las plantillas HTML/CSS ni el comportamiento de los complementos. El audio no formó parte de la prueba. La [guía de importación de `.apkg`](/blog/import-anki-apkg/) muestra el proceso completo. La [guía de migración desde TXT](/blog/migrate-from-anki-txt-export-open-source-flashcards/), más antigua, sigue sirviendo para mazos solo de texto. Si también necesitas trasladar el historial de repasos, consulta en su lugar la [comparación más amplia de alternativas a Anki](/blog/best-anki-alternatives/).
 
 ## Haz una prueba de bajo riesgo con un mazo representativo
 

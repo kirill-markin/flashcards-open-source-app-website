@@ -2,7 +2,7 @@
 title: "2026 में StudyFetch का विकल्प: StudyFetch vs Anki vs Nibomo"
 description: "StudyFetch का विकल्प खोज रहे हैं? AI स्टडी टूल्स, तय अंतराल पर रिव्यू, ऑफ़लाइन इस्तेमाल, प्राइवेसी और मालिकाना हक़ के आधार पर StudyFetch, Anki और Nibomo की तुलना करें।"
 date: "2026-08-17"
-updated: "2026-11-08"
+updated: "2026-11-09"
 image: "/blog/studyfetch-alternative.png"
 keywords:
   - "StudyFetch का विकल्प"
@@ -100,7 +100,7 @@ StudyFetch बाहर से सामग्री लाने के दो 
 
 यहाँ Anki की portability सबसे मजबूत है। इसका [इम्पोर्ट manual](https://docs.ankiweb.net/importing/intro.html) टेक्स्ट, packaged Anki decks और Mnemosyne डेटा को cover करता है। इसका [एक्सपोर्ट manual](https://docs.ankiweb.net/exporting.html) पढ़े जा सकने वाले टेक्स्ट, single-deck `.apkg` और पूरे कलेक्शन की `.colpkg` को अलग-अलग समझाता है। Collection package में डेक और शेड्यूलिंग शामिल होते हैं; deck-package settings तय करती हैं कि मीडिया, presets और scheduling information भी साथ जाएँगे या नहीं।
 
-सीधे competitor migration के मामले में Nibomo सबसे कमजोर है। इसका लाइब्रेरी import केवल `flashcards.zip` स्वीकार करता है, और यह StudyFetch सेट इम्पोर्ट नहीं कर सकता। Anki `.apkg` को online AI chat में attach किया जा सकता है, जो [पैकेज पढ़कर कार्ड save कर देता है](/blog/import-anki-apkg/): टेक्स्ट और tags आते हैं, test में इकलौती image भी आई, लेकिन review history नहीं आती, और cloze notes सवाल-जवाब कार्ड बन जाते हैं। **Support older Anki versions** चुनकर एक्सपोर्ट करें; Nibomo सिर्फ़ इसी पुराने फ़ॉर्मेट के लिए AI को मीडिया फ़ाइलों के नामों की सूची देता है। टेस्ट पैकेज पुराने फ़ॉर्मेट की एक फ़ाइल थी, जिसे स्क्रिप्ट से बनाया गया था; वह Anki से एक्सपोर्ट नहीं की गई थी। इम्पोर्ट के बाद इमेज जाँचें। टेक्स्ट, CSV, Markdown, document, spreadsheet, image और PDF फ़ाइलें भी इसी तरह नए कार्ड की source material बनती हैं। यह सामग्री को दोबारा बनाना है, इम्पोर्ट नहीं।
+सीधे competitor migration के मामले में Nibomo सबसे कमजोर है। इसका लाइब्रेरी import केवल `flashcards.zip` स्वीकार करता है, और यह StudyFetch सेट इम्पोर्ट नहीं कर सकता। Anki `.apkg` को online AI chat में attach किया जा सकता है, जो [पैकेज पढ़कर कार्ड save कर देता है](/blog/import-anki-apkg/)। मौजूदा format वाले exports काम करते हैं, हर file 30 MB तक; **Support older Anki versions** की ज़रूरत नहीं है। Tags आ जाते हैं, Anki का हर deck Nibomo deck बन जाता है (हर subdeck अपना अलग, बिना nesting वाला deck बन जाता है, जिसका नाम पूरे Anki path से रखा जाता है, और parent deck में subdeck के cards भी शामिल रहते हैं), और cloze cards fill-in-the-blank ही रहते हैं। एक छोटे test में तीनों images सही cards पर पहुँचीं; फिर भी import के बाद images जाँचें। Review history नहीं आती। टेक्स्ट, CSV, Markdown, document, spreadsheet, image और PDF फ़ाइलें भी इसी तरह नए कार्ड की source material बनती हैं। यह सामग्री को दोबारा बनाना है, इम्पोर्ट नहीं।
 
 इसके अपने पैकेज की सीमाएँ भी जानबूझकर तय की गई हैं। [Data-portability documentation](/docs/self-hosting/#data-portability) के मुताबिक, यह active cards, tags और उनसे जुड़ा मीडिया ट्रांसफ़र करता है—रिव्यू हिस्ट्री, FSRS state, वर्कस्पेस सेटिंग्स, पूरा deck structure या अकाउंट डेटा नहीं। इसे सामग्री का ट्रांसफ़र मानें, disaster recovery नहीं।
 

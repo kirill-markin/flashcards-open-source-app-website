@@ -2,7 +2,7 @@
 title: "Anki vs. Nibomo (2026): Welche App solltest du nutzen?"
 description: "Vergleiche Anki und Nibomo bei FSRS, Offline-Nutzung, mobilen Apps, KI, Migration, Self-Hosting und Datenkontrolle, bevor du wechselst."
 date: "2026-04-25"
-updated: "2026-11-08"
+updated: "2026-11-09"
 image: "/blog/anki-vs-flashcards-open-source-app-v2.png"
 keywords:
   - "Anki vs. Nibomo"
@@ -101,12 +101,12 @@ Ankis vollständiger Sammlungsexport ist aus Nutzersicht umfassender. Das ist ei
 
 Ein Wechsel von Anki zu Nibomo bedeutet derzeit, die Inhalte über den KI-Chat zu übertragen:
 
-1. Exportiere das Deck aus Anki als `.apkg` und aktiviere dabei **Support older Anki versions**. Nur bei diesem älteren Format gibt Nibomo der KI die Liste der Mediendateinamen. Das Testpaket war eine per Skript erstellte Datei im älteren Format, kein Anki-Export.
+1. Exportiere das Deck aus Anki als `.apkg`. Exporte im aktuellen Format funktionieren; **Support older Anki versions** brauchst du nicht.
 2. Hänge die Datei im KI-Chat von Nibomo an und bitte darum, aus dem Deck Karten zu machen. Jede Datei darf bis zu 30 MB groß sein.
 3. Die KI liest das Paket und speichert die Karten direkt; im Test gab es keinen Entwurfs- oder Bestätigungsschritt.
-4. Vergleiche Kartenanzahl, Vorderseiten, Rückseiten, Tags und Bilder mit Anki. Achte besonders auf die Bilder.
+4. Vergleiche Kartenanzahl, Vorderseiten, Rückseiten, Tags, Decks und Bilder mit Anki. Achte besonders auf die Bilder.
 
-In einem Test mit einem kleinen Beispieldeck kamen einfache Karten, Tags und ein Bild an. Jede Notiz mit umgekehrter Karte wurde zu zwei Karten mit je einer Richtung, Lückentext-Notizen wurden zu Frage-Antwort-Karten, und Unterdecks wurden zu flachen Nibomo-Decks. Wiederholungsverlauf, Fälligkeitstermine, FSRS-Zustand, Notiztypen, Vorlagen in HTML und CSS und Add-on-Verhalten werden nicht übertragen. Der [Leitfaden zum `.apkg`-Import](/blog/import-anki-apkg/) zeigt den kompletten Ablauf. Der ältere [Leitfaden zur TXT-Migration](/blog/migrate-from-anki-txt-export-open-source-flashcards/) funktioniert weiterhin für reine Textdecks. Wenn auch dein Wiederholungsverlauf mit umziehen muss, sieh dir stattdessen den [umfassenderen Vergleich von Anki-Alternativen](/blog/best-anki-alternatives/) an.
+In einem Test mit einem Paket im neuesten Format, erstellt mit Ankis offiziellem Exportcode (der Python-Bibliothek anki), kamen einfache Karten und Tags an, und alle drei Bilder landeten auf den richtigen Karten. Jede Notiz mit umgekehrter Karte wurde zu zwei Karten mit je einer Richtung, und Lückentext-Karten blieben Lückentexte. Jedes Anki-Deck wurde zu einem Nibomo-Deck: Jedes Unterdeck wurde zu einem eigenen flachen Deck, benannt mit dem vollständigen Anki-Pfad, und das übergeordnete Deck enthielt zusätzlich die Karten des Unterdecks. Wiederholungsverlauf, Fälligkeitstermine, FSRS-Zustand, Notiztypen, Vorlagen in HTML und CSS und Add-on-Verhalten werden nicht übertragen. Audio war nicht Teil des Tests. Der [Leitfaden zum `.apkg`-Import](/blog/import-anki-apkg/) zeigt den kompletten Ablauf. Der ältere [Leitfaden zur TXT-Migration](/blog/migrate-from-anki-txt-export-open-source-flashcards/) funktioniert weiterhin für reine Textdecks. Wenn auch dein Wiederholungsverlauf mit umziehen muss, sieh dir stattdessen den [umfassenderen Vergleich von Anki-Alternativen](/blog/best-anki-alternatives/) an.
 
 ## Teste ein repräsentatives Deck mit geringem Risiko
 
