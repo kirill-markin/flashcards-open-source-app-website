@@ -597,6 +597,36 @@
     "bytes": 2599600
   },
   {
+    "publicPath": "/blog/bass-clef-ledger-lines-drill.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/1c8a96b2134890cb5a40d3eecdfc521e88b0d5aa896a2ced0613d792789f65d8.webp",
+    "width": 1003,
+    "height": 558,
+    "sha256": "1c8a96b2134890cb5a40d3eecdfc521e88b0d5aa896a2ced0613d792789f65d8",
+    "bytes": 8160,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/0353ec2200aafe256cfc6161e9bbde5fe8ba1fb15bb34b3864127d62869797d5.png",
+      "width": 1003,
+      "height": 558,
+      "sha256": "0353ec2200aafe256cfc6161e9bbde5fe8ba1fb15bb34b3864127d62869797d5",
+      "bytes": 20981
+    }
+  },
+  {
+    "publicPath": "/blog/bass-clef-ledger-lines.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/71f330b7e4d7eb3c6ce950510a18aaf41e1f0249216fc35674739229228772ac.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "71f330b7e4d7eb3c6ce950510a18aaf41e1f0249216fc35674739229228772ac",
+    "bytes": 141878,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/9af89d947df5fc3823d3d0e34c1bd0a7285c5c8c54c11ff83e063494b37500fc.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "9af89d947df5fc3823d3d0e34c1bd0a7285c5c8c54c11ff83e063494b37500fc",
+      "bytes": 2359872
+    }
+  },
+  {
     "publicPath": "/blog/bass-clef-notes.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/340f4967038adbb88178a2531dc0985ce98ef749eeb2f9dcf3a223e65c7e5dfd.png",
     "width": 1672,
