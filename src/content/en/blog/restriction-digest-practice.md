@@ -25,6 +25,8 @@ Restriction enzymes cleave DNA at specific sites. A diagnostic digest uses the r
 
 Here, **one cut position means one cleavage across the double-stranded DNA molecule**. Don't count its two strands as two cuts. An enzyme name also isn't a cut count: one enzyme may have several sites on the same molecule.
 
+The maps below give you the cut coordinates. For practice locating exact sequence matches on either DNA strand, try the [DNA reverse complement flashcards](/catalog/packages/dna-reverse-complement-flashcards/).
+
 Use these assumptions throughout, except where a question changes them:
 
 - Each sample contains many copies of one DNA species, all with the same length and map.

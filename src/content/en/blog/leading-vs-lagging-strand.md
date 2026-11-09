@@ -179,6 +179,8 @@ Choose the card that targets the step you missed. Keep the fork direction and pa
 
 Preserve the reason behind a missed answer in a short prompt. Keep a full bubble drawing as a separate paper exercise; a card that asks only “What is the lagging strand?” won’t rehearse the four assignments.
 
+If you mixed up the daughter’s end labels, try the [DNA reverse complement flashcards](/catalog/packages/dna-reverse-complement-flashcards/) for short exercises in pairing DNA bases and finding the partner’s 5′ end.
+
 ### One fresh question after the cards
 
 A diagram is rotated: the fork moves **downward**. Parent A has **3′ at the top and 5′ at the bottom**. Parent B has **5′ at the top and 3′ at the bottom**. Which parent supplies the leading daughter, and where is that daughter's growing 3′ end?

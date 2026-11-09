@@ -109,7 +109,7 @@ The product is **6 bp shorter**: each outer boundary moved inward by three bases
 
 ## Review the decision you missed
 
-Cover one answer, redraw its aligned strands, and work out the sequence before checking. Revisit missed steps on later days. If the reverse complement caused trouble, practice that step separately. If the product length was wrong, mark the two outer boundaries before counting.
+Cover one answer, redraw its aligned strands, and work out the sequence before checking. Revisit missed steps on later days. If the reverse complement caused trouble, use the [DNA reverse complement flashcards](/catalog/packages/dna-reverse-complement-flashcards/) to practice writing the aligned DNA partner and reading it from its 5′ end. If the product length was wrong, mark the two outer boundaries before counting.
 
 The English [AP Biology complete course review deck](/catalog/packages/ap-biology-flashcards-complete-course-review/) includes broader PCR concepts, including why primers define boundaries and supply 3′ ends. Regular recall with spaced review helps you practice retrieving these concepts after a delay, supporting longer-term retention. Use it for broader biology review; the six sequence exercises above are specific to this worksheet. For a separate process, the [mRNA translation practice](/blog/mrna-translation-practice/) works on reading frames and mutations.
 

@@ -67,6 +67,8 @@ Cover the right column and answer from memory. For the first prompt, write the e
 | The aligned partner reads 3′–GCATT–5′. What do you report 5′ to 3′? | 5′–TTACG–3′. Start at the 5′ end on the right. |
 | A reference window reads 5′–CGTT–3′. Which strand has 5′–AACG–3′ at that span? | The − strand. AACG is the reverse complement of CGTT. |
 
+Try the same steps with fresh sequences in the [DNA reverse complement flashcards](/catalog/packages/dna-reverse-complement-flashcards/). Practice labeling the paired strands, correcting reversal errors, and finding exact matches on either strand.
+
 You’ll use the same direction check in the [PCR primer practice worksheet](/blog/pcr-primer-practice/).
 
 *This worksheet was drafted with AI assistance. Example answers were checked against Biopython 1.88.*

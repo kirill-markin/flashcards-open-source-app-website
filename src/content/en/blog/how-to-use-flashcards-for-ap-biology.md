@@ -127,7 +127,9 @@ Examples:
 
 This is how **AP Biology flashcards** stop being mini-essays and start acting like memory tools.
 
-If strand roles or 5′/3′ ends keep tripping you up, try [Coding vs Template Strand Flashcards: Transcription Practice](/catalog/packages/coding-template-strand-transcription-flashcards/). This focused transcription practice asks you to convert labeled DNA segments into initial RNA before processing and correct common sequence errors. Use it alongside your course questions.
+If you keep reading a paired DNA strand from the wrong end, use the [DNA reverse complement flashcards](/catalog/packages/dna-reverse-complement-flashcards/) to practice finding its 5′ end and writing the sequence in that direction.
+
+If you keep mixing up strand roles during transcription, try [Coding vs Template Strand Flashcards: Transcription Practice](/catalog/packages/coding-template-strand-transcription-flashcards/). This focused transcription practice asks you to convert labeled DNA segments into initial RNA before processing and correct common sequence errors. Use it alongside your course questions.
 
 Then try the [RNA splicing flashcards](/catalog/packages/rna-splicing-exon-junction-flashcards/) to assemble the mature mRNA sequence from pre-mRNA using a given splicing pattern.
 
