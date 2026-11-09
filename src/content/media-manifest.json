@@ -2991,6 +2991,21 @@
     "bytes": 2296964
   },
   {
+    "publicPath": "/blog/japanese-masu-dictionary-te-form.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/b9e1db26d06f47c6a354df985291d9ac43b29a7f49c76d3389347d0e3f6092ae.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "b9e1db26d06f47c6a354df985291d9ac43b29a7f49c76d3389347d0e3f6092ae",
+    "bytes": 165506,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/bd41c654ebadc3c806913446f0791f2d8f6876b626b0a299d71949142e99be31.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "bd41c654ebadc3c806913446f0791f2d8f6876b626b0a299d71949142e99be31",
+      "bytes": 2330700
+    }
+  },
+  {
     "publicPath": "/blog/japanese-small-tsu.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/472313ea9f506771725a396c460575aab9c4afccaa09c1add17e65c6a45bd562.webp",
     "width": 1672,

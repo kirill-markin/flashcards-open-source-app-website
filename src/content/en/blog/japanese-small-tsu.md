@@ -24,6 +24,8 @@ Try さか (*saka*, 坂, “slope”) and さっか (*sakka*, 作家, “writer�
 
 Play both words in questions 1 and 2 of the TUFS audio exercise. Listen to さか and さっか, then いた (*ita*, 居た, “was there”) and いった (*itta*, 行った, “went”). Say each pair back and feel where your mouth holds the consonant. [TUFS audio exercise](https://www.coelang.tufs.ac.jp/ja/en/pmod/practical/02-01-02.php)
 
+The small っ also shows up when you change verb forms. 行きます (いきます, “go”) becomes 行って (いって) in the て form. Try that change alongside regular endings in the [Japanese verb conjugation worksheet](/blog/japanese-masu-dictionary-te-form/).
+
 ## Small っ practice
 
 Say the words out loud and jot down your answers before you scroll. If two words sound the same when you say them, count your taps and note what your mouth did.
