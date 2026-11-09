@@ -2627,6 +2627,81 @@
     }
   },
   {
+    "publicPath": "/blog/import-anki-apkg-v5-ai-reply.png",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/238a6d79246b7fc1b68a8605ab8d242f0addca0071296af96be2e0a3c8550f51.webp",
+    "width": 1206,
+    "height": 1243,
+    "sha256": "238a6d79246b7fc1b68a8605ab8d242f0addca0071296af96be2e0a3c8550f51",
+    "bytes": 71770,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/b85050b119ddb51f4e47599c84dbece87e305529e7a6ded4692644cac1704b3a.png",
+      "width": 1206,
+      "height": 1243,
+      "sha256": "b85050b119ddb51f4e47599c84dbece87e305529e7a6ded4692644cac1704b3a",
+      "bytes": 113744
+    }
+  },
+  {
+    "publicPath": "/blog/import-anki-apkg-v5-attach.png",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/339d01437c64ba66c4b3f931ff42258bd6219ae1ba82080682955b31d448f97a.webp",
+    "width": 1206,
+    "height": 642,
+    "sha256": "339d01437c64ba66c4b3f931ff42258bd6219ae1ba82080682955b31d448f97a",
+    "bytes": 18636,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/d6cc2df30a73ae8d99d7cc146030f531f4f28943ec68ff52a270e3e59956e672.png",
+      "width": 1206,
+      "height": 642,
+      "sha256": "d6cc2df30a73ae8d99d7cc146030f531f4f28943ec68ff52a270e3e59956e672",
+      "bytes": 99080
+    }
+  },
+  {
+    "publicPath": "/blog/import-anki-apkg-v5-cards.png",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/835628d46a8139dd8472ff266a476f39bc48b23241ba22de16bb13259a595f94.webp",
+    "width": 1110,
+    "height": 1745,
+    "sha256": "835628d46a8139dd8472ff266a476f39bc48b23241ba22de16bb13259a595f94",
+    "bytes": 63234,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/2373b6736d667ce3f636fd2d8c636256407fa1dbbed76037882c9a73ac809dbb.png",
+      "width": 1110,
+      "height": 1745,
+      "sha256": "2373b6736d667ce3f636fd2d8c636256407fa1dbbed76037882c9a73ac809dbb",
+      "bytes": 119117
+    }
+  },
+  {
+    "publicPath": "/blog/import-anki-apkg-v5-decks.png",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/747e60beb661d282f750c622e5113744305ebe74df27b783ca4a23fb59a801b7.webp",
+    "width": 1110,
+    "height": 692,
+    "sha256": "747e60beb661d282f750c622e5113744305ebe74df27b783ca4a23fb59a801b7",
+    "bytes": 27924,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/724527f291918fecd2feee4a0e55d1c896d9218de237a3f41403158b9f86611b.png",
+      "width": 1110,
+      "height": 692,
+      "sha256": "724527f291918fecd2feee4a0e55d1c896d9218de237a3f41403158b9f86611b",
+      "bytes": 61968
+    }
+  },
+  {
+    "publicPath": "/blog/import-anki-apkg-v5-review.png",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/a7b202be56b68569e462fbb21fda86ee06c93107371bd43b0b13c60d6b217ee3.webp",
+    "width": 1206,
+    "height": 2259,
+    "sha256": "a7b202be56b68569e462fbb21fda86ee06c93107371bd43b0b13c60d6b217ee3",
+    "bytes": 37472,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/2d566bee9d0ffe362da38f9e7fa667b2219ba9ae8734253f528244c4093be029.png",
+      "width": 1206,
+      "height": 2259,
+      "sha256": "2d566bee9d0ffe362da38f9e7fa667b2219ba9ae8734253f528244c4093be029",
+      "bytes": 334396
+    }
+  },
+  {
     "publicPath": "/blog/import-anki-apkg.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/4582484682bb3b61ab695a4130ef89e83e980cb7dc8f80a183a3c3cb960564ea.webp",
     "width": 1536,
