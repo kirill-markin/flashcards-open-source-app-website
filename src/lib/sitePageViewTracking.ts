@@ -17,10 +17,12 @@ import {
   getSitePagePath,
   getSiteScreenWidthBucket,
   getSiteTimeZone,
+  readSiteBrowserRawSignals,
   readSiteCampaignParameters,
   sendSiteAnalyticsEventWithIdentity,
   SITE_PACKAGE_VERSION_ID_ATTRIBUTE,
   type SiteAutomation,
+  type SiteBrowserRawSignals,
   type SiteCampaignParameters,
   type SiteDeviceCategory,
   type SitePageKind,
@@ -58,6 +60,7 @@ interface SitePageViewDraft {
   readonly timeZone: string | null;
   readonly automation: SiteAutomation;
   readonly screenWidthBucket: SiteScreenWidthBucket;
+  readonly browserRawSignals: SiteBrowserRawSignals;
 }
 
 // The page view still waiting for this load's identity resolution. At most one exists: a newer
@@ -98,6 +101,7 @@ function sendPendingSitePageView(): void {
     return;
   }
 
+  const signals = draft.browserRawSignals;
   const sentIdentity = sendSiteAnalyticsEventWithIdentity(
     "site_page_viewed",
     draft.clientOccurredAt,
@@ -117,6 +121,20 @@ function sendPendingSitePageView(): void {
       ...(draft.timeZone === null ? {} : { time_zone: draft.timeZone }),
       automation: draft.automation,
       screen_width_bucket: draft.screenWidthBucket,
+      ...(signals.webglRenderer === null ? {} : { webgl_renderer: signals.webglRenderer }),
+      ...(signals.hardwareConcurrency === null
+        ? {}
+        : { hardware_concurrency: signals.hardwareConcurrency }),
+      ...(signals.browserLanguages === null ? {} : { browser_languages: signals.browserLanguages }),
+      ...(signals.windowInnerWidth === null ? {} : { window_inner_width: signals.windowInnerWidth }),
+      ...(signals.windowInnerHeight === null
+        ? {}
+        : { window_inner_height: signals.windowInnerHeight }),
+      ...(signals.windowOuterWidth === null ? {} : { window_outer_width: signals.windowOuterWidth }),
+      ...(signals.windowOuterHeight === null
+        ? {}
+        : { window_outer_height: signals.windowOuterHeight }),
+      ...(signals.pluginCount === null ? {} : { plugin_count: signals.pluginCount }),
     },
     (currentAnonymousId) => currentAnonymousId,
   );
@@ -191,6 +209,7 @@ function reportSitePageView(locale: AppLocale, pageUrl: string): void {
     timeZone: getSiteTimeZone(),
     automation: getSiteAutomation(),
     screenWidthBucket: getSiteScreenWidthBucket(),
+    browserRawSignals: readSiteBrowserRawSignals(),
   };
   window.addEventListener("pagehide", sendPendingSitePageView);
   document.addEventListener("visibilitychange", sendPendingSitePageViewWhenHidden);

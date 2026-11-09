@@ -128,7 +128,9 @@ interface SiteAnalyticsEventPropertiesByName {
    * once.
    *
    * `time_zone`, `automation` and `screen_width_bucket` are browser signals that tell a reader from
-   * a scraper; the zone is optional because a browser can fail to name one.
+   * a scraper; the zone is optional because a browser can fail to name one. The raw values after
+   * them, read by `readSiteBrowserRawSignals`, help the same way and are optional for the same
+   * reason; headless signs are derived from them at query time rather than sent.
    */
   readonly site_page_viewed: Readonly<{
     page_kind: SitePageKind;
@@ -145,6 +147,14 @@ interface SiteAnalyticsEventPropertiesByName {
     time_zone?: string;
     automation: SiteAutomation;
     screen_width_bucket: SiteScreenWidthBucket;
+    webgl_renderer?: string;
+    hardware_concurrency?: number;
+    browser_languages?: string;
+    window_inner_width?: number;
+    window_inner_height?: number;
+    window_outer_width?: number;
+    window_outer_height?: number;
+    plugin_count?: number;
   }>;
   /** Carries the page view's own `page_kind` and `device_category`, value for value. */
   readonly site_page_engaged: Readonly<{
@@ -563,6 +573,117 @@ export function getSiteScreenWidthBucket(): SiteScreenWidthBucket {
   }
 
   return "xxl";
+}
+
+/**
+ * Raw browser values that tell a reader from a scraper, the same ones the web app's `app_opened`
+ * carries so a visit to each can be compared. Null means the key is left out: the collector refuses
+ * the whole event on a value outside its shape, an explicit null or empty string included.
+ */
+export interface SiteBrowserRawSignals {
+  readonly webglRenderer: string | null;
+  readonly hardwareConcurrency: number | null;
+  readonly browserLanguages: string | null;
+  readonly windowInnerWidth: number | null;
+  readonly windowInnerHeight: number | null;
+  readonly windowOuterWidth: number | null;
+  readonly windowOuterHeight: number | null;
+  readonly pluginCount: number | null;
+}
+
+// The shapes the collector accepts for the two string signals.
+const SITE_WEBGL_RENDERER_PATTERN = /^[\x20-\x7E]{1,256}$/u;
+const SITE_BROWSER_LANGUAGES_PATTERN = /^[A-Za-z0-9-]+(?:,[A-Za-z0-9-]+)*$/u;
+const SITE_BROWSER_LANGUAGES_MAX_LENGTH = 200;
+
+function toSiteNonNegativeInteger(value: number | undefined): number | null {
+  if (value === undefined || Number.isFinite(value) === false) {
+    return null;
+  }
+
+  const roundedValue = Math.round(value);
+  return roundedValue >= 0 && Number.isSafeInteger(roundedValue) ? roundedValue : null;
+}
+
+// Read once per page load, on the first page view reported while collection is on, and reused
+// after: the renderer cannot change within one, and creating a context can block the main thread.
+// The first result is kept even when it is null, so a failed first read means none for this load.
+let siteWebglRendererOfPageLoad: string | null | undefined;
+
+function readSiteWebglRendererFromNewContext(): string | null {
+  let gl: WebGLRenderingContext | null;
+  try {
+    gl = document.createElement("canvas").getContext("webgl");
+  } catch {
+    // Some browsers throw instead of returning null when WebGL is blocked; either way there is none.
+    return null;
+  }
+
+  if (gl === null) {
+    return null;
+  }
+
+  const debugRendererInfo = gl.getExtension("WEBGL_debug_renderer_info");
+  const renderer: unknown = debugRendererInfo === null
+    ? null
+    : gl.getParameter(debugRendererInfo.UNMASKED_RENDERER_WEBGL);
+  // Released at once: browsers cap live WebGL contexts per page, and this one is never read again.
+  gl.getExtension("WEBGL_lose_context")?.loseContext();
+
+  return typeof renderer === "string" && SITE_WEBGL_RENDERER_PATTERN.test(renderer)
+    ? renderer
+    : null;
+}
+
+/** The unmasked renderer of a detached canvas; null without WebGL or `WEBGL_debug_renderer_info`. */
+function readSiteWebglRenderer(): string | null {
+  if (siteWebglRendererOfPageLoad === undefined) {
+    siteWebglRendererOfPageLoad = readSiteWebglRendererFromNewContext();
+  }
+
+  return siteWebglRendererOfPageLoad;
+}
+
+function readSiteBrowserLanguages(): string | null {
+  const browserLanguages = navigator.languages.join(",");
+  return browserLanguages.length <= SITE_BROWSER_LANGUAGES_MAX_LENGTH
+    && SITE_BROWSER_LANGUAGES_PATTERN.test(browserLanguages)
+    ? browserLanguages
+    : null;
+}
+
+const SITE_BROWSER_RAW_SIGNALS_UNREAD: SiteBrowserRawSignals = {
+  webglRenderer: null,
+  hardwareConcurrency: null,
+  browserLanguages: null,
+  windowInnerWidth: null,
+  windowInnerHeight: null,
+  windowOuterWidth: null,
+  windowOuterHeight: null,
+  pluginCount: null,
+};
+
+/**
+ * Called only while collection is on. A browser that throws while answering any of these loses the
+ * raw values for that page view, never the page view itself.
+ */
+export function readSiteBrowserRawSignals(): SiteBrowserRawSignals {
+  try {
+    return {
+      webglRenderer: readSiteWebglRenderer(),
+      hardwareConcurrency: toSiteNonNegativeInteger(navigator.hardwareConcurrency),
+      browserLanguages: readSiteBrowserLanguages(),
+      windowInnerWidth: toSiteNonNegativeInteger(window.innerWidth),
+      windowInnerHeight: toSiteNonNegativeInteger(window.innerHeight),
+      windowOuterWidth: toSiteNonNegativeInteger(window.outerWidth),
+      windowOuterHeight: toSiteNonNegativeInteger(window.outerHeight),
+      pluginCount: toSiteNonNegativeInteger(navigator.plugins.length),
+    };
+  } catch {
+    warnAboutSiteAnalyticsFailure("site_page_viewed", "BROWSER_SIGNALS_READ_ERROR", null, null);
+
+    return SITE_BROWSER_RAW_SIGNALS_UNREAD;
+  }
 }
 
 /** Locale prefixes are stripped first, so every locale copy of a route has one kind. */
