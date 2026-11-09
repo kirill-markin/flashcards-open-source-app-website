@@ -271,6 +271,7 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   "comma-splice-vs-fused-sentence": { en: "comma-splice-fused-sentence-flashcards" },
   "medical-terminology-flashcards": {
     en: "medical-terminology-word-parts",
+    de: "medizinische-fachbegriffe",
     es: "terminologia-medica-prefijos-raices-sufijos",
   },
   "us-constitutional-amendments-flashcards": { en: "us-constitutional-amendments" },

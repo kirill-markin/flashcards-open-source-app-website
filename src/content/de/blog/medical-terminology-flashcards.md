@@ -1,7 +1,8 @@
 ---
 title: "Flashcards für medizinische Terminologie 2026: Wortstämme, Präfixe und Suffixe"
-description: "Erstelle Flashcards für medizinische Terminologie zu Wortstämmen, Präfixen, Suffixen, vollständigen Begriffen und Abkürzungen – mit einem praktischen, quellengeprüften Lernablauf für 2026."
+description: "Lerne medizinische Terminologie mit Flashcards für Wortstämme, Präfixe, Suffixe und Abkürzungen. Übe deutsche Fachbegriffe mit sieben Fragen und Lösungen."
 date: "2026-08-09"
+updated: "2026-11-09"
 image: "/blog/medical-terminology-flashcards.png"
 keywords:
   - "flashcards medizinische terminologie"
@@ -14,15 +15,41 @@ keywords:
   - "medizinische terminologie spaced repetition"
 ---
 
-`U` wirkt wie eine einfache Karte zu medizinischen Abkürzungen: „Was bedeutet `U`?“ Laut der [ISMP-Liste fehleranfälliger Abkürzungen von 2024](https://www.ismp.org/system/files/resources/2024-04/ISMP_ErrorProneAbbreviation_List.pdf) können `U` oder `u` für unit(s) jedoch mit `0` oder `4` verwechselt werden. ISMP empfiehlt, `unit(s)` auszuschreiben. Eine umgekehrte Karte, auf der `U` die gesuchte Antwort ist, würde also genau die Kurzform einüben, von der die Empfehlung bei der Weitergabe medizinischer Informationen abrät.
+„Ich bekomme schlecht Luft“ beschreibt, was jemand spürt. „Die Person atmet schneller als gewöhnlich“ beschreibt eine Beobachtung. Für beides gibt es einen eigenen medizinischen Fachbegriff. Im Quiz kannst du ausprobieren, ob dir beide einfallen. Danach geht es darum, wie du eigene Karteikarten für Fachbegriffe, Wortbestandteile und Abkürzungen erstellst.
 
-Dieses kleine Beispiel zeigt das Problem vieler **Flashcards für medizinische Terminologie**. Wortbestandteile erkennen, Wörter bilden, Begriffe schreiben und verstehen sowie Abkürzungen sicher verwenden: Das sind verschiedene Aufgaben. Packst du alles in ein riesiges Deck mit vagen Fragen, kannst du viele Wiederholungen sammeln, ohne zu wissen, welche Fähigkeit du damit eigentlich trainierst.
+![Karteikarten für medizinische Wortstämme, Präfixe, Suffixe, vollständige Begriffe und Abkürzungen](/blog/medical-terminology-flashcards.png)
 
-![Flashcards für medizinische Terminologie, getrennt nach Wortstämmen, Präfixen, Suffixen, vollständigen Begriffen und sicherem Abkürzungstraining](/blog/medical-terminology-flashcards.png)
+## Quiz zu medizinischen Fachbegriffen auf Deutsch
 
-## Beginne mit deinem Kurs, nicht mit einer riesigen Liste medizinischer Begriffe
+Das Quiz richtet sich an alle, die eine Ausbildung in der Pflege oder einem anderen Gesundheitsberuf beginnen. Sag den Fachbegriff laut oder schreib ihn auf. Schau erst dann in die Lösungen.
 
-Das [MedlinePlus-Tutorial Understanding Medical Words](https://medlineplus.gov/medwords/medicalwords.html) erklärt, wie medizinische Wortbestandteile zusammengesetzt werden, und enthält kurze Quizfragen. Damit eignet es sich gut zum Nachschlagen und Üben. Welche Terminologie dein Anatomiekurs, deine Pflegeausbildung, dein Kurs zur medizinischen Kodierung, dein Arbeitsplatz oder die Richtlinien deiner Einrichtung konkret verlangen, legt es trotzdem nicht fest.
+### Sieben Fragen
+
+1. Jemand hat das Gefühl, schlecht Luft zu bekommen. Wie heißt diese Beschwerde?
+2. Wie heißt die Untersuchung, bei der Ultraschall Bilder von Organen und Gewebe liefert?
+3. Ein Medikament wird ins Fettgewebe unter der Haut gespritzt. Welcher Fachbegriff beschreibt diesen Verabreichungsweg?
+4. Bei einer Person in Ruhe zählt man mehr Atemzüge pro Minute als üblich. Wie heißt dieser Befund?
+5. Wie heißt die Untersuchung, bei der die elektrische Aktivität des Herzens als Kurve aufgezeichnet wird?
+6. Der Wirkstoff aus einem Pflaster gelangt durch die Haut in die Blutbahn. Wie heißt dieser Anwendungsweg?
+7. Wie heißt die Untersuchung, bei der man den Dickdarm mit einer Kamera von innen betrachtet?
+
+### Lösungen und Merkhilfen
+
+1. **Dyspnoe** bezeichnet die empfundene Atemnot. [gesund.bund.de](https://gesund.bund.de/glossar/dyspnoe)
+2. **Sonografie** und **Sonographie** sind zwei Schreibweisen für dieselbe Ultraschalluntersuchung. [gesund.bund.de](https://gesund.bund.de/glossar/sonografie) · [Duden](https://www.duden.de/rechtschreibung/Sonografie)
+3. **Subkutan** heißt hier „unter die Haut“. Bei der Spritze ist das Fettgewebe unter der Haut das Ziel. [IQWiG](https://www.gesundheitsinformation.de/medikamenten-anwendung.html)
+4. **Tachypnoe** bedeutet, dass die Atemfrequenz erhöht ist. Merke dir für die Fragen 1 und 4 den Unterschied zwischen empfundener Atemnot und der Zahl der Atemzüge. [Universitätsklinikum Augsburg](https://pflegewiki.uk-augsburg.de/themen/pflegebasismassnahmen/vitalparameter/atmung)
+5. **Elektrokardiografie** oder **Elektrokardiographie** heißt die Untersuchung. Die aufgezeichnete Kurve heißt **Elektrokardiogramm**. [IQWiG](https://www.gesundheitsinformation.de/was-passiert-bei-einer-elektrokardiografie-ekg.html) · [Österreichisches Gesundheitsportal](https://www.gesundheit.gv.at/labor/untersuchungen/funktionsdiagnostik/ekg.html)
+6. **Transdermal** heißt „durch die Haut“. Beim beschriebenen Pflaster gelangt der Wirkstoff auf diesem Weg in die Blutbahn. [gesund.bund.de](https://gesund.bund.de/arzneimittel-anwendungsformen)
+7. **Koloskopie** bezeichnet die Spiegelung des Dickdarms. **Endoskopie** ist der Oberbegriff für Untersuchungen, bei denen man mit einem Endoskop ins Körperinnere schaut. [gesund.bund.de](https://gesund.bund.de/glossar/koloskopie) · [IQWiG](https://www.gesundheitsinformation.de/glossar/endoskopie.html)
+
+Wenn du zwei Begriffe verwechselst, such in den Fragen nach dem Wort, das den Unterschied macht. Bei 3 und 6 sind es „unter“ und „durch“. Versuche nach einer Pause, beide Begriffe wieder aus dem Gedächtnis zu nennen.
+
+Im [deutschsprachigen Deck mit 55 Karteikarten zu medizinischen Fachbegriffen](/de/catalog/packages/medizinische-fachbegriffe/) kannst du weitere Beschwerden, Befunde, Untersuchungen und Verabreichungswege üben. Ruf den Begriff vor dem Aufdecken ab. Bei späteren Wiederholungen merkst du, welche Begriffe dir auch nach einer Pause einfallen.
+
+## Welche Fachbegriffe brauchst du für deinen Kurs?
+
+Nimm den aktuellen Lehrplan als Ausgangspunkt für deine eigenen Karten. Das englischsprachige Tutorial [Understanding Medical Words von MedlinePlus](https://medlineplus.gov/medwords/) erklärt an Beispielen, wie medizinische Wörter aufgebaut sind. Welche Begriffe und Schreibweisen du für deinen Kurs brauchst, steht in deinen Kursunterlagen.
 
 Erstelle dein Deck anhand der Quellen, die für deinen Kurs oder deine Arbeit maßgeblich sind:
 
@@ -38,7 +65,7 @@ Der [MedlinePlus-Anhang zu Wortbestandteilen](https://medlineplus.gov/appendixa.
 
 ## Trenne medizinische Wortstämme, Präfixe und Suffixe nach Aufgabe
 
-Entscheidend ist nicht nur, ob ein Begriff ins Deck gehört. Überlege, was du damit können musst. Jede Aufgabe braucht eine passende Kartenform.
+Überlege bei jedem Begriff, was du damit können musst. Einen Wortstamm zu erkennen ist eine andere Aufgabe, als den Fachbegriff selbst zu schreiben. Gib beiden Aufgaben eine eigene Karte, wenn du beides üben willst.
 
 ### Einen Wortbestandteil erkennen
 
@@ -50,7 +77,7 @@ Rückseite: Herz.
 Quelle: MedlinePlus Appendix A; Kursglossar, Einheit 2
 ```
 
-Das ist eine klare Flashcard zu medizinischen Wortbestandteilen: eine eindeutige Frage, eine erwartete Bedeutung und ein benannter Geltungsbereich. Bei MedlinePlus stehen `cardi-, cardio-` für Herz. Dort stehen außerdem `derm-, dermato-` für Haut, `hepat-, hepatico-, hepato-` für Leber und `nephr-, nephro-` für Niere. Nimm die Formen auf, die dein Kurs verwendet, statt standardmäßig jede aufgeführte Variante zu einer eigenen Karte zu machen.
+Bei MedlinePlus stehen `cardi-, cardio-` für Herz. Dort stehen außerdem `derm-, dermato-` für Haut, `hepat-, hepatico-, hepato-` für Leber und `nephr-, nephro-` für Niere. Nimm die Formen auf, die dein Kurs verwendet, statt standardmäßig jede aufgeführte Variante zu einer eigenen Karte zu machen.
 
 ### Umgekehrte Karten klar begrenzen
 
@@ -68,7 +95,7 @@ Dieselbe Regel hilft bei Flashcards zu medizinischen Präfixen und Suffixen. „
 
 ### Vollständige Begriffe zerlegen und zusammensetzen
 
-Kenntnisse über Wortbestandteile werden nützlich, sobald du mit einem vollständigen Begriff arbeitest. In der Lektion [Break It Up](https://medlineplus.gov/medwords/breakitup1.html) teilt MedlinePlus `transesophageal` in `trans` / `esophagi` / `eal` und `echocardiogram` in `echo` / `cardio` / `gram`.
+Kenntnisse über Wortbestandteile werden nützlich, sobald du mit einem vollständigen Begriff arbeitest. In der englischsprachigen Lektion [Break It Up](https://medlineplus.gov/medwords/breakitup1.html) teilt MedlinePlus `transesophageal` in `trans` / `esophagi` / `eal` und `echocardiogram` in `echo` / `cardio` / `gram`.
 
 Formuliere daraus eine eindeutige Karte:
 
@@ -98,7 +125,7 @@ Quelle: Lehrbuch, Kapitel 8, Seite oder Abschnitt
 
 Die eckigen Klammern markieren Arbeit, die du noch erledigen musst; sie gehören nicht ins fertige Deck. Übernimm die maßgebliche Definition oder fasse sie genau zusammen und gleiche das Ergebnis anschließend mit der Quelle ab. Stopfe nicht Etymologie, Aussprache, Symptome, Untersuchungen, Behandlungen und zwei verwandte Erkrankungen auf dieselbe Rückseite. Teile die Karte, sobald die Antwort kein einzelnes klares Lernziel mehr hat.
 
-Wenn dein Kurs Lagebezeichnungen behandelt, zeigt das [Deck mit 31 Karten zu anatomischen Lagebezeichnungen](/catalog/packages/anatomical-directional-terms-de/) diese Aufteilung konkret: Es übt die Bedeutung von 10 Begriffen, den Abruf anhand einer Definition und die Anwendung auf Lagebeispiele am Körper getrennt.
+Wenn dein Kurs Lagebezeichnungen behandelt, zeigt das [Deck mit 31 Karten zu anatomischen Lagebezeichnungen](/de/catalog/packages/anatomical-directional-terms-de/) diese Aufteilung konkret: Es übt die Bedeutung von 10 Begriffen, den Abruf anhand einer Definition und die Anwendung auf Lagebeispiele am Körper getrennt.
 
 ### Rechtschreibung und Aussprache ergänzend zu den Karten üben
 
@@ -126,31 +153,24 @@ Diese Karte behebt eine konkrete Verwechslung. Das ist nützlicher, als die beid
 
 ## Behandle Flashcards zu medizinischen Abkürzungen als Sonderfall
 
-Abkürzungen hängen stark vom Kontext ab. Der [MedlinePlus-Anhang zu Abkürzungen](https://medlineplus.gov/appendixb.html) führt gängige Abkürzungen mit ihrer Langform und zusätzlichen Informationen auf. Dort steht zum Beispiel `BP` für blood pressure. Das eignet sich als Grundlage für eine Erkennungskarte, die Frage sollte den Kontext aber trotzdem nennen:
+Nenne auf einer Abkürzungskarte den Kontext, in dem dir die Kurzform begegnet. Im englischsprachigen [MedlinePlus-Anhang zu Abkürzungen](https://medlineplus.gov/appendixb.html) steht zum Beispiel `BP` für „blood pressure“.
 
 ```text
-Vorderseite: Wofür steht BP in den Kursnotizen zu Vitalzeichen?
-Rückseite: Blutdruck.
+Vorderseite: Wofür steht BP in den englischen Kursnotizen zu Vitalzeichen?
+Rückseite: blood pressure (Blutdruck).
 Quelle: Kursglossar; geprüft mit MedlinePlus Appendix B
 ```
 
 Mache daraus nur dann „Wie soll ich Blutdruck abkürzen?“, wenn dein Kurs oder deine Einrichtung das aktive Verwenden ausdrücklich verlangt und diese Form genehmigt. Eine Abkürzung zu erkennen und sie selbst schreiben zu dürfen sind zwei verschiedene Fragen.
 
-Riskante Abkürzungen brauchen eine andere Kartenform. Auf der aktuellen Seite [Do Not Use von The Joint Commission](https://www.jointcommission.org/en-us/knowledge-library/support-center/standards-interpretation/do-not-use-list-of-abbreviations) steht, dass die Verbotsliste weiterhin Teil des Information-Management-Standards IM.02.02.01 für Krankenhäuser und Krankenhausambulanzen ist. Für weitere fehleranfällige Abkürzungen verweist die Seite auf ISMP. Das ist ein klar abgegrenzter Geltungsbereich und keine Behauptung, jede Abkürzung sei in jedem Kontext verboten.
-
-Bei Sicherheitsthemen sollte die Karte die Gefahr und die sicherere Formulierung abfragen:
+Bei fehleranfälligen Abkürzungen kannst du die Verwechslung selbst zur Lernfrage machen. Ein Beispiel aus der US-amerikanischen [ISMP-Liste von 2024](https://www.ismp.org/system/files/resources/2024-04/ISMP_ErrorProneAbbreviation_List.pdf) betrifft die englische Kurzform `U`.
 
 ```text
-Vorderseite: Warum sollte man U oder u laut der ISMP-Liste von 2024 nicht für unit(s) verwenden, und was sollte stattdessen geschrieben werden?
-Rückseite: Sie können mit 0 oder 4 verwechselt oder als cc gelesen werden und dazu führen, dass eine Dosis als Volumen statt in Einheiten verabreicht wird. Schreibe unit(s).
-
-Vorderseite: Womit kann IU laut der ISMP-Liste von 2024 verwechselt werden, und was soll stattdessen geschrieben werden?
-Rückseite: IU kann mit IV oder 10 verwechselt werden. Schreibe unit(s).
+Vorderseite: Warum stuft ISMP die englische Abkürzung U für unit(s) als fehleranfällig ein?
+Rückseite: U kann als 0 oder 4 gelesen werden. ISMP empfiehlt die ausgeschriebene Form unit(s).
 ```
 
-Das sind Karten nach dem Muster „nicht verwenden/stattdessen schreiben“. Sie helfen dir, eine riskante Form zu erkennen, ohne sie zum Ziel einer Aufgabe zu machen, in der du die Abkürzung selbst produzieren sollst. Laut ISMP wurden die Einträge in der Tabelle bei schädlichen oder potenziell schädlichen Medikationsfehlern falsch interpretiert. Sie sollten bei der Weitergabe medizinischer Informationen weder mündlich noch elektronisch noch handschriftlich verwendet werden. Einträge mit zwei Sternchen stehen auch auf der „Do Not Use“-Liste von The Joint Commission; dadurch wird jedoch nicht jeder Eintrag der umfangreicheren ISMP-Tabelle zu einem Verbot von The Joint Commission. ISMP empfiehlt außerdem, abgekürzte Arzneimittelnamen zu vermeiden, statt zu versuchen, mehrdeutige Kurzformen von Arzneimitteln auswendig zu lernen.
-
-Für deine Arbeit bleibt die aktuelle Richtlinie deiner Einrichtung maßgeblich. Notiere ihren Namen und ihre Version auf der Karte und aktualisiere oder entferne den Kartensatz, wenn sich die Quelle ändert.
+Die Karte fragt nach der Begründung aus der Quelle. Ob du eine Abkürzung selbst verwenden darfst, richtet sich nach der aktuellen Regelung deiner Einrichtung. Halte den Titel und die Version der Quelle auf der Karte fest.
 
 ## Ein praktischer Ablauf zum Lernen medizinischer Terminologie
 
@@ -172,11 +192,11 @@ Dieselbe Trennung gilt für einen ganzen Ausbildungsgang. Behalte schnell abrufb
 
 ## Wo FSRS und Nibomo ins Spiel kommen
 
-[Nibomo](/de/features/) unterstützt einfache Karten mit Vorder- und Rückseite, Decks und Tags. Du kannst Karten mit `word-part`, `full-term`, `spelling`, `abbreviation` oder `safety` taggen und anschließend die mit FSRS fälligen Karten wiederholen. FSRS kann schwierige Karten früher wieder vorlegen und die Abstände bei vertrauten Karten vergrößern. Es plant Wiederholungen anhand deines bisherigen Lernverlaufs; es versteht keine Medizin, überprüft keine Definition und entscheidet nicht, ob eine Abkürzung sicher ist.
+In [Nibomo](/de/) kannst du eigene Karten in Decks sammeln und mit Tags wie `Wortbestandteil` oder `Schreibweise` sortieren. FSRS plant deine Wiederholungen anhand deines bisherigen Lernverlaufs. Schwierige Karten können früher wieder fällig werden, während zwischen Wiederholungen vertrauter Karten mehr Zeit liegen kann.
 
-Mit der optionalen KI-gestützten Kartenerstellung kannst du aus dem von dir bereitgestellten Material Entwürfe erzeugen und selbst entscheiden, was gespeichert wird. Überprüfe vor dem Speichern alle erzeugten Begriffe, Zerlegungen, Schreibweisen, Definitionen, Abkürzungen und Quellen anhand des maßgeblichen Materials. Eine KI-Ausgabe ersetzt keine klinische Validierung. Lade keine Patientenakten, Identifikationsdaten oder andere geschützte Daten hoch, um Lernkarten zu erstellen.
+Der KI-Chat kann aus deinen Lernunterlagen Karten entwerfen. Vergleiche die Entwürfe vor dem Speichern mit deinen Quellen und verwende dafür Material ohne Patientendaten.
 
-Die gehostete App ist kostenlos. Die Web-, iOS- und Android-Clients folgen beim Lernen dem Offline-first-Prinzip und synchronisieren sich untereinander; mit dem portablen Export kannst du Karten, Tags und zugehörige Medien mitnehmen. Das Projekt steht unter der MIT-Lizenz und kann selbst gehostet werden. Es bietet kein offizielles vorgefertigtes Deck für medizinische Terminologie, keine Überprüfung medizinischer Fakten und keine eigene Funktion für Audiokarten. Der Leitfaden [Erste Schritte](/de/docs/getting-started/) erklärt, wie du Karten erstellst und mit den fälligen Wiederholungen beginnst.
+Die gehostete App hat einen kostenlosen Tarif. Du kannst deine Karten offline wiederholen und zwischen Web, iOS und Android synchronisieren. Im Leitfaden [Erste Schritte](/de/docs/getting-started/) findest du den Ablauf vom Anlegen der ersten Karte bis zur ersten Wiederholung.
 
 ## Häufige Fragen zu Flashcards für medizinische Terminologie
 
