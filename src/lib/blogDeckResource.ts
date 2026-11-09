@@ -40,6 +40,7 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
     ru: "dutch-home-work-family-vocabulary-ru",
   },
   "gmdss-goc-flashcards": { en: "gmdss-goc-radio-concepts" },
+  "gmdss-goc-hf-distress-channels": { en: "gmdss-goc-hf-distress-channels" },
   "everyday-english-vocabulary-practice": {
     ru: "everyday-english-vocabulary-russian-speakers",
   },

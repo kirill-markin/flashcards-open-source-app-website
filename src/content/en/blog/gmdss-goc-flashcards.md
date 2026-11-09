@@ -59,6 +59,8 @@ The frequency uses are set out in the [ITU Radio Regulations, 2024 edition](http
 
 A practice prompt can say: “A worksheet puts a spoken message on channel 70. Identify the error.” The required explanation is **channel 70 is assigned to DSC; it isn't a voice channel**. No button sequence is needed to answer that conceptual question.
 
+For the five HF pairs, try the [HF distress frequency worksheet](/blog/gmdss-goc-hf-distress-channels/) and check which band and mode each number belongs to.
+
 ## Work through three distinctions before testing yourself
 
 ### A3 follows the carried satellite service

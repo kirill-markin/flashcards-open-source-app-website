@@ -1754,6 +1754,21 @@
     }
   },
   {
+    "publicPath": "/blog/gmdss-goc-hf-distress-channels.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/d5be597aabe27a68ae458576e91dee645643afbc14b98e44cab9873258724119.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "d5be597aabe27a68ae458576e91dee645643afbc14b98e44cab9873258724119",
+    "bytes": 189296,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/dbec7dfd9d238c272e90c69d91c494d2fed9cc6f268ed7720c43a29b1a296643.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "dbec7dfd9d238c272e90c69d91c494d2fed9cc6f268ed7720c43a29b1a296643",
+      "bytes": 2441619
+    }
+  },
+  {
     "publicPath": "/blog/gre-vocabulary-flashcards.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/71027848aeea10834f7dc3bebf019d9980e9dec3695623dfaec7ec92292ea20a.png",
     "width": 1671,
