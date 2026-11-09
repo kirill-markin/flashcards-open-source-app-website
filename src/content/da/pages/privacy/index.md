@@ -28,7 +28,7 @@ Afhængigt af hvordan du bruger den hostede tjeneste, behandler vi:
 - drifts- og sikkerhedsdata, herunder forespørgsels-id'er, tidsstempler, IP-adresse, user agent, rute, svarstatus, appversion, oplysninger om enhed eller platform samt rensede fejldiagnoser; og
 - data om brug af websitet og produktet i appen, som er beskrevet i afsnittene Analyse og cookies samt Produktanalyse nedenfor.
 
-Der kræves en e-mailadresse for at oprette og logge ind på en hostet konto. Uden den kan vi ikke tilbyde godkendelse via e-mail eller kontobaseret synkronisering. Begrænsede gæstefunktioner eller lokale funktioner kan være tilgængelige uden at være logget ind på en konto.
+Der kræves en e-mailadresse for at oprette og logge ind på en hostet konto. Uden den kan vi ikke tilbyde godkendelse via e-mail eller kontobaseret synkronisering. Begrænsede gæstefunktioner eller lokale funktioner kan være tilgængelige uden at være logget ind på en konto. Når den hostede webapp er ved at oprette en ny gæstesession for en browser, som vores server markerer som muligvis automatiseret (fordi dens forespørgsel kommer fra et cloudhostingnetværk, den browserversion, den hævder at have, ikke passer til browseren, browseren er langt bagud i forhold til den aktuelle version, eller dens user agent tilhører automatiseringssoftware), viser webappen først en Cloudflare Turnstile-kontrol og opretter først gæstesessionen, når kontrollen er bestået. Gennem kontrollen modtager Cloudflare din IP-adresse og karakteristika ved din browser og enhed og behandler dem på vores vegne for at udføre kontrollen. Cloudflares egen behandling er beskrevet i virksomhedens [privatlivspolitik](https://www.cloudflare.com/privacypolicy/) og [Turnstile-privatlivstillæg](https://www.cloudflare.com/turnstile-privacy-policy/). Vores server sender derefter Cloudflare kontrollens token og din IP-adresse for at bekræfte kontrollen og modtager svar på, om den blev bestået, sammen med Cloudflares resultatdetaljer (handlingen, værtsnavnet og eventuelle fejlkoder), som serveren bruger til at godkende eller afvise kontrollen. Vores server registrerer hvert udfald, uanset om en kontrol var påkrævet, bestået, mislykket eller omgået (kun vores egne automatiserede udgivelsestests kan springe kontrollen over), som en post i vores backend-applikationslogge, ikke som en produktanalysehændelse, sammen med de signaler, der fik browseren markeret, netværksoperatørens identifikator for den adresse, forespørgslen kom fra, de browserhovedversioner, som browseren hævder og rapporterer, den aktuelle hovedversion, de sammenlignes med, og et forespørgsels-id samt, for en mislykket kontrol, årsagen og Cloudflares resultatdetaljer; disse poster opbevares som beskrevet for applikationslogge i CloudWatch i afsnittet Opbevaring og sletning. Det gør vi på grundlag af vores legitime interesse i at forhindre automatiseret misbrug af gæstekonti. En browser, der ikke er markeret, indlæser intet fra Cloudflare.
 
 ## Formål og retsgrundlag
 
@@ -124,7 +124,7 @@ Vi bruger følgende kategorier af tjenesteudbydere til den hostede tjeneste:
 - OpenAI til valgfri hostede AI-forespørgsler;
 - Sentry til renset fejl- og diagnoserapportering, når det er aktiveret i den relevante hostede tjeneste eller appbuild;
 - Vercel til marketingwebsitet og dets cookiefri Web Analytics; og
-- Cloudflare til DNS og domæneadministration. Nibomos nuværende DNS-poster er DNS-only, så Cloudflare fungerer ikke som proxy for HTTP-trafik til det hostede website eller den hostede app.
+- Cloudflare til DNS og domæneadministration samt til den Turnstile-kontrol, som den hostede webapp viser, før den opretter en gæstesession for en browser, der er markeret som muligvis automatiseret. Nibomos nuværende DNS-poster er DNS-only, så Cloudflare fungerer ikke som proxy for HTTP-trafik til det hostede website eller den hostede app.
 
 Vi kræver, at databehandlere, der handler på vores vegne, giver delte brugerdata samme eller tilsvarende beskyttelse efter denne politik og gældende lov. OpenAI’s [databehandlingstillæg](https://openai.com/policies/data-processing-addendum/) indgår i tjenesteaftalen og kræver begrænset behandling, fortrolighed, sikkerhedsforanstaltninger og garantier ved internationale overførsler.
 
@@ -132,7 +132,7 @@ Data kan også videregives til andre medlemmer af et delt arbejdsområde i overe
 
 ## Internationale overførsler
 
-Den primære hostede applikation kører i AWS' infrastruktur i EU. Den konfigurerede Resend-mailregion og Sentry-dataregion ligger også i Europa. Nogle udbydere, herunder OpenAI og Vercel, kan behandle data uden for dit land eller Det Europæiske Økonomiske Samarbejdsområde. Hvor det er påkrævet, bruger vi gældende tilstrækkelighedsafgørelser, databehandleraftaler og standardkontraktbestemmelser eller tilsvarende garantier for disse overførsler.
+Den primære hostede applikation kører i AWS' infrastruktur i EU. Den konfigurerede Resend-mailregion og Sentry-dataregion ligger også i Europa. Nogle udbydere, herunder OpenAI, Vercel og Cloudflare, kan behandle data uden for dit land eller Det Europæiske Økonomiske Samarbejdsområde. Hvor det er påkrævet, bruger vi gældende tilstrækkelighedsafgørelser, databehandleraftaler og standardkontraktbestemmelser eller tilsvarende garantier for disse overførsler.
 
 ## Opbevaring og sletning
 
