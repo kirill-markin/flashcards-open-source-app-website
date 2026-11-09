@@ -156,6 +156,21 @@
     }
   },
   {
+    "publicPath": "/blog/anki-create-copy.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/66549760dd51398c436b277176d24d706f5ed3a85273a29bcaef544e293273fe.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "66549760dd51398c436b277176d24d706f5ed3a85273a29bcaef544e293273fe",
+    "bytes": 235342,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/d4cfb3d456f6a8f845d1702eadcb7d0c175088d6a3809b9c9196d72d5e5636ee.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "d4cfb3d456f6a8f845d1702eadcb7d0c175088d6a3809b9c9196d72d5e5636ee",
+      "bytes": 2668362
+    }
+  },
+  {
     "publicPath": "/blog/anki-csv-update-existing-notes.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/a25a2364b8c52e96ad1eed95c3cfaa6d23520d3cc565eda49fd7bda6bacbd682.png",
     "width": 1672,
