@@ -28,7 +28,7 @@ Eftir því hvernig þú notar hýstu þjónustuna vinnum við með:
 - rekstrar- og öryggisgögn, þar á meðal auðkenni beiðna, tímastimpla, IP-tölu, auðkennisstreng vafrans, slóð, svarstöðu, útgáfu forritsins, upplýsingar um tæki eða vettvang og hreinsaðar villugreiningar; og
 - gögn um notkun vefsins og vörunnar inni í forritunum sem lýst er í köflunum Greining og vafrakökur og Notkunargreining hér að neðan.
 
-Netfang er nauðsynlegt til að stofna hýstan aðgang og skrá sig inn á hann. Án þess getum við hvorki boðið upp á auðkenningu með tölvupósti né samstillingu sem byggist á aðgangi. Takmarkaðir gesta- eða staðbundnir eiginleikar kunna að vera í boði án innskráðs aðgangs.
+Netfang er nauðsynlegt til að stofna hýstan aðgang og skrá sig inn á hann. Án þess getum við hvorki boðið upp á auðkenningu með tölvupósti né samstillingu sem byggist á aðgangi. Takmarkaðir gesta- eða staðbundnir eiginleikar kunna að vera í boði án innskráðs aðgangs. Þegar hýsta vefforritið er í þann mund að stofna nýja gestalotu fyrir vafra sem þjónninn okkar merkir sem mögulega sjálfvirkan (vegna þess að beiðni hans kemur frá neti skýhýsingaraðila, vafraútgáfan sem hann gefur upp passar ekki við vafrann, vafrinn er langt á eftir núverandi útgáfu eða auðkennisstrengur hans tilheyrir sjálfvirknihugbúnaði), sýnir vefforritið fyrst Cloudflare Turnstile-prófun og stofnar gestalotuna aðeins eftir að prófunin hefur verið staðin. Í gegnum prófunina tekur Cloudflare við IP-tölunni þinni og eiginleikum vafrans þíns og tækisins og vinnur með þá fyrir okkar hönd til að framkvæma prófunina. Eigin vinnslu Cloudflare er lýst í [persónuverndarstefnu](https://www.cloudflare.com/privacypolicy/) fyrirtækisins og [persónuverndarviðauka þess fyrir Turnstile](https://www.cloudflare.com/turnstile-privacy-policy/). Þjónninn okkar sendir síðan Cloudflare tákn prófunarinnar og IP-töluna þína til að staðfesta prófunina og fær til baka hvort hún hafi verið staðin, ásamt niðurstöðuupplýsingum Cloudflare (aðgerðinni, hýsilheitinu og villukóðum ef einhverjir eru) sem hann notar til að samþykkja eða hafna prófuninni. Þjónninn okkar skráir hverja niðurstöðu, hvort sem prófunar var krafist eða hún var staðin, féll eða var sniðgengin (aðeins okkar eigin sjálfvirku útgáfuprófanir geta sleppt prófuninni), sem færslu í forritaskrám bakenda okkar, ekki sem atburð notkunargreiningar, ásamt merkjunum sem urðu til þess að vafrinn var merktur, auðkenni netrekstraraðila vistfangsins sem beiðnin barst frá, aðalútgáfum vafra sem vafrinn gefur upp og tilkynnir, núverandi aðalútgáfu sem þær eru bornar saman við og auðkenni beiðninnar, og auk þess, ef prófunin féll, ástæðunni og niðurstöðuupplýsingum Cloudflare; þessar færslur eru varðveittar eins og lýst er fyrir forritaskrár í CloudWatch í kaflanum Varðveisla og eyðing. Þetta gerum við á grundvelli lögmætra hagsmuna okkar af því að koma í veg fyrir sjálfvirka misnotkun á gestaaðgöngum. Vafri sem er ekki merktur hleður engu frá Cloudflare.
 
 ## Tilgangur og lagagrundvöllur
 
@@ -124,7 +124,7 @@ Við notum eftirfarandi flokka þjónustuveitenda fyrir hýstu þjónustuna:
 - OpenAI fyrir valfrjálsar hýstar gervigreindarbeiðnir;
 - Sentry fyrir skýrslur um hreinsaðar villur og villugreiningar þegar það er virkjað í viðkomandi hýstu þjónustu eða smíð forritsins;
 - Vercel fyrir markaðsvefinn og Web Analytics án vafrakaka; og
-- Cloudflare fyrir DNS og umsýslu léna. Núverandi DNS-færslur Nibomo eru stilltar eingöngu sem DNS, svo Cloudflare miðlar ekki HTTP-umferð hýsta vefsins eða forritsins.
+- Cloudflare fyrir DNS og umsýslu léna og fyrir Turnstile-prófunina sem hýsta vefforritið sýnir áður en það stofnar gestalotu fyrir vafra sem er merktur sem mögulega sjálfvirkur. Núverandi DNS-færslur Nibomo eru stilltar eingöngu sem DNS, svo Cloudflare miðlar ekki HTTP-umferð hýsta vefsins eða forritsins.
 
 Við krefjumst þess að vinnsluaðilar fyrir okkar hönd veiti samnýttum notandagögnum sömu eða jafngilda vernd samkvæmt þessari stefnu og gildandi lögum. [Gagnavinnsluviðauki](https://openai.com/policies/data-processing-addendum/) OpenAI er hluti af þjónustusamningi þess og krefst takmarkaðrar vinnslu, trúnaðar, öryggisráðstafana og verndar við alþjóðlegan flutning.
 
@@ -132,7 +132,7 @@ Gögn geta einnig verið afhent öðrum meðlimum sameiginlegs vinnusvæðis í 
 
 ## Flutningur milli landa
 
-Aðalforrit hýstu þjónustunnar keyrir á innviðum AWS innan ESB. Stillt tölvupóstsvæði Resend og gagnasvæði Sentry eru einnig í Evrópu. Sumir þjónustuveitendur, þar á meðal OpenAI og Vercel, kunna að vinna með gögn utan þíns lands eða Evrópska efnahagssvæðisins. Þar sem þess er krafist notum við viðeigandi ákvarðanir um fullnægjandi vernd, vinnslusamninga og stöðluð samningsákvæði eða sambærilegar verndarráðstafanir fyrir slíkan flutning.
+Aðalforrit hýstu þjónustunnar keyrir á innviðum AWS innan ESB. Stillt tölvupóstsvæði Resend og gagnasvæði Sentry eru einnig í Evrópu. Sumir þjónustuveitendur, þar á meðal OpenAI, Vercel og Cloudflare, kunna að vinna með gögn utan þíns lands eða Evrópska efnahagssvæðisins. Þar sem þess er krafist notum við viðeigandi ákvarðanir um fullnægjandi vernd, vinnslusamninga og stöðluð samningsákvæði eða sambærilegar verndarráðstafanir fyrir slíkan flutning.
 
 ## Varðveisla og eyðing
 
