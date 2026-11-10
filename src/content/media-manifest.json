@@ -4209,6 +4209,21 @@
     }
   },
   {
+    "publicPath": "/blog/quantum-numbers-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/dce00f3e222aebe61c65e483080787bfbe1a2171e0e5b3d499bf706a43ba06c1.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "dce00f3e222aebe61c65e483080787bfbe1a2171e0e5b3d499bf706a43ba06c1",
+    "bytes": 148366,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/ac9936e1129391f62c4e567ef843567733ccbdd0b95d364986d3e193284fc202.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "ac9936e1129391f62c4e567ef843567733ccbdd0b95d364986d3e193284fc202",
+      "bytes": 2326955
+    }
+  },
+  {
     "publicPath": "/blog/quizlet-alternative.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/1da1d9cd77cc2e0192ff642f6560aefccd7d867d8e0f896059a148b41a38d4ce.png",
     "width": 1672,
