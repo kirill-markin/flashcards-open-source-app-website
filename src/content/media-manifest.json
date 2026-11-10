@@ -1753,6 +1753,21 @@
     }
   },
   {
+    "publicPath": "/blog/git-bisect-run.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/ecb6ebd123e6fbf55586ae944c3455ff6cf5e0f3485f7657f50bb55520898f57.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "ecb6ebd123e6fbf55586ae944c3455ff6cf5e0f3485f7657f50bb55520898f57",
+    "bytes": 220856,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/989bc4618e0e2b43b1ee2d51040292e600086691d1e02f040fd108ff1d9a6d25.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "989bc4618e0e2b43b1ee2d51040292e600086691d1e02f040fd108ff1d9a6d25",
+      "bytes": 2655946
+    }
+  },
+  {
     "publicPath": "/blog/git-reflog-recover-lost-commits.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/1c05b0d30d11e2f677403750be229e37936afec6d45d23e56dd8986cbbe070da.webp",
     "width": 1672,
