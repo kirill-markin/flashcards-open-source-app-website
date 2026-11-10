@@ -57,6 +57,7 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   "german-verb-constructions-spanish-speakers": {
     es: "german-expressions-verb-constructions-spanish-speakers",
   },
+  "find-perm": { en: "gnu-find-permission-flashcards" },
   "find-delete": { en: "linux-command-line-flashcards" },
   "find-operator-precedence": { en: "gnu-find-expression-prune-flashcards" },
   "find-name-vs-path": { en: "gnu-find-expression-prune-flashcards" },
