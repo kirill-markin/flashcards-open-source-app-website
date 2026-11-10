@@ -168,6 +168,8 @@ Keep a card for an answer you got wrong, with enough context to explain it. Thes
 
 On review, name the applicable class, check the directories, and identify the operation before revealing the answer. Keep only the cards you need. The [find -mtime worksheet](/blog/find-mtime/) gives you another set of results to predict before checking.
 
+To practise searching by stored mode bits, try the [GNU find permission flashcards](/catalog/packages/gnu-find-permission-flashcards/). They cover exact, all-bit, and any-bit matching with `-perm`; a match alone doesn’t establish whether a particular user can access the file.
+
 For a real path, inspect before changing anything. Using the worksheet's names, the read-only commands would be:
 
 ```bash

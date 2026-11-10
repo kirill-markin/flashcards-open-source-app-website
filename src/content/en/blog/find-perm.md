@@ -145,4 +145,6 @@ To work out whether a particular user can write a file, check which permission c
 | Which matches `0664`, `-perm /022` or `-perm -022`? | `/022` only. Group write is set and other write is clear. |
 | Write the grouped OR for regular files with group or other write set. | `-type f \( -perm -020 -o -perm -002 \)` |
 
+For more short exercises on exact, all-bit, and any-bit matching, use the [GNU find permission flashcards](/catalog/packages/gnu-find-permission-flashcards/). Predict the matching files or build the permission test before revealing the answer.
+
 *AI assisted with drafting, editing, and running the lab. The illustration is AI-generated. The lab ran with GNU findutils 4.10.0 and `/bin/sh` on aarch64 Linux in an Alpine 3.24.4 container.*
