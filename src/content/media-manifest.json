@@ -470,6 +470,21 @@
     "bytes": 2336672
   },
   {
+    "publicPath": "/blog/anki-sort-cards-by-date.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/c41aba4b3423346506bd160cafd0827feb82c47466407d41d7c120178318af98.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "c41aba4b3423346506bd160cafd0827feb82c47466407d41d7c120178318af98",
+    "bytes": 254836,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/70b2bfaf748e13cbf8f196b8e0dc899ec59c8387fd5cd77adcb89c157b4a7334.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "70b2bfaf748e13cbf8f196b8e0dc899ec59c8387fd5cd77adcb89c157b4a7334",
+      "bytes": 2770952
+    }
+  },
+  {
     "publicPath": "/blog/anki-sort-field.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/3574b84f7b2375bfeef4866d55a61f17e6a96ac4f9d8629042038393d11b56c3.webp",
     "width": 1672,
