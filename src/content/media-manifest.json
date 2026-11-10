@@ -4626,6 +4626,21 @@
     }
   },
   {
+    "publicPath": "/blog/sanger-sequencing-chromatogram.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/4fb25058b92a226c7381deb2b4689cfb71f2526388a73bf8fff1a659a2689995.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "4fb25058b92a226c7381deb2b4689cfb71f2526388a73bf8fff1a659a2689995",
+    "bytes": 243478,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/951a861c29749ef212b1e5e9dbc5fd18df5afef05ba89810322950130d231039.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "951a861c29749ef212b1e5e9dbc5fd18df5afef05ba89810322950130d231039",
+      "bytes": 2817469
+    }
+  },
+  {
     "publicPath": "/blog/sap-idoc-status-codes-handoff-evidence.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/ac180d6f4e7c4e45149fe31d3a1bc49ce8c6ae5442a9d04f4848bf9aa14656ac.webp",
     "width": 1672,
