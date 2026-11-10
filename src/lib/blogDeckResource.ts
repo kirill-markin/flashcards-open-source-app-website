@@ -68,6 +68,7 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   "static-kinetic-friction-practice": { en: "ap-physics-1-flashcards" },
   "momentum-collisions-practice": { en: "ap-physics-1-flashcards" },
   "serial-dilution-practice": { en: "ap-chemistry-flashcards" },
+  "git-bisect-run": { en: "git-commands-flashcards" },
   "git-reflog-recover-lost-commits": { en: "git-commands-flashcards" },
   "git-reset-restore-revert-practice": { en: "git-commands-flashcards" },
   "git-stash-pop-conflict": { en: "git-commands-flashcards" },
