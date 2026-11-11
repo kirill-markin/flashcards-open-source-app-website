@@ -195,6 +195,7 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   "formal-charge-vs-oxidation-number": { en: "formal-charge-vs-oxidation-number-flashcards" },
   "electron-geometry-vs-molecular-geometry": { en: "vsepr-molecular-geometry-flashcards" },
   "trigonal-bipyramidal-lone-pairs": { en: "trigonal-bipyramidal-lone-pair-flashcards" },
+  "atomic-number-mass-number-practice": { th: "periodic-table-elements-th" },
   "periodic-table-flashcards": {
     en: "periodic-table-elements",
     ar: "periodic-table-elements-ar",

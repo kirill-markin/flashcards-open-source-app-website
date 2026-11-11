@@ -596,6 +596,21 @@
     "bytes": 2279910
   },
   {
+    "publicPath": "/blog/atomic-number-mass-number-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/dfd9478d2f472d1e9737f7aee3e852229d464e0a77e29ba9508cc0acf456a5a8.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "dfd9478d2f472d1e9737f7aee3e852229d464e0a77e29ba9508cc0acf456a5a8",
+    "bytes": 274148,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/46a94aa0bb07af23b75767ddffff5ee3b15a6d5e27b83f92c9e85789e0eb6af2.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "46a94aa0bb07af23b75767ddffff5ee3b15a6d5e27b83f92c9e85789e0eb6af2",
+      "bytes": 2913235
+    }
+  },
+  {
     "publicPath": "/blog/average-speed-practice.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/1b01dc96b2bf3e81dccf7ba75c8d990d3cab4fbf81d837e8825dda358af0c569.png",
     "width": 1672,
