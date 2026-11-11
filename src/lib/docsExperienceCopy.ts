@@ -5,15 +5,19 @@ interface DocsExperienceCopy {
   readonly readGuide: string;
 }
 
+const ENGLISH_COPY: DocsExperienceCopy = { startHere: "Start here", readGuide: "Read the guide" };
+const FRENCH_COPY: DocsExperienceCopy = { startHere: "Commencez ici", readGuide: "Lire le guide" };
+const PORTUGUESE_COPY: DocsExperienceCopy = { startHere: "Comece aqui", readGuide: "Ler o guia" };
+
 const COPY: Readonly<Record<AppLocale, DocsExperienceCopy>> = {
-  en: { startHere: "Start here", readGuide: "Read the guide" },
+  en: ENGLISH_COPY,
   es: { startHere: "Empieza aquí", readGuide: "Leer la guía" },
   ar: { startHere: "ابدأ هنا", readGuide: "اقرأ الدليل" },
   de: { startHere: "Hier starten", readGuide: "Anleitung lesen" },
   hi: { startHere: "यहाँ शुरू करें", readGuide: "गाइड पढ़ें" },
   ja: { startHere: "ここから始める", readGuide: "ガイドを読む" },
-  fr: { startHere: "Commencez ici", readGuide: "Lire le guide" },
-  pt: { startHere: "Comece aqui", readGuide: "Ler o guia" },
+  fr: FRENCH_COPY,
+  pt: PORTUGUESE_COPY,
   ru: { startHere: "Начните здесь", readGuide: "Открыть руководство" },
   zh: { startHere: "从这里开始", readGuide: "阅读指南" },
   it: { startHere: "Inizia qui", readGuide: "Leggi la guida" },
@@ -55,6 +59,14 @@ const COPY: Readonly<Record<AppLocale, DocsExperienceCopy>> = {
   sk: { startHere: "Začnite tu", readGuide: "Prečítať sprievodcu" },
   sl: { startHere: "Začnite tukaj", readGuide: "Preberite vodnik" },
   zu: { startHere: "Qala lapha", readGuide: "Funda umhlahlandlela" },
+  "en-au": ENGLISH_COPY,
+  "en-ca": ENGLISH_COPY,
+  "en-gb": ENGLISH_COPY,
+  "fr-ca": FRENCH_COPY,
+  "pt-pt": PORTUGUESE_COPY,
+  "zh-hant": { startHere: "從這裡開始", readGuide: "閱讀指南" },
+  ms: { startHere: "Mula di sini", readGuide: "Baca panduan" },
+  or: { startHere: "ଏଠାରୁ ଆରମ୍ଭ କରନ୍ତୁ", readGuide: "ଗାଇଡ୍ ପଢ଼ନ୍ତୁ" },
 };
 
 export function getDocsExperienceCopy(locale: AppLocale): DocsExperienceCopy {

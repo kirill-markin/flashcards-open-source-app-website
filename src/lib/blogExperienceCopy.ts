@@ -2,17 +2,22 @@ import { getIntlLocale, type AppLocale } from "./localeConfig";
 
 type ArticleCountTemplates = Readonly<Partial<Record<Intl.LDMLPluralRule, string>>>;
 
+const ENGLISH_TEMPLATES: ArticleCountTemplates = { one: "{count} article", other: "{count} articles" };
+const FRENCH_TEMPLATES: ArticleCountTemplates = { one: "{count} article", many: "{count} articles", other: "{count} articles" };
+const PORTUGUESE_TEMPLATES: ArticleCountTemplates = { one: "{count} artigo", many: "{count} artigos", other: "{count} artigos" };
+const CHINESE_TEMPLATES: ArticleCountTemplates = { other: "{count} 篇文章" };
+
 const ARTICLE_COUNT_TEMPLATES: Readonly<Record<AppLocale, ArticleCountTemplates>> = {
-  en: { one: "{count} article", other: "{count} articles" },
+  en: ENGLISH_TEMPLATES,
   es: { one: "{count} artículo", many: "{count} artículos", other: "{count} artículos" },
   ar: { zero: "{count} مقالات", one: "{count} مقالة", two: "{count} مقالتان", few: "{count} مقالات", many: "{count} مقالة", other: "{count} مقالة" },
   de: { one: "{count} Artikel", other: "{count} Artikel" },
   hi: { one: "{count} लेख", other: "{count} लेख" },
   ja: { other: "{count}件の記事" },
-  fr: { one: "{count} article", many: "{count} articles", other: "{count} articles" },
-  pt: { one: "{count} artigo", many: "{count} artigos", other: "{count} artigos" },
+  fr: FRENCH_TEMPLATES,
+  pt: PORTUGUESE_TEMPLATES,
   ru: { one: "{count} статья", few: "{count} статьи", many: "{count} статей", other: "{count} статьи" },
-  zh: { other: "{count} 篇文章" },
+  zh: CHINESE_TEMPLATES,
   it: { one: "{count} articolo", many: "{count} articoli", other: "{count} articoli" },
   ko: { other: "{count}개의 글" },
   id: { other: "{count} artikel" },
@@ -52,6 +57,14 @@ const ARTICLE_COUNT_TEMPLATES: Readonly<Record<AppLocale, ArticleCountTemplates>
   sk: { one: "{count} článok", few: "{count} články", many: "{count} článku", other: "{count} článkov" },
   sl: { one: "{count} članek", two: "{count} članka", few: "{count} članki", other: "{count} člankov" },
   zu: { one: "{count} isihloko", other: "{count} izihloko" },
+  "en-au": ENGLISH_TEMPLATES,
+  "en-ca": ENGLISH_TEMPLATES,
+  "en-gb": ENGLISH_TEMPLATES,
+  "fr-ca": FRENCH_TEMPLATES,
+  "pt-pt": PORTUGUESE_TEMPLATES,
+  "zh-hant": CHINESE_TEMPLATES,
+  ms: { other: "{count} artikel" },
+  or: { one: "{count}ଟି ଲେଖା", other: "{count}ଟି ଲେଖା" },
 };
 
 export function formatBlogArticleCount(locale: AppLocale, count: number): string {

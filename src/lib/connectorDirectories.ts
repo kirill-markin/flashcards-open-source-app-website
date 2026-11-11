@@ -31,14 +31,17 @@ export const CONNECTOR_DIRECTORIES: readonly ConnectorDirectory[] = [
   },
 ];
 
+const ENGLISH_CONNECT_LABEL: string = "Connect to {provider}";
+const FRENCH_CONNECT_LABEL: string = "Se connecter à {provider}";
+
 const connectLabels: Readonly<Record<AppLocale, string>> = {
-  en: "Connect to {provider}",
+  en: ENGLISH_CONNECT_LABEL,
   es: "Conectar con {provider}",
   ar: "الاتصال بـ {provider}",
   de: "Mit {provider} verbinden",
   hi: "{provider} से कनेक्ट करें",
   ja: "{provider} に接続",
-  fr: "Se connecter à {provider}",
+  fr: FRENCH_CONNECT_LABEL,
   pt: "Conectar ao {provider}",
   ru: "Подключить к {provider}",
   zh: "连接到 {provider}",
@@ -81,6 +84,14 @@ const connectLabels: Readonly<Record<AppLocale, string>> = {
   sk: "Pripojiť k {provider}",
   sl: "Poveži z {provider}",
   zu: "Xhuma ku-{provider}",
+  "en-au": ENGLISH_CONNECT_LABEL,
+  "en-ca": ENGLISH_CONNECT_LABEL,
+  "en-gb": ENGLISH_CONNECT_LABEL,
+  "fr-ca": FRENCH_CONNECT_LABEL,
+  "pt-pt": "Ligar a {provider}",
+  "zh-hant": "連接至 {provider}",
+  ms: "Sambung ke {provider}",
+  or: "{provider} ସହ ଯୋଡ଼ନ୍ତୁ",
 };
 
 export function getConnectorDirectoryLabel(locale: AppLocale, provider: string): string {

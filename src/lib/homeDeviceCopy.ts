@@ -5,15 +5,19 @@ interface HomeDeviceCopy {
   readonly web: string;
 }
 
+const ENGLISH_COPY: HomeDeviceCopy = { byDevice: "By device", web: "Web" };
+const FRENCH_COPY: HomeDeviceCopy = { byDevice: "Par appareil", web: "Web" };
+const PORTUGUESE_COPY: HomeDeviceCopy = { byDevice: "Por dispositivo", web: "Web" };
+
 const HOME_DEVICE_COPY: Readonly<Record<AppLocale, HomeDeviceCopy>> = {
-  en: { byDevice: "By device", web: "Web" },
+  en: ENGLISH_COPY,
   es: { byDevice: "Por dispositivo", web: "Web" },
   ar: { byDevice: "حسب الجهاز", web: "الويب" },
   de: { byDevice: "Nach Gerät", web: "Web" },
   hi: { byDevice: "डिवाइस के अनुसार", web: "वेब" },
   ja: { byDevice: "デバイス別", web: "ウェブ" },
-  fr: { byDevice: "Par appareil", web: "Web" },
-  pt: { byDevice: "Por dispositivo", web: "Web" },
+  fr: FRENCH_COPY,
+  pt: PORTUGUESE_COPY,
   ru: { byDevice: "По устройству", web: "Веб" },
   zh: { byDevice: "按设备", web: "网页版" },
   it: { byDevice: "Per dispositivo", web: "Web" },
@@ -55,6 +59,14 @@ const HOME_DEVICE_COPY: Readonly<Record<AppLocale, HomeDeviceCopy>> = {
   sk: { byDevice: "Podľa zariadenia", web: "Web" },
   sl: { byDevice: "Po napravi", web: "Splet" },
   zu: { byDevice: "Ngedivayisi", web: "Iwebhu" },
+  "en-au": ENGLISH_COPY,
+  "en-ca": ENGLISH_COPY,
+  "en-gb": ENGLISH_COPY,
+  "fr-ca": FRENCH_COPY,
+  "pt-pt": PORTUGUESE_COPY,
+  "zh-hant": { byDevice: "依裝置", web: "網頁版" },
+  ms: { byDevice: "Mengikut peranti", web: "Web" },
+  or: { byDevice: "ଡିଭାଇସ୍ ଅନୁସାରେ", web: "ୱେବ୍" },
 };
 
 export function getHomeDeviceCopy(locale: AppLocale): HomeDeviceCopy {
