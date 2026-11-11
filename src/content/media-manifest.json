@@ -1198,6 +1198,21 @@
     "bytes": 1963097
   },
   {
+    "publicPath": "/blog/ege-social-studies-terms-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/80d400d138100a7025baecaae36c55ce8f58d7af4d17c4993db37810cc98eafd.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "80d400d138100a7025baecaae36c55ce8f58d7af4d17c4993db37810cc98eafd",
+    "bytes": 168032,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/1125114cb3281d1078741bd3fdf47e361f14bb28b41e4ab82057b78a54aec4d9.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "1125114cb3281d1078741bd3fdf47e361f14bb28b41e4ab82057b78a54aec4d9",
+      "bytes": 2408132
+    }
+  },
+  {
     "publicPath": "/blog/electron-configuration-practice.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/a96f4d8c07721b2ee285fcee3760ae60498a65409263cb0f5d2fb696ab796166.png",
     "width": 1672,
