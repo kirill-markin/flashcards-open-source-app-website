@@ -2,7 +2,7 @@
 
 ## Upload setup
 
-Use Node 24 and `npm ci`. The public Vercel Blob store is connected to the website project. Put its `BLOB_READ_WRITE_TOKEN` in `.env.media.local` in the main checkout, with file permissions `0600`; never commit it. Upload commands locate this single file via Git's common directory, including from worktrees. An explicitly supplied `BLOB_READ_WRITE_TOKEN` environment variable takes precedence. Website builds and public downloads require no credentials.
+Use the Node version in [`.nvmrc`](../.nvmrc) and run `npm ci`. The public Vercel Blob store is connected to the website project. Put its `BLOB_READ_WRITE_TOKEN` in `.env.media.local` in the main checkout, with file permissions `0600`; never commit it. Upload commands locate this single file via Git's common directory, including from worktrees. An explicitly supplied `BLOB_READ_WRITE_TOKEN` environment variable takes precedence. Website builds and public downloads require no credentials.
 
 ## Add and replace
 
@@ -48,7 +48,7 @@ Pass one or more supported non-English locales, or omit arguments for all of the
 
 Keep upload sources and temporary outputs outside Git; `.media/` is an ignored local staging directory. Upload with `npm run media:add -- /absolute/path/image.png`, use its printed public URL in content, and commit the manifest. Use `media:replace` for an occupied logical path; immutable old URLs remain valid.
 
-Opt in once per clone with Node 24:
+With the Node version in [`.nvmrc`](../.nvmrc), opt in once per clone.
 
 ```sh
 npm run media:hooks
