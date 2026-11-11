@@ -1,4 +1,5 @@
 import { getLocaleSearchAliases, type AppLocale } from "./localeConfig";
+import { getPublicCatalogAudienceTag } from "./publicCatalogAudience";
 import {
   formatPublicCatalogLanguageLabel,
   getPublicCatalogLanguageName,
@@ -97,7 +98,7 @@ function getUniqueSortedChoices(
 
 export function createPublicCatalogBrowseData(
   catalog: PublicCatalogReadModel,
-  defaultAudienceLanguage: AppLocale,
+  locale: AppLocale,
 ): PublicCatalogBrowseData {
   const packages = catalog.packages.map((packageView): PublicCatalogBrowsePackage => {
     const collections = (catalog.collectionsByPackageId.get(
@@ -151,7 +152,7 @@ export function createPublicCatalogBrowseData(
     packages,
     languages: getUniqueSortedValues(
       [
-        defaultAudienceLanguage,
+        getPublicCatalogAudienceTag(locale),
         ...packages.flatMap(({ packageView }) => packageView.latestVersion.languageTags),
       ],
     ).map((language): PublicCatalogBrowseChoice => ({
@@ -244,8 +245,9 @@ function parsePage(searchParams: URLSearchParams): number {
 export function parsePublicCatalogQuery(
   search: string,
   data: PublicCatalogBrowseData,
-  defaultAudienceLanguage: AppLocale,
+  locale: AppLocale,
 ): PublicCatalogQueryState {
+  const defaultAudienceLanguage = getPublicCatalogAudienceTag(locale);
   const languageValues = data.languages.map((choice) => choice.value);
 
   if (languageValues.includes(defaultAudienceLanguage) === false) {

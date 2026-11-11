@@ -2,21 +2,25 @@ import {
   getIntlLocale,
   getLocaleEnglishName,
   getLocaleNativeName,
-  isSupportedLocale,
   type AppLocale,
 } from "./localeConfig";
+import {
+  getPublicCatalogAudienceTag,
+  isPublicCatalogAudienceTag,
+  type PublicCatalogAudienceTag,
+} from "./publicCatalogAudience";
 
 /** Labels use the site language menu's names so the catalog and the menu name a language identically. */
 export type PublicCatalogLanguageName = Readonly<{
-  tag: AppLocale;
+  tag: PublicCatalogAudienceTag;
   nativeName: string;
   englishName: string;
 }>;
 
-function assertSupportedLanguageTag(tag: string): AppLocale {
-  if (isSupportedLocale(tag) === false) {
+function assertSupportedLanguageTag(tag: string): PublicCatalogAudienceTag {
+  if (isPublicCatalogAudienceTag(tag) === false) {
     throw new Error(
-      `Cannot name public catalog language ${tag}: it is not a supported site locale. Correct the language tag.`,
+      `Cannot name public catalog language ${tag}: it is not a supported catalog audience tag. Correct the language tag.`,
     );
   }
 
@@ -62,7 +66,9 @@ export function formatPublicCatalogLanguageLabel(name: PublicCatalogLanguageName
 
 /** Non-English page locales get the uncapitalized Intl name because their templates place it mid-sentence. */
 export function getPublicCatalogLanguageNameInLocale(tag: string, locale: AppLocale): string {
-  return locale === "en"
-    ? getLocaleEnglishName(assertSupportedLanguageTag(tag))
-    : getLanguageDisplayName(getIntlLocale(locale), tag);
+  const supportedTag = assertSupportedLanguageTag(tag);
+
+  return getPublicCatalogAudienceTag(locale) === "en"
+    ? getLocaleEnglishName(supportedTag)
+    : getLanguageDisplayName(getIntlLocale(locale), supportedTag);
 }

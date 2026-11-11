@@ -101,6 +101,17 @@ export const NON_DEFAULT_LOCALES = [
   "zu",
 ] as const;
 
+export const CORE_DOCS_LOCALES = [
+  "zh-hant",
+  "en-au",
+  "en-ca",
+  "en-gb",
+  "fr-ca",
+  "pt-pt",
+  "ms",
+  "or",
+] as const;
+
 export type AppLocale = (typeof SUPPORTED_LOCALES)[number];
 export type NonDefaultLocale = (typeof NON_DEFAULT_LOCALES)[number];
 export type LocaleDirection = "ltr" | "rtl";
@@ -441,6 +452,10 @@ export function isRtlLocale(locale: AppLocale): boolean {
 
 export function getOpenGraphLocale(locale: AppLocale): string {
   return LOCALE_DEFINITIONS[locale].openGraphLocale;
+}
+
+export function getLocaleHrefLang(locale: AppLocale): string {
+  return new Intl.Locale(locale).baseName;
 }
 
 export function getIntlLocale(locale: AppLocale): string {

@@ -17,6 +17,7 @@ import {
   getPublicCatalogLanguageNames,
 } from "./publicCatalogLanguageNames";
 import { SUPPORTED_LOCALES } from "./localeConfig";
+import { PUBLIC_CATALOG_AUDIENCE_TAGS } from "./publicCatalogAudience";
 import {
   createPublicCatalogFilterAnalytics,
   createPublicCatalogInstallAnalytics,
@@ -523,7 +524,7 @@ test("searches author, language, license, and collection membership text", () =>
 });
 
 test("names every supported language tag natively, in English, and in every page locale", () => {
-  SUPPORTED_LOCALES.forEach((tag) => {
+  PUBLIC_CATALOG_AUDIENCE_TAGS.forEach((tag) => {
     assert.notEqual(formatPublicCatalogLanguageLabel(getPublicCatalogLanguageName(tag)), "");
     SUPPORTED_LOCALES.forEach((locale) => {
       assert.notEqual(getPublicCatalogLanguageNameInLocale(tag, locale), "");

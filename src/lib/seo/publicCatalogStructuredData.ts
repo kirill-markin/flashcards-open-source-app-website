@@ -1,5 +1,6 @@
 import type { AppLocale } from "@/lib/i18n";
 import { getAbsoluteUrl, getLocalizedPathname } from "@/lib/i18n";
+import { getPublicCatalogAudienceTag } from "@/lib/publicCatalogAudience";
 import { getPublicCatalogCardMediaDownloadUrls } from "@/lib/publicCatalogCardMedia";
 import { getPublicCatalogCoverImage } from "@/lib/publicCatalogCover";
 import { getPublicCatalogUiCopy } from "@/lib/publicCatalogCopy";
@@ -342,14 +343,8 @@ export function createPublicCatalogRootJsonLd(
     dateModified: null,
     datePublished: null,
     description: copy.intro,
-    // These entries stay on the rendering locale only because the list is
-    // filtered through `packagesByLanguageTag`: every deck it names already has
-    // the rendering locale as an audience locale, so that route is the
-    // canonical one. If the root ever lists decks outside the rendering locale,
-    // this list starts naming canonical routes like the facet and collection
-    // lists do.
     entities: createPackageListEntities(
-      catalog.packagesByLanguageTag.get(locale) ?? [],
+      catalog.packagesByLanguageTag.get(getPublicCatalogAudienceTag(locale)) ?? [],
       locale,
     ),
     locale,

@@ -4,6 +4,11 @@ import {
   SUPPORTED_LOCALES,
   type AppLocale,
 } from "./i18n";
+import { getLocaleHrefLang } from "./localeConfig";
+import {
+  getPublicCatalogAudienceTag,
+  PUBLIC_CATALOG_AUDIENCE_TAGS,
+} from "./publicCatalogAudience";
 
 export const PUBLIC_CATALOG_ROUTE_PATHNAME = "/catalog/";
 export const PUBLIC_CATALOG_AUTHORS_ROUTE_PATHNAME = "/catalog/authors/";
@@ -37,7 +42,7 @@ export function getPublicCatalogPackageRoutePathname(
 export function getPublicCatalogPackageAudienceLocales(
   languageTags: ReadonlyArray<string>,
 ): ReadonlyArray<AppLocale> {
-  return SUPPORTED_LOCALES.filter((locale) => languageTags.includes(locale));
+  return PUBLIC_CATALOG_AUDIENCE_TAGS.filter((tag) => languageTags.includes(tag));
 }
 
 export function getPublicCatalogPackagePageLocales(): ReadonlyArray<AppLocale> {
@@ -45,9 +50,8 @@ export function getPublicCatalogPackagePageLocales(): ReadonlyArray<AppLocale> {
 }
 
 /**
- * Locales whose package route is canonical: every audience locale of the deck,
- * in SUPPORTED_LOCALES order. Package routes in other locales repeat the same
- * untranslated deck content and canonicalize into this set.
+ * Regional and other non-audience routes repeat the same untranslated deck
+ * content and canonicalize into the deck's audience locales.
  */
 export function getPublicCatalogPackageCanonicalLocales(
   packageSlug: string,
@@ -74,7 +78,9 @@ export function resolvePublicCatalogPackageCanonicalLocale(
     languageTags,
   );
 
-  return canonicalLocales.includes(locale) ? locale : canonicalLocales[0];
+  const audienceTag = getPublicCatalogAudienceTag(locale);
+
+  return canonicalLocales.includes(audienceTag) ? audienceTag : canonicalLocales[0];
 }
 
 export function getPublicCatalogPackageLocalizedPathname(
@@ -87,10 +93,6 @@ export function getPublicCatalogPackageLocalizedPathname(
   );
 }
 
-/**
- * The package route in the deck's canonical locale: `locale` itself when it is
- * an audience locale of the deck, otherwise the first audience locale.
- */
 export function getPublicCatalogPackageCanonicalPathname(
   locale: AppLocale,
   packageSlug: string,
@@ -119,7 +121,7 @@ export function getPublicCatalogLanguageAlternates(
   const alternates: Record<string, string> = {};
 
   locales.forEach((locale) => {
-    alternates[locale] = getAbsoluteUrl(
+    alternates[getLocaleHrefLang(locale)] = getAbsoluteUrl(
       getLocalizedPathname(locale, routePathname),
     );
   });
@@ -147,7 +149,7 @@ export function getPublicCatalogLanguageRoutePathname(
 }
 
 export function getPublicCatalogRootSearch(locale: AppLocale): string {
-  const searchParams = new URLSearchParams({ language: locale });
+  const searchParams = new URLSearchParams({ language: getPublicCatalogAudienceTag(locale) });
 
   return `?${searchParams}`;
 }
