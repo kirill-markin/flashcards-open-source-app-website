@@ -12,7 +12,7 @@ Untuk sokongan produk, bantuan berkaitan akaun atau pertanyaan tentang semakan A
 
 ## Pemadaman akaun
 
-Untuk memadamkan akaun Nibomo tanpa memasang aplikasi, buka [halaman pemadaman akaun](https://app.nibomo.com/settings/delete-account). Jika diminta, log masuk dengan alamat e-mel yang sama seperti yang anda gunakan untuk akaun anda. Pilih `Padam akaun saya`, taip frasa pengesahan yang dipaparkan, kemudian sahkan pemadaman. Anda juga boleh meminta pemadaman akaun melalui e-mel ke [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com).
+Untuk memadamkan akaun Nibomo tanpa memasang aplikasi, buka [halaman pemadaman akaun](https://app.nibomo.com/settings/delete-account?locale=ms). Jika diminta, log masuk dengan alamat e-mel yang sama seperti yang anda gunakan untuk akaun anda. Pilih `Padam akaun saya`, taip frasa pengesahan yang dipaparkan, kemudian sahkan pemadaman. Anda juga boleh meminta pemadaman akaun melalui e-mel ke [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com).
 
 Proses ini memadamkan data akaun semasa anda, kelayakan akses, keahlian dan ruang kerja yang hanya anda anggotai daripada pangkalan data aktif. Kandungan dalam ruang kerja yang dikongsi kekal tersedia kepada ahli lain. Sejarah pengebilan yang diperlukan disimpan untuk perakaunan, penyelarasan rekod dan tuntutan undang-undang. Rekod yang dipadamkan mungkin kekal dalam sandaran pemulihan yang disulitkan sehingga 35 hari. Lihat [Dasar Privasi](/privacy/) kami untuk butiran lengkap tentang penyimpanan data.
 

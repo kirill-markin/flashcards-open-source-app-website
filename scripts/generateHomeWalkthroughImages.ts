@@ -2,8 +2,8 @@ import { mkdir } from "node:fs/promises";
 import { join } from "node:path";
 import { setTimeout } from "node:timers/promises";
 import sharp from "sharp";
-import { getHomeShowcaseImagePath } from "../src/lib/homeShowcaseImage";
-import { SUPPORTED_LOCALES, type AppLocale } from "../src/lib/localeConfig";
+import { getHomeShowcaseCapturePath } from "../src/lib/homeShowcaseImage";
+import { isNonDefaultLocale, NON_DEFAULT_LOCALES, type NonDefaultLocale } from "../src/lib/localeConfig";
 import { marketingMediaManifest } from "../src/lib/marketingMedia";
 import { checksum } from "./mediaFiles";
 
@@ -35,6 +35,11 @@ interface WalkthroughTemplate {
   readonly data: Buffer;
 }
 
+interface WalkthroughCapture {
+  readonly locale: NonDefaultLocale;
+  readonly sourcePath: string;
+}
+
 async function downloadOriginal(publicPath: string): Promise<Buffer> {
   const entry = marketingMediaManifest.find((asset) => asset.publicPath === publicPath);
   if (entry === undefined) {
@@ -61,11 +66,10 @@ async function downloadOriginal(publicPath: string): Promise<Buffer> {
 }
 
 async function generateLocaleImages(
-  locale: AppLocale,
+  { locale, sourcePath }: WalkthroughCapture,
   templates: readonly WalkthroughTemplate[],
   outputDirectory: string,
 ): Promise<void> {
-  const sourcePath = getHomeShowcaseImagePath(locale);
   const sourceData = await downloadOriginal(sourcePath);
   const source = await sharp(sourceData).metadata();
   const expectedWidth = SOURCE_SCREEN_COUNT * SOURCE_SCREEN_WIDTH
@@ -144,24 +148,38 @@ async function generateLocaleImages(
 async function main(): Promise<void> {
   const requestedLocales = process.argv.slice(2);
   const locales = requestedLocales.length === 0
-    ? SUPPORTED_LOCALES.filter((locale) => locale !== "en")
-    : requestedLocales.map((value): AppLocale => {
-      const locale = SUPPORTED_LOCALES.find((candidate) => candidate === value);
-      if (locale === undefined || locale === "en") {
+    ? NON_DEFAULT_LOCALES
+    : requestedLocales.map((value): NonDefaultLocale => {
+      if (!isNonDefaultLocale(value)) {
         throw new Error(`Unsupported walkthrough locale: ${value}. Specify a supported non-English locale.`);
       }
-      return locale;
+      return value;
     });
+  const captures = locales.flatMap((locale): WalkthroughCapture[] => {
+    const sourcePath = getHomeShowcaseCapturePath(locale);
+    if (marketingMediaManifest.some(({ publicPath }) => publicPath === sourcePath)) {
+      return [{ locale, sourcePath }];
+    }
+    if (requestedLocales.length > 0) {
+      throw new Error(`Missing walkthrough capture for ${locale}: ${sourcePath}. Publish the locale's showcase capture before generating images.`);
+    }
+    console.warn({ event: "home_walkthrough_capture_missing", locale, sourcePath });
+    return [];
+  });
+  if (captures.length === 0) {
+    return;
+  }
+
   const outputDirectory = join(process.cwd(), ".generated", "media", "home");
   await mkdir(outputDirectory, { recursive: true });
   const templates = await Promise.all(WALKTHROUGH_IMAGES.map(async (image) => ({
     image,
     data: await downloadOriginal(`/home/${image.name}.png`),
   })));
-  for (const locale of locales) {
-    await generateLocaleImages(locale, templates, outputDirectory);
+  for (const capture of captures) {
+    await generateLocaleImages(capture, templates, outputDirectory);
   }
-  console.log(`Generated ${locales.length * WALKTHROUGH_IMAGES.length} localized walkthrough images in ${outputDirectory}.`);
+  console.log(`Generated ${captures.length * WALKTHROUGH_IMAGES.length} localized walkthrough images in ${outputDirectory}.`);
 }
 
 void main().catch((error: unknown) => {

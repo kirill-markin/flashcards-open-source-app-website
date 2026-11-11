@@ -45,7 +45,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           description:
             "Lampirkan nota atau terangkan topik. Minta bantuan AI untuk mengubahnya menjadi soalan dan jawapan, kemudian pilih kad yang mahu disimpan.",
           linkLabel: "Buat kad imbas",
-          imagePath: "/home/ai-flashcards-ms.png",
+          imagePath: "/home/ai-flashcards.png",
           imageAlt: "Sembang AI Nibomo menghasilkan kad imbas daripada topik atau nota yang dilampirkan",
         },
         {
@@ -54,7 +54,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           description:
             "Baca soalan dan luangkan sedikit masa untuk berfikir. Lihat jawapan dan nilai betapa mudahnya anda mengingati jawapan itu.",
           linkLabel: "Mula belajar",
-          imagePath: "/home/start-learning-ms.png",
+          imagePath: "/home/start-learning.png",
           imageAlt: "Kad imbas Nibomo pada skrin ulang kaji dengan butang Tunjukkan jawapan",
         },
         {
@@ -63,7 +63,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           description:
             "Penilaian anda membantu menentukan masa ulang kaji seterusnya. Kad yang sukar muncul semula lebih awal, manakala kad yang sudah anda kenali muncul selepas sela yang lebih panjang.",
           linkLabel: "Ulang kaji kad imbas",
-          imagePath: "/home/smart-reviews-ms.png",
+          imagePath: "/home/smart-reviews.png",
           imageAlt: "Kad imbas Nibomo dengan jawapan dipaparkan dan pilihan penilaian Ulang, Sukar, Baik dan Mudah",
         },
         {
@@ -72,7 +72,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           description:
             "Lihat hari anda belajar pada kalendar dan teruskan rentetan belajar anda. Setiap ulang kaji membawa anda selangkah lebih dekat dengan matlamat anda.",
           linkLabel: "Lihat kemajuan anda",
-          imagePath: "/home/your-progress-ms.png",
+          imagePath: "/home/your-progress.png",
           imageAlt: "Skrin kemajuan Nibomo dengan kalendar rentetan belajar dan papan kedudukan penilaian",
         },
       ],

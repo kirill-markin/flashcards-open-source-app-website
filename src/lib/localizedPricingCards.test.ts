@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 import { readPageContent } from "./content/readPageContent";
-import { SUPPORTED_LOCALES } from "./localeConfig";
+import { isEnglishLocale, SUPPORTED_LOCALES } from "./localeConfig";
 import { getPricingCards, getPricingTerms } from "./pricingCards";
 import { getPricingExperienceCopy } from "./pricingExperienceCopy";
 
@@ -18,7 +18,7 @@ for (const locale of SUPPORTED_LOCALES) {
       assert.ok(card.features.every(feature => feature.trim().length > 0));
       assert.ok(card.description.trim().length > 0);
       assert.ok(card.actionLabel.trim().length > 0);
-      if (locale !== "en") {
+      if (!isEnglishLocale(locale)) {
         const english = getPricingExperienceCopy("en");
         assert.ok(!english.descriptions.includes(card.description));
       }

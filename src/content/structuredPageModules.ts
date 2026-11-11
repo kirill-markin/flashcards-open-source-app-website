@@ -16,6 +16,12 @@ import { HOME_PAGE_CONTENT as EL_HOME_PAGE_CONTENT } from "@/content/el/pages/ho
 import { PRICING_PAGE_CONTENT as EL_PRICING_PAGE_CONTENT } from "@/content/el/pages/pricing";
 import { HOME_PAGE_CONTENT as EN_HOME_PAGE_CONTENT } from "@/content/en/pages/home";
 import { PRICING_PAGE_CONTENT as EN_PRICING_PAGE_CONTENT } from "@/content/en/pages/pricing";
+import { HOME_PAGE_CONTENT as EN_AU_HOME_PAGE_CONTENT } from "@/content/en-au/pages/home";
+import { PRICING_PAGE_CONTENT as EN_AU_PRICING_PAGE_CONTENT } from "@/content/en-au/pages/pricing";
+import { HOME_PAGE_CONTENT as EN_CA_HOME_PAGE_CONTENT } from "@/content/en-ca/pages/home";
+import { PRICING_PAGE_CONTENT as EN_CA_PRICING_PAGE_CONTENT } from "@/content/en-ca/pages/pricing";
+import { HOME_PAGE_CONTENT as EN_GB_HOME_PAGE_CONTENT } from "@/content/en-gb/pages/home";
+import { PRICING_PAGE_CONTENT as EN_GB_PRICING_PAGE_CONTENT } from "@/content/en-gb/pages/pricing";
 import { HOME_PAGE_CONTENT as ES_HOME_PAGE_CONTENT } from "@/content/es/pages/home";
 import { PRICING_PAGE_CONTENT as ES_PRICING_PAGE_CONTENT } from "@/content/es/pages/pricing";
 import { HOME_PAGE_CONTENT as ET_HOME_PAGE_CONTENT } from "@/content/et/pages/home";
@@ -26,6 +32,8 @@ import { HOME_PAGE_CONTENT as FI_HOME_PAGE_CONTENT } from "@/content/fi/pages/ho
 import { PRICING_PAGE_CONTENT as FI_PRICING_PAGE_CONTENT } from "@/content/fi/pages/pricing";
 import { HOME_PAGE_CONTENT as FR_HOME_PAGE_CONTENT } from "@/content/fr/pages/home";
 import { PRICING_PAGE_CONTENT as FR_PRICING_PAGE_CONTENT } from "@/content/fr/pages/pricing";
+import { HOME_PAGE_CONTENT as FR_CA_HOME_PAGE_CONTENT } from "@/content/fr-ca/pages/home";
+import { PRICING_PAGE_CONTENT as FR_CA_PRICING_PAGE_CONTENT } from "@/content/fr-ca/pages/pricing";
 import { HOME_PAGE_CONTENT as GU_HOME_PAGE_CONTENT } from "@/content/gu/pages/home";
 import { PRICING_PAGE_CONTENT as GU_PRICING_PAGE_CONTENT } from "@/content/gu/pages/pricing";
 import { HOME_PAGE_CONTENT as HE_HOME_PAGE_CONTENT } from "@/content/he/pages/home";
@@ -56,16 +64,22 @@ import { HOME_PAGE_CONTENT as ML_HOME_PAGE_CONTENT } from "@/content/ml/pages/ho
 import { PRICING_PAGE_CONTENT as ML_PRICING_PAGE_CONTENT } from "@/content/ml/pages/pricing";
 import { HOME_PAGE_CONTENT as MR_HOME_PAGE_CONTENT } from "@/content/mr/pages/home";
 import { PRICING_PAGE_CONTENT as MR_PRICING_PAGE_CONTENT } from "@/content/mr/pages/pricing";
+import { HOME_PAGE_CONTENT as MS_HOME_PAGE_CONTENT } from "@/content/ms/pages/home";
+import { PRICING_PAGE_CONTENT as MS_PRICING_PAGE_CONTENT } from "@/content/ms/pages/pricing";
 import { HOME_PAGE_CONTENT as NB_HOME_PAGE_CONTENT } from "@/content/nb/pages/home";
 import { PRICING_PAGE_CONTENT as NB_PRICING_PAGE_CONTENT } from "@/content/nb/pages/pricing";
 import { HOME_PAGE_CONTENT as NL_HOME_PAGE_CONTENT } from "@/content/nl/pages/home";
 import { PRICING_PAGE_CONTENT as NL_PRICING_PAGE_CONTENT } from "@/content/nl/pages/pricing";
+import { HOME_PAGE_CONTENT as OR_HOME_PAGE_CONTENT } from "@/content/or/pages/home";
+import { PRICING_PAGE_CONTENT as OR_PRICING_PAGE_CONTENT } from "@/content/or/pages/pricing";
 import { HOME_PAGE_CONTENT as PA_HOME_PAGE_CONTENT } from "@/content/pa/pages/home";
 import { PRICING_PAGE_CONTENT as PA_PRICING_PAGE_CONTENT } from "@/content/pa/pages/pricing";
 import { HOME_PAGE_CONTENT as PL_HOME_PAGE_CONTENT } from "@/content/pl/pages/home";
 import { PRICING_PAGE_CONTENT as PL_PRICING_PAGE_CONTENT } from "@/content/pl/pages/pricing";
 import { HOME_PAGE_CONTENT as PT_HOME_PAGE_CONTENT } from "@/content/pt/pages/home";
 import { PRICING_PAGE_CONTENT as PT_PRICING_PAGE_CONTENT } from "@/content/pt/pages/pricing";
+import { HOME_PAGE_CONTENT as PT_PT_HOME_PAGE_CONTENT } from "@/content/pt-pt/pages/home";
+import { PRICING_PAGE_CONTENT as PT_PT_PRICING_PAGE_CONTENT } from "@/content/pt-pt/pages/pricing";
 import { HOME_PAGE_CONTENT as RO_HOME_PAGE_CONTENT } from "@/content/ro/pages/home";
 import { PRICING_PAGE_CONTENT as RO_PRICING_PAGE_CONTENT } from "@/content/ro/pages/pricing";
 import { HOME_PAGE_CONTENT as RU_HOME_PAGE_CONTENT } from "@/content/ru/pages/home";
@@ -94,6 +108,8 @@ import { HOME_PAGE_CONTENT as VI_HOME_PAGE_CONTENT } from "@/content/vi/pages/ho
 import { PRICING_PAGE_CONTENT as VI_PRICING_PAGE_CONTENT } from "@/content/vi/pages/pricing";
 import { HOME_PAGE_CONTENT as ZH_HOME_PAGE_CONTENT } from "@/content/zh/pages/home";
 import { PRICING_PAGE_CONTENT as ZH_PRICING_PAGE_CONTENT } from "@/content/zh/pages/pricing";
+import { HOME_PAGE_CONTENT as ZH_HANT_HOME_PAGE_CONTENT } from "@/content/zh-hant/pages/home";
+import { PRICING_PAGE_CONTENT as ZH_HANT_PRICING_PAGE_CONTENT } from "@/content/zh-hant/pages/pricing";
 import { HOME_PAGE_CONTENT as ZU_HOME_PAGE_CONTENT } from "@/content/zu/pages/home";
 import { PRICING_PAGE_CONTENT as ZU_PRICING_PAGE_CONTENT } from "@/content/zu/pages/pricing";
 import type { PageContent } from "@/lib/content/types";
@@ -299,5 +315,37 @@ export const STRUCTURED_PAGE_CONTENT_BY_LOCALE: Readonly<
   zu: {
     home: ZU_HOME_PAGE_CONTENT,
     pricing: ZU_PRICING_PAGE_CONTENT,
+  },
+  "zh-hant": {
+    home: ZH_HANT_HOME_PAGE_CONTENT,
+    pricing: ZH_HANT_PRICING_PAGE_CONTENT,
+  },
+  "en-au": {
+    home: EN_AU_HOME_PAGE_CONTENT,
+    pricing: EN_AU_PRICING_PAGE_CONTENT,
+  },
+  "en-ca": {
+    home: EN_CA_HOME_PAGE_CONTENT,
+    pricing: EN_CA_PRICING_PAGE_CONTENT,
+  },
+  "en-gb": {
+    home: EN_GB_HOME_PAGE_CONTENT,
+    pricing: EN_GB_PRICING_PAGE_CONTENT,
+  },
+  "fr-ca": {
+    home: FR_CA_HOME_PAGE_CONTENT,
+    pricing: FR_CA_PRICING_PAGE_CONTENT,
+  },
+  "pt-pt": {
+    home: PT_PT_HOME_PAGE_CONTENT,
+    pricing: PT_PT_PRICING_PAGE_CONTENT,
+  },
+  ms: {
+    home: MS_HOME_PAGE_CONTENT,
+    pricing: MS_PRICING_PAGE_CONTENT,
+  },
+  or: {
+    home: OR_HOME_PAGE_CONTENT,
+    pricing: OR_PRICING_PAGE_CONTENT,
   },
 } as const;

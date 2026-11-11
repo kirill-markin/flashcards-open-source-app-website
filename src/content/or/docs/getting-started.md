@@ -7,7 +7,7 @@ description: iPhone, iPad, Mac କିମ୍ବା Android ଆପ୍, ୱେବ�
 
 - **iPhone, iPad ଓ Mac ଆପ୍** — [App Store](https://apps.apple.com/app/apple-store/id6760538964?pt=128797295&ct=marketing_site&mt=8)
 - **Android ଆପ୍** — [Google Play](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&utm_source=flashcards_website&utm_medium=referral&utm_campaign=marketing_site)
-- **ହୋଷ୍ଟ୍ ହୋଇଥିବା ୱେବ୍ ଆପ୍** — [app.nibomo.com](https://app.nibomo.com)
+- **ହୋଷ୍ଟ୍ ହୋଇଥିବା ୱେବ୍ ଆପ୍** — [app.nibomo.com](https://app.nibomo.com?locale=or)
 - **AI ଏଜେଣ୍ଟ** — [MCP କନେକ୍ଟର୍](/docs/mcp-connector/) କିମ୍ବା `https://api.nibomo.com/v1/` ରେ API
 - **ନିଜେ ହୋଷ୍ଟ୍ କରିବା** — [ନିଜେ ହୋଷ୍ଟ୍ କରିବାର ଗାଇଡ୍](/docs/self-hosting/)
 
@@ -38,7 +38,7 @@ iPhone, iPad କିମ୍ବା Mac ରେ ୱିଜେଟ୍ ଯୋଡ଼ିବ
 
 ୱେବ୍ ଆପ୍ ଦ୍ୱାରା ସବୁଠାରୁ ଶୀଘ୍ର ଆରମ୍ଭ କରିପାରିବେ।
 
-1. [app.nibomo.com](https://app.nibomo.com) ଖୋଲନ୍ତୁ
+1. [app.nibomo.com](https://app.nibomo.com?locale=or) ଖୋଲନ୍ତୁ
 2. ପାସ୍‌ୱାର୍ଡ ବିନା ସାଇନ୍ ଇନ୍ ପାଇଁ ଇମେଲ୍‌ରେ ଆସିଥିବା ଏକଥରିଆ କୋଡ୍ (OTP) ବ୍ୟବହାର କରନ୍ତୁ
 3. କାର୍ଡ ତିଆରି କରନ୍ତୁ, ଧାର୍ଯ୍ୟ କାର୍ଡଗୁଡ଼ିକର ଅଭ୍ୟାସ କରନ୍ତୁ ଏବଂ ୱର୍କସ୍ପେସ୍ ତଥ୍ୟ ଓ ସଂଲଗ୍ନ ଫାଇଲ୍ ସହ AI ଚାଟ୍ ବ୍ୟବହାର କରନ୍ତୁ
 

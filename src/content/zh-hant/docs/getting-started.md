@@ -7,7 +7,7 @@ description: 透過 iPhone、iPad、Mac 或 Android 應用程式、網頁版、A
 
 - **iPhone、iPad 和 Mac 應用程式**：[App Store](https://apps.apple.com/app/apple-store/id6760538964?pt=128797295&ct=marketing_site&mt=8)
 - **Android 應用程式**：[Google Play](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&utm_source=flashcards_website&utm_medium=referral&utm_campaign=marketing_site)
-- **雲端網頁版**：[app.nibomo.com](https://app.nibomo.com)
+- **雲端網頁版**：[app.nibomo.com](https://app.nibomo.com?locale=zh-hant)
 - **AI 助理**：使用 [MCP 連接器](/docs/mcp-connector/)或位於 `https://api.nibomo.com/v1/` 的 API
 - **自行架設**：參閱[自行架設指南](/docs/self-hosting/)
 
@@ -38,7 +38,7 @@ Nibomo 在 iPhone、iPad、Mac 和 Android 上提供「複習」小工具，共�
 
 最快的開始方式是使用雲端網頁版：
 
-1. 開啟 [app.nibomo.com](https://app.nibomo.com)
+1. 開啟 [app.nibomo.com](https://app.nibomo.com?locale=zh-hant)
 2. 使用電子郵件的一次性驗證碼（OTP）登入，無須密碼
 3. 製作閃卡、複習到期的閃卡，並在 AI 聊天中使用工作區資料和附件
 

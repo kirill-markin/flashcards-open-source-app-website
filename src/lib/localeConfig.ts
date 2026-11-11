@@ -1,55 +1,15 @@
 export const DEFAULT_LOCALE = "en";
-export const SUPPORTED_LOCALES = [
-  "en",
-  "es",
-  "ar",
-  "de",
-  "hi",
-  "ja",
-  "fr",
-  "pt",
-  "ru",
-  "zh",
-  "it",
-  "ko",
-  "id",
-  "tr",
-  "nl",
-  "pl",
-  "vi",
-  "th",
-  "uk",
-  "he",
-  "sv",
-  "da",
-  "nb",
-  "fi",
-  "cs",
-  "el",
-  "ro",
-  "hu",
-  "fa",
-  "ca",
-  "bn",
-  "gu",
-  "kn",
-  "ml",
-  "mr",
-  "pa",
-  "ta",
-  "te",
-  "ur",
-  "sw",
-  "bg",
-  "et",
-  "hr",
-  "is",
-  "lt",
-  "lv",
-  "sk",
-  "sl",
-  "zu",
+export const CORE_DOCS_LOCALES = [
+  "zh-hant",
+  "en-au",
+  "en-ca",
+  "en-gb",
+  "fr-ca",
+  "pt-pt",
+  "ms",
+  "or",
 ] as const;
+
 export const NON_DEFAULT_LOCALES = [
   "es",
   "ar",
@@ -99,18 +59,10 @@ export const NON_DEFAULT_LOCALES = [
   "sk",
   "sl",
   "zu",
+  ...CORE_DOCS_LOCALES,
 ] as const;
 
-export const CORE_DOCS_LOCALES = [
-  "zh-hant",
-  "en-au",
-  "en-ca",
-  "en-gb",
-  "fr-ca",
-  "pt-pt",
-  "ms",
-  "or",
-] as const;
+export const SUPPORTED_LOCALES = [DEFAULT_LOCALE, ...NON_DEFAULT_LOCALES] as const;
 
 export type AppLocale = (typeof SUPPORTED_LOCALES)[number];
 export type NonDefaultLocale = (typeof NON_DEFAULT_LOCALES)[number];
@@ -418,6 +370,54 @@ const LOCALE_DEFINITIONS: Readonly<Record<AppLocale, LocaleDefinition>> = {
     nativeName: "isiZulu",
     openGraphLocale: "zu_ZA",
   },
+  "zh-hant": {
+    direction: "ltr",
+    englishName: "Chinese (Traditional)",
+    nativeName: "繁體中文",
+    openGraphLocale: "zh_TW",
+  },
+  "en-au": {
+    direction: "ltr",
+    englishName: "English (Australia)",
+    nativeName: "English (Australia)",
+    openGraphLocale: "en_AU",
+  },
+  "en-ca": {
+    direction: "ltr",
+    englishName: "English (Canada)",
+    nativeName: "English (Canada)",
+    openGraphLocale: "en_CA",
+  },
+  "en-gb": {
+    direction: "ltr",
+    englishName: "English (United Kingdom)",
+    nativeName: "English (United Kingdom)",
+    openGraphLocale: "en_GB",
+  },
+  "fr-ca": {
+    direction: "ltr",
+    englishName: "French (Canada)",
+    nativeName: "Français (Canada)",
+    openGraphLocale: "fr_CA",
+  },
+  "pt-pt": {
+    direction: "ltr",
+    englishName: "Portuguese (Portugal)",
+    nativeName: "Português (Portugal)",
+    openGraphLocale: "pt_PT",
+  },
+  ms: {
+    direction: "ltr",
+    englishName: "Malay",
+    nativeName: "Bahasa Melayu",
+    openGraphLocale: "ms_MY",
+  },
+  or: {
+    direction: "ltr",
+    englishName: "Odia",
+    nativeName: "ଓଡ଼ିଆ",
+    openGraphLocale: "or_IN",
+  },
 };
 
 /** Common alternative names the locale switcher search also matches. */
@@ -428,6 +428,7 @@ const LOCALE_SEARCH_ALIASES: Readonly<Partial<Record<AppLocale, ReadonlyArray<st
   es: ["Castilian", "Castellano"],
   fa: ["Farsi"],
   nl: ["Flemish"],
+  or: ["Oriya"],
   pa: ["Panjabi"],
   pt: ["Brazilian"],
   sl: ["Slovene"],
@@ -440,6 +441,10 @@ export function isSupportedLocale(value: string): value is AppLocale {
 
 export function isNonDefaultLocale(value: string): value is NonDefaultLocale {
   return NON_DEFAULT_LOCALES.includes(value as NonDefaultLocale);
+}
+
+export function isEnglishLocale(locale: AppLocale): boolean {
+  return locale === DEFAULT_LOCALE || locale.startsWith("en-");
 }
 
 export function getLocaleDirection(locale: AppLocale): LocaleDirection {

@@ -7,7 +7,7 @@ Berikut ialah beberapa cara untuk bermula, mengikut pilihan yang paling popular:
 
 - **Aplikasi iPhone, iPad dan Mac**: [App Store](https://apps.apple.com/app/apple-store/id6760538964?pt=128797295&ct=marketing_site&mt=8)
 - **Aplikasi Android**: [Google Play](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&utm_source=flashcards_website&utm_medium=referral&utm_campaign=marketing_site)
-- **Aplikasi web yang kami hos**: [app.nibomo.com](https://app.nibomo.com)
+- **Aplikasi web yang kami hos**: [app.nibomo.com](https://app.nibomo.com?locale=ms)
 - **Ejen AI**: [penyambung MCP](/docs/mcp-connector/) atau API di `https://api.nibomo.com/v1/`
 - **Pengehosan sendiri**: [Panduan Pengehosan Sendiri](/docs/self-hosting/)
 
@@ -38,7 +38,7 @@ Untuk menambah widget pada iPhone, iPad atau Mac, buka galeri widget, pilih Nibo
 
 Cara terpantas untuk bermula ialah menggunakan aplikasi web yang kami hos:
 
-1. Buka [app.nibomo.com](https://app.nibomo.com)
+1. Buka [app.nibomo.com](https://app.nibomo.com?locale=ms)
 2. Log masuk tanpa kata laluan menggunakan kod sekali guna (OTP) yang dihantar melalui e-mel
 3. Buat kad, ulang kaji kad yang perlu diulang kaji dan gunakan sembang AI dengan data ruang kerja dan lampiran fail
 

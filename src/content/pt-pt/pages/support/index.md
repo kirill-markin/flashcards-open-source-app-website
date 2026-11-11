@@ -12,7 +12,7 @@ Para obter apoio com o produto ou com a sua conta, ou esclarecer dúvidas sobre 
 
 ## Eliminação da conta
 
-Para eliminar a sua conta Nibomo sem instalar a aplicação, abra a [página de eliminação da conta](https://app.nibomo.com/settings/delete-account). Se lhe for pedido, inicie sessão com o endereço de e-mail que usa na sua conta. Selecione `Eliminar a minha conta`, escreva a frase de confirmação apresentada e confirme a eliminação. Também pode pedir a eliminação da conta por e-mail para [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com).
+Para eliminar a sua conta Nibomo sem instalar a aplicação, abra a [página de eliminação da conta](https://app.nibomo.com/settings/delete-account?locale=pt-pt). Se lhe for pedido, inicie sessão com o endereço de e-mail que usa na sua conta. Selecione `Eliminar a minha conta`, escreva a frase de confirmação apresentada e confirme a eliminação. Também pode pedir a eliminação da conta por e-mail para [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com).
 
 A eliminação retira da base de dados ativa os dados atuais da sua conta, as credenciais, as associações a espaços de trabalho e os espaços de trabalho de que é o único membro. Os conteúdos dos espaços partilhados continuam disponíveis para os outros membros. Conservamos o histórico de faturação necessário para a contabilidade, a reconciliação de transações e a declaração, o exercício ou a defesa de direitos. Os registos eliminados podem permanecer em cópias de segurança cifradas para recuperação durante até 35 dias. Consulte a [Política de Privacidade](/privacy/) para saber mais sobre a conservação dos dados.
 

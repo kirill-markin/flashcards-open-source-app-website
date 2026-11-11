@@ -4,7 +4,7 @@ import QRCode from "qrcode";
 import { getAppUrl } from "../src/lib/auth";
 import { getHomeDeviceCopy } from "../src/lib/homeDeviceCopy";
 import { getHumanDevicePlatforms, getHumanPlatforms, STORE_QR_URLS } from "../src/lib/humanPlatforms";
-import { SUPPORTED_LOCALES } from "../src/lib/localeConfig";
+import { isEnglishLocale, SUPPORTED_LOCALES } from "../src/lib/localeConfig";
 import { parseStoreQrCodes, serializeStoreQrCodes, type StoreQrCodes } from "../src/lib/storeQrCodes";
 import { generateStoreQrCodes } from "./generateStoreQrCodes";
 
@@ -36,7 +36,7 @@ test("every localized homepage keeps all five devices and the existing store des
     assert.equal(devices[4].label, copy.web);
     assert.ok(copy.web.trim().length > 0);
     assert.ok(copy.byDevice.trim().length > 0);
-    if (locale !== "en") assert.notEqual(copy.byDevice, "By device");
+    if (!isEnglishLocale(locale)) assert.notEqual(copy.byDevice, "By device");
   }
 });
 

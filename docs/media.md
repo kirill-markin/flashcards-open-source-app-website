@@ -42,7 +42,7 @@ npm run media:replace -- .generated/media/home/smart-reviews-es.png /home/smart-
 npm run media:replace -- .generated/media/home/your-progress-es.png /home/your-progress-es.png
 ```
 
-Pass one or more supported non-English locales, or omit arguments for all of them. The generator downloads only the selected showcase originals and four shared template originals, verifies checksums, and writes PNGs under ignored `.generated/media/home`. It uses the manifest’s `original` asset when present, preserving source geometry even after WebP publishing. Inspect generated images before publishing. Replace updates existing logical paths; use `media:add -- <staged-file> /home/<new-name>.png` for a new path. Commit the updated manifest, and retain no generated raster in Git.
+Pass one or more supported non-English locales with published showcase captures, or omit arguments to generate images for every locale with a capture. An explicit request for a locale without a capture fails. The generator downloads only the selected showcase originals and four shared template originals, verifies checksums, and writes PNGs under ignored `.generated/media/home`. It uses the manifest’s `original` asset when present, preserving source geometry even after WebP publishing. Inspect generated images before publishing. Replace updates existing logical paths; use `media:add -- <staged-file> /home/<new-name>.png` for a new path. Commit the updated manifest, and retain no generated raster in Git.
 
 ## Git media guard
 

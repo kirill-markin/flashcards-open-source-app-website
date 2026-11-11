@@ -8,6 +8,7 @@ import {
 import { parseMarkdownAssetManifest } from "./lib/markdownAssetManifest";
 import { SITE_URL } from "./lib/site";
 import { getBlogTrailingSlashRedirect } from "./lib/blogRouting";
+import { getLocalizedLegacyRedirectPathname } from "./lib/legacyRedirects";
 
 const markdownManifest = parseMarkdownAssetManifest(
   process.env.MARKDOWN_ASSET_MANIFEST_JSON
@@ -131,6 +132,13 @@ export function proxy(request: NextRequest): NextResponse {
 
   if (isPrivatePathname(pathname)) {
     return createEmptyNotFoundResponse();
+  }
+
+  const localizedLegacyRedirect = getLocalizedLegacyRedirectPathname(pathname);
+  if (localizedLegacyRedirect !== null) {
+    const redirectUrl = new URL(request.url);
+    redirectUrl.pathname = localizedLegacyRedirect;
+    return NextResponse.redirect(redirectUrl, 308);
   }
 
   const retiredResponse = createRetiredResponse(request, pathname);

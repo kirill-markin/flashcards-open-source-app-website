@@ -12,7 +12,7 @@ sections:
 
 ## 刪除帳號
 
-無須安裝應用程式，即可開啟[帳號刪除頁面](https://app.nibomo.com/settings/delete-account)刪除 Nibomo 帳號。如果系統要求登入，請使用該帳號的電子郵件地址。選擇`刪除我的帳號`，輸入畫面上顯示的確認文字，再確認刪除。你也可以寄信至 [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com) 申請刪除帳號。
+無須安裝應用程式，即可開啟[帳號刪除頁面](https://app.nibomo.com/settings/delete-account?locale=zh-hant)刪除 Nibomo 帳號。如果系統要求登入，請使用該帳號的電子郵件地址。選擇`刪除我的帳號`，輸入畫面上顯示的確認文字，再確認刪除。你也可以寄信至 [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com) 申請刪除帳號。
 
 刪除帳號時，系統會從正式資料庫移除你的現有帳號資料、憑證、成員資格，以及只有你一位成員的工作區。共用工作區的內容仍可供其他成員存取。我們會保留必要的帳務紀錄，以供會計、對帳及處理法律主張之用。已刪除的紀錄可能在加密的復原備份中保留最多 35 天。完整的資料保留資訊請參閱[隱私權政策](/privacy/)。
 
