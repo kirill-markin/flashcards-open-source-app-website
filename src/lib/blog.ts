@@ -961,12 +961,6 @@ export function getRecommendedBlogPosts(
   const currentAnalysisSlug = getRecommendationAnalysisSlug(slug);
   const currentVector = articleVectors.get(currentAnalysisSlug);
 
-  if (currentVector === undefined) {
-    throw new Error(
-      `Missing recommendation vector for blog post: ${slug} (analysis slug: ${currentAnalysisSlug})`
-    );
-  }
-
   const rankedRecommendations: RankedRecommendation[] = [];
 
   for (const post of loadPublishedBlogPosts(locale)) {
@@ -980,15 +974,12 @@ export function getRecommendedBlogPosts(
     const candidateAnalysisSlug = getRecommendationAnalysisSlug(post.slug);
     const candidateVector = articleVectors.get(candidateAnalysisSlug);
 
-    if (candidateVector === undefined) {
-      throw new Error(
-        `Missing recommendation vector for candidate blog post: ${post.slug} (analysis slug: ${candidateAnalysisSlug})`
-      );
-    }
-
     rankedRecommendations.push({
       post,
-      score: getCosineSimilarity(currentVector, candidateVector),
+      // Without comparable vectors, use the existing same-locale recency order.
+      score: currentVector === undefined || candidateVector === undefined
+        ? 0
+        : getCosineSimilarity(currentVector, candidateVector),
     });
   }
 
