@@ -1190,6 +1190,21 @@
     "bytes": 2304322
   },
   {
+    "publicPath": "/blog/ege-history-chronology-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/5dd509cea4a745b35b893649ff444d12154b2e7bf7617e2ee82d4b4247ebd94c.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "5dd509cea4a745b35b893649ff444d12154b2e7bf7617e2ee82d4b4247ebd94c",
+    "bytes": 164724,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/e0ecf2bfc025a7a181663b016e825edec26401c6f9fa6c2613bb014cc10342c4.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "e0ecf2bfc025a7a181663b016e825edec26401c6f9fa6c2613bb014cc10342c4",
+      "bytes": 2447365
+    }
+  },
+  {
     "publicPath": "/blog/ege-russian-word-stress.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/cefa9f29157b39254cc14227e57c363a7f0d98d0a5f8dd39e9a443e59c213a3d.png",
     "width": 1672,
