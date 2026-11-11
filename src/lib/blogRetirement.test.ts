@@ -39,6 +39,9 @@ test("localized retirement excludes publication while retaining sources and serv
   writeArticle("es", "spanish-retired", "status: retired\n");
   writeArticle("en", "active", "status: published\n");
   writeArticle("es", "active", "");
+  writeArticle("de", "german-original", "");
+  writeArticle("de", "german-with-spanish", "");
+  writeArticle("es", "german-with-spanish", "");
   writeArticle("en", "how-to-use-flashcards-for-algebra-based-physics-1", "status: retired\n");
   writeArticle("es", "how-to-use-flashcards-for-ap-physics-1", "");
   mkdirSync(join(directory, "src/content/en/docs"), { recursive: true });
@@ -65,6 +68,16 @@ test("localized retirement excludes publication while retaining sources and serv
   assert.ok(!blog.listBlogPosts("en").some((post) => post.slug === "shared"));
   assert.ok(!blog.getRecommendedBlogPosts("es", "active", 10).some((post) => post.slug === "spanish-retired"));
   assert.ok(blog.getRecommendedBlogPosts("es", "shared", 10).some((post) => post.slug === "how-to-use-flashcards-for-ap-physics-1"));
+  assert.ok(blog.readBlogPost("de", "german-original"));
+  assert.equal(blog.readBlogPost("en", "german-original"), null);
+  assert.equal(routes.getLanguageAlternates("/blog/german-original/"), undefined);
+  assert.deepEqual(routes.getLanguageAlternates("/blog/german-with-spanish/"), {
+    de: "https://nibomo.com/de/blog/german-with-spanish/",
+    es: "https://nibomo.com/es/blog/german-with-spanish/",
+  });
+  assert.deepEqual(blog.getRecommendedBlogPosts("de", "german-original", 10).map((post) => post.slug), ["german-with-spanish"]);
+  assert.ok(blog.getRecommendedBlogPosts("es", "active", 10).some((post) => post.slug === "german-with-spanish"));
+  assert.ok(markdown.listMarkdownPagePaths(null).includes("de/blog/german-original"));
   assert.ok(!markdown.listMarkdownPagePaths(null).includes("blog/shared"));
   assert.ok(markdown.listMarkdownPagePaths(null).includes("es/blog/shared"));
   assert.ok(!markdown.renderBlogListingMarkdown("en").markdown.includes("/blog/shared/"));

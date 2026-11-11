@@ -3,9 +3,8 @@
 Add `status: retired` to the frontmatter of an individual file in
 `src/content/<locale>/blog/`. Keep its complete frontmatter and article body in Git.
 An absent status or `status: published` publishes the source. Flags are stored per
-source; retiring English does not mechanically retire its translations. Editorial
-decisions cover the complete verified article family, including every translation.
-Apply a family decision to all its members.
+source. Make editorial decisions per URL and use the verified article family to
+find live translations and alternate destinations.
 
 Optional frontmatter fields are `retiredAt` (a quoted date), `retirementReason`, and
 `retirementEvidence` (a string pointing to the decision ledger). These describe
