@@ -17,6 +17,7 @@ import { getPublicCatalogPackageLocalizedPathname } from "./publicCatalogUrls";
 const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   Record<string, Readonly<Partial<Record<AppLocale, string>>>>
 > = {
+  "ege-social-studies-terms-practice": { ru: "ege-social-studies-terms-flashcards-russian" },
   "dna-reverse-complement-practice": { en: "dna-reverse-complement-flashcards" },
   "sanger-sequencing-chromatogram": { en: "dna-reverse-complement-flashcards" },
   "rna-splicing-practice": { en: "rna-splicing-exon-junction-flashcards" },
