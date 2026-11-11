@@ -4049,6 +4049,21 @@
     }
   },
   {
+    "publicPath": "/blog/phylogenetic-tree-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/4532001ed66298740db0d61182ed77df72ffcbcdf874a4f39077902d93d941cb.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "4532001ed66298740db0d61182ed77df72ffcbcdf874a4f39077902d93d941cb",
+    "bytes": 94250,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/784433b0dead7c06a8a1bad5be120c74923ea9bb98bd9e677b2a725588ad414f.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "784433b0dead7c06a8a1bad5be120c74923ea9bb98bd9e677b2a725588ad414f",
+      "bytes": 2060569
+    }
+  },
+  {
     "publicPath": "/blog/planes-of-movement.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/b2c486bf36120a4c1146ed629367124d29108b529736fc91e4c3b6eef055311b.png",
     "width": 1672,
