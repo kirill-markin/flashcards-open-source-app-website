@@ -595,6 +595,21 @@
     "bytes": 3085720
   },
   {
+    "publicPath": "/blog/area-unit-conversion-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/bab8e516250eb2432b853ef5364080b75e4e77ff50b8f62b231b70bb34feefc0.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "bab8e516250eb2432b853ef5364080b75e4e77ff50b8f62b231b70bb34feefc0",
+    "bytes": 252982,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/ab16a3d81d75d053f785df9c04ca5f6b862c2b67329d3175eeece9badd00596d.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "ab16a3d81d75d053f785df9c04ca5f6b862c2b67329d3175eeece9badd00596d",
+      "bytes": 2788902
+    }
+  },
+  {
     "publicPath": "/blog/asvab-flashcards.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/4ef48e6c9bd3bd170e7265c9a83f36c58aa3d77e55665e970849cdb4587def58.png",
     "width": 1200,

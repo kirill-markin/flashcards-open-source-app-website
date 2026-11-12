@@ -254,6 +254,7 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   "resistor-color-code-practice": { en: "resistor-color-code-flashcards" },
   "si-base-and-derived-units": { en: "si-units-flashcards" },
   "converting-squared-cubed-units": { en: "squared-cubed-unit-conversion-flashcards" },
+  "area-unit-conversion-practice": { ru: "si-prefix-conversion-flashcards-russian" },
   "significant-figures-mixed-operations": { en: "significant-figures-mixed-operations-flashcards" },
   "measurement-uncertainty-practice": { en: "measurement-uncertainty-flashcards" },
   "dimensional-analysis-equations": { en: "dimensional-analysis-equation-flashcards" },
