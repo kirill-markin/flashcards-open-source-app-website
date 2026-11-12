@@ -1220,6 +1220,21 @@
     }
   },
   {
+    "publicPath": "/blog/ege-informatics-truth-table-columns.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/43a7a7785923ad4521b39e3b677e0af3cf2c8f2288fea6441dee174d88428d44.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "43a7a7785923ad4521b39e3b677e0af3cf2c8f2288fea6441dee174d88428d44",
+    "bytes": 217244,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/a068afa110c7f368dff4fde8e86b864b59a19e3a2cf7a01d74fcea79be678e74.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "a068afa110c7f368dff4fde8e86b864b59a19e3a2cf7a01d74fcea79be678e74",
+      "bytes": 2565331
+    }
+  },
+  {
     "publicPath": "/blog/ege-russian-word-stress.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/cefa9f29157b39254cc14227e57c363a7f0d98d0a5f8dd39e9a443e59c213a3d.png",
     "width": 1672,
