@@ -5264,6 +5264,21 @@
     "bytes": 2399953
   },
   {
+    "publicPath": "/blog/us-address-form-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/cb1dd58f1f783dace415775d37084b6746f11176a8d398789fbda9fce7b85d2c.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "cb1dd58f1f783dace415775d37084b6746f11176a8d398789fbda9fce7b85d2c",
+    "bytes": 216688,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/c4f6d04b74893ac5e74c855bdfff98b1d5cfdbea3a7629ec2eec7ed6d1f7caec.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "c4f6d04b74893ac5e74c855bdfff98b1d5cfdbea3a7629ec2eec7ed6d1f7caec",
+      "bytes": 2641140
+    }
+  },
+  {
     "publicPath": "/blog/us-citizenship-test-flashcards.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/376e74650a40b5c3c30963c9ab63b133894ab2d0c064942dafc390e94bd92509.png",
     "width": 1672,

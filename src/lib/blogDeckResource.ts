@@ -85,6 +85,7 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   "sql-row-number-rank-dense-rank": { en: "postgresql-sql-interview-problems" },
   "sql-rows-vs-range-practice": { en: "postgresql-sql-interview-problems" },
   "sql-union-vs-union-all-practice": { en: "postgresql-sql-interview-problems" },
+  "us-address-form-practice": { es: "us-state-abbreviations-flashcards-es" },
   "us-state-abbreviations": {
     en: "us-state-abbreviations-flashcards",
     ar: "us-state-abbreviations-flashcards-ar",
