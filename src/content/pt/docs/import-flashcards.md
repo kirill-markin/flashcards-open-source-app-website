@@ -45,10 +45,10 @@ Os cartões importados com IA começam como cartões novos no Nibomo. O históri
 
 ## Cole os dados de uma planilha
 
-Use **Biblioteca > Importar > Importar de uma planilha** para cartões simples com frente e verso. Copie duas colunas da planilha sem o cabeçalho e cole na tela de importação. Comece com **Tabulação** entre a frente e o verso e **Nova linha** entre os cartões. Ajuste os separadores se o texto usar outros.
+Entre primeiro na sua conta do Nibomo. Use **Biblioteca > Importar > Importar de uma planilha** para cartões simples com frente e verso. Copie duas colunas da planilha sem o cabeçalho e cole na tela de importação. Comece com **Tabulação** entre a frente e o verso e **Nova linha** entre os cartões. Ajuste os separadores se o texto usar outros.
 
 Confira a prévia, corrija linhas incompletas e escolha as tags que quiser aplicar. Depois, use o botão de importação para salvar os cartões. Esse modo não usa o chat de IA.
 
 ## Importe um ZIP do Nibomo
 
-Use **Biblioteca > Importar > Importar do Nibomo** para um arquivo `flashcards.zip` exportado anteriormente do Nibomo. Escolha o arquivo ZIP sem descompactá-lo. Na prévia, confira quantos cartões e arquivos de mídia há e se aparece algum aviso. Depois, confirme a importação e confira os cartões e as mídias na **Biblioteca**. Assim, você pode transferir os cartões, as tags e as mídias do pacote. Esse modo não usa o chat de IA.
+Entre primeiro na sua conta do Nibomo. Use **Biblioteca > Importar > Importar do Nibomo** para um arquivo `flashcards.zip` exportado anteriormente do Nibomo. Escolha o arquivo ZIP sem descompactá-lo. Na prévia, confira quantos cartões e arquivos de mídia há e se aparece algum aviso. Depois, confirme a importação e confira os cartões e as mídias na **Biblioteca**. Assim, você pode transferir os cartões, as tags e as mídias do pacote. Esse modo não usa o chat de IA.

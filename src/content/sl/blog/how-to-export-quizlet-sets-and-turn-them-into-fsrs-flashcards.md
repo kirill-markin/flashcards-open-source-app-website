@@ -108,7 +108,7 @@ Program za preglednice lahko doda narekovaje, ki jih CSV potrebuje. Zamenjava vs
 
 V spletni aplikaciji Nibomo odprite **Knjižnica > Uvoz > Uvozi iz aplikacije Quizlet**, prilepite besedilo, kopirano iz izvoza lastnega kompleta, in izberite **Začni uvoz**. Klepet z AI ustvari kartice v delovnem prostoru. Primerjajte shranjena vprašanja in odgovore z izvirnikom. Če imate nenavadna ločila ali večvrstične definicije, začnite z nekaj karticami.
 
-Za predogled pred shranjevanjem izberite **Uvozi iz preglednice** in prilepite urejeno besedilo iz dveh stolpcev. Nastavite ločila, preverite pare in potrdite uvoz. Kartice dobijo nov razpored ponavljanja.
+Najprej se prijavite v svoj račun Nibomo. Za predogled pred shranjevanjem izberite **Uvozi iz preglednice** in prilepite urejeno besedilo iz dveh stolpcev. Nastavite ločila, preverite pare in potrdite uvoz. Kartice dobijo nov razpored ponavljanja.
 
 Druge možnosti so opisane v [vodniku za uvoz kartic](/sl/docs/import-flashcards/). Če datoteko TXT ali CSV priložite neposredno v klepetu z AI, lahko pred shranjevanjem zahtevate predogled:
 

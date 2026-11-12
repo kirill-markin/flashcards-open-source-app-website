@@ -45,10 +45,10 @@ Les cartes importées par le chat IA arrivent comme de nouvelles cartes dans Nib
 
 ## Coller depuis une feuille de calcul
 
-Pour importer de simples paires recto verso, ouvrez **Bibliothèque > Importer > Importer depuis une feuille de calcul**. Copiez deux colonnes de votre feuille de calcul sans la ligne d’en-tête, puis collez-les dans l’écran d’importation. Pour des cellules copiées depuis un tableur, choisissez **Tabulation** entre le recto et le verso et **Nouvelle ligne** entre les cartes. Changez les séparateurs si votre texte en utilise d’autres.
+Connectez-vous d’abord à Nibomo. Pour importer de simples paires recto verso, ouvrez **Bibliothèque > Importer > Importer depuis une feuille de calcul**. Copiez deux colonnes de votre feuille de calcul sans la ligne d’en-tête, puis collez-les dans l’écran d’importation. Pour des cellules copiées depuis un tableur, choisissez **Tabulation** entre le recto et le verso et **Nouvelle ligne** entre les cartes. Changez les séparateurs si votre texte en utilise d’autres.
 
 Vérifiez l’aperçu des cartes, corrigez les lignes incomplètes et choisissez les étiquettes à appliquer. Sélectionnez ensuite **Importer** pour enregistrer les cartes. Cette méthode fonctionne sans chat IA.
 
 ## Importer un ZIP de Nibomo
 
-Pour un fichier `flashcards.zip` précédemment exporté depuis Nibomo, ouvrez **Bibliothèque > Importer > Importer depuis Nibomo**. Sélectionnez le ZIP sans le décompresser. Dans l’aperçu, vérifiez le nombre de cartes et de fichiers multimédias ainsi que les éventuels avertissements, puis confirmez l’importation et examinez les cartes et les médias dans la **Bibliothèque**. Cette méthode permet de transférer les cartes, les étiquettes et les médias inclus dans le fichier. Elle fonctionne sans chat IA.
+Connectez-vous d’abord à Nibomo. Pour un fichier `flashcards.zip` précédemment exporté depuis Nibomo, ouvrez **Bibliothèque > Importer > Importer depuis Nibomo**. Sélectionnez le ZIP sans le décompresser. Dans l’aperçu, vérifiez le nombre de cartes et de fichiers multimédias ainsi que les éventuels avertissements, puis confirmez l’importation et examinez les cartes et les médias dans la **Bibliothèque**. Cette méthode permet de transférer les cartes, les étiquettes et les médias inclus dans le fichier. Elle fonctionne sans chat IA.

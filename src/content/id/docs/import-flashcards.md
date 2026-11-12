@@ -45,10 +45,10 @@ AI memasukkan kartu sebagai kartu baru di Nibomo. Riwayat ulasan dan jadwal ulas
 
 ## Tempel dari spreadsheet
 
-Gunakan **Pustaka > Impor > Impor dari spreadsheet** untuk kartu yang hanya memiliki sisi depan dan belakang. Salin dua kolom dari spreadsheet tanpa menyertakan baris judul, lalu tempel ke layar impor. Untuk sel spreadsheet, pilih **Tab** antara sisi depan dan belakang serta **Baris baru** antara kartu. Ubah pemisah jika teks Anda menggunakan tanda lain.
+Masuk dulu ke akun Nibomo Anda. Gunakan **Pustaka > Impor > Impor dari spreadsheet** untuk kartu yang hanya memiliki sisi depan dan belakang. Salin dua kolom dari spreadsheet tanpa menyertakan baris judul, lalu tempel ke layar impor. Untuk sel spreadsheet, pilih **Tab** antara sisi depan dan belakang serta **Baris baru** antara kartu. Ubah pemisah jika teks Anda menggunakan tanda lain.
 
 Periksa pratinjau kartu, perbaiki baris yang belum lengkap, dan pilih tag yang ingin diterapkan. Lalu pilih tombol impor yang menampilkan jumlah kartu untuk menyimpan kartu. Cara ini berjalan tanpa chat AI.
 
 ## Impor ZIP dari Nibomo
 
-Gunakan **Pustaka > Impor > Impor dari Nibomo** untuk file `flashcards.zip` yang sebelumnya diekspor dari Nibomo. Pilih ZIP tanpa mengekstraknya. Di pratinjau, periksa jumlah kartu dan file media serta peringatan jika ada, lalu konfirmasi impor dan lihat kartu serta media satu per satu di **Pustaka**. Cara ini dapat memindahkan kartu, tag, dan media di dalam paket tanpa chat AI.
+Masuk dulu ke akun Nibomo Anda. Gunakan **Pustaka > Impor > Impor dari Nibomo** untuk file `flashcards.zip` yang sebelumnya diekspor dari Nibomo. Pilih ZIP tanpa mengekstraknya. Di pratinjau, periksa jumlah kartu dan file media serta peringatan jika ada, lalu konfirmasi impor dan lihat kartu serta media satu per satu di **Pustaka**. Cara ini dapat memindahkan kartu, tag, dan media di dalam paket tanpa chat AI.

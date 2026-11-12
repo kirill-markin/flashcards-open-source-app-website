@@ -45,10 +45,10 @@ Az AI a Nibomóban új kártyaként hozza létre az importált kártyákat. A ko
 
 ## Beillesztés táblázatból
 
-Az egyszerű elő- és hátlap párokhoz válaszd a **Könyvtár > Importálás > Importálás táblázatból** menüpontot. Másolj ki két oszlopot a táblázatból a fejléc nélkül, majd illeszd be őket az importálási képernyőn. Táblázatcelláknál kezdd a **Tabulátor** beállítással az elő- és hátlap között, illetve az **Új sor** beállítással a kártyák között. Ha a szöveg mást használ, állítsd át az elválasztókat.
+Először jelentkezz be a Nibomo-fiókodba. Az egyszerű elő- és hátlap párokhoz válaszd a **Könyvtár > Importálás > Importálás táblázatból** menüpontot. Másolj ki két oszlopot a táblázatból a fejléc nélkül, majd illeszd be őket az importálási képernyőn. Táblázatcelláknál kezdd a **Tabulátor** beállítással az elő- és hátlap között, illetve az **Új sor** beállítással a kártyák között. Ha a szöveg mást használ, állítsd át az elválasztókat.
 
 Nézd át a kártyák előnézetét, javítsd a hiányos sorokat, és válaszd ki a hozzáadni kívánt címkéket. Ezután a kártyák számát mutató importálási gombbal mentsd a kártyákat. Ehhez nincs szükség AI-csevegésre.
 
 ## ZIP importálása a Nibomóból
 
-A korábban a Nibomóból exportált `flashcards.zip` fájlhoz válaszd a **Könyvtár > Importálás > Importálás a Nibomóból** menüpontot. Válaszd ki a ZIP-et kicsomagolás nélkül. Az előnézetben ellenőrizd a kártyák és a médiafájlok számát, valamint az esetleges figyelmeztetéseket. Ezután erősítsd meg az importálást, majd nézd meg az egyes kártyákat és médiafájlokat a **Könyvtár** nézetben. Így a csomagban található kártyákat, címkéket és médiafájlokat is átviheted AI-csevegés nélkül.
+Először jelentkezz be a Nibomo-fiókodba. A korábban a Nibomóból exportált `flashcards.zip` fájlhoz válaszd a **Könyvtár > Importálás > Importálás a Nibomóból** menüpontot. Válaszd ki a ZIP-et kicsomagolás nélkül. Az előnézetben ellenőrizd a kártyák és a médiafájlok számát, valamint az esetleges figyelmeztetéseket. Ezután erősítsd meg az importálást, majd nézd meg az egyes kártyákat és médiafájlokat a **Könyvtár** nézetben. Így a csomagban található kártyákat, címkéket és médiafájlokat is átviheted AI-csevegés nélkül.

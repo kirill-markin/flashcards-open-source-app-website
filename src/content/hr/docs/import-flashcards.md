@@ -45,10 +45,10 @@ AI u Nibomo uvozi kartice kao nove. Prethodna povijest i termini ponavljanja ost
 
 ## Zalijepite iz proračunske tablice
 
-Upotrijebite **Knjižnica > Uvoz > Uvezi iz proračunske tablice** za kartice s jednostavnom prednjom i stražnjom stranom. Kopirajte dva stupca iz proračunske tablice, bez retka zaglavlja, pa ih zalijepite na zaslon za uvoz. Za ćelije proračunske tablice krenite s postavkom **Tabulator** između prednje i stražnje strane te **Novi redak** između kartica. Promijenite razdjelnike ako ih vaš tekst koristi drukčije.
+Najprije se prijavite na svoj Nibomo račun. Upotrijebite **Knjižnica > Uvoz > Uvezi iz proračunske tablice** za kartice s jednostavnom prednjom i stražnjom stranom. Kopirajte dva stupca iz proračunske tablice, bez retka zaglavlja, pa ih zalijepite na zaslon za uvoz. Za ćelije proračunske tablice krenite s postavkom **Tabulator** između prednje i stražnje strane te **Novi redak** između kartica. Promijenite razdjelnike ako ih vaš tekst koristi drukčije.
 
 Pregledajte kartice, ispravite nepotpune retke i odaberite oznake koje želite primijeniti. Zatim odaberite gumb za uvoz s brojem kartica da biste spremili kartice. Ovaj postupak radi bez AI razgovora.
 
 ## Uvezite ZIP iz Niboma
 
-Upotrijebite **Knjižnica > Uvoz > Uvezi iz Niboma** za datoteku `flashcards.zip` prethodno izvezenu iz Niboma. Odaberite ZIP bez raspakiravanja. U pretpregledu provjerite broj kartica i medijskih datoteka te eventualna upozorenja. Zatim potvrdite uvoz i pregledajte pojedinačne kartice i medijske datoteke u odjeljku **Knjižnica**. Ovim postupkom možete prenijeti kartice, oznake i medijske datoteke iz paketa bez AI razgovora.
+Najprije se prijavite na svoj Nibomo račun. Upotrijebite **Knjižnica > Uvoz > Uvezi iz Niboma** za datoteku `flashcards.zip` prethodno izvezenu iz Niboma. Odaberite ZIP bez raspakiravanja. U pretpregledu provjerite broj kartica i medijskih datoteka te eventualna upozorenja. Zatim potvrdite uvoz i pregledajte pojedinačne kartice i medijske datoteke u odjeljku **Knjižnica**. Ovim postupkom možete prenijeti kartice, oznake i medijske datoteke iz paketa bez AI razgovora.

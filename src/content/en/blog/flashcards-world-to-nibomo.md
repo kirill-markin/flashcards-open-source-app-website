@@ -35,7 +35,7 @@ If the import menu is missing in your version of the app, you can attach the fil
 
 To check each pair before creating cards, open the export in a spreadsheet and copy the two columns you want. Select the prompt first and the correct answer second. Leave out any header row and extra answer choices.
 
-In Nibomo, choose **Library → Import → Import from a spreadsheet**. Paste the cells, set **Between front and back** to **Tab** and **Between cards** to **New line**, then look at the preview. Fix any split rows or extra quotation marks there before clicking **Import** with the displayed card count.
+Sign in to Nibomo, then choose **Library → Import → Import from a spreadsheet**. Paste the cells, set **Between front and back** to **Tab** and **Between cards** to **New line**, then look at the preview. Fix any split rows or extra quotation marks there before clicking **Import** with the displayed card count.
 
 ## Check three cards with accents and punctuation
 

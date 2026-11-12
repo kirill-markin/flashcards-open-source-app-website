@@ -45,10 +45,10 @@ AI-ga imporditud kaardid alustavad Nibomos uute kaartidena. Varasem kordamisajal
 
 ## Kleebi arvutustabelist
 
-Lihtsate esi- ja tagaküljega kaartide jaoks vali **Teek > Importimine > Impordi arvutustabelist**. Kopeeri arvutustabelist kaks veergu ilma päiseta ja kleebi need impordivaatesse. Arvutustabeli lahtrite puhul vali esi- ja tagakülje vahele **Tabeldusmärk** ning kaartide vahele **Reavahetus**. Kui sinu tekstis on teised eraldajad, muuda valikuid.
+Logi kõigepealt oma Nibomo kontole sisse. Lihtsate esi- ja tagaküljega kaartide jaoks vali **Teek > Importimine > Impordi arvutustabelist**. Kopeeri arvutustabelist kaks veergu ilma päiseta ja kleebi need impordivaatesse. Arvutustabeli lahtrite puhul vali esi- ja tagakülje vahele **Tabeldusmärk** ning kaartide vahele **Reavahetus**. Kui sinu tekstis on teised eraldajad, muuda valikuid.
 
 Vaata kaartide eelvaade üle, paranda poolikud read ja vali sildid, mida tahad lisada. Kaartide salvestamiseks vali **Impordi**. See viis ei kasuta AI-vestlust.
 
 ## Impordi Nibomo ZIP-fail
 
-Varem Nibomost eksporditud `flashcards.zip`-faili jaoks vali **Teek > Importimine > Impordi Nibomost**. Vali ZIP-fail seda lahti pakkimata. Kontrolli eelvaates kaartide ja meediafailide arvu ning vaata, kas kuvatakse hoiatusi. Seejärel kinnita import ja vaata üksikuid kaarte ning meediafaile jaotises **Teek**. Sel viisil saab pakist üle tuua kaardid, sildid ja meedia. See viis ei kasuta AI-vestlust.
+Logi kõigepealt oma Nibomo kontole sisse. Varem Nibomost eksporditud `flashcards.zip`-faili jaoks vali **Teek > Importimine > Impordi Nibomost**. Vali ZIP-fail seda lahti pakkimata. Kontrolli eelvaates kaartide ja meediafailide arvu ning vaata, kas kuvatakse hoiatusi. Seejärel kinnita import ja vaata üksikuid kaarte ning meediafaile jaotises **Teek**. Sel viisil saab pakist üle tuua kaardid, sildid ja meedia. See viis ei kasuta AI-vestlust.

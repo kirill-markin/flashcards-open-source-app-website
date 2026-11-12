@@ -125,7 +125,7 @@ Eine Klartext-Kopie ist auf die richtige Weise hässlich:
 
 Das ist heute noch wichtiger, weil viele Decks aus Notizen, Transkripten, OCR, PDFs und KI-gestützter Bereinigung entstehen. Sobald der nützliche Teil als lesbarer Text gespeichert ist, werden deine späteren Optionen deutlich besser.
 
-Füge in der Nibomo-Web-App zwei Spalten aus dem bereinigten Export unter **Bibliothek > Import > Aus einer Tabelle importieren** ein und prüfe die Karten in der Vorschau. Die separate Option **Aus Nibomo importieren** überträgt Karten und zugehörige Medien aus einer `flashcards.zip`. Sichere Lernverlauf und Arbeitsbereichseinstellungen separat. Einzelheiten findest du in der [Anleitung zum Importieren von Karteikarten](/docs/import-flashcards/).
+Melde dich zuerst bei Nibomo an, wenn du Karten aus einer Tabelle oder einer Nibomo-ZIP-Datei importieren möchtest. Füge in der Nibomo-Web-App zwei Spalten aus dem bereinigten Export unter **Bibliothek > Import > Aus einer Tabelle importieren** ein und prüfe die Karten in der Vorschau. Die separate Option **Aus Nibomo importieren** überträgt Karten und zugehörige Medien aus einer `flashcards.zip`. Sichere Lernverlauf und Arbeitsbereichseinstellungen separat. Einzelheiten findest du in der [Anleitung zum Importieren von Karteikarten](/docs/import-flashcards/).
 
 ## Sichere die Quelle, nicht nur die fertige Karte
 

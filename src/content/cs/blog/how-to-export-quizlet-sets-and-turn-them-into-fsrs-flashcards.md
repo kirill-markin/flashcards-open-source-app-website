@@ -108,7 +108,7 @@ Tabulkový procesor dokáže doplnit uvozovky, které CSV potřebuje. Hromadné 
 
 Ve webové aplikaci Nibomo otevřete **Knihovna > Import > Importovat z aplikace Quizlet**. Vložte zkopírovaný text a zvolte **Spustit import**. Nibomo odešle text do chatu s AI, který z něj vytvoří nové kartičky. Uložené kartičky porovnejte s originálem. Obrázky, historie učení ani termíny opakování se z Quizletu nepřenesou.
 
-Pokud si chcete kartičky před uložením prohlédnout, z tabulky zkopírujte jen sloupce s pojmy a definicemi, bez záhlaví. Na každém řádku nechte jednu dvojici a z buněk odstraňte tabulátory a zalomení řádků. Text vložte přes **Importovat z tabulky** a nastavte oddělovače podle vloženého textu. U zkopírovaných buněk to bývá tabulátor mezi pojmem a definicí a nový řádek mezi kartičkami. Pokud máte CSV s poli v uvozovkách, otevřete jej nejprve v tabulkovém procesoru. Import vloženého textu uvozovky v CSV nezpracovává.
+Nejprve se přihlaste k účtu Nibomo. Pokud si chcete kartičky před uložením prohlédnout, z tabulky zkopírujte jen sloupce s pojmy a definicemi, bez záhlaví. Na každém řádku nechte jednu dvojici a z buněk odstraňte tabulátory a zalomení řádků. Text vložte přes **Importovat z tabulky** a nastavte oddělovače podle vloženého textu. U zkopírovaných buněk to bývá tabulátor mezi pojmem a definicí a nový řádek mezi kartičkami. Pokud máte CSV s poli v uvozovkách, otevřete jej nejprve v tabulkovém procesoru. Import vloženého textu uvozovky v CSV nezpracovává.
 
 Chcete-li obsah nechat upravit nebo si prohlédnout ukázku bez uložení, přiložte TXT nebo CSV k novému chatu s AI a výslovně ho o to požádejte. Uveďte přesný oddělovač mezi pojmem a definicí, například čárku nebo středník. Pro soubor s tabulátory můžete použít tento požadavek.
 

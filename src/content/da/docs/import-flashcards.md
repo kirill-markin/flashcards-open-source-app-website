@@ -45,10 +45,10 @@ Kort, du importerer med AI, tilføjes som nye kort i Nibomo. Tidligere repetitio
 
 ## Indsæt kort fra et regneark
 
-Brug **Bibliotek > Import > Importér fra et regneark**, hvis kortene blot består af par med en forside og en bagside. Kopiér to kolonner uden overskriftsrækken, og indsæt dem på importskærmen. Til regnearksceller kan du starte med **Tabulator** mellem forside og bagside og **Ny linje** mellem kortene. Vælg andre skilletegn, hvis teksten bruger dem.
+Log først ind på Nibomo. Brug **Bibliotek > Import > Importér fra et regneark**, hvis kortene blot består af par med en forside og en bagside. Kopiér to kolonner uden overskriftsrækken, og indsæt dem på importskærmen. Til regnearksceller kan du starte med **Tabulator** mellem forside og bagside og **Ny linje** mellem kortene. Vælg andre skilletegn, hvis teksten bruger dem.
 
 Tjek forhåndsvisningen, ret ufuldstændige rækker, og vælg de tags, du vil tilføje. Brug derefter importknappen til at gemme kortene. Denne metode bruger ikke AI-chatten.
 
 ## Importér en ZIP-fil fra Nibomo
 
-Brug **Bibliotek > Import > Importér fra Nibomo** til en `flashcards.zip`, som tidligere er eksporteret fra Nibomo. Vælg ZIP-filen uden at pakke den ud. Tjek antallet af kort og mediefiler samt eventuelle advarsler i forhåndsvisningen. Bekræft derefter importen, og se de enkelte kort og mediefiler i **Bibliotek**. Denne metode kan overføre kort, tags og medier fra pakken uden at bruge AI-chatten.
+Log først ind på Nibomo. Brug **Bibliotek > Import > Importér fra Nibomo** til en `flashcards.zip`, som tidligere er eksporteret fra Nibomo. Vælg ZIP-filen uden at pakke den ud. Tjek antallet af kort og mediefiler samt eventuelle advarsler i forhåndsvisningen. Bekræft derefter importen, og se de enkelte kort og mediefiler i **Bibliotek**. Denne metode kan overføre kort, tags og medier fra pakken uden at bruge AI-chatten.

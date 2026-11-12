@@ -106,7 +106,9 @@ Tabelarvutusprogramm saab lisada CSV jaoks vajalikud jutumärgid. Kõigi tabeldu
 
 ## Impordi Quizleti tekst Nibomosse
 
-Ava Nibomo veebirakenduses **Teek → Importimine → Impordi Quizlet rakendusest** ja kleebi eksporditud tekst. **Alusta importi** saadab teksti AI-vestlusse, kus kaardid võidakse kohe salvestada. Võrdle salvestatud kaarte algtekstiga. Lihtsate paaride eelvaateks enne salvestamist vali **Impordi arvutustabelist**. Vaata [impordijuhendit](/docs/import-flashcards/).
+Ava Nibomo veebirakenduses **Teek → Importimine → Impordi Quizlet rakendusest** ja kleebi eksporditud tekst. **Alusta importi** saadab teksti AI-vestlusse, kus kaardid võidakse kohe salvestada. Võrdle salvestatud kaarte algtekstiga.
+
+Logi kõigepealt oma Nibomo kontole sisse. Lihtsate paaride eelvaateks enne salvestamist vali **Impordi arvutustabelist**. Vaata [impordijuhendit](/docs/import-flashcards/).
 
 Kui tahad, et AI teeks enne salvestamist mustandi, järgi neid samme:
 

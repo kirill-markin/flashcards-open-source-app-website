@@ -45,10 +45,10 @@ Kaarten die je met AI importeert, beginnen als nieuwe kaarten in Nibomo. Je herh
 
 ## Plakken uit een spreadsheet
 
-Kies **Bibliotheek > Importeren > Importeren uit een spreadsheet** voor eenvoudige voor- en achterkanten. Kopieer twee kolommen zonder de koprij en plak ze op het importscherm. Gebruik **Tab** tussen voor- en achterkant en **Nieuwe regel** tussen kaarten. Pas de scheidingstekens aan als je tekst andere gebruikt.
+Meld je eerst aan bij Nibomo. Kies **Bibliotheek > Importeren > Importeren uit een spreadsheet** voor eenvoudige voor- en achterkanten. Kopieer twee kolommen zonder de koprij en plak ze op het importscherm. Gebruik **Tab** tussen voor- en achterkant en **Nieuwe regel** tussen kaarten. Pas de scheidingstekens aan als je tekst andere gebruikt.
 
 Controleer het voorbeeld, herstel onvolledige rijen en kies eventueel tags. Gebruik vervolgens de importknop om de kaarten op te slaan. Deze manier gebruikt geen AI-chat.
 
 ## Een Nibomo-ZIP importeren
 
-Kies **Bibliotheek > Importeren > Importeren uit Nibomo** voor een `flashcards.zip` die eerder uit Nibomo is geëxporteerd. Selecteer het ZIP-bestand zonder het uit te pakken. Controleer in het voorbeeld het aantal kaarten en mediabestanden en eventuele waarschuwingen. Bevestig daarna de import en bekijk de afzonderlijke kaarten en mediabestanden in de **Bibliotheek**. Zo kun je kaarten, tags en media uit het pakket overzetten. Deze manier gebruikt geen AI-chat.
+Meld je eerst aan bij Nibomo. Kies **Bibliotheek > Importeren > Importeren uit Nibomo** voor een `flashcards.zip` die eerder uit Nibomo is geëxporteerd. Selecteer het ZIP-bestand zonder het uit te pakken. Controleer in het voorbeeld het aantal kaarten en mediabestanden en eventuele waarschuwingen. Bevestig daarna de import en bekijk de afzonderlijke kaarten en mediabestanden in de **Bibliotheek**. Zo kun je kaarten, tags en media uit het pakket overzetten. Deze manier gebruikt geen AI-chat.

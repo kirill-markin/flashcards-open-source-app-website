@@ -45,10 +45,10 @@ Cards imported by AI start as new cards in Nibomo. Previous review history and d
 
 ## Paste from a spreadsheet
 
-Use **Library > Import > Import from a spreadsheet** for plain front and back pairs. Copy two columns from your spreadsheet, leaving out the header row, then paste them into the import screen. For spreadsheet cells, start with **Tab** between the front and back and **New line** between cards. Change the separators if your text uses something else.
+Sign in to Nibomo first. Use **Library > Import > Import from a spreadsheet** for plain front and back pairs. Copy two columns from your spreadsheet, leaving out the header row, then paste them into the import screen. For spreadsheet cells, start with **Tab** between the front and back and **New line** between cards. Change the separators if your text uses something else.
 
 Preview the cards, fix any incomplete rows, and choose any tags you want to apply. Then select **Import** to save the cards. This route doesn't use AI chat.
 
 ## Import a Nibomo ZIP
 
-Use **Library > Import > Import from Nibomo** for a `flashcards.zip` previously exported from Nibomo. Choose the ZIP without unpacking it. Check the card and media counts and any warnings in the preview, then confirm the import and inspect individual cards and media in **Library**. This route can carry the cards, tags, and media in the package. It doesn't use AI chat.
+Sign in to Nibomo first. Use **Library > Import > Import from Nibomo** for a `flashcards.zip` previously exported from Nibomo. Choose the ZIP without unpacking it. Check the card and media counts and any warnings in the preview, then confirm the import and inspect individual cards and media in **Library**. This route can carry the cards, tags, and media in the package. It doesn't use AI chat.

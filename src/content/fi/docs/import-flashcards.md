@@ -45,10 +45,10 @@ Tekoälyllä tuodut kortit ovat Nibomossa uusia kortteja. Aiempi kertaushistoria
 
 ## Liittäminen laskentataulukosta
 
-Kun tarvitset vain korttien etu- ja kääntöpuolet, valitse **Kirjasto > Tuonti > Tuo laskentataulukosta**. Kopioi taulukosta kaksi saraketta ilman otsikkoriviä ja liitä ne tuontinäkymään. Valitse taulukon soluista kopioidulle tekstille **Sarkain** kortin puolten väliin ja **Rivinvaihto** korttien väliin. Vaihda erottimia, jos tekstissä käytetään muita merkkejä.
+Kirjaudu ensin Nibomoon. Kun tarvitset vain korttien etu- ja kääntöpuolet, valitse **Kirjasto > Tuonti > Tuo laskentataulukosta**. Kopioi taulukosta kaksi saraketta ilman otsikkoriviä ja liitä ne tuontinäkymään. Valitse taulukon soluista kopioidulle tekstille **Sarkain** kortin puolten väliin ja **Rivinvaihto** korttien väliin. Vaihda erottimia, jos tekstissä käytetään muita merkkejä.
 
 Tarkista korttien esikatselu, korjaa puutteelliset rivit ja valitse haluamasi tunnisteet. Tallenna kortit valitsemalla **Tuo**. Tämä tuontitapa ei käytä tekoälykeskustelua.
 
 ## Nibomon ZIP-tiedoston tuonti
 
-Tuo aiemmin Nibomosta viety `flashcards.zip` kohdasta **Kirjasto > Tuonti > Tuo Nibomosta**. Valitse ZIP-tiedosto purkamatta sitä. Tarkista esikatselusta korttien ja mediatiedostojen määrä sekä mahdolliset varoitukset. Vahvista sitten tuonti ja tarkista yksittäiset kortit ja mediatiedostot **Kirjasto**-näkymässä. Näin voit siirtää paketin kortit, tunnisteet ja mediatiedostot. Tämä tuontitapa ei käytä tekoälykeskustelua.
+Kirjaudu ensin Nibomoon. Tuo aiemmin Nibomosta viety `flashcards.zip` kohdasta **Kirjasto > Tuonti > Tuo Nibomosta**. Valitse ZIP-tiedosto purkamatta sitä. Tarkista esikatselusta korttien ja mediatiedostojen määrä sekä mahdolliset varoitukset. Vahvista sitten tuonti ja tarkista yksittäiset kortit ja mediatiedostot **Kirjasto**-näkymässä. Näin voit siirtää paketin kortit, tunnisteet ja mediatiedostot. Tämä tuontitapa ei käytä tekoälykeskustelua.

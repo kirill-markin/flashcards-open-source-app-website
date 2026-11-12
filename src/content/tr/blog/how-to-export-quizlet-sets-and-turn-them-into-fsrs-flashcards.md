@@ -110,7 +110,7 @@ Web uygulamasında **Kitaplık > İçe aktar > Quizlet uygulamasından içe akta
 
 ### Kartları kaydetmeden önce önizleyin
 
-İki sütunlu metni **E-tablodan içe aktar** seçeneğine yapıştırarak kartları kaydetmeden önce önizleyebilirsiniz.
+Önce Nibomo hesabınızda oturum açın. İki sütunlu metni **E-tablodan içe aktar** seçeneğine yapıştırarak kartları kaydetmeden önce önizleyebilirsiniz.
 
 Yapay zekâdan önce bir örnek almak için doğrudan içe aktarmak yerine ayrı bir sohbet açın ve aşağıdaki adımları izleyin.
 

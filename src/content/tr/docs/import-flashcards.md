@@ -45,10 +45,10 @@ AI ile içe aktarılan kartlar Nibomo’da yeni kart olarak başlar. Önceki tek
 
 ## E-tablodan yapıştırma
 
-Basit ön ve arka yüz çiftleri için **Kitaplık > İçe aktar > E-tablodan içe aktar** yolunu izleyin. E-tablodaki iki sütunu başlık satırı olmadan kopyalayın ve içe aktarma ekranına yapıştırın. Hücreleri yapıştırırken ön ve arka yüzü ayırmak için **Sekme**, kartları ayırmak için **Yeni satır** seçin. Metninizde farklı ayırıcılar varsa bunları değiştirin.
+Önce Nibomo hesabınızda oturum açın. Basit ön ve arka yüz çiftleri için **Kitaplık > İçe aktar > E-tablodan içe aktar** yolunu izleyin. E-tablodaki iki sütunu başlık satırı olmadan kopyalayın ve içe aktarma ekranına yapıştırın. Hücreleri yapıştırırken ön ve arka yüzü ayırmak için **Sekme**, kartları ayırmak için **Yeni satır** seçin. Metninizde farklı ayırıcılar varsa bunları değiştirin.
 
 Kartları önizleyin, eksik satırları düzeltin ve eklemek istediğiniz etiketleri seçin. Ardından içe aktarma düğmesiyle kartları kaydedin. Bu yöntem AI sohbeti kullanmaz.
 
 ## Nibomo ZIP dosyasını içe aktarma
 
-Daha önce Nibomo’dan dışa aktardığınız bir `flashcards.zip` için **Kitaplık > İçe aktar > Nibomo’dan içe aktar** yolunu izleyin. ZIP dosyasını açmadan seçin. Önizlemede kart ve medya dosyası sayılarını ve varsa uyarıları kontrol edin. Ardından içe aktarmayı onaylayıp **Kitaplık**’ta kartları ve medya dosyalarını tek tek inceleyin. Bu yöntem paketteki kartları, etiketleri ve medyayı taşıyabilir. AI sohbeti kullanılmaz.
+Önce Nibomo hesabınızda oturum açın. Daha önce Nibomo’dan dışa aktardığınız bir `flashcards.zip` için **Kitaplık > İçe aktar > Nibomo’dan içe aktar** yolunu izleyin. ZIP dosyasını açmadan seçin. Önizlemede kart ve medya dosyası sayılarını ve varsa uyarıları kontrol edin. Ardından içe aktarmayı onaylayıp **Kitaplık**’ta kartları ve medya dosyalarını tek tek inceleyin. Bu yöntem paketteki kartları, etiketleri ve medyayı taşıyabilir. AI sohbeti kullanılmaz.

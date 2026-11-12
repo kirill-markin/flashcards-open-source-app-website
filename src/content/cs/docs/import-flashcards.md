@@ -45,10 +45,10 @@ Kartičky importované pomocí AI se do Nibomo přidají jako nové. Dřívějš
 
 ## Vložení kartiček z tabulky
 
-Pro jednoduché dvojice s přední a zadní stranou zvolte **Knihovna > Import > Importovat z tabulky**. Zkopírujte z tabulky dva sloupce bez záhlaví a vložte je na obrazovce importu. Mezi přední a zadní stranou nejprve zkuste nastavit **Tabulátor** a mezi kartičkami **Nový řádek**. Pokud text používá jiné oddělovače, změňte nastavení.
+Nejprve se přihlaste k účtu Nibomo. Pro jednoduché dvojice s přední a zadní stranou zvolte **Knihovna > Import > Importovat z tabulky**. Zkopírujte z tabulky dva sloupce bez záhlaví a vložte je na obrazovce importu. Mezi přední a zadní stranou nejprve zkuste nastavit **Tabulátor** a mezi kartičkami **Nový řádek**. Pokud text používá jiné oddělovače, změňte nastavení.
 
 Zkontrolujte náhled kartiček, opravte neúplné řádky a vyberte štítky, které chcete přidat. Pak kartičky uložte tlačítkem pro import. Tato možnost nepoužívá chat s AI.
 
 ## Import souboru ZIP z Nibomo
 
-Pokud máte soubor `flashcards.zip`, který jste dříve vyexportovali z Nibomo, zvolte **Knihovna > Import > Importovat z Nibomo**. Vyberte soubor ZIP bez rozbalování. V náhledu zkontrolujte počet kartiček a mediálních souborů a případná upozornění. Pak potvrďte import a jednotlivé kartičky a média zkontrolujte v části **Knihovna**. Takto můžete přenést kartičky, štítky a média uložená v balíčku. Chat s AI k tomu nepotřebujete.
+Nejprve se přihlaste k účtu Nibomo. Pokud máte soubor `flashcards.zip`, který jste dříve vyexportovali z Nibomo, zvolte **Knihovna > Import > Importovat z Nibomo**. Vyberte soubor ZIP bez rozbalování. V náhledu zkontrolujte počet kartiček a mediálních souborů a případná upozornění. Pak potvrďte import a jednotlivé kartičky a média zkontrolujte v části **Knihovna**. Takto můžete přenést kartičky, štítky a média uložená v balíčku. Chat s AI k tomu nepotřebujete.

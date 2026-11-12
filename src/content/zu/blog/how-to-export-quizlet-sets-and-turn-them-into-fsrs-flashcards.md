@@ -110,7 +110,7 @@ Ohlelweni lwewebhu, khetha **Umtapo wolwazi > Ngenisa > Ngenisa kusuka ku-Quizle
 
 ### Buka amakhadi kuqala ngaphambi kokuwagcina
 
-Ukuze ubuke amakhadi ngaphambi kokuwagcina, namathisela umbhalo onamakholomu amabili kokuthi **Ngenisa kusuka kuspredishithi**.
+Qala ngokungena ngemvume ku-akhawunti yakho ye-Nibomo. Ukuze ubuke amakhadi ngaphambi kokuwagcina, namathisela umbhalo onamakholomu amabili kokuthi **Ngenisa kusuka kuspredishithi**.
 
 Uma ufuna i-AI ikubonise isampula kuqala, vula ingxoxo entsha bese ulandela izinyathelo ezingezansi esikhundleni sokungenisa ngokuqondile.
 

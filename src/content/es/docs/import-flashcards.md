@@ -45,10 +45,10 @@ Las tarjetas que importas con IA se añaden como tarjetas nuevas en Nibomo. El h
 
 ## Pegar desde una hoja de cálculo
 
-Para tarjetas sencillas con frente y reverso, abre **Biblioteca > Importar > Importar desde una hoja de cálculo**. Copia dos columnas de tu hoja sin incluir la fila de encabezados y pégalas en la pantalla de importación. Si has copiado celdas de una hoja de cálculo, elige **Tabulación** entre el frente y el reverso y **Salto de línea** entre tarjetas. Cambia los separadores si tu texto usa otros.
+Inicia sesión primero en Nibomo. Para tarjetas sencillas con frente y reverso, abre **Biblioteca > Importar > Importar desde una hoja de cálculo**. Copia dos columnas de tu hoja sin incluir la fila de encabezados y pégalas en la pantalla de importación. Si has copiado celdas de una hoja de cálculo, elige **Tabulación** entre el frente y el reverso y **Salto de línea** entre tarjetas. Cambia los separadores si tu texto usa otros.
 
 Revisa la vista previa de las tarjetas, corrige las filas incompletas y elige las etiquetas que quieras añadir. Después selecciona **Importar** para guardar las tarjetas. Este método no usa el chat con IA.
 
 ## Importar un ZIP de Nibomo
 
-Para un `flashcards.zip` que hayas exportado desde Nibomo, abre **Biblioteca > Importar > Importar desde Nibomo**. Selecciona el ZIP sin descomprimirlo. En la vista previa, revisa cuántas tarjetas y archivos multimedia hay y si aparece algún aviso. Luego confirma la importación y abre **Biblioteca** para revisar las tarjetas y los archivos multimedia en detalle. Este método puede conservar las tarjetas, las etiquetas y los archivos multimedia del paquete. No usa el chat con IA.
+Inicia sesión primero en Nibomo. Para un `flashcards.zip` que hayas exportado desde Nibomo, abre **Biblioteca > Importar > Importar desde Nibomo**. Selecciona el ZIP sin descomprimirlo. En la vista previa, revisa cuántas tarjetas y archivos multimedia hay y si aparece algún aviso. Luego confirma la importación y abre **Biblioteca** para revisar las tarjetas y los archivos multimedia en detalle. Este método puede conservar las tarjetas, las etiquetas y los archivos multimedia del paquete. No usa el chat con IA.

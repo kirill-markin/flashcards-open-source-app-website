@@ -108,7 +108,9 @@ O aplicație de calcul tabelar poate adăuga ghilimelele cerute de CSV. Înlocui
 
 În aplicația web Nibomo, alege **Bibliotecă > Import > Importă din Quizlet**. Lipește textul exportat din Quizlet și alege **Pornește importul**. Chatul AI poate salva fișele pe parcurs. Compară fața și versoul fișelor salvate cu exportul. Începe cu un set mic dacă ai separatori neobișnuiți sau definiții pe mai multe rânduri.
 
-Dacă textul e deja aranjat în două coloane, lipește-l la **Importă dintr-o foaie de calcul**, alege separatorii și verifică previzualizarea înainte de salvare. Poți și să atașezi un fișier TXT sau CSV direct în chatul AI și să ceri un eșantion înainte de a salva fișele.
+Conectează-te mai întâi la contul tău Nibomo. Dacă textul e deja aranjat în două coloane, lipește-l la **Importă dintr-o foaie de calcul**, alege separatorii și verifică previzualizarea înainte de salvare.
+
+Poți și să atașezi un fișier TXT sau CSV direct în chatul AI și să ceri un eșantion înainte de a salva fișele.
 
 [Ghidul de import](/docs/import-flashcards/) explică opțiunile. Exemplul de mai jos este pentru un fișier TXT cu câmpuri separate prin tabulator, atașat în chatul AI. Dacă fișierul folosește virgule sau alt separator, precizează în cerere separatorul folosit.
 

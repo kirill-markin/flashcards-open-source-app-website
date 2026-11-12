@@ -45,10 +45,10 @@ L’AI importa le carte come nuove carte in Nibomo. La cronologia dei ripassi e 
 
 ## Incolla da un foglio di calcolo
 
-Usa **Libreria > Importa > Importa da un foglio di calcolo** per le carte con un semplice fronte e retro. Copia due colonne del foglio, senza la riga delle intestazioni, e incollale nella schermata di importazione. Per le celle di un foglio, prova con **Tabulazione** tra fronte e retro e **A capo** tra le carte. Cambia i separatori se il testo è strutturato diversamente.
+Accedi prima a Nibomo. Usa **Libreria > Importa > Importa da un foglio di calcolo** per le carte con un semplice fronte e retro. Copia due colonne del foglio, senza la riga delle intestazioni, e incollale nella schermata di importazione. Per le celle di un foglio, prova con **Tabulazione** tra fronte e retro e **A capo** tra le carte. Cambia i separatori se il testo è strutturato diversamente.
 
 Controlla le carte in anteprima, correggi le righe incomplete e scegli i tag da applicare. Quindi seleziona il pulsante di importazione con il numero di carte per salvare le carte. Questa procedura funziona senza la chat AI.
 
 ## Importa uno ZIP di Nibomo
 
-Usa **Libreria > Importa > Importa da Nibomo** per un file `flashcards.zip` già esportato da Nibomo. Seleziona il file ZIP senza estrarlo. Nell’anteprima controlla il numero di carte e file multimediali e gli eventuali avvisi, poi conferma l’importazione e controlla le singole carte e i media in **Libreria**. Questa procedura può trasferire le carte, i tag e i media contenuti nel pacchetto e funziona senza la chat AI.
+Accedi prima a Nibomo. Usa **Libreria > Importa > Importa da Nibomo** per un file `flashcards.zip` già esportato da Nibomo. Seleziona il file ZIP senza estrarlo. Nell’anteprima controlla il numero di carte e file multimediali e gli eventuali avvisi, poi conferma l’importazione e controlla le singole carte e i media in **Libreria**. Questa procedura può trasferire le carte, i tag e i media contenuti nel pacchetto e funziona senza la chat AI.

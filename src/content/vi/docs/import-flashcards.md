@@ -45,10 +45,10 @@ Thẻ nhập qua AI được thêm dưới dạng thẻ mới trong Nibomo. Lị
 
 ## Dán từ bảng tính
 
-Với các cặp nội dung mặt trước và mặt sau dạng văn bản, hãy vào **Thư viện > Nhập > Nhập từ bảng tính**. Sao chép hai cột, bỏ hàng tiêu đề, rồi dán vào màn hình nhập. Với các ô trong bảng tính, hãy chọn **Tab** để ngăn cách hai mặt và **Dòng mới** để tách các thẻ. Hãy đổi dấu phân tách nếu văn bản của bạn dùng dấu khác.
+Hãy đăng nhập vào Nibomo trước. Với các cặp nội dung mặt trước và mặt sau dạng văn bản, hãy vào **Thư viện > Nhập > Nhập từ bảng tính**. Sao chép hai cột, bỏ hàng tiêu đề, rồi dán vào màn hình nhập. Với các ô trong bảng tính, hãy chọn **Tab** để ngăn cách hai mặt và **Dòng mới** để tách các thẻ. Hãy đổi dấu phân tách nếu văn bản của bạn dùng dấu khác.
 
 Xem trước các thẻ, sửa những hàng chưa đầy đủ và chọn nhãn muốn áp dụng. Sau đó bấm nút nhập để lưu thẻ. Cách này không dùng cuộc trò chuyện AI.
 
 ## Nhập tệp ZIP của Nibomo
 
-Với tệp `flashcards.zip` đã xuất từ Nibomo, hãy vào **Thư viện > Nhập > Nhập từ Nibomo**. Chọn tệp ZIP mà không giải nén. Trong bản xem trước, hãy kiểm tra số lượng thẻ và tệp đa phương tiện cùng các cảnh báo nếu có, rồi xác nhận nhập và xem từng thẻ, từng tệp trong **Thư viện**. Cách này có thể chuyển thẻ, nhãn và tệp đa phương tiện trong gói mà không cần dùng cuộc trò chuyện AI.
+Hãy đăng nhập vào Nibomo trước. Với tệp `flashcards.zip` đã xuất từ Nibomo, hãy vào **Thư viện > Nhập > Nhập từ Nibomo**. Chọn tệp ZIP mà không giải nén. Trong bản xem trước, hãy kiểm tra số lượng thẻ và tệp đa phương tiện cùng các cảnh báo nếu có, rồi xác nhận nhập và xem từng thẻ, từng tệp trong **Thư viện**. Cách này có thể chuyển thẻ, nhãn và tệp đa phương tiện trong gói mà không cần dùng cuộc trò chuyện AI.

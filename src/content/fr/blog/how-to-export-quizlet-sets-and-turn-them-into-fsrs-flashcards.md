@@ -106,7 +106,9 @@ Un tableur sait ajouter les guillemets dont le CSV a besoin. Un remplacement glo
 
 ## Importer le texte de Quizlet dans Nibomo
 
-Dans l’application web Nibomo, ouvrez **Bibliothèque → Importer → Importer depuis Quizlet** et collez le texte exporté. **Lancer l’importation** transmet le texte au chat IA, qui peut enregistrer directement les cartes. Comparez les cartes enregistrées avec le texte d’origine. Pour prévisualiser des paires simples avant de les enregistrer, utilisez **Importer depuis une feuille de calcul**. Consultez le [guide d’importation](/docs/import-flashcards/).
+Dans l’application web Nibomo, ouvrez **Bibliothèque → Importer → Importer depuis Quizlet** et collez le texte exporté. **Lancer l’importation** transmet le texte au chat IA, qui peut enregistrer directement les cartes. Comparez les cartes enregistrées avec le texte d’origine.
+
+Connectez-vous d’abord à Nibomo. Pour prévisualiser des paires simples avant de les enregistrer, utilisez **Importer depuis une feuille de calcul**. Consultez le [guide d’importation](/docs/import-flashcards/).
 
 Si vous préférez demander un brouillon au chat IA avant tout enregistrement, procédez ainsi :
 

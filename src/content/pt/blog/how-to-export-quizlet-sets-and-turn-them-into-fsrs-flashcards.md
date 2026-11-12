@@ -108,7 +108,9 @@ Uma planilha consegue adicionar as aspas que o CSV exige. Uma substituição ger
 
 No app web do Nibomo, escolha **Biblioteca > Importar > Importar de Quizlet**. Cole o texto exportado do Quizlet e selecione **Iniciar importação**. O chat de IA pode salvar os cartões durante a importação. Compare a frente e o verso dos cartões salvos com o texto original. Comece com um conjunto pequeno se houver separadores incomuns ou definições com várias linhas.
 
-Se o texto já estiver organizado em duas colunas, cole-o em **Importar de uma planilha**, ajuste os separadores e confira a prévia antes de salvar. Você também pode anexar um TXT ou CSV diretamente ao chat de IA e pedir uma amostra antes que ele salve qualquer cartão.
+Entre primeiro na sua conta do Nibomo. Se o texto já estiver organizado em duas colunas, cole-o em **Importar de uma planilha**, ajuste os separadores e confira a prévia antes de salvar.
+
+Você também pode anexar um TXT ou CSV diretamente ao chat de IA e pedir uma amostra antes que ele salve qualquer cartão.
 
 O [guia de importação](/docs/import-flashcards/) explica as opções. Este exemplo serve para um TXT separado por tabulação e anexado ao chat de IA. Se o arquivo usar vírgulas ou outro separador, indique no pedido o separador usado.
 

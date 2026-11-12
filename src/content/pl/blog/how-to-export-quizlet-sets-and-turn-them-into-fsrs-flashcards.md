@@ -108,7 +108,9 @@ Arkusz kalkulacyjny może dodać cudzysłowy wymagane przez CSV. Samo zastąpien
 
 W aplikacji webowej Nibomo wybierz **Biblioteka > Import > Importuj z aplikacji Quizlet**. Wklej tekst skopiowany z eksportu Quizlet i kliknij **Rozpocznij import**. Czat AI może od razu zapisywać fiszki. Porównaj obie strony zapisanych fiszek z eksportem. Zacznij od małego zestawu, jeśli zawiera nietypowe separatory lub wielowierszowe definicje.
 
-Jeśli masz uporządkowany tekst w dwóch kolumnach, wklej go w sekcji **Importuj z arkusza kalkulacyjnego**, dopasuj separatory i sprawdź podgląd przed zapisaniem. Możesz też załączyć plik TXT lub CSV bezpośrednio w czacie AI i poprosić o próbkę przed zapisem.
+Najpierw zaloguj się na konto Nibomo. Jeśli masz uporządkowany tekst w dwóch kolumnach, wklej go w sekcji **Importuj z arkusza kalkulacyjnego**, dopasuj separatory i sprawdź podgląd przed zapisaniem.
+
+Możesz też załączyć plik TXT lub CSV bezpośrednio w czacie AI i poprosić o próbkę przed zapisem.
 
 W [instrukcji importowania](/docs/import-flashcards/) znajdziesz wszystkie dostępne metody. To przykładowe polecenie dotyczy pliku TXT z tabulatorami, załączonego w czacie AI. Jeśli plik używa przecinków lub innego separatora, podaj w poleceniu właściwy separator.
 

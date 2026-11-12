@@ -45,10 +45,10 @@ Kadi zilizoingizwa kwa AI huanza kama kadi mpya katika Nibomo. Historia ya marud
 
 ## Kubandika kutoka lahajedwali
 
-Tumia **Maktaba > Ingiza > Leta kutoka lahajedwali** kwa kadi rahisi zenye upande wa mbele na wa nyuma. Nakili safu wima mbili bila safu mlalo ya vichwa, kisha uzibandike kwenye skrini ya kuingiza. Kwa seli za lahajedwali, anza na **Tabo** kati ya upande wa mbele na wa nyuma na **Mstari mpya** kati ya kadi. Badilisha vitenganishi kama maandishi yako yanatumia vingine.
+Ingia kwanza kwenye akaunti yako ya Nibomo. Tumia **Maktaba > Ingiza > Leta kutoka lahajedwali** kwa kadi rahisi zenye upande wa mbele na wa nyuma. Nakili safu wima mbili bila safu mlalo ya vichwa, kisha uzibandike kwenye skrini ya kuingiza. Kwa seli za lahajedwali, anza na **Tabo** kati ya upande wa mbele na wa nyuma na **Mstari mpya** kati ya kadi. Badilisha vitenganishi kama maandishi yako yanatumia vingine.
 
 Kagua onyesho la awali la kadi, rekebisha safu mlalo zisizokamilika na uchague lebo unazotaka kutumia. Kisha chagua kitufe cha **Ingiza** chenye idadi ya kadi ili kuzihifadhi. Njia hii haitumii gumzo la AI.
 
 ## Kuingiza faili la ZIP la Nibomo
 
-Tumia **Maktaba > Ingiza > Leta kutoka Nibomo** kwa faili la `flashcards.zip` ulilotoa kutoka Nibomo. Chagua faili la ZIP bila kulifungua. Kwenye onyesho la awali, angalia idadi ya kadi na faili za maudhui, pamoja na maonyo yoyote. Kisha thibitisha uingizaji na ukague kadi na faili za maudhui moja moja kwenye **Maktaba**. Njia hii inaweza kuhamisha kadi, lebo na maudhui yaliyomo kwenye kifurushi. Haitumii gumzo la AI.
+Ingia kwanza kwenye akaunti yako ya Nibomo. Tumia **Maktaba > Ingiza > Leta kutoka Nibomo** kwa faili la `flashcards.zip` ulilotoa kutoka Nibomo. Chagua faili la ZIP bila kulifungua. Kwenye onyesho la awali, angalia idadi ya kadi na faili za maudhui, pamoja na maonyo yoyote. Kisha thibitisha uingizaji na ukague kadi na faili za maudhui moja moja kwenye **Maktaba**. Njia hii inaweza kuhamisha kadi, lebo na maudhui yaliyomo kwenye kifurushi. Haitumii gumzo la AI.

@@ -108,7 +108,9 @@ A spreadsheet can add the quoting CSV needs. A global tab-to-comma replacement c
 
 In the [Nibomo web app](https://app.nibomo.com), select **Library → Import → Import from Quizlet**. Paste the text copied from an eligible Quizlet export and select **Start import**. That sends the text to AI chat to create cards in your workspace. Compare the saved fronts and backs with the raw export. Start with a small batch if your set has unusual separators or multiline definitions.
 
-For an editable preview before saving, choose **Import from a spreadsheet** and paste clean two-column text. Set the separators to match your copy, check the pairs, and confirm the import. If your app version lacks the Quizlet row, you can attach the cleaned TXT or CSV in AI chat and ask for a preview before it saves anything.
+For an editable preview before saving, sign in to Nibomo and choose **Import from a spreadsheet** and paste clean two-column text. Set the separators to match your copy, check the pairs, and confirm the import.
+
+If your app version lacks the Quizlet row, you can attach the cleaned TXT or CSV in AI chat and ask for a preview before it saves anything.
 
 The [import guide](/docs/import-flashcards/) explains the available routes. If you attach a file directly in AI chat, a cautious prompt could be:
 

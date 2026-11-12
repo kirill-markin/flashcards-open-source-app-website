@@ -45,10 +45,10 @@ Les targetes importades amb IA s’afegeixen com a targetes noves a Nibomo. L’
 
 ## Enganxa targetes des d’un full de càlcul
 
-Si només tens parells d’anvers i revers, fes servir **Biblioteca > Importa > Importa des d’un full de càlcul**. Copia dues columnes del full sense incloure la fila de capçalera i enganxa-les a la pantalla d’importació. Per a les cel·les d’un full de càlcul, comença amb **Tabulació** entre l’anvers i el revers i **Salt de línia** entre targetes. Si el text fa servir altres separadors, canvia’ls.
+Inicia primer la sessió al teu compte de Nibomo. Si només tens parells d’anvers i revers, fes servir **Biblioteca > Importa > Importa des d’un full de càlcul**. Copia dues columnes del full sense incloure la fila de capçalera i enganxa-les a la pantalla d’importació. Per a les cel·les d’un full de càlcul, comença amb **Tabulació** entre l’anvers i el revers i **Salt de línia** entre targetes. Si el text fa servir altres separadors, canvia’ls.
 
 Comprova la vista prèvia de les targetes, corregeix les files incompletes i tria les etiquetes que hi vulguis aplicar. Després, selecciona el botó d’importació per desar les targetes. Aquest mètode no fa servir el xat amb IA.
 
 ## Importa un ZIP de Nibomo
 
-Ves a **Biblioteca > Importa > Importa des de Nibomo** per importar un fitxer `flashcards.zip` que hagis exportat abans des de Nibomo. Tria el fitxer ZIP sense descomprimir-lo. A la vista prèvia, comprova el nombre de targetes i de fitxers multimèdia i si hi ha cap avís. Després, confirma la importació i revisa les targetes i els fitxers multimèdia a la **Biblioteca**. Així pots traslladar les targetes, les etiquetes i els fitxers multimèdia inclosos en el paquet, sense fer servir el xat amb IA.
+Inicia primer la sessió al teu compte de Nibomo. Ves a **Biblioteca > Importa > Importa des de Nibomo** per importar un fitxer `flashcards.zip` que hagis exportat abans des de Nibomo. Tria el fitxer ZIP sense descomprimir-lo. A la vista prèvia, comprova el nombre de targetes i de fitxers multimèdia i si hi ha cap avís. Després, confirma la importació i revisa les targetes i els fitxers multimèdia a la **Biblioteca**. Així pots traslladar les targetes, les etiquetes i els fitxers multimèdia inclosos en el paquet, sense fer servir el xat amb IA.

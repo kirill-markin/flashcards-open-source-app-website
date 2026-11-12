@@ -45,10 +45,10 @@ Naudojant DI importuotos kortelės „Nibomo“ laikomos naujomis. Ankstesnių k
 
 ## Įklijuokite iš skaičiuoklės
 
-Jei kortelėms reikia tik priekinės ir galinės pusės, rinkitės **Biblioteka > Importuoti > Importuoti iš skaičiuoklės**. Nukopijuokite du skaičiuoklės stulpelius be antraščių eilutės ir įklijuokite juos importavimo lange. Jei kopijuojate skaičiuoklės langelius, tarp kortelės pusių pasirinkite **Tabuliacija**, o tarp kortelių – **Nauja eilutė**. Jei jūsų tekste naudojami kiti skyrikliai, pakeiskite nustatymus.
+Pirmiausia prisijunkite prie savo „Nibomo“ paskyros. Jei kortelėms reikia tik priekinės ir galinės pusės, rinkitės **Biblioteka > Importuoti > Importuoti iš skaičiuoklės**. Nukopijuokite du skaičiuoklės stulpelius be antraščių eilutės ir įklijuokite juos importavimo lange. Jei kopijuojate skaičiuoklės langelius, tarp kortelės pusių pasirinkite **Tabuliacija**, o tarp kortelių – **Nauja eilutė**. Jei jūsų tekste naudojami kiti skyrikliai, pakeiskite nustatymus.
 
 Peržiūrėkite korteles, pataisykite neišsamias eilutes ir pasirinkite norimas žymas. Tada spustelėkite importavimo mygtuką, kad išsaugotumėte korteles. Šis būdas veikia be DI pokalbio.
 
 ## Importuokite „Nibomo“ ZIP paketą
 
-Jei turite anksčiau iš „Nibomo“ eksportuotą `flashcards.zip`, rinkitės **Biblioteka > Importuoti > Importuoti iš „Nibomo“**. Pasirinkite neišskleistą ZIP failą. Peržiūroje patikrinkite kortelių ir medijos failų skaičių bei visus rodomus įspėjimus. Tada patvirtinkite importavimą ir atskiras korteles bei medijos failus peržiūrėkite skiltyje **Biblioteka**. Šiuo būdu galite perkelti pakete esančias korteles, žymas ir mediją. DI pokalbis nenaudojamas.
+Pirmiausia prisijunkite prie savo „Nibomo“ paskyros. Jei turite anksčiau iš „Nibomo“ eksportuotą `flashcards.zip`, rinkitės **Biblioteka > Importuoti > Importuoti iš „Nibomo“**. Pasirinkite neišskleistą ZIP failą. Peržiūroje patikrinkite kortelių ir medijos failų skaičių bei visus rodomus įspėjimus. Tada patvirtinkite importavimą ir atskiras korteles bei medijos failus peržiūrėkite skiltyje **Biblioteka**. Šiuo būdu galite perkelti pakete esančias korteles, žymas ir mediją. DI pokalbis nenaudojamas.

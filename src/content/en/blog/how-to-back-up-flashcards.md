@@ -125,7 +125,7 @@ A plain-text copy is ugly in the right way:
 
 This matters even more now because a lot of decks are built from notes, transcripts, OCR, PDFs, and AI-assisted cleanup. Once the useful part is stored as readable text, your future options get much better.
 
-To reuse a clean two-column export in the Nibomo web app, choose **Library → Import → Import from a spreadsheet** to paste and preview card pairs. The separate **Import from Nibomo** option takes a `flashcards.zip` workspace package. On hosted Nibomo, that ZIP transfers cards, tags, and related media. It omits study history and workspace settings. See the [import guide](/docs/import-flashcards/).
+To import from a spreadsheet or a Nibomo ZIP, sign in to Nibomo first. To reuse a clean two-column export in the Nibomo web app, choose **Library → Import → Import from a spreadsheet** to paste and preview card pairs. The separate **Import from Nibomo** option takes a `flashcards.zip` workspace package. On hosted Nibomo, that ZIP transfers cards, tags, and related media. It omits study history and workspace settings. See the [import guide](/docs/import-flashcards/).
 
 If you run your own Nibomo instance, follow the [self-hosting guidance for backing up PostgreSQL and media storage](/docs/self-hosting/#data-portability) for disaster recovery.
 

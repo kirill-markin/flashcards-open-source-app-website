@@ -110,7 +110,7 @@ Trong ứng dụng web, vào **Thư viện > Nhập > Nhập từ Quizlet**. Dá
 
 ### Xem trước thẻ rồi mới lưu
 
-Bạn có thể dán nội dung hai cột vào **Nhập từ bảng tính** để xem trước thẻ rồi mới lưu.
+Hãy đăng nhập vào Nibomo trước. Bạn có thể dán nội dung hai cột vào **Nhập từ bảng tính** để xem trước thẻ rồi mới lưu.
 
 Nếu muốn AI cho xem một mẫu trước, hãy mở một cuộc trò chuyện riêng và làm theo các bước dưới đây thay vì nhập trực tiếp.
 

@@ -106,7 +106,9 @@ Una hoja de cálculo puede añadir las comillas que necesita el CSV. Una sustitu
 
 ## Importa el texto de Quizlet en Nibomo
 
-En la app web de Nibomo, abre **Biblioteca → Importar → Importar desde Quizlet** y pega el texto exportado. **Iniciar importación** envía el texto al chat con IA, que puede guardar las tarjetas directamente. Compáralas con el texto original. Para ver una vista previa de los pares antes de guardar, usa **Importar desde una hoja de cálculo**. Consulta la [guía de importación](/docs/import-flashcards/).
+En la app web de Nibomo, abre **Biblioteca → Importar → Importar desde Quizlet** y pega el texto exportado. **Iniciar importación** envía el texto al chat con IA, que puede guardar las tarjetas directamente. Compáralas con el texto original.
+
+Inicia sesión primero en Nibomo. Para ver una vista previa de los pares antes de guardar, usa **Importar desde una hoja de cálculo**. Consulta la [guía de importación](/docs/import-flashcards/).
 
 Si prefieres pedirle a la IA un borrador antes de guardar nada, sigue estos pasos:
 

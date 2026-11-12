@@ -45,10 +45,10 @@ Fișele importate cu AI încep ca fișe noi în Nibomo. Istoricul recapitulăril
 
 ## Lipește din foaia de calcul
 
-Folosește **Bibliotecă > Import > Importă dintr-o foaie de calcul** pentru fișe simple cu față și verso. Copiază două coloane din foaia de calcul fără antet și lipește-le pe ecranul de import. Alege **Tab** între față și verso și **Linie nouă** între fișe. Schimbă separatorii dacă textul tău folosește alții.
+Conectează-te mai întâi la contul tău Nibomo. Folosește **Bibliotecă > Import > Importă dintr-o foaie de calcul** pentru fișe simple cu față și verso. Copiază două coloane din foaia de calcul fără antet și lipește-le pe ecranul de import. Alege **Tab** între față și verso și **Linie nouă** între fișe. Schimbă separatorii dacă textul tău folosește alții.
 
 Verifică previzualizarea, corectează rândurile incomplete și alege etichetele pe care vrei să le aplici. Apoi folosește butonul de import pentru a salva fișele. Această metodă funcționează fără chat AI.
 
 ## Importă un ZIP din Nibomo
 
-Pentru un fișier `flashcards.zip` exportat anterior din Nibomo, mergi la **Bibliotecă > Import > Importă din Nibomo**. Alege fișierul ZIP fără să-l dezarhivezi. În previzualizare, verifică numărul de fișe și de fișiere media, precum și eventualele avertismente. Apoi confirmă importul și verifică individual fișele și fișierele media în **Bibliotecă**. Poți transfera fișele, etichetele și fișierele media din pachet. Această metodă funcționează fără chat AI.
+Conectează-te mai întâi la contul tău Nibomo. Pentru un fișier `flashcards.zip` exportat anterior din Nibomo, mergi la **Bibliotecă > Import > Importă din Nibomo**. Alege fișierul ZIP fără să-l dezarhivezi. În previzualizare, verifică numărul de fișe și de fișiere media, precum și eventualele avertismente. Apoi confirmă importul și verifică individual fișele și fișierele media în **Bibliotecă**. Poți transfera fișele, etichetele și fișierele media din pachet. Această metodă funcționează fără chat AI.

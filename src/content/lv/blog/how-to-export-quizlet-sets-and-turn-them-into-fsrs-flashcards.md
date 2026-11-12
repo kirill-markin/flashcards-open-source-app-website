@@ -108,7 +108,9 @@ Izklājlapu programma var pievienot CSV nepieciešamās pēdiņas. Vienkārša v
 
 Nokopē tāda Quizlet komplekta tekstu, kuru drīksti eksportēt. Nibomo tīmekļa lietotnē atver **Bibliotēka > Importēt > Importēt no Quizlet**, ielīmē tekstu un izvēlies **Sākt importēšanu**. Pieprasījums nonāk MI sarunā, kurā tiek saglabātas kartītes. Saglabā eksporta oriģinālu. Salīdzini importēto kartīšu skaitu un abas kartīšu puses ar sākotnējo komplektu.
 
-Sakārtotu divu kolonnu tekstu vari ielīmēt sadaļā **Importēt no izklājlapas** un pārskatīt pirms saglabāšanas. Ja vispirms vēlies redzēt MI sagatavotu piemēru, jaunai MI sarunai pievieno sakārtotu TXT vai CSV failu.
+Vispirms pieraksties savā Nibomo kontā. Sakārtotu divu kolonnu tekstu vari ielīmēt sadaļā **Importēt no izklājlapas** un pārskatīt pirms saglabāšanas.
+
+Ja vispirms vēlies redzēt MI sagatavotu piemēru, jaunai MI sarunai pievieno sakārtotu TXT vai CSV failu.
 
 [Darba sākšanas ceļvedī](/docs/getting-started/) ir aprakstīta MI tērzēšana ar darbvietas datiem un failu pielikumiem. Piesardzīga uzvedne varētu būt šāda:
 

@@ -108,7 +108,9 @@ Een spreadsheetprogramma kan de aanhalingstekens toevoegen die CSV nodig heeft. 
 
 Kies in de web-app van Nibomo **Bibliotheek > Importeren > Importeren uit Quizlet**. Plak de tekst uit de Quizlet-export en kies **Import starten**. De AI-chat kan de kaarten direct opslaan. Vergelijk de voor- en achterkanten met de export. Begin met een kleine set als je afwijkende scheidingstekens of definities van meerdere regels gebruikt.
 
-Heb je nette tekst in twee kolommen, plak die dan onder **Importeren uit een spreadsheet**, stel de scheidingstekens in en controleer het voorbeeld vóór je opslaat. Je kunt ook een TXT- of CSV-bestand rechtstreeks aan de AI-chat toevoegen en om een voorbeeld vragen voordat de chat iets opslaat.
+Meld je eerst aan bij Nibomo. Heb je nette tekst in twee kolommen, plak die dan onder **Importeren uit een spreadsheet**, stel de scheidingstekens in en controleer het voorbeeld vóór je opslaat.
+
+Je kunt ook een TXT- of CSV-bestand rechtstreeks aan de AI-chat toevoegen en om een voorbeeld vragen voordat de chat iets opslaat.
 
 In de [importhandleiding](/docs/import-flashcards/) staan de verschillende opties. Deze voorbeeldopdracht is voor een TXT-bestand met tabs dat je aan de AI-chat toevoegt. Gebruikt je bestand komma’s of een ander scheidingsteken, pas dan het scheidingsteken in de opdracht aan.
 

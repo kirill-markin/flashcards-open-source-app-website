@@ -45,10 +45,10 @@ Der KI-Import legt die Karten in Nibomo als neue Karten an. Der bisherige Wieder
 
 ## Karten aus einer Tabelle einfügen
 
-Für einfache Karten mit je einer Vorder- und Rückseite wählst du **Bibliothek > Import > Aus einer Tabelle importieren**. Kopiere zwei Spalten ohne Kopfzeile und füge sie auf der Importseite ein. Für Tabellenzellen eignet sich **Tabulator** als Trennzeichen zwischen Vorder- und Rückseite und **Neue Zeile** als Trennzeichen zwischen den Karten. Wenn dein Text andere Trennzeichen verwendet, passe die Auswahl an.
+Melde dich zuerst bei Nibomo an. Für einfache Karten mit je einer Vorder- und Rückseite wählst du **Bibliothek > Import > Aus einer Tabelle importieren**. Kopiere zwei Spalten ohne Kopfzeile und füge sie auf der Importseite ein. Für Tabellenzellen eignet sich **Tabulator** als Trennzeichen zwischen Vorder- und Rückseite und **Neue Zeile** als Trennzeichen zwischen den Karten. Wenn dein Text andere Trennzeichen verwendet, passe die Auswahl an.
 
 Prüfe die Vorschau, korrigiere unvollständige Zeilen und wähle bei Bedarf Tags aus. Speichere die Karten über die Schaltfläche zum Importieren. Dieser Weg verwendet keinen KI-Chat.
 
 ## Eine ZIP-Datei aus Nibomo importieren
 
-Wähle **Bibliothek > Import > Aus Nibomo importieren**, um eine zuvor aus Nibomo exportierte Datei namens `flashcards.zip` zu importieren. Wähle die ZIP-Datei aus, ohne sie zu entpacken. Prüfe in der Vorschau die Anzahl der Karten und Mediendateien sowie etwaige Warnhinweise. Bestätige dann den Import und sieh dir einzelne Karten und Mediendateien in der **Bibliothek** an. So kannst du Karten, Tags und Medien aus dem Paket übernehmen. Dieser Weg verwendet keinen KI-Chat.
+Melde dich zuerst bei Nibomo an. Wähle **Bibliothek > Import > Aus Nibomo importieren**, um eine zuvor aus Nibomo exportierte Datei namens `flashcards.zip` zu importieren. Wähle die ZIP-Datei aus, ohne sie zu entpacken. Prüfe in der Vorschau die Anzahl der Karten und Mediendateien sowie etwaige Warnhinweise. Bestätige dann den Import und sieh dir einzelne Karten und Mediendateien in der **Bibliothek** an. So kannst du Karten, Tags und Medien aus dem Paket übernehmen. Dieser Weg verwendet keinen KI-Chat.

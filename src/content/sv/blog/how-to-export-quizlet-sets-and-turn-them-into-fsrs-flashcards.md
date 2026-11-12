@@ -108,7 +108,7 @@ Ett kalkylprogram kan lägga till de citattecken som CSV kräver. Att ersätta a
 
 I Nibomos webbapp väljer du **Bibliotek > Importera > Importera från Quizlet**. Klistra in texten du kopierade från ett set som du själv har skapat och kan exportera. Välj **Starta import** så skapar AI-chatten kort i din arbetsyta. Jämför de sparade fram- och baksidorna med originalet. Börja med några få kort om setet har ovanliga avgränsare eller definitioner med flera rader.
 
-Vill du förhandsgranska korten innan de sparas? Välj **Importera från ett kalkylblad** och klistra in rensad text i två kolumner. Ställ in avgränsarna, kontrollera paren och bekräfta importen. Korten får ett nytt repetitionsschema.
+Logga först in på Nibomo. Vill du förhandsgranska korten innan de sparas? Välj **Importera från ett kalkylblad** och klistra in rensad text i två kolumner. Ställ in avgränsarna, kontrollera paren och bekräfta importen. Korten får ett nytt repetitionsschema.
 
 Fler alternativ finns i [guiden för kortimport](/sv/docs/import-flashcards/). Om du bifogar en TXT- eller CSV-fil direkt i AI-chatten kan du be om en förhandsgranskning innan något sparas:
 

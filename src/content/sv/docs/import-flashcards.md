@@ -45,10 +45,10 @@ Kort som importeras med AI räknas som nya i Nibomo. Tidigare repetitionshistori
 
 ## Klistra in från ett kalkylblad
 
-Använd **Bibliotek > Importera > Importera från ett kalkylblad** för enkla kort med fram- och baksida. Kopiera två kolumner utan rubrikraden och klistra in dem på importskärmen. För kalkylbladsceller kan du börja med **Tabb** mellan fram- och baksida och **Ny rad** mellan korten. Byt avgränsare om texten använder andra tecken.
+Logga först in på Nibomo. Använd **Bibliotek > Importera > Importera från ett kalkylblad** för enkla kort med fram- och baksida. Kopiera två kolumner utan rubrikraden och klistra in dem på importskärmen. För kalkylbladsceller kan du börja med **Tabb** mellan fram- och baksida och **Ny rad** mellan korten. Byt avgränsare om texten använder andra tecken.
 
 Förhandsgranska korten, rätta ofullständiga rader och välj de taggar du vill lägga till. Välj sedan knappen **Importera** med antalet kort för att spara dem. Kalkylbladsimporten använder ingen AI-chatt.
 
 ## Importera en ZIP-fil från Nibomo
 
-Använd **Bibliotek > Importera > Importera från Nibomo** för en `flashcards.zip` som du har exporterat från Nibomo. Välj ZIP-filen utan att packa upp den. Kontrollera antalet kort och mediefiler och eventuella varningar i förhandsgranskningen. Bekräfta sedan importen och granska enskilda kort och mediefiler i **Bibliotek**. Den här vägen kan överföra kort, taggar och media i paketet. Den använder ingen AI-chatt.
+Logga först in på Nibomo. Använd **Bibliotek > Importera > Importera från Nibomo** för en `flashcards.zip` som du har exporterat från Nibomo. Välj ZIP-filen utan att packa upp den. Kontrollera antalet kort och mediefiler och eventuella varningar i förhandsgranskningen. Bekräfta sedan importen och granska enskilda kort och mediefiler i **Bibliotek**. Den här vägen kan överföra kort, taggar och media i paketet. Den använder ingen AI-chatt.

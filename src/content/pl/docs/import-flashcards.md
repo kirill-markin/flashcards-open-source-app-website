@@ -45,10 +45,10 @@ Fiszki zaimportowane przez AI zaczynają w Nibomo jako nowe. Historia i terminy 
 
 ## Wklejanie z arkusza kalkulacyjnego
 
-Do prostych fiszek z przodem i tyłem użyj **Biblioteka > Import > Importuj z arkusza kalkulacyjnego**. Skopiuj dwie kolumny z arkusza, pomijając nagłówki, i wklej je na ekranie importu. Ustaw **Tabulator** między przodem a tyłem oraz **Nowy wiersz** między fiszkami. Zmień separatory, jeśli w skopiowanym tekście są inne.
+Najpierw zaloguj się na konto Nibomo. Do prostych fiszek z przodem i tyłem użyj **Biblioteka > Import > Importuj z arkusza kalkulacyjnego**. Skopiuj dwie kolumny z arkusza, pomijając nagłówki, i wklej je na ekranie importu. Ustaw **Tabulator** między przodem a tyłem oraz **Nowy wiersz** między fiszkami. Zmień separatory, jeśli w skopiowanym tekście są inne.
 
 Sprawdź podgląd, uzupełnij brakujące pola i wybierz tagi, jeśli chcesz je zastosować. Następnie kliknij przycisk importu, aby zapisać fiszki. Ta metoda działa bez czatu AI.
 
 ## Importowanie pliku ZIP z Nibomo
 
-Dla wcześniej wyeksportowanego z Nibomo pliku `flashcards.zip` wybierz **Biblioteka > Import > Importuj z Nibomo**. Wskaż plik ZIP bez rozpakowywania. W podglądzie sprawdź liczbę fiszek i plików multimedialnych oraz ewentualne ostrzeżenia. Następnie potwierdź import i obejrzyj poszczególne fiszki i multimedia w sekcji **Biblioteka**. W ten sposób możesz przenieść fiszki, tagi i multimedia z pakietu. Ta metoda działa bez czatu AI.
+Najpierw zaloguj się na konto Nibomo. Dla wcześniej wyeksportowanego z Nibomo pliku `flashcards.zip` wybierz **Biblioteka > Import > Importuj z Nibomo**. Wskaż plik ZIP bez rozpakowywania. W podglądzie sprawdź liczbę fiszek i plików multimedialnych oraz ewentualne ostrzeżenia. Następnie potwierdź import i obejrzyj poszczególne fiszki i multimedia w sekcji **Biblioteka**. W ten sposób możesz przenieść fiszki, tagi i multimedia z pakietu. Ta metoda działa bez czatu AI.

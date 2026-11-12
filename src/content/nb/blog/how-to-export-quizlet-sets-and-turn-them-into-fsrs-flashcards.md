@@ -108,7 +108,9 @@ Et regneark kan legge til anførselstegnene som CSV krever. Å erstatte alle tab
 
 I nettappen til Nibomo velger du **Bibliotek > Import > Importer fra Quizlet**. Lim inn teksten fra Quizlet-eksporten og velg **Start import**. KI-chatten kan lagre kort underveis. Sammenlign de lagrede for- og baksidene med eksporten, og prøv først med et lite sett hvis teksten har uvanlige skilletegn eller definisjoner over flere linjer.
 
-Har du ryddig tekst i to kolonner, kan du lime den inn under **Importer fra et regneark**, velge skilletegn og sjekke forhåndsvisningen før du lagrer. Du kan også legge ved en TXT- eller CSV-fil direkte i KI-chat og be om et utvalg før den lagrer noe.
+Logg først inn på Nibomo. Har du ryddig tekst i to kolonner, kan du lime den inn under **Importer fra et regneark**, velge skilletegn og sjekke forhåndsvisningen før du lagrer.
+
+Du kan også legge ved en TXT- eller CSV-fil direkte i KI-chat og be om et utvalg før den lagrer noe.
 
 I [importveiledningen](/docs/import-flashcards/) finner du de ulike metodene. Her er et eksempel for en tabulatorseparert TXT-fil som du legger ved i KI-chat. Hvis filen bruker komma eller et annet skilletegn, oppgir du det i instruksjonen.
 

@@ -45,10 +45,10 @@ Amakhadi angeniswe nge-AI aqala njengamakhadi amasha ku-Nibomo. Umlando wokubuye
 
 ## Namathisela okuvela kuspredishithi
 
-Uma ikhadi ngalinye linombhalo olula ezinhlangothini ezimbili, khetha **Umtapo wolwazi > Ngenisa > Ngenisa kusuka kuspredishithi**. Kopisha amakholomu amabili, ushiye umugqa wezihloko, bese uwanamathisela esikrinini sokungenisa. Kumangqamuzana esipredishithi, qala ngo-**Ithebhu** phakathi kwengaphambili nengemuva, nangokuthi **Umugqa omusha** phakathi kwamakhadi. Uma umbhalo wakho usebenzisa ezinye izihlukanisi, zishintshe.
+Qala ngokungena ngemvume ku-akhawunti yakho ye-Nibomo. Uma ikhadi ngalinye linombhalo olula ezinhlangothini ezimbili, khetha **Umtapo wolwazi > Ngenisa > Ngenisa kusuka kuspredishithi**. Kopisha amakholomu amabili, ushiye umugqa wezihloko, bese uwanamathisela esikrinini sokungenisa. Kumangqamuzana esipredishithi, qala ngo-**Ithebhu** phakathi kwengaphambili nengemuva, nangokuthi **Umugqa omusha** phakathi kwamakhadi. Uma umbhalo wakho usebenzisa ezinye izihlukanisi, zishintshe.
 
 Buka amakhadi kuqala, ulungise imigqa engaphelele bese ukhetha amathegi ofuna ukuwafaka. Bese ucindezela inkinobho yokungenisa ukuze ugcine amakhadi. Le ndlela ayisebenzisi ingxoxo ye-AI.
 
 ## Ngenisa ifayela le-ZIP le-Nibomo
 
-Uma unefayela elithi `flashcards.zip` elake lakhishwa ku-Nibomo, khetha **Umtapo wolwazi > Ngenisa > Ngenisa kusuka ku-Nibomo**. Khetha ifayela le-ZIP njengoba linjalo, ungakhiphi okuqukethwe kulo. Ekubukeni kuqala, hlola inani lamakhadi nelamafayela emidiya, ufunde nezixwayiso uma zikhona. Bese uqinisekisa ukungenisa, uhlole amakhadi namafayela emidiya ngakunye ku-**Umtapo wolwazi**. Le ndlela ingadlulisela amakhadi, amathegi nemidiya okukuphakheji. Ayisebenzisi ingxoxo ye-AI.
+Qala ngokungena ngemvume ku-akhawunti yakho ye-Nibomo. Uma unefayela elithi `flashcards.zip` elake lakhishwa ku-Nibomo, khetha **Umtapo wolwazi > Ngenisa > Ngenisa kusuka ku-Nibomo**. Khetha ifayela le-ZIP njengoba linjalo, ungakhiphi okuqukethwe kulo. Ekubukeni kuqala, hlola inani lamakhadi nelamafayela emidiya, ufunde nezixwayiso uma zikhona. Bese uqinisekisa ukungenisa, uhlole amakhadi namafayela emidiya ngakunye ku-**Umtapo wolwazi**. Le ndlela ingadlulisela amakhadi, amathegi nemidiya okukuphakheji. Ayisebenzisi ingxoxo ye-AI.

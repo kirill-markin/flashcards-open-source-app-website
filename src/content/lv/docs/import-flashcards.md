@@ -45,10 +45,10 @@ Ar MI importētās kartītes Nibomo tiek pievienotas kā jaunas. Iepriekšējo a
 
 ## Ielīmē no izklājlapas
 
-Kartītēm ar priekšpusi un aizmuguri izmanto **Bibliotēka > Importēt > Importēt no izklājlapas**. Nokopē divas kolonnas bez virsrakstu rindas un ielīmē tās importēšanas skatā. Izklājlapas šūnām starp priekšpusi un aizmuguri izvēlies **Tabulācija**, bet starp kartītēm – **Jauna rinda**. Ja tekstā izmantoti citi atdalītāji, pielāgo iestatījumus.
+Vispirms pieraksties savā Nibomo kontā. Kartītēm ar priekšpusi un aizmuguri izmanto **Bibliotēka > Importēt > Importēt no izklājlapas**. Nokopē divas kolonnas bez virsrakstu rindas un ielīmē tās importēšanas skatā. Izklājlapas šūnām starp priekšpusi un aizmuguri izvēlies **Tabulācija**, bet starp kartītēm – **Jauna rinda**. Ja tekstā izmantoti citi atdalītāji, pielāgo iestatījumus.
 
 Pārskati kartītes, izlabo nepilnās rindas un izvēlies vajadzīgās birkas. Tad nospied importēšanas pogu, lai saglabātu kartītes. Šim veidam MI saruna nav vajadzīga.
 
 ## Importē Nibomo ZIP pakotni
 
-Ja tev ir iepriekš no Nibomo eksportēts `flashcards.zip`, atver **Bibliotēka > Importēt > Importēt no Nibomo**. Izvēlies ZIP failu, to neatpakojot. Priekšskatījumā pārbaudi kartīšu un multivides failu skaitu un izlasi brīdinājumus, ja tādi ir. Pēc tam apstiprini importēšanu un apskati atsevišķas kartītes un multivides failus sadaļā **Bibliotēka**. Šādi var pārnest pakotnē iekļautās kartītes, birkas un multividi. Šim veidam MI saruna nav vajadzīga.
+Vispirms pieraksties savā Nibomo kontā. Ja tev ir iepriekš no Nibomo eksportēts `flashcards.zip`, atver **Bibliotēka > Importēt > Importēt no Nibomo**. Izvēlies ZIP failu, to neatpakojot. Priekšskatījumā pārbaudi kartīšu un multivides failu skaitu un izlasi brīdinājumus, ja tādi ir. Pēc tam apstiprini importēšanu un apskati atsevišķas kartītes un multivides failus sadaļā **Bibliotēka**. Šādi var pārnest pakotnē iekļautās kartītes, birkas un multividi. Šim veidam MI saruna nav vajadzīga.

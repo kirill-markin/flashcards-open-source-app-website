@@ -106,7 +106,9 @@ Taulukkolaskentaohjelma voi lisätä CSV-muodon vaatimat lainausmerkit. Kaikkien
 
 ## Tuo Quizletin teksti Nibomoon
 
-Avaa Nibomon verkkosovelluksessa **Kirjasto → Tuonti → Tuo sovelluksesta Quizlet** ja liitä viety teksti. **Aloita tuonti** lähettää tekstin tekoälykeskusteluun, joka voi tallentaa kortit suoraan. Vertaa tallennettuja kortteja alkuperäiseen tekstiin. Jos haluat esikatsella yksinkertaisia korttipareja ennen tallennusta, valitse **Tuo laskentataulukosta**. Katso [tuontiopas](/docs/import-flashcards/).
+Avaa Nibomon verkkosovelluksessa **Kirjasto → Tuonti → Tuo sovelluksesta Quizlet** ja liitä viety teksti. **Aloita tuonti** lähettää tekstin tekoälykeskusteluun, joka voi tallentaa kortit suoraan. Vertaa tallennettuja kortteja alkuperäiseen tekstiin.
+
+Kirjaudu ensin Nibomoon. Jos haluat esikatsella yksinkertaisia korttipareja ennen tallennusta, valitse **Tuo laskentataulukosta**. Katso [tuontiopas](/docs/import-flashcards/).
 
 Jos haluat tekoälyltä ensin luonnoksen tallentamatta mitään, toimi näin:
 

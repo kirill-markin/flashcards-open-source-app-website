@@ -45,10 +45,10 @@ Kartice, uvožene prek AI, se v Nibomu obravnavajo kot nove. Zgodovina ponavljan
 
 ## Lepljenje iz preglednice
 
-Za preproste pare sprednje in zadnje strani uporabite **Knjižnica > Uvoz > Uvozi iz preglednice**. Kopirajte dva stolpca brez naslovne vrstice in ju prilepite na zaslonu za uvoz. Za celice iz preglednice najprej poskusite s **Tabulator** med stranema in **Nova vrstica** med karticami. Če besedilo uporablja druga ločila, jih prilagodite.
+Najprej se prijavite v svoj račun Nibomo. Za preproste pare sprednje in zadnje strani uporabite **Knjižnica > Uvoz > Uvozi iz preglednice**. Kopirajte dva stolpca brez naslovne vrstice in ju prilepite na zaslonu za uvoz. Za celice iz preglednice najprej poskusite s **Tabulator** med stranema in **Nova vrstica** med karticami. Če besedilo uporablja druga ločila, jih prilagodite.
 
 Oglejte si predogled, popravite nepopolne vrstice in izberite oznake, ki jih želite dodati. Nato izberite gumb **Uvozi** s številom kartic. Kartice se shranijo brez klepeta z AI.
 
 ## Uvoz datoteke ZIP iz Niboma
 
-Za datoteko `flashcards.zip`, ki ste jo prej izvozili iz Niboma, uporabite **Knjižnica > Uvoz > Uvozi iz Niboma**. Izberite ZIP, ne da bi ga razširili. V predogledu preverite število kartic in predstavnostnih datotek ter morebitna opozorila. Nato potrdite uvoz in si posamezne kartice in predstavnostne datoteke oglejte v razdelku **Knjižnica**. Tako lahko prenesete kartice, oznake in predstavnost, ki jih vsebuje paket. Klepet z AI pri tem uvozu ne sodeluje.
+Najprej se prijavite v svoj račun Nibomo. Za datoteko `flashcards.zip`, ki ste jo prej izvozili iz Niboma, uporabite **Knjižnica > Uvoz > Uvozi iz Niboma**. Izberite ZIP, ne da bi ga razširili. V predogledu preverite število kartic in predstavnostnih datotek ter morebitna opozorila. Nato potrdite uvoz in si posamezne kartice in predstavnostne datoteke oglejte v razdelku **Knjižnica**. Tako lahko prenesete kartice, oznake in predstavnost, ki jih vsebuje paket. Klepet z AI pri tem uvozu ne sodeluje.

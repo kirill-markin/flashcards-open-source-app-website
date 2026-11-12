@@ -108,7 +108,7 @@ Tabuľkový procesor dokáže doplniť úvodzovky, ktoré CSV potrebuje. Hromadn
 
 Vo webovej aplikácii Nibomo otvorte **Knižnica > Import > Importovať z aplikácie Quizlet**, prilepte skopírovaný text z vlastnej sady a vyberte **Spustiť import**. AI chat z textu vytvorí kartičky v pracovnom priestore. Porovnajte uložené otázky a odpovede s originálom. Ak máte nezvyčajné oddeľovače alebo viacriadkové definície, začnite malou dávkou.
 
-Ak si chcete kartičky pozrieť pred uložením, zvoľte **Importovať z tabuľky** a prilepte čistý text z dvoch stĺpcov. Nastavte oddeľovače, skontrolujte dvojice a potvrďte import. Kartičky začínajú s novým rozvrhom opakovania.
+Najprv sa prihláste do účtu Nibomo. Ak si chcete kartičky pozrieť pred uložením, zvoľte **Importovať z tabuľky** a prilepte čistý text z dvoch stĺpcov. Nastavte oddeľovače, skontrolujte dvojice a potvrďte import. Kartičky začínajú s novým rozvrhom opakovania.
 
 Ďalšie možnosti nájdete v [návode na import kartičiek](/sk/docs/import-flashcards/). Ak súbor TXT alebo CSV priložíte v AI chate a chcete najprv náhľad bez uloženia, môžete napísať:
 

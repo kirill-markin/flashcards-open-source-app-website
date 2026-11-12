@@ -106,7 +106,9 @@ Program za proračunske tablice može dodati navodnike koje CSV zahtijeva. Zamje
 
 ## Prenesite tekst u Nibomo kao materijal za nacrt koji ćete pregledati
 
-U web aplikaciji Nibomo otvorite **Knjižnica > Uvoz > Uvezi iz aplikacije Quizlet** i zalijepite tekst. **Pokrenite uvoz** šalje ga u AI razgovor radi izrade kartica. Spremljene kartice usporedite s izvornikom. Ako želite pregledati uredne parove prije spremanja, zalijepite dva stupca u **Uvezi iz proračunske tablice**. Oba postupka daju karticama novi raspored ponavljanja. Sve korake potražite u [vodiču za uvoz](/docs/import-flashcards/).
+U web aplikaciji Nibomo otvorite **Knjižnica > Uvoz > Uvezi iz aplikacije Quizlet** i zalijepite tekst. **Pokrenite uvoz** šalje ga u AI razgovor radi izrade kartica. Spremljene kartice usporedite s izvornikom.
+
+Najprije se prijavite na svoj Nibomo račun. Ako želite pregledati uredne parove prije spremanja, zalijepite dva stupca u **Uvezi iz proračunske tablice**. Oba postupka daju karticama novi raspored ponavljanja. Sve korake potražite u [vodiču za uvoz](/docs/import-flashcards/).
 
 Ako želite uzorak prije spremanja, priložite TXT ili CSV u novom AI razgovoru i napišite vlastiti zahtjev.
 

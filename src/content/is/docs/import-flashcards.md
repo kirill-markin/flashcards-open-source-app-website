@@ -45,10 +45,10 @@ Spjöld sem gervigreind flytur inn verða að nýjum spjöldum í Nibomo. Fyrri 
 
 ## Límdu úr töflureikni
 
-Notaðu **Safn > Flytja inn > Flytja inn úr töflureikni** fyrir einföld spjöld með framhlið og bakhlið. Afritaðu tvo dálka úr töflureikninum án fyrirsagnarlínunnar og límdu þá á innflutningsskjáinn. Byrjaðu með **Dálkmerki** á milli framhliðar og bakhliðar og **Ný lína** á milli spjalda. Breyttu skilunum ef textinn notar önnur tákn.
+Skráðu þig fyrst inn í Nibomo. Notaðu **Safn > Flytja inn > Flytja inn úr töflureikni** fyrir einföld spjöld með framhlið og bakhlið. Afritaðu tvo dálka úr töflureikninum án fyrirsagnarlínunnar og límdu þá á innflutningsskjáinn. Byrjaðu með **Dálkmerki** á milli framhliðar og bakhliðar og **Ný lína** á milli spjalda. Breyttu skilunum ef textinn notar önnur tákn.
 
 Forskoðaðu spjöldin, lagaðu ófullgerðar línur og veldu merkin sem þú vilt bæta við. Veldu síðan innflutningshnappinn sem sýnir fjölda spjalda til að vista spjöldin. Þessi leið notar ekki gervigreindarspjall.
 
 ## Flyttu inn ZIP-skrá úr Nibomo
 
-Veldu **Safn > Flytja inn > Flytja inn úr Nibomo** fyrir `flashcards.zip` sem var áður flutt út úr Nibomo. Veldu ZIP-skrána án þess að afþjappa henni. Athugaðu fjölda spjalda og miðlaskráa í forskoðuninni og lestu viðvaranir ef þær birtast. Staðfestu svo innflutninginn og skoðaðu einstök spjöld og miðlaskrár undir **Safn**. Þessi leið getur flutt spjöld, merki og miðla úr pakkanum án þess að nota gervigreindarspjall.
+Skráðu þig fyrst inn í Nibomo. Veldu **Safn > Flytja inn > Flytja inn úr Nibomo** fyrir `flashcards.zip` sem var áður flutt út úr Nibomo. Veldu ZIP-skrána án þess að afþjappa henni. Athugaðu fjölda spjalda og miðlaskráa í forskoðuninni og lestu viðvaranir ef þær birtast. Staðfestu svo innflutninginn og skoðaðu einstök spjöld og miðlaskrár undir **Safn**. Þessi leið getur flutt spjöld, merki og miðla úr pakkanum án þess að nota gervigreindarspjall.

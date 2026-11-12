@@ -45,10 +45,10 @@ Kort som importeres med AI, starter som nye i Nibomo. Repetisjonshistorikk og pl
 
 ## Lim inn fra et regneark
 
-Bruk **Bibliotek > Import > Importer fra et regneark** for enkle par med for- og bakside. Kopier to kolonner uten overskriftsraden og lim dem inn på importskjermen. Bruk **Tabulator** mellom for- og bakside og **Ny linje** mellom kortene. Endre skilletegnene hvis teksten bruker noe annet.
+Logg først inn på Nibomo. Bruk **Bibliotek > Import > Importer fra et regneark** for enkle par med for- og bakside. Kopier to kolonner uten overskriftsraden og lim dem inn på importskjermen. Bruk **Tabulator** mellom for- og bakside og **Ny linje** mellom kortene. Endre skilletegnene hvis teksten bruker noe annet.
 
 Se over forhåndsvisningen, rett opp ufullstendige rader og velg eventuelle etiketter. Velg deretter **Importer** for å lagre kortene. Denne importen bruker ikke AI-chat.
 
 ## Importer en Nibomo-ZIP
 
-Bruk **Bibliotek > Import > Importer fra Nibomo** for en `flashcards.zip` som er eksportert fra Nibomo. Velg ZIP-filen uten å pakke den ut. Sjekk antall kort og mediefiler og eventuelle advarsler i forhåndsvisningen. Bekreft deretter importen og se gjennom enkeltkort og mediefiler i **Bibliotek**. Kort, etiketter og medier i pakken kan følge med. Denne importen bruker ikke AI-chat.
+Logg først inn på Nibomo. Bruk **Bibliotek > Import > Importer fra Nibomo** for en `flashcards.zip` som er eksportert fra Nibomo. Velg ZIP-filen uten å pakke den ut. Sjekk antall kort og mediefiler og eventuelle advarsler i forhåndsvisningen. Bekreft deretter importen og se gjennom enkeltkort og mediefiler i **Bibliotek**. Kort, etiketter og medier i pakken kan følge med. Denne importen bruker ikke AI-chat.

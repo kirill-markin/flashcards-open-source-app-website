@@ -108,7 +108,9 @@ Skaičiuoklė gali pridėti CSV reikalingas kabutes. Visų tabuliacijos ženklų
 
 Nukopijuokite „Quizlet“ rinkinio, kurį galite eksportuoti, tekstą. „Nibomo“ internetinėje programėlėje atidarykite **Biblioteka > Importuoti > Importuoti iš „Quizlet“**, įklijuokite tekstą ir pasirinkite **Pradėti importuoti**. Užklausa bus nusiųsta į DI pokalbį, kuriame bus išsaugotos kortelės. Išsaugokite pradinį eksportą. Palyginkite importuotų kortelių skaičių ir abi jų puses su pradiniu rinkiniu.
 
-Jei turite sutvarkytą dviejų stulpelių tekstą, įklijuokite jį skiltyje **Importuoti iš skaičiuoklės** ir peržiūrėkite prieš išsaugodami. Jei pirmiausia norite pamatyti DI parengtą pavyzdį, pridėkite sutvarkytą TXT ar CSV failą prie naujo DI pokalbio.
+Pirmiausia prisijunkite prie savo „Nibomo“ paskyros. Jei turite sutvarkytą dviejų stulpelių tekstą, įklijuokite jį skiltyje **Importuoti iš skaičiuoklės** ir peržiūrėkite prieš išsaugodami.
+
+Jei pirmiausia norite pamatyti DI parengtą pavyzdį, pridėkite sutvarkytą TXT ar CSV failą prie naujo DI pokalbio.
 
 [Darbo pradžios vadove](/docs/getting-started/) aprašytas DI pokalbis, kuriame galima naudoti darbo srities duomenis ir prisegtus failus. Atsargi užklausa galėtų būti tokia:
 

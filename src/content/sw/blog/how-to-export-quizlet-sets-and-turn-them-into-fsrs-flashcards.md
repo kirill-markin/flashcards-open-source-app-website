@@ -108,7 +108,7 @@ Lahajedwali linaweza kuongeza alama za kunukuu ambazo CSV inahitaji. Kubadilisha
 
 Katika programu ya wavuti ya Nibomo, fungua **Maktaba > Ingiza > Leta kutoka Quizlet**, bandika maandishi uliyonakili kutoka kwenye seti yako ambayo unaweza kutoa, kisha chagua **Anza kuingiza**. Gumzo la AI hutengeneza kadi katika eneo lako la kazi. Linganisha pande za mbele na za nyuma za kadi zilizohifadhiwa na maandishi ya awali. Anza na kadi chache ikiwa seti ina vitenganishi visivyo vya kawaida au fasili za mistari kadhaa.
 
-Ukitaka kuona kadi kabla ya kuzihifadhi, chagua **Leta kutoka lahajedwali** na ubandike maandishi yaliyopangwa katika safu wima mbili. Chagua vitenganishi, kagua jozi za istilahi na fasili, kisha thibitisha. Kadi huanza na ratiba mpya ya marudio.
+Ingia kwanza kwenye akaunti yako ya Nibomo. Ukitaka kuona kadi kabla ya kuzihifadhi, chagua **Leta kutoka lahajedwali** na ubandike maandishi yaliyopangwa katika safu wima mbili. Chagua vitenganishi, kagua jozi za istilahi na fasili, kisha thibitisha. Kadi huanza na ratiba mpya ya marudio.
 
 [Mwongozo wa kuingiza kadi](/sw/docs/import-flashcards/) unaeleza njia nyingine. Ukiambatisha faili la TXT au CSV moja kwa moja katika gumzo la AI, unaweza kuomba kuona sampuli kabla ya kuhifadhi:
 

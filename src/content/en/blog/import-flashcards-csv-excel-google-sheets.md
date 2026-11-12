@@ -29,7 +29,7 @@ Merci,Thank you
 ```
 
 1. In a copy of the sheet, replace the line break in **B3** with a space. Copy **A2:B4** so the first column supplies the fronts, the second supplies the backs, and the header stays in the sheet.
-2. In Nibomo, open **Library → Import → Import from a spreadsheet**. Paste into **Terms and definitions**. Set **Between front and back** to **Tab** and **Between cards** to **New line**.
+2. Sign in to Nibomo, then open **Library → Import → Import from a spreadsheet**. Paste into **Terms and definitions**. Set **Between front and back** to **Tab** and **Between cards** to **New line**.
 
 You can also copy this block straight into Nibomo. It has a tab between each question and answer.
 

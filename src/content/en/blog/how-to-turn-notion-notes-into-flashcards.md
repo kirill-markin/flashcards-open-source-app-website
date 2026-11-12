@@ -95,7 +95,7 @@ That is enough.
 
 You do not need to over-engineer the first step. You just need the material in a form where AI can read it and suggest candidate cards.
 
-Attach the PDF or Markdown file in Nibomo AI chat to specify which sections to use. If you already have a clean two-column question-and-answer table, use **Library → Import → Import from a spreadsheet** in the web app to paste the pairs and preview the cards.
+Attach the PDF or Markdown file in Nibomo AI chat to specify which sections to use. If you already have a clean two-column question-and-answer table, sign in to Nibomo and use **Library → Import → Import from a spreadsheet** in the web app to paste the pairs and preview the cards.
 
 ## Notion toggles are useful, but they are not automatically good flashcards
 
