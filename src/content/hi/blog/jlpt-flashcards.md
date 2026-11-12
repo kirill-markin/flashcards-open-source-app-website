@@ -335,7 +335,7 @@ FSRS आपकी review history से अगली reviews schedule कर स
 
 [Nibomo](/features/) में इस guide के examples के लिए सादे front/back cards काफ़ी हैं। `N3`, `kanji-reading`, `paraphrase`, `text-grammar` या `listening-miss` जैसे tags level और item type को सहेज सकते हैं। आप उपयोगी context देने वाली images या related media जोड़ सकते हैं, FSRS के साथ due cards review कर सकते हैं, mobile पर offline पढ़ सकते हैं और connection लौटने पर changes sync कर सकते हैं। Import और export से cards, tags और related media को साथ ले जाना आसान रहता है।
 
-App में premade JLPT deck या JLPT test simulator नहीं मिलता और इसमें one-click Anki importer नहीं है। AI chat किसी Anki `.apkg` को उसकी review history के बिना नए cards में बदल सकता है; [`.apkg` import guide](/blog/import-anki-apkg/) तरीका दिखाती है। AI cards का draft बनाने या उन्हें छोटा करने में मदद कर सकता है, लेकिन वह Japanese, source की accuracy, level placement या test relevance verify नहीं करता। हर generated card को save करने से पहले जाँचिए। [Getting Started guide](/docs/getting-started/) hosted, mobile, agent और self-hosted options समझाती है।
+App में premade JLPT deck या JLPT test simulator नहीं मिलता। वेब ऐप में **लाइब्रेरी → इम्पोर्ट → Anki से आयात करें** खोलें और `.apkg` डेक या `.colpkg` कलेक्शन चुनें। इंपोर्ट AI चैट से होता है, इसलिए इंटरनेट कनेक्शन चाहिए। Anki की रिव्यू हिस्ट्री साथ नहीं आती। पूरी प्रक्रिया [कार्ड इंपोर्ट करने की गाइड](/docs/import-flashcards/) में है। AI cards का draft बनाने या उन्हें छोटा करने में मदद कर सकता है, लेकिन वह Japanese, source की accuracy, level placement या test relevance verify नहीं करता। हर generated card को save करने से पहले जाँचिए। [Getting Started guide](/docs/getting-started/) hosted, mobile, agent और self-hosted options समझाती है।
 
 ## अगले दस cards पुख्ता आधार पर बनाएँ
 
