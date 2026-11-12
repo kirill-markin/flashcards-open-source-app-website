@@ -2,7 +2,7 @@
 title: "Tathmini ya kadi za Gizmo (2026): Vikomo vya mpango wa bure, Magic Import na programu mbadala"
 description: "Tathmini ya kadi za Gizmo kulingana na vyanzo rasmi: muda wa kusubiri Magic Import bila malipo, AI Tutor, aina za kadi, utoaji wa data, ushahidi wa matumizi bila intaneti na programu mbadala."
 date: "2026-08-03"
-updated: "2026-09-01"
+updated: "2026-11-12"
 image: "/blog/gizmo-alternative-v2.png"
 keywords:
   - "kadi za kujifunzia za Gizmo"
@@ -134,7 +134,7 @@ Ikiwa unategemea maswali shirikishi, masomo ya Tutor au zawadi, endelea kutumia 
 
 ## Unaweza kuhama kutoka Gizmo kwenda programu nyingine?
 
-Unaweza kujaribu kutumia PDF ya Gizmo kama chanzo cha kutengeneza kadi mpya. Katika programu ya wavuti ya Nibomo, chagua **Maktaba > Ingiza > Leta kutoka programu nyingine** kisha uchague PDF. Faili hutumwa kwenye gumzo la AI. Katika ulinganisho huu hatukujaribu kuhamisha PDF kutoka Gizmo. Linganisha kadi zilizotengenezwa na chanzo. Angalia [mwongozo wa kuingiza kadi](/sw/docs/import-flashcards/).
+Unaweza kutumia PDF uliyohifadhi kutoka Gizmo kutengeneza kadi mpya. Katika programu ya wavuti ya Nibomo, nenda kwenye **Maktaba > Ingiza > Leta kutoka Gizmo**. Chagua faili la PDF, kisha uchague **Anza kuingiza**. Linganisha idadi ya kadi zilizohifadhiwa na idadi iliyo kwenye PDF. Kagua pia kama pande zote mbili za kila kadi zinalingana na PDF. Soma [mwongozo wa kutoa PDF kutoka Gizmo na kuiingiza kwenye Nibomo (kwa Kiingereza)](/blog/gizmo-export-pdf/).
 
 Maswali yanayotegemea muundo shirikishi wa Gizmo unaweza kuyaunda upya mwenyewe:
 

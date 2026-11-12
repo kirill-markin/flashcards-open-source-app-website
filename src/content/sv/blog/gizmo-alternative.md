@@ -2,7 +2,7 @@
 title: "Recension av Gizmo Flashcards (2026): gränser i gratisversionen, Magic Import och alternativ"
 description: "Källgranskad recension av Gizmo Flashcards: väntetiden för Magic Import i gratisversionen, AI Tutor, korttyper, export, vad som är känt om offlinebruk och ett praktiskt alternativ."
 date: "2026-08-03"
-updated: "2026-09-01"
+updated: "2026-11-12"
 image: "/blog/gizmo-alternative-v2.png"
 keywords:
   - "Gizmo flashcards"
@@ -134,7 +134,7 @@ Om du använder Gizmos interaktiva frågetyper, Tutor-lektioner eller belöninga
 
 ## Kan du flytta från Gizmo till en annan app?
 
-Du kan prova att använda en PDF från Gizmo som underlag för nya kort. Välj **Bibliotek > Importera > Importera från en annan app** i Nibomos webbapp och välj PDF-filen. Filen skickas till AI-chatten. Den här jämförelsen testade ingen PDF-överföring från Gizmo. Jämför resultatet med originalet. Se [guiden för kortimport](/sv/docs/import-flashcards/).
+Du kan använda PDF-filen från Gizmo för att skapa nya kort. I Nibomos webbapp går du till **Bibliotek > Importera > Importera från Gizmo**. Välj PDF-filen och klicka på **Starta import**. Jämför antalet sparade kort och varje korts fram- och baksida med PDF-filen. Se [guiden till Gizmos PDF-export och import till Nibomo (på engelska)](/blog/gizmo-export-pdf/).
 
 Frågor som bygger på Gizmos interaktiva format kan du återskapa för hand:
 
