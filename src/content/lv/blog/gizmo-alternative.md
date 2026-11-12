@@ -136,7 +136,7 @@ Ja jums ir svarīgi Gizmo kartīšu tipi, Tutor nodarbības vai atlīdzības, tu
 
 ## Vai var pāriet no Gizmo uz citu lietotni?
 
-Gizmo PDF var izmantot kā izejmateriālu jaunām kartītēm. Nibomo tīmekļa lietotnē atveriet **Bibliotēka > Importēt > Importēt no citas lietotnes** un izvēlieties PDF. Noklikšķiniet uz **Sākt importēšanu**, lai nosūtītu failu uz MI sarunu. MI izveidos jaunas kartītes, un atkārtošanas vēsture paliks Gizmo. Vispirms izmēģiniet mazu komplektu un pārbaudiet izveidotās kartītes, lai novērtētu, cik precīzi MI no PDF atjaunoja komplekta uzbūvi.
+Nibomo tīmekļa lietotnē atveriet **Bibliotēka > Importēt > Importēt no Gizmo**. Izvēlieties Gizmo PDF failu un nospiediet **Sākt importēšanu**. Nibomo nosūta failu uz MI sarunu, kur no tā izveido jaunas kartītes. Atkārtošanas vēsture paliek Gizmo. Sāciet ar nelielu kavu un salīdziniet saglabātās kartītes ar PDF. Pārbaudiet kartīšu skaitu un to, vai katrai priekšpusei ir pareizā aizmugure. Plašāk lasiet [Gizmo PDF ceļvedī (angļu valodā)](/blog/gizmo-export-pdf/).
 
 Kartītes, kurām svarīgs Gizmo interaktīvais formāts, pēc vajadzības izveidojiet no jauna manuāli.
 

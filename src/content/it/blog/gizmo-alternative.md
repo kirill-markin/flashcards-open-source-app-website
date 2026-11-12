@@ -2,7 +2,7 @@
 title: "Recensione di Gizmo Flashcards (2026): limiti del piano gratuito, Magic Import e alternative"
 description: "Recensione delle flashcard di Gizmo basata su fonti verificate: attesa di Magic Import nel piano gratuito, AI Tutor, tipi di schede, esportazione, uso offline e un'alternativa pratica."
 date: "2026-08-03"
-updated: "2026-09-01"
+updated: "2026-11-12"
 image: "/blog/gizmo-alternative-v2.png"
 keywords:
   - "flashcard Gizmo"
@@ -138,7 +138,7 @@ Se usi i tipi di domanda interattivi, le lezioni con Tutor o le ricompense, cont
 
 ## Si può passare da Gizmo a un'altra app?
 
-Nell’app web di Nibomo, scegli **Libreria > Importa > Importa da un’altra app** e usa il PDF di Gizmo come fonte per creare nuove carte nella chat IA. Questo trasferimento non è stato provato per la recensione. Confronta le carte ottenute con il mazzo originale. Trovi tutti i passaggi nella [guida all’importazione](/docs/import-flashcards/).
+Nell’app web di Nibomo, apri **Libreria > Importa > Importa da Gizmo**. Seleziona il PDF di Gizmo e premi **Avvia importazione**. Nibomo usa il file per creare nuove carte nella chat IA. Confronta le carte salvate con il PDF e verifica che il numero di carte e gli abbinamenti fronte-retro corrispondano. Trovi tutti i passaggi nella [guida ai PDF di Gizmo (in inglese)](/blog/gizmo-export-pdf/).
 
 L'alternativa più sicura è manuale e selettiva:
 

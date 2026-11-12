@@ -2,7 +2,7 @@
 title: "Gizmo tanulókártyák – értékelés (2026): az ingyenes csomag korlátai, Magic Import és alternatívák"
 description: "Hivatalos forrásokra épülő Gizmo-értékelés: Magic Import-korlátok az ingyenes csomagban, AI Tutor, kártyatípusok, export, az offline működés bizonyítékai és egy alternatíva."
 date: "2026-08-03"
-updated: "2026-09-01"
+updated: "2026-11-12"
 image: "/blog/gizmo-alternative-v2.png"
 keywords:
   - "Gizmo tanulókártyák"
@@ -138,7 +138,7 @@ Ha szükséged van az interaktív kérdéstípusokra, a Tutor-leckékre vagy a j
 
 ## Átköltözhetsz a Gizmóból egy másik alkalmazásba?
 
-A Nibomo webalkalmazásában a **Könyvtár > Importálás > Importálás másik alkalmazásból** lehetőséggel a Gizmo PDF-jét felhasználhatod új kártyák készítéséhez az AI-csevegésben. Ezt az átvitelt a cikkhez nem próbáltam ki. Hasonlítsd össze a létrejött kártyákat az eredeti paklival. A lépéseket lásd az [importálási útmutató](/docs/import-flashcards/).
+A Nibomo webalkalmazásában nyisd meg a **Könyvtár > Importálás > Importálás innen: Gizmo** menüpontot. Válaszd ki a Gizmo PDF-fájlját, majd kattints az **Importálás indítása** gombra. A Nibomo a PDF alapján új kártyákat készít az AI-csevegésben. Ellenőrizd a PDF alapján a mentett kártyák számát és azt, hogy minden előlaphoz a megfelelő hátlap tartozik-e. A részleteket a [Gizmo PDF-útmutatójában (angolul)](/blog/gizmo-export-pdf/) találod.
 
 A biztonságos kerülőmegoldás a fontos kártyák kézi újrakészítése:
 
