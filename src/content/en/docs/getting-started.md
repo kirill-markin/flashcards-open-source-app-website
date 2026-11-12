@@ -44,6 +44,10 @@ The fastest way to start is the hosted web app:
 
 No installation or server setup is required for the hosted path.
 
+## Bring your flashcards
+
+Already have cards in Quizlet, Anki, or another app? Open **Library > Import** and follow the [flashcard import guide](/docs/import-flashcards/) to find the right format and check what transfers.
+
 ## Agent Setup
 
 MCP clients such as Claude, ChatGPT, and Cursor can connect through the [MCP connector guide](/docs/mcp-connector/).

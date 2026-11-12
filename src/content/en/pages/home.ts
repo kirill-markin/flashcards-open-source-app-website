@@ -106,7 +106,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Your cards can come with you.",
           description:
-            "Import and export cards, tags, and media.",
+            "Bring cards from Quizlet, Anki, and more. Export your Nibomo cards, tags, and media any time.",
+          link: {
+            label: "See how to import flashcards",
+            href: "/docs/import-flashcards/",
+          },
         },
         {
           title: "Your agent can lend a hand.",

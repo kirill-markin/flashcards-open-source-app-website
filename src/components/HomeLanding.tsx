@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import type { CSSProperties } from "react";
 import { AgentDirectoryLinks } from "./AgentDirectoryLinks";
 import { FeatureIcon, FEATURE_ICON_NAMES } from "./FeatureIcon";
@@ -92,7 +93,20 @@ export function HomeLanding({ locale, hero, walkthrough, features, storeQrCodes 
         <div className={styles.featureSecondary}><div className={styles.supportingFeatures}>{features.items.map((feature,index)=>{
           const icon = FEATURE_ICON_NAMES[index+1];
           if(icon===undefined) throw new Error(`Missing supporting feature icon ${index}, locale ${locale}.`);
-          return <article className={styles.smallFeature} key={feature.title}><span className={styles.icon} aria-hidden="true"><FeatureIcon name={icon} /></span><div><h3>{formatHeadingText(feature.title)}</h3><p>{feature.description}</p></div></article>;
+          return (
+            <article className={styles.smallFeature} key={feature.title}>
+              <span className={styles.icon} aria-hidden="true"><FeatureIcon name={icon} /></span>
+              <div>
+                <h3>{formatHeadingText(feature.title)}</h3>
+                <p>{feature.description}</p>
+                {feature.link !== undefined && (
+                  <Link className={styles.featureLink} href={getAvailableLocalizedPathname(locale, feature.link.href)}>
+                    {feature.link.label}
+                  </Link>
+                )}
+              </div>
+            </article>
+          );
         })}</div></div>
       </section>
     </div>

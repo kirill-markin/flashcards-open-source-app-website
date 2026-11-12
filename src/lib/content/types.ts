@@ -13,6 +13,7 @@ export interface ContentLink {
 export interface FeatureItem {
   readonly title: string;
   readonly description: string;
+  readonly link?: ContentLink;
 }
 
 export interface AgentConnectorHint {

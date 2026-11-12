@@ -208,6 +208,9 @@ function renderFeatureListSection(
 
   section.items.forEach((item) => {
     lines.push(`- **${item.title}** - ${item.description}`);
+    if (item.link !== undefined) {
+      lines.push(`  [${item.link.label}](${item.link.href})`);
+    }
   });
 
   lines.push("");
