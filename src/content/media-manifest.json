@@ -4030,6 +4030,21 @@
     }
   },
   {
+    "publicPath": "/blog/noji-to-nibomo.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/8be4b4156032352fb09f605199e2d26445f87f07a851304d8da8dd5e43e0ea5f.webp",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "8be4b4156032352fb09f605199e2d26445f87f07a851304d8da8dd5e43e0ea5f",
+    "bytes": 101330,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/2ced7d3945447098a2c68067964c338f157fe6fe8ad906abecd4a7332fc42be2.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "2ced7d3945447098a2c68067964c338f157fe6fe8ad906abecd4a7332fc42be2",
+      "bytes": 2178026
+    }
+  },
+  {
     "publicPath": "/blog/nondisjunction-meiosis-1-vs-2.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/9c2f6c64a35f1d4ef7bcb4660639ba96f5d2287438b6d3d988fb22c0ffcd179a.png",
     "width": 1672,
