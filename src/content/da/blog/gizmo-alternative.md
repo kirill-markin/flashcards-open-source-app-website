@@ -136,7 +136,7 @@ Til gengæld er omfanget mindre. De aktuelle Nibomo-sider dokumenterer ikke Gizm
 
 ## Kan du flytte fra Gizmo til en anden app?
 
-Du kan prøve med en lille PDF i Nibomos webapp via **Bibliotek > Import > Importér fra en anden app**. Det sender filen til AI-chatten, der kan oprette nye kort. Jeg har ikke afprøvet det med en PDF fra Gizmo. Sammenlign de gemte spørgsmål og svar med originalen, og regn ikke med, at quizformater eller repetitionshistorik følger med. Se [vejledningen til import af flashcards](/docs/import-flashcards/).
+Gå til **Bibliotek > Import > Importér fra Gizmo** i Nibomos webapp, vælg PDF-filen, og klik på **Start import**. AI-chatten bruger filen til at oprette nye kort. Sammenlign de gemte kort med PDF-filen, og regn ikke med, at quizformater eller repetitionshistorik følger med. Se [vejledningen til at flytte kort fra Gizmo via PDF (på engelsk)](/blog/gizmo-export-pdf/).
 
 Hvis du vil overføre kortene manuelt, så vælg de vigtigste:
 

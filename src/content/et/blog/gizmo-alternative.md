@@ -2,7 +2,7 @@
 title: "Gizmo õpikaartide ülevaade (2026): tasuta paketi piirangud, Magic Import ja alternatiivid"
 description: "Ametlike allikate põhjal koostatud Gizmo õpikaartide ülevaade: Magic Importi ooteaeg tasuta paketis, AI Tutor, kaarditüübid, eksport, võrguühenduseta kasutuse tõendid ja praktiline alternatiiv."
 date: "2026-08-03"
-updated: "2026-09-01"
+updated: "2026-11-12"
 image: "/blog/gizmo-alternative-v2.png"
 keywords:
   - "Gizmo õpikaardid"
@@ -134,7 +134,7 @@ Kompromiss on võimaluste ulatus. Nibomo praegused lehed ei dokumenteeri Gizmo i
 
 ## Kas Gizmost saab teise rakendusse üle minna?
 
-Ava Nibomo veebirakenduses **Teek → Importimine → Impordi teisest rakendusest** ja vali PDF, millest AI saab uusi kaarte luua. Selle ülevaate jaoks ei proovitud Gizmo PDF-i üleviimist. Võrdle loodud kaarte algse pakiga. Vaata [impordijuhendit](/docs/import-flashcards/).
+Ava Nibomo veebirakenduses **Teek → Importimine → Impordi Gizmo rakendusest**, vali PDF-fail ja klõpsa nuppu **Alusta importi**. AI-vestluses luuakse faili põhjal uued kaardid. Võrdle salvestatud kaarte PDF-iga. Vaata [Gizmo PDF-i importimise juhendit (inglise keeles)](/blog/gizmo-export-pdf/).
 
 Gizmo interaktiivset vormingut vajavad küsimused loo vajaduse järgi uuesti:
 

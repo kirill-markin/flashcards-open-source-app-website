@@ -136,7 +136,7 @@ Výměnou za to dostanete užší rozsah funkcí. Aktuální stránky Nibomo nep
 
 ## Lze z Gizmo přejít do jiné aplikace?
 
-Malý soubor PDF můžete vyzkoušet ve webové aplikaci Nibomo přes **Knihovna > Import > Importovat z jiné aplikace**. Tato volba odešle soubor do chatu s AI, který z něj vytvoří nové kartičky. Postup jsem nezkoušel přímo s PDF z Gizmo. Uložené otázky a odpovědi porovnejte s originálem. Nepředpokládejte, že se přenesou typy kvízů nebo historie opakování. Podrobnosti najdete v [návod k importu kartiček](/docs/import-flashcards/).
+Ve webové aplikaci Nibomo přejděte do **Knihovna > Import > Importovat z aplikace Gizmo**, vyberte soubor PDF a klikněte na **Spustit import**. Chat s AI soubor použije k vytvoření nových kartiček. Uložené kartičky porovnejte s PDF. Nepředpokládejte, že se přenesou typy kvízů nebo historie opakování. Podrobnosti najdete v [návodu k přenosu PDF z Gizmo (v angličtině)](/blog/gizmo-export-pdf/).
 
 Pokud dáváte přednost ručnímu přenosu, vyberte důležité kartičky:
 

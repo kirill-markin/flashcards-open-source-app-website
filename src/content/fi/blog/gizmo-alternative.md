@@ -2,7 +2,7 @@
 title: "Gizmo-oppimiskorttien arvio (2026): ilmaisversion rajat, Magic Import ja vaihtoehdot"
 description: "Lähteisiin perustuva arvio Gizmon oppimiskorteista: Magic Importin odotusaika ilmaisversiossa, AI Tutor, korttityypit, vienti, offline-käytöstä löytyvät tiedot ja käytännöllinen vaihtoehto."
 date: "2026-08-03"
-updated: "2026-09-01"
+updated: "2026-11-12"
 image: "/blog/gizmo-alternative-v2.png"
 keywords:
   - "Gizmo-oppimiskortit"
@@ -134,7 +134,7 @@ Samalla Nibomon ominaisuusvalikoima on suppeampi. Nibomon nykyiset sivut eivät 
 
 ## Voiko Gizmosta siirtyä toiseen sovellukseen?
 
-Valitse Nibomon verkkosovelluksessa **Kirjasto → Tuonti → Tuo toisesta sovelluksesta** ja avaa PDF, josta tekoälykeskustelu voi luoda uusia kortteja. Gizmon PDF-siirtoa ei testattu tätä arviota varten. Vertaa tulosta alkuperäiseen pakkaan. Katso [tuontiopas](/docs/import-flashcards/).
+Valitse Nibomon verkkosovelluksessa **Kirjasto → Tuonti → Tuo sovelluksesta Gizmo**. Valitse PDF-tiedosto ja paina **Aloita tuonti**. Tekoälykeskustelu luo tiedostosta uusia kortteja. Vertaa tallennettuja kortteja PDF-tiedostoon. Katso [opas korttien siirtämiseen Gizmosta PDF:n avulla (englanniksi)](/blog/gizmo-export-pdf/).
 
 Jos kysymykset vaativat Gizmon vuorovaikutteisia korttityyppejä, tee tarvittavat kortit uudelleen:
 
