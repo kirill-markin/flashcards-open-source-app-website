@@ -751,6 +751,21 @@
     "bytes": 2398266
   },
   {
+    "publicPath": "/blog/brainscape-to-nibomo.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/4af0b82b5734c4ee7279b1ce0b0ec413a03f5b7bfb3a75dbe4e32d19c7cfb898.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "4af0b82b5734c4ee7279b1ce0b0ec413a03f5b7bfb3a75dbe4e32d19c7cfb898",
+    "bytes": 209800,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/f99933916390645bde1392523084af6dff3050a69e141274a3ada6d1c6a49d5f.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "f99933916390645bde1392523084af6dff3050a69e141274a3ada6d1c6a49d5f",
+      "bytes": 2691844
+    }
+  },
+  {
     "publicPath": "/blog/budget-view-example.jpg",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/08cf13659e97d3ba52bf562a1221af60b1dbc4671cd4a8d00db98bae8ee11909.jpg",
     "width": 3624,
