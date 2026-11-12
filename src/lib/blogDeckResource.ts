@@ -19,6 +19,7 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
 > = {
   "ege-social-studies-terms-practice": { ru: "ege-social-studies-terms-flashcards-russian" },
   "ege-history-chronology-practice": { ru: "ege-history-dates-personalities-flashcards-russian" },
+  "ege-word-stress-task-4-practice": { ru: "ege-2026-russian-orthoepy-flashcards" },
   "dna-reverse-complement-practice": { en: "dna-reverse-complement-flashcards" },
   "sanger-sequencing-chromatogram": { en: "dna-reverse-complement-flashcards" },
   "rna-splicing-practice": { en: "rna-splicing-exon-junction-flashcards" },
