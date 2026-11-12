@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1hi~1blog~1how-to-memorize-a-speech-with-flashcards.md"
 title: "2026 में फ़्लैशकार्ड से स्पीच कैसे याद करें: स्क्रिप्ट नहीं, संकेत अपनाएँ"
 description: "फ़्लैशकार्ड से स्पीच याद करना सीखें: रूपरेखा को cue cards में बदलें, किसी भी हिस्से से rehearsal करें और delivery के लिए पूरी स्पीच बोलकर देखें।"
 date: "2026-07-30"

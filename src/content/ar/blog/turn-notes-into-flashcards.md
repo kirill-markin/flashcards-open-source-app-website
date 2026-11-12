@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1ar~1blog~1turn-notes-into-flashcards.md"
 title: "كيفية تحويل الملاحظات إلى بطاقات تعليمية في 2026: مسودة بالذكاء الاصطناعي مع FSRS بدل النسخ واللصق يدويًا"
 description: "هل تريد تحويل الملاحظات إلى بطاقات تعليمية من دون أن تضيع ساعات في النسخ واللصق يدويًا؟ إليك سير عمل عملي في 2026: استخدم الذكاء الاصطناعي لصياغة مسودة بطاقات سؤال وجواب من ملاحظاتك النصية، ثم ذاكرها بتكرار متباعد يعتمد على FSRS."
 date: "2026-03-15"

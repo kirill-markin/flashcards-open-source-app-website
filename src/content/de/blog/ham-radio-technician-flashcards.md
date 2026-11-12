@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1de~1blog~1ham-radio-technician-flashcards.md"
 title: "Lernkarten für die US-Amateurfunkprüfung 2026: Der neue Technician-Fragenpool"
 description: "Erstelle Lernkarten für die US-Amateurfunkprüfung mit dem NCVEC-Fragenpool 2026–2030. Lerne Konzepte, arbeite Fehler aus Übungsprüfungen auf und bereite dich auf die 35 Prüfungsfragen vor."
 date: "2026-07-25"

@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1es~1blog~1knowt-alternative.md"
 title: "Reseña de Knowt (2026): plan gratis, uso sin conexión y alternativas"
 description: "Reseña de Knowt contrastada con fuentes: precios de Basic y Ultra, funciones gratuitas, límites de IA, uso sin conexión, importación desde Quizlet, exportación a PDF y alternativas."
 date: "2026-08-02"

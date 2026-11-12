@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1zh~1blog~1how-to-use-flashcards-for-the-ged.md"
 title: "2026 年如何用抽认卡备考 GED：真正能记住的 Math、RLA、Science 和 Social Studies"
 description: "2026 年想用 GED 抽认卡备考？这是一套适用于 Math、RLA、Science 和 Social Studies 的实用方法：围绕错题制卡，用 AI 精修，再配合 FSRS 复习。"
 image: "/blog/how-to-use-flashcards-for-the-ged.png"

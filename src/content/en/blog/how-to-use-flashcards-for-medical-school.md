@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1en~1blog~1how-to-use-flashcards-for-medical-school.md"
 title: "How to Use Flashcards for Medical School in 2026: Anatomy, Pharmacology, Pathology, and Spaced Repetition That Holds"
 description: "Want a practical medical school flashcards workflow in 2026? Here is how to use flashcards for med school across anatomy, pharmacology, pathology, lecture slides, question banks, and FSRS without turning the deck into a second curriculum."
 date: "2026-04-15"

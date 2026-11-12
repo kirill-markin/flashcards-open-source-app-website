@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1hi~1blog~1medical-terminology-flashcards.md"
 title: "2026 में मेडिकल टर्मिनोलॉजी फ़्लैशकार्ड: रूट, प्रीफ़िक्स और सफ़िक्स"
 description: "2026 में रूट, प्रीफ़िक्स, सफ़िक्स, पूरे मेडिकल शब्दों और संक्षिप्त रूपों के फ़्लैशकार्ड बनाने का व्यावहारिक, स्रोत से जाँचा तरीका।"
 date: "2026-08-09"

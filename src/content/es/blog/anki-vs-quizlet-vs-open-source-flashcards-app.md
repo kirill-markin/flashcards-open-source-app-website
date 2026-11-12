@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1es~1blog~1anki-vs-quizlet-vs-open-source-flashcards-app.md"
 title: "Anki vs Quizlet vs Nibomo en 2026: ¿cuál elegir?"
 description: "Comparamos Anki, Quizlet y Nibomo en 2026: repetición espaciada, uso sin conexión, IA, migración, precios, código abierto y control de tus datos."
 image: "/blog/anki-vs-quizlet-vs-open-source-flashcards-app.png"

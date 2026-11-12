@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1hi~1blog~1does-quizlet-work-offline.md"
 title: "क्या Quizlet 2026 में ऑफ़लाइन चलता है? इंटरनेट के बिना क्या काम करता है"
 description: "क्या Quizlet ऑफ़लाइन चलता है? हाँ—iOS और Android ऐप में, बशर्ते सेट पहले सहेजे हों। उपलब्ध मोड, डाउनलोड के चरण, सिंक की सीमाएँ और सफ़र से पहले की जाँच जानें।"
 date: "2026-08-14"

@@ -61,7 +61,7 @@ Un objetivo mejor para explicar suele ser una de estas cosas:
 
 Los temas pequeños dejan ver mejor los errores. Y errores más claros producen mejores tarjetas.
 
-Si el material fuente sigue desordenado antes de hacer la pasada de explicación, empieza por [Cómo convertir apuntes en flashcards en 2026](/es/blog/turn-notes-into-flashcards/).
+Si tienes los apuntes desordenados, reúne primero los fragmentos que respondan a una sola pregunta. Luego cierra los apuntes e intenta explicar la respuesta con tus propias palabras.
 
 ## Cómo suena una buena explicación al estilo Feynman
 
@@ -201,7 +201,7 @@ Malos usos:
 - pedir 40 tarjetas de un capítulo que todavía no has procesado
 - quedarte con tarjetas pulidas de IA que no coinciden con tu confusión real
 
-Si quieres profundizar en la parte de IA, [Cómo usar IA para hacer active recall en 2026](/es/blog/how-to-use-ai-for-active-recall/) es el artículo compañero adecuado.
+Si usas la IA para ponerte a prueba, pídele una pregunta concreta sobre el punto que peor explicaste y contéstala antes de pedirle una pista.
 
 ## Dónde encaja Nibomo
 

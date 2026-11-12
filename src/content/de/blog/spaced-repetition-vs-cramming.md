@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1de~1blog~1spaced-repetition-vs-cramming.md"
 title: "Spaced Repetition oder Pauken 2026: Was hilft bei Prüfungen besser?"
 description: "Spaced Repetition ist für langfristiges Behalten wirksamer als Pauken. Erfahre, wann gezieltes Lernen auf den letzten Drücker trotzdem hilft und wie du realistisch planst."
 date: "2026-07-20"

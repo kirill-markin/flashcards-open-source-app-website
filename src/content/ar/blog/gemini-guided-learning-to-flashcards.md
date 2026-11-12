@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1ar~1blog~1gemini-guided-learning-to-flashcards.md"
 title: "كيف تحوّل Gemini Guided Learning إلى بطاقات تعليمية في 2026: احتفِظ بالمعلّم وراجع نقاط الضعف باستخدام FSRS"
 description: "هل تستخدم Gemini Guided Learning في 2026؟ إليك سير العمل العملي: احتفِظ بجلسة التعلّم من أجل الفهم، وحوّل أخطاءك المتكررة وإجاباتك البطيئة والمفاهيم الهشّة إلى بطاقات تعليمية حتى يثبت المحتوى في ذاكرتك الأسبوع المقبل أيضًا."
 date: "2026-05-18"

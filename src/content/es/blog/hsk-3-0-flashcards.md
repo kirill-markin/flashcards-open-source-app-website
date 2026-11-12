@@ -1,6 +1,6 @@
 ---
-title: "Flashcards para el HSK 3.0 en 2026: no confundas 2.0 y 3.0"
-description: "Crea flashcards para el HSK 3.0 con el temario oficial, separa el material del HSK 2.0 y usa FSRS para vocabulario, caracteres, gramática y errores del examen."
+title: "Flashcards para preparar el nuevo examen HSK 3.0"
+description: "Prepara el HSK 3.0 con el temario oficial y las preguntas de muestra. Crea flashcards de vocabulario, caracteres y gramática y repásalas con FSRS."
 date: "2026-07-28"
 image: "/blog/hsk-3-0-flashcards.png"
 keywords:
@@ -8,74 +8,37 @@ keywords:
   - "flashcards para el HSK"
   - "nuevo HSK 2026"
   - "temario HSK 3.0"
-  - "HSK 2.0 vs 3.0"
+  - "preparación para el examen HSK 3.0"
   - "flashcards de vocabulario HSK"
   - "flashcards de caracteres chinos"
   - "flashcards de gramática HSK"
   - "estudiar chino con FSRS"
 ---
 
-Una semana separó dos versiones del HSK para los niveles 1–6 en enero de 2026. El examen regular del 24 de enero siguió el HSK 2.0; la prueba piloto del 31 de enero en determinados centros usó el HSK 3.0. Un mazo creado para una fecha puede no corresponder a la otra.
+Chinese Testing International (CTI) anunció el **13 de diciembre de 2026** como fecha de lanzamiento mundial del **HSK 3.0**. Para prepararte, empieza por el temario oficial y las preguntas de muestra del nivel al que quieras presentarte.
 
-Esa es la parte complicada de crear **flashcards para el HSK 3.0** en 2026. Para una fecha de examen de los niveles 1–6, confirma la versión antes de descargar una lista de palabras o crear un mazo. Después, usa el temario oficial correspondiente, distingue bien entre vocabulario, caracteres y gramática, y deja que FSRS programe los elementos concretos que conviene volver a recordar. Los ejercicios completos de comprensión auditiva, escritura y expresión oral, además de los exámenes de práctica cronometrados, siguen fuera del mazo.
+Usa flashcards para recordar vocabulario, caracteres, estructuras gramaticales y lo que aprendas al corregir tus errores. Deja que FSRS programe los repasos y reserva tiempo aparte para practicar tareas completas de examen.
 
-![Mano de una persona que estudia elige entre dos pilas separadas de flashcards sobre un escritorio cálido, con una tarjeta para reconocer un carácter chino y una cuadrícula aparte para practicar la escritura a mano](/blog/hsk-3-0-flashcards.png)
+![Tarjetas de caracteres chinos y una cuadrícula para practicar la escritura a mano sobre un escritorio](/blog/hsk-3-0-flashcards.png)
 
-## Primero, confirma qué versión usa tu examen de niveles 1–6 en 2026
+## Lanzamiento del HSK 3.0 y plazos de inscripción
 
-El [aviso sobre la prueba piloto del HSK 3.0](https://www.chinesetest.cn/notice) de Chinese Testing International (CTI) indica que la prueba piloto del 31 de enero de 2026 abarcó los niveles 1–6 del HSK en determinados centros. También señala que las fechas regulares de examen de 2026 para los niveles 1–6 usan el HSK 2.0 y que la fecha de inicio oficial del HSK 3.0 se anunciará por separado. Para la prueba piloto, los niveles 3–6 exigían inscribirse a la vez en las pruebas escrita y oral correspondientes.
+El [aviso oficial de CTI](https://old.chinesetest.cn/gonewcontent.do?flag=kdnew&id=51336883) indica los plazos de inscripción para los niveles 1–6 del HSK en la convocatoria del 13 de diciembre de 2026.
 
-A 28 de julio de 2026, esa sigue siendo la declaración más reciente sobre la puesta en marcha para los niveles 1–6 publicada en la página oficial de avisos del HSK 3.0. La existencia de un nuevo temario, preguntas de muestra y una prueba piloto no convierte todas las fechas posteriores de los niveles 1–6 en HSK 3.0. El calendario oficial presenta los [niveles 7–9 del HSK](https://www.chinesetest.cn/HSK/7-9) por separado; el aviso no califica las fechas de esos exámenes avanzados como HSK 2.0.
+- **Examen en papel:** hasta el 16 de noviembre de 2026 a las 24:00, hora de Pekín.
+- **Examen por ordenador:** hasta el 3 de diciembre de 2026 a las 24:00, hora de Pekín.
 
-Para tu examen, comprueba estas tres cosas:
+Los niveles 7–9 del HSK tienen un calendario propio en el [programa de exámenes de CTI para 2026](https://admin.chinesetest.cn/gonewcontent.do?id=50278989).
 
-1. Abre el [calendario oficial de exámenes de 2026](https://admin.chinesetest.cn/gonewcontent.do?id=50278989) y busca tu fecha en la sección de los niveles 1–6.
-2. Lee el aviso de inscripción de tu centro de examen. Busca una versión indicada de forma explícita, no solo un número de nivel.
-3. Si la página de inscripción no está clara, pregunta al centro si tu examen usa el HSK 2.0 o el HSK 3.0 y si también debes presentar la prueba oral.
+Busca un centro en la [web oficial del HSK](https://www.chinesetest.cn/HSK) y confirma que ofrece tu nivel y la modalidad que prefieres en la fecha elegida. Revisa las instrucciones de inscripción y comprueba si hay requisitos para la prueba oral de tu nivel.
 
-Guarda la respuesta junto con la fecha y la fuente. Una nota como `HSK 2.0, nivel 4, confirmado el 28 de julio por el centro de examen` es mucho más útil que una carpeta llamada `nuevo HSK`.
+## Temario oficial y preguntas de muestra
 
-Vuelve a comprobarlo si cambias de fecha o de centro. Haz lo mismo si cambias tu inscripción: la versión depende de esa fecha y ese centro, no queda vinculada para siempre al estudiante.
+El HSK 3.0 se organiza en tres etapas y nueve niveles. El temario abarca tareas, temas, vocabulario, gramática y caracteres chinos.
 
-## Mantén el HSK 2.0 y el HSK 3.0 en mazos separados
-
-No mezcles ambos temarios en un solo mazo enorme de chino con la esperanza de que las etiquetas lo arreglen después. Gran parte del contenido puede coincidir, pero la distribución por niveles y lo que exigen las tareas pueden ser diferentes. La cola de repaso para el examen debe dejar clara la versión.
-
-Usa nombres de mazo que hagan difícil pasar por alto la diferencia:
-
-- `HSK-2.0-L4 — examen 2026-08-23`
-- `HSK-3.0-L4 — estudio a largo plazo`
-- `Chino general — no específico del examen`
-
-Añade al reverso de cada tarjeta para el examen una breve referencia a la fuente:
-
-```text
-Versión: HSK 3.0
-Nivel: 4
-Fuente: temario oficial, vocabulario
-Comprobado: 2026-07-28
-```
-
-Si has confirmado que tu próximo examen usa el HSK 2.0, repasa el primer mazo. Puedes estudiar contenidos más amplios del HSK 3.0 para aprender chino a largo plazo, pero no deberían colarse en la cola de repaso para un examen 2.0.
-
-Si una tarjeta antigua no incluye una fuente, muévela a un mazo temporal llamado `sin verificar`. No la incluyas en los repasos para el examen hasta poder localizar la palabra, el carácter, el punto gramatical o la regla de la tarea en el temario que necesitas.
-
-## Parte del paquete oficial de materiales del HSK 3.0
-
-La [descripción oficial del HSK](https://www.chinesetest.cn/HSK) presenta el nuevo marco con tres etapas y nueve niveles. Indica que el nuevo temario abarca cinco componentes: tareas, temas, vocabulario, gramática y caracteres chinos. Es un punto de partida mucho mejor que una lista cualquiera de internet con la etiqueta «nuevo HSK».
-
-Si has confirmado que tu examen usa el HSK 3.0, consulta las fuentes en este orden:
-
-1. Empieza por el [portal oficial del temario del HSK 3.0](https://www.chinesetest.cn/syllabus).
-2. Descarga el [temario oficial del examen](https://hsk.cn-bj.ufileos.com/3.0/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B21219.pdf) enlazado y selecciona tu nivel dentro de cada componente.
-3. Descarga el paquete oficial de preguntas de muestra del HSK 3.0 desde el mismo portal. Úsalo para entender los formatos de la prueba piloto y diagnosticar errores.
-4. Consulta el aviso de inscripción de tu centro para conocer las reglas específicas de tu examen.
-
-El temario te dice qué corresponde a cada nivel. Las preguntas de muestra enseñan cómo se usan esos conocimientos en los materiales del HSK 3.0. El aviso de inscripción sigue determinando qué versión te corresponde.
-
-Los [Estándares de niveles de competencia en chino](https://www.moe.gov.cn/jyb_xwfb/gzdt_gzdt/s5987/202103/t20210329_523304.html), de alcance más amplio, pueden ayudarte a entender el modelo de tres etapas y nueve niveles, pero no sustituyen al temario vigente del examen ni al aviso de tu inscripción.
-
-No copies en bloque la lista oficial de vocabulario ni un examen de muestra entero dentro de un mazo. Selecciona una cantidad manejable, escribe tus propias preguntas breves y conserva el enlace a la fuente. Una lista copiada sirve como inventario, pero no aporta una práctica de recuperación útil.
+1. Abre el [temario oficial del HSK 3.0](https://www.chinesetest.cn/syllabus), selecciona tu nivel y consulta cada apartado. Si prefieres el PDF, busca **Examination Syllabus** en la [página oficial del HSK](https://www.chinesetest.cn/HSK).
+2. En el menú **HSK3.0** de esa página, descarga las [preguntas de muestra (ZIP)](https://hsk-sample-1409982902.cos.ap-beijing.myqcloud.com/HSK3.0.zip) en **Sample Questions** y abre los materiales de tu nivel. Haz una sección siguiendo sus instrucciones para ver cómo se plantean las preguntas y en cuáles te atascas.
+3. Crea un mazo para tu nivel, por ejemplo `HSK 3.0 — Nivel 3`. Empieza con unas pocas palabras o estructuras que no hayas logrado recordar al practicar. Anota en cada tarjeta el apartado del temario o el número de la pregunta para poder volver a la fuente.
 
 ## Divide el material según la habilidad que entrena
 
@@ -93,16 +56,9 @@ Después, añade una tarjeta de producción solo cuando la necesites:
 - Anverso: `mudarse; bānjiā`
 - Reverso: `搬家`
 
-`搬家` figura como vocabulario de nivel 3 en el temario oficial del HSK 3.0. La frase de ejemplo es original, no está copiada de una pregunta del examen. Sigue el mismo patrón con palabras de tu nivel confirmado: un significado, un contexto breve y una respuesta que puedas valorar.
+El temario incluye `搬家` en el vocabulario del nivel 3. Sigue el mismo modelo con palabras de tu nivel: un significado, un contexto breve y una respuesta que puedas evaluar.
 
 Evita los anversos que muestran a la vez los hanzi, el pinyin, la traducción y el ejemplo. Esa tarjeta apenas exige recordar nada. Evita también incluir cinco significados en español en un mismo reverso, salvo que el contexto del temario realmente los exija.
-
-Para palabras que se confunden con facilidad, pregunta por la diferencia:
-
-- Anverso: `办法 y 方法 pueden referirse a una «manera». En la frase de mi fuente, ¿por qué es 办法 la mejor opción?`
-- Reverso: Añade la diferencia verificada con tu profesor o con material didáctico oficial, más un ejemplo breve.
-
-No inventes la explicación a partir de un fragmento de diccionario. Verifícala primero.
 
 ### Las flashcards de caracteres chinos deben separar reconocimiento y escritura
 
@@ -120,7 +76,7 @@ Escritura:
 
 En las tarjetas de escritura, revela la respuesta solo después de haberla escrito. Compara la forma completa y elige entonces una valoración del repaso. Si importan el orden de los trazos o la calidad de la escritura, practícalos con un profesor, un cuaderno de ejercicios o una herramienta de escritura. Un reverso con texto puede mostrar la forma correcta, pero no puede evaluar el carácter que has escrito a mano.
 
-El temario oficial distingue los caracteres que debes reconocer de los que debes escribir. `搬` es un carácter de reconocimiento del nivel 3, mientras que `办法` es vocabulario del nivel 3 y sus dos caracteres, `办` y `法`, figuran en la lista de escritura del nivel 3. Comprueba el nivel y la lista correctos antes de suponer que cada palabra que tienes que leer también debes saber escribirla a mano.
+El temario oficial separa los caracteres que debes reconocer de los que debes saber escribir. Por ejemplo, en el nivel 3, `搬` figura en la lista de reconocimiento y `办` y `法` en la de escritura. Consulta las listas de tu nivel antes de elegir qué caracteres vas a practicar a mano.
 
 ### Las flashcards de gramática HSK deben obligarte a construir algo
 
@@ -131,8 +87,8 @@ Una etiqueta como `construcción con 把` genera familiaridad. Una pregunta brev
 
 Otro formato útil es el contraste:
 
-- Anverso: `Completa con 才 o 就: 他八点___到，我七点___到了。`
-- Reverso: Usa la respuesta verificada en tu fuente de aprendizaje y añade una explicación breve del contraste temporal.
+- Anverso: `Habíamos quedado a las ocho. Completa con 才 o 就: 他八点半___到，我七点半___到了。`
+- Reverso: `Primero 才, luego 就. Él no llegó hasta las ocho y media; yo ya estaba allí a las siete y media.`
 
 Incluye una sola construcción por tarjeta. Si la respuesta necesita tres párrafos de notas gramaticales, es probable que la pregunta sea demasiado amplia. Guarda la explicación en otro lugar y evalúa una sola decisión con la tarjeta.
 
@@ -149,14 +105,14 @@ Algunos ejemplos:
 
 Describe con precisión qué ocurrió:
 
-- Anverso: `En el diálogo de muestra, ¿qué palabra cambió el plan de «ya» a «otra vez»?`
-- Reverso: Añade la palabra verificada, el pinyin, el significado y una frase breve original.
+- Anverso: `飞机九点才起飞。¿Indica 才 que el avión despega antes o después de lo esperado?`
+- Reverso: `Después de lo esperado: el avión no despega hasta las nueve.`
 
 Después, vuelve a un audio que no conozcas. Leer esa tarjeta no entrena la comprensión en tiempo real, los cambios de hablante, la toma de apuntes ni la atención durante una grabación completa.
 
 ### Las tarjetas de tareas y expresión oral ofrecen pistas, no simulaciones
 
-La sección de tareas del temario oficial describe lo que los estudiantes deben ser capaces de hacer en situaciones de la vida diaria, de estudio y de trabajo. El paquete oficial de preguntas de muestra presenta los formatos de la prueba piloto del HSK 3.0. Consulta ambos antes de crear una tarjeta específica para un formato.
+El temario describe tareas que debes saber resolver en la vida diaria, en los estudios y en el trabajo. Consulta los ejemplos oficiales de tu nivel para ver cómo se evalúan esas habilidades.
 
 Una tarjeta de tarea puede conservar una decisión aprendida a partir de un error verificado:
 
@@ -200,7 +156,7 @@ Identifica qué laguna revela cada error del cuestionario y crea una tarjeta con
 
 ## Repasa las flashcards para el HSK con FSRS sin saturar la cola
 
-FSRS decide cuándo toca repasar una tarjeta guardada. No puede saber si esa tarjeta pertenece al HSK 2.0 o al HSK 3.0, si el chino es correcto o si la pregunta corresponde a tu nivel.
+FSRS programa cuándo toca repasar cada tarjeta. Usa el temario y los resultados de tus ejercicios para decidir qué tarjetas van en tu mazo.
 
 Empieza con una cantidad pequeña del tema actual y repasa las tarjetas pendientes antes de añadir más. Mantén visibles los cinco grupos de contenido mediante nombres de mazo o etiquetas:
 
@@ -220,7 +176,7 @@ Si una tarjeta parece imposible de valorar una y otra vez, edítala. Separa el s
 
 El HSK es un examen de idioma. Las preguntas breves de recuperación solo cubren una parte de la preparación.
 
-Incluye estas actividades en tu práctica habitual:
+Usa las preguntas de muestra de tu nivel para elegir qué actividades practicar con regularidad:
 
 - secciones completas de comprensión auditiva con audios oficiales que no conozcas
 - lectura de textos con preguntas relacionadas
@@ -239,11 +195,11 @@ Este límite también ayuda a mantener el mazo más pequeño. Un error de vocabu
 
 Una configuración práctica sería:
 
-1. Crea mazos separados para la versión y el nivel confirmados.
-2. Añade unas pocas tarjetas del temario oficial correspondiente.
+1. Crea un mazo para el nivel del HSK 3.0 que estés preparando.
+2. Añade unas pocas tarjetas del temario oficial de ese nivel.
 3. Después de practicar con las preguntas oficiales de muestra, añade solo correcciones verificadas que puedas volver a utilizar.
 4. Repasa las tarjetas cuando corresponda.
-5. Edita o elimina las preguntas que sean poco claras, estén obsoletas o pertenezcan a la versión equivocada.
+5. Edita o elimina las preguntas poco claras o que traten material que ya no necesitas.
 
 La aplicación no incluye mazos oficiales del HSK, no importa por ti el temario del HSK, no evalúa la expresión oral ni simula un examen HSK. Tú eliges las fuentes y compruebas cada tarjeta. La aplicación web alojada es un servicio beta que se ofrece según disponibilidad; también puedes alojarla por tu cuenta si quieres controlar la infraestructura de código abierto.
 
@@ -251,13 +207,9 @@ Consulta la [lista actual de funcionalidades](/es/features/) y la [guía de prim
 
 ## Preguntas frecuentes sobre las flashcards para el HSK 3.0
 
-### ¿Todos los exámenes HSK de niveles 1–6 en 2026 son HSK 3.0?
+### ¿Cómo sé si un mazo se ajusta al HSK 3.0?
 
-No. A 28 de julio, el aviso oficial sobre la prueba piloto indica que el examen de niveles 1–6 del 31 de enero en determinados centros fue una prueba del HSK 3.0, que las fechas regulares de los niveles 1–6 en 2026 usan el HSK 2.0 y que el inicio oficial se anunciará por separado. El calendario oficial presenta los niveles 7–9 por separado. Comprueba la fecha, el nivel, el centro y el aviso de inscripción.
-
-### ¿Puedo reutilizar mis flashcards de vocabulario del HSK 2.0?
-
-Puedes conservar el chino correcto para el estudio general, pero no des por sentado que pertenece al mismo nivel ni que es relevante para el examen. Verifica cada tarjeta con el temario correspondiente a tu examen y muévela a un mazo específico de esa versión solo después de comprobarla.
+Comprueba que el mazo indica el nivel y cita el temario oficial. Compara algunas tarjetas con las listas de vocabulario, caracteres o gramática de ese nivel antes de añadir el mazo a tus repasos.
 
 ### ¿Una tarjeta debe mostrar hanzi, pinyin y español?
 
@@ -267,10 +219,6 @@ Solo si la parte oculta sigue exigiendo recordar algo. Separa el reconocimiento,
 
 No. Pueden ayudarte a retener vocabulario, diferencias, pistas para responder y errores corregidos. Sigues necesitando audios que no conozcas, respuestas orales completas, comentarios y práctica cronometrada con el formato oficial.
 
-## Confirma la versión y crea las primeras diez tarjetas
+## Crea tus primeras diez tarjetas para el HSK 3.0
 
-Para una fecha de examen de los niveles 1–6, empieza por el registro de inscripción de ese examen concreto. Anota `HSK 2.0` o `prueba piloto del HSK 3.0`, el nivel, la fecha, el centro y la fuente. Después, abre el temario oficial correspondiente y crea diez tarjetas concretas a partir del material que estás estudiando ahora.
-
-Mantén separados el vocabulario, los caracteres, la gramática y las correcciones de las preguntas de muestra. Deja que FSRS programe esas tarjetas mientras practicas por otra vía la comprensión auditiva, la lectura, la escritura, la expresión oral y los exámenes completos con límite de tiempo.
-
-Esta es la forma práctica de estudiar para el HSK en 2026: el material correcto para la versión correcta, sin tarjetas misteriosas que se cuelen del 2.0 al 3.0 o viceversa.
+Elige un apartado del temario o un bloque de preguntas de muestra de tu nivel. Crea diez tarjetas para recordar cosas concretas: una palabra que no reconociste, un carácter que leíste mal o una estructura que no supiste usar. Repásalas cuando lo indique FSRS y después resuelve otra pregunta para ver si puedes aplicar lo aprendido.

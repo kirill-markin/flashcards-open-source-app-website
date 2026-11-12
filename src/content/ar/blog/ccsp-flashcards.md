@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1ar~1blog~1ccsp-flashcards.md"
 title: "بطاقات CCSP التعليمية في 2026: استعد وفق مخطط اختبار 1 أغسطس"
 description: "أنشئ بطاقات CCSP التعليمية لمخطط 1 أغسطس 2026: متوسطات أوزان المجالات، وتغطية AI/ML المنقحة، وبطاقات القرار، وأخطاء أسئلة التدريب، والمراجعة باستخدام FSRS."
 date: "2026-07-18"

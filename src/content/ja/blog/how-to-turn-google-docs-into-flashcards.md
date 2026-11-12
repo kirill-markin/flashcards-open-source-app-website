@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1ja~1blog~1how-to-turn-google-docs-into-flashcards.md"
 title: "2026年版 Google Docsをフラッシュカードにする方法: 共有ドキュメントを整えてFSRSカードに変える"
 description: "2026年に Google Docs をフラッシュカードにする現実的な手順です。見出し単位で整理し、コメントと提案を見極め、弱い AI カードを落としてから、残ったカードだけを FSRS で回します。"
 image: "/blog/how-to-turn-google-docs-into-flashcards.png"

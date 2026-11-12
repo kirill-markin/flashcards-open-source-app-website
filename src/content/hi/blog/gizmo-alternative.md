@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1hi~1blog~1gizmo-alternative.md"
 title: "Gizmo Flashcards रिव्यू (2026): फ्री प्लान की सीमाएँ, Magic Import और विकल्प"
 description: "आधिकारिक स्रोतों से जाँचा गया Gizmo flashcards रिव्यू: Magic Import का 20 मिनट का इंतज़ार, AI Tutor, कार्ड के प्रकार, export, offline इस्तेमाल के प्रमाण और एक व्यावहारिक विकल्प।"
 date: "2026-08-03"

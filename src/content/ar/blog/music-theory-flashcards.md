@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1ar~1blog~1music-theory-flashcards.md"
 title: "بطاقات نظرية الموسيقى في 2026: النغمات والمسافات والسلالم والتآلفات"
 description: "أنشئ بطاقات لنظرية الموسيقى عن النغمات والمسافات وأدلة السلالم والتآلفات، بإجابات تراعي الكتابة الموسيقية الصحيحة وخطة دراسة عملية."
 date: "2026-08-04"

@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1de~1blog~1how-to-use-flashcards-for-language-learning.md"
 title: "Wie du 2026 Flashcards fürs Sprachenlernen nutzt: Vokabeln, Beispielsätze und Wiederholungen, die wirklich hängen bleiben"
 description: "Du willst 2026 mit Flashcards Sprachen lernen, ohne leblose Wortlisten auswendig zu pauken? Hier ist ein praktisches System für Vokabeln, Satzkarten, Wiederholungsaufwand und FSRS, das langfristig trägt."
 date: "2026-04-04"

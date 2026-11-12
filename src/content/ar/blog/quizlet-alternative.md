@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1ar~1blog~1quizlet-alternative.md"
 title: "بديل Quizlet مفتوح المصدر في 2026: مقارنة Quizlet وNibomo"
 description: "هل تبحث عن بديل Quizlet مفتوح المصدر؟ قارن بين Quizlet وNibomo من حيث أوضاع الدراسة، وFSRS، والعمل دون اتصال، والذكاء الاصطناعي، والمشاركة، والاستيراد، والتصدير، والتحكم في البيانات."
 date: "2026-03-17"

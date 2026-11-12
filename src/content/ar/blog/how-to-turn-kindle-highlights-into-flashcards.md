@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1ar~1blog~1how-to-turn-kindle-highlights-into-flashcards.md"
 title: "كيف تحوّل مقاطع Kindle المظللة إلى بطاقات تعليمية في 2026: حافظ على عادة القراءة وأضف تكرارًا متباعدًا حقيقيًا"
 description: "هل تريد تحويل مقاطع Kindle المظللة إلى بطاقات تعليمية في 2026؟ إليك طريقة عملية: صدّر أو انسخ أفضل المقاطع، وحوّل ما يستحق التذكّر فقط إلى بطاقات واضحة، ثم راجعه باستخدام FSRS بدل أن يظل حبيس دفتر الملاحظات."
 date: "2026-04-07"

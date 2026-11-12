@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1ar~1blog~1toefl-flashcards.md"
 title: "بطاقات TOEFL التعليمية في 2026: المفردات، وأنواع مهام iBT الجديدة، وأخطاء الاختبارات التدريبية"
 description: "أنشئ بطاقات TOEFL التعليمية لصيغة iBT الجديدة في 2026: راجع المفردات، وأنماط الجمل، وأنواع المهام، والأخطاء في التدريب الرسمي باستخدام FSRS، بدلًا من المجموعات القديمة."
 date: "2026-07-16"

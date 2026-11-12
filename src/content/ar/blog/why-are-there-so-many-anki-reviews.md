@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1ar~1blog~1why-are-there-so-many-anki-reviews.md"
 title: "لماذا زاد عدد مراجعات Anki إلى هذا الحد في 2026؟ أصلح قفزات المراجعة من دون ترك التكرار المتباعد"
 description: "هل ترى عدد مراجعات في Anki أكبر بكثير مما توقعت؟ هذا دليل عملي لعام 2026 يشرح لماذا يقفز عدد المراجعات مع FSRS، وحدود البطاقات الجديدة، وخطوات التعلّم، وإعدادات الاحتفاظ، وكيف تعيد الطابور إلى وضع يمكن السيطرة عليه من دون إعادة ضبط مجموعتك."
 date: "2026-07-04"

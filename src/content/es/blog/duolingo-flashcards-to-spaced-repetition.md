@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1es~1blog~1duolingo-flashcards-to-spaced-repetition.md"
 title: "Flashcards de Duolingo (2026): cómo funcionan y qué repasar después"
 description: "Descubre cómo funcionan las rondas de cinco fichas de Duolingo, dónde aparecen en las lecciones y cómo convertir los fallos recurrentes en un pequeño mazo FSRS bajo tu control."
 date: "2026-06-12"
