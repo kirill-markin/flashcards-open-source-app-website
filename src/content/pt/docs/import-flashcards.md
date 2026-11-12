@@ -22,6 +22,7 @@ As opções abaixo estão disponíveis no app web. Se o menu ou a opção que vo
 | Mochi | `.mochi` | Escolher arquivos |
 | SuperMemo | `.xml` | Escolher arquivos |
 | AlgoApp (antes chamado AnkiApp) | `.zip` ou `.xml` | Escolher arquivos |
+| Gizmo | `.pdf` | Escolha o arquivo em **Importar de Gizmo** |
 | Outro app | `.csv`, `.txt`, `.xlsx`, `.pdf`, `.json`, `.xml`, `.md`, `.docx` ou `.zip` | Escolha os arquivos em **Importar de outro app** |
 | Planilha | Linhas copiadas com a frente e o verso de cada cartão | Cole em **Importar de uma planilha** |
 | Nibomo | Um `flashcards.zip` exportado do Nibomo | Confira a prévia em **Importar do Nibomo** |
@@ -36,6 +37,8 @@ Se você tem um arquivo antigo do Excel no formato `.xls`, salve-o como `.xlsx` 
 2. No Nibomo, vá a **Biblioteca > Importar** e abra a opção do seu app. Para o Quizlet, cole o texto copiado. Para outras origens, escolha os arquivos exportados. Se seu app não estiver na lista, mas exportar em um formato aceito, como PDF, use **Importar de outro app**.
 3. Selecione **Iniciar importação**. O Nibomo abre um novo chat de IA e envia o pedido de importação com seus arquivos ou o texto colado. É preciso ter conexão à internet. Cada arquivo enviado para importação com IA pode ter até **30 MiB**. Se o seu for maior, exporte baralhos ou conjuntos menores separadamente.
 4. Confira o resultado na **Biblioteca**. O chat de IA pode salvar os cartões em lotes. Se parar no meio, confira quais cartões já estão no Nibomo e peça para o chat continuar de onde parou antes de tentar importar tudo de novo.
+
+No Gizmo, abra o menu de três pontos do baralho e selecione **Print**. Na janela de impressão do navegador, escolha **Save as PDF**. No Nibomo, vá a **Biblioteca > Importar** e escolha **Importar de Gizmo**. Selecione o PDF e clique em **Iniciar importação**. Compare os cartões salvos na **Biblioteca** com o PDF. Confira a quantidade de cartões e veja se cada frente tem o verso certo.
 
 ### Comece com poucos cartões
 

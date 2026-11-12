@@ -22,6 +22,7 @@ Poniższe opcje są dostępne w aplikacji webowej. Skorzystaj z niej, jeśli na 
 | Mochi | `.mochi` | Wybierz pliki |
 | SuperMemo | `.xml` | Wybierz pliki |
 | AlgoApp (dawniej AnkiApp) | `.zip` lub `.xml` | Wybierz pliki |
+| Gizmo | `.pdf` | Wybierz plik w sekcji **Importuj z aplikacji Gizmo** |
 | Inna aplikacja | `.csv`, `.txt`, `.xlsx`, `.pdf`, `.json`, `.xml`, `.md`, `.docx` lub `.zip` | Wybierz pliki w sekcji **Importuj z innej aplikacji** |
 | Arkusz kalkulacyjny | Skopiowane wiersze z przodem i tyłem każdej fiszki | Wklej w sekcji **Importuj z arkusza kalkulacyjnego** |
 | Nibomo | Plik `flashcards.zip` wyeksportowany z Nibomo | Sprawdź podgląd w sekcji **Importuj z Nibomo** |
@@ -36,6 +37,8 @@ Jeśli masz starszy plik Excela w formacie `.xls`, zapisz go najpierw jako `.xls
 2. W Nibomo przejdź do **Biblioteka > Import** i wybierz swoją aplikację. W przypadku Quizlet wklej skopiowany tekst. W pozostałych przypadkach wybierz wyeksportowane pliki. Jeśli Twojej aplikacji nie ma na liście, a eksportuje w obsługiwanym formacie, na przykład PDF, wybierz **Importuj z innej aplikacji**.
 3. Kliknij **Rozpocznij import**. Nibomo otworzy nowy czat AI i wyśle polecenie importu razem z plikami lub wklejonym tekstem. Potrzebujesz połączenia z internetem. Każdy plik importowany przez AI może mieć do **30 MiB**. Jeśli jest większy, spróbuj wyeksportować mniejsze talie lub zestawy osobno.
 4. Sprawdź wynik w sekcji **Biblioteka**. Czat AI może zapisywać fiszki partiami. Jeśli zatrzyma się w trakcie, sprawdź, które fiszki są już w Nibomo, i poproś o dokończenie importu przed ponownym wysłaniem całego eksportu.
+
+W Gizmo otwórz menu talii pod trzema kropkami i wybierz **Print**. W oknie drukowania przeglądarki wybierz **Save as PDF**. W Nibomo przejdź do **Biblioteka > Import** i wybierz **Importuj z aplikacji Gizmo**. Wybierz plik PDF i kliknij **Rozpocznij import**. Porównaj fiszki zapisane w sekcji **Biblioteka** z plikiem PDF. Sprawdź, czy zgadza się liczba fiszek i czy każda ma właściwą treść z przodu i z tyłu.
 
 ### Najpierw wypróbuj import małego zestawu
 
