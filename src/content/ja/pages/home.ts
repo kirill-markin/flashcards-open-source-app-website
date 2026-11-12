@@ -112,7 +112,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "データをインポート・エクスポートして自分で管理",
           description:
-            "学習素材はいつでも出し入れできます。持ち運べるエクスポートには、フラッシュカード、タグ、関連メディアが含まれます。",
+            "QuizletやAnkiなどからカードを取り込めます。Nibomoのカード、タグ、メディアはいつでもエクスポートできます。",
+          link: {
+            label: "フラッシュカードのインポート方法",
+            href: "/docs/import-flashcards/",
+          },
         },
         {
           title: "AI エージェントと連携",

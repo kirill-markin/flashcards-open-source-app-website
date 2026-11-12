@@ -167,6 +167,8 @@ Mochi [rezerves kopiju pamācībā](https://mochi.cards/docs/getting-started/bac
 
 Mochi [Markdown un CSV eksports](https://mochi.cards/docs/import-and-export/exporting/) ir paredzēts pārnesamībai. Markdown izveido vienu failu katrai kartītei un mapes apakškomplektiem, bet nesaglabā atkārtojumu vēsturi, kartīšu secību, veidnes un metadatu birkas, ja vien birkas nav pašā Markdown tekstā. CSV var eksportēt veidņu laukus vai attēloto priekšpusi un aizmuguri, bet nesaglabā atkārtojumu vēsturi, veidnes vai metadatu birkas, ja vien tās nav iekļautas saturā.
 
+Lai izmēģinātu Mochi komplektu lietotnē Nibomo, tīmekļa lietotnē atveriet **Bibliotēka > Importēt > Importēt no Mochi** un izvēlieties `.mochi` failu. Noklikšķiniet uz **Sākt importēšanu**, lai nosūtītu failu uz MI sarunu. Pārbaudiet izveidoto kartīšu saturu un multividi. Saglabājiet sākotnējo failu veidņu un atkārtošanas vēstures atjaunošanai lietotnē Mochi.
+
 Anki ir līdzīgs nošķīrums:
 
 - `.colpkg` eksportē visu kolekciju ar plānošanas datiem un var ietvert multividi. Tā importēšana aizstāj kartītes mērķa Anki kolekcijā.

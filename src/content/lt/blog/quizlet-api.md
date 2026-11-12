@@ -19,7 +19,7 @@ keywords:
 
 **Faktai patikrinti:** 2026 m. rugpjūčio 18 d.
 
-> **Apie autoriaus interesus:** esu Kirill Markin ir kuriu „Nibomo“, kurios „Agent API“ bei MCP serverį toliau pristatau kaip alternatyvas. „Nibomo“ nėra suderinama su „Quizlet“ ir automatiškai neimportuoja „Quizlet“ rinkinių.
+> **Apie autoriaus interesus:** esu Kirill Markin ir kuriu „Nibomo“, kurios „Agent API“ bei MCP serverį toliau pristatau kaip alternatyvas. „Nibomo“ API veikia „Nibomo“ darbo srityse. Norėdami perkelti „Quizlet“ rinkinį, pirmiausia eksportuokite tekstą „Quizlet“ svetainėje.
 
 ![Programuotojas lygina „Quizlet“ eksportą, įterpimą, konkrečias integracijas ir dokumentuotą mokymosi kortelių API](/blog/quizlet-api.png)
 
@@ -93,7 +93,7 @@ Saugus kelias – mokymosi kortelių sistema, kuri aiškiai dokumentuoja išorin
 
 Abiem atvejais prieiga apribota pasirinkta darbo sritimi. Viešai aprašyti ištekliai yra `workspace`, `cards`, `decks` ir `review_events`, o viena komanda grąžina ne daugiau kaip 100 eilučių. SQL tipo sąsaja palaiko tik ribotą SQL dialektą, o ne visą „PostgreSQL“ SQL. „OpenAPI“ schemos nėra, todėl jei jūsų sprendimui reikia pagal „OpenAPI“ sugeneruotų klientų, turėsite rinktis kitą sąsają.
 
-Tai gali padėti programuotojui ar DI agentui automatizuoti darbą su savo mokymosi kortelėmis. Tačiau ši sąsaja negali nuskaityti „Quizlet“ URL, atkartoti „Quizlet“ paskyros ar veikti kaip nedokumentuotas „Quizlet“ klientas. Automatinio importo iš „Quizlet“ nėra. Norėdami perkelti duomenis, pirmiausia eksportuokite savo rinkinio terminus ir apibrėžtis, peržiūrėkite tekstą ir tada susiekite jį su paskirties sistemos kortelių laukais. Paskirties sistema sukuria savo mokymosi būseną; „Quizlet“ istorija neperkeliama.
+Tai gali padėti programuotojui ar DI agentui automatizuoti darbą su savo mokymosi kortelėmis. Tačiau ši sąsaja negali nuskaityti „Quizlet“ URL, atkartoti „Quizlet“ paskyros ar veikti kaip nedokumentuotas „Quizlet“ klientas. Nukopijuokite „Quizlet“ rinkinio, kurį galite eksportuoti, tekstą. „Nibomo“ internetinėje programėlėje atidarykite **Biblioteka > Importuoti > Importuoti iš „Quizlet“**, įklijuokite tekstą ir pasirinkite **Pradėti importuoti**. Užklausa bus nusiųsta į DI pokalbį, kuriame bus išsaugotos kortelės. Išsaugokite pradinį eksportą. Palyginkite importuotų kortelių skaičių ir abi jų puses su pradiniu rinkiniu. „Quizlet“ kartojimo istorija neperkeliama.
 
 Apie kitus produktų skirtumus, neapsiribojant API prieiga, skaitykite [atvirojo kodo alternatyvos „Quizlet“ palyginime](/blog/quizlet-alternative/).
 

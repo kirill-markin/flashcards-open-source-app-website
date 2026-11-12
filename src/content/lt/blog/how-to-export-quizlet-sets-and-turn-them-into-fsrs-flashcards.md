@@ -104,16 +104,11 @@ Kad saugiai paruoštumėte CSV failą iš Quizlet teksto:
 
 Skaičiuoklė gali pridėti CSV reikalingas kabutes. Visų tabuliacijos ženklų pakeitimas kableliais to patikimai neatlieka.
 
-## Perkelkite tekstą į Nibomo kaip juodraštinę medžiagą, kurią reikės peržiūrėti
+## Perkelkite tekstą į „Nibomo“ ir patikrinkite korteles
 
-[Nibomo](/lt/features/) neturi tiesioginio Quizlet importavimo įrankio. Internetinėje programoje galite prisegti TXT arba CSV failą ir padedami DI sukurti kortelių juodraščius. Tai nėra perkėlimas be praradimų.
+Nukopijuokite „Quizlet“ rinkinio, kurį galite eksportuoti, tekstą. „Nibomo“ internetinėje programėlėje atidarykite **Biblioteka > Importuoti > Importuoti iš „Quizlet“**, įklijuokite tekstą ir pasirinkite **Pradėti importuoti**. Užklausa bus nusiųsta į DI pokalbį, kuriame bus išsaugotos kortelės. Išsaugokite pradinį eksportą. Palyginkite importuotų kortelių skaičių ir abi jų puses su pradiniu rinkiniu.
 
-1. Pirminį Quizlet failą laikykite už programos ribų.
-2. Nibomo DI pokalbyje prisekite sutvarkytą TXT arba tinkamai paruoštą CSV failą.
-3. Pasakykite asistentui, koks skirtukas ir kokie laukai naudojami faile.
-4. Paprašykite parodyti nedidelį pavyzdį ir aiškiai nurodykite kol kas kortelių nesaugoti.
-5. Palyginkite siūlomą kortelių skaičių, priekines ir galines puses su darbiniu failu.
-6. Išsaugokite tik peržiūrėtas korteles.
+Jei turite sutvarkytą dviejų stulpelių tekstą, įklijuokite jį skiltyje **Importuoti iš skaičiuoklės** ir peržiūrėkite prieš išsaugodami. Jei pirmiausia norite pamatyti DI parengtą pavyzdį, pridėkite sutvarkytą TXT ar CSV failą prie naujo DI pokalbio.
 
 [Darbo pradžios vadove](/docs/getting-started/) aprašytas DI pokalbis, kuriame galima naudoti darbo srities duomenis ir prisegtus failus. Atsargi užklausa galėtų būti tokia:
 

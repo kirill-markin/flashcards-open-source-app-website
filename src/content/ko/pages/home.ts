@@ -111,7 +111,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "가져오기, 내보내기, 내 데이터는 내 것",
           description:
-            "학습 자료를 언제든 넣고 뺄 수 있습니다. 내보낸 파일에는 카드, 태그, 관련 미디어가 함께 담깁니다.",
+            "Quizlet, Anki 등에서 카드를 가져오세요. Nibomo의 카드, 태그, 미디어는 언제든 내보낼 수 있습니다.",
+          link: {
+            label: "플래시카드 가져오는 방법",
+            href: "/docs/import-flashcards/",
+          },
         },
         {
           title: "AI 에이전트와 연동",

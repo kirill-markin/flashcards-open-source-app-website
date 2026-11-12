@@ -19,7 +19,7 @@ Saskaņā ar 2026. gada 18. augustā pieejamo dokumentāciju Quizlet nepiedāvā
 
 **Fakti pārbaudīti:** 2026. gada 18. augustā.
 
-> **Par autora saistību ar produktu:** Esmu Kirill Markin un izstrādāju Nibomo, kura Agent API un MCP serveris tālāk minēti kā alternatīvas. Nibomo nav saderīgs ar Quizlet un automātiski neimportē Quizlet komplektus.
+> **Par autora saistību ar produktu:** Esmu Kirill Markin un izstrādāju Nibomo, kura Agent API un MCP serveris tālāk minēti kā alternatīvas. Nibomo API darbojas Nibomo darbvietās. Lai pārvietotu Quizlet komplektu, vispirms eksportē tekstu Quizlet vietnē.
 
 ![Izstrādātājs salīdzina Quizlet eksportēšanu, iegulšanu, konkrētas integrācijas un dokumentētu mācību kartīšu API](/blog/quizlet-api.png)
 
@@ -93,7 +93,7 @@ Nibomo dokumentē divus veidus, kā piekļūt vienam un tam pašam ierobežotaja
 
 Abi piekļuves veidi darbojas izvēlētās darbvietas ietvaros. Dokumentētie resursi ir `workspace`, `cards`, `decks` un `review_events`, un katra priekšraksta rezultāts ir ierobežots līdz 100 rindām. SQL tipa saskarne piedāvā ierobežotu dialektu, nevis pilnu PostgreSQL sintaksi. OpenAPI shēmas nav, tāpēc procesiem, kuriem vajadzīgi ģenerēti OpenAPI klienti, būs jāizvēlas cita saskarne.
 
-Šīs iespējas var palīdzēt izstrādātājam vai MI aģentam automatizēt darbu ar savām mācību kartītēm. Nibomo nevar nolasīt saturu no Quizlet URL, veidot Quizlet konta spoguļkopiju vai darboties kā nedokumentēts Quizlet klients. Automātiskas importēšanas no Quizlet nav. Migrācijai vispirms eksportē terminus un definīcijas no sava komplekta, pārskati tekstu un pēc tam norādi, kuros galamērķa sistēmas kartīšu laukos tas jāievieto. Galamērķa sistēmā mācību stāvoklis tiek veidots no jauna; Quizlet vēsture netiek pārnesta.
+Šīs iespējas var palīdzēt izstrādātājam vai MI aģentam automatizēt darbu ar savām mācību kartītēm. Nibomo nevar nolasīt saturu no Quizlet URL, veidot Quizlet konta spoguļkopiju vai darboties kā nedokumentēts Quizlet klients. Nokopē tāda Quizlet komplekta tekstu, kuru drīksti eksportēt. Nibomo tīmekļa lietotnē atver **Bibliotēka > Importēt > Importēt no Quizlet**, ielīmē tekstu un izvēlies **Sākt importēšanu**. Pieprasījums nonāk MI sarunā, kurā tiek saglabātas kartītes. Saglabā eksporta oriģinālu. Salīdzini importēto kartīšu skaitu un abas kartīšu puses ar sākotnējo komplektu. Quizlet atkārtošanas vēsture netiek pārnesta.
 
 Par citām produktu atšķirībām, ne tikai API piekļuvi, lasi [salīdzinājumā ar atvērtā pirmkoda Quizlet alternatīvu](/blog/quizlet-alternative/).
 

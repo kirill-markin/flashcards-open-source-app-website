@@ -44,6 +44,10 @@ Greičiausiai pradėti galite mūsų talpinamoje žiniatinklio programėlėje:
 
 Renkantis talpinamą variantą nereikia nieko diegti ar konfigūruoti serverio.
 
+## Perkelkite turimas korteles
+
+Jau turite kortelių „Quizlet“, „Anki“ ar kitoje programėlėje? Atidarykite **Biblioteka > Importuoti**. [Kortelių importavimo vadove](/docs/import-flashcards/) rasite tinkamą formatą ir sužinosite, ką galima perkelti.
+
 ## Agento sąranka
 
 MCP klientai, pavyzdžiui, Claude, ChatGPT ir Cursor, gali prisijungti pagal [MCP jungties vadovą](/docs/mcp-connector/).

@@ -111,7 +111,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Importas, eksportas ir duomenys, kurie priklauso jums",
           description:
-            "Perkelkite mokymosi medžiagą į programėlę ar iš jos kada panorėję. Į eksportą įtraukiamos kortelės, žymos ir susijusi medija.",
+            "Perkelkite korteles iš „Quizlet“, „Anki“ ir kitų programėlių. „Nibomo“ korteles, žymas ir mediją galite eksportuoti bet kada.",
+          link: {
+            label: "Kaip importuoti korteles",
+            href: "/docs/import-flashcards/",
+          },
         },
         {
           title: "Veikia su DI agentais",

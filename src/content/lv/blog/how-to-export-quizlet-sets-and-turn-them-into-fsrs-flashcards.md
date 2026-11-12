@@ -104,16 +104,11 @@ Lai droši izveidotu CSV failu no Quizlet teksta:
 
 Izklājlapu programma var pievienot CSV nepieciešamās pēdiņas. Vienkārša visu tabulācijas rakstzīmju aizstāšana ar komatiem to droši nepaveiks.
 
-## Pārnesiet tekstu uz Nibomo kā pārbaudāmus kartīšu melnrakstus
+## Pārnes tekstu uz Nibomo un pārbaudi kartītes
 
-[Nibomo](/lv/features/) nav tiešas Quizlet importēšanas funkcijas. Nibomo tīmekļa lietotnē TXT un CSV failus izmanto kā pielikumus, no kuriem mākslīgais intelekts (MI) veido kartīšu melnrakstus; tā nav datu pārnešana bez zudumiem.
+Nokopē tāda Quizlet komplekta tekstu, kuru drīksti eksportēt. Nibomo tīmekļa lietotnē atver **Bibliotēka > Importēt > Importēt no Quizlet**, ielīmē tekstu un izvēlies **Sākt importēšanu**. Pieprasījums nonāk MI sarunā, kurā tiek saglabātas kartītes. Saglabā eksporta oriģinālu. Salīdzini importēto kartīšu skaitu un abas kartīšu puses ar sākotnējo komplektu.
 
-1. Saglabājiet neapstrādāto Quizlet failu ārpus lietotnes.
-2. Pievienojiet izlaboto TXT vai rūpīgi sagatavoto CSV failu Nibomo MI tērzēšanā.
-3. Pastāstiet asistentam, kāds atdalītājs un lauki izmantoti failā.
-4. Lūdziet nelielu priekšskatījumu un skaidri norādiet, ka kartītes vēl nav jāsaglabā.
-5. Salīdziniet piedāvāto kartīšu skaitu, priekšpuses un aizmugures ar darba failu.
-6. Saglabājiet tikai tās kartītes, kuras esat pārbaudījis.
+Sakārtotu divu kolonnu tekstu vari ielīmēt sadaļā **Importēt no izklājlapas** un pārskatīt pirms saglabāšanas. Ja vispirms vēlies redzēt MI sagatavotu piemēru, jaunai MI sarunai pievieno sakārtotu TXT vai CSV failu.
 
 [Darba sākšanas ceļvedī](/docs/getting-started/) ir aprakstīta MI tērzēšana ar darbvietas datiem un failu pielikumiem. Piesardzīga uzvedne varētu būt šāda:
 

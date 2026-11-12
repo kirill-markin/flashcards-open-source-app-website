@@ -2,7 +2,7 @@
 title: "Gizmo mācību kartīšu apskats (2026): bezmaksas plāna ierobežojumi, Magic Import un alternatīvas"
 description: "Oficiālajos avotos balstīts Gizmo mācību kartīšu apskats: Magic Import gaidīšana bezmaksas plānā, AI Tutor, kartīšu tipi, eksports, ziņas par darbību bezsaistē un praktiska alternatīva."
 date: "2026-08-03"
-updated: "2026-09-01"
+updated: "2026-11-12"
 image: "/blog/gizmo-alternative-v2.png"
 keywords:
   - "Gizmo mācību kartītes"
@@ -18,9 +18,9 @@ Ja vēlaties bez maksas importēt Gizmo visas nedēļas piezīmes vairākās da�
 
 Šis Gizmo mācību kartīšu apskats balstās uz pašreizējām oficiālajām palīdzības lapām. Es neesmu pats izmēģinājis Gizmo praksē, tāpēc par produkta iespējām rakstīšu tikai to, ko Gizmo dokumentē, un skaidri norādīšu neskaidrības.
 
-> **Par manu saistību ar Nibomo:** esmu Kirill Markin un izstrādāju [Nibomo](https://nibomo.com/), tālāk salīdzināto alternatīvu. Gizmo dokumentācijā aprakstīts plašāks mācību process: vairāk avotu formātu, pieci kartīšu tipi, AI Tutor nodarbības, dažādi pārbaudes uzdevumi un spēlei līdzīga progresa sistēma. Nibomo darbības joma ir apzināti šaurāka.
+> **Par manu saistību ar Nibomo:** esmu Kirill Markin un izstrādāju [Nibomo](https://nibomo.com/), tālāk salīdzināto alternatīvu. Gizmo dokumentācijā aprakstīts plašāks mācību process: vairāk avotu formātu, septiņi kartīšu tipi, AI Tutor nodarbības, dažādi pārbaudes uzdevumi un spēlei līdzīga progresa sistēma. Nibomo darbības joma ir apzināti šaurāka.
 
-**Fakti pārbaudīti:** 2026. gada 1. septembrī.
+**Fakti pārbaudīti:** 2026. gada 1. septembrī. Gizmo kartīšu tipi un PDF eksports atkārtoti pārbaudīti 2026. gada 12. novembrī.
 
 ![Gizmo mācību kartīšu apskats ar Magic Import, kartīšu tipiem un alternatīvu mācību procesu](/blog/gizmo-alternative-v2.png)
 
@@ -57,21 +57,21 @@ AI Tutor piedāvā līdzīgu importēšanas ceļu. [Oficiālajā nodarbību impo
 
 Abi dokumentētie avotu saraksti atšķiras. Anki, izklājlapas un tīmekļa vietnes minētas kartīšu veidošanas ceļvedī; YouTube un esošie Gizmo komplekti — Tutor nodarbību ceļvedī. Pārbaudiet tieši jums vajadzīgo importēšanas ceļu, nevis pieņemiet, ka visas ievades iespējas pieejamas abās izvēlnēs.
 
-## Gizmo ir pieci kartīšu tipi
+## Gizmo ir septiņi kartīšu tipi
 
-Pašreizējā Gizmo [kartīšu tipu dokumentācijā](https://help.gizmo.ai/en/articles/16527223-what-types-of-flashcards-can-i-make) uzskaitīti pieci formāti:
+Pašreizējā Gizmo [kartīšu tipu dokumentācijā](https://help.gizmo.ai/en/articles/16527223-what-types-of-flashcards-can-i-make) uzskaitīti septiņi formāti:
 
 | Kartītes tips | Ko tas pārbauda | Kā to var izveidot |
 | --- | --- | --- |
-| **Card text** (teksta kartīte) | Teksts vai LaTeX ar izceltiem vārdiem, par kuriem uzdod jautājumus; var arī izvēlēties parādīt priekšpusi un tad atklāt aizmuguri | Manuāli vai ar Magic Import |
-| **Multiple choice** (atbilžu izvēle) | Jautājums ar ģenerētiem atbilžu variantiem; rediģējot var pievienot nepareizus variantus | Manuāli vai ar Magic Import |
-| **Matching** (pāru savienošana) | Pāri, kurus Gizmo sajauc, lai jūs tos atkal savienotu | Tikai ar Magic Import |
-| **Ordering** (sakārtošana) | Elementi, kurus Gizmo sajauc, lai jūs atjaunotu to secību | Tikai ar Magic Import |
-| **True/False** (patiess/aplams) | Apgalvojums, kura patiesumu jūs izvērtējat | Manuāli vai ar Magic Import |
+| **Q&A** | Jautājums un atbilde ar tekstu vai LaTeX | Manuāli vai ar Magic Import |
+| **Multi-select** | Jāatlasa viena vai vairākas pareizās atbildes | Manuāli vai ar Magic Import |
+| **Fill the blanks** | Jāieraksta izceltie vārdi, kas paslēpti tekstā | Manuāli vai ar Magic Import |
+| **Match pairs** | Pāri, kurus Gizmo sajauc, lai jūs tos atkal savienotu | Manuāli vai ar Magic Import |
+| **Order items** | Elementi, kurus Gizmo sajauc, lai jūs atjaunotu to secību | Manuāli vai ar Magic Import |
+| **True or False** | Apgalvojums, kura patiesumu jūs izvērtējat | Manuāli vai ar Magic Import |
+| **Image question** | Jāatklāj paslēptās attēla etiķetes | Manuāli |
 
-Tas piedāvā vairāk iespēju nekā parasts divpusēju kartīšu komplekts. Magic Import arī nav tikai veids, kā ietaupīt laiku: Matching un Ordering pašlaik var izveidot vienīgi ar Magic Import.
-
-Dokumentācijā ir viena pretruna, kas jāņem vērā. Kartīšu tipu lapā teikts, ka Card text var ietvert attēlus gan priekšpusē, gan aizmugurē. Gizmo [kartīšu pārvaldības ceļvedī](https://help.gizmo.ai/en/articles/13761411-how-do-i-edit-or-manage-my-cards) teikts, ka fotoattēlus un attēlus var pievienot tikai priekšpusē. Ja attēli aizmugurē jums ir būtiski, pārbaudiet pašreizējo redaktoru pirms komplekta veidošanas. Šīs divas oficiālās lapas neļauj sniegt drošāku atbildi.
+Dokumentācijā ir viena pretruna, kas jāņem vērā. Kartīšu tipu lapā teikts, ka Q&A var ietvert attēlus gan priekšpusē, gan aizmugurē. Gizmo [kartīšu pārvaldības ceļvedī](https://help.gizmo.ai/en/articles/13761411-how-do-i-edit-or-manage-my-cards) teikts, ka fotoattēlus un attēlus var pievienot tikai priekšpusē. Ja attēli aizmugurē jums ir būtiski, pārbaudiet pašreizējo redaktoru pirms komplekta veidošanas. Šīs divas oficiālās lapas neļauj sniegt drošāku atbildi.
 
 Gizmo arī norāda, ka pārbaudes iestatījumi ietekmē redzamos jautājumu veidus. Kartītes saglabātais formāts un veids, kā to izmanto zināšanu pārbaudē, ir saistīti, taču nav viens un tas pats.
 
@@ -97,11 +97,11 @@ Gizmo [kartīšu pārvaldības ceļvedī](https://help.gizmo.ai/en/articles/1376
 
 Ierobežojums parādās režīmā Memorise: tur kartīti var dzēst, taču pašlaik to nevar rediģēt pārbaudes laikā. Ja mācoties pamanāt kļūdainu atbildi, jāiziet no šī režīma, lai to izlabotu.
 
-### Gizmo eksports nav pieejams
+### Gizmo komplekta drukāšana un saglabāšana PDF formātā
 
-Tajā pašā oficiālajā ceļvedī teikts, ka kartīšu eksports vēl nav pieejams. Gizmo [komplektu pārvaldības ceļvedī](https://help.gizmo.ai/en/articles/12995587-how-do-i-make-changes-to-my-decks) norādīts, ka nav pieejams arī komplektu eksports.
+Sadaļā **My Decks** atveriet komplekta trīs punktu izvēlni un atlasiet **Print**. Pārlūka drukāšanas logā izvēlieties **Save as PDF**.
 
-Tas ir skaidrākais ierobežojums kontrolei pār saviem datiem. Gizmo pieņem materiālus no vairākām citām sistēmām, taču pašlaik nepiedāvā dokumentētu veidu, kā izveidotās kartītes pārnest ārpus lietotnes. Ja jums ir svarīga iespēja vēlāk pāriet uz citu produktu, vērtējiet šo pašreizējo ierobežojumu, nevis iespēju, ka eksports parādīsies nākotnē.
+[Gizmo PDF eksportēšanas pamācība](https://help.gizmo.ai/en/articles/18228622-how-do-i-export-print-or-download-my-cards-as-a-pdf) parāda, kā saglabāt drukājamu kopiju. Pamācībā nav norādīts, kā eksportēt rediģējamu kartīšu failu.
 
 ### Bezsaistes lietošana nav dokumentēta pietiekami skaidri, lai to varētu solīt
 
@@ -116,15 +116,15 @@ Tas **nepierāda**, ka Gizmo nevar darboties bezsaistē. Tas nozīmē, ka šeit 
 | Izvēles kritērijs | Gizmo | Nibomo |
 | --- | --- | --- |
 | Galvenais sākumpunkts | Manuāli veidotas kartītes vai Magic Import no dažādiem mācību avotiem | Divpusēju kartīšu veidošana konkrētas vielas apguvei, manuāli vai ar MI palīdzību |
-| Kartīšu formāti | Card text, Multiple choice, Matching, Ordering un True/False | Kartītes ar priekšpusi un aizmuguri |
+| Kartīšu formāti | Q&A, Multi-select, Fill the blanks, Match pairs, Order items, True or False, Image question | Kartītes ar priekšpusi un aizmuguri |
 | Mācīšana līdzās kartītēm | AI Tutor nodarbības, piezīmes un avotā balstīti jautājumi | Kartīšu veidošana ar MI palīdzību; pašreizējās produkta lapās nav dokumentēts Tutor nodarbību režīms |
 | Atkārtošanas veids | Memorise, intervālu atkārtošana un dažādi jautājumu veidi | FSRS intervālu atkārtošana |
 | Motivācijas elementi | XP, Levels, Leagues, Streaks, Hearts, Hints un Coins | Pašreizējās produkta lapās nav dokumentēta līdzīga spēles elementu sistēma |
 | Bezsaistes iespēju pierādījumi | Pārbaudītajā dokumentācijā nav atrasta oficiāla garantija darbībai bezsaistē | Mācīšanās bezsaistē mobilajā lietotnē un automātiska sinhronizācija ir dokumentētas funkcijas |
-| Datu pārnešana ārpus lietotnes | Kartīšu un komplektu eksports pašlaik nav pieejams | Pārnesami eksporta faili ietver kartītes, birkas un saistīto multividi |
+| Datu pārnešana ārpus lietotnes | Komplektu var izdrukāt vai saglabāt PDF formātā | Pārnesami eksporta faili ietver kartītes, birkas un saistīto multividi |
 | Kontrole pār mitināšanu | Pārbaudītajās oficiālajās lapās nav apgalvojuma par pašmitināšanu | Atvērtais pirmkods un iespēja mitināt pašam |
 
-Nibomo ir praktiska Gizmo alternatīva, ja jums pietiek ar tabulā aprakstītajām šaurākajām iespējām. Tā pašreizējā [funkciju lapā](/lv/features/) dokumentēts FSRS, kartīšu veidošana ar MI palīdzību, mācīšanās bezsaistē mobilajā lietotnē un sinhronizācija, pārnesams eksports un pašmitināšana. Tajā nav aprakstīts līdzvērtīgs risinājums Gizmo piecu formātu Magic Import, Tutor nodarbībām vai spēles elementiem.
+Nibomo ir praktiska Gizmo alternatīva, ja jums pietiek ar tabulā aprakstītajām šaurākajām iespējām. Tā pašreizējā [funkciju lapā](/lv/features/) dokumentēts FSRS, kartīšu veidošana ar MI palīdzību, mācīšanās bezsaistē mobilajā lietotnē un sinhronizācija, pārnesams eksports un pašmitināšana.
 
 ## Kad Nibomo ir piemērotāks
 
@@ -132,26 +132,24 @@ Izvēlieties Nibomo, ja vēlaties saglabāt pārbaudītu divpusēju kartīti. Va
 
 Nibomo apgalvojumi par bezsaistes lietošanu un datu pārnešanu ārpus lietotnes ir skaidrāki. Nibomo dokumentē mācīšanos bezsaistē mobilajā lietotnē ar automātisku sinhronizāciju, savukārt [darba sākšanas ceļvedī](/lv/docs/getting-started/) norādīts, ka iOS klients izmanto lokālu SQLite datubāzi un sinhronizāciju, kurā prioritāte ir darbam bezsaistē. Pārnesams eksports ietver kartītes, birkas un saistīto multividi, tostarp pārnešanu starp mitinātām un pašmitinātām instalācijām.
 
-Jārēķinās ar šaurāku iespēju klāstu. Pašreizējās Nibomo lapās nav dokumentēta Gizmo importēšanas izvēlne, pieci kartīšu tipi, Tutor vadītas nodarbības vai atlīdzību sistēma. Ja tieši šīs funkcijas atrisina jūsu problēmu, Gizmo droši vien ir piemērotāks.
+Ja jums ir svarīgi Gizmo kartīšu tipi, Tutor nodarbības vai atlīdzības, turpiniet šim nolūkam lietot Gizmo.
 
 ## Vai var pāriet no Gizmo uz citu lietotni?
 
-Pašlaik nav vienkārša pārejas ceļa. Tā kā Gizmo eksports nav pieejams, nevar pāriet uz Nibomo vai citu lietotni ierastajā veidā, eksportējot un importējot failu.
+Gizmo PDF var izmantot kā izejmateriālu jaunām kartītēm. Nibomo tīmekļa lietotnē atveriet **Bibliotēka > Importēt > Importēt no citas lietotnes** un izvēlieties PDF. Noklikšķiniet uz **Sākt importēšanu**, lai nosūtītu failu uz MI sarunu. MI izveidos jaunas kartītes, un atkārtošanas vēsture paliks Gizmo. Vispirms izmēģiniet mazu komplektu un pārbaudiet izveidotās kartītes, lai novērtētu, cik precīzi MI no PDF atjaunoja komplekta uzbūvi.
 
-Drošs risinājums ir manuāli pārnest tikai atlasītas kartītes:
+Kartītes, kurām svarīgs Gizmo interaktīvais formāts, pēc vajadzības izveidojiet no jauna manuāli.
 
 1. Turiet līdzās sākotnējo lekciju, piezīmes, slaidus vai citu avotu.
 2. No jauna izveidojiet tikai tās kartītes, kas joprojām ir precīzas un noderīgas.
 3. Pārrakstiet neskaidrus jautājumus, nevis kopējiet visas ģenerētās kartītes.
 4. Rēķinieties, ka Gizmo izcēlumi, Tutor konteksts, atkārtošanas grafika vēsture, XP un cits progress paliks Gizmo.
 
-Tas ir lēnāk nekā izmantot importēšanas rīku, un daļa informācijas paliek Gizmo. Toties tālāk nonāk tikai kartītes, kas izturējušas kvalitātes pārbaudi.
-
-Vēl viena iespēja ir lietot abas lietotnes. Gizmo var palīdzēt izprast lekciju vai prezentāciju un piedāvāt dažādus vingrinājumus. Nibomo var glabāt mazāku pārbaudītu divpusēju kartīšu kopu atkārtošanai ar FSRS. Pārnešana joprojām ir manuāla, jo Gizmo kartītes neeksportē.
+Vēl viena iespēja ir lietot abas lietotnes. Gizmo var palīdzēt izprast lekciju vai prezentāciju un piedāvāt dažādus vingrinājumus. Nibomo var glabāt mazāku pārbaudītu divpusēju kartīšu kopu atkārtošanai ar FSRS.
 
 ## Kurš mācību process jums der?
 
-Izvēlieties Gizmo, ja sākat ar nesakārtotu avota materiālu un vēlaties, lai lietotne izveido sākotnējo mācību struktūru. Tā dokumentētās stiprās puses ir dažādi ievades avoti, pieci kartīšu tipi, Tutor vadītas mācības, daudzveidīgi pārbaudes uzdevumi un progresa mehānismi.
+Izvēlieties Gizmo, ja sākat ar nesakārtotu avota materiālu un vēlaties, lai lietotne izveido sākotnējo mācību struktūru. Tā dokumentētās stiprās puses ir dažādi ievades avoti, septiņi kartīšu tipi, Tutor vadītas mācības, daudzveidīgi pārbaudes uzdevumi un progresa mehānismi.
 
 Izvēlieties Nibomo, ja jau zināt, kuru vielu vērts saglabāt ilgstoši izmantojamā divpusējā kartītē, un jums FSRS, dokumentēta mācīšanās bezsaistē mobilajā lietotnē, eksports vai pašmitināšana ir svarīgāki par uzdevumu dažādību un atlīdzībām.
 

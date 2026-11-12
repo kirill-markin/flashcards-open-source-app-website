@@ -44,6 +44,10 @@ iPhone, iPad, Mac에서 추가하려면 위젯 갤러리를 열고 Nibomo를 선
 
 호스팅 방식을 쓰면 설치나 서버 설정이 필요 없습니다.
 
+## 기존 플래시카드 가져오기
+
+Quizlet, Anki 등에서 사용하던 카드가 있나요? **보관함 > 가져오기**를 열고 [플래시카드 가져오기 가이드](/docs/import-flashcards/)에서 지원 형식과 옮겨지는 항목을 확인하세요.
+
 ## 에이전트 설정
 
 Claude, ChatGPT, Cursor 같은 MCP 클라이언트는 [MCP 커넥터 가이드](/docs/mcp-connector/)를 따라 연결할 수 있습니다.
