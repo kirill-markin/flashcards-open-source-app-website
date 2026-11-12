@@ -2,7 +2,7 @@
 title: "Pregled učnih kartic Gizmo (2026): omejitve brezplačnega paketa, Magic Import in alternative"
 description: "Pregled učnih kartic Gizmo na podlagi preverjenih virov: čakanje pri Magic Import v brezplačnem paketu, AI Tutor, vrste kartic, izvoz, dokazi o delovanju brez povezave in praktična alternativa."
 date: "2026-08-03"
-updated: "2026-09-01"
+updated: "2026-11-12"
 image: "/blog/gizmo-alternative-v2.png"
 keywords:
   - "učne kartice Gizmo"
@@ -134,7 +134,7 @@ Trditve o delovanju brez povezave in prenosu podatkov iz aplikacije so pri Nibom
 
 ## Ali lahko iz Gizma preidete v drugo aplikacijo?
 
-Gizmov PDF lahko poskusite uporabiti kot gradivo za nove kartice. V spletni aplikaciji Nibomo izberite **Knjižnica > Uvoz > Uvozi iz druge aplikacije** in izberite PDF. Datoteka se pošlje v klepet z AI. Prenosa PDF-ja iz Gizma v tej primerjavi nismo preizkusili. Rezultat primerjajte z izvirnikom. Oglejte si [vodnik za uvoz kartic](/sl/docs/import-flashcards/).
+Gizmov PDF lahko uporabite kot gradivo za nove kartice. V spletni aplikaciji Nibomo odprite **Knjižnica > Uvoz > Uvozi iz aplikacije Gizmo**. Izberite datoteko PDF in kliknite **Začni uvoz**. Primerjajte nove kartice z datoteko PDF. Preštejte kartice in pri vsaki preverite še sprednjo in zadnjo stran. Oglejte si [vodnik za prenos kartic iz Gizma prek PDF-ja (v angleščini)](/blog/gizmo-export-pdf/).
 
 Vprašanja, ki so odvisna od Gizmove interaktivne oblike, lahko znova izdelate ročno:
 

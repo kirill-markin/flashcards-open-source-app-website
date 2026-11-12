@@ -2,7 +2,7 @@
 title: "Gizmo flashcards beoordeeld (2026): limieten van het gratis abonnement, Magic Import en alternatieven"
 description: "Een beoordeling van Gizmo flashcards op basis van officiële bronnen: de wachttijd bij gratis Magic Import, AI Tutor, kaarttypen, export, offline gebruik en een praktisch alternatief."
 date: "2026-08-03"
-updated: "2026-09-01"
+updated: "2026-11-12"
 image: "/blog/gizmo-alternative-v2.png"
 keywords:
   - "Gizmo flashcards"
@@ -134,7 +134,7 @@ Gizmo past beter als je interactieve vraagtypen, Tutor-lessen of beloningen gebr
 
 ## Kun je van Gizmo naar een andere app overstappen?
 
-Gebruik de pdf als bron voor nieuwe kaarten. Kies in de web-app van Nibomo **Bibliotheek > Importeren > Importeren uit een andere app** en selecteer de pdf. Het bestand gaat naar de AI-chat. Deze review heeft geen overdracht van een Gizmo-pdf getest. Vergelijk de nieuwe kaarten daarom met het origineel. Zie de [importhandleiding](/docs/import-flashcards/).
+Gebruik de pdf uit Gizmo als bron voor nieuwe kaarten. Ga in de web-app van Nibomo naar **Bibliotheek > Importeren > Importeren uit Gizmo**. Selecteer de pdf en klik op **Import starten**. Vergelijk de nieuwe kaarten met de pdf. Controleer het aantal kaarten en kijk of bij elke voorkant de juiste achterkant staat. Zie de [gids voor Gizmo-pdf’s (in het Engels)](/blog/gizmo-export-pdf/).
 
 Maak vragen die van Gizmo’s interactieve formaten afhangen zo nodig opnieuw.
 
