@@ -3,7 +3,7 @@ title: Flyttu námsspjöld inn í Nibomo
 description: Færðu spjöldin þín úr Quizlet, Anki eða öðru forriti. Veldu rétt skráarsnið og skoðaðu spjöldin áður en þú flytur inn stóran bunka.
 ---
 
-Opnaðu [Nibomo](https://app.nibomo.com), skiptu yfir í vinnusvæðið sem á að taka við spjöldunum og farðu í **Safn > Flytja inn**. Undir **Úr öðru forriti** velurðu forritið sem þú notaðir. Hvert forrit á sér eigin valkost þótt fleiri noti sama skráarsnið.
+Opnaðu [Nibomo](https://app.nibomo.com/?locale=is), skiptu yfir í vinnusvæðið sem á að taka við spjöldunum og farðu í **Safn > Flytja inn**. Undir **Úr öðru forriti** velurðu forritið sem þú notaðir. Hvert forrit á sér eigin valkost þótt fleiri noti sama skráarsnið.
 
 Valkostirnir hér að neðan eru í boði í vefforritinu. Ef valmyndin eða forritið sem þú leitar að birtist ekki á iPhone, iPad, Mac eða Android skaltu nota vefforritið. Ef þú notar Nibomo sem gestur í tækinu skaltu skrá þig fyrst inn þar. Skráðu þig inn í vefforritið með sama Nibomo-reikningi og veldu vinnusvæðið sem á að taka við spjöldunum áður en þú flytur þau inn.
 
@@ -32,7 +32,7 @@ Ef þú ert með eldri Excel-skrá á `.xls`-sniði skaltu vista hana sem `.xlsx
 
 ## Flyttu spjöld inn úr öðru námsforriti
 
-1. Flyttu út spjöldin sem þú vilt færa úr forritinu sem þú notar. Í Quizlet opnarðu spjaldasafnið, velur **Export** og afritar textann. Notaðu dálkmerki á milli hugtaks og skilgreiningar og nýja línu á milli spjalda.
+1. Flyttu út spjöldin sem þú vilt færa úr forritinu sem þú notar. Í Quizlet opnarðu spjaldasafnið, velur **Export** og afritar textann. Notaðu dálkmerki á milli hugtaks og skilgreiningar og nýja línu á milli spjalda. Þú getur aðeins flutt út af vef Quizlet og aðeins upprunaleg spjaldasöfn sem þú bjóst sjálf eða sjálfur til.
 2. Farðu í **Safn > Flytja inn** í Nibomo og veldu upprunaforritið. Fyrir Quizlet límirðu afritaða textann. Fyrir aðrar heimildir velurðu útfluttu skrárnar. Ef forritið er ekki á listanum en getur flutt út á studdu sniði, til dæmis PDF, skaltu velja **Flytja inn úr öðru forriti**.
 3. Veldu **Hefja innflutning**. Nibomo opnar nýtt spjall við gervigreind og sendir innflutningsbeiðnina með skránum eða textanum sem þú límdir inn. Til þess þarf nettengingu. Hver skrá sem er flutt inn með gervigreind má vera allt að **30 MiB**. Ef skráin er stærri skaltu prófa að flytja út nokkra minni bunka eða spjaldasöfn í sitthvoru lagi.
 4. Skoðaðu niðurstöðuna í **Safn**. Gervigreindin getur vistað spjöld í skömmtum á meðan innflutningur stendur yfir. Ef innflutningurinn stöðvast skaltu athuga hvaða spjöld eru þegar í Nibomo og biðja gervigreindina um að halda áfram með hin áður en þú reynir að flytja allt inn aftur.
@@ -51,4 +51,4 @@ Forskoðaðu spjöldin, lagaðu ófullgerðar línur og veldu merkin sem þú vi
 
 ## Flyttu inn ZIP-skrá úr Nibomo
 
-Veldu **Safn > Flytja inn > Flytja inn úr Nibomo** fyrir `flashcards.zip` sem var áður flutt út úr Nibomo. Veldu ZIP-skrána án þess að afþjappa henni, skoðaðu spjöld og tengda miðla í forskoðuninni og staðfestu innflutninginn. Þessi leið getur flutt spjöld, merki og miðla úr pakkanum án þess að nota gervigreindarspjall.
+Veldu **Safn > Flytja inn > Flytja inn úr Nibomo** fyrir `flashcards.zip` sem var áður flutt út úr Nibomo. Veldu ZIP-skrána án þess að afþjappa henni. Athugaðu fjölda spjalda og miðlaskráa í forskoðuninni og lestu viðvaranir ef þær birtast. Staðfestu svo innflutninginn og skoðaðu einstök spjöld og miðlaskrár undir **Safn**. Þessi leið getur flutt spjöld, merki og miðla úr pakkanum án þess að nota gervigreindarspjall.

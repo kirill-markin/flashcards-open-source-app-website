@@ -32,7 +32,7 @@ Starší excelovský súbor `.xls` pred importom uložte ako `.xlsx` alebo `.csv
 
 ## Import z inej aplikácie
 
-1. V pôvodnej aplikácii exportujte kartičky, ktoré chcete preniesť. V Quizlete otvorte svoju sadu, vyberte **Export** a skopírujte text. Medzi pojem a definíciu sa hodí tabulátor a medzi kartičky nový riadok.
+1. V pôvodnej aplikácii exportujte kartičky, ktoré chcete preniesť. V Quizlete otvorte svoju sadu, vyberte **Export** a skopírujte text. Medzi pojem a definíciu sa hodí tabulátor a medzi kartičky nový riadok. Export je dostupný len na webovej stránke Quizletu a len pre pôvodné sady, ktoré ste vytvorili sami.
 2. V Nibomo otvorte **Knižnica > Import** a vyberte položku pre danú aplikáciu. Pri Quizlete prilepte skopírovaný text. Pri ostatných zdrojoch vyberte exportovaný súbor alebo súbory. Ak vaša aplikácia nemá vlastnú položku, ale poskytuje podporovaný export, napríklad PDF, vyberte **Importovať z inej aplikácie**.
 3. Vyberte **Spustiť import**. Nibomo otvorí nový AI chat a odošle požiadavku na import spolu so súbormi alebo prilepeným textom. Potrebujete pripojenie na internet. Každý súbor pri importe cez AI môže mať najviac **30 MiB**. Väčšie exporty skúste rozdeliť tak, že samostatne exportujete menšie balíky alebo sady.
 4. Výsledok skontrolujte v sekcii **Knižnica**. AI chat môže kartičky ukladať postupne po dávkach. Ak sa import preruší, zistite, ktoré kartičky už sú v Nibomo, a požiadajte AI chat, aby pokračoval zvyšnými. Až potom skúste zopakovať celý import, ak je to potrebné.
@@ -51,4 +51,4 @@ Pozrite si náhľad, opravte neúplné riadky a vyberte štítky, ktoré chcete 
 
 ## Import súboru ZIP z Nibomo
 
-Pre súbor `flashcards.zip` exportovaný z Nibomo použite **Knižnica > Import > Importovať z Nibomo**. Vyberte súbor ZIP bez rozbaľovania, v náhľade skontrolujte kartičky a odkazované médiá a potvrďte import. Takto môžete preniesť kartičky, štítky a médiá obsiahnuté v balíku. AI chat sa pri tomto importe nepoužíva.
+Pre súbor `flashcards.zip` exportovaný z Nibomo použite **Knižnica > Import > Importovať z Nibomo**. Vyberte súbor ZIP bez rozbaľovania. V náhľade skontrolujte počet kartičiek a mediálnych súborov aj prípadné upozornenia. Potom potvrďte import a prezrite si jednotlivé kartičky a médiá v časti **Knižnica**. Takto môžete preniesť kartičky, štítky a médiá obsiahnuté v balíku. AI chat sa pri tomto importe nepoužíva.

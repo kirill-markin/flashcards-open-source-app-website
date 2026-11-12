@@ -3,7 +3,7 @@ title: Importare flashcard in Nibomo
 description: Trasferisci le tue carte da Quizlet, Anki o un’altra app. Scegli il formato giusto e verifica le carte prima di importarne molte.
 ---
 
-Apri [Nibomo](https://app.nibomo.com), passa allo spazio di lavoro in cui vuoi aggiungere le carte e vai a **Libreria > Importa**. Nella sezione **Da un’altra app**, scegli l’app che usavi. Ogni app ha la sua voce, anche quando più app usano lo stesso formato.
+Apri [Nibomo](https://app.nibomo.com/?locale=it), passa allo spazio di lavoro in cui vuoi aggiungere le carte e vai a **Libreria > Importa**. Nella sezione **Da un’altra app**, scegli l’app che usavi. Ogni app ha la sua voce, anche quando più app usano lo stesso formato.
 
 Le opzioni qui sotto sono disponibili nell’app web. Se su iPhone, iPad, Mac o Android manca il menu o la voce che cerchi, usa l’app web. Se sul dispositivo usi Nibomo come ospite, accedi prima da lì. Nell’app web, accedi con lo stesso account Nibomo e seleziona lo spazio di lavoro in cui vuoi importare le carte.
 
@@ -32,7 +32,7 @@ Se hai un vecchio file Excel `.xls`, salvalo come `.xlsx` o `.csv` prima di impo
 
 ## Importa da un’altra app di flashcard
 
-1. Esporta dall’app di origine le carte che vuoi trasferire. Su Quizlet, apri il set, scegli **Esporta** e copia il testo. Usa una tabulazione tra termine e definizione e un a capo tra le carte.
+1. Esporta dall’app di origine le carte che vuoi trasferire. Su Quizlet, apri il set, scegli **Esporta** e copia il testo. Usa una tabulazione tra termine e definizione e un a capo tra le carte. Puoi esportare solo dal sito di Quizlet e solo i set originali che hai creato tu.
 2. In Nibomo, vai a **Libreria > Importa** e apri la voce corrispondente. Per Quizlet, incolla il testo copiato. Per le altre sorgenti, seleziona il file o i file esportati. Se l’app non ha una voce dedicata ma esporta in un formato supportato, per esempio PDF, usa **Importa da un’altra app**.
 3. Seleziona **Avvia importazione**. Nibomo apre una nuova chat AI e invia la richiesta di importazione con i file o il testo incollato. Serve una connessione a Internet. Ogni file importato con l’AI può pesare fino a **30 MiB**. Per file più grandi, prova a esportare separatamente mazzi o set più piccoli.
 4. Controlla il risultato nella **Libreria**. La chat AI può salvare le carte a gruppi durante l’importazione. Se si interrompe, verifica quali carte sono già in Nibomo e chiedile di continuare con le rimanenti prima di riprovare con l’intera esportazione.
@@ -51,4 +51,4 @@ Controlla le carte in anteprima, correggi le righe incomplete e scegli i tag da 
 
 ## Importa uno ZIP di Nibomo
 
-Usa **Libreria > Importa > Importa da Nibomo** per un file `flashcards.zip` già esportato da Nibomo. Seleziona il file ZIP senza estrarlo, controlla nell’anteprima le carte e i media associati, quindi conferma. Questa procedura può trasferire le carte, i tag e i media contenuti nel pacchetto e funziona senza la chat AI.
+Usa **Libreria > Importa > Importa da Nibomo** per un file `flashcards.zip` già esportato da Nibomo. Seleziona il file ZIP senza estrarlo. Nell’anteprima controlla il numero di carte e file multimediali e gli eventuali avvisi, poi conferma l’importazione e controlla le singole carte e i media in **Libreria**. Questa procedura può trasferire le carte, i tag e i media contenuti nel pacchetto e funziona senza la chat AI.

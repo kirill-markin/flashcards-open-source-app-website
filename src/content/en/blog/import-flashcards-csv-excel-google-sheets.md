@@ -12,7 +12,7 @@ keywords:
 
 The comma in `Bonjour, ça va ?` belongs on the front of the card. Paste a raw CSV into Nibomo with **Comma** as the separator and the front can end up as just `"Bonjour`. Copy the cells from Excel or Google Sheets and use a tab between the two columns to keep the question intact.
 
-In the [Nibomo web app](https://app.nibomo.com), open the workspace where you want the cards. **Library → Import → Import from a spreadsheet** gives you an editable preview of the rows you paste. **Import from another app** accepts a `.csv` or `.xlsx` file and sends it to AI chat. Use the web app if those options are missing from your installed app.
+In the [Nibomo web app](https://app.nibomo.com/?locale=en), open the workspace where you want the cards. **Library → Import → Import from a spreadsheet** gives you an editable preview of the rows you paste. **Import from another app** accepts a `.csv` or `.xlsx` file and sends it to AI chat. Use the web app if those options are missing from your installed app.
 
 ![A hand lifts the cord connecting one of three pairs of knitted mittens on a wooden bench](https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/3e4ca473282df44df1c2e66b03511f8028cf153588b3933e08b516e8fe08ddd4.webp)
 

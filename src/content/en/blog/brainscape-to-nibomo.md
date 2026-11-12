@@ -41,7 +41,7 @@ What does a contour line connect?,Points at the same elevation.
 
 ## Import into Nibomo and check what saved
 
-1. Open your destination workspace in Nibomo and go to **Library → Import → Import from Brainscape**. If the option is missing from your installed app, try [Nibomo on the web](https://app.nibomo.com/).
+1. Open your destination workspace in Nibomo and go to **Library → Import → Import from Brainscape**. If the option is missing from your installed app, try [Nibomo on the web](https://app.nibomo.com/?locale=en).
 2. Click **Choose files**, select the CSV, then click **Start import**. Nibomo opens a new AI chat and sends the file. This step needs an internet connection, and the chat can save cards as it works.
 3. When the chat finishes, open **Library → Cards**. Compare the number of new cards with the number of data rows, then compare both sides of a few cards with the spreadsheet. For the example above, look for two cards. The watershed answer should include both sentences, the contour-line answer should end at “elevation,” and neither card should contain the column headings.
 

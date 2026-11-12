@@ -3,7 +3,7 @@ title: Õppekaartide importimine Nibomosse
 description: Too oma kaardid Quizletist, Ankist või mõnest muust rakendusest. Leia sobiv ekspordivorming ja vaata enne suuremat importi väike näidis üle.
 ---
 
-Ava [Nibomo](https://app.nibomo.com), vali tööruum, kuhu soovid kaardid tuua, ja ava **Teek > Importimine**. Jaotises **Teisest rakendusest** vali rakendus, mida kasutasid. Igal rakendusel on oma valik, isegi kui mitu rakendust kasutavad sama failivormingut.
+Ava [Nibomo](https://app.nibomo.com/?locale=et), vali tööruum, kuhu soovid kaardid tuua, ja ava **Teek > Importimine**. Jaotises **Teisest rakendusest** vali rakendus, mida kasutasid. Igal rakendusel on oma valik, isegi kui mitu rakendust kasutavad sama failivormingut.
 
 Allolevad valikud on saadaval veebirakenduses. Kui sa ei näe iPhone'is, iPadis, Macis või Androidis vajalikku menüüd või valikut, kasuta veebirakendust. Kui kasutad seadmes Nibomot külalisena, logi seal kõigepealt sisse. Seejärel logi veebirakendusse sisse sama Nibomo kontoga ja vali enne importimist tööruum, kuhu soovid kaardid tuua.
 
@@ -32,7 +32,7 @@ Kui sul on vana Exceli `.xls`-fail, salvesta see enne importimist `.xlsx`- või 
 
 ## Impordi teisest õppekaartide rakendusest
 
-1. Ekspordi kaardid, mida soovid üle tuua. Quizletis ava oma kogum, vali **Ekspordi** ja kopeeri tekst. Termini ja määratluse vahele sobib tabeldusmärk, kaartide vahele reavahetus.
+1. Ekspordi kaardid, mida soovid üle tuua. Quizletis ava oma kogum, vali **Ekspordi** ja kopeeri tekst. Termini ja määratluse vahele sobib tabeldusmärk, kaartide vahele reavahetus. Eksportida saad ainult Quizleti veebisaidil ja ainult enda loodud originaalkogumeid.
 2. Ava Nibomos **Teek > Importimine** ja vali sobiv rakendus. Quizleti puhul kleebi kopeeritud tekst. Muude allikate puhul vali eksporditud failid. Kui sinu rakendust menüüs pole, aga saad eksportida toetatud vormingus faili, näiteks PDF-i, vali **Impordi teisest rakendusest**.
 3. Vali **Alusta importi**. Nibomo avab uue AI-vestluse ning saadab impordipalve koos sinu failide või kleebitud tekstiga. Selleks on vaja internetiühendust. Iga AI-ga imporditav fail võib olla kuni **30 MiB**. Suurema faili korral proovi eksportida väiksemad kaardipakid või kogumid eraldi.
 4. Vaata tulemus **Teegis** üle. AI võib kaarte töö käigus osade kaupa salvestada. Kui import katkeb, vaata, millised kaardid on juba Nibomos, ja palu AI-l ülejäänutega jätkata, enne kui proovid kogu faili uuesti importida.
@@ -51,4 +51,4 @@ Vaata kaartide eelvaade üle, paranda poolikud read ja vali sildid, mida tahad l
 
 ## Impordi Nibomo ZIP-fail
 
-Varem Nibomost eksporditud `flashcards.zip`-faili jaoks vali **Teek > Importimine > Impordi Nibomost**. Vali ZIP-fail seda lahti pakkimata, vaata eelvaates üle kaardid ja nendega seotud meedia ning kinnita import. Sel viisil saab pakist üle tuua kaardid, sildid ja meedia. See viis ei kasuta AI-vestlust.
+Varem Nibomost eksporditud `flashcards.zip`-faili jaoks vali **Teek > Importimine > Impordi Nibomost**. Vali ZIP-fail seda lahti pakkimata. Kontrolli eelvaates kaartide ja meediafailide arvu ning vaata, kas kuvatakse hoiatusi. Seejärel kinnita import ja vaata üksikuid kaarte ning meediafaile jaotises **Teek**. Sel viisil saab pakist üle tuua kaardid, sildid ja meedia. See viis ei kasuta AI-vestlust.

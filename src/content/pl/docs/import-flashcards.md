@@ -3,7 +3,7 @@ title: Importowanie fiszek do Nibomo
 description: Przenieś fiszki z Quizlet, Anki lub innej aplikacji. Wybierz właściwy format i sprawdź fiszki przed większym importem.
 ---
 
-Otwórz [Nibomo](https://app.nibomo.com), wybierz obszar roboczy, do którego mają trafić fiszki, i przejdź do **Biblioteka > Import**. W sekcji **Z innej aplikacji** wybierz aplikację, z której korzystasz. Każda aplikacja ma własną pozycję, nawet jeśli obsługuje ten sam format co inne.
+Otwórz [Nibomo](https://app.nibomo.com/?locale=pl), wybierz obszar roboczy, do którego mają trafić fiszki, i przejdź do **Biblioteka > Import**. W sekcji **Z innej aplikacji** wybierz aplikację, z której korzystasz. Każda aplikacja ma własną pozycję, nawet jeśli obsługuje ten sam format co inne.
 
 Poniższe opcje są dostępne w aplikacji webowej. Skorzystaj z niej, jeśli na iPhonie, iPadzie, Macu lub urządzeniu z Androidem brakuje menu lub odpowiedniej pozycji. Jeśli korzystasz z Nibomo jako gość, zaloguj się najpierw na swoim urządzeniu. Następnie zaloguj się w aplikacji webowej na to samo konto Nibomo i wybierz docelowy obszar roboczy.
 
@@ -32,7 +32,7 @@ Jeśli masz starszy plik Excela w formacie `.xls`, zapisz go najpierw jako `.xls
 
 ## Importowanie z innej aplikacji do fiszek
 
-1. Wyeksportuj fiszki ze źródłowej aplikacji. W Quizlet otwórz swój zestaw, wybierz **Export** i skopiuj tekst. Sprawdza się tabulator między pojęciem a definicją i nowy wiersz między fiszkami.
+1. Wyeksportuj fiszki ze źródłowej aplikacji. W Quizlet otwórz swój zestaw, wybierz **Export** i skopiuj tekst. Sprawdza się tabulator między pojęciem a definicją i nowy wiersz między fiszkami. Eksport jest dostępny tylko na stronie Quizlet i tylko dla oryginalnych zestawów, które utworzyłeś samodzielnie.
 2. W Nibomo przejdź do **Biblioteka > Import** i wybierz swoją aplikację. W przypadku Quizlet wklej skopiowany tekst. W pozostałych przypadkach wybierz wyeksportowane pliki. Jeśli Twojej aplikacji nie ma na liście, a eksportuje w obsługiwanym formacie, na przykład PDF, wybierz **Importuj z innej aplikacji**.
 3. Kliknij **Rozpocznij import**. Nibomo otworzy nowy czat AI i wyśle polecenie importu razem z plikami lub wklejonym tekstem. Potrzebujesz połączenia z internetem. Każdy plik importowany przez AI może mieć do **30 MiB**. Jeśli jest większy, spróbuj wyeksportować mniejsze talie lub zestawy osobno.
 4. Sprawdź wynik w sekcji **Biblioteka**. Czat AI może zapisywać fiszki partiami. Jeśli zatrzyma się w trakcie, sprawdź, które fiszki są już w Nibomo, i poproś o dokończenie importu przed ponownym wysłaniem całego eksportu.
@@ -51,4 +51,4 @@ Sprawdź podgląd, uzupełnij brakujące pola i wybierz tagi, jeśli chcesz je z
 
 ## Importowanie pliku ZIP z Nibomo
 
-Dla wcześniej wyeksportowanego z Nibomo pliku `flashcards.zip` wybierz **Biblioteka > Import > Importuj z Nibomo**. Wskaż plik ZIP bez rozpakowywania, sprawdź fiszki i powiązane multimedia w podglądzie, a następnie potwierdź import. W ten sposób możesz przenieść fiszki, tagi i multimedia z pakietu. Ta metoda działa bez czatu AI.
+Dla wcześniej wyeksportowanego z Nibomo pliku `flashcards.zip` wybierz **Biblioteka > Import > Importuj z Nibomo**. Wskaż plik ZIP bez rozpakowywania. W podglądzie sprawdź liczbę fiszek i plików multimedialnych oraz ewentualne ostrzeżenia. Następnie potwierdź import i obejrzyj poszczególne fiszki i multimedia w sekcji **Biblioteka**. W ten sposób możesz przenieść fiszki, tagi i multimedia z pakietu. Ta metoda działa bez czatu AI.

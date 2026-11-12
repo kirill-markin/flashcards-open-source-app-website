@@ -23,7 +23,7 @@ For a copy you can restore in Mochi, use **Settings → Export everything** and 
 
 ## Use Import from Mochi in Nibomo
 
-1. Open the [Nibomo web app](https://app.nibomo.com/) and switch to the workspace where you want the cards. Use the web app if your installed app is missing the Mochi option.
+1. Open the [Nibomo web app](https://app.nibomo.com/?locale=en) and switch to the workspace where you want the cards. Use the web app if your installed app is missing the Mochi option.
 2. Go to **Library → Import** and select **Import from Mochi** under **From another app**.
 3. Select **Choose files**, pick the `.mochi` file, then select **Start import**.
 

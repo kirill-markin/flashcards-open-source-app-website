@@ -32,7 +32,7 @@ Ukiwa na faili la zamani la Excel la `.xls`, lihifadhi kama `.xlsx` au `.csv` ka
 
 ## Kuingiza kutoka programu nyingine
 
-1. Toa kadi unazotaka kuhamisha kutoka kwenye programu ya awali. Katika Quizlet, fungua seti yako, chagua **Export** na unakili maandishi. Tabo kati ya istilahi na fasili na mstari mpya kati ya kadi hufaa.
+1. Toa kadi unazotaka kuhamisha kutoka kwenye programu ya awali. Katika Quizlet, fungua seti yako, chagua **Export** na unakili maandishi. Tabo kati ya istilahi na fasili na mstari mpya kati ya kadi hufaa. Unaweza kutoa seti kwenye tovuti ya Quizlet pekee, na ni seti asili ulizounda mwenyewe tu zinazoweza kutolewa.
 2. Katika Nibomo, nenda kwenye **Maktaba > Ingiza** na uchague programu inayolingana. Kwa Quizlet, bandika maandishi uliyonakili. Kwa vyanzo vingine, chagua faili moja au zaidi ulizotoa. Ikiwa programu yako haina chaguo lake lakini inatoa faili katika umbizo linalotumika, kama vile PDF, chagua **Leta kutoka programu nyingine**.
 3. Chagua **Anza kuingiza**. Nibomo hufungua gumzo jipya la AI na kutuma ombi la kuingiza pamoja na faili au maandishi uliyobandika. Hatua hii inahitaji muunganisho wa intaneti. Kila faili linaweza kuwa na ukubwa wa hadi **30 MiB**. Faili likizidi kikomo hicho, jaribu kutoa mafungu au seti ndogo moja baada ya nyingine.
 4. Kagua matokeo katika **Maktaba**. Gumzo la AI linaweza kuhifadhi kadi kwa vikundi linapoendelea. Likisimama kabla ya kumaliza, angalia kadi ambazo tayari zimo katika Nibomo na uliombe liendelee na zilizobaki kabla ya kujaribu tena kuingiza seti nzima.
@@ -51,4 +51,4 @@ Kagua onyesho la awali la kadi, rekebisha safu mlalo zisizokamilika na uchague l
 
 ## Kuingiza faili la ZIP la Nibomo
 
-Tumia **Maktaba > Ingiza > Leta kutoka Nibomo** kwa faili la `flashcards.zip` ulilotoa kutoka Nibomo. Chagua faili la ZIP bila kulifungua, kagua kadi na maudhui yanayorejelewa kwenye onyesho la awali, kisha thibitisha uingizaji. Njia hii inaweza kuhamisha kadi, lebo na maudhui yaliyomo kwenye kifurushi. Haitumii gumzo la AI.
+Tumia **Maktaba > Ingiza > Leta kutoka Nibomo** kwa faili la `flashcards.zip` ulilotoa kutoka Nibomo. Chagua faili la ZIP bila kulifungua. Kwenye onyesho la awali, angalia idadi ya kadi na faili za maudhui, pamoja na maonyo yoyote. Kisha thibitisha uingizaji na ukague kadi na faili za maudhui moja moja kwenye **Maktaba**. Njia hii inaweza kuhamisha kadi, lebo na maudhui yaliyomo kwenye kifurushi. Haitumii gumzo la AI.

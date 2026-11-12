@@ -3,7 +3,7 @@ title: Import flashcards into Nibomo
 description: Move your cards from Quizlet, Anki, or another flashcard app. Find the right export format and learn how to check your cards before a large import.
 ---
 
-Open [Nibomo](https://app.nibomo.com), switch to the workspace where you want the cards, then go to **Library > Import**. Under **From another app**, choose the app you used. Each brand has its own entry, even when it uses the same file format as another app.
+Open [Nibomo](https://app.nibomo.com/?locale=en), switch to the workspace where you want the cards, then go to **Library > Import**. Under **From another app**, choose the app you used. Each brand has its own entry, even when it uses the same file format as another app.
 
 The options below are available in the web app. If you don't see the menu or the source you need on iPhone, iPad, Mac, or Android, use the web app. If you use Nibomo as a guest on your device, sign in there first. In the web app, sign in to the same Nibomo account and select the workspace where you want the cards before importing.
 
@@ -32,7 +32,7 @@ For an older Excel `.xls` file, save it as `.xlsx` or `.csv` before importing, o
 
 ## Import from another flashcard app
 
-1. In the source app, export the cards you want to move. For Quizlet, open your set, choose **Export**, and copy the text. A tab between term and definition and a new line between cards work well.
+1. In the source app, export the cards you want to move. For Quizlet, open your set, choose **Export**, and copy the text. A tab between term and definition and a new line between cards work well. You can export only original sets you created yourself, and only on the Quizlet website.
 2. In Nibomo, go to **Library > Import** and open the matching entry. Paste the copied text for Quizlet. For other sources, choose the exported file or files. If your app has no entry but gives you a supported export, such as a PDF, use **Import from another app**.
 3. Select **Start import**. Nibomo opens a new AI chat and sends the import request with your files or pasted text. This requires an internet connection. Each AI import file can be up to **30 MiB**. If yours is larger, try exporting smaller decks or sets separately.
 4. Check the result in **Library**. AI chat can save cards in batches as it goes. If it stops partway through, check which cards are already in Nibomo and ask it to continue with the rest before you retry the whole export.
@@ -51,4 +51,4 @@ Preview the cards, fix any incomplete rows, and choose any tags you want to appl
 
 ## Import a Nibomo ZIP
 
-Use **Library > Import > Import from Nibomo** for a `flashcards.zip` previously exported from Nibomo. Choose the ZIP without unpacking it, check the preview for cards and referenced media, and confirm the import. This route can carry the cards, tags, and media in the package. It doesn't use AI chat.
+Use **Library > Import > Import from Nibomo** for a `flashcards.zip` previously exported from Nibomo. Choose the ZIP without unpacking it. Check the card and media counts and any warnings in the preview, then confirm the import and inspect individual cards and media in **Library**. This route can carry the cards, tags, and media in the package. It doesn't use AI chat.

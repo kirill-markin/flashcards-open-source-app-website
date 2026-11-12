@@ -3,7 +3,7 @@ title: Ngenisa amakhadi okufunda ku-Nibomo
 description: Hambisa amakhadi akho esuka ku-Quizlet, ku-Anki noma kolunye uhlelo lwamakhadi okufunda. Thola ifomethi efanele bese uhlola amakhadi ngaphambi kokungenisa amaningi.
 ---
 
-Vula [i-Nibomo](https://app.nibomo.com), uye endaweni yokusebenza ofuna ukufaka kuyo amakhadi, bese ukhetha **Umtapo wolwazi > Ngenisa**. Ngaphansi kokuthi **Kusuka kolunye uhlelo lokusebenza**, khetha uhlelo obulusebenzisa. Uhlelo ngalunye lunenketho yalo, ngisho noma lisebenzisa ifomethi yefayela efanayo neyolunye uhlelo.
+Vula [i-Nibomo](https://app.nibomo.com/?locale=zu), uye endaweni yokusebenza ofuna ukufaka kuyo amakhadi, bese ukhetha **Umtapo wolwazi > Ngenisa**. Ngaphansi kokuthi **Kusuka kolunye uhlelo lokusebenza**, khetha uhlelo obulusebenzisa. Uhlelo ngalunye lunenketho yalo, ngisho noma lisebenzisa ifomethi yefayela efanayo neyolunye uhlelo.
 
 Izinketho ezingezansi ziyatholakala ohlelweni lwewebhu. Uma ungayiboni imenyu noma inketho oyidingayo ku-iPhone, i-iPad, i-Mac noma i-Android, sebenzisa uhlelo lwewebhu. Uma usebenzisa i-Nibomo njengesivakashi kudivayisi yakho, qala ngokungena ngemvume kuleyo divayisi. Ohlelweni lwewebhu, ngena ngemvume ku-akhawunti efanayo ye-Nibomo bese ukhetha indawo yokusebenza ofuna ukufaka kuyo amakhadi ngaphambi kokuwangenisa.
 
@@ -32,7 +32,7 @@ Uma unefayela elidala le-Excel elithi `.xls`, ligcine njengefayela le-`.xlsx` no
 
 ## Ngenisa usuka kolunye uhlelo lwamakhadi okufunda
 
-1. Khipha amakhadi ofuna ukuwahambisa ohlelweni obuwasebenzisa. Ku-Quizlet, vula isethi yakho, khetha u-**Export** bese ukopisha umbhalo. Ungasebenzisa ithebhu phakathi kwetemu nencazelo, nomugqa omusha phakathi kwamakhadi.
+1. Khipha amakhadi ofuna ukuwahambisa ohlelweni obuwasebenzisa. Ku-Quizlet, vula isethi yakho, khetha u-**Export** bese ukopisha umbhalo. Ungasebenzisa ithebhu phakathi kwetemu nencazelo, nomugqa omusha phakathi kwamakhadi. Ungakhipha isethi kuwebhusayithi ye-Quizlet kuphela, futhi ungakhipha kuphela amasethi oqobo owazenzele wona.
 2. Ku-Nibomo, iya kokuthi **Umtapo wolwazi > Ngenisa**, bese uvula inketho yohlelo lwakho. Uma usebenzisa i-Quizlet, namathisela umbhalo owukopishile. Kweminye imithombo, khetha amafayela owakhiphile. Uma uhlelo lwakho lungekho ohlwini kodwa lukwazi ukukhipha ifayela ngefomethi esekelwayo njenge-PDF, sebenzisa **Ngenisa kusuka kolunye uhlelo lokusebenza**.
 3. Khetha **Qala ukungenisa**. I-Nibomo ivula ingxoxo entsha ye-AI bese ithumela isicelo sokungenisa namafayela akho noma umbhalo owunamathisele. Lokhu kudinga i-inthanethi. Ifayela ngalinye elingeniswa nge-AI lingaba usayizi ongafika ku-**30 MiB**. Uma lilikhulu kunalokho, zama ukukhipha amadekhi noma amasethi amancane ngokwehlukana.
 4. Hlola umphumela ku-**Umtapo wolwazi**. Ingxoxo ye-AI ingagcina amakhadi ngamaqoqo njengoba iqhubeka. Uma ima phakathi nendlela, hlola ukuthi yimaphi amakhadi aseku-Nibomo, bese uyicela iqhubeke nalawo asele ngaphambi kokuzama ukungenisa yonke into futhi.
@@ -51,4 +51,4 @@ Buka amakhadi kuqala, ulungise imigqa engaphelele bese ukhetha amathegi ofuna uk
 
 ## Ngenisa ifayela le-ZIP le-Nibomo
 
-Uma unefayela elithi `flashcards.zip` elake lakhishwa ku-Nibomo, khetha **Umtapo wolwazi > Ngenisa > Ngenisa kusuka ku-Nibomo**. Khetha ifayela le-ZIP njengoba linjalo, ungakhiphi okuqukethwe kulo, uhlole amakhadi nemidiya exhumene nawo ekubukeni kuqala, bese uqinisekisa ukungenisa. Le ndlela ingadlulisela amakhadi, amathegi nemidiya okukuphakheji. Ayisebenzisi ingxoxo ye-AI.
+Uma unefayela elithi `flashcards.zip` elake lakhishwa ku-Nibomo, khetha **Umtapo wolwazi > Ngenisa > Ngenisa kusuka ku-Nibomo**. Khetha ifayela le-ZIP njengoba linjalo, ungakhiphi okuqukethwe kulo. Ekubukeni kuqala, hlola inani lamakhadi nelamafayela emidiya, ufunde nezixwayiso uma zikhona. Bese uqinisekisa ukungenisa, uhlole amakhadi namafayela emidiya ngakunye ku-**Umtapo wolwazi**. Le ndlela ingadlulisela amakhadi, amathegi nemidiya okukuphakheji. Ayisebenzisi ingxoxo ye-AI.

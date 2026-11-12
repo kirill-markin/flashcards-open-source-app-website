@@ -32,7 +32,7 @@ Si tens un fitxer antic d’Excel amb extensió `.xls`, desa’l com a `.xlsx` o
 
 ## Importa targetes d’una altra app
 
-1. Exporta les targetes que vulguis traslladar des de l’app d’origen. A Quizlet, obre el conjunt, tria **Export** (Exporta) i copia el text. Fes servir una tabulació entre el terme i la definició i un salt de línia entre targetes.
+1. Exporta les targetes que vulguis traslladar des de l’app d’origen. A Quizlet, obre el conjunt, tria **Export** (Exporta) i copia el text. Fes servir una tabulació entre el terme i la definició i un salt de línia entre targetes. Només pots exportar els conjunts originals que has creat tu i només ho pots fer des del web de Quizlet.
 2. A Nibomo, ves a **Biblioteca > Importa** i tria l’opció corresponent. Si vens de Quizlet, enganxa el text copiat. Per a la resta, tria el fitxer o els fitxers exportats. Si la teva app no té una opció pròpia però permet exportar en un format compatible, com ara PDF, fes servir **Importa des d’una altra app**.
 3. Selecciona **Inicia la importació**. Nibomo obre un xat amb IA nou i hi envia la petició d’importació amb els fitxers o el text enganxat. Cal una connexió a internet. Cada fitxer que importis amb IA pot ocupar fins a **30 MiB**. Si el teu fitxer supera el límit, prova d’exportar baralles o conjunts més petits per separat.
 4. Comprova el resultat a **Biblioteca**. El xat amb IA pot desar les targetes per tandes. Si s’atura a mitges, mira quines targetes ja s’han desat i demana-li que continuï amb les que falten abans de repetir tota la importació.
@@ -51,4 +51,4 @@ Comprova la vista prèvia de les targetes, corregeix les files incompletes i tri
 
 ## Importa un ZIP de Nibomo
 
-Ves a **Biblioteca > Importa > Importa des de Nibomo** per importar un fitxer `flashcards.zip` que hagis exportat abans des de Nibomo. Tria el fitxer ZIP sense descomprimir-lo, comprova a la vista prèvia les targetes i els fitxers multimèdia associats i confirma la importació. Així pots traslladar les targetes, les etiquetes i els fitxers multimèdia inclosos en el paquet, sense fer servir el xat amb IA.
+Ves a **Biblioteca > Importa > Importa des de Nibomo** per importar un fitxer `flashcards.zip` que hagis exportat abans des de Nibomo. Tria el fitxer ZIP sense descomprimir-lo. A la vista prèvia, comprova el nombre de targetes i de fitxers multimèdia i si hi ha cap avís. Després, confirma la importació i revisa les targetes i els fitxers multimèdia a la **Biblioteca**. Així pots traslladar les targetes, les etiquetes i els fitxers multimèdia inclosos en el paquet, sense fer servir el xat amb IA.

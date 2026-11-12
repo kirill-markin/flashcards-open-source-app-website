@@ -26,7 +26,7 @@ The CSV contains plain text. Images, formulas, and formatting don't come with it
 
 ## Import the CSV into Nibomo
 
-1. Open [Nibomo on the web](https://app.nibomo.com/) and switch to the workspace where you want the cards. The web app also works as a fallback if an older mobile app doesn't show the import option.
+1. Open [Nibomo on the web](https://app.nibomo.com/?locale=en) and switch to the workspace where you want the cards. The web app also works as a fallback if an older mobile app doesn't show the import option.
 2. Go to **Library → Import**. Under **From another app**, select **Import from StudySmarter**.
 3. Select **Choose files**, attach the CSV, and select **Start import**.
 

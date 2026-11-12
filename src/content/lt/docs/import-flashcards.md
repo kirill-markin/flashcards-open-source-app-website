@@ -3,7 +3,7 @@ title: Kaip importuoti korteles į „Nibomo“
 description: Perkelkite korteles iš „Quizlet“, „Anki“ ar kitos programėlės. Pasirinkite tinkamą eksporto formatą ir sužinokite, ką patikrinti prieš importuojant daug kortelių.
 ---
 
-Atidarykite [„Nibomo“](https://app.nibomo.com), pasirinkite darbo sritį, į kurią norite įkelti korteles, ir eikite į **Biblioteka > Importuoti**. Skiltyje **Iš kitos programėlės** pasirinkite programėlę, kuria naudojotės. Kiekvienai programėlei skirtas atskiras meniu punktas, net jei jų failų formatai sutampa.
+Atidarykite [„Nibomo“](https://app.nibomo.com/?locale=lt), pasirinkite darbo sritį, į kurią norite įkelti korteles, ir eikite į **Biblioteka > Importuoti**. Skiltyje **Iš kitos programėlės** pasirinkite programėlę, kuria naudojotės. Kiekvienai programėlei skirtas atskiras meniu punktas, net jei jų failų formatai sutampa.
 
 Toliau aprašytus būdus galite naudoti internetinėje programėlėje. Jei „iPhone“, „iPad“, „Mac“ ar „Android“ programėlėje nematote meniu arba reikiamo šaltinio, atidarykite „Nibomo“ naršyklėje. Jei įrenginyje naudojatės „Nibomo“ kaip svečias, pirmiausia prisijunkite tame įrenginyje. Naršyklėje prisijunkite prie tos pačios „Nibomo“ paskyros ir prieš importuodami pasirinkite darbo sritį, į kurią dėsite korteles.
 
@@ -32,7 +32,7 @@ Senesnį „Excel“ `.xls` failą prieš importuodami išsaugokite kaip `.xlsx`
 
 ## Importuokite iš kitos kortelių programėlės
 
-1. Programėlėje, kuria naudojotės, eksportuokite korteles, kurias norite perkelti. „Quizlet“ atidarykite rinkinį, pasirinkite **Export** (eksportuoti) ir nukopijuokite tekstą. Terminus nuo apibrėžčių patogu skirti tabuliacija, o korteles rašyti atskirose eilutėse.
+1. Programėlėje, kuria naudojotės, eksportuokite korteles, kurias norite perkelti. „Quizlet“ atidarykite rinkinį, pasirinkite **Export** (eksportuoti) ir nukopijuokite tekstą. Terminus nuo apibrėžčių patogu skirti tabuliacija, o korteles rašyti atskirose eilutėse. Eksportuoti galima tik „Quizlet“ svetainėje ir tik originalius rinkinius, kuriuos sukūrėte patys.
 2. „Nibomo“ atidarykite **Biblioteka > Importuoti** ir pasirinkite reikiamą programėlę. „Quizlet“ atveju įklijuokite nukopijuotą tekstą. Kitais atvejais pasirinkite eksportuotus failus. Jei jūsų programėlės sąraše nėra, bet iš jos galite eksportuoti palaikomo formato failą, pavyzdžiui, PDF, rinkitės **Importuoti iš kitos programėlės**.
 3. Spustelėkite **Pradėti importuoti**. „Nibomo“ atidarys naują DI pokalbį ir išsiųs importavimo užklausą kartu su failais ar įklijuotu tekstu. Tam reikalingas interneto ryšys. Vienas importuojamas failas gali būti iki **30 MiB**. Jei failas didesnis, pabandykite atskirai eksportuoti mažesnes kalades ar rinkinius.
 4. Patikrinkite rezultatą skiltyje **Biblioteka**. DI pokalbis gali išsaugoti korteles dalimis. Jei darbas nutrūksta, prieš iš naujo importuodami visą failą patikrinkite, kurios kortelės jau įrašytos į „Nibomo“, ir paprašykite tęsti nuo likusių kortelių.
@@ -51,4 +51,4 @@ Peržiūrėkite korteles, pataisykite neišsamias eilutes ir pasirinkite norimas
 
 ## Importuokite „Nibomo“ ZIP paketą
 
-Jei turite anksčiau iš „Nibomo“ eksportuotą `flashcards.zip`, rinkitės **Biblioteka > Importuoti > Importuoti iš „Nibomo“**. Pasirinkite neišskleistą ZIP failą, peržiūroje patikrinkite korteles bei susietą mediją ir patvirtinkite importavimą. Šiuo būdu galite perkelti pakete esančias korteles, žymas ir mediją. DI pokalbis nenaudojamas.
+Jei turite anksčiau iš „Nibomo“ eksportuotą `flashcards.zip`, rinkitės **Biblioteka > Importuoti > Importuoti iš „Nibomo“**. Pasirinkite neišskleistą ZIP failą. Peržiūroje patikrinkite kortelių ir medijos failų skaičių bei visus rodomus įspėjimus. Tada patvirtinkite importavimą ir atskiras korteles bei medijos failus peržiūrėkite skiltyje **Biblioteka**. Šiuo būdu galite perkelti pakete esančias korteles, žymas ir mediją. DI pokalbis nenaudojamas.

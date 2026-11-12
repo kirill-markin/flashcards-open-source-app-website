@@ -32,7 +32,7 @@ Starejšo Excelovo datoteko `.xls` pred uvozom shranite kot `.xlsx` ali `.csv`. 
 
 ## Uvoz iz druge aplikacije
 
-1. V izvorni aplikaciji izvozite kartice, ki jih želite prenesti. V Quizletu odprite svoj komplet, izberite **Export** in kopirajte besedilo. Med izrazom in definicijo uporabite tabulator, med karticami pa novo vrstico.
+1. V izvorni aplikaciji izvozite kartice, ki jih želite prenesti. V Quizletu odprite svoj komplet, izberite **Export** in kopirajte besedilo. Med izrazom in definicijo uporabite tabulator, med karticami pa novo vrstico. Izvoz je na voljo samo na spletnem mestu Quizlet in samo za izvirne komplete, ki ste jih ustvarili sami.
 2. V Nibomu odprite **Knjižnica > Uvoz** in izberite ustrezen vnos. Za Quizlet prilepite kopirano besedilo. Pri drugih virih izberite izvoženo datoteko ali datoteke. Če aplikacija nima lastnega vnosa, a omogoča izvoz v podprti obliki, na primer v PDF, uporabite **Uvozi iz druge aplikacije**.
 3. Izberite **Začni uvoz**. Nibomo odpre nov klepet z AI in pošlje zahtevo za uvoz skupaj z datotekami ali prilepljenim besedilom. Za to potrebujete internetno povezavo. Posamezna datoteka za uvoz prek AI lahko meri največ **30 MiB**. Če je večja, poskusite manjše komplete izvoziti ločeno.
 4. Rezultat preverite v razdelku **Knjižnica**. Klepet z AI lahko kartice shranjuje sproti po skupinah. Če se uvoz ustavi, preverite, katere kartice so že v Nibomu, in prosite klepet z AI, naj nadaljuje s preostalimi, preden ponovite celoten uvoz.
@@ -51,4 +51,4 @@ Oglejte si predogled, popravite nepopolne vrstice in izberite oznake, ki jih že
 
 ## Uvoz datoteke ZIP iz Niboma
 
-Za datoteko `flashcards.zip`, ki ste jo prej izvozili iz Niboma, uporabite **Knjižnica > Uvoz > Uvozi iz Niboma**. Izberite ZIP brez razširjanja, v predogledu preverite kartice in povezane predstavnostne datoteke ter potrdite uvoz. Tako lahko prenesete kartice, oznake in predstavnost, ki jih vsebuje paket. Klepet z AI pri tem uvozu ne sodeluje.
+Za datoteko `flashcards.zip`, ki ste jo prej izvozili iz Niboma, uporabite **Knjižnica > Uvoz > Uvozi iz Niboma**. Izberite ZIP, ne da bi ga razširili. V predogledu preverite število kartic in predstavnostnih datotek ter morebitna opozorila. Nato potrdite uvoz in si posamezne kartice in predstavnostne datoteke oglejte v razdelku **Knjižnica**. Tako lahko prenesete kartice, oznake in predstavnost, ki jih vsebuje paket. Klepet z AI pri tem uvozu ne sodeluje.

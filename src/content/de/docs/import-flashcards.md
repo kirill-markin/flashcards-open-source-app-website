@@ -32,7 +32,7 @@ Wenn du eine ältere Excel-Datei im Format `.xls` hast, speichere sie vor dem Im
 
 ## Karten aus einer anderen Karteikarten-App importieren
 
-1. Exportiere die gewünschten Karten in der ursprünglichen App. Öffne in Quizlet dein Set, wähle **Export** (Exportieren) und kopiere den Text. Ein Tabulator zwischen Begriff und Definition und eine neue Zeile pro Karte eignen sich als Trennzeichen.
+1. Exportiere die gewünschten Karten in der ursprünglichen App. Öffne in Quizlet dein Set, wähle **Export** (Exportieren) und kopiere den Text. Ein Tabulator zwischen Begriff und Definition und eine neue Zeile pro Karte eignen sich als Trennzeichen. Du kannst Sets nur auf der Quizlet-Website exportieren, und zwar nur Originalsets, die du selbst erstellt hast.
 2. Wähle in Nibomo **Bibliothek > Import** und öffne den passenden Eintrag. Füge bei Quizlet den kopierten Text ein. Wähle für andere Quellen die exportierte Datei oder die exportierten Dateien aus. Wenn deine App keinen eigenen Eintrag hat, aber ein unterstütztes Format wie PDF exportiert, wähle **Aus einer anderen App importieren**.
 3. Wähle **Import starten**. Nibomo öffnet einen neuen KI-Chat und sendet die Importanfrage mit den Dateien oder dem eingefügten Text. Dafür brauchst du eine Internetverbindung. Jede Datei darf beim KI-Import höchstens **30 MiB** groß sein. Ist sie größer, versuche, kleinere Decks oder Sets einzeln zu exportieren.
 4. Prüfe das Ergebnis in der **Bibliothek**. Der KI-Chat kann die Karten in mehreren Etappen speichern. Wenn er zwischendurch aufhört, sieh nach, welche Karten bereits in Nibomo sind, und bitte ihn, mit dem Rest fortzufahren, bevor du den gesamten Export erneut importierst.
@@ -51,4 +51,4 @@ Prüfe die Vorschau, korrigiere unvollständige Zeilen und wähle bei Bedarf Tag
 
 ## Eine ZIP-Datei aus Nibomo importieren
 
-Wähle **Bibliothek > Import > Aus Nibomo importieren**, um eine zuvor aus Nibomo exportierte Datei namens `flashcards.zip` zu importieren. Wähle die ZIP-Datei aus, ohne sie zu entpacken, prüfe die Karten und die zugehörigen Medien in der Vorschau und bestätige den Import. So kannst du Karten, Tags und Medien aus dem Paket übernehmen. Dieser Weg verwendet keinen KI-Chat.
+Wähle **Bibliothek > Import > Aus Nibomo importieren**, um eine zuvor aus Nibomo exportierte Datei namens `flashcards.zip` zu importieren. Wähle die ZIP-Datei aus, ohne sie zu entpacken. Prüfe in der Vorschau die Anzahl der Karten und Mediendateien sowie etwaige Warnhinweise. Bestätige dann den Import und sieh dir einzelne Karten und Mediendateien in der **Bibliothek** an. So kannst du Karten, Tags und Medien aus dem Paket übernehmen. Dieser Weg verwendet keinen KI-Chat.

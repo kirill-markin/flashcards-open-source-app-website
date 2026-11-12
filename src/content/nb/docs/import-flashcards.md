@@ -3,7 +3,7 @@ title: Importer puggekort til Nibomo
 description: Flytt kort fra Quizlet, Anki eller en annen app. Finn riktig eksportformat og sjekk kortene før en stor import.
 ---
 
-Åpne [Nibomo](https://app.nibomo.com), velg arbeidsområdet du vil importere kortene til, og gå til **Bibliotek > Import**. Under **Fra en annen app** velger du appen du brukte. Hver app har sitt eget valg, også når flere bruker samme filformat.
+Åpne [Nibomo](https://app.nibomo.com/?locale=nb), velg arbeidsområdet du vil importere kortene til, og gå til **Bibliotek > Import**. Under **Fra en annen app** velger du appen du brukte. Hver app har sitt eget valg, også når flere bruker samme filformat.
 
 Valgene nedenfor finnes i nettappen. Bruk nettappen hvis du ikke finner menyen eller kilden på iPhone, iPad, Mac eller Android. Bruker du Nibomo som gjest på enheten, logger du inn der først. Logg deretter inn med samme Nibomo-konto i nettappen og velg arbeidsområdet som skal få kortene.
 
@@ -32,7 +32,7 @@ Har du en eldre Excel-fil i `.xls`-format, lagrer du den som `.xlsx` eller `.csv
 
 ## Importer fra en annen puggekortapp
 
-1. Eksporter kortene du vil flytte, fra appen du brukte. I Quizlet åpner du kortsettet ditt, velger **Export** og kopierer teksten. Tabulator mellom begrep og definisjon og ny linje mellom kort fungerer godt.
+1. Eksporter kortene du vil flytte, fra appen du brukte. I Quizlet åpner du kortsettet ditt, velger **Export** og kopierer teksten. Tabulator mellom begrep og definisjon og ny linje mellom kort fungerer godt. Du kan bare eksportere på Quizlets nettsted, og bare originale kortsett du har laget selv.
 2. Gå til **Bibliotek > Import** i Nibomo og åpne valget for appen din. Lim inn den kopierte teksten for Quizlet. For andre kilder velger du eksportfilene. Hvis appen ikke står på listen, men du har en fil i et støttet format, for eksempel PDF, velger du **Importer fra en annen app**.
 3. Velg **Start import**. Nibomo åpner en ny AI-chat og sender importforespørselen med filene eller teksten. Du trenger internettforbindelse. Hver fil til AI-import kan være opptil **30 MiB**. Eksporter mindre kortstokker eller sett hver for seg hvis filen er for stor.
 4. Sjekk resultatet i **Bibliotek**. AI-chatten kan lagre kort i puljer underveis. Hvis den stopper, se hvilke kort som allerede ligger i Nibomo og be chatten fortsette med resten før du prøver hele eksporten på nytt.
@@ -51,4 +51,4 @@ Se over forhåndsvisningen, rett opp ufullstendige rader og velg eventuelle etik
 
 ## Importer en Nibomo-ZIP
 
-Bruk **Bibliotek > Import > Importer fra Nibomo** for en `flashcards.zip` som er eksportert fra Nibomo. Velg ZIP-filen uten å pakke den ut, sjekk kort og tilknyttede medier i forhåndsvisningen og bekreft importen. Kort, etiketter og medier i pakken kan følge med. Denne importen bruker ikke AI-chat.
+Bruk **Bibliotek > Import > Importer fra Nibomo** for en `flashcards.zip` som er eksportert fra Nibomo. Velg ZIP-filen uten å pakke den ut. Sjekk antall kort og mediefiler og eventuelle advarsler i forhåndsvisningen. Bekreft deretter importen og se gjennom enkeltkort og mediefiler i **Bibliotek**. Kort, etiketter og medier i pakken kan følge med. Denne importen bruker ikke AI-chat.

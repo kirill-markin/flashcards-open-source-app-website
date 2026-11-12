@@ -3,7 +3,7 @@ title: Importer des cartes mémoire dans Nibomo
 description: Récupérez vos cartes de Quizlet, d’Anki ou d’une autre application. Choisissez le bon format d’export et vérifiez le résultat avant d’importer un gros volume de cartes.
 ---
 
-Ouvrez [Nibomo](https://app.nibomo.com), sélectionnez l’espace de travail qui doit recevoir les cartes, puis ouvrez **Bibliothèque > Importer**. Dans **Depuis une autre app**, choisissez l’application que vous utilisiez. Chaque application a sa propre option, même quand elle partage son format de fichier avec une autre.
+Ouvrez [Nibomo](https://app.nibomo.com/?locale=fr), sélectionnez l’espace de travail qui doit recevoir les cartes, puis ouvrez **Bibliothèque > Importer**. Dans **Depuis une autre app**, choisissez l’application que vous utilisiez. Chaque application a sa propre option, même quand elle partage son format de fichier avec une autre.
 
 Les options ci-dessous sont disponibles dans l’application web. Si vous ne trouvez pas le menu ou l’option voulue sur iPhone, iPad, Mac ou Android, utilisez l’application web. Si vous utilisez Nibomo en tant qu’invité sur votre appareil, connectez-vous d’abord sur cet appareil. Puis connectez-vous à l’application web avec le même compte Nibomo et choisissez l’espace de travail de destination avant l’importation.
 
@@ -32,7 +32,7 @@ Si vous avez un ancien fichier Excel au format `.xls`, enregistrez-le en `.xlsx`
 
 ## Importer depuis une autre application de cartes mémoire
 
-1. Dans l’application d’origine, exportez les cartes que vous voulez transférer. Dans Quizlet, ouvrez votre liste, choisissez **Exporter** et copiez le texte. Utilisez une tabulation entre le terme et sa définition et un retour à la ligne entre les cartes.
+1. Dans l’application d’origine, exportez les cartes que vous voulez transférer. Dans Quizlet, ouvrez votre liste, choisissez **Exporter** et copiez le texte. Utilisez une tabulation entre le terme et sa définition et un retour à la ligne entre les cartes. L’exportation est disponible uniquement sur le site web de Quizlet et seulement pour les listes originales que vous avez créées vous-même.
 2. Dans Nibomo, ouvrez **Bibliothèque > Importer** et choisissez l’option qui correspond à votre application. Pour Quizlet, collez le texte copié. Pour les autres sources, sélectionnez les fichiers exportés. Si votre application ne figure pas dans le menu mais fournit un fichier pris en charge, par exemple un PDF, choisissez **Importer depuis une autre app**.
 3. Sélectionnez **Lancer l’importation**. Nibomo ouvre un nouveau chat IA et envoie la demande d’importation avec les fichiers ou le texte collé. Une connexion Internet est nécessaire. Chaque fichier importé via le chat IA peut peser jusqu’à **30 Mio**. Si votre fichier est plus volumineux, essayez d’exporter séparément des paquets ou des listes plus petits.
 4. Vérifiez le résultat dans la **Bibliothèque**. Le chat IA peut enregistrer les cartes par lots au fur et à mesure. Si l’importation s’interrompt, vérifiez quelles cartes sont déjà dans Nibomo et demandez au chat de traiter les cartes restantes avant de relancer l’importation de tout le fichier.
@@ -51,4 +51,4 @@ Vérifiez l’aperçu des cartes, corrigez les lignes incomplètes et choisissez
 
 ## Importer un ZIP de Nibomo
 
-Pour un fichier `flashcards.zip` précédemment exporté depuis Nibomo, ouvrez **Bibliothèque > Importer > Importer depuis Nibomo**. Sélectionnez le ZIP sans le décompresser, vérifiez les cartes et les médias associés dans l’aperçu, puis confirmez l’importation. Cette méthode permet de transférer les cartes, les étiquettes et les médias inclus dans le fichier. Elle fonctionne sans chat IA.
+Pour un fichier `flashcards.zip` précédemment exporté depuis Nibomo, ouvrez **Bibliothèque > Importer > Importer depuis Nibomo**. Sélectionnez le ZIP sans le décompresser. Dans l’aperçu, vérifiez le nombre de cartes et de fichiers multimédias ainsi que les éventuels avertissements, puis confirmez l’importation et examinez les cartes et les médias dans la **Bibliothèque**. Cette méthode permet de transférer les cartes, les étiquettes et les médias inclus dans le fichier. Elle fonctionne sans chat IA.

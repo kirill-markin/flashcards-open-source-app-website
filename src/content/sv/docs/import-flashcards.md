@@ -32,7 +32,7 @@ Om du har en äldre Excel-fil i formatet `.xls`, spara den som `.xlsx` eller `.c
 
 ## Importera från en annan app
 
-1. Exportera korten du vill flytta från källappen. Öppna ditt set i Quizlet, välj **Exportera** och kopiera texten. Tabb mellan term och definition och ny rad mellan korten fungerar bra.
+1. Exportera korten du vill flytta från källappen. Öppna ditt set i Quizlet, välj **Exportera** och kopiera texten. Tabb mellan term och definition och ny rad mellan korten fungerar bra. Du kan bara exportera på Quizlets webbplats och bara de originalset du själv har skapat.
 2. Välj **Bibliotek > Importera** i Nibomo och öppna alternativet för din app. För Quizlet klistrar du in den kopierade texten. För andra källor väljer du filen eller filerna du exporterade. Om din app saknar ett eget alternativ men kan exportera i ett format som stöds, till exempel PDF, väljer du **Importera från en annan app**.
 3. Välj **Starta import**. Nibomo öppnar en ny AI-chatt och skickar importbegäran med filerna eller texten du klistrade in. Det kräver internetanslutning. Varje fil får vara högst **30 MiB** vid AI-import. Om filen är större kan du prova att exportera mindre kortlekar eller set var för sig.
 4. Kontrollera resultatet i **Bibliotek**. AI-chatten kan spara korten i omgångar. Om importen avbryts, kontrollera vilka kort som redan finns i Nibomo och be AI-chatten fortsätta med resten innan du gör om hela importen.
@@ -51,4 +51,4 @@ Förhandsgranska korten, rätta ofullständiga rader och välj de taggar du vill
 
 ## Importera en ZIP-fil från Nibomo
 
-Använd **Bibliotek > Importera > Importera från Nibomo** för en `flashcards.zip` som du har exporterat från Nibomo. Välj ZIP-filen utan att packa upp den, kontrollera korten och de refererade medierna i förhandsgranskningen och bekräfta importen. Den här vägen kan överföra kort, taggar och media i paketet. Den använder ingen AI-chatt.
+Använd **Bibliotek > Importera > Importera från Nibomo** för en `flashcards.zip` som du har exporterat från Nibomo. Välj ZIP-filen utan att packa upp den. Kontrollera antalet kort och mediefiler och eventuella varningar i förhandsgranskningen. Bekräfta sedan importen och granska enskilda kort och mediefiler i **Bibliotek**. Den här vägen kan överföra kort, taggar och media i paketet. Den använder ingen AI-chatt.

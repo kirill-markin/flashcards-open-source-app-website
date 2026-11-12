@@ -30,7 +30,7 @@ Open a Markdown or Text export in a text editor before uploading it. If you can 
 
 ## Start the import in Nibomo
 
-1. Open [Nibomo on the web](https://app.nibomo.com/) and switch to the workspace where you want the cards.
+1. Open [Nibomo on the web](https://app.nibomo.com/?locale=en) and switch to the workspace where you want the cards.
 2. Go to **Library > Import > Import from RemNote**. If you’re using the installed app and the RemNote option is missing, open the web app.
 3. Select **Choose files** and pick the `.apkg`, `.md`, or `.txt` you exported. Each file can be up to 30 MiB. If yours is larger, export a smaller RemNote document.
 4. Select **Start import**. This opens an online AI chat that can save cards as it goes. When it finishes, read the chat summary and open **Library > Cards** to inspect the saved cards.

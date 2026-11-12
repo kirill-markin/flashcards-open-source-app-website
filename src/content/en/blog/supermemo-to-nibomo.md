@@ -24,7 +24,7 @@ SuperMemo's XML exchange can include learning data for use by other SuperMemo ve
 
 ## Send the XML to Nibomo's AI chat
 
-1. In the [Nibomo web app](https://app.nibomo.com/), open the workspace where you want to save the cards. Go to **Library → Import → Import from SuperMemo**. Use the web app if you can't find the SuperMemo option in your installed version.
+1. In the [Nibomo web app](https://app.nibomo.com/?locale=en), open the workspace where you want to save the cards. Go to **Library → Import → Import from SuperMemo**. Use the web app if you can't find the SuperMemo option in your installed version.
 2. Select **Choose files**, pick the `.xml` file, then select **Start import**. This sends the file to AI chat and requires an internet connection. The chat can save cards as it goes, so use an empty workspace if you want an easy way to count the test cards.
 3. Open **Library → Cards** to check what's saved. If the import stops partway through, compare the saved cards with the source before retrying. You can ask the chat to continue with the missing items. [Nibomo import guide](/docs/import-flashcards/)
 

@@ -32,7 +32,7 @@ Har du en ældre Excel-fil i formatet `.xls`, kan du gemme den som `.xlsx` eller
 
 ## Importér kort fra en anden flashcard-app
 
-1. Eksportér de kort, du vil flytte, fra den oprindelige app. Åbn dit sæt i Quizlet, vælg **Export** (Eksportér), og kopiér teksten. Brug tabulator mellem begreb og definition og en ny linje for hvert kort.
+1. Eksportér de kort, du vil flytte, fra den oprindelige app. Åbn dit sæt i Quizlet, vælg **Export** (Eksportér), og kopiér teksten. Brug tabulator mellem begreb og definition og en ny linje for hvert kort. Du kan kun eksportere via Quizlets hjemmeside, og kun de originale sæt, du selv har oprettet.
 2. Gå til **Bibliotek > Import** i Nibomo, og vælg den relevante app. Indsæt den kopierede tekst, hvis du kommer fra Quizlet. For andre kilder skal du vælge den eller de eksporterede filer. Hvis din app ikke har sit eget menupunkt, men kan eksportere i et understøttet format som PDF, skal du vælge **Importér fra en anden app**.
 3. Vælg **Start import**. Nibomo åbner en ny AI-chat og sender importanmodningen med dine filer eller den indsatte tekst. Det kræver internetforbindelse. Hver fil til AI-import må fylde op til **30 MiB**. Hvis filen er større, så prøv at eksportere mindre bunker eller sæt hver for sig.
 4. Tjek resultatet under **Bibliotek**. AI-chatten kan gemme kortene i portioner. Hvis den stopper undervejs, så se, hvilke kort der allerede er gemt, og bed den om at fortsætte med resten, før du prøver hele eksporten igen.
@@ -51,4 +51,4 @@ Tjek forhåndsvisningen, ret ufuldstændige rækker, og vælg de tags, du vil ti
 
 ## Importér en ZIP-fil fra Nibomo
 
-Brug **Bibliotek > Import > Importér fra Nibomo** til en `flashcards.zip`, som tidligere er eksporteret fra Nibomo. Vælg ZIP-filen uden at pakke den ud, tjek kort og tilhørende medier i forhåndsvisningen, og bekræft importen. Denne metode kan overføre kort, tags og medier fra pakken uden at bruge AI-chatten.
+Brug **Bibliotek > Import > Importér fra Nibomo** til en `flashcards.zip`, som tidligere er eksporteret fra Nibomo. Vælg ZIP-filen uden at pakke den ud. Tjek antallet af kort og mediefiler samt eventuelle advarsler i forhåndsvisningen. Bekræft derefter importen, og se de enkelte kort og mediefiler i **Bibliotek**. Denne metode kan overføre kort, tags og medier fra pakken uden at bruge AI-chatten.

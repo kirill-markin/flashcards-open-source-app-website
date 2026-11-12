@@ -3,7 +3,7 @@ title: Tanulókártyák importálása a Nibomóba
 description: Hozd át kártyáidat a Quizletből, az Ankiból vagy más alkalmazásból. Válaszd ki a megfelelő exportformátumot, és ellenőrizd a kártyákat a nagyobb importálás előtt.
 ---
 
-Nyisd meg a [Nibomót](https://app.nibomo.com), válts arra a munkaterületre, ahová a kártyákat szeretnéd tenni, majd válaszd a **Könyvtár > Importálás** menüpontot. A **Másik alkalmazásból** szakaszban válaszd ki a korábban használt alkalmazást. Minden alkalmazásnak külön menüpontja van, még akkor is, ha többen ugyanazt a fájlformátumot használják.
+Nyisd meg a [Nibomót](https://app.nibomo.com/?locale=hu), válts arra a munkaterületre, ahová a kártyákat szeretnéd tenni, majd válaszd a **Könyvtár > Importálás** menüpontot. A **Másik alkalmazásból** szakaszban válaszd ki a korábban használt alkalmazást. Minden alkalmazásnak külön menüpontja van, még akkor is, ha többen ugyanazt a fájlformátumot használják.
 
 Az alábbi lehetőségek elérhetők a webalkalmazásban. Ha iPhone-on, iPaden, Macen vagy Androidon nem látod az importálási menüt vagy a keresett alkalmazást, használd a webes felületet. Ha az eszközödön vendégként használod a Nibomót, előbb ott jelentkezz be. A webalkalmazásban ugyanazzal a Nibomo-fiókkal jelentkezz be, majd importálás előtt válaszd ki a célként használt munkaterületet.
 
@@ -32,7 +32,7 @@ Ha régi, `.xls` formátumú Excel-fájlod van, importálás előtt mentsd `.xls
 
 ## Importálás másik tanulókártya-alkalmazásból
 
-1. Exportáld az áthelyezni kívánt kártyákat a forrásalkalmazásból. Quizletben nyisd meg a készletet, válaszd az **Export** lehetőséget, és másold ki a szöveget. A kifejezés és a meghatározás közé tabulátor, a kártyák közé sortörés kerüljön.
+1. Exportáld az áthelyezni kívánt kártyákat a forrásalkalmazásból. Quizletben nyisd meg a készletet, válaszd az **Export** lehetőséget, és másold ki a szöveget. A kifejezés és a meghatározás közé tabulátor, a kártyák közé sortörés kerüljön. Csak a Quizlet weboldalán exportálhatsz, és csak olyan eredeti készleteket, amelyeket te hoztál létre.
 2. A Nibomóban válaszd a **Könyvtár > Importálás** menüpontot, majd nyisd meg a megfelelő lehetőséget. Quizlet esetén illeszd be a kimásolt szöveget. A többi forrásnál válaszd ki az exportált fájlokat. Ha az alkalmazásodnak nincs külön menüpontja, de támogatott formátumba, például PDF-be exportál, válaszd az **Importálás másik alkalmazásból** lehetőséget.
 3. Válaszd az **Importálás indítása** gombot. A Nibomo új AI-csevegést nyit, és elküldi az importálási kérést a fájlokkal vagy a beillesztett szöveggel. Ehhez internetkapcsolat kell. Az AI-val importált fájlok egyenként legfeljebb **30 MiB** méretűek lehetnek. Nagyobb fájl esetén próbálj kisebb paklikat vagy készleteket külön exportálni.
 4. Ellenőrizd az eredményt a **Könyvtár** lapon. Az AI-csevegés menet közben több részletben is mentheti a kártyákat. Ha leáll, nézd meg, mely kártyák vannak már a Nibomóban, és kérd meg az AI-t, hogy folytassa a többivel, mielőtt a teljes exporttal újra próbálkoznál.
@@ -51,4 +51,4 @@ Nézd át a kártyák előnézetét, javítsd a hiányos sorokat, és válaszd k
 
 ## ZIP importálása a Nibomóból
 
-A korábban a Nibomóból exportált `flashcards.zip` fájlhoz válaszd a **Könyvtár > Importálás > Importálás a Nibomóból** menüpontot. Válaszd ki a ZIP-et kicsomagolás nélkül, ellenőrizd az előnézetben a kártyákat és a hozzájuk kapcsolódó médiafájlokat, majd erősítsd meg az importálást. Így a csomagban található kártyákat, címkéket és médiafájlokat is átviheted AI-csevegés nélkül.
+A korábban a Nibomóból exportált `flashcards.zip` fájlhoz válaszd a **Könyvtár > Importálás > Importálás a Nibomóból** menüpontot. Válaszd ki a ZIP-et kicsomagolás nélkül. Az előnézetben ellenőrizd a kártyák és a médiafájlok számát, valamint az esetleges figyelmeztetéseket. Ezután erősítsd meg az importálást, majd nézd meg az egyes kártyákat és médiafájlokat a **Könyvtár** nézetben. Így a csomagban található kártyákat, címkéket és médiafájlokat is átviheted AI-csevegés nélkül.

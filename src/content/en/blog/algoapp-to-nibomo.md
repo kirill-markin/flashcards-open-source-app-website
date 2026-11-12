@@ -26,7 +26,7 @@ AlgoApp exports one deck at a time. Current exports include card tags, while old
 
 ## Import the ZIP or XML into Nibomo
 
-1. Open the workspace where you want the cards. Use the [Nibomo web app](https://app.nibomo.com/) if you can't find the AlgoApp or AnkiApp option in your installed app.
+1. Open the workspace where you want the cards. Use the [Nibomo web app](https://app.nibomo.com/?locale=en) if you can't find the AlgoApp or AnkiApp option in your installed app.
 2. Go to **Library → Import** and select **Import from AlgoApp (formerly AnkiApp)** or **Import from AnkiApp**, whichever label you see. Both labels identify the same `.zip, .xml` option.
 3. Select **Choose files** and pick the original ZIP or the plain XML. Select **Start import**. This opens a new AI chat and sends your file with a request to import the cards into the current workspace.
 

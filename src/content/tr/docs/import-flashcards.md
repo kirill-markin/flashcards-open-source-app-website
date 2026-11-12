@@ -3,7 +3,7 @@ title: Bilgi kartlarını Nibomo’ya aktarma
 description: Quizlet, Anki veya başka bir uygulamadaki kartlarınızı taşıyın. Hangi biçimi kullanacağınızı ve büyük bir aktarım öncesi kartlarınızı nasıl kontrol edeceğinizi öğrenin.
 ---
 
-[Nibomo’yu açın](https://app.nibomo.com), kartları eklemek istediğiniz çalışma alanına geçin ve **Kitaplık > İçe aktar** bölümüne gidin. **Başka bir uygulamadan** altında kullandığınız uygulamayı seçin. Aynı dosya biçimini kullansalar bile her uygulamanın ayrı bir seçeneği vardır.
+[Nibomo’yu açın](https://app.nibomo.com/?locale=tr), kartları eklemek istediğiniz çalışma alanına geçin ve **Kitaplık > İçe aktar** bölümüne gidin. **Başka bir uygulamadan** altında kullandığınız uygulamayı seçin. Aynı dosya biçimini kullansalar bile her uygulamanın ayrı bir seçeneği vardır.
 
 Aşağıdaki seçenekler web uygulamasında bulunur. iPhone, iPad, Mac veya Android’de menüyü ya da aradığınız seçeneği göremezseniz web uygulamasını kullanın. Cihazınızda Nibomo’yu misafir olarak kullanıyorsanız önce orada oturum açın. Web uygulamasında aynı Nibomo hesabıyla oturum açın ve içe aktarmadan önce kartları eklemek istediğiniz çalışma alanını seçin.
 
@@ -32,7 +32,7 @@ Eski bir Excel `.xls` dosyanız varsa içe aktarmadan önce `.xlsx` veya `.csv` 
 
 ## Başka bir bilgi kartı uygulamasından içe aktarma
 
-1. Kartları kullandığınız uygulamadan dışa aktarın. Quizlet’te setinizi açın, **Dışa aktar**’ı seçin ve metni kopyalayın. Terim ile tanımı sekmeyle, kartları ise yeni satırla ayırabilirsiniz.
+1. Kartları kullandığınız uygulamadan dışa aktarın. Quizlet’te setinizi açın, **Dışa aktar**’ı seçin ve metni kopyalayın. Terim ile tanımı sekmeyle, kartları ise yeni satırla ayırabilirsiniz. Dışa aktarma yalnızca Quizlet’in web sitesinde ve kendi oluşturduğunuz özgün setler için kullanılabilir.
 2. Nibomo’da **Kitaplık > İçe aktar** bölümünde ilgili seçeneği açın. Quizlet için kopyaladığınız metni yapıştırın. Diğer kaynaklar için dışa aktardığınız dosyaları seçin. Uygulamanız listede yoksa ve PDF gibi desteklenen bir dosya biçimi sunuyorsa **Başka bir uygulamadan içe aktar** seçeneğini kullanın.
 3. **İçe aktarmayı başlat**’ı seçin. Nibomo yeni bir AI sohbeti açar ve içe aktarma isteğini dosyalarınızla veya yapıştırdığınız metinle birlikte gönderir. Bu işlem internet bağlantısı gerektirir. AI ile içe aktarmada dosya başına sınır **30 MiB**’tır. Daha büyük dosyalar için desteleri veya setleri ayrı ayrı dışa aktarmayı deneyin.
 4. Sonucu **Kitaplık** bölümünde kontrol edin. AI sohbeti işlem sırasında kartları gruplar hâlinde kaydedebilir. İşlem yarıda kalırsa, tüm dosyayı yeniden aktarmadan önce hangi kartların Nibomo’da olduğunu kontrol edin ve AI’dan kalanlarla devam etmesini isteyin.
@@ -51,4 +51,4 @@ Kartları önizleyin, eksik satırları düzeltin ve eklemek istediğiniz etiket
 
 ## Nibomo ZIP dosyasını içe aktarma
 
-Daha önce Nibomo’dan dışa aktardığınız bir `flashcards.zip` için **Kitaplık > İçe aktar > Nibomo’dan içe aktar** yolunu izleyin. ZIP dosyasını açmadan seçin, önizlemede kartları ve kartlara bağlı medyayı kontrol edin, ardından içe aktarmayı onaylayın. Bu yöntem paketteki kartları, etiketleri ve medyayı taşıyabilir. AI sohbeti kullanılmaz.
+Daha önce Nibomo’dan dışa aktardığınız bir `flashcards.zip` için **Kitaplık > İçe aktar > Nibomo’dan içe aktar** yolunu izleyin. ZIP dosyasını açmadan seçin. Önizlemede kart ve medya dosyası sayılarını ve varsa uyarıları kontrol edin. Ardından içe aktarmayı onaylayıp **Kitaplık**’ta kartları ve medya dosyalarını tek tek inceleyin. Bu yöntem paketteki kartları, etiketleri ve medyayı taşıyabilir. AI sohbeti kullanılmaz.

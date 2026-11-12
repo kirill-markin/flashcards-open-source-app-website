@@ -24,7 +24,7 @@ The web editor also offers an Excel export. Either format gives you a file you c
 
 ## Import the CSV or Excel file into Nibomo
 
-1. In the [Nibomo web app](https://app.nibomo.com/), open the workspace where you want the cards.
+1. In the [Nibomo web app](https://app.nibomo.com/?locale=en), open the workspace where you want the cards.
 2. Go to **Library → Import → Import from another app**.
 3. Click **Choose files**, select your `.csv` or `.xlsx`, and click **Start import**. This starts an AI chat that can save cards directly into the current workspace.
 4. When the chat finishes, open **Library → Cards**. Count the new cards and compare both sides with the source. Check a few rows with accents, punctuation or extra columns.

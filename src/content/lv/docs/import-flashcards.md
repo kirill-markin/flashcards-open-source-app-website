@@ -3,7 +3,7 @@ title: Kā importēt kartītes lietotnē Nibomo
 description: Pārvieto kartītes no Quizlet, Anki vai citas lietotnes. Uzzini, kuru eksporta formātu izvēlēties un ko pārbaudīt pirms liela importa.
 ---
 
-Atver [Nibomo](https://app.nibomo.com), izvēlies darbvietu, kurai vēlies pievienot kartītes, un dodies uz **Bibliotēka > Importēt**. Sadaļā **No citas lietotnes** izvēlies lietotni, kuru izmantoji. Katrai lietotnei ir savs izvēlnes punkts arī tad, ja faila formāts sakrīt ar citas lietotnes formātu.
+Atver [Nibomo](https://app.nibomo.com/?locale=lv), izvēlies darbvietu, kurai vēlies pievienot kartītes, un dodies uz **Bibliotēka > Importēt**. Sadaļā **No citas lietotnes** izvēlies lietotni, kuru izmantoji. Katrai lietotnei ir savs izvēlnes punkts arī tad, ja faila formāts sakrīt ar citas lietotnes formātu.
 
 Tālāk aprakstītās iespējas ir pieejamas tīmekļa lietotnē. Ja iPhone, iPad, Mac vai Android ierīcē neredzi izvēlni vai vajadzīgo lietotni, izmanto tīmekļa lietotni. Ja ierīcē lieto Nibomo kā viesis, vispirms pieraksties tajā ierīcē. Tīmekļa lietotnē pieraksties ar to pašu Nibomo kontu un pirms importēšanas izvēlies darbvietu, kurā vēlies ievietot kartītes.
 
@@ -32,7 +32,7 @@ Vecāka formāta Excel `.xls` failu pirms importēšanas saglabā kā `.xlsx` va
 
 ## Importē no citas kartīšu lietotnes
 
-1. Lietotnē, kuru izmantoji, eksportē kartītes, ko vēlies pārvietot. Quizlet atver savu komplektu, izvēlies **Export** (eksportēt) un nokopē tekstu. Terminu un definīciju ērti atdalīt ar tabulāciju, bet katru kartīti rakstīt jaunā rindā.
+1. Lietotnē, kuru izmantoji, eksportē kartītes, ko vēlies pārvietot. Quizlet atver savu komplektu, izvēlies **Export** (eksportēt) un nokopē tekstu. Terminu un definīciju ērti atdalīt ar tabulāciju, bet katru kartīti rakstīt jaunā rindā. Eksportēt vari tikai Quizlet tīmekļa vietnē un tikai tos oriģinālos komplektus, kurus izveidoji pats.
 2. Nibomo atver **Bibliotēka > Importēt** un izvēlies atbilstošo lietotni. Quizlet gadījumā ielīmē nokopēto tekstu. Pārējiem avotiem izvēlies eksportēto failu vai failus. Ja tavas lietotnes izvēlnē nav, bet tā ļauj eksportēt atbalstītā formātā, piemēram, PDF, izvēlies **Importēt no citas lietotnes**.
 3. Izvēlies **Sākt importēšanu**. Nibomo atvērs jaunu MI sarunu un nosūtīs importēšanas pieprasījumu kopā ar failiem vai ielīmēto tekstu. Tam vajadzīgs interneta savienojums. Viena MI importēšanas faila izmērs nedrīkst pārsniegt **30 MiB**. Ja fails ir lielāks, mēģini atsevišķi eksportēt mazākas kavas vai komplektus.
 4. Pārbaudi rezultātu sadaļā **Bibliotēka**. MI sarunas gaitā kartītes var tikt saglabātas pa daļām. Ja darbs apstājas pusceļā, apskati, kuras kartītes jau ir Nibomo, un palūdz turpināt ar pārējām, pirms atkārto visu importēšanu.
@@ -51,4 +51,4 @@ Pārskati kartītes, izlabo nepilnās rindas un izvēlies vajadzīgās birkas. T
 
 ## Importē Nibomo ZIP pakotni
 
-Ja tev ir iepriekš no Nibomo eksportēts `flashcards.zip`, atver **Bibliotēka > Importēt > Importēt no Nibomo**. Izvēlies ZIP failu, to neatpakojot. Priekšskatījumā pārbaudi kartītes un saistīto multividi, pēc tam apstiprini importēšanu. Šādi var pārnest pakotnē iekļautās kartītes, birkas un multividi. Šim veidam MI saruna nav vajadzīga.
+Ja tev ir iepriekš no Nibomo eksportēts `flashcards.zip`, atver **Bibliotēka > Importēt > Importēt no Nibomo**. Izvēlies ZIP failu, to neatpakojot. Priekšskatījumā pārbaudi kartīšu un multivides failu skaitu un izlasi brīdinājumus, ja tādi ir. Pēc tam apstiprini importēšanu un apskati atsevišķas kartītes un multivides failus sadaļā **Bibliotēka**. Šādi var pārnest pakotnē iekļautās kartītes, birkas un multividi. Šim veidam MI saruna nav vajadzīga.

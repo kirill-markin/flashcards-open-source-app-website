@@ -3,7 +3,7 @@ title: Importar tarjetas de estudio a Nibomo
 description: Trae tus tarjetas de Quizlet, Anki u otra app. Descubre qué formato exportar y cómo comprobar el resultado antes de importar muchas tarjetas.
 ---
 
-Abre [Nibomo](https://app.nibomo.com), selecciona el espacio de trabajo donde quieres guardar las tarjetas y entra en **Biblioteca > Importar**. En **Desde otra app**, elige la aplicación que usabas. Cada app tiene su propia opción, aunque comparta el formato de archivo con otra.
+Abre [Nibomo](https://app.nibomo.com/?locale=es), selecciona el espacio de trabajo donde quieres guardar las tarjetas y entra en **Biblioteca > Importar**. En **Desde otra app**, elige la aplicación que usabas. Cada app tiene su propia opción, aunque comparta el formato de archivo con otra.
 
 Las opciones de esta guía están disponibles en la app web. Si en iPhone, iPad, Mac o Android no aparece el menú o la opción que necesitas, usa la app web. Si usas Nibomo como invitado en tu dispositivo, inicia sesión allí primero. En la app web, entra con la misma cuenta de Nibomo y selecciona el espacio de trabajo donde quieres guardar las tarjetas.
 
@@ -32,7 +32,7 @@ Si tienes un archivo antiguo de Excel en formato `.xls`, guárdalo como `.xlsx` 
 
 ## Importar desde otra app de tarjetas
 
-1. En la app de origen, exporta las tarjetas que quieras llevarte. En Quizlet, abre tu set, selecciona **Exportar** y copia el texto. Usa una tabulación entre el término y la definición y un salto de línea entre tarjetas.
+1. En la app de origen, exporta las tarjetas que quieras llevarte. En Quizlet, abre tu set, selecciona **Exportar** y copia el texto. Usa una tabulación entre el término y la definición y un salto de línea entre tarjetas. Solo puedes exportar sets originales que hayas creado tú, y solo desde el sitio web de Quizlet.
 2. En Nibomo, abre **Biblioteca > Importar** y elige la opción correspondiente. Para Quizlet, pega el texto que copiaste. Para las demás apps, selecciona los archivos exportados. Si tu app no figura en el menú pero exporta a un formato compatible, como PDF, usa **Importar desde otra app**.
 3. Selecciona **Iniciar importación**. Nibomo abre un nuevo chat con IA y envía la solicitud de importación con tus archivos o el texto pegado. Necesitas conexión a internet. Cada archivo de una importación con IA puede pesar hasta **30 MiB**. Si es más grande, prueba a exportar mazos o sets más pequeños por separado.
 4. Comprueba el resultado en la **Biblioteca**. El chat con IA puede ir guardando las tarjetas por tandas. Si se detiene a medias, comprueba qué tarjetas están ya en Nibomo y pídele que siga con las que faltan antes de volver a importar todo.
@@ -51,4 +51,4 @@ Revisa la vista previa de las tarjetas, corrige las filas incompletas y elige la
 
 ## Importar un ZIP de Nibomo
 
-Para un `flashcards.zip` que hayas exportado desde Nibomo, abre **Biblioteca > Importar > Importar desde Nibomo**. Selecciona el ZIP sin descomprimirlo, comprueba las tarjetas y los archivos multimedia asociados en la vista previa y confirma la importación. Este método puede conservar las tarjetas, las etiquetas y los archivos multimedia del paquete. No usa el chat con IA.
+Para un `flashcards.zip` que hayas exportado desde Nibomo, abre **Biblioteca > Importar > Importar desde Nibomo**. Selecciona el ZIP sin descomprimirlo. En la vista previa, revisa cuántas tarjetas y archivos multimedia hay y si aparece algún aviso. Luego confirma la importación y abre **Biblioteca** para revisar las tarjetas y los archivos multimedia en detalle. Este método puede conservar las tarjetas, las etiquetas y los archivos multimedia del paquete. No usa el chat con IA.

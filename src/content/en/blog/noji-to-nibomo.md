@@ -28,7 +28,7 @@ If you don't see **Export deck**, check how the deck got into Noji. Noji lets yo
 
 ## Open Import from Noji in Nibomo
 
-1. Open the workspace where you want the cards. If your installed version doesn't show the Noji option, use the [Nibomo web app](https://app.nibomo.com/).
+1. Open the workspace where you want the cards. If your installed version doesn't show the Noji option, use the [Nibomo web app](https://app.nibomo.com/?locale=en).
 2. Go to **Library → Import → Import from Noji**. Select **Choose files** and pick the `.csv` or `.ofc` you saved.
 3. Select **Start import**. Nibomo opens a new AI chat with the file and an import request. The chat can save cards to the current workspace as it works.
 4. Wait for the AI chat to finish the import and for Nibomo to sync the new cards. Then open **Library → Cards** and look for the cards from your source deck.
