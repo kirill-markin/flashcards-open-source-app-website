@@ -5089,6 +5089,21 @@
     "bytes": 2857378
   },
   {
+    "publicPath": "/blog/studysmarter-to-nibomo.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/6a768b34931a4841ba12945abab4bc5fe01df755c1c335f763be40765156c019.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "6a768b34931a4841ba12945abab4bc5fe01df755c1c335f763be40765156c019",
+    "bytes": 217118,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/099d86e27ff35f108e630ae71eb5a93b8becd85adbe23c5a996b4c5809eb3841.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "099d86e27ff35f108e630ae71eb5a93b8becd85adbe23c5a996b4c5809eb3841",
+      "bytes": 2550539
+    }
+  },
+  {
     "publicPath": "/blog/subject-verb-agreement-practice.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/68b0e1e37f9a780fc595db8d84e63babba255e7ad234b7e0bfb0e41f74dfa6c3.webp",
     "width": 1672,
