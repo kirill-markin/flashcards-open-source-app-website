@@ -22,6 +22,7 @@ Các lựa chọn dưới đây có trên ứng dụng web. Nếu không thấy 
 | Mochi | `.mochi` | Chọn tệp |
 | SuperMemo | `.xml` | Chọn tệp |
 | AlgoApp (trước đây là AnkiApp) | `.zip` hoặc `.xml` | Chọn tệp |
+| Gizmo | `.pdf` | Chọn tệp |
 | Ứng dụng khác | `.csv`, `.txt`, `.xlsx`, `.pdf`, `.json`, `.xml`, `.md`, `.docx` hoặc `.zip` | Chọn tệp trong **Nhập từ ứng dụng khác** |
 | Bảng tính | Các hàng đã sao chép, mỗi hàng có mặt trước và mặt sau của một thẻ | Dán vào **Nhập từ bảng tính** |
 | Nibomo | Tệp `flashcards.zip` do Nibomo xuất | Xem trước trong **Nhập từ Nibomo** |
@@ -36,6 +37,8 @@ Với tệp Excel `.xls` đời cũ, hãy lưu thành `.xlsx` hoặc `.csv` trư
 2. Trong Nibomo, vào **Thư viện > Nhập** rồi mở mục tương ứng. Với Quizlet, dán văn bản đã sao chép. Với các nguồn khác, chọn tệp đã xuất. Nếu ứng dụng của bạn không có mục riêng nhưng xuất được định dạng hỗ trợ, chẳng hạn PDF, hãy dùng **Nhập từ ứng dụng khác**.
 3. Chọn **Bắt đầu nhập**. Nibomo mở cuộc trò chuyện AI mới rồi gửi yêu cầu nhập cùng các tệp hoặc văn bản bạn đã dán. Bước này cần kết nối internet. Mỗi tệp nhập qua AI có thể lên đến **30 MiB**. Nếu tệp lớn hơn, hãy thử xuất từng bộ thẻ hoặc học phần nhỏ hơn.
 4. Kiểm tra kết quả trong **Thư viện**. AI có thể lưu thẻ theo từng nhóm ngay trong lúc nhập. Nếu quá trình dừng giữa chừng, hãy kiểm tra thẻ nào đã có trong Nibomo rồi yêu cầu AI tiếp tục với phần còn lại trước khi nhập lại toàn bộ.
+
+Trong Gizmo, mở menu ba chấm của bộ thẻ, chọn **Print** rồi chọn **Save as PDF** trong trình duyệt. Trên ứng dụng web Nibomo, vào **Thư viện > Nhập**, chọn **Nhập từ Gizmo**, chọn tệp PDF rồi bấm **Bắt đầu nhập**. Trong **Thư viện**, đối chiếu số thẻ đã lưu cùng mặt trước và mặt sau của từng thẻ với tệp PDF.
 
 ### Thử nhập một bộ nhỏ trước
 

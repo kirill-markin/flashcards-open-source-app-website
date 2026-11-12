@@ -22,6 +22,7 @@ Nasledujúce možnosti nájdete vo webovej aplikácii. Ak na iPhone, iPade, Macu
 | Mochi | `.mochi` | Vybrať súbory |
 | SuperMemo | `.xml` | Vybrať súbory |
 | AlgoApp (predtým AnkiApp) | `.zip` alebo `.xml` | Vybrať súbory |
+| Gizmo | `.pdf` | Vybrať súbory |
 | Iná aplikácia | `.csv`, `.txt`, `.xlsx`, `.pdf`, `.json`, `.xml`, `.md`, `.docx` alebo `.zip` | Vyberte súbory cez **Importovať z inej aplikácie** |
 | Tabuľka | Skopírované riadky s prednou a zadnou stranou každej kartičky | Prilepte ich cez **Importovať z tabuľky** |
 | Nibomo | Súbor `flashcards.zip` exportovaný z Nibomo | Zobrazte náhľad cez **Importovať z Nibomo** |
@@ -36,6 +37,8 @@ Starší excelovský súbor `.xls` pred importom uložte ako `.xlsx` alebo `.csv
 2. V Nibomo otvorte **Knižnica > Import** a vyberte položku pre danú aplikáciu. Pri Quizlete prilepte skopírovaný text. Pri ostatných zdrojoch vyberte exportovaný súbor alebo súbory. Ak vaša aplikácia nemá vlastnú položku, ale poskytuje podporovaný export, napríklad PDF, vyberte **Importovať z inej aplikácie**.
 3. Vyberte **Spustiť import**. Nibomo otvorí nový AI chat a odošle požiadavku na import spolu so súbormi alebo prilepeným textom. Potrebujete pripojenie na internet. Každý súbor pri importe cez AI môže mať najviac **30 MiB**. Väčšie exporty skúste rozdeliť tak, že samostatne exportujete menšie balíky alebo sady.
 4. Výsledok skontrolujte v sekcii **Knižnica**. AI chat môže kartičky ukladať postupne po dávkach. Ak sa import preruší, zistite, ktoré kartičky už sú v Nibomo, a požiadajte AI chat, aby pokračoval zvyšnými. Až potom skúste zopakovať celý import, ak je to potrebné.
+
+V aplikácii Gizmo otvorte ponuku balíka cez tri bodky, vyberte **Print** a potom v prehliadači vyberte **Save as PDF**. Vo webovej aplikácii Nibomo otvorte **Knižnica > Import** a vyberte **Importovať z aplikácie Gizmo**. Vyberte súbor PDF a kliknite na **Spustiť import**. V sekcii **Knižnica** porovnajte s PDF počet uložených kartičiek aj prednú a zadnú stranu každej z nich.
 
 ### Najprv skúste malý import
 

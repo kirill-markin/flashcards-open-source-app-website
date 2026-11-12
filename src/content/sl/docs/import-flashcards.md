@@ -22,6 +22,7 @@ Spodnje možnosti so na voljo v spletni aplikaciji. Če menija ali izbranega vir
 | Mochi | `.mochi` | Izberite datoteke |
 | SuperMemo | `.xml` | Izberite datoteke |
 | AlgoApp (prej AnkiApp) | `.zip` ali `.xml` | Izberite datoteke |
+| Gizmo | `.pdf` | Izberite datoteke |
 | Druga aplikacija | `.csv`, `.txt`, `.xlsx`, `.pdf`, `.json`, `.xml`, `.md`, `.docx` ali `.zip` | Izberite datoteke prek možnosti **Uvozi iz druge aplikacije** |
 | Preglednica | Kopirane vrstice s sprednjo in zadnjo stranjo vsake kartice | Prilepite jih prek možnosti **Uvozi iz preglednice** |
 | Nibomo | Datoteko `flashcards.zip`, izvoženo iz Niboma | Predogled prek možnosti **Uvozi iz Niboma** |
@@ -36,6 +37,8 @@ Starejšo Excelovo datoteko `.xls` pred uvozom shranite kot `.xlsx` ali `.csv`. 
 2. V Nibomu odprite **Knjižnica > Uvoz** in izberite ustrezen vnos. Za Quizlet prilepite kopirano besedilo. Pri drugih virih izberite izvoženo datoteko ali datoteke. Če aplikacija nima lastnega vnosa, a omogoča izvoz v podprti obliki, na primer v PDF, uporabite **Uvozi iz druge aplikacije**.
 3. Izberite **Začni uvoz**. Nibomo odpre nov klepet z AI in pošlje zahtevo za uvoz skupaj z datotekami ali prilepljenim besedilom. Za to potrebujete internetno povezavo. Posamezna datoteka za uvoz prek AI lahko meri največ **30 MiB**. Če je večja, poskusite manjše komplete izvoziti ločeno.
 4. Rezultat preverite v razdelku **Knjižnica**. Klepet z AI lahko kartice shranjuje sproti po skupinah. Če se uvoz ustavi, preverite, katere kartice so že v Nibomu, in prosite klepet z AI, naj nadaljuje s preostalimi, preden ponovite celoten uvoz.
+
+V aplikaciji Gizmo odprite meni s tremi pikami pri kompletu, izberite **Print** in nato v brskalniku **Save as PDF**. V spletni aplikaciji Nibomo odprite **Knjižnica > Uvoz** in izberite **Uvozi iz aplikacije Gizmo**. Izberite datoteko PDF in kliknite **Začni uvoz**. V razdelku **Knjižnica** primerjajte z datoteko PDF število shranjenih kartic ter sprednjo in zadnjo stran vsake kartice.
 
 ### Najprej preverite manjši uvoz
 
