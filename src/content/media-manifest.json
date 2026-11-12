@@ -5194,6 +5194,21 @@
     }
   },
   {
+    "publicPath": "/blog/supermemo-to-nibomo.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/c5238368263fcfa5f9e954a33a869b9b1a23948c5a0f154b82ada77ea6ab0215.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "c5238368263fcfa5f9e954a33a869b9b1a23948c5a0f154b82ada77ea6ab0215",
+    "bytes": 133032,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/58ac619b9ca279def338b7a2b856284a281817aeac1bbb3f0d8cdfdd41aee5f1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "58ac619b9ca279def338b7a2b856284a281817aeac1bbb3f0d8cdfdd41aee5f1",
+      "bytes": 2249767
+    }
+  },
+  {
     "publicPath": "/blog/swedish-everyday-vocabulary-flashcards.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/f5e8d254ca76e5a45e520f4f3b8602cb17075fde7146b099d33bde6130361c04.webp",
     "width": 1672,
