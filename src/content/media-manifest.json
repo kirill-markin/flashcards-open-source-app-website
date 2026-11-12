@@ -743,6 +743,21 @@
     }
   },
   {
+    "publicPath": "/blog/blank-periodic-table-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/c1ad2c668e892149df89bee11cbc3e9868158abd347cdad371ef88c0315e3cd5.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "c1ad2c668e892149df89bee11cbc3e9868158abd347cdad371ef88c0315e3cd5",
+    "bytes": 283790,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/73abcefb9dc45e1f2e8cacd9e67bd348433cc6b66b52426d19301e677e5afe0e.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "73abcefb9dc45e1f2e8cacd9e67bd348433cc6b66b52426d19301e677e5afe0e",
+      "bytes": 2930354
+    }
+  },
+  {
     "publicPath": "/blog/brainscape-alternative.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/29338f0715b9f4a3763d0d7633e5ccab4336aae73f3fc1d19f8560c82b6cf7b0.png",
     "width": 1672,
