@@ -22,6 +22,7 @@ Valkostirnir hér að neðan eru í boði í vefforritinu. Ef valmyndin eða for
 | Mochi | `.mochi` | **Veldu skrár** |
 | SuperMemo | `.xml` | **Veldu skrár** |
 | AlgoApp (áður AnkiApp) | `.zip` eða `.xml` | **Veldu skrár** |
+| Gizmo | `.pdf` | **Veldu skrár** |
 | Annað forrit | `.csv`, `.txt`, `.xlsx`, `.pdf`, `.json`, `.xml`, `.md`, `.docx` eða `.zip` | Veldu skrár undir **Flytja inn úr öðru forriti** |
 | Töflureiknir | Afrit af línum með framhlið og bakhlið hvers spjalds | Límdu línurnar undir **Flytja inn úr töflureikni** |
 | Nibomo | `flashcards.zip` sem þú fluttir út úr Nibomo | Skoðaðu forskoðunina undir **Flytja inn úr Nibomo** |
@@ -36,6 +37,8 @@ Ef þú ert með eldri Excel-skrá á `.xls`-sniði skaltu vista hana sem `.xlsx
 2. Farðu í **Safn > Flytja inn** í Nibomo og veldu upprunaforritið. Fyrir Quizlet límirðu afritaða textann. Fyrir aðrar heimildir velurðu útfluttu skrárnar. Ef forritið er ekki á listanum en getur flutt út á studdu sniði, til dæmis PDF, skaltu velja **Flytja inn úr öðru forriti**.
 3. Veldu **Hefja innflutning**. Nibomo opnar nýtt spjall við gervigreind og sendir innflutningsbeiðnina með skránum eða textanum sem þú límdir inn. Til þess þarf nettengingu. Hver skrá sem er flutt inn með gervigreind má vera allt að **30 MiB**. Ef skráin er stærri skaltu prófa að flytja út nokkra minni bunka eða spjaldasöfn í sitthvoru lagi.
 4. Skoðaðu niðurstöðuna í **Safn**. Gervigreindin getur vistað spjöld í skömmtum á meðan innflutningur stendur yfir. Ef innflutningurinn stöðvast skaltu athuga hvaða spjöld eru þegar í Nibomo og biðja gervigreindina um að halda áfram með hin áður en þú reynir að flytja allt inn aftur.
+
+Opnaðu valmyndina með þremur punktum á spjaldabunkanum í Gizmo og veldu **Print**. Veldu svo **Save as PDF** í prentglugga vafrans. Í vefforriti Nibomo skaltu fara í **Safn > Flytja inn** og velja **Flytja inn úr Gizmo**. Veldu PDF-skrána og smelltu á **Hefja innflutning**. Í **Safn** skaltu bera fjölda vistaðra spjalda saman við PDF-skrána og athuga hvort fram- og bakhlið hvers spjalds passi við skrána.
 
 ### Prófaðu fyrst að flytja inn fáein spjöld
 

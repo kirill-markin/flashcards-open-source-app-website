@@ -22,6 +22,7 @@ Az alábbi lehetőségek elérhetők a webalkalmazásban. Ha iPhone-on, iPaden, 
 | Mochi | `.mochi` | **Fájlok kiválasztása** |
 | SuperMemo | `.xml` | **Fájlok kiválasztása** |
 | AlgoApp (korábban AnkiApp) | `.zip` vagy `.xml` | **Fájlok kiválasztása** |
+| Gizmo | `.pdf` | **Fájlok kiválasztása** |
 | Másik alkalmazás | `.csv`, `.txt`, `.xlsx`, `.pdf`, `.json`, `.xml`, `.md`, `.docx` vagy `.zip` | Válaszd ki a fájlokat az **Importálás másik alkalmazásból** menüpontban |
 | Táblázat | Kimásolt sorok a kártyák elő- és hátlapjával | Illeszd be az **Importálás táblázatból** képernyőn |
 | Nibomo | A Nibomóból exportált `flashcards.zip` | Nézd meg az előnézetet az **Importálás a Nibomóból** menüpontban |
@@ -36,6 +37,8 @@ Ha régi, `.xls` formátumú Excel-fájlod van, importálás előtt mentsd `.xls
 2. A Nibomóban válaszd a **Könyvtár > Importálás** menüpontot, majd nyisd meg a megfelelő lehetőséget. Quizlet esetén illeszd be a kimásolt szöveget. A többi forrásnál válaszd ki az exportált fájlokat. Ha az alkalmazásodnak nincs külön menüpontja, de támogatott formátumba, például PDF-be exportál, válaszd az **Importálás másik alkalmazásból** lehetőséget.
 3. Válaszd az **Importálás indítása** gombot. A Nibomo új AI-csevegést nyit, és elküldi az importálási kérést a fájlokkal vagy a beillesztett szöveggel. Ehhez internetkapcsolat kell. Az AI-val importált fájlok egyenként legfeljebb **30 MiB** méretűek lehetnek. Nagyobb fájl esetén próbálj kisebb paklikat vagy készleteket külön exportálni.
 4. Ellenőrizd az eredményt a **Könyvtár** lapon. Az AI-csevegés menet közben több részletben is mentheti a kártyákat. Ha leáll, nézd meg, mely kártyák vannak már a Nibomóban, és kérd meg az AI-t, hogy folytassa a többivel, mielőtt a teljes exporttal újra próbálkoznál.
+
+A Gizmo felületén nyisd meg a pakli hárompontos menüjét, válaszd a **Print**, majd a böngésző nyomtatási ablakában a **Save as PDF** lehetőséget. A Nibomo webalkalmazásában nyisd meg a **Könyvtár > Importálás** menüt, és válaszd az **Importálás innen: Gizmo** lehetőséget. Válaszd ki a PDF-fájlt, majd kattints az **Importálás indítása** gombra. A **Könyvtár** lapon ellenőrizd a PDF alapján a mentett kártyák számát és az elő- és hátlapok párosítását.
 
 ### Próbáld ki először kevés kártyával
 

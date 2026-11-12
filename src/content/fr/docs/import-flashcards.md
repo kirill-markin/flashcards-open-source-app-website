@@ -22,6 +22,7 @@ Les options ci-dessous sont disponibles dans l’application web. Si vous ne tro
 | Mochi | `.mochi` | Choisir des fichiers |
 | SuperMemo | `.xml` | Choisir des fichiers |
 | AlgoApp (anciennement AnkiApp) | `.zip` ou `.xml` | Choisir des fichiers |
+| Gizmo | `.pdf` | Choisir des fichiers |
 | Autre application | `.csv`, `.txt`, `.xlsx`, `.pdf`, `.json`, `.xml`, `.md`, `.docx` ou `.zip` | Choisissez les fichiers dans **Importer depuis une autre app** |
 | Feuille de calcul | Des lignes copiées contenant le recto et le verso de chaque carte | Collez-les dans **Importer depuis une feuille de calcul** |
 | Nibomo | Un `flashcards.zip` exporté depuis Nibomo | Consultez l’aperçu dans **Importer depuis Nibomo** |
@@ -36,6 +37,8 @@ Si vous avez un ancien fichier Excel au format `.xls`, enregistrez-le en `.xlsx`
 2. Dans Nibomo, ouvrez **Bibliothèque > Importer** et choisissez l’option qui correspond à votre application. Pour Quizlet, collez le texte copié. Pour les autres sources, sélectionnez les fichiers exportés. Si votre application ne figure pas dans le menu mais fournit un fichier pris en charge, par exemple un PDF, choisissez **Importer depuis une autre app**.
 3. Sélectionnez **Lancer l’importation**. Nibomo ouvre un nouveau chat IA et envoie la demande d’importation avec les fichiers ou le texte collé. Une connexion Internet est nécessaire. Chaque fichier importé via le chat IA peut peser jusqu’à **30 Mio**. Si votre fichier est plus volumineux, essayez d’exporter séparément des paquets ou des listes plus petits.
 4. Vérifiez le résultat dans la **Bibliothèque**. Le chat IA peut enregistrer les cartes par lots au fur et à mesure. Si l’importation s’interrompt, vérifiez quelles cartes sont déjà dans Nibomo et demandez au chat de traiter les cartes restantes avant de relancer l’importation de tout le fichier.
+
+Dans Gizmo, ouvrez le menu à trois points du paquet, choisissez **Print**, puis **Save as PDF** dans la fenêtre d’impression du navigateur. Dans l’application web Nibomo, ouvrez **Bibliothèque > Importer**, choisissez **Importer depuis Gizmo**, sélectionnez le PDF et cliquez sur **Lancer l’importation**. Dans la **Bibliothèque**, vérifiez que le nombre de cartes enregistrées et les paires recto-verso correspondent au PDF.
 
 ### Commencer par un petit lot
 

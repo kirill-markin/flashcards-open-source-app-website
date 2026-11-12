@@ -22,6 +22,7 @@ Alla olevat vaihtoehdot ovat käytettävissä verkkosovelluksessa. Jos et löyd�
 | Mochi | `.mochi` | Valitse tiedostot |
 | SuperMemo | `.xml` | Valitse tiedostot |
 | AlgoApp (entinen AnkiApp) | `.zip` tai `.xml` | Valitse tiedostot |
+| Gizmo | `.pdf` | Valitse tiedostot |
 | Muu sovellus | `.csv`, `.txt`, `.xlsx`, `.pdf`, `.json`, `.xml`, `.md`, `.docx` tai `.zip` | Valitse tiedostot kohdassa **Tuo toisesta sovelluksesta** |
 | Laskentataulukko | Kopioidut rivit, joissa on kunkin kortin etu- ja kääntöpuoli | Liitä rivit kohdassa **Tuo laskentataulukosta** |
 | Nibomo | Nibomosta viety `flashcards.zip` | Esikatsele kohdassa **Tuo Nibomosta** |
@@ -36,6 +37,8 @@ Jos sinulla on vanha Excelin `.xls`-tiedosto, tallenna se ennen tuontia `.xlsx`-
 2. Avaa Nibomossa **Kirjasto > Tuonti** ja valitse oikea sovellus. Liitä Quizletista kopioitu teksti tai valitse muista sovelluksista viedyt tiedostot. Jos sovellustasi ei ole valikossa mutta saat siitä tuetun vientitiedoston, esimerkiksi PDF:n, valitse **Tuo toisesta sovelluksesta**.
 3. Valitse **Aloita tuonti**. Nibomo avaa uuden tekoälykeskustelun ja lähettää tuontipyynnön tiedostojen tai liittämäsi tekstin kanssa. Tähän tarvitaan internetyhteys. Tekoälytuonnissa kukin tiedosto saa olla enintään **30 MiB**. Jos tiedosto on suurempi, kokeile viedä pienemmät pakat tai sarjat erikseen.
 4. Tarkista tulos **Kirjasto**-näkymässä. Tekoäly voi tallentaa kortteja työn edetessä useassa erässä. Jos tuonti keskeytyy, tarkista, mitkä kortit ovat jo Nibomossa, ja pyydä tekoälyä jatkamaan lopuista ennen kuin yrität tuoda koko tiedoston uudelleen.
+
+Avaa Gizmossa pakan kolmen pisteen valikko ja valitse **Print**. Valitse selaimen tulostusikkunassa **Save as PDF**. Avaa Nibomon verkkosovelluksessa **Kirjasto > Tuonti** ja valitse **Tuo sovelluksesta Gizmo**. Valitse PDF-tiedosto ja paina **Aloita tuonti**. Tarkista **Kirjasto**-näkymässä, että tallennettujen korttien määrä sekä etu- ja kääntöpuolten parit vastaavat PDF:ää.
 
 ### Kokeile ensin pienellä korttierällä
 

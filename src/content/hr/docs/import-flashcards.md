@@ -22,6 +22,7 @@ Opcije u nastavku dostupne su u web aplikaciji. Ako na iPhoneu, iPadu, Macu ili 
 | Mochi | `.mochi` | **Odaberite datoteke** |
 | SuperMemo | `.xml` | **Odaberite datoteke** |
 | AlgoApp (prije AnkiApp) | `.zip` ili `.xml` | **Odaberite datoteke** |
+| Gizmo | `.pdf` | **Odaberite datoteke** |
 | Druga aplikacija | `.csv`, `.txt`, `.xlsx`, `.pdf`, `.json`, `.xml`, `.md`, `.docx` ili `.zip` | Odaberite datoteke u **Uvezi iz druge aplikacije** |
 | Proračunska tablica | Kopirani redci s prednjom i stražnjom stranom svake kartice | Zalijepite ih u **Uvezi iz proračunske tablice** |
 | Nibomo | Datoteka `flashcards.zip` izvezena iz Niboma | Pregledajte sadržaj u **Uvezi iz Niboma** |
@@ -36,6 +37,8 @@ Ako imate staru Excelovu datoteku `.xls`, spremite je kao `.xlsx` ili `.csv` pri
 2. U Nibomu otvorite **Knjižnica > Uvoz** i odaberite odgovarajuću stavku. Za Quizlet zalijepite kopirani tekst. Za ostale izvore odaberite izvezene datoteke. Ako vaša aplikacija nema svoju stavku, ali može izvesti kartice u podržanom formatu, primjerice PDF-u, odaberite **Uvezi iz druge aplikacije**.
 3. Odaberite **Pokrenite uvoz**. Nibomo otvara novi AI razgovor i šalje zahtjev za uvoz s datotekama ili zalijepljenim tekstom. Potrebna je internetska veza. Za uvoz putem AI-ja svaka datoteka može imati do **30 MiB**. Veće špilove ili skupove pokušajte izvesti kao više manjih datoteka.
 4. Provjerite rezultat u **Knjižnici**. AI razgovor može spremati kartice u skupinama tijekom uvoza. Ako se uvoz prekine, provjerite koje su kartice već u Nibomu i zatražite da AI nastavi s preostalima prije nego što ponovno pokušate uvesti cijeli izvoz.
+
+U aplikaciji Gizmo otvorite izbornik s tri točkice na špilu i odaberite **Print**, a zatim u prozoru za ispis u pregledniku odaberite **Save as PDF**. U web aplikaciji Nibomo otvorite **Knjižnica > Uvoz** i odaberite **Uvezi iz aplikacije Gizmo**. Odaberite PDF i kliknite **Pokrenite uvoz**. U **Knjižnici** usporedite broj spremljenih kartica s PDF-om i provjerite podudaraju li se parovi prednjih i stražnjih strana.
 
 ### Najprije isprobajte uvoz manjeg broja kartica
 
