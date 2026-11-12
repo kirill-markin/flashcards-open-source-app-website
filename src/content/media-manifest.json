@@ -3197,6 +3197,21 @@
     }
   },
   {
+    "publicPath": "/blog/import-flashcards-csv-excel-google-sheets.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/3e4ca473282df44df1c2e66b03511f8028cf153588b3933e08b516e8fe08ddd4.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "3e4ca473282df44df1c2e66b03511f8028cf153588b3933e08b516e8fe08ddd4",
+    "bytes": 219534,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/e59fe62eda967daaf846b3e9e542d965b43865897a0c0cf297e8367dcc879abb.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "e59fe62eda967daaf846b3e9e542d965b43865897a0c0cf297e8367dcc879abb",
+      "bytes": 2671228
+    }
+  },
+  {
     "publicPath": "/blog/interval-inversion.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/1b370a0dbed434b36a298261d082cc0470f029e749088ec5b44d55ca769516e5.png",
     "width": 1672,
