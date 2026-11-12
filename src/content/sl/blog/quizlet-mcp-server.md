@@ -86,7 +86,7 @@ S tem Nibomo ne postane povezovalnik za Quizlet. Podprti potek je:
 
 1. izvozite besedilo iz kompleta v Quizletu, katerega avtor ste;
 2. shranite izvirno datoteko in preglejte delovno kopijo;
-3. preverite, kako so bili podatki preneseni v polja kartic, preden kartice shranite v Nibomo; in
+3. v spletni aplikaciji Nibomo prek **Knjižnica > Uvoz > Uvozi iz aplikacije Quizlet** prilepite besedilo, zaženite uvoz z AI in primerjajte shranjene kartice z izvirnikom; in
 4. nastali delovni prostor v Nibomo povežite z združljivim odjemalcem za prihodnje branje in pisanje.
 
 Koraki za povezavo z aplikacijo Claude so opisani v članku [Kako povezati Nibomo z aplikacijo Claude prek MCP](/blog/how-to-connect-flashcards-to-claude-with-mcp/). Codex in drugi agenti lahko uporabijo dokumentirano pot prek MCP ali Agent API, ki jo podpira njihovo okolje.

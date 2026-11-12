@@ -111,7 +111,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Leta, toa na umiliki data yako",
           description:
-            "Hamisha vifaa vyako vya kujifunzia ndani au nje wakati wowote. Unapotoa data, kadi zako, lebo na maudhui yanayohusiana hujumuishwa.",
+            "Leta kadi kutoka Quizlet, Anki na programu nyingine. Unaweza kutoa kadi, lebo na maudhui yako kutoka Nibomo wakati wowote.",
+          link: {
+            label: "Jinsi ya kuingiza kadi",
+            href: "/sw/docs/import-flashcards/",
+          },
         },
         {
           title: "Hufanya kazi na mawakala wa AI",

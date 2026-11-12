@@ -18,9 +18,9 @@ Ukitaka kuingiza madokezo ya wiki nzima kwenye Gizmo kwa mafungu bila kulipa, na
 
 Tathmini hii ya kadi za kujifunzia za Gizmo inategemea kurasa rasmi za sasa za msaada. Sijajaribu kutumia Gizmo mwenyewe, kwa hiyo nitaeleza uwezo wa bidhaa kulingana na nyaraka zake na kuweka wazi mambo ambayo hayajathibitishwa.
 
-> **Uhusiano wangu na bidhaa hizi:** Mimi ni Kirill Markin, na ninatengeneza [Nibomo](https://nibomo.com/sw/), programu mbadala inayolinganishwa hapa chini. Gizmo inaeleza utaratibu mpana zaidi wa kujifunza: maumbizo mengi zaidi ya vyanzo, aina tano za kadi, masomo ya AI Tutor, maswali ya aina mbalimbali na mfumo wa maendeleo unaofanana na mchezo. Nibomo imeundwa kimakusudi kwa matumizi yenye wigo mdogo zaidi.
+> **Uhusiano wangu na bidhaa hizi:** Mimi ni Kirill Markin, na ninatengeneza [Nibomo](https://nibomo.com/sw/), programu mbadala inayolinganishwa hapa chini. Gizmo inaeleza utaratibu mpana zaidi wa kujifunza: maumbizo mengi zaidi ya vyanzo, aina saba za kadi, masomo ya AI Tutor, maswali ya aina mbalimbali na mfumo wa maendeleo unaofanana na mchezo. Nibomo imeundwa kimakusudi kwa matumizi yenye wigo mdogo zaidi.
 
-**Taarifa zilihakikiwa:** 1 Septemba 2026.
+**Taarifa zilihakikiwa:** 1 Septemba 2026. Aina za kadi na utoaji wa PDF zilihakikiwa tena tarehe 12 Novemba 2026.
 
 ![Tathmini ya kadi za kujifunzia za Gizmo inayoonyesha Magic Import, aina za kadi na utaratibu mwingine wa kujifunza](/blog/gizmo-alternative-v2.png)
 
@@ -57,21 +57,21 @@ AI Tutor ina njia ya kuingiza nyenzo inayohusiana na hiyo. [Mwongozo rasmi wa ku
 
 Orodha hizi mbili za vyanzo kwenye nyaraka hazifanani kabisa. Anki, lahajedwali na tovuti zipo kwenye mwongozo wa kuunda kadi; YouTube na mikusanyiko ya Gizmo iliyopo tayari zipo kwenye mwongozo wa masomo ya Tutor. Angalia njia ya kuingiza nyenzo unayohitaji badala ya kudhani kila aina ya nyenzo inapatikana kwenye menyu zote mbili.
 
-## Gizmo ina aina tano za kadi
+## Gizmo ina aina saba za kadi
 
-[Nyaraka za sasa za aina za kadi](https://help.gizmo.ai/en/articles/16527223-what-types-of-flashcards-can-i-make) za Gizmo zinaorodhesha maumbizo matano:
+[Nyaraka za sasa za aina za kadi](https://help.gizmo.ai/en/articles/16527223-what-types-of-flashcards-can-i-make) za Gizmo zinaorodhesha maumbizo saba.
 
 | Aina ya kadi | Inachopima | Jinsi ya kuiunda |
 | --- | --- | --- |
-| **Card text (Maandishi ya kadi)** | Maandishi au LaTeX, yenye maneno yaliyoangaziwa yanayotumika katika maswali, au chaguo la kufunua upande wa mbele na wa nyuma | Mwenyewe au kwa Magic Import |
-| **Multiple choice (Swali la kuchagua jibu)** | Swali lenye chaguo za majibu zilizozalishwa; unaweza kuongeza chaguo zisizo sahihi unapohariri | Mwenyewe au kwa Magic Import |
-| **Matching (Kuunganisha vinavyolingana)** | Jozi ambazo Gizmo huchanganya ili uziunganishe tena | Magic Import pekee |
-| **Ordering (Kupanga kwa mfuatano)** | Vipengele ambavyo Gizmo huchanganya ili uvipange tena kwa mfuatano | Magic Import pekee |
-| **True/False (Kweli/Si kweli)** | Kauli unayoamua kama ni ya kweli au si kweli | Mwenyewe au kwa Magic Import |
+| **Q&A** | Swali na jibu linaloweza kuwa na maandishi au LaTeX | Mwenyewe au kwa Magic Import |
+| **Multi-select** | Swali lenye jibu moja sahihi au zaidi | Mwenyewe au kwa Magic Import |
+| **Fill the blanks** | Maneno yaliyoangaziwa ambayo unajaza katika kifungu | Mwenyewe au kwa Magic Import |
+| **Match pairs** | Jozi ambazo Gizmo huchanganya ili uziunganishe tena | Mwenyewe au kwa Magic Import |
+| **Order items** | Vipengele ambavyo Gizmo huchanganya ili uvipange tena kwa mfuatano | Mwenyewe au kwa Magic Import |
+| **True or False** | Kauli unayoamua kama ni ya kweli au si kweli | Mwenyewe au kwa Magic Import |
+| **Image question** | Kufichua majina kwenye mchoro au picha | Mwenyewe |
 
-Huu ni uwezo mpana zaidi kuliko mkusanyiko wa kawaida wa kadi zenye pande mbili, na Magic Import haifanyi tu uundaji uwe wa haraka: kwa sasa, Matching na Ordering zinapatikana kupitia Magic Import pekee.
-
-Kuna mgongano mmoja wa nyaraka unaohitaji kuwekwa wazi. Ukurasa wa aina za kadi unasema Card text inaweza kuwa na picha mbele na nyuma. [Mwongozo wa kusimamia kadi](https://help.gizmo.ai/en/articles/13761411-how-do-i-edit-or-manage-my-cards) wa Gizmo unasema picha zinaweza kuongezwa upande wa mbele pekee. Ikiwa picha za upande wa nyuma ni muhimu kwako, hakikisha kinachowezekana kwenye kihariri cha sasa kabla ya kuunda mkusanyiko wa kadi. Kurasa hizo mbili rasmi hazitoshi kutoa jibu la uhakika zaidi.
+Kuna mgongano mmoja wa nyaraka unaohitaji kuwekwa wazi. Ukurasa wa aina za kadi unasema Q&A inaweza kuwa na picha mbele na nyuma. [Mwongozo wa kusimamia kadi](https://help.gizmo.ai/en/articles/13761411-how-do-i-edit-or-manage-my-cards) wa Gizmo unasema picha zinaweza kuongezwa upande wa mbele pekee. Ikiwa picha za upande wa nyuma ni muhimu kwako, hakikisha kinachowezekana kwenye kihariri cha sasa kabla ya kuunda mkusanyiko wa kadi. Kurasa hizo mbili rasmi hazitoshi kutoa jibu la uhakika zaidi.
 
 Gizmo pia inaeleza kwamba mipangilio ya maswali huathiri mitindo ya maswali unayoona. Umbizo lililohifadhiwa la kadi na namna kadi hiyo inavyotumika kukuuliza swali vinahusiana, lakini si kitu kilekile.
 
@@ -97,11 +97,9 @@ Gizmo inapendekeza wazi ukague mkusanyiko wa kadi baada ya kutumia Magic Import 
 
 Kikomo kinajitokeza kwenye Memorise: unaweza kufuta kadi humo, lakini kwa sasa huwezi kuihariri katikati ya kipindi cha maswali. Ukiona jibu lenye tatizo unapojifunza, unahitaji kutoka kwenye kipindi hicho ili kulirekebisha.
 
-### Gizmo haina kipengele cha kutoa data
+### Gizmo inaweza kuchapisha kadi au kuzihifadhi kama PDF
 
-Mwongozo huohuo rasmi unasema kutoa kadi kwenye faili bado hakupatikani. [Mwongozo wa kusimamia mikusanyiko ya kadi](https://help.gizmo.ai/en/articles/12995587-how-do-i-make-changes-to-my-decks) wa Gizmo unasema kutoa mikusanyiko ya kadi kwenye faili pia hakupatikani.
-
-Hiki ndicho kikomo kilicho wazi zaidi kuhusu udhibiti wako wa data kwa sasa. Gizmo inapokea nyenzo kutoka mifumo mingine kadhaa, lakini kwa sasa haitoi njia iliyoelezwa kwenye nyaraka ya kuchukua kadi zinazozalishwa na kuzitoa nje. Ikiwa kuhama baadaye ni muhimu kwako, pima bidhaa kwa kikomo hicho cha sasa badala ya uwezekano wa kuongeza kipengele cha kutoa data siku zijazo.
+Fungua menyu ya fungu la kadi, chagua **Print** (Chapisha), kisha **Save as PDF** (Hifadhi kama PDF) kwenye dirisha la uchapishaji la kivinjari. Gizmo inaeleza [jinsi ya kutoa PDF](https://help.gizmo.ai/en/articles/18228622-how-do-i-export-print-or-download-my-cards-as-a-pdf), hata kwa mafungu yaliyotengenezwa katika Gizmo. Hifadhi fungu la awali ukitaka kuhariri kadi au kubakiza historia ya marudio.
 
 ### Nyaraka hazielezi matumizi bila intaneti vizuri vya kutosha kuyahidi
 
@@ -116,15 +114,15 @@ Tofauti hiyo ni muhimu kwa sababu “skrini iliyopakiwa bado inaitikia” na “
 | Kigezo cha uamuzi | Gizmo | Nibomo |
 | --- | --- | --- |
 | Mahali pa kuanzia | Kadi unazoandika mwenyewe au Magic Import kutoka vyanzo mbalimbali vya kujifunzia | Kuunda kadi mahususi za mbele/nyuma mwenyewe au kwa msaada wa AI |
-| Maumbizo ya kadi | Card text, Multiple choice, Matching, Ordering na True/False | Kadi za mbele/nyuma |
+| Maumbizo ya kadi | Q&A, Multi-select, Fill the blanks, Match pairs, Order items, True or False, Image question | Kadi za mbele/nyuma |
 | Mafunzo yanayoambatana na kadi | Masomo ya AI Tutor, madokezo na maswali yanayotokana na chanzo | Kuunda kadi kwa msaada wa AI; kurasa za sasa za bidhaa hazielezi hali ya masomo ya Tutor |
 | Utaratibu wa marudio | Memorise, marudio ya vipindi na mitindo mbalimbali ya maswali | Marudio ya vipindi kwa FSRS |
 | Mfumo wa kuhamasisha | XP, Levels, Leagues, Streaks, Hearts, Hints na Coins | Kurasa za sasa za bidhaa hazielezi mfumo unaolingana wa mchezo |
 | Ushahidi wa matumizi bila intaneti | Hakuna ahadi rasmi ya matumizi bila intaneti iliyopatikana katika nyaraka zilizokaguliwa | Kujifunza bila intaneti kwenye simu na usawazishaji wa kiotomatiki vimeelezwa kama vipengele |
-| Kutoa data | Kutoa kadi na mikusanyiko ya kadi kwenye faili hakupatikani kwa sasa | Faili zinazoweza kuhamishwa zinajumuisha kadi, lebo na faili za media zinazohusiana |
+| Kutoa data | Chapisha fungu la kadi au lihifadhi kama PDF | Faili zinazoweza kuhamishwa zinajumuisha kadi, lebo na faili za media zinazohusiana |
 | Udhibiti wa seva | Hakuna dai la kuendesha programu kwenye seva yako mwenyewe kwenye kurasa rasmi zilizokaguliwa | Msimbo huria na uwezo wa kuendesha programu kwenye seva yako mwenyewe |
 
-Nibomo inafaa kama mbadala wa Gizmo ikiwa unahitaji sehemu ya vipengele vilivyo kwenye jedwali hili. [Ukurasa wake wa sasa wa vipengele](/sw/features/) unaeleza FSRS, kuunda kadi kwa msaada wa AI, kujifunza bila intaneti kwenye simu na usawazishaji, faili za kuhamisha data na kuendesha programu kwenye seva yako mwenyewe. Hauelezi mfumo unaolingana na Magic Import ya Gizmo yenye maumbizo matano, masomo ya Tutor au vipengele vya mchezo.
+Nibomo inafaa kama mbadala wa Gizmo ikiwa unahitaji sehemu ya vipengele vilivyo kwenye jedwali hili. [Ukurasa wake wa sasa wa vipengele](/sw/features/) unaeleza FSRS, kuunda kadi kwa msaada wa AI, kujifunza bila intaneti kwenye simu na usawazishaji, faili za kuhamisha data na kuendesha programu kwenye seva yako mwenyewe. Gizmo pia ina masomo ya Tutor, maswali ya aina mbalimbali na vipengele vya mchezo.
 
 ## Nibomo inakufaa zaidi lini?
 
@@ -132,26 +130,24 @@ Chagua Nibomo ikiwa unachotaka kutunza ni kadi ya mbele/nyuma ambayo umeikagua. 
 
 Maelezo yake kuhusu matumizi bila intaneti na utoaji wa data yako wazi zaidi. Nibomo inaeleza kujifunza bila intaneti kwenye simu pamoja na usawazishaji wa kiotomatiki, huku [mwongozo wake wa kuanza](/sw/docs/getting-started/) ukieleza kwamba programu ya iOS hutumia SQLite kwenye kifaa na usawazishaji unaotanguliza matumizi bila intaneti. Faili za kuhamisha data zinajumuisha kadi, lebo na faili za media zinazohusiana, ikiwemo uhamishaji kati ya huduma inayohostiwa na mifumo unayoendesha kwenye seva yako mwenyewe.
 
-Kwa kuchagua Nibomo, unakubali kuwa na vipengele vichache zaidi. Kurasa za sasa za Nibomo hazielezi menyu ya uingizaji ya Gizmo, aina zake tano za kadi, masomo yanayoongozwa na Tutor au mfumo wa zawadi. Ikiwa vipengele hivyo vinatatua tatizo lililokuleta hapa, huenda Gizmo ikakufaa zaidi.
+Ikiwa unategemea maswali shirikishi, masomo ya Tutor au zawadi, endelea kutumia Gizmo kwa shughuli hizo.
 
 ## Unaweza kuhama kutoka Gizmo kwenda programu nyingine?
 
-Kwa sasa, kuhama si rahisi. Kwa kuwa Gizmo haina kipengele cha kutoa data, hakuna njia ya kawaida ya kuhamia Nibomo au programu nyingine kwa kutumia faili.
+Unaweza kujaribu kutumia PDF ya Gizmo kama chanzo cha kutengeneza kadi mpya. Katika programu ya wavuti ya Nibomo, chagua **Maktaba > Ingiza > Leta kutoka programu nyingine** kisha uchague PDF. Faili hutumwa kwenye gumzo la AI. Katika ulinganisho huu hatukujaribu kuhamisha PDF kutoka Gizmo. Linganisha kadi zilizotengenezwa na chanzo. Angalia [mwongozo wa kuingiza kadi](/sw/docs/import-flashcards/).
 
-Njia mbadala salama ni kuunda upya kadi kwa mkono na kuchagua zile tu unazohitaji:
+Maswali yanayotegemea muundo shirikishi wa Gizmo unaweza kuyaunda upya mwenyewe:
 
 1. Weka karibu nawe mhadhara, madokezo, slaidi au chanzo kingine cha asili.
 2. Unda upya kadi ambazo bado ni sahihi na muhimu tu.
 3. Andika upya maswali yasiyoeleweka vizuri badala ya kunakili kila kadi iliyozalishwa.
 4. Tarajia kwamba maneno yaliyoangaziwa ya Gizmo, muktadha wa Tutor, historia ya ratiba za marudio, XP na maendeleo mengine vitabaki huko.
 
-Njia hii inachukua muda zaidi kuliko zana ya kuingiza data na haikuruhusu kuhamisha kila kitu. Faida yake ni kwamba unahamisha kadi zilizopita ukaguzi wa ubora tu.
-
-Kutumia programu zote mbili ni chaguo jingine. Gizmo inaweza kuchambua mhadhara au wasilisho na kutoa mazoezi ya aina mbalimbali. Nibomo inaweza kuhifadhi kundi dogo zaidi la kadi za mbele/nyuma zilizokaguliwa kwa ajili ya marudio ya FSRS. Uhamishaji kati yao bado ni wa kufanya mwenyewe kwa sababu Gizmo haitoi kadi kwenye faili.
+Kutumia programu zote mbili ni chaguo jingine. Gizmo inaweza kuchambua mhadhara au wasilisho na kutoa mazoezi ya aina mbalimbali. Nibomo inaweza kuhifadhi kundi dogo zaidi la kadi za mbele/nyuma zilizokaguliwa kwa ajili ya marudio ya FSRS.
 
 ## Ni utaratibu upi wa kujifunza unaokufaa?
 
-Chagua Gizmo unapoanza na nyenzo za chanzo ambazo hazijapangiliwa vizuri na unataka programu ikujengee muundo wa kwanza wa kujifunza. Uwezo wake ulioelezwa kwenye nyaraka ni aina nyingi za nyenzo za kuingiza, aina tano za kadi, kujifunza kwa kuongozwa na Tutor, maswali mbalimbali na mfumo wa maendeleo.
+Chagua Gizmo unapoanza na nyenzo za chanzo ambazo hazijapangiliwa vizuri na unataka programu ikujengee muundo wa kwanza wa kujifunza. Uwezo wake ulioelezwa kwenye nyaraka ni aina nyingi za nyenzo za kuingiza, aina saba za kadi, kujifunza kwa kuongozwa na Tutor, maswali mbalimbali na mfumo wa maendeleo.
 
 Chagua Nibomo ikiwa tayari unajua nini kinastahili kuwa kwenye kadi ya mbele/nyuma ya kutumia kwa muda mrefu na unathamini zaidi FSRS, matumizi bila intaneti kwenye simu yaliyoelezwa wazi, kutoa data au kuendesha programu kwenye seva yako mwenyewe kuliko aina nyingi za maswali na zawadi.
 

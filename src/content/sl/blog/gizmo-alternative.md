@@ -18,9 +18,9 @@ keywords:
 
 Ta pregled učnih kartic Gizmo temelji na trenutno dostopnih uradnih straneh centra za pomoč. Gizma nisem preizkusil v praksi, zato bom trditve o izdelku omejil na to, kar navaja njegova dokumentacija, in jasno označil, kaj ostaja negotovo.
 
-> **Razkritje:** Sem Kirill Markin in razvijam [Nibomo](https://nibomo.com/sl/), alternativo, ki jo primerjam spodaj. Gizmo po dokumentaciji ponuja širši način dela: več vhodnih formatov, pet vrst kartic, lekcije AI Tutor, raznolike kvize in napredovanje z elementi igre. Nibomo ima namenoma ožji obseg.
+> **Razkritje:** Sem Kirill Markin in razvijam [Nibomo](https://nibomo.com/sl/), alternativo, ki jo primerjam spodaj. Gizmo po dokumentaciji ponuja širši način dela: več vhodnih formatov, sedem vrst kartic, lekcije AI Tutor, raznolike kvize in napredovanje z elementi igre. Nibomo ima namenoma ožji obseg.
 
-**Dejstva preverjena:** 1. septembra 2026.
+**Dejstva preverjena:** 1. septembra 2026. Vrste kartic in izvoz PDF so bili znova preverjeni 12. novembra 2026.
 
 ![Pregled učnih kartic Gizmo s funkcijo Magic Import, vrstami kartic in alternativnim načinom učenja](/blog/gizmo-alternative-v2.png)
 
@@ -57,21 +57,21 @@ AI Tutor ima soroden način uvoza. [Uradni vodnik za uvoz lekcij](https://help.g
 
 Seznama virov v dokumentaciji se razlikujeta. Anki, preglednice in spletne strani so navedeni v vodniku za ustvarjanje kartic; YouTube in obstoječe zbirke Gizmo pa v vodniku za lekcije Tutor. Preverite način uvoza, ki ga dejansko potrebujete, saj ni nujno, da oba menija ponujata iste vhodne vire.
 
-## Gizmo ima pet vrst kartic
+## Gizmo ima sedem vrst kartic
 
-Trenutna [dokumentacija o vrstah kartic](https://help.gizmo.ai/en/articles/16527223-what-types-of-flashcards-can-i-make) navaja pet formatov:
+Trenutna [dokumentacija o vrstah kartic](https://help.gizmo.ai/en/articles/16527223-what-types-of-flashcards-can-i-make) navaja sedem formatov.
 
 | Vrsta kartice | Kaj preverja | Kako jo lahko ustvarite |
 | --- | --- | --- |
-| **Card text** | Besedilo ali LaTeX z označenimi besedami, ki jih kviz preverja, ali z možnostjo prikaza sprednje in zadnje strani | Ročno ali z Magic Import |
-| **Multiple choice** | Vprašanje z ustvarjenimi možnostmi odgovora; med urejanjem lahko dodate napačne možnosti | Ročno ali z Magic Import |
-| **Matching** | Pare, ki jih Gizmo premeša, vi pa jih znova povežete | Samo z Magic Import |
-| **Ordering** | Elemente, ki jih Gizmo premeša, vi pa jih razvrstite v pravilno zaporedje | Samo z Magic Import |
-| **True/False** | Trditev, za katero presodite, ali drži ali ne | Ročno ali z Magic Import |
+| **Q&A** | Vprašanje in odgovor, ki lahko vsebujeta besedilo ali LaTeX | Ročno ali z Magic Import |
+| **Multi-select** | Vprašanje z eno ali več pravilnimi možnostmi | Ročno ali z Magic Import |
+| **Fill the blanks** | Označene besede v odlomku, ki jih morate dopolniti | Ročno ali z Magic Import |
+| **Match pairs** | Pare, ki jih Gizmo premeša, vi pa jih znova povežete | Ročno ali z Magic Import |
+| **Order items** | Elemente, ki jih Gizmo premeša, vi pa jih razvrstite v pravilno zaporedje | Ročno ali z Magic Import |
+| **True or False** | Trditev, za katero presodite, ali drži ali ne | Ročno ali z Magic Import |
+| **Image question** | Odkrivanje oznak na diagramu ali fotografiji | Ročno |
 
-To je širša ponudba od osnovnih kartic s sprednjo in zadnjo stranjo. Magic Import pa ni le bližnjica: kartice Matching in Ordering lahko trenutno ustvarite samo z njim.
-
-Dokumentacija si pri eni stvari nasprotuje. Stran o vrstah kartic pravi, da lahko Card text vsebuje slike na sprednji in zadnji strani. [Vodnik za upravljanje kartic](https://help.gizmo.ai/en/articles/13761411-how-do-i-edit-or-manage-my-cards) pa navaja, da je fotografije in slike mogoče dodati samo na sprednjo stran. Če potrebujete slike na zadnji strani, pred ustvarjanjem zbirke preverite trenutni urejevalnik. Na podlagi teh dveh uradnih strani ni mogoče dati zanesljivejšega odgovora.
+Dokumentacija si pri eni stvari nasprotuje. Stran o vrstah kartic pravi, da lahko Q&A vsebuje slike na sprednji in zadnji strani. [Vodnik za upravljanje kartic](https://help.gizmo.ai/en/articles/13761411-how-do-i-edit-or-manage-my-cards) pa navaja, da je fotografije in slike mogoče dodati samo na sprednjo stran. Če potrebujete slike na zadnji strani, pred ustvarjanjem zbirke preverite trenutni urejevalnik. Na podlagi teh dveh uradnih strani ni mogoče dati zanesljivejšega odgovora.
 
 Gizmo tudi opozarja, da nastavitve kviza vplivajo na načine vprašanj, ki jih vidite. Shranjeni format kartice in način, kako kviz preverja njeno vsebino, sta povezana, vendar nista isto.
 
@@ -97,11 +97,9 @@ Gizmo izrecno priporoča pregled zbirke po uvozu z Magic Import in svetuje, da v
 
 Omejitev se pokaže med uporabo načina Memorise: kartico lahko tam izbrišete, trenutno pa je ne morete urejati sredi kviza. Če med učenjem opazite napačen odgovor, morate za popravek zapustiti ta način.
 
-### Izvoz iz Gizma ni na voljo
+### Gizmo omogoča tiskanje in shranjevanje kartic v PDF
 
-Isti uradni vodnik pravi, da izvoz kartic še ni na voljo. [Vodnik za upravljanje zbirk](https://help.gizmo.ai/en/articles/12995587-how-do-i-make-changes-to-my-decks) navaja, da tudi izvoz zbirk ni na voljo.
-
-To je najjasnejša trenutna omejitev pri nadzoru nad podatki. Gizmo sprejema gradivo iz več drugih sistemov, vendar trenutno ne dokumentira načina, kako bi ustvarjene kartice prenesli iz njega. Če vam je poznejši prehod pomemben, izdelek ocenite na podlagi te sedanje omejitve, ne morebitne prihodnje funkcije izvoza.
+V meniju kompleta izberite **Print** (Natisni), nato v pogovornem oknu brskalnika izberite **Save as PDF** (Shrani kot PDF). Gizmo opisuje [izvoz v PDF](https://help.gizmo.ai/en/articles/18228622-how-do-i-export-print-or-download-my-cards-as-a-pdf), tudi za komplete, ustvarjene v Gizmu. Če želite urejati kartice ali obdržati zgodovino ponavljanja, obdržite prvotni komplet.
 
 ### Delovanje brez povezave ni dovolj jasno dokumentirano, da bi ga lahko obljubili
 
@@ -116,15 +114,15 @@ Razlika je pomembna, saj »že naloženi zaslon se še odziva« in »moja zgodov
 | Merilo za odločitev | Gizmo | Nibomo |
 | --- | --- | --- |
 | Glavno izhodišče | Ročno ustvarjene kartice ali Magic Import iz različnih učnih virov | Osredotočene kartice s sprednjo in zadnjo stranjo, ustvarjene ročno ali s pomočjo AI |
-| Formati kartic | Card text, Multiple choice, Matching, Ordering in True/False | Kartice s sprednjo in zadnjo stranjo |
+| Formati kartic | Q&A, Multi-select, Fill the blanks, Match pairs, Order items, True or False, Image question | Kartice s sprednjo in zadnjo stranjo |
 | Razlaga gradiva poleg kartic | Lekcije AI Tutor, zapiski in vprašanja na podlagi vira | Ustvarjanje kartic s pomočjo AI; trenutne strani izdelka ne dokumentirajo načina z lekcijami Tutor |
 | Način ponavljanja | Memorise, ponavljanje v časovnih razmikih in raznoliki načini vprašanj | Ponavljanje v časovnih razmikih z algoritmom FSRS |
 | Motivacija | XP, Levels, Leagues, Streaks, Hearts, Hints in Coins | Trenutne strani izdelka ne dokumentirajo primerljivih elementov igre |
 | Dokazi o delovanju brez povezave | V pregledani dokumentaciji nisem našel uradnega zagotovila o delovanju brez povezave | Učenje na mobilni napravi brez povezave in samodejna sinhronizacija sta dokumentirani funkciji |
-| Prenos podatkov iz aplikacije | Izvoz kartic in zbirk trenutno ni na voljo | Prenosljivi izvozi vključujejo kartice, oznake in povezane predstavnostne datoteke |
+| Prenos podatkov iz aplikacije | Tiskanje kompleta ali shranjevanje v PDF | Prenosljivi izvozi vključujejo kartice, oznake in povezane predstavnostne datoteke |
 | Nadzor nad gostovanjem | Preverjene uradne strani ne navajajo možnosti lastnega gostovanja | Odprta izvorna koda in možnost lastnega gostovanja |
 
-Nibomo je praktična alternativa Gizmu za ožji nabor potreb, prikazan v tabeli. Njegova trenutna [stran s funkcijami](/sl/features/) dokumentira FSRS, ustvarjanje kartic s pomočjo AI, učenje na mobilni napravi brez povezave s sinhronizacijo, prenosljive izvoze in lastno gostovanje. Ne opisuje enakovrednih funkcij za Gizmov Magic Import s petimi formati kartic, lekcije Tutor ali elemente igre.
+Nibomo je praktična alternativa Gizmu za ožji nabor potreb, prikazan v tabeli. Njegova trenutna [stran s funkcijami](/sl/features/) dokumentira FSRS, ustvarjanje kartic s pomočjo AI, učenje na mobilni napravi brez povezave s sinhronizacijo, prenosljive izvoze in lastno gostovanje. Gizmo ponuja tudi lekcije Tutor, raznolike kvize in napredovanje z elementi igre.
 
 ## Kdaj je Nibomo primernejša izbira
 
@@ -132,26 +130,24 @@ Izberite Nibomo, ko želite ohraniti preverjeno kartico s sprednjo in zadnjo str
 
 Trditve o delovanju brez povezave in prenosu podatkov iz aplikacije so pri Nibomu bolj izrecne. Nibomo dokumentira učenje na mobilni napravi brez povezave s samodejno sinhronizacijo, [vodnik za začetek](/sl/docs/getting-started/) pa pojasnjuje, da odjemalec za iOS uporablja lokalno podatkovno zbirko SQLite in sinhronizacijo, zasnovano za delo brez povezave. Prenosljivi izvozi vključujejo kartice, oznake in povezane predstavnostne datoteke ter omogočajo prenose med gostovanimi namestitvami in namestitvami na lastni infrastrukturi.
 
-Kompromis je obseg funkcij. Trenutne strani Niboma ne dokumentirajo Gizmovega menija za uvoz, petih vrst kartic, lekcij pod vodstvom Tutorja ali sistema nagrad. Če te funkcije rešujejo težavo, zaradi katere ste prišli sem, je Gizmo verjetno primernejša izbira.
+Če so za vaše učenje bistvena interaktivna vprašanja, lekcije Tutor ali nagrade, za te naloge uporabljajte Gizmo.
 
 ## Ali lahko iz Gizma preidete v drugo aplikacijo?
 
-Trenutno ne gre brez zapletov. Ker izvoz iz Gizma ni na voljo, običajna selitev z datotekami v Nibomo ali drugo aplikacijo ni mogoča.
+Gizmov PDF lahko poskusite uporabiti kot gradivo za nove kartice. V spletni aplikaciji Nibomo izberite **Knjižnica > Uvoz > Uvozi iz druge aplikacije** in izberite PDF. Datoteka se pošlje v klepet z AI. Prenosa PDF-ja iz Gizma v tej primerjavi nismo preizkusili. Rezultat primerjajte z izvirnikom. Oglejte si [vodnik za uvoz kartic](/sl/docs/import-flashcards/).
 
-Varna rešitev je, da ročno prenesete le izbrane kartice:
+Vprašanja, ki so odvisna od Gizmove interaktivne oblike, lahko znova izdelate ročno:
 
 1. Pri roki imejte izvorno predavanje, zapiske, prosojnice ali drugo gradivo.
 2. Znova ustvarite samo kartice, ki so še vedno pravilne in uporabne.
 3. Nejasna vprašanja preoblikujte, namesto da bi kopirali vsako ustvarjeno kartico.
 4. Računajte na to, da bodo Gizmove označene besede, kontekst Tutorja, zgodovina razporejanja ponovitev, XP in drugi podatki o napredku ostali v Gizmu.
 
-To traja dlje kot prenos z orodjem za uvoz in ne ohrani vseh podatkov. Koristen stranski učinek je, da prenesete samo kartice, ki prestanejo preverjanje kakovosti.
-
-Druga možnost je uporaba obeh aplikacij. Gizmo lahko razčleni predavanje ali predstavitev in omogoči raznoliko vajo. V Nibomu lahko hranite manjšo zbirko preverjenih kartic s sprednjo in zadnjo stranjo za ponavljanje z algoritmom FSRS. Prenos med aplikacijama ostaja ročen, saj Gizmo ne omogoča izvoza kartic.
+Druga možnost je uporaba obeh aplikacij. Gizmo lahko razčleni predavanje ali predstavitev in omogoči raznoliko vajo. V Nibomu lahko hranite manjšo zbirko preverjenih kartic s sprednjo in zadnjo stranjo za ponavljanje z algoritmom FSRS.
 
 ## Kateri način dela vam ustreza?
 
-Izberite Gizmo, ko začnete z neurejenim gradivom in želite, da aplikacija pripravi osnovo za učenje. Njegove dokumentirane prednosti so raznoliki vhodni viri, pet vrst kartic, učenje pod vodstvom Tutorja, raznoliki kvizi in mehanike napredovanja.
+Izberite Gizmo, ko začnete z neurejenim gradivom in želite, da aplikacija pripravi osnovo za učenje. Njegove dokumentirane prednosti so raznoliki vhodni viri, sedem vrst kartic, učenje pod vodstvom Tutorja, raznoliki kvizi in mehanike napredovanja.
 
 Izberite Nibomo, ko že veste, katero znanje želite dolgoročno ohraniti na kartici s sprednjo in zadnjo stranjo, ter so vam FSRS, dokumentirano učenje na mobilni napravi brez povezave, izvoz ali lastno gostovanje pomembnejši od raznolikosti kvizov in nagrad.
 

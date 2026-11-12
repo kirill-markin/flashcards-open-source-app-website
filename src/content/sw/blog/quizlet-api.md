@@ -19,7 +19,7 @@ Hitimisho hili linahusu nyaraka za umma za Quizlet, si mifumo yake ya ndani. Ni 
 
 **Taarifa zilihakikiwa:** 18 Agosti 2026.
 
-> **Uwazi kuhusu maslahi yangu:** Mimi ni Kirill Markin, ninayetengeneza Nibomo. Agent API na seva ya MCP ya Nibomo zimeorodheshwa hapa chini kama njia mbadala. Nibomo haioani na Quizlet, wala haiingizi seti za Quizlet kiotomatiki.
+> **Uwazi kuhusu maslahi yangu:** Mimi ni Kirill Markin, ninayetengeneza Nibomo. Agent API na seva ya MCP ya Nibomo zimeorodheshwa hapa chini kama njia mbadala. API ya Nibomo hutumika katika maeneo ya kazi ya Nibomo. Ili kuhamisha seti ya Quizlet, anza kwa kuitoa kwenye tovuti ya Quizlet.
 
 ![Msanidi akilinganisha uhamishaji wa data kutoka Quizlet, upachikaji, miunganisho maalumu na API ya kadi za kujifunzia yenye nyaraka](/blog/quizlet-api.png)
 
@@ -93,7 +93,7 @@ Nibomo inaeleza katika nyaraka zake njia mbili za kufikia data zilezile, zikiwa 
 
 Njia zote mbili zinafanya kazi ndani ya eneo maalumu la kazi. Rasilimali zilizoelezwa kwenye nyaraka ni `workspace`, `cards`, `decks` na `review_events`, na kila amri inaweza kurudisha matokeo yasiyozidi safu mlalo 100. Kiolesura chenye mtindo wa SQL hutumia lahaja yenye uwezo mdogo; hakitoi ufikiaji wa moja kwa moja wa PostgreSQL. Hakuna skima ya OpenAPI, kwa hiyo taratibu zinazotegemea programu za kuwasiliana na API zinazozalishwa kutoka skima ya OpenAPI zitahitaji kiolesura kingine.
 
-Hii inaweza kumsaidia msanidi au wakala wa AI kuendesha shughuli za kadi zake za kujifunzia kiotomatiki. Haiwezi kusoma URL ya Quizlet, kudumisha nakala ya akaunti ya Quizlet au kufanya kazi kama programu inayofikia Quizlet kwa njia zisizo kwenye nyaraka zake. Hakuna zana ya kuingiza data ya Quizlet kiotomatiki. Ili kuhamia mfumo mwingine, kwanza hamisha istilahi na ufafanuzi wake kutoka kwenye seti yako, kagua maandishi, kisha yaweke katika sehemu zinazolingana za kadi kwenye mfumo unaohamia. Mfumo huo huunda taarifa zake za maendeleo na ratiba ya kujifunza; historia ya Quizlet haihamishwi.
+Miingiliano hii hukuwezesha kutumia kadi zilizo katika Nibomo. Kwa uhamishaji wa mara moja, toa istilahi na fasili kutoka kwenye seti yako, zibandike kupitia **Maktaba > Ingiza > Leta kutoka Quizlet** kwenye wavuti, kisha anza uingizaji kwa AI. Kagua kadi zilizohifadhiwa kabla ya kuzitumia kupitia API. Historia ya kujifunza kutoka Quizlet haihamishwi. [Mwongozo wa kutoa seti kutoka Quizlet](/sw/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/) unaeleza jinsi ya kutayarisha maandishi.
 
 Kwa tofauti za bidhaa zaidi ya ufikiaji wa API, soma [ulinganisho wa Quizlet na mbadala wenye msimbo huria](/blog/quizlet-alternative/).
 

@@ -165,6 +165,8 @@ Kabla ya kuhamisha chochote, hifadhi nakala ya akiba inayoweza kurejesha mfumo w
 - Kunakili saraka nzima ya mtumiaji huhifadhi maudhui, historia ya marudio, viambatisho, mipangilio ya programu na hali ya kuingia kwenye akaunti.
 - Faili ya `.mochi` huhifadhi mafungu, kadi, violezo na sehemu za data, viambatisho, lebo na metadata, historia ya marudio, mpangilio wa kadi na muundo wa mafungu.
 
+Ukitaka kujaribu fungu la Mochi katika Nibomo, fungua **Maktaba > Ingiza > Leta kutoka Mochi** kwenye programu ya wavuti na uchague faili la `.mochi`. Faili litatumwa kwenye gumzo la AI. Kagua maudhui ya kadi pamoja na picha na sauti. Hifadhi faili la awali ili uweze kurejesha violezo na historia ya marudio katika Mochi. Angalia [mwongozo wa kuingiza kadi](/sw/docs/import-flashcards/).
+
 [Faili za Markdown na CSV za Mochi](https://mochi.cards/docs/import-and-export/exporting/) ni maumbizo ya kurahisisha kuhamisha data. Markdown huunda faili moja kwa kila kadi na folda za mafungu madogo, lakini haijumuishi historia ya marudio, mpangilio wa kadi au violezo. Lebo za metadata pia hazijumuishwi isipokuwa ziwe ndani ya Markdown. CSV inaweza kutoa sehemu za data za kiolezo au pande za mbele/nyuma kama zinavyoonyeshwa, lakini haihifadhi historia ya marudio au violezo. Lebo za metadata huhifadhiwa tu ikiwa zimeingizwa kwenye maudhui.
 
 Anki ina tofauti kama hiyo:

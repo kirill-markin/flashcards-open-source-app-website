@@ -19,7 +19,7 @@ Toto zistenie sa týka verejnej dokumentácie Quizletu, nie jeho interných syst
 
 **Fakty overené:** 18. augusta 2026.
 
-> **Pre transparentnosť:** Som Kirill Markin a vyvíjam Nibomo. Jeho Agent API a MCP server nižšie uvádzam ako alternatívy. Nibomo nie je kompatibilné s Quizletom a neimportuje automaticky sady z Quizletu.
+> **Pre transparentnosť:** Som Kirill Markin a vyvíjam Nibomo. Jeho Agent API a MCP server nižšie uvádzam ako alternatívy. Nibomo API pracuje s vlastnými pracovnými priestormi. Prenos z Quizletu sa začína exportom na jeho webe.
 
 ![Vývojár porovnáva export z Quizletu, vloženie na web, konkrétne integrácie a zdokumentované API pre kartičky](/blog/quizlet-api.png)
 
@@ -93,7 +93,7 @@ Nibomo ponúka dva spôsoby prístupu k rovnakému obmedzenému rozsahu dát kon
 
 Oba spôsoby prístupu sú obmedzené na vybraný pracovný priestor. Sprístupnené zdroje sú `workspace`, `cards`, `decks` a `review_events` a výsledky sú obmedzené na 100 riadkov na jeden príkaz. Rozhranie v štýle SQL používa obmedzený dialekt; nejde o priamy prístup k PostgreSQL. Schéma OpenAPI nie je k dispozícii, takže postupy závislé od generovaných klientov OpenAPI potrebujú iné rozhranie.
 
-Vývojárovi alebo AI agentovi to môže pomôcť automatizovať prácu s vlastnými kartičkami. Nibomo však nedokáže načítať obsah z URL Quizletu, zrkadliť účet v Quizlete ani fungovať ako nezdokumentovaný klient Quizletu. Nemá automatický importér z Quizletu. Pri migrácii najprv exportujte pojmy a definície z vlastnej sady, skontrolujte text a potom ho priraďte k poliam kartičiek v cieľovej aplikácii. Tá si vytvorí vlastný stav učenia; história z Quizletu sa neprenesie.
+Tieto rozhrania pracujú s kartičkami v Nibomo. Pri jednorazovom prenose exportujte pojmy a definície z vlastnej sady, prilepte ich na webe cez **Knižnica > Import > Importovať z aplikácie Quizlet** a spustite import cez AI. Pred prácou cez API skontrolujte uložené kartičky. História opakovania z Quizletu sa neprenesie. Podrobnosti o príprave textu vysvetľuje [návod na export z Quizletu](/sk/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/).
 
 Rozdiely medzi produktmi nad rámec prístupu cez API nájdete v [porovnaní Quizletu s alternatívou s otvoreným zdrojovým kódom](/blog/quizlet-alternative/).
 

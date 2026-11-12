@@ -104,18 +104,13 @@ Datoteko CSV iz Quizletovega izvoza varno pripravite takole:
 
 Program za preglednice lahko doda narekovaje, ki jih CSV potrebuje. Zamenjava vseh tabulatorjev z vejicami tega ne more zanesljivo opraviti.
 
-## Besedilo prenesite v Nibomo kot gradivo za osnutke, ki jih boste pregledali
+## Besedilo prenesite v Nibomo in preverite kartice
 
-[Nibomo](/sl/features/) nima neposrednega uvoznika za Quizlet. V gostovani aplikaciji datoteke TXT ali CSV uporabite kot priponko za pripravo osnutkov z umetno inteligenco, ne za prenos brez izgub.
+V spletni aplikaciji Nibomo odprite **Knjižnica > Uvoz > Uvozi iz aplikacije Quizlet**, prilepite besedilo, kopirano iz izvoza lastnega kompleta, in izberite **Začni uvoz**. Klepet z AI ustvari kartice v delovnem prostoru. Primerjajte shranjena vprašanja in odgovore z izvirnikom. Če imate nenavadna ločila ali večvrstične definicije, začnite z nekaj karticami.
 
-1. Neobdelano Quizletovo datoteko hranite zunaj aplikacije.
-2. Očiščeno datoteko TXT ali skrbno pripravljeno datoteko CSV priložite v klepetu z umetno inteligenco v Nibomu.
-3. Pomočniku povejte, katero ločilo in polja uporablja datoteka.
-4. Prosite za kratek predogled in izrecno navedite, naj kartic še ne shrani.
-5. Predlagano število kartic ter njihove sprednje in zadnje strani primerjajte z delovno datoteko.
-6. Shranite samo kartice, ki ste jih pregledali.
+Za predogled pred shranjevanjem izberite **Uvozi iz preglednice** in prilepite urejeno besedilo iz dveh stolpcev. Nastavite ločila, preverite pare in potrdite uvoz. Kartice dobijo nov razpored ponavljanja.
 
-[Vodič za začetek uporabe](/docs/getting-started/) opisuje klepet z umetno inteligenco, ki uporablja podatke delovnega prostora in priložene datoteke. Previdno oblikovano navodilo bi lahko bilo:
+Druge možnosti so opisane v [vodniku za uvoz kartic](/sl/docs/import-flashcards/). Če datoteko TXT ali CSV priložite neposredno v klepetu z AI, lahko pred shranjevanjem zahtevate predogled:
 
 > Preberi to datoteko kot pare izrazov in definicij, ločenih s tabulatorji. Kartic še ne shranjuj. Pripravi majhen vzorec osnutkov, ohrani izvorno besedilo in nelatinične znake ter nepravilne, prazne ali dvoumne vrstice navedi ločeno, namesto da ugibaš.
 
