@@ -22,6 +22,7 @@ Tālāk aprakstītās iespējas ir pieejamas tīmekļa lietotnē. Ja iPhone, iPa
 | Mochi | `.mochi` | **Izvēlieties failus** |
 | SuperMemo | `.xml` | **Izvēlieties failus** |
 | AlgoApp (agrāk AnkiApp) | `.zip` vai `.xml` | **Izvēlieties failus** |
+| Gizmo | `.pdf` | Izvēlies failu sadaļā **Importēt no Gizmo** |
 | Cita lietotne | `.csv`, `.txt`, `.xlsx`, `.pdf`, `.json`, `.xml`, `.md`, `.docx` vai `.zip` | Izvēlies failus sadaļā **Importēt no citas lietotnes** |
 | Izklājlapa | Nokopētas rindas ar katras kartītes priekšpusi un aizmuguri | Ielīmē sadaļā **Importēt no izklājlapas** |
 | Nibomo | No Nibomo eksportēts `flashcards.zip` | Skati priekšskatījumu sadaļā **Importēt no Nibomo** |
@@ -36,6 +37,8 @@ Vecāka formāta Excel `.xls` failu pirms importēšanas saglabā kā `.xlsx` va
 2. Nibomo atver **Bibliotēka > Importēt** un izvēlies atbilstošo lietotni. Quizlet gadījumā ielīmē nokopēto tekstu. Pārējiem avotiem izvēlies eksportēto failu vai failus. Ja tavas lietotnes izvēlnē nav, bet tā ļauj eksportēt atbalstītā formātā, piemēram, PDF, izvēlies **Importēt no citas lietotnes**.
 3. Izvēlies **Sākt importēšanu**. Nibomo atvērs jaunu MI sarunu un nosūtīs importēšanas pieprasījumu kopā ar failiem vai ielīmēto tekstu. Tam vajadzīgs interneta savienojums. Viena MI importēšanas faila izmērs nedrīkst pārsniegt **30 MiB**. Ja fails ir lielāks, mēģini atsevišķi eksportēt mazākas kavas vai komplektus.
 4. Pārbaudi rezultātu sadaļā **Bibliotēka**. MI sarunas gaitā kartītes var tikt saglabātas pa daļām. Ja darbs apstājas pusceļā, apskati, kuras kartītes jau ir Nibomo, un palūdz turpināt ar pārējām, pirms atkārto visu importēšanu.
+
+Gizmo kavas izvēlnē ar trim punktiem izvēlies **Print**, pēc tam pārlūka drukāšanas logā izvēlies **Save as PDF**. Nibomo atver **Bibliotēka > Importēt** un izvēlies **Importēt no Gizmo**. Izvēlies PDF failu un nospied **Sākt importēšanu**. Sadaļā **Bibliotēka** salīdzini saglabātās kartītes ar PDF failu. Pārbaudi kartīšu skaitu un to, vai katrai priekšpusei ir pareizā aizmugure.
 
 ### Vispirms izmēģini ar nelielu komplektu
 

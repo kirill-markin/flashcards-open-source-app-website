@@ -22,6 +22,7 @@ Izinketho ezingezansi ziyatholakala ohlelweni lwewebhu. Uma ungayiboni imenyu no
 | Mochi | `.mochi` | Khetha amafayela |
 | SuperMemo | `.xml` | Khetha amafayela |
 | AlgoApp (eyayibizwa nge-AnkiApp) | `.zip` noma `.xml` | Khetha amafayela |
+| Gizmo | `.pdf` | Khetha amafayela |
 | Olunye uhlelo lokusebenza | `.csv`, `.txt`, `.xlsx`, `.pdf`, `.json`, `.xml`, `.md`, `.docx` noma `.zip` | Khetha amafayela ngaphansi kokuthi **Ngenisa kusuka kolunye uhlelo lokusebenza** |
 | Ispredishithi | Imigqa ekopishiwe enengaphambili nengemuva lekhadi ngalinye | Namathisela esikrinini esithi **Ngenisa kusuka kuspredishithi** |
 | Nibomo | Ifayela elithi `flashcards.zip` elikhishwe ku-Nibomo | Buka kuqala ngaphansi kokuthi **Ngenisa kusuka ku-Nibomo** |
@@ -36,6 +37,8 @@ Uma unefayela elidala le-Excel elithi `.xls`, ligcine njengefayela le-`.xlsx` no
 2. Ku-Nibomo, iya kokuthi **Umtapo wolwazi > Ngenisa**, bese uvula inketho yohlelo lwakho. Uma usebenzisa i-Quizlet, namathisela umbhalo owukopishile. Kweminye imithombo, khetha amafayela owakhiphile. Uma uhlelo lwakho lungekho ohlwini kodwa lukwazi ukukhipha ifayela ngefomethi esekelwayo njenge-PDF, sebenzisa **Ngenisa kusuka kolunye uhlelo lokusebenza**.
 3. Khetha **Qala ukungenisa**. I-Nibomo ivula ingxoxo entsha ye-AI bese ithumela isicelo sokungenisa namafayela akho noma umbhalo owunamathisele. Lokhu kudinga i-inthanethi. Ifayela ngalinye elingeniswa nge-AI lingaba usayizi ongafika ku-**30 MiB**. Uma lilikhulu kunalokho, zama ukukhipha amadekhi noma amasethi amancane ngokwehlukana.
 4. Hlola umphumela ku-**Umtapo wolwazi**. Ingxoxo ye-AI ingagcina amakhadi ngamaqoqo njengoba iqhubeka. Uma ima phakathi nendlela, hlola ukuthi yimaphi amakhadi aseku-Nibomo, bese uyicela iqhubeke nalawo asele ngaphambi kokuzama ukungenisa yonke into futhi.
+
+Ku-Gizmo, chofoza amachashazi amathathu ukuze uvule imenyu yedekhi. Khetha u-**Print**, bese ukhetha u-**Save as PDF** esipheqululini. Ohlelweni lwewebhu lwe-Nibomo, iya kokuthi **Umtapo wolwazi > Ngenisa** bese ukhetha **Ngenisa kusuka ku-Gizmo**. Khetha ifayela le-PDF bese uchofoza **Qala ukungenisa**. Ku-**Umtapo wolwazi**, hlola ukuthi inani lamakhadi agciniwe liyafana neliku-PDF nokuthi ingaphambili nengemuva lekhadi ngalinye kuyahambisana nalokho okuku-PDF.
 
 ### Qala ngokuhlola amakhadi ambalwa
 

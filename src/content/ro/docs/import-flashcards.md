@@ -22,6 +22,7 @@ Opțiunile de mai jos sunt disponibile în aplicația web. Folosește-o dacă pe
 | Mochi | `.mochi` | Alege fișiere |
 | SuperMemo | `.xml` | Alege fișiere |
 | AlgoApp (fostul AnkiApp) | `.zip` sau `.xml` | Alege fișiere |
+| Gizmo | `.pdf` | Alege fișierul la **Importă din Gizmo** |
 | Altă aplicație | `.csv`, `.txt`, `.xlsx`, `.pdf`, `.json`, `.xml`, `.md`, `.docx` sau `.zip` | Alege fișierele la **Importă din altă aplicație** |
 | Foaie de calcul | Rânduri copiate cu fața și versoul fiecărei fișe | Lipește-le la **Importă dintr-o foaie de calcul** |
 | Nibomo | Un fișier `flashcards.zip` exportat din Nibomo | Verifică previzualizarea la **Importă din Nibomo** |
@@ -36,6 +37,8 @@ Dacă ai un fișier Excel vechi în format `.xls`, salvează-l ca `.xlsx` sau `.
 2. În Nibomo, mergi la **Bibliotecă > Import** și alege opțiunea pentru aplicația ta. Pentru Quizlet, lipește textul copiat. Pentru celelalte surse, selectează fișierele exportate. Dacă aplicația lipsește din listă, dar exportă într-un format acceptat, cum ar fi PDF, alege **Importă din altă aplicație**.
 3. Selectează **Pornește importul**. Nibomo deschide un chat AI nou și trimite cererea de import împreună cu fișierele sau textul lipit. Ai nevoie de o conexiune la internet. Fiecare fișier trimis pentru import cu AI poate avea cel mult **30 MiB**. Dacă fișierul tău e mai mare, încearcă să exporți seturi mai mici separat.
 4. Verifică rezultatul în **Bibliotecă**. Chatul AI poate salva fișele în loturi. Dacă se oprește pe parcurs, verifică ce fișe sunt deja în Nibomo și cere-i să continue cu restul înainte de a reîncerca importul complet.
+
+În Gizmo, deschide meniul cu trei puncte al pachetului și alege **Print**, apoi selectează **Save as PDF** în fereastra de imprimare a browserului. În Nibomo, mergi la **Bibliotecă > Import** și alege **Importă din Gizmo**. Selectează fișierul PDF și apasă **Pornește importul**. Compară fișele salvate în **Bibliotecă** cu PDF-ul. Verifică dacă numărul de fișe coincide și dacă fiecare față are versoul potrivit.
 
 ### Încearcă întâi un import mic
 

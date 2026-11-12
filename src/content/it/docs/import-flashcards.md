@@ -22,6 +22,7 @@ Le opzioni qui sotto sono disponibili nell’app web. Se su iPhone, iPad, Mac o 
 | Mochi | `.mochi` | **Scegli file** |
 | SuperMemo | `.xml` | **Scegli file** |
 | AlgoApp (prima AnkiApp) | `.zip` o `.xml` | **Scegli file** |
+| Gizmo | `.pdf` | **Scegli file** |
 | Un’altra app | `.csv`, `.txt`, `.xlsx`, `.pdf`, `.json`, `.xml`, `.md`, `.docx` o `.zip` | Scegli i file in **Importa da un’altra app** |
 | Foglio di calcolo | Le righe copiate, con fronte e retro per ogni carta | Incollale in **Importa da un foglio di calcolo** |
 | Nibomo | Un file `flashcards.zip` esportato da Nibomo | Controlla l’anteprima in **Importa da Nibomo** |
@@ -36,6 +37,8 @@ Se hai un vecchio file Excel `.xls`, salvalo come `.xlsx` o `.csv` prima di impo
 2. In Nibomo, vai a **Libreria > Importa** e apri la voce corrispondente. Per Quizlet, incolla il testo copiato. Per le altre sorgenti, seleziona il file o i file esportati. Se l’app non ha una voce dedicata ma esporta in un formato supportato, per esempio PDF, usa **Importa da un’altra app**.
 3. Seleziona **Avvia importazione**. Nibomo apre una nuova chat AI e invia la richiesta di importazione con i file o il testo incollato. Serve una connessione a Internet. Ogni file importato con l’AI può pesare fino a **30 MiB**. Per file più grandi, prova a esportare separatamente mazzi o set più piccoli.
 4. Controlla il risultato nella **Libreria**. La chat AI può salvare le carte a gruppi durante l’importazione. Se si interrompe, verifica quali carte sono già in Nibomo e chiedile di continuare con le rimanenti prima di riprovare con l’intera esportazione.
+
+In Gizmo, apri il menu con i tre puntini del mazzo e scegli **Print**, poi seleziona **Save as PDF** nella finestra di stampa del browser. Nell’app web di Nibomo, vai a **Libreria > Importa** e scegli **Importa da Gizmo**. Seleziona il PDF e premi **Avvia importazione**. Nella **Libreria**, controlla che il numero di carte salvate e le coppie fronte-retro corrispondano al PDF.
 
 ### Fai prima una prova con poche carte
 

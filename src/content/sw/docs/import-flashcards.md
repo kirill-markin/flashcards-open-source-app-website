@@ -22,6 +22,7 @@ Chaguo zilizo hapa chini zinapatikana katika programu ya wavuti. Usipoona menyu 
 | Mochi | `.mochi` | Chagua faili |
 | SuperMemo | `.xml` | Chagua faili |
 | AlgoApp (zamani AnkiApp) | `.zip` au `.xml` | Chagua faili |
+| Gizmo | `.pdf` | Chagua faili |
 | Programu nyingine | `.csv`, `.txt`, `.xlsx`, `.pdf`, `.json`, `.xml`, `.md`, `.docx` au `.zip` | Chagua faili kupitia **Leta kutoka programu nyingine** |
 | Lahajedwali | Safu mlalo ulizonakili zenye upande wa mbele na wa nyuma wa kila kadi | Bandika kupitia **Leta kutoka lahajedwali** |
 | Nibomo | Faili la `flashcards.zip` ulilotoa kutoka Nibomo | Kagua onyesho la awali kupitia **Leta kutoka Nibomo** |
@@ -36,6 +37,8 @@ Ukiwa na faili la zamani la Excel la `.xls`, lihifadhi kama `.xlsx` au `.csv` ka
 2. Katika Nibomo, nenda kwenye **Maktaba > Ingiza** na uchague programu inayolingana. Kwa Quizlet, bandika maandishi uliyonakili. Kwa vyanzo vingine, chagua faili moja au zaidi ulizotoa. Ikiwa programu yako haina chaguo lake lakini inatoa faili katika umbizo linalotumika, kama vile PDF, chagua **Leta kutoka programu nyingine**.
 3. Chagua **Anza kuingiza**. Nibomo hufungua gumzo jipya la AI na kutuma ombi la kuingiza pamoja na faili au maandishi uliyobandika. Hatua hii inahitaji muunganisho wa intaneti. Kila faili linaweza kuwa na ukubwa wa hadi **30 MiB**. Faili likizidi kikomo hicho, jaribu kutoa mafungu au seti ndogo moja baada ya nyingine.
 4. Kagua matokeo katika **Maktaba**. Gumzo la AI linaweza kuhifadhi kadi kwa vikundi linapoendelea. Likisimama kabla ya kumaliza, angalia kadi ambazo tayari zimo katika Nibomo na uliombe liendelee na zilizobaki kabla ya kujaribu tena kuingiza seti nzima.
+
+Katika Gizmo, fungua menyu ya nukta tatu ya fungu la kadi, chagua **Print**, kisha chagua **Save as PDF** kwenye kivinjari. Katika programu ya wavuti ya Nibomo, nenda kwenye **Maktaba > Ingiza** na uchague **Leta kutoka Gizmo**. Chagua faili la PDF, kisha uchague **Anza kuingiza**. Katika **Maktaba**, hakikisha kwamba idadi ya kadi zilizohifadhiwa na pande za mbele na za nyuma za kila kadi zinalingana na zilizo kwenye PDF.
 
 ### Anza kwa kuingiza kadi chache
 

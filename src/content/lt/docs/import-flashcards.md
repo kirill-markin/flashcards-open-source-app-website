@@ -22,6 +22,7 @@ Toliau aprašytus būdus galite naudoti internetinėje programėlėje. Jei „iP
 | Mochi | `.mochi` | **Pasirinkite failus** |
 | SuperMemo | `.xml` | **Pasirinkite failus** |
 | AlgoApp (anksčiau „AnkiApp“) | `.zip` arba `.xml` | **Pasirinkite failus** |
+| Gizmo | `.pdf` | Pasirinkite failą skiltyje **Importuoti iš „Gizmo“** |
 | Kita programėlė | `.csv`, `.txt`, `.xlsx`, `.pdf`, `.json`, `.xml`, `.md`, `.docx` arba `.zip` | Pasirinkite failus skiltyje **Importuoti iš kitos programėlės** |
 | Skaičiuoklė | Nukopijuotas eilutes su priekine ir galine kiekvienos kortelės puse | Įklijuokite skiltyje **Importuoti iš skaičiuoklės** |
 | Nibomo | Iš „Nibomo“ eksportuotą `flashcards.zip` | Peržiūrėkite skiltyje **Importuoti iš „Nibomo“** |
@@ -36,6 +37,8 @@ Senesnį „Excel“ `.xls` failą prieš importuodami išsaugokite kaip `.xlsx`
 2. „Nibomo“ atidarykite **Biblioteka > Importuoti** ir pasirinkite reikiamą programėlę. „Quizlet“ atveju įklijuokite nukopijuotą tekstą. Kitais atvejais pasirinkite eksportuotus failus. Jei jūsų programėlės sąraše nėra, bet iš jos galite eksportuoti palaikomo formato failą, pavyzdžiui, PDF, rinkitės **Importuoti iš kitos programėlės**.
 3. Spustelėkite **Pradėti importuoti**. „Nibomo“ atidarys naują DI pokalbį ir išsiųs importavimo užklausą kartu su failais ar įklijuotu tekstu. Tam reikalingas interneto ryšys. Vienas importuojamas failas gali būti iki **30 MiB**. Jei failas didesnis, pabandykite atskirai eksportuoti mažesnes kalades ar rinkinius.
 4. Patikrinkite rezultatą skiltyje **Biblioteka**. DI pokalbis gali išsaugoti korteles dalimis. Jei darbas nutrūksta, prieš iš naujo importuodami visą failą patikrinkite, kurios kortelės jau įrašytos į „Nibomo“, ir paprašykite tęsti nuo likusių kortelių.
+
+„Gizmo“ kaladės trijų taškų meniu pasirinkite **Print**, o naršyklės spausdinimo lange pasirinkite **Save as PDF**. „Nibomo“ atidarykite **Biblioteka > Importuoti** ir pasirinkite **Importuoti iš „Gizmo“**. Pasirinkite PDF failą ir spustelėkite **Pradėti importuoti**. Skiltyje **Biblioteka** palyginkite išsaugotas korteles su PDF. Patikrinkite, ar sutampa kortelių skaičius ir ar kiekviena priekinė pusė suporuota su tinkama galine puse.
 
 ### Pirmiausia išbandykite su nedideliu rinkiniu
 

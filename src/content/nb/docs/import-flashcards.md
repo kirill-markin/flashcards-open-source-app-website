@@ -22,6 +22,7 @@ Valgene nedenfor finnes i nettappen. Bruk nettappen hvis du ikke finner menyen e
 | Mochi | `.mochi` | Velg filer |
 | SuperMemo | `.xml` | Velg filer |
 | AlgoApp (tidligere AnkiApp) | `.zip` eller `.xml` | Velg filer |
+| Gizmo | `.pdf` | Velg filen under **Importer fra Gizmo** |
 | En annen app | `.csv`, `.txt`, `.xlsx`, `.pdf`, `.json`, `.xml`, `.md`, `.docx` eller `.zip` | Velg filer under **Importer fra en annen app** |
 | Regneark | Kopierte rader med for- og bakside for hvert kort | Lim inn under **Importer fra et regneark** |
 | Nibomo | En `flashcards.zip` eksportert fra Nibomo | Forhåndsvis under **Importer fra Nibomo** |
@@ -36,6 +37,8 @@ Har du en eldre Excel-fil i `.xls`-format, lagrer du den som `.xlsx` eller `.csv
 2. Gå til **Bibliotek > Import** i Nibomo og åpne valget for appen din. Lim inn den kopierte teksten for Quizlet. For andre kilder velger du eksportfilene. Hvis appen ikke står på listen, men du har en fil i et støttet format, for eksempel PDF, velger du **Importer fra en annen app**.
 3. Velg **Start import**. Nibomo åpner en ny AI-chat og sender importforespørselen med filene eller teksten. Du trenger internettforbindelse. Hver fil til AI-import kan være opptil **30 MiB**. Eksporter mindre kortstokker eller sett hver for seg hvis filen er for stor.
 4. Sjekk resultatet i **Bibliotek**. AI-chatten kan lagre kort i puljer underveis. Hvis den stopper, se hvilke kort som allerede ligger i Nibomo og be chatten fortsette med resten før du prøver hele eksporten på nytt.
+
+Åpne menyen med tre prikker for kortstokken i Gizmo og velg **Print**. Velg deretter **Save as PDF** i utskriftsvinduet i nettleseren. Gå til **Bibliotek > Import** i Nibomo og velg **Importer fra Gizmo**. Velg PDF-filen og trykk på **Start import**. Sammenlign de lagrede kortene i **Bibliotek** med PDF-filen. Sjekk at antallet stemmer, og at hver forside har riktig bakside.
 
 ### Prøv en liten import først
 

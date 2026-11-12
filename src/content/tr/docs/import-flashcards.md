@@ -22,6 +22,7 @@ Aşağıdaki seçenekler web uygulamasında bulunur. iPhone, iPad, Mac veya Andr
 | Mochi | `.mochi` | Dosyaları seçin |
 | SuperMemo | `.xml` | Dosyaları seçin |
 | AlgoApp (eski adıyla AnkiApp) | `.zip` veya `.xml` | Dosyaları seçin |
+| Gizmo | `.pdf` | Dosyaları seç |
 | Başka bir uygulama | `.csv`, `.txt`, `.xlsx`, `.pdf`, `.json`, `.xml`, `.md`, `.docx` veya `.zip` | **Başka bir uygulamadan içe aktar** altında dosyaları seçin |
 | E-tablo | Her kartın ön ve arka yüzünü içeren kopyalanmış satırlar | **E-tablodan içe aktar** ekranına yapıştırın |
 | Nibomo | Nibomo’dan dışa aktarılmış `flashcards.zip` | **Nibomo’dan içe aktar** ekranında önizleyin |
@@ -36,6 +37,8 @@ Eski bir Excel `.xls` dosyanız varsa içe aktarmadan önce `.xlsx` veya `.csv` 
 2. Nibomo’da **Kitaplık > İçe aktar** bölümünde ilgili seçeneği açın. Quizlet için kopyaladığınız metni yapıştırın. Diğer kaynaklar için dışa aktardığınız dosyaları seçin. Uygulamanız listede yoksa ve PDF gibi desteklenen bir dosya biçimi sunuyorsa **Başka bir uygulamadan içe aktar** seçeneğini kullanın.
 3. **İçe aktarmayı başlat**’ı seçin. Nibomo yeni bir AI sohbeti açar ve içe aktarma isteğini dosyalarınızla veya yapıştırdığınız metinle birlikte gönderir. Bu işlem internet bağlantısı gerektirir. AI ile içe aktarmada dosya başına sınır **30 MiB**’tır. Daha büyük dosyalar için desteleri veya setleri ayrı ayrı dışa aktarmayı deneyin.
 4. Sonucu **Kitaplık** bölümünde kontrol edin. AI sohbeti işlem sırasında kartları gruplar hâlinde kaydedebilir. İşlem yarıda kalırsa, tüm dosyayı yeniden aktarmadan önce hangi kartların Nibomo’da olduğunu kontrol edin ve AI’dan kalanlarla devam etmesini isteyin.
+
+Gizmo’da destenin üç noktalı menüsünden **Print** seçeneğini açın ve tarayıcıda **Save as PDF** seçeneğiyle dosyayı kaydedin. Nibomo’nun web uygulamasında **Kitaplık > İçe aktar** bölümüne gidip **Gizmo uygulamasından içe aktar** seçeneğini açın. PDF dosyasını seçip **İçe aktarmayı başlat** düğmesine tıklayın. **Kitaplık** bölümünde kayıtlı kart sayısını ve her kartın ön ve arka yüzünü PDF ile karşılaştırın.
 
 ### Önce küçük bir aktarımı kontrol edin
 

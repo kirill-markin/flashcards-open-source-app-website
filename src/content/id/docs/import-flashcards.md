@@ -22,6 +22,7 @@ Pilihan di bawah ini tersedia di aplikasi web. Jika menu atau pilihan aplikasi a
 | Mochi | `.mochi` | **Pilih file** |
 | SuperMemo | `.xml` | **Pilih file** |
 | AlgoApp (sebelumnya AnkiApp) | `.zip` atau `.xml` | **Pilih file** |
+| Gizmo | `.pdf` | **Pilih file** |
 | Aplikasi lain | `.csv`, `.txt`, `.xlsx`, `.pdf`, `.json`, `.xml`, `.md`, `.docx`, atau `.zip` | Pilih file di **Impor dari aplikasi lain** |
 | Spreadsheet | Salinan baris yang memuat sisi depan dan belakang tiap kartu | Tempel di **Impor dari spreadsheet** |
 | Nibomo | File `flashcards.zip` hasil ekspor dari Nibomo | Periksa pratinjau di **Impor dari Nibomo** |
@@ -36,6 +37,8 @@ Jika Anda punya file Excel lama berformat `.xls`, simpan sebagai `.xlsx` atau `.
 2. Di Nibomo, buka **Pustaka > Impor** dan pilih aplikasi asal. Untuk Quizlet, tempel teks yang disalin. Untuk sumber lain, pilih file hasil ekspor. Jika aplikasi asal tidak ada di menu tetapi dapat mengekspor dalam format yang didukung, misalnya PDF, gunakan **Impor dari aplikasi lain**.
 3. Pilih **Mulai impor**. Nibomo membuka chat AI baru dan mengirim permintaan impor beserta file atau teks yang Anda tempel. Langkah ini memerlukan koneksi internet. Batas ukuran setiap file untuk impor dengan AI adalah **30 MiB**. Jika file lebih besar, coba ekspor beberapa dek atau set yang lebih kecil secara terpisah.
 4. Periksa hasilnya di **Pustaka**. Chat AI dapat menyimpan kartu secara bertahap. Jika prosesnya terhenti, periksa kartu mana saja yang sudah ada di Nibomo, lalu minta AI melanjutkan dengan kartu yang tersisa sebelum mencoba lagi dari awal.
+
+Di Gizmo, buka menu tiga titik pada dek dan pilih **Print**. Lalu pilih **Save as PDF** di jendela cetak browser. Di aplikasi web Nibomo, buka **Pustaka > Impor**, lalu pilih **Impor dari Gizmo**. Pilih file PDF dan klik **Mulai impor**. Di **Pustaka**, cocokkan jumlah kartu yang tersimpan serta pasangan sisi depan dan belakangnya dengan PDF.
 
 ### Coba dulu dengan beberapa kartu
 

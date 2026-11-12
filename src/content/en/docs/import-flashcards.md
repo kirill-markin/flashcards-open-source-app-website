@@ -22,6 +22,7 @@ The options below are available in the web app. If you don't see the menu or the
 | Mochi | `.mochi` | Choose files |
 | SuperMemo | `.xml` | Choose files |
 | AlgoApp (formerly AnkiApp) | `.zip` or `.xml` | Choose files |
+| Gizmo | `.pdf` | Choose files |
 | Another app | `.csv`, `.txt`, `.xlsx`, `.pdf`, `.json`, `.xml`, `.md`, `.docx`, or `.zip` | Choose files under **Import from another app** |
 | Spreadsheet | Copied rows with a front and back for each card | Paste under **Import from a spreadsheet** |
 | Nibomo | A `flashcards.zip` exported by Nibomo | Preview under **Import from Nibomo** |
@@ -36,6 +37,8 @@ For an older Excel `.xls` file, save it as `.xlsx` or `.csv` before importing, o
 2. In Nibomo, go to **Library > Import** and open the matching entry. Paste the copied text for Quizlet. For other sources, choose the exported file or files. If your app has no entry but gives you a supported export, such as a PDF, use **Import from another app**.
 3. Select **Start import**. Nibomo opens a new AI chat and sends the import request with your files or pasted text. This requires an internet connection. Each AI import file can be up to **30 MiB**. If yours is larger, try exporting smaller decks or sets separately.
 4. Check the result in **Library**. AI chat can save cards in batches as it goes. If it stops partway through, check which cards are already in Nibomo and ask it to continue with the rest before you retry the whole export.
+
+In Gizmo, open the three-dot menu for your deck and choose **Print**. Then choose **Save as PDF** in your browser. In the Nibomo web app, go to **Library > Import > Import from Gizmo**, choose the PDF, and select **Start import**. Compare the cards saved in **Library** with the PDF. Check the card count and make sure each front is paired with the right back.
 
 ### Check a small import first
 

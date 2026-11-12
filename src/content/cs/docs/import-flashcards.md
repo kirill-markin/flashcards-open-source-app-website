@@ -22,6 +22,7 @@ Níže uvedené možnosti najdete ve webové aplikaci. Pokud na iPhonu, iPadu, M
 | Mochi | `.mochi` | Vybrat soubory |
 | SuperMemo | `.xml` | Vybrat soubory |
 | AlgoApp (dříve AnkiApp) | `.zip` nebo `.xml` | Vybrat soubory |
+| Gizmo | `.pdf` | Vybrat soubory |
 | Jiná aplikace | `.csv`, `.txt`, `.xlsx`, `.pdf`, `.json`, `.xml`, `.md`, `.docx` nebo `.zip` | Vyberte soubory přes **Importovat z jiné aplikace** |
 | Tabulka | Zkopírované řádky s přední a zadní stranou každé kartičky | Vložte je přes **Importovat z tabulky** |
 | Nibomo | Soubor `flashcards.zip` vyexportovaný z Nibomo | Zkontrolujte náhled přes **Importovat z Nibomo** |
@@ -36,6 +37,8 @@ Starší soubor Excelu s příponou `.xls` před importem uložte jako `.xlsx` n
 2. V Nibomo přejděte do **Knihovna > Import** a otevřete příslušnou položku. U Quizletu vložte zkopírovaný text. U ostatních zdrojů vyberte vyexportovaný soubor nebo soubory. Pokud vaše aplikace v nabídce není, ale umožňuje export do podporovaného formátu, například PDF, použijte **Importovat z jiné aplikace**.
 3. Zvolte **Spustit import**. Nibomo otevře nový chat s AI a odešle požadavek na import spolu se soubory nebo vloženým textem. Potřebujete připojení k internetu. Každý soubor pro import pomocí AI může mít nejvýše **30 MiB**. Pokud je soubor větší, zkuste balíčky nebo sady vyexportovat po menších částech.
 4. Výsledek zkontrolujte v **Knihovně**. Chat s AI může kartičky ukládat po dávkách. Pokud se zastaví, podívejte se, které kartičky už máte v Nibomo, a požádejte ho, aby pokračoval se zbývajícími, než zkusíte importovat celý export znovu.
+
+V aplikaci Gizmo otevřete nabídku balíčku kliknutím na tři tečky a zvolte **Print**. V prohlížeči pak vyberte **Save as PDF**. Ve webové aplikaci Nibomo přejděte do **Knihovna > Import > Importovat z aplikace Gizmo**, vyberte soubor PDF a klikněte na **Spustit import**. Porovnejte kartičky uložené v **Knihovně** s PDF. Zkontrolujte jejich počet a ověřte, že k přední straně každé kartičky patří správná zadní strana.
 
 ### Nejprve vyzkoušejte malý import
 

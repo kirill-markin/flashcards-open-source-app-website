@@ -22,6 +22,7 @@ De opties hieronder staan in de web-app. Gebruik die als het menu of je bron ont
 | Mochi | `.mochi` | Bestanden kiezen |
 | SuperMemo | `.xml` | Bestanden kiezen |
 | AlgoApp (voorheen AnkiApp) | `.zip` of `.xml` | Bestanden kiezen |
+| Gizmo | `.pdf` | Kies het bestand onder **Importeren uit Gizmo** |
 | Een andere app | `.csv`, `.txt`, `.xlsx`, `.pdf`, `.json`, `.xml`, `.md`, `.docx` of `.zip` | Kies bestanden onder **Importeren uit een andere app** |
 | Spreadsheet | Gekopieerde rijen met een voor- en achterkant per kaart | Plak de rijen onder **Importeren uit een spreadsheet** |
 | Nibomo | Een uit Nibomo geëxporteerd bestand `flashcards.zip` | Bekijk het voorbeeld onder **Importeren uit Nibomo** |
@@ -36,6 +37,8 @@ Sla een oud Excel-bestand met de extensie `.xls` eerst op als `.xlsx` of `.csv`.
 2. Ga in Nibomo naar **Bibliotheek > Importeren** en open de optie voor je app. Plak voor Quizlet de gekopieerde tekst. Kies voor andere bronnen de geëxporteerde bestanden. Heeft je app geen eigen optie maar heb je wel een ondersteund bestand, bijvoorbeeld een pdf, kies dan **Importeren uit een andere app**.
 3. Kies **Import starten**. Nibomo opent een nieuwe AI-chat en stuurt het importverzoek met je bestanden of geplakte tekst. Hiervoor heb je internet nodig. Elk bestand voor AI-import mag maximaal **30 MiB** groot zijn. Exporteer kleinere sets afzonderlijk als je bestand groter is.
 4. Controleer het resultaat in **Bibliotheek**. De AI-chat kan onderweg kaarten in groepen opslaan. Stopt de chat halverwege, kijk dan welke kaarten al in Nibomo staan en vraag de chat om verder te gaan met de rest voordat je de hele export opnieuw importeert.
+
+Open in Gizmo het menu met de drie puntjes bij je kaartenset en kies **Print**. Kies in het afdrukvenster van je browser **Save as PDF**. Ga in Nibomo naar **Bibliotheek > Importeren** en kies **Importeren uit Gizmo**. Selecteer de pdf en klik op **Import starten**. Vergelijk de opgeslagen kaarten in **Bibliotheek** met de pdf. Controleer het aantal kaarten en kijk of bij elke voorkant de juiste achterkant staat.
 
 ### Test eerst een kleine import
 

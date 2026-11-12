@@ -22,6 +22,7 @@ Die folgenden Optionen sind in der Web-App verfügbar. Wenn du das Menü oder di
 | Mochi | `.mochi` | Dateien auswählen |
 | SuperMemo | `.xml` | Dateien auswählen |
 | AlgoApp (früher AnkiApp) | `.zip` oder `.xml` | Dateien auswählen |
+| Gizmo | `.pdf` | Dateien auswählen |
 | Andere App | `.csv`, `.txt`, `.xlsx`, `.pdf`, `.json`, `.xml`, `.md`, `.docx` oder `.zip` | Wähle die Dateien unter **Aus einer anderen App importieren** aus |
 | Tabelle | Kopierte Zeilen mit je einer Vorder- und Rückseite pro Karte | Füge sie unter **Aus einer Tabelle importieren** ein |
 | Nibomo | Eine aus Nibomo exportierte Datei namens `flashcards.zip` | Prüfe die Vorschau unter **Aus Nibomo importieren** |
@@ -36,6 +37,8 @@ Wenn du eine ältere Excel-Datei im Format `.xls` hast, speichere sie vor dem Im
 2. Wähle in Nibomo **Bibliothek > Import** und öffne den passenden Eintrag. Füge bei Quizlet den kopierten Text ein. Wähle für andere Quellen die exportierte Datei oder die exportierten Dateien aus. Wenn deine App keinen eigenen Eintrag hat, aber ein unterstütztes Format wie PDF exportiert, wähle **Aus einer anderen App importieren**.
 3. Wähle **Import starten**. Nibomo öffnet einen neuen KI-Chat und sendet die Importanfrage mit den Dateien oder dem eingefügten Text. Dafür brauchst du eine Internetverbindung. Jede Datei darf beim KI-Import höchstens **30 MiB** groß sein. Ist sie größer, versuche, kleinere Decks oder Sets einzeln zu exportieren.
 4. Prüfe das Ergebnis in der **Bibliothek**. Der KI-Chat kann die Karten in mehreren Etappen speichern. Wenn er zwischendurch aufhört, sieh nach, welche Karten bereits in Nibomo sind, und bitte ihn, mit dem Rest fortzufahren, bevor du den gesamten Export erneut importierst.
+
+Öffne in Gizmo das Drei-Punkte-Menü des Decks und wähle **Print**, dann im Browser **Save as PDF**. Öffne in der Nibomo-Web-App **Bibliothek > Import > Aus Gizmo importieren**, wähle die PDF-Datei aus und klicke auf **Import starten**. Vergleiche die in der **Bibliothek** gespeicherten Karten mit der PDF-Datei. Prüfe die Anzahl der Karten und ob zu jeder Vorderseite die richtige Rückseite gehört.
 
 ### Probiere zuerst ein kleines Deck aus
 
