@@ -32,6 +32,21 @@
     "bytes": 2312102
   },
   {
+    "publicPath": "/blog/algoapp-to-nibomo.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/236e84b8aeeaa66b93f1e057b3c741b077691906e79d5332e98cb14aedf8d98c.webp",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "236e84b8aeeaa66b93f1e057b3c741b077691906e79d5332e98cb14aedf8d98c",
+    "bytes": 173726,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/e15865a03684e678f05aca6084bbbf34188a4116a19ff0b62a387ccde83f64e1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "e15865a03684e678f05aca6084bbbf34188a4116a19ff0b62a387ccde83f64e1",
+      "bytes": 2494296
+    }
+  },
+  {
     "publicPath": "/blog/amino-acid-charge-at-different-ph.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/a459ab31e04f9da296806b42585581e86e40f8845ff083ae7320525614fb02a6.png",
     "width": 1672,
