@@ -44,6 +44,10 @@ De snelste manier om te beginnen is de gehoste web-app:
 
 Voor de gehoste versie hoef je niets te installeren en geen server in te richten.
 
+## Neem je flashcards mee
+
+Heb je al kaarten in Quizlet, Anki of een andere app? Open **Bibliotheek > Importeren** en lees [hoe je flashcards importeert](/docs/import-flashcards/) om het juiste formaat te kiezen en te zien wat er meekomt.
+
 ## Agent instellen
 
 MCP-clients zoals Claude, ChatGPT en Cursor kunnen verbinden via de [handleiding voor de MCP-connector](/docs/mcp-connector/).

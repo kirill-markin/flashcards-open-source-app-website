@@ -44,6 +44,10 @@ Najszybciej zaczniesz w hostowanej aplikacji webowej:
 
 W wersji hostowanej nie musisz niczego instalować ani konfigurować serwera.
 
+## Przenieś swoje fiszki
+
+Masz już fiszki w Quizlet, Anki lub innej aplikacji? Otwórz **Biblioteka > Import** i zajrzyj do [instrukcji importowania fiszek](/docs/import-flashcards/), aby wybrać format i sprawdzić, co się przeniesie.
+
 ## Konfiguracja agenta
 
 Klienci MCP, tacy jak Claude, ChatGPT i Cursor, mogą się połączyć według [przewodnika po konektorze MCP](/docs/mcp-connector/).

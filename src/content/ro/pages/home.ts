@@ -111,7 +111,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Importă, exportă și deține datele tale",
           description:
-            "Mută-ți materialele de învățare oricând vrei. Exporturile portabile includ fișele, etichetele și fișierele media asociate.",
+            "Adu fișe din Quizlet, Anki și alte aplicații. Exportă oricând fișele, etichetele și fișierele media din Nibomo.",
+          link: {
+            label: "Vezi cum imporți fișele",
+            href: "/docs/import-flashcards/",
+          },
         },
         {
           title: "Funcționează cu agenți AI",

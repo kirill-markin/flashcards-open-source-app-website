@@ -46,6 +46,10 @@ O jeito mais rápido de começar é o app web hospedado:
 
 Nenhuma instalação ou configuração de servidor é necessária no caminho hospedado.
 
+## Traga seus cartões
+
+Já tem cartões no Quizlet, no Anki ou em outro app? Abra **Biblioteca > Importar** e consulte o [guia de importação de cartões](/docs/import-flashcards/) para escolher o formato certo e saber o que pode ser transferido.
+
 ## Configuração do agente
 
 Clientes MCP como Claude, ChatGPT e Cursor podem se conectar pelo [guia do conector MCP](/docs/mcp-connector/).

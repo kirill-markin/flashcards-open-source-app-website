@@ -167,6 +167,8 @@ O [guia de backup](https://mochi.cards/docs/getting-started/backing-up/) do Moch
 
 As [exportações para Markdown e CSV](https://mochi.cards/docs/import-and-export/exporting/) do Mochi são formatos de portabilidade. O Markdown cria um arquivo por cartão e pastas para os sub-baralhos, mas descarta histórico de revisões, ordem dos cartões, templates e tags de metadados, a não ser que as tags estejam no próprio Markdown. O CSV exporta os campos do template ou os lados de frente e verso já renderizados, porém não preserva histórico de revisões, templates nem tags de metadados, a não ser que estejam embutidos no conteúdo.
 
+No app web, **Biblioteca > Importar > Importar de Mochi** envia um arquivo `.mochi` ao chat de IA. Confira os cartões e as mídias que ele cria e guarde o arquivo original para restaurar modelos e o histórico de revisão no Mochi. Veja o [guia de importação](/docs/import-flashcards/).
+
 O Anki faz uma distinção parecida:
 
 - Um `.colpkg` exporta a coleção inteira com o agendamento e pode incluir mídia. Importar esse arquivo substitui os cartões da coleção de destino no Anki.

@@ -104,18 +104,13 @@ Para montar com segurança um arquivo CSV a partir do Quizlet:
 
 Uma planilha consegue adicionar as aspas que o CSV exige. Uma substituição geral de tabulação por vírgula não dá conta disso de forma confiável.
 
-## Leve o texto para o Nibomo como rascunho para revisar
+## Importe o texto para o Nibomo e confira os cartões
 
-O [Nibomo](/features/) não tem um importador direto do Quizlet. No app hospedado, o caminho para TXT ou CSV é criar rascunhos com ajuda da IA a partir de um arquivo anexado. Não é uma migração sem perdas.
+No app web do Nibomo, escolha **Biblioteca > Importar > Importar de Quizlet**. Cole o texto exportado do Quizlet e selecione **Iniciar importação**. O chat de IA pode salvar os cartões durante a importação. Compare a frente e o verso dos cartões salvos com o texto original. Comece com um conjunto pequeno se houver separadores incomuns ou definições com várias linhas.
 
-1. Mantenha o arquivo bruto do Quizlet fora do app.
-2. Anexe o TXT limpo ou o CSV que você preparou com cuidado no chat de IA do Nibomo.
-3. Diga ao assistente qual separador e quais campos o arquivo usa.
-4. Peça uma prévia pequena e deixe claro que ele ainda não deve salvar nenhum cartão.
-5. Compare com o arquivo de trabalho a quantidade de cartões proposta, as frentes e os versos.
-6. Salve só os cartões que você revisou.
+Se o texto já estiver organizado em duas colunas, cole-o em **Importar de uma planilha**, ajuste os separadores e confira a prévia antes de salvar. Você também pode anexar um TXT ou CSV diretamente ao chat de IA e pedir uma amostra antes que ele salve qualquer cartão.
 
-O [guia de primeiros passos](/docs/getting-started/) documenta o chat de IA com dados do espaço de trabalho e arquivos anexados. Um prompt cauteloso poderia ser:
+O [guia de importação](/docs/import-flashcards/) explica as opções. Este exemplo serve para um TXT separado por tabulação e anexado ao chat de IA. Se o arquivo usar vírgulas ou outro separador, indique no pedido o separador usado.
 
 > Leia este arquivo como pares de termo e definição separados por tabulação. Ainda não salve nenhum cartão. Prepare uma amostra pequena, preserve a redação original e os caracteres não latinos, e liste separadamente as linhas malformadas, vazias ou ambíguas em vez de adivinhar.
 

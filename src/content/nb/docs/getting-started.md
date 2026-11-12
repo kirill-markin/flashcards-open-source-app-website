@@ -44,6 +44,10 @@ Den raskeste måten å komme i gang på er den hostede nettappen:
 
 Den hostede varianten krever verken installasjon eller serveroppsett.
 
+## Ta med puggekortene dine
+
+Har du kort i Quizlet, Anki eller en annen app? Åpne **Bibliotek > Import** og bruk [veiledningen for kortimport](/docs/import-flashcards/) for å velge format og se hva som kan bli med.
+
 ## Oppsett for agenter
 
 MCP-klienter som Claude, ChatGPT og Cursor kan koble seg til via [veiledningen for MCP-koblingen](/docs/mcp-connector/).

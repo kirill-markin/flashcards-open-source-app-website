@@ -111,7 +111,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Importeren, exporteren en je data in eigen hand",
           description:
-            "Verplaats je leermateriaal wanneer je wilt naar binnen of naar buiten. Overdraagbare exports bevatten je kaarten, tags en bijbehorende media.",
+            "Neem kaarten mee uit Quizlet, Anki en andere apps. Exporteer je Nibomo-kaarten, tags en media wanneer je wilt.",
+          link: {
+            label: "Zo importeer je flashcards",
+            href: "/docs/import-flashcards/",
+          },
         },
         {
           title: "Werkt met AI-agents",

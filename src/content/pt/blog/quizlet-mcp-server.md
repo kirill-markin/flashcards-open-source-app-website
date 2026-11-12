@@ -86,7 +86,7 @@ Isso não transforma o Nibomo em um conector do Quizlet. O fluxo suportado é:
 
 1. exportar o texto de um conjunto do Quizlet criado por você;
 2. preservar o arquivo original e inspecionar uma cópia de trabalho;
-3. conferir os cartões mapeados antes de salvá-los no Nibomo; e
+3. No app web do Nibomo, abra **Biblioteca > Importar > Importar de Quizlet**, cole o texto exportado e inicie a importação com IA. Compare os cartões salvos com a fonte.
 4. conectar o espaço de trabalho resultante do Nibomo a um cliente compatível para futuras leituras e escritas.
 
 Para o Claude, os passos de conexão estão em [Como conectar o Nibomo ao Claude com MCP](/pt/blog/how-to-connect-flashcards-to-claude-with-mcp/). O Codex e outros agentes podem usar o caminho documentado de MCP ou da Agent API que seu ambiente suportar.

@@ -44,6 +44,10 @@ Cea mai rapidă cale de a începe este aplicația web găzduită:
 
 Varianta găzduită nu necesită nicio instalare și nicio configurare de server.
 
+## Adu-ți fișele de studiu
+
+Ai deja fișe în Quizlet, Anki sau altă aplicație? Deschide **Bibliotecă > Import** și consultă [ghidul de import al fișelor](/docs/import-flashcards/) ca să alegi formatul potrivit și să vezi ce se transferă.
+
 ## Configurarea agentului
 
 Clienții MCP precum Claude, ChatGPT și Cursor se pot conecta urmând [ghidul conectorului MCP](/docs/mcp-connector/).

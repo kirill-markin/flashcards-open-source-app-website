@@ -104,18 +104,13 @@ Pentru a crea în siguranță un fișier CSV din Quizlet:
 
 O aplicație de calcul tabelar poate adăuga ghilimelele cerute de CSV. Înlocuirea tuturor tabulatoarelor cu virgule nu poate face asta în mod fiabil.
 
-## Mută textul în Nibomo și verifică fișele propuse
+## Importă textul în Nibomo și verifică fișele
 
-[Nibomo](/ro/features/) nu are un importator direct pentru Quizlet. În versiunea găzduită, fișierele TXT sau CSV sunt folosite ca atașamente din care AI propune fișe; aceasta nu este o migrare fără pierderi.
+În aplicația web Nibomo, alege **Bibliotecă > Import > Importă din Quizlet**. Lipește textul exportat din Quizlet și alege **Pornește importul**. Chatul AI poate salva fișele pe parcurs. Compară fața și versoul fișelor salvate cu exportul. Începe cu un set mic dacă ai separatori neobișnuiți sau definiții pe mai multe rânduri.
 
-1. Păstrează fișierul Quizlet brut în afara aplicației.
-2. Atașează fișierul TXT curățat sau fișierul CSV pregătit cu atenție în conversația AI din Nibomo.
-3. Spune-i asistentului ce separator și ce câmpuri folosește fișierul.
-4. Cere o previzualizare cu câteva fișe și precizează explicit să nu le salveze încă.
-5. Compară numărul fișelor propuse și conținutul de pe fața și versoul lor cu fișierul de lucru.
-6. Salvează doar fișele pe care le-ai verificat.
+Dacă textul e deja aranjat în două coloane, lipește-l la **Importă dintr-o foaie de calcul**, alege separatorii și verifică previzualizarea înainte de salvare. Poți și să atașezi un fișier TXT sau CSV direct în chatul AI și să ceri un eșantion înainte de a salva fișele.
 
-[Ghidul de început](/docs/getting-started/) descrie conversația AI cu date din spațiul de lucru și fișiere atașate. O cerere prudentă ar putea fi:
+[Ghidul de import](/docs/import-flashcards/) explică opțiunile. Exemplul de mai jos este pentru un fișier TXT cu câmpuri separate prin tabulator, atașat în chatul AI. Dacă fișierul folosește virgule sau alt separator, precizează în cerere separatorul folosit.
 
 > Citește acest fișier ca perechi de termeni și definiții separate prin tabulator. Nu salva încă fișele. Propune un eșantion mic, păstrează formulările din sursă și caracterele nelatine și enumeră separat rândurile cu format greșit, goale sau ambigue, în loc să ghicești.
 

@@ -167,6 +167,8 @@ Chiar și când istoricul ajunge la destinație, nu te aștepta ca următoarele 
 
 [Exporturile Markdown și CSV](https://mochi.cards/docs/import-and-export/exporting/) din Mochi sunt concepute pentru transferul conținutului între aplicații. Markdown creează câte un fișier pentru fiecare card și directoare pentru subpachete, dar pierde istoricul recapitulărilor, ordinea cardurilor, șabloanele și etichetele din metadate, cu excepția etichetelor prezente în Markdown. CSV poate exporta câmpurile șabloanelor sau fețele și versourile așa cum sunt afișate, dar nu păstrează istoricul recapitulărilor, șabloanele sau etichetele din metadate, cu excepția etichetelor incluse în conținut.
 
+În aplicația web, **Bibliotecă > Import > Importă din Mochi** trimite un fișier `.mochi` în chatul AI. Verifică fișele și fișierele media create și păstrează originalul pentru a recupera șabloanele și istoricul recapitulărilor în Mochi. Consultă [ghidul de import](/docs/import-flashcards/).
+
 Anki face o distincție asemănătoare:
 
 - Un `.colpkg` exportă întreaga colecție cu programarea și poate include fișiere media. Importarea lui înlocuiește cardurile din colecția Anki de destinație.

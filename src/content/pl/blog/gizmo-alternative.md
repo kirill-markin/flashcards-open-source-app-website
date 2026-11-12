@@ -18,7 +18,7 @@ Jeśli chcesz za darmo zaimportować do Gizmo notatki z całego tygodnia, zapami
 
 Ta recenzja Gizmo opiera się na aktualnych oficjalnych stronach pomocy. Nie testowałem aplikacji osobiście, więc opisuję funkcje wyłącznie na podstawie jej dokumentacji i wyraźnie zaznaczam kwestie, których nie da się rozstrzygnąć.
 
-> **Informacja od autora:** Nazywam się Kirill Markin i tworzę [Nibomo](https://nibomo.com/), alternatywę porównywaną poniżej. Gizmo ma szerszy udokumentowany zakres funkcji: więcej formatów materiałów źródłowych, pięć typów fiszek, lekcje AI Tutor, zróżnicowane quizy i mechanizmy postępu przypominające grę. Nibomo celowo ma węższy zakres.
+> **Informacja od autora:** Nazywam się Kirill Markin i tworzę [Nibomo](https://nibomo.com/), alternatywę porównywaną poniżej. Gizmo ma szerszy udokumentowany zakres funkcji: więcej formatów materiałów źródłowych, siedem typów fiszek, lekcje AI Tutor, zróżnicowane quizy i mechanizmy postępu przypominające grę. Nibomo celowo ma węższy zakres.
 
 **Weryfikacja faktów:** 1 września 2026 r.
 
@@ -57,21 +57,21 @@ Do lekcji AI Tutor też można importować materiały. [Oficjalny poradnik impor
 
 Te dwie udokumentowane listy źródeł nie są identyczne. Anki, arkusze i strony internetowe pojawiają się w poradniku tworzenia fiszek; YouTube i istniejące talie Gizmo — w poradniku lekcji Tutor. Sprawdź opcje importu dla funkcji, której rzeczywiście potrzebujesz, zamiast zakładać, że oba menu przyjmują te same materiały.
 
-## Gizmo ma pięć typów fiszek
+## Gizmo ma siedem typów fiszek
 
-Aktualna [dokumentacja typów fiszek](https://help.gizmo.ai/en/articles/16527223-what-types-of-flashcards-can-i-make) Gizmo wymienia pięć formatów:
+Aktualna [dokumentacja typów fiszek](https://help.gizmo.ai/en/articles/16527223-what-types-of-flashcards-can-i-make) Gizmo wymienia siedem formatów:
 
 | Typ fiszki | Co sprawdza | Jak można ją utworzyć |
 | --- | --- | --- |
-| **Card text** (tekst) | Tekst lub LaTeX z wyróżnionymi słowami, o które pyta quiz, albo z opcjonalnym odsłanianiem awersu i rewersu | Ręcznie lub przez Magic Import |
-| **Multiple choice** (wielokrotny wybór) | Pytanie z wygenerowanymi wariantami odpowiedzi; podczas edycji można dodać błędne opcje | Ręcznie lub przez Magic Import |
-| **Matching** (dopasowywanie) | Pary, których elementy Gizmo miesza, a ty ponownie je łączysz | Tylko przez Magic Import |
-| **Ordering** (porządkowanie) | Elementy, które Gizmo miesza, a ty układasz je w odpowiedniej kolejności | Tylko przez Magic Import |
-| **True/False** (prawda/fałsz) | Stwierdzenie, które oceniasz jako prawdziwe lub fałszywe | Ręcznie lub przez Magic Import |
+| **Q&A** | Pytanie i odpowiedź z tekstem lub LaTeX-em | Ręcznie lub przez Magic Import |
+| **Multi-select** | Pytanie z co najmniej jedną prawidłową odpowiedzią | Ręcznie lub przez Magic Import |
+| **Fill the blanks** | Uzupełnianie brakujących słów w tekście | Ręcznie lub przez Magic Import |
+| **Match pairs** | Pary, których elementy Gizmo miesza, a ty ponownie je łączysz | Ręcznie lub przez Magic Import |
+| **Order items** | Elementy, które Gizmo miesza, a ty układasz je w odpowiedniej kolejności | Ręcznie lub przez Magic Import |
+| **True or False** | Stwierdzenie, które oceniasz jako prawdziwe lub fałszywe | Ręcznie lub przez Magic Import |
+| **Image question** | Odsłanianie etykiet na schemacie lub zdjęciu | Ręcznie |
 
-To więcej niż zwykła talia z awersem i rewersem. Magic Import nie jest też wyłącznie skrótem ułatwiającym pracę: obecnie Matching i Ordering można utworzyć tylko przez Magic Import.
-
-W dokumentacji występuje jedna sprzeczność, którą trzeba zaznaczyć. Strona o typach fiszek podaje, że Card text może zawierać obrazy na awersie i rewersie. Z kolei [poradnik zarządzania fiszkami](https://help.gizmo.ai/en/articles/13761411-how-do-i-edit-or-manage-my-cards) Gizmo mówi, że zdjęcia i obrazy można dodawać tylko na awersie. Jeśli obrazy na rewersie są dla ciebie ważne, sprawdź aktualny edytor, zanim zaczniesz budować talię. Te dwie oficjalne strony nie pozwalają udzielić pewniejszej odpowiedzi.
+W dokumentacji występuje jedna sprzeczność, którą trzeba zaznaczyć. Strona o typach fiszek podaje, że Q&A może zawierać obrazy na awersie i rewersie. Z kolei [poradnik zarządzania fiszkami](https://help.gizmo.ai/en/articles/13761411-how-do-i-edit-or-manage-my-cards) Gizmo mówi, że zdjęcia i obrazy można dodawać tylko na awersie. Jeśli obrazy na rewersie są dla ciebie ważne, sprawdź aktualny edytor, zanim zaczniesz budować talię. Te dwie oficjalne strony nie pozwalają udzielić pewniejszej odpowiedzi.
 
 Gizmo zaznacza też, że ustawienia quizu wpływają na wyświetlane style pytań. Zapisany format fiszki i sposób, w jaki quiz sprawdza jej treść, są powiązane, ale nie są tym samym.
 
@@ -97,11 +97,9 @@ Gizmo wprost zaleca przegląd talii po użyciu Magic Import i sugeruje dzielenie
 
 Ograniczenie pojawia się w trybie Memorise: możesz tam usunąć fiszkę, ale obecnie nie możesz jej edytować w trakcie quizu. Jeśli podczas nauki zauważysz błędną odpowiedź, musisz wyjść z quizu, żeby ją poprawić.
 
-### Eksport z Gizmo jest niedostępny
+### Drukowanie fiszek i zapis do PDF
 
-Ten sam oficjalny poradnik podaje, że eksport fiszek nie jest jeszcze dostępny. [Poradnik zarządzania taliami](https://help.gizmo.ai/en/articles/12995587-how-do-i-make-changes-to-my-decks) Gizmo mówi, że eksport talii również jest niedostępny.
-
-To najbardziej jednoznaczne ograniczenie kontroli nad danymi w obecnym sposobie pracy. Gizmo przyjmuje materiały z kilku innych systemów, ale obecnie nie udostępnia udokumentowanego sposobu wyeksportowania powstałych fiszek. Jeśli możliwość przyszłej migracji ma dla ciebie znaczenie, oceniaj produkt na podstawie dzisiejszego ograniczenia, a nie możliwości dodania eksportu później.
+Otwórz menu talii, wybierz **Print**, a w oknie drukowania przeglądarki wybierz **Save as PDF**. Gizmo opisuje [eksport do PDF](https://help.gizmo.ai/en/articles/18228622-how-do-i-export-print-or-download-my-cards-as-a-pdf) również dla talii utworzonych przez Gizmo. Zachowaj oryginalną talię, jeśli potrzebujesz interaktywnych pytań i historii powtórek.
 
 ### Dokumentacja nie wystarcza, by obiecać działanie offline
 
@@ -116,15 +114,15 @@ To rozróżnienie ma znaczenie, bo „załadowany ekran nadal reaguje” i „mo
 | Kryterium wyboru | Gizmo | Nibomo |
 | --- | --- | --- |
 | Główny punkt wyjścia | Fiszki tworzone ręcznie lub Magic Import z różnych materiałów do nauki | Ręczne lub wspomagane przez AI tworzenie konkretnych fiszek z awersem i rewersem |
-| Formaty fiszek | Card text, Multiple choice, Matching, Ordering i True/False | Fiszki z awersem i rewersem |
+| Formaty fiszek | Q&A, Multi-select, Fill the blanks, Match pairs, Order items, True or False, Image question | Fiszki z awersem i rewersem |
 | Nauka poza powtarzaniem fiszek | Lekcje AI Tutor, notatki i pytania oparte na materiale źródłowym | Tworzenie fiszek z pomocą AI; aktualne strony produktu nie opisują trybu lekcji Tutor |
 | Sposób powtarzania | Memorise, powtórki rozłożone w czasie i zróżnicowane style pytań | Powtórki rozłożone w czasie z FSRS |
 | Mechanizmy motywacyjne | XP, Levels, Leagues, Streaks, Hearts, Hints i Coins | Aktualne strony produktu nie opisują porównywalnych mechanizmów gry |
 | Potwierdzenie działania offline | W sprawdzonej dokumentacji nie znaleziono oficjalnej gwarancji działania offline | Nauka offline na urządzeniach mobilnych i automatyczna synchronizacja są udokumentowanymi funkcjami |
-| Możliwość wyeksportowania danych | Eksport fiszek i talii jest obecnie niedostępny | Eksport umożliwiający przenoszenie danych obejmuje fiszki, tagi i powiązane multimedia |
+| Możliwość wyeksportowania danych | Drukowanie talii lub zapis do PDF | Eksport umożliwiający przenoszenie danych obejmuje fiszki, tagi i powiązane multimedia |
 | Kontrola nad wdrożeniem | Sprawdzone oficjalne strony nie deklarują możliwości samodzielnego hostowania | Otwarty kod źródłowy i możliwość samodzielnego hostowania |
 
-Nibomo jest praktyczną alternatywą dla Gizmo tylko w węższym zakresie pokazanym w tej tabeli. Aktualna [strona funkcji](/pl/features/) opisuje FSRS, tworzenie fiszek z pomocą AI, naukę offline na urządzeniach mobilnych i synchronizację, eksport umożliwiający przenoszenie danych oraz samodzielne hostowanie. Nie opisuje odpowiednika Magic Import z pięcioma formatami fiszek, lekcji Tutor ani mechanizmów gry w Gizmo.
+Nibomo jest praktyczną alternatywą dla Gizmo tylko w węższym zakresie pokazanym w tej tabeli. Aktualna [strona funkcji](/pl/features/) opisuje FSRS, tworzenie fiszek z pomocą AI, naukę offline na urządzeniach mobilnych i synchronizację, eksport umożliwiający przenoszenie danych oraz samodzielne hostowanie.
 
 ## Kiedy Nibomo lepiej pasuje do twoich potrzeb
 
@@ -132,26 +130,24 @@ Wybierz Nibomo, jeśli chcesz zachować sprawdzoną fiszkę z awersem i rewersem
 
 Deklaracje dotyczące trybu offline i eksportu danych są tu bardziej jednoznaczne. Nibomo dokumentuje naukę offline na urządzeniach mobilnych z automatyczną synchronizacją, a jego [poradnik na początek](/pl/docs/getting-started/) wskazuje, że klient iOS używa lokalnej bazy SQLite i synchronizacji zaprojektowanej z myślą o pracy offline. Eksport obejmuje fiszki, tagi i powiązane multimedia oraz umożliwia przenoszenie danych między instalacją hostowaną a instalacją na własnym serwerze.
 
-Ten wybór oznacza jednak węższy zakres funkcji. Aktualne strony Nibomo nie opisują odpowiedników menu importu Gizmo, pięciu typów fiszek, lekcji prowadzonych przez Tutor ani systemu nagród. Jeśli to właśnie te funkcje rozwiązują problem, z którym tu trafiasz, Gizmo prawdopodobnie będzie lepszym wyborem.
+Gizmo sprawdzi się lepiej, jeśli korzystasz z interaktywnych typów pytań, lekcji Tutor lub nagród.
 
 ## Czy można przenieść się z Gizmo do innej aplikacji?
 
-Obecnie nie da się tego zrobić w prosty sposób. Ponieważ eksport z Gizmo jest niedostępny, nie ma standardowej migracji opartej na plikach z Gizmo do Nibomo ani innej aplikacji.
+Użyj PDF-u jako materiału źródłowego do nowych fiszek. W aplikacji webowej Nibomo wybierz **Biblioteka > Import > Importuj z innej aplikacji** i wskaż plik PDF. Trafi do czatu AI. W tym przeglądzie nie testowałem przenoszenia PDF-u z Gizmo. Porównaj wynik z oryginałem. Zobacz [instrukcję importowania](/docs/import-flashcards/).
 
-Bezpieczne obejście wymaga ręcznej pracy i selekcji:
+Pytania zależne od interaktywnych formatów Gizmo odtwórz w razie potrzeby ręcznie.
 
 1. Miej pod ręką oryginalny wykład, notatki, slajdy lub inny materiał źródłowy.
 2. Odtwórz tylko te fiszki, które nadal są poprawne i przydatne.
 3. Przeredaguj niejasne pytania zamiast kopiować każdą wygenerowaną fiszkę.
 4. Załóż, że wyróżnienia Gizmo, kontekst Tutor, historia planowania powtórek, XP i pozostałe postępy zostaną w Gizmo.
 
-To wolniejsze niż użycie importera i nie pozwala zachować wszystkiego. Ma jednak przydatny efekt uboczny: przenosisz tylko fiszki, które przeszły kontrolę jakości.
-
-Inną opcją jest korzystanie z obu aplikacji. Gizmo może pomóc rozpracować wykład lub prezentację i zapewnić różnorodne ćwiczenia. Nibomo może przechowywać mniejszy zestaw sprawdzonych fiszek z awersem i rewersem do powtórek z FSRS. Przenoszenie między nimi nadal odbywa się ręcznie, bo Gizmo nie eksportuje fiszek.
+Inną opcją jest korzystanie z obu aplikacji. Gizmo może pomóc rozpracować wykład lub prezentację i zapewnić różnorodne ćwiczenia. Nibomo może przechowywać mniejszy zestaw sprawdzonych fiszek z awersem i rewersem do powtórek z FSRS.
 
 ## Który sposób nauki pasuje do ciebie?
 
-Wybierz Gizmo, jeśli zaczynasz od nieuporządkowanych materiałów i chcesz, żeby aplikacja wstępnie przygotowała je do nauki. Jego udokumentowane mocne strony to różnorodność źródeł, pięć typów fiszek, nauka prowadzona przez Tutor, zróżnicowane quizy i mechanizmy postępu.
+Wybierz Gizmo, jeśli zaczynasz od nieuporządkowanych materiałów i chcesz, żeby aplikacja wstępnie przygotowała je do nauki. Jego udokumentowane mocne strony to różnorodność źródeł, siedem typów fiszek, nauka prowadzona przez Tutor, zróżnicowane quizy i mechanizmy postępu.
 
 Wybierz Nibomo, jeśli już wiesz, co warto utrwalić na fiszce z awersem i rewersem, a FSRS, udokumentowana nauka offline na urządzeniach mobilnych, eksport lub samodzielne hostowanie są dla ciebie ważniejsze niż różnorodność quizów i nagrody.
 

@@ -19,7 +19,7 @@ To ustalenie dotyczy publicznej dokumentacji Quizlet, a nie jego wewnętrznych s
 
 **Fakty sprawdzone:** 18 sierpnia 2026 r.
 
-> **Informacja o autorze:** Nazywam się Kirill Markin i tworzę Nibomo, którego Agent API i serwer MCP przedstawiam poniżej jako alternatywy. Nibomo nie jest kompatybilne z Quizlet i nie importuje automatycznie zestawów Quizlet.
+> **Informacja o autorze:** Nazywam się Kirill Markin i tworzę Nibomo, którego Agent API i serwer MCP przedstawiam poniżej jako alternatywy. API Nibomo działa na własnych obszarach roboczych. Przenoszenie zestawu z Quizlet zaczyna się od eksportu z Quizlet.
 
 ![Programista porównuje eksport Quizlet, osadzanie zestawów, konkretne integracje i udokumentowane API do fiszek](/blog/quizlet-api.png)
 
@@ -95,7 +95,7 @@ Obie drogi ograniczają dostęp do wybranego obszaru roboczego. Udostępnione za
 
 Może to pomóc programiście lub agentowi AI zautomatyzować pracę z własnymi fiszkami. Nie umożliwia pobrania danych z adresu URL Quizlet, odwzorowania konta Quizlet ani działania jako nieudokumentowany klient Quizlet. Nie ma automatycznego importera Quizlet. Przy migracji najpierw wyeksportuj pojęcia i definicje z własnego zestawu, sprawdź tekst, a następnie przyporządkuj go do pól fiszek w systemie docelowym. System docelowy tworzy własny stan nauki; historia z Quizlet nie zostaje przeniesiona.
 
-Różnice między produktami poza dostępem do API opisuje [porównanie alternatywy dla Quizlet z otwartym kodem źródłowym](/blog/quizlet-alternative/).
+Te interfejsy pozwalają automatyzować pracę w obszarze roboczym Nibomo. Aby jednorazowo przenieść zestaw z Quizlet, wyeksportuj pojęcia i definicje z samodzielnie utworzonego zestawu. Opcja **Biblioteka > Import > Importuj z aplikacji Quizlet** w aplikacji webowej Nibomo przesyła wklejony tekst do czatu AI, który tworzy fiszki z nowym harmonogramem. Sprawdź je przed użyciem API. [Instrukcja eksportu z Quizlet](/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/).
 
 ## Prywatne żądania przeglądarki nie są bezpiecznym skrótem
 

@@ -104,18 +104,13 @@ Aby bezpiecznie przygotować plik CSV z Quizlet:
 
 Arkusz kalkulacyjny może dodać cudzysłowy wymagane przez CSV. Samo zastąpienie wszystkich tabulatorów przecinkami nie gwarantuje poprawnego wyniku.
 
-## Przenieś tekst do Nibomo jako materiał do przygotowania i sprawdzenia kart
+## Zaimportuj tekst do Nibomo i sprawdź fiszki
 
-[Nibomo](/pl/features/) nie ma bezpośredniego importera Quizlet. W wersji dostępnej online pliki TXT lub CSV można załączyć, by AI przygotowała propozycje kart. Nie jest to bezstratna migracja.
+W aplikacji webowej Nibomo wybierz **Biblioteka > Import > Importuj z aplikacji Quizlet**. Wklej tekst skopiowany z eksportu Quizlet i kliknij **Rozpocznij import**. Czat AI może od razu zapisywać fiszki. Porównaj obie strony zapisanych fiszek z eksportem. Zacznij od małego zestawu, jeśli zawiera nietypowe separatory lub wielowierszowe definicje.
 
-1. Zachowaj surowy plik z Quizlet poza aplikacją.
-2. Załącz uporządkowany TXT lub świadomie przygotowany CSV na czacie AI w Nibomo.
-3. Powiedz asystentowi, jakich separatorów i pól używa plik.
-4. Poproś o małą próbkę i wyraźnie zaznacz, żeby jeszcze nie zapisywał kart.
-5. Porównaj proponowaną liczbę kart oraz ich przody i tyły z plikiem roboczym.
-6. Zapisz tylko sprawdzone karty.
+Jeśli masz uporządkowany tekst w dwóch kolumnach, wklej go w sekcji **Importuj z arkusza kalkulacyjnego**, dopasuj separatory i sprawdź podgląd przed zapisaniem. Możesz też załączyć plik TXT lub CSV bezpośrednio w czacie AI i poprosić o próbkę przed zapisem.
 
-[Przewodnik na początek](/docs/getting-started/) opisuje czat AI korzystający z danych obszaru roboczego i załączników. Ostrożnie sformułowane polecenie może wyglądać tak:
+W [instrukcji importowania](/docs/import-flashcards/) znajdziesz wszystkie dostępne metody. To przykładowe polecenie dotyczy pliku TXT z tabulatorami, załączonego w czacie AI. Jeśli plik używa przecinków lub innego separatora, podaj w poleceniu właściwy separator.
 
 > Odczytaj ten plik jako pary pojęcie–definicja rozdzielone tabulatorami. Jeszcze nie zapisuj kart. Przygotuj małą próbkę, zachowaj oryginalne brzmienie i znaki spoza alfabetu łacińskiego, a nieprawidłowe, puste lub niejednoznaczne wiersze wypisz osobno, zamiast zgadywać.
 

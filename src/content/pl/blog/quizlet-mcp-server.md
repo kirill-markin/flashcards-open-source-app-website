@@ -86,7 +86,7 @@ Nie czyni to z Nibomo konektora do Quizlet. Obsługiwany proces wygląda tak:
 
 1. wyeksportuj tekst z zestawu Quizlet własnego autorstwa;
 2. zachowaj oryginalny plik i sprawdź kopię roboczą;
-3. przejrzyj fiszki po przypisaniu danych do pól, zanim zapiszesz je w Nibomo;
+3. W aplikacji webowej Nibomo wybierz **Biblioteka > Import > Importuj z aplikacji Quizlet**, wklej tekst i uruchom import przez AI. Porównaj zapisane fiszki z eksportem.
 4. połącz powstałą przestrzeń roboczą Nibomo ze zgodnym klientem, aby umożliwić przyszłe odczyty i zapisy.
 
 Kroki konfiguracji konektora dla Claude znajdziesz w artykule [Jak połączyć Nibomo z Claude przez MCP](/blog/how-to-connect-flashcards-to-claude-with-mcp/). Codex i inni agenci mogą korzystać z udokumentowanej ścieżki MCP lub Agent API, którą obsługuje ich środowisko.

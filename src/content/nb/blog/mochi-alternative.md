@@ -167,6 +167,8 @@ Mochis [veiledning for sikkerhetskopiering](https://mochi.cards/docs/getting-sta
 
 Mochis [Markdown- og CSV-eksporter](https://mochi.cards/docs/import-and-export/exporting/) er formater for å flytte innhold. Markdown lager én fil per kort og mapper for underkortstokker, men utelater repetisjonshistorikk, kortrekkefølge, maler og metadataetiketter, med mindre etikettene står i Markdown-teksten. CSV kan eksportere malfelt eller ferdig gjengitte forsider og baksider, men bevarer ikke repetisjonshistorikk eller maler. Metadataetiketter bevares bare hvis de er innebygd i innholdet.
 
+I nettappen sender **Bibliotek > Import > Importer fra Mochi** en `.mochi`-fil til KI-chat. Sjekk kortene og mediene den oppretter, og behold originalfilen for å gjenopprette maler og repetisjonshistorikk i Mochi. Se [importveiledningen](/docs/import-flashcards/).
+
 Anki skiller på en lignende måte:
 
 - En `.colpkg` eksporterer hele samlingen med repetisjonsplanlegging og kan inkludere mediefiler. Import erstatter kortene i Anki-samlingen du importerer til.

@@ -111,7 +111,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Importe, exporte e seja dono dos seus dados",
           description:
-            "Leve seu material de estudo para dentro ou para fora quando quiser. As exportações portáteis incluem seus cartões, tags e as mídias relacionadas.",
+            "Traga seus cartões do Quizlet, do Anki e de outros apps. Exporte seus cartões, tags e mídias do Nibomo quando quiser.",
+          link: {
+            label: "Veja como importar cartões",
+            href: "/docs/import-flashcards/",
+          },
         },
         {
           title: "Funciona com agentes de IA",

@@ -19,7 +19,7 @@ Dit is een bevinding over de openbare documentatie van Quizlet, geen uitspraak o
 
 **Feiten gecontroleerd:** 18 augustus 2026.
 
-> **Transparantie:** ik ben Kirill Markin en ik bouw Nibomo. De Agent API en MCP-server van Nibomo worden hieronder als alternatieven genoemd. Nibomo is niet compatibel met Quizlet en importeert Quizlet-sets niet automatisch.
+> **Transparantie:** ik ben Kirill Markin en ik bouw Nibomo. De Agent API en MCP-server van Nibomo worden hieronder als alternatieven genoemd. De API van Nibomo werkt met eigen werkruimtes. Een Quizlet-set overzetten begint met een export vanuit Quizlet.
 
 ![Ontwikkelaar die export en insluiting van Quizlet-sets, specifieke integraties en een gedocumenteerde flashcard-API vergelijkt](/blog/quizlet-api.png)
 
@@ -95,7 +95,7 @@ Beide manieren beperken de toegang tot de gekozen werkruimte. De gepubliceerde r
 
 Dit kan een ontwikkelaar of AI-agent helpen eigen flashcards te automatiseren. Via deze interfaces kun je geen Quizlet-URL uitlezen, een Quizlet-account spiegelen of als ongedocumenteerde Quizlet-client werken. Er is geen automatische Quizlet-importfunctie. Exporteer voor een migratie eerst de begrippen en definities uit je eigen set, controleer de tekst en koppel die daarna aan de kaartvelden van de doelapp. De doelapp maakt haar eigen leerstatus aan; de Quizlet-geschiedenis komt niet mee.
 
-Voor productverschillen buiten API-toegang kun je de [vergelijking met een opensource-alternatief voor Quizlet](/blog/quizlet-alternative/) bekijken.
+Met deze interfaces automatiseer je taken in een Nibomo-werkruimte. Voor een eenmalige overstap exporteer je eerst begrippen en definities uit een Quizlet-set die je zelf hebt gemaakt. **Bibliotheek > Importeren > Importeren uit Quizlet** in de web-app van Nibomo stuurt die tekst naar de AI-chat en maakt kaarten met een nieuw herhaalschema. Controleer de kaarten voordat je ze via de API gebruikt. [Handleiding voor export uit Quizlet](/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/).
 
 ## Niet-openbare browserverzoeken zijn geen veilige omweg
 

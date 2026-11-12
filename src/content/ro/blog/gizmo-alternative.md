@@ -18,7 +18,7 @@ Dacă vrei să imporți gratuit în Gizmo toate notițele dintr-o săptămână,
 
 Această recenzie a cardurilor de învățare Gizmo se bazează pe paginile oficiale de ajutor disponibile în prezent. Nu am testat personal Gizmo, așa că voi limita afirmațiile despre produs la ceea ce documentează Gizmo și voi preciza ce rămâne incert.
 
-> **Declarație de interese:** Sunt Kirill Markin și dezvolt [Nibomo](https://nibomo.com/ro/), alternativa comparată mai jos. Conform documentației, Gizmo oferă un mod de lucru mai amplu: mai multe formate de surse, cinci tipuri de carduri, lecții AI Tutor, teste variate și un sistem de progres de tip joc. Nibomo se concentrează intenționat pe mai puține funcții.
+> **Declarație de interese:** Sunt Kirill Markin și dezvolt [Nibomo](https://nibomo.com/ro/), alternativa comparată mai jos. Conform documentației, Gizmo oferă un mod de lucru mai amplu: mai multe formate de surse, șapte tipuri de carduri, lecții AI Tutor, teste variate și un sistem de progres de tip joc. Nibomo se concentrează intenționat pe mai puține funcții.
 
 **Informații verificate:** 1 septembrie 2026.
 
@@ -57,21 +57,21 @@ AI Tutor permite un import similar. [Ghidul oficial pentru importul materialelor
 
 Cele două liste de surse documentate nu sunt identice. Anki, foile de calcul și site-urile apar în ghidul pentru crearea cardurilor; YouTube și pachetele Gizmo existente apar în ghidul pentru lecțiile Tutor. Verifică varianta de care ai nevoie, fără să presupui că fiecare tip de material este disponibil în ambele meniuri.
 
-## Gizmo are cinci tipuri de carduri
+## Gizmo are șapte tipuri de carduri
 
-[Documentația actuală Gizmo despre tipurile de carduri](https://help.gizmo.ai/en/articles/16527223-what-types-of-flashcards-can-i-make) enumeră cinci formate:
+[Documentația actuală Gizmo despre tipurile de carduri](https://help.gizmo.ai/en/articles/16527223-what-types-of-flashcards-can-i-make) enumeră șapte formate:
 
 | Tip de card | Ce testează | Cum poate fi creat |
 | --- | --- | --- |
-| **Card text** (Card cu text) | Text sau LaTeX, cu termeni evidențiați folosiți în întrebări ori cu afișarea opțională a feței și a versoului | Manual sau cu Magic Import |
-| **Multiple choice** (Alegere multiplă) | O întrebare cu variante de răspuns generate; poți adăuga variante greșite la editare | Manual sau cu Magic Import |
-| **Matching** (Asociere) | Perechi pe care Gizmo le amestecă pentru ca tu să le asociezi din nou | Doar cu Magic Import |
-| **Ordering** (Ordonare) | Elemente pe care Gizmo le amestecă pentru ca tu să le pui din nou în ordine | Doar cu Magic Import |
-| **True/False** (Adevărat/Fals) | O afirmație pe care o consideri adevărată sau falsă | Manual sau cu Magic Import |
+| **Q&A** | Întrebare și răspuns cu text sau LaTeX | Manual sau cu Magic Import |
+| **Multi-select** | O întrebare cu una sau mai multe variante corecte | Manual sau cu Magic Import |
+| **Fill the blanks** | Completarea cuvintelor care lipsesc dintr-un text | Manual sau cu Magic Import |
+| **Match pairs** | Perechi pe care Gizmo le amestecă pentru ca tu să le asociezi din nou | Manual sau cu Magic Import |
+| **Order items** | Elemente pe care Gizmo le amestecă pentru ca tu să le pui din nou în ordine | Manual sau cu Magic Import |
+| **True or False** | O afirmație pe care o consideri adevărată sau falsă | Manual sau cu Magic Import |
+| **Image question** | Identificarea etichetelor pe o diagramă sau fotografie | Manual |
 
-Oferta este mai amplă decât un pachet simplu cu față și verso, iar Magic Import nu este doar o scurtătură: în prezent, Matching și Ordering sunt disponibile numai prin Magic Import.
-
-Trebuie semnalată o contradicție în documentație. Pagina despre tipurile de carduri spune că Card text poate include imagini pe față și pe verso. [Ghidul Gizmo pentru gestionarea cardurilor](https://help.gizmo.ai/en/articles/13761411-how-do-i-edit-or-manage-my-cards) spune că fotografiile și imaginile pot fi adăugate doar pe față. Dacă imaginile de pe verso contează pentru tine, verifică editorul actual înainte să construiești pachetul. Cele două pagini oficiale nu permit o concluzie mai sigură.
+Trebuie semnalată o contradicție în documentație. Pagina despre tipurile de carduri spune că Q&A poate include imagini pe față și pe verso. [Ghidul Gizmo pentru gestionarea cardurilor](https://help.gizmo.ai/en/articles/13761411-how-do-i-edit-or-manage-my-cards) spune că fotografiile și imaginile pot fi adăugate doar pe față. Dacă imaginile de pe verso contează pentru tine, verifică editorul actual înainte să construiești pachetul. Cele două pagini oficiale nu permit o concluzie mai sigură.
 
 Gizmo precizează și că setările testelor influențează stilurile de întrebări pe care le vezi. Formatul în care este stocat un card și felul în care un test îți verifică cunoștințele pe baza lui sunt legate, dar nu sunt identice.
 
@@ -97,11 +97,9 @@ Gizmo recomandă explicit verificarea unui pachet după Magic Import și sugerea
 
 Limita apare în Memorise: poți șterge un card acolo, dar momentan nu îl poți edita în timpul testului. Dacă observi un răspuns greșit în timp ce studiezi, trebuie să ieși din acel mod ca să îl corectezi.
 
-### Exportul din Gizmo nu este disponibil
+### Tipărește fișele sau salvează-le în format PDF
 
-Același ghid oficial spune că exportul cardurilor nu este disponibil încă. [Ghidul Gizmo pentru gestionarea pachetelor](https://help.gizmo.ai/en/articles/12995587-how-do-i-make-changes-to-my-decks) spune că nici exportul pachetelor nu este disponibil.
-
-Aceasta este cea mai clară limită privind controlul asupra datelor în modul actual de lucru. Gizmo acceptă materiale din mai multe alte sisteme, dar în prezent nu oferă o metodă documentată de a scoate cardurile rezultate din aplicație. Dacă o migrare viitoare contează, evaluează produsul pe baza acestei limite actuale, nu a posibilității ca exportul să apară mai târziu.
+Deschide meniul setului, alege **Print**, apoi selectează **Save as PDF** în fereastra de imprimare a browserului. Gizmo documentează [exportul în PDF](https://help.gizmo.ai/en/articles/18228622-how-do-i-export-print-or-download-my-cards-as-a-pdf) inclusiv pentru seturile create de Gizmo. Păstrează setul original pentru întrebările interactive și istoricul recapitulărilor.
 
 ### Utilizarea offline nu este documentată suficient de clar pentru a fi promisă
 
@@ -116,15 +114,15 @@ Distincția contează, deoarece „un ecran deja încărcat răspunde în contin
 | Criteriu | Gizmo | Nibomo |
 | --- | --- | --- |
 | Punctul principal de pornire | Carduri create manual sau Magic Import din surse de studiu variate | Crearea manuală sau asistată de AI a unor carduri cu față și verso, cu un conținut bine delimitat |
-| Formate de carduri | Card text, Multiple choice, Matching, Ordering și True/False | Carduri cu față și verso |
+| Formate de carduri | Q&A, Multi-select, Fill the blanks, Match pairs, Order items, True or False, Image question | Carduri cu față și verso |
 | Lecții și explicații pe baza pachetului | Lecții AI Tutor, notițe și întrebări bazate pe sursă | Crearea cardurilor cu ajutorul AI; paginile actuale ale produsului nu documentează un mod de lecții Tutor |
 | Stil de recapitulare | Memorise, repetiție spațiată și stiluri variate de întrebări | Repetiție spațiată FSRS |
 | Mecanisme de motivare | XP, Levels, Leagues, Streaks, Hearts, Hints și Coins | Paginile actuale ale produsului nu documentează un sistem de joc comparabil |
 | Dovezi despre utilizarea offline | Nu am găsit o garanție oficială de funcționare offline în documentația consultată | Studiul offline pe mobil și sincronizarea automată sunt funcții documentate |
-| Scoaterea datelor din aplicație | Exportul cardurilor și al pachetelor nu este disponibil în prezent | Exporturile portabile includ carduri, etichete și fișierele media asociate |
+| Scoaterea datelor din aplicație | Tipărirea setului sau salvarea în PDF | Exporturile portabile includ carduri, etichete și fișierele media asociate |
 | Controlul asupra găzduirii | Paginile oficiale consultate nu afirmă că produsul poate fi găzduit pe cont propriu | Open source și cu posibilitate de găzduire proprie |
 
-Nibomo este o alternativă practică la Gizmo doar pentru nevoile mai restrânse din acest tabel. [Pagina actuală de funcții](/ro/features/) documentează FSRS, crearea cardurilor cu ajutorul AI, studiul offline pe mobil și sincronizarea, exporturile portabile și găzduirea proprie. Nu descrie un echivalent pentru Magic Import cu cinci formate, lecțiile Tutor sau sistemul de joc din Gizmo.
+Nibomo este o alternativă practică la Gizmo doar pentru nevoile mai restrânse din acest tabel. [Pagina actuală de funcții](/ro/features/) documentează FSRS, crearea cardurilor cu ajutorul AI, studiul offline pe mobil și sincronizarea, exporturile portabile și găzduirea proprie.
 
 ## Când ți se potrivește mai bine Nibomo
 
@@ -132,26 +130,24 @@ Alege Nibomo când vrei să păstrezi un card verificat, cu față și verso. Î
 
 Afirmațiile sale despre utilizarea offline și scoaterea datelor din aplicație sunt mai explicite. Nibomo documentează studiul offline pe mobil cu sincronizare automată, iar [ghidul de început](/ro/docs/getting-started/) precizează că aplicația iOS folosește o bază locală SQLite și sincronizare care pornește de la datele locale (offline-first). Exporturile portabile includ carduri, etichete și fișierele media asociate, inclusiv pentru transferuri între instalări găzduite de serviciu și instalări găzduite pe cont propriu.
 
-În schimb, gama de funcții este mai restrânsă. Paginile actuale Nibomo nu documentează meniul de import din Gizmo, cele cinci tipuri de carduri, lecțiile ghidate de Tutor sau sistemul de recompense. Dacă aceste funcții rezolvă problema care te-a adus aici, probabil că Gizmo ți se potrivește mai bine.
+Gizmo se potrivește mai bine dacă ai nevoie de întrebări interactive, lecții Tutor sau recompense.
 
 ## Poți trece de la Gizmo la altă aplicație?
 
-În prezent, nu există o metodă simplă. Deoarece exportul din Gizmo nu este disponibil, nu poți face o migrare obișnuită prin fișiere din Gizmo în Nibomo sau în altă aplicație.
+Folosește PDF-ul ca sursă pentru fișe noi. În aplicația web Nibomo alege **Bibliotecă > Import > Importă din altă aplicație** și selectează fișierul PDF. Fișierul ajunge în chatul AI. Recenzia nu a testat transferul unui PDF din Gizmo. Compară fișele noi cu originalul. Consultă [ghidul de import](/docs/import-flashcards/).
 
-Soluția practică sigură este manuală și selectivă:
+Refă manual întrebările care depind de formatele interactive Gizmo.
 
 1. Păstrează la îndemână cursul, notițele, diapozitivele sau alt material-sursă original.
 2. Recreează doar cardurile care sunt încă exacte și utile.
 3. Rescrie întrebările vagi în loc să copiezi fiecare card generat.
 4. Așteaptă-te ca termenii evidențiați în Gizmo, contextul Tutor, istoricul programării recapitulărilor, XP și restul progresului să rămână în Gizmo.
 
-Procesul este mai lent decât un import automat și nu păstrează totul. Un avantaj al acestei verificări este că transferi doar cardurile care trec de controlul calității.
-
-O altă variantă este să folosești ambele aplicații. Gizmo poate explica un curs sau o prezentare și poate oferi exerciții variate. Nibomo poate păstra un set mai mic de carduri verificate, cu față și verso, pentru recapitularea cu FSRS. Transferul rămâne manual, deoarece Gizmo nu exportă cardurile.
+O altă variantă este să folosești ambele aplicații. Gizmo poate explica un curs sau o prezentare și poate oferi exerciții variate. Nibomo poate păstra un set mai mic de carduri verificate, cu față și verso, pentru recapitularea cu FSRS.
 
 ## Ce mod de lucru ți se potrivește?
 
-Alege Gizmo când pornești de la materiale dezordonate și vrei ca aplicația să construiască o primă structură de studiu. Punctele sale forte documentate sunt varietatea surselor, cele cinci tipuri de carduri, studiul ghidat de Tutor, testele variate și mecanismele de progres.
+Alege Gizmo când pornești de la materiale dezordonate și vrei ca aplicația să construiască o primă structură de studiu. Punctele sale forte documentate sunt varietatea surselor, cele șapte tipuri de carduri, studiul ghidat de Tutor, testele variate și mecanismele de progres.
 
 Alege Nibomo când știi deja ce merită păstrat pe termen lung într-un card cu față și verso și când FSRS, funcția documentată de studiu offline pe mobil, exportul sau găzduirea proprie contează mai mult pentru tine decât varietatea testelor și recompensele.
 
