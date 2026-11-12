@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1ru~1blog~1spaced-repetition-vs-cramming.md"
 title: "Интервальное повторение или зубрёжка: что лучше для экзаменов в 2026 году?"
 description: "Интервальное повторение надёжнее зубрёжки для долгого запоминания. Подготовка в последний момент тоже может помочь — составьте реалистичный план к экзамену."
 date: "2026-07-20"

@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1ar~1blog~1how-to-turn-microsoft-copilot-study-and-learn-into-flashcards.md"
 title: "كيف تحوّل Microsoft Copilot Study and Learn إلى بطاقات تعليمية في 2026: احتفِظ بالمعلّم وراجع باستخدام FSRS"
 description: "استخدم Microsoft Copilot Study and Learn مع ملفات Word وPowerPoint وPDF وروابطك الدراسية، ثم انقل فقط نقاط الضعف إلى Nibomo حتى تراجعها بالتكرار المتباعد عبر FSRS."
 date: "2026-06-09"

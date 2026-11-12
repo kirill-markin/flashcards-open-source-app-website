@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1ru~1blog~1how-to-use-flashcards-for-ap-biology.md"
 title: "Как использовать карточки для AP Biology в 2026 году: клетки, FRQ и данные, которые действительно запоминаются"
 description: "Нужен практичный подход к карточкам для AP Biology в 2026 году? Вот как учить процессы, эксперименты, глаголы в FRQ и темы с наибольшим весом перед гибридным цифровым экзаменом 4 мая 2026 года."
 date: "2026-04-30"

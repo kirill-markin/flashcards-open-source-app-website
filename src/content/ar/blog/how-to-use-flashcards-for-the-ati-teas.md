@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1ar~1blog~1how-to-use-flashcards-for-the-ati-teas.md"
 title: "كيف تستخدم البطاقات التعليمية لاختبار ATI TEAS في 2026: سير عمل عملي لمذاكرة TEAS 7"
 description: "هل تستعد لاختبار ATI TEAS في 2026؟ إليك سير عمل عملي لاستخدام بطاقات TEAS 7 في العلوم والرياضيات والقراءة واللغة الإنجليزية، مع تحويل أخطاء اختبارات التدريب إلى مراجعة فعالة من دون أن تتحول مجموعتك إلى دليل دراسي ثانٍ."
 image: "/blog/how-to-use-flashcards-for-the-ati-teas.png"

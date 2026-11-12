@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1en~1blog~1how-to-use-flashcards-for-anatomy.md"
 title: "How to Use Flashcards for Anatomy in 2026: Lab Practicals, Labels, and Spaced Repetition That Actually Sticks"
 description: "A practical anatomy flashcards workflow for lab practicals, cadaver pins, labeled structures, and image-heavy review with AI cleanup plus FSRS."
 date: "2026-05-17"

@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1hi~1blog~1how-to-use-flashcards-for-pharmacology.md"
 title: "2026 में Pharmacology के लिए Flashcards कैसे इस्तेमाल करें: Drug Classes, Side Effects और वे Medication Confusions जो सच में टिकें"
 description: "2026 में pharmacology flashcards के लिए practical workflow चाहिए? यहाँ drug classes, mechanisms, adverse effects, contraindications और common medication mix-ups को FSRS के साथ पढ़ने का तरीका है, बिना हर drug को paragraph card बनाए।"
 date: "2026-06-29"

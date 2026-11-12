@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1ar~1blog~1medical-terminology-flashcards.md"
 title: "بطاقات المصطلحات الطبية في 2026: الجذور والسوابق واللواحق"
 description: "أنشئ بطاقات للمصطلحات الطبية تشمل الجذور والسوابق واللواحق والمصطلحات الكاملة والاختصارات، وفق طريقة عملية ومدققة بالمصادر في 2026."
 date: "2026-08-09"

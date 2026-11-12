@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1ar~1blog~1brainscape-alternative.md"
 title: "بديل Brainscape في 2026: مقارنة Brainscape وNibomo"
 description: "مقارنة بين Brainscape وNibomo من حيث التكرار القائم على مستوى الثقة مقابل FSRS، والعمل دون اتصال، وتطبيقات الجوال، والتعاون، والذكاء الاصطناعي، والأسعار، والاستيراد، والتصدير، والملكية."
 date: "2026-03-21"

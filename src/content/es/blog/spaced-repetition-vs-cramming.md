@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1es~1blog~1spaced-repetition-vs-cramming.md"
 title: "Repetición espaciada vs. estudio de última hora en 2026: ¿qué funciona mejor para los exámenes?"
 description: "La repetición espaciada ofrece mejor retención a largo plazo que el estudio intensivo. Descubre cuándo puede ayudar repasar a última hora y cómo crear un plan realista para un examen."
 date: "2026-07-20"

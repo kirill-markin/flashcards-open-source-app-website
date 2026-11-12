@@ -61,7 +61,7 @@ La **simulación de la carga de trabajo** estima qué podría ocurrir según un 
 | Te has atrasado tras una importación grande o varias sesiones perdidas | Revisa cuántas tarjetas añades y los repasos pendientes junto con la elección del planificador |
 | Estás creando un pequeño planificador con fines educativos | El SM-2 original sirve para enseñar las reglas de intervalos basadas en la facilidad |
 
-Los consejos sobre exámenes y repasos pendientes responden a un criterio práctico, no a conclusiones de un ensayo sobre planificadores. Tu limitación inmediata puede ser la cantidad de material que has añadido. Para ese problema, empieza por [por qué se acumulan los repasos de Anki](/es/blog/why-are-there-so-many-anki-reviews/).
+Los consejos sobre exámenes y repasos pendientes responden a un criterio práctico, no a conclusiones de un ensayo sobre planificadores. Si la cola creció después de una importación, limita primero las tarjetas nuevas y observa cuántos repasos pendientes puedes completar al día antes de tocar el planificador.
 
 ## Cambia sin reorganizar todos los repasos pendientes
 

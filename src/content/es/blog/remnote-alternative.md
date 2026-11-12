@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1es~1blog~1remnote-alternative.md"
 title: "Alternativas a RemNote en 2026: opciones gratuitas y de código abierto"
 description: "Compara las alternativas a RemNote según cómo gestionan notas, PDF y tarjetas, su precio y el autoalojamiento. Descubre qué puedes migrar, qué se pierde y cómo ensayar un cambio seguro."
 date: "2026-03-19"

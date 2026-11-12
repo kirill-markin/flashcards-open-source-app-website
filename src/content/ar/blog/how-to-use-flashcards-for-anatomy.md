@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1ar~1blog~1how-to-use-flashcards-for-anatomy.md"
 title: "كيف تستخدم البطاقات التعليمية لدراسة التشريح في 2026: العملي المخبري، والتسميات، وتكرار متباعد يثبت فعلًا"
 description: "سير عمل عملي لبطاقات التشريح التعليمية للعملي المخبري، ودبابيس الجثث، والبنى المعلَّمة، والمراجعة المعتمدة على الصور، مع تنقيح بالذكاء الاصطناعي وFSRS."
 date: "2026-05-17"

@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1de~1blog~1music-theory-flashcards.md"
 title: "Musiktheorie-Flashcards 2026: Noten, Intervalle, Tonarten und Akkorde"
 description: "Erstelle Musiktheorie-Flashcards für Noten, Intervalle, Tonartvorzeichnungen und Akkorde – mit korrekt notierten Antworten und einer praxistauglichen Lernroutine."
 date: "2026-08-04"

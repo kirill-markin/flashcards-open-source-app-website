@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1en~1blog~1medical-terminology-flashcards.md"
 title: "Medical Terminology Flashcards in 2026: Roots, Prefixes, and Suffixes"
 description: "Build medical terminology flashcards for roots, prefixes, suffixes, full terms, and abbreviations with a practical, source-checked study workflow in 2026."
 date: "2026-08-09"

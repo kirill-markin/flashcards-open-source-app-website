@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1ja~1blog~1gizmo-alternative.md"
 title: "Gizmoフラッシュカードをレビュー（2026年）：無料版の制限、Magic Import、代替アプリ"
 description: "Gizmoフラッシュカードを公式情報に基づいてレビュー。Magic Import無料版の待ち時間、AI Tutor、カード形式、エクスポート、オフライン利用の根拠、実用的な代替アプリを解説します。"
 date: "2026-08-03"

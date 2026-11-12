@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1ru~1blog~1ham-radio-technician-flashcards.md"
 title: "Карточки для экзамена Ham Radio Technician в 2026 году: новый пул вопросов"
 description: "Как составить карточки по пулу NCVEC Technician 2026–2030, разобраться в темах, проработать ошибки в пробных тестах и подготовиться к экзамену из 35 вопросов."
 date: "2026-07-25"

@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1ar~1blog~1gizmo-alternative.md"
 title: "مراجعة بطاقات Gizmo التعليمية (2026): حدود الخطة المجانية وMagic Import والبدائل"
 description: "مراجعة موثقة بالمصادر لبطاقات Gizmo، تتناول مهلة Magic Import في الخطة المجانية وAI Tutor وأنواع البطاقات والتصدير وأدلة العمل دون اتصال وبديلًا عمليًا."
 date: "2026-08-03"

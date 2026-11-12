@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1ar~1blog~1anki-vs-flashcards-open-source-app.md"
 title: "Anki مقابل Nibomo (2026): أي تطبيق ينبغي أن تستخدم؟"
 description: "قارن بين Anki وNibomo من حيث FSRS، والعمل دون اتصال، وتطبيقات الجوال، والذكاء الاصطناعي، ونقل البيانات، والاستضافة الذاتية، والتحكم في بياناتك قبل أن تنتقل."
 date: "2026-04-25"

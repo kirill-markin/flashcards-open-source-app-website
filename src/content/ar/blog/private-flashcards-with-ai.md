@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1ar~1blog~1private-flashcards-with-ai.md"
 title: "بطاقات تعليمية خاصة في 2026: كيف تذاكر بالذكاء الاصطناعي من دون أن تتنازل عن السيطرة"
 description: "تعرّف كيف تحافظ على خصوصية بطاقاتك التعليمية في 2026 عبر تكرار متباعد مفتوح المصدر يعمل بلا اتصال أولًا، مع ذكاء اصطناعي اختياري ومسار واضح للاستضافة الذاتية."
 date: "2026-06-30"

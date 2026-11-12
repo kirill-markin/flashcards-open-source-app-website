@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1hi~1blog~1how-to-use-chatgpt-voice-for-language-learning.md"
 title: "2026 में Language Learning के लिए ChatGPT Voice का उपयोग कैसे करें: Speaking Practice को ऐसे Flashcards में बदलें जो सच में टिकें"
 description: "क्या आप 2026 में language learning के लिए ChatGPT Voice इस्तेमाल कर रहे हैं? यहाँ practical workflow है: छोटे speaking sessions करें, corrected phrases save करें, और अपनी गलतियों को ऐसे flashcards में बदलें जिन्हें आप FSRS के साथ review कर सकें।"
 date: "2026-04-06"

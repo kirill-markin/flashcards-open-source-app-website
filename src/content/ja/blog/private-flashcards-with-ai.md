@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1ja~1blog~1private-flashcards-with-ai.md"
 title: "2026年版 プライベートなフラッシュカード: 主導権を手放さずにAIで学ぶ方法"
 description: "2026年にフラッシュカードをプライベートに保つには何が必要か。オープンソース、オフラインファーストの間隔反復、任意利用のAI、セルフホストの選択肢まで含めて整理します。"
 date: "2026-06-30"

@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1es~1blog~1how-to-use-flashcards-for-the-ielts.md"
 title: "Cómo usar flashcards para el IELTS en 2026: mejores tarjetas para vocabulario, speaking, writing y listening"
 description: "¿Te preparas para el IELTS en 2026? Usa un sistema práctico de flashcards para vocabulario en contexto, cue cards de Speaking, patrones de Writing, paráfrasis de Listening y errores de práctica oficial con ayuda de IA y repaso con FSRS."
 date: "2026-07-06"

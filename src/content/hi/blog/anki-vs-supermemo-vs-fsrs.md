@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1hi~1blog~1anki-vs-supermemo-vs-fsrs.md"
 title: "Anki बनाम SuperMemo बनाम FSRS (2026): ये क्या हैं और किसे चुनें"
 description: "Anki बनाम SuperMemo बनाम FSRS को साफ़ तौर पर समझें: Anki, SuperMemo के दो मौजूदा products, FSRS scheduler और review ratings की तुलना करें और अपने workflow के लिए सही विकल्प चुनें।"
 date: "2026-08-03"

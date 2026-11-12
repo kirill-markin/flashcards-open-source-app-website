@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1es~1blog~1toefl-flashcards.md"
 title: "Tarjetas de estudio para el TOEFL en 2026: vocabulario, nuevos tipos de tareas del iBT y errores en simulacros"
 description: "Crea tarjetas de estudio para el nuevo TOEFL iBT de 2026 con vocabulario, patrones de frases, tipos de tareas y errores verificados en la práctica oficial. Repásalas con FSRS, no con mazos obsoletos."
 date: "2026-07-16"

@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1de~1blog~1how-to-use-flashcards-for-the-ged.md"
 title: "Wie du 2026 Flashcards für den GED nutzt: Mathe, RLA, Science und Social Studies, die wirklich im Kopf bleiben"
 description: "Du suchst 2026 nach GED-Flashcards? Hier ist ein praktischer Workflow für Mathe, RLA, Science und Social Studies mit falsch beantworteten Fragen, KI-Nachbearbeitung und FSRS-Wiederholung."
 image: "/blog/how-to-use-flashcards-for-the-ged.png"

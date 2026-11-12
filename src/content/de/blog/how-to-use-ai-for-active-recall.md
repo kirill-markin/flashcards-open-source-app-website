@@ -144,7 +144,7 @@ Ich will behalten:
 
 Alles andere kann im Chatverlauf bleiben.
 
-Genau deshalb landen auch produktspezifische Tutor-Workflows am Ende an fast derselben Stelle. Ob die Sitzung in ChatGPT Study Mode, [Gemini Guided Learning](/de/blog/gemini-guided-learning-to-flashcards/) oder einem anderen tutorartigen Tool beginnt: Der Teil, den es sich zu behalten lohnt, ist immer dieselbe kurze Liste von Schwachstellen.
+Ob du mit dem Lernmodus von ChatGPT, Gemini Guided Learning oder einem anderen KI-Tutor lernst: Halte am Ende nur fest, an welchen Punkten du hängen geblieben bist.
 
 ## Die besten Karten bewahren den Fehler, nicht die polierte Erklärung
 

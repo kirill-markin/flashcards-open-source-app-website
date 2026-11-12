@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1ar~1blog~1how-to-use-flashcards-for-security-plus.md"
 title: "كيف تستخدم البطاقات التعليمية لاختبار CompTIA Security+ في 2026: SY0-701 وPBQs والمنافذ والاختصارات التي ترسخ فعلًا"
 description: "هل تستعد لاختبار CompTIA Security+ SY0-701 في 2026؟ استخدم سير عمل عمليًا بالبطاقات التعليمية للتعامل مع PBQs والمنافذ والاختصارات والأسئلة التي أخطأت فيها باستخدام FSRS."
 date: "2026-05-03"

@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1de~1blog~1how-to-use-flashcards-for-pharmacology.md"
 title: "Wie du 2026 Flashcards für Pharmakologie nutzt: Wirkstoffklassen, Nebenwirkungen und Medikamentenverwechslungen, die wirklich hängen bleiben"
 description: "Du suchst 2026 einen praktischen Flashcard-Workflow für Pharmakologie? Hier erfährst du, wie du Wirkstoffklassen, Mechanismen, Nebenwirkungen, Kontraindikationen und typische Medikamentenverwechslungen mit FSRS lernst, ohne aus jedem Medikament eine Absatzkarte zu machen."
 date: "2026-06-29"

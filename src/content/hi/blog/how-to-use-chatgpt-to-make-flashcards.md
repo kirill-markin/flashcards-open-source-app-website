@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1hi~1blog~1how-to-use-chatgpt-to-make-flashcards.md"
 title: "2026 में ChatGPT से फ़्लैशकार्ड कैसे बनाएँ: नोट्स से रिव्यू के लिए तैयार डेक तक"
 description: "नोट्स या फ़ाइलों से ChatGPT की मदद से फ़्लैशकार्ड बनाना, हर संभावित कार्ड की जाँच करना, कमज़ोर कार्ड हटाना और बचे हुए कार्ड स्पेस्ड रिपिटिशन में ले जाना सीखें।"
 date: "2026-03-25"

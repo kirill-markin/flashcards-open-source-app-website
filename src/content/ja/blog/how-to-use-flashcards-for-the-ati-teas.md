@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1ja~1blog~1how-to-use-flashcards-for-the-ati-teas.md"
 title: "2026年のATI TEASでフラッシュカードを使う方法: 実践的なTEAS 7学習フロー"
 description: "2026年にATI TEASを受けるなら、科学・数学・読解・英語、そして模試の取りこぼしに合わせた実践的なTEAS 7フラッシュカード運用が有効です。デッキを第二の参考書にしないための進め方をまとめました。"
 image: "/blog/how-to-use-flashcards-for-the-ati-teas.png"

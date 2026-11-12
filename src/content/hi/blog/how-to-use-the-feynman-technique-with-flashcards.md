@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1hi~1blog~1how-to-use-the-feynman-technique-with-flashcards.md"
 title: "2026 में Flashcards के साथ Feynman Technique कैसे इस्तेमाल करें: आसान भाषा में समझाइए, फिर FSRS पर छोड़ दीजिए"
 description: "2026 में Feynman technique का एक practical workflow: topic को आसान भाषा में समझाइए, सिर्फ़ कमज़ोर हिस्सों को छोटे flashcards में बदलिए, और follow-up FSRS पर छोड़ दीजिए।"
 date: "2026-06-20"

@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1ja~1blog~1how-to-memorize-a-speech-with-flashcards.md"
 title: "フラッシュカードでスピーチを暗記する方法（2026年版）：台本ではなく手がかりで覚える"
 description: "フラッシュカードでスピーチを暗記する方法を解説します。アウトラインを練習用カードの手がかりに変え、ランダムなセクションから練習し、通しリハーサルで話し方を仕上げます。"
 date: "2026-07-30"

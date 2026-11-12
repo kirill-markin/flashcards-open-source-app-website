@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1de~1blog~1how-to-use-flashcards-for-advanced-chemistry.md"
 title: "Wie du 2026 mit Flashcards für fortgeschrittene Chemie lernst: Gleichungen, Laborlogik und Fehlerkorrektur"
 description: "Ein praktischer Flashcard-Workflow für fortgeschrittene Chemie: Gleichungen, Gleichgewichte, Säuren und Basen, Laborauswertung und Fehler in ausführlichen Antworten – ohne ein zweites Lehrbuch zu bauen."
 image: "/blog/how-to-use-flashcards-for-advanced-chemistry.png"

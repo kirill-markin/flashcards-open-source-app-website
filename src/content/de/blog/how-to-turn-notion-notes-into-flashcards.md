@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1de~1blog~1how-to-turn-notion-notes-into-flashcards.md"
 title: "Wie du 2026 Notion-Notizen in Flashcards verwandelst: exportieren, mit KI entwerfen und mit FSRS lernen"
 description: "Du willst Notion-Notizen in Flashcards verwandeln, ohne jeden Toggle manuell in eine Lern-App zu kopieren? Hier ist ein praktischer Workflow für 2026: Seite exportieren, mit KI saubere Karten entwerfen und anschließend mit FSRS lernen."
 date: "2026-03-29"

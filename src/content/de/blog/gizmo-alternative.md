@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1de~1blog~1gizmo-alternative.md"
 title: "Gizmo-Lernkarten im Test (2026): Gratis-Limits, Magic Import und Alternativen"
 description: "Quellengeprüfter Test der Gizmo-Lernkarten: Wartezeit für Magic Import im Gratis-Tarif, AI Tutor, Kartentypen, Export, Offline-Belege und eine praktische Alternative."
 date: "2026-08-03"

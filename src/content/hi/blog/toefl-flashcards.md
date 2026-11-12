@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1hi~1blog~1toefl-flashcards.md"
 title: "2026 में TOEFL Flashcards: Vocabulary, नए iBT Task Types और Practice-Test की गलतियाँ"
 description: "नए 2026 iBT के लिए TOEFL flashcards बनाएँ: vocabulary, sentence patterns, task types और official practice में हुई गलतियों के cards को FSRS से review करें—पुराने decks के भरोसे न रहें।"
 date: "2026-07-16"

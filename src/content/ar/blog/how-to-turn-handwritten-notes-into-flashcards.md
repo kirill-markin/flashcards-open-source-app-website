@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1ar~1blog~1how-to-turn-handwritten-notes-into-flashcards.md"
 title: "كيفية تحويل الملاحظات المكتوبة بخط اليد إلى بطاقات Flashcards في 2026: صور وOCR وصياغة بالذكاء الاصطناعي من دون إعادة كتابة كل شيء"
 description: "هل تريد تحويل الملاحظات المكتوبة بخط اليد إلى بطاقات Flashcards في 2026؟ إليك سير عمل عملي: صوّر الملاحظات، ودع الذكاء الاصطناعي ينسخ النص وينظفه، ثم حوّل أفضل الأفكار فقط إلى بطاقات وراجعها باستخدام FSRS."
 date: "2026-03-27"
