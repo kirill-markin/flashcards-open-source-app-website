@@ -65,11 +65,11 @@ Gizmo praegune [kaarditüüpide dokumentatsioon](https://help.gizmo.ai/en/articl
 | --- | --- | --- |
 | **Card text** ehk tekstikaart | Tekst või LaTeX: küsimusi esitatakse esiletõstetud sõnade kohta või kuvatakse soovi korral kaardi esi- ja tagakülg | Käsitsi või Magic Importiga |
 | **Multiple choice** ehk valikvastustega kaart | Küsimus automaatselt loodud vastusevariantidega; redigeerides saad lisada valesid vastusevariante | Käsitsi või Magic Importiga |
-| **Matching** ehk paaride sobitamine | Paarid, mille Gizmo segab, et saaksid need uuesti kokku viia | Ainult Magic Importiga |
-| **Ordering** ehk järjestamine | Elemendid, mille Gizmo segab, et saaksid õige järjekorra taastada | Ainult Magic Importiga |
+| **Matching** ehk paaride sobitamine | Paarid, mille Gizmo segab, et saaksid need uuesti kokku viia | Käsitsi või Magic Importiga |
+| **Ordering** ehk järjestamine | Elemendid, mille Gizmo segab, et saaksid õige järjekorra taastada | Käsitsi või Magic Importiga |
 | **True/False** ehk õige/vale | Väide, mille puhul otsustad, kas see on õige või vale | Käsitsi või Magic Importiga |
 
-See pakub rohkem võimalusi kui tavaline esi- ja tagaküljega kaardipakk. Magic Import pole ainult viis aega säästa: Matching- ja Ordering-kaarte saab praegu luua üksnes selle kaudu.
+Paaride sobitamise ja järjestamise kaarte saad luua käsitsi või Magic Importiga.
 
 Dokumentatsioonis on üks vastuolu, millele tasub tähelepanu pöörata. Kaarditüüpide leht ütleb, et Card text võib sisaldada pilte esi- ja tagaküljel. Gizmo [kaartide haldamise juhendi](https://help.gizmo.ai/en/articles/13761411-how-do-i-edit-or-manage-my-cards) järgi saab fotosid ja pilte lisada ainult esiküljele. Kui tagakülje pildid on olulised, kontrolli praegust redaktorit enne kaardipaki loomist. Need kaks ametlikku lehte ei anna alust kindlamaks vastuseks.
 
@@ -97,11 +97,9 @@ Gizmo [kaartide haldamise juhendi](https://help.gizmo.ai/en/articles/13761411-ho
 
 Piirang ilmneb Memorise'i kasutamisel: seal saab kaardi kustutada, kuid praegu ei saa seda keset testi muuta. Kui märkad õppimise ajal halba vastust, pead selle parandamiseks testist väljuma.
 
-### Gizmost eksportida ei saa
+### Gizmo kaarte saab printida või PDF-ina salvestada
 
-Sama ametliku juhendi järgi pole kaartide eksport veel saadaval. Gizmo [kaardipakkide haldamise juhend](https://help.gizmo.ai/en/articles/12995587-how-do-i-make-changes-to-my-decks) ütleb, et ka kaardipakkide eksport pole saadaval.
-
-See on praeguse töövoo kõige selgem piirang oma andmete haldamisel. Gizmo võtab materjali vastu mitmest teisest süsteemist, kuid praegu puudub dokumenteeritud viis saadud kaardid sealt uuesti välja võtta. Kui edasine üleviimine on oluline, hinda toodet selle praeguse piirangu järgi, mitte lootuses, et eksport lisatakse hiljem.
+Ava kaardipaki menüü, vali **Print** ja salvesta fail brauseri printimisaknas PDF-ina. Vaata [Gizmo PDF-ekspordi juhendit](https://help.gizmo.ai/en/articles/18228622-how-do-i-export-print-or-download-my-cards-as-a-pdf). Hoia algne pakk alles, kui tahad kaarte hiljem muuta või kordamisajalugu säilitada.
 
 ### Võrguühenduseta kasutus pole piisavalt selgelt dokumenteeritud, et seda lubada
 
@@ -121,7 +119,7 @@ See eristus on oluline, sest „laaditud ekraan reageerib endiselt” ja „minu
 | Kordamise viis | Memorise, hajutatud kordamine ja mitmesugused küsimusestiilid | FSRS-il põhinev hajutatud kordamine |
 | Motivatsioonisüsteem | XP, Levels, Leagues, Streaks, Hearts, Hints ja Coins | Praegustel tootelehtedel pole dokumenteeritud võrreldavat mängulist süsteemi |
 | Tõendid võrguühenduseta kasutuse kohta | Kontrollitud dokumentatsioonis puudus ametlik kinnitus võrguühenduseta kasutuse kohta | Mobiilne võrguühenduseta õppimine ja automaatne sünkroonimine on dokumenteeritud funktsioonid |
-| Andmete väljaviimine | Kaartide ja kaardipakkide eksport pole praegu saadaval | Teisaldatavad eksportfailid sisaldavad kaarte, silte ja seotud meediat |
+| Andmete väljaviimine | Paki printimine või PDF-ina salvestamine | Teisaldatavad eksportfailid sisaldavad kaarte, silte ja seotud meediat |
 | Kontroll majutamise üle | Kontrollitud ametlikel lehtedel puudub kinnitus ise majutamise võimaluse kohta | Avatud lähtekoodiga ja ise majutatav |
 
 Nibomo on praktiline Gizmo alternatiiv ainult selle tabeli kitsama töövoo puhul. Selle praegune [funktsioonide leht](/et/features/) dokumenteerib FSRS-i, kaartide loomise tehisaru abiga, mobiilset võrguühenduseta õppimist ja sünkroonimist, teisaldatavaid eksportfaile ning ise majutamist. See ei kirjelda vastet Gizmo viit vormingut toetavale Magic Importile, Tutori õppetundidele ega mängulisele süsteemile.
@@ -136,9 +134,9 @@ Kompromiss on võimaluste ulatus. Nibomo praegused lehed ei dokumenteeri Gizmo i
 
 ## Kas Gizmost saab teise rakendusse üle minna?
 
-Praegu mitte sujuvalt. Kuna Gizmost eksportida ei saa, puudub tavapärane failipõhine üleviimise võimalus Gizmost Nibomosse või mõnda teise rakendusse.
+Ava Nibomo veebirakenduses **Teek → Importimine → Impordi teisest rakendusest** ja vali PDF, millest AI saab uusi kaarte luua. Selle ülevaate jaoks ei proovitud Gizmo PDF-i üleviimist. Võrdle loodud kaarte algse pakiga. Vaata [impordijuhendit](/docs/import-flashcards/).
 
-Turvaline lahendus on käsitsi ja valikuliselt kaarte uuesti luua:
+Gizmo interaktiivset vormingut vajavad küsimused loo vajaduse järgi uuesti:
 
 1. Hoia algne loeng, märkmed, slaidid või muu allikas käepärast.
 2. Loo uuesti ainult need kaardid, mis on endiselt õiged ja kasulikud.
@@ -147,7 +145,7 @@ Turvaline lahendus on käsitsi ja valikuliselt kaarte uuesti luua:
 
 See on aeglasem kui importija kasutamine ja osa andmeid läheb kaotsi. Kasulik kõrvalmõju on see, et võtad kaasa ainult kaardid, mis läbivad kvaliteedikontrolli.
 
-Teine võimalus on kasutada mõlemat rakendust. Gizmo võib aidata loengu või esitluse läbi töötada ning pakkuda mitmekesist harjutamist. Nibomos saad hoida väiksemat hulka kontrollitud esi- ja tagaküljega kaarte FSRS-iga kordamiseks. Kaarte tuleb nende vahel käsitsi üle viia, sest Gizmo kaarte ei ekspordi.
+Teine võimalus on kasutada mõlemat rakendust. Gizmo võib aidata loengu või esitluse läbi töötada ning pakkuda mitmekesist harjutamist. Nibomos saad hoida väiksemat hulka kontrollitud esi- ja tagaküljega kaarte FSRS-iga kordamiseks.
 
 ## Milline töövoog sulle sobib?
 

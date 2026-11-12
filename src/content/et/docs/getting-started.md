@@ -44,6 +44,10 @@ Kiireim viis alustamiseks on majutatud veebirakendus:
 
 Majutatud variandi puhul ei pea midagi paigaldama ega serverit seadistama.
 
+## Too oma õppekaardid kaasa
+
+Kas sul on juba kaarte Quizletis, Ankis või mõnes muus rakenduses? Ava **Teek > Importimine** ja vaata [kaartide importimise juhendist](/docs/import-flashcards/), millist vormingut valida ja mis üle tuleb.
+
 ## Agendi seadistamine
 
 MCP-kliendid, näiteks Claude, ChatGPT ja Cursor, saavad ühenduda [MCP-konnektori juhendi](/docs/mcp-connector/) abil.

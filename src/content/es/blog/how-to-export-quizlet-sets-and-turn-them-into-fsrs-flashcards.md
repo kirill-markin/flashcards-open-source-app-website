@@ -104,9 +104,11 @@ Para crear de forma segura un archivo CSV a partir de Quizlet:
 
 Una hoja de cálculo puede añadir las comillas que necesita el CSV. Una sustitución global de tabulaciones por comas no puede hacerlo de forma fiable.
 
-## Usa el texto en Nibomo como borrador para revisar
+## Importa el texto de Quizlet en Nibomo
 
-[Nibomo](/features/) no tiene un importador directo de Quizlet. En la aplicación alojada, los archivos TXT o CSV se pueden adjuntar al chat con IA para preparar un borrador. No es una migración sin pérdidas.
+En la app web de Nibomo, abre **Biblioteca → Importar → Importar desde Quizlet** y pega el texto exportado. **Iniciar importación** envía el texto al chat con IA, que puede guardar las tarjetas directamente. Compáralas con el texto original. Para ver una vista previa de los pares antes de guardar, usa **Importar desde una hoja de cálculo**. Consulta la [guía de importación](/docs/import-flashcards/).
+
+Si prefieres pedirle a la IA un borrador antes de guardar nada, sigue estos pasos:
 
 1. Conserva el archivo original de Quizlet fuera de la aplicación.
 2. Adjunta al chat con IA de Nibomo el TXT limpio o el CSV que hayas preparado con cuidado.

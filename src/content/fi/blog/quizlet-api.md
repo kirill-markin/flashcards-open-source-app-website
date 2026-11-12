@@ -19,7 +19,7 @@ Tämä havainto koskee Quizletin julkista dokumentaatiota, ei sen sisäisiä jä
 
 **Tiedot tarkistettu:** 18.8.2026.
 
-> **Sidonnaisuus:** Olen Kirill Markin ja kehitän Nibomoa, jonka Agent API ja MCP-palvelin esitellään jäljempänä vaihtoehtoina. Nibomo ei ole yhteensopiva Quizletin kanssa eikä tuo Quizlet-korttisarjoja automaattisesti.
+> **Sidonnaisuus:** Olen Kirill Markin ja kehitän Nibomoa, jonka Agent API ja MCP-palvelin esitellään jäljempänä vaihtoehtoina. Agent API ja MCP-palvelin toimivat Nibomon työtilassa. Jos haluat siirtää kortteja Quizletista, vie ensin oman sarjasi teksti.
 
 ![Kehittäjä vertailee Quizletin vientitoimintoa, upotuksia, tuotekohtaisia integraatioita ja dokumentoitua muistikorttirajapintaa](/blog/quizlet-api.png)
 
@@ -93,7 +93,7 @@ Nibomo julkaisee kaksi tapaa käyttää samoja rajattuja, käyttäjäkohtaisia t
 
 Molemmat tavat on rajattu valittuun työtilaan. Julkaistut resurssit ovat `workspace`, `cards`, `decks` ja `review_events`, ja tuloksia palautetaan enintään 100 riviä lausetta kohden. SQL-tyyppinen rajapinta tukee rajattua SQL-murretta eikä anna suoraa pääsyä PostgreSQL:ään. OpenAPI-skeemaa ei ole, joten automaattisesti generoituihin OpenAPI-asiakaskirjastoihin perustuvat työnkulut tarvitsevat toisen rajapinnan.
 
-Tämä voi auttaa kehittäjää tai tekoälyagenttia automatisoimaan omien muistikorttiensa käsittelyä. Rajapinta ei voi lukea korttisarjaa Quizlet-osoitteesta, peilata Quizlet-tiliä eikä toimia dokumentoimattomana Quizlet-asiakkaana. Automaattista Quizlet-tuontia ei ole. Jos haluat siirtää korttisi, vie ensin oman korttisarjasi termit ja määritelmät, tarkista teksti ja sovita tiedot sitten kohdejärjestelmän korttikenttiin. Kohdejärjestelmä luo omat opiskelun seurantatietonsa; Quizletin historia ei siirry mukana.
+Tämä voi auttaa kehittäjää tai tekoälyagenttia automatisoimaan omien muistikorttiensa käsittelyä. Rajapinta ei voi lukea korttisarjaa Quizlet-osoitteesta, peilata Quizlet-tiliä eikä toimia dokumentoimattomana Quizlet-asiakkaana. Liitä viety teksti verkkosovelluksen Quizlet-tuontiin. Tekoäly luo siitä uudet kortit. Tarkista tallennetut kortit.
 
 Muita tuote-eroja käsitellään [avoimen lähdekoodin Quizlet-vaihtoehdon vertailussa](/blog/quizlet-alternative/).
 

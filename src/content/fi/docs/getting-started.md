@@ -44,6 +44,10 @@ Nopein tapa aloittaa on isännöity verkkosovellus:
 
 Isännöity vaihtoehto ei vaadi asennusta eikä palvelimen määrittämistä.
 
+## Tuo muistikorttisi mukana
+
+Onko sinulla jo kortteja Quizletissa, Ankissa tai muussa sovelluksessa? Avaa **Kirjasto > Tuonti** ja katso [muistikorttien tuontioppaasta](/docs/import-flashcards/), mikä tiedostomuoto sopii ja mitä tietoja siirtyy.
+
 ## Agentin käyttöönotto
 
 MCP-asiakkaat, kuten Claude, ChatGPT ja Cursor, voivat muodostaa yhteyden [MCP-liittimen oppaan](/docs/mcp-connector/) avulla.

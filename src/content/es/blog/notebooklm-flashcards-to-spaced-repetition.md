@@ -137,11 +137,13 @@ El producto ya admite:
 
 Entonces, el camino desde **NotebookLM a las tarjetas didácticas** es sencillo:
 
-1. copiar o exportar las tarjetas NotebookLM
-2. envíalos al chat de Nibomo AI como texto
-3. Solicite tarjetas anverso/reverso más cortas y limpias
-4. cree las tarjetas finales solo después de que el texto parezca correcto
-5. revíselos con FSRS en lugar de dejarlos dentro de un cuaderno fuente
+1. Descarga el CSV desde el visor de tarjetas de NotebookLM si la opción está disponible. Algunas restricciones de las fuentes pueden impedir la descarga. Consulta la [ayuda de Google](https://support.google.com/notebooklm/answer/16958963?hl=es).
+2. Abre un chat nuevo con IA en Nibomo y adjunta el CSV o pega el texto de las tarjetas.
+3. Pídele al chat una vista previa de tarjetas más breves, con anverso y reverso, sin guardar ninguna.
+4. Revisa el borrador y pídele al chat que guarde solo las tarjetas que apruebes.
+5. Repasa las tarjetas con FSRS.
+
+Si el CSV ya está listo para importar, abre **Biblioteca → Importar → Importar desde otra app** en la app web y selecciona el archivo. Al pulsar **Iniciar importación**, el chat recibe la solicitud y puede guardar las tarjetas a medida que las procesa.
 
 Se trata de un flujo de trabajo mucho más tranquilo que tratar el primer resultado generado como sagrado.
 
@@ -183,14 +185,14 @@ Si todavía necesitas preparar el material de origen:
 
 Lo mantendría intencionalmente aburrido:
 
-1. elija una fuente configurada en NotebookLM
-2. generar tarjetas didácticas de candidatos
-3. exportar o copiar el texto
-4. pégalo en el chat de Nibomo AI
-5. pide un hecho o concepto por tarjeta
-6. corta cualquier cosa vaga o repetitiva
-7. crea el mazo final
-8. revisar con FSRS
+1. Elige un conjunto de fuentes en NotebookLM.
+2. Genera un primer borrador de tarjetas.
+3. Descarga el CSV o copia el texto de las tarjetas.
+4. Abre un chat nuevo con IA en Nibomo y adjunta el CSV o pega el texto.
+5. Pídele al chat una vista previa con un hecho o concepto por tarjeta, sin guardar ninguna.
+6. Quita del borrador las tarjetas vagas o repetitivas.
+7. Pídele al chat que guarde solo las tarjetas que apruebes.
+8. Repasa las tarjetas con FSRS.
 
 Eso funciona porque cada herramienta hace la parte en la que realmente es buena.
 

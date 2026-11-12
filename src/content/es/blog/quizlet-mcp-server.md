@@ -86,7 +86,7 @@ Esto no convierte Nibomo en un conector de Quizlet. El flujo con soporte es este
 
 1. exportar el texto de un set de Quizlet que hayas creado;
 2. conservar el archivo original y revisar una copia de trabajo;
-3. revisar las tarjetas resultantes antes de guardarlas en Nibomo; y
+3. pega el texto en la opción de importación desde Quizlet de la app web de Nibomo y revisa las tarjetas guardadas; y
 4. conectar el espacio de trabajo de Nibomo resultante a un cliente compatible para futuras lecturas y escrituras.
 
 La [referencia del conector MCP](/docs/mcp-connector/) describe la conexión y las herramientas disponibles. Utiliza la vía documentada de MCP o Agent API que admita tu cliente.

@@ -111,7 +111,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Impordi, ekspordi ja oma andmed enda käes",
           description:
-            "Liiguta oma õppematerjale sisse või välja siis, kui soovid. Eksportfailid sisaldavad sinu kaarte, silte ja nendega seotud meediat.",
+            "Too kaardid Quizletist, Ankist ja mujalt. Ekspordi oma Nibomo kaardid, sildid ja meedia millal soovid.",
+          link: {
+            label: "Vaata, kuidas kaarte importida",
+            href: "/docs/import-flashcards/",
+          },
         },
         {
           title: "Töötab AI-agentidega",

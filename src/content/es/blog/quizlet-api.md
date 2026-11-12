@@ -19,7 +19,7 @@ Esta conclusión se limita a la documentación pública de Quizlet; no describe 
 
 **Información comprobada:** 18 de agosto de 2026.
 
-> **Aviso de transparencia:** Soy Kirill Markin y desarrollo Nibomo. Su Agent API y su servidor MCP aparecen como alternativas más adelante. Nibomo no es compatible con Quizlet ni importa automáticamente sets de Quizlet.
+> **Aviso de transparencia:** Soy Kirill Markin y desarrollo Nibomo. Su Agent API y su servidor MCP aparecen como alternativas más adelante. El Agent API y el servidor MCP trabajan con tu espacio de trabajo en Nibomo. Para trasladar tarjetas de Quizlet, primero exporta el texto de tu propio set.
 
 ![Desarrollador que compara la exportación y la inserción de Quizlet, sus integraciones específicas y una API de flashcards documentada](/blog/quizlet-api.png)
 
@@ -93,7 +93,7 @@ Nibomo publica dos vías de acceso al mismo conjunto limitado de datos de cada u
 
 Ambas vías están limitadas al espacio de trabajo. Los recursos publicados son `workspace`, `cards`, `decks` y `review_events`, y los resultados tienen un límite de 100 filas por sentencia. La interfaz de estilo SQL utiliza un dialecto limitado; no proporciona acceso directo a PostgreSQL. Tampoco hay un esquema OpenAPI, así que los flujos que dependan de clientes generados a partir de OpenAPI necesitarán otra interfaz.
 
-Estas opciones permiten a un desarrollador o a un agente de IA automatizar sus propias flashcards. No sirven para leer una URL de Quizlet, mantener una copia sincronizada de una cuenta de Quizlet ni actuar como un cliente de Quizlet no documentado. Tampoco hay un importador automático de Quizlet. Para migrar, exporta primero los términos y las definiciones de tu propio set, revisa el texto y después asigna cada elemento a los campos correspondientes de las tarjetas de destino. El nuevo sistema crea su propio estado de estudio; el historial de Quizlet no se transfiere.
+Estas opciones permiten a un desarrollador o a un agente de IA automatizar sus propias flashcards. No sirven para leer una URL de Quizlet, mantener una copia sincronizada de una cuenta de Quizlet ni actuar como un cliente de Quizlet no documentado. En la app web, pega el texto exportado en la opción de importación desde Quizlet. El chat con IA crea tarjetas nuevas. Revisa las tarjetas que haya guardado.
 
 Compara también los modos de estudio, el control de los datos y el esfuerzo de migración, además del acceso mediante API.
 
