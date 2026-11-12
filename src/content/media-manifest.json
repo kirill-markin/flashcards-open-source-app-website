@@ -4663,6 +4663,21 @@
     "bytes": 2351276
   },
   {
+    "publicPath": "/blog/remnote-to-nibomo.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/49c7110e36b9818151701c9d4d6a651b0592a7fdf33df7aa6160c84c90b9a7c5.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "49c7110e36b9818151701c9d4d6a651b0592a7fdf33df7aa6160c84c90b9a7c5",
+    "bytes": 104508,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/f07d624fac71456564433c0609d64f3f8819b8862b0cd2bb1511e5c04abf6edf.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "f07d624fac71456564433c0609d64f3f8819b8862b0cd2bb1511e5c04abf6edf",
+      "bytes": 2129334
+    }
+  },
+  {
     "publicPath": "/blog/reported-speech-backshift-practice.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/eceea7a0a11ee9970672e8c8c56ad4d20fed5576b254276bbf4b8b553a519967.webp",
     "width": 1672,
