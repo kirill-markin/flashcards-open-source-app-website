@@ -3398,6 +3398,21 @@
     }
   },
   {
+    "publicPath": "/blog/knowt-to-nibomo.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/e8a23462627d807f47f59e12d3854792c4b2f77126f95bac64e99d3bf0c303e2.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "e8a23462627d807f47f59e12d3854792c4b2f77126f95bac64e99d3bf0c303e2",
+    "bytes": 240922,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/59615d47664963a5b1e20efa6229f7bdb133d35f313353b27b7f0a1b8ee27ade.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "59615d47664963a5b1e20efa6229f7bdb133d35f313353b27b7f0a1b8ee27ade",
+      "bytes": 2642615
+    }
+  },
+  {
     "publicPath": "/blog/korean-vocabulary-recall-practice.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/250e35170dcf29d885d62925e188f8a346122cc3e2c6323017a7dea36c3cc292.webp",
     "width": 1672,
