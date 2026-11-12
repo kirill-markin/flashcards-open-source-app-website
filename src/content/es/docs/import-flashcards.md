@@ -22,6 +22,7 @@ Las opciones de esta guía están disponibles en la app web. Si en iPhone, iPad,
 | Mochi | `.mochi` | Selecciona los archivos |
 | SuperMemo | `.xml` | Selecciona los archivos |
 | AlgoApp (antes AnkiApp) | `.zip` o `.xml` | Selecciona los archivos |
+| Gizmo | `.pdf` | Selecciona los archivos |
 | Otra app | `.csv`, `.txt`, `.xlsx`, `.pdf`, `.json`, `.xml`, `.md`, `.docx` o `.zip` | Selecciona los archivos en **Importar desde otra app** |
 | Hoja de cálculo | Filas copiadas con el frente y el reverso de cada tarjeta | Pégalas en **Importar desde una hoja de cálculo** |
 | Nibomo | Un `flashcards.zip` exportado desde Nibomo | Revisa la vista previa en **Importar desde Nibomo** |
@@ -36,6 +37,8 @@ Si tienes un archivo antiguo de Excel en formato `.xls`, guárdalo como `.xlsx` 
 2. En Nibomo, abre **Biblioteca > Importar** y elige la opción correspondiente. Para Quizlet, pega el texto que copiaste. Para las demás apps, selecciona los archivos exportados. Si tu app no figura en el menú pero exporta a un formato compatible, como PDF, usa **Importar desde otra app**.
 3. Selecciona **Iniciar importación**. Nibomo abre un nuevo chat con IA y envía la solicitud de importación con tus archivos o el texto pegado. Necesitas conexión a internet. Cada archivo de una importación con IA puede pesar hasta **30 MiB**. Si es más grande, prueba a exportar mazos o sets más pequeños por separado.
 4. Comprueba el resultado en la **Biblioteca**. El chat con IA puede ir guardando las tarjetas por tandas. Si se detiene a medias, comprueba qué tarjetas están ya en Nibomo y pídele que siga con las que faltan antes de volver a importar todo.
+
+En Gizmo, abre el menú de tres puntos del mazo y selecciona **Print**. En el navegador, elige **Save as PDF**. En la app web de Nibomo, abre **Biblioteca > Importar > Importar desde Gizmo**, selecciona el PDF y pulsa **Iniciar importación**. Compara las tarjetas guardadas en la **Biblioteca** con el PDF. Comprueba el número de tarjetas y que cada frente tenga el reverso que le corresponde.
 
 ### Empieza con una importación pequeña
 

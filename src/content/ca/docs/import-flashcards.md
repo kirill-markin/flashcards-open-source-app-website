@@ -22,6 +22,7 @@ Les opcions següents són disponibles a l’app web. Si no trobes el menú o l�
 | Mochi | `.mochi` | Tria fitxers |
 | SuperMemo | `.xml` | Tria fitxers |
 | AlgoApp (abans AnkiApp) | `.zip` o `.xml` | Tria fitxers |
+| Gizmo | `.pdf` | Tria fitxers |
 | Una altra app | `.csv`, `.txt`, `.xlsx`, `.pdf`, `.json`, `.xml`, `.md`, `.docx` o `.zip` | Tria els fitxers a **Importa des d’una altra app** |
 | Full de càlcul | Files copiades amb l’anvers i el revers de cada targeta | Enganxa-les a **Importa des d’un full de càlcul** |
 | Nibomo | Un fitxer `flashcards.zip` exportat des de Nibomo | Comprova’n la vista prèvia a **Importa des de Nibomo** |
@@ -36,6 +37,8 @@ Si tens un fitxer antic d’Excel amb extensió `.xls`, desa’l com a `.xlsx` o
 2. A Nibomo, ves a **Biblioteca > Importa** i tria l’opció corresponent. Si vens de Quizlet, enganxa el text copiat. Per a la resta, tria el fitxer o els fitxers exportats. Si la teva app no té una opció pròpia però permet exportar en un format compatible, com ara PDF, fes servir **Importa des d’una altra app**.
 3. Selecciona **Inicia la importació**. Nibomo obre un xat amb IA nou i hi envia la petició d’importació amb els fitxers o el text enganxat. Cal una connexió a internet. Cada fitxer que importis amb IA pot ocupar fins a **30 MiB**. Si el teu fitxer supera el límit, prova d’exportar baralles o conjunts més petits per separat.
 4. Comprova el resultat a **Biblioteca**. El xat amb IA pot desar les targetes per tandes. Si s’atura a mitges, mira quines targetes ja s’han desat i demana-li que continuï amb les que falten abans de repetir tota la importació.
+
+A Gizmo, obre el menú dels tres punts de la baralla i tria **Print**. Al navegador, tria **Save as PDF**. A l’app web de Nibomo, ves a **Biblioteca > Importa > Importa des de l’app Gizmo**, tria el PDF i prem **Inicia la importació**. Compara les targetes desades a **Biblioteca** amb el PDF. Comprova que el nombre de targetes coincideixi i que cada anvers tingui el revers que li correspon.
 
 ### Comença amb poques targetes
 

@@ -22,6 +22,7 @@ Allolevad valikud on saadaval veebirakenduses. Kui sa ei näe iPhone'is, iPadis,
 | Mochi | `.mochi` | Vali failid |
 | SuperMemo | `.xml` | Vali failid |
 | AlgoApp (endine AnkiApp) | `.zip` või `.xml` | Vali failid |
+| Gizmo | `.pdf` | Vali failid |
 | Muu rakendus | `.csv`, `.txt`, `.xlsx`, `.pdf`, `.json`, `.xml`, `.md`, `.docx` või `.zip` | Vali failid vaates **Impordi teisest rakendusest** |
 | Arvutustabel | Kopeeritud read iga kaardi esi- ja tagaküljega | Kleebi read vaatesse **Impordi arvutustabelist** |
 | Nibomo | Nibomost eksporditud `flashcards.zip` | Vaata eelvaadet valiku **Impordi Nibomost** all |
@@ -36,6 +37,8 @@ Kui sul on vana Exceli `.xls`-fail, salvesta see enne importimist `.xlsx`- või 
 2. Ava Nibomos **Teek > Importimine** ja vali sobiv rakendus. Quizleti puhul kleebi kopeeritud tekst. Muude allikate puhul vali eksporditud failid. Kui sinu rakendust menüüs pole, aga saad eksportida toetatud vormingus faili, näiteks PDF-i, vali **Impordi teisest rakendusest**.
 3. Vali **Alusta importi**. Nibomo avab uue AI-vestluse ning saadab impordipalve koos sinu failide või kleebitud tekstiga. Selleks on vaja internetiühendust. Iga AI-ga imporditav fail võib olla kuni **30 MiB**. Suurema faili korral proovi eksportida väiksemad kaardipakid või kogumid eraldi.
 4. Vaata tulemus **Teegis** üle. AI võib kaarte töö käigus osade kaupa salvestada. Kui import katkeb, vaata, millised kaardid on juba Nibomos, ja palu AI-l ülejäänutega jätkata, enne kui proovid kogu faili uuesti importida.
+
+Ava Gizmos kaardipaki kolme punktiga menüü ja vali **Print**. Seejärel vali brauseris **Save as PDF**. Ava Nibomo veebirakenduses **Teek > Importimine > Impordi Gizmo rakendusest**, vali PDF-fail ja klõpsa nuppu **Alusta importi**. Võrdle **Teeki** salvestatud kaarte PDF-iga. Kontrolli kaartide arvu ja seda, kas iga esikülje juurde kuulub õige tagakülg.
 
 ### Alusta väikese prooviga
 
