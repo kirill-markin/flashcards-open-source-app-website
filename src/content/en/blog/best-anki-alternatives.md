@@ -20,7 +20,7 @@ That is the expensive part of comparing Anki alternatives. A cleaner editor or a
 
 This comparison starts at that boundary. It covers seven apps like Anki, what each one can take from an existing collection, what changes after import, and when keeping Anki is the safer result.
 
-> **Disclosure:** I am Kirill Markin, and I build [Nibomo](https://nibomo.com/), one of the products below. I included it for its open-source, self-hosting, and agent workflows. It is not the default winner: it reads Anki `.apkg` files only through AI chat, its Anki migration is lossy, and operating the self-hosted stack is a real infrastructure job.
+> **Disclosure:** I am Kirill Markin, and I build [Nibomo](https://nibomo.com/), one of the products below. I included it for its open-source, self-hosting, and agent workflows. It is not the default winner: its Anki import creates new cards with fresh schedules, and operating the self-hosted stack is a real infrastructure job.
 
 **Facts checked:** August 28, 2026. Prices are the public US or listed local prices available on that date. Taxes, regions, education offers, and app-store billing can change the amount. Nibomo's Anki `.apkg` import details checked November 8, 2026.
 
@@ -41,7 +41,7 @@ The remaining four are content rebuilds, not collection migrations:
 - **Quizlet** is useful for public sets, classes, games, and guided practice.
 - **Brainscape** gives a group a simpler 1–5 confidence loop.
 - **SuperMemo** is a move into its proprietary method and course catalog.
-- **Nibomo** gives you MIT-licensed web and native clients, a self-hosted backend, API, and MCP access. Its AI chat can turn an attached `.apkg` into cards, but Anki learning state doesn't come along.
+- **Nibomo** gives you MIT-licensed web and native clients, a self-hosted backend, API, and MCP access. Its web import menu sends `.apkg` or `.colpkg` files to AI chat to create cards with fresh schedules.
 
 If your cards depend on exact rendering, add-ons, or the current review queue, staying in Anki is not indecision. It is the answer.
 
@@ -78,7 +78,7 @@ An importer may pass the first question and fail the other two.
 | [Quizlet](https://quizlet.com/) | [Paste terms and definitions](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content) | None from Anki | Note types, templates, decks, media structure, and all scheduling data |
 | [Brainscape](https://www.brainscape.com/) | [CSV, TXT, XLSX, or ODS](https://brainscape.zendesk.com/hc/en-us/articles/115002369931-How-do-I-import-various-files-to-create-flashcards) | None from Anki | Templates, add-ons, media rules, and all scheduling data |
 | [SuperMemo](https://www.supermemo.com/) | [Paste delimited question-and-answer rows](https://www.supermemo.com/en/blog/how-to-create-flashcards-for-learning), up to 100 at once | None from Anki | Collection structure, media, templates, and all scheduling data |
-| [Nibomo](https://nibomo.com/) | [Attach the `.apkg` in AI chat](/blog/import-anki-apkg/); the AI saves the cards directly, and clozes stay fill-in-the-blank. TXT or CSV also works | None from Anki; every card starts as new | Templates, CSS, and all scheduling data; subdecks become separate flat decks named with the full Anki path |
+| [Nibomo](https://nibomo.com/) | [Import from Anki](/blog/import-anki-apkg/) on web accepts `.apkg` and `.colpkg` and sends the package to AI chat. A separate TXT workflow is available | None from Anki; every card starts as new | Templates, CSS, and all scheduling data. Check subdeck names and card counts |
 
 ## Price, offline use, scheduling, and ownership
 
@@ -170,7 +170,7 @@ Choose SuperMemo because you want SuperMemo's own method or course catalog enoug
 
 Nibomo exposes a broad ownership boundary. The [MIT-licensed repository](https://github.com/kirill-markin/flashcards-open-source-app) contains the web app, iOS and Android clients, backend, offline sync, infrastructure, [public API](/docs/api/), and [MCP server](/docs/mcp-connector/). Reviews use [FSRS](/docs/architecture/#scheduling). Web, iOS, and Android write locally first, add changes to an outbox, and sync after reconnection.
 
-That does not make it Anki-compatible. There's no one-click importer, and Library → Import takes only Nibomo's own `.zip`. Instead, you [attach an `.apkg` in AI chat](/blog/import-anki-apkg/) and ask it to turn the deck into cards. Current-format exports work, up to 30 MB per file; you don't need **Support older Anki versions**. The AI saves the cards directly: tags come through, each Anki deck becomes a Nibomo deck (each subdeck becomes its own flat deck, named with the full Anki path, and the parent deck also includes the subdeck's cards), and cloze cards stay fill-in-the-blank. In a small test with a newest-format package made with Anki's official export code (the anki Python library), all three images landed on the right cards, and basic-and-reversed notes split into two one-way cards. Check images after import anyway. Templates, add-ons, due dates, intervals, and review events stay behind, and `.colpkg` files aren't accepted. The older [Anki TXT migration](/blog/migrate-from-anki-txt-export-open-source-flashcards/) still works for text-only cards.
+In the Nibomo web app, **Library → Import → Import from Anki** accepts `.apkg` and `.colpkg` and sends the file to AI chat. If your app version doesn't show that option, [attach an `.apkg` in AI chat](/blog/import-anki-apkg/) and ask it to import the cards. You can leave **Support older Anki versions** off when exporting, and each file can be up to 30 MiB. In a small AI chat test with a current-format `.apkg` made with Anki's official Python library, the AI saved the original tags, cloze prompts, and all three images. Basic-and-reversed notes became two one-way cards. The subdeck became a separate deck named with the full Anki path, and the parent deck also included its cards. Check your own import against the original. Anki templates, add-ons, and learning progress stay in Anki. The older [Anki TXT migration](/blog/migrate-from-anki-txt-export-open-source-flashcards/) still works for text-only cards.
 
 Nibomo's own `flashcards.zip` package is also narrower than a backup. It moves cards, tags, and related media between Nibomo workspaces. It does not move review history, FSRS state, full deck structures, workspace settings, or accounts.
 

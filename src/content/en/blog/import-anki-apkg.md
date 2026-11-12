@@ -1,8 +1,8 @@
 ---
 title: "How to Import an Anki Deck (.apkg) Into Nibomo: A Tested Walkthrough"
-description: "Attach an Anki .apkg in Nibomo's AI chat and it saves the cards. In a test, 13 cards with cloze, 2 decks and 3 images came over in 75 seconds. Review history didn't."
+description: "Import an Anki .apkg in Nibomo. In an AI chat test, 13 cards with cloze, 2 decks and 3 images came over in 75 seconds. Review history didn't."
 date: "2026-11-08"
-updated: "2026-11-09"
+updated: "2026-11-12"
 image: "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/4582484682bb3b61ab695a4130ef89e83e980cb7dc8f80a183a3c3cb960564ea.webp"
 keywords:
   - "import Anki deck"
@@ -15,7 +15,7 @@ keywords:
 
 A small Spanish deck from Anki went into Nibomo's AI chat as one `.apkg` file: 13 cards, a subdeck, two cloze notes and three pictures. The AI worked for 1 minute 15 seconds. After that the workspace had 13 new cards, two decks named after the Anki ones, every picture on the right card, and fill-in-the-blank cards with the same `[...]` gap Anki shows. The review history stayed behind.
 
-That's how you import an Anki deck into Nibomo today. Export the deck as an `.apkg`, attach it in AI chat, and ask for cards. There's no one-click importer and no preview screen. The AI reads the package and saves the cards straight into your workspace, so you check the result afterward, not before.
+In the [Nibomo web app](https://app.nibomo.com), go to **Library → Import → Import from Anki**, choose your `.apkg`, and select **Start import**. This opens AI chat and sends the request. Check the saved cards afterward. If your app version doesn't show the Anki option, use the AI chat attachment steps from the test below.
 
 ![A woman packs a framed pear painting into a moving box, leaving its pale outline and hanging hook on the old wall](https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/4582484682bb3b61ab695a4130ef89e83e980cb7dc8f80a183a3c3cb960564ea.webp)
 
@@ -37,11 +37,11 @@ The sample deck was small on purpose but covered the awkward cases: plain notes,
 
 Cloze notes stay cloze. A Nibomo card has a front and a back, so each deletion becomes its own card: the front hides the answer behind `[...]`, and the back shows the whole sentence, the way Anki shows it after you flip. One note became "[...] is the capital of Peru." and "Lima is the capital of [...].", with "Lima is the capital of Peru." on the back.
 
-Your Anki learning state stays in Anki: review history, intervals, due dates and FSRS state. The AI said so about the history itself, both in its plan and in its final reply. Anki's card machinery stays behind too: note types, card templates, CSS and JavaScript, and add-ons. The deck had no sound files, so this test says nothing about audio. Collection packages (`.colpkg`) aren't accepted at all.
+Your Anki learning state stays in Anki: review history, intervals, due dates and FSRS state. The AI said so about the history itself, both in its plan and in its final reply. Keep the Anki collection for its note types, templates, CSS, JavaScript, and add-ons. The deck had no sound files, so this test says nothing about audio.
 
 ## Export the deck from Anki
 
-Use desktop Anki and export one deck, not the whole collection. Nibomo's AI chat takes deck packages (`.apkg`), not collection packages (`.colpkg`). If you're unsure which file is which, the [APKG vs COLPKG guide](/blog/anki-apkg-vs-colpkg/) explains the difference.
+For a first transfer, export one deck from desktop Anki. **Import from Anki** accepts both `.apkg` and `.colpkg`. The test used `.apkg`. Keep a `.colpkg` for restoring in Anki, where it can preserve scheduling and collection settings. The [APKG vs COLPKG guide](/blog/anki-apkg-vs-colpkg/) explains the difference.
 
 1. Open **File > Export**.
 2. Choose **Anki Deck Package (.apkg)** and pick the deck. According to [Anki's export manual](https://docs.ankiweb.net/manual/exporting), a deck package includes the deck's child decks too.
@@ -55,9 +55,9 @@ Scheduling information is worth turning off because none of it reaches Nibomo an
 
 While you're in the export dialog, make a full backup too. A collection package (`.colpkg`) with media is Anki's way to back up the whole collection, and it's your way back if you change your mind. Nibomo only reads the file you attach and never touches your Anki collection, but a backup costs nothing before you switch apps.
 
-## Attach the .apkg in Nibomo's AI chat
+## Attach the .apkg in AI chat as in the test
 
-Open the AI tab, or [start with the getting-started guide](/docs/getting-started/) if you don't have Nibomo yet. A guest account is enough. The first time, the app asks you to allow AI data sharing, because the file goes to the AI. Skip Library's **Import** button for this. It only takes Nibomo's own `.zip` workspace package, not an Anki deck.
+Open the AI tab, or [start with the getting-started guide](/docs/getting-started/) if you don't have Nibomo yet. A guest account is enough. The first time, the app asks you to allow AI data sharing, because the file goes to the AI. The [import guide](/docs/import-flashcards/) lists the formats and routes available in the current web app.
 
 Tap the paperclip, then **Choose File**, find the `.apkg` in the Files picker (in the test it sat in **On My iPhone**) and tap **Open**. The file shows up as a chip above the message box. The request in the test was one plain sentence:
 
@@ -112,12 +112,12 @@ These come from Nibomo's source code, not from the 13-card test:
 
 | Limit | Value |
 | --- | --- |
-| Size of one attached file | 30 MB |
+| Size of one attached file | 30 MiB |
 | Files per message | 10 |
 | Files unpacked from one archive | Up to 2,000 |
 | Pictures saved to cards | JPEG, PNG or WebP, up to 4 MB each; other formats are converted when possible |
 
-Picture-heavy decks are the most likely to hit the 30 MB cap. Splitting a big deck into smaller decks in Anki and importing them one by one keeps each file under the cap and makes each result easier to check. If something goes wrong, you find out while there are only a few hundred cards to fix.
+Picture-heavy decks are the most likely to hit the 30 MiB cap. Splitting a big deck into smaller decks in Anki and importing them one by one keeps each file under the cap and makes each result easier to check. If something goes wrong, you find out while there are only a few hundred cards to fix.
 
 The test didn't cover a large deck, audio, note types other than Basic, reversed and Cloze, or a workspace that already had many cards. Start with your smallest real deck, check it, then move on to the big ones.
 

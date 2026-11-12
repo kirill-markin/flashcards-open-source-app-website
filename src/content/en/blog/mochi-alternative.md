@@ -167,6 +167,8 @@ Mochi's [backup guide](https://mochi.cards/docs/getting-started/backing-up/) doc
 
 Mochi's [Markdown and CSV exports](https://mochi.cards/docs/import-and-export/exporting/) are portability formats. Markdown creates one file per card and folders for subdecks, but drops review history, card order, templates, and metadata tags unless the tags are in the Markdown. CSV can export template fields or rendered front/back sides, but does not preserve review history, templates, or metadata tags unless they are embedded in the content.
 
+If you want to try a Mochi deck in Nibomo, **Library → Import → Import from Mochi** in the web app sends a `.mochi` file to AI chat. Check the card content and media it creates. Keep the original file for restoring templates and review history in Mochi. See the [Nibomo import guide](/docs/import-flashcards/).
+
 Anki makes a similar distinction:
 
 - A `.colpkg` exports the whole collection with scheduling and can include media. Importing it replaces the cards in the target Anki collection.

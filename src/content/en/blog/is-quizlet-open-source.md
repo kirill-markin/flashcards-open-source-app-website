@@ -132,7 +132,7 @@ The [broader Quizlet alternatives guide](/blog/quizlet-alternative/) covers prod
 
 Nibomo has an [AWS-centered self-hosting guide](/docs/self-hosting/), not a one-click local installer. The operator owns the cloud accounts, authentication, email delivery, monitoring, backups, upgrades, and native app builds.
 
-It is not Quizlet-compatible. There is no one-click Quizlet importer, and Nibomo does not reproduce Quizlet's complete games and classroom ecosystem. You can use a reviewed Quizlet text export as source material for new cards, but that is a migration workflow—not compatibility with Quizlet sets or study history.
+In the Nibomo web app, **Library → Import → Import from Quizlet** sends pasted text from an eligible Quizlet export to AI chat to create new cards. Quizlet images and study history stay in Quizlet, along with its games and classroom features.
 
 Consider Nibomo when full-stack source, MIT licensing, an API, and operator-controlled deployment matter enough to accept those limits. Consider other [open-source flashcard apps](/blog/best-open-source-flashcard-apps-2026/) when a mature desktop ecosystem, direct import, or a smaller self-hosting job matters more.
 

@@ -19,7 +19,7 @@ That is a finding about Quizlet's public documentation, not a claim about its in
 
 **Facts checked:** August 18, 2026.
 
-> **Disclosure:** I am Kirill Markin, and I build Nibomo, whose Agent API and MCP server appear as alternatives below. Nibomo is not Quizlet-compatible, and it does not automatically import Quizlet sets.
+> **Disclosure:** I am Kirill Markin, and I build Nibomo, whose Agent API and MCP server appear as alternatives below. Nibomo's API works with its own workspaces. Bringing over a Quizlet set starts with an export you make on Quizlet's website.
 
 ![Developer comparing Quizlet export, embed, named integrations, and a documented flashcard API](/blog/quizlet-api.png)
 
@@ -93,7 +93,7 @@ Nibomo publishes two routes to the same limited, per-user data surface:
 
 Both routes are workspace-scoped. The published resources are `workspace`, `cards`, `decks`, and `review_events`, and results are capped at 100 rows per statement. The SQL-style interface is a limited dialect, not raw PostgreSQL. There is no OpenAPI schema, so workflows that depend on generated OpenAPI clients will need a different interface.
 
-This can help a developer or AI agent automate flashcards they own. It cannot read a Quizlet URL, mirror a Quizlet account, or act as an undocumented Quizlet client. There is no automatic Quizlet importer. For a migration, export the terms and definitions from your own set first, review the text, and then map it into the destination's card fields. The destination creates its own study state; Quizlet history does not come across.
+These interfaces automate work in a Nibomo workspace. For a one-time move, export the terms and definitions from a Quizlet set you created. In the Nibomo web app, **Library → Import → Import from Quizlet** sends that pasted text to AI chat to create cards with fresh schedules. Check the saved cards before automating work on them through the API. See the [Quizlet export guide](/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/).
 
 For the product differences beyond API access, see the [open source Quizlet alternative comparison](/blog/quizlet-alternative/).
 

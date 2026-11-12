@@ -47,7 +47,7 @@ Neither choice signals a more serious way to study. StudySmarter covers more of 
 | Mobile | iOS and Android apps alongside the web product | Web, iOS, and Android; no native desktop app |
 | AI | Explanations, study-material generation, lecture-slide-to-card workflows, and Exam AI feedback | Online workspace-aware chat for helping create and edit cards, plus external agent access |
 | Ownership and hosting | Users retain rights to uploads but grant platform usage rights; proprietary, with no official whole-service self-hosting | MIT-licensed application and infrastructure with supported production deployment through AWS CDK |
-| Portability | No complete migration claim made here | Package export moves cards, tags, and referenced media only; it is not a full backup |
+| Portability | Premium exports self-created flashcards as plain-text CSV | **Import from StudySmarter** sends CSV to AI chat. Nibomo's own workspace export moves card content and referenced media |
 
 The table is intentionally uneven. StudySmarter tries to solve more study problems, so it has more native tools. Nibomo becomes a credible alternative only when that narrower scope, transparent scheduler, offline-first card work, or infrastructure control solves a problem you actually have.
 
@@ -111,7 +111,7 @@ Nibomo publishes the application and infrastructure under the MIT license. Its s
 
 Open source does not make Nibomo's built-in export complete. A workspace package transfers cards, tags, and referenced media. It omits review history, FSRS state, workspace settings, full deck structures, and account data. This is a content-transfer package, not a full backup or a lossless hosted-to-self-hosted migration.
 
-I did not find enough official information to promise a complete StudySmarter export or a direct migration into Nibomo. Keep the original source files and test a small, representative batch before moving more content.
+StudySmarter's [export guide](https://studysmarter.zendesk.com/hc/en-gb/articles/18447712394012-Flashcard-Export-Function) documents CSV export for Premium users' self-created cards. The CSV contains plain text, so images, formulas, and formatting stay in StudySmarter. In the Nibomo web app, **Library → Import → Import from StudySmarter** sends the CSV to AI chat. Check a representative batch against the source. Imported cards start with fresh schedules. See the [import guide](/docs/import-flashcards/).
 
 ## Which StudySmarter alternative fits your workflow?
 

@@ -121,13 +121,13 @@ The help page itself warns that the extension can stop working when Quizlet bloc
 
 The same help page makes a broad claim about Quizlet export access that may age as Quizlet changes its plans and permissions. The import steps do not depend on repeating that claim. Check your own Quizlet account and the ownership of the set; if export is available, the manual path is the less extension-dependent route.
 
-## Knowt export is useful for reading, not documented migration
+## Knowt exports a readable PDF
 
 On the web, Knowt's [flashcard export guide](https://help.knowt.com/en/articles/10714472-how-can-i-export-my-flashcards) tells you to choose **Export as PDF** and save the result. Its [print guide](https://help.knowt.com/en/articles/10714514-how-can-i-print-my-notes-and-flashcards) uses the same printable path for notes and cards. In the mobile app, the documented route is Share, then export to Files or another app; the help page does not name the resulting file format.
 
 A PDF is useful for printing, sharing, and keeping a human-readable snapshot. It is not a structured deck archive. The reviewed documentation does not promise a machine-readable export of terms and definitions, source attachments, study-mode settings, or review history that another flashcard app can recreate.
 
-Before choosing Knowt for long-lived material, export one realistic set and inspect the result. Ask a practical question: if Knowt disappeared from the workflow tomorrow, could you rebuild the editable cards from what you received, or would you only have a document to read?
+To try moving card content, select **Library → Import → Import from Knowt** in the Nibomo web app and upload a small Knowt PDF. AI chat uses it to create new cards. Check the result against the source, especially prompts with images or several answers. If the Knowt row is missing in your app version, attach the PDF in AI chat. See the [import guide](/docs/import-flashcards/).
 
 Nibomo does not solve portability completely either. Its package transfer moves cards, tags, and related media between Nibomo installations, but it does not include review history, FSRS scheduler state, workspace settings, complete deck structures, or account data. [Open source does not automatically make an export a complete backup](/docs/self-hosting/).
 
@@ -149,6 +149,6 @@ Consider Knowt Ultra if summaries, Kai chats, generated assessments, and other m
 
 Choose Nibomo when the durable output is a smaller collection of verified front/back cards and you care more about documented FSRS, offline-first writes, exportable card content, open code, self-hosting, or agent access than about varied quiz formats. Start with the [hosted app and getting-started guide](/docs/getting-started/) before considering the AWS stack.
 
-Using both can be sensible. Let Knowt turn messy source material into notes and varied practice, then manually move only the stable facts you want to retain for months into Nibomo. There is no documented lossless transfer between them, so keep the source, verify the cards, and accept that review history will not follow.
+Using both can be sensible. Let Knowt turn messy source material into notes and varied practice, then use a small PDF export to bring the cards you want to retain into Nibomo. There is no documented lossless transfer between them, so keep the source, verify the cards, and accept that review history will not follow.
 
 If neither tradeoff fits, compare a broader set of [open-source flashcard apps](/blog/best-open-source-flashcard-apps-2026/) or run the [offline flashcard test](/blog/best-offline-flashcards-app/) against the tools already on your shortlist. The right Knowt alternative is not the one with the longest feature table. It is the one that survives your actual study session, your actual internet connection, and your actual exit plan.

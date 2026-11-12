@@ -12,7 +12,7 @@ keywords:
   - "self-hosted flashcards app"
 ---
 
-If Anki already holds your cards and review history, switching apps is a data-migration decision before it is a design preference. Anki can export a deck or an entire collection with scheduling data and media. Nibomo's AI chat can read an attached `.apkg` and turn it into cards, but every card starts as new, so it can't continue the review queue you have today.
+If Anki already holds your cards and review history, switching apps is a data-migration decision before it is a design preference. Anki can export a deck or an entire collection with scheduling data and media. Nibomo's web import menu sends `.apkg` or `.colpkg` files to AI chat to create cards. Each imported card starts a new schedule.
 
 That boundary decides most **Anki vs Nibomo** comparisons. Stay with Anki when collection fidelity, templates, add-ons, shared decks, or an established review habit matter most. Try Nibomo when you can start with a new or mostly text-based deck and care more about whole-stack source access, offline-first sync, built-in AI, or agent workflows.
 
@@ -26,7 +26,7 @@ That boundary decides most **Anki vs Nibomo** comparisons. Stay with Anki when c
 
 | Your constraint | Anki | Nibomo | Better fit today |
 | --- | --- | --- | --- |
-| You need to preserve a complex collection and its review history | A `.colpkg` keeps the full collection and schedule; an `.apkg` can include review history, deck presets, and media | AI chat turns an attached `.apkg` into cards, but review history, scheduling, and templates stay behind; it moves content, not the collection | **Anki** |
+| You need to preserve a complex collection and its review history | A `.colpkg` keeps the full collection and schedule; an `.apkg` can include review history, deck presets, and media | **Import from Anki** sends an `.apkg` or `.colpkg` to AI chat to create cards, but review history, scheduling, and templates stay behind; it moves content, not the collection | **Anki** |
 | You want FSRS | Supports FSRS, parameter optimization from review history, desired retention, and deck presets | Uses pinned FSRS-6 weights across web, iOS, Android, and the backend; workspace settings do not optimize weights from your reviews | **Either**; Anki is stronger for personal optimization and schedule continuity |
 | You study without internet | Installed desktop, iOS, and Android clients keep local collections; AnkiWeb remains online-only | Web, iOS, and Android write card and review changes locally first; sign-in, initial hydration, sync, AI, and uncached media need a connection | **Either**, after testing your exact devices and media |
 | You want a Home Screen widget | [AnkiDroid](https://github.com/ankidroid/Anki-Android) has deck and card-count widgets; AnkiMobile on iPhone and iPad has none, and users [still ask for one](https://forums.ankiweb.net/t/ankimobile-widget/32633) | Free Review widgets for iPhone, iPad, Mac, and Android show the due count and your next card's question; a tap opens Review | **Nibomo** on Apple devices; **either** on Android |
@@ -51,7 +51,7 @@ More important than the release number is everything accumulated around the coll
 
 Its [packaged exports](https://docs.ankiweb.net/exporting.html) also carry more structure than a plain card list. A `.colpkg` can contain the entire collection, including all decks and scheduling information, with media as an export option. An `.apkg` can contain a deck's cards, notes, and note types, plus optional scheduling information, deck presets, and media. That is useful for backup, device transfer, and migration to software that understands Anki packages.
 
-Nibomo does not match this depth. It has [released web, iOS, and Android clients](https://github.com/kirill-markin/flashcards-open-source-app#available-on), but no native Windows, macOS, or Linux client, comparable add-on catalog, shared-deck ecosystem, template engine, or one-click Anki package importer. If any of those holds your study workflow together, changing apps would remove working capability.
+Nibomo does not match this depth. It has [released web, iOS, and Android clients](https://github.com/kirill-markin/flashcards-open-source-app#available-on), but no native Windows, macOS, or Linux client, comparable add-on catalog, shared-deck ecosystem, or template engine. If any of those holds your study workflow together, changing apps would remove working capability.
 
 ## Both use FSRS, but your scheduler state will not move
 
@@ -102,8 +102,8 @@ Anki's full collection export is more complete at the user level. This is an imp
 Moving from Anki to Nibomo is currently a content transfer through AI chat:
 
 1. Export the deck from Anki as `.apkg`. Current-format exports work; you don't need **Support older Anki versions**.
-2. Attach the file in Nibomo AI chat and ask it to turn the deck into cards. Each file can be up to 30 MB.
-3. The AI reads the package and saves the cards directly; in the test there was no draft or confirmation step.
+2. In the Nibomo web app, select **Library → Import → Import from Anki**, choose the file, and select **Start import**. If the Anki row is missing from your app version, attach the `.apkg` in AI chat and ask it to import the cards. Each file can be up to 30 MiB.
+3. The import request can save cards directly. The earlier AI chat test saved the cards without a separate confirmation step.
 4. Compare card counts, fronts, backs, tags, decks, and images with Anki. Check images in particular.
 
 In a test with a newest-format package made with Anki's official export code (the anki Python library), basic cards and tags came through, and all three images landed on the right cards. Each basic-and-reversed note became two one-way cards, and cloze cards stayed fill-in-the-blank. Each Anki deck became a Nibomo deck: each subdeck became its own flat deck, named with the full Anki path, and the parent deck also included the subdeck's cards. Review history, due dates, FSRS memory, note types, template HTML/CSS, and add-on behavior don't transfer. Audio wasn't part of the test. The [`.apkg` import guide](/blog/import-anki-apkg/) shows the whole run. The older [TXT migration guide](/blog/migrate-from-anki-txt-export-open-source-flashcards/) still works for text-only decks. If your review history has to move too, see the [broader Anki alternatives comparison](/blog/best-anki-alternatives/) instead.
@@ -114,7 +114,7 @@ Do not migrate your whole profile to find out whether the new review screen feel
 
 1. **Back up Anki first.** Export a full `.colpkg` with scheduling information and media, then keep it somewhere outside the active profile.
 2. **Choose one representative deck.** Include the card types, tags, cloze behavior, images, audio, formulas, and review history that would expose a bad migration.
-3. **Export the deck as `.apkg`.** That file is both your Anki-native copy and what you attach in Nibomo's AI chat.
+3. **Export the deck as `.apkg`.** Use it in Nibomo's **Import from Anki** flow and keep the file as an Anki-native copy.
 4. **Check the result, don't assume it.** Compare card counts, fronts, backs, tags, formatting, and images with Anki.
 5. **Assume the queue restarts.** Check that a fresh FSRS history is acceptable for this material. Do not expect answers in one app to update the other.
 6. **Test the released surfaces you will use.** Review and edit on web, iOS, or Android, take a device offline, reconnect, and confirm the changes and media arrive where expected.

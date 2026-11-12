@@ -132,11 +132,13 @@ The product already supports:
 
 So the path from **NotebookLM to flashcards** is straightforward:
 
-1. copy or export the NotebookLM cards
-2. send them into Nibomo AI chat as text
-3. ask for shorter, cleaner front/back cards
-4. create the final cards only after the wording looks right
-5. review them with FSRS instead of leaving them inside a source notebook
+1. Download the cards as CSV using the flashcard viewer's download control when available. Google notes that some source restrictions can disable downloads. [Google's flashcard help](https://support.google.com/notebooklm/answer/16958963?hl=en)
+2. Open a new Nibomo AI chat and attach the CSV, or paste the card text if you copied it.
+3. Ask the chat to show a draft of shorter front/back pairs without creating or saving any cards.
+4. Check the draft and ask the chat to save only the cards you approve.
+5. Review them with FSRS instead of leaving them inside a source notebook.
+
+If the CSV is ready to save, use **Library → Import → Import from another app** in the web app. **Start import** sends a request to create cards, and AI chat can save them as it goes.
 
 That is a much calmer workflow than treating the first generated output as sacred.
 
@@ -176,11 +178,11 @@ I would keep it intentionally boring:
 
 1. choose one source set in NotebookLM
 2. generate candidate flashcards
-3. export or copy the text
-4. paste it into Nibomo AI chat
-5. ask for one fact or concept per card
+3. download the CSV or copy the card text
+4. open a new Nibomo AI chat and attach the file or paste the text
+5. ask for a draft with one fact or concept per card, without saving
 6. cut anything vague or repetitive
-7. create the final deck
+7. ask the chat to save the approved cards
 8. review with FSRS
 
 That works because each tool does the part it is actually good at.

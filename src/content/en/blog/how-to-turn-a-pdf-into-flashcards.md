@@ -173,7 +173,7 @@ That is where Nibomo feels more grounded than a standalone generator.
 
 If I were doing this today, I would keep the process very plain:
 
-1. upload the PDF
+1. attach the PDF in Nibomo AI chat
 2. start with one section, not the whole document
 3. ask for simple front/back cards
 4. delete any card that sounds impressive but vague
