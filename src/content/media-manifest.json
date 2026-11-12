@@ -1151,6 +1151,21 @@
     "bytes": 1183338
   },
   {
+    "publicPath": "/blog/duocards-to-nibomo.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/ff09828336aa67f631a91d5b631e569e7c03ef7db8db7db7a55a78d48e4dce16.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "ff09828336aa67f631a91d5b631e569e7c03ef7db8db7db7a55a78d48e4dce16",
+    "bytes": 178558,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/d4d9b90a7c57d57f5ee0916b10fbb2e036629fa8caf20a1e5cfb2ace1703cb61.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "d4d9b90a7c57d57f5ee0916b10fbb2e036629fa8caf20a1e5cfb2ace1703cb61",
+      "bytes": 2419409
+    }
+  },
+  {
     "publicPath": "/blog/duolingo-flashcards-to-spaced-repetition-v2.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/29c0901e4dd133f851de53f7640d0fa925faf7e3991795f9733a8d7c2c2a0daa.png",
     "width": 1536,
