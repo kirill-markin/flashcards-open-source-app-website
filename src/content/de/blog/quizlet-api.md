@@ -93,7 +93,7 @@ Nibomo veröffentlicht zwei Zugangswege zu derselben begrenzten Schnittstelle f�
 
 Beide Zugangswege sind auf einen Arbeitsbereich begrenzt. Die veröffentlichten Ressourcen sind `workspace`, `cards`, `decks` und `review_events`. Die Ergebnisse sind pro SQL-Anweisung auf 100 Zeilen begrenzt. Die SQL-ähnliche Schnittstelle ist ein eingeschränkter Dialekt und kein direkter PostgreSQL-Zugriff. Es gibt kein OpenAPI-Schema. Arbeitsabläufe, die auf generierte OpenAPI-Clients angewiesen sind, benötigen daher eine andere Schnittstelle.
 
-Damit können Entwickler oder KI-Agenten ihre eigenen Karteikarten automatisieren. Die Schnittstellen können weder eine Quizlet-URL auslesen noch ein Quizlet-Konto spiegeln oder als undokumentierter Quizlet-Client auftreten. Es gibt keinen automatischen Quizlet-Importer. Exportiere für eine Migration zunächst Begriffe und Definitionen aus deinem eigenen Set, prüfe den Text und ordne ihn danach den Kartenfeldern des Zielsystems zu. Das Zielsystem erstellt seinen eigenen Lernzustand; der Quizlet-Verlauf wird nicht übertragen.
+Damit können Entwickler oder KI-Agenten ihre eigenen Karteikarten automatisieren. Die Schnittstellen können weder eine Quizlet-URL auslesen noch ein Quizlet-Konto spiegeln oder als undokumentierter Quizlet-Client auftreten. Öffne in der Nibomo-Web-App **Bibliothek > Import > Aus Quizlet importieren**. Füge den kopierten Text ein und wähle **Import starten**. Nibomo sendet den Text an den KI-Chat, der daraus neue Karten erstellt. Gleiche die gespeicherten Karten mit dem Original ab. Bilder, Lernverlauf und Fälligkeitstermine bleiben in Quizlet.
 
 Vergleiche neben dem API-Zugriff auch Lernmodi, Datenkontrolle, Exportmöglichkeiten und den Aufwand der Migration.
 

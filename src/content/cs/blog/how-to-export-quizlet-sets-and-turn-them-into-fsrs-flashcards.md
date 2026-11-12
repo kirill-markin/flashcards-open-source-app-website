@@ -104,18 +104,13 @@ Jak spolehlivě vytvořit CSV z exportu Quizletu:
 
 Tabulkový procesor dokáže doplnit uvozovky, které CSV potřebuje. Hromadné nahrazení tabulátorů čárkami to spolehlivě nezvládne.
 
-## V Nibomo použijte text k návrhu kartiček a ty pak zkontrolujte
+## Importujte text z Quizletu do Nibomo
 
-[Nibomo](/cs/features/) nemá přímý import z Quizletu. V hostované aplikaci lze TXT nebo CSV přiložit jako soubor a s pomocí AI z něj vytvořit návrhy kartiček; nejde o bezeztrátovou migraci.
+Ve webové aplikaci Nibomo otevřete **Knihovna > Import > Importovat z aplikace Quizlet**. Vložte zkopírovaný text a zvolte **Spustit import**. Nibomo odešle text do chatu s AI, který z něj vytvoří nové kartičky. Uložené kartičky porovnejte s originálem. Obrázky, historie učení ani termíny opakování se z Quizletu nepřenesou.
 
-1. Původní soubor z Quizletu uchovejte mimo aplikaci.
-2. V AI chatu Nibomo přiložte upravený soubor TXT nebo řádně připravený soubor CSV.
-3. Sdělte asistentovi, jaký oddělovač a jaká pole soubor používá.
-4. Požádejte o malou ukázku a výslovně uveďte, že zatím nemá kartičky ukládat.
-5. Porovnejte navržený počet kartiček i jejich přední a zadní strany s pracovním souborem.
-6. Uložte pouze kartičky, které jste zkontrolovali.
+Pokud si chcete kartičky před uložením prohlédnout, z tabulky zkopírujte jen sloupce s pojmy a definicemi, bez záhlaví. Na každém řádku nechte jednu dvojici a z buněk odstraňte tabulátory a zalomení řádků. Text vložte přes **Importovat z tabulky** a nastavte oddělovače podle vloženého textu. U zkopírovaných buněk to bývá tabulátor mezi pojmem a definicí a nový řádek mezi kartičkami. Pokud máte CSV s poli v uvozovkách, otevřete jej nejprve v tabulkovém procesoru. Import vloženého textu uvozovky v CSV nezpracovává.
 
-[Průvodce prvními kroky](/docs/getting-started/) popisuje AI chat s daty pracovního prostoru a přílohami. Obezřetné zadání může vypadat takto:
+Chcete-li obsah nechat upravit nebo si prohlédnout ukázku bez uložení, přiložte TXT nebo CSV k novému chatu s AI a výslovně ho o to požádejte. Uveďte přesný oddělovač mezi pojmem a definicí, například čárku nebo středník. Pro soubor s tabulátory můžete použít tento požadavek.
 
 > Čti tento soubor jako dvojice pojmů a definic oddělené tabulátorem. Zatím kartičky neukládej. Navrhni malou ukázku, zachovej původní znění i znaky nelatinkových písem a chybné, prázdné nebo nejednoznačné řádky vypiš zvlášť místo odhadování jejich významu.
 

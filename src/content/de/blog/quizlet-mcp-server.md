@@ -86,7 +86,7 @@ Damit wird Nibomo nicht zu einem Quizlet-Connector. Der unterstützte Ablauf sie
 
 1. Exportiere den Text aus einem Quizlet-Set, das du selbst erstellt hast.
 2. Bewahre die Rohdatei auf und prüfe eine Arbeitskopie.
-3. Prüfe die zugeordneten Karten, bevor du sie in Nibomo speicherst.
+3. Füge den Text in der Web-App unter **Bibliothek > Import > Aus Quizlet importieren** ein, starte den Import und gleiche die gespeicherten Karten mit dem Original ab.
 4. Verbinde den so angelegten Nibomo-Arbeitsbereich für künftige Lese- und Schreibzugriffe mit einem kompatiblen Client.
 
 Die [MCP-Connector-Referenz](/docs/mcp-connector/) beschreibt die Verbindung und die verfügbaren Werkzeuge. Verwende den dokumentierten MCP- oder Agent-API-Weg, den dein Client unterstützt.

@@ -132,7 +132,7 @@ Vergleiche die Produkte anhand deiner konkreten Anforderungen. Eine vertraute Ob
 
 Für Nibomo gibt es eine [Self-Hosting-Anleitung mit Schwerpunkt auf AWS](/de/docs/self-hosting/), aber keinen lokalen Ein-Klick-Installer. Wer die App betreibt, ist selbst für Cloud-Konten, Authentifizierung, E-Mail-Versand, Monitoring, Backups, Upgrades und Builds der nativen Apps verantwortlich.
 
-Die App ist nicht mit Quizlet kompatibel. Es gibt keinen Quizlet-Importer mit einem Klick, und Nibomo bildet weder alle Quizlet-Spiele noch das gesamte Angebot für den Unterricht nach. Du kannst einen geprüften Quizlet-Textexport als Ausgangsmaterial für neue Karten verwenden. Das ist ein Migrationsweg, keine Kompatibilität mit Quizlet-Sets oder dem Lernverlauf.
+Öffne in der Nibomo-Web-App **Bibliothek > Import > Aus Quizlet importieren**. Füge den kopierten Text ein und wähle **Import starten**. Nibomo sendet den Text an den KI-Chat, der daraus neue Karten erstellt. Gleiche die gespeicherten Karten mit dem Original ab. Bilder, Lernverlauf und Fälligkeitstermine bleiben in Quizlet. Quizlets Spiele und Unterrichtsfunktionen werden dabei nicht nachgebildet.
 
 Nibomo kommt infrage, wenn dir der Quellcode des vollständigen Stacks, die MIT-Lizenz, eine API und ein vom Betreiber kontrolliertes Deployment wichtig genug sind, um diese Grenzen zu akzeptieren. Andere [Open-Source-Karteikarten-Apps](/de/blog/best-open-source-flashcard-apps-2026/) passen besser, wenn du mehr Wert auf ein ausgereiftes Desktop-Ökosystem, einen direkten Import oder eine kleinere Self-Hosting-Aufgabe legst.
 

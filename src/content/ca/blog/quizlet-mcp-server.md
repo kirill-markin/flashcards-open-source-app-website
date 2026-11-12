@@ -86,7 +86,7 @@ Això no converteix Nibomo en un connector de Quizlet. El flux admès és:
 
 1. exportar el text d’un conjunt de Quizlet que hagis creat;
 2. conservar el fitxer en brut i inspeccionar una còpia de treball;
-3. revisar les targetes resultants de l’assignació dels camps abans de desar-les a Nibomo; i
+3. enganxar el text a **Biblioteca > Importa > Importa des de l’app Quizlet** a l’app web, iniciar la importació i comparar les targetes desades amb l’original;
 4. connectar l’espai de treball resultant de Nibomo a un client compatible per a lectures i escriptures futures.
 
 Per a Claude, trobaràs els passos del connector a [Com connectar Nibomo a Claude amb MCP](/blog/how-to-connect-flashcards-to-claude-with-mcp/). Codex i altres agents poden fer servir la via documentada d’MCP o de l’Agent API que admeti el seu entorn.

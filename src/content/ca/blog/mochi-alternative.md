@@ -166,6 +166,7 @@ La [guia de còpies de seguretat de Mochi](https://mochi.cards/docs/getting-star
 - Una exportació `.mochi` conserva les baralles, les targetes, les plantilles i els camps, els adjunts, les etiquetes i les metadades, l'historial de repassos, l'ordre de les targetes i l'estructura de les baralles.
 
 Les [exportacions Markdown i CSV de Mochi](https://mochi.cards/docs/import-and-export/exporting/) són formats de portabilitat. Markdown crea un fitxer per targeta i carpetes per a les subbaralles, però perd l'historial de repassos, l'ordre de les targetes, les plantilles i les etiquetes de metadades, tret que les etiquetes siguin al Markdown. CSV pot exportar els camps de les plantilles o el contingut visible de l'anvers i el revers, però no conserva l'historial de repassos, les plantilles ni les etiquetes de metadades, tret que aquestes estiguin incorporades al contingut.
+Per provar una baralla de Mochi a Nibomo, ves a **Biblioteca > Importa > Importa des de l’app Mochi** a l’app web i tria un fitxer `.mochi`. El fitxer s’envia al xat amb IA per crear targetes noves. Comprova’n el contingut i els fitxers multimèdia. Conserva l’original per restaurar les plantilles i l’historial de repassos a Mochi.
 
 Anki fa una distinció semblant:
 

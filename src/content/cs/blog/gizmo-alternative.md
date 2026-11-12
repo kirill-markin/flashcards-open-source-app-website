@@ -2,7 +2,7 @@
 title: "Recenze kartičkové aplikace Gizmo (2026): limity bezplatného tarifu, Magic Import a alternativy"
 description: "Recenze Gizmo podle oficiálních zdrojů: čekání mezi importy v bezplatném tarifu, AI Tutor, typy kartiček, export, co víme o offline režimu a praktická alternativa."
 date: "2026-08-03"
-updated: "2026-09-01"
+updated: "2026-11-12"
 image: "/blog/gizmo-alternative-v2.png"
 keywords:
   - "kartičky Gizmo"
@@ -97,11 +97,11 @@ Podle [návodu ke správě kartiček](https://help.gizmo.ai/en/articles/13761411
 
 Omezení se projeví v režimu Memorise: kartičku tam můžete smazat, ale během kvízu ji v současnosti upravit nelze. Když při učení narazíte na chybnou odpověď, musíte tento režim opustit a opravit ji jinde.
 
-### Export z Gizmo není dostupný
+### Uložení balíčku z Gizmo jako PDF
 
-Tentýž oficiální návod uvádí, že export kartiček zatím není dostupný. [Návod ke správě sad](https://help.gizmo.ai/en/articles/12995587-how-do-i-make-changes-to-my-decks) říká, že není dostupný ani export sad.
+Podle [návodu ke správě sad](https://help.gizmo.ai/en/articles/12995587-how-do-i-make-changes-to-my-decks) v Gizmo otevřete nabídku se třemi tečkami u balíčku, vyberte **Print** (Tisk) a v tiskovém dialogu prohlížeče zvolte **Save as PDF** (Uložit jako PDF).
 
-To je nejzřetelnější současné omezení kontroly nad daty. Gizmo přijímá materiály z několika jiných systémů, ale momentálně nenabízí zdokumentovaný způsob, jak výsledné kartičky dostat ven. Pokud je pro vás důležitý budoucí přechod jinam, posuzujte produkt podle tohoto dnešního omezení, ne podle možnosti, že někdy později export přibude.
+PDF slouží ke čtení. Původní balíček si ponechte: tímto postupem nezískáte upravitelný soubor s kartičkami a nepřenesete historii ani termíny opakování.
 
 ### Dokumentace nedává dost jistoty o fungování offline
 
@@ -121,7 +121,7 @@ Na tomto rozdílu záleží, protože „načtená obrazovka stále reaguje“ a
 | Způsob opakování | Memorise, rozložené opakování a různé styly otázek | Rozložené opakování pomocí FSRS |
 | Motivace | XP, Levels, Leagues, Streaks, Hearts, Hints a Coins | Aktuální produktové stránky nepopisují srovnatelné herní prvky |
 | Podklady k offline režimu | V prověřené dokumentaci nebyl nalezen oficiální příslib fungování offline | Učení offline na mobilu a automatická synchronizace jsou zdokumentované funkce |
-| Přenos dat jinam | Export kartiček ani sad není v současnosti dostupný | Přenositelné exporty zahrnují kartičky, štítky a související média |
+| Přenos dat jinam | Tisk balíčku nebo uložení jako PDF | Přenositelné exporty zahrnují kartičky, štítky a související média |
 | Kontrola nad provozem | V prověřených oficiálních stránkách nebylo nalezeno tvrzení o možnosti provozu na vlastním serveru | Otevřený zdrojový kód a možnost provozu na vlastním serveru |
 
 Nibomo je praktickou alternativou k aplikaci Gizmo, pokud vám stačí užší rozsah funkcí popsaný v tabulce. Jeho aktuální [stránka funkcí](/cs/features/) popisuje FSRS, tvorbu kartiček s pomocí AI, učení offline na mobilu a synchronizaci, přenositelné exporty a provoz na vlastním serveru. Nepopisuje obdobu Magic Import s pěti formáty kartiček, lekcí s Tutor ani herních prvků Gizmo.
@@ -136,9 +136,9 @@ Výměnou za to dostanete užší rozsah funkcí. Aktuální stránky Nibomo nep
 
 ## Lze z Gizmo přejít do jiné aplikace?
 
-Dnes to nejde hladce. Protože export z Gizmo není dostupný, neexistuje běžný přesun z Gizmo do Nibomo ani jiné aplikace prostřednictvím souboru.
+Malý soubor PDF můžete vyzkoušet ve webové aplikaci Nibomo přes **Knihovna > Import > Importovat z jiné aplikace**. Tato volba odešle soubor do chatu s AI, který z něj vytvoří nové kartičky. Postup jsem nezkoušel přímo s PDF z Gizmo. Uložené otázky a odpovědi porovnejte s originálem. Nepředpokládejte, že se přenesou typy kvízů nebo historie opakování. Podrobnosti najdete v [návod k importu kartiček](/docs/import-flashcards/).
 
-Bezpečný náhradní postup spočívá v ručním přenosu vybraných kartiček:
+Pokud dáváte přednost ručnímu přenosu, vyberte důležité kartičky:
 
 1. Mějte po ruce původní přednášku, poznámky, snímky prezentace nebo jiný zdroj.
 2. Znovu vytvořte pouze kartičky, které jsou stále správné a užitečné.
@@ -147,7 +147,7 @@ Bezpečný náhradní postup spočívá v ručním přenosu vybraných kartiček
 
 Je to pomalejší než automatický import a část informací se ztratí. Má to však jednu užitečnou vedlejší výhodu: přenesete si jen kartičky, které obstojí při kontrole kvality.
 
-Další možností je používat obě aplikace. Gizmo dokáže zpracovat přednášku nebo prezentaci a nabídnout různorodé procvičování. Nibomo může uchovávat menší sadu zkontrolovaných kartiček s přední a zadní stranou pro opakování pomocí FSRS. Přenos mezi nimi zůstává ruční, protože Gizmo kartičky neexportuje.
+Další možností je používat obě aplikace. Gizmo dokáže zpracovat přednášku nebo prezentaci a nabídnout různorodé procvičování. Nibomo může uchovávat menší sadu zkontrolovaných kartiček s přední a zadní stranou pro opakování pomocí FSRS. Ať už kartičky přenesete ručně, nebo vyzkoušíte import PDF, vyberte jen ty, které si chcete nechat.
 
 ## Který způsob práce vám vyhovuje?
 

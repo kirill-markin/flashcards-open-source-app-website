@@ -76,6 +76,7 @@ Die aktuelle [SuperMemo.com-App](https://www.supermemo.com/en/app) ist ein gehos
 Der gehostete Dienst bezeichnet seinen Scheduler als proprietär und dokumentiert eine eigene SuperMemo-Methode samt Wiederholungsablauf. Aus den öffentlichen Seiten geht nicht hervor, dass der aktuelle Scheduler SM-18, SM-20 oder FSRS ist. Deshalb ordnet dieser Artikel ihm keine dieser Bezeichnungen zu.
 
 Diese Unterscheidung verändert auch die Kaufentscheidung. Wer unter Windows mit Incremental Reading arbeiten möchte, sollte SuperMemo 20 prüfen. Wer einen gehosteten Spanisch- oder Englischkurs sucht, sollte SuperMemo.com prüfen. Beide teilen einen Namen und eine Geschichte, sind als Produkterlebnis aber nicht austauschbar.
+Wenn du eine `.xml` aus SuperMemo hast, wähle in der Nibomo-Web-App **Bibliothek > Import > Aus SuperMemo importieren**. Die Datei geht an den KI-Chat, der neue Karten erstellt; der Wiederholungsverlauf wird nicht übernommen.
 
 ## Der SuperMemo-Algorithmus ist eine Familie, keine einzelne Formel
 

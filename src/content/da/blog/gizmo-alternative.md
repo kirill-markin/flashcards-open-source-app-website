@@ -2,7 +2,7 @@
 title: "Anmeldelse af Gizmo-flashcards (2026): Gratisplanens grænser, Magic Import og alternativer"
 description: "Anmeldelse af Gizmo-flashcards baseret på officielle kilder: ventetid for Magic Import på gratisplanen, AI Tutor, korttyper, eksport, offlinebrug og et alternativ."
 date: "2026-08-03"
-updated: "2026-09-01"
+updated: "2026-11-12"
 image: "/blog/gizmo-alternative-v2.png"
 keywords:
   - "Gizmo flashcards"
@@ -97,11 +97,11 @@ Gizmos [vejledning til administration af kort](https://help.gizmo.ai/en/articles
 
 Begrænsningen viser sig i Memorise: Her kan du slette et kort, men du kan i øjeblikket ikke redigere det midt i quizzen. Hvis du opdager et forkert svar under repetitionen, skal du forlade quizzen for at rette det.
 
-### Gizmo understøtter ikke eksport
+### Gem en bunke fra Gizmo som PDF
 
-Den samme officielle vejledning siger, at eksport af kort endnu ikke er tilgængelig. Gizmos [vejledning til administration af kortsæt](https://help.gizmo.ai/en/articles/12995587-how-do-i-make-changes-to-my-decks) siger, at eksport af kortsæt heller ikke er tilgængelig.
+Ifølge Gizmos [vejledning til administration af kortsæt](https://help.gizmo.ai/en/articles/12995587-how-do-i-make-changes-to-my-decks) skal du åbne menuen med de tre prikker i kortsættet og vælge **Print**. Vælg derefter **Save as PDF** (Gem som PDF) i browserens udskriftsvindue.
 
-Det er den tydeligste begrænsning i din kontrol over data i den nuværende arbejdsgang. Gizmo accepterer materiale fra flere andre systemer, men tilbyder i øjeblikket ingen dokumenteret måde at få de færdige kort ud igen på. Hvis du vil kunne flytte senere, så vurder produktet ud fra denne aktuelle begrænsning frem for muligheden for en fremtidig eksportfunktion.
+PDF-filen er en kopi til læsning. Behold den oprindelige bunke: Eksporten giver dig ikke en redigerbar kortfil og flytter hverken repetitionshistorik eller datoer.
 
 ### Offlinebrug er ikke dokumenteret tydeligt nok til at kunne loves
 
@@ -121,7 +121,7 @@ Forskellen er væsentlig, fordi »en indlæst skærm reagerer stadig« og »min 
 | Repetitionsform | Memorise, spaced repetition og varierede spørgsmålstyper | Spaced repetition med FSRS |
 | Motivation | XP, Levels, Leagues, Streaks, Hearts, Hints og Coins | De aktuelle produktsider dokumenterer ingen tilsvarende spilmekanik |
 | Dokumentation om offlinebrug | Ingen officiel garanti for offlinebrug fundet i den gennemgåede dokumentation | Læring offline på mobilen og automatisk synkronisering er dokumenterede funktioner |
-| Mulighed for at få data ud | Eksport af kort og kortsæt er i øjeblikket ikke tilgængelig | Flytbare eksportfiler indeholder kort, tags og tilhørende medier |
+| Mulighed for at få data ud | Udskriv bunken, eller gem den som PDF | Flytbare eksportfiler indeholder kort, tags og tilhørende medier |
 | Kontrol over hosting | Ingen påstand om egen hosting på de gennemgåede officielle sider | Open source og mulighed for egen hosting |
 
 Nibomo er kun et praktisk alternativ til Gizmo for de mere afgrænsede behov i denne tabel. Den aktuelle [funktionsside](/da/features/) dokumenterer FSRS, AI-assisteret kortoprettelse, læring offline og synkronisering på mobilen, flytbare eksportfiler og egen hosting. Den beskriver ingen pendant til Gizmos Magic Import med fem kortformater, Tutor-lektioner eller spilmekanik.
@@ -136,9 +136,9 @@ Til gengæld er omfanget mindre. De aktuelle Nibomo-sider dokumenterer ikke Gizm
 
 ## Kan du flytte fra Gizmo til en anden app?
 
-I dag er der ingen ligetil løsning. Fordi Gizmo ikke understøtter eksport, findes der ingen normal filbaseret flytning fra Gizmo til Nibomo eller en anden app.
+Du kan prøve med en lille PDF i Nibomos webapp via **Bibliotek > Import > Importér fra en anden app**. Det sender filen til AI-chatten, der kan oprette nye kort. Jeg har ikke afprøvet det med en PDF fra Gizmo. Sammenlign de gemte spørgsmål og svar med originalen, og regn ikke med, at quizformater eller repetitionshistorik følger med. Se [vejledningen til import af flashcards](/docs/import-flashcards/).
 
-Den sikre omvej er manuel og selektiv:
+Hvis du vil overføre kortene manuelt, så vælg de vigtigste:
 
 1. Hav den oprindelige forelæsning, dine noter, dias eller andet kildemateriale ved siden af dig.
 2. Genskab kun de kort, der stadig er korrekte og nyttige.
@@ -147,7 +147,7 @@ Den sikre omvej er manuel og selektiv:
 
 Det er langsommere end et importværktøj, og du bevarer ikke alt. Den nyttige sideeffekt er, at du kun tager kort med videre, som består et kvalitetstjek.
 
-Du kan også bruge begge apps. Gizmo kan bearbejde en forelæsning eller præsentation og give varierede øvelser. Nibomo kan rumme en mindre samling af gennemgåede kort med for- og bagside til FSRS-repetition. Overførslen er fortsat manuel, fordi Gizmo ikke eksporterer kortene.
+Du kan også bruge begge apps. Gizmo kan bearbejde en forelæsning eller præsentation og give varierede øvelser. Nibomo kan rumme en mindre samling af gennemgåede kort med for- og bagside til FSRS-repetition. Vælg de kort, du vil beholde, uanset om du overfører dem manuelt eller prøver PDF-import.
 
 ## Hvilken arbejdsgang passer til dig?
 

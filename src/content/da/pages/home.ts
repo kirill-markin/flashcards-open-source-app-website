@@ -111,7 +111,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Import, eksport og dine egne data",
           description:
-            "Flyt dit læringsmateriale ind eller ud, når du vil. Flytbare eksporter indeholder dine kort, tags og tilhørende medier.",
+            "Tag dine kort med fra Quizlet, Anki og andre apps. Du kan eksportere dine kort, tags og medier fra Nibomo, når du vil.",
+          link: {
+            label: "Se, hvordan du importerer flashcards",
+            href: "/docs/import-flashcards/",
+          },
         },
         {
           title: "Virker med AI-agenter",

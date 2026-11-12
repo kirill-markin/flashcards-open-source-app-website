@@ -166,6 +166,7 @@ Mochis [Anleitung zu Sicherungen](https://mochi.cards/docs/getting-started/backi
 - Ein `.mochi`-Export bewahrt Decks, Karten, Vorlagen und Felder, Anhänge, Tags und Metadaten, Wiederholungsverlauf, Kartenreihenfolge und Deck-Struktur.
 
 Mochis [Markdown- und CSV-Exporte](https://mochi.cards/docs/import-and-export/exporting/) sind für den Wechsel zwischen Systemen gedacht. Markdown erstellt eine Datei pro Karte und Ordner für Unterdecks, lässt jedoch Wiederholungsverlauf, Kartenreihenfolge, Vorlagen und Metadaten-Tags weg – außer die Tags stehen im Markdown selbst. CSV kann Vorlagenfelder oder gerenderte Vorder- und Rückseiten exportieren, bewahrt aber weder Wiederholungsverlauf noch Vorlagen oder Metadaten-Tags, sofern sie nicht in den Inhalt eingebettet sind.
+Um ein Deck aus Mochi in Nibomo zu testen, öffne in der Web-App **Bibliothek > Import > Aus Mochi importieren** und wähle eine `.mochi`-Datei aus. Die Datei geht an den KI-Chat, der daraus neue Karten erstellt. Prüfe den Inhalt und die Medien. Bewahre die Originaldatei auf, damit du Vorlagen und Wiederholungsverlauf in Mochi wiederherstellen kannst.
 
 Anki unterscheidet ähnlich:
 

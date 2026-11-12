@@ -20,7 +20,7 @@ Das ist der teure Teil beim Vergleich von Anki-Alternativen. Einen aufgeräumter
 
 Genau dort setzt dieser Vergleich an. Er behandelt sieben Apps wie Anki, zeigt, was sie aus einer bestehenden Sammlung übernehmen, was sich nach dem Import ändert und wann du besser bei Anki bleibst.
 
-> **Offenlegung:** Ich bin Kirill Markin und entwickle [Nibomo](https://nibomo.com/), eines der Produkte in diesem Vergleich. Ich habe es wegen des offenen Quellcodes, der Self-Hosting-Option und der Workflows für KI-Agenten aufgenommen. Es ist hier nicht automatisch die beste Wahl: Es liest Anki-`.apkg`-Dateien nur über den KI-Chat, die Migration aus Anki ist verlustbehaftet, und der Betrieb des selbst gehosteten Stacks ist eine echte Infrastrukturaufgabe.
+> **Offenlegung:** Ich bin Kirill Markin und entwickle [Nibomo](https://nibomo.com/), eines der Produkte in diesem Vergleich. Ich habe es wegen des offenen Quellcodes, der Self-Hosting-Option und der Workflows für KI-Agenten aufgenommen. Es ist hier nicht automatisch die beste Wahl: Die Migration aus Anki ist verlustbehaftet, und der Betrieb des selbst gehosteten Stacks ist eine echte Infrastrukturaufgabe.
 
 **Fakten geprüft:** 28. August 2026. Die Preise sind die an diesem Tag verfügbaren öffentlichen US-Preise oder angegebenen lokalen Preise. Steuern, Regionen, Bildungsangebote und die Abrechnung über App-Stores können den Betrag verändern. Die Angaben zum Anki-`.apkg`-Import von Nibomo wurden am 8. November 2026 geprüft.
 
@@ -41,7 +41,7 @@ Bei den übrigen vier Produkten baust du Inhalte neu auf, statt eine Sammlung zu
 - **Quizlet** eignet sich für öffentliche Lernsets, Klassen, Spiele und angeleitetes Üben.
 - **Brainscape** bietet Gruppen eine einfachere Bewertungsschleife von 1 bis 5.
 - **SuperMemo** ist ein Wechsel zu seiner proprietären Methode und seinem Kurskatalog.
-- **Nibomo** bietet MIT-lizenzierte Web- und native Clients, ein selbst hostbares Backend sowie API- und MCP-Zugriff. Sein KI-Chat kann aus einer angehängten `.apkg` Karten machen, der Anki-Lernstatus kommt aber nicht mit.
+- **Nibomo** bietet MIT-lizenzierte Web- und native Clients, ein selbst hostbares Backend sowie API- und MCP-Zugriff. In der Web-App sendet **Aus Anki importieren** Dateien im Format `.apkg` oder `.colpkg` an den KI-Chat, der daraus neue Karten erstellt. Wiederholungsverlauf, Fälligkeitstermine und Vorlagen bleiben in Anki.
 
 Wenn deine Karten von exakter Darstellung, Add-ons oder der aktuellen Wiederholungswarteschlange abhängen, ist es keine Unentschlossenheit, bei Anki zu bleiben. Es ist die richtige Antwort.
 
@@ -78,7 +78,7 @@ Ein Importer kann die erste Frage bestehen und bei den anderen beiden scheitern.
 | [Quizlet](https://quizlet.com/) | [Begriffe und Definitionen einfügen](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content) | Kein Anki-Lernstatus | Notiztypen, Vorlagen, Decks, Medienstruktur und sämtliche Planungsdaten |
 | [Brainscape](https://www.brainscape.com/) | [CSV, TXT, XLSX oder ODS](https://brainscape.zendesk.com/hc/en-us/articles/115002369931-How-do-I-import-various-files-to-create-flashcards) | Kein Anki-Lernstatus | Vorlagen, Add-ons, Medienregeln und sämtliche Planungsdaten |
 | [SuperMemo](https://www.supermemo.com/) | [Frage-und-Antwort-Zeilen mit Trennzeichen einfügen](https://www.supermemo.com/en/blog/how-to-create-flashcards-for-learning), bis zu 100 auf einmal | Kein Anki-Lernstatus | Sammlungsstruktur, Medien, Vorlagen und sämtliche Planungsdaten |
-| [Nibomo](https://nibomo.com/) | [`.apkg` im KI-Chat anhängen](/blog/import-anki-apkg/); die KI speichert die Karten direkt, und Lückentexte bleiben Lückentexte. TXT oder CSV funktioniert ebenfalls | Kein Anki-Lernstatus; jede Karte startet als neu | Vorlagen, CSS und sämtliche Planungsdaten; Unterdecks werden zu separaten flachen Decks, benannt mit dem vollständigen Anki-Pfad |
+| [Nibomo](https://nibomo.com/) | Die Web-App sendet `.apkg` und `.colpkg` aus Anki an den KI-Chat; der Wiederholungsverlauf bleibt in Anki | Kein Anki-Lernstatus; jede Karte startet als neu | Vorlagen, CSS und sämtliche Planungsdaten |
 
 ## Preis, Offline-Nutzung, Lernplanung und Kontrolle
 
@@ -170,7 +170,11 @@ Wähle SuperMemo, wenn dir die eigene Methode oder der Kurskatalog wichtig genug
 
 Nibomo legt den gesamten Stack offen. Das [MIT-lizenzierte Repository](https://github.com/kirill-markin/flashcards-open-source-app) enthält die Web-App, iOS- und Android-Clients, das Backend, Offline-Synchronisierung, Infrastruktur, eine [öffentliche API](/docs/api/) und einen [MCP-Server](/docs/mcp-connector/). Wiederholungen verwenden [FSRS](/docs/architecture/#scheduling). Web, iOS und Android schreiben zuerst lokal, sammeln Änderungen in einer Outbox und synchronisieren sie nach der nächsten Verbindung.
 
-Das macht Nibomo nicht mit Anki kompatibel. Es gibt keinen Ein-Klick-Importer, und Bibliothek → Import nimmt nur Nibomos eigenes `.zip` an. Stattdessen [hängst du eine `.apkg` im KI-Chat an](/blog/import-anki-apkg/) und bittest darum, aus dem Deck Karten zu machen. Exporte im aktuellen Format funktionieren, bis zu 30 MB pro Datei; **Support older Anki versions** brauchst du nicht. Die KI speichert die Karten direkt: Tags kommen an, jedes Anki-Deck wird zu einem Nibomo-Deck (jedes Unterdeck wird zu einem eigenen flachen Deck, benannt mit dem vollständigen Anki-Pfad, und das übergeordnete Deck enthält zusätzlich die Karten des Unterdecks), und Lückentext-Karten bleiben Lückentexte. In einem kleinen Test mit einem Paket im neuesten Format, erstellt mit Ankis offiziellem Exportcode (der Python-Bibliothek anki), landeten alle drei Bilder auf den richtigen Karten, und Notizen mit umgekehrter Karte wurden in zwei Karten mit je einer Richtung aufgeteilt. Prüfe die Bilder nach dem Import trotzdem. Vorlagen, Add-ons, Fälligkeitstermine, Intervalle und Wiederholungsereignisse bleiben zurück, und `.colpkg`-Dateien werden nicht angenommen. Die ältere [Anki-Migration per TXT](/blog/migrate-from-anki-txt-export-open-source-flashcards/) funktioniert weiterhin für reine Textkarten.
+Öffne in der Web-App **Bibliothek > Import > Aus Anki importieren**, wähle eine Datei im Format `.apkg` oder `.colpkg` und klicke auf **Import starten**, um sie an den KI-Chat zu senden. Beginne mit einer kleinen `.apkg`. Das Limit liegt bei 30 MiB pro Datei.
+
+In einem kleinen Test im iOS-Simulator wurde eine `.apkg` direkt im KI-Chat angehängt. Der Chat speicherte 13 Karten. Das Testpaket wurde im aktuellen Format mit Ankis offizieller Python-Bibliothek erstellt. Die Tags kamen mit, das Unterdeck erschien als separates Deck mit dem vollständigen Anki-Pfad, und seine Karten waren auch im übergeordneten Deck zu sehen. Die Lücken blieben erhalten, und alle drei Bilder landeten auf den richtigen Karten. Aus jeder Notiz mit umgekehrter Karte entstanden zwei Karten, eine pro Richtung. Vergleiche nach deinem Import die Decknamen und die Anzahl der Karten pro Deck mit dem Original. Prüfe bei einigen Karten Vorder- und Rückseite, Tags, Lücken und Bilder.
+
+Vorlagen, Add-ons, Fälligkeitstermine, Intervalle und Wiederholungsereignisse bleiben zurück. Die ältere [Anki-Migration per TXT](/blog/migrate-from-anki-txt-export-open-source-flashcards/) funktioniert weiterhin für reine Textkarten.
 
 Auch das eigene `flashcards.zip`-Paket von Nibomo sichert weniger als ein vollständiges Backup. Es verschiebt Karten, Tags und zugehörige Medien zwischen Nibomo-Workspaces. Wiederholungsverlauf, FSRS-Status, vollständige Deck-Strukturen, Workspace-Einstellungen und Konten werden nicht übertragen.
 

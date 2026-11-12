@@ -111,7 +111,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Daten importieren, exportieren und selbst verwalten",
           description:
-            "Verschiebe deine Lernmaterialien jederzeit in die App oder aus ihr heraus. Portable Exporte enthalten deine Karten, Tags und zugehörigen Medien.",
+            "Übernimm Karten aus Quizlet, Anki und anderen Apps. Deine Karten, Tags und Medien kannst du jederzeit aus Nibomo exportieren.",
+          link: {
+            label: "So importierst du Karteikarten",
+            href: "/docs/import-flashcards/",
+          },
         },
         {
           title: "Funktioniert mit KI-Agenten",

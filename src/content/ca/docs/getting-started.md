@@ -44,6 +44,10 @@ La manera més ràpida de començar és l'app web allotjada:
 
 L'opció allotjada no requereix cap instal·lació ni configurar cap servidor.
 
+## Porta les teves targetes a Nibomo
+
+Ja tens targetes a Quizlet, Anki o una altra app? Obre **Biblioteca > Importa** i consulta la [guia per importar targetes](/docs/import-flashcards/) per triar el format adequat i saber què es transfereix.
+
 ## Configuració d'agents
 
 Els clients MCP com Claude, ChatGPT i Cursor s'hi poden connectar seguint la [guia del connector MCP](/docs/mcp-connector/).

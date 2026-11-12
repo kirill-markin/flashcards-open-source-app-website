@@ -2,7 +2,7 @@
 title: "Ressenya de Gizmo (2026): límits del pla gratuït, Magic Import i alternatives"
 description: "Ressenya de l'app de fitxes Gizmo contrastada amb fonts: espera de Magic Import al pla gratuït, AI Tutor, formats, exportació, dades sobre l'ús sense connexió i una alternativa pràctica."
 date: "2026-08-03"
-updated: "2026-09-01"
+updated: "2026-11-12"
 image: "/blog/gizmo-alternative-v2.png"
 keywords:
   - "fitxes de Gizmo"
@@ -97,11 +97,11 @@ La [guia de gestió de fitxes](https://help.gizmo.ai/en/articles/13761411-how-do
 
 La limitació apareix durant Memorise: hi pots eliminar una fitxa, però ara mateix no la pots editar a mig qüestionari. Si detectes una resposta incorrecta mentre estudies, has de sortir d'aquest mode per corregir-la.
 
-### No es pot exportar des de Gizmo
+### Desa una baralla de Gizmo com a PDF
 
-La mateixa guia oficial diu que l'exportació de fitxes encara no està disponible. La [guia de gestió de baralles](https://help.gizmo.ai/en/articles/12995587-how-do-i-make-changes-to-my-decks) de Gizmo diu que tampoc no es poden exportar les baralles.
+La [guia de gestió de baralles](https://help.gizmo.ai/en/articles/12995587-how-do-i-make-changes-to-my-decks) de Gizmo indica que has d’obrir el menú de tres punts de la baralla, triar **Print** (Imprimeix) i, al diàleg d’impressió del navegador, seleccionar **Save as PDF** (Desa com a PDF).
 
-Aquesta és la limitació més clara del procés actual pel que fa al control de les dades. Gizmo accepta material de diversos altres sistemes, però ara mateix no ofereix cap manera documentada de treure'n les fitxes resultants. Si et preocupa poder migrar més endavant, valora el producte segons aquesta limitació actual i no segons la possibilitat que s'hi afegeixi una funció d'exportació en el futur.
+El PDF és una còpia per llegir. Conserva la baralla original: aquesta exportació no genera cap fitxer de fitxes editables ni transfereix l’historial o les dates de repàs.
 
 ### L'ús sense connexió no està prou documentat per poder-lo garantir
 
@@ -121,7 +121,7 @@ La distinció importa perquè «una pantalla ja carregada continua responent» i
 | Estil de repàs | Memorise, repetició espaiada i estils de preguntes variats | Repetició espaiada amb FSRS |
 | Sistema de motivació | XP, Levels, Leagues, Streaks, Hearts, Hints i Coins | Les pàgines actuals del producte no documenten cap sistema de joc comparable |
 | Informació sobre l'ús sense connexió | No s'ha trobat cap garantia oficial d'ús sense connexió a la documentació consultada | L'estudi sense connexió al mòbil i la sincronització automàtica són funcions documentades |
-| Possibilitat de treure'n les dades | Actualment no es poden exportar les fitxes ni les baralles | Les exportacions portables inclouen fitxes, etiquetes i contingut multimèdia relacionat |
+| Possibilitat de treure'n les dades | Impressió de la baralla o exportació a PDF | Les exportacions portables inclouen fitxes, etiquetes i contingut multimèdia relacionat |
 | Control del desplegament | Les pàgines oficials consultades no afirmen que es pugui allotjar en un servidor propi | Codi obert i possibilitat d'allotjar-lo en un servidor propi |
 
 Nibomo és una alternativa pràctica a Gizmo si busques el procés més acotat que descriu la seva columna. La seva [pàgina actual de funcions](/ca/features/) documenta FSRS, la creació de fitxes assistida per IA, l'estudi sense connexió al mòbil amb sincronització, les exportacions portables i l'allotjament en un servidor propi. No descriu cap equivalent de Magic Import amb els cinc formats de Gizmo, les lliçons de Tutor o el sistema de joc.
@@ -136,9 +136,9 @@ La contrapartida és l'abast. Les pàgines actuals de Nibomo no documenten el me
 
 ## Pots passar de Gizmo a una altra aplicació?
 
-Avui no hi ha una manera senzilla de fer-ho. Com que Gizmo no permet exportar, no hi ha una migració convencional mitjançant fitxers de Gizmo a Nibomo o a una altra aplicació.
+Pots provar un PDF petit a l’app web de Nibomo amb **Biblioteca > Importa > Importa des d’una altra app**. Aquesta opció envia el fitxer al xat amb IA perquè creï targetes noves. No he provat aquest procés amb un PDF de Gizmo. Compara les preguntes i respostes desades amb l’original i no donis per fet que es conservin els tipus de qüestionari ni l’historial. Consulta la [guia per importar targetes](/docs/import-flashcards/).
 
-L'alternativa segura és manual i selectiva:
+Si prefereixes fer el traspàs a mà, selecciona les fitxes que t’interessen:
 
 1. Tingues a mà la classe original, els apunts, les diapositives o qualsevol altra font.
 2. Torna a crear només les fitxes que encara siguin correctes i útils.
@@ -147,7 +147,7 @@ L'alternativa segura és manual i selectiva:
 
 Això és més lent que fer servir un importador i no es pot fer sense perdre informació. L'efecte positiu és que només t'emportes les fitxes que superen una revisió de qualitat.
 
-Fer servir totes dues aplicacions és una altra opció. Gizmo pot desglossar una classe o una presentació i oferir pràctica variada. Nibomo pot conservar un conjunt més petit de fitxes d'anvers i revers revisades per repassar-les amb FSRS. El pas d'una aplicació a l'altra continua sent manual perquè Gizmo no exporta les fitxes.
+Fer servir totes dues aplicacions és una altra opció. Gizmo pot desglossar una classe o una presentació i oferir pràctica variada. Nibomo pot conservar un conjunt més petit de fitxes d'anvers i revers revisades per repassar-les amb FSRS. Tant si ho fas a mà com si proves un PDF, tria les fitxes que vols conservar.
 
 ## Quin flux de treball encaixa amb tu?
 
