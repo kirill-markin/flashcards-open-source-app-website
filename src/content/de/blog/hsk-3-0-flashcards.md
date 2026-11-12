@@ -1,6 +1,6 @@
 ---
-title: "HSK-3.0-Lernkarten 2026: Verwechsle HSK 2.0 und 3.0 nicht"
-description: "Erstelle HSK-3.0-Lernkarten anhand des offiziellen Lehrplans, halte HSK 2.0 getrennt und nutze FSRS für Vokabeln, Schriftzeichen, Grammatik und Prüfungsfehler."
+title: "HSK 3.0: Lernkarten für die neue Prüfung"
+description: "Bereite dich mit dem offiziellen Lehrplan und den Beispielaufgaben auf HSK 3.0 vor. Wiederhole Vokabeln, Schriftzeichen und Grammatik mit FSRS-Lernkarten."
 date: "2026-07-28"
 image: "/blog/hsk-3-0-flashcards.png"
 keywords:
@@ -8,74 +8,37 @@ keywords:
   - "HSK Lernkarten"
   - "neuer HSK 2026"
   - "HSK 3.0 Lehrplan"
-  - "HSK 2.0 vs. 3.0"
+  - "HSK 3.0 Prüfungsvorbereitung"
   - "HSK Vokabel-Lernkarten"
   - "Lernkarten für chinesische Schriftzeichen"
   - "HSK Grammatik-Lernkarten"
   - "Chinesisch lernen mit FSRS"
 ---
 
-Eine Woche trennte im Januar 2026 zwei HSK-Versionen für die Stufen 1–6. Die reguläre Prüfung am 24. Januar folgte HSK 2.0; beim Pilotversuch am 31. Januar an ausgewählten Prüfungszentren kam HSK 3.0 zum Einsatz. Ein Deck für den einen Termin passt möglicherweise nicht zum anderen.
+Chinese Testing International (CTI) hat den **13. Dezember 2026** als Termin für den weltweiten Start von **HSK 3.0** angekündigt. Beginne deine Vorbereitung mit dem offiziellen Lehrplan und den Beispielaufgaben für deine Prüfungsstufe.
 
-Das ist 2026 der knifflige Teil beim Erstellen von **HSK-3.0-Lernkarten**. Kläre bei einem Prüfungstermin der Stufen 1–6 vor dem Herunterladen einer Vokabelliste oder dem Erstellen eines Decks, welche Version gilt. Nutze dann den passenden offiziellen Lehrplan, halte Vokabeln, Schriftzeichen und Grammatik klar auseinander und lass FSRS die kleinen Lerninhalte einplanen, die du später wieder abrufen willst. Vollständige Hör-, Schreib- und Sprechübungen sowie Prüfungssimulationen unter Zeitdruck finden weiterhin außerhalb des Decks statt.
+Mit Lernkarten kannst du dir Vokabeln, Schriftzeichen, Grammatik und Korrekturen aus Übungsaufgaben einprägen. Lass FSRS die Wiederholungen planen und nimm dir zusätzlich Zeit für vollständige Prüfungsaufgaben.
 
-![Hand einer lernenden Person wählt auf einem warmen Schreibtisch zwischen zwei getrennten Lernkartenstapeln mit einer Karte zur Erkennung eines chinesischen Schriftzeichens und einem separaten Raster für Handschriftübungen](/blog/hsk-3-0-flashcards.png)
+![Lernkarten mit chinesischen Schriftzeichen und ein Raster zum Schreiben auf einem Schreibtisch](/blog/hsk-3-0-flashcards.png)
 
-## Prüfe zuerst, welche Version dein Prüfungstermin der Stufen 1–6 im Jahr 2026 verwendet
+## Starttermin und Anmeldung für HSK 3.0
 
-Laut der [Mitteilung von Chinese Testing International (CTI) zum Pilotversuch mit HSK 3.0](https://www.chinesetest.cn/notice) umfasste der Testlauf am 31. Januar 2026 die HSK-Stufen 1–6 an ausgewählten Prüfungszentren. Darin steht auch, dass für die regulären Prüfungstermine der Stufen 1–6 im Jahr 2026 HSK 2.0 gilt und der offizielle Starttermin von HSK 3.0 separat bekannt gegeben wird. Beim Pilotversuch mussten sich Teilnehmende der Stufen 3–6 gleichzeitig für die entsprechende schriftliche und mündliche Prüfung anmelden.
+Die [offizielle Mitteilung von CTI](https://old.chinesetest.cn/gonewcontent.do?flag=kdnew&id=51336883) nennt die Anmeldefristen für die Prüfung der HSK-Stufen 1–6 am 13. Dezember 2026.
 
-Mit Stand vom 28. Juli 2026 ist das weiterhin die neueste Mitteilung zur Einführung für die Stufen 1–6 auf der offiziellen Hinweisseite zu HSK 3.0. Ein neuer Lehrplan, Beispielaufgaben und ein einzelner Pilotversuch machen nicht automatisch jeden späteren Prüfungstermin der Stufen 1–6 zu HSK 3.0. Im offiziellen Kalender werden die [HSK-Stufen 7–9](https://www.chinesetest.cn/HSK/7-9) separat aufgeführt; die Mitteilung bezeichnet diese fortgeschrittenen Prüfungstermine nicht als HSK 2.0.
+- **Prüfung auf Papier:** 16. November 2026, 24:00 Uhr Pekinger Zeit.
+- **Prüfung am Computer:** 3. Dezember 2026, 24:00 Uhr Pekinger Zeit.
 
-Prüfe für deine eigene Prüfung alle drei Punkte:
+Für die HSK-Stufen 7–9 gibt es einen eigenen Terminplan im [CTI-Prüfungskalender 2026](https://admin.chinesetest.cn/gonewcontent.do?id=50278989).
 
-1. Öffne den [offiziellen Prüfungskalender 2026](https://admin.chinesetest.cn/gonewcontent.do?id=50278989) und suche deinen Termin im Abschnitt für die Stufen 1–6.
-2. Lies die Anmeldeinformationen deines konkreten Prüfungszentrums. Suche nach einer ausdrücklich genannten Version, nicht nur nach einer Stufennummer.
-3. Wenn die Anmeldeseite nicht eindeutig ist, frage das Prüfungszentrum, ob bei deinem Termin HSK 2.0 oder HSK 3.0 zum Einsatz kommt und ob eine mündliche Prüfung dazugehört.
+Auf der [offiziellen HSK-Website](https://www.chinesetest.cn/HSK) findest du ein Prüfungszentrum. Kläre dort, ob es deine Stufe und dein gewünschtes Format am gewählten Termin anbietet. Lies auch die Anmeldehinweise und prüfe, welche Vorgaben für die mündliche Prüfung auf deiner Stufe gelten.
 
-Speichere die Antwort zusammen mit Datum und Quelle. Eine Notiz wie `HSK 2.0, Stufe 4, am 28. Juli vom Prüfungszentrum bestätigt` ist viel nützlicher als ein Ordner namens `neuer HSK`.
+## Offizieller Lehrplan und Beispielaufgaben
 
-Prüfe die Angaben erneut, wenn sich der Termin oder das Prüfungszentrum ändert. Das gilt auch bei einer Umbuchung: Die HSK-Version ist an den Prüfungstermin gebunden, nicht dauerhaft an dich.
+HSK 3.0 umfasst drei Niveaubereiche mit insgesamt neun Stufen. Der Lehrplan gliedert sich in Aufgaben, Themen, Vokabeln, Grammatik und chinesische Schriftzeichen.
 
-## Halte HSK 2.0 und HSK 3.0 in getrennten Decks
-
-Führe die beiden Lehrpläne nicht zu einem riesigen Chinesisch-Deck zusammen und hoffe darauf, dass Tags später für Ordnung sorgen. Viele Inhalte überschneiden sich möglicherweise, doch ihre Zuordnung zu den Stufen und die erwarteten Aufgaben können voneinander abweichen. In deiner Warteschlange für die Prüfung sollte die Version sofort erkennbar sein.
-
-Verwende Decknamen, bei denen die Grenze kaum zu übersehen ist:
-
-- `HSK-2.0-L4 — Prüfung 2026-08-23`
-- `HSK-3.0-L4 — später lernen`
-- `Allgemeines Chinesisch — nicht prüfungsspezifisch`
-
-Füge auf der Rückseite jeder Prüfungskarte eine kurze Quellenzeile ein:
-
-```text
-Version: HSK 3.0
-Stufe: 4
-Quelle: offizieller Lehrplan, Vokabeln
-Geprüft: 2026-07-28
-```
-
-Wenn bestätigt ist, dass dein anstehender Termin HSK 2.0 verwendet, wiederhole das erste Deck. Du kannst für deine langfristigen Chinesischkenntnisse weiterführendes Material aus HSK 3.0 lernen, aber es sollte nicht unbemerkt in der Warteschlange für eine 2.0-Prüfung landen.
-
-Wenn auf einer alten Karte die Quelle fehlt, verschiebe sie in ein vorläufiges Deck namens `ungeprüft`. Nimm sie erst wieder in die Prüfungsvorbereitung auf, wenn du das Wort, Schriftzeichen, Grammatikthema oder die Aufgabenregel eindeutig dem benötigten Lehrplan zuordnen kannst.
-
-## Erstelle Karten aus den offiziellen Materialien zu HSK 3.0
-
-Die [offizielle HSK-Übersicht](https://www.chinesetest.cn/HSK) beschreibt den neuen Rahmen mit drei Niveaustufen und neun Einzelstufen. Demnach umfasst der neue Lehrplan fünf Bereiche: Aufgaben, Themen, Vokabeln, Grammatik und chinesische Schriftzeichen. Das ist ein deutlich besserer Ausgangspunkt als irgendeine Liste im Internet mit der Bezeichnung „neuer HSK“.
-
-Wenn für deinen Prüfungstermin HSK 3.0 bestätigt ist, nutze die Quellen in dieser Reihenfolge:
-
-1. Beginne auf der [offiziellen Seite zum HSK-3.0-Lehrplan](https://www.chinesetest.cn/syllabus).
-2. Lade den dort verlinkten [offiziellen Prüfungslehrplan](https://hsk.cn-bj.ufileos.com/3.0/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B21219.pdf) herunter und wähle in jedem Bereich deine Stufe aus.
-3. Lade auf derselben Seite das offizielle Paket mit Beispielaufgaben für HSK 3.0 herunter. Nutze es, um die Formate des Pilotversuchs zu verstehen und Fehler zu untersuchen.
-4. Halte dich bei den Regeln für deinen konkreten Termin an die Anmeldeinformationen deines Prüfungszentrums.
-
-Der Lehrplan zeigt, was zu einer Stufe gehört. Die Beispielaufgaben zeigen, wie dieses Wissen in den Materialien zu HSK 3.0 eingesetzt wird. Welche Version du tatsächlich ablegst, geht weiterhin aus den Anmeldeinformationen hervor.
-
-Die umfassenderen [Bewertungsstandards für Chinesischkenntnisse](https://www.moe.gov.cn/jyb_xwfb/gzdt_gzdt/s5987/202103/t20210329_523304.html) können das Modell mit drei Niveaustufen und neun Einzelstufen erklären. Sie ersetzen jedoch weder den aktuellen Prüfungslehrplan noch die Mitteilung zu deiner Buchung.
-
-Kopiere die offizielle Vokabelliste oder Beispielprüfung nicht vollständig in ein Deck. Wähle eine überschaubare Menge aus, formuliere eigene kurze Prompts und bewahre den Quellenlink auf. Eine kopierte Liste ist zunächst nur eine Bestandsaufnahme. Sinnvolle Abrufübungen entstehen daraus noch nicht.
+1. Öffne den [offiziellen Lehrplan für HSK 3.0](https://www.chinesetest.cn/syllabus), wähle deine Stufe und sieh dir die einzelnen Bereiche an. Eine PDF-Fassung findest du auf der [offiziellen HSK-Seite](https://www.chinesetest.cn/HSK) unter **Examination Syllabus**.
+2. Lade dort im Menü **HSK3.0** die [Beispielaufgaben (ZIP)](https://hsk-sample-1409982902.cos.ap-beijing.myqcloud.com/HSK3.0.zip) unter **Sample Questions** herunter und öffne das Material für deine Stufe. Bearbeite einen Abschnitt nach Anleitung. So siehst du, wie die Aufgaben aussehen und wo du ins Stocken gerätst.
+3. Lege ein Deck für deine Stufe an, zum Beispiel `HSK 3.0 — Stufe 3`. Beginne mit ein paar Vokabeln oder Satzmustern, die dir beim Üben nicht eingefallen sind. Notiere auf jeder Karte den Abschnitt im Lehrplan oder die Nummer der Beispielaufgabe, damit du die Quelle wiederfindest.
 
 ## Trenne das Material nach dem, was du üben willst
 
@@ -93,16 +56,9 @@ Ergänze eine Karte für den aktiven Abruf erst, wenn du sie brauchst:
 - Vorderseite: `umziehen; bānjiā`
 - Rückseite: `搬家`
 
-`搬家` steht im offiziellen Lehrplan für HSK 3.0 als Vokabel der Stufe 3. Der Beispielsatz hier ist selbst formuliert und stammt nicht aus einer Prüfungsaufgabe. Nutze dasselbe Muster für Wörter aus deiner bestätigten Stufe: eine Bedeutung, ein kurzer Kontext und eine Antwort, die du eindeutig bewerten kannst.
+Im Lehrplan steht `搬家` bei den Vokabeln der Stufe 3. Nutze dasselbe Muster für Wörter deiner Stufe: eine Bedeutung, ein kurzer Kontext und eine Antwort, die du eindeutig bewerten kannst.
 
 Vermeide Vorderseiten, die gleichzeitig Hanzi, Pinyin, Übersetzung und Beispiel zeigen. Eine solche Karte verlangt fast keinen Abruf. Packe auch nicht fünf deutsche Bedeutungen auf eine Rückseite, sofern der Kontext im Lehrplan sie nicht wirklich verlangt.
-
-Frage bei leicht verwechselbaren Wörtern nach dem Unterschied:
-
-- Vorderseite: `办法 und 方法 können sich beide auf eine „Möglichkeit“ oder „Methode“ beziehen. Warum passt 办法 in meinem Ausgangssatz besser?`
-- Rückseite: Füge den geprüften Unterschied aus deinem Unterricht oder offiziellen Lernmaterial hinzu, gefolgt von einem kurzen Beispiel.
-
-Leite diese Erklärung nicht allein aus einem kurzen Wörterbucheintrag ab. Prüfe sie zuerst.
 
 ### Trenne bei Lernkarten für chinesische Schriftzeichen Erkennen und Schreiben
 
@@ -120,7 +76,7 @@ Schreiben:
 
 Decke bei Schreibkarten die Antwort erst auf, nachdem du sie geschrieben hast. Vergleiche danach das gesamte Schriftbild und wähle eine Bewertung. Wenn Strichfolge oder Handschriftqualität wichtig sind, übe sie mit einer Lehrkraft, einem Arbeitsheft oder einem Schreibwerkzeug. Eine reine Textantwort kann das Ziel festhalten, aber dein handgeschriebenes Zeichen nicht bewerten.
 
-Der offizielle Lehrplan trennt Schriftzeichen, die du erkennen musst, von solchen, die du schreiben musst. `搬` ist ein Schriftzeichen, das du in Stufe 3 erkennen musst. `办法` ist dagegen eine Vokabel der Stufe 3, und beide Zeichen, `办` und `法`, stehen auf der Schreibliste für Stufe 3. Prüfe die richtige Stufe und Liste, bevor du annimmst, dass du jedes Wort, das du lesen musst, auch von Hand schreiben können sollst.
+Im offiziellen Lehrplan stehen Schriftzeichen zum Erkennen und zum Schreiben in getrennten Listen. Auf Stufe 3 sollst du zum Beispiel `搬` erkennen und `办` und `法` schreiben können. Sieh in den Listen für deine Stufe nach, bevor du auswählst, welche Zeichen du von Hand übst.
 
 ### Mit HSK-Grammatik-Lernkarten solltest du selbst etwas bilden
 
@@ -131,8 +87,8 @@ Eine Bezeichnung wie `把-Konstruktion` schafft Vertrautheit. Eine kleine Produk
 
 Ein weiteres nützliches Format ist der direkte Vergleich:
 
-- Vorderseite: `Ergänze 才 oder 就: 他八点___到，我七点___到了。`
-- Rückseite: Verwende die anhand deiner Lernquelle geprüfte Antwort und füge eine kurze Erklärung des zeitlichen Gegensatzes hinzu.
+- Vorderseite: `Wir waren für acht Uhr verabredet. Ergänze 才 oder 就: 他八点半___到，我七点半___到了。`
+- Rückseite: `才, dann 就. Er kam erst um halb neun an; ich war schon um halb acht da.`
 
 Behandle pro Karte nur eine Konstruktion. Wenn die Antwort drei Absätze mit Grammatiknotizen braucht, ist der Prompt wahrscheinlich zu breit. Bewahre die Erklärung an anderer Stelle auf und prüfe eine einzelne Entscheidung daraus.
 
@@ -149,14 +105,14 @@ Dazu gehören zum Beispiel:
 
 Halte genau fest, was passiert ist:
 
-- Vorderseite: `Welches Wort im Beispieldialog änderte den Plan von „schon“ zu „noch einmal“?`
-- Rückseite: Füge das geprüfte Wort, Pinyin, die Bedeutung und einen kurzen eigenen Satz hinzu.
+- Vorderseite: `飞机九点才起飞。Deutet 才 darauf hin, dass das Flugzeug früher oder später als erwartet abhebt?`
+- Rückseite: `Später als erwartet: Das Flugzeug hebt erst um neun ab.`
 
 Kehre anschließend zu neuem Audiomaterial zurück. Das Lesen dieser Karte trainiert weder das Verstehen in Echtzeit noch Sprecherwechsel, Notizen oder die Aufmerksamkeit über eine vollständige Aufnahme hinweg.
 
 ### Aufgaben- und Sprechkarten sind Impulse, keine Simulationen
 
-Der Aufgabenteil des offiziellen Lehrplans beschreibt, was Lernende in Alltag, Studium und Beruf können sollten. Das offizielle Paket mit Beispielaufgaben zeigt die Formate des Pilotversuchs mit HSK 3.0. Prüfe beides, bevor du eine Karte zu einem bestimmten Format erstellst.
+Der Lehrplan beschreibt Aufgaben, die du in Alltag, Studium und Beruf bewältigen können sollst. An den offiziellen Beispielen für deine Stufe siehst du, wie diese Fähigkeiten geprüft werden.
 
 Eine Aufgabenkarte kann eine Entscheidung festhalten, die du aus einem überprüften Fehler gelernt hast:
 
@@ -200,7 +156,7 @@ Prüfe zuerst, welche Wissenslücke das falsche Ergebnis zeigt, und formuliere d
 
 ## Wiederhole HSK-Lernkarten mit FSRS, ohne die Warteschlange zu überladen
 
-FSRS entscheidet, wann eine gespeicherte Karte fällig wird. Es kann weder erkennen, ob die Karte zu HSK 2.0 oder 3.0 gehört, noch ob das Chinesisch korrekt ist oder der Prompt zu deiner Stufe passt.
+FSRS plant, wann du eine Karte wiederholst. Welche Karten in dein Deck gehören, entscheidest du anhand des Lehrplans und deiner Ergebnisse beim Üben.
 
 Beginne mit einer kleinen Menge aus der aktuellen Lerneinheit und wiederhole fällige Karten, bevor du weitere hinzufügst. Mache die fünf Inhaltsgruppen durch Decknamen oder Tags sichtbar:
 
@@ -220,7 +176,7 @@ Wenn sich eine Karte wiederholt nur schwer bewerten lässt, bearbeite sie. Trenn
 
 HSK ist eine Sprachprüfung. Kleine Abruf-Prompts decken nur einen Teil der Vorbereitung ab.
 
-Diese Aktivitäten gehören weiterhin zu deiner regelmäßigen Übung:
+Wähle anhand der Beispielaufgaben für deine Stufe aus, was du regelmäßig üben solltest:
 
 - vollständige Hörverstehensabschnitte mit unbekanntem offiziellem Audiomaterial
 - Lesetexte lesen und zusammenhängende Fragen beantworten
@@ -239,11 +195,11 @@ Diese Grenze hält auch das Deck kleiner. Eine übersehene Vokabel braucht viell
 
 Ein praktischer Ablauf sieht so aus:
 
-1. Erstelle getrennte Decks für die bestätigte Version und Stufe.
-2. Füge einige Karten aus dem passenden offiziellen Lehrplan hinzu.
+1. Lege ein Deck für die HSK-3.0-Stufe an, auf die du dich vorbereitest.
+2. Füge ein paar Karten aus dem offiziellen Lehrplan für diese Stufe hinzu.
 3. Ergänze nach dem Üben mit offiziellen Beispielaufgaben nur geprüfte, wiederverwendbare Korrekturen.
 4. Wiederhole die Karten, sobald sie fällig werden.
-5. Bearbeite oder entferne Prompts, die unklar, veraltet oder mit der falschen Version verknüpft sind.
+5. Überarbeite oder entferne Fragen, die unklar sind oder Stoff abfragen, den du nicht mehr brauchst.
 
 Die App enthält keine offiziellen HSK-Decks, importiert den HSK-Lehrplan nicht für dich, bewertet keine mündlichen Antworten und simuliert keine HSK-Prüfung. Du wählst die Quellen aus und prüfst jede Karte. Die gehostete Web-App befindet sich in der Beta-Phase und wird auf Best-Effort-Basis angeboten; Self-Hosting steht zur Verfügung, wenn du den Open-Source-Stack selbst kontrollieren möchtest.
 
@@ -251,13 +207,9 @@ Sieh dir die aktuelle [Funktionsübersicht](/features/) und den [Leitfaden für 
 
 ## FAQ zu HSK-3.0-Lernkarten
 
-### Ist jede HSK-Prüfung der Stufen 1–6 im Jahr 2026 HSK 3.0?
+### Woran erkenne ich, ob ein Deck zu HSK 3.0 passt?
 
-Nein. Mit Stand vom 28. Juli besagt die offizielle Mitteilung zum Pilotversuch, dass die Prüfung der Stufen 1–6 am 31. Januar in ausgewählten Prüfungszentren ein Testlauf mit HSK 3.0 war, die regulären Termine der Stufen 1–6 im Jahr 2026 HSK 2.0 verwenden und der offizielle Start separat bekannt gegeben wird. Im offiziellen Kalender werden die Stufen 7–9 separat aufgeführt. Prüfe dein Datum, deine Stufe, dein Prüfungszentrum und die Anmeldeinformationen.
-
-### Kann ich meine Vokabelkarten für HSK 2.0 weiterverwenden?
-
-Korrektes Chinesisch kannst du für das allgemeine Lernen behalten. Gehe aber nicht davon aus, dass die Zuordnung zu einer Stufe oder die Prüfungsrelevanz gleich bleibt. Gleiche jede Karte mit dem Lehrplan für deinen Prüfungstermin ab und verschiebe sie erst nach dieser Überprüfung in ein versionsspezifisches Deck.
+Achte darauf, dass das Deck die Stufe und den offiziellen Lehrplan als Quelle nennt. Vergleiche einige Karten mit der Vokabel-, Zeichen- oder Grammatikliste für deine Stufe, bevor du das Deck in deine Wiederholungen aufnimmst.
 
 ### Sollte eine Karte Hanzi, Pinyin und Deutsch zeigen?
 
@@ -267,10 +219,6 @@ Nur wenn der verborgene Teil weiterhin einen Abruf verlangt. Trenne Erkennen, Be
 
 Nein. Sie können dir helfen, Vokabeln, Unterschiede, Antwortimpulse und korrigierte Fehler zu behalten. Du brauchst weiterhin unbekanntes Audiomaterial, vollständige gesprochene Antworten, Feedback und Übungen im offiziellen Format unter Zeitdruck.
 
-## Bestätige die Version und erstelle dann die ersten zehn Karten
+## Erstelle deine ersten zehn Lernkarten für HSK 3.0
 
-Beginne bei einem Prüfungstermin der Stufen 1–6 mit den Anmeldeunterlagen für deine konkrete Prüfung. Notiere `HSK 2.0` oder `HSK 3.0 Pilotversuch`, die Stufe, das Datum, das Prüfungszentrum und die Quelle. Öffne dann den passenden offiziellen Lehrplan und erstelle zehn klar abgegrenzte Karten aus Material, das du gerade lernst.
-
-Halte Vokabeln, Schriftzeichen, Grammatik und Korrekturen aus Beispielaufgaben getrennt. Lass FSRS diese Karten einplanen, während du Hörverstehen, Lesen, Schreiben, Sprechen und vollständige Übungen unter Zeitdruck weiterhin an anderer Stelle trainierst.
-
-So bereitest du dich 2026 sinnvoll auf den HSK vor: mit dem richtigen Material für die richtige Version und ohne rätselhafte Karten, die zwischen 2.0 und 3.0 hin- und herwandern.
+Wähle einen Abschnitt im Lehrplan oder eine Gruppe von Beispielaufgaben für deine Stufe. Erstelle zehn Karten zu konkreten Dingen, die du dir merken willst: etwa eine überhörte Vokabel, ein falsch gelesenes Zeichen oder ein Satzmuster, das dir nicht eingefallen ist. Wiederhole die Karten, wenn FSRS sie einplant. Prüfe dann mit einer neuen Aufgabe, ob du das Gelernte anwenden kannst.
