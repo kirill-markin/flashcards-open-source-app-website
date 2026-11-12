@@ -167,6 +167,8 @@ Mochi'nin [yedekleme rehberi](https://mochi.cards/docs/getting-started/backing-u
 
 Mochi'nin [Markdown ve CSV dışa aktarımları](https://mochi.cards/docs/import-and-export/exporting/) içeriği başka araçlara taşımaya yarayan biçimlerdir. Markdown, her kart için bir dosya ve alt desteler için klasörler oluşturur; ancak tekrar geçmişini, kart sırasını, şablonları ve Markdown'ın içinde yer almayan meta veri etiketlerini içermez. CSV, şablon alanlarını veya görüntülenen ön/arka yüzleri dışa aktarabilir; fakat tekrar geçmişini, şablonları veya içeriğe gömülü olmayan meta veri etiketlerini korumaz.
 
+Mochi’den Nibomo’ya kart taşımak için web uygulamasında **Kitaplık > İçe aktar > Mochi uygulamasından içe aktar** yolunu izleyip `.mochi` dosyasını seçin. AI sohbeti yeni kartlar oluşturur. Mochi’deki tekrar geçmişi aktarılmaz. [İçe aktarma rehberi](/docs/import-flashcards/).
+
 Anki de benzer bir ayrım yapar:
 
 - `.colpkg`, koleksiyonun tamamını zamanlama bilgileriyle dışa aktarır ve medya içerebilir. İçe aktarılması, hedef Anki koleksiyonundaki kartların yerini alır.

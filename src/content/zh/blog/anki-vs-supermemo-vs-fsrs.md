@@ -69,13 +69,15 @@ Anki 远不只是一种间隔重复算法。它的价值来自围绕调度长期
 
 Algorithm Arena 很直观地说明了问题：FSRS 可以运行在 *SuperMemo 20 内部*，两者并不是互斥选项。
 
+如果你有 SuperMemo 导出的 `.xml` 文件，可在 Nibomo 网页版进入**资料库 > 导入 > 从 SuperMemo 导入**，将文件发送到 AI 对话。先选一个小文件试导入，核对新卡片与原文。新卡片会重新排程。SuperMemo 的 Windows 版有 [XML 导出说明](https://super-memory.org/archive/archive/help2006/file.htm)，具体可用性取决于版本。
+
 ### 托管的 SuperMemo.com 服务
 
 当前的 [SuperMemo.com 应用](https://www.supermemo.com/en/app)是一项托管语言学习服务，可通过浏览器、iOS 和 Android 使用。它以预制语言课程、学习计划、MemoCards 及相关语言功能为核心。课程可以下载到移动端学习，但[离线使用文档](https://www.supermemo.com/en/faq/can-i-use-supermemo-offline)列出了重要限制：添加 MemoCards、AI、搜索、统计和课程编辑器等功能在离线状态下仍不可用。
 
 这项托管服务将其调度器描述为专有技术，并公开介绍了自己的 SuperMemo 方法和复习流程。现有公开页面无法证明其当前调度器属于 SM-18、SM-20 或 FSRS 中的任何一种，因此本文不会给它套用其中任何一个标签。
 
-这一区别会直接影响选择。想在 Windows 上做渐进阅读，应该评估 SuperMemo 20；想使用托管的西班牙语或英语课程，则应该评估 SuperMemo.com。两者共享名称和历史，但产品体验不能互相替代。
+Windows 版的 XML 导出说明并不能确认托管服务支持同样的导出。这一区别会直接影响选择。想在 Windows 上做渐进阅读，可以评估 SuperMemo 20。想使用托管的西班牙语或英语课程，可以评估 SuperMemo.com。
 
 ## SuperMemo 算法是一个家族，不是一条公式
 

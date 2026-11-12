@@ -104,9 +104,15 @@ Ukuze ulungise ifayela le-CSV elivela ku-Quizlet ngokuphepha:
 
 I-spreadsheet ingafaka izimpawu zokucaphuna ezidingwa yi-CSV. Ukushintsha wonke ama-tab abe okhefana akukwazi ukukwenza lokhu ngokuthembekile.
 
-## Faka umbhalo ku-Nibomo njengohlaka ozoluhlola
+## Ngenisa amakhadi e-Quizlet ku-Nibomo
 
-[I-Nibomo](/zu/features/) ayinalo ithuluzi lokungenisa amakhadi ngokuqondile esuka ku-Quizlet. Ku-Nibomo eku-inthanethi, unamathisela ifayela le-TXT noma le-CSV bese i-AI isiza ukwakha uhlaka lwamakhadi. Le ndlela ayiqinisekisi ukuthi konke kudluliswa ngaphandle kokulahleka kolwazi.
+Ohlelweni lwewebhu, khetha **Umtapo wolwazi > Ngenisa > Ngenisa kusuka ku-Quizlet**. Namathisela umbhalo owukopishe ku-Quizlet bese ukhetha **Qala ukungenisa**. Ingxoxo ye-AI ingagcina amakhadi ngaleso sikhathi, ngakho qhathanisa umphumela nowasekuqaleni.
+
+### Buka amakhadi kuqala ngaphambi kokuwagcina
+
+Ukuze ubuke amakhadi ngaphambi kokuwagcina, namathisela umbhalo onamakholomu amabili kokuthi **Ngenisa kusuka kuspredishithi**.
+
+Uma ufuna i-AI ikubonise isampula kuqala, vula ingxoxo entsha bese ulandela izinyathelo ezingezansi esikhundleni sokungenisa ngokuqondile.
 
 1. Gcina ifayela lokuqala le-Quizlet ngaphandle kwe-app.
 2. Namathisela i-TXT oyilungisile noma i-CSV elungiswe ngendlela efanele engxoxweni ye-Nibomo AI.

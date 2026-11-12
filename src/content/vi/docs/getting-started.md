@@ -44,6 +44,10 @@ Cách nhanh nhất để bắt đầu là dùng ứng dụng web lưu trữ sẵ
 
 Với cách dùng bản lưu trữ sẵn, bạn không cần cài đặt gì hay thiết lập máy chủ.
 
+## Chuyển các thẻ bạn đang có
+
+Bạn đã có thẻ trong Quizlet, Anki hoặc ứng dụng khác? Mở **Thư viện > Nhập** và xem [hướng dẫn nhập thẻ ghi nhớ](/docs/import-flashcards/) để chọn định dạng phù hợp và biết dữ liệu nào sẽ được chuyển sang.
+
 ## Thiết lập agent
 
 Các client MCP như Claude, ChatGPT và Cursor có thể kết nối theo [hướng dẫn Trình kết nối MCP](/docs/mcp-connector/).

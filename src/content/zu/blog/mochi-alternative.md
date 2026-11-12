@@ -167,6 +167,8 @@ Ngaphambi kokuthutha noma yini, gcina ikhophi eyisipele engabuyisela uhlelo lwas
 
 [Ukukhipha kwe-Mochi nge-Markdown nange-CSV](https://mochi.cards/docs/import-and-export/exporting/) kungamafomethi okuthutha idatha. I-Markdown yakha ifayela elilodwa ngekhadi ngalinye namafolda amaqoqo angaphansi kwamanye, kodwa ilahla umlando wokubuyekeza, ukulandelana kwamakhadi, izifanekiso namathegi emethadatha ngaphandle uma amathegi eku-Markdown. I-CSV ingakhipha izinkambu zesifanekiso noma izinhlangothi zengaphambili nengemuva njengoba ziboniswa, kodwa ayigcini umlando wokubuyekeza, izifanekiso noma amathegi emethadatha ngaphandle uma amathegi efakwe kokuqukethwe.
 
+Ukuhambisa amakhadi esuka ku-Mochi eya ku-Nibomo, khetha **Umtapo wolwazi > Ngenisa > Ngenisa kusuka ku-Mochi** ohlelweni lwewebhu bese ukhetha ifayela le-`.mochi`. Ingxoxo ye-AI idala amakhadi amasha. Umlando wokubuyekeza usala ku-Mochi. Bheka [umhlahlandlela wokungenisa](/docs/import-flashcards/).
+
 I-Anki yenza umehluko ofanayo:
 
 - I-`.colpkg` ikhipha lonke iqoqo kanye nezikhathi zokubuyekeza futhi ingafaka imidiya. Ukuyingenisa kuthatha indawo yamakhadi eqoqweni le-Anki elingeniselwa kulo.

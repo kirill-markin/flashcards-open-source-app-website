@@ -18,9 +18,9 @@ Uma ufuna ukungenisa amanothi esonto lonke ku-Gizmo ngamaqoqo alandelanayo mahha
 
 Lokhu kubuyekezwa kwamakhadi okufunda e-Gizmo kusekelwe emakhasini amanje osizo asemthethweni. Angikayihloli mathupha i-Gizmo, ngakho ngizokhuluma kuphela ngezici ezichazwe yi-Gizmo emibhalweni yayo, ngicacise nalapho kunokungaqiniseki khona.
 
-> **Ubudlelwano bami nomkhiqizo:** NginguKirill Markin, futhi ngithuthukisa i-[Nibomo](https://nibomo.com/zu/), enye inketho eqhathaniswa ngezansi. I-Gizmo inendlela yokufunda ebanzi echazwe emibhalweni yayo: amafomethi amaningi emithombo, izinhlobo ezinhlanu zamakhadi, izifundo ze-AI Tutor, izinhlobo ezahlukene zemibuzo, nenqubekela phambili efana neyomdlalo. I-Nibomo igxile ezintweni ezimbalwa ngamabomu.
+> **Ubudlelwano bami nomkhiqizo:** NginguKirill Markin, futhi ngithuthukisa i-[Nibomo](https://nibomo.com/zu/), enye inketho eqhathaniswa ngezansi. I-Gizmo inendlela yokufunda ebanzi echazwe emibhalweni yayo: amafomethi amaningi emithombo, izinhlobo eziyisikhombisa zamakhadi, izifundo ze-AI Tutor, izinhlobo ezahlukene zemibuzo, nenqubekela phambili efana neyomdlalo. I-Nibomo igxile ezintweni ezimbalwa ngamabomu.
 
-**Amaqiniso ahlolwe:** 1 Septhemba 2026.
+**Amaqiniso ahlolwe:** 1 Septhemba 2026. Izinhlobo zamakhadi nokukhipha i-PDF kuphinde kwahlolwa mhla ziyi-12 kuNovemba 2026.
 
 ![Ukubuyekezwa kwamakhadi okufunda e-Gizmo okubonisa i-Magic Import, izinhlobo zamakhadi nenye indlela yokufunda](/blog/gizmo-alternative-v2.png)
 
@@ -59,19 +59,21 @@ Lezi zinhlu ezimbili zemithombo ezisemibhalweni azifani. I-Anki, amaspredishithi
 
 ## I-Gizmo inezinhlobo ezinhlanu zamakhadi
 
-[Imibhalo yamanje ye-Gizmo yezinhlobo zamakhadi](https://help.gizmo.ai/en/articles/16527223-what-types-of-flashcards-can-i-make) ibala amafomethi amahlanu:
+[Imibhalo yamanje ye-Gizmo yezinhlobo zamakhadi](https://help.gizmo.ai/en/articles/16527223-what-types-of-flashcards-can-i-make) ibala amafomethi ayisikhombisa:
 
 | Uhlobo lwekhadi | Lokho olukuhlolayo | Indlela olungakhiwa ngayo |
 | --- | --- | --- |
-| **Card text** | Umbhalo noma i-LaTeX enamagama agqanyisiwe okubuzwa ngawo, noma inketho yokubonisa ingaphambili nengemuva | Ngesandla noma nge-Magic Import |
-| **Multiple choice** | Umbuzo onezinketho zezimpendulo ezikhiqiziwe; ungangeza izinketho ezingalungile lapho uhlela | Ngesandla noma nge-Magic Import |
-| **Matching** | Amapheya i-Gizmo ewaxubayo ukuze uwahlanganise futhi | Nge-Magic Import kuphela |
-| **Ordering** | Izinto i-Gizmo ezixubayo ukuze uzibuyisele ekulandelaneni kwazo | Nge-Magic Import kuphela |
-| **True/False** | Isitatimende okufanele unqume ukuthi siyiqiniso noma singamanga | Ngesandla noma nge-Magic Import |
+| **Q&A** | Umbuzo nempendulo okungafaka umbhalo noma i-LaTeX | Ngesandla noma nge-Magic Import |
+| **Multi-select** | Umbuzo onempendulo eyodwa noma ngaphezulu efanele | Ngesandla noma nge-Magic Import |
+| **Fill the blanks (Gcwalisa izikhala)** | Amagama agqanyisiwe endimeni okufanele uwafake ngesikhathi uphendula | Ngesandla noma nge-Magic Import |
+| **Match pairs (Qondanisa amapheya)** | Amapheya i-Gizmo ewaxubayo ukuze uwahlanganise futhi | Ngesandla noma nge-Magic Import |
+| **Order items (Hlela ngokulandelana)** | Izinto i-Gizmo ezixubayo ukuze uzibuyisele ekulandelaneni kwazo | Ngesandla noma nge-Magic Import |
+| **True or False (Iqiniso noma amanga)** | Isitatimende okufanele unqume ukuthi siyiqiniso noma singamanga | Ngesandla noma nge-Magic Import |
+| **Image question (Umbuzo onesithombe)** | Khumbula amagama afihliwe kumdwebo noma esithombeni | Ngesandla |
 
-Lokhu kubanzi kuneqoqo eliyisisekelo lamakhadi anengaphambili nengemuva, kanti i-Magic Import yenza okungaphezu kokusheshisa ukwakha: i-Matching ne-Ordering okwamanje kutholakala nge-Magic Import kuphela.
+Imibuzo enezithombe yenziwa ngesandla. Ezinye izinhlobo eziyisithupha zingenziwa nange-Magic Import.
 
-Kukhona ukungavumelani okukodwa emibhalweni okufanele ukwazi. Ikhasi lezinhlobo zamakhadi lithi i-Card text ingaba nezithombe ngaphambili nangemuva. [Umhlahlandlela we-Gizmo wokuphatha amakhadi](https://help.gizmo.ai/en/articles/13761411-how-do-i-edit-or-manage-my-cards) uthi izithombe zingangezwa ngaphambili kuphela. Uma izithombe ezingemuva zibalulekile kuwe, hlola umhleli wamanje ngaphambi kokwakha iqoqo. Lawa makhasi amabili asemthethweni awanikezi isisekelo sempendulo eqiniseke kakhudlwana.
+Kukhona ukungavumelani okukodwa emibhalweni okufanele ukwazi. Ikhasi lezinhlobo zamakhadi lithi i-Q&A ingaba nezithombe ngaphambili nangemuva. [Umhlahlandlela we-Gizmo wokuphatha amakhadi](https://help.gizmo.ai/en/articles/13761411-how-do-i-edit-or-manage-my-cards) uthi izithombe zingangezwa ngaphambili kuphela. Uma izithombe ezingemuva zibalulekile kuwe, hlola umhleli wamanje ngaphambi kokwakha iqoqo. Lawa makhasi amabili asemthethweni awanikezi isisekelo sempendulo eqiniseke kakhudlwana.
 
 I-Gizmo iphinde ithi izilungiselelo zokuphendula imibuzo zithinta ukuthi yiziphi izindlela zemibuzo ozibonayo. Ifomethi egciniwe yekhadi nendlela okubuzwa ngayo imibuzo ngalo kuyahlobana, kodwa akufani.
 
@@ -97,11 +99,11 @@ I-Gizmo incoma ngokucacile ukuhlola iqoqo ngemva kokusebenzisa i-Magic Import, f
 
 Umkhawulo uvela ku-Memorise: ungakwazi ukususa ikhadi lapho, kodwa okwamanje awukwazi ukulihlela usaphakathi kokuphendula imibuzo. Uma ubona impendulo engalungile lapho ufunda, kufanele uphume kuleyo ndlela ukuze uyilungise.
 
-### Ukukhipha idatha ku-Gizmo akutholakali
+### I-Gizmo ingaphrinta amakhadi noma iwagcine eyi-PDF
 
-Umhlahlandlela ofanayo osemthethweni uthi ukukhipha amakhadi akukatholakali. [Umhlahlandlela we-Gizmo wokuphatha amaqoqo](https://help.gizmo.ai/en/articles/12995587-how-do-i-make-changes-to-my-decks) uthi ukukhipha amaqoqo nakho akutholakali.
+Vula imenyu yedekhi, ukhethe u-**Print**, bese ukhetha u-**Save as PDF** ewindini lokuphrinta lesiphequluli. I-Gizmo ichaza [indlela yokukhipha i-PDF](https://help.gizmo.ai/en/articles/18228622-how-do-i-export-print-or-download-my-cards-as-a-pdf), ngisho nasemadekhini enziwe yi-Gizmo.
 
-Lona ngumkhawulo ocace kakhulu wokulawula idatha endleleni yamanje yokusebenza. I-Gizmo yamukela izinto zokufunda ezivela kwezinye izinhlelo eziningana, kodwa okwamanje ayinayo indlela echazwe emibhalweni yokukhipha amakhadi akhiwe ngalezo zinto. Uma ukuthutha esikhathini esizayo kubalulekile, hlulela umkhiqizo ngalo mkhawulo wamanje kunokuthembela ekutheni kungase kwengezwe ukukhipha idatha kamuva.
+Gcina idekhi yokuqala ku-Gizmo ukuze ukwazi ukuhlela amakhadi futhi ugcine umlando wokubuyekeza.
 
 ### Ukusebenza ngaphandle kwe-inthanethi akuchazwanga ngokucacile ngokwanele ukuba kuthembiswe
 
@@ -116,15 +118,15 @@ Lo mehluko ubalulekile ngoba ukuthi “isikrini esesilayishiwe sisaphendula” n
 | Okubalulekile esinqumweni | Gizmo | Nibomo |
 | --- | --- | --- |
 | Indawo eyinhloko yokuqala | Amakhadi enziwe ngesandla noma i-Magic Import esebenzisa imithombo ehlukahlukene yokufunda | Ukwakha ngesandla noma ngosizo lwe-AI amakhadi agxile embuzweni owodwa, anengaphambili nengemuva |
-| Amafomethi amakhadi | Card text, Multiple choice, Matching, Ordering ne-True/False | Amakhadi anengaphambili nengemuva |
+| Amafomethi amakhadi | Imibuzo nezimpendulo, ukukhetha izimpendulo eziningi, ukugcwalisa izikhala, ukuqondanisa amapheya, ukuhlela ngokulandelana, iqiniso noma amanga, nemibuzo enezithombe | Amakhadi anengaphambili nengemuva |
 | Ukufundisa okuhambisana neqoqo | Izifundo ze-AI Tutor, amanothi nemibuzo esekelwe emthonjeni | Ukwakha amakhadi ngosizo lwe-AI; indlela yezifundo ze-Tutor ayichazwanga emakhasini amanje omkhiqizo |
 | Indlela yokubuyekeza | Memorise, i-spaced repetition nezinhlobo ezahlukene zemibuzo | I-spaced repetition nge-FSRS |
 | Izici zokukhuthaza | XP, Levels, Leagues, Streaks, Hearts, Hints nama-Coins | Ayikho indlela efanayo yomdlalo echazwe emakhasini amanje omkhiqizo |
 | Ubufakazi bokusebenza ngaphandle kwe-inthanethi | Asitholakalanga isiqinisekiso esisemthethweni sokusebenza ngaphandle kwe-inthanethi emibhalweni ehloliwe | Ukufunda ngeselula ngaphandle kwe-inthanethi nokuvumelanisa ngokuzenzakalela kuyizici ezichazwe emibhalweni |
-| Ukukhipha idatha | Ukukhipha amakhadi namaqoqo okwamanje akutholakali | Amafayela akhishiwe ongawathutha ahlanganisa amakhadi, amathegi nemidiya ehambisanayo |
+| Ukukhipha idatha | Phrinta idekhi noma uyigcine iyi-PDF | Amafayela akhishiwe ongawathutha ahlanganisa amakhadi, amathegi nemidiya ehambisanayo |
 | Ukulawula ukusingatha | Akukho simangalo sokuzisingathela emakhasini asemthethweni ahloliwe | Ikhodi yomthombo ivulekile futhi ungazisingathela |
 
-I-Nibomo iyinketho ewusizo esikhundleni se-Gizmo kuphela uma udinga indlela egxile ezicini ezimbalwa eziboniswe kuleli thebula. [Ikhasi layo lamanje lezici](/zu/features/) lichaza i-FSRS, ukwakha amakhadi ngosizo lwe-AI, ukufunda ngeselula ngaphandle kwe-inthanethi nokuvumelanisa, amafayela akhishiwe ongawathutha, nokuzisingathela. Alichazi izici ezilingana ne-Magic Import ye-Gizmo enamafomethi amahlanu, izifundo ze-Tutor noma indlela yayo yomdlalo.
+I-Nibomo iyinketho ewusizo esikhundleni se-Gizmo kuphela uma udinga indlela egxile ezicini ezimbalwa eziboniswe kuleli thebula. [Ikhasi layo lamanje lezici](/zu/features/) lichaza i-FSRS, ukwakha amakhadi ngosizo lwe-AI, ukufunda ngeselula ngaphandle kwe-inthanethi nokuvumelanisa, amafayela akhishiwe ongawathutha, nokuzisingathela. Alichazi izici ezilingana ne-Magic Import ye-Gizmo, izifundo ze-Tutor noma indlela yayo yomdlalo.
 
 ## Lapho i-Nibomo ikufanele kangcono
 
@@ -132,26 +134,26 @@ Khetha i-Nibomo uma into ofuna ukuyigcina kuyikhadi elihloliwe elinengaphambili 
 
 Izimangalo zayo zokusebenza ngaphandle kwe-inthanethi nezokukhipha idatha zicace kakhudlwana. I-Nibomo ichaza ukufunda ngeselula ngaphandle kwe-inthanethi nokuvumelanisa ngokuzenzakalela, kanti [umhlahlandlela wayo wokuqalisa](/zu/docs/getting-started/) uthi uhlelo lwe-iOS lusebenzisa i-SQLite kudivayisi, nokuvumelanisa okuklanyelwe ukuqala ngokugcina idatha lapho ngaphandle kwe-inthanethi. Amafayela akhishiwe ongawathutha ahlanganisa amakhadi, amathegi nemidiya ehambisanayo, kuhlanganise nokuthutha phakathi kohlelo olusingathiwe noluzisingathele wena.
 
-Okufanele ukucabangele ububanzi bezici. Amakhasi amanje e-Nibomo awachazi imenyu yokungenisa ye-Gizmo, izinhlobo ezinhlanu zamakhadi, izifundo eziholwa yi-Tutor noma uhlelo lwemivuzo. Uma lezo zici zixazulula inkinga ekulethe lapha, cishe i-Gizmo ikufanele kangcono.
+Okufanele ukucabangele ububanzi bezici. Amakhasi amanje e-Nibomo awachazi imenyu yokungenisa ye-Gizmo, izinhlobo eziyisikhombisa zamakhadi, izifundo eziholwa yi-Tutor noma uhlelo lwemivuzo. Uma lezo zici zixazulula inkinga ekulethe lapha, cishe i-Gizmo ikufanele kangcono.
 
 ## Ungathutha usuke ku-Gizmo uye kolunye uhlelo?
 
-Okwamanje akukho ndlela eqondile yokukwenza. Njengoba ukukhipha idatha ku-Gizmo kungatholakali, ayikho indlela evamile yokuthutha ngamafayela usuka ku-Gizmo uye ku-Nibomo noma kolunye uhlelo.
+Ungasebenzisa i-PDF ye-Gizmo njengomthombo wamakhadi amasha. Ohlelweni lwewebhu lwe-Nibomo, khetha **Umtapo wolwazi > Ngenisa > Ngenisa kusuka kolunye uhlelo lokusebenza** bese ukhetha i-PDF. Ingxoxo ye-AI idala amakhadi isebenzisa ifayela. Lokhu kubuyekezwa akuzange kuvivinye ukudluliswa kwe-PDF ye-Gizmo, ngakho qhathanisa umphumela nomthombo. Bheka [umhlahlandlela wokungenisa](/docs/import-flashcards/).
 
-Indlela ephephile yokudlula lo mkhawulo ukwenza ngesandla, ukhethe okubalulekile:
+Uma imibuzo incike endleleni i-Gizmo esebenzisana ngayo nawe, yakha kabusha kuphela leyo oyidingayo.
 
 1. Gcina inkulumo, amanothi, amaslayidi noma omunye umthombo wokuqala eduze kwakho.
 2. Yakha kabusha kuphela amakhadi asenembile nasawusizo.
 3. Bhala kabusha imibuzo engacacile kunokukopisha wonke amakhadi akhiqiziwe.
 4. Lindela ukushiya ku-Gizmo amagama agqanyisiwe, imininingwane yezifundo ze-Tutor, umlando wezikhathi zokubuyekeza, i-XP nenye inqubekela phambili.
 
-Lokhu kuthatha isikhathi eside kunethuluzi lokungenisa, futhi akugcini konke. Umphumela owusizo walokhu ukuthi uhamba kuphela namakhadi aphumelele ukuhlolwa kwekhwalithi.
+Hlola imibuzo nezimpendulo zamakhadi ofuna ukuwagcina.
 
-Ukusebenzisa zombili izinhlelo kungenye inketho. I-Gizmo ingakusiza ukuqonda inkulumo noma isethulo, ikunike izinhlobo ezahlukene zokuzilolonga. I-Nibomo ingagcina iqoqo elincane lamakhadi ahloliwe anengaphambili nengemuva ukuze ubuyekeze nge-FSRS. Ukuwahambisa phakathi kwazo kusenziwa ngesandla ngoba i-Gizmo ayikhiphi amakhadi.
+Ungazisebenzisa zombili izinhlelo. I-Gizmo ingacubungula isifundo noma isethulo bese ikunikeza ukuzilolonga okuhlukahlukene. Ku-Nibomo ungagcina idekhi encane yamakhadi anezinhlangothi ezimbili osuwahlolile ukuze uwabuyekeze nge-FSRS.
 
 ## Iyiphi indlela yokufunda ekufanele?
 
-Khetha i-Gizmo uma uqala ngezinto zokufunda ezingakahleleki futhi ufuna ukuthi uhlelo lwakhe indlela yokuqala yokufunda. Amandla ayo achazwe emibhalweni ubuningi bezinhlobo zemithombo, izinhlobo ezinhlanu zamakhadi, ukufunda okuholwa yi-Tutor, izinhlobo ezahlukene zemibuzo nezici zenqubekela phambili.
+Khetha i-Gizmo uma uqala ngezinto zokufunda ezingakahleleki futhi ufuna ukuthi uhlelo lwakhe indlela yokuqala yokufunda. Amandla ayo achazwe emibhalweni ubuningi bezinhlobo zemithombo, izinhlobo eziyisikhombisa zamakhadi, ukufunda okuholwa yi-Tutor, izinhlobo ezahlukene zemibuzo nezici zenqubekela phambili.
 
 Khetha i-Nibomo uma usuvele wazi ukuthi yini efanele ikhadi elinengaphambili nengemuva ozoligcina isikhathi eside, futhi i-FSRS, ukufunda ngeselula ngaphandle kwe-inthanethi okuchazwe emibhalweni, ukukhipha idatha noma ukuzisingathela kubaluleke kakhulu kuwe kunezinhlobo zemibuzo nemivuzo.
 

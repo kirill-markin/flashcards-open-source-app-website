@@ -18,9 +18,9 @@ Nếu muốn nhập một loạt ghi chép của cả tuần vào Gizmo bằng g
 
 Bài đánh giá thẻ học Gizmo này dựa trên các trang trợ giúp chính thức hiện tại. Tôi chưa trực tiếp dùng thử Gizmo, nên chỉ đưa ra nhận định về sản phẩm dựa trên những gì Gizmo công bố và sẽ nói rõ những điểm chưa chắc chắn.
 
-> **Thông tin về tác giả:** Tôi là Kirill Markin, người phát triển [Nibomo](https://nibomo.com/), ứng dụng thay thế được so sánh bên dưới. Theo tài liệu, Gizmo có quy trình học rộng hơn: nhiều định dạng tài liệu đầu vào, năm loại thẻ, bài học với AI Tutor, nhiều kiểu câu hỏi và cơ chế ghi nhận tiến độ như trong trò chơi. Nibomo chủ động giới hạn phạm vi của mình.
+> **Thông tin về tác giả:** Tôi là Kirill Markin, người phát triển [Nibomo](https://nibomo.com/), ứng dụng thay thế được so sánh bên dưới. Theo tài liệu, Gizmo có quy trình học rộng hơn: nhiều định dạng tài liệu đầu vào, bảy loại thẻ, bài học với AI Tutor, nhiều kiểu câu hỏi và cơ chế ghi nhận tiến độ như trong trò chơi. Nibomo chủ động giới hạn phạm vi của mình.
 
-**Thông tin được kiểm chứng ngày:** 1 tháng 9 năm 2026.
+**Thông tin được kiểm chứng ngày:** 1 tháng 9 năm 2026. Các loại thẻ và tính năng xuất PDF được kiểm tra lại ngày 12 tháng 11 năm 2026.
 
 ![Đánh giá thẻ học Gizmo với Magic Import, các loại thẻ và một quy trình học thay thế](/blog/gizmo-alternative-v2.png)
 
@@ -57,21 +57,23 @@ AI Tutor cũng có cách nhập tài liệu để bắt đầu bài học. [Hư�
 
 Hai danh sách nguồn đầu vào trong tài liệu không giống nhau. Anki, bảng tính và trang web xuất hiện trong hướng dẫn tạo thẻ; YouTube và bộ thẻ Gizmo có sẵn xuất hiện trong hướng dẫn bài học với Tutor. Hãy kiểm tra đúng quy trình bạn cần dùng, thay vì mặc định cả hai menu đều hỗ trợ mọi loại đầu vào.
 
-## Gizmo có năm loại thẻ
+## Gizmo có bảy loại thẻ
 
-[Tài liệu hiện tại về các loại thẻ](https://help.gizmo.ai/en/articles/16527223-what-types-of-flashcards-can-i-make) của Gizmo liệt kê năm định dạng:
+[Tài liệu hiện tại về các loại thẻ](https://help.gizmo.ai/en/articles/16527223-what-types-of-flashcards-can-i-make) của Gizmo liệt kê bảy định dạng:
 
 | Loại thẻ | Nội dung được kiểm tra | Cách tạo |
 | --- | --- | --- |
-| **Card text (Văn bản)** | Văn bản hoặc LaTeX, với các từ được tô sáng để đặt câu hỏi hoặc tùy chọn lật xem mặt trước và mặt sau | Tạo thủ công hoặc bằng Magic Import |
-| **Multiple choice (Trắc nghiệm)** | Câu hỏi có các phương án trả lời được tạo sẵn; bạn có thể thêm phương án sai khi chỉnh sửa | Tạo thủ công hoặc bằng Magic Import |
-| **Matching (Ghép cặp)** | Các cặp được Gizmo xáo trộn để bạn ghép lại | Chỉ bằng Magic Import |
-| **Ordering (Sắp xếp)** | Các mục được Gizmo xáo trộn để bạn xếp lại theo thứ tự | Chỉ bằng Magic Import |
-| **True/False (Đúng/Sai)** | Một phát biểu để bạn xác định là đúng hay sai | Tạo thủ công hoặc bằng Magic Import |
+| **Q&A** | Câu hỏi và câu trả lời có thể chứa văn bản hoặc LaTeX | Tạo thủ công hoặc bằng Magic Import |
+| **Multi-select** | Câu hỏi có một hoặc nhiều phương án đúng | Tạo thủ công hoặc bằng Magic Import |
+| **Fill the blanks (Điền vào chỗ trống)** | Các từ được tô sáng trong đoạn văn mà bạn phải điền khi làm bài | Tạo thủ công hoặc bằng Magic Import |
+| **Match pairs (Ghép cặp)** | Các cặp được Gizmo xáo trộn để bạn ghép lại | Tạo thủ công hoặc bằng Magic Import |
+| **Order items (Sắp xếp)** | Các mục được Gizmo xáo trộn để bạn xếp lại theo thứ tự | Tạo thủ công hoặc bằng Magic Import |
+| **True or False (Đúng/Sai)** | Một phát biểu để bạn xác định là đúng hay sai | Tạo thủ công hoặc bằng Magic Import |
+| **Image question (Câu hỏi bằng hình ảnh)** | Nhớ lại các nhãn bị che trên sơ đồ hoặc ảnh | Tạo thủ công |
 
-Phạm vi này rộng hơn một bộ thẻ hai mặt cơ bản. Magic Import cũng không chỉ là cách tạo thẻ nhanh hơn: hiện tại, Matching và Ordering chỉ có thể được tạo bằng Magic Import.
+Bạn tạo câu hỏi bằng hình ảnh thủ công. Sáu loại còn lại cũng có thể được tạo bằng Magic Import.
 
-Có một điểm mâu thuẫn giữa các trang tài liệu cần lưu ý. Trang về loại thẻ nói rằng Card text có thể chứa hình ảnh ở cả mặt trước và mặt sau. Nhưng [hướng dẫn quản lý thẻ](https://help.gizmo.ai/en/articles/13761411-how-do-i-edit-or-manage-my-cards) của Gizmo nói rằng chỉ có thể thêm ảnh chụp và hình ảnh vào mặt trước. Nếu cần hình ảnh ở mặt sau, hãy kiểm tra trình chỉnh sửa hiện tại trước khi tạo bộ thẻ. Hai trang chính thức này chưa đủ để đưa ra câu trả lời chắc chắn hơn.
+Có một điểm mâu thuẫn giữa các trang tài liệu cần lưu ý. Trang về loại thẻ nói rằng Q&A có thể chứa hình ảnh ở cả mặt trước và mặt sau. Nhưng [hướng dẫn quản lý thẻ](https://help.gizmo.ai/en/articles/13761411-how-do-i-edit-or-manage-my-cards) của Gizmo nói rằng chỉ có thể thêm ảnh chụp và hình ảnh vào mặt trước. Nếu cần hình ảnh ở mặt sau, hãy kiểm tra trình chỉnh sửa hiện tại trước khi tạo bộ thẻ. Hai trang chính thức này chưa đủ để đưa ra câu trả lời chắc chắn hơn.
 
 Gizmo cũng lưu ý rằng cài đặt bài kiểm tra ảnh hưởng đến kiểu câu hỏi bạn thấy. Định dạng lưu trữ của thẻ và cách thẻ được dùng trong bài kiểm tra có liên quan với nhau, nhưng không hoàn toàn giống nhau.
 
@@ -97,11 +99,11 @@ Gizmo khuyến nghị rõ ràng rằng bạn nên xem lại bộ thẻ sau khi d
 
 Trong Memorise, bạn có thể xóa thẻ nhưng hiện không thể chỉnh sửa thẻ giữa lúc làm bài. Nếu phát hiện một đáp án sai trong khi học, bạn cần thoát chế độ này để sửa.
 
-### Gizmo chưa hỗ trợ xuất dữ liệu
+### Gizmo cho phép in thẻ hoặc lưu thành PDF
 
-Cũng trong hướng dẫn chính thức trên, Gizmo cho biết tính năng xuất thẻ chưa có. [Hướng dẫn quản lý bộ thẻ](https://help.gizmo.ai/en/articles/12995587-how-do-i-make-changes-to-my-decks) của Gizmo nói rằng xuất bộ thẻ cũng chưa được hỗ trợ.
+Mở menu của bộ thẻ, chọn **Print**, rồi chọn **Save as PDF** trong hộp thoại in của trình duyệt. Gizmo có [hướng dẫn xuất PDF](https://help.gizmo.ai/en/articles/18228622-how-do-i-export-print-or-download-my-cards-as-a-pdf) cho cả những bộ thẻ do Gizmo tạo.
 
-Đây là giới hạn rõ nhất về quyền kiểm soát dữ liệu trong quy trình hiện tại. Gizmo nhận tài liệu từ nhiều hệ thống khác, nhưng hiện chưa có hướng dẫn chính thức để đưa những thẻ đã tạo ra khỏi ứng dụng. Nếu việc chuyển sang ứng dụng khác sau này quan trọng với bạn, hãy đánh giá sản phẩm dựa trên giới hạn hiện có, thay vì khả năng một tính năng xuất dữ liệu sẽ được bổ sung trong tương lai.
+Hãy giữ bộ thẻ gốc trong Gizmo để chỉnh sửa và giữ lịch sử ôn tập.
 
 ### Tài liệu về sử dụng ngoại tuyến chưa đủ rõ để đưa ra cam kết
 
@@ -116,15 +118,15 @@ Sự phân biệt này quan trọng vì “màn hình đã tải vẫn phản h�
 | Tiêu chí lựa chọn | Gizmo | Nibomo |
 | --- | --- | --- |
 | Điểm bắt đầu chính | Tạo thẻ thủ công hoặc dùng Magic Import từ nhiều nguồn học liệu | Tạo thủ công hoặc nhờ AI hỗ trợ tạo thẻ hai mặt với nội dung tập trung |
-| Định dạng thẻ | Card text (Văn bản), Multiple choice (Trắc nghiệm), Matching (Ghép cặp), Ordering (Sắp xếp) và True/False (Đúng/Sai) | Thẻ có mặt trước và mặt sau |
+| Định dạng thẻ | Hỏi đáp, chọn nhiều đáp án, điền vào chỗ trống, ghép cặp, sắp xếp, đúng/sai và câu hỏi bằng hình ảnh | Thẻ có mặt trước và mặt sau |
 | Giảng giải bên cạnh việc ôn thẻ | Bài học với AI Tutor, ghi chép và câu hỏi dựa trên nguồn | AI hỗ trợ tạo thẻ; các trang sản phẩm hiện tại chưa mô tả chế độ bài học với Tutor |
 | Cách ôn tập | Memorise, lặp lại ngắt quãng và nhiều kiểu câu hỏi | Lặp lại ngắt quãng với FSRS |
 | Cơ chế tạo động lực | XP, Levels, Leagues, Streaks, Hearts, Hints và Coins | Các trang sản phẩm hiện tại chưa mô tả cơ chế trò chơi tương đương |
 | Bằng chứng về khả năng ngoại tuyến | Không tìm thấy cam kết ngoại tuyến chính thức trong các tài liệu đã kiểm tra | Học ngoại tuyến trên thiết bị di động và đồng bộ tự động là các tính năng đã được công bố |
-| Đưa dữ liệu ra ngoài | Hiện chưa hỗ trợ xuất thẻ và bộ thẻ | Có thể xuất thẻ, nhãn và nội dung đa phương tiện liên quan để chuyển sang nơi khác |
+| Đưa dữ liệu ra ngoài | In bộ thẻ hoặc lưu thành PDF | Có thể xuất thẻ, nhãn và nội dung đa phương tiện liên quan để chuyển sang nơi khác |
 | Quyền kiểm soát triển khai | Không có thông tin về khả năng tự lưu trữ trong các trang chính thức đã kiểm tra | Mã nguồn mở và có thể tự lưu trữ |
 
-Nibomo chỉ là lựa chọn thay thế Gizmo phù hợp với nhóm nhu cầu có phạm vi hẹp hơn trong bảng trên. [Trang tính năng](/vi/features/) hiện tại của Nibomo mô tả FSRS, tạo thẻ với sự hỗ trợ của AI, học ngoại tuyến và đồng bộ trên thiết bị di động, xuất dữ liệu để chuyển sang nơi khác và tự lưu trữ. Trang này không mô tả tính năng tương đương Magic Import với năm định dạng thẻ, bài học với Tutor hay cơ chế trò chơi của Gizmo.
+Nibomo chỉ là lựa chọn thay thế Gizmo phù hợp với nhóm nhu cầu có phạm vi hẹp hơn trong bảng trên. [Trang tính năng](/vi/features/) hiện tại của Nibomo mô tả FSRS, tạo thẻ với sự hỗ trợ của AI, học ngoại tuyến và đồng bộ trên thiết bị di động, xuất dữ liệu để chuyển sang nơi khác và tự lưu trữ. Trang này không mô tả tính năng tương đương Magic Import, bài học với Tutor hay cơ chế trò chơi của Gizmo.
 
 ## Khi nào Nibomo phù hợp hơn?
 
@@ -132,26 +134,26 @@ Chọn Nibomo khi bạn muốn lưu những thẻ hai mặt đã được rà so
 
 Thông tin về khả năng học ngoại tuyến và xuất dữ liệu của Nibomo rõ ràng hơn. Nibomo công bố khả năng học ngoại tuyến trên thiết bị di động với đồng bộ tự động, còn [hướng dẫn bắt đầu](/vi/docs/getting-started/) cho biết ứng dụng iOS dùng SQLite cục bộ và cơ chế đồng bộ ưu tiên hoạt động ngoại tuyến. Dữ liệu xuất gồm thẻ, nhãn và nội dung đa phương tiện liên quan, hỗ trợ cả việc chuyển giữa bản do nhà cung cấp vận hành và bản bạn tự lưu trữ.
 
-Điều cần cân nhắc là phạm vi tính năng. Các trang hiện tại của Nibomo chưa mô tả menu nhập tài liệu, năm loại thẻ, bài học do Tutor hướng dẫn hay hệ thống phần thưởng như Gizmo. Nếu những tính năng đó giải quyết đúng vấn đề khiến bạn tìm đến bài này, Gizmo có lẽ phù hợp hơn.
+Điều cần cân nhắc là phạm vi tính năng. Các trang hiện tại của Nibomo chưa mô tả menu nhập tài liệu, bảy loại thẻ, bài học do Tutor hướng dẫn hay hệ thống phần thưởng như Gizmo. Nếu những tính năng đó giải quyết đúng vấn đề khiến bạn tìm đến bài này, Gizmo có lẽ phù hợp hơn.
 
 ## Có thể chuyển từ Gizmo sang ứng dụng khác không?
 
-Hiện chưa có cách chuyển thuận tiện. Vì Gizmo chưa hỗ trợ xuất dữ liệu, bạn không thể chuyển từ Gizmo sang Nibomo hoặc ứng dụng khác theo cách thông thường bằng tệp.
+Bạn có thể dùng PDF của Gizmo làm nguồn để tạo thẻ mới. Trong ứng dụng web Nibomo, vào **Thư viện > Nhập > Nhập từ ứng dụng khác** và chọn PDF. AI sẽ dùng tệp để tạo thẻ. Bài này chưa thử chuyển PDF của Gizmo, vì vậy hãy đối chiếu kết quả với bản gốc. Xem [hướng dẫn nhập thẻ](/docs/import-flashcards/).
 
-Cách xử lý an toàn là tạo lại thủ công và có chọn lọc:
+Với các câu hỏi phụ thuộc vào định dạng tương tác của Gizmo, hãy chọn lọc những câu cần tạo lại.
 
 1. Giữ bài giảng, ghi chép, slide hoặc tài liệu gốc khác bên cạnh để đối chiếu.
 2. Chỉ tạo lại những thẻ vẫn chính xác và hữu ích.
 3. Viết lại câu hỏi mơ hồ thay vì sao chép mọi thẻ được tạo tự động.
 4. Chấp nhận rằng những từ được tô sáng, ngữ cảnh của Tutor, lịch sử lên lịch ôn tập, XP và các dữ liệu tiến độ khác trong Gizmo sẽ không được chuyển sang.
 
-Cách này chậm hơn công cụ nhập dữ liệu và sẽ không giữ được toàn bộ thông tin. Bù lại, bạn chỉ mang theo những thẻ đã qua bước kiểm tra chất lượng.
+Hãy kiểm tra từng câu hỏi và câu trả lời trên các thẻ bạn chọn.
 
-Dùng cả hai ứng dụng cũng là một lựa chọn. Gizmo có thể xử lý nội dung bài giảng hoặc bài thuyết trình và cung cấp nhiều kiểu luyện tập. Nibomo có thể lưu một bộ thẻ hai mặt nhỏ hơn, đã được kiểm tra, để ôn bằng FSRS. Việc chuyển giữa hai ứng dụng vẫn phải làm thủ công vì Gizmo không xuất thẻ.
+Bạn cũng có thể dùng cả hai ứng dụng. Gizmo có thể xử lý bài giảng hoặc bài thuyết trình và đưa ra nhiều dạng bài tập. Nibomo có thể giữ một bộ thẻ hai mặt nhỏ hơn, đã được kiểm tra, để ôn theo FSRS.
 
 ## Quy trình nào phù hợp với bạn?
 
-Chọn Gizmo khi tài liệu nguồn của bạn còn lộn xộn và bạn muốn ứng dụng sắp xếp chúng thành nội dung học ban đầu. Các điểm mạnh được công bố của Gizmo là nhiều loại đầu vào, năm loại thẻ, học với Tutor, nhiều kiểu câu hỏi và cơ chế ghi nhận tiến độ.
+Chọn Gizmo khi tài liệu nguồn của bạn còn lộn xộn và bạn muốn ứng dụng sắp xếp chúng thành nội dung học ban đầu. Các điểm mạnh được công bố của Gizmo là nhiều loại đầu vào, bảy loại thẻ, học với Tutor, nhiều kiểu câu hỏi và cơ chế ghi nhận tiến độ.
 
 Chọn Nibomo khi bạn đã biết nội dung nào đáng lưu vào thẻ hai mặt để ôn lâu dài và quan tâm đến FSRS, khả năng học ngoại tuyến trên thiết bị di động đã được công bố, xuất dữ liệu hoặc tự lưu trữ hơn là sự đa dạng của câu hỏi và phần thưởng.
 

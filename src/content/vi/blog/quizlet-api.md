@@ -93,7 +93,7 @@ Nibomo công bố hai cách truy cập cùng một phạm vi dữ liệu giới 
 
 Cả hai cách đều giới hạn trong phạm vi một không gian làm việc. Các tài nguyên được công bố là `workspace`, `cards`, `decks` và `review_events`; kết quả giới hạn ở 100 dòng cho mỗi câu lệnh. Giao diện theo kiểu SQL chỉ hỗ trợ một tập cú pháp giới hạn, không phải PostgreSQL thuần. Không có schema OpenAPI, nên những quy trình phụ thuộc vào client sinh tự động từ OpenAPI sẽ cần một giao diện khác.
 
-Các giao diện này có thể giúp lập trình viên hoặc AI agent tự động hóa thẻ ghi nhớ thuộc sở hữu của mình. Chúng không thể đọc URL Quizlet, đồng bộ bản sao của tài khoản Quizlet hoặc hoạt động như một client Quizlet không có tài liệu chính thức. Không có công cụ tự động nhập dữ liệu Quizlet. Để chuyển dữ liệu, trước tiên hãy xuất thuật ngữ và định nghĩa từ bộ thẻ của bạn, kiểm tra văn bản rồi ánh xạ nội dung vào các trường thẻ ở hệ thống đích. Hệ thống đích tạo trạng thái học riêng; lịch sử Quizlet không được chuyển sang.
+Các giao diện này có thể giúp lập trình viên hoặc tác nhân AI tự động hóa thao tác với thẻ ghi nhớ của chính mình. Agent API và MCP không đọc URL Quizlet hay đồng bộ tài khoản Quizlet. Để chuyển thẻ một lần, vào **Thư viện > Nhập > Nhập từ Quizlet** trong ứng dụng web Nibomo. Dán văn bản đã xuất và chọn **Bắt đầu nhập**. Cuộc trò chuyện AI có thể lưu thẻ ngay, vì vậy hãy đối chiếu thẻ với bản gốc. Lịch sử học từ Quizlet không đi theo. Xem [hướng dẫn nhập thẻ ghi nhớ](/docs/import-flashcards/) để biết các cách khác.
 
 Để tìm hiểu những khác biệt về sản phẩm ngoài quyền truy cập API, xem bài [so sánh giải pháp mã nguồn mở thay thế Quizlet](/blog/quizlet-alternative/).
 

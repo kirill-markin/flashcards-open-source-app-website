@@ -44,6 +44,10 @@ Nibomo 应用为 iPhone、iPad、Mac 和 Android 提供“复习”小组件，�
 
 使用托管版时，无需安装任何软件，也不需要自行配置服务器。
 
+## 迁移已有的闪卡
+
+你的闪卡已经存在 Quizlet、Anki 或其他应用里？打开**资料库 > 导入**，参阅[闪卡导入指南](/docs/import-flashcards/)，选择合适的格式并确认哪些内容可以迁移。
+
 ## 智能代理接入
 
 Claude、ChatGPT 和 Cursor 等 MCP 客户端可以按照 [MCP 连接器指南](/docs/mcp-connector/) 接入。

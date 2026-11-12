@@ -93,7 +93,7 @@ Nibomo 为同一套受限且按用户隔离的数据接口提供两种访问方�
 
 两种方式都限定在工作区范围内。公开的资源包括 `workspace`、`cards`、`decks` 和 `review_events`，每条语句最多返回 100 行结果。SQL 风格接口采用的是受限方言，并非原始 PostgreSQL。它没有 OpenAPI schema，因此依赖自动生成 OpenAPI 客户端的工作流需要改用其他接口。
 
-这套接口可以帮助开发者或 AI 智能体自动化处理自己拥有的闪卡，但它不能读取 Quizlet URL、镜像 Quizlet 账户，也不能充当没有公开文档的 Quizlet 客户端。它没有自动 Quizlet 导入器。需要迁移时，请先从自己创建的学习集中导出术语和定义，检查文本，再把它们映射到目标系统的卡片字段。目标系统会建立自己的学习状态，Quizlet 的历史记录不会随之迁移。
+这套接口可以帮助开发者或 AI 智能体自动化处理自己拥有的闪卡。 Agent API 和 MCP 无法读取 Quizlet URL 或同步 Quizlet 账户。如果只需迁移一次，请在 Nibomo 网页版打开**资料库 > 导入 > 从 Quizlet 导入**，粘贴导出的文本，然后选择**开始导入**。AI 对话可能会直接保存卡片，请将生成的卡片与原文核对。Quizlet 的学习历史不会迁移。其他导入方式见[闪卡导入指南](/docs/import-flashcards/)。
 
 如需了解 API 访问之外的产品差异，请参阅[开源 Quizlet 替代方案对比](/blog/quizlet-alternative/)。
 
