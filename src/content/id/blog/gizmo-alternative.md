@@ -2,7 +2,7 @@
 title: "Ulasan Kartu Belajar Gizmo (2026): Batas Paket Gratis, Magic Import, dan Alternatif"
 description: "Ulasan kartu belajar Gizmo berdasarkan sumber yang telah diperiksa: jeda Magic Import di paket gratis, AI Tutor, jenis kartu, ekspor, bukti penggunaan offline, dan alternatif praktis."
 date: "2026-08-03"
-updated: "2026-09-01"
+updated: "2026-11-12"
 image: "/blog/gizmo-alternative-v2.png"
 keywords:
   - "kartu belajar Gizmo"
@@ -138,7 +138,7 @@ Jika Anda mengandalkan soal interaktif, pelajaran Tutor, atau hadiah, tetap guna
 
 ## Bisakah Anda pindah dari Gizmo ke aplikasi lain?
 
-Di aplikasi web Nibomo, pilih **Pustaka > Impor > Impor dari aplikasi lain** dan gunakan PDF dari Gizmo sebagai bahan untuk membuat kartu baru lewat chat AI. Pemindahan ini belum diuji dalam ulasan ini. Bandingkan kartu hasilnya dengan dek sumber. Lihat langkah lengkapnya di [panduan impor](/docs/import-flashcards/).
+Di aplikasi web Nibomo, buka **Pustaka > Impor > Impor dari Gizmo**. Pilih file PDF dari Gizmo, lalu klik **Mulai impor**. Nibomo memakai PDF itu untuk membuat kartu baru lewat chat AI. Cocokkan kartu yang tersimpan dengan PDF. Periksa jumlah kartu dan pastikan sisi depan dan belakangnya berpasangan dengan benar. Lihat [panduan PDF Gizmo (dalam bahasa Inggris)](/blog/gizmo-export-pdf/) untuk langkah lengkapnya.
 
 Sebagai gantinya, cara yang aman adalah membuat ulang kartu secara manual dan selektif:
 

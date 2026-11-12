@@ -2,7 +2,7 @@
 title: "Gizmo-anmeldelse (2026): puggekort, gratisgrenser, Magic Import og alternativer"
 description: "Gjennomgang av Gizmo basert på offisielle kilder: gratisgrensene for Magic Import, AI Tutor, korttyper, eksport, bruk uten nett og et praktisk alternativ."
 date: "2026-08-03"
-updated: "2026-09-01"
+updated: "2026-11-12"
 image: "/blog/gizmo-alternative-v2.png"
 keywords:
   - "Gizmo puggekort"
@@ -134,7 +134,7 @@ Hvis du trenger interaktive korttyper, Tutor-leksjoner eller belønninger, passe
 
 ## Kan du flytte fra Gizmo til en annen app?
 
-Bruk PDF-filen som grunnlag for nye kort. I Nibomos nettapp velger du **Bibliotek > Import > Importer fra en annen app** og åpner PDF-filen. Den sendes til KI-chat. Denne gjennomgangen testet ikke overføring av en Gizmo-PDF, så sammenlign de nye kortene med kilden. Se [importveiledningen](/docs/import-flashcards/).
+Bruk PDF-filen fra Gizmo som grunnlag for nye kort. I Nibomos nettapp går du til **Bibliotek > Import > Importer fra Gizmo**. Velg PDF-filen og trykk på **Start import**. Sammenlign kortene med PDF-filen. Sjekk at antallet stemmer, og at hver forside har riktig bakside. Se [veiledningen for Gizmo-PDF-er (på engelsk)](/blog/gizmo-export-pdf/).
 
 Gjenskap spørsmål som trenger Gizmos interaktive formater, manuelt.
 

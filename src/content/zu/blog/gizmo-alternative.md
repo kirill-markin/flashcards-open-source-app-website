@@ -2,7 +2,7 @@
 title: "Ukubuyekezwa kwamakhadi okufunda e-Gizmo (2026): imikhawulo yamahhala, i-Magic Import nezinye izinketho"
 description: "Ukubuyekezwa kwe-Gizmo okuhlolwe ngemithombo: ukulinda kwe-Magic Import ohlelweni lwamahhala, i-AI Tutor, izinhlobo zamakhadi, ukukhipha idatha, ubufakazi bokusebenza ngaphandle kwe-inthanethi nenye inketho ewusizo."
 date: "2026-08-03"
-updated: "2026-09-01"
+updated: "2026-11-12"
 image: "/blog/gizmo-alternative-v2.png"
 keywords:
   - "amakhadi okufunda e-Gizmo"
@@ -138,7 +138,7 @@ Okufanele ukucabangele ububanzi bezici. Amakhasi amanje e-Nibomo awachazi imenyu
 
 ## Ungathutha usuke ku-Gizmo uye kolunye uhlelo?
 
-Ungasebenzisa i-PDF ye-Gizmo njengomthombo wamakhadi amasha. Ohlelweni lwewebhu lwe-Nibomo, khetha **Umtapo wolwazi > Ngenisa > Ngenisa kusuka kolunye uhlelo lokusebenza** bese ukhetha i-PDF. Ingxoxo ye-AI idala amakhadi isebenzisa ifayela. Lokhu kubuyekezwa akuzange kuvivinye ukudluliswa kwe-PDF ye-Gizmo, ngakho qhathanisa umphumela nomthombo. Bheka [umhlahlandlela wokungenisa](/docs/import-flashcards/).
+Ungasebenzisa i-PDF oyigcine ku-Gizmo ukuze wakhe amakhadi amasha. Ohlelweni lwewebhu lwe-Nibomo, iya kokuthi **Umtapo wolwazi > Ngenisa > Ngenisa kusuka ku-Gizmo**. Khetha ifayela le-PDF bese uchofoza **Qala ukungenisa**. Qhathanisa inani lamakhadi agciniwe nezinhlangothi zombili zekhadi ngalinye nalokho okuku-PDF. Bheka [umhlahlandlela wokukhipha i-PDF ku-Gizmo nokuyingenisa ku-Nibomo (ngesiNgisi)](/blog/gizmo-export-pdf/).
 
 Uma imibuzo incike endleleni i-Gizmo esebenzisana ngayo nawe, yakha kabusha kuphela leyo oyidingayo.
 

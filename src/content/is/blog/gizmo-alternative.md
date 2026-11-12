@@ -2,7 +2,7 @@
 title: "Umsögn um Gizmo-námsspjöld (2026): takmarkanir ókeypis útgáfunnar, Magic Import og aðrir kostir"
 description: "Heimildastudd umsögn um Gizmo-námsspjöld: biðin eftir Magic Import í ókeypis útgáfunni, AI Tutor, spjaldagerðir, útflutningur, notkun án nets og hagnýtur valkostur."
 date: "2026-08-03"
-updated: "2026-09-01"
+updated: "2026-11-12"
 image: "/blog/gizmo-alternative-v2.png"
 keywords:
   - "Gizmo námsspjöld"
@@ -138,7 +138,7 @@ Ef þú reiðir þig á gagnvirkar spurningar, kennslu með Tutor eða umbun ska
 
 ## Geturðu flutt úr Gizmo í annað app?
 
-Í vefforriti Nibomo geturðu valið **Safn > Flytja inn > Flytja inn úr öðru forriti** og notað PDF-skrá úr Gizmo sem heimild fyrir ný spjöld í gervigreindarspjalli. Þessi flutningur var ekki prófaður fyrir umfjöllunina. Berðu spjöldin sem verða til saman við upprunalega bunkann. Öll skrefin eru í [innflutningsleiðbeiningarnar](/docs/import-flashcards/).
+Í vefforriti Nibomo skaltu fara í **Safn > Flytja inn > Flytja inn úr Gizmo**. Veldu PDF-skrána úr Gizmo og smelltu á **Hefja innflutning**. Nibomo notar skrána til að búa til ný spjöld í gervigreindarspjallinu. Berðu vistuðu spjöldin saman við PDF-skrána. Athugaðu fjöldann og hvort réttar fram- og bakhliðar séu paraðar saman. Sjá [leiðbeiningar um Gizmo og PDF (á ensku)](/blog/gizmo-export-pdf/).
 
 Örugg lausn er að velja þau spjöld sem þú vilt halda og færa þau handvirkt:
 

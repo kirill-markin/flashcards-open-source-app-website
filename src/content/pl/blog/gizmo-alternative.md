@@ -2,7 +2,7 @@
 title: "Gizmo — recenzja aplikacji do fiszek (2026): limity darmowego planu, Magic Import i alternatywy"
 description: "Recenzja Gizmo na podstawie oficjalnych źródeł: przerwa między importami Magic Import w darmowym planie, AI Tutor, typy fiszek, eksport, ustalenia o trybie offline i alternatywa."
 date: "2026-08-03"
-updated: "2026-09-01"
+updated: "2026-11-12"
 image: "/blog/gizmo-alternative-v2.png"
 keywords:
   - "fiszki Gizmo"
@@ -134,7 +134,7 @@ Gizmo sprawdzi się lepiej, jeśli korzystasz z interaktywnych typów pytań, le
 
 ## Czy można przenieść się z Gizmo do innej aplikacji?
 
-Użyj PDF-u jako materiału źródłowego do nowych fiszek. W aplikacji webowej Nibomo wybierz **Biblioteka > Import > Importuj z innej aplikacji** i wskaż plik PDF. Trafi do czatu AI. W tym przeglądzie nie testowałem przenoszenia PDF-u z Gizmo. Porównaj wynik z oryginałem. Zobacz [instrukcję importowania](/docs/import-flashcards/).
+Użyj PDF-u z Gizmo jako materiału źródłowego do nowych fiszek. W aplikacji webowej Nibomo przejdź do **Biblioteka > Import > Importuj z aplikacji Gizmo**. Wybierz plik PDF i kliknij **Rozpocznij import**. Porównaj nowe fiszki z PDF-em. Sprawdź ich liczbę oraz treść z przodu i z tyłu każdej z nich. Zobacz [poradnik o plikach PDF z Gizmo (po angielsku)](/blog/gizmo-export-pdf/).
 
 Pytania zależne od interaktywnych formatów Gizmo odtwórz w razie potrzeby ręcznie.
 

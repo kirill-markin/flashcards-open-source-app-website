@@ -136,7 +136,7 @@ La contrapartida és l'abast. Les pàgines actuals de Nibomo no documenten el me
 
 ## Pots passar de Gizmo a una altra aplicació?
 
-Pots provar un PDF petit a l’app web de Nibomo amb **Biblioteca > Importa > Importa des d’una altra app**. Aquesta opció envia el fitxer al xat amb IA perquè creï targetes noves. No he provat aquest procés amb un PDF de Gizmo. Compara les preguntes i respostes desades amb l’original i no donis per fet que es conservin els tipus de qüestionari ni l’historial. Consulta la [guia per importar targetes](/docs/import-flashcards/).
+A l’app web de Nibomo, ves a **Biblioteca > Importa > Importa des de l’app Gizmo**, tria el PDF i prem **Inicia la importació**. El xat amb IA fa servir el fitxer per crear targetes noves. Compara les targetes desades amb el PDF i no donis per fet que es conservin els tipus de qüestionari ni l’historial de repassos. Consulta la [guia per importar el PDF de Gizmo (en anglès)](/blog/gizmo-export-pdf/).
 
 Si prefereixes fer el traspàs a mà, selecciona les fitxes que t’interessen:
 

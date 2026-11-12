@@ -2,7 +2,7 @@
 title: "Gizmo bilgi kartları incelemesi (2026): Ücretsiz planın sınırları, Magic Import ve alternatifler"
 description: "Resmî kaynaklara dayanan Gizmo incelemesi: Magic Import'un ücretsiz plandaki bekleme süresi, AI Tutor, kart türleri, dışa aktarma, çevrimdışı kullanım bilgileri ve bir alternatif."
 date: "2026-08-03"
-updated: "2026-09-01"
+updated: "2026-11-12"
 image: "/blog/gizmo-alternative-v2.png"
 keywords:
   - "Gizmo bilgi kartları"
@@ -138,7 +138,7 @@ Bunun karşılığında daha dar bir kapsamla yetinmeniz gerekiyor. Güncel Nibo
 
 ## Gizmo'dan başka bir uygulamaya geçebilir misiniz?
 
-Gizmo PDF’sini yeni kartlar için kaynak olarak kullanabilirsiniz. Nibomo’nun web uygulamasında **Kitaplık > İçe aktar > Başka bir uygulamadan içe aktar** yolunu izleyip PDF’yi seçin. AI sohbeti dosyadan kart oluşturur. Bu incelemede Gizmo PDF’sinin aktarımı denenmedi. Sonucu kaynağıyla karşılaştırın. [Kart içe aktarma rehberi](/docs/import-flashcards/).
+Gizmo’dan kaydettiğiniz PDF dosyasını kullanarak yeni kartlar oluşturabilirsiniz. Nibomo’nun web uygulamasında **Kitaplık > İçe aktar > Gizmo uygulamasından içe aktar** yolunu izleyin. PDF dosyasını seçip **İçe aktarmayı başlat** düğmesine tıklayın. Kaydedilen kartların sayısını ve her kartın ön ve arka yüzünü PDF ile karşılaştırın. [Gizmo’dan PDF alma ve Nibomo’ya aktarma rehberine (İngilizce)](/blog/gizmo-export-pdf/) göz atın.
 
 Gizmo’daki etkileşimli biçime bağlı kartları seçerek yeniden hazırlayabilirsiniz.
 

@@ -2,7 +2,7 @@
 title: "Gizmo: recenzie a cardurilor de învățare (2026), limitele planului gratuit, Magic Import și alternative"
 description: "Recenzie Gizmo bazată pe surse verificate: pauza dintre importurile Magic Import în planul gratuit, AI Tutor, tipuri de carduri, export, utilizare offline și o alternativă practică."
 date: "2026-08-03"
-updated: "2026-09-01"
+updated: "2026-11-12"
 image: "/blog/gizmo-alternative-v2.png"
 keywords:
   - "carduri de învățare Gizmo"
@@ -134,7 +134,7 @@ Gizmo se potrivește mai bine dacă ai nevoie de întrebări interactive, lecți
 
 ## Poți trece de la Gizmo la altă aplicație?
 
-Folosește PDF-ul ca sursă pentru fișe noi. În aplicația web Nibomo alege **Bibliotecă > Import > Importă din altă aplicație** și selectează fișierul PDF. Fișierul ajunge în chatul AI. Recenzia nu a testat transferul unui PDF din Gizmo. Compară fișele noi cu originalul. Consultă [ghidul de import](/docs/import-flashcards/).
+Folosește PDF-ul din Gizmo ca sursă pentru fișe noi. În aplicația web Nibomo, mergi la **Bibliotecă > Import > Importă din Gizmo**. Selectează fișierul PDF și apasă **Pornește importul**. Compară fișele noi cu PDF-ul. Verifică dacă numărul de fișe coincide și dacă fiecare față are versoul potrivit. Consultă [ghidul pentru PDF-uri din Gizmo (în engleză)](/blog/gizmo-export-pdf/).
 
 Refă manual întrebările care depind de formatele interactive Gizmo.
 

@@ -134,7 +134,7 @@ If you rely on Gizmo's interactive question types, Tutor-led lessons, or rewards
 
 ## Can you move from Gizmo to another app?
 
-You can use Gizmo's PDF as source material for new cards. In the Nibomo web app, choose **Library → Import → Import from another app** and select the PDF. AI chat uses it to create cards. This review did not test a Gizmo PDF transfer, so check the output against the source. If your app version lacks the menu option, attach the PDF in AI chat. See the [import guide](/docs/import-flashcards/).
+You can use Gizmo's PDF as source material for new cards. In the Nibomo web app, choose **Library → Import → Import from Gizmo**, select the PDF, and click **Start import**. AI chat uses the file to create cards. Compare the saved cards with the PDF. See the [Gizmo PDF transfer guide](/blog/gizmo-export-pdf/) for the steps.
 
 For questions that depend on Gizmo's interactive format, rebuild them selectively.
 

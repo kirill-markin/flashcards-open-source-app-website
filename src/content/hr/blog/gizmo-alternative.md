@@ -2,7 +2,7 @@
 title: "Recenzija Gizmovih kartica za učenje (2026.): ograničenja besplatnog plana, Magic Import i alternative"
 description: "Recenzija Gizmovih kartica za učenje na temelju izvora: čekanje između uvoza uz Magic Import u besplatnom planu, AI Tutor, vrste kartica, izvoz, dokazi o radu bez interneta i praktična alternativa."
 date: "2026-08-03"
-updated: "2026-09-01"
+updated: "2026-11-12"
 image: "/blog/gizmo-alternative-v2.png"
 keywords:
   - "Gizmo kartice za učenje"
@@ -138,7 +138,7 @@ Oslanjate li se na interaktivna pitanja, lekcije uz Tutor ili nagrade, za to nas
 
 ## Možete li prijeći iz Gizma u drugu aplikaciju?
 
-U web aplikaciji Nibomo otvorite **Knjižnica > Uvoz > Uvezi iz druge aplikacije** i odaberite PDF iz Gizma kao izvor za nove kartice u AI razgovoru. Prijenos nije isproban u ovoj recenziji. Usporedite izrađene kartice s izvornim špilom. Sve korake potražite u [vodiču za uvoz](/docs/import-flashcards/).
+U web aplikaciji Nibomo otvorite **Knjižnica > Uvoz > Uvezi iz aplikacije Gizmo**. Odaberite Gizmov PDF i kliknite **Pokrenite uvoz**. Nibomo iz PDF-a izrađuje nove kartice u AI razgovoru. Usporedite spremljene kartice s PDF-om i provjerite broj kartica te odgovara li svaka poleđina svojoj prednjoj strani. Više pojedinosti potražite u [vodiču za Gizmov PDF (na engleskom)](/blog/gizmo-export-pdf/).
 
 Sigurno rješenje podrazumijeva ručan prijenos odabranih kartica:
 

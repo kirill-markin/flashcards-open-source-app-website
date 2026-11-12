@@ -2,7 +2,7 @@
 title: "Avis sur Gizmo Flashcards (2026) : limites du plan gratuit, Magic Import et alternatives"
 description: "Avis sur Gizmo Flashcards vérifié auprès des sources officielles : attente de Magic Import sur le plan gratuit, AI Tutor, types de cartes, export, preuves sur le hors-ligne et une alternative concrète."
 date: "2026-08-03"
-updated: "2026-09-01"
+updated: "2026-11-12"
 image: "/blog/gizmo-alternative-v2.png"
 keywords:
   - "Gizmo flashcards"
@@ -134,7 +134,7 @@ Le compromis, c'est la portée. Les pages actuelles de Nibomo ne documentent ni 
 
 ## Peut-on passer de Gizmo à une autre application ?
 
-Dans l’application web Nibomo, ouvrez **Bibliothèque → Importer → Importer depuis une autre app** et sélectionnez le PDF. Le chat IA peut s’en servir pour créer de nouvelles cartes. Le transfert d’un PDF Gizmo n’a pas été testé pour cet article. Comparez le résultat au paquet d’origine. Consultez le [guide d’importation](/docs/import-flashcards/).
+Dans l’application web Nibomo, ouvrez **Bibliothèque → Importer → Importer depuis Gizmo**, sélectionnez le PDF et cliquez sur **Lancer l’importation**. Le chat IA utilise le fichier pour créer de nouvelles cartes. Comparez les cartes enregistrées au PDF. Consultez le [guide pour transférer les cartes Gizmo par PDF (en anglais)](/blog/gizmo-export-pdf/).
 
 Pour les questions qui dépendent des formats interactifs de Gizmo, recréez les cartes dont vous avez besoin :
 

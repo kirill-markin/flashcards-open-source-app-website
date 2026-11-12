@@ -2,7 +2,7 @@
 title: "Đánh giá thẻ học Gizmo (2026): Giới hạn gói miễn phí, Magic Import và ứng dụng thay thế"
 description: "Đánh giá thẻ học Gizmo dựa trên nguồn chính thức: thời gian chờ Magic Import ở gói miễn phí, AI Tutor, loại thẻ, xuất dữ liệu, thông tin về khả năng học ngoại tuyến và một lựa chọn thay thế thực tế."
 date: "2026-08-03"
-updated: "2026-09-01"
+updated: "2026-11-12"
 image: "/blog/gizmo-alternative-v2.png"
 keywords:
   - "thẻ học Gizmo"
@@ -138,7 +138,7 @@ Thông tin về khả năng học ngoại tuyến và xuất dữ liệu của N
 
 ## Có thể chuyển từ Gizmo sang ứng dụng khác không?
 
-Bạn có thể dùng PDF của Gizmo làm nguồn để tạo thẻ mới. Trong ứng dụng web Nibomo, vào **Thư viện > Nhập > Nhập từ ứng dụng khác** và chọn PDF. AI sẽ dùng tệp để tạo thẻ. Bài này chưa thử chuyển PDF của Gizmo, vì vậy hãy đối chiếu kết quả với bản gốc. Xem [hướng dẫn nhập thẻ](/docs/import-flashcards/).
+Bạn có thể dùng tệp PDF đã lưu từ Gizmo để tạo thẻ mới. Trong ứng dụng web Nibomo, vào **Thư viện > Nhập > Nhập từ Gizmo**. Chọn tệp PDF rồi bấm **Bắt đầu nhập**. Đối chiếu số thẻ đã lưu và nội dung hai mặt của từng thẻ với tệp PDF. Xem [hướng dẫn xuất PDF từ Gizmo và nhập vào Nibomo (tiếng Anh)](/blog/gizmo-export-pdf/).
 
 Với các câu hỏi phụ thuộc vào định dạng tương tác của Gizmo, hãy chọn lọc những câu cần tạo lại.
 

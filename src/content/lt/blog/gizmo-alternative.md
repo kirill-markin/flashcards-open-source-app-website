@@ -136,7 +136,7 @@ Jei jums svarbūs „Gizmo“ kortelių tipai, „Tutor“ pamokos ar atlygių s
 
 ## Ar galima iš Gizmo pereiti į kitą programėlę?
 
-„Gizmo“ PDF galite naudoti kaip medžiagą naujoms kortelėms. „Nibomo“ internetinėje programėlėje atidarykite **Biblioteka > Importuoti > Importuoti iš kitos programėlės** ir pasirinkite PDF. Spustelėkite **Pradėti importuoti**, kad failas būtų nusiųstas į DI pokalbį. DI sukurs naujas korteles, o kartojimo istorija liks „Gizmo“. Pirmiausia išbandykite nedidelį rinkinį ir pagal sukurtas korteles įvertinkite, kaip tiksliai DI atkūrė rinkinio struktūrą iš PDF.
+„Nibomo“ internetinėje programėlėje atidarykite **Biblioteka > Importuoti > Importuoti iš „Gizmo“**. Pasirinkite „Gizmo“ PDF failą ir spustelėkite **Pradėti importuoti**. Failas bus nusiųstas į DI pokalbį, kuriame iš jo bus sukurtos naujos kortelės. Kartojimo istorija liks „Gizmo“. Pradėkite nuo nedidelio rinkinio. Palyginkite išsaugotas korteles su PDF ir patikrinkite, ar sutampa kortelių skaičius bei priekinių ir galinių pusių poros. Daugiau informacijos rasite [„Gizmo“ PDF vadove (anglų kalba)](/blog/gizmo-export-pdf/).
 
 Atrinkite ir rankiniu būdu atkurkite korteles, kurioms svarbus „Gizmo“ užduoties formatas.
 

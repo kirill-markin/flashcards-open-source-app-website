@@ -2,7 +2,7 @@
 title: "Recenzia kartičkovej aplikácie Gizmo (2026): limity bezplatného plánu, Magic Import a alternatívy"
 description: "Recenzia aplikácie Gizmo na učenie s kartičkami podľa oficiálnych zdrojov: čakanie medzi importmi Magic Import, AI Tutor, typy kartičiek, export, fungovanie offline a praktická alternatíva."
 date: "2026-08-03"
-updated: "2026-09-01"
+updated: "2026-11-12"
 image: "/blog/gizmo-alternative-v2.png"
 keywords:
   - "kartičky Gizmo"
@@ -134,7 +134,7 @@ Ak pri učení využívate interaktívne otázky, lekcie Tutor alebo odmeny, Giz
 
 ## Dá sa prejsť z aplikácie Gizmo do inej aplikácie?
 
-PDF z Gizmo môžete skúsiť použiť ako podklad na nové kartičky. Vo webovej aplikácii Nibomo vyberte **Knižnica > Import > Importovať z inej aplikácie** a zvoľte PDF. Súbor sa odošle do AI chatu. V tomto porovnaní sme prenos PDF z Gizmo netestovali. Výsledok porovnajte s originálom. Pozrite si [návod na import kartičiek](/sk/docs/import-flashcards/).
+PDF z Gizmo môžete použiť ako podklad na nové kartičky. Vo webovej aplikácii Nibomo otvorte **Knižnica > Import > Importovať z aplikácie Gizmo**. Vyberte súbor PDF a kliknite na **Spustiť import**. Porovnajte nové kartičky s PDF. Skontrolujte ich počet a overte, či má každá predná strana správnu zadnú stranu. Pozrite si [návod na prenos kartičiek z Gizmo cez PDF (v angličtine)](/blog/gizmo-export-pdf/).
 
 Otázky, ktoré závisia od interaktívneho formátu Gizmo, môžete vytvoriť ručne:
 

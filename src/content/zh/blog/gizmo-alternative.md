@@ -2,7 +2,7 @@
 title: "Gizmo 闪卡评测（2026）：免费版限制、Magic Import 与替代方案"
 description: "这篇基于官方资料核查的 Gizmo 闪卡评测，涵盖免费版 Magic Import 的等待限制、AI Tutor、卡片类型、导出、离线证据，以及一个实用替代方案。"
 date: "2026-08-03"
-updated: "2026-09-01"
+updated: "2026-11-12"
 image: "/blog/gizmo-alternative-v2.png"
 keywords:
   - "Gizmo 闪卡"
@@ -138,7 +138,7 @@ Nibomo 对离线使用和数据迁出的说明更明确。其文档说明移动�
 
 ## 能从 Gizmo 迁移到其他应用吗？
 
-可以把 Gizmo 的 PDF 当作新卡片的素材。在 Nibomo 网页版中进入**资料库 > 导入 > 从其他应用导入**，选择 PDF。AI 对话会用文件内容生成卡片。本文未测试 Gizmo PDF 的迁移效果，请将生成结果与原件核对。参阅[闪卡导入指南](/docs/import-flashcards/)。
+从 Gizmo 保存的 PDF 可以用来制作新卡片。在 Nibomo 网页版中进入 **资料库 > 导入 > 从 Gizmo 导入**，选择 PDF 文件，然后点击 **开始导入**。对照 PDF 检查保存的卡片数量和每张卡片正反两面的内容。参阅 [Gizmo PDF 导出与导入指南（英文）](/blog/gizmo-export-pdf/)。
 
 如果题目依赖 Gizmo 的交互形式，可以挑选值得保留的题目手动重建。
 
