@@ -86,7 +86,7 @@ Time Nibomo ne postaje poveznik za Quizlet. Podržani postupak je sljedeći:
 
 1. izvezite tekst iz Quizletova skupa čiji ste autor;
 2. sačuvajte izvornu datoteku i pregledajte radnu kopiju;
-3. pregledajte kako je sadržaj raspoređen u kartice prije nego što ih spremite u Nibomo;
+3. U web aplikaciji Nibomo otvorite **Knjižnica > Uvoz > Uvezi iz aplikacije Quizlet** i zalijepite tekst. **Pokrenite uvoz** šalje ga u AI razgovor radi izrade kartica. Spremljene kartice usporedite s izvornikom.
 4. povežite nastali radni prostor u Nibomu s kompatibilnim klijentom za buduće čitanje i pisanje.
 
 Za Claude su koraci povezivanja opisani u članku [Kako povezati Nibomo s alatom Claude putem MCP-a](/blog/how-to-connect-flashcards-to-claude-with-mcp/). Codex i drugi agenti mogu koristiti dokumentirani MCP ili Agent API pristup koji njihovo okruženje podržava.

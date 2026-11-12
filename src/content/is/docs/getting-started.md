@@ -44,6 +44,10 @@ Fljótlegasta leiðin til að byrja er hýsta vefforritið:
 
 Með hýstu leiðinni þarf hvorki að setja neitt upp né stilla netþjón.
 
+## Taktu námsspjöldin með þér
+
+Ertu þegar með spjöld í Quizlet, Anki eða öðru forriti? Farðu í **Safn > Flytja inn** og skoðaðu [leiðbeiningarnar um innflutning námsspjalda](/docs/import-flashcards/) til að velja rétt snið og athuga hvað flyst yfir.
+
 ## Uppsetning fyrir gervigreindarumboð
 
 MCP-biðlarar á borð við Claude, ChatGPT og Cursor geta tengst samkvæmt [leiðbeiningunum um MCP-tengið](/docs/mcp-connector/).

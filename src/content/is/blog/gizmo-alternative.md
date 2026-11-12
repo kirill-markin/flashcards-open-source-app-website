@@ -18,7 +18,7 @@ Ef þú vilt flytja glósur heillar viku inn í Gizmo í einu lagi án þess að
 
 Þessi umsögn um Gizmo-námsspjöld byggist á núverandi opinberum hjálparsíðum. Ég hef ekki prófað Gizmo sjálfur. Því byggi ég lýsinguna á því sem Gizmo segir í leiðbeiningum sínum og tek skýrt fram hvar óvissa er til staðar.
 
-> **Upplýsingar um hagsmunatengsl:** Ég heiti Kirill Markin og þróa [Nibomo](https://nibomo.com/is/), valkostinn sem er borinn saman við Gizmo hér að neðan. Leiðbeiningar Gizmo lýsa víðara vinnuflæði: fleiri sniðum námsefnis, fimm spjaldagerðum, kennslustundum með AI Tutor, fjölbreyttum prófum og framvindukerfi sem líkist leik. Nibomo hefur vísvitandi þrengra hlutverk.
+> **Upplýsingar um hagsmunatengsl:** Ég heiti Kirill Markin og þróa [Nibomo](https://nibomo.com/is/), valkostinn sem er borinn saman við Gizmo hér að neðan. Leiðbeiningar Gizmo lýsa víðara vinnuflæði: fleiri sniðum námsefnis, sjö spjaldagerðum, kennslustundum með AI Tutor, fjölbreyttum prófum og framvindukerfi sem líkist leik. Nibomo hefur vísvitandi þrengra hlutverk.
 
 **Staðreyndir yfirfarnar:** 1. september 2026.
 
@@ -57,21 +57,23 @@ Einnig er hægt að flytja efni inn í AI Tutor með svipuðum hætti. [Opinberu
 
 Þessir tveir listar yfir innflutningsleiðir eru ekki eins. Anki, töflureiknisskjöl og vefsíður eru í leiðbeiningunum um spjaldagerð; YouTube og Gizmo-stokkar sem eru þegar til birtast í leiðbeiningunum um Tutor-kennslustundir. Athugaðu innflutningsleiðina sem þú ætlar að nota; ekki gera ráð fyrir að hægt sé að flytja sama efni inn í báðum valmyndum.
 
-## Gizmo hefur fimm spjaldagerðir
+## Gizmo hefur sjö spjaldagerðir
 
-Núverandi [leiðbeiningar Gizmo um spjaldagerðir](https://help.gizmo.ai/en/articles/16527223-what-types-of-flashcards-can-i-make) telja upp fimm snið:
+Núverandi [leiðbeiningar Gizmo um spjaldagerðir](https://help.gizmo.ai/en/articles/16527223-what-types-of-flashcards-can-i-make) telja upp sjö snið:
 
 | Spjaldagerð | Hvað hún prófar | Hvernig hún verður til |
 | --- | --- | --- |
-| **Card text** (textaspjald) | Texti eða LaTeX, með auðkenndum orðum sem prófsefni eða möguleika á að sýna framhlið og fletta yfir á bakhlið | Handvirkt eða með Magic Import |
-| **Multiple choice** (fjölval) | Spurning með sjálfvirkt útbúnum svarmöguleikum; þú getur bætt við röngum valkostum þegar þú breytir spjaldinu | Handvirkt eða með Magic Import |
-| **Matching** (pörun) | Pör sem Gizmo stokkar upp svo þú getir parað þau aftur saman | Eingöngu með Magic Import |
-| **Ordering** (röðun) | Atriði sem Gizmo stokkar upp svo þú getir sett þau aftur í rétta röð | Eingöngu með Magic Import |
-| **True/False** (satt/ósatt) | Fullyrðing sem þú metur sem sanna eða ósanna | Handvirkt eða með Magic Import |
+| **Q&A** | Spurning og svar sem geta innihaldið texta eða LaTeX | Handvirkt eða með Magic Import |
+| **Multi-select** | Spurning með einu eða fleiri réttum svörum | Handvirkt eða með Magic Import |
+| **Fill the blanks** | Auðkennd orð í texta sem þú fyllir inn í prófi | Handvirkt eða með Magic Import |
+| **Match pairs** (pörun) | Pör sem Gizmo stokkar upp svo þú getir parað þau aftur saman | Handvirkt eða með Magic Import |
+| **Order items** (röðun) | Atriði sem Gizmo stokkar upp svo þú getir sett þau aftur í rétta röð | Handvirkt eða með Magic Import |
+| **True or False** (satt/ósatt) | Fullyrðing sem þú metur sem sanna eða ósanna | Handvirkt eða með Magic Import |
+| **Image question** | Merkingar sem þú afhjúpar á skýringarmynd eða ljósmynd | Handvirkt |
 
-Þetta býður upp á fleiri möguleika en einfaldur stokkur með framhlið og bakhlið, og Magic Import er ekki bara flýtileið: Matching og Ordering eru nú eingöngu fáanleg í gegnum Magic Import.
+Einnig er hægt að búa til pörunar- og röðunarverkefni handvirkt.
 
-Eitt ósamræmi í leiðbeiningunum þarf að taka fram. Síðan um spjaldagerðir segir að Card text geti innihaldið myndir á framhlið og bakhlið. [Leiðbeiningar Gizmo um umsjón spjalda](https://help.gizmo.ai/en/articles/13761411-how-do-i-edit-or-manage-my-cards) segja að aðeins sé hægt að bæta ljósmyndum og myndum á framhlið. Ef myndir á bakhlið skipta máli skaltu athuga hvað núverandi spjaldaritill leyfir áður en þú býrð til stokkinn. Ekki er hægt að gefa afdráttarlausara svar út frá þessum tveimur opinberu síðum.
+Eitt ósamræmi í leiðbeiningunum þarf að taka fram. Síðan um spjaldagerðir segir að Q&A geti innihaldið myndir á framhlið og bakhlið. [Leiðbeiningar Gizmo um umsjón spjalda](https://help.gizmo.ai/en/articles/13761411-how-do-i-edit-or-manage-my-cards) segja að aðeins sé hægt að bæta ljósmyndum og myndum á framhlið. Ef myndir á bakhlið skipta máli skaltu athuga hvað núverandi spjaldaritill leyfir áður en þú býrð til stokkinn. Ekki er hægt að gefa afdráttarlausara svar út frá þessum tveimur opinberu síðum.
 
 Gizmo tekur líka fram að prófstillingar hafi áhrif á hvaða spurningastíla þú sérð. Sniðið sem spjaldið er vistað á tengist því hvernig það er notað í prófi, en þetta er ekki alveg það sama.
 
@@ -97,11 +99,11 @@ Gizmo mælir skýrt með að yfirfara stokk eftir Magic Import og leggur til að
 
 Takmörkunin kemur fram í Memorise: þar geturðu eytt spjaldi, en þú getur ekki breytt því í miðju prófi eins og staðan er nú. Ef þú rekst á rangt svar þegar þú ert að læra þarftu að fara út úr prófinu til að laga það.
 
-### Gizmo býður ekki upp á útflutning
+### Hægt er að prenta spjöld úr Gizmo eða vista þau sem PDF
 
-Sömu opinberu leiðbeiningar segja að útflutningur spjalda sé ekki enn í boði. [Leiðbeiningar Gizmo um umsjón stokka](https://help.gizmo.ai/en/articles/12995587-how-do-i-make-changes-to-my-decks) segja að útflutningur stokka sé heldur ekki í boði.
+Opnaðu valmynd bunkans, veldu **Print** og veldu síðan **Save as PDF** í prentglugga vafrans. Gizmo hefur gefið út [leiðbeiningar um útflutning sem PDF](https://help.gizmo.ai/en/articles/18228622-how-do-i-export-print-or-download-my-cards-as-a-pdf), einnig fyrir bunka sem voru búnir til í Gizmo.
 
-Þetta er skýrasta takmörkunin á stjórn þinni yfir gögnunum í núverandi vinnuflæði. Gizmo tekur við efni úr nokkrum öðrum kerfum, en býður nú ekki upp á skjalfesta leið til að flytja spjöldin sem verða til aftur út. Ef flutningur í framtíðinni skiptir máli skaltu meta vöruna út frá þessari núverandi takmörkun fremur en möguleikanum á útflutningseiginleika síðar.
+PDF-skráin er læsilegt afrit. Geymdu upprunalega bunkann í Gizmo til að halda gagnvirkum spurningum og upprifjunarsögunni.
 
 ### Leiðbeiningarnar eru ekki nógu skýrar til að lofa notkun án nets
 
@@ -116,15 +118,15 @@ Greinarmunurinn skiptir máli því „viðmót sem var þegar hlaðið bregst e
 | Hvað skiptir máli við valið | Gizmo | Nibomo |
 | --- | --- | --- |
 | Hvar þú byrjar | Handgerð spjöld eða Magic Import úr fjölbreyttu námsefni | Handvirk gerð markvissra spjalda með framhlið og bakhlið eða gerð með hjálp gervigreindar |
-| Spjaldasnið | Card text, Multiple choice, Matching, Ordering og True/False | Spjöld með framhlið og bakhlið |
+| Spjaldasnið | Q&A, Multi-select, Fill the blanks, Match pairs, Order items, True or False og Image question | Spjöld með framhlið og bakhlið |
 | Kennsla samhliða spjöldunum | AI Tutor-kennslustundir, glósur og spurningar út frá upprunalega efninu | Spjaldagerð með hjálp gervigreindar; núverandi vörusíður lýsa engum Tutor-kennsluham |
 | Upprifjun | Memorise, spaced repetition og fjölbreyttir spurningastílar | Spaced repetition með FSRS |
 | Hvatningarkerfi | XP, Levels, Leagues, Streaks, Hearts, Hints og Coins | Núverandi vörusíður lýsa engu sambærilegu leikkerfi |
 | Heimildir um notkun án nets | Engin opinber trygging fyrir notkun án nets fannst í leiðbeiningunum sem voru skoðaðar | Nám án nets í farsíma og sjálfvirk samstilling eru skjalfestir eiginleikar |
-| Leið til að taka gögnin út | Útflutningur spjalda og stokka er ekki í boði eins og er | Færanlegur útflutningur inniheldur spjöld, merki og tengda miðla |
+| Leið til að taka gögnin út | Prentaðu bunka eða vistaðu sem PDF | Færanlegur útflutningur inniheldur spjöld, merki og tengda miðla |
 | Stjórn yfir hýsingu | Engin fullyrðing um eigin hýsingu á opinberu síðunum sem voru skoðaðar | Opinn hugbúnaður sem hægt er að hýsa sjálfur |
 
-Nibomo er hagnýtur valkostur við Gizmo þegar þú þarft aðeins afmarkaðra hlutverkið sem taflan lýsir. Núverandi [eiginleikasíða](/is/features/) þess lýsir FSRS, spjaldagerð með hjálp gervigreindar, námi án nets í farsíma og samstillingu, færanlegum útflutningi og eigin hýsingu. Hún lýsir engu sem jafngildir fimm spjaldasniðum í Magic Import, Tutor-kennslustundum eða leikkerfi Gizmo.
+Nibomo er hagnýtur valkostur við Gizmo þegar þú þarft aðeins afmarkaðra hlutverkið sem taflan lýsir. Núverandi [eiginleikasíða](/is/features/) þess lýsir FSRS, spjaldagerð með hjálp gervigreindar, námi án nets í farsíma og samstillingu, færanlegum útflutningi og eigin hýsingu. Gizmo býður einnig upp á kennslu með Tutor, fjölbreytt próf og framvindukerfi að hætti leikja.
 
 ## Hvenær Nibomo hentar betur
 
@@ -132,11 +134,11 @@ Veldu Nibomo þegar það sem þú vilt varðveita er yfirfarið spjald með fra
 
 Fullyrðingar þess um notkun án nets og flutning gagna út eru skýrari. Nibomo lýsir námi án nets í farsíma með sjálfvirkri samstillingu, og [leiðbeiningarnar fyrir fyrstu skrefin](/is/docs/getting-started/) tilgreina að iOS-biðillinn noti staðbundinn SQLite-gagnagrunn og samstillingu sem er hönnuð með notkun án nets í forgangi. Færanlegur útflutningur inniheldur spjöld, merki og tengda miðla, þar á meðal við flutning milli hýstu þjónustunnar og uppsetninga í eigin hýsingu.
 
-Þú færð hins vegar afmarkaðri eiginleika. Núverandi síður Nibomo lýsa hvorki innflutningsvalmynd Gizmo, fimm spjaldagerðum, kennslustundum undir leiðsögn Tutor né umbunarkerfi. Ef þessir eiginleikar leysa vandamálið sem leiddi þig hingað hentar Gizmo líklega betur.
+Ef þú reiðir þig á gagnvirkar spurningar, kennslu með Tutor eða umbun skaltu halda áfram að nota Gizmo til þess.
 
 ## Geturðu flutt úr Gizmo í annað app?
 
-Ekki með einföldum hætti eins og staðan er í dag. Þar sem Gizmo býður ekki upp á útflutning er engin venjuleg leið til að flytja úr Gizmo í Nibomo eða annað app með skrá.
+Í vefforriti Nibomo geturðu valið **Safn > Flytja inn > Flytja inn úr öðru forriti** og notað PDF-skrá úr Gizmo sem heimild fyrir ný spjöld í gervigreindarspjalli. Þessi flutningur var ekki prófaður fyrir umfjöllunina. Berðu spjöldin sem verða til saman við upprunalega bunkann. Öll skrefin eru í [innflutningsleiðbeiningarnar](/docs/import-flashcards/).
 
 Örugg lausn er að velja þau spjöld sem þú vilt halda og færa þau handvirkt:
 
@@ -147,11 +149,11 @@ Ekki með einföldum hætti eins og staðan er í dag. Þar sem Gizmo býður ek
 
 Þetta er hægara en að nota innflutningsverkfæri og varðveitir ekki allt. Kosturinn er að þú tekur aðeins með þér spjöld sem standast gæðaskoðun.
 
-Annar kostur er að nota bæði öppin. Gizmo getur hjálpað þér að vinna úr fyrirlestri eða kynningu og boðið upp á fjölbreyttar æfingar. Nibomo getur geymt minna safn af yfirförnum spjöldum með framhlið og bakhlið fyrir FSRS-upprifjun. Tengingin þar á milli er áfram handvirk því Gizmo flytur spjöldin ekki út.
+Annar kostur er að nota bæði öppin. Gizmo getur hjálpað þér að vinna úr fyrirlestri eða kynningu og boðið upp á fjölbreyttar æfingar. Nibomo getur geymt minna safn af yfirförnum spjöldum með framhlið og bakhlið fyrir FSRS-upprifjun.
 
 ## Hvaða vinnuflæði hentar þér?
 
-Veldu Gizmo þegar þú byrjar með óskipulagt námsefni og vilt að appið hjálpi þér að skipuleggja námið í fyrstu. Skjalfestir styrkleikar þess eru fjölbreyttar innflutningsleiðir, fimm spjaldagerðir, nám undir leiðsögn Tutor, fjölbreytt próf og framvindukerfi.
+Veldu Gizmo þegar þú byrjar með óskipulagt námsefni og vilt að appið hjálpi þér að skipuleggja námið í fyrstu. Skjalfestir styrkleikar þess eru fjölbreyttar innflutningsleiðir, sjö spjaldagerðir, nám undir leiðsögn Tutor, fjölbreytt próf og framvindukerfi.
 
 Veldu Nibomo þegar þú veist þegar hvað á heima á spjaldi með framhlið og bakhlið til lengri tíma og leggur meiri áherslu á FSRS, skjalfest nám án nets í farsíma, útflutning eða eigin hýsingu en fjölbreytt próf og umbun.
 

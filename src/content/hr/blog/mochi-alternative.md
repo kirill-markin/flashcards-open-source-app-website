@@ -164,6 +164,7 @@ Mochijev [vodič za sigurnosne kopije](https://mochi.cards/docs/getting-started/
 
 - Kopiranje cijelog korisničkog direktorija čuva sadržaj, povijest ponavljanja, privitke, postavke aplikacije i stanje prijave.
 - Izvoz `.mochi` čuva špilove, kartice, predloške i polja, privitke, oznake i metapodatke, povijest ponavljanja, redoslijed kartica i strukturu špilova.
+Ako želite isprobati Mochijev špil u Nibomu, otvorite **Knjižnica > Uvoz > Uvezi iz aplikacije Mochi** u web aplikaciji i odaberite datoteku `.mochi`. AI razgovor izradit će nove kartice. Provjerite njihov sadržaj i medijske datoteke te sačuvajte izvorni izvoz za vraćanje predložaka i povijesti ponavljanja u Mochiju. Sve korake potražite u [vodiču za uvoz](/docs/import-flashcards/).
 
 Mochijev [izvoz u Markdown i CSV](https://mochi.cards/docs/import-and-export/exporting/) služi prijenosu u druge sustave. Markdown stvara jednu datoteku po kartici i mape za podšpilove, ali izostavlja povijest ponavljanja, redoslijed kartica, predloške i oznake iz metapodataka, osim ako su oznake u samom Markdownu. CSV može izvesti polja predložaka ili prikazane prednje i stražnje strane, ali ne čuva povijest ponavljanja ni predloške, a oznake iz metapodataka čuva samo ako su ugrađene u sadržaj.
 

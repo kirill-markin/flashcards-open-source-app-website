@@ -111,7 +111,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Importálás, exportálás és a saját adataid",
           description:
-            "Mozgasd a tanulási anyagaidat be vagy ki, amikor csak akarod. A hordozható exportok tartalmazzák a kártyáidat, a címkéidet és a kapcsolódó médiát.",
+            "Hozz át kártyákat a Quizletből, az Ankiból és más alkalmazásokból. A Nibomo-kártyáidat, címkéidet és médiafájljaidat bármikor exportálhatod.",
+          link: {
+            label: "A kártyák importálása",
+            href: "/docs/import-flashcards/",
+          },
         },
         {
           title: "Együttműködik az AI-ügynökökkel",

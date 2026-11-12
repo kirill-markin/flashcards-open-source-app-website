@@ -86,7 +86,7 @@ Ini tidak menjadikan Nibomo sebagai konektor Quizlet. Alur yang didukung adalah:
 
 1. mengekspor teks dari set Quizlet buatan Anda sendiri;
 2. menyimpan berkas mentah dan memeriksa salinan kerja;
-3. meninjau hasil pemetaan kartu sebelum menyimpannya di Nibomo; dan
+3. Di aplikasi web Nibomo, buka **Pustaka > Impor > Impor dari Quizlet** dan tempel teksnya. **Mulai impor** mengirim teks ke chat AI untuk membuat kartu. Cocokkan kartu yang disimpan dengan teks asli.
 4. menghubungkan ruang kerja Nibomo yang dihasilkan ke klien yang kompatibel untuk operasi baca dan tulis berikutnya.
 
 Untuk Claude, langkah-langkah menghubungkan konektornya tersedia di [Cara Menghubungkan Nibomo ke Claude dengan MCP](/blog/how-to-connect-flashcards-to-claude-with-mcp/). Codex dan agen lain dapat menggunakan jalur MCP atau Agent API terdokumentasi yang didukung oleh lingkungan masing-masing.

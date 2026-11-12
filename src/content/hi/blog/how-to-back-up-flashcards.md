@@ -124,7 +124,7 @@ plain-text copy सही मायने में उसी तरह ugly ह
 
 यह अब और भी ज़्यादा मायने रखता है क्योंकि बहुत-सी decks notes, transcripts, OCR, PDFs, और AI-assisted cleanup से बन रही हैं। एक बार उपयोगी हिस्सा readable text के रूप में store हो जाए, तो आगे आपके options बहुत बेहतर हो जाते हैं।
 
-इसीलिए cleanup के बाद [Nibomo](/features/) एक reasonable landing spot है। current product plain text और file attachments के साथ AI chat support करती है, इसलिए cleaned export सिर्फ़ dead backup material बनकर नहीं रहना पड़ता। वह एक बेहतर deck के लिए draft input बन सकती है।
+अगर एक्सपोर्ट में सवाल और जवाब के दो साफ़ कॉलम हैं, तो Nibomo के वेब ऐप में **लाइब्रेरी > इम्पोर्ट > स्प्रेडशीट से आयात करें** खोलकर उन्हें पेस्ट करें और प्रीव्यू जाँचें। पहले Nibomo से एक्सपोर्ट की गई `flashcards.zip` के लिए **Nibomo से आयात करें** चुनें। उस पैकेज से कार्ड, टैग और उनसे जुड़ा मीडिया ले जा सकते हैं। रिव्यू हिस्ट्री और वर्कस्पेस सेटिंग के लिए अलग बैकअप रखें। विवरण के लिए [फ़्लैशकार्ड इंपोर्ट गाइड](/docs/import-flashcards/) देखें।
 
 ## सिर्फ़ final card नहीं, source का भी backup लें
 

@@ -86,7 +86,7 @@ Ettől a Nibomo nem válik Quizlet-csatlakozóvá. A támogatott munkafolyamat a
 
 1. exportáld egy saját magad által létrehozott Quizlet-készlet szövegét;
 2. őrizd meg a nyers fájlt, és ellenőrizd a munkapéldányt;
-3. ellenőrizd a mezők megfeleltetésével létrejött kártyákat, mielőtt elmented őket a Nibomóban; majd
+3. A Nibomo webalkalmazásában nyisd meg a **Könyvtár > Importálás > Importálás innen: Quizlet** menüpontot, és illeszd be a szöveget. Az **Importálás indítása** elküldi a szöveget az AI-csevegésbe, amely kártyákat készít. A mentett kártyákat hasonlítsd össze a forrással.
 4. csatlakoztasd az így létrejött Nibomo-munkaterületet egy kompatibilis klienshez a későbbi olvasási és írási műveletekhez.
 
 A Claude esetében a csatlakoztatás lépéseit a [Nibomo csatlakoztatása a Claude-hoz MCP-vel](/blog/how-to-connect-flashcards-to-claude-with-mcp/) című cikk írja le. A Codex és más ügynökök a dokumentált MCP- vagy Agent API-hozzáférést használhatják, attól függően, hogy a környezetük melyiket támogatja.

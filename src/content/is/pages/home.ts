@@ -111,7 +111,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Innflutningur, útflutningur og eignarhald á gögnunum",
           description:
-            "Færðu námsefnið þitt inn eða út hvenær sem þér hentar. Færanlegur útflutningur inniheldur spjöldin þín, merki og tengda miðla.",
+            "Flyttu inn spjöld úr Quizlet, Anki og fleiri forritum. Þú getur hvenær sem er flutt spjöld, merki og miðla út úr Nibomo.",
+          link: {
+            label: "Sjáðu hvernig á að flytja inn námsspjöld",
+            href: "/docs/import-flashcards/",
+          },
         },
         {
           title: "Virkar með gervigreindarumboðum",

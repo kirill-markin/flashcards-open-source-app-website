@@ -44,6 +44,10 @@ Il modo più rapido per iniziare è l'app web ospitata:
 
 Con la versione ospitata non devi installare nulla né configurare un server.
 
+## Porta con te le tue flashcard
+
+Hai già delle carte su Quizlet, Anki o un’altra app? Apri **Libreria > Importa** e consulta la [guida all’importazione delle flashcard](/docs/import-flashcards/) per scegliere il formato giusto e verificare cosa viene trasferito.
+
 ## Configurazione dell'agente
 
 I client MCP come Claude, ChatGPT e Cursor possono collegarsi seguendo la [guida al connettore MCP](/docs/mcp-connector/).

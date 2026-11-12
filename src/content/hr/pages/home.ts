@@ -111,7 +111,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Uvoz, izvoz i vlasništvo nad podacima",
           description:
-            "Materijale za učenje uvezite ili izvezite kad god želite. Prenosivi izvozi sadrže vaše kartice, oznake i pripadajuće medijske datoteke.",
+            "Uvezite kartice iz Quizleta, Ankija i drugih aplikacija. Kartice, oznake i medijske datoteke možete izvesti iz Niboma kad god želite.",
+          link: {
+            label: "Kako uvesti kartice",
+            href: "/docs/import-flashcards/",
+          },
         },
         {
           title: "Radi s AI agentima",

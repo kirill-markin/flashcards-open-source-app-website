@@ -84,7 +84,7 @@ Nibomo का remote MCP endpoint यह है:
 
 1. अपने बनाए Quizlet set का text export करें;
 2. मूल file सुरक्षित रखें और working copy की जाँच करें;
-3. Nibomo में save करने से पहले mapped cards की समीक्षा करें; और
+3. Nibomo के वेब ऐप में **लाइब्रेरी > इम्पोर्ट > Quizlet से आयात करें** खोलें और टेक्स्ट पेस्ट करें। **इम्पोर्ट शुरू करें** से टेक्स्ट AI चैट में जाता है, जो नए कार्ड बनाती है। सेव हुए कार्ड मूल टेक्स्ट से मिलाएँ।
 4. आगे पढ़ने और लिखने के लिए उस Nibomo workspace को किसी compatible client से जोड़ें।
 
 [MCP connector संदर्भ](/docs/mcp-connector/) में कनेक्शन और उपलब्ध tools की जानकारी है। अपने client में समर्थित documented MCP या Agent API route इस्तेमाल करें।

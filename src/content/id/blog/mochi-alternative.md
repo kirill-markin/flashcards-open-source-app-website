@@ -164,6 +164,7 @@ Sebelum memindahkan apa pun, simpan cadangan yang dapat memulihkan sistem asli. 
 
 - Menyalin seluruh direktori pengguna mempertahankan konten, riwayat pengulangan, lampiran, pengaturan aplikasi, dan status login.
 - Ekspor `.mochi` mempertahankan dek, kartu, templat dan kolom, lampiran, tag dan metadata, riwayat pengulangan, urutan kartu, serta struktur dek.
+Untuk mencoba dek Mochi di Nibomo, buka **Pustaka > Impor > Impor dari Mochi** di aplikasi web dan pilih file `.mochi`. Chat AI membuat kartu baru dari file itu. Periksa isi kartu dan medianya, lalu simpan file asli untuk memulihkan templat dan riwayat pengulangan di Mochi. Lihat langkah lengkapnya di [panduan impor](/docs/import-flashcards/).
 
 [Ekspor Markdown dan CSV](https://mochi.cards/docs/import-and-export/exporting/) Mochi adalah format untuk membawa data ke aplikasi lain. Markdown membuat satu file per kartu dan folder untuk subdek, tetapi menghilangkan riwayat pengulangan, urutan kartu, templat, dan tag metadata, kecuali tag tersebut berada dalam Markdown. CSV dapat mengekspor kolom templat atau sisi depan-belakang yang sudah dirender, tetapi tidak mempertahankan riwayat pengulangan maupun templat; tag metadata juga hilang kecuali disematkan dalam konten.
 

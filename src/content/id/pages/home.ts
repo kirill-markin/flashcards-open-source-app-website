@@ -111,7 +111,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Impor, Ekspor, dan Miliki Data Anda",
           description:
-            "Pindahkan materi belajar Anda masuk atau keluar kapan saja. Ekspor yang portabel mencakup kartu, tag, dan media terkait.",
+            "Pindahkan kartu dari Quizlet, Anki, dan aplikasi lain. Ekspor kartu, tag, dan media dari Nibomo kapan saja.",
+          link: {
+            label: "Lihat cara mengimpor kartu",
+            href: "/docs/import-flashcards/",
+          },
         },
         {
           title: "Bekerja dengan Agen AI",

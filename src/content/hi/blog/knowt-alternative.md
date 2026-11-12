@@ -121,13 +121,15 @@ Help page खुद चेतावनी देता है कि Quizlet क
 
 यही help page Quizlet export access के बारे में एक व्यापक दावा करता है, जो Quizlet के plans और permissions बदलने पर पुराना पड़ सकता है। Import के steps उस दावे को दोहराने पर निर्भर नहीं हैं। अपना Quizlet account और set का ownership जाँचें; export उपलब्ध हो, तो manual path extension पर कम निर्भर रहता है।
 
-## Knowt export पढ़ने के काम आता है, documented migration के लिए नहीं
+## Knowt पढ़ने के लिए PDF एक्सपोर्ट करता है
 
 Web पर Knowt की [flashcard export guide](https://help.knowt.com/en/articles/10714472-how-can-i-export-my-flashcards) **Export as PDF** चुनकर नतीजा save करने को कहती है। इसकी [print guide](https://help.knowt.com/en/articles/10714514-how-can-i-print-my-notes-and-flashcards) notes और cards के लिए इसी printable path का इस्तेमाल करती है। Mobile app में documented तरीका Share चुनकर Files या किसी दूसरे app में export करना है; help page इससे बनने वाले file format का नाम नहीं बताता।
 
 PDF print करने, share करने और इंसानों के पढ़ने लायक snapshot रखने के लिए उपयोगी है। यह structured deck archive नहीं है। जाँची गई documentation terms और definitions, source attachments, study-mode settings या review history के ऐसे machine-readable export का वादा नहीं करती, जिसे कोई दूसरा flashcard app दोबारा बना सके।
 
 लंबे समय तक काम आने वाले material के लिए Knowt चुनने से पहले कोई वास्तविक set export करके नतीजा देखें। एक व्यावहारिक सवाल पूछें: अगर Knowt कल आपके workflow से गायब हो जाए, तो क्या मिली हुई file से editable cards दोबारा बनाए जा सकेंगे, या आपके पास केवल पढ़ने के लिए document बचेगा?
+
+कार्ड का कॉन्टेंट लाने के लिए Nibomo के वेब ऐप में **लाइब्रेरी > इम्पोर्ट > Knowt से आयात करें** खोलें और छोटी Knowt PDF चुनें। AI चैट उससे नए कार्ड बनाती है। नतीजे को मूल कार्ड से मिलाएँ, खासकर तस्वीरों या कई जवाबों वाले सवालों को। अगर आपके ऐप में Knowt विकल्प नहीं दिखता, तो वेब ऐप इस्तेमाल करें या PDF को AI चैट में अटैच करें। विवरण के लिए [फ़्लैशकार्ड इंपोर्ट गाइड](/docs/import-flashcards/) देखें।
 
 Nibomo भी portability की समस्या पूरी तरह हल नहीं करता। इसका package transfer अलग-अलग Nibomo installations के बीच cards, tags और उनसे जुड़ा media ले जाता है, लेकिन review history, FSRS scheduler state, workspace settings, पूरी deck structures या account data शामिल नहीं करता। [Open source होने भर से कोई export अपने-आप पूरा backup नहीं बन जाता](/docs/self-hosting/)।
 
@@ -149,6 +151,6 @@ Nibomo, Knowt का पूरा replacement नहीं है। इसम�
 
 अगर लंबे समय तक काम आने वाला नतीजा जाँचे हुए front/back cards का छोटा collection है और अलग-अलग quiz formats से ज्यादा documented FSRS, offline-first writes, export किया जा सकने वाला card content, open code, self-hosting या agent access मायने रखते हैं, तो Nibomo चुनें। AWS stack पर विचार करने से पहले [hosted app और getting-started guide](/docs/getting-started/) से शुरुआत करें।
 
-दोनों का इस्तेमाल भी समझदारी भरा हो सकता है। बिखरे हुए source material को notes और अलग-अलग तरह के अभ्यास में बदलने के लिए Knowt इस्तेमाल करें, फिर केवल उन्हीं स्थायी facts को manually Nibomo में ले जाएँ जिन्हें आप महीनों तक याद रखना चाहते हैं। दोनों के बीच कोई documented lossless transfer नहीं है, इसलिए source संभालकर रखें, cards verify करें और मानकर चलें कि review history साथ नहीं जाएगी।
+दोनों का इस्तेमाल भी समझदारी भरा हो सकता है। बिखरे हुए source material को notes और अलग-अलग तरह के अभ्यास में बदलने के लिए Knowt इस्तेमाल करें, फिर जिन कार्ड को आगे पढ़ना है, उन्हें छोटी PDF में एक्सपोर्ट करके Nibomo में आज़माएँ। दोनों के बीच कोई documented lossless transfer नहीं है, इसलिए source संभालकर रखें, cards verify करें और मानकर चलें कि review history साथ नहीं जाएगी।
 
 अगर दोनों में से किसी का tradeoff ठीक न बैठे, तो [open-source flashcard apps](/blog/best-open-source-flashcard-apps-2026/) की व्यापक सूची देखें या shortlist वाले tools पर cards, editing, review history और बाद का sync offline जाँचें। Knowt का सही विकल्प वह नहीं जिसकी feature table सबसे लंबी हो। सही विकल्प वह है जो आपके वास्तविक study session, वास्तविक internet connection और वास्तविक exit plan में टिक सके।

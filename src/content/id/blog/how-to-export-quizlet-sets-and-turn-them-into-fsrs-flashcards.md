@@ -106,7 +106,9 @@ Aplikasi spreadsheet dapat menambahkan tanda kutip yang diperlukan oleh CSV. Men
 
 ## Pindahkan teks ke Nibomo sebagai bahan draf yang perlu diperiksa
 
-[Nibomo](/id/features/) tidak memiliki fitur impor langsung dari Quizlet. Di layanan Nibomo, file TXT atau CSV dilampirkan untuk membuat draf dengan bantuan AI. Proses ini tidak menjamin seluruh data berpindah secara utuh.
+Di aplikasi web Nibomo, buka **Pustaka > Impor > Impor dari Quizlet** dan tempel teksnya. **Mulai impor** mengirim teks ke chat AI untuk membuat kartu. Cocokkan kartu yang disimpan dengan teks asli. Untuk melihat pratinjau pasangan istilah dan definisi sebelum menyimpan, tempel dua kolom yang rapi di **Impor dari spreadsheet**. Kedua cara ini membuat kartu dengan jadwal baru. Lihat langkah lengkapnya di [panduan impor](/docs/import-flashcards/).
+
+Jika ingin meminta contoh sebelum AI menyimpan kartu, lampirkan TXT atau CSV di chat AI baru dan tulis permintaan sendiri.
 
 1. Simpan file mentah Quizlet di luar aplikasi.
 2. Lampirkan TXT yang sudah dirapikan atau CSV yang sudah disiapkan dengan benar di obrolan AI Nibomo.

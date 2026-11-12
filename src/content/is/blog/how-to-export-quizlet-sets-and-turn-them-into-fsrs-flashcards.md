@@ -106,7 +106,9 @@ Töflureiknir getur bætt við þeim gæsalöppum sem CSV þarf. Ekki er hægt a
 
 ## Flyttu textann í Nibomo sem drög sem þú ferð yfir
 
-[Nibomo](/is/features/) býður ekki upp á beinan innflutning úr Quizlet. Í vefþjónustunni er leiðin fyrir TXT eða CSV að láta gervigreind gera drög úr viðhengdri skrá. Það er ekki flutningur sem tryggir að allt varðveitist óbreytt.
+Í vefforriti Nibomo ferðu í **Safn > Flytja inn > Flytja inn úr Quizlet** og límir inn textann. **Hefja innflutning** sendir textann í gervigreindarspjall sem býr til spjöld. Berðu vistuðu spjöldin saman við upprunalega textann. Til að forskoða hrein pör fyrir vistun skaltu líma tvo dálka undir **Flytja inn úr töflureikni**. Báðar leiðir búa til spjöld með nýrri upprifjunaráætlun. Öll skrefin eru í [innflutningsleiðbeiningarnar](/docs/import-flashcards/).
+
+Til að biðja gervigreindina um sýnishorn áður en hún vistar skaltu hengja TXT- eða CSV-skrá við nýtt spjall og skrifa eigin beiðni.
 
 1. Geymdu óbreyttu Quizlet-skrána utan forritsins.
 2. Hengdu lagfærðu TXT-skrána eða vandlega útbúnu CSV-skrána við í gervigreindarspjalli Nibomo.

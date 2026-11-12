@@ -164,6 +164,7 @@ Jafnvel þegar sagan flyst með skaltu ekki búast við sömu dagsetningum næst
 
 - Afrit af allri notandamöppunni varðveitir efni, upprifjunarsögu, viðhengi, stillingar appsins og innskráningarstöðu.
 - Útflutningur á `.mochi`-sniði varðveitir stokka, spjöld, sniðmát og reiti, viðhengi, merki og lýsigögn, upprifjunarsögu, röð spjalda og uppbyggingu stokka.
+Til að prófa Mochi-bunka í Nibomo skaltu velja **Safn > Flytja inn > Flytja inn úr Mochi** í vefforritinu og opna `.mochi`-skrána. Gervigreindarspjallið býr til ný spjöld. Skoðaðu efnið og miðlana á spjöldunum og geymdu upprunalegu skrána til að endurheimta sniðmát og upprifjunarsögu í Mochi. Öll skrefin eru í [innflutningsleiðbeiningarnar](/docs/import-flashcards/).
 
 [Markdown- og CSV-útflutningur Mochi](https://mochi.cards/docs/import-and-export/exporting/) er ætlaður til að flytja efni milli kerfa. Markdown býr til eina skrá fyrir hvert spjald og möppur fyrir undirstokka, en sleppir upprifjunarsögu, röð spjalda, sniðmátum og lýsigagnamerkjum, nema merkin séu í Markdown-textanum. CSV getur flutt út reiti sniðmáts eða framhlið og bakhlið eins og þær birtast, en varðveitir hvorki upprifjunarsögu né sniðmát. Lýsigagnamerki varðveitast aðeins ef þau eru hluti af efninu.
 
