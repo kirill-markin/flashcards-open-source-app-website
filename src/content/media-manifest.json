@@ -3786,6 +3786,21 @@
     "bytes": 2393663
   },
   {
+    "publicPath": "/blog/mochi-to-nibomo.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/1f3737e982f03ddec8b583cb496e0a8b7d46569493c137ebc414fe0e9e3453e5.webp",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "1f3737e982f03ddec8b583cb496e0a8b7d46569493c137ebc414fe0e9e3453e5",
+    "bytes": 122892,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/e588fe6bc4855dc0dcc0dcea6f6e23e783aba7326c45ad32f8c0eb779dc12c32.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "e588fe6bc4855dc0dcc0dcea6f6e23e783aba7326c45ad32f8c0eb779dc12c32",
+      "bytes": 2370597
+    }
+  },
+  {
     "publicPath": "/blog/mochi-typed-answers.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/a0b33ec0d148cdbbd355108b51c9fe01247f5f7e1c5803677d49c7c9909c70eb.png",
     "width": 1672,
