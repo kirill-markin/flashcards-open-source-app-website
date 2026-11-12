@@ -3648,6 +3648,21 @@
     "bytes": 413823
   },
   {
+    "publicPath": "/blog/meiji-diet-chronology-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/bc5b19ca2ce3f3bc3b9c24c35f080f8d4a533cdf5f5f8304c35a3069a1e4b357.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "bc5b19ca2ce3f3bc3b9c24c35f080f8d4a533cdf5f5f8304c35a3069a1e4b357",
+    "bytes": 199296,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/a58c6975135e9ac26c49f2c08e1bac1b8d4f6de1421a059d0f613b51aace6f6c.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "a58c6975135e9ac26c49f2c08e1bac1b8d4f6de1421a059d0f613b51aace6f6c",
+      "bytes": 2423997
+    }
+  },
+  {
     "publicPath": "/blog/memrise-alternative.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/368c28723d6584497416a6c6e445ac6e5f3cc6d29e80e55b6c71ebd84f5f9d61.png",
     "width": 1672,
