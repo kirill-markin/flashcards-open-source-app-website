@@ -166,6 +166,7 @@ Mochis [vejledning til sikkerhedskopiering](https://mochi.cards/docs/getting-sta
 - En `.mochi`-eksport bevarer kortsæt, kort, skabeloner og felter, vedhæftninger, tags og metadata, repetitionshistorik, kortrækkefølge og kortsættenes struktur.
 
 Mochis [Markdown- og CSV-eksporter](https://mochi.cards/docs/import-and-export/exporting/) er formater til at flytte indhold. Markdown opretter én fil pr. kort og mapper til underordnede kortsæt, men udelader repetitionshistorik, kortrækkefølge, skabeloner og metadata-tags, medmindre taggene står i Markdown-teksten. CSV kan eksportere skabelonfelter eller gengivne for- og bagsider, men bevarer ikke repetitionshistorik, skabeloner eller metadata-tags, medmindre taggene er indlejret i indholdet.
+Vil du afprøve en bunke fra Mochi i Nibomo, så gå til **Bibliotek > Import > Importér fra Mochi** i webappen, og vælg en `.mochi`-fil. Filen sendes til AI-chatten, som opretter nye kort. Tjek indhold og medier, og behold originalen, så du kan gendanne skabeloner og repetitionshistorik i Mochi.
 
 Anki skelner på en lignende måde:
 

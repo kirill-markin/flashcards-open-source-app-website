@@ -19,7 +19,7 @@ Această constatare privește documentația publică Quizlet, nu sistemele sale 
 
 **Informații verificate:** 18 august 2026.
 
-> **Transparență:** Sunt Kirill Markin și dezvolt Nibomo, al cărui Agent API și server MCP apar mai jos ca alternative. Nibomo nu este compatibil cu Quizlet și nu importă automat seturi Quizlet.
+> **Transparență:** Sunt Kirill Markin și dezvolt Nibomo, al cărui Agent API și server MCP apar mai jos ca alternative. API-ul Nibomo lucrează cu propriile spații de lucru. Transferul unui set Quizlet începe cu un export din Quizlet.
 
 ![Un dezvoltator compară exportul Quizlet, încorporarea, integrările cu produse specifice și un API documentat pentru fișe de învățare](/blog/quizlet-api.png)
 
@@ -95,7 +95,7 @@ Ambele căi de acces sunt limitate la spațiul de lucru selectat. Resursele publ
 
 Aceste interfețe pot ajuta un dezvoltator sau un agent AI să automatizeze fișele care îi aparțin. Nu pot citi un URL Quizlet, nu pot oglindi un cont Quizlet și nu pot funcționa ca un client Quizlet nedocumentat. Nu există un importator automat pentru Quizlet. Pentru o migrare, exportă mai întâi termenii și definițiile din propriul set, verifică textul, apoi asociază termenii și definițiile cu câmpurile fișelor din aplicația de destinație. Aplicația de destinație își creează propria stare de studiu; istoricul Quizlet nu se transferă.
 
-Pentru diferențele dintre produse dincolo de accesul la API, vezi [comparația cu o alternativă open source la Quizlet](/blog/quizlet-alternative/).
+Aceste interfețe automatizează lucrul într-un spațiu de lucru Nibomo. Pentru un transfer punctual, exportă termenii și definițiile dintr-un set Quizlet pe care l-ai creat. În aplicația web Nibomo, **Bibliotecă > Import > Importă din Quizlet** trimite textul lipit în chatul AI, care creează fișe cu un program nou de recapitulare. Verifică fișele înainte să le folosești prin API. [Ghid de export din Quizlet](/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/).
 
 ## Cererile private din browser nu sunt o scurtătură sigură
 

@@ -19,7 +19,7 @@ Detta är ett konstaterande om Quizlets publika dokumentation, inte ett påståe
 
 **Faktakontrollerat:** 18 augusti 2026.
 
-> **Intresseförklaring:** Jag heter Kirill Markin och bygger Nibomo, vars Agent API och MCP-server presenteras som alternativ nedan. Nibomo är inte kompatibelt med Quizlet och importerar inte Quizlet-set automatiskt.
+> **Intresseförklaring:** Jag heter Kirill Markin och bygger Nibomo, vars Agent API och MCP-server presenteras som alternativ nedan. Nibomos API arbetar i Nibomos egna arbetsytor. Om du vill flytta ett Quizlet-set börjar du med att exportera det på Quizlets webbplats.
 
 ![En utvecklare jämför Quizlets export, inbäddning, specifika integrationer och ett dokumenterat API för flashcards](/blog/quizlet-api.png)
 
@@ -93,7 +93,7 @@ Nibomo erbjuder två dokumenterade vägar till samma begränsade uppsättning da
 
 Båda vägarna är avgränsade till en arbetsyta. De publicerade resurserna är `workspace`, `cards`, `decks` och `review_events`, och resultaten är begränsade till 100 rader per sats. Det SQL-liknande gränssnittet är en begränsad dialekt, inte ren PostgreSQL. Det finns inget OpenAPI-schema, så arbetsflöden som är beroende av genererade OpenAPI-klienter behöver ett annat gränssnitt.
 
-Det kan hjälpa en utvecklare eller AI-agent att automatisera hanteringen av egna flashcards. Det kan inte läsa en Quizlet-URL, spegla ett Quizlet-konto eller fungera som en odokumenterad Quizlet-klient. Det finns ingen automatisk Quizlet-import. Vid en flytt exporterar du först termerna och definitionerna från ditt eget set, granskar texten och mappar den sedan till kortfälten i målsystemet. Målsystemet skapar sin egen repetitionsstatus. Quizlets historik följer inte med.
+De här gränssnitten hjälper dig att arbeta med kort i Nibomo. Vid en engångsflytt exporterar du termer och definitioner från ett eget set. Klistra in texten via **Bibliotek > Importera > Importera från Quizlet** i webbappen och starta AI-importen. Kontrollera de sparade korten innan du arbetar vidare med dem via API:t. Quizlets studiehistorik följer inte med. [Guiden för Quizlet-export](/sv/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/) visar hur du förbereder texten.
 
 För produktskillnader utöver API-åtkomst, se [jämförelsen med ett Quizlet-alternativ med öppen källkod](/blog/quizlet-alternative/).
 

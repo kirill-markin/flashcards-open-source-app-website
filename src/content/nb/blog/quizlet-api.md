@@ -19,7 +19,7 @@ Dette er en konklusjon om Quizlets offentlige dokumentasjon, ikke en påstand om
 
 **Fakta kontrollert:** 18. august 2026.
 
-> **Om forfatterens tilknytning:** Jeg er Kirill Markin og utvikler Nibomo. Nibomos Agent API og MCP-server er blant alternativene nedenfor. Nibomo er ikke kompatibelt med Quizlet og importerer ikke Quizlet-sett automatisk.
+> **Om forfatterens tilknytning:** Jeg er Kirill Markin og utvikler Nibomo. Nibomos Agent API og MCP-server er blant alternativene nedenfor. Nibomos API arbeider med egne arbeidsområder. Flytting av et Quizlet-sett starter med at du eksporterer det fra Quizlet.
 
 ![Utvikler som sammenligner Quizlet-eksport, innbygging, spesifikke integrasjoner og et dokumentert API for læringskort](/blog/quizlet-api.png)
 
@@ -95,7 +95,7 @@ Begge tilgangsmåtene er avgrenset til et arbeidsområde. De publiserte ressurse
 
 Dette kan hjelpe en utvikler eller AI-agent med å automatisere læringskort vedkommende eier. Det kan ikke lese en Quizlet-URL, speile en Quizlet-konto eller fungere som en udokumentert Quizlet-klient. Det finnes ingen automatisk Quizlet-import. Ved flytting må du først eksportere begrepene og definisjonene fra ditt eget sett, kontrollere teksten og deretter fordele den på kortfeltene i målsystemet. Målsystemet oppretter sin egen øvingsstatus. Quizlet-historikken følger ikke med.
 
-For produktforskjeller utover API-tilgang, se [sammenligningen med et Quizlet-alternativ med åpen kildekode](/blog/quizlet-alternative/).
+Grensesnittene automatiserer arbeid i et Nibomo-arbeidsområde. For en engangsflytting eksporterer du først begreper og definisjoner fra et sett du selv har opprettet. **Bibliotek > Import > Importer fra Quizlet** i nettappen til Nibomo sender teksten til KI-chat og oppretter kort med ny repetisjonsplan. Sjekk kortene før du automatiserer arbeid med dem via API-et. [Veiledning for eksport fra Quizlet](/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/).
 
 ## Private nettleserforespørsler er ikke en trygg snarvei
 

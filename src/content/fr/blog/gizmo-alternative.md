@@ -65,11 +65,11 @@ La [documentation actuelle sur les types de cartes](https://help.gizmo.ai/en/art
 | --- | --- | --- |
 | **Carte texte** | Du texte ou du LaTeX, avec des mots surlignés comme cibles de quiz ou, en option, un recto puis un verso à dévoiler | Manuellement ou avec Magic Import |
 | **QCM** | Une question avec des options de réponse générées ; vous pouvez ajouter de mauvaises options en modifiant la carte | Manuellement ou avec Magic Import |
-| **Appariement** | Des paires que Gizmo mélange pour que vous les reconnectiez | Magic Import uniquement |
-| **Remise en ordre** | Des éléments que Gizmo mélange pour que vous les remettiez en séquence | Magic Import uniquement |
+| **Appariement** | Des paires que Gizmo mélange pour que vous les reconnectiez | Manuellement ou avec Magic Import |
+| **Remise en ordre** | Des éléments que Gizmo mélange pour que vous les remettiez en séquence | Manuellement ou avec Magic Import |
 | **Vrai/Faux** | Une affirmation que vous jugez vraie ou fausse | Manuellement ou avec Magic Import |
 
-C'est plus large qu'un simple paquet recto/verso, et Magic Import n'est pas qu'un raccourci : les cartes Appariement et Remise en ordre ne se créent aujourd'hui qu'avec lui.
+Vous pouvez créer des cartes d’appariement et de remise en ordre à la main ou avec Magic Import.
 
 Un conflit dans la documentation mérite d'être signalé. La page sur les types de cartes dit que la carte texte peut contenir des images au recto comme au verso. Le [guide de gestion des cartes](https://help.gizmo.ai/en/articles/13761411-how-do-i-edit-or-manage-my-cards) de Gizmo dit que les photos et les images ne peuvent être ajoutées qu'au recto. Si les images au verso comptent pour vous, vérifiez l'éditeur actuel avant de construire le paquet. Les deux pages officielles ne permettent pas de trancher plus fermement.
 
@@ -97,11 +97,9 @@ Le [guide de gestion des cartes](https://help.gizmo.ai/en/articles/13761411-how-
 
 La limite apparaît pendant Memorise : vous pouvez y supprimer une carte, mais vous ne pouvez pas la modifier en plein quiz. Si vous repérez une mauvaise réponse en révisant, il faut quitter ce flux pour la corriger.
 
-### Gizmo ne propose pas d'export
+### Gizmo permet d’imprimer les cartes ou de les enregistrer en PDF
 
-Le même guide officiel indique que l'export des cartes n'est pas encore disponible. Le [guide de gestion des paquets](https://help.gizmo.ai/en/articles/12995587-how-do-i-make-changes-to-my-decks) de Gizmo dit que l'export des paquets n'est pas disponible non plus.
-
-C'est la limite la plus nette du flux actuel en matière de contrôle des données. Gizmo accepte du matériel venu de plusieurs autres systèmes, mais il n'offre pour l'instant aucun moyen documenté de ressortir les cartes obtenues. Si une migration future compte pour vous, jugez le produit sur cette limite présente plutôt que sur l'éventualité d'une fonction d'export plus tard.
+Ouvrez le menu du paquet, choisissez **Print**, puis enregistrez-le en PDF dans la fenêtre d’impression du navigateur. Consultez [l’aide de Gizmo sur l’export PDF](https://help.gizmo.ai/en/articles/18228622-how-do-i-export-print-or-download-my-cards-as-a-pdf). Gardez le paquet d’origine pour modifier les cartes et conserver l’historique des révisions.
 
 ### L'usage hors ligne n'est pas documenté assez clairement pour être promis
 
@@ -121,7 +119,7 @@ La distinction compte parce que « un écran déjà chargé répond encore » et
 | Style de révision | Memorise, répétition espacée et types de questions variés | Répétition espacée FSRS |
 | Couche de motivation | XP, Levels, Leagues, Streaks, Hearts, Hints et Coins | Aucune couche de jeu comparable n'est documentée sur les pages produit actuelles |
 | Preuves sur le hors-ligne | Aucune garantie officielle de fonctionnement hors ligne trouvée dans la documentation examinée | L'étude hors ligne sur mobile et la synchronisation automatique sont des fonctions documentées |
-| Sortie des données | L'export des cartes et des paquets n'est pas disponible actuellement | Les exports portables incluent les cartes, les étiquettes et les médias associés |
+| Sortie des données | Imprimez le paquet ou enregistrez-le en PDF | Les exports portables incluent les cartes, les étiquettes et les médias associés |
 | Contrôle du déploiement | Aucune mention d'auto-hébergement dans les pages officielles consultées | Open source et auto-hébergeable |
 
 Nibomo n'est une alternative pratique à Gizmo que pour le côté le plus étroit de ce tableau. Sa [page des fonctionnalités](/features/) actuelle documente FSRS, la création de cartes assistée par IA, l'étude hors ligne sur mobile avec synchronisation, les exports portables et l'auto-hébergement. Elle ne décrit aucun équivalent au Magic Import à cinq formats de Gizmo, aux leçons Tutor ou à la couche de jeu.
@@ -136,9 +134,9 @@ Le compromis, c'est la portée. Les pages actuelles de Nibomo ne documentent ni 
 
 ## Peut-on passer de Gizmo à une autre application ?
 
-Pas proprement aujourd'hui. Comme l'export Gizmo n'existe pas, il n'y a pas de migration classique par fichier de Gizmo vers Nibomo ou une autre application.
+Dans l’application web Nibomo, ouvrez **Bibliothèque → Importer → Importer depuis une autre app** et sélectionnez le PDF. Le chat IA peut s’en servir pour créer de nouvelles cartes. Le transfert d’un PDF Gizmo n’a pas été testé pour cet article. Comparez le résultat au paquet d’origine. Consultez le [guide d’importation](/docs/import-flashcards/).
 
-La solution de contournement sûre est manuelle et sélective :
+Pour les questions qui dépendent des formats interactifs de Gizmo, recréez les cartes dont vous avez besoin :
 
 1. Gardez sous la main le cours, les notes, les diapositives ou toute autre source d'origine.
 2. Recréez seulement les cartes qui restent justes et utiles.
@@ -147,7 +145,7 @@ La solution de contournement sûre est manuelle et sélective :
 
 C'est plus lent qu'un importateur et ce n'est pas sans perte. L'effet secondaire utile : vous n'emportez que les cartes qui passent un contrôle qualité.
 
-Garder les deux applications en parallèle est une autre option. Gizmo peut décortiquer un cours ou une présentation et proposer des exercices variés. Nibomo peut héberger un plus petit jeu de cartes recto/verso vérifiées pour la révision FSRS. Le pont entre les deux reste manuel, puisque Gizmo n'exporte pas les cartes.
+Garder les deux applications en parallèle est une autre option. Gizmo peut décortiquer un cours ou une présentation et proposer des exercices variés. Nibomo peut héberger un plus petit jeu de cartes recto/verso vérifiées pour la révision FSRS.
 
 ## Quel flux de travail vous convient ?
 

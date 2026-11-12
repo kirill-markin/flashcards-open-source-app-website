@@ -18,7 +18,7 @@ Se você quer importar de uma vez só uma semana de anotações para o Gizmo sem
 
 Esta análise do Gizmo Flashcards se baseia nas páginas de ajuda oficiais atuais. Não testei o Gizmo na prática, então vou limitar as afirmações sobre o produto ao que o Gizmo documenta e deixar claros os pontos incertos.
 
-> **Aviso de transparência:** Sou Kirill Markin e desenvolvo o [Nibomo](https://nibomo.com/), a alternativa comparada abaixo. O Gizmo oferece um fluxo de trabalho mais amplo, segundo a documentação: mais formatos de origem, cinco tipos de cartão, lições do AI Tutor, quizzes variados e progressão parecida com um jogo. O Nibomo é deliberadamente mais restrito.
+> **Aviso de transparência:** Sou Kirill Markin e desenvolvo o [Nibomo](https://nibomo.com/), a alternativa comparada abaixo. O Gizmo oferece um fluxo de trabalho mais amplo, segundo a documentação: mais formatos de origem, sete tipos de cartão, lições do AI Tutor, quizzes variados e progressão parecida com um jogo. O Nibomo é deliberadamente mais restrito.
 
 **Fatos verificados:** 1º de setembro de 2026.
 
@@ -57,21 +57,21 @@ O AI Tutor tem um caminho de importação parecido. O [guia oficial de importaç
 
 As duas listas de fontes documentadas não são idênticas. Anki, planilhas e sites aparecem no guia de criação de cartões; YouTube e baralhos já existentes no Gizmo aparecem no guia de lições do Tutor. Confira o caminho que você realmente precisa, em vez de supor que toda entrada aparece nos dois menus.
 
-## O Gizmo tem cinco tipos de cartão
+## O Gizmo tem sete tipos de cartão
 
-A [documentação atual sobre tipos de cartão](https://help.gizmo.ai/en/articles/16527223-what-types-of-flashcards-can-i-make) do Gizmo lista cinco formatos:
+A [documentação atual sobre tipos de cartão](https://help.gizmo.ai/en/articles/16527223-what-types-of-flashcards-can-i-make) do Gizmo lista sete formatos:
 
 | Tipo de cartão | O que ele testa | Como pode ser criado |
 | --- | --- | --- |
-| **Cartão de texto** | Texto ou LaTeX, com palavras destacadas como alvo do quiz ou uma exibição opcional de frente e verso | Manualmente ou com o Magic Import |
-| **Múltipla escolha** | Uma pergunta com opções de resposta geradas; ao editar, você pode acrescentar opções erradas | Manualmente ou com o Magic Import |
-| **Associação** | Pares que o Gizmo embaralha para você reconectar | Só com o Magic Import |
-| **Ordenação** | Itens que o Gizmo embaralha para você recolocar na sequência | Só com o Magic Import |
-| **Verdadeiro/Falso** | Uma afirmação que você julga verdadeira ou falsa | Manualmente ou com o Magic Import |
+| **Q&A** | Pergunta e resposta com texto ou LaTeX | Manualmente ou com o Magic Import |
+| **Multi-select** | Pergunta com uma ou mais opções corretas | Manualmente ou com o Magic Import |
+| **Fill the blanks** | Preenchimento de palavras que faltam em um texto | Manualmente ou com o Magic Import |
+| **Match pairs** | Pares que o Gizmo embaralha para você reconectar | Manualmente ou com o Magic Import |
+| **Order items** | Itens que o Gizmo embaralha para você recolocar na sequência | Manualmente ou com o Magic Import |
+| **True or False** | Uma afirmação que você julga verdadeira ou falsa | Manualmente ou com o Magic Import |
+| **Image question** | Identificação de rótulos em um diagrama ou uma foto | Manualmente |
 
-Isso é mais amplo que um baralho básico de frente e verso, e o Magic Import não é só um atalho: hoje Associação e Ordenação só podem ser criados com o Magic Import.
-
-Vale apontar um conflito na documentação. A página de tipos de cartão diz que o cartão de texto pode incluir imagens na frente e no verso. O [guia de gerenciamento de cartões](https://help.gizmo.ai/en/articles/13761411-how-do-i-edit-or-manage-my-cards) do Gizmo diz que fotos e imagens só podem ser adicionadas à frente. Se imagens no verso importam para você, confira o editor atual antes de montar o baralho. As duas páginas oficiais não sustentam uma resposta mais firme.
+Vale apontar um conflito na documentação. A página de tipos de cartão diz que o cartão de pergunta e resposta pode incluir imagens na frente e no verso. O [guia de gerenciamento de cartões](https://help.gizmo.ai/en/articles/13761411-how-do-i-edit-or-manage-my-cards) do Gizmo diz que fotos e imagens só podem ser adicionadas à frente. Se imagens no verso importam para você, confira o editor atual antes de montar o baralho. As duas páginas oficiais não sustentam uma resposta mais firme.
 
 O Gizmo também observa que as configurações do quiz afetam quais estilos de pergunta você vê. O formato em que um cartão é salvo e a forma como um quiz cobra esse cartão estão relacionados, mas não são a mesma coisa.
 
@@ -97,11 +97,9 @@ O [guia de gerenciamento de cartões](https://help.gizmo.ai/en/articles/13761411
 
 O limite aparece durante o Memorise: ali você pode apagar um cartão, mas hoje não consegue editá-lo no meio do quiz. Se notar uma resposta ruim enquanto estuda, precisa sair daquele fluxo para corrigir.
 
-### A exportação do Gizmo não está disponível
+### Imprima os cartões ou salve em PDF
 
-O mesmo guia oficial diz que a exportação de cartões ainda não está disponível. O [guia de gerenciamento de baralhos](https://help.gizmo.ai/en/articles/12995587-how-do-i-make-changes-to-my-decks) do Gizmo diz que a exportação de baralhos também não está.
-
-Esse é o limite mais claro de controle de dados no fluxo atual. O Gizmo aceita material de vários outros sistemas, mas hoje não oferece uma forma documentada de tirar de lá os cartões resultantes. Se migrar no futuro importa para você, julgue o produto por essa limitação atual, e não pela possibilidade de uma exportação chegar depois.
+Abra o menu do baralho, selecione **Print** e escolha **Save as PDF** na janela de impressão do navegador. O Gizmo documenta a [exportação em PDF](https://help.gizmo.ai/en/articles/18228622-how-do-i-export-print-or-download-my-cards-as-a-pdf) também para baralhos gerados pelo app. Guarde o baralho original para acessar as perguntas interativas e o histórico de revisão.
 
 ### O uso offline não está documentado com clareza suficiente para ser prometido
 
@@ -116,15 +114,15 @@ A diferença importa porque “uma tela já carregada continua respondendo” e 
 | Ponto de decisão | Gizmo | Nibomo |
 | --- | --- | --- |
 | Ponto de partida principal | Cartões manuais ou Magic Import a partir de fontes de estudo variadas | Criação manual ou assistida por IA de cartões focados de frente e verso |
-| Formatos de cartão | Cartão de texto, Múltipla escolha, Associação, Ordenação e Verdadeiro/Falso | Cartões de frente e verso |
+| Formatos de cartão | Q&A, Multi-select, Fill the blanks, Match pairs, Order items, True or False, Image question | Cartões de frente e verso |
 | Ensino em volta do baralho | Lições do AI Tutor, anotações e perguntas baseadas na fonte | Criação de cartões assistida por IA; as páginas atuais do produto não documentam nada equivalente ao modo de lições do Tutor |
 | Estilo de revisão | Memorise, repetição espaçada e estilos variados de pergunta | Repetição espaçada FSRS |
 | Camada de motivação | XP, Levels, Leagues, Streaks, Hearts, Hints e Coins | As páginas atuais do produto não documentam uma camada de jogo comparável |
 | Evidência de uso offline | Nenhuma garantia oficial de funcionamento offline foi encontrada na documentação conferida | Estudo offline no celular e sincronização automática são recursos documentados |
-| Saída de dados | A exportação de cartões e de baralhos está indisponível hoje | As exportações portáteis incluem cartões, tags e mídias relacionadas |
+| Saída de dados | Impressão do baralho ou exportação em PDF | As exportações portáteis incluem cartões, tags e mídias relacionadas |
 | Controle da implantação | Nenhuma menção a auto-hospedagem nas páginas oficiais conferidas | Código aberto e auto-hospedável |
 
-O Nibomo é uma alternativa prática ao Gizmo só para o lado mais restrito desta tabela. A [página de recursos](/features/) atual documenta FSRS, criação de cartões assistida por IA, estudo offline no celular com sincronização, exportações portáteis e auto-hospedagem. Ela não descreve nada equivalente ao Magic Import de cinco formatos do Gizmo, às lições do Tutor ou à camada de jogo.
+O Nibomo é uma alternativa prática ao Gizmo só para o lado mais restrito desta tabela. A [página de recursos](/features/) atual documenta FSRS, criação de cartões assistida por IA, estudo offline no celular com sincronização, exportações portáteis e auto-hospedagem.
 
 ## Quando o Nibomo encaixa melhor
 
@@ -132,26 +130,24 @@ Escolha o Nibomo quando o que você quer guardar é um cartão conferido de fren
 
 As afirmações do Nibomo sobre uso offline e saída de dados são mais explícitas. Ele documenta estudo offline no celular com sincronização automática, e o [guia de primeiros passos](/docs/getting-started/) informa que o cliente iOS usa SQLite local e sincronização offline-first. As exportações portáteis incluem cartões, tags e mídias relacionadas, inclusive nas transferências entre instalações hospedadas e auto-hospedadas.
 
-A contrapartida é o escopo. As páginas atuais do Nibomo não documentam o menu de importação do Gizmo, os cinco tipos de cartão, as lições conduzidas pelo Tutor nem o sistema de recompensas. Se esses recursos resolvem o problema que trouxe você até aqui, o Gizmo provavelmente encaixa melhor.
+O Gizmo encaixa melhor se você depende de perguntas interativas, lições do Tutor ou recompensas.
 
 ## Dá para sair do Gizmo para outro app?
 
-Hoje, não de forma limpa. Como a exportação do Gizmo não está disponível, não existe migração normal por arquivos do Gizmo para o Nibomo ou outro app.
+Use o PDF como fonte para novos cartões. No app web do Nibomo, abra **Biblioteca > Importar > Importar de outro app** e selecione o PDF. O arquivo vai para o chat de IA. Esta análise não testou a transferência de um PDF do Gizmo. Compare os cartões criados com os originais. Veja o [guia de importação](/docs/import-flashcards/).
 
-A saída segura é manual e seletiva:
+Recrie manualmente as perguntas que dependem dos formatos interativos do Gizmo.
 
 1. Deixe ao lado a aula, as anotações, os slides ou outra fonte original.
 2. Recrie só os cartões que continuam corretos e úteis.
 3. Reescreva as perguntas vagas em vez de copiar cada cartão gerado.
 4. Conte que os destaques do Gizmo, o contexto do Tutor, o histórico de agendamento, XP e outros dados de progresso vão ficar para trás.
 
-Isso é mais lento que um importador e não é sem perdas. O efeito colateral útil é que você leva adiante só os cartões que passam por um controle de qualidade.
-
-Usar os dois apps é outra opção. O Gizmo pode desmontar uma aula ou uma apresentação e oferecer prática variada. O Nibomo pode guardar um conjunto menor de cartões conferidos de frente e verso para revisar com FSRS. A ponte continua manual porque o Gizmo não exporta os cartões.
+Usar os dois apps é outra opção. O Gizmo pode desmontar uma aula ou uma apresentação e oferecer prática variada. O Nibomo pode guardar um conjunto menor de cartões conferidos de frente e verso para revisar com FSRS.
 
 ## Qual fluxo de trabalho combina com você?
 
-Escolha o Gizmo quando você começa com material bagunçado e quer que o app monte a primeira estrutura de estudo. Os pontos fortes documentados dele são a variedade de entradas, cinco tipos de cartão, o estudo conduzido pelo Tutor, os quizzes variados e as mecânicas de progressão.
+Escolha o Gizmo quando você começa com material bagunçado e quer que o app monte a primeira estrutura de estudo. Os pontos fortes documentados dele são a variedade de entradas, sete tipos de cartão, o estudo conduzido pelo Tutor, os quizzes variados e as mecânicas de progressão.
 
 Escolha o Nibomo quando você já sabe o que merece um cartão duradouro de frente e verso e se importa mais com FSRS, estudo offline documentado no celular, exportação ou auto-hospedagem do que com variedade de quizzes e recompensas.
 

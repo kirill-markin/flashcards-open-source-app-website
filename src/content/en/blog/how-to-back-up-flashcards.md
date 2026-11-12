@@ -125,7 +125,9 @@ A plain-text copy is ugly in the right way:
 
 This matters even more now because a lot of decks are built from notes, transcripts, OCR, PDFs, and AI-assisted cleanup. Once the useful part is stored as readable text, your future options get much better.
 
-That is also why [Nibomo](/features/) is a reasonable landing spot after cleanup. The current product supports AI chat with plain text and file attachments, so a cleaned export does not have to sit there as dead backup material. It can become draft input for a better deck.
+To import from a spreadsheet or a Nibomo ZIP, sign in to Nibomo first. To reuse a clean two-column export in the Nibomo web app, choose **Library → Import → Import from a spreadsheet** to paste and preview card pairs. The separate **Import from Nibomo** option takes a `flashcards.zip` workspace package. On hosted Nibomo, that ZIP transfers cards, tags, and related media. It omits study history and workspace settings. See the [import guide](/docs/import-flashcards/).
+
+If you run your own Nibomo instance, follow the [self-hosting guidance for backing up PostgreSQL and media storage](/docs/self-hosting/#data-portability) for disaster recovery.
 
 ## Back up the source, not only the final card
 
@@ -228,7 +230,7 @@ That is closer to ownership than leaving all of your memory work inside one clos
 
 If you want the shortest useful version, do this:
 
-1. Export a full backup from the app you use now.
+1. Export a full backup if the app you use offers one.
 2. Keep a plain-text or Markdown copy of the important card content.
 3. Save the media or original source files in a separate folder.
 4. Put a copy on a second device or cloud storage location.
@@ -241,7 +243,7 @@ That is enough to cover most of the real risk without turning studying into a fi
 
 If your deck would hurt to lose, it deserves a boring backup.
 
-Keep the full app-native copy. Keep the portable text. Keep the media. Keep one copy somewhere else. Then build the next stage of your study workflow in a product that does not make portability feel like a side quest.
+Keep a full app-native copy if available. Keep the portable text. Keep the media. Keep one copy somewhere else. Then build the next stage of your study workflow in a product that does not make portability feel like a side quest.
 
 If you want a cleaner place to do that with the next deck, start with [Getting Started](/docs/getting-started/), skim [Features](/features/), and keep the [Self-Hosting Guide](/docs/self-hosting/) in the back of your mind.
 

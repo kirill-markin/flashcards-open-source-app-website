@@ -104,18 +104,15 @@ To make a Quizlet to CSV file safely:
 
 A spreadsheet can add the quoting CSV needs. A global tab-to-comma replacement cannot do that reliably.
 
-## Move the text into Nibomo as reviewed draft material
+## Move the text into Nibomo and check the cards
 
-[Nibomo](/features/) has no direct Quizlet importer. The hosted route for TXT or CSV is AI-assisted drafting from a file attachment, not a lossless migration.
+In the [Nibomo web app](https://app.nibomo.com), select **Library → Import → Import from Quizlet**. Paste the text copied from an eligible Quizlet export and select **Start import**. That sends the text to AI chat to create cards in your workspace. Compare the saved fronts and backs with the raw export. Start with a small batch if your set has unusual separators or multiline definitions.
 
-1. Keep the raw Quizlet file outside the app.
-2. Attach the cleaned TXT or deliberately prepared CSV in Nibomo AI chat.
-3. Tell the assistant which separator and fields the file uses.
-4. Ask for a small preview and explicitly say not to save cards yet.
-5. Compare the proposed card count, fronts, and backs with the working file.
-6. Save only the cards you have reviewed.
+For an editable preview before saving, sign in to Nibomo and choose **Import from a spreadsheet** and paste clean two-column text. Set the separators to match your copy, check the pairs, and confirm the import.
 
-The [Getting Started guide](/docs/getting-started/) documents AI chat with workspace data and file attachments. A cautious prompt could be:
+If your app version lacks the Quizlet row, you can attach the cleaned TXT or CSV in AI chat and ask for a preview before it saves anything.
+
+The [import guide](/docs/import-flashcards/) explains the available routes. If you attach a file directly in AI chat, a cautious prompt could be:
 
 > Read this file as tab-separated term and definition pairs. Do not save cards yet. Draft a small sample, preserve the source wording and non-Latin characters, and list malformed, empty, or ambiguous rows separately instead of guessing.
 

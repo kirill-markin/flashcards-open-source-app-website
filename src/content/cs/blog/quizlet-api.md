@@ -93,7 +93,7 @@ Nibomo zveřejňuje dva způsoby přístupu ke stejnému omezenému souboru dat 
 
 Oba způsoby přístupu jsou omezené na vybraný pracovní prostor. Dostupné datové zdroje jsou `workspace`, `cards`, `decks` a `review_events` a výsledky jsou omezené na 100 řádků na příkaz. Rozhraní ve stylu SQL používá omezený dialekt, nikoli přímo PostgreSQL. Schéma OpenAPI není k dispozici, takže postupy závislé na generovaných klientech OpenAPI budou potřebovat jiné rozhraní.
 
-To může vývojáři nebo AI agentovi pomoci automatizovat práci s vlastními kartičkami. Nibomo ale neumí načíst obsah z URL Quizletu, zrcadlit účet v Quizletu ani fungovat jako jeho nezdokumentovaný klient. Automatický import z Quizletu není k dispozici. Při migraci nejprve exportujte pojmy a definice ze své vlastní sady, zkontrolujte text a poté ho namapujte do polí kartiček v cílovém systému. Ten si vytvoří vlastní stav učení; historie z Quizletu se nepřenese.
+To může vývojáři nebo AI agentovi pomoci automatizovat práci s vlastními kartičkami. Nibomo ale neumí načíst obsah z URL Quizletu, zrcadlit účet v Quizletu ani fungovat jako jeho nezdokumentovaný klient. Ve webové aplikaci Nibomo otevřete **Knihovna > Import > Importovat z aplikace Quizlet**. Vložte zkopírovaný text a zvolte **Spustit import**. Nibomo odešle text do chatu s AI, který z něj vytvoří nové kartičky. Uložené kartičky porovnejte s originálem. Obrázky, historie učení ani termíny opakování se z Quizletu nepřenesou.
 
 Rozdíly mezi produkty nad rámec přístupu k API najdete ve [srovnání s open source alternativou k Quizletu](/blog/quizlet-alternative/).
 

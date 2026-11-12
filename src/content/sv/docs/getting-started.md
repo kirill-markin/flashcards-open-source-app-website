@@ -44,6 +44,10 @@ Det snabbaste sättet att komma igång är den molndrivna webbappen:
 
 Den molndrivna vägen kräver ingen installation och ingen serverkonfiguration.
 
+## Ta med dina kort
+
+Har du redan kort i Quizlet, Anki eller en annan app? Öppna **Bibliotek > Importera** och följ [guiden för kortimport](/sv/docs/import-flashcards/) för att välja rätt format och se vad som följer med.
+
 ## Konfigurera en agent
 
 MCP-klienter som Claude, ChatGPT och Cursor kan ansluta enligt [guiden för MCP-kopplingen](/docs/mcp-connector/).

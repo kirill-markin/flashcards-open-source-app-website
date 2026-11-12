@@ -86,7 +86,7 @@ Tämä ei tee Nibomosta Quizlet-yhdistintä. Tuettu työnkulku on seuraava:
 
 1. vie teksti itse luomastasi Quizlet-korttisarjasta;
 2. säilytä alkuperäinen tiedosto ja tarkista työkopio;
-3. tarkista, miten sisältö on jaettu korttien kenttiin, ennen kuin tallennat kortit Nibomoon; ja
+3. liitä teksti Nibomon verkkosovelluksen Quizlet-tuontiin ja tarkista tallennetut kortit; ja
 4. yhdistä näin muodostettu Nibomo-työtila yhteensopivaan asiakasohjelmaan myöhempiä luku- ja kirjoitustoimintoja varten.
 
 Clauden yhdistämisvaiheet löytyvät artikkelista [Nibomon yhdistäminen Claudeen MCP:n avulla](/blog/how-to-connect-flashcards-to-claude-with-mcp/). Codex ja muut agentit voivat käyttää dokumentoitua MCP- tai Agent API -reittiä sen mukaan, mitä niiden ympäristö tukee.

@@ -86,7 +86,7 @@ Tým sa z Nibomo nestáva konektor pre Quizlet. Podporovaný postup je:
 
 1. exportovať text zo sady Quizlet, ktorej ste autorom;
 2. uchovať pôvodný súbor a skontrolovať pracovnú kópiu;
-3. skontrolovať kartičky s obsahom priradeným do príslušných polí pred ich uložením v Nibomo; a
+3. vo webovej aplikácii Nibomo vložiť text cez **Knižnica > Import > Importovať z aplikácie Quizlet**, spustiť import cez AI a skontrolovať uložené kartičky podľa zdroja; a
 4. pripojiť výsledný pracovný priestor Nibomo ku kompatibilnému klientovi na budúce čítanie a zápis.
 
 Postup pripojenia pre Claude nájdete v článku [Ako prepojiť Nibomo s Claude cez MCP](/blog/how-to-connect-flashcards-to-claude-with-mcp/). Codex a ďalší agenti môžu použiť zdokumentovanú cestu cez MCP alebo Agent API podľa toho, čo podporuje ich prostredie.

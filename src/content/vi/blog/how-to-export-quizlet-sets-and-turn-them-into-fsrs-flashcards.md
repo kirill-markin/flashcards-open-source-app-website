@@ -104,9 +104,15 @@ Hãy giữ tệp gốc ngay cả khi bản làm việc đã ổn. Nếu quá tr�
 
 Ứng dụng bảng tính có thể thêm dấu ngoặc kép theo yêu cầu của CSV. Thay toàn bộ tab bằng dấu phẩy không thể làm việc đó một cách đáng tin cậy.
 
-## Đưa văn bản vào Nibomo dưới dạng bản nháp cần kiểm tra
+## Nhập thẻ từ Quizlet vào Nibomo
 
-[Nibomo](/vi/features/) không có công cụ nhập trực tiếp từ Quizlet. Với TXT hoặc CSV, ứng dụng trực tuyến dùng AI để soạn thẻ từ tệp đính kèm; đây không phải quá trình chuyển dữ liệu bảo toàn nguyên vẹn.
+Trong ứng dụng web, vào **Thư viện > Nhập > Nhập từ Quizlet**. Dán văn bản sao chép từ Quizlet vào đây và chọn **Bắt đầu nhập**. AI có thể lưu thẻ ngay, vì vậy hãy so sánh kết quả với bản gốc.
+
+### Xem trước thẻ rồi mới lưu
+
+Hãy đăng nhập vào Nibomo trước. Bạn có thể dán nội dung hai cột vào **Nhập từ bảng tính** để xem trước thẻ rồi mới lưu.
+
+Nếu muốn AI cho xem một mẫu trước, hãy mở một cuộc trò chuyện riêng và làm theo các bước dưới đây thay vì nhập trực tiếp.
 
 1. Giữ tệp Quizlet gốc bên ngoài ứng dụng.
 2. Đính kèm tệp TXT đã chỉnh sửa hoặc CSV đã chuẩn bị đúng cách trong cuộc trò chuyện AI của Nibomo.

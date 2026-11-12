@@ -104,18 +104,13 @@ Sådan laver du en CSV-fil fra Quizlet på en sikker måde:
 
 Et regneark kan tilføje de anførselstegn, CSV kræver. Det kan du ikke gøre pålideligt ved blot at erstatte alle tabulatorer med kommaer.
 
-## Brug teksten som udkast i Nibomo, og gennemgå kortene
+## Importér Quizlet-teksten i Nibomo
 
-[Nibomo](/da/features/) har ingen direkte Quizlet-import. I den hostede app kan AI lave udkast ud fra vedhæftede TXT- eller CSV-filer. Det er ikke en overførsel uden tab.
+Gå til **Bibliotek > Import > Importér fra Quizlet** i Nibomos webapp. Indsæt den kopierede tekst, og vælg **Start import**. Nibomo sender teksten til AI-chatten, som opretter nye kort. Sammenlign de gemte kort med kilden. Billeder, læringshistorik og repetitionsdatoer bliver i Quizlet.
 
-1. Behold den uændrede Quizlet-fil uden for appen.
-2. Vedhæft den rensede TXT-fil eller den korrekt forberedte CSV-fil i Nibomos AI-chat.
-3. Fortæl assistenten, hvilket skilletegn og hvilke felter filen bruger.
-4. Bed om en lille forhåndsvisning, og sig udtrykkeligt, at kortene ikke skal gemmes endnu.
-5. Sammenlign det foreslåede antal kort samt deres forsider og bagsider med arbejdsfilen.
-6. Gem kun de kort, du har gennemgået.
+Log først ind på Nibomo. Vil du tjekke kortene, før du gemmer dem, så kopiér kun de to kolonner med termer og definitioner fra regnearket, uden overskriftsrækken. Brug ét par pr. linje, og fjern tabulatorer og linjeskift inde i cellerne. Indsæt teksten under **Importér fra et regneark**, og vælg de skilletegn, teksten bruger. For kopierede celler er det som regel tabulator mellem term og definition og linjeskift mellem kortene. Hvis felterne i din CSV-fil står i anførselstegn, så åbn filen i et regneark først. Importen af indsat tekst fortolker ikke anførselstegnene i CSV.
 
-[Kom godt i gang-vejledningen](/docs/getting-started/) beskriver AI-chat med data fra dit arbejdsområde og vedhæftede filer. En forsigtig prompt kunne være:
+Hvis du vil have AI til at rette indholdet eller vise en prøve uden at gemme, kan du vedhæfte TXT- eller CSV-filen i en ny AI-chat og bede om det. Angiv det præcise skilletegn mellem term og definition, f.eks. komma eller semikolon. Til en fil med tabulatorer kan du bruge denne prompt.
 
 > Læs denne fil som par af termer og definitioner adskilt af tabulatorer. Gem ikke kort endnu. Lav et lille udvalg af udkast, bevar kildens ordlyd og ikke-latinske tegn, og angiv fejlformaterede, tomme eller tvetydige rækker separat i stedet for at gætte.
 

@@ -45,6 +45,10 @@ La forma más rápida de comenzar es la aplicación web alojada:
 
 No se requiere instalación ni configuración del servidor para la ruta alojada.
 
+## Trae tus tarjetas de estudio
+
+¿Ya tienes tarjetas en Quizlet, Anki u otra app? Abre **Biblioteca > Importar** y consulta la [guía de importación de tarjetas](/docs/import-flashcards/) para elegir el formato adecuado y comprobar qué se transfiere.
+
 ## Configuración del agente
 
 Los clientes MCP como Claude, ChatGPT y Cursor pueden conectarse mediante la [guía del conector MCP](/docs/mcp-connector/).

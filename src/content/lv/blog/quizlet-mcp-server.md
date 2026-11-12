@@ -86,7 +86,7 @@ Tas nepārvērš Nibomo par Quizlet savienotāju. Atbalstītā darbplūsma ir š
 
 1. eksportējiet tekstu no paša izveidota Quizlet komplekta;
 2. saglabājiet sākotnējo failu un pārbaudiet darba kopiju;
-3. pārbaudiet, kā pārnestie dati ir sadalīti kartītēs, pirms tās saglabājat Nibomo;
+3. Nokopē tāda Quizlet komplekta tekstu, kuru drīksti eksportēt. Nibomo tīmekļa lietotnē atver **Bibliotēka > Importēt > Importēt no Quizlet**, ielīmē tekstu un izvēlies **Sākt importēšanu**. Pieprasījums nonāk MI sarunā, kurā tiek saglabātas kartītes. Saglabā eksporta oriģinālu. Salīdzini importēto kartīšu skaitu un abas kartīšu puses ar sākotnējo komplektu.
 4. savienojiet iegūto Nibomo darbvietu ar saderīgu klientu turpmākām lasīšanas un rakstīšanas darbībām.
 
 Claude savienotāja iestatīšanas soļi ir aprakstīti rakstā [Kā savienot Nibomo ar Claude, izmantojot MCP](/blog/how-to-connect-flashcards-to-claude-with-mcp/). Codex un citi aģenti var izmantot dokumentēto MCP vai Agent API piekļuves ceļu, ko atbalsta to vide.

@@ -18,9 +18,9 @@ Ak chcete do aplikácie Gizmo zadarmo importovať naraz poznámky z celého tý�
 
 Táto recenzia aplikácie Gizmo na učenie s kartičkami vychádza z aktuálnych oficiálnych stránok centra pomoci. Gizmo som osobne netestoval, preto sa pri tvrdeniach o produkte držím jeho dokumentácie a neisté body jasne označujem.
 
-> **Môj vzťah k produktu:** Som Kirill Markin a vyvíjam [Nibomo](https://nibomo.com/sk/), alternatívu, ktorú porovnávam nižšie. Gizmo má podľa dokumentácie širšie možnosti: viac vstupných formátov, päť typov kartičiek, lekcie AI Tutor, rozmanité kvízy a herné prvky motivujúce k pokroku. Nibomo sa zámerne sústreďuje na užší okruh funkcií.
+> **Môj vzťah k produktu:** Som Kirill Markin a vyvíjam [Nibomo](https://nibomo.com/sk/), alternatívu, ktorú porovnávam nižšie. Gizmo má podľa dokumentácie širšie možnosti: viac vstupných formátov, sedem typov kartičiek, lekcie AI Tutor, rozmanité kvízy a herné prvky motivujúce k pokroku. Nibomo sa zámerne sústreďuje na užší okruh funkcií.
 
-**Fakty overené:** 1. septembra 2026.
+**Fakty overené:** 1. septembra 2026. Typy kartičiek a export PDF overené 12. novembra 2026.
 
 ![Recenzia kartičiek Gizmo zobrazujúca Magic Import, typy kartičiek a alternatívny spôsob učenia](/blog/gizmo-alternative-v2.png)
 
@@ -57,21 +57,21 @@ AI Tutor má podobný postup importu. [Oficiálny návod na import lekcie](https
 
 Tieto dva zdokumentované zoznamy zdrojov nie sú rovnaké. Anki, tabuľkové súbory a webové stránky sa objavujú v návode na vytváranie kartičiek; YouTube a existujúce balíčky Gizmo v návode na lekcie Tutor. Skontrolujte konkrétny postup, ktorý potrebujete, a nepredpokladajte, že obe ponuky obsahujú všetky vstupy.
 
-## Gizmo má päť typov kartičiek
+## Gizmo má sedem typov kartičiek
 
-Aktuálna [dokumentácia typov kartičiek](https://help.gizmo.ai/en/articles/16527223-what-types-of-flashcards-can-i-make) uvádza päť formátov:
+Aktuálna [dokumentácia typov kartičiek](https://help.gizmo.ai/en/articles/16527223-what-types-of-flashcards-can-i-make) uvádza sedem formátov.
 
 | Typ kartičky | Čo precvičuje | Ako sa dá vytvoriť |
 | --- | --- | --- |
-| **Card text (text kartičky)** | Text alebo LaTeX so zvýraznenými slovami, na ktoré sa kvíz pýta, alebo s možnosťou odhaliť prednú a zadnú stranu | Ručne alebo cez Magic Import |
-| **Multiple choice (výber odpovede)** | Otázku s vygenerovanými možnosťami odpovede; pri úprave môžete pridať nesprávne možnosti | Ručne alebo cez Magic Import |
-| **Matching (priraďovanie)** | Dvojice, ktoré Gizmo zamieša a ktoré máte znova spojiť | Iba cez Magic Import |
-| **Ordering (usporiadanie)** | Položky, ktoré Gizmo zamieša a ktoré máte zoradiť do správneho poradia | Iba cez Magic Import |
-| **True/False (pravda/nepravda)** | Tvrdenie, pri ktorom rozhodujete, či je pravdivé alebo nepravdivé | Ručne alebo cez Magic Import |
+| **Q&A** | Otázka a odpoveď, ktoré môžu obsahovať text alebo LaTeX | Ručne alebo cez Magic Import |
+| **Multi-select** | Otázka s jednou alebo viacerými správnymi možnosťami | Ručne alebo cez Magic Import |
+| **Fill the blanks** | Zvýraznené slová, ktoré máte doplniť do textu | Ručne alebo cez Magic Import |
+| **Match pairs** | Dvojice, ktoré Gizmo zamieša a ktoré máte znova spojiť | Ručne alebo cez Magic Import |
+| **Order items** | Položky, ktoré Gizmo zamieša a ktoré máte zoradiť do správneho poradia | Ručne alebo cez Magic Import |
+| **True or False** | Tvrdenie, pri ktorom rozhodujete, či je pravdivé alebo nepravdivé | Ručne alebo cez Magic Import |
+| **Image question** | Odkrytie popisov na obrázku alebo fotografii | Ručne |
 
-Je to širšia ponuka než bežný balíček kartičiek s prednou a zadnou stranou. Magic Import navyše neslúži len na urýchlenie tvorby: Matching a Ordering sa momentálne dajú vytvoriť iba cez Magic Import.
-
-Treba upozorniť na jeden rozpor v dokumentácii. Stránka o typoch kartičiek uvádza, že Card text môže obsahovať obrázky na prednej aj zadnej strane. [Návod na správu kartičiek](https://help.gizmo.ai/en/articles/13761411-how-do-i-edit-or-manage-my-cards) však uvádza, že fotografie a obrázky možno pridať iba na prednú stranu. Ak potrebujete obrázky na zadnej strane, pred vytvorením balíčka si overte aktuálny editor. Na základe týchto dvoch oficiálnych stránok sa nedá dať jednoznačnejšia odpoveď.
+Treba upozorniť na jeden rozpor v dokumentácii. Stránka o typoch kartičiek uvádza, že Q&A môže obsahovať obrázky na prednej aj zadnej strane. [Návod na správu kartičiek](https://help.gizmo.ai/en/articles/13761411-how-do-i-edit-or-manage-my-cards) však uvádza, že fotografie a obrázky možno pridať iba na prednú stranu. Ak potrebujete obrázky na zadnej strane, pred vytvorením balíčka si overte aktuálny editor. Na základe týchto dvoch oficiálnych stránok sa nedá dať jednoznačnejšia odpoveď.
 
 Gizmo tiež uvádza, že nastavenia kvízu ovplyvňujú štýly otázok, ktoré sa vám zobrazia. Uložený formát kartičky a spôsob, akým ju kvíz používa na skúšanie, spolu súvisia, ale nie sú totožné.
 
@@ -97,11 +97,9 @@ Podľa [návodu na správu kartičiek](https://help.gizmo.ai/en/articles/1376141
 
 Obmedzenie sa prejaví v režime Memorise: kartičku tam môžete odstrániť, ale momentálne ju nemôžete upraviť počas kvízu. Ak pri učení narazíte na zlú odpoveď, musíte tento režim opustiť, aby ste ju opravili.
 
-### Export z aplikácie Gizmo nie je dostupný
+### Gizmo vie kartičky vytlačiť alebo uložiť ako PDF
 
-Ten istý oficiálny návod uvádza, že export kartičiek zatiaľ nie je k dispozícii. Podľa [návodu na správu balíčkov](https://help.gizmo.ai/en/articles/12995587-how-do-i-make-changes-to-my-decks) nie je dostupný ani export balíčkov.
-
-To je najjasnejšie aktuálne obmedzenie kontroly nad dátami. Gizmo prijíma materiály z viacerých iných systémov, ale v súčasnosti neponúka zdokumentovaný spôsob, ako výsledné kartičky dostať von. Ak je pre vás dôležitá budúca migrácia, posudzujte produkt podľa tohto súčasného obmedzenia, nie podľa možnosti, že export pribudne neskôr.
+Otvorte ponuku balíčka, vyberte **Print** (Tlačiť) a v dialógu prehliadača zvoľte **Save as PDF** (Uložiť ako PDF). Gizmo opisuje [export do PDF](https://help.gizmo.ai/en/articles/18228622-how-do-i-export-print-or-download-my-cards-as-a-pdf), a to aj pre balíčky vytvorené v Gizmo. Pôvodný balíček si nechajte, ak potrebujete upravovať kartičky alebo zachovať históriu opakovania.
 
 ### Dokumentácia nestačí na prísľub fungovania offline
 
@@ -116,15 +114,15 @@ Na tomto rozlíšení záleží, pretože „načítaná obrazovka stále reaguj
 | Kritérium výberu | Gizmo | Nibomo |
 | --- | --- | --- |
 | Hlavný spôsob, ako začať | Ručne vytvorené kartičky alebo Magic Import z rôznych študijných zdrojov | Ručná tvorba cielených kartičiek s prednou a zadnou stranou alebo tvorba s pomocou AI |
-| Formáty kartičiek | Card text, Multiple choice, Matching, Ordering a True/False | Kartičky s prednou a zadnou stranou |
+| Formáty kartičiek | Q&A, Multi-select, Fill the blanks, Match pairs, Order items, True or False, Image question | Kartičky s prednou a zadnou stranou |
 | Výučba nad rámec balíčka | Lekcie AI Tutor, poznámky a otázky zo zdrojového materiálu | Tvorba kartičiek s pomocou AI; aktuálne stránky produktu neuvádzajú režim lekcií Tutor |
 | Spôsob opakovania | Memorise, intervalové opakovanie a rôzne štýly otázok | Intervalové opakovanie FSRS |
 | Motivácia | XP, Levels, Leagues, Streaks, Hearts, Hints a Coins | Aktuálne stránky produktu neuvádzajú porovnateľné herné prvky |
 | Podklady o používaní offline | V preverenej dokumentácii sa nenašla oficiálna záruka fungovania offline | Učenie offline v mobilnej aplikácii a automatická synchronizácia sú zdokumentované funkcie |
-| Prenos dát von | Export kartičiek a balíčkov momentálne nie je dostupný | Prenosné exporty zahŕňajú kartičky, značky a súvisiace médiá |
+| Prenos dát von | Tlač balíčka alebo uloženie do PDF | Prenosné exporty zahŕňajú kartičky, značky a súvisiace médiá |
 | Kontrola nad prevádzkou | Preverené oficiálne stránky neuvádzajú možnosť vlastného hostovania | Open source s možnosťou vlastného hostovania |
 
-Nibomo je praktickou alternatívou k aplikácii Gizmo len pre užšie zameraný spôsob učenia opísaný v tejto tabuľke. Jeho aktuálna [stránka funkcií](/sk/features/) uvádza FSRS, tvorbu kartičiek s pomocou AI, učenie offline a synchronizáciu v mobilnej aplikácii, prenosné exporty a vlastné hostovanie. Neopisuje obdobu Magic Import s piatimi formátmi, lekcií Tutor ani herných prvkov Gizmo.
+Nibomo je praktickou alternatívou k aplikácii Gizmo len pre užšie zameraný spôsob učenia opísaný v tejto tabuľke. Jeho aktuálna [stránka funkcií](/sk/features/) uvádza FSRS, tvorbu kartičiek s pomocou AI, učenie offline a synchronizáciu v mobilnej aplikácii, prenosné exporty a vlastné hostovanie. Gizmo ponúka aj lekcie Tutor, rozmanité kvízy a herné prvky.
 
 ## Kedy je Nibomo vhodnejšia voľba
 
@@ -132,26 +130,24 @@ Vyberte si Nibomo, ak si chcete uchovať skontrolovanú kartičku s prednou a za
 
 Tvrdenia o používaní offline a prenose dát von sú pri Nibomo konkrétnejšie. Nibomo dokumentuje učenie offline v mobilnej aplikácii s automatickou synchronizáciou a jeho [úvodný sprievodca](/sk/docs/getting-started/) uvádza, že klient pre iOS používa lokálnu databázu SQLite a synchronizáciu navrhnutú primárne na prácu offline. Prenosné exporty zahŕňajú kartičky, značky a súvisiace médiá vrátane prenosu medzi hostovanou službou a inštaláciami na vlastnom serveri.
 
-Kompromisom je rozsah funkcií. Aktuálne stránky Nibomo neuvádzajú takú ponuku importu ako Gizmo, päť typov kartičiek, lekcie vedené Tutorom ani systém odmien. Ak tieto funkcie riešia problém, ktorý vás sem priviedol, Gizmo je pravdepodobne vhodnejšia voľba.
+Ak pri učení využívate interaktívne otázky, lekcie Tutor alebo odmeny, Gizmo je na tieto úlohy vhodnejšie.
 
 ## Dá sa prejsť z aplikácie Gizmo do inej aplikácie?
 
-Dnes to nejde hladko. Keďže export z aplikácie Gizmo nie je dostupný, neexistuje bežná migrácia prostredníctvom súboru z aplikácie Gizmo do Nibomo ani do inej aplikácie.
+PDF z Gizmo môžete skúsiť použiť ako podklad na nové kartičky. Vo webovej aplikácii Nibomo vyberte **Knižnica > Import > Importovať z inej aplikácie** a zvoľte PDF. Súbor sa odošle do AI chatu. V tomto porovnaní sme prenos PDF z Gizmo netestovali. Výsledok porovnajte s originálom. Pozrite si [návod na import kartičiek](/sk/docs/import-flashcards/).
 
-Bezpečný náhradný postup spočíva v ručnom prenose vybraných kartičiek:
+Otázky, ktoré závisia od interaktívneho formátu Gizmo, môžete vytvoriť ručne:
 
 1. Majte poruke pôvodnú prednášku, poznámky, snímky prezentácie alebo iný zdroj.
 2. Znova vytvorte iba kartičky, ktoré sú stále správne a užitočné.
 3. Nejasné otázky prepíšte namiesto kopírovania každej vygenerovanej kartičky.
 4. Počítajte s tým, že zvýraznenia Gizmo, kontext Tutora, história plánovania, XP a ďalší pokrok zostanú v pôvodnej aplikácii.
 
-Je to pomalšie než použitie importéra a pri prenose sa časť údajov stratí. Užitočným vedľajším účinkom je, že si prenesiete iba kartičky, ktoré obstáli pri kontrole kvality.
-
-Ďalšou možnosťou je používať obe aplikácie. Gizmo môže spracovať prednášku alebo prezentáciu a ponúknuť rozmanité precvičovanie. Nibomo môže uchovávať menší súbor skontrolovaných kartičiek s prednou a zadnou stranou na opakovanie pomocou FSRS. Prenos medzi nimi zostáva ručný, pretože Gizmo kartičky neexportuje.
+Ďalšou možnosťou je používať obe aplikácie. Gizmo môže spracovať prednášku alebo prezentáciu a ponúknuť rozmanité precvičovanie. Nibomo môže uchovávať menší súbor skontrolovaných kartičiek s prednou a zadnou stranou na opakovanie pomocou FSRS.
 
 ## Ktorý spôsob práce vám vyhovuje?
 
-Vyberte si Gizmo, ak začínate neusporiadaným zdrojovým materiálom a chcete, aby aplikácia vytvorila prvú štruktúru na učenie. Jeho zdokumentovanými prednosťami sú rôzne vstupy, päť typov kartičiek, učenie vedené Tutorom, rozmanité kvízy a mechanizmy motivujúce k pokroku.
+Vyberte si Gizmo, ak začínate neusporiadaným zdrojovým materiálom a chcete, aby aplikácia vytvorila prvú štruktúru na učenie. Jeho zdokumentovanými prednosťami sú rôzne vstupy, sedem typov kartičiek, učenie vedené Tutorom, rozmanité kvízy a mechanizmy motivujúce k pokroku.
 
 Vyberte si Nibomo, ak už viete, čo si zaslúži kartičku s prednou a zadnou stranou na dlhodobé opakovanie, a viac vám záleží na FSRS, zdokumentovanom učení offline v mobilnej aplikácii, exporte alebo vlastnom hostovaní než na rozmanitosti kvízov a odmenách.
 

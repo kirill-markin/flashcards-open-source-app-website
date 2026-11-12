@@ -48,7 +48,7 @@ Keine der beiden Entscheidungen macht das Lernen automatisch ernsthafter. StudyS
 | Apps | Web sowie Apps für iOS und Android | Web, iOS und Android; keine native Desktop-App |
 | KI | Erklärungen, Lernmaterialien, Karteikarten aus Vorlesungsfolien und Feedback von Exam AI | Online-Chat mit Zugriff auf den Workspace zum Erstellen und Bearbeiten von Karten sowie Schnittstellen für externe Agenten |
 | Rechte und Hosting | Nutzer behalten die Rechte an ihren Uploads, räumen der Plattform aber Nutzungsrechte ein; proprietär und ohne offizielles Self-Hosting des gesamten Dienstes | MIT-lizenzierte Anwendung und Infrastruktur mit unterstütztem Produktions-Deployment über AWS CDK |
-| Datenübertragung | Hier wird keine vollständige Migration zugesichert | Der Paketexport enthält nur Karten, Tags und referenzierte Medien; er ist kein vollständiges Backup |
+| Datenübertragung | Mit Premium lassen sich selbst erstellte Karten als CSV mit reinem Text exportieren | **Aus StudySmarter importieren** sendet CSV-Dateien an den KI-Chat; Nibomos eigenes Paket überträgt Karten und referenzierte Medien |
 
 Der Vergleich ist absichtlich unausgewogen. StudySmarter löst mehr Aufgaben rund ums Lernen und bietet entsprechend mehr integrierte Werkzeuge. Nibomo wird erst dann zu einer sinnvollen Alternative zu StudySmarter, wenn gerade der kleinere Funktionsumfang, der nachvollziehbare Scheduler, die Offline-first-Kartenverwaltung oder die Kontrolle über die Infrastruktur ein konkretes Problem für dich löst.
 
@@ -112,7 +112,7 @@ Nibomo veröffentlicht Anwendung und Infrastruktur unter der MIT-Lizenz. Der unt
 
 Open Source macht den integrierten Export von Nibomo nicht vollständig. Ein Workspace-Paket enthält Karten, Tags und referenzierte Medien. Wiederholungsverlauf, FSRS-Status, Workspace-Einstellungen, vollständige Deck-Strukturen und Kontodaten fehlen. Das Paket dient der Übertragung von Inhalten; es ist weder ein vollständiges Backup noch eine verlustfreie Migration von der gehosteten in eine selbst betriebene Installation.
 
-Es gibt nicht genug offizielle Informationen, um hier einen vollständigen StudySmarter-Export oder eine direkte Migration zu Nibomo zu versprechen. Bewahre deshalb deine ursprünglichen Quelldateien auf und teste zuerst eine kleine, repräsentative Auswahl, bevor du weitere Inhalte verschiebst.
+Laut [StudySmarters Exportanleitung](https://studysmarter.zendesk.com/hc/en-gb/articles/18447712394012-Flashcard-Export-Function) können Premium-Nutzer selbst erstellte Karteikarten als CSV exportieren. Die Datei enthält reinen Text; Bilder, Formeln und Formatierungen bleiben in StudySmarter. In der Nibomo-Web-App sendet **Bibliothek > Import > Aus StudySmarter importieren** die CSV an den KI-Chat, der neue Karten erstellt. Prüfe zuerst eine kleine Stichprobe. Der Wiederholungsverlauf wird nicht übernommen. Einzelheiten findest du in der [Anleitung zum Importieren von Karteikarten](/docs/import-flashcards/).
 
 ## Welche Alternative zu StudySmarter passt zu dir?
 

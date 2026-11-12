@@ -44,6 +44,10 @@ Indlela esheshayo yokuqala ukusebenzisa uhlelo lwewebhu olusingathiwe:
 
 Endleleni esingathiwe akudingeki ukufaka lutho noma ukusetha iseva.
 
+## Letha amakhadi akho okufunda
+
+Usunawo amakhadi ku-Quizlet, ku-Anki noma kolunye uhlelo? Vula **Umtapo wolwazi > Ngenisa** bese ubheka [umhlahlandlela wokungenisa amakhadi](/docs/import-flashcards/) ukuze ukhethe ifomethi efanele futhi uhlole ukuthi yini ezodluliselwa.
+
 ## Ukusetha i-ejenti
 
 Amaklayenti e-MCP afana ne-Claude, i-ChatGPT ne-Cursor angaxhuma ngokulandela [umhlahlandlela wesixhumi se-MCP](/docs/mcp-connector/).

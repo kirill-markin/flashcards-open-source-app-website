@@ -111,7 +111,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Imports, eksports un dati, kas pieder tev",
           description:
-            "Pārvieto savus mācību materiālus iekšā un ārā, kad vien vēlies. Pārnesamajā eksportā ir kartītes, birkas un saistītā multivide.",
+            "Pārvieto kartītes no Quizlet, Anki un citām lietotnēm. Nibomo kartītes, birkas un multividi vari eksportēt jebkurā laikā.",
+          link: {
+            label: "Kā importēt kartītes",
+            href: "/docs/import-flashcards/",
+          },
         },
         {
           title: "Darbojas ar MI aģentiem",

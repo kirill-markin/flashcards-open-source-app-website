@@ -2,7 +2,7 @@
 title: "Gizmo Flashcards Review (2026): Free Limits, Magic Import, and Alternatives"
 description: "Source-checked Gizmo flashcards review covering Magic Import's free-plan wait, AI Tutor, card types, export, offline evidence, and a practical alternative."
 date: "2026-08-03"
-updated: "2026-09-01"
+updated: "2026-11-12"
 image: "/blog/gizmo-alternative-v2.png"
 keywords:
   - "Gizmo flashcards"
@@ -16,11 +16,11 @@ keywords:
 
 If you want to batch-import a week of notes into Gizmo for free, the number to remember is **20 minutes**. The current Gizmo Magic Import limit is a 20-minute wait between imports, not a fixed daily quota. Gizmo Unlimited removes that wait.
 
-This Gizmo flashcards review is based on current official help pages. I have not tested Gizmo hands-on, so I will keep product claims to what Gizmo documents and make the uncertain parts explicit.
+This Gizmo flashcards review uses official help pages. The hands-on check was limited to printing one public deck.
 
-> **Disclosure:** I am Kirill Markin, and I build [Nibomo](https://nibomo.com/), the alternative compared below. Gizmo offers a broader documented workflow: more source formats, five card types, AI Tutor lessons, varied quizzes, and game-like progression. Nibomo is deliberately narrower.
+> **Disclosure:** I am Kirill Markin, and I build [Nibomo](https://nibomo.com/), the alternative compared below. Gizmo offers a broader documented workflow: more source formats, seven card types, AI Tutor lessons, varied quizzes, and game-like progression. Nibomo is deliberately narrower.
 
-**Facts checked:** September 1, 2026.
+**Facts checked:** September 1, 2026. Gizmo card types and PDF export rechecked November 12, 2026.
 
 ![Gizmo flashcards review showing Magic Import, card types, and an alternative study workflow](/blog/gizmo-alternative-v2.png)
 
@@ -57,21 +57,21 @@ AI Tutor has a related import path. The [official lesson-import guide](https://h
 
 The two documented source lists are not identical. Anki, spreadsheets, and websites appear in the card-creation guide; YouTube and existing Gizmo decks appear in the Tutor lesson guide. Check the route you actually need rather than assuming every input is offered in both menus.
 
-## Gizmo has five card types
+## Gizmo has seven card types
 
-Gizmo's current [card-type documentation](https://help.gizmo.ai/en/articles/16527223-what-types-of-flashcards-can-i-make) lists five formats:
+Gizmo documents seven [card types](https://help.gizmo.ai/en/articles/16527223-what-types-of-flashcards-can-i-make).
 
 | Card type | What it tests | How it can be created |
 | --- | --- | --- |
-| **Card text** | Text or LaTeX, with highlighted words as quiz targets or an optional front-and-back reveal | Manually or with Magic Import |
-| **Multiple choice** | A question with generated answer options; you can add wrong options while editing | Manually or with Magic Import |
-| **Matching** | Pairs that Gizmo shuffles for you to reconnect | Magic Import only |
-| **Ordering** | Items that Gizmo shuffles for you to put back in sequence | Magic Import only |
-| **True/False** | A statement you judge as true or false | Manually or with Magic Import |
+| **Q&A** | A question and an answer that can include text or LaTeX | Manually or with Magic Import |
+| **Multi-select** | A question with one or more correct options | Manually or with Magic Import |
+| **Fill the blanks** | Highlighted words in a passage that you supply during a quiz | Manually or with Magic Import |
+| **Match pairs** | Pairs that Gizmo shuffles for you to reconnect | Manually or with Magic Import |
+| **Order items** | Items that Gizmo shuffles for you to put back in sequence | Manually or with Magic Import |
+| **True or False** | A statement you judge as true or false | Manually or with Magic Import |
+| **Image question** | Labels you uncover on a diagram or photo | Manually |
 
-This is broader than a basic front/back deck, and Magic Import is not merely a shortcut: Matching and Ordering are currently Magic Import-only.
-
-One documentation conflict is worth flagging. The card-type page says Card text can include pictures on the front and back. Gizmo's [card-management guide](https://help.gizmo.ai/en/articles/13761411-how-do-i-edit-or-manage-my-cards) says photos and images can only be added to the front. If back-side images matter, verify the current editor before building the deck. The two official pages do not support a firmer answer.
+One documentation conflict is worth flagging. The card-type page says Q&A can include pictures on the front and back. Gizmo's [card-management guide](https://help.gizmo.ai/en/articles/13761411-how-do-i-edit-or-manage-my-cards) says photos and images can only be added to the front. If back-side images matter, verify the current editor before building the deck. The two official pages do not support a firmer answer.
 
 Gizmo also notes that quiz settings affect which question styles you see. A card's stored format and the way a quiz tests it are related, but not identical.
 
@@ -97,11 +97,9 @@ Gizmo's [card-management guide](https://help.gizmo.ai/en/articles/13761411-how-d
 
 The boundary appears during Memorise: you can delete a card there, but you cannot currently edit it mid-quiz. If you spot a bad answer while studying, you need to leave that flow to repair it.
 
-### Gizmo export is unavailable
+### Gizmo can print cards or save them as a PDF
 
-The same official guide says card export is not available yet. Gizmo's [deck-management guide](https://help.gizmo.ai/en/articles/12995587-how-do-i-make-changes-to-my-decks) says deck export is also unavailable.
-
-This is the clearest data-control limit in the current workflow. Gizmo accepts material from several other systems, but it does not currently provide a documented way to take the resulting cards back out. If future migration matters, judge the product on that present limitation rather than the possibility of a later export feature.
+Open the deck menu, choose **Print**, and select **Save as PDF** in the browser print dialog. Gizmo documents [PDF export](https://help.gizmo.ai/en/articles/18228622-how-do-i-export-print-or-download-my-cards-as-a-pdf), including for decks made by Gizmo. The [Gizmo PDF guide](/blog/gizmo-export-pdf/) shows what to check in the saved pages. For an editable deck or review history, keep the original Gizmo deck.
 
 ### Offline use is not documented clearly enough to promise
 
@@ -116,15 +114,15 @@ The distinction matters because “a loaded screen still responds” and “my r
 | Decision point | Gizmo | Nibomo |
 | --- | --- | --- |
 | Main starting point | Manual cards or Magic Import from varied study sources | Manual or AI-assisted creation of focused front/back cards |
-| Card formats | Card text, Multiple choice, Matching, Ordering, and True/False | Front/back cards |
+| Card formats | Q&A, multi-select, fill the blanks, matching, ordering, true/false, and image questions | Front/back cards |
 | Teaching around the deck | AI Tutor lessons, notes, and source-based questions | AI-assisted card creation; no Tutor lesson mode is documented on the current product pages |
 | Review style | Memorise, spaced repetition, and varied question styles | FSRS spaced repetition |
 | Motivation layer | XP, Levels, Leagues, Streaks, Hearts, Hints, and Coins | No comparable game layer is documented on the current product pages |
 | Offline evidence | No official offline guarantee found in the documentation checked | Mobile offline study and automatic sync are documented features |
-| Data exit | Card and deck export are currently unavailable | Portable exports include cards, tags, and related media |
+| Data exit | Print a deck or save it as PDF | Portable exports include cards, tags, and related media |
 | Deployment control | No self-hosting claim in the official pages checked | Open source and self-hostable |
 
-Nibomo is a practical Gizmo alternative only for the narrower side of this table. Its current [features page](/features/) documents FSRS, AI-assisted card creation, mobile offline study and sync, portable exports, and self-hosting. It does not describe an equivalent to Gizmo's five-format Magic Import, Tutor lessons, or game layer.
+Nibomo is a practical Gizmo alternative only for the narrower side of this table. Its current [features page](/features/) documents FSRS, AI-assisted card creation, mobile offline study and sync, portable exports, and self-hosting. Gizmo also offers Tutor lessons, varied quizzes, and game progression.
 
 ## When Nibomo is the better fit
 
@@ -132,26 +130,24 @@ Choose Nibomo when the thing you want to keep is a checked front/back card. You 
 
 Its offline and data-exit claims are more explicit. Nibomo documents mobile offline study with automatic sync, while its [getting-started guide](/docs/getting-started/) identifies the iOS client as using local SQLite and offline-first sync. Portable exports include cards, tags, and related media, including transfers between hosted and self-hosted installations.
 
-The tradeoff is scope. Current Nibomo pages do not document Gizmo's import menu, five card types, Tutor-led lessons, or reward system. If those features solve the problem that brought you here, Gizmo is probably the better fit.
+If you rely on Gizmo's interactive question types, Tutor-led lessons, or rewards, keep using Gizmo for that work.
 
 ## Can you move from Gizmo to another app?
 
-Not cleanly today. Because Gizmo export is unavailable, there is no normal file-based migration from Gizmo to Nibomo or another app.
+You can use Gizmo's PDF as source material for new cards. In the Nibomo web app, choose **Library → Import → Import from another app** and select the PDF. AI chat uses it to create cards. This review did not test a Gizmo PDF transfer, so check the output against the source. If your app version lacks the menu option, attach the PDF in AI chat. See the [import guide](/docs/import-flashcards/).
 
-The safe workaround is manual and selective:
+For questions that depend on Gizmo's interactive format, rebuild them selectively.
 
 1. Keep the original lecture, notes, slides, or other source beside you.
 2. Recreate only the cards that are still accurate and useful.
 3. Rewrite vague prompts instead of copying every generated card.
 4. Expect Gizmo highlights, Tutor context, scheduling history, XP, and other progress to stay behind.
 
-This is slower than an importer and it is not lossless. The useful side effect is that you only carry forward cards that survive a quality check.
-
-Using both apps is another option. Gizmo can unpack a lecture or presentation and provide varied practice. Nibomo can hold a smaller set of checked front/back cards for FSRS review. The bridge remains manual because Gizmo does not export the cards.
+Using both apps is another option. Gizmo can unpack a lecture or presentation and provide varied practice. Nibomo can hold a smaller set of checked front/back cards for FSRS review.
 
 ## Which workflow fits you?
 
-Choose Gizmo when you start with messy source material and want the app to build the first study structure. Its documented strengths are input variety, five card types, Tutor-led study, varied quizzing, and progression mechanics.
+Choose Gizmo when you start with messy source material and want the app to build the first study structure. Its documented strengths are input variety, seven card types, Tutor-led study, varied quizzing, and progression mechanics.
 
 Choose Nibomo when you already know what deserves a durable front/back card and care more about FSRS, documented mobile offline study, export, or self-hosting than quiz variety and rewards.
 

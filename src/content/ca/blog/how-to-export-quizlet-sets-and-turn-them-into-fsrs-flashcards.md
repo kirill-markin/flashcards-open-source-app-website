@@ -104,18 +104,13 @@ Per crear un fitxer CSV a partir de Quizlet amb seguretat:
 
 Un full de càlcul pot afegir les cometes que necessita el CSV. Una substitució global de tabulacions per comes no ho pot fer de manera fiable.
 
-## Porta el text a Nibomo per crear esborranys i revisar-los
+## Importa el text de Quizlet a Nibomo
 
-[Nibomo](/ca/features/) no té cap importador directe de Quizlet. A la versió allotjada de Nibomo, pots adjuntar fitxers TXT o CSV perquè la IA generi esborranys; no és una migració sense pèrdues.
+A l’app web de Nibomo, ves a **Biblioteca > Importa > Importa des de l’app Quizlet**. Enganxa el text copiat i selecciona **Inicia la importació**. Nibomo envia el text al xat amb IA per crear targetes noves. Compara les targetes desades amb l’original. Les imatges, l’historial d’estudi i les dates de repàs es queden a Quizlet.
 
-1. Conserva el fitxer original de Quizlet fora de l'app.
-2. Adjunta el TXT netejat o el CSV preparat amb cura al xat d'IA de Nibomo.
-3. Indica a l'assistent quin separador i quins camps fa servir el fitxer.
-4. Demana una petita mostra i digues explícitament que encara no desi cap targeta.
-5. Compara el nombre de targetes proposades, els anversos i els reversos amb el fitxer de treball.
-6. Desa només les targetes que hagis revisat.
+Inicia primer la sessió al teu compte de Nibomo. Per revisar les targetes abans de desar-les, copia del full de càlcul només les dues columnes de termes i definicions, sense la fila de capçalera. Deixa un parell per línia i treu les tabulacions i els salts de línia de dins les cel·les. Enganxa el text a **Importa des d’un full de càlcul** i tria els separadors que hi coincideixin. Quan copies cel·les, normalment hi ha una tabulació entre terme i definició i un salt de línia entre targetes. Si tens un CSV amb camps entre cometes, obre’l primer en un full de càlcul. La importació de text enganxat no interpreta les cometes del CSV.
 
-La [guia de primers passos](/docs/getting-started/) explica com fer servir el xat d'IA amb les dades de l'espai de treball i fitxers adjunts. Una petició prudent podria ser:
+Per demanar a la IA que retoci el contingut o que et mostri una mostra sense desar-la, adjunta el fitxer TXT o CSV a un xat nou i demana-l’hi explícitament. Indica quin caràcter separa el terme de la definició, com ara una coma o un punt i coma. Si el fitxer fa servir tabulacions, pots fer servir aquesta petició.
 
 > Llegeix aquest fitxer com a parelles de terme i definició separades per tabulacions. Encara no desis cap targeta. Prepara una petita mostra, conserva la redacció original i els caràcters no llatins, i enumera per separat les files mal formades, buides o ambigües en lloc de fer suposicions.
 

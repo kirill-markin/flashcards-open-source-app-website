@@ -44,6 +44,10 @@ Başlamanın en hızlı yolu barındırılan web uygulamasıdır:
 
 Barındırılan sürüm için kurulum veya sunucu yapılandırması gerekmez.
 
+## Kartlarınızı yanınızda getirin
+
+Quizlet, Anki veya başka bir uygulamada kartlarınız var mı? **Kitaplık > İçe aktar** bölümünü açın ve doğru biçimi seçip nelerin aktarılacağını kontrol etmek için [kart içe aktarma rehberini](/docs/import-flashcards/) izleyin.
+
 ## Agent Kurulumu
 
 Claude, ChatGPT ve Cursor gibi MCP istemcileri [MCP bağlayıcısı rehberi](/docs/mcp-connector/) üzerinden bağlanabilir.

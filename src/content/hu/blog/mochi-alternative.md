@@ -164,6 +164,7 @@ A Mochi [biztonsági mentési útmutatója](https://mochi.cards/docs/getting-sta
 
 - A teljes felhasználói könyvtár másolása megőrzi a tartalmat, az ismétlési előzményeket, a mellékleteket, az alkalmazás beállításait és a bejelentkezési állapotot.
 - A `.mochi`-export megőrzi a paklikat, kártyákat, sablonokat és mezőket, mellékleteket, címkéket és metaadatokat, ismétlési előzményeket, a kártyák sorrendjét és a pakliszerkezetet.
+Ha kipróbálnál egy Mochi-paklit a Nibomóban, a webalkalmazásban válaszd a **Könyvtár > Importálás > Importálás innen: Mochi** lehetőséget és a `.mochi`-fájlt. Az AI-csevegés új kártyákat készít belőle. Ellenőrizd a kártyák tartalmát és a médiafájlokat. Az eredeti fájlt tartsd meg a sablonok és az ismétlési előzmények visszaállításához a Mochiban. A lépéseket lásd az [importálási útmutató](/docs/import-flashcards/).
 
 A Mochi [Markdown- és CSV-exportja](https://mochi.cards/docs/import-and-export/exporting/) hordozhatóságra való. A Markdown kártyánként egy fájlt készít, az alpaklikhoz pedig mappákat, de elhagyja az ismétlési előzményeket, a kártyák sorrendjét, a sablonokat és a metaadatként tárolt címkéket; a címkék csak akkor maradnak meg, ha a Markdownban szerepelnek. A CSV sablonmezőket vagy a megjelenített előlapot és hátlapot tudja exportálni, de nem őrzi meg az ismétlési előzményeket, a sablonokat vagy a metaadatként tárolt címkéket, hacsak a címkék nincsenek beágyazva a tartalomba.
 

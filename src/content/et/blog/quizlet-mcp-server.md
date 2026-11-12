@@ -86,7 +86,7 @@ See ei tee Nibomost Quizleti konnektorit. Toetatud töövoog on järgmine:
 
 1. ekspordi tekst enda loodud Quizleti komplektist;
 2. säilita algfail ja vaata töökoopia üle;
-3. vaata vastendatud väljadega kaardid enne Nibomosse salvestamist üle;
+3. kleebi tekst Nibomo veebirakenduse Quizleti impordivaatesse ja vaata salvestatud kaardid üle;
 4. ühenda loodud Nibomo tööruum ühilduva kliendiga, et edaspidi andmeid lugeda ja muuta.
 
 Claude'i konnektori seadistamise sammud leiad artiklist [Kuidas ühendada Nibomo Claude'iga MCP kaudu](/blog/how-to-connect-flashcards-to-claude-with-mcp/). Codex ja teised agendid saavad kasutada dokumenteeritud MCP- või Agent API lahendust, mida nende keskkond toetab.

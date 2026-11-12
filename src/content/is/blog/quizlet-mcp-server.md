@@ -86,7 +86,7 @@ Nibomo birtir fjartengdan MCP-endapunkt á slóðinni:
 
 1. að flytja texta út úr Quizlet-safni sem þú bjóst til;
 2. að varðveita upprunalegu skrána og skoða vinnuafrit;
-3. að yfirfara hvernig efnið raðast á spjöldin áður en þau eru vistuð í Nibomo; og
+3. Í vefforriti Nibomo ferðu í **Safn > Flytja inn > Flytja inn úr Quizlet** og límir inn textann. **Hefja innflutning** sendir textann í gervigreindarspjall sem býr til spjöld. Berðu vistuðu spjöldin saman við upprunalega textann.
 4. að tengja Nibomo-vinnusvæðið sem verður til við samhæfan biðlara fyrir lestur og skrif síðar.
 
 Fyrir Claude eru tengiskrefin í [Hvernig á að tengja Nibomo við Claude með MCP](/blog/how-to-connect-flashcards-to-claude-with-mcp/). Codex og aðrir fulltrúar geta notað þá skjalfestu MCP- eða Agent API-leið sem umhverfi þeirra styður.

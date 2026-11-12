@@ -86,7 +86,7 @@ This does not turn Nibomo into a Quizlet connector. The supported workflow is:
 
 1. export text from a creator-owned Quizlet set;
 2. preserve the raw file and inspect a working copy;
-3. review the mapped cards before saving them in Nibomo; and
+3. use **Library → Import → Import from Quizlet** in the Nibomo web app to paste the export and start the AI import. Check the saved cards against the source; and
 4. connect the resulting Nibomo workspace to a compatible client for future reads and writes.
 
 For Claude, the connector steps are in [How to Connect Nibomo to Claude with MCP](/blog/how-to-connect-flashcards-to-claude-with-mcp/). Codex and other agents can use the documented MCP or Agent API route their environment supports.

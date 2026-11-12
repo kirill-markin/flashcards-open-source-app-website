@@ -18,7 +18,7 @@ Ha egy hét jegyzeteit szeretnéd egymás után, ingyen importálni a Gizmóba, 
 
 Ez a Gizmo tanulókártyáiról szóló értékelés a jelenlegi hivatalos súgóoldalakra épül. Személyesen nem teszteltem a Gizmót, ezért a termékről csak azt állítom, amit a dokumentációja alátámaszt, a bizonytalan részeket pedig külön jelzem.
 
-> **Érdekeltségi nyilatkozat:** Kirill Markin vagyok, és én fejlesztem az alább összehasonlított alternatívát, a [Nibomót](https://nibomo.com/hu/). A Gizmo dokumentált munkafolyamata szélesebb: többféle forrásformátumot, öt kártyatípust, AI Tutor-leckéket, változatos kikérdezést és játékos előrehaladást kínál. A Nibomo szándékosan szűkebb feladatkörre összpontosít.
+> **Érdekeltségi nyilatkozat:** Kirill Markin vagyok, és én fejlesztem az alább összehasonlított alternatívát, a [Nibomót](https://nibomo.com/hu/). A Gizmo dokumentált munkafolyamata szélesebb: többféle forrásformátumot, hét kártyatípust, AI Tutor-leckéket, változatos kikérdezést és játékos előrehaladást kínál. A Nibomo szándékosan szűkebb feladatkörre összpontosít.
 
 **Az adatok ellenőrzésének dátuma:** 2026. szeptember 1.
 
@@ -57,21 +57,23 @@ Az AI Tutor hasonló módon importál tananyagot. A [leckék importálásáról 
 
 A két dokumentált forráslista nem azonos. Az Anki, a táblázatok és a weboldalak a kártyakészítési útmutatóban szerepelnek; a YouTube és a meglévő Gizmo-paklik a Tutor-leckék útmutatójában. Azt az importálási lehetőséget ellenőrizd, amelyre ténylegesen szükséged van: ne feltételezd, hogy mindkét menü minden forrást támogat.
 
-## A Gizmo öt kártyatípust kínál
+## A Gizmo hét kártyatípust kínál
 
-A Gizmo jelenlegi [kártyatípus-dokumentációja](https://help.gizmo.ai/en/articles/16527223-what-types-of-flashcards-can-i-make) öt formátumot sorol fel:
+A Gizmo jelenlegi [kártyatípus-dokumentációja](https://help.gizmo.ai/en/articles/16527223-what-types-of-flashcards-can-i-make) hét formátumot sorol fel:
 
 | Kártyatípus | Mit kérdez ki? | Hogyan készíthető el? |
 | --- | --- | --- |
-| **Card text — szöveges kártya** | Szöveget vagy LaTeX-et; a kiemelt szavakra kérdez rá, vagy választható az előlapot, majd a hátlapot megjelenítő mód | Kézzel vagy Magic Importtal |
-| **Multiple choice — feleletválasztós** | Generált válaszlehetőségeket tartalmazó kérdést; szerkesztéskor további rossz válaszok is megadhatók | Kézzel vagy Magic Importtal |
-| **Matching — párosítás** | Párokat, amelyeket a Gizmo összekever, hogy újra összekapcsold őket | Csak Magic Importtal |
-| **Ordering — sorba rendezés** | Elemeket, amelyeket a Gizmo összekever, hogy visszaállítsd a sorrendjüket | Csak Magic Importtal |
-| **True/False — igaz/hamis** | Egy állítást, amelyről eldöntöd, hogy igaz vagy hamis | Kézzel vagy Magic Importtal |
+| **Q&A** | Kérdés és válasz, szöveggel vagy LaTeX-szel | Kézzel vagy Magic Importtal |
+| **Multi-select** | Kérdés egy vagy több helyes válasszal | Kézzel vagy Magic Importtal |
+| **Fill the blanks** | A szöveg kiemelt szavai, amelyeket kikérdezéskor kell pótolni | Kézzel vagy Magic Importtal |
+| **Match pairs — párosítás** | Párokat, amelyeket a Gizmo összekever, hogy újra összekapcsold őket | Kézzel vagy Magic Importtal |
+| **Order items — sorba rendezés** | Elemeket, amelyeket a Gizmo összekever, hogy visszaállítsd a sorrendjüket | Kézzel vagy Magic Importtal |
+| **True or False — igaz/hamis** | Egy állítást, amelyről eldöntöd, hogy igaz vagy hamis | Kézzel vagy Magic Importtal |
+| **Image question** | Ábrán vagy fényképen felfedendő feliratok | Kézzel |
 
-Ez többet kínál egy egyszerű elő- és hátlapos paklinál, a Magic Import pedig nem pusztán gyorsítja a munkát: a Matching és az Ordering jelenleg kizárólag ezzel hozható létre.
+Párosító és sorba rendező feladatokat kézzel is létrehozhatsz.
 
-A dokumentációban van egy ellentmondás. A kártyatípusokról szóló oldal szerint a Card text elő- és hátlapján is lehetnek képek. A Gizmo [kártyakezelési útmutatója](https://help.gizmo.ai/en/articles/13761411-how-do-i-edit-or-manage-my-cards) viszont azt írja, hogy fotók és képek csak az előlaphoz adhatók. Ha fontosak a hátlapon lévő képek, ellenőrizd a jelenlegi szerkesztőt, mielőtt elkészíted a paklit. A két hivatalos oldal alapján ennél határozottabb választ nem lehet adni.
+A dokumentációban van egy ellentmondás. A kártyatípusokról szóló oldal szerint a Q&A elő- és hátlapján is lehetnek képek. A Gizmo [kártyakezelési útmutatója](https://help.gizmo.ai/en/articles/13761411-how-do-i-edit-or-manage-my-cards) viszont azt írja, hogy fotók és képek csak az előlaphoz adhatók. Ha fontosak a hátlapon lévő képek, ellenőrizd a jelenlegi szerkesztőt, mielőtt elkészíted a paklit. A két hivatalos oldal alapján ennél határozottabb választ nem lehet adni.
 
 A Gizmo azt is jelzi, hogy a kikérdezés beállításai befolyásolják, milyen kérdésformákkal találkozol. A kártya tárolt formátuma és a kikérdezés módja összefügg, de a kettő nem ugyanaz.
 
@@ -97,11 +99,11 @@ A Gizmo [kártyakezelési útmutatója](https://help.gizmo.ai/en/articles/137614
 
 A korlát a Memorise használatakor jelentkezik: ott törölhetsz kártyát, de kikérdezés közben jelenleg nem szerkesztheted. Ha tanulás közben hibás választ veszel észre, a javításhoz ki kell lépned a kikérdezésből.
 
-### A Gizmóból jelenleg nem lehet exportálni
+### A Gizmo kártyái nyomtathatók és PDF-be menthetők
 
-Ugyanez a hivatalos útmutató azt írja, hogy a kártyák exportálása még nem érhető el. A Gizmo [paklikezelési útmutatója](https://help.gizmo.ai/en/articles/12995587-how-do-i-make-changes-to-my-decks) szerint a paklik exportálása sem lehetséges.
+Nyisd meg a pakli menüjét, válaszd a **Print** lehetőséget, majd a böngésző nyomtatási ablakában válaszd a **Save as PDF** lehetőséget. A Gizmo [PDF-exportálási útmutatója](https://help.gizmo.ai/en/articles/18228622-how-do-i-export-print-or-download-my-cards-as-a-pdf) a Gizmoban létrehozott paklikra is kitér.
 
-Ez a jelenlegi munkafolyamat legvilágosabb korlátja a saját adataid feletti rendelkezésben. A Gizmo több más rendszerből is fogad tananyagot, de jelenleg nem kínál dokumentált módot az így létrehozott kártyák kivitelére. Ha fontos a későbbi költözés, a terméket e jelenlegi korlát alapján mérlegeld, ne egy később esetleg megjelenő exportfunkcióra számíts.
+A PDF olvasható másolatot ad. Az interaktív kérdésekhez és az ismétlési előzményekhez tartsd meg az eredeti Gizmo-paklit.
 
 ### Az offline használat dokumentációja nem elég egyértelmű ahhoz, hogy ígéretet tegyünk rá
 
@@ -116,15 +118,15 @@ A különbség lényeges: „a már betöltött képernyő még reagál” és �
 | Döntési szempont | Gizmo | Nibomo |
 | --- | --- | --- |
 | Fő kiindulópont | Kézzel készített kártyák vagy Magic Import különféle tananyagokból | Egy-egy konkrét ismeretet kikérdező, elő- és hátlapos kártyák készítése kézzel vagy AI segítségével |
-| Kártyaformátumok | Card text, Multiple choice, Matching, Ordering és True/False | Elő- és hátlapos kártyák |
+| Kártyaformátumok | Q&A, Multi-select, Fill the blanks, Match pairs, Order items, True or False és Image question | Elő- és hátlapos kártyák |
 | Tanítás a pakli mellett | AI Tutor-leckék, jegyzetek és forrásalapú kérdések | AI-val támogatott kártyakészítés; a jelenlegi termékoldalak nem dokumentálnak Tutor-leckemódot |
 | Ismétlés módja | Memorise, szakaszos ismétlés és változatos kérdésformák | FSRS-alapú szakaszos ismétlés |
 | Motivációs rendszer | XP, Levels, Leagues, Streaks, Hearts, Hints és Coins | A jelenlegi termékoldalak nem dokumentálnak hasonló játékelemeket |
 | Offline használat alátámasztása | Az átnézett dokumentációban nem találtam hivatalos garanciát az offline működésre | A mobilos offline tanulás és az automatikus szinkronizálás dokumentált funkció |
-| Adatok exportálása | A kártyák és paklik exportálása jelenleg nem érhető el | A hordozható exportok kártyákat, címkéket és kapcsolódó médiafájlokat tartalmaznak |
+| Adatok exportálása | Pakli nyomtatása vagy mentése PDF-be | A hordozható exportok kártyákat, címkéket és kapcsolódó médiafájlokat tartalmaznak |
 | Üzemeltetés feletti kontroll | Az átnézett hivatalos oldalak nem állítják, hogy saját környezetben üzemeltethető | Nyílt forráskódú, saját környezetben is üzemeltethető |
 
-A Nibomo a táblázat szűkebb feladatkörében kínál gyakorlati alternatívát a Gizmo helyett. Jelenlegi [funkcióoldala](/hu/features/) dokumentálja az FSRS-t, az AI-val támogatott kártyakészítést, a mobilos offline tanulást és szinkronizálást, a hordozható exportokat és a saját üzemeltetést. Nem ír le a Gizmo ötformátumú Magic Importjához, Tutor-leckéihez vagy játékelemeihez hasonló funkciókat.
+A Nibomo a táblázat szűkebb feladatkörében kínál gyakorlati alternatívát a Gizmo helyett. Jelenlegi [funkcióoldala](/hu/features/) dokumentálja az FSRS-t, az AI-val támogatott kártyakészítést, a mobilos offline tanulást és szinkronizálást, a hordozható exportokat és a saját üzemeltetést. A Gizmo Tutor-leckéket, változatos kikérdezést és játékos előrehaladást is kínál.
 
 ## Mikor illik jobban hozzád a Nibomo?
 
@@ -132,11 +134,11 @@ Válaszd a Nibomót, ha egy ellenőrzött, elő- és hátlapos kártyát szeretn
 
 A Nibomo egyértelműbben dokumentálja az offline működést és az adatok exportálását. A mobilos offline tanulás automatikus szinkronizálással dokumentált funkció, a [kezdő útmutatója](/hu/docs/getting-started/) pedig leírja, hogy az iOS-kliens helyi SQLite-adatbázist és offline működésre tervezett szinkronizálást használ. A hordozható exportok kártyákat, címkéket és kapcsolódó médiafájlokat tartalmaznak, és a szolgáltatásként használt, illetve saját környezetben üzemeltetett példányok közötti átvitelre is alkalmasak.
 
-A kompromisszum a funkciók köre. A Nibomo jelenlegi oldalai nem dokumentálják a Gizmo importálási menüjét, öt kártyatípusát, Tutor által vezetett leckéit vagy jutalmazási rendszerét. Ha éppen ezek oldják meg azt a problémát, amely miatt ezt a cikket olvasod, valószínűleg a Gizmo illik jobban hozzád.
+Ha szükséged van az interaktív kérdéstípusokra, a Tutor-leckékre vagy a jutalmakra, ezekhez tartsd meg a Gizmót.
 
 ## Átköltözhetsz a Gizmóból egy másik alkalmazásba?
 
-Jelenleg nincs erre egyszerű megoldás. Mivel a Gizmo nem támogatja az exportálást, nem lehet a szokásos, fájlalapú módon a Nibomóba vagy másik alkalmazásba költözni.
+A Nibomo webalkalmazásában a **Könyvtár > Importálás > Importálás másik alkalmazásból** lehetőséggel a Gizmo PDF-jét felhasználhatod új kártyák készítéséhez az AI-csevegésben. Ezt az átvitelt a cikkhez nem próbáltam ki. Hasonlítsd össze a létrejött kártyákat az eredeti paklival. A lépéseket lásd az [importálási útmutató](/docs/import-flashcards/).
 
 A biztonságos kerülőmegoldás a fontos kártyák kézi újrakészítése:
 
@@ -147,11 +149,11 @@ A biztonságos kerülőmegoldás a fontos kártyák kézi újrakészítése:
 
 Ez lassabb egy importáló eszköznél, és nem veszteségmentes. Hasznos mellékhatása viszont, hogy csak azokat a kártyákat viszed tovább, amelyek átmentek a minőségi ellenőrzésen.
 
-Másik lehetőség a két alkalmazás együttes használata. A Gizmo segíthet feldolgozni egy előadást vagy prezentációt, és változatos gyakorlást kínálhat. A Nibomóban pedig tarthatsz egy kisebb, ellenőrzött elő- és hátlapos kártyakészletet az FSRS-alapú ismétléshez. A kettő közötti átvitel továbbra is kézi marad, mert a Gizmo nem exportálja a kártyákat.
+Másik lehetőség a két alkalmazás együttes használata. A Gizmo segíthet feldolgozni egy előadást vagy prezentációt, és változatos gyakorlást kínálhat. A Nibomóban pedig tarthatsz egy kisebb, ellenőrzött elő- és hátlapos kártyakészletet az FSRS-alapú ismétléshez.
 
 ## Melyik tanulási folyamat illik hozzád?
 
-Válaszd a Gizmót, ha rendezetlen forrásanyagból indulsz, és azt szeretnéd, hogy az alkalmazás segítsen először rendszerezni a tananyagot. Dokumentált erősségei a sokféle bemeneti forrás, az öt kártyatípus, a Tutor által vezetett tanulás, a változatos kikérdezés és a játékos előrehaladás.
+Válaszd a Gizmót, ha rendezetlen forrásanyagból indulsz, és azt szeretnéd, hogy az alkalmazás segítsen először rendszerezni a tananyagot. Dokumentált erősségei a sokféle bemeneti forrás, az hét kártyatípus, a Tutor által vezetett tanulás, a változatos kikérdezés és a játékos előrehaladás.
 
 Válaszd a Nibomót, ha már tudod, mit érdemes hosszú távra elő- és hátlapos kártyába tenni, és az FSRS, a dokumentált mobilos offline tanulás, az export vagy a saját üzemeltetés fontosabb számodra a kikérdezés változatosságánál és a jutalmaknál.
 

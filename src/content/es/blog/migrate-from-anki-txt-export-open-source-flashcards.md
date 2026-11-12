@@ -20,7 +20,7 @@ Cada archivo resuelve un problema distinto. El paquete de la colección es tu v�
 
 Este proceso está pensado para mazos basados en texto y aplicaciones capaces de trabajar con TXT o CSV. La exportación de texto no conserva el estado de programación de Anki, las plantillas, los complementos ni los archivos multimedia. Primero probarás un mazo representativo, revisarás todos los campos y mantendrás intacta la colección original hasta obtener un resultado que puedas usar con confianza.
 
-> **¿Te pasas a Nibomo?** Ahora la vía principal es el propio `.apkg` del mazo: adjúntalo en el chat con IA de Nibomo y pídele que convierta el mazo en tarjetas. [Cómo importar un `.apkg` de Anki en Nibomo](/blog/import-anki-apkg/) explica el proceso. Este flujo con TXT es la opción más antigua y complementaria. Sigue siendo útil cuando quieres controlar tú mismo la correspondencia de campos o cuando la aplicación de destino solo lee texto.
+> **¿Te pasas a Nibomo?** En la app web, **Biblioteca → Importar → Importar desde Anki** envía un archivo `.apkg` o `.colpkg` al chat con IA para crear tarjetas. Empieza con un `.apkg` pequeño. El flujo con TXT que sigue te permite decidir cómo asignar los campos y también sirve para destinos que solo aceptan texto.
 
 > **Aviso:** Soy Kirill Markin y desarrollo [Nibomo](https://nibomo.com/). Esta guía deja claro cuándo conviene seguir usando Anki o elegir una aplicación que importe archivos `.apkg`.
 
@@ -170,7 +170,7 @@ Si la prueba falla, elimina las tarjetas temporales mediante el proceso de limpi
 
 ## Cómo usar el archivo TXT con Nibomo
 
-Nibomo no tiene un importador de Anki de un solo clic. Su chat con IA puede leer un `.apkg` adjunto, que es la vía más sencilla y la que describe la [guía de importación de `.apkg`](/blog/import-anki-apkg/). No acepta `.colpkg`, y ninguna de las dos vías reconstruye las plantillas ni el historial de repasos de Anki. Usa el archivo TXT cuando quieras decidir tú cada correspondencia de campos.
+En la app web, **Biblioteca → Importar → Importar desde Anki** acepta archivos `.apkg` y `.colpkg` para crear tarjetas con IA. Las plantillas y el historial de repasos se quedan en Anki. Consulta la [guía de importación](/docs/import-flashcards/). Usa el archivo TXT si prefieres asignar los campos uno por uno.
 
 Con un archivo TXT, la opción en la aplicación alojada es crear borradores con ayuda de la IA a partir de archivos adjuntos. Abre la [aplicación alojada siguiendo la guía de primeros pasos](/es/docs/getting-started/), adjunta el TXT o un CSV preparado con cuidado en el chat de IA y pide expresamente un borrador pequeño sin guardar nada. Revisa las tarjetas propuestas en el chat y, solo entonces, pide al asistente que guarde el lote aprobado.
 

@@ -40,6 +40,7 @@ const STATIC_ROUTE_PATHNAMES: ReadonlyArray<string> = [
 ] as const;
 const PREFERRED_DOC_SLUG_ORDER: ReadonlyArray<string> = [
   "getting-started",
+  "import-flashcards",
   "self-hosting",
   "api",
   "mcp-connector",

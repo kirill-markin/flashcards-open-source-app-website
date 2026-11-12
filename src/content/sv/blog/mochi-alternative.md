@@ -165,6 +165,8 @@ Mochis [guide till säkerhetskopiering](https://mochi.cards/docs/getting-started
 - En kopia av hela användarkatalogen bevarar innehåll, repetitionshistorik, bilagor, appinställningar och inloggningsstatus.
 - En `.mochi`-export bevarar kortlekar, kort, mallar och fält, bilagor, taggar och metadata, repetitionshistorik, kortordning och kortleksstruktur.
 
+Vill du prova en kortlek från Mochi i Nibomo? Öppna **Bibliotek > Importera > Importera från Mochi** i webbappen och välj en `.mochi`-fil. Filen skickas till AI-chatten. Kontrollera kortens innehåll och medier. Spara originalfilen för att kunna återställa mallar och repetitionshistorik i Mochi. Se [guiden för kortimport](/sv/docs/import-flashcards/).
+
 Mochis [Markdown- och CSV-exporter](https://mochi.cards/docs/import-and-export/exporting/) är format för att flytta innehåll. Markdown skapar en fil per kort och mappar för underkortlekar, men tar inte med repetitionshistorik, kortordning eller mallar. Metadatataggar går också förlorade om de inte finns i Markdown-texten. CSV kan exportera mallfält eller återgivna fram- och baksidor, men bevarar inte repetitionshistorik eller mallar, och inte heller metadatataggar om de inte är inbäddade i innehållet.
 
 Anki gör en liknande åtskillnad:

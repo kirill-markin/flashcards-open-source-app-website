@@ -93,7 +93,7 @@ Nibomo, aynı sınırlı ve kullanıcıya özel veri kapsamına erişmek için i
 
 Her iki yol da çalışma alanıyla sınırlıdır. Yayımlanan kaynaklar `workspace`, `cards`, `decks` ve `review_events` olarak tanımlanır; sonuçlar, her ifade için en fazla 100 satırla sınırlıdır. SQL benzeri arayüz, doğrudan PostgreSQL değil, sınırlı bir SQL lehçesidir. OpenAPI şeması yoktur; dolayısıyla OpenAPI şemasından üretilen istemcilere dayanan akışlar için farklı bir arayüz gerekir.
 
-Bu, bir geliştiricinin veya yapay zekâ ajanının kendi kartlarıyla yaptığı işlemleri otomatikleştirmesine yardımcı olabilir. Bir Quizlet URL'sini okuyamaz, Quizlet hesabını kopyalayıp eşitleyemez veya belgelenmemiş bir Quizlet istemcisi gibi çalışamaz. Otomatik Quizlet içe aktarıcısı yoktur. Taşıma için önce kendi setinizdeki terim ve tanımları dışa aktarın, metni gözden geçirin ve ardından hedef sistemin kart alanlarıyla eşleştirin. Hedef sistem kendi çalışma durumunu oluşturur; Quizlet geçmişi taşınmaz.
+Bu, bir geliştiricinin veya yapay zekâ ajanının kendi kartlarıyla yaptığı işlemleri otomatikleştirmesine yardımcı olabilir. Agent API ve MCP, Quizlet URL’si okuyamaz veya Quizlet hesabını eşitleyemez. Bir defalık aktarım için Nibomo’nun web uygulamasında **Kitaplık > İçe aktar > Quizlet uygulamasından içe aktar** yolunu izleyin. Dışa aktarılan metni yapıştırın ve **İçe aktarmayı başlat**’ı seçin. Yapay zekâ sohbeti kartları hemen kaydedebilir; oluşan kartları kaynakla karşılaştırın. Yeni kartlar Quizlet’teki çalışma geçmişini taşımaz. Diğer seçenekler için [kart içe aktarma rehberine](/docs/import-flashcards/) bakın.
 
 API erişimi dışındaki ürün farkları için [açık kaynaklı Quizlet alternatifi karşılaştırmasına](/blog/quizlet-alternative/) bakın.
 

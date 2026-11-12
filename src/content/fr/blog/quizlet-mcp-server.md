@@ -86,7 +86,7 @@ Cela ne fait pas de Nibomo un connecteur Quizlet. Le parcours pris en charge con
 
 1. exporter le texte d’une liste Quizlet dont vous êtes le créateur ;
 2. conserver le fichier brut et examiner une copie de travail ;
-3. vérifier les cartes obtenues après la mise en correspondance des champs avant de les enregistrer dans Nibomo ;
+3. coller le texte dans l’option d’importation depuis Quizlet de l’application web Nibomo et vérifier les cartes enregistrées ;
 4. connecter l’espace de travail Nibomo obtenu à un client compatible pour les lectures et écritures futures.
 
 Pour Claude, les étapes de connexion figurent dans [Comment connecter Nibomo à Claude avec MCP](/fr/blog/how-to-connect-flashcards-to-claude-with-mcp/). Codex et les autres agents peuvent utiliser le parcours MCP ou Agent API documenté que leur environnement prend en charge.

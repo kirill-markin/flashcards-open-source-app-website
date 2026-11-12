@@ -111,7 +111,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Importera, exportera och äg dina data",
           description:
-            "Flytta in eller ut ditt studiematerial när du vill. Flyttbara exporter innehåller dina kort, taggar och tillhörande media.",
+            "Ta med dina kort från Quizlet, Anki och andra appar. Exportera dina kort, taggar och medier från Nibomo när du vill.",
+          link: {
+            label: "Så importerar du kort",
+            href: "/sv/docs/import-flashcards/",
+          },
         },
         {
           title: "Fungerar med AI-agenter",

@@ -132,7 +132,7 @@ Compara los productos a partir de tus requisitos. Una interfaz conocida, un enla
 
 Nibomo tiene una [guía de autoalojamiento centrada en AWS](/es/docs/self-hosting/), no un instalador local de un solo clic. Quien lo opera se hace cargo de las cuentas en la nube, la autenticación, la entrega de correo electrónico, la monitorización, las copias de seguridad, las actualizaciones y las compilaciones de las aplicaciones nativas.
 
-No es compatible con Quizlet. No hay un importador de Quizlet de un solo clic y Nibomo no reproduce todos sus juegos ni su ecosistema para clases. Puedes usar una exportación de texto de Quizlet ya revisada como material de partida para crear tarjetas nuevas, pero eso es un proceso de migración, no compatibilidad con los conjuntos ni con el historial de estudio de Quizlet.
+En la app web de Nibomo, **Biblioteca → Importar → Importar desde Quizlet** envía el texto de una exportación de Quizlet al chat con IA para crear tarjetas. Las imágenes, el historial de estudio, los juegos y las funciones para el aula se quedan en Quizlet.
 
 Plantéate Nibomo si el código fuente de toda la pila, la licencia MIT, una API y un despliegue bajo el control de quien lo opera importan lo suficiente como para aceptar esos límites. Valora otras [aplicaciones de tarjetas de código abierto](/es/blog/best-open-source-flashcard-apps-2026/) si das más importancia a un ecosistema de escritorio maduro, la importación directa o un autoalojamiento menos exigente.
 

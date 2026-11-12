@@ -104,18 +104,13 @@ So erstellst du aus dem Quizlet-Export eine verlässliche CSV-Datei:
 
 Ein Tabellenprogramm kann die Anführungszeichen ergänzen, die CSV benötigt. Tabulatoren pauschal durch Kommas zu ersetzen schafft das nicht zuverlässig.
 
-## Nutze den Text in Nibomo zunächst als zu prüfenden Entwurf
+## Quizlet-Text in Nibomo importieren
 
-[Nibomo](/features/) hat keinen direkten Quizlet-Importer. In der Web-App kannst du eine TXT- oder CSV-Datei an den KI-Chat anhängen und daraus Kartenentwürfe erstellen lassen. Das ist keine verlustfreie Migration.
+Öffne in der Nibomo-Web-App **Bibliothek > Import > Aus Quizlet importieren**. Füge den kopierten Text ein und wähle **Import starten**. Nibomo sendet den Text an den KI-Chat, der daraus neue Karten erstellt. Gleiche die gespeicherten Karten mit dem Original ab. Bilder, Lernverlauf und Fälligkeitstermine bleiben in Quizlet.
 
-1. Bewahre die rohe Quizlet-Datei außerhalb der App auf.
-2. Hänge die bereinigte TXT-Datei oder die gezielt erstellte CSV-Datei im KI-Chat von Nibomo an.
-3. Erkläre dem Assistenten, welche Felder und welches Trennzeichen die Datei verwendet.
-4. Bitte zunächst um eine kleine Vorschau und sage ausdrücklich, dass noch keine Karten gespeichert werden sollen.
-5. Vergleiche die vorgeschlagene Kartenzahl sowie Vorder- und Rückseiten mit der Arbeitsdatei.
-6. Speichere nur die Karten, die du geprüft hast.
+Melde dich zuerst bei Nibomo an. Wenn du die Karten vor dem Speichern prüfen möchtest, kopiere aus dem Tabellenprogramm nur die beiden Spalten für Begriff und Definition ohne Kopfzeile. Verwende ein Paar pro Zeile und entferne Tabulatoren und Zeilenumbrüche innerhalb der Zellen. Füge den Text unter **Aus einer Tabelle importieren** ein und stelle die Trennzeichen passend zum Text ein. Bei kopierten Zellen sind das meist ein Tabulator zwischen Begriff und Definition und ein Zeilenumbruch zwischen Karten. Öffne eine CSV mit Feldern in Anführungszeichen zuerst im Tabellenprogramm. Beim Import eingefügter Texte werden CSV-Anführungszeichen nicht ausgewertet.
 
-Der [Leitfaden für den Einstieg](/docs/getting-started/) beschreibt den KI-Chat mit Workspace-Daten und Dateianhängen. Ein vorsichtiger Prompt könnte so aussehen:
+Soll die KI den Inhalt überarbeiten oder dir vor dem Speichern eine Stichprobe zeigen, hänge die TXT- oder CSV-Datei in einem neuen KI-Chat an und bitte ausdrücklich darum. Gib das genaue Trennzeichen zwischen Begriff und Definition an, etwa ein Komma oder Semikolon. Für eine tabulatorgetrennte Datei kannst du diese Anfrage verwenden.
 
 > Lies diese Datei als tabulatorgetrennte Paare aus Begriff und Definition. Speichere noch keine Karten. Erstelle zunächst eine kleine Stichprobe, behalte den Wortlaut der Quelle und nichtlateinische Zeichen bei und führe fehlerhafte, leere oder mehrdeutige Zeilen separat auf, statt zu raten.
 

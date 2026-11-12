@@ -19,7 +19,7 @@ See järeldus puudutab Quizleti avalikku dokumentatsiooni, mitte ettevõtte sise
 
 **Faktid kontrollitud:** 18. augustil 2026.
 
-> **Minu seos Nibomoga:** Olen Kirill Markin ja arendan Nibomot, mille Agent API-t ja MCP-serverit tutvustan allpool alternatiividena. Nibomo ei ühildu Quizletiga ega impordi Quizleti komplekte automaatselt.
+> **Minu seos Nibomoga:** Olen Kirill Markin ja arendan Nibomot, mille Agent API-t ja MCP-serverit tutvustan allpool alternatiividena. Agent API ja MCP-server töötavad sinu Nibomo tööruumis. Quizleti kaartide üleviimiseks ekspordi kõigepealt oma kogumi tekst.
 
 ![Arendaja võrdleb Quizleti eksporti, manustamist, konkreetsete toodete integratsioone ja dokumenteeritud õpikaartide API-t](/blog/quizlet-api.png)
 
@@ -93,7 +93,7 @@ Kaheksas tööriist, `get_usage_limits`, võimaldab üksnes vaadata konto pakett
 
 Mõlemad juurdepääsuviisid toimivad ühe tööruumi piires. Avaldatud ressursid on `workspace`, `cards`, `decks` ja `review_events` ning iga SQL-lause tulemus on piiratud 100 reaga. SQL-i laadne liides kasutab piiratud dialekti, mitte täielikku PostgreSQL-i. OpenAPI skeem puudub, seega vajavad genereeritud OpenAPI klientidest sõltuvad töövood teist liidest.
 
-See võib aidata arendajal või AI-agendil automatiseerida endale kuuluvate õpikaartidega töötamist. Selle abil ei saa Quizleti URL-ilt andmeid lugeda, Quizleti kontot peegeldada ega Quizleti dokumenteerimata liideseid kasutada. Automaatne import Quizletist puudub. Üleviimiseks ekspordi kõigepealt oma komplekti mõisted ja definitsioonid, vaata tekst üle ning vastenda seejärel andmed sihtsüsteemi kaardiväljadega. Sihtsüsteem loob õppimise jälgimiseks oma andmed; Quizleti ajalugu kaasa ei tule.
+See võib aidata arendajal või AI-agendil automatiseerida endale kuuluvate õpikaartidega töötamist. Selle abil ei saa Quizleti URL-ilt andmeid lugeda, Quizleti kontot peegeldada ega Quizleti dokumenteerimata liideseid kasutada. Kleebi eksporditud tekst veebirakenduse Quizleti impordivaatesse. AI loob sellest uued kaardid. Vaata salvestatud kaardid üle.
 
 Muude tooteerinevuste kohta peale API-juurdepääsu loe [avatud lähtekoodiga Quizleti alternatiivi võrdlust](/blog/quizlet-alternative/).
 

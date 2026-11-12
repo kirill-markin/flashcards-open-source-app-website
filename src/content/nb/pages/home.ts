@@ -111,7 +111,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Importer, eksporter og eier dataene dine",
           description:
-            "Flytt læringsmateriellet ditt inn eller ut når du vil. Portable eksporter inneholder kortene, taggene og tilhørende medier.",
+            "Ta med kort fra Quizlet, Anki og andre apper. Eksporter kortene, etikettene og mediene dine fra Nibomo når du vil.",
+          link: {
+            label: "Slik importerer du puggekort",
+            href: "/docs/import-flashcards/",
+          },
         },
         {
           title: "Fungerer med AI-agenter",

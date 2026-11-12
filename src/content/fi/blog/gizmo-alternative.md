@@ -65,11 +65,11 @@ Gizmon nykyinen [korttityyppien dokumentaatio](https://help.gizmo.ai/en/articles
 | --- | --- | --- |
 | **Card text** (tekstikortti) | Tekstiä tai LaTeXia; kysymykset kohdistuvat korostettuihin sanoihin, tai vaihtoehtoisesti kortin etu- ja kääntöpuoli paljastetaan vuorotellen | Käsin tai Magic Importilla |
 | **Multiple choice** (monivalinta) | Kysymys, johon luodaan vastausvaihtoehdot; muokatessa voi lisätä vääriä vaihtoehtoja | Käsin tai Magic Importilla |
-| **Matching** (parien yhdistäminen) | Pareja, jotka Gizmo sekoittaa uudelleen yhdistettäviksi | Vain Magic Importilla |
-| **Ordering** (järjestäminen) | Osia, jotka Gizmo sekoittaa ja jotka järjestät takaisin oikeaan järjestykseen | Vain Magic Importilla |
+| **Matching** (parien yhdistäminen) | Pareja, jotka Gizmo sekoittaa uudelleen yhdistettäviksi | Käsin tai Magic Importilla |
+| **Ordering** (järjestäminen) | Osia, jotka Gizmo sekoittaa ja jotka järjestät takaisin oikeaan järjestykseen | Käsin tai Magic Importilla |
 | **True/False** (oikein/väärin) | Väittämä, jonka arvioit oikeaksi tai vääräksi | Käsin tai Magic Importilla |
 
-Valikoima on tavallista kaksipuolisten korttien pakkaa laajempi. Magic Importilla on myös oma roolinsa: Matching- ja Ordering-kortteja voi tällä hetkellä luoda vain sillä.
+Parien yhdistämis- ja järjestämiskortteja voi luoda käsin tai Magic Importilla.
 
 Ohjeissa on yksi ristiriita. Korttityyppien sivun mukaan Card text -kortin etu- ja kääntöpuolella voi olla kuvia. Gizmon [korttien hallintaohje](https://help.gizmo.ai/en/articles/13761411-how-do-i-edit-or-manage-my-cards) sanoo, että valokuvia ja muita kuvia voi lisätä vain etupuolelle. Jos kääntöpuolen kuvat ovat sinulle tärkeitä, tarkista nykyinen muokkausnäkymä ennen pakan tekemistä. Näiden kahden virallisen sivun perusteella ei voi antaa varmaa vastausta.
 
@@ -97,11 +97,9 @@ Gizmon [korttien hallintaohjeen](https://help.gizmo.ai/en/articles/13761411-how-
 
 Rajoitus tulee vastaan Memorise-tilassa: voit poistaa kortin, mutta et tällä hetkellä muokata sitä kesken harjoittelun. Jos huomaat opiskellessasi virheellisen vastauksen, sinun täytyy poistua harjoittelunäkymästä korjataksesi sen.
 
-### Gizmosta ei voi viedä kortteja
+### Gizmon kortit voi tulostaa tai tallentaa PDF-tiedostoon
 
-Sama virallinen ohje kertoo, ettei korttien vienti ole vielä käytettävissä. Gizmon [pakkojen hallintaohjeen](https://help.gizmo.ai/en/articles/12995587-how-do-i-make-changes-to-my-decks) mukaan myöskään pakkojen vienti ei ole mahdollista.
-
-Tämä on nykyisen työnkulun selkein rajoitus omien tietojen hallinnassa. Gizmo hyväksyy aineistoa useista muista järjestelmistä, mutta ei tällä hetkellä tarjoa dokumentoitua tapaa siirtää luotuja kortteja ulos. Jos myöhempi sovelluksen vaihtaminen on sinulle tärkeää, arvioi tuotetta tämän nykyisen rajoituksen perusteella, älä mahdollisen tulevan vientitoiminnon varassa.
+Avaa pakan valikko, valitse **Print** ja tallenna tiedosto PDF-muodossa selaimen tulostusikkunassa. Katso [Gizmon PDF-vientiohje](https://help.gizmo.ai/en/articles/18228622-how-do-i-export-print-or-download-my-cards-as-a-pdf). Säilytä alkuperäinen pakka, jos haluat muokata kortteja tai säilyttää kertaushistorian.
 
 ### Offline-käyttöä ei ole dokumentoitu riittävän selvästi, jotta sitä voisi luvata
 
@@ -121,7 +119,7 @@ Ero on olennainen, koska ”ladattu näkymä reagoi edelleen” ja ”kertaushis
 | Kertaustapa | Memorise, aikavälikertaus ja monipuoliset kysymystyypit | FSRS-aikavälikertaus |
 | Motivointikeinot | XP, Levels, Leagues, Streaks, Hearts, Hints ja Coins | Nykyiset tuotesivut eivät dokumentoi vastaavaa pelillistä kokonaisuutta |
 | Offline-käytöstä löytyvät tiedot | Tarkistetuista ohjeista ei löytynyt virallista lupausta offline-käytöstä | Mobiililaitteiden offline-opiskelu ja automaattinen synkronointi ovat dokumentoituja ominaisuuksia |
-| Tietojen siirtäminen ulos | Korttien ja pakkojen vienti ei tällä hetkellä ole käytettävissä | Siirrettävät vientitiedostot sisältävät kortit, tunnisteet ja niihin liittyvän median |
+| Tietojen siirtäminen ulos | Pakan tulostus tai tallennus PDF-tiedostoon | Siirrettävät vientitiedostot sisältävät kortit, tunnisteet ja niihin liittyvän median |
 | Ylläpidon hallinta | Tarkistetuilla virallisilla sivuilla ei luvata itseylläpitoa | Avoin lähdekoodi; sovellusta voi ylläpitää itse |
 
 Nibomo on käytännöllinen vaihtoehto Gizmolle, jos taulukossa kuvattu rajatumpi käyttötapa riittää sinulle. Sen nykyinen [ominaisuussivu](/fi/features/) dokumentoi FSRS:n, korttien luomisen tekoälyn avulla, mobiililaitteiden offline-opiskelun ja synkronoinnin, siirrettävät vientitiedostot sekä itseylläpidon. Se ei kuvaa vastinetta Gizmon viittä korttimuotoa käyttävälle Magic Importille, Tutor-oppitunneille tai pelillisyydelle.
@@ -136,9 +134,9 @@ Samalla Nibomon ominaisuusvalikoima on suppeampi. Nibomon nykyiset sivut eivät 
 
 ## Voiko Gizmosta siirtyä toiseen sovellukseen?
 
-Sujuvaa siirtotapaa ei tällä hetkellä ole. Koska Gizmo ei tarjoa vientiä, siitä ei voi siirtyä Nibomoon tai muuhun sovellukseen tavallisella tiedostopohjaisella siirrolla.
+Valitse Nibomon verkkosovelluksessa **Kirjasto → Tuonti → Tuo toisesta sovelluksesta** ja avaa PDF, josta tekoälykeskustelu voi luoda uusia kortteja. Gizmon PDF-siirtoa ei testattu tätä arviota varten. Vertaa tulosta alkuperäiseen pakkaan. Katso [tuontiopas](/docs/import-flashcards/).
 
-Turvallinen kiertotapa on tehdä siirto käsin ja valikoiden:
+Jos kysymykset vaativat Gizmon vuorovaikutteisia korttityyppejä, tee tarvittavat kortit uudelleen:
 
 1. Pidä alkuperäinen luento, muistiinpanot, diat tai muu lähdeaineisto vierelläsi.
 2. Luo uudelleen vain ne kortit, jotka ovat yhä oikein ja hyödyllisiä.
@@ -147,7 +145,7 @@ Turvallinen kiertotapa on tehdä siirto käsin ja valikoiden:
 
 Tämä on tuontitoimintoa hitaampaa, eikä kaikki tieto säily. Hyödyllinen sivuvaikutus on, että viet mukanasi vain laaduntarkistuksen läpäisseet kortit.
 
-Voit myös käyttää molempia sovelluksia. Gizmo voi auttaa jäsentämään luennon tai esityksen ja tarjota monipuolista harjoittelua. Nibomossa voit säilyttää pienemmän joukon tarkistettuja kaksipuolisia kortteja FSRS-kertausta varten. Siirto sovellusten välillä pysyy käsityönä, koska Gizmosta ei voi viedä kortteja.
+Voit myös käyttää molempia sovelluksia. Gizmo voi auttaa jäsentämään luennon tai esityksen ja tarjota monipuolista harjoittelua. Nibomossa voit säilyttää pienemmän joukon tarkistettuja kaksipuolisia kortteja FSRS-kertausta varten.
 
 ## Kumpi tapa opiskella sopii sinulle?
 

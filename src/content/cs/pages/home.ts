@@ -111,7 +111,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Import, export a vlastnictví vašich dat",
           description:
-            "Své studijní materiály přesunete dovnitř i ven, kdykoli chcete. Přenositelné exporty obsahují kartičky, štítky i související média.",
+            "Přeneste si kartičky z Quizletu, Anki a dalších aplikací. Své kartičky, štítky a média můžete z Nibomo kdykoli exportovat.",
+          link: {
+            label: "Podívejte se, jak importovat kartičky",
+            href: "/docs/import-flashcards/",
+          },
         },
         {
           title: "Spolupráce s AI agenty",

@@ -44,6 +44,10 @@ Nejrychleji začnete s hostovanou webovou aplikací:
 
 Hostovaná varianta nevyžaduje žádnou instalaci ani nastavení serveru.
 
+## Přeneste si kartičky do Nibomo
+
+Máte kartičky v Quizletu, Anki nebo jiné aplikaci? Otevřete **Knihovna > Import** a podle [návodu k importu kartiček](/docs/import-flashcards/) vyberte správný formát a zjistěte, co se přenese.
+
 ## Nastavení agenta
 
 MCP klienti jako Claude, ChatGPT a Cursor se mohou připojit podle [návodu k MCP konektoru](/docs/mcp-connector/).

@@ -165,6 +165,8 @@ Pred akýmkoľvek presunom si uchovajte zálohu, z ktorej dokážete obnoviť p�
 - Skopírovanie celého používateľského adresára zachová obsah, históriu opakovania, prílohy, nastavenia aplikácie aj stav prihlásenia.
 - Export `.mochi` zachová balíčky, kartičky, šablóny a polia, prílohy, značky a metadáta, históriu opakovania, poradie kartičiek aj štruktúru balíčkov.
 
+Ak chcete v Nibomo vyskúšať balíček z Mochi, vo webovej aplikácii otvorte **Knižnica > Import > Importovať z aplikácie Mochi** a vyberte súbor `.mochi`. Súbor sa odošle do AI chatu. Skontrolujte obsah kartičiek a médiá. Pôvodný súbor si nechajte na obnovu šablón a histórie opakovania v Mochi. Pozrite si [návod na import kartičiek](/sk/docs/import-flashcards/).
+
 [Exporty Mochi do Markdownu a CSV](https://mochi.cards/docs/import-and-export/exporting/) slúžia na prenos obsahu medzi aplikáciami. Markdown vytvorí jeden súbor pre každú kartičku a priečinky pre podbalíčky, ale vynechá históriu opakovaní, poradie kartičiek aj šablóny. Značky z metadát sa prenesú len vtedy, ak sú zapísané aj priamo v Markdowne. CSV dokáže exportovať polia šablóny alebo vykreslené predné a zadné strany, no nezachová históriu opakovaní ani šablóny. Ani v CSV sa značky z metadát neprenesú, ak nie sú vložené do obsahu.
 
 Anki rozlišuje podobne:

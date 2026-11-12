@@ -88,14 +88,14 @@ It also means you do not need a magical block type or a fragile integration befo
 
 For most pages, I would use one of two paths:
 
-- export the page as PDF or HTML/Markdown if you want the structure preserved
+- Export the page as PDF or **Markdown & CSV**. For a ZIP download, open it and select the relevant Markdown file or CSV. [Notion's export instructions](https://www.notion.com/help/export-your-content)
 - copy the clean text directly if the page is short and already readable
 
 That is enough.
 
 You do not need to over-engineer the first step. You just need the material in a form where AI can read it and suggest candidate cards.
 
-This is one reason the workflow pairs naturally with Nibomo. The app already supports AI chat, file attachments, and plain text uploads, so the path from exported Notion material to card draft is straightforward instead of theatrical.
+Attach the PDF or Markdown file in Nibomo AI chat to specify which sections to use. If you already have a clean two-column question-and-answer table, sign in to Nibomo and use **Library → Import → Import from a spreadsheet** in the web app to paste the pairs and preview the cards.
 
 ## Notion toggles are useful, but they are not automatically good flashcards
 

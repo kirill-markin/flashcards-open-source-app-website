@@ -166,6 +166,7 @@ Než cokoli přesunete, vytvořte zálohu, ze které lze obnovit původní syst�
 - Export `.mochi` zachová balíčky, kartičky, šablony a pole, přílohy, štítky a metadata, historii opakování, pořadí kartiček a strukturu balíčků.
 
 [Exporty Mochi do Markdownu a CSV](https://mochi.cards/docs/import-and-export/exporting/) slouží k přenositelnosti dat. Markdown vytváří jeden soubor pro každou kartičku a složky pro podbalíčky, ale vynechává historii opakování, pořadí kartiček, šablony a štítky z metadat, pokud nejsou štítky součástí Markdownu. CSV dokáže exportovat pole šablon nebo vykreslenou přední a zadní stranu, ale nezachovává historii opakování ani šablony. Štítky z metadat se přenesou jen tehdy, pokud jsou vložené do obsahu.
+Pokud chcete balíček z Mochi vyzkoušet v Nibomo, přejděte ve webové aplikaci do **Knihovna > Import > Importovat z aplikace Mochi** a vyberte soubor `.mochi`. Soubor se odešle do chatu s AI, který vytvoří nové kartičky. Zkontrolujte obsah a média. Původní soubor si ponechte k obnovení šablon a historie opakování v Mochi.
 
 Anki rozlišuje podobně:
 

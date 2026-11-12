@@ -111,7 +111,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Ngenisa, ukhiphe, futhi ube ngumnikazi wedatha yakho",
           description:
-            "Hambisa izinto zakho zokufunda ngaphakathi noma ngaphandle noma nini uma uthanda. Okukhishwayo kufaka amakhadi akho, amathegi nemidiya ehambisanayo.",
+            "Letha amakhadi asuka ku-Quizlet, ku-Anki nakwezinye izinhlelo. Ungakhipha amakhadi akho e-Nibomo, amathegi nemidiya noma nini.",
+          link: {
+            label: "Bona ukuthi angeniswa kanjani amakhadi",
+            href: "/docs/import-flashcards/",
+          },
         },
         {
           title: "Isebenza nama-ejenti e-AI",

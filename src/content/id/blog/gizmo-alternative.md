@@ -18,7 +18,7 @@ Jika Anda ingin mengimpor catatan selama seminggu sekaligus ke Gizmo secara grat
 
 Ulasan kartu belajar Gizmo ini didasarkan pada halaman bantuan resmi yang tersedia saat ini. Saya belum menguji Gizmo secara langsung, jadi saya membatasi klaim tentang produk pada hal yang didokumentasikan Gizmo dan menjelaskan bagian yang masih belum pasti.
 
-> **Pengungkapan:** Saya Kirill Markin, pembuat [Nibomo](https://nibomo.com/id/), alternatif yang dibandingkan di bawah. Alur belajar yang didokumentasikan Gizmo lebih luas: lebih banyak format sumber, lima jenis kartu, pelajaran AI Tutor, kuis yang beragam, dan sistem kemajuan seperti dalam permainan. Nibomo sengaja memiliki cakupan yang lebih sempit.
+> **Pengungkapan:** Saya Kirill Markin, pembuat [Nibomo](https://nibomo.com/id/), alternatif yang dibandingkan di bawah. Alur belajar yang didokumentasikan Gizmo lebih luas: lebih banyak format sumber, tujuh jenis kartu, pelajaran AI Tutor, kuis yang beragam, dan sistem kemajuan seperti dalam permainan. Nibomo sengaja memiliki cakupan yang lebih sempit.
 
 **Fakta diperiksa:** 1 September 2026.
 
@@ -57,21 +57,23 @@ AI Tutor juga memiliki jalur impor. [Panduan resmi impor pelajaran](https://help
 
 Kedua daftar sumber yang didokumentasikan tersebut tidak sama. Anki, spreadsheet, dan situs web tercantum dalam panduan pembuatan kartu; YouTube dan dek Gizmo yang sudah ada tercantum dalam panduan pelajaran Tutor. Periksa jalur yang benar-benar Anda butuhkan, alih-alih menganggap setiap jenis masukan tersedia di kedua menu.
 
-## Gizmo memiliki lima jenis kartu
+## Gizmo memiliki tujuh jenis kartu
 
-[Dokumentasi jenis kartu](https://help.gizmo.ai/en/articles/16527223-what-types-of-flashcards-can-i-make) Gizmo saat ini mencantumkan lima format:
+[Dokumentasi jenis kartu](https://help.gizmo.ai/en/articles/16527223-what-types-of-flashcards-can-i-make) Gizmo saat ini mencantumkan tujuh format:
 
 | Jenis kartu | Apa yang diuji | Cara membuatnya |
 | --- | --- | --- |
-| **Card text** (Teks kartu) | Teks atau LaTeX, dengan kata yang disorot sebagai sasaran kuis atau opsi membuka sisi depan dan belakang | Secara manual atau dengan Magic Import |
-| **Multiple choice** (Pilihan ganda) | Pertanyaan dengan pilihan jawaban yang dihasilkan otomatis; Anda dapat menambahkan pilihan jawaban salah saat mengedit | Secara manual atau dengan Magic Import |
-| **Matching** (Mencocokkan) | Pasangan yang diacak Gizmo untuk Anda cocokkan kembali | Hanya dengan Magic Import |
-| **Ordering** (Mengurutkan) | Butir-butir yang diacak Gizmo untuk Anda kembalikan ke urutan semula | Hanya dengan Magic Import |
-| **True/False** (Benar/Salah) | Pernyataan yang Anda nilai benar atau salah | Secara manual atau dengan Magic Import |
+| **Q&A** | Pertanyaan dan jawaban yang bisa berisi teks atau LaTeX | Secara manual atau dengan Magic Import |
+| **Multi-select** | Pertanyaan dengan satu atau beberapa jawaban benar | Secara manual atau dengan Magic Import |
+| **Fill the blanks** | Kata yang disorot dalam bacaan dan harus diisi saat kuis | Secara manual atau dengan Magic Import |
+| **Match pairs** (Mencocokkan) | Pasangan yang diacak Gizmo untuk Anda cocokkan kembali | Secara manual atau dengan Magic Import |
+| **Order items** (Mengurutkan) | Butir-butir yang diacak Gizmo untuk Anda kembalikan ke urutan semula | Secara manual atau dengan Magic Import |
+| **True or False** (Benar/Salah) | Pernyataan yang Anda nilai benar atau salah | Secara manual atau dengan Magic Import |
+| **Image question** | Label pada diagram atau foto yang harus ditebak | Secara manual |
 
-Cakupannya lebih luas daripada dek sederhana dengan sisi depan dan belakang. Magic Import juga bukan sekadar jalan pintas: Matching dan Ordering saat ini hanya bisa dibuat melalui Magic Import.
+Soal mencocokkan pasangan dan mengurutkan item juga bisa dibuat secara manual.
 
-Ada satu pertentangan dalam dokumentasi yang perlu disebutkan. Halaman jenis kartu menyatakan bahwa Card text dapat memuat gambar di sisi depan dan belakang. Namun, [panduan pengelolaan kartu](https://help.gizmo.ai/en/articles/13761411-how-do-i-edit-or-manage-my-cards) Gizmo menyatakan bahwa foto dan gambar hanya bisa ditambahkan di sisi depan. Jika gambar di sisi belakang penting bagi Anda, periksa editor yang tersedia saat ini sebelum membuat dek. Kedua halaman resmi itu belum memberi dasar untuk jawaban yang lebih pasti.
+Ada satu pertentangan dalam dokumentasi yang perlu disebutkan. Halaman jenis kartu menyatakan bahwa Q&A dapat memuat gambar di sisi depan dan belakang. Namun, [panduan pengelolaan kartu](https://help.gizmo.ai/en/articles/13761411-how-do-i-edit-or-manage-my-cards) Gizmo menyatakan bahwa foto dan gambar hanya bisa ditambahkan di sisi depan. Jika gambar di sisi belakang penting bagi Anda, periksa editor yang tersedia saat ini sebelum membuat dek. Kedua halaman resmi itu belum memberi dasar untuk jawaban yang lebih pasti.
 
 Gizmo juga menjelaskan bahwa pengaturan kuis memengaruhi gaya pertanyaan yang Anda lihat. Format kartu yang disimpan dan cara kuis mengujinya saling berkaitan, tetapi tidak sama persis.
 
@@ -97,11 +99,11 @@ Gizmo secara tegas menyarankan Anda memeriksa dek setelah Magic Import dan memba
 
 Batasnya terlihat saat menggunakan Memorise: Anda dapat menghapus kartu di sana, tetapi saat ini tidak bisa mengeditnya di tengah kuis. Jika Anda menemukan jawaban yang keliru saat belajar, Anda perlu keluar dari alur tersebut untuk memperbaikinya.
 
-### Ekspor Gizmo belum tersedia
+### Kartu Gizmo bisa dicetak atau disimpan sebagai PDF
 
-Panduan resmi yang sama menyatakan bahwa ekspor kartu belum tersedia. [Panduan pengelolaan dek](https://help.gizmo.ai/en/articles/12995587-how-do-i-make-changes-to-my-decks) Gizmo juga menyatakan bahwa ekspor dek belum tersedia.
+Buka menu dek, pilih **Print**, lalu pilih **Save as PDF** di dialog cetak browser. Gizmo mendokumentasikan [ekspor PDF](https://help.gizmo.ai/en/articles/18228622-how-do-i-export-print-or-download-my-cards-as-a-pdf), termasuk untuk dek yang dibuat di Gizmo.
 
-Inilah batas kendali data yang paling jelas dalam alur kerja saat ini. Gizmo menerima materi dari beberapa sistem lain, tetapi saat ini tidak menyediakan cara yang didokumentasikan untuk mengeluarkan kembali kartu yang dihasilkan. Jika kemungkinan migrasi di masa depan penting bagi Anda, nilai produk berdasarkan batas yang ada sekarang, bukan kemungkinan hadirnya fitur ekspor nanti.
+PDF memberi Anda salinan untuk dibaca. Simpan dek asli di Gizmo untuk soal interaktif dan riwayat pengulangan.
 
 ### Dokumentasi penggunaan offline belum cukup jelas untuk memberi jaminan
 
@@ -116,15 +118,15 @@ Pembedaan ini penting karena “layar yang sudah dimuat masih merespons” dan �
 | Pertimbangan | Gizmo | Nibomo |
 | --- | --- | --- |
 | Titik awal utama | Kartu manual atau Magic Import dari berbagai sumber belajar | Pembuatan kartu depan-belakang yang terfokus, secara manual atau dengan bantuan AI |
-| Format kartu | Card text, Multiple choice, Matching, Ordering, dan True/False | Kartu depan-belakang |
+| Format kartu | Q&A, Multi-select, Fill the blanks, Match pairs, Order items, True or False, dan Image question | Kartu depan-belakang |
 | Pengajaran di luar dek | Pelajaran AI Tutor, catatan, dan pertanyaan berdasarkan sumber | Pembuatan kartu berbantuan AI; halaman produk saat ini tidak mendokumentasikan mode pelajaran Tutor |
 | Cara mengulang | Memorise, pengulangan berjarak, dan beragam gaya pertanyaan | Pengulangan berjarak FSRS |
 | Sistem motivasi | XP, Levels, Leagues, Streaks, Hearts, Hints, dan Coins | Halaman produk saat ini tidak mendokumentasikan sistem permainan yang setara |
 | Bukti penggunaan offline | Tidak ditemukan jaminan resmi penggunaan offline dalam dokumentasi yang diperiksa | Belajar offline di perangkat seluler dan sinkronisasi otomatis merupakan fitur yang didokumentasikan |
-| Pemindahan data keluar | Ekspor kartu dan dek saat ini belum tersedia | Ekspor portabel mencakup kartu, tag, dan media terkait |
+| Pemindahan data keluar | Cetak dek atau simpan sebagai PDF | Ekspor portabel mencakup kartu, tag, dan media terkait |
 | Kendali atas hosting | Tidak ada klaim hosting mandiri dalam halaman resmi yang diperiksa | Sumber terbuka dan dapat dihosting sendiri |
 
-Nibomo menjadi alternatif Gizmo yang praktis hanya untuk kebutuhan yang lebih terbatas dalam tabel ini. [Halaman fitur](/id/features/) saat ini mendokumentasikan FSRS, pembuatan kartu berbantuan AI, belajar offline di perangkat seluler beserta sinkronisasi, ekspor portabel, dan hosting mandiri. Halaman itu tidak menjelaskan fitur yang setara dengan Magic Import Gizmo yang menghasilkan lima format kartu, pelajaran Tutor, atau sistem permainannya.
+Nibomo menjadi alternatif Gizmo yang praktis hanya untuk kebutuhan yang lebih terbatas dalam tabel ini. [Halaman fitur](/id/features/) saat ini mendokumentasikan FSRS, pembuatan kartu berbantuan AI, belajar offline di perangkat seluler beserta sinkronisasi, ekspor portabel, dan hosting mandiri. Gizmo juga menyediakan pelajaran Tutor, beragam kuis, dan sistem kemajuan seperti dalam permainan.
 
 ## Kapan Nibomo lebih cocok
 
@@ -132,11 +134,11 @@ Pilih Nibomo ketika yang ingin Anda simpan adalah kartu depan-belakang yang suda
 
 Klaim Nibomo tentang penggunaan offline dan cara mengeluarkan data lebih jelas. Nibomo mendokumentasikan belajar offline di perangkat seluler dengan sinkronisasi otomatis, sementara [panduan memulai](/id/docs/getting-started/) menyatakan bahwa klien iOS menggunakan SQLite lokal dan sinkronisasi yang mengutamakan penggunaan offline. Ekspor portabel mencakup kartu, tag, dan media terkait, termasuk transfer antara instalasi terkelola dan instalasi yang dihosting sendiri.
 
-Komprominya ada pada cakupan. Halaman Nibomo saat ini tidak mendokumentasikan menu impor Gizmo, lima jenis kartu, pelajaran yang dipandu Tutor, atau sistem hadiahnya. Jika fitur-fitur itulah yang menyelesaikan masalah Anda, Gizmo kemungkinan lebih cocok.
+Jika Anda mengandalkan soal interaktif, pelajaran Tutor, atau hadiah, tetap gunakan Gizmo untuk kegiatan tersebut.
 
 ## Bisakah Anda pindah dari Gizmo ke aplikasi lain?
 
-Saat ini belum bisa dengan mudah. Karena ekspor Gizmo belum tersedia, tidak ada jalur migrasi biasa melalui file dari Gizmo ke Nibomo atau aplikasi lain.
+Di aplikasi web Nibomo, pilih **Pustaka > Impor > Impor dari aplikasi lain** dan gunakan PDF dari Gizmo sebagai bahan untuk membuat kartu baru lewat chat AI. Pemindahan ini belum diuji dalam ulasan ini. Bandingkan kartu hasilnya dengan dek sumber. Lihat langkah lengkapnya di [panduan impor](/docs/import-flashcards/).
 
 Sebagai gantinya, cara yang aman adalah membuat ulang kartu secara manual dan selektif:
 
@@ -147,11 +149,11 @@ Sebagai gantinya, cara yang aman adalah membuat ulang kartu secara manual dan se
 
 Cara ini lebih lambat daripada memakai alat impor, dan ada data yang tidak terbawa. Manfaat tambahannya, Anda hanya memindahkan kartu yang lolos pemeriksaan kualitas.
 
-Menggunakan kedua aplikasi juga bisa menjadi pilihan. Gizmo dapat menguraikan materi kuliah atau presentasi dan menyediakan latihan yang beragam. Nibomo dapat menyimpan kumpulan kartu depan-belakang yang lebih kecil dan sudah diperiksa untuk pengulangan FSRS. Penghubung di antara keduanya tetap manual karena Gizmo tidak mengekspor kartunya.
+Menggunakan kedua aplikasi juga bisa menjadi pilihan. Gizmo dapat menguraikan materi kuliah atau presentasi dan menyediakan latihan yang beragam. Nibomo dapat menyimpan kumpulan kartu depan-belakang yang lebih kecil dan sudah diperiksa untuk pengulangan FSRS.
 
 ## Alur mana yang cocok untuk Anda?
 
-Pilih Gizmo ketika Anda memulai dari materi sumber yang belum tertata dan ingin aplikasi menyusun struktur belajar awal. Kekuatan yang didokumentasikannya adalah beragam jenis sumber, lima jenis kartu, belajar dengan panduan Tutor, kuis yang beragam, dan sistem kemajuan.
+Pilih Gizmo ketika Anda memulai dari materi sumber yang belum tertata dan ingin aplikasi menyusun struktur belajar awal. Kekuatan yang didokumentasikannya adalah beragam jenis sumber, tujuh jenis kartu, belajar dengan panduan Tutor, kuis yang beragam, dan sistem kemajuan.
 
 Pilih Nibomo ketika Anda sudah tahu apa yang layak menjadi kartu depan-belakang untuk jangka panjang, dan lebih mementingkan FSRS, penggunaan offline di perangkat seluler yang didokumentasikan, ekspor, atau hosting mandiri daripada keragaman kuis dan hadiah.
 

@@ -90,7 +90,7 @@ Nibomo, एक ही सीमित per-user data surface तक पहुँ�
 
 दोनों रास्ते workspace-scoped हैं। Published resources `workspace`, `cards`, `decks` और `review_events` हैं, और हर statement के results अधिकतम 100 rows तक सीमित हैं। SQL-style interface एक limited dialect है, raw PostgreSQL नहीं। कोई OpenAPI schema नहीं है, इसलिए generated OpenAPI clients पर निर्भर workflows को अलग interface चाहिए।
 
-इससे कोई developer या AI agent अपने flashcards automate कर सकता है। लेकिन यह Quizlet URL नहीं पढ़ सकता, Quizlet account mirror नहीं कर सकता और undocumented Quizlet client की तरह काम नहीं कर सकता। इसमें automatic Quizlet importer भी नहीं है। Migration के लिए पहले अपने set से terms और definitions export करें, text जाँचें और फिर उसे destination के card fields से map करें। Destination अपनी study state खुद बनाता है; Quizlet history साथ नहीं आती।
+इससे कोई developer या AI agent अपने flashcards automate कर सकता है। लेकिन यह Quizlet URL नहीं पढ़ सकता, Quizlet account mirror नहीं कर सकता और undocumented Quizlet client की तरह काम नहीं कर सकता। इसमें automatic Quizlet importer भी नहीं है। Migration के लिए पहले अपने set से terms और definitions export करें, text जाँचें और फिर उसे destination के card fields से map करें। Destination अपनी study state खुद बनाता है; Quizlet history साथ नहीं आती। Quizlet में अपने बनाए ऐसे सेट से शब्द और परिभाषाएँ कॉपी करें जिसे एक्सपोर्ट कर सकते हैं। Nibomo के वेब ऐप में **लाइब्रेरी > इम्पोर्ट > Quizlet से आयात करें** खोलें और टेक्स्ट पेस्ट करें। **इम्पोर्ट शुरू करें** से टेक्स्ट AI चैट में जाता है, जो नए कार्ड बनाती है। सेव हुए कार्ड मूल टेक्स्ट से मिलाएँ। पूरे निर्देशों के लिए [इंपोर्ट गाइड](/docs/import-flashcards/) देखें।
 
 API access के साथ study modes, डेटा पर नियंत्रण, export और migration के काम की भी तुलना करें।
 

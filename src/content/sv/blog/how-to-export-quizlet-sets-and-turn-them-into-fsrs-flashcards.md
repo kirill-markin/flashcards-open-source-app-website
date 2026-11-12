@@ -104,18 +104,13 @@ Så skapar du en CSV-fil från Quizlet utan att tappa kontrollen över innehåll
 
 Ett kalkylprogram kan lägga till de citattecken som CSV kräver. Att ersätta alla tabulatorer med kommatecken ger inte ett tillförlitligt resultat.
 
-## Använd texten som underlag för granskade kortutkast i Nibomo
+## Flytta texten till Nibomo och kontrollera korten
 
-[Nibomo](/sv/features/) har ingen direktimport från Quizlet. I Nibomos onlinetjänst används bifogade TXT- eller CSV-filer för att skapa kortutkast med AI-hjälp. Det är inte en migrering där allt innehåll garanterat följer med oförändrat.
+I Nibomos webbapp väljer du **Bibliotek > Importera > Importera från Quizlet**. Klistra in texten du kopierade från ett set som du själv har skapat och kan exportera. Välj **Starta import** så skapar AI-chatten kort i din arbetsyta. Jämför de sparade fram- och baksidorna med originalet. Börja med några få kort om setet har ovanliga avgränsare eller definitioner med flera rader.
 
-1. Behåll den orörda Quizlet-filen utanför appen.
-2. Bifoga den städade TXT-filen eller den korrekt förberedda CSV-filen i Nibomos AI-chatt.
-3. Berätta för assistenten vilka avgränsare och fält filen använder.
-4. Be om en liten förhandsvisning och säg uttryckligen att inga kort ska sparas ännu.
-5. Jämför det föreslagna antalet kort samt deras fram- och baksidor med arbetsfilen.
-6. Spara bara de kort du har granskat.
+Logga först in på Nibomo. Vill du förhandsgranska korten innan de sparas? Välj **Importera från ett kalkylblad** och klistra in rensad text i två kolumner. Ställ in avgränsarna, kontrollera paren och bekräfta importen. Korten får ett nytt repetitionsschema.
 
-[Kom igång-guiden](/docs/getting-started/) beskriver AI-chatt med arbetsytans data och bifogade filer. En försiktigt formulerad instruktion kan se ut så här:
+Fler alternativ finns i [guiden för kortimport](/sv/docs/import-flashcards/). Om du bifogar en TXT- eller CSV-fil direkt i AI-chatten kan du be om en förhandsgranskning innan något sparas:
 
 > Läs den här filen som tabulatorseparerade par av termer och definitioner. Spara inga kort ännu. Skapa ett litet urval av utkast, behåll källans formuleringar och tecken från andra skriftsystem än det latinska, och lista felaktiga, tomma eller tvetydiga rader separat i stället för att gissa.
 

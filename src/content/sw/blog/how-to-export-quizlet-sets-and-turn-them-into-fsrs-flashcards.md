@@ -104,18 +104,13 @@ Ili kutengeneza faili ya CSV kutoka Quizlet kwa usalama:
 
 Lahajedwali linaweza kuongeza alama za kunukuu ambazo CSV inahitaji. Kubadilisha tab zote kuwa koma hakuwezi kufanya hilo kwa uhakika.
 
-## Hamishia maandishi Nibomo kama nyenzo za rasimu utakazokagua
+## Hamisha maandishi kwenye Nibomo na ukague kadi
 
-[Nibomo](/sw/features/) haina kipengele cha kuingiza seti moja kwa moja kutoka Quizlet. Katika huduma ya Nibomo mtandaoni, njia ya kutumia TXT au CSV ni kuambatisha faili ili AI isaidie kuandaa rasimu, si kuhamisha kila kitu bila kupoteza taarifa.
+Katika programu ya wavuti ya Nibomo, fungua **Maktaba > Ingiza > Leta kutoka Quizlet**, bandika maandishi uliyonakili kutoka kwenye seti yako ambayo unaweza kutoa, kisha chagua **Anza kuingiza**. Gumzo la AI hutengeneza kadi katika eneo lako la kazi. Linganisha pande za mbele na za nyuma za kadi zilizohifadhiwa na maandishi ya awali. Anza na kadi chache ikiwa seti ina vitenganishi visivyo vya kawaida au fasili za mistari kadhaa.
 
-1. Hifadhi faili ya awali ya Quizlet nje ya programu.
-2. Ambatisha TXT iliyosafishwa au CSV iliyoandaliwa kwa makini katika mazungumzo ya AI ya Nibomo.
-3. Mwambie msaidizi faili inatumia kitenganishi gani na sehemu zipi.
-4. Omba hakikisho dogo na useme wazi asihifadhi kadi bado.
-5. Linganisha idadi ya kadi zinazopendekezwa, sehemu zake za mbele, na sehemu zake za nyuma na faili ya kufanyia kazi.
-6. Hifadhi kadi ulizokagua tu.
+Ingia kwanza kwenye akaunti yako ya Nibomo. Ukitaka kuona kadi kabla ya kuzihifadhi, chagua **Leta kutoka lahajedwali** na ubandike maandishi yaliyopangwa katika safu wima mbili. Chagua vitenganishi, kagua jozi za istilahi na fasili, kisha thibitisha. Kadi huanza na ratiba mpya ya marudio.
 
-[Mwongozo wa kuanza](/docs/getting-started/) unaeleza mazungumzo ya AI yanayotumia data ya eneo la kazi na viambatisho vya faili. Unaweza kutoa agizo la tahadhari kama hili:
+[Mwongozo wa kuingiza kadi](/sw/docs/import-flashcards/) unaeleza njia nyingine. Ukiambatisha faili la TXT au CSV moja kwa moja katika gumzo la AI, unaweza kuomba kuona sampuli kabla ya kuhifadhi:
 
 > Soma faili hii kama jozi za neno na fasili zilizotenganishwa kwa tab. Usihifadhi kadi bado. Andaa rasimu ya sampuli ndogo, hifadhi maneno ya chanzo na herufi zisizo za Kilatini, na uorodheshe kando mistari yenye muundo usio sahihi, iliyo tupu, au yenye utata badala ya kukisia.
 

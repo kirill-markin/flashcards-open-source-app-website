@@ -111,7 +111,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Import, eksport i kontrola nad danymi",
           description:
-            "Przenoś swoje materiały do aplikacji i z powrotem, kiedy chcesz. Przenośne eksporty zawierają karty, tagi i powiązane media.",
+            "Przenieś fiszki z Quizlet, Anki i innych aplikacji. Eksportuj fiszki, tagi i multimedia z Nibomo, kiedy chcesz.",
+          link: {
+            label: "Zobacz, jak importować fiszki",
+            href: "/docs/import-flashcards/",
+          },
         },
         {
           title: "Działa z agentami AI",

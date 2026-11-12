@@ -111,7 +111,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Importa, exporta i sigues l'amo de les teves dades",
           description:
-            "Mou els teus materials d'estudi cap endins o cap enfora quan vulguis. Les exportacions portables inclouen les targetes, les etiquetes i el contingut multimèdia relacionat.",
+            "Porta les teves targetes de Quizlet, Anki i altres apps. Exporta les targetes, les etiquetes i els fitxers multimèdia de Nibomo quan vulguis.",
+          link: {
+            label: "Descobreix com importar targetes",
+            href: "/docs/import-flashcards/",
+          },
         },
         {
           title: "Funciona amb agents d'IA",

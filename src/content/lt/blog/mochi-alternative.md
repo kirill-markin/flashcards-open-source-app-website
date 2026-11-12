@@ -167,6 +167,8 @@ Mochi [atsarginių kopijų vadove](https://mochi.cards/docs/getting-started/back
 
 Mochi [Markdown ir CSV eksportas](https://mochi.cards/docs/import-and-export/exporting/) skirtas duomenims perkelti. Markdown sukuria po vieną failą kiekvienai kortelei ir aplankus įdėtiniams rinkiniams, tačiau neišsaugo kartojimų istorijos, kortelių tvarkos, šablonų ir metaduomenų žymų, nebent žymos įrašytos pačiame Markdown. CSV gali eksportuoti šablono laukus arba atvaizduotas priekines ir galines puses, tačiau neišsaugo kartojimų istorijos, šablonų ar metaduomenų žymų, nebent jos įterptos į turinį.
 
+Jei norite išbandyti „Mochi“ rinkinį „Nibomo“, naršyklėje atidarykite **Biblioteka > Importuoti > Importuoti iš „Mochi“** ir pasirinkite `.mochi` failą. Spustelėkite **Pradėti importuoti**, kad failas būtų nusiųstas į DI pokalbį. Patikrinkite sukurtų kortelių turinį ir mediją, o pradinį failą išsaugokite, kad galėtumėte atkurti šablonus ir kartojimo istoriją „Mochi“.
+
 Anki taip pat skiria šias paskirtis:
 
 - `.colpkg` eksportuoja visą kolekciją su kartojimo planu ir gali įtraukti mediją. Importavus jį, pakeičiamos tikslinės Anki kolekcijos kortelės.

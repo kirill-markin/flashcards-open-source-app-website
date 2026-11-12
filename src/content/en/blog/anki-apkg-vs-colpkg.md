@@ -35,6 +35,8 @@ For an APKG, **Include Scheduling Information** carries progress such as review 
 
 If the receiving client is older, use the export option **Support older Anki versions**. Renaming a file’s extension does not convert its contents.
 
+For a move to Nibomo, the web app's **Library → Import → Import from Anki** accepts both formats and sends the file to AI chat to create cards. Anki review history and templates stay in Anki. Try an `.apkg` first and keep the `.colpkg` as a recovery copy. The [tested walkthrough](/blog/import-anki-apkg/) used an `.apkg`.
+
 ## An APKG update can change your notes
 
 “Add a deck” sounds harmless until you already have an earlier version of it. By default, Anki recognizes previously imported notes and updates them when the package contains newer versions. A matching deck name alone tells you little about which notes will change.

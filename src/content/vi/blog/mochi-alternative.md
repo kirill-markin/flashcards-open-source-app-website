@@ -167,6 +167,8 @@ Trước khi chuyển bất cứ dữ liệu nào, hãy giữ bản sao lưu có
 
 [Tệp xuất Markdown và CSV](https://mochi.cards/docs/import-and-export/exporting/) của Mochi là các định dạng để mang nội dung sang công cụ khác. Markdown tạo một tệp cho mỗi thẻ và thư mục cho các bộ thẻ con, nhưng bỏ lịch sử ôn tập, thứ tự thẻ, mẫu và nhãn lưu trong siêu dữ liệu, trừ khi nhãn đã nằm trong Markdown. CSV có thể xuất các trường của mẫu hoặc nội dung mặt trước/mặt sau đã được kết xuất, nhưng không giữ lịch sử ôn tập, mẫu hay nhãn lưu trong siêu dữ liệu, trừ khi nhãn được nhúng trong nội dung.
 
+Để chuyển thẻ từ Mochi sang Nibomo, vào **Thư viện > Nhập > Nhập từ Mochi** trong ứng dụng web rồi chọn tệp `.mochi`. AI tạo thẻ mới. Lịch sử ôn tập vẫn ở Mochi. Xem [hướng dẫn nhập thẻ](/docs/import-flashcards/).
+
 Anki cũng phân biệt tương tự:
 
 - `.colpkg` xuất toàn bộ bộ sưu tập cùng thông tin lập lịch và có thể bao gồm tệp đa phương tiện. Nhập tệp này sẽ thay thế các thẻ trong bộ sưu tập Anki đích.

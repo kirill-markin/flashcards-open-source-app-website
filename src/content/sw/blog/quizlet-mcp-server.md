@@ -86,7 +86,7 @@ Hili haliifanyi Nibomo kuwa kiunganishi cha Quizlet. Mtiririko unaoungwa mkono n
 
 1. kuhamisha maandishi kutoka kwenye seti ya Quizlet uliyounda mwenyewe;
 2. kuhifadhi faili asili na kukagua nakala ya kufanyia kazi;
-3. kukagua kadi na jinsi sehemu zake zilivyopangwa kabla ya kuzihifadhi katika Nibomo; na
+3. kubandika maandishi kupitia **Maktaba > Ingiza > Leta kutoka Quizlet** kwenye wavuti ya Nibomo, kuanza uingizaji kwa AI na kulinganisha kadi zilizohifadhiwa na maandishi ya awali; na
 4. kuunganisha nafasi ya kazi inayotokana na uhamishaji huo katika Nibomo na programu inayooana nayo kwa ajili ya kusoma na kuandika data baadaye.
 
 Kwa Claude, hatua za kuunganisha ziko katika [Jinsi ya Kuunganisha Nibomo na Claude kwa MCP](/blog/how-to-connect-flashcards-to-claude-with-mcp/). Codex na mawakala wengine wanaweza kutumia njia ya MCP au Agent API iliyoelezwa katika nyaraka na inayoungwa mkono na mazingira wanamoendeshwa.

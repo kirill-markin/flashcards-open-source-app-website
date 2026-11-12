@@ -164,6 +164,7 @@ La [guida ai backup](https://mochi.cards/docs/getting-started/backing-up/) di Mo
 
 - Copiare l'intera cartella utente conserva contenuto, cronologia dei ripassi, allegati, impostazioni dell'app e stato di accesso.
 - Un'esportazione `.mochi` conserva mazzi, carte, modelli e campi, allegati, tag e metadati, cronologia dei ripassi, ordine delle carte e struttura dei mazzi.
+Per provare un mazzo di Mochi in Nibomo, apri **Libreria > Importa > Importa da Mochi** nell’app web e scegli il file `.mochi`. La chat IA crea nuove carte. Controlla il contenuto e i media delle carte e conserva il file originale per ripristinare modelli e cronologia dei ripassi in Mochi. Trovi tutti i passaggi nella [guida all’importazione](/docs/import-flashcards/).
 
 Le [esportazioni Markdown e CSV](https://mochi.cards/docs/import-and-export/exporting/) di Mochi sono formati pensati per la portabilità. Markdown crea un file per carta e cartelle per i sottomazzi, ma non conserva cronologia dei ripassi, ordine delle carte, modelli e tag dei metadati, a meno che i tag non siano nel Markdown. CSV può esportare i campi dei modelli oppure i lati fronte/retro così come vengono visualizzati, ma non conserva cronologia dei ripassi, modelli o tag dei metadati, a meno che questi tag non siano incorporati nel contenuto.
 

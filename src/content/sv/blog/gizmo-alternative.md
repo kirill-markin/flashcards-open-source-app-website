@@ -18,9 +18,9 @@ Om du vill importera en hel veckas anteckningar till Gizmo gratis är det **20 m
 
 Den här recensionen av Gizmo Flashcards bygger på aktuella officiella hjälpsidor. Jag har inte testat Gizmo själv, så jag håller mig till det Gizmo dokumenterar och anger tydligt var underlaget är osäkert.
 
-> **Om författaren:** Jag heter Kirill Markin och bygger [Nibomo](https://nibomo.com/sv/), alternativet som jämförs nedan. Gizmo har ett bredare dokumenterat arbetsflöde: fler källformat, fem korttyper, lektioner med AI Tutor, varierade quiz och framsteg som i ett spel. Nibomo har medvetet ett smalare fokus.
+> **Om författaren:** Jag heter Kirill Markin och bygger [Nibomo](https://nibomo.com/sv/), alternativet som jämförs nedan. Gizmo har ett bredare dokumenterat arbetsflöde: fler källformat, sju korttyper, lektioner med AI Tutor, varierade quiz och framsteg som i ett spel. Nibomo har medvetet ett smalare fokus.
 
-**Fakta kontrollerade:** 1 september 2026.
+**Fakta kontrollerade:** 1 september 2026. Korttyper och PDF-export kontrollerades på nytt 12 november 2026.
 
 ![Recension av Gizmo Flashcards som visar Magic Import, korttyper och ett alternativt sätt att plugga](/blog/gizmo-alternative-v2.png)
 
@@ -57,21 +57,21 @@ AI Tutor har ett liknande importflöde. Den [officiella guiden för lektionsimpo
 
 De två listorna över källor skiljer sig åt. Anki, kalkylblad och webbplatser finns i guiden för att skapa kort; YouTube och befintliga Gizmo-kortlekar finns i guiden för Tutor-lektioner. Kontrollera det importflöde du faktiskt behöver i stället för att utgå från att båda menyerna erbjuder samma val.
 
-## Gizmo har fem korttyper
+## Gizmo har sju korttyper
 
-Gizmos nuvarande [dokumentation om korttyper](https://help.gizmo.ai/en/articles/16527223-what-types-of-flashcards-can-i-make) listar fem format:
+Gizmos nuvarande [dokumentation om korttyper](https://help.gizmo.ai/en/articles/16527223-what-types-of-flashcards-can-i-make) listar sju format.
 
 | Korttyp | Vad den testar | Hur den kan skapas |
 | --- | --- | --- |
-| **Card text** | Text eller LaTeX, där markerade ord testas i quizet; du kan också välja att visa fram- och baksidan som på ett vanligt kort | Manuellt eller med Magic Import |
-| **Multiple choice** | En fråga med genererade svarsalternativ; du kan lägga till felaktiga alternativ när du redigerar | Manuellt eller med Magic Import |
-| **Matching** | Par som Gizmo blandar och som du ska para ihop igen | Endast med Magic Import |
-| **Ordering** | Delar som Gizmo blandar och som du ska ordna i rätt följd | Endast med Magic Import |
-| **True/False** | Ett påstående som du bedömer som sant eller falskt | Manuellt eller med Magic Import |
+| **Q&A** | En fråga och ett svar som kan innehålla text eller LaTeX | Manuellt eller med Magic Import |
+| **Multi-select** | En fråga med ett eller flera rätta svarsalternativ | Manuellt eller med Magic Import |
+| **Fill the blanks** | Markerade ord i ett textavsnitt som du fyller i | Manuellt eller med Magic Import |
+| **Match pairs** | Par som Gizmo blandar och som du ska para ihop igen | Manuellt eller med Magic Import |
+| **Order items** | Delar som Gizmo blandar och som du ska ordna i rätt följd | Manuellt eller med Magic Import |
+| **True or False** | Ett påstående som du bedömer som sant eller falskt | Manuellt eller med Magic Import |
+| **Image question** | Etiketter som du visar på ett diagram eller foto | Manuellt |
 
-Det här är bredare än en enkel kortlek med fram- och baksidor, och Magic Import är mer än en genväg: Matching och Ordering kan för närvarande bara skapas med Magic Import.
-
-En motsägelse i dokumentationen bör lyftas fram. Sidan om korttyper säger att Card text kan innehålla bilder på både fram- och baksidan. Gizmos [guide för korthantering](https://help.gizmo.ai/en/articles/13761411-how-do-i-edit-or-manage-my-cards) säger att foton och bilder bara kan läggas till på framsidan. Om bilder på baksidan är viktiga för dig bör du kontrollera den aktuella redigeraren innan du bygger kortleken. De två officiella sidorna ger inget underlag för ett säkrare svar.
+En motsägelse i dokumentationen bör lyftas fram. Sidan om korttyper säger att Q&A kan innehålla bilder på både fram- och baksidan. Gizmos [guide för korthantering](https://help.gizmo.ai/en/articles/13761411-how-do-i-edit-or-manage-my-cards) säger att foton och bilder bara kan läggas till på framsidan. Om bilder på baksidan är viktiga för dig bör du kontrollera den aktuella redigeraren innan du bygger kortleken. De två officiella sidorna ger inget underlag för ett säkrare svar.
 
 Gizmo påpekar också att quizinställningarna påverkar vilka frågestilar du får se. Kortets lagrade format och hur ett quiz testar innehållet hänger ihop, men är inte samma sak.
 
@@ -97,11 +97,9 @@ Gizmos [guide för korthantering](https://help.gizmo.ai/en/articles/13761411-how
 
 Begränsningen märks i Memorise: du kan ta bort ett kort där, men för närvarande inte redigera det mitt under ett quiz. Om du upptäcker ett felaktigt svar medan du pluggar behöver du lämna quizet för att rätta det.
 
-### Det går inte att exportera från Gizmo
+### Gizmo kan skriva ut kort och spara dem som PDF
 
-Samma officiella guide säger att kortexport ännu inte är tillgänglig. Gizmos [guide för hantering av kortlekar](https://help.gizmo.ai/en/articles/12995587-how-do-i-make-changes-to-my-decks) säger att det inte heller går att exportera kortlekar.
-
-Det här är den tydligaste begränsningen för kontrollen över dina data i det nuvarande arbetsflödet. Gizmo tar emot material från flera andra system, men erbjuder för närvarande inget dokumenterat sätt att få ut de resulterande korten igen. Om möjligheten att byta app senare är viktig bör du bedöma produkten utifrån den begränsning som finns idag, snarare än möjligheten till en framtida exportfunktion.
+Öppna kortlekens meny, välj **Print** (Skriv ut) och välj **Save as PDF** (Spara som PDF) i webbläsarens utskriftsdialog. Gizmo beskriver [PDF-export](https://help.gizmo.ai/en/articles/18228622-how-do-i-export-print-or-download-my-cards-as-a-pdf), även för kortlekar skapade i Gizmo. Behåll originalkortleken om du behöver redigera korten eller spara repetitionshistoriken.
 
 ### Dokumentationen ger inget tydligt löfte om offlinebruk
 
@@ -116,15 +114,15 @@ Skillnaden spelar roll eftersom ”en redan laddad vy reagerar fortfarande” oc
 | Vad du väljer utifrån | Gizmo | Nibomo |
 | --- | --- | --- |
 | Huvudsaklig utgångspunkt | Manuella kort eller Magic Import från olika slags studiematerial | Fokuserade kort med fram- och baksida, skapade manuellt eller med AI-stöd |
-| Kortformat | Card text, Multiple choice, Matching, Ordering och True/False | Kort med fram- och baksida |
+| Kortformat | Q&A, Multi-select, Fill the blanks, Match pairs, Order items, True or False, Image question | Kort med fram- och baksida |
 | Undervisning utöver kortleken | AI Tutor-lektioner, anteckningar och frågor utifrån källan | AI-stöd för att skapa kort; inget Tutor-lektionsläge dokumenteras på de aktuella produktsidorna |
 | Repetitionssätt | Memorise, intervallrepetition och varierade frågestilar | Intervallrepetition med FSRS |
 | Motivation | XP, Levels, Leagues, Streaks, Hearts, Hints och Coins | Inga motsvarande spelmekanismer dokumenteras på de aktuella produktsidorna |
 | Underlag för offlinebruk | Ingen officiell offlinegaranti hittades i den granskade dokumentationen | Plugg offline i mobilen och automatisk synk är dokumenterade funktioner |
-| Att få ut sina data | Kort och kortlekar kan för närvarande inte exporteras | Exporter som kan flyttas mellan installationer innehåller kort, taggar och tillhörande media |
+| Att få ut sina data | Skriv ut en kortlek eller spara den som PDF | Exporter som kan flyttas mellan installationer innehåller kort, taggar och tillhörande media |
 | Kontroll över driften | Inget påstående om drift på egen server på de granskade officiella sidorna | Öppen källkod och möjligt att köra på egen server |
 
-Nibomo är ett praktiskt alternativ till Gizmo för det mer avgränsade sätt att studera som tabellen visar. Den aktuella [funktionssidan](/sv/features/) dokumenterar FSRS, AI-stöd för att skapa kort, plugg offline i mobilen med synk, export som kan flyttas mellan installationer och drift på egen server. Den beskriver ingen motsvarighet till Gizmos Magic Import med fem kortformat, Tutor-lektioner eller spelmekanismer.
+Nibomo är ett praktiskt alternativ till Gizmo för det mer avgränsade sätt att studera som tabellen visar. Den aktuella [funktionssidan](/sv/features/) dokumenterar FSRS, AI-stöd för att skapa kort, plugg offline i mobilen med synk, export som kan flyttas mellan installationer och drift på egen server. Gizmo erbjuder också Tutor-lektioner, varierade quiz och framsteg som i ett spel.
 
 ## När Nibomo passar bättre
 
@@ -132,26 +130,24 @@ Välj Nibomo när det du vill behålla är ett granskat kort med fram- och baksi
 
 Påståendena om offlinebruk och möjligheten att få ut sina data är tydligare. Nibomo dokumenterar plugg offline i mobilen med automatisk synk, och [kom igång-guiden](/sv/docs/getting-started/) anger att iOS-klienten använder en lokal SQLite-databas och synk som är byggd för offlinebruk från början. Exporterna innehåller kort, taggar och tillhörande media, och kan även användas för överföring mellan den molndrivna tjänsten och installationer på egen server.
 
-Avvägningen gäller omfattningen. De aktuella Nibomo-sidorna dokumenterar inte Gizmos importmeny, fem korttyper, Tutor-ledda lektioner eller belöningssystem. Om det är de funktionerna som löser problemet du kom hit för är Gizmo förmodligen ett bättre val.
+Om du använder Gizmos interaktiva frågetyper, Tutor-lektioner eller belöningar kan du fortsätta använda Gizmo för de delarna.
 
 ## Kan du flytta från Gizmo till en annan app?
 
-Det finns inget smidigt sätt idag. Eftersom Gizmo saknar export går det inte att göra en vanlig filbaserad överföring från Gizmo till Nibomo eller någon annan app.
+Du kan prova att använda en PDF från Gizmo som underlag för nya kort. Välj **Bibliotek > Importera > Importera från en annan app** i Nibomos webbapp och välj PDF-filen. Filen skickas till AI-chatten. Den här jämförelsen testade ingen PDF-överföring från Gizmo. Jämför resultatet med originalet. Se [guiden för kortimport](/sv/docs/import-flashcards/).
 
-Den säkra omvägen är manuell och selektiv:
+Frågor som bygger på Gizmos interaktiva format kan du återskapa för hand:
 
 1. Ha den ursprungliga föreläsningen, anteckningarna, presentationen eller den andra källan bredvid dig.
 2. Återskapa bara de kort som fortfarande är korrekta och användbara.
 3. Skriv om otydliga frågor i stället för att kopiera alla genererade kort.
 4. Räkna med att Gizmos markeringar, Tutor-kontext, schemaläggningshistorik, XP och andra framsteg stannar kvar där.
 
-Det går långsammare än med en importfunktion och allt följer inte med. Den användbara bieffekten är att du bara tar med kort som klarar en kvalitetsgranskning.
-
-Ett annat alternativ är att använda båda apparna. Gizmo kan hjälpa dig att reda ut en föreläsning eller presentation och ge varierad övning. Nibomo kan innehålla en mindre uppsättning granskade kort med fram- och baksida för repetition med FSRS. Kopplingen mellan dem är fortfarande manuell eftersom Gizmo inte exporterar korten.
+Ett annat alternativ är att använda båda apparna. Gizmo kan hjälpa dig att reda ut en föreläsning eller presentation och ge varierad övning. Nibomo kan innehålla en mindre uppsättning granskade kort med fram- och baksida för repetition med FSRS.
 
 ## Vilket arbetsflöde passar dig?
 
-Välj Gizmo när du börjar med rörigt källmaterial och vill att appen hjälper dig att få struktur på pluggandet. De dokumenterade styrkorna är många möjliga källformat, fem korttyper, Tutor-ledda studier, varierade quiz och spelmekanismer som låter dig följa dina framsteg.
+Välj Gizmo när du börjar med rörigt källmaterial och vill att appen hjälper dig att få struktur på pluggandet. De dokumenterade styrkorna är många möjliga källformat, sju korttyper, Tutor-ledda studier, varierade quiz och spelmekanismer som låter dig följa dina framsteg.
 
 Välj Nibomo när du redan vet vad du vill spara som ett kort med fram- och baksida, och prioriterar FSRS, dokumenterat plugg offline i mobilen, export eller drift på egen server framför varierade quiz och belöningar.
 

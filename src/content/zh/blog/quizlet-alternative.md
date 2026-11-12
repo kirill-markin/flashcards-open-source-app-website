@@ -31,7 +31,7 @@ Quizlet 在引导式学习模式、模拟测试、AI 学习工具和共享内容
 
 如果你寻找开源 Quizlet 替代方案，主要是为了透明的 FSRS-6 调度、网页端和移动端的离线优先学习、让 AI 和智能体访问你的工作区，或保留自行运维基础设施的选择，请选择 **Nibomo**。
 
-切换工具确实有成本。Nibomo 没有直接的 Quizlet 导入器，而 Quizlet 导出的信息也不足以支持无损迁移。如果你目前的 Quizlet 工作流运行良好，继续使用它可能就是最合理的选择。
+切换工具确实有成本。Nibomo 可以从 Quizlet 导出的文本生成卡片。图片和学习历史不会随文本一起迁移。如果你目前的 Quizlet 工作流运行良好，继续使用它也合理。
 
 ## 开源 Quizlet 替代方案对比
 
@@ -42,7 +42,7 @@ Quizlet 在引导式学习模式、模拟测试、AI 学习工具和共享内容
 | 离线使用 | 支持 iOS 和 Android；最近使用的学习集会自动保存，其他学习集可下载 | 网页端、iOS 和 Android 均采用离线优先的本地写入，重新联网后再同步 | Nibomo |
 | AI | 模拟测试、学习指南、内容摘要、抽认卡生成、作业帮助和 Ask Quizlet | 支持文件附件的 AI 对话，以及 MCP 和 Agent API | 现成学习工具选 Quizlet；工作区与智能体访问选 Nibomo |
 | 共享内容 | 公共学习集与文件夹，并拥有大量教师创建的内容库 | 没有规模相当的用户共享内容库 | Quizlet |
-| 导入 | 在网站粘贴带分隔符的文本，每一行生成一张卡片 | 只能导入自己的 `flashcards.zip` 包 | Quizlet |
+| 导入 | 在网站粘贴带分隔符的文本，每一行生成一张卡片 | 网页版可在**从 Quizlet 导入**中粘贴导出的文本，由 AI 对话生成卡片。另有电子表格粘贴和 `flashcards.zip` 导入入口 | 取决于源材料 |
 | 导出 | 创建者可在网站导出自己学习集中的术语和定义；不含图片，也不能导出复制的学习集 | `flashcards.zip` 可在 Nibomo 工作区之间传输卡片、标签和相关媒体 | 取决于你需要迁移的内容 |
 | 数据所有权与控制 | 受 Quizlet 产品和条款约束的闭源托管服务 | 采用 MIT 许可证；提供托管应用；通过 AWS CDK 自托管可让运维者控制基础设施和数据库 | 代码访问选 Nibomo；基础设施与数据库控制选自托管 |
 
@@ -96,9 +96,9 @@ Nibomo 目前在网页、iOS 和 Android 应用中都没有规模相当、面向
 
 Quizlet 可以[通过导入文本创建学习集](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content)：在网站上粘贴用系统支持的分隔符隔开的术语和定义，每一行就会生成一张卡片。这是一种从笔记或电子表格导入材料的简单方法。
 
-Nibomo 只能导入自己的 `flashcards.zip` 包。该文件可在 Nibomo 工作区之间传输卡片、标签和相关媒体，但它不是通用的 CSV 或 Quizlet 导入器。
+在 Nibomo 网页版打开**资料库 > 导入 > 从 Quizlet 导入**，粘贴从自己创建且可以导出的学习集复制的文本，点击**开始导入**。AI 对话会创建新卡片，请核对生成结果。参阅[闪卡导入指南](/docs/import-flashcards/)。
 
-目前没有直接的 Quizlet 导入器，也无法从 Quizlet 无损迁移到 Nibomo。Quizlet 导出的文本可以作为手动重建或用 AI 辅助起草卡片的原始材料，但它无法保留原有的学习系统。把这种做法称为“迁移”，就等于承诺并不存在的保真度。
+如果已有规整的两列文本，可以用**从电子表格导入**，在保存前预览卡片。两种方式都从新的复习计划开始。Quizlet 的图片、学习历史和无法导出的学习集不会迁移。`flashcards.zip` 则用于迁移从 Nibomo 导出的卡片、标签和关联媒体。
 
 如果你决定重建部分卡片，请参考这套针对性更强的 [Quizlet 导出流程](/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/)。它的重点是清理导出文本，前提也很明确：目前没有自动转换。
 
@@ -147,6 +147,6 @@ Nibomo 采用 MIT 许可证，并提供托管的网页、iOS 和 Android 产品�
 
 2026 年，Nibomo 对一类特定用户而言是一款**开源 Quizlet 替代方案**：他们愿意放弃 Quizlet 的引导模式和内容网络，换取明确采用 FSRS-6 的调度机制、网页端和移动端的离线优先写入、智能体访问，以及采用 MIT 许可证的自托管路径。
 
-它并不是“没有缺点的 Quizlet”。它有自己的短板：没有独立的 Learn 或 Test 模式，没有同类的共享学习集库，没有直接的 Quizlet 导入器，也不能通过 `flashcards.zip` 完成可移植的完整备份。
+它有自己的短板：没有独立的 Learn 或 Test 模式，也没有同等规模的共享学习集库。导入 Quizlet 卡片需要可用的文本导出，`flashcards.zip` 也无法完整备份 Nibomo 工作区。
 
 如果这些缺口恰好移除了你最常用的 Quizlet 功能，那就继续使用 Quizlet。如果调度器透明度、离线优先学习和基础设施控制正是你开始搜索替代方案的原因，可以先[打开 Nibomo](https://app.nibomo.com/)或[查看源代码](https://github.com/kirill-markin/flashcards-open-source-app)，再作决定。真正合适的学习系统，是新鲜感消退后，其取舍依然合理的那一个。

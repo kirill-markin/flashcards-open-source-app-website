@@ -167,6 +167,8 @@ Zanim cokolwiek przeniesiesz, zachowaj kopię zapasową pozwalającą odtworzyć
 
 [Eksport Mochi do Markdown i CSV](https://mochi.cards/docs/import-and-export/exporting/) służy przenoszeniu treści. Markdown tworzy jeden plik na kartę i foldery dla podtalii, ale pomija historię powtórek, kolejność kart, szablony i tagi zapisane w metadanych, chyba że te tagi znajdują się w samym Markdown. CSV może wyeksportować pola szablonów lub przód i tył kart po zastosowaniu szablonu, ale nie zachowuje historii powtórek, szablonów ani tagów z metadanych, chyba że tagi są osadzone w treści.
 
+W aplikacji webowej **Biblioteka > Import > Importuj z aplikacji Mochi** wysyła plik `.mochi` do czatu AI. Sprawdź utworzone fiszki i multimedia. Zachowaj oryginalny plik, aby móc odtworzyć szablony i historię powtórek w Mochi. Zobacz [instrukcję importowania](/docs/import-flashcards/).
+
 Anki stosuje podobne rozróżnienie:
 
 - Plik `.colpkg` eksportuje całą kolekcję z harmonogramem i może zawierać multimedia. Import zastępuje karty w docelowej kolekcji Anki.

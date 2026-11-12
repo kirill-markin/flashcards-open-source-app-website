@@ -14,15 +14,17 @@ Gizmo's current help documents a PDF export: open a deck's three-dot menu, choos
 
 For a mixed deck, check whether the saved pages still ask something you can answer on paper. A tidy page can preserve all the words while giving away the task.
 
-**Documentation checked:** October 28, 2026. These instructions use official help pages. No authenticated Gizmo deck or exported PDF was tested, so the exact printed layout and treatment of interactive questions remain unverified. The exercises below are original paper adaptations, not captured Gizmo output.
+**Documentation checked:** October 28, 2026. The original review used official help pages and did not test an exported PDF.
+
+**Public deck checked:** November 12, 2026. We saved [one public Gizmo deck](https://app.gizmo.ai/decks/3425286/path) as a PDF while signed out. The 30-page file contained 48 `Front` labels, 48 `Back` labels, and some entries with only a title. This check did not cover authenticated decks or how interactive questions print. The exercises below are original paper adaptations, not captured Gizmo output.
 
 ![A woman lowers a clay bowl over a red ball while another woman looks away before a guessing game](https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/783b4ee6df37a899709a663230244e16f2c79570f863e5f9b206e2b2a9d8879d.webp)
 
 ## Save your Gizmo cards as a PDF
 
-Gizmo's [deck-management instructions](https://help.gizmo.ai/en/articles/12995587-how-do-i-make-changes-to-my-decks) give this route:
+Gizmo documents the browser route in its [PDF export instructions](https://help.gizmo.ai/en/articles/18228622-how-do-i-export-print-or-download-my-cards-as-a-pdf).
 
-1. Open the three-dot menu at the top right of the deck.
+1. Find the deck in **My Decks** and open its three-dot menu.
 2. Choose **Print** to open the browser's print menu.
 3. Choose **Save as PDF**, select your settings, and save the file.
 
@@ -119,6 +121,6 @@ A usable paper copy passes three checks: every intended question is present, you
 
 A readable PDF can preserve material for a lesson, a trip, or desk study. A restorable deck backup also needs the structure and state required to recreate the deck. Saving pages alone doesn't demonstrate that you can restore it.
 
-The linked Gizmo help pages document PDF export. They don't establish editable CSV or APKG export, restoration from PDF, or transfer of review scheduling. If migration is your goal, verify those capabilities separately before relying on a PDF as your only copy.
+You can try a saved PDF in the Nibomo web app under **Library → Import → Import from another app**. The PDF goes to AI chat as source material for new cards. Compare the resulting fronts and backs with the Gizmo deck, especially for matching, ordering, and image questions. This guide did not test that transfer. Keep the source deck for its interactive question formats and review progress. See the [Nibomo import guide](/docs/import-flashcards/).
 
 *AI was used to research, draft, and edit this guide and create its illustration. The worked examples are original exercises created for this guide. Kirill Markin builds Nibomo, another flashcard app, and publishes this site.*

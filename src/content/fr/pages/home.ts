@@ -111,7 +111,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Importez, exportez et gardez vos données",
           description:
-            "Déplacez vos supports d'apprentissage quand vous le souhaitez. Les exports portables contiennent vos cartes, vos étiquettes et les médias associés.",
+            "Récupérez vos cartes de Quizlet, d’Anki et d’autres applications. Exportez vos cartes, vos étiquettes et vos médias depuis Nibomo quand vous le souhaitez.",
+          link: {
+            label: "Voir comment importer des cartes",
+            href: "/docs/import-flashcards/",
+          },
         },
         {
           title: "Compatible avec les agents IA",

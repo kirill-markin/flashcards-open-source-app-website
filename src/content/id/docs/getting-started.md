@@ -44,6 +44,10 @@ Cara tercepat untuk memulai adalah aplikasi web terkelola:
 
 Jalur terkelola tidak memerlukan instalasi maupun penyiapan server.
 
+## Pindahkan kartu Anda
+
+Sudah punya kartu di Quizlet, Anki, atau aplikasi lain? Buka **Pustaka > Impor** dan ikuti [panduan impor kartu](/docs/import-flashcards/) untuk memilih format yang tepat dan memeriksa apa saja yang ikut dipindahkan.
+
 ## Penyiapan Agen
 
 Klien MCP seperti Claude, ChatGPT, dan Cursor dapat terhubung melalui [panduan konektor MCP](/docs/mcp-connector/).

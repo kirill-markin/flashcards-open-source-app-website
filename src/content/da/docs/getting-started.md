@@ -44,6 +44,10 @@ Den hurtigste måde at komme i gang på er den hostede webapp:
 
 Den hostede løsning kræver hverken installation eller serveropsætning.
 
+## Tag dine flashcards med
+
+Har du allerede kort i Quizlet, Anki eller en anden app? Åbn **Bibliotek > Import**, og brug [vejledningen til import af flashcards](/docs/import-flashcards/) til at vælge format og se, hvad der følger med.
+
 ## Opsætning af agenter
 
 MCP-klienter som Claude, ChatGPT og Cursor kan oprette forbindelse via [vejledningen til MCP-connectoren](/docs/mcp-connector/).

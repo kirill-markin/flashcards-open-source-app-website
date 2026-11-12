@@ -104,9 +104,13 @@ Quizleti andmetest CSV-faili turvaliseks loomiseks:
 
 Tabelarvutusprogramm saab lisada CSV jaoks vajalikud jutumärgid. Kõigi tabeldusmärkide asendamine komadega seda usaldusväärselt ei tee.
 
-## Kasuta teksti Nibomos kaardimustandite loomiseks ja vaata need üle
+## Impordi Quizleti tekst Nibomosse
 
-[Nibomol](/et/features/) ei ole otsest Quizleti importijat. Veebirakenduses kasutatakse TXT- või CSV-manust tehisintellekti abil kaartide mustandite loomiseks, mitte kadudeta ülekandmiseks.
+Ava Nibomo veebirakenduses **Teek → Importimine → Impordi Quizlet rakendusest** ja kleebi eksporditud tekst. **Alusta importi** saadab teksti AI-vestlusse, kus kaardid võidakse kohe salvestada. Võrdle salvestatud kaarte algtekstiga.
+
+Logi kõigepealt oma Nibomo kontole sisse. Lihtsate paaride eelvaateks enne salvestamist vali **Impordi arvutustabelist**. Vaata [impordijuhendit](/docs/import-flashcards/).
+
+Kui tahad, et AI teeks enne salvestamist mustandi, järgi neid samme:
 
 1. Hoia Quizleti algfail väljaspool rakendust alles.
 2. Lisa korrastatud TXT või läbimõeldult koostatud CSV manusena Nibomo tehisintellektivestlusse.

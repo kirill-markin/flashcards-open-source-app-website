@@ -44,6 +44,10 @@ Der schnellste Einstieg ist die gehostete Web-App:
 
 Für den gehosteten Weg sind keine Installation und kein Server-Setup nötig.
 
+## Nimm deine Karteikarten mit
+
+Hast du schon Karten in Quizlet, Anki oder einer anderen App? Öffne **Bibliothek > Import** und lies die [Anleitung zum Importieren von Karteikarten](/docs/import-flashcards/). Dort findest du das passende Format und erfährst, was übernommen wird.
+
 ## Agent-Setup
 
 MCP-Clients wie Claude, ChatGPT und Cursor können sich über die [Anleitung zum MCP-Connector](/docs/mcp-connector/) verbinden.

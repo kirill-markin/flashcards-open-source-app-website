@@ -121,13 +121,13 @@ Die Hilfeseite warnt selbst, dass die Erweiterung ausfallen kann, wenn Quizlet s
 
 Dieselbe Hilfeseite trifft eine weitreichende Aussage zum Exportzugriff bei Quizlet, die veralten kann, sobald Quizlet seine Tarife oder Berechtigungen ändert. Du musst diese Aussage nicht übernehmen, um die Importschritte zu nutzen. Prüfe dein eigenes Quizlet-Konto und die Eigentumsrechte am Kartensatz. Wenn der Export verfügbar ist, macht dich der manuelle Weg weniger von der Erweiterung abhängig.
 
-## Der Knowt-Export eignet sich zum Lesen, nicht als dokumentierter Umzugsweg
+## Knowt exportiert ein lesbares PDF
 
 In der Webversion weist Knowts [Leitfaden zum Lernkartenexport](https://help.knowt.com/en/articles/10714472-how-can-i-export-my-flashcards) an, **Export as PDF** auszuwählen und das Ergebnis zu speichern. Der [Druckleitfaden](https://help.knowt.com/en/articles/10714514-how-can-i-print-my-notes-and-flashcards) nutzt denselben druckbaren Weg für Notizen und Karten. In der mobilen App führt der dokumentierte Weg über „Share“ und dann zum Export in „Files“ oder eine andere App. Welches Dateiformat dabei entsteht, nennt die Hilfeseite nicht.
 
 Eine PDF-Datei eignet sich zum Drucken, Teilen und als menschenlesbare Momentaufnahme. Sie ist jedoch kein strukturiertes Archiv für Lernkartensätze. Die geprüfte Dokumentation verspricht keinen maschinenlesbaren Export von Begriffen und Definitionen, Quellanhängen, Einstellungen der Lernmodi oder dem Wiederholungsverlauf, mit dem eine andere Lernkarten-App diese Daten wiederherstellen könnte.
 
-Bevor du Knowt für Material auswählst, das du langfristig aufbewahren möchtest, exportiere einen realistischen Kartensatz und sieh dir das Ergebnis an. Die praktische Frage lautet: Könntest du die bearbeitbaren Karten aus diesem Export wiederherstellen, wenn Knowt morgen aus deinem Workflow verschwände, oder bliebe dir nur ein Dokument zum Lesen?
+Wähle in der Nibomo-Web-App **Bibliothek > Import > Aus Knowt importieren** und lade ein kleines PDF aus Knowt hoch. Der KI-Chat erstellt daraus neue Karten. Gleiche sie mit der Quelle ab, besonders bei Bildern oder mehreren Antworten. Einzelheiten findest du in der [Anleitung zum Importieren von Karteikarten](/docs/import-flashcards/).
 
 Auch Nibomo löst die Portabilität nicht vollständig. Die Paketübertragung verschiebt Karten, Tags und zugehörige Medien zwischen Nibomo-Installationen. Sie umfasst jedoch weder den Wiederholungsverlauf noch den Zustand des FSRS-Schedulers, Workspace-Einstellungen, vollständige Deckstrukturen oder Kontodaten. [Open Source allein macht einen Export noch nicht zu einem vollständigen Backup](/docs/self-hosting/).
 
@@ -149,6 +149,6 @@ Ziehe Knowt Ultra in Betracht, wenn Zusammenfassungen, Kai-Chats, generierte Tes
 
 Wähle Nibomo, wenn du langfristig eine kleinere Sammlung geprüfter Karten mit Vorder- und Rückseite behalten möchtest und dir dokumentiertes FSRS, Änderungen im Offline-Betrieb, exportierbare Karteninhalte, offener Quellcode, Self-Hosting oder Agentenzugriff wichtiger sind als abwechslungsreiche Quizformate. Beginne mit der [gehosteten App und dem Leitfaden für die ersten Schritte](/docs/getting-started/), bevor du den AWS-Stack in Betracht ziehst.
 
-Beide Produkte gemeinsam zu nutzen kann ebenfalls sinnvoll sein. Lass Knowt aus unübersichtlichem Quellmaterial Notizen und abwechslungsreiche Übungen erstellen. Übertrage anschließend nur die stabilen Fakten, die du über Monate behalten möchtest, manuell nach Nibomo. Zwischen beiden Produkten gibt es keine dokumentierte verlustfreie Übertragung. Bewahre deshalb die Quelle auf, prüfe die Karten und rechne damit, dass der Wiederholungsverlauf nicht mitkommt.
+Beide Produkte gemeinsam zu nutzen kann sinnvoll sein. Lass Knowt aus unübersichtlichem Quellmaterial Notizen und abwechslungsreiche Übungen erstellen. Probiere dann mit einem kleinen PDF aus, ob du die Karten übernehmen kannst, die du behalten willst. Bewahre die Quelle auf, prüfe die Karten und rechne damit, dass der Wiederholungsverlauf in Knowt bleibt.
 
 Wenn keiner der beiden Kompromisse passt, vergleiche eine größere Auswahl [quelloffener Lernkarten-Apps](/blog/best-open-source-flashcard-apps-2026/) oder führe den [Offline-Lernkarten-Test](/blog/best-offline-flashcards-app/) mit den Werkzeugen durch, die bereits auf deiner engeren Auswahlliste stehen. Die richtige Knowt-Alternative erkennst du nicht an der längsten Funktionstabelle. Sie muss in deiner tatsächlichen Lernsitzung, mit deiner tatsächlichen Internetverbindung und mit deinem tatsächlichen Ausstiegsplan funktionieren.

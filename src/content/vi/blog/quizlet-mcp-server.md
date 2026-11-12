@@ -63,7 +63,7 @@ Với bộ thẻ do bạn tạo, quy trình chuyển dữ liệu thận trọng 
 2. Lưu một bản UTF-8 nguyên vẹn trước khi thay đổi dấu phân cách, cách xuống dòng hoặc câu chữ.
 3. Chỉnh sửa bản sao, không sửa bản xuất gốc.
 4. Kiểm tra mẫu ở đầu, giữa và cuối, cùng các định nghĩa nhiều dòng và ký tự ngoài bảng chữ cái Latinh.
-5. Nhập hoặc đính kèm bản sao đã chỉnh sửa, xem trước mặt trước và mặt sau của vài thẻ, rồi mới lưu thẻ.
+5. Nếu muốn xem trước khi lưu, hãy dán văn bản hai cột vào **Nhập từ bảng tính** thay vì dùng mục nhập từ Quizlet. Kiểm tra cả hai mặt của vài thẻ rồi xác nhận nhập.
 6. Giữ bộ thẻ Quizlet và tệp gốc cho đến khi bạn đã mở và kiểm tra bộ thẻ ở hệ thống đích.
 
 Các bước kiểm tra đầy đủ về dấu phân cách, CSV và tệp nằm trong bài [Cách xuất bộ thẻ Quizlet năm 2026](/vi/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/). Có một giới hạn dễ bị bỏ qua: tính năng xuất chỉ chuyển văn bản của thẻ, không chuyển hình ảnh, thư mục, lịch sử học, trạng thái thành thạo hay lịch ôn tập trong Quizlet.
@@ -86,8 +86,10 @@ Nibomo công bố điểm cuối MCP từ xa tại:
 
 1. xuất văn bản từ bộ thẻ Quizlet do chính bạn tạo;
 2. giữ tệp gốc và kiểm tra một bản sao để xử lý;
-3. kiểm tra các thẻ sau khi ánh xạ dữ liệu trước khi lưu vào Nibomo; và
+3. Để chuyển trực tiếp, vào **Thư viện > Nhập > Nhập từ Quizlet** trong ứng dụng web Nibomo. Dán văn bản và chọn **Bắt đầu nhập**. Cuộc trò chuyện AI có thể lưu thẻ ngay, vì vậy hãy đối chiếu thẻ với bản gốc.
 4. kết nối không gian làm việc Nibomo vừa tạo với ứng dụng khách tương thích để đọc và ghi về sau.
+
+Xem [hướng dẫn nhập thẻ ghi nhớ](/docs/import-flashcards/) để biết các cách khác.
 
 Với Claude, các bước kết nối nằm trong bài [Cách kết nối Nibomo với Claude qua MCP](/blog/how-to-connect-flashcards-to-claude-with-mcp/). Codex và các tác nhân khác có thể dùng cách kết nối MCP hoặc Agent API đã được mô tả trong tài liệu và được môi trường của chúng hỗ trợ.
 
@@ -101,7 +103,7 @@ Một đặc tả giao diện công khai giúp giảm phần nào việc phải 
 
 Nibomo tách các thao tác đọc khỏi công cụ ghi: `sql_execute` cho thẻ và bộ thẻ, `submit_review` cho lượt ôn tập. Thông tin xác thực OAuth vẫn cấp quyền trên toàn bộ giao diện của trình kết nối, nên việc chặn công cụ và cơ chế phê duyệt phụ thuộc vào ứng dụng khách. Hãy bắt đầu với một không gian làm việc nhỏ, không chứa dữ liệu nhạy cảm. Chỉ cho tác nhân đọc dữ liệu cần thiết cho nhiệm vụ, yêu cầu phê duyệt từng lệnh ghi khi ứng dụng khách hỗ trợ và kiểm tra không gian làm việc cùng thay đổi được đề xuất trước khi chấp nhận.
 
-Đừng kết nối tài liệu học riêng tư trước khi kiểm tra các điều khoản lưu giữ và xử lý dữ liệu của ứng dụng khách AI. Với lần chuyển đầu tiên, chỉ cần một nguyên tắc đơn giản: giữ bản xuất gốc, xem trước vài thẻ, phê duyệt một thao tác ghi có phạm vi hẹp và kiểm tra kết quả trong ứng dụng đích trước khi làm tiếp.
+Đừng kết nối tài liệu học riêng tư trước khi kiểm tra các điều khoản lưu giữ và xử lý dữ liệu của ứng dụng khách AI. Nếu phê duyệt thao tác ghi đầu tiên qua MCP, hãy giới hạn phạm vi thay đổi và kiểm tra kết quả trong Nibomo.
 
 ## Đừng biến các yêu cầu nội bộ từ trình duyệt thành API
 

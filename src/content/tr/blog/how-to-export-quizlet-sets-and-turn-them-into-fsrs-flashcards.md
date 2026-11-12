@@ -104,9 +104,15 @@ Quizlet'ten güvenli bir şekilde CSV dosyası oluşturmak için:
 
 Bir elektronik tablo uygulaması, CSV'nin gerektirdiği tırnak işaretlerini ekleyebilir. Tüm sekme karakterlerini virgülle değiştirmek bunu güvenilir biçimde yapamaz.
 
-## Metni, gözden geçirilecek taslak materyal olarak Nibomo'ya taşıyın
+## Quizlet kartlarını Nibomo’ya aktarın
 
-[Nibomo'da](/tr/features/) doğrudan Quizlet içe aktarma özelliği yoktur. Nibomo'nun sunduğu çevrimiçi uygulamada TXT veya CSV kullanmanın yolu, eklenen dosyadan yapay zekâ yardımıyla taslak kartlar oluşturmaktır; bu, kayıpsız bir taşıma işlemi değildir.
+Web uygulamasında **Kitaplık > İçe aktar > Quizlet uygulamasından içe aktar** yolunu izleyin. Quizlet’ten kopyaladığınız metni bu ekrana yapıştırın ve **İçe aktarmayı başlat**’ı seçin. AI kartları kaydedebildiği için sonucu orijinalle karşılaştırın.
+
+### Kartları kaydetmeden önce önizleyin
+
+Önce Nibomo hesabınızda oturum açın. İki sütunlu metni **E-tablodan içe aktar** seçeneğine yapıştırarak kartları kaydetmeden önce önizleyebilirsiniz.
+
+Yapay zekâdan önce bir örnek almak için doğrudan içe aktarmak yerine ayrı bir sohbet açın ve aşağıdaki adımları izleyin.
 
 1. Ham Quizlet dosyasını uygulamanın dışında saklayın.
 2. Temizlediğiniz TXT'yi veya doğru biçimde hazırladığınız CSV'yi Nibomo'nun yapay zekâ sohbetine ekleyin.

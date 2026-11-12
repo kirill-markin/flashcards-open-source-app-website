@@ -63,7 +63,7 @@ Oluşturduğunuz bir seti dikkatli biçimde aktarmak için birkaç adım yeterli
 2. Ayırıcıları, satır sonlarını veya ifadeleri değiştirmeden önce dokunulmamış bir UTF-8 kopyası kaydedin.
 3. Dışa aktarılan ham dosyayı olduğu gibi saklayıp bir kopyasını düzenleyin.
 4. Başlangıçtan, ortadan ve sondan birer örneğin yanı sıra çok satırlı tanımları ve Latin alfabesi dışındaki karakterleri kontrol edin.
-5. Çalışma kopyasını içe aktarın veya ekleyin, birkaç kartın ön ve arka yüzünü önizleyin ve ancak bundan sonra kartları kaydedin.
+5. Kartları kaydetmeden önce görmek istiyorsanız Quizlet içe aktarıcısı yerine **E-tablodan içe aktar** seçeneğine iki sütunlu metni yapıştırın. Birkaç kartın ön ve arka yüzünü kontrol edip içe aktarmayı onaylayın.
 6. Hedef desteyi açıp deneyene kadar Quizlet setini ve ham dosyayı saklayın.
 
 Ayırıcı, CSV ve dosya kontrollerinin tamamı [2026'da Quizlet Setleri Nasıl Dışa Aktarılır?](/tr/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/) yazısında yer alıyor. Önemli bir sınırlama kolayca gözden kaçabilir: dışa aktarma kart metnini taşır; Quizlet görsellerini, klasörleri, çalışma geçmişini, öğrenme düzeyini veya tekrar planını taşımaz.
@@ -86,8 +86,10 @@ Bu, Nibomo'yu bir Quizlet bağlayıcısına dönüştürmez. Desteklenen iş ak�
 
 1. Kendi oluşturduğunuz bir Quizlet setinden metni dışa aktarın.
 2. Ham dosyayı saklayın ve bir çalışma kopyasını inceleyin.
-3. Alanları eşleştirilen kartları Nibomo'ya kaydetmeden önce gözden geçirin.
+3. Doğrudan aktarmak için Nibomo’nun web uygulamasında **Kitaplık > İçe aktar > Quizlet uygulamasından içe aktar** yolunu izleyin. Metni yapıştırın ve **İçe aktarmayı başlat**’ı seçin. Yapay zekâ sohbeti kartları hemen kaydedebilir; oluşan kartları kaynakla karşılaştırın.
 4. Gelecekteki okuma ve yazma işlemleri için oluşan Nibomo çalışma alanını uyumlu bir istemciye bağlayın.
+
+Diğer seçenekler için [kart içe aktarma rehberine](/docs/import-flashcards/) bakın.
 
 Claude için bağlayıcı adımları [Nibomo, MCP ile Claude'a Nasıl Bağlanır?](/blog/how-to-connect-flashcards-to-claude-with-mcp/) yazısında yer alıyor. Codex ve diğer ajanlar, ortamlarının desteklediği belgelenmiş MCP veya Agent API yolunu kullanabilir.
 
@@ -101,7 +103,7 @@ Herkese açık bir arayüz sözleşmesi, entegrasyonda bazı belirsizlikleri ort
 
 Nibomo, okuma işlemlerini yazma araçlarından ayırır: kartlar ve desteler için `sql_execute`, tekrarlar için `submit_review`. OAuth kimlik bilgisi yine de bağlayıcının sunduğu arayüzün tamamını kapsar; bu yüzden araçların engellenmesi ve onayların nasıl alınacağı istemciye bağlıdır. Hassas bilgi içermeyen küçük bir çalışma alanıyla başlayın. Ajanın yalnızca görev için gereken verileri okumasına izin verin, istemci destekliyorsa yazma işlemlerini her çağrıda onaya bağlı tutun ve kabul etmeden önce çalışma alanını ve önerilen değişikliği inceleyin.
 
-Yapay zekâ istemcisinin veri saklama ve işleme koşullarını kontrol etmeden özel çalışma materyallerinizi bağlamayın. İlk aktarım için basit bir kural yeterli: ham dışa aktarımı saklayın, birkaç kartı önizleyin, kapsamı dar bir yazma işlemine onay verin ve daha fazlasını yapmadan önce sonucu hedef uygulamada doğrulayın.
+Yapay zekâ istemcisinin veri saklama ve işleme koşullarını kontrol etmeden özel çalışma materyallerinizi bağlamayın. İlk MCP yazma işlemine onay verirseniz kapsamı dar tutun ve sonucu Nibomo’da doğrulayın.
 
 ## Özel tarayıcı trafiğini API'ye dönüştürmeyin
 

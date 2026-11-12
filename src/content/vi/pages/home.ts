@@ -111,7 +111,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Nhập, xuất và sở hữu dữ liệu của bạn",
           description:
-            "Đưa tài liệu học tập vào hoặc ra bất cứ lúc nào. Bản xuất mang theo được gồm thẻ, nhãn và media liên quan.",
+            "Chuyển thẻ từ Quizlet, Anki và các ứng dụng khác. Bạn có thể xuất thẻ, nhãn và tệp đa phương tiện của Nibomo bất cứ lúc nào.",
+          link: {
+            label: "Xem cách nhập thẻ ghi nhớ",
+            href: "/docs/import-flashcards/",
+          },
         },
         {
           title: "Hoạt động với AI agent",

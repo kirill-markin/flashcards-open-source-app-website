@@ -104,9 +104,13 @@ Pour créer un fichier CSV à partir de Quizlet sans risque :
 
 Un tableur sait ajouter les guillemets dont le CSV a besoin. Un remplacement global des tabulations par des virgules n'y arrive pas de façon fiable.
 
-## Passez le texte dans Nibomo comme brouillon à relire
+## Importer le texte de Quizlet dans Nibomo
 
-[Nibomo](/features/) n'a pas d'importateur Quizlet direct. Dans l'application hébergée, la voie prévue pour un TXT ou un CSV est la rédaction assistée par IA à partir d'un fichier joint, pas une migration sans perte.
+Dans l’application web Nibomo, ouvrez **Bibliothèque → Importer → Importer depuis Quizlet** et collez le texte exporté. **Lancer l’importation** transmet le texte au chat IA, qui peut enregistrer directement les cartes. Comparez les cartes enregistrées avec le texte d’origine.
+
+Connectez-vous d’abord à Nibomo. Pour prévisualiser des paires simples avant de les enregistrer, utilisez **Importer depuis une feuille de calcul**. Consultez le [guide d’importation](/docs/import-flashcards/).
+
+Si vous préférez demander un brouillon au chat IA avant tout enregistrement, procédez ainsi :
 
 1. Gardez le fichier Quizlet brut en dehors de l'application.
 2. Joignez le TXT nettoyé, ou le CSV que vous avez préparé, dans le chat IA de Nibomo.

@@ -44,6 +44,10 @@ Najhitreje začnete z gostovano spletno aplikacijo:
 
 Za gostovano pot ne potrebujete namestitve ali nastavitve strežnika.
 
+## Prenesite svoje kartice
+
+Že imate kartice v Quizletu, Ankiju ali drugi aplikaciji? Odprite **Knjižnica > Uvoz** in si v [vodniku za uvoz kartic](/sl/docs/import-flashcards/) oglejte, katero obliko uporabiti in kaj se prenese.
+
 ## Nastavitev agenta
 
 Odjemalci MCP, kot so Claude, ChatGPT in Cursor, se lahko povežejo po navodilih v [vodniku za povezovalnik MCP](/docs/mcp-connector/).

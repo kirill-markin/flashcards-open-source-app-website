@@ -111,7 +111,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Importa, esporta e possiedi i tuoi dati",
           description:
-            "Sposta i tuoi materiali di studio dentro e fuori quando vuoi. Le esportazioni portabili includono carte, tag e i media collegati.",
+            "Porta con te le carte da Quizlet, Anki e altre app. Puoi esportare carte, tag e media da Nibomo in qualsiasi momento.",
+          link: {
+            label: "Scopri come importare le flashcard",
+            href: "/docs/import-flashcards/",
+          },
         },
         {
           title: "Funziona con gli agenti AI",

@@ -44,6 +44,10 @@ Najrýchlejšie začnete s hosťovanou webovou aplikáciou:
 
 Pri hosťovanej aplikácii nemusíte nič inštalovať ani nastavovať server.
 
+## Prineste si svoje kartičky
+
+Máte kartičky v Quizlete, Anki alebo inej aplikácii? Otvorte **Knižnica > Import** a pozrite si [návod na import kartičiek](/sk/docs/import-flashcards/). Zistíte, ktorý formát použiť a čo sa prenesie.
+
 ## Nastavenie agenta
 
 MCP klienti ako Claude, ChatGPT a Cursor sa môžu pripojiť podľa [návodu na MCP konektor](/docs/mcp-connector/).

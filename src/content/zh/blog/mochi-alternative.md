@@ -167,6 +167,8 @@ Mochi 的[备份指南](https://mochi.cards/docs/getting-started/backing-up/)介
 
 Mochi 的 [Markdown 和 CSV 导出](https://mochi.cards/docs/import-and-export/exporting/)属于可移植格式。Markdown 会为每张卡片生成一个文件，并为子牌组建立文件夹，但不会保留复习历史、卡片顺序、模板和元数据标签；只有已经写进 Markdown 的标签例外。CSV 可以导出模板字段或渲染后的正面/背面，但同样不会保留复习历史、模板或元数据标签，除非这些内容本来就嵌在卡片正文中。
 
+要从 Mochi 迁移卡片，在 Nibomo 网页版进入**资料库 > 导入 > 从 Mochi 导入**并选择 `.mochi` 文件。AI 对话会创建新卡片，复习记录留在 Mochi。参阅[闪卡导入指南](/docs/import-flashcards/)。
+
 Anki 也有类似的区别：
 
 - `.colpkg` 会导出带有调度信息的整个卡片库，并可包含媒体。导入时，它会替换目标 Anki 卡片库中的卡片。

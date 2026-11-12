@@ -44,6 +44,10 @@ A leggyorsabban a felhős webalkalmazással kezdhetsz:
 
 A felhős változathoz nincs szükség telepítésre vagy szerverbeállításra.
 
+## Hozd át a kártyáidat
+
+Vannak már kártyáid a Quizletben, az Ankiban vagy más alkalmazásban? Nyisd meg a **Könyvtár > Importálás** menüpontot, és az [importálási útmutatóban](/docs/import-flashcards/) nézd meg, melyik formátumot válaszd és mi vihető át.
+
 ## Ügynök beállítása
 
 Az olyan MCP-kliensek, mint a Claude, a ChatGPT és a Cursor, az [MCP-csatlakozó útmutatója](/docs/mcp-connector/) alapján csatlakozhatnak.

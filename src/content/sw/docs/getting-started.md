@@ -44,6 +44,10 @@ Njia ya haraka zaidi ya kuanza ni programu ya wavuti iliyopangishwa:
 
 Njia iliyopangishwa haihitaji usakinishaji wala kusanidi seva.
 
+## Hamisha kadi zako
+
+Je, tayari una kadi katika Quizlet, Anki au programu nyingine? Fungua **Maktaba > Ingiza** na ufuate [mwongozo wa kuingiza kadi](/sw/docs/import-flashcards/) ili uchague umbizo linalofaa na ujue kinachohamishwa.
+
 ## Kuunganisha wakala
 
 Viteja vya MCP kama Claude, ChatGPT na Cursor vinaweza kuunganishwa kupitia [mwongozo wa kiunganishi cha MCP](/docs/mcp-connector/).

@@ -104,18 +104,15 @@ Slik lager du en CSV-fil fra Quizlet på en trygg måte:
 
 Et regneark kan legge til anførselstegnene som CSV krever. Å erstatte alle tabulatorer med kommaer gir ikke pålitelige resultater.
 
-## Bruk teksten som utkast i Nibomo, og kontroller kortene
+## Importer teksten til Nibomo og kontroller kortene
 
-[Nibomo](/nb/features/) har ingen direkte Quizlet-import. I den nettbaserte tjenesten brukes TXT- eller CSV-filer som vedlegg til å lage KI-assisterte utkast. Dette er ikke en overføring som garanterer at alt bevares uendret.
+I nettappen til Nibomo velger du **Bibliotek > Import > Importer fra Quizlet**. Lim inn teksten fra Quizlet-eksporten og velg **Start import**. KI-chatten kan lagre kort underveis. Sammenlign de lagrede for- og baksidene med eksporten, og prøv først med et lite sett hvis teksten har uvanlige skilletegn eller definisjoner over flere linjer.
 
-1. Behold den urørte Quizlet-filen utenfor appen.
-2. Legg ved den ryddede TXT-filen eller CSV-filen du har klargjort, i Nibomos KI-chat.
-3. Fortell assistenten hvilket skilletegn og hvilke felt filen bruker.
-4. Be om en liten forhåndsvisning, og si uttrykkelig at kortene ikke skal lagres ennå.
-5. Sammenlign foreslått antall kort, forsider og baksider med arbeidsfilen.
-6. Lagre bare kortene du har kontrollert.
+Logg først inn på Nibomo. Har du ryddig tekst i to kolonner, kan du lime den inn under **Importer fra et regneark**, velge skilletegn og sjekke forhåndsvisningen før du lagrer.
 
-[Kom i gang-veiledningen](/docs/getting-started/) beskriver KI-chat med data fra arbeidsområdet og filvedlegg. En forsiktig instruksjon kan være:
+Du kan også legge ved en TXT- eller CSV-fil direkte i KI-chat og be om et utvalg før den lagrer noe.
+
+I [importveiledningen](/docs/import-flashcards/) finner du de ulike metodene. Her er et eksempel for en tabulatorseparert TXT-fil som du legger ved i KI-chat. Hvis filen bruker komma eller et annet skilletegn, oppgir du det i instruksjonen.
 
 > Les denne filen som tabulatorseparerte par av begreper og definisjoner. Ikke lagre kort ennå. Lag et lite utvalg som utkast, bevar ordlyden i kilden og ikke-latinske tegn, og før opp rader med feil format, tomme rader og tvetydige rader separat i stedet for å gjette.
 

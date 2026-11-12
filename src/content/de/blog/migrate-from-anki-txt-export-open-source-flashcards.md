@@ -20,7 +20,7 @@ Die beiden Dateien erfüllen unterschiedliche Aufgaben. Das Sammlungspaket siche
 
 Dieser Ablauf eignet sich für textbasierte Decks und Zielsysteme, die mit TXT- oder CSV-Dateien arbeiten können. Der Textexport enthält weder den Status des Anki-Schedulers noch Vorlagen, Add-ons oder Mediendateien. Teste deshalb zuerst ein repräsentatives Deck, prüfe jedes Feld und lass die ursprüngliche Sammlung unverändert, bis das Ergebnis im Alltag überzeugt.
 
-> **Du wechselst zu Nibomo?** Der Hauptweg ist jetzt die `.apkg` des Decks selbst: Hänge sie im KI-Chat von Nibomo an und bitte darum, aus dem Deck Karten zu machen. [Eine Anki-`.apkg` in Nibomo importieren](/blog/import-anki-apkg/) führt durch den Ablauf. Dieser TXT-Workflow ist die ältere, zusätzliche Option. Er hilft weiterhin, wenn du die Feldzuordnung selbst steuern willst oder das Zielsystem nur Text liest.
+> **Du wechselst zu Nibomo?** In der Web-App sendet **Aus Anki importieren** Dateien im Format `.apkg` oder `.colpkg` an den KI-Chat, der daraus neue Karten erstellt. Wiederholungsverlauf, Fälligkeitstermine und Vorlagen bleiben in Anki. Nutze den TXT-Ablauf unten, wenn du die Feldzuordnung selbst festlegen willst oder das Zielsystem nur Text liest.
 
 > **Offenlegung:** Ich bin Kirill Markin und entwickle [Nibomo](https://nibomo.com/). Dieser Leitfaden sagt klar, wann du besser bei Anki bleibst oder ein Zielsystem wählst, das `.apkg` importieren kann.
 
@@ -170,7 +170,7 @@ Falls der Test scheitert, entfernst du die temporären Karten über die dafür v
 
 ## Die TXT-Datei mit Nibomo verwenden
 
-Nibomo hat keinen Ein-Klick-Importer für Anki. Sein KI-Chat kann eine angehängte `.apkg` lesen; das ist der einfachere Weg, den der [Leitfaden zum `.apkg`-Import](/blog/import-anki-apkg/) beschreibt. `.colpkg` nimmt er nicht an, und keiner der beiden Wege baut Anki-Vorlagen oder den Wiederholungsverlauf nach. Nimm die TXT-Datei, wenn du jede Feldzuordnung selbst festlegen willst.
+Öffne in der Web-App **Bibliothek > Import > Aus Anki importieren**, wähle eine Datei im Format `.apkg` oder `.colpkg` und klicke auf **Import starten**, um sie an den KI-Chat zu senden. Beginne mit einer kleinen `.apkg`. Das Limit liegt bei 30 MiB pro Datei. Verwende stattdessen die TXT-Datei, wenn du jedes Feld selbst zuordnen willst.
 
 Mit einer TXT-Datei führt der gehostete Weg über KI-gestützte Entwürfe aus Dateianhängen. Öffne die [gehostete App mithilfe des Leitfadens für die ersten Schritte](/de/docs/getting-started/), hänge die TXT-Datei oder eine sorgfältig vorbereitete CSV-Datei im KI-Chat an und fordere ausdrücklich einen kleinen Entwurf an, ohne etwas speichern zu lassen. Prüfe die vorgeschlagenen Karten im Chat. Erst danach bittest du den Assistenten, den freigegebenen Stapel zu speichern.
 

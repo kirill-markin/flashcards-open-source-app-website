@@ -112,7 +112,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "İçe Aktarın, Dışa Aktarın, Verileriniz Sizde Kalsın",
           description:
-            "Öğrenme materyallerinizi istediğiniz zaman içeri veya dışarı taşıyın. Taşınabilir dışa aktarmalar kartlarınızı, etiketlerinizi ve ilgili medyayı içerir.",
+            "Quizlet, Anki ve diğer uygulamalardaki kartlarınızı taşıyın. Nibomo kartlarınızı, etiketlerinizi ve medyanızı istediğiniz zaman dışa aktarabilirsiniz.",
+          link: {
+            label: "Kartları nasıl içe aktaracağınızı öğrenin",
+            href: "/docs/import-flashcards/",
+          },
         },
         {
           title: "AI Agent'larıyla Çalışır",

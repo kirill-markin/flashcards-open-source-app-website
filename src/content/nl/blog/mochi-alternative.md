@@ -167,6 +167,8 @@ Mochi's [back-upgids](https://mochi.cards/docs/getting-started/backing-up/) besc
 
 Mochi's [Markdown- en CSV-exports](https://mochi.cards/docs/import-and-export/exporting/) zijn bedoeld voor overdraagbaarheid. Markdown maakt één bestand per kaart en mappen voor onderliggende kaartensets, maar bewaart geen herhaalgeschiedenis, kaartvolgorde of sjablonen. Metadatatags blijven alleen behouden als ze in de Markdown staan. CSV kan sjabloonvelden of weergegeven voor- en achterkanten exporteren, maar bewaart geen herhaalgeschiedenis of sjablonen. Metadatatags blijven alleen behouden als ze in de inhoud zijn opgenomen.
 
+In de web-app stuurt **Bibliotheek > Importeren > Importeren uit Mochi** een `.mochi`-bestand naar de AI-chat. Controleer de kaarten en media die de chat maakt en bewaar het origineel om sjablonen en herhaalgeschiedenis in Mochi te herstellen. Zie de [importhandleiding](/docs/import-flashcards/).
+
 Anki maakt een vergelijkbaar onderscheid:
 
 - Een `.colpkg` exporteert de hele verzameling met planning en kan media bevatten. Bij het importeren vervangt het de kaarten in de Anki-doelverzameling.

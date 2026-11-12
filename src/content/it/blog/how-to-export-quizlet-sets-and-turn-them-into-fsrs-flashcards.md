@@ -106,7 +106,11 @@ Un foglio di calcolo può aggiungere le virgolette richieste dal CSV. Sostituire
 
 ## Usa il testo in Nibomo per creare bozze da controllare
 
-[Nibomo](/it/features/) non dispone di un importatore diretto da Quizlet. Nella versione web, i file TXT o CSV si usano come allegati per creare bozze con l'aiuto dell'IA; non si tratta di una migrazione senza perdita di dati.
+Nell’app web di Nibomo, apri **Libreria > Importa > Importa da Quizlet** e incolla il testo. **Avvia importazione** lo invia alla chat IA per creare le carte. Controlla le carte salvate confrontandole con il testo di partenza.
+
+Accedi prima a Nibomo. Per vedere un’anteprima di coppie ordinate prima di salvarle, incolla due colonne in **Importa da un foglio di calcolo**. In entrambi i casi le carte partono con un nuovo programma di ripasso. Trovi tutti i passaggi nella [guida all’importazione](/docs/import-flashcards/).
+
+Se vuoi chiedere all’IA un campione prima del salvataggio, allega il TXT o CSV a una nuova chat e scrivi tu la richiesta.
 
 1. Conserva il file originale di Quizlet fuori dall'app.
 2. Allega il TXT ripulito o il CSV preparato correttamente nella chat IA di Nibomo.

@@ -65,11 +65,11 @@ La [documentación actual sobre tipos de tarjetas](https://help.gizmo.ai/en/arti
 | --- | --- | --- |
 | **Tarjeta de texto** | Texto o LaTeX, con palabras resaltadas como objetivo de las preguntas o la opción de mostrar anverso y reverso | Manualmente o con Magic Import |
 | **Opción múltiple** | Una pregunta con opciones de respuesta generadas; al editarla puedes añadir opciones incorrectas | Manualmente o con Magic Import |
-| **Emparejamiento** | Pares que Gizmo baraja para que vuelvas a relacionarlos | Solo con Magic Import |
-| **Ordenación** | Elementos que Gizmo baraja para que vuelvas a colocarlos en orden | Solo con Magic Import |
+| **Emparejamiento** | Pares que Gizmo baraja para que vuelvas a relacionarlos | Manualmente o con Magic Import |
+| **Ordenación** | Elementos que Gizmo baraja para que vuelvas a colocarlos en orden | Manualmente o con Magic Import |
 | **Verdadero/Falso** | Una afirmación que debes clasificar como verdadera o falsa | Manualmente o con Magic Import |
 
-Es más amplio que un mazo básico de anverso y reverso, y Magic Import no es un simple atajo: por ahora, las tarjetas de Emparejamiento y Ordenación solo pueden crearse con Magic Import.
+Puedes crear tarjetas para emparejar o poner elementos en orden tanto a mano como con Magic Import.
 
 Hay un conflicto en la documentación que conviene señalar. La página sobre tipos de tarjetas afirma que las tarjetas de texto pueden incluir imágenes tanto en el anverso como en el reverso. La [guía para gestionar tarjetas](https://help.gizmo.ai/en/articles/13761411-how-do-i-edit-or-manage-my-cards) de Gizmo dice que las fotos y las imágenes solo pueden añadirse al anverso. Si necesitas imágenes en el reverso, comprueba el editor actual antes de preparar el mazo. Las dos páginas oficiales no permiten dar una respuesta más tajante.
 
@@ -97,11 +97,9 @@ La [guía para gestionar tarjetas](https://help.gizmo.ai/en/articles/13761411-ho
 
 La limitación aparece durante Memorise: puedes eliminar una tarjeta, pero actualmente no puedes editarla en medio del cuestionario. Si detectas una respuesta incorrecta mientras estudias, tendrás que salir de ese flujo para corregirla.
 
-### Gizmo no ofrece exportación
+### Gizmo permite imprimir o guardar las tarjetas en PDF
 
-La misma guía oficial indica que la exportación de tarjetas aún no está disponible. La [guía para gestionar mazos](https://help.gizmo.ai/en/articles/12995587-how-do-i-make-changes-to-my-decks) de Gizmo afirma que tampoco se pueden exportar mazos.
-
-Es la limitación más clara del flujo actual en cuanto al control de los datos. Gizmo acepta material de otros sistemas, pero de momento no ofrece una forma documentada de sacar las tarjetas resultantes. Si te importa poder migrar en el futuro, valora el producto por esta limitación actual, no por la posibilidad de que más adelante incorpore una función de exportación.
+Abre el menú del mazo, elige **Print** y selecciona la opción de guardar como PDF en el diálogo de impresión del navegador. Consulta la [guía de exportación a PDF de Gizmo](https://help.gizmo.ai/en/articles/18228622-how-do-i-export-print-or-download-my-cards-as-a-pdf). Conserva el mazo original para seguir editando las tarjetas y mantener el historial de repasos.
 
 ### El uso sin conexión no está lo bastante documentado como para garantizarlo
 
@@ -121,7 +119,7 @@ La distinción importa porque «una pantalla ya cargada sigue respondiendo» y �
 | Estilo de repaso | Memorise, repetición espaciada y distintos tipos de pregunta | Repetición espaciada FSRS |
 | Capa de motivación | XP, Levels, Leagues, Streaks, Hearts, Hints y Coins | Las páginas actuales del producto no documentan una capa de juego comparable |
 | Pruebas sobre el uso sin conexión | No se encontró una garantía oficial de funcionamiento sin conexión en la documentación consultada | El estudio sin conexión en dispositivos móviles y la sincronización automática son funciones documentadas |
-| Exportación de datos | Actualmente no se pueden exportar tarjetas ni mazos | Las exportaciones portátiles incluyen tarjetas, etiquetas y archivos multimedia relacionados |
+| Exportación de datos | Imprime el mazo o guárdalo como PDF | Las exportaciones portátiles incluyen tarjetas, etiquetas y archivos multimedia relacionados |
 | Control del despliegue | Las páginas oficiales consultadas no afirman que pueda autoalojarse | Código abierto y autoalojable |
 
 Nibomo es una alternativa práctica a Gizmo solo para el lado más acotado de esta tabla. Su [página de funciones](/features/) actual documenta FSRS, la creación de tarjetas asistida por IA, el estudio sin conexión en dispositivos móviles con sincronización, las exportaciones portátiles y el autoalojamiento. No describe nada equivalente a Magic Import con los cinco formatos de Gizmo, las lecciones de Tutor o la capa de juego.
@@ -136,9 +134,9 @@ La contrapartida es el alcance. Las páginas actuales de Nibomo no documentan el
 
 ## ¿Se puede pasar de Gizmo a otra aplicación?
 
-Hoy no se puede hacer de forma sencilla. Como Gizmo no permite exportar, no hay una vía habitual de migración mediante archivos desde Gizmo a Nibomo u otra aplicación.
+En la app web de Nibomo, abre **Biblioteca → Importar → Importar desde otra app** y selecciona el PDF para crear tarjetas con el chat con IA. En este análisis no se probó la transferencia de un PDF de Gizmo. Compara las tarjetas con el mazo original. Consulta la [guía de importación](/docs/import-flashcards/).
 
-La alternativa segura es manual y selectiva:
+Para las preguntas que dependen del formato interactivo de Gizmo, reconstruye solo las tarjetas que necesites:
 
 1. Ten a mano la clase, los apuntes, las diapositivas u otra fuente original.
 2. Vuelve a crear solo las tarjetas que sigan siendo correctas y útiles.
@@ -147,7 +145,7 @@ La alternativa segura es manual y selectiva:
 
 Es más lento que usar un importador y se pierde información. La parte positiva es que solo trasladas las tarjetas que superan un control de calidad.
 
-También puedes usar ambas aplicaciones. Gizmo puede desglosar una clase o una presentación y ofrecer ejercicios variados. Nibomo puede guardar un conjunto más pequeño de tarjetas revisadas con anverso y reverso para repasarlas con FSRS. El paso de una aplicación a otra sigue siendo manual porque Gizmo no permite exportar las tarjetas.
+También puedes usar ambas aplicaciones. Gizmo puede desglosar una clase o una presentación y ofrecer ejercicios variados. Nibomo puede guardar un conjunto más pequeño de tarjetas revisadas con anverso y reverso para repasarlas con FSRS.
 
 ## ¿Qué flujo de trabajo encaja contigo?
 

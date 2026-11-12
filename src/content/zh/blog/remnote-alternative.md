@@ -44,7 +44,7 @@ RemNote 把 Anki 导出标为 **Flashcards Only（仅闪卡）**。没有做成�
 | **Anki** | 卡片、模板、插件和卡片集合的完整性最重要 | 没有集成式的关联笔记或 PDF 阅读工作区 | 成熟的 FSRS 控制，包括参数优化、目标记忆保持率和工作量模拟 | 卡片集合保存在本地桌面端或移动端；桌面核心开源，并提供官方自托管同步服务器 | 桌面端、AnkiWeb 和 AnkiDroid 免费；官方 AnkiMobile 是付费 iOS 应用 | RemNote 导出到 `.apkg` 的只有卡片，不是整套笔记系统；应通过测试导入核对调度数据和媒体 |
 | **Obsidian + Anki** | 想要普通的本地 Markdown 笔记，又不愿放弃成熟的卡片调度器 | Obsidian 管本地笔记和附件，Anki 管卡片；没有统一的“从 Reader 到复习”闭环 | Anki FSRS | 本地 Markdown 库加本地 Anki 集合；Obsidian 本身免费，但不是开源软件 | Obsidian 免费；可选的 Sync 年付折合每月 US$4 起；Anki 价格同上 | RemNote 的 Markdown 与 Anki 导出会形成两个系统；RemNote 中笔记、资料和卡片之间的动态链接不会变成一套可移植的工作流 |
 | **Logseq** | 明确想要以笔记为核心、支持 PDF 和内置卡片的开源大纲工具 | 相互链接的块、PDF 批注，以及使用四档评分的卡片复习 | 内置四档评分调度器；[新算法的说明](https://github.com/logseq/docs/blob/master/db-version.md#cards)链接到了最初的 FSRS 项目 | 应用采用 AGPL 许可证；数据库版本的数据可导出为 SQLite、EDN 或有损的标准 Markdown | 免费开源应用 | 当前数据库版本处于 beta；新 iOS 应用和实时同步处于 alpha，新 Android 应用尚未开放测试，旧版 Logseq 的 SRS 状态也不兼容新的卡片算法 |
-| **Nibomo** | 想在开放的 Web、移动端和后端完整技术栈中使用简单卡片 | 没有笔记知识库、反向链接、PDF 阅读器或原生桌面应用 | FSRS-6，使用固定权重，可调参数比 Anki 或 RemNote 少 | Web、iOS 和 Android 均采用离线优先设计；整套技术栈使用 MIT 许可证，并提供 AWS 生产部署方案 | 托管应用在 beta 期间免费；自托管另有基础设施和服务商成本 | 没有 RemNote 导入器，也没有一键导入 Anki 的工具；AI 聊天可以把附加的 Anki `.apkg` 转换成[新卡片](/blog/import-anki-apkg/)，但复习历史和 FSRS 状态无法迁移 |
+| **Nibomo** | 想在开放的 Web、移动端和后端完整技术栈中使用简单卡片 | 没有笔记知识库、反向链接、PDF 阅读器或原生桌面应用 | FSRS-6，使用固定权重，可调参数比 Anki 或 RemNote 少 | Web、iOS 和 Android 均采用离线优先设计；整套技术栈使用 MIT 许可证，并提供 AWS 生产部署方案 | 托管应用在 beta 期间免费；自托管另有基础设施和服务商成本 | 网页版的**从 RemNote 导入**可将 `.apkg`、`.md` 和 `.txt` 发送到 AI 对话。新卡片不会继承复习记录或 FSRS 状态。 |
 
 这不是一张功能排行榜。大量依赖 PDF 的学生改用“最开放”的选项，失去的可能比从许可证中得到的更多。只有简单词汇卡片的人，也可能一直在为早已不用的笔记系统付费。先找到符合你实际限制的那一行，再测试它的迁移边界。
 
@@ -92,11 +92,11 @@ Logseq 理应出现在 **开源 RemNote 替代方案** 的对比中，因为它�
 
 ## Nibomo：整套技术栈开放，学习模型更聚焦
 
-Nibomo 的取舍几乎与 RemNote 相反。它的[功能](/zh/features/)围绕支持 Markdown 的正反面卡片、牌组、标签、媒体、FSRS 复习、离线优先客户端，以及用 AI 辅助起草卡片展开。它没有关联笔记知识库、PDF 阅读器、原生桌面应用或直接的 RemNote 导入器。
+Nibomo 的[功能](/zh/features/)围绕支持 Markdown 的正反面卡片、牌组、标签、媒体、FSRS 复习、离线优先客户端以及 AI 辅助创建卡片展开。它没有关联笔记知识库、PDF 阅读器或原生桌面应用。
 
 它的开源范围覆盖整套技术栈：采用 MIT 许可证的仓库包含 Web、iOS、Android、身份验证、后端、同步和基础设施。官方支持的[生产环境自托管指南](/zh/docs/self-hosting/)使用 AWS CDK。这不是一条命令就能启动的本地一体化应用。运维者要自行负责云服务成本、密钥、迁移、监控、备份、恢复测试，还要分别构建移动应用。
 
-对现有 RemNote 用户来说，迁移才是更大的限制。Nibomo 的资料库导入只接受自己的 `flashcards.zip` 包，不接受 RemNote Markdown 或 Anki `.apkg`。这些包会带上卡片、标签和引用的媒体，但不包括复习历史、FSRS 状态、工作区设置、完整牌组结构或账户。AI 聊天可以读取附加的 Anki `.apkg` 或导出的文本，并把它转换成卡片，所有卡片都作为新卡开始；这是在重建内容，不是在延续原来的卡片集合。[Anki `.apkg` 导入指南](/blog/import-anki-apkg/)说明了这条路径会保留和丢失哪些内容，较早的 [TXT 迁移指南](/zh/blog/migrate-from-anki-txt-export-open-source-flashcards/)则介绍纯文本路径。
+在网页版中进入**资料库 > 导入 > 从 RemNote 导入**，选择 `.apkg`、`.md` 或 `.txt` 文件。AI 对话会从导出内容生成新卡片，原有的关联笔记系统和复习记录仍留在 RemNote。`flashcards.zip` 则用于在 Nibomo 工作区之间迁移卡片、标签和关联媒体。参阅[闪卡导入指南](/docs/import-flashcards/)。
 
 如果你准备建立一个全新或简单的卡片工作区，而且想拿到整套技术栈的源码，可以选择 Nibomo。需要关联式学习工作流就继续用 RemNote；如果迁移完整性或高级卡片结构更重要，则选择 Anki。更聚焦的卡片系统对比可参阅 [Anki 与 Nibomo](/zh/blog/anki-vs-flashcards-open-source-app/)和[开源闪卡应用指南](/zh/blog/best-open-source-flashcard-apps-2026/)。
 

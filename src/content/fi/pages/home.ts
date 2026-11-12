@@ -111,7 +111,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Tuo, vie ja omista datasi",
           description:
-            "Siirrä oppimateriaalisi sisään tai ulos milloin haluat. Siirrettävät viennit sisältävät korttisi, tunnisteesi ja niihin liittyvän median.",
+            "Tuo kortteja Quizletista, Ankista ja muista sovelluksista. Vie Nibomon korttisi, tunnisteesi ja mediatiedostosi milloin haluat.",
+          link: {
+            label: "Katso, miten tuot muistikortit",
+            href: "/docs/import-flashcards/",
+          },
         },
         {
           title: "Toimii tekoälyagenttien kanssa",

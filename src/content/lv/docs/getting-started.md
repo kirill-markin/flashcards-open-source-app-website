@@ -44,6 +44,10 @@ Lai pievienotu logrīku iPhone, iPad vai Mac ierīcē, atver logrīku galeriju, 
 
 Mitinātajai versijai nekas nav jāinstalē un serveris nav jāiestata.
 
+## Pārvieto savas kartītes
+
+Vai tev jau ir kartītes Quizlet, Anki vai citā lietotnē? Atver **Bibliotēka > Importēt**. [Kartīšu importēšanas pamācībā](/docs/import-flashcards/) uzzināsi, kuru formātu izvēlēties un ko var pārnest.
+
 ## Aģenta iestatīšana
 
 MCP klienti, piemēram, Claude, ChatGPT un Cursor, var pieslēgties, izmantojot [MCP savienotāja pamācību](/docs/mcp-connector/).

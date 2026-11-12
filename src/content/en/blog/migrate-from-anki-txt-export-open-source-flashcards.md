@@ -20,7 +20,7 @@ Those files solve different problems. The collection package is your way back. T
 
 This workflow is for text-based decks and destinations that can work from TXT or CSV. The text export does not preserve Anki's scheduler state, templates, add-ons, or media files. You will test a representative deck first, inspect every field, and leave the original collection untouched until the result is good enough to use.
 
-> **Moving to Nibomo?** The main route is now the deck's `.apkg` itself: attach it in Nibomo's AI chat and ask it to turn the deck into cards. [Importing an Anki `.apkg` into Nibomo](/blog/import-anki-apkg/) walks through it. This TXT workflow is the older, extra option. It still helps when you want to control the field mapping yourself or when the destination reads only text.
+> **Moving to Nibomo?** In the web app, **Library → Import → Import from Anki** sends an `.apkg` or `.colpkg` to AI chat. Start with a small `.apkg`. The [tested Anki deck walkthrough](/blog/import-anki-apkg/) shows how cards, decks, and pictures came over from an `.apkg`.
 
 > **Disclosure:** I am Kirill Markin, and I build [Nibomo](https://nibomo.com/). This guide is explicit about the cases where staying in Anki, or choosing a destination that imports `.apkg`, is the better decision.
 
@@ -170,7 +170,7 @@ If the test fails, remove the temporary cards using the destination's own cleanu
 
 ## Using the TXT file with Nibomo
 
-Nibomo has no one-click Anki importer. Its AI chat can read an attached `.apkg`, which is the simpler route covered in the [`.apkg` import guide](/blog/import-anki-apkg/). It doesn't accept `.colpkg`, and neither route rebuilds Anki templates or review history. Use the TXT file when you want to decide every field mapping yourself.
+In the Nibomo web app, **Library → Import → Import from Anki** accepts `.apkg` and `.colpkg` files for AI-assisted card import. The [`.apkg` import guide](/blog/import-anki-apkg/) covers the package route. Anki templates and review history stay in the original collection. Use the TXT workflow below when you want to decide every field mapping yourself.
 
 With a TXT file, the hosted path is AI-assisted drafting from file attachments. Open the [hosted app using the getting-started guide](/docs/getting-started/), attach the TXT or a carefully prepared CSV file in AI chat, and explicitly ask for a small draft without saving anything. Review the proposed cards in chat; only then ask the assistant to save the approved batch.
 

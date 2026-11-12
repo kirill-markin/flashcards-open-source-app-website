@@ -104,18 +104,15 @@ Zo maak je zorgvuldig een CSV-bestand van je Quizlet-export:
 
 Een spreadsheetprogramma kan de aanhalingstekens toevoegen die CSV nodig heeft. Alle tabs door komma's vervangen doet dat niet op een betrouwbare manier.
 
-## Gebruik de tekst in Nibomo als conceptmateriaal dat je controleert
+## Importeer de tekst in Nibomo en controleer de kaarten
 
-[Nibomo](/nl/features/) heeft geen directe Quizlet-importfunctie. In de gehoste app gebruik je TXT- of CSV-bestanden als bijlage om met AI conceptkaarten te maken. Dat is geen migratie waarbij gegarandeerd alles behouden blijft.
+Kies in de web-app van Nibomo **Bibliotheek > Importeren > Importeren uit Quizlet**. Plak de tekst uit de Quizlet-export en kies **Import starten**. De AI-chat kan de kaarten direct opslaan. Vergelijk de voor- en achterkanten met de export. Begin met een kleine set als je afwijkende scheidingstekens of definities van meerdere regels gebruikt.
 
-1. Bewaar het onbewerkte Quizlet-bestand buiten de app.
-2. Voeg het opgeschoonde TXT-bestand of de zorgvuldig voorbereide CSV toe als bijlage in de AI-chat van Nibomo.
-3. Vertel de assistent welk scheidingsteken en welke velden het bestand gebruikt.
-4. Vraag om een klein voorbeeld en zeg uitdrukkelijk dat er nog geen kaarten mogen worden opgeslagen.
-5. Vergelijk het voorgestelde aantal kaarten en de voor- en achterkanten met de werkkopie.
-6. Sla alleen de kaarten op die je hebt gecontroleerd.
+Meld je eerst aan bij Nibomo. Heb je nette tekst in twee kolommen, plak die dan onder **Importeren uit een spreadsheet**, stel de scheidingstekens in en controleer het voorbeeld vóór je opslaat.
 
-De [handleiding om aan de slag te gaan](/docs/getting-started/) beschrijft hoe je de AI-chat met werkruimtegegevens en bestandsbijlagen gebruikt. Een voorzichtige prompt kan er zo uitzien:
+Je kunt ook een TXT- of CSV-bestand rechtstreeks aan de AI-chat toevoegen en om een voorbeeld vragen voordat de chat iets opslaat.
+
+In de [importhandleiding](/docs/import-flashcards/) staan de verschillende opties. Deze voorbeeldopdracht is voor een TXT-bestand met tabs dat je aan de AI-chat toevoegt. Gebruikt je bestand komma’s of een ander scheidingsteken, pas dan het scheidingsteken in de opdracht aan.
 
 > Lees dit bestand als paren van begrippen en definities, gescheiden door tabs. Sla nog geen kaarten op. Maak een klein aantal conceptkaarten, behoud de oorspronkelijke formulering en niet-Latijnse tekens, en vermeld onjuist opgebouwde, lege of onduidelijke regels apart in plaats van te gokken.
 

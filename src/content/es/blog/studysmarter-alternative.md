@@ -47,7 +47,7 @@ Elegir una u otra no dice nada sobre cuánto te tomas en serio el estudio. Study
 | Apps móviles | Apps para iOS y Android, además del producto web | Web, iOS y Android; sin aplicación nativa de escritorio |
 | IA | Explicaciones, generación de materiales de estudio, conversión de diapositivas en tarjetas y comentarios de Exam AI | Chat en línea con acceso al espacio de trabajo para ayudar a crear y editar tarjetas, además de acceso para agentes externos |
 | Propiedad y alojamiento | Los usuarios conservan los derechos sobre el contenido que suben, pero conceden derechos de uso a la plataforma; software propietario y sin autoalojamiento oficial de todo el servicio | Aplicación e infraestructura con licencia MIT y despliegue de producción integral compatible mediante AWS CDK |
-| Portabilidad | Este artículo no afirma que exista una migración completa | El paquete de exportación solo transfiere tarjetas, etiquetas y archivos multimedia referenciados; no es una copia de seguridad completa |
+| Portabilidad | Premium permite exportar las tarjetas propias en CSV de texto sin formato | **Importar desde StudySmarter** envía el CSV al chat con IA. La exportación propia de Nibomo transfiere el contenido de las tarjetas y los archivos multimedia referenciados |
 
 La tabla es desigual a propósito. StudySmarter intenta cubrir más necesidades de estudio y, por eso, incorpora más herramientas. Nibomo solo resulta una alternativa convincente cuando su enfoque más limitado, la transparencia del sistema de repaso, el funcionamiento sin conexión o el control de la infraestructura resuelven un problema que realmente tienes.
 
@@ -111,7 +111,7 @@ Nibomo publica la aplicación y la infraestructura con licencia MIT. La vía com
 
 Que Nibomo sea de código abierto no convierte su exportación integrada en una copia completa. El paquete del espacio de trabajo transfiere las tarjetas, las etiquetas y los archivos multimedia referenciados. No incluye el historial de repasos, el estado de FSRS, los ajustes del espacio de trabajo, la estructura completa de los mazos ni los datos de la cuenta. Sirve para trasladar contenido; no es una copia de seguridad completa ni permite migrar sin pérdidas de la versión alojada a una instalación propia.
 
-No encontré suficiente información oficial para afirmar que StudySmarter ofrece una exportación completa ni que exista una migración directa a Nibomo. Conserva los archivos originales y prueba primero con una muestra pequeña y representativa.
+La [guía de exportación de StudySmarter](https://studysmarter.zendesk.com/hc/en-gb/articles/18447712394012-Flashcard-Export-Function) explica cómo exportar las tarjetas propias en CSV con Premium. El CSV contiene texto sin formato, así que las imágenes, las fórmulas y el formato se quedan en StudySmarter. En la app web de Nibomo, abre **Biblioteca → Importar → Importar desde StudySmarter** para enviar el CSV al chat con IA. Empieza con una muestra y compárala con las tarjetas originales. Las tarjetas empiezan con un calendario de repasos nuevo. Consulta la [guía de importación](/docs/import-flashcards/).
 
 ## ¿Qué alternativa a StudySmarter encaja con tu forma de estudiar?
 

@@ -86,7 +86,7 @@ Tai nepaverčia Nibomo Quizlet jungtimi. Palaikoma darbo eiga yra tokia:
 
 1. eksportuoti tekstą iš savo sukurto Quizlet rinkinio;
 2. išsaugoti pradinį failą ir patikrinti darbinę kopiją;
-3. peržiūrėti pagal duomenų laukų atitiktį suformuotas korteles prieš išsaugant jas Nibomo;
+3. Nukopijuokite „Quizlet“ rinkinio, kurį galite eksportuoti, tekstą. „Nibomo“ internetinėje programėlėje atidarykite **Biblioteka > Importuoti > Importuoti iš „Quizlet“**, įklijuokite tekstą ir pasirinkite **Pradėti importuoti**. Užklausa bus nusiųsta į DI pokalbį, kuriame bus išsaugotos kortelės. Išsaugokite pradinį eksportą. Palyginkite importuotų kortelių skaičių ir abi jų puses su pradiniu rinkiniu.
 4. prijungti sukurtą Nibomo darbo sritį prie suderinamo kliento, kad vėliau būtų galima skaityti ir rašyti duomenis.
 
 Claude jungties nustatymo veiksmai pateikti straipsnyje [„Kaip prijungti Nibomo prie Claude per MCP“](/blog/how-to-connect-flashcards-to-claude-with-mcp/). Codex ir kiti agentai gali naudoti dokumentuotą MCP arba Agent API prieigos būdą, kurį palaiko jų aplinka.

@@ -18,7 +18,7 @@ Se vuoi importare gratis in Gizmo gli appunti di un'intera settimana, il numero 
 
 Questa recensione delle flashcard di Gizmo si basa sulle attuali pagine ufficiali di assistenza. Non ho provato Gizmo direttamente: mi attengo quindi a ciò che Gizmo documenta e segnalo esplicitamente gli aspetti incerti.
 
-> **Trasparenza:** sono Kirill Markin e sviluppo [Nibomo](https://nibomo.com/it/), l'alternativa messa a confronto più avanti. Il percorso di studio documentato da Gizmo è più ampio: più formati di partenza, cinque tipi di schede, lezioni con AI Tutor, quiz vari e progressione con meccaniche di gioco. Nibomo si concentra volutamente su meno funzioni.
+> **Trasparenza:** sono Kirill Markin e sviluppo [Nibomo](https://nibomo.com/it/), l'alternativa messa a confronto più avanti. Il percorso di studio documentato da Gizmo è più ampio: più formati di partenza, sette tipi di schede, lezioni con AI Tutor, quiz vari e progressione con meccaniche di gioco. Nibomo si concentra volutamente su meno funzioni.
 
 **Fatti verificati:** 1 settembre 2026.
 
@@ -57,21 +57,23 @@ AI Tutor ha un percorso di importazione simile. La [guida ufficiale all'importaz
 
 Le due liste di fonti documentate non coincidono. Anki, fogli di calcolo e siti web compaiono nella guida alla creazione delle schede; YouTube e i mazzi Gizmo esistenti compaiono nella guida alle lezioni di Tutor. Controlla la funzione di importazione che ti serve davvero, senza dare per scontato che entrambi i menu accettino tutti gli stessi materiali.
 
-## Gizmo ha cinque tipi di schede
+## Gizmo ha sette tipi di schede
 
-L'attuale [documentazione sui tipi di flashcard](https://help.gizmo.ai/en/articles/16527223-what-types-of-flashcards-can-i-make) di Gizmo elenca cinque formati:
+L'attuale [documentazione sui tipi di flashcard](https://help.gizmo.ai/en/articles/16527223-what-types-of-flashcards-can-i-make) di Gizmo elenca sette formati:
 
 | Tipo di scheda | Cosa verifica | Come si crea |
 | --- | --- | --- |
-| **Card text** (testo) | Testo o LaTeX, con domande sulle parole evidenziate oppure con la possibilità di mostrare fronte e retro | Manualmente o con Magic Import |
-| **Multiple choice** (scelta multipla) | Una domanda con opzioni di risposta generate; durante la modifica puoi aggiungere opzioni errate | Manualmente o con Magic Import |
-| **Matching** (abbinamento) | Coppie che Gizmo mescola e che devi riassociare | Solo con Magic Import |
-| **Ordering** (ordinamento) | Elementi che Gizmo mescola e che devi rimettere in sequenza | Solo con Magic Import |
-| **True/False** (vero/falso) | Un'affermazione che devi giudicare vera o falsa | Manualmente o con Magic Import |
+| **Q&A** | Domanda e risposta con testo o LaTeX | A mano o con Magic Import |
+| **Multi-select** | Domanda con una o più opzioni corrette | A mano o con Magic Import |
+| **Fill the blanks** | Parole evidenziate da completare durante il quiz | A mano o con Magic Import |
+| **Match pairs** (abbinamento) | Coppie che Gizmo mescola e che devi riassociare | A mano o con Magic Import |
+| **Order items** (ordinamento) | Elementi che Gizmo mescola e che devi rimettere in sequenza | A mano o con Magic Import |
+| **True or False** (vero/falso) | Un'affermazione che devi giudicare vera o falsa | Manualmente o con Magic Import |
+| **Image question** | Etichette da scoprire in un diagramma o una foto | A mano |
 
-Le possibilità sono più ampie rispetto a un semplice mazzo di schede fronte/retro, e Magic Import ha un ruolo che va oltre il risparmio di tempo: al momento, Matching e Ordering si creano solo con Magic Import.
+Puoi creare anche a mano le domande di abbinamento e ordinamento.
 
-C'è una contraddizione nella documentazione da segnalare. La pagina sui tipi di schede dice che Card text può includere immagini sul fronte e sul retro. La [guida alla gestione delle schede](https://help.gizmo.ai/en/articles/13761411-how-do-i-edit-or-manage-my-cards) di Gizmo dice invece che foto e immagini possono essere aggiunte soltanto sul fronte. Se ti servono immagini sul retro, controlla l'editor attuale prima di costruire il mazzo. Le due pagine ufficiali non permettono di dare una risposta più sicura.
+C'è una contraddizione nella documentazione da segnalare. La pagina sui tipi di schede dice che Q&A può includere immagini sul fronte e sul retro. La [guida alla gestione delle schede](https://help.gizmo.ai/en/articles/13761411-how-do-i-edit-or-manage-my-cards) di Gizmo dice invece che foto e immagini possono essere aggiunte soltanto sul fronte. Se ti servono immagini sul retro, controlla l'editor attuale prima di costruire il mazzo. Le due pagine ufficiali non permettono di dare una risposta più sicura.
 
 Gizmo precisa inoltre che le impostazioni del quiz influenzano il tipo di domande che vedi. Il formato in cui una scheda viene salvata e il modo in cui il quiz te la propone sono collegati, ma non coincidono.
 
@@ -97,11 +99,11 @@ La [guida alla gestione delle schede](https://help.gizmo.ai/en/articles/13761411
 
 Il limite emerge durante Memorise: puoi eliminare una scheda, ma al momento non puoi modificarla nel corso di un quiz. Se mentre studi trovi una risposta errata, devi uscire dal quiz per correggerla.
 
-### Gizmo non permette di esportare
+### Puoi stampare le schede di Gizmo o salvarle in PDF
 
-La stessa guida ufficiale dice che l'esportazione delle schede non è ancora disponibile. La [guida alla gestione dei mazzi](https://help.gizmo.ai/en/articles/12995587-how-do-i-make-changes-to-my-decks) di Gizmo dice che anche l'esportazione dei mazzi non è disponibile.
+Apri il menu del mazzo, scegli **Print**, poi seleziona **Save as PDF** nella finestra di stampa del browser. Gizmo documenta [l’esportazione in PDF](https://help.gizmo.ai/en/articles/18228622-how-do-i-export-print-or-download-my-cards-as-a-pdf), anche per i mazzi creati in Gizmo.
 
-È il limite attuale più evidente per chi vuole mantenere il controllo dei propri dati. Gizmo accetta materiale da diversi altri sistemi, ma al momento non offre un modo documentato per estrarre le schede ottenute. Se per te conta poter migrare in futuro, valuta il prodotto in base a questo limite attuale, senza affidarti alla possibilità che arrivi una funzione di esportazione.
+Il PDF è una copia da consultare. Conserva il mazzo originale in Gizmo per le domande interattive e la cronologia dei ripassi.
 
 ### La documentazione non basta a garantire l'uso offline
 
@@ -116,15 +118,15 @@ La distinzione conta: «una schermata già caricata continua a rispondere» e «
 | Aspetto da valutare | Gizmo | Nibomo |
 | --- | --- | --- |
 | Punto di partenza principale | Schede manuali o Magic Import da varie fonti di studio | Creazione manuale o assistita dall'AI di schede fronte/retro mirate |
-| Formati delle schede | Card text, Multiple choice, Matching, Ordering e True/False | Schede fronte/retro |
+| Formati delle schede | Q&A, Multi-select, Fill the blanks, Match pairs, Order items, True or False e Image question | Schede fronte/retro |
 | Spiegazioni oltre al mazzo | Lezioni con AI Tutor, appunti e domande basate sulle fonti | Creazione di schede assistita dall'AI; le attuali pagine del prodotto non documentano una modalità di lezioni con Tutor |
 | Modalità di ripasso | Memorise, ripetizione dilazionata e diversi tipi di domande | Ripetizione dilazionata con FSRS |
 | Meccaniche di motivazione | XP, Levels, Leagues, Streaks, Hearts, Hints e Coins | Le attuali pagine del prodotto non documentano meccaniche di gioco comparabili |
 | Documentazione sull'uso offline | Nella documentazione consultata non ho trovato una garanzia ufficiale di funzionamento offline | Studio offline su dispositivi mobili e sincronizzazione automatica sono funzionalità documentate |
-| Possibilità di portare via i dati | Esportazione di schede e mazzi attualmente non disponibile | Le esportazioni portabili includono schede, tag e relativi file multimediali |
+| Possibilità di portare via i dati | Stampa il mazzo o salvalo in PDF | Le esportazioni portabili includono schede, tag e relativi file multimediali |
 | Controllo sull'installazione | Nessuna dichiarazione sulla possibilità di ospitarlo autonomamente nelle pagine ufficiali consultate | Open source e installabile su un proprio server |
 
-Nibomo è un'alternativa pratica a Gizmo per il percorso più circoscritto illustrato nella tabella. La sua attuale [pagina delle funzionalità](/it/features/) documenta FSRS, creazione di schede assistita dall'AI, studio offline su dispositivi mobili e sincronizzazione, esportazioni portabili e installazione su un proprio server. Non descrive un equivalente di Magic Import con i cinque formati di Gizmo, delle lezioni con Tutor o delle meccaniche di gioco.
+Nibomo è un'alternativa pratica a Gizmo per il percorso più circoscritto illustrato nella tabella. La sua attuale [pagina delle funzionalità](/it/features/) documenta FSRS, creazione di schede assistita dall'AI, studio offline su dispositivi mobili e sincronizzazione, esportazioni portabili e installazione su un proprio server. Gizmo offre anche lezioni con Tutor, quiz vari e meccaniche di gioco.
 
 ## Quando Nibomo è più adatto
 
@@ -132,11 +134,11 @@ Scegli Nibomo quando vuoi conservare una scheda fronte/retro che hai già contro
 
 Le sue indicazioni sull'uso offline e sull'esportazione dei dati sono più esplicite. Nibomo documenta lo studio offline su dispositivi mobili con sincronizzazione automatica, mentre la [guida introduttiva](/it/docs/getting-started/) specifica che il client iOS usa SQLite in locale e una sincronizzazione progettata per dare priorità all'uso offline. Le esportazioni portabili includono schede, tag e relativi file multimediali, anche nei trasferimenti tra installazioni ospitate dal servizio e installazioni su un proprio server.
 
-Il compromesso riguarda l'ampiezza delle funzioni. Le attuali pagine di Nibomo non documentano il menu di importazione di Gizmo, i cinque tipi di schede, le lezioni guidate da Tutor o il sistema di ricompense. Se sono queste funzioni a risolvere il problema che ti ha portato qui, Gizmo è probabilmente più adatto.
+Se usi i tipi di domanda interattivi, le lezioni con Tutor o le ricompense, continua a usare Gizmo per quelle attività.
 
 ## Si può passare da Gizmo a un'altra app?
 
-Oggi non c'è un passaggio semplice. Poiché Gizmo non permette di esportare, non esiste una normale migrazione tramite file da Gizmo a Nibomo o a un'altra app.
+Nell’app web di Nibomo, scegli **Libreria > Importa > Importa da un’altra app** e usa il PDF di Gizmo come fonte per creare nuove carte nella chat IA. Questo trasferimento non è stato provato per la recensione. Confronta le carte ottenute con il mazzo originale. Trovi tutti i passaggi nella [guida all’importazione](/docs/import-flashcards/).
 
 L'alternativa più sicura è manuale e selettiva:
 
@@ -147,11 +149,11 @@ L'alternativa più sicura è manuale e selettiva:
 
 È più lento di uno strumento di importazione e comporta una perdita di informazioni. Un vantaggio collaterale è che porti con te solo le schede che superano un controllo di qualità.
 
-Un'altra possibilità è usare entrambe le app. Gizmo può aiutarti ad analizzare una lezione o una presentazione e offrirti esercizi vari. Nibomo può ospitare un insieme più piccolo di schede fronte/retro controllate, da ripassare con FSRS. Il passaggio resta manuale perché Gizmo non esporta le schede.
+Un'altra possibilità è usare entrambe le app. Gizmo può aiutarti ad analizzare una lezione o una presentazione e offrirti esercizi vari. Nibomo può ospitare un insieme più piccolo di schede fronte/retro controllate, da ripassare con FSRS.
 
 ## Quale percorso di studio fa per te?
 
-Scegli Gizmo quando parti da materiale disordinato e vuoi che l'app costruisca una prima struttura per studiare. I suoi punti di forza documentati sono la varietà delle fonti, i cinque tipi di schede, lo studio guidato da Tutor, i quiz vari e le meccaniche di progressione.
+Scegli Gizmo quando parti da materiale disordinato e vuoi che l'app costruisca una prima struttura per studiare. I suoi punti di forza documentati sono la varietà delle fonti, i sette tipi di schede, lo studio guidato da Tutor, i quiz vari e le meccaniche di progressione.
 
 Scegli Nibomo quando sai già cosa merita una scheda fronte/retro da conservare nel tempo e dai più peso a FSRS, allo studio offline documentato su dispositivi mobili, all'esportazione o all'installazione su un tuo server che alla varietà dei quiz e alle ricompense.
 

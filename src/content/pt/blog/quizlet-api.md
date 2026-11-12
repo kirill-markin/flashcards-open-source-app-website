@@ -19,7 +19,7 @@ Essa constatação diz respeito à documentação pública do Quizlet, não aos 
 
 **Fatos verificados:** 18 de agosto de 2026.
 
-> **Transparência:** Sou Kirill Markin e desenvolvo o Nibomo, cuja Agent API e cujo servidor MCP aparecem como alternativas abaixo. O Nibomo não é compatível com o Quizlet e não importa conjuntos do Quizlet automaticamente.
+> **Transparência:** Sou Kirill Markin e desenvolvo o Nibomo, cuja Agent API e cujo servidor MCP aparecem como alternativas abaixo. A API do Nibomo funciona com seus próprios espaços de trabalho. Para transferir um conjunto do Quizlet, comece exportando pelo próprio Quizlet.
 
 ![Desenvolvedor compara a exportação do Quizlet, a incorporação em páginas, integrações específicas e uma API documentada de flashcards](/blog/quizlet-api.png)
 
@@ -95,7 +95,7 @@ Ambos os caminhos ficam restritos ao espaço de trabalho selecionado. Os recurso
 
 Isso pode ajudar um desenvolvedor ou agente de IA a automatizar seus próprios flashcards. Não permite ler uma URL do Quizlet, espelhar uma conta do Quizlet nem atuar como um cliente não documentado do Quizlet. Não há importador automático do Quizlet. Para uma migração, primeiro exporte os termos e as definições do seu próprio conjunto, confira o texto e depois mapeie-o para os campos dos cartões no destino. O sistema de destino cria seu próprio estado de estudo; o histórico do Quizlet não é transferido.
 
-Para entender as diferenças entre os produtos além do acesso à API, veja a [comparação com uma alternativa de código aberto ao Quizlet](/blog/quizlet-alternative/).
+Essas interfaces automatizam o trabalho em um espaço de trabalho do Nibomo. Para transferir um conjunto do Quizlet, exporte os termos e as definições de um conjunto que você criou. No app web do Nibomo, **Biblioteca > Importar > Importar de Quizlet** envia o texto colado ao chat de IA, que cria cartões com um novo calendário de revisões. Confira os cartões antes de usá-los pela API. [Guia de exportação do Quizlet](/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/).
 
 ## Requisições privadas do navegador não são um atalho seguro
 

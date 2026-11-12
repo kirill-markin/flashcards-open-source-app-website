@@ -104,9 +104,13 @@ Näin luot Quizletin tekstistä CSV-tiedoston turvallisesti:
 
 Taulukkolaskentaohjelma voi lisätä CSV-muodon vaatimat lainausmerkit. Kaikkien sarkainten korvaaminen pilkuilla ei tee sitä luotettavasti.
 
-## Siirrä teksti Nibomoon tarkistettaviksi korttiluonnoksiksi
+## Tuo Quizletin teksti Nibomoon
 
-[Nibomossa](/fi/features/) ei ole suoraa Quizlet-tuontia. Verkkopalvelussa TXT- tai CSV-tiedostoa käytetään tekoälyavusteiseen korttien luonnosteluun tiedostoliitteestä. Kyse ei ole häviöttömästä siirrosta.
+Avaa Nibomon verkkosovelluksessa **Kirjasto → Tuonti → Tuo sovelluksesta Quizlet** ja liitä viety teksti. **Aloita tuonti** lähettää tekstin tekoälykeskusteluun, joka voi tallentaa kortit suoraan. Vertaa tallennettuja kortteja alkuperäiseen tekstiin.
+
+Kirjaudu ensin Nibomoon. Jos haluat esikatsella yksinkertaisia korttipareja ennen tallennusta, valitse **Tuo laskentataulukosta**. Katso [tuontiopas](/docs/import-flashcards/).
+
+Jos haluat tekoälyltä ensin luonnoksen tallentamatta mitään, toimi näin:
 
 1. Säilytä alkuperäinen Quizlet-tiedosto sovelluksen ulkopuolella.
 2. Liitä siistitty TXT-tiedosto tai huolellisesti valmisteltu CSV-tiedosto Nibomon tekoälykeskusteluun.

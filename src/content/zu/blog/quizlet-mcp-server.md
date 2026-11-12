@@ -63,7 +63,7 @@ Ngesethi oyidalile, ukudlulisa ngokucophelela kuyinqubo emfushane:
 2. Gcina ikhophi ye-UTF-8 engathintwanga ngaphambi kokushintsha izihlukanisi, ukunqamuka kwemigqa, noma amagama.
 3. Hlela enye ikhophi, hhayi umbhalo wokuqala othekelisiwe.
 4. Hlola isampula esuka ekuqaleni, phakathi, nasekupheleni, kanye nezincazelo ezinemigqa eminingi nezinhlamvu ezingezona ezesiLatini.
-5. Ngenisa noma unamathisele ikhophi osebenza ngayo, ubuke kuqala izinhlangothi zangaphambili nezingemuva zamakhadi ambalwa, bese ugcina amakhadi ngemva kwalokho kuphela.
+5. Uma ufuna ukubuka amakhadi ngaphambi kokuwagcina, namathisela umbhalo onamakholomu amabili kokuthi **Ngenisa kusuka kuspredishithi** esikhundleni sokungenisa kusuka ku-Quizlet. Hlola izinhlangothi zombili zamakhadi ambalwa bese uqinisekisa ukungenisa.
 6. Gcina isethi ye-Quizlet nefayela lokuqala kuze kube yilapho iqoqo lamakhadi lapho uwathuthele khona selivuliwe futhi lahlolwa.
 
 Ukuhlola okuphelele kwezihlukanisi, i-CSV, namafayela kuchazwe kwesithi [Indlela Yokuthekelisa Amasethi e-Quizlet ngo-2026](/zu/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/). Kulula ukugeja umkhawulo obalulekile: ukuthekelisa kudlulisa umbhalo wamakhadi, hhayi izithombe ze-Quizlet, amafolda, umlando wokufunda, izinga lokuwazi kahle amakhadi, noma uhlelo lokuwabuyekeza.
@@ -86,8 +86,10 @@ Lokhu akuguquli i-Nibomo ibe isixhumi se-Quizlet. Inqubo esekelwayo yile:
 
 1. thekelisa umbhalo kusethi ye-Quizlet oyidalile;
 2. gcina ifayela lokuqala bese uhlola ikhophi osebenza ngayo;
-3. hlola ukuthi umbhalo ubekwe ezinkambini ezifanele zamakhadi ngaphambi kokuwagcina ku-Nibomo; bese
+3. Ukuze ungenise ngokuqondile, ohlelweni lwewebhu lwe-Nibomo khetha **Umtapo wolwazi > Ngenisa > Ngenisa kusuka ku-Quizlet**. Namathisela umbhalo bese ukhetha **Qala ukungenisa**. Ingxoxo ye-AI ingagcina amakhadi ngaleso sikhathi, ngakho waqhathanise nawasekuqaleni.
 4. uxhuma indawo yokusebenzela ye-Nibomo evelayo kuklayenti elihambisanayo ukuze lifunde futhi libhale esikhathini esizayo.
+
+Bheka [umhlahlandlela wokungenisa amakhadi](/docs/import-flashcards/) ukuze uthole ezinye izindlela.
 
 Ku-Claude, izinyathelo zesixhumi zichazwe kwesithi [Indlela Yokuxhuma i-Nibomo ku-Claude nge-MCP](/blog/how-to-connect-flashcards-to-claude-with-mcp/). I-Codex namanye ama-ejenti angasebenzisa indlela ye-MCP noma ye-Agent API echazwe emibhalweni futhi esekelwa indawo asebenza kuyo.
 
@@ -101,7 +103,7 @@ Isivumelwano sokuxhumana esishicilelwe emphakathini sisusa okunye ukuqagela ekuh
 
 I-Nibomo ihlukanisa imisebenzi yokufunda namathuluzi ayo okubhala: `sql_execute` yamakhadi namaqoqo amakhadi, ne-`submit_review` yokubuyekeza. Imininingwane yokuqinisekisa ukufinyelela ye-OAuth isahlanganisa yonke imisebenzi yesixhumi, ngakho ukuvinjwa kwamathuluzi nendlela yokucela imvume kuncike kuklayenti. Qala ngendawo yokusebenzela encane engenayo idatha ebucayi. Vumela i-ejenti ifunde kuphela idatha edingekayo emsebenzini, wenze ukuthi ukubhala ngakunye kudinge imvume uma iklayenti likusekela lokho, futhi uhlole indawo yokusebenzela noshintsho oluhlongozwayo ngaphambi kokulwamukela.
 
-Ungaxhumi izinto zakho zokufunda zangasese uze uhlole imigomo yeklayenti le-AI yokugcinwa nokuphathwa kwedatha. Ekudluliseni kokuqala, umthetho olula wanele: gcina umbhalo wokuqala othekelisiwe, ubuke kuqala amakhadi ambalwa, uvumele ukubhala okulinganiselwe, bese uqinisekisa umphumela ohlelweni owathuthela kulo ngaphambi kokwenza okwengeziwe.
+Ungaxhumi izinto zakho zokufunda zangasese uze uhlole imigomo yeklayenti le-AI yokugcinwa nokuphathwa kwedatha. Uma uvumela isenzo sokuqala sokubhala nge-MCP, nciphisa ububanzi bezinguquko bese uhlola umphumela ku-Nibomo.
 
 ## Ungaguquli ukuxhumana kwangasese kwesiphequluli kube i-API
 

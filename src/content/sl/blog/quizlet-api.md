@@ -19,7 +19,7 @@ Ta ugotovitev se nanaša na javno dokumentacijo Quizleta, ne na njegove notranje
 
 **Dejstva preverjena:** 18. avgusta 2026.
 
-> **Razkritje:** Sem Kirill Markin in razvijam Nibomo, katerega Agent API in strežnik MCP sta spodaj predstavljena kot alternativi. Nibomo ni združljiv s Quizletom in ne omogoča samodejnega uvoza njegovih zbirk.
+> **Razkritje:** Sem Kirill Markin in razvijam Nibomo, katerega Agent API in strežnik MCP sta spodaj predstavljena kot alternativi. API Nibomo deluje z lastnimi delovnimi prostori. Prenos kompleta iz Quizleta se začne z izvozom na njegovem spletnem mestu.
 
 ![Razvijalec primerja izvoz iz Quizleta, vdelavo, integracije s posameznimi izdelki in dokumentiran API za učne kartice](/blog/quizlet-api.png)
 
@@ -93,7 +93,7 @@ Osmo orodje, `get_usage_limits`, omogoča izključno vpogled v naročniški pake
 
 Oba načina dostopa sta omejena na izbrani delovni prostor. Dokumentirani viri so `workspace`, `cards`, `decks` in `review_events`, rezultati pa so omejeni na 100 vrstic na stavek SQL. Vmesnik uporablja omejen dialekt SQL in ne omogoča neposrednega dostopa do PostgreSQL. Sheme OpenAPI ni, zato bodo postopki, ki temeljijo na samodejno ustvarjenih odjemalcih OpenAPI, potrebovali drugačen vmesnik.
 
-To lahko razvijalcu ali agentu umetne inteligence pomaga avtomatizirati delo z lastnimi učnimi karticami. Ne more pa prebrati URL-ja Quizlet, zrcaliti računa Quizlet ali delovati kot nedokumentiran odjemalec Quizleta. Samodejnega uvoznika za Quizlet ni. Za selitev najprej izvozite pojme in definicije iz lastne zbirke, preglejte besedilo in ga nato preslikajte v polja kartic v ciljnem sistemu. Ta ustvari lastno stanje učenja; zgodovina iz Quizleta se ne prenese.
+Ta vmesnika omogočata delo s karticami v Nibomu. Za enkratni prenos izvozite izraze in definicije iz svojega kompleta, jih na spletu prilepite prek **Knjižnica > Uvoz > Uvozi iz aplikacije Quizlet** in zaženite uvoz z AI. Shranjene kartice preverite, preden jih začnete urejati prek API-ja. Zgodovina ponavljanja iz Quizleta se ne prenese. Kako pripraviti besedilo, razloži [vodnik za izvoz iz Quizleta](/sl/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/).
 
 Razlike med izdelkoma, ki presegajo dostop do API-ja, so opisane v [primerjavi z odprtokodno alternativo Quizletu](/blog/quizlet-alternative/).
 

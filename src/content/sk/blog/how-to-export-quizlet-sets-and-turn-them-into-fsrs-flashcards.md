@@ -104,18 +104,13 @@ Ako spoľahlivo vytvoriť CSV z exportu Quizletu:
 
 Tabuľkový procesor dokáže doplniť úvodzovky, ktoré CSV potrebuje. Hromadné nahradenie tabulátorov čiarkami to spoľahlivo nedokáže.
 
-## Preneste text do Nibomo ako podklad pre návrhy, ktoré skontrolujete
+## Preneste text do Nibomo a skontrolujte kartičky
 
-[Nibomo](/sk/features/) nemá priamy import z Quizletu. V hostovanej aplikácii sa TXT alebo CSV používa ako príloha na tvorbu návrhov pomocou AI, nie na bezstratový prenos dát.
+Vo webovej aplikácii Nibomo otvorte **Knižnica > Import > Importovať z aplikácie Quizlet**, prilepte skopírovaný text z vlastnej sady a vyberte **Spustiť import**. AI chat z textu vytvorí kartičky v pracovnom priestore. Porovnajte uložené otázky a odpovede s originálom. Ak máte nezvyčajné oddeľovače alebo viacriadkové definície, začnite malou dávkou.
 
-1. Pôvodný súbor z Quizletu si nechajte uložený mimo aplikácie.
-2. V AI chate Nibomo priložte vyčistený súbor TXT alebo správne pripravený súbor CSV.
-3. Povedzte asistentovi, aký oddeľovač a aké polia súbor používa.
-4. Požiadajte o malú ukážku a výslovne uveďte, že zatiaľ nemá ukladať kartičky.
-5. Porovnajte navrhovaný počet kartičiek aj ich predné a zadné strany s pracovným súborom.
-6. Uložte len kartičky, ktoré ste skontrolovali.
+Najprv sa prihláste do účtu Nibomo. Ak si chcete kartičky pozrieť pred uložením, zvoľte **Importovať z tabuľky** a prilepte čistý text z dvoch stĺpcov. Nastavte oddeľovače, skontrolujte dvojice a potvrďte import. Kartičky začínajú s novým rozvrhom opakovania.
 
-[Úvodná príručka](/docs/getting-started/) opisuje AI chat s dátami pracovného priestoru a prílohami. Opatrne formulované zadanie môže vyzerať takto:
+Ďalšie možnosti nájdete v [návode na import kartičiek](/sk/docs/import-flashcards/). Ak súbor TXT alebo CSV priložíte v AI chate a chcete najprv náhľad bez uloženia, môžete napísať:
 
 > Čítaj tento súbor ako dvojice pojmov a definícií oddelených tabulátorom. Zatiaľ neukladaj žiadne kartičky. Navrhni malú ukážku, zachovaj pôvodné znenie aj nelatinkové znaky. Chybné, prázdne alebo nejednoznačné riadky vypíš samostatne a ich obsah neodhaduj.
 

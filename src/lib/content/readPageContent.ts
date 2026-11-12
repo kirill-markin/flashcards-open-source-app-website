@@ -140,6 +140,9 @@ function validateFeatureItems(
       `${fieldName}.description`,
       slug
     ),
+    ...(item.link === undefined
+      ? {}
+      : { link: validateContentLink(item.link, `${fieldName}.link`, slug) }),
   }));
 }
 

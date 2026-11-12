@@ -93,7 +93,7 @@ Nibomo dokumenterer to adgangsveje til de samme begrænsede data for hver bruger
 
 Begge adgangsveje er afgrænset til et arbejdsområde. De offentliggjorte ressourcer er `workspace`, `cards`, `decks` og `review_events`, og resultater er begrænset til 100 rækker pr. SQL-sætning. Den SQL-lignende grænseflade bruger en begrænset dialekt, ikke rå PostgreSQL. Der findes intet OpenAPI-skema, så forløb, der afhænger af genererede OpenAPI-klienter, har brug for en anden grænseflade.
 
-Det kan hjælpe en udvikler eller AI-agent med at automatisere flashcards, de selv ejer. Det kan ikke læse en Quizlet-URL, spejle en Quizlet-konto eller fungere som en udokumenteret Quizlet-klient. Der er ingen automatisk Quizlet-import. Ved en flytning skal du først eksportere termer og definitioner fra dit eget sæt, gennemgå teksten og derefter overføre indholdet til de relevante kortfelter i det nye system. Det nye system opretter sine egne repetitionsdata; Quizlet-historikken følger ikke med.
+Det kan hjælpe en udvikler eller AI-agent med at automatisere flashcards, de selv ejer. Det kan ikke læse en Quizlet-URL, spejle en Quizlet-konto eller fungere som en udokumenteret Quizlet-klient. Gå til **Bibliotek > Import > Importér fra Quizlet** i Nibomos webapp. Indsæt den kopierede tekst, og vælg **Start import**. Nibomo sender teksten til AI-chatten, som opretter nye kort. Sammenlign de gemte kort med kilden. Billeder, læringshistorik og repetitionsdatoer bliver i Quizlet.
 
 Læs [sammenligningen af open source-alternativet til Quizlet](/blog/quizlet-alternative/) for at se forskellene mellem produkterne ud over API-adgang.
 

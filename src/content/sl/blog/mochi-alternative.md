@@ -165,6 +165,8 @@ Mochijev [vodnik za varnostno kopiranje](https://mochi.cards/docs/getting-starte
 - Kopiranje celotne uporabniške mape ohrani vsebino, zgodovino ponavljanja, priloge, nastavitve aplikacije in stanje prijave.
 - Izvoz `.mochi` ohrani komplete, kartice, predloge in polja, priloge, oznake in metapodatke, zgodovino ponavljanja, vrstni red kartic ter strukturo kompletov.
 
+Če želite v Nibomu preizkusiti komplet iz Mochija, v spletni aplikaciji odprite **Knjižnica > Uvoz > Uvozi iz aplikacije Mochi** in izberite datoteko `.mochi`. Datoteka se pošlje v klepet z AI. Preverite vsebino kartic in predstavnostne datoteke. Prvotno datoteko obdržite za obnovo predlog in zgodovine ponavljanja v Mochiju. Oglejte si [vodnik za uvoz kartic](/sl/docs/import-flashcards/).
+
 Mochijeva [izvoza v Markdown in CSV](https://mochi.cards/docs/import-and-export/exporting/) sta namenjena prenosljivosti. Markdown ustvari eno datoteko za vsako kartico in mape za podkomplete, vendar izpusti zgodovino ponavljanja, vrstni red kartic, predloge in metapodatkovne oznake, razen če so oznake zapisane v Markdownu. CSV lahko izvozi polja predlog ali prikazano sprednjo in zadnjo stran, ne ohrani pa zgodovine ponavljanja, predlog ali metapodatkovnih oznak, razen če so oznake vključene v vsebino.
 
 Anki podobno ločuje med formati:

@@ -44,6 +44,10 @@ Najbrže ćete započeti s hostiranom web aplikacijom:
 
 Za hostiranu verziju ne trebate ništa instalirati ni postavljati poslužitelj.
 
+## Prenesite svoje kartice
+
+Već imate kartice u Quizletu, Ankiju ili drugoj aplikaciji? Otvorite **Knjižnica > Uvoz** pa u [vodiču za uvoz kartica](/docs/import-flashcards/) provjerite koji format odabrati i što se može prenijeti.
+
 ## Postavljanje agenta
 
 MCP klijenti kao što su Claude, ChatGPT i Cursor mogu se povezati prema [vodiču za MCP konektor](/docs/mcp-connector/).

@@ -31,7 +31,7 @@ Choose **Quizlet** if you want a familiar classroom workflow, varied question ty
 
 Choose **Nibomo** if the main reason you want an open-source Quizlet alternative is transparent FSRS-6 scheduling, offline-first study on the web as well as mobile, AI and agent access to your workspace, or the option to operate the infrastructure yourself.
 
-Switching has a real cost. Nibomo has no direct Quizlet importer, and Quizlet export does not contain enough information for a lossless move. If your current Quizlet workflow works, staying put can be the sensible answer.
+Switching has a real cost. Nibomo can create cards from pasted Quizlet exports. The export contains the terms and definitions from eligible sets and leaves images and study progress behind. If your current Quizlet workflow works, staying put can be the sensible answer.
 
 ## Open source Quizlet alternative: the comparison
 
@@ -42,7 +42,7 @@ Switching has a real cost. Nibomo has no direct Quizlet importer, and Quizlet ex
 | Offline | iOS and Android; recent sets are saved and others can be downloaded | Offline-first local writes on web, iOS, and Android, then sync after reconnecting | Nibomo |
 | AI | Practice tests, study guides, summarization, flashcard creation, homework help, and Ask Quizlet | AI chat with file attachments, plus MCP and an Agent API | Quizlet for ready-made study tools; Nibomo for workspace and agent access |
 | Shared content | Public sets and folders, with a large teacher-created library | No comparable end-user shared-content library | Quizlet |
-| Import | Paste delimited text on the website; each row becomes a card | Imports only its own `flashcards.zip` package | Quizlet |
+| Import | Paste delimited text on the website; each row becomes a card | On web, **Import from Quizlet** sends pasted export text to AI chat. A separate spreadsheet route previews pasted rows | Either for pasted rows; Nibomo also accepts eligible Quizlet exports |
 | Export | Creator's own terms and definitions on the website; no images and no export of copied sets | `flashcards.zip` transfers cards, tags, and related media between Nibomo workspaces | Depends on what you need to move |
 | Data ownership and control | Closed, hosted service governed by Quizlet's product and terms | MIT-licensed; hosted app available; AWS CDK self-hosting gives operators infrastructure and database control | Nibomo for code access; self-hosting for infrastructure and database control |
 
@@ -96,11 +96,9 @@ Open source does not compensate for a missing content network. They solve differ
 
 Quizlet can [create a set from imported text](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content): paste terms and definitions with supported delimiters on the website, and each row becomes a card. This is a simple way to bring in material from notes or a spreadsheet.
 
-Nibomo imports only its own `flashcards.zip` package. That package transfers cards, tags, and related media between Nibomo workspaces. It is not a general CSV or Quizlet importer.
+In the Nibomo web app, choose **Library → Import → Import from Quizlet** and paste the terms and definitions copied from Quizlet. **Start import** sends the text to AI chat, which can save new cards. Check the result against the export. For a preview of clean two-column text before saving, use **Import from a spreadsheet**. The separate **Import from Nibomo** option transfers cards, tags, and related media from a `flashcards.zip` package.
 
-There is no direct Quizlet importer and no lossless Quizlet-to-Nibomo migration. Quizlet's text export can serve as raw material for manual rebuilding or AI-assisted card drafting, but it does not preserve the original study system. Calling that a migration would promise fidelity that does not exist.
-
-If you decide to rebuild selected cards, follow the narrower [Quizlet export workflow](/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/). It is designed around cleaning the exported text rather than pretending an automatic conversion is available.
+If you decide to rebuild selected cards, follow the narrower [Quizlet export workflow](/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/). It covers eligible sets, separators, and how to check the cards after import.
 
 ## Export and portability both have sharp edges
 
@@ -147,6 +145,6 @@ You may want neither. Anki, for example, is a stronger candidate when a mature a
 
 Nibomo is an **open source Quizlet alternative** in 2026 for one specific kind of user: someone willing to trade Quizlet's guided modes and content network for explicit FSRS-6, offline-first writes across web and mobile, agent access, and an MIT-licensed self-hosting path.
 
-It is not “Quizlet without the drawbacks.” It has its own gaps: no dedicated Learn or Test modes, no comparable shared-set library, no direct Quizlet importer, and no complete portable backup through `flashcards.zip`.
+It is not “Quizlet without the drawbacks.” It has its own gaps: no dedicated Learn or Test modes, no comparable shared-set library, a Quizlet import limited to exported text, and a portable `flashcards.zip` package that omits account data and study history.
 
 If those gaps remove the parts of Quizlet you use most, stay with Quizlet. If scheduler transparency, offline-first study, and infrastructure control are the reason you started searching, [open Nibomo](https://app.nibomo.com/) or [inspect the source](https://github.com/kirill-markin/flashcards-open-source-app) before deciding. A good study system is the one whose tradeoffs still look reasonable after the novelty wears off.

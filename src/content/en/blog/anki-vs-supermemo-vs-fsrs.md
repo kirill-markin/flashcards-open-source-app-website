@@ -69,13 +69,15 @@ Its headline scheduling feature is **Algorithm Arena**. The product page says SM
 
 Algorithm Arena makes the category mistake easy to see: FSRS can run *inside SuperMemo 20*. They are not mutually exclusive choices.
 
+If you have a SuperMemo XML export, the Nibomo web app has **Library → Import → Import from SuperMemo** to send the `.xml` file to AI chat. Start with a small export and check the new cards against the source. The cards start with a new schedule. The Windows product line has [documented XML export](https://super-memory.org/archive/archive/help2006/file.htm). Availability depends on your version.
+
 ### The hosted SuperMemo.com service
 
 The current [SuperMemo.com app](https://www.supermemo.com/en/app) is a hosted language-learning service available through a browser and on iOS and Android. It centers on prepared language courses, learning plans, MemoCards, and related language features. Courses can be downloaded for mobile study, but the [offline documentation](https://www.supermemo.com/en/faq/can-i-use-supermemo-offline) lists important limits: features such as adding MemoCards, AI, search, statistics, and the course editor remain unavailable offline.
 
 The hosted service describes its scheduler as proprietary and documents its own SuperMemo method and review flow. Its public pages do not establish that the current scheduler is SM-18, SM-20, or FSRS, so this article does not assign one of those labels to it.
 
-That distinction changes buying advice. Someone who wants Windows incremental reading should evaluate SuperMemo 20. Someone who wants a hosted Spanish or English course should evaluate SuperMemo.com. They share a name and history, but they are not interchangeable product experiences.
+The Windows XML route does not establish an export from the hosted service. That distinction changes buying advice. Someone who wants Windows incremental reading should evaluate SuperMemo 20. Someone who wants a hosted Spanish or English course should evaluate SuperMemo.com. They share a name and history, but they are not interchangeable product experiences.
 
 ## The SuperMemo algorithm is a family, not one formula
 

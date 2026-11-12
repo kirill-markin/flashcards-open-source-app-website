@@ -106,7 +106,11 @@ A táblázatkezelő hozzá tudja adni a CSV-hez szükséges idézőjeleket. Ha e
 
 ## Vidd át a szöveget a Nibomóba ellenőrzendő kártyavázlatként
 
-A [Nibomónak](/hu/features/) nincs közvetlen Quizlet-importálója. A szolgáltatásban a TXT- vagy CSV-fájlokat csatolmányként adhatod át az AI-nak, amely kártyavázlatokat készít belőlük; ez nem veszteségmentes átköltöztetés.
+A Nibomo webalkalmazásában nyisd meg a **Könyvtár > Importálás > Importálás innen: Quizlet** menüpontot, és illeszd be a szöveget. Az **Importálás indítása** elküldi a szöveget az AI-csevegésbe, amely kártyákat készít. A mentett kártyákat hasonlítsd össze a forrással.
+
+Először jelentkezz be a Nibomo-fiókodba. Ha mentés előtt előnézetet szeretnél a két oszlopba rendezett párokról, illeszd be őket az **Importálás táblázatból** képernyőn. Mindkét úton új ütemezéssel indulnak a kártyák. A lépéseket lásd az [importálási útmutató](/docs/import-flashcards/).
+
+Ha mentés előtt mintát kérnél az AI-tól, csatold a TXT- vagy CSV-fájlt egy új csevegéshez, és írd meg a saját kérésedet.
 
 1. Őrizd meg a nyers Quizlet-fájlt az alkalmazáson kívül.
 2. Csatold a megtisztított TXT-t vagy a gondosan előkészített CSV-t a Nibomo AI-csevegésében.

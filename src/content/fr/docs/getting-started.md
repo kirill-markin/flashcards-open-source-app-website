@@ -44,6 +44,10 @@ Le moyen le plus rapide de commencer est l'application web hébergée :
 
 Aucune installation ni configuration de serveur n'est nécessaire pour la voie hébergée.
 
+## Récupérer vos cartes mémoire
+
+Vous avez déjà des cartes dans Quizlet, Anki ou une autre application ? Ouvrez **Bibliothèque > Importer**, puis consultez le [guide d’importation des cartes mémoire](/docs/import-flashcards/) pour choisir le format adapté et vérifier ce qui est transféré.
+
 ## Configuration d'un agent
 
 Les clients MCP comme Claude, ChatGPT et Cursor peuvent se connecter en suivant le [guide du connecteur MCP](/docs/mcp-connector/).

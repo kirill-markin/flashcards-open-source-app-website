@@ -111,7 +111,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "导入、导出并掌控数据",
           description:
-            "随时将学习资料导入或导出。便携式导出包包含你的闪卡、标签和相关媒体。",
+            "将 Quizlet、Anki 等应用中的闪卡迁移到 Nibomo。你也可以随时导出 Nibomo 中的闪卡、标签和媒体。",
+          link: {
+            label: "查看如何导入闪卡",
+            href: "/docs/import-flashcards/",
+          },
         },
         {
           title: "支持 AI 代理",

@@ -39,7 +39,7 @@ There is no automatic winner. The deciding question is where the authoritative c
 | Scheduling | Vendor advertises “simple spaced repetition”; no public algorithm or interval formula found | Documented FSRS-6 with Again, Hard, Good, and Easy | Mature FSRS controls, including desired retention, parameter optimization, presets, and simulation |
 | Platforms | Browser, Google Sheets add-on, Chrome extension, iPhone, and Android | Web, iOS, and Android; no native desktop app | Windows, macOS, Linux, AnkiWeb, AnkiMobile, and AnkiDroid |
 | Offline boundary | No complete official offline or later-sync contract found | Cards, edits, and reviews write locally first, then sync after reconnection; initial login and hydration need a connection | Installed clients keep a local collection and work offline; AnkiWeb is the browser service |
-| Spreadsheet workflow | Central to the product; no separate deck import is described for ordinary Sheet-based review | Spreadsheets can be attached as source material for reviewed AI drafting, not kept as live Sheet-backed cards | Imports delimited text into note fields; the source sheet does not stay linked |
+| Spreadsheet workflow | Central to the product; no separate deck import is described for ordinary Sheet-based review | Paste two columns into **Import from a spreadsheet** for an editable preview. CSV and XLSX files can also go to AI chat | Imports delimited text into note fields; the source sheet does not stay linked |
 | Pricing checked August 12, 2026 | Free entry points with paid features; US iPhone listing showed Pro at US$17.99 and Elite at US$19.99 | Hosted core free during beta; MIT-licensed software is free, but self-hosted infrastructure and providers cost money | Desktop, AnkiWeb, and AnkiDroid are free; US AnkiMobile was a US$24.99 one-time purchase |
 | Open source / self-hosting | No official core source or self-hosting distribution found | MIT-licensed application and AWS infrastructure with a documented production path | Open-source desktop clients and an official self-hosted sync server; not a self-hosted AnkiWeb |
 
@@ -142,7 +142,7 @@ The strongest portability claim here is simple: you can still read and copy prom
 
 The official sources do not establish that review history, spaced repetition state, test results, image behavior, purchases, or every app setting lives in the Sheet. An untouched copy protects the visible card content; it is not automatically a complete Flashcard Lab backup.
 
-There is also no lossless migration to Nibomo. Nibomo has no live Google Sheets integration and no Flashcard Lab importer. A CSV, spreadsheet export, or attached spreadsheet can be source material for AI-assisted drafting, but the draft needs review and begins with new FSRS state. Attaching a spreadsheet is not the same as keeping cards backed by a live Sheet.
+For clean prompt and answer columns, copy the cells into **Library → Import → Import from a spreadsheet** in the Nibomo web app. Check the preview before saving. If you already have a CSV or XLSX export, **Import from another app** sends it to AI chat to make cards. Both routes create Nibomo cards with fresh scheduling state. Changes to the source Sheet won't sync to those cards. See the [import guide](/docs/import-flashcards/).
 
 Anki has a more conventional route because it can [import delimited text into note fields](https://docs.ankiweb.net/importing/text-files.html). You still need to map columns, decide what to do with optional subtext, verify media, and expect new scheduling unless a supported format explicitly carries history. A Google Sheet is not an Anki collection package.
 
@@ -168,7 +168,7 @@ Accept the tradeoffs before committing: meaningful Google permissions, a schedul
 
 Nibomo is the stronger **Flashcard Lab alternative** when the goal is to move the source of truth out of Google Sheets. It provides dedicated front/back cards, documented FSRS-6, offline-first writes across web and mobile, agent access, MIT-licensed code, and a supported whole-stack deployment.
 
-It is not a shortcut for the existing Sheet workflow. There is no live Sheets sync, direct Flashcard Lab importer, native desktop client, or lossless scheduling migration. The [getting-started guide](/docs/getting-started/) covers the hosted route. The [self-hosting guide](/docs/self-hosting/) explains the AWS-centered production path and the operator work it requires.
+It is not a shortcut for the existing Sheet workflow. The Sheet and imported cards remain separate copies. Nibomo also lacks a native desktop client. The [getting-started guide](/docs/getting-started/) covers the hosted route. The [self-hosting guide](/docs/self-hosting/) explains the AWS-centered production path and the operator work it requires.
 
 ### Choose Anki for mature local power
 

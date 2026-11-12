@@ -111,7 +111,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Importa, exporta y controla tus datos",
           description:
-            "Mueve tus materiales de estudio cuando quieras. Las exportaciones portátiles incluyen tus tarjetas, etiquetas y archivos multimedia relacionados.",
+            "Trae tus tarjetas de Quizlet, Anki y otras apps. Exporta tus tarjetas, etiquetas y archivos multimedia de Nibomo cuando quieras.",
+          link: {
+            label: "Consulta cómo importar tarjetas",
+            href: "/docs/import-flashcards/",
+          },
         },
         {
           title: "Compatible con agentes de IA",

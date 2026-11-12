@@ -1,5 +1,6 @@
 const ICON_CONTENT: Readonly<Record<string, React.ReactNode>> = {
   "getting-started": <path d="M4 19.5V5a2 2 0 0 1 2-2h14v18H6a2 2 0 0 1 0-4h14M8 7h8M8 11h5" />,
+  "import-flashcards": <path d="M12 3v12m-4-4 4 4 4-4M5 16v4h14v-4" />,
   "self-hosting": <><rect x="3" y="3" width="18" height="7" rx="2" /><rect x="3" y="14" width="18" height="7" rx="2" /><path d="M7 6.5h.01M7 17.5h.01M14 6.5h3M14 17.5h3" /></>,
   api: <path d="m8 6-6 6 6 6m8-12 6 6-6 6M14 4l-4 16" />,
   "mcp-connector": <path d="M9 3v5m6-5v5M7 8h10v3a5 5 0 0 1-10 0V8Zm5 8v5" />,

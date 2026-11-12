@@ -164,6 +164,7 @@ Mochi की [backup guide](https://mochi.cards/docs/getting-started/backing-up/
 
 - पूरी user directory copy करने पर content, review history, attachments, app settings और login state सुरक्षित रहते हैं।
 - `.mochi` export में decks, cards, templates और fields, attachments, tags और metadata, review history, card order और deck structure सुरक्षित रहते हैं।
+Nibomo के वेब ऐप में Mochi डेक आज़माने के लिए **लाइब्रेरी > इम्पोर्ट > Mochi से आयात करें** खोलें और `.mochi` फ़ाइल चुनें। AI चैट उससे नए कार्ड बनाती है। कार्ड का कॉन्टेंट और मीडिया जाँचें। Mochi में टेम्पलेट और रिव्यू हिस्ट्री वापस पाने के लिए मूल फ़ाइल रखें। पूरे निर्देशों के लिए [इंपोर्ट गाइड](/docs/import-flashcards/) देखें।
 
 Mochi के [Markdown और CSV exports](https://mochi.cards/docs/import-and-export/exporting/) portability के लिए हैं। Markdown हर कार्ड के लिए एक फ़ाइल और subdecks के लिए folders बनाता है, लेकिन review history, card order, templates और metadata tags छोड़ देता है—जब तक tags Markdown में न हों। CSV template fields या render किए हुए front/back sides export कर सकता है, लेकिन review history, templates या metadata tags सुरक्षित नहीं रखता—जब तक वे content में शामिल न हों।
 
