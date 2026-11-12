@@ -1637,6 +1637,21 @@
     "bytes": 1982893
   },
   {
+    "publicPath": "/blog/flashcards-world-to-nibomo.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/14bb47f99909a01f5349ecf1fbb0a3db7c946718487b01d4553aefb04452285b.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "14bb47f99909a01f5349ecf1fbb0a3db7c946718487b01d4553aefb04452285b",
+    "bytes": 244408,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/f6abe2e74f55202489f3cb4fd4871121c96a67c6bbd9c6da0deb8ac2abae936d.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "f6abe2e74f55202489f3cb4fd4871121c96a67c6bbd9c6da0deb8ac2abae936d",
+      "bytes": 2839500
+    }
+  },
+  {
     "publicPath": "/blog/force-displacement-graph-practice-chart.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/561b77062c8e7c46c3ffc8c254d5cfd102ae04eed9a5917d2cb0997bf4702125.webp",
     "width": 2016,
