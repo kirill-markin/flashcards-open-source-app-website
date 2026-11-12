@@ -1243,6 +1243,21 @@
     }
   },
   {
+    "publicPath": "/blog/ege-word-stress-task-4-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/54a83b552153a78f300bbf3921879b8e8b56703518d48698019741dca7d50687.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "54a83b552153a78f300bbf3921879b8e8b56703518d48698019741dca7d50687",
+    "bytes": 141934,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/c3d8e235bdf5b036130763ccd88e6921ff56b441c5b339b9b699b885fed59c21.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "c3d8e235bdf5b036130763ccd88e6921ff56b441c5b339b9b699b885fed59c21",
+      "bytes": 2322912
+    }
+  },
+  {
     "publicPath": "/blog/electron-configuration-practice.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/a96f4d8c07721b2ee285fcee3760ae60498a65409263cb0f5d2fb696ab796166.png",
     "width": 1672,
