@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1hi~1blog~1ham-radio-technician-flashcards.md"
 title: "2026 में Ham Radio Technician फ़्लैशकार्ड: नया प्रश्न-संग्रह पढ़ें"
 description: "2026–2030 NCVEC प्रश्न-संग्रह से U.S. FCC Technician परीक्षा के लिए फ़्लैशकार्ड बनाएँ। अवधारणाएँ सीखें, अभ्यास परीक्षाओं की गलतियाँ सुधारें और 35 सवालों वाली परीक्षा की तैयारी करें।"
 date: "2026-07-25"

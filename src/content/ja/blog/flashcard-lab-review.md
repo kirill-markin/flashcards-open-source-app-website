@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1ja~1blog~1flashcard-lab-review.md"
 title: "Flashcard Labアプリレビュー（2026年）：Google スプレッドシート、間隔反復、代替アプリ"
 description: "公式情報を照合したFlashcard Labアプリレビューです。Google スプレッドシートを使うワークフロー、モバイルアプリ、間隔反復、料金、権限、代替アプリを取り上げます。"
 date: "2026-08-12"

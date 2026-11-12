@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1ar~1blog~1does-quizlet-work-offline.md"
 title: "هل يعمل Quizlet دون اتصال بالإنترنت في 2026؟ ما الذي يمكنك استخدامه بلا إنترنت"
 description: "هل يعمل Quizlet دون اتصال بالإنترنت؟ نعم، عبر تطبيقي iOS وAndroid بعد حفظ المجموعات. إليك الأوضاع الموثّقة وخطوات التنزيل وحدود المزامنة واختبار ما قبل السفر."
 date: "2026-08-14"

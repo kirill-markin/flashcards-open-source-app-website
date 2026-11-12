@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1ar~1blog~1how-to-use-the-feynman-technique-with-flashcards.md"
 title: "كيف تستخدم تقنية فاينمان مع البطاقات التعليمية في 2026: اشرح ببساطة ثم دع FSRS يتولى المراجعة"
 description: "استخدم تقنية فاينمان مع البطاقات التعليمية في 2026: اشرح الفكرة بلغة عادية، وحوّل فقط نقاط الضعف إلى بطاقات صغيرة، ثم دع FSRS يتولى مواعيد مراجعتها."
 image: "/blog/how-to-use-the-feynman-technique-with-flashcards.png"

@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1ru~1blog~1how-to-memorize-a-speech-with-flashcards.md"
 title: "Как выучить речь с помощью карточек в 2026 году: подсказки вместо полного текста"
 description: "Разберитесь, как выучить речь с помощью карточек: составьте их по плану, репетируйте с разных частей и проверяйте подачу на полных прогонах."
 date: "2026-07-30"

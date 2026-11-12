@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1ar~1blog~1how-often-should-you-review-flashcards.md"
 title: "كم مرة ينبغي أن تراجع البطاقات التعليمية؟ دع FSRS يضع الجدول"
 description: "راجع البطاقات المستحقة يوميًا، لا كل بطاقة يوميًا. تعلّم كيف يكيّف FSRS فواصل المراجعة مع قدرتك على الاسترجاع، ومعدل الاحتفاظ المطلوب، وعبء عمل مستدام."
 date: "2026-07-19"

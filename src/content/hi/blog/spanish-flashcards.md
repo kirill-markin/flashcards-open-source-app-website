@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1hi~1blog~1spanish-flashcards.md"
 title: "2026 में स्पैनिश फ़्लैशकार्ड: शब्दावली, लिंग, क्रिया-रूप और उपयोगी वाक्यांश"
 description: "जानें कि शब्दावली, संज्ञा के लिंग, क्रिया-रूप, एक्सेंट, उपयोगी वाक्यांश और क्षेत्रीय रूप याद रखने के लिए सटीक स्पैनिश फ़्लैशकार्ड कैसे बनाएँ।"
 date: "2026-08-10"

@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1ja~1blog~1how-to-use-flashcards-for-aws-solutions-architect-associate.md"
 title: "2026年版 AWS Solutions Architect Associate向けフラッシュカードの使い方: SAA-C03のサービス、トレードオフ、模試のミスを定着させる"
 description: "2026年に AWS Certified Solutions Architect - Associate (SAA-C03) を受ける人向けに、AWS サービス、アーキテクチャのトレードオフ、Well-Architected の判断、演習問題の誤答を AI 下書きと FSRS 復習で整理する実践的な学習法を解説します。"
 date: "2026-05-11"

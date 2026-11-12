@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1ar~1blog~1how-to-use-ai-for-active-recall.md"
 title: "كيف تستخدم الذكاء الاصطناعي للاسترجاع النشط في 2026: دع المعلّم يسأل أولًا ثم احتفِظ بنقاط ضعفك"
 description: "أسلوب عملي للاسترجاع النشط في 2026 مع معلّمي الذكاء الاصطناعي: دع الجلسة تبدأ بالأسئلة، واحتفِظ فقط بالأخطاء والترددات، ثم حوّلها إلى بطاقات FSRS بدل حفظ المحادثة كلها."
 date: "2026-05-30"

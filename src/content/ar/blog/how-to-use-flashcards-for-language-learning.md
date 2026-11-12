@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1ar~1blog~1how-to-use-flashcards-for-language-learning.md"
 title: "كيف تستخدم البطاقات التعليمية لتعلّم اللغات في 2026: مفردات وجمل ومراجعات تثبت فعلًا"
 description: "هل تريد استخدام البطاقات التعليمية لتعلّم اللغات في 2026 من دون الاكتفاء بقوائم كلمات جامدة؟ إليك نظامًا عمليًا لبناء بطاقات مفردات وجمل واضحة، وضبط عبء المراجعة، والاستفادة من FSRS بطريقة تدوم فعلًا."
 date: "2026-04-04"

@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1hi~1blog~1music-theory-flashcards.md"
 title: "2026 में म्यूज़िक थ्योरी फ़्लैशकार्ड: नोट्स, इंटरवल, की और कॉर्ड"
 description: "नोट्स, इंटरवल, की सिग्नेचर और कॉर्ड के लिए म्यूज़िक थ्योरी फ़्लैशकार्ड बनाएँ, जिनमें सही स्पेलिंग वाले जवाब और पढ़ाई का व्यावहारिक लूप हो।"
 date: "2026-08-04"

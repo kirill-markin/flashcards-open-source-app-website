@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1ar~1blog~1how-to-turn-notion-notes-into-flashcards.md"
 title: "كيف تحوّل ملاحظات Notion إلى بطاقات تعليمية في 2026: صدّر الصفحة، وصُغ مسودات بالذكاء الاصطناعي، ثم راجعها مع FSRS"
 description: "هل تريد تحويل ملاحظات Notion إلى بطاقات تعليمية من دون نسخ كل جزء يدويًا إلى تطبيق دراسة؟ إليك مسارًا عمليًا في 2026: صدّر الصفحة، وأنشئ مسودات بطاقات نظيفة بالذكاء الاصطناعي، ثم راجعها باستخدام FSRS."
 date: "2026-03-29"

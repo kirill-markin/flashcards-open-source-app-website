@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1ar~1blog~1how-to-use-flashcards-for-the-fe-exam.md"
 title: "كيف تستخدم البطاقات التعليمية لاختبار FE في 2026: المعادلات، وتحويلات الوحدات، وأخطاء مسائل التدريب التي تترسخ فعلًا"
 description: "هل تستعد لاختبار FE في 2026؟ إليك سير عمل عملي بالبطاقات التعليمية للمعادلات، وتحويلات الوحدات، والمراجعة المعتمدة على الدليل، والفخاخ المفاهيمية، وأخطاء مسائل التدريب باستخدام التكرار المتباعد من دون أن يحل محل حل المسائل."
 date: "2026-07-02"

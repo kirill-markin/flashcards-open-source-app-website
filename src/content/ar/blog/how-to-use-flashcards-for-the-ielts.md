@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1ar~1blog~1how-to-use-flashcards-for-the-ielts.md"
 title: "كيف تستخدم البطاقات التعليمية لاختبار IELTS في 2026: بطاقات أفضل للمفردات والمحادثة والكتابة والاستماع"
 description: "هل تستعد لاختبار IELTS في 2026؟ اتبع سير عمل عمليًا للبطاقات التعليمية للمفردات داخل السياق، وبطاقات المحادثة، وأنماط الكتابة، وإعادات الصياغة في الاستماع، والأخطاء المتكررة في التدريب الرسمي، مع صياغة بمساعدة الذكاء الاصطناعي ومراجعة عبر FSRS."
 date: "2026-07-06"

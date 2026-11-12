@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1es~1blog~1how-to-memorize-a-speech-with-flashcards.md"
 title: "Cómo memorizar un discurso con flashcards en 2026: usa pistas, no un guion"
 description: "Aprende a memorizar un discurso con flashcards: convierte tu esquema en pistas, ensaya desde secciones al azar y comprueba la presentación con ensayos completos."
 date: "2026-07-30"

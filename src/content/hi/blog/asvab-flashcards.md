@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1hi~1blog~1asvab-flashcards.md"
 title: "2026 में ASVAB फ़्लैशकार्ड: शब्दावली, गणित और तकनीकी विषय"
 description: "AFQT के शब्दावली और गणित वाले हिस्सों के लिए ASVAB फ़्लैशकार्ड बनाएँ, नौकरी से जुड़े तकनीकी मॉड्यूल जोड़ें और पूरे सवालों व समयबद्ध अभ्यास को डेक से बाहर रखें।"
 date: "2026-08-11"

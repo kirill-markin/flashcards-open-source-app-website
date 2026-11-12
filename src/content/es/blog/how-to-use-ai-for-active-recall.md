@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1es~1blog~1how-to-use-ai-for-active-recall.md"
 title: "Cómo usar IA para hacer active recall en 2026: deja que el tutor pregunte primero y quédate con los puntos flojos"
 description: "Un flujo práctico de active recall con tutores de IA en 2026: empieza con preguntas, guarda solo los fallos y conviértelos en flashcards con FSRS en vez de archivar todo el chat."
 date: "2026-05-30"

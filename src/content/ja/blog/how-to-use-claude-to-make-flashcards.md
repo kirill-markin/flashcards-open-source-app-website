@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1ja~1blog~1how-to-use-claude-to-make-flashcards.md"
 title: "2026年にClaudeでフラッシュカードを作る方法: Projects、ファイルアップロード、FSRSレビュー"
 description: "2026年版の実践的なClaudeフラッシュカード手順。Projectsとファイルアップロードで、小さく見直しやすいカード案を作り、残す価値があるものだけをNibomoへ移してFSRSで復習します。"
 date: "2026-06-11"

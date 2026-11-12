@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1hi~1blog~1how-to-use-the-blurting-method-with-flashcards.md"
 title: "2026 में Flashcards के साथ Blurting Method कैसे इस्तेमाल करें: Blank-Page Recall को FSRS Reviews में बदलें"
 description: "2026 की यह practical guide बताती है कि blurting method से weak spots कैसे पकड़ें, सिर्फ़ misses को साफ़ flashcards में कैसे बदलें, और आगे की timing FSRS पर कैसे छोड़ें।"
 date: "2026-06-19"

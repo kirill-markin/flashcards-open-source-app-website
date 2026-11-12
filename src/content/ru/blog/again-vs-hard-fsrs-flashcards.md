@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1ru~1blog~1again-vs-hard-fsrs-flashcards.md"
 title: "Again или Hard в FSRS (2026): как использовать четыре оценки карточек"
 description: "Разберитесь, когда нажимать Again, Hard, Good или Easy в приложениях с FSRS. Оценивайте результат попытки, а не предложенный следующий интервал."
 date: "2026-07-17"

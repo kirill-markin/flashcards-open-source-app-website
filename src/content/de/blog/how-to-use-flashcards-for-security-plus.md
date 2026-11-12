@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1de~1blog~1how-to-use-flashcards-for-security-plus.md"
 title: "So nutzt du 2026 Flashcards für CompTIA Security+: SY0-701, PBQs, Ports und Akronyme, die wirklich hängen bleiben"
 description: "Du bereitest dich 2026 auf CompTIA Security+ SY0-701 vor? Nutze diesen praxisnahen Flashcard-Workflow für PBQs, Ports, Akronyme und falsch beantwortete Fragen mit FSRS."
 date: "2026-05-03"

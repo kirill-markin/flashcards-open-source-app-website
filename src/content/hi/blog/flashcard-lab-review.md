@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1hi~1blog~1flashcard-lab-review.md"
 title: "Flashcard Lab ऐप समीक्षा (2026): Google Sheets, स्पेस्ड रिपिटिशन और विकल्प"
 description: "स्रोतों की जाँच पर आधारित Flashcard Lab ऐप समीक्षा, जिसमें इसके Google Sheets वर्कफ़्लो, मोबाइल ऐप, स्पेस्ड रिपिटिशन, कीमत, अनुमतियाँ और विकल्प शामिल हैं।"
 date: "2026-08-12"

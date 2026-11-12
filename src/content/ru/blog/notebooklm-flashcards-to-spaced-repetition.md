@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1ru~1blog~1notebooklm-flashcards-to-spaced-repetition.md"
 title: "Как превратить карточки из NotebookLM в настоящее интервальное повторение в 2026 году: экспорт, доработка и повторение с FSRS"
 description: "Пользуетесь карточками NotebookLM, но хотите затем перейти к нормальному повторению? Вот практичный сценарий на 2026 год: выгрузить карточки, привести формулировки в порядок и перенести их в приложение с FSRS, к которому вы действительно будете возвращаться."
 date: "2026-03-30"

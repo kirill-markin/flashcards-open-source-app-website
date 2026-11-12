@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1ar~1blog~1how-to-use-flashcards-for-medical-school.md"
 title: "كيف تستخدم البطاقات التعليمية لكلية الطب في 2026: التشريح وعلم الأدوية وعلم الأمراض وتكرار متباعد يدوم أثره"
 description: "تبحث عن نظام عملي للبطاقات التعليمية في كلية الطب في 2026؟ إليك طريقة استخدام البطاقات عبر التشريح وعلم الأدوية وعلم الأمراض وشرائح المحاضرات وبنوك الأسئلة وFSRS من دون أن تتحول المجموعة إلى منهج دراسي ثانٍ."
 date: "2026-04-15"

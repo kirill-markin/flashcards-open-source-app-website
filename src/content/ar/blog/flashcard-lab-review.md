@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1ar~1blog~1flashcard-lab-review.md"
 title: "مراجعة تطبيق Flashcard Lab لعام 2026: Google Sheets والتكرار المتباعد والبدائل"
 description: "مراجعة لتطبيق Flashcard Lab مدققة بالرجوع إلى المصادر، تتناول سير عمل Google Sheets وتطبيقات الجوال والتكرار المتباعد والأسعار والأذونات والبدائل."
 date: "2026-08-12"

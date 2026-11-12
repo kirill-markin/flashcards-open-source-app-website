@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1zh~1blog~1how-to-turn-google-docs-into-flashcards.md"
 title: "2026 年如何把 Google Docs 变成闪卡：把共享文档整理成适合 FSRS 的卡片"
 description: "在 2026 年把杂乱的 Google Docs 整理成真正能复习的闪卡：按标题逐段清理，谨慎处理评论和建议，删掉质量差的 AI 卡片，再用 FSRS 复习留下来的内容。"
 image: "/blog/how-to-turn-google-docs-into-flashcards.png"

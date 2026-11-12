@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1hi~1blog~1how-to-study-a-premade-anki-deck.md"
 title: "2026 में premade Anki deck से कैसे पढ़ें: क्या रखें, क्या दोबारा लिखें और पहले क्या सीखें"
 description: "Premade Anki deck या shared Flashcards इस्तेमाल कर रहे हैं? 2026 में imported cards को ऐसे पढ़ें कि खराब review habits, कमजोर cards और बिना सीखे हुए topics आपकी पढ़ाई को पटरी से न उतारें।"
 date: "2026-07-03"

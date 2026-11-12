@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1ar~1blog~1ham-radio-technician-flashcards.md"
 title: "بطاقات فئة Technician لراديو الهواة في 2026: ادرس بنك الأسئلة الجديد"
 description: "أنشئ بطاقات لفئة Technician من بنك أسئلة NCVEC للفترة 2026–2030. تعلّم المفاهيم، وعالج أخطاء الاختبارات التدريبية، واستعد للامتحان المكوّن من 35 سؤالًا."
 date: "2026-07-25"

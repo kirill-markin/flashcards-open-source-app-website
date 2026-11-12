@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1en~1blog~1ccsp-flashcards.md"
 title: "CCSP Flashcards in 2026: Study the August 1 Exam Outline"
 description: "Build CCSP flashcards for the August 1, 2026 outline: average domain weights, revised AI/ML coverage, decision cards, practice misses, and FSRS review."
 date: "2026-07-18"

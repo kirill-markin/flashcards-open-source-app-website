@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1ar~1blog~1asvab-flashcards.md"
 title: "بطاقات ASVAB التعليمية لعام 2026: المفردات والرياضيات والمواد التقنية"
 description: "أنشئ بطاقات ASVAB التعليمية لمفردات AFQT والرياضيات فيه، وأضف وحدات تقنية مرتبطة بالوظائف التي تهمك، واترك الأسئلة الكاملة والتدريب بوقت محدد خارج المجموعة."
 date: "2026-08-11"

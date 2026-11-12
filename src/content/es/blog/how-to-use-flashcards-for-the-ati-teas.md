@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1es~1blog~1how-to-use-flashcards-for-the-ati-teas.md"
 title: "Cómo usar flashcards para el ATI TEAS en 2026: un flujo práctico de estudio para TEAS 7"
 description: "¿Te preparas para el ATI TEAS en 2026? Usa este flujo práctico de flashcards para TEAS 7 en ciencias, matemáticas, comprensión lectora, inglés y errores de simulacros sin convertir tu mazo en una segunda guía de estudio."
 image: "/blog/how-to-use-flashcards-for-the-ati-teas.png"

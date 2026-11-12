@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1hi~1blog~1how-to-turn-handwritten-notes-into-flashcards.md"
 title: "2026 में Handwritten Notes को Flashcards में कैसे बदलें: Photos, OCR, और AI Drafting के साथ, सब कुछ दोबारा लिखे बिना"
 description: "क्या आप 2026 में handwritten notes को flashcards में बदलना चाहते हैं? यहाँ एक व्यावहारिक workflow है: notes की photos upload करें, AI से text साफ़ करवाएँ और cards draft करवाएँ, फिर final set को FSRS के साथ पढ़ें।"
 date: "2026-03-27"

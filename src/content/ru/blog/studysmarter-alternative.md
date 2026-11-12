@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1ru~1blog~1studysmarter-alternative.md"
 title: "Альтернатива StudySmarter в 2026 году: StudySmarter или Nibomo"
 description: "Ищете альтернативу StudySmarter? Сравниваем заметки, тесты, FSRS, офлайн-работу, мобильные приложения, ИИ, самостоятельное размещение и контроль над данными."
 date: "2026-08-03"

@@ -230,7 +230,7 @@ Así el flujo de trabajo se mantiene honesto. La IA ayuda a explicar. La tarea r
 
 Si empiezas desde apuntes, cuestionarios o una tutoría, puedes seguir estos pasos y lecturas:
 
-- [Cómo convertir notas en tarjetas didácticas](/es/blog/turn-notes-into-flashcards/)
+- Si partes de tus apuntes, elige una idea que quieras recordar y escríbela como una pregunta que puedas responder sin mirar el texto.
 - Tras una tutoría, selecciona los errores y lagunas que merezcan repaso y crea preguntas breves, comprobadas con la fuente.
 - [Cómo convertir Gemini Guided Learning en flashcards en 2026](/es/blog/gemini-guided-learning-to-flashcards/)
 

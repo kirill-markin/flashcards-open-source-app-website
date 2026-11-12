@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1ru~1blog~1how-to-turn-notion-notes-into-flashcards.md"
 title: "Как превратить заметки из Notion в карточки в 2026 году: экспорт, черновик с ИИ и повторение с FSRS"
 description: "Хотите превратить заметки из Notion в карточки, не копируя вручную каждый toggle в приложение для учебы? Вот практичный сценарий на 2026 год: экспортируйте страницу, подготовьте черновик карточек с помощью ИИ, а затем повторяйте их с FSRS."
 date: "2026-03-29"

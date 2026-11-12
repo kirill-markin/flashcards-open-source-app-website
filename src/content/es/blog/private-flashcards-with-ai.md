@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1es~1blog~1private-flashcards-with-ai.md"
 title: "Flashcards privadas en 2026: cómo estudiar con IA sin renunciar al control"
 description: "Aprende a mantener tus flashcards privadas en 2026 con repetición espaciada de código abierto, enfoque offline-first, IA opcional y una ruta de autohospedaje."
 date: "2026-06-30"

@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1ja~1blog~1how-to-use-flashcards-for-the-ged.md"
 title: "2026年版 GED向けフラッシュカードの使い方: Math・RLA・Science・Social Studiesを本当に定着させる方法"
 description: "2026年にGED向けフラッシュカードを使いたい人へ。Math、RLA、Science、Social Studiesを、演習ミス、AIでの整形、FSRS復習で回す現実的な学習システムを解説します。"
 image: "/blog/how-to-use-flashcards-for-the-ged.png"

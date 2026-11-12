@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-12"
+retirementReason: "Zero Google Web Search clicks and zero engaged visitor-days after 90 days with no concrete use found"
+retirementEvidence: "docs/content-retirement/2026-11-12.json#/records/src~1content~1de~1blog~1how-to-turn-obsidian-notes-into-flashcards.md"
 title: "Wie du 2026 Obsidian-Notizen in Flashcards verwandelst: Vom Markdown-Vault zu FSRS-Karten ohne Copy-and-Paste"
 description: "Du willst 2026 Obsidian-Notizen in Flashcards verwandeln? Kopiere oder exportiere sauberes Markdown aus deinem Vault, lass dir mit KI Kartenentwürfe erstellen und lerne sie mit FSRS, ohne alles von Hand neu aufzubauen."
 date: "2026-04-25"
