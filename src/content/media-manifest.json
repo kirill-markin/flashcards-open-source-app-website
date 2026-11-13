@@ -1087,6 +1087,21 @@
     "bytes": 2218017
   },
   {
+    "publicPath": "/blog/cram-csv-to-nibomo.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/c389def3cbf6df5bb404372e65c501ebaffb7ffcf586827a21527bd594f3ab03.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "c389def3cbf6df5bb404372e65c501ebaffb7ffcf586827a21527bd594f3ab03",
+    "bytes": 186510,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/6c58c92a41770dd9b3ebd08a4d95535f4ab4185a38a553463f3e5350131d1feb.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "6c58c92a41770dd9b3ebd08a4d95535f4ab4185a38a553463f3e5350131d1feb",
+      "bytes": 2522747
+    }
+  },
+  {
     "publicPath": "/blog/crossing-over-vs-independent-assortment.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/70e47ee7eb3715a964e57d2a0624f5e37d914184fe2b154d398b9e961d7a1e26.webp",
     "width": 1672,
@@ -2066,6 +2081,21 @@
       "height": 941,
       "sha256": "dbec7dfd9d238c272e90c69d91c494d2fed9cc6f268ed7720c43a29b1a296643",
       "bytes": 2441619
+    }
+  },
+  {
+    "publicPath": "/blog/goodnotes-to-nibomo.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/fb66ac5d3c8002f5fcace27fcebc5684b70a228bd3f3e2013159a8076c9b3022.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "fb66ac5d3c8002f5fcace27fcebc5684b70a228bd3f3e2013159a8076c9b3022",
+    "bytes": 355162,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/6c964cf827f6faa244c3da59d23b5eb675a2cc471b703020a2817dc82b015c5e.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "6c964cf827f6faa244c3da59d23b5eb675a2cc471b703020a2817dc82b015c5e",
+      "bytes": 3237185
     }
   },
   {
@@ -3515,6 +3545,21 @@
       "height": 941,
       "sha256": "59615d47664963a5b1e20efa6229f7bdb133d35f313353b27b7f0a1b8ee27ade",
       "bytes": 2642615
+    }
+  },
+  {
+    "publicPath": "/blog/knowunity-to-nibomo.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/0dc4908738dc2b94ddc1a840f5dccb459e8134b6dbf59e2ed60de28dd65676cc.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "0dc4908738dc2b94ddc1a840f5dccb459e8134b6dbf59e2ed60de28dd65676cc",
+    "bytes": 269760,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/82c8ca2657b09cade911856dfac0e0b97f55eb924345ceb69bf0bf6938bf3e5a.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "82c8ca2657b09cade911856dfac0e0b97f55eb924345ceb69bf0bf6938bf3e5a",
+      "bytes": 2969817
     }
   },
   {
@@ -5289,6 +5334,21 @@
     "height": 675,
     "sha256": "37998cde98f57c8d6d407a30429078d0a4984505c39679554a8c83f33f846510",
     "bytes": 1551235
+  },
+  {
+    "publicPath": "/blog/studyfetch-to-nibomo.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/ff23ebcb799b409efed0cab5e15a4c5119b9344c4c225ca453937b7aef8f85af.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "ff23ebcb799b409efed0cab5e15a4c5119b9344c4c225ca453937b7aef8f85af",
+    "bytes": 376182,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/43d517056e5551d8ff28a7ef86c77894c33506aebcd8e4a1c26499bc83951e35.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "43d517056e5551d8ff28a7ef86c77894c33506aebcd8e4a1c26499bc83951e35",
+      "bytes": 3307113
+    }
   },
   {
     "publicPath": "/blog/studysmarter-alternative.png",
