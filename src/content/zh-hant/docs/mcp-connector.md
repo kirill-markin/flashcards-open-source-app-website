@@ -21,7 +21,7 @@ claude mcp add --transport http nibomo https://mcp.nibomo.com/mcp
 
 Nibomo 提供遠端 MCP（Model Context Protocol）伺服器。MCP 用戶端和 AI 助理可讀取你待複習的閃卡，一次問一題陪你複習，或幫你製作、編輯閃卡和牌組。
 
-AI 助理可以透過這個 MCP 伺服器連線，適合 Claude 或 Cursor 等 MCP 用戶端。命令列助理也可以使用 [Agent API 探索網址](/docs/api/)。兩種方式都使用同一套介面，並依使用者身分限制可存取的資料。本頁介紹的是 MCP 伺服器。
+AI 助理可以透過這個 MCP 伺服器連線，適合 Claude 或 Cursor 等 MCP 用戶端。命令列助理也可以使用 [Agent API 探索網址](/docs/api/)。MCP 和 Agent REST API 各有自己的介面，都能在你的權限範圍內存取相同的 Nibomo 資料。本頁介紹的是 MCP 伺服器。
 
 使用以下網址連線：
 
