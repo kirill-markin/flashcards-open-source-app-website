@@ -1087,6 +1087,21 @@
     "bytes": 2218017
   },
   {
+    "publicPath": "/blog/cram-csv-to-nibomo.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/c389def3cbf6df5bb404372e65c501ebaffb7ffcf586827a21527bd594f3ab03.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "c389def3cbf6df5bb404372e65c501ebaffb7ffcf586827a21527bd594f3ab03",
+    "bytes": 186510,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/6c58c92a41770dd9b3ebd08a4d95535f4ab4185a38a553463f3e5350131d1feb.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "6c58c92a41770dd9b3ebd08a4d95535f4ab4185a38a553463f3e5350131d1feb",
+      "bytes": 2522747
+    }
+  },
+  {
     "publicPath": "/blog/crossing-over-vs-independent-assortment.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/70e47ee7eb3715a964e57d2a0624f5e37d914184fe2b154d398b9e961d7a1e26.webp",
     "width": 1672,
