@@ -355,6 +355,21 @@
     }
   },
   {
+    "publicPath": "/blog/anki-media-sync-diagnosis.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/a32450dc64b33e30875a9aad804f2132eca8fa6a96f1fed86c5777e95a3fe3a5.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "a32450dc64b33e30875a9aad804f2132eca8fa6a96f1fed86c5777e95a3fe3a5",
+    "bytes": 181830,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/9ddb9664b39a5125dde7563d54ba529c1e38e1e72db55688701158949daeee23.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "9ddb9664b39a5125dde7563d54ba529c1e38e1e72db55688701158949daeee23",
+      "bytes": 2524780
+    }
+  },
+  {
     "publicPath": "/blog/anki-nested-cloze.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/6c70710cbf3115c5bb51a98426bfe8146c79af8e79895406546f256eb603de1d.webp",
     "width": 1672,
