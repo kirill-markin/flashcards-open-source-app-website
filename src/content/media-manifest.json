@@ -6411,6 +6411,21 @@
     "bytes": 482237
   },
   {
+    "publicPath": "/home/app-screens-showcase-ms.png",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/be1eb5415de04e4daf09fa47eb7de109eb1fac044ecc44f257af9f3d4d5eab42.webp",
+    "width": 7140,
+    "height": 3018,
+    "sha256": "be1eb5415de04e4daf09fa47eb7de109eb1fac044ecc44f257af9f3d4d5eab42",
+    "bytes": 484408,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/5f2ce53446f835f2428eb24ddc53c44b10ab08a8a09ee4b929e4cca82a7e7e4a.png",
+      "width": 7140,
+      "height": 3018,
+      "sha256": "5f2ce53446f835f2428eb24ddc53c44b10ab08a8a09ee4b929e4cca82a7e7e4a",
+      "bytes": 1589323
+    }
+  },
+  {
     "publicPath": "/home/app-screens-showcase-nb.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/5b7586eaceda0ffbdfec72205f6e65118606d0e0deaea6e96f8455da09154255.png",
     "width": 7140,
@@ -6427,6 +6442,21 @@
     "bytes": 585363
   },
   {
+    "publicPath": "/home/app-screens-showcase-or.png",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/386376cbee113cc2e21c69030bafc97489e2e48699182a08ab2bb30c41d1a2a4.webp",
+    "width": 7140,
+    "height": 3018,
+    "sha256": "386376cbee113cc2e21c69030bafc97489e2e48699182a08ab2bb30c41d1a2a4",
+    "bytes": 543490,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/6b38cf5242806a300e98391109b32c419bfcc947d3afc4449a61003d61fe1b75.png",
+      "width": 7140,
+      "height": 3018,
+      "sha256": "6b38cf5242806a300e98391109b32c419bfcc947d3afc4449a61003d61fe1b75",
+      "bytes": 1966338
+    }
+  },
+  {
     "publicPath": "/home/app-screens-showcase-pa.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/b89f1d103f49c3a33e0a90f68d7ab6831351faf2b7a8f85b630756c20eaeda20.png",
     "width": 7140,
@@ -6441,6 +6471,21 @@
     "height": 3018,
     "sha256": "4db4a605b593d9b4bc2bc7dbdc30f1b0ac8d3b01c3746b7471e26d31e97714a8",
     "bytes": 522096
+  },
+  {
+    "publicPath": "/home/app-screens-showcase-pt-pt.png",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/7a7dbcb31f70ccb799523e797c638ce5b6da117a36e349395c520fbfb96776cc.webp",
+    "width": 7140,
+    "height": 3018,
+    "sha256": "7a7dbcb31f70ccb799523e797c638ce5b6da117a36e349395c520fbfb96776cc",
+    "bytes": 501906,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/a067c7f5baf2f84313f1eac6df4e6575f92c120d7609a774eb978e3c65170ee9.png",
+      "width": 7140,
+      "height": 3018,
+      "sha256": "a067c7f5baf2f84313f1eac6df4e6575f92c120d7609a774eb978e3c65170ee9",
+      "bytes": 1724491
+    }
   },
   {
     "publicPath": "/home/app-screens-showcase-pt.png",
@@ -6553,6 +6598,21 @@
     "height": 3018,
     "sha256": "75330d16a948b4b5facf67bd78b4f812baf62157da1f98444f0b71ec0a075283",
     "bytes": 552519
+  },
+  {
+    "publicPath": "/home/app-screens-showcase-zh-hant.png",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/808c701c8647582f7ee1e96cd7c757091879e62c5b4d2bc234cc3adc3978fbe5.webp",
+    "width": 7140,
+    "height": 3018,
+    "sha256": "808c701c8647582f7ee1e96cd7c757091879e62c5b4d2bc234cc3adc3978fbe5",
+    "bytes": 451366,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/fa39aeb8a976ee67332a3ad3072544f5e7bc3c972faf7a5b8824f8181d14f5aa.png",
+      "width": 7140,
+      "height": 3018,
+      "sha256": "fa39aeb8a976ee67332a3ad3072544f5e7bc3c972faf7a5b8824f8181d14f5aa",
+      "bytes": 1466413
+    }
   },
   {
     "publicPath": "/home/app-screens-showcase-zh.png",
