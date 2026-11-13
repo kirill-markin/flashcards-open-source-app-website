@@ -2213,6 +2213,21 @@
     "bytes": 2405022
   },
   {
+    "publicPath": "/blog/hiragana-and-katakana-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/053f966820b1abf956324110b53ba21fc59b31ad954d82686e125fad4d5fd10a.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "053f966820b1abf956324110b53ba21fc59b31ad954d82686e125fad4d5fd10a",
+    "bytes": 356024,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/3b3bbda69817f0925243caf556b49c2d9223f416e0f0305cc13820860a427424.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "3b3bbda69817f0925243caf556b49c2d9223f416e0f0305cc13820860a427424",
+      "bytes": 3308508
+    }
+  },
+  {
     "publicPath": "/blog/home-screen-widgets-android-activity-small.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/d20c5ed9004726d73a538a89f835cbc99735b71178094ae4d89573ead6d9c193.webp",
     "width": 519,
