@@ -274,6 +274,7 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   "negative-reinforcement-vs-punishment": { en: "operant-conditioning-flashcards" },
   "proactive-vs-retroactive-interference": { en: "proactive-retroactive-interference-flashcards" },
   "circle-of-fifths-practice": { en: "circle-of-fifths-flashcards" },
+  "bass-clef-key-signature-practice": { en: "circle-of-fifths-flashcards" },
   "relative-vs-parallel-minor": { en: "relative-vs-parallel-minor-flashcards" },
   "compound-intervals-practice": { en: "music-interval-flashcards" },
   "triad-chord-spelling": { en: "triad-chord-spelling-flashcards" },
