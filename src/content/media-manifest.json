@@ -24,6 +24,21 @@
     "bytes": 2621071
   },
   {
+    "publicPath": "/blog/ai-flashcard-generators.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/9fd4247efa65af4d6a03275169aa4ae1f79f155e982946e069cd5299a3fb43d9.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "9fd4247efa65af4d6a03275169aa4ae1f79f155e982946e069cd5299a3fb43d9",
+    "bytes": 205102,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/5a7123bb7703ea1aa3a65ffdd01b6eaaf6e949a1f88570e64baf6113c1be5cdb.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "5a7123bb7703ea1aa3a65ffdd01b6eaaf6e949a1f88570e64baf6113c1be5cdb",
+      "bytes": 2531419
+    }
+  },
+  {
     "publicPath": "/blog/ai-flashcard-tutor-due-cards.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/1721106431664c230cb77827d005f1bb1798e17a9a05b61033f9c0edb5ff94ff.png",
     "width": 1672,
