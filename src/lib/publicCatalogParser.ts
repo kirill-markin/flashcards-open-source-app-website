@@ -1,5 +1,8 @@
 import { remark } from "remark";
-import { isSupportedLocale, SUPPORTED_LOCALES } from "./localeConfig";
+import {
+  isPublicCatalogAudienceTag,
+  PUBLIC_CATALOG_AUDIENCE_TAGS,
+} from "./publicCatalogAudience";
 import { canonicalizeHttpsUrl } from "./markdownLinks";
 import {
   publicCatalogSchemaVersions,
@@ -56,9 +59,9 @@ function assertNonEmptyString(value: unknown, context: string): string {
 function assertSupportedLanguageTag(value: unknown, context: string): string {
   const languageTag = assertString(value, context);
 
-  if (isSupportedLocale(languageTag) === false) {
+  if (isPublicCatalogAudienceTag(languageTag) === false) {
     throw new Error(
-      `Public catalog ${context} must be a supported interface locale (${SUPPORTED_LOCALES.join(", ")}). received=${languageTag}`,
+      `Public catalog ${context} must be a supported catalog audience tag (${PUBLIC_CATALOG_AUDIENCE_TAGS.join(", ")}). received=${languageTag}`,
     );
   }
 

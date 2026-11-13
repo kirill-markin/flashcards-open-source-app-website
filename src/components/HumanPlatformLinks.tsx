@@ -16,6 +16,7 @@ import {
 import { getAppUrl } from "@/lib/auth";
 import type { AppLocale } from "@/lib/i18n";
 import { getExternalLinkAttributes } from "@/lib/linkTargets";
+import { isEnglishLocale } from "@/lib/localeConfig";
 import type { StoreQrCodes } from "@/lib/storeQrCodes";
 import { getUiCopy } from "@/lib/uiCopy";
 import { trackVercelAnalyticsEvent } from "@/lib/vercelAnalytics";
@@ -124,7 +125,7 @@ export const HumanPlatformLinks: React.FC<HumanPlatformLinksProps> = ({
                 <span className={styles.badgeName}>{platform.label}</span>
               </span>
             </>
-          ) : showBadges && (locale !== "en" || appearance === "hero-badges") &&
+          ) : showBadges && (!isEnglishLocale(locale) || appearance === "hero-badges") &&
             platform.analytics.kind === "store" &&
             platform.analytics.platform === "ios" ? (
             <>
@@ -133,7 +134,7 @@ export const HumanPlatformLinks: React.FC<HumanPlatformLinksProps> = ({
                 <path d="M22.03725,12.21089a4.87248,4.87248,0,0,0,1.11452-3.49062,4.95746,4.95746,0,0,0-3.20758,1.65961,4.63634,4.63634,0,0,0-1.14371,3.36139A4.09905,4.09905,0,0,0,22.03725,12.21089Z" />
               </svg>
               <span className={styles.badgeText}>
-                <span className={styles.badgeCaption}>{locale === "en" ? "Download on the" : uiCopy.platforms.downloadBadgeCaption}</span>
+                <span className={styles.badgeCaption}>{isEnglishLocale(locale) ? "Download on the" : uiCopy.platforms.downloadBadgeCaption}</span>
                 <span className={styles.badgeName}>{platform.label}</span>
               </span>
             </>

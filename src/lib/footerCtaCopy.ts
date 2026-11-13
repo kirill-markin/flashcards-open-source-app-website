@@ -7,14 +7,17 @@ interface FooterCtaCopy {
 
 type FooterCtaText = readonly [title: string, firstLine: string, secondLine: string];
 
+const ENGLISH_TEXT: FooterCtaText = ["Learn something. Keep it.", "A topic, a few notes, your first card.", "That’s a good place to begin."];
+const FRENCH_TEXT: FooterCtaText = ["Apprenez quelque chose. Retenez-le.", "Un sujet, quelques notes, votre première carte.", "C’est un bon début."];
+
 const FOOTER_CTA_TEXT: Readonly<Record<AppLocale, FooterCtaText>> = {
-  en: ["Learn something. Keep it.", "A topic, a few notes, your first card.", "That’s a good place to begin."],
+  en: ENGLISH_TEXT,
   es: ["Aprende algo. Recuérdalo.", "Un tema, unas notas, tu primera tarjeta.", "Es un buen punto de partida."],
   ar: ["تعلّم شيئًا. واحتفظ به.", "موضوع، وبعض الملاحظات، وبطاقتك الأولى.", "هذه بداية جيدة."],
   de: ["Lerne etwas. Behalte es.", "Ein Thema, ein paar Notizen, deine erste Karte.", "Das ist ein guter Anfang."],
   hi: ["कुछ सीखें। याद रखें।", "एक विषय, कुछ नोट्स, आपका पहला कार्ड।", "शुरुआत के लिए इतना काफ़ी है।"],
   ja: ["学んだことを、覚えておこう。", "ひとつのテーマ、少しのメモ、最初のカード。", "まずはそこから始めましょう。"],
-  fr: ["Apprenez quelque chose. Retenez-le.", "Un sujet, quelques notes, votre première carte.", "C’est un bon début."],
+  fr: FRENCH_TEXT,
   pt: ["Aprenda algo. Guarde na memória.", "Um tema, algumas notas, seu primeiro cartão.", "É um bom começo."],
   ru: ["Узнайте что-то. Запомните это.", "Тема, несколько заметок, ваша первая карточка.", "Хорошее начало."],
   zh: ["学到新知识，记在心里。", "一个主题，几条笔记，你的第一张卡片。", "这就是一个好的开始。"],
@@ -57,6 +60,14 @@ const FOOTER_CTA_TEXT: Readonly<Record<AppLocale, FooterCtaText>> = {
   sk: ["Naučte sa niečo. Zapamätajte si to.", "Téma, pár poznámok, vaša prvá kartička.", "To je dobrý začiatok."],
   sl: ["Nauči se nekaj. Zapomni si.", "Tema, nekaj zapiskov, tvoja prva kartica.", "To je dober začetek."],
   zu: ["Funda okuthile. Kukhumbule.", "Isihloko, amanothi ambalwa, ikhadi lakho lokuqala.", "Kuyisiqalo esihle."],
+  "en-au": ENGLISH_TEXT,
+  "en-ca": ENGLISH_TEXT,
+  "en-gb": ENGLISH_TEXT,
+  "fr-ca": FRENCH_TEXT,
+  "pt-pt": ["Aprenda algo. Guarde-o na memória.", "Um tema, algumas notas, o seu primeiro cartão.", "É um bom começo."],
+  "zh-hant": ["把學到的知識記住", "一個主題、幾則筆記，做成你的第一張閃卡。", "就從這裡開始。"],
+  ms: ["Belajar dan ingat", "Satu topik, beberapa nota, kad pertama anda.", "Itu permulaan yang baik."],
+  or: ["ଶିଖନ୍ତୁ ଓ ମନେ ରଖନ୍ତୁ", "ଗୋଟିଏ ବିଷୟ, କିଛି ନୋଟ୍ ଓ ଆପଣଙ୍କ ପ୍ରଥମ କାର୍ଡ।", "ଏତିକିରୁ ଆରମ୍ଭ କରିପାରିବେ।"],
 };
 
 export function getFooterCtaCopy(locale: AppLocale): FooterCtaCopy {

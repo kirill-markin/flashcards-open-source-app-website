@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 import { readPageContent } from "./content/readPageContent";
-import { SUPPORTED_LOCALES } from "./localeConfig";
+import { isEnglishLocale, SUPPORTED_LOCALES } from "./localeConfig";
 import { getUiCopy } from "./uiCopy";
 import { getHomeExperienceCopy } from "./homeExperienceCopy";
 import { marketingMediaManifest } from "./marketingMedia";
@@ -43,7 +43,7 @@ for (const locale of SUPPORTED_LOCALES) {
     assert.equal(copy.outcomes.length,4);
     walkthrough.items.forEach((item, index) => {
       assert.ok(mediaPaths.has(item.imagePath), `Missing published image: ${item.imagePath}`);
-      if (locale !== "en") {
+      if (!isEnglishLocale(locale)) {
         const englishItem = englishWalkthrough.items[index];
         assert.notEqual(item.label, englishItem.label);
         assert.notDeepEqual(item.titleLines, englishItem.titleLines);
@@ -52,7 +52,7 @@ for (const locale of SUPPORTED_LOCALES) {
         assert.notEqual(item.imageAlt, englishItem.imageAlt);
       }
     });
-    if (locale !== "en") {
+    if (!isEnglishLocale(locale)) {
       const englishCopy = getHomeExperienceCopy("en");
       assert.notDeepEqual(copy.heading,englishCopy.heading);
       assert.notDeepEqual(copy.controls,englishCopy.controls);

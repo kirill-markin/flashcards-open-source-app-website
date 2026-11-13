@@ -3,6 +3,7 @@ import {
   DEFAULT_LOCALE,
   SUPPORTED_LOCALES,
   getLocaleEnglishName,
+  getLocaleHrefLang,
   getLocaleNativeName,
   type AppLocale,
 } from "@/lib/localeConfig";
@@ -121,7 +122,7 @@ export function getLanguageAlternates(
   const alternates: Record<string, string> = {};
 
   locales.forEach((locale) => {
-    alternates[locale] = getAbsoluteUrl(
+    alternates[getLocaleHrefLang(locale)] = getAbsoluteUrl(
       getLocalizedPathname(locale, routePathname)
     );
   });

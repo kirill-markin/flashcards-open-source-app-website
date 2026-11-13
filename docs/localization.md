@@ -1,14 +1,14 @@
 # Localization
 
-The site carries one generic tag per language: a single `es`, and `nb` for Norwegian where the Android app and the stores use `no`. The locale set, its order, and each locale's direction, native and English names, and Open Graph locale live in [src/lib/localeConfig.ts](../src/lib/localeConfig.ts). Read counts from `SUPPORTED_LOCALES`; do not copy the list anywhere else.
+The locale set, its order, and each locale's direction, native and English names, and Open Graph locale live in [src/lib/localeConfig.ts](../src/lib/localeConfig.ts). Read counts from `SUPPORTED_LOCALES`; do not copy the list anywhere else.
 
 ## What is translated
 
 - Every locale ships the interface, home, pricing, and catalog chrome translated.
-- Every locale also ships every doc in `src/content/en/docs/` and the Privacy, Terms, and Support pages. [src/lib/localizedContentCompleteness.test.ts](../src/lib/localizedContentCompleteness.test.ts) fails when a supported locale is missing one.
+- Every locale ships Privacy, Terms, Support, Getting Started, and the MCP Connector guide. Locales in `CORE_DOCS_LOCALES` link to the published English routes for optional guides. [src/lib/localizedContentCompleteness.test.ts](../src/lib/localizedContentCompleteness.test.ts) checks that each locale ships its required files.
 - [src/data/contentRegistry.ts](../src/data/contentRegistry.ts) derives each locale's translated routes from the files under `src/content/<locale>/`, so the content tree is the source of truth for which routes a locale carries.
 - Blog articles exist only where their files exist. They are translated separately and only after an article has proven itself, through the dedicated blog-translation workflow.
-- Catalog pages exist for every locale, and every language appears in the catalog filters. Deck content is never translated, and a locale's catalog can be empty.
+- Catalog pages exist for every interface locale. Their default filter uses the audience tag defined in [src/lib/publicCatalogAudience.ts](../src/lib/publicCatalogAudience.ts). Deck content is never translated, and a locale's catalog can be empty.
 
 ## Routes
 
@@ -16,14 +16,13 @@ File-backed routes (docs, privacy, terms, support) prerender through `getTransla
 
 ## Add a locale
 
-1. Add the tag to `SUPPORTED_LOCALES`, `NON_DEFAULT_LOCALES`, and `LOCALE_DEFINITIONS` in [src/lib/localeConfig.ts](../src/lib/localeConfig.ts). Use the generic two-letter tag.
-2. Add it to `PRIMARY_LANGUAGE_LOCALES` in [src/lib/browserLocaleMatching.ts](../src/lib/browserLocaleMatching.ts). It is a plain string array, so a search for locale-keyed objects misses it. Chinese is matched by a separate rule and stays out of the array. If browsers send a different primary subtag than the site tag (such as `no` or `nn` for `nb`), add an alias rule next to the Chinese one.
-3. Add an entry to every locale-keyed map. Find them by the data, not the type: list files with a line-leading key for an existing non-default locale (`rg -l '^\s+"?zh"?:' src`) and check each against the new tag. `tsx` strips types without checking them, so a missed `Record<AppLocale, …>` passes tests and crashes the production build.
-4. Create `src/content/<locale>/pages/` with `home.ts` and `pricing.ts`, and register them in [src/content/structuredPageModules.ts](../src/content/structuredPageModules.ts). Translate every English doc into `src/content/<locale>/docs/` and the legal pages into `src/content/<locale>/pages/{privacy,support,terms}/index.md`. Add no blog files.
-5. Copy the app's home-page composite to `public/home/app-screens-showcase-<site-tag>.png` and map it in [src/lib/homeShowcaseImage.ts](../src/lib/homeShowcaseImage.ts). The composites come from `scripts/ios/build-ios-marketing-materials.sh` in the app repository and are renamed from the app tag to the site tag; the app repository's [Add a Language](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/add-language.md) owns the mapping. Run `npm run generate:home-images` to extract the four localized screens into the existing gradient and phone-frame templates, preserving their transparent corners. Reference `/home/<step>-<site-tag>.png` in the locale's walkthrough content; English uses the original `/home/<step>.png` templates. These paths also supply the Markdown images.
-6. Add the tag to `catalogAudienceLocales` in the app repository's [apps/backend/src/catalog/types.ts](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/apps/backend/src/catalog/types.ts). Nothing compares the two lists; the only guard is this site's catalog parser, which fails the build when a published deck carries a tag outside `SUPPORTED_LOCALES`. So merge and deploy the site change before the backend change, or a deck published with the new tag breaks the site build.
-7. Run `npm run test:catalog`. [src/lib/publicCatalog.test.ts](../src/lib/publicCatalog.test.ts) derives its counts from `SUPPORTED_LOCALES.length`; its unsupported-tag example must stay outside the set, so never use a supported locale there.
-8. Run `npm run build` locally or check the Vercel preview; the required check does not render pages.
+1. Add the lowercase route tag to `NON_DEFAULT_LOCALES` (or `CORE_DOCS_LOCALES` for the smaller docs set) and `LOCALE_DEFINITIONS` in [src/lib/localeConfig.ts](../src/lib/localeConfig.ts). Check [browser locale matching](../src/lib/browserLocaleMatching.ts) if browsers use a different tag.
+2. Add an entry to every locale-keyed map. Find them by the data, not the type: list files with a line-leading key for an existing non-default locale (`rg -l '^\s+"?zh"?:' src`) and check each against the new tag. `tsx` strips types without checking them, so a missed `Record<AppLocale, …>` passes tests and crashes the production build.
+3. Create `src/content/<locale>/pages/` with `home.ts` and `pricing.ts`, and register them in [src/content/structuredPageModules.ts](../src/content/structuredPageModules.ts). Translate the required docs into `src/content/<locale>/docs/` and the legal pages into `src/content/<locale>/pages/{privacy,support,terms}/index.md`. Add no blog files.
+4. Use the app's localized marketing captures to prepare the showcase and walkthroughs. See the app repository's [Add a Language](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/add-language.md) for capture tags and the [marketing media runbook](media.md#regenerate-localized-walkthroughs) for generation and publication. Draft previews can point to existing manifest paths in [src/lib/homeShowcaseImage.ts](../src/lib/homeShowcaseImage.ts) and the walkthrough content while localized captures are pending.
+5. For a regional interface alias, map it to its base audience in [src/lib/publicCatalogAudience.ts](../src/lib/publicCatalogAudience.ts) and keep the alias out of backend audience tags. For a new audience tag, deploy site support before adding the tag to `catalogAudienceLocales` in the app repository's [apps/backend/src/catalog/types.ts](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/apps/backend/src/catalog/types.ts). The site build rejects published decks or collections whose tags are outside `PUBLIC_CATALOG_AUDIENCE_TAGS`.
+6. Run `npm run test:catalog`. Keep the unsupported-tag example in [src/lib/publicCatalog.test.ts](../src/lib/publicCatalog.test.ts) outside the audience tag set.
+7. Run `npm run build` locally or check the Vercel preview; the required check does not render pages.
 
 ## Translation rules
 

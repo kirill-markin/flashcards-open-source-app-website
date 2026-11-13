@@ -21,9 +21,7 @@ export interface PublicCatalogDestinationCopy {
   readonly packageCountTemplates: Readonly<Record<Intl.LDMLPluralRule, string>>;
 }
 
-const PUBLIC_CATALOG_DESTINATION_COPY_BY_LOCALE: Readonly<
-  Record<AppLocale, PublicCatalogDestinationCopy>
-> = {
+const BASE_PUBLIC_CATALOG_DESTINATION_COPY_BY_LOCALE = {
   en: {
     allPackagesNavigationLabel: "All decks",
     authorNoPackagesLabel: "This author has no published decks.",
@@ -1345,6 +1343,107 @@ const PUBLIC_CATALOG_DESTINATION_COPY_BY_LOCALE: Readonly<
       few: "amaqoqo angu-{count}",
       many: "amaqoqo angu-{count}",
       other: "amaqoqo angu-{count}",
+    },
+  },
+} satisfies Readonly<Record<string, PublicCatalogDestinationCopy>>;
+
+const REGIONAL_ENGLISH_CATALOG_DESTINATION_COPY: PublicCatalogDestinationCopy = {
+  ...BASE_PUBLIC_CATALOG_DESTINATION_COPY_BY_LOCALE.en,
+  authorsTitle: "Catalogue authors",
+};
+
+const PUBLIC_CATALOG_DESTINATION_COPY_BY_LOCALE: Readonly<
+  Record<AppLocale, PublicCatalogDestinationCopy>
+> = {
+  ...BASE_PUBLIC_CATALOG_DESTINATION_COPY_BY_LOCALE,
+  "zh-hant": {
+    allPackagesNavigationLabel: "所有牌組",
+    authorNoPackagesLabel: "這位作者尚未發布任何牌組。",
+    authorPackagesHeadingTemplate: "{name} 的牌組",
+    authorWebsiteLabel: "前往作者網站",
+    authorsIntro: "認識為社群發布閃卡牌組的作者。",
+    authorsNavigationLabel: "作者",
+    authorsTitle: "牌組作者",
+    collectionAboutHeading: "關於這個精選集",
+    collectionEmptyLabel: "這個精選集尚未收錄任何牌組。",
+    collectionPackagesHeading: "這個精選集收錄的牌組",
+    collectionsContainingLabel: "精選集",
+    collectionsIntro: "瀏覽收錄公開閃卡牌組的精選集。",
+    collectionsNavigationLabel: "精選集",
+    collectionsTitle: "閃卡精選集",
+    facetPackagesHeading: "牌組",
+    languageIntroTemplate: "瀏覽以使用 {tag} 的學習者為對象的公開閃卡牌組。",
+    languageTitleTemplate: "閃卡牌組（供使用 {tag} 的學習者練習）",
+    packageCountTemplates: {
+      zero: "{count} 個牌組",
+      one: "{count} 個牌組",
+      two: "{count} 個牌組",
+      few: "{count} 個牌組",
+      many: "{count} 個牌組",
+      other: "{count} 個牌組",
+    },
+  },
+  "en-au": REGIONAL_ENGLISH_CATALOG_DESTINATION_COPY,
+  "en-ca": REGIONAL_ENGLISH_CATALOG_DESTINATION_COPY,
+  "en-gb": REGIONAL_ENGLISH_CATALOG_DESTINATION_COPY,
+  "fr-ca": BASE_PUBLIC_CATALOG_DESTINATION_COPY_BY_LOCALE.fr,
+  "pt-pt": {
+    ...BASE_PUBLIC_CATALOG_DESTINATION_COPY_BY_LOCALE.pt,
+    collectionsIntro: "Explore seleções de baralhos públicos de flashcards.",
+    languageIntroTemplate: "Explore os baralhos públicos de flashcards destinados a quem usa {tag}.",
+  },
+  ms: {
+    allPackagesNavigationLabel: "Semua dek",
+    authorNoPackagesLabel: "Penulis ini belum menerbitkan sebarang dek.",
+    authorPackagesHeadingTemplate: "Dek oleh {name}",
+    authorWebsiteLabel: "Lawati laman web penulis",
+    authorsIntro: "Kenali penulis yang menerbitkan dek kad imbas untuk komuniti.",
+    authorsNavigationLabel: "Penulis",
+    authorsTitle: "Penulis dek",
+    collectionAboutHeading: "Tentang koleksi ini",
+    collectionEmptyLabel: "Koleksi ini belum mengandungi sebarang dek.",
+    collectionPackagesHeading: "Dek dalam koleksi ini",
+    collectionsContainingLabel: "Koleksi",
+    collectionsIntro: "Terokai koleksi dek kad imbas awam yang dipilih khas.",
+    collectionsNavigationLabel: "Koleksi",
+    collectionsTitle: "Koleksi kad imbas",
+    facetPackagesHeading: "Dek",
+    languageIntroTemplate: "Terokai dek kad imbas awam yang ditandakan untuk pelajar yang menggunakan bahasa {tag}.",
+    languageTitleTemplate: "Dek kad imbas untuk pelajar yang menggunakan bahasa {tag}",
+    packageCountTemplates: {
+      zero: "{count} dek",
+      one: "{count} dek",
+      two: "{count} dek",
+      few: "{count} dek",
+      many: "{count} dek",
+      other: "{count} dek",
+    },
+  },
+  or: {
+    allPackagesNavigationLabel: "ସମସ୍ତ ଡେକ୍",
+    authorNoPackagesLabel: "ଏହି ଲେଖକ କୌଣସି ଡେକ୍ ପ୍ରକାଶ କରିନାହାନ୍ତି।",
+    authorPackagesHeadingTemplate: "ଲେଖକ {name} ପ୍ରକାଶ କରିଥିବା ଡେକ୍",
+    authorWebsiteLabel: "ଲେଖକଙ୍କ ୱେବ୍‌ସାଇଟ୍ ଦେଖନ୍ତୁ",
+    authorsIntro: "ସମୁଦାୟ ପାଇଁ ଫ୍ଲାସ୍‌କାର୍ଡ ଡେକ୍ ପ୍ରକାଶ କରୁଥିବା ଲେଖକଙ୍କ ବିଷୟରେ ଜାଣନ୍ତୁ।",
+    authorsNavigationLabel: "ଲେଖକ",
+    authorsTitle: "ଡେକ୍‌ର ଲେଖକମାନେ",
+    collectionAboutHeading: "ଏହି ସଂଗ୍ରହ ବିଷୟରେ",
+    collectionEmptyLabel: "ଏହି ସଂଗ୍ରହରେ ଏପର୍ଯ୍ୟନ୍ତ କୌଣସି ଡେକ୍ ନାହିଁ।",
+    collectionPackagesHeading: "ଏହି ସଂଗ୍ରହର ଡେକ୍",
+    collectionsContainingLabel: "ସଂଗ୍ରହ",
+    collectionsIntro: "ବଛା ବଛା ସାର୍ବଜନୀନ ଫ୍ଲାସ୍‌କାର୍ଡ ଡେକ୍‌ର ସଂଗ୍ରହ ଦେଖନ୍ତୁ।",
+    collectionsNavigationLabel: "ସଂଗ୍ରହ",
+    collectionsTitle: "ଫ୍ଲାସ୍‌କାର୍ଡ ସଂଗ୍ରହ",
+    facetPackagesHeading: "ଡେକ୍",
+    languageIntroTemplate: "{tag} ବ୍ୟବହାର କରୁଥିବା ଶିକ୍ଷାର୍ଥୀଙ୍କ ପାଇଁ ଚିହ୍ନିତ ସାର୍ବଜନୀନ ଫ୍ଲାସ୍‌କାର୍ଡ ଡେକ୍ ଦେଖନ୍ତୁ।",
+    languageTitleTemplate: "{tag} ବ୍ୟବହାର କରୁଥିବା ଶିକ୍ଷାର୍ଥୀଙ୍କ ପାଇଁ ଫ୍ଲାସ୍‌କାର୍ଡ ଡେକ୍",
+    packageCountTemplates: {
+      zero: "{count} ଡେକ୍",
+      one: "{count} ଡେକ୍",
+      two: "{count} ଡେକ୍",
+      few: "{count} ଡେକ୍",
+      many: "{count} ଡେକ୍",
+      other: "{count} ଡେକ୍",
     },
   },
 };

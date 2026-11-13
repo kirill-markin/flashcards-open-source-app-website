@@ -12,18 +12,53 @@ export interface PricingExperienceCopy {
   readonly regional: readonly [pricesFor: string, changeCountry: string, chooseCountry: string, loading: string, error: string, retry: string, checkoutNote: string, purchasesDisabled: string, countryUnavailable: string, storageUnavailable: string];
 }
 
+const ENGLISH_COPY: PricingExperienceCopy = {
+  regional: ["Prices for {country}", "Change country", "Choose a country", "Loading your price…", "Your price could not be loaded.", "Retry", "Checkout confirms the final amount and currency.", "New purchases are currently paused.", "Purchases are unavailable for this country.", "Country could not be saved. Your selection still works for this visit."],
+  heading: ["Start free", "Make room for more"],
+  labels: ["A place to begin", "More AI", "On your terms"],
+  descriptions: ["Start a daily learning habit. Create cards and review across your devices.", "Get more help from AI. Enjoy extra chat messages and custom accent colors.", "Run Nibomo on your own AWS. You manage the hosting and AI provider costs."],
+  tryPremium: "Try Premium",
+  ownApiKey: "Your own OpenAI API key",
+  ownAws: "Host on your own AWS account",
+  importExport: "Import & export your cards",
+  period: "/ month",
+};
+
+const FRENCH_COPY: PricingExperienceCopy = {
+  regional: ["Tarifs pour {country}", "Changer de pays", "Choisir un pays", "Chargement de votre tarif…", "Votre tarif n’a pas pu être chargé.", "Réessayer", "Le paiement confirme le montant final et la devise.", "Les nouveaux achats sont actuellement suspendus.", "Les achats ne sont pas disponibles dans ce pays.", "Le pays n’a pas pu être enregistré. Votre choix reste actif pour cette visite."],
+  heading: ["Commencez gratuitement", "Faites place à plus"],
+  labels: ["Pour commencer", "Plus d’IA", "À votre façon"],
+  descriptions: ["Prenez l’habitude d’apprendre chaque jour. Créez des cartes et révisez sur tous vos appareils.", "Profitez davantage de l’aide de l’IA. Accédez à plus de messages et à des couleurs d’accent personnalisées.", "Hébergez Nibomo sur votre propre compte AWS. Vous gérez les coûts d’hébergement et des fournisseurs d’IA."],
+  tryPremium: "Essayez Premium",
+  ownApiKey: "Votre propre clé API OpenAI",
+  ownAws: "Hébergez sur votre propre compte AWS",
+  importExport: "Importez et exportez vos cartes",
+  period: "/ mois",
+};
+
+const PORTUGUESE_COPY: PricingExperienceCopy = {
+  regional: ["Preços para {country}", "Alterar país", "Escolha um país", "A carregar o seu preço…", "Não foi possível carregar o seu preço.", "Tentar novamente", "O pagamento confirma o valor final e a moeda.", "As novas compras estão temporariamente suspensas.", "As compras não estão disponíveis neste país.", "Não foi possível guardar o país. A sua escolha mantém-se nesta visita."],
+  heading: ["Comece grátis", "Abra espaço para mais"],
+  labels: ["Para começar", "Mais IA", "Do seu jeito"],
+  descriptions: ["Crie o hábito de aprender todos os dias. Crie cartões e revise em todos os seus dispositivos.", "Receba mais ajuda da IA. Aproveite mais mensagens e cores de destaque personalizadas.", "Execute o Nibomo na sua própria conta AWS. Você gerencia os custos de hospedagem e dos provedores de IA."],
+  tryPremium: "Experimente Premium",
+  ownApiKey: "Sua própria chave da API OpenAI",
+  ownAws: "Hospede na sua própria conta AWS",
+  importExport: "Importe e exporte seus cartões",
+  period: "/ mês",
+};
+
+const REGIONAL_ENGLISH_COPY: PricingExperienceCopy = {
+  ...ENGLISH_COPY,
+  descriptions: [
+    ENGLISH_COPY.descriptions[0],
+    "Get more help from AI. Enjoy extra chat messages and custom accent colours.",
+    ENGLISH_COPY.descriptions[2],
+  ],
+};
+
 const COPY: Readonly<Record<AppLocale, PricingExperienceCopy>> = {
-  en: {
-    regional: ["Prices for {country}", "Change country", "Choose a country", "Loading your price…", "Your price could not be loaded.", "Retry", "Checkout confirms the final amount and currency.", "New purchases are currently paused.", "Purchases are unavailable for this country.", "Country could not be saved. Your selection still works for this visit."],
-    heading: ["Start free", "Make room for more"],
-    labels: ["A place to begin", "More AI", "On your terms"],
-    descriptions: ["Start a daily learning habit. Create cards and review across your devices.", "Get more help from AI. Enjoy extra chat messages and custom accent colors.", "Run Nibomo on your own AWS. You manage the hosting and AI provider costs."],
-    tryPremium: "Try Premium",
-    ownApiKey: "Your own OpenAI API key",
-    ownAws: "Host on your own AWS account",
-    importExport: "Import & export your cards",
-    period: "/ month",
-  },
+  en: ENGLISH_COPY,
   es: {
     regional: ["Precios para {country}", "Cambiar país", "Elige un país", "Cargando tu precio…", "No se pudo cargar tu precio.", "Reintentar", "El pago confirma el importe y la moneda finales.", "Las nuevas compras están pausadas.", "Las compras no están disponibles en este país.", "No se pudo guardar el país. Tu selección sigue activa durante esta visita."],
     heading: ["Empieza gratis", "Haz espacio para más"],
@@ -46,28 +81,8 @@ const COPY: Readonly<Record<AppLocale, PricingExperienceCopy>> = {
     importExport: "Karten importieren und exportieren",
     period: "/ Monat",
   },
-  fr: {
-    regional: ["Tarifs pour {country}", "Changer de pays", "Choisir un pays", "Chargement de votre tarif…", "Votre tarif n’a pas pu être chargé.", "Réessayer", "Le paiement confirme le montant final et la devise.", "Les nouveaux achats sont actuellement suspendus.", "Les achats ne sont pas disponibles dans ce pays.", "Le pays n’a pas pu être enregistré. Votre choix reste actif pour cette visite."],
-    heading: ["Commencez gratuitement", "Faites place à plus"],
-    labels: ["Pour commencer", "Plus d’IA", "À votre façon"],
-    descriptions: ["Prenez l’habitude d’apprendre chaque jour. Créez des cartes et révisez sur tous vos appareils.", "Profitez davantage de l’aide de l’IA. Accédez à plus de messages et à des couleurs d’accent personnalisées.", "Hébergez Nibomo sur votre propre compte AWS. Vous gérez les coûts d’hébergement et des fournisseurs d’IA."],
-    tryPremium: "Essayez Premium",
-    ownApiKey: "Votre propre clé API OpenAI",
-    ownAws: "Hébergez sur votre propre compte AWS",
-    importExport: "Importez et exportez vos cartes",
-    period: "/ mois",
-  },
-  pt: {
-    regional: ["Preços para {country}", "Alterar país", "Escolha um país", "A carregar o seu preço…", "Não foi possível carregar o seu preço.", "Tentar novamente", "O pagamento confirma o valor final e a moeda.", "As novas compras estão temporariamente suspensas.", "As compras não estão disponíveis neste país.", "Não foi possível guardar o país. A sua escolha mantém-se nesta visita."],
-    heading: ["Comece grátis", "Abra espaço para mais"],
-    labels: ["Para começar", "Mais IA", "Do seu jeito"],
-    descriptions: ["Crie o hábito de aprender todos os dias. Crie cartões e revise em todos os seus dispositivos.", "Receba mais ajuda da IA. Aproveite mais mensagens e cores de destaque personalizadas.", "Execute o Nibomo na sua própria conta AWS. Você gerencia os custos de hospedagem e dos provedores de IA."],
-    tryPremium: "Experimente Premium",
-    ownApiKey: "Sua própria chave da API OpenAI",
-    ownAws: "Hospede na sua própria conta AWS",
-    importExport: "Importe e exporte seus cartões",
-    period: "/ mês",
-  },
+  fr: FRENCH_COPY,
+  pt: PORTUGUESE_COPY,
   ru: {
     regional: ["Цены для страны: {country}", "Изменить страну", "Выберите страну", "Загружаем вашу цену…", "Не удалось загрузить вашу цену.", "Повторить", "При оплате будут подтверждены итоговая сумма и валюта.", "Новые покупки временно приостановлены.", "Покупки недоступны для этой страны.", "Не удалось сохранить страну. Выбор действует в течение этого посещения."],
     heading: ["Начните бесплатно", "Больше возможностей"],
@@ -551,6 +566,60 @@ const COPY: Readonly<Record<AppLocale, PricingExperienceCopy>> = {
     ownAws: "โฮสต์บนบัญชี AWS ของคุณเอง",
     importExport: "นำเข้าและส่งออกการ์ด",
     period: "/ เดือน",
+  },
+  "en-au": REGIONAL_ENGLISH_COPY,
+  "en-ca": REGIONAL_ENGLISH_COPY,
+  "en-gb": REGIONAL_ENGLISH_COPY,
+  "fr-ca": {
+    ...FRENCH_COPY,
+    descriptions: [
+      FRENCH_COPY.descriptions[0],
+      "Profitez davantage de l’aide de l’IA. Envoyez plus de messages de clavardage et personnalisez vos couleurs d’accent.",
+      FRENCH_COPY.descriptions[2],
+    ],
+  },
+  "pt-pt": {
+    ...PORTUGUESE_COPY,
+    heading: ["Comece gratuitamente", "Ganhe mais possibilidades"],
+    labels: ["Para começar", "Mais IA", "À sua maneira"],
+    descriptions: ["Ganhe o hábito de aprender todos os dias. Crie cartões e reveja-os em todos os seus dispositivos.", "Conte com mais ajuda da IA. Envie mais mensagens no chat e use cores de destaque personalizadas.", "Aloje o Nibomo na sua própria conta AWS. Fica a seu cargo gerir os custos de alojamento e dos fornecedores de IA."],
+    tryPremium: "Experimente o Premium",
+    ownApiKey: "A sua própria chave da API da OpenAI",
+    ownAws: "Aloje na sua própria conta AWS",
+    importExport: "Importe e exporte os seus cartões",
+  },
+  "zh-hant": {
+    regional: ["{country}的價格", "變更國家或地區", "選擇國家或地區", "正在載入價格…", "無法載入價格。", "重試", "結帳時會確認最終金額與幣別。", "目前暫停開放新訂閱。", "目前無法在這個國家或地區購買。", "無法儲存國家或地區。這次造訪仍會套用你的選擇。"],
+    heading: ["免費開始", "給學習多一點助力"],
+    labels: ["輕鬆入門", "更多 AI 用量", "由你掌控"],
+    descriptions: ["養成每天學習的習慣。製作閃卡，在各個裝置上複習。", "讓 AI 多幫一點忙。使用更多聊天額度，也能自訂重點色。", "在自己的 AWS 帳戶上架設 Nibomo。由你管理主機與 AI 服務的費用。"],
+    tryPremium: "試用 Premium",
+    ownApiKey: "使用自己的 OpenAI API 金鑰",
+    ownAws: "在自己的 AWS 帳戶上架設",
+    importExport: "匯入和匯出閃卡",
+    period: "/ 月",
+  },
+  ms: {
+    regional: ["Harga untuk {country}", "Tukar negara", "Pilih negara", "Memuatkan harga anda…", "Harga anda tidak dapat dimuatkan.", "Cuba lagi", "Jumlah akhir dan mata wang disahkan semasa pembayaran.", "Pembelian baharu dihentikan sementara.", "Pembelian tidak tersedia di negara ini.", "Negara tidak dapat disimpan. Pilihan anda masih terpakai untuk lawatan ini."],
+    heading: ["Mula secara percuma", "Lebih banyak pilihan"],
+    labels: ["Untuk bermula", "Lebih banyak AI", "Ikut cara anda"],
+    descriptions: ["Jadikan belajar amalan harian. Buat kad dan ulang kaji pada semua peranti anda.", "Dapatkan lebih banyak bantuan daripada AI. Hantar lebih banyak mesej sembang dan gunakan warna aksen tersuai.", "Jalankan Nibomo pada akaun AWS anda sendiri. Anda mengurus kos pengehosan dan penyedia AI."],
+    tryPremium: "Cuba Premium",
+    ownApiKey: "Kunci API OpenAI anda sendiri",
+    ownAws: "Hos pada akaun AWS anda sendiri",
+    importExport: "Import dan eksport kad anda",
+    period: "/ bulan",
+  },
+  or: {
+    regional: ["{country} ପାଇଁ ମୂଲ୍ୟ", "ଦେଶ ବଦଳାନ୍ତୁ", "ଦେଶ ବାଛନ୍ତୁ", "ଆପଣଙ୍କ ପାଇଁ ମୂଲ୍ୟ ଲୋଡ୍ ହେଉଛି…", "ଆପଣଙ୍କ ପାଇଁ ମୂଲ୍ୟ ଲୋଡ୍ ହୋଇପାରିଲା ନାହିଁ।", "ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ", "ଦେୟ ଦେବା ବେଳେ ଚୂଡ଼ାନ୍ତ ରାଶି ଓ ମୁଦ୍ରା ନିଶ୍ଚିତ ହେବ।", "ନୂଆ କିଣାକିଣି ଏବେ ସାମୟିକ ଭାବେ ବନ୍ଦ ଅଛି।", "ଏହି ଦେଶରେ କିଣିବା ସୁବିଧା ନାହିଁ।", "ଦେଶ ସେଭ୍ ହୋଇପାରିଲା ନାହିଁ। ଏଥର ପାଇଁ ଆପଣଙ୍କ ପସନ୍ଦ ଲାଗୁ ରହିବ।"],
+    heading: ["ମାଗଣାରେ ଆରମ୍ଭ କରନ୍ତୁ", "ଆହୁରି ସୁବିଧା ପାଆନ୍ତୁ"],
+    labels: ["ଆରମ୍ଭ ପାଇଁ", "ଅଧିକ AI ବ୍ୟବହାର", "ନିଜ ସୁବିଧା ଅନୁସାରେ"],
+    descriptions: ["ପ୍ରତିଦିନ ଶିଖିବାର ଅଭ୍ୟାସ ଗଢ଼ନ୍ତୁ। ନିଜ ସବୁ ଡିଭାଇସ୍‌ରେ କାର୍ଡ ତିଆରି କରନ୍ତୁ ଓ ଅଭ୍ୟାସ କରନ୍ତୁ।", "AI ରୁ ଅଧିକ ସହାୟତା ପାଆନ୍ତୁ। ଅଧିକ ଚାଟ୍ ସନ୍ଦେଶ ପଠାନ୍ତୁ ଓ ନିଜ ପସନ୍ଦର ଆକ୍ସେଣ୍ଟ ରଙ୍ଗ ବାଛନ୍ତୁ।", "ନିଜ AWS ଆକାଉଣ୍ଟରେ Nibomo ଚଲାନ୍ତୁ। ହୋଷ୍ଟିଂ ଓ AI ସେବାର ଖର୍ଚ୍ଚ ଆପଣ ସମ୍ଭାଳିବେ।"],
+    tryPremium: "Premium ପରଖନ୍ତୁ",
+    ownApiKey: "ନିଜ OpenAI API କୀ",
+    ownAws: "ନିଜ AWS ଆକାଉଣ୍ଟରେ ହୋଷ୍ଟ୍ କରନ୍ତୁ",
+    importExport: "ନିଜ କାର୍ଡ ଇମ୍ପୋର୍ଟ ଓ ଏକ୍ସପୋର୍ଟ କରନ୍ତୁ",
+    period: "/ ମାସ",
   },
 };
 

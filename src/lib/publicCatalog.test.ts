@@ -10,6 +10,7 @@ import gfm from "remark-gfm";
 import type { GlobalActivitySnapshot } from "./globalActivitySnapshot";
 import { SUPPORTED_LOCALES } from "./localeConfig";
 import { resolveBlogDeckResource } from "./blogDeckResource";
+import { PUBLIC_CATALOG_AUDIENCE_TAGS } from "./publicCatalogAudience";
 import { parsePublicCatalogBuildConfiguration } from "./publicCatalogBuild";
 import { createPublicCatalogBrowseData } from "./publicCatalogBrowse";
 import {
@@ -808,17 +809,16 @@ test("blog deck association leaves unmapped languages and articles unchanged and
   const model = createPublicCatalogReadModel(parsePublicCatalogDump(createValidDump()));
   assert.equal(resolveBlogDeckResource("how-to-make-better-flashcards", "en", model), null);
   assert.equal(resolveBlogDeckResource("us-state-abbreviations", "en", null), null);
-  for (const locale of SUPPORTED_LOCALES.filter((locale) => locale !== "en")) {
-    assert.throws(
-      () => resolveBlogDeckResource("us-state-abbreviations", locale, model),
-      new RegExp(`article us-state-abbreviations in locale ${locale}: published catalog package us-state-abbreviations-flashcards-${locale} is missing`),
-    );
-    assert.equal(resolveBlogDeckResource("git-reset-restore-revert-practice", locale, model), null);
-    assert.equal(resolveBlogDeckResource("planes-of-movement", locale, model), null);
-  }
+  assert.equal(resolveBlogDeckResource("us-state-abbreviations", "fr-ca", model), null);
+  assert.equal(resolveBlogDeckResource("git-reset-restore-revert-practice", "es", model), null);
+  assert.equal(resolveBlogDeckResource("planes-of-movement", "es", model), null);
   assert.throws(
     () => resolveBlogDeckResource("us-state-abbreviations", "en", model),
     /published catalog package us-state-abbreviations-flashcards is missing/,
+  );
+  assert.throws(
+    () => resolveBlogDeckResource("us-state-abbreviations", "es", model),
+    /article us-state-abbreviations in locale es: published catalog package us-state-abbreviations-flashcards-es is missing/,
   );
   assert.throws(
     () => resolveBlogDeckResource("anatomical-directional-terms", "es", model),
@@ -1859,8 +1859,8 @@ test("allows Markdown and autolinks but rejects raw HTML", () => {
   );
 });
 
-test("accepts every supported interface locale as a package and collection language", () => {
-  const supportedTags = [...SUPPORTED_LOCALES];
+test("accepts every supported audience tag as a package and collection language", () => {
+  const supportedTags = [...PUBLIC_CATALOG_AUDIENCE_TAGS];
   const input = createValidDump();
 
   input.packageVersions[1].languageTags = supportedTags;
@@ -1872,10 +1872,15 @@ test("accepts every supported interface locale as a package and collection langu
   assert.deepEqual(dump.collections[0]?.languageTags, supportedTags);
 });
 
-test("rejects package and collection language tags outside the supported locales", () => {
+test("rejects unsupported package and collection language tags, including regional interface locales", () => {
   const rejectedTags = [
     unsupportedLanguageTag,
     "en-US",
+    "en-au",
+    "en-ca",
+    "en-gb",
+    "fr-ca",
+    "pt-pt",
     "EN",
     "",
     ".",
@@ -1899,7 +1904,7 @@ test("rejects package and collection language tags outside the supported locales
           assert.match(
             error.message,
             new RegExp(
-              `${entity}\\[0\\]\\.languageTags\\[0\\] must be a supported interface locale`,
+              `${entity}\\[0\\]\\.languageTags\\[0\\] must be a supported catalog audience tag`,
             ),
           );
           assert.equal(error.message.endsWith(`received=${rejectedTag}`), true);

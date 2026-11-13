@@ -7,7 +7,7 @@ import { tmpdir } from "node:os";
 import { dirname, join } from "node:path";
 import test from "node:test";
 import { NextRequest } from "next/server";
-import { unstable_getResponseFromNextConfig } from "next/experimental/testing/server";
+import { unstable_doesMiddlewareMatch, unstable_getResponseFromNextConfig } from "next/experimental/testing/server";
 import type { GlobalActivitySnapshot } from "./globalActivitySnapshot";
 import { parseMarkdownAssetManifest, serializeMarkdownAssetManifest } from "./markdownAssetManifest";
 
@@ -104,7 +104,10 @@ test("localized retirement excludes publication while retaining sources and serv
   const manifest = serializeMarkdownAssetManifest({
     retired,
     facets: {},
-    markdown: { "/es/blog/shared/": `/__markdown/${"a".repeat(64)}.md` },
+    markdown: {
+      "/es/blog/shared/": `/__markdown/${"a".repeat(64)}.md`,
+      "/fr/": `/__markdown/${"b".repeat(64)}.md`,
+    },
   });
   process.env.MARKDOWN_ASSET_MANIFEST_JSON = manifest;
   mkdirSync(join(directory, ".generated"));
@@ -144,7 +147,39 @@ test("localized retirement excludes publication while retaining sources and serv
     assert.equal(configResponse.status, 308);
     assert.equal(configResponse.headers.get("Location"), `https://nibomo.com${destination}`);
   }
-  const { proxy } = await import("../proxy");
+  const { config: proxyConfig, proxy } = await import("../proxy");
+  for (const [pathname, destination] of [
+    ["/FR/features.md", "/fr.md"],
+    ["/FR/Features.MD/", "/fr.md"],
+    ["/EN-AU/features", "/en-au/"],
+    ["/Zh-Hant/features/", "/zh-hant/"],
+    ["/Fr-CA/catalog/packages/algebra-based-physics-1-flashcards", "/fr-ca/catalog/packages/ap-physics-1-flashcards/"],
+    ["/PT-PT/catalog/packages/advanced-high-school-chemistry-flashcards/", "/pt-pt/catalog/packages/ap-chemistry-flashcards/"],
+    ["/MS/catalog/packages/five-unit-psychology-course-review.md/", "/ms/catalog/packages/ap-psychology-flashcards.md"],
+  ]) {
+    const query = "?source=test%20space&tag=a&tag=b";
+    const url = `https://nibomo.com${pathname}${query}`;
+    const configResponse = await unstable_getResponseFromNextConfig({ url, nextConfig });
+    assert.equal(configResponse.headers.get("Location"), null, `${pathname} must reach Proxy`);
+    assert.ok(unstable_doesMiddlewareMatch({ config: proxyConfig, url, nextConfig }), pathname);
+    for (const accept of ["text/html", "text/markdown"]) {
+      const response = proxy(new NextRequest(url, { headers: { accept } }));
+      assert.equal(response.status, 308, `${pathname} ${accept}`);
+      assert.equal(response.headers.get("Location"), `https://nibomo.com${destination}${query}`);
+    }
+  }
+  for (const [pathname, destination] of [
+    ["/features.md", "/.md"],
+    ["/catalog/packages/algebra-based-physics-1-flashcards/", "/catalog/packages/ap-physics-1-flashcards/"],
+  ]) {
+    const configResponse = await unstable_getResponseFromNextConfig({ url: `https://nibomo.com${pathname}`, nextConfig });
+    assert.equal(configResponse.status, 308, pathname);
+    assert.equal(configResponse.headers.get("Location"), `https://nibomo.com${destination}`);
+  }
+  assert.equal(proxy(new NextRequest("https://nibomo.com/fr.md")).headers.get("x-middleware-rewrite"), `https://nibomo.com/__markdown/${"b".repeat(64)}.md`);
+  for (const pathname of ["/fake/features/", "/en/features/", "/FR/Features/extra/", "/FR/pricing/"]) {
+    assert.equal(proxy(new NextRequest(`https://nibomo.com${pathname}`)).headers.get("Location"), null, pathname);
+  }
   for (const pagePath of retired) {
     for (const pathname of [pagePath, pagePath.slice(0, -1), `${pagePath.slice(0, -1)}.md`, `${pagePath.slice(0, -1)}.md/`]) {
       for (const accept of ["text/html", "text/markdown"]) {

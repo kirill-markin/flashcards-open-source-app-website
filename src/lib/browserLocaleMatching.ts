@@ -1,61 +1,8 @@
-import type { AppLocale } from "@/lib/localeConfig";
+import { isSupportedLocale, type AppLocale } from "@/lib/localeConfig";
 
-const PRIMARY_LANGUAGE_LOCALES = [
-  "ar",
-  "bg",
-  "bn",
-  "ca",
-  "cs",
-  "da",
-  "de",
-  "el",
-  "en",
-  "es",
-  "et",
-  "fa",
-  "fi",
-  "fr",
-  "gu",
-  "he",
-  "hi",
-  "hr",
-  "hu",
-  "id",
-  "is",
-  "it",
-  "ja",
-  "kn",
-  "ko",
-  "lt",
-  "lv",
-  "ml",
-  "mr",
-  "nb",
-  "nl",
-  "pa",
-  "pl",
-  "pt",
-  "ro",
-  "ru",
-  "sk",
-  "sl",
-  "sv",
-  "sw",
-  "ta",
-  "te",
-  "th",
-  "tr",
-  "uk",
-  "ur",
-  "vi",
-  "zu",
-] as const;
-
-type PrimaryLanguageLocale = (typeof PRIMARY_LANGUAGE_LOCALES)[number];
-
-function getCanonicalLanguage(rawLanguage: string): string | null {
+function getBrowserLanguage(rawLanguage: string): Intl.Locale | null {
   try {
-    return Intl.getCanonicalLocales(rawLanguage)[0] ?? null;
+    return new Intl.Locale(rawLanguage);
   } catch (error: unknown) {
     if (error instanceof RangeError) {
       return null;
@@ -65,52 +12,31 @@ function getCanonicalLanguage(rawLanguage: string): string | null {
   }
 }
 
-function isPrimaryLanguageLocale(
-  primaryLanguage: string
-): primaryLanguage is PrimaryLanguageLocale {
-  return PRIMARY_LANGUAGE_LOCALES.includes(
-    primaryLanguage as PrimaryLanguageLocale
-  );
-}
+function getLocaleCandidates(browserLanguage: Intl.Locale): ReadonlyArray<string> {
+  const { baseName, language, region, script } = browserLanguage;
 
-function isSimplifiedChineseLanguage(canonicalLanguage: string): boolean {
-  const subtags = canonicalLanguage.split("-");
-  const primaryLanguage = subtags[0] ?? "";
-  const scriptOrRegion = subtags[1] ?? "";
+  if (language === "zh") {
+    if (script === "Hant" || script === "Hans") {
+      return [script === "Hant" ? "zh-hant" : "zh"];
+    }
 
-  if (primaryLanguage !== "zh") {
-    return false;
+    if (script !== undefined) {
+      return [];
+    }
+
+    if (region === "TW" || region === "HK" || region === "MO") {
+      return ["zh-hant"];
+    }
+
+    return baseName === "zh" || region === "CN" || region === "SG" ? ["zh"] : [];
   }
 
-  return (
-    scriptOrRegion === "" ||
-    scriptOrRegion === "CN" ||
-    scriptOrRegion === "Hans" ||
-    scriptOrRegion === "SG"
-  );
-}
-
-/** Browsers send the macrolanguage `no` or Nynorsk `nn`; the site serves Norwegian only as `nb`. */
-function isNorwegianLanguage(primaryLanguage: string): boolean {
-  return primaryLanguage === "no" || primaryLanguage === "nn";
-}
-
-function getMatchedLocale(canonicalLanguage: string): AppLocale | null {
-  const primaryLanguage = canonicalLanguage.split("-", 1)[0] ?? "";
-
-  if (isPrimaryLanguageLocale(primaryLanguage)) {
-    return primaryLanguage;
+  // Browsers may use the Norwegian macrolanguage or Nynorsk.
+  if (language === "no" || language === "nn") {
+    return ["nb"];
   }
 
-  if (isSimplifiedChineseLanguage(canonicalLanguage)) {
-    return "zh";
-  }
-
-  if (isNorwegianLanguage(primaryLanguage)) {
-    return "nb";
-  }
-
-  return null;
+  return baseName === language ? [language] : [baseName.toLowerCase(), language];
 }
 
 function getBrowserLocaleMatch(
@@ -123,19 +49,18 @@ function getBrowserLocaleMatch(
   );
 
   for (const rawLanguage of browserLanguages) {
-    const canonicalLanguage = getCanonicalLanguage(rawLanguage);
+    const browserLanguage = getBrowserLanguage(rawLanguage);
 
-    if (canonicalLanguage === null) {
+    if (browserLanguage === null) {
       continue;
     }
 
-    const matchedLocale = getMatchedLocale(canonicalLanguage);
+    const matchedLocale = getLocaleCandidates(browserLanguage).find(
+      (locale): locale is AppLocale =>
+        isSupportedLocale(locale) && availableLocaleSet.has(locale),
+    );
 
-    if (
-      matchedLocale !== null &&
-      matchedLocale !== excludedLocale &&
-      availableLocaleSet.has(matchedLocale)
-    ) {
+    if (matchedLocale !== undefined && matchedLocale !== excludedLocale) {
       return matchedLocale;
     }
   }

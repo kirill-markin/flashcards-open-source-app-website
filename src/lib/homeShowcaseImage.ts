@@ -1,57 +1,20 @@
-import type { AppLocale } from "@/lib/i18n";
+import type { AppLocale } from "./localeConfig";
 
-const HOME_SHOWCASE_IMAGE_BY_LOCALE: Readonly<Record<AppLocale, string>> = {
-  en: "/home/app-screens-showcase-en.png",
-  es: "/home/app-screens-showcase-es.png",
-  ar: "/home/app-screens-showcase-ar.png",
-  de: "/home/app-screens-showcase-de.png",
-  hi: "/home/app-screens-showcase-hi.png",
-  ja: "/home/app-screens-showcase-ja.png",
-  fr: "/home/app-screens-showcase-fr.png",
-  pt: "/home/app-screens-showcase-pt.png",
-  ru: "/home/app-screens-showcase-ru.png",
-  zh: "/home/app-screens-showcase-zh.png",
-  it: "/home/app-screens-showcase-it.png",
-  ko: "/home/app-screens-showcase-ko.png",
-  id: "/home/app-screens-showcase-id.png",
-  tr: "/home/app-screens-showcase-tr.png",
-  nl: "/home/app-screens-showcase-nl.png",
-  pl: "/home/app-screens-showcase-pl.png",
-  vi: "/home/app-screens-showcase-vi.png",
-  th: "/home/app-screens-showcase-th.png",
-  uk: "/home/app-screens-showcase-uk.png",
-  he: "/home/app-screens-showcase-he.png",
-  sv: "/home/app-screens-showcase-sv.png",
-  da: "/home/app-screens-showcase-da.png",
-  nb: "/home/app-screens-showcase-nb.png",
-  fi: "/home/app-screens-showcase-fi.png",
-  cs: "/home/app-screens-showcase-cs.png",
-  el: "/home/app-screens-showcase-el.png",
-  ro: "/home/app-screens-showcase-ro.png",
-  hu: "/home/app-screens-showcase-hu.png",
-  fa: "/home/app-screens-showcase-fa.png",
-  ca: "/home/app-screens-showcase-ca.png",
-  bn: "/home/app-screens-showcase-bn.png",
-  gu: "/home/app-screens-showcase-gu.png",
-  kn: "/home/app-screens-showcase-kn.png",
-  ml: "/home/app-screens-showcase-ml.png",
-  mr: "/home/app-screens-showcase-mr.png",
-  pa: "/home/app-screens-showcase-pa.png",
-  ta: "/home/app-screens-showcase-ta.png",
-  te: "/home/app-screens-showcase-te.png",
-  ur: "/home/app-screens-showcase-ur.png",
-  sw: "/home/app-screens-showcase-sw.png",
-  bg: "/home/app-screens-showcase-bg.png",
-  et: "/home/app-screens-showcase-et.png",
-  hr: "/home/app-screens-showcase-hr.png",
-  is: "/home/app-screens-showcase-is.png",
-  lt: "/home/app-screens-showcase-lt.png",
-  lv: "/home/app-screens-showcase-lv.png",
-  sk: "/home/app-screens-showcase-sk.png",
-  sl: "/home/app-screens-showcase-sl.png",
-  zu: "/home/app-screens-showcase-zu.png",
+const PREVIEW_CAPTURE_LOCALES: Readonly<Partial<Record<AppLocale, AppLocale>>> = {
+  "zh-hant": "en",
+  "en-au": "en",
+  "en-ca": "en",
+  "en-gb": "en",
+  "fr-ca": "fr",
+  "pt-pt": "pt",
+  ms: "en",
+  or: "en",
 };
 
+export function getHomeShowcaseCapturePath(locale: AppLocale): string {
+  return `/home/app-screens-showcase-${locale}.png`;
+}
+
 export function getHomeShowcaseImagePath(locale: AppLocale): string {
-  return HOME_SHOWCASE_IMAGE_BY_LOCALE[locale];
+  return getHomeShowcaseCapturePath(PREVIEW_CAPTURE_LOCALES[locale] ?? locale);
 }

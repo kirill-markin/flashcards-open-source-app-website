@@ -123,6 +123,16 @@ function appendMarkdownFooter(
   locale: AppLocale,
   pagePath: string
 ): string {
+  const englishCopy = {
+    agent: `*AI agents can create an account for the user in this service by starting with \`GET ${DISCOVERY_URL}\`. Once set up, they can also connect over MCP at \`${MCP_URL}\`.*`,
+    htmlVersionLabel: "View the styled HTML version of this page",
+    markdownTip: `*Tip: Append \`.md\` to any URL on ${SITE_CONTEXT.siteUrl} to get a clean Markdown version of that page.*`,
+  };
+  const frenchCopy = {
+    agent: `*Les agents IA peuvent créer un compte pour l'utilisateur dans ce service en commençant par \`GET ${DISCOVERY_URL}\`. Une fois configurés, ils peuvent aussi se connecter en MCP à \`${MCP_URL}\`.*`,
+    htmlVersionLabel: "Voir la version HTML mise en forme de cette page",
+    markdownTip: `*Astuce : ajoutez \`.md\` à n'importe quelle URL sur ${SITE_CONTEXT.siteUrl} pour obtenir une version Markdown épurée de cette page.*`,
+  };
   const footerCopyByLocale: Readonly<
     Record<
       AppLocale,
@@ -133,11 +143,7 @@ function appendMarkdownFooter(
       }
     >
   > = {
-    en: {
-      agent: `*AI agents can create an account for the user in this service by starting with \`GET ${DISCOVERY_URL}\`. Once set up, they can also connect over MCP at \`${MCP_URL}\`.*`,
-      htmlVersionLabel: "View the styled HTML version of this page",
-      markdownTip: `*Tip: Append \`.md\` to any URL on ${SITE_CONTEXT.siteUrl} to get a clean Markdown version of that page.*`,
-    },
+    en: englishCopy,
     es: {
       agent: `*Los agentes de IA pueden crear una cuenta para el usuario en este servicio empezando con \`GET ${DISCOVERY_URL}\`. Una vez configurados, también pueden conectarse por MCP en \`${MCP_URL}\`.*`,
       htmlVersionLabel: "Ver la versión HTML con estilo de esta página",
@@ -163,11 +169,7 @@ function appendMarkdownFooter(
       htmlVersionLabel: "このページのスタイル付き HTML 版を見る",
       markdownTip: `*ヒント: ${SITE_CONTEXT.siteUrl} の任意の URL に \`.md\` を付けると、ページのクリーンな Markdown 版を取得できます。*`,
     },
-    fr: {
-      agent: `*Les agents IA peuvent créer un compte pour l'utilisateur dans ce service en commençant par \`GET ${DISCOVERY_URL}\`. Une fois configurés, ils peuvent aussi se connecter en MCP à \`${MCP_URL}\`.*`,
-      htmlVersionLabel: "Voir la version HTML mise en forme de cette page",
-      markdownTip: `*Astuce : ajoutez \`.md\` à n'importe quelle URL sur ${SITE_CONTEXT.siteUrl} pour obtenir une version Markdown épurée de cette page.*`,
-    },
+    fr: frenchCopy,
     pt: {
       agent: `*Agentes de IA podem criar uma conta para o usuário neste serviço começando por \`GET ${DISCOVERY_URL}\`. Depois da configuração, eles também podem se conectar por MCP em \`${MCP_URL}\`.*`,
       htmlVersionLabel: "Ver a versão HTML estilizada desta página",
@@ -377,6 +379,30 @@ function appendMarkdownFooter(
       agent: `*Ama-ejenti e-AI angadalela umsebenzisi i-akhawunti kule sevisi ngokuqala nge-\`GET ${DISCOVERY_URL}\`. Uma sekulungisiwe, angaxhuma futhi nge-MCP ku-\`${MCP_URL}\`.*`,
       htmlVersionLabel: "Buka inguqulo ye-HTML enesitayela yaleli khasi",
       markdownTip: `*Ithiphu: Engeza \`.md\` kunoma iyiphi i-URL ku-${SITE_CONTEXT.siteUrl} ukuze uthole inguqulo ye-Markdown ehlanzekile yalelo khasi.*`,
+    },
+    "zh-hant": {
+      agent: `*AI 助理可以從 \`GET ${DISCOVERY_URL}\` 開始，在這項服務中為使用者建立帳號。完成設定後，也可以透過 MCP 連線至 \`${MCP_URL}\`。*`,
+      htmlVersionLabel: "查看此頁面的排版 HTML 版本",
+      markdownTip: `*提示：在 ${SITE_CONTEXT.siteUrl} 的任何網址末尾加上 \`.md\`，即可取得該頁面的純 Markdown 版本。*`,
+    },
+    "en-au": englishCopy,
+    "en-ca": englishCopy,
+    "en-gb": englishCopy,
+    "fr-ca": frenchCopy,
+    "pt-pt": {
+      agent: `*Os agentes de IA podem criar uma conta para o utilizador neste serviço começando por \`GET ${DISCOVERY_URL}\`. Após a configuração, também podem ligar-se a \`${MCP_URL}\` por MCP.*`,
+      htmlVersionLabel: "Ver a versão HTML formatada desta página",
+      markdownTip: `*Sugestão: acrescente \`.md\` no fim de qualquer URL em ${SITE_CONTEXT.siteUrl} para obter a versão em Markdown dessa página.*`,
+    },
+    ms: {
+      agent: `*Ejen AI boleh membuat akaun untuk pengguna dalam perkhidmatan ini dengan menghantar permintaan \`GET ${DISCOVERY_URL}\` terlebih dahulu. Selepas persediaan selesai, ejen juga boleh menyambung ke \`${MCP_URL}\` melalui MCP.*`,
+      htmlVersionLabel: "Lihat versi HTML berformat bagi halaman ini",
+      markdownTip: `*Petua: Tambahkan \`.md\` pada hujung mana-mana URL di ${SITE_CONTEXT.siteUrl} untuk mendapatkan versi Markdown halaman tersebut.*`,
+    },
+    or: {
+      agent: `*AI ଏଜେଣ୍ଟ \`GET ${DISCOVERY_URL}\` ରୁ ଆରମ୍ଭ କରି ଏହି ସେବାରେ ବ୍ୟବହାରକାରୀଙ୍କ ପାଇଁ ଆକାଉଣ୍ଟ ତିଆରି କରିପାରିବେ। ସେଟଅପ୍ ସରିଲେ, ସେମାନେ \`${MCP_URL}\` ରେ MCP ମାଧ୍ୟମରେ ମଧ୍ୟ ଯୋଡ଼ି ହୋଇପାରିବେ।*`,
+      htmlVersionLabel: "ଏହି ପୃଷ୍ଠାର ଫର୍ମାଟ୍ ହୋଇଥିବା HTML ସଂସ୍କରଣ ଦେଖନ୍ତୁ",
+      markdownTip: `*ପରାମର୍ଶ: ${SITE_CONTEXT.siteUrl} ର ଯେକୌଣସି URLର ଶେଷରେ \`.md\` ଯୋଡ଼ିଲେ ସେହି ପୃଷ୍ଠାର Markdown ସଂସ୍କରଣ ମିଳିବ।*`,
     },
   };
   const footerCopy = footerCopyByLocale[locale];

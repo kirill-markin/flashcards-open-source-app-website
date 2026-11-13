@@ -9,83 +9,32 @@ import {
   parseMarkdownAssetManifest,
   serializeMarkdownAssetManifest,
 } from "./src/lib/markdownAssetManifest";
-import { DEFAULT_LOCALE, SUPPORTED_LOCALES } from "./src/lib/localeConfig";
 import { marketingMediaManifest } from "./src/lib/marketingMedia";
-import { createBlogAwareTrailingSlashRedirects } from "./src/lib/blogRouting";
+import { BLOG_ARTICLE_PROXY_PATH_PATTERN } from "./src/lib/blogRouting";
+import { createUnprefixedLegacyRedirects, LOCALIZED_LEGACY_PATH_PATTERN } from "./src/lib/legacyRedirects";
 
-type CatalogPackageSlugRedirect = Readonly<{
-  retiredSlug: string;
-  replacementSlug: string;
-}>;
-
-type PermanentRedirect = Readonly<{
+function createTrailingSlashRedirects(proxyPathPatterns: readonly string[]): Array<{
   source: string;
   destination: string;
   permanent: true;
-}>;
-
-const catalogPackageSlugRedirects: ReadonlyArray<CatalogPackageSlugRedirect> = [
-  {
-    retiredSlug: "algebra-based-physics-1-flashcards",
-    replacementSlug: "ap-physics-1-flashcards",
-  },
-  {
-    retiredSlug: "advanced-high-school-chemistry-flashcards",
-    replacementSlug: "ap-chemistry-flashcards",
-  },
-  {
-    retiredSlug: "five-unit-psychology-course-review",
-    replacementSlug: "ap-psychology-flashcards",
-  },
-];
-
-// Derived from SUPPORTED_LOCALES so a new locale never silently loses its
-// catalog redirects. This mirrors getLocalizedPathname from src/lib/i18n.ts,
-// which cannot be imported here because it resolves "@/" path aliases that
-// next.config.ts does not support.
-const catalogUiPathPrefixes: ReadonlyArray<string> = SUPPORTED_LOCALES.map(
-  (locale) => (locale === DEFAULT_LOCALE ? "" : `/${locale}`),
-);
-
-function createPermanentCatalogPackageRedirects(): Array<PermanentRedirect> {
-  return catalogPackageSlugRedirects.flatMap(({ retiredSlug, replacementSlug }) =>
-    catalogUiPathPrefixes.flatMap((localePrefix) => {
-      const retiredPath = `${localePrefix}/catalog/packages/${retiredSlug}`;
-      const replacementPath = `${localePrefix}/catalog/packages/${replacementSlug}`;
-
-      return [
-        {
-          source: `${retiredPath}/`,
-          destination: `${replacementPath}/`,
-          permanent: true,
-        },
-        {
-          source: `${retiredPath}.md`,
-          destination: `${replacementPath}.md`,
-          permanent: true,
-        },
-      ];
-    }),
-  );
-}
-
-function createRetiredFeaturesRedirects(): Array<PermanentRedirect> {
-  return SUPPORTED_LOCALES.flatMap((locale) => {
-    const localePrefix = locale === DEFAULT_LOCALE ? "" : `/${locale}`;
-
-    return [
-      {
-        source: `${localePrefix}/features/`,
-        destination: `${localePrefix}/`,
-        permanent: true,
-      },
-      {
-        source: `${localePrefix}/features.md`,
-        destination: locale === DEFAULT_LOCALE ? "/.md" : `${localePrefix}.md`,
-        permanent: true,
-      },
-    ];
-  });
+  missing?: Array<{ type: "header"; key: string }>;
+}> {
+  // Next redirects run before Proxy. Leave the original slash form for legacy and retired paths.
+  const outsideProxyPaths = `(?!(?:${proxyPathPatterns.join("|")}))`;
+  return [
+    {
+      source: `/:file(${outsideProxyPaths}(?!\\.well-known(?:/.*)?)(?:[^/]+/)*[^/]+\\.\\w+)/`,
+      destination: "/:file",
+      permanent: true,
+      missing: [{ type: "header", key: "x-nextjs-data" }],
+    },
+    {
+      // Next adds an optional slash to custom redirects, so reject it explicitly.
+      source: `/:notfile(${outsideProxyPaths}(?!\\.well-known(?:/.*)?)(?:[^/]+/)*[^/\\.]+(?!/))`,
+      destination: "/:notfile/",
+      permanent: true,
+    },
+  ];
 }
 
 function readMarkdownAssetManifest(): string {
@@ -109,7 +58,7 @@ const hasRetiredBlogPaths = parseMarkdownAssetManifest(markdownAssetManifestJson
 
 const nextConfig: NextConfig = {
   trailingSlash: true,
-  skipTrailingSlashRedirect: hasRetiredBlogPaths,
+  skipTrailingSlashRedirect: true,
   images: {
     formats: ["image/webp", "image/avif"],
     remotePatterns: [
@@ -208,9 +157,11 @@ const nextConfig: NextConfig = {
   },
   async redirects() {
     return [
-      ...(hasRetiredBlogPaths ? createBlogAwareTrailingSlashRedirects() : []),
-      ...createPermanentCatalogPackageRedirects(),
-      ...createRetiredFeaturesRedirects(),
+      ...createTrailingSlashRedirects([
+        LOCALIZED_LEGACY_PATH_PATTERN,
+        ...(hasRetiredBlogPaths ? [BLOG_ARTICLE_PROXY_PATH_PATTERN] : []),
+      ]),
+      ...createUnprefixedLegacyRedirects(),
       ...marketingMediaManifest.map(({ publicPath, url }) => ({
         source: publicPath.replaceAll(".", "\\."),
         destination: url,
