@@ -4805,6 +4805,21 @@
     "bytes": 2399844
   },
   {
+    "publicPath": "/blog/rectangular-tank-volume-in-liters.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/a4421f905cb122112246c9bbcfe1a36ae787e5a560eaecfe0b63c3e1f01ae8e2.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "a4421f905cb122112246c9bbcfe1a36ae787e5a560eaecfe0b63c3e1f01ae8e2",
+    "bytes": 155102,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/617d24915334130b81826482a6420822dcc5a6f828a21b00feff4199675cf65c.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "617d24915334130b81826482a6420822dcc5a6f828a21b00feff4199675cf65c",
+      "bytes": 2316218
+    }
+  },
+  {
     "publicPath": "/blog/recurring-decimals-to-fractions.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/8a471fc7c699aa78cabe33c2b4accb79d170ffd86269d918eefef99c8d024efc.png",
     "width": 1672,
