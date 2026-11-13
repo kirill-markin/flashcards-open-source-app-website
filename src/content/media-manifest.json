@@ -1681,6 +1681,21 @@
     }
   },
   {
+    "publicPath": "/blog/first-ionization-energy-period-3.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/150b8a0683280d13108e7a39657f7088bbdef1c40b49f18443e1a8f561173e2d.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "150b8a0683280d13108e7a39657f7088bbdef1c40b49f18443e1a8f561173e2d",
+    "bytes": 278976,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/57609eefc307cb44f49cbceba2d9620f221ca4c4b644b663c8478cd724fa8bea.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "57609eefc307cb44f49cbceba2d9620f221ca4c4b644b663c8478cd724fa8bea",
+      "bytes": 2973681
+    }
+  },
+  {
     "publicPath": "/blog/fischer-projection-r-s-practice.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/38955d641d87fe36cfb0e3769885efa54f1fcfb1d40e8fb09e3ea00fc38e22f1.webp",
     "width": 1672,
