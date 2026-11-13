@@ -5306,6 +5306,21 @@
     "bytes": 1551235
   },
   {
+    "publicPath": "/blog/studyfetch-to-nibomo.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/ff23ebcb799b409efed0cab5e15a4c5119b9344c4c225ca453937b7aef8f85af.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "ff23ebcb799b409efed0cab5e15a4c5119b9344c4c225ca453937b7aef8f85af",
+    "bytes": 376182,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/43d517056e5551d8ff28a7ef86c77894c33506aebcd8e4a1c26499bc83951e35.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "43d517056e5551d8ff28a7ef86c77894c33506aebcd8e4a1c26499bc83951e35",
+      "bytes": 3307113
+    }
+  },
+  {
     "publicPath": "/blog/studysmarter-alternative.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/994ebcecae9123c670761310cac455a179521f6ff7c145282b376832744b5581.png",
     "width": 1672,
