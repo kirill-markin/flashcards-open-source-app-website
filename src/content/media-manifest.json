@@ -2069,6 +2069,21 @@
     }
   },
   {
+    "publicPath": "/blog/goodnotes-to-nibomo.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/fb66ac5d3c8002f5fcace27fcebc5684b70a228bd3f3e2013159a8076c9b3022.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "fb66ac5d3c8002f5fcace27fcebc5684b70a228bd3f3e2013159a8076c9b3022",
+    "bytes": 355162,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/6c964cf827f6faa244c3da59d23b5eb675a2cc471b703020a2817dc82b015c5e.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "6c964cf827f6faa244c3da59d23b5eb675a2cc471b703020a2817dc82b015c5e",
+      "bytes": 3237185
+    }
+  },
+  {
     "publicPath": "/blog/gre-vocabulary-flashcards.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/71027848aeea10834f7dc3bebf019d9980e9dec3695623dfaec7ec92292ea20a.png",
     "width": 1671,
