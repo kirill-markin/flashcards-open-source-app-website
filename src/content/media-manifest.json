@@ -4409,6 +4409,21 @@
     "bytes": 497196
   },
   {
+    "publicPath": "/blog/periodic-table-groups-and-periods-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/df22cd5e9eec475f33fd3ba442d94d04b7463f65362afbbce77f85285d86b496.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "df22cd5e9eec475f33fd3ba442d94d04b7463f65362afbbce77f85285d86b496",
+    "bytes": 150618,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/730904932106ed912a1790d4745e1c03fd10ff7fc569ab0aa76c6aca44f56257.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "730904932106ed912a1790d4745e1c03fd10ff7fc569ab0aa76c6aca44f56257",
+      "bytes": 2288341
+    }
+  },
+  {
     "publicPath": "/blog/permutations-vs-combinations-practice.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/194ed0e5f0b7c3922b9e37666c6878d17f402a3e0ebeae11294d97ef1287a137.webp",
     "width": 1672,
