@@ -36,6 +36,7 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   "sap-idoc-status-codes": { en: "sap-idoc-status-codes" },
   "korean-vocabulary-recall-practice": { en: "korean-everyday-vocabulary" },
   "japanese-small-tsu": { en: "basic-hiragana-romaji" },
+  "hiragana-and-katakana-practice": { en: "basic-hiragana-romaji" },
   "japanese-masu-dictionary-te-form": { en: "japanese-masu-dictionary-te-form" },
   "modern-greek-vocabulary-flashcards": { en: "modern-greek-everyday-vocabulary" },
   "latin-prepositions-conjunctions": { de: "latin-prepositions-conjunctions-german-speakers" },

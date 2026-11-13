@@ -24,6 +24,21 @@
     "bytes": 2621071
   },
   {
+    "publicPath": "/blog/ai-flashcard-generators.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/9fd4247efa65af4d6a03275169aa4ae1f79f155e982946e069cd5299a3fb43d9.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "9fd4247efa65af4d6a03275169aa4ae1f79f155e982946e069cd5299a3fb43d9",
+    "bytes": 205102,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/5a7123bb7703ea1aa3a65ffdd01b6eaaf6e949a1f88570e64baf6113c1be5cdb.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "5a7123bb7703ea1aa3a65ffdd01b6eaaf6e949a1f88570e64baf6113c1be5cdb",
+      "bytes": 2531419
+    }
+  },
+  {
     "publicPath": "/blog/ai-flashcard-tutor-due-cards.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/1721106431664c230cb77827d005f1bb1798e17a9a05b61033f9c0edb5ff94ff.png",
     "width": 1672,
@@ -1802,6 +1817,21 @@
     "bytes": 1982893
   },
   {
+    "publicPath": "/blog/flashcards-with-pictures.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/4c0a495e2491963dc6e6526c944359a17d7782ca796947bb7b0a3c7136d69749.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "4c0a495e2491963dc6e6526c944359a17d7782ca796947bb7b0a3c7136d69749",
+    "bytes": 175614,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/632831257772302b958c3087146552987587623d8f27aed0ea3c6972ccd5a2ce.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "632831257772302b958c3087146552987587623d8f27aed0ea3c6972ccd5a2ce",
+      "bytes": 2423647
+    }
+  },
+  {
     "publicPath": "/blog/flashcards-world-to-nibomo.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/14bb47f99909a01f5349ecf1fbb0a3db7c946718487b01d4553aefb04452285b.webp",
     "width": 1672,
@@ -2196,6 +2226,21 @@
     "height": 941,
     "sha256": "23908342cdf3213c85efd30c576d3cfc44bd04c5fc653788a958e6f37234ddce",
     "bytes": 2405022
+  },
+  {
+    "publicPath": "/blog/hiragana-and-katakana-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/053f966820b1abf956324110b53ba21fc59b31ad954d82686e125fad4d5fd10a.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "053f966820b1abf956324110b53ba21fc59b31ad954d82686e125fad4d5fd10a",
+    "bytes": 356024,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/3b3bbda69817f0925243caf556b49c2d9223f416e0f0305cc13820860a427424.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "3b3bbda69817f0925243caf556b49c2d9223f416e0f0305cc13820860a427424",
+      "bytes": 3308508
+    }
   },
   {
     "publicPath": "/blog/home-screen-widgets-android-activity-small.png",
