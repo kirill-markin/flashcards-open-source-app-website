@@ -1817,6 +1817,21 @@
     "bytes": 1982893
   },
   {
+    "publicPath": "/blog/flashcards-with-pictures.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/4c0a495e2491963dc6e6526c944359a17d7782ca796947bb7b0a3c7136d69749.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "4c0a495e2491963dc6e6526c944359a17d7782ca796947bb7b0a3c7136d69749",
+    "bytes": 175614,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/632831257772302b958c3087146552987587623d8f27aed0ea3c6972ccd5a2ce.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "632831257772302b958c3087146552987587623d8f27aed0ea3c6972ccd5a2ce",
+      "bytes": 2423647
+    }
+  },
+  {
     "publicPath": "/blog/flashcards-world-to-nibomo.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/14bb47f99909a01f5349ecf1fbb0a3db7c946718487b01d4553aefb04452285b.webp",
     "width": 1672,
