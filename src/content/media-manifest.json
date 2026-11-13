@@ -1318,6 +1318,21 @@
     "bytes": 1963097
   },
   {
+    "publicPath": "/blog/ege-social-studies-task-18-unemployment.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/5fbfedbb5ae59afb893bbd33d9b0b84ab47c02d80ff83f5f6df03679767ed7e2.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "5fbfedbb5ae59afb893bbd33d9b0b84ab47c02d80ff83f5f6df03679767ed7e2",
+    "bytes": 196592,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/cc81d804b9aa5ecc726e58834a0283238496a43c92e2cf71c0cb14f4bed9af76.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "cc81d804b9aa5ecc726e58834a0283238496a43c92e2cf71c0cb14f4bed9af76",
+      "bytes": 2454458
+    }
+  },
+  {
     "publicPath": "/blog/ege-social-studies-terms-practice.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/80d400d138100a7025baecaae36c55ce8f58d7af4d17c4993db37810cc98eafd.webp",
     "width": 1672,
