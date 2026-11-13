@@ -657,6 +657,36 @@
     "bytes": 2599600
   },
   {
+    "publicPath": "/blog/bass-clef-key-signature-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/7b2501b775f01cdc6729ce00880908de6d42f7a65ec308588d41f1d6e6fda2ca.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "7b2501b775f01cdc6729ce00880908de6d42f7a65ec308588d41f1d6e6fda2ca",
+    "bytes": 189568,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/d7897cf410b660cb0513142f8968eed4170a429b4b6d4a7f9ea5bfa9c427a7c5.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "d7897cf410b660cb0513142f8968eed4170a429b4b6d4a7f9ea5bfa9c427a7c5",
+      "bytes": 2558945
+    }
+  },
+  {
+    "publicPath": "/blog/bass-clef-key-signature-score.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/cb535cac88c6e233f2e41c5e34fac6232f75e740d063b6a3235fe2db51b27e87.webp",
+    "width": 2611,
+    "height": 1169,
+    "sha256": "cb535cac88c6e233f2e41c5e34fac6232f75e740d063b6a3235fe2db51b27e87",
+    "bytes": 39046,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/e8b995d8bc91b17d2646b26d6530f3a06ea4eca0534de65289127cec1a00fcfa.png",
+      "width": 2611,
+      "height": 1169,
+      "sha256": "e8b995d8bc91b17d2646b26d6530f3a06ea4eca0534de65289127cec1a00fcfa",
+      "bytes": 159532
+    }
+  },
+  {
     "publicPath": "/blog/bass-clef-ledger-lines-drill.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/1c8a96b2134890cb5a40d3eecdfc521e88b0d5aa896a2ced0613d792789f65d8.webp",
     "width": 1003,
