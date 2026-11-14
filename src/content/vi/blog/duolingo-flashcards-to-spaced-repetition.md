@@ -124,6 +124,8 @@ Những ghi chú sửa lỗi ban đầu thường chưa thể dùng ngay làm th
 
 Chiều hỏi và trả lời của thẻ phụ thuộc vào mục tiêu. Nếu bạn gặp khó khăn khi nói, hãy đặt nghĩa hoặc tình huống ở mặt trước rồi tự diễn đạt bằng ngôn ngữ đang học. Nếu khó khăn nằm ở việc đọc, hãy đưa cụm từ bằng ngôn ngữ đang học ra trước và hỏi nghĩa. Bạn có thể giữ cả hai chiều cho một mục quan trọng, nhưng đừng tự động nhân đôi mọi thẻ.
 
+Nếu cần luyện nói trong buổi trao đổi đầu tiên với khách hàng, hãy thử [hai bài đóng vai bằng tiếng Anh](/vi/blog/english-client-discovery-call-practice/). Bạn có thể ôn thêm cách đặt câu hỏi qua các tình huống khác trong [bộ thẻ hỏi nhu cầu khách hàng](/vi/catalog/packages/english-client-discovery-calls-vietnamese-speakers/).
+
 Xem thêm các mẫu thẻ trong [Cách dùng thẻ ghi nhớ để học ngoại ngữ (tiếng Anh)](/blog/how-to-use-flashcards-for-language-learning/).
 
 ### 4. Kiểm tra thẻ trước khi đưa vào lịch ôn

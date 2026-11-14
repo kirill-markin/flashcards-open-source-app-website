@@ -1492,6 +1492,21 @@
     }
   },
   {
+    "publicPath": "/blog/english-client-discovery-call-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/c442653119404d61136f278b2d46b0e8c4d459a367fdda9fc738ce8e1c9b8519.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "c442653119404d61136f278b2d46b0e8c4d459a367fdda9fc738ce8e1c9b8519",
+    "bytes": 149680,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/fb7c111dc465e232db241111543377e4ee8c1713ff37092ec2b6865033bd0e4e.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "fb7c111dc465e232db241111543377e4ee8c1713ff37092ec2b6865033bd0e4e",
+      "bytes": 2273012
+    }
+  },
+  {
     "publicPath": "/blog/english-sentence-rewrite-practice.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/f0764dcca1c4c0cd7f6229ca22d21887beee53e8ea2bb80bc2ef7422db5cfc07.webp",
     "width": 1672,

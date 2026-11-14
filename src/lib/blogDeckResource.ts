@@ -55,6 +55,7 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   "gmdss-goc-hf-distress-channels": { en: "gmdss-goc-hf-distress-channels" },
   "english-sentence-rewrite-practice": { ru: "english-sentence-rewrites-russian-speakers" },
   "maritime-english-wheel-orders-practice": { ru: "maritime-english-wheel-orders-russian-speakers" },
+  "english-client-discovery-call-practice": { vi: "english-client-discovery-calls-vietnamese-speakers" },
   "everyday-english-vocabulary-practice": {
     ru: "everyday-english-vocabulary-russian-speakers",
   },
