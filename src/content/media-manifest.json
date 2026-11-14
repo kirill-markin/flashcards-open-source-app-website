@@ -973,6 +973,21 @@
     "bytes": 68647
   },
   {
+    "publicPath": "/blog/chatgpt-repasar-tarjetas-guardadas.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/3baea8278b9e57609235a0d3c5e9d9ad265f8db9bcc1cdb8caf4565a7ad18a54.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "3baea8278b9e57609235a0d3c5e9d9ad265f8db9bcc1cdb8caf4565a7ad18a54",
+    "bytes": 139664,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/7c35a46f3d074543e5c6253ac4d4acc6320be3b6984732a1b1295059b72373eb.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "7c35a46f3d074543e5c6253ac4d4acc6320be3b6984732a1b1295059b72373eb",
+      "bytes": 2273576
+    }
+  },
+  {
     "publicPath": "/blog/chi-square-independence-practice.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/8aacf5593118497aed5c65cd9a195b9af7fe304adbd0984c4b5a149a9725c263.webp",
     "width": 1672,
