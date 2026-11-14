@@ -1492,6 +1492,36 @@
     }
   },
   {
+    "publicPath": "/blog/english-client-discovery-call-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/c442653119404d61136f278b2d46b0e8c4d459a367fdda9fc738ce8e1c9b8519.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "c442653119404d61136f278b2d46b0e8c4d459a367fdda9fc738ce8e1c9b8519",
+    "bytes": 149680,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/fb7c111dc465e232db241111543377e4ee8c1713ff37092ec2b6865033bd0e4e.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "fb7c111dc465e232db241111543377e4ee8c1713ff37092ec2b6865033bd0e4e",
+      "bytes": 2273012
+    }
+  },
+  {
+    "publicPath": "/blog/english-sentence-rewrite-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/f0764dcca1c4c0cd7f6229ca22d21887beee53e8ea2bb80bc2ef7422db5cfc07.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "f0764dcca1c4c0cd7f6229ca22d21887beee53e8ea2bb80bc2ef7422db5cfc07",
+    "bytes": 296234,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/ad8faf11d26ca95cc82d82e7e94e6f73a07d768dec07add463a5f5cc9f582db8.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "ad8faf11d26ca95cc82d82e7e94e6f73a07d768dec07add463a5f5cc9f582db8",
+      "bytes": 2877663
+    }
+  },
+  {
     "publicPath": "/blog/english-vocabulary-polish-speakers.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/93efcb4ffc6ea664af0a9710f0be95ca952764be31c3d1192aaa5c6e4cfe5365.webp",
     "width": 1672,
@@ -3790,6 +3820,21 @@
     }
   },
   {
+    "publicPath": "/blog/maritime-english-wheel-orders-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/7ab0b12e85b4b319d9f2be840ade295138d33c437aacd5eba8f50e53ce7acab0.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "7ab0b12e85b4b319d9f2be840ade295138d33c437aacd5eba8f50e53ce7acab0",
+    "bytes": 101610,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/abde15a86edde122e4e220ee9e6c406cd897557f7b897aebc429468f01ef17a9.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "abde15a86edde122e4e220ee9e6c406cd897557f7b897aebc429468f01ef17a9",
+      "bytes": 2083021
+    }
+  },
+  {
     "publicPath": "/blog/matrix-multiplication-practice.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/302ba96626dbe552ce0f54d46328f7e9c4e13cddd0239cde162e014a7fae18e2.webp",
     "width": 1672,
@@ -5332,6 +5377,21 @@
     "height": 675,
     "sha256": "29a956ddd3c81b4c4076a93943eb28105d1f858c6900bc1f8b38ca3b6b3b5cc4",
     "bytes": 442139
+  },
+  {
+    "publicPath": "/blog/special-relativity-reference-frame-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/fd690ef2bbe1f5f5c52e8024e27131e6e56cedb69184de08f460861f0dbed538.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "fd690ef2bbe1f5f5c52e8024e27131e6e56cedb69184de08f460861f0dbed538",
+    "bytes": 258484,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/fcabe01ee84a4a3428e53303cbdf9aa89930e6a9faddb4284f041ffd39aae031.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "fcabe01ee84a4a3428e53303cbdf9aa89930e6a9faddb4284f041ffd39aae031",
+      "bytes": 2577662
+    }
   },
   {
     "publicPath": "/blog/sql-exists-vs-join.webp",

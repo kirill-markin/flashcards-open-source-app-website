@@ -53,6 +53,10 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   },
   "gmdss-goc-flashcards": { en: "gmdss-goc-radio-concepts" },
   "gmdss-goc-hf-distress-channels": { en: "gmdss-goc-hf-distress-channels" },
+  "english-sentence-rewrite-practice": { ru: "english-sentence-rewrites-russian-speakers" },
+  "maritime-english-wheel-orders-practice": { ru: "maritime-english-wheel-orders-russian-speakers" },
+  "english-client-discovery-call-practice": { vi: "english-client-discovery-calls-vietnamese-speakers" },
+  "special-relativity-reference-frame-practice": { en: "special-relativity-reference-frames-flashcards" },
   "everyday-english-vocabulary-practice": {
     ru: "everyday-english-vocabulary-russian-speakers",
   },
