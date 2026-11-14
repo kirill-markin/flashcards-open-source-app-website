@@ -71,6 +71,8 @@ These make better **physics formula flashcards** because the formula has a job. 
 
 For focused practice with the conditions behind a calculation, the [average speed flashcards](/catalog/packages/average-speed-practice-flashcards/) ask you to distinguish equal-time from equal-distance legs, include stops, and check whether a target average leaves positive travel time.
 
+If your course goes on to special relativity, try the [reference-frame worksheet](/blog/special-relativity-reference-frame-practice/) and [special relativity flashcards](/catalog/packages/special-relativity-reference-frames-flashcards/). Each exercise asks you to name the frame and the measurement before choosing an equation.
+
 Graph cards deserve their own prompts too. Show one graph or describe one feature, then ask for one interpretation. Keep graph-to-words, graph-to-equation, and graph-to-graph translation separate until each direction is reliable.
 
 If your cards are already broad or vague, [How to Make Better Flashcards in 2026](/blog/how-to-make-better-flashcards/) is a useful cleanup pass before you add more.

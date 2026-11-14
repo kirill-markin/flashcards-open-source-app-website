@@ -5379,6 +5379,21 @@
     "bytes": 442139
   },
   {
+    "publicPath": "/blog/special-relativity-reference-frame-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/fd690ef2bbe1f5f5c52e8024e27131e6e56cedb69184de08f460861f0dbed538.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "fd690ef2bbe1f5f5c52e8024e27131e6e56cedb69184de08f460861f0dbed538",
+    "bytes": 258484,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/fcabe01ee84a4a3428e53303cbdf9aa89930e6a9faddb4284f041ffd39aae031.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "fcabe01ee84a4a3428e53303cbdf9aa89930e6a9faddb4284f041ffd39aae031",
+      "bytes": 2577662
+    }
+  },
+  {
     "publicPath": "/blog/sql-exists-vs-join.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/6166390a0abedf15e7af02e764afbcd1df2615ced8a515f6c95f4b42c60b4b08.webp",
     "width": 1672,
