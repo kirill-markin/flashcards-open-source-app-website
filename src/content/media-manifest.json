@@ -1492,6 +1492,21 @@
     }
   },
   {
+    "publicPath": "/blog/english-sentence-rewrite-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/f0764dcca1c4c0cd7f6229ca22d21887beee53e8ea2bb80bc2ef7422db5cfc07.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "f0764dcca1c4c0cd7f6229ca22d21887beee53e8ea2bb80bc2ef7422db5cfc07",
+    "bytes": 296234,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/ad8faf11d26ca95cc82d82e7e94e6f73a07d768dec07add463a5f5cc9f582db8.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "ad8faf11d26ca95cc82d82e7e94e6f73a07d768dec07add463a5f5cc9f582db8",
+      "bytes": 2877663
+    }
+  },
+  {
     "publicPath": "/blog/english-vocabulary-polish-speakers.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/93efcb4ffc6ea664af0a9710f0be95ca952764be31c3d1192aaa5c6e4cfe5365.webp",
     "width": 1672,
