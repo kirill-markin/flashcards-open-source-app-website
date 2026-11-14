@@ -4879,6 +4879,21 @@
     "bytes": 2214828
   },
   {
+    "publicPath": "/blog/quizlet-study-progress-not-saving.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/a73386b9649502e6daf154dce21492941c0bad26a01ce75a18b1d60f1c2b1cb0.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "a73386b9649502e6daf154dce21492941c0bad26a01ce75a18b1d60f1c2b1cb0",
+    "bytes": 215824,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/d30a39c4d20510e7af4d581c35a59f47a717a50059320859f4ac254868434795.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "d30a39c4d20510e7af4d581c35a59f47a717a50059320859f4ac254868434795",
+      "bytes": 2578972
+    }
+  },
+  {
     "publicPath": "/blog/random-sampling-vs-random-assignment.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/cc3b1402b7aaf091d6aa8582f6489b9a559b3c5db47f65776f91ee70b4f119a2.png",
     "width": 1672,
