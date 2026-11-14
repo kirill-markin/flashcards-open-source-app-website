@@ -1,11 +1,13 @@
 .container {
+  --reading-width: 840px;
   --blog-start-cta-gap: clamp(40px, 4vw, 64px);
   --blog-start-cta-width: 180px;
 
   position: relative;
   inline-size: var(--site-content-width);
+  max-inline-size: var(--reading-width);
   margin-inline: auto;
-  padding-block-start: 36px;
+  padding-block-start: var(--page-intro-offset);
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -314,7 +316,7 @@
 
   .startCtaRail {
     position: absolute;
-    inset-block-start: 36px;
+    inset-block-start: var(--page-intro-offset);
     inset-inline-start: calc(var(--reading-width) + var(--blog-start-cta-gap));
     display: block;
     inline-size: var(--blog-start-cta-width);

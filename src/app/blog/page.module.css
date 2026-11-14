@@ -1,6 +1,6 @@
 .container {
   inline-size: var(--site-content-width);
-  max-inline-size: 960px;
+  max-inline-size: 840px;
   margin-inline: auto;
   padding-block: var(--page-intro-offset) 64px;
 }
