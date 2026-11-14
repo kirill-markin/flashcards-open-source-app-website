@@ -423,6 +423,21 @@
     }
   },
   {
+    "publicPath": "/blog/anki-overdue-reviews-filtered-decks.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/696b022875f30caf0f9f1284f86fa49ff9ae9cd4a3c470fef6c1f02aa6b64c24.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "696b022875f30caf0f9f1284f86fa49ff9ae9cd4a3c470fef6c1f02aa6b64c24",
+    "bytes": 176660,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/eaa040a26a92ae9dc1cd2ae4f0fd3dc3123c67cbc12c229357ec2597bd610b7d.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "eaa040a26a92ae9dc1cd2ae4f0fd3dc3123c67cbc12c229357ec2597bd610b7d",
+      "bytes": 2583630
+    }
+  },
+  {
     "publicPath": "/blog/anki-remove-reverse-cards.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/33661c64928157b25e1e6a7eef4d8f6e509fb930e43be0338c50e7dc9bcaa0d9.webp",
     "width": 1672,
