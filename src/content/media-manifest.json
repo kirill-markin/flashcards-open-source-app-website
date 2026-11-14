@@ -4209,6 +4209,21 @@
     "bytes": 2236901
   },
   {
+    "publicPath": "/blog/natural-vs-synthetic-elements.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/96a32b881d2ec0d86952b8af388faee67ae53a355ef51e17a4d28388830e34ee.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "96a32b881d2ec0d86952b8af388faee67ae53a355ef51e17a4d28388830e34ee",
+    "bytes": 169364,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/48abebdcb793c614ed72f6f87df43cbb342ad73d727324239b686ec5d36a34d9.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "48abebdcb793c614ed72f6f87df43cbb342ad73d727324239b686ec5d36a34d9",
+      "bytes": 2387077
+    }
+  },
+  {
     "publicPath": "/blog/ncea-as92047-energy-concepts.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/43dd30c71f74dc630ab55186e554a27a662647c1fa5b53c532a8860bf4a644a3.webp",
     "width": 1672,
