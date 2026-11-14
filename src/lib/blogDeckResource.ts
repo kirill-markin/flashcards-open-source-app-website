@@ -205,7 +205,7 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   "electron-geometry-vs-molecular-geometry": { en: "vsepr-molecular-geometry-flashcards" },
   "trigonal-bipyramidal-lone-pairs": { en: "trigonal-bipyramidal-lone-pair-flashcards" },
   "atomic-number-mass-number-practice": { th: "atomic-number-mass-number-flashcards-thai" },
-  "blank-periodic-table-practice": { fa: "periodic-table-elements-fa" },
+  "blank-periodic-table-practice": { fa: "periodic-table-groups-periods-flashcards-persian" },
   "natural-vs-synthetic-elements": { fa: "periodic-table-elements-fa" },
   "periodic-table-groups-and-periods-practice": { th: "periodic-table-elements-th" },
   "periodic-table-flashcards": {
