@@ -3805,6 +3805,21 @@
     }
   },
   {
+    "publicPath": "/blog/maritime-english-wheel-orders-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/7ab0b12e85b4b319d9f2be840ade295138d33c437aacd5eba8f50e53ce7acab0.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "7ab0b12e85b4b319d9f2be840ade295138d33c437aacd5eba8f50e53ce7acab0",
+    "bytes": 101610,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/abde15a86edde122e4e220ee9e6c406cd897557f7b897aebc429468f01ef17a9.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "abde15a86edde122e4e220ee9e6c406cd897557f7b897aebc429468f01ef17a9",
+      "bytes": 2083021
+    }
+  },
+  {
     "publicPath": "/blog/matrix-multiplication-practice.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/302ba96626dbe552ce0f54d46328f7e9c4e13cddd0239cde162e014a7fae18e2.webp",
     "width": 1672,
