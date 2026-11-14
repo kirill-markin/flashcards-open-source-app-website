@@ -1215,6 +1215,21 @@
     }
   },
   {
+    "publicPath": "/blog/density-unit-conversion-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/0ef6f70b36d0ba70a5de8108c48d58cd2d879e482d3a412ab3f0e347d1824a51.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "0ef6f70b36d0ba70a5de8108c48d58cd2d879e482d3a412ab3f0e347d1824a51",
+    "bytes": 144746,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/bc571ffc66e17bbcdb03cd20216e18960888813036a38dd946cd4b9a69431bb9.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "bc571ffc66e17bbcdb03cd20216e18960888813036a38dd946cd4b9a69431bb9",
+      "bytes": 2262400
+    }
+  },
+  {
     "publicPath": "/blog/diffusion-vs-osmosis.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/94534d6ba10ac0b71dec50a8c9206dbdf5816ad7a2f358a2ad2c32e180e03f44.png",
     "width": 1672,
