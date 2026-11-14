@@ -3591,6 +3591,21 @@
     "bytes": 2296964
   },
   {
+    "publicPath": "/blog/isotopes-vs-isobars-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/9da215c49c0694dc1d9e666b9c347231ca31649a696a1c51d3cb6671b0f3713e.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "9da215c49c0694dc1d9e666b9c347231ca31649a696a1c51d3cb6671b0f3713e",
+    "bytes": 312854,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/af75351d3774f6f83545057d61e19dc845809d02200b213b93b1211b3e28b4f1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "af75351d3774f6f83545057d61e19dc845809d02200b213b93b1211b3e28b4f1",
+      "bytes": 3105160
+    }
+  },
+  {
     "publicPath": "/blog/japanese-masu-dictionary-te-form.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/b9e1db26d06f47c6a354df985291d9ac43b29a7f49c76d3389347d0e3f6092ae.webp",
     "width": 1672,
