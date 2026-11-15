@@ -686,6 +686,21 @@
     }
   },
   {
+    "publicPath": "/blog/average-atomic-mass-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/b9bbce436f12daba80cd5c36a5d27b6056164948e647cf695ca4c007f6608d4a.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "b9bbce436f12daba80cd5c36a5d27b6056164948e647cf695ca4c007f6608d4a",
+    "bytes": 284288,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/6f9760f2d22b0275485d7d64971ccfac2db2968dc307b143a8c88ddd16fa38e7.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "6f9760f2d22b0275485d7d64971ccfac2db2968dc307b143a8c88ddd16fa38e7",
+      "bytes": 3018721
+    }
+  },
+  {
     "publicPath": "/blog/average-speed-practice.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/1b01dc96b2bf3e81dccf7ba75c8d990d3cab4fbf81d837e8825dda358af0c569.png",
     "width": 1672,
