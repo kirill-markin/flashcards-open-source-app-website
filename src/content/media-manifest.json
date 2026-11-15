@@ -1415,6 +1415,21 @@
     }
   },
   {
+    "publicPath": "/blog/ege-history-match-events-and-years.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/8ce982e0191efbd4e0b10a6487d4c17f8bcc806f40c4cb1785bbfe7bce42ebb5.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "8ce982e0191efbd4e0b10a6487d4c17f8bcc806f40c4cb1785bbfe7bce42ebb5",
+    "bytes": 194794,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/74a638342991f6e15009758e96c25e021ff5656884392f4e690fffa67dea721a.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "74a638342991f6e15009758e96c25e021ff5656884392f4e690fffa67dea721a",
+      "bytes": 2506520
+    }
+  },
+  {
     "publicPath": "/blog/ege-informatics-truth-table-columns.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/43a7a7785923ad4521b39e3b677e0af3cf2c8f2288fea6441dee174d88428d44.webp",
     "width": 1672,
