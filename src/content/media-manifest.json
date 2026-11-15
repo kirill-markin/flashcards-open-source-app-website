@@ -4992,6 +4992,21 @@
     }
   },
   {
+    "publicPath": "/blog/real-vs-nominal-gdp-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/abad9749cad7a1f6cb4b7e07d2f8dfc19e0da7a741e55280f05c38afec7690f6.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "abad9749cad7a1f6cb4b7e07d2f8dfc19e0da7a741e55280f05c38afec7690f6",
+    "bytes": 247746,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/b59bc947373b041f2c945ace41eceac5057fc31bc364da8eff4b558c0e2fc8a5.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "b59bc947373b041f2c945ace41eceac5057fc31bc364da8eff4b558c0e2fc8a5",
+      "bytes": 2772873
+    }
+  },
+  {
     "publicPath": "/blog/recover-deleted-anki-deck.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/79e1cf1ceb3fd4097739786c0258451ead0fcc321e10d4d72006de3551028098.png",
     "width": 1672,
