@@ -592,6 +592,21 @@
     "bytes": 2101179
   },
   {
+    "publicPath": "/blog/anki-undo-review.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/7a0c8ab867d18451cb03f4a5cc8f6068e97d32bddf2df2f3e55a850eb2b216d9.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "7a0c8ab867d18451cb03f4a5cc8f6068e97d32bddf2df2f3e55a850eb2b216d9",
+    "bytes": 212712,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/2a04c9db4e38a6ca1866c0e21e6af83ceecf34aede092055f62f53170ffe6024.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "2a04c9db4e38a6ca1866c0e21e6af83ceecf34aede092055f62f53170ffe6024",
+      "bytes": 2615800
+    }
+  },
+  {
     "publicPath": "/blog/anki-vs-flashcards-open-source-app-v2.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/687f31315aecd57a62f0ce5f8fae1e16584a986e2c3099d816083d15d7cc951a.png",
     "width": 1672,
