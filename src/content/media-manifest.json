@@ -248,6 +248,21 @@
     "bytes": 2029119
   },
   {
+    "publicPath": "/blog/anki-duplicate-deck.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/8931b5a258ab67f30ccaacd76b2b4e81ffd517086f39727f2990c30b47ca2461.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "8931b5a258ab67f30ccaacd76b2b4e81ffd517086f39727f2990c30b47ca2461",
+    "bytes": 169786,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/1d7e71eded6305a94e94c20046a265019503dbc3160a14d5a067a0f2f3617d0b.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "1d7e71eded6305a94e94c20046a265019503dbc3160a14d5a067a0f2f3617d0b",
+      "bytes": 2436528
+    }
+  },
+  {
     "publicPath": "/blog/anki-duplicate-note-types.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/3192d649b494ab799ab1d0178fbfa6ebca16c23592f0370b9a5579baaeebcf32.webp",
     "width": 1672,
