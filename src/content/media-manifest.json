@@ -3347,6 +3347,21 @@
     }
   },
   {
+    "publicPath": "/blog/implication-negation-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/372f9d2a199b26f808c0712857aea982ed34bb892cf5d8f9ee85fd323c2f4453.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "372f9d2a199b26f808c0712857aea982ed34bb892cf5d8f9ee85fd323c2f4453",
+    "bytes": 147850,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/045e4d2b8385fa6adf84d3d6da071ef689d72f4c781374314216d5b1c7fe85f2.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "045e4d2b8385fa6adf84d3d6da071ef689d72f4c781374314216d5b1c7fe85f2",
+      "bytes": 2254605
+    }
+  },
+  {
     "publicPath": "/blog/import-anki-apkg-ai-reply.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/2a86d621456e1351912c1cd062e88bfbc482972605124a6f8ae82acac0d472fa.webp",
     "width": 1206,
