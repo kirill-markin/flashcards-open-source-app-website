@@ -893,6 +893,21 @@
     }
   },
   {
+    "publicPath": "/blog/blank-periodic-table-first-20.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/21235f41eb3ad6f64e1a933aeaa77df1638be4a28ec888fea7c71cc65602868f.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "21235f41eb3ad6f64e1a933aeaa77df1638be4a28ec888fea7c71cc65602868f",
+    "bytes": 153968,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/44652014a7ccae5f32bcc37cebae860d9593bb6208771105228a4cb632556f92.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "44652014a7ccae5f32bcc37cebae860d9593bb6208771105228a4cb632556f92",
+      "bytes": 2175090
+    }
+  },
+  {
     "publicPath": "/blog/blank-periodic-table-practice.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/c1ad2c668e892149df89bee11cbc3e9868158abd347cdad371ef88c0315e3cd5.webp",
     "width": 1672,
