@@ -23,6 +23,7 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   "ege-history-chronology-practice": { ru: "ege-history-dates-personalities-flashcards-russian" },
   "ege-history-match-events-and-years": { ru: "ege-history-dates-personalities-flashcards-russian" },
   "ege-word-stress-task-4-practice": { ru: "ege-2026-russian-orthoepy-flashcards" },
+  "ege-word-stress-letter-yo": { ru: "ege-2026-russian-orthoepy-flashcards" },
   "meiji-diet-chronology-practice": { ja: "common-test-japanese-history-chronology-flashcards" },
   "dna-reverse-complement-practice": { en: "dna-reverse-complement-flashcards" },
   "sanger-sequencing-chromatogram": { en: "dna-reverse-complement-flashcards" },
