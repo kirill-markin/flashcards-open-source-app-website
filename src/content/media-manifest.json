@@ -1543,6 +1543,21 @@
     }
   },
   {
+    "publicPath": "/blog/ege-word-stress-letter-yo.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/98d6a3b65bbf0292d4efdd56173e0b063cf67e9916f454db534f6b54d119164a.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "98d6a3b65bbf0292d4efdd56173e0b063cf67e9916f454db534f6b54d119164a",
+    "bytes": 189798,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/098b6d83e14aa9ef896719056c2e6145c8d7040d85af1b9271401ee0e9063b0c.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "098b6d83e14aa9ef896719056c2e6145c8d7040d85af1b9271401ee0e9063b0c",
+      "bytes": 2597841
+    }
+  },
+  {
     "publicPath": "/blog/ege-word-stress-task-4-practice.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/54a83b552153a78f300bbf3921879b8e8b56703518d48698019741dca7d50687.webp",
     "width": 1672,
