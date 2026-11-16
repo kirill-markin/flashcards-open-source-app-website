@@ -1,14 +1,15 @@
 ---
-title: "Cómo usar flashcards para AP Biology en 2026: células, FRQ y datos que sí se te quedan"
-description: "¿Necesitas un flujo práctico de flashcards para AP Biology en 2026? Aquí tienes cómo estudiar procesos, experimentos, verbos de FRQ y las unidades de más peso antes del examen híbrido digital del 4 de mayo de 2026."
+title: "Cómo usar flashcards para AP Biology en 2027: células, FRQ y datos que sí se te quedan"
+description: "Repasa procesos, experimentos y preguntas de respuesta libre con flashcards para el examen digital híbrido de AP Biology del 3 de mayo de 2027, en la sesión 2."
 date: "2026-04-30"
+updated: "2026-11-16"
 image: "/blog/how-to-use-flashcards-for-ap-biology.png"
 keywords:
   - "flashcards para AP Biology"
   - "flashcards para AP Bio"
   - "cómo estudiar para AP Biology"
   - "flashcards para FRQ de AP Biology"
-  - "examen AP Biology 2026"
+  - "examen AP Biology 2027"
   - "flashcards de repaso por unidades AP Biology"
   - "flashcards de diseño experimental AP Biology"
   - "FSRS AP Biology"
@@ -16,7 +17,11 @@ keywords:
 
 Cuatro días antes del examen de AP Biology es mal momento para darte cuenta de que tu mazo recuerda mejor las definiciones que la biología. Das la vuelta a una tarjeta de `transcription`, te sientes listo durante dos segundos y luego fallas una pregunta sobre regulación, datos y por qué cambió un gráfico después de una mutación. Ésa es la trampa habitual de AP Bio. La asignatura no es solo vocabulario. Son procesos, experimentos, evidencia visual y razonamiento breve por escrito bajo presión de tiempo.
 
-Por eso las **flashcards para AP Biology** siguen ayudando en 2026, pero solo si el mazo está construido para el examen real y no como un archivo ordenado de apuntes capítulo por capítulo. El examen de **AP Biology es el 4 de mayo de 2026 a las 8:00 a. m., hora local**. College Board lo presenta como un **examen híbrido digital**: los estudiantes responden las preguntas de opción múltiple y ven las preguntas de respuesta libre en **Bluebook**, y luego **escriben a mano** las respuestas de FRQ en cuadernillos en papel. La **Sección I** tiene **60 preguntas de opción múltiple en 90 minutos** y vale el **50%** de la nota. La **Sección II** tiene **6 preguntas de respuesta libre en 90 minutos** y vale el otro **50%**.
+Por eso las **flashcards para AP Biology** te ayudan cuando practicas con el mismo tipo de preguntas que encontrarás en el examen.
+
+El examen de AP Biology de la convocatoria ordinaria se realiza el **lunes 3 de mayo de 2027**, en la **sesión 2** (Session 2). Suele ser el turno de la tarde, aunque la hora de inicio varía según la ubicación. Confirma a qué hora empieza el examen en tu escuela con el [buscador de horarios de College Board](https://apcentral.collegeboard.org/exam-administration-ordering-scores/exam-dates/start-times/lookup).
+
+El examen tiene un **formato digital híbrido**. En **Bluebook** respondes las preguntas de opción múltiple y lees las de respuesta libre (FRQ). Las respuestas a las FRQ se **escriben a mano** en cuadernillos de papel. La **Sección I** tiene **60 preguntas de opción múltiple en 90 minutos** y vale el **50%** de la nota. La **Sección II** tiene **6 preguntas de respuesta libre en 90 minutos** y vale el otro **50%**. Consulta el [formato oficial del examen](https://apcentral.collegeboard.org/courses/ap-biology/exam).
 
 Si quieres **flashcards para AP Bio** que te sigan pareciendo útiles en la última semana, el mazo tiene que ser bastante más acotado que tus apuntes y mucho más cercano al tipo de recuperación activa que el examen realmente recompensa.
 
@@ -41,7 +46,7 @@ Muchos estudiantes dicen que están haciendo un solo mazo de AP Biology. En la p
 
 Aquí confiaría más en la ponderación oficial del curso que en las opiniones emocionales de tu libro.
 
-En la página actual de College Board para el curso de AP Biology del **año escolar 2025-26**, la ponderación de la sección de opción múltiple aparece así:
+Estas son las unidades con más peso en la sección de opción múltiple según la [página oficial del curso de AP Biology](https://apcentral.collegeboard.org/courses/ap-biology).
 
 - **Unidad 7: selección natural**: **13% a 20%**
 - **Unidad 3: bioenergética celular**: **12% a 16%**
@@ -134,7 +139,7 @@ Por eso yo mantendría un grupo aparte de tarjetas para:
 - qué evidencia adicional reforzaría o debilitaría una afirmación
 - cuándo un montaje pone a prueba causalidad y cuándo solo asociación
 
-Esto importa todavía más en 2026 porque College Board dice que las preguntas de opción múltiple de AP Biology pueden referirse a **diagramas** y **presentaciones de datos**, y la sección de respuesta libre evalúa cosas como **interpretación de resultados experimentales**, **representación gráfica**, **investigación científica** y **análisis de un modelo o de una representación visual**.
+Esto importa porque College Board indica que las preguntas de opción múltiple de AP Biology pueden referirse a **diagramas** y **presentaciones de datos**, y la sección de respuesta libre evalúa cosas como **interpretación de resultados experimentales**, **representación gráfica**, **investigación científica** y **análisis de un modelo o de una representación visual**.
 
 No son tarjetas glamurosas. Son las que evitan que pierdas puntos en preguntas que casi entendías.
 
@@ -251,9 +256,7 @@ Eso encaja bien con AP Biology porque no solo necesitas un lugar para generar ta
 
 ## La mejor regla para las flashcards de AP Biology
 
-Si te estás preparando para AP Biology en 2026, no construyas un mazo que intente recordar todo el curso en orden de libro.
-
-Construye un mazo que recuerde lo que realmente se rompe:
+Si te estás preparando para AP Biology en 2027, construye tu mazo a partir de los errores que repites.
 
 - el paso de proceso que sigues confundiendo
 - la lógica experimental que sigues interpretando mal
@@ -261,4 +264,4 @@ Construye un mazo que recuerde lo que realmente se rompe:
 - el verbo de FRQ al que respondes con demasiada vaguedad
 - la idea de una unidad de mayor peso que todavía se deshace bajo presión
 
-Ésa es la versión de las **flashcards para AP Biology** que sigue pareciendo útil el **4 de mayo de 2026**, no solo la versión que parecía productiva mientras la estabas construyendo.
+Así tendrás un mazo que te sirve para los últimos repasos antes del examen del **3 de mayo de 2027**.
