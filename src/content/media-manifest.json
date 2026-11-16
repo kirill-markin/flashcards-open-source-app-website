@@ -468,6 +468,21 @@
     }
   },
   {
+    "publicPath": "/blog/anki-recover-deleted-card.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/8b1edfbed81887c5a12527504bf92ee0ad1944cf593e20f2f19c334c2db594b3.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "8b1edfbed81887c5a12527504bf92ee0ad1944cf593e20f2f19c334c2db594b3",
+    "bytes": 173578,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/79bd43c5214c0405e783c5f653fc0dc3a74603b41ef32286493e7ff3b7a9abac.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "79bd43c5214c0405e783c5f653fc0dc3a74603b41ef32286493e7ff3b7a9abac",
+      "bytes": 2405591
+    }
+  },
+  {
     "publicPath": "/blog/anki-remove-reverse-cards.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/33661c64928157b25e1e6a7eef4d8f6e509fb930e43be0338c50e7dc9bcaa0d9.webp",
     "width": 1672,
