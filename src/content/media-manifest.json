@@ -4648,6 +4648,21 @@
     "bytes": 2348126
   },
   {
+    "publicPath": "/blog/periodic-table-atomic-number-order.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/a18ecf93ce9075caee522c1bdb98e2fe51d6acf44921ca2ed502a6ea21966c6b.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "a18ecf93ce9075caee522c1bdb98e2fe51d6acf44921ca2ed502a6ea21966c6b",
+    "bytes": 189258,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/88774f806e0ce895246fa4e7a4ee282daf69ab79895df92b9dc8db6383f73869.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "88774f806e0ce895246fa4e7a4ee282daf69ab79895df92b9dc8db6383f73869",
+      "bytes": 2447137
+    }
+  },
+  {
     "publicPath": "/blog/periodic-table-flashcards-v2.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/3c12d6df9cb60dd810e18143710e39e9cdbad75bdacc4c966caf2c520f95637b.png",
     "width": 1200,
