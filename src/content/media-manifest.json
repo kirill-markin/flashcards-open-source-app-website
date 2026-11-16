@@ -6068,6 +6068,21 @@
     "bytes": 2142130
   },
   {
+    "publicPath": "/blog/us-state-capitals.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/d85cc9e3ac287b2a78da28c02feb0d0e190dcda5cc207024153dbef9105e01a8.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "d85cc9e3ac287b2a78da28c02feb0d0e190dcda5cc207024153dbef9105e01a8",
+    "bytes": 278422,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/5e935703305241cb079685a23ae08757e88c21bcddebb5311abd549faf4a1f6d.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "5e935703305241cb079685a23ae08757e88c21bcddebb5311abd549faf4a1f6d",
+      "bytes": 2788394
+    }
+  },
+  {
     "publicPath": "/blog/used-to-be-used-to-get-used-to.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/64fe7b5380f15bc494ae7749b1c19716b39c1d4a098995a30b405b079749202c.webp",
     "width": 1672,
