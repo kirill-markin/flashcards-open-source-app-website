@@ -453,6 +453,21 @@
     }
   },
   {
+    "publicPath": "/blog/anki-pc-phone-first-sync.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/f3f9246d9ec8aa44b6e1fb0ee9ebafb7b1560caafb3a49b501328e49e63c4158.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "f3f9246d9ec8aa44b6e1fb0ee9ebafb7b1560caafb3a49b501328e49e63c4158",
+    "bytes": 121978,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/315d5510263852c566eb6bdd84bd510ff10076b0d15d20e559c775100f29e9a3.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "315d5510263852c566eb6bdd84bd510ff10076b0d15d20e559c775100f29e9a3",
+      "bytes": 2215626
+    }
+  },
+  {
     "publicPath": "/blog/anki-remove-reverse-cards.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/33661c64928157b25e1e6a7eef4d8f6e509fb930e43be0338c50e7dc9bcaa0d9.webp",
     "width": 1672,
