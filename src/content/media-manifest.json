@@ -294,6 +294,21 @@
     "bytes": 2762439
   },
   {
+    "publicPath": "/blog/anki-find-hidden-cards.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/57c109eea0a3a3e460beb97ea4395d6f50730d9e3b1640d7126e72d25580d287.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "57c109eea0a3a3e460beb97ea4395d6f50730d9e3b1640d7126e72d25580d287",
+    "bytes": 161294,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/8ea69d23dda5245f7ce13544edd855181bc770b9558578f52ab808740147c1c6.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "8ea69d23dda5245f7ce13544edd855181bc770b9558578f52ab808740147c1c6",
+      "bytes": 2433704
+    }
+  },
+  {
     "publicPath": "/blog/anki-flags.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/1eb9e273fe4e1adafadce0ec9fcb734b1cbaedde80873312e0ffcb13f7ce2b03.webp",
     "width": 1672,
