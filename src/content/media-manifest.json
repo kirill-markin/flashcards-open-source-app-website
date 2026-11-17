@@ -1038,6 +1038,21 @@
     "bytes": 2040056
   },
   {
+    "publicPath": "/blog/chargaff-rule-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/2e39ed452cece6fd03bf74dc5735231bd06f9ab8905060de2801e9e8e69cc729.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "2e39ed452cece6fd03bf74dc5735231bd06f9ab8905060de2801e9e8e69cc729",
+    "bytes": 216910,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/072068f0faf54f84f0e9af870d44242f70c41478c3ec9b0fe55254f911d344c3.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "072068f0faf54f84f0e9af870d44242f70c41478c3ec9b0fe55254f911d344c3",
+      "bytes": 2622567
+    }
+  },
+  {
     "publicPath": "/blog/chatgpt-mcp-nibomo-create-connector.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/b43e38c34a4e56e57a3532d11b7aeb88a58e3f4181c5c67ce30d7bceb8b3224b.jpg",
     "width": 1280,
