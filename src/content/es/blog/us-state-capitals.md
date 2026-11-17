@@ -122,7 +122,7 @@ Dejar tiempo entre los repasos de memoria ayuda a retener las parejas. Al día s
 
 Si aún dudas en algún sentido, deja esa tarjeta para otro día. Para practicar las 50 parejas con la tabla, tapa una columna, elige filas en distinto orden y comprueba cada respuesta. Luego tapa la otra columna.
 
-El mazo de Nibomo tiene **100 tarjetas con preguntas en inglés**, dos por estado para practicar en ambos sentidos. [Mazo de estados y capitales en inglés](/es/catalog/packages/us-states-and-capitals/)
+El [mazo de estados y capitales en español](/es/catalog/packages/us-state-capitals-flashcards-spanish/) tiene **100 tarjetas**, dos por estado. Una te pide la capital y la otra te da la capital y te pide el estado.
 
 Para consultar las abreviaturas postales de dos letras de cada estado, tienes otra tabla con ejercicios. [Abreviaturas de los estados de EE. UU.](/es/blog/us-state-abbreviations/)
 

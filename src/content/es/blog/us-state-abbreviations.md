@@ -130,7 +130,7 @@ Un ejercicio de geografía puede poner a prueba habilidades distintas. Adapta la
 | Del código al estado | ¿Qué estado utiliza MN? | Minnesota |
 | Ubicación en el mapa | Identifica un estado resaltado en un mapa mudo | El nombre del estado |
 
-La tabla ofrece las respuestas para las dos primeras tareas. Para un examen de ubicación en el mapa, utiliza un mapa mudo con sus soluciones y practica la identificación de los estados por su ubicación. Las capitales también necesitan preguntas propias, como «¿Cuál es la capital de Minnesota?». Separa esas tarjetas de las preguntas sobre abreviaturas para que cada respuesta indique qué dato has recordado. El [mazo de estados de EE. UU. y sus capitales](/es/catalog/packages/us-states-and-capitals/) es independiente y tiene tarjetas en inglés para esa tarea.
+La tabla ofrece las respuestas para las dos primeras tareas. Para un examen de ubicación en el mapa, utiliza un mapa mudo con sus soluciones y practica la identificación de los estados por su ubicación. Las capitales también necesitan preguntas propias, como «¿Cuál es la capital de Minnesota?». Separa esas tarjetas de las preguntas sobre abreviaturas para que cada respuesta indique qué dato has recordado. Con el [mazo de estados de EE. UU. y sus capitales](/es/catalog/packages/us-state-capitals-flashcards-spanish/) puedes practicar en español del estado a la capital y de la capital al estado.
 
 ## Un breve cuestionario de abreviaturas
 
