@@ -1320,6 +1320,21 @@
     }
   },
   {
+    "publicPath": "/blog/de-morgans-laws-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/c6cbc9b11fb00d706dbd6f365c395b29f95378545c4a8add1fab9229bcb12e1a.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "c6cbc9b11fb00d706dbd6f365c395b29f95378545c4a8add1fab9229bcb12e1a",
+    "bytes": 191832,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/e6918b3d1474c07e341d312afe5b887e7e481039df9d136e1a7f153b9be3ee63.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "e6918b3d1474c07e341d312afe5b887e7e481039df9d136e1a7f153b9be3ee63",
+      "bytes": 2483531
+    }
+  },
+  {
     "publicPath": "/blog/density-unit-conversion-practice.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/0ef6f70b36d0ba70a5de8108c48d58cd2d879e482d3a412ab3f0e347d1824a51.webp",
     "width": 1672,
