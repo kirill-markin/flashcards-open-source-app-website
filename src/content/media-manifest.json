@@ -4539,6 +4539,21 @@
     }
   },
   {
+    "publicPath": "/blog/negative-binomial-distribution-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/3ef9b27a630f753b8444d99682f85ae135474f9be780d07d0d054a892d5f0a41.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "3ef9b27a630f753b8444d99682f85ae135474f9be780d07d0d054a892d5f0a41",
+    "bytes": 165484,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/736cded8022b83295c6579866a0497893d57800fae6a1f06ffab2553ebf90e61.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "736cded8022b83295c6579866a0497893d57800fae6a1f06ffab2553ebf90e61",
+      "bytes": 2441187
+    }
+  },
+  {
     "publicPath": "/blog/negative-reinforcement-vs-punishment.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/211334d0c05c36cd921cd7ae00e491b14c99d67bd2a22d475d414b1992da1d7e.png",
     "width": 1672,
