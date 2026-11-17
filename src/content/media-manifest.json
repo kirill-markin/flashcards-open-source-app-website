@@ -2354,6 +2354,21 @@
     }
   },
   {
+    "publicPath": "/blog/gizmo-to-anki.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/5ad1d1a70bb2123be8ded5fe90b93ba1daec68dd1a6d554edd37388b70790273.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "5ad1d1a70bb2123be8ded5fe90b93ba1daec68dd1a6d554edd37388b70790273",
+    "bytes": 161986,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/9aa4479d9addc39b7c8db586ac40cd3148eb89799cc8c7391d10f428d1f8dd2f.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "9aa4479d9addc39b7c8db586ac40cd3148eb89799cc8c7391d10f428d1f8dd2f",
+      "bytes": 2396322
+    }
+  },
+  {
     "publicPath": "/blog/gmdss-goc-flashcards.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/f567afad7ada447f9e22ef177531d5b7c8332b4751fe149e64a99821a5393ed4.webp",
     "width": 1672,
