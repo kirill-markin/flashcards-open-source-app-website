@@ -807,6 +807,21 @@
     "bytes": 2599600
   },
   {
+    "publicPath": "/blog/bash-glob-no-matches.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/ac4f6af2dfb3cbb4d40d1744f7301d33575a896bbf5e73e3c3587a34eaf06f96.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "ac4f6af2dfb3cbb4d40d1744f7301d33575a896bbf5e73e3c3587a34eaf06f96",
+    "bytes": 236006,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/0d53836b8ad87bcb81aa40a5c0e3863ae5b6871aab7a499503fdccbc843aebd9.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "0d53836b8ad87bcb81aa40a5c0e3863ae5b6871aab7a499503fdccbc843aebd9",
+      "bytes": 2747810
+    }
+  },
+  {
     "publicPath": "/blog/bass-clef-key-signature-practice.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/7b2501b775f01cdc6729ce00880908de6d42f7a65ec308588d41f1d6e6fda2ca.webp",
     "width": 1672,
