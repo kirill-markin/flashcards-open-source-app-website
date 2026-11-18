@@ -238,6 +238,8 @@ If you miss a question, identify the decision that went wrong before making a re
 | For P(A given B ∪ C), which group supplies the denominator? | Every item in B or C, including those in both. Its count must be positive. |
 | A union count fits within the collection, but one exclusive region is negative. Is the model valid? | No. Every disjoint region needs a nonnegative count; a plausible union is insufficient. |
 
+For more practice converting overlap counts, choosing denominators, or spotting impossible counts, try the [three-set Venn diagram flashcards](/catalog/packages/three-set-venn-diagram-flashcards/).
+
 The [guide to making better flashcards](/blog/how-to-make-better-flashcards/) explains how to give a prompt one clear retrieval task. After reviewing a reminder, return to the missed exercise with a blank diagram. Label the inputs inclusive or exclusive before placing the center.
 
 *AI tools assisted with source research, drafting, exercise creation, editorial passes, and the article illustration. Counts and fractions were checked computationally. The examples are invented practice data; the editorial passes do not constitute human expert review.*
