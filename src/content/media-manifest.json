@@ -651,6 +651,21 @@
     "bytes": 2321830
   },
   {
+    "publicPath": "/blog/anki-text-to-speech-vocabulary.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/0248e05732a985fd0beaa004e70f199159634b9cdc7b9b9889186115e3d59723.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "0248e05732a985fd0beaa004e70f199159634b9cdc7b9b9889186115e3d59723",
+    "bytes": 222484,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/4d11db308f1ce16caf336cb439b955e5bcc9b9e9d528aedc0c8a17e3429d65f0.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "4d11db308f1ce16caf336cb439b955e5bcc9b9e9d528aedc0c8a17e3429d65f0",
+      "bytes": 2701507
+    }
+  },
+  {
     "publicPath": "/blog/anki-to-remnote.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/f10105bd9423648cad5af72d6843f38bd2b9f4baa840cf60b91ac31b27bd92fe.png",
     "width": 1672,
