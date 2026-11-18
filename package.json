@@ -2,7 +2,7 @@
   "name": "flashcards-open-source-app-website",
   "version": "0.1.0",
   "private": true,
-  "packageManager": "npm@12.2.2",
+  "packageManager": "npm@12.2.3",
   "description": "Marketing website for Nibomo",
   "author": "Kirill Markin",
   "license": "MIT",
@@ -65,7 +65,7 @@
     "postcss": "$postcss",
     "sharp": "0.35.5",
     "@vercel/oidc": {
-      "@vercel/cli-config": "0.3.6"
+      "@vercel/cli-config": "0.3.8"
     }
   },
   "allowScripts": {
