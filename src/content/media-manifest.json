@@ -620,6 +620,21 @@
     }
   },
   {
+    "publicPath": "/blog/anki-study-flagged-cards.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/4fbac368a5e3993b96a345b233bf133d5ed13955add824199257a1d73a457680.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "4fbac368a5e3993b96a345b233bf133d5ed13955add824199257a1d73a457680",
+    "bytes": 206280,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/df01e6e057ab4a416cf24940f0902e87093d0f7594c0bcd5d4d8784966cbb0d1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "df01e6e057ab4a416cf24940f0902e87093d0f7594c0bcd5d4d8784966cbb0d1",
+      "bytes": 2582875
+    }
+  },
+  {
     "publicPath": "/blog/anki-sync-upload-or-download.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/cbe2d63a4f1e76fe49ee0e0ca97238617092153b9fb8263110d025ca6b4fb10c.png",
     "width": 1672,
