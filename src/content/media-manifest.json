@@ -2117,6 +2117,36 @@
     }
   },
   {
+    "publicPath": "/blog/force-time-graph-impulse-plot.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/905b3bb0693aaeddfba89993364e205560f5183cba8dc75f867bf2df11370a69.webp",
+    "width": 1400,
+    "height": 805,
+    "sha256": "905b3bb0693aaeddfba89993364e205560f5183cba8dc75f867bf2df11370a69",
+    "bytes": 19982,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/e8126b42ea3571d468229941f06368403d5ef512467730c729543d4d3ef458dc.png",
+      "width": 1400,
+      "height": 805,
+      "sha256": "e8126b42ea3571d468229941f06368403d5ef512467730c729543d4d3ef458dc",
+      "bytes": 57402
+    }
+  },
+  {
+    "publicPath": "/blog/force-time-graph-impulse-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/9023b20677cd67d9320ece8b5dd3fd7c6fb29d9bfd2ecce2b3d0b499e7c6a104.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "9023b20677cd67d9320ece8b5dd3fd7c6fb29d9bfd2ecce2b3d0b499e7c6a104",
+    "bytes": 259950,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/3debf4513a1c3de685adc0e0f49e5600cee5a553804a09cabe846516d1f3bb1d.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "3debf4513a1c3de685adc0e0f49e5600cee5a553804a09cabe846516d1f3bb1d",
+      "bytes": 2784289
+    }
+  },
+  {
     "publicPath": "/blog/formal-charge-vs-oxidation-number.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/998b8027f999c28d19c35650c6aba34eb99d70442b0206912e1363ae1587b316.png",
     "width": 1672,
