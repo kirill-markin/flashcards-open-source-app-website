@@ -4236,6 +4236,21 @@
     "bytes": 2126754
   },
   {
+    "publicPath": "/blog/mochi-api-create-cards.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/85eaa1f1f92dbe840e856c59602048f030823c5b1fa73536d1e5a5cdc74e03b5.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "85eaa1f1f92dbe840e856c59602048f030823c5b1fa73536d1e5a5cdc74e03b5",
+    "bytes": 215878,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/9ce20a15bfed972a8927efa86c50e2a60d9f77dc369accdb16b8ecf31934792d.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "9ce20a15bfed972a8927efa86c50e2a60d9f77dc369accdb16b8ecf31934792d",
+      "bytes": 2682544
+    }
+  },
+  {
     "publicPath": "/blog/mochi-audio-flashcards.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/bc938b896520f7be5503c2a952e28bfddd3f271890efbea84a12f293620ae734.png",
     "width": 1672,
