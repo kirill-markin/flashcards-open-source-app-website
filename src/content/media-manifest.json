@@ -5202,6 +5202,21 @@
     }
   },
   {
+    "publicPath": "/blog/recombination-frequency-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/c01122146c5bd09e7e1945e375dde824326d3759fb54fd6176d8cd658759feb9.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "c01122146c5bd09e7e1945e375dde824326d3759fb54fd6176d8cd658759feb9",
+    "bytes": 232224,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/ad2f37be8c2a6f53f7eb77608a3378cc611cff9e16df8fc204ba10ca928cb6d6.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "ad2f37be8c2a6f53f7eb77608a3378cc611cff9e16df8fc204ba10ca928cb6d6",
+      "bytes": 2676220
+    }
+  },
+  {
     "publicPath": "/blog/recover-deleted-anki-deck.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/79e1cf1ceb3fd4097739786c0258451ead0fcc321e10d4d72006de3551028098.png",
     "width": 1672,

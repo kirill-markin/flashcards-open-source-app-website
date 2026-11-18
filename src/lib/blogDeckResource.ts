@@ -25,6 +25,7 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   "ege-word-stress-task-4-practice": { ru: "ege-2026-russian-orthoepy-flashcards" },
   "ege-word-stress-letter-yo": { ru: "ege-2026-russian-orthoepy-flashcards" },
   "meiji-diet-chronology-practice": { ja: "common-test-japanese-history-chronology-flashcards" },
+  "recombination-frequency-practice": { en: "ap-biology-flashcards-complete-course-review" },
   "chargaff-rule-practice": { en: "ap-biology-flashcards-complete-course-review" },
   "dna-reverse-complement-practice": { en: "dna-reverse-complement-flashcards" },
   "sanger-sequencing-chromatogram": { en: "dna-reverse-complement-flashcards" },
