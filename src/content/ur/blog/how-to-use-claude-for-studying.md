@@ -46,7 +46,7 @@ keywords:
 
 پلگ اِن کارڈ بنانے، دہرانے اور بہتر بنانے کے طریقے فراہم کرتا ہے۔ اس کا MCP کنیکٹر وہ رابطہ ہے جس کے ذریعے Claude آپ کے Nibomo اکاؤنٹ کا مواد پڑھ اور تبدیل کر سکتا ہے۔ آپ [Claude کی ڈائریکٹری میں کنیکٹر](https://claude.ai/directory/nibomo) بھی تلاش کر سکتے ہیں۔ ہماری [Claude سے رابطے کی رہنمائی](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (انگریزی میں) اور [MCP کنیکٹر کی دستاویزات](/ur/docs/mcp-connector/) اس رابطے کی مزید تفصیل دیتی ہیں۔
 
-Anthropic فی الحال [Pro، Max، Team اور Enterprise پلانز پر پلگ اِن فراہم کرتا ہے](https://support.claude.com/en/articles/13837440-use-plugins-in-claude)، جو Claude کی ویب چیٹ، Claude Desktop کے Chat ٹیب اور Cowork میں دستیاب ہیں۔ اگر آپ کے اکاؤنٹ میں پلگ اِن دستیاب نہیں، تو بھی آپ نیچے دیے گئے تدریسی پرامپٹس استعمال کر سکتے ہیں اور منتخب کارڈ اپنی دہرائی کی ایپ میں خود کاپی کر سکتے ہیں۔
+Anthropic فی الحال [تمام بامعاوضہ پلانز (Pro، Max، Ultra، Team اور Enterprise) پر پلگ اِن فراہم کرتا ہے](https://support.claude.com/en/articles/13837440-use-plugins-in-claude)، جو Claude کی ویب چیٹ، Claude Desktop کے Chat ٹیب اور Cowork میں دستیاب ہیں۔ اگر آپ کے اکاؤنٹ میں پلگ اِن دستیاب نہیں، تو بھی آپ نیچے دیے گئے تدریسی پرامپٹس استعمال کر سکتے ہیں اور منتخب کارڈ اپنی دہرائی کی ایپ میں خود کاپی کر سکتے ہیں۔
 
 ## پہلی فائل اپ لوڈ کرنے سے پہلے کورس کے قواعد دیکھیں
 

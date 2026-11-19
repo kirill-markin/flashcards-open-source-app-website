@@ -46,7 +46,7 @@ Connect the Nibomo connector included with the plugin. Follow the sign-in flow, 
 
 The plugin supplies the create, review, and improve workflows. Its MCP connector is the connection that lets Claude read and update your Nibomo account. You can also find the [connector in Claude's directory](https://claude.ai/directory/nibomo). Our [Claude connection guide](/blog/how-to-connect-flashcards-to-claude-with-mcp/) and [MCP connector reference](/docs/mcp-connector/) explain that connection in more detail.
 
-Anthropic currently makes [plugins available on Pro, Max, Team, and Enterprise plans](https://support.claude.com/en/articles/13837440-use-plugins-in-claude), in Claude on the web, Claude Desktop's Chat tab, and Cowork. If your account does not have plugins, you can still use the tutor prompts below and copy selected cards into your review app manually.
+Anthropic currently makes [plugins available on all paid plans (Pro, Max, Ultra, Team, and Enterprise)](https://support.claude.com/en/articles/13837440-use-plugins-in-claude), in Claude on the web, Claude Desktop's Chat tab, and Cowork. If your account does not have plugins, you can still use the tutor prompts below and copy selected cards into your review app manually.
 
 ## Check the course rules before the first upload
 

@@ -46,7 +46,7 @@ keywords:
 
 પ્લગઇન કાર્ડ બનાવવા, રિવ્યૂ કરવા અને સુધારવા માટેની પદ્ધતિઓ આપે છે. તેનું MCP કનેક્ટર Claudeને તમારા Nibomo ખાતામાંથી વાંચવા અને તેમાં ફેરફાર કરવા દે છે. તમે [Claudeની ડિરેક્ટરીમાં કનેક્ટર](https://claude.ai/directory/nibomo) પણ શોધી શકો છો. અમારી [Claude સાથે જોડાણની માર્ગદર્શિકા](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (અંગ્રેજીમાં) અને [MCP કનેક્ટર સંદર્ભ](/gu/docs/mcp-connector/) આ જોડાણ વધુ વિગતે સમજાવે છે.
 
-Anthropic હાલમાં વેબ પરના Claude, Claude Desktopના Chat ટૅબ અને Coworkમાં [Pro, Max, Team અને Enterprise પ્લાન પર પ્લગઇન ઉપલબ્ધ કરાવે છે](https://support.claude.com/en/articles/13837440-use-plugins-in-claude). તમારા ખાતામાં પ્લગઇન ન હોય તો પણ નીચેના ટ્યુટર પ્રોમ્પ્ટ વાપરી શકો છો અને પસંદ કરેલાં કાર્ડ તમારી રિવ્યૂ ઍપમાં જાતે કૉપી કરી શકો છો.
+Anthropic હાલમાં વેબ પરના Claude, Claude Desktopના Chat ટૅબ અને Coworkમાં [તમામ પેઇડ પ્લાન (Pro, Max, Ultra, Team અને Enterprise) પર પ્લગઇન ઉપલબ્ધ કરાવે છે](https://support.claude.com/en/articles/13837440-use-plugins-in-claude). તમારા ખાતામાં પ્લગઇન ન હોય તો પણ નીચેના ટ્યુટર પ્રોમ્પ્ટ વાપરી શકો છો અને પસંદ કરેલાં કાર્ડ તમારી રિવ્યૂ ઍપમાં જાતે કૉપી કરી શકો છો.
 
 ## પહેલી ફાઇલ અપલોડ કરતાં પહેલાં અભ્યાસક્રમના નિયમો તપાસો
 

@@ -46,7 +46,7 @@ Yhdistä lisäosan mukana tuleva Nibomo-liitin. Seuraa kirjautumisohjeita, kirja
 
 Lisäosa tarjoaa korttien luomisen, kertaamisen ja parantamisen työnkulut. Sen MCP-liitin on yhteys, jonka kautta Claude voi lukea ja päivittää Nibomo-tilisi tietoja. Löydät [liittimen myös Clauden hakemistosta](https://claude.ai/directory/nibomo). [Claude-yhteyden käyttöönotto-ohjeemme](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (englanniksi) ja [MCP-liittimen dokumentaatio](/fi/docs/mcp-connector/) kertovat yhteydestä tarkemmin.
 
-Anthropic tarjoaa tällä hetkellä [lisäosat Pro-, Max-, Team- ja Enterprise-tilaajille](https://support.claude.com/en/articles/13837440-use-plugins-in-claude) Clauden verkkoversiossa, Claude Desktopin Chat-välilehdellä ja Coworkissa. Jos tililläsi ei ole lisäosia, voit silti käyttää alla olevia opetuskehotteita ja kopioida valitut kortit kertausohjelmaasi käsin.
+Anthropic tarjoaa tällä hetkellä [lisäosia kaikissa maksullisissa tilauksissa (Pro, Max, Ultra, Team ja Enterprise)](https://support.claude.com/en/articles/13837440-use-plugins-in-claude) Clauden verkkoversiossa, Claude Desktopin Chat-välilehdellä ja Coworkissa. Jos tililläsi ei ole lisäosia, voit silti käyttää alla olevia opetuskehotteita ja kopioida valitut kortit kertausohjelmaasi käsin.
 
 ## Tarkista kurssin säännöt ennen ensimmäisen tiedoston lataamista
 

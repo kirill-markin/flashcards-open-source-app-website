@@ -46,7 +46,7 @@ keywords:
 
 توفّر الإضافة سير عمل الإنشاء والمراجعة والتحسين. أما موصل MCP فهو الاتصال الذي يتيح لـ Claude قراءة حسابك في Nibomo وتحديثه. يمكنك أيضًا العثور على [الموصل في دليل Claude](https://claude.ai/directory/nibomo). يشرح [دليل ربط Claude (بالإنجليزية)](/blog/how-to-connect-flashcards-to-claude-with-mcp/) و[مرجع موصل MCP](/ar/docs/mcp-connector/) هذا الاتصال بمزيد من التفصيل.
 
-تتيح Anthropic حاليًا [الإضافات في خطط Pro وMax وTeam وEnterprise](https://support.claude.com/en/articles/13837440-use-plugins-in-claude)، وذلك في Claude على الويب، وتبويب Chat في Claude Desktop، وCowork. إذا لم تكن الإضافات متاحة في حسابك، فيمكنك استخدام طلبات الشرح والتدريب أدناه ونسخ البطاقات المختارة يدويًا إلى تطبيق المراجعة الذي تستخدمه.
+تتيح Anthropic حاليًا [الإضافات في جميع الخطط المدفوعة (Pro وMax وUltra وTeam وEnterprise)](https://support.claude.com/en/articles/13837440-use-plugins-in-claude)، وذلك في Claude على الويب، وتبويب Chat في Claude Desktop، وCowork. إذا لم تكن الإضافات متاحة في حسابك، فيمكنك استخدام طلبات الشرح والتدريب أدناه ونسخ البطاقات المختارة يدويًا إلى تطبيق المراجعة الذي تستخدمه.
 
 ## تحقّق من قواعد المقرر قبل رفع أول ملف
 

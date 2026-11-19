@@ -46,7 +46,7 @@ Collega il connettore Nibomo incluso nel plugin. Segui la procedura di accesso, 
 
 Il plugin fornisce le procedure per creare, ripassare e migliorare le schede. Il suo connettore MCP è il collegamento che permette a Claude di leggere e aggiornare il tuo account Nibomo. Puoi trovare anche il [connettore nella directory di Claude](https://claude.ai/directory/nibomo). La nostra [guida al collegamento con Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (in inglese) e la [documentazione del connettore MCP](/it/docs/mcp-connector/) spiegano il collegamento in modo più dettagliato.
 
-Al momento Anthropic rende disponibili i [plugin con i piani Pro, Max, Team ed Enterprise](https://support.claude.com/en/articles/13837440-use-plugins-in-claude), in Claude sul web, nella scheda Chat di Claude Desktop e in Cowork. Se il tuo account non dispone dei plugin, puoi comunque usare i prompt da tutor qui sotto e copiare manualmente le schede selezionate nell'app che usi per ripassare.
+Al momento Anthropic rende disponibili i [plugin con tutti i piani a pagamento (Pro, Max, Ultra, Team ed Enterprise)](https://support.claude.com/en/articles/13837440-use-plugins-in-claude), in Claude sul web, nella scheda Chat di Claude Desktop e in Cowork. Se il tuo account non dispone dei plugin, puoi comunque usare i prompt da tutor qui sotto e copiare manualmente le schede selezionate nell'app che usi per ripassare.
 
 ## Controlla le regole del corso prima di caricare il primo file
 

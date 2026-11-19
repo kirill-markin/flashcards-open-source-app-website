@@ -46,7 +46,7 @@ keywords:
 
 プラグインは、カードの作成、復習、改善を進める手順をClaudeに提供します。MCPコネクタは、ClaudeがNibomoアカウントの情報を読み取り、更新するための接続です。[Claudeのディレクトリにあるコネクタ](https://claude.ai/directory/nibomo)からも見つけられます。接続の詳細は、[Claude接続ガイド（英語）](/blog/how-to-connect-flashcards-to-claude-with-mcp/)と[MCPコネクタのリファレンス](/ja/docs/mcp-connector/)で確認できます。
 
-現在Anthropicは、[Pro、Max、Team、Enterpriseプランでプラグインを提供](https://support.claude.com/en/articles/13837440-use-plugins-in-claude)しています。対応するのは、ウェブ版Claude、Claude DesktopのChatタブ、Coworkです。プラグインを使えないアカウントでも、以下の指導用プロンプトを使い、選んだカードを復習アプリに手動でコピーできます。
+現在Anthropicは、[すべての有料プラン（Pro、Max、Ultra、Team、Enterprise）でプラグインを提供](https://support.claude.com/en/articles/13837440-use-plugins-in-claude)しています。対応するのは、ウェブ版Claude、Claude DesktopのChatタブ、Coworkです。プラグインを使えないアカウントでも、以下の指導用プロンプトを使い、選んだカードを復習アプリに手動でコピーできます。
 
 ## 教材を送る前に、授業のルールを確認する
 

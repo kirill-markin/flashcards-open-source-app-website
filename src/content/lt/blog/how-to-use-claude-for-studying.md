@@ -46,7 +46,7 @@ Prijunkite kartu su įskiepiu pateikiamą Nibomo jungtį. Atlikite prisijungimo 
 
 Įskiepis pateikia nurodymus, kaip kurti, kartoti ir tobulinti korteles. Jo MCP jungtis leidžia Claude skaityti ir atnaujinti jūsų Nibomo paskyros duomenis. [Jungtį rasite ir Claude kataloge](https://claude.ai/directory/nibomo). Išsamiau apie prisijungimą rašoma mūsų [Claude prijungimo vadove](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (anglų kalba) ir [MCP jungties dokumentacijoje](/lt/docs/mcp-connector/).
 
-Šiuo metu Anthropic [įskiepius leidžia naudoti Pro, Max, Team ir Enterprise planų naudotojams](https://support.claude.com/en/articles/13837440-use-plugins-in-claude): Claude žiniatinklio versijoje, Claude Desktop skirtuke Chat ir Cowork. Jei jūsų paskyroje įskiepių nėra, vis tiek galite naudoti toliau pateiktas mokymosi užklausas ir rankiniu būdu nukopijuoti atrinktas korteles į savo kartojimo programėlę.
+Šiuo metu Anthropic [įskiepius leidžia naudoti visų mokamų planų (Pro, Max, Ultra, Team ir Enterprise) naudotojams](https://support.claude.com/en/articles/13837440-use-plugins-in-claude): Claude žiniatinklio versijoje, Claude Desktop skirtuke Chat ir Cowork. Jei jūsų paskyroje įskiepių nėra, vis tiek galite naudoti toliau pateiktas mokymosi užklausas ir rankiniu būdu nukopijuoti atrinktas korteles į savo kartojimo programėlę.
 
 ## Prieš pirmą įkėlimą patikrinkite kurso taisykles
 

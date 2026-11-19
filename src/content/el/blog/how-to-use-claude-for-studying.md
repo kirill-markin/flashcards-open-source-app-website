@@ -46,7 +46,7 @@ keywords:
 
 Το plugin παρέχει τις διαδικασίες δημιουργίας, επανάληψης και βελτίωσης καρτών. Ο MCP connector του είναι η σύνδεση που επιτρέπει στο Claude να διαβάζει και να ενημερώνει τον λογαριασμό σου στο Nibomo. Θα βρεις τον [connector και στον κατάλογο του Claude](https://claude.ai/directory/nibomo). Ο [οδηγός σύνδεσης με το Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (στα αγγλικά) και η [τεκμηρίωση του MCP connector](/el/docs/mcp-connector/) εξηγούν τη σύνδεση αναλυτικότερα.
 
-Η Anthropic διαθέτει αυτή τη στιγμή τα [plugins στα προγράμματα Pro, Max, Team και Enterprise](https://support.claude.com/en/articles/13837440-use-plugins-in-claude), στο Claude μέσω ιστού, στην καρτέλα Chat του Claude Desktop και στο Cowork. Αν ο λογαριασμός σου δεν έχει plugins, μπορείς να χρησιμοποιήσεις τις παρακάτω οδηγίες καθοδήγησης και να αντιγράψεις χειροκίνητα τις επιλεγμένες κάρτες στην εφαρμογή επαναλήψεών σου.
+Η Anthropic διαθέτει αυτή τη στιγμή τα [plugins σε όλα τα επί πληρωμή προγράμματα (Pro, Max, Ultra, Team και Enterprise)](https://support.claude.com/en/articles/13837440-use-plugins-in-claude), στο Claude μέσω ιστού, στην καρτέλα Chat του Claude Desktop και στο Cowork. Αν ο λογαριασμός σου δεν έχει plugins, μπορείς να χρησιμοποιήσεις τις παρακάτω οδηγίες καθοδήγησης και να αντιγράψεις χειροκίνητα τις επιλεγμένες κάρτες στην εφαρμογή επαναλήψεών σου.
 
 ## Έλεγξε τους κανόνες του μαθήματος πριν ανεβάσεις το πρώτο αρχείο
 

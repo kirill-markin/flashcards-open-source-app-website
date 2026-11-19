@@ -46,7 +46,7 @@ Conectează apoi Nibomo folosind conectorul inclus în plugin. Urmează pașii d
 
 Pluginul oferă procedurile de creare, recapitulare și îmbunătățire a fișelor. Conectorul său MCP îi permite lui Claude să citească și să actualizeze contul tău Nibomo. Găsești și [conectorul în directorul Claude](https://claude.ai/directory/nibomo). [Ghidul nostru de conectare la Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (în engleză) și [documentația conectorului MCP](/ro/docs/mcp-connector/) explică această conexiune mai detaliat.
 
-În prezent, Anthropic oferă [pluginuri în planurile Pro, Max, Team și Enterprise](https://support.claude.com/en/articles/13837440-use-plugins-in-claude), în Claude pe web, în fila Chat din Claude Desktop și în Cowork. Dacă nu ai acces la pluginuri, poți folosi în continuare cererile de mai jos pentru învățare și poți copia manual fișele selectate în aplicația ta de recapitulare.
+În prezent, Anthropic oferă [pluginuri în toate planurile cu plată (Pro, Max, Ultra, Team și Enterprise)](https://support.claude.com/en/articles/13837440-use-plugins-in-claude), în Claude pe web, în fila Chat din Claude Desktop și în Cowork. Dacă nu ai acces la pluginuri, poți folosi în continuare cererile de mai jos pentru învățare și poți copia manual fișele selectate în aplicația ta de recapitulare.
 
 ## Verifică regulile cursului înainte de prima încărcare
 

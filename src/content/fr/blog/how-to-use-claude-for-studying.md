@@ -46,7 +46,7 @@ Ouvrez le [plugin Nibomo](https://claude.ai/customize/plugins/id/d8c1028d-4318-4
 
 Le plugin fournit les méthodes de création, de révision et d’amélioration des cartes. Son connecteur MCP permet à Claude de lire et de modifier les données de votre compte Nibomo. Vous trouverez aussi le [connecteur dans l’annuaire de Claude](https://claude.ai/directory/nibomo). Notre [guide de connexion à Claude](/fr/blog/how-to-connect-flashcards-to-claude-with-mcp/) et la [documentation du connecteur MCP](/fr/docs/mcp-connector/) expliquent cette connexion plus en détail.
 
-Anthropic propose actuellement les [plugins avec les abonnements Pro, Max, Team et Enterprise](https://support.claude.com/en/articles/13837440-use-plugins-in-claude), dans Claude sur le Web, dans l’onglet Chat de Claude Desktop et dans Cowork. Si votre compte ne donne pas accès aux plugins, vous pouvez tout de même utiliser les consignes de tutorat ci-dessous et copier manuellement les cartes retenues dans votre application de révision.
+Anthropic propose actuellement les [plugins avec tous les abonnements payants (Pro, Max, Ultra, Team et Enterprise)](https://support.claude.com/en/articles/13837440-use-plugins-in-claude), dans Claude sur le Web, dans l’onglet Chat de Claude Desktop et dans Cowork. Si votre compte ne donne pas accès aux plugins, vous pouvez tout de même utiliser les consignes de tutorat ci-dessous et copier manuellement les cartes retenues dans votre application de révision.
 
 ## Vérifiez les règles du cours avant le premier envoi
 

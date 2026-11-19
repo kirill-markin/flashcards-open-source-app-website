@@ -46,7 +46,7 @@ Povežite konektor Nibomo koji dolazi s dodatkom. Slijedite postupak prijave, pr
 
 Dodatak donosi postupke za izradu, ponavljanje i poboljšavanje kartica. Njegov MCP konektor omogućuje Claudeu čitanje i ažuriranje vašeg računa za Nibomo. [Konektor možete pronaći i u Claudeovu katalogu](https://claude.ai/directory/nibomo). Naš [vodič za povezivanje s Claudeom](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (na engleskom) i [dokumentacija MCP konektora](/hr/docs/mcp-connector/) detaljnije objašnjavaju tu vezu.
 
-Anthropic trenutačno omogućuje [dodatke u pretplatama Pro, Max, Team i Enterprise](https://support.claude.com/en/articles/13837440-use-plugins-in-claude), u Claudeu na webu, na kartici Chat u aplikaciji Claude Desktop te u Coworku. Ako vaš račun nema dodatke, i dalje možete koristiti upute za poduku u nastavku i ručno kopirati odabrane kartice u svoju aplikaciju za ponavljanje.
+Anthropic trenutačno omogućuje [dodatke u svim plaćenim pretplatama (Pro, Max, Ultra, Team i Enterprise)](https://support.claude.com/en/articles/13837440-use-plugins-in-claude), u Claudeu na webu, na kartici Chat u aplikaciji Claude Desktop te u Coworku. Ako vaš račun nema dodatke, i dalje možete koristiti upute za poduku u nastavku i ručno kopirati odabrane kartice u svoju aplikaciju za ponavljanje.
 
 ## Provjerite pravila kolegija prije prvog učitavanja
 

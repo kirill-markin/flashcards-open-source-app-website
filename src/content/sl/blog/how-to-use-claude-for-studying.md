@@ -46,7 +46,7 @@ Vzpostavite povezavo prek povezovalnika Nibomo, ki je priložen vtičniku. Sledi
 
 Vtičnik prinaša postopke za ustvarjanje, ponavljanje in izboljševanje kartic. Njegov povezovalnik MCP Claudu omogoča branje in posodabljanje vašega računa Nibomo. [Povezovalnik najdete tudi v Claudovem imeniku](https://claude.ai/directory/nibomo). Povezavo podrobneje pojasnjujeta naš [vodič za povezavo s Claudom](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (v angleščini) in [dokumentacija povezovalnika MCP](/sl/docs/mcp-connector/).
 
-Anthropic trenutno omogoča [uporabo vtičnikov v paketih Pro, Max, Team in Enterprise](https://support.claude.com/en/articles/13837440-use-plugins-in-claude), in sicer v spletnem Claudu, na zavihku Chat v Claude Desktop in v Cowork. Če vaš račun nima vtičnikov, lahko še vedno uporabljate spodnja navodila za učno pomoč in izbrane kartice ročno kopirate v aplikacijo za ponavljanje.
+Anthropic trenutno omogoča [uporabo vtičnikov v vseh plačljivih paketih (Pro, Max, Ultra, Team in Enterprise)](https://support.claude.com/en/articles/13837440-use-plugins-in-claude), in sicer v spletnem Claudu, na zavihku Chat v Claude Desktop in v Cowork. Če vaš račun nima vtičnikov, lahko še vedno uporabljate spodnja navodila za učno pomoč in izbrane kartice ročno kopirate v aplikacijo za ponavljanje.
 
 ## Pred prvim nalaganjem preverite pravila predmeta
 
