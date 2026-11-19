@@ -1153,6 +1153,21 @@
     }
   },
   {
+    "publicPath": "/blog/chi-square-homogeneity-vs-independence.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/6197fa5ef5085f94e152daebe63d97d62a0c8c5d9d19c07a1a18128e14a928bb.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "6197fa5ef5085f94e152daebe63d97d62a0c8c5d9d19c07a1a18128e14a928bb",
+    "bytes": 275488,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/62b9a72d526b3b8ea836a85189182ad90b53da0f606f1cb000ebdcd996bd0f2b.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "62b9a72d526b3b8ea836a85189182ad90b53da0f606f1cb000ebdcd996bd0f2b",
+      "bytes": 2984196
+    }
+  },
+  {
     "publicPath": "/blog/chi-square-independence-practice.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/8aacf5593118497aed5c65cd9a195b9af7fe304adbd0984c4b5a149a9725c263.webp",
     "width": 1672,
