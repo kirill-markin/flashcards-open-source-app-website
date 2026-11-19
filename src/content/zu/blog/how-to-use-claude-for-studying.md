@@ -46,7 +46,7 @@ Xhuma isixhumi se-Nibomo esifakwe ne-plugin. Landela izinyathelo zokungena, unge
 
 I-plugin inikeza izindlela zokwakha, ukubuyekeza, nokuthuthukisa amakhadi. Isixhumi sayo se-MCP sivumela i-Claude ukuthi ifunde futhi ibuyekeze i-akhawunti yakho ye-Nibomo. Ungathola futhi [isixhumi ohlwini lwe-Claude](https://claude.ai/directory/nibomo). [Isiqondiso sethu sokuxhuma i-Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (ngesiNgisi) kanye [nemibhalo yesixhumi se-MCP](/zu/docs/mcp-connector/) kuchaza kabanzi ngalokhu kuxhumana.
 
-Okwamanje u-Anthropic wenza [ama-plugin atholakale ezinhlelweni ze-Pro, Max, Team, ne-Enterprise](https://support.claude.com/en/articles/13837440-use-plugins-in-claude), ku-Claude kuwebhu, kuthebhu ye-Chat ye-Claude Desktop, naku-Cowork. Uma i-akhawunti yakho ingenawo ama-plugin, usengasebenzisa imiyalelo yokufundisa engezansi bese ukopisha amakhadi owakhethile ngesandla ohlelweni lwakho lokubuyekeza.
+Okwamanje u-Anthropic wenza [ama-plugin atholakale kuzo zonke izinhlelo ezikhokhelwayo (Pro, Max, Ultra, Team ne-Enterprise)](https://support.claude.com/en/articles/13837440-use-plugins-in-claude), ku-Claude kuwebhu, kuthebhu ye-Chat ye-Claude Desktop, naku-Cowork. Uma i-akhawunti yakho ingenawo ama-plugin, usengasebenzisa imiyalelo yokufundisa engezansi bese ukopisha amakhadi owakhethile ngesandla ohlelweni lwakho lokubuyekeza.
 
 ## Hlola imithetho yesifundo ngaphambi kokulayisha ifayela lokuqala
 

@@ -1,7 +1,8 @@
 ---
 title: "Flashcards de la Parte 107 de la FAA para 2026: estudia para el examen UAG"
-description: "Crea flashcards de la Parte 107 de la FAA sobre normativa, espacio aéreo, meteorología y operaciones. Prepárate para las imágenes de cartas integradas en las preguntas UAG desde el 27 de octubre de 2026."
+description: "Crea flashcards de la Parte 107 de la FAA sobre normativa, espacio aéreo, meteorología y operaciones. Practica la lectura de cartas en las preguntas del UAG."
 date: "2026-07-26"
+updated: "2026-11-19"
 image: "/blog/faa-part-107-flashcards.png"
 keywords:
   - "flashcards de la Parte 107 de la FAA"
@@ -14,21 +15,21 @@ keywords:
   - "imágenes de cartas integradas en preguntas UAG"
 ---
 
-El 27 de octubre de 2026, el examen Unmanned Aircraft General – Small de la FAA empezará a incluir preguntas con imágenes de cartas integradas en la propia pregunta, en lugar de presentarlas en el suplemento del examen. Este cambio es importante si estás creando **flashcards de la Parte 107 de la FAA**: las tarjetas pueden ayudarte a recordar símbolos del espacio aéreo, conceptos meteorológicos y reglas operativas, pero no pueden enseñarte por sí solas a interpretar todos los fragmentos de cartas desconocidos que puedan aparecer.
+Algunas preguntas del examen Unmanned Aircraft General – Small (UAG) de la FAA incluyen imágenes de cartas dentro del propio enunciado. Usa **flashcards de la Parte 107 de la FAA** para recordar símbolos del espacio aéreo, conceptos meteorológicos y reglas operativas, y aplica lo aprendido a fragmentos de cartas que aún no conozcas.
 
 Crea el mazo a partir de los Airman Certification Standards (ACS) vigentes de la FAA y mantén abiertas a su lado las cartas completas y las preguntas de ejemplo oficiales. Las tarjetas sirven para retener datos concretos que tendrás que recordar más de una vez. El trabajo con cartas muestra si puedes localizar y combinar pistas cuando la imagen es nueva.
 
 ![Una persona que se prepara para ser piloto remoto repasa flashcards de la Parte 107 de la FAA junto a una carta seccional, con grupos de estudio sobre espacio aéreo, meteorología y normativa](/blog/faa-part-107-flashcards.png)
 
-## Qué cambia el 27 de octubre de 2026
+## Imágenes de cartas y suplementos del examen UAG
 
-El [aviso de abril de 2026 para la comunidad de exámenes aeronáuticos](https://www.faa.gov/training_testing/testing/April_2026_Edition.pdf) de la FAA indica que, a partir del 27 de octubre, el examen UAG incluirá preguntas con imágenes que no aparecen en los suplementos del examen. El aviso menciona las cartas VFR y las cartas IFR de baja altitud como fuentes para esta actualización gráfica. Sus dos ejemplos UAG publicados utilizan fragmentos de cartas seccionales.
+Desde el 26 de octubre de 2026, el examen UAG incluye preguntas con imágenes integradas que no aparecen en los suplementos del examen. Los candidatos siguen teniendo acceso al suplemento en los centros de examen. La FAA aún no ha anunciado cuándo lo retirará. Entre las fuentes de esta actualización gráfica, la FAA cita las cartas VFR y las cartas IFR de baja altitud. [Aviso de octubre de 2026 de la FAA](https://www.faa.gov/training_testing/testing/ATCA_October_2026.pdf#page=6)
 
-La imagen integrada pasa a formar parte de cada pregunta. El aviso explica que no se pueden consultar con antelación las imágenes concretas empleadas en preguntas activas, ya que eso pondría en riesgo la integridad del examen. Recomienda usar las preguntas de ejemplo oficiales para familiarizarse con el formato.
+Puedes ver dos ejemplos del UAG con fragmentos de cartas seccionales en el [aviso de abril de 2026 de la FAA](https://www.faa.gov/training_testing/testing/April_2026_Edition.pdf).
 
-Ese es el cambio anunciado. El aviso no presenta un nuevo esquema de contenidos del examen UAG, un número distinto de preguntas, un aumento de dificultad ni un nuevo ámbito de conocimientos aeronáuticos. Un fragmento de una carta antigua todavía puede servir para aprender un símbolo estable. Deja de ser una buena preparación si solo reconoces ese recorte exacto.
+Cada imagen integrada forma parte de la pregunta en la que aparece. La FAA mantiene en reserva las imágenes de las preguntas del examen y recomienda usar las preguntas de ejemplo oficiales para familiarizarse con el formato.
 
-Si tu cita es anterior al 27 de octubre, interpretar cartas ya es importante. Si es en esa fecha o después, practica cómo localizar información en secciones de cartas que no hayas memorizado. La habilidad consiste en leer la carta, no en recordar dónde estaba un aeropuerto concreto en un suplemento de estudio.
+Los fragmentos de cartas antiguas siguen siendo útiles para aprender símbolos cuyo significado no ha cambiado. Practica también la búsqueda de información en fragmentos que no conozcas para poder aplicar lo aprendido a una imagen nueva.
 
 ## Comprueba que te preparas para el examen inicial
 
@@ -110,7 +111,7 @@ Reverso: Lee los datos del aeropuerto impresos junto a su símbolo e identifica 
 
 Mantén la carta completa fuera del mazo. Cuando conozcas los símbolos por separado, abre una carta seccional vigente que no hayas estudiado. Localiza un aeropuerto, determina el espacio aéreo que lo rodea, examina las restricciones cercanas y busca la información de comunicaciones pertinente.
 
-La actualización de octubre hace que esta división resulte aún más útil. Las tarjetas con imágenes pequeñas ayudan a reconocer los elementos. Las sesiones con cartas completas te obligan a manejar la escala, la saturación visual, los límites cercanos y varios datos a la vez. Usa los ejemplos UAG publicados por la FAA para entender la presentación, en lugar de dar por hecho que todas las imágenes se parecerán al mismo fragmento conocido de una carta seccional.
+Las tarjetas con imágenes pequeñas te ayudan a reconocer símbolos individuales. Trabajar con cartas completas te obliga a tener en cuenta la escala, orientarte entre muchos detalles y límites cercanos, y combinar varios datos a la vez. Las preguntas de ejemplo del UAG que publica la FAA muestran cómo puede aparecer una carta en el enunciado.
 
 ## Crea tarjetas de meteorología que ayuden a descifrar datos y tomar decisiones
 
@@ -213,9 +214,9 @@ La app Nibomo no está afiliada a la FAA ni cuenta con su respaldo. Tú proporci
 
 Usa los ACS vigentes de la FAA para pilotos remotos como ámbito de estudio y después estudia con la Remote Pilot Study Guide enlazada por la FAA y las preguntas de ejemplo oficiales. Cubre normativa, espacio aéreo, meteorología, carga y rendimiento, y operaciones. Vuelve a consultar la página de materiales de la FAA antes de tu cita.
 
-### ¿Qué ocurre exactamente el 27 de octubre de 2026?
+### ¿Seguiré teniendo acceso al suplemento del examen?
 
-El examen UAG empieza a incluir preguntas con imágenes integradas que no aparecen en los suplementos del examen. El aviso menciona las cartas VFR y las cartas IFR de baja altitud como fuentes para la actualización gráfica, y sus ejemplos UAG publicados usan fragmentos de cartas seccionales. No anuncia un nuevo esquema de contenidos, un número distinto de preguntas, un cambio de dificultad ni un cambio en el ámbito de conocimientos.
+Sí. El suplemento sigue disponible en los centros de examen. La FAA aún no ha anunciado cuándo lo retirará. Algunas preguntas del UAG muestran imágenes integradas que no figuran en el suplemento.
 
 ### ¿Debo memorizar capturas de cartas seccionales?
 
@@ -233,4 +234,4 @@ No. Las tarjetas sirven para reglas, símbolos, grupos meteorológicos, fórmula
 
 Las **flashcards de la Parte 107 de la FAA** útiles facilitan el recuerdo de datos concretos: qué significa un símbolo, qué regla se aplica, cómo se descifra un grupo meteorológico o por qué importa un factor de rendimiento. Mantén esas tarjetas vinculadas a los ACS vigentes y comprobadas con fuentes de la FAA.
 
-Después, cierra el mazo y abre una carta que no conozcas. Interprétala, responde preguntas de ejemplo oficiales y convierte en nuevas tarjetas solo las lagunas que puedan repetirse. Ese equilibrio refuerza tanto el recuerdo como el trabajo de lectura de cartas previsto cuando empiece la nueva presentación de imágenes el 27 de octubre.
+Después, cierra el mazo y abre una carta que no conozcas. Interprétala, responde las preguntas de ejemplo oficiales vigentes y convierte en tarjetas nuevas solo las lagunas que detectes repetidamente. Así practicas tanto el recuerdo rápido como la lectura de cartas para las preguntas del UAG con imágenes integradas.

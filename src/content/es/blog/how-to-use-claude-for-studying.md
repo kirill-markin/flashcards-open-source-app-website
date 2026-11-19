@@ -46,7 +46,7 @@ Conecta el conector de Nibomo incluido en el plugin. Sigue el proceso de inicio 
 
 El plugin aporta los flujos para crear, repasar y mejorar tarjetas. Su conector MCP es la conexión que permite a Claude leer y actualizar tu cuenta de Nibomo. También puedes encontrar el [conector en el directorio de Claude](https://claude.ai/directory/nibomo). Nuestra [guía para conectar Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (en inglés) y la [referencia del conector MCP](/es/docs/mcp-connector/) explican la conexión con más detalle.
 
-Actualmente, Anthropic ofrece [plugins en los planes Pro, Max, Team y Enterprise](https://support.claude.com/en/articles/13837440-use-plugins-in-claude), en Claude en la web, en la pestaña Chat de Claude Desktop y en Cowork. Si tu cuenta no tiene acceso a plugins, puedes usar los prompts de tutoría de abajo y copiar a mano las tarjetas seleccionadas en tu aplicación de repaso.
+Actualmente, Anthropic ofrece [plugins en todos los planes de pago (Pro, Max, Ultra, Team y Enterprise)](https://support.claude.com/en/articles/13837440-use-plugins-in-claude), en Claude en la web, en la pestaña Chat de Claude Desktop y en Cowork. Si tu cuenta no tiene acceso a plugins, puedes usar los prompts de tutoría de abajo y copiar a mano las tarjetas seleccionadas en tu aplicación de repaso.
 
 ## Revisa las normas del curso antes de subir archivos
 

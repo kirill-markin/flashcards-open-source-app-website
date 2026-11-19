@@ -46,7 +46,7 @@ keywords:
 
 ਪਲੱਗਇਨ ਕਾਰਡ ਬਣਾਉਣ, ਦੁਹਰਾਉਣ ਅਤੇ ਸੁਧਾਰਨ ਦੇ ਤਰੀਕੇ ਦਿੰਦਾ ਹੈ। ਉਸ ਦਾ MCP ਕਨੈਕਟਰ ਉਹ ਸੰਪਰਕ ਹੈ ਜਿਸ ਰਾਹੀਂ Claude ਤੁਹਾਡੇ Nibomo ਖਾਤੇ ਨੂੰ ਪੜ੍ਹ ਅਤੇ ਅੱਪਡੇਟ ਕਰ ਸਕਦਾ ਹੈ। ਤੁਸੀਂ [Claude ਦੀ ਡਾਇਰੈਕਟਰੀ ਵਿੱਚ ਕਨੈਕਟਰ](https://claude.ai/directory/nibomo) ਵੀ ਲੱਭ ਸਕਦੇ ਹੋ। ਸਾਡੀ [Claude ਨਾਲ ਜੋੜਨ ਦੀ ਗਾਈਡ](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ) ਅਤੇ [MCP ਕਨੈਕਟਰ ਹਵਾਲਾ ਦਸਤਾਵੇਜ਼](/pa/docs/mcp-connector/) ਇਸ ਸੰਪਰਕ ਨੂੰ ਹੋਰ ਵਿਸਥਾਰ ਨਾਲ ਸਮਝਾਉਂਦੇ ਹਨ।
 
-Anthropic ਇਸ ਵੇਲੇ [Pro, Max, Team ਅਤੇ Enterprise ਪਲਾਨਾਂ ਉੱਤੇ ਪਲੱਗਇਨ ਉਪਲਬਧ ਕਰਵਾਉਂਦਾ ਹੈ](https://support.claude.com/en/articles/13837440-use-plugins-in-claude)—ਵੈੱਬ ਉੱਤੇ Claude, Claude Desktop ਦੀ Chat ਟੈਬ ਅਤੇ Cowork ਵਿੱਚ। ਜੇ ਤੁਹਾਡੇ ਖਾਤੇ ਵਿੱਚ ਪਲੱਗਇਨ ਨਹੀਂ ਹਨ, ਤਾਂ ਵੀ ਤੁਸੀਂ ਹੇਠਲੇ ਟਿਊਟਰ ਪ੍ਰੌਮਪਟ ਵਰਤ ਸਕਦੇ ਹੋ ਅਤੇ ਚੁਣੇ ਕਾਰਡ ਆਪਣੀ ਦੁਹਰਾਈ ਐਪ ਵਿੱਚ ਹੱਥੀਂ ਕਾਪੀ ਕਰ ਸਕਦੇ ਹੋ।
+Anthropic ਇਸ ਵੇਲੇ [ਸਾਰੇ ਭੁਗਤਾਨ ਵਾਲੇ ਪਲਾਨਾਂ (Pro, Max, Ultra, Team ਅਤੇ Enterprise) ਉੱਤੇ ਪਲੱਗਇਨ ਉਪਲਬਧ ਕਰਵਾਉਂਦਾ ਹੈ](https://support.claude.com/en/articles/13837440-use-plugins-in-claude)—ਵੈੱਬ ਉੱਤੇ Claude, Claude Desktop ਦੀ Chat ਟੈਬ ਅਤੇ Cowork ਵਿੱਚ। ਜੇ ਤੁਹਾਡੇ ਖਾਤੇ ਵਿੱਚ ਪਲੱਗਇਨ ਨਹੀਂ ਹਨ, ਤਾਂ ਵੀ ਤੁਸੀਂ ਹੇਠਲੇ ਟਿਊਟਰ ਪ੍ਰੌਮਪਟ ਵਰਤ ਸਕਦੇ ਹੋ ਅਤੇ ਚੁਣੇ ਕਾਰਡ ਆਪਣੀ ਦੁਹਰਾਈ ਐਪ ਵਿੱਚ ਹੱਥੀਂ ਕਾਪੀ ਕਰ ਸਕਦੇ ਹੋ।
 
 ## ਪਹਿਲੀ ਫਾਈਲ ਅੱਪਲੋਡ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਕੋਰਸ ਦੇ ਨਿਯਮ ਜਾਂਚੋ
 

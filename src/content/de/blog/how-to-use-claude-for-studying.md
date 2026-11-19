@@ -46,7 +46,7 @@ Verbinde den im Plugin enthaltenen Nibomo-Connector. Folge dem Anmeldeablauf, me
 
 Das Plugin liefert die Abläufe zum Erstellen, Wiederholen und Verbessern von Karten. Sein MCP-Connector stellt die Verbindung her, über die Claude Daten in deinem Nibomo-Konto lesen und aktualisieren kann. Du findest den [Connector auch in Claudes Verzeichnis](https://claude.ai/directory/nibomo). Unsere [Anleitung zur Verbindung mit Claude (Englisch)](/blog/how-to-connect-flashcards-to-claude-with-mcp/) und die [MCP-Connector-Referenz](/de/docs/mcp-connector/) erklären diese Verbindung genauer.
 
-Anthropic bietet [Plugins derzeit in den Tarifen Pro, Max, Team und Enterprise an](https://support.claude.com/en/articles/13837440-use-plugins-in-claude): in Claude im Web, im Chat-Tab von Claude Desktop und in Cowork. Hat dein Konto keinen Zugang zu Plugins, kannst du die folgenden Tutor-Eingaben trotzdem nutzen und ausgewählte Karten manuell in deine Karteikarten-App kopieren.
+Anthropic bietet [Plugins derzeit in allen kostenpflichtigen Tarifen (Pro, Max, Ultra, Team und Enterprise) an](https://support.claude.com/en/articles/13837440-use-plugins-in-claude): in Claude im Web, im Chat-Tab von Claude Desktop und in Cowork. Hat dein Konto keinen Zugang zu Plugins, kannst du die folgenden Tutor-Eingaben trotzdem nutzen und ausgewählte Karten manuell in deine Karteikarten-App kopieren.
 
 ## Vor dem ersten Hochladen: Kursregeln prüfen
 

@@ -46,7 +46,7 @@ keywords:
 
 প্লাগইনে কার্ড তৈরি, রিভিউ ও উন্নত করার পদ্ধতি দেওয়া থাকে। এর MCP কানেক্টর হলো সেই সংযোগ, যার মাধ্যমে Claude আপনার Nibomo অ্যাকাউন্টের তথ্য পড়তে ও হালনাগাদ করতে পারে। [Claude-এর ডিরেক্টরিতেও কানেক্টরটি](https://claude.ai/directory/nibomo) পাবেন। আমাদের [Claude সংযোগ নির্দেশিকা](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (ইংরেজিতে) এবং [MCP কানেক্টর রেফারেন্সে](/bn/docs/mcp-connector/) সংযোগটি বিস্তারিত বোঝানো আছে।
 
-Anthropic বর্তমানে Claude-এর ওয়েব সংস্করণ, Claude Desktop-এর Chat ট্যাব এবং Cowork-এ [Pro, Max, Team ও Enterprise প্ল্যানে প্লাগইন ব্যবহারের সুবিধা দেয়](https://support.claude.com/en/articles/13837440-use-plugins-in-claude)। আপনার অ্যাকাউন্টে প্লাগইন না থাকলেও নিচের পড়ানোর নির্দেশনাগুলো ব্যবহার করতে পারবেন এবং বাছাই করা কার্ড নিজের রিভিউ অ্যাপে হাতে কপি করতে পারবেন।
+Anthropic বর্তমানে Claude-এর ওয়েব সংস্করণ, Claude Desktop-এর Chat ট্যাব এবং Cowork-এ [সব পেইড প্ল্যানে (Pro, Max, Ultra, Team ও Enterprise) প্লাগইন ব্যবহারের সুবিধা দেয়](https://support.claude.com/en/articles/13837440-use-plugins-in-claude)। আপনার অ্যাকাউন্টে প্লাগইন না থাকলেও নিচের পড়ানোর নির্দেশনাগুলো ব্যবহার করতে পারবেন এবং বাছাই করা কার্ড নিজের রিভিউ অ্যাপে হাতে কপি করতে পারবেন।
 
 ## প্রথম ফাইল আপলোডের আগেই কোর্সের নিয়ম দেখুন
 

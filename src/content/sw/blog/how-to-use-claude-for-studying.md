@@ -46,7 +46,7 @@ Unganisha kiunganishi cha Nibomo kilichojumuishwa kwenye programu-jalizi. Fuata 
 
 Programu-jalizi inatoa taratibu za kutengeneza, kurudia, na kuboresha kadi. Kiunganishi chake cha MCP ndicho kinachoruhusu Claude kusoma na kusasisha akaunti yako ya Nibomo. Unaweza pia kupata [kiunganishi kwenye saraka ya Claude](https://claude.ai/directory/nibomo). [Mwongozo wetu wa kuunganisha Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (kwa Kiingereza) na [marejeo ya kiunganishi cha MCP](/sw/docs/mcp-connector/) yanaeleza muunganisho huo kwa undani zaidi.
 
-Kwa sasa Anthropic inatoa [programu-jalizi kwenye mipango ya Pro, Max, Team, na Enterprise](https://support.claude.com/en/articles/13837440-use-plugins-in-claude), katika Claude ya wavuti, kichupo cha Chat cha Claude Desktop, na Cowork. Ikiwa akaunti yako haina programu-jalizi, bado unaweza kutumia maagizo ya kujifunza yaliyo hapa chini na kunakili mwenyewe kadi ulizochagua kwenye programu yako ya marudio.
+Kwa sasa Anthropic inatoa [programu-jalizi kwenye mipango yote ya kulipia (Pro, Max, Ultra, Team na Enterprise)](https://support.claude.com/en/articles/13837440-use-plugins-in-claude), katika Claude ya wavuti, kichupo cha Chat cha Claude Desktop, na Cowork. Ikiwa akaunti yako haina programu-jalizi, bado unaweza kutumia maagizo ya kujifunza yaliyo hapa chini na kunakili mwenyewe kadi ulizochagua kwenye programu yako ya marudio.
 
 ## Angalia kanuni za kozi kabla ya kupakia faili la kwanza
 

@@ -46,7 +46,7 @@ keywords:
 
 插件提供创建、复习和改进卡片的学习流程；其中的 MCP 连接器负责让 Claude 读取和更新你的 Nibomo 账户。你也可以在 [Claude 目录中找到该连接器](https://claude.ai/directory/nibomo)。[Claude 连接指南（英文）](/blog/how-to-connect-flashcards-to-claude-with-mcp/)和 [MCP 连接器参考文档](/zh/docs/mcp-connector/)提供了更详细的说明。
 
-Anthropic 目前向 [Pro、Max、Team 和 Enterprise 付费套餐提供插件](https://support.claude.com/en/articles/13837440-use-plugins-in-claude)，支持 Claude 网页版、Claude Desktop 的 Chat 标签页和 Cowork。如果你的账户无法使用插件，仍可使用下面的辅导提示词，并将选中的卡片手动复制到复习应用中。
+Anthropic 目前[在所有付费套餐（Pro、Max、Ultra、Team 和 Enterprise）中提供插件](https://support.claude.com/en/articles/13837440-use-plugins-in-claude)，支持 Claude 网页版、Claude Desktop 的 Chat 标签页和 Cowork。如果你的账户无法使用插件，仍可使用下面的辅导提示词，并将选中的卡片手动复制到复习应用中。
 
 ## 第一次上传前，先检查课程规则
 

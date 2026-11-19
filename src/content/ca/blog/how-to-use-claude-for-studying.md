@@ -46,7 +46,7 @@ Connecta el connector de Nibomo inclòs amb l'extensió. Segueix els passos d'in
 
 L'extensió aporta els mètodes per crear, repassar i millorar targetes. El seu connector MCP és la connexió que permet a Claude llegir i actualitzar el teu compte de Nibomo. També trobaràs el [connector al directori de Claude](https://claude.ai/directory/nibomo). La nostra [guia de connexió amb Claude (en anglès)](/blog/how-to-connect-flashcards-to-claude-with-mcp/) i la [referència del connector MCP](/ca/docs/mcp-connector/) expliquen aquesta connexió amb més detall.
 
-Actualment, Anthropic ofereix [extensions als plans Pro, Max, Team i Enterprise](https://support.claude.com/en/articles/13837440-use-plugins-in-claude), a Claude al web, a la pestanya Chat de Claude Desktop i a Cowork. Si el teu compte no disposa d'extensions, pots fer servir les instruccions de tutoria següents i copiar manualment les targetes seleccionades a la teva aplicació de repàs.
+Actualment, Anthropic ofereix [extensions a tots els plans de pagament (Pro, Max, Ultra, Team i Enterprise)](https://support.claude.com/en/articles/13837440-use-plugins-in-claude), a Claude al web, a la pestanya Chat de Claude Desktop i a Cowork. Si el teu compte no disposa d'extensions, pots fer servir les instruccions de tutoria següents i copiar manualment les targetes seleccionades a la teva aplicació de repàs.
 
 ## Comprova les normes del curs abans de pujar cap fitxer
 

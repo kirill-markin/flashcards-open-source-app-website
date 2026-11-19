@@ -46,7 +46,7 @@ Połącz Claude z Nibomo za pomocą konektora dołączonego do wtyczki. Przejdź
 
 Wtyczka zapewnia sposoby tworzenia, powtarzania i poprawiania fiszek. Jej konektor MCP to połączenie, które pozwala Claude odczytywać i aktualizować dane na twoim koncie Nibomo. Możesz też znaleźć [konektor w katalogu Claude](https://claude.ai/directory/nibomo). Więcej o tym połączeniu przeczytasz w [poradniku podłączania Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (po angielsku) i [dokumentacji konektora MCP](/pl/docs/mcp-connector/).
 
-Anthropic udostępnia obecnie [wtyczki w planach Pro, Max, Team i Enterprise](https://support.claude.com/en/articles/13837440-use-plugins-in-claude), w Claude w przeglądarce, na karcie Chat w Claude Desktop oraz w Cowork. Jeśli twoje konto nie ma dostępu do wtyczek, nadal możesz używać poniższych poleceń do nauki i ręcznie kopiować wybrane fiszki do swojej aplikacji do powtórek.
+Anthropic udostępnia obecnie [wtyczki we wszystkich płatnych planach (Pro, Max, Ultra, Team i Enterprise)](https://support.claude.com/en/articles/13837440-use-plugins-in-claude), w Claude w przeglądarce, na karcie Chat w Claude Desktop oraz w Cowork. Jeśli twoje konto nie ma dostępu do wtyczek, nadal możesz używać poniższych poleceń do nauki i ręcznie kopiować wybrane fiszki do swojej aplikacji do powtórek.
 
 ## Sprawdź zasady zajęć, zanim prześlesz pierwszy plik
 

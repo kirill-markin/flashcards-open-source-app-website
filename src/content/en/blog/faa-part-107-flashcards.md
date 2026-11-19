@@ -1,7 +1,8 @@
 ---
 title: "FAA Part 107 Flashcards for 2026: Study for the UAG Test"
-description: "Build FAA Part 107 flashcards for rules, airspace, weather, and operations. Prepare for embedded chart images in UAG questions from October 27, 2026."
+description: "Build FAA Part 107 flashcards for rules, airspace, weather, and operations. Practice reading the chart images that appear in UAG questions."
 date: "2026-07-26"
+updated: "2026-11-19"
 image: "/blog/faa-part-107-flashcards.png"
 keywords:
   - "FAA Part 107 flashcards"
@@ -14,21 +15,21 @@ keywords:
   - "UAG embedded chart images"
 ---
 
-On October 27, 2026, the FAA’s Unmanned Aircraft General – Small test starts featuring questions with chart images embedded in the question instead of included in the test supplement. That change matters for anyone building **FAA Part 107 flashcards**: cards can keep airspace symbols, weather concepts, and operating rules retrievable, but they cannot teach you to interpret every unfamiliar chart extract you may see.
+Some questions on the FAA’s Unmanned Aircraft General – Small (UAG) test now include embedded chart images. Use **FAA Part 107 flashcards** to recall airspace symbols, weather concepts, and operating rules, then apply what you know to unfamiliar chart extracts.
 
 Build the deck from the FAA’s current Airman Certification Standards (ACS), then keep full charts and official sample questions open beside it. Cards handle small, repeatable knowledge. Chart work shows whether you can find and combine clues when the image is new.
 
 ![A remote-pilot candidate reviews FAA Part 107 flashcards beside a sectional chart with airspace, weather, and regulation study groups](/blog/faa-part-107-flashcards.png)
 
-## What changes on October 27, 2026
+## Chart images and UAG test supplements
 
-The FAA’s [April 2026 Airman Testing Community Advisory](https://www.faa.gov/training_testing/testing/April_2026_Edition.pdf) says that beginning October 27, the UAG test will feature questions with images that are not included in the test supplements. The advisory lists VFR and IFR Low Altitude charts as source materials for the graphics update. Its two published UAG examples use sectional-chart extracts.
+As of October 26, 2026, some UAG questions include embedded images that are absent from the test supplements. Candidates still have access to the test supplement at test centers. The FAA has yet to announce a removal date. The FAA lists VFR and IFR Low Altitude charts as sources for the graphics update. [October 2026 Airman Testing Community Advisory](https://www.faa.gov/training_testing/testing/ATCA_October_2026.pdf#page=6)
 
-An embedded image becomes part of the individual question. The advisory says the specific images used in active questions cannot be previewed because that would compromise exam integrity. It directs applicants to official sample questions to become familiar with the format.
+To see the format, look for the two UAG examples with sectional-chart extracts in the FAA’s [April 2026 advisory](https://www.faa.gov/training_testing/testing/April_2026_Edition.pdf).
 
-That is the announced change. The advisory does not announce a new UAG blueprint, a different question count, a difficulty increase, or a new body of aeronautical knowledge. An older chart extract can still teach a stable symbol. It becomes weak preparation when you recognize only that exact crop.
+Each embedded image is part of its question. The FAA keeps images from live questions confidential and recommends using official sample questions to get familiar with the format.
 
-If your appointment is before October 27, chart interpretation already matters. If it is on or after that date, practice finding information on chart sections you have not memorized. The skill is reading the chart, not remembering where one airport sat in a study supplement.
+Older chart extracts can still help you learn symbols whose meanings have stayed the same. Practice finding information on unfamiliar chart sections so you can apply what you learn to a new image.
 
 ## Make sure you are preparing for the initial test
 
@@ -110,7 +111,7 @@ Back: Read the airport data printed next to the airport symbol and identify the 
 
 Keep the complete chart outside the card deck. Once you know individual symbols, open a current sectional you have not studied and locate an airport, determine the surrounding airspace, inspect nearby restrictions, and find the relevant communication information.
 
-The October update makes this division even more useful. Tiny image cards help you recognize ingredients. Full-chart sessions make you navigate scale, clutter, nearby boundaries, and several facts at once. Use the FAA’s published UAG examples to understand the presentation instead of assuming every image will resemble the same familiar sectional crop.
+Small image cards help you recognize individual symbols. Full-chart sessions make you navigate scale, clutter, nearby boundaries, and several facts at once. Use the FAA’s published UAG examples to see how charts can appear in a question.
 
 ## Make weather cards that support decoding and decisions
 
@@ -213,9 +214,9 @@ Nibomo is not affiliated with or endorsed by the FAA. You remain responsible for
 
 Use the current FAA Remote Pilot ACS as the scope, then study through the FAA’s linked Remote Pilot Study Guide and official sample questions. Cover regulations, airspace, weather, loading and performance, and operations. Check the FAA materials page again before your appointment.
 
-### What exactly happens on October 27, 2026?
+### Will I still have access to the test supplement?
 
-The UAG test begins featuring questions with embedded images that are not included in test supplements. The advisory lists VFR and IFR Low Altitude charts as sources for the graphics update, and its published UAG examples use sectional-chart extracts. It does not announce a new blueprint, question count, difficulty change, or knowledge-scope change.
+Yes. The test supplement remains available at test centers, and the FAA has yet to announce a removal date. Some UAG questions display embedded images that are absent from the supplement.
 
 ### Should I memorize sectional chart screenshots?
 
@@ -233,4 +234,4 @@ No. Cards are useful for rules, symbols, weather groups, formulas, distinctions,
 
 Useful **FAA Part 107 flashcards** make the small pieces easier to retrieve: what a symbol means, which rule applies, how a weather group decodes, or why a performance factor matters. Keep those cards mapped to the current ACS and verified against FAA sources.
 
-Then close the deck and open an unfamiliar chart. Interpret it, answer current official sample questions, and turn only the repeatable gaps into new cards. That balance supports both recall and the chart-reading work expected when the new image presentation begins on October 27.
+Then close the deck and open an unfamiliar chart. Interpret it, answer current official sample questions, and turn only recurring gaps into new cards. This builds both quick recall and the chart-reading skills you need for UAG questions with embedded images.

@@ -46,7 +46,7 @@ Tilslut den Nibomo-connector, der følger med pluginet. Følg loginforløbet, lo
 
 Pluginet indeholder arbejdsgangene til at oprette, repetere og forbedre kort. Dets MCP-connector er forbindelsen, der lader Claude læse og opdatere din Nibomo-konto. Du kan også finde [connectoren i Claudes katalog](https://claude.ai/directory/nibomo). Vores [vejledning til at forbinde Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (på engelsk) og [dokumentation til MCP-connectoren](/da/docs/mcp-connector/) forklarer forbindelsen nærmere.
 
-Anthropic tilbyder i øjeblikket [plugins på Pro-, Max-, Team- og Enterprise-abonnementer](https://support.claude.com/en/articles/13837440-use-plugins-in-claude), i Claude på nettet, på fanen Chat i Claude Desktop og i Cowork. Hvis din konto ikke har plugins, kan du stadig bruge tutor-prompterne nedenfor og kopiere udvalgte kort manuelt til din repetitionsapp.
+Anthropic tilbyder i øjeblikket [plugins på alle betalte abonnementer (Pro, Max, Ultra, Team og Enterprise)](https://support.claude.com/en/articles/13837440-use-plugins-in-claude), i Claude på nettet, på fanen Chat i Claude Desktop og i Cowork. Hvis din konto ikke har plugins, kan du stadig bruge tutor-prompterne nedenfor og kopiere udvalgte kort manuelt til din repetitionsapp.
 
 ## Undersøg fagets regler før den første upload
 

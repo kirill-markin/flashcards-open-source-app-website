@@ -46,7 +46,7 @@ Kapcsold össze a bővítményhez tartozó Nibomo-csatlakozót a fiókoddal. Kö
 
 A bővítmény adja a kártyakészítési, ismétlési és javítási munkafolyamatokat. Az MCP-csatlakozó biztosítja a kapcsolatot, amelyen keresztül Claude olvashatja és módosíthatja a Nibomo-fiókod tartalmát. A [csatlakozót Claude katalógusában](https://claude.ai/directory/nibomo) is megtalálod. A [Claude-csatlakozási útmutatónk](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (angol nyelvű) és az [MCP-csatlakozó dokumentációja](/hu/docs/mcp-connector/) részletesebben is bemutatja a kapcsolatot.
 
-Az Anthropic jelenleg a [Pro, Max, Team és Enterprise csomagokban teszi elérhetővé a bővítményeket](https://support.claude.com/en/articles/13837440-use-plugins-in-claude): a Claude webes felületén, a Claude Desktop Chat lapján és a Coworkban. Ha a fiókodban nincsenek bővítmények, az alábbi tanulási kéréseket akkor is használhatod, a kiválasztott kártyákat pedig kézzel bemásolhatod az ismétléshez használt alkalmazásodba.
+Az Anthropic jelenleg az [összes fizetős csomagban (Pro, Max, Ultra, Team és Enterprise) elérhetővé teszi a bővítményeket](https://support.claude.com/en/articles/13837440-use-plugins-in-claude): a Claude webes felületén, a Claude Desktop Chat lapján és a Coworkban. Ha a fiókodban nincsenek bővítmények, az alábbi tanulási kéréseket akkor is használhatod, a kiválasztott kártyákat pedig kézzel bemásolhatod az ismétléshez használt alkalmazásodba.
 
 ## Az első feltöltés előtt nézd meg a kurzus szabályait
 

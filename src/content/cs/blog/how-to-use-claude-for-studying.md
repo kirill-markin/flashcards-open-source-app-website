@@ -46,7 +46,7 @@ Připojte konektor Nibomo, který je součástí pluginu. Podle pokynů se přih
 
 Plugin poskytuje postupy pro tvorbu, opakování a úpravu kartiček. Jeho konektor MCP zajišťuje spojení, přes které může Claude číst a aktualizovat váš účet Nibomo. [Konektor najdete také v katalogu Claude](https://claude.ai/directory/nibomo). Podrobnosti vysvětluje náš [návod k propojení s Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (v angličtině) a [dokumentace konektoru MCP](/cs/docs/mcp-connector/).
 
-Anthropic aktuálně nabízí [pluginy v tarifech Pro, Max, Team a Enterprise](https://support.claude.com/en/articles/13837440-use-plugins-in-claude), a to v Claude na webu, na kartě Chat v Claude Desktop a v Cowork. Pokud váš účet pluginy nemá, můžete dál používat níže uvedená zadání pro doučování a vybrané kartičky ručně kopírovat do své aplikace na opakování.
+Anthropic aktuálně nabízí [pluginy ve všech placených tarifech (Pro, Max, Ultra, Team a Enterprise)](https://support.claude.com/en/articles/13837440-use-plugins-in-claude), a to v Claude na webu, na kartě Chat v Claude Desktop a v Cowork. Pokud váš účet pluginy nemá, můžete dál používat níže uvedená zadání pro doučování a vybrané kartičky ručně kopírovat do své aplikace na opakování.
 
 ## Před prvním nahráním souboru si ověřte pravidla kurzu
 

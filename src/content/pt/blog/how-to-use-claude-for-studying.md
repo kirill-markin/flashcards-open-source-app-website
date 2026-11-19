@@ -46,7 +46,7 @@ Configure a conexão com o Nibomo pelo conector incluído no plugin. Siga o flux
 
 O plugin fornece os fluxos de criação, revisão e melhoria de cartões. Seu conector MCP é a conexão que permite ao Claude ler e atualizar sua conta do Nibomo. Você também encontra o [conector no diretório do Claude](https://claude.ai/directory/nibomo). O [guia de conexão com o Claude](/pt/blog/how-to-connect-flashcards-to-claude-with-mcp/) e a [referência do conector MCP](/pt/docs/mcp-connector/) explicam essa conexão com mais detalhes.
 
-Atualmente, a Anthropic disponibiliza [plugins nos planos Pro, Max, Team e Enterprise](https://support.claude.com/en/articles/13837440-use-plugins-in-claude), no Claude na web, na aba Chat do Claude Desktop e no Cowork. Se sua conta não tiver plugins, você ainda pode usar os prompts de tutoria abaixo e copiar os cartões selecionados manualmente para seu aplicativo de revisão.
+Atualmente, a Anthropic disponibiliza [plugins em todos os planos pagos (Pro, Max, Ultra, Team e Enterprise)](https://support.claude.com/en/articles/13837440-use-plugins-in-claude), no Claude na web, na aba Chat do Claude Desktop e no Cowork. Se sua conta não tiver plugins, você ainda pode usar os prompts de tutoria abaixo e copiar os cartões selecionados manualmente para seu aplicativo de revisão.
 
 ## Confira as regras do curso antes do primeiro envio
 

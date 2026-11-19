@@ -46,7 +46,7 @@ Hubungkan konektor Nibomo yang disertakan dalam plugin. Ikuti petunjuk untuk mas
 
 Plugin menyediakan alur untuk membuat, mengulang, dan memperbaiki kartu. Konektor MCP-nya menghubungkan Claude dengan akun Nibomo Anda agar dapat membaca dan memperbaruinya. Anda juga dapat menemukan [konektor di direktori Claude](https://claude.ai/directory/nibomo). [Panduan koneksi Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (bahasa Inggris) dan [referensi konektor MCP](/id/docs/mcp-connector/) kami menjelaskan koneksi tersebut secara lebih terperinci.
 
-Saat ini, Anthropic menyediakan [plugin untuk paket Pro, Max, Team, dan Enterprise](https://support.claude.com/en/articles/13837440-use-plugins-in-claude), di Claude versi web, tab Chat pada Claude Desktop, dan Cowork. Jika akun Anda tidak memiliki plugin, Anda tetap dapat menggunakan prompt bimbingan di bawah dan menyalin kartu pilihan ke aplikasi pengulangan secara manual.
+Saat ini, Anthropic menyediakan [plugin untuk semua paket berbayar (Pro, Max, Ultra, Team, dan Enterprise)](https://support.claude.com/en/articles/13837440-use-plugins-in-claude), di Claude versi web, tab Chat pada Claude Desktop, dan Cowork. Jika akun Anda tidak memiliki plugin, Anda tetap dapat menggunakan prompt bimbingan di bawah dan menyalin kartu pilihan ke aplikasi pengulangan secara manual.
 
 ## Periksa aturan mata kuliah sebelum unggahan pertama
 
