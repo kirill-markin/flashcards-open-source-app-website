@@ -5698,6 +5698,36 @@
     }
   },
   {
+    "publicPath": "/blog/residual-plot-practice-datasets.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/4686022bb5d488b297cf9beb79f5d141d100063915cc5e28da0fb216f8c7160a.webp",
+    "width": 1296,
+    "height": 1152,
+    "sha256": "4686022bb5d488b297cf9beb79f5d141d100063915cc5e28da0fb216f8c7160a",
+    "bytes": 28042,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/f2e74dccd60c83aca1f363d210c33373f957737a9c35cf4fb61f1856d5eadd70.png",
+      "width": 1296,
+      "height": 1152,
+      "sha256": "f2e74dccd60c83aca1f363d210c33373f957737a9c35cf4fb61f1856d5eadd70",
+      "bytes": 51314
+    }
+  },
+  {
+    "publicPath": "/blog/residual-plot-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/457503e1f97cb3465d96d4573be6deb1b399c7e123cc408d44a1755e60e6ff99.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "457503e1f97cb3465d96d4573be6deb1b399c7e123cc408d44a1755e60e6ff99",
+    "bytes": 189604,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/8433ec7e63b14c8d90d5d4084bfdea442ff3668abaa69c5221c314ec868a4cfc.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "8433ec7e63b14c8d90d5d4084bfdea442ff3668abaa69c5221c314ec868a4cfc",
+      "bytes": 2447117
+    }
+  },
+  {
     "publicPath": "/blog/resistor-color-code-practice.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/5433c096e311344b3557a80a1f79e6121031c357db34845c87fe5f58b0dd8760.webp",
     "width": 1672,
