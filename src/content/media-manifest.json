@@ -47,6 +47,21 @@
     "bytes": 2312102
   },
   {
+    "publicPath": "/blog/albanian-introductions-family-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/e17df8ea849b6fa0c76a3f9e3714b3925e0c8bf95c986a7eef4741fd4cc21601.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "e17df8ea849b6fa0c76a3f9e3714b3925e0c8bf95c986a7eef4741fd4cc21601",
+    "bytes": 151736,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/bb7e22ce747aab35f06a89ddbdbe930502ab5c6af60720444790ad1d074dfb66.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "bb7e22ce747aab35f06a89ddbdbe930502ab5c6af60720444790ad1d074dfb66",
+      "bytes": 2371257
+    }
+  },
+  {
     "publicPath": "/blog/algoapp-to-nibomo.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/236e84b8aeeaa66b93f1e057b3c741b077691906e79d5332e98cb14aedf8d98c.webp",
     "width": 1536,
@@ -1587,6 +1602,21 @@
     }
   },
   {
+    "publicPath": "/blog/dutch-everyday-object-words-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/ac5b7dfce08645dbf7ea55cb5322027a0883c741918f62ec1313619eb6c31e4e.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "ac5b7dfce08645dbf7ea55cb5322027a0883c741918f62ec1313619eb6c31e4e",
+    "bytes": 105532,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/3bda4eeb45374df9e970e08ac56fe73c7120fcc0d8c623b88d71f1c50d73cb4a.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "3bda4eeb45374df9e970e08ac56fe73c7120fcc0d8c623b88d71f1c50d73cb4a",
+      "bytes": 2022881
+    }
+  },
+  {
     "publicPath": "/blog/dutch-everyday-vocabulary-flashcards.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/e8b99282262f012a695c860806efdfe2b734cda3059521ab24424c0b95de21d8.webp",
     "width": 1672,
@@ -2308,6 +2338,21 @@
     }
   },
   {
+    "publicPath": "/blog/german-clinical-anatomy-findings-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/1b90ca0eccfb6a00afb0d69cdeb7909a36c77603f49abec29558beec69cd2fa4.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "1b90ca0eccfb6a00afb0d69cdeb7909a36c77603f49abec29558beec69cd2fa4",
+    "bytes": 225720,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/0844365106673ce5d170d5839b1fcc3b3cc06ab022abf5c7488825c377a6e9c7.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "0844365106673ce5d170d5839b1fcc3b3cc06ab022abf5c7488825c377a6e9c7",
+      "bytes": 2663127
+    }
+  },
+  {
     "publicPath": "/blog/german-everyday-expressions.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/cc7a8cf25794cebcaf8b07c5bc2d410637229d5b611f717568b3476db223170c.webp",
     "width": 1672,
@@ -2335,6 +2380,21 @@
       "height": 941,
       "sha256": "96b09a3d0af92f8b0966f99ddc57e4f5959da85349b0004a8298bc311a00a442",
       "bytes": 2214185
+    }
+  },
+  {
+    "publicPath": "/blog/german-nursing-vocabulary-korean-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/135d61c0f635a3d477e4c11f22667b9026e2a25d5ec634f0bf382859806a5119.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "135d61c0f635a3d477e4c11f22667b9026e2a25d5ec634f0bf382859806a5119",
+    "bytes": 93844,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/62a995dcb54cd155d860673045d4f0395292b39b3360bcaee7910e68de5eda92.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "62a995dcb54cd155d860673045d4f0395292b39b3360bcaee7910e68de5eda92",
+      "bytes": 2189110
     }
   },
   {
@@ -3572,6 +3632,21 @@
     "bytes": 2128503
   },
   {
+    "publicPath": "/blog/hungarian-shop-cafe-phrases-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/16e74c33cc9052a81113163c05d088d3755261851dc757e0fa6c54426ebd4063.webp",
+    "width": 1664,
+    "height": 936,
+    "sha256": "16e74c33cc9052a81113163c05d088d3755261851dc757e0fa6c54426ebd4063",
+    "bytes": 191380,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/706e0c66b45c415fc57d698fb55bf93afbb90fd7ef41bfe3ef9bf6e01af8af5a.png",
+      "width": 1664,
+      "height": 936,
+      "sha256": "706e0c66b45c415fc57d698fb55bf93afbb90fd7ef41bfe3ef9bf6e01af8af5a",
+      "bytes": 2383104
+    }
+  },
+  {
     "publicPath": "/blog/hypergeometric-distribution-practice.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/dd5aa36a5a91c5e1b97e058e97562526e5522788924970be5a25ef6ddeaacc21.webp",
     "width": 1672,
@@ -4073,6 +4148,21 @@
     }
   },
   {
+    "publicPath": "/blog/latin-core-nouns-verbs-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/bffffaf79b817053eeccbd474b7154ec7befc8a9d7541153e6dadb36bd94d48a.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "bffffaf79b817053eeccbd474b7154ec7befc8a9d7541153e6dadb36bd94d48a",
+    "bytes": 285610,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/baf76159438ce3cce8fb9487dc48b0c2c8992c632eb9860b03d79b67a92d7b0a.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "baf76159438ce3cce8fb9487dc48b0c2c8992c632eb9860b03d79b67a92d7b0a",
+      "bytes": 2942267
+    }
+  },
+  {
     "publicPath": "/blog/latin-prepositions-conjunctions.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/ed18d1dfa03483cb044047738cc30a356fdab1c07611680fc3a64809f382d2a3.webp",
     "width": 1672,
@@ -4109,6 +4199,21 @@
     "height": 941,
     "sha256": "61b128d9e62e265e1e9dd665cea53bac325e9bf8fc9ae1a793920c1166a543ea",
     "bytes": 2486656
+  },
+  {
+    "publicPath": "/blog/levantine-arabic-verb-forms-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/97d62e270ed8b639c02ecf0fcd54688cdca029b26f00ee988af66bd7c72f80f4.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "97d62e270ed8b639c02ecf0fcd54688cdca029b26f00ee988af66bd7c72f80f4",
+    "bytes": 189452,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/90d1dff7af14fb618d02ef97fd8371111def4bec827412f901f3ceef8be8bb0c.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "90d1dff7af14fb618d02ef97fd8371111def4bec827412f901f3ceef8be8bb0c",
+      "bytes": 2547133
+    }
   },
   {
     "publicPath": "/blog/lie-vs-lay-practice.webp",

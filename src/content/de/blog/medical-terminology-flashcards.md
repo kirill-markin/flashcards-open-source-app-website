@@ -47,6 +47,8 @@ Wenn du zwei Begriffe verwechselst, such in den Fragen nach dem Wort, das den Un
 
 Im [deutschsprachigen Deck mit 55 Karteikarten zu medizinischen Fachbegriffen](/de/catalog/packages/medizinische-fachbegriffe/) kannst du weitere Beschwerden, Befunde, Untersuchungen und Verabreichungswege üben. Ruf den Begriff vor dem Aufdecken ab. Bei späteren Wiederholungen merkst du, welche Begriffe dir auch nach einer Pause einfallen.
 
+Für Lagebezeichnungen und Hautbefunde kannst du mit den [32 Karteikarten zu klinischen Fachbegriffen](/de/catalog/packages/german-clinical-anatomy-findings-flashcards/) weiterüben. Jede Karte beginnt mit einer kurzen Befundbeschreibung, zu der du den passenden Fachbegriff nennst.
+
 ## Welche Fachbegriffe brauchst du für deinen Kurs?
 
 Nimm den aktuellen Lehrplan als Ausgangspunkt für deine eigenen Karten. Das englischsprachige Tutorial [Understanding Medical Words von MedlinePlus](https://medlineplus.gov/medwords/) erklärt an Beispielen, wie medizinische Wörter aufgebaut sind. Welche Begriffe und Schreibweisen du für deinen Kurs brauchst, steht in deinen Kursunterlagen.
