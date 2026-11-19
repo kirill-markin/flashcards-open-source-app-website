@@ -3602,6 +3602,21 @@
     "bytes": 2128503
   },
   {
+    "publicPath": "/blog/hungarian-shop-cafe-phrases-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/16e74c33cc9052a81113163c05d088d3755261851dc757e0fa6c54426ebd4063.webp",
+    "width": 1664,
+    "height": 936,
+    "sha256": "16e74c33cc9052a81113163c05d088d3755261851dc757e0fa6c54426ebd4063",
+    "bytes": 191380,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/706e0c66b45c415fc57d698fb55bf93afbb90fd7ef41bfe3ef9bf6e01af8af5a.png",
+      "width": 1664,
+      "height": 936,
+      "sha256": "706e0c66b45c415fc57d698fb55bf93afbb90fd7ef41bfe3ef9bf6e01af8af5a",
+      "bytes": 2383104
+    }
+  },
+  {
     "publicPath": "/blog/hypergeometric-distribution-practice.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/dd5aa36a5a91c5e1b97e058e97562526e5522788924970be5a25ef6ddeaacc21.webp",
     "width": 1672,
