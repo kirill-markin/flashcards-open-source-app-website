@@ -5336,6 +5336,21 @@
     "bytes": 3022243
   },
   {
+    "publicPath": "/blog/quizlet-set-visibility.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/6142d9692dc08fc0d0f2386d957c73abe838bdc59409d852ce31f55cfc02d837.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "6142d9692dc08fc0d0f2386d957c73abe838bdc59409d852ce31f55cfc02d837",
+    "bytes": 306118,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/499770deb4372efef6eb27df682b512d7d622e2836c7d8b44c05c0f68e9cf958.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "499770deb4372efef6eb27df682b512d7d622e2836c7d8b44c05c0f68e9cf958",
+      "bytes": 3017243
+    }
+  },
+  {
     "publicPath": "/blog/quizlet-spaced-repetition.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/4bfccdc7fa9f068df5a7e6e31180da93240782ef153e6b89ba18e62c738d22fc.webp",
     "width": 1672,
