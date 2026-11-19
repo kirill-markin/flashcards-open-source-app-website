@@ -85,7 +85,7 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   "find-name-vs-path": { en: "gnu-find-expression-prune-flashcards" },
   "find-mtime-vs-ctime": { en: "linux-command-line-flashcards" },
   "find-files-modified-on-date": { en: "linux-command-line-flashcards" },
-  "rate-law-initial-rates-practice": { en: "ap-chemistry-flashcards" },
+  "rate-law-initial-rates-practice": { en: "initial-rates-rate-law-flashcards" },
   "buffer-calculations-practice": { en: "ap-chemistry-flashcards" },
   "force-displacement-graph-practice": { en: "ap-physics-1-flashcards" },
   "force-time-graph-impulse-practice": { en: "ap-physics-1-flashcards" },
