@@ -4141,6 +4141,21 @@
     "bytes": 2486656
   },
   {
+    "publicPath": "/blog/levantine-arabic-verb-forms-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/97d62e270ed8b639c02ecf0fcd54688cdca029b26f00ee988af66bd7c72f80f4.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "97d62e270ed8b639c02ecf0fcd54688cdca029b26f00ee988af66bd7c72f80f4",
+    "bytes": 189452,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/90d1dff7af14fb618d02ef97fd8371111def4bec827412f901f3ceef8be8bb0c.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "90d1dff7af14fb618d02ef97fd8371111def4bec827412f901f3ceef8be8bb0c",
+      "bytes": 2547133
+    }
+  },
+  {
     "publicPath": "/blog/lie-vs-lay-practice.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/b4ba23075ea7e5d1d5ff89b62bcf33449015a3d727f3062a86f165d16227dc2c.webp",
     "width": 1672,
