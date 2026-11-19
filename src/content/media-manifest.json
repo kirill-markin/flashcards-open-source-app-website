@@ -1602,6 +1602,21 @@
     }
   },
   {
+    "publicPath": "/blog/dutch-everyday-object-words-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/ac5b7dfce08645dbf7ea55cb5322027a0883c741918f62ec1313619eb6c31e4e.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "ac5b7dfce08645dbf7ea55cb5322027a0883c741918f62ec1313619eb6c31e4e",
+    "bytes": 105532,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/3bda4eeb45374df9e970e08ac56fe73c7120fcc0d8c623b88d71f1c50d73cb4a.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "3bda4eeb45374df9e970e08ac56fe73c7120fcc0d8c623b88d71f1c50d73cb4a",
+      "bytes": 2022881
+    }
+  },
+  {
     "publicPath": "/blog/dutch-everyday-vocabulary-flashcards.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/e8b99282262f012a695c860806efdfe2b734cda3059521ab24424c0b95de21d8.webp",
     "width": 1672,

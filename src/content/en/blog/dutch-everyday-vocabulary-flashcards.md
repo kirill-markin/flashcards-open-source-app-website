@@ -106,4 +106,6 @@ An error here tells you what to revisit. It doesn't measure your overall Dutch l
 
 The [Dutch everyday vocabulary: home, work and family deck](/catalog/packages/dutch-home-work-family-vocabulary/) uses **English prompts and explanations, with Dutch target words and examples**. It separates singular noun-and-article production, plural recall, verb meaning in context, and present-tense *ik* completions. You can also practise with the complete exercises and answers on this page.
 
+Use the [Everyday Dutch Words for Objects deck](/catalog/packages/dutch-everyday-objects-english-speakers/) to practise recognising Dutch names for household tools and things you use on the go.
+
 *This guide was drafted with AI assistance to organize the practice and compose examples. Dutch forms and the selected sense distinctions were checked against the linked language references. The examples are original practice material.*

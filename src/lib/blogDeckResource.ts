@@ -57,6 +57,7 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
     en: "dutch-home-work-family-vocabulary",
     ru: "dutch-home-work-family-vocabulary-ru",
   },
+  "dutch-everyday-object-words-practice": { en: "dutch-everyday-objects-english-speakers" },
   "gmdss-goc-flashcards": { en: "gmdss-goc-radio-concepts" },
   "gmdss-goc-hf-distress-channels": { en: "gmdss-goc-hf-distress-channels" },
   "english-sentence-rewrite-practice": { ru: "english-sentence-rewrites-russian-speakers" },
