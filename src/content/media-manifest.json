@@ -139,6 +139,21 @@
     }
   },
   {
+    "publicPath": "/blog/anki-auto-advance.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/2dcf5c6c2b60f15edd661dcfbe579e59b6f729e44510b4a700d76b23f9a4ee8b.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "2dcf5c6c2b60f15edd661dcfbe579e59b6f729e44510b4a700d76b23f9a4ee8b",
+    "bytes": 147764,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/56f93ce58429eaccbc79717db1a9005a5ce3f690813f822a9d259cdc3e96672c.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "56f93ce58429eaccbc79717db1a9005a5ce3f690813f822a9d259cdc3e96672c",
+      "bytes": 2196426
+    }
+  },
+  {
     "publicPath": "/blog/anki-basic-to-cloze.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/0a62db5e1564cb9661f817b8da351b4faccc4aedc9cf3eb932f5875385e75731.png",
     "width": 1672,
