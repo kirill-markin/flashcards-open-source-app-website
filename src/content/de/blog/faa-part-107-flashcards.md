@@ -1,7 +1,8 @@
 ---
 title: "FAA-Part-107-Lernkarten 2026: Für den UAG-Test lernen"
-description: "Erstelle FAA-Part-107-Lernkarten für Vorschriften, Luftraum, Wetter und Betrieb. Übe für UAG-Fragen mit eingebetteten Luftfahrtkarten ab 27. Oktober 2026."
+description: "Erstelle FAA-Part-107-Lernkarten für Vorschriften, Luftraum, Wetter und Betrieb. Übe, Luftfahrtkarten in UAG-Fragen zu lesen."
 date: "2026-07-26"
+updated: "2026-11-19"
 image: "/blog/faa-part-107-flashcards.png"
 keywords:
   - "FAA Part 107 Lernkarten"
@@ -14,21 +15,21 @@ keywords:
   - "UAG-Fragen mit eingebetteten Luftfahrtkarten"
 ---
 
-Ab dem 27. Oktober 2026 enthält die FAA-Prüfung Unmanned Aircraft General – Small (UAG) auch Fragen, bei denen Luftfahrtkarten direkt in die jeweilige Frage eingebettet sind, statt in der Testbeilage zu stehen. Für alle, die **FAA-Part-107-Lernkarten** erstellen, ist diese Änderung wichtig: Lernkarten sorgen dafür, dass Luftraumsymbole, Wetterkonzepte und Betriebsvorschriften abrufbar bleiben. Sie können dir aber nicht beibringen, jeden unbekannten Kartenausschnitt zu interpretieren, der in der Prüfung auftauchen könnte.
+Einige Fragen in der FAA-Prüfung Unmanned Aircraft General – Small (UAG) enthalten eingebettete Abbildungen von Luftfahrtkarten. Mit **FAA-Part-107-Lernkarten** übst du, Luftraumsymbole, Wetterkonzepte und Betriebsvorschriften abzurufen. Wende dieses Wissen an Kartenausschnitten an, die du noch nicht kennst.
 
 Baue dein Deck anhand der aktuellen Airman Certification Standards (ACS) der FAA auf. Nutze daneben vollständige Luftfahrtkarten und offizielle Beispielfragen. Lernkarten eignen sich für kleine Wissenseinheiten, die du wiederholt abrufen kannst. Die Arbeit mit Luftfahrtkarten zeigt, ob du Hinweise finden und miteinander verbinden kannst, wenn das Bild neu ist.
 
 ![Eine angehende Fernpilotin wiederholt FAA-Part-107-Lernkarten neben einer Sectional Chart; die Karten sind nach Luftraum, Wetter und Vorschriften gruppiert](/blog/faa-part-107-flashcards.png)
 
-## Was sich am 27. Oktober 2026 ändert
+## Luftfahrtkarten und Testbeilagen in der UAG-Prüfung
 
-Laut dem [Airman Testing Community Advisory der FAA vom April 2026](https://www.faa.gov/training_testing/testing/April_2026_Edition.pdf) enthält der UAG-Test ab dem 27. Oktober Fragen mit Bildern, die nicht in den Testbeilagen enthalten sind. Als Ausgangsmaterial für diese Aktualisierung nennt das Advisory VFR- und IFR-Low-Altitude-Charts. Die beiden veröffentlichten UAG-Beispiele verwenden Ausschnitte aus Sectional Charts.
+Seit dem 26. Oktober 2026 gibt es in der UAG-Prüfung Fragen mit eingebetteten Bildern, die in den Testbeilagen fehlen. Die Testbeilage steht dir im Prüfungszentrum weiterhin zur Verfügung. Die FAA hat noch keinen Termin für ihre Abschaffung bekannt gegeben. Als Quellen für die aktualisierten Abbildungen nennt die FAA VFR- und IFR-Low-Altitude-Charts. [Airman Testing Community Advisory der FAA vom Oktober 2026](https://www.faa.gov/training_testing/testing/ATCA_October_2026.pdf#page=6)
 
-Ein eingebettetes Bild wird Bestandteil der jeweiligen Frage. Laut Advisory können die konkreten Bilder aus aktiven Prüfungsfragen nicht vorab gezeigt werden, weil dies die Integrität der Prüfung gefährden würde. Prüfungskandidaten sollen sich anhand der offiziellen Beispielfragen mit dem Format vertraut machen.
+Zwei UAG-Beispiele mit Ausschnitten aus Sectional Charts findest du im [Advisory vom April 2026](https://www.faa.gov/training_testing/testing/April_2026_Edition.pdf).
 
-Das ist die angekündigte Änderung. Das Advisory kündigt weder einen neuen UAG-Blueprint noch eine andere Fragenzahl, einen höheren Schwierigkeitsgrad oder einen neuen Bereich luftfahrttechnischen Wissens an. Mit einem älteren Kartenausschnitt kannst du weiterhin ein Symbol lernen, dessen Bedeutung gleich geblieben ist. Als Vorbereitung taugt er wenig, wenn du nur genau diesen Ausschnitt wiedererkennst.
+Jedes eingebettete Bild ist Teil der jeweiligen Frage. Die FAA behandelt Bilder aus aktuellen Prüfungsfragen vertraulich und empfiehlt offizielle Beispielfragen, um sich mit dem Format vertraut zu machen.
 
-Auch bei einem Termin vor dem 27. Oktober musst du Luftfahrtkarten interpretieren können. Liegt dein Termin an diesem Tag oder später, übe, Informationen auf Kartenausschnitten zu finden, die du nicht auswendig kennst. Entscheidend ist, die Karte lesen zu können – nicht, sich zu merken, wo ein bestimmter Flughafen in einer Testbeilage lag.
+Ältere Kartenausschnitte helfen dir weiterhin, Symbole zu lernen, deren Bedeutung gleich geblieben ist. Übe auch, auf unbekannten Kartenausschnitten Informationen zu finden. So kannst du das Gelernte auf neue Bilder anwenden.
 
 ## Prüfe, ob du dich auf den initialen Test vorbereitest
 
@@ -110,7 +111,7 @@ Rückseite: Lies die neben dem Flughafensymbol abgedruckten Flughafendaten und s
 
 Bewahre die vollständige Luftfahrtkarte außerhalb des Lernkartendecks auf. Sobald du einzelne Symbole kennst, öffne eine aktuelle Sectional Chart, mit der du noch nicht gearbeitet hast. Suche einen Flughafen, bestimme den umliegenden Luftraum, prüfe nahe gelegene Beschränkungen und finde die maßgeblichen Kommunikationsangaben.
 
-Durch die Änderung im Oktober wird diese Aufteilung noch nützlicher. Kleine Bildkarten helfen dir, die einzelnen Bestandteile zu erkennen. In Einheiten mit vollständigen Luftfahrtkarten lernst du, dich trotz wechselndem Maßstab, hoher Informationsdichte und benachbarten Grenzen zurechtzufinden und mehrere Angaben zu verknüpfen. Nutze die veröffentlichten UAG-Beispiele der FAA, um die Darstellungsform kennenzulernen. Verlasse dich nicht darauf, dass jedes Bild wie derselbe vertraute Ausschnitt einer Sectional Chart aussieht.
+Kleine Bildkarten helfen dir, einzelne Symbole zu erkennen. Bei der Arbeit mit vollständigen Luftfahrtkarten lernst du, den Maßstab zu berücksichtigen, dich bei hoher Informationsdichte und benachbarten Grenzen zurechtzufinden und mehrere Angaben miteinander zu verknüpfen. An den veröffentlichten UAG-Beispielen der FAA siehst du, wie Karten in einer Frage dargestellt werden können.
 
 ## Erstelle Wetterkarten für das Entschlüsseln und Entscheiden
 
@@ -213,9 +214,9 @@ Nibomo steht weder in Verbindung mit der FAA noch wird die App von ihr unterstü
 
 Nutze die aktuellen Remote Pilot ACS der FAA als Rahmen. Lerne anschließend mit dem von der FAA verlinkten Remote Pilot Study Guide und den offiziellen Beispielfragen. Decke Vorschriften, Luftraum, Wetter, Beladung und Leistung sowie Betrieb ab. Prüfe die FAA-Seite mit den Lernmaterialien vor deinem Termin erneut.
 
-### Was genau passiert am 27. Oktober 2026?
+### Steht mir die Testbeilage weiterhin zur Verfügung?
 
-Der UAG-Test enthält ab diesem Tag Fragen mit eingebetteten Bildern, die nicht in den Testbeilagen enthalten sind. Als Quellen für die grafische Aktualisierung nennt das Advisory VFR- und IFR-Low-Altitude-Charts. Die veröffentlichten UAG-Beispiele verwenden Ausschnitte aus Sectional Charts. Angekündigt werden weder ein neuer Blueprint noch eine andere Fragenzahl, ein veränderter Schwierigkeitsgrad oder ein veränderter Wissensumfang.
+Ja. Die Testbeilage ist in den Prüfungszentren weiterhin verfügbar. Die FAA hat noch keinen Termin für ihre Abschaffung bekannt gegeben. Einige UAG-Fragen zeigen eingebettete Bilder, die in der Testbeilage fehlen.
 
 ### Sollte ich Screenshots von Sectional Charts auswendig lernen?
 
@@ -233,4 +234,4 @@ Nein. Karten eignen sich für Regeln, Symbole, Wettergruppen, Formeln, Abgrenzun
 
 Nützliche **FAA-Part-107-Lernkarten** machen die kleinen Bausteine leichter abrufbar: was ein Symbol bedeutet, welche Regel gilt, wie eine Wettergruppe entschlüsselt wird oder warum ein Leistungsfaktor wichtig ist. Ordne diese Karten weiterhin den aktuellen ACS zu und gleiche sie mit FAA-Quellen ab.
 
-Schließe danach das Deck und öffne eine unbekannte Luftfahrtkarte. Interpretiere sie, beantworte aktuelle offizielle Beispielfragen und verwandle nur wiederholt auftretende Lücken in neue Karten. Dieses Gleichgewicht unterstützt sowohl den Abruf als auch die Arbeit mit Luftfahrtkarten, wie sie bei der neuen Bilddarstellung ab dem 27. Oktober gefragt ist.
+Schließe danach das Deck und öffne eine unbekannte Luftfahrtkarte. Interpretiere sie, beantworte aktuelle offizielle Beispielfragen und verwandle nur wiederholt auftretende Wissenslücken in neue Karten. So trainierst du den schnellen Abruf und das Kartenlesen für UAG-Fragen mit eingebetteten Bildern.
