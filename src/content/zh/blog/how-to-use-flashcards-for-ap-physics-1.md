@@ -1,8 +1,9 @@
 ---
-title: "2026 年如何用抽认卡备考 AP Physics 1：力、能量，以及真正能记住的 FRQ 失分点"
-description: "这是一套适合 2026 年 AP Physics 1 的实用抽认卡工作流：复习运动学、受力、能量、图像题、FRQ 失分点，以及真正能留下来的混合数字化考试准备。"
+title: "2027 年如何用抽认卡备考 AP Physics 1"
+description: "用抽认卡复习 AP Physics 1 的运动学、受力和能量，整理自由作答题（FRQ）的失分原因。了解 2027 年考试日期、混合考试形式和限时练习安排。"
 image: "/blog/how-to-use-flashcards-for-ap-physics-1.png"
 date: "2026-06-27"
+updated: "2026-11-19"
 keywords:
   - "AP Physics 1 抽认卡"
   - "如何用抽认卡备考 AP Physics 1"
@@ -12,6 +13,7 @@ keywords:
   - "AP Physics 1 公式抽认卡"
   - "AP Physics 1 间隔重复"
   - "AP Physics 1 考试抽认卡"
+  - "2027 年 AP Physics 1 考试"
 ---
 
 在 AP Physics 1 里总是零碎丢分的学生，通常并不是忘了 `F = ma`。更常见的是一些更琐碎的失误：你把速度-时间图看成了位置图；你多画了一个其实根本不存在的力；你写下“能量守恒”，却没有先选好一个干净的系统；或者你在 FRQ 里代数推得还不错，最后还是没拿到分，因为解释始终没有回到物理本身。
@@ -20,7 +22,11 @@ keywords:
 
 它适合练快速提取、图像提示、单位含义，以及那些会反复出现的错误。它不能替代完整解题、实验设计，或是在时间压力下写出完整的 free-response 答案。
 
-对 2026 年来说，官方考试细节也很关键。College Board 的 [2026 AP exam dates page](https://apstudents.collegeboard.org/exam-policies-guidelines/exam-dates) 和 [AP Physics 1 assessment page](https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based/assessment) 都把考试列为 **2026 年 5 月 6 日星期三中午 12 点（当地时间）**。assessment 页面说明，AP Physics 1 仍然是 **hybrid digital exam**：你在 Bluebook 里完成 multiple-choice，并查看 free-response 题目，然后把 free-response 答案手写在纸质答题册上。整场考试总时长是 **3 小时**，其中 **40 道 multiple-choice questions 用时 1 小时 20 分钟**，占总分 **50%**；**4 道 free-response questions 用时 1 小时 40 分钟**，占另外 **50%**。允许使用计算器，College Board 也说明考试当天会提供本课程可用的参考资料。
+AP Physics 1 常规考试安排在 **2027 年 5 月 5 日（星期三）第 2 场（Session 2）**。请向学校的 AP 协调员确认开考时间和地点。也可以按学校查询开考时间。[College Board 开考时间查询](https://apcentral.collegeboard.org/exam-administration-ordering-scores/exam-dates/start-times/lookup)
+
+考试共 **3 小时**。**选择题 42 道，限时 85 分钟**。**自由作答题（FRQ）4 道，限时 95 分钟**。两部分各占总分的 **50%**。
+
+考试继续采用混合形式。在 Bluebook 中完成选择题并查看自由作答题，再把自由作答题的答案手写在纸质答题册上。考试允许使用计算器，并提供本课程的参考资料。[College Board 的 AP Physics 1 考试说明](https://apcentral.collegeboard.org/courses/ap-physics-1/exam)
 
 这意味着，你的牌组不该只会记住物理知识点。它还应该记住考试真正会怎么出题。
 
@@ -183,13 +189,11 @@ Physics 1 也特别会惩罚那种“公式会了，但模型错了”的情况�
 
 最后这个问题很重要。有些错误是记忆错误。有些错误是执行错误。抽认卡帮前者。限时练习修后者。
 
-## 2026 年的 hybrid digital 形式，应该改变你少量卡片和少量习惯
+## 如何按混合考试形式练习
 
-这一点很容易被忽略。
+做模拟题时分两部分计时。选择题限时 85 分钟，四道自由作答题限时 95 分钟。先用 Bluebook 的考试预览熟悉界面。练习整套自由作答题时，可以用 College Board 公布的历年试题，在屏幕上读题，在纸上作答。
 
-College Board 的 [AP Physics 1 assessment page](https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based/assessment) 说明，这门考试是 hybrid digital。它的 [digital testing overview](https://apstudents.collegeboard.org/ap-exams-what-to-know/digital-testing-exam-modes) 也写得很清楚：大多数 2026 AP Exams 都是数字化交付，基本形式也是一样的，multiple-choice 和题目查看在 Bluebook 中完成，手写 free-response 仍然写在纸质答题册上。
-
-这不代表你要专门做一整副关于 app 的牌组。它真正意味着的是，你的练习里应该多出少量围绕考试模式的卡和习惯：
+做完后，回顾自己在哪些步骤耗时太久或丢了分。下面这些问题可以帮你找出反复犯的错误。
 
 - 当题目在屏幕上、答案写在纸上时，我最容易漏掉哪些细节？
 - 在我写得很快的时候，一套干净的图像或示意图标签应该长什么样？
@@ -289,4 +293,4 @@ RAND 在 [2026 年 3 月 17 日](https://www.rand.org/news/press/2026/03/student
 
 而凡是需要完整设定、建模、解释和时间压力的部分，就继续交给真正的 AP Physics 1 练习题。
 
-只有这样，**AP Physics 1 考试抽认卡** 在 2026 年才会真的有用。否则，你最后只会得到一副记住了物理词汇、却跟不上物理思考的牌组。
+这样用 **AP Physics 1 考试抽认卡**，你做题时就能更快想起用得上的物理概念和规律。
