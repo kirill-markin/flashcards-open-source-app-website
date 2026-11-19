@@ -46,7 +46,7 @@ Verbind de Nibomo-connector die bij de plugin hoort. Volg de aanmeldstappen, mel
 
 De plugin levert de werkwijzen voor het maken, herhalen en verbeteren van kaarten. De MCP-connector is de verbinding waarmee Claude je Nibomo-account kan lezen en bijwerken. Je vindt de [connector ook in de catalogus van Claude](https://claude.ai/directory/nibomo). Onze [handleiding om Claude met Nibomo te verbinden](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (Engels) en de [MCP-connectorreferentie](/nl/docs/mcp-connector/) leggen die verbinding verder uit.
 
-Anthropic biedt [plugins momenteel aan bij Pro, Max, Team en Enterprise](https://support.claude.com/en/articles/13837440-use-plugins-in-claude), in Claude op het web, op het tabblad Chat van Claude Desktop en in Cowork. Heeft je account geen plugins, dan kun je nog steeds de tutor-prompts hieronder gebruiken en geselecteerde kaarten handmatig naar je flashcard-app kopiëren.
+Anthropic biedt [plugins momenteel aan bij alle betaalde abonnementen (Pro, Max, Ultra, Team en Enterprise)](https://support.claude.com/en/articles/13837440-use-plugins-in-claude), in Claude op het web, op het tabblad Chat van Claude Desktop en in Cowork. Heeft je account geen plugins, dan kun je nog steeds de tutor-prompts hieronder gebruiken en geselecteerde kaarten handmatig naar je flashcard-app kopiëren.
 
 ## Controleer de regels van je vak voordat je iets uploadt
 

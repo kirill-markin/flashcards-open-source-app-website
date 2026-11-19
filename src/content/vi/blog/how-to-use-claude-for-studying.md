@@ -46,7 +46,7 @@ Thiết lập trình kết nối Nibomo đi kèm plugin. Làm theo hướng dẫ
 
 Plugin cung cấp các quy trình tạo, ôn tập và cải thiện thẻ. Trình kết nối MCP đi kèm là cầu nối cho phép Claude đọc và cập nhật tài khoản Nibomo của bạn. Bạn cũng có thể tìm [trình kết nối trong danh mục của Claude](https://claude.ai/directory/nibomo). [Hướng dẫn kết nối Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (bằng tiếng Anh) và [tài liệu trình kết nối MCP](/vi/docs/mcp-connector/) của chúng tôi giải thích chi tiết hơn về kết nối này.
 
-Anthropic hiện cung cấp [plugin trên các gói Pro, Max, Team và Enterprise](https://support.claude.com/en/articles/13837440-use-plugins-in-claude), trong Claude trên web, thẻ Chat của Claude Desktop và Cowork. Nếu tài khoản chưa có plugin, bạn vẫn có thể dùng các lời nhắc gia sư bên dưới và sao chép thủ công những thẻ đã chọn vào ứng dụng ôn tập.
+Anthropic hiện cung cấp [plugin trên tất cả các gói trả phí (Pro, Max, Ultra, Team và Enterprise)](https://support.claude.com/en/articles/13837440-use-plugins-in-claude), trong Claude trên web, thẻ Chat của Claude Desktop và Cowork. Nếu tài khoản chưa có plugin, bạn vẫn có thể dùng các lời nhắc gia sư bên dưới và sao chép thủ công những thẻ đã chọn vào ứng dụng ôn tập.
 
 ## Kiểm tra quy định môn học trước khi tải tài liệu lên
 

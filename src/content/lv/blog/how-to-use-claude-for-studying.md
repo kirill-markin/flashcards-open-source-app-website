@@ -46,7 +46,7 @@ Pievieno spraudnī iekļauto Nibomo savienotāju. Izpildi pierakstīšanās darb
 
 Spraudnis nodrošina kartīšu veidošanas, atkārtošanas un uzlabošanas darbplūsmas. Tā MCP savienotājs ļauj Claude lasīt un atjaunināt datus tavā Nibomo kontā. [Savienotājs ir atrodams arī Claude katalogā](https://claude.ai/directory/nibomo). Sīkāk savienojums aprakstīts mūsu [Claude savienošanas ceļvedī](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (angļu valodā) un [MCP savienotāja dokumentācijā](/lv/docs/mcp-connector/).
 
-Anthropic pašlaik piedāvā [spraudņus Pro, Max, Team un Enterprise plānos](https://support.claude.com/en/articles/13837440-use-plugins-in-claude): Claude tīmekļa versijā, Claude Desktop cilnē Chat un Cowork. Ja tavā kontā spraudņi nav pieejami, vari izmantot tālāk dotās mācību uzvednes un atlasītās kartītes manuāli pārkopēt savā atkārtošanas lietotnē.
+Anthropic pašlaik piedāvā [spraudņus visos maksas plānos (Pro, Max, Ultra, Team un Enterprise)](https://support.claude.com/en/articles/13837440-use-plugins-in-claude): Claude tīmekļa versijā, Claude Desktop cilnē Chat un Cowork. Ja tavā kontā spraudņi nav pieejami, vari izmantot tālāk dotās mācību uzvednes un atlasītās kartītes manuāli pārkopēt savā atkārtošanas lietotnē.
 
 ## Pirms pirmās augšupielādes pārbaudi kursa noteikumus
 

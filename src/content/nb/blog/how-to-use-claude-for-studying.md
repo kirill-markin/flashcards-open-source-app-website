@@ -46,7 +46,7 @@ Koble Nibomo til Claude med tilkoblingen som følger med utvidelsen. Følg pålo
 
 Utvidelsen gir arbeidsflytene for å opprette, repetere og forbedre kort. MCP-tilkoblingen er forbindelsen som lar Claude lese og oppdatere Nibomo-kontoen din. Du finner også [tilkoblingen i Claudes katalog](https://claude.ai/directory/nibomo). [Veiledningen for Claude-tilkoblingen](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (på engelsk) og [dokumentasjonen for MCP-tilkoblingen](/nb/docs/mcp-connector/) forklarer forbindelsen nærmere.
 
-Anthropic tilbyr for tiden [utvidelser på abonnementene Pro, Max, Team og Enterprise](https://support.claude.com/en/articles/13837440-use-plugins-in-claude), i Claude på nettet, Chat-fanen i Claude Desktop og Cowork. Hvis kontoen din ikke har utvidelser, kan du fortsatt bruke veiledningsinstruksjonene nedenfor og kopiere utvalgte kort manuelt til appen du bruker til repetisjon.
+Anthropic tilbyr for tiden [utvidelser på alle betalte abonnementer (Pro, Max, Ultra, Team og Enterprise)](https://support.claude.com/en/articles/13837440-use-plugins-in-claude), i Claude på nettet, Chat-fanen i Claude Desktop og Cowork. Hvis kontoen din ikke har utvidelser, kan du fortsatt bruke veiledningsinstruksjonene nedenfor og kopiere utvalgte kort manuelt til appen du bruker til repetisjon.
 
 ## Sjekk emnets regler før første opplasting
 

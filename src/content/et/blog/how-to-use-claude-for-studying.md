@@ -46,7 +46,7 @@ Ava [Nibomo plugin](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-85
 
 Plugin annab kaartide loomise, kordamise ja parandamise töövood. Selle MCP-konnektor võimaldab Claude'il sinu Nibomo kontolt andmeid lugeda ja neid uuendada. [Konnektori leiad ka Claude'i kataloogist](https://claude.ai/directory/nibomo). Ühendust selgitavad lähemalt meie [Claude'iga ühendamise juhend](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (inglise keeles) ja [MCP-konnektori teatmik](/et/docs/mcp-connector/).
 
-Anthropic pakub praegu [pluginaid Pro, Max, Team ja Enterprise'i pakettides](https://support.claude.com/en/articles/13837440-use-plugins-in-claude): Claude'i veebiversioonis, Claude Desktopi vahekaardil Chat ja Coworkis. Kui sinu kontol pole pluginaid, saad siiski kasutada allolevaid õppimisjuhiseid ja kopeerida valitud kaardid käsitsi oma kordamisrakendusse.
+Anthropic pakub praegu [pluginaid kõigis tasulistes pakettides (Pro, Max, Ultra, Team ja Enterprise)](https://support.claude.com/en/articles/13837440-use-plugins-in-claude): Claude'i veebiversioonis, Claude Desktopi vahekaardil Chat ja Coworkis. Kui sinu kontol pole pluginaid, saad siiski kasutada allolevaid õppimisjuhiseid ja kopeerida valitud kaardid käsitsi oma kordamisrakendusse.
 
 ## Kontrolli kursuse reegleid enne esimest üleslaadimist
 

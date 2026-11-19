@@ -46,7 +46,7 @@ Eklentiyle birlikte gelen Nibomo bağlayıcısıyla bağlantıyı kurun. Oturum 
 
 Eklenti, kart oluşturma, tekrar ve iyileştirme iş akışlarını sağlar. MCP bağlayıcısı ise Claude’un Nibomo hesabınızı okuyup güncellemesini sağlayan bağlantıdır. [Bağlayıcıyı Claude dizininde](https://claude.ai/directory/nibomo) de bulabilirsiniz. [Claude bağlantı rehberimiz](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (İngilizce) ve [MCP bağlayıcısı başvuru belgesi](/tr/docs/mcp-connector/) bu bağlantıyı daha ayrıntılı açıklar.
 
-Anthropic şu anda eklentileri [Pro, Max, Team ve Enterprise planlarında](https://support.claude.com/en/articles/13837440-use-plugins-in-claude), Claude’un web sürümünde, Claude Desktop’ın Chat sekmesinde ve Cowork’te sunuyor. Hesabınızda eklentiler yoksa aşağıdaki öğretici komutları yine kullanabilir ve seçtiğiniz kartları tekrar uygulamanıza elle kopyalayabilirsiniz.
+Anthropic şu anda eklentileri [tüm ücretli planlarda (Pro, Max, Ultra, Team ve Enterprise)](https://support.claude.com/en/articles/13837440-use-plugins-in-claude), Claude’un web sürümünde, Claude Desktop’ın Chat sekmesinde ve Cowork’te sunuyor. Hesabınızda eklentiler yoksa aşağıdaki öğretici komutları yine kullanabilir ve seçtiğiniz kartları tekrar uygulamanıza elle kopyalayabilirsiniz.
 
 ## İlk dosyayı yüklemeden önce dersin kurallarını kontrol edin
 

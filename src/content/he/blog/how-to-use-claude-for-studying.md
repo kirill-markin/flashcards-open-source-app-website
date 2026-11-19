@@ -46,7 +46,7 @@ keywords:
 
 התוסף מספק את תהליכי היצירה, החזרה והשיפור. מחבר ה-MCP שלו הוא החיבור שמאפשר ל-Claude לקרוא ולעדכן את חשבון Nibomo שלכם. אפשר למצוא גם את [המחבר בספריית Claude](https://claude.ai/directory/nibomo). [המדריך שלנו לחיבור Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (באנגלית) ו[תיעוד מחבר ה-MCP](/he/docs/mcp-connector/) מסבירים את החיבור בפירוט.
 
-Anthropic מציעה כיום [תוספים בתוכניות Pro, Max, Team ו-Enterprise](https://support.claude.com/en/articles/13837440-use-plugins-in-claude), ב-Claude בדפדפן, בלשונית Chat של Claude Desktop וב-Cowork. אם בחשבון שלכם אין תוספים, עדיין תוכלו להשתמש בבקשות הלימוד שבהמשך ולהעתיק כרטיסיות נבחרות ידנית לאפליקציית החזרות שלכם.
+Anthropic מציעה כיום [תוספים בכל התוכניות בתשלום (Pro, Max, Ultra, Team ו-Enterprise)](https://support.claude.com/en/articles/13837440-use-plugins-in-claude), ב-Claude בדפדפן, בלשונית Chat של Claude Desktop וב-Cowork. אם בחשבון שלכם אין תוספים, עדיין תוכלו להשתמש בבקשות הלימוד שבהמשך ולהעתיק כרטיסיות נבחרות ידנית לאפליקציית החזרות שלכם.
 
 ## בדקו את כללי הקורס לפני העלאת הקובץ הראשון
 

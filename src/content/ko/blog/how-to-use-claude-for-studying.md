@@ -46,7 +46,7 @@ keywords:
 
 플러그인은 카드 생성, 복습, 개선을 위한 작업 흐름을 제공합니다. MCP 커넥터는 Claude가 Nibomo 계정의 내용을 읽고 수정할 수 있도록 연결해 줍니다. [Claude 디렉터리의 커넥터](https://claude.ai/directory/nibomo)에서도 찾을 수 있습니다. 자세한 연결 방법은 [Claude 연결 가이드](/blog/how-to-connect-flashcards-to-claude-with-mcp/)(영어)와 [MCP 커넥터 참고 문서](/ko/docs/mcp-connector/)를 참고하세요.
 
-현재 Anthropic은 [Pro, Max, Team, Enterprise 유료 요금제에서 플러그인](https://support.claude.com/en/articles/13837440-use-plugins-in-claude)을 제공합니다. 웹 Claude, Claude Desktop의 Chat 탭, Cowork에서 사용할 수 있습니다. 계정에서 플러그인을 사용할 수 없어도 아래 학습용 프롬프트를 쓰고, 선택한 카드를 평소 쓰는 복습 앱에 수동으로 복사할 수 있습니다.
+현재 Anthropic은 [모든 유료 요금제(Pro, Max, Ultra, Team, Enterprise)에서 플러그인](https://support.claude.com/en/articles/13837440-use-plugins-in-claude)을 제공합니다. 웹 Claude, Claude Desktop의 Chat 탭, Cowork에서 사용할 수 있습니다. 계정에서 플러그인을 사용할 수 없어도 아래 학습용 프롬프트를 쓰고, 선택한 카드를 평소 쓰는 복습 앱에 수동으로 복사할 수 있습니다.
 
 ## 자료를 올리기 전에 수업 규정을 확인하세요
 

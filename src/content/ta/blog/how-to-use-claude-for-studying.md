@@ -46,7 +46,7 @@ Plugin உடன் வரும் Nibomo connector-ஐ இணைக்கவ�
 
 அட்டைகளை உருவாக்குதல், மீள்பயிற்சி செய்தல், மேம்படுத்துதல் ஆகியவற்றுக்கான வழிமுறைகளை plugin வழங்குகிறது. அதன் MCP connector, உங்கள் Nibomo கணக்கைப் படிக்கவும் புதுப்பிக்கவும் Claude-ஐ அனுமதிக்கும் இணைப்பு. [Claude-இன் பட்டியலிலும் connector-ஐக் காணலாம்](https://claude.ai/directory/nibomo). எங்கள் [Claude இணைப்பு வழிகாட்டியும்](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (ஆங்கிலத்தில்) [MCP connector ஆவணமும்](/ta/docs/mcp-connector/) இந்த இணைப்பை மேலும் விரிவாக விளக்குகின்றன.
 
-Anthropic தற்போது [Pro, Max, Team, Enterprise திட்டங்களில் plugins வழங்குகிறது](https://support.claude.com/en/articles/13837440-use-plugins-in-claude). Claude இணையப் பதிப்பு, Claude Desktop-இன் Chat பகுதி, Cowork ஆகியவற்றில் இவற்றைப் பயன்படுத்தலாம். உங்கள் கணக்கில் plugins இல்லாவிட்டாலும், கீழே உள்ள கற்பித்தல் வழிமுறைகளைப் பயன்படுத்தி, தேர்ந்தெடுத்த அட்டைகளை உங்கள் மீள்பயிற்சி செயலியில் கையால் நகலெடுக்கலாம்.
+Anthropic தற்போது [அனைத்து கட்டணத் திட்டங்களிலும் (Pro, Max, Ultra, Team, Enterprise) plugins வழங்குகிறது](https://support.claude.com/en/articles/13837440-use-plugins-in-claude). Claude இணையப் பதிப்பு, Claude Desktop-இன் Chat பகுதி, Cowork ஆகியவற்றில் இவற்றைப் பயன்படுத்தலாம். உங்கள் கணக்கில் plugins இல்லாவிட்டாலும், கீழே உள்ள கற்பித்தல் வழிமுறைகளைப் பயன்படுத்தி, தேர்ந்தெடுத்த அட்டைகளை உங்கள் மீள்பயிற்சி செயலியில் கையால் நகலெடுக்கலாம்.
 
 ## முதல் பதிவேற்றத்துக்கு முன் பாடத்தின் விதிகளைப் பாருங்கள்
 

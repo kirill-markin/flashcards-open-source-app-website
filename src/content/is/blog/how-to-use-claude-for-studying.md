@@ -46,7 +46,7 @@ Tengdu Nibomo-tengið sem fylgir viðbótinni. Fylgdu innskráningarferlinu, skr
 
 Viðbótin býður vinnuaðferðir til að búa til kort, rifja þau upp og bæta þau. MCP-tengið hennar gerir Claude kleift að lesa og uppfæra Nibomo-aðganginn þinn. Þú finnur líka [tengið í tengjaskrá Claude](https://claude.ai/directory/nibomo). [Leiðbeiningar okkar um tengingu Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (á ensku) og [skjölun MCP-tengisins](/is/docs/mcp-connector/) útskýra tenginguna nánar.
 
-Anthropic býður nú [viðbætur með Pro-, Max-, Team- og Enterprise-áskriftum](https://support.claude.com/en/articles/13837440-use-plugins-in-claude), í Claude á vefnum, Chat-flipa Claude Desktop og Cowork. Ef viðbætur eru ekki í boði fyrir aðganginn þinn geturðu samt notað kennslufyrirmælin hér að neðan og afritað valin kort handvirkt í upprifjunarforritið þitt.
+Anthropic býður nú [viðbætur með öllum greiddum áskriftum (Pro, Max, Ultra, Team og Enterprise)](https://support.claude.com/en/articles/13837440-use-plugins-in-claude), í Claude á vefnum, Chat-flipa Claude Desktop og Cowork. Ef viðbætur eru ekki í boði fyrir aðganginn þinn geturðu samt notað kennslufyrirmælin hér að neðan og afritað valin kort handvirkt í upprifjunarforritið þitt.
 
 ## Athugaðu reglur námskeiðsins áður en þú hleður upp fyrstu skránni
 

@@ -46,7 +46,7 @@ keywords:
 
 ปลั๊กอินมีขั้นตอนสำหรับสร้าง ทบทวน และปรับปรุงการ์ด ส่วนตัวเชื่อมต่อ MCP ทำหน้าที่ให้ Claude อ่านและอัปเดตบัญชี Nibomo ของคุณได้ คุณยังค้นหา[ตัวเชื่อมต่อในไดเรกทอรีของ Claude](https://claude.ai/directory/nibomo) ได้เช่นกัน [คู่มือเชื่อมต่อ Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (ภาษาอังกฤษ) และ[เอกสารตัวเชื่อมต่อ MCP](/th/docs/mcp-connector/) อธิบายการเชื่อมต่อนี้เพิ่มเติม
 
-ปัจจุบัน Anthropic [เปิดให้ใช้ปลั๊กอินในแผน Pro, Max, Team และ Enterprise](https://support.claude.com/en/articles/13837440-use-plugins-in-claude) ผ่าน Claude บนเว็บ แท็บ Chat ของ Claude Desktop และ Cowork หากบัญชีของคุณใช้ปลั๊กอินไม่ได้ คุณยังใช้พรอมป์ต์ติวด้านล่างและคัดลอกการ์ดที่เลือกไปยังแอปทบทวนด้วยตัวเองได้
+ปัจจุบัน Anthropic [เปิดให้ใช้ปลั๊กอินในทุกแผนแบบชำระเงิน (Pro, Max, Ultra, Team และ Enterprise)](https://support.claude.com/en/articles/13837440-use-plugins-in-claude) ผ่าน Claude บนเว็บ แท็บ Chat ของ Claude Desktop และ Cowork หากบัญชีของคุณใช้ปลั๊กอินไม่ได้ คุณยังใช้พรอมป์ต์ติวด้านล่างและคัดลอกการ์ดที่เลือกไปยังแอปทบทวนด้วยตัวเองได้
 
 ## ตรวจสอบกติกาของวิชาก่อนอัปโหลดครั้งแรก
 

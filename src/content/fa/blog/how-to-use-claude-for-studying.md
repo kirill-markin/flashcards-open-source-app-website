@@ -46,7 +46,7 @@ keywords:
 
 افزونه، روش‌های ساخت، مرور و بهبود کارت را فراهم می‌کند. اتصال‌دهنده MCP آن راه ارتباطی است که به Claude امکان می‌دهد حساب Nibomo شما را بخواند و به‌روزرسانی کند. [اتصال‌دهنده در فهرست Claude](https://claude.ai/directory/nibomo) هم موجود است. [راهنمای اتصال Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (به انگلیسی) و [مرجع اتصال‌دهنده MCP](/fa/docs/mcp-connector/) این ارتباط را با جزئیات بیشتری توضیح می‌دهند.
 
-Anthropic در حال حاضر [افزونه‌ها را در طرح‌های Pro، Max، Team و Enterprise ارائه می‌کند](https://support.claude.com/en/articles/13837440-use-plugins-in-claude)؛ در نسخه وب Claude، زبانه Chat در Claude Desktop و Cowork. اگر حسابتان به افزونه‌ها دسترسی ندارد، همچنان می‌توانید از درخواست‌های آموزشی زیر استفاده کنید و کارت‌های انتخاب‌شده را دستی در برنامه مرور خود کپی کنید.
+Anthropic در حال حاضر [افزونه‌ها را در همه طرح‌های پولی (Pro، Max، Ultra، Team و Enterprise) ارائه می‌کند](https://support.claude.com/en/articles/13837440-use-plugins-in-claude)؛ در نسخه وب Claude، زبانه Chat در Claude Desktop و Cowork. اگر حسابتان به افزونه‌ها دسترسی ندارد، همچنان می‌توانید از درخواست‌های آموزشی زیر استفاده کنید و کارت‌های انتخاب‌شده را دستی در برنامه مرور خود کپی کنید.
 
 ## قبل از اولین بارگذاری، مقررات درس را بخوانید
 
