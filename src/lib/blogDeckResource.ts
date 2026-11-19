@@ -39,6 +39,7 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   "crossing-over-vs-independent-assortment": { en: "ap-biology-flashcards-complete-course-review" },
   "le-chatelier-principle-practice": { en: "ap-chemistry-flashcards" },
   "sap-idoc-status-codes": { en: "sap-idoc-status-codes" },
+  "albanian-introductions-family-practice": { de: "everyday-albanian-german-speakers" },
   "korean-vocabulary-recall-practice": { en: "korean-everyday-vocabulary" },
   "japanese-small-tsu": { en: "basic-hiragana-romaji" },
   "hiragana-and-katakana-practice": { en: "basic-hiragana-romaji" },

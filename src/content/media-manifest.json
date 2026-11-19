@@ -47,6 +47,21 @@
     "bytes": 2312102
   },
   {
+    "publicPath": "/blog/albanian-introductions-family-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/e17df8ea849b6fa0c76a3f9e3714b3925e0c8bf95c986a7eef4741fd4cc21601.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "e17df8ea849b6fa0c76a3f9e3714b3925e0c8bf95c986a7eef4741fd4cc21601",
+    "bytes": 151736,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/bb7e22ce747aab35f06a89ddbdbe930502ab5c6af60720444790ad1d074dfb66.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "bb7e22ce747aab35f06a89ddbdbe930502ab5c6af60720444790ad1d074dfb66",
+      "bytes": 2371257
+    }
+  },
+  {
     "publicPath": "/blog/algoapp-to-nibomo.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/236e84b8aeeaa66b93f1e057b3c741b077691906e79d5332e98cb14aedf8d98c.webp",
     "width": 1536,
