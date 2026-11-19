@@ -1378,6 +1378,36 @@
     "bytes": 2223260
   },
   {
+    "publicPath": "/blog/conditional-probability-venn-diagrams.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/9f8c909372e8a1dd115c55c9fbb9cd87a379d70aa8327055d3f01a8b797870c5.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "9f8c909372e8a1dd115c55c9fbb9cd87a379d70aa8327055d3f01a8b797870c5",
+    "bytes": 327450,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/26e673c6f5ce50def369e7b2466d186aeeced2308d9f305ffed3eb8d75b22995.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "26e673c6f5ce50def369e7b2466d186aeeced2308d9f305ffed3eb8d75b22995",
+      "bytes": 3178983
+    }
+  },
+  {
+    "publicPath": "/blog/conditional-probability-venn-shading.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/b18fe127994f88d1df99a1f6a75ee54aa67cee9cf5ec1cf381993542738c33b4.webp",
+    "width": 1800,
+    "height": 1872,
+    "sha256": "b18fe127994f88d1df99a1f6a75ee54aa67cee9cf5ec1cf381993542738c33b4",
+    "bytes": 71370,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/79cc73c0bee1db573de1692765cb83eaab5589dfed702b30d918aedaaeff139b.png",
+      "width": 1800,
+      "height": 1872,
+      "sha256": "79cc73c0bee1db573de1692765cb83eaab5589dfed702b30d918aedaaeff139b",
+      "bytes": 182173
+    }
+  },
+  {
     "publicPath": "/blog/confidence-interval-vs-prediction-interval.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/fb42932a0af074000cac8289c335bd29495447c7e04ed2d3e6636142d8969cf3.png",
     "width": 1672,
