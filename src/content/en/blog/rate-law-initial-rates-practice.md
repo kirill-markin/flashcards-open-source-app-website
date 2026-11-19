@@ -199,6 +199,8 @@ After checking your work, name the decision that failed: choosing a comparison p
 
 For example: “Both concentrations double and the rate quadruples. What have I established?” The answer is **m + n = 2 under the power-law assumption**. Ask separately which additional trial would distinguish the individual powers.
 
+Try the [initial rates flashcards](/catalog/packages/initial-rates-rate-law-flashcards/) for short problems on choosing trial pairs, finding reaction orders, and checking k across rows.
+
 The [AP Chemistry Flashcards in English](/catalog/packages/ap-chemistry-flashcards/) contain **450 course-wide cards**, including initial rates and rate-constant units. Use those concepts for regular recall with spaced review to support long-term retention, alongside full calculations. The original tables and complete solutions here remain available on this page.
 
 *Production note: AI tools researched, drafted, and edited this article, and used GoogleSQL to check the invented exercise arithmetic. These are model exercises; no laboratory or classroom validation was performed. The illustration is AI-generated.*
