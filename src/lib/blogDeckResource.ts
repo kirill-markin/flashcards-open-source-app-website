@@ -41,6 +41,7 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   "sap-idoc-status-codes": { en: "sap-idoc-status-codes" },
   "albanian-introductions-family-practice": { de: "everyday-albanian-german-speakers" },
   "korean-vocabulary-recall-practice": { en: "korean-everyday-vocabulary" },
+  "german-nursing-vocabulary-korean-practice": { ko: "german-nursing-vocabulary-korean-speakers" },
   "japanese-small-tsu": { en: "basic-hiragana-romaji" },
   "hiragana-and-katakana-practice": { en: "basic-hiragana-romaji" },
   "japanese-masu-dictionary-te-form": { en: "japanese-masu-dictionary-te-form" },
