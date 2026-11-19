@@ -318,6 +318,7 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
     de: "medizinische-fachbegriffe",
     es: "terminologia-medica-prefijos-raices-sufijos",
   },
+  "german-clinical-anatomy-findings-practice": { de: "german-clinical-anatomy-findings-flashcards" },
   "us-constitutional-amendments-flashcards": { en: "us-constitutional-amendments" },
   "us-citizenship-test-flashcards": {
     en: "us-citizenship-test",

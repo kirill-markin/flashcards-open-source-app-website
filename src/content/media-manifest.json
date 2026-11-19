@@ -2338,6 +2338,21 @@
     }
   },
   {
+    "publicPath": "/blog/german-clinical-anatomy-findings-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/1b90ca0eccfb6a00afb0d69cdeb7909a36c77603f49abec29558beec69cd2fa4.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "1b90ca0eccfb6a00afb0d69cdeb7909a36c77603f49abec29558beec69cd2fa4",
+    "bytes": 225720,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/0844365106673ce5d170d5839b1fcc3b3cc06ab022abf5c7488825c377a6e9c7.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "0844365106673ce5d170d5839b1fcc3b3cc06ab022abf5c7488825c377a6e9c7",
+      "bytes": 2663127
+    }
+  },
+  {
     "publicPath": "/blog/german-everyday-expressions.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/cc7a8cf25794cebcaf8b07c5bc2d410637229d5b611f717568b3476db223170c.webp",
     "width": 1672,
