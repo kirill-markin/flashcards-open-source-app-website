@@ -17,6 +17,8 @@ Mit kurzen Sätzen kannst du zwei Dinge üben, die eine einzelne Vokabelüberset
 
 Diese Übungen zu lateinischen Präpositionen und Konjunktionen setzen voraus, dass du einfache Sätze lesen und grundlegende Substantiv- und Verbformen erkennen kannst, darunter einige Konjunktivformen. Die Erklärungen und Übersetzungen sind auf Deutsch. Die zehn Aufgaben mit vollständigen Lösungen lassen sich unabhängig vom ergänzenden Kartenset bearbeiten. Dieses verwendet **deutsche Fragen und Erklärungen mit lateinischen Beispielen**.
 
+Wenn du beim Lesen noch häufig einzelne Wörter nachschlägst, kannst du mit den [Karteikarten zu lateinischen Grundwörtern](/de/catalog/packages/latin-core-nouns-verbs-german-speakers/) Substantive und Verben im Satz üben.
+
 ![Ein Hund schläft unter einem Holzwagen, während sich ein zweiter dem schattigen Platz nähert](https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/ed18d1dfa03483cb044047738cc30a356fdab1c07611680fc3a64809f382d2a3.webp)
 
 ## Trenne die Kasusfrage von der Bedeutungsfrage

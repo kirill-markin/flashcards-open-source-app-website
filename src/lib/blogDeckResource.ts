@@ -46,6 +46,7 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   "japanese-masu-dictionary-te-form": { en: "japanese-masu-dictionary-te-form" },
   "modern-greek-vocabulary-flashcards": { en: "modern-greek-everyday-vocabulary" },
   "latin-prepositions-conjunctions": { de: "latin-prepositions-conjunctions-german-speakers" },
+  "latin-core-nouns-verbs-practice": { de: "latin-core-nouns-verbs-german-speakers" },
   "french-conversational-fillers": { en: "french-conversational-fillers" },
   "persian-vocabulary-flashcards": { en: "persian-everyday-vocabulary" },
   "thai-alphabet-flashcards": { it: "thai-alphabet-italian-speakers" },

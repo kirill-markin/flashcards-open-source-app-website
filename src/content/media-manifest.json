@@ -4118,6 +4118,21 @@
     }
   },
   {
+    "publicPath": "/blog/latin-core-nouns-verbs-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/bffffaf79b817053eeccbd474b7154ec7befc8a9d7541153e6dadb36bd94d48a.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "bffffaf79b817053eeccbd474b7154ec7befc8a9d7541153e6dadb36bd94d48a",
+    "bytes": 285610,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/baf76159438ce3cce8fb9487dc48b0c2c8992c632eb9860b03d79b67a92d7b0a.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "baf76159438ce3cce8fb9487dc48b0c2c8992c632eb9860b03d79b67a92d7b0a",
+      "bytes": 2942267
+    }
+  },
+  {
     "publicPath": "/blog/latin-prepositions-conjunctions.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/ed18d1dfa03483cb044047738cc30a356fdab1c07611680fc3a64809f382d2a3.webp",
     "width": 1672,
