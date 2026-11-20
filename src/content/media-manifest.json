@@ -6539,6 +6539,21 @@
     "bytes": 2399953
   },
   {
+    "publicPath": "/blog/update-shared-anki-deck.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/8fd56eda734ad02788b1279d67d8f041c018b80f872b08d99a56a157c987cf19.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "8fd56eda734ad02788b1279d67d8f041c018b80f872b08d99a56a157c987cf19",
+    "bytes": 255092,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/bad0150cfb0269b9774bd7cfef6c7125bd1a18089883420ad7aaedd5d6bce8fb.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "bad0150cfb0269b9774bd7cfef6c7125bd1a18089883420ad7aaedd5d6bce8fb",
+      "bytes": 2841201
+    }
+  },
+  {
     "publicPath": "/blog/us-address-form-practice.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/cb1dd58f1f783dace415775d37084b6746f11176a8d398789fbda9fce7b85d2c.webp",
     "width": 1672,
