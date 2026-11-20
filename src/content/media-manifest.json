@@ -6289,6 +6289,21 @@
     }
   },
   {
+    "publicPath": "/blog/survey-bias-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/8e43b5f28e0ba56af818ddf327591055781379868b32e32f47b01e95b82156e9.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "8e43b5f28e0ba56af818ddf327591055781379868b32e32f47b01e95b82156e9",
+    "bytes": 248886,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/6c12d6ea8a244aa7af66cf00c528917dcfc2af69bb90cd9da2b5ed0bb87f14b0.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "6c12d6ea8a244aa7af66cf00c528917dcfc2af69bb90cd9da2b5ed0bb87f14b0",
+      "bytes": 2733773
+    }
+  },
+  {
     "publicPath": "/blog/swedish-everyday-vocabulary-flashcards.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/f5e8d254ca76e5a45e520f4f3b8602cb17075fde7146b099d33bde6130361c04.webp",
     "width": 1672,
