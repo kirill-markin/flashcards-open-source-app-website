@@ -1308,6 +1308,21 @@
     "bytes": 2304298
   },
   {
+    "publicPath": "/blog/comma-before-because.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/c1ad172f0ef88b5c0925c69534c22ffd5371eb349d356a4c50ad7b04ad3bf563.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "c1ad172f0ef88b5c0925c69534c22ffd5371eb349d356a4c50ad7b04ad3bf563",
+    "bytes": 187344,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/a68ebb79df1076cc7eb0e846d8882656aec0fca99d4016b5fa2eafabb5eaf8ba.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "a68ebb79df1076cc7eb0e846d8882656aec0fca99d4016b5fa2eafabb5eaf8ba",
+      "bytes": 2502164
+    }
+  },
+  {
     "publicPath": "/blog/comma-splice-vs-fused-sentence.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/8e792ec9d93a974690d09dba3f5b038c5c61b6f5ead2e2a530e12913ca4abc38.png",
     "width": 1672,
