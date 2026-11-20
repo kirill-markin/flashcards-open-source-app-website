@@ -5379,6 +5379,21 @@
     }
   },
   {
+    "publicPath": "/blog/qsp-vs-ksp-precipitation-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/2c2d1a97362acb84eca86b9d0ef3e1a29b3afc8825306ed30274f691b2261b4e.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "2c2d1a97362acb84eca86b9d0ef3e1a29b3afc8825306ed30274f691b2261b4e",
+    "bytes": 219158,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/87df5d0f5f06897f0bb6161481f35930ebe303920370128321035e83be4a0cf6.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "87df5d0f5f06897f0bb6161481f35930ebe303920370128321035e83be4a0cf6",
+      "bytes": 2626136
+    }
+  },
+  {
     "publicPath": "/blog/quantum-numbers-practice.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/dce00f3e222aebe61c65e483080787bfbe1a2171e0e5b3d499bf706a43ba06c1.webp",
     "width": 1672,
