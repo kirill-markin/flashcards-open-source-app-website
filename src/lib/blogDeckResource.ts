@@ -315,6 +315,7 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   "common-network-ports": { en: "common-network-port-numbers-flashcards" },
   "ipv4-subnetting-practice": { en: "ipv4-subnetting-practice-flashcards" },
   "past-simple-vs-past-participle": { en: "past-simple-vs-past-participle-flashcards" },
+  "comma-before-because": { en: "comma-splice-fused-sentence-flashcards" },
   "comma-splice-vs-fused-sentence": { en: "comma-splice-fused-sentence-flashcards" },
   "medical-terminology-flashcards": {
     en: "medical-terminology-word-parts",
