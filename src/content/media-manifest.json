@@ -4536,6 +4536,21 @@
     }
   },
   {
+    "publicPath": "/blog/mochi-archive-cards.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/8160a1b6d06cfda5fb7ba2814bbdb93e11377110757644938a7ace29a6ac6116.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "8160a1b6d06cfda5fb7ba2814bbdb93e11377110757644938a7ace29a6ac6116",
+    "bytes": 163786,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/5f418e7a6acce563e0bb9b34a6ed3048f1628eace0ea4bb33029eb450a2d736d.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "5f418e7a6acce563e0bb9b34a6ed3048f1628eace0ea4bb33029eb450a2d736d",
+      "bytes": 2377307
+    }
+  },
+  {
     "publicPath": "/blog/mochi-audio-flashcards.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/bc938b896520f7be5503c2a952e28bfddd3f271890efbea84a12f293620ae734.png",
     "width": 1672,
