@@ -31,6 +31,8 @@ Brackets give an ion's concentration in mol/L, or M. The coefficient of X⁻ is 
 
 When precipitation is favored, forming solid lowers the dissolved ion concentrations. Calculating how much solid forms takes an equilibrium calculation, and how quickly crystals appear depends on kinetics. If your problem starts with a solid and asks how much dissolves at equilibrium, see the [Ksp and molar solubility worksheet](/blog/ksp-molar-solubility-practice/).
 
+The [Ksp and molar solubility flashcards](/catalog/packages/ksp-molar-solubility-flashcards/) cover conversions in both directions and how to set up the equilibrium expression when a common ion is already in solution.
+
 Use **Ksp = 1.8 × 10⁻⁸** for MX₂ throughout. In these exercises, volumes add, temperature stays fixed, and other reactions are negligible. A concentration labeled with an ion gives the free concentration of that ion in the stock. Use numerical molarities in the Qsp expression for this classroom model.
 
 ## Will MX₂ precipitate in this mixture?
