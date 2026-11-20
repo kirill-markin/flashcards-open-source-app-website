@@ -3947,6 +3947,36 @@
     }
   },
   {
+    "publicPath": "/blog/integrated-rate-law-graphs-cover.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/43bb6a62afd36627ca288486ab9e0e2ea589e1cd91f269bd838db9423253458d.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "43bb6a62afd36627ca288486ab9e0e2ea589e1cd91f269bd838db9423253458d",
+    "bytes": 178690,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/abbd277edacdd50b85447167c8f5e7387be752ad54903bc9643f3b813ab34e48.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "abbd277edacdd50b85447167c8f5e7387be752ad54903bc9643f3b813ab34e48",
+      "bytes": 2468118
+    }
+  },
+  {
+    "publicPath": "/blog/integrated-rate-law-graphs-plot.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/dd06b2a6eeef9a83dfdb30d3f3754c44abf99c4cfc373ef3f2bc06d2ebdd8f12.webp",
+    "width": 1584,
+    "height": 1656,
+    "sha256": "dd06b2a6eeef9a83dfdb30d3f3754c44abf99c4cfc373ef3f2bc06d2ebdd8f12",
+    "bytes": 50598,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/f19e6adb22950b6c50fd5268311036ff30937761ce148ec2f8bb4f43ef843a45.png",
+      "width": 1584,
+      "height": 1656,
+      "sha256": "f19e6adb22950b6c50fd5268311036ff30937761ce148ec2f8bb4f43ef843a45",
+      "bytes": 112048
+    }
+  },
+  {
     "publicPath": "/blog/interval-inversion.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/1b370a0dbed434b36a298261d082cc0470f029e749088ec5b44d55ca769516e5.png",
     "width": 1672,
