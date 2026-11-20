@@ -158,6 +158,8 @@ Keep solving full problems on paper. If one setup error repeats, put that specif
 | Why does s*(2s)² become 4s³? | Squaring 2s squares both factors: (2s)² = 4s². |
 | When dropping 2s from c + 2s, where c is the initial common-ion concentration, what must I check? | Calculate 2s/c using the proposed answer, compare with the allowed tolerance, then substitute into the full equation. |
 
+Use the [Ksp and molar solubility flashcards](/catalog/packages/ksp-molar-solubility-flashcards/) to practice finding molar solubility from Ksp, calculating Ksp from molar solubility, and checking approximations in common-ion problems.
+
 The [better-flashcards guide](/blog/how-to-make-better-flashcards/) covers keeping each card focused. For other equation-selection mistakes, see [flashcards for advanced chemistry](/blog/how-to-use-flashcards-for-advanced-chemistry/). After reviewing a repair card, redo the missed problem from a blank page, including its table and approximation check.
 
 *This lesson was written and edited with substantial AI assistance. Its fictional exercises illustrate calculations within the stated model; they are not laboratory results or evidence of learning gains.*
