@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-21"
+retirementReason: "Below the per-URL search and engagement thresholds after 90 days, with no material use found"
+retirementEvidence: "docs/content-retirement/2026-11-21.json#/records/src~1content~1zh~1blog~1how-to-use-ai-for-homework-without-cheating.md"
 title: "2026 年如何用 AI 辅助做作业而不作弊：学懂内容、自己完成、把错题留下来"
 description: "2026 年想用 AI 辅助作业？可以用它来理解题目、检查推理，再把错题留到后面做成闪卡，但别把要提交的思考过程外包给它。"
 image: "/blog/how-to-use-ai-for-homework-without-cheating.png"

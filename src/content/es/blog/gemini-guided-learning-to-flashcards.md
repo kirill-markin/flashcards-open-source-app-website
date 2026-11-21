@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-21"
+retirementReason: "Below the per-URL search and engagement thresholds after 90 days, with no material use found"
+retirementEvidence: "docs/content-retirement/2026-11-21.json#/records/src~1content~1es~1blog~1gemini-guided-learning-to-flashcards.md"
 title: "Cómo convertir Gemini Guided Learning en tarjetas didácticas en 2026: conserva el tutor y repasa los fallos con FSRS"
 description: "¿Usas Gemini Guided Learning en 2026? Este es el flujo práctico: conserva la sesión de tutoría para comprender, convierte tus errores en tarjetas didácticas y repásalas con FSRS para que el material siga contigo la semana siguiente."
 date: "2026-05-18"

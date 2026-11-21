@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-21"
+retirementReason: "Below the per-URL search and engagement thresholds after 90 days, with no material use found"
+retirementEvidence: "docs/content-retirement/2026-11-21.json#/records/src~1content~1zh~1blog~1how-to-use-flashcards-for-the-ielts.md"
 title: "2026 年如何用抽认卡备考 IELTS：更适合词汇、口语、写作和听力的卡片"
 description: "准备在 2026 年考 IELTS？用一套更实用的抽认卡工作流来处理语境词汇、口语 cue card、写作句式、听力释义替换，以及官方练习中的错题，再配合 AI 起草和 FSRS 复习。"
 date: "2026-07-06"

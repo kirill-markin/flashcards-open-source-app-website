@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-21"
+retirementReason: "Below the per-URL search and engagement thresholds after 90 days, with no material use found"
+retirementEvidence: "docs/content-retirement/2026-11-21.json#/records/src~1content~1en~1blog~1gemini-guided-learning-to-flashcards.md"
 title: "How to Turn Gemini Guided Learning Into Flashcards in 2026: Keep the Tutor, Review the Misses With FSRS"
 description: "Using Gemini Guided Learning in 2026? Here is the practical workflow: keep the tutoring session for understanding, turn your misses into flashcards, and review them with FSRS so the material still sticks next week."
 date: "2026-05-18"

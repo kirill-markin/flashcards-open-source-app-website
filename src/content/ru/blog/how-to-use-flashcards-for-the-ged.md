@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-21"
+retirementReason: "Below the per-URL search and engagement thresholds after 90 days, with no material use found"
+retirementEvidence: "docs/content-retirement/2026-11-21.json#/records/src~1content~1ru~1blog~1how-to-use-flashcards-for-the-ged.md"
 title: "Как использовать флешкарточки для GED в 2026 году: математика, RLA, естественные науки и обществознание, которые действительно запоминаются"
 description: "Нужны флешкарточки для GED в 2026 году? Вот практичная система для математики, RLA, естественных наук и обществознания: ошибки из практики, доработка через ИИ и повторение по FSRS."
 image: "/blog/how-to-use-flashcards-for-the-ged.png"

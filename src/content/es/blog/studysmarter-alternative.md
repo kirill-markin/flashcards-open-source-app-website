@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-21"
+retirementReason: "Below the per-URL search and engagement thresholds after 90 days, with no material use found"
+retirementEvidence: "docs/content-retirement/2026-11-21.json#/records/src~1content~1es~1blog~1studysmarter-alternative.md"
 title: "Alternativa a StudySmarter en 2026: StudySmarter vs Nibomo"
 description: "¿Buscas una alternativa a StudySmarter? Compara notas, cuestionarios, FSRS, estudio sin conexión, apps móviles, IA, autoalojamiento y control de los datos."
 date: "2026-08-03"

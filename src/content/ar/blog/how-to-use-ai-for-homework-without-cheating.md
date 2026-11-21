@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-21"
+retirementReason: "Below the per-URL search and engagement thresholds after 90 days, with no material use found"
+retirementEvidence: "docs/content-retirement/2026-11-21.json#/records/src~1content~1ar~1blog~1how-to-use-ai-for-homework-without-cheating.md"
 title: "كيفية استخدام الذكاء الاصطناعي في الواجبات المنزلية من دون غش في 2026: افهم المادة، وقدّم عملك بنفسك، واحتفِظ بالأخطاء"
 description: "هل تستخدم الذكاء الاصطناعي في الواجبات المنزلية في 2026؟ استخدمه لفهم المطلوب، واختبار منطقك، ثم احتفِظ بالأخطاء لتراجعها لاحقًا كبطاقات تعليمية، من دون أن توكل إليه العمل الذي ستسلّمه."
 image: "/blog/how-to-use-ai-for-homework-without-cheating.png"

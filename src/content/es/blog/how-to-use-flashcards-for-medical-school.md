@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-21"
+retirementReason: "Below the per-URL search and engagement thresholds after 90 days, with no material use found"
+retirementEvidence: "docs/content-retirement/2026-11-21.json#/records/src~1content~1es~1blog~1how-to-use-flashcards-for-medical-school.md"
 title: "Cómo usar flashcards para la carrera de medicina en 2026: anatomía, farmacología, patología y repetición espaciada que de verdad aguanta"
 description: "¿Quieres un sistema práctico de flashcards para medicina en 2026? Aquí tienes cómo usar flashcards en la carrera de medicina con anatomía, farmacología, patología, diapositivas de clase, bancos de preguntas y FSRS sin convertir el mazo en un segundo plan de estudios."
 date: "2026-04-15"

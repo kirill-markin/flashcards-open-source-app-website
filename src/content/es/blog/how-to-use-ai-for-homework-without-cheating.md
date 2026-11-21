@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-21"
+retirementReason: "Below the per-URL search and engagement thresholds after 90 days, with no material use found"
+retirementEvidence: "docs/content-retirement/2026-11-21.json#/records/src~1content~1es~1blog~1how-to-use-ai-for-homework-without-cheating.md"
 title: "Cómo usar la IA para hacer tareas sin hacer trampa en 2026: aprende el material, entrega tu trabajo y guarda los errores"
 description: "¿Vas a usar IA para hacer tareas en 2026? Úsala para entender el ejercicio, comprobar tu razonamiento y convertir después tus errores en flashcards, sin delegar el trabajo que entregas."
 image: "/blog/how-to-use-ai-for-homework-without-cheating.png"

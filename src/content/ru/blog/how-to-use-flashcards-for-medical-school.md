@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-21"
+retirementReason: "Below the per-URL search and engagement thresholds after 90 days, with no material use found"
+retirementEvidence: "docs/content-retirement/2026-11-21.json#/records/src~1content~1ru~1blog~1how-to-use-flashcards-for-medical-school.md"
 title: "Как использовать флешкарточки в медицинском вузе в 2026 году: анатомия, фармакология, патология и интервальное повторение, которое действительно работает вдолгую"
 description: "Нужен практичный подход к флешкарточкам для медвуза в 2026 году? Вот как использовать карточки в медицинском вузе для анатомии, фармакологии, патологии, лекционных слайдов, банков вопросов и FSRS, не превращая колоду во вторую учебную программу."
 date: "2026-04-15"

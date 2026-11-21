@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-21"
+retirementReason: "Below the per-URL search and engagement thresholds after 90 days, with no material use found"
+retirementEvidence: "docs/content-retirement/2026-11-21.json#/records/src~1content~1es~1blog~1is-remnote-open-source.md"
 title: "¿RemNote es de código abierto en 2026? Código, datos locales y autoalojamiento"
 description: "El núcleo de RemNote no es de código abierto. Descubre qué abarca su código público en GitHub, qué control ofrecen las bases de conocimientos locales y las exportaciones, y qué no puedes autoalojar."
 date: "2026-08-21"

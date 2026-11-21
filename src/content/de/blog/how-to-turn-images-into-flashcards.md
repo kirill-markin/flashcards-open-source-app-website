@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-21"
+retirementReason: "Below the per-URL search and engagement thresholds after 90 days, with no material use found"
+retirementEvidence: "docs/content-retirement/2026-11-21.json#/records/src~1content~1de~1blog~1how-to-turn-images-into-flashcards.md"
 title: "Wie du 2026 Bilder in Flashcards verwandelst: Screenshots, Fotos und OCR ohne alles neu abzutippen"
 description: "Du willst Bilder in Flashcards verwandeln, ohne alles von Hand neu abzutippen? Hier ist ein praktischer Workflow für 2026: Screenshots, Lernfotos und OCR-Bereinigung zu sauberen Karten machen und das finale Set mit FSRS wiederholen."
 date: "2026-05-25"

@@ -240,7 +240,7 @@ keywords:
 
 より広く製品比較もしたいなら、近い記事はこちらです。
 
-- [2026年の Quizlet Alternative: FSRS、オフライン学習、完全なデータ所有を備えたオープンソースのフラッシュカードアプリ](https://nibomo.com/blog/quizlet-alternative/)
+- [無料で使える Quizlet の代替アプリ5選](/ja/blog/free-quizlet-alternative/)
 - [2026年版 オフラインで使いやすいフラッシュカードアプリ: FSRS対応で、あとから同期できる学習環境](https://nibomo.com/blog/best-offline-flashcards-app/)
 
 ## では 2026 年、語学学習にフラッシュカードをどう使うべきか

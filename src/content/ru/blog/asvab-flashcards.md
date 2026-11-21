@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-21"
+retirementReason: "Below the per-URL search and engagement thresholds after 90 days, with no material use found"
+retirementEvidence: "docs/content-retirement/2026-11-21.json#/records/src~1content~1ru~1blog~1asvab-flashcards.md"
 title: "Карточки ASVAB в 2026 году: лексика, математика и технические предметы"
 description: "Составьте карточки ASVAB для лексики и математики AFQT, добавьте технические модули для нужной военной специальности, а полные задания решайте отдельно и на время."
 date: "2026-08-11"

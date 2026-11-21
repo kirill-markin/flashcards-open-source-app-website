@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-21"
+retirementReason: "Below the per-URL search and engagement thresholds after 90 days, with no material use found"
+retirementEvidence: "docs/content-retirement/2026-11-21.json#/records/src~1content~1ja~1blog~1turn-notes-into-flashcards.md"
 title: "2026年版 ノートをフラッシュカードに変える方法: 手作業のコピペではなく、AIの下書きとFSRSを使う"
 description: "ノートをフラッシュカードに変えるたびに手作業のコピペで何時間も消耗したくない人向けの、2026年時点で実用的な方法です。テキスト中心のノートからAIで問答形式のカード案を作り、その後はFSRSの間隔反復で学習します。"
 date: "2026-03-15"

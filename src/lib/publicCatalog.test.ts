@@ -833,7 +833,7 @@ test("blog deck association leaves unmapped languages and articles unchanged and
   );
   for (const pagePath of [
     "blog/how-to-make-better-flashcards",
-    "es/blog/ccsp-flashcards",
+    "es/blog/asvab-flashcards",
   ]) {
     const document = renderMarkdownDocument(pagePath, {
       globalActivitySnapshot: emptyActivitySnapshot,

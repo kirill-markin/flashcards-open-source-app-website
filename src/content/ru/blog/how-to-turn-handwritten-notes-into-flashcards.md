@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-21"
+retirementReason: "Below the per-URL search and engagement thresholds after 90 days, with no material use found"
+retirementEvidence: "docs/content-retirement/2026-11-21.json#/records/src~1content~1ru~1blog~1how-to-turn-handwritten-notes-into-flashcards.md"
 title: "Как превратить рукописные заметки в карточки в 2026 году: фото, OCR и черновики с ИИ без полного переписывания"
 description: "Хотите превратить рукописные заметки в карточки в 2026 году? Вот практичная схема: загрузите фото заметок, дайте ИИ очистить текст и набросать карточки, а затем учите итоговый набор с FSRS."
 date: "2026-03-27"

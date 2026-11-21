@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-21"
+retirementReason: "Below the per-URL search and engagement thresholds after 90 days, with no material use found"
+retirementEvidence: "docs/content-retirement/2026-11-21.json#/records/src~1content~1ru~1blog~1how-to-turn-google-docs-into-flashcards.md"
 title: "Как превратить Google Docs в карточки в 2026 году: из общего документа в чистые карточки с FSRS"
 description: "Как превратить Google Docs в рабочие карточки в 2026 году: чистить по одному разделу, использовать комментарии и Suggestion mode с умом, отсеивать слабые AI-карточки и повторять сильные через FSRS."
 image: "/blog/how-to-turn-google-docs-into-flashcards.png"

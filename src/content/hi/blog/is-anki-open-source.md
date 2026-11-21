@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-21"
+retirementReason: "Below the per-URL search and engagement thresholds after 90 days, with no material use found"
+retirementEvidence: "docs/content-retirement/2026-11-21.json#/records/src~1content~1hi~1blog~1is-anki-open-source.md"
 title: "क्या Anki 2026 में ओपन सोर्स है? डेस्कटॉप, AnkiMobile, AnkiDroid और AnkiWeb"
 description: "डेस्कटॉप Anki और AnkiDroid ओपन सोर्स हैं; AnkiMobile और AnkiWeb नहीं। इनके लाइसेंस, कीमत, ऑफ़लाइन इस्तेमाल और स्वयं होस्ट किए जाने वाले सिंक सर्वर की तुलना करें।"
 date: "2026-08-20"

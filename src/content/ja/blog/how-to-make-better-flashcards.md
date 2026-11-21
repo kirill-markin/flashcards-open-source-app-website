@@ -172,7 +172,6 @@ AI は事務的な作業を減らすのがとても得意です。
 AI を前段で使うなら、こちらもよく合います。
 
 - [2026年にChatGPTでフラッシュカードを作る方法: プロンプトを整え、カードを磨き、FSRSで復習を回す](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [2026年版 ノートをフラッシュカードに変える方法: 手作業のコピペではなく、AIの下書きとFSRSを使う](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 ## カードは見覚えではなく、記憶を試すべき
 

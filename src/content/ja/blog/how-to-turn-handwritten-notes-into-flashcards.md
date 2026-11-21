@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-21"
+retirementReason: "Below the per-URL search and engagement thresholds after 90 days, with no material use found"
+retirementEvidence: "docs/content-retirement/2026-11-21.json#/records/src~1content~1ja~1blog~1how-to-turn-handwritten-notes-into-flashcards.md"
 title: "2026年版: 手書きノートをフラッシュカードに変える方法 書き直さずに写真・OCR・AI の下書きを使う"
 description: "2026年に手書きノートをフラッシュカードにしたい人向けの実践的な手順です。ノート写真を取り込み、AI に文字を整えてカード案を作らせ、最後は FSRS で復習できる形に仕上げます。"
 date: "2026-03-27"

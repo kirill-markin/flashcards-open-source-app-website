@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-21"
+retirementReason: "Below the per-URL search and engagement thresholds after 90 days, with no material use found"
+retirementEvidence: "docs/content-retirement/2026-11-21.json#/records/src~1content~1de~1blog~1toefl-flashcards.md"
 title: "TOEFL-Lernkarten 2026: Wortschatz, neue iBT-Aufgabentypen und Fehler aus Übungstests"
 description: "Erstelle TOEFL-Lernkarten für den neuen iBT 2026: Wiederhole Wortschatz, Satzmuster, Aufgabentypen und Fehler aus offiziellen Übungen mit FSRS – statt mit veralteten Decks."
 date: "2026-07-16"

@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-21"
+retirementReason: "Below the per-URL search and engagement thresholds after 90 days, with no material use found"
+retirementEvidence: "docs/content-retirement/2026-11-21.json#/records/src~1content~1ar~1blog~1mochi-alternative.md"
 title: "مراجعة بطاقات Mochi (2026): الخطة المجانية، والعمل دون اتصال، ومقارنتها بـ Anki"
 description: "مراجعة موثّقة بالمصادر لبطاقات Mochi، تشمل الخطة المجانية، والتطبيقات التي تعمل دون اتصال، وملاحظات Markdown، وFSRS، والمزامنة، واستيراد Anki، والتصدير، وحدود الاستضافة الذاتية."
 date: "2026-03-18"
