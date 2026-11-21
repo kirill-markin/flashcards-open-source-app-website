@@ -44,7 +44,7 @@ Level I 更直接。Level II 更依赖解释，更依赖案例，也更不容忍
 
 ## 把 2026 年科目权重当成复习预算
 
-官方的 [2026 Level II exam page](https://www.cfainstitute.org/programs/cfa-program/candidate-resources/level-ii-exam) 给出了当前科目权重。我会把这些权重当成复习预算，而不是命令你把每篇 reading 都做成卡。
+下表中的 2026 年科目权重来自 [CFA Institute 的 Level II 考试页面](https://www.cfainstitute.org/programs/cfa-program/candidate-resources/level-ii-exam)。我会把这些权重当成复习预算，而不是命令你把每篇 reading 都做成卡。
 
 | CFA Level II topic | 官方 2026 权重 | 最适合做成抽认卡的内容 |
 | --- | ---: | --- |
@@ -67,7 +67,7 @@ Level I 更直接。Level II 更依赖解释，更依赖案例，也更不容忍
 
 这是我知道的最好用的 Level II 升级之一。
 
-官方的 [2026 Level II topic outline PDF](https://www.cfainstitute.org/sites/default/files/docs/programs/cfa-program/2026-l2-topics-combined.pdf) 列出了当前 readings 和 learning outcomes。直接拿这套结构来用。不要只把卡片标成 `equity` 或 `fixed-income`，还要加上 LOS 或 reading，以及错误类型。
+在 [CFA Institute 的 Level II 考试页面](https://www.cfainstitute.org/programs/cfa-program/candidate-resources/level-ii-exam)打开与你的考试年份对应的科目大纲，查看该年的 readings 和 learning outcomes。直接拿这套结构来用。不要只把卡片标成 `equity` 或 `fixed-income`，还要加上 LOS 或 reading，以及错误类型。
 
 | 标签层 | 示例 | 为什么有用 |
 | --- | --- | --- |
@@ -137,7 +137,7 @@ Level II 的 item set 很容易诱使人写出巨大无比的卡片。
 
 ## 主要素材要来自 CFA Institute 练习题和模考
 
-官方的 [CFA candidate resources page](https://www.cfainstitute.org/programs/cfa-program/candidate-resources) 写得很清楚，2026 年 2 月考试的 Learning Ecosystem 包含 curriculum、practice questions、mock exams、study planner、flashcards，以及 Practical Skills Modules。这些材料已经够用了。
+登录 Learning Ecosystem，使用与你已报名的 Level II 考期对应的课程材料、练习题和模考。平台还提供学习计划工具、抽认卡和 Practical Skills Modules。如何访问该平台，请参阅 [CFA Institute 的考试报名与预约指南](https://www.cfainstitute.org/programs/cfa-program/candidate-resources/exam-registration-scheduling-guide)。
 
 它也顺手给了你一个很清楚的建卡规则：你卡组里的大多数卡，应该来自你做过的题，而不是你高亮过的段落。如果你已经在用官方 Learning Ecosystem 里的 flashcards，可以把它们当成辅助材料。你自己的私人卡组，仍然应该围绕那些真正反复让你丢分的 item-set 错题和解释失误来搭。
 

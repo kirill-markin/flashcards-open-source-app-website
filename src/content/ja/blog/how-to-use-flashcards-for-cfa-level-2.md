@@ -42,7 +42,7 @@ Level Iのほうがまだ素直です。Level IIは、より解釈寄りで、�
 
 ## 2026年の配点を復習予算として使う
 
-公式の [2026 Level II exam page](https://www.cfainstitute.org/programs/cfa-program/candidate-resources/level-ii-exam) には最新のトピック配点が載っています。私はこれを、全リーディングをカード化する命令ではなく、復習予算として扱います。
+下の表にある2026年の配点は、[CFA Institute公式のLevel II試験ページ](https://www.cfainstitute.org/programs/cfa-program/candidate-resources/level-ii-exam)をもとにしています。私はこれを、全リーディングをカード化する命令ではなく、復習予算として扱います。
 
 | CFA Level II のトピック | 2026年の公式配点 | フラッシュカードで効きやすい使い方 |
 | --- | ---: | --- |
@@ -65,7 +65,7 @@ Level Iのほうがまだ素直です。Level IIは、より解釈寄りで、�
 
 これはLevel IIでかなり効く改善です。
 
-公式の [2026 Level II topic outline PDF](https://www.cfainstitute.org/sites/default/files/docs/programs/cfa-program/2026-l2-topics-combined.pdf) には、現行の reading と learning outcomes が載っています。この構造をそのまま使います。カードを単に `equity` や `fixed-income` で分類するのではなく、LOSまたは reading、トピック、そしてどんなミスだったかまでタグ付けします。
+[CFA Institute公式のLevel II試験ページ](https://www.cfainstitute.org/programs/cfa-program/candidate-resources/level-ii-exam)で、受験する年の出題範囲（Topic Outlines）を開き、readingとlearning outcomesを確認します。この構造をそのまま使います。カードを単に `equity` や `fixed-income` で分類するのではなく、LOSまたは reading、トピック、そしてどんなミスだったかまでタグ付けします。
 
 | タグ層 | 例 | 役立つ理由 |
 | --- | --- | --- |
@@ -135,7 +135,7 @@ Level IIでは、1つの式から少なくとも3つの記憶タスクが生ま�
 
 ## CFA Instituteの演習問題と模試を主な材料にする
 
-公式の [CFA candidate resources page](https://www.cfainstitute.org/programs/cfa-program/candidate-resources) によると、2026年2月試験向けのLearning Ecosystemには、curriculum、practice questions、mock exams、study planner、flashcards、Practical Skills Modules が含まれています。材料は十分あります。
+Learning Ecosystemにログインし、登録したLevel IIの試験期間に対応するカリキュラム、演習問題、模試を使います。学習プランナー、フラッシュカード、Practical Skills Modulesも利用できます。アクセス方法は、[CFA Instituteの受験登録・日程予約ガイド](https://www.cfainstitute.org/programs/cfa-program/candidate-resources/exam-registration-scheduling-guide)を参照してください。
 
 同時に、デッキ作りのルールもかなり明確です。カードの大半は、ハイライトした段落ではなく、自分が実際に解いた問題から作るべきです。公式のLearning Ecosystem flashcardsを使っているとしても、それは補助にとどめます。個人デッキの中心は、実際に点を落としたitem setと、その解釈ミスであるべきです。
 
