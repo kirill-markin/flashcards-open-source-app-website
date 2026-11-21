@@ -40,7 +40,7 @@ Mpangilio huu una umuhimu. Kuulizana maswali kutoka kwenye chanzo kisicho wazi k
 
 ## Sanidi Nibomo kwenye Claude
 
-Fungua [programu-jalizi ya Nibomo](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory), au nenda kwenye **Customize → Plugins**, tafuta Nibomo, kisha ubofye **Add**. Ikiwa tayari imewekwa, hakikisha imewashwa.
+Fungua [programu-jalizi ya Nibomo](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory), au chagua **Plugins** kwenye upau wa kando, tafuta Nibomo, kisha ubofye **Add**. Ikiwa tayari imewekwa, hakikisha imewashwa.
 
 Unganisha kiunganishi cha Nibomo kilichojumuishwa kwenye programu-jalizi. Fuata hatua za kuingia, ingia kwenye akaunti yako ya Nibomo au fungua akaunti mpya, kisha uidhinishe Claude kuifikia. Chagua nafasi ya kazi unayotaka unapoombwa. Njia hii haihitaji kunakili tokeni ya API wala kuingiza URL ya seva.
 

@@ -40,7 +40,7 @@ keywords:
 
 ## راه‌اندازی Nibomo در Claude
 
-[افزونه Nibomo](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory) را باز کنید یا به **Customize → Plugins** بروید، Nibomo را پیدا کنید و روی **Add** بزنید. اگر از قبل نصب شده است، مطمئن شوید فعال است.
+[افزونه Nibomo](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory) را باز کنید یا در نوار کناری **Plugins** را انتخاب کنید، Nibomo را پیدا کنید و روی **Add** بزنید. اگر از قبل نصب شده است، مطمئن شوید فعال است.
 
 اتصال‌دهنده Nibomo را که همراه افزونه است متصل کنید. مراحل ورود را دنبال کنید، وارد حساب Nibomo خود شوید یا حسابی بسازید و اجازه دسترسی Claude را بدهید. اگر از شما خواسته شد، فضای کاری موردنظرتان را انتخاب کنید. در این روش نیازی به کپی کردن توکن API یا وارد کردن نشانی سرور ندارید.
 

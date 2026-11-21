@@ -40,7 +40,7 @@ keywords:
 
 ## הגדירו את Nibomo ב-Claude
 
-פתחו את [התוסף של Nibomo](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory), או עברו אל **Customize → Plugins**, חפשו את Nibomo ולחצו על **Add**. אם התוסף כבר מותקן, ודאו שהוא מופעל.
+פתחו את [התוסף של Nibomo](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory), או בחרו ב-**Plugins** בסרגל הצד, חפשו את Nibomo ולחצו על **Add**. אם התוסף כבר מותקן, ודאו שהוא מופעל.
 
 חברו את מחבר Nibomo שכלול בתוסף. עקבו אחר תהליך ההתחברות, היכנסו לחשבון Nibomo שלכם או צרו חשבון, ואשרו ל-Claude גישה. בחרו את סביבת העבודה הרצויה כשתתבקשו. במסלול הזה אין צורך להעתיק טוקן API או להזין כתובת שרת.
 

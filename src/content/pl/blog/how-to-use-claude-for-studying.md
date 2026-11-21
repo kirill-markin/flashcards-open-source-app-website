@@ -40,7 +40,7 @@ Kolejność ma znaczenie. Przepytywanie z niejednoznacznego źródła tylko utru
 
 ## Skonfiguruj Nibomo w Claude
 
-Otwórz [wtyczkę Nibomo](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory) albo przejdź do **Customize → Plugins**, znajdź Nibomo i kliknij **Add**. Jeśli wtyczka jest już zainstalowana, upewnij się, że jest włączona.
+Otwórz [wtyczkę Nibomo](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory) albo w panelu bocznym wybierz **Plugins**, znajdź Nibomo i kliknij **Add**. Jeśli wtyczka jest już zainstalowana, upewnij się, że jest włączona.
 
 Połącz Claude z Nibomo za pomocą konektora dołączonego do wtyczki. Przejdź przez logowanie: zaloguj się na konto Nibomo lub je utwórz, a następnie zezwól Claude na dostęp. Gdy pojawi się pytanie, wybierz właściwy obszar roboczy. Ta ścieżka nie wymaga kopiowania tokenu API ani wpisywania adresu serwera.
 

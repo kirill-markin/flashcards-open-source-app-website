@@ -40,7 +40,7 @@ Thứ tự này rất quan trọng. Luyện trả lời dựa trên một nguồ
 
 ## Thiết lập Nibomo trong Claude
 
-Mở [plugin Nibomo](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory), hoặc vào **Customize → Plugins**, tìm Nibomo và nhấn **Add**. Nếu đã cài plugin, hãy kiểm tra rằng plugin đang được bật.
+Mở [plugin Nibomo](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory), hoặc chọn **Plugins** trong thanh bên, tìm Nibomo và nhấn **Add**. Nếu đã cài plugin, hãy kiểm tra rằng plugin đang được bật.
 
 Thiết lập trình kết nối Nibomo đi kèm plugin. Làm theo hướng dẫn để đăng nhập vào tài khoản Nibomo hoặc tạo tài khoản mới, rồi cấp quyền truy cập cho Claude. Chọn đúng không gian làm việc khi được hỏi. Cách này không yêu cầu sao chép token API hay nhập URL máy chủ.
 

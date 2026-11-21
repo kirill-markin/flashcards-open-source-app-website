@@ -40,7 +40,7 @@ Ukulandelana kubalulekile. Ukuphendula imibuzo esekelwe emthonjeni ongacacile kw
 
 ## Setha i-Nibomo ku-Claude
 
-Vula [i-plugin ye-Nibomo](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory), noma uye ku-**Customize → Plugins**, uthole i-Nibomo, bese uchofoza u-**Add**. Uma isivele ifakiwe, qinisekisa ukuthi ivuliwe.
+Vula [i-plugin ye-Nibomo](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory), noma ukhethe u-**Plugins** kubha eseceleni, uthole i-Nibomo, bese uchofoza u-**Add**. Uma isivele ifakiwe, qinisekisa ukuthi ivuliwe.
 
 Xhuma isixhumi se-Nibomo esifakwe ne-plugin. Landela izinyathelo zokungena, ungene ku-akhawunti yakho ye-Nibomo noma udale entsha, bese unikeza i-Claude imvume yokufinyelela. Khetha indawo yokusebenza oyihlosile uma ucelwa. Le ndlela ayidingi ukukopisha ithokheni ye-API noma ukufaka i-URL yeseva.
 

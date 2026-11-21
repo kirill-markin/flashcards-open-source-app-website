@@ -40,7 +40,7 @@ Urutannya penting. Kuis dari sumber yang ambigu hanya akan membuat ambiguitas it
 
 ## Siapkan Nibomo di Claude
 
-Buka [plugin Nibomo](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory), atau masuk ke **Customize → Plugins**, cari Nibomo, lalu klik **Add**. Jika sudah terpasang, pastikan plugin aktif.
+Buka [plugin Nibomo](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory), atau pilih **Plugins** di bilah samping, cari Nibomo, lalu klik **Add**. Jika sudah terpasang, pastikan plugin aktif.
 
 Hubungkan konektor Nibomo yang disertakan dalam plugin. Ikuti petunjuk untuk masuk ke akun Nibomo Anda atau membuat akun baru, lalu izinkan Claude mengaksesnya. Pilih ruang kerja yang dituju saat diminta. Cara ini tidak memerlukan penyalinan token API atau pengisian URL server.
 

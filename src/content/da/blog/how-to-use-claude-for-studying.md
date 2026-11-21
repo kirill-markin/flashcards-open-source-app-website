@@ -40,7 +40,7 @@ Rækkefølgen betyder noget. Spørgsmål baseret på en tvetydig kilde gør blot
 
 ## Sæt Nibomo op i Claude
 
-Åbn [Nibomo-pluginet](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory), eller gå til **Customize → Plugins**, find Nibomo, og klik på **Add**. Hvis det allerede er installeret, skal du sikre dig, at det er aktiveret.
+Åbn [Nibomo-pluginet](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory), eller vælg **Plugins** i sidepanelet, find Nibomo, og klik på **Add**. Hvis det allerede er installeret, skal du sikre dig, at det er aktiveret.
 
 Tilslut den Nibomo-connector, der følger med pluginet. Følg loginforløbet, log ind på din Nibomo-konto eller opret en, og giv Claude adgang. Vælg det ønskede arbejdsområde, når du bliver spurgt. Denne fremgangsmåde kræver hverken, at du kopierer et API-token eller indtaster en serveradresse.
 

@@ -40,7 +40,7 @@ Vrstni red je pomemben. Če se izprašujete iz dvoumnega vira, dvoumnost le tež
 
 ## Nastavite Nibomo v Claudu
 
-Odprite [vtičnik Nibomo](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory) ali pojdite na **Customize → Plugins**, poiščite Nibomo in kliknite **Add**. Če je vtičnik že nameščen, preverite, ali je omogočen.
+Odprite [vtičnik Nibomo](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory) ali v stranski vrstici izberite **Plugins**, poiščite Nibomo in kliknite **Add**. Če je vtičnik že nameščen, preverite, ali je omogočen.
 
 Vzpostavite povezavo prek povezovalnika Nibomo, ki je priložen vtičniku. Sledite postopku prijave, prijavite se v račun Nibomo ali ga ustvarite in odobrite Claudov dostop. Ob pozivu izberite želeni delovni prostor. Pri tem postopku vam ni treba kopirati žetona API ali vnašati naslova strežnika.
 

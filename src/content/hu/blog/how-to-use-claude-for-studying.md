@@ -40,7 +40,7 @@ A sorrend számít. Ha nem egyértelmű forrásból kérdezteted ki magad, csak 
 
 ## A Nibomo beállítása Claude-ban
 
-Nyisd meg a [Nibomo bővítményt](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory), vagy a **Customize → Plugins** menüben keresd meg a Nibomót, és kattints az **Add** gombra. Ha már telepítve van, ellenőrizd, hogy engedélyezve is van-e.
+Nyisd meg a [Nibomo bővítményt](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory), vagy az oldalsáv **Plugins** menüpontjában keresd meg a Nibomót, és kattints az **Add** gombra. Ha már telepítve van, ellenőrizd, hogy engedélyezve is van-e.
 
 Kapcsold össze a bővítményhez tartozó Nibomo-csatlakozót a fiókoddal. Kövesd a bejelentkezés lépéseit: lépj be a Nibomo-fiókodba, vagy hozz létre egyet, majd engedélyezd Claude hozzáférését. Amikor a rendszer kéri, válaszd ki a kívánt munkaterületet. Ehhez a megoldáshoz nem kell API-tokent másolnod vagy szervercímet megadnod.
 

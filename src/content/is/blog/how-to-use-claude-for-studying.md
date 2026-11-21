@@ -40,7 +40,7 @@ Röðin skiptir máli. Spurningaæfingar byggðar á tvíræðri heimild gera tv
 
 ## Settu Nibomo upp í Claude
 
-Opnaðu [Nibomo-viðbótina](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory) eða farðu í **Customize → Plugins**, finndu Nibomo og smelltu á **Add**. Ef hún er þegar uppsett skaltu ganga úr skugga um að hún sé virk.
+Opnaðu [Nibomo-viðbótina](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory) eða veldu **Plugins** í hliðarstikunni, finndu Nibomo og smelltu á **Add**. Ef hún er þegar uppsett skaltu ganga úr skugga um að hún sé virk.
 
 Tengdu Nibomo-tengið sem fylgir viðbótinni. Fylgdu innskráningarferlinu, skráðu þig inn á Nibomo-aðganginn þinn eða stofnaðu nýjan og veittu Claude aðgang. Veldu rétt vinnusvæði þegar þú ert beðinn um það. Þessi leið krefst þess hvorki að þú afritir API-lykil né sláir inn vefslóð netþjóns.
 

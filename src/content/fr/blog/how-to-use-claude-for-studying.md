@@ -40,7 +40,7 @@ L’ordre compte. Se faire interroger à partir d’une source ambiguë rend sim
 
 ## Configurez Nibomo dans Claude
 
-Ouvrez le [plugin Nibomo](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory), ou allez dans **Customize → Plugins**, cherchez Nibomo et cliquez sur **Add**. S’il est déjà installé, vérifiez qu’il est activé.
+Ouvrez le [plugin Nibomo](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory), ou sélectionnez **Plugins** dans la barre latérale, cherchez Nibomo et cliquez sur **Add**. S’il est déjà installé, vérifiez qu’il est activé.
 
 Établissez la connexion à l’aide du connecteur Nibomo inclus dans le plugin. Suivez la procédure, connectez-vous à votre compte Nibomo ou créez-en un, puis autorisez l’accès de Claude. Choisissez l’espace de travail voulu lorsque cela vous est demandé. Cette méthode ne nécessite ni de copier un jeton d’API ni de saisir une URL de serveur.
 

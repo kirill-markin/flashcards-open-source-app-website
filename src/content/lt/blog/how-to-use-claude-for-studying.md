@@ -40,7 +40,7 @@ Eiliškumas svarbus. Klausimai iš dviprasmiško šaltinio tik apsunkina tos dvi
 
 ## Kaip paruošti Nibomo darbui su Claude
 
-Atidarykite [Nibomo įskiepį](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory) arba eikite į **Customize → Plugins**, raskite Nibomo ir spustelėkite **Add**. Jei įskiepis jau įdiegtas, patikrinkite, ar jis įjungtas.
+Atidarykite [Nibomo įskiepį](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory) arba šoninėje juostoje pasirinkite **Plugins**, raskite Nibomo ir spustelėkite **Add**. Jei įskiepis jau įdiegtas, patikrinkite, ar jis įjungtas.
 
 Prijunkite kartu su įskiepiu pateikiamą Nibomo jungtį. Atlikite prisijungimo veiksmus: prisijunkite prie savo Nibomo paskyros arba sukurkite naują ir suteikite Claude prieigą. Kai būsite paprašyti, pasirinkite reikiamą darbo sritį. Šiuo būdu nereikia kopijuoti API rakto ar įvesti serverio URL.
 

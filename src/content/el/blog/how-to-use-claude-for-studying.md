@@ -40,7 +40,7 @@ keywords:
 
 ## Ρύθμισε το Nibomo στο Claude
 
-Άνοιξε το [plugin του Nibomo](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory) ή πήγαινε στο **Customize → Plugins**, βρες το Nibomo και πάτησε **Add**. Αν είναι ήδη εγκατεστημένο, βεβαιώσου ότι είναι ενεργό.
+Άνοιξε το [plugin του Nibomo](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory) ή επίλεξε **Plugins** από την πλαϊνή γραμμή, βρες το Nibomo και πάτησε **Add**. Αν είναι ήδη εγκατεστημένο, βεβαιώσου ότι είναι ενεργό.
 
 Σύνδεσε τον connector του Nibomo που περιλαμβάνεται στο plugin. Ακολούθησε τη διαδικασία σύνδεσης, μπες στον λογαριασμό σου στο Nibomo ή δημιούργησε έναν και εξουσιοδότησε την πρόσβαση του Claude. Όταν σου ζητηθεί, επίλεξε τον χώρο εργασίας που θέλεις να χρησιμοποιήσεις. Αυτή η διαδικασία δεν απαιτεί αντιγραφή API token ή εισαγωγή διεύθυνσης διακομιστή.
 

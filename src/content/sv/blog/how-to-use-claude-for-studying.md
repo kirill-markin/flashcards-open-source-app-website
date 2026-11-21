@@ -40,7 +40,7 @@ Ordningen spelar roll. Ett förhör baserat på en tvetydig källa gör bara tve
 
 ## Kom igång med Nibomo i Claude
 
-Öppna [Nibomos plugin](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory), eller gå till **Customize → Plugins**, sök efter Nibomo och klicka på **Add**. Om det redan är installerat, kontrollera att det är aktiverat.
+Öppna [Nibomos plugin](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory), eller välj **Plugins** i sidofältet, sök efter Nibomo och klicka på **Add**. Om det redan är installerat, kontrollera att det är aktiverat.
 
 Koppla in Nibomo via anslutningen som ingår i pluginet. Följ inloggningsflödet, logga in på ditt Nibomo-konto eller skapa ett och ge Claude åtkomst. Välj den avsedda arbetsytan när du blir tillfrågad. Med den här metoden behöver du inte kopiera någon API-token eller ange någon serveradress.
 

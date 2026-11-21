@@ -40,7 +40,7 @@ Sıralama önemli. Belirsiz bir kaynaktan soru çözmek, belirsizliği fark etme
 
 ## Claude’da Nibomo’yu kurun
 
-[Nibomo eklentisini](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory) açın veya **Customize → Plugins** bölümüne gidip Nibomo’yu bulun ve **Add** düğmesine tıklayın. Zaten kuruluysa etkin olduğundan emin olun.
+[Nibomo eklentisini](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory) açın veya kenar çubuğundaki **Plugins** bölümüne gidip Nibomo’yu bulun ve **Add** düğmesine tıklayın. Zaten kuruluysa etkin olduğundan emin olun.
 
 Eklentiyle birlikte gelen Nibomo bağlayıcısıyla bağlantıyı kurun. Oturum açma adımlarını izleyin, Nibomo hesabınıza giriş yapın veya bir hesap oluşturun ve Claude’a erişim izni verin. Sorulduğunda kullanmak istediğiniz çalışma alanını seçin. Bu yol için API belirteci kopyalamanız veya sunucu adresi girmeniz gerekmez.
 

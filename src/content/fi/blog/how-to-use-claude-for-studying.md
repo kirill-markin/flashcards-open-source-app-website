@@ -40,7 +40,7 @@ Järjestyksellä on väliä. Epäselvään lähteeseen perustuva tenttaus tekee 
 
 ## Ota Nibomo käyttöön Claudessa
 
-Avaa [Nibomo-lisäosa](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory) tai siirry kohtaan **Customize → Plugins**, etsi Nibomo ja napsauta **Add**. Jos lisäosa on jo asennettu, varmista, että se on käytössä.
+Avaa [Nibomo-lisäosa](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory) tai valitse sivupalkista **Plugins**, etsi Nibomo ja napsauta **Add**. Jos lisäosa on jo asennettu, varmista, että se on käytössä.
 
 Yhdistä lisäosan mukana tuleva Nibomo-liitin. Seuraa kirjautumisohjeita, kirjaudu Nibomo-tilillesi tai luo tili ja anna Claudelle käyttöoikeus. Valitse haluamasi työtila, kun sitä kysytään. Tällä tavalla käyttöönotto ei vaadi API-tunnisteen kopioimista tai palvelimen URL-osoitteen syöttämistä.
 
