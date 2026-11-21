@@ -1506,6 +1506,21 @@
     "bytes": 2819735
   },
   {
+    "publicPath": "/blog/confounding-variable-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/2e9e5b9e7762c933ccc8d1e83d08372b9faae19456d1ccdd9ff02b8a6406812a.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "2e9e5b9e7762c933ccc8d1e83d08372b9faae19456d1ccdd9ff02b8a6406812a",
+    "bytes": 181216,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/e71a4c519afa7940a7d5e994399cfee78cfe19d0b3074fca3cdcf8bb484b0e22.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "e71a4c519afa7940a7d5e994399cfee78cfe19d0b3074fca3cdcf8bb484b0e22",
+      "bytes": 2731758
+    }
+  },
+  {
     "publicPath": "/blog/conjugate-acid-base-pairs.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/665c484520c7b8a6765a25157f14bd91dc1b92a97c9bcc6d10058e91aea1a6bf.png",
     "width": 1672,
