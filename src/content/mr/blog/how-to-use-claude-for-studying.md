@@ -40,7 +40,7 @@ keywords:
 
 ## Claude मध्ये Nibomo सेट करा
 
-[Nibomo प्लगइन](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory) उघडा किंवा **Customize → Plugins** मध्ये जाऊन Nibomo शोधा आणि **Add** वर क्लिक करा. आधीच इन्स्टॉल केले असेल, तर ते सुरू आहे याची खात्री करा.
+[Nibomo प्लगइन](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory) उघडा किंवा साइडबारमधील **Plugins** विभागात जाऊन Nibomo शोधा आणि **Add** वर क्लिक करा. आधीच इन्स्टॉल केले असेल, तर ते सुरू आहे याची खात्री करा.
 
 प्लगइनसोबत येणारा Nibomo कनेक्टर जोडा. साइन-इनच्या पायऱ्या पूर्ण करा, तुमच्या Nibomo खात्यात साइन इन करा किंवा नवीन खाते तयार करा आणि Claude ला प्रवेशाची परवानगी द्या. विचारल्यावर योग्य वर्कस्पेस निवडा. या पद्धतीत API टोकन कॉपी करण्याची किंवा सर्व्हरचा URL भरण्याची गरज नाही.
 

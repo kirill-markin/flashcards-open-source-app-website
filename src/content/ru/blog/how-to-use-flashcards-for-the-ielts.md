@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-21"
+retirementReason: "Below the per-URL search and engagement thresholds after 90 days, with no material use found"
+retirementEvidence: "docs/content-retirement/2026-11-21.json#/records/src~1content~1ru~1blog~1how-to-use-flashcards-for-the-ielts.md"
 title: "Как использовать карточки для IELTS в 2026 году: сильные карточки для словаря, Speaking, Writing и Listening"
 description: "Готовитесь к IELTS в 2026 году? Вот практичный подход к карточкам: словарь в контексте, cue cards для Speaking, шаблоны для Writing, перефразирования для Listening и ошибки из официальной практики с AI-черновиками и повторением по FSRS."
 date: "2026-07-06"

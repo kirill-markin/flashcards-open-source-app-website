@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-21"
+retirementReason: "Below the per-URL search and engagement thresholds after 90 days, with no material use found"
+retirementEvidence: "docs/content-retirement/2026-11-21.json#/records/src~1content~1hi~1blog~1mochi-alternative.md"
 title: "Mochi फ्लैशकार्ड समीक्षा (2026): मुफ़्त प्लान, ऑफ़लाइन इस्तेमाल और Anki से तुलना"
 description: "स्रोतों की जाँच पर आधारित Mochi फ्लैशकार्ड समीक्षा: मुफ़्त प्लान, ऑफ़लाइन ऐप्स, Markdown नोट्स, FSRS, सिंक, Anki इम्पोर्ट, एक्सपोर्ट और सेल्फ़-होस्टिंग की सीमाएँ।"
 date: "2026-03-18"

@@ -40,7 +40,7 @@ Na pořadí záleží. Zkoušení z nejednoznačného zdroje jen ztěžuje odhal
 
 ## Nastavte si Nibomo v Claude
 
-Otevřete [plugin Nibomo](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory), nebo přejděte na **Customize → Plugins**, vyhledejte Nibomo a klikněte na **Add**. Pokud už je nainstalovaný, ověřte, že je zapnutý.
+Otevřete [plugin Nibomo](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory), nebo v postranním panelu zvolte **Plugins**, vyhledejte Nibomo a klikněte na **Add**. Pokud už je nainstalovaný, ověřte, že je zapnutý.
 
 Připojte konektor Nibomo, který je součástí pluginu. Podle pokynů se přihlaste ke svému účtu Nibomo nebo si ho vytvořte a povolte Claude přístup. Na vyzvání vyberte zamýšlený pracovní prostor. Při tomto postupu nemusíte kopírovat API token ani zadávat adresu serveru.
 

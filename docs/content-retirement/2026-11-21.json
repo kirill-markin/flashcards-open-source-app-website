@@ -1,0 +1,375 @@
+{
+  "schema_version": 1,
+  "audit_date": "2026-11-21",
+  "action": "retire",
+  "baseline": {
+    "site_sha": "8f0aa0439545cce35bbc68a8746d26abc51415c2",
+    "app_sha": "011893d59ff482ee6d59be3472b5e7a2de875017",
+    "deployed_admin_sha": "d4ebda307f5fdd78abbc63bb9c048bf19b7db003",
+    "deployed_admin_metric_files_identical": true
+  },
+  "policy": {
+    "minimum_age_days": 90,
+    "keep_search_clicks": 3,
+    "keep_engaged_visitor_days": 2
+  },
+  "search_window": {
+    "start": "2026-09-20",
+    "end": "2026-11-18",
+    "latest": {
+      "old": "2026-11-18",
+      "new": "2026-11-19"
+    },
+    "gaps": {
+      "old": [],
+      "new": []
+    },
+    "complete_days": 60,
+    "properties": {
+      "old": "sc-domain:flashcards-open-source-app.com",
+      "new": "sc-domain:nibomo.com"
+    },
+    "partition_days": {
+      "old": 60,
+      "new": 60
+    },
+    "unmatched_zero_click_rows": 2,
+    "definition": "Google Web Search page-level clicks and impressions across both domains and verified historical aliases."
+  },
+  "engagement_window": {
+    "from": "2026-09-22",
+    "to": "2026-11-21",
+    "query_time": "2026-11-21 08:54:42.47909+00",
+    "reliable_from": "2026-09-24",
+    "complete_days": 58,
+    "pre_baseline_unassigned_engaged_article_views": 25,
+    "partial_article_views": {
+      "identified": 19,
+      "hashed": 2
+    },
+    "session_closed": true,
+    "read_signal_from": "2026-10-19T21:06:34Z",
+    "coverage_gaps": [],
+    "reliable_through": "2026-11-20",
+    "complete_days_by_cohort": {
+      "hashed_filtered": 58,
+      "hashed_raw": 58,
+      "identified_filtered": 58,
+      "identified_raw": 58
+    },
+    "cohort_first_day": {
+      "identified": "2026-09-22",
+      "hashed": "2026-09-23"
+    },
+    "exclusions_refresh_verified_at": "2026-11-21T08:50:29Z",
+    "definition": "Qualified whole-site visitor-days joined to article views and deduplicated per canonical URL across aliases by cohort, visitor identity and UTC date.",
+    "limits": "November 21 is partial. The 25 pre-baseline engaged views lack URL attribution. Verified earlier positives count. Single-page reads before the October 19 introduction of the ten-second visible-time plus interaction signal cannot be reconstructed."
+  },
+  "age_definition": "Age uses the later of declared publication and first Git appearance following verified renames. Git appearance is a proxy for availability.",
+  "material_use_review": {
+    "source_scope": "Current authored website routes and their rendered localized links, adjacent app sources, project campaign and support records, publication history, open website PRs and the current public catalog snapshot.",
+    "external_backlinks": "Targeted exact URL searches, with no exhaustive external backlink inventory.",
+    "project_records_searched": 330,
+    "recent_publication_diffs_reviewed": 221,
+    "canonical_catalog_description_links_to_approved_urls": 0,
+    "catalog_language_copies": "Three English deck descriptions keep their published English article destinations when the interface locale lacks a published translation.",
+    "changed_contexts": [
+      {
+        "file": "src/content/ar/blog/best-open-source-flashcard-apps-2026.md",
+        "target": "/ar/blog/is-anki-open-source/",
+        "replacement": null
+      },
+      {
+        "file": "src/content/ar/blog/free-quizlet-alternative.md",
+        "target": "/ar/blog/mochi-alternative/",
+        "replacement": null
+      },
+      {
+        "file": "src/content/de/blog/best-anki-alternatives.md",
+        "target": "/de/blog/anki-vs-quizlet-vs-open-source-flashcards-app/",
+        "replacement": null
+      },
+      {
+        "file": "src/content/de/blog/best-offline-flashcards-app.md",
+        "target": "/de/blog/anki-vs-quizlet-vs-open-source-flashcards-app/",
+        "replacement": null
+      },
+      {
+        "file": "src/content/de/blog/free-quizlet-alternative.md",
+        "target": "/de/blog/knowt-alternative/",
+        "replacement": null
+      },
+      {
+        "file": "src/content/hi/blog/best-open-source-flashcard-apps-2026.md",
+        "target": "/hi/blog/is-anki-open-source/",
+        "replacement": null
+      },
+      {
+        "file": "src/content/ja/blog/how-many-new-flashcards-per-day.md",
+        "target": "/ja/blog/turn-notes-into-flashcards/",
+        "replacement": null
+      },
+      {
+        "file": "src/content/ja/blog/how-to-make-better-flashcards.md",
+        "target": "/ja/blog/turn-notes-into-flashcards/",
+        "replacement": null
+      },
+      {
+        "file": "src/content/ja/blog/how-to-turn-obsidian-notes-into-flashcards.md",
+        "target": "/ja/blog/turn-notes-into-flashcards/",
+        "replacement": null
+      },
+      {
+        "file": "src/content/ja/blog/how-to-use-flashcards-for-language-learning.md",
+        "target": "/ja/blog/quizlet-alternative/",
+        "replacement": "/ja/blog/free-quizlet-alternative/"
+      },
+      {
+        "file": "src/content/ja/blog/how-to-use-flashcards-for-math.md",
+        "target": "/ja/blog/how-to-fix-ai-flashcards/",
+        "replacement": null
+      },
+      {
+        "file": "src/content/ja/blog/notebooklm-flashcards-to-spaced-repetition.md",
+        "target": "/ja/blog/turn-notes-into-flashcards/",
+        "replacement": "/ja/blog/how-to-use-chatgpt-to-make-flashcards/"
+      },
+      {
+        "file": "src/content/ru/blog/metric-prefixes-flashcards.md",
+        "target": "/ru/blog/how-to-use-flashcards-for-advanced-chemistry/",
+        "replacement": null
+      },
+      {
+        "file": "src/content/ru/blog/periodic-table-flashcards.md",
+        "target": "/ru/blog/how-to-use-flashcards-for-advanced-chemistry/",
+        "replacement": null
+      }
+    ]
+  },
+  "reason": "Below the per-URL search and engagement thresholds after 90 days, with no material use found",
+  "historical_search_aliases": {
+    "/ja/blog/how-to-use-flashcards-for-ap-chemistry/": "/ja/blog/how-to-use-flashcards-for-advanced-chemistry/",
+    "/ru/blog/how-to-use-flashcards-for-ap-chemistry/": "/ru/blog/how-to-use-flashcards-for-advanced-chemistry/"
+  },
+  "approval_summary": {
+    "approved_urls": 71,
+    "retired_urls": 63,
+    "held_for_material_use": 8
+  },
+  "holds": [
+    {
+      "file": "src/content/ar/blog/best-anki-alternatives.md",
+      "route": "/ar/blog/best-anki-alternatives/",
+      "locale": "ar",
+      "family": "best-anki-alternatives",
+      "published": "2026-03-14",
+      "first_source": "2026-04-12",
+      "first_commit": "1000ad5aba892d9bc7f854a65116131646332bb1",
+      "age_days": 223,
+      "clicks": 0,
+      "impressions": 10,
+      "engaged_days": 1,
+      "engaged_views": 1,
+      "sources": [
+        "src/content/ar/blog/best-open-source-flashcard-apps-2026.md",
+        "src/content/ar/blog/free-quizlet-alternative.md",
+        "src/content/ar/blog/studyfetch-alternative.md"
+      ],
+      "material_use": "Retained selection guides refer readers to this Arabic comparison for broader product options and migration fidelity."
+    },
+    {
+      "file": "src/content/ar/blog/best-offline-flashcards-app.md",
+      "route": "/ar/blog/best-offline-flashcards-app/",
+      "locale": "ar",
+      "family": "best-offline-flashcards-app",
+      "published": "2026-03-16",
+      "first_source": "2026-04-12",
+      "first_commit": "1000ad5aba892d9bc7f854a65116131646332bb1",
+      "age_days": 223,
+      "clicks": 1,
+      "impressions": 17,
+      "engaged_days": 0,
+      "engaged_views": 0,
+      "sources": [
+        "src/content/ar/blog/best-anki-alternatives.md",
+        "src/content/ar/blog/does-anki-work-offline.md"
+      ],
+      "material_use": "The retained Arabic guides refer readers to cross-product tests for cold starts, offline edits, media, progress and later synchronization."
+    },
+    {
+      "file": "src/content/ar/blog/does-anki-work-offline.md",
+      "route": "/ar/blog/does-anki-work-offline/",
+      "locale": "ar",
+      "family": "does-anki-work-offline",
+      "published": "2026-08-16",
+      "first_source": "2026-08-16",
+      "first_commit": "fd973f84df0afbd163cb5aed2461e0aee10798e9",
+      "age_days": 97,
+      "clicks": 0,
+      "impressions": 49,
+      "engaged_days": 0,
+      "engaged_views": 0,
+      "sources": [
+        "src/content/ar/blog/best-open-source-flashcard-apps-2026.md",
+        "src/content/ar/blog/best-offline-flashcards-app.md"
+      ],
+      "material_use": "The Arabic guides refer readers to platform-specific offline behavior and instructions for synchronizing after reconnecting."
+    },
+    {
+      "file": "src/content/de/blog/does-quizlet-work-offline.md",
+      "route": "/de/blog/does-quizlet-work-offline/",
+      "locale": "de",
+      "family": "does-quizlet-work-offline",
+      "published": "2026-08-14",
+      "first_source": "2026-08-14",
+      "first_commit": "1591825f8aedd05e81b19555956459ae1d8b0c5e",
+      "age_days": 99,
+      "clicks": 0,
+      "impressions": 0,
+      "engaged_days": 1,
+      "engaged_views": 1,
+      "sources": [
+        "src/content/de/blog/best-offline-flashcards-app.md"
+      ],
+      "material_use": "The German offline comparison delegates Quizlet set download and device checks to this guide."
+    },
+    {
+      "file": "src/content/es/blog/fsrs-vs-sm-2.md",
+      "route": "/es/blog/fsrs-vs-sm-2/",
+      "locale": "es",
+      "family": "fsrs-vs-sm-2",
+      "published": "2026-03-12",
+      "first_source": "2026-04-11",
+      "first_commit": "49fe34ae912f042adbdfd122add7271bea8a48c9",
+      "age_days": 224,
+      "clicks": 0,
+      "impressions": 20,
+      "engaged_days": 1,
+      "engaged_views": 2,
+      "sources": [
+        "src/content/es/blog/fsrs-settings.md"
+      ],
+      "material_use": "The Spanish settings guide directs readers who have yet to choose a scheduler to this comparison and migration walkthrough."
+    },
+    {
+      "file": "src/content/hi/blog/best-anki-alternatives.md",
+      "route": "/hi/blog/best-anki-alternatives/",
+      "locale": "hi",
+      "family": "best-anki-alternatives",
+      "published": "2026-03-14",
+      "first_source": "2026-04-12",
+      "first_commit": "1000ad5aba892d9bc7f854a65116131646332bb1",
+      "age_days": 223,
+      "clicks": 0,
+      "impressions": 3,
+      "engaged_days": 1,
+      "engaged_views": 1,
+      "sources": [
+        "src/content/hi/blog/best-open-source-flashcard-apps-2026.md",
+        "src/content/hi/blog/studyfetch-alternative.md"
+      ],
+      "material_use": "Retained Hindi selection guides refer readers to this broader comparison for alternative tools and Anki migration tradeoffs."
+    },
+    {
+      "file": "src/content/hi/blog/does-anki-work-offline.md",
+      "route": "/hi/blog/does-anki-work-offline/",
+      "locale": "hi",
+      "family": "does-anki-work-offline",
+      "published": "2026-08-16",
+      "first_source": "2026-08-16",
+      "first_commit": "fd973f84df0afbd163cb5aed2461e0aee10798e9",
+      "age_days": 97,
+      "clicks": 0,
+      "impressions": 14,
+      "engaged_days": 0,
+      "engaged_views": 0,
+      "sources": [
+        "src/content/hi/blog/best-open-source-flashcard-apps-2026.md"
+      ],
+      "material_use": "The Hindi open-source comparison refers readers to this guide to distinguish local review and edits from work that needs synchronization."
+    },
+    {
+      "file": "src/content/zh/blog/does-quizlet-work-offline.md",
+      "route": "/zh/blog/does-quizlet-work-offline/",
+      "locale": "zh",
+      "family": "does-quizlet-work-offline",
+      "published": "2026-08-14",
+      "first_source": "2026-08-14",
+      "first_commit": "1591825f8aedd05e81b19555956459ae1d8b0c5e",
+      "age_days": 99,
+      "clicks": 0,
+      "impressions": 10,
+      "engaged_days": 1,
+      "engaged_views": 1,
+      "sources": [
+        "src/content/zh/blog/best-offline-flashcards-app.md"
+      ],
+      "material_use": "The Chinese offline comparison delegates the specific Quizlet download checks to this guide."
+    }
+  ],
+  "records": {
+    "src/content/ar/blog/how-to-turn-images-into-flashcards.md": {"route": "/ar/blog/how-to-turn-images-into-flashcards/", "locale": "ar", "family": "how-to-turn-images-into-flashcards", "published": "2026-05-25", "first_source": "2026-05-25", "first_commit": "99416deeccc9f80d732a43e86283df619fc4e9b9", "age_days": 180, "clicks": 0, "impressions": 1, "engaged_days": 1, "engaged_views": 1},
+    "src/content/ar/blog/how-to-use-ai-for-homework-without-cheating.md": {"route": "/ar/blog/how-to-use-ai-for-homework-without-cheating/", "locale": "ar", "family": "how-to-use-ai-for-homework-without-cheating", "published": "2026-06-24", "first_source": "2026-06-24", "first_commit": "39bdf70d7f07c437ecc9dd87487c136f0e435d35", "age_days": 150, "clicks": 0, "impressions": 69, "engaged_days": 1, "engaged_views": 1},
+    "src/content/ar/blog/is-anki-open-source.md": {"route": "/ar/blog/is-anki-open-source/", "locale": "ar", "family": "is-anki-open-source", "published": "2026-08-20", "first_source": "2026-08-20", "first_commit": "d27f9dce69cb58a23792756d96105e109bc9bf5a", "age_days": 93, "clicks": 0, "impressions": 6, "engaged_days": 0, "engaged_views": 0},
+    "src/content/ar/blog/is-remnote-open-source.md": {"route": "/ar/blog/is-remnote-open-source/", "locale": "ar", "family": "is-remnote-open-source", "published": "2026-08-21", "first_source": "2026-08-21", "first_commit": "60241e5dbf58e5caa3f0ea4fe07deb67a54388ed", "age_days": 92, "clicks": 0, "impressions": 0, "engaged_days": 0, "engaged_views": 0},
+    "src/content/ar/blog/mochi-alternative.md": {"route": "/ar/blog/mochi-alternative/", "locale": "ar", "family": "mochi-alternative", "published": "2026-03-18", "first_source": "2026-04-12", "first_commit": "ea092275cacd2f975838f0226dc41fb0a78af331", "age_days": 223, "clicks": 0, "impressions": 30, "engaged_days": 1, "engaged_views": 1},
+    "src/content/ar/blog/spanish-flashcards.md": {"route": "/ar/blog/spanish-flashcards/", "locale": "ar", "family": "spanish-flashcards", "published": "2026-08-10", "first_source": "2026-08-10", "first_commit": "9389a197d1203d5e4b4c73d64dd99fca84101d04", "age_days": 103, "clicks": 1, "impressions": 35, "engaged_days": 0, "engaged_views": 0},
+    "src/content/de/blog/anki-vs-quizlet-vs-open-source-flashcards-app.md": {"route": "/de/blog/anki-vs-quizlet-vs-open-source-flashcards-app/", "locale": "de", "family": "anki-vs-quizlet-vs-open-source-flashcards-app", "published": "2026-03-09", "first_source": "2026-04-12", "first_commit": "ea092275cacd2f975838f0226dc41fb0a78af331", "age_days": 223, "clicks": 0, "impressions": 132, "engaged_days": 1, "engaged_views": 2},
+    "src/content/de/blog/flashcard-lab-review.md": {"route": "/de/blog/flashcard-lab-review/", "locale": "de", "family": "flashcard-lab-review", "published": "2026-08-12", "first_source": "2026-08-12", "first_commit": "abd75b11fd94209424249068f216180a444529a5", "age_days": 101, "clicks": 1, "impressions": 8, "engaged_days": 0, "engaged_views": 0},
+    "src/content/de/blog/how-to-turn-handwritten-notes-into-flashcards.md": {"route": "/de/blog/how-to-turn-handwritten-notes-into-flashcards/", "locale": "de", "family": "how-to-turn-handwritten-notes-into-flashcards", "published": "2026-03-27", "first_source": "2026-04-12", "first_commit": "ea092275cacd2f975838f0226dc41fb0a78af331", "age_days": 223, "clicks": 0, "impressions": 15, "engaged_days": 1, "engaged_views": 1},
+    "src/content/de/blog/how-to-turn-images-into-flashcards.md": {"route": "/de/blog/how-to-turn-images-into-flashcards/", "locale": "de", "family": "how-to-turn-images-into-flashcards", "published": "2026-05-25", "first_source": "2026-05-25", "first_commit": "99416deeccc9f80d732a43e86283df619fc4e9b9", "age_days": 180, "clicks": 0, "impressions": 2, "engaged_days": 1, "engaged_views": 1},
+    "src/content/de/blog/how-to-use-ai-for-active-recall.md": {"route": "/de/blog/how-to-use-ai-for-active-recall/", "locale": "de", "family": "how-to-use-ai-for-active-recall", "published": "2026-05-30", "first_source": "2026-05-30", "first_commit": "35ada07e27cfa81a23c4579c9994b3c9afebb54a", "age_days": 175, "clicks": 0, "impressions": 3, "engaged_days": 1, "engaged_views": 1},
+    "src/content/de/blog/how-to-use-chatgpt-voice-for-language-learning.md": {"route": "/de/blog/how-to-use-chatgpt-voice-for-language-learning/", "locale": "de", "family": "how-to-use-chatgpt-voice-for-language-learning", "published": "2026-04-06", "first_source": "2026-04-12", "first_commit": "ea092275cacd2f975838f0226dc41fb0a78af331", "age_days": 223, "clicks": 2, "impressions": 21, "engaged_days": 1, "engaged_views": 1},
+    "src/content/de/blog/knowt-alternative.md": {"route": "/de/blog/knowt-alternative/", "locale": "de", "family": "knowt-alternative", "published": "2026-08-02", "first_source": "2026-08-02", "first_commit": "0306e24436d0feea53d311fd9aad939fdbd27d4e", "age_days": 111, "clicks": 1, "impressions": 82, "engaged_days": 1, "engaged_views": 3},
+    "src/content/de/blog/toefl-flashcards.md": {"route": "/de/blog/toefl-flashcards/", "locale": "de", "family": "toefl-flashcards", "published": "2026-07-16", "first_source": "2026-07-16", "first_commit": "dedb351275b63d1e2e5b016c8314f357e09db489", "age_days": 128, "clicks": 1, "impressions": 14, "engaged_days": 1, "engaged_views": 1},
+    "src/content/en/blog/gemini-guided-learning-to-flashcards.md": {"route": "/blog/gemini-guided-learning-to-flashcards/", "locale": "en", "family": "gemini-guided-learning-to-flashcards", "published": "2026-05-18", "first_source": "2026-05-18", "first_commit": "42a1a4dbc7bd28cb499fd21e0c18a8585d597646", "age_days": 187, "clicks": 0, "impressions": 33, "engaged_days": 1, "engaged_views": 1},
+    "src/content/en/blog/how-to-turn-google-docs-into-flashcards.md": {"route": "/blog/how-to-turn-google-docs-into-flashcards/", "locale": "en", "family": "how-to-turn-google-docs-into-flashcards", "published": "2026-06-03", "first_source": "2026-06-03", "first_commit": "ba403d179539e6b704555a61b7b0119391222650", "age_days": 171, "clicks": 0, "impressions": 44, "engaged_days": 1, "engaged_views": 1},
+    "src/content/en/blog/how-to-turn-obsidian-notes-into-flashcards.md": {"route": "/blog/how-to-turn-obsidian-notes-into-flashcards/", "locale": "en", "family": "how-to-turn-obsidian-notes-into-flashcards", "published": "2026-04-25", "first_source": "2026-04-25", "first_commit": "17c4485d23a3b529a6f3a56b286969e36c570536", "age_days": 210, "clicks": 1, "impressions": 72, "engaged_days": 0, "engaged_views": 0},
+    "src/content/es/blog/ccsp-flashcards.md": {"route": "/es/blog/ccsp-flashcards/", "locale": "es", "family": "ccsp-flashcards", "published": "2026-07-18", "first_source": "2026-07-18", "first_commit": "fd452ac382e80eddcae5eea06380b0fe073daceb", "age_days": 126, "clicks": 1, "impressions": 5, "engaged_days": 0, "engaged_views": 0},
+    "src/content/es/blog/flashcard-lab-review.md": {"route": "/es/blog/flashcard-lab-review/", "locale": "es", "family": "flashcard-lab-review", "published": "2026-08-12", "first_source": "2026-08-12", "first_commit": "abd75b11fd94209424249068f216180a444529a5", "age_days": 101, "clicks": 1, "impressions": 25, "engaged_days": 0, "engaged_views": 0},
+    "src/content/es/blog/gemini-guided-learning-to-flashcards.md": {"route": "/es/blog/gemini-guided-learning-to-flashcards/", "locale": "es", "family": "gemini-guided-learning-to-flashcards", "published": "2026-05-18", "first_source": "2026-05-18", "first_commit": "42a1a4dbc7bd28cb499fd21e0c18a8585d597646", "age_days": 187, "clicks": 1, "impressions": 26, "engaged_days": 1, "engaged_views": 1},
+    "src/content/es/blog/how-to-fix-ai-flashcards.md": {"route": "/es/blog/how-to-fix-ai-flashcards/", "locale": "es", "family": "how-to-fix-ai-flashcards", "published": "2026-04-26", "first_source": "2026-04-26", "first_commit": "13e9ce19e3a0437f7839bce1123ad8a165b67f14", "age_days": 209, "clicks": 0, "impressions": 12, "engaged_days": 1, "engaged_views": 1},
+    "src/content/es/blog/how-to-use-ai-for-homework-without-cheating.md": {"route": "/es/blog/how-to-use-ai-for-homework-without-cheating/", "locale": "es", "family": "how-to-use-ai-for-homework-without-cheating", "published": "2026-06-24", "first_source": "2026-06-24", "first_commit": "39bdf70d7f07c437ecc9dd87487c136f0e435d35", "age_days": 150, "clicks": 2, "impressions": 224, "engaged_days": 1, "engaged_views": 1},
+    "src/content/es/blog/how-to-use-chatgpt-voice-for-language-learning.md": {"route": "/es/blog/how-to-use-chatgpt-voice-for-language-learning/", "locale": "es", "family": "how-to-use-chatgpt-voice-for-language-learning", "published": "2026-04-06", "first_source": "2026-04-11", "first_commit": "49fe34ae912f042adbdfd122add7271bea8a48c9", "age_days": 224, "clicks": 2, "impressions": 20, "engaged_days": 1, "engaged_views": 1},
+    "src/content/es/blog/how-to-use-flashcards-for-medical-school.md": {"route": "/es/blog/how-to-use-flashcards-for-medical-school/", "locale": "es", "family": "how-to-use-flashcards-for-medical-school", "published": "2026-04-15", "first_source": "2026-04-15", "first_commit": "fd2a94d3376aab322128243a0a31599045238285", "age_days": 220, "clicks": 1, "impressions": 63, "engaged_days": 1, "engaged_views": 4},
+    "src/content/es/blog/how-to-use-flashcards-for-security-plus.md": {"route": "/es/blog/how-to-use-flashcards-for-security-plus/", "locale": "es", "family": "how-to-use-flashcards-for-security-plus", "published": "2026-05-03", "first_source": "2026-05-03", "first_commit": "37f5a1e52b9cba5538c2f14414130266afa49c8e", "age_days": 202, "clicks": 0, "impressions": 1, "engaged_days": 1, "engaged_views": 1},
+    "src/content/es/blog/how-to-use-flashcards-for-the-fe-exam.md": {"route": "/es/blog/how-to-use-flashcards-for-the-fe-exam/", "locale": "es", "family": "how-to-use-flashcards-for-the-fe-exam", "published": "2026-07-02", "first_source": "2026-07-02", "first_commit": "2a27c4ef9a0642e3456c6bee87bca33d7dfd4129", "age_days": 142, "clicks": 1, "impressions": 4, "engaged_days": 1, "engaged_views": 2},
+    "src/content/es/blog/how-to-use-the-feynman-technique-with-flashcards.md": {"route": "/es/blog/how-to-use-the-feynman-technique-with-flashcards/", "locale": "es", "family": "how-to-use-the-feynman-technique-with-flashcards", "published": "2026-06-20", "first_source": "2026-06-20", "first_commit": "17a87a50ad22db3b7fafba28e1451953e20b3b6d", "age_days": 154, "clicks": 0, "impressions": 11, "engaged_days": 1, "engaged_views": 1},
+    "src/content/es/blog/is-remnote-open-source.md": {"route": "/es/blog/is-remnote-open-source/", "locale": "es", "family": "is-remnote-open-source", "published": "2026-08-21", "first_source": "2026-08-21", "first_commit": "60241e5dbf58e5caa3f0ea4fe07deb67a54388ed", "age_days": 92, "clicks": 1, "impressions": 18, "engaged_days": 1, "engaged_views": 2},
+    "src/content/es/blog/studysmarter-alternative.md": {"route": "/es/blog/studysmarter-alternative/", "locale": "es", "family": "studysmarter-alternative", "published": "2026-08-03", "first_source": "2026-08-03", "first_commit": "7a33b1866ac64b0b80c7352e43f6ce237e432324", "age_days": 110, "clicks": 0, "impressions": 93, "engaged_days": 1, "engaged_views": 1},
+    "src/content/hi/blog/free-quizlet-alternative.md": {"route": "/hi/blog/free-quizlet-alternative/", "locale": "hi", "family": "free-quizlet-alternative", "published": "2026-06-20", "first_source": "2026-06-20", "first_commit": "321ffb9a0967b9eac250040f37f487df651d7f3c", "age_days": 154, "clicks": 0, "impressions": 12, "engaged_days": 1, "engaged_views": 1},
+    "src/content/hi/blog/is-anki-open-source.md": {"route": "/hi/blog/is-anki-open-source/", "locale": "hi", "family": "is-anki-open-source", "published": "2026-08-20", "first_source": "2026-08-20", "first_commit": "d27f9dce69cb58a23792756d96105e109bc9bf5a", "age_days": 93, "clicks": 0, "impressions": 10, "engaged_days": 0, "engaged_views": 0},
+    "src/content/hi/blog/is-remnote-open-source.md": {"route": "/hi/blog/is-remnote-open-source/", "locale": "hi", "family": "is-remnote-open-source", "published": "2026-08-21", "first_source": "2026-08-21", "first_commit": "60241e5dbf58e5caa3f0ea4fe07deb67a54388ed", "age_days": 92, "clicks": 0, "impressions": 0, "engaged_days": 0, "engaged_views": 0},
+    "src/content/hi/blog/knowt-alternative.md": {"route": "/hi/blog/knowt-alternative/", "locale": "hi", "family": "knowt-alternative", "published": "2026-08-02", "first_source": "2026-08-02", "first_commit": "0306e24436d0feea53d311fd9aad939fdbd27d4e", "age_days": 111, "clicks": 0, "impressions": 4, "engaged_days": 1, "engaged_views": 1},
+    "src/content/hi/blog/mochi-alternative.md": {"route": "/hi/blog/mochi-alternative/", "locale": "hi", "family": "mochi-alternative", "published": "2026-03-18", "first_source": "2026-04-12", "first_commit": "ea092275cacd2f975838f0226dc41fb0a78af331", "age_days": 223, "clicks": 0, "impressions": 3, "engaged_days": 1, "engaged_views": 1},
+    "src/content/hi/blog/remnote-alternative.md": {"route": "/hi/blog/remnote-alternative/", "locale": "hi", "family": "remnote-alternative", "published": "2026-03-19", "first_source": "2026-04-12", "first_commit": "ea092275cacd2f975838f0226dc41fb0a78af331", "age_days": 223, "clicks": 0, "impressions": 4, "engaged_days": 1, "engaged_views": 1},
+    "src/content/ja/blog/how-to-fix-ai-flashcards.md": {"route": "/ja/blog/how-to-fix-ai-flashcards/", "locale": "ja", "family": "how-to-fix-ai-flashcards", "published": "2026-04-26", "first_source": "2026-04-26", "first_commit": "13e9ce19e3a0437f7839bce1123ad8a165b67f14", "age_days": 209, "clicks": 0, "impressions": 5, "engaged_days": 1, "engaged_views": 1},
+    "src/content/ja/blog/how-to-turn-handwritten-notes-into-flashcards.md": {"route": "/ja/blog/how-to-turn-handwritten-notes-into-flashcards/", "locale": "ja", "family": "how-to-turn-handwritten-notes-into-flashcards", "published": "2026-03-27", "first_source": "2026-04-12", "first_commit": "ea092275cacd2f975838f0226dc41fb0a78af331", "age_days": 223, "clicks": 2, "impressions": 66, "engaged_days": 1, "engaged_views": 2},
+    "src/content/ja/blog/how-to-use-ai-for-homework-without-cheating.md": {"route": "/ja/blog/how-to-use-ai-for-homework-without-cheating/", "locale": "ja", "family": "how-to-use-ai-for-homework-without-cheating", "published": "2026-06-24", "first_source": "2026-06-24", "first_commit": "39bdf70d7f07c437ecc9dd87487c136f0e435d35", "age_days": 150, "clicks": 2, "impressions": 96, "engaged_days": 1, "engaged_views": 1},
+    "src/content/ja/blog/how-to-use-flashcards-for-advanced-chemistry.md": {"route": "/ja/blog/how-to-use-flashcards-for-advanced-chemistry/", "locale": "ja", "family": "how-to-use-flashcards-for-advanced-chemistry", "published": "2026-05-15", "first_source": "2026-05-15", "first_commit": "7904ff16fe71af750db285271d6badbab05e2610", "aliases": ["/ja/blog/how-to-use-flashcards-for-ap-chemistry/"], "age_days": 190, "clicks": 2, "impressions": 28, "engaged_days": 1, "engaged_views": 1},
+    "src/content/ja/blog/how-to-use-the-feynman-technique-with-flashcards.md": {"route": "/ja/blog/how-to-use-the-feynman-technique-with-flashcards/", "locale": "ja", "family": "how-to-use-the-feynman-technique-with-flashcards", "published": "2026-06-20", "first_source": "2026-06-20", "first_commit": "17a87a50ad22db3b7fafba28e1451953e20b3b6d", "age_days": 154, "clicks": 1, "impressions": 18, "engaged_days": 0, "engaged_views": 0},
+    "src/content/ja/blog/quizlet-alternative.md": {"route": "/ja/blog/quizlet-alternative/", "locale": "ja", "family": "quizlet-alternative", "published": "2026-03-17", "first_source": "2026-04-12", "first_commit": "ea092275cacd2f975838f0226dc41fb0a78af331", "age_days": 223, "clicks": 1, "impressions": 30, "engaged_days": 0, "engaged_views": 0},
+    "src/content/ja/blog/turn-notes-into-flashcards.md": {"route": "/ja/blog/turn-notes-into-flashcards/", "locale": "ja", "family": "turn-notes-into-flashcards", "published": "2026-03-15", "first_source": "2026-04-12", "first_commit": "ea092275cacd2f975838f0226dc41fb0a78af331", "age_days": 223, "clicks": 0, "impressions": 7, "engaged_days": 1, "engaged_views": 1},
+    "src/content/ru/blog/asvab-flashcards.md": {"route": "/ru/blog/asvab-flashcards/", "locale": "ru", "family": "asvab-flashcards", "published": "2026-08-11", "first_source": "2026-08-11", "first_commit": "54c7ff5cb5b824fcf684da959553f6d216f319e1", "age_days": 102, "clicks": 1, "impressions": 62, "engaged_days": 1, "engaged_views": 1},
+    "src/content/ru/blog/brainscape-alternative.md": {"route": "/ru/blog/brainscape-alternative/", "locale": "ru", "family": "brainscape-alternative", "published": "2026-03-21", "first_source": "2026-04-12", "first_commit": "1000ad5aba892d9bc7f854a65116131646332bb1", "age_days": 223, "clicks": 1, "impressions": 10, "engaged_days": 1, "engaged_views": 1},
+    "src/content/ru/blog/how-often-should-you-review-flashcards.md": {"route": "/ru/blog/how-often-should-you-review-flashcards/", "locale": "ru", "family": "how-often-should-you-review-flashcards", "published": "2026-07-19", "first_source": "2026-07-19", "first_commit": "ed09f6e673c4a6f4acb6774254b10c012b415f65", "age_days": 125, "clicks": 0, "impressions": 20, "engaged_days": 1, "engaged_views": 1},
+    "src/content/ru/blog/how-to-turn-google-docs-into-flashcards.md": {"route": "/ru/blog/how-to-turn-google-docs-into-flashcards/", "locale": "ru", "family": "how-to-turn-google-docs-into-flashcards", "published": "2026-06-03", "first_source": "2026-06-03", "first_commit": "ba403d179539e6b704555a61b7b0119391222650", "age_days": 171, "clicks": 0, "impressions": 17, "engaged_days": 1, "engaged_views": 1},
+    "src/content/ru/blog/how-to-turn-handwritten-notes-into-flashcards.md": {"route": "/ru/blog/how-to-turn-handwritten-notes-into-flashcards/", "locale": "ru", "family": "how-to-turn-handwritten-notes-into-flashcards", "published": "2026-03-27", "first_source": "2026-04-12", "first_commit": "1000ad5aba892d9bc7f854a65116131646332bb1", "age_days": 223, "clicks": 1, "impressions": 8, "engaged_days": 1, "engaged_views": 1},
+    "src/content/ru/blog/how-to-turn-obsidian-notes-into-flashcards.md": {"route": "/ru/blog/how-to-turn-obsidian-notes-into-flashcards/", "locale": "ru", "family": "how-to-turn-obsidian-notes-into-flashcards", "published": "2026-04-25", "first_source": "2026-04-25", "first_commit": "17c4485d23a3b529a6f3a56b286969e36c570536", "age_days": 210, "clicks": 1, "impressions": 41, "engaged_days": 0, "engaged_views": 0},
+    "src/content/ru/blog/how-to-use-chatgpt-voice-for-language-learning.md": {"route": "/ru/blog/how-to-use-chatgpt-voice-for-language-learning/", "locale": "ru", "family": "how-to-use-chatgpt-voice-for-language-learning", "published": "2026-04-06", "first_source": "2026-04-12", "first_commit": "ea092275cacd2f975838f0226dc41fb0a78af331", "age_days": 223, "clicks": 1, "impressions": 29, "engaged_days": 1, "engaged_views": 1},
+    "src/content/ru/blog/how-to-use-flashcards-for-advanced-chemistry.md": {"route": "/ru/blog/how-to-use-flashcards-for-advanced-chemistry/", "locale": "ru", "family": "how-to-use-flashcards-for-advanced-chemistry", "published": "2026-05-15", "first_source": "2026-05-15", "first_commit": "7904ff16fe71af750db285271d6badbab05e2610", "aliases": ["/ru/blog/how-to-use-flashcards-for-ap-chemistry/"], "age_days": 190, "clicks": 1, "impressions": 34, "engaged_days": 0, "engaged_views": 0},
+    "src/content/ru/blog/how-to-use-flashcards-for-medical-school.md": {"route": "/ru/blog/how-to-use-flashcards-for-medical-school/", "locale": "ru", "family": "how-to-use-flashcards-for-medical-school", "published": "2026-04-15", "first_source": "2026-04-15", "first_commit": "fd2a94d3376aab322128243a0a31599045238285", "age_days": 220, "clicks": 2, "impressions": 55, "engaged_days": 1, "engaged_views": 1},
+    "src/content/ru/blog/how-to-use-flashcards-for-the-ged.md": {"route": "/ru/blog/how-to-use-flashcards-for-the-ged/", "locale": "ru", "family": "how-to-use-flashcards-for-the-ged", "published": "2026-05-23", "first_source": "2026-05-23", "first_commit": "ee99c1236b801e616a4593be87a67b7bf6294f9b", "age_days": 182, "clicks": 0, "impressions": 3, "engaged_days": 1, "engaged_views": 1},
+    "src/content/ru/blog/how-to-use-flashcards-for-the-ielts.md": {"route": "/ru/blog/how-to-use-flashcards-for-the-ielts/", "locale": "ru", "family": "how-to-use-flashcards-for-the-ielts", "published": "2026-07-06", "first_source": "2026-07-06", "first_commit": "84a3f3e50a0c983940566e87c310108378429173", "age_days": 138, "clicks": 2, "impressions": 16, "engaged_days": 1, "engaged_views": 1},
+    "src/content/ru/blog/private-flashcards-with-ai.md": {"route": "/ru/blog/private-flashcards-with-ai/", "locale": "ru", "family": "private-flashcards-with-ai", "published": "2026-06-30", "first_source": "2026-06-30", "first_commit": "93a45544c77e34cb2cd58fc8e7eddac5bea108fc", "age_days": 144, "clicks": 0, "impressions": 3, "engaged_days": 1, "engaged_views": 1},
+    "src/content/zh/blog/brainscape-alternative.md": {"route": "/zh/blog/brainscape-alternative/", "locale": "zh", "family": "brainscape-alternative", "published": "2026-03-21", "first_source": "2026-04-12", "first_commit": "ea092275cacd2f975838f0226dc41fb0a78af331", "age_days": 223, "clicks": 0, "impressions": 3, "engaged_days": 1, "engaged_views": 1},
+    "src/content/zh/blog/flashcard-lab-review.md": {"route": "/zh/blog/flashcard-lab-review/", "locale": "zh", "family": "flashcard-lab-review", "published": "2026-08-12", "first_source": "2026-08-12", "first_commit": "abd75b11fd94209424249068f216180a444529a5", "age_days": 101, "clicks": 0, "impressions": 12, "engaged_days": 1, "engaged_views": 1},
+    "src/content/zh/blog/how-to-turn-kindle-highlights-into-flashcards.md": {"route": "/zh/blog/how-to-turn-kindle-highlights-into-flashcards/", "locale": "zh", "family": "how-to-turn-kindle-highlights-into-flashcards", "published": "2026-04-07", "first_source": "2026-04-12", "first_commit": "ea092275cacd2f975838f0226dc41fb0a78af331", "age_days": 223, "clicks": 0, "impressions": 30, "engaged_days": 1, "engaged_views": 1},
+    "src/content/zh/blog/how-to-turn-microsoft-copilot-study-and-learn-into-flashcards.md": {"route": "/zh/blog/how-to-turn-microsoft-copilot-study-and-learn-into-flashcards/", "locale": "zh", "family": "how-to-turn-microsoft-copilot-study-and-learn-into-flashcards", "published": "2026-06-09", "first_source": "2026-06-09", "first_commit": "186bc7864409d81264863a2e722cf77e80938eda", "age_days": 165, "clicks": 1, "impressions": 6, "engaged_days": 1, "engaged_views": 1},
+    "src/content/zh/blog/how-to-use-ai-for-homework-without-cheating.md": {"route": "/zh/blog/how-to-use-ai-for-homework-without-cheating/", "locale": "zh", "family": "how-to-use-ai-for-homework-without-cheating", "published": "2026-06-24", "first_source": "2026-06-24", "first_commit": "39bdf70d7f07c437ecc9dd87487c136f0e435d35", "age_days": 150, "clicks": 0, "impressions": 57, "engaged_days": 1, "engaged_views": 1},
+    "src/content/zh/blog/how-to-use-flashcards-for-medical-school.md": {"route": "/zh/blog/how-to-use-flashcards-for-medical-school/", "locale": "zh", "family": "how-to-use-flashcards-for-medical-school", "published": "2026-04-15", "first_source": "2026-04-15", "first_commit": "fd2a94d3376aab322128243a0a31599045238285", "age_days": 220, "clicks": 0, "impressions": 9, "engaged_days": 1, "engaged_views": 1},
+    "src/content/zh/blog/how-to-use-flashcards-for-the-ati-teas.md": {"route": "/zh/blog/how-to-use-flashcards-for-the-ati-teas/", "locale": "zh", "family": "how-to-use-flashcards-for-the-ati-teas", "published": "2026-05-06", "first_source": "2026-05-06", "first_commit": "c183ac34a394fc6038c1ca8f03e064bb9fdd5054", "age_days": 199, "clicks": 0, "impressions": 106, "engaged_days": 1, "engaged_views": 1},
+    "src/content/zh/blog/how-to-use-flashcards-for-the-ielts.md": {"route": "/zh/blog/how-to-use-flashcards-for-the-ielts/", "locale": "zh", "family": "how-to-use-flashcards-for-the-ielts", "published": "2026-07-06", "first_source": "2026-07-06", "first_commit": "84a3f3e50a0c983940566e87c310108378429173", "age_days": 138, "clicks": 0, "impressions": 14, "engaged_days": 1, "engaged_views": 1},
+    "src/content/zh/blog/how-to-use-the-blurting-method-with-flashcards.md": {"route": "/zh/blog/how-to-use-the-blurting-method-with-flashcards/", "locale": "zh", "family": "how-to-use-the-blurting-method-with-flashcards", "published": "2026-06-19", "first_source": "2026-06-19", "first_commit": "736ae6e3f5f1a932de88bee7d2056a69bef60bbc", "age_days": 155, "clicks": 0, "impressions": 26, "engaged_days": 1, "engaged_views": 1}
+  }
+}

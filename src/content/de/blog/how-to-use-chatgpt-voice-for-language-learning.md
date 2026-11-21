@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-21"
+retirementReason: "Below the per-URL search and engagement thresholds after 90 days, with no material use found"
+retirementEvidence: "docs/content-retirement/2026-11-21.json#/records/src~1content~1de~1blog~1how-to-use-chatgpt-voice-for-language-learning.md"
 title: "Wie du 2026 ChatGPT Voice fürs Sprachenlernen nutzt: Sprechpraxis in Flashcards verwandeln, die wirklich hängen bleiben"
 description: "Du nutzt 2026 ChatGPT Voice fürs Sprachenlernen? Hier ist der praktische Workflow: kurze Sprechsessions führen, die korrigierten Formulierungen sichern und deine Fehler in Flashcards verwandeln, die du mit FSRS reviewen kannst."
 date: "2026-04-06"

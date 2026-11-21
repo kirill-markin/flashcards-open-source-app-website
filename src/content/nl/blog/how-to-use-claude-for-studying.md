@@ -40,7 +40,7 @@ De volgorde doet ertoe. Jezelf laten overhoren op basis van een onduidelijke bro
 
 ## Stel Nibomo in Claude in
 
-Open de [Nibomo-plugin](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory), of ga naar **Customize → Plugins**, zoek Nibomo en klik op **Add**. Is de plugin al geïnstalleerd, controleer dan of die is ingeschakeld.
+Open de [Nibomo-plugin](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory), of kies **Plugins** in de zijbalk, zoek Nibomo en klik op **Add**. Is de plugin al geïnstalleerd, controleer dan of die is ingeschakeld.
 
 Verbind de Nibomo-connector die bij de plugin hoort. Volg de aanmeldstappen, meld je aan bij je Nibomo-account of maak er een aan en geef Claude toegang. Kies de bedoelde werkruimte wanneer daarom wordt gevraagd. Hiervoor hoef je geen API-token te kopiëren of een server-URL in te voeren.
 

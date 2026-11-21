@@ -42,7 +42,7 @@ Level I is more direct. Level II gets more interpretive, more case-based, and le
 
 ## Use the 2026 topic weights as a review budget
 
-The official [2026 Level II exam page](https://www.cfainstitute.org/programs/cfa-program/candidate-resources/level-ii-exam) publishes the current topic weights. I would treat those weights as a review budget, not as a command to create cards for every reading.
+The 2026 weights below come from the official [Level II exam page](https://www.cfainstitute.org/programs/cfa-program/candidate-resources/level-ii-exam). I would treat those weights as a review budget, not as a command to create cards for every reading.
 
 | CFA Level II topic | Official 2026 weight | Best flashcard use |
 | --- | ---: | --- |
@@ -65,7 +65,7 @@ I would also keep a simple count of cards by topic once a week. If half your dec
 
 This is one of the cleanest Level II upgrades I know.
 
-The official [2026 Level II topic outline PDF](https://www.cfainstitute.org/sites/default/files/docs/programs/cfa-program/2026-l2-topics-combined.pdf) lists the current readings and learning outcomes. Use that structure directly. Instead of tagging a card only as `equity` or `fixed-income`, tag it by the LOS or reading, the topic, and the kind of miss.
+On the official [Level II exam page](https://www.cfainstitute.org/programs/cfa-program/candidate-resources/level-ii-exam), open the topic outline for your exam year to find its readings and learning outcomes. Use that structure directly. Instead of tagging a card only as `equity` or `fixed-income`, tag it by the LOS or reading, the topic, and the kind of miss.
 
 | Tag layer | Example | Why it helps |
 | --- | --- | --- |
@@ -135,7 +135,7 @@ The exact formula depends on the reading, but the pattern stays the same. Level 
 
 ## Use CFA Institute practice questions and mocks as the main source
 
-The official [CFA candidate resources page](https://www.cfainstitute.org/programs/cfa-program/candidate-resources) says the Learning Ecosystem for the February 2026 exam includes the curriculum, practice questions, mock exams, study planner, flashcards, and Practical Skills Modules. That gives you plenty of material.
+Sign in to the Learning Ecosystem and use the curriculum, practice questions, and mock exams for the Level II window you registered for. You’ll also find a study planner, flashcards, and Practical Skills Modules there. For help getting started, see the [CFA Institute registration and scheduling guide](https://www.cfainstitute.org/programs/cfa-program/candidate-resources/exam-registration-scheduling-guide).
 
 It also gives you a clean rule for deck building: most of your cards should come from questions you worked, not paragraphs you highlighted. If you already use the official Learning Ecosystem flashcards, treat them as support material. Your personal deck should still be built around the exact item-set misses and interpretations that keep costing you points.
 

@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-21"
+retirementReason: "Below the per-URL search and engagement thresholds after 90 days, with no material use found"
+retirementEvidence: "docs/content-retirement/2026-11-21.json#/records/src~1content~1ru~1blog~1how-often-should-you-review-flashcards.md"
 title: "Как часто повторять карточки? Пусть расписание задаёт FSRS"
 description: "Ежедневно проверяйте карточки к повторению, а не всю колоду. Узнайте, как FSRS подбирает интервалы с учётом ваших ответов, желаемого уровня запоминания и посильной нагрузки."
 date: "2026-07-19"

@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-21"
+retirementReason: "Below the per-URL search and engagement thresholds after 90 days, with no material use found"
+retirementEvidence: "docs/content-retirement/2026-11-21.json#/records/src~1content~1hi~1blog~1knowt-alternative.md"
 title: "Knowt समीक्षा (2026): मुफ़्त प्लान, ऑफ़लाइन इस्तेमाल और विकल्प"
 description: "स्रोतों से जाँची गई Knowt समीक्षा: Basic और Ultra की कीमतें, मुफ़्त स्टडी मोड और AI सीमाएँ, ऑफ़लाइन इस्तेमाल के प्रमाण, Quizlet इंपोर्ट, PDF एक्सपोर्ट और विकल्प।"
 date: "2026-08-02"

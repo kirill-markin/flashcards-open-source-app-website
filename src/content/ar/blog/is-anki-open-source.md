@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-21"
+retirementReason: "Below the per-URL search and engagement thresholds after 90 days, with no material use found"
+retirementEvidence: "docs/content-retirement/2026-11-21.json#/records/src~1content~1ar~1blog~1is-anki-open-source.md"
 title: "هل Anki مفتوح المصدر في 2026؟ نسخة سطح المكتب وAnkiMobile وAnkiDroid وAnkiWeb"
 description: "نسخة Anki لسطح المكتب مفتوحة المصدر، وكذلك AnkiDroid؛ أما AnkiMobile وAnkiWeb فليسا كذلك. تعرّف على التراخيص والسعر والعمل دون اتصال وخادم المزامنة ذاتي الاستضافة."
 date: "2026-08-20"

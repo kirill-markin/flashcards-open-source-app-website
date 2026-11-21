@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-21"
+retirementReason: "Below the per-URL search and engagement thresholds after 90 days, with no material use found"
+retirementEvidence: "docs/content-retirement/2026-11-21.json#/records/src~1content~1es~1blog~1ccsp-flashcards.md"
 title: "Flashcards para CCSP en 2026: estudia el esquema del examen del 1 de agosto"
 description: "Crea flashcards para CCSP según el esquema del 1 de agosto de 2026: ponderaciones medias por dominio, cobertura revisada de IA/ML, tarjetas de decisión, errores en ejercicios de práctica y repaso con FSRS."
 date: "2026-07-18"

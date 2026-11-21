@@ -40,7 +40,7 @@ L'ordre importa. Fer preguntes a partir d'una font ambigua només fa que l'ambig
 
 ## Configura Nibomo a Claude
 
-Obre l'[extensió de Nibomo](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory), o ves a **Customize → Plugins**, cerca Nibomo i fes clic a **Add**. Si ja està instal·lada, comprova que estigui activada.
+Obre l'[extensió de Nibomo](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory), o selecciona **Plugins** a la barra lateral, cerca Nibomo i fes clic a **Add**. Si ja està instal·lada, comprova que estigui activada.
 
 Connecta el connector de Nibomo inclòs amb l'extensió. Segueix els passos d'inici de sessió, entra al teu compte de Nibomo o crea'n un i autoritza l'accés de Claude. Tria l'espai de treball que vulguis fer servir quan t'ho demani. Amb aquesta opció no cal copiar cap testimoni d'API ni introduir l'URL d'un servidor.
 

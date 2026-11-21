@@ -40,7 +40,7 @@ Redoslijed je važan. Ispitivanje na temelju nejasnog izvora samo otežava uoča
 
 ## Postavite Nibomo u Claudeu
 
-Otvorite [dodatak Nibomo](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory) ili odaberite **Customize → Plugins**, pronađite Nibomo i kliknite **Add**. Ako je već instaliran, provjerite je li omogućen.
+Otvorite [dodatak Nibomo](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory) ili u bočnoj traci odaberite **Plugins**, pronađite Nibomo i kliknite **Add**. Ako je već instaliran, provjerite je li omogućen.
 
 Povežite konektor Nibomo koji dolazi s dodatkom. Slijedite postupak prijave, prijavite se na svoj račun za Nibomo ili ga izradite i odobrite Claudeu pristup. Kada se to od vas zatraži, odaberite željeni radni prostor. Ovaj postupak ne zahtijeva kopiranje API tokena ni unos adrese poslužitelja.
 

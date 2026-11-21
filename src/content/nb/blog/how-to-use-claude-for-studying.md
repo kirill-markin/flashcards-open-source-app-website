@@ -40,7 +40,7 @@ Rekkefølgen har betydning. Øvingsspørsmål basert på en tvetydig kilde gjør
 
 ## Sett opp Nibomo i Claude
 
-Åpne [Nibomo-utvidelsen](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory), eller gå til **Customize → Plugins**, finn Nibomo og klikk på **Add**. Hvis den allerede er installert, sjekker du at den er aktivert.
+Åpne [Nibomo-utvidelsen](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory), eller velg **Plugins** i sidepanelet, finn Nibomo og klikk på **Add**. Hvis den allerede er installert, sjekker du at den er aktivert.
 
 Koble Nibomo til Claude med tilkoblingen som følger med utvidelsen. Følg påloggingsflyten, logg inn på Nibomo-kontoen din eller opprett en, og gi Claude tilgang. Velg arbeidsområdet du vil bruke, når du blir spurt. Med denne fremgangsmåten trenger du ikke kopiere et API-token eller skrive inn en serveradresse.
 

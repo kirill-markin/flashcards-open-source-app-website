@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-21"
+retirementReason: "Below the per-URL search and engagement thresholds after 90 days, with no material use found"
+retirementEvidence: "docs/content-retirement/2026-11-21.json#/records/src~1content~1es~1blog~1how-to-fix-ai-flashcards.md"
 title: >-
   Cómo corregir flashcards de IA en 2026: edita borradores de ChatGPT y
   NotebookLM antes de repasar con FSRS

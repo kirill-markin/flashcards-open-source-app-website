@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-21"
+retirementReason: "Below the per-URL search and engagement thresholds after 90 days, with no material use found"
+retirementEvidence: "docs/content-retirement/2026-11-21.json#/records/src~1content~1hi~1blog~1free-quizlet-alternative.md"
 title: "2026 के सबसे अच्छे मुफ़्त Quizlet विकल्प: 5 ऐप्स की तुलना"
 description: "Anki, Knowt, RemNote, Mochi और Nibomo की तुलना करें: मुफ़्त कार्ड स्टडी, सिंक, ऑफ़लाइन उपयोग, Quizlet इंपोर्ट, AI की सीमाएँ और हर $0 प्लान की असली शर्तें।"
 image: "/blog/free-quizlet-alternative-v2.png"

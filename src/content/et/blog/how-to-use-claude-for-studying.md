@@ -40,7 +40,7 @@ Järjekord on oluline. Ebaselge allika põhjal küsimustele vastamine muudab eba
 
 ## Seadista Nibomo Claude'is
 
-Ava [Nibomo plugin](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory) või mine jaotisse **Customize → Plugins**, otsi Nibomo ja klõpsa **Add**. Kui plugin on juba paigaldatud, veendu, et see on lubatud.
+Ava [Nibomo plugin](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory) või vali külgribal **Plugins**, otsi Nibomo ja klõpsa **Add**. Kui plugin on juba paigaldatud, veendu, et see on lubatud.
 
 Ühenda pluginaga kaasas olev Nibomo konnektor. Järgi sisselogimise juhiseid, logi oma Nibomo kontole sisse või loo konto ning anna Claude'ile juurdepääsuluba. Kui seda küsitakse, vali soovitud tööruum. Selle viisi puhul pole vaja API-pääsmikku kopeerida ega serveri URL-i sisestada.
 

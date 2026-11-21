@@ -80,7 +80,7 @@ Auch der Weg von Quizlet ist in diesem Vergleich bei Knowt am direktesten. Knowt
 
 Es gibt zwei Haken. Erstens ist die KI-Nutzung nicht unbegrenzt; die kostenlosen Kontingente werden monatlich zurückgesetzt. Zweitens beschreibt [Knowts Exporthilfe](https://help.knowt.com/en/articles/10714472-how-can-i-export-my-flashcards), wie du Karteikarten als PDF speicherst oder über die App teilst. Das ist zum Lesen und Teilen nützlich, bietet aber nicht dasselbe wie ein strukturiertes Deck-Backup mit Wiederholungsverlauf, Medien und Planungsdaten.
 
-Wähle Knowt, wenn eine schnelle Migration und kostenlose Lernmodi wichtiger sind als garantierte Offline-Nutzung oder ein technisch starker Exportweg. Weißt du bereits, dass dir später ein originalgetreuer Export wichtig sein wird, führe den unten beschriebenen Test für Hin- und Rückweg durch, bevor du mehr als ein Set verschiebst. Der [Leitfaden zu Knowt-Alternativen](/blog/knowt-alternative/) geht ausführlicher auf diese Produktentscheidung ein.
+Wähle Knowt, wenn eine schnelle Migration und kostenlose Lernmodi wichtiger sind als garantierte Offline-Nutzung oder ein technisch starker Exportweg. Weißt du bereits, dass dir später ein originalgetreuer Export wichtig sein wird, führe den unten beschriebenen Test für Hin- und Rückweg durch, bevor du mehr als ein Set verschiebst.
 
 ## RemNote: kostenlose synchronisierte Notizen und Karten – mit Limits
 

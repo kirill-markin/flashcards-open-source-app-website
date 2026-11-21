@@ -40,7 +40,7 @@ The order matters. Quizzing from an ambiguous source only makes the ambiguity ha
 
 ## Set up Nibomo in Claude
 
-Open the [Nibomo plugin](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory), or go to **Customize → Plugins**, find Nibomo, and click **Add**. If it is already installed, make sure it is enabled.
+Open the [Nibomo plugin](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory), or select **Plugins** in the sidebar, find Nibomo, and click **Add**. If it is already installed, make sure it is enabled.
 
 Connect the Nibomo connector included with the plugin. Follow the sign-in flow, sign in to your Nibomo account or create one, and authorize Claude's access. Choose the intended workspace when asked. This route does not require copying an API token or entering a server URL.
 

@@ -42,7 +42,7 @@ Level I ज़्यादा direct है। Level II ज़्यादा in
 
 ## 2026 topic weights को review budget की तरह इस्तेमाल करें
 
-Official [2026 Level II exam page](https://www.cfainstitute.org/programs/cfa-program/candidate-resources/level-ii-exam) current topic weights publish करता है। मैं इन weights को review budget की तरह लूँगा, हर reading पर cards बनाने के आदेश की तरह नहीं।
+नीचे दिए गए 2026 के topic weights official [Level II exam page](https://www.cfainstitute.org/programs/cfa-program/candidate-resources/level-ii-exam) से लिए गए हैं। मैं इन weights को review budget की तरह लूँगा, हर reading पर cards बनाने के आदेश की तरह नहीं।
 
 | CFA Level II topic | Official 2026 weight | Flashcards का सबसे अच्छा उपयोग |
 | --- | ---: | --- |
@@ -65,7 +65,7 @@ Official [2026 Level II exam page](https://www.cfainstitute.org/programs/cfa-pro
 
 यह Level II के लिए सबसे useful upgrades में से एक है।
 
-Official [2026 Level II topic outline PDF](https://www.cfainstitute.org/sites/default/files/docs/programs/cfa-program/2026-l2-topics-combined.pdf) current readings और learning outcomes list करता है। वही structure सीधे इस्तेमाल कीजिए। Card को सिर्फ़ `equity` या `fixed-income` tag करने के बजाय उसे LOS या reading, topic, और miss के type से tag कीजिए।
+Official [Level II exam page](https://www.cfainstitute.org/programs/cfa-program/candidate-resources/level-ii-exam) पर अपने exam year का topic outline खोलिए। उसमें उस साल की readings और learning outcomes मिलेंगे। वही structure सीधे इस्तेमाल कीजिए। Card को सिर्फ़ `equity` या `fixed-income` tag करने के बजाय उसे LOS या reading, topic, और miss के type से tag कीजिए।
 
 | Tag layer | Example | इससे क्या फायदा होता है |
 | --- | --- | --- |
@@ -135,7 +135,7 @@ Exact formula reading पर depend करेगा, लेकिन pattern व
 
 ## CFA Institute practice questions और mocks को main source रखें
 
-Official [CFA candidate resources page](https://www.cfainstitute.org/programs/cfa-program/candidate-resources) कहता है कि February 2026 exam के लिए Learning Ecosystem में curriculum, practice questions, mock exams, study planner, flashcards, और Practical Skills Module शामिल हैं। यानी material की कमी नहीं है।
+Learning Ecosystem में sign in कीजिए और जिस Level II exam window के लिए आपने register किया है, उसी का curriculum, practice questions और mock exams इस्तेमाल कीजिए। वहाँ study planner, flashcards और Practical Skills Modules भी मिलेंगे। Learning Ecosystem तक पहुँचने का तरीका [CFA Institute की registration और scheduling guide](https://www.cfainstitute.org/programs/cfa-program/candidate-resources/exam-registration-scheduling-guide) में दिया गया है।
 
 और deck building के लिए इससे एक साफ़ rule भी निकलता है: आपके ज़्यादातर cards उन questions से आने चाहिए जो आपने किए, उन paragraphs से नहीं जिन्हें आपने highlight किया। अगर आप official Learning Ecosystem flashcards पहले से use करते हैं, तो उन्हें support material की तरह रखिए। आपका personal deck फिर भी उन्हीं item-set misses और interpretations पर बनना चाहिए जो लगातार points खा रहे हैं।
 

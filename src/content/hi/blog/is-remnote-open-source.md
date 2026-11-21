@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-21"
+retirementReason: "Below the per-URL search and engagement thresholds after 90 days, with no material use found"
+retirementEvidence: "docs/content-retirement/2026-11-21.json#/records/src~1content~1hi~1blog~1is-remnote-open-source.md"
 title: "क्या RemNote 2026 में ओपन सोर्स है? कोड, लोकल डेटा और सेल्फ़-होस्टिंग"
 description: "RemNote का मुख्य ऐप अभी ओपन सोर्स नहीं है। समझें कि GitHub पर मौजूद सार्वजनिक कोड में क्या शामिल है, लोकल नॉलेज बेस और एक्सपोर्ट कितना नियंत्रण देते हैं, और आप क्या सेल्फ़-होस्ट नहीं कर सकते।"
 date: "2026-08-21"

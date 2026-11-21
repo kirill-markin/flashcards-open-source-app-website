@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-21"
+retirementReason: "Below the per-URL search and engagement thresholds after 90 days, with no material use found"
+retirementEvidence: "docs/content-retirement/2026-11-21.json#/records/src~1content~1ru~1blog~1how-to-use-flashcards-for-advanced-chemistry.md"
 title: "Как использовать карточки для углублённой химии в 2026 году: уравнения, лабораторная логика и разбор ошибок"
 description: "Практичный подход к карточкам для углублённой школьной химии: уравнения, равновесие, кислоты и основания, лабораторная интерпретация и ошибки в развёрнутых ответах — без второго учебника в колоде."
 image: "/blog/how-to-use-flashcards-for-advanced-chemistry.png"

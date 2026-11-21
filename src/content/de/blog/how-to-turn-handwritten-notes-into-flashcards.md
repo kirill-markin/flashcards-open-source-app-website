@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-21"
+retirementReason: "Below the per-URL search and engagement thresholds after 90 days, with no material use found"
+retirementEvidence: "docs/content-retirement/2026-11-21.json#/records/src~1content~1de~1blog~1how-to-turn-handwritten-notes-into-flashcards.md"
 title: "Wie du 2026 handschriftliche Notizen in Flashcards verwandelst: mit Fotos, OCR und KI-Entwürfen statt alles neu abzuschreiben"
 description: "Du willst 2026 handschriftliche Notizen in Flashcards verwandeln? Hier ist ein praktischer Workflow: Notizfotos hochladen, den Text mit KI bereinigen lassen, Karten entwerfen und das fertige Set mit FSRS lernen."
 date: "2026-03-27"

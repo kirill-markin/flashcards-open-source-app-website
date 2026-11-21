@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-21"
+retirementReason: "Below the per-URL search and engagement thresholds after 90 days, with no material use found"
+retirementEvidence: "docs/content-retirement/2026-11-21.json#/records/src~1content~1en~1blog~1how-to-turn-obsidian-notes-into-flashcards.md"
 title: "How to Turn Obsidian Notes Into Flashcards in 2026: Markdown Vault to FSRS Cards Without Copy-Paste"
 description: "Want to turn Obsidian notes into flashcards in 2026? Copy or export clean Markdown from your vault, draft cards with AI, and review them with FSRS without rebuilding everything by hand."
 date: "2026-04-25"

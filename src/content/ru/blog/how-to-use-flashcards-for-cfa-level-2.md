@@ -42,7 +42,7 @@ keywords:
 
 ## Используйте веса тем 2026 года как бюджет повторения
 
-На официальной [странице экзамена CFA Level II на 2026 год](https://www.cfainstitute.org/programs/cfa-program/candidate-resources/level-ii-exam) опубликованы актуальные веса тем. Я бы смотрел на эти веса как на бюджет повторения, а не как на приказ делать карточки по каждому reading.
+Веса тем на 2026 год в таблице ниже взяты с официальной [страницы экзамена CFA Level II](https://www.cfainstitute.org/programs/cfa-program/candidate-resources/level-ii-exam). Я бы смотрел на эти веса как на бюджет повторения, а не как на приказ делать карточки по каждому reading.
 
 | Тема CFA Level II | Официальный вес в 2026 | Где карточки полезнее всего |
 | --- | ---: | --- |
@@ -65,7 +65,7 @@ keywords:
 
 Это одно из самых полезных улучшений для Level II, которые я знаю.
 
-Официальный [topic outline CFA Level II на 2026 год](https://www.cfainstitute.org/sites/default/files/docs/programs/cfa-program/2026-l2-topics-combined.pdf) перечисляет актуальные readings и learning outcomes. Используйте эту структуру напрямую. Вместо того чтобы помечать карточку только как `equity` или `fixed-income`, помечайте ее по LOS или reading, теме и типу ошибки.
+На официальной [странице экзамена CFA Level II](https://www.cfainstitute.org/programs/cfa-program/candidate-resources/level-ii-exam) откройте список тем (Topic Outlines) для года, в котором вы сдаете экзамен. В нем указаны readings и learning outcomes. Используйте эту структуру напрямую. Вместо того чтобы помечать карточку только как `equity` или `fixed-income`, помечайте ее по LOS или reading, теме и типу ошибки.
 
 | Уровень тега | Пример | Зачем это нужно |
 | --- | --- | --- |
@@ -135,7 +135,7 @@ Level II легко подталкивает людей к гигантским 
 
 ## Делайте основную часть карточек из практических вопросов и пробников CFA Institute
 
-На официальной [странице ресурсов для кандидатов CFA](https://www.cfainstitute.org/programs/cfa-program/candidate-resources) сказано, что Learning Ecosystem для экзамена в феврале 2026 года включает curriculum, practice questions, mock exams, study planner, flashcards и Practical Skills Modules. Материала более чем достаточно.
+Войдите в Learning Ecosystem и используйте учебную программу, практические вопросы и пробники для экзаменационного окна Level II, на которое вы зарегистрировались. Там же есть планировщик занятий, карточки и Practical Skills Modules. Как получить доступ, описано в [руководстве CFA Institute по регистрации и выбору даты экзамена](https://www.cfainstitute.org/programs/cfa-program/candidate-resources/exam-registration-scheduling-guide).
 
 Это еще и дает простое правило для построения колоды: большинство ваших карточек должно рождаться из вопросов, которые вы уже решали, а не из абзацев, которые вы выделяли маркером. Если вы уже используете официальные карточки Learning Ecosystem, воспринимайте их как вспомогательный материал. Ваша личная колода все равно должна строиться вокруг конкретных ошибок и интерпретаций в item sets, которые продолжают стоить вам баллов.
 

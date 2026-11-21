@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-21"
+retirementReason: "Below the per-URL search and engagement thresholds after 90 days, with no material use found"
+retirementEvidence: "docs/content-retirement/2026-11-21.json#/records/src~1content~1ja~1blog~1quizlet-alternative.md"
 title: "2026年版・オープンソースのQuizlet代替：QuizletとNibomoを比較"
 description: "オープンソースのQuizlet代替を探している人向けに、QuizletとNibomoを学習モード、FSRS、オフライン、AI、共有、インポート、エクスポート、データ管理の面から比較します。"
 date: "2026-03-17"

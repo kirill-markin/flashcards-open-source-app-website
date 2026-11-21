@@ -42,7 +42,7 @@ Level I ist direkter. Level II ist interpretativer, fallbasierter und deutlich w
 
 ## Nutze die Topic Weights 2026 als Review-Budget
 
-Die offizielle [2026 Level II exam page](https://www.cfainstitute.org/programs/cfa-program/candidate-resources/level-ii-exam) veröffentlicht die aktuellen Topic Weights. Ich würde diese Gewichte als Review-Budget behandeln, nicht als Aufforderung, zu jedem Reading Karten zu bauen.
+Die Topic Weights für 2026 in der Tabelle unten stammen von der offiziellen [Level-II-Prüfungsseite](https://www.cfainstitute.org/programs/cfa-program/candidate-resources/level-ii-exam). Ich würde diese Gewichte als Review-Budget behandeln, nicht als Aufforderung, zu jedem Reading Karten zu bauen.
 
 | CFA-Level-II-Thema | Offizielle Gewichtung 2026 | Beste Flashcard-Nutzung |
 | --- | ---: | --- |
@@ -65,7 +65,7 @@ Ich würde außerdem einmal pro Woche die Kartenanzahl pro Thema grob mitzählen
 
 Das ist eines der klarsten Level-II-Upgrades, die ich kenne.
 
-Das offizielle [2026 Level II topic outline PDF](https://www.cfainstitute.org/sites/default/files/docs/programs/cfa-program/2026-l2-topics-combined.pdf) listet die aktuellen Readings und Learning Outcomes. Nutze diese Struktur direkt. Statt eine Karte nur mit `equity` oder `fixed-income` zu versehen, tagge sie nach LOS oder Reading, Thema und Art des Fehlers.
+Öffne auf der offiziellen [Level-II-Prüfungsseite](https://www.cfainstitute.org/programs/cfa-program/candidate-resources/level-ii-exam) die Themenübersicht (Topic Outlines) für dein Prüfungsjahr. Dort findest du die Readings und Learning Outcomes. Nutze diese Struktur direkt. Statt eine Karte nur mit `equity` oder `fixed-income` zu versehen, tagge sie nach LOS oder Reading, Thema und Art des Fehlers.
 
 | Tag-Ebene | Beispiel | Warum es hilft |
 | --- | --- | --- |
@@ -135,7 +135,7 @@ Die genaue Formel hängt vom Reading ab, das Muster bleibt aber gleich. Level II
 
 ## Nutze CFA Institute Practice Questions und Mocks als Hauptquelle
 
-Die offizielle [CFA candidate resources page](https://www.cfainstitute.org/programs/cfa-program/candidate-resources) sagt, dass das Learning Ecosystem für die Prüfung im Februar 2026 das Curriculum, Practice Questions, Mock Exams, einen Study Planner, Flashcards und Practical Skills Modules enthält. Das ist mehr als genug Material.
+Melde dich im Learning Ecosystem an und nutze das Curriculum, die Practice Questions und die Mock Exams für das Level-II-Prüfungsfenster, für das du dich registriert hast. Dort findest du auch einen Study Planner, Flashcards und Practical Skills Modules. Wie du darauf zugreifst, steht im [Leitfaden des CFA Institute zur Registrierung und Terminbuchung](https://www.cfainstitute.org/programs/cfa-program/candidate-resources/exam-registration-scheduling-guide).
 
 Daraus ergibt sich auch eine einfache Regel für den Deckaufbau: Die meisten deiner Karten sollten aus Fragen kommen, die du tatsächlich bearbeitet hast, nicht aus markierten Absätzen. Wenn du bereits die offiziellen Learning Ecosystem Flashcards nutzt, betrachte sie als Unterstützung. Dein persönliches Deck sollte trotzdem um genau die Item-Set-Fehler und Interpretationen gebaut sein, die dich laufend Punkte kosten.
 

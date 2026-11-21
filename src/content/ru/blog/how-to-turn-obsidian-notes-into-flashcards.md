@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-21"
+retirementReason: "Below the per-URL search and engagement thresholds after 90 days, with no material use found"
+retirementEvidence: "docs/content-retirement/2026-11-21.json#/records/src~1content~1ru~1blog~1how-to-turn-obsidian-notes-into-flashcards.md"
 title: "Как превратить заметки из Obsidian в карточки в 2026 году: из Markdown vault в карточки с FSRS без ручного копирования"
 description: "Хотите превратить заметки из Obsidian в карточки в 2026 году? Скопируйте или экспортируйте чистый Markdown из vault, подготовьте черновик карточек с ИИ и повторяйте их с FSRS без ручной пересборки всего материала."
 date: "2026-04-25"

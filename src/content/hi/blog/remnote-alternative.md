@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-21"
+retirementReason: "Below the per-URL search and engagement thresholds after 90 days, with no material use found"
+retirementEvidence: "docs/content-retirement/2026-11-21.json#/records/src~1content~1hi~1blog~1remnote-alternative.md"
 title: "2026 में RemNote के मुफ़्त और ओपन-सोर्स विकल्प"
 description: "नोट्स, PDFs, कार्ड, कीमत और self-hosting के आधार पर RemNote के विकल्पों की तुलना करें। जानें कि क्या migrate होगा, क्या छूटेगा और सुरक्षित बदलाव का अभ्यास कैसे करें।"
 date: "2026-03-19"

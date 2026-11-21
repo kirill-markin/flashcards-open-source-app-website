@@ -40,7 +40,7 @@ Secībai ir nozīme. Ja zināšanas pārbauda pēc neskaidra avota, šo neskaidr
 
 ## Iestati Nibomo darbam ar Claude
 
-Atver [Nibomo spraudni](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory) vai dodies uz **Customize → Plugins**, atrodi Nibomo un nospied **Add**. Ja tas jau ir instalēts, pārliecinies, ka tas ir ieslēgts.
+Atver [Nibomo spraudni](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory) vai sānjoslā atver sadaļu **Plugins**, atrodi Nibomo un nospied **Add**. Ja tas jau ir instalēts, pārliecinies, ka tas ir ieslēgts.
 
 Pievieno spraudnī iekļauto Nibomo savienotāju. Izpildi pierakstīšanās darbības: pieraksties savā Nibomo kontā vai izveido jaunu un atļauj Claude piekļuvi. Ja tiek prasīts, izvēlies paredzēto darbvietu. Šajā variantā nav jākopē API piekļuves tokens vai jāievada servera URL.
 

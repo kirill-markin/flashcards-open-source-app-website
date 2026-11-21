@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-21"
+retirementReason: "Below the per-URL search and engagement thresholds after 90 days, with no material use found"
+retirementEvidence: "docs/content-retirement/2026-11-21.json#/records/src~1content~1es~1blog~1flashcard-lab-review.md"
 title: "Reseña de la app Flashcard Lab (2026): Google Sheets, repetición espaciada y alternativas"
 description: "Una reseña de Flashcard Lab contrastada con fuentes que analiza su flujo de trabajo con Google Sheets, sus aplicaciones móviles, la repetición espaciada, los precios, los permisos y las alternativas."
 date: "2026-08-12"

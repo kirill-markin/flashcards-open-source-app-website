@@ -40,7 +40,7 @@ Die Reihenfolge ist wichtig. Wer sich anhand einer mehrdeutigen Quelle abfragen 
 
 ## Nibomo in Claude einrichten
 
-Öffne das [Nibomo-Plugin](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory) oder gehe zu **Customize → Plugins**, suche nach Nibomo und klicke auf **Add**. Ist es schon installiert, prüfe, ob es aktiviert ist.
+Öffne das [Nibomo-Plugin](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory) oder wähle in der Seitenleiste **Plugins**, suche nach Nibomo und klicke auf **Add**. Ist es schon installiert, prüfe, ob es aktiviert ist.
 
 Verbinde den im Plugin enthaltenen Nibomo-Connector. Folge dem Anmeldeablauf, melde dich bei deinem Nibomo-Konto an oder erstelle eines und erteile Claude Zugriff. Wähle bei der entsprechenden Abfrage den gewünschten Workspace aus. Dafür musst du weder einen API-Token kopieren noch eine Server-URL eingeben.
 

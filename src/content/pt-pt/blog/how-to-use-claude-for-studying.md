@@ -40,7 +40,7 @@ A ordem importa. Responder a perguntas com base numa fonte ambígua só torna es
 
 ## Configurar o Nibomo no Claude
 
-Abra o [plugin do Nibomo](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory), ou vá a **Customize → Plugins**, procure Nibomo e clique em **Add**. Se já estiver instalado, confirme que está ativado.
+Abra o [plugin do Nibomo](https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory), ou selecione **Plugins** na barra lateral, procure Nibomo e clique em **Add**. Se já estiver instalado, confirme que está ativado.
 
 Ligue o conector do Nibomo incluído no plugin. Siga os passos de início de sessão, entre na sua conta Nibomo ou crie uma e autorize o acesso do Claude. Quando lhe for pedido, escolha o espaço de trabalho pretendido. Este método não exige copiar um token de API nem introduzir o URL de um servidor.
 

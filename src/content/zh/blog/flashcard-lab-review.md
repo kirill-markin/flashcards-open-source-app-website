@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-21"
+retirementReason: "Below the per-URL search and engagement thresholds after 90 days, with no material use found"
+retirementEvidence: "docs/content-retirement/2026-11-21.json#/records/src~1content~1zh~1blog~1flashcard-lab-review.md"
 title: "Flashcard Lab 应用评测（2026）：Google Sheets、间隔重复与替代方案"
 description: "一篇经资料核查的 Flashcard Lab 应用评测，涵盖 Google Sheets 工作流、移动应用、间隔重复、价格、权限和替代方案。"
 date: "2026-08-12"

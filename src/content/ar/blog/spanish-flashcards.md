@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-21"
+retirementReason: "Below the per-URL search and engagement thresholds after 90 days, with no material use found"
+retirementEvidence: "docs/content-retirement/2026-11-21.json#/records/src~1content~1ar~1blog~1spanish-flashcards.md"
 title: "بطاقات تعليمية للإسبانية في 2026: المفردات وجنس الأسماء والأفعال والعبارات"
 description: "أنشئ بطاقات عملية لتعلّم الإسبانية تشمل المفردات، وجنس الأسماء، وصيغ الأفعال، وعلامات النبر، والعبارات المفيدة، والفروق الإقليمية من دون مجموعة عامة ضخمة."
 date: "2026-08-10"

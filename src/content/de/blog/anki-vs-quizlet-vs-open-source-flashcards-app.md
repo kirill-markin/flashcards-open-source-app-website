@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-21"
+retirementReason: "Below the per-URL search and engagement thresholds after 90 days, with no material use found"
+retirementEvidence: "docs/content-retirement/2026-11-21.json#/records/src~1content~1de~1blog~1anki-vs-quizlet-vs-open-source-flashcards-app.md"
 title: "Anki vs Quizlet vs Nibomo 2026: Welche Karteikarten-App ist die beste?"
 description: "Anki vs Quizlet vs Nibomo im Praxisvergleich 2026: Spaced Repetition, Offline-Lernen, KI, Import, Export, Preise, Open Source und Datenhoheit."
 image: "/blog/anki-vs-quizlet-vs-open-source-flashcards-app.png"

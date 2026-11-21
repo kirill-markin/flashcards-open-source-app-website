@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-21"
+retirementReason: "Below the per-URL search and engagement thresholds after 90 days, with no material use found"
+retirementEvidence: "docs/content-retirement/2026-11-21.json#/records/src~1content~1es~1blog~1how-to-use-chatgpt-voice-for-language-learning.md"
 title: >-
   Cómo usar ChatGPT Voice para aprender idiomas en 2026: convierte la práctica
   oral en tarjetas que sí recuerdas
