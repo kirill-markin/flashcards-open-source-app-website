@@ -5302,6 +5302,21 @@
     "bytes": 2203312
   },
   {
+    "publicPath": "/blog/postgresql-count-filter-vs-case.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/05a01edce5f696c39cb5bd78995adf39a14bd2a1c7c2d3a422bcd8e74912ca81.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "05a01edce5f696c39cb5bd78995adf39a14bd2a1c7c2d3a422bcd8e74912ca81",
+    "bytes": 226776,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/fa2f3964645468477d659cb3d60c6cd54457aaf824b3b033629df3eb7e841aba.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "fa2f3964645468477d659cb3d60c6cd54457aaf824b3b033629df3eb7e841aba",
+      "bytes": 2646334
+    }
+  },
+  {
     "publicPath": "/blog/present-perfect-simple-vs-continuous.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/df400973803a15cc22c7915b439a4d45c864606e5f09e1e2f71e26ac51de4f8b.png",
     "width": 1672,
