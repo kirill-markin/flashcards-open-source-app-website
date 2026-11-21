@@ -4412,6 +4412,21 @@
     "bytes": 2306417
   },
   {
+    "publicPath": "/blog/loaded-voltage-divider-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/a7a408b63ea9249af8a6e98349f03429fbe1a999e3a21862abaffc26bb3fd9b1.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "a7a408b63ea9249af8a6e98349f03429fbe1a999e3a21862abaffc26bb3fd9b1",
+    "bytes": 144342,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/6419d70ca0ac486e30d9e6ce007febf8567a2e5c0b5ca0d9291f8084160c125a.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "6419d70ca0ac486e30d9e6ce007febf8567a2e5c0b5ca0d9291f8084160c125a",
+      "bytes": 2194466
+    }
+  },
+  {
     "publicPath": "/blog/logarithmic-equations-practice.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/2da699feb4aaf4642f33be21aeb17ba4a1406aa2914f91632802113a3bd8ea93.png",
     "width": 1672,
