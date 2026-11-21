@@ -1043,6 +1043,36 @@
     }
   },
   {
+    "publicPath": "/blog/box-plot-vs-histogram-figure.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/1ab85ea5ad9bc7d25ec938df4a33a23f589e70a64f5d2d73f1c2e2d69bba714d.webp",
+    "width": 1491,
+    "height": 1428,
+    "sha256": "1ab85ea5ad9bc7d25ec938df4a33a23f589e70a64f5d2d73f1c2e2d69bba714d",
+    "bytes": 30306,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/5f1eceaa6d4351c22942bcde4cc0c2d57aa75430bdcf84688959eb98b21d7bf4.png",
+      "width": 1491,
+      "height": 1428,
+      "sha256": "5f1eceaa6d4351c22942bcde4cc0c2d57aa75430bdcf84688959eb98b21d7bf4",
+      "bytes": 67273
+    }
+  },
+  {
+    "publicPath": "/blog/box-plot-vs-histogram.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/b36c1cd4436bb46b762da52e91cab4bed705afcdcc369c792cfa3c73fd8d42cf.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "b36c1cd4436bb46b762da52e91cab4bed705afcdcc369c792cfa3c73fd8d42cf",
+    "bytes": 168682,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/0daa709ed990b965a9c88cedbe35e87ef12ae0772d15efd856cba96a8faacfd5.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "0daa709ed990b965a9c88cedbe35e87ef12ae0772d15efd856cba96a8faacfd5",
+      "bytes": 2345330
+    }
+  },
+  {
     "publicPath": "/blog/brainscape-alternative.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/29338f0715b9f4a3763d0d7633e5ccab4336aae73f3fc1d19f8560c82b6cf7b0.png",
     "width": 1672,
