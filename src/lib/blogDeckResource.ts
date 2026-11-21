@@ -333,6 +333,7 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   "how-to-use-flashcards-for-ap-psychology": { en: "ap-psychology-flashcards" },
   "prospective-vs-retrospective-memory": { en: "ap-psychology-flashcards" },
   "ap-statistics-flashcards": { en: "ap-statistics-flashcards" },
+  "confounding-variable-practice": { en: "ap-statistics-flashcards" },
   "box-plot-vs-histogram": { en: "ap-statistics-flashcards" },
   "residual-plot-practice": { en: "ap-statistics-flashcards" },
   "chi-square-homogeneity-vs-independence": { en: "ap-statistics-flashcards" },
