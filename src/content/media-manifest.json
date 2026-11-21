@@ -77,6 +77,51 @@
     }
   },
   {
+    "publicPath": "/blog/alto-clef-practice-answer.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/330d01932741afdc479671b68666425ce7413741c459504c916fa0d05c034e3a.webp",
+    "width": 1500,
+    "height": 411,
+    "sha256": "330d01932741afdc479671b68666425ce7413741c459504c916fa0d05c034e3a",
+    "bytes": 8228,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/af8c27b58dfac840769aa37c2af63e2554cacabb658fcd77d70eb73f45650abb.png",
+      "width": 1500,
+      "height": 411,
+      "sha256": "af8c27b58dfac840769aa37c2af63e2554cacabb658fcd77d70eb73f45650abb",
+      "bytes": 18482
+    }
+  },
+  {
+    "publicPath": "/blog/alto-clef-practice-exercise.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/a81ee51bf6524b1541786dba0e809df78fa39959704ca74ab059fd4e8f41e5a0.webp",
+    "width": 1500,
+    "height": 713,
+    "sha256": "a81ee51bf6524b1541786dba0e809df78fa39959704ca74ab059fd4e8f41e5a0",
+    "bytes": 14212,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/eb0adaaff5ca87106847f4381645992042441c188a9aeb90ab2088da08d57449.png",
+      "width": 1500,
+      "height": 713,
+      "sha256": "eb0adaaff5ca87106847f4381645992042441c188a9aeb90ab2088da08d57449",
+      "bytes": 33159
+    }
+  },
+  {
+    "publicPath": "/blog/alto-clef-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/da7146f943a74d47b2f27084fa1186e52a2e161c4692b667f50004cb1d46a2d5.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "da7146f943a74d47b2f27084fa1186e52a2e161c4692b667f50004cb1d46a2d5",
+    "bytes": 149066,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/570945a5af37c4f81c140a793caed3150befc6ab02997a3bccd7d1d1051c2c10.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "570945a5af37c4f81c140a793caed3150befc6ab02997a3bccd7d1d1051c2c10",
+      "bytes": 2261220
+    }
+  },
+  {
     "publicPath": "/blog/amino-acid-charge-at-different-ph.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/a459ab31e04f9da296806b42585581e86e40f8845ff083ae7320525614fb02a6.png",
     "width": 1672,
