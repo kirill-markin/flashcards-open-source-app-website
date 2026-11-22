@@ -528,6 +528,21 @@
     }
   },
   {
+    "publicPath": "/blog/anki-no-usable-temporary-folder.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/09763595142939339080f6052ae43397b60c1dfc604b7953e4130b07023328d9.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "09763595142939339080f6052ae43397b60c1dfc604b7953e4130b07023328d9",
+    "bytes": 126602,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/d5ae3309cd19d2de1031ae18d50b00b8b709a1fefa63495856287ffa562df915.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "d5ae3309cd19d2de1031ae18d50b00b8b709a1fefa63495856287ffa562df915",
+      "bytes": 2160380
+    }
+  },
+  {
     "publicPath": "/blog/anki-overdue-reviews-filtered-decks.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/696b022875f30caf0f9f1284f86fa49ff9ae9cd4a3c470fef6c1f02aa6b64c24.webp",
     "width": 1672,
