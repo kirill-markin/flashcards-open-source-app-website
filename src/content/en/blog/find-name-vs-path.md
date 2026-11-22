@@ -165,7 +165,7 @@ It returns three files:
 
 The library file is the surprise. In `./project/src/lib/main.ts`, the `*` consumes `lib/main`, including the slash. The hidden `.draft.ts` matches too.
 
-The quotes matter here. They prevent the shell from expanding `*.ts` before `find` receives it. GNU's [pattern-matching reference](https://www.gnu.org/software/findutils/manual/html_node/Shell-Pattern-Matching.html) describes wildcards matching slashes and leading dots in `find` patterns. Don't apply the shell's usual filename-expansion boundaries to this test. For a one-level search, use a depth limit; the [find -maxdepth and -mindepth guide](/blog/find-maxdepth-mindepth/) shows how to count from the chosen starting point.
+The quotes matter here. They prevent the shell from expanding `*.ts` before `find` receives it. GNU's [pattern-matching reference](https://www.gnu.org/software/findutils/manual/html_node/Shell-Pattern-Matching.html) describes wildcards matching slashes and leading dots in `find` patterns. Don't apply the shell's usual filename-expansion boundaries to this test. For a one-level search, use a depth limit; the [find -maxdepth and -mindepth guide](/blog/find-maxdepth-mindepth/) shows how to count from the chosen starting point. Use the [GNU find depth flashcards](/catalog/packages/gnu-find-depth-flashcards/) to practise choosing the limit and predicting which files are in range.
 
 Now allow any prefix before a `src` component:
 

@@ -252,7 +252,7 @@ cache/protected/keep.tmp
 cache/two words.tmp
 ```
 
-`-mindepth 1` keeps the starting `cache` directory out of the action, even if it becomes empty. Descendants can still qualify as their children disappear. GNU's [directory traversal reference](https://www.gnu.org/software/findutils/manual/html_node/Directories.html) describes the depth and minimum-depth options.
+`-mindepth 1` keeps the starting `cache` directory out of the action, even if it becomes empty. Descendants can still qualify as their children disappear. GNU's [directory traversal reference](https://www.gnu.org/software/findutils/manual/html_node/Directories.html) describes the depth and minimum-depth options. To practise counting from the starting directory with list-only commands, try the [GNU find depth flashcards](/catalog/packages/gnu-find-depth-flashcards/).
 
 The preview asked which directories were empty in the original tree. The deletion also encountered a directory made empty by an earlier removal. No other process needed to change anything for those sets to differ.
 
@@ -333,4 +333,4 @@ For broader terminal practice, Nibomo's [Linux Command Line Flashcards — 100 c
 
 If the next cleanup also needs an age condition, work through [find -mtime](/blog/find-mtime/) separately before adding it to the file selection. Keep the final preview and survivor check tied to the exact command and tree you intend to use.
 
-*Disclosure: Nibomo publishes this site and offers the linked deck in its own catalog. AI assisted substantially with research, drafting, editing, fixture execution, and exercise construction; the illustration is AI-generated. Runtime evidence covers nine command variants on disposable native macOS trees on October 31, 2026. GNU documentation was consulted; no GNU/Linux runtime execution, human editorial review, or learning-outcome study is claimed. The lab didn't test symlinks, concurrent changes, ACL or permission failures, or network filesystems. `-delete`, `-empty`, and `-mindepth` are extensions, so these commands aren't POSIX-only recipes.*
+*Disclosure: Nibomo publishes this site and offers the linked decks in its own catalog. AI assisted substantially with research, drafting, editing, fixture execution, and exercise construction; the illustration is AI-generated. Runtime evidence covers nine command variants on disposable native macOS trees on October 31, 2026. GNU documentation was consulted; no GNU/Linux runtime execution, human editorial review, or learning-outcome study is claimed. The lab didn't test symlinks, concurrent changes, ACL or permission failures, or network filesystems. `-delete`, `-empty`, and `-mindepth` are extensions, so these commands aren't POSIX-only recipes.*

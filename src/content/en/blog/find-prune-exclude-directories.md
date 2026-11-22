@@ -239,6 +239,8 @@ Use `-prune` when you need to skip descent. Negative `-path` tests filter the se
 
 There is one traversal option to check before trusting this pattern: `-depth` processes contents before their containing directory. Adding it to the name-pruning command returned all eight `.ts` files in this fixture; pruning the directory came too late. GNU's directory reference also notes that `-delete` implies `-depth`. These list-only examples therefore aren't a recipe for replacing `-print` with `-delete`.
 
+A minimum depth can also stop `-prune` from running. With `-mindepth 2`, `find` skips tests and actions on directories one level down and can still enter them. The [GNU find depth flashcards](/catalog/packages/gnu-find-depth-flashcards/) include practice predicting which paths appear when the pruning action is skipped.
+
 ## Six small problems to solve before checking
 
 Use the unchanged nine-file fixture. Write down paths or explain the failed branch before reading the answers.
@@ -273,4 +275,4 @@ Keep practice tied to the decisions you actually forget. You don't need a card f
 
 Once directory selection is right, use [find -mtime](/blog/find-mtime/) to choose files by age, or [find -exec vs xargs](/blog/find-exec-vs-xargs/) to check how selected paths reach another program. Those are separate decisions: first choose the files, then check the handoff.
 
-*Disclosure: Nibomo publishes this site and offers the linked deck in its own catalog. AI assisted substantially with research, writing, editing, fixture execution, and exercise construction; the illustration is AI-generated. Nine command variants and two additional traversal-observation runs used demonstration files on native macOS on October 20, 2026. GNU documentation was consulted; no GNU/Linux runtime test, human editorial review, speed benchmark, or learning-outcome study is claimed.*
+*Disclosure: Nibomo publishes this site and offers the linked decks in its own catalog. AI assisted substantially with research, writing, editing, fixture execution, and exercise construction; the illustration is AI-generated. Nine command variants and two additional traversal-observation runs used demonstration files on native macOS on October 20, 2026. GNU documentation was consulted; no GNU/Linux runtime test, human editorial review, speed benchmark, or learning-outcome study is claimed.*
