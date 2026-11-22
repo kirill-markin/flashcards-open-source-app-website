@@ -5484,6 +5484,21 @@
     }
   },
   {
+    "publicPath": "/blog/pseudo-first-order-kinetics-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/eae5c9d535b251ca348bdfc3fd1aa4624ffefa2061e8876c159ac0b8eaafa07f.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "eae5c9d535b251ca348bdfc3fd1aa4624ffefa2061e8876c159ac0b8eaafa07f",
+    "bytes": 148256,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/9c2da2c0d5c81e75978c2ba4fd24b474ca191e6bcf4560ef47cbd85d5f879263.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "9c2da2c0d5c81e75978c2ba4fd24b474ca191e6bcf4560ef47cbd85d5f879263",
+      "bytes": 2236996
+    }
+  },
+  {
     "publicPath": "/blog/python-iterator-exhaustion.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/abbd9e9fe6ca831027c3a48d29ea55ed97150997d803edbf4cb9c562e9ead81d.webp",
     "width": 1672,
