@@ -4811,6 +4811,21 @@
     }
   },
   {
+    "publicPath": "/blog/mochi-new-card-limit.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/1df64894a0a497b40c618f0e9d4f8ae38243aa2b8843792be4f6086dddb3b457.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "1df64894a0a497b40c618f0e9d4f8ae38243aa2b8843792be4f6086dddb3b457",
+    "bytes": 269870,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/9d60620578d5082eb1bfebd9458fd0fa8fa9120ac76e4c1fb9f0ebd861fa8d4b.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "9d60620578d5082eb1bfebd9458fd0fa8fa9120ac76e4c1fb9f0ebd861fa8d4b",
+      "bytes": 2900514
+    }
+  },
+  {
     "publicPath": "/blog/mochi-reverse-cards.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/7f963d606a441c9616f7583b0471c6f3da61ffc43f3641186afcb2607a51160f.png",
     "width": 1536,
