@@ -100,3 +100,5 @@ Leaving the whole phrase blank makes you choose how to present the meaning and b
 Finally, try a new situation without copying Mina's sentences. At a community garden, Arun has put eight seedlings in the ground. He's spent the morning digging and has just stopped to drink water. Some beds remain unfinished. Write one sentence reporting the completed planting total and another explaining his muddy boots through recent activity.
 
 Possible answers: “Arun **has planted** eight seedlings” and “Arun **has been digging** all morning.” The second remains natural during his break. It doesn't tell us that every bed is ready. On your next review, keep the intended messages and change the verbs again.
+
+To make the same choice from a past moment, try the [past perfect simple vs continuous flashcards](/catalog/packages/past-perfect-simple-vs-continuous-flashcards/).

@@ -68,4 +68,6 @@ Cover the answers and say each one aloud. Try the same cards tomorrow and see wh
 | At 4 p.m., Jo found the painter in the hallway. “He had been painting the kitchen.” What would Jo need to check before marking the job complete? | Whether he had finished painting the whole kitchen. *Had been painting* reports the earlier activity. |
 | “When the workshop moved, Kim ___ the same drill for eight years.” (*own*) | **Had owned.** Possession is a state. The move is the past moment the sentence looks back from. |
 
+For spaced practice, try the [past perfect simple vs continuous flashcards](/catalog/packages/past-perfect-simple-vs-continuous-flashcards/) on completed results, earlier activity, and duration.
+
 *AI assisted with drafting, checking the grammar, and creating the examples. The cover illustration is AI-generated.*

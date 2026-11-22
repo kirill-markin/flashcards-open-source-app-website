@@ -67,6 +67,8 @@ Past perfect simple uses **had + past participle** for every subject:
 
 Past perfect can also describe a state lasting up to a past moment: “At the start of the tournament, I **had known** my teammate for three years.” Knowing that person may continue afterward; the tense doesn't say the relationship ended. Present perfect looks back from now instead: “I **have known** my teammate for three years.” For that time frame, use the [present perfect vs past simple lesson](/blog/present-perfect-vs-past-simple/).
 
+Once you've found the past moment, use the [past perfect simple vs continuous flashcards](/catalog/packages/past-perfect-simple-vs-continuous-flashcards/) to practice reporting a completed result or describing earlier activity.
+
 ## Try nine past perfect vs past simple exercises
 
 Use past simple or past perfect simple with the supplied verbs. Explain the timeline as well as giving the answer. Some questions accept both forms. These are original, imagined situations; preserve the meaning each prompt asks for.
