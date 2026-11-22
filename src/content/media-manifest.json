@@ -787,6 +787,21 @@
     "bytes": 2101179
   },
   {
+    "publicPath": "/blog/anki-unbury-one-card.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/8d6e169a48ce2824c51d6d25e1024be715abe64a2896c98c7d67c9dcf5c86b7e.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "8d6e169a48ce2824c51d6d25e1024be715abe64a2896c98c7d67c9dcf5c86b7e",
+    "bytes": 166676,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/ec9211697bddc1eb89138ac9cff405db5bd883a82e48c8518b8b6c595286e180.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "ec9211697bddc1eb89138ac9cff405db5bd883a82e48c8518b8b6c595286e180",
+      "bytes": 2356599
+    }
+  },
+  {
     "publicPath": "/blog/anki-undo-review.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/7a0c8ab867d18451cb03f4a5cc8f6068e97d32bddf2df2f3e55a850eb2b216d9.webp",
     "width": 1672,
