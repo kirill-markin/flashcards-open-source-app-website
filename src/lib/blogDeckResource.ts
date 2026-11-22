@@ -303,6 +303,7 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   "hypergeometric-distribution-practice": { en: "probability-without-replacement-flashcards" },
   "relative-risk-vs-odds-ratio-practice": { en: "relative-risk-odds-ratio-flashcards" },
   "random-sampling-vs-random-assignment": { en: "random-sampling-vs-random-assignment-flashcards" },
+  "experimental-unit-practice": { en: "random-sampling-vs-random-assignment-flashcards" },
   "survey-bias-practice": { en: "random-sampling-vs-random-assignment-flashcards" },
   "negative-reinforcement-vs-punishment": { en: "operant-conditioning-flashcards" },
   "proactive-vs-retroactive-interference": { en: "proactive-retroactive-interference-flashcards" },

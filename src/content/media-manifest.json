@@ -2070,6 +2070,21 @@
     }
   },
   {
+    "publicPath": "/blog/experimental-unit-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/0f5e9d6cddc9a408567172def67f2de761712b1e1aa9fbc47ed66e37d27b24dd.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "0f5e9d6cddc9a408567172def67f2de761712b1e1aa9fbc47ed66e37d27b24dd",
+    "bytes": 193124,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/89785dcda45d9d708990eb69fd92c7e6867fda226885de2890bf1a661caa390f.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "89785dcda45d9d708990eb69fd92c7e6867fda226885de2890bf1a661caa390f",
+      "bytes": 2545832
+    }
+  },
+  {
     "publicPath": "/blog/export-selected-anki-cards.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/cab529222c52a44a9ece1298849d839e0cc1c3d954f493324fd96ae0a4bc21a6.webp",
     "width": 1672,
