@@ -2488,6 +2488,21 @@
     "bytes": 1975312
   },
   {
+    "publicPath": "/blog/gemini-notebook-flashcards-to-anki.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/9039be31ec223e00ec01d2d95c225f037b4e30f259657923713dadf286ede796.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "9039be31ec223e00ec01d2d95c225f037b4e30f259657923713dadf286ede796",
+    "bytes": 284232,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/4d834b77ae220b3cb7c176359e983ec8be90e22c2ef9b6240314342b3e482742.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "4d834b77ae220b3cb7c176359e983ec8be90e22c2ef9b6240314342b3e482742",
+      "bytes": 3026182
+    }
+  },
+  {
     "publicPath": "/blog/geometric-distribution-practice.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/4524e352cd6e1432e8e3dc43ce927da45e2afa21560821277bc69b3fd40aabe8.webp",
     "width": 1672,
