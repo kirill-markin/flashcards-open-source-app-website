@@ -4931,6 +4931,21 @@
     }
   },
   {
+    "publicPath": "/blog/mochi-reset-review-history.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/c4d022c845a2bbf7879d10deac4a4520689f5935f48f749a91aa25f5ea484e92.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "c4d022c845a2bbf7879d10deac4a4520689f5935f48f749a91aa25f5ea484e92",
+    "bytes": 118122,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/1ae912141dda7abc796481a7a147e743783ae6512722014ae381da96448355df.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "1ae912141dda7abc796481a7a147e743783ae6512722014ae381da96448355df",
+      "bytes": 2146238
+    }
+  },
+  {
     "publicPath": "/blog/mochi-reverse-cards.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/7f963d606a441c9616f7583b0471c6f3da61ffc43f3641186afcb2607a51160f.png",
     "width": 1536,
