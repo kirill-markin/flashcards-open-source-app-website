@@ -1551,6 +1551,21 @@
     }
   },
   {
+    "publicPath": "/blog/confusion-matrix-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/8fea52e30495c0fcfc69e3867ebff19b343537cec2bb280d9c811ca66f5856dc.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "8fea52e30495c0fcfc69e3867ebff19b343537cec2bb280d9c811ca66f5856dc",
+    "bytes": 189054,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/566b177a40a09ccd51229798350e8d27fa5572b366005c37fda6383a99f46ad7.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "566b177a40a09ccd51229798350e8d27fa5572b366005c37fda6383a99f46ad7",
+      "bytes": 2511498
+    }
+  },
+  {
     "publicPath": "/blog/conjugate-acid-base-pairs.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/665c484520c7b8a6765a25157f14bd91dc1b92a97c9bcc6d10058e91aea1a6bf.png",
     "width": 1672,
