@@ -140,7 +140,7 @@ Try the questions before reading the answers. Write what each ratio part represe
 
 ## Repair the decision you missed
 
-After checking an answer, name the error before doing another calculation: wrong direction, wrong total, wrong given group, or an unjustified equal-likelihood assumption. A short card can make that particular decision easier to recall.
+After checking an answer, name the error before doing another calculation: wrong direction, wrong total, wrong given group, or an unjustified equal-likelihood assumption. A short card can make that particular decision easier to recall. Use the [odds vs probability flashcards](/catalog/packages/odds-vs-probability-flashcards/) to practice converting in both directions and choosing between the total and the complement.
 
 | Flashcard front | Flashcard back |
 |---|---|

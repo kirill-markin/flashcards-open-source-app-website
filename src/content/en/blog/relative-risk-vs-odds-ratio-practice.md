@@ -45,6 +45,8 @@ For odds, divide defective by not defective within each row:
 - Odds in A = 24/76 = 6/19.
 - Odds in B = 12/108 = 1/9.
 
+Use the [odds vs probability flashcards](/catalog/packages/odds-vs-probability-flashcards/) to practice converting between odds and probability within one group.
+
 Now divide the odds:
 
 **OR for A compared with B = (24/76)/(12/108) = 54/19 ≈ 2.8421.**
