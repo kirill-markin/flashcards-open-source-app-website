@@ -35,6 +35,7 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   "pcr-gel-electrophoresis-practice": { en: "ap-biology-flashcards-complete-course-review" },
   "buoyancy-practice": { en: "ap-physics-1-flashcards" },
   "torque-lever-arm-practice": { en: "ap-physics-1-flashcards" },
+  "find-empty": { en: "gnu-find-depth-flashcards" },
   "find-maxdepth-mindepth": { en: "gnu-find-depth-flashcards" },
   "crossing-over-vs-independent-assortment": { en: "ap-biology-flashcards-complete-course-review" },
   "le-chatelier-principle-practice": { en: "ap-chemistry-flashcards" },
