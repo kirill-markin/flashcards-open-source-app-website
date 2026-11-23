@@ -4608,6 +4608,21 @@
     }
   },
   {
+    "publicPath": "/blog/memoization-grid-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/80600f94c5a38c1dc53984afe114623ad4e8c053a0df2838d36867992dcd4619.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "80600f94c5a38c1dc53984afe114623ad4e8c053a0df2838d36867992dcd4619",
+    "bytes": 423010,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/e76f64fe782ef82fbf124e17a92b7caa9d2741f613d731f189bc3f164f30f177.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "e76f64fe782ef82fbf124e17a92b7caa9d2741f613d731f189bc3f164f30f177",
+      "bytes": 3302548
+    }
+  },
+  {
     "publicPath": "/blog/memrise-alternative.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/368c28723d6584497416a6c6e445ac6e5f3cc6d29e80e55b6c71ebd84f5f9d61.png",
     "width": 1672,
