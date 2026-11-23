@@ -344,6 +344,7 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   "residual-plot-practice": { en: "ap-statistics-flashcards" },
   "chi-square-homogeneity-vs-independence": { en: "ap-statistics-flashcards" },
   "paired-vs-independent-samples": { en: "ap-statistics-flashcards" },
+  "matched-pairs-design-practice": { en: "ap-statistics-flashcards" },
   "comptia-a-plus-flashcards": { en: "comptia-a-plus-220-1201-220-1202-flashcards" },
   "comptia-network-plus-flashcards": { en: "comptia-network-plus-n10-009-flashcards" },
   "how-to-use-flashcards-for-security-plus": { en: "comptia-security-plus-sy0-701-flashcards" },
