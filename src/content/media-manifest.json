@@ -4585,6 +4585,21 @@
     }
   },
   {
+    "publicPath": "/blog/matched-pairs-design-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/9489b698bde7ebb3e3a3ea3284e9ced9c32acbf5d54d0ae1930b8c02b844f267.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "9489b698bde7ebb3e3a3ea3284e9ced9c32acbf5d54d0ae1930b8c02b844f267",
+    "bytes": 172706,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/ad2975d210fe42b09ec0ccb8ad36541c74dc0e4db4e11610c867e22992abd49b.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "ad2975d210fe42b09ec0ccb8ad36541c74dc0e4db4e11610c867e22992abd49b",
+      "bytes": 2367000
+    }
+  },
+  {
     "publicPath": "/blog/matrix-multiplication-practice.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/302ba96626dbe552ce0f54d46328f7e9c4e13cddd0239cde162e014a7fae18e2.webp",
     "width": 1672,
