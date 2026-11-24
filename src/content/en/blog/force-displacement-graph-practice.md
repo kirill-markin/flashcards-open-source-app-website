@@ -157,6 +157,8 @@ After a full problem, save the decision you missed rather than copying every lin
 | Does negative force always do negative work? | No. Check displacement direction. A leftward force does positive work during leftward displacement. |
 | Does zero net work mean constant speed throughout the interval? | It gives equal endpoint kinetic energies. Speed may change between them. |
 
+For a shorter round of practice, try the [force–displacement graph flashcards](/catalog/packages/force-displacement-graph-flashcards/). Read signed work from new graphs, then use net work to find a particle's speed or check whether it reaches a given position.
+
 Nibomo's [AP Physics 1 flashcards in English](/catalog/packages/ap-physics-1-flashcards/) contain 400 cards covering the broader course, including net work, nonnegative kinetic energy, and force–position areas. They are text cards, not a set of 400 illustrated graph problems.
 
 Regular active recall means answering before you reveal the explanation. Spacing those reviews over time helps with long-term retention. Pair that review with fresh physics problems so you also practice choosing and applying the rules: draw the axes, calculate signed areas, and check reachability before looking at an answer. The [physics flashcard guide](/blog/how-to-use-flashcards-for-algebra-based-physics-1/) gives more examples of separating short recall prompts from full solutions.

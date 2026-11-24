@@ -25,7 +25,7 @@ For the cart’s change in horizontal momentum, use the **net horizontal force**
 - Divide momentum by the cart’s mass to find its signed velocity, `v = p / m`.
 - Divide net impulse by the interval’s duration to find average net force, `F_avg = J_net / Δt`.
 
-On a force–position graph, use the force component along the position axis and follow the direction of travel. The signed area gives work in joules. Try the [force–displacement graph worksheet](/blog/force-displacement-graph-practice/).
+On a force–position graph, use the force component along the position axis and follow the direction of travel. The signed area gives work in joules. Try the [force–displacement graph worksheet](/blog/force-displacement-graph-practice/) for a worked example, or use the [force–displacement graph flashcards](/catalog/packages/force-displacement-graph-flashcards/) to practice reading work from new graphs.
 
 ## Track the cart’s momentum
 
