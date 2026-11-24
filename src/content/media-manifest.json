@@ -1665,6 +1665,21 @@
     }
   },
   {
+    "publicPath": "/blog/density-unit-cancellation-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/6a162999f5f39ae925cec17e1b00766c7a77c8d722c65efb561a6b4cfef1bb65.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "6a162999f5f39ae925cec17e1b00766c7a77c8d722c65efb561a6b4cfef1bb65",
+    "bytes": 211348,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/d3e25b0280e54328652e31516788c2536e5549948561393fed629043138bf373.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "d3e25b0280e54328652e31516788c2536e5549948561393fed629043138bf373",
+      "bytes": 2601529
+    }
+  },
+  {
     "publicPath": "/blog/density-unit-conversion-practice.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/0ef6f70b36d0ba70a5de8108c48d58cd2d879e482d3a412ab3f0e347d1824a51.webp",
     "width": 1672,
