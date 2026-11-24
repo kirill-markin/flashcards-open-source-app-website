@@ -1490,6 +1490,21 @@
     "bytes": 2046171
   },
   {
+    "publicPath": "/blog/concert-pitch-transposition-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/0cc6fb905dc376e974edfeaff0097c695f6ffcb131fdb06f57844193e95449f7.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "0cc6fb905dc376e974edfeaff0097c695f6ffcb131fdb06f57844193e95449f7",
+    "bytes": 280484,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/d83c244ba5edac9cbefe669f7ccbcd7839df4babffee421d21f38b6e6d2f7193.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "d83c244ba5edac9cbefe669f7ccbcd7839df4babffee421d21f38b6e6d2f7193",
+      "bytes": 2877427
+    }
+  },
+  {
     "publicPath": "/blog/conditional-probability-two-way-tables.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/bff9fafc2e723a6e4c99f95bfc2db0098c1b142fa22c050284b6a4fc5062a144.png",
     "width": 1672,
