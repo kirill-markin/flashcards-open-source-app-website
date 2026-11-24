@@ -303,6 +303,7 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   "bayes-theorem-practice": { en: "bayes-theorem-base-rate-flashcards" },
   "law-of-total-probability-practice": { en: "bayes-theorem-base-rate-flashcards" },
   "conditional-probability-two-way-tables": { en: "conditional-probability-two-way-table-flashcards" },
+  "reverse-probability-tree": { en: "conditional-probability-two-way-table-flashcards" },
   "conditional-probability-venn-diagrams": { en: "conditional-probability-two-way-table-flashcards" },
   "hypergeometric-distribution-practice": { en: "probability-without-replacement-flashcards" },
   "odds-vs-probability-practice": { en: "odds-vs-probability-flashcards" },
