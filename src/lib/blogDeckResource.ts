@@ -315,6 +315,7 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   "bass-clef-key-signature-practice": { en: "circle-of-fifths-flashcards" },
   "relative-vs-parallel-minor": { en: "relative-vs-parallel-minor-flashcards" },
   "compound-intervals-practice": { en: "music-interval-flashcards" },
+  "concert-pitch-transposition-practice": { en: "music-interval-flashcards" },
   "triad-chord-spelling": { en: "triad-chord-spelling-flashcards" },
   "seventh-chord-inversions-practice": { en: "seventh-chord-inversion-flashcards" },
   "bass-clef-notes": { en: "music-note-flashcards-treble-bass" },
