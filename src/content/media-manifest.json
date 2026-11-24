@@ -369,6 +369,21 @@
     "bytes": 2762439
   },
   {
+    "publicPath": "/blog/anki-find-cards-without-audio.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/6d01233203525ff125fda03cbad34059f0542b43c2915d39c71b1405055a3996.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "6d01233203525ff125fda03cbad34059f0542b43c2915d39c71b1405055a3996",
+    "bytes": 236476,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/94c894acbf980bc03b550e654eab2d85f08a0439d6baf4b4277176f46f7464f2.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "94c894acbf980bc03b550e654eab2d85f08a0439d6baf4b4277176f46f7464f2",
+      "bytes": 2812146
+    }
+  },
+  {
     "publicPath": "/blog/anki-find-hidden-cards.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/57c109eea0a3a3e460beb97ea4395d6f50730d9e3b1640d7126e72d25580d287.webp",
     "width": 1672,
