@@ -353,6 +353,21 @@
     }
   },
   {
+    "publicPath": "/blog/anki-easy-days.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/2bd6e39bee7e2edfd0c9d9486a3c1c41f645aad6dc2a0e2dfebdbc060cfd2d97.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "2bd6e39bee7e2edfd0c9d9486a3c1c41f645aad6dc2a0e2dfebdbc060cfd2d97",
+    "bytes": 221800,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/27a01230a5ed9f33b089e9119028b71e63e5830cb1faf1ade7ce57834709c85b.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "27a01230a5ed9f33b089e9119028b71e63e5830cb1faf1ade7ce57834709c85b",
+      "bytes": 2541077
+    }
+  },
+  {
     "publicPath": "/blog/anki-filtered-decks-without-rescheduling.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/bad824c84b3d0a8328150c966d053aa04a39c8acc0a15c520aa4ac051e665b0a.png",
     "width": 1672,
