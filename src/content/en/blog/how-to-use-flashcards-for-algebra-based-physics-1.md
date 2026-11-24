@@ -124,6 +124,8 @@ Examples of prompts worth keeping:
 
 One heroic card called `energy and momentum formulas` will be hard to answer and harder to grade. Smaller cards expose exactly which distinction is still slow.
 
+The [force–displacement graph flashcards](/catalog/packages/force-displacement-graph-flashcards/) give you short prompts on reading signed work from a graph and using net work to find the change in kinetic energy.
+
 ## Rotation, oscillations, and fluids need comparison cards
 
 Later units add new quantities, but many of their relationships connect to earlier ideas. Comparison cards make those connections explicit without squeezing two chapters onto one back.

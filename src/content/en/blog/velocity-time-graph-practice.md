@@ -31,6 +31,8 @@ Area above zero contributes positive displacement; area below zero contributes n
 
 A negative velocity means motion in the chosen negative direction. It doesn't tell you which side of the origin the cart occupies. The [distance and displacement guide](/blog/distance-vs-displacement/) works through that coordinate distinction.
 
+To practice the same area arithmetic with different axes, try the [force–displacement graph flashcards](/catalog/packages/force-displacement-graph-flashcards/). On a force–position graph, follow the direction of travel when using area to find work in joules.
+
 ## One cart, one exact graph
 
 This is an idealized motion model: **straight lines connect consecutive points**. With that condition, the areas and crossing times are exact.

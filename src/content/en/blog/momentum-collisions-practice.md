@@ -162,7 +162,7 @@ Try these on paper before reading the answers. Questions 1–6 use the original 
 7. **Net horizontal impulse −3 N·s; average net horizontal force −150 N.** `Δv = −8 − (+12) = −20 m/s`, so `J = 0.15(−20) = −3 N·s` and `F_average = −3/0.020 = −150 N`. Both negative signs mean leftward. Subtracting speeds gives `8 − 12 = −4 m/s`, which omits the reversal. The momentum check is `p_initial = +1.8`, `p_final = −1.2`, and `Δp = −3 kg·m/s`.
 8. **Impulse +1.5 N·s; final velocity +1 m/s; average net horizontal force +3 N.** The complete triangular area gives `J = ½ × 0.50 × 6 = +1.5 N·s`. Initial momentum is `0.50(−2) = −1 kg·m/s`; add the impulse to obtain `p_final = +0.5 kg·m/s`. Dividing by 0.50 kg gives `v = +1 m/s`. The average force is `1.5/0.50 = +3 N`, half the triangle's peak. A positive impulse has carried the object from leftward to rightward motion.
 
-For question 8, check the horizontal axis before calculating area. A force–time area gives impulse; a [force–displacement area gives work](/blog/force-displacement-graph-practice/).
+For question 8, check the horizontal axis before calculating area. Area on a force–time graph gives impulse. On a [force–displacement graph](/blog/force-displacement-graph-practice/), it gives work. Try the [flashcards on signed work](/catalog/packages/force-displacement-graph-flashcards/) to practice the work calculation on new graphs.
 
 ## Review the decision you missed
 
