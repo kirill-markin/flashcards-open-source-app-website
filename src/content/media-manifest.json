@@ -6261,6 +6261,21 @@
     "bytes": 2389508
   },
   {
+    "publicPath": "/blog/reverse-probability-tree.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/8bb1aa1dd186b2aedeb62d7999f26523d0d78194ad9a3a60f2098697401c2f33.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "8bb1aa1dd186b2aedeb62d7999f26523d0d78194ad9a3a60f2098697401c2f33",
+    "bytes": 229334,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/322affb8a79e712b40332ec9fac507f8f6423a767500888dae4536b78c71fad3.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "322affb8a79e712b40332ec9fac507f8f6423a767500888dae4536b78c71fad3",
+      "bytes": 2678689
+    }
+  },
+  {
     "publicPath": "/blog/rioplatense-spanish-voseo-household.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/d53f71f06121eb85ccab6b77c7d350139b0590003181ff1e8add11cb1d1d1886.webp",
     "width": 1672,
