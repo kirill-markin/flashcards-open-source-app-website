@@ -2834,6 +2834,21 @@
     }
   },
   {
+    "publicPath": "/blog/gizmo-magic-import-check-cards.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/2f7699d9711c1823f2a095a7d7f252eddfe43d93d120f55358eac40988be8cef.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "2f7699d9711c1823f2a095a7d7f252eddfe43d93d120f55358eac40988be8cef",
+    "bytes": 89316,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/2b503358642c6c847952de81205550e4e30a453266e12fc4a70e05c8e5270dbd.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "2b503358642c6c847952de81205550e4e30a453266e12fc4a70e05c8e5270dbd",
+      "bytes": 2010815
+    }
+  },
+  {
     "publicPath": "/blog/gizmo-to-anki.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/5ad1d1a70bb2123be8ded5fe90b93ba1daec68dd1a6d554edd37388b70790273.webp",
     "width": 1672,
