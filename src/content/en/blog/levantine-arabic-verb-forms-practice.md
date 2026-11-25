@@ -25,6 +25,8 @@ Listen to what changes between *fataḥ* and *byiftaḥ*. The present form begin
 
 Start with *byiktub*, “he writes.” If she takes over the same weekly job, it’s **بتكتب** (*btiktub*). If we do it, it’s **منكتب** (*mniktub*). Keep *-iktub* and change the start of the word. Now move “we” to yesterday. You need **كتبنا** (*katabna*), with *-na* at the end. [Yallah Speak’s Beirut conjugation table, which writes the short vowels differently](https://www.yallahspeak.com/worksheets/lebanese-arabic/lebanese-arabic-verbs)
 
+To practice saying what you do yourself, try [changing everyday habits from “he” or “she” to “I”](/blog/lebanese-arabic-first-person-present-practice/). Recall more “I” forms from English cues with the [First-Person Present in Lebanese Arabic flashcards](/catalog/packages/lebanese-arabic-first-person-present-flashcards/).
+
 “Come” needs its own pair. **جيت** (*jīt*) is “I came,” and **بجي** (*biji*) is “I come.” For “he came,” use **إجا** (*ija*). Here *j* sounds like the *s* in “measure,” *sh* as in “ship,” and *ḥ* is the deeper throat sound written ح. A bar over a vowel, as in *jīt*, marks a long vowel. [Lingualism’s pronunciation guide and Table 1](https://files.lingualism.com/samples/SAMPLE-Levantine-Arabic-Verbs-Lingualism.pdf)
 
 ## Ten scenes to try aloud

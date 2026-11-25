@@ -46,6 +46,9 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   "japanese-small-tsu": { en: "basic-hiragana-romaji" },
   "hiragana-and-katakana-practice": { en: "basic-hiragana-romaji" },
   "japanese-masu-dictionary-te-form": { en: "japanese-masu-dictionary-te-form" },
+  "japanese-everyday-polite-phrases-russian-practice": {
+    ru: "japanese-everyday-polite-phrases-russian-speakers",
+  },
   "modern-greek-vocabulary-flashcards": { en: "modern-greek-everyday-vocabulary" },
   "latin-prepositions-conjunctions": { de: "latin-prepositions-conjunctions-german-speakers" },
   "latin-core-nouns-verbs-practice": { de: "latin-core-nouns-verbs-german-speakers" },
@@ -53,10 +56,15 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   "persian-vocabulary-flashcards": { en: "persian-everyday-vocabulary" },
   "thai-alphabet-flashcards": { it: "thai-alphabet-italian-speakers" },
   "levantine-arabic-verb-forms-practice": { en: "levantine-arabic-everyday-verb-forms" },
+  "lebanese-arabic-first-person-present-practice": {
+    en: "lebanese-arabic-first-person-present-flashcards",
+  },
   "spanish-flashcards": { de: "everyday-spanish-german-speakers" },
+  "spanish-market-cafe-french-practice": { fr: "spanish-market-cafe-vocabulary-french-speakers" },
   "rioplatense-spanish-voseo-household": {
     ru: "rioplatense-spanish-voseo-household-russian-speakers",
   },
+  "spanish-verb-forms-french-speakers": { fr: "spanish-verb-forms-french-speakers" },
   "hungarian-shop-cafe-phrases-practice": { ru: "hungarian-shops-cafes-russian-speakers" },
   "dutch-everyday-vocabulary-flashcards": {
     en: "dutch-home-work-family-vocabulary",
@@ -73,12 +81,19 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
     ru: "everyday-english-vocabulary-russian-speakers",
   },
   "english-vocabulary-polish-speakers": { pl: "english-everyday-vocabulary-polish-speakers" },
+  "english-word-meaning-in-context-practice": {
+    "zh-hant": "english-context-vocabulary-traditional-chinese",
+  },
   "russian-beginner-vocabulary-flashcards": { en: "russian-beginner-everyday-vocabulary" },
+  "russian-clothing-wear-put-on-practice": { en: "russian-clothes-wear-put-on-flashcards" },
   "german-noun-gender-plurals": { ru: "german-noun-gender-plurals-russian-speakers" },
   "swedish-everyday-vocabulary-flashcards": { en: "swedish-everyday-vocabulary" },
   "german-everyday-expressions": { it: "german-everyday-expressions-italian-speakers" },
   "german-verb-constructions-spanish-speakers": {
     es: "german-expressions-verb-constructions-spanish-speakers",
+  },
+  "german-appointments-paperwork-spanish-practice": {
+    es: "german-appointments-paperwork-spanish-speakers",
   },
   "find-perm": { en: "gnu-find-permission-flashcards" },
   "find-delete": { en: "linux-command-line-flashcards" },
@@ -111,6 +126,9 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   "sql-rows-vs-range-practice": { en: "postgresql-sql-interview-problems" },
   "sql-union-vs-union-all-practice": { en: "postgresql-sql-interview-problems" },
   "memoization-grid-practice": { en: "blind-75-python-solutions" },
+  "karst-glacial-landforms-bilingual-practice": {
+    "zh-hant": "karst-glacial-landforms-traditional-chinese",
+  },
   "us-address-form-practice": { es: "us-state-abbreviations-flashcards-es" },
   "us-state-capitals": { es: "us-state-capitals-flashcards-spanish" },
   "us-state-abbreviations": {
