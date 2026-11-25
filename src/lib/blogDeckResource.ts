@@ -346,6 +346,7 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   "ap-statistics-flashcards": { en: "ap-statistics-flashcards" },
   "confounding-variable-practice": { en: "ap-statistics-flashcards" },
   "box-plot-vs-histogram": { en: "ap-statistics-flashcards" },
+  "segmented-bar-chart-practice": { en: "ap-statistics-flashcards" },
   "residual-plot-practice": { en: "ap-statistics-flashcards" },
   "chi-square-homogeneity-vs-independence": { en: "ap-statistics-flashcards" },
   "paired-vs-independent-samples": { en: "ap-statistics-flashcards" },
