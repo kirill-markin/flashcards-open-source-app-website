@@ -6624,6 +6624,21 @@
     "bytes": 442139
   },
   {
+    "publicPath": "/blog/spanish-market-cafe-french-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/33ebed09e6d0712b44e0599d2a26310d56ad9f9bb854c1708cb47571f1a46a08.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "33ebed09e6d0712b44e0599d2a26310d56ad9f9bb854c1708cb47571f1a46a08",
+    "bytes": 183206,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/bb167b0db46e8ec3b520df20a2c77cbdb0684efbdb37470620fec5c8c00d7030.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "bb167b0db46e8ec3b520df20a2c77cbdb0684efbdb37470620fec5c8c00d7030",
+      "bytes": 2404725
+    }
+  },
+  {
     "publicPath": "/blog/special-relativity-reference-frame-practice.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/fd690ef2bbe1f5f5c52e8024e27131e6e56cedb69184de08f460861f0dbed538.webp",
     "width": 1672,

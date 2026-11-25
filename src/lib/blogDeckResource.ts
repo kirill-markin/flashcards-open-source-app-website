@@ -57,6 +57,7 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
     en: "lebanese-arabic-first-person-present-flashcards",
   },
   "spanish-flashcards": { de: "everyday-spanish-german-speakers" },
+  "spanish-market-cafe-french-practice": { fr: "spanish-market-cafe-vocabulary-french-speakers" },
   "rioplatense-spanish-voseo-household": {
     ru: "rioplatense-spanish-voseo-household-russian-speakers",
   },
