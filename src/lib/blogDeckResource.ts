@@ -80,6 +80,7 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
     "zh-hant": "english-context-vocabulary-traditional-chinese",
   },
   "russian-beginner-vocabulary-flashcards": { en: "russian-beginner-everyday-vocabulary" },
+  "russian-clothing-wear-put-on-practice": { en: "russian-clothes-wear-put-on-flashcards" },
   "german-noun-gender-plurals": { ru: "german-noun-gender-plurals-russian-speakers" },
   "swedish-everyday-vocabulary-flashcards": { en: "swedish-everyday-vocabulary" },
   "german-everyday-expressions": { it: "german-everyday-expressions-italian-speakers" },

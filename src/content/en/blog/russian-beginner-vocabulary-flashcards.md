@@ -24,6 +24,8 @@ Choose something ordinary: greeting someone, finding a shop, asking for help or 
 
 Those are reasonable beginner goals. The [Pushkin Institute's elementary-level course](https://pushkininstitute.ru/beginner) includes everyday interaction, introductions, asking for help, directions and reading short practical texts. A vocabulary deck supports part of that work. It doesn't replace the course's listening, pronunciation, grammar or conversation practice.
 
+If a friend is trying to spot you in a crowd, try describing what you have on. The [Russian clothing practice guide](/blog/russian-clothing-wear-put-on-practice/) walks through that sentence and gives you six prompts about wearing and putting on clothes. Use the [Russian clothing flashcards](/catalog/packages/russian-clothes-wear-put-on-flashcards/) to practise those phrases again later.
+
 Here is a small set to learn before trying the questions below:
 
 | Russian word | Meaning here | One short context |
