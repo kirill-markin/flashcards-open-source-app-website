@@ -61,6 +61,7 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   "rioplatense-spanish-voseo-household": {
     ru: "rioplatense-spanish-voseo-household-russian-speakers",
   },
+  "spanish-verb-forms-french-speakers": { fr: "spanish-verb-forms-french-speakers" },
   "hungarian-shop-cafe-phrases-practice": { ru: "hungarian-shops-cafes-russian-speakers" },
   "dutch-everyday-vocabulary-flashcards": {
     en: "dutch-home-work-family-vocabulary",

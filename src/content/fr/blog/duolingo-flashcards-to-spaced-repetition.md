@@ -124,6 +124,8 @@ Une correction brute fait rarement une bonne flashcard telle quelle. Reformulez 
 
 Le sens de la carte dépend de votre objectif. Si vous avez du mal à parler, mettez le sens ou la situation au recto et produisez la réponse dans la langue apprise. Si la lecture pose problème, montrez l'expression dans cette langue et demandez son sens. Vous pouvez conserver les deux sens pour un élément important, mais ne dupliquez pas tout automatiquement.
 
+Pour une erreur de conjugaison, l'[exercice sur le présent et le prétérit en espagnol](/fr/blog/spanish-verb-forms-french-speakers/) montre comment isoler le verbe, le sujet et le temps sur une seule carte. Les [cartes de conjugaison correspondantes](/fr/catalog/packages/spanish-verb-forms-french-speakers/) vous font retrouver une forme à partir de ces trois indices.
+
 Pour d'autres modèles de cartes, consultez [How to Use Flashcards for Language Learning, en anglais](/blog/how-to-use-flashcards-for-language-learning/).
 
 ### 4. Vérifiez la carte avant de programmer ses révisions
