@@ -2668,6 +2668,21 @@
     }
   },
   {
+    "publicPath": "/blog/german-appointments-paperwork-spanish-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/68c5c63626c75c14b4a46a15c116eaead6216dbb0a386fee5b483fa69969d390.webp",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "68c5c63626c75c14b4a46a15c116eaead6216dbb0a386fee5b483fa69969d390",
+    "bytes": 147498,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/9de7fecae374675098d07a2778b11d4d512b0eeb0ca23fcd3c54cecf4db05a02.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "9de7fecae374675098d07a2778b11d4d512b0eeb0ca23fcd3c54cecf4db05a02",
+      "bytes": 2420991
+    }
+  },
+  {
     "publicPath": "/blog/german-clinical-anatomy-findings-practice.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/1b90ca0eccfb6a00afb0d69cdeb7909a36c77603f49abec29558beec69cd2fa4.webp",
     "width": 1672,

@@ -60,6 +60,8 @@ Al comprobar la respuesta, escribe el grupo nominal completo: *mein Bruder → m
 
 Conserva también los prefijos separables: *teilnehmen → Ich nehme … teil*; *abhängen → Das hängt … ab*. Si lo que te cuesta es formar la frase, la [guía de práctica sobre el verbo alemán en segunda posición, en inglés](/blog/german-verb-second-word-order/) te permite practicar las oraciones principales y los verbos separables.
 
+También puedes reconocer esos prefijos al leer. En los [avisos alemanes de citas y trámites](/es/blog/german-appointments-paperwork-spanish-practice/), practica cómo juntar *bringen* y *mit* para saber qué te piden llevar. Para seguir practicando con avisos breves, usa el [mazo de alemán para citas y trámites](/es/catalog/packages/german-appointments-paperwork-spanish-speakers/).
+
 ## Comprueba el uso reflexivo en alemán sin depender del español
 
 En español puedes decir tanto **Recuerdo aquel día** como **Me acuerdo de aquel día**. La RAE explica estas construcciones en las entradas [recordar](https://www.rae.es/dpd/recordar) y [acordar, acordarse](https://www.rae.es/dpd/acordar). Las dos pueden servir de pista para **Ich erinnere mich an jenen Tag**. Elegir en español el verbo sin pronombre no elimina *mich* en alemán.
