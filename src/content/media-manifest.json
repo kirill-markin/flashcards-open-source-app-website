@@ -4606,6 +4606,21 @@
     "bytes": 2486656
   },
   {
+    "publicPath": "/blog/lebanese-arabic-first-person-present-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/8d238cee25e5734e008b5789d37e585adae51e7560a063259022d318f40ec4a7.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "8d238cee25e5734e008b5789d37e585adae51e7560a063259022d318f40ec4a7",
+    "bytes": 121842,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/6813a08a5e0106eb99e56ea49320714384b4670e30e17ec4d218e066be1c68d9.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "6813a08a5e0106eb99e56ea49320714384b4670e30e17ec4d218e066be1c68d9",
+      "bytes": 2113274
+    }
+  },
+  {
     "publicPath": "/blog/levantine-arabic-verb-forms-practice.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/97d62e270ed8b639c02ecf0fcd54688cdca029b26f00ee988af66bd7c72f80f4.webp",
     "width": 1672,
