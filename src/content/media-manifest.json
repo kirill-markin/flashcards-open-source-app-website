@@ -6404,6 +6404,36 @@
     "bytes": 2396307
   },
   {
+    "publicPath": "/blog/segmented-bar-chart-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/1c77d021098ded4a0f7623ec2af5f0a1ff46b5f8791866950d1c07141cf81abe.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "1c77d021098ded4a0f7623ec2af5f0a1ff46b5f8791866950d1c07141cf81abe",
+    "bytes": 166604,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/9a81b4c453e2be8bdc34450cba03dc3b7a5e0b0b8804a24d067e15cb7346f408.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "9a81b4c453e2be8bdc34450cba03dc3b7a5e0b0b8804a24d067e15cb7346f408",
+      "bytes": 2393978
+    }
+  },
+  {
+    "publicPath": "/blog/segmented-bar-chart-worked-example.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/8ae7d94ce0a78996480b7050a687e66de2d22af424138c75a92285b13a89271e.webp",
+    "width": 1520,
+    "height": 1045,
+    "sha256": "8ae7d94ce0a78996480b7050a687e66de2d22af424138c75a92285b13a89271e",
+    "bytes": 43446,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/d7f99e702fa8db4ad8139f7a0014cb244b10e79d3029ad1d1966b62494d946b8.png",
+      "width": 1520,
+      "height": 1045,
+      "sha256": "d7f99e702fa8db4ad8139f7a0014cb244b10e79d3029ad1d1966b62494d946b8",
+      "bytes": 101492
+    }
+  },
+  {
     "publicPath": "/blog/sentence-fragment-practice.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/954b153a87b3168ebf5ef1ad629f60de82aec6bd096e58ffd07b55c5b6741934.webp",
     "width": 1672,
