@@ -482,6 +482,21 @@
     "bytes": 1955100
   },
   {
+    "publicPath": "/blog/anki-interday-learning.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/c4bc780c1d61efcbe1bd4597c578fb97f3fd58b526fb7326729eb4c5ba7e46ff.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "c4bc780c1d61efcbe1bd4597c578fb97f3fd58b526fb7326729eb4c5ba7e46ff",
+    "bytes": 247886,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/cb56ffbd00f27378d06d4b809615d36d3195930cd711e2b0008227b6a1a34593.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "cb56ffbd00f27378d06d4b809615d36d3195930cd711e2b0008227b6a1a34593",
+      "bytes": 2758845
+    }
+  },
+  {
     "publicPath": "/blog/anki-leech-tag.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/e3497957f4d2444edfff800df65744e375f792e969547738b481d6046d5c9de7.png",
     "width": 1672,
