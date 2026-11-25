@@ -73,6 +73,9 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
     ru: "everyday-english-vocabulary-russian-speakers",
   },
   "english-vocabulary-polish-speakers": { pl: "english-everyday-vocabulary-polish-speakers" },
+  "english-word-meaning-in-context-practice": {
+    "zh-hant": "english-context-vocabulary-traditional-chinese",
+  },
   "russian-beginner-vocabulary-flashcards": { en: "russian-beginner-everyday-vocabulary" },
   "german-noun-gender-plurals": { ru: "german-noun-gender-plurals-russian-speakers" },
   "swedish-everyday-vocabulary-flashcards": { en: "swedish-everyday-vocabulary" },
