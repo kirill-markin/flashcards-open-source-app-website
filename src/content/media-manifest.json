@@ -6549,6 +6549,21 @@
     }
   },
   {
+    "publicPath": "/blog/sql-join-double-counting.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/9353b6b7442b52987c14941fc161627b2b3c685bc092aa03a3a513c5e23866b0.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "9353b6b7442b52987c14941fc161627b2b3c685bc092aa03a3a513c5e23866b0",
+    "bytes": 147240,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/d50f5012c91d757cbcac56e5820c6443bfdbe936dbeb7296f4353eae38753ded.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "d50f5012c91d757cbcac56e5820c6443bfdbe936dbeb7296f4353eae38753ded",
+      "bytes": 2233234
+    }
+  },
+  {
     "publicPath": "/blog/sql-lag-lead-practice.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/c57c4561f64881992ae501c7783ba4eea6f5053fce137654b445d40c77d87e5b.webp",
     "width": 1672,
