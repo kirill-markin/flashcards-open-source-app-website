@@ -648,6 +648,21 @@
     }
   },
   {
+    "publicPath": "/blog/anki-restore-overwritten-note.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/2684efef10af63d474dd2b9ed622623fb7dd84e1da220daba597515283d1b9de.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "2684efef10af63d474dd2b9ed622623fb7dd84e1da220daba597515283d1b9de",
+    "bytes": 218922,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/1da01a83aead29c5bac05b00527082980af797883e517d2656bdf34462b290d8.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "1da01a83aead29c5bac05b00527082980af797883e517d2656bdf34462b290d8",
+      "bytes": 2622217
+    }
+  },
+  {
     "publicPath": "/blog/anki-retention-statistics.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/7d2f5b941e3fff567c40bd953326dae0d111028c5f671a124aafe362aa7489b5.webp",
     "width": 1672,
