@@ -4424,6 +4424,21 @@
     "bytes": 2069888
   },
   {
+    "publicPath": "/blog/karst-glacial-landforms-bilingual-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/b95fd0809efd58dd63b7b11755ea87c601502f6cc77308b95cdd77b7129241e2.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "b95fd0809efd58dd63b7b11755ea87c601502f6cc77308b95cdd77b7129241e2",
+    "bytes": 404904,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/385bee1003aa6f8f0ab1a76a386778a0d0aa5a4a752ee05d73bf25a171ee9c99.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "385bee1003aa6f8f0ab1a76a386778a0d0aa5a4a752ee05d73bf25a171ee9c99",
+      "bytes": 3443888
+    }
+  },
+  {
     "publicPath": "/blog/knowt-alternative-v2.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/c8ba712331d732bef0e3aae481bd40502676ab3603447b19cd2422b54ac9ef8a.png",
     "width": 1536,
