@@ -312,6 +312,8 @@ An uncorrelated existence test can be intentional. For example, a report could d
 
 Close the worked queries and write the eligible-learner list, then the eligible learners' submission totals. Before adding `SUM`, state what each input row represents. Account for submissions `101` and `102` separately and explain why approval `202` mustn't add points.
 
+For reports that need to keep every learner, the [LEFT JOIN flashcards](/catalog/packages/sql-left-join-on-vs-where-flashcards/) give you practice predicting which rows survive and which matches contribute to the count.
+
 Turn a recurring mistake into a small recall prompt:
 
 | Prompt | Answer to recall |

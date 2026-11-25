@@ -120,7 +120,7 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   "postgresql-count-filter-vs-case": { en: "postgresql-sql-interview-problems" },
   "sql-exists-vs-join": { en: "postgresql-sql-interview-problems" },
   "sql-join-double-counting": { en: "postgresql-sql-interview-problems" },
-  "sql-left-join-on-vs-where": { en: "postgresql-sql-interview-problems" },
+  "sql-left-join-on-vs-where": { en: "sql-left-join-on-vs-where-flashcards" },
   "sql-lag-lead-practice": { en: "postgresql-sql-interview-problems" },
   "sql-null-not-in-practice": { en: "postgresql-sql-interview-problems" },
   "sql-row-number-rank-dense-rank": { en: "postgresql-sql-interview-problems" },

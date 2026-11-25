@@ -101,6 +101,8 @@ ORDER BY b.branch_id;
 
 `WHERE` removes joined rows before grouping. Elm and Fir lose every row, so their groups disappear. Cedar keeps its two returned loans, which now make up its entire total. A `FILTER` on the returned count limits that count alone. [PostgreSQL aggregate tutorial](https://www.postgresql.org/docs/18/tutorial-agg.html) · [Practice with GROUP BY and HAVING](/blog/sql-group-by-having-practice/)
 
+Use the [LEFT JOIN flashcards](/catalog/packages/sql-left-join-on-vs-where-flashcards/) to predict which groups disappear and which stay with a zero count when a condition moves between `ON` and `WHERE`.
+
 ## Write the same counts with CASE WHEN
 
 `COUNT(CASE WHEN condition THEN 1 END)` gives `COUNT` a `1` when the condition is true and `NULL` otherwise. Since `COUNT(expression)` counts non-null values, this gives the same returned and open counts as the `FILTER` query. For missing statuses, use `THEN l.loan_id` so Fir’s unmatched row still produces a `NULL` for `COUNT` to skip.

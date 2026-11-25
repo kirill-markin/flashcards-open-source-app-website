@@ -234,6 +234,8 @@ The `CASE` returns one for a completed row and zero otherwise, following the [CA
 
 This query covers everyone present in **the session log**. It can't produce a learner with no session record at all. A report covering every learner needs a source listing those learners; the [LEFT JOIN ON vs WHERE lesson](/blog/sql-left-join-on-vs-where/) covers preserving people without qualifying matches.
 
+Use the [LEFT JOIN flashcards](/catalog/packages/sql-left-join-on-vs-where-flashcards/) to practice keeping a group in the report when its count of qualifying matches is zero.
+
 ### 6. Empty input can still produce an aggregate row
 
 Run these separately, each with the original CTE:
