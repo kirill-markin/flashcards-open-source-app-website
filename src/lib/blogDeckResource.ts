@@ -46,6 +46,9 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   "japanese-small-tsu": { en: "basic-hiragana-romaji" },
   "hiragana-and-katakana-practice": { en: "basic-hiragana-romaji" },
   "japanese-masu-dictionary-te-form": { en: "japanese-masu-dictionary-te-form" },
+  "japanese-everyday-polite-phrases-russian-practice": {
+    ru: "japanese-everyday-polite-phrases-russian-speakers",
+  },
   "modern-greek-vocabulary-flashcards": { en: "modern-greek-everyday-vocabulary" },
   "latin-prepositions-conjunctions": { de: "latin-prepositions-conjunctions-german-speakers" },
   "latin-core-nouns-verbs-practice": { de: "latin-core-nouns-verbs-german-speakers" },
