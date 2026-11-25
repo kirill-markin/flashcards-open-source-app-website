@@ -84,6 +84,8 @@ ORDER BY p.project_id, pp.part_id, pl.labor_id;
 
 Both joins match on `project_id`, so each of project 1's two parts pairs with each of its three labor entries. That multiplication is called join fanout. Each of the six rows represents a different part and labor pair. The other projects show what a `LEFT JOIN` does when a matching charge is missing. It fills that side's columns with `NULL`. [SQLite SELECT and JOIN documentation](https://www.sqlite.org/lang_select.html)
 
+The [LEFT JOIN flashcards](/catalog/packages/sql-left-join-on-vs-where-flashcards/) give you practice predicting how many rows a single join produces with zero, one, or several matches.
+
 ## See what SUM adds up
 
 The two parts cost 12 each. Each part appears three times in project 1's group, so the parts sum is `24 × 3 = 72`. The labor charges add up to 20, and each appears twice, giving `20 × 2 = 40`. Grouping by `project_id` gives you one output row per project using those repeated inputs.
