@@ -6972,6 +6972,21 @@
     "bytes": 2519643
   },
   {
+    "publicPath": "/blog/tcp-window-scaling-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/5e47c034c7d42a0d81e2559bf0d1d171f00b75f6e3322c97ab60b2085c672f05.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "5e47c034c7d42a0d81e2559bf0d1d171f00b75f6e3322c97ab60b2085c672f05",
+    "bytes": 155498,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/48dc9319e40713bc309720e5765c527de6c4282b7b766f30fd8c02b5caf3e183.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "48dc9319e40713bc309720e5765c527de6c4282b7b766f30fd8c02b5caf3e183",
+      "bytes": 2266759
+    }
+  },
+  {
     "publicPath": "/blog/temperature-conversion-practice.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/2a8637a26ddc0109be98e8e1e8758445d24f39641b576f72f5536758ad5ab119.webp",
     "width": 1672,
