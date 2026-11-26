@@ -5692,6 +5692,21 @@
     }
   },
   {
+    "publicPath": "/blog/postgresql-last-value-window-frame.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/35970ef2627d913d02b158cb75ceb9b1f0922f44d5bb7c7bf18582c67c2226c1.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "35970ef2627d913d02b158cb75ceb9b1f0922f44d5bb7c7bf18582c67c2226c1",
+    "bytes": 339778,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/847411d8678392fed6aac213aa01760db4e6d4aa4797ccd1005b4e14629dc79c.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "847411d8678392fed6aac213aa01760db4e6d4aa4797ccd1005b4e14629dc79c",
+      "bytes": 3192592
+    }
+  },
+  {
     "publicPath": "/blog/present-perfect-simple-vs-continuous.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/df400973803a15cc22c7915b439a4d45c864606e5f09e1e2f71e26ac51de4f8b.png",
     "width": 1672,
