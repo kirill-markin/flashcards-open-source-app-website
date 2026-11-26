@@ -119,6 +119,7 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   "git-stash-pop-conflict": { en: "git-commands-flashcards" },
   "sql-group-by-having-practice": { en: "postgresql-sql-interview-problems" },
   "postgresql-count-filter-vs-case": { en: "postgresql-sql-interview-problems" },
+  "postgresql-last-value-window-frame": { en: "postgresql-sql-interview-problems" },
   "sql-exists-vs-join": { en: "postgresql-sql-interview-problems" },
   "sql-join-double-counting": { en: "postgresql-sql-interview-problems" },
   "sql-left-join-on-vs-where": { en: "sql-left-join-on-vs-where-flashcards" },
