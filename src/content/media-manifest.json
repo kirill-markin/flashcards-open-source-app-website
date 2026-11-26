@@ -716,6 +716,21 @@
     }
   },
   {
+    "publicPath": "/blog/anki-review-calendar.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/0fdf7372ae0cc82f9c6d853a2c387422b3099e1015a51cfef0b0539a4b410c26.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "0fdf7372ae0cc82f9c6d853a2c387422b3099e1015a51cfef0b0539a4b410c26",
+    "bytes": 188136,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/16f71e999aa5b5ff49e2848daa9b8a643af2a1d9e9f8f3a3ead553a5db35bce9.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "16f71e999aa5b5ff49e2848daa9b8a643af2a1d9e9f8f3a3ead553a5db35bce9",
+      "bytes": 2609816
+    }
+  },
+  {
     "publicPath": "/blog/anki-review-sort-order.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/90dedb66991db5fe5bc0a4fb4be558892de55c4f8ae1fe36acfbbffc0f086326.webp",
     "width": 1672,
