@@ -6910,6 +6910,21 @@
     }
   },
   {
+    "publicPath": "/blog/stratified-vs-cluster-sampling.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/db4f3934ba1d89e4e7aa9b2a0830c8730b31ec1b6d3e440977c6321e6af92f7d.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "db4f3934ba1d89e4e7aa9b2a0830c8730b31ec1b6d3e440977c6321e6af92f7d",
+    "bytes": 237654,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/0d26bfb247df6131149b40f135243c6104906f43218b3fb14acd5e80b8df0553.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "0d26bfb247df6131149b40f135243c6104906f43218b3fb14acd5e80b8df0553",
+      "bytes": 2631130
+    }
+  },
+  {
     "publicPath": "/blog/strong-vs-weak-acids.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/f780a463f761e903473a191ca0cea4d10a4eb2b1a670118d5799e4cd2873e7fe.png",
     "width": 1672,
