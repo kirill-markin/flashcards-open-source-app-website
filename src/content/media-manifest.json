@@ -7243,6 +7243,21 @@
     }
   },
   {
+    "publicPath": "/blog/tritone-resolution-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/ceb0da63dc2be5b6e02265b1a85f47f0093fcb5d5720168e8359b291fceadaff.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "ceb0da63dc2be5b6e02265b1a85f47f0093fcb5d5720168e8359b291fceadaff",
+    "bytes": 370260,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/f7eaa8583d4de1bac3a22e7581dbfd17a2304636ca7d7418520ea6619686b522.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "f7eaa8583d4de1bac3a22e7581dbfd17a2304636ca7d7418520ea6619686b522",
+      "bytes": 3219859
+    }
+  },
+  {
     "publicPath": "/blog/truth-values-conjunction-disjunction.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/36cc29f7cae54e18f81b697ccce94d4753081831fac6e32e2e4f078636f16517.png",
     "width": 1672,
