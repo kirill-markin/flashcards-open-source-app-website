@@ -6714,6 +6714,36 @@
     }
   },
   {
+    "publicPath": "/blog/spring-constant-force-extension-graph.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/841294ab69d70b0d012b725bfd82fe5bbfb0d6305815394668674c69445a8b88.webp",
+    "width": 1539,
+    "height": 907,
+    "sha256": "841294ab69d70b0d012b725bfd82fe5bbfb0d6305815394668674c69445a8b88",
+    "bytes": 27736,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/c5d36491c94eaec7a8bb1f933af488db0482f79906bd38403a2bc9a138995d50.png",
+      "width": 1539,
+      "height": 907,
+      "sha256": "c5d36491c94eaec7a8bb1f933af488db0482f79906bd38403a2bc9a138995d50",
+      "bytes": 66514
+    }
+  },
+  {
+    "publicPath": "/blog/spring-constant-from-graph.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/4d3a2f985fe07c71ce4610ed351cbb60e9b13a19e37f9d1a0f03d08a84cae433.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "4d3a2f985fe07c71ce4610ed351cbb60e9b13a19e37f9d1a0f03d08a84cae433",
+    "bytes": 165896,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/67323ddf5c1a6cf67ed02f015e75d5170fe3bdf2b9e6e81e83d273b90e1d54f1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "67323ddf5c1a6cf67ed02f015e75d5170fe3bdf2b9e6e81e83d273b90e1d54f1",
+      "bytes": 2330362
+    }
+  },
+  {
     "publicPath": "/blog/sql-exists-vs-join.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/6166390a0abedf15e7af02e764afbcd1df2615ced8a515f6c95f4b42c60b4b08.webp",
     "width": 1672,
