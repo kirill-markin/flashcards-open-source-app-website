@@ -117,6 +117,8 @@ The first octave move reduced the interval; D remained below F♯. The second mo
 
 Here, the task is to find the **simple inversion after octave reduction**. Don't calculate 9 − 10. If an exercise asks for specific registers or a compound result, count the resulting interval directly.
 
+If the octave reduction is where you get stuck, practice that step with the [compound interval flashcards](/catalog/packages/compound-intervals-flashcards/).
+
 ## Interval inversion practice with explained answers
 
 Use paper and cover the answers. All pairs are lower pitch first, with no implied key signature. For a pitch-pair inversion, show the requested octave move, write the result lower pitch first, and give its full interval name.

@@ -97,6 +97,6 @@ Pick a question you missed. Try it from memory, then check your answer and corre
 | Spell a minor ninth above E4. Give the simple pair too. | E4–F5. The simple pair is E4–F4, a minor second. |
 | Why is A3–B♯4 an augmented ninth? | It spans nine letter positions and 15 semitones. A3–C5 spans ten positions and the same 15 semitones. |
 
-If the reduced intervals are where you slow down, the [Nibomo music interval deck](/catalog/packages/music-interval-flashcards/) contains 181 English cards on simple intervals from unison through octave, including spelling, semitone counts, and inversions. Use the worksheet or your own cards for ninths and above. The [music theory flashcards guide](/blog/music-theory-flashcards/) has more examples of writing prompts you can grade by spelling.
+Review naming, spelling, and reducing intervals beyond an octave with the [compound interval flashcards](/catalog/packages/compound-intervals-flashcards/). If the reduced intervals are where you slow down, the [Nibomo music interval deck](/catalog/packages/music-interval-flashcards/) contains 181 English cards on simple intervals from unison through octave, including spelling, semitone counts, and inversions. The [music theory flashcards guide](/blog/music-theory-flashcards/) has more examples of writing prompts you can grade by spelling.
 
 *AI tools drafted and edited this lesson and created the illustration. The interval names and semitone counts were checked with a script.*

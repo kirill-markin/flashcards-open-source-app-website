@@ -72,6 +72,8 @@ A tenor sax player brings you **B4, C5, F5**. Write what the piano should play i
 
 **Answer.** The piano plays **A3, B♭3, E♭4**. The alto reads **F♯4, G4, C5**. For the last note, go down a major ninth from the tenor's F5 to E♭4. Then go up a major sixth from E♭4 to the alto's C5.
 
+For more written practice spelling ninths, try the [compound interval flashcards](/catalog/packages/compound-intervals-flashcards/).
+
 ## Practice the step you missed
 
 Cover the answers and try these from memory. Give the letter, accidental, and octave, then check your work. Try again in a later session. Spacing out retrieval attempts can help you remember what you practiced. [Karpicke and Bauernschmidt's study on spaced retrieval](https://learninglab.psych.purdue.edu/downloads/2011/2011_Karpicke_Bauernschmidt_JEPLMC.pdf)
