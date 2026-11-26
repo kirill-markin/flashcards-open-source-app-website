@@ -368,6 +368,21 @@
     }
   },
   {
+    "publicPath": "/blog/anki-filtered-deck-second-filter.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/cfbd92d78d5a06df0aa998e2d9d7927453e7c294a8e5b2684d124d73d1b58dc3.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "cfbd92d78d5a06df0aa998e2d9d7927453e7c294a8e5b2684d124d73d1b58dc3",
+    "bytes": 176944,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/268494e5f7f266d832ae98dc2426f8c0a32db2b65e8303bdc76b6a9df16b40cd.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "268494e5f7f266d832ae98dc2426f8c0a32db2b65e8303bdc76b6a9df16b40cd",
+      "bytes": 2504204
+    }
+  },
+  {
     "publicPath": "/blog/anki-filtered-decks-without-rescheduling.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/bad824c84b3d0a8328150c966d053aa04a39c8acc0a15c520aa4ac051e665b0a.png",
     "width": 1672,
