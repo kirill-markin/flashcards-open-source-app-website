@@ -2923,6 +2923,21 @@
     }
   },
   {
+    "publicPath": "/blog/git-stash-restore-one-file.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/88e6261b240ef85847642c916ec3717f77cb23ec3d8c8163440f923574daeebb.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "88e6261b240ef85847642c916ec3717f77cb23ec3d8c8163440f923574daeebb",
+    "bytes": 243748,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/494d22dd8d50adea12b48a2e89b9aa67629f5e870e8b7541286ff07f9f76dcab.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "494d22dd8d50adea12b48a2e89b9aa67629f5e870e8b7541286ff07f9f76dcab",
+      "bytes": 2768314
+    }
+  },
+  {
     "publicPath": "/blog/gizmo-alternative-v2.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/1f6bf9e0cdbc164c6bdc620139201ef32bd987f331703904447c40e5f93aa03b.png",
     "width": 1672,
