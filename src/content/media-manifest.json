@@ -5433,6 +5433,21 @@
     "bytes": 2600135
   },
   {
+    "publicPath": "/blog/observational-unit-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/59c96f2771bd77ee9797aaebfa217e4a60b5e9c7cca13891bc7de8bde904be91.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "59c96f2771bd77ee9797aaebfa217e4a60b5e9c7cca13891bc7de8bde904be91",
+    "bytes": 179752,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/b82a4b33fef5913bedf1397d89e9acff4d79c0400eb1f9dbf4174a39bfcf9c59.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "b82a4b33fef5913bedf1397d89e9acff4d79c0400eb1f9dbf4174a39bfcf9c59",
+      "bytes": 2405382
+    }
+  },
+  {
     "publicPath": "/blog/odds-vs-probability-practice.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/300d936d9b8b535da0ae9927b07283c8a4565e45d26c80b9c808a7325a429523.webp",
     "width": 1672,
