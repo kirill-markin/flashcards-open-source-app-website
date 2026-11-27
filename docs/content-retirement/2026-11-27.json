@@ -1,0 +1,181 @@
+{
+  "schema_version": 1,
+  "audit_date": "2026-11-27",
+  "action": "retire",
+  "baseline": {
+    "site_sha": "f88ad2c7ed4913943f9669fbc0c6971f265ece49",
+    "app_sha": "fa80894a3f54af870714b74c4397479cc2d8033a",
+    "deployed_admin_sha": "3b938e2e32a61d1ecac641c0a342e0890d379a3e",
+    "deployed_admin_metric_files_identical": true
+  },
+  "policy": {
+    "minimum_age_days": 90,
+    "keep_search_clicks": 3,
+    "keep_engaged_visitor_days": 2
+  },
+  "search_window": {
+    "start": "2026-09-26",
+    "end": "2026-11-24",
+    "latest": {
+      "old": "2026-11-24",
+      "new": "2026-11-25"
+    },
+    "complete_days": 60,
+    "gaps": {
+      "old": [],
+      "new": []
+    },
+    "properties": {
+      "old": "sc-domain:flashcards-open-source-app.com",
+      "new": "sc-domain:nibomo.com"
+    },
+    "partition_days": {
+      "old": 60,
+      "new": 60
+    },
+    "definition": "Google Web Search page-level metrics for both domain properties and verified aliases."
+  },
+  "engagement_window": {
+    "from": "2026-09-28",
+    "to": "2026-11-27",
+    "reliable_from": "2026-09-28",
+    "reliable_through": "2026-11-26",
+    "read_signal_from": "2026-10-19T21:06:34Z",
+    "query_time": "2026-11-27 08:56:18.948634+00",
+    "complete_days": 60,
+    "complete_days_by_cohort": {
+      "hashed_filtered": 60,
+      "hashed_raw": 60,
+      "identified_filtered": 60,
+      "identified_raw": 60
+    },
+    "partial_article_views": {
+      "hashed": 4,
+      "identified": 25
+    },
+    "coverage_gaps": [],
+    "unknown_article_views": 0,
+    "session_closed": true,
+    "exclusions_refresh_verified_at": "2026-11-27T08:50:30.875000+00:00",
+    "definition": "Deduplicated qualified site visitor-days joined to views of each article or verified alias.",
+    "limits": "The final UTC day is partial. Single-page reads before the October 19 signal cannot be reconstructed."
+  },
+  "age_definition": "Use the later of declared publication and first Git appearance of this localized article, following verified renames.",
+  "material_use_review": {
+    "source_scope": "Website source and localized links, project records, publication diffs, open PRs and live catalog descriptions.",
+    "public_backlinks": "Targeted public searches found no confirmed third-party backlink to the approved URLs.",
+    "changed_contexts": []
+  },
+  "approval_summary": {
+    "approved": 7,
+    "retired": 7,
+    "withdrawn": 0
+  },
+  "records": {
+    "src/content/ar/blog/is-quizlet-open-source.md": {
+      "route": "/ar/blog/is-quizlet-open-source/",
+      "locale": "ar",
+      "family": "is-quizlet-open-source",
+      "published": "2026-08-29",
+      "first_source": "2026-08-29",
+      "first_commit": "3919545de2e33f61b6c0869983a352448ca66d8c",
+      "age_days": 90,
+      "clicks": 0,
+      "impressions": 0,
+      "engaged_days": 0,
+      "engaged_views": 0,
+      "aliases": [],
+      "material_use_vetoes": []
+    },
+    "src/content/de/blog/free-quizlet-alternative.md": {
+      "route": "/de/blog/free-quizlet-alternative/",
+      "locale": "de",
+      "family": "free-quizlet-alternative",
+      "published": "2026-06-20",
+      "first_source": "2026-06-20",
+      "first_commit": "321ffb9a0967b9eac250040f37f487df651d7f3c",
+      "age_days": 160,
+      "clicks": 0,
+      "impressions": 195,
+      "engaged_days": 1,
+      "engaged_views": 1,
+      "aliases": [],
+      "material_use_vetoes": []
+    },
+    "src/content/de/blog/is-quizlet-open-source.md": {
+      "route": "/de/blog/is-quizlet-open-source/",
+      "locale": "de",
+      "family": "is-quizlet-open-source",
+      "published": "2026-08-29",
+      "first_source": "2026-08-29",
+      "first_commit": "3919545de2e33f61b6c0869983a352448ca66d8c",
+      "age_days": 90,
+      "clicks": 0,
+      "impressions": 6,
+      "engaged_days": 1,
+      "engaged_views": 1,
+      "aliases": [],
+      "material_use_vetoes": []
+    },
+    "src/content/es/blog/is-quizlet-open-source.md": {
+      "route": "/es/blog/is-quizlet-open-source/",
+      "locale": "es",
+      "family": "is-quizlet-open-source",
+      "published": "2026-08-29",
+      "first_source": "2026-08-29",
+      "first_commit": "3919545de2e33f61b6c0869983a352448ca66d8c",
+      "age_days": 90,
+      "clicks": 0,
+      "impressions": 49,
+      "engaged_days": 0,
+      "engaged_views": 0,
+      "aliases": [],
+      "material_use_vetoes": []
+    },
+    "src/content/hi/blog/is-quizlet-open-source.md": {
+      "route": "/hi/blog/is-quizlet-open-source/",
+      "locale": "hi",
+      "family": "is-quizlet-open-source",
+      "published": "2026-08-29",
+      "first_source": "2026-08-29",
+      "first_commit": "3919545de2e33f61b6c0869983a352448ca66d8c",
+      "age_days": 90,
+      "clicks": 0,
+      "impressions": 3,
+      "engaged_days": 0,
+      "engaged_views": 0,
+      "aliases": [],
+      "material_use_vetoes": []
+    },
+    "src/content/ja/blog/is-quizlet-open-source.md": {
+      "route": "/ja/blog/is-quizlet-open-source/",
+      "locale": "ja",
+      "family": "is-quizlet-open-source",
+      "published": "2026-08-29",
+      "first_source": "2026-08-29",
+      "first_commit": "3919545de2e33f61b6c0869983a352448ca66d8c",
+      "age_days": 90,
+      "clicks": 1,
+      "impressions": 11,
+      "engaged_days": 1,
+      "engaged_views": 1,
+      "aliases": [],
+      "material_use_vetoes": []
+    },
+    "src/content/zh/blog/is-quizlet-open-source.md": {
+      "route": "/zh/blog/is-quizlet-open-source/",
+      "locale": "zh",
+      "family": "is-quizlet-open-source",
+      "published": "2026-08-29",
+      "first_source": "2026-08-29",
+      "first_commit": "3919545de2e33f61b6c0869983a352448ca66d8c",
+      "age_days": 90,
+      "clicks": 0,
+      "impressions": 9,
+      "engaged_days": 0,
+      "engaged_views": 0,
+      "aliases": [],
+      "material_use_vetoes": []
+    }
+  }
+}

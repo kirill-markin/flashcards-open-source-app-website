@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-27"
+retirementReason: "Below the per-URL search and engagement thresholds at 90 days or older, with no material use found"
+retirementEvidence: "docs/content-retirement/2026-11-27.json#/records/src~1content~1de~1blog~1free-quizlet-alternative.md"
 title: "Beste kostenlose Quizlet-Alternativen 2026: 5 Apps im Vergleich"
 description: "Vergleiche Anki, Knowt, RemNote, Mochi und Nibomo: kostenloses Karteikartenlernen, Synchronisierung, Offline-Nutzung, Quizlet-Import, KI-Limits und die Haken der Gratis-Tarife."
 image: "/blog/free-quizlet-alternative-v2.png"
