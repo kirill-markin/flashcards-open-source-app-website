@@ -117,6 +117,7 @@ const PACKAGE_SLUG_BY_ARTICLE_AND_LOCALE: Readonly<
   "git-reflog-recover-lost-commits": { en: "git-commands-flashcards" },
   "git-reset-restore-revert-practice": { en: "git-commands-flashcards" },
   "git-stash-pop-conflict": { en: "git-commands-flashcards" },
+  "git-stash-restore-one-file": { en: "git-commands-flashcards" },
   "sql-group-by-having-practice": { en: "postgresql-sql-interview-problems" },
   "postgresql-count-filter-vs-case": { en: "postgresql-sql-interview-problems" },
   "postgresql-last-value-window-frame": { en: "postgresql-sql-interview-problems" },
