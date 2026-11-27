@@ -32,6 +32,8 @@ A missing name is a gap in the roster. When explaining **undercoverage bias**, l
 
 Confusing wording can make answers inaccurate. To explain potential **response bias**, point to a reason answers might skew in one direction. For example, students who think the librarian wants the extension may feel pressure to say yes if the librarian can see their answers. If that happens, the reported yes share could run high. [Penn State’s lesson on nonresponse and response bias](https://online.stat.psu.edu/stat200/Lesson01#other-sources-of-bias)
 
+Try stating the study question about school-wide support, then write the yes-or-no item you’d give one student. The [statistical investigative questions flashcards](/catalog/packages/statistical-investigative-questions-flashcards/) give you more practice separating those two jobs.
+
 ## What can 80 missing answers change?
 
 Of the 200 students the school invites, 120 answer the question. There are 72 yes answers and 48 no answers. The **yes share among respondents** is 72/120 = **60%**. The **response rate** is 120/200 = **60%**. They happen to be equal, and each answers a different question.

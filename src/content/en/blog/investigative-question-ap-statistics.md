@@ -198,6 +198,8 @@ Write complete repairs for practice. Use a short flashcard when the same decisio
 | A survey question asks one student for travel minutes. What does it supply? | One measurement; the investigative question specifies what the study will learn from the measurements. |
 | Can a higher sample mean turn a planned two-sided question into a greater-than question? | No. Preserve the planned purpose when analyzing the results. |
 
+Use the [statistical investigative questions flashcards](/catalog/packages/statistical-investigative-questions-flashcards/) to practice those decisions in new scenarios. Pick what to measure, name the population parameter, and decide whether the question calls for an estimate or a test.
+
 The [guide to making better flashcards](/blog/how-to-make-better-flashcards/) helps keep each card focused. For wider course review, the [AP Statistics flashcard guide](/blog/ap-statistics-flashcards/) and [independent English AP Statistics course deck](/catalog/packages/ap-statistics-flashcards/) cover more than this question-writing skill.
 
 For your next repair, underline the measured variables, circle the parameter and analysis goal, then check the population and causal wording against the study design. If you can't mark one of those parts, explain what's missing before rewriting the sentence.

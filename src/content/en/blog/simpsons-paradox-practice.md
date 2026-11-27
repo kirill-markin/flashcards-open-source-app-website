@@ -147,6 +147,8 @@ Return to the original repair table. A report says: “Assigning every future re
 
 ## Practice the step you missed
 
+Turn the last exercise into a question about how on-time completion differed between teams in the jobs they handled. The [flashcards on writing statistical questions](/catalog/packages/statistical-investigative-questions-flashcards/) give you more practice choosing wording that fits the study.
+
 If you averaged percentages without checking counts, save a short prompt: “What weights turn subgroup rates into the observed pooled rate?” Answer: each subgroup's share of that team's total. If you inferred a reversal from totals alone, keep problem 6 as a counterexample.
 
 Make one focused card from a recurring mistake. Keep the full count tables for written practice. On your next attempt, hide the percentage columns in the repair example and rebuild the rates, weights, and claim from the counts.

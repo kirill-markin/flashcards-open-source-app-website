@@ -53,6 +53,8 @@ In the top chart, the Evening bar is twice as long as the Day bar, and its Cloth
 
 The chart shows an association between shift and item type in these 120 visits. A claim about what caused the difference or whether it holds at other cafés would need more evidence.
 
+Try the [statistical investigative questions flashcards](/catalog/packages/statistical-investigative-questions-flashcards/) for more practice writing an association question and naming the group it covers.
+
 The AP Statistics framework effective fall 2026 covers segmented bar charts in Topic 2.1 and conditional relative frequencies in Topic 2.2. [College Board’s course framework](https://apcentral.collegeboard.org/media/pdf/ap-statistics-course-and-exam-description.pdf?course=ap-statistics) · [AP Statistics study guide](/blog/ap-statistics-flashcards/)
 
 ## Practice with two more count tables

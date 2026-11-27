@@ -41,6 +41,8 @@ Six volunteers proofread once in quiet (A) and once with steady background sound
 
 Write the volunteer IDs on six identical slips, mix them, and draw them without replacement. Assign the first three A then B and the rest B then A. In the draw 4, 1, 6, 2, 5, 3, volunteer 2 gets B first. If they catch eight typos then six, their B − A difference is 8 − 6 = +2 typos.
 
+The [investigative question flashcards](/catalog/packages/statistical-investigative-questions-flashcards/) give you another example where you choose the subtraction order so a positive difference means what you intend.
+
 Each volunteer serves as their own match. With three people in each order, a harder second passage that affects everyone equally lowers scores equally for A and B. Someone distracted by the sound after it stops might still score lower in quiet. An earlier treatment affecting a later score is **carryover**. If you expect it, you could pair volunteers by baseline skill and randomly assign one condition per person within each pair. [Penn State’s lesson on crossover designs](https://online.stat.psu.edu/stat509/Lesson12).
 
 ## Five study plans to check

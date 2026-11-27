@@ -45,6 +45,8 @@ Keep two uses of *independent* separate. **Independent observations** concern ho
 
 If reading the margins still takes effort, work through the [conditional probability two-way table practice](/blog/conditional-probability-two-way-tables/) first. Here, the next step is inference: do the observed row differences provide evidence of a population association?
 
+Before calculating expected counts, try writing the makers-club question with both recorded variables and the population in one sentence. The [flashcards on writing statistical questions](/catalog/packages/statistical-investigative-questions-flashcards/) give you more short prompts for that step.
+
 ## Build the table the null model expects
 
 Of all 120 sampled members, 36 choose ceramics. The pooled ceramics share is **36/120 = 0.30**. Under the fitted independence model, that same share applies to each session row:

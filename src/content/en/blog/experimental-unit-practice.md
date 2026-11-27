@@ -81,6 +81,8 @@ Try the rosebush experiment from the May 2026 AP Statistics exam. In Question 2,
 
 To connect assignment to the rest of a study design, practice writing the question the study can answer and identifying what the random step actually does. [AP Statistics investigative questions](/blog/investigative-question-ap-statistics/) · [Random sampling vs. random assignment](/blog/random-sampling-vs-random-assignment/)
 
+Try asking about the association between lighting type and electricity use in the shop example. The [flashcards on writing statistical questions](/catalog/packages/statistical-investigative-questions-flashcards/) give you more practice writing comparisons that fit how the data were collected.
+
 The English flashcard deck includes one card about identifying the experimental unit in a packing-method study and another about assignment to discussion formats in tutorial groups. Try answering aloud before revealing the card back, then come back tomorrow and again a few days later. Spacing the reviews gives you practice recalling the rule after the details start to fade. [Random Sampling vs Random Assignment Flashcards](/catalog/packages/random-sampling-vs-random-assignment-flashcards/).
 
 *AI assisted with drafting the text and exercises. The illustration was AI-generated.*
