@@ -5737,6 +5737,21 @@
     "bytes": 2203312
   },
   {
+    "publicPath": "/blog/poisson-overlapping-intervals.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/3b671978d0f37422527ef3513b3f3ee3a490174fc79638cf407b4093aeb61513.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "3b671978d0f37422527ef3513b3f3ee3a490174fc79638cf407b4093aeb61513",
+    "bytes": 259914,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/fc8d223ce8762f5963e52d4eb4250c77c68766968d7bae95c5dd45100eda7a93.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "fc8d223ce8762f5963e52d4eb4250c77c68766968d7bae95c5dd45100eda7a93",
+      "bytes": 2772359
+    }
+  },
+  {
     "publicPath": "/blog/postgresql-count-filter-vs-case.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/05a01edce5f696c39cb5bd78995adf39a14bd2a1c7c2d3a422bcd8e74912ca81.webp",
     "width": 1672,
