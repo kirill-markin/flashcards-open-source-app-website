@@ -238,6 +238,21 @@
     "bytes": 2354820
   },
   {
+    "publicPath": "/blog/anki-card-info-review-history.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/c00024b7b2db130e482992dbca0dcda513dd919cf1e81b8025021e6947ca9ff1.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "c00024b7b2db130e482992dbca0dcda513dd919cf1e81b8025021e6947ca9ff1",
+    "bytes": 143376,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/ba669f075d0bb5a8c6ae35c1c80c3b7b09fa87d393ab4b723f110ad3c67657a2.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "ba669f075d0bb5a8c6ae35c1c80c3b7b09fa87d393ab4b723f110ad3c67657a2",
+      "bytes": 2198084
+    }
+  },
+  {
     "publicPath": "/blog/anki-cloze-numbers.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/ab81917d382a5e95fe812dfddb6ef9bb3539ff7d013c0c8b2302a082410c14b3.png",
     "width": 1672,
