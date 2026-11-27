@@ -7114,6 +7114,21 @@
     }
   },
   {
+    "publicPath": "/blog/tcp-sack-example.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/5cff4c8cf604711cf715f335b23ef5ca2f2770a6858a5670d510501002717fd9.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "5cff4c8cf604711cf715f335b23ef5ca2f2770a6858a5670d510501002717fd9",
+    "bytes": 114852,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/73ac8cb91c90067ad6918f4c5f081b78b248bfecba104010d5b95ba277c6f004.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "73ac8cb91c90067ad6918f4c5f081b78b248bfecba104010d5b95ba277c6f004",
+      "bytes": 2089309
+    }
+  },
+  {
     "publicPath": "/blog/tcp-sequence-acknowledgment-numbers.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/7953e4daaea9d1e78ad2a80258566fc31f01de74fc80f2f84381ea5bc0cd89e4.png",
     "width": 1672,
