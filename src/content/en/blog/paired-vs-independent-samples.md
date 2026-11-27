@@ -141,6 +141,8 @@ Independent participants are randomly assigned to A or B. Everyone has a before 
 
 **Answer:** first calculate after-minus-before for each person. Those within-person measurements are paired. Then compare the resulting changes between the independent A and B groups, using an independent two-sample procedure on the changes if its conditions hold. A single paired test combining the two treatment groups would answer a different question. In particular, finding a change within A and no detectable change within B doesn’t itself test the difference between their changes.
 
+Practice defining one change per person from two measurements with the [statistical investigative questions flashcards](/catalog/packages/statistical-investigative-questions-flashcards/).
+
 ### 5. A missing measurement and a missing ID
 
 In the six-person table, F’s after score is missing. Separately, another copy contains every score but has lost all after-column IDs and has an unknown row order. Can either file simply be analyzed as independent samples?

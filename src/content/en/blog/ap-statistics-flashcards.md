@@ -81,6 +81,8 @@ For each major topic, check whether your cards go beyond “What does this term 
 
 If you remember the calculation but cannot explain what its result says about the population, the next card should ask for an interpretation—not repeat the calculation.
 
+The [flashcards on statistical investigative questions](/catalog/packages/statistical-investigative-questions-flashcards/) give you short prompts for Formulate Questions. Turn a study goal into a question an estimate or test can answer.
+
 ## Put recall on cards and reasoning in full problems
 
 Flashcards work when the retrieval target is narrow. Keep multi-step analysis and complete arguments in realistic practice.

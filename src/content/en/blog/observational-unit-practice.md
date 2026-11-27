@@ -46,6 +46,8 @@ The observational unit in this summary is one robot. **Observed runs** is a quan
 
 Both fractions describe what happened in this log. When you interpret “at least once,” keep the run counts in view. A1 had four chances to qualify, and B2 and C3 had one each. When you write a question of your own, name what you’ll count and what qualifies before picking a denominator. [AP Statistics investigative questions](/blog/investigative-question-ap-statistics/).
 
+Try that choice in a new setting with the [flashcards on statistical investigative questions](/catalog/packages/statistical-investigative-questions-flashcards/). Practice specifying what to measure and which people, objects, or events the question covers.
+
 ## Five practice questions
 
 Try these fictional exercises before checking the answers.

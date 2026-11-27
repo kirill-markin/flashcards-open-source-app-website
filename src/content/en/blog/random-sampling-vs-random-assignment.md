@@ -112,6 +112,8 @@ A defensible replacement is:
 
 If results are supplied, assess the estimated difference and its uncertainty before naming a better method. Also keep the comparison intact: evidence that B outperforms A would concern B versus A, not B versus no studying. A sound design tells you which question the results can answer.
 
+Try writing the question design 3 was set up to answer. The [investigative question flashcards](/catalog/packages/statistical-investigative-questions-flashcards/) give you more practice choosing whom the question covers and deciding when to ask about a causal effect.
+
 ## Seven practice scenarios
 
 For each scenario, identify the sampling procedure, the assignment procedure, and the strongest conclusion the description permits. Try writing your answer before reading the explanation. Every scenario below is hypothetical.

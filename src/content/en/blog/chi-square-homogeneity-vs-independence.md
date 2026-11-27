@@ -45,6 +45,8 @@ Use the **test for homogeneity** to compare the distribution of first-choice ser
 - **H₀** says the distribution of first-choice service is the same among North and South registered users.
 - **Hₐ** says the distribution of first-choice service differs between North and South registered users.
 
+The same table goes with two different study questions. Use the [investigative question flashcards](/catalog/packages/statistical-investigative-questions-flashcards/) to practice naming the population and stating the comparison a test should address.
+
 ## Check the conditions and calculate once
 
 In both studies, each user counts once in the table. Independence of observations concerns different users’ records. The null hypothesis in Study A concerns the two variables recorded for each user.

@@ -35,6 +35,8 @@ Those rates come from one workshop where people chose their own format. Even wit
 
 > More quick-card users finished unaided overall. At each experience level, the two formats had the same completion rate. Because participants chose their format, the study leaves open whether switching formats would change how often people finish unaided.
 
+Try phrasing the workshop study as a question about the format people chose and whether they finished unaided. The [investigative question flashcards](/catalog/packages/statistical-investigative-questions-flashcards/) give you more practice writing association questions and spotting where causal wording goes too far.
+
 ## How to write the two links
 
 Name one variable you could actually record, such as whether someone has used a printing press before. Then explain which explanatory group would have more of that variable and why. In a second sentence, explain whether the candidate would tend to raise or lower the response and why. Put the two links together to see which way the comparison could shift. Use *could* or *may* for links the scenario leaves unmeasured. [Penn State’s introductory statistics lesson, section 1.4.1](https://online.stat.psu.edu/stat200/Lesson01#confounding-variables).

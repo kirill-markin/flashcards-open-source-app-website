@@ -56,6 +56,8 @@ The six estimates average to **1/2**, and exactly **four of the six pairs** matc
 
 If you have the four rider rosters and need riders from every departure, use the stratified plan so each roster contributes. Now suppose each departure has its own pickup site, the team can collect data only in person, and it can cover two sites. Randomly draw two departures and collect the outcome for every rider at those sites. You need the full departure list for the draw and access to every rider on the chosen departures. Collecting data from people who are already in one place also helps in [OpenStax’s example of surveying students in selected class sections](https://openstax.org/books/contemporary-mathematics/pages/8-1-gathering-and-organizing-data).
 
+Both plans start with the same question about riders. Use the [investigative question flashcards](/catalog/packages/statistical-investigative-questions-flashcards/) to practice naming the population proportion you want to estimate before you plan the draw.
+
 ## Three sampling practice problems
 
 For each plan, name what you draw and who or what you measure. Write down your answers before checking the explanations.

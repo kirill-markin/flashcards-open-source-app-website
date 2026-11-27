@@ -37,6 +37,8 @@ For a two-sided 95% interval, use the supplied **t⋆ = 2.064**, rounded from th
 
 The third question still needs prediction. A future group average varies from group to group; it isn't the population mean itself.
 
+Use the [investigative question flashcards](/catalog/packages/statistical-investigative-questions-flashcards/) to practice naming a population mean or another parameter you want to estimate before choosing a procedure.
+
 If s and s / √n still feel interchangeable, work through the [standard deviation vs standard error examples](/blog/standard-deviation-vs-standard-error/) first.
 
 ## Calculate the mean confidence interval

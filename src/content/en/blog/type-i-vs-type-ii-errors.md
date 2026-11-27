@@ -127,6 +127,8 @@ A workshop accepts batches whose population mean alignment error is at most **0.
 
 Identify the error in each test. Why doesn't “held an acceptable batch” determine the label? As a boundary check, would a true mean of **exactly 0.4 mm** make either null false?
 
+Use the [flashcards on writing statistical questions](/catalog/packages/statistical-investigative-questions-flashcards/) to practice choosing the direction of the alternative from the question you want the test to answer.
+
 ### 5. Reality is missing
 
 A study tests H₀: Δ = 0 against Hₐ: Δ ≠ 0. It reports p = 0.02 and rejects H₀ at a prechosen α = 0.05. The true population Δ is unknown. Can you say it committed a Type I error? Which error is possible after this decision?
