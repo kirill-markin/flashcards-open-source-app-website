@@ -5479,6 +5479,21 @@
     "bytes": 2170006
   },
   {
+    "publicPath": "/blog/passive-voice-two-objects.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/5c7d8922f121127e33b97614cb1d18c7d2378e8c994a2c333da6db1caeb69927.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "5c7d8922f121127e33b97614cb1d18c7d2378e8c994a2c333da6db1caeb69927",
+    "bytes": 223538,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/8092579f493913a25e7571f3e5cb72a42a240f6a27af28c3d7955201ee644a65.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "8092579f493913a25e7571f3e5cb72a42a240f6a27af28c3d7955201ee644a65",
+      "bytes": 2658506
+    }
+  },
+  {
     "publicPath": "/blog/past-perfect-simple-vs-continuous.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/0a56ad4f87aeee8e7d512f40c556def74c39d39f7e3c104cdd7fef260a3ada67.webp",
     "width": 1672,
