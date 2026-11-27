@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-27"
+retirementReason: "Below the per-URL search and engagement thresholds at 90 days or older, with no material use found"
+retirementEvidence: "docs/content-retirement/2026-11-27.json#/records/src~1content~1de~1blog~1is-quizlet-open-source.md"
 title: "Ist Quizlet 2026 Open Source? Quellcode, API, Export und Self-Hosting"
 description: "Die Kernanwendung von Quizlet ist nicht Open Source. Hier erfährst du, was die öffentlichen GitHub-Repositories enthalten, was sich exportieren lässt, wie es um die API steht und was du nicht selbst hosten kannst."
 date: "2026-08-29"

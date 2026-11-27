@@ -1,4 +1,8 @@
 ---
+status: retired
+retiredAt: "2026-11-27"
+retirementReason: "Below the per-URL search and engagement thresholds at 90 days or older, with no material use found"
+retirementEvidence: "docs/content-retirement/2026-11-27.json#/records/src~1content~1ja~1blog~1is-quizlet-open-source.md"
 title: "Quizletはオープンソース？2026年のコード、API、エクスポート、セルフホスティング事情"
 description: "Quizletのコアアプリはオープンソースではありません。GitHubで公開されているコード、エクスポートできるデータ、APIの現状、セルフホストできない範囲を整理します。"
 date: "2026-08-29"
