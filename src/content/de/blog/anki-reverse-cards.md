@@ -45,6 +45,8 @@ Leg für A und B fest, dass der französische Artikel zur Antwort gehört, und e
 
 Aus „Die Lehrkraft hat am Mittwoch keine Zeit“ lässt sich die Frage nach dem Donnerstag kaum ableiten. Behalte bei C die ursprüngliche Richtung bei. Falls du eine weitere Frage brauchst, formuliere sie direkt. [Anleitung für bessere Kartenfragen](/de/blog/how-to-make-better-flashcards/)
 
+Die [Karteikarten zum italienischen Grundwortschatz](/de/catalog/packages/italienisch-grundwortschatz-deutschsprachige/) in Nibomo zeigen, wie die Abfragerichtung zur Situation passt. Im Café übst du, ausgehend von einer deutschen Vorgabe auf Italienisch zu bestellen. Bei einem italienischen Schild rufst du die Bedeutung auf Deutsch ab.
+
 ## Stell zuerst ein paar vorhandene Notizen um
 
 Die Schritte gelten für den unveränderten Notiztyp **Einfach** mit den Feldern **Vorderseite** und **Rückseite** und einer Karte in der ursprünglichen Richtung. Wenn du eigene Felder, geänderte Vorlagen oder den Notiztyp **Lückentext** verwendest, leg die Zuordnung für diese Notizen separat fest.
