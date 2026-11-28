@@ -115,6 +115,9 @@ type SiteStoreQrEventProperties = Readonly<
 >;
 
 interface SiteAnalyticsEventPropertiesByName {
+  readonly catalog_ai_deck_clicked: Readonly<{
+    result_count: number;
+  }>;
   readonly catalog_install_clicked: Readonly<{
     package_version_id: string;
     placement: SiteCatalogInstallPlacement;
