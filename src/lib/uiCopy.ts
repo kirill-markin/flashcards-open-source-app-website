@@ -1,4 +1,4 @@
-import type { AppLocale } from "@/lib/localeConfig";
+import { getLocaleNativeName, type AppLocale } from "@/lib/localeConfig";
 
 /** Footer attribution split around the linked name; prefix + name + suffix is the visible text. */
 export interface FooterAttributionCopy {
@@ -8396,6 +8396,19 @@ const BASE_UI_COPY_BY_LOCALE = {
   },
 } satisfies Readonly<Record<string, AppUiCopy>>;
 
+function getRegionalEnglishUiCopy(
+  locale: Extract<AppLocale, `en-${string}`>,
+): AppUiCopy {
+  return {
+    ...BASE_UI_COPY_BY_LOCALE.en,
+    localeSuggestion: {
+      ...BASE_UI_COPY_BY_LOCALE.en.localeSuggestion,
+      actionLabel: "Open this version",
+      message: `This page is available in ${getLocaleNativeName(locale)}.`,
+    },
+  };
+}
+
 const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
   ...BASE_UI_COPY_BY_LOCALE,
   "zh-hant": {
@@ -8562,9 +8575,9 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       webApp: "網頁版",
     },
   },
-  "en-au": BASE_UI_COPY_BY_LOCALE.en,
-  "en-ca": BASE_UI_COPY_BY_LOCALE.en,
-  "en-gb": BASE_UI_COPY_BY_LOCALE.en,
+  "en-au": getRegionalEnglishUiCopy("en-au"),
+  "en-ca": getRegionalEnglishUiCopy("en-ca"),
+  "en-gb": getRegionalEnglishUiCopy("en-gb"),
   "fr-ca": {
     ...BASE_UI_COPY_BY_LOCALE.fr,
     analyticsConsentBanner: {
