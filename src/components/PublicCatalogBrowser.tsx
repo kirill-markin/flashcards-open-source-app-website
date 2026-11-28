@@ -8,6 +8,7 @@ import {
   useState,
   useSyncExternalStore,
 } from "react";
+import { PublicCatalogAiDeckCard } from "@/components/PublicCatalogAiDeckCard";
 import { PublicCatalogPackageCard } from "@/components/PublicCatalogPackageCard";
 import {
   PublicCatalogCompactSinglePicker,
@@ -428,7 +429,10 @@ export function PublicCatalogBrowser({
     resultsFocusPageRef.current = allDecksState.page;
     updateFilter(allDecksState, "all", "clear", 0);
   };
-  const hasActiveControls = state.q.trim() !== ""
+  const topic = state.q.trim();
+  const hasNoResults = result.totalCount === 0;
+  const showAiDeckCard = topic !== "" && (hasNoResults || result.page === result.totalPages);
+  const hasActiveControls = topic !== ""
     || hasNarrowingFacets
     || state.sort !== null
     || state.page > 1;
@@ -554,11 +558,13 @@ export function PublicCatalogBrowser({
           ref={resultsRef}
           tabIndex={-1}
         >
-          {result.totalCount === 0 ? (
-            <p className={pageStyles.empty} role="status">
-              {copy.browse.noResultsLabel}
-            </p>
-          ) : (
+          <p
+            className={hasNoResults && !showAiDeckCard ? pageStyles.empty : "sr-only"}
+            role="status"
+          >
+            {hasNoResults ? copy.browse.noResultsLabel : null}
+          </p>
+          {!hasNoResults || showAiDeckCard ? (
             <div className={pageStyles.grid} data-testid="catalog-results">
               {result.packages.map((item) => (
                 <PublicCatalogPackageCard
@@ -570,8 +576,16 @@ export function PublicCatalogBrowser({
                   packageView={item.packageView}
                 />
               ))}
+              {showAiDeckCard ? (
+                <PublicCatalogAiDeckCard
+                  copy={copy.browse}
+                  locale={locale}
+                  resultCount={result.totalCount}
+                  topic={topic}
+                />
+              ) : null}
             </div>
-          )}
+          ) : null}
           {result.totalPages > 1 ? (
             <nav className={styles.pagination} aria-label={copy.browse.paginationLabel}>
               <button

@@ -147,3 +147,12 @@ export function reportPublicCatalogDeckOpen(
     ...(pagePath === null ? {} : { page_path: pagePath }),
   });
 }
+
+export function reportPublicCatalogAiDeckClick(
+  locale: AppLocale,
+  resultCount: number,
+): void {
+  sendSiteAnalyticsEvent("catalog_ai_deck_clicked", new Date().toISOString(), locale, {
+    result_count: resultCount,
+  });
+}

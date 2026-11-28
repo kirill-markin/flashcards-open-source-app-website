@@ -38,7 +38,8 @@
   outline: none;
 }
 
-.titleLink:focus-visible::after {
+.titleLink:focus-visible::after,
+.aiDeckLink:focus-visible {
   outline: 2px solid rgba(255, 214, 201, 0.42);
   outline-offset: -3px;
 }
@@ -52,6 +53,19 @@
 
 .coverLink {
   padding: 14px 14px 0;
+}
+
+.card .aiDeckArtwork {
+  margin: 14px 14px 0;
+  background:
+    radial-gradient(ellipse at center, var(--accent-muted), transparent 75%),
+    var(--bg-elevated);
+  color: var(--accent-strong);
+}
+
+.aiDeckArtwork svg {
+  inline-size: 64px;
+  block-size: 64px;
 }
 
 .body {
