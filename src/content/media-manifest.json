@@ -1039,6 +1039,21 @@
     "bytes": 2841259
   },
   {
+    "publicPath": "/blog/awk-field-separator.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/908c4893df729a915b454b9e3fb03a69a65acf82077eefecbdd78f1a2781fdb9.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "908c4893df729a915b454b9e3fb03a69a65acf82077eefecbdd78f1a2781fdb9",
+    "bytes": 223126,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/3734df35bb2da107a033d542859d335bec59a98011995d865b47293e26d96541.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "3734df35bb2da107a033d542859d335bec59a98011995d865b47293e26d96541",
+      "bytes": 2651742
+    }
+  },
+  {
     "publicPath": "/blog/balancing-redox-reactions-practice.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/184618fb75aed7a87f390284c209f42638765e229e6af89336697fa9d531d206.png",
     "width": 1672,
