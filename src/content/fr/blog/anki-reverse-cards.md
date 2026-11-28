@@ -45,6 +45,8 @@ Pour A et B, incluez l’article dans la réponse attendue et décidez si vous a
 
 Pour C, « Le professeur n’est pas disponible mercredi » pourrait répondre à plusieurs questions. Difficile de retrouver précisément « Pourquoi le cours a-t-il lieu jeudi ? » à partir de cette seule phrase. Gardez la carte d’origine dans le sens question → réponse. Si vous souhaitez une autre carte, écrivez sa question. [Guide pour mieux formuler les questions de vos cartes mémoire (en anglais)](/blog/how-to-make-better-flashcards/)
 
+Les [cartes de vocabulaire italien pour francophones](/fr/catalog/packages/vocabulaire-italien-debutant-francophones/) dans Nibomo illustrent ce choix. Pour passer une commande au café, vous partez d’une consigne en français et formulez la réponse en italien. Pour lire un panneau de gare, vous partez de l’italien et retrouvez le sens en français.
+
 ## Convertir un petit lot de notes existantes
 
 Utilisez cette procédure pour les notes de type **Basique** qui ont gardé les champs **Recto** (*Front*) et **Verso** (*Back*) et dont le modèle d’origine génère une seule carte dans le sens recto → verso. Si vous avez personnalisé les champs ou modifié les modèles, définissez les correspondances au cas par cas. Faites de même pour les notes de type **Texte à trous** (*Cloze*).
