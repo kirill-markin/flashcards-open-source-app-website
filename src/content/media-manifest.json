@@ -1,5 +1,20 @@
 [
   {
+    "publicPath": "/blog/6-8-time-signature-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/0b2ac4a61f9989a69342a63258b8420c9d8948c7d600ada8d23ea3a0fe6cdebf.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "0b2ac4a61f9989a69342a63258b8420c9d8948c7d600ada8d23ea3a0fe6cdebf",
+    "bytes": 160166,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/386b5ce95b35fa7fa60a1bfcfe50c959e55120a17408efbf3ca5673017aecda7.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "386b5ce95b35fa7fa60a1bfcfe50c959e55120a17408efbf3ca5673017aecda7",
+      "bytes": 2268268
+    }
+  },
+  {
     "publicPath": "/blog/accuracy-vs-precision.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/3b4b71ea70492cf752bf8c7c4632e8209b1258b508c2caf5243159e144430d59.png",
     "width": 1672,
