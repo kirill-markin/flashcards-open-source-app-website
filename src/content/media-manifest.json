@@ -7174,6 +7174,21 @@
     }
   },
   {
+    "publicPath": "/blog/tcp-retransmission-timeout.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/0ae008802f17c915684606dc130fbd378da77a57c05ce9026a0ce2f05fec7240.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "0ae008802f17c915684606dc130fbd378da77a57c05ce9026a0ce2f05fec7240",
+    "bytes": 152840,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/1e99b4e745beb2f8ab18fa6fa9521dabf52e916eb4804da87a5638b95f535ef4.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "1e99b4e745beb2f8ab18fa6fa9521dabf52e916eb4804da87a5638b95f535ef4",
+      "bytes": 2281394
+    }
+  },
+  {
     "publicPath": "/blog/tcp-sack-example.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/5cff4c8cf604711cf715f335b23ef5ca2f2770a6858a5670d510501002717fd9.webp",
     "width": 1672,
